@@ -1,0 +1,39 @@
+---
+description: Informações sobre a implementação do Target em cenários que não utilizam JavaScript como uma AdBox ou redirecionador.
+keywords: implementação; mbox.js não javascript; adbox; redirecionador; mbox
+seo-description: Informações sobre a implementação do Target em cenários que não utilizam JavaScript como uma AdBox ou redirecionador.
+seo-title: 'Email: implementação do Target'
+solution: Target
+subtopic: Introdução
+title: 'Email: implementação do Target'
+topic: Padrão
+uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Email: implementação do Target{#email-implement-target}
+
+Informações sobre a implementação do Target em cenários que não utilizam JavaScript como uma AdBox ou redirecionador.
+
+É possível rastrear as visitas aos anúncios e a outros conteúdos externos. Também é possível identificar a entrada e saída do mesmo usuário em seu site e fornecer uma experiência web consistente. Utilizando um único URL, a AdBox permite testes sem necessidade de JavaScript ou [!DNL at.js] ou [!DNL mbox.js].
+
+Uma AdBox é útil para sites que não têm [!DNL at.js] ou [!DNL mbox.js], como afiliadas. Se sua atividade requer anúncios dinâmicos (por exemplo, você deseja exibir um produto deixado no carrinho de compras em um anúncio), não é possível utilizar uma AdBox.
+
+Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade. A tabela abaixo compara uma AdBox e um Redirector e suas utilizações:
+
+|  | Propósito | Quando utilizar | Estrutura do URL | Tipo de oferta | Conteúdo da oferta |
+|--- |--- |--- |--- |--- |--- |
+| AdBox | Retorna imagens diferentes para o anúncio | Alterar o conteúdo de um anúncio | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | oferta de redirecionamento | URL de uma imagem |
+| Redirecionador | Redireciona o visitante para uma página da Web diferente | Alterar a página de aterrissagem de um anúncio | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | oferta de redirecionamento | URL de uma página |
+
+## Limitações {#section_38F559DCF1324271926608BCD4AB1227}
+
+* Não existe um tempo limite para o lado do cliente como nas mboxes padrão. Se o Target estiver completamente inacessível, os visitantes do anúncio não visualizarão qualquer conteúdo, nem mesmo o conteúdo padrão.
+* Cookies de terceiros são utilizados para rastrear as visitas. Se os PCIds forem diferentes, por padrão, o perfil de terceiros do visitante será combinado com qualquer perfil próprio existente.
+* Para utilizar cookies próprios na AdBox, é necessário enviar a sessão mbox no URL. Entre em contato com seu representante de contas para fazer isso.
+* Para utilizar cookies próprios para rastrear cliques de anúncios, é necessário enviar a sessão mbox no URL. Entre em contato com seu representante de contas para fazer isso.
+* Para utilizar mais de uma AdBox na mesma página, você deve enviar a sessão Mbox no URL. Entre em contato com seu representante de contas para fazer isso. Você pode ter mais de uma AdBox e um link Redirecionador na mesma página (porque o Redirecionador está na segunda página).
+
