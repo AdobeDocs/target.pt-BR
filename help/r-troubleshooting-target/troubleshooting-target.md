@@ -1,0 +1,154 @@
+---
+description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
+keywords: solução de problemas do target, solucionar problemas no target
+seo-description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
+seo-title: Solução de problemas do Target
+solution: Target
+title: Solução de problemas do Target
+topic: Advanced,Standard,Classic
+uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Solução de problemas do Target{#troubleshoot-target}
+
+Lista de tópicos para ajudá-lo a resolver problemas no [!DNL Adobe Target], incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
+
+## Atividades
+
+As seguintes seções contêm informações de solução de problemas em atividades, separadas por tipo:
+
+### Solução de problemas em atividades gerais
+
+* [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Solução de problemas em atividades](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
+
+### [!UICONTROL Teste A/B], [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] (AT)
+
+* [Nove erros comuns em testes A/B e como evitá-los](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+* [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+* [Direcionamento automático para experiências personalizadas](/help/c-activities/auto-target-to-optimize.md)
+
+### Personalização automatizada (AP)
+
+* [Perguntas frequentes sobre a personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Solução de problemas de personalização automatizada](/help/c-activities/t-automated-personalization/ap-trouble.md)
+
+### Teste multivariado (MVT)
+
+* [Práticas recomendadas para testes multivariados](/help/c-activities/c-multivariate-testing/best-practices.md)
+* [Solução de problemas de testes multivariados](/help/c-activities/c-multivariate-testing/best-practices.md)
+* [Estimar o tráfego necessário para um teste bem-sucedido](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+
+### Recommendations
+
+* [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md)
+
+## Integração do Analytics e do Target (A4T)
+
+* [Solução de problemas na integração do Analytics e do Target ](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
+* &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Adobe Analytics como fonte de relatórios da funcionalidade do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
+* Perguntas frequentes sobre o A4T
+   * [Minimizar contagens inflacionadas de visitas e visitantes no A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
+   * [Provisionamento inicial - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
+   * [Configuração da atividade - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
+   * [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
+   * [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+   * [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
+   * [Definições de métricas - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
+   * [Compartilhar métricas, segmentos e relatórios - Perguntas frequentes do A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+   * [Contagens aumentadas de visitas e visitantes - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
+   * [Classificações - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+   * [Integração herdada do SiteCatalyst ao Test&amp;Target - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+
+## Públicos e metas
+
+* [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Perguntas frequentes sobre direcionamentos e públicos](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+* [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md)
+
+## Conteúdo
+
+* [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Solução de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md)
+
+## Permissões empresariais
+
+* [Permissões de usuário empresarial](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+
+## Experiências
+
+* [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Solução de problemas do Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+* [Conflitos de atividades](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)
+
+## Mbox global
+
+* [Mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+
+## Hosts/ambientes
+
+* [Solucionar problemas dos hosts](/help/administrating-target/hosts.md)
+
+## Implementação
+
+As seguintes seções contêm informações de solução de problemas ao implementar o Target:
+
+### Implementação geral
+
+* [Navegadores compatíveis](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
+* [Usar instâncias baseadas em nuvem com o Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+
+### Mboxes globais
+
+* [Perguntas frequentes sobre a mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+
+### at.js
+
+* [Perguntas frequentes sobre a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
+* [Depuração da at.js usando o Adobe Experience Cloud Debugger ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+* [Limitações da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
+* [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+
+### mbox.js
+
+* [Perguntas frequentes sobre a mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+* [Detalhes da versão da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
+
+## Problemas conhecidos
+
+* [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md)
+
+## Relatório
+
+* [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md)
+
+## Otimização do mecanismo de pesquisa (SEO)
+
+* [Teste amigável da Otimização do mecanismo de pesquisa (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+
+## Status do sistema
+
+* [Atualizações do status do sistema](/help/r-release-notes/system-status-updates.md)
+
+## Direcionamento
+
+* [Geografia](/help/c-target/c-audiences/c-target-rules/geo.md)
+
+## Usuários
+
+* [Solução de problemas no gerenciamento de usuários](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
+
+## Visual Experience Composer (VEC)
+
+* [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
+* [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+* [Práticas recomendadas e limitações do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+* [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte o [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
