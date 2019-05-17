@@ -1,0 +1,89 @@
+---
+description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
+keywords: Direcionamento, visual experience composer, whitelist, lista de permissões, enhanced visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, eec, enhanced experience composer, tls, tls 1.2
+seo-description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
+seo-title: Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
+solution: Target
+title: Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
+uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
+
+Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
+
+## Quando eu tento editar uma página, só vejo um ponteiro, em vez da minha página. (VEC e EEC) {#section_313001039F79446DB28C70D932AF5F58}
+
+Isso poderá ocorrer se o URL contiver um caractere #. Para corrigir o problema, alterne para o modo de navegação no Visual Experience Composer e depois alterne de novo para o modo Compor. O ponteiro deverá sumir e a página deverá ser carregada.
+
+## Os cabeçalhos da Política de segurança do conteúdo (CSP) bloqueiam as bibliotecas do Target no meu site. (VEC e EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+
+Se os cabeçalhos de CSP do seu site bloquearem as Bibliotecas do Target e carregarem o site, mas impedirem a edição, verifique se as bibliotecas do Target não estão bloqueadas.
+
+>[!NOTE]
+>
+>Além das seguintes informações, você pode usar a extensão de navegador [Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para Google Chrome.
+
+![](assets/cps_headers.png)
+
+Como solução alternativa, é possível configurar uma regra do Requestly para remover cabeçalhos de CSP, conforme mostrado abaixo.
+
+![](assets/cps_headers_2.png)
+
+É possível configurar uma regra Requestly semelhante para qualquer cabeçalho que faça com que um recurso não seja carregado dentro do VEC.
+
+Para Requestly, sempre que houver a necessidade de remover cabeçalhos, você deve fazer o seguinte:
+
+* Adicione regras de URL ao URL que você deseja abrir no VEC, para que os cabeçalhos sejam removidos apenas para esses URLs.
+* Habilite a regra quando estiver editando no VEC e desabilite a regra quando não estiver usando o VEC.
+
+## O VEC ou o EEC aparecem interrompidos ou não inicializam ao editar novamente uma atividade salva. (VEC e EEC) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+
+Se o site tiver sido alterado fora do Visual Experience Composer após a definição da experiência, os seletores nos quais ações foram executadas antes não poderão ser encontradas quando a atividade for aberta para reedição. A página parece quebrada e nenhum aviso é exibido.
+
+## O VEC ou EEC não exibem meus banners rotativos e outros conteúdos contendo JavaScript. (VEC e EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
+
+Por padrão, o Visual Experience Composer bloqueia elementos de JavaScript. Você poderá trabalhar com esses elementos se desativar o JavaScript nas configurações do Visual Experience Composer. Dependendo do modo como o site estiver configurado, alguns itens poderão continuar sendo exibidos incorretamente ou permanecer indisponíveis.
+
+## Meu arquivo target.js hospedado falha ao carregar em recarregamentos de páginas subsequentes. (VEC e EEC) {#section_87F6418C2CD142A7B4D1E7037935F81F}
+
+Esse problema ocorre quando os clientes têm uma versão da mbox.js anterior à versão 57 (ou seja, versão 56 ou anterior).
+
+Recomendamos que todos os usuários da sala de aula virtual atualizem para a [versão mais recente do mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) o pelo menos atualizem para a versão 57. Considere também [fazer a transição para o at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+
+## Quando eu altero um elemento na página, vários elementos são alterados. (VEC e EEC) {#section_309188ACF34942989BE473F63C5710AF}
+
+Se a mesma ID de elemento DOM for usada em vários elementos na página, a alteração desses elementos modificará todos os elementos com essa ID. Para evitar que isso aconteça, uma ID só deverá ser usada uma vez em cada página. Essa é uma prática recomendada de HTML padrão. Para obter mais informações, consulte [Cenários de modificação da página](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+
+## Não consigo editar experiências para um site do iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
+
+Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]** e marque a caixa de seleção que ativa o Enhanced Experience Composer. O Enhanced Experience Composer usa um proxy gerenciado pela Adobe para carregar sua página para edição. Isso permite a edição de sites no iFrame e a edição de sites e páginas em que ainda não adicionou código do Adobe Target. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites talvez não sejam carregados no Enhanced Experience Composer, nesse caso, você poderá desmarcar essa opção para carregar o Visual Experience Composer via um iFrame. []
+
+>[!NOTE]
+>
+>As páginas hospedadas localmente ou as páginas que não podem ser acessadas fora da sua rede não podem ser acessadas pelo servidor proxy da Adobe e não podem ser abertas no EEC. Essas páginas podem incluir URLs de preparação, URLs de Teste de aceitação do usuário (UAT) ou páginas hospedadas localmente.
+
+## Quero configurar testes nas páginas que ainda não têm a implementação de mbox/direcionamento. (VEC e EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+
+Consulte &quot;Não consigo editar experiências para um site do iFrame&quot;.
+
+## Os estilos de texto negrito e itálico com Editar texto/HTML ou Alterar texto/HTML não são exibidos na minha página. Às vezes, o texto desaparece após aplicar essas alterações de estilo. (VEC e EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
+
+Se você usar **[!UICONTROL Editar texto/HTML]** no Visual Experience Composer para atividades A/B ou de Direcionamento de experiência ou **[!UICONTROL Alterar texto/HTML]** para atividades de Personalização automatizada ou Teste multivariado para formatar o texto em negrito ou itálico, esses estilos poderão não ser aplicados na página ou o texto poderá desaparecer da página no Visual Experience Composer. Isso ocorre porque a maneira como o editor de rich text aplica esses estilos pode interferir na marcação do site.
+
+Caso veja esse problema:
+
+1. Clique no botão **[!UICONTROL HTML]no editor de rich text para entrar no modo de edição de fonte.**
+1. Encontre os elementos de texto de estilos.
+
+   * Para texto em negrito, altere os elementos `<strong>` para `<b>`.
+
+   * Para texto em itálico, altere os elementos `<em>` para `<i>`.
+
+## Para atividades de Personalização automatizada, a troca de imagem aparece quebrada no VEC ou no EEC. (VEC e EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
+
+A adição de uma oferta de imagem a um local obtém a dimensão completa do espaço de imagem original no VEC ou no EEC. Na entrega, a imagem não é expandida e é mostrada como está, de modo que não há impacto na entrega.
