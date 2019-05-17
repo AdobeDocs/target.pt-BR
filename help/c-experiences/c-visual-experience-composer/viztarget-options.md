@@ -1,0 +1,342 @@
+---
+description: Quando você clica em um elemento de página no Visual Experience Composer (VEC), um menu mostra as opções que estão disponíveis para esse tipo de elemento.
+keywords: opções do visual experience composer, opções do visual experience composer, opções de experiência, editar texto, editar html, editar texto/html, editar cor de fundo, cor de fundo, inserir elemento, editar link, link, link do visual experience composer, editar classe css, classe css, trocar oferta, troca de oferta, trocar imagem, troca de imagem, remover item, remoção de item, ocultar item, ocultação de item, reorganizar, mover elemento, movimentação de elemento, redimensionar elemento, redimensionamento de elemento, elemento, expandir seleção, navegar até este link, navegar pelo link, navegação no link, navegar, desfazer, refazer, desfazer/refazer
+seo-description: Quando você clica em um elemento de página no Adobe Target Visual Experience Composer (VEC), um menu mostra as opções que estão disponíveis para esse tipo de elemento.
+seo-title: Opções do Adobe Target Visual Experience Composer (VEC)
+solution: Target
+title: Opções do Visual Experience Composer
+topic: Padrão
+uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Opções do Visual Experience Composer{#visual-experience-composer-options}
+
+Quando você clica em um elemento de página no Visual Experience Composer (VEC), um menu mostra as opções que estão disponíveis para esse tipo de elemento. Além disso, um caminho DOM é exibido na parte inferior da página que permite navegar facilmente pela estrutura da página.
+
+## Opções de VEC
+
+As várias ações do Visual Experience Composer (VEC) são agrupadas as opções de menu apropriadas para tornar sua tarefa mais rápida e eficiente:
+
+![Menu de opções da VEC](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
+
+>[!NOTE]
+>
+>As opções disponíveis dependem do tipo de atividade que você está editando.
+
+### Editar
+
+As opções disponíveis são as seguintes:
+
+#### Texto/HTML {#edit-text-html}
+
+Altere o código HTML do elemento, como o texto para uma área de texto, botão ou link.
+
+Além do código HTML, você pode editar e injetar JavaScript personalizado.
+
+Várias opções de formatação de rich text estão disponíveis durante a edição de texto e HTML para atividades de teste [!UICONTROL A/B] e [!UICONTROL direcionamento de experiência]. Você pode escolher uma fonte, selecionar um estilo de fonte, alterar o alinhamento do texto e outras opções de formatação de texto padrão. Ao modificar o HTML, você pode alternar entre a exibição de código e a exibição de rich-editing do HTML.
+
+As seguintes tags HTML 5 podem ser aninhadas:
+
+| Adicionar tag | Tags aninhadas permitidas |
+| --- | --- |
+| `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
+| `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
+| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<label>` | `<p>` |
+
+#### Cor do plano de fundo
+
+Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pode selecionar uma amostra de cor e ajustá-la com valores de RGB ou códigos de cor hexadecimal. O x vermelho no seletor de cores torna o fundo transparente.
+
+**Observação:** essa opção não está disponível para um elemento no qual uma imagem do fundo está definida.
+
+#### Estilos
+
+Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Você também pode adicionar estilização adicional.
+
+Para acessar o [!UICONTROL painel Estilos] , clique em um elemento de página no VEC e, em seguida, clique **[!UICONTROL em Editar]** &gt; **[!UICONTROL Estilos]**.
+
+O painel [!UICONTROL Estilos] é exibido no lado direito do VEC. O painel contém uma lista de estilos que permite editar ou adicionar ao elemento selecionado. Um Editor CSS em tempo real permite exibir alterações e adicionar estilos se você estiver confortável usando Folhas de estilo em cascata (CSS) ou se receber código de seu desenvolvedor.
+
+![Painel Estilos](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
+
+Ao aplicar estilos diferentes, você sempre pode reverter as alterações clicando no ícone [!UICONTROL Reverter] que é exibido no canto superior direito do painel [!UICONTROL Estilos] depois de fazer uma alteração em qualquer seção. Observe que clicar no [!UICONTROL ícone Reverter] reverte todas as alterações no painel da seção atual.
+
+Expanda cada seção para editar ou adicionar estilos, conforme explicado abaixo. Para salvar as alterações, clique no ícone Voltar na parte superior do painel para retornar à tela principal do painel e clique **[!UICONTROL em Salvar]**.
+
+Observe que os pontos azuis no painel principal e ao lado de cada opção nos vários painéis de seção indicam que você fez alterações nos estilos correspondentes. Isso facilita a análise das alterações antes de clicar [!UICONTROL em Salvar].
+
+>[!NOTE]
+>
+>Ações rápidas para alterações de layout, cor de fundo, redimensionamento e movimento também estão disponíveis como ações separadas no menu VEC. Essas opções podem ser aproveitadas como ações separadas ou você pode usar o menu Estilos, como explicado aqui.
+
+* **Tipografia**
+
+   Altere a tipografia de um elemento. Edições de tipografia são rápidas e fáceis.
+
+   Embora o editor de rich text (Editar texto/HTML) esteja disponível para ajuste fino, ações rápidas para fazer alterações ao elemento inteiro estão disponíveis por meio dessa opção. Se você quiser aplicar alterações a tipografia somente a parte do texto (e não ao texto completo), use o [editor de rich text](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+
+   É possível editar os seguintes estilos de tipografia:
+
+   * Tamanho da fonte
+   * Espessura da fonte
+   * Estilo da fonte
+   * Cor (especifique o código colorido ou use o seletor de cores)
+   * Espaçamento entre palavras
+   * Altura da linha
+   * Alinhamento de texto
+
+* **Margem**
+
+   Altere a margem para o elemento selecionado. Você pode alterar as margens esquerda, direita, inferior e superior.
+
+   Clique no ícone suspenso para cada margem para escolher entre as seguintes opções:
+
+   * Automático
+   * Valor (arrastar o controle deslizante para definir a margem ou especificar o número de pixels para cada margem)
+   A margem suporta valores positivos e negativos.
+
+   O Target também oferece suporte a outras unidades de tamanho, como rem, pc, em, etc. Para obter mais informações sobre essas unidades, consulte [Dicas e truques de folhas de estilos da Web](https://www.w3.org/Style/Examples/007/units.en.html).
+
+* **Preenchimento**
+
+   Altere o preenchimento do elemento selecionado. Você pode alterar o preenchimento esquerdo, direito, inferior e superior.
+
+   Arraste o controle deslizante para definir o preenchimento ou especificar o número de pixels para preenchimento.
+
+   O preenchimento oferece suporte para escalonamentos de largura a partir de 0.
+
+   O Target também oferece suporte a [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+
+* **Borda**
+
+   Clique nos ícones de borda na parte superior do painel para alterar a borda do elemento selecionado.
+
+   É possível editar os seguintes estilos para cada borda (superior, direita, inferior e esquerda):
+
+   * Estilo da borda (nenhum, oculto, pontilhado, tracejado, sólido ou duplo)
+   * Cor da borda (especifique o código de cor ou use o seletor de cores)
+   * Largura da borda (arrastar o controle deslizante para selecionar uma largura de borda ou especificar a largura em pixels)
+   A borda oferece suporte para escalonamentos de largura a partir de 0.
+
+   O Target também oferece suporte a [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+
+* **Posição**
+
+   Mova o elemento selecionado da posição atual. Você pode alterar a posição superior, inferior, esquerda, direita e [de índice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) do elemento.
+
+   Clique na [!UICONTROL lista] suspensa Estático para escolher entre as seguintes opções de posição:
+
+   * Estático
+   * Relativo
+   * Absoluto
+   * Aderente
+   * Fixo
+   Clique no ícone suspenso para cada posição escolher entre as seguintes opções:
+
+   * Automático
+   * Valor (arrastar o controle deslizante para posicionar o elemento ou especificar o número de pixels que deseja mover o elemento)
+   A posição suporta valores positivos e negativos.
+
+   O Target também oferece suporte a [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+
+* **Tamanho**
+
+   Altere a largura e a altura do elemento selecionado.
+
+   Clique no ícone suspenso próximo à [!UICONTROL Largura] e [!UICONTROL Altura] para escolher entre as seguintes opções:
+
+   * Automático
+   * Valor (arrastar o controle deslizante para dimensionar o elemento ou especificar o número de pixels para cada dimensão)
+
+* **Filtro**
+
+   Arraste o controle deslizante para cada opção de filtro ou especifique a porcentagem desejada:
+
+   * Sépia
+   * Contraste
+   * Brilho
+   * Grayscale
+   * Desfoque
+   * Opacidade
+   * Inverter
+   * Rotação de matiz
+   * Saturate
+
+* **Editor CSS**
+
+   O Editor CSS em tempo real permite exibir alterações e adicionar estilos se você estiver confortável usando Folhas de estilo em cascata (CSS) ou se receber código de seu desenvolvedor.
+
+   O Editor CSS exibe todas as alterações feitas no painel Estilos. Conforme mostrado na ilustração abaixo, o tamanho da fonte, a borda superior e o tamanho da imagem foram alterados:
+
+   ![Editor de CSS com alterações](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
+
+   Observe os pontos azuis ao lado das [!UICONTROL opções Tipografia], [!UICONTROL Borda]e [!UICONTROL Tamanho] na ilustração anterior. Esses pontos indicam que você fez alterações nessas seções. Se você abrir esses painéis de seção, os pontos azuis serão exibidos ao lado das opções específicas que você alterou.
+
+   Você pode digitar seu próprio código se o estilo desejado não estiver disponível por padrão nos [!UICONTROL Estilos].
+
+   Observe que o Editor de CSS mostra detalhes somente da sessão atual. Se você salvar alterações e reabrir o editor, os detalhes sobre a alteração anterior não serão exibidos no editor, mesmo que você selecione o mesmo elemento novamente.
+
+   >[!Important]
+   >
+   >Você pode aplicar uma imagem de fundo usando o Editor CSS, mas pode causar oscilação. Teste as alterações antes da implantação.
+
+#### Classe CSS
+
+Especifique a classe CSS usada para o elemento. Se mais de um elemento for selecionado, separe várias classes CSS com um espaço.
+
+Disponível para atividades de [!UICONTROL A/B], [!UICONTROL personalização automatizada] e [!UICONTROL teste multivariado].
+
+#### Link
+
+Alterar o URL no link.
+
+Use Editar link para atualizar o seletor para apontar para o mesmo elemento de imagem. No entanto, a vinculação com um elemento de imagem diferente não é compatível. Para vincular a um elemento de imagem diferente, exclua a ação original do editor de códigos e use o [!UICONTROL Visual Experience Composer] para aplicar a ação ao outro elemento de imagem.
+
+### Inserir antes
+
+As opções disponíveis são as seguintes:
+
+#### Imagem, HTML e texto
+
+Inclua qualquer tipo de elemento em sua página, além de modificar o conteúdo existente. Inclua texto, código, listas, entre outros, para criar experiências completamente diferentes para testar.
+
+Selecione um elemento da página, clique em [!UICONTROL Inserir antes] e escolha se você quer inserir uma imagem, HTML ou texto. O elemento inserido aparece antes do elemento selecionado.
+
+O comportamento do elemento inserido depende da estrutura da página, do CSS e de outras opções de configuração de página. É necessário um HTML válido para fazer página aparecer corretamente. Sempre teste sua página após inserir um item para garantir que ele apareça conforme esperado.
+
+[!UICONTROL O Recommendations] oferece suporte para [!UICONTROL Inserir antes] do conteúdo das tags DIV, SECTION e ARTICLE.
+
+**Observação:** para Inserir uma imagem, o [!DNL Adobe Scene7 Publishing System] deve estar habilitado para que você tenha acesso à biblioteca de imagens.
+
+#### Recomendação
+
+Inclua recomendações nas atividades de teste A/B (incluindo as atividades Autoalocação e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+
+#### Fragmento de experiência
+
+Insira fragmentos de experiência criados em [!DNL Adobe Experience Manager] (AEM) nas atividades [!DNL Target] para auxiliar na otimização ou na personalização. Para obter mais informações, consulte [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+
+### Inserir depois de
+
+As opções disponíveis são as seguintes:
+
+#### Imagem, HTML e texto
+
+Inclua qualquer tipo de elemento em sua página, além de modificar o conteúdo existente. Inclua texto, código, listas, entre outros, para criar experiências completamente diferentes para testar.
+
+Selecione um elemento da página, clique em [!UICONTROL Inserir depois de] e escolha se você quer inserir uma imagem, HTML ou texto. O elemento inserido aparece após o elemento selecionado.
+
+O comportamento do elemento inserido depende da estrutura da página, do CSS e de outras opções de configuração de página. É necessário um HTML válido para fazer página aparecer corretamente. Sempre teste sua página após inserir um item para garantir que ele apareça conforme esperado.
+
+[!UICONTROL O Recommendations] oferece suporte para [!UICONTROL Inserir antes] do conteúdo das tags DIV, SECTION e ARTICLE.
+
+**Observação:** para Inserir uma imagem, o [!DNL Adobe Scene7 Publishing System] deve estar habilitado para que você tenha acesso à biblioteca de imagens.
+
+#### Recomendação
+
+Inclua recomendações nas atividades de teste A/B (incluindo as atividades Autoalocação e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+
+#### Fragmento de experiência
+
+Insira fragmentos de experiência criados em [!DNL Adobe Experience Manager] (AEM) nas atividades [!DNL Target] para auxiliar na otimização ou na personalização. Para obter mais informações, consulte [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+
+### Substituir com
+
+As opções disponíveis são as seguintes:
+
+#### Imagem
+
+Selecione uma imagem diferente da Biblioteca de conteúdo. As imagens disponíveis para troca incluem aquelas carregadas na pasta de ativos da Experience Cloud ou na Biblioteca de conteúdo do Target.
+
+Durante a criação da atividade inicial, o URL exibido não é o URL usado para a entrega. Após a sincronização da atividade, esse URL é atualizado para um URL de produto do Scene7.
+
+Por exemplo, o URL inicial pode se parecer com o seguinte exemplo:
+
+`https://test.marketing.adobe.com/content/dam/mac/scholasticinc/Aug_MBM.jpeg?ch_ck=1470774943867`
+
+Após a sincronização da atividade, o URL de entrega pode ser parecido com o seguinte exemplo:
+
+`http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
+
+O Recommendations suporta Substituir por tags DIV, SECTION e ARTICLE.
+
+**Observação:** a troca de imagens exige uma conta do sistema de publicação do Adobe Scene7.
+
+#### Oferta HTML
+
+Selecione uma oferta diferente da [!UICONTROL Biblioteca de conteúdo].
+
+**Observação:**[!DNL Target] ofertas de HTML são armazenadas em servidores do
+
+Uma oferta de HTML pode ter até 256 KB.
+
+#### Recomendação
+
+Inclua recomendações nas atividades de teste A/B (incluindo as atividades Autoalocação e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+
+#### Fragmento de experiência
+
+Insira fragmentos de experiência criados em [!DNL Adobe Experience Manager] (AEM) nas atividades [!DNL Target] para auxiliar na otimização ou na personalização. Para obter mais informações, consulte [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
+
+### Layout
+
+As opções disponíveis são as seguintes:
+
+#### Reorganizar
+
+Arraste o elemento para outro local no mesmo elemento pai ou DIV. Outros elementos trocam de local para abrir espaço para o elemento reorganizado.
+
+**Observação:** clicar no rastreamento não funciona em itens reorganizados.
+
+#### Redimensionar
+
+Redimensionar um elemento na página. Ao selecionar [!UICONTROL Redimensionar], uma alça, que permite arrastar o canto para dimensionar, aparece no canto inferior direito do elemento. Segure a tecla Shift para manter a mesma proporção.
+
+**Observação:** elementos em linha não podem ser redimensionados.
+
+#### Mover
+
+Mover elementos na página. Diferentemente da opção [!UICONTROL Reorganizar], [!UICONTROL Mover] não altera a posição de outros elementos para abrir espaço para o elemento que está sendo movido. Use as teclas de seta para ajustar o movimento. (Aprimoramento planejado: suporte para garantir que os elementos movidos não estejam ocultos atrás de outros elementos.)
+
+Em alguns casos, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele.
+
+#### Ocultar
+
+Ocultar o elemento. O espaço em branco permanece, mas o conteúdo é removido.
+
+#### Remover
+
+Remova o elemento. O espaço em branco atrás da imagem é removido e o espaço onde o elemento estava é recolhido.
+
+**Observação:** os itens de uma mbox &quot;clássica&quot; (uma mbox criada em uma campanha do Target Classic) não podem ser removidos usando esta opção.
+
+### Expandir seção
+
+Selecione o elemento pai, além do elemento selecionado originalmente. Ao selecionar qualquer elemento pai, todos os filhos desse elemento serão selecionados automaticamente. Você pode expandir a seleção várias vezes.
+
+### Navegar para o link
+
+Abra o destino do link.
+
+### Desfazer/Refazer
+
+Desfaça as alterações feitas em suas atividades durante uma sessão de alteração. Você também pode refazer alterações que foram desfeitas anteriormente.
+
+## Navegar pelos elementos usando o caminho DOM {#dom-path}
+
+Quando você clica em um elemento na página, o menu de opções da VEC é exibido. Além disso, quando você clica em um elemento, o caminho DOM correspondente é exibido na parte inferior da página.
+
+![Caminho DOM](/help/c-experiences/c-visual-experience-composer/assets/dom-path.png)
+
+Você pode usar o caminho DOM para ver rapidamente informações sobre o elemento selecionado (tipo, ID e classe) e mover para cima ou para baixo o caminho DOM para selecionar o elemento desejado.
+
+Quando você passa o mouse sobre o caminho DOM, uma caixa azul destaca o elemento correspondente no VEC. Quando você clica no elemento, uma caixa laranja destaca o elemento e o menu de opções da VEC é exibido, conforme explicado acima.
+
+Você pode navegar facilmente para qualquer elemento pai, irmão ou filho dentro do VEC usando o caminho DOM.
+
+O recurso de caminho DOM também está disponível ao configurar o rastreamento [de cliques](/help/c-activities/r-success-metrics/click-tracking.md).
