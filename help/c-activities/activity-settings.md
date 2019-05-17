@@ -1,0 +1,70 @@
+---
+description: Use as Configurações da atividade para gerenciar o objetivo, a prioridade e a duração das atividades.
+keywords: Objetivo e amp; Configurações; objetivo; prioridade; duração
+seo-description: Use as Configurações da atividade para gerenciar o objetivo, a prioridade e a duração das atividades.
+seo-title: Configurações de atividade
+solution: Target
+subtopic: Teste multivariado
+title: Configurações de atividade
+topic: Padrão
+uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Configurações de atividade{#activity-settings}
+
+Use as Configurações da atividade para gerenciar o objetivo, a prioridade e a duração das atividades.
+
+1. Insira observações sobre o objetivo da atividade.
+
+   Digite qualquer informação sobre sua atividade que seja útil para manter ao seu alcance ou de outros membros da equipe. Arraste para redimensionar o campo [!UICONTROL Objetivo].
+1. Definir a prioridade da atividade.
+
+   Dependendo das configurações, a interface do usuário e as opções de [!UICONTROL Prioridade] variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.
+
+   A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
+
+   Se esta opção não estiver ativada na [!UICONTROL Configurar] (padrão), especifique uma prioridade: baixa, média ou alta.
+
+   Para ativar as propriedades otimizadas, clique em [!UICONTROL Configurar] e alterne a opção [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ativado&quot;.
+
+   Se esta opção estiver ativada, especifique um valor entre 0 e 999:
+
+   * 0 = Baixo
+   * 999 = Alto
+   Para atividades criadas em versões anteriores do [!DNL Target Standard/Premium], a prioridade Baixa é convertida para 0, a Média é convertida para 5 e a Alta é convertida para 10. É possível ajustar esses valores conforme necessário.
+
+   >[!NOTE]
+   >
+   >Antes de poder desabilitar esta opção após o uso de prioridades otimizadas, todas as prioridades devem ser ajustadas novamente para 0, 5 e 10.
+
+1. Defina a duração da atividade.
+
+   É possível ativar e desativar manualmente a atividade ou especificar uma data e hora para a entrega da atividade. O controle de hora usa um relógio de 24 horas, sendo 00:00 a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
+
+   >[!NOTE]
+   >
+   >O agendamento de uma atividade controla seu prazo de entrega; no entanto, a atividade deve ser ativada explicitamente para poder ser entregue de acordo com o agendamento especificado.
+
+A página [!UICONTROL Meta e configurações] inclui configurações adicionais que variam de acordo com o tipo de atividade que você está criando. Para obter mais informações sobre essas configurações, consulte seu tipo de atividade:
+
+* [Teste A/B](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Personalização automatizada](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+* [Direcionamento de experiência](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Teste multivariado](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+
+## Vídeo de treinamento: configurações da atividade**
+
+Este vídeo inclui informações sobre as configurações da atividade.
+
+* Inserir um objetivo para a atividade
+* Definir o nível de prioridade das atividades
+* Programar as horas de início e término da atividade
+* Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
+* Inserir observações para a atividade
+
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
