@@ -1,0 +1,93 @@
+---
+description: O Target permite monitorar os cliques em um elemento como uma métrica de sucesso.
+keywords: Acompanhamento de cliques; rastrear cliques; cliques; AppMeasurement
+seo-description: O Target permite monitorar os cliques em um elemento como uma métrica de sucesso.
+seo-title: Rastreamento de cliques
+solution: Target
+subtopic: Introdução
+title: Rastreamento de cliques
+topic: Padrão
+uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Rastreamento de cliques{#click-tracking}
+
+O Target permite monitorar os cliques em um elemento como uma métrica de sucesso.
+
+>[!NOTE]
+>
+>O rastreamento de cliques não é suportado na mbox global de destino quando é usada como um local em uma atividade baseada em forma.
+
+## Configurar o rastreamento de cliques {#section_5540C5A533114E57BAE022A600B02E72}
+
+1. Ao definir suas metas na página [!UICONTROL Metas e configurações] para a atividade, selecione a métrica de sucesso de **[!UICONTROL Conversão].**
+1. Para ação, selecione **[!UICONTROL Clicou em um elemento]** e clique em **[!UICONTROL Selecionar elementos]**.
+
+   A página é aberta no [!UICONTROL Visual Experience Composer] (VEC).
+
+1. Selecione os elementos que deseja rastrear.
+
+   Consulte a seção Considerações abaixo para obter dicas sobre como selecionar elementos.
+
+1. Clique na marca de seleção na parte superior da tela para salvar suas seleções.
+
+Quando um participante da atividade clica em um elemento selecionado, esse clique é contado como uma conversão.
+
+## Considerações {#considerations}
+
+Há várias coisas a considerar ao selecionar elementos:
+
+* O recurso de caminho DOM está disponível ao configurar o rastreamento de cliques. Quando você clica em um elemento na página, o menu de opções da VEC é exibido. Além disso, o caminho DOM correspondente é exibido na parte inferior da página. Você pode usar o caminho DOM para ver rapidamente informações sobre o elemento selecionado (tipo, ID e classe) e mover para cima ou para baixo o caminho DOM para selecionar o elemento desejado.
+
+   ![Ilustração de caminho DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+
+   Assim como ao criar experiências na Etapa 1 no fluxo de trabalho de criação de atividade, o seletor de caminho DOM na parte inferior da página permite escolher um elemento. Ao selecionar um elemento a partir do caminho DOM, o elemento correspondente na VEC é exibido como &quot;Selecionado&quot;. Para desmarcar um elemento selecionado, você pode novamente clicar no elemento no seletor de caminho DOM ou clicar na caixa «Selecionado» dentro do VEC.
+
+   Para obter mais informações, consulte [Navegar pelos elementos usando o caminho](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) DOM nas *Opções do Visual Experience Composer*.
+
+* É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o [recurso multipágina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] ou [!DNL mbox.js] devem ser implementadas nela.
+* Se selecionar mais de um elemento, caso um participante clique em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento.
+* Certifique-se de selecionar o nível do elemento que deseja rastrear. Por exemplo, ao especificar um botão, certifique-se de selecionar o link e não o texto do botão.
+* Os eventos de clique são enviados para o [!DNL Target] na mesma página de destino do clique.
+* Se a métrica de rastreamento de cliques for a métrica de meta de uma atividade do A4T, o visitante deverá clicar nesse elemento dentro de 60 segundos do carregamento da página para que a métrica seja rastreada.
+* O rastreamento de cliques não funciona em elementos que incluem caracteres ignorados em seus seletores, incluindo os seguintes:
+
+   | Caractere | Descrição |
+   |---|---|
+   | # | Sinal de número ou hash |
+   | : | Dois-pontos |
+   | . | Ponto |
+   | $ | Símbolo de moeda |
+   | [ ] | Colchetes |
+
+* Se usar o rastreamento de cliques [!DNL at.js] e também o Analytics AppMeasurement, o rastreamento de cliques [!DNL at.js] cancelará todos os outros manipuladores de eventos de clique. Como resultado, o manipulador de cliques do AppMeasurement nunca é executado.
+
+    [!DNL at.js] tem um processamento especial para o rastreamento de cliques quando o elemento subjacente é uma tag `A`A (link) ou `FORM`.
+
+   As seguintes etapas são executadas pela [!DNL at.js] quando o evento de rastreamento de cliques é adicionado uma tag `A`A (link) ou `FORM`:
+
+   1. Chame `event.preventDefault()`.
+
+   1. Acione a solicitação do Target.
+
+   1. Na chamada de retorno de sucesso ou erro da solicitação do Target, execute o comportamento padrão:
+
+      * Tag `A` (link): o comportamento padrão é navegar até o URL definido pela atributo HREF.
+      * Tag `FORM`: o comportamento padrão é enviar o formulário.
+   Este comportamento padrão pode interferir no rastreamento de cliques do Analytics. Se estiver usando o Analytics, deverá confiar nele para o rastreamento de cliques em vez do Target.
+
+* O rastreamento de cliques não é gravado nas páginas em que a página e o URL da atividade pertencem a propriedades diferentes. As permissões do usuário do Enterprise são um recurso do Target Premium. Para obter mais informações, consulte [Permissões de usuário do Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+## Vídeo de Treinamento {#section_36607204DAE146E3B8E2C609D244EDB1}
+
+Este vídeo inclui informações sobre a criação de métricas de sucesso de rastreamento de cliques.
+
+* Compreender métricas de &quot;meta&quot;
+* Entender e construir métricas de conversão, receita e envolvimento
+* Criar uma métrica de rastreamento de cliques
+
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
