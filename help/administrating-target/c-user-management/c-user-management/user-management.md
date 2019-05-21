@@ -9,7 +9,7 @@ title: Usuários
 topic: Padrão
 uuid: 9 b 311 dd 3-b 8 fa -483 d-aedd -96761 cfcd 67 e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -45,7 +45,7 @@ Para tarefas executadas no Adobe Admin Console, acesse o console seguindo estas 
 
    Ou
 
-   Se você já estiver conectado à Experience Cloud, vá para [https://www.marketing.adobe.com](https://www.marketing.adobe.com/)e clique no ícone [!UICONTROL Aplicativo] na barra de navegação superior &gt; clique **[!UICONTROL em Administração]** no lado direito &gt; em seguida, clique **[!UICONTROL em Iniciar Admin Console]**.
+   Se você já estiver conectado à Experience Cloud, vá para [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)e clique no ícone [!UICONTROL Aplicativo] na barra de navegação superior &gt; clique **[!UICONTROL em Admin]** no lado direito.
 
 1. (Condicional) Se tiver acesso ao [!DNL Admin Console for Enterprise] para mais de uma organização, clique no avatar do usuário no canto direito ou na barra de navegação superior e selecione a organização desejada.
 
@@ -53,14 +53,14 @@ Para tarefas executadas no Adobe Admin Console, acesse o console seguindo estas 
 
 Todo o gerenciamento de usuários deve ser executado no [!DNL Adobe Admin Console for Enterprise]. Entretanto, todos os seus usuários existentes no [!DNL Target] serão migrados do [!DNL Target] para o [!DNL Admin Console for Enterprise].
 
-1. [No Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique em **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Usuários]** para criar novos usuários ou editar usuários existentes.
+1. [No Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique **[!UICONTROL em Usuários]** &gt; **[!UICONTROL Usuários]** para criar novos usuários ou editar usuários existentes.
 1. Siga as instruções em [Gerenciar usuários e grupos na Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) no *Guia do usuário da empresa*.
 
 ## Criar grupos de usuários {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 É possível criar grupos de usuários, como Desenvolvedores, Analistas, Profissionais de marketing, Executivos, etc., e atribuir privilégios a vários produtos e espaços de trabalho da Adobe. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
 
-1. [No Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique em **[!UICONTROL Gerenciamento de usuários]** &gt; **[!UICONTROL Grupos de usuários]** para criar novos grupos de usuários ou editar grupos existentes.
+1. [No Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique **[!UICONTROL em Usuários]** &gt; Grupos **[!UICONTROL de usuários]** para criar novos grupos de usuários ou editar grupos existentes.
 1. Siga as instruções em [Gerenciar usuários e grupos na Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) no *Guia do usuário da empresa*.
 
 ## Especificar funções e permissões {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
@@ -71,21 +71,33 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
 
 1. [No Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique em **[!UICONTROL Produtos]** e selecione o nome do produto desejado.
 
-   ![](assets/workspace.png)
+   ![Guia Produtos](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Clique no nome da configuração desejada.
-1. Clique em **[!UICONTROL Usuários de configuração]**.
+1. Clique em **[!UICONTROL Usuários]**.
 
-   A guia [!UICONTROL Usuários de configuração] exibe todos os usuários nesse espaço de trabalho.
+   A guia [!UICONTROL Usuários] exibe todos os usuários nessa área de trabalho.
 
-   ![](assets/configuration_users.png)
+   ![usuários de configuração](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
 1. Selecione a função de permissões desejada (Observador, Editor ou Aprovador) usando a lista suspensa de cada usuário na coluna [!UICONTROL Função do produto].
 
-| Função | Descrição |
-|--- |--- |
-| Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
-| Editor | pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
-| Aprovador | Pode criar, editar e ativar ou parar atividades. |
+   | Função | Descrição |
+   |--- |--- |
+   | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
+   | Editor | pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+   | Aprovador | Pode criar, editar e ativar ou parar atividades. |
 
 Para obter mais informações, consulte [Gerenciar permissões e funções do produto no Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) no *Guia do usuário da empresa*.
+
+## Vídeo de treinamento: Como configurar espaços de trabalho do Target
+
+Objetivos de aprendizagem:
+
+* Acesse o Adobe Admin Console na interface do Adobe Target (três formas)
+* Configurar uma área de trabalho no Adobe Admin Console
+   * Adicionar usuários a espaços de trabalho
+   * Adicionar propriedades aos espaços de trabalho
+* Compreenda espaços de trabalho padrão
+
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
