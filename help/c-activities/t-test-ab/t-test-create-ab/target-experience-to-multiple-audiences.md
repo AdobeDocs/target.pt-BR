@@ -8,7 +8,7 @@ title: Múltiplas versões de uma experiência em um teste A/B
 topic: Padrão
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
 
 1. [Crie uma atividade A/B](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) normalmente.
 
-   Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir. 1. Selecione a experiência e clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Vários públicos-alvo]**.
+   Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir.
+
+1. Selecione a experiência e clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Vários públicos-alvo]**.
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
    Se o público-alvo ainda não existir, clique em [Criar público-alvo](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configure-o.
 
    Se um visitante se qualifica para mais de um público-alvo, o conteúdo para todos públicos-alvo são exibidos, com o último na lista renderizando a página.
+
 1. Continue configurando a atividade.
 
 **Práticas recomendadas**
