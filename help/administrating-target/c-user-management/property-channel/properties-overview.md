@@ -11,18 +11,18 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Configurar permissões corporativas{#configure-enterprise-permissions}
 
-Informações sobre as tarefas necessárias para adicionar usuários à sua implementação do Target; criar espaços de trabalho, grupos de usuários e propriedades; atualizar sua implementação do Target para incluir o parâmetro at_property; e especificar funções e permissões.
+Informações sobre as tarefas necessárias para adicionar usuários à sua implementação do Target; criar espaços de trabalho, grupos de usuários e propriedades; atualizar sua implementação do Target para incluir o parâmetro `at_property`; e especificar funções e permissões.
 
 >[!NOTE]
 >
->A funcionalidade Propriedades e permissões está disponível como parte da solução do [!DNL Target Premium]. Eles não estão disponíveis em [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>A funcionalidade Propriedades e permissões está disponível como parte da solução do [Target Premium](/help/c-intro/intro.md#premium). Eles não estão disponíveis em [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 
 A tabela a seguir lista as tarefas que você deve realizar para criar propriedades e atribuir funções e permissões de usuário. Consulte as seções abaixo para obter mais informações sobre cada tarefa.
 
@@ -37,11 +37,11 @@ A tabela a seguir lista as tarefas que você deve realizar para criar propriedad
 
 Para essas tarefas realizadas no Adobe Admin Console for Enterprise, acesse o console seguindo essas etapas:
 
-1. Acesse [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) &gt; faça logon usando sua Adobe ID, caso ainda não tenha se conectado.
+1. Acesse [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; faça logon usando sua Adobe ID, caso ainda não tenha feito logon.
 
    Ou
 
-   Se você já estiver conectado à Experience Cloud, vá para [https://www.marketing.adobe.com](https://www.marketing.adobe.com/)e clique no ícone [!UICONTROL Aplicativo] na barra de navegação superior &gt; clique **[!UICONTROL em Administração]** no lado direito &gt; em seguida, clique **[!UICONTROL em Iniciar Admin Console]**.
+   Se você já estiver conectado à Experience Cloud, vá para [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)e clique no ícone [!UICONTROL Aplicativo] na barra de navegação superior &gt; clique **[!UICONTROL em Admin]** no lado direito.
 
 1. (Condicional) Se tiver acesso ao [!DNL Admin Console for Enterprise] para mais de uma organização, clique no avatar do usuário no canto direito ou na barra de navegação superior e selecione a organização desejada.
 
@@ -49,7 +49,7 @@ Para essas tarefas realizadas no Adobe Admin Console for Enterprise, acesse o co
 
 Quando você começa a usar a nova funcionalidade [!UICONTROL Propriedades], todo o gerenciamento de usuário deve ser realizado no [!DNL Adobe Admin Console for Enterprise]. Entretanto, todos os seus usuários existentes no [!DNL Target] serão migrados do [!DNL Target] para o [!DNL Admin Console for Enterprise].
 
-1. [No Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), clique na guia **[!UICONTROL Usuários]** na parte superior da página &gt; **Usuários]para criar novos usuários ou editar usuários existentes.[!UICONTROL **
+1. [No Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), clique na guia **[!UICONTROL Usuários]** na parte superior da página &gt; **[!UICONTROL Adicionar usuários]** para criar novos usuários ou editar usuários existentes.
 1. Siga as instruções em [Gerenciar usuários e grupos na Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) no *Guia do usuário da empresa*.
 
 ## Etapa 2: Crie um espaço de trabalho (Perfil do produto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -58,13 +58,13 @@ Um espaço de trabalho (Perfil de produto) permite que uma organização atribua
 
 As organizações podem começar a tirar vantagem da funcionalidade de permissões empresariais criando novos espaços de trabalho dentro do Admin Console, atribuindo propriedades do Target a esses espaços de trabalho e movendo usuários da configuração &quot;Espaço de trabalho padrão&quot; para esses novos espaços de trabalho de acesso limitado.
 
-Clientes podem usar esses espaços de trabalho para separar o acesso a diferentes equipes por região, por unidades de negócios, por seção do site ou por qualquer outro método que escolham.
+Os clientes podem usar esses espaços de trabalho para separar o acesso a diferentes equipes por região, por unidade de negócios, por seção do site ou por qualquer outro método escolhido.
 
 Os usuários podem fazer parte de vários espaços de trabalho e podem até ter diferentes funções dentro de cada um deles.
 
 1. No Admin Console, clique em **[!UICONTROL Produtos]**, depois selecione o nome do produto desejado.
 
-   ![espaço de trabalho](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
+   ![espaço de trabalho](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Crie o espaço de trabalho desejado (Perfil do produto):
 
@@ -90,7 +90,7 @@ Você precisará passar a ID da área de trabalho para aproveitar Permissões em
 1. No [Adobe Admin Console](https://adminconsole.adobe.com), clique na guia [!UICONTROL Produtos] e, em seguida, clique no produto no menu esquerdo para exibir a lista PLC (espaço de trabalho).
 1. Clique no CM desejado (espaço de trabalho) e localize a ID &quot;perfis&quot; no URL, como mostrado abaixo.
 
-![Workspaceid](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![Workspaceid](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## Etapa 3. Criar grupos de usuários (Opcional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -114,7 +114,7 @@ As propriedades pertencem a canais específicos (Web, dispositivos móveis, emai
 
    Preencha os campos:
 
-   * **Canal:** Especifique o canal desejado para a propriedade: Web, Aplicativo móvel, Email, ou Outro/API (por exemplo, um set-top box ou console PlayStation).
+   * **Canal:** Selecione o canal desejado para a propriedade: Web, Aplicativo móvel, Email ou Outro/API (por exemplo, uma caixa de conjunto ou um console playstation).
    * **Nome: (obrigatório):** especifique um nome descritivo para o grupo.
    * **Descrição:** especifique uma descrição opcional para a propriedade.
 
@@ -149,11 +149,15 @@ Para usar a funcionalidade de permissões de usuário do [!DNL Target], você de
 
    Há várias maneiras de atualizar sua implementação do [!DNL Target]. Por exemplo, é possível usar os métodos a seguir em páginas da Web:
 
-   * **Por meio de um &quot;Parâmetro global&quot; em[!DNL Dynamic Tag Management](Adobe Activation):**
+   * **Por meio de um &quot;Parâmetro global em[!DNL Adobe Launch]:**
+
+      Para obter mais informações, consulte [Adicionar parâmetros](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) de mbox global na documentação *do Adobe* Experience Platform Launch.
+
+   * **Por meio de um &quot;Parâmetro global&quot; em[!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
-      Para obter mais informações, consulte [Parâmetros globais - Adobe Target](https://marketing.adobe.com/resources/help/en_US/dtm/target_global_params.html) na *Documentação de produto do Dynamic Tag Management*.
+      Para obter mais informações, consulte [Parâmetros globais - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) na *Documentação de produto do Dynamic Tag Management*.
 
    * **Pela função targetPageParams ():** coloque o seguinte código no <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> tags, acima da referência de at.js ou mbox.js.
 
@@ -171,16 +175,16 @@ Para usar a funcionalidade de permissões de usuário do [!DNL Target], você de
 
 1. No Admin Console, clique em **[!UICONTROL Produtos]**, depois selecione o nome do produto desejado.
 
-   ![espaço de trabalho](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
+   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
    >[!NOTE]
    >
-   >A funcionalidade Propriedades e Permissões se aplica somente a [!DNL Target Standard/Premium]. Não é possível usar essa funcionalidade com [!DNL Target Classic].
+   >A funcionalidade Propriedades e permissões se aplica somente ao [Target Standard/Premium](/help/c-intro/intro.md#premium) . Não é possível usar essa funcionalidade com [!DNL Target Classic].
 
 1. Clique no nome do perfil desejado.
 1. Clique em **[!UICONTROL Usuários]**.
 
-   A guia [!UICONTROL Usuários de configuração] exibe todos os usuários nesse espaço de trabalho.
+   A guia [!UICONTROL Usuários] exibe todos os usuários nessa área de trabalho.
 
    ![Configurar usuários](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
