@@ -8,7 +8,7 @@ title: Limites
 topic: Padrão
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -38,6 +38,10 @@ Valores maiores que 256 caracteres são truncados.
 ## Nomes de atributos do cliente
 
 **Limite**: 128 caracteres.
+
+## ID de alias do atributo do cliente
+
+**Limite** de 50 caracteres.
 
 ## Atributos personalizados de entidade
 
