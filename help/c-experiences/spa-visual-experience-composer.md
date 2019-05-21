@@ -8,7 +8,7 @@ title: Aplicativo de página única (SPA) no Visual Experience Composer
 topic: Padrão
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -198,9 +198,9 @@ Como mostrado abaixo, o painel [!UICONTROL Modificações] captura as ações cr
 
 **Ações**
 
-Clique em uma ação para destacar o elemento no site onde esta ação será aplicada. Cada ação do VEC criada em uma exibição tem quatro ícones, como mostrado abaixo: Informações, Editar, Mover para &quot;Carregamento da página&quot; e Excluir.
+Clique em uma ação para destacar o elemento no site onde esta ação será aplicada. Cada ação VEC criada em uma Exibição tem quatro ícones como mostrado abaixo: Informações, Editar, Mover e Excluir.
 
-![Painel de modificações](/help/c-experiences/assets/modifications.png)
+![Modificações](/help/c-experiences/assets/modifications-new.png)
 
 A seguinte tabela descreve cada ação:
 
@@ -208,8 +208,12 @@ A seguinte tabela descreve cada ação:
 | --- | --- |
 | Informações | Exibe os detalhes da ação. |
 | Editar | Permite editar as propriedades da ação diretamente. |
-| Mover para &quot;Carregamento da página&quot; | Move a ação para um evento de carregamento da página. Essas ações normalmente são aplicadas ao HTML estático do SPA, que é usado em páginas, como o cabeçalho e o rodapé. |
+| Mover | Move a ação para um Evento de carregamento de página ou qualquer outra exibição que já existe no painel de modificações.<br>[!UICONTROL Evento de carregamento de página] - qualquer ação correspondente ao evento de carregamento da página é aplicada no carregamento da página inicial do aplicativo da Web.<br>**Observação** após a realização de uma operação de movimento, é necessário navegar para a Exibição no VEC via Procurar para ver se o movimento foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro |
 | Excluir | Exclui a ação. |
+
+>[!NOTE]
+>
+>Você pode executar várias ações antes da página ser carregada no VEC, ou mesmo que a página não carregue totalmente. Ações que não podem ser editadas antes que o site seja carregado estão desabilitadas na interface do 
 
 **Exemplo 1**
 
