@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -17,14 +17,24 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Esta página lista alterações importantes feitas na [!DNL Adobe Target] documentação.
 
+## Adobe Target Standard/Premium 11 .5.1 (May 1 de maio de 2019) {tgt -19-5-1}
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| May 1 de maio de 2019 | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Foram atualizadas as informações sobre a opção «Mover».</li><li>Foi adicionada uma observação informando que você pode executar várias ações antes da página ser carregada no VEC, ou mesmo que a página não seja carregada totalmente. </li></ul> |
+|  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texto com título, imagens atualizadas e vídeo de treinamento adicionado. |
+|  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Texto e imagens marcadas. |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Limite de caracteres adicionado para a ID de alias do atributo do cliente. |
+|  | [Notas de versão](/help/r-release-notes/release-notes.md): 19.5.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
+
 ## Adobe Target Standard/Premium 19.4.2 (30 de abril de 20 19) {19-4-2}
 
 **Observação**: A versão do Target Standard/Premium 19.4.1 era uma versão de maintanência para atualizar a interface do usuário da Adobe Experience Cloud para refletir as alterações de marca e produto.
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 15 de maio de 2019 | [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | Foi adicionada uma observação informando que você deve acionar os eventos `at-view-start` e `at-view-end` os eventos. |
-| 14 de maio de 2019 | [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - configurar o aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[iOS - configurar o aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), configurar<br>[o rastreamento de cliques no VEC móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Novos tópicos. |
+| May 5 de maio de 2019 | [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | Foi adicionada uma observação informando que você deve acionar os eventos `at-view-start` e `at-view-end` os eventos. |
+| May 4 de maio de 2019 | [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - configurar o aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[iOS - configurar o aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), configurar<br>[o rastreamento de cliques no VEC móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Novos tópicos. |
 |  | [Envio de dados dinâmicos em ofertas](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Atualização do texto. |
 | May 3 de maio de 2019 | [Controle de qualidade da atividade ](/help/c-activities/c-activity-qa/activity-qa.md) | Adição de item à lista Considerações sobre o uso do Modo de QA em uma atividade de várias páginas. |
 |  | [Incluir a mesma experiência em páginas semelhantes](/help/c-experiences/c-visual-experience-composer/temtest.md) | Etapas atualizadas para corresponder à interface do usuário. |
