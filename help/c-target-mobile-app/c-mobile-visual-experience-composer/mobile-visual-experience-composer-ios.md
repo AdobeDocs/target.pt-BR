@@ -8,7 +8,7 @@ title: iOS - Configuração do aplicativo móvel
 topic: Padrão
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -277,3 +277,19 @@ Pode haver determinados cenários em que você queira chamar a API de pré-busca
 + (void) prefetchOffersBackground;
 ```
 
+## Tutoriais: Implementação da Experience Cloud em aplicativos Ios-C e Swift do iOS {#tutorial}
+
+* [Implementar a Experience Cloud em aplicativos Objetive-C para Ios](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implementar a Experience Cloud em aplicativos Mobile iOS móveis](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+
+Após concluir esses tutoriais, você poderá:
+
+* Criar uma propriedade Mobile Launch
+* Instalar uma propriedade Launch em um aplicativo Objetive-C ou Swift
+* Implemente as seguintes soluções da Adobe Experience Cloud:
+   * Serviço da Experience Cloud ID
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* Publicar alterações no Launch por meio de ambientes de desenvolvimento, armazenamento temporário e produção
