@@ -7,7 +7,7 @@ title: Aplicativo para dispositivos móveis do Visual Experience Composer
 topic: Padrão
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -197,3 +197,6 @@ Observe que, sempre que as ofertas do Target forem previamente buscadas, se poss
    * A caixa de diálogo do dispositivo é exibida ao navegar da etapa &quot;Metas e configurações&quot; de volta para a etapa &quot;Criação&quot; (Etapa 1). Se o aplicativo já estiver aberto, você deve fechar e reiniciar o aplicativo para conectar-se novamente ao VEC do aplicativo móvel.
    Certifique-se de fechar o aplicativo na seção de aplicativos recentes e não pressionando o botão [!UICONTROL Voltar.]
 
+## Vídeo de treinamento: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
+
+>[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
