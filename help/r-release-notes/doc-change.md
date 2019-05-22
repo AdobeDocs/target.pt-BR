@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -24,6 +24,7 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 | 19 de maio de 22 20 | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Adição de vídeo de treinamento. |
 |  | [iOS - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | Links adicionados aos novos tutoriais:<ul><li>Implementar a Experience Cloud em aplicativos Objetive-C para Ios</li><li>Implementar a Experience Cloud em aplicativos Mobile iOS móveis</li></ul> |
 |  | [Android - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | Adicionado um link para o novo tutorial:<ul><li>Implementar a Experience Cloud em aplicativos móveis Android</li></ul> |
+|  | [Introdução ao Target](/help/c-intro/intro.md#kit) | Adicionado um link para o Kit de boas-vindas do Adobe Target. |
 | May 1 de maio de 2019 | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Foram atualizadas as informações sobre a opção «Mover».</li><li>Foi adicionada uma observação informando que você pode executar várias ações antes da página ser carregada no VEC, ou mesmo que a página não seja carregada totalmente. </li></ul> |
 |  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texto com título, imagens atualizadas e vídeo de treinamento adicionado. |
 |  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Texto e imagens marcadas. |
