@@ -8,7 +8,7 @@ title: Android - Configuração do aplicativo móvel
 topic: Padrão
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -305,3 +305,18 @@ Pode haver determinados cenários em que você queira chamar a API de pré-busca
    public static void prefetchOffersBackground();
    ```
 
+## Tutorial: Implementar a Experience Cloud em aplicativos móveis Android {#tutorial}
+
+* [Implementar a Experience Cloud em aplicativos móveis Android](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+
+Após concluir este tutorial, você poderá:
+
+* Criar uma propriedade Mobile Launch
+* Instalar uma propriedade Launch em um aplicativo Android
+* Implemente as seguintes soluções da Adobe Experience Cloud:
+   * Serviço da Experience Cloud ID
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* Publicar alterações no Launch por meio de ambientes de desenvolvimento, armazenamento temporário e produção
