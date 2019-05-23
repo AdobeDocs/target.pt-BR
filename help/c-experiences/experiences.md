@@ -8,7 +8,7 @@ title: Experiências e ofertas
 topic: Padrão
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 65ffe800c8518ff7a74c98168fbeab530f96075a
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -16,6 +16,8 @@ source-git-commit: 65ffe800c8518ff7a74c98168fbeab530f96075a
 # Experiências e ofertas{#experiences-and-offers}
 
 Uma experiência determina qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
+
+Uma experiência pode ser uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez formam um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de serviço ao cliente ou até mesmo um gosto personalizado de uma máquina bebida. Teste ou personalize experiências nas [!DNL Target] atividades.
 
 Uma atividade normalmente contém mais de uma experiência. Por exemplo, os visitantes da área de Salt Lake City podem visualizar uma oferta de desconto de US$ 30 em botas para esqui, enquanto os visitantes de San Diego visualizam um desconto para roupas de banho. Ou, você pode testar uma página com ofertas especiais diferentes para os visitantes que retornam. Cada uma dessas ofertas está apresentada em uma experiência separada.
 
