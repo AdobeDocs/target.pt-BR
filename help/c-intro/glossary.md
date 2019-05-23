@@ -7,7 +7,7 @@ title: Glossário
 topic: Padrão
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -48,7 +48,7 @@ A [!DNL at.js] é uma nova biblioteca de implementação do [!DNL Adobe Target],
 
 **público-alvo**
 
-Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.
+Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio oeste. O recurso Público-alvo permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, exibindo as mensagens certas para as pessoas certas na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência será exibida, com base em critérios definidos durante a criação da atividade.
 
 **Alocação automática**
 
@@ -154,6 +154,10 @@ A medida de interesse dos visitantes em um site que avalia o tempo no site, os c
 
 O [!UICONTROL Enhanced Experience Composer] é uma extensão do [!UICONTROL Visual Experience Composer] que ajuda você a editar uma experiência para um site de edição de iframe ou páginas que ainda não contêm a implantação do [!DNL Target]. Se você tiver dificuldade em abrir a sua página no [!UICONTROL Visual Experience Composer], tente o [!UICONTROL Enhanced Experience Composer].
 
+**Permissões de usuário empresarial**
+
+Um meio de administração formal de acesso de usuário empresarial ao Target. Adicione usuários ao Target, atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de Observador, Editor ou Aprovador.
+
 **atributos da entidade**
 
 Parâmetros personalizados usados para transmitir informações sobre produtos ou conteúdo ao Recommendations.
@@ -168,7 +172,7 @@ Os hosts são agrupados em ambientes para facilitar o gerenciamento. Os grupos d
 
 **experiência**
 
-Define o conteúdo (ou a oferta) que é exibido em uma mbox. Também conhecido como receita.
+Uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez formam um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de serviço ao cliente ou até mesmo um gosto personalizado de uma máquina bebida. Teste ou personalize experiências nas [!DNL Target] atividades.
 
 **direcionamento da experiência**
 
@@ -191,6 +195,10 @@ Retorna os elementos de conteúdo para um arquivo Flash.
 **diagrama de fluxo**
 
 A representação visual de uma atividade no Target Standard.
+
+**Experience Composer baseado em formulário
+
+Uma experiência não visual e uma interface de criação de ofertas útil na criação de experiências para uso em testes A/B, atividades de direcionamento de experiência, personalização automatizada e atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou prático para uso. Por exemplo, você pode usar o compositor baseado em forma para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -300,6 +308,10 @@ Um grupo de usuários com um conjunto específico de privilégios.
 
 Para hospedar conteúdo fora do [!DNL Target], use ofertas remotas, que o [!DNL Target] faz referência e entrega aos sites do usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
 
+**relatórios**
+
+Os relatórios fornecem informações sobre o progresso e os resultados de suas atividades que ajudam a tomar decisões com base em seus dados. Os dados do relatório podem ajudá-lo a decidir quando finalizar um teste, mostrar qual experiência da oferta é o vencedor e fornecer insights ou aprendizados necessários para determinar as próximas ações.
+
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **parâmetro do perfil de script**
@@ -324,7 +336,7 @@ Semelhante ao parâmetro do perfil de script, porém predefinido para oferecer u
 
 **métricas de sucesso**
 
-Os parâmetros usados para medir o sucesso de uma atividade.
+Os parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta aumenta sua receita por visitante ou adiciona um item ao carrinho de compras. As métricas de sucesso podem ser úteis para descobrir problemas com registro, pedidos ou funis de compra, mas simplesmente com envolvimento de visitante ou cliente.
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
@@ -350,7 +362,7 @@ Um visitante é qualquer pessoa que acessa seu site. Um visitante é avaliado em
 
 **Visual Experience Composer**
 
-No Target Standard, uma representação da sua página que fornece uma forma de identificar visualmente os componentes de uma página ativada para Target e para modificar partes da página diretamente, em vez de exigir o uso do aplicativo Target.
+No Target Standard, uma interface de usuário WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta) ou da página da Web móvel.
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
