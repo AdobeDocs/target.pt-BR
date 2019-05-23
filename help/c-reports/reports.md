@@ -9,14 +9,14 @@ title: Relatórios
 topic: Padrão
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e2638ad0438d637cce84b0387709d255b9f4a58d
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Relatórios{#reports}
 
-Os relatórios apresentam informações sobre o desempenho de suas atividades.
+Os relatórios fornecem informações sobre o progresso e os resultados de suas atividades que ajudam a tomar decisões com base em seus dados. Os dados do relatório podem ajudá-lo a decidir quando finalizar um teste, mostrar qual experiência da oferta é o vencedor e fornecer insights ou aprendizados necessários para determinar as próximas ações.
 
 >[!NOTE]
 >
