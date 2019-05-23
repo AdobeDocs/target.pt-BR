@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -21,6 +21,15 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| May 3 de maio de 2019 | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Atualização do texto na introdução. |
+|  | [Experiências e ofertas](/help/c-experiences/experiences.md) | Atualização do texto na introdução. |
+|  | [Públicos-alvo](/help/c-target/target.md) | Atualização do texto na introdução. |
+|  | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md) | Atualização do texto na introdução. |
+|  | [Relatórios](/help/c-reports/reports.md) | Atualização do texto na introdução. |
+|  | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Atualização do texto na introdução. |
+|  | [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md) | Atualização do texto na introdução. |
+|  | [Permissões de usuário empresarial](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Atualização do texto na introdução. |
+|  | [Glossário](/help/c-intro/glossary.md) | Adição e atualização de várias entradas. |
 | 19 de maio de 22 20 | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Adição de vídeo de treinamento. |
 |  | [iOS - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | Links adicionados aos novos tutoriais:<ul><li>Implementar a Experience Cloud em aplicativos Objetive-C para Ios</li><li>Implementar a Experience Cloud em aplicativos Mobile iOS móveis</li></ul> |
 |  | [Android - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | Adicionado um link para o novo tutorial:<ul><li>Implementar a Experience Cloud em aplicativos móveis Android</li></ul> |
