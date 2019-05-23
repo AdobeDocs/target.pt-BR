@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Permissões do usuário corporativo ![PREMIUM](/help/assets/premium.png){#enterprise-user-permissions}
 
-Informações sobre como criar propriedades e usar a funcionalidade Propriedades e permissões, que permite aos administradores do Target criar espaços de trabalho separados (perfis de produto) no Target e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais com base nesses espaços de trabalho.
+As permissões do usuário empresarial são um meio de administração formal de acesso de usuário empresarial ao Target. Adicione usuários ao Target, atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de Observador, Editor ou Aprovador.
 
 ## Determine se você tem acesso a permissões de usuário do Enterprise
 
