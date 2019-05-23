@@ -8,16 +8,14 @@ title: Experience Composer baseado em formulário
 topic: Padrão
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Experience Composer baseado em formulário{#form-based-experience-composer}
 
-O Experience Composer baseado em formulário oferece a criação de experiências não visuais.
-
-Essa função permite que testes A/B no Target Standard, direcionamento de experiências, personalização automatizada e atividades do Recommendations sejam entregues em emails, aplicativos móveis, quiosques e outros locais que não funcionam com o Visual Experience Composer.
+O Criador de experiências baseado em forma é uma experiência não visual e uma interface de criação de ofertas útil para criar experiências para uso em testes A/B, direcionamento de experiência, personalização automatizada e atividades do Recommendations quando o Visual Experience Composer não está disponível ou prático para uso. Por exemplo, você pode usar o compositor baseado em forma para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
 Se você está criando uma atividade do Recommendations, não há experiências. Escolha seu critério e design. Se você escolher vários critérios ou designs, o Target gera as experiências automaticamente.
 
