@@ -9,7 +9,7 @@ title: Fazendo download de dados em um arquivo CSV
 topic: Padrão
 uuid: 9 ac 151 e 1-45 a 9-4 d 46-b 23 b-e 7 c 9 ae 518253
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
 
 ---
 

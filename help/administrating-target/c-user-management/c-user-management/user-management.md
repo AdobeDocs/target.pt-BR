@@ -9,7 +9,7 @@ title: Usuários
 topic: Padrão
 uuid: 9 b 311 dd 3-b 8 fa -483 d-aedd -96761 cfcd 67 e
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 
 ---
 

@@ -9,7 +9,7 @@ title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 topic: Padrão
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 ---
 
