@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,7 +21,9 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| May 3 de maio de 2019 | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Atualização do texto na introdução. |
+| May 4 de maio de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a at.js 2.1.0. |
+| May 3 de maio de 2019 | [Gerenciar exclusões](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Adicionadas informações e links para limitar quais públicos-alvo podem ver ofertas específicas nas atividades AP usando regras de definição de metas. |
+|  | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Atualização do texto na introdução. |
 |  | [Experiências e ofertas](/help/c-experiences/experiences.md) | Atualização do texto na introdução. |
 |  | [Públicos-alvo](/help/c-target/target.md) | Atualização do texto na introdução. |
 |  | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md) | Atualização do texto na introdução. |
