@@ -9,7 +9,7 @@ title: Preferências
 topic: Padrão
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -69,7 +69,7 @@ Essas opções ajudam o [!DNL Target] a entender a estrutura do site a fim de ge
 |--- |--- |
 | URL padrão do Visual Experience Composer | O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la. |
 | Ativar Enhanced Experience Composer | Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque essa opção para reverter para o Experience Composer original. A entrega de atividades nos sites não é afetada por essa escolha.<br>Para obter mais informações, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).<br>**Observação**: você também pode ativar o Enhanced Experience Composer no nível da atividade. |
-| Carregar conteúdo misto | Habilite conteúdo misto ao abrir um site usando o Enhanced Experience Composer. A habilitação dessa opção evita sobrecarga extra do carregamento de recursos estáticos pelos servidores proxy do Target. |
+| Carregar conteúdo misto | Habilite conteúdo misto ao abrir um site usando o Enhanced Experience Composer (EEC). A habilitação dessa opção evita a sobrecarga extra do carregamento de recursos estáticos por meio dos servidores proxy do Target.<br>Essa opção é útil, por exemplo, se os cabeçalhos de Política de segurança de conteúdo (CSP) permitirem o carregamento de conteúdo misto sem o uso de servidores proxy com a empresa habilitada.<br>Essa opção também é útil se o seu site HTTP tiver aumentado o tempo de carregamento na EEC, o que significa que o javascript, imagens e assim por diante levam mais tempo para carregar por proxy. |
 | Gerar instantâneos de experiências | Quando os instantâneos de experiência estão ativados, miniaturas são geradas para as experiências no diagrama de fluxo de trabalho da atividade. A desativação de instantâneos pode resultar no desempenho mais rápido para alguns usuários. |
 
 ## Configuração da janela de visualização móvel {#section_42176D062BCE4A28ADBB784CC4BEF84D}
