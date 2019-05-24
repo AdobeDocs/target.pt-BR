@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -17,11 +17,23 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 Estas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para as versões mais recentes ou que serão lançadas em breve do [!DNL Adobe Target].
 
-**Última atualização: 21 de maio de 2019**
+**Última atualização: 24 de maio de 2019**
 
 >[!NOTE]
 >
 >Essas notas de versão contêm informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança. Para exibir informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser iguais ou podem ser diferentes, dependendo da temporização das versões.
+
+## at. js versão 2.1.0 (28 de maio de 2019)
+
+Estamos empenhados em anunciar os seguintes recursos emocionais no at. js 2.1.0:
+
+| Recurso/Aprimoramento | Descrição |
+| --- | --- |
+| Suporte a aceitação da Adobe | O Adobe Opt-In é uma maneira de simplificar as integrações das soluções da Adobe com as plataformas de gerenciamento de consentimento.<br>Para obter mais informações sobre o Adobe Opt-in, consulte [Privacidade e Regulamento Geral sobre a Proteção de Dados (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
+| Conformidade com o CSP padrão do setor | O at. js não usa mais eval () para executar javascript. |
+| Registro de análises do cliente | Fornece aos clientes total controle sobre como enviar dados de análise para o Adobe Analytics, tanto no cliente como no servidor. |
+| Enviar notificações | Permite aos desenvolvedores enviar notificações quando uma experiência é renderizada pelo seu código em vez de usar `applyOffer()` ou `applyOffers()`. |
+| Tamanho de arquivo reduzido | O tamanho do at. js é reduzido por ~ 24%. O tamanho de arquivo menor melhora o desempenho do carregamento da página e reduz o tempo para baixar o at. js na página. |
 
 ## [!DNL Target] Standard/Premium 19.5.1 (21 de maio de 21 19) {#release-19-5-1-prerelease}
 
