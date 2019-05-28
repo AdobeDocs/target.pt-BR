@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 Estas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para as versões mais recentes ou que serão lançadas em breve do [!DNL Adobe Target].
 
-**Última atualização: 24 de maio de 2019**
+**Última atualização: 28 de maio de 2019**
 
 >[!NOTE]
 >
 >Essas notas de versão contêm informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança. Para exibir informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser iguais ou podem ser diferentes, dependendo da temporização das versões.
 
-## at. js versão 2.1.0 (28 de maio de 2019)
+## at. js versão 2.1.0 (3 de junho de 2019)
 
 Estamos empenhados em anunciar os seguintes recursos emocionais no at. js 2.1.0:
 
