@@ -9,7 +9,7 @@ title: Acessar o Target na Adobe Experience Cloud
 topic: Padrão
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -52,9 +52,10 @@ Informações sobre acesso [!DNL Adobe Target] a partir do [!DNL Adobe Experienc
 
 1. Selecione o primeiro idioma (primário) e, em seguida, selecione um segundo idioma, se desejado.
 
-   A [!DNL Target] interface do usuário está disponível nos seguintes idiomas.
+   A [!DNL Target] interface do usuário está disponível nos seguintes idiomas:
 
    * Inglês
+   * Espanhol
    * Francês
    * Alemão
    * Japonês
@@ -67,6 +68,31 @@ Informações sobre acesso [!DNL Adobe Target] a partir do [!DNL Adobe Experienc
 1. Clique em **[!UICONTROL Salvar]**.
 
 1. Faça logout do [!DNL Adobe Experience Cloud] ou [!DNL Target], em seguida, faça logon novamente para que suas alterações entrem em vigor.
+
+## Alterar o idioma da documentação do produto Target {#doc-lang}
+
+Suas configurações do sistema operacional ou do navegador devem detectar o idioma preferido e exibir a documentação nesse idioma (se disponível). A documentação do Target é traduzida automaticamente e estará sincronizada com a versão em inglês em horas de alterações feitas à documentação em inglês.
+
+É possível alterar rapidamente o idioma para a versão original em inglês clicando no link do cabeçalho da página.
+
+![Alterar para o idioma original](/help/c-intro/assets/mt-original.png)
+
+Você também pode alterar rapidamente o idioma para qualquer idioma suportado clicando no ícone Alternador de idiomas na parte superior direita do cabeçalho da página ( ![alternador](/help/c-intro/assets/icon-language-switcher.png) de idiomas).
+
+![alternador de idiomas](/help/c-intro/assets/language-switcher.png)
+
+A [!DNL Target] documentação está disponível nos seguintes idiomas:
+
+* Inglês
+* Espanhol
+* Francês
+* Alemão
+* Japonês
+* Italiano
+* Português do Brasil
+* Chinês simplificado (em breve)
+* Chinês Tradicional
+* Coreano
 
 ## Vídeo de treinamento: Adobe Target na Experience Cloud (4:59)
 
