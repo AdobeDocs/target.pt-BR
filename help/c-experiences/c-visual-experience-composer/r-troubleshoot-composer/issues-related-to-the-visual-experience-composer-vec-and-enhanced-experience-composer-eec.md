@@ -7,7 +7,7 @@ solution: Target
 title: Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
+
+## O Target suporta iframes de múltiplos níveis?
+
+O Target não oferece suporte para iframes de múltiplos níveis. Se o site carregar um iframe que tem um iframe filho, as bibliotecas do Target (at. js e mbox. js) interagem somente com o iframe pai. As bibliotecas do Target não interagem com o iframe filho.
+
+Como solução, você pode adicionar uma página na experiência com o URL do iframe filho.
 
 ## Quando eu tento editar uma página, só vejo um ponteiro, em vez da minha página. (VEC e EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
