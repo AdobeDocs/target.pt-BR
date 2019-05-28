@@ -6,7 +6,7 @@ seo-title: Implementação do Target usando o Adobe Launch
 title: Implementação do Target usando o Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -31,7 +31,5 @@ A tabela a seguir lista as diversas fontes em que você pode obter mais informa�
 
 As seguintes vantagens se aplicam apenas se você usar o Adobe Launch para implementar o at.js. Por essa razão, recomendamos usar o Adobe Launch em vez do DTM ou uma implementação manual da at.js.
 
-* **Permite a implantação assíncrona do Target:** Para obter mais informações, consulte &quot;Adobe Target Extension com uma implantação assíncrona&quot; na [documentação do Adobe Target Extension documentation](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension).
-* **Soluciona condição de corrida do Analytics e do Target:** como a chamada do Analytics pode ser acionada antes da chamada do Target, a chamada do Target não é anexada à chamada do Analytics, o que pode resultar em dados incorretos. A partir do Launch 0.6.0, a extensão Launch do Target garante que a chamada de beacon do Analytics espere até que a chamada do Target seja concluída com sucesso ou não. Isso deve solucionar a inconsistência de dados os que os clientes podem ter encontrado.
-* **Impede o tratamento incorreto da oferta de redirecionamento** Quando o Target e o Analytics estão na página e uma oferta de redirecionamento está sendo executada pelo Target, você pode se deparar com uma situação em que o rastreador do Analytics aciona uma solicitação quando não deveria, pois o usuário está sendo redirecionado para um URL diferente. Se você implementar o Target e o Analytics por meio do Launch, esse problema não ocorrerá, porque, usando o Launch, o Target instruirá que o Analytics interrompa a solicitação de beacon do Analytics.
-
+* **Solta o Analytics e a Condição de raça do Target:** Como a chamada do Analytics pode ser acionada antes da chamada do Target, a chamada do Target não é encadeada para a chamada do Analytics. Isso pode levar a dados incorretos. A partir de 0.6.0, a extensão do Target Launch garante que a chamada de beacon do Analytics aguarde até que a chamada Target seja concluída, com êxito ou não. Isso deve solucionar a inconsistência de dados os que os clientes podem ter encontrado.
+* **Impede o tratamento incorreto da oferta de redirecionamento:** Se você tiver o Target e o Analytics na página e houver uma oferta de redirecionamento executada pelo Target, poderá enfrentar uma situação na qual o rastreador do Analytics aciona uma solicitação quando ela não deveria ser executada (porque o usuário está sendo redirecionado para um URL diferente). Se implementar o Target e o Analytics via Launch, você não vai enfrentar esse problema. Usando o Launch, o Target instrui o Analytics a suspender a solicitação de beacon do Analytics.
