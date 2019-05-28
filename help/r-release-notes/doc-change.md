@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -25,6 +25,8 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 |  | [Determinar um vencedor](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Informações atualizadas sobre valores p-values. |
 |  | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Foi adicionada uma seção de solução de problemas sobre como o Target trata os iframes de múltiplos níveis. |
 |  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Novas perguntas frequentes adicionadas: &quot; Qual é o calendário de ingestão esperado para operações do Recommendations? &quot; |
+|  | [Implementação do Target usando o Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Atualização das informações em «Vantagens de implementação do at. js usando a Extensão do Target Launch». |
+|  | Solução de problemas[da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Nova seção de solução de problemas sobre o at. js não aciona mboxes se você estiver usando um tipo de documento inválido. |
 | May 4 de maio de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a at.js 2.1.0. |
 | May 3 de maio de 2019 | [Gerenciar exclusões](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Adicionadas informações e links para limitar quais públicos-alvo podem ver ofertas específicas nas atividades AP usando regras de definição de metas. |
 |  | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Atualização do texto na introdução. |
