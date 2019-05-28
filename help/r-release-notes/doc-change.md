@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -21,6 +21,10 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| May 8 de maio de 2019 | [Acessar o Target na Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Nova seção adicionada: &quot; Altere o idioma da documentação do produto Target. &quot; |
+|  | [Determinar um vencedor](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Informações atualizadas sobre valores p-values. |
+|  | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Foi adicionada uma seção de solução de problemas sobre como o Target trata os iframes de múltiplos níveis. |
+|  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Novas perguntas frequentes adicionadas: &quot; Qual é o calendário de ingestão esperado para operações do Recommendations? &quot; |
 | May 4 de maio de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a at.js 2.1.0. |
 | May 3 de maio de 2019 | [Gerenciar exclusões](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Adicionadas informações e links para limitar quais públicos-alvo podem ver ofertas específicas nas atividades AP usando regras de definição de metas. |
 |  | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Atualização do texto na introdução. |
