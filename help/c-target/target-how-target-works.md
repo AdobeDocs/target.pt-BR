@@ -7,7 +7,7 @@ solution: Target
 title: Como funciona o direcionamento
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target integra-se com as páginas da Web por meio da biblioteca de JavaScript de at.js ou mbox.js.
 
-O [!DNL Target Classic] usa as mboxes em cada área na página onde você deseja exibir o conteúdo direcionado ou coletar os dados. Essas mboxes não são exigidas no [!DNL Target Standard]. Em vez disso, uma [biblioteca de JavaScript](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) referenciada em cada página é tudo que você precisa para executar suas atividades de otimização.
+O [!DNL Target Classic] usa as mboxes em cada área na página onde você deseja exibir o conteúdo direcionado ou coletar os dados. Essas mboxes não são exigidas no [!DNL Target Standard]. Em vez disso, uma biblioteca de JavaScript referenciada em cada página é tudo que você precisa para executar suas atividades de otimização.
 
 Cada vez que um visitante solicita uma página ativada pelo, o [!DNL Target]Target usa o seguinte processo para fornecer as ofertas:
 
