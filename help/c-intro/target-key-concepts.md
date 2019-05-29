@@ -9,7 +9,7 @@ title: Conceitos-chave do Target
 topic: Padrão
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Os locais são essenciais para as atividades e experiências. Você pode decidir
 
 No [!DNL Target Standard], um local pode ser qualquer elemento em uma página, desde que a página contenha uma única linha de código que ative o [!DNL Target] na seção `<head>` de cada página que você deseja rastrear. Essa linha de código chama as bibliotecas JavaScript necessárias para coletar informações e oferecer experiências direcionadas aos visitantes.
 
-Consulte [Compreensão de bibliotecas JavaScript do Target](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) para obter mais informações sobre as diferenças entre implementação de local no [!DNL Target Standard] e a implementação da mbox no [!DNL Target Classic].
+Consulte [Benefícios do at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para obter mais informações sobre as diferenças entre implementação de localização e [!DNL Target Standard] implementação da mbox em [!DNL Target Classic].
 
 As localizações são combinadas aos públicos para fornecer um número quase infinito de opções para direcionar informações para os clientes. Por exemplo, se um visitante nunca tiver visitado o site antes, você poderá exibir um cupom de desconto para novos clientes. Da mesma forma, a página poderá ser alterada para exibir ofertas mais otimizadas para clientes que retornam.
 
