@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -81,7 +81,7 @@ Quando o feed estiver configurado e for passado para o [!DNL Recommendations], p
 
 A prioridade será dada ao último conjunto de dados que tiver sido executado. Se você passar o feed primeiro e, em seguida, atualizar os parâmetros da página, as alterações feitas nos parâmetros da página serão mostradas, substituindo as informações do item transmitidas no feed.
 
-## Exemplo dois: passar todos os parâmetros na página Detalhes do produto (ou Conteúdo){#section_D5A4F69457604CA7AACFD7BFF79B58A9}
+## Exemplo dois: passar todos os parâmetros na página Detalhes do produto (ou Conteúdo) {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Se você passar todos os parâmetros na página, poderá fazer atualizações rapidamente atualizando a página. Em algumas organizações, isso requer o envolvimento do pessoal de TI ou da sua equipe de Web Design.
 
@@ -102,9 +102,9 @@ function targetPageParams() {
    return { 
       "entity": { 
          "id": " 
-<i>32323</i>", 
+32323", 
          "categoryId": " 
-<i>My Category</i>", 
+My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
