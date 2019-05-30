@@ -9,7 +9,7 @@ title: Acessar o Target na Adobe Experience Cloud
 topic: Padrão
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -90,7 +90,7 @@ A [!DNL Target] documentação está disponível nos seguintes idiomas:
 * Japonês
 * Italiano
 * Português do Brasil
-* Chinês simplificado (em breve)
+* Chinês Simplificado
 * Chinês Tradicional
 * Coreano
 
