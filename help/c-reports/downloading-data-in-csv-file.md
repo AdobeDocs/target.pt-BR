@@ -9,7 +9,7 @@ title: Fazendo download de dados em um arquivo CSV
 topic: Padrão
 uuid: 9 ac 151 e 1-45 a 9-4 d 46-b 23 b-e 7 c 9 ae 518253
 translation-type: tm+mt
-source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -84,4 +84,4 @@ As seguintes informações se aplicam à opção Download:
 * Você pode baixar ambos os relatórios para atividades A/B, Personalização automatizada, Direcionamento de experiência e atividades multivariadas. Você não pode baixar o relatório de Métricas de sucesso para atividades do Recommendation.
 * A opção de download não está disponível para as atividades A/B e de Direcionamento de experiência criadas antes da versão 15.7.1 do Target (julho de 2015).
 * Experiências sem dados associados não são registradas no relatório baixado.
-
+* Os públicos-alvo aplicados na interface do usuário do Target não continuam para o relatório de download.
