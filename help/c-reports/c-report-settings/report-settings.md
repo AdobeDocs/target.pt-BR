@@ -8,7 +8,7 @@ title: Configurações do relatório
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -19,7 +19,7 @@ Informações para ajudar a definir os elementos que você quer que apareçam em
 
 Para exibir um relatório, clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista e na guia **Relatórios[!UICONTROL .]**
 
-![](assets/report_ui.png)
+![Interface do usuário do relatório](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Predefinição do Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ Você também pode configurar um relatório de atividade individual, como deseja
 1. Configure o relatório de atividade como desejado (métricas, intervalos de datas, públicos-alvo, configurações avançadas e assim por diante).
 1. Perto de **[!UICONTROL Predefinição do Target]**, clique no ícone de três elipses verticais &gt; **[!UICONTROL Salvar como novo]**.
 
-   ![](assets/report_preset.png)
+   ![Predefinição de relatório](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    A caixa de diálogo Nova predefinição é exibida:
 
-   ![](assets/report_preset_dialog.png)
+   ![Caixa de diálogo Nova predefinição](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Revise as informações nas seções Filtros e Configurações para garantir que o relatório esteja configurado como desejado e especifique o **[!UICONTROL Nome de predefinição]** (até 50 caracteres).
 1. (Condicional) Se desejar que isso seja a exibição de relatório padrão/favorita, deslize o botão **[!UICONTROL Definir isto como padrão]para a posição Ativado.**
@@ -46,7 +46,7 @@ Você também pode configurar um relatório de atividade individual, como deseja
 
 Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefinição do Target].**
 
-![](assets/report_preset_drop-down.png)
+![Lista suspensa predefinida](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Editar uma predefinição**
 
@@ -55,7 +55,7 @@ Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefiniç�
 
    Depois de clicar em [!UICONTROL Salvar], após a edição da configuração do relatório, um asterisco ( * ) será exibido depois do nome predefinido para indicar que a predefinição foi alterada, como mostrado abaixo:
 
-   ![](assets/report_preset_asterisk.png)
+   ![Predefinição de relatório com asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. Clique no ícone de três elipses verticais &gt; **[!UICONTROL Salvar como novo]para criar uma nova predefinição.**
 
@@ -63,14 +63,14 @@ Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefiniç�
 
    Clique no ícone de três elipses verticais &gt; **[!UICONTROL Atualizar]para atualizar a predefinição atual.**
 
-   ![](assets/report_preset_update.png)
+   ![Atualização padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Excluir uma predefinição**
 
 1. Selecione a predefinição que deseja excluir.
 1. Clique no ícone de três elipses verticais &gt; **[!UICONTROL Excluir]**.
 
-   ![](assets/report_preset_delete.png)
+   ![Excluir padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Clique novamente em **[!UICONTROL Excluir]para confirmar a exclusão.**
 
@@ -104,7 +104,7 @@ Para obter mais informações, consulte [Públicos](../../c-target/target.md#con
 
 A caixa Intervalo de datas exibe o intervalo de datas atual do relatório. Clique no ícone suspenso para exibir um calendário que permite alterar o intervalo de datas do relatório.
 
-![](assets/date_range.png)
+![Calendário](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
 Selecione as datas **[!UICONTROL Iniciais]** e **[!UICONTROL Finais]** para o relatório. Você também pode usar as caixas de seleção **[!UICONTROL Do início da atividade]** e **Até o final da atividade[!UICONTROL .]**
 
@@ -122,7 +122,7 @@ Clique no ícone de engrenagem para configurar o relatório e, em seguida, cliqu
 
 A ilustração a seguir mostra a caixa de diálogo Configurações para uma atividade A/B:
 
-![](assets/ab_settings_dialog.png)
+![Caixa de diálogo Configurações](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 Dependendo do tipo de atividade selecionada, as opções variam:
 
@@ -183,9 +183,9 @@ Clique no ícone de **[!UICONTROL Contribuição de localização]para que o rel
 
 Marque ou desmarque as experiências à esquerda do gráfico para exibir ou ocultar as experiências correspondentes no gráfico.
 
-Na ilustração a seguir, somente as experiências B e C são exibidas no relatório:
+Se a ilustração a seguir, somente as experiências Padrão, Mid-Leste e Total forem exibidas no relatório. A experiência da Ásia está oculta no gráfico.
 
-![](assets/report_experiences.png)
+![Experiências](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## Média móvel {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ Selecione a exibição de gráfico desejada:
 * Diariamente
 * Aumento diário
 
-![](assets/report_running_average.png)
+![Média de geração de relatório](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -214,13 +214,13 @@ Para acessar a opção de Metodologia de contagem, ao exibir um relatório em mo
 
 A metodologia de contagem será a mesma que a selecionada na caixa de diálogo [!UICONTROL Configurações], descrita acima.
 
-![](assets/counting_methodology.png)
+![Metodologia de contagem](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 Como padrão, o gráfico é criado em modo [!UICONTROL Diário].
 
 Você pode alterar o modo clicando na lista suspensa [!UICONTROL Diário], em seguida, selecionando [!UICONTROL Cumulativo].
 
-![](assets/counting_methodology_2.png)
+![Cumulativo](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
