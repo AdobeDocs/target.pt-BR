@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 ---
 
@@ -21,6 +21,7 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| May 1 de maio de 2019 | [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md) | Amostra de código atualizada. |
 | May 0 de maio de 2019 | [Acessar o Target na Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | A documentação agora está disponível no idioma chinês simplificado. |
 |  | [Download de dados em um arquivo CSV](/help/c-reports/downloading-data-in-csv-file.md) | Adição de novas advertências na seção Exportar detalhes do pedido para CSV: &quot; Públicos-alvo aplicados na interface do usuário do Target não continuam para o relatório de download. &quot; |
 |  | [Configurações do relatório](/help/c-reports/c-report-settings/report-settings.md) | Capturas de tela atualizadas. |
