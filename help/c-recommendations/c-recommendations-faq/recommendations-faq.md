@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: b1195ddaa639ac51a3966777f3769fa46428b4a8
 
 ---
 
@@ -19,21 +19,25 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 Lista de perguntas frequentes sobre as atividades do Recommendations.
 
-## Qual é o período de ingestão esperado para operações do Recommendations?
+## Quanto tempo leva para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?
 
-As seguintes alterações devem ser refletidas em aproximadamente 60 minutos:
+Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou mbox, as seguintes alterações serão refletidas em menos de 60 minutos:
 
 * Atributos de item retornados no modelo de Design.
 * Atributos de item usados em regras de exclusão globais que impedem a inclusão do item em recomendações retornadas.
 * Atributos de item usados nas regras de inclusão dentro dos critérios que afetam se o item está incluído ou excluído em recomendações retornadas.
 
-As seguintes alterações não são refletidas até a execução do próximo algoritmo (12-24 horas):
+As seguintes alterações não são refletidas até que ocorra a execução do próximo algoritmo (dentro de 12-24 horas):
 
 * Atributos de item usados nas regras de coleta usadas para a atividade.
 * Atributos de item usados em uma promoção com base em um atributo ou coleção associada à atividade.
 * Categoria Item que o item aparece para uma &quot;Categoria atual&quot; ou &quot;Categoria favorita&quot; no algoritmo Mais vendidos ou Mais Visualizados.
 * A classificação dos itens recomendados quando o atributo mudou é um atributo personalizado usado como a chave personalizada para um algoritmo.
 * Classificação dos itens recomendados com base nos atributos alterados quando a lógica de recomendação é &quot;Itens com atributos semelhantes&quot;, quando os fatores de ponderação &quot;Similaridade de conteúdo&quot; são usados ou quando &quot;Ponderação de atributos&quot; são usados.
+
+>[!NOTE]
+>
+>Um arquivo de feed é considerado importado quando seu status muda de «Importar itens» para «Preparando atualizações de índice de pesquisa». As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário de pesquisa do catálogo; A pesquisa do catálogo é atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a pesquisa do catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo de atualização de índice de pesquisa do catálogo mais recente é exibido na página Pesquisa de catálogo.
 
 ## O que devo fazer se os caracteres especiais estão quebrando a matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
