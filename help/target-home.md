@@ -6,7 +6,7 @@ title: Documentação do produto do Adobe Target
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
 
-**Última atualização: 30 de maio de 2019 ([consulte O que mudou](r-release-notes/doc-change.md))**
+**Última atualização: 31 de maio de 2019 ([consulte O que mudou](r-release-notes/doc-change.md))**
 
 As seções a seguir apontam para links úteis neste guia, organizados por público-alvo pretendido com base em funções de trabalho típicas:
 
