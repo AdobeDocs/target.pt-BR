@@ -8,7 +8,7 @@ title: Dispositivo móvel
 topic: Padrão
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -60,6 +60,12 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
    * Largura de tela (px)
    >[!NOTE]
    >
+   >Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo Nome do marketing do dispositivo e pelo Modelo de dispositivo que especifica Modelos do iphone é afetada. Não é mais possível direcionar os usuários que têm iphones com iOS 12.2 instalados neles. No entanto, se esses usuários não tiverem iOS 12.2, a definição de metas do iphone Model continua a funcionar corretamente.
+   >
+   >A atualização do iOS 12.2 não afeta a identificação dos seguintes modelos, pois esses modelos não oferecem suporte à atualização para o iOS 12.2: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Retina display, ipad Retina (4 ª Geração), ipod Touch 4 e ipod Touch 5.
+
+   >[!NOTE]
+   >
    >Você pode direcionar por operadora de dispositivo móvel usando as [configurações geográficas](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
@@ -72,4 +78,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
