@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 Use atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre os itens do catálogo.
 
-## Limites {limites}
+## Limites {#limits}
 
 Você pode incluir até 100 atributos de entidade personalizados para definir informações adicionais sobre itens em seu catálogo. Por exemplo, é possível criar um atributo personalizado chamado `entity.genre` para especificar um livro ou filme. Ou, um vendedor de bilhetes pode criar atributos para o local de evento para incluir um artista secundário, como um time visitante em um evento esportivo ou um show de abertura em um evento.
 
