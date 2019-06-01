@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 ---
 
@@ -21,6 +21,14 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 3 de junho de 2019 | [Notas de versão (atual)](/help/r-release-notes/release-notes.md) | Informações adicionadas sobre a versão futura do at. js 2.1.0. |
+|  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informações adicionadas sobre a versão futura do at. js 2.1.0. |
+|  | [Antes de implante](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Nova seção adicionada: &quot; Registro do Analytics no cliente &quot;. |
+|  | [Implementação do Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Etapa 7 revisada. |
+|  | [adobe. target. getoffers (opções) - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Adicionadas linhas à tabela para os seguintes nomes de campo:<ul><li>Request &gt; experiencecloud</li><li>Request &gt; experiencecloud &gt; analytics</li><li>Solicitação &gt; experiencecloud &gt; analytics &gt; registro</li></ul> |
+|  | [Funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Linha adicionada à tabela para `adobe.target.sendNotifications(options)`. |
+|  | [adobe. target. sendnotifications (opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | Novo tópico. |
+|  | [Atualização de at. js 1. x para at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | Adicionadas informações sobre o suporte à Adobe Opt-in no at. js 2.1.0. |
 | May 1 de maio de 2019 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Foi adicionada uma observação sobre os dispositivos de definição de metas que executam o iOS 12.2. |
 |  | [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md) | Amostra de código atualizada. |
 | May 0 de maio de 2019 | [Acessar o Target na Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | A documentação agora está disponível no idioma chinês simplificado. |
