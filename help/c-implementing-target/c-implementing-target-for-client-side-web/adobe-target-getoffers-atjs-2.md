@@ -8,7 +8,7 @@ subtopic: Introdução
 title: adobe.target.getOffers(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: e5ac81441b7bf1c57b1bf62f49100e98673ac65c
+source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 
 ---
 
@@ -31,38 +31,41 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 | Nome do campo | Obrigatório? | Limitações | Descrição |
 | --- | --- | --- | --- |
-| solicitação &gt; id | Não | Um de `tntId`, `thirdPartyId` ou `marketingCloudVisitorId` é obrigatório. |
-| Solicitação &gt; id &gt; thirdPartyId | Não | Tamanho máximo = 128 |
-| Request &gt; pré-busca | Não |
+| solicitação &gt; id | Não |  | Um de `tntId`, `thirdPartyId` ou `marketingCloudVisitorId` é obrigatório. |
+| Solicitação &gt; id &gt; thirdPartyId | Não | Tamanho máximo = 128 |  |  |
+| Request &gt; experiencecloud | Não |  |  |
+| Request &gt; experiencecloud &gt; analytics | Não |  | Integração do Adobe Analytics |
+| Solicitação &gt; experiencecloud &gt; analytics &gt; registro | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>Appmeasurement. js</li></ul> | Os seguintes valores são suportados:<br>**client_ side**: Quando especificado, uma carga de análise será retornada ao chamador que deve ser usada para enviar para o Adobe Analytics por meio da API de inserção de dados.<br>**server_ side**: Esse é o valor padrão em que o backend do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
+| Request &gt; pré-busca | Não |  |  |
 | Solicitação &gt; pré-busca &gt; exibições | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome`<=` 128<br>Tamanho do valor `<=` 5000<br>O nome não deve começar com &quot;perfil&quot;<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; profileParameters | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=` 5000 <br>O nome não deve começar com &quot;perfil&quot; | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
-| Solicitação &gt; pré-busca &gt; exibições &gt; produto | Não |
+| Solicitação &gt; pré-busca &gt; exibições &gt; produto | Não |  |  |
 | Solicitação &gt; pré-busca &gt; exibições &gt; produto -&gt; id | Não | Não deixar em branco<br>tamanho máximo = 128 | Transmita as IDs do produto a serem usadas para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; produto &gt; categoryId | Não | Não deixar em branco<br>tamanho máximo = 128 | Transmita as IDs de categoria do produto a serem usadas para recuperar exibições relevantes nas atividades. |
-| Solicitação &gt; pré-busca &gt; exibições &gt; ordem | Não |
+| Solicitação &gt; pré-busca &gt; exibições &gt; ordem | Não |  |  |
 | Solicitação &gt; pré-busca &gt; exibições &gt; ordem &gt; id | Não | Tamanho máximo = 250 | Transmita as IDs da ordem a serem usadas para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; ordem &gt; total | Não | Total`>=` 0 | Transmita os totais da ordem a serem usados para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; ordem &gt; purchasedProductIds | Não | Nenhum valor em branco<br>Tamanho máximo de cada valor 50<br>Concatenado e separado por vírgula<br>Tamanho total das IDs do produto `<=` 250 | Transmita as IDs do produto adiquirido a serem usadas para recuperar exibições relevantes nas atividades ativas. |
-| Solicitação &gt; executar | Não |
-| Solicitação &gt; executar &gt; pageLoad | Não |
+| Solicitação &gt; executar | Não |  |  |
+| Solicitação &gt; executar &gt; pageLoad | Não |  |  |
 | Solicitação &gt; executar &gt; pageLoad &gt; parâmetros | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=` 5000<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Recupere as ofertas com os parâmetros especificados quando a página for carregada. |
 | Solicitação &gt; executar &gt; pageLoad &gt; profileParameters | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=`256<br>O nome não deve começar com &quot;perfil&quot;. | Recupere as ofertas com os parâmetros do perfil especificados quando a página for carregada. |
-| Solicitação &gt; executar &gt; pageLoad &gt; produto | Não |
+| Solicitação &gt; executar &gt; pageLoad &gt; produto | Não |  |  |
 | Solicitação &gt; executar &gt; pageLoad &gt; produto -&gt; id | Não | Não deixar em branco<br>Tamanho máximo = 128 | Recupere as ofertas com as IDs do produto especificadas quando a página for carregada. |
 | Solicitação &gt; executar &gt; pageLoad &gt; produto &gt; categoryId | Não | Não deixar em branco<br>Tamanho máximo = 128 | Recupere as ofertas com as IDs de categoria do produto especificadas quando a página for carregada. |
-| Solicitação &gt; executar &gt; pageLoad &gt; ordem | Não |
+| Solicitação &gt; executar &gt; pageLoad &gt; ordem | Não |  |  |
 | Solicitação &gt; executar &gt; pageLoad &gt; order &gt; id | Não | Tamanho máximo = 250 | Recupere as ofertas com as IDs da ordem especificadas quando a página for carregada. |
 | Solicitação &gt; executar &gt; pageLoad &gt; ordem &gt; total | Não | `>=` 0 | Recupere as ofertas com os totais da ordem especificados quando a página for carregada. |
 | Solicitação &gt; executar &gt; pageLoad &gt; ordem &gt; purchasedProductIds | Não | Nenhum valor em branco<br>Tamanho máximo de cada valor 50<br>Concatenado e separado por vírgula<br>Tamanho total das IDs do produto `<=` 250 | Recupere as ofertas com as IDs do produto adquirido especificadas quando a página for carregada. |
-| Solicitação &gt; executar &gt; mboxes | Não | Tamanho máximo = 50<br>Sem elementos nulos |
+| Solicitação &gt; executar &gt; mboxes | Não | Tamanho máximo = 50<br>Sem elementos nulos |  |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox | Sim | Não deixar em branco<br>Nenhum sufixo &#39;-clicado&#39;<br>Tamanho máximo = 250<br>Caracteres permitidos: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nome da mbox. |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; índice | Sim | Não nulo<br>Exclusivo<br>`>=` 0 | Observe que o índice não representa a ordem em que as mboxes serão processadas. Da mesma forma que em uma página da Web com diversas mboxes regionais, a ordem em que serão processadas não pode ser especificada. |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; parâmetros | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=` 5000<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Recupere as ofertas de determinada mbox com os parâmetros especificados. |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; profileParameters | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=`256<br>O nome não deve começar com &quot;perfil&quot;. | Recupere as ofertas de determinada mbox com os parâmetros do perfil especificados. |
-| Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; produto | Não |
+| Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; produto | Não |  |  |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; produto &gt; id | Não | Não deixar em branco<br>Tamanho máximo = 128 | Recupere as ofertas de determinada mbox com as IDs do produto especificadas. |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; produto &gt; categoryId | Não | Não deixar em branco<br>Tamanho máximo = 128 | Recupere as ofertas de determinada mbox com as IDs de categoria do produto especificadas. |
-| Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; ordem | Não |
+| Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; ordem | Não |  |  |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; ordem &gt; id | Não | Tamanho máximo = 250 | Recupere as ofertas de determinada mbox com as IDs da ordem especificadas. |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; ordem &gt; total | Não | `>=` 0 | Recupere as ofertas de determinada mbox com os totais da ordem especificados. |
 | Solicitação &gt; executar &gt; mboxes &gt; mbox &gt; ordem &gt; purchasedProductIds | Não | Nenhum valor em branco<br>Tamanho máximo de cada valor = 50<br>Concatenado e separado por vírgula<br>Tamanho total das IDs do produto `<=` 250 | Recupere as ofertas de determinada mbox com as IDs do produto adquirido da ordem especificadas. |
@@ -125,6 +128,60 @@ adobe.target.getOffers({
   }
 });
 ```
+
+## Chamar getoffers () para recuperar a carga do Analytics no lado do cliente
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+**Resposta**:
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+A carga pode ser encaminhada para o Adobe Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Fetch e renderize dados de várias mboxes via getoffers () e applyoffers () {#multiple}
 
