@@ -9,7 +9,7 @@ title: Funções da at.js.
 topic: Padrão
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
@@ -32,4 +32,6 @@ Lista de funções que podem ser usadas com a biblioteca de JavaScript at.js do 
 | [Targetpageparams (opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | Este método permite anexar parâmetros ao mbox global de fora do código da solicitação. |
 | [Targetpageparamsall (opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | Este método permite anexar parâmetros a todos os mboxes de fora do código da solicitação. |
 | [Registerextension (opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at. js 1. x) | Fornece uma forma padrão de registrar uma extensão específica.<br>**Observação:** Essa função está disponível para o at. js versões 1.somente *x*. Essa função foi substituída pelo lançamento do at. js 2. x. Essa função retorna o conteúdo padrão se for usado com o at. js 2. x. |
-| [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Os eventos personalizados do at. js permitem saber quando uma solicitação de mbox ou oferta tem êxito ou falha. |
+| [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Os eventos personalizados do at. js permitem saber quando uma solicitação de mbox ou oferta falha ou tem êxito. |
+| [adobe. target. sendnotifications (opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js 2.1.0) | Esta função envia uma notificação para a borda do Target quando uma experiência é renderizada sem usar `adobe.target.applyOffer()` ou `adobe.target.applyOffers()`.<br>**Observação**: Esta função foi introduzida no at. js 2.1.0 e estará disponível para qualquer versão acima de 2.1.0. |
+
