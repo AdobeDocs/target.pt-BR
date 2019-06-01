@@ -8,7 +8,7 @@ subtopic: Introdução
 title: Atualização de at. js 1. x para at. js 2. x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
+source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ---
 
@@ -189,20 +189,20 @@ Isso não é mais suportado e não deve ser usado.
 
 | Método | Suportado? | Novo? | Obsoleto?<br>(O conteúdo padrão será exibido) |
 | --- | --- | --- | --- |
-| `getOffer()` | Sim |
-| `getOffers()` | Sim |
-| `applyOffer()` | Sim |
-| `applyOffers()` | Sim |
-| `triggerView()` | Sim |
-| `trackEvent()` | Sim |
-| `mboxCreate()` | Sim |
-| `mboxDefine()`<br>`mboxUpdate()` | Sim |
-| `targetGlobalSettings()` | Sim |
-| `Data Providers` | Sim |
-| `targetPageParams()` | Sim |
-| `targetPageParamsAll()` | Sim |
-| `registerExtension()` | Sim |
-| `At.js Custom Events` | Sim |
+| `getOffer()` | Sim |  |  |
+| `getOffers()` |  | Sim |  |
+| `applyOffer()` | Sim |  |  |
+| `applyOffers()` |  | Sim |  |
+| `triggerView()` |  | Sim |  |
+| `trackEvent()` | Sim |  |  |
+| `mboxCreate()` |  |  | Sim |
+| `mboxDefine()`<br>`mboxUpdate()` |  |  | Sim |
+| `targetGlobalSettings()` | Sim |  |  |
+| `Data Providers` | Sim |  |  |
+| `targetPageParams()` | Sim |  |  |
+| `targetPageParamsAll()` | Sim |  |  |
+| `registerExtension()` |  |  | Sim |
+| `At.js Custom Events` | Sim |  |  |
 
 ## Limitações e chamadas de retorno
 
@@ -334,7 +334,7 @@ As tabelas a seguir explicam o at.js. Compatibilidade 2.0.0 com tipos de ativida
 >
 >Atividades do Target automáticas são suportadas por meio do at. js 2. x e do VEC quando todas as modificações são aplicadas ao `Page Load Event`. Quando as modificações são adicionadas a exibições específicas, as atividades de Teste A/B, Autoalocação e Segmentação de experiência (XT) são suportadas apenas.
 
-### Integrações
+### Integrações {#integrations}
 
 | Tipo | Suportado? |
 | --- | --- |
@@ -346,7 +346,7 @@ As tabelas a seguir explicam o at.js. Compatibilidade 2.0.0 com tipos de ativida
 | Depurador | Sim |
 | Auditor | As regras ainda não foram atualizadas para at. js 2. x |
 | Gerenciador dinâmico de tags (DTM) | Sim |
-| Opt-In | Não |
+| Opt-In | Não. O suporte de aceitação para [o RGPD](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) é suportado na [versão 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)do at. js. |
 | Personalização aprimorada do AEM fornecida pelo Adobe Target | Não |
 
 ### Recursos
@@ -848,6 +848,6 @@ A versão é enviada como um parâmetro de sequência de consulta por meio do pa
 
 O at. js 2. x melhora o suporte do Adobe Target para spas e integra-se com outras soluções da Experience Cloud. Este vídeo explica como tudo se une.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
 
 Consulte [Entendendo como at. js 2. x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
