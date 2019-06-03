@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 Esta página lista alterações importantes feitas na [!DNL Adobe Target] documentação.
 
-## Adobe Target Standard/Premium 11 .5.1 (May 1 de maio de 2019) {tgt -19-5-1}
+## Adobe Target Standard/Premium 19.5.1 (21 de maio de 2019) {#tgt-19-5-1}
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Limite de caracteres adicionado para a ID de alias do atributo do cliente. |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 19.5.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
-## Adobe Target Standard/Premium 19.4.2 (30 de abril de 20 19) {19-4-2}
+## Adobe Target Standard/Premium 19.4.2 (30 de abril de 2019) {#target-19-4-2}
 
 **Observação**: A versão do Target Standard/Premium 19.4.1 era uma versão de maintanência para atualizar a interface do usuário da Adobe Experience Cloud para refletir as alterações de marca e produto.
 
