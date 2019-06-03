@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -83,7 +83,7 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 >[!NOTE]
 >Veja o vídeo de treinamento abaixo para obter mais informações sobre como configurar espaços de trabalho.
 
-### Obter a ID do espaço de trabalho {workspace-id}
+### Obter a ID do espaço de trabalho {#workspace-id}
 
 Você precisará passar a ID da área de trabalho para aproveitar Permissões empresariais nas [apis do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
@@ -169,7 +169,7 @@ Para usar a funcionalidade de permissões de usuário do [!DNL Target], você de
 
       ![](assets/property_token_3.png)
 
-      Para obter mais informações sobre como fazer isso com a at.js, consulte [Targetpageparams ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e [mboxcreate (mbox, params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      Para obter mais informações sobre como fazer isso com o at.js, consulte [Targetpageparams ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e [mboxcreate (mbox, params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Etapa 6: especificar funções e permissões {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -214,7 +214,7 @@ Este vídeo explica como criar espaços de trabalho.
 
 * Compreenda espaços de trabalho padrão
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=por_br)
 
 ### Como criar propriedades no Adobe Target (3:05)
 
@@ -226,4 +226,4 @@ Este vídeo explica como criar espaços de trabalho.
    * Aplicativo móvel
    * Email, definir caixa superior ou chamadas da API
 
->[!VIDEO](https://video.tv.adobe.com/v/18990/)
+>[!VIDEO](https://video.tv.adobe.com/v/18990/?captions=por_br)
