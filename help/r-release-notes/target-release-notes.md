@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -51,7 +51,7 @@ Esta versão inclui os seguintes recursos, alterações e melhorias:
 
 * Os ícones da barra de ferramentas são exibidos corretamente após cancelar o carregamento de uma página dentro do VEC. Se ações específicas não puderem ser executadas após a página estar completamente carregada, os ícones da barra de ferramentas associados são desabilitados. (TGT-33811)
 
-## Mobile App Visual Experience Composer (May 4 de maio de 2019) {mobile-vec-may 4}}
+## Mobile App Visual Experience Composer (May 4 de maio de 2019) {#mobile-vec-may14}
 
 | Recurso/Aprimoramento | Descrição |
 | --- | --- |
