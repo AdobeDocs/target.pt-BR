@@ -8,7 +8,7 @@ title: Privacidade e o Regulamento Geral sobre a Proteção de Dados (GDPR)
 topic: Padrão
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 6c1b4f26f635eab661ec426f9241b26247e880c3
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->A funcionalidade de aceitação é compatível com a versão 1.7.0 do at.js, mas atualmente não é compatível com o at.js versão 2.0.0.
+>A funcionalidade de aceitação é compatível com o at. js versão 1.7.0 e o at. js 2.1.0. Não há suporte para o at. js versão 2.0.0 e 2.0.1.
 >
 >O uso do Adobe Launch para gerenciar a inclusão é a abordagem recomendada. Existe ainda mais controle granular no Adobe Launch para ocultar elementos selecionados da sua página, antes do acionamento do Target, que pode ser útil como parte de sua estratégia de consentimento.
 
