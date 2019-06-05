@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -21,6 +21,8 @@ Esta página lista alterações importantes feitas na [!DNL Adobe Target] docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 5 de junho de 2019 | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Nova seção [Solução de problemas](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) foi adicionada. |
+|  | [Conceitos-chave do Target](/help/c-intro/target-key-concepts.md) | Edições de texto secundárias. |
 | 3 de junho de 2019 | [Notas de versão (atual)](/help/r-release-notes/release-notes.md) | Informações adicionadas sobre a versão futura do at. js 2.1.0. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informações adicionadas sobre a versão futura do at. js 2.1.0. |
 |  | [Antes de implante](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Nova seção adicionada: &quot; Registro do Analytics no cliente &quot;. |
