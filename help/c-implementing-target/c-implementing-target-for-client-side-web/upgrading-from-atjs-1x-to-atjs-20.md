@@ -8,7 +8,7 @@ subtopic: Introdução
 title: Atualização de at. js 1. x para at. js 2. x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 ## Implantar at. js 2. x {#deploy-atjs-200}
 
-1. Baixe o at. js 2. x usando a interface do usuário do Target.
-
-   ![Caixa de diálogo Detalhes da implementação](/help/c-experiences/assets/imp-200.png)
+1. Implante o at. js 2. x pela extensão [do Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
    >[!NOTE]
    >
-   >A instalação do at. js 2. x pela extensão [do Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ainda não é suportada.
+   > Implantar o at. js usando o Adobe Launch é o melhor método.
+
+   Ou
+
+   Baixe manualmente o at. js 2. x usando a interface do usuário do Target e implante-o usando o [método de sua escolha](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Funções obsoletas da at.js
 
@@ -342,7 +344,7 @@ As tabelas a seguir explicam o at.js. Compatibilidade 2.0.0 com tipos de ativida
 | Públicos-alvo | Sim |
 | Atributos do cliente | Sim |
 | Fragmentos de experiência do AEM | Sim |
-| Extensão do Adobe Launch | Não no momento |
+| Extensão do Adobe Launch | [Sim](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Depurador | Sim |
 | Auditor | As regras ainda não foram atualizadas para at. js 2. x |
 | Gerenciador dinâmico de tags (DTM) | Sim |
