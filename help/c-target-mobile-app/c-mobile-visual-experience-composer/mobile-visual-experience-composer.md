@@ -7,7 +7,7 @@ title: Aplicativo para dispositivos móveis do Visual Experience Composer
 topic: Padrão
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 766b6827b01d47fc83b685995deb4c2ed98323c8
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -29,7 +29,7 @@ A ilustração a seguir representa o processo de uso do VEC do aplicativo móvel
 | Processo | Detalhes |
 |--- |--- |
 | Pareamento | Autorize com segurança o aplicativo para dispositivos móveis e o dispositivo móvel para funcionarem com o Target. Essa etapa é necessária apenas uma vez para um dispositivo. |
-| Criação | Crie uma  [Atividade do Target](/help/c-activities/activities.md), como visualização em tempo real das ações realizadas na interface do usuário do Target. |
+| Criação | Crie uma [Atividade do Target](/help/c-activities/activities.md), como visualização em tempo real das ações realizadas na interface do usuário do Target. |
 | Entrega | O Target entrega atividades automaticamente no aplicativo nativo para dispositivos móveis. |
 
 **Pareamento:**
@@ -182,6 +182,32 @@ O `TargetVEC.prefetchOffersBackground()` também pode ser chamado repetidamente 
 
 Observe que, sempre que as ofertas do Target forem previamente buscadas, se possível, também serão aplicadas as ofertas de exibição do Target acionadas com `AdobeTargetMobile.targetView()`.
 
+## Solução de problemas {#ts}
+
+**Recebi um erro informando que meu valor &quot;context. application. name&quot; contém caracteres proibidos. Quais caracteres são permitidos em nomes de aplicativos móveis?**
+
+Os caracteres permitidos em nomes de aplicativos móveis incluem:
+
+| Caracteres permitidos | Descrição |
+| --- | --- |
+| Cartas |  |
+| Números |  |
+| `-` | Hífen |
+| `.` | Ponto |
+| `,` | Vírgula |
+| `:` | Dois-pontos |
+| `#` | Sinal numérico |
+| `(` | parêntese de abertura |
+| `)` | Parêntese de fechamento |
+| `&` | Ampersand |
+| `+` | Sinal de mais |
+
+Usando um caractere não permitido, por exemplo, um apóstrofe ( `'` ) faz com que você receba a seguinte mensagem de erro:
+
+```
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+```
+
 ## Limitações conhecidas {#limitations}
 
 * No momento, o VEC do aplicativo móvel pode ser usado para criar [atividades de teste](/help/c-activities/t-test-ab/test-ab.md) A/B e [direcionamento de experiência (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicativos móveis. Compatibilidade com outros tipos de atividade estará disponível no futuro.
@@ -199,4 +225,4 @@ Observe que, sempre que as ofertas do Target forem previamente buscadas, se poss
 
 ## Vídeo de treinamento: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27528)
+>[!VIDEO](https://video.tv.adobe.com/v/27528?captions=por_br)
