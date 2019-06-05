@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
 
 ---
 
@@ -23,39 +23,18 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >
 >Essas notas de versão contêm informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança. Para exibir informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser iguais ou podem ser diferentes, dependendo da temporização das versões.
 
-## at. js versão 2.1.0 (3 de junho de 2019)
-
-Estamos empenhados em anunciar os seguintes recursos emocionais no at. js 2.1.0:
+## Target Standard/Premium 19.6.1 (25 de junho de 2019) {#tgt-19-6-1}
 
 | Recurso/Aprimoramento | Descrição |
 | --- | --- |
-| Suporte a aceitação da Adobe | O Adobe Opt-In é uma maneira de simplificar as integrações das soluções da Adobe com as plataformas de gerenciamento de consentimento.<br>Para obter mais informações sobre o Adobe Opt-in, consulte [Privacidade e Regulamento Geral sobre a Proteção de Dados (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
-| Conformidade com o CSP padrão do setor | O at. js não usa mais eval () para executar javascript. |
-| Registro de análises do cliente | Fornece aos clientes total controle sobre como enviar dados de análise para o Adobe Analytics, tanto no cliente como no servidor. |
-| Enviar notificações | Permite aos desenvolvedores enviar notificações quando uma experiência é renderizada pelo seu código em vez de usar `applyOffer()` ou `applyOffers()`. |
-| Tamanho de arquivo reduzido | O tamanho do at. js é reduzido por ~ 24%. O tamanho de arquivo menor melhora o desempenho do carregamento da página e reduz o tempo para baixar o at. js na página. |
-
-## [!DNL Target] Standard/Premium 19.5.1 (21 de maio de 21 19) {#release-19-5-1-prerelease}
-
-Esta versão inclui os seguintes recursos, alterações e melhorias:
-
-(Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
-
-### Atualizações de recursos
-
-| Recurso/Aprimoramento | Descrição |
-| --- | --- |
-| Aplicativo de página única no Visual Experience Composer (SPA VEC) | O SPA VEC inclui os seguintes aprimoramentos para agilizar seu trabalho e deixá-lo mais eficiente:<ul><li>Clicar em uma ação na SPA destaca o elemento no site onde esta ação será aplicada. Cada ação VEC criada em uma Exibição tem quatro ícones correspondentes: Informações, Editar, Mover e Excluir. A nova funcionalidade «Mover» nesta versão permite mover a ação para um Evento de carregamento de página ou qualquer outra exibição que já existe no painel de modificações. (TGT-33746)</li><li>É possível executar muitas ações antes que a página seja carregada no VEC ou até mesmo se a página não carregar completamente (por exemplo, o código personalizado não é mais operacional). Ações que não podem ser editadas antes que o site seja carregado estão desabilitadas na interface do Target. (TGT-33851 e TGT-34149)</li></ul>Para obter mais informações, consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| Visual Experience Composer (VEC) | <ul><li>Agora você pode usar o [!DNL Styles > Background] menu no VEC para alterar a imagem de fundo e a cor do elemento selecionado. (TGT-15001)</li><li>Quando você clica em um elemento de página no VEC, um menu mostra as opções disponíveis para esse tipo de elemento. Quando você clica em uma imagem em seguida, clica [!DNL Replace With]em, duas novas opções são exibidas: [!DNL HTML] e [fragmento de experiência](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> A substituição de uma imagem com HTML fornece controle total do elemento sem precisar selecionar o elemento pai para acessar a opção HTML. Fragmentos de experiência permitem inserir rapidamente elementos criados no Adobe Experience Manager (AEM) em activiites do Target. (TGT-34097)</li></ul> |
+| Aplicativo de página única (SPA) Visual Experience Composer (VEC) | <ul><li>Um novo fluxo de trabalho guiado ajuda você a entender como as configurações da regra de entrega de página devem ser configuradas para executar e executar uma atividade com sucesso para seu Aplicativo de página única. (TGT-33718)</li><li>Agora é possível definir uma modificação usando o SPA VEC e clonar a modificação para uso em outras exibições no aplicativo de página única. (TGT-33882)</li><li>Melhoramos o processo para configurar o rastreamento de cliques no SPA VEC.<br>Ao selecionar elementos a serem usados no rastreamento de cliques, os nomes de todos os elementos disponíveis são exibidos no painel Modificações do lado direito, facilitando a seleção dos elementos desejados.<br>A [!DNL Goals & Settings] página do fluxo de trabalho de atividade guiada de três partes exibe um número que representa o número de elementos selecionados para o rastreamento de cliques. Você pode passar o mouse sobre esse número para ver os nomes de todos os elementos selecionados. (TGT-33878) </li></ul> |
+| Mobile Visual Experience Composer (VEC) | <ul><li>Agora você pode criar atividades para várias versões do aplicativo móvel. Isso economiza tempo e esforço quando as versões são muito similares e você não precisa alterar significativamente a interface do usuário do aplicativo. (TGT-34231)</li></ul> |
+| ![Atividades do Target](/help/assets/premium.png)<br>Badgeautomatpersonalização automatizada (AP) e do Target automático: experiência como controle em | <ul><li>É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de AP ou de Direcionamento automático. Esse recurso permite rotear todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Como consequência, você poderá avaliar o desempenho das entregas personalizadas em relação à experiência de controle. (TGT-32801 e TGT-26572)</li></ul> |
 
 ### Melhorias, correções e alterações
 
-* Os ícones da barra de ferramentas são exibidos corretamente após cancelar o carregamento de uma página dentro do VEC. Se ações específicas não puderem ser executadas após a página estar completamente carregada, os ícones da barra de ferramentas associados são desabilitados. (TGT-33811)
-
-## Mobile App Visual Experience Composer (May 4 de maio de 2019) {#mobile-vec-may14}
-
-| Recurso/Aprimoramento | Descrição |
-| --- | --- |
-| Mobile App Visual Experience Composer (VEC) | A VEC do aplicativo móvel permite criar atividades e personalizar conteúdo em aplicativos móveis nativos de maneira autônoma sem dependências de desenvolvimento contínuas e ciclos de lançamento de aplicativos.<br>Para obter mais informações, consulte:<ul><li>[aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Configurar um rastreamento de cliques no VEC do Mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[Vídeo: Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+* A <BODY> agora é exibida no caminho DOM exibido na parte inferior do VEC quando você clica em um elemento na página, permitindo que você execute ações na página <BODY> tag. (TGT-33736)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
