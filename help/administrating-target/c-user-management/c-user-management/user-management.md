@@ -7,9 +7,9 @@ solution: Target
 subtopic: Introdução
 title: Usuários
 topic: Padrão
-uuid: 9 b 311 dd 3-b 8 fa -483 d-aedd -96761 cfcd 67 e
+uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -37,7 +37,7 @@ Por padrão, todos os usuários do [!DNL Target] começam com permissões de obs
 
 Os usuários administradores de sistema são identificados na lista de usuários. Entre em contato com um desses usuários administradores de sistema se precisar alterar seu nível de acesso.
 
-## Acessar o Adobe Admin Console {#section_79796E0227D048F59BAE0AB02E544EBE}
+## Acessar o Adobe Admin Console {#access}
 
 Para tarefas executadas no Adobe Admin Console, acesse o console seguindo estas etapas:
 
@@ -49,21 +49,21 @@ Para tarefas executadas no Adobe Admin Console, acesse o console seguindo estas 
 
 1. (Condicional) Se tiver acesso ao [!DNL Admin Console for Enterprise] para mais de uma organização, clique no avatar do usuário no canto direito ou na barra de navegação superior e selecione a organização desejada.
 
-## Adicionar usuários {#section_A92AF0F921B743FEB9E9033433BD816A}
+## Adicionar usuários {#add-users}
 
 Todo o gerenciamento de usuários deve ser executado no [!DNL Adobe Admin Console for Enterprise]. Entretanto, todos os seus usuários existentes no [!DNL Target] serão migrados do [!DNL Target] para o [!DNL Admin Console for Enterprise].
 
 1. [No Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique **[!UICONTROL em Usuários]** &gt; **[!UICONTROL Usuários]** para criar novos usuários ou editar usuários existentes.
 1. Siga as instruções em [Gerenciar usuários e grupos na Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) no *Guia do usuário da empresa*.
 
-## Criar grupos de usuários {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## Criar grupos de usuários {#user-groups}
 
 É possível criar grupos de usuários, como Desenvolvedores, Analistas, Profissionais de marketing, Executivos, etc., e atribuir privilégios a vários produtos e espaços de trabalho da Adobe. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
 
 1. [No Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique **[!UICONTROL em Usuários]** &gt; Grupos **[!UICONTROL de usuários]** para criar novos grupos de usuários ou editar grupos existentes.
 1. Siga as instruções em [Gerenciar usuários e grupos na Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) no *Guia do usuário da empresa*.
 
-## Especificar funções e permissões {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## Especificar funções e permissões {#roles-permissions}
 
 Somente administradores de sistema podem definir funções de usuário no [!DNL Target]. Por exemplo, um usuário aprovador do Standard não pode alterar um observador para um aprovador, sem ter direitos de Admin da Experience Cloud.
 
@@ -85,7 +85,7 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
    | Função | Descrição |
    |--- |--- |
    | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
-   | Editor | pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
    | Aprovador | Pode criar, editar e ativar ou parar atividades. |
 
 Para obter mais informações, consulte [Gerenciar permissões e funções do produto no Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) no *Guia do usuário da empresa*.
@@ -100,4 +100,4 @@ Objetivos de aprendizagem:
    * Adicionar propriedades aos espaços de trabalho
 * Compreenda espaços de trabalho padrão
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=por_br)
