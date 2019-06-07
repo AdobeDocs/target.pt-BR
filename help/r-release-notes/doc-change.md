@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -22,6 +22,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 6 de junho de 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Atualização da descrição do `options > page` parâmetro. |
+|  | [Primeiros passos do administrador](/help/administrating-target/start-target.md) | Atualização do artigo inteiro. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Notas preliminares adicionadas da versão do Target 19.6.1. |
 | 5 de junho de 2019 | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Nova seção [Solução de problemas](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) foi adicionada. |
 |  | [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Foram atualizadas informações sobre a implantação do at. js usando o Adobe Launch, que é o método preferido de implantação. |
