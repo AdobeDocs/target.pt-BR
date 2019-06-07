@@ -8,7 +8,7 @@ title: Vídeos de treinamento para o Adobe Target Standard e Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -33,12 +33,12 @@ Os vídeos de treinamento estão incorporados dentro de tópicos relevantes nest
 
 ## Adobe Target - Tutoriais e vídeos
 
-Uma coleção de vídeos e tutoriais explicativos destacando os recursos do Target estão disponíveis na página [Adobe Target Experience Manager](https://guided.adobe.com/#recommended/solutions/target) .
+Uma coleção de vídeos de instruções e tutoriais que destacam os recursos do Target estão disponíveis na página [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
 
-![Vídeos da Experience Manager](/help/c-intro/assets/experience-league.png)
+![Vídeos da Experience League](/help/c-intro/assets/experience-league.png)
 
-## Tutoriais do Adobe Target
+## Tutoriais do Adobe Target {#tutorials}
 
-As introduções de vídeo com [!DNL Target] conceitos e ferramentas estão disponíveis na [página Tutoriais](https://helpx.adobe.com/target/tutorials.html) do Adobe Target.
+As introduções de vídeo com [!DNL Target] conceitos e ferramentas estão disponíveis na [página Tutoriais](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) do Adobe Target.
 
-![Tutoriais do Adobe Target](/help/c-intro/assets/adobe-target-tutorials.png)
+![Tutoriais do Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
