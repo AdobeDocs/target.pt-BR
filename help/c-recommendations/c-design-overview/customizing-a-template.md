@@ -10,7 +10,7 @@ topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: premium
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
 
-## Visão geral da Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Visão geral de velocidade {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 É possível encontrar informações sobre o Velocity em [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 Também é possível usar `algorithm.name` e `algorithm.dayCount` como variáveis nos designs, assim, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido de forma dinâmica no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar essas variáveis para exibir o `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
 
-## Cenário: Exibir item principal com produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Cenário: Exibir item-chave com produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Você pode modificar seu design para mostrar seu item principal ao lado de outros produtos recomendados. Por exemplo, você pode querer mostrar o item atual para referência ao lado das recomendações.
 
@@ -180,7 +180,7 @@ O resultado é um design como o seguinte, em que uma coluna mostra o item chave.
 
 Quando você está criando sua atividade do [!DNL Recommendations], se o item chave é obtido do perfil do visitante, como &quot;último item comprado&quot;, o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
 
-## Cenário: substituir o ponto decimal pelo delimitador de vírgulas em um preço de vendas {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Cenário: Substituir o ponto decimal pelo delimitador de vírgula em um preço de vendas {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Você pode modificar o design para substituir o delimitador de ponto decimal usado nos Estados Unidos pelo delimitador de vírgula usado na Europa e em outros países.
 
@@ -206,3 +206,39 @@ O código a seguir é um exemplo condicional completo de um preço de venda:
                                     </span>
 ```
 
+## Cenário: Criar um design padrão do Recommendations 4 x 2 com lógica de verificação nula {#default}
+
+Usando um script Velocity para controlar o dimensionamento dinâmico da entidade, o modelo a seguir acomoda um resultado de 1 a muitos para evitar a criação de elementos HTML vazios quando não há entidades suficientes de correspondência retornadas [!DNL Recommendations]. Esse script é melhor para cenários quando as recomendações de backup não fazem sentido e [!UICONTROL a Renderização] parcial do modelo está ativada.
+
+O trecho HTML a seguir substitui a porção HTML existente no design padrão de 4 x 2 (o CSS não está incluído aqui, por exemplo, para fins de abreviidade):
+
+* Se uma quinta entidade existir, o script insere um div div e abre uma nova linha com `<div class="at-table-row">`.
+* Com 4 x 2, os resultados máximos mostrados serão oito, mas isso pode ser personalizado para listas menores ou maiores ao modificar `$count <=8`.
+* Esteja ciente de que a lógica não equilibre as entidades em várias linhas. Por exemplo, se houver cinco ou seis entidades a serem exibidas, elas não se tornarão dinamicamente três na parte superior e duas na parte inferior (ou três na parte superior e três na parte inferior). A linha superior exibirá quatro itens antes de iniciar uma segunda linha.
+
+```
+<div class="at-table">
+  <div class="at-table-row">
+    #set($count=1) 
+    #foreach($e in $entities)  
+        #if($e.id != "" && $count < $entities.size() && $count <=8) 
+            #if($count==5) 
+                </div>
+                <div class="at-table-row">
+            #end
+            <div class="at-table-column">
+                <a href="$e.pageUrl"><img src="$e.thumbnailUrl" class="at-thumbnail" />
+                    <br/>
+                    <h3>$e.name</h3>
+                    <br/>
+                    <p class="at-light">$e.message</p>
+                    <br/>
+                    <p class="at-light">$$e.value</p>
+                </a>
+            </div>
+            #set($count = $count + 1) 
+        #end 
+    #end
+    </div>
+  </div>
+```
