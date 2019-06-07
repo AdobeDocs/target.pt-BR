@@ -8,7 +8,7 @@ title: Testar uma Adbox de imagem de email
 topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 384182cf3bd9110ebd5da124a2cc0f9a1b6cbf81
+source-git-commit: f7651205c27c6194e50610a916f51c5e585bf2a9
 
 ---
 
@@ -36,13 +36,13 @@ mboxSession={123456}&
 mboxPC={123456}” border=“0"/>
 ```
 
-Onde os valores abaixo são específicos:
+Onde os valores abaixo são específicos para você:
 
 | Valor | Descrição |
 |--- |--- |
 | clientcode | O código de cliente de sua empresa. Encontre isso em seu at.js ou mbox.js listado como `clientCode='yourclientcode'`. Todos os caracteres em minúsculas e sem caracteres especiais. |
 | image | O tipo de oferta. É sempre &quot;image&quot; para anúncios gráficos e &quot;page&quot; para redirecionadores. |
 | email_header | O nome da adbox. |
-| `http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | O conteúdo padrão da adbox. Esta deve ser uma referência absoluta e deve ser codificada no URL. |
+| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Obrigatório. Substitua o URL pelo conteúdo padrão apropriado para sua adbox. Esta deve ser uma referência absoluta e deve ser codificada no URL. |
 | `mboxXDomain=disabled` | Faz com que o Target não tente definir um cookie. |
 | `mboxSession=123456` e `mboxPC=123456` | Dois valores são exigidos pelo Target para mesclar o perfil do usuário com o perfil existente para o seu site. 123456 é o identificador único gerado por email. Insira esse valor dinamicamente em cada adbox e URL de redirecionador. Esse número deve ser único para cada email enviado. Se um email semanal é enviado para 1.000 destinatários, 1.000 IDs únicas devem ser geradas.<br>O identificador único por email deve ser atribuído ao mboxSession e mboxPC em cada adbox e URL de redirecionador. O formato recomendado para esse identificador é timestamp-NNNNN, onde NNNNN é um número aleatório de 5 dígitos, mas qualquer formato alfanumérico funcionará. Alguns serviços de envio de emails em grandes quantidades e qualquer linguagem de programação podem gerar esse identificador único. |
