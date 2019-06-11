@@ -1,38 +1,30 @@
 ---
 description: O Visual Experience Composer fornece uma interface visual para editar as experiências em sua página.
 keywords: Definição de metas; experiência; adicionar experiência; adicionar experiência
-seo-description: O Visual Experience Composer fornece uma interface visual para editar as experiências em sua página.
+seo-description: O Visual Experience Composer (VEC) no Adobe Target fornece uma interface visual para editar as experiências na página.
 seo-title: Adicionar experiência
 solution: Target
 title: Adicionar experiência
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
 
 # Adicionar experiência{#add-experience}
 
-O Visual Experience Composer fornece uma interface visual para editar as experiências em sua página.
+O Visual Experience Composer (VEC) fornece uma interface visual para adicionar e editar as experiências na sua página.
 
 Para obter mais detalhes sobre experiências, consulte [Experiências](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 1. Clique em **[!UICONTROL Adicionar experiência]**.
 
+   ![Opção Adicionar experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
+
    >[!NOTE]
    >
    >Se você estiver direcionando uma experiência para um público-alvo, selecione-o antes de incluir uma experiência. Aparece uma mensagem para lembrá-lo de escolher seu público-alvo.
-
-1. Quando solicitado, insira o URL da atividade. Digite o URL completo (incluindo `https://`) e clique em **[!UICONTROL Continuar]**.
-
-   O Experience Composer (consulte [Experiências](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) abre a página que está especificada nas Preferências da conta. Para exibir uma página diferente, clique no ícone de Globo e insira o URL na caixa Selecionar URL no Experience Composer e clique em **[!UICONTROL Continuar]**. Caso tenha inserido um URL para um site que não inclui o código JavaScript do Target Standard, você não pode selecionar elementos da página.
-
-   Por padrão, o Visual Experience Composer não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar o JavaScript se deseja poder alterar esses elementos usando o Visual Experience Composer.
-
-   >[!NOTE]
-   >
-   >Se você alterar o URL após fazer alterações de uma ou mais experiências em uma página, a experiência será redefinida usando a nova página, e as alterações que você fez são perdidas.
 
 1. Selecione os elementos que você deseja alterar e faça as modificações desejadas.
 
@@ -47,29 +39,13 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](../../../
    >
    >Se você apresentar uma imagem de uma fonte diferente da sua página principal (como uma imagem hospedada em akamai.net e oferecida em dell.com), ela não será exibida na miniatura da página mostrada no diagrama de fluxo.
 
-1. Clique no botão Marca de seleção quando tiver terminado de criar a experiência.
+1. Clique **[!Sem salvar]** quando terminar de criar a experiência.
 
-   O diagrama da atividade é exibido:
+## Renomear experiência
 
-   ![](assets/ab_flodia.png)
+Clique no [!UICONTROL ícone Renomear experiência] sobre uma experiência em uma atividade de teste A/B ou direcionamento de experiência (XT) para dar a experiência um novo nome.
 
-   Se uma experiência incluir conteúdo entre domínios, a miniatura poderá não ser exibida corretamente e será substituída por um ícone.
-
-1. Especifique o percentual de visitantes que verão cada experiência na atividade.
-
-   Você pode mostrar várias experiências no mesmo público-alvo. Um diagrama é exibido mostrando um público-alvo selecionado e as experiências que você incluiu na atividade. Especifique o percentual de vezes que deseja que cada experiência seja exibida. Você pode dividir os percentuais igualmente entre todas as experiências ou especificar percentuais maiores ou menores para cada experiência. O total de experiências deve ser igual a 100%. Você também pode clicar em **[!UICONTROL Adicionar experiência]para adicionar uma outra experiência à atividade.**
-
-   Clique em **[!UICONTROL Continuar]ao concluir esta etapa.**
-
-## Renomear, editar ou excluir uma experiência
-
-Observe que você pode clicar no ícone Mais (três elipses verticais) em uma experiência em uma atividade de Teste A/B ou de Direcionamento de experiência (XT) e escolher as seguintes opções, conforme necessário:
-
-* Renomear
-* Editar
-* Excluir
-
-![](assets/experience_edit.png)
+![Renomear experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
 Observe que quando você nomeia ou renomeia uma experiência, os seguintes caracteres não são permitidos:
 
@@ -81,7 +57,26 @@ Observe que quando você nomeia ou renomeia uma experiência, os seguintes carac
 | : | Dois-pontos |
 | = | Igual a |
 | + | Plus |
-| - | menos |
+| - | Menos |
+| @ | Sinal de arroba |
+
+## Redirecionar para URL
+
+Clique no ícone Mais (três elipses verticais) em uma experiência em uma atividade de teste A/B ou direcionamento de experiência (XT) e clique [!UICONTROL em Redirecionar para URL].
+
+Para obter mais informações, consulte [Redirecionar para URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+
+**OBSERVAÇÃO**: Quando você nomeia ou renomeia uma experiência, os seguintes caracteres não são permitidos:
+
+| Caractere | Descrição |
+|--- |--- |
+| / | Barra |
+| ? | Ponto de interrogação |
+| # | Sinal numérico |
+| : | Dois-pontos |
+| = | Igual a |
+| + | Plus |
+| - | Menos |
 | @ | Sinal de arroba |
 
 ## Duplicar uma experiência
@@ -90,7 +85,13 @@ Você pode copiar uma experiência em um teste A/B para fazer pequenas alteraç�
 
 Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais &gt; **[!UICONTROL Duplicar]**.
 
-![](assets/duplicate_experience_ab.png)
+![Opção de experiência duplicada](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+
+## Excluir uma experiência
+
+Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais &gt; **[!UICONTROL Duplicar]**.
+
+![Opção Excluir experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
 ## Vídeo de treinamento: uso do Visual Experience Composer
 
@@ -99,4 +100,4 @@ O vídeo abaixo contém informações sobre o uso das opções do Visual Experie
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/17399?captions=por_br)
