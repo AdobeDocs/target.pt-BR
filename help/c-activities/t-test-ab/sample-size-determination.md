@@ -7,7 +7,7 @@ solution: Target
 title: Por quanto tempo você deve executar um teste A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -18,7 +18,7 @@ Um teste A/B bem-sucedido requer um número adequado de visitantes (tamanho da a
 
 É tentador parar uma atividade se uma das ofertas tiver um desempenho muito melhor ou pior do que os outros nos primeiros dias da atividade. No entanto, quando o número de observações é baixo, há uma alta probabilidade de que um aumento positivo ou negativo seja observado por acaso, porque a taxa de conversão é calculada em média por um número baixo de visitantes. À medida que a atividade coleta mais pontos de dados, as taxas de conversão convergem para seus valores verdadeiros de longo prazo.
 
-Interromper uma atividade prematuramente é uma das nove armadilhas significativas em que você pode cair quando realiza testes A/B. Para obter mais informações, consulte [Nove armadilhas comuns de teste A/B e como evitar](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+Interromper uma atividade prematuramente é uma das nove armadilhas significativas em que você pode cair quando realiza testes A/B. Para obter mais informações, consulte [Nove erros comuns em testes A/B e como evitá-los](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 O Target fornece ferramentas para ajudar a garantir que sua atividade tenha um tamanho de amostra grande o suficiente para atingir suas metas de conversão:
 
@@ -40,7 +40,7 @@ O Target fornece ferramentas para ajudar a garantir que sua atividade tenha um t
 
 Antes de configurar seu teste A/B, acesse a calculadora de tamanho [de amostra do Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
-![](assets/sample_size_calculator.png)
+![Calculadora de tamanho da amostra do Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 É importante determinar um tamanho de amostra adequado (número de visitantes) antes de fazer um teste A/B, para estabelecer o tempo durante o qual o teste pode ser executado antes da avaliação dos resultados. O monitoramento simples do teste até a obtenção da significância estatística faz com que o intervalo de confiança seja muito subestimado, o que torna o teste não confiável. Com base nesse resultado imagina-se que, caso um resultado estatisticamente significativo seja detectado, o teste será interrompido e um vencedor declarado. No entanto, se o resultado não for estatisticamente significativo, o teste poderá continuar. Esse procedimento favorece bastante o resultado positivo, o que aumenta a taxa de falsos positivos e, portanto, distorce o nível de significância efetiva do teste.
 
