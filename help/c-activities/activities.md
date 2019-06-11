@@ -1,14 +1,14 @@
 ---
 description: As atividades permitem testar os designs de página e direcionar o conteúdo para públicos-alvo específicos.
 keywords: lista de atividades, atividades, atividade, tipos de atividade, editar atividade, ações da atividade, atributo da atividade, filtro da lista de atividades, limitações da atividade
-seo-description: As atividades no Adobe Target permitem testar designs de páginas e conteúdo direcionado para públicos-alvo específicos.
+seo-description: As atividades no Adobe Target permitem testar os designs de página e direcionar o conteúdo para públicos-alvo específicos.
 seo-title: Atividades no Adobe Target
 solution: Target
 title: Atividades
 topic: Padrão
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -17,30 +17,30 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 As atividades permitem testar os designs de página e direcionar o conteúdo para públicos-alvo específicos. Uma atividade determina as experiências que um visitante do site pode ter.
 
-Por exemplo, você pode criar uma atividade que teste duas páginas iniciais diferentes, uma destacando informações sobre sapatos de verão femininos e outra página de aterrissagem que destaca vestuário de verão mais geral. A atividade determina as condições que controlam quando cada uma dessas páginas de aterrissagem será exibida e as métricas que determinam qual página tem maior sucesso. A atividade está configurada para iniciar e terminar quando as condições específicas forem cumpridas, como entre datas específicas, ou para iniciar quando a atividade for aprovada e terminar quando ela for desativada.
+Por exemplo, você pode criar uma atividade que teste duas landing pages diferentes, uma destacando informações sobre sapatos femininos de verão e outra destacando um vestuário de verão mais amplo. A atividade determina as condições que controlam quando cada uma dessas páginas de aterrissagem será exibida e as métricas que determinam qual página tem maior sucesso. A atividade está configurada para iniciar e terminar quando as condições específicas forem cumpridas, como entre datas específicas, ou para iniciar quando a atividade for aprovada e terminar quando ela for desativada.
 
 Ao projetar uma atividade, você deve planejar com cuidado. Determine quando a atividade vai começar e quanto tempo ela durará. Depois, relacione as ofertas e atribua um público-alvo a cada uma.
 
-## Tipos de atividade
+## Tipos de atividades
 
-O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudar você a escolher melhor o melhor tipo de atividade para suas finalidades, também criamos o [Guia de atividades do Adobe Target](/help/c-activities/target-activities-guide.md).
+O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [Guia de atividades do Adobe Target](/help/c-activities/target-activities-guide.md).
 
 | Tipo de atividade | Descrição |
 |--- |--- |
-| [Teste A/B](/help/c-activities/t-test-ab/test-ab.md) | O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.<br>**Observação:** Agora você pode incluir [recomendações nas atividades de teste A/B](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma licença [do Target Premium](/help/c-intro/intro.md#premium). |
-| [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.<br>**Observação:** Agora você pode incluir [recomendações nas atividades de Autoalocação](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige que você tenha uma funcionalidade [do Target Premium](/help/c-intro/intro.md#premium). |
-| [Auto-targettarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | O Direcionamento automático usa aprendizagem de máquina avançada para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.<br>**Observação:** Agora você pode incluir [recomendações nas atividades do Target automático](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige que você tenha uma funcionalidade com o [Target Premium](/help/c-intro/intro.md#premium). |
-| [Utilização de dados do Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A 4 T) | Você pode configurar uma atividade para usar o [!DNL Adobe Analytics] como fonte de geração de relatórios. Este tipo de atividade requer a vinculação da sua conta da [!DNL Adobe Experience Cloud] ao [!DNL Analytics] e ao [!DNL Target]. |
+| [Teste A/B](/help/c-activities/t-test-ab/test-ab.md) | O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Teste A/B](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
+| [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Alocação automática](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
+| [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | O Direcionamento automático usa aprendizagem de máquina avançada para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento automático](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
+| [Uso de dados do Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Você pode configurar uma atividade para usar o [!DNL Adobe Analytics] como fonte de geração de relatórios. Este tipo de atividade requer a vinculação da sua conta da [!DNL Adobe Experience Cloud] ao [!DNL Analytics] e ao [!DNL Target]. |
 | [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade. |
-| [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) | O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.<br>**Observação:** Agora você pode incluir [recomendações nas atividades de direcionamento de experiência](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma licença [do Target Premium](/help/c-intro/intro.md#premium). |
-| [Custom customalizationtarget](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Premium](/help/assets/premium.png) | A Personalização automatizada (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões. |
-| [Recommendationstarget](/help/c-recommendations/recommendations.md)<br>![Premium](/help/assets/premium.png) | Uma recomendação determina como um produto é sugerido para um usuário do site, dependendo das atividades desse usuário no site.<br>Por exemplo, talvez você queira incentivar as pessoas que compraram uma mochila a pensar em comprar um tênis para caminhada e bastões de marcha. Você pode criar uma recomendação que mostre itens que são frequentemente comprados juntos, usando o algoritmo &quot;Pessoas que compraram isso também compraram aquilo&quot;. Ou talvez você queira incentivar os visitantes a passarem mais tempo no seu site de mídia recomendando vídeos semelhantes aos que eles assistiram, usando o algoritmo &quot;Pessoas que visualizaram isso também visualizaram aquilo&quot;.<br>**Observação:** Agora você pode incluir recomendações dentro de teste A/B (incluindo as atividades Auto-alocação e Direcionamento automático) e de direcionamento de experiência (XT). Consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
+| [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) | O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento de experiência](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
+| [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | A Personalização automatizada (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões. |
+| [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | Uma recomendação determina como um produto é sugerido para um usuário do site, dependendo das atividades desse usuário no site.<br>Por exemplo, talvez você queira incentivar as pessoas que compraram uma mochila a pensar em comprar um tênis para caminhada e bastões de marcha. Você pode criar uma recomendação que mostre itens que são frequentemente comprados juntos, usando o algoritmo &quot;Pessoas que compraram isso também compraram aquilo&quot;. Ou talvez você queira incentivar os visitantes a passarem mais tempo no seu site de mídia recomendando vídeos semelhantes aos que eles assistiram, usando o algoritmo &quot;Pessoas que visualizaram isso também visualizaram aquilo&quot;.<br>**Observação:** agora, você pode incluir recomendações nas atividades de Teste A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Lista de atividades {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
-A lista [!UICONTROL de atividades] é a exibição padrão quando você abre [!DNL Target]. Você pode criar novas atividades nesta página e gerenciar atividades existentes.
+A lista de [!UICONTROL Atividades] é a exibição padrão ao abrir o [!DNL Target]. Você pode criar novas atividades nesta página e gerenciar as atividades existentes.
 
-Você também pode exibir a lista [!UICONTROL de atividades] clicando na guia [!UICONTROL Atividades] na parte superior da [!DNL Target] interface do usuário.
+Você também pode exibir a lista de [!UICONTROL Atividades] clicando na guia [!UICONTROL Atividades] na parte superior da interface do usuário do [!DNL Target].
 
 ![Lista de atividades](/help/c-activities/assets/activities-list.png)
 
@@ -59,7 +59,7 @@ A lista de Atividades fornece uma visão geral de todas as atividades:
 
 Passe o mouse sobre uma atividade para ver as ações disponíveis.
 
-![Ações de listagem de lista de atividades](/help/c-activities/assets/activities_list_hover.png)
+![Ações de focalização da lista de atividades](/help/c-activities/assets/activities_list_hover.png)
 
 As seguintes ações estão disponíveis (dependendo das suas permissões):
 
@@ -70,7 +70,7 @@ As seguintes ações estão disponíveis (dependendo das suas permissões):
 | Ativar | Inicia uma atividade inativa ou pronta. |
 | Arquivar | Envie a atividade para o arquivo. Por padrão, atividades arquivadas não aparecem mais na lista de atividades. Para ver atividades arquivadas, altere o filtro para que a lista de atividades as inclua. Você pode ativar uma atividade arquivada para usá-la novamente.<br>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
 | Copiar | Copia uma atividade. Qualquer atividade pode ser copiada. A cópia de uma atividade cria uma nova atividade com o mesmo nome, com o termo &quot;Cópia&quot; anexado. Por exemplo, um teste chamado &quot;Ofertas do navegador&quot; é copiada para &quot;Cópia de ofertas do navegador&quot;.<br>Ofertas visuais são copiadas com a atividade. As ofertas podem ser editas em segurança na cópia sem afetar a atividade original. As únicas exceções são ofertas e imagens salvas na pasta Conteúdo/Ativos. |
-| Excluir | Exclui uma atividade de rascunho ou pronta. Não é possível recuperar as atividades excluídas. |
+| Excluir | Exclua um rascunho ou atividade.<BR>**OBSERVAÇÃO**: As atividades excluídas não podem ser recuperadas. A menos que você tenha certeza de que nunca precisará essa atividade novamente, use a [!UICONTROL ação Arquivar] . Você pode, então, reativar a atividade, se necessário. |
 
 Observe os detalhes a seguir sobre a lista Atividade:
 
@@ -95,7 +95,7 @@ Use o campo de pesquisa para procurar atividades que correspondam a seus critér
 
 ![Pesquisa de atividades](/help/c-activities/assets/activities_search_new.png)
 
-O campo de pesquisa inclui um menu suspenso para ajudar a restringir sua pesquisa especificando um dos seguintes filtros de pesquisa: [!UICONTROL Nome da atividade] e [!UICONTROL URL].
+O campo de pesquisa inclui um menu suspenso que ajuda a limitar a pesquisa com a especificação de um dos seguintes filtros de pesquisa: [!UICONTROL Nome da atividade] e [!UICONTROL URL].
 
 ### Filtros da lista de atividades
 
@@ -107,9 +107,9 @@ Você pode filtrar pelas opções a seguir. Em cada categoria, se nada for selec
 
 | Filtrar categoria | Filtro |
 |--- |--- |
-| Tipo | Teste A/B: [Manual](/help/c-activities/t-test-ab/test-ab.md), [autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)e [auto-direcionamento](/help/c-activities/auto-target-to-optimize.md).<br>[Custom customalizingexperience](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[targetingmultivariate](/help/c-activities/t-experience-target/experience-target.md)<br>[testrecommendations](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[](/help/c-recommendations/recommendations.md) |
+| Tipo | Teste A/B: [Manual](/help/c-activities/t-test-ab/test-ab.md), [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) e [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md).<br>[Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md)<br>[Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/c-recommendations/recommendations.md) |
 | Status | Ao vivo<br>Rascunho<br>Programado<br>Inativo<br>Sincronização<br>Encerrado<br>Arquivado |
-| Fonte de geração de relatórios | Targetanalytics<br> |
+| Fonte de geração de relatórios | Target<br>Analytics |
 | Criador de experiência | Visual<br>Baseado em formulário |
 | Tipo de métrica | Conversão<br>Receita<br>Envolvimento |
 | Fonte da atividade | Adobe Target<br>Adobe Target Classic<br>Adobe Experience Manager<br>Adobe Mobile Services |
@@ -121,7 +121,7 @@ Clique em um dos seguintes cabeçalhos para definir que as atividades sejam list
 * Nome da atividade
 * Tipo de atividade
 
-![Lista crescente de atividades](/help/c-activities/assets/activities_list_ascending.png)
+![Ordem crescente da lista de atividades](/help/c-activities/assets/activities_list_ascending.png)
 
 ## Dicas e truques {#section_F77F30A246A14B538D9363B7F3639F97}
 
@@ -129,7 +129,7 @@ Aproveite o máximo do Adobe Target, aprenda sobre os vários recursos e veja po
 
 O recurso Dicas e truques é exibido periodicamente na página de lista de Atividades. Depois de ler ou dispensar uma dica, ela não será exibida novamente até que a próxima dica esteja disponível. Como opção, você pode desativar a exibição de todas as dicas clicando no ícone de Ajuda &gt; [!UICONTROL Desativar a dica do dia].
 
-![Desativar ponta do dia](/help/c-activities/assets/tip-disable-new.png)
+![Desativar dica do dia](/help/c-activities/assets/tip-disable-new.png)
 
 ## Limitações {#section_049D4684403A4E07B998067EB8E9BE56}
 
@@ -137,19 +137,19 @@ Cada atividade do Target tem as seguintes limitações de conteúdo:
 
 | Item | Limite |
 |--- |--- |
-| Seletores exclusivos | 300  se um seletor se repete em uma experiência diferente, ele é contado uma vez. No entanto, se ele se repete na mesma experiência, ele é contado novamente. |
+| Seletores exclusivos | 300 se um seletor se repete em uma experiência diferente, ele é contado uma vez. No entanto, se ele se repete na mesma experiência, ele é contado novamente. |
 | Ofertas em cada experiência | 350 |
 | Seletores de rastreamento de cliques nas métricas | 50 |
 | Mboxes nas métricas | 50 |
 | Públicos-alvo e localizações | 50 A combinação de públicos-alvo e localizações (mbox) não deve ser maior do que 50. |
 
-A atividade não pode ser salva se você exceder qualquer um desses limites.
+A atividade não pode ser salva se exceder qualquer um desses limites.
 
 O aumento dos números desses itens na atividade também aumenta o tempo necessário para sincronizar a atividade no Target.
 
 Para conhecer outros limites do Visual Experience Composer, consulte [Limitações do Visual Experience Composer](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-## Atributos importados para o Target para atividades atualizadas fora do Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## Atributos importados para o Target de atividades atualizadas externamente {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Se atividades criadas no [!DNL Target] forem carregadas de fora do [!DNL Target] (por exemplo, através do Adobe I/O), os seguintes atributos de atividade serão importados novamente ao [!DNL Target]:
 
@@ -179,7 +179,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
 
 ### Gerenciamento de atividades (5:55)
 
@@ -189,4 +189,4 @@ Este vídeo explica como usar a lista de Atividades para gerenciar as atividades
 * Encontre atividades na lista de Atividades
 * Editar, desativar, copiar e excluir atividades
 
->[!VIDEO](https://video.tv.adobe.com/v/18550)
+>[!VIDEO](https://video.tv.adobe.com/v/18550?captions=por_br)
