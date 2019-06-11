@@ -7,7 +7,7 @@ title: Metas e Configurações
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 
-As configurações disponíveis dependem se você usa o Target ou Analytics como a fonte de dados.
+As configurações disponíveis dependem se você usa o Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) como a fonte de dados.
 
-![](assets/ab_settings.png)
+![Caixa de diálogo Configurações da atividade](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Configurações da atividade {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -41,16 +41,19 @@ As configurações disponíveis dependem se você usa o Target ou Analytics como
 
 Configurações avançadas estão disponíveis para métricas de meta de teste A/B.
 
-![](assets/Menu_AdvancedSettings.png)
+![Menu Configurações avançadas](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >Caso use o Adobe Analytics como fonte de geração de relatórios, as configurações serão gerenciadas pelo servidor do Analytics. A opção de configurações avançadas não estará disponível.
 
+![Configurações avançadas](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | Configuração | Descrição |
 |--- |--- |
 | Qual métrica de sucesso deve ser atingida antes do aumento dessa métrica? | Use esta opção para contar alguém que atingiu a métrica de sucesso somente se essa pessoa tiver atingido uma métrica de sucesso diferente antes. Por exemplo, uma conversão de teste só pode ser válida se o visitante clica na oferta ou alcança a uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Você deve definir ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção Adicionar dependência permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em Configurações avançadas.</li><li>Clique na opção Adicionar dependência:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em Alcançado para alternar a configuração entre Alcançado e Não alcançado.</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
 | O que acontece depois que um usuário atinge esta métrica de meta? | Há três opções para o que acontece depois que um visitante atinge a métrica de meta:<ul><li>Selecione Aumentar a contagem e manter o usuário na atividade para especificar como é feito o aumento da contagem.</li><li>Selecione Aumentar a contagem, liberar o usuário e permitir a reentrada para especificar a experiência que o usuário vê ao entrar na atividade novamente.</li><li>Selecione Aumentar a contagem, liberar o usuário e impedir a reentrada para especificar o que o usuário vê em lugar do conteúdo da atividade.</li></ul> |
+| De que maneira a contagem será incrementada? | Há três opções para o aumento da contagem:<ul><li>Um para cada participante</li><li>Em cada impressão (exceto atualizações de página)</li><li>Em todas as impressões</li></ul> |
 
 Consulte [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) para obter mais informações sobre configurações avançadas.
 
@@ -83,4 +86,4 @@ Este vídeo demonstra como a configuração das atividades se encaixa no fluxo d
 * Criar uma atividade A/B no Adobe Target
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=por_br)
