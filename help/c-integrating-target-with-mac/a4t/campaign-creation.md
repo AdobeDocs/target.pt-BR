@@ -8,7 +8,7 @@ title: Criação da atividade
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -45,10 +45,6 @@ Criar uma atividade do Target Standard que usa o Analytics como a fonte de gera�
 1. Especificar o servidor de rastreamento.
 
    Consulte [Uso de um servidor de rastreamento do Analytics](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
-
-   >[!NOTE]
-   >
-   >Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
 1. Definir a experiência.
 1. Especifique a meta da atividade.
