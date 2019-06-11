@@ -8,7 +8,7 @@ title: Múltiplas versões de uma experiência em um teste A/B
 topic: Padrão
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -37,7 +37,7 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
 
 1. Selecione a experiência e clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Vários públicos-alvo]**.
 
-   ![](assets/multiple-audiences.png)
+   ![Opção Vários públicos](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Clique em **[!UICONTROL Adicionar público-alvo]** e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
