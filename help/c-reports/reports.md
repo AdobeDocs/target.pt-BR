@@ -9,7 +9,7 @@ title: Relatórios
 topic: Padrão
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -42,21 +42,20 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
 
    Por exemplo, você poderia selecionar [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] na lista suspensa [!UICONTROL Tipo] e [!UICONTROL Ao vivo] na lista suspensa de [!UICONTROL Status] para exibir somente os testes A/B e as atividades de Direcionamento de experiência que estão em um estado ativo.
 
-   A ilustração a seguir mostra a lista suspensa [!UICONTROL Tipo] com dois tipos selecionados:
+   A ilustração a seguir mostra a lista suspensa [!UICONTROL Tipo] com dois tipos selecionados: Teste A/B e direcionamento de experiência. Observe que os três tipos de testes A/B (Manual, [Auto-alocador](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)e [Auto-alvo](/help/c-activities/auto-target-to-optimize.md)) são selecionados por padrão. Você pode desmarcar um ou mais tipos conforme necessário.
 
-   ![](assets/report_filters.png)
+   ![Filtrar relatórios por tipo](/help/c-reports/assets/report_filters-new.png)
 
 1. Clique na guia **[!UICONTROL Relatórios].**
 
    Cada relatório inclui uma legenda para ajudá-lo a entender o relatório.
 
-   ![](assets/report_menu_bar.png)
+   ![Legenda de relatório](/help/c-reports/assets/report_menu_bar-new.png)
 
    A legenda exibe as seguintes informações:
 
    * O status da atividade, incluindo o intervalo de datas quando a atividade for executada.
-   * A experiência vencedora projetada.
-   * A fonte da atividade, como [!DNL Adobe Target] ou [!DNL Adobe Target Classic].
+   * A experiência vencedora projetada (se disponível).
    >[!NOTE]
    >
    >Os resultados da experiência são exibidos depois de, ao menos, um participante ter visto a experiência.
@@ -69,6 +68,6 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
    * [!UICONTROL Exportar relatório para CSV]
    * [!UICONTROL Exportar detalhes do pedido para CSV]
 
-1. (Opcional) Clique nos ícones de **[!UICONTROL Exibição em tabela]** e **Exibição em gráfico]para trocar entre os formatos de relatório.[!UICONTROL **
+1. (Opcional) Clique nos ícones de **[!UICONTROL Exibição em tabela]** e **[!UICONTROL Exibição em gráfico]** para trocar entre os formatos de relatório.
 
-   Para Testes multivariados somente, clique no ícone de **[!UICONTROL Contribuição de localização]** ( ![Contribuição de localização](assets/icon_location_contribution.png) ) para que o relatório mostre a contribuição por localização.
+   Para Testes multivariados somente, clique no ícone de **[!UICONTROL Contribuição de localização]** (![Contribuição de localização](assets/icon_location_contribution.png)) para que o relatório mostre a contribuição por localização.
