@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,9 +23,14 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 11 de junho de 2019 | [Criação da atividade](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A nota removida afirmando que é um descontinuado para especificar um servidor de rastreamento se você estiver usando A 4 T. |
 |  | [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Texto e imagens atualizados. |
+|  | Teste A/B: [URL da atividade](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Texto e imagens atualizados. |
+|  | Teste A/B: [Selecionar público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | Texto e imagens atualizados. |
+|  | Teste A/B: [Metas e configurações](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | Texto e imagens atualizados. |
+|  | Teste A/B: [Definir métricas](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | Texto e imagens atualizados. |
+|  | [Múltiplas versões de uma experiência em um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | Texto e imagens atualizados. |
 |  | [Atividades](/help/c-activities/activities.md) | Sublinhe que não é possível restaurar uma atividade excluída. Como prática recomendada, você pode arquivar uma atividade para que ela possa ser desarquivada, se necessário. |
 |  | [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Foi removida a limitação informando que o Depurador da Experience Cloud não é totalmente compatível com o at. js 2. x. |
-|  | [Relatórios](/help/c-reports/reports.md) | Pequenas atualizações de texto e novas imagens. |
+|  | [Relatórios](/help/c-reports/reports.md) | Texto e imagens atualizados. |
 | 7 de junho de 2019 | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Nova seção adicionada: &quot; Cenário: Crie um design padrão do Recommendations 4 x 2 com lógica de verificação nula. &quot; |
 |  | [Vídeos de treinamento para o Adobe Target Standard e Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Link atualizado para o novo site Tutoriais do Adobe Target. |
 |  | [iOS - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Atualização do texto e dos trechos de código. |
