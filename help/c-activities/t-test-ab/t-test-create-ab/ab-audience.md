@@ -8,7 +8,7 @@ title: Seleção do público-alvo
 topic: Padrão
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 ---
 
@@ -39,7 +39,7 @@ Clique na seta para baixo para remover o público-alvo existente ou alterar o p�
 
 Você pode especificar a porcentagem de visitantes qualificados para incluir na atividade. Por exemplo, você pode optar por incluir 50% de todos os visitantes.
 
-![](assets/audperc.png)
+![Porcentagem de público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
 Você também pode escolher deixar a Target [alocar o tráfego automaticamente](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -57,7 +57,7 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=por_br)
 
 ### Fluxo de trabalho da atividade - Direcionamento (2:14)
 
@@ -68,6 +68,6 @@ Este vídeo inclui informações sobre a configuração de públicos-alvo.
 * Selecione seu método de alocação de tráfego
 * Aloque o tráfego entre diferentes experiências
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=por_br)
 
 Para obter informações detalhadas, consulte [Públicos-alvo](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
