@@ -7,7 +7,7 @@ solution: Target,standard
 title: Definir métricas
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -21,7 +21,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte [Métri
 1. Especifique a meta da atividade.
 1. Selecione uma métrica [de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/ab_metrics.png)
+   ![Selecionar métrica de sucesso](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    A página de [!UICONTROL Métricas selecionadas] lista as métricas de sucesso que você pode escolher para sua atividade. As métricas de sucesso são divididas nas seguintes categorias:
 
@@ -51,7 +51,7 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
 | : | Dois-pontos |
 | = | Igual a |
 | + | Plus |
-| - | menos |
+| - | Menos |
 | @ | Sinal de arroba |
 
 ## Vídeo de treinamento: métricas de atividade (7:43)
@@ -62,4 +62,4 @@ Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=por_br)
