@@ -9,16 +9,16 @@ title: Funcionamento do Adobe Target
 topic: Padrão
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # Funcionamento do Adobe Target{#how-adobe-target-works}
 
-Informações sobre como o Adobe Target funciona, incluindo informações sobre as bibliotecas do javascript do Target (at. js e mbox. js) e os vários tipos de atividades incluídos no Target.
+Informações sobre como o Adobe Target funciona, incluindo as bibliotecas de JavaScript do Target (at.js e mbox.js) e os vários tipos de atividades incluídos no Target.
 
-## Bibliotecas do javascript do Target {#libraries}
+## Bibliotecas de JavaScript do Target {#libraries}
 
 O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript. at.js ou mbox.js
 
@@ -105,6 +105,10 @@ A Adobe possui atualmente data centers em vários continentes, incluindo vários
 Em vez de responder a todas as solicitações de direcionamento a partir de um único local, as solicitações do ambiente do Edge mais próximas do ponto de solicitação reduzem o impacto do tempo de deslocamento da Internet/rede.
 
 A rede também atua como um mecanismo contra falhas. Se um nó da borda não estiver funcionando, a solicitação será redirecionada para nó mais próximo que vier a seguir para assegurar que o usuário não receba o conteúdo padrão (uma resposta de backup típica quando não é possível concluir uma solicitação).
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Devido ao ótimo Firewall e à falta de nós do Edge no país, as experiências de sites com [!DNL Target] implantado serão lentas e as cargas da página serão afetadas. Além disso, a [!DNL Target] interface do usuário também pode experimentar latência.
 
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
