@@ -10,22 +10,22 @@ topic: Padrão
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 badge: premium
 translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Direcionamento automático{#auto-target}
 
-[!UICONTROL O Target automático] usa aprendizado avançado de máquina para selecionar várias experiências com grande desempenho de comerciante para personalizar o conteúdo e gerar conversões. O Target automático serve a experiência mais adaptada para cada visitante com base no perfil individual do cliente e no comportamento dos visitantes anteriores com perfis similares.
+O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada para selecionar várias experiências de alto desempenho definidas pelo profissional de marketing para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 
 >[!NOTE]
 >
->O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
 
 [Ao criar uma atividade A/B usando o fluxo de trabalho guiado de três etapas](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), é possível optar por alocar o tráfego usando a opção [!UICONTROL Direcionamento automático para experiências personalizadas]:
 
-![](assets/auto-target-ui.png)
+![Direcionamento automático para a opção de experiências personalizadas](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## Visão geral {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -72,17 +72,17 @@ A lista suspensa [!UICONTROL Alocação personalizada] permite escolher as segui
 * Maximizar o tráfego de personalização
 * Alocação personalizada
 
-![](assets/split.png)
+![Lista suspensa Meta de alocação](/help/c-activities/assets/split-new.png)
 
 | Objetivo da atividade | Sugestão de alocação de tráfego | Compensações |
 |--- |--- |--- |
-| Avaliar o algoritmo de personalização (50/50)   Sua meta é determinar o desempenho do algoritmo de personalização em comparação com o controle (por exemplo, uma experiência apresentada aleatoriamente). Você pode estar nos estágios iniciais de avaliação do seu programa de personalização. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes terão uma experiência personalizada</li></ul> |
-| Maximizar o tráfego de personalização (90/10)   Sua meta é criar uma atividade de personalização “sempre ativa” que maximize a quantidade de tráfego que é personalizado. Você quer maximizar o aumento enquanto continua a ter um aumento de referência de controle para comparar. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
-| Alocação personalizada | Divida manualmente a porcentagem conforme desejado. | <ul><li>Você pode não conseguir os resultados desejados. Se você não tiver certeza, siga as sugestões para qualquer uma das opções anteriores</li></ul> |
+| **Avaliar algoritmo de personalização (50/50)**: Sua meta é determinar o desempenho do algoritmo de personalização em comparação ao controle (ou seja, uma experiência hospedada aleatoriamente). Você pode estar nos estágios iniciais de avaliação do seu programa de personalização. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes terão uma experiência personalizada</li></ul> |
+| **Maximizar tráfego de personalização (90/10)**: Seu objetivo é criar uma atividade de personalização &quot;sempre ativada&quot; que maximiza a quantidade de tráfego personalizada. Você quer maximizar o aumento enquanto continua a ter um aumento de referência de controle para comparar. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
+| **Alocação personalizada** | Divida manualmente a porcentagem conforme desejado. | <ul><li>Você pode não conseguir os resultados desejados. Se você não tiver certeza, siga as sugestões para qualquer uma das opções anteriores</li></ul> |
 
-Para ajustar a porcentagem de controle, clique nos símbolos - ou +. Você não pode diminuir o grupo de controle para menos de 10%.
+Para ajustar a porcentagem de Controle, clique nos ícones na coluna Alocação. Você não pode diminuir o grupo de controle para menos de 10%.
 
-![](assets/auto-target-control-bigl.png)
+![Alterar alocação de tráfego do Target automático](/help/c-activities/assets/auto-target-control.png)
 
 ## Quando você deve escolher o [!UICONTROL Direcionamento automático] em vez da Personalização automatizada? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -253,4 +253,4 @@ Depois de concluir este treinamento, você será capaz de:
 * Comparar e contrastar Direcionamento automático para [!UICONTROL personalização automatizada]
 * Criar atividades de [!UICONTROL Direcionamento automático]
 
->[!VIDEO](https://video.tv.adobe.com/v/18558)
+>[!VIDEO](https://video.tv.adobe.com/v/18558?captions=por_br)
