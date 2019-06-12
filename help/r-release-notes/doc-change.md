@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -21,6 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 12 de junho de 2019 | [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) | Texto e imagens atualizados. |
+|  | [Funcionamento do Adobe Target](/help/c-intro/how-target-works.md) | Foi adicionada uma observação importante sobre o uso do Target na China. |
 | 11 de junho de 2019 | [Criação da atividade](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A nota removida afirmando que é um descontinuado para especificar um servidor de rastreamento se você estiver usando A 4 T. |
 |  | [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Texto e imagens atualizados. |
 |  | Teste A/B: [URL da atividade](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Texto e imagens atualizados. |
