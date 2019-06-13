@@ -1,23 +1,23 @@
 ---
-description: Detalhes sobre como o at. js 2. x e o at. js 1. x identificam cookies
+description: Detalhes sobre como a at.js 2.x e a at.js 1.x lidam com cookies
 keywords: at.js; 2.0; 1.x; cookies
-seo-description: Detalhes sobre como o Adobe Target at. js 2. x e o at. js 1. x identificam cookies
+seo-description: Detalhes sobre como a at.js 2.x e a at.js 1.x do Adobe Target lidam com cookies
 seo-title: Cookies do Adobe Target at.js
 solution: Target
 subtopic: Introdução
 title: Cookies do at.js
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: 3b2b8706ed23dd00fb7d0994e830ab8d4f492384
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Cookies do at.js {#at-js-cookies}
 
-Informações sobre at. js 2. x e at. js 1.*x* comportamento de cookie.
+Informações sobre a at.js 2.x e a at.js 1.*x* comportamento de cookie.
 
-## Comportamento de cookie at. js 2. x
+## Comportamento de cookie da at.js 2.x
 
 Para a versão 2.0.0 do at.js, *somente os cookies primários são suportados*. Exatamente como no at.js 1.*x*, o cookie próprio, “mbox” é armazenado em `clientdomain.com`, onde `clientdomain` é seu domínio.
 
@@ -31,9 +31,9 @@ O rastreamento entre domínios possibilita visualizar sessões em dois sites rel
 
 Em at.js 1.*x*, o cookie de terceiros foi armazenado no `[CLIENTCODE].tt.omtrdc.net` domínio e o cookie próprio foi armazenado em `clientdomain.com`. A primeira solicitação retornava cabeçalhos de resposta HTTP que tentavam definir cookies de terceiros chamados `mboxSession` e `mboxPC`, ao passo que uma solicitação de redirecionamento é enviada de volta com um parâmetro extra (`mboxXDomainCheck=true`). Se o navegador aceitou cookies de terceiros, a solicitação de redirecionamento inclui esses cookies e a oferta foi retornada. Esse fluxo de trabalho era possível porque at.js 1.*x* usado o método HTTP GET.
 
-No entanto, no at. js 2. x, o HTTP GET não é mais usado e usa HTTP POST. HTTP POST agora é usado via at.js para enviar cargas JSON para servidores [!DNL Target] de borda em vez de parâmetros de valores-chave. Isso significa que a solicitação de redirecionamento para verificar se um navegador suporta cookies de terceiros agora está rompida. Isso ocorre porque as solicitações HTTP GET são transações idempotentes, enquanto HTTP POST é não idempotente e não deve ser repetido arbitrariamente.
+No entanto, na at.js 2.x, é usado o HTTP POST, em vez do HTTP GET. HTTP POST agora é usado via at.js para enviar cargas JSON para servidores [!DNL Target] de borda em vez de parâmetros de valores-chave. Isso significa que a solicitação de redirecionamento para verificar se um navegador suporta cookies de terceiros agora está rompida. Isso ocorre porque as solicitações HTTP GET são transações idempotentes, enquanto HTTP POST é não idempotente e não deve ser repetido arbitrariamente.
 
-Portanto, os cookies de terceiros e o rastreamento entre domínios são suportados em at. js 2.0.0.
+Portanto, não há suporte para cookies de terceiros nem rastreamento entre domínios na at.js 2.0.0.
 
 ## at.js 1.*x* comportamento de cookie {#at-js-1x-cookie-behavior}
 
@@ -71,7 +71,7 @@ Há três casos de uso principais de cookies:
 
    * Habilitar somente cookies de terceiros.
 
-      Essa abordagem é apenas para casos raros em que as implementações adbox são usadas sem definição de metas no site.
+      Essa abordagem é apenas para casos raros em que as implementações AdBox são usadas sem definição de metas no site.
 
 ### Comportamento do cookie próprio
 
