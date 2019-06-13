@@ -6,8 +6,8 @@ seo-title: Ofertas
 solution: Target
 title: Ofertas
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -86,11 +86,11 @@ As informações a seguir estão disponíveis:
 * Redirecionar tipo de URL
 * URL absoluto ou relativo
 
-## Vídeo de treinamento: O repositório de conteúdo
+## Vídeo de treinamento: o repositório de conteúdo
 
 Este vídeo inclui informações sobre o gerenciamento de ofertas.
 
-* Conexão entre a [biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e a biblioteca de conteúdo do Target
+* Conexão entre a [Biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/pt_br/mcloud/creative_cloud.html) e a Biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
