@@ -8,7 +8,7 @@ title: Determinar um vencedor
 topic: Padrão
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ Muitos profissionais de marketing cometem o erro de declarar prematuramente uma 
 
 Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Target] exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente.
 
-![](assets/auto_traffic_no_winner.png)
+![Sem selo vencedor](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Quando um vencedor claro é declarado, o [!DNL Target] exibe &quot;Vencedor: Experiência X&quot;.
 
