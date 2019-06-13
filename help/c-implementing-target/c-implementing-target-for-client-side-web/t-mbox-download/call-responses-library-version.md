@@ -4,8 +4,8 @@ seo-description: A maneira como o Target faz e responde a chamadas de sua págin
 seo-title: Métodos de página do Target por versão da biblioteca mbox.js
 title: Métodos de página do Target por versão da biblioteca mbox.js
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
