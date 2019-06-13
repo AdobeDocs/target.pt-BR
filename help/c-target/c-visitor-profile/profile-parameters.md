@@ -7,7 +7,7 @@ solution: Target
 title: Atributos do perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
@@ -29,14 +29,14 @@ Os tipos a seguir de atributos de perfil estão disponíveis:
 
 | Tipo do parâmetro | Descrição |
 |--- |--- |
-| Mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Observação: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Observação: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização de perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definido diretamente com um trecho de código JavaScript. Eles podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Defina um atributo de perfil de script com o snippet do código JavaScript associado.
 
-Você pode usar scripts de perfil para capturar os atributos do visitante em várias visitas. Os scripts de perfil são snippets de código definidos no Target usando um formulário de JavaScript do servidor. Por exemplo, você pode usar um script de perfil para capturar a frequência na qual um visitante acessa seu site e quando ele foi visitado pela última vez.
+Você pode usar scripts de perfil para capturar os atributos do visitante em várias visitas. Os scripts de perfil são snippets de código definidos no Target usando um formulário de JavaScript do lado do servidor. Por exemplo, você pode usar um script de perfil para capturar a frequência na qual um visitante acessa seu site e quando ele foi visitado pela última vez.
 
 Os scripts de perfil não são os mesmos que os parâmetros de perfil. Os parâmetros de perfil capturam as informações sobre visitantes que usam a implementação do código de mbox do Target.
 
@@ -73,9 +73,9 @@ if (mbox.name == 'Track_Interest') {
 * Consulte os atributos de script do perfil (incluindo ele mesmo) no código com `user.get('parameterName')`
 * Salve variáveis que podem ser acessadas na próxima vez que o script for executado (na própria solicitação da mbox) com `user.setLocal('variable_name', 'value')`. Faça referência à variável com `user.getLocal('variable_name')`. Isto é útil para situações em que você deseja fazer referência à data e hora da última solicitação.
 * Os parâmetros e valores diferencia maiúsculas de minúsculas. Verifique as letras maiúsculas de minúsculas e valores que você receberá durante a campanha ou o teste.
-* Consulte a seção «javascript reference for script profile» (Parâmetros de perfil de script) abaixo para obter mais sintaxe de javascript.
+* Consulte a seção &quot;Referência de JavaScript para os parâmetros do perfil de script&quot; abaixo para obter mais sintaxe de JavaScript.
 
-## Exibição de cartões de informações de script de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
+## Exibição dos cartões de informações do script de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
 Você pode exibir os cartões pop-up com as informações do script de perfil de forma semelhante aos cartões com as informações da oferta. Esses cartões com as informações do script de perfil permitem exibir a lista de atividades que fazem referência ao script de perfil selecionado, juntamente com outros metadados úteis.
 
@@ -97,7 +97,7 @@ A guia [!UICONTROL Uso do script] lista as atividades (e seus espaços de trabal
 
 
 
-## O Target desativa scripts de perfil em determinadas situações {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
+## O Target desativa os scripts de perfil em determinadas situações {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
 O [!DNL Target] desativará automaticamente os scripts de perfil em determinadas situações, como em caso de demora para execução ou de excesso de instruções.
 
@@ -143,7 +143,7 @@ Esteja ciente das informações a seguir ao usar um dos scripts de perfil abaixo
 * O script de perfil devem ser executados antes da atividade ser iniciada e ele deve permanecer inalterado em toda a duração da atividade.
 * Essa técnica reduzirá a quantidade de tráfego na atividade, o que deve precisar de execução mais longa da atividade. Você deve considerar esse fato ao estimar a duração da atividade.
 
-### Como configurar duas atividades
+### Configuração de até duas atividades
 
 Para classificar visitantes em grupos onde cada um visualiza uma atividade diferente, você deve criar um atributo de perfil. Um atributo de perfil pode classificar um visitante em um ou mais grupos. Para configurar um atributo de perfil chamado &quot;doisgrupos&quot;, crie o script a seguir:
 
@@ -244,22 +244,22 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
    ![](assets/debug_profile_script_2.png)
 
-## Perguntas frequentes sobre script de perfil {#section_1389497BB6D84FC38958AE43AAA6E712}
+## Perguntas frequentes do script de perfil {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **É possível usar os scripts de perfil para capturar informações de uma página localizada em uma camada de dados?**
 
 Os scripts de perfil não podem ler a página diretamente porque são executados no lado do servidor. Os dados devem ser enviados por uma solicitação mbox ou através de outros [métodos para colocar os dados no Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Depois que os dados estiverem no destino, os scripts de perfil poderão ler os dados como um parâmetro mbox ou parâmetro de perfil.
 
-## Referência de javascript para parâmetros de perfil de script
+## Referência de JavaScript para os parâmetros do perfil de script
 
-O conhecimento de Javascript simples é necessário para usar eficientemente parâmetros de perfil
-de script. Esta seção serve como uma referência rápida para tornar produtivo com essa funcionalidade em apenas alguns minutos.
+É necessário o conhecimento básico de JavaScript para usar os parâmetros
+do perfil de script de maneira eficiente. Esta seção serve como uma referência rápida para torná-lo produtivo com essa funcionalidade em apenas alguns minutos.
 
-Parâmetros de perfil de script são encontrados na guia mboxes/perfis. É possível gravar programas Javascript que retornam qualquer tipo Javascript (string, integer, array e assim por diante).
+Os parâmetros do perfil de script são encontrados na guia mboxes/perfis. É possível gravar programas de JavaScript que retornam qualquer tipo de JavaScript (sequência de caracteres, inteiro, matriz, etc.).
 
-### Exemplos de parâmetro de perfil de script
+### Exemplos de parâmetro do perfil de script
 
-**Nome:***user. recenticidade*
+**Nome:** *user.recency*
 
 ```
 var dayInMillis = 3600 * 24 * 1000;
@@ -272,9 +272,9 @@ if (lastPurchaseTime) {
 }
 ```
 
-Cria uma variável para o dia, conforme medido em milissegundos. Se o nome da mbox for `orderThankyouPage`, defina um atributo de perfil do usuário local (invisível) chamado `lastPurchaseTime` para receber o valor da data e hora atuais. O valor do último horário de compra é lido e, se estiver definido, retornamos o tempo passado desde a última compra, divida pelo número de milissegundos em um dia (o que resulta no número de dias desde a última compra).
+Cria uma variável para o dia, conforme medido em milissegundos. Se o nome da mbox for `orderThankyouPage`, defina um atributo do perfil de usuário local (invisível) chamado `lastPurchaseTime` para receber o valor da data e hora atuais. O valor do último horário de compra é lido e, se estiver definido, retornamos o tempo desde a última compra, divido pelo número de milissegundos em um dia (o que resulta no número de dias desde a última compra).
 
-**Nome:***user. frequency*
+**Nome:** *user.frequency*
 
 ```
 var frequency = user.get('frequency') || 0;
@@ -283,9 +283,9 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Cria uma variável chamada frequência, inicializando-a como valor anterior ou 0, caso não exista um valor anterior. Se o nome da mbox for `orderThankyouPage`, o valor incrementado será retornado.
+Cria uma variável chamada frequência, inicializando-a para o valor anterior ou 0, se não houver um valor anterior. Se o nome da mbox for `orderThankyouPage`, o valor incrementado será retornado.
 
-**Nome:***user. youraryvalue*
+**Nome:** *user.monetaryValue*
 
 ```
 var monetaryValue = user.get('monetaryValue') || 0;
@@ -294,7 +294,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Cria uma variável chamada `monetaryValue`, pesquisa o valor atual de um determinado visitante (ou definida como 0 se não havia valor anterior). Se o nome da mbox for `orderThankyouPage`, novo valor monetário será retornado adicionando o anterior e o valor do `orderTotal` parâmetro passado para a mbox.
+Cria uma variável chamada `monetaryValue`, que pesquisa o valor atual de um determinado visitante (ou define como 0 se não houver um valor anterior). Se o nome da mbox for `orderThankyouPage`, o novo valor monetário será retornado adicionando o anterior e o valor do parâmetro `orderTotal` passado para a mbox.
 
 ### Objetos e métodos
 
@@ -303,37 +303,37 @@ As seguintes propriedades e métodos podem ser referenciados pelos parâmetros d
 | Objeto ou método | Detalhes |
 | --- | --- |
 | `page.url` | O URL atual. |
-| `page.protocol` | O protocolo usado para a página (http ou https). |
-| page.domain | O domínio URL atual (tudo antes da primeira barra). Por exemplo, `www.acme.com` em `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
-| `page.query` | A string de consulta da página atual. Tudo depois do &quot;? &#39;. Por exemplo, `blue&size=small` em `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
-| `page.param(‘<par_name>’)` | O valor do parâmetro indicado `<par_name>`por. Se o URL atual é a página de pesquisa do Google e você tinha digitado `page.param('hl')`, você obteria «en» para o URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
-| `page.referrer` | O mesmo conjunto de operações acima se aplica ao referenciador e à aterrissagem (ou seja, referrer. url será o endereço url do referenciador). |
-| `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a página de aterrissagem. |
+| `page.protocol` | O protocolo usado pela página (http ou https). |
+| page.domain | O domínio do URL atual (tudo antes da primeira barra). Por exemplo, `www.acme.com` em `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.query` | A sequência de consulta da página atual. Tudo depois de &quot;?&quot;. Por exemplo, `blue&size=small` em `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
+| `page.param(‘<par_name>’)` | O valor do parâmetro indicado por `<par_name>`. Se o URL atual for a página de pesquisa do Google e você digitou `page.param('hl')`, &quot;en&quot; seria obtido para o URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.referrer` | O mesmo conjunto de operações acima se aplica ao referenciador e à landing page (ou seja, referrer.url será o endereço url do referenciador). |
+| `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a landing page. |
 | `mbox.name` | O nome da mbox ativa. |
 | `mbox.param(‘<par_name>’)` | Um parâmetro de mbox pelo nome fornecido na mbox ativa. |
-| `profile.get(‘<par_name>’)` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado «gênero», o valor poderá ser extraído usando «profile. gender». Retorna o valor do «`profile.<par_name>`» definido para o visitante atual; retorna nulo se nenhum valor foi definido. |
-| `user.get(‘<par_name>’)` | Retorna o valor do «`user.<par_name>`» definido para o visitante atual; retorna nulo se nenhum valor foi definido. |
+| `profile.get(‘<par_name>’)` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado de &quot;gênero&quot;, o valor poderá ser extraído usando &quot;profile.gender&quot;. Retorna o valor do &quot;`profile.<par_name>`&quot; definido para o visitante atual; retorna nulo se nenhum valor foi definido. |
+| `user.get(‘<par_name>’)` | Retorna o valor do &quot;`user.<par_name>`&quot; definido para o visitante atual; retorna nulo se nenhum valor foi definido. |
 | `user.categoryAffinity` | Retorna o nome da melhor categoria. |
 | `user.categoryAffinities` | Retorna uma matriz com as melhores categorias. |
-| `user.isFirstSession` | Retorna true se for a primeira sessão do visitante. |
-| `user.browser` | Retorna o agente do usuário no cabeçalho HTTP. Como exemplo, você pode criar uma meta de expressão para usuários do Safari apenas: `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
+| `user.isFirstSession` | Retorna verdadeiro se for a primeira sessão do visitante. |
+| `user.browser` | Retorna o agente do usuário no cabeçalho HTTP. Como exemplo, você pode criar um direcionamento de expressão somente para usuários do Safari: `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### Operadores comuns
 
 
-Todos os operadores javascript padrão estão presentes e utilizáveis. Os operadores javascript podem ser usados em sequências e números (bem como em outros tipos de dados). Uma breve informação:
+Todos os operadores JavaScript padrão estão presentes e utilizáveis. Os operadores JavaScript podem ser usados em sequências e números (bem como em outros tipos de dados). Uma breve informação:
 
 | Operador | Descrição |
 | --- | --- |
-| `==` | Indica a igualdade. Permanece verdadeiro quando operandos em ambos os lados são iguais. |
-| `!=` | Indica a desigualdade. Permanece verdadeiro quando operandos em ambos os lados não são iguais. |
-| `<` | Indica que a variável à esquerda é inferior à variável à direita. Será avaliado como false se as variáveis forem iguais. |
-| `>` | Indica que a variável à esquerda é superior à variável à direita. Será avaliado como false se as variáveis forem iguais. |
-| `<=` | Igual a `<` , se as variáveis forem iguais, então serão avaliadas como true. |
-| `>=` | Igual a `>` , se as variáveis forem iguais, então serão avaliadas como true. |
-| `&&` | Logicamente, «ANDs» as expressões à esquerda e à direita dela - é verdadeiro apenas quando ambos os lados são verdadeiros (senão false). |
-| `||` | Logicamente, «ORs» as expressões à esquerda e à direita dela - é verdadeiro apenas se uma das laterais for verdadeira (senão false). |
-| `//` | Verifica se a fonte contém todos os elementos de destino booleano de destino (Matriz de matriz, destino de matriz).<br>`//` extrai a subsequência de caracteres do destino (correspondente ao regexp) e `Array/*String*/ decode(String encoding, String regexp, String target)`a decodifica.<br>O recurso também oferece suporte para o uso de valores de string constantes, agrupamento (`condition1 || condition2) && condition3`e expressões regulares (`/[^a-z]$/.test(landing.referring.url)`. |
+| `==` | Indica a igualdade. Permanece verdadeiro quando os operandos em ambos os lados são iguais. |
+| `!=` | Indica a desigualdade. Permanece verdadeiro quando os operandos em ambos os lados não são iguais. |
+| `<` | Indica que a variável à esquerda é inferior à da direita. Será avaliado como false se as variáveis forem iguais. |
+| `>` | Indica que a variável à esquerda é superior à da direita. Será avaliado como false se as variáveis forem iguais. |
+| `<=` | Igual a `<`, exceto se as variáveis forem iguais, então, será avaliado como verdadeiro. |
+| `>=` | Igual a `>`, exceto se as variáveis forem iguais, então, será avaliado como verdadeiro. |
+| `&&` | Na lógica, o &quot;AND&quot; entre as expressões, à esquerda e à direita - é verdadeiro somente quando ambos os lados são verdadeiros (caso contrário, é falso). |
+| `||` | Na lógica, &quot;OR&quot; entre as expressões, à esquerda e à direita - é verdadeiro somente se um dos lados for verdadeiro (caso contrário, é falso). |
+| `//` | Verifica se a origem contém todos os elementos que os booleanos de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também suporta o uso de valores de sequência constantes, agrupando-os (`condition1 || condition2) && condition3` e expressões regulares (`/[^a-z]$/.test(landing.referring.url)`. |
 
 ## Vídeo de treinamento: Scripts de perfil
 
