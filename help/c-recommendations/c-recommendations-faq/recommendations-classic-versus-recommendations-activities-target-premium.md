@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ A atividade do [!DNL Recommendations] no [!DNL Target] aprimora o [!DNL Recommen
 
 ## Recommendations como uma oferta
 
-Você pode incluir recomendações dentro de teste [!UICONTROL A/B] (incluindo [!UICONTROL as atividades Auto-alocação] e [!UICONTROL Direcionamento automático]) e [!UICONTROL de direcionamento] de experiência (XT).
+É possível incluir recomendações nas atividades de [!UICONTROL Teste A/B] (inclusive [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) e [!UICONTROL Direcionamento de experiência] (XT).
 
 Essa funcionalidade permite capacidades nunca antes vistas, como:
 
