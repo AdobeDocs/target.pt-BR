@@ -1,22 +1,22 @@
 ---
-description: Informações que ajudam a configurar o Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene 7, gerenciamento de host e tokens de resposta.
+description: Informações para ajudar a configurar o Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene7, gerenciamento de hosts e tokens de resposta.
 keywords: implementar; implementação; configuração; configurar
-seo-description: Informações que ajudam a configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene 7, gerenciamento de host e tokens de resposta.
+seo-description: Informações para ajudar a configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene7, gerenciamento de hosts e tokens de resposta.
 seo-title: Administrar o Adobe Target
 solution: Target
 subtopic: Introdução
 title: Administrar o Target
 topic: Padrão
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
-translation-type: tm+mt
-source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Administrar o Target{#administer-target}
 
-Informações que ajudam a configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene 7, gerenciamento de host e tokens de resposta.
+Informações para ajudar a configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene7, gerenciamento de hosts e tokens de resposta.
 
 Para acessar os itens de menu de [!UICONTROL Configurar], clique em **[!UICONTROL Configurar]na barra de menu superior e, em seguida, clique na guia desejada no lado esquerdo:**
 
@@ -28,4 +28,4 @@ Para acessar os itens de menu de [!UICONTROL Configurar], clique em **[!UICONTRO
 * [Hosts](/help/administrating-target/hosts.md)
 * [Tokens de resposta](/help/administrating-target/response-tokens.md)
 
-![Menu Configuração do Adobe Target](/help/administrating-target/assets/setup_menu_new.png)
+![Menu de configuração do Adobe Target](/help/administrating-target/assets/setup_menu_new.png)
