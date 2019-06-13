@@ -1,25 +1,25 @@
 ---
-description: 'Informações sobre a função adobe. target. applyoffers (opções) para at. js. '
-keywords: adobe.target.notificação; elemento; seletor; notificação; extensão
-seo-description: Informações sobre a função adobe. target. applyoffers (opções) da biblioteca do Adobe Target no javascript.
-seo-title: Informações sobre a função adobe. target. applyoffers (opções) da biblioteca do Adobe Target no javascript.
+description: 'Informações sobre a função adobe.target.applyOffers(options) para at.js. '
+keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+seo-description: Informações sobre a função adobe.target.applyOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
+seo-title: Informações sobre a função adobe.target.applyOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
 subtopic: Introdução
 title: adobe.target.applyOffers(options)
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# adobe. target. applyoffers (opções) - at. js 2. x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.target.getOffers()`.
 
 >[!NOTE]
 >
->Esta função foi introduzida com at. js 2. x. Essa função não está disponível para o at. js versão 1.*x*.
+>Essa função foi introduzida com a at.js 2.x. Essa função não está disponível para a at.js versão 1.*x*.
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.t
 | resposta &gt; pré-busca &gt; exibições &gt; opções &gt; tipo | Tipo de opção. Reflete o tipo de campo &quot;conteúdo&quot;. O tipo suportado é ações. |
 | resposta &gt; pré-busca &gt; exibições &gt; estado | Um token de estado de exibição opaco que deve ser encaminhado com a notificação de visualização para a exibição |
 | resposta &gt; pré-busca &gt; exibições &gt; opções &gt; responseTokens | Contém o mapa de `responseTokens` que foi coletado quando a opção atual estava sendo processada. |
-| resposta &gt; pré-busca &gt; exibições &gt; analytics &gt; carga | A carga do Analytics para integração do cliente que deve ser enviada para o Analytics depois que a exibição for aplicada. |
+| resposta &gt; pré-busca &gt; exibições &gt; analytics &gt; carga | A carga do Analytics para integração no lado do cliente que deve ser enviada para o Analytics depois que a exibição for aplicada. |
 | resposta &gt; pré-busca &gt; exibições &gt; rastreamento | O objeto que contém todos os dados de rastreamento da chamada de pré-busca por exibição.<br>O objeto de rastreamento também incluirá uma versão para o rastreamento.<br>O objeto de rastreamento também incluirá detalhes da exibição atual. |
 | resposta &gt; pré-busca &gt; exibições &gt; opções &gt; eventToken | O registro em log de eventos é feito por opção. Para cada opção aplicada, o respectivo token de evento deve ser adicionado à lista de tokens de notificação. Observe que uma Exibição é composta por várias opções. Se todas as opções tiverem sido aplicadas e visualizadas, todos `eventTokens` precisam ser incluídos na notificação. |
 | resposta &gt; pré-busca &gt; exibições &gt; nome | O nome de exibição legível. |
@@ -59,16 +59,16 @@ Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.t
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; métricas | Contém a lista de `clickThrough` métricas. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; mbox | O nome da mbox. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; índice | Indica que a resposta é para a mbox com este índice da solicitação. |
-| resposta &gt; executar &gt; mboxes &gt; mbox &gt; analytics &gt; carga | A carga do Analytics para integração do cliente que deve ser enviada para o Analytics após a aplicação da mbox. (Consulte a seção Campanhas habilitadas para A4T.) |
+| resposta &gt; executar &gt; mboxes &gt; mbox &gt; analytics &gt; carga | A carga do Analytics para integração no lado do cliente que deve ser enviada para o Analytics após a aplicação da mbox. (Consulte a seção Campanhas habilitadas para A4T.) |
 | resposta &gt; executar &gt; mboxes | Lista de mboxes executadas. |
 | resposta &gt; executar &gt; carga &gt; opções &gt; conteúdo | Observe que o conteúdo da &quot;opção&quot; não está bem definido e depende diretamente da estrutura de tipo/modelo de opção. |
 | resposta &gt; executar &gt; carga &gt; opções &gt; tipo | Tipo de opção. Reflete o tipo de campo &quot;conteúdo&quot;. Os tipos suportados são: html, redirecionamento, JSON, dinâmico e ações. |
 | resposta &gt; executar &gt; carga &gt; opções | Opções que não são agrupadas por exibições (target-global-mbox + opções de atividades com exibições não agrupadas por exibições). |
 | resposta &gt; executar &gt; carga &gt; métricas | Métricas de clique que não foram definidas para pertencer a uma exibição específica. |
 | resposta &gt; executar &gt; carga &gt; rastreamento | O objeto que contém todos os dados de rastreamento da solicitação de carga. |
-| resposta &gt; executar &gt; carga &gt; analytics &gt; carga | A carga do Analytics para integração do cliente que deve ser enviada para o Analytics após a aplicação do conteúdo de carregamento da página. (Consulte a seção Campanhas habilitadas para A4T.) |
+| resposta &gt; executar &gt; carga &gt; analytics &gt; carga | A carga do Analytics para integração no lado do do cliente que deve ser enviada para o Analytics após a aplicação do conteúdo de carregamento da página. (Consulte a seção Campanhas habilitadas para A4T.) |
 
-## Exemplo de chamada applyOffers ()
+## Exemplo de chamada applyOffers()
 
 ```
 adobe.target.applyOffers({response:{
