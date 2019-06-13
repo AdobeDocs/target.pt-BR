@@ -7,8 +7,8 @@ solution: Target
 title: Editar uma atividade ou Salvar como rascunho
 topic: Padrão
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -81,7 +81,7 @@ Um espaço de trabalho permite que uma organização atribua um conjunto especí
 
 >[!NOTE]
 >
->Os espaços de trabalho são parte da funcionalidade Propriedades e permissões, disponível como parte da solução [!DNL Target Premium]. Eles não estão disponíveis em [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>Os espaços de trabalho são parte da funcionalidade Propriedades e permissões, disponível como parte da solução [!DNL Target Premium]. Eles não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 
 Se você fizer parte de uma organização multinacional, poderá ter um espaço de trabalho para suas páginas da Web, propriedades ou sites na Europa e outro espaço de trabalho para suas páginas, propriedades ou sites da Web nos EUA. Se fizer parte de uma organização multimarcas, poderá ter um espaço de trabalho separado para cada uma de suas marcas.
 
