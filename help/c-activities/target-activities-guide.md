@@ -7,8 +7,8 @@ solution: Target
 title: Tipos de atividade do Target
 topic: Padrão
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-translation-type: tm+mt
-source-git-commit: 5389431da497e18421f05ddf35755428b571ec6e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Baixe um PDF interativo que descreve os diferentes tipos de atividade no Adobe T
 
 >[!NOTE]
 >
->Para obter a melhor experiência e compartilhar com os outros, baixe o PDF do Guia de [atividades interativo do Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
+>Para obter a melhor experiência e compartilhar com outros usuários, baixe o [Guia de atividades do Adobe Target em PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
 
 ## O que ele faz? {#section_4ECAACC68723402EB3649033190E1BBC}
 
@@ -28,7 +28,7 @@ Baixe um PDF interativo que descreve os diferentes tipos de atividade no Adobe T
 | ![ícone](/help/c-activities/assets/icon_ab.png)<br/>Teste A/B manual | Compara duas ou mais experiências para ver qual melhora mais conversões durante um período de teste pré-especificado. Para obter mais informações, consulte [Teste A/B](/help/c-activities/t-test-ab/test-ab.md). |
 | ![Ícone Alocação automática](/help/c-activities/assets/icon_auto_allocate.png)<br/>Alocação automática | Identifica um vencedor entre duas ou mais experiências e redireciona tráfego para o vencedor, aumentando conversões enquanto o teste continua a ser executado e aprendendo. Para obter mais informações, consulte [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
 | ![Ícone AT](/help/c-activities/assets/icon_auto_target.png)<br/>Direcionamento automático | Usa aprendizagem de máquina avançada para personalizar conteúdo identificando várias experiências de alta performance definidas por profissionais de marketing e depois apresentando a experiência mais personalizada para visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfil similares. Para obter mais informações, consulte [Direcionamento automático para experiências personalizadas](/help/c-activities/auto-target-to-optimize.md). |
-| ![Ícone AP](/help/c-activities/assets/icon_ap.png)<br/>Personalização automatizada(AP) | Usa aprendizagem de máquina avançada para personalizar conteúdo e realizar conversões combinando ofertas e mensagens específicas e então correspondendo diferentes variações de ofertas com visitantes, com base no perfil individual do cliente. Para obter mais informações, consulte [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md). |
+| ![Ícone AP](/help/c-activities/assets/icon_ap.png)<br/>Personalização automatizada (AP) | Usa aprendizagem de máquina avançada para personalizar conteúdo e realizar conversões combinando ofertas e mensagens específicas e então correspondendo diferentes variações de ofertas com visitantes, com base no perfil individual do cliente. Para obter mais informações, consulte [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md). |
 | ![Ícone MVT](/help/c-activities/assets/icon_mvt.png)<br/>Teste multivariado (MVT) | Compara combinações de ofertas entre elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. Também identifica qual elemento da página melhora mais conversões durante um período de teste pré-especificado. Para obter mais informações, consulte [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | ![Ícone XT](/help/c-activities/assets/icon_xt.png)<br/>Direcionamento de experiência (XT) | Leva conteúdo para um público-alvo específico baseado em um conjunto de regras e critérios definidos pelo profissional de marketing. Para obter mais informações, consulte [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md). |
 
