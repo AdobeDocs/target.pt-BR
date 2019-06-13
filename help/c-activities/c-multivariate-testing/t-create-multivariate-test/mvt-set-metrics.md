@@ -6,8 +6,8 @@ seo-title: Definir métricas
 solution: Target,standard
 title: Definir métricas
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -39,7 +39,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte [Métri
 
    Para obter mais informações, consulte [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Opcional) Adicione condições adicionais.
-1. Clique em **[!UICONTROL Continuar]** quando terminar de definir suas métricas.
+1. Clique em **[!UICONTROL Continuar]** quando terminar de definir suas métricas. 
 Observe que quando você nomeia ou renomeia uma métrica, os seguintes caracteres não são permitidos:
 
    | Caractere | Descrição |
