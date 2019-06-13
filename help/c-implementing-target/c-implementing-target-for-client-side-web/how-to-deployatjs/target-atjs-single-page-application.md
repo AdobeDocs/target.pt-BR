@@ -1,27 +1,27 @@
 ---
-description: Informações para usar o at. js 2. x para implementar Aplicativos de página única (spas).
-keywords: implementação de aplicativos de página única; implementar aplicativo de página única; spa; at. js 2. x
-seo-description: Informações para usar o Adobe Target at. js 2. x para implementar Aplicativos de página única (spas).
+description: Informações para usar a at.js 2.x para implementar Aplicativos de página única (SPAs).
+keywords: implementação de aplicativos de página única; implementar aplicativo de página única; spa; at.js 2.x
+seo-description: Informações para usar a at.js 2.x do Adobe Target para implementar Aplicativos de página única (SPAs).
 seo-title: Implementação do aplicativo de página única
 solution: Target
 title: Implementação do aplicativo de página única
 topic: padrão
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
-translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Implementação do aplicativo de página única{#single-page-application-implementation}
 
-Sites tradicionais funcionavam em modelos de navegação «página-para-página», de outra forma conhecidos como Aplicativos de várias páginas, onde os designs de site eram totalmente combinados aos urls e transições de uma página da Web para outra exigiam um carregamento de página. Aplicativos da Web modernos, como Aplicativos de página única (SPAs), em vez disso adotam um modelo que impulsiona o uso rápido da renderização da interface do usuário do navegador, que geralmente é independente dos recarregamentos de página. Essas experiências são frequentemente acionadas por interações do cliente, como rolagens, cliques e movimentos de cursor. À medida que os paradigmas da Web moderna evoluíram, a relevância dos eventos genéricos tradicionais, como o carregamento de página, para implantar a personalização e a experimentação não funciona mais.
+Os sites tradicionais funcionavam em modelos de navegação de &quot;página para página&quot;, conhecidos como Aplicativos de várias páginas, em que os designs de site eram totalmente combinados com URLs e as transições de uma página da Web para outra exigiam um carregamento de página. Aplicativos da Web modernos, como Aplicativos de página única (SPAs), em vez disso adotam um modelo que impulsiona o uso rápido da renderização da interface do usuário do navegador, que geralmente é independente dos recarregamentos de página. Essas experiências são frequentemente acionadas por interações do cliente, como rolagens, cliques e movimentos de cursor. À medida que os paradigmas da Web moderna evoluíram, a relevância dos eventos genéricos tradicionais, como o carregamento de página, para implantar a personalização e a experimentação não funciona mais.
 
 ![Ciclo de vida da página tradicional vs. ciclo de vida de SPA](/help/c-experiences/assets/trad-vs-spa.png)
 
-O at. js 2. x fornece recursos avançados que fazem com que sua empresa execute a personalização em tecnologias de próxima geração e cliente. O foco dessa versão é melhorar o at.js para fazer interações harmoniosas com SPAs.
+A at.js 2.x fornece recursos avançados para a sua empresa personalizar tecnologias de próxima geração no lado do cliente. O foco dessa versão é melhorar o at.js para fazer interações harmoniosas com SPAs.
 
-Estes são alguns benefícios para o uso de at. js 2. x que não estão disponíveis nas versões anteriores:
+Estes são alguns benefícios do uso da at.js 2.x que não estão disponíveis nas versões anteriores:
 
 * Capacidade de armazenar em cache todas as ofertas no carregamento da página para reduzir várias chamadas do servidor a uma única chamada de servidor.
 * Melhore bastante as experiências dos usuários finais em seu site, pois as ofertas são mostradas imediatamente pelo cache, sem o tempo de atraso introduzido pelas chamadas do servidor tradicional.
@@ -33,7 +33,7 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link:[Site de início](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Site inicial](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
@@ -53,7 +53,7 @@ No início desta seção, definimos Exibições como o site inteiro ou até mesm
 
 Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da Exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
-**Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de checkout](/help/c-experiences/assets/checkout.png)
 
@@ -67,27 +67,27 @@ Agora, os profissionais de marketing podem executar um teste A/B para ver se a a
 
 Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar este conceito no Target para que os profissionais de marketing executem testes de A/B e XT em SPAs por meio do VEC. Isso exigirá uma configuração de desenvolvedor única. Vamos analisar as etapas de configuração.
 
-1. Instale o at. js 2. x.
+1. Instalar a at.js 2.x.
 
-   Primeiro, precisamos instalar o at. js 2. x. Esta versão do at. js foi desenvolvida com spas em mente. As versões anteriores da at.js e mbox.js não são compatíveis com as Exibições do Adobe Target e o VEC para SPAs.
+   Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores da at.js e mbox.js não são compatíveis com as Exibições do Adobe Target e o VEC para SPAs.
 
-   Baixe o at. js 2. x pela interface do usuário do Adobe Target localizada em [!UICONTROL Configuração &gt; Implementação]. O at. js 2. x também pode ser implantado por meio do Adobe Launch. No entanto, as Adobe Target Extensions não estão atualizadas e não são compatíveis no momento.
+   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Configuração &gt; Implementação]. A at.js 2.x também pode ser implantada por meio do Adobe Launch. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
 
-1. Implemente a função mais recente do at. js 2. x, `triggerView()` em seus sites.
+1. Implemente a função mais recente da at.js 2.x, `triggerView()`, em seus sites.
 
-   Depois de definir as exibições de sua SPA onde você deseja executar um teste A/B ou XT, implemente `triggerView()` a função at. js 2. x com as Exibições passadas como parâmetro. Isso permite que os profissionais de marketing usem o VEC para projetar e executar os testes A/B e XT para essas Exibições definidas. Se a função `triggerView()` não estiver definida para essas Exibições, o VEC não detectará as Exibições e, portanto, os profissionais de marketing não poderão usar o VEC para projetar e executar testes A/B.
+   Após definir as Exibições de SPA, onde deseja executar um teste A/B ou XT, implemente a função da at.js 2.x `triggerView()` com as Exibições passadas como parâmetro. Isso permite que os profissionais de marketing usem o VEC para projetar e executar os testes A/B e XT para essas Exibições definidas. Se a função `triggerView()` não estiver definida para essas Exibições, o VEC não detectará as Exibições e, portanto, os profissionais de marketing não poderão usar o VEC para projetar e executar testes A/B.
 
    **`adobe.target.triggerView(viewName, options)`**
 
    | Parâmetro | Tipo | Obrigatório? | Validação | Descrição |
    | --- | --- | --- | --- | --- |
    | viewName | String | Sim | 1. Sem espaços à direita.<br>2. Não pode estar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com &#39;`/`&#39;. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, &quot;home&quot; e &quot;`/home`&quot; são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome Exibição é mostrado no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
-   | opções | Objeto | Não |
-   | opções &gt; página | Booleano | Não | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE**: quando `page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
+   | opções | Objeto | Não |  |  |
+   | opções &gt; página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE**: quando `page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
 
    Agora vamos apresentar alguns exemplos de casos de uso sobre como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link:[Site de início](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Site inicial](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link:[Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Site dos produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
 Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, queremos personalizar a segunda fileira de produtos alterando a cor do rótulo de &quot;Preço&quot; para vermelho, depois que um usuário clicou no botão Carregar mais.
 
@@ -147,7 +147,7 @@ Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como pro
  }
 ```
 
-**Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![checkout do react](/help/c-experiences/assets/react6.png)
 
@@ -186,11 +186,11 @@ Agora, os profissionais de marketing podem executar um teste A/B para ver se a a
  }
 ```
 
-## Diagramas do sistema at. js 2. x
+## diagramas de sistema da at.js 2.x
 
-Os diagramas a seguir ajudam você a entender o fluxo de trabalho do at. js 2. x com Exibições e como isso aprimora a integração de SPA. Para obter uma melhor introdução dos conceitos usados em at. js 2. x, consulte [Implementação de aplicativos de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Os diagramas a seguir ajudam a entender o fluxo de trabalho da at.js 2.x com Exibições e como isso melhora a integração de SPA. Para obter uma mais detalhes sobre os conceitos usados na Noções básicas sobre o funcionamento da at.js 2.x, consulte [Implementação de aplicativos de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Fluxo do Target com at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Fluxo do Target com a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Etapa | Detalhes |
 | --- | --- |
@@ -205,7 +205,7 @@ Os diagramas a seguir ajudam você a entender o fluxo de trabalho do at. js 2. x
 
 Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibições e as ações são recuperadas do cache e mostradas ao usuário, sem uma chamada de servidor. `triggerView()` também faz uma solicitação de notificações ao [!DNL Target] backend para aumentar e registrar contagens de impressão.
 
-![Fluxo de target at. js 2. x triggerview](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Fluxo do Target com a at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Etapa | Detalhes |
 | --- | --- |
@@ -218,34 +218,34 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 ## Aplicativo de página única no Visual Experience Composer
 
-Depois de concluir a instalação de at. js 2. x e adicionar `triggerView()` ao seu site, use o VEC para executar atividades A/B e XT. Para obter mais informações, consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
+Após concluir a instalação da at.js 2.x e adicionar `triggerView()` ao seu site, use o VEC para executar atividades A/B e XT. Para obter mais informações, consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
 >[!NOTE]
 >
 >O VEC for SPAs é, na verdade, o mesmo VEC que você usa nas páginas da Web regulares, mas com alguns recursos adicionais disponíveis ao abrir um aplicativo de página única com implementação de `triggerView()`.
 
-## Use o disparview para garantir que A 4 T funcione corretamente com o at. js 2. x e spas {#triggerview}
+## Use o TriggerView para garantir que o A4T funcione corretamente com at.js 2.x e SPAs {#triggerview}
 
-Para garantir que [o Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T) funcione corretamente com o at. js 2. x, certifique-se de enviar a mesma SDID na solicitação Target e na solicitação do Analytics.
+Para garantir que o [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) funcione corretamente com a at.js 2.x, certifique-se de enviar a mesma SDID na solicitação do Target e do Analytics.
 
-Como práticas recomendadas relacionadas a spas:
+Como práticas recomendadas relacionadas a SPAs:
 
-* Use eventos personalizados para notificar que algo interessante acontece no aplicativo
-* Acionar um evento personalizado antes que a exibição inicie a renderização
-* Acionar um evento personalizado quando a exibição terminar a renderização
+* Use eventos personalizados para notificar se algo interessante acontecer no aplicativo
+* Acione um evento personalizado antes que a exibição inicie a renderização
+* Acione um evento personalizado quando a exibição terminar a renderização
 
-O at. js 2. x adicionou uma nova função [triggerview ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) . Você deve usar `triggerView()` para notificar o at. js que uma exibição iniciará a renderização.
+A at.js 2.x adicionou uma nova função [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) de API. Você deve usar `triggerView()` para notificar à at.js que uma exibição iniciará a renderização.
 
-Para ver como combinar eventos personalizados, at. js 2. x e Analytics, vamos ver um exemplo. Este exemplo assume que a página HTML contém a API de visitante, seguido por at. js 2. x, seguido pelo appmeasurement.
+Veja um exemplo de como combinar eventos personalizados, a at.js 2.x e o Analytics. Esse exemplo assume que a página HTML contém a API de visitante, a at.js 2.x e o AppMeasurement.
 
 Vamos supor que os seguintes eventos personalizados existem:
 
-* `at-view-start` - Quando a exibição começar a renderizar
+* `at-view-start` - Quando a exibição inicia a renderização
 * `at-view-end` - Quando a exibição termina a renderização
 
-Para certificar-se de que A 4 T funciona com o at. js 2. x,
+Para certificar-se de que o A4T funciona com a at.js 2.x,
 
-O manipulador de início de exibição deve ter a seguinte aparência:
+O manipulador de início da exibição deve ser semelhante ao seguinte:
 
 ```
 document.addEventListener("at-view-start", function(e) {
@@ -256,7 +256,7 @@ document.addEventListener("at-view-start", function(e) {
 });
 ```
 
-O manipulador final de exibição deve ser semelhante a isto:
+O manipulador de término da exibição deve ser semelhante ao seguinte:
 
 ```
 document.addEventListener("at-view-end", function(e) {
@@ -267,30 +267,30 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!NOTE]
 >
->Você deve acionar os eventos `at-view-start` e `at-view-end` os eventos. Esses eventos não fazem parte dos eventos personalizados do at. js.
+>Você deve acionar os eventos `at-view-start` e `at-view-end`. Esses eventos não fazem parte dos eventos personalizados da at.js.
 
-Embora esses exemplos usem código javascript, tudo isso pode ser simplificado se você estiver usando um gerenciador de tags, como [o Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Embora esses exemplos usem código JavaScript, tudo isso pode ser simplificado se você estiver usando um gerenciador de tags, como o [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
-Se as etapas anteriores forem seguidas, você deve ter uma solução A 4 T robusta para spas.
+Se as etapas anteriores forem seguidas, você terá uma solução A4T robusta para SPAs.
 
 ## Vídeos de treinamento
 
 Os seguintes vídeos contêm mais informações:
 
-### Como entender como o at. js 2. x funciona
+### Noções básicas sobre o funcionamento da at.js 2.x
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Consulte [Entendendo como at. js 2. x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+Consulte [Noções básicas sobre o funcionamento da at.js 2.x](https://helpx.adobe.com/br/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
 
-### Implementar o at. js 2. x em uma SPA
+### Implementar a at.js 2.x em um SPA
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Consulte [Implementar o at. js 2. x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
+Consulte [Implementar a at.js 2.x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/br/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
 
 ### Uso do VEC para SPAs no Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Consulte [Usar o Visual Experience Composer for Single Page Application (SPA VEC) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
+Consulte [Uso do Visual Experience Composer para aplicativo de página única (SPA VEC) no Adobe Target](https://helpx.adobe.com/br/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
