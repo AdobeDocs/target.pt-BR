@@ -1,14 +1,14 @@
 ---
-description: 'Informações sobre a função adobe. target. trackevent (opções) para at. js. '
-keywords: adobe.target.notificação; elemento; seletor; notificação; extensão
-seo-description: Informações sobre a função adobe. target. trackevent (opções) para a biblioteca do Adobe Target no javascript.
-seo-title: Informações sobre a função adobe. target. trackevent (opções) para a biblioteca do Adobe Target no javascript.
+description: 'Informações sobre a função adobe.target.trackEvent(options) para at.js. '
+keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+seo-description: Informações sobre a função adobe.target.trackEvent(options) da biblioteca at.js de JavaScript do Adobe Target.
+seo-title: Informações sobre a função adobe.target.trackEvent(options) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
 subtopic: Introdução
 title: adobe.target.trackEvent(options)
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
