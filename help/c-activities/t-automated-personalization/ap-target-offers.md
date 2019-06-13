@@ -1,14 +1,14 @@
 ---
 description: Em uma atividade de Automated Personalization, você pode direcionar ofertas a públicos específicos.
 seo-description: Em uma atividade de Automated Personalization, você pode direcionar ofertas a públicos específicos.
-seo-title: Ofertas de Automated Personalization do Target
+seo-title: Ofertas de Personalização automatizada do Target
 solution: Target,Analytics
-title: Ofertas de Automated Personalization do Target
+title: Ofertas de Personalização automatizada do Target
 title-outputclass: premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
