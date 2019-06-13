@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Artigo do colaborador
@@ -15,13 +15,13 @@ Este projeto adotou o [Código de conduta aberto da Adobe](code-of-conduct.md) o
 
 ## Sobre suas contribuições para o conteúdo da Adobe
 
-Consulte o Guia de Colaborador do [Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Consulte o [Guia do colaborador do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 A forma como você colabora depende de quem você é e do tipo de alterações que deseja fazer:
 
 ### Pequenas alterações
 
-Caso esteja contribuindo com pequenas atualizações de livre e espontânea vontade, visite o artigo e clique no **link Editar** no artigo que vai para a origem github do artigo. Em seguida, use a interface do usuário do GitHub para fazer suas atualizações. Consulte o guia de colaborador geral [do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obter mais informações.
+Caso esteja contribuindo com pequenas atualizações de livre e espontânea vontade, visite o artigo e clique no **link Editar** no artigo que vai para a origem GitHub do artigo. Em seguida, use a interface do usuário do GitHub para fazer suas atualizações. Consulte o [Guia geral do colaborador do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para ver mais detalhes.
 
 Pequenas correções ou esclarecimentos que você envia para a documentação e os exemplos de código aqui estão cobertos pelos termos de uso da Adobe.
 
@@ -43,14 +43,14 @@ Caso seja um autor técnico, gerente de programa ou desenvolvedor da equipe de p
 
 Os colaboradores da comunidade podem usar a interface do usuário do GitHub para edição básica ou forjar o repo, fazendo contribuições importantes.
 
-Consulte o Guia de colaborador do [Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obter mais detalhes.
+Consulte o [Guia do colaborador do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para ver mais detalhes.
 
 ## Como usar a marcação para formatar seu tópico
 
 Todos os artigos neste repositório usam o flavored markdown do GitHub. Caso não esteja familiarizado com a marcação, consulte:
 
-* [Noções básicas de markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Folha de papel para impressão imprimível](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Noções básicas de marcação](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Guia de marcação para impressão](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Rótulos
 
