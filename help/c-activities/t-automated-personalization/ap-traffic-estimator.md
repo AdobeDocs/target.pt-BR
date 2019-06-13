@@ -8,8 +8,8 @@ title-outputclass: premium
 topic: Padrão
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -26,6 +26,8 @@ Lembre-se de que o Target oferece experiências aleatoriamente até que os algor
 
 1. No Criador de experiências, clique em **[!UICONTROL Tráfego]**.
 
+   ![Ícone de tráfego](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
+
    O Avaliador de tráfego é aberto. Você pode clicar em **[!UICONTROL Tráfego]novamente para ocultar o Avaliador de tráfego.**
 
    ![](assets/ap_est.png)
@@ -35,7 +37,7 @@ Lembre-se de que o Target oferece experiências aleatoriamente até que os algor
    * Número de combinações de conteúdo: calculado automaticamente com base no número de experiências que estão sendo criadas como parte da atividade após as exclusões.
    * Taxa de conversão típica: a taxa de conversão é expressa como uma porcentagem, com base na estimativa ou dados passados do sistema de análise.
    * Visitas estimadas por dia: esse é o número de visitas por dia dos visitantes que podem visualizar a atividade com base nos critérios de direcionamento. Isso pode se basear nos dados da análise. Observe que esse número deve ser de visitas e não de visitantes únicos.
-   * Duração do teste: A quantidade de dias de duração da execução da atividade.
+   * Duração do teste: a quantidade de dias de duração da execução da atividade.
    O Avaliador de tráfego usa essas estatísticas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
 
    Próximo da parte superior do Avaliador de tráfego, os valores inseridos são calculados, e os resultados são exibidos.
