@@ -7,15 +7,15 @@ solution: Target
 title: Alocação automática
 topic: Padrão
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Alocação automática{#auto-allocate}
 
-A Autoalocação identifica um vencedor entre duas ou mais experiências e relocaliza automaticamente mais tráfego para o vencedor para aumentar as conversões enquanto o teste continua a funcionar e aprender.
+A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor, a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Em tais testes, a maioria dos produtos, incluindo o Target, usa um teste t de Es
 
 A alocação automática executa todas as comparações implícitas entre as experiências e produz um vencedor &quot;verdadeiro&quot;. Não há noção de experiência de &quot;controle&quot; no teste.
 
-A alocação automática aloca novos visitantes a experiências de modo inteligente até que o intervalo de confiança da melhor experiência não se sobreponha ao de qualquer outra experiência. Normalmente, este processo pode produzir falsos positivos, mas a alocação automática usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensa avaliações repetidas. Neste ponto, temos um verdadeiro vencedor. Quando a alocação automática é interrompida, desde que não haja uma dependência significativa de tempo para os visitantes que chegam à página, há pelo menos uma chance de 95% que retornará uma experiência cuja resposta verdadeira não é pior que 1% (relativa) menor que a resposta verdadeira da experiência vencedora.
+A alocação automática aloca novos visitantes a experiências de modo inteligente até que o intervalo de confiança da melhor experiência não se sobreponha ao de qualquer outra experiência. Normalmente, este processo pode produzir falsos positivos, mas a alocação automática usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensa avaliações repetidas. Neste ponto, temos um verdadeiro vencedor. Quando a Alocação automática é interrompida, desde que não haja uma dependência de tempo substancial para os visitantes que chegam à página, há pelo menos 95% de chance de que a alocação automática retorne uma experiência cuja resposta verdadeira não seja pior do que 1% (relativa) menos do que a verdadeira resposta da experiência vencedora.
 
 ## Quando usar a alocação automática, o teste A/B ou a personalização automatizada {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -57,7 +57,7 @@ A alocação automática aloca novos visitantes a experiências de modo intelige
 
 Os seguinte termos são úteis quando falamos de alocação automática:
 
-**Multi-armed bandit:** Uma abordagem [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
+**Multi-armed bandit:** uma abordagem [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
 
 ## Como o algoritmo funciona {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -169,15 +169,15 @@ A alocação automática, por outro lado, é um teste A/B que produz um vencedor
 
 No momento, a lógica favorece visitantes que convertem rapidamente ou visitam com mais frequência. Isso ocorre porque esses visitantes aumentam temporariamente a taxa de conversão geral da experiência à qual eles pertencem. O algoritmo se ajusta frequentemente, então o aumento na taxa de conversão é amplificado a cada instantâneo. Se o site recebe muitos visitantes recorrentes, suas conversões podem aumentar potencialmente a taxa de conversão geral da experiência à qual eles pertencem. Há uma boa chance de os visitantes recorrentes serem distribuídos aleatoriamente; nesse caso, o efeito agregado (maior incentivo) é uniformizado. Para amenizar esse efeito, considere alterar o método de contagem da métrica de sucesso para contar somente uma vez por participante.
 
-**Posso usar a calculadora de tamanho de amostra ao usar Autoalocação para estimar o tempo que a atividade levará para identificar o vencedor?**
+**Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?**
 
 Você pode usar a calculadora de tamanho [de amostra existente](https://docs.adobe.com/content/target-microsite/testcalculator.html) com a correção de Bonferroni aplicada apropriadamente para obter uma estimativa de quanto tempo será a execução do teste. Em nossos experimentos, vimos a atividade de alocação automática terminar muito mais cedo do que esse tamanho de amostra.
 
-**Devo remover uma experiência com desempenho baixo de uma atividade de autoalocação para acelerar o processo de determinação de um vencedor?**
+**Devo remover uma experiência com baixo desempenho de uma atividade de Alocação automática para acelerar o processo de decisão de um vencedor?**
 
-Não há motivo para remover uma experiência com desempenho baixo. A Autoalocação automaticamente proporciona experiências de alto desempenho com mais frequência e proporciona experiências com baixo desempenho com menos frequência. Deixar uma experiência com desempenho baixo na atividade não afetará significativamente a velocidade para determinar um vencedor.
+Não há motivo para remover uma experiência com baixo desempenho. A Alocação automática veicula automaticamente as experiências de alto desempenho com mais frequência e as com baixo desempenho com menos frequência. Deixar uma experiência com baixo desempenho na atividade não afetará significativamente a velocidade para determinar um vencedor.
 
-20% dos visitantes são atribuídos aleatoriamente em todas as experiências. A quantidade de tráfego veiculada para uma experiência com desempenho baixo é mínima (20% dividido pelo número de experiências).
+20% dos visitantes são atribuídos aleatoriamente em todas as experiências. A quantidade de tráfego veiculada para uma experiência com baixo desempenho é mínima (20% dividido pelo número de experiências).
 
 ## Vídeos de treinamento {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
