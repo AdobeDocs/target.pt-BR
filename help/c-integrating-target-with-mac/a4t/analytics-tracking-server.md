@@ -5,8 +5,8 @@ seo-description: Se estiver usando uma versão mais antiga da at.js ou da mbox.j
 seo-title: Usar um servidor de rastreamento do Analytics
 title: Usar um servidor de rastreamento do Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ O depurador deve ser visualizado em uma página na qual a atividade será entreg
 
 1. Na página em que você está criando sua atividade, abra o depurador da Adobe Experience Cloud.
 
-   Se não tiver instalado o depurador, siga as [instruções de instalação do depurador da Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
+   Se você não tiver instalado o depurador, siga as [instruções de instalação do Adobe Debugger](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/debugger_install.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -34,7 +34,7 @@ O depurador deve ser visualizado em uma página na qual a atividade será entreg
    * (para implementações CNAME)
    * (para implementações não RDC)
    * (para implementações RDC)
-   *Empresa* representa o nome da empresa do Analytics, *métricas* é um exemplo de um valor CNAMEe *d1* é um exemplo de um data center do Analytics.
+   *Empresa* representa o nome da empresa do Analytics, *métricas* é um exemplo de um valor CNAME e *d1* é um exemplo de um data center do Analytics.
 1. Copie todo o conteúdo do campo.
 1. Na seção [!UICONTROL Configurações de relatório] da tela [!UICONTROL Meta e configurações]**da atividade, cole as informações do servidor de rastreamento no campo[!UICONTROL Servidor de rastreamento.]**
 
