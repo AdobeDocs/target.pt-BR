@@ -7,8 +7,8 @@ solution: Target
 title: Habilitar conteúdo misto no navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,7 +35,7 @@ Se o seu site estiver executando em um domínio inseguro (HTTP), precisa permiti
 >
 >Permitir o conteúdo misto afeta somente o VEC e não o site ativo.
 
-Para obter mais informações, consulte [Conteúdo misto](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) no site *Mozilla Developer Network* (MDN).
+Para obter mais informações, consulte [Conteúdo misto](https://developer.mozilla.org/pt-BR/docs/Security/MixedContent) no site da *Mozilla Developer Network* (MDN).
 
 ## Habilitar conteúdo misto no Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -83,4 +83,4 @@ target/t_mixed_content_chrome.xml
 
  -->
 
-Consulte [Esta página possui conteúdo não seguro](https://support.google.com/chrome/answer/1342714?hl=en) na Ajuda do Chrome.
+Consulte [Esta página tem conteúdo inseguro](https://support.google.com/chrome/answer/1342714?hl=br) na Ajuda do Google Chrome.
