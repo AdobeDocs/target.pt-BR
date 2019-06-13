@@ -1,13 +1,13 @@
 ---
 description: Às vezes, as atividades não acontecem como o esperado. Aqui estão alguns possíveis desafios que você pode enfrentar ao usar a Personalização automatizada e algumas soluções sugeridas.
 seo-description: Às vezes, as atividades não acontecem como o esperado. Aqui estão alguns possíveis desafios que você pode enfrentar ao usar a Personalização automatizada e algumas soluções sugeridas.
-seo-title: Solução de problemas de Automated Personalization
-title: Solução de problemas de Automated Personalization
+seo-title: Solução de problemas de Personalização automatizada
+title: Solução de problemas de Personalização automatizada
 title-outputclass: premium
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 badge: premium
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
