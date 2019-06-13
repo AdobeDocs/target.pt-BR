@@ -7,8 +7,8 @@ subtopic: Introdução
 title: Definições do Scene7
 topic: Padrão
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ O Target Standard pode ser integrado com o Adobe Scene7 para fornecer gerenciame
 
 >[!NOTE]
 >
->A integração do Target com o Scene 7 permite a entrega de ativos (como parte das atividades) carregados na pasta de ativos da Adobe Experience Cloud. Esta integração não permite o acesso a todos ativos carregados no Scene7 para entrega em atividades do Target.
+>A integração do Target com o Scene7 permite a entrega de ativos (como parte das atividades) carregados na pasta de ativos da Adobe Experience Cloud. Esta integração não permite o acesso a todos ativos carregados no Scene7 para entrega em atividades do Target.
 
 Se você tem uma conta do Scene7, você pode fornecer suas credenciais do Scene7. Se você não tem uma conta do Scene7, entre em contato com seu representante Adobe que pode configurar esta funcionalidade com uma conta gratuita do Scene7 dedicada para sua conta Target. Esta conta pode ser usada para propósitos restritos para uso apenas no Target. Este serviço está disponível para cliente com fluxos de trabalho que precisam de funcionalidade de troca de imagem.
 
@@ -31,7 +31,7 @@ Note que o URL de armazenamento e os URLs finais de imagens publicadas do Scene7
 
 Para integração com o Scene7, você precisa especificar algumas de suas informações do Scene7.
 
-1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Configurações do Scene 7]**.
+1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Configurações do Scene7]**.
 1. Especifique as seguintes informações de conta do Scene7:
 
    **Região do Scene7:** a região de sua conta Scene7: América do Norte, Europa ou Ásia.
