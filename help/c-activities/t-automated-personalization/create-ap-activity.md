@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
-translation-type: tm+mt
-source-git-commit: 3a7056831893830021e6aea758f8fcdef88c47b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -57,7 +57,7 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
    | : | Dois-pontos |
    | = | Igual a |
    | + | Plus |
-   | - | menos |
+   | - | Menos |
    | @ | Sinal de arroba |
 
 1. Modifique os elementos da página conforme explicado em [Experiências](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) e clique em **[!UICONTROL Avançar]**.
@@ -132,7 +132,7 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
    | Prioridade | Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.<br>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.<br>Se esta opção não estiver ativada na Configurar (padrão), especifique uma prioridade: baixa, média ou alta.<br>Para ativar as propriedades otimizadas, clique em [!UICONTROL Configurar] e alterne a opção [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ativado&quot;.<br>Se esta opção estiver ativada, especifique um valor entre 0 e 999:<ul><li>0 = Baixo</li><li>999 = Alto</li></ul>Para atividades criadas em versões anteriores do Target Standard/Premium, a prioridade Baixa é convertida para 0, a Média é convertida para 5 e a Alta é convertida para 10. É possível ajustar esses valores conforme necessário.<br>**Observação**: antes de poder desabilitar esta opção após o uso de prioridades otimizadas, todas as prioridades devem ser ajustadas novamente para 0, 5 e 10. |
    | Duração | Defina as datas de início e fim da atividade. |
    | Meta de otimização | Especifique a meta de otimização, que consiste em dois parâmetros:<ul><li>O que você deseja medir com a atividade</li><li>A ação tomada por um participante da atividade que mostra que a meta foi alcançada.</li></ul>É possível escolher nomear a meta de otimização selecionando os três pontos à direita de Minha meta principal. As atividades de Personalização automatizada podem medir a conversão, RPV e AOV. A conversão pode ser alcançada através da visualização de uma página ou exibição de uma mbox. Os cliques também podem ser monitorados.<br>A meta primária torna-se também a métrica de modelagem, usada pelo sistema de modelagem para calcular o sucesso da experiência.<br>Os visitantes podem ser mantidos na atividade para fins de rastreamento depois de atingir a meta de modelagem. Por exemplo, uma atividade de personalização automatizada é frequentemente usada para melhorar taxas de clique, e isso é definido como o objetivo de modelagem. No entanto, é importante ver como as maiores taxas de clique levam à conversão final, então o rastreamento pela conversão final é essencial.<br>É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada.<br>Você deve definir ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra.<br>A opção Adicionar dependência permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada.<br>Para adicionar uma dependência:<ol><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas] no menu de três pontos à direita de Meta adicional.</li><li>Clique na opção [!UICONTROL Adicionar dependência] na parte inferior da seção [!UICONTROL Configurações de relatório].</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e [!UICONTROL Não alcançado]</li></ol>É possível editar ou remover dependências depois de adicioná-las. |
-   | Métricas de conversão | Por padrão, a métrica de conversão é igual à métrica de objetivo de otimização. No entanto, é possível definir uma métrica de conversão separada ao desmarcar a [!UICONTROL opção do Objetivo] de otimização. |
+   | Métricas de conversão | Por padrão, a métrica de conversão é igual à métrica de meta de otimização. No entanto, é possível definir uma métrica de conversão separada ao desmarcar a opção [!UICONTROL Igual à meta de otimização]. |
    | Métricas adicionais | Adicione quaisquer métricas adicionais de relatórios que deseja usar. É possível adicionar métricas de conversão ou receita.<br>**Observação**: a métrica Envolvimento também não é compatível como uma métrica adicional. A interface do usuário pode permitir que você selecione a métrica de Envolvimento, mas os dados não serão exibidos com precisão nos relatórios. |
    | Públicos-alvo para geração de relatórios | Adicione públicos-alvo para permitir a filtragem por público-alvo nos relatórios. Por padrão, o relatório mostra os resultados para todos os visitantes qualificados. Adicione públicos para filtrar os resultados de subconjuntos de visitantes mais específicos.<br>**Observação**: diferentemente de outros tipos de atividades, a Personalização automatizada não pode usar o Adobe Analytics como fonte de geração de relatórios. |
    | Notas | Digite qualquer informação sobre sua atividade que seja útil para manter ao seu alcance ou de outros membros da equipe. O painel Anotações pode ser redimensionado. |
@@ -147,7 +147,7 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
    | : | Dois-pontos |
    | = | Igual a |
    | + | Plus |
-   | - | menos |
+   | - | Menos |
    | @ | Sinal de arroba |
 
 Depois de clicar em **[!UICONTROL Criar]**, o Resumo da atividade é exibido. Clique em **Visualizar experiências** para visualizar como suas experiências aparecem depois de entregues. Uma pop-up é mostrada e pode ser usada para exibir e compartilhar links para as experiências de Personalização automatizada em seu site para obter uma &quot;visualização real&quot; das experiências fora do Visual Experience Composer do Target. É necessário compartilhar os links da mensagem para compartilhar a visualização. Clicar em um link e copiar o URL diretamente da página não funcionará porque o URL contém um parâmetro que somente exibe a página corretamente quando você acessa a página a partir do link da mensagem.
