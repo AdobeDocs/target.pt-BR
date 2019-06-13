@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
-translation-type: tm+mt
-source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -67,7 +67,7 @@ Crie uma coleta para organizar os produtos que deseja mostrar nas recomendaçõe
 
    Você pode adicionar regras para usar vários parâmetros para definir uma coleção. Várias regras são unidas por um E. Todas as regras especificadas devem ser iguais para que a coleção seja aplicada.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Salvar]**. 
 Você também pode criar coleções usando Pesquisa avançada na página Pesquisa no catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Pesquisa no catálogo] &gt; [!UICONTROL Pesquisa avançada]). Após criar uma pesquisa usando &quot;id &gt; contains&quot; por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Coleção].
 
 >[!IMPORTANT]
