@@ -6,8 +6,8 @@ seo-title: Biblioteca de metas
 solution: Target
 title: Biblioteca de metas
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
