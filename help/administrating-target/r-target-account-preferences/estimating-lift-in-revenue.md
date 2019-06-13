@@ -7,8 +7,8 @@ solution: Target
 title: Aumento estimado na receita
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Esta estimativa calcula a quantidade de aumento alcançado pela experiência ven
 
 O aumento estimado na receita é calculado com base na receita por visita (RPV) obtida da métrica da meta primária.
 
-O aumento estimado é calculado usando a seguinte fórmula: (&lt; RPV de experiência vencedora &gt; - &lt; RPV de experiência de controle &lt;) * &lt; número total de visitantes na atividade &gt;
+O aumento estimado é calculado com o uso da seguinte fórmula: (&lt;RPV de experiência vencedora&gt; - &lt;RPV de experiência de controle&lt;)*&lt;número total de visitantes na atividade&gt;
 
 O número resultante será arredondado para a casa decimal máxima, se a forma condensada tiver apenas um único dígito antes do decimal. Por exemplo: US$ 1,6 milhões, US$ 60 mil, US$ 900, US$ 8,5 mil, US$ 205 mil
 
