@@ -7,8 +7,8 @@ solution: Target
 title: Perguntas frequentes sobre direcionamentos e públicos
 topic: Padrão
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: tm+mt
-source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -37,7 +37,7 @@ Por exemplo, na seguinte ilustração, um usuário da Califórnia que usa um dis
 
 ## Por que os nomes para o mesmo público-alvo do Target, da Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Os nomes de público-alvo em [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter o mesmo nome para vários públicos-alvo (se estiverem em pastas diferentes). Quando [!DNL Target] encontrar um nome de público-alvo que corresponda a um [!DNL AAM] ou [!DNL Audience Library] público, [!DNL Target] anexa &quot; # &lt; número &gt;&quot; ao nome.
+Os nomes dos públicos-alvo no [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter vários públicos-alvo com o mesmo nome (se estiverem em pastas diferentes). Quando o [!DNL Target] encontra um nome de público-alvo que corresponde a um público-alvo do [!DNL AAM] ou do [!DNL Audience Library], o [!DNL Target] adiciona &quot;#&lt;number&gt;&quot; ao nome.
 
 Por exemplo, você pode ver os seguintes públicos-alvo: &quot;usuários de PC&quot; (na [!DNL AAM]) e &quot;usuários de PC #1&quot; (no [!DNL Target]).
 
@@ -73,8 +73,8 @@ Por exemplo:
 | 2 | é maior que 3,0 | false |
 | 045 | é igual a 45 | true |
 
-Os números escritos em notação científica sempre serão comparados como strings.
+Os números escritos em notação científica serão sempre comparados como sequências de caracteres.
 
 Por exemplo,
 
-&quot;4e-2&quot; somente será igual a &quot;4e-2&quot;. Ele *não* será igual a “0,04&quot;.
+&quot;4e-2&quot; somente será igual a &quot;4e-2&quot;. Ele *não* será igual a &quot;0,04&quot;.
