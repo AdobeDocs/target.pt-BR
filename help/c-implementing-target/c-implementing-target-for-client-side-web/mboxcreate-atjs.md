@@ -1,14 +1,14 @@
 ---
-description: 'Informações sobre a função mboxcreate (mbox, params) para at. js. '
-keywords: adobe.target.notificação; elemento; seletor; notificação; extensão
-seo-description: Informações sobre a função mboxcreate (mbox, params) para a biblioteca do Adobe Target no javascript.
-seo-title: Informações sobre a função mboxcreate (mbox, params) para a biblioteca do Adobe Target no javascript.
+description: 'Informações sobre a função mboxCreate(mbox,params) para at.js. '
+keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+seo-description: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
+seo-title: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
 subtopic: Introdução
 title: mboxCreate(mbox,params) - at.js 2.x
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Executa uma solicitação e aplica a oferta ao DIV mais próximo com o nome de c
 
 >[!NOTE]
 >
->Essa função está disponível para a at.js versão 1.somente *x*. Essa função foi substituída pelo lançamento do at. js 2. x. Essa função retorna o conteúdo padrão se for usado com o at. js 2. x.
+>Essa função está disponível para a at.js versão 1.somente *x*. Essa função foi descontinuada pelo lançamento da at.js 2.x. Ela retorna o conteúdo padrão se for usada com a 2.x.
 
 A função está incorporada na [!DNL at.js], principalmente para facilitar a transição de [!DNL mbox.js] para [!DNL at.js]. Uma alternativa mais nova para `mboxCreate()` é `adobe.target.getOffer()`/ `adobe.target.applyOffer()` ou a diretiva Angular.
 
