@@ -8,8 +8,8 @@ subtopic: Editor de códigos
 title: Modelos de experiência
 topic: Padrão
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,35 +20,35 @@ Informações sobre Modelos de experiência do Adobe Target para uso no código 
 
 Estes Modelos de experiência são fornecidos gratuitamente para desenvolvedores e profissionais de marketing como ponto de partida para executar casos de uso comuns, seja via VEC ou Experience Composer baseado em formulário.
 
-Os modelos a seguir estão disponíveis atualmente no Adobe Experience Cloud GitHub, consulte [Target-Experiência-Modelos](https://github.com/Adobe-Marketing-Cloud/target-experience-templates).
+Os seguintes modelos estão disponíveis no GitHub da Adobe Experience Cloud, consulte [Target-Experiência-Modelos](https://github.com/Adobe-Marketing-Cloud/target-experience-templates).
 
 ## A galeria de banner Carousel com miniaturas {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
 
-O modelo de experiência da [Galeria do banner com miniaturas é um carrossel giratório](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails), comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas imagens menores abaixo da imagem principal.
+O modelo de experiência de [Carrossel do banner com miniaturas](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) é um carrossel giratório, usado geralmente em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas imagens menores abaixo da imagem principal.
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## Galeria do banner {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
-O modelo de experiência da [Galeria do banner é um carrossel giratório](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel), comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas setas esquerda e direita.
+O [modelo de experiência do Carrossel do banner](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) é um carrossel giratório, usado em geral em páginas iniciais e de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas setas esquerda e direita.
 
 ![](assets/exp-template-banner-carousel.png)
 
 ## Contagem regressiva do banner {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
-O [modelo de experiência da Contagem regressiva do banner](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) é um banner grande com uma contagem regressiva central, comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume.
+O [modelo de experiência da Contagem regressiva do banner](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) é um banner grande com uma contagem repressiva central, usado em geral em páginas iniciais e de aterrissagem ou outras páginas de entrada de alto volume.
 
 ![](assets/exp-template-banner-countdown.png)
 
 ## Criador de botão {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
-O [modelo de experiência do Criador de botão](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) é um pequeno botão com um texto de chamada para a ação. O botão é configurável e pode ser colocado em qualquer lugar da página para adicionar um novo apelo à ação ou substituir um botão existente por uma alternativa mais configurável.
+O [modelo de experiência do Construtor de botões](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) é um botão pequeno com uma chamada para ação de texto. O botão é configurável e pode ser colocado em qualquer lugar da página para adicionar um novo apelo à ação ou substituir um botão existente por uma alternativa mais configurável.
 
 ![](assets/exp-template-button-builder.png)
 
 ## Lightbox com contagem regressiva {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
-O [modelo de experiência do Lightbox com contagem regressiva](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) é um pop-up de sobreposição de lightbox com uma contagem regressiva central, comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume.
+O [Lightbox com o modelo de experiência do Countdown](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) é um pop-up de sobreposição de lightbox com uma contagem regressiva central, usado em geral em páginas iniciais e de aterrissagem ou outras páginas de entrada de alto volume.
 
 ![](assets/exp-template-lightbox-countdown.png)
 
