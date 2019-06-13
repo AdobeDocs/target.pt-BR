@@ -7,8 +7,8 @@ solution: Target
 title: Alterações na criptografia do TLS (Transport Layer Security)
 topic: Padrão
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
-translation-type: tm+mt
-source-git-commit: 540f763f649364e8f424c9bed057675603a462d7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 540f763f649364e8f424c9bed057675603a462d7
 
 Informações sobre alterações em como a Adobe e o Target usam a Segurança da camada de transporte (TLS) para manter os mais altos padrões de segurança e promover a segurança dos dados do cliente.
 
-A Segurança da camada de transporte (TLS) é o protocolo de segurança mais amplamente implantado usado atualmente em navegadores Web e outros aplicativos que exigem dados trocados de maneira segura por meio de uma rede. [!DNL Adobe]A tem padrões de conformidade em segurança que exigem o fim da vida útil de protocolos mais antigos e que estão demandando o uso do TLS 1.2 para que se tenha a versão mais atualizada e segura em uso. 
+A Segurança da camada de transporte (TLS) é o protocolo de segurança mais amplamente implantado usado atualmente em navegadores Web e outros aplicativos que exigem dados trocados de maneira segura por meio de uma rede. A [!DNL Adobe] tem padrões de conformidade em segurança que exigem o fim da vida útil de protocolos mais antigos e o uso do TLS 1.2 para ter a versão mais atualizada e segura em vigor.
 
 >[!NOTE]
 >
->Em 20 de fevereiro de 20 19, a infraestrutura do Adobe Target foi atualizada nas regiões EMEA, Japão e APAC para não coletar dados de usuários finais com dispositivos antigos ou navegadores da Web que não são compatíveis com TLS 1.1 ou posterior. A mesma atualização está planejada para a região da América do Norte em 1 **de abril de 2019**. A migração para TLS 1.2 oferece segurança aprimorada. É importante passar pelas especificações e planejar as alterações com a equipe de TI para obter uma transição suave.
+>Em 20 de fevereiro de 2019, a infraestrutura do Adobe Target foi atualizada nas regiões EMEA, Japão e APAC para não coletar mais os dados de usuários finais com dispositivos antigos ou navegadores da Web que não sejam compatíveis com TLS 1.1 ou posteriores. A mesma atualização está planejada para a região da América do Norte em **1º de abril de 2019**. A migração para TLS 1.2 oferece segurança aprimorada. É importante que você verifique as especificidades e planeje as alterações com a equipe de TI para fazer uma transição sem complicações.
 
 Não esperamos que isso afete significativamente os dados ou relatórios do cliente.
 
@@ -60,7 +60,7 @@ Para obter mais detalhes sobre os navegadores compatíveis e suas versões, cons
 
 A partir de fevereiro de 2019, as APIs do Target não serão mais compatíveis com a criptografia do TLS 1.0. Clientes que acessam a API devem verificar se não serão afetados.
 
-* Os clientes da API que usarem Java 7 como configurações padrão precisarão de modificações para serem compatíveis com o TLS 1.2. Para obter mais informações, consulte &quot;[Mudança da versão do protocolo TLS padrão para os terminais dos clientes: do TLS 1.0 para o TLS 1.2](https://www.java.com/en/configure_crypto.html)&quot; no site do Java.
+* Os clientes da API que usam o Java 7 com configurações padrão precisarão de modificações para serem compatíveis com TLS 1.2. Para obter mais informações, consulte &quot;[Mudança da versão padrão do protocolo TLS para pontos de extremidade do cliente: TLS 1.0 para TLS 1.2](https://www.java.com/en/configure_crypto.html)&quot; no site do Java.
 * Os clientes de API que usam o Java 8 não deverão ser afetados, pois a configuração padrão é TLS 1.2.
 * Os clientes da API que usam outras estruturas precisarão entrar em contato com seus fornecedores para obterem detalhes sobre o suporte a TLS 1.2.
 
