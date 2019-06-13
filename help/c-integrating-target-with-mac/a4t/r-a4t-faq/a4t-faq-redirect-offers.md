@@ -7,8 +7,8 @@ solution: Target
 title: Ofertas de redirecionamento - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,15 +27,15 @@ Sua implementação deve atender os seguintes requisitos mínimos:
 
 * Serviço de ID de visitante da Experience Cloud: [!DNL visitorAPI.js] versão 2.3.0 ou superior.
 * Adobe Analytics: [!DNL appMeasurement.js] versão 2.1.
-* Adobe Target: [!DNL at.js] versão 1.6.2 ou posterior.
+* Adobe Target: [!DNL at.js] versão 1.6.2 ou posteriores.
 
    A biblioteca [!DNL mbox.js] não é compatível com as ofertas de redirecionamento com o A4T. Sua implementação deve usar [!DNL at.js].
 
 As três bibliotecas devem ser incluídas na página com a oferta de redirecionamento e na página para a qual o visitante será redirecionado.
 
-## Por que algumas vezes existem discrepâncias de dados entre o A 4 T e o Analytics?
+## Por que algumas vezes existem discrepâncias de dados entre o A4T e o Analytics?
 
-Algumas discrepâncias de dados são esperadas. Para obter mais informações, consulte [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A 4 T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+Algumas discrepâncias de dados são esperadas. Para obter mais informações, consulte [Variações de dados esperadas entre o Target e o Analytics ao usar ou não o A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
 ## Por que as visualizações de página na página original e na página de redirecionamento são contadas às vezes? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
@@ -90,7 +90,7 @@ Recomendamos que você converse com a equipe de TI deles para garantir que `adob
 
 ## Por que o URL de referência precisa ser passado para a nova página? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suponha que um visitante clique em um link em [!DNL `www.google.com`] na sua página inicial ([!DNL`www.mysite.com/index.html]`) na qual uma atividade de redirecionamento está ao vivo e será redirecionado para uma nova página ( [!DNL `www.mysite.com/index2.html`]).
+Suponha que um visitante clique em um link em [!DNL `www.google.com`] na sua página inicial ([!DNL`www.mysite.com/index.html]`) na qual uma atividade de redirecionamento está ao vivo e será redirecionado para uma nova página ([!DNL `www.mysite.com/index2.html`]).
 
 Anteriormente, a solicitação do [!DNL Analytics] na nova página relataria um URL de referência do [!DNL `www.mysite.com/index.html`] em vez de [!DNL `www.google.com`]. Isso causava a geração de relatórios imprecisos no [!DNL Analytics] associados aos URLs de referência (relatórios de canal de marketing, por exemplo). Os relatórios perderam o fato de que você veio ao site de [!DNL `www.google.com`].
 
