@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-translation-type: tm+mt
-source-git-commit: f2d5c7eafbdb21ff26d88b692266d0e43dae6744
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    ![](assets/DB_NewRecAct.png)
 
-   Selecione essa opção se preferir usar o Experience Composer baseado em formulário. Consulte [Experience Composer baseado em formulário](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Selecione essa opção se preferir usar o Experience Composer baseado em formulário. Consulte o [Criador de experiências baseado em formulários](https://marketing.adobe.com/resources/help/pt_BR/target/target/t_form_experience_composer.html).
 
    Ao clicar em [!UICONTROL Avançar], o VEC será aberto e irá exibir sua página. Você pode substituir um elemento atual com recomendações ou inseri-las.
 
@@ -139,6 +139,6 @@ Quando tiver terminado de visualizar suas recomendações, clique em **[!UICONTR
 * Visualizar o código dos seus designs.
 
 1. (Opcional) Abra a guia [!UICONTROL Relatórios] para visualizar o relatório que mostra o desempenho de sua atividade do [!DNL Recommendations].
-1. (Opcional) Abra a guia [!UICONTROL Conflitos] para visualizar qualquer [conflito de atividade](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) que possa ocorrer.
+1. (Opcional) Abra a página [!UICONTROL Conflitos] para visualizar qualquer [conflito de atividade](https://marketing.adobe.com/resources/help/pt_BR/target/target/c_activity_collisions.html) que possa ocorrer.
 
    Conflitos de atividade ocorrem quando várias atividades estão definidas para entregar conteúdo na mesma página e podem fazer com que conteúdo inesperado seja exibido.
