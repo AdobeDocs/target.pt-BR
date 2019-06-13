@@ -7,8 +7,8 @@ solution: Target
 title: Sincronização de perfil em tempo real para mbox3rdPartyID
 topic: Padrão
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
-translation-type: tm+mt
-source-git-commit: 17f0612559bae335d261ebc7654bc5d7fe3c0d12
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,4 +34,4 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] as metas não serão rastreadas nos casos em que a [!DNL Adobe Experience Cloud] ID (MID) muda (por exemplo, o visitante que muda os dispositivos), embora o [!DNL Target] perfil possa ser mesclado com base no mbox 3 rdpartyid e ainda tem informações de atividade. Para visitantes identificados com a mesma MID (aqueles que acessam a página com o mesmo dispositivo), [!DNL Analytics for Target] (A 4 T) devem funcionar conforme esperado.
+>As metas do [!DNL Adobe Analytics] não serão rastreadas nos casos em que a ID (MID) do [!DNL Adobe Experience Cloud] for alterada (por exemplo, o visitante que muda os dispositivos), embora o perfil do [!DNL Target] possa ser combinado com base na mbox3rdPartyID e ainda ter informações de atividade. Para visitantes identificados com a mesma MID (aqueles que acessam a página com o mesmo dispositivo), o [!DNL Analytics for Target] (A4T) deve funcionar conforme esperado.
