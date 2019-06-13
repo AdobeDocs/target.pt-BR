@@ -7,8 +7,8 @@ solution: Target
 title: Incluir a mesma experiência em páginas semelhantes
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,8 +35,8 @@ O vídeo de demonstração a seguir inclui informações sobre usar um modelo:
 Você pode especificar páginas que incluem os elementos de alteração ou aplicar a alteração através do site.
 
 1. Crie uma atividade conforme descrito em [Atividades](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Para especificar as páginas em que a experiência será exibida, no Visual Experience Composer clique no ícone de engrenagem e selecione **[!UICONTROL Entrega de página]**.
-1. Clique **[!UICONTROL em Adicionar regra]** de modelo e especifique os critérios das páginas às quais deseja adicionar a experiência.
+1. Para especificar as páginas onde a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Entrega da página]**.
+1. Clique em **[!UICONTROL Adicionar regra de modelo]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
 
 1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
 
@@ -60,7 +60,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Digite as sequências de caracteres que definem onde é adicionada a experiência, como o domínio ou as sequências de caracteres contidas no nome da página.
 
-   Por exemplo, se você selecionar **[!UICONTROL Domínio]** e **[!UICONTROL É (diferencia maiúsculas de minúsculas)]**, digite o domínio onde deseja que a experiência seja adicionada a todas as páginas.
+   Por exemplo, se você selecionar **[!UICONTROL Domínio]** e **[!UICONTROL É (diferencia maiúsculas de minúsculas)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
 
    É possível incluir vários itens.
 
@@ -68,7 +68,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
    >
    >Vários itens usam a lógica `OR`, ou seja, qualquer item único na lista torna a condição verdadeira.
 
-1. Se desejar, insira critérios adicionais clicando **[!UICONTROL em Adicionar regra]** de modelo e repita o procedimento na etapa anterior.
+1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Adicionar regra de modelo]** e repita o procedimento da etapa anterior.
 
    Múltiplos critérios são agrupados com uma lógica E. O Adobe Target adiciona a experiência para todas as páginas que correspondem aos critérios especificados.
 
