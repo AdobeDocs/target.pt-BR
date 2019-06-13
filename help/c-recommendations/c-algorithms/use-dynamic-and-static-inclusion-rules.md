@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
-translation-type: tm+mt
-source-git-commit: 049b473bac0b90399c0106fffefb1e905c62da4e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -106,9 +106,9 @@ Agora você pode usar as regras de inclusão para corresponder a localização e
 
 ![](assets/job_seeker.png)
 
-O anúncio de emprego no lado esquerdo exige que o visitante esteja em São Francisco, Nova York ou Los Angeles (`entity.jobCity`) e tenha um diploma de BSCS ou MBA ( `entity.requiredDegree`).
+O anúncio de emprego no lado esquerdo exige que o visitante esteja em São Francisco, Nova York ou Los Angeles (`entity.jobCity`) e tenha um diploma de BSCS ou MBA (`entity.requiredDegree`).
 
-Este candidato a emprego no lado direito está em Los Angeles (`profile.usersCity`) e tem um diploma de MBA ( `profile.degree`).
+Este candidato a emprego no lado direito está em Los Angeles (`profile.usersCity`) e tem um diploma de MBA (`profile.degree`).
 
 Usando um filtro dinâmico com correspondência de atributos de perfil, você poderá criar o filtro exibido na parte inferior da ilustração acima, que recomendará apenas anúncios de emprego para os quais esse visitante se qualifica, com base na localização e no diploma.
 
@@ -269,4 +269,4 @@ A tabela a seguir mostra regras em vigor e regras que podem não ser compatívei
 | valor - está entre - 90% e 110% do item atual - salesValue | salesValue - está entre - 90% e 110% do item atual - valor |
 | valor - está entre - 90% e 110% do item atual - valor | clearancePrice - está entre - 90% e 110% do item atual - margem |
 | margem - está entre - 90% e 110% do item atual - margem | storeInventory - é igual a - item atual - inventário |
-| inventário - igual a - item atual - inventário |
+| inventário - igual a - item atual - inventário |  |
