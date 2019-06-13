@@ -1,21 +1,21 @@
 ---
-description: O Mobile Visual Experience Composer (VEC) oferece suporte à configuração de metas de rastreamento de cliques para atividades do Target.
-keywords: VEC do aplicativo móvel; compositor de experiência visual móvel; opções do compositor de experiência móvel; opções de experiência móvel; exibição de destino; cliques; rastreamento de cliques; track
-seo-description: O Mobile Visual Experience Composer (VEC) oferece suporte à configuração de metas de rastreamento de cliques para atividades do Adobe Target.
-seo-title: Configurar o rastreamento de cliques no VEC do aplicativo móvel
+description: O Visual Experience Composer (VEC) para aplicativos móveis oferece suporte à configuração de metas de rastreamento de cliques para atividades do Target.
+keywords: VEC para aplicativos móveis, mobile visual experience composer, opções do mobile experience composer, opções de experiência para dispositivos móveis, exibição do target, rastreamento de cliques, rastrear
+seo-description: O Visual Experience Composer (VEC) para aplicativos móveis oferece suporte à configuração de metas de rastreamento de cliques para atividades do Adobe Target.
+seo-title: Configurar o rastreamento de cliques no VEC para aplicativos móveis
 solution: Target
-title: Configurar o rastreamento de cliques no VEC do aplicativo móvel
+title: Configurar o rastreamento de cliques no VEC para aplicativos móveis
 topic: Padrão
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
-translation-type: tm+mt
-source-git-commit: aa729a8972547be065008c6504bb36dce9cd6e65
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# Configurar o rastreamento de cliques no VEC do aplicativo móvel{#set-up-click-tracking-in-the-mobile-vec}
+# Configurar o rastreamento de cliques no VEC para aplicativos móveis{#set-up-click-tracking-in-the-mobile-vec}
 
-O VEC do aplicativo móvel oferece suporte à configuração de metas de rastreamento de cliques para [!DNL Target] atividades.
+O VEC para aplicativos móveis oferece suporte à configuração de metas de rastreamento de cliques para atividades do [!DNL Target].
 
 1. Ao definir suas metas na página Metas e configurações para a atividade, selecione a métrica de sucesso de [!UICONTROL Conversão].
 
@@ -45,8 +45,8 @@ Quando um participante da atividade clica em um elemento selecionado, esse cliqu
 
 Há várias coisas a considerar ao selecionar elementos:
 
-* Quando mais de um elemento é selecionado e um visitante clica em um desses elementos, o clique é contado. Para contar cada clique separadamente, configure métricas de sucesso individuais para cada elemento.
+* Quando mais de um elemento é selecionado e um visitante clica em um desses elementos, o clique é contabilizado. Para contabilizar cada item separadamente, configure métricas de sucesso individuais para cada elemento.
 * Os eventos de clique são enviados para o Target assim que o usuário clica no elemento.
-* No VEC do aplicativo móvel, somente os elementos com um manipulador de cliques anexado podem ser selecionados.
+* No VEC para aplicativos móveis, somente os elementos com um manipulador de cliques anexado podem ser selecionados.
 * Você pode navegar para qualquer seção do aplicativo, mas certifique-se de que as [exibições](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) estejam definidas para a seção em que você está selecionando elementos para o rastreamento de cliques.
-* Ao editar uma atividade, se o dispositivo já estiver selecionado na Etapa 1, não será necessário selecionar o dispositivo novamente. No entanto, se você direcionar diretamente na página de rastreamento de cliques, será exibida a tela de seleção do dispositivo para selecionar um dispositivo autorizado.
+* Ao editar uma atividade, se o dispositivo já estiver selecionado na Etapa 1, não será necessário selecionar o dispositivo novamente. No entanto, se você chegar diretamente na página de rastreamento de cliques, será exibida a tela de seleção de dispositivos para selecionar um dispositivo autorizado.
