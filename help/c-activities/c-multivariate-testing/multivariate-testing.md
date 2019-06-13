@@ -7,8 +7,8 @@ solution: Target
 title: Teste multivariado
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -61,7 +61,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
-* Use um teste MVT quando você tiver pelo menos três elementos para testar. Se tiver menos, execute uma série de  Testes A/B.
+* Use um teste MVT quando você tiver pelo menos três elementos para testar. Se tiver menos, execute uma série de Testes A/B.
 * Selecione os elementos de páginas que você acha que terão mais impacto sobre os resultados.
 * Não inclua elementos nem locais demais em um teste. Quanto maior o número, maior será a duração do teste.
 * Planejar o teste com antecedência. Não é aconselhável editar um teste depois que ele for acionado e os dados começarem a ser coletados e analisados.
@@ -70,7 +70,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
    Por exemplo, não teste o layout e o conteúdo no mesmo teste.
 * Inclua mais tempo para QA devido ao amento do número de experiências.
 
-   O Target oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. Uma abordagem como essa é o Método Taguchi para teste fatorial parcial. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. Essa abordagem de funcionalidade e teste pode ser utilizada no Target Standard/Premium usando [esta planilha offline](https://marketing.adobe.com/resources/help/en_US/target/mvt/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   O Target oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. Uma abordagem como essa é o Método Taguchi para teste fatorial parcial. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. Essa funcionalidade e abordagem de teste podem ser usadas no Target Standard/Premium com[ essa planilha offline](https://marketing.adobe.com/resources/help/en_US/target/mvt/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Se a sua equipe usa outras abordagens de Projeto de Experimentos, você pode usar essa planilha como implementação de referência para projetos experimentais personalizados.
 
