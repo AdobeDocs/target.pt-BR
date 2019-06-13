@@ -6,8 +6,8 @@ solution: Target
 title: Experiências de visualização para um Teste multivariado
 topic: Padrão
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,5 +36,5 @@ Como um teste multivariado compara várias experiências em uma página, é úti
 
    Por padrão, todas as experiências são incluídas no teste multivariado. Para incluir uma experiência que tenha sido excluída, selecione-a e clique em **[!UICONTROL Incluir]**.
 
-Clique em **[!UICONTROL Sair do modo de visualização]** para voltar para o Experience Composer e fazer alterações, ou clique em **Continuar]para ir para o resumo do teste.[!UICONTROL **
+Clique em **[!UICONTROL Sair do modo de visualização]** para voltar para o Experience Composer e fazer alterações, ou clique em **[!UICONTROL Continuar]** para ir para o resumo do teste.
 
