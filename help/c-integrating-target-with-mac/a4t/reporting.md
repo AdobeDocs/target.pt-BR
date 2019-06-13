@@ -8,8 +8,8 @@ subtopic: Teste multivariado
 title: Relatórios do A4T
 topic: Padrão
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) 
 
 Você pode exibir os relatórios de suas atividades no Analytics e Target Standard/Premium.
 
-Para obter as práticas recomendadas usando o Analytics for Target, [visite Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Para obter as práticas recomendadas de relatório usando o Analytics para Target, [visite esta Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Visão geral {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -45,7 +45,7 @@ No Analytics, use o relatório de Atividades do Target para visualizar os result
 
 >[!NOTE]
 >
->Os detalhes de incentivo e confiança do Target também estão disponíveis no Analytics. Para obter mais informações, consulte [Tipo de relatório de confiança e incentivo do Target](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) na documentação do produto Adobe Analytics.
+>Os detalhes de incentivo e confiança do Target também estão disponíveis no Analytics. Para obter mais informações, consulte [Tipo de relatório de aumento e confiança do Target](https://marketing.adobe.com/resources/help/pt_BR/reference/report_target_lift_confidence.html) na documentação de produto do Adobe Analytics.
 
 >[!IMPORTANT]
 >
@@ -68,9 +68,9 @@ Clique para exibir o relatório completo do Analytics diretamente da página de 
 
 ## Relatórios na Analysis Workspace {#reports-in-analysis-workspace}
 
-É possível usar [!DNL Adobe Analysis Workspace] para pesquisar mais fundo e visualizar os dados ou descobrir insights ocultos abaixo da superfície.
+É possível usar a [!DNL Adobe Analysis Workspace] para pesquisar mais e visualizar os dados ou descobrir insights ocultos nas entrelinhas.
 
-Para obter informações detalhadas e exemplos, abra o [Analytics &amp; Target: Práticas recomendadas para tutorial de Análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecidas pela Adobe Experience Manager.
+Para obter informações e exemplos detalhados, abra o [tutorial Analytics e Target: práticas recomendadas da Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pelo Adobe Experience League.
 
 ## Criação da atividade {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
