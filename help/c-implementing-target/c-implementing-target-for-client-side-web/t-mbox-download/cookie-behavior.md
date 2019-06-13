@@ -8,8 +8,8 @@ subtopic: Introdução
 title: Cookies da mbox.js
 topic: Padrão
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
-translation-type: tm+mt
-source-git-commit: 75f097e0f38cb2dc19922383260958606e8c53b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,7 +22,7 @@ O comportamento de cookies depende do tipo do cookie, podendo ser um cookie pró
 >
 >Este tópico contém informações sobre `mboxSession` e `mboxPC`. Nossas práticas recomendadas de implementação recomendam que você não vincule nem armazene informações confidenciais com os dados do cookie: `mboxSession` ou `mboxPC`.
 
-Consulte também [Excluir o cookie do target](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html).
+Consulte também [Excluir o Target Cookie](https://marketing.adobe.com/resources/help/pt_BR/target/target/t_cookie_deleting.html).
 
 ## Quando utilizar cookies próprios ou de terceiros {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -55,7 +55,7 @@ Há três casos de uso principais de cookies:
       Cookies próprios e de terceiros são requeridos pelo Flashbox e anúncios dinâmicos.
    * Habilitar somente cookies de terceiros.
 
-      Essa abordagem somente é indicada para casos raros, onde as implementações AdBox são utilizadas sem definição de metas no site.
+      Essa abordagem é apenas para casos raros em que as implementações AdBox são usadas sem definição de metas no site.
 
 ## Comportamento do cookie próprio {#section_CE6313D979EA4D0897D2F661E7A8AFA7}
 
@@ -71,7 +71,7 @@ O cookie próprio é armazenado em [!DNL clientdomain.com], onde `clientdomain` 
 
 O cookie de terceiros é armazenado em [!DNL clientcode.tt.omtrdc.net] e o cookie próprio é armazenado em [!DNL clientdomain.com], onde `clientdomain` é o seu domínio.
 
-[!DNL Mbox.js] gera um `mboxSession ID`. A primeira solicitação de local retorna cabeçalhos HTTP de resposta que tentam instalar cookies de terceiros chamados `mboxSession` e `mboxPC`. Uma solicitação de redirecionamento é enviada de volta com um parâmetro extra ( `mboxXDomainCheck=true`).
+[!DNL Mbox.js] gera um `mboxSession ID`. A primeira solicitação de local retorna cabeçalhos HTTP de resposta que tentam instalar cookies de terceiros chamados `mboxSession` e `mboxPC`. Uma solicitação de redirecionamento é enviada de volta com um parâmetro extra (`mboxXDomainCheck=true`).
 
 Se o navegador aceitar cookies de terceiros, a solicitação de redirecionamento vai inclui-los, e a oferta será retornada.
 
@@ -85,7 +85,7 @@ Se o navegador rejeita cookies de terceiros, a solicitação de redirecionamento
 
 O cookie de terceiros é armazenado em [!DNL clientcode.tt.omtrdc.net] e o cookie próprio é armazenado em [!DNL clientdomain.com], onde `clientdomain` é o seu domínio.
 
-[!DNL Mbox.js] gera um `mboxSession ID`. A primeira solicitação de local retorna cabeçalhos HTTP de resposta que tentam instalar cookies de terceiros chamados `mboxSession` e `mboxPC`. Uma solicitação de redirecionamento é enviada de volta com um parâmetro extra ( `mboxXDomainCheck=true`).
+[!DNL Mbox.js] gera um `mboxSession ID`. A primeira solicitação de local retorna cabeçalhos HTTP de resposta que tentam instalar cookies de terceiros chamados `mboxSession` e `mboxPC`. Uma solicitação de redirecionamento é enviada de volta com um parâmetro extra (`mboxXDomainCheck=true`).
 
 Se o navegador aceitar cookies de terceiros, a solicitação de redirecionamento vai inclui-los, e a oferta será retornada.
 
