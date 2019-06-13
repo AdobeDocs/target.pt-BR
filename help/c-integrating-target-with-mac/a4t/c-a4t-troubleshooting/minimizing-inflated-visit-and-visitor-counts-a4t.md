@@ -8,8 +8,8 @@ subtopic: Teste multivariado
 title: Minimizar contagens inflacionadas de visitas e visitantes no A4T
 topic: Padrão
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-translation-type: tm+mt
-source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -48,9 +48,9 @@ As causas identificadas de dados parciais incluem:
 
 * **IDs de conjunto de relatórios desalinhadas (Implementação):** O conjunto de relatórios especificado durante a configuração da atividade não corresponde ao conjunto de relatórios na página em que o teste foi fornecido. Isso se parece com dados parciais porque não foi possível reconciliar os dados nos servidores do [!DNL Analytics].
 * **Páginas lentas:** Como as chamadas do [!DNL Target] estão no topo da página e as chamadas do [!DNL Analytics] geralmente estão na parte inferior, se a página carregar lentamente, aumenta a probabilidade de um visitante sair da página após o acionamento da chamada do [!DNL Target], mas antes da chamada do [!DNL Analytics]. Isso pode ser especialmente problemático em sites web para dispositivos móveis onde as conexões sejam geralmente mais lentas.
-* **Erros de página:** Se houver erros de JavaScript ou outros cenários em que cada um dos pontos de contato não é acionado (Serviços de ID da Experience Cloud, Target e Analytics), o resultado será dados parciais.
-* **Ofertas de redirecionamento na[!DNL Target]atividade:** Para ofertas de redirecionamento em atividades usando A 4 T, sua implementação deve atender a requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Versões antigas das bibliotecas:** No ano passado, a Adobe fez diversas melhorias nas bibliotecas do JavaScript ( [!DNL appMeasurement.js], `at.js/mbox.js`e `visitorAPI.js`) para garantir que os dados sejam enviados da maneira mais eficiente possível. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Erros de página:** Se houver erros de JavaScript ou outros cenários em que cada um dos pontos de contato não é acionado (Serviços de Experience Cloud ID, Target e Analytics), o resultado será dados parciais.
+* **Ofertas de redirecionamento na[!DNL Target]atividade:** para ofertas de redirecionamento em atividades usando o A4T, sua implementação deve atender a certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
+* **Versões antigas das bibliotecas:** No ano passado, a Adobe fez diversas melhorias nas bibliotecas do JavaScript ([!DNL appMeasurement.js], `at.js/mbox.js`e `visitorAPI.js`) para garantir que os dados sejam enviados da maneira mais eficiente possível. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Quais são as práticas recomendadas para reduzir os dados parciais? {#section_065C38501527451C8058278054A1818D}
 
@@ -73,11 +73,11 @@ Como essa alteração de processamento afeta dados somente depois da data de lan
 
 As informações a seguir relacionadas a essa alteração incluem instruções para ajudar você a definir o segmento e aplicá-lo a um conjunto de relatórios virtual para que este segmento sempre seja aplicado às suas visualizações do [!DNL Analytics].
 
-Na maioria das situações, um acesso do [!DNL Target] é corrigido com um acesso do [!DNL Analytics] em cada página da Web. Essa correção acontece se houver uma SDID consistente nas chamadas do [!DNL Target] e do [!DNL Analytics] e um [!DNL Experience Cloud ID] (MCID) na chamada do [!DNL Analytics] na mesma página. O [!DNL Target] geralmente tem o MCID, mas se a chamada para o [!DNL Target] ocorrer antes que o ID de visitante retorne, o acesso ainda será corrigido por causa do SDID. Além disso, o usuário deve permanecer na página longa o suficiente para acionar [!DNL Analytics] uma chamada depois que uma  [!DNL Target]chamada foi disparada. Este é o cenário ideal.
+Na maioria das situações, um acesso do [!DNL Target] é corrigido com um acesso do [!DNL Analytics] em cada página da Web. Essa correção acontece se houver uma SDID consistente nas chamadas do [!DNL Target] e do [!DNL Analytics] e um [!DNL Experience Cloud ID] (MCID) na chamada do [!DNL Analytics] na mesma página. O [!DNL Target] geralmente tem o MCID, mas se a chamada para o [!DNL Target] ocorrer antes que o ID de visitante retorne, o acesso ainda será corrigido por causa do SDID. Além disso, o usuário deve permanecer na página por tempo suficiente para disparar uma chamada do [!DNL Analytics] depois do disparo de uma chamada do [!DNL Target]. Este é o cenário ideal.
 
 **Acessos a dados parciais:** Os usuários algumas vezes não permanecem em uma página tempo suficiente para enviar uma chamada do [!DNL Analytics], mas o [!DNL Target] tem um MCID apropriado. Isso resulta em acessos a dados parciais (acessos sem visualização de página do [!DNL Analytics]). Se esses usuários voltarem ao seu site e visualizarem uma página contendo código do [!DNL Analytics], serão contados apropriadamente como visitantes recorrentes. Esses são acessos que teriam sido perdidos se você só tivesse código do [!DNL Analytics] na página. Alguns clientes não querem dados desses acessos porque eles inflam certas métricas (visitas) e deflacionam outras métricas (visualizações de página por visita, tempo por visita e assim por diante). Você também verá visitas sem quaisquer visualizações de página. Entretanto, ainda há razões válidas para manter esses dados.
 
-Para minimizar os acessos com dados parciais, você pode fazer sua página carregar mais rápido, atualizar para as versões mais recentes das bibliotecas, ou criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) que excluem esses acessos. Para obter instruções passo a passo, consulte [Criação de conjuntos de relatórios virtuais](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) na documentação do produto do [!DNL Analytics].
+Para minimizar os acessos com dados parciais, você pode fazer sua página carregar mais rápido, atualizar para as versões mais recentes das bibliotecas ou criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/pt_BR/reference/virtual-report-suites.html) que exclui esses acessos. Para obter as instruções passo a passo, consulte [Criar conjuntos de relatórios virtuais](https://marketing.adobe.com/resources/help/pt_BR/reference/vrs-create.html) na documentação [!DNL Analytics] do produto.
 
 A ilustração a seguir mostra a definição de segmento para o conjunto de relatórios virtuais:
 
@@ -96,9 +96,9 @@ Ao criar o conjunto de relatórios virtuais, especifique a configuração a segu
 * E
 * Instâncias de link de saída: não existe
 
-**Ocorrências órfãs:** Em menos situações, os usuários não permanecem na página longa o suficiente para uma chamada do Analytics e o Target não obteve uma MCID adequada. Esses são os que definimos como acessos &quot;órfãos&quot;. Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
+**Ocorrências órfãs:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Esses são os que definimos como acessos &quot;órfãos&quot;. Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
 
-Para minimizar esses acessos &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) que exclua esses acessos conforme explicado acima.
+Para minimizar esses acessos &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/pt_BR/reference/vrs-create.html) que exclui esses acessos, como explicado acima.
 
 ## O que isso significa para meus [!DNL Target] relatórios? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
