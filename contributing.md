@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribuição
@@ -32,8 +32,8 @@ está tudo pronto!
 ## Revisões de código
 
 Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados
-pelos responsáveis pelo projeto. Leia [a documentação
-de solicitação de extração de github](https://help.github.com/articles/about-pull-requests/)para obter mais informações sobre como enviar solicitações de extração.
+pelos responsáveis pelo projeto. Leia a [documentação da solicitação de extração do GitHub](https://help.github.com/articles/about-pull-requests/)
+para saber mais sobre como enviar solicitações de extração.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -51,4 +51,4 @@ entre em contato com os participantes existentes para conversar sobre isso.
 
 ## Problemas de segurança
 
-Problemas de segurança não devem ser denunciados neste rastreador de problemas. Em vez disso, [envie um problema para nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
+Problemas de segurança não devem ser denunciados neste rastreador de problemas. Em vez disso, [envie um problema para nossos especialistas de segurança](https://helpx.adobe.com/br/security/alertus.html)
