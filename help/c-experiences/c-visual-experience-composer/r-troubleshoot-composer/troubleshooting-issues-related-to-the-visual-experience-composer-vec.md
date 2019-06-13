@@ -6,8 +6,8 @@ seo-title: Solução de problemas relacionados ao Visual Experience Composer
 solution: Target
 title: Solução de problemas relacionados ao Visual Experience Composer
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Problemas de exibição às vezes ocorrem no Visual Experience Composer (VEC), s
 
 O Target adiciona dois parâmetros (`mboxEdit=1` e `mboxDisable=1`) ao abrir o site no Visual Experience Composer.
 
-Se o site (principalmente, Aplicativos de página única) corta nossos parâmetros ou os remove ao navegar de uma página a outra (sem um recarregamento de página), a funcionalidade do Target é interrompida e as bibliotecas do Target não são carregadas.
+Se o site (principalmente, Aplicativos de página única) corta nossos parâmetros ou os remove ao navegar de uma página a outra (sem um recarregamento de página), a funcionalidade do Target é interrompida e as bibliotecas do Target não são carregadas. 
 Para evitar esse problema, assegure-se de não cortar ou remover esses dois parâmetros.
 
 ## Minha página não abre no EEC ou carrega lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
