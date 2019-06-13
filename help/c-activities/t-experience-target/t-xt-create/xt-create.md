@@ -7,8 +7,8 @@ subtopic: Teste multivariado
 title: Criar uma atividade de direcionamento de experiência
 topic: Padrão
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
-translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,7 +34,7 @@ Use o Visual Experience Composer para criar uma atividade de direcionamento de e
 
    Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
-   Selecione essa opção se preferir usar o Experience Composer baseado em formulário. Consulte [Experience Composer baseado em formulário](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Selecione essa opção se preferir usar o Experience Composer baseado em formulário. Consulte [Experience Composer baseado em formulário](https://marketing.adobe.com/resources/help/pt_br/target/target/t_form_experience_composer.html).
 
    O Visual Experience Composer é aberto, mostrando a página especificada no URL.
 1. Digite um nome para a atividade no espaço fornecido.
