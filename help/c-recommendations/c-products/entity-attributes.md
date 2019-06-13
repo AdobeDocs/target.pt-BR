@@ -1,6 +1,6 @@
 ---
 description: Use atributos de entidade para passar informações do produto ou conteúdo para o Recommendations.
-keywords: entity; atributos de entidade; transmitir informações para o Recommendations; dados comportamentais; contador de dados; definir URL relativo; exibir nível de inventário; defina o preço; definir margem de lucro; atributos personalizados
+keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
 seo-description: Use atributos de entidade para passar informações do produto ou conteúdo para o Recommendations.
 seo-title: Atributos da entidade
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Somente valor único.
 
 Este parâmetro obrigatório identifica o produto. Esta ID alfanumérica deve ser igual em todos os produtos da [Adobe Experience Cloud DNL] utilizados, incluindo o [!DNL Analytics], para que os produtos reconheçam o item e compartilhem dados sobre ele.
 
-`entity.id` não devem conter barras, ampersands, pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando enviados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
+Os valores do `entity.id` não devem conter barras, &quot;E&quot; comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
 
 Exemplo: `'entity.id=67833'`
 
@@ -148,7 +148,7 @@ Exemplos:
 
 `'entity.secondary=Rockies'`
 
-Os atributos de entidade personalizados suportam vários valores. Consulte [Atributos de entidade personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) para limites de caracteres e valores.
+Os atributos de entidade personalizados suportam vários valores. Consulte [Atributos de entidade personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) para obter limites de caracteres e valores.
 
 Exemplo: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
