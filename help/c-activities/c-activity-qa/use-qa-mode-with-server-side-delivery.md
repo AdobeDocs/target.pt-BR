@@ -7,8 +7,8 @@ solution: Target
 title: Usar o controle de qualidade de atividade com entrega do lado do servidor
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
-translation-type: tm+mt
-source-git-commit: 32eb575df3129e7452a1c794cb7ac03e641e829c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -66,4 +66,4 @@ A tabela a seguir explica os detalhes da solicitação do lado do servidor:
 | evaluateAsTrueAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de público-alvo que devem ser sempre avaliadas como verdadeiras no escopo da solicitação mbox. |
 | evaluateAsFalseAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de público-alvo que devem ser sempre avaliadas como falsas no escopo da solicitação mbox. |
 | activityIndex | Número inteiro | Nulo.<br>Não pode estar em branco. | O índice de atividade no token criptografado. Se activityIndex estiver fora dos limites da atividade no token ou se for nulo, ele será ignorado. O índice começa com 1.<br>Regras de validação: deve ter pelo menos um índice de atividade e deve fazer referência a uma atividade especificada no token. |
-| experienceIndex | Número inteiro | Nulo. | Quando especificado, seleciona uma experiência por índice na definição da atividade. Se não especificado ou fora dos limites, ele retornará à estratégia de seleção de experiência da atividade. O índice começa com rules regras de validação: Pode ser nulo ou deve fazer referência a uma experiência na atividade. |
+| experienceIndex | Número inteiro | Nulo. | Quando especificado, seleciona uma experiência por índice na definição da atividade. Se não especificado ou fora dos limites, ele retornará à estratégia de seleção de experiência da atividade. Regras de validação - O índice começa com 1: podem ser nulas ou devem fazer referência a uma experiência na atividade. |
