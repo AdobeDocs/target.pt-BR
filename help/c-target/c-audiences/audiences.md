@@ -7,8 +7,8 @@ solution: Target
 title: Criar públicos-alvo
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Os públicos-alvo determinam quem verá o conteúdo e as experiências em uma at
 
 Os público-alvo são usados sempre que o direcionamento estiver disponível. Ao direcionar uma atividade, você pode selecionar um público-alvo reutilizável na lista de [!UICONTROL Públicos-alvo], criar um público-alvo para uma campanha específica e direcioná-lo, ou [combinar vários públicos-alvo](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar um público-alvo ad hoc.
 
-Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Públicos-alvo na documentação de produtos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Públicos na documentação do produto da Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/audience_library.html).
 
 O [!DNL Target] define dois tipos de público-alvo:
 
@@ -32,7 +32,7 @@ Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públi
 
 ![](assets/audiences_list.png)
 
-A lista de [!UICONTROL Públicos-alvo] contém todos os públicos-alvo que você pode usar em suas atividades. Use a lista de [!UICONTROL Públicos-alvo] para criar, editar, excluir ou copiar os públicos. A lista também mostra a fonte onde o público-alvo foi criado ( [!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e assim por diante). Públicos predefinidos, como &quot;Novos visitantes&quot; e &quot;Visitantes recorrentes&quot;, não podem ser renomeados.
+A lista de [!UICONTROL Públicos-alvo] contém todos os públicos-alvo que você pode usar em suas atividades. Use a lista de [!UICONTROL Públicos-alvo] para criar, editar, excluir ou copiar os públicos. A lista também mostra a fonte onde o público-alvo foi criado ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e assim por diante). Públicos predefinidos, como &quot;Novos visitantes&quot; e &quot;Visitantes recorrentes&quot;, não podem ser renomeados.
 
 Ao trabalhar com públicos-alvo que foram originalmente criados no AAM, o Target o alerta se você fizer referência a um público-alvo em atividades do Target que foram posteriormente excluídas no AAM.
 
