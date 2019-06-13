@@ -8,8 +8,8 @@ title: Relatório de Segmentos automáticos
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -166,6 +166,6 @@ No momento, os [!UICONTROL Insights de personalização] estão disponíveis ape
 * Veja quais atributos são usados nos modelos de personalização e qual a importância deles.
 * Identifique as oportunidades para os pontos de dados adicionais que você pode passar para o Target para informar ainda mais a sua personalização.
 
-**Há lógica para a ordem em que os atributos aparecem em um cartão de segmento?**
+**Há alguma lógica na ordem de exibição dos atributos em um cartão de segmento?**
 
 Não, a ordem dos cartões é baseada apenas em uma classificação descrita acima. A ordem dos atributos em um cartão não se baseia em nenhuma lógica.
