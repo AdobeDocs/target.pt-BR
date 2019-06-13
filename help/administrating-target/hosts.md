@@ -7,8 +7,8 @@ solution: Target
 title: Hosts
 topic: Padrão
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
-translation-type: tm+mt
-source-git-commit: d16f43524b18135b9173714a87a6d9f62173b900
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -62,7 +62,7 @@ Após a visualização de uma página, o host é adicionado na lista de [!UICONT
 Após adicionar um host na lista de [!UICONTROL Host], certifique-se de que o host seja reconhecido.
 
 1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Hosts]**.
-1. Se o seu host não estiver listado, atualize seu navegador.
+1. Se o seu host não estiver listado, atualize seu navegador. 
 Por padrão, um novo host reconhecido é colocado no ambiente de Produção. Esse é o ambiente mais seguro porque ele não permite que atividades inativas sejam visualizadas nesses hosts.
 1. (Condicional) Mova o host para o ambiente de Desenvolvimento ou Ambiente de preparo.
 
