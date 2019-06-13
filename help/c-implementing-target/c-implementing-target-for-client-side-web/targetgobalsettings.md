@@ -1,14 +1,14 @@
 ---
-description: 'Informações sobre a função targetglobalsettings () para at. js. '
-keywords: adobe.target.notificação; elemento; seletor; notificação; extensão
-seo-description: Informações sobre a função targetglobalsettings () da biblioteca do Adobe Target no javascript.
-seo-title: Informações sobre a função targetglobalsettings () da biblioteca do Adobe Target no javascript.
+description: 'Informações sobre a função targetGlobalSettings() para at.js. '
+keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+seo-description: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
+seo-title: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
 subtopic: Introdução
 title: targetGlobalSettings()
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -71,8 +71,8 @@ Os seguintes vídeos contêm mais informações:
 
 | Vídeo | Descrição |
 |--- |--- |
-| [Uso de provedores de dados do Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Os provedores de dados são uma função que permite passar dados de terceiros facilmente para o Target. Um terceiro pode ser um serviço de clima, um DMP ou até mesmo o seu próprio serviço Web. É possível então usar esses dados para criar públicos-alvo, conteúdo de direcionamento e enriquecer o perfil do visitante. |
-| [Implementação de provedores de dados no Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Detalhes de implementação e exemplos de como usar o recurso de provedores de dados do Adobe Target para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target. |
+| [Uso de provedores de dados do Adobe Target](https://helpx.adobe.com/br/target/kt/using/dataProviders-atjs-feature-video-use.html) | Os provedores de dados são uma função que permite passar dados de terceiros facilmente para o Target. Um terceiro pode ser um serviço de clima, um DMP ou até mesmo o seu próprio serviço Web. É possível então usar esses dados para criar públicos-alvo, conteúdo de direcionamento e enriquecer o perfil do visitante. |
+| [Implementar provedores de dados no Adobe Target](https://helpx.adobe.com/br/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Detalhes de implementação e exemplos de como usar o recurso de provedores de dados do Adobe Target para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target. |
 
 A configuração `window.targetGlobalSettings.dataProviders` é uma matriz de provedores de dados.
 
