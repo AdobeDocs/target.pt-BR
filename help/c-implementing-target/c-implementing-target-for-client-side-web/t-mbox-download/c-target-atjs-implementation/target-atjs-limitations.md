@@ -7,8 +7,8 @@ solution: Target
 title: Limitações da at.js
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,7 +27,7 @@ Há algumas diferenças entre o at.js e o mbox.js. Este tópico lista algumas da
 
 Algumas funções da [!DNL mbox.js] não estão disponíveis na [!DNL at.js]. Métodos e objetos da [mbox.js internos](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (como `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` e outros) não são mais compatíveis com a [!DNL at.js] (por exemplo: `mboxFactoryDefault`). Isso ocorre por design, destinado a desencorajá-lo de &quot;hackear&quot; a [!DNL at.js] para desenvolver recursos não suportados que, a longo prazo, podem comprometer uma implementação e impossibilitar a atualização. Os únicos métodos expostos são abordados nas páginas da API desta documentação. Por esse motivo:
 
-* As [integrações](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) de página com outras soluções da Adobe podem não funcionar e devem ser atualizadas para integrações mais recentes do servidor.
+* [Integrações](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) herdadas, baseadas em página, podem não funcionar com outras soluções da Adobe e devem ser atualizadas para integrações mais recentes no lado do servidor.
 * [Plugins personalizados desenvolvidos para mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) podem não funcionar, a menos que atualizados para [!DNL at.js].
 
    Certifique-se de incluir [plug-ins](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) como parte do teste.
