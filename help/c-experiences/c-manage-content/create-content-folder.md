@@ -7,8 +7,8 @@ solution: Target
 title: Criar uma pasta de ofertas
 topic: Padrão
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ Crie uma pasta para armazenar itens na biblioteca de ofertas.
 
    | Campo | Descrição |
    |--- |--- |
-   | Título (aplicável somente a ofertas de imagem) | Especifique um nome descritivo para a pasta. Por exemplo, você pode incluir o tipo de conteúdo que ela irá armazenar.<br>O nome não pode conter os seguintes caracteres:<br>sinal de porcentagem `%`<br>barra `/`<br>Barra invertida `\`<br>dois pontos `:`<br>asterisco `*`<br>interrogação `?`<br>aspas duplas `"`<br>colchetes `[`<br>colchete `]`<br>sinal de positivo: `+`<br>barra vertical: `|`<br>ponto: `.`<br>sinal numérico: `#`<br>aspas: `{`<br>aspa `}`<br>sinal de intercalação `^`<br>ponto e vírgula `;`<br>Você pode usar um hífen ( `- `) em vez desses caracteres. |
+   | Título (aplicável somente a ofertas de imagem) | Especifique um nome descritivo para a pasta. Por exemplo, você pode incluir o tipo de conteúdo que ela irá armazenar.<br>O nome não pode conter os seguintes caracteres:<br>sinal de porcentagem `%`<br>barra `/`<br>Barra invertida `\`<br>dois pontos `:`<br>asterisco `*`<br>interrogação `?`<br>aspas duplas `"`<br>colchetes `[`<br>colchete `]`<br>sinal de positivo: `+`<br>barra vertical: `|`<br>ponto: `.`<br>sinal numérico: `#`<br>aspas: `{`<br>aspa `}`<br>sinal de intercalação `^`<br>ponto e vírgula `;`<br>Você pode usar um hífen (`- `) em vez desses caracteres. |
    | Nome (aplicável a ofertas de código e de imagem) | Edite o nome, se quiser. |
    | Privacidade (aplicável somente a ofertas de imagem) | Especifica que a pasta é privada para que somente você possa vê-la e seu conteúdo. |
    | Reorganizável na exibição de lista (aplicável somente a ofertas de imagem) | Especifica que você e outros podem reorganizar a posição da pasta na exibição de lista.<br>Para alternar entre exibição de cartão e exibição de lista, clique no ícone Exibição de cartão ou no ícone Exibição de lista no canto superior direito da biblioteca de conteúdo. Você também pode selecionar as Configurações de visualização para incluírem ou excluírem colunas na exibição de lista. |
