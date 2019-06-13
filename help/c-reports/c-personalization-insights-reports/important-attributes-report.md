@@ -8,8 +8,8 @@ title: Relatório de atributos importantes
 title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
@@ -110,6 +110,18 @@ No momento, os [!UICONTROL Insights de personalização] estão disponíveis ape
 **Qual é a pontuação de importância do atributo no relatório de Atributos importantes?**
 
 A pontuação de importância na parte do relatório &quot;Classificação de importância do atributo&quot; fornece informações sobre quais variáveis usadas pelo algoritmo para aprender eram mais importantes ao determinar como dividir todos os visitantes nos segmentos identificados. Ele atribuiu uma pontuação percentual aos 100 principais atributos usados pelo modelo.
+
+**Por que algumas ofertas/experiências com uma taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação a outras ofertas/experiências para um determinado segmento automatizado?**
+
+Há vários motivos possíveis para que você possa ver mais visitas a uma oferta/experiência de conversão inferior em um segmento automatizado, incluindo:
+
+* Um pequeno número de visualizações para algumas ou todas as ofertas/experiências de um determinado segmento automatizado.
+* Atividades de volume inferior em que determinadas ofertas ou experiências não têm modelos criados.
+* Atividades de volume baixo em que modelos foram criados antes para algumas ofertas/experiências do que outras. Por exemplo, suponha que um modelo adicional foi criado no dia 22 e você está olhando os dados de dias em 10-24.
+* Regras de definição de metas em uma oferta específica que limita quais visitantes podem ver quais ofertas/experiências.
+* Não há intervalos de confiança no relatório de insight. No entanto, se as taxas de conversão estiverem próximas o suficiente, o modelo poderá servir tráfego para que seja maior na quantidade de pontos, mas os números não serão «estatisticamente diferentes».
+
+Saber como o modelo funciona que serve tráfego pode ser útil. Cada indivíduo é servido com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para torná-lo mais interpretável por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode levar a segmentos individuais exibindo esse tipo de comportamento, pois a mesma pessoa pode aparecer em vários segmentos.
 
 **Quais são as diferentes formas de usar as informações nos Insights de personalização?**
 
