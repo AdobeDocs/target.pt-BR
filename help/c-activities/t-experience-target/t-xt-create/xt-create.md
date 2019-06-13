@@ -1,45 +1,55 @@
 ---
 description: Use o Visual Experience Composer para criar uma atividade de direcionamento de experiência em uma página habilitada pelo Target e modificar partes da página no Target.
-seo-description: Use o Visual Experience Composer para criar uma atividade de direcionamento de experiência em uma página habilitada pelo Target e modificar partes da página no Target.
+seo-description: Use o Visual Experience Composer para criar uma atividade de direcionamento de experiência em uma página ativada pelo Target e modificar partes da página no Adobe Target.
 seo-title: Criar uma atividade de direcionamento de experiência
 solution: Target
 subtopic: Teste multivariado
 title: Criar uma atividade de direcionamento de experiência
 topic: Padrão
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
 
 # Criar uma atividade de direcionamento de experiência{#create-an-experience-targeting-activity}
 
-Use o Visual Experience Composer para criar uma atividade de direcionamento de experiência em uma página habilitada pelo Target e modificar partes da página no Target.
+Use [!UICONTROL o Visual Experience Composer] (VEC) para criar uma [!UICONTROL atividade de direcionamento] de experiência (XT) em uma página habilitada para o Target e modificar partes da página dentro [!DNL Adobe Target].
 
 1. Na lista [!UICONTROL Atividades], clique em **[!UICONTROL Criar atividade]** &gt; **[!UICONTROL Direcionamento de experiência]**.
 
-   ![](assets/xt_select.png)
+   ![Criar atividade &gt; Direcionamento da experiência](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >Os tipos de atividades disponíveis dependem da sua conta do Target. Alguns tipos de atividades podem não aparecer na lista.
+   >Os tipos de atividades disponíveis dependem da sua conta do Target. Alguns tipos de atividades podem não aparecer na lista. Por exemplo, a Personalização automatizada é um [recurso Target Premium](/help/c-intro/intro.md#premium).
 
-   Para obter informações sobre os tipos de atividades, consulte [Atividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Digite o [URL da atividade](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) e clique em **[!UICONTROL Avançar]**.
+   Para obter informações sobre os tipos de atividades, consulte [Tipos de atividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) e [atividades do Target](/help/c-activities/target-activities-guide.md).
 
-   ![](assets/form_url.png)
+1. Selecione **[!UICONTROL Visual (Padrão)]**, se necessário.
 
-   Se sua conta foi configurada com um URL padrão, esse URL aparece por padrão. Você pode trocar o URL padrão por outro URL.
+   ![Caixa de diálogo Criar atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+
+   Selecione essa opção se preferir usar o Experience Composer baseado em formulário. Consulte [Experience Composer baseado em formulário](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+
+   >[!NOTE]
+   >
+   >Além do VEC e do Criador de experiências baseado em forma, o Target oferece o VEC do aplicativo de página única e o VEC para aplicativos móveis. Para obter mais informações sobre os vários compositores, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
 
    Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
-   Selecione essa opção se preferir usar o Experience Composer baseado em formulário. Consulte [Experience Composer baseado em formulário](https://marketing.adobe.com/resources/help/pt_br/target/target/t_form_experience_composer.html).
+1. Especifique o [URL da atividade](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)e clique **[!UICONTROL em Avançar]**.
+
+   Se sua conta foi configurada com um URL padrão, esse URL aparece por padrão. Você pode trocar o URL padrão por outro URL.
 
    O Visual Experience Composer é aberto, mostrando a página especificada no URL.
+
+   ![Atividade de direcionamento de experiência no VEC](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+
 1. Digite um nome para a atividade no espaço fornecido.
 
-   ![](assets/xt_name.png)
+   ![Campo name](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
    Os seguintes caracteres não são permitidos em um nome de atividade:
 
@@ -56,7 +66,7 @@ Use o Visual Experience Composer para criar uma atividade de direcionamento de e
 
 1. [Crie quaisquer novas experiências](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) alterando os elementos na página.
 
-   O Experience Composer (consulte [Experiências](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) abre a página que está especificada nas Preferências da conta. Para exibir uma página diferente, clique no ícone de Globo e insira o URL na caixa Selecionar URL no Experience Composer e clique em **[!UICONTROL Continuar]**. Caso tenha inserido um URL para um site que não inclui o código JavaScript do Target Standard, você não pode selecionar elementos da página.
+
 
    Por padrão, o Visual Experience Composer não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar o JavaScript se deseja poder alterar esses elementos usando o Visual Experience Composer.
 
