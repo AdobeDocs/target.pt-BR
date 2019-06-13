@@ -7,8 +7,8 @@ solution: Target
 title: Criar Ofertas de redirecionamento
 topic: Padrão
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ Você pode ter duas páginas completamente diferentes para testar, em vez de mud
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Não é possível usar ofertas de redirecionamento em mboxes ajax ( `mboxUpdate`).
+>Não é possível usar ofertas de redirecionamento em mboxes ajax (`mboxUpdate`).
 
 >[!NOTE]
 >
@@ -60,11 +60,11 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 >
 >Entre em contato com seu Consultor de implementações antes de iniciar esses testes.
 
-## Vídeo de treinamento: O repositório de conteúdo (4:56)
+## Vídeo de treinamento: o repositório de conteúdo (4:56)
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 
-* Conexão entre a [biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e a biblioteca de conteúdo do Target
+* Conexão entre a [Biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/pt_br/mcloud/creative_cloud.html) e a Biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
