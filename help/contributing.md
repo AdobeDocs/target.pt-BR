@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribuição
@@ -11,7 +11,7 @@ A seguir, há um conjunto de diretrizes a seguir ao contribuir com esse projeto.
 
 ## Código de conduta
 
-Esse projeto segue o [código de conduta](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md) da Adobe. Ao participar, você deve seguir esse código. Denuncie qualquer comportamento inaceitável para SOMEEMAIL.
+Esse projeto segue o [código de conduta da Adobe](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md). Ao participar, você deve seguir esse código. Denuncie qualquer comportamento inaceitável para SOMEEMAIL.
 
 ## Contrato de licença de colaborador
 
@@ -19,4 +19,4 @@ Todas as contribuições de terceiros para esse projeto devem ser acompanhadas p
 
 ## Revisões de código
 
-Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados pelos responsáveis pelo projeto. Leia [a documentação de solicitação de extração de github](https://help.github.com/articles/about-pull-requests/) para obter mais informações sobre como enviar solicitações de extração.
+Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull do GitHub](https://help.github.com/articles/about-pull-requests/) para obter mais informações sobre como enviar solicitações de pull.
