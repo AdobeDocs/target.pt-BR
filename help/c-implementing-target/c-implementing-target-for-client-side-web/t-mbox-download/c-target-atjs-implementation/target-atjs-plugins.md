@@ -7,8 +7,8 @@ solution: Target
 title: Plug-ins da at.js
 topic: Padrão
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,6 +25,6 @@ Este é o status atual de alguns dos plug-ins usados por muitos clientes, quando
 
 | Plug-in do | Detalhes |
 |--- |--- |
-| mboxTrack | Não suportado.<br>Isso é substituído pela função [adobe.target.trackevent(opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md). Atualize seus plug-ins para aplicar a nova função.<br>Consulte a página [de integrações](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md). |
+| mboxTrack | Não suportado.<br>Isso é substituído pela função [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md). Atualize seus plug-ins para aplicar a nova função.<br>Consulte a página [de integrações](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md). |
 | Plugin de backup de perfil persistente | Não suportado.<br>Este plug-in foi desatualizado quando o tempo de vida do perfil do Target foi estendido de duas semanas para 90 dias. Verifique a data de expiração do cookie da mbox para ver a configuração de tempo de vida do perfil na sua conta.<br>Entre em contato com o Atendimento ao cliente se desejar estender o tempo de vida do perfil para 90 dias. |
 | ttMeta | Suportado.<br>Este plug-in deve continuar a funcionar com a at.js. |
