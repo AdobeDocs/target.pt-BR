@@ -7,8 +7,8 @@ solution: Target
 title: Contagem aumentada de visitas e visitantes - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
