@@ -7,8 +7,8 @@ solution: Target
 title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
-source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,27 +27,27 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 ### Cancelar carregamento de uma página no VEC {#cancel}
 
-* O seguinte problema conhecido atualmente existe ao cancelar o carregamento de uma [!UICONTROL atividade de teste] A/B ou [!UICONTROL de direcionamento] de experiência (XT) no VEC que contém um URL de redirecionamento.
+* O seguinte problema conhecido existe ao cancelar o carregamento de uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de experiência] (XT) no VEC que contém um URL de redirecionamento.
 
-   Na etapa um do fluxo de trabalho guiado de três partes dentro do VEC, ao cancelar o carregamento da página, o [!UICONTROL painel Modificações] na VEC é exibido e o redirecionamento para o modelo de URL é aplicado na experiência (por exemplo, &quot;Experiência B). Quando você avança para etapas duas ou três e retorna à etapa um, a seguinte situação ocorre.
+   Na etapa um do fluxo de trabalho guiado de três partes no VEC, ao cancelar o carregamento da página, o painel [!UICONTROL Modificações] no VEC é exibido e o redirecionamento para o modelo de URL é aplicado na experiência (por exemplo, &quot;Experiência B&quot;). Ao avançar para etapas dois ou três e retornar à etapa um, ocorre a seguinte situação.
 
-   Em «Experiência B», por padrão, o cancelamento do carregamento de modelos de modelo e do painel [!UICONTROL Modificações] é acessível, o que não deve ser o caso, pois essa experiência tem um redirecionamento para o modelo de URL aplicado. O redirecionamento para o modelo de URL deve ser exibido.
+   Por padrão, na &quot;Experiência B&quot;, o modelo de carregamento do site cancelado é renderizado e o painel [!UICONTROL Modificações] fica acessível, o que não deve ser o caso, pois essa experiência tem um redirecionamento para o modelo de URL aplicado. O redirecionamento para o modelo de URL deve ser exibido.
 
    Para mostrar o estado correto da experiência no VEC:
 
-   Se você alternar para outra experiência e alternar de volta para a &quot;Experiência B&quot; [!DNL Target] , exibe o redirecionamento para o modelo de URL aplicado nessa experiência e o [!UICONTROL painel Modificações] não estará acessível. (TGT-32138)
+   Se você alternar para outra experiência e alternar de volta para a &quot;Experiência B&quot;, o [!DNL Target] exibe o redirecionamento para o modelo de URL aplicado nessa experiência e o painel [!UICONTROL Modificações] não estará acessível. (TGT-32138)
 
-* Para os sites de Aplicativo de página única (SPA), o cancelamento do carregamento não permite a edição de ações no painel [!UICONTROL Modificações] .
+* Para os sites de Aplicativo de página única (SPA), cancelar o carregamento não permite editar ações no painel [!UICONTROL Modificações].
 
-### Suporte de permissões empresariais nas apis do Target {#api}
+### Suporte a permissões empresariais nas APIs do Target {#api}
 
-As ofertas de código criadas na interface do usuário do Target na biblioteca de ofertas podem ser exibidas na área de trabalho padrão se a lista de ofertas for obtida usando apis GET. Esse problema será corrigido na primeira semana de março de 2019. Após essa correção, as ofertas de código serão exibidas na área de trabalho apropriada quando obtidas de apis. Esse problema *não* afeta as ofertas criadas com as apis. Por exemplo, as ofertas de código criadas a partir de apis são exibidas na área de trabalho em que foram criadas, seja por meio de GET apis ou de dentro da interface do usuário do Target.
+As ofertas de código criadas na interface do usuário do Target na biblioteca de ofertas podem ser exibidas no espaço de trabalho padrão se a lista de ofertas for obtida usando APIs GET. Esse problema será corrigido na primeira semana de março de 2019. Após essa correção, as ofertas de código serão exibidas no espaço de trabalho apropriado quando obtidas das APIs. Esse problema *não* afeta as ofertas criadas com as APIs. Por exemplo, as ofertas de código criadas nas APIs são exibidas no espaço de trabalho em que foram criadas, seja por meio de APIs GET ou da interface do usuário do Target.
 
 ### Recommendations
 
 A seguir, os problemas conhecidos com atividades de recomendações:
 
-* O índice do feed do Recommendations pode exibir “Aguardando índice&quot; se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
+* O índice do feed do Recommendations pode exibir &quot;Aguardando índice&quot; se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
 * O erro &quot;error.restapi.algorithmProfileAttributeInvalid&quot; das recomendações ocorre quando são utilizados atributos de perfil específicos como critérios.
 * Quando Promoção atrás é usado em uma atividade de recomendações, os filtros de inclusão de critérios não se aplicam aos ERs de backup.
 * A IU de feeds de recomendação não mostra o status de indexação correto. As tarefas de back-end estão funcionando corretamente, mas a IU não é capaz de obter e exibir o estado atual.
@@ -70,7 +70,7 @@ Em uma atividade de MVT, os vencedores mostrados na tabela e no gráfico não s�
 
 A seguir, os problemas conhecidos com at.js:
 
-* Quando uma página é carregada no Visual Experience Composer (VEC), o Target precisa determinar se a configuração global da mbox está ativada ou desativada e se há presença de entityID ou categoryId na localidade onde o usuário está tentando aplicar a recomendação no VEC. A lista de critérios é filtrada com base nestas informações. A lista padrão tem algoritmos filtrados, mas a [caixa de verificação de compatibilidade](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) permite que você visualize a lista completa de algoritmos.
+* Quando uma página é carregada no Visual Experience Composer (VEC), o Target precisa determinar se a configuração global da mbox está ativada ou desativada e se há presença de entityID ou categoryID na localidade onde o usuário está tentando aplicar a recomendação no VEC. A lista de critérios é filtrada com base nestas informações. A lista padrão tem algoritmos filtrados, mas a [caixa de seleção Compatível](https://marketing.adobe.com/resources/help/pt_BR/target/recs/t_algo_select_recs.html) permite exibir a lista completa de algoritmos.
 
    Ao usar at.js, a caixa de marcação Compatibilidade é ocultada para quer você não possa ver algoritmos.
 
@@ -175,7 +175,7 @@ Isso foi corrigido na versão 18.9.1.
 
 ### Atividade de recomendações que usa uma regra de Promoção do atributo
 
-Ao editar ou copiar uma atividade Recommendations que use uma regra de promoção de atributo, o erro &quot;Campo ausente&quot; é exibido ao clicar em Salvar .
+Ao editar ou copiar uma atividade Recommendations que use uma regra de promoção de atributo, o erro &quot;Campo ausente&quot; é exibido ao clicar em Salvar.
 
 Isso foi corrigido na versão 17.8.1.
 
@@ -278,7 +278,7 @@ A capacidade de exibir várias métricas em um relatório foi incluída no Targe
 
 ### Ofertas
 
-As imagens excluídas da biblioteca de Oferta de imagem (Ofertas \&gt; Ofertas de imagem) permanecem visíveis na interface. Em uma oferta futura, essas imagens excluídas não serão mais exibidas. Enquanto isso, as imagens excluídas são exibidas na IU, mas têm um status de Excluída . (TGT-23793)
+As imagens excluídas da biblioteca de Oferta de imagem (Ofertas \&gt; Ofertas de imagem) permanecem visíveis na interface. Em uma oferta futura, essas imagens excluídas não serão mais exibidas. Enquanto isso, as imagens excluídas são exibidas na IU, mas têm um status de Excluída. (TGT-23793)
 
 Corrigido na versão 17.4.1 do Target (27 de abril de 2017).
 
