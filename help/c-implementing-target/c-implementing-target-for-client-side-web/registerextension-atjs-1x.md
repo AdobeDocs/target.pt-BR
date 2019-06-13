@@ -1,14 +1,14 @@
 ---
-description: 'Informações sobre a função registerextension () para at. js. '
-keywords: adobe.target.notificação; elemento; seletor; notificação; extensão
-seo-description: Informações sobre a função registerextension () para a biblioteca do Adobe Target no javascript.
-seo-title: Informações sobre a função tregisterextension () da biblioteca do Adobe Target no javascript.
+description: 'Informações sobre a função registerExtension() para at.js. '
+keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+seo-description: Informações sobre a função registerExtension() da biblioteca at.js de JavaScript do Adobe Target.
+seo-title: Informações sobre a função tregisterExtension() da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
 subtopic: Introdução
 title: registerExtension()
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Fornece uma forma padrão de registrar uma extensão específica.
 
 >[!NOTE]
 >
->Essa função está disponível para a at.js versão 1.somente *x*. Essa função foi substituída pelo lançamento do at. js 2. x. Essa função retorna o conteúdo padrão se for usado com o at. js 2. x.
+>Essa função está disponível para a at.js versão 1.somente *x*. Essa função foi descontinuada pelo lançamento da at.js 2.x. Ela retorna o conteúdo padrão se for usada com a 2.x.
 
 O parâmetro de opções é obrigatório e tem a seguinte estrutura:
 
