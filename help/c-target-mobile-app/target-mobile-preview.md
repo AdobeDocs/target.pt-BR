@@ -7,8 +7,8 @@ solution: Target
 title: Visualização do Target Mobile
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,8 +31,8 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    Para instruções de como baixar o SDK apropriado, consulte:
 
-   * **iOS:**[Antes de começar](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) no guia *iOS SDK 4.x para Soluções da Experience Cloud*.
-   * **Android:**[Antes de começar](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)* no guia Android SDK 4.x para Soluções da Experience Cloud.*
+   * **iOS:** [Antes de começar](https://marketing.adobe.com/resources/help/pt_BR/mobile/ios/requirements.html) no guia *do iOS SDK 4.x para Soluções da Experience Cloud.*
+   * **Android:** [Antes de começar](https://marketing.adobe.com/resources/help/pt_BR/mobile/android/requirements.html) no guia *do Android SDK 4.x para Soluções da Experience Cloud.*
 
 1. **Defina um esquema de URL:** o link de visualização usa um esquema de URL para abrir seu aplicativo. Você deve especificar um esquema de URL único para a visualização.
 
