@@ -7,8 +7,8 @@ solution: Target
 title: Controle de qualidade da atividade
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
-translation-type: tm+mt
-source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,10 +22,10 @@ Use URLs de controle de qualidade para realizar o controle de qualidade das ativ
 O controle de qualidade da atividade permite que você teste completamente suas atividades do Target antes de iniciá-las ao vivo. A funcionalidade de controle de qualidade da atividade inclui:
 
 * Links para compartilhar com membros da equipe que nunca mudam ou exigem regeneração, independentemente das atualizações feitas nas experiências ou atividades. Isso permite testar totalmente suas atividades em toda a jornada do usuário.
-* Como opção, as condições de público-alvo são respeitadas para que os profissionais de marketing possam testar critérios de definição de metas ou ignorar critérios de definição de metas para QA a aparência de experiências sem atender às condições do público-alvo.
+* As condições do público-alvo são respeitadas opcionalmente, para que os profissionais de marketing possam testar os critérios de direcionamento ou ignorá-los para garantir a qualidade da aparência das experiências sem precisar atender a essas condições.
 * Os relatórios de controle de qualidade são capturados para que os profissionais de marketing possam confirmar que as métricas estão sendo incrementadas conforme esperado e os dados do relatório de controle de qualidade são mantidos separados dos relatórios de produção (para relatórios não-A4T).
 * A capacidade de visualizar uma experiência de forma isolada ou em conjunto com outras atividades ativas que satisfaçam os critérios de entrega (página/mbox/público-alvo).
-* A capacidade de QA toda a jornada do usuário. Você pode acessar seu site uma vez com o link de controle de qualidade e, em seguida, navegar pelo site inteiro enquanto estiver no Controle de qualidade da atividade. Você permanece no Controle de qualidade da atividade até terminar a sessão ou até usar o [Bookmarklet de controle de qualidade do Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do controle de qualidade da atividade. Esse recurso é particularmente útil se você tiver uma atividade abrangendo várias páginas da Web.
+* A habilidade de garantir a qualidade de toda a jornada do usuário. Você pode acessar seu site uma vez com o link de controle de qualidade e, em seguida, navegar pelo site inteiro enquanto estiver no Controle de qualidade da atividade. Você permanece no Controle de qualidade da atividade até terminar a sessão ou até usar o [Bookmarklet de controle de qualidade do Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do controle de qualidade da atividade. Esse recurso é particularmente útil se você tiver uma atividade abrangendo várias páginas da Web.
 
 ## Acesso e compartilhamento de um URL de controle de qualidade {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -55,7 +55,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
    Cada URL de link de atividade (para Exp A, Exp B etc.) permite iniciar a jornada do usuário a partir da experiência correspondente. Você pode clicar no URL gerado para uma experiência e prosseguir com a navegação normal do site para ver experiências em várias páginas (se houver várias páginas). Apenas um URL é gerado por experiência, mesmo que a experiência abranja várias páginas (teste de modelo ou teste de várias páginas). Você pode navegar pelo site para ver as outras páginas porque o Controle de qualidade da atividade é aderente.
 
-1. Para ver os relatórios gerados a partir dos URLs do link de atividade, clique na página **[!UICONTROL Relatórios]** da atividade, clique no ícone **[!UICONTROL Configurações]** (  ![](assets/icon_gear.png) ) e selecione **[!UICONTROL Modo de controle de qualidade]** na lista suspensa **[!UICONTROL Ambiente]**.
+1. Para ver os relatórios gerados a partir dos URLs do link de atividade, clique na página **[!UICONTROL Relatórios]** da atividade, clique no ícone **[!UICONTROL Configurações]** (![](assets/icon_gear.png)) e selecione **[!UICONTROL Modo de controle de qualidade]** na lista suspensa **[!UICONTROL Ambiente]**.
 
 ## Considerações {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
@@ -70,7 +70,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
 * Se você tiver especificado “URL é” ao criar os refinamentos da atividade [no Criador baseado em formulário](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [opções de entrega da página no Visual Experience Composer)](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), a URL de QA não funcionará porque o QA da atividade adiciona parâmetros de URL. Para resolver esse problema, clique no URL do Controle de qualidade para acessar seu site, remover os parâmetros anexados do URL e, em seguida, carregar o novo URL.
 * Os cookies de terceiros devem estar ativados nos navegadores do Safari para que o Controle de qualidade da atividade funcione corretamente.
-* Se uma atividade usa vários públicos-alvo de experiência (por exemplo, um site dos EUA e do Reino Unido que estão incluídos na mesma atividade), os links de QA não são gerados para as quatro combinações (Experiência A/US, Experiência A/UK Site, Experiência B/Site do site, Experiência B/Site do Reino Unido). Apenas dois links de Controle de qualidade (Experiência A e Experiência B) são criados e os usuários devem se qualificar para o público-alvo apropriado para ver a página. Uma pessoa do Controle de qualidade do Reino Unido não conseguiu ver o site dos EUA.
+* Se uma atividade usar vários públicos-alvo de experiência (por exemplo, um site dos EUA e Reino Unido incluídos na mesma atividade), os links de controle de qualidade não serão gerados para as quatro combinações (Experiência A/Site dos EUA, Experiência A/Site do Reino Unido, Experiência B/Site dos EUA, Experience B/Site do Reino Unido). Apenas dois links de Controle de qualidade (Experiência A e Experiência B) são criados e os usuários devem se qualificar para o público-alvo apropriado para ver a página. Uma pessoa do Controle de qualidade do Reino Unido não conseguiu ver o site dos EUA.
 * Todos os parâmetros `at_preview` e valores já estão codificados com URL. Na maioria das vezes, tudo funciona conforme o esperado; no entanto, alguns clientes podem ter balanceadores de carga ou servidores da Web que tentam codificar os parâmetros de cadeia de caracteres de consulta mais uma vez.
 
    Devido a essa codificação dupla, quando tentamos decodificar o `at_preview_token`, o Target não pode extrair o valor do token correto, resultando em uma visualização que não funciona.
@@ -86,7 +86,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
    | `at_preview_listed_activities_only` | Booleano (true/false) | Valor padrão: false | Se &quot;true&quot;, todas as campanhas especificadas nos parâmetros `at_preview_index` serão processadas.<br>Se &quot;false&quot;, todas as campanhas da página serão processadas, mesmo que não tenham sido especificadas no token de visualização. |
    | `at_preview_evaluate_as_true_audience_ids` | String | Empty | Lista de segmentId-s separada por sublinhado (&quot;_&quot;) que deve sempre (a nível de direcionamento e relatórios) ser avaliada como &quot;true&quot; no escopo da solicitação da mbox. |
    | `_AT_Debug` | String | Janela ou console | Logon no console ou nova janela. |
-   | `adobe_mc_ref` | Passa o URL de referência da página padrão para a nova página. Quando usado com a versão 2.1 (ou posterior) do `AppMeasurement.js`, o [!DNL Adobe Analytics] usa esse valor de parâmetro como o URL de referência na nova página. |
-   | `adobe_mc_sdid` | Passa a [!DNL Supplemental Data Id] (SDID) e a [!DNL Experience Cloud Org Id] da página padrão para a nova página, para que o Analytics para Target (A4T) &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página. |
+   | `adobe_mc_ref` |  |  | Passa o URL de referência da página padrão para a nova página. Quando usado com a versão 2.1 (ou posterior) do `AppMeasurement.js`, o [!DNL Adobe Analytics] usa esse valor de parâmetro como o URL de referência na nova página. |
+   | `adobe_mc_sdid` |  |  | Passa a [!DNL Supplemental Data Id] (SDID) e a [!DNL Experience Cloud Org Id] da página padrão para a nova página, para que o Analytics para Target (A4T) &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página. |
 
-* A interface do usuário do modo QA do Target mostra apenas o primeiro URL de uma experiência em uma atividade de várias páginas. A presunção é que você esteja criando um teste de jornada e moverá do URL 1 para URL 2. No entanto, se você deseja ir para URL 2 independentemente, copie todos os parâmetros de URL fornecidos em relação ao URL 1 e aplique-os ao URL 2 após colocar um &quot;?&quot; exatamente como você vê no URL 1.
+* A interface do usuário do modo de controle de qualidade do Target mostra apenas o primeiro URL de uma experiência em uma atividade de várias páginas. A suposição é que você esteja criando um teste de jornada e moverá do URL 1 para URL 2. No entanto, se você quiser ir independentemente para o URL 2, copie todos os parâmetros de URL fornecidos em relação ao URL 1 e aplique-os ao URL 2 após colocar um &quot;?&quot; exatamente como você vê no URL 1.
