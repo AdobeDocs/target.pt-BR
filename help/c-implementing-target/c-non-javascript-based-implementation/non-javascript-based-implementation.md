@@ -8,8 +8,8 @@ subtopic: Introdução
 title: 'Email: implementação do Target'
 topic: Padrão
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
-translation-type: tm+mt
-source-git-commit: 2c329fdfe0047740ed803b9b0478ce107a23c8dc
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade
 
 * Não existe um tempo limite para o lado do cliente como nas mboxes padrão. Se o Target estiver completamente inacessível, os visitantes do anúncio não visualizarão qualquer conteúdo, nem mesmo o conteúdo padrão.
 * Cookies de terceiros são utilizados para rastrear as visitas. Se os PCIds forem diferentes, por padrão, o perfil de terceiros do visitante será combinado com qualquer perfil próprio existente.
-* Para utilizar cookies próprios na AdBox, é necessário enviar a sessão mbox no URL. Entre em contato com seu representante de contas para fazer isso.
+* Para utilizar cookies próprios na AdBox, é necessário enviar a sessão mBox no URL. Entre em contato com seu representante de contas para fazer isso.
 * Para utilizar cookies próprios para rastrear cliques de anúncios, é necessário enviar a sessão mbox no URL. Entre em contato com seu representante de contas para fazer isso.
 * Para utilizar mais de uma AdBox na mesma página, você deve enviar a sessão Mbox no URL. Entre em contato com seu representante de contas para fazer isso. Você pode ter mais de uma AdBox e um link Redirecionador na mesma página (porque o Redirecionador está na segunda página).
 
