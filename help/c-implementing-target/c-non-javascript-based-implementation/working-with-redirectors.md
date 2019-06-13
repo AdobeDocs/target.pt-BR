@@ -8,8 +8,8 @@ subtopic: Introdução
 title: Trabalhar com redirecionadores
 topic: Padrão
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,7 +45,7 @@ Antes de utilizar um redirecionador, você deve criá-lo.
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * Onde `yourclientcode` está o código de cliente da sua empresa. O código de cliente de sua empresa tem todos os caracteres em minúsculas e sem caracteres especiais.
+   * Onde `yourclientcode` é o código de cliente da sua empresa. O código de cliente de sua empresa tem todos os caracteres em minúsculas e sem caracteres especiais.
 
       * **at.js**: Seu código de cliente está disponível no topo da página [!UICONTROL Configuração &gt; Implementação &gt; Editar configurações] da at.js da [!DNL Target] interface.
 
@@ -56,7 +56,7 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
    * Onde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` é o destino padrão.
 
-      Isso deve ser codificado no URL e uma referência absoluta. Você pode usar a Referência de codificação de URL [HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rapidamente seus urls. |
+      Isso deve ser codificado no URL e uma referência absoluta. Você pode usar a [Referência de URL para codificação HTML](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar rapidamente os URLs.|
 
 
 
@@ -97,7 +97,7 @@ Use o redirecionador para passar os custos por clique.
 
 >[!NOTE]
 >
->A prática recomendada é determinar o valor de custo usando a métrica de envolvimento **Pontuação por visita** , conforme descrito em [Envolvimento](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>A prática recomendada é determinar o valor de custo usando a métrica de envolvimento **Pontuação por visita**, conforme descrito em [Envolvimento](https://marketing.adobe.com/resources/help/pt_BR/tnt/help/c_Capturing_Engagement.html).
 
 Adicione `&mboxPageValue=-value` à URL. Observe o valor negativo.
 
@@ -114,7 +114,7 @@ Use o redirecionador para passar a receita por clique.
 
 >[!NOTE]
 >
->A prática recomendada é determinar o valor da receita usando a métrica de envolvimento **Pontuação por visita** , conforme descrito em [Envolvimento](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>A prática recomendada é determinar o valor de receita usando a métrica de envolvimento **Pontuação por visita**, conforme descrito em [Envolvimento](https://marketing.adobe.com/resources/help/pt_BR/tnt/help/c_Capturing_Engagement.html).
 
 Adicione `&mboxPageValue=value` à URL.
 
