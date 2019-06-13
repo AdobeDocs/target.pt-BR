@@ -7,8 +7,8 @@ solution: Target
 title: Visão geral do design
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
-translation-type: tm+mt
-source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -90,7 +90,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
 | Parâmetro | Valor |
 |--- |--- |
-| `[YOUR_CLIENT_CODE]` | Código do Target do Target (disponível em ../target/products.html # recssetações &gt; Token de API do Recommendations &gt; Código do cliente. |
+| `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em .../target/products.html#recsSettings Token de API do Recommendations &gt; Código do cliente. |
 | `[YOUR_MBOX_NAME]` | O nome que você selecionou na seção &quot;locais&quot; do Recommendations baseado em formulário, neste caso YOUR_CLIENT_CODE. |
 | `[ENTITY_ID`] | O `entity.id` de um item em seu catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
