@@ -7,15 +7,15 @@ solution: Target
 title: Perguntas frequentes sobre a Mbox global
 topic: Padrão
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Perguntas frequentes sobre a Mbox global{#global-mbox-frequently-asked-questions}
 
-Lista de Perguntas frequentes (faqs) sobre mboxes globais.
+Lista de perguntas frequentes sobre as mboxes globais.
 
 ## Posso ter mais de uma mbox global, se minha conta do Target for configurada em vários domínios? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
@@ -23,7 +23,7 @@ Somente uma mbox global é suportada na sua conta.
 
 Você pode limitar o local de execução das atividades, ao adicionar as regras de URL às suas atividades. Para obter mais informações, consulte [Incluir a mesma experiência em páginas semelhantes](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Você também pode enviar um parâmetro na página usando [targetpageparams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e, em seguida, selecionar esses parâmetros na seção «configurar URL» no [!UICONTROL Visual Experience Composer] (VEC) ou adicionando os parâmetros como «refinamentos» no Criador de experiências baseado em forma.
+Você também pode passar um parâmetro para a página usando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e depois selecionar esses parâmetros na seção &quot;configurar URL&quot; no [!UICONTROL Visual Experience Composer] (VEC) ou adicionar os parâmetros como &quot;refinamentos&quot; no Experience Composer baseado em formulário.
 
 ## Como transfiro os dados de receita em uma mbox global do Target? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
