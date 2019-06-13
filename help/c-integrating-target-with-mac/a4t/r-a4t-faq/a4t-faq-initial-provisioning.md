@@ -7,8 +7,8 @@ solution: Target
 title: Provisionamento inicial - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
-translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 Este tópico contém respostas a perguntas frequentes sobre o provisionamento do Analytics como a fonte de geração de relatórios para o Target (A4T).
 
-## Como posso configurar uma atividade de várias páginas A 4 T?
+## Como posso configurar uma atividade de várias páginas do A4T?
 
-Para implementar um caso de uso multi-página A 4 T básico:
+Para implementar um caso de uso básico de várias páginas do A4T:
 
-* Implemente as bibliotecas do javascript para o Target (at. js ou mbox. js) e o Analytics no URL/página de aterrissagem da atividade. A implementação de ambas as soluções empilha os dados do Target com os dados do Analytics para cada visitante. Esses dados permanecem no Analytics até que expire com a expiração padrão definida para 90 dias.
+* Implemente as bibliotecas do JavaScript para o Target (at.js ou mbox.js) e o Analytics na landing page/URL da atividade. A implementação de ambas as soluções une os dados do Target com os do Analytics de cada visitante. Esses dados permanecem no Analytics até que expirem e a validade padrão é definida como 90 dias.
 
-* Para as páginas restantes no site, onde apenas as métricas do Analytics devem ser rastreadas, implemente o Analytics nessas páginas. Não é necessário implementar o Target nessas páginas. As métricas do Analytics capturadas nessas páginas são automaticamente encaixadas para a atividade do Target que o usuário inicialmente qualificou, com base nas informações do Target anexadas a esse visitante do marcador anterior.
+* Para as páginas restantes no site, onde apenas as métricas do Analytics devem ser rastreadas, implemente o Analytics nessas páginas. Não é necessário implementar o Target nessas páginas. As métricas do Analytics capturadas nessas páginas se unem automaticamente à atividade do Target para a qual o usuário foi qualificado inicialmente, com base nas informações do Target anexadas a esse visitante na etapa anterior.
 
 ## Como posso saber se o A4T está ativado na minha conta Target? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
