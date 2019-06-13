@@ -7,8 +7,8 @@ solution: Target
 title: Parâmetros personalizados
 topic: Padrão
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 Os parâmetros personalizados são parâmetros de mbox. Se você passar algum parâmetro de mbox para mboxes, ou usar a função targetPageParams, esses parâmetros aparecerão aqui para uso em públicos-alvo.
 
-Para obter mais informações, consulte [Passagem de parâmetros a uma mbox global](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
+Para obter mais informações, consulte [Passagem de parâmetros a um mbox global](https://marketing.adobe.com/resources/help/pt_BR/target/ov/c_pass_parameters_to_global_mbox.html).
 
 Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mboxParameter` não solicita mais `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
