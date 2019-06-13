@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1ac2baf9d3fe7a84d7e65a0aec99c4bfdef613a4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -97,7 +97,7 @@ Se você tiver um produto do feed do Google existente, então pode usar isso com
 >
 >Não é necessário utilizar dados do Google. O [!DNL Recommendations] utiliza o mesmo formato que o Google. Você pode usar este método para atualizar qualquer dado que possua e usar os recursos de programação disponíveis. No entanto, você dever manter os nomes predefinidos dos atributos do Google ao configurar o arquivo.
 
-Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Os feeds de entidade podem ser enviados [!DNL Recommendations] por meio [!DNL .xml]de, [!DNL .txt]ou [!DNL .tsv], e podem usar os [atributos definidos pelo Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
+Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Os feeds de entidade podem ser enviados para [!DNL Recommendations] por [!DNL .xml], [!DNL .txt] ou [!DNL .tsv], e podem usar os [atributos definidos pelo Google](https://support.google.com/merchants/answer/188494?hl=br&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisados nas [páginas de compra do Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Classificações do produto Analytics {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto Analytics é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Classificações](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) no guia *Ajuda e Referência do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto Analytics é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Classificações](https://marketing.adobe.com/resources/help/pt_BR/reference/classifications.html) no guia *Ajuda e Referência do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
@@ -267,23 +267,23 @@ A seguir, estão os possíveis status de um feed:
 | Status | Descrição |
 |--- |--- |
 | Sincronização | Os detalhes de configuração do feed são salvos no Target. |
-| Falha na sincronização | Os detalhes de configuração do feed não puderam ser salvos no Target. Tente novamente. |
+| Falha na sincronização | Os detalhes de configuração do feed não foram salvos no Target. Tente novamente. |
 | Nenhuma execução do feed | Você criou um feed, mas ele não foi agendado (a frequência está definida como Nunca). |
 | Agendado na *data e hora* | O feed não foi executado, mas está agendado para execução na data e hora especificada. |
-| Aguardando download | O Target está se preparando para baixar o arquivo Feed. |
-| Download do arquivo de feed | O Target está baixando o arquivo Feed. |
-| Importar itens | O Target está importando itens do arquivo de feed. Observação: Uma vez que esta etapa for concluída e &quot;Preparando atualizações de índice de pesquisa&quot; for exibida, as alterações nos atributos do item foram importadas para nosso sistema central, e serão refletidas no conteúdo de recomendações entregues retornado pelos nós de borda geográfica em 60 minutos. |
-| Preparando atualizações de índice de pesquisa | O Target está se preparando para atualizar o índice de pesquisa do catálogo. Observação: Se esse status estiver listado, as alterações nos atributos do item já tiverem sido feitas e serão refletidas em recomendações entregues, embora ainda não tenham sido refletidas na Pesquisa do catálogo. |
-| Atualização do índice de pesquisa | O Target está atualizando o índice de pesquisa do catálogo. Observação: Se esse status estiver listado, as alterações nos atributos do item já tiverem sido feitas e serão refletidas em recomendações entregues, embora ainda não sejam refletidas na Pesquisa do catálogo. |
+| Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
+| Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
+| Importar itens | O Target está importando itens do arquivo de Feed. Observação: após concluir esta etapa e a opção &quot;Preparando atualizações do índice de pesquisa&quot; for exibida, as alterações aos atributos de item foram importadas para nosso sistema central e serão refletidas no conteúdo das recomendações entregues, retornado pelos nós de borda geográfica em 60 minutos. |
+| Preparando atualizações do índice de pesquisa | O Target está se preparando para atualizar o índice de pesquisa do catálogo. Observação: se esse status estiver listado, as alterações aos atributos de item já foram feitas e serão refletidas em breve nas recomendações entregues, embora ainda não sejam refletidas na Pesquisa do catálogo. |
+| Atualização do índice de pesquisa | O Target está atualizando o índice de pesquisa do catálogo. Observação: se esse status estiver listado, as alterações aos atributos de item já foram feitas e serão refletidas em breve nas recomendações entregues, embora ainda não sejam refletidas na Pesquisa do catálogo. |
 | Atualizações concluídas | O Target concluiu todas as atualizações associadas ao arquivo de feed. |
-| Falha ao indexar | A operação de índice falhou. Tente novamente. |
+| Falha ao indexar | Ocorreu uma falha na operação de índice. Tente novamente. |
 | Servidor não encontrado | Locais de FTP ou URL inválidos ou não acessíveis. |
 
 Para atualizar um feed (por exemplo, para fazer alterações na sua configuração de feed ou arquivo de feed), abra o feed, faça qualquer alteração desejada e clique em **[!UICONTROL Salvar]**.
 
 >[!IMPORTANT]
 >
->As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades do Recommendations. Se um item não estiver incluído em um arquivo de feed (ou outro método de atualização de entidade) pelo menos uma vez a cada 60 dias, o Adobe Target deduzirá o item não é mais relevante e o remove do catálogo.
+>As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades de recomendações. Se um item não estiver incluído em um arquivo de feed (ou em outro método de atualização de entidade) pelo menos uma vez a cada 60 dias, o Adobe Target deduzirá que ele não é mais relevante e o removerá do catálogo.
 
 ### Indicadores de status do feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
