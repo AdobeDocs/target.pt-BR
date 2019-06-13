@@ -7,8 +7,8 @@ solution: Target
 title: Visores móveis para experiências responsivas
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -61,7 +61,7 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 | Samsung Galaxy Tab 10 | 800 de largura x 1280 de altura | 800 de largura x 1280 de altura |
 | Chromebook Pixel | 1280 de largura x 850 de altura | 2560 de largura x 1700 de altura |
 
-Vários sites listam os tamanhos da janela de visualização de dispositivos populares. Por exemplo, consulte [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) ou consultar o site do fabricante do dispositivo.
+Vários sites listam os tamanhos da janela de visualização de dispositivos populares. Por exemplo, consulte [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) ou consulte o site do fabricante do dispositivo.
 
 Se você deseja fornecer uma atividade a pessoas em um determinado dispositivo, escolha o público-alvo apropriado para ele no diagrama de atividade. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Se deseja executar uma atividade em toda a sua experiência digital e certificar-se de que ela funcione em todos os dispositivos, não aplique o direcionamento, e use visores móveis para visualizar a atividade em cada tela.
 
