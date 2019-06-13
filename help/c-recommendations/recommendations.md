@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -51,7 +51,7 @@ Para mais informações sobre estes e outros critérios do [!DNL Recommendations
 
 ## Vídeo de treinamento: tipos de atividade
 
-Este vídeo explica os tipos de atividades disponíveis em [!DNL Target Standard/Premium]. O [!DNL Recommendations] é discutido a partir de 7:20.
+Este vídeo explica os tipos de atividades disponíveis no [!DNL Target Standard/Premium]. O [!DNL Recommendations] é discutido a partir de 7:20.
 
 * Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
@@ -59,8 +59,8 @@ Este vídeo explica os tipos de atividades disponíveis em [!DNL Target Standard
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinar de conceitos básicos do Adobe Target: Introdução ao Recommendations {#intro-to-recs}
+## Webinar de noções básicas do Adobe Target: Introdução ao Recommendations {#intro-to-recs}
 
-O webinário Introdução ao Recommendations inclui uma exploração detalhada de como aproveitar o valor de [!DNL Adobe Target Recommendations]. Descubra como essa [!DNL Target] atividade exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes otimizando sugestões em tempo real com base em visitas anteriores. Além disso, acesse a [!DNL Target] interface do usuário para obter uma visão geral passo a passo sobre como criar [!DNL Recommendations] uma atividade.
+O webinar de Introdução ao Recommendations inclui uma análise detalhada de como utilizar o valor de [!DNL Adobe Target Recommendations]. Descubra como essa atividade do [!DNL Target] exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes, otimizando sugestões em tempo real com base nas visitas anteriores. Além disso, acesse a interface do usuário do [!DNL Target] para obter uma visão geral passo a passo sobre como criar uma atividade do [!DNL Recommendations].
 
 [Introdução ao Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
