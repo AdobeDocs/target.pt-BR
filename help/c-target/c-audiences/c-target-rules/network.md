@@ -6,8 +6,8 @@ seo-title: Rede
 solution: Target
 title: Rede
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -50,10 +50,10 @@ Você pode criar públicos-alvo com base nos detalhes da rede.
 
       Se você quiser ver mais ISPs referenciadas nessa tabela, entre em contato com o atendimento ao cliente com a sua sugestão.
 
-      Você pode testar os valores de domínio e ISP. [](https://www.whoismyisp.org)https://www.whoismyisp.org é um bom recurso para fins de direcionamento. Você pode usar os endereços IP de exemplo fornecidos na tabela acima ou inserir seus próprios endereços. Em seguida, use o parâmetro `themboxOverride.browserIp= URL` para mimetizar esse endereço IP.
+      Você pode testar os valores de domínio e ISP. [https://www.whoismyisp.org](https://www.whoismyisp.org) é um bom recurso para fins de direcionamento. Você pode usar os endereços IP de exemplo fornecidos na tabela acima ou inserir seus próprios endereços. Em seguida, use o parâmetro `themboxOverride.browserIp= URL` para mimetizar esse endereço IP.
 
    * **Nome do domínio: **esse é o nome do domínio para o endereço IP do visitante. Esse não é o nome de domínio do site que você está usando com o [!DNL Target]. Esse nome de domínio está relacionado ao endereço IP do visitante e, às vezes, é chamado de nome de host. É normalmente muito similar ao nome da ISP. Às vezes, o nome de host faz referência a nomes mais antigos das empresas que criaram novo nome de marca do nome da ISP, mas não o nome do domínio.
-   * **Velocidade de conexão:**é a velocidade da conexão à internet do visitante. As opções incluem: banda larga, cabo, discagem, móvel, oc3, oc12, satélite, t1, t2, sem fio e xdsl.
+   * **Velocidade de conexão:** é a velocidade da conexão à internet do visitante. As opções incluem: banda larga, cabo, discagem, móvel, oc3, oc12, satélite, t1, t2, sem fio e xdsl.
 
       Esse cambo baseia-se no tipo de conexão e não na velocidade real propriamente dita. O [!DNL Target] não pode determinar as velocidades de conexão exatas das conexões. O tipo de conexão de Banda larga é usado quando não há indicações de outros tipos de conexão, então um tipo específico não pode ser escolhido.
 
