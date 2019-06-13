@@ -1,27 +1,27 @@
 ---
-description: Quando você clica em um elemento de página no Visual Experience Composer (VEC), um menu mostra as opções que estão disponíveis para esse tipo de elemento.
+description: Ao clicar em um elemento de página no Visual Experience Composer (VEC), um menu mostrará as opções disponíveis para esse tipo de elemento.
 keywords: opções do visual experience composer, opções do visual experience composer, opções de experiência, editar texto, editar html, editar texto/html, editar cor de fundo, cor de fundo, inserir elemento, editar link, link, link do visual experience composer, editar classe css, classe css, trocar oferta, troca de oferta, trocar imagem, troca de imagem, remover item, remoção de item, ocultar item, ocultação de item, reorganizar, mover elemento, movimentação de elemento, redimensionar elemento, redimensionamento de elemento, elemento, expandir seleção, navegar até este link, navegar pelo link, navegação no link, navegar, desfazer, refazer, desfazer/refazer
-seo-description: Quando você clica em um elemento de página no Adobe Target Visual Experience Composer (VEC), um menu mostra as opções que estão disponíveis para esse tipo de elemento.
-seo-title: Opções do Adobe Target Visual Experience Composer (VEC)
+seo-description: Ao clicar em um elemento de página no Visual Experience Composer (VEC) do Adobe Target, um menu mostrará as opções disponíveis para esse tipo de elemento.
+seo-title: Opções do Visual Experience Composer (VEC) do Adobe Target
 solution: Target
 title: Opções do Visual Experience Composer
 topic: Padrão
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: tm+mt
-source-git-commit: cd6bfcda582b7432c4082144dbd8e561f71673a5
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Opções do Visual Experience Composer{#visual-experience-composer-options}
 
-Quando você clica em um elemento de página no Visual Experience Composer (VEC), um menu mostra as opções que estão disponíveis para esse tipo de elemento. Além disso, um caminho DOM é exibido na parte inferior da página que permite navegar facilmente pela estrutura da página.
+Ao clicar em um elemento de página no Visual Experience Composer (VEC), um menu mostrará as opções disponíveis para esse tipo de elemento. Além disso, um caminho DOM é exibido na parte inferior da página, possibilitando uma navegação fácil pela estrutura da página.
 
 ## Opções de VEC
 
-As várias ações do Visual Experience Composer (VEC) são agrupadas as opções de menu apropriadas para tornar sua tarefa mais rápida e eficiente:
+As várias ações do Visual Experience Composer (VEC) são agrupadas nas opções de menu apropriadas para tornar sua tarefa mais rápida e eficiente:
 
-![Menu de opções da VEC](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
+![Menu de opções de VEC](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ Altere o código HTML do elemento, como o texto para uma área de texto, botão 
 
 Além do código HTML, você pode editar e injetar JavaScript personalizado.
 
-Várias opções de formatação de rich text estão disponíveis durante a edição de texto e HTML para atividades de teste [!UICONTROL A/B] e [!UICONTROL direcionamento de experiência]. Você pode escolher uma fonte, selecionar um estilo de fonte, alterar o alinhamento do texto e outras opções de formatação de texto padrão. Ao modificar o HTML, você pode alternar entre a exibição de código e a exibição de rich-editing do HTML.
+Várias opções de formatação de rich text estão disponíveis durante a edição de texto e HTML para atividades de teste [!UICONTROL A/B] e [!UICONTROL Direcionamento de experiência]. Você pode escolher uma fonte, selecionar um estilo de fonte, alterar o alinhamento do texto e outras opções de formatação de texto padrão. Ao modificar o HTML, você pode alternar entre a exibição de código e a exibição de rich-editing do HTML.
 
-As seguintes tags HTML 5 podem ser aninhadas:
+As seguintes tags de HTML 5 podem ser aninhadas:
 
 | Adicionar tag | Tags aninhadas permitidas |
 | --- | --- |
@@ -56,61 +56,61 @@ Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pod
 
 #### Estilos
 
-Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Você também pode adicionar estilização adicional.
+Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.
 
-Para acessar o [!UICONTROL painel Estilos] , clique em um elemento de página no VEC e, em seguida, clique **[!UICONTROL em Editar]** &gt; **[!UICONTROL Estilos]**.
+Para acessar o painel [!UICONTROL Estilos], clique em um elemento de página no VEC e em **[!UICONTROL Editar]** &gt; **[!UICONTROL Estilos]**.
 
-O painel [!UICONTROL Estilos] é exibido no lado direito do VEC. O painel contém uma lista de estilos que permite editar ou adicionar ao elemento selecionado. Um Editor CSS em tempo real permite exibir alterações e adicionar estilos se você estiver confortável usando Folhas de estilo em cascata (CSS) ou se receber código de seu desenvolvedor.
+O painel [!UICONTROL Estilos] é exibido no lado direito do VEC. O painel contém uma lista de estilos que permite editar ou adicionar ao elemento selecionado. Um Editor de CSS em tempo real permite exibir alterações e adicionar estilos se você estiver familiarizado com o uso de Folhas de estilo em cascata (CSS) ou se receber um código do desenvolvedor.
 
-![Painel Estilos](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
+![Painel de estilos](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Ao aplicar estilos diferentes, você sempre pode reverter as alterações clicando no ícone [!UICONTROL Reverter] que é exibido no canto superior direito do painel [!UICONTROL Estilos] depois de fazer uma alteração em qualquer seção. Observe que clicar no [!UICONTROL ícone Reverter] reverte todas as alterações no painel da seção atual.
+Ao aplicar estilos diferentes, sempre é possível reverter as alterações clicando no ícone [!UICONTROL Reverter], exibido no canto superior direito do painel [!UICONTROL Estilos], depois de fazer uma alteração em qualquer seção. Observe que clicar no ícone [!UICONTROL Reverter] reverte todas as alterações no painel da seção atual.
 
-Expanda cada seção para editar ou adicionar estilos, conforme explicado abaixo. Para salvar as alterações, clique no ícone Voltar na parte superior do painel para retornar à tela principal do painel e clique **[!UICONTROL em Salvar]**.
+Expanda cada seção para editar ou adicionar estilos, conforme explicado abaixo. Para salvar as alterações, clique no ícone Voltar na parte superior do painel para retornar à tela principal do painel e clique em **[!UICONTROL Salvar]**.
 
-Observe que os pontos azuis no painel principal e ao lado de cada opção nos vários painéis de seção indicam que você fez alterações nos estilos correspondentes. Isso facilita a análise das alterações antes de clicar [!UICONTROL em Salvar].
+Observe que os pontos azuis no painel principal e ao lado de cada opção nos vários painéis da seção indicam que você fez alterações nos estilos correspondentes. Isso facilita a análise das alterações antes de clicar em [!UICONTROL Salvar].
 
 >[!NOTE]
 >
->Ações rápidas para alterações de layout, cor de fundo, redimensionamento e movimento também estão disponíveis como ações separadas no menu VEC. Essas opções podem ser aproveitadas como ações separadas ou você pode usar o menu Estilos, como explicado aqui.
+>Ações rápidas para alterações de layout, cor de fundo, redimensionamento e mover também estão disponíveis como ações separadas no menu do VEC. Essas opções podem ser utilizadas como ações separadas ou você pode usar o menu Estilos, conforme explicado aqui.
 
 * **Tipografia**
 
    Altere a tipografia de um elemento. Edições de tipografia são rápidas e fáceis.
 
-   Embora o editor de rich text (Editar texto/HTML) esteja disponível para ajuste fino, ações rápidas para fazer alterações ao elemento inteiro estão disponíveis por meio dessa opção. Se você quiser aplicar alterações a tipografia somente a parte do texto (e não ao texto completo), use o [editor de rich text](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Embora o editor de rich text (Editar Texto/HTML) esteja disponível para ajuste, as ações rápidas para fazer alterações ao elemento inteiro estão disponíveis por meio dessa opção. Se você quiser aplicar alterações de tipografia apenas a uma parte do texto (e não ao texto completo), use o [editor de rich text](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    É possível editar os seguintes estilos de tipografia:
 
    * Tamanho da fonte
    * Espessura da fonte
    * Estilo da fonte
-   * Cor (especifique o código colorido ou use o seletor de cores)
+   * Cor (especifique o código de cor ou use o seletor de cores)
    * Espaçamento entre palavras
    * Altura da linha
    * Alinhamento de texto
 
 * **Margem**
 
-   Altere a margem para o elemento selecionado. Você pode alterar as margens esquerda, direita, inferior e superior.
+   Altere a margem do elemento selecionado. Você pode alterar as margens esquerda, direita, inferior e superior.
 
-   Clique no ícone suspenso para cada margem para escolher entre as seguintes opções:
+   Clique no ícone suspenso de cada margem para escolher entre as seguintes opções:
 
    * Automático
-   * Valor (arrastar o controle deslizante para definir a margem ou especificar o número de pixels para cada margem)
+   * Valor (arraste o controle deslizante para definir a margem ou especifique o número de pixels para cada margem)
    A margem suporta valores positivos e negativos.
 
-   O Target também oferece suporte a outras unidades de tamanho, como rem, pc, em, etc. Para obter mais informações sobre essas unidades, consulte [Dicas e truques de folhas de estilos da Web](https://www.w3.org/Style/Examples/007/units.en.html).
+   O Target também é compatível com outras unidades de tamanho, como rem, pc, em, etc. Para obter mais informações sobre essas unidades, consulte [Dicas e truques de CSS e Folhas de estilo da Web](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Preenchimento**
 
    Altere o preenchimento do elemento selecionado. Você pode alterar o preenchimento esquerdo, direito, inferior e superior.
 
-   Arraste o controle deslizante para definir o preenchimento ou especificar o número de pixels para preenchimento.
+   Arraste o controle deslizante para definir o preenchimento ou especificar o número de pixels para o preenchimento.
 
-   O preenchimento oferece suporte para escalonamentos de largura a partir de 0.
+   O preenchimento suporta escalas de largura a partir de 0.
 
-   O Target também oferece suporte a [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   O Target também é compatível com [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Borda**
 
@@ -118,31 +118,31 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
    É possível editar os seguintes estilos para cada borda (superior, direita, inferior e esquerda):
 
-   * Estilo da borda (nenhum, oculto, pontilhado, tracejado, sólido ou duplo)
+   * Estilo da borda (nenhum, oculta, pontilhada, tracejada, sólida ou dupla)
    * Cor da borda (especifique o código de cor ou use o seletor de cores)
-   * Largura da borda (arrastar o controle deslizante para selecionar uma largura de borda ou especificar a largura em pixels)
-   A borda oferece suporte para escalonamentos de largura a partir de 0.
+   * Largura da borda (arraste o controle deslizante para selecionar uma largura de borda ou especifique a largura em pixels)
+   A borda suporta escalas de largura a partir de 0.
 
-   O Target também oferece suporte a [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   O Target também é compatível com [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
-* **Posição**
+* **Position**
 
-   Mova o elemento selecionado da posição atual. Você pode alterar a posição superior, inferior, esquerda, direita e [de índice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) do elemento.
+   Mova o elemento selecionado da posição atual. Você pode alterar a posição superior, inferior, esquerda, direita e [índice z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) do elemento.
 
-   Clique na [!UICONTROL lista] suspensa Estático para escolher entre as seguintes opções de posição:
+   Clique na lista suspensa [!UICONTROL Estático] para escolher entre as seguintes opções de posição:
 
    * Estático
    * Relativo
    * Absoluto
    * Aderente
    * Fixo
-   Clique no ícone suspenso para cada posição escolher entre as seguintes opções:
+   Clique no ícone suspenso de cada posição para escolher entre as seguintes opções:
 
    * Automático
-   * Valor (arrastar o controle deslizante para posicionar o elemento ou especificar o número de pixels que deseja mover o elemento)
+   * Valor (arraste o controle deslizante para posicionar o elemento ou especifique o número de pixels que deseja mover o elemento)
    A posição suporta valores positivos e negativos.
 
-   O Target também oferece suporte a [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   O Target também é compatível com [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Tamanho**
 
@@ -151,7 +151,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
    Clique no ícone suspenso próximo à [!UICONTROL Largura] e [!UICONTROL Altura] para escolher entre as seguintes opções:
 
    * Automático
-   * Valor (arrastar o controle deslizante para dimensionar o elemento ou especificar o número de pixels para cada dimensão)
+   * Valor (arraste o controle deslizante para dimensionar o elemento ou especifique o número de pixels para cada dimensão)
 
 * **Filtro**
 
@@ -160,30 +160,30 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
    * Sépia
    * Contraste
    * Brilho
-   * Grayscale
+   * Escala de cinza
    * Desfoque
    * Opacidade
    * Inverter
    * Rotação de matiz
-   * Saturate
+   * Saturar
 
-* **Editor CSS**
+* **Editor de CSS**
 
-   O Editor CSS em tempo real permite exibir alterações e adicionar estilos se você estiver confortável usando Folhas de estilo em cascata (CSS) ou se receber código de seu desenvolvedor.
+   O Editor de CSS em tempo real permite exibir alterações e adicionar estilos se você estiver familiarizado com o uso de Folhas de estilo em cascata (CSS) ou se receber um código do desenvolvedor.
 
-   O Editor CSS exibe todas as alterações feitas no painel Estilos. Conforme mostrado na ilustração abaixo, o tamanho da fonte, a borda superior e o tamanho da imagem foram alterados:
+   O Editor de CSS exibe todas as alterações feitas no painel Estilos. Conforme mostrado na ilustração abaixo, o tamanho da fonte, a borda superior e o tamanho da imagem foram alterados:
 
    ![Editor de CSS com alterações](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Observe os pontos azuis ao lado das [!UICONTROL opções Tipografia], [!UICONTROL Borda]e [!UICONTROL Tamanho] na ilustração anterior. Esses pontos indicam que você fez alterações nessas seções. Se você abrir esses painéis de seção, os pontos azuis serão exibidos ao lado das opções específicas que você alterou.
+   Observe os pontos azuis ao lado das opções de [!UICONTROL Tipografia], [!UICONTROL Borda] e [!UICONTROL Tamanho] na ilustração anterior. Esses pontos indicam que você fez alterações nessas seções. Se você abrir esses painéis de seção, os pontos azuis serão exibidos ao lado das opções específicas alteradas.
 
-   Você pode digitar seu próprio código se o estilo desejado não estiver disponível por padrão nos [!UICONTROL Estilos].
+   Você pode digitar seu próprio código se o estilo desejado não estiver disponível, por padrão, no painel [!UICONTROL Estilos].
 
-   Observe que o Editor de CSS mostra detalhes somente da sessão atual. Se você salvar alterações e reabrir o editor, os detalhes sobre a alteração anterior não serão exibidos no editor, mesmo que você selecione o mesmo elemento novamente.
+   Observe que o Editor de CSS mostra somente os detalhes da sessão atual. Se você salvar as alterações e reabrir o editor, os detalhes sobre a alteração anterior não serão exibidos no editor, mesmo se o elemento for selecionado novamente.
 
-   >[!Important]
+   >[!IImportante]
    >
-   >Você pode aplicar uma imagem de fundo usando o Editor CSS, mas pode causar oscilação. Teste as alterações antes da implantação.
+   >Você pode aplicar uma imagem de fundo usando o Editor de CSS, mas isso pode causar cintilação. Teste as alterações antes da implantação.
 
 #### Classe CSS
 
@@ -263,7 +263,7 @@ Após a sincronização da atividade, o URL de entrega pode ser parecido com o s
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-O Recommendations suporta Substituir por tags DIV, SECTION e ARTICLE.
+O Recommendations suporta a opção &quot;Substituir por&quot; nas tags DIV, SECTION e ARTICLE.
 
 **Observação:** a troca de imagens exige uma conta do sistema de publicação do Adobe Scene7.
 
@@ -291,7 +291,7 @@ As opções disponíveis são as seguintes:
 
 Arraste o elemento para outro local no mesmo elemento pai ou DIV. Outros elementos trocam de local para abrir espaço para o elemento reorganizado.
 
-**Observação:** clicar no rastreamento não funciona em itens reorganizados.
+**Observação:** clicar no rastreamento de cliques não funciona em itens reorganizados.
 
 #### Redimensionar
 
@@ -329,14 +329,14 @@ Desfaça as alterações feitas em suas atividades durante uma sessão de altera
 
 ## Navegar pelos elementos usando o caminho DOM {#dom-path}
 
-Quando você clica em um elemento na página, o menu de opções da VEC é exibido. Além disso, quando você clica em um elemento, o caminho DOM correspondente é exibido na parte inferior da página.
+Ao clicar em um elemento na página, o menu de opções de VEC é exibido. Além disso, ao clicar em um elemento, o caminho DOM correspondente é exibido na parte inferior da página.
 
 ![Caminho DOM](/help/c-experiences/c-visual-experience-composer/assets/dom-path.png)
 
-Você pode usar o caminho DOM para ver rapidamente informações sobre o elemento selecionado (tipo, ID e classe) e mover para cima ou para baixo o caminho DOM para selecionar o elemento desejado.
+Você pode usar o caminho DOM para ver rapidamente as informações sobre o elemento selecionado (tipo, ID e classe) e mover para cima ou para baixo o caminho DOM para selecionar o elemento desejado.
 
-Quando você passa o mouse sobre o caminho DOM, uma caixa azul destaca o elemento correspondente no VEC. Quando você clica no elemento, uma caixa laranja destaca o elemento e o menu de opções da VEC é exibido, conforme explicado acima.
+Quando você passa o mouse sobre o caminho DOM, uma caixa azul destaca o elemento correspondente no VEC. Quando você clica no elemento, uma caixa laranja destaca o elemento e o menu de opções do VEC é exibido, conforme explicado acima.
 
-Você pode navegar facilmente para qualquer elemento pai, irmão ou filho dentro do VEC usando o caminho DOM.
+É possível navegar com facilidade em qualquer elemento pai, irmão ou filho do VEC usando o caminho DOM.
 
-O recurso de caminho DOM também está disponível ao configurar o rastreamento [de cliques](/help/c-activities/r-success-metrics/click-tracking.md).
+O recurso de caminho DOM também está disponível ao configurar o [rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md).
