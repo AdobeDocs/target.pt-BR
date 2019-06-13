@@ -7,8 +7,8 @@ solution: Target
 title: Como a at.js gerencia a cintilação
 topic: Padrão
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,9 +29,9 @@ A opacidade definida para 0 mantém o conteúdo da página oculto para evitar ci
 
 Se a opacidade 0 não funcionar na implementação, você também poderá gerenciar a cintilação personalizando `bodyHiddenStyle` e configurando-a `body {visibility:hidden !important}`. Você pode usar o corpo de valor `{opacity:0 !important` ou `body {visibility:hidden !important}`, o que funcionar melhor para a circunstância específica.
 
-A ilustração a seguir mostra as chamadas Ocultar corpo e Mostrar corpo no at.js 1.*x* e at. js 2. x.
+A ilustração a seguir mostra as chamadas Ocultar corpo e Mostrar corpo no at.js 1.*x* e at.js 2.x.
 
-**at. js 2. x**
+**at.js 2.x**
 
 ![Fluxo do Target: Solicitação de carregamento de página da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ Em vez do padrão:
 body {opacity: 0 !important}
 ```
 
-## Gerenciar cintilação em at. js 2. x para triggerview ()
+## Gerenciamento de cintilação na at.js 2.x para triggerView()
 
-Ao usar `triggerView()` para mostrar o conteúdo direcionado em seu SPA, o gerenciamento de cintilação é fornecido imediatamente. Isso significa que a lógica pré-ocultar não precisa ser adicionada manualmente. Em vez disso, o at. js 2. x antecipará o local onde sua exibição precisa ser exibida antes de aplicar o conteúdo direcionado.
+Ao usar `triggerView()` para mostrar o conteúdo direcionado em seu SPA, o gerenciamento de cintilação é fornecido imediatamente. Isso significa que a lógica pré-ocultar não precisa ser adicionada manualmente. Em vez disso, a at.js 2.x pré-oculta o local em que sua exibição precisa ser mostrada antes de aplicar o conteúdo direcionado.
 
 ## Gerenciamento de cintilação com getOffer() e applyOffer()
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Usar uma mbox regional com mboxcreate () no At. js 1. x (não suportado em at. js 2. x)
+## Uso de uma mbox regional com mboxCreate() na at.js 1.x (não compatível na at.js 2.x)
 
 Se você usar uma implementação de mbox regional, poderá usar `mboxCreate()` com sua página provisionada semelhante ao seguinte código de exemplo:
 
