@@ -7,8 +7,8 @@ solution: Target
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ A metodologia de contagem especifica o que o Target usa como denominador para as
 
 Para o relatório Atividades, os administradores podem alterar a métrica padrão para que, toda vez que executem o relatório, mostrem as mesmas métricas. Caso contrário, o relatório será padronizado com a última métrica aplicada ao seu último relatório.
 
-Para mais informações, consulte [Selecionar métricas de relatório padrão](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) no guia *Ajuda da interface de Reports and Analytics*.
+Para obter mais informações, consulte [Selecionar métrica de relatório padrão](https://marketing.adobe.com/resources/help/pt_BR/sc/user/t_metrics_set_default.html) no guia de *Ajuda da interface de Reports and Analytics*.
 
 ## Quando aplico um segmento à métrica (com uma métrica calculada) ao aplicar o segmento ao relatório? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -110,13 +110,13 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para geração de relatório do Target, porque você não está comparando a atividade com atividade do Target para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
-Para obter mais informações, consulte [Variáveis de conversão (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) na ajuda do Analytics.
+Para obter mais informações, consulte [Variáveis de conversão (eVar)](https://marketing.adobe.com/resources/help/pt_BR/reference/conversion_var_admin.html) na Ajuda do Analytics.
 
 ## Por que o Analytics e o Analytics for Target (A4T) calculam números para a métrica de visitantes únicos de maneira diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Quando você executa um teste A/B, que usa o teste t de Estudante (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que existe um horizonte de tempo fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho de amostra fixo.
 
-A métrica de visitantes únicos é diferente no Analytics e no Target apenas quando você está analisando um período de tempo menor do que o teste real. Se você não atingiu o tamanho da amostra, o teste não é tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
+A métrica de visitantes únicos é diferente no Analytics e no Target apenas quando você está analisando um período de tempo menor do que o teste real. Se você não atingiu o tamanho da amostra, o teste não é tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no site de [Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
 
 A métrica Visitantes únicos exibe o número de pessoas que foram expostas ao teste que visitaram o site durante o período especificado. Essas pessoas ainda fazem parte do teste e devem ser contadas. Se quiser ver apenas o número de pessoas que foram expostas durante uma única semana, você pode criar um segmento de visitantes que tiveram uma impressão de atividade e aplicá-lo ao relatório.
 
@@ -130,18 +130,18 @@ A lista a seguir explica os motivos pelos quais o mesmo visitante pode ser conta
 * Se o visitante estiver usando o `mbox3rdPartyId`, quando o visitante anônimo for mesclado ao perfil de ID de terceiros, o Target poderá colocar o visitante em uma experiência diferente para corresponder ao ID de terceiros. Para obter mais informações, consulte [Sincronização de perfil em tempo real para mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * O Analytics pode estar rastreando diferentes dispositivos como o mesmo visitante de uma maneira diferente que o Target rastreia esses dispositivos. A configuração da ID de terceiros no Target é diferente da configuração do Analytics.
 
-## O A 4 T suporta conjuntos de relatórios virtuais?
+## O A4T suporta conjuntos de relatórios virtuais?
 
-Os conjuntos de relatórios virtuais *não* estão incluídos na lista Conjunto de relatórios e nos públicos-alvo de conjuntos de relatórios virtuais não são suportados nos relatórios A 4 T.
+Os conjuntos de relatórios virtuais *não* estão incluídos na lista de Conjunto de relatórios e os públicos-alvo de conjuntos de relatórios virtuais não são suportados nos relatórios A4T.
 
-## É possível alterar a porcentagem da alocação de tráfego em uma atividade que usa A 4 T depois que a atividade foi ativada?
+## É possível alterar a porcentagem da alocação de tráfego em uma atividade que usa o A4T depois de ativá-la?
 
-Alterar a porcentagem de alocação de tráfego em uma atividade após a ativação pode causar relatórios inconsistentes no Analytics, pois a alteração afeta apenas os novos visitantes. Os visitantes recorrentes não são afetados.
+Alterar a porcentagem da alocação de tráfego em uma atividade após a ativação pode causar relatórios inconsistentes no Analytics, pois a alteração afeta apenas os novos visitantes. Os visitantes recorrentes não são afetados.
 
-Como prática recomendada, você deve parar a atividade existente e criar uma nova atividade em vez de alterar a porcentagem depois da ativação. O relatório para a nova atividade começa com novos visitantes e os dados de visitantes recorrentes não geram relatórios inconsistentes.
+Como prática recomendada, você deve interromper a atividade existente e criar uma nova atividade, em vez de alterar a porcentagem depois da ativação. Os relatórios para a nova atividade começam com os novos visitantes e os dados de visitantes recorrentes não causam relatórios inconsistentes.
 
-## É possível exibir meus dados de atividade do Target na Adobe Analysis Workspace?
+## Posso exibir meus dados de atividade do Target na Adobe Analysis Workspace?
 
-É possível usar [!DNL Adobe Analysis Workspace] para pesquisar mais fundo e visualizar os dados ou descobrir insights ocultos abaixo da superfície.
+É possível usar a [!DNL Adobe Analysis Workspace] para pesquisar mais e visualizar os dados ou descobrir insights ocultos nas entrelinhas.
 
-Para obter informações detalhadas e exemplos, abra o [Analytics &amp; Target: Práticas recomendadas para tutorial de Análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecidas pela Adobe Experience Manager.
+Para obter informações e exemplos detalhados, abra o [tutorial Analytics e Target: práticas recomendadas da Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pelo Adobe Experience League.
