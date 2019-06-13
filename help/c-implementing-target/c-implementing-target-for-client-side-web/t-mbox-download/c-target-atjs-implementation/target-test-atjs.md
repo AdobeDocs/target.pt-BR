@@ -4,8 +4,8 @@ seo-description: Informações sobre como implementar com segurança a at.js em 
 seo-title: Implementar a at.js em um ambiente de não-produção
 title: Implementar a at.js em um ambiente de não-produção
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
-translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Se usar o DTM, poderá salvar facilmente a at.js na sua configuração do Adobe 
 
 Depois de salvar a biblioteca, use a ferramenta DTM Switch para testá-la em seu código de produção. Isso também facilitará o suporte dos consultores da Adobe.
 
-Para obter mais informações, consulte [Opção 3: implementar o Target manualmente com a Biblioteca de JavaScript do Target hospedada pelo DTM](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) no guia de _Práticas recomendadas para a implementação do Adobe Target usando o Dynamic Tag Management_.
+Para obter mais informações, consulte [Opção 3: Implementar o Target manualmente com a biblioteca de JavaScript do Target hospedada por DTM](https://marketing.adobe.com/resources/help/pt_BR/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) nas _Práticas recomendadas para implementar o Adobe Target usando o guia de Dynamic Tag Management_.
 
 ## Use a extensão &quot;Requestly&quot; do Chrome para mapear a outro arquivo
 
@@ -28,7 +28,7 @@ Para obter mais informações, consulte [Opção 3: implementar o Target manualm
 >
 >Além das seguintes informações, você pode usar a extensão de navegador [Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para Google Chrome.
 
-O [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) é uma extensão gratuita do Chrome que permite redirecionar solicitações para um URL alternativo.
+[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=pt_br) é uma extensão gratuita do Chrome que permite redirecionar solicitações para um URL alternativo.
 
 Você implanta a at.js a um URL e usa Requestly para mapear o URL do arquivo mbox.js ao novo URL de at.js. Sempre que seu site tentar carregar a mbox.js, ele carregará a at.js. Essa abordagem também facilita o fornecimento de suporte pela Adobe.
 
@@ -40,9 +40,9 @@ Para obter um melhor suporte da Adobe, implante o arquivo em um ambiente que a A
 
 ## Use Charles ou Fiddler para mapear a um arquivo local
 
-O [Charles Web Debugging Proxy](https://www.charlesproxy.com/) é um aplicativo disponível para Mac e Windows, cujo recurso Map Local pode ser usado para mapear o carregamento de seu arquivo mbox.js de produção em uma cópia local da at.js. Uma versão de avaliação gratuita está disponível para download para Mac e Windows.
+[Charles Web Debugging Proxy](https://www.charlesproxy.com/) é um aplicativo disponível para Mac e Windows, cujo recurso Local do mapa pode ser usado para mapear o carregamento do arquivo mbox.js de produção para uma cópia local da at.js. Uma versão de avaliação gratuita está disponível para download para Mac e Windows.
 
-O [Fiddler](https://www.telerik.com/fiddler) é uma ferramenta similar disponível gratuitamente para download para o Windows.
+[Fiddler](https://www.telerik.com/fiddler) é uma ferramenta semelhante disponível como download gratuito para Windows.
 
 ## Implantar em outro ambiente gerenciador de tags
 
