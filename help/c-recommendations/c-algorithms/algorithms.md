@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
-translation-type: tm+mt
-source-git-commit: f8d7a0049a1e07660538feaf53d591f3660dab5c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
