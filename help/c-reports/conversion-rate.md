@@ -7,8 +7,8 @@ solution: Target
 title: Índice de conversão
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: tm+mt
-source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -55,7 +55,7 @@ Consulte [Nível de confiança e intervalo de confiança](../c-reports/conversio
 
 ## Dados de varejo {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Os dados de AOV, RPV e Vendas são exibidos para cada experiência se você inseriu uma mbox [de Pedido local](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) e a selecionou como a mbox de conversão.
+Dados de AOV, RPV e Vendas são exibidos para cada experiência se você inseriu uma mbox [Fazer pedido](https://marketing.adobe.com/resources/help/pt_BR/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) e a selecionou como a mbox de conversão.
 
 ## Nível de confiança e intervalo de confiança {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -107,7 +107,7 @@ O *intervalo de confiança* é uma faixa dentro da qual o valor real pode ser en
 
 O [download do relatório de CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
-Para calcular essas métricas, baixe o arquivo em Excel [Calculadora de confiança completa do Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para inserir o valor da atividade ou analisar os [cálculos estatísticos usados pelo Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+Para calcular essas métricas, baixe o arquivo do Excel da [Calculadora de confiança completa do Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para inserir o valor da atividade ou revise os [cálculos estatísticos usados pelo Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -127,14 +127,14 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 1. Clique em **[!UICONTROL Ferramentas]** &gt; **[!UICONTROL Data Warehouse]**.
 1. Na guia **[!UICONTROL Solicitação de Data Warehouse], preencha os campos.**
 
-   Para obter mais informações sobre cada campo, consulte &quot;Descrições do Data Warehouse&quot; em [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Para obter mais informações sobre cada campo, consulte “Descrições de Data Warehouse” em [Data Warehouse](https://marketing.adobe.com/resources/help/pt_BR/reference/data_warehouse.html).
 
    | Campo | Instruções |
    |--- |--- |
    | Nome da solicitação | Especifique um nome para sua solicitação. |
    | Data de relatório | Especifique um período de tempo e granularidade.<br>Como prática recomendada, escolha não mais que uma hora ou um dia de dados para sua primeira solicitação.  Os arquivos do Data Warehouse demoram mais para processar quanto mais longo for o tempo solicitado, por isso, é sempre uma prática recomendada solicitar primeiro um pequeno período de tempo para garantir que o arquivo retorne o resultado esperado. Em seguida, vá para o Gerenciador de solicitações, duplique sua solicitação e solicite mais dados pela segunda vez. Além disso, se você alternar a granularidade para algo diferente de &quot;Nenhum&quot;, o tamanho do arquivo aumentará drasticamente.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Segmentos disponíveis | Aplique um segmento, se necessário. |
-   | Detalhamentos | Selecione as dimensões desejadas:  O padrão é pronto (OOTB), enquanto o Personalizado inclui eVars e props. Recomenda-se a utilização de &quot;ID de visitante&quot; se forem necessárias informações ao nível da ID de visitante, em vez de &quot;ID de visitante da Experience Cloud&quot;.<ul><li>ID do visitante é a ID final usada pelo Analytics. Ela será AID (se o cliente for legado) ou MID (se o cliente for novo ou tiver eliminado os cookies desde que o serviço de identificação de visitante do MC foi iniciado).</li><li>A ID de visitante da Experience Cloud só será definida para clientes novos ou com cookies eliminados desde que o serviço de ID de visitante do MC foi iniciado.</li></ul> |
+   | Detalhamentos | Selecione as dimensões desejadas: O padrão é pronto (OOTB), enquanto o Personalizado inclui eVars e props. Recomenda-se a utilização de &quot;ID de visitante&quot; se forem necessárias informações ao nível da ID de visitante, em vez de &quot;ID de visitante da Experience Cloud&quot;.<ul><li>ID do visitante é a ID final usada pelo Analytics. Ela será AID (se o cliente for legado) ou MID (se o cliente for novo ou tiver eliminado os cookies desde que o serviço de identificação de visitante do MC foi iniciado).</li><li>A ID de visitante da Experience Cloud só será definida para clientes novos ou com cookies eliminados desde que o serviço de ID de visitante do MC foi iniciado.</li></ul> |
    | Métricas | Selecione sua métrica desejada. O padrão é OOTB, enquanto o Personalizado inclui eventos personalizados. |
    | Visualização de Relatório | Revise suas configurações antes de agendar o relatório.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | Agendar entrega | Digite um endereço de email para entregar o arquivo, nomeie o arquivo e selecione [!UICONTROL Enviar imediatamente].<br>Observação: o arquivo pode ser entregue via FTP em [!UICONTROL Opções avançadas de entrega]<br>![Programar entrega](/help/c-reports/assets/datawarehouse3.png). |
@@ -147,8 +147,8 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 
 Para obter mais informações sobre [!DNL Data Warehouse], consulte os seguintes links na documentação de ajuda do [!DNL Analytics]:
 
-* [Criar uma solicitação de Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Práticas recomendadas do Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Criar uma solicitação de Data Warehouse](https://marketing.adobe.com/resources/help/pt_BR/reference/t_dw_create_request.html)
+* [Práticas recomendadas do Data Warehouse](https://marketing.adobe.com/resources/help/pt_BR/reference/data_warehouse_bp.html)
 
 ## Metodologia de contagem {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
