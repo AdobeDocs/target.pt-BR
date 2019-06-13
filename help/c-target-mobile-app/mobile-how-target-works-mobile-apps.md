@@ -4,8 +4,8 @@ seo-description: O Adobe Mobile SDK entra em contato com o servidor do Target pa
 seo-title: Como o Target funciona em aplicativos móveis
 title: Como o Target funciona em aplicativos móveis
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
