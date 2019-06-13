@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
 1. Para usar o Visual Experience Composer (VEC), clique em **[!UICONTROL Visual (Padrão)]**.
 
    Se preferir usar o Experience Composer baseado em formulário, selecione **[!UICONTROL Formulário]**. Para obter mais informações sobre os dois compositores, consulte [Experiências](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+
+   >[!NOTE]
+   >
+   >Além do VEC e do Criador de experiências baseado em forma, o Target oferece o VEC do aplicativo de página única e o VEC para aplicativos móveis. Para obter mais informações sobre os vários compositores, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
 
 1. Verifique ou insira o URL da atividade e clique em **[!UICONTROL Avançar]**.
 
