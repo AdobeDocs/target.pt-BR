@@ -7,8 +7,8 @@ solution: Target
 subtopic: Introdução
 title: Detalhes da versão da mbox.js
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ A maneira como o Target responde a chamadas de sua página dependerá da versão
 
 **Versão do Target:** 17.7.1
 
-A [!DNL mbox.js] versão 63 já está disponível. Para obter mais informações, consulte [Baixar a mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html).
+A [!DNL mbox.js] versão 63 já está disponível. Para obter mais informações, consulte [Baixar mbox.js](https://marketing.adobe.com/resources/help/pt_BR/target/ov/t_target-download-config-mbox.html).
 
 Os seguintes aprimoramentos e correções estão incluídos na [!DNL mbox.js] versão 63:
 
@@ -136,7 +136,7 @@ window.targetGlobalSettings = {
 </script> 
 ```
 
-A mbox.js versão 58 e posterior executa conteúdo não-JavaScript para a mbox global imediatamente após a tag HTML `BODY` estar presente. O conteúdo javascript nas tags `<script>` da mbox global é executado depois que o evento `DOMContentLoaded` é acionado. Esta ordem de entrega de conteúdo garante que o conteúdo JavaScript da mbox global seja entregue e renderizado corretamente.
+A mbox.js versão 58 e posterior executa conteúdo não-JavaScript para a mbox global imediatamente após a tag HTML `BODY` estar presente. O conteúdo JavaScript nas tags `<script>` da mbox global é executado depois que o evento `DOMContentLoaded` é acionado. Esta ordem de entrega de conteúdo garante que o conteúdo JavaScript da mbox global seja entregue e renderizado corretamente.
 
 ## mbox.js versão 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
@@ -159,7 +159,7 @@ As seguintes alterações foram feitas nesta versão:
 
       `<script src='external-url' async='true'></script>`
 
-      Observe que o atributo `async` tem suporte limitado no Internet Explorer (veja os detalhes aqui: [https://developer.mozilla.org/pt/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)); por isso, exclua os visitantes que usam versões mais antigas do IE dos testes que incluem esses scripts de terceiros.
+      Observe que o `async` atributo tem suporte limitado no Internet Explorer (detalhes aqui: [https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/script#Browser_compatibility)), portanto, você deve excluir visitantes que usam versões do IE mais antigas dos testes que incluem esses scripts de terceiros.
 
 * Houve correção dos problemas relatados na versão 56 devido a alterações na seção de JavaScript extra da mbox.js. Todos os códigos na seção de JavaScript extra já estão disponíveis novamente no escopo global.
 
@@ -246,7 +246,7 @@ Agora, a função mboxParameter funciona no Target Standard e Premium.
 
 Um problema que impedia o Analytics de funcionar no IE 9 &amp; 11 foi corrigido. Essa alteração afeta apenas os usuários do Analytics.
 
-Agora você pode [passar parâmetros](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) como uma matriz, como um objeto JSON ou como uma lista delimitada por vírgulas (que tinham suporte antes) para target-global-mbox usando a função targetPageParams().
+Agora você pode [transmitir parâmetros](https://marketing.adobe.com/resources/help/pt_BR/target/ov/c_pass_parameters_to_global_mbox.html) como uma matriz, como um objeto JSON ou como uma lista delimitada por vírgulas (anteriormente compatível) para target-global-mbox usando a função targetPageParams().
 
 M2PcId foi renomeado e tudo relacionado à VisitorId.
 
