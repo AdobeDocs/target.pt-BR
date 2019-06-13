@@ -7,8 +7,8 @@ solution: Target
 title: Atualizações do status do sistema
 topic: Padrão
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
-translation-type: tm+mt
-source-git-commit: fcfbd04b9761b2a183afa383e730bcd836699501
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Use a página [!UICONTROL Status do sistema da Adobe] e as notificações proati
 
 ## Atualizações do status do sistema
 
-Use [!DNL Adobe Experience Cloud]a página [!UICONTROL Status do sistema da Adobe] para visualizar o status atual dos produtos da [!DNL Target] e das soluções da [!DNL Adobe]. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
+Use a página [!UICONTROL Status do sistema da Adobe] para visualizar o status atual do [!DNL Target] e outros produtos da [!DNL Adobe] e das soluções da [!DNL Adobe Experience Cloud]. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
 
 Acesse a página [!UICONTROL Status do sistema] no seguinte URL:
 
