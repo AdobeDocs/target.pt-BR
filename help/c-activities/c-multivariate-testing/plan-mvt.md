@@ -6,8 +6,8 @@ seo-title: Planejar um teste multivariado
 solution: Target
 title: Planejar um teste multivariado
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
