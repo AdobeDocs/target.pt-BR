@@ -7,8 +7,8 @@ solution: Target
 title: Metas e Configurações
 topic: Padrão
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -64,7 +64,7 @@ As seguintes configurações estão disponíveis:
 
 ### Solução de relatório
 
-Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como fonte de relatório para o Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) para saber quais são as diferenças entre as soluções de relatório e as vantagens de cada uma.
+Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como Fonte de relatórios para o Target](https://marketing.adobe.com/resources/help/pt_br/target/a4t/a4t.html) para saber mais sobre as diferenças entre as soluções de relatórios e as vantagens de cada uma.
 
 Ao selecionar o Analytics como fonte de relatórios para o Target, você seleciona um conjunto de relatórios do Analytics para receber os dados de atividade do Target. Para fazer isso, primeiro escolha uma das empresas do Analytics vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para se conectar ao Adobe Target estarão disponíveis para seleção. Se não vir os conjuntos de relatórios esperados, primeiro, experimente sair e entrar na Adobe Experience Cloud para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o atendimento ao cliente.
 
@@ -78,11 +78,11 @@ Se uma solução de relatório for especificada nas suas configurações da cont
 
 ### Meta
 
-Selecione a ação executada por um visitante para atingir a meta. Por exemplo, escolha uma métrica de Conversão e defina os parâmetros que determinam quando o sucesso é obtido. 
+Selecione a ação executada por um visitante para atingir a meta. Por exemplo, escolha uma métrica de Conversão e defina os parâmetros que determinam quando o sucesso é obtido.
 
 >[!NOTE]
 >
->Se a solução de relatório for definida como Analytics, a única métrica de objetivo disponível será Conversão. As métricas do Analytics não podem ser selecionadas como uma meta. 
+>Se a solução de relatório for definida como Analytics, a única métrica de objetivo disponível será Conversão. As métricas do Analytics não podem ser selecionadas como uma meta.
 
 Quando você selecionar sua métrica de sucesso, um seletor será exibido. Use esse seletor para escolher as especificações da métrica de sucesso.
 
@@ -92,13 +92,13 @@ Após atingir o objetivo da atividade, um visitante continua vendo o conteúdo d
 
 ### Métricas adicionais
 
-Crie métricas de sucesso adicionais. 
+Crie métricas de sucesso adicionais.
 
 Essa configuração não estará disponível se a solução de relatório estiver definida como Analytics. Nesse caso, as métricas definidas para o conjunto de relatórios do Analytics serão aplicadas.
 
 Públicos-alvo para geração de relatórios
 
-### Por padrão, os relatórios mostram os resultados para todos os visitantes qualificados. Você pode incluir públicos-alvo do relatório para mostrar apenas informações sobre públicos-alvo específicos. 
+### Por padrão, os relatórios mostram os resultados para todos os visitantes qualificados. Você pode incluir públicos-alvo do relatório para mostrar apenas informações sobre públicos-alvo específicos.
 
 ## Configurações avançadas {#section_E2FE441AFB324E498793ABB025ED9974}
 
@@ -112,11 +112,11 @@ As configurações avançadas estão disponíveis para as métricas de meta do T
 
 ### Qual métrica de sucesso deve ser atingida antes do aumento dessa métrica?
 
-Use esta opção para contar alguém que atingiu a métrica de sucesso somente se essa pessoa tiver atingido uma métrica de sucesso diferente antes. Por exemplo, uma conversão de teste só pode ser válida se o visitante clica na oferta ou alcança a uma página específica antes da conversão. 
+Use esta opção para contar alguém que atingiu a métrica de sucesso somente se essa pessoa tiver atingido uma métrica de sucesso diferente antes. Por exemplo, uma conversão de teste só pode ser válida se o visitante clica na oferta ou alcança a uma página específica antes da conversão.
 
-É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. 
+É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada.
 
-Você deve definir ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. 
+Você deve definir ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra.
 
 A opção Adicionar dependência permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada.
 
