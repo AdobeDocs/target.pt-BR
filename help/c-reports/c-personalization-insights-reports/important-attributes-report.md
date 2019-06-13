@@ -8,8 +8,8 @@ title: Relatório de atributos importantes
 title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
-translation-type: tm+mt
-source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -79,10 +79,10 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 **Relatórios de Insights de personalização não estão disponíveis ainda para minha atividade. Por que isso ocorre?**
 
-Há vários motivos pelos quais os relatórios de [!UICONTROL Personalização de] personalização podem ainda não estar disponíveis para a atividade:
+Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de personalização] podem ainda não estar disponíveis para a sua atividade:
 
 * O prazo de 15 dias desde que a atividade foi ativada não decorreu. Os relatórios de Segmentos automatizados e Atributos importantes não estarão disponíveis até pelo menos 15 dias após o início da atividade. Durante esse período inicial, você não poderá acessar esses relatórios ou clicar nos ícones de Segmentos automatizados e Atributos personalizados do modelo.
-* Sua atividade não teve tráfego suficiente durante o intervalo de tempo especificado. Após 15 dias passados, pressupondo que haja tráfego personalizado [suficiente](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) na atividade para criar modelos de personalização, os relatórios de Segmentos automatizados e Atributos importantes estarão disponíveis.
+* Sua atividade não teve tráfego suficiente durante o intervalo de tempo especificado. Após 15 dias, supondo que haja [tráfego personalizado suficiente](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) na atividade para criar modelos de personalização, os relatórios de Segmentos automatizados e Atributos importantes ficarão disponíveis.
 * Sua atividade tem uma meta de otimização de receita. No momento, os [!UICONTROL Insights de personalização] estão disponíveis apenas para atividades com meta de otimização de conversão. O suporte será adicionado para atividades com meta de otimização de receita em uma versão futura.
 
 **O que é um atributo?**
