@@ -6,8 +6,8 @@ seo-title: Extensão de ajuda do Adobe Target Visual Experience Composer (VEC)
 solution: Target
 title: Extensão de ajuda do Visual Experience Composer
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: 46f86cbcfb25efba2c71356fb2defc429535e706
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,17 +35,17 @@ Benefícios do uso da extensão do VEC Helper:
 
 ## Obter e instalar a extensão do navegador VEC Helper
 
-1. Navegue até a extensão [do navegador Adobe Target VEC Helper na Web Chrome](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navegue até a [extensão de navegador de ajuda do Adobe Target VEC na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Clique em [!UICONTROL Adicionar ao Chrome &gt; Adicionar extensão].
-1. Para usar a extensão, clique no ícone de extensão do navegador do VEC Helper ( ![ícone do VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) na barra de ferramentas do navegador Chrome no VEC ou no [Modo de QA](/help/c-activities/c-activity-qa/activity-qa.md).
+1. Para usar a extensão, clique no ícone de extensão do navegador do VEC Helper (![ícone do VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) na barra de ferramentas do navegador Chrome no VEC ou no [Modo de QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
-A ilustração a seguir mostra o VEC Helper com a configuração [!UICONTROL Inserir bibliotecas] do Target habilitada:
+A ilustração a seguir mostra o VEC Helper com a configuração [!UICONTROL Inserir bibliotecas do Target] ativada:
 
-![VEC helper 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+![VEC Helper 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-A ilustração a seguir mostra o VEC Helper perguntando se você deseja introduzir [!DNL Target] bibliotecas na página para ativar a criação:
+A ilustração a seguir mostra o VEC Helper perguntando se você deseja inserir bibliotecas do [!DNL Target] na página para ativar a criação:
 
-![VEC helper 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+![VEC Helper 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
 ## Notas
 
