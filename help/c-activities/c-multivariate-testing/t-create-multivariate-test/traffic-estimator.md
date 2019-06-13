@@ -6,8 +6,8 @@ solution: Target
 title: Estimar o tráfego necessário para um teste bem-sucedido
 topic: Padrão
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -38,12 +38,12 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
 
    ![](assets/estimatorempty.png)
 
-1. Forneça a taxa de conversão típica, visitantes estimados por dia e duração do teste.
+1. Forneça a taxa de conversão típica, os visitantes estimados por dia e a duração do teste.
 
-   * [!UICONTROL Número de combinações de conteúdo]: Calculado automaticamente com base no número de experiências que estão sendo criadas como parte da atividade após quaisquer exclusões.
-   * [!UICONTROL Taxa de conversão típica]: A taxa de conversão é expressa como uma porcentagem, com base na estimativa ou dados passados do sistema de análise
-   * [!UICONTROL Visitantes estimados por dia]: Esse é o número de visitantes que provavelmente visualizarão essa página com base nos critérios de definição de metas. Isso pode se basear nos dados da análise.
-   * [!UICONTROL Duração do teste]: O número de dias que deseja que a atividade seja executada.
+   * [!UICONTROL Número de combinações de conteúdo]: calculado automaticamente com base no número de experiências que estão sendo criadas como parte da atividade após as exclusões.
+   * [!UICONTROL Taxa de conversão típica]: a taxa de conversão é expressa como uma porcentagem, com base na estimativa ou dados anteriores do sistema de análise
+   * [!UICONTROL Visitantes estimados por dia]: essa é a quantidade de visitantes que provavelmente visualizarão essa página com base nos critérios de direcionamento. Isso pode se basear nos dados da análise.
+   * [!UICONTROL Duração do teste]: a quantidade de dias de duração da execução da atividade.
    O Avaliador de tráfego usa essas estatísticas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
 
    Próximo da parte superior do Avaliador de tráfego, os valores inseridos são calculados, e os resultados são exibidos.
