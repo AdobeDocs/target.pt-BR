@@ -1,14 +1,14 @@
 ---
-description: 'Informações sobre a função adobe. target. applyoffer (opções) para at. js. '
-keywords: adobe.target.notificação; elemento; seletor; notificação; extensão
-seo-description: Informações sobre a função adobe. target. applyoffer (opções) da biblioteca do Adobe Target no javascript.
-seo-title: Informações sobre a função adobe. target. applyoffer (opções) da biblioteca do Adobe Target no javascript.
+description: 'Informações sobre a função adobe.target.applyOffer(options) para at.js. '
+keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+seo-description: Informações sobre a função adobe.target.applyOffer(options) da biblioteca at.js de JavaScript do Adobe Target.
+seo-title: Informações sobre a função adobe.target.applyOffer(options) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
 subtopic: Introdução
 title: adobe.target.applyOffer(options)
 topic: Padrão
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,8 +25,8 @@ O parâmetro de opções é obrigatório e tem a seguinte estrutura:
 
 | Chave | Tipo | Obrigatório | Descrição |
 |--- |--- |--- |--- |
-| mbox | String | Sim | O Target Mbox namewith<br>at. js 1.3.0 (e posterior) exige que a chave mbox seja usada. Essa chave era exigida anteriormente, mas o Target agora a aplica para garantir que tenha a validação adequada e que os clientes estejam usando a função corretamente. |
-| selector | String   ou elemento DOM | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML onde o Target deve posicionar o conteúdo da oferta. Se nenhum seletor for fornecido, o Target presume que o elemento HTML que devemos usar é HTML HEAD. |
+| mbox | String | Sim | Nome da mbox<br>Com a at.js 1.3.0 (e posteriores), o Target exige que a tecla mbox seja usada. Essa chave era exigida anteriormente, mas o Target agora a aplica para garantir que tenha a validação adequada e que os clientes estejam usando a função corretamente. |
+| selector | String ou elemento DOM | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML onde o Target deve posicionar o conteúdo da oferta. Se nenhum seletor for fornecido, o Target presume que o elemento HTML que devemos usar é HTML HEAD. |
 | offer | Matriz | Sim | Uma ação de matriz que deve ser aplicada ao elemento. |
 
 ## Exemplo {#section_D8D6A17B73DE4542937CDB687193A5CC}
