@@ -7,17 +7,17 @@ title: Ofertas de Personalização automatizada do Target
 title-outputclass: premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Ofertas de personalização automatizada do Target{#target-automated-personalization-offers}
 
-Em uma atividade de Automated Personalization, você pode direcionar ofertas a públicos específicos.
+Em uma atividade de Personalização automatizada (AP), você pode direcionar ofertas a públicos-alvo específicos.
 
-Utilizar essa funcionalidade reduz o número de ofertas que um visitante específico está qualificado a visualizar. Por exemplo, considere uma atividade de Personalização automatizada (AP) com três ofertas. A oferta 1 tem uma regra de direcionamento que limita a exposição somente para o Público-alvo A. Dois visitantes visualizaram essa atividade AP.
+Utilizar essa funcionalidade reduz o número de ofertas que um visitante específico está qualificado a visualizar. Por exemplo, considere uma atividade AP com três ofertas. A oferta 1 tem uma regra de definição de metas que limita sua exposição ao Público A. Dois visitantes viram essa atividade AP.
 
 |  | Visitante 1 | Visitante 2 |
 |--- |--- |--- |
@@ -30,23 +30,31 @@ Neste cenário, o Visitante 1 veria a Oferta 1 (porque ele se qualifica como par
 
 ## Configurar regras de definição de metas
 
-1. Crie uma atividade de Personalização automatizada contendo as ofertas que deseja direcionar.
-1. Depois de configurar as ofertas para a atividade no Visual Experience Composer, clique em **[!UICONTROL Conteúdo]**.
+1. Crie uma [atividade de personalização automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md) contendo as ofertas que você deseja direcionar.
+1. Depois de configurar as ofertas para a atividade no Visual Experience Composer, clique **[!UICONTROL em Gerenciar conteúdo]**.
+
+   ![Gerenciar conteúdo](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    A caixa de diálogo Gerenciar conteúdo é aberta.
 
-   ![](assets/ap_content.png)
+1. Clique na guia Ofertas.
 
-   >[!NOTE]
-   >
-   >Você pode configurar 50 locais e até 250 ofertas por local.
+   ![Página de ofertas](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
-1. Na coluna **[!UICONTROL Conteúdo]**, selecione a oferta, clique em **[!UICONTROL Definição de metas]** e escolha os públicos-alvo que deseja qualificar para ver essa oferta.
+1. Selecione a (s) oferta (s) desejada (s) e escolha os públicos-alvo que deseja qualificar para ver essa oferta.
 
-   Somente os públicos-alvo selecionados serão apresentados nessa oferta.
+   Para configurar a definição de metas para uma única oferta, passe o mouse sobre a oferta desejada e clique no ícone **[!UICONTORL Definição de metas]** .
+
+   Para configurar a definição de metas para várias ofertas, marque as caixas de seleção para as ofertas desejadas e clique no ícone**[!UICONTROL Definição de metas] , que é exibido na parte superior direita da lista.
+
+1. Na caixa [!UICONTROL de diálogo Escolher público,] selecione os públicos desejados para a (s) oferta (s) e clique **[!UICONTROL em Concluído]** (Concluído) para retornar à caixa de diálogo [!UICONTROL Gerenciar conteúdo] .
 
    >[!NOTE]
    >
    >Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Clique em **[!UICONTROL Concluído]**.
+
+>[!NOTE]
+>
+>Você pode configurar 50 locais e até 250 ofertas por local.
