@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 badge: premium
-translation-type: tm+mt
-source-git-commit: 37ddc2858eb8088f470f87c1a6c0927cd96cc48e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,8 +32,8 @@ Se você selecionar vários critérios, o tráfego será dividido igualmente ent
 1. [Crie uma nova recomendação](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) ou encontre a recomendação cujos critérios você deseja definir e clique em **[!UICONTROL Editar]**.
 1. Selecione o tipo de setor e página.
 
-* **Tipo de setor:** O tipo de setor é usado para ajudar a categorizar [!DNL Recommendations] critérios. Para alterar o ramo do setor padrão, clique em **[!UICONTROL Configurações]** e selecione a configuração de **Ramo do setor]padrão desejada.[!UICONTROL **
+* **Tipo de setor:** o tipo de setor é usado para ajudar a classificar os critérios de [!DNL Recommendations]. Para alterar o ramo do setor padrão, clique em **[!UICONTROL Configurações]** e selecione a configuração de **[!UICONTROL Ramo do setor]** padrão desejada.
 * **Tipo de página:** o tipo de página ajuda a categorizar suas recomendações. Também há critérios incorporados que podem ser escolhidos para cada tipo de página.
-* **Compatível:** mostra apenas os critérios pelos quais a página selecionada passa os dados solicitados. Nem todos os critérios serão executados corretamente em cada página. A página e a mbox precisam passar pela `entity.id` ou [!DNL entity.categoryId] para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. Esta opção pode ser desativada ou ativada nas [!UICONTROL preferências] do [!DNL Target].
+* **Compatível:** mostra apenas os critérios pelos quais a página selecionada passa os dados solicitados. Nem todos os critérios serão executados corretamente em cada página. A página e a mbox precisam passar pela `entity.id` ou [!DNL entity.categoryId] para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. Esta opção pode ser desativada ou ativada nas [!DNL Target] [!UICONTROL Preferências].
 
 1. Clique em **[!UICONTROL Adicionar]**.
