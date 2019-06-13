@@ -7,29 +7,29 @@ solution: Target
 title: Variâncias esperadas de dados ao não usar o A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T{#expected-data-variances-when-not-using-a-t}
 
-Informações sobre variações de dados esperadas entre [!DNL Target] e a Adobe [!DNL Analytics] ao *usar* e *não* usar o Analytics como a Fonte de relatórios (A 4 T). A4T reduz significativamente a variação de dados.
+Informações sobre as variações de dados esperadas entre o [!DNL Target] e o Adobe [!DNL Analytics] ao *usar* ou *não* o Analytics como a Fonte de relatórios (A4T). A4T reduz significativamente a variação de dados.
 
-## Variação de dados esperada ao usar A 4 T {#expected-using-a4t}
+## Variação de dados esperada ao usar o A4T{#expected-using-a4t}
 
 Com o A4T, os relatórios de atividades do Analytics e do Target usam os dados do Analytics exclusivamente, para que não haja variância entre as soluções nos relatórios de atividade do Target. No entanto, em algumas circunstâncias, os clientes podem comparar os dados do Target aos dados do Analytics fora do escopo da integração do A4T e, assim, experimentar os problemas de variância descritos abaixo.
 
-Aqui estão alguns cenários nos quais você pode experimentar a variação de dados esperada:
+Estes são alguns cenários nos quais você pode experimentar a variação de dados esperada:
 
-* A 4 T permite a ocorrência de uma ocorrência do Target (parte superior da página), mas nenhuma ocorrência do Analytics (final da página) ocorre. Um exemplo disso seria se o usuário carregasse a página, mas fecha o navegador antes da chamada do Analytics disparar. Nesses casos, A 4 T exclui a ocorrência do Target de nossos dados. O motivo para isso é que permitir ocorrências do Target (novamente, início da página) para contar como ocorrências do Analytics na ausência de uma chamada real do Analytics criará inconsistências com o conjunto de dados no Analytics (inflação do visitante etc.).
+* O A4T permite uma ocorrência do Target (parte superior da página), mas nenhuma ocorrência do Analytics (parte inferior página). Um exemplo disso seria se o usuário carregasse a página, mas fechasse o navegador antes da chamada do Analytics ser disparada. Nesses casos, o A4T exclui a ocorrência do Target de nossos dados. O motivo para isso é que permitir que ocorrências do Target (novamente, na parte superior da página) sejam contabilizadas como ocorrências do Analytics, na ausência de uma chamada real do Analytics, criaria inconsistências com o conjunto de dados no Analytics (aumento de visitantes, etc.).
 
-   Se um teste de redirecionamento estiver configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25 etc.), o comportamento do usuário pode não ser dividido uniformemente. Se você vir uma divisão desigual, significa simplesmente que um grupo de usuários não executou uma chamada do Analytics na página de aterrissagem mais que os outros grupos fizeram. Essa falha na execução da chamada do Analytics para um grupo fazia com que a ocorrência do Target fosse excluída, criando a dessegmentação.
+   Se um teste de redirecionamento estiver configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25, etc.), o comportamento do usuário pode não ser dividido uniformemente. Caso veja uma divisão desigual, isso significa simplesmente que um grupo de usuários executou menos chamadas do Analytics na landing page do que os outros grupos. Essa falha na execução da chamada do Analytics para um grupo fez com que a ocorrência do Target para esse usuário fosse excluída, criando a desigualdade.
 
-   Esperamos abordar no futuro, à medida que trabalhamos para A 4 T na Adobe Experience Platform. Nossas equipes estão trabalhando por meio da melhor forma de lidar com esses diferentes eventos em momentos diferentes na página.
+   Esperamos abordar isso no futuro, à medida que trabalhamos com o A4T na Adobe Experience Platform. Nossas equipes estão trabalhando em como lidar da melhor maneira com esses diferentes eventos em momentos distintos na página.
 
-* Suponha que você crie uma atividade de autoalocação aberta a todos os visitantes de uma página específica. Já que as atividades de Alocação automática não são compatíveis com o A4T, todos os dados da atividade são coletados pelo [!DNL Target]. Você pode esperar que os visitantes da atividade no relatório [!DNL Target] correspondam aos visitantes dessa página nos relatórios [!DNL Analytics] para o mesmo intervalo de datas. Este é um cenário no qual a variância descrita abaixo é esperada.
+* Suponha que você crie uma atividade de Alocação automática aberta a todos os visitantes para uma página específica. Já que as atividades de Alocação automática não são compatíveis com o A4T, todos os dados da atividade são coletados pelo [!DNL Target]. Você pode esperar que os visitantes da atividade no relatório [!DNL Target] correspondam aos visitantes dessa página nos relatórios [!DNL Analytics] para o mesmo intervalo de datas. Este é um cenário no qual a variância descrita abaixo é esperada.
 
    Para obter uma lista completa dos tipos de atividades que são compatíveis com o A4T, consulte [Tipos de atividade compatíveis](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
