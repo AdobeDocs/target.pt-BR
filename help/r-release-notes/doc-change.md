@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 14 de junho de 2019 | [Criar experiência](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Texto e imagens atualizados. |
+| 14 de junho de 2019 | [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) | Cenário de uso de maiúsculas e minúsculas adicionado. |
 |  | [Criar uma atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Texto e imagens atualizados. |
+|  | XT: [URL da atividade](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Texto atualizado. |
+|  | XT: [Criar experiência](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Texto e imagens atualizados. |
+|  | [Alternar experiências em direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | Texto e imagens atualizados. |
+|  | XT: [Metas e configurações](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | Texto e imagens atualizados. |
+|  | XT: [Definir métricas](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | Texto e imagens atualizados. |
 | 13 de junho de 2019 | [Relatório de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Novas perguntas frequentes adicionadas: &quot; Por que algumas ofertas/experiências com taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação com outras ofertas/experiências para um determinado segmento automatizado? &quot; |
 |  | [Criar uma atividade de Automated Personalization](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Texto e imagens atualizados. |
 |  | [Estimativa de tráfego exigido para o sucesso](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Nova imagem adicionada. |
