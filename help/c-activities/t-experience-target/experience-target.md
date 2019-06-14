@@ -6,8 +6,8 @@ seo-title: Direcionamento de experiência
 solution: Target
 title: Direcionamento de experiência
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 ---
 
@@ -16,11 +16,17 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 
-O Direcionamento de experiência, incluindo a [geolocalização](../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670), é algo valioso para definir regras que direcionem uma experiência ou conteúdo específico para um público em particular. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
+A segmentação de experiência, incluindo [a geolocalização](/help/c-target/c-audiences/c-target-rules/geo.md), é valiosa para definir regras que direcionam uma experiência ou conteúdo específico para um público específico. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
 
 Quando visitantes acessam seu site, o direcionamento de experiência (XT) os avalia para determinar se eles atendem os critérios que você definiu. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
 
 O Direcionamento de experiência é uma primeira etapa no mundo da personalização e geralmente começa com testes A/B. Um profissional de marketing executada um teste A/B e por meio do uso dos públicos-alvo de relatório, descobre que diferentes experiências ressoam com públicos-alvo diferentes. O Direcionamento de experiência permite que o profissional de marketing aproveite facilmente essa descoberta e alterne para o direcionamento de longo prazo do conteúdo dos diferentes segmentos de usuários.
+
+## Cenário: Direcionamento da experiência
+
+Suponha que seu site tenha recursos para o seu site. Seus relatórios para teste A/B indicam que você tem três experiências que reonizam com públicos diferentes. Para aproveitar essa descoberta, você deseja exibir uma imagem herói diferente na página inicial para apelar a esses públicos diferentes, dependendo da localização dos visitantes ou das hobbies. Neste cenário, você deseja exibir uma imagem de caminhada para os visitantes de Nova Jersey e uma imagem de surfe para os visitantes do Havon. Você também tem um público que curtiram a bicitação. Você deseja exibir uma terceira imagem principal que apela ao seu público-alvo biográfico.
+
+Uma atividade de XT permite direcionar esses três públicos com uma imagem herói diferente que convida cada público-alvo. O vídeo abaixo, *de Teste A/B para direcionamento* da experiência, mostra como criar experiências direcionadas para ambos os estados e uma terceira experiência direcionada para convidados biográficos. O vídeo também mostra como ordenar as três experiências para atingir suas metas. Assista ao vídeo e prossiga com [Criar uma atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Vídeos de treinamento:
 
@@ -34,7 +40,7 @@ Este vídeo descreve como elevar os testes A/B para o próximo nível com o dire
 * Descreve como entregar conteúdo específico de localidade para públicos -alvo localizados em áreas geográficas diferentes
 * Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=por_br)
 
 ### Tipos de atividades (9:03)
 
@@ -44,4 +50,4 @@ Este vídeo explica os tipos de atividade disponíveis no Target Standard/Premiu
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
