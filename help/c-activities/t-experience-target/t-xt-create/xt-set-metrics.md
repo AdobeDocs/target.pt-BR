@@ -1,13 +1,13 @@
 ---
 description: Use métricas em uma atividade Direcionamento de experiência (XT) para determinar quando uma visita obtém sucesso.
 keywords: direcionamento de experiência; xt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-seo-description: Use métricas em uma atividade Direcionamento de experiência (XT) para determinar quando uma visita obtém sucesso.
+seo-description: Use as métricas em uma atividade de direcionamento de experiência do Adobe Target (XT) para determinar quando uma visita é bem-sucedida.
 seo-title: Definir métricas
 solution: Target,standard
 title: Definir métricas
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,7 +21,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte [Métri
 1. Especifique a meta da atividade.
 1. Selecione uma métrica [de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/ab_metrics.png)
+   ![Selecionar métrica de sucesso](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
    A página de [!UICONTROL Métricas selecionadas] lista as métricas de sucesso que você pode escolher para sua atividade. As métricas de sucesso são divididas nas seguintes categorias:
 
@@ -61,4 +61,4 @@ Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=por_br)
