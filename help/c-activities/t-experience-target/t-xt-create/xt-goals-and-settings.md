@@ -7,8 +7,8 @@ solution: Target
 title: Metas e Configurações
 topic: Padrão
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -23,7 +23,7 @@ A página de Metas e Configurações é onde você insere informações sobre as
 
 As configurações disponíveis dependem do uso [!DNL Target] ou [!DNL Analytics] da fonte de dados.
 
-![](assets/ab_settings.png)
+![Página Configurações da atividade](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Configurações da atividade {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -64,7 +64,7 @@ As seguintes configurações estão disponíveis:
 
 ### Solução de relatório
 
-Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como Fonte de relatórios para o Target](https://marketing.adobe.com/resources/help/pt_br/target/a4t/a4t.html) para saber mais sobre as diferenças entre as soluções de relatórios e as vantagens de cada uma.
+Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como fonte de relatório para o Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) para saber quais são as diferenças entre as soluções de relatório e as vantagens de cada uma.
 
 Ao selecionar o Analytics como fonte de relatórios para o Target, você seleciona um conjunto de relatórios do Analytics para receber os dados de atividade do Target. Para fazer isso, primeiro escolha uma das empresas do Analytics vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para se conectar ao Adobe Target estarão disponíveis para seleção. Se não vir os conjuntos de relatórios esperados, primeiro, experimente sair e entrar na Adobe Experience Cloud para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o atendimento ao cliente.
 
@@ -76,7 +76,7 @@ Se uma solução de relatório for especificada nas suas configurações da cont
 >
 >Não é possível alterar a fonte de relatórios depois que a atividade entra em vigor para manter os relatórios consistentes.
 
-### Meta
+### Métrica de objetivo
 
 Selecione a ação executada por um visitante para atingir a meta. Por exemplo, escolha uma métrica de Conversão e defina os parâmetros que determinam quando o sucesso é obtido.
 
@@ -104,11 +104,15 @@ Por padrão, os relatórios mostram os resultados para todos os visitantes quali
 
 Esta configuração não está disponível quando você escolhe o Analytics como a solução de geração de relatórios. O público-alvo definido para o conjunto de relatórios do Analytics é aplicado.
 
+## Outros metadados
+
+Digite qualquer informação sobre sua atividade que seja útil para manter ao seu alcance ou de outros membros da equipe. O painel de Observações é redimensionável.
+
 ## Configurações avançadas {#section_E2FE441AFB324E498793ABB025ED9974}
 
 As configurações avançadas estão disponíveis para as métricas de meta do Direcionamento de experiência.
 
-![](assets/Menu_AdvancedSettings.png)
+![Configurações avançadas](/help/c-activities/t-experience-target/t-xt-create/assets/Menu_AdvancedSettings-new.png)
 
 >[!NOTE]
 >
@@ -118,7 +122,7 @@ As seguintes configurações estão disponíveis:
 
 ### Qual métrica de sucesso deve ser atingida antes do aumento dessa métrica?
 
-Use esta opção para contar alguém que atingiu a métrica de sucesso somente se essa pessoa tiver atingido uma métrica de sucesso diferente antes. Por exemplo, uma conversão de teste só pode ser válida se o visitante clica na oferta ou alcança a uma página específica antes da conversão.
+Use esta opção para contar alguém que atingiu a métrica de sucesso somente se essa pessoa tiver atingido uma métrica de sucesso diferente antes. Por exemplo, uma conversão de teste pode ser válida somente se o visitante clicar na oferta ou acessar uma página específica antes da conversão.
 
 É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada.
 
@@ -128,15 +132,14 @@ A opção Adicionar dependência permite que a métrica de sucesso seja incremen
 
 Para adicionar uma dependência:
 
-1. Depois de adicionar outras métricas, clique em Configurações avançadas.
-2. Clique na opção Adicionar dependência:
+1. Depois de adicionar outras métricas, clique em **[!UICONTROL Configurações avançadas]**.
+2. Clique **[!UICONTROL em Adicionar dependência]**:
 
-   ![](assets/add_dependency.png)
+   ![Adicionar link de dependência](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em Alcançado para alternar a configuração entre Alcançado e Não alcançado.
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Caixa de diálogo Adicionar dependência de métricas](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 É possível editar ou remover dependências depois de adicioná-las.
 
@@ -150,14 +153,6 @@ Há três opções para o que acontece depois que um visitante atinge a métrica
 
 Consulte [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) para obter mais informações sobre configurações avançadas.
 
-## Outros metadados {#section_2E8917BEFB954480A4206B9E9E917F80}
-
-A seguinte configuração está disponível:
-
-### Notas
-
-Digite qualquer informação sobre sua atividade que seja útil para manter ao seu alcance ou de outros membros da equipe. O painel de Observações é redimensionável.
-
 ## Vídeo de treinamento: configurações da atividade (3:02)
 
 Este vídeo inclui informações sobre as configurações da atividade.
@@ -168,4 +163,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=por_br)
