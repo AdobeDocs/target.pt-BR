@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
@@ -21,6 +21,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 15 de junho de 2019 | [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Pequenas edições de texto. |
+|  | [Práticas recomendadas para testes multivariados](/help/c-activities/c-multivariate-testing/best-practices.md) | Pequenas edições de texto. |
+|  | [Planejar um teste multivariado](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Pequenas edições de texto. |
 | 14 de junho de 2019 | [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) | Cenário de uso de maiúsculas e minúsculas adicionado. |
 |  | [Criar uma atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Texto e imagens atualizados. |
 |  | XT: [URL da atividade](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Texto atualizado. |
