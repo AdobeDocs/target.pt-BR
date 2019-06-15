@@ -1,27 +1,27 @@
 ---
-description: Esse tópico lista as dicas que ajudarão você a aprimorar o desempenho e evitar e corrigir problemas conhecidos que podem ocorrer.
+description: Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de teste multivariado no Adobe Target.
 keywords: mvt, teste multivariado, práticas recomendadas para o teste multivariado, práticas recomendadas para mvt, combinações mvt, relatórios mvt
-seo-description: Esse tópico lista as dicas que ajudarão você a aprimorar o desempenho e evitar e corrigir problemas conhecidos que podem ocorrer.
-seo-title: Práticas recomendadas para testes multivariados
+seo-description: Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de teste multivariado no Adobe Target.
+seo-title: Práticas recomendadas de teste multivariado usando o Adobe Target
 solution: Target
 title: Práticas recomendadas para testes multivariados
 topic: Padrão
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
 
 # Práticas recomendadas para testes multivariados{#multivariate-test-best-practices}
 
-Esse tópico lista as dicas que ajudarão você a aprimorar o desempenho e evitar e corrigir problemas conhecidos que podem ocorrer.
+Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades multivariadas (MVT) de teste em [!DNL Adobe Target].
 
 ## Planejar {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Conheça os locais na sua página que provavelmente produzirão resultados significativos.
 
-   Um banner ou uma imagem herói, por exemplo, provavelmente gerará mais conversões que uma mudança no rodapé. A inclusão de localizações menos influentes no seu teste somente aumenta a quantidade de tráfego e o tempo necessários para testar as localizações de maior destaque na página.
+   Por exemplo, um banner ou uma imagem principal provavelmente resultará em mais conversões do que uma alteração no rodapé. A inclusão de localizações menos influentes no seu teste somente aumenta a quantidade de tráfego e o tempo necessários para testar as localizações de maior destaque na página.
 * Prepare suas variações de página com antecedência.
 
    Conheça as diferenças de conteúdo de cada oferta e crie imagens, texto, e ofertas de HTML que você espera usar no teste MVT.
@@ -30,28 +30,31 @@ Esse tópico lista as dicas que ajudarão você a aprimorar o desempenho e evita
 
 * Não inclua mais combinações do que o necessário para o teste.
 
-   Cada combinação testada aumenta significativamente a quantidade de tráfego e de tempo necessária para atingir resultados aceitáveis. Por exemplo, se houver três localizações com três ofertas cada, haverá 27 combinações possíveis (3x3). Três localizações, com duas delas contendo três ofertas possíveis e uma com duas ofertas, oferecem 18 opções (3x3x2). Os números aumentam de modo substancial a cada localização e oferta adicional.
+   Cada combinação testada aumenta significativamente a quantidade de tráfego e de tempo necessária para atingir resultados aceitáveis. Por exemplo, se você tem três localizações com três ofertas cada, há 27 combinações possíveis (3 x 3 x 3). Três localizações, em que dois locais contêm três ofertas possíveis e um local tem duas ofertas, oferecem 18 opções (3 x 3 x 2). Os números aumentam de modo substancial a cada localização e oferta adicional.
+
 * Cite localizações e ofertas.
 
    Você pode renomear cada localização e oferta no teste para algo mais útil. A quantidade de ofertas em cada localização aparece no título da localização. Nomes úteis ajudarão a identificar suas ofertas ao examinar relatórios.
+
 * Aproveite os recursos de visualização para evitar combinações indesejadas de conteúdo.
 
    Examine todas as experiências geradas pelo seu teste antes de acioná-lo. Verifique se não há combinações com reivindicações contraditórias (por exemplo, 20% de desconto e US$ 19 de desconto na mesma experiência) ou designs incompatíveis, como fundo e fonte da mesma cor.
-* Use o Avaliador de tráfego para garantir que o teste foi criado para a quantidade de tráfego que sua página recebe.
+
+* Use o [Avaliador de tráfego](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) para verificar se o teste foi projetado para a quantidade de tráfego que sua página recebe.
 
    Verifique se o Avaliador de tráfego aceita a configuração do teste para que você possa obter os resultados que deseja.
 * Recomendamos que as alternativas de cada elemento sejam diferentes entre si.
 
 ## Analisar {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Use o relatório de Contribuição da localização para monitorar o desempenho de cada localização e cada oferta.
-* No relatório de Desempenho da experiência, baseie suas decisões nos dados mostrados com o uso dos filtros 5 melhores e 5 piores.
+* Use o relatório de Contribuição [da localização para](/help/c-reports/location-contribution-report.md) monitorar o desempenho de cada localização e cada oferta.
+* No relatório Desempenho [da experiência](/help/c-reports/experience-performance-report.md), baseie suas decisões nos dados mostrados usando os filtros Melhores 5 e 5 piores.
 
-   O filtro Todos dificulta a extração das informações desejadas e nem todas as experiências podem ser exibidas no gráfico. Somente use Todos se você quiser ver uma experiência específica que não seja uma das cinco melhores ou piores.
+   [!UICONTROL O] filtro Todos dificulta a extração das informações desejadas, e nem todas as experiências podem ser exibidas no gráfico. Use o filtro [!UICONTROL Todos] se quiser observar uma experiência específica que não seja das cinco melhores ou piores.
 
 ## Acompanhar {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Embora o Target permita a edição de uma atividade ao vivo, tenha em mente que a edição de uma atividade que esteja em andamento pode redefinir o teste. Sendo assim, os relatórios podem não reconhecer algumas das alterações. É seguro fazer alterações em ofertas HTML somente na biblioteca de ofertas.
+* Embora [!DNL Target] seja possível editar uma atividade ao vivo, esteja ciente de que a edição de uma atividade em andamento pode redefinir o teste. Sendo assim, os relatórios podem não reconhecer algumas das alterações. É seguro fazer alterações em ofertas HTML somente na biblioteca de ofertas.
 
    As ações específicas que redefinem nomes de experiência e relatórios são:
 
