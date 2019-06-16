@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 16 de junho de 2019 | Criar um teste multivariado | Texto e imagens atualizados. |
 | 15 de junho de 2019 | [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Pequenas edições de texto. |
 |  | [Práticas recomendadas para testes multivariados](/help/c-activities/c-multivariate-testing/best-practices.md) | Pequenas edições de texto. |
 |  | [Planejar um teste multivariado](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Pequenas edições de texto. |
