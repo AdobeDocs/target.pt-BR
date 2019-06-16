@@ -7,16 +7,16 @@ solution: Target
 title: Planejar um teste multivariado
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # Planejar um teste multivariado{#plan-a-multivariate-test}
 
-Testes multivariados (MVT) No Adobe Target exigem planejamento antes de você poder criar um teste bem-sucedido.
+[!UICONTROL Testes multivariados] (MVT) exigem [!DNL Adobe Target] planejamento antes de você poder criar um teste bem-sucedido.
 
-Os testes multivariados requerem tráfego suficiente para gerar resultados úteis. Antes de configurar seu teste, verifique qual é quantidade de tráfego que geralmente recebe, incluindo o número de impressões e conversas. Essa informação reduzirá a probabilidade de projetar um teste com requisitos que excedam o tráfego do site.
+O MVT requer tráfego suficiente para gerar resultados úteis. Antes de configurar seu teste, verifique qual é quantidade de tráfego que geralmente recebe, incluindo o número de impressões e conversas. Essa informação reduzirá a probabilidade de projetar um teste com requisitos que excedam o tráfego do site.
 
 Recomenda-se que os elementos sejam independentes entre si. (Por exemplo, não teste o layout e o conteúdo no mesmo teste.)
 
