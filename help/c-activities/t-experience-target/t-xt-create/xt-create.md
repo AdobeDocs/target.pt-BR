@@ -8,7 +8,7 @@ title: Criar uma atividade de direcionamento de experiência
 topic: Padrão
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: dcddbf8c1a4f406fdbfb00b9deaa75113aa7b624
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -39,13 +39,17 @@ Para obter mais informações sobre direcionamento de experiência, um cenário 
 
    ![Caixa de diálogo Criar atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   Selecione essa opção se preferir usar o Experience Composer baseado em formulário. Consulte [Experience Composer baseado em formulário](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Se preferir usar o Experience Composer baseado em formulário, selecione [!UICONTROL Formulário]. Consulte [Criador de experiências baseado em forma](/help/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
    >Além do VEC e do Criador de experiências baseado em forma, o Target oferece o VEC do aplicativo de página única e o VEC para aplicativos móveis. Para obter mais informações sobre os vários compositores, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
    >
-   >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
+   >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >A opção [!UICONTROL Escolher local de trabalho] na ilustração anterior é um [recurso do Target Premium](/help/c-intro/intro.md) . Sua organização tem uma licença do Target Standard caso não veja essa opção.]
+
+1. (Condicional) Se você for um cliente do Target Premium, [escolha uma área de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Especifique o [URL da atividade](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)e clique **[!UICONTROL em Avançar]**.
 
