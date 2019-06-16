@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -29,11 +29,17 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
 
 1. Para usar o Visual Experience Composer (VEC), clique em **[!UICONTROL Visual (Padrão)]**.
 
-   Se preferir usar o Experience Composer baseado em formulário, selecione **[!UICONTROL Formulário]**. Para obter mais informações sobre os dois compositores, consulte [Experiências](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+   Se preferir usar o Experience Composer baseado em formulário, selecione [!UICONTROL Formulário]. Consulte [Criador de experiências baseado em forma](/help/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
    >Além do VEC e do Criador de experiências baseado em forma, o Target oferece o VEC do aplicativo de página única e o VEC para aplicativos móveis. Para obter mais informações sobre os vários compositores, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
+   >
+   >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >A opção [!UICONTROL Escolher local de trabalho] na ilustração anterior é um [recurso do Target Premium](/help/c-intro/intro.md) . Sua organização tem uma licença do Target Standard caso não veja essa opção.]
+
+1. (Condicional) Se você for um cliente do Target Premium, [escolha uma área de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verifique ou insira o URL da atividade e clique em **[!UICONTROL Avançar]**.
 
@@ -45,7 +51,6 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
 
    ![Caixa de diálogo Criar atividade de personalização automatizada](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 1. Para nomear a atividade, clique no campo Nome e digite o nome da atividade.
 
    ![Campo name](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
