@@ -7,8 +7,8 @@ solution: Target
 title: Editar uma atividade ou Salvar como rascunho
 topic: Padrão
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 ---
 
@@ -19,29 +19,29 @@ Informações sobre as diferentes maneiras de editar uma atividade existente, in
 
 O destino fornece vários locais na IU onde você pode editar atividades existentes. Esse processo varia conforme o método escolhido por você.
 
-## Editar uma atividade usando o botão de flutuação na página de atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Editar uma atividade usando o botão focalizar na página Atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Na página **[!UICONTROL Atividades]**, passe o mouse sobre a atividade que deseja editar, depois clique no ícone **Editar[!UICONTROL .]**
 
-   ![](assets/hover_edit.png)
+   ![Ícone Editar](/help/c-activities/assets/hover_edit.png)
 
-   O destino abre a atividade e você verá a página Experiências (a primeira etapa no fluxo de trabalho guiado de três etapas). Um botão dividido é exibido na parte superior direita da página, conforme mostrado abaixo:
+   O Target abre a atividade no Visual Experience Composer (VEC) e você visualiza a página [!UICONTROL Experiências] (a primeira etapa do fluxo de trabalho guiado três etapas).
 
-   ![](assets/edit_split_button.png)
+1. Edite a atividade conforme desejado usando as opções [de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Edite a atividade conforme desejar usando o botão dividido:
+1. Clique no botão dividir para avançar para a próxima etapa ou para salvar a atividade.
 
-   ![](assets/edit_split_button_2.png)
+   ![Botão Dividir](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Próximo:** Para editar outra página no fluxo de trabalho de três etapas, clique em **[!UICONTROL Próximo]** para prosseguir para a etapa desejada. Por exemplo, clicar em [!UICONTROL Próximo] na ilustração acima exibe a etapa de definição de metas.
+   * **Próximo:** Para editar outra página no fluxo de trabalho de três etapas, clique em **[!UICONTROL Próximo]** para prosseguir para a etapa desejada. Por exemplo, clicar em [!UICONTROL Próximo] na ilustração acima exibe a etapa de definição de metas.[!UICONTROL ]
    * **Salvar e fechar:** Faça as alterações desejadas na etapa atual, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página [!UICONTROL Visão geral].
    * **Salvar:** Faça as alterações desejadas em uma etapa, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar]** para salvar suas alterações e permanecer naquela etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
-## Clicar no nome da atividade na página de atividades para abrir e editá-la {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Editar uma atividade ao abrir a atividade clicando em seu nome na página Atividades {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Para evitar a necessidade de percorrer todo o fluxo de trabalho, clique na atividade desejada na página Atividades para abri-la, depois selecione uma opção na lista suspensa **[!UICONTROL Editar atividade].**
 
-   ![](assets/edit_activity.png)
+   ![Menu suspenso Editar atividade](/help/c-activities/assets/edit_activity.png)
 
 1. Selecione a opção desejada::
 
@@ -60,7 +60,7 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
 
 
 
-## Salvar uma atividade no formato de rascunho {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Salvar uma atividade em um formulário de rascunho {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Ao criar uma nova atividade que ainda não foi salva ou ao editar uma atividade que tinha sido salva no formato de rascunho, as opções Salvar rascunho são exibidas no botão dividido.
 
@@ -69,7 +69,7 @@ Ao criar uma nova atividade que ainda não foi salva ou ao editar uma atividade 
 1. Criar novas atividades ou editar atividades existentes que estejam em formato de rascunho.
 1. Selecione a opção desejada no botão dividido:
 
-   ![](assets/save_draft.png)
+   ![Salvar rascunho](/help/c-activities/assets/save_draft.png)
 
    * **Próximo:** Para editar outra página no fluxo de trabalho de três etapas, clique em **[!UICONTROL Próximo]** para prosseguir para a etapa desejada.
    * **Salvar rascunho e fechar:** Faça as alterações desejadas na etapa atual, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar rascunho e fechar]** para salvar suas alterações e exibir a página [!UICONTROL Visão geral].
