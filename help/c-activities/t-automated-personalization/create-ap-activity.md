@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -23,11 +23,9 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
 
    ![Criar atividade: Personalização automatizada](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Especificar o canal desejado: Web.
-
-   Também é possível escolher Aplicativo móvel, Email ou Outro/API.
-
 1. Para usar o Visual Experience Composer (VEC), clique em **[!UICONTROL Visual (Padrão)]**.
+
+   ![Caixa de diálogo Criar atividade de personalização automatizada](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    Se preferir usar o Experience Composer baseado em formulário, selecione [!UICONTROL Formulário]. Consulte [Criador de experiências baseado em forma](/help/c-experiences/form-experience-composer.md) para obter mais informações.
 
@@ -48,8 +46,6 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
    >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] têm correspondência.
 
    A página com o URL especificado é aberta no Visual Experience Composer.
-
-   ![Caixa de diálogo Criar atividade de personalização automatizada](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
 1. Para nomear a atividade, clique no campo Nome e digite o nome da atividade.
 
