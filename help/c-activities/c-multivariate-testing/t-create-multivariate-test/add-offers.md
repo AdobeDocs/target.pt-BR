@@ -1,26 +1,26 @@
 ---
-description: Use o Visual Experience Composer para criar as ofertas que você deseja incluir no teste.
-seo-description: Use o Visual Experience Composer para criar as ofertas que você deseja incluir no teste.
-seo-title: Criar combinações no Adobe Target
+description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que deseja incluir em seu Teste multivariado (MVT).
+seo-description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que deseja incluir em seu Teste multivariado (MVT).
+seo-title: Criar combinações em testes multivariados (MVT) usando o Adobe Target
 title: Criar combinações
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
 
 # Criar combinações{#create-combinations}
 
-Use o Visual Experience Composer para criar as ofertas que você deseja incluir no teste.
+Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que deseja incluir em seu Teste multivariado (MVT).
+
+Para obter mais informações sobre como usar o VEC para criar e editar ofertas, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >Você pode clicar em **[!UICONTROL Expandir seleção]** ao selecionar objetos na página para selecionar o elemento pai, além do elemento selecionado originalmente. Ao selecionar qualquer elemento pai, todos os filhos desse elemento serão selecionados automaticamente. Você pode expandir a seleção várias vezes.
-
-Com o Visual Experience Composer é possível editar ofertas, nomes de ofertas e nomes de locais. Uma sobreposição é exibida para mostrar onde foram feitas as alterações.
-
-![](assets/overlay.png)
+>
+>Você também pode usar o caminho [DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar pelos elementos.
 
 ## Ofertas de imagem {#section_A48333211DB149ED926AE467D0032914}
 
@@ -28,11 +28,11 @@ Teste várias ofertas de imagem dentro de um local para determinar qual imagem �
 
 1. Clique em uma imagem na página e selecione **[!UICONTROL Alterar imagem]**.
 
-   ![](assets/changeimage.png)
+   ![Opção Alterar imagem](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. Selecione todas as imagens que deseja incluir no teste e clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/addimage.png)
+   ![Caixa de diálogo Selecionar conteúdo usada para adicionar imagens](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 Cada imagem se torna uma experiência separada nesse local.
 
@@ -42,15 +42,11 @@ Teste várias ofertas em Texto/HTML de um local para determinar qual é mais bem
 
 1. Clique na oferta em Texto/HTML na sua página e depois em **[!UICONTROL Alterar Texto/HTML]**.
 
-   ![](assets/changehtml.png)
+   ![Alterar texto/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
 1. Clique em **[!UICONTROL Adicionar oferta em Texto/HTML]**, nomeie a oferta e digite ou cole o código para a oferta em Texto/HTML.
 
-   ![](assets/editoffers.png)
-
-   >[!NOTE]
-   >
-   >O Internet Explorer 10 não oferece suporte para espaços reservados na entrada de HTML5. Como resultado, se usar o IE10, o texto do espaço reservado &quot;Adicionar conteúdo&quot; permanecerá no campo de Texto ao inserir o conteúdo.
+   ![Editar ofertas](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    Repita o procedimento para qualquer oferta em Texto/HTML adicional que queira incluir.
 
@@ -64,7 +60,7 @@ Cada oferta em Texto/HTML se torna uma experiência separada nesse local.
 * Ao criar testes multivariados, é possível excluir mais de 10% das experiências do teste, desde que você reconheça o aviso de que deve usar relatórios offline para análise.
 * Aproveite os recursos de visualização para evitar combinações indesejadas de conteúdo. Por exemplo, você pode ter duas imagens que oferecem descontos diferentes sobre o mesmo item ou serviço. Mostrar as duas imagens na mesma página é ilógico e poderá criar uma confusão.
 * Use o Avaliador de tráfego para garantir que o teste foi criado para a quantidade de tráfego que sua página recebe. Verifique se o Avaliador de tráfego aceita a configuração do teste para que você possa obter os resultados que deseja.
-* Você deve ter pelo menos três elementos para testar. Se tiver menos, execute uma série de  Testes A/B.
+* Você deve ter pelo menos três elementos para testar. Se tiver menos, execute uma série de Testes A/B.
 * Recomendamos que as alternativas de cada elemento sejam diferentes entre si.
 * Embora não seja obrigatório, é uma boa prática que cada elemento tenha o mesmo número de alternativas.
 
