@@ -7,7 +7,7 @@ solution: Target
 title: Métricas de sucesso
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -54,11 +54,11 @@ Use as configurações avançadas para gerenciar a medição do sucesso. As opç
 >
 >Se você usa o [!DNL Adobe Analytics] como a fonte de geração de relatórios, as configurações são gerenciadas pelo servidor do [!DNL Analytics]. A opção de configurações avançadas não estará disponível.
 
-![](assets/Menu_AdvancedSettings.png)
+![Menu suspenso Configurações avançadas](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
 
 Também é possível usar as configurações avançadas para criar métricas de sucesso dependentes, incrementando somente uma métrica se um visitante atingir outra métrica primeiro.
 
-![](assets/UI_dep_success_metric.png)
+![Adicionar dependência](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Por exemplo, uma conversão de teste só pode ser válida se o visitante clica na oferta ou atinge uma página específica antes da conversão.
 
@@ -87,4 +87,4 @@ Estes vídeos mostram como usar métricas de atividade.
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=por_br)
