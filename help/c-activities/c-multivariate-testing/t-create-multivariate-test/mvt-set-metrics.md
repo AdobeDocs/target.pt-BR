@@ -6,8 +6,8 @@ seo-title: Definir métricas
 solution: Target,standard
 title: Definir métricas
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,7 +21,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte [Métri
 1. Especifique a meta da atividade.
 1. Selecione uma métrica [de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/mvt_metrics.png)
+   ![Lista de métricas](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
    A página de [!UICONTROL Métricas selecionadas] lista as métricas de sucesso que você pode escolher para sua atividade. As métricas de sucesso são divididas nas seguintes categorias:
 
@@ -61,4 +61,4 @@ Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=por_br)
