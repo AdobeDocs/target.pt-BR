@@ -6,8 +6,8 @@ solution: Target
 title: Experiências de visualização para um Teste multivariado
 topic: Padrão
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
@@ -24,9 +24,9 @@ Como um teste multivariado compara várias experiências em uma página, é úti
 
 1. Clique em uma experiência na lista para exibi-la.
 
-1. Para excluir uma experiência do teste multivariado, selecione-a e clique em **[!UICONTROL Excluir]**.
+1. Para excluir uma ou mais experiências do teste multivariado, selecione as experiências desejadas e clique **[!UICONTROL em Excluir]**.
 
-   ![](assets/excludeexperience.png)
+   ![Excluir experiências](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
    Você pode excluir uma experiência que mostra variações conflitantes ou que não esteja esteticamente equilibrada.
 
