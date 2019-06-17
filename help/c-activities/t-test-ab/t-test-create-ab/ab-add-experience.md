@@ -7,7 +7,7 @@ solution: Target
 title: Adicionar experiência
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](../../../
    >
    >Se você apresentar uma imagem de uma fonte diferente da sua página principal (como uma imagem hospedada em akamai.net e oferecida em dell.com), ela não será exibida na miniatura da página mostrada no diagrama de fluxo.
 
-1. Clique **[!Sem salvar]** quando terminar de criar a experiência.
+1. Clique **[!UICONTROL em Salvar]** quando terminar de criar a experiência.
 
 ## Renomear experiência
 
