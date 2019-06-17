@@ -7,8 +7,8 @@ solution: Target
 title: Metas e Configurações
 topic: Padrão
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -64,7 +64,7 @@ As seguintes configurações estão disponíveis:
 
 ### Solução de relatório
 
-Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como Fonte de relatórios para o Target](https://marketing.adobe.com/resources/help/pt_br/target/a4t/a4t.html) para saber mais sobre as diferenças entre as soluções de relatórios e as vantagens de cada uma.
+Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como fonte de relatório para o Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) para saber quais são as diferenças entre as soluções de relatório e as vantagens de cada uma.
 
 Ao selecionar o Analytics como fonte de relatórios para o Target, você seleciona um conjunto de relatórios do Analytics para receber os dados de atividade do Target. Para fazer isso, primeiro escolha uma das empresas do Analytics vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para se conectar ao Adobe Target estarão disponíveis para seleção. Se não vir os conjuntos de relatórios esperados, primeiro, experimente sair e entrar na Adobe Experience Cloud para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o atendimento ao cliente.
 
@@ -104,7 +104,7 @@ Públicos-alvo para geração de relatórios
 
 As configurações avançadas estão disponíveis para as métricas de meta do Teste multivariado.
 
-![](assets/Menu_AdvancedSettings.png)
+![Menu Configurações avançadas](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -122,15 +122,14 @@ A opção Adicionar dependência permite que a métrica de sucesso seja incremen
 
 Para adicionar uma dependência:
 
-1. Depois de adicionar outras métricas, clique em Configurações avançadas.
+1. Depois de adicionar outras métricas, clique em **[!UICONTROL Configurações avançadas]**.
 2. Clique na opção Adicionar dependência:
 
-   ![](assets/add_dependency.png)
+   ![Adicionar dependência](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em Alcançado para alternar a configuração entre Alcançado e Não alcançado.
+3. Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em **[!UICONTROL Alcançado]** para alternar a configuração entre Alcançado e Não alcançado .
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Dependência atingida](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 É possível editar ou remover dependências depois de adicioná-las.
 
@@ -166,7 +165,7 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=por_br)
 
 ### Criação de testes multivariados (9:25)
 
@@ -175,4 +174,4 @@ Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho o
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=por_br)
