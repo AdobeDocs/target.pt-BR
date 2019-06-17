@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 17 de junho de 2019 | [URL da atividade](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | Texto e imagens atualizados. |
+|  | [Criar combinações](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | Texto e imagens atualizados. |
+|  | [Experiências de visualização para um Teste multivariado](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | Texto e imagens atualizados. |
+|  | [Metas e configurações](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | Texto e imagens atualizados. |
+|  | [Definir métricas](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | Texto e imagens atualizados. |
+|  | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md) | Texto e imagens atualizados. |
+|  | [Editar uma atividade ou Salvar como rascunho](/help/c-activities/edit-activity.md) | Texto e imagens atualizados. |
+|  | [Log de alterações da atividade](/help/c-activities/change-log.md) | Texto e imagens atualizados. |
+|  | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Texto e imagens atualizados. |
 | 16 de junho de 2019 | [Criar um teste multivariado](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Texto e imagens atualizados. |
 | 15 de junho de 2019 | [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Pequenas edições de texto. |
 |  | [Práticas recomendadas para testes multivariados](/help/c-activities/c-multivariate-testing/best-practices.md) | Pequenas edições de texto. |
