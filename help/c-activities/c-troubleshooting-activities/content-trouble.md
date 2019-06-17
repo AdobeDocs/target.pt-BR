@@ -1,6 +1,6 @@
 ---
 description: Se a página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo.
-keywords: depurar mbox; solucionar problemas de mbox; problemas de mbox; oscilação; mboxDebug; mboxTrace; token; depurador; prioridade; prioridade de atividade; Depurador da Adobe Experience Cloud; mbox orderConfirmPage; mbox de compra do Sitecatalyst; principal venda; vendedor principal
+keywords: depurar mbox; solucionar problemas de mbox; problemas de mbox; oscilação; mboxDebug; mboxTrace; token; depurador; prioridade; prioridade de atividade; Depurador da Adobe Experience Cloud; mbox orderConfirmPage; mbox de compra do SiteCatalyst; principal venda; vendedor principal
 seo-description: Se a página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo.
 seo-title: Soluções de problemas da entrega de conteúdo
 solution: Target
@@ -9,7 +9,7 @@ title: Soluções de problemas da entrega de conteúdo
 topic: Padrão
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -34,9 +34,11 @@ Para recuperar o token de autorização:
 1. Selecione **[!UICONTROL mbox.js]** ou **[!UICONTROL at.js]**.
 1. Clique em **[!UICONTROL Gerar token de autenticação]**.
 
-   ![](assets/gen-auth-token.png)
+   ![Gerar token de autorização](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. Adicione o token gerado como um parâmetro ao seu URL para ativar uma das ferramentas de depuração avançadas.
+
+   ![Token de autorização](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -122,7 +124,7 @@ O Target não é mais compatível com o IE8.
 
 Atualize para [!DNL mbox.js] versão 58 ou posterior.
 
-A mbox.js versão 58 e posterior executa conteúdo não-JavaScript para a mbox global imediatamente após a tag HTML `BODY` estar presente. O conteúdo javascript nas tags `<script>` da mbox global é executado depois que o evento `DOMContentLoaded` é acionado. Esta ordem de entrega de conteúdo garante que o conteúdo JavaScript da mbox global seja entregue e renderizado corretamente.
+A mbox.js versão 58 e posterior executa conteúdo não-JavaScript para a mbox global imediatamente após a tag HTML `BODY` estar presente. O conteúdo JavaScript nas tags `<script>` da mbox global é executado depois que o evento `DOMContentLoaded` é acionado. Esta ordem de entrega de conteúdo garante que o conteúdo JavaScript da mbox global seja entregue e renderizado corretamente.
 
 ## O cookie do Target não é definido {#section_77AFEB541C0B495EB67E29A4475DF960}
 
@@ -148,7 +150,7 @@ Você pode verificar a resposta da mbox no navegador ou por meio da mboxTrace. C
 
 ## as mboxes não são acionadas no meu site.
 
-O at. js não dispara mboxes Target se estiver usando um tipo de docótipo inválido. O at. js exige o doctype HTML 5.
+O at. js não dispara mboxes Target se estiver usando um tipo de docótipo inválido. A at.js exige o doctype HTML 5.
 
 ## Vídeos de treinamento
 
@@ -156,12 +158,12 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Adicionar a extensão
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=por_br)
 
 ### Depuração básica do Target
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=por_br)
 
 ### Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=por_br)
