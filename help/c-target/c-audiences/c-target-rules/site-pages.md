@@ -7,8 +7,8 @@ solution: Target
 title: Páginas do site
 topic: Padrão
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -25,7 +25,7 @@ Direcione visitantes que estão em uma página específica ou têm um parâmetro
 1. Dê um nome ao público-alvo.
 1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Páginas do site]**.
 
-   ![](assets/target_site_pages.png)
+   ![Público-alvo de páginas do site](assets/target_site_pages.png)
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
@@ -64,4 +64,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
