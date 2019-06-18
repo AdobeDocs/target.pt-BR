@@ -6,8 +6,8 @@ seo-title: Biblioteca de metas
 solution: Target
 title: Biblioteca de metas
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -26,13 +26,13 @@ Os públicos pré-construídos na categoria Biblioteca do Target são herdados e
 1. Dê um nome ao público-alvo.
 1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Biblioteca de metas]**.
 
-   ![](assets/target_library.png)
+   ![Biblioteca do Target](assets/target_library.png)
 
 1. Clique em **[!UICONTROL Selecionar]**, em seguida selecione uma regra de direcionamento pré-criada.
 
    As regras de direcionamento pré-criadas incluem, Sistema operacional Windows, Dispositivo do tablet, Navegador Safari, Visitantes que retornam, Referido no Google e muito mais.
 
-   O público-alvo predefinido &quot;Dispositivo do tablet&quot; já qualifica quando o agente do usuário contém uma ou mais sequências de caracteres (algumas das quais são números de modelo de dispositivos). Você não precisa criar regras de direcionamento personalizado para esses dispositivos.
+   O público-alvo &quot;Tablet Device&quot; pré-definido já é adequado quando o agente do usuário contém uma das seguintes sequências (algumas das quais são números de modelo de dispositivos). Você não precisa criar regras de direcionamento personalizado para esses dispositivos.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 e Tablet PC.
 
@@ -46,4 +46,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
