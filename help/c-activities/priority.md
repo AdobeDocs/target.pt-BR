@@ -7,8 +7,8 @@ solution: Target
 title: Prioridade
 topic: Padrão
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -91,7 +91,7 @@ Se a sua empresa usa as mboxes que não são globais no Composer baseado em form
 >
 >Dependendo das configurações, os valores de prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999. Para obter mais informações, consulte [Configurações da atividade](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Duas campanhas do Target Classic usam mboxes não globais **
+**Duas campanhas do Target Classic usam mboxes não globais**
 
 * Campanha 1: homePageHero, offer1, prioridade alta
 * Campanha 2: homePageHero, offer2, prioridade baixa
@@ -139,4 +139,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=por_br)
