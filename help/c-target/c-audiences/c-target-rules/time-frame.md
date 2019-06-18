@@ -6,8 +6,8 @@ seo-title: Intervalo de tempo
 solution: Target
 title: Intervalo de tempo
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -36,11 +36,11 @@ Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](../../../c-t
 
 1. (Condicional) Clique em **[!UICONTROL Divisão de semana e dia]para definir padrões recorrentes, incluindo dias das semanas e horas.**
 
-   ![](assets/week_and_day_parting.png)
+   ![Divisão de semana e dia](assets/week_and_day_parting.png)
 
    Você pode usar as opções de Divisão de semana e dia, por exemplo, para exibir uma opção de &quot;Bate-papo agora&quot; para os visitantes, somente durante os dias e horas em que a sua central de atendimento estiver funcionando.
 
-   Selecione um ou mais dias da semana e defina as horas de início e término. Clique em [!UICONTROL Adicionar mais] para especificar os padrões adicionais, conforme desejado.
+   Selecione um ou mais dias da semana e defina as horas de início e término. Clique em **[!UICONTROL Adicionar mais]para especificar os padrões adicionais, conforme desejado.**
 
    >[!NOTE]
    >
@@ -59,4 +59,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
