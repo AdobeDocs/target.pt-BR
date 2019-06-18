@@ -6,8 +6,8 @@ seo-title: Categorias para públicos
 solution: Target
 title: Categorias para públicos
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -22,11 +22,11 @@ Após criar uma regra, clique em **[!UICONTROL Salvar]**. Um resumo das regras �
 
 Você pode refinar uma regra ao adicionar mais condições, ou criar regras adicionais em outras categorias. Por exemplo, para definir como objetivo usuários que utilizam o navegador Firefox, de São Francisco, que acessaram o seu site no Google, defina a categoria [!UICONTROL Geo] para São Francisco, a categoria de [!UICONTROL Comportamento do visitante] para Firefox e a categoria [!UICONTROL Fontes de tráfego] para Google. Todas as regras criadas em diversas categorias são combinadas com &quot;AND.&quot; Para criar regras de definição de metas complexas que incluem operações &quot;OR&quot; em diversas categorias, crie um destino de expressão.
 
-Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. Durante a adição de um público-alvo, clique em **[!UICONTROL Perfil do visitante]** e em [!UICONTROL Parâmetros do usuários personalizado] ou [!UICONTROL Parâmetros do perfil personalizado] na lista suspensa [!UICONTROL Perfil do visitante], escolha o parâmetro que deseja usar para direcionar sua atividade. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
+Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. Ao adicionar um público, clique **[!UICONTROL em Perfil do visitante]** e escolha o parâmetro que você deseja usar para direcionar sua atividade. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
 
 Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo]. Você pode procurar qualquer parte de um nome de público-alvo ou pode colocar uma determinada sequência de caracteres entre aspas.
 
-Você pode classificar a lista de públicos-alvo por nome de público-alvo ou pela data da última modificação.
+Você pode classificar a lista de públicos-alvo por nome de público-alvo ou pela data da última modificação. Para classificar por nome ou data, clique no cabeçalho da coluna e selecione para exibir os públicos-alvo em ordem crescente ou decrescente.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
@@ -35,5 +35,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
-
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
