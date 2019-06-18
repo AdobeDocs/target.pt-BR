@@ -1,13 +1,13 @@
 ---
 description: Você pode criar públicos-alvo com base nos detalhes da rede.
 keywords: Direcionamento, rede, rede de direcionamento, isp, nome de domínio, velocidade de conexão, isp do target, nome de domínio do target, velocidade de conexão do target
-seo-description: Você pode criar públicos-alvo com base nos detalhes da rede.
-seo-title: Rede
+seo-description: Você pode criar públicos-alvo no Adobe Target com base em detalhes da rede.
+seo-title: Crie públicos-alvo no Adobe Target com base em detalhes da rede.
 solution: Target
 title: Rede
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -19,12 +19,9 @@ Você pode criar públicos-alvo com base nos detalhes da rede.
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
 1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Rede]**.
-
-   ![](assets/target_network.png)
-
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
-   * **ISP: **um ISP é uma empresa que fornece acesso à Internet para seus assinantes, normalmente com uma taxa mensal ou anual. Muitas ISPs fornecem serviços adicionais, como hospedagem na Web ou email. O campo ISP é de ISP comercial (como Comcast ou TimeWarner) ou outra entidade, como instituição comercial ou educacional.
+   * **ISP:** ISP é uma empresa que fornece acesso a Internet para seus assinantes, normalmente com uma taxa mensal ou anual. Muitas ISPs fornecem serviços adicionais, como hospedagem na Web ou email. O campo ISP é de ISP comercial (como Comcast ou TimeWarner) ou outra entidade, como instituição comercial ou educacional.
 
       A seguir, estão alguns exemplos de ISPs populares nos Estados Unidos:
 
@@ -48,17 +45,19 @@ Você pode criar públicos-alvo com base nos detalhes da rede.
       >
       >Quando o direcionamento é baseado em ISP, use o nome do ISP, não o nome popular. Certifique-se de criar a regra para diferenciar maiúsculas de minúsculas ou sempre usar o formato de minúsculas.
 
-      Se você quiser ver mais ISPs referenciadas nessa tabela, entre em contato com o atendimento ao cliente com a sua sugestão.
+      Você pode testar os valores de domínio e ISP. [](https://www.whoismyisp.org)https://www.whoismyisp.org é um bom recurso para fins de direcionamento. Você pode usar os endereços IP de exemplo fornecidos na tabela acima ou inserir seus próprios endereços. Em seguida, use o parâmetro `themboxOverride.browserIp= URL` para mimetizar esse endereço IP.
 
-      Você pode testar os valores de domínio e ISP. [https://www.whoismyisp.org](https://www.whoismyisp.org) é um bom recurso para fins de direcionamento. Você pode usar os endereços IP de exemplo fornecidos na tabela acima ou inserir seus próprios endereços. Em seguida, use o parâmetro `themboxOverride.browserIp= URL` para mimetizar esse endereço IP.
-
-   * **Nome do domínio: **esse é o nome do domínio para o endereço IP do visitante. Esse não é o nome de domínio do site que você está usando com o [!DNL Target]. Esse nome de domínio está relacionado ao endereço IP do visitante e, às vezes, é chamado de nome de host. É normalmente muito similar ao nome da ISP. Às vezes, o nome de host faz referência a nomes mais antigos das empresas que criaram novo nome de marca do nome da ISP, mas não o nome do domínio.
+   * **Nome do domínio:** esse é o nome do domínio para o endereço IP do visitante. Esse não é o nome de domínio do site que você está usando com o [!DNL Target]. Esse nome de domínio está relacionado ao endereço IP do visitante e, às vezes, é chamado de nome de host. É normalmente muito similar ao nome da ISP. Às vezes, o nome de host faz referência a nomes mais antigos das empresas que criaram novo nome de marca do nome da ISP, mas não o nome do domínio.
    * **Velocidade de conexão:** é a velocidade da conexão à internet do visitante. As opções incluem: banda larga, cabo, discagem, móvel, oc3, oc12, satélite, t1, t2, sem fio e xdsl.
 
       Esse cambo baseia-se no tipo de conexão e não na velocidade real propriamente dita. O [!DNL Target] não pode determinar as velocidades de conexão exatas das conexões. O tipo de conexão de Banda larga é usado quando não há indicações de outros tipos de conexão, então um tipo específico não pode ser escolhido.
 
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
+
+A ilustração a seguir mostra um público-alvo que direciona os visitantes usando AT &amp; T com velocidade de conexão [!UICONTROL do Mobile].
+
+![Direcionamento de rede](assets/target_network.png)
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
@@ -67,4 +66,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
