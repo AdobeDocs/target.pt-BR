@@ -7,8 +7,8 @@ solution: Target
 title: Controle de qualidade da atividade
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -31,11 +31,11 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
 1. Na página [!UICONTROL Visão geral] de uma atividade (todos os tipos exceto a Personalização automatizada), clique no link **[!UICONTROL Controle de qualidade da atividade].**
 
-   ![](assets/qa_link.png)
+   ![Link de QA da atividade](assets/qa_link.png)
 
 1. Configure as seguintes definições:
 
-   ![](assets/qa_link_config.png)
+   ![Opções de configuração do link QA](assets/qa_link_config.png)
 
    * **Combinar as regras do público-alvo para ver as experiências:** algumas vezes, você quer confirmar se a combinação de público-alvo funciona. Outras vezes você só quer verificar a aparência da atividade. Se essa configuração for alternada para a posição &quot;ativada&quot;, os testadores deverão atender aos requisitos de direcionamento para se qualificarem para ver as experiências. Para as atividades do Direcionamento de experiência (XT), um único URL de atividade será fornecido. A experiência que você vê é determinada pela sua qualificação para uma das regras de direcionamento.
 
