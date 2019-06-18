@@ -7,8 +7,8 @@ solution: Target
 title: Parâmetros personalizados
 topic: Padrão
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -17,18 +17,32 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Os parâmetros personalizados são parâmetros de mbox. Se você passar algum parâmetro de mbox para mboxes, ou usar a função targetPageParams, esses parâmetros aparecerão aqui para uso em públicos-alvo.
 
-Para obter mais informações, consulte [Passagem de parâmetros a um mbox global](https://marketing.adobe.com/resources/help/pt_BR/target/ov/c_pass_parameters_to_global_mbox.html).
+Para obter mais informações, consulte [Passagem de parâmetros a uma mbox global](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
 
 Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mboxParameter` não solicita mais `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
-Para selecionar o parâmetro desejado:
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
+1. Dê um nome ao público-alvo.
+1. Clique **[!UICONTROL em Adicionar regra]** &gt; **[!UICONTROL Personalizado]**.
 
-* Ao criar um novo público-alvo, selecione um nome de parâmetro na lista, comece a digitar os primeiros caracteres do nome ou o nome completo do parâmetro desejado.
-* Caso lembre do nome da mbox, mas não do parâmetro, use a caixa de seleção para filtrar uma mbox conhecida que passe o parâmetro desejado.
+   Para selecionar o parâmetro desejado:
 
-Com ambos os métodos, não há link entre a mbox e o parâmetro. O público-alvo funcionará de acordo com o parâmetro em todas as mboxes que passam esse parâmetro.
+   * Ao criar um novo público-alvo, selecione um nome de parâmetro na lista, comece a digitar os primeiros caracteres do nome ou o nome completo do parâmetro desejado.
+   * Caso lembre do nome da mbox, mas não do parâmetro, use a caixa de seleção para filtrar uma mbox conhecida que passe o parâmetro desejado.
+   Com ambos os métodos, não há link entre a mbox e o parâmetro. O público-alvo funcionará de acordo com o parâmetro em todas as mboxes que passam esse parâmetro.
 
-Se você editar um público-alvo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
+   Se você editar um público-alvo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
+
+1. Escolha um avaliador:
+
+   * Contém (não diferencia maiúsculas de minúsculas)
+   * Não contém (não diferencia maiúsculas de minúsculas)
+   * Igual
+   ![Público-alvo personalizado do parâmetro](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
+
+1. Insira cada valor em uma nova linha.
+1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
+1. Clique em **[!UICONTROL Salvar]**.
 
 O [cartão pop-up dos detalhes de definição](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) do público-alvo mostra o nome do parâmetro na seção Regras. Não há referência à mbox usada para filtragem.
 
@@ -43,4 +57,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
