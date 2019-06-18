@@ -7,8 +7,8 @@ solution: Target
 title: Criar públicos no Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,13 +27,13 @@ Quando você combina regras e parâmetros com OU, qualquer membro em potencial d
 
 Você pode misturar operadores booleanos para criar regras complexas; no entanto, operadores no mesmo nível da regra devem ser compatíveis. A interface de usuário aplica o operador correto automaticamente.
 
-Por exemplo, a regra seguinte busca visitantes que estão usando Chrome ou Firefox em um computador com Windows:
+Por exemplo, a regra a seguir direciona os visitantes que usam Chrome *ou* Firefox em um computador Windows:
 
-![](assets/audience_create.png)
+![Criar público-alvo](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando o navegador x E o navegador y, simultaneamente.
+>Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível que alguém visite uma página usando Chrome *e* Firefox simultaneamente.
 
 ## Criar um novo público
 
@@ -66,4 +66,4 @@ Este vídeo inclui informações sobre a criação de públicos-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
