@@ -1,31 +1,29 @@
 ---
-description: Direcione os usuários com base em sua localização geográfica, incluindo país, estado/província, cidade, código postal/CEP, DMA ou operadora de celular.
+description: Use os públicos-alvo para direcionar os usuários com base na localização geográfica, incluindo seu país, estado/província, cidade, código postal/código postal, DMA ou operadora de celular.
 keywords: direcionamento, a4t, geografia, geolocalização, precisão de geolocalização, país, estado, cidade, CEP, dma, operadora de celular, códigos de cidade, códigos de região, códigos de país, códigos metropolitanos, scripts de perfil, scripts de perfil de geolocalização, dispositivos móveis de geolocalização
-seo-description: Direcione os usuários com base em sua localização geográfica, incluindo país, estado/província, cidade, código postal/CEP, DMA ou operadora de celular.
+seo-description: Use os públicos-alvo do Adobe Target para direcionar os usuários com base na localização geográfica, incluindo seu país, estado/província, cidade, código postal/código postal, DMA ou operadora de celular.
 seo-title: Geografia
 solution: Target,Analytics
-title: Geografia
+title: Geografia direcionamento no Adobe Target
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Geografia{#geo}
 
-Direcione os usuários com base em sua localização geográfica, incluindo país, estado/província, cidade, código postal/CEP, DMA ou operadora de celular.
+Use os públicos-alvo para direcionar os usuários com base na localização geográfica, incluindo seu país, estado/província, cidade, código postal/código postal, DMA ou operadora de celular.
 
-Os parâmetros de localização geográfica permitem definir atividades e experiências com base nas informações geográficas dos visitantes. Você pode incluir ou excluir visitantes com base no país, estado/província, cidade, código postal/CEP, DMA ou operadora de celular. Estes dados são enviados com cada solicitação de mbox e baseiam-se no endereço IP do visitante. Selecione esses parâmetros exatamente como quaisquer outros valores de definições de metas.
+Os parâmetros de localização geográfica permitem definir atividades e experiências com base nas informações geográficas dos visitantes. Você pode incluir ou excluir visitantes com base em seu país, estado/província, cidade, código postal/código postal, latitude, longitude, DMA ou operadora de celular. Esses dados são enviados com cada solicitação do Target e se baseiam no endereço IP do visitante. Selecione esses parâmetros exatamente como quaisquer outros valores de definições de metas.
 
 ## Criar um público-alvo com geolocalização {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
 1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Geografia]**.
-
-   ![](assets/target_geo.png)
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
@@ -41,14 +39,19 @@ Os parâmetros de localização geográfica permitem definir atividades e experi
 
    Para operadoras de celular, o [!DNL Target] os dados de registro do endereço IP (proprietários do bloco de endereços IP) para determinar a operadora de celular apropriada usando [Códigos de país móveis (MCC) e Códigos de rede móveis (MNC)](https://www.mcc-mnc.com).
 
+1. Especifique um operador e o valor apropriado.
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
+A ilustração a seguir mostra um público-alvo que direciona os usuários para acessar a atividade de uma latitude superior a 44 graus e uma longitude menor que 22 graus.
+
+![](assets/target_geo.png)
+
 ## Precisão {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando um visitante estiver usando uma conexão de dados de celular, a precisão da geolocalização pode ser afetada pelo local, relacionamento de dados da operadora com o atlas do dispositivo e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da [API de localização geográfica](https://developer.mozilla.org/pt-BR/docs/Web/API/Geolocation_API).
+A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando o visitante está usando uma conexão de dados celulares, a precisão da pesquisa geográfica pode ser afetada por localização, a relação de dados do provedor com [o deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Alguns problemas de localização geográfica móvel podem ser resolvidos usando a API [de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
-A tabela a seguir mostra a precisão das informações geográficas baseadas em IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexões de Internet com fio ou Wi-Fi. A DigitalEnvoy oferece os dados mais precisos do setor. A precisão global é de mais de 99,9% em nível nacional e de até 97% em nível municipal. As informações de precisão não se aplicam a redes baseadas em torre de celular.
+A tabela a seguir mostra a precisão das informações geográficas baseadas em IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexões de Internet com fuio ou Wi-Fi. A DigitalEnvoy oferece os dados mais precisos do setor. A precisão global é de mais de 99,9% em nível nacional e de até 97% em nível municipal. As informações de precisão não se aplicam a redes baseadas em torre de celular.
 
 | País | Estado | Cidade | Região |
 |--- |--- |--- |--- |
@@ -112,7 +115,7 @@ Por exemplo, use:
 
 **Como a geolocalização funciona em dispositivos móveis?**
 
-A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi, o que significa que o geolocalização baseado em IP do Target é tão preciso como em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da [API de localização geográfica](https://developer.mozilla.org/pt-BR/docs/Web/API/Geolocation_API).
+A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi, o que significa que o geolocalização baseado em IP do Target é tão preciso como em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser resolvidos usando a API [de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Como o recurso geográfico trata visitantes da AOL?**
 
@@ -127,7 +130,7 @@ Devido a AOL enviar todo o tráfego por servidores proxy, somente podemos identi
 * DMA/ITV (Reino Unido) - EUA, Reino Unido
 * Operadora de celular - global
 
-**Como posso testar minhas campanhas se sou um usuário proveniente de uma localidade diferente?**
+**Como faço para testar minhas atividades como se eu fosse um usuário proveniente de um local diferente?**
 
 Você pode sobrescrever seu endereço IP com um endereço IP de um local diferente e utilizá-lo no parâmetro de url `mboxOverride.browserIp url`. Se sua empresa está no Reino Unido, mas sua campanha global é direcionada a visitantes em Auckland, Nova Zelândia, utilize o estilo de URL a seguir, assumindo que `60.234.0.39` é um endereço IP em Auckland:
 
@@ -146,4 +149,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
