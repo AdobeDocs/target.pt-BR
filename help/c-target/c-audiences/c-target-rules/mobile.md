@@ -1,21 +1,21 @@
 ---
-description: Dispositivos móveis do Target baseados em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels), e muito mais.
+description: Crie públicos-alvo para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels) e muito mais.
 keywords: direcionamento, móvel, dispositivos móveis do target, deviceatlas, iphone, modelos do iphone, atlas do dispositivo, displaywidth, largura de exibição, altura de exibição, tipo de dispositivo, displayheight, celular, tablet, modelo do dispositivo
-seo-description: Dispositivos móveis do Target baseados em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels), e muito mais.
-seo-title: Dispositivo móvel
+seo-description: Crie públicos-alvo para o Adobe Target para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels) e muito mais.
+seo-title: Público-alvo móvel no Adobe Target
 solution: Target
 title: Dispositivo móvel
 topic: Padrão
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Celular{#mobile}
 
-Dispositivos móveis do Target baseados em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels), e muito mais.
+Crie públicos-alvo para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels) e muito mais.
 
 Por exemplo, talvez você queira mostrar conteúdos diferentes para usuários que entram na sua página de um telefone e que visitam de um computador. Nesse caso, você pode selecionar o público-alvo móvel e depois selecionar a opção **[!UICONTROL Is Mobile Phone], adicionar os detalhes específicos que são importantes para você, como tipo de telefone, tamanho da tela (em pixels) etc.**
 
@@ -44,9 +44,6 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
 1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Móvel]**.
-
-   ![](assets/target_mobile.png)
-
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
    * Nome de marketing do dispositivo
@@ -70,6 +67,10 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
 
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
+
+A ilustração a seguir mostra um público direcionado que usa dispositivos fabricados pelo Google que são dispositivos móveis.
+
+![Dispositivos móveis do Target](assets/target_mobile.png)
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
