@@ -1,21 +1,21 @@
 ---
-description: Visitantes do Target que atendem a parâmetros de perfil específicos.
+description: Crie públicos-alvo para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 keywords: perfil do visitante, perfil do visitante do target
-seo-description: Visitantes do Target que atendem a parâmetros de perfil específicos.
+seo-description: Crie públicos-alvo no Adobe Target para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 seo-title: Perfil do visitante
 solution: Target
-title: Perfil do visitante
+title: Criar públicos-alvo para direcionar perfis de visitantes usando o Adobe Target
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Perfil do visitante{#visitor-profile}
 
-Visitantes do Target que atendem a parâmetros de perfil específicos.
+Crie públicos-alvo para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
@@ -50,4 +50,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
