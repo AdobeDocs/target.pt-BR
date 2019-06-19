@@ -8,7 +8,7 @@ title: Atributos do perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ Por exemplo, o cartão com as informações do script de perfil é acessado ao p
 
 A guia [!UICONTROL Informações do script] contém as seguintes informações: Nome, Status, Tipo de token, ID do script, Log de alterações e Descrição.
 
-![](assets/profile_script_info_card.png)
+![Cartão de informações do script de perfil](assets/profile_script_info_card.png)
 
 A guia [!UICONTROL Uso do script] lista as atividades (e seus espaços de trabalho) que fazem referência ao script de perfil selecionado.
 
-![](assets/profile_script_info_card_usage_tab.png)
+![Cartão de informações do script de perfil &gt; guia Uso de script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
