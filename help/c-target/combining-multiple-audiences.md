@@ -2,13 +2,13 @@
 description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
 keywords: público-alvo, regras de público-alvo, combinar públicos-alvo, exclusão, adicionar exclusão, excluir, combinação de públicos-alvo, público-alvo adhoc, público-alvo ad hoc
 seo-description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
-seo-title: Combinar vários públicos
+seo-title: Combinar vários públicos-alvo no Adobe Target
 solution: Target
 title: Combinar vários públicos
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -23,7 +23,7 @@ Como outro exemplo, você pode direcionar todos os clientes de fidelidade inclui
 
 Você pode combinar até dez públicos-alvo usando operadores AND e OR.
 
-Você pode criar e usar públicos-alvo combinados em vários locais na interface do usuário do [!DNL Target]. Esta seção contém as seguintes informações:
+Você pode criar e usar públicos-alvo combinados em vários locais na interface do usuário do [!DNL Target]. 
 
 ## Criar um público-alvo combinado ao criar uma atividade {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
