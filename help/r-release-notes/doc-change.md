@@ -2,13 +2,13 @@
 description: Essa página lista alterações importantes feitas à documentação do Target.
 keywords: registro de alterações da documentação do target, atualizações da documentação
 seo-description: Essa página lista alterações importantes feitas à documentação do Target.
-seo-title: Alterações de documentação
+seo-title: Alterações de documentação na documentação do produto Adobe Target
 solution: Target
 title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
