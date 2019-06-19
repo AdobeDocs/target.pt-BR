@@ -1,35 +1,33 @@
 ---
-description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas campanhas.
+description: Os atributos do perfil são parâmetros específicos do visitante. Esses atributos são armazenados no perfil do visitante para fornecer informações sobre o visitante que pode ser usado nas atividades do Adobe Target.
 keywords: Script de perfil, atributos do script de perfil, práticas recomendadas do script de perfil, depurar, depuração
-seo-description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas campanhas.
-seo-title: Atributos do perfil
+seo-description: Os atributos do perfil são parâmetros específicos do visitante. Esses atributos são armazenados no perfil do visitante para fornecer informações sobre o visitante que pode ser usado nas atividades do Adobe Target.
+seo-title: Atributos de perfil no Adobe Target
 solution: Target
 title: Atributos do perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
 
 # Atributos do perfil{#profile-attributes}
 
-Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas campanhas.
+Os atributos de perfil são parâmetros específicos de um visitante. Esses atributos são armazenados no perfil do visitante para fornecer informações sobre o visitante que pode ser usado em suas atividades.
 
-## Atributos do perfil {#concept_01A30B4762D64CD5946B3AA38DC8A201}
-
-Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas campanhas.
-
-Conforme o visitante navega, ou quando ele retorna para uma outra sessão, os atributos do perfil salvos podem ser usados para segmentar o conteúdo ou registrar informações para a filtragem de segmentos.
+Conforme um visitante procura seu site, ou quando ele retorna para outra sessão, os atributos de perfil salvos podem ser usados para direcionar conteúdo ou registrar informações para filtragem de segmentos.
 
 Para configurar os atributos de perfil, clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Scripts de perfil.]**
+
+![Guia Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 Os tipos a seguir de atributos de perfil estão disponíveis:
 
 | Tipo do parâmetro | Descrição |
 |--- |--- |
-| Mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Observação: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização de perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Observação: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definido diretamente com um trecho de código JavaScript. Eles podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -56,7 +54,7 @@ Para copiar um script de perfil existente, na lista de [!UICONTROL Scripts de pe
 
 Você pode editar o público-alvo para criar um público-alvo semelhante.
 
-![](assets/profile-script.png)
+![Caixa de diálogo Criar script de perfil](assets/profile-script.png)
 
 Scripts de perfil executam os &quot;coletores&quot; de atributo de perfil em cada solicitação de localização. Quando uma solicitação de localização é recebida, o Target determina qual atividade deve ser executada e exibe o conteúdo apropriado a essa atividade e experiência, monitora o sucesso da atividade e executa todos os scripts de perfil relevantes. Isto permite rastrear as informações sobre a visita, como o local do visitante, a hora do dia, o número de vezes que o visitante acessou o site, se ele já fez alguma compra anteriormente etc. Estas informações são então adicionadas ao perfil do visitante para que você possa melhor rastrear a atividade do visitante no seu site.
 
@@ -72,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Consulte os atributos de script do perfil (incluindo ele mesmo) no código com `user.get('parameterName')`
 * Salve variáveis que podem ser acessadas na próxima vez que o script for executado (na própria solicitação da mbox) com `user.setLocal('variable_name', 'value')`. Faça referência à variável com `user.getLocal('variable_name')`. Isto é útil para situações em que você deseja fazer referência à data e hora da última solicitação.
-* Os parâmetros e valores diferencia maiúsculas de minúsculas. Verifique as letras maiúsculas de minúsculas e valores que você receberá durante a campanha ou o teste.
+* Os parâmetros e valores diferencia maiúsculas de minúsculas. Corresponda ao caso dos parâmetros e valores que você receberá durante a atividade ou teste.
 * Consulte a seção &quot;Referência de JavaScript para os parâmetros do perfil de script&quot; abaixo para obter mais sintaxe de JavaScript.
 
 ## Exibição dos cartões de informações do script de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -345,4 +343,4 @@ Esse vídeo inclui informações sobre o uso e a criação de scripts de perfil.
 * Use o menu Token disponível para acessar as opções disponíveis
 * Ative e desative os scripts de perfil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/17394?captions=por_br)
