@@ -1,14 +1,14 @@
 ---
 description: O recurso de afinidade de categorias captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
 keywords: afinidade, afinidade de categorias
-seo-description: O recurso de afinidade de categorias captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
-seo-title: Afinidade de categorias
+seo-description: O recurso de afinidade de categoria no Adobe Target captura automaticamente as categorias que um usuário visita e calcula a afinidade do usuário da categoria para que possa ser direcionada e segmentada. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
+seo-title: Usar a afinidade de categorias no Adobe Target
 solution: Target
 title: Afinidade de categorias
 topic: Padrão
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -45,7 +45,7 @@ Suponha que você venda instrumentos musicais online e queira direcionar as prom
 
 O algoritmo de afinidade de categoria funciona da seguinte maneira:
 
-* 10 pontos para a primeira categoria visualizada
+* 10 pontos para primeira visualização de categoria
 * 5 pontos para categoria clicada após a primeira
 * Quando uma nova categoria é clicada, 1 é subtraído de todas as categorias clicadas anteriormente
 * Se uma categoria já tiver sido clicada (vista), clicar novamente nela não subtrairá 1 de todas as outras categorias
@@ -54,7 +54,7 @@ O algoritmo de afinidade de categoria funciona da seguinte maneira:
 
 ### Exemplo: algoritmo de afinidade de categoria
 
-Por exemplo, exibir a `mens-clothing` categoria e então `accessories`, em seguida `jewelry`, `accessories` novamente em uma sessão resulta em afinidades de:
+Por exemplo, visualizar a categoria `mens-clothing`, em seguida, `accessories`, `jewelry`, e `accessories` novamente em uma sessão resulta em afinidades de:
 
 * `accessories`: 9 (+5 – 1 + 5)
 
@@ -64,37 +64,37 @@ Por exemplo, exibir a `mens-clothing` categoria e então `accessories`, em segui
 
 Quando a sessão for encerrada e o usuário voltar posteriormente para o site, as pontuações serão reduzidas:
 
-* `accessories`: 4.5 (9/2)
+* `accessories`: 4,5 (9/2)
 
 * `mens-clothing`: 4 (8/2)
 
-* `jewelry`: 2.5 (5/2)
+* `jewelry`: 2,5 (5/2)
 
-Considerando que o usuário então visualize, em ordem `jewelry``accessories`, `beauty`e `shoes``womens-clothing`:
+Considerando que o usuário então visualize, em ordem `jewelry`, `accessories`, `beauty`, `shoes` e `womens-clothing`:
 
-* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
+* `accessories`: 6,5 (4.5 + 5 – 1 – 1 - 1)
 
 * `womens-clothing`: 5 (+5)
 
-* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
+* `jewelry`: 4,5 (2,5 + 5 – 1 – 1 - 1)
 
 * `shoes`: 4 (+5 – 1)
 
 * `beauty`: 3 (+5 – 1 - 1)
 
-* `mens-clothing` é descartada depois do clique final `womens-clothing` como a categoria de pontuação mais baixa com uma pontuação de 1 (4 - 1 - 1 - 1)
+* `mens-clothing` é descartada depois do clique final de `womens-clothing`, como a categoria de pontuação mais baixa com uma pontuação de 1 (4 – 1 – 1 - 1)
 
 Quando a sessão for encerrada e o usuário voltar posteriormente para o site, as pontuações serão reduzidas:
 
-* `accessories`: 3.3 (6.5/2)
+* `accessories`: 3,3 (6,5/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `womens-clothing`: 2,5 (5/2)
 
-* `jewelry`: 2.3 (4.5/2)
+* `jewelry`: 2,3 (4,5/2)
 
 * `shoes`: 2 (4/2)
 
-* `beauty`: 1.5 (3/2)
+* `beauty`: 1,5 (3/2)
 
 ## Use afinidade de categorias para direcionamento {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
@@ -117,9 +117,13 @@ Esta seção contém as seguintes informações:
 1. Clique em **[!UICONTROL + Adicionar regra]** &gt; **[!UICONTROL Perfil do visitante]**.
 1. Na lista suspensa **[!UICONTROL Perfil do visitante]**, selecione **[!UICONTROL Afinidade de categorias]**.
 
-   ![](assets/affinity.png)
+   ![Perfil do visitante &gt; Afinidade de categorias](assets/affinity.png)
 
 1. Selecione a categoria desejada:
+
+   ![Afinidade de categoria &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+   As categorias incluem:
 
    * Categoria favorita
    * Primeira categoria
