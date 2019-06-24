@@ -7,8 +7,8 @@ solution: Target
 title: Opções do Visual Experience Composer
 topic: Padrão
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -54,7 +54,7 @@ Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pod
 
 **Observação:** essa opção não está disponível para um elemento no qual uma imagem do fundo está definida.
 
-#### Estilos
+#### Estilos {#styles}
 
 Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.
 
@@ -73,6 +73,20 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 >[!NOTE]
 >
 >Ações rápidas para alterações de layout, cor de fundo, redimensionamento e mover também estão disponíveis como ações separadas no menu do VEC. Essas opções podem ser utilizadas como ações separadas ou você pode usar o menu Estilos, conforme explicado aqui.
+
+* **Segundo plano**
+
+   Altere a cor e a imagem do plano de fundo.
+
+   * Cor (especifique o código de cor ou use o seletor de cores)
+   * Imagem (selecione uma imagem do seletor de imagens)
+   * Fonte da imagem (especifique um URL externo)
+   * Anexo
+      * Clique na lista suspensa superior para selecionar rolagem, fixa ou local
+      * Clique na lista suspensa inferior para selecionar repetição, repetir-x, repetir-y, sem repetição, espaço ou arredondar
+   * Clipe
+      * Clique na lista suspensa superior para selecionar a caixa de borda, a caixa de preenchimento, a caixa de conteúdo ou o texto
+      * Clique na lista suspensa inferior para selecionar áudio ou áudio automático
 
 * **Tipografia**
 
@@ -100,7 +114,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
    * Valor (arraste o controle deslizante para definir a margem ou especifique o número de pixels para cada margem)
    A margem suporta valores positivos e negativos.
 
-   O Target também é compatível com outras unidades de tamanho, como rem, pc, em, etc. Para obter mais informações sobre essas unidades, consulte [Dicas e truques de CSS e Folhas de estilo da Web](https://www.w3.org/Style/Examples/007/units.en.html).
+   O Target também é compatível com outras unidades de tamanho, como rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Preenchimento**
 
@@ -110,7 +124,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
    O preenchimento suporta escalas de largura a partir de 0.
 
-   O Target também é compatível com [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Borda**
 
@@ -123,11 +137,11 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
    * Largura da borda (arraste o controle deslizante para selecionar uma largura de borda ou especifique a largura em pixels)
    A borda suporta escalas de largura a partir de 0.
 
-   O Target também é compatível com [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Position**
 
-   Mova o elemento selecionado da posição atual. Você pode alterar a posição superior, inferior, esquerda, direita e [índice z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) do elemento.
+   Mova o elemento selecionado da posição atual. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Clique na lista suspensa [!UICONTROL Estático] para escolher entre as seguintes opções de posição:
 
@@ -142,7 +156,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
    * Valor (arraste o controle deslizante para posicionar o elemento ou especifique o número de pixels que deseja mover o elemento)
    A posição suporta valores positivos e negativos.
 
-   O Target também é compatível com [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Tamanho**
 
