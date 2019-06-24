@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -16,16 +16,6 @@ source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 # Alterações de documentação{#documentation-changes}
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
-
-## Adobe Target Standard/Premium 19.6.1 (26 de junho de 2019) {#tgt-19-6-1}
-
-| Data | Tópico | Alterações |
-| --- | --- | --- |
-| 26 de junho de 2019 | [Opções de experiência visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
-|  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
-|  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
-|  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nova seção: &quot; Configurações de entrega de página para o SPA VEC &quot;. |
-|  | [Políticas de cookie do Google Chrome para samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Novo tópico. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 de maio de 2019) {#tgt-19-5-1}
 
