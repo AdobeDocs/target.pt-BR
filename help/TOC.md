@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/pt/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
+source-git-commit: b6b649e31173e80fd0a79b3ce695c130052bf81a
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
          + [Visão geral de privacidade](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Privacidade e o Regulamento Geral sobre a Proteção de Dados (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Excluir o cookie do Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Políticas de cookie do Google Chrome para samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + Métodos para colocar os dados no Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configurações da API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
