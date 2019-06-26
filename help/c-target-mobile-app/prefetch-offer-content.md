@@ -7,8 +7,8 @@ solution: Target
 title: Buscar previamente conteúdo da oferta
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,5 +23,5 @@ O conteúdo da busca prévia não persiste entre inicializações. O conteúdo d
 
 Para obter mais informações, incluindo métodos de busca prévia, classes públicas e exemplos de código, consulte:
 
-* **iOS:**  [Buscar previamente conteúdo da oferta no iOS](https://marketing.adobe.com/resources/help/pt_BR/mobile/ios/c_mob_target-prefetch_ios.html) no* guia do SDK iOS 4.x para Experience Cloud Solutions*.
-* **Android:**  [Buscar previamente conteúdo de oferta no Android](https://marketing.adobe.com/resources/help/pt_BR/mobile/android/c_mob_target-prefetch_android.html) no guia *do Android SDK 4.x para Soluções da Experience Cloud*.
+* **iOS:**[Busca prévia de conteúdo de oferta no iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) no guia * iOS SDK 4. x para Soluções da Experience Cloud *.
+* **Android:**[Conteúdo de oferta de busca prévia no Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) no guia *Android SDK 4.x for Experience Cloud Solutions*.
