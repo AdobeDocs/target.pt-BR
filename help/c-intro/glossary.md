@@ -7,7 +7,7 @@ title: Glossário
 topic: Padrão
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual
 
 Painel que exibe uma breve visão geral das atividades.
 
-**atividade**
+**ilegal**
 
 Permite testar designs de páginas e conteúdo direcionado para públicos-alvo específicos.
 
@@ -172,7 +172,7 @@ Os hosts são agrupados em ambientes para facilitar o gerenciamento. Os grupos d
 
 **experiência**
 
-Uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez formam um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de serviço ao cliente ou até mesmo um gosto personalizado de uma máquina bebida. Teste ou personalize experiências nas [!DNL Target] atividades.
+Uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez formam um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de serviço ao cliente ou até mesmo um gosto personalizado de uma máquina bebida. You test or personalize experiences in [!DNL Target] activities.
 
 **direcionamento da experiência**
 
@@ -256,7 +256,7 @@ Acompanha, ao longo do tempo, o desempenho de uma conversão, uma métrica de su
 
 **teste multivariado**
 
-O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento impacta mais o sucesso da atividade.
+O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
