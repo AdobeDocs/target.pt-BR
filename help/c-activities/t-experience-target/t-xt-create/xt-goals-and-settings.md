@@ -8,7 +8,7 @@ title: Metas e Configurações
 topic: Padrão
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -133,7 +133,7 @@ A opção Adicionar dependência permite que a métrica de sucesso seja incremen
 Para adicionar uma dependência:
 
 1. Depois de adicionar outras métricas, clique em **[!UICONTROL Configurações avançadas]**.
-2. Clique **[!UICONTROL em Adicionar dependência]**:
+2. Click **[!UICONTROL Add Dependency]**:
 
    ![Adicionar link de dependência](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
