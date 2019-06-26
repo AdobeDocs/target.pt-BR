@@ -9,7 +9,7 @@ title: Funcionamento do Adobe Target
 topic: Padrão
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -108,7 +108,7 @@ A rede também atua como um mecanismo contra falhas. Se um nó da borda não est
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Devido ao ótimo Firewall e à falta de nós do Edge no país, as experiências de sites com [!DNL Target] implantado serão lentas e as cargas da página serão afetadas. Além disso, a [!DNL Target] interface do usuário também pode experimentar latência.
+>[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
 
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
