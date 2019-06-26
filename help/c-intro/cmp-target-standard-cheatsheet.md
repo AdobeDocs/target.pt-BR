@@ -8,7 +8,7 @@ title: Perguntas frequentes sobre otimização e personalização do Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -334,7 +334,7 @@ Faça essas alterações usando a [engrenagem de Configurações na página de r
 
 Como eu devo interpretar os relatórios?
 
-Nós tentamos tornar os relatórios os mais intuitivos possível com recursos como [Barras de intervalo de confiança, limites de incentivo, significância/confiança e múltiplas seleções métricas, visualizações em tabela e gráfico, médias de execução e mais](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para possibilitar análise de relatórios poderosa, mas facilitada. Obviamente, você pode pesquisar Analytics se você estiver usando  [Atividades do Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para mais análise sobre públicos-alvo.
+Nós tentamos tornar os relatórios os mais intuitivos possível com recursos como [Barras de intervalo de confiança, limites de incentivo, significância/confiança e múltiplas seleções métricas, visualizações em tabela e gráfico, médias de execução e mais](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para possibilitar análise de relatórios poderosa, mas facilitada. Obviamente, você pode pesquisar Analytics se você estiver usando [Atividades do Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para mais análise sobre públicos-alvo.
 
 ## Tokens de resposta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -356,7 +356,7 @@ Lamentamos saber que você está tendo problemas. Veja [Solução de problemas d
 
 **Nós temos um SKU móvel. Posso criar atividades móveis?**
 
-Para otimização e personalização em dispositivos móveis, você precisa usar as [atividades baseadas em formulários](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) junto com o [Adobe SDK ](../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Confira mais detalhes sobre o [Target para aplicativos móveis](../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
+Para otimização e personalização em dispositivos móveis, você precisa usar as [atividades baseadas em formulários](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) junto com o [Adobe SDK](../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Confira mais detalhes sobre o [Target para aplicativos móveis](../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
 
 ## APIs do Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
