@@ -7,8 +7,8 @@ solution: Target
 title: Criar ofertas remotas
 topic: Padrão
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -82,5 +82,5 @@ A Matriz de seleção de oferta dinâmica ajuda a decidir qual tipo de oferta di
 | Tempo de carregamento | Mais rápido | Mais lento devido ao processamento do pedido |
 | JavaScript pode ser visto na página | Sim | Não, mas pode enviar via URL |
 | As ofertas podem incluir JavaScript | Sim | Não |
-| URL de oferta | Absoluto ou relativo | Relativo |
+| URL de oferta | Absoluto   ou relativo | Relativo |
 | Computador solicitante | Servidores da Adobe | O computador do visitante, que armazena os cookies do visitante |
