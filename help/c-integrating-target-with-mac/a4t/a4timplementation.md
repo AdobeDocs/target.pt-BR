@@ -8,7 +8,7 @@ title: Implementação do Analytics for Target
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 
 A maneira como as configurações inovadoras são configuradas para integração do Target e do Analytics a partir de uma perspectiva de implementação é usar a SDID transmitida da página para unir a solicitação do Target e do Analytics ao backend automaticamente para você.
 
-No entanto, se você quiser mais controle sobre como e quando enviar dados de análise relacionados ao Target para fins de relatório, e não quiser aceitar as configurações padrão de como o Target e o Analytics empilham automaticamente os dados de análise por meio da SDID, você pode definir **analyticslogging = client_ side** por **window. targetglobalsettings**. Observação: qualquer versão abaixo de 2.1 não suporta essa abordagem.
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Observação: qualquer versão abaixo de 2.1 não suporta essa abordagem.
 
 Por exemplo:
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Essa configuração tem um efeito global, o que significa que cada chamada feita pelo at. js terá **o analyticslogging: &quot; client_ side &quot;** enviado nas solicitações do Target e uma carga de análise será retornada para cada solicitação. Quando configurado, o formato da carga retornada é semelhante ao seguinte:
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. Quando configurado, o formato da carga retornada é semelhante ao seguinte:
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ Essa configuração tem um efeito global, o que significa que cada chamada feita
 }
 ```
 
-A carga pode ser encaminhada para o Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, você poderá usar a função [at. js getoffers ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) para fazer isso passando no **analyticslogging: &quot; client_ side &quot;**. A carga do Analytics será retornada somente para esta chamada e o backend do Target não enviará a carga para o Analytics. Ao seguir essa abordagem, cada solicitação do Target. js não retornará a carga por padrão, mas somente quando desejado e especificada.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. A carga do Analytics será retornada somente para esta chamada e o backend do Target não enviará a carga para o Analytics. Ao seguir essa abordagem, cada solicitação do Target. js não retornará a carga por padrão, mas somente quando desejado e especificada.
 
 Por exemplo:
 
@@ -156,7 +156,7 @@ A resposta é semelhante ao seguinte:
 }
 ```
 
-A carga pode ser encaminhada para o Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Etapa 8: Validar a implementação {#step8}
 
