@@ -8,7 +8,7 @@ title: Opções do Visual Experience Composer
 topic: Padrão
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -54,7 +54,7 @@ Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pod
 
 **Observação:** essa opção não está disponível para um elemento no qual uma imagem do fundo está definida.
 
-#### Estilos
+#### Estilos {#styles}
 
 Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.
 
@@ -73,6 +73,20 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 >[!NOTE]
 >
 >Ações rápidas para alterações de layout, cor de fundo, redimensionamento e mover também estão disponíveis como ações separadas no menu do VEC. Essas opções podem ser utilizadas como ações separadas ou você pode usar o menu Estilos, conforme explicado aqui.
+
+* **Segundo plano**
+
+   Altere a cor e a imagem do plano de fundo.
+
+   * Cor (especifique o código de cor ou use o seletor de cores)
+   * Imagem (selecione uma imagem do seletor de imagens)
+   * Fonte da imagem (especifique um URL externo)
+   * Anexo
+      * Clique na lista suspensa superior para selecionar rolagem, fixa ou local
+      * Clique na lista suspensa inferior para selecionar repetição, repetir-x, repetir-y, sem repetição, espaço ou arredondar
+   * Clipe
+      * Clique na lista suspensa superior para selecionar a caixa de borda, a caixa de preenchimento, a caixa de conteúdo ou o texto
+      * Clique na lista suspensa inferior para selecionar áudio ou áudio automático
 
 * **Tipografia**
 
