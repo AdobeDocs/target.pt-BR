@@ -8,8 +8,8 @@ subtopic: Introdução
 title: Cookies da mbox.js
 topic: Padrão
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ O comportamento de cookies depende do tipo do cookie, podendo ser um cookie pró
 >
 >Este tópico contém informações sobre `mboxSession` e `mboxPC`. Nossas práticas recomendadas de implementação recomendam que você não vincule nem armazene informações confidenciais com os dados do cookie: `mboxSession` ou `mboxPC`.
 
-Consulte também [Excluir o Target Cookie](https://marketing.adobe.com/resources/help/pt_BR/target/target/t_cookie_deleting.html).
+Consulte também [Excluir o cookie do target](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html).
 
 ## Quando utilizar cookies próprios ou de terceiros {#section_F71B29420C004A7FA3B1921E619B326E}
 
