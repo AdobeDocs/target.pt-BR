@@ -8,7 +8,7 @@ title-outputclass: premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,8 +30,8 @@ Neste cenário, o Visitante 1 veria a Oferta 1 (porque ele se qualifica como par
 
 ## Configurar regras de definição de metas
 
-1. Crie uma [atividade de personalização automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md) contendo as ofertas que você deseja direcionar.
-1. Depois de configurar as ofertas para a atividade no Visual Experience Composer, clique **[!UICONTROL em Gerenciar conteúdo]**.
+1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
+1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
 
    ![Gerenciar conteúdo](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -43,11 +43,11 @@ Neste cenário, o Visitante 1 veria a Oferta 1 (porque ele se qualifica como par
 
 1. Selecione a (s) oferta (s) desejada (s) e escolha os públicos-alvo que deseja qualificar para ver essa oferta.
 
-   Para configurar a definição de metas para uma única oferta, passe o mouse sobre a oferta desejada e clique no ícone **[!UICONTORL Definição de metas]** .
+   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
 
-   Para configurar a definição de metas para várias ofertas, marque as caixas de seleção para as ofertas desejadas e clique no ícone**[!UICONTROL Definição de metas] , que é exibido na parte superior direita da lista.
+   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
 
-1. Na caixa [!UICONTROL de diálogo Escolher público,] selecione os públicos desejados para a (s) oferta (s) e clique **[!UICONTROL em Concluído]** (Concluído) para retornar à caixa de diálogo [!UICONTROL Gerenciar conteúdo] .
+1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
 
    >[!NOTE]
    >
