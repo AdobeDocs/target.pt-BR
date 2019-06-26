@@ -8,7 +8,7 @@ title: Seleção do público-alvo
 topic: Padrão
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Na caixa [!UICONTROL Público-alvo], clique no ícone Editar (três elipses vert
 
 ![opção Substituir público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do Target. Você pode selecionar um público-alvo da biblioteca, [criar um novo público](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)-alvo ou [criar um público-alvo somente para atividades](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Para um teste A/B sem direcionamento a um público-alvo específico, escolha o padrão, Todos os visitantes.
+Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do Target. You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Para um teste A/B sem direcionamento a um público-alvo específico, escolha o padrão, Todos os visitantes.
 
 Observe que você também pode editar ou copiar um público-alvo ao passar o mouse sobre o público-alvo desejado na caixa de diálogo [!UICONTROL Escolher público-alvo], conforme indicado abaixo. Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e salvá-lo como um público-alvo novo. Essa funcionalidade de passar o mouse sobre o item também existe em outros tipos de atividade.
 
