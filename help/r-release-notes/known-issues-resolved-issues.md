@@ -8,7 +8,7 @@ title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### Falha na renderização do relatório de gráfico de uma atividade do Target ao usar uma experiência personalizada como controle
+
+O relatório de gráfico de uma atividade do Target não é renderizado para modos &quot;diferencial&quot; (Incentivo médio e Incentivo diário) se não houver dados (0 visitas) em qualquer experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade se a experiência de controle estiver definida como personalizada. Para os outros modos (Executar controle médio e segmentação, Controle diário e Segmentação e Visitas) ele funciona bem. Assim que há alguns dados (visitas diferentes de zero), o relatório é renderizado como esperado.
 
 ### Cancelar carregamento de uma página no VEC {#cancel}
 
