@@ -7,7 +7,7 @@ solution: Target
 title: Adicionar experiência
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,11 +39,11 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](../../../
    >
    >Se você apresentar uma imagem de uma fonte diferente da sua página principal (como uma imagem hospedada em akamai.net e oferecida em dell.com), ela não será exibida na miniatura da página mostrada no diagrama de fluxo.
 
-1. Clique **[!UICONTROL em Salvar]** quando terminar de criar a experiência.
+1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
 ## Renomear experiência
 
-Clique no [!UICONTROL ícone Renomear experiência] sobre uma experiência em uma atividade de teste A/B ou direcionamento de experiência (XT) para dar a experiência um novo nome.
+Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
 
 ![Renomear experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,9 +62,9 @@ Observe que quando você nomeia ou renomeia uma experiência, os seguintes carac
 
 ## Redirecionar para URL
 
-Clique no ícone Mais (três elipses verticais) em uma experiência em uma atividade de teste A/B ou direcionamento de experiência (XT) e clique [!UICONTROL em Redirecionar para URL].
+Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
 
-Para obter mais informações, consulte [Redirecionar para URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 **OBSERVAÇÃO**: Quando você nomeia ou renomeia uma experiência, os seguintes caracteres não são permitidos:
 
