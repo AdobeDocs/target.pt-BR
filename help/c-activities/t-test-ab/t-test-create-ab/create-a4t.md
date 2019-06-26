@@ -6,8 +6,8 @@ seo-title: Uso de dados do Analytics
 solution: Target
 title: Uso de dados do Analytics
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 É possível configurar uma Atividade no Target Standard para usar o Adobe Analytics como origem de geração de relatórios (A4T).
 
-Para obter informações detalhadas sobre como configurar o Analytics como fonte de dados para o Target, consulte [Adobe Analytics como fonte de relatórios para Adobe Target](https://marketing.adobe.com/resources/help/pt_br/target/a4t/a4t.html).
+Para obter mais informações sobre como configurar o Analytics como a fonte de dados do Target, consulte [Adobe Analytics como fonte de relatórios do Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html).
 
 Antes de configurar uma atividade que usa o Analytics como fonte de relatórios, estabeleça a meta da atividade, como melhorar a receita por visitante (RPV) ou aumentar os cliques no carrinho de compras. Escolha uma métrica de sucesso final para a campanha. Apesar de poder selecionar métricas adicionais a qualquer momento no Analytics, você ainda precisa especificar uma métrica específica que espera que seja afetada por esse teste.
 
