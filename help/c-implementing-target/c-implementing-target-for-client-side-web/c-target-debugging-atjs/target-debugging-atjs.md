@@ -6,8 +6,8 @@ seo-title: Depuração da at.js usando o depurador da Adobe Experience Cloud
 title: Depuração da at.js usando o depurador da Adobe Experience Cloud
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ Informações sobre o uso da extensão do depurador da Adobe Experience Cloud, q
 
 Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta Mbox Trace avançada para inspecionar as qualificações de atividade e público-alvo, bem como o perfil do visitante.
 
-Consulte a documentação do [Adobe Experience Cloud Debugger Extension](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) para obter mais informações. As informações específicas do Target podem ser encontradas na seção [Ferramentas](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html).
+Revise a [documentação do depurador da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) para obter mais informações. As informações específicas ao Target podem ser encontradas na seção [Ferramentas](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html).
 
 ## Vídeos de treinamento
 
@@ -26,12 +26,12 @@ Os vídeos a seguir o orientam pelo processo de depuração:
 
 ### Adicionar a extensão do depurador da Adobe Experience Cloud {#section_8CD96F76E397476193529573F3199615}
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=por_br)
 
 ### Depuração básica do Target usando o depurador da Adobe Experience Cloud {#section_AB2814A994DC4A86BABDD0441343D911}
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=por_br)
 
 ### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=por_br)
