@@ -7,8 +7,8 @@ solution: Target
 title: Práticas recomendadas e limitações do Visual Experience Composer
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -83,7 +83,7 @@ OU
 
 Os elementos de nível de bloco não devem ser usados dentro de elementos em linha como âncora, span etc. Isso faz com que os elementos em linha percam sua altura e largura, de modo que a ferramenta de sobreposição no Visual Experience Composer talvez não funcione como esperado.
 
-**Ao atualizar ofertas para mboxes clássicas, certifique-se de que a mbox foi criada como descrito em[Criar uma Mbox](https://marketing.adobe.com/resources/help/pt_BR/tnt/help/t_Creating_a_Single_Mbox.html)na ajuda do Target Classic.**
+**Ao atualizar as ofertas para mboxes clássicas, verifique se a mbox foi criada como descrito em[Criar uma única mbox](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)na ajuda do Target Classic.**
 
 Se você estiver pensando em colocar um elemento ou grupo de elementos em uma mbox, coloque-os em uma nova div com `class mboxDefault`:
 
