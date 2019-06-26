@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: b1195ddaa639ac51a3966777f3769fa46428b4a8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -159,16 +159,16 @@ Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao p�
 
 Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, limite o tamanho do arquivo CSV para 1 GB para evitar falhas durante o processo de upload de arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Limites adicionais sobre o comprimento das colunas requeridas estão disponíveis na [página de Limitações do Target](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
-## É possível excluir dinamicamente uma entidade?
+## Posso excluir dinamicamente uma entidade?
 
-Na sequência de consulta, você pode passar IDs de entidade para entidades que deseja excluir de suas recomendações. Por exemplo, você pode desejar excluir itens que já estão no carrinho.
+Na sequência de consulta, você pode passar IDs de entidades para as entidades que deseja excluir de suas recomendações. Por exemplo, você pode desejar excluir itens que já estão no carrinho.
 
-Para ativar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro aponta para uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
+Para ativar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro indica uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
 
 >[!NOTE]
 >
->Se muitas entidades forem excluídas, as recomendações se comportarão como se não houvesse entidades suficientes para preencher o modelo de recomendação.
+>Se muitas entidades forem excluídas, as recomendações se comportarão como se não houvesse entidades suficientes para preencher o modelo da recomendação.
 
-Para excluir `entityIds`, anexe o `&excludes=${mbox.excludedIds}` token à oferta do conteúdo da oferta. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
+Para excluir as `entityIds`, anexe o token `&excludes=${mbox.excludedIds}` no url de conteúdo da oferta. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
 
-Por padrão, esse recurso é ativado para recomendações recém-criadas. Recomendações existentes devem ser salvas para suportar entidades excluídas dinamicamente.
+Por padrão, esse recurso é ativado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
