@@ -8,8 +8,8 @@ subtopic: Teste multivariado
 title: Minimizar contagens inflacionadas de visitas e visitantes no A4T
 topic: Padrão
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ Na maioria das situações, um acesso do [!DNL Target] é corrigido com um aces
 
 **Acessos a dados parciais:** Os usuários algumas vezes não permanecem em uma página tempo suficiente para enviar uma chamada do [!DNL Analytics], mas o [!DNL Target] tem um MCID apropriado. Isso resulta em acessos a dados parciais (acessos sem visualização de página do [!DNL Analytics]). Se esses usuários voltarem ao seu site e visualizarem uma página contendo código do [!DNL Analytics], serão contados apropriadamente como visitantes recorrentes. Esses são acessos que teriam sido perdidos se você só tivesse código do [!DNL Analytics] na página. Alguns clientes não querem dados desses acessos porque eles inflam certas métricas (visitas) e deflacionam outras métricas (visualizações de página por visita, tempo por visita e assim por diante). Você também verá visitas sem quaisquer visualizações de página. Entretanto, ainda há razões válidas para manter esses dados.
 
-Para minimizar os acessos com dados parciais, você pode fazer sua página carregar mais rápido, atualizar para as versões mais recentes das bibliotecas ou criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/pt_BR/reference/virtual-report-suites.html) que exclui esses acessos. Para obter as instruções passo a passo, consulte [Criar conjuntos de relatórios virtuais](https://marketing.adobe.com/resources/help/pt_BR/reference/vrs-create.html) na documentação [!DNL Analytics] do produto.
+Para minimizar os acessos com dados parciais, você pode fazer sua página carregar mais rápido, atualizar para as versões mais recentes das bibliotecas, ou criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) que excluem esses acessos. Para obter instruções passo a passo, consulte [Criação de conjuntos de relatórios virtuais](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) na documentação do produto do [!DNL Analytics].
 
 A ilustração a seguir mostra a definição de segmento para o conjunto de relatórios virtuais:
 
@@ -98,7 +98,7 @@ Ao criar o conjunto de relatórios virtuais, especifique a configuração a segu
 
 **Ocorrências órfãs:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Esses são os que definimos como acessos &quot;órfãos&quot;. Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
 
-Para minimizar esses acessos &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/pt_BR/reference/vrs-create.html) que exclui esses acessos, como explicado acima.
+Para minimizar esses acessos &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) que exclua esses acessos conforme explicado acima.
 
 ## O que isso significa para meus [!DNL Target] relatórios? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
