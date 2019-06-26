@@ -8,8 +8,8 @@ subtopic: Introdução
 title: Treinamento e certificado
 topic: Padrão
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Os serviços de treinamento da Adobe oferecem aulas e certificados.
 
-Para obter uma lista de cursos com instrutor e online disponíveis, visite o site de [Treinamento do Cliente da Adobe](https://training.adobe.com/training/courses.html#solution=adobeTarget).
+Para uma lista de cursos presenciais com instrutor e online disponíveis, visite o [site de Treinamento de clientes da Adobe](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
 Para obter mais informações, entre em contato com o centro de Serviços de treinamento Adobe de sua área geográfica.
 
