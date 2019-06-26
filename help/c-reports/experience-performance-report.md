@@ -7,8 +7,8 @@ solution: Target
 title: Relatório de desempenho da experiência (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,4 +41,4 @@ Abaixo do gráfico, uma tabela mostra quantos participantes visualizaram cada ex
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da experiência é descrito no começo às 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=por_br)
