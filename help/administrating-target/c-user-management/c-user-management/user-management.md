@@ -9,7 +9,7 @@ title: Usuários
 topic: Padrão
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,7 +45,7 @@ Para tarefas executadas no Adobe Admin Console, acesse o console seguindo estas 
 
    Ou
 
-   Se você já estiver conectado à Experience Cloud, vá para [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)e clique no ícone [!UICONTROL Aplicativo] na barra de navegação superior &gt; clique **[!UICONTROL em Admin]** no lado direito.
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. (Condicional) Se tiver acesso ao [!DNL Admin Console for Enterprise] para mais de uma organização, clique no avatar do usuário no canto direito ou na barra de navegação superior e selecione a organização desejada.
 
@@ -76,7 +76,7 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
 1. Clique no nome da configuração desejada.
 1. Clique em **[!UICONTROL Usuários]**.
 
-   A guia [!UICONTROL Usuários] exibe todos os usuários nessa área de trabalho.
+   The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![usuários de configuração](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
