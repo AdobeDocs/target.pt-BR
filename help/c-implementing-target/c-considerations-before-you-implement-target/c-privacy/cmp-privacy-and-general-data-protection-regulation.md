@@ -8,7 +8,7 @@ title: Privacidade e o Regulamento Geral sobre a Proteção de Dados (GDPR)
 topic: Padrão
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -105,7 +105,7 @@ A Adobe já atende às obrigações como um Processador de dados ou está fazend
 
 Não, a Adobe está oferecendo uma maneira central para ajudar Controladores de dados a atender os requisitos do GDPR. Os Controladores de dados não precisarão acessar diretamente cada solução.
 
-Todas as solicitações de GDPR nas soluções da Experience Cloud, incluindo o Target, serão feitas por meio de uma API central da Adobe, atualmente denominada API do GDPR. A API concluirá a solicitação no conjunto de soluções da Experience Cloud do Controlador de dados. 
+Todas as solicitações de GDPR nas soluções da Experience Cloud, incluindo o Target, serão feitas por meio de uma API central da Adobe, atualmente denominada API do GDPR. A API concluirá a solicitação no conjunto de soluções da Experience Cloud do Controlador de dados.
 
 ### Quais informações a Adobe permitirá que nossos clientes excluam em resposta a uma solicitação de usuário/titular de dados? {#section_4B51D00924EC4166B2442218B69214F0}
 
