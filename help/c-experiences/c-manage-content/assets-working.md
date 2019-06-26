@@ -7,8 +7,8 @@ solution: Target
 title: Trabalhar com conteúdo na biblioteca
 topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,12 +28,12 @@ Informações sobre as tarefas que você pode executar em um ativo na Biblioteca
    | Ação | Tipo de ativo | Descrição |
    |--- |--- |--- |
    | Anotar | Imagem | Adicionar uma observação ao ativo. Clique no ativo, selecione a área que deseja anotar e digite a sua observação. |
-   | Copiar | Experiência<br>Image<br>Folder<br>Text/HTML | Copie o ativo para a área de transferência. |
+   | Copiar | Experiência<br>Imagem<br>Pasta<br>Texto/HTML | Copie o ativo para a área de transferência. |
    | Excluir | Experiência<br>Imagem<br>Pasta<br>Texto/HTML | Exclua o ativo.<br>É possível excluir uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.<br>Se você excluir uma pasta com um grande número de imagens, o processo em execução em segundo plano pode levar algum tempo (vários minutos) antes que a interface do usuário seja atualizada para mostrar o estado final. O tempo necessário é em função do número de imagens, não do tamanho delas. Uma boa estimativa é de dez minutos para 2.000 imagens. Você pode continuar com outros trabalhos e verificar o estado final depois de alguns minutos para confirmar a exclusão.<br> As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas. |
    | Baixar | Experiência<br>Imagem<br>Texto/HTML | Baixe o ativo para o dispositivo ou computador. |
    | Editar | Imagem<br>Texto/HTML | Edite o ativo. A tela Editar ativo é aberta, contendo algumas opções de edição, como girar e recortar. |
-   | Compartilhar cartão | Experiência<br>Image<br>Text/HTML | Compartilhe o cartão em outro quadro. Você pode fazer uma anotação, selecionar o quadro para compartilhar e adicionar um comentário sobre o cartão. |
-   | Propriedades da exibição | Experiência<br>Image<br>Text/HTML | Exibir as propriedades do ativo. Clique no ícone de Lápis na página de propriedades para editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença. |
+   | Compartilhar cartão | Experiência<br>Imagem<br>Texto/HTML | Compartilhe o cartão em outro quadro. Você pode fazer uma anotação, selecionar o quadro para compartilhar e adicionar um comentário sobre o cartão. |
+   | Propriedades da exibição | Experiência<br>Imagem<br>Texto/HTML | Exibir as propriedades do ativo. Clique no ícone de Lápis na página de propriedades para editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença. |
 
 1. Para alterar a imagem que representa um item na biblioteca, clique no item e, em seguida, clique no ícone **[!UICONTROL Propriedades]**, clique em **[!UICONTROL Editar]** e adicione uma imagem.
 
@@ -41,8 +41,8 @@ Informações sobre as tarefas que você pode executar em um ativo na Biblioteca
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo. (4:56)
 
-* Conexão entre a [Biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/pt_br/mcloud/creative_cloud.html) e a Biblioteca de conteúdo do Target
+* Conexão entre a [biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e a biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=por_br)
