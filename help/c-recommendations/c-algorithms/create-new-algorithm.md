@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -326,6 +326,16 @@ Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros s
 Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante viu, baseado no número de slots no design.
 
 O critério Itens visualizados recentemente agora retorna resultados específicos a um certo [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens visualizados recentemente do site em questão. Caso dois sites estejam no mesmo ambiente e um visitante alternar entre eles, ele verá os mesmos itens visualizados recentemente em ambos os sites.
+
+**Onde usar em seu site**
+
+Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
+
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site mostrará apenas itens comprados recentemente do site apropriado. Se dois sites estiverem no mesmo ambiente e um visitante alternar entre os dois sites, o visitante verá os mesmos itens comprados recentemente para ambos os sites.
 
 **Onde usar em seu site**
 
