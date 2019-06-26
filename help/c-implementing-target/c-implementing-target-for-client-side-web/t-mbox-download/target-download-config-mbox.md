@@ -8,8 +8,8 @@ subtopic: Introdução
 title: Baixar a mbox.js
 topic: Padrão
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,6 +32,6 @@ Para usar o [!UICONTROL Visual Experience Editor] do [!DNL Adobe Target], você 
 
    >[!IMPORTANT]
    >
-   >Se você usar uma versão de [!DNL mbox.js] anterior à versão 57, a referência deverá ser o último item na seção `<head>` de suas páginas. Se a referência não for o último item, problemas graves de tela ou desempenho poderão ocorrer. Consulte [Detalhes da implementação técnica](https://marketing.adobe.com/resources/help/pt_BR/target/ov/c_mbox_technical.html) para obter mais informações.
+   >Se você usar uma versão de [!DNL mbox.js] anterior à versão 57, a referência deverá ser o último item na seção `<head>` de suas páginas. Se a referência não for o último item, problemas graves de tela ou desempenho poderão ocorrer. Veja os [Detalhes de implementação técnica](https://marketing.adobe.com/resources/help/en_US/target/ov/c_mbox_technical.html) para mais informações.
 
 1. Faça upload do arquivo [!DNL mbox.js] salvo no local no seu ambiente de hospedagem especificado no código.
