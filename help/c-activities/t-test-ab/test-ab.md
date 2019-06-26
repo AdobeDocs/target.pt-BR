@@ -6,8 +6,8 @@ seo-title: Teste A/B
 solution: Target
 title: Teste A/B
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,7 +28,7 @@ Ao definir o seu teste, você pode determinar qual a porcentagem de visitantes q
 >
 >Para obter informações detalhadas sobre como determinar o tamanho ideal da amostra para um teste A/B, consulte [Planejar o teste A/B](../../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383).
 
-Quando o número de experiências diferentes exceder cinco e abranger dois ou mais locais, é uma boa ideia considerar um [teste MVT](https://marketing.adobe.com/resources/help/pt_br/target/mvt/) antes de realizar seus testes A/B. O teste multivariado mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Estes são os locais que um profissional de marketing deve se concentrar. Por exemplo, o teste MVT pode mostrar que a chamada para a ação é o local mais importante para atender suas metas. Após determinar quais locais e conteúdo são mais úteis para ajudá-lo a atender suas metas, você pode executar um teste A/B para refinar ainda mais os resultados, como testar duas imagens específicas uma contra a outra ou comparando o texto ou as cores de uma chamada para a ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
+Quando o número de experiências diferentes é maior que cinco e passa por dois ou mais locais, é uma boa ideia considerar um [teste MVT](https://marketing.adobe.com/resources/help/en_US/target/mvt/) antes de realizar seus testes A/B. O teste multivariado mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Estes são os locais que um profissional de marketing deve se concentrar. Por exemplo, o teste MVT pode mostrar que a chamada para a ação é o local mais importante para atender suas metas. Após determinar quais locais e conteúdo são mais úteis para ajudá-lo a atender suas metas, você pode executar um teste A/B para refinar ainda mais os resultados, como testar duas imagens específicas uma contra a outra ou comparando o texto ou as cores de uma chamada para a ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
 ## Vídeo de treinamento: tipos de atividade (9:03)
 
@@ -38,4 +38,4 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
