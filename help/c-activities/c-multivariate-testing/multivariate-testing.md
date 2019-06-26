@@ -8,7 +8,7 @@ title: Teste multivariado
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
    Por exemplo, não teste o layout e o conteúdo no mesmo teste.
 * Inclua mais tempo para QA devido ao amento do número de experiências.
 
-   [!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. Uma abordagem dessa forma é o [método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para testes fatoriais parciais. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. Essa funcionalidade de funcionalidade e teste pode ser aproveitada [!DNL Target] usando essa [planilha offline](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   [!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Se a sua equipe usa outras abordagens de Projeto de Experimentos, você pode usar essa planilha como implementação de referência para projetos experimentais personalizados.
 
@@ -79,7 +79,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
    * Escolha os elementos que você deseja alterar e o número de versões de cada elemento (3x2, 4x3 e assim por diante).
    * Mantenha a numeração consistente. Por exemplo, se o botão for o Elemento 1 e as opções forem Azul, Verde e Amarelo, o botão azul é 1-1, o botão verde é 1-2 e o botão amarelo é 1-3.
    * A planilha offline fornece o número apropriado de experiências necessárias (quatro para um 3x2, nove para 4x3 e assim por diante).
-   * Crie as experiências no fluxo de trabalho A/B com [o Visual Experience Composer (VEC) ou Criador de experiências baseado em forma](/help/c-experiences/experiences.md). Se você usar o VEC, pode usar o código personalizado, HTML de edição, WYSIWYG ou qualquer combinação.
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). Se você usar o VEC, pode usar o código personalizado, HTML de edição, WYSIWYG ou qualquer combinação.
    * Após o término da atividade (baseada na calculadora de tamanho de exemplo), execute os resultados na planilha para obter os outros detalhes.
 
 Para mais considerações e práticas recomendadas, consulte [Práticas recomendadas de teste multivariado](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
