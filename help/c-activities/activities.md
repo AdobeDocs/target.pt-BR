@@ -8,7 +8,7 @@ title: Atividades
 topic: Padrão
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ As seguintes ações estão disponíveis (dependendo das suas permissões):
 | Ativar | Inicia uma atividade inativa ou pronta. |
 | Arquivar | Envie a atividade para o arquivo. Por padrão, atividades arquivadas não aparecem mais na lista de atividades. Para ver atividades arquivadas, altere o filtro para que a lista de atividades as inclua. Você pode ativar uma atividade arquivada para usá-la novamente.<br>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
 | Copiar | Copia uma atividade. Qualquer atividade pode ser copiada. A cópia de uma atividade cria uma nova atividade com o mesmo nome, com o termo &quot;Cópia&quot; anexado. Por exemplo, um teste chamado &quot;Ofertas do navegador&quot; é copiada para &quot;Cópia de ofertas do navegador&quot;.<br>Ofertas visuais são copiadas com a atividade. As ofertas podem ser editas em segurança na cópia sem afetar a atividade original. As únicas exceções são ofertas e imagens salvas na pasta Conteúdo/Ativos. |
-| Excluir | Exclua um rascunho ou atividade.<BR>**OBSERVAÇÃO**: As atividades excluídas não podem ser recuperadas. A menos que você tenha certeza de que nunca precisará essa atividade novamente, use a [!UICONTROL ação Arquivar] . Você pode, então, reativar a atividade, se necessário. |
+| Excluir | Exclua um rascunho ou atividade.<BR>**OBSERVAÇÃO**: As atividades excluídas não podem ser recuperadas. Unless you are absolutely sure that you&#39;ll never need this activity again, use the [!UICONTROL Archive] action. Você pode, então, reativar a atividade, se necessário. |
 
 Observe os detalhes a seguir sobre a lista Atividade:
 
