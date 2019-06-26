@@ -1,5 +1,5 @@
 ---
-description: Critérios controlam o conteúdo das suas atividades do Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
+description: Critérios controlam o conteúdo de suas atividades do Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
 seo-description: Critérios controlam o conteúdo de suas atividades do Adobe Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
 seo-title: Criar critérios
 solution: Target
@@ -9,14 +9,14 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Criar critérios{#create-criteria}
 
-Critérios controlam o conteúdo das suas atividades do Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
+Critérios controlam o conteúdo de suas atividades do Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
 
 ## Criar critérios {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -63,7 +63,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
 1. Selecione uma **[!UICONTROL Chave de recomendação]**.
 
-   Para obter mais informações sobre como basear critérios em uma chave, consulte [Basear a recomendação em uma chave de recomendação](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Para obter mais informações sobre como basear os critérios em uma chave, consulte [Basear a recomendação em uma chave de recomendação](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 1. Selecione a Lógica **[!UICONTROL de Recomendação]**.
 
@@ -102,13 +102,13 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
    * [!UICONTROL Recomendar itens comprados anteriormente]
    Esta configuração é baseada no `productPurchasedId`. Ela é útil se você vende itens que pessoas geralmente compram apenas uma vez, como caiaques. Se você vende itens que pessoas voltam para comprar novamente, como xampu ou outros itens de uso pessoal, você deve desabilitar esta opção.
 
-1. Defina suas **[!UICONTROL regras de inclusão]**.
+1. Defina suas **[!UICONTROL Regras de inclusão]**.
 
    Regras de inclusão determinam quais itens serão inclusos em suas recomendações. As opções disponíveis dependem do seu negócio vertical.
 
    Para obter mais detalhes, consulte [Regras de inclusão](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Configurar **[!UICONTROL a ponderação de atributos]**.
+1. Configurar **[!UICONTROL ponderação de atributos]**.
 
    Você pode adicionar várias regras para &quot;cutucar&quot; o algoritmo com base em descrições importantes ou metadados sobre o catálogo de conteúdo. Por exemplo, você pode aplicar um peso maior a itens em liquidação, para que apareçam com mais frequência na recomendação.
 
@@ -118,13 +118,13 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
    Se você está criando uma nova atividade do [!UICONTROL Recommendations] ou editando uma atividade existente, a caixa de seleção **[!UICONTROL Salvar critérios para mais tarde]** será selecionada por padrão. Se você não quer usar os critérios em outras atividades, desmarque a caixa de seleção antes de salvar.
 
-### Tempo de processamento de critérios esperado
+### Tempo de processamento dos critérios esperado
 
-* **mboxes**: Se os critérios usarem mboxes como Fonte de Dados Comportamentais, depois de criadas, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados​e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios resulta na repetição dos critérios.
+* **mboxes**: se o critério usa mboxes como a Fonte de dados comportamentais, os critérios serão executados imediatamente após serem criados. Dependendo da quantidade de dados comportamentais usados​e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios resulta na repetição dos critérios.
 
-* **Analytics**: Se os critérios forem usados [!DNL Adobe Analytics] como Fonte de dados comportamentais, após a criação, o tempo para a disponibilidade dos critérios dependerá da janela de conjunto de relatórios e de lookback selecionados ter sido usada para qualquer outro critério. Se o conjunto de relatórios tiver sido usado anteriormente com uma janela de lookback, pelo menos, desde que tenha sido selecionada, os dados comportamentais já estarão disponíveis no Target, e Recommendations executa os critérios imediatamente. O algoritmo pode levar até 12 horas para ser executado, dependendo da quantidade de dados comportamentais usados e do tamanho do catálogo. Se o conjunto de relatórios não tiver sido usado anteriormente ou for usado com uma janela de lookback mais longa, Recommendations deverá solicitar e receber dados do Adobe Analytics e, em seguida, executar o algoritmo. O processo de sincronização com o Google Analytics geralmente leva pelo menos dois dias e pode chegar a sete dias para ser concluído, dependendo da carga do sistema do Google Analytics.
+* **Analytics**: se os critérios usarem o [!DNL Adobe Analytics] como a Fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios. Se o conjunto de relatórios tiver sido usado anteriormente com uma janela de lookback, pelo menos, desde que tenha sido selecionada, os dados comportamentais já estarão disponíveis no Target, e Recommendations executa os critérios imediatamente. O algoritmo pode levar até 12 horas para ser executado, dependendo da quantidade de dados comportamentais usados e do tamanho do catálogo. Se o conjunto de relatórios não tiver sido usado anteriormente ou for usado com uma janela de lookback mais longa, Recommendations deverá solicitar e receber dados do Adobe Analytics e, em seguida, executar o algoritmo. O processo de sincronização com o Google Analytics geralmente leva pelo menos dois dias e pode chegar a sete dias para ser concluído, dependendo da carga do sistema do Google Analytics.
 
-## Baseie a recomendação em uma chave de recomendação {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+## Basear a recomendação em uma chave de recomendação {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
 As recomendações baseadas em chaves utilizam o contexto do comportamento do visitante para mostrar resultados relevantes.
 
@@ -206,24 +206,24 @@ Pode ser usado em qualquer página.
 
 Você pode basear as recomendações no valor de um atributo de perfil personalizado. Por exemplo, suponha que você deseja exibir filmes recomendados com base no filme adicionado recentemente por um visitante à fila.
 
-1. Selecione o atributo de perfil personalizado na lista **[!UICONTROL suspensa Chave]** de recomendação (por exemplo, «Última exibição adicionada à Watchlist»).
-1. Em seguida, selecione a Lógica **[!UICONTROL de recomendação]** (por exemplo, &quot;Pessoas que viram isto, visualizadas aquilo&quot;).
+1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Último programa adicionado à Lista de favoritos&quot;).
+1. Em seguida, selecione a **[!UICONTROL Lógica de recomendação]** (por exemplo, &quot;Pessoas que assistiram isto, assistiram aquilo&quot;).
 
-   ![Criar nova caixa de diálogo de critérios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+   ![Caixa de diálogo Criar novos critérios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
+Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar ao [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
 
-1. Selecione o atributo de perfil personalizado na **[!UICONTROL lista suspensa Chave]** de recomendação (por exemplo, «Marca favorita»).
+1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Marca favorita&quot;).
 
-1. Em seguida, selecione **[!UICONTROL a Lógica]** de recomendação que deseja usar com esta chave (por exemplo, &quot;Mais vendidos&quot;).
+1. Em seguida, selecione **[!UICONTROL Lógica de recomendação]** que deseja usar com esta chave (por exemplo, &quot;Mais vendidos&quot;).
 
-   A opção [!UICONTROL Grupo por valor exclusivo de] exibição é exibida.
+   A opção [!UICONTROL Agrupar por valor exclusivo de] é exibida.
 
-1. Selecione o atributo de entidade que corresponde à chave escolhida. Neste caso, «Marca favorita» corresponde `entity.brand`.
+1. Selecione o atributo de entidade que corresponde à chave escolhida. Neste caso, &quot;Marca favorita&quot; corresponde à `entity.brand`.
 
-   [!DNL Recommendations] agora produz uma lista «Principais vendedores» para cada marca e mostra a lista «Principais vendedores» do visitante com base no valor armazenado no atributo favorito de marca do visitante.
+   O [!DNL Recommendations] agora gera uma lista de &quot;Mais vendidos&quot; para cada marca e mostra para o visitante a lista de &quot;Mais vendidos&quot; adequada com base no valor armazenado no atributo de perfil de Marca favorita do visitante.
 
-   ![Criar nova caixa de diálogo de critérios 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![Caixa de diálogo 2 Criar novos critérios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Último item comprado
 
