@@ -8,8 +8,8 @@ title: Relatórios de insights de personalização
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,6 +58,6 @@ O Target fornece muitas maneiras de passar os dados adicionais para o Target, a 
 
 ## Vídeo de treinamento: Uso de relatórios de insights de personalização
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=por_br)
 
-Para obter mais informações, consulte [Uso dos relatórios de insights de personalização no Adobe Target](https://helpx.adobe.com/br/target/kt/using/personalization-insights-report-feature-video-use.html).
+For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
