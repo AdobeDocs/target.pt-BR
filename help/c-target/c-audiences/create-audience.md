@@ -8,7 +8,7 @@ title: Criar públicos no Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ Quando você combina regras e parâmetros com OU, qualquer membro em potencial d
 
 Você pode misturar operadores booleanos para criar regras complexas; no entanto, operadores no mesmo nível da regra devem ser compatíveis. A interface de usuário aplica o operador correto automaticamente.
 
-Por exemplo, a regra a seguir direciona os visitantes que usam Chrome *ou* Firefox em um computador Windows:
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![Criar público-alvo](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível que alguém visite uma página usando Chrome *e* Firefox simultaneamente.
+>Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## Criar um novo público
 
