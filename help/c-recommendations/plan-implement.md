@@ -1,6 +1,6 @@
 ---
 description: O que é necessário saber antes de criar uma atividade do Recommendations.
-keywords: Recomendações; configurações; preferências; vertical do setor; filtrar critérios incompatíveis; grupo de host padrão; url base de miniatura; token de api de recomendações
+keywords: Recommendations, configurações, preferências, vertical do setor, critérios incompatíveis com o filtro, grupo de hosts padrão, url de base em miniatura, token de api do recommendations
 seo-description: O que é necessário saber antes de criar uma atividade do Recommendations.
 seo-title: Planejar e implementar o Recommendations
 solution: Target
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -81,7 +81,7 @@ Quando o feed estiver configurado e for passado para o [!DNL Recommendations], p
 
 A prioridade será dada ao último conjunto de dados que tiver sido executado. Se você passar o feed primeiro e, em seguida, atualizar os parâmetros da página, as alterações feitas nos parâmetros da página serão mostradas, substituindo as informações do item transmitidas no feed.
 
-## Exemplo dois: passar todos os parâmetros na página Detalhes do produto (ou Conteúdo) {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
+## Exemplo dois: passar todos os parâmetros na página Detalhes do produto (ou Conteúdo){#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Se você passar todos os parâmetros na página, poderá fazer atualizações rapidamente atualizando a página. Em algumas organizações, isso requer o envolvimento do pessoal de TI ou da sua equipe de Web Design.
 
@@ -146,7 +146,7 @@ Para obter mais informações sobre como implementar a [!DNL at.js], consulte [C
 
 Para obter mais informações sobre como implementar a [!DNL mbox.js], consulte [Como implantar a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
-Para obter mais informações sobre as diferenças entre as duas bibliotecas do Target Javascript, consulte [Benefícios do at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Página de categoria {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -215,7 +215,7 @@ As opções disponíveis são as seguintes:
 
 | Configuração | Descrição |
 |--- |--- |
-| Mbox global personalizada | (Opcional) especifique a mbox personalizada global usada para atender às atividades do [!DNL Target]. Por padrão, a mbox global usada pelo [!DNL Target} é usada para o [!DNL Recommendations].<br>Observação: essa opção é definida na página [!DNL Target]Configuração] do [!UICONTROL . Abra o [!DNL Target], em seguida, clique em [!UICONTROL Configurar]. |
+| Mbox global personalizada | (Opcional) especifique a mbox personalizada global usada para atender às atividades do [!DNL Target]. Por padrão, a mbox global usada pelo [!DNL Target} é usada para o [!DNL Recommendations].<br>Observação: essa opção é definida na página [!DNL Target] [!UICONTROL Configuração]. Abra o [!DNL Target], em seguida, clique em [!UICONTROL Configurar]. |
 | Vertical do setor | O vertical do setor é usado para ajudar a categorizar os critérios de recomendação. Isso ajuda os membros de sua equipe a encontrar critérios que façam sentido para uma página específica, como critérios que são melhores para a página do carrinho de compras ou para uma página de mídia. |
 | Filtrar critérios incompatíveis | Ative essa opção para mostrar apenas os critérios pelos quais a página selecionada passa os dados solicitados. Nem todos os critérios serão executados corretamente em cada página. A página e a mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque essa opção.<br>É recomendável desativar esta opção se estiver usando uma solução de gerenciamento de tags.<br>Para obter mais informações sobre essa opção, consulte [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
 | Grupo de host padrão | Selecione o seu grupo de hosts padrão. Nenhum significa que a sua configuração O grupo de hosts padrão para relatórios no [!DNL Target Classic] é usada para seu grupo de hosts padrão.<br>O grupo de hosts pode ser usado para separar os itens disponíveis no catálogo para diferentes usos. Por exemplo, você pode usar grupos de hosts para os ambientes de Desenvolvimento e Produção, para diferentes marcas ou diferentes regiões. Por padrão, os resultados de visualização na Pesquisa no catálogo, nas Coleções e nas Exclusões estão baseados no grupo de hosts padrão. (Também é possível selecionar um grupo de hosts diferente para visualizar os resultados, usando o filtro Ambiente.) Por padrão, os itens recém adicionados ficam disponíveis em todos os grupos de hosts, a menos que uma ID de ambiente seja especificada ao criar ou atualizar o item. As recomendações entregues dependem do grupo de hosts especificado na solicitação.<br>Se você não visualiza seus produtos, certifique-se de que você esteja usando o grupo correto de hosts. Por exemplo, se você configurar sua recomendação para usar um ambiente de preparo e você definir o grupo de hosts para Armazenamento temporário, você pode necessitar recriar suas coleções no ambiente de preparo para serem mostradas pelos produtos. Para ver quais produtos estão disponíveis em cada ambiente, use a Pesquisa de catálogo com cada ambiente. Você também pode visualizar o conteúdo das coleções e exclusões do Recommendations para um ambiente selecionado (grupo de hosts).<br>**Observação:** depois de alterar o ambiente selecionado, você deve clicar em Pesquisar para atualizar os resultados retornados.<br>O filtro de [!UICONTROL Ambiente] está disponível nos seguintes locais na interface do usuário do [!DNL Target]:<ul><li>Pesquisa no catálogo ([!UICONTROL Recommendations &gt; Pesquisa no catálogo)</li><li>Caixa de diálogo Criar coleção ([!UICONTROL Recommendations &gt; Coleções &gt; Criar novo])</li><li>Caixa de diálogo Atualizar coleção ([!UICONTROL Recommendations&gt; Coleções &gt; Editar])</li><li>Caixa de diálogo Criar exclusão ([!UICONTROL Recommendations &gt; Exclusões &gt; Criar nova])</li><li>Caixa de diálogo Atualizar exclusão ([!UICONTROL Recommendations &gt; Exclusões &gt; Editar])</li></ul>Para obter mais informações, consulte [Hosts](/help/administrating-target/hosts.md). |
