@@ -7,8 +7,8 @@ solution: Target
 subtopic: Introdução
 title: Eventos personalizados da at.js
 topic: Padrão
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -51,4 +51,4 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 
 Assista ao vídeo a seguir para saber como usar Tokens de resposta e Eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=por_br)
