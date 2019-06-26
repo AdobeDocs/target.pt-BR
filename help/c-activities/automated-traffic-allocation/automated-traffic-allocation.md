@@ -7,8 +7,8 @@ solution: Target
 title: Alocação automática
 topic: Padrão
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -57,7 +57,7 @@ A alocação automática aloca novos visitantes a experiências de modo intelige
 
 Os seguinte termos são úteis quando falamos de alocação automática:
 
-**Multi-armed bandit:** uma abordagem [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
+**Multi-armed bandit:** Uma abordagem [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
 
 ## Como o algoritmo funciona {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -192,7 +192,7 @@ Este vídeo inclui informações sobre a configuração da alocação de tráfeg
 * Selecione seu método de alocação de tráfego
 * aloque o tráfego entre diferentes experiências
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=por_br)
 
 ### Criação de testes A/B (8:36)
 
@@ -201,4 +201,4 @@ Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado
 * Criar uma atividade A/B no Adobe Target
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=por_br)
