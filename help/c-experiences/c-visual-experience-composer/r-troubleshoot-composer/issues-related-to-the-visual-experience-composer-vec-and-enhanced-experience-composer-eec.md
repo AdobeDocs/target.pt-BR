@@ -7,7 +7,7 @@ solution: Target
 title: Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
