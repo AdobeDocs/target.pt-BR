@@ -7,8 +7,8 @@ solution: Target
 title: Como a at.js funciona
 topic: Padrão
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -81,6 +81,6 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 A at.js 2.x aprimora o suporte do Adobe Target para SPAs e integra-se com outras soluções da Experience Cloud. Este vídeo explica como tudo se une.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
 
-Consulte [Noções básicas sobre o funcionamento da at.js 2.x](https://helpx.adobe.com/br/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
