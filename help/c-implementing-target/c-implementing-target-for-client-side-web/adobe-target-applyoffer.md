@@ -7,8 +7,8 @@ solution: Target
 subtopic: Introdução
 title: adobe.target.applyOffer(options)
 topic: Padrão
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ O parâmetro de opções é obrigatório e tem a seguinte estrutura:
 | Chave | Tipo | Obrigatório | Descrição |
 |--- |--- |--- |--- |
 | mbox | String | Sim | Nome da mbox<br>Com a at.js 1.3.0 (e posteriores), o Target exige que a tecla mbox seja usada. Essa chave era exigida anteriormente, mas o Target agora a aplica para garantir que tenha a validação adequada e que os clientes estejam usando a função corretamente. |
-| selector | String ou elemento DOM | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML onde o Target deve posicionar o conteúdo da oferta. Se nenhum seletor for fornecido, o Target presume que o elemento HTML que devemos usar é HTML HEAD. |
+| selector | String   ou elemento DOM | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML onde o Target deve posicionar o conteúdo da oferta. Se nenhum seletor for fornecido, o Target presume que o elemento HTML que devemos usar é HTML HEAD. |
 | offer | Matriz | Sim | Uma ação de matriz que deve ser aplicada ao elemento. |
 
 ## Exemplo {#section_D8D6A17B73DE4542937CDB687193A5CC}
