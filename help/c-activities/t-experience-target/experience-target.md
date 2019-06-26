@@ -7,7 +7,7 @@ solution: Target
 title: Direcionamento de experiência
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 
-A segmentação de experiência, incluindo [a geolocalização](/help/c-target/c-audiences/c-target-rules/geo.md), é valiosa para definir regras que direcionam uma experiência ou conteúdo específico para um público específico. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
+Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
 
 Quando visitantes acessam seu site, o direcionamento de experiência (XT) os avalia para determinar se eles atendem os critérios que você definiu. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
 
@@ -26,7 +26,7 @@ O Direcionamento de experiência é uma primeira etapa no mundo da personalizaç
 
 Suponha que seu site tenha recursos para o seu site. Seus relatórios para teste A/B indicam que você tem três experiências que reonizam com públicos diferentes. Para aproveitar essa descoberta, você deseja exibir uma imagem herói diferente na página inicial para apelar a esses públicos diferentes, dependendo da localização dos visitantes ou das hobbies. Neste cenário, você deseja exibir uma imagem de caminhada para os visitantes de Nova Jersey e uma imagem de surfe para os visitantes do Havon. Você também tem um público que curtiram a bicitação. Você deseja exibir uma terceira imagem principal que apela ao seu público-alvo biográfico.
 
-Uma atividade de XT permite direcionar esses três públicos com uma imagem herói diferente que convida cada público-alvo. O vídeo abaixo, *de Teste A/B para direcionamento* da experiência, mostra como criar experiências direcionadas para ambos os estados e uma terceira experiência direcionada para convidados biográficos. O vídeo também mostra como ordenar as três experiências para atingir suas metas. Assista ao vídeo e prossiga com [Criar uma atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Uma atividade de XT permite direcionar esses três públicos com uma imagem herói diferente que convida cada público-alvo. The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. O vídeo também mostra como ordenar as três experiências para atingir suas metas. Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Vídeos de treinamento:
 
