@@ -9,50 +9,50 @@ title: Acessar o Target na Adobe Experience Cloud
 topic: Padrão
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Acessar o Target da Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
 
-Informações sobre acesso [!DNL Adobe Target] a partir do [!DNL Adobe Experience Cloud], definição da página de aterrissagem padrão e alteração do idioma da interface [!DNL Target] do usuário.
+Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Cloud], definição da landing page padrão e alteração do idioma da interface do usuário do [!DNL Target].
 
-## Fazer logon no Adobe Target e definir sua exibição padrão
+## Fazer logon no Adobe Target e definir exibição padrão
 
 1. Após fazer logon na [!DNL Experience Cloud], clique no ícone Aplicativo na barra de navegação.
 
-   ![ícone do aplicativo](/help/c-intro/assets/appmenu-new.png)
+   ![Ícone do aplicativo](/help/c-intro/assets/appmenu-new.png)
 
 1. Clique no ícone [!DNL Target] no menu Aplicativo.
 
-   ![Ícone de meta](/help/c-intro/assets/appmenu-target-new.png)
+   ![Ícone do Target](/help/c-intro/assets/appmenu-target-new.png)
 
 1. Clique em **[!UICONTROL Iniciar]** no [!DNL Target] cartão.
 
    ![Inicialização do Target](/help/c-intro/assets/target-launch-new.png)
 
-1. (Opcional) Para definir o [!DNL Target] como sua visualização padrão ao fazer logon na [!DNL Experience Cloud], clique em **[!UICONTROL Editar perfil]** sob o avatar do seu perfil, depois defina sua preferência de página inicial.
+1. (Opcional) Para definir o [!DNL Target] como sua visualização padrão ao fazer logon na [!DNL Experience Cloud], clique em **[!UICONTROL Editar perfil]** no avatar do seu perfil, depois defina sua preferência de página inicial.
 
-   ![Página de aterrissagem](/help/c-intro/assets/pagepref-new.png)
+   ![Landing page](/help/c-intro/assets/pagepref-new.png)
 
 ## Alterar o idioma padrão da interface do usuário do Target {#language}
 
-1. Depois de entrar no [!DNL Adobe Experience Cloud ] ou [!DNL Target], clique em seu avatar do perfil e clique em **[!UICONTROL Editar perfil]**.
+1. Depois de entrar no [!DNL Adobe Experience Cloud ] ou [!DNL Target], clique no avatar do seu perfil e em **[!UICONTROL Editar perfil]**.
 
    ![Editar perfil](/help/c-intro/assets/change-language.png)
 
-1. Clique **[!UICONTROL em Editar informações pessoais]**.
+1. Clique em **[!UICONTROL Editar informações pessoais]**.
 
-1. Clique na **[!UICONTROL guia Comunicação]** na barra de menu superior.
+1. Clique na guia **[!UICONTROL Comunicação]** na barra de menu superior.
 
-   ![Idiomas preferidos](/help/c-intro/assets/prefered-language.png)
+   ![Idiomas de preferência](/help/c-intro/assets/prefered-language.png)
 
-   O texto indica que este é o idioma que você deseja [!DNL Adobe] usar quando acessamos você. Este também é o idioma que será usado na interface de usuário para [!DNL Target] e outras [!DNL Adobe Experience Cloud] soluções. Você pode escolher mais de um idioma.
+   O texto indica que este é o idioma escolhido para que a [!DNL Adobe] entre em contato com você. Esse também é o idioma que será usado na interface do usuário para [!DNL Target] e outras soluções da [!DNL Adobe Experience Cloud]. Você pode escolher mais de um idioma.
 
-1. Selecione o primeiro idioma (primário) e, em seguida, selecione um segundo idioma, se desejado.
+1. Selecione o primeiro idioma (primário) e, em seguida, um segundo idioma, se desejado.
 
-   A [!DNL Target] interface do usuário está disponível nos seguintes idiomas:
+   A interface do usuário do [!DNL Target] está disponível nos seguintes idiomas:
 
    * Inglês
    * Espanhol
@@ -67,9 +67,9 @@ Informações sobre acesso [!DNL Adobe Target] a partir do [!DNL Adobe Experienc
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-1. Faça logout do [!DNL Adobe Experience Cloud] ou [!DNL Target], em seguida, faça logon novamente para que suas alterações entrem em vigor.
+1. Faça logout do [!DNL Adobe Experience Cloud] ou [!DNL Target], em seguida, entre novamente para que suas alterações entrem em vigor.
 
-## Alterar o idioma da documentação do produto Target {#doc-lang}
+## Change the language for the Target product documentation {#doc-lang}
 
 Suas configurações do sistema operacional ou do navegador devem detectar o idioma preferido e exibir a documentação nesse idioma (se disponível). A documentação do Target é traduzida automaticamente e estará sincronizada com a versão em inglês em horas de alterações feitas à documentação em inglês.
 
@@ -77,11 +77,11 @@ Suas configurações do sistema operacional ou do navegador devem detectar o idi
 
 ![Alterar para o idioma original](/help/c-intro/assets/mt-original.png)
 
-Você também pode alterar rapidamente o idioma para qualquer idioma suportado clicando no ícone Alternador de idiomas na parte superior direita do cabeçalho da página ( ![alternador](/help/c-intro/assets/icon-language-switcher.png) de idiomas).
+You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
 
 ![alternador de idiomas](/help/c-intro/assets/language-switcher.png)
 
-A [!DNL Target] documentação está disponível nos seguintes idiomas:
+The [!DNL Target] documentation is available in the following languages:
 
 * Inglês
 * Espanhol
