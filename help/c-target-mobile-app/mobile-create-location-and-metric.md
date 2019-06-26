@@ -6,8 +6,8 @@ seo-title: iOS - Criar um local de definição e métrica de sucesso
 title: iOS - Criar um local de definição e métrica de sucesso
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
 
-Esta seção inclui amostras de código que podem ser usadas como molde para seu aplicativo. As amostras nesta seção contém código para o iOS. Os mesmos padrões se aplicam ao Android. Sintaxe específica para Android pode ser encontrada no guia de soluções [Android SDK 4.x para Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mobile/android/target_main.html).
+Esta seção inclui amostras de código que podem ser usadas como molde para seu aplicativo. As amostras nesta seção contém código para o iOS. Os mesmos padrões se aplicam ao Android. Sintaxe específica para Android pode ser encontrada no guia de soluções [Android SDK 4.x para Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/target_main.html).
 
 >[!NOTE]
 >
->Consulte a [documentação móvel](https://marketing.adobe.com/resources/help/pt_BR/mobile/ios/c_target_methods.html) para obter uma lista de todos os métodos disponíveis no Target.
+>See the [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) for a list of all the available Target methods.
 
 Existem dois métodos primários para criar um local do Target no seu aplicativo e fazer uma solicitação:
 
