@@ -8,7 +8,7 @@ title: Editar uma atividade ou Salvar como rascunho
 topic: Padrão
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,15 +19,15 @@ Informações sobre as diferentes maneiras de editar uma atividade existente, in
 
 O destino fornece vários locais na IU onde você pode editar atividades existentes. Esse processo varia conforme o método escolhido por você.
 
-## Editar uma atividade usando o botão focalizar na página Atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Na página **[!UICONTROL Atividades]**, passe o mouse sobre a atividade que deseja editar, depois clique no ícone **Editar[!UICONTROL .]**
 
    ![Ícone Editar](/help/c-activities/assets/hover_edit.png)
 
-   O Target abre a atividade no Visual Experience Composer (VEC) e você visualiza a página [!UICONTROL Experiências] (a primeira etapa do fluxo de trabalho guiado três etapas).
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
-1. Edite a atividade conforme desejado usando as opções [de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Clique no botão dividir para avançar para a próxima etapa ou para salvar a atividade.
 
@@ -37,7 +37,7 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
    * **Salvar e fechar:** Faça as alterações desejadas na etapa atual, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página [!UICONTROL Visão geral].
    * **Salvar:** Faça as alterações desejadas em uma etapa, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar]** para salvar suas alterações e permanecer naquela etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
-## Editar uma atividade ao abrir a atividade clicando em seu nome na página Atividades {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Para evitar a necessidade de percorrer todo o fluxo de trabalho, clique na atividade desejada na página Atividades para abri-la, depois selecione uma opção na lista suspensa **[!UICONTROL Editar atividade].**
 
@@ -60,7 +60,7 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
 
 
 
-## Salvar uma atividade em um formulário de rascunho {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Ao criar uma nova atividade que ainda não foi salva ou ao editar uma atividade que tinha sido salva no formato de rascunho, as opções Salvar rascunho são exibidas no botão dividido.
 
