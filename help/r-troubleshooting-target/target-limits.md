@@ -8,7 +8,7 @@ title: Limites
 topic: Padrão
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 5e8edb25f0b0255247c535bcac1d960b6e8acf94
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,11 +21,11 @@ Os limites relacionados abaixo são limites recomendados. Quando esses limites s
 
 Atividades altamente complexas devem ser analisadas com a Consultoria da Adobe e testadas em um ambiente restrito antes de serem liberadas para produção.
 
-## Nomes de atividades
+## Nomes de atividade
 
 **Limite**: 250 caracteres.
 
-## Nomes de público-alvo
+## Nomes do público-alvo
 
 **Limite**: 256 caracteres.
 
@@ -35,7 +35,7 @@ Valores maiores que 256 caracteres são truncados.
 
 **Limite**: 250 caracteres.
 
-## Nomes de atributos do cliente
+## Nomes do atributo do cliente
 
 **Limite**: 128 caracteres.
 
@@ -43,32 +43,32 @@ Valores maiores que 256 caracteres são truncados.
 
 **Limite** de 50 caracteres.
 
-## Atributos personalizados de entidade
+## Atributos personalizados da entidade
 
-**Limite**: O tamanho máximo depende do idioma.
+**Limite**: o tamanho máximo depende do idioma.
 
-* 15,000 caracteres (idiomas de valor único, de um e dois bytes)
-* Values 00 valores, 100 caracteres por valor (vários valores)
+* 15.000 caracteres (idiomas de valor único, de um e dois bytes)
+* 500 valores, 100 caracteres por valor (vários valores)
 
-O tamanho máximo dos atributos personalizados de entidade única tem 15,000 caracteres (para idiomas codificados de um e dois bytes UTF -8, como inglês e outros alfabetos de script latinos) ou 10,000 caracteres (para idiomas codificados em três bytes, como chinês, japonês e coreano).
+O tamanho máximo dos atributos personalizados da entidade de valor único é de 15.000 caracteres (para idiomas codificados de um e dois bytes UTF -8, como inglês e outros alfabetos de script latinos) ou 10.000 caracteres (para idiomas codificados em três bytes, como chinês, japonês e coreano).
 
-Atributos personalizados de entidade de vários valores podem conter não mais do que 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com as limitações para o comprimento máximo dos atributos personalizados de entidade única (veja acima).
+Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
-## Parâmetros entityid
+## Parâmetros entityID
 
-**Limite**: 1,000 caracteres.
+**Limite**: 1.000 caracteres.
 
-## Excludedids {#excludedid}
+## excludedIds {#excludedid}
 
-**Limite**: 5 KB para solicitações POST. 2,083 caracteres menos o comprimento do URL para solicitações GET.
+**Limite**: 5 KB para solicitações POST. 2.083 caracteres menos o comprimento do URL para solicitações GET.
 
-Para solicitações GET, embora o limite no back end seja de 5 KB, devido ao fato do Microsoft Internet Explorer limitar o URL a 2,083 caracteres, o limite realista é de 2,083 caracteres, menos o comprimento atual do URL.
+Para solicitações GET, embora o limite no back end seja de 5 KB, devido ao limite de 2.083 caracteres do URL do Microsoft Internet Explorer, o limite realista é de 2.083 caracteres menos o comprimento atual do URL.
 
-## Nomes de experiências
+## Nomes de experiência
 
 **Limite**: 20 caracteres.
 
-## Valor do atributo de perfil in-mbox
+## Valor do atributo de perfil da in-mbox
 
 **Limite**: 256 caracteres.
 
@@ -80,7 +80,7 @@ Valores mais longos do que isso são truncados.
 
 Todos os perfis depois de 50 são ignorados.
 
-## Nomes de perfil in-mbox
+## Nomes de perfil da in-mbox
 
 **Limite**: 128 caracteres.
 
@@ -90,40 +90,41 @@ Todos os perfis depois de 50 são ignorados.
 
 ## parâmetros de mbox
 
-**Limite**: Os seguintes limites se aplicam aos parâmetros da mbox:
+**Limite**: os seguintes limites se aplicam aos parâmetros da mbox:
 
-* parâmetros de mbox: Parameters 00 parâmetros por mbox.
+* Parâmetros da mbox: 500 parâmetros por mbox.
 * Parâmetros de perfil: 500 parâmetros.
 * parâmetros de perfil por mbox:
 * Outros parâmetros (URL, URL de referência etc.): 50 por mbox para cada tipo de parâmetro.
 
-Para parâmetros que são registrados no banco de dados do Target, os limites acima são para solicitações de mbox padrão. Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
+Para parâmetros registrados no banco de dados do Target, os limites acima são para solicitações de mbox padrão. Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
 
-Se estiver usando a [API de entrega em lote](https://developers.adobetarget.com/api/#server-side-batch-delivery) no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contém mais que estes limites, a API retornará a seguinte mensagem de erro: &quot;O número de mboxParameters não pode exceder 100&quot;.
+Se estiver usando a [API de entrega em lote](https://developers.adobetarget.com/api/#server-side-batch-delivery) no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contém mais que estes limites, a API retornará a seguinte mensagem de erro:
+&quot;O número de mboxParameters não pode exceder 100&quot;.
 
-## Urls de solicitação de mbox
+## URLs de solicitação de mbox
 
-**Limite**: 2,083 caracteres.
+**Limite**: 2.083 caracteres.
 
-Esse limite se deve às restrições de tamanho do Microsoft Internet Explorer.
+Esse limite é devido a restrições de tamanho de URL do Microsoft Internet Explorer.
 
 ## parâmetro mbox3rdPartyId
 
 **Limite**: 60 caracteres.
 
-## Nomes de ofertas
+## Nomes da oferta
 
 **Limite**: 250 caracteres.
 
 ## Tamanho da oferta
 
-**Limite**: Os limites de tamanho a seguir se aplicam a ofertas:
+**Limite**: os seguintes limites de tamanho se aplicam a ofertas:
 
 * 256 KB para ofertas HTML.
 * 64 KB para ofertas visuais da interface do usuário.
 * 512 KB da API.
 
-Se você estiver usando uma mbox global, o limite será para todo o conjunto de conteúdo retornado para a página. A limitação do tamanho da oferta melhoro o tempo de carregamento da página. Se o limite for excedido, a seguinte mensagem será exibida:
+Se estiver usando uma mbox global, o limite será para todo o conjunto de conteúdo retornado para a página. A limitação do tamanho da oferta melhoro o tempo de carregamento da página. Se o limite for excedido, a seguinte mensagem será exibida:
 
 &quot;O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página.&quot;
 
@@ -143,7 +144,7 @@ Limite recomendado.
 
 **Limite**: 47 caracteres por valor separado por vírgula.
 
-Qualquer coisa mais é truncada pelo sistema.
+Qualquer valor maior será truncado pelo sistema.
 
 ## Contas/públicos-alvo reutilizáveis
 
@@ -151,9 +152,9 @@ Qualquer coisa mais é truncada pelo sistema.
 
 Limite recomendado. Os limites de tempo do JavaScript ocorrem na interface caso você tenha limites demais.
 
-## Caixa de entrada de perfil de script na interface do usuário do Target
+## Caixa de entrada do perfil de script na interface do usuário do Target
 
-**Limite**: 2,000 caracteres.
+**Limite**: 2.000 caracteres.
 
 Limite recomendado. Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no Adobe Target.
 
@@ -161,18 +162,18 @@ Limite recomendado. Depende do tamanho da cadeia de caracteres codificada, que p
 
 **Limite**: 50 caracteres.
 
-## Valores do perfil de script
+## Valores de perfil de script
 
-**Limite**: 2,048 caracteres.
+**Limite**: 2.048 caracteres.
 
 Por motivos de desempenho, recomendamos retornar um valor que não ultrapasse 256 caracteres.
 
-Para um valor de retorno de string, se o tamanho do valor de retorno exceder 2,048 caracteres, o script será desativado pelo sistema.
+Para um valor de retorno de Sequência de caracteres, se o tamanho do valor de retorno exceder 2.048 caracteres, o script será desativado pelo sistema.
 
-Para um valor de retorno de matriz, se o tamanho dos valores concatenados da matriz exceder 2,048 caracteres, o script será desativado pelo sistema.
+Para um valor de retorno de matriz, se o tamanho dos valores concatenados da matriz exceder 2.048 caracteres, o script será desativado pelo sistema.
 
-## Condições de meta
+## Condições do Target
 
-**Limite**: 1,00valores.
+**Limite**: 1.000 valores.
 
 Limite recomendado. Isso se refere ao número de valores separados por linha na área de texto de definição de metas. Por exemplo, inserir 1.000 códigos postais em uma meta de código postal.
