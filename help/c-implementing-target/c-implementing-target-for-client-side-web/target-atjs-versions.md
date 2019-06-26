@@ -8,14 +8,14 @@ subtopic: Introdução
 title: Detalhes da versão da at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Detalhes da versão da at.js {#at-js-version-details}
 
-Detalhes sobre alterações em cada versão da biblioteca [!DNL Adobe Target] do javascript em javascript.
+Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do [!DNL Adobe Target].
 
 >[!IMPORTANT]
 >
@@ -31,61 +31,61 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 * **Registro de análises do cliente**: Forneça aos clientes controle total sobre como eles desejam enviar dados de análise para o Adobe Analytics, seja no cliente ou no servidor.
 
-   Para obter mais informações, consulte [Logon do lado do cliente](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) no *antes de implementar*.
+   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **Enviar notificações**: Permite aos desenvolvedores enviar notificações quando uma experiência é renderizada pelo seu código em vez de usar `applyOffer()` ou `applyOffers()`.
 
-   Para obter mais informações, consulte [adobe. target. sendnotifications (opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **Tamanho de at. js reduzido por ~ 24%**: O tamanho do at. js é reduzido por ~ 24%. O tamanho de arquivo menor melhora o desempenho do carregamento da página e reduz o tempo para baixar o at. js na página.
 
-## at. js versão 2.0.1 (19 de março de 29 19)
+## at.js versão 2.0.1 (19 de março de 2019)
 
-Esta é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
-
-(Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
-
-* Corrigida uma condição de raça no código de pesquisa DOM que causava exceções de javascript para determinados clientes. (TNT-31869)
-* As notificações que visualizações foram renderizadas foram desassociadas a manipuladores de evento de rastreamento de cliques. Inicialmente, o Target não enviava notificações se os manipuladores de click-event que pertenciam a uma visualização renderizada não pudessem ser anexados. O Target agora envia uma notificação de exibição mesmo quando elementos de clique não são encontrados. (TNT-31969)
-* Correção de um problema que fazia com que o sinalizador de redirecionamento do evento request-bem-sucedido sempre fosse definido como verdadeiro. (TNT-31907)
-* Correção de um problema que fazia com que a ação de reorganizar VEC fosse registrada como sucesso, mesmo quando os elementos estavam ausentes. (TNT-31924)
-* Correção de um problema que fazia com que notificações de determinados clientes não contivessem o token da propriedade Permissões empresariais. (TNT-31999)
-
-## at. js versão 1.7.1 (19 de março de 29 19)
-
-Esta é uma versão de manutenção e inclui a seguinte correção:
+Essa é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
 
-* Corrigida uma condição de raça no código de pesquisa DOM que causava exceções de javascript para determinados clientes. (TNT-31869)
+* Correção de uma condição de corrida no código de pesquisa DOM que causava exceções de JavaScript para determinados clientes. (TNT-31869)
+* As notificações que renderizaram as exibições foram desassociadas dos manipuladores de eventos do rastreamento de cliques. Inicialmente, o Target não enviava notificações se os manipuladores de eventos de clique que pertenciam a uma exibição renderizada não pudessem ser anexados. O Target agora envia uma notificação de exibição mesmo se os elementos de clique não forem encontrados. (TNT-31969)
+* Correção de um problema que fazia com que o sinalizador de redirecionamento do evento de solicitação sucedida fosse sempre definido como verdadeiro. (TNT-31907)
+* Correção de um problema que fazia com que a ação de reorganizar do VEC fosse registrada como êxito, mesmo quando os elementos estavam ausentes. (TNT-31924)
+* Correção de um problema que fazia com que as notificações de determinados clientes não contivessem o token de propriedade das Permissões empresariais. (TNT-31999)
+
+## at.js versão 1.7.1 (19 de março de 2019)
+
+Essa é uma versão de manutenção e inclui a seguinte correção:
+
+(Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+* Correção de uma condição de corrida no código de pesquisa DOM que causava exceções de JavaScript para determinados clientes. (TNT-31869)
 
 ## at.js versão 2.0.0 {#at-js-200}
 
-O at. js 2. x fornece conjuntos de recursos avançados que fazem com que sua empresa execute a personalização em tecnologias de próxima geração do cliente. Essa nova versão tem como foco a atualização da at.js para ter interações harmoniosas com aplicativos de página única (SPAs).
+A at.js 2.x fornece conjuntos de recursos avançados para sua empresa personalizar tecnologias de próxima geração no lado do cliente. Essa nova versão tem como foco a atualização da at.js para ter interações harmoniosas com aplicativos de página única (SPAs).
 
-Estes são alguns benefícios do uso de at. js 2. x que não estão disponíveis nas versões anteriores:
+Estes são alguns benefícios do uso da at.js 2.x que não estão disponíveis nas versões anteriores:
 
 * A capacidade de armazenar todas as ofertas em cache quando a página é carregada para reduzir o número de chamadas de servidor a apenas uma chamada.
 * Melhore bastante as experiências dos usuários finais em seu site, uma vez que as ofertas são exibidas imediatamente por meio do cache, sem o atraso imposto pelas chamadas tradicionais do servidor.
 * Uma linha de código simples e uma configuração de desenvolvedor única para permitir que seus profissionais de marketing criem e executem atividades A/B e Experience (XT) por meio do Visual Experience Composer (VEC) em seus aplicativos de página única.
 
-O at. js 2. x introduz as seguintes novas funções:
+A at.js 2.x apresenta as seguintes novas funções:
 
 * getOffers()
 * applyOffers()
 * triggerView()
 
-As seguintes funções foram desaprovadas com a introdução do at. js 2. x:
+As seguintes funções foram descontinuadas com a introdução da at.js 2.x:
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-Para obter mais informações, consulte [Atualizar das funções at. js 1. x para at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) e [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+Para obter mais informações, consulte [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) e [funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
 >[!NOTE]
 >
->Se você exigir suporte da Adobe para o Regulamento [Geral de Proteção de Dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (RGPD), é necessário usar no momento at. js 1.7.0 ou at. js 2.1.0.
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
 
 ## at.js versão 1.7.0 {#at-js-170}
 
@@ -97,7 +97,7 @@ Esta versão também corrige um problema em que o Target pode substituir parâme
 
 >[! OBSERVAÇÃO]
 >
->Se você precisar de suporte da Adobe para o RGPD, atualmente deverá usar at. js 1.7.0 ou 2.1.0.<br>Para obter uma lista de todas as versões, consulte [Detalhes da versão do at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js versão 1.6.4 {#at-js-164}
 
