@@ -8,7 +8,7 @@ title: Fragmentos de experiência do AEM
 topic: Padrão
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,7 +90,7 @@ Fragmentos de experiência são criados no AEM. Para obter mais informações, c
 
 2. Na caixa de diálogo exibida, selecione [!UICONTROL Publicar] para publicar todos os ativos do fragmento de experiência no [!DNL Target].
 
-## Uso de Fragmentos de experiência nas atividades do Target {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using Experience Fragments in Target Activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Depois de executar as tarefas anteriores, o fragmento de experiência é exibido na página [!UICONTROL Ofertas] no Target.
 
