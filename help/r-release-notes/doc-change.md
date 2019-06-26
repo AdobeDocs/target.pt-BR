@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 # Alterações de documentação{#documentation-changes}
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 19.6.1 (26 de junho de 2019) {#tgt-19-6-1}
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 26 de junho de 2019 | [Opções de experiência visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
+|  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+|  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nova seção: &quot; Configurações de entrega de página para o SPA VEC &quot;. |
+|  | [Selecione o controle da atividade automatizada ou da atividade do Target](/help/c-activities/t-automated-personalization/experience-as-control.md) | Novo tópico. |
+|  | [Políticas de cookie do Google Chrome para samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Novo tópico. |
+|  | [Coleta de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/ap-data.md) | Adicionadas novas tabelas para explicar os attibutes individuais e fornecer exemplos. |
+|  | [Perguntas frequentes sobre personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Novas perguntas frequentes adicionadas: &quot; Posso especificar uma experiência específica a ser usada como controle? &quot;<br>Editou as seguintes perguntas frequentes: &quot; Quais são as práticas recomendadas para configurar uma atividade de Personalização automatizada? &quot; |
+|  | [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) | Foram adicionadas informações e perguntas frequentes sobre como especificar uma experiência específica a ser usada como controle.<br>Atualização da seção «Determinar alocação de tráfego». |
+|  | [Criar uma atividade de Automated Personalization](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Adicionada a etapa com informações para selecionar uma experiência específica como padrão. |
+|  | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Foram adicionadas informações sobre como gerenciar várias versões de aplicativos móveis. |
+|  | [Notas de versão](/help/r-release-notes/release-notes.md): 19.6.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 de maio de 2019) {#tgt-19-5-1}
 
