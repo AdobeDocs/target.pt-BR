@@ -7,8 +7,8 @@ solution: Target
 title: Relatório de contribuição de localização (MVT)
 topic: Padrão
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,4 +37,4 @@ A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Contribuição da localização é descrito no começo às 08:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=por_br)
