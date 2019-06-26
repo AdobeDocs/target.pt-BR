@@ -7,7 +7,7 @@ solution: Target
 title: Rede
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Você pode criar públicos-alvo com base nos detalhes da rede.
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-A ilustração a seguir mostra um público-alvo que direciona os visitantes usando AT &amp; T com velocidade de conexão [!UICONTROL do Mobile].
+The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
 
 ![Direcionamento de rede](assets/target_network.png)
 
