@@ -6,8 +6,8 @@ seo-title: Extensão de ajuda do Adobe Target Visual Experience Composer (VEC)
 solution: Target
 title: Extensão de ajuda do Visual Experience Composer
 topic: Padrão
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ Benefícios do uso da extensão do VEC Helper:
 
 ## Obter e instalar a extensão do navegador VEC Helper
 
-1. Navegue até a [extensão de navegador de ajuda do Adobe Target VEC na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Clique em [!UICONTROL Adicionar ao Chrome &gt; Adicionar extensão].
 1. Para usar a extensão, clique no ícone de extensão do navegador do VEC Helper (![ícone do VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) na barra de ferramentas do navegador Chrome no VEC ou no [Modo de QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
