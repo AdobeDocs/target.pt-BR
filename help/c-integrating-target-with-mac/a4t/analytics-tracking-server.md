@@ -5,8 +5,8 @@ seo-description: Se estiver usando uma versão mais antiga da at.js ou da mbox.j
 seo-title: Usar um servidor de rastreamento do Analytics
 title: Usar um servidor de rastreamento do Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ O depurador deve ser visualizado em uma página na qual a atividade será entreg
 
 1. Na página em que você está criando sua atividade, abra o depurador da Adobe Experience Cloud.
 
-   Se você não tiver instalado o depurador, siga as [instruções de instalação do Adobe Debugger](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/debugger_install.html).
+   Se não tiver instalado o depurador, siga as [instruções de instalação do depurador da Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
