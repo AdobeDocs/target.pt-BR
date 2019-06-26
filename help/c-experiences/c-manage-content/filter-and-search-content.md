@@ -7,8 +7,8 @@ solution: Target
 title: Pesquisar o conteúdo e criar coleções inteligentes
 topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Pesquise recursos por palavras-chave e salve as pastas de pesquisa, chamadas de 
 Esta seção contém as seguintes informações:
 
 * [Pesquisar por ativos usando palavra-chave](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Salvar coleção inteligente](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
+* [Salvar conjunto inteligente](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
 ## Pesquisar por ativos usando palavra-chave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
