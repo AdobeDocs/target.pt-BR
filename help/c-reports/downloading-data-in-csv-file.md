@@ -7,9 +7,9 @@ solution: Target
 subtopic: Teste multivariado
 title: Fazendo download de dados em um arquivo CSV
 topic: Padrão
-uuid: 9 ac 151 e 1-45 a 9-4 d 46-b 23 b-e 7 c 9 ae 518253
+uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
