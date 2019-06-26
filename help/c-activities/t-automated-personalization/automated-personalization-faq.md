@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -18,6 +18,14 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre personalização automatizada{#automated-personalization-faq}
 
 Lista de perguntas frequentes sobre a Personalização automatizada (AP).
+
+## Posso especificar uma experiência específica a ser usada como controle?
+
+You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+
+Esse recurso permite direcionar todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado contra o controle do tráfego para aquela experiência.
+
+For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Como posso comparar personalização automatizada a uma experiência padrão? {#section_46C1A620A2384C2C8392D6716DD18495}
 
@@ -33,9 +41,11 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
 * Certifique-se de usar o [Avaliador de tráfego](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para que você tenha uma noção de quanto tempo levará para que os modelos de personalização sejam incorporados à sua atividade de Personalização automatizada.
 * Decida sobre a alocação entre controle e segmentado antes de iniciar a atividade com base em suas metas.
 
-   * O objetivo da sua atividade de Personalização automatizada é determinar o funcionamento geral do algoritmo de personalização ou executar uma otimização de personalização &quot;sempre ativada&quot; em sua página? Dependendo da sua resposta a essa pergunta, você desejará usar uma alocação de tráfego diferente entre controle e segmentado.
-   * Se seu objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50 por cento entre o algoritmo de controle e o segmentado. Esta divisão fornece a estimativa mais precisa do aumento.
-   * Se o seu objetivo é criar uma atividade &quot;sempre ativa&quot;, coloque 10% a 30% dos visitantes no controle para garantir que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. Observe que a desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você terá menos precisão em saber qual é o aumento exato.
+   Há três cenários a serem considerados com base na meta da atividade e do tipo de controle selecionado:
+
+   * **Experiências aleatórias como seu controle e seu objetivo da atividade é testar a eficácia do algoritmo de personalização**: Se a sua meta é avaliar o algoritmo de personalização, você desejará ter uma imagem mais precisa do seu incentivo. Você também pode se comparar com o que a taxa de conversão de suas experiências/ofertas seria se você simplesmente fizesse um teste A/B (um controle enviado aleatoriamente). Nessa situação, é recomendado utilizar uma alocação de 50% para um controle de experiências aleatoriamente hospedadas.
+   * **«Experiências aleatórias» como seu controle e sua meta de atividade é maximizar o tráfego personalizado**: Se você estiver confortável com o algoritmo e quiser ter a quantidade máxima de tráfego personalizada, uma alocação de 10% a 30% será recomendada. A troca aqui é a precisão que você poderá ver em suas informações de incentivo (como os intervalos de confiança de seu tráfego de controle estarão maiores, pois há menos tráfego fluindo para eles).
+   * **Experiência específica como seu controle, com tipo de meta**: Se você quiser comparar uma experiência orientada por comerciante específico com os modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, o tráfego não é distribuído em cada oferta/experiência na atividade.
 
 * As regras de direcionamento devem ser usadas com toda moderação possível, pois podem interferir na capacidade do modelo de otimizar.
 * Grupos de relatórios podem limitar o sucesso da sua atividade de Personalização automatizada. Eles só devem ser usados sob condições específicas.
