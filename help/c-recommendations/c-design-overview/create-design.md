@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
    Quando usar um design padrão, o nome do design e &quot;Cópia&quot; irão aparecer no campo **[!UICONTROL Nome de conteúdo]**. Você pode editar o nome. 1. (Opcional) Clique para selecionar uma imagem para exibir no cartão do design.
 1. Edite o **[!UICONTROL Código]** do design.
 
-   Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [https://velocity.apache.org](https://velocity.apache.org).
+   Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [](https://velocity.apache.org)https://velocity.apache.org.
 
    Um design pode ser HTML ou não-HTML. Por padrão, os designs em HTML são envolvidos com uma tag <div> para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível.
 
