@@ -1,7 +1,7 @@
 ---
 description: Defina as preferências da conta para configurar o Target Standard ou o Target Premium para funcionarem corretamente com a conta.
 keywords: preferências de conta; preferências; detalhes do site; nome da mbox personalizada; solução da Experience Cloud usada para relatórios; Mostrar aumento estimado na receita; seletores de css; usar classes de elemento; URL padrão do Visual Experience Composer; Habilitar Enhanced Experience Composer; Gerar instantâneos de experiência; configuração de visor móvel; Vertical do setor; Filtrar critérios incompatíveis
-seo-description: Defina as preferências da conta para configurar o Adobe Target Standard ou Target Premium para funcionar corretamente com sua conta.
+seo-description: Defina as preferências da conta para configurar o Adobe Target Standard ou o Target Premium para funcionarem corretamente com a conta.
 seo-title: Preferências
 solution: Target
 subtopic: Introdução
@@ -9,7 +9,7 @@ title: Preferências
 topic: Padrão
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,11 +22,11 @@ Para definir suas preferências de conta, clique em **[!UICONTROL Configuração
 
 A ilustração a seguir mostra as configurações disponíveis na página [!UICONTROL Preferências da conta].
 
-![Página Preferências](/help/administrating-target/r-target-account-preferences/assets/target-account-preferences.png)
+![Página de Preferências](/help/administrating-target/r-target-account-preferences/assets/target-account-preferences.png).
 
 >[!NOTE]
 >
->Algumas dessas preferências estão disponíveis somente se você tiver [o Target Premium](/help/c-intro/intro.md#premium).
+>Algumas dessas preferências estão disponíveis somente se você tiver o [Target Premium](/help/c-intro/intro.md#premium).
 
 ## Detalhes do site {#section_04A3340FC29B46978DB77058259F4EE0}
 
@@ -34,7 +34,7 @@ Especifique como o site foi configurado.
 
 ### Mbox global personalizada
 
-Selecione o nome opcional da mbox que você está usando para entregar atividades do [!DNL Target]. Essa mbox global deve ficar vazia, o que significa que não tem nenhum conteúdo padrão. Salve essa configuração somente depois que a atualização [!DNL at.js] ou [!DNL mbox.js] o arquivo for instalado no site.
+Selecione o nome opcional da mbox que você está usando para entregar atividades do [!DNL Target]. Essa mbox global deve ficar vazia, o que significa que não tem nenhum conteúdo padrão. Salve esta configuração somente quando o arquivo do [!DNL at.js] ou do [!DNL mbox.js] atualizado estiver instalado no site.
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ Defina as opções que determinam quais dados são usados para os resultados e r
 |--- |--- |
 | Solução da Experience Cloud usada para relatórios | Selecione a fonte de relatórios das suas atividades: o [!DNL Target] ou o Adobe Analytics. Também é possível optar por selecionar sua origem de relatórios por atividade. Considere as informações a seguir ao escolher sua origem de relatórios:<ul><li>Criação, ativação e desativação de atividades de [!UICONTROL Alocação automática], [!UICONTROL Direcionamento automático] e [!UICONTROL Personalização automatizada] (AP) são permitidas independentemente da fonte de relatórios selecionada. Esses tipos de atividades não são compatíveis quando você escolhe o [Adobe Analytics como origem de relatórios para o Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Mesmo que você especifique o Analytics como fonte de geração de relatórios, [!DNL Target] será usado como a fonte de relatórios para esses tipos de atividades.</li><li>Se a fonte de relatórios for definida aqui como Analytics, você não poderá ativar uma atividade que usa [!DNL Target] como fonte de relatórios (a fonte de relatórios é especificada como Target por atividade). Você deve alterar a origem de relatórios para Analytics na sua atividade ou alterar o mecanismo de relatórios para Selecionar por atividade em Configurar &gt; Preferências.</li><li>Se a origem de relatório for definida aqui para [!DNL Target], você não poderá ativar uma atividade que usa o Analytics como a origem de relatório. Você deve alterar a origem de relatórios para [!DNL Target] na sua atividade ou alterar a origem de relatório para Selecionar por atividade em Configurar &gt; Preferências.</li><li>Se a origem de relatório for definida aqui para Selecionar por atividade, você pode criar, ativar e desativar atividades compatíveis com a origem de relatório selecionada. Para obter uma matriz de atividades compatíveis, consulte [Adobe Analytics como origem de relatório para o Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).</li><li>Quando você alternar do manual A/B para [!UICONTROL Alocação automática] ou [!UICONTROL Direcionamento automático], todas as métricas e públicos-alvo serão perdidos se a origem de relatórios da atividade manual A/B não for compatível nas atividades de [!UICONTROL Alocação automática] ou [!UICONTROL Direcionamento automático].</li></ul> |
 | Mostrar aumento estimado na receita | Também é possível escolher mostrar o aumento estimado na receita se inserir um valor monetário para sua meta. [!DNL Target]O pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora. O recurso de aumento estimado está desativado por padrão.<br>Apenas usuários de Administração da Experience Cloud podem habilitar ou desabilitar esse recurso. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.<br>Para obter informações detalhadas, consulte [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
-| Ativar prioridades refinadas | Permitir entradas numéricas para prioridade variam de 0-999.<br>Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.<br>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida. |
+| Ativar prioridades otimizadas | Permitir entradas numéricas para prioridades que variam de 0 a 999.<br>Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.<br>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida. |
 
 ## Seletores de CSS {#section_8155EDBF449E4198863235F94D1EA872}
 
@@ -86,4 +86,4 @@ Este vídeo inclui informações sobre as preferências da conta.
 
 * Descreva as configurações da conta disponíveis em [!DNL Target Standard]
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=por_br)
