@@ -9,7 +9,7 @@ title: Rastreamento de cliques
 topic: Padrão
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ O Target permite monitorar os cliques em um elemento como uma métrica de sucess
 >
 >O rastreamento de cliques não é suportado na mbox global de destino quando é usada como um local em uma atividade baseada em forma.
 
-## Configurar o rastreamento de cliques {#section_5540C5A533114E57BAE022A600B02E72}
+## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Ao definir suas metas na página [!UICONTROL Metas e configurações] para a atividade, selecione a métrica de sucesso de **[!UICONTROL Conversão].**
 1. Para ação, selecione **[!UICONTROL Clicou em um elemento]** e clique em **[!UICONTROL Selecionar elementos]**.
@@ -36,6 +36,32 @@ O Target permite monitorar os cliques em um elemento como uma métrica de sucess
 1. Clique na marca de seleção na parte superior da tela para salvar suas seleções.
 
 Quando um participante da atividade clica em um elemento selecionado, esse clique é contado como uma conversão.
+
+## Selected Elements panel {#selected-elements}
+
+For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+
+![Painel Elementos selecionados](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+
+There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. A tabela a seguir descreve cada ação que pode ser executada em um elemento:
+
+| Ação | Descrição |
+| --- | --- |
+| Informações | Exibe o tipo de elemento e o caminho DOM completo para o seletor. |
+| Editar | Permite editar o seletor de CSS. |
+| Excluir | Exclui o elemento. |
+
+### Adicionar elemento
+
+Se você já conhece o caminho DOM para o seletor, você pode adicioná-lo manualmente ao clicar no ícone de adição localizado na parte superior do painel.
+
+![Ícone Adicionar elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
+
+### Pop-up de passagem de elementos selecionados
+
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. A lista contém o caminho DOM completo para o elemento ajudar a validar se o elemento selecionado deve ser usado para o rastreamento de cliques.
+
+![Link Selected Selecionado](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## Considerações {#considerations}
 
@@ -62,7 +88,7 @@ Há várias coisas a considerar ao selecionar elementos:
    | : | Dois-pontos |
    | . | Ponto |
    | $ | Símbolo de moeda |
-   | [ ] | Colchetes |
+   | `[ ]` | Colchetes |
 
 * Se usar o rastreamento de cliques [!DNL at.js] e também o Analytics AppMeasurement, o rastreamento de cliques [!DNL at.js] cancelará todos os outros manipuladores de eventos de clique. Como resultado, o manipulador de cliques do AppMeasurement nunca é executado.
 
