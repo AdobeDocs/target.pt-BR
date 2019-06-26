@@ -7,7 +7,7 @@ title: Aplicativo para dispositivos móveis do Visual Experience Composer
 topic: Padrão
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -79,7 +79,7 @@ As ações realizadas no VEC são visíveis em tempo real no aplicativo, o que p
 
 Quando uma nova versão do aplicativo é detectada, você é notificado de que a versão do aplicativo foi adicionada à lista de versões direcionadas.
 
-![Notificação de novo aplicativo](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+![Notificação de novo aplicativo](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
