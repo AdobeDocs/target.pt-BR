@@ -8,8 +8,8 @@ subtopic: Teste multivariado
 title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 topic: Padrão
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,7 +30,7 @@ Os três principais benefícios de usar dados do Analytics no Target são:
 
 >[!IMPORTANT]
 >
->Antes de começar a usar A4T, você precisa solicitar que sua conta seja provisionada para a integração. Use [este formulário](https://www.adobe.com/go/audiences) para solicitar o provisionamento.
+>Antes de começar a usar A4T, você precisa solicitar que sua conta seja provisionada para a integração. Use [este formulário](https://www.adobe.com/go/audiences) para solicitar o aprovisionamento.
 >
 >A integração que habilita o Adobe Analytics como fonte de dados para o Adobe Target (A4T) representa a próxima geração do Test&amp;Target para o plug-in do SiteCatalyst. Este plug-in foi descontinuado, mas ainda é suportado para os clientes que já o utilizam.
 
@@ -65,13 +65,13 @@ A tabela a seguir mostra quais tipos de atividade são compatíveis com o Analyt
 | Direcionamento de experiência (XT) | Sim |  |
 | Teste multivariado (MVT) | Sim | Exige métrica de meta baseada em mbox para obter o relatório de Contribuição de elementos.  Atualmente, o Relatório de contribuição de elementos não suporta métricas do Analytics. |
 | Atividade de personalização automatizada (AP) | Não |  |
-| Recommendations ilegal | Sim |  |
-| Aplicativo móvel | Sim | Compatível com o Mobile Services SDK, versão 4.13.1 ou superior.  Para obter mais informações, consulte a documentação do [Mobile Services](https://marketing.adobe.com/resources/help/pt_BR/mobile/). |
+| Atividade do Recommendations | Sim |  |
+| Aplicativo móvel | Sim | Compatível com o Mobile Services SDK, versão 4.13.1 ou superior.  Para obter mais informações, consulte a [documentação do Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
 | Email | Não |  |
 | API de entrega do lado do servidor | Sim | Para obter mais informações, consulte o [Servidor: implementar o Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | SDK do NodeJS | Sim | Para obter mais informações, consulte o [Servidor: implementar o Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | AEM 6.1 (ou anterior) Integração dos Serviços em Nuvem | Não |  |
-| AEM 6.2 (ou posterior) Integração dos Serviços em Nuvem | Sim | Para obter mais informações, consulte [Integração com o Adobe Target](https://helpx.adobe.com/br/experience-manager/6-2/sites/administering/using/target.html) na documentação do Adobe Experience Manager 6.2. |
+| AEM 6.2 (ou posterior) Integração dos Serviços em Nuvem | Sim | Para obter mais informações, consulte [Integração com o Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) na documentação do Adobe Experience Manager 6.2. |
 | Qualquer atividade usando uma Oferta de redirecionamento | Sim | Existem requisitos mínimos mais rigorosos para o uso de Ofertas de redirecionamento com o A4T. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
 | Node.JS | Sim |  |
 
@@ -103,7 +103,7 @@ Para exibir o relatório no [!DNL Analytics] em vez de no [!DNL Target], clique 
 
 ## Tutorial do Analytics &amp; Target: práticas recomendadas para análise {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Abra o [Analytics e Target: Tutorial de práticas recomendadas para análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pelo Adobe Experience Manager.
+Abra o tutorial do [Analytics &amp; Target: práticas recomendadas para análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pela Adobe Experience League.
 
 ## Vídeos de treinamento:
 
@@ -117,7 +117,7 @@ Este vídeo explica como usar o Adobe Analytics como fonte de relatórios no Ado
 * Explique como o A4T funciona
 * Entenda os pré-requisitos necessários antes de utilizar o A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/17384?captions=por_br)
 
 ### Integração do Analytics/Target (A4T) (40:33)
 
@@ -128,4 +128,4 @@ Este vídeo é uma gravação de &quot;[Horas do Office](../../cmp-resources-and
 * Saiba mais sobre os relatórios adequados para usar no Analytics
 * Respostas às perguntas comuns sobre o A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=por_br)
