@@ -11,7 +11,7 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -54,7 +54,7 @@ As propriedades têm natureza semelhante àquelas do Dynamic Tag Management (Act
 
 Uma propriedade da Web é uma biblioteca de regras e um código incorporado. Uma propriedade da Web pode ser qualquer agrupamento de um ou mais domínios e subdomínios.
 
-As propriedades são ativadas adicionando um par de nome/valor específico como um parâmetro em qualquer chamada (mbox, api, etc.) ao Target.
+As propriedades são ativadas adicionando um par de nome/valor específico como um parâmetro em qualquer chamada (mbox, api, etc.) ao Target. 
 As propriedades pertencem a canais específicos (Web, celular, email ou API/Outros).
 
 ### Espaço de trabalho (perfil do produto)
@@ -113,7 +113,7 @@ A nova funcionalidade de [!UICONTROL Permissões] permite criar projetos diferen
 
 Por exemplo, um usuário específico pode ter acesso de &quot;aprovação&quot; nos sites das Américas, mas apenas de &quot;visualização&quot; no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
 
-O modelo atual de [!DNL Target]Permissões[!UICONTROL  do ] apresenta três funções de permissão (Observador, Editor e Aprovador), conforme mostrado na seguinte ilustração:
+O modelo atual de [!DNL Target] [!UICONTROL Permissões] apresenta três funções de permissão (Observador, Editor e Aprovador), conforme mostrado na seguinte ilustração:
 
 ![](assets/permissions_1.png)
 
@@ -122,14 +122,14 @@ Cada função tem diferentes níveis de permissões:
 | Função | Descrição |
 |--- |--- |
 | Observador | Tem acesso somente leitura às atividades. Pode exibir atividades, mas não pode criá-las ou editá-las. |
-| Editor | pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+| Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
 | Aprovador | Pode criar, editar e ativar ou parar atividades. |
 
 É importante observar que a função de cada usuário se aplica a todas as páginas, propriedades ou sites da conta que incluam tags do [!DNL Target], conforme mostrado abaixo.
 
 ![](assets/permissions_2.png)
 
-O novo modelo de [!DNL Target]Permissões[!UICONTROL  do ] apresenta as mesmas três funções de permissão (Observador, Editor e Aprovador); entretanto, é possível atribuir funções de permissões de um usuário separadamente para páginas, propriedades ou sites individuais, conforme mostrado abaixo.
+O novo modelo de [!DNL Target] [!UICONTROL Permissões] apresenta as mesmas três funções de permissão (Observador, Editor e Aprovador); entretanto, é possível atribuir funções de permissões de um usuário separadamente para páginas, propriedades ou sites individuais, conforme mostrado abaixo.
 
 ![](assets/permissions_3.png)
 
@@ -147,7 +147,7 @@ Os seguintes casos de uso podem ser úteis para entender como as propriedades, p
 
 ### Organização multinacional
 
-Se você fizer parte de uma organização multinacional, poderá ter um espaço de trabalho para suas páginas da Web, propriedades ou sites na Europa e outro espaço de trabalho para suas páginas, propriedades ou sites da Web nos EUA.
+Se você fizer parte de uma organização multinacional, poderá ter um espaço de trabalho para suas páginas da Web, propriedades ou sites na Europa e outro espaço de trabalho para suas páginas, propriedades ou sites da Web nos EUA. 
 Após uma reorganização, usando as pessoas das ilustrações acima, você pode configurar espaços de trabalho e permissões semelhantes aos seguintes:
 
 * **Jan**: Jan é a responsável pela otimização no Centro de excelência das páginas, propriedades e sites dos Estados Unidos de sua organização. Ela provavelmente tem direitos de administrador do sistema na Adobe Experience Cloud.
@@ -202,7 +202,7 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 * **Criação de público-alvo:** ao criar um novo público-alvo, ele é criado no espaço de trabalho selecionado no momento.
 * **Criação de oferta:** ao criar uma nova oferta, ela é criada no espaço de trabalho selecionado no momento.
-* **Página Propriedades (Configurar &gt; Propriedades):**é possível usar a caixa [!UICONTROL Pesquisa], as opções [!UICONTROL Canal] e [!UICONTROL Perfil do produto] para filtrar a Lista de [!UICONTROL Propriedades].
+* **Página Propriedades (Configurar &gt; Propriedades):** é possível usar a caixa [!UICONTROL Pesquisa], as opções [!UICONTROL Canal] e [!UICONTROL Perfil do produto] para filtrar a Lista de [!UICONTROL Propriedades].
 
    ![](assets/properties_list.png)
 
@@ -252,7 +252,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no Target 
 
 ## Perguntas frequentes {#faqs}
 
-As perguntas frequentes sobre permissões corporativas incluem:
+As perguntas frequentes sobre as permissões empresariais incluem o seguinte:
 
 ### Posso mover uma atividade de um espaço de trabalho para outro?
 
@@ -262,21 +262,21 @@ As atividades criadas antes da migração continuam sendo executadas da mesma ma
 
 ### Por que recebo uma mensagem de erro indicando que nenhuma propriedade está associada a essa atividade, mesmo que haja uma propriedade atribuída?
 
-Se você tiver implementado [!DNL Target][!DNL Adobe Launch] e recebido uma mensagem de erro indicando que não há propriedade associada à atividade, passe o `at_property` parâmetro com a `targetPageParams` função.
+Se você implementou o [!DNL Target] com o [!DNL Adobe Launch] e recebeu uma mensagem de erro indicando que não há propriedade associada à atividade, passe o parâmetro `at_property` com a função `targetPageParams`.
 
-### As conversões de click-track registram-se se uma página de redirecionamento e o URL da atividade pertencem a propriedades diferentes?
+### As conversões de rastreamento de cliques são registradas se uma página de redirecionamento e o URL da atividade pertencerem a propriedades diferentes?
 
-O rastreamento de cliques não é gravado nas páginas em que a página e o URL da atividade pertencem a propriedades diferentes.
+O rastreamento de cliques não é registrado quando a página e o URL da atividade pertencerem a propriedades diferentes.
 
-Considere o seguinte cenário (se aplica a at. js e mbox. js):
+Considere o seguinte cenário (se aplica a at.js e a mbox.js):
 
 * A página 1 pertence à Propriedade 1.
 * A página 2 pertence à Propriedade 2.
-* Na atividade, a Página 1 redireciona para a Página 2, que contém faixas de cliques.
+* Na atividade, a Página 1 redireciona para a Página 2, que contém rastreamento de cliques.
 
-Quando um visitante abre a Página 1 em um navegador, ele ou ela é redirecionado à Página 2. Como a Página 2 não está qualificada para entregar a atividade, sua chamada Target não contém cliques em sua resposta.
+Quando um visitante abre a Página 1 em um navegador, ele é redirecionado para a Página 2. Como a Página 2 não está qualificada para fornecer a atividade, sua chamada do Target não terá rastreamentos de cliques na resposta.
 
-Se a página de redirecionamento e o URL da atividade pertencerem à mesma propriedade, a clique rastreará como esperado. Para obter mais informações, consulte [Rastreamento](/help/c-activities/r-success-metrics/click-tracking.md)de cliques.
+Se a página de redirecionamento e o URL da atividade pertencerem à mesma propriedade, o rastreamento de cliques funcionará como esperado. Para obter mais informações, consulte [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md).
 
 ## Vídeo de treinamento: vídeo de treinamento de permissões empresariais {#section_2FA080303A064242B63FF16CFA6DB31D}
 
@@ -286,4 +286,4 @@ Objetivos de aprendizagem:
 * Os conceitos de Propriedades e Espaços de trabalho e como esses limites e agrupamentos funcionam para permitir o controle sobre os níveis de acesso dos usuários
 * Exemplos de diferentes propriedades para sua organização considerar
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=por_br)
