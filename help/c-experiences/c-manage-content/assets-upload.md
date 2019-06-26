@@ -7,8 +7,8 @@ solution: Target
 title: Upload de conteúdo
 topic: Padrão
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 
-* Conexão entre a [Biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/pt_br/mcloud/creative_cloud.html) e a Biblioteca de conteúdo do Target
+* Conexão entre a [biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e a biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=por_br)
