@@ -7,8 +7,8 @@ solution: Target
 title: Implementação do aplicativo de página única
 topic: padrão
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,7 +33,7 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link:[Site inicial](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Site de início](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
@@ -53,7 +53,7 @@ No início desta seção, definimos Exibições como o site inteiro ou até mesm
 
 Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da Exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
-**Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de checkout](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos apresentar alguns exemplos de casos de uso sobre como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link:[Site inicial](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Site de início](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link:[Site dos produtos](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
 Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, queremos personalizar a segunda fileira de produtos alterando a cor do rótulo de &quot;Preço&quot; para vermelho, depois que um usuário clicou no botão Carregar mais.
 
@@ -147,7 +147,7 @@ Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como pro
  }
 ```
 
-**Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![checkout do react](/help/c-experiences/assets/react6.png)
 
@@ -279,18 +279,18 @@ Os seguintes vídeos contêm mais informações:
 
 ### Noções básicas sobre o funcionamento da at.js 2.x
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
 
-Consulte [Noções básicas sobre o funcionamento da at.js 2.x](https://helpx.adobe.com/br/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
 ### Implementar a at.js 2.x em um SPA
 
->[!VIDEO](https://video.tv.adobe.com/v/26248)
+>[!VIDEO](https://video.tv.adobe.com/v/26248?captions=por_br)
 
-Consulte [Implementar a at.js 2.x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/br/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
+See [Implement Adobe Target&#39;s at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### Uso do VEC para SPAs no Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?captions=por_br)
 
-Consulte [Uso do Visual Experience Composer para aplicativo de página única (SPA VEC) no Adobe Target](https://helpx.adobe.com/br/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
