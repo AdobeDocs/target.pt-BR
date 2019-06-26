@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -33,6 +33,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Criar uma atividade de Automated Personalization](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Adicionada a etapa com informações para selecionar uma experiência específica como padrão. |
 |  | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Foram adicionadas informações sobre como gerenciar várias versões de aplicativos móveis. |
 |  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | Foram adicionadas informações sobre a chave de recomendação Itens comprados anteriormente. |
+|  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Foram adicionadas informações sobre a falha na renderização de relatórios para atividades do Target automaticamente em determinadas situações. |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 19.6.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 de maio de 2019) {#tgt-19-5-1}
