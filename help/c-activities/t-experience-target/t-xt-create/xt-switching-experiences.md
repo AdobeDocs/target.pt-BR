@@ -8,12 +8,12 @@ title: Troca de experiências no Direcionamento de experiência
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# Alternar experiências em direcionamento de experiência{#switching-experiences-in-experience-targeting}
+# Switching experiences in Experience Targeting{#switching-experiences-in-experience-targeting}
 
 Informações sobre como visitantes podem alternar entre experiências em uma atividade de Direcionamento de experiência (XT) conforme seus perfis evoluem.
 
