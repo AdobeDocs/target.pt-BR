@@ -9,7 +9,7 @@ title: Gerenciamento do usuário
 topic: Padrão
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,6 +22,6 @@ A funcionalidade Propriedades e permissões está disponível como parte da solu
 
 É possível saber se sua organização tem uma licença Standard ou Premium clicando no link [!UICONTROL Configurar] na parte superior da interface do usuário do Target.
 
-* **Clientes do Target Standard:** caso veja a guia [!UICONTROL Usuários] ([!UICONTROL Configurar] &gt; [!UICONTROL Usuários]), sua organização tem uma licença Target Standard. Os clientes do Target Standard devem seguir as instruções em [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) para adicionar usuários e atribuir permissões no Adobe Admin Console.
+* **Clientes do Target Standard:** caso veja a guia [!UICONTROL Usuários] ([!UICONTROL Configurar] &gt; [!UICONTROL Usuários]), sua organização tem uma licença Target Standard. Target Standard customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
 * **Clientes do Target Premium:** caso veja a guia [!UICONTROL Propriedades] ([!UICONTROL Configurar] &gt; [!UICONTROL Propriedades]), sua organização tem uma licença Target Premium. Os clientes do Target Premium devem seguir as instruções nas [Permissões do usuário corporativo](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) e [Configurar permissões corporativas](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) para adicionar usuários e atribuir permissões no Adobe Admin Console.
 
