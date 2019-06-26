@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,9 +23,9 @@ Use atributos de entidade personalizados de valor único e múltiplo para defini
 
 Você pode incluir até 100 atributos de entidade personalizados para definir informações adicionais sobre itens em seu catálogo. Por exemplo, é possível criar um atributo personalizado chamado `entity.genre` para especificar um livro ou filme. Ou, um vendedor de bilhetes pode criar atributos para o local de evento para incluir um artista secundário, como um time visitante em um evento esportivo ou um show de abertura em um evento.
 
-O tamanho máximo dos atributos personalizados de entidade única tem 15,000 caracteres (para idiomas codificados de um e dois bytes UTF -8, como inglês e outros alfabetos de script latinos) ou 10,000 caracteres (para idiomas codificados em três bytes, como chinês, japonês e coreano).
+O tamanho máximo dos atributos personalizados da entidade de valor único é de 15.000 caracteres (para idiomas codificados de um e dois bytes UTF -8, como inglês e outros alfabetos de script latinos) ou 10.000 caracteres (para idiomas codificados em três bytes, como chinês, japonês e coreano).
 
-Atributos personalizados de entidade de vários valores podem conter não mais do que 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com as limitações para o comprimento máximo dos atributos personalizados de entidade única (veja acima).
+Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
 ## Valores de atributos de entidade personalizados {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -69,7 +69,7 @@ Depois que um atributo personalizado é enviado como uma matriz JSON válida, el
 
 ## Implementar atributos de vários valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`, API de entrega e ta API Salvar entidades para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ( [] ) são tratadas como não tendo valores.
+Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`, API de entrega e ta API Salvar entidades para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
 
 Aspas duplas devem ser evitadas. Por exemplo, `"[""test"", ""value""]"` é uma matriz JSON que pode ser usada no CSV.
 
@@ -115,8 +115,8 @@ Tenha cuidado ao editar diretamente um arquivo CSV de catálogo simples.
 
 **Uso de APIs**
 
-Consulte a documentação da API do [Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obter informações sobre
-como usar as apis de entidades de entrega e Salvar.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
