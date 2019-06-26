@@ -1,25 +1,25 @@
 ---
-description: 'Informações sobre a função adobe. target. getoffers (opções) para at. js. '
-keywords: adobe.target.notificação; elemento; seletor; notificação; extensão
-seo-description: Informações sobre a função adobe. target. getoffers (opções) para a biblioteca do Adobe Target no javascript.
-seo-title: Informações sobre a função adobe. target. getoffers (opções) para a biblioteca do Adobe Target no javascript.
+description: 'Informações sobre a função adobe.target.getOffers(options) para at.js. '
+keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+seo-description: Informações sobre a função adobe.target.getOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
+seo-title: Informações sobre a função adobe.target.getOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
 subtopic: Introdução
 title: adobe.target.getOffers(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getoffers (opções) - at. js 2. x
+# adobe.target.getOffers(options) - at.js 2.x
 
 Essa função permite que você recupere várias ofertas passando em várias mboxes. Além disso, várias ofertas podem ser recuperadas para todas as exibições em atividades ativas.
 
 >[!NOTE]
 >
->Esta função foi introduzida com at. js 2. x. Essa função não está disponível para o at. js versão 1.*x*.
+>Essa função foi introduzida com a at.js 2.x. Essa função não está disponível para a at.js versão 1.*x*.
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | Solicitação &gt; id &gt; thirdPartyId | Não | Tamanho máximo = 128 |  |  |
 | Request &gt; experiencecloud | Não |  |  |
 | Request &gt; experiencecloud &gt; analytics | Não |  | Integração do Adobe Analytics |
-| Solicitação &gt; experiencecloud &gt; analytics &gt; registro | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>Appmeasurement. js</li></ul> | Os seguintes valores são suportados:<br>**client_ side**: Quando especificado, uma carga de análise será retornada ao chamador que deve ser usada para enviar para o Adobe Analytics por meio da API de inserção de dados.<br>**server_ side**: Esse é o valor padrão em que o backend do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
+| Solicitação &gt; experiencecloud &gt; analytics &gt; registro | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**: Esse é o valor padrão em que o backend do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
 | Request &gt; pré-busca | Não |  |  |
 | Solicitação &gt; pré-busca &gt; exibições | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome`<=` 128<br>Tamanho do valor `<=` 5000<br>O nome não deve começar com &quot;perfil&quot;<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; profileParameters | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=` 5000 <br>O nome não deve começar com &quot;perfil&quot; | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-A carga pode ser encaminhada para o Adobe Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## Fetch e renderize dados de várias mboxes via getoffers () e applyoffers () {#multiple}
+## Buscar e renderizar dados de várias mboxes via getOffers() e applyOffers() {#multiple}
 
-O at. js 2. x permite buscar várias mboxes por meio da `getOffers()` API. Você também pode buscar dados para diversas mboxes e, em seguida, usar `applyOffers()` para renderizar os dados em diferentes locais identificados por um seletor de CSS.
+A at.js 2.x permite buscar várias mboxes por meio da API de `getOffers()`. Você também pode buscar dados de várias mboxes e, em seguida, usar o `applyOffers()` para renderizá-los em diferentes locais identificados por um seletor de CSS.
 
-O exemplo a seguir mostra uma página HTML simples com o at. js 2. x implementada:
+O exemplo a seguir mostra uma página HTML simples com a at.js 2.x implementada:
 
 ```
 <!DOCTYPE html>
@@ -207,9 +207,9 @@ O exemplo a seguir mostra uma página HTML simples com o at. js 2. x implementad
 </html>
 ```
 
-Suponha que você tenha três contêineres que deseja modificar por meio do conteúdo recebido [!DNL Target]. É possível construir uma única solicitação para três mboxes em que cada mbox tem conteúdo para renderizar no contêiner respectivo.
+Suponha que você tenha três contêineres que deseja modificar por meio do conteúdo recebido do [!DNL Target]. É possível criar uma única solicitação para três mboxes em que cada mbox tem conteúdo para renderizar no respectivo contêiner.
 
-A solicitação e o código de renderização podem parecer com o seguinte exemplo:
+A solicitação e o código de renderização podem ser semelhantes ao seguinte exemplo:
 
 ```
 adobe.target.getOffers({
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-Na `request > prefetch > mboxes` seção, há três mboxes diferentes. If the request completed successfully, you receive the response for each mbox from `response > prefetch > mboxes`. Depois de ter as respostas e os locais que deseja usar para renderização, você pode chamar `applyOffers()` para renderizar o conteúdo da [!DNL Target]qual foi recuperado. Neste exemplo, temos o seguinte mapeamento:
+Na seção `request > prefetch > mboxes`, há três mboxes diferentes. Se a solicitação for concluída com sucesso, você receberá a resposta do `response > prefetch > mboxes` para cada mbox. Depois de ter as respostas e os locais que deseja usar para renderização, você pode chamar `applyOffers()` para renderizar o conteúdo recuperado de [!DNL Target]. Neste exemplo, há o seguinte mapeamento:
 
-* mbox 1 &gt; seletor de CSS # container 1
-* mbox 2 &gt; seletor de CSS # container 2
-* mbox 3 &gt; seletor de CSS # container 3
+* mbox1 &gt; CSS selector #container1
+* mbox2 &gt; CSS selector #container2
+* mbox3 &gt; CSS selector #container3
 
-Este exemplo usa a variável de contagem para criar os seletores de CSS. Em um cenário em tempo real, você pode usar um mapeamento diferente entre o seletor de CSS e a mbox.
+Este exemplo usa a variável de contagem para criar os seletores de CSS. Em um cenário real, você pode usar um mapeamento diferente entre o seletor de CSS e a mbox.
 
-Observe que este exemplo usa `prefetch > mboxes`, mas você também pode usar `execute > mboxes`. Certifique-se de que, se você usar a busca prévia, `getOffers()`também deve usar a busca prévia na `applyOffers()` invocação.
+Observe que este exemplo usa `prefetch > mboxes`, mas você também pode usar `execute > mboxes`. Certifique-se de que, se você usar a pré-busca em `getOffers()`, também deverá usá-la na invocação de `applyOffers()`.
