@@ -9,7 +9,7 @@ title: Métodos para colocar os dados no Target
 topic: Padrão
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ Os dados são enviados ao Target em tempo real, e podem ser usados na mesma cham
 * Se os dados precisarem ser usados para direcionamento em uma chamada de página/servidor subsequente, eles precisam ser traduzidos para um script de perfil.
 * As sequências de caracteres podem conter somente os caracteres, conforme o padrão [Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Além dos mencionados no site do IETF, o Target permite os caracteres a seguir nas sequências de consulta:
+   Além dos mencionados no site IETF, o Target permite os seguintes caracteres nas sequências de consulta:
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
