@@ -8,7 +8,7 @@ title: Geografia direcionamento no Adobe Target
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ A ilustração a seguir mostra um público-alvo que direciona os usuários para 
 
 ## Precisão {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando o visitante está usando uma conexão de dados celulares, a precisão da pesquisa geográfica pode ser afetada por localização, a relação de dados do provedor com [o deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Alguns problemas de localização geográfica móvel podem ser resolvidos usando a API [de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 A tabela a seguir mostra a precisão das informações geográficas baseadas em IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexões de Internet com fuio ou Wi-Fi. A DigitalEnvoy oferece os dados mais precisos do setor. A precisão global é de mais de 99,9% em nível nacional e de até 97% em nível municipal. As informações de precisão não se aplicam a redes baseadas em torre de celular.
 
@@ -115,7 +115,7 @@ Por exemplo, use:
 
 **Como a geolocalização funciona em dispositivos móveis?**
 
-A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi, o que significa que o geolocalização baseado em IP do Target é tão preciso como em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser resolvidos usando a API [de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi, o que significa que o geolocalização baseado em IP do Target é tão preciso como em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Como o recurso geográfico trata visitantes da AOL?**
 
