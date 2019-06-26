@@ -8,8 +8,8 @@ subtopic: Introdução
 title: Envio de parâmetros para uma mbox global
 topic: Padrão
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,7 +32,7 @@ Você pode transmitir parâmetros para `target-global-mbox`usando a função `ta
 * Um objeto JSON
 * Uma lista delimitada por ampersand
 
-Use esses três métodos para verificar se os parâmetros estão sendo enviados corretament. Você também pode conseguir verificar a transmissão de parâmetros usando o[Adobe Experience Cloud Debugger](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/debugger.html).
+Use esses três métodos para verificar se os parâmetros estão sendo enviados corretament. Você também pode ser capaz de verificar o envio de parâmetros usando o [depurador da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
 
 Você deve definir a função JavaScript antes de adicionar a mbox global à página. O nome deve ser `targetPageParams`.
 
