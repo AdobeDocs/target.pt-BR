@@ -8,7 +8,7 @@ title: iOS - Configuração do aplicativo móvel
 topic: Padrão
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -233,7 +233,7 @@ Pode haver determinados cenários em que você queira chamar a API de pré-busca
 + (void) prefetchOffersBackground;
 ```
 
-## Tutoriais: Implementação da Experience Cloud em aplicativos Ios-C e Swift do iOS {#tutorial}
+## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
 
 * [Implementar a Experience Cloud em aplicativos Objetive-C para Ios](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [Implementar a Experience Cloud em aplicativos Mobile iOS móveis](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
