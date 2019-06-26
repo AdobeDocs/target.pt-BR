@@ -8,7 +8,7 @@ title: Parâmetros personalizados
 topic: Padrão
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique **[!UICONTROL em Adicionar regra]** &gt; **[!UICONTROL Personalizado]**.
+1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
    Para selecionar o parâmetro desejado:
 
