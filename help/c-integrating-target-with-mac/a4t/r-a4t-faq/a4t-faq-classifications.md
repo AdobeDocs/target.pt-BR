@@ -7,8 +7,8 @@ solution: Target
 title: Classificações - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre classific
 
 ## Depois de usar o Importador de classificações para baixar classificações, como faço para relacionar o valor de post-tnt-action com o nome de uma atividade? {#section_6045DAC488B248418F430E663C38D001}
 
-É possível baixar as classificações da sequência A4T/TNT do [Importador de classificação de ferramentas administrativas](https://marketing.adobe.com/resources/help/pt_BR/reference/c_working_with_saint.html). A variável é chamada &quot;TNT&quot; na lista de exportação. Os dados baixados incluem os nomes amigáveis de atividades, experiências e assim por diante.
+Você pode baixar as classificações para a cadeia de caracteres A4T/TNT do [Importador de classificação das Ferramentas administrativas](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html). A variável é chamada &quot;TNT&quot; na lista de exportação. Os dados baixados incluem os nomes amigáveis de atividades, experiências e assim por diante.
 
 Este arquivo de pesquisa é útil para clientes que recebem a alimentação de dados de sequência de cliques da Adobe. O arquivo fornece nomes amigáveis para as colunas `post_tnt` e `post_tnt_action`.
 
@@ -31,4 +31,4 @@ O formato da string da variável TNT é `activityID:experienceID:targettype|even
 * Evento = 2 representa impressão de uma atividade.
 * Evento = 32767 representa conversão de uma atividade.
 
-É possível baixar o arquivo de classificação regularmente na interface do usuário usando a [exportação do navegador](https://marketing.adobe.com/resources/help/pt_BR/reference/browser_export.html) ou a [exportação de FTP](https://marketing.adobe.com/resources/help/pt_BR/reference/ftp_export.html). Você também pode se envolver com os Serviços de engenharia para obter o arquivo como uma tabela de pesquisa junto com uma alimentação de dados de sequência de cliques.
+Você pode baixar o arquivo de classificação frequentemente da interface do usuário usando [exportação de um navegador](https://marketing.adobe.com/resources/help/en_US/reference/browser_export.html) ou [exportação de um FTP](https://marketing.adobe.com/resources/help/en_US/reference/ftp_export.html). Você também pode se envolver com os Serviços de engenharia para obter o arquivo como uma tabela de pesquisa junto com uma alimentação de dados de sequência de cliques.
