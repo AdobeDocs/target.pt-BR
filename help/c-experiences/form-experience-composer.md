@@ -8,7 +8,7 @@ title: Experience Composer baseado em formulário
 topic: Padrão
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -102,4 +102,4 @@ Este vídeo oferece uma demonstração do compositor baseado em formulário.
 * Entenda quando usar o Experience Composer baseado em formulário ou o Visual Experience Composer
 * Use refinamentos para direcionar um local
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/17390?captions=por_br)
