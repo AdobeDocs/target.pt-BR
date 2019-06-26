@@ -1,21 +1,21 @@
 ---
-description: O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
+description: O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 keywords: Target Standard; Recommendations; Target Premium; Personalização automatizada; direcionamento automático; direcionamento automático; permissões
-seo-description: O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
+seo-description: O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 seo-title: Introdução ao Target
 solution: Target
 title: Introdução ao Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Introdução ao Target{#introduction-to-target}
 
-O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
+O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
 Os vídeos a seguir oferecem uma compreensão básica de como o Target, juntamente com outras soluções da Adobe Experience Cloud, podem ajudar a sua empresa a alcançar as metas:
 
@@ -75,7 +75,7 @@ Uma recomendação determina como um produto é sugerido a um cliente, dependend
 
 ### Recommendations como uma oferta
 
-[As recomendações como ofertas](/help/c-recommendations/recommendations-as-an-offer.md) permitem que você inclua recomendações dentro de teste [!UICONTROL A/B] (incluindo [!UICONTROL as atividades Auto-alocação] e [!UICONTROL Direcionamento automático]) e [!UICONTROL de direcionamento] de experiência (XT).
+[As recomendações como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md) permitem inclui-las nas atividades de [!UICONTROL Teste A/B] (inclusive [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) e [!UICONTROL Direcionamento de experiência] (XT).
 
 Essa funcionalidade permite capacidades nunca antes vistas, como:
 
@@ -94,7 +94,7 @@ O [!DNL Recommendations Classic] exibe automaticamente produtos ou conteúdo que
 
 Para obter mais informações, consulte a [documentação do Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Experiência da experiência: O Kit de boas-vindas do Adobe Target {#kit}
+## Experience League: The Adobe Target Welcome Kit {#kit}
 
 Crie seu programa de otimização e personalização no Adobe Target com este Kit de boas-vindas! Ele inclui informações importantes, ferramentas e recursos para ajudá-lo a preparar e iniciar a primeira atividade do Adobe Target, com vitins rápidas de curto prazo e estratégias de otimização de longo prazo.
 
@@ -108,4 +108,4 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
