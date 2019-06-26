@@ -7,8 +7,8 @@ solution: Target
 title: Tipos de atividade do Target
 topic: Padrão
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Baixe um PDF interativo que descreve os diferentes tipos de atividade no Adobe T
 
 >[!NOTE]
 >
->Para obter a melhor experiência e compartilhar com outros usuários, baixe o [Guia de atividades do Adobe Target em PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
+>For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
 
 ## O que ele faz? {#section_4ECAACC68723402EB3649033190E1BBC}
 
