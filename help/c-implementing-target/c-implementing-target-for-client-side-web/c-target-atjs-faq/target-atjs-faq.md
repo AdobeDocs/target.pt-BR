@@ -8,7 +8,7 @@ subtopic: Introdução
 title: Perguntas frequentes sobre at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ O diagrama a seguir ilustra o desempenho do carregamento de página usando a mbo
 
 Como ilustrado acima, usando a mbox.js, o conteúdo da página não inicia o carregamento até que a chamada do [!DNL Target] seja concluída. Usando a at.js, o conteúdo da página inicia o carregamento ao iniciar a chamada do [!DNL Target] e não espera até que ela seja concluída.
 
-## Qual é o impacto do at. js e do mbox. js no tempo de carregamento da página? {#page-load}
+## What is the impact of at.js and mbox.js on page-load time? {#page-load}
 
 Muitos clientes e consultores querem saber o impacto da [!DNL at.js] e da [!DNL mbox.js] no tempo de carregamento de página, principalmente no contexto de usuários novos e recorrentes. Infelizmente, é difícil medir e fornecer números concretos sobre como a [!DNL at.js] ou a [!DNL mbox.js] influenciam no tempo de carregamento de página devido à implementação de cada cliente.
 
@@ -90,7 +90,7 @@ A versão da at.js 1.0.0 permite carregar a biblioteca do Target de forma assín
 
 Para carregar a at.js de forma assíncrona:
 
-* A abordagem recomendada é por meio de um gerenciador de tags, como o Adobe Launch ou o Adobe Dynamic Tag Manager (DTM). Consulte a [lição Adicionar Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) da [implementação da Experience Cloud no tutorial de Inicialização](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) para obter mais informações.
+* A abordagem recomendada é por meio de um gerenciador de tags, como o Adobe Launch ou o Adobe Dynamic Tag Manager (DTM). See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * Também é possível carregar a at.js de forma assíncrona, adicionando o atributo async à tag do script que carrega a at.js. Use algo como o seguinte:
 
    ```
@@ -108,11 +108,11 @@ Para carregar a at.js de forma assíncrona:
 
 Carregar a at.js de forma assíncrona é uma ótima maneira de evitar o bloqueio de renderização do navegador. No entanto, essa técnica pode levar à cintilação na página da Web.
 
-Você pode evitar oscilação usando um trecho precedente que oculta a página (ou partes especificadas) e, em seguida, exibe a página após o at. js e a solicitação global carregou completamente. O trecho deve ser adicionado antes de carregar a at.js.
+Você pode evitar a cintilação usando um snippet de pré-ocultação que oculta a página (ou partes especificadas), exibindo-a após o carregamento completo da at.js e da solicitação global. O trecho deve ser adicionado antes de carregar a at.js.
 
-Se estiver implantando o at. js por meio de uma implementação assíncrona de inicialização, certifique-se de incluir o snippet de pré-ocultação diretamente em suas páginas, antes do código de Inicialização do código, conforme descrito na [seção Adicionar a](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) Experience Pré-oculting snippet da [seção Implementação da Experience Cloud no sites com o tutorial Iniciar](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
-Se você estiver implantando o at. js através de uma implementação SINCRM síncrona, o trecho de pré-ocultação pode ser adicionado por meio de uma regra de Carregamento de página acionada na parte superior da página.
+Se estiver implantando a at.js por meio de uma implementação DTM síncrona, o snippet de pré-ocultação pode ser adicionado por uma regra de Carregamento de página acionada na parte superior da página.
 
 Para obter mais informações, consulte [Como o at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
@@ -130,7 +130,7 @@ O arquivo da at.js tem aproximadamente 109 KB quando baixado. No entanto, como a
 
 ## Por que o at.js é maior que o mbox.js? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
-As implementações da at.js usam uma única biblioteca ( [!DNL at.js]), enquanto as implementações de mbox.js na verdade usam duas bibliotecas, ( [!DNL mbox.js] e [!DNL target.js]). Por isso, uma comparação mais justa seria de at.js versus mbox.js* e* `target.js`. Comparação entre os tamanhos gzipped das duas versões, a at.js versão 1.2 tem 34 KB e a mbox.js versão 63 tem 26.2 KB. ``
+As implementações da at.js usam uma única biblioteca ([!DNL at.js]), enquanto as implementações de mbox.js na verdade usam duas bibliotecas, ([!DNL mbox.js] e [!DNL target.js]). Por isso, uma comparação mais justa seria de at.js versus mbox.js* e* `target.js`. Comparação entre os tamanhos gzipped das duas versões, a at.js versão 1.2 tem 34 KB e a mbox.js versão 63 tem 26.2 KB. ``
 
 A at.js é maior, pois realiza muito mais análise de DOM em comparação à mbox.js. Isso é necessário porque a at.js recebe dados &quot;brutos&quot; na resposta JSON e precisa entender isso. A mbox.js usa `document.write()` e todas as análises são realizadas pelo navegador.
 
@@ -152,7 +152,7 @@ Não na mesma página. No entanto, ao implementar e testar a [!DNL at.js], é po
 
 ## Posso usar o Target Visual Experience Composer nos meus aplicativos de página única? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-Sim, você pode usar o VEC para a sua SPA se utilizar o at. js 2. x. Para obter mais informações, consulte [Página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
+Sim, você pode usar o VEC para SPA se utilizar a at.js 2.x. Para obter mais informações, consulte [Página única (SPA) do Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
 ## Posso usar o depurador da Adobe Experience Cloud com implementações da at.js? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
@@ -176,7 +176,7 @@ Sim, se estiver usando [a at.js versão 1.2 ou posterior](../../../c-implementin
 >
 >Os seguintes exemplos não são necessários se estiver usando a at.js versão 1.2 ou posterior.
 
-Dependendo de como você usa [targetglobalsettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md), pode ser necessário fazer modificações adicionais no código depois de baixar o at. js. Por exemplo, se você precisava de configurações ligeiramente diferentes para as implementações do [!DNL Target] em vários sites e não pode defini-las dinamicamente usando o JavaScript personalizado, faça essas personalizações manualmente depois de baixar o arquivo e antes de fazer upload para os respectivos sites.
+Dependendo de como você usa [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md), talvez seja necessário fazer modificações adicionais no código depois de baixar a at.js. Por exemplo, se você precisava de configurações ligeiramente diferentes para as implementações do [!DNL Target] em vários sites e não pode defini-las dinamicamente usando o JavaScript personalizado, faça essas personalizações manualmente depois de baixar o arquivo e antes de fazer upload para os respectivos sites.
 
 Os exemplos a seguir permitem usar a função `targetGlobalSettings()` at.js para inserir um trecho de código para suportar endereços IP:
 
@@ -264,12 +264,12 @@ Nessa etapa, seria possível mostrar a versão alternativa? Então, depois de qu
 
 Inicialmente, o elemento DOM da imagem herói está oculto. Depois que uma resposta do Target é recebida, at.js aplica as alterações do DOM, como a substituição do IMG e a exibição da imagem herói personalizada.
 
-## Qual doctype HTML faz no at. js?
+## Qual doctype HTML é exigido pela at.js?
 
-O at. js exige o doctype HTML 5.
+A at.js exige o doctype HTML 5.
 
-Essa sintaxe é:
+Esta sintaxe é:
 
 `<!DOCTYPE html>`
 
-O doctype HTML 5 garante que a página carregue no modo padrão. Ao carregar no modo de quirks, algumas apis JS que o at. js depende estão desativadas. O Target desativa o at. js no modo de quirks.
+O doctype HTML 5 garante que a página carregue no modo padrão. Ao carregar no modo quirks, algumas APIs de JS das quais a at.js depende são desativadas. O Target desativa a at.js no modo quirks.
