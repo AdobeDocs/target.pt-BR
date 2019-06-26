@@ -10,7 +10,7 @@ topic: Padrão
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 badge: premium
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -21,7 +21,7 @@ O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada
 
 >[!NOTE]
 >
->O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
+>O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
 
 [Ao criar uma atividade A/B usando o fluxo de trabalho guiado de três etapas](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), é possível optar por alocar o tráfego usando a opção [!UICONTROL Direcionamento automático para experiências personalizadas]:
 
@@ -76,13 +76,15 @@ A lista suspensa [!UICONTROL Alocação personalizada] permite escolher as segui
 
 | Objetivo da atividade | Sugestão de alocação de tráfego | Compensações |
 |--- |--- |--- |
-| **Avaliar algoritmo de personalização (50/50)**: Sua meta é determinar o desempenho do algoritmo de personalização em comparação ao controle (ou seja, uma experiência hospedada aleatoriamente). Você pode estar nos estágios iniciais de avaliação do seu programa de personalização. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes terão uma experiência personalizada</li></ul> |
-| **Maximizar tráfego de personalização (90/10)**: Seu objetivo é criar uma atividade de personalização &quot;sempre ativada&quot; que maximiza a quantidade de tráfego personalizada. Você quer maximizar o aumento enquanto continua a ter um aumento de referência de controle para comparar. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
+| **Avaliar algoritmo de personalização (50/50)**: Se o objetivo for testar o algoritmo, use uma divisão de 50/5percent % de visitantes entre o controle e o algoritmo direcionado. Esta divisão fornece a estimativa mais precisa do aumento. Sugerimos usar com «experiências aleatórias» como seu controle. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes terão uma experiência personalizada</li></ul> |
+| **Maximizar tráfego de personalização (90/10)**: Se sua meta for criar uma atividade «sempre ativada», coloque 10% dos visitantes no controle para garantir que haja dados suficientes para que os algoritmos continuem a aprender com o tempo. Observe que a desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você terá menos precisão em saber qual é o aumento exato. Não importa sua meta, esta é a divisão de tráfego recomendada ao usar uma experiência específica como controle. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
 | **Alocação personalizada** | Divida manualmente a porcentagem conforme desejado. | <ul><li>Você pode não conseguir os resultados desejados. Se você não tiver certeza, siga as sugestões para qualquer uma das opções anteriores</li></ul> |
 
 Para ajustar a porcentagem de Controle, clique nos ícones na coluna Alocação. Você não pode diminuir o grupo de controle para menos de 10%.
 
 ![Alterar alocação de tráfego do Target automático](/help/c-activities/assets/auto-target-control.png)
+
+You can [select a specific experience to use as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or you can use the Random experience option.
 
 ## Quando você deve escolher o [!UICONTROL Direcionamento automático] em vez da Personalização automatizada? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -206,6 +208,14 @@ Não, deve haver pelo menos dois modelos construídos em sua atividade para que 
 **Quando posso ver os resultados da minha atividade de[!UICONTROL Direcionamento automático]?**
 
 Você pode começar a ver os resultados da sua atividade de [!UICONTROL Direcionamento automático] depois de ter pelo menos duas experiências com modelos construídos (marca de seleção verde) para a experiência que os modelos construíram.
+
+**Posso especificar uma experiência específica a ser usada como controle?**
+
+You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+
+Esse recurso permite direcionar todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado contra o controle do tráfego para aquela experiência.
+
+For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
