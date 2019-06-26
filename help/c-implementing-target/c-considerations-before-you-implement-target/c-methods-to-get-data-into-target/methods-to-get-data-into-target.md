@@ -8,8 +8,8 @@ subtopic: Introdução
 title: Métodos para colocar os dados no Target
 topic: Padrão
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -52,13 +52,13 @@ Os dados são enviados ao Target em tempo real, e podem ser usados na mesma cham
 
 * Precisa de atualização do código da página (diretamente ou por meio de um sistema de gerenciamento de tags).
 * Se os dados precisarem ser usados para direcionamento em uma chamada de página/servidor subsequente, eles precisam ser traduzidos para um script de perfil.
-* As sequências de consulta podem conter somente caracteres de acordo com a norma da [IETF (Internet Engineering Task Force) ](https://www.ietf.org/rfc/rfc3986.txt).
+* As sequências de caracteres podem conter somente os caracteres, conforme o padrão [Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
    Além dos mencionados no site do IETF, o Target permite os caracteres a seguir nas sequências de consulta:
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   O restante deve ser codificado em url. O padrão especifica o seguinte formato ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt)), como ilustrado abaixo:
+   O restante deve ser codificado em url. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ Documentação: [Provedores de dados](/help/c-implementing-target/c-implementing
 
 ### Vídeos de treinamento:
 
-* [Uso de provedores de dados do Adobe Target](https://helpx.adobe.com/br/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementar provedores de dados no Adobe Target](https://helpx.adobe.com/br/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Uso de provedores de dados do Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementação de provedores de dados no Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API de atualização de perfil em massa {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -270,7 +270,7 @@ Consulte [Atualização de perfis](https://developers.adobetarget.com/api/#updat
 
 ### Links para informações relevantes
 
-[Atualização de perfis](https://developers.adobetarget.com/api/#updating-profiles)
+[Atualizações de perfis](https://developers.adobetarget.com/api/#updating-profiles)
 
 ## API de atualização de perfil único {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
@@ -302,7 +302,7 @@ Suporte a GET e POST. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mbo
 
 ### Links para informações relevantes
 
-[Atualização de perfis](https://developers.adobetarget.com/api/#updating-profiles)
+[Atualizações de perfis](https://developers.adobetarget.com/api/#updating-profiles)
 
 ## Atributos do cliente {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
 
@@ -336,8 +336,8 @@ Requer a implementação da Experience Cloud ID (ECID).
 
 ### Exemplo de código
 
-Veja os detalhes em [Criar uma fonte de atributos do cliente e fazer o upload do arquivo de dados](https://marketing.adobe.com/resources/help/pt_br/mcloud/t_crs_usecase.html).
+Os detalhes podem ser encontrados em [Crie uma fonte de atributo do cliente e faça upload do arquivo de dados](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
 
 ### Links para informações relevantes
 
-[Crie uma fonte de atributo do cliente e faça upload do arquivo de dados](https://marketing.adobe.com/resources/help/pt_br/mcloud/t_crs_usecase.html)
+[Crie uma fonte de atributo do cliente e faça upload do arquivo de dados](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
