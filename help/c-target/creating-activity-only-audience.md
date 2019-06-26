@@ -8,25 +8,25 @@ title: Criar um público-alvo com apenas uma atividade
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Criar um público-alvo com apenas uma atividade{#create-an-activity-only-audience}
 
-Crie públicos-alvo somente de atividades dentro do fluxo de trabalho orientado de três etapas ao criar uma atividade. Esses públicos-alvo ad hoc podem ser usados em outros locais dentro da mesma atividade, mas não são armazenados na Biblioteca [!UICONTROL de públicos-alvo] para uso em outras atividades.
+Crie públicos-alvo somente de atividades dentro do fluxo de trabalho orientado de três etapas ao criar uma atividade. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
 
 Públicos-alvo somente atividade proporcionam os seguintes benefícios:
 
-* Você pode usar públicos-alvo somente de atividade para criar um público-alvo que deseja usar somente uma vez e não deseja armazená-lo na Biblioteca [!UICONTROL de públicos-alvo]. Isso impede que a Biblioteca [!UICONTROL de públicos-alvo] seja ajustada com públicos-alvo que você nunca deseja usar novamente.
-* Públicos-alvo somente de atividade não estão visíveis na Biblioteca [!UICONTROL de públicos-alvo]. Por conta disso, elas são protegidas contra alterações indesejada por outros em sua organização.
+* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
+* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Por conta disso, elas são protegidas contra alterações indesejada por outros em sua organização.
 
-1. Ao criar uma [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Target]** , clique nas três elipses verticais e clique **[!UICONTROL em Substituir público-alvo]**.
+1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![Resultado da etapa](assets/edit_audience.png)
 
-1. Na página [!UICONTROL Escolher público-alvo] , clique **[!UICONTROL em Público somente para atividade]**.
+1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ Públicos-alvo somente atividade proporcionam os seguintes benefícios:
 Tenha em mente as informações a seguir enquanto você trabalha com públicos somente-atividades:
 
 * É possível criar públicos-alvo somente atividade no Visual Experience Composer ou no Experience Composer baseado em formulário. Esta funcionalidade substitui regras de refinamento em versões anteriores do Target.
-* Você pode criar uma atividade para armazenar na Biblioteca [!UICONTROL de público-alvo] para reutilização em outras atividades ou criar um público-alvo somente para atividades. Depois de salvar o público-alvo, não é possível mudar o tipo de público-alvo.
+* You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. Depois de salvar o público-alvo, não é possível mudar o tipo de público-alvo.
 * Os refinamentos das atividades existentes são migrados para públicos-alvo somente atividade.
-* Os públicos-alvo somente de atividade têm um status [!UICONTROL de Usado] ou [!UICONTROL Não utilizado]. Públicos-alvo somente atividade não utilizados são exibidos até que a atividade seja salva. Se deixados não utilizados e você tentar salvar a atividade, uma mensagem de alerta é exibida informando que públicos-alvo somente atividade não utilizados serão excluídos.
+* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. Públicos-alvo somente atividade não utilizados são exibidos até que a atividade seja salva. Se deixados não utilizados e você tentar salvar a atividade, uma mensagem de alerta é exibida informando que públicos-alvo somente atividade não utilizados serão excluídos.
 * É possível ver os detalhes da definição de público-alvo em um cartão pop-up acessado do seletor de público-alvo sem abrir o público-alvo.
 * Você pode [combinar vários públicos](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar públicos somente atividade.
 
