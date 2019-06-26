@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/pt/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
          + [Visão geral de privacidade](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Privacidade e o Regulamento Geral sobre a Proteção de Dados (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Excluir o cookie do Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Políticas de cookie do Google Chrome para samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + Métodos para colocar os dados no Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configurações da API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -197,6 +198,7 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
       + [Experiências de visualização para um teste de personalização automatizado](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Ofertas de Personalização automatizada do Target](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gerenciar exclusões](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Selecione o controle da atividade de Personalização automatizada ou do Target automático](c-activities/t-automated-personalization/experience-as-control.md)
       + [Perguntas frequentes sobre a personalização automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Compartilhar URLs de experiências para visualização de Automated Personalization fora do Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Solução de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
