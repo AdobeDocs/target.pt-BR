@@ -7,8 +7,8 @@ solution: Target
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ A metodologia de contagem especifica o que o Target usa como denominador para as
 
 Para o relatório Atividades, os administradores podem alterar a métrica padrão para que, toda vez que executem o relatório, mostrem as mesmas métricas. Caso contrário, o relatório será padronizado com a última métrica aplicada ao seu último relatório.
 
-Para obter mais informações, consulte [Selecionar métrica de relatório padrão](https://marketing.adobe.com/resources/help/pt_BR/sc/user/t_metrics_set_default.html) no guia de *Ajuda da interface de Reports and Analytics*.
+Para mais informações, consulte [Selecionar métricas de relatório padrão](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) no guia *Ajuda da interface de Reports and Analytics*.
 
 ## Quando aplico um segmento à métrica (com uma métrica calculada) ao aplicar o segmento ao relatório? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -110,13 +110,13 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para geração de relatório do Target, porque você não está comparando a atividade com atividade do Target para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
-Para obter mais informações, consulte [Variáveis de conversão (eVar)](https://marketing.adobe.com/resources/help/pt_BR/reference/conversion_var_admin.html) na Ajuda do Analytics.
+Para obter mais informações, consulte [Variáveis de conversão (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) na ajuda do Analytics.
 
 ## Por que o Analytics e o Analytics for Target (A4T) calculam números para a métrica de visitantes únicos de maneira diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Quando você executa um teste A/B, que usa o teste t de Estudante (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que existe um horizonte de tempo fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho de amostra fixo.
 
-A métrica de visitantes únicos é diferente no Analytics e no Target apenas quando você está analisando um período de tempo menor do que o teste real. Se você não atingiu o tamanho da amostra, o teste não é tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no site de [Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
+A métrica de visitantes únicos é diferente no Analytics e no Target apenas quando você está analisando um período de tempo menor do que o teste real. Se você não atingiu o tamanho da amostra, o teste não é tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
 
 A métrica Visitantes únicos exibe o número de pessoas que foram expostas ao teste que visitaram o site durante o período especificado. Essas pessoas ainda fazem parte do teste e devem ser contadas. Se quiser ver apenas o número de pessoas que foram expostas durante uma única semana, você pode criar um segmento de visitantes que tiveram uma impressão de atividade e aplicá-lo ao relatório.
 
@@ -144,4 +144,4 @@ Como prática recomendada, você deve interromper a atividade existente e criar 
 
 É possível usar a [!DNL Adobe Analysis Workspace] para pesquisar mais e visualizar os dados ou descobrir insights ocultos nas entrelinhas.
 
-Para obter informações e exemplos detalhados, abra o [tutorial Analytics e Target: práticas recomendadas da Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pelo Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
