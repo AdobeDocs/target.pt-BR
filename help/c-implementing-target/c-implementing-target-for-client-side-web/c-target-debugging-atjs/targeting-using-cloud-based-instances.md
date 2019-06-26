@@ -6,8 +6,8 @@ seo-title: Usar instâncias baseadas em nuvem com o Target
 solution: Target
 title: Usar instâncias baseadas em nuvem com o Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Os clientes do, às vezes, usam instâncias baseadas em nuvem com o [!DNL Target
 
 `azurewebsites.net`, `cloudapp.net`, `amazonaws.com`, `cloudfront.net`, `herokuapp.com` ou `firebaseapp.com`
 
-Esses domínios e muitos outros fazem parte da [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
+Esses domínios e muitos outros fazem parte da [Lista de sufixos públicos](https://publicsuffix.org/list/public_suffix_list.dat).
 
 **Problema:** os navegadores modernos não salvam cookies, se você estiver usando esses domínios.
 
