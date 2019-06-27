@@ -8,7 +8,7 @@ title: Variâncias esperadas de dados ao não usar o A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -28,6 +28,10 @@ Estes são alguns cenários nos quais você pode experimentar a variação de da
    Se um teste de redirecionamento estiver configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25, etc.), o comportamento do usuário pode não ser dividido uniformemente. Caso veja uma divisão desigual, isso significa simplesmente que um grupo de usuários executou menos chamadas do Analytics na landing page do que os outros grupos. Essa falha na execução da chamada do Analytics para um grupo fez com que a ocorrência do Target para esse usuário fosse excluída, criando a desigualdade.
 
    Esperamos abordar isso no futuro, à medida que trabalhamos com o A4T na Adobe Experience Platform. Nossas equipes estão trabalhando em como lidar da melhor maneira com esses diferentes eventos em momentos distintos na página.
+
+   >[!NOTE]
+   >
+   >Uma saída de problema conhecida que está fazendo com que um número limitado de clientes use redirecionamentos com A 4 T para ver uma porcentagem maior das taxas de ocorrência não empilhadas. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Suponha que você crie uma atividade de Alocação automática aberta a todos os visitantes para uma página específica. Já que as atividades de Alocação automática não são compatíveis com o A4T, todos os dados da atividade são coletados pelo [!DNL Target]. Você pode esperar que os visitantes da atividade no relatório [!DNL Target] correspondam aos visitantes dessa página nos relatórios [!DNL Analytics] para o mesmo intervalo de datas. Este é um cenário no qual a variância descrita abaixo é esperada.
 
