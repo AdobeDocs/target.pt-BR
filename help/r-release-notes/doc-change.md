@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -21,7 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-|  | [Problemas conhecidos e solução de variações](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[de dados issuesexpted entre o Target e o Analytics ao usar e não usar a 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[ofertas-A 4 T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Foram adicionadas informações sobre um problema conhecido que está fazendo com que um número limitado de clientes use redirecionamentos com A 4 T para ver uma porcentagem maior das taxas de ocorrência não empilhadas. |
+| 8 de julho de 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Foram adicionadas informações explicando por que você deve usar CNAME. |
+| 28 de junho de 2019 | [Problemas conhecidos e solução de variações](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[de dados issuesexpted entre o Target e o Analytics ao usar e não usar a 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[ofertas-A 4 T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Foram adicionadas informações sobre um problema conhecido que está fazendo com que um número limitado de clientes use redirecionamentos com A 4 T para ver uma porcentagem maior das taxas de ocorrência não empilhadas. |
 | 26 de junho de 2019 | [Opções de experiência visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
