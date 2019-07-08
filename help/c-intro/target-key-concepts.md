@@ -9,7 +9,7 @@ title: Conceitos-chave do Target
 topic: Padrão
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -98,11 +98,11 @@ Por exemplo, talvez você queira direcionar uma atividade a um público-alvo con
 
 Ou sua atividade deve ser direcionada aos visitantes de uma região geográfica ou a pessoas que acessam sua página usando determinado mecanismo de busca.
 
-É possível salvar os públicos para reutilização em várias atividades ou eles podem ser criados para uma campanha específica.
+Os públicos-alvo podem ser salvos para reutilização em várias atividades, ou podem ser criados para uma atividade específica.
 
 | Tipo de público-alvo | Descrição |
 |--- |--- |
-| Públicos-alvo reutilizáveis | Os públicos-alvo reutilizáveis podem ser selecionados para qualquer teste. A mudança de um desses públicos-alvo é refletida para todas as atividades que o utilizam. |
+| Públicos-alvo reutilizáveis | Públicos-alvo reutilizáveis podem ser selecionados para qualquer atividade. A mudança de um desses públicos-alvo é refletida para todas as atividades que o utilizam. |
 | Segmentos personalizados | Segmentos personalizados (conhecidos também como segmentos específicos de campanha) são específicos de uma campanha no Target Classic. Eles são criados como parte da campanha e não podem ser reutilizados em outras campanhas. |
 | Públicos-alvo compartilhados | Os públicos-alvo podem ser compartilhados nas soluções [!DNL Adobe Experience Cloud]. Consulte [Públicos-alvo da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) para obter exemplos. |
 
