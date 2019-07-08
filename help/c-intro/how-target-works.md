@@ -9,7 +9,7 @@ title: Funcionamento do Adobe Target
 topic: Padrão
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
 
 ---
 
@@ -20,7 +20,7 @@ Informações sobre como o Adobe Target funciona, incluindo as bibliotecas de Ja
 
 ## Bibliotecas de JavaScript do Target {#libraries}
 
-O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript. at.js ou mbox.js
+O Adobe Target é integrado com sites por meio de uma de duas bibliotecas javascript: at. js ou mbox. js
 
 * **at.js:** A biblioteca [da at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a [última versão da at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** a mbox.js é a biblioteca de implementação herdada para o Target. A biblioteca mbox.js ainda é suportada, mas não receberá atualizações.
@@ -29,13 +29,13 @@ O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScr
 >
 >Todos os clientes devem migrar para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Você deve consultar um dos arquivos do JavaScript do Target em todas as páginas do site. Você pode adicioná-la ao título global, por exemplo.
+Você deve fazer referência ao arquivo da biblioteca do javascript do Target em todas as páginas do site. Você pode adicioná-la ao título global, por exemplo. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-Cada vez em que um visitante solicita uma página que foi otimizada para o Target, uma solicitação será enviada para o sistema de direcionamento para determinar qual conteúdo será enviado a um visitante. Esse processo ocorre em tempo real. Toda vez em que uma página for carregada, uma solicitação para o conteúdo será feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é enviado para todo visitante do site com maior probabilidade de responder, interagir e comprar, maximizando as taxas de resposta e de aquisição e a receita.
+Cada vez em que um visitante solicita uma página que foi otimizada para o Target, uma solicitação será enviada para o sistema de direcionamento para determinar qual conteúdo será enviado a um visitante. Esse processo ocorre em tempo real— toda vez que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é enviado para todo visitante do site com maior probabilidade de responder, interagir e comprar, maximizando as taxas de resposta e de aquisição e a receita.
 
-No Target, cada elemento na página faz parte de uma única experiência para toda a página. Cada experiência inclui vários elementos na página. Uma página é otimizada com uma única linha de código no `<head>` de cada página que você deseja rastrear.
+No Target, cada elemento na página faz parte de uma única experiência para toda a página. Cada experiência pode incluir vários elementos na página.
 
-O conteúdo exibido para os visitantes depende do tipo de atividade que você cria:
+O conteúdo exibido aos visitantes depende do tipo de atividade que você cria:
 
 ### Teste A/B
 
@@ -48,7 +48,7 @@ O conteúdo que exibe um teste A/B básico é escolhido aleatoriamente entre os 
 1. Um cliente solicita uma página do seu servidor e ela é exibida no navegador.
 2. Um cookie próprio é configurado no navegador do cliente para armazenar o comportamento do cliente.
 3. A página chama o sistema de direcionamento.
-4. O conteúdo é exibido com base nas regras da sua campanha.
+4. O conteúdo é exibido com base nas regras de sua atividade.
 
 ### Alocação automática
 
@@ -60,7 +60,7 @@ A Alocação automática identifica um vencedor entre duas ou mais experiências
 
 Consulte [Direcionamento automático](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) para obter mais informações.
 
-O Direcionamento automático usa aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.
+O Target automático usa aprendizado avançado de máquina para selecionar várias experiências com grande desempenho de profissional de marketing, além de servir a experiência mais adaptada para cada visitante com base no perfil individual do cliente e no comportamento dos visitantes anteriores com perfis similares, para personalizar o conteúdo e gerar conversões.
 
 ### Personalização automatizada (AP)
 
@@ -92,7 +92,7 @@ As atividades do Recommendations exibem automaticamente produtos ou conteúdo qu
 
 &quot;Edge&quot; é uma arquitetura de fornecimento distribuída geograficamente que assegura tempos de resposta ideais para usuários finais que solicitem o conteúdo, independentemente de onde estejam localizados ao redor do mundo.
 
-Para aprimorar os tempos de resposta, os ambientes do Edge abrigam somente a lógica de atividade, o perfil em cache e informações de ofertas. Bancos de dados de atividade e conteúdo, [!DNL Analytics] dados, APIs e interfaces de usuário dos profissionais de marketing são abrigados nos ambientes de dados centrais da Adobe. As atualizações são enviadas para os nós da borda. Os ambientes centrais e nós do Edge são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. Como a modelagem 1:1 também é armazenada em cada borda, as solicitações mais complexas também podem permanecer no Edge.
+Para melhorar os tempos de resposta, os ambientes do Edge hospedam somente a lógica de atividade e o perfil em cache e as informações da oferta. Bancos de dados de atividade e conteúdo, [!DNL Analytics] dados, APIs e interfaces de usuário dos profissionais de marketing são abrigados nos ambientes de dados centrais da Adobe. As atualizações são enviadas para os nós da borda. Os ambientes centrais e os nós do Edge são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. A modelagem 1:1 também é armazenada em cada borda, portanto, essas solicitações mais complexas também podem ser processadas no Edge.
 
 Cada nó de Edge possui todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise da solicitação. As solicitações do usuário são roteadas para o nó de Edge mais próximo.
 
@@ -102,21 +102,19 @@ Os principais locais do Edge contém um centro de coleta de dados e um centro de
 
 A Adobe possui atualmente data centers em vários continentes, incluindo vários locais regionais na América do Norte, Europa e Ásia.
 
-Em vez de responder a todas as solicitações de direcionamento a partir de um único local, as solicitações do ambiente do Edge mais próximas do ponto de solicitação reduzem o impacto do tempo de deslocamento da Internet/rede.
-
-A rede também atua como um mecanismo contra falhas. Se um nó da borda não estiver funcionando, a solicitação será redirecionada para nó mais próximo que vier a seguir para assegurar que o usuário não receba o conteúdo padrão (uma resposta de backup típica quando não é possível concluir uma solicitação).
+Em vez de responder a todas as solicitações de direcionamento a partir de um único local, as solicitações são processadas pelo ambiente do Edge mais próximas do visitante, reduzindo o impacto do tempo de deslocamento da Internet/rede.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
+>[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
 
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 A Adobe assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um usuário final e os servidores da Adobe pode causar uma interrupção na entrega de conteúdo.
 
-Como proteção contra interrupções do serviço e problemas de conectividade, todos os locais são configurados para incluir o conteúdo padrão (definido pelo cliente), que é revelado se não for possível conectar o navegador do usuário ao [!DNL Target].
+To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
 
-Nenhuma alteração será feita na página se o navegador do usuário não puder se conectar em um período de tempo limite definido (por padrão, 15 segundos). Se esse tempo limite for atingido, uma configuração será alterada no cookie e o usuário visualizará imediatamente o conteúdo padrão de todos os outros locais. Esse estado dura 30 minutos. Depois, o navegador do usuário tentará novamente entrar em contato com os servidores da Adobe para fazer solicitações de conteúdo.
+Nenhuma alteração será feita na página se o navegador do usuário não conseguir se conectar dentro de um período limite definido (por padrão: 15 segundos). Se esse tempo limite for atingido, o conteúdo padrão do local será exibido.
 
 A Adobe protege a experiência do usuário por otimizar e salvaguardar o desempenho.
 
@@ -160,7 +158,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para os mecanismos de pesquisa e nunca tiver sido concebida para classificar em pesquisa orgânica inicialmente, nenhuma das considerações acima é aplicável.
 
-A Google declara que seguir essas diretrizes &quot;deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa&quot;.
+O Google afirma que a seguir essas orientações &quot;deve resultar em seus testes com pouca ou nenhuma impacto no site nos resultados da pesquisa&quot;.
 
 Além dessas diretrizes, a Google também fornece mais uma diretriz na documentação de sua ferramenta de Experiências com Conteúdo:
 
