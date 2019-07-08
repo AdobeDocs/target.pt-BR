@@ -1,13 +1,13 @@
 ---
-description: Definição de termos.
+description: Definições de termos usados no Adobe Target.
 seo-description: Definição de termos.
-seo-title: Glossário
+seo-title: Glossário do Adobe Target
 solution: Target
 title: Glossário
 topic: Padrão
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -228,7 +228,7 @@ Uma área de conteúdo específico em uma página, normalmente, contido por um e
 
 **mbox**
 
-&quot; Marketing box &quot;, o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
+&quot;Marketing box&quot;, o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
 
 **mbox.js**
 
@@ -309,10 +309,6 @@ Um filtro de relatório que exibe relatórios relacionados a um segmento especí
 **aplicativo de página única**
 
 Um aplicativo de página única (SPA) é um aplicativo da Web ou site que se ajusta em uma única página da Web para fornecer uma experiência de usuário mais fluida, semelhante a um aplicativo de desktop.
-
-**parâmetro do perfil do direcionador inteligente**
-
-Semelhante ao parâmetro do perfil de script, porém predefinido para oferecer uma funcionalidade útil de direcionamento.
 
 **métricas de sucesso**
 
