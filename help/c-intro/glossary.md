@@ -7,7 +7,7 @@ title: Glossário
 topic: Padrão
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -29,6 +29,10 @@ Painel que exibe uma breve visão geral das atividades.
 **ilegal**
 
 Permite testar designs de páginas e conteúdo direcionado para públicos-alvo específicos.
+
+**log de alterações da atividade**
+
+Um registro de quem alterou suas atividades e quando as alterações ocorreram.
 
 **conflito de atividade**
 
@@ -72,15 +76,11 @@ Testa e acompanha visita para anúncios e outros conteúdos de deslocamento. Tam
 
 **campaign**
 
-Testa diferentes experiências para determinar qual será mais bem-sucedida.
-
-**log de alterações da campanha**
-
-Um registro de quem alterou suas campanhas e de quando as alterações ocorreram.
+Igual a &quot;atividade&quot;
 
 **pontuação de captura**
 
-Uma métrica de envolvimento que calcula a pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox da campanha.
+Uma métrica de envolvimento que calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox de exibição da atividade.
 
 **catálogo**
 
@@ -104,7 +104,7 @@ O texto ou a imagem que compõe uma variação de teste em uma localização. Em
 
 **mbox de conversão**
 
-Registra os resultados do teste ou da campanha, como registros, pedidos ou vendas. Normalmente, uma mbox de conversão não exibe nada, somente atua como ouvinte. Locais comuns para a mbox de conversão são páginas de finalização, agradecimento ou um click-through. Você também pode utilizar uma mbox global para calcular métricas de conversão.
+Registra os resultados do teste ou da atividade, como registros, pedidos ou vendas. Normalmente, uma mbox de conversão não exibe nada, somente atua como ouvinte. Locais comuns para a mbox de conversão são páginas de finalização, agradecimento ou um click-through. Você também pode utilizar uma mbox global para calcular métricas de conversão.
 
 **critérios**
 
@@ -124,21 +124,17 @@ Gerenciador de Ativo Digital. A biblioteca que contém itens a serem usados como
 
 HTML habilitado para modelo que exibe seus itens recomendados para a página da Web. Um design define a aparência das recomendações em uma atividade do Recommendations.
 
-**campanha de publicidade**
-
-Usada para realização de testes de anúncios Flash fora do site.
-
 **duração**
 
 O tempo durante o qual uma atividade é executada, da data e hora de início até a data e hora de término.
 
 **conteúdo dinâmico**
 
-Pode fazer parte de qualquer tipo de teste ou campanha. Não é necessário programação adicional. A sessão do visitante em seu domínio é preservada.
+Pode fazer parte de qualquer tipo de teste ou atividade. Não é necessário programação adicional. A sessão do visitante em seu domínio é preservada.
 
 **mbox dinâmica**
 
-Permite que aplicativos RIA (Rich Internet Applications) manipulem o HTML após a página já ter sido carregada usando tecnologias como DHTML e AJAX.
+Permite que os RIA (Rich Internet Applications) manipulem o HTML após a página já ter sido carregada, usando tecnologias como DHTML e AJAX.
 
 **oferta dinâmica**
 
@@ -146,9 +142,9 @@ Utiliza tecnologia de página dinâmica para enviar valores à oferta.
 
 ## E {#section_55C3D8AF3D31494784C70090D8343244}
 
-**envolvimento**
+**engagement**
 
-A medida de interesse dos visitantes em um site que avalia o tempo no site, os cliques, as conversões e outras métricas de envolvimento.
+A medida do interesse de um visitante em um site, medida por tempo no site, cliques, conversões e outras métricas de envolvimento.
 
 **enhanced experience composer**
 
@@ -184,19 +180,11 @@ O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo espec
 
 Oferece métodos para se obter informações do produto ou do conteúdo em suas recomendações.
 
-**campanha em flash**
-
-Usada para realização de testes em Flash no site.
-
-**Flashbox**
-
-Retorna os elementos de conteúdo para um arquivo Flash.
-
 **diagrama de fluxo**
 
 A representação visual de uma atividade no Target Standard.
 
-**Experience Composer baseado em formulário
+**Experience Composer baseado em formulário**
 
 Uma experiência não visual e uma interface de criação de ofertas útil na criação de experiências para uso em testes A/B, atividades de direcionamento de experiência, personalização automatizada e atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou prático para uso. Por exemplo, você pode usar o compositor baseado em forma para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
@@ -204,7 +192,7 @@ Uma experiência não visual e uma interface de criação de ofertas útil na cr
 
 **parâmetro de localização geográfica**
 
-Permite direcionar campanhas e experiências com base na localização geográfica de seus visitantes. Também conhecido como parâmetro geolocalização.
+Permite direcionar atividades e experiências com base na localização geográfica dos visitantes. Também conhecido como parâmetro geolocalização.
 
 **meta**
 
@@ -228,9 +216,9 @@ Parâmetro específico do visitante enviado ao respectivo cookie pela mbox. Visi
 
 ## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
-**campanha de página de aterrissagem**
+**atividade de página de aterrissagem**
 
-Permite usar a segmentação para exibir diferentes conteúdos de página de aterrissagem para diversas visitas. Caso contrário, a página de aterrissagem mostrará o mesmo conteúdo para cada visita. Uma campanha de página de aterrissagem compara diferentes versões da página para ajudá-lo a ver qual versão da página de aterrissagem produz resultados mais eficazes. No Target Standard, substituída pelo *direcionamento de experiência*.
+Uma atividade de página de aterrissagem permite que você use o direcionamento para exibir diferentes conteúdos da página de aterrissagem para diferentes visitas. Caso contrário, a página de aterrissagem mostrará o mesmo conteúdo para cada visita. Uma atividade de página de aterrissagem compara diferentes versões da página para ajudá-lo a ver qual versão da página de aterrissagem produz resultados mais bem sucedidos. No Target Standard, substituída pelo *direcionamento de experiência*.
 
 **localização**
 
@@ -240,7 +228,7 @@ Uma área de conteúdo específico em uma página, normalmente, contido por um e
 
 **mbox**
 
-&quot;Marketing box&quot;, o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
+&quot; Marketing box &quot;, o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
 
 **mbox.js**
 
@@ -248,11 +236,7 @@ Antes do 16.3.1, o [!DNL Target] exigia uma chamada à [!DNL mbox.js] para criar
 
 **parâmetro da mbox**
 
-Transmitido na página, não no URL. Renderizados exclusivamente para cada visitante, eles são utilizados para enviar dados a partir de seu banco de dados e rastrear os dados de vendas ou executar o Adobe Recommendations. Também conhecido como parâmetro de página.
-
-**campanha de monitoramento** associada
-
-Acompanha, ao longo do tempo, o desempenho de uma conversão, uma métrica de sucesso ou um segmento, independentemente das campanhas e dos testes feitos.
+Transmitido na página, não no URL. Os parâmetros são usados para transmitir dados do banco de dados e rastrear os dados de vendas ou executar o Adobe Recommendations. Também conhecido como parâmetro de página.
 
 **teste multivariado**
 
@@ -266,21 +250,17 @@ Um campo de atividade em que você insere uma descrição do que gostaria de apr
 
 **oferta**
 
-Uma oferta é o conteúdo exibido em uma mbox durante campanhas e testes. Uma experiência determina que oferta será exibida quando condições específicas forem cumpridas.
+Uma oferta é o conteúdo exibido em uma mbox durante atividades e testes. Uma experiência determina que oferta será exibida quando condições específicas forem cumpridas.
 
 **link para opção de não participação**
 
-Permite que os visitantes optem por não participar de nenhuma contagem ou entrega de conteúdo.
-
-**campanha de otimização**
-
-Garante que as experiências mais eficazes sejam exibidas com mais frequência, distribuindo automaticamente o tráfego para os segmentos com melhor desempenho.
+Permite que os visitantes optem por não participar de todo o rastreamento e entrega de conteúdo.
 
 ## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **contagem de página**
 
-Uma métrica de envolvimento que mede o número de páginas visualizadas em uma visita a partir do momento em que o visitante exibe a primeira mbox da campanha.
+Uma métrica de envolvimento que mede o número de páginas vistas em uma visita a partir do momento em que o visitante exibe a primeira mbox da atividade.
 
 **prioridade**
 
@@ -298,7 +278,7 @@ Redireciona o visitante para uma página da Web diferente. Use este Redirecionad
 
 **parâmetro de URL de referência**
 
-Envia os valores à mbox da página de destino como valores e parâmetros de URL de referência. Utilize-os para definir metas para a origem do visitante, por exemplo.
+Envia os valores à mbox da página de destino como valores e parâmetros de URL de referência. Utilize-os para definir como meta a origem do visitante, por exemplo.
 
 **função**
 
@@ -310,17 +290,17 @@ Para hospedar conteúdo fora do [!DNL Target], use ofertas remotas, que o [!DNL 
 
 **relatórios**
 
-Os relatórios fornecem informações sobre o progresso e os resultados de suas atividades que ajudam a tomar decisões com base em seus dados. Os dados do relatório podem ajudá-lo a decidir quando finalizar um teste, mostrar qual experiência da oferta é o vencedor e fornecer insights ou aprendizados necessários para determinar as próximas ações.
+Os relatórios fornecem informações sobre o progresso e os resultados de suas atividades que ajudam a tomar decisões com base em seus dados. Os dados do relatório podem ajudá-lo a decidir quando finalizar um teste, mostrar qual experiência ou oferta é o vencedor e fornecer insights necessários para determinar as próximas ações.
 
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **parâmetro do perfil de script**
 
-Semelhante ao parâmetro do perfil da in-mbox, porém definido com JavaScript no próprio Target em vez de no código de página.
+Semelhante ao parâmetro de perfil in-mbox, mas definido com javascript que é executado no backend do Target, em vez do navegador.
 
 **segmento**
 
-Um conjunto específico de critérios usado para direcionar uma campanha. Apenas os visitantes que atendem aos critérios podem ver o conteúdo de uma campanha direcionada a determinado segmento. Alguns segmentos podem ser reutilizados em diversas campanhas, e outros são específicos de uma campanha.
+Um conjunto especificado de critérios usados para direcionar uma atividade. Somente os visitantes que atendem aos critérios veem o conteúdo de uma atividade direcionada para esse segmento. Alguns segmentos podem ser reutilizados em várias atividades e outros são específicos de uma atividade.
 
 **filtro de segmento**
 
@@ -328,7 +308,7 @@ Um filtro de relatório que exibe relatórios relacionados a um segmento especí
 
 **aplicativo de página única**
 
-Um aplicativo de página única (SPA) é um aplicativo ou site da Web que cabe em uma única página da Web para fornecer uma experiência do usuário mais fluida, semelhante a um aplicativo de desktop.
+Um aplicativo de página única (SPA) é um aplicativo da Web ou site que se ajusta em uma única página da Web para fornecer uma experiência de usuário mais fluida, semelhante a um aplicativo de desktop.
 
 **parâmetro do perfil do direcionador inteligente**
 
@@ -336,33 +316,33 @@ Semelhante ao parâmetro do perfil de script, porém predefinido para oferecer u
 
 **métricas de sucesso**
 
-Os parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta aumenta sua receita por visitante ou adiciona um item ao carrinho de compras. As métricas de sucesso podem ser úteis para descobrir problemas com registro, pedidos ou funis de compra, mas simplesmente com envolvimento de visitante ou cliente.
+Os parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta ou adicionar um item a um carrinho de compras aumenta sua receita por visitante. As métricas de sucesso podem ser úteis para descobrir problemas com registro, pedidos ou funis de compra, mas simplesmente com envolvimento de visitante ou cliente.
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **teste**
 
-Uma campanha que compara duas ou mais experiências em relação às métricas de sucesso especificadas para que você possa escolher a experiência mais provável de oferecer os resultados desejados.
+Uma atividade que compara duas ou mais experiências em relação às métricas de sucesso que você especificar, para que você possa escolher a experiência daquela com maior probabilidade de fornecer os resultados desejados.
 
 **tempo no site**
 
-Um tipo de envolvimento que representa o tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira mbox de exibição da campanha até o carregamento da página final na sessão com uma mbox.
+Um tipo de envolvimento que representa o tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira mbox de exibição da atividade até o carregamento da página final em uma sessão com uma mbox.
 
 ## U {#section_6407B81326FF43049D92265746E6C402}
 
 **Parâmetros de URL**
 
-Todas as página de referência de URL e variáveis de página são automaticamente enviadas para a mbox, sempre que a página com a mbox é visualizada por qualquer visitante. Essas variáveis de URL ficam disponíveis para definição de metas de exibição ou filtros de segmento em relatórios.
+Todas as página de referência de URL e variáveis de página são automaticamente enviadas para a mbox, sempre que a página com a mbox é visualizada por qualquer visitante. Essas variáveis de URL ficam disponíveis para uso por meio de definição de metas de exibição ou filtros de segmento nos relatórios.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visitante**
 
-Um visitante é qualquer pessoa que acessa seu site. Um visitante é avaliado em relação aos critérios da atividade para determinar se deve ser incluído nela. Consulte *novato*.
+Um visitante é qualquer pessoa que acessa seu site. Um visitante é avaliado em relação aos critérios da atividade para determinar se o visitante está incluído em uma atividade. Consulte *novato*.
 
 **Visual Experience Composer**
 
-No Target Standard, uma interface de usuário WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta) ou da página da Web móvel.
+No Target Standard, uma interface de usuário WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta).
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
