@@ -6,7 +6,7 @@ seo-title: Implementação do Target usando o Adobe Launch
 title: Implementação do Target usando o Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,8 +24,8 @@ A tabela a seguir lista as diversas fontes em que você pode obter mais informa�
 | Recurso | Detalhes |
 |--- |--- |
 | [Implementação do Target usando o Tutorial de extensão do Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Esse tutorial fornece instruções passo a passo para implementar o Adobe Target em um site com o Launch. Os tópicos incluem a adição da biblioteca do JavaScript at.js, o acionamento da mbox global, a adição de parâmetros e a integração com outras soluções. Este artigo faz parte de um tutorial maior que mostra como implementar o Adobe Launch, bem como as outras soluções da Adobe Experience Cloud. |
-| [Documentação do Adobe Launch](https://docs.adobelaunch.com/getting-started) | Informações sobre implementação e gerenciamento de todas as análises, marketing e marcas de anúncio para aprimorar experiências de cliente relevantes. |
-| [Documentação de extensão do Adobe Target](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension) | Informações sobre como implementar o Target utilizando o Launch. |
+| [Documentação do Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informações sobre implementação e gerenciamento de todas as análises, marketing e marcas de anúncio para aprimorar experiências de cliente relevantes. |
+| [Documentação de extensão do Adobe Target](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informações sobre como implementar o Target utilizando o Launch. |
 
 ## Vantagens de implementar o at.js utilizando a extensão Launch do Target {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
