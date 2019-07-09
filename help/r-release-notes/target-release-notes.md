@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
+source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 Estas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para as versões mais recentes ou que serão lançadas em breve do [!DNL Adobe Target].
 
-**Última atualização: 25 de junho de 2019**
+**Última atualização: 9 de julho de 2019**
 
 >[!NOTE]
 >
@@ -25,18 +25,15 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 19.6.1 (26 de junho de 2019) {#tgt-19-6-1}
+## Target Standard/Premium 19.7.1 (23 de julho de 2019) {#tgt-19-7-1}
 
 Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Recurso / Aprimoramento | Descrição |
 | --- | --- |
-| Visual Experience Composer (VEC) | **Novas opções de menu VEC**: Quando você clica em um elemento de página no VEC, um menu mostra as opções disponíveis para esse tipo de elemento.<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Melhorias no rastreamento de cliques**: Melhoramos o processo para configurar o rastreamento de cliques no VEC e no VEC de aplicativos de página única (SPA).<ul><li>Ao selecionar elementos a serem usados no rastreamento de cliques, os nomes de todos os elementos disponíveis são exibidos no painel Modificações do lado direito, facilitando a seleção dos elementos desejados.</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. Você pode passar o mouse sobre esse número para ver os nomes de todos os elementos selecionados. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| Aplicativo de página única no Visual Experience Composer (SPA VEC) | **Fluxo de trabalho guiado**: Um novo fluxo de trabalho guiado ajuda você a entender como as configurações da regra de entrega de página devem ser configuradas para executar e executar uma atividade com sucesso para seu Aplicativo de página única. (TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Clonar modificações**: Agora é possível definir uma modificação usando o SPA VEC e clonar a modificação para uso em outras exibições no aplicativo de página única. (TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| Mobile Visual Experience Composer | **Várias versões do aplicativo**: Agora você pode criar atividades para várias versões do seu aplicativo móvel. Isso economiza tempo e esforço quando as versões são semelhantes e você não precisa alterar significativamente a interface do usuário do aplicativo. (TGT-34231)<br>See &quot;Manage multiple app versions&quot; in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![Selo](/help/assets/premium.png) Premium personalização automatizada (AP) e auto-direcionamento | **Experiência específica como controle**: Você pode selecionar uma experiência a ser usada como controle ao criar uma atividade AP ou Auto-Target. Esse recurso permite direcionar todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado contra o controle do tráfego para aquela experiência. A opção de controle atual (experiências aleatoriamente enviadas) continuará disponível. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**Relatórios de insights de personalização**: A nomenclatura amigável para atributos quando um visitante vê um conteúdo específico em um local específico fornece informações mais relevantes. (TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![Recommendations Premium](/help/assets/premium.png) - Recommendations | Você pode usar a opção Recomendar itens comprados anteriormente ao criar a lógica de Itens visualizados recentemente. (TGT-34030)<br>Para obter mais informações, consulte [Itens visualizados recentemente](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) em &quot;Criar critérios&quot;. |
-| Políticas de cookie do Google Chrome para samesite | O Google anunciou recentemente que a partir do Chrome 76, que é slida para a versão de July 0 de julho de 20 19, os desenvolvedores devem especificar explicitamente quais cookies podem funcionar entre sites e quais cookies podem acompanhar os usuários.<br>Conforme o setor faz strides para criar uma Web mais segura para os consumidores, o Target tem o absoluto compromisso de fornecer experiências personalizadas durante a reunião e exceder as expectativas de privacidade dos visitantes.<br>Consulte [Políticas de cookie do Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+| Visual Experience Composer (VEC) | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**: É possível substituir uma imagem por HTML para fornecer controle total do elemento sem precisar selecionar o elemento pai para acessar a opção HTML.</li><li>**Fragmento de experiência**: Você pode substituir uma imagem por um fragmento [de experiência do Adobe Experience Manager (AEM)](/help/c-experiences/c-manage-content/aem-experience-fragments.md) para inserir rapidamente elementos criados no AEM nas atividades do Target.</li></ul>(TGT-34097) |
+| Aplicativo para dispositivos móveis do Visual Experience Composer | Um novo painel Modificações é exibido no VEC do aplicativo móvel que exibe os elementos configurados para rastreamento de cliques. (TGT-31741) |
+| ![Selo Premium](/help/assets/premium.png) Recommendations em atividades de teste A/B e direcionamento de experiência (XT) | O status da oferta do Recommendations (algoritmo) é exibido na página Visão geral das atividades de teste A/B e XT que contêm ofertas do Recommendations. Os status incluem: Resultados prontos, Resultados não prontos e Falha do feed. (TGT-33649) |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
