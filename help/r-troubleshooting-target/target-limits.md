@@ -8,7 +8,7 @@ title: Limites
 topic: Padrão
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8038b4758e9ce72ff8e43e7427c273aeed734288
 
 ---
 
@@ -17,9 +17,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 As informações sobre os limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
 
-Os limites relacionados abaixo são limites recomendados. Quando esses limites são atingidos ou ultrapassados, o desempenho pode diminuir. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
+>[!NOTE]
+>
+>Os limites listados abaixo devem ser considerados limites &quot;rígidos&quot;, a menos que especificados como &quot;recomendado&quot;.
+>
+>Quando os limites designados como &quot;recomendado&quot; forem atingidos ou ultrapassados, o desempenho poderá ficar lento. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
+>
+>Atividades altamente complexas devem ser analisadas com a Consultoria da Adobe e testadas em um ambiente restrito antes de serem liberadas para produção.
 
-Atividades altamente complexas devem ser analisadas com a Consultoria da Adobe e testadas em um ambiente restrito antes de serem liberadas para produção.
+## Atividades
+
+**Limite recomendado**: 10,000 atividades ativas ativas.
+
+**Limite recomendado**: Activ0,000 ativos salvos (e não finalizados) ativos.
 
 ## Nomes de atividade
 
@@ -30,6 +40,10 @@ Atividades altamente complexas devem ser analisadas com a Consultoria da Adobe e
 **Limite**: 256 caracteres.
 
 Valores maiores que 256 caracteres são truncados.
+
+## Públicos-alvo
+
+**Limite**: 50 públicos-alvo por mbox, métrica ou experiência.
 
 ## parâmetro categoryId
 
@@ -50,7 +64,7 @@ Valores maiores que 256 caracteres são truncados.
 * 15.000 caracteres (idiomas de valor único, de um e dois bytes)
 * 500 valores, 100 caracteres por valor (vários valores)
 
-O tamanho máximo dos atributos personalizados da entidade de valor único é de 15.000 caracteres (para idiomas codificados de um e dois bytes UTF -8, como inglês e outros alfabetos de script latinos) ou 10.000 caracteres (para idiomas codificados em três bytes, como chinês, japonês e coreano).
+O tamanho máximo dos atributos personalizados de entidade única tem 15,000 caracteres (para idiomas codificados de um byte e dois bytes, como inglês e outros alfabetos de script latinos) ou 10,000 caracteres (para idiomas codificados em três bytes, como chinês, japonês e coreano).
 
 Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
@@ -67,6 +81,12 @@ Para solicitações GET, embora o limite no back end seja de 5 KB, devido ao lim
 ## Nomes de experiência
 
 **Limite**: 20 caracteres.
+
+## Experiências por atividade
+
+**Limite**: 2,000 experiências por segmentação de experiência (XT), teste A/B, teste multivariado (MVT) e atividade do Target automaticamente.
+
+30,000 experiências por atividade de personalização automatizada (AP).
 
 ## Valor do atributo de perfil da in-mbox
 
@@ -128,17 +148,17 @@ Se estiver usando uma mbox global, o limite será para todo o conjunto de conte�
 
 &quot;O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página.&quot;
 
+## Ofertas
+
+**Limite recomendado**: 50,000 ofertas totais.
+
 ## parâmetro orderId
 
-**Limite**: 120 caracteres.
-
-Limite recomendado.
+**Limite recomendado**: 120 caracteres.
 
 ## parâmetro orderTotal
 
-**Limite**: 120 caracteres.
-
-Limite recomendado.
+**Limite recomendado**: 120 caracteres.
 
 ## parâmetro productPurchasedId
 
@@ -146,17 +166,31 @@ Limite recomendado.
 
 Qualquer valor maior será truncado pelo sistema.
 
+## Scripts de perfil
+
+**Limite recomendado**: 300 scripts de perfil ativos.
+
+**Limite recomendado**: Número máximo de 500,000 loops por script de perfil.
+
+## Propriedades
+
+**Limite recomendado**: 5,000 propriedades.
+
+## Reportar públicos-alvo/segmentos
+
+**Limite**: 50 públicos-alvo de relatório/segmentos por atividade.
+
 ## Contas/públicos-alvo reutilizáveis
 
-**Limite**: 75 públicos-alvo.
+**Limite recomendado**: 75 públicos-alvo.
 
-Limite recomendado. Os limites de tempo do JavaScript ocorrem na interface caso você tenha limites demais.
+Os limites de tempo do JavaScript ocorrem na interface caso você tenha limites demais.
 
 ## Caixa de entrada do perfil de script na interface do usuário do Target
 
-**Limite**: 2.000 caracteres.
+**Limite recomendado**: 2,000 caracteres.
 
-Limite recomendado. Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no Adobe Target.
+Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no Adobe Target.
 
 ## Nomes de perfil de script
 
@@ -172,8 +206,20 @@ Para um valor de retorno de Sequência de caracteres, se o tamanho do valor de r
 
 Para um valor de retorno de matriz, se o tamanho dos valores concatenados da matriz exceder 2.048 caracteres, o script será desativado pelo sistema.
 
+## Métricas de sucesso
+
+**Limite**: 200 por atividade.
+
 ## Condições do Target
 
-**Limite**: 1.000 valores.
+**Limite recomendado**: 1,00valores.
 
-Limite recomendado. Isso se refere ao número de valores separados por linha na área de texto de definição de metas. Por exemplo, inserir 1.000 códigos postais em uma meta de código postal.
+Isso se refere ao número de valores separados por linha na área de texto de definição de metas. Por exemplo, inserir 1.000 códigos postais em uma meta de código postal.
+
+## Regras de definição de metas
+
+**Limite recomendado**: 2,500 valores únicos por regra de definição de metas.
+
+**Limite recomendado**: 30,000 valores únicos por público-alvo nas regras de definição de metas.
+
+**Limite recomendado**: Values 00,000 valores de regra de definição de metas únicos por atividade.
