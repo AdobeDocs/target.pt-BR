@@ -1,14 +1,14 @@
 ---
-description: Estas notas de versão fornecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para as versões mais recentes ou que serão lançadas em breve do Adobe Target.
+description: Essas notas de versão fornecem informações sobre recursos, melhorias e correções para as últimas ou futuras [! Versões do DNL Adobe Target.
 keywords: notas de versão
-seo-description: Estas notas de versão fornecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para as versões mais recentes ou que serão lançadas em breve do Adobe Target
+seo-description: Essas notas de versão fornecem informações sobre recursos, melhorias e correções para as últimas ou futuras [! Versões do DNL Adobe Target.
 seo-title: Notas de versão do Adobe Target (pré-lançamento)
 solution: Target
 title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
+source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 ---
 
@@ -33,7 +33,8 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | --- | --- |
 | Visual Experience Composer (VEC) | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**: É possível substituir uma imagem por HTML para fornecer controle total do elemento sem precisar selecionar o elemento pai para acessar a opção HTML.</li><li>**Fragmento de experiência**: Você pode substituir uma imagem por um fragmento [de experiência do Adobe Experience Manager (AEM)](/help/c-experiences/c-manage-content/aem-experience-fragments.md) para inserir rapidamente elementos criados no AEM nas atividades do Target.</li></ul>(TGT-34097) |
 | Aplicativo para dispositivos móveis do Visual Experience Composer | Um novo painel Modificações é exibido no VEC do aplicativo móvel que exibe os elementos configurados para rastreamento de cliques. (TGT-31741) |
-| ![Selo Premium](/help/assets/premium.png) Recommendations em atividades de teste A/B e direcionamento de experiência (XT) | O status da oferta do Recommendations (algoritmo) é exibido na página Visão geral das atividades de teste A/B e XT que contêm ofertas do Recommendations. Os status incluem: Resultados prontos, Resultados não prontos e Falha do feed. (TGT-33649) |
+| ![Premium badgereelogations](/help/assets/premium.png)<br>em atividades de teste A/B e direcionamento de experiência (XT) | O status da oferta do Recommendations (algoritmo) é exibido na página Visão geral das atividades de teste A/B e XT que contêm ofertas do Recommendations. Os status incluem: Resultados prontos, Resultados não prontos e Falha do feed. (TGT-33649) |
+| Suporte de rastreamento entre domínios para at. js 2.0 + por meio da biblioteca da Experience Cloud ID (ECID) | Anteriormente, o rastreamento entre domínios não era compatível com o at. js 2.*x*. Com esta versão, os clientes que usam at. js 2.0 ou superior agora podem utilizar rastreamento entre domínios por meio da biblioteca ECID. A biblioteca ECID deve ser instalada na página juntamente com o at. js 2.0 ou superior para que o rastreamento entre domínios funcione. It is highly recommended to use [Experience Cloud ID library 4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html). |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
