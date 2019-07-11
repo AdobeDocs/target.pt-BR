@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -31,7 +31,7 @@ O que é necessário saber antes de criar uma atividade do [!DNL Recommendations
 | ![Etapa 2](/help/c-recommendations/assets/step2_red.png) | Teclas | A tecla determina o tipo de produto ou de conteúdo exibido nas suas recomendações. Por exemplo, a tecla pode ser uma categoria de produto. Consulte [Basear a recomendação em uma Chave de recomendação](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
 | ![Etapa 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Os atributos fornecem informações mais específicas sobre os produtos que você deseja exibir. Por exemplo, você pode querer mostrar produtos dentro de uma faixa de preço específica ou itens que atendam a um limite de inventário. Os atributos podem ser fornecidos na mbox ou através de um [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulte [Regras de inclusão](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) e [Atributos da entidade](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Etapa 4](/help/c-recommendations/assets/step4_red.png) | Exclusões | As exclusões determinam quais itens específicos não serão exibidos nas recomendações.<br>Consulte [Exclusões](/help/c-recommendations/c-products/exclusions.md). |
-| ![Etapa 5](/help/c-recommendations/assets/step5_red.png) | Negociações de compra | Os detalhes da compra oferecem informações sobre os itens comprados e o pedido quando a compra foi concluída. |
+| ![Etapa 5](/help/c-recommendations/assets/step5_red.png) | Detalhes da compra | Os detalhes da compra oferecem informações sobre os itens comprados e o pedido quando a compra foi concluída. |
 
 ## Implementação base {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -44,7 +44,7 @@ Há dois métodos para fornecer informações sobre produtos e serviços para o 
 | Método | Descrição |
 |--- |--- |
 | Passar parâmetros diretamente para a página | Esse método funciona bem para itens que mudam com frequência. No entanto, como isso requer que as alterações sejam feitas diretamente para a página, em muitas organizações, esse método requer o envolvimento dos profissionais de TI e das pessoas que implementa as páginas. |
-| Passar parâmetros por meio de um feed do Google ou CSV | Esse método funciona bem para coleções que não mudam com frequência. Em geral, não é necessário alterar sua implementação da mbox ou outro código de página para fornecer informações de produto por meio de um feed. No entanto, a lista de produtos permanece estática, de modo que alterações rápidas são mais difíceis. Para obter mais informações, consulte [Feeds](/help/c-recommendations/c-products/feeds.md). |
+| Passar parâmetros por meio de um feed do Google ou CSV | Esse método funciona bem para coleções que não mudam com frequência. Em geral, não é necessário alterar sua implementação da ou outro código de página para fornecer informações de produto por meio de um feed. No entanto, a lista de produtos permanece estática, de modo que alterações rápidas são mais difíceis. Para obter mais informações, consulte [Feeds](/help/c-recommendations/c-products/feeds.md). |
 
 Esses métodos podem ser usados separadamente ou juntos, como nos exemplos a seguir.
 
