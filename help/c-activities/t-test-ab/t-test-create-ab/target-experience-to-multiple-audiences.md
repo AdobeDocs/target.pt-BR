@@ -8,12 +8,12 @@ title: Múltiplas versões de uma experiência em um teste A/B
 topic: Padrão
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
 
-# Múltiplas versões de uma experiência em um teste A/B{#multiple-experience-versions-in-an-a-b-test}
+# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
 
 É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 
