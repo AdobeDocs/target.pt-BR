@@ -8,7 +8,7 @@ title: Recommendations como uma oferta
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -34,7 +34,7 @@ Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direc
    >
    >Para Testes A/B, lembre-se de que você pode escolher a opção [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para impulsionar automaticamente o tráfego para a recomendação com melhor desempenho ou a opção [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) para atribuir os visitantes a experiências de recomendação personalizadas com base em seus perfis.
 
-1. Ao criar uma [experiência](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), clique no elemento ao qual deseja adicionar uma recomendação como uma oferta, selecione a ação [!UICONTROL Inserir antes], [!UICONTROL Inserir após] ou [!UICONTROL Substituir por] e selecione [!UICONTROL Recomendação].
+1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
 
    A ilustração a seguir mostra a opção [!UICONTROL Inserir após &gt; Recomendação].
 
@@ -42,11 +42,14 @@ Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direc
 
 1. Selecione entre as seguintes opções para ver os critérios populares do recommendations por tipo de página:
 
-   * Página do artigo
    * Página de carrinho
    * Página de categoria
    * Página inicial
    * Página de aterrissagem
+   * Página do produto
+   * Página de resultados da pesquisa
+   * Página de agradecimento
+   * Outras
 
 1. Selecione os [critérios](/help/c-recommendations/c-algorithms/algorithms.md) desejados e clique em [!UICONTROL Avançar].
 1. Selecione o [design](/help/c-recommendations/c-design-overview/design-overview.md) desejado e clique em [!UICONTROL Avançar].
