@@ -21,7 +21,7 @@ Respostas às perguntas mais frequentes sobre a mbox.js.
 
 For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
-## Por que recebo mensagens de aviso de &quot;Bloqueio de analisador&quot; no Google Chrome ao usar mbox.js e document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
+## Por que recebo mensagens de aviso de "Bloqueio de analisador" no Google Chrome ao usar mbox.js e document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
 
 Essa mensagem de console é exibida ao uar o Chrome em vários cenários nos quais a função `document.write` é usada dentro do arquivo mbox.js. Essa é uma mensagem de aviso e não deve afetar o seu processo de configuração da atividade.
 
