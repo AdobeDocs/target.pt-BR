@@ -33,7 +33,7 @@ A lista [!UICONTROL Feeds] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL 
 
 >[!NOTE]
 >
->Se o feed [!UICONTROL Última atualização] exibir &quot;indefinido&quot;, ele será da [!DNL Recommendations Classic] e não poderá ser alterado dentro de [!DNL Target Premium Recommendations].
+>Se o feed [!UICONTROL Última atualização] exibir "indefinido", ele será da [!DNL Recommendations Classic] e não poderá ser alterado dentro de [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -51,7 +51,7 @@ Qualquer dado carregado por meio do arquivo [!DNL .csv], feed de produto do Goog
 
 >[!IMPORTANT]
 >
->Não coloque os valores em aspas duplas ( &quot; ) no seu arquivo [!DNL .csv], a menos que seja intencional. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
+>Não coloque os valores em aspas duplas ( " ) no seu arquivo [!DNL .csv], a menos que seja intencional. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
 
 Por exemplo, a sintaxe a seguir está incorreta:
 
@@ -67,7 +67,7 @@ A sintaxe a seguir está correta:
 
 >[!NOTE]
 >
->Não é possível substituir um valor existente por um valor em branco. É necessário aprovar outro valor para substituí-lo. Em caso de preço de venda, uma solução comum é aprovar um &quot;NULL&quot; ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
+>Não é possível substituir um valor existente por um valor em branco. É necessário aprovar outro valor para substituí-lo. Em caso de preço de venda, uma solução comum é aprovar um "NULL" ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
 
 O produto estará disponível na interface de Admin aproximadamente duas horas depois de ter carregado a entidade com sucesso.
 
@@ -254,7 +254,7 @@ Após criar ou editar um feed, ele é executado imediatamente, em seguida, será
 
 Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed serão exibidos antes que os valores individuais sejam indexados. Isso permite que você pesquise e visualize os produtos para que possa criar coleções, exclusões, designs e atividades antes da indexação ser concluída.
 
-Quando o Status apresentar a mensagem de &quot;Sucesso&quot;, isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se houver falha no processo, que o arquivo não foi encontrado (por exemplo, você usou um URL incorreto ou sua informação do FTP estava incorreta), ou ocorreu um erro de análise.
+Quando o Status apresentar a mensagem de "Sucesso", isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se houver falha no processo, que o arquivo não foi encontrado (por exemplo, você usou um URL incorreto ou sua informação do FTP estava incorreta), ou ocorreu um erro de análise.
 
 ## Status do feed e indicadores {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -272,7 +272,7 @@ A seguir, estão os possíveis status de um feed:
 | Agendado na *data e hora* | O feed não foi executado, mas está agendado para execução na data e hora especificada. |
 | Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
 | Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
-| Importar itens | O Target está importando itens do arquivo de Feed. Observação: após concluir esta etapa e a opção &quot;Preparando atualizações do índice de pesquisa&quot; for exibida, as alterações aos atributos de item foram importadas para nosso sistema central e serão refletidas no conteúdo das recomendações entregues, retornado pelos nós de borda geográfica em 60 minutos. |
+| Importar itens | O Target está importando itens do arquivo de Feed. Observação: após concluir esta etapa e a opção "Preparando atualizações do índice de pesquisa" for exibida, as alterações aos atributos de item foram importadas para nosso sistema central e serão refletidas no conteúdo das recomendações entregues, retornado pelos nós de borda geográfica em 60 minutos. |
 | Preparando atualizações do índice de pesquisa | O Target está se preparando para atualizar o índice de pesquisa do catálogo. Observação: se esse status estiver listado, as alterações aos atributos de item já foram feitas e serão refletidas em breve nas recomendações entregues, embora ainda não sejam refletidas na Pesquisa do catálogo. |
 | Atualização do índice de pesquisa | O Target está atualizando o índice de pesquisa do catálogo. Observação: se esse status estiver listado, as alterações aos atributos de item já foram feitas e serão refletidas em breve nas recomendações entregues, embora ainda não sejam refletidas na Pesquisa do catálogo. |
 | Atualizações concluídas | O Target concluiu todas as atualizações associadas ao arquivo de feed. |
@@ -292,7 +292,7 @@ O indicadores de status do feed a seguir são exibidos na coluna [!UICONTROL Sta
 | Indicador de status | Descrição |
 |--- |--- |
 | Indicador de status verde | Quando um feed acaba de indexar de modo bem-sucedido, um ponto de status verde indica que o feed está em um estado bem-sucedido. |
-| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado.   Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot; os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
+| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado.   Observação: assim que o status do feed for "Aguardando para fila de índice" os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
 | Indicador de status branco | Quando um feed não está agendado, um ponto de status branco indica que o feed ainda não foi executado. |
 | Indicador de status vermelho | Se o feed não faz o upload dos dados para um servidor, um indicador de status vermelho é mostrado. |
 Considere os exemplos a seguir:
