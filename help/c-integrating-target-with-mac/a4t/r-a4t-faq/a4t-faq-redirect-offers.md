@@ -43,7 +43,7 @@ Algumas discrepâncias de dados são esperadas. Para obter mais informações, c
 
 ## Por que as visualizações de página na página original e na página de redirecionamento são contadas às vezes? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Existe a possibilidade de ocorrer uma condição de corrida que possa fazer com que a chamada do Analytics seja acionada antes que o redirecionamento seja executado na primeira página. Isso pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam todas contadas. Essa situação resulta em uma exibição de página extra na primeira página, quando o visitante nunca &quot;viu&quot; realmente essa primeira página.
+Existe a possibilidade de ocorrer uma condição de corrida que possa fazer com que a chamada do Analytics seja acionada antes que o redirecionamento seja executado na primeira página. Isso pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam todas contadas. Essa situação resulta em uma exibição de página extra na primeira página, quando o visitante nunca "viu" realmente essa primeira página.
 
 Usar o compositor baseado em formulário para criar uma atividade de redirecionamento é recomendado para aumentar a velocidade do redirecionamento da página. Isto acontece devido ao local onde o código é executado na página. Além disso, é recomendável criar uma oferta de redirecionamento para cada experiência, até mesmo para a experiência padrão, na qual o redirecionamento retornaria a página original. Isso garante que, se ocorrer uma contagem incorreta, ela ocorrerá em todas as experiências, de forma que o relatório e a análise ainda sejam válidos para o teste.
 
@@ -51,7 +51,7 @@ Usar o compositor baseado em formulário para criar uma atividade de redireciona
 >
 >Essa condição de corrida afeta apenas os clientes que usam at.js versão 1.6.3 ou anterior. Observe que a equipe do Target mantém apenas duas versões da at.js— a versão atual e a segunda versão mais recente. Atualize o at.js conforme necessário para garantir que você esteja executando uma [versão compatível](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-Para obter mais informações sobre esse problema, consulte a coluna &quot;Ofertas de redirecionamento&quot; na tabela [Problemas conhecidos](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541).
+Para obter mais informações sobre esse problema, consulte a coluna "Ofertas de redirecionamento" na tabela [Problemas conhecidos](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541).
 
 ## Posso usar as ofertas de redirecionamento com o A4T se eu estiver usando a biblioteca JavaScript da mbox.js? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
@@ -69,7 +69,7 @@ Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a
 
 | Parâmetro | Descrição |
 |--- |--- |
-| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados complementares (SDID) e a Id de Org da Experience Cloud da página padrão para a página nova para que o A4T &quot;identifique&quot; ao mesmo tempo a solicitação do Target na página padrão com a solicitação do Analytic na página nova. |
+| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados complementares (SDID) e a Id de Org da Experience Cloud da página padrão para a página nova para que o A4T "identifique" ao mesmo tempo a solicitação do Target na página padrão com a solicitação do Analytic na página nova. |
 | `adobe_mc_ref` | O parâmetro `adobe_mc_ref` passa o URL de referência da página padrão para a página nova. Quando usado com o AppMeasurement.js versão 2.1 (ou superior), o Analytics usará o valor deste parâmetro como URL de referência na página nova. |
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.
