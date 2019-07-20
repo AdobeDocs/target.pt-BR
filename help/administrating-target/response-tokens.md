@@ -48,15 +48,15 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
    | Tipo | Parâmetro | Notas |
    |--- |--- |--- |
    | Perfis incorporados | `profile.activeActivities` | Retorna uma matriz do `activityIds` para o qual os visitantes estão qualificados. Ele é incrementado à medida que os usuários são qualificados. Por exemplo, em uma página com duas mboxes entregando duas atividades diferentes, a segunda mbox incluirá ambas as atividades. |
-   |  | `profile.isFirstSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
-   |  | `profile.isNewSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
+   |  | `profile.isFirstSession` | Retorna "true" ou "false." |
+   |  | `profile.isNewSession` | Retorna "true" ou "false." |
    |  | `profile.daysSinceLastVisit` | Retorna o número de dias, desde a última visita do visitante. |
    |  | `profile.tntId` | Retorna tntID do visitante |
    |  | `profile.marketingCloudVisitorId` | Retorna a ID do visitante da Experience Cloud. |
    |  | `profile.thirdPartyId` | Retorna a ID de terceiros do visitante. |
    |  | `profile.categoryAffinity` | Retorna a categoria favorita do visitante. |
    |  | `profile.categoryAffinities` | Retorna uma matriz das 5 categorias principais do visitante como sequências de caracteres. |
-   | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que &quot;option&quot; equivale a &quot;offer.&quot; |
+   | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que "option" equivale a "offer." |
    | Geografia | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulte [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) para obter mais informações sobre como usar o direcionamento geográfico nas atividades. |
 
    Os atributos do perfil do usuário e dos Atributos do cliente também são exibidos na lista.
