@@ -37,25 +37,25 @@ Você pode entrar em contato com o [Atendimento ao cliente da Adobe](../../../cm
 
 Os hits de dados parciais geralmente são o resultado de uma implementação inadequada, como IDs de conjuntos de relatórios desalinhadas. Há também causas legítimas, que incluem páginas lentas, erros de página, ofertas de redirecionamento em uma atividade ou versões de biblioteca desatualizadas.
 
-Para obter mais informações, consulte &quot;O que contribui para dados parciais&quot; em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Para obter mais informações, consulte "O que contribui para dados parciais" em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Tenho hits de dados parciais. O que posso fazer para apagar meus dados? {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 Você pode criar um conjunto de relatórios virtuais para excluir dados parciais históricos de seus relatórios.
 
-Para mais informações, consulte &quot;Como posso exibir as tendências históricas sem dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Para mais informações, consulte "Como posso exibir as tendências históricas sem dados parciais?" em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Há algo que eu possa fazer para impedir que minhas páginas gerem hits de dados parciais? {#section_4B00E7E618444BE98A0798DE98F08B21}
 
-Depois de 14 de novembro de 2016, incluiremos esses dados apenas quando as tags do [!DNL Target] e do [!DNL Analytics] forem adicionadas. Essa alteração não é retroativa. Se seus relatórios históricos mostrarem contagens aumentadas e você quiser excluí-las de seus relatórios, poderá criar um conjunto de relatórios virtuais, conforme explicado em &quot;Como posso ver as tendências históricas sem dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Depois de 14 de novembro de 2016, incluiremos esses dados apenas quando as tags do [!DNL Target] e do [!DNL Analytics] forem adicionadas. Essa alteração não é retroativa. Se seus relatórios históricos mostrarem contagens aumentadas e você quiser excluí-las de seus relatórios, poderá criar um conjunto de relatórios virtuais, conforme explicado em "Como posso ver as tendências históricas sem dados parciais?" em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-Há também etapas que você pode executar para minimizar os hits de dados parciais. Para obter mais informações, consulte &quot;Quais são as práticas recomendadas para reduzir dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Há também etapas que você pode executar para minimizar os hits de dados parciais. Para obter mais informações, consulte "Quais são as práticas recomendadas para reduzir dados parciais?" em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Se os dados do hit de dados parciais forem removidos dos relatórios, não estamos perdendo dados valiosos do Target e do Analytics? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 A inclusão de dados parciais nos relatórios do [!DNL Analytics] realmente fornece informações adicionais, mas também cria inconsistência com dados históricos de períodos em que não havia atividades do [!DNL Target] em execução. Isso pode causar problemas para os usuários do [!DNL Analytics] que estão analisando tendências ao longo do tempo.
 
-Há etapas que você pode executar para minimizar os hits de dados parciais. Para obter mais informações, consulte &quot;Quais são as práticas recomendadas para reduzir dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Há etapas que você pode executar para minimizar os hits de dados parciais. Para obter mais informações, consulte "Quais são as práticas recomendadas para reduzir dados parciais?" em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Existem tipos específicos de atividades do Target com maior probabilidade de causar hits de dados parciais? {#section_69837442A9B84366BEFDA4588B31E574}
 
