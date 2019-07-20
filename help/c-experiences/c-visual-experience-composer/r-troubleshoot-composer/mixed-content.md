@@ -52,7 +52,7 @@ target/t_mixed_content_firefox.xml
 1. Na barra de pesquisa, digite `block_active`.
 1. Clique duas vezes em ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
-   O valor altera de &quot;Verdadeiro&quot; para &quot;Falso&quot;. Quando o valor mostrar &quot;Falso&quot;, você terá concluído. Recomenda-se reiniciar o computador após alterar essas definições.
+   O valor altera de "Verdadeiro" para "Falso". Quando o valor mostrar "Falso", você terá concluído. Recomenda-se reiniciar o computador após alterar essas definições.
 
 ## Habilitar conteúdo misto no Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
