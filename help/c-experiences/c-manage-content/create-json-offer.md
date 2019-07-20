@@ -114,7 +114,7 @@ Digamos que a seguinte oferta JSON seja entregue em sua página da Web:
   
 ```
 
-O código a seguir mostra como acessar o atributo &quot;saudação&quot;:
+O código a seguir mostra como acessar o atributo "saudação":
 
 ```
 adobe.target.getOffer({   
