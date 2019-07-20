@@ -55,7 +55,7 @@ Os itens a seguir podem causar variações técnicas com base em diferenças té
 
 * [!DNL Target]Os visitantes do devem permitir cookies e JavaScript
 * Os cookies próprios e de terceiros são processados de forma diferente e, como resultado, os dados desses tipos de cookies não correspondem
-* Localização relativa de tags nas páginas e &quot;vazamento&quot; causado por visitantes que saem da página antes que ela carregue totalmente
+* Localização relativa de tags nas páginas e "vazamento" causado por visitantes que saem da página antes que ela carregue totalmente
 * Considerações de fuso-horário
 * Diferenças em que os dispositivos podem ser contados
 
