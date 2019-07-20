@@ -43,7 +43,7 @@ p1=v1&p2=v2&p3=hello%20world
 ```
 
 * Nome: `targetPageParams`
-* Valor de retorno: a &quot;&amp;&quot; parâmetros delimitados, com valores de parâmetro codificados por URL.
+* Valor de retorno: a "&amp;" parâmetros delimitados, com valores de parâmetro codificados por URL.
 
    Exemplo:
 
@@ -109,7 +109,7 @@ JSON é um modo poderoso de enviar os parâmetros. O Target usa as chaves de obj
 }; 
 ```
 
-Os valores não precisam ser codificados por URL. Por exemplo, &quot;San Francisco&quot; não precisa de espaço para ser codificado. Um espaço é suficiente.
+Os valores não precisam ser codificados por URL. Por exemplo, "San Francisco" não precisa de espaço para ser codificado. Um espaço é suficiente.
 
 Este exemplo envia os seguintes dados para a borda do mbox:
 
