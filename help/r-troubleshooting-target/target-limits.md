@@ -19,9 +19,9 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 
 >[!NOTE]
 >
->Os limites listados abaixo devem ser considerados limites &quot;rígidos&quot;, a menos que especificados como &quot;recomendado&quot;.
+>Os limites listados abaixo devem ser considerados limites "rígidos", a menos que especificados como "recomendado".
 >
->Quando os limites designados como &quot;recomendado&quot; forem atingidos ou ultrapassados, o desempenho poderá ficar lento. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
+>Quando os limites designados como "recomendado" forem atingidos ou ultrapassados, o desempenho poderá ficar lento. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
 >
 >Atividades altamente complexas devem ser analisadas com a Consultoria da Adobe e testadas em um ambiente restrito antes de serem liberadas para produção.
 
@@ -120,7 +120,7 @@ Todos os perfis depois de 50 são ignorados.
 Para parâmetros registrados no banco de dados do Target, os limites acima são para solicitações de mbox padrão. Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
 
 Se estiver usando a [API de entrega em lote](https://developers.adobetarget.com/api/#server-side-batch-delivery) no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contém mais que estes limites, a API retornará a seguinte mensagem de erro:
-&quot;O número de mboxParameters não pode exceder 100&quot;.
+"O número de mboxParameters não pode exceder 100".
 
 ## URLs de solicitação de mbox
 
@@ -146,7 +146,7 @@ Esse limite é devido a restrições de tamanho de URL do Microsoft Internet Exp
 
 Se estiver usando uma mbox global, o limite será para todo o conjunto de conteúdo retornado para a página. A limitação do tamanho da oferta melhoro o tempo de carregamento da página. Se o limite for excedido, a seguinte mensagem será exibida:
 
-&quot;O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página.&quot;
+"O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página."
 
 ## Ofertas
 
