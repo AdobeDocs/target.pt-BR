@@ -50,7 +50,7 @@ Para aproveitar esses recursos no [!DNL Target], é importante compreender as se
 
    ![Prioridade dos EUA &gt; Alemanha](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **Uma experiência direcionada para &quot;Todos os visitantes&quot; pode ser usada como a última experiência na atividade de direcionamento de experiência para &quot;capturar&quot; todos os visitantes que não se enquadram em nenhuma outra experiência. Se uma experiência direcionada para &quot;Todos os visitantes&quot; não for a última na ordem, outras experiências direcionadas, listadas abaixo dessa, ainda serão avaliadas.**
+* **Uma experiência direcionada para "Todos os visitantes" pode ser usada como a última experiência na atividade de direcionamento de experiência para "capturar" todos os visitantes que não se enquadram em nenhuma outra experiência. Se uma experiência direcionada para "Todos os visitantes" não for a última na ordem, outras experiências direcionadas, listadas abaixo dessa, ainda serão avaliadas.**
 
    Por exemplo, na configuração de atividade a seguir, um visitante acessou o seu site dos Estados Unidos e depois viajou para a Alemanha e visitou o seu site uma segunda vez. Durante a primeira visita, este visitante qualificado para Experiência A (visitantes dos EUA). Depois de visualizar seu site da Alemanha, este visitante permanecerá na Experiência A (visitantes dos EUA).
 
@@ -62,7 +62,7 @@ Para aproveitar esses recursos no [!DNL Target], é importante compreender as se
 
 * **Com uma atividade do XT de experiência única, os visitantes permanecerão em uma experiência, mesmo que deixem de se qualificar para o público-alvo que os colocou nessa experiência.**
 
-   Se isso não for desejado, você poderá criar outra experiência direcionada para o público-alvo inverso (por exemplo, &quot;Não dos Estados Unidos&quot;, em vez de &quot;Estados Unidos&quot;).
+   Se isso não for desejado, você poderá criar outra experiência direcionada para o público-alvo inverso (por exemplo, "Não dos Estados Unidos", em vez de "Estados Unidos").
 
    Como outra opção, você pode criar uma atividade de A/B direcionada para o seu público-alvo desejado com 100% de alocação de tráfego, conforme mostrado abaixo:
 
@@ -70,7 +70,7 @@ Para aproveitar esses recursos no [!DNL Target], é importante compreender as se
 
 * **A prioridade das experiências é definida por sua ordem (de cima para baixo), conforme exibida na interface do usuário do Target.**
 
-   Isso é importante em cenários em que um visitante pode se qualificar para mais de um de seus públicos-alvo. Por exemplo, se você tiver duas experiências: uma direcionada para os &quot;Estados Unidos&quot; e outra para &quot;Nova York&quot;, um visitante localizado em Nova York se qualificará para os dois públicos-alvo. Portanto, você deve garantir que a experiência de &quot;Nova York&quot; seja definida antes da experiência de &quot;Estados Unidos&quot; na interface do usuário do Target. Isso garante que quanto mais segmentada é a experiência de &quot;Nova York&quot;, mas alta é a prioridade, conforme mostrado no exemplo a seguir:
+   Isso é importante em cenários em que um visitante pode se qualificar para mais de um de seus públicos-alvo. Por exemplo, se você tiver duas experiências: uma direcionada para os "Estados Unidos" e outra para "Nova York", um visitante localizado em Nova York se qualificará para os dois públicos-alvo. Portanto, você deve garantir que a experiência de "Nova York" seja definida antes da experiência de "Estados Unidos" na interface do usuário do Target. Isso garante que quanto mais segmentada é a experiência de "Nova York", mas alta é a prioridade, conforme mostrado no exemplo a seguir:
 
    ![Priority NY &gt; US](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 
