@@ -31,7 +31,7 @@ O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada
 
 A opção de [!UICONTROL Direcionamento automático] no fluxo de atividade A/B permite aproveitar a aprendizagem de máquina para personalizar com base em um conjunto de experiências definidas pelo profissional de marketing em um clique. O [!UICONTROL direcionamento automático] foi projetado para fornecer otimização máxima, em comparação com o teste A/B tradicional ou Alocação automática, determinando qual experiência exibir para cada visitante. Ao contrário de uma atividade A/B na qual o objetivo é encontrar um único vencedor, o [!UICONTROL direcionamento automático] determina automaticamente a melhor experiência para um determinado visitante (com base em seu perfil e outras informações contextuais) para oferecer uma experiência altamente personalizada.
 
-Do mesmo modo que a Personalização automatizada, o [!UICONTROL Direcionamento automático] usa um algoritmo Random Forest, um dos principais métodos de conjunto de ciência de dados, para determinar a melhor experiência para mostrar a um visitante. Como o [!UICONTROL Direcionamento automático] pode se adaptar às mudanças no comportamento do visitante, ele pode ser executado perpetuamente para fornecer um aumento. Às vezes, isso é chamado de modo &quot;sempre ativo&quot;.
+Do mesmo modo que a Personalização automatizada, o [!UICONTROL Direcionamento automático] usa um algoritmo Random Forest, um dos principais métodos de conjunto de ciência de dados, para determinar a melhor experiência para mostrar a um visitante. Como o [!UICONTROL Direcionamento automático] pode se adaptar às mudanças no comportamento do visitante, ele pode ser executado perpetuamente para fornecer um aumento. Às vezes, isso é chamado de modo "sempre ativo".
 
 Ao contrário de uma atividade A/B na qual a alocação de experiência para um determinado visitante é fixa, o [!UICONTROL Direcionamento automático] otimiza a meta de negócios especificada em cada visita. Como na [!UICONTROL Personalização automática], o [!UICONTROL Direcionamento automático], por padrão, reserva parte do tráfego da atividade como um grupo de controle para medir o aumento. Os visitantes do grupo de controle recebem uma experiência aleatória na atividade.
 
@@ -39,7 +39,7 @@ Existem algumas observações importantes que você deve ter em mente ao usar o 
 
 * Você não pode alternar uma atividade específica de [!UICONTROL Direcionamento automático] para Personalização automatizada, e vice-versa.
 * Você não pode alternar de Alocação de tráfego manual (teste tradicional A/B) para [!UICONTROL Direcionamento automático] e vice-versa depois que uma atividade estiver ativa.
-* Ao usar hosts e ambientes (grupos de hosts), os modelos são criados apenas para o ambiente &quot;Produção&quot;. Todos os ambientes contribuem com dados para construir modelos para campanhas de &quot;Produção&quot;.
+* Ao usar hosts e ambientes (grupos de hosts), os modelos são criados apenas para o ambiente "Produção". Todos os ambientes contribuem com dados para construir modelos para campanhas de "Produção".
 * Você deve usar no mínimo duas experiências.
 
 ## Terminologia {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -50,7 +50,7 @@ Os seguintes termos são úteis quando falamos de [!UICONTROL Direcionamento aut
 |---|---|
 | Multi-armed bandit | Uma abordagem multi-armed bandit à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado. |
 | Floresta Aleatória | Random Forest é uma abordagem de aprendizado de máquina líder. No contexto da ciência de dados, é um método de classificação ou regressão de conjuntos que funciona por meio da construção de um grande número de árvores de decisão com base nos atributos do visitante e da visita. No Target, o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou maior receita por visita) para cada visitante específico. Para obter mais informações sobre o Random Forest no Target, consulte [Algoritmo Random Forest](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
-| Amostragem de Thompson | O objetivo da Amostragem de Thompson é determinar qual experiência é a melhor em geral (não personalizada), enquanto minimiza o &quot;custo&quot; da procura dessa experiência. A amostragem de Thompson sempre escolhe um vencedor, mesmo que não haja diferença estatística entre duas experiências. Para obter mais informações, consulte [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Amostragem de Thompson | O objetivo da Amostragem de Thompson é determinar qual experiência é a melhor em geral (não personalizada), enquanto minimiza o "custo" da procura dessa experiência. A amostragem de Thompson sempre escolhe um vencedor, mesmo que não haja diferença estatística entre duas experiências. Para obter mais informações, consulte [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Como funciona o [!UICONTROL direcionamento automático] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -104,7 +104,7 @@ Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcion
 
 **O algoritmo se adapta às mudanças no comportamento do visitante.**
 
-* O multi-arm bandit garante que o modelo esteja sempre &quot;gastando&quot; uma pequena fração do tráfego para continuar aprendendo durante toda a vida do aprendizado da atividade e para evitar a exploração excessiva de tendências aprendidas anteriormente.
+* O multi-arm bandit garante que o modelo esteja sempre "gastando" uma pequena fração do tráfego para continuar aprendendo durante toda a vida do aprendizado da atividade e para evitar a exploração excessiva de tendências aprendidas anteriormente.
 * Os modelos subjacentes são reconstruídos a cada 24 horas usando os dados mais recentes sobre o comportamento do visitante para garantir que o Target esteja sempre explorando as preferências atuais do visitante.
 * Se o algoritmo não puder determinar as experiências vencedoras para os indivíduos, ele alternará automaticamente para mostrar a experiência geral de melhor desempenho enquanto continua a procurar por vencedores personalizados. A experiência de melhor desempenho é encontrada usando a [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
@@ -116,7 +116,7 @@ Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcion
 
 **O Target coleta automaticamente informações sobre os visitantes para criar os modelos de personalização.**
 
-* Para obter mais informações sobre os parâmetros usados ​​no [!UICONTROL Direcionamento automático] e na Personalização automatizada, consulte [Coleção de dados da personalização automatizada](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
+* Para obter mais informações sobre os parâmetros usados &#x200B;&#x200B;no [!UICONTROL Direcionamento automático] e na Personalização automatizada, consulte [Coleção de dados da personalização automatizada](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
 **O Target usa automaticamente todos os públicos-alvo compartilhados da Experience Cloud para criar os modelos de personalização.**
 
@@ -179,7 +179,7 @@ Há quatro fatores necessários para uma atividade de [!UICONTROL Dimensionament
 
 * As ofertas precisam ser diferentes o suficiente para influenciar os visitantes.
 * As ofertas precisam estar localizadas em um lugar que faça diferença na meta de otimização.
-* Deve haver tráfego e &quot;potência&quot; estatística suficiente no teste para detectar o aumento.
+* Deve haver tráfego e "potência" estatística suficiente no teste para detectar o aumento.
 * O algoritmo de personalização deve funcionar corretamente.
 
 O melhor curso de ação é garantir que o conteúdo e os locais que compõem as experiências da atividade realmente façam diferença nas taxas de resposta geral usando um teste A/B simples e não personalizado. Certifique-se de calcular os tamanhos das amostras antecipadamente para garantir que haja energia suficiente para ver um aumento razoável e executar o teste A/B por um período fixo sem interrompê-lo ou fazer quaisquer alterações.
@@ -188,7 +188,7 @@ Se os resultados de um teste A/B mostram um aumento estatisticamente significati
 
 **Quando devo interromper minha atividade de[!UICONTROL Direcionamento automático]?**
 
-O [!UICONTROL Direcionamento automático] pode ser usado como personalização &quot;sempre ativa&quot; que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de [!UICONTROL Direcionamento automático].
+O [!UICONTROL Direcionamento automático] pode ser usado como personalização "sempre ativa" que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de [!UICONTROL Direcionamento automático].
 
 Se você quiser fazer alterações substanciais no conteúdo em sua atividade de [!UICONTROL Direcionamento automático], a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
 
@@ -238,7 +238,7 @@ Há quatro fatores necessários para uma atividade de AP gerar aumento:
 
 * As ofertas precisam ser diferentes o suficiente para influenciar os visitantes.
 * As ofertas precisam estar localizadas em um lugar que faça diferença na meta de otimização.
-* Deve haver tráfego e &quot;potência&quot; estatística suficiente no teste para detectar o aumento.
+* Deve haver tráfego e "potência" estatística suficiente no teste para detectar o aumento.
 * O algoritmo de personalização deve funcionar corretamente.
 
 **Solução:** primeiro, verifique se sua atividade está personalizando o tráfego. Se os modelos não são criados para todas as experiências, sua atividade de [!UICONTROL Direcionamento automático] ainda estará apresentando aleatoriamente uma parte significativa das visitas para tentar criar todos os modelos o mais rápido possível. Se os modelos não forem criados, o [!UICONTROL Direcionamento automático] não está personalizando o tráfego.
