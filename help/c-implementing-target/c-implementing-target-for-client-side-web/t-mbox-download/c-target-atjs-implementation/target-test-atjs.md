@@ -22,7 +22,7 @@ Depois de salvar a biblioteca, use a ferramenta DTM Switch para testá-la em seu
 
 Para obter mais informações, consulte [Opção 3: implementar o Target manualmente com a Biblioteca de JavaScript do Target hospedada pelo DTM](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) no guia de _Práticas recomendadas para a implementação do Adobe Target usando o Dynamic Tag Management_.
 
-## Use a extensão &quot;Requestly&quot; do Chrome para mapear a outro arquivo
+## Use a extensão "Requestly" do Chrome para mapear a outro arquivo
 
 >[!NOTE]
 >
