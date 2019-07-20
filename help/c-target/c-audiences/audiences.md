@@ -34,7 +34,7 @@ Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públi
 
 ![Lista de públicos-alvo](assets/audiences_list.png)
 
-A lista de [!UICONTROL Públicos-alvo] contém todos os públicos-alvo que você pode usar em suas atividades. Use a lista de [!UICONTROL Públicos-alvo] para criar, editar, excluir ou copiar os públicos. A lista também mostra a fonte onde o público-alvo foi criado ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e assim por diante). Públicos predefinidos, como &quot;Novos visitantes&quot; e &quot;Visitantes recorrentes&quot;, não podem ser renomeados.
+A lista de [!UICONTROL Públicos-alvo] contém todos os públicos-alvo que você pode usar em suas atividades. Use a lista de [!UICONTROL Públicos-alvo] para criar, editar, excluir ou copiar os públicos. A lista também mostra a fonte onde o público-alvo foi criado ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e assim por diante). Públicos predefinidos, como "Novos visitantes" e "Visitantes recorrentes", não podem ser renomeados.
 
 Ao trabalhar com públicos-alvo que foram originalmente criados no AAM, o Target o alerta se você fizer referência a um público-alvo em atividades do Target que foram posteriormente excluídas no AAM.
 
@@ -86,7 +86,7 @@ Tenha os seguintes pontos em mente ao trabalhar com públicos-alvo importados:
 
 Este vídeo inclui informações sobre o uso de públicos-alvo.
 
-* Explique o termo &quot;público-alvo&quot;
+* Explique o termo "público-alvo"
 * Explicar as duas maneiras como o público-alvo é usado para otimização
 * Encontre públicos-alvo na lista de públicos-alvo
 * Segmente uma atividade para um público-alvo
