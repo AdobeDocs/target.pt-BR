@@ -100,7 +100,7 @@ Depois de executar as tarefas anteriores, o fragmento de experiência é exibido
 
 >[!IMPORTANT]
 >
->O fragmento de experiência é importado no momento para o Target como uma oferta HTML. Observe que a versão &quot;mestre&quot; do fragmento de experiência permanece no AEM. Você não pode editar o fragmento de experiência no Target.
+>O fragmento de experiência é importado no momento para o Target como uma oferta HTML. Observe que a versão "mestre" do fragmento de experiência permanece no AEM. Você não pode editar o fragmento de experiência no Target.
 
 Você pode passar o mouse sobre um fragmento de experiência na lista e clicar no ícone Exibir (![](assets/icon_info.png)
 
