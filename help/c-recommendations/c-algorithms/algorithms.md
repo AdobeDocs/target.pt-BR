@@ -59,7 +59,7 @@ O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quan
 | Mais visualizados | Os itens ou mídias visualizados com mais frequência. |
 | Itens/Mídia visualizados recentemente | Itens que foram visualizados recentemente pelo visitante. Ao utilizar um critério, atualize o design do Target para lidar com casos em que as recomendações em branco serão exibidas enquanto não houver um número suficiente de itens visualizados para exibição. |
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Se estiver executando uma recomendação e alterar seus critérios, seus dados de relatório serão perdidos.
 
@@ -87,7 +87,7 @@ No diagrama de atividades, os cartões de Critérios agora indicam quando os res
 
 >[!NOTE]
 >
->Para obter uma discussão sobre tempos de carregamento, consulte &quot;Tempo de processamento de critérios esperado&quot; em [Criação de critérios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+>Para obter uma discussão sobre tempos de carregamento, consulte "Tempo de processamento de critérios esperado" em [Criação de critérios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
 
 A ilustração a seguir mostra o diagrama de atividades na página Visão Geral de uma atividade do Recommendations. Você também pode ver o diagrama de atividades com os resultados de status dos critérios da etapa 2 durante o fluxo de trabalho de criação das atividades.
 
