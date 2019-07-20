@@ -138,7 +138,7 @@ Nosso primeiro projeto de exemplo é um modelo de um aplicativo simples de horá
 1. Compile e execute o aplicativo.
 1. Para entrar no modo de criação do VEC para aplicativos móveis, use o [!DNL sdkbetabus://com.adobe.sdkbetabus] como seu esquema de URL e abra o deep link gerado no dispositivo (consulte as instruções abaixo).
 
-Deste aplicativo simples de horários de ônibus, usamos todas as Exibições do Target geradas automaticamente associadas ao ciclo de vida da atividade. Além disso, demonstramos a flexibilidade da API ao chamar a API de Exibição do Target em um elemento de exibição personalizado dinamicamente adicionado, quando um botão oculto é clicado (a imagem da oferta na tela). Esta nova Exibição do Target é implementada ao se inserir uma chamada à API no código em `OfferDetailsActivity.java:40`. Quando o botão oculto é clicado, um novo evento da Exibição do Target chamado &quot;SURPRISE_VIEW&quot; é acionado, o que permite ao profissional de marketing direcionar com mais precisão as alterações na experiência com o aplicativo.
+Deste aplicativo simples de horários de ônibus, usamos todas as Exibições do Target geradas automaticamente associadas ao ciclo de vida da atividade. Além disso, demonstramos a flexibilidade da API ao chamar a API de Exibição do Target em um elemento de exibição personalizado dinamicamente adicionado, quando um botão oculto é clicado (a imagem da oferta na tela). Esta nova Exibição do Target é implementada ao se inserir uma chamada à API no código em `OfferDetailsActivity.java:40`. Quando o botão oculto é clicado, um novo evento da Exibição do Target chamado "SURPRISE_VIEW" é acionado, o que permite ao profissional de marketing direcionar com mais precisão as alterações na experiência com o aplicativo.
 
 Inserção da exibição dinâmica direcionada:
 
@@ -247,7 +247,7 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
 
 **Os parâmetros de envio para o próximo acionador de exibição:**
 
-Fornecemos algumas exibições automáticas criadas por padrão, como &quot;`AUTO_<activity|fragment name>`&quot; para cada atividade e fragmento presentes no seu aplicativo. Se você quiser enviar esses parâmetros, poderá chamar a seguinte API:
+Fornecemos algumas exibições automáticas criadas por padrão, como "`AUTO_<activity|fragment name>`" para cada atividade e fragmento presentes no seu aplicativo. Se você quiser enviar esses parâmetros, poderá chamar a seguinte API:
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
