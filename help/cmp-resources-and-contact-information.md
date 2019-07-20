@@ -38,7 +38,7 @@ Informações de registro e links para sessões anteriores da Série de webinár
 
 ## Office Hours do atendimento ao cliente da Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
-&quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Essas sessões foram criadas para informar e ajudar os participantes a solucionar problemas e fornecer dicas e truques para obter sucesso com as soluções da Adobe Experience Cloud, incluindo o Target.
+"Office Hours" é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Essas sessões foram criadas para informar e ajudar os participantes a solucionar problemas e fornecer dicas e truques para obter sucesso com as soluções da Adobe Experience Cloud, incluindo o Target.
 
 Para se inscrever nas próximas sessões e assistir a sessões gravadas, consulte [Office Hours do atendimento ao cliente da Adobe](https://helpx.adobe.com/customer-care-office-hours.html).
 
@@ -134,14 +134,14 @@ Prepare também informações relacionadas ao problema específico. Por exemplo,
    Um relatório gomez com uma ou duas solicitações remotas não são dados suficientes para analisar ou resolver o problema.
 * Uma captura de tela de um traceroute de uma máquina que executa o firebug TO 70.42.13.100.
 
-   Isso é muito importante. As redes EDGE são mundiais. Por isso, é muito difícil determinar para onde o cliente é enviado. Por exemplo, se for possível reproduzir o problema no desktop de seu escritório, diga &quot;Eu consigo reproduzir isso em meu desktop e estou no EDGE 20&quot;.
+   Isso é muito importante. As redes EDGE são mundiais. Por isso, é muito difícil determinar para onde o cliente é enviado. Por exemplo, se for possível reproduzir o problema no desktop de seu escritório, diga "Eu consigo reproduzir isso em meu desktop e estou no EDGE 20".
 * Seu código de cliente e nome de mbox (se houver).
 * O número de mboxes embutidas na página.
 
    Uma única mbox de várias na página está lenta?
 * Com que frequência ocorre lentidão com essa mbox nessa página?
 
-   Fornecer um rastro de Firebug mostra ao Atendimento ao cliente um cenário de caso único. Se puder fornecer dados estatísticos, como &quot;o mais baixo que vi foi 300ms, o mais alto que vi foi 1,1 segundo e testei 50 vezes&quot;, será mais fácil encontrar uma solução.
+   Fornecer um rastro de Firebug mostra ao Atendimento ao cliente um cenário de caso único. Se puder fornecer dados estatísticos, como "o mais baixo que vi foi 300ms, o mais alto que vi foi 1,1 segundo e testei 50 vezes", será mais fácil encontrar uma solução.
 * Informações relacionadas a qualquer coisa incomum sobre suas campanhas.
 
    Há um número elevado de segmentos? (Por exemplo, você atualiza seus segmentos 3 a 4 vezes por hora na interface de administração?) Essas informações ajudam o Atendimento ao cliente a entender a interação entre interfaces de administração e as margens dessa campanha. Atualizações frequentes na campanha significam recargas frequentes no servidor central, que podem forçar mais chamadas remotas ou recargas de cache.
