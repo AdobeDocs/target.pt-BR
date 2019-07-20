@@ -24,7 +24,7 @@ Existem várias diferenças entre uma mbox comum (mbox não global) e a mbox glo
 
 | Mbox comum | Mbox global |
 |--- |--- |
-| Uma mbox comum geralmente envolve conteúdo com uma tag `<DIV>`. | A mbox global está &quot;vazia&quot; e não envolve nenhum conteúdo. |
+| Uma mbox comum geralmente envolve conteúdo com uma tag `<DIV>`. | A mbox global está "vazia" e não envolve nenhum conteúdo. |
 | O conteúdo de apenas uma atividade pode ser entregue em uma mbox comum. | O conteúdo de várias atividades pode ser entregue em uma resposta a uma mbox global. |
 
 Se várias atividades forem fornecidas por meio da mbox global ou por várias mboxes regulares, [!DNL Target] [determine a prioridade](../../../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) pela qual a atividade (ou atividades) é entregue para uma página da Web.
