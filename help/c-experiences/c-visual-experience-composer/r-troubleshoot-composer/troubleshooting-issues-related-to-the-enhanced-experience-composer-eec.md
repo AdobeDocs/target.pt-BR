@@ -46,7 +46,7 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Você poderá ver a mensagem de erro descrita acima em &quot;o Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site&quot;. se os endereços IP acima estão na lista de permissões, mas o seu site não é compatível com a versão 1.2 do TLS. O Target atualmente usa a configuração padrão do 1.2. Antes do Target 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Você poderá ver a mensagem de erro descrita acima em "o Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site". se os endereços IP acima estão na lista de permissões, mas o seu site não é compatível com a versão 1.2 do TLS. O Target atualmente usa a configuração padrão do 1.2. Antes do Target 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores têm etapas semelhantes):
 
@@ -65,6 +65,6 @@ Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores
 
 1. Se você descobrir que o seu site está mostrando o TLS 1.0, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) para obter informações sobre a política de compatibilidade com o TLS do Target. Para solucionar a situação por enquanto (válida até 12 de setembro de 2018), acesse o [Atendimento ao cliente](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter a configuração com a versão TLS e o domínio.
 
-## Vejo tempos limite ou erros de &quot;acesso negado&quot; ao carregar sites com proxy ativado. (Somente EEC) {#section_60CBB9022DC449F593606C0E6252302D}
+## Vejo tempos limite ou erros de "acesso negado" ao carregar sites com proxy ativado. (Somente EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 
 Verifique se os IPs de proxy não estão bloqueados em seu ambiente.
