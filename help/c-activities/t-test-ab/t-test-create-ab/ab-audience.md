@@ -53,7 +53,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
-* Explique o termo &quot;público-alvo&quot;
+* Explique o termo "público-alvo"
 * Explicar as duas maneiras como o público-alvo é usado para otimização
 * Encontre públicos-alvo na lista de públicos-alvo
 * Segmente uma atividade para um público-alvo
