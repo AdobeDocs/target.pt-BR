@@ -33,7 +33,7 @@ Vários fatores são necessários para uma atividade de AP gerar aumento:
 
 * As ofertas precisam ser diferentes o suficiente para influenciar os visitantes.
 * As ofertas precisam estar localizadas em um lugar que faça diferença na meta de otimização.
-* Deve haver tráfego e &quot;potência&quot; estatística suficiente no teste para detectar o aumento.
+* Deve haver tráfego e "potência" estatística suficiente no teste para detectar o aumento.
 * O algoritmo de personalização deve funcionar corretamente.
 
 **Solução:** o melhor curso de ação é garantir que o conteúdo e os locais que compõem as experiências da atividade realmente façam diferença nas taxas de resposta geral usando um teste A/B simples e não personalizado. Certifique-se de calcular os tamanhos das amostras antecipadamente para garantir que haja energia suficiente para ver um aumento razoável e executar o teste A/B por um período fixo sem interrompê-lo ou fazer quaisquer alterações. Se um resultado do teste A/B mostrar um aumento estatisticamente significativo em uma ou mais das experiências, é provável que uma atividade personalizada funcione. Claro, a personalização pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre de ofertas/locais que não têm um impacto suficientemente grande na meta da otimização para serem detectados com significância estatística.
