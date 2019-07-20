@@ -42,9 +42,9 @@ Uma recomendação determina como um produto é sugerido a um cliente, dependend
 
 | Ação desejada | Recomendação |
 |--- |--- |
-| Incentive pessoas que compram uma mochila a considerar a compra de tênis de trilha e varas de trekking. | Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério &quot;Pessoas que compraram isso também compraram aquilo&quot;. |
-| Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de mídia similar semelhante àqueles que estão assistindo. | Crie uma recomendação que sugira outros vídeos, usando o critério &quot;Pessoas que viram isso viral aquilo&quot;. |
-| Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA. | Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério &quot;pessoas que viram isso também compraram&quot;. |
+| Incentive pessoas que compram uma mochila a considerar a compra de tênis de trilha e varas de trekking. | Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério "Pessoas que compraram isso também compraram aquilo". |
+| Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de mídia similar semelhante àqueles que estão assistindo. | Crie uma recomendação que sugira outros vídeos, usando o critério "Pessoas que viram isso viral aquilo". |
+| Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA. | Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério "pessoas que viram isso também compraram". |
 </table>
 
 Para mais informações sobre estes e outros critérios do [!DNL Recommendations], consulte [Critérios](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
