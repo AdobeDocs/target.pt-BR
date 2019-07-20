@@ -37,7 +37,7 @@ As promoções são desduplicadas em relação a itens recomendados pelos crité
 
 1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
 
    ![Adicionar opções de Promoção frontal](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
