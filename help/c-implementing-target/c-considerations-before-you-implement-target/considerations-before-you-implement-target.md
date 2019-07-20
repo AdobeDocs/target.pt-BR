@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Considerações que você deve fazer antes de implementar o Adobe Target.
 
-Esta seção inclui informações para desenvolvedores, específicas à sua implementação, que eles precisam coletar, considerações de privacidade, uma discussão sobre cookies, uma lista dos vários métodos que podem ser usados​para obter dados no Target, considerações de segurança e informações sobre a criptografia do TLS (Transport Layer Security).
+Esta seção inclui informações para desenvolvedores, específicas à sua implementação, que eles precisam coletar, considerações de privacidade, uma discussão sobre cookies, uma lista dos vários métodos que podem ser usados&#x200B;para obter dados no Target, considerações de segurança e informações sobre a criptografia do TLS (Transport Layer Security).
 
 >[!IMPORTANT]
 >
