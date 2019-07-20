@@ -65,7 +65,7 @@ A mbox.js versão 61 contém os seguintes aprimoramentos:
 
 **Data de lançamento:** 21 de abril de 2016
 
-Por padrão, o conteúdo da página não está oculto. A versão 60 oculta o conteúdo da página somente quando a opção de &quot;criação automática de mbox global&quot; está ativada. Ela usa a propriedade CSS `opacity:0` para ocultação de página em vez de `display:none`. Isso garante a entrega adequada para sites responsivos e se alinha à [!DNL at.js].
+Por padrão, o conteúdo da página não está oculto. A versão 60 oculta o conteúdo da página somente quando a opção de "criação automática de mbox global" está ativada. Ela usa a propriedade CSS `opacity:0` para ocultação de página em vez de `display:none`. Isso garante a entrega adequada para sites responsivos e se alinha à [!DNL at.js].
 
 É possível ativar o ocultamento do corpo usando duas configurações:
 
@@ -152,7 +152,7 @@ As seguintes alterações foram feitas nesta versão:
 
    Essa alteração pode levar a mudanças no comportamento ao se entregar alguns tipos de ofertas. Veja algumas condições específicas que deverão ser levadas em consideração:
 
-   * O conteúdo HTML retornado como parte de uma &quot;oferta de plug-in&quot; não é renderizada corretamente, mas o JavaScript nas ofertas é executado conforme esperado.
+   * O conteúdo HTML retornado como parte de uma "oferta de plug-in" não é renderizada corretamente, mas o JavaScript nas ofertas é executado conforme esperado.
    * As ofertas JavaScript que retornam à mbox global podem ter o código JavaScript incorporado na tag `<script>` ou referenciado por um atributo `src`.
 
       Para isso, adicione o atributo `async` à chamada do script da seguinte maneira:
@@ -165,7 +165,7 @@ As seguintes alterações foram feitas nesta versão:
 
 A funcionalidade a seguir não tem suporte na mbox.js versão 57:
 
-* Uma mbox global com criação automática gerada no Target Standard não funciona com tipos de ofertas hospedadas do Target Classic. Os tipos de ofertas hospedadas incluem &quot;oferta em seu site&quot; e &quot;oferta fora do Test&amp;Target&quot;.
+* Uma mbox global com criação automática gerada no Target Standard não funciona com tipos de ofertas hospedadas do Target Classic. Os tipos de ofertas hospedadas incluem "oferta em seu site" e "oferta fora do Test&amp;Target".
 
    Isso significa que, no Target Classic, você não deve selecionar a mbox global criada automaticamente do Target Standard quando uma dessas ofertas é obrigatória.
 * Somente plug-ins JavaScript contam com suporte.
@@ -192,9 +192,9 @@ As seguintes alterações foram feitas nesta versão:
 
 * Alterações do Recommendations Premium para suportar o envio parâmetros para a mbox global
 * Inclui 5 segundos de espera para a chamada de carregamento do target.js. Nos raros casos em que o arquivo não é carregado, a página será renderizada e nenhuma atividade do Target Standard será exibida.
-* O &quot;JavaScript extra&quot; foi movido para ser executado antes da mbox global
+* O "JavaScript extra" foi movido para ser executado antes da mbox global
 
-   Todas as definições no v56+ têm nomes espaçados. Se houver funções declaradas em &quot;extra JavaScript&quot;, elas deverão ter o prefixo `window`.
+   Todas as definições no v56+ têm nomes espaçados. Se houver funções declaradas em "extra JavaScript", elas deverão ter o prefixo `window`.
 
    Por exemplo:
 
@@ -210,7 +210,7 @@ As seguintes alterações foram feitas nesta versão:
 
    As variáveis que devem estar acessíveis globalmente também devem receber o prefixo `window`.
 
-* Adição de um cookie chamado &quot;em-disabled&quot;, que o mbox.js fornece ao usuário se o carregamento de target.js falha durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os usuários com esse cookie não verão o conteúdo de teste nem serão contados nos relatórios de atividades. O restante do conteúdo de ofertas (de campanhas no Target Classic, por exemplo) continuará a ser carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
+* Adição de um cookie chamado "em-disabled", que o mbox.js fornece ao usuário se o carregamento de target.js falha durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os usuários com esse cookie não verão o conteúdo de teste nem serão contados nos relatórios de atividades. O restante do conteúdo de ofertas (de campanhas no Target Classic, por exemplo) continuará a ser carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
 
 ## mbox versão 55
 
