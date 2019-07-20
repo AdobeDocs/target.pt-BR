@@ -55,20 +55,20 @@ O relatório Detalhes do pedido (conhecido como relatório de Auditoria no [!DNL
 
 * Identificação do produto
 
-   O tamanho total dos IDs dos produtos, concatenados com vírgulas, não deve ultrapassar 255 caracteres ou eles não serão exibidos corretamente no relatório. Por exemplo: se seu pedido tem produtos com os IDs &quot;aa, bb&quot;, o tamanho total é &quot;aa,bb&quot; = 5.
+   O tamanho total dos IDs dos produtos, concatenados com vírgulas, não deve ultrapassar 255 caracteres ou eles não serão exibidos corretamente no relatório. Por exemplo: se seu pedido tem produtos com os IDs "aa, bb", o tamanho total é "aa,bb" = 5.
 
 * Experiência
 
    No relatório [!UICONTROL Detalhes do pedido] para atividades de [!UICONTROL Teste A/B], [!UICONTROL Direcionamento de experiência] (XT) e [!UICONTROL Teste multivariado] (MVT), a coluna [!UICONTROL Experiência] contém a `localId` (identificação do local) da experiência. Este é o valor emitido de `$campaign.recipe.id` em tokens de oferta.
 
-   Não há uma coluna [!UICONTROL Experiência] para atividades de [!UICONTROL Personalização automatizada] (AP). A coluna [!UICONTROL Nome do algoritmo] atual foi substituída pela terminologia &quot;Controle&quot; versus &quot;Segmentação&quot;, conforme mostrado no [!DNL Target].
+   Não há uma coluna [!UICONTROL Experiência] para atividades de [!UICONTROL Personalização automatizada] (AP). A coluna [!UICONTROL Nome do algoritmo] atual foi substituída pela terminologia "Controle" versus "Segmentação", conforme mostrado no [!DNL Target].
 
    Não houve impacto para as atividades do [!UICONTROL Recommendations].
 
 >[!NOTE]
 >
 >* Os dados do relatório do pedido incluem quatro semanas de dados para o ambiente padrão (grupo de hosts) e duas semanas para todos os ambientes não padrão.
->* As métricas de receita definidas para &quot;Incrementar a contagem e manter o usuário na atividade&quot; registram detalhes do pedido apenas para o primeiro pedido feito pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversões, mas não adicionam receita a RPV/AOV/Vendas e não serão incluídos no relatório de Detalhes do pedido.
+>* As métricas de receita definidas para "Incrementar a contagem e manter o usuário na atividade" registram detalhes do pedido apenas para o primeiro pedido feito pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversões, mas não adicionam receita a RPV/AOV/Vendas e não serão incluídos no relatório de Detalhes do pedido.
 
 
 ## Práticas recomendadas
