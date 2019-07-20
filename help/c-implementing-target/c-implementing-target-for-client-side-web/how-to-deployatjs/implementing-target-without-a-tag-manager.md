@@ -122,7 +122,7 @@ Para baixar a [!DNL at.js] usando a API.
    }
    ```
 
-   Neste exemplo, &quot;6&quot; é o número do administrador.
+   Neste exemplo, "6" é o número do administrador.
 
 1. Baixar [!DNL at.js].
 
@@ -213,7 +213,7 @@ Considere as informações importantes a seguir:
 
 ## Rastrear conversas {#task_E85D2F64FEB84201A594F2288FABF053}
 
-A mbox de confirmação de pedido registra detalhes sobre pedidos no seu site e permite a geração de relatórios baseados em receita e pedidos. A mbox de confirmação de pedido também pode impulsionar algoritmos de recomendação, como &quot;Pessoas que compraram o produto x também compraram o produto y&quot;.
+A mbox de confirmação de pedido registra detalhes sobre pedidos no seu site e permite a geração de relatórios baseados em receita e pedidos. A mbox de confirmação de pedido também pode impulsionar algoritmos de recomendação, como "Pessoas que compraram o produto x também compraram o produto y".
 
 <!-- 
 
