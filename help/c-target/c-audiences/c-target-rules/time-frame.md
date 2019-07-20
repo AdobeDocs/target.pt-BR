@@ -38,7 +38,7 @@ Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](../../../c-t
 
    ![Divisão de semana e dia](assets/week_and_day_parting.png)
 
-   Você pode usar as opções de Divisão de semana e dia, por exemplo, para exibir uma opção de &quot;Bate-papo agora&quot; para os visitantes, somente durante os dias e horas em que a sua central de atendimento estiver funcionando.
+   Você pode usar as opções de Divisão de semana e dia, por exemplo, para exibir uma opção de "Bate-papo agora" para os visitantes, somente durante os dias e horas em que a sua central de atendimento estiver funcionando.
 
    Selecione um ou mais dias da semana e defina as horas de início e término. Clique em **[!UICONTROL Adicionar mais]para especificar os padrões adicionais, conforme desejado.**
 
