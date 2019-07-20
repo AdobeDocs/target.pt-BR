@@ -49,7 +49,7 @@ A ilustração a seguir mostra um público-alvo que direciona os usuários para 
 
 ## Precisão {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 A tabela a seguir mostra a precisão das informações geográficas baseadas em IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexões de Internet com fuio ou Wi-Fi. A DigitalEnvoy oferece os dados mais precisos do setor. A precisão global é de mais de 99,9% em nível nacional e de até 97% em nível municipal. As informações de precisão não se aplicam a redes baseadas em torre de celular.
 
@@ -82,7 +82,7 @@ Por exemplo, use:
 * `profile.geolocation.connectionSpeed`
 * `profile.geolocation.mobileCarrier`
 
-Dessa forma você pode criar uma expressão de definição com o nome de &quot;Da América do Norte&quot; com o código a seguir:
+Dessa forma você pode criar uma expressão de definição com o nome de "Da América do Norte" com o código a seguir:
 
 `return profile.geolocation.country == 'united states' || profile.geolocation.country == 'canada' || profile.geolocation.country == 'mexico';`
 
@@ -119,7 +119,7 @@ A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi
 
 **Como o recurso geográfico trata visitantes da AOL?**
 
-Devido a AOL enviar todo o tráfego por servidores proxy, somente podemos identificá-los no nível do país. Por exemplo, uma campanha direcionada para a França alcançará com sucesso usuários da AOL na França. No entanto, uma campanha direcionada para Paris não será capaz de alcançar usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como &quot;aol.&quot; Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos &quot;estados unidos&quot; e a região corresponde à &quot;aol.&quot;
+Devido a AOL enviar todo o tráfego por servidores proxy, somente podemos identificá-los no nível do país. Por exemplo, uma campanha direcionada para a França alcançará com sucesso usuários da AOL na França. No entanto, uma campanha direcionada para Paris não será capaz de alcançar usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como "aol." Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos "estados unidos" e a região corresponde à "aol."
 
 **Que nível de granularidade de localidade é fornecido pelo geolocalização?**
 
@@ -140,7 +140,7 @@ Será necessário limpar os cookies do navegador antes.
 
 **Como os territórios, por exemplo, Porto Rico e Hong Kong, são mapeados na estrutura de geolocalização?**
 
-Porto Rico, Hong Konge outros territórios são tratados como valores de &quot;País&quot; separados.
+Porto Rico, Hong Konge outros territórios são tratados como valores de "País" separados.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
