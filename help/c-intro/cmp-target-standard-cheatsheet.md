@@ -87,13 +87,13 @@ Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-co
 
 Isso é fácil de conseguir usando a opção [Configurações avançadas](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponível com cada meta. Você tem opções para decidir o que deve acontecer depois que o usuário atingir a meta e como você deseja que a contagem seja incrementada.
 
-Então, neste caso, você pode escolher &quot;Incrementar contagem, liberar usuário e impedir reentrada&quot; juntamente com &quot;Conteúdo de outra atividade/atividade padrão&quot; para atingir o objetivo. Verifique também outras opções.
+Então, neste caso, você pode escolher "Incrementar contagem, liberar usuário e impedir reentrada" juntamente com "Conteúdo de outra atividade/atividade padrão" para atingir o objetivo. Verifique também outras opções.
 
 **Eu criei várias metas na minha atividade. Posso criar uma cadeia de metas como um funil para fins de análise e criação de relatórios?**
 
 **Por exemplo, eu desejo considerar a Meta B quando o usuário tiver atingido a Meta A, para que eu possa monitorar os números para um funil específico.**
 
-O Target tem uma maneira robusta de atingir isso com nosso recurso de dependência de métrica. Simplesmente [adicione dependências em outra métrica de sucesso](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Você tem opções como &quot;Atingido&quot; e &quot;Não atingido,&quot; juntamente com a capacidade de combinar métricas de várias formas para criar qualquer combinação que você desejar.
+O Target tem uma maneira robusta de atingir isso com nosso recurso de dependência de métrica. Simplesmente [adicione dependências em outra métrica de sucesso](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Você tem opções como "Atingido" e "Não atingido," juntamente com a capacidade de combinar métricas de várias formas para criar qualquer combinação que você desejar.
 
 **Como posso ter certeza sobre como configurar uma atividade para atingir meus objetivos?**
 
@@ -174,7 +174,7 @@ Veja os seguintes aspectos do produto:
 
 Confira as [Regras de modelo](../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) para incluir várias páginas estruturadas semelhantes à atividade, enquanto ainda cria a experiência no único URL fornecido.
 
-**Estou cansado de ver a mensagem &quot;Deixe seu carregador carregar os scripts&quot; quando tento carregar minha página no Visual Experience Composer (VEC). Como posso evitar isso?**
+**Estou cansado de ver a mensagem "Deixe seu carregador carregar os scripts" quando tento carregar minha página no Visual Experience Composer (VEC). Como posso evitar isso?**
 
 Isso ocorre porque seu site tem conteúdo misto. É um site que obtém recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
