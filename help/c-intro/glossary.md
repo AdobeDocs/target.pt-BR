@@ -76,7 +76,7 @@ Testa e acompanha visita para anúncios e outros conteúdos de deslocamento. Tam
 
 **campaign**
 
-Igual a &quot;atividade&quot;
+Igual a "atividade"
 
 **pontuação de captura**
 
@@ -164,7 +164,7 @@ Um novato é um visitante que atende aos critérios para entrar em uma atividade
 
 **ambiente**
 
-Os hosts são agrupados em ambientes para facilitar o gerenciamento. Os grupos de hosts predefinidos são Produção, Armazenamento temporário e Desenvolvimento. No entanto, é possível adicionar novos grupos de hosts e renomear os já existentes. Os ambientes eram chamados de &quot;grupos de hosts&quot; no [!DNL Target Classic].
+Os hosts são agrupados em ambientes para facilitar o gerenciamento. Os grupos de hosts predefinidos são Produção, Armazenamento temporário e Desenvolvimento. No entanto, é possível adicionar novos grupos de hosts e renomear os já existentes. Os ambientes eram chamados de "grupos de hosts" no [!DNL Target Classic].
 
 **experiência**
 
@@ -206,7 +206,7 @@ Qualquer servidor da Web (ou domínio da Web) de onde você disponibiliza conte�
 
 **grupo de hosts**
 
-Consulte *Ambiente*. Os grupos de hosts são chamados de &quot;ambientes&quot; no [!DNL Target Standard/Premium].
+Consulte *Ambiente*. Os grupos de hosts são chamados de "ambientes" no [!DNL Target Standard/Premium].
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
@@ -228,7 +228,7 @@ Uma área de conteúdo específico em uma página, normalmente, contido por um e
 
 **mbox**
 
-&quot;Marketing box&quot;, o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
+"Marketing box", o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
 
 **mbox.js**
 
