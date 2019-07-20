@@ -19,7 +19,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre aumento e
 
 ## Posso realizar cálculos offline para o A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics]. Para obter mais informações, consulte &quot;Realização de cálculos off-line do Analytics para Target (A4T)&quot; em [Nível de confiança e Intervalo de confiança](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics]. Para obter mais informações, consulte "Realização de cálculos off-line do Analytics para Target (A4T)" em [Nível de confiança e Intervalo de confiança](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Como o aumento é calculado? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -37,7 +37,7 @@ Atualmente, o aumento e a confiança não podem ser gerados para métricas calcu
 
 O A4T usa cálculos de métricas não binárias com a soma dos dados quadrados. A variação é calculada usando a soma dos dados quadrados. Pedidos extremos não são levados em consideração.
 
-Qualquer segmento do Analytics pode ser aplicado ao relatório. Essa é a maneira como você pode obter o &quot;pedido extremo&quot; entre outras opções do segmento. Uma métrica também pode ser construída para limitar as coisas, como quantas vezes um visitante converteu.
+Qualquer segmento do Analytics pode ser aplicado ao relatório. Essa é a maneira como você pode obter o "pedido extremo" entre outras opções do segmento. Uma métrica também pode ser construída para limitar as coisas, como quantas vezes um visitante converteu.
 
 ## O aumento e a confiança funcionam na Ad Hoc e Report Builder? Se não é nativo, posso fazer isso sozinho? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
