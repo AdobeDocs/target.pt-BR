@@ -90,7 +90,7 @@ As atividades do Recommendations exibem automaticamente produtos ou conteúdo qu
 
 ## A rede Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-&quot;Edge&quot; é uma arquitetura de fornecimento distribuída geograficamente que assegura tempos de resposta ideais para usuários finais que solicitem o conteúdo, independentemente de onde estejam localizados ao redor do mundo.
+"Edge" é uma arquitetura de fornecimento distribuída geograficamente que assegura tempos de resposta ideais para usuários finais que solicitem o conteúdo, independentemente de onde estejam localizados ao redor do mundo.
 
 Para melhorar os tempos de resposta, os ambientes do Edge hospedam somente a lógica de atividade e o perfil em cache e as informações da oferta. Bancos de dados de atividade e conteúdo, [!DNL Analytics] dados, APIs e interfaces de usuário dos profissionais de marketing são abrigados nos ambientes de dados centrais da Adobe. As atualizações são enviadas para os nós da borda. Os ambientes centrais e os nós do Edge são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. A modelagem 1:1 também é armazenada em cada borda, portanto, essas solicitações mais complexas também podem ser processadas no Edge.
 
@@ -138,9 +138,9 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
 * **Sem cloaking** - Cloaking é exibir um conjunto de conteúdo aos seus usuários e um conjunto diferente de conteúdo para os bots do mecanismo de pesquisa, identificando-os especificamente e enviando conteúdo diferente propositalmente.
 
-   O Target, como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Isso significa que os bots podem ser incluídos em testes que você está executando, se selecionados aleatoriamente, e &quot;ver&quot; as variações de teste.
+   O Target, como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Isso significa que os bots podem ser incluídos em testes que você está executando, se selecionados aleatoriamente, e "ver" as variações de teste.
 
-* **Use rel=&quot;canonical&quot;** - Algumas vezes, um teste A/B precisa ser configurado usando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, se a Adobe estivesse testando sua página inicial usando URLs diferentes para cada variação, a tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
+* **Use rel="canonical"** - Algumas vezes, um teste A/B precisa ser configurado usando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, se a Adobe estivesse testando sua página inicial usando URLs diferentes para cada variação, a tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -150,20 +150,20 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    Embora continuemos a procurar soluções viáveis para obter alinhamento total com as diretrizes do mecanismo de pesquisa, para esses clientes que precisam usar URLs separados para testes, estamos confiantes de que a implementação apropriada das tags canônicas mencionadas acima diminui o risco associado a esta abordagem.
 
-* **Execute experimentos somente conforme necessário** - Acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. O Target [fornece práticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar quando seu teste atingiu este ponto. Recomendamos que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Execute experimentos somente conforme necessário** - Acreditamos que "conforme necessário" é o quanto for necessário para atingir significância estatística. O Target [fornece práticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar quando seu teste atingiu este ponto. Recomendamos que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
-   Usando a plataforma Target para &quot;publicar&quot; testes vencedores não é recomendado como solução permanente, mas contanto que o teste vencedor é publicado para 100% dos usuários em 100% do tempo, essa abordagem pode ser usada enquanto o processo de codificação permanente do teste vencedor é concluído.
+   Usando a plataforma Target para "publicar" testes vencedores não é recomendado como solução permanente, mas contanto que o teste vencedor é publicado para 100% dos usuários em 100% do tempo, essa abordagem pode ser usada enquanto o processo de codificação permanente do teste vencedor é concluído.
 
    É importante levar em consideração também o que seu teste alterou. Simplesmente atualizar a cor de botões ou outros itens de menor importância não baseados em texto na página não exercerá qualquer influência sobre suas classificações orgânicas. As alterações, entretanto, devem ser codificadas permanentemente.
 
    Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para os mecanismos de pesquisa e nunca tiver sido concebida para classificar em pesquisa orgânica inicialmente, nenhuma das considerações acima é aplicável.
 
-O Google afirma que a seguir essas orientações &quot;deve resultar em seus testes com pouca ou nenhuma impacto no site nos resultados da pesquisa&quot;.
+O Google afirma que a seguir essas orientações "deve resultar em seus testes com pouca ou nenhuma impacto no site nos resultados da pesquisa".
 
 Além dessas diretrizes, a Google também fornece mais uma diretriz na documentação de sua ferramenta de Experiências com Conteúdo:
 
-* &quot;Suas variações de páginas devem manter o espírito do conteúdo das suas páginas originais. Essas variações não devem alterar o significado da percepção geral do seu usuário sobre aquele conteúdo original&quot;.
+* "Suas variações de páginas devem manter o espírito do conteúdo das suas páginas originais. Essas variações não devem alterar o significado da percepção geral do seu usuário sobre aquele conteúdo original".
 
-A Google afirma, como um exemplo, que &quot;se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice.&quot;
+A Google afirma, como um exemplo, que "se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice."
 
 Acreditamos que seria difícil alterar involuntariamente o significado do conteúdo original contido nas variações de teste, mas recomendamos que esteja ciente dos temas das palavras-chave em uma página e manter esses temas. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. Recomendamos que você envolva seu parceiro de SEO como parte de seu protocolo de testes.
