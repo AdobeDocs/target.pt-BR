@@ -76,8 +76,8 @@ Para a extensão Modify Response Header (Firefox), já que você não pode adici
 
       * Alterne **[!UICONTROL Adicionar]** para **[!UICONTROL Remover]**.
       * Alterne **[!UICONTROL Solicitação]** para **[!UICONTROL Resposta]**.
-      * Digite &quot;X-Frame-Options&quot; como o nome do cabeçalho.
-      * Repita as etapas anteriores e digite &quot;x-frame-options&quot; como nome do cabeçalho.
+      * Digite "X-Frame-Options" como o nome do cabeçalho.
+      * Repita as etapas anteriores e digite "x-frame-options" como nome do cabeçalho.
 
          >[!NOTE]
          >
@@ -117,7 +117,7 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 * Você inseriu um URL inválido.
 * Você não inseriu um URL padrão na sua página de configuração de conta.
 
-## Ao iniciar um URL para uma atividade do VEC, o console exibe a seguinte mensagem de erro: &quot;ReferenceError não captado:_AT não foi definido&quot;. (Somente VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
+## Ao iniciar um URL para uma atividade do VEC, o console exibe a seguinte mensagem de erro: "ReferenceError não captado:_AT não foi definido". (Somente VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
 Esse erro ocorre ao tentar entregar campanhas do Visual Experience Composer (VEC) sem atualizar a mbox.js baixado na interface do usuário do Target com a opção [!UICONTROL Suporte a atividades do Visual Experience Composer] ativada ([!UICONTROL Configurar] &gt; [!UICONTROL Implementação] &gt; [!UICONTROL mbox.js] &gt; [!UICONTROL Editar as configurações da mbox.js]).
 
