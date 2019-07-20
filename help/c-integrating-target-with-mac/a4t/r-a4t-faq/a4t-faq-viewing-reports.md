@@ -54,15 +54,15 @@ Considere o seguinte:
 * [!UICONTROL Impressões de atividade] (medidas pelo [!DNL Target]) e [!UICONTROL Instâncias] (medidas pelo [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
 * Atualmente, as métricas de [!UICONTROL Impressões de atividades] e [!UICONTROL Conversão de atividades] são aumentadas no [!DNL Analysis Workspace] e não devem ser usadas até que esse problema seja resolvido.
 
-## O que significa &quot;conversões de atividade&quot; se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
+## O que significa "conversões de atividade" se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
-&quot;Conversões de atividades&quot; estarão vazias se uma métrica do Analytics foi selecionada como a métrica de conversão da atividade.
+"Conversões de atividades" estarão vazias se uma métrica do Analytics foi selecionada como a métrica de conversão da atividade.
 
-## Por que vejo &quot;não especificado&quot; nos relatórios do Analytics? O que isso significa? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## Por que vejo "não especificado" nos relatórios do Analytics? O que isso significa? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
 
 ![](assets/unspecified.png)
 
-Em outros relatórios, &quot;não especificado&quot; significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir &quot;não especificado&quot;, o serviço de classificação ainda não foi executado. Pode levar até 36 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
+Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Pode levar até 36 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
 
 Após o período de classificação, os dados são exibidos nesses relatórios, aproximadamente uma hora depois de serem coletados no site. Todas as métricas, os segmentos e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
@@ -108,7 +108,7 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 3 | 1 | 1 |
 
-Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para geração de relatório do Target, porque você não está comparando a atividade com atividade do Target para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
+Como as duas experiências foram vistas antes da conversão, ambas recebem "crédito" pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para geração de relatório do Target, porque você não está comparando a atividade com atividade do Target para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
 Para obter mais informações, consulte [Variáveis de conversão (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) na ajuda do Analytics.
 
