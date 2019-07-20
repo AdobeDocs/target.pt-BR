@@ -30,7 +30,7 @@ Esse URL determina onde você começa quando abre o VEC. Se não inserir um padr
 
 O conteúdo dentro de um iframe na página não pode ser modificado no VEC. Para editar o conteúdo dentro de um iframe, verifique se o documento do iframe está ativado para o Target, em seguida, carregue um URL de iframe no VEC.
 
-Você pode usar os menus suspensos na parte superior da página para ver como sua página aparecerá para públicos-alvo diferentes ou com experiências diferentes. Você pode fornecer um nome para cada experiência na segunda lista suspensa. Por exemplo, se você estiver testando o local do link Início na sua barra de navegação, poderá nomear uma experiência em que esse link aparecerá primeiro como algo como &quot;link Início&quot; para facilitar a identificação das experiências na lista.
+Você pode usar os menus suspensos na parte superior da página para ver como sua página aparecerá para públicos-alvo diferentes ou com experiências diferentes. Você pode fornecer um nome para cada experiência na segunda lista suspensa. Por exemplo, se você estiver testando o local do link Início na sua barra de navegação, poderá nomear uma experiência em que esse link aparecerá primeiro como algo como "link Início" para facilitar a identificação das experiências na lista.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Para continuar o gerenciamento de experiências na atividade atual ou adicionar 
 
 >[!NOTE]
 >
->Há um problema conhecido com este recurso que será corrigido na próxima versão. Para obter mais informações, consulte &quot;Cancelar o carregamento de uma página no VEC&quot; na página [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#cancel).
+>Há um problema conhecido com este recurso que será corrigido na próxima versão. Para obter mais informações, consulte "Cancelar o carregamento de uma página no VEC" na página [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#cancel).
 
 ## Vídeos de treinamento
 
@@ -131,7 +131,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### No expediente: Visual Experience Composer
 
-Este vídeo é uma gravação do &quot;[No expediente](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
+Este vídeo é uma gravação do "[No expediente](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)", uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
 * Como funciona o VEC
 * Como evitar problemas comuns com o VEC
