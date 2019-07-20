@@ -23,7 +23,7 @@ O Visual Experience Composer (VEC) fornece uma interface visual para editar as e
 
    ![Público-alvo de todos os visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
    À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -81,7 +81,7 @@ O Visual Experience Composer (VEC) fornece uma interface visual para editar as e
 
    Por exemplo, suponha que você não sabia que a ordem era importante ao criar uma atividade XT. Mais tarde você percebe durante os testes que visitantes que você pensava que deveriam se qualificar para as experiências B ou C estão se qualificando para a experiência A. Isso pode ocorrer pois os públicos-alvo não são mutualmente exclusivos e não estão na ordem correta (por exemplo, experiência A = Estados Unidos, experiência B = São Francisco e experiência C = Califórnia). Nesse cenários, todos usuários dos Estados Unidos se qualificam para a experiência A, mesmo se estiverem em São Francisco ou em outro lugar da Califórnia. Você pode reordenar os pares de público-alvo/experiência do mais restritivo para o menos restritivo (São Francisco &gt; Califórnia &gt; Estados Unidos) sem ter que recriar a atividade inteira.
 
-   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Uma experiência direcionada para &quot;Todos os visitantes&quot; pode ser usada como a última experiência na atividade de direcionamento de experiência para &quot;capturar&quot; todos os visitantes que não se enquadram em nenhuma outra experiência.
+   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Uma experiência direcionada para "Todos os visitantes" pode ser usada como a última experiência na atividade de direcionamento de experiência para "capturar" todos os visitantes que não se enquadram em nenhuma outra experiência.
 
 ## Renomear ou editar uma experiência
 
