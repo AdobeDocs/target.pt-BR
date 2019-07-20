@@ -86,7 +86,7 @@ Muitos clientes estão confusos sobre as diferenças entre as APIs de entrega no
 
 As seguintes perguntas frequentes devem ajudá-lo a decidir qual usar:
 
-**Quando usar APIs do lado do servidor &quot;básicas&quot; versus o SDK do NodeJS?**
+**Quando usar APIs do lado do servidor "básicas" versus o SDK do NodeJS?**
 
 Idealmente, se estiver usando o NodeJS como a tecnologia de back-end, o SDK do NodeJS será uma escolha natural. O SDK lida com muitos detalhes, como cookies, cabeçalhos, carga útil, entre outros. Isso permite focar no centro do aplicativo.
 
