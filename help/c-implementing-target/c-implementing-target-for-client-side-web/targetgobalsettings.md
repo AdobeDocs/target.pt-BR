@@ -33,8 +33,8 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 | globalMboxAutoCreate | Booleano | Valor definido via IU | Indica se a solicitação global de mbox deve ser disparada ou não |
 | visitorApiTimeout | Número | 2000 ms = 2 s | Representa o tempo limite da solicitação da API de visitante |
 | ativado | Booleano | true | Indica se at.js está ativada como biblioteca, ou seja, se ela deve executar algo ou não. Sendo o principal caso de uso dessa configuração a não autorização de uso de cookies ou outras decisões personalizadas que desativariam a funcionalidade at.js |
-| defaultContentHiddenStyle | String | visibility: hidden | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe &quot;mboxDefault&quot; e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para ocultar conteúdo padrão |
-| defaultContentVisibleStyle | String | visibility: visible | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe &quot;mboxDefault&quot; e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para revelar uma oferta aplicada, caso exista, ou conteúdo padrão |
+| defaultContentHiddenStyle | String | visibility: hidden | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe "mboxDefault" e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para ocultar conteúdo padrão |
+| defaultContentVisibleStyle | String | visibility: visible | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe "mboxDefault" e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para revelar uma oferta aplicada, caso exista, ou conteúdo padrão |
 | bodyHiddenStyle | String | body { opacity: 0 } | Usado apenas quando `globalMboxAutocreate === true` para minimizar a chance de cintilação.<br>Para obter mais informações, consulte [Como o at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
 | bodyHidingEnabled | Booleano | true | Usado para controlar a cintilação quando `target-global-mbox` é usada para entregar ofertas criadas no Visual Experience Composer, também conhecido como ofertas visuais |
 | imsOrgId | String | ID da ORG IMS | Representa a ID da ORG IMS |
@@ -43,7 +43,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 | overrideMboxEdgeServerTimeout | Número | 1860000 =&gt; 31 minutos | Indica a vida útil do cookie que contém o valor `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booleano | false | Indica se o Target deve chamar a função `isOptedOut()` da API de visitante. Isso é parte da ativação do gráfico de dispositivos. |
 | selectorsPollingTimeout | Número | 5000 ms = 5 s | Na at.js 0.9.6, o Target apresentou essa nova configuração que pode ser anulada via `targetGlobalSettings`.<br>`selectorsPollingTimeout` representa quanto tempo o cliente está disposto a esperar até que todos os elementos identificados por seletores sejam exibidos na página.<br>Atividades criadas pelo Visual Experience Composer (VEC) têm ofertas que contêm seletores. |
-| dataProviders | Consulte &quot;Provedores de dados&quot; abaixo. | Consulte &quot;Provedores de dados&quot; abaixo. | Consulte &quot;Provedores de dados&quot; abaixo. |
+| dataProviders | Consulte "Provedores de dados" abaixo. | Consulte "Provedores de dados" abaixo. | Consulte "Provedores de dados" abaixo. |
 
 ## Uso {#section_9AD6FA3690364F7480C872CB55567FB0}
 
