@@ -29,7 +29,7 @@ Somente valor único.
 
 Este parâmetro obrigatório identifica o produto. Esta ID alfanumérica deve ser igual em todos os produtos da [Adobe Experience Cloud DNL] utilizados, incluindo o [!DNL Analytics], para que os produtos reconheçam o item e compartilhem dados sobre ele.
 
-Os valores do `entity.id` não devem conter barras, &quot;E&quot; comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
+Os valores do `entity.id` não devem conter barras, "E" comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
 
 Exemplo: `'entity.id=67833'`
 
@@ -97,7 +97,7 @@ Exemplo: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Somente valor único.
 
-A mensagem sobre o produto que é exibido na recomendação, como &quot;à venda&quot; ou &quot;promoção&quot;. A mensagem normalmente é mais detalhada do que o nome do produto. Use para definir informações adicionais para exibir com o produto no modelo.
+A mensagem sobre o produto que é exibido na recomendação, como "à venda" ou "promoção". A mensagem normalmente é mais detalhada do que o nome do produto. Use para definir informações adicionais para exibir com o produto no modelo.
 
 Exemplo: `'entity.message=Family&nbsp;special'`
 
