@@ -118,7 +118,7 @@ A versão 1.6.3 do at.js inclui as seguintes correções e aprimoramentos:
 
 Esta é uma versão de manutenção e aborda o seguinte problema:
 
-* Corrigido um problema que, em alguns sites de clientes, resultava em um loop &quot;async&quot; infinito.
+* Corrigido um problema que, em alguns sites de clientes, resultava em um loop "async" infinito.
 
 >[!IMPORTANT]
 >
@@ -204,7 +204,7 @@ A [!DNL at.js] versão 1.2.2 já está disponível.
 
 A [!DNL at.js] versão 1.2.1 já está disponível.
 
-* Correção de um problema no rastreamento de cliques em que um link com target=&quot;_blank&quot; impedia o Target de abrir o link em uma nova guia.
+* Correção de um problema no rastreamento de cliques em que um link com target="_blank" impedia o Target de abrir o link em uma nova guia.
 
 ## at.js versão 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
@@ -278,7 +278,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 **Data:** 19 de janeiro de 2017
 
-* Os nomes das mboxes agora podem conter caracteres especiais, incluindo &quot;E&quot; comercial (&amp;), para ser consistente com os requisitos de nomenclatura das mboxes usando a mbox.js.
+* Os nomes das mboxes agora podem conter caracteres especiais, incluindo "E" comercial (&amp;), para ser consistente com os requisitos de nomenclatura das mboxes usando a mbox.js.
 
    Para obter uma lista de caracteres especiais permitidos, consulte [Configurações da at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
