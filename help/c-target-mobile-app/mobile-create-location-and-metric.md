@@ -43,7 +43,7 @@ Existem dois métodos primários para criar um local do Target no seu aplicativo
    | `ADBTargetLocationRequest *myRequest` | Substitua `myRequest` com o nome de seu `targetLocation` no aplicativo. |
    | `targetCreateRequestWithName:@"heroBanner"` | Substitua `heroBanner` com o nome de seu `targetLocation` no Target. Este é o mesmo nome da mbox. Este banner herói aparece na interface do Target. |
    | `defaultContent:@"default.png"` | Substitua `default.png` com o valor que o aplicativo usa se o Target não responder. |
-   | `parameters:nil` | Especifique os parâmetros de perfil ou mbox. Veja mais informações na seção &quot;Passando dados personalizados&quot;. |
+   | `parameters:nil` | Especifique os parâmetros de perfil ou mbox. Veja mais informações na seção "Passando dados personalizados". |
 
    Este é um exemplo de chamada para carregar a solicitação:
 
