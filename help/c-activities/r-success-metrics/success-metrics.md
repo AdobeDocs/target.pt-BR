@@ -20,9 +20,9 @@ Métricas de sucesso são parâmetros usados para medir o sucesso de uma ativida
 
 Ao manter a meta do [!DNL Target Standard] de simplificar a criação de testes, o aplicativo cuida de uma parte da configuração que é feita manualmente no [!DNL Target Classic]. Por exemplo, métricas de sucesso são pré-configuradas com as opções ideais.
 
-Por padrão, os eventos de conversão são definidos para &quot;contar uma vez e manter o participante na atividade&quot; no [!DNL Target Standard]. As conversões são contabilizadas somente uma vez, nenhuma conversão repetida é contabilizada e o visitante sempre vê o conteúdo de teste.
+Por padrão, os eventos de conversão são definidos para "contar uma vez e manter o participante na atividade" no [!DNL Target Standard]. As conversões são contabilizadas somente uma vez, nenhuma conversão repetida é contabilizada e o visitante sempre vê o conteúdo de teste.
 
-As métricas de receita definidas para &quot;Incrementar a contagem e manter o usuário na atividade&quot; registram detalhes do pedido apenas para o primeiro pedido feito pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversões, mas não adicionam receita a RPV/AOV/Vendas e não serão incluídos no relatório de Detalhes do pedido.
+As métricas de receita definidas para "Incrementar a contagem e manter o usuário na atividade" registram detalhes do pedido apenas para o primeiro pedido feito pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversões, mas não adicionam receita a RPV/AOV/Vendas e não serão incluídos no relatório de Detalhes do pedido.
 
 As seguintes métricas estão disponíveis:
 
@@ -83,7 +83,7 @@ Use as configurações avançadas para determinar o que acontece depois que um u
 
 Estes vídeos mostram como usar métricas de atividade.
 
-* Compreender métricas de &quot;meta&quot;
+* Compreender métricas de "meta"
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
