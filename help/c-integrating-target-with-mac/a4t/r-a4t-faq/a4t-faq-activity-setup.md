@@ -19,7 +19,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre a configu
 
 ## Quais tipos de atividade são compatíveis com o Analytics como fonte de geração de relatórios (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-Para obter uma lista completa, consulte &quot;Tipos de atividade suportados&quot; no [Adobe Analytics como a Fonte de relatórios do Adobe Target (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+Para obter uma lista completa, consulte "Tipos de atividade suportados" no [Adobe Analytics como a Fonte de relatórios do Adobe Target (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Acabei de criar um atividade. Por que não vejo nenhum dado chegando? {#section_9F8092BE4225442896F926540292F221}
 
