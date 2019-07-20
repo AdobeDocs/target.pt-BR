@@ -23,11 +23,11 @@ Somente uma mbox global é suportada na sua conta.
 
 Você pode limitar o local de execução das atividades, ao adicionar as regras de URL às suas atividades. Para obter mais informações, consulte [Incluir a mesma experiência em páginas semelhantes](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Você também pode passar um parâmetro para a página usando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e depois selecionar esses parâmetros na seção &quot;configurar URL&quot; no [!UICONTROL Visual Experience Composer] (VEC) ou adicionar os parâmetros como &quot;refinamentos&quot; no Experience Composer baseado em formulário.
+Você também pode passar um parâmetro para a página usando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e depois selecionar esses parâmetros na seção "configurar URL" no [!UICONTROL Visual Experience Composer] (VEC) ou adicionar os parâmetros como "refinamentos" no Experience Composer baseado em formulário.
 
 ## Como transfiro os dados de receita em uma mbox global do Target? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
-Para coletar informações de receita e pedidos na target-global-mbox, &quot;parâmetros da mbox&quot; devem ser enviados para o Target. Esses parâmetros são os pares de nome/valor usados para enviar mais informações ao Target. O Target automaticamente procura esses parâmetros (nomes reservados) para preencher os dados da receita.
+Para coletar informações de receita e pedidos na target-global-mbox, "parâmetros da mbox" devem ser enviados para o Target. Esses parâmetros são os pares de nome/valor usados para enviar mais informações ao Target. O Target automaticamente procura esses parâmetros (nomes reservados) para preencher os dados da receita.
 
 Para o `orderConfirmPage`, você deve transmitir `orderTotal`, `orderId`e `productPurchasedId`. Para obter mais informações, consulte [Criar uma mbox de confirmação de pedido - mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
