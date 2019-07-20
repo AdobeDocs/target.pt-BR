@@ -25,7 +25,7 @@ Criar uma atividade do Target Standard que usa o Analytics como a fonte de gera�
 
    >[!NOTE]
    >
-   >Um nome de atividade não pode incluir o caractere &quot;%&quot; se o Analytics for usado como a fonte de relatórios.
+   >Um nome de atividade não pode incluir o caractere "%" se o Analytics for usado como a fonte de relatórios.
 
 1. Selecione o tipo de atividade e comece a configurar a atividade.
 1. Quando chegar na parte de **[!UICONTROL Configurações]** do fluxo de criação de atividade, escolha **[!UICONTROL Adobe Analytics]** e especifique a empresa.
@@ -53,7 +53,7 @@ Criar uma atividade do Target Standard que usa o Analytics como a fonte de gera�
 
    >[!NOTE]
    >
-   >Você pode enviar uma métrica personalizada com base no Target para o Analytics, em vez de confiar apenas nos dados do Analytics. Por exemplo, você pode monitorar ao clicar em uma página que normalmente não é rastreada pelo Analytics. Essa métrica personalizada é enviada para o Analytics automaticamente do servidor do Target e aparece como a métrica de &quot;Conversão do Target&quot; no seletor de métricas do Analytics. A métrica de conversão do Target estará vazia se você optar por usar as métricas do Analytics.
+   >Você pode enviar uma métrica personalizada com base no Target para o Analytics, em vez de confiar apenas nos dados do Analytics. Por exemplo, você pode monitorar ao clicar em uma página que normalmente não é rastreada pelo Analytics. Essa métrica personalizada é enviada para o Analytics automaticamente do servidor do Target e aparece como a métrica de "Conversão do Target" no seletor de métricas do Analytics. A métrica de conversão do Target estará vazia se você optar por usar as métricas do Analytics.
 
    Estabelecer uma meta não significa que você não pode usar outras métricas ao avaliar os resultados do teste. A meta, no entanto, é um lembrete de algo que deseja melhorar com a atividade.
 
