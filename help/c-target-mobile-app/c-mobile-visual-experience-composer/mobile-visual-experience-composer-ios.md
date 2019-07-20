@@ -21,11 +21,11 @@ Para obter mais informações sobre a ativação da extensão VEC do Adobe Targe
 
 ## Incluir o SDK para dispositivos móveis e a biblioteca do Target {#sdk-library}
 
-1. Adicione a biblioteca ao seu projeto por meio do Cocoapods [!DNL Podfile], adicionando o pod &quot;`ACPTargetVEC`&quot;.
+1. Adicione a biblioteca ao seu projeto por meio do Cocoapods [!DNL Podfile], adicionando o pod "`ACPTargetVEC`".
 
 1. Abra o projeto do aplicativo Objective-C no XCode.
 
-1. Acesse as configurações de criação do seu projeto e defina &quot;Sempre integrar bibliotecas padrão do Swift&quot; para Sim, se não estiver definido dessa maneira.
+1. Acesse as configurações de criação do seu projeto e defina "Sempre integrar bibliotecas padrão do Swift" para Sim, se não estiver definido dessa maneira.
 
 1. Nas configurações de criação do projeto, encontre “Outros sinalizadores de vinculador” e adicione `$(inherited)` se não estiver lá.
 
@@ -173,7 +173,7 @@ ACPTargetVEC.setGlobalRequest(targetParams)
 
 **Os parâmetros de envio para o próximo acionador de exibição:**
 
-Fornecemos algumas exibições automáticas que são criadas por padrão, como &quot;`AUTO_<viewControllerName>`&quot;, para cada controlador de exibição presente no aplicativo. Se você quiser enviar esses parâmetros, poderá chamar a seguinte API:
+Fornecemos algumas exibições automáticas que são criadas por padrão, como "`AUTO_<viewControllerName>`", para cada controlador de exibição presente no aplicativo. Se você quiser enviar esses parâmetros, poderá chamar a seguinte API:
 
 ```
 //For Objective-c 
