@@ -31,13 +31,13 @@ As exigências da conta do usuário devem ser atendidas antes da criação de um
 
 ## Etapa 3: Implementar o serviço de ID de visitante da Experience Cloud
 
-O serviço de ID do visitante permite identificar os usuários através das soluções da Experience Cloud. Você deve implementar ou migrar para a versão exigida da ID de visitante da Experience Cloud. Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+O serviço de ID do visitante permite identificar os usuários através das soluções da Experience Cloud. Você deve implementar ou migrar para a versão exigida da ID de visitante da Experience Cloud. Para obter mais informações, consulte "Requisitos de implementação" em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Consulte [Implementar o Serviço da Experience Cloud ID para Target](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html) na documentação Serviço da ID de visitante da Experience Cloud.
 
 ## Etapa 4: Atualizar o AppMeasurement para JavaScript ou s_code
 
-Você deve implementar ou migrar para a versão exigida da appMeasurement.js. Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Você deve implementar ou migrar para a versão exigida da appMeasurement.js. Para obter mais informações, consulte "Requisitos de implementação" em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Para novas implementações, consulte [Implementação JavaScript do Analytics](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
 
@@ -47,11 +47,11 @@ Para uma migração, consulte [Migração para o AppMeasurement para JavaScript]
 
 Você deve implementar ou migrar para a versão exigida da at.js ou da mbox.js usando sua conta de produção. Não são necessárias modificações no código.
 
-Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Para obter mais informações, consulte "Requisitos de implementação" em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 ## Etapa 6: Hospedagem de at.js ou mbox.js
 
-Se você implantou anteriormente o at.js ou o mbox.js, você pode substituir seu arquivo existente pela versão atualizada. Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Se você implantou anteriormente o at.js ou o mbox.js, você pode substituir seu arquivo existente pela versão atualizada. Para obter mais informações, consulte "Requisitos de implementação" em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Caso contrário, este arquivo pode ser hospedado com o serviço de ID de visitante e os arquivos do AppMeasurement para JavaScript. Esses arquivos devem ser hospedados em um servidor da Web que seja acessível a todas as páginas no seu site. Você precisa do caminho até esses arquivos na próxima etapa.
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. Quando configurado, o formato da carga retornada é semelhante ao seguinte:
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. Quando configurado, o formato da carga retornada é semelhante ao seguinte:
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. A carga do Analytics será retornada somente para esta chamada e o backend do Target não enviará a carga para o Analytics. Ao seguir essa abordagem, cada solicitação do Target. js não retornará a carga por padrão, mas somente quando desejado e especificada.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. A carga do Analytics será retornada somente para esta chamada e o backend do Target não enviará a carga para o Analytics. Ao seguir essa abordagem, cada solicitação do Target. js não retornará a carga por padrão, mas somente quando desejado e especificada.
 
 Por exemplo:
 
