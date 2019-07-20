@@ -32,7 +32,7 @@ Os públicos pré-construídos na categoria Biblioteca do Target são herdados e
 
    As regras de direcionamento pré-criadas incluem, Sistema operacional Windows, Dispositivo do tablet, Navegador Safari, Visitantes que retornam, Referido no Google e muito mais.
 
-   O público-alvo &quot;Tablet Device&quot; pré-definido já é adequado quando o agente do usuário contém uma das seguintes sequências (algumas das quais são números de modelo de dispositivos). Você não precisa criar regras de direcionamento personalizado para esses dispositivos.
+   O público-alvo "Tablet Device" pré-definido já é adequado quando o agente do usuário contém uma das seguintes sequências (algumas das quais são números de modelo de dispositivos). Você não precisa criar regras de direcionamento personalizado para esses dispositivos.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 e Tablet PC.
 
