@@ -32,7 +32,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 1. Nomeie a atividade.
 1. Selecione um local.
 
-   Quando você clicar na caixa Selecionar local, uma lista de locais disponíveis irá aparecer. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha &quot;target-global-mbox.&quot;
+   Quando você clicar na caixa Selecionar local, uma lista de locais disponíveis irá aparecer. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha "target-global-mbox."
 
    Você também pode inserir um local que não esteja listado. Isto pode ser útil se a mbox ainda não foi criada ou visualizada em uma página. Insira o nome do local. Cuidado ao inserir um local que ainda não existe. Se a grafia ou capitalização não for compatível com a grafia e capitalização quando a chamada da mbox for feita, a atividade não será entregue. Locais inseridos manualmente são salvos na lista.
 1. Clique em **[!UICONTROL Adicionar refinamentos de público-alvo]** e escolha um ou mais [públicos-alvo](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta atividade.
