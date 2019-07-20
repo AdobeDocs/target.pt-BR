@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 
-## As atividades não mostram dados no Analytics, mas são listadas como &quot;não especificadas&quot;.{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## As atividades não mostram dados no Analytics, mas são listadas como "não especificadas".{#section_EB97F0499B0E40E69A21C30DC539BF67}
 
 Existem várias razões pelas quais isso pode acontecer:
 
@@ -34,11 +34,11 @@ Existem várias razões pelas quais isso pode acontecer:
 
    [Entre em contato com o Atendimento ao cliente](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter assistência.
 
-Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para &quot;não especificados&quot; porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que pode levar até 24 horas para classificar os relatórios após o primeiro salvamento.
+Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que pode levar até 24 horas para classificar os relatórios após o primeiro salvamento.
 
 >[!NOTE]
 >
->Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
+>Nenhum dado é perdido quando listado como "não especificado". Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
 ## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
