@@ -29,7 +29,7 @@ Para resolver isso, o Target coleta dados adicionais para detectar com precisão
 
 | Parâmetro | Tipo | Descrição |
 |--- |--- |--- |
-| devicePixelRatio | String | Proporção entre pixels físicos e pixels independentes de dispositivo (dips) no navegador.  por exemplo, &quot;1,5&quot; ou &quot;2&quot; |
+| devicePixelRatio | String | Proporção entre pixels físicos e pixels independentes de dispositivo (dips) no navegador.  por exemplo, "1,5" ou "2" |
 | screenOrientation | String | O dispositivo e o mecanismo JavaScript do navegador são compatíveis com a Orientação do dispositivo. Ela pode ser Paisagem ou Retrato. |
 | webGLRenderer | String | Renderizador do navegador do driver gráfico. |
 
