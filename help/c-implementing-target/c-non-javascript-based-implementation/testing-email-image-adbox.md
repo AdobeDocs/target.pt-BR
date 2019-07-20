@@ -41,7 +41,7 @@ Onde os valores abaixo são específicos para você:
 | Valor | Descrição |
 |--- |--- |
 | clientcode | O código de cliente de sua empresa. Encontre isso em seu at.js ou mbox.js listado como `clientCode='yourclientcode'`. Todos os caracteres em minúsculas e sem caracteres especiais. |
-| image | O tipo de oferta. É sempre &quot;image&quot; para anúncios gráficos e &quot;page&quot; para redirecionadores. |
+| image | O tipo de oferta. É sempre "image" para anúncios gráficos e "page" para redirecionadores. |
 | email_header | O nome da adbox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Obrigatório. Substitua o URL pelo conteúdo padrão apropriado para sua adbox. Esta deve ser uma referência absoluta e deve ser codificada no URL. |
 | `mboxXDomain=disabled` | Faz com que o Target não tente definir um cookie. |
