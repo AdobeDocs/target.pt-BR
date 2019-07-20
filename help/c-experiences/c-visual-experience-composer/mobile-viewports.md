@@ -23,7 +23,7 @@ O recurso de visualização do visor móvel é projetado para sites responsivos.
 >
 >Os visores móveis não estarão disponíveis se sobrepostos por uma oferta de redirecionamento.
 
-Uma visor é definido pelo tamanho do retângulo preenchido por uma página da Web na sua tela. É o tamanho da janela do navegador, menos as barras de rolagem e as barras de ferramentas. Os navegadores usam &quot;pixels CSS&quot;. Em vários dispositivos, como os com telas de retina, o visor é menor que a resolução de dispositivo anunciada.
+Uma visor é definido pelo tamanho do retângulo preenchido por uma página da Web na sua tela. É o tamanho da janela do navegador, menos as barras de rolagem e as barras de ferramentas. Os navegadores usam "pixels CSS". Em vários dispositivos, como os com telas de retina, o visor é menor que a resolução de dispositivo anunciada.
 
 Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre-se de usar um tamanho de visor no Target.
 
@@ -61,7 +61,7 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 | Samsung Galaxy Tab 10 | 800 de largura x 1280 de altura | 800 de largura x 1280 de altura |
 | Chromebook Pixel | 1280 de largura x 850 de altura | 2560 de largura x 1700 de altura |
 
-Vários sites listam os tamanhos da janela de visualização de dispositivos populares. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
+Vários sites listam os tamanhos da janela de visualização de dispositivos populares. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
 
 Se você deseja fornecer uma atividade a pessoas em um determinado dispositivo, escolha o público-alvo apropriado para ele no diagrama de atividade. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Se deseja executar uma atividade em toda a sua experiência digital e certificar-se de que ela funcione em todos os dispositivos, não aplique o direcionamento, e use visores móveis para visualizar a atividade em cada tela.
 
