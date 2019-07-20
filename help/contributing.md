@@ -19,4 +19,4 @@ Todas as contribuições de terceiros para esse projeto devem ser acompanhadas p
 
 ## Revisões de código
 
-Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados pelos responsáveis pelo projeto. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados pelos responsáveis pelo projeto. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
