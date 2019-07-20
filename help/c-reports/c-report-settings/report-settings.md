@@ -84,7 +84,7 @@ A lista a seguir descreve algumas das situações que podem fazer com que uma pr
 * Uma (ou mais) métrica foi excluída, mas referenciada na definição predefinida. Por exemplo, você pode excluir uma ou mais métricas da atividade e, em seguida, adicionar novas métricas.
 * Um (ou mais) grupo de hosts (ambiente) não existe, mas é referenciado na definição predefinida.
 * Uma (ou mais) experiência foi excluída depois que a predefinição foi criada, mas é referenciada na definição predefinida.
-* Uma predefinição é semanticamente inválida, pois as entidades referenciadas ainda existem, mas foram atualizadas de forma a alterar a definição semântica da predefinição. Por exemplo, suponha que você crie inicialmente uma predefinição chamada &quot;Receita no Chrome&quot;. Posteriormente, você atualiza a atividade para medir a Métrica de conversão, em vez da Receita. Esta atualização para a definição de atividade invalidou a definição predefinida semanticamente.
+* Uma predefinição é semanticamente inválida, pois as entidades referenciadas ainda existem, mas foram atualizadas de forma a alterar a definição semântica da predefinição. Por exemplo, suponha que você crie inicialmente uma predefinição chamada "Receita no Chrome". Posteriormente, você atualiza a atividade para medir a Métrica de conversão, em vez da Receita. Esta atualização para a definição de atividade invalidou a definição predefinida semanticamente.
 
 ## Métrica de relatório {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -237,7 +237,7 @@ A seguir, a ordem padrão na qual o gráfico é criado:
 
 À medida que usa as opções de Metodologia de contagem, considere os seguintes avisos:
 
-* Para uma atividade de direcionamento automático, há a opção de selecionar &quot;Visitantes&quot; como a metodologia de contagem. O direcionamento automático é o único tipo de atividade que você não pode colocar em gráfico por visitantes.
+* Para uma atividade de direcionamento automático, há a opção de selecionar "Visitantes" como a metodologia de contagem. O direcionamento automático é o único tipo de atividade que você não pode colocar em gráfico por visitantes.
 * Para atividades que usam o Analytics, como fonte de geração de relatório (A4T), você não pode colocar em gráfico Visitante, Visita ou Impressão, de forma cumulativa.
 
 **Utilização de gráficos com mais de 16 experiências na atividade**
