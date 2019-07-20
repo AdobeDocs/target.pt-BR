@@ -32,7 +32,7 @@ Você pode levar em consideração os custos de aquisição e receita de links a
 
 **Atribuindo uma pontuação de página**
 
-Você pode atribuir um valor à qualquer página em seu site, com base no quão valiosa é a página para você. Por exemplo, um site sobre culinária pode vender anúncios por valores mais altos nas páginas de artigo em destaque do que na seção de experiências. Logo, os artigos em destaque são mais valiosos do que a seção de experiências. A pontuação da página permite desenvolver um valor &quot;geral&quot; de uma visita, de forma que a pessoa que ler mais artigos em destaque obtenha mais &quot;pontos&quot; do que alguém que simplesmente navegue pela seção de experiências.
+Você pode atribuir um valor à qualquer página em seu site, com base no quão valiosa é a página para você. Por exemplo, um site sobre culinária pode vender anúncios por valores mais altos nas páginas de artigo em destaque do que na seção de experiências. Logo, os artigos em destaque são mais valiosos do que a seção de experiências. A pontuação da página permite desenvolver um valor "geral" de uma visita, de forma que a pessoa que ler mais artigos em destaque obtenha mais "pontos" do que alguém que simplesmente navegue pela seção de experiências.
 
 Existem dois métodos para atribuir uma pontuação a uma página:
 
@@ -48,13 +48,13 @@ Existem dois métodos para atribuir uma pontuação a uma página:
 
    Utilizando esse método, o valor especificado é adicionado à pontuação de cada mbox na página. Por exemplo, se você passar o parâmetro `?mboxPageValue=10` e há três mboxes na página, a pontuação da página será 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >As mboxes localizadas acima da primeira mbox de exibição da campanha não serão incluídas na pontuação.
 
 A prática recomendada é atribuir valores ao código mbox. Isto fornece valores medidos mais precisos, dependendo do conteúdo de cada mbox.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Para obter uma manutenção mais simples, você pode configurar as atribuições de valor de pontuação do site no arquivo da [!DNL at.js] ou [!DNL mbox.js] com um pouco de lógica condicional JavaScript. Isso elimina a necessidade de adicionar mais código às suas páginas. Entre em contato com um consultor para obter ajuda.
 
