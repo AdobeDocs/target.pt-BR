@@ -36,7 +36,7 @@ Esse processo de divisão de compartimentos significa que as recomendações de 
 
 Sem o intervalo de recomendações de backup, seria possível mostrar o 499º item mais visualizado, seguido pelo 200º item mais visualizado, seguido pelo 380º item mais visualizado, e assim por diante. O processo de divisão garante que os itens mais visualizados sejam recomendados primeiro.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Se você agrupar seus itens em catálogos, as recomendações de backup geradas para cada algoritmo em cada recomendação também usarão o catálogo, portanto, somente os itens no catálogo serão incluídos na recomendação de backup.
 
