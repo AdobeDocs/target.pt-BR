@@ -75,7 +75,7 @@ Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique
 
 ## Quero configurar testes nas páginas que ainda não têm a implementação de mbox/direcionamento. (VEC e EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
-Consulte &quot;Não consigo editar experiências para um site do iFrame&quot;.
+Consulte "Não consigo editar experiências para um site do iFrame".
 
 ## Os estilos de texto negrito e itálico com Editar texto/HTML ou Alterar texto/HTML não são exibidos na minha página. Às vezes, o texto desaparece após aplicar essas alterações de estilo. (VEC e EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
