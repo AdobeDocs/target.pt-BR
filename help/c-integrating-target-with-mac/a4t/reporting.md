@@ -26,7 +26,7 @@ Para obter as práticas recomendadas usando o Analytics for Target, [visite Adob
 
 O Analytics e Target informam a medição dos participantes (as pessoas que entram nos testes), em vez dos visitantes no site.
 
-Cada vez que um visitante vê o conteúdo de atividade na página, o Target faz uma chamada direta de servidor para o Analytics, incluindo qual atividade e experiência foram visualizadas pelo visitante. O Target também chama o Analytics sempre que a conversão é feita. O Analytics acrescenta a conversão como um novo evento específico do Analytics chamado &quot;Atividade de conversão&quot;, que é traçado junto com outros dados coletados pelo Analytics.
+Cada vez que um visitante vê o conteúdo de atividade na página, o Target faz uma chamada direta de servidor para o Analytics, incluindo qual atividade e experiência foram visualizadas pelo visitante. O Target também chama o Analytics sempre que a conversão é feita. O Analytics acrescenta a conversão como um novo evento específico do Analytics chamado "Atividade de conversão", que é traçado junto com outros dados coletados pelo Analytics.
 
 Quando você classifica como *Participantes* usando a operação Selecionar, apenas experiências que receberam os participantes durante o período selecionado serão exibidos nos relatórios.
 
@@ -49,7 +49,7 @@ No Analytics, use o relatório de Atividades do Target para visualizar os result
 
 >[!IMPORTANT]
 >
->Se o seu relatório de Atividades do Target no Analytics listar &quot;não especificado&quot;, em vez de listar suas atividades, é necessária uma atualização para a sua conta provisionada. Entre em contato com o Atendimento ao cliente para resolver esse problema.
+>Se o seu relatório de Atividades do Target no Analytics listar "não especificado", em vez de listar suas atividades, é necessária uma atualização para a sua conta provisionada. Entre em contato com o Atendimento ao cliente para resolver esse problema.
 
 ## Relatórios no Target {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
