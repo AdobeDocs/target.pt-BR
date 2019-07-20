@@ -31,7 +31,7 @@ Notas de versão referentes a versões anteriores do Target, incluindo notas de 
 
 | Recurso/Aprimoramento | Descrição |
 | --- | --- |
-| Aplicativo de página única no Visual Experience Composer (SPA VEC) | O SPA VEC inclui os seguintes aprimoramentos para agilizar seu trabalho e deixá-lo mais eficiente:<ul><li>Clique em uma ação na SPA para destacar o elemento no site onde esta ação será aplicada. Cada ação do VEC criada em uma Exibição tem quatro ícones correspondentes: Informações, Editar, Mover e Excluir. A nova funcionalidade &quot;Mover&quot; nesta versão permite mover a ação para um Evento de carregamento de página ou qualquer outra Exibição existente no painel Modificações. (TGT-33746)</li><li>É possível executar muitas ações antes que a página seja carregada no VEC ou até mesmo se a página não carregar completamente (por exemplo, o código personalizado não é mais operacional). Ações que não podem ser editadas antes que o site seja carregado estão desabilitadas na interface do Target. (TGT-33851 e TGT-34149)</li></ul>Para obter mais informações, consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| Aplicativo de página única no Visual Experience Composer (SPA VEC) | O SPA VEC inclui os seguintes aprimoramentos para agilizar seu trabalho e deixá-lo mais eficiente:<ul><li>Clique em uma ação na SPA para destacar o elemento no site onde esta ação será aplicada. Cada ação do VEC criada em uma Exibição tem quatro ícones correspondentes: Informações, Editar, Mover e Excluir. A nova funcionalidade "Mover" nesta versão permite mover a ação para um Evento de carregamento de página ou qualquer outra Exibição existente no painel Modificações. (TGT-33746)</li><li>É possível executar muitas ações antes que a página seja carregada no VEC ou até mesmo se a página não carregar completamente (por exemplo, o código personalizado não é mais operacional). Ações que não podem ser editadas antes que o site seja carregado estão desabilitadas na interface do Target. (TGT-33851 e TGT-34149)</li></ul>Para obter mais informações, consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
 
 #### Melhorias, correções e alterações
 
@@ -60,7 +60,7 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 * Aprimoramos o fluxo de trabalho ao excluir ativos usando o VEC. Os ativos excluídos agora são removidos da [!UICONTROL Biblioteca de ofertas] e do [!DNL Scene7] (se aplicável). Os ativos excluídos não são mais exibidos nos resultados de pesquisa. (TGT-31981)
 * Agora, é possível excluir pastas de ativos mesmo que elas contenham imagens (pastas não vazias). (TGT-33265)
 
-   Anteriormente, não era possível excluir uma pasta que não estava vazia da biblioteca de ofertas de imagem do Target ([!UICONTROL Ofertas] &gt; [!UICONTROL Ofertas de imagem]). Você receberia uma notificação &quot;A pasta não está vazia!&quot; ao tentar excluir a pasta da interface do usuário. Com esse recurso, foi adicionada a capacidade excluir a pasta para remover uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.
+   Anteriormente, não era possível excluir uma pasta que não estava vazia da biblioteca de ofertas de imagem do Target ([!UICONTROL Ofertas] &gt; [!UICONTROL Ofertas de imagem]). Você receberia uma notificação "A pasta não está vazia!" ao tentar excluir a pasta da interface do usuário. Com esse recurso, foi adicionada a capacidade excluir a pasta para remover uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.
 
    * As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas.
    * A renderização das ofertas de imagens no seletor de Ativos de imagem é mais rápida e eficiente.
@@ -141,7 +141,7 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 
 | Recurso/Aprimoramento | Descrição |
 | --- | --- |
-| Direcionamento<br>25 de janeiro de 2019 | Alterações feitas no funcionamento das correspondências de direcionamento para comparações de &quot;iguais&quot; com valores decimais e não decimais retornados por scripts de perfil ou por qualquer outra fonte de entrada, como parâmetros de mbox, parâmetros de perfil, etc.<br>Para obter mais informações, consulte as perguntas frequentes sobre [direcionamentos e público-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
+| Direcionamento<br>25 de janeiro de 2019 | Alterações feitas no funcionamento das correspondências de direcionamento para comparações de "iguais" com valores decimais e não decimais retornados por scripts de perfil ou por qualquer outra fonte de entrada, como parâmetros de mbox, parâmetros de perfil, etc.<br>Para obter mais informações, consulte as perguntas frequentes sobre [direcionamentos e público-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
 | Scripts de perfil<br>17 de janeiro de 2019 | Por motivos de desempenho, recomendamos retornar um valor que não ultrapasse 256 caracteres.<br>Para um valor de retorno de Cadeia de caracteres, se o tamanho do valor de retorno exceder 2048 caracteres, o script será desativado pelo sistema.<br>Para um valor de retorno de matriz, se o tamanho dos valores concatenados da matriz exceder 2048 caracteres, o script será desativado pelo sistema.<br>Para obter mais informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros, etc.) que afetam as atividades e outros elementos no Target, consulte [Limites](../r-troubleshooting-target/target-limits.md). |
 | at.js<br>16 de janeiro de 2019 | A at.js 1.6.4 é uma versão de manutenção e aborda os seguintes problemas:<ul><li>Correção de uma condição de corrida que se manifestava no Microsoft Internet Explorer 11 e que causava a aplicação de ofertas duplicadas. (TNT-31374)</li><li>Correção de um problema que afetava o rastreamento de cliques quando havia uma oferta padrão com um token de clique e ofertas em html. (TNT-31493)</li><li>Estendeu o cookie mboxEdgeCluster com cada solicitação do Target. Isso somente é usado quando mboxEdgeOverride está ativado. (TNT-31485)</li></ul> |
 
@@ -247,7 +247,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
    * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
    Consulte [Sobre públicos](https://marketing.adobe.com/resources/help/en_US/target/target/c_audiences.html).
 
-* Correção de um problema que impedia que usuários em determinadas situações pudessem criar uma atividade quando o Adobe Analytics era selecionado como origem de relatório na página [!UICONTROL Configurar]. Os usuários recebiam a mensagem &quot;Selecione um conjunto de relatórios&quot; mesmo que não tivessem a opção de selecionar o conjunto de relatórios. (TGT-31968)
+* Correção de um problema que impedia que usuários em determinadas situações pudessem criar uma atividade quando o Adobe Analytics era selecionado como origem de relatório na página [!UICONTROL Configurar]. Os usuários recebiam a mensagem "Selecione um conjunto de relatórios" mesmo que não tivessem a opção de selecionar o conjunto de relatórios. (TGT-31968)
 
 ### Plataforma (19 de outubro de 2018)
 
@@ -485,7 +485,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e alterações:
 
-* A linha Backup do download CSV do Recommendations agora apresenta um &quot;*&quot; (asterisco entre aspas) em vez de * (apenas um asterisco) no início.
+* A linha Backup do download CSV do Recommendations agora apresenta um "*" (asterisco entre aspas) em vez de * (apenas um asterisco) no início.
 * A linha Mais vendidos / Mais visualizados no download CSV do Recommendations não mais apresenta uma vírgula no início.
 
 ### Alterações na plataforma do Target (19 de junho de 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1229,14 +1229,14 @@ Essa versão do [!DNL Target] inclui os seguintes aprimoramentos e correções v
    Se um usuário executar uma ação intermitente em uma página do [!DNL Target] e experimentar um tempo limite de sessão, ele será direcionado para fazer logon novamente e, em seguida, será direcionado para a última página trabalhada na interface do usuário do [!DNL Target].
 
 * Correção de um problema que fazia com que as alterações de código personalizadas fossem perdidas se o usuário saísse (altera as experiências, alterna a página, alterna o público-alvo, clica em Avançar etc.) e esquecesse de salvar as alterações. O usuário agora é solicitado a salvar as alterações. (TGT-23766)
-* Quando uma atividade é arquivada, &quot;Atividade arquivada&quot; é exibido em vez de &quot;Atualizando a atividade&quot;. (KB-1517)
+* Quando uma atividade é arquivada, "Atividade arquivada" é exibido em vez de "Atualizando a atividade". (KB-1517)
 * O seletor suspenso nos seguintes locais da interface do usuário do Target foi substituído pela funcionalidade de preenchimento automático para melhorar a velocidade e o desempenho: (TGT-22939)
 
    * Página da atividade &gt; *atividade* &gt; Etapa 3 &gt; Seletor de conjunto de relatórios
    * Públicos-alvo &gt; Criar público-alvo &gt; Perfil do visitante
    * Recommendations&gt; Criação de feed &gt; Quando o tipo de origem &gt; Analytics &gt; Seletor do Conjunto de relatórios
 
-* Mensagens de erro aprimoradas quando um site tem &quot;X-Frame-options&quot; definido como SAMEORIGIN e o site não pode ser carregado no Visual Experience Composer (VEC). A mensagem solicita que o usuário alterne para o Enhanced Experience Composer em Configurar &gt; Preferências. (TGT-17356)
+* Mensagens de erro aprimoradas quando um site tem "X-Frame-options" definido como SAMEORIGIN e o site não pode ser carregado no Visual Experience Composer (VEC). A mensagem solicita que o usuário alterne para o Enhanced Experience Composer em Configurar &gt; Preferências. (TGT-17356)
 * Os relatórios do Target Standard/Premium agora são exibidos no fuso horário da sua conta, em vez do fuso horário do servidor do Target (EST dos EUA). (TGT-24868)
 * Se atividades criadas no [!DNL Target] forem carregadas de fora do [!DNL Target] (por exemplo, através do Adobe I/O), os seguintes atributos de atividade serão importados novamente ao [!DNL Target]:
 
@@ -1387,7 +1387,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Essa versão do [!DNL Target] está focada em correções de back-end e inclui os seguintes aprimoramentos e correções voltados para o cliente (os números de edição entre parênteses são para o uso interno da Adobe):
 
-* Correção de um problema que fazia com que a configuração &quot;Incrementar contagem, liberar usuário e permitir reentrada&quot; nas Configurações avançadas das atividades não funcionasse corretamente. (TNT-26556)
+* Correção de um problema que fazia com que a configuração "Incrementar contagem, liberar usuário e permitir reentrada" nas Configurações avançadas das atividades não funcionasse corretamente. (TNT-26556)
 * Correção de um problema que impedia que os dados de Atributos do cliente fossem removidos do Target depois de serem atualizados com valor NULO na interface do usuário da Experience Cloud. (TNT-26462)
 
 ### Alterações na plataforma do Target (13 de abril de 2017) {#section_B59C26405EB7482AA80820D6D39B9C44}
@@ -1464,7 +1464,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos e correções:
    * Na biblioteca de [!UICONTROL Ofertas], as ofertas agora são exibidas em uma lista, e não como cartões. Outras alterações secundárias foram feitas em toda a interface do usuário da biblioteca de [!UICONTROL Ofertas].
 
 * Desempenho significativamente melhorado nas listas de [!UICONTROL Atividades] e [!UICONTROL Públicos-alvo]. Além disso, os tempos de carregamento dos resultados da pesquisa são significativamente mais rápidos.
-* &quot;Exibições&quot; agora é &quot;Visitas&quot; no [!UICONTROL Relatório em nível de oferta] para relatórios de [!UICONTROL Personalização automatizada].
+* "Exibições" agora é "Visitas" no [!UICONTROL Relatório em nível de oferta] para relatórios de [!UICONTROL Personalização automatizada].
 * O [!DNL Target] agora oferece suporte à alternação de ambientes (grupos de hosts) para atividades de [!UICONTROL Personalização automatizada].
 * As atividades de [!UICONTROL Personalização automatizada] agora oferecem suporte aos grupos de hosts.
 
@@ -1476,7 +1476,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos e correções:
 
 Essa versão do [!DNL Target] está focada em melhorias de usabilidade e desempenho e inclui os seguintes aprimoramentos e correções (os números de edição entre parênteses são para o uso interno da Adobe):
 
-* Adição de mais itens ao menu Ajuda que podem ser acessados no canto superior direito da interface do usuário do [!DNL Target]. As novas opções incluem: &quot;Blogs&quot; e &quot;Vídeos&quot;. A opção &quot;Status da Adobe Experience Cloud&quot; agora é &quot;Status do Adobe Target Standard/Premium&quot;. (TGT-22629)
+* Adição de mais itens ao menu Ajuda que podem ser acessados no canto superior direito da interface do usuário do [!DNL Target]. As novas opções incluem: "Blogs" e "Vídeos". A opção "Status da Adobe Experience Cloud" agora é "Status do Adobe Target Standard/Premium". (TGT-22629)
 * Ao excluir um público-alvo, o [!DNL Target] exibe uma lista de atividades que fazem referência a esse público-alvo. Os usuários podem clicar em cada atividade na lista para exibir as respectivas páginas de [!UICONTROL Visão geral]. (TGT-17997)
 * `user.activeCampaigns` melhorado para retornar a ID da campanha para todas as campanhas/atividades nas quais o usuário está, mesmo que ele não tenha interagido com a campanha/atividade na sessão atual. (TNT-26237)
 * O botão [!UICONTROL Criar atividade] na página [!UICONTROL Atividades] agora fica ativo antes do carregamento de todos os nomes de atividades na lista. Essa melhoria permite que os usuários criem novas atividades com mais rapidez, especialmente quando a conta tem muitas atividades configuradas. (TGT-21470)
@@ -1707,7 +1707,7 @@ Esta versão inclui os seguintes recursos e melhorias:
  </tbody> 
 </table>
 
-**Melhorias**
+**Aprimoramentos**
 
 Essa versão inclui os seguintes aprimoramentos:
 
@@ -1772,7 +1772,7 @@ Esta versão inclui os seguintes recursos e melhorias:
  </tbody> 
 </table>
 
-**Melhorias**
+**Aprimoramentos**
 
 Essa versão inclui os seguintes aprimoramentos:
 
@@ -1836,7 +1836,7 @@ O Adobe Target Standard/Premium versão 16.8.1 (23 de agosto de 2016) inclui os 
  </tbody> 
 </table>
 
-**Melhorias**
+**Aprimoramentos**
 
 Essa versão inclui os seguintes aprimoramentos:
 
@@ -1959,7 +1959,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
+* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
 * Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha **[!UICONTROL Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]** como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
 
 * A documentação mostra o comportamento esperado para a caixa de seleção URL de redirecionamento. No entanto, devido a um erro, a caixa de seleção não aparece como selecionada por padrão. Este defeito será corrigido em breve.
@@ -1969,7 +1969,7 @@ Os seguintes problemas conhecidos foram relatados:
    1. Abra a pop-up Redirecionar para URL.
    1. Altere o URL para um URL fictício e salve.
    1. Altere o URL fictício novamente para o URL de redirecionamento esperado da sua campanha.
-   1. Marque a opção &quot;Incluir parâmetros de consulta atuais&quot; e salve.
+   1. Marque a opção "Incluir parâmetros de consulta atuais" e salve.
    Se você marcar a opção ao criar uma nova oferta de redirecionamento, poderá esperar que seus parâmetros de consulta sejam incluídos no redirecionamento.
 
    Para atividades mais antigas, se esta opção estiver marcada no Experience Composer da sua atividade, significará que seu redirecionamento incluirá os parâmetros de consulta. Se não for marcada, os parâmetros de consulta atuais não serão incluídos no redirecionamento.
@@ -2038,7 +2038,7 @@ O Adobe Target Standard/Premium versão 16.5.1 (19 de maio de 2016) inclui os se
  </tbody> 
 </table>
 
-**Melhorias**
+**Aprimoramentos**
 
 Aprimoramento feito para melhorar o processo de provisionamento do A4T.
 
@@ -2046,7 +2046,7 @@ Aprimoramento feito para melhorar o processo de provisionamento do A4T.
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
+* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
 * Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha **[!UICONTROL Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]** como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
 
 ### Nova biblioteca de implementação do Target, at.js 0.8.0 (5 de maio de 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
@@ -2169,7 +2169,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
+* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
 
 ### Adobe Target Standard/Premium 16.3.1 (15 de março de 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
@@ -2214,7 +2214,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
+* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
@@ -2236,7 +2236,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
+* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
@@ -2308,13 +2308,13 @@ Esta versão inclui as seguintes correções:
 * Correção de um problema que encapsulava um modelo de Recommendations não-HTML em um elemento, `<div>` quando usado em um fluxo de trabalho baseado em formulários.
 * Correção de um problema que fazia com que os cálculos de colisão finalizassem a sessão mesmo com um grande número de atividades.
 * Correção de um problema que exibia o relatório de Resumo de um download CSV em vez de exibir o relatório de Métricas de sucesso.
-* Removida a mensagem pop-up &quot;ID exclusiva&quot; que, às vezes, aparecia ao editar elementos.
+* Removida a mensagem pop-up "ID exclusiva" que, às vezes, aparecia ao editar elementos.
 
 **Problemas conhecidos**
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
@@ -2431,7 +2431,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
 ### Adobe Target Standard/Premium 15.9.1 (30 de setembro de 2015) {#section_A54204291A99476688E8C0BD8255F93C}
 
@@ -2507,7 +2507,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
 ### Adobe Target Standard/Premium 15.8.1 (20 de agosto de 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
@@ -2643,7 +2643,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
 ### Adobe Target Standard/Premium 15.6.1 (25 de junho de 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
@@ -2851,9 +2851,9 @@ Esta versão inclui as seguintes correções:
 **Problemas conhecidos**
 
 * Os eventos de conversão baseados no Target para testes multivariados no Target Standard/Premium não estão sendo relatados quando o Analytics é usado como a fonte de relatórios do Target. Espera-se que esse problema seja corrigido em breve.
-* A mbox.js versão 56 moveu a seção &quot;extra JavaScript&quot; para ser executada antes da mbox global.
+* A mbox.js versão 56 moveu a seção "extra JavaScript" para ser executada antes da mbox global.
 
-   Todas as definições no v56+ têm nomes espaçados. Se houver funções declaradas em &quot;extra JavaScript&quot;, elas deverão ter o prefixo window. Consulte [Log de alterações da mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html).
+   Todas as definições no v56+ têm nomes espaçados. Se houver funções declaradas em "extra JavaScript", elas deverão ter o prefixo window. Consulte [Log de alterações da mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html).
 
 ### Adobe Target 15.2.1 (19 de fevereiro de 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
@@ -3255,7 +3255,7 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 
 * Foi corrigido um problema que fazia com que alguns ativos referenciados fossem copiados quando uma atividade era copiada.
 * Foi corrigido um problema que causava a falha de atualização de uma oferta de imagem atualizada no Scene7 e no Target Advanced.
-* Foi corrigido um problema em que a aplicação de um filtro de pesquisa limpa os públicos-alvo selecionados em &quot;Públicos-alvo para relatório&quot;.
+* Foi corrigido um problema em que a aplicação de um filtro de pesquisa limpa os públicos-alvo selecionados em "Públicos-alvo para relatório".
 * Os gráficos aprimorados seguem o padrão de resultados por hora quando um teste está ao vivo há menos de dois dias.
 * Foi corrigido um problema que causava a falha da cópia de uma atividade não sincronizada.
 * Foi adicionada uma funcionalidade de entrada de teclado para menus suspensos de local.
