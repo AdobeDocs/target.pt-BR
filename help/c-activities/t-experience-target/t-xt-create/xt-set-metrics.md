@@ -57,7 +57,7 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 
-* Compreender métricas de &quot;meta&quot;
+* Compreender métricas de "meta"
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
