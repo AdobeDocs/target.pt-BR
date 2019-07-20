@@ -35,7 +35,7 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
 
 1. Adicione um **[!UICONTROL Nome de conteúdo]**.
 
-   Quando usar um design padrão, o nome do design e &quot;Cópia&quot; irão aparecer no campo **[!UICONTROL Nome de conteúdo]**. Você pode editar o nome. 1. (Opcional) Clique para selecionar uma imagem para exibir no cartão do design.
+   Quando usar um design padrão, o nome do design e "Cópia" irão aparecer no campo **[!UICONTROL Nome de conteúdo]**. Você pode editar o nome. 1. (Opcional) Clique para selecionar uma imagem para exibir no cartão do design.
 1. Edite o **[!UICONTROL Código]** do design.
 
    Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [](https://velocity.apache.org)https://velocity.apache.org.
