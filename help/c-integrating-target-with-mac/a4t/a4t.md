@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Adobe Analytics como origem de relatório do Adobe Target (A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
 
-O &quot;Analytics for Target&quot; (A4T) da Adobe é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do Analytics. A integração A4T permite que você use os relatórios do Analytics para examinar os resultados. Se usar o Analytics como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo Analytics.
+O "Analytics for Target" (A4T) da Adobe é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do Analytics. A integração A4T permite que você use os relatórios do Analytics para examinar os resultados. Se usar o Analytics como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo Analytics.
 
 ## Visão Geral do A4T {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -75,7 +75,7 @@ A tabela a seguir mostra quais tipos de atividade são compatíveis com o Analyt
 | Qualquer atividade usando uma Oferta de redirecionamento | Sim | Existem requisitos mínimos mais rigorosos para o uso de Ofertas de redirecionamento com o A4T. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
 | Node.JS | Sim |  |
 
-Como todos os tipos de atividade ainda não compatíveis com o A4T, é recomendável manter ou implementar mboxes de conversão importantes, como a mbox &quot;orderConfirmPage&quot;.
+Como todos os tipos de atividade ainda não compatíveis com o A4T, é recomendável manter ou implementar mboxes de conversão importantes, como a mbox "orderConfirmPage".
 
 ## Exemplos de relatórios do A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
@@ -121,7 +121,7 @@ Este vídeo explica como usar o Adobe Analytics como fonte de relatórios no Ado
 
 ### Integração do Analytics/Target (A4T) (40:33)
 
-Este vídeo é uma gravação de &quot;[Horas do Office](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
+Este vídeo é uma gravação de "[Horas do Office](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)", uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 
 * Como configurar e validar o funcionamento da integração
 * Como funciona a integração
