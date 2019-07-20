@@ -56,7 +56,7 @@ Quando você começa a usar a nova funcionalidade [!UICONTROL Propriedades], tod
 
 Um espaço de trabalho (Perfil de produto) permite que uma organização atribua um conjunto específico de usuários a um conjunto específico de propriedades. De muitas formas, um espaço de trabalho é semelhante a um conjunto de relatórios no [!DNL Analytics].
 
-As organizações podem começar a tirar vantagem da funcionalidade de permissões empresariais criando novos espaços de trabalho dentro do Admin Console, atribuindo propriedades do Target a esses espaços de trabalho e movendo usuários da configuração &quot;Espaço de trabalho padrão&quot; para esses novos espaços de trabalho de acesso limitado.
+As organizações podem começar a tirar vantagem da funcionalidade de permissões empresariais criando novos espaços de trabalho dentro do Admin Console, atribuindo propriedades do Target a esses espaços de trabalho e movendo usuários da configuração "Espaço de trabalho padrão" para esses novos espaços de trabalho de acesso limitado.
 
 Os clientes podem usar esses espaços de trabalho para separar o acesso a diferentes equipes por região, por unidade de negócios, por seção do site ou por qualquer outro método escolhido.
 
@@ -68,9 +68,9 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 
 1. Crie o espaço de trabalho desejado (Perfil do produto):
 
-   * **Acesso padrão:** Todas as atividades existentes serão combinadas em um único projeto chamado &quot;Acesso padrão&quot;. Isso não terá nenhum impacto sobre os clientes. Todas as funcionalidades e funções de usuário continuarão exatamente iguais, pois são anteriores a essa alteração.
+   * **Acesso padrão:** Todas as atividades existentes serão combinadas em um único projeto chamado "Acesso padrão". Isso não terá nenhum impacto sobre os clientes. Todas as funcionalidades e funções de usuário continuarão exatamente iguais, pois são anteriores a essa alteração.
 
-      Todas as atividades criadas por meio do [!DNL Adobe Experience Manager] (AEM), do [!DNL Adobe Mobile Services] e do [!DNL Target Classic] também farão parte do espaço de trabalho &quot;Acesso padrão&quot;. Você não pode mover projetos de &quot;Acesso padrão&quot; para outro projeto atualmente.
+      Todas as atividades criadas por meio do [!DNL Adobe Experience Manager] (AEM), do [!DNL Adobe Mobile Services] e do [!DNL Target Classic] também farão parte do espaço de trabalho "Acesso padrão". Você não pode mover projetos de "Acesso padrão" para outro projeto atualmente.
 
    * **Novos espaços de trabalho (Perfis de produto):** Você pode começar a utilizar nova funcionalidade de permissões fazendo o seguinte:
 
@@ -88,7 +88,7 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 Você precisará passar a ID do espaço de trabalho para utilizar as Permissões empresariais nas [APIs do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
 1. No [Adobe Admin Console](https://adminconsole.adobe.com), clique na guia [!UICONTROL Produtos] e depois no produto, no menu esquerdo, para exibir a lista da PLC(workspace).
-1. Clique na PLC(workspace) desejada e localize a ID de &quot;perfis&quot; no URL, como mostrado abaixo.
+1. Clique na PLC(workspace) desejada e localize a ID de "perfis" no URL, como mostrado abaixo.
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
@@ -149,11 +149,11 @@ Para usar a funcionalidade de permissões de usuário do [!DNL Target], você de
 
    Há várias maneiras de atualizar sua implementação do [!DNL Target]. Por exemplo, é possível usar os métodos a seguir em páginas da Web:
 
-   * **Por meio de um &quot;Parâmetro global em[!DNL Adobe Launch]:**
+   * **Por meio de um "Parâmetro global em[!DNL Adobe Launch]:**
 
       For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **Por meio de um &quot;Parâmetro global&quot; em[!DNL Dynamic Tag Management]:**
+   * **Por meio de um "Parâmetro global" em[!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
