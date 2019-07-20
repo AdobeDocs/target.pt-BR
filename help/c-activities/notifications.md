@@ -41,7 +41,7 @@ O [!DNL Target] envia dois tipos de notificações para todos os tipos de ativid
 
 As notificações similares também aparecem quando uma atividade agendada alcança à data de início e quando ela termina ao alcançar a data final.
 
-Todas as notificações do [!DNL Target] exibem o nome da atividade que foi aprovada ou desativada, e incluem as palavras &quot;Adobe Target&quot; para facilitar a identificação.
+Todas as notificações do [!DNL Target] exibem o nome da atividade que foi aprovada ou desativada, e incluem as palavras "Adobe Target" para facilitar a identificação.
 
 Se uma única atividade envia várias notificações do mesmo tipo, elas são combinadas em um único cartão com várias notificações exibidas nela. Por exemplo:
 
@@ -56,5 +56,5 @@ Por exemplo, se você clicar no cartão mostrado acima, as três notificações 
 ## Limitações {#section_B466EB20B2554CE7B1915374B39F4322}
 
 * As notificações não indicam a você quem aprovou, desativou ou importou a atividade.
-* As notificações de MVT aparecem como &quot;Teste A/B&quot; pois são sincronizadas como campanhas A/B no [!DNL Target Classic].
+* As notificações de MVT aparecem como "Teste A/B" pois são sincronizadas como campanhas A/B no [!DNL Target Classic].
 
