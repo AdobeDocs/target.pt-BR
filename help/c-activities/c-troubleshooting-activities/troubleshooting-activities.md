@@ -123,7 +123,7 @@ Para mais informações sobre como as modificações da página afetam a capacid
 
 ## Uma mensagem de erro é exibida ao excluir um script de perfil.
 
-**Validar:** a exclusão de um script de perfil do Target Standard/Premium exibe a mensagem de erro: &quot;Falha ao excluir o script de perfil&quot;.
+**Validar:** a exclusão de um script de perfil do Target Standard/Premium exibe a mensagem de erro: "Falha ao excluir o script de perfil".
 
 **Opções:**
 
