@@ -71,13 +71,13 @@ Os usuários podem ver diferentes exibições do Adobe Target movendo-se pelos e
 
 Os espaços de trabalho podem incluir diferentes públicos-alvo, ofertas de código e atividades.
 
-Todos os públicos-alvo e atividades criados antes da migração para o novo modelo de Permissões empresariais serão agrupados no &quot;Espaço de trabalho padrão&quot;, discutido abaixo.
+Todos os públicos-alvo e atividades criados antes da migração para o novo modelo de Permissões empresariais serão agrupados no "Espaço de trabalho padrão", discutido abaixo.
 
-Todas as atividades criadas por meio do Adobe Experience Manager (AEM), do Adobe Mobile Services e do Adobe Target Classic farão parte do &quot;Espaço de trabalho padrão&quot;.
+Todas as atividades criadas por meio do Adobe Experience Manager (AEM), do Adobe Mobile Services e do Adobe Target Classic farão parte do "Espaço de trabalho padrão".
 
 ### Espaço de trabalho padrão
 
-Todos os espaços de trabalho existentes (perfis de produtos) no Admin Console são mesclados em um único espaço de trabalho chamado &quot;Espaço de trabalho padrão&quot; durante a migração da organização para o novo modelo de Permissões empresariais.
+Todos os espaços de trabalho existentes (perfis de produtos) no Admin Console são mesclados em um único espaço de trabalho chamado "Espaço de trabalho padrão" durante a migração da organização para o novo modelo de Permissões empresariais.
 
 >[!IMPORTANT]
 >
@@ -107,11 +107,11 @@ Quando você cria uma nova atividade, ela é criada no espaço de trabalho selec
 
 As informações a seguir explicam a forma como as permissões eram aplicadas anteriormente no [!DNL Target] e como são aplicadas usando a funcionalidade [!UICONTROL Propriedades] e [!UICONTROL Permissões].
 
-A nova funcionalidade de [!UICONTROL Permissões] permite criar projetos diferentes (chamados de &quot;Perfis de produtos&quot; no [!DNL Adobe Admin Console for Enterprise]) para possibilitar a atribuição de permissões diferentes para um único usuário que impõem direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes poderão restringir o acesso de visualização, edição e aprovação aos usuários com base na região, no ambiente (desenvolvimento/armazenamento temporário/produção), no canal ou em outros critérios personalizados, conforme mostrado abaixo.
+A nova funcionalidade de [!UICONTROL Permissões] permite criar projetos diferentes (chamados de "Perfis de produtos" no [!DNL Adobe Admin Console for Enterprise]) para possibilitar a atribuição de permissões diferentes para um único usuário que impõem direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes poderão restringir o acesso de visualização, edição e aprovação aos usuários com base na região, no ambiente (desenvolvimento/armazenamento temporário/produção), no canal ou em outros critérios personalizados, conforme mostrado abaixo.
 
 ![](assets/permissions.png)
 
-Por exemplo, um usuário específico pode ter acesso de &quot;aprovação&quot; nos sites das Américas, mas apenas de &quot;visualização&quot; no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
+Por exemplo, um usuário específico pode ter acesso de "aprovação" nos sites das Américas, mas apenas de "visualização" no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
 
 O modelo atual de [!DNL Target] [!UICONTROL Permissões] apresenta três funções de permissão (Observador, Editor e Aprovador), conforme mostrado na seguinte ilustração:
 
@@ -202,7 +202,7 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 * **Criação de público-alvo:** ao criar um novo público-alvo, ele é criado no espaço de trabalho selecionado no momento.
 * **Criação de oferta:** ao criar uma nova oferta, ela é criada no espaço de trabalho selecionado no momento.
-* **Página Propriedades (Configurar &gt; Propriedades):** é possível usar a caixa [!UICONTROL Pesquisa], as opções [!UICONTROL Canal] e [!UICONTROL Perfil do produto] para filtrar a Lista de [!UICONTROL Propriedades].
+* **Página Propriedades (Configurar &gt; Propriedades):**&#x200B;é possível usar a caixa [!UICONTROL Pesquisa], as opções [!UICONTROL Canal] e [!UICONTROL Perfil do produto] para filtrar a Lista de [!UICONTROL Propriedades].
 
    ![](assets/properties_list.png)
 
@@ -242,7 +242,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no Target 
    * Atividades, públicos, ofertas de código, ofertas de imagem, ou qualquer outro recurso criado usando as seguintes soluções ou métodos não podem ser controlados pelo modelo de Permissões empresariais, mas farão parte do Espaço de trabalho padrão: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e recursos criados por meio da API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
    * Ofertas de imagem (os ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não podem ser controlados pelo modelo de Permissões empresariais no momento.
    * O clickTracking e os redirecionamentos somente funcionarão quando o link ou a página de destino fizerem parte de uma propriedade incluída na atividade. Além disso, o clickTracking pode não funcionar ao usar a função `targetPageParams()`. A função recomendada é `targetPageParamsAll()`.
-   Atualmente, o Target exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Caso o token seja (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a mbox do clicktracking por meio da função `targetPageParamsAll()`, a métrica não será aumentada e exibida como &quot;0&quot;.
+   Atualmente, o Target exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Caso o token seja (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a mbox do clicktracking por meio da função `targetPageParamsAll()`, a métrica não será aumentada e exibida como "0".
 
    O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
 
@@ -256,7 +256,7 @@ As perguntas frequentes sobre as permissões empresariais incluem o seguinte:
 
 ### Posso mover uma atividade de um espaço de trabalho para outro?
 
-Infelizmente, não é possível mover atividades de um espaço de trabalho para outro. No entanto, é possível copiar uma atividade para qualquer espaço de trabalho, sabendo que os dados de relatório não serão transferidos. Para obter mais informações, consulte &quot;Copiando/editando uma atividade ao usar espaços de trabalho&quot; em [Copiando/editando uma atividade ao usar espaços de trabalho](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
+Infelizmente, não é possível mover atividades de um espaço de trabalho para outro. No entanto, é possível copiar uma atividade para qualquer espaço de trabalho, sabendo que os dados de relatório não serão transferidos. Para obter mais informações, consulte "Copiando/editando uma atividade ao usar espaços de trabalho" em [Copiando/editando uma atividade ao usar espaços de trabalho](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 As atividades criadas antes da migração continuam sendo executadas da mesma maneira no Espaço de trabalho padrão, a menos que sejam editadas e atribuídas a propriedades. As atividades em um espaço de trabalho específico seguirão as propriedades atribuídas a ele e, portanto, o comportamento poderá ser diferente de antes da migração.
 
