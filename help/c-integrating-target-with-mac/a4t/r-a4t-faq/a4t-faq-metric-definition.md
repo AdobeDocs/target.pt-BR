@@ -31,4 +31,4 @@ As métricas calculadas permitem criar métricas personalizadas que são derivad
 
 ## O A4T atribui conversões a várias campanhas? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Sim. Isso é feito usando a configuração &quot;Alocação completa&quot;.
+Sim. Isso é feito usando a configuração "Alocação completa".
