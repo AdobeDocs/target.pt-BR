@@ -59,10 +59,10 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de crité
 
 1. Digite um **[!UICONTROL Nome]** para a sequência.
 
-   Este é o nome &quot;interno&quot; usado para descrever a sequência de critérios. Os visitantes do seu site não verão este nome.
+   Este é o nome "interno" usado para descrever a sequência de critérios. Os visitantes do seu site não verão este nome.
 1. Digite um **[!UICONTROL Título de exibição genérico]** aberto ao público para aparecer na página, se vários critérios na sequência forem usados para preencher o design do [!UICONTROL Recommendations].
 
-   Por exemplo, você pode querer substituir &quot;Clientes que viram isto também viram...&quot; por &quot;Recomendado para você&quot; se o design puder incluir itens baseados em mais de uma chave de [!UICONTROL recomendações].
+   Por exemplo, você pode querer substituir "Clientes que viram isto também viram..." por "Recomendado para você" se o design puder incluir itens baseados em mais de uma chave de [!UICONTROL recomendações].
 1. Digite uma breve **[!UICONTROL Descrição]** da sequência de critérios.
 
    A descrição deve ajudar a identificar a sequência de critérios e pode incluir informações sobre seu propósito.
