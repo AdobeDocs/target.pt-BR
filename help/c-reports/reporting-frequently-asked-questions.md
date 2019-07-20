@@ -28,7 +28,7 @@ Os números métricos, por exemplos, visitas, informados pelo [!DNL Target] semp
 
 Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, certifique-se de que você tenha o ambiente correto (grupo de hosts) selecionado nas configurações do relatório.
 
-Se você tem um ambiente de desenvolvimento selecionado, pode ver a seguinte mensagem de erro: &quot;Não há dados disponíveis para as configurações de relatório selecionadas&quot;.
+Se você tem um ambiente de desenvolvimento selecionado, pode ver a seguinte mensagem de erro: "Não há dados disponíveis para as configurações de relatório selecionadas".
 
 Para alterar o ambiente de um relatório de atividade:
 
