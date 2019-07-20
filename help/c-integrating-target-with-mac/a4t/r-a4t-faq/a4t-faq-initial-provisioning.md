@@ -43,12 +43,12 @@ Verifique o seguinte se algum destes problemas ocorrer:
 
 ## Por que não vejo as opções do Analytics no Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
+Consulte "Por que meus conjuntos de relatórios não estão carregando?" acima. A causa raiz deste problema é a mesma.
 
 ## Por que não vejo os relatórios do A4T no Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
-Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
+Consulte "Por que meus conjuntos de relatórios não estão carregando?" acima. A causa raiz deste problema é a mesma.
 
 ## Por que meus relatórios no Target estão vazios? {#section_3837104757464CB488C5A83014A669A1}
 
-Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
+Consulte "Por que meus conjuntos de relatórios não estão carregando?" acima. A causa raiz deste problema é a mesma.
