@@ -228,7 +228,7 @@ A at.js 2.x usa uma nova API, chamada de API de entrega. Para depurar se o at.js
 
 **A mbox global do Target não é mais usada**
 
-Na at.js 2.x, &quot;`target-global-mbox`&quot; não estará mais visível nas chamadas de rede. Em vez disso, substituímos a sintaxe &quot;`target-global-mbox`&quot; por &quot;`execute > pageLoad`&quot; na carga JSON enviada aos [!DNL Target] servidores, como observado a seguir:
+Na at.js 2.x, "`target-global-mbox`" não estará mais visível nas chamadas de rede. Em vez disso, substituímos a sintaxe "`target-global-mbox`" por "`execute > pageLoad`" na carga JSON enviada aos [!DNL Target] servidores, como observado a seguir:
 
 ```
 {
@@ -277,7 +277,7 @@ Sim, porque executar &gt; carga é tratado nos servidores [!DNL Target] de borda
 | Criar automaticamente mbox global | Sim |
 | Nome da mbox global | Sim |
 
-**O rastreamento entre domínios*não*é suportado**
+**O rastreamento entre domínios *não*é suportado**
 
 O rastreamento entre domínios possibilita visualizar sessões em sites relacionados, mas com domínios diferentes, como uma única sessão. Você poderia criar uma [!DNL Target] atividade que expande `siteA.com` e `siteB.com` e o visitante permaneceria na mesma experiência ao cruzar os domínios. Essa funcionalidade se associa ao comportamento de cookies de terceiros e próprios do Target.
 
