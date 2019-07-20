@@ -35,9 +35,9 @@ A alocação automática move os visitantes para experiências vencedoras gradat
 
 Um teste A/B normal no Target mostra apenas comparações de pares de desafiantes com controle. Por exemplo, se uma atividade tiver experiências: A, B, C e D, em que A é o controle, um teste A/B normal do Target compararia A versus B, A versus C e A versus D.
 
-Em tais testes, a maioria dos produtos, incluindo o Target, usa um teste t de Estudante para produzir confiança baseada no valor p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, o Target não realiza automaticamente as comparações implícitas (B versus C, B versus D e C versus D) que são necessárias para encontrar a &quot;melhor&quot; experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a &quot;melhor&quot; experiência.
+Em tais testes, a maioria dos produtos, incluindo o Target, usa um teste t de Estudante para produzir confiança baseada no valor p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, o Target não realiza automaticamente as comparações implícitas (B versus C, B versus D e C versus D) que são necessárias para encontrar a "melhor" experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a "melhor" experiência.
 
-A alocação automática executa todas as comparações implícitas entre as experiências e produz um vencedor &quot;verdadeiro&quot;. Não há noção de experiência de &quot;controle&quot; no teste.
+A alocação automática executa todas as comparações implícitas entre as experiências e produz um vencedor "verdadeiro". Não há noção de experiência de "controle" no teste.
 
 A alocação automática aloca novos visitantes a experiências de modo inteligente até que o intervalo de confiança da melhor experiência não se sobreponha ao de qualquer outra experiência. Normalmente, este processo pode produzir falsos positivos, mas a alocação automática usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensa avaliações repetidas. Neste ponto, temos um verdadeiro vencedor. Quando a Alocação automática é interrompida, desde que não haja uma dependência de tempo substancial para os visitantes que chegam à página, há pelo menos 95% de chance de que a alocação automática retorne uma experiência cuja resposta verdadeira não seja pior do que 1% (relativa) menos do que a verdadeira resposta da experiência vencedora.
 
@@ -89,9 +89,9 @@ Se a atividade tiver apenas duas experiências, ambas receberão tráfego igual 
 
 Depois que o modelo para uma atividade de Alocação automática estiver pronto (cada experiência tem um mínimo de 1.000 visitantes e 50 conversões), as seguintes operações da interface do usuário não serão permitidas:
 
-* Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
+* Alternar o modo "Alocação de tráfego" para "Manual"
 * Alterar o tipo de métrica de meta
-* Alterar as opções no painel &quot;Configurações avançadas&quot;
+* Alterar as opções no painel "Configurações avançadas"
 
 ## Avisos {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -123,15 +123,15 @@ Alguns fatores que podem ser ignorados durante um teste A/B padrão por afetarem
 
    Por exemplo:
 
-   * &quot;Graças a Deus é sexta-feira&quot; resulta em maiores conversões na sexta-feira
-   * &quot;Impulsione sua segunda-feira&quot; tem conversão mais alta na segunda-feira
-   * &quot;Prepare-se para um inverno da Costa Leste&quot; tem conversão mais alta na Costa Leste ou em locais afetados pelo inverno
+   * "Graças a Deus é sexta-feira" resulta em maiores conversões na sexta-feira
+   * "Impulsione sua segunda-feira" tem conversão mais alta na segunda-feira
+   * "Prepare-se para um inverno da Costa Leste" tem conversão mais alta na Costa Leste ou em locais afetados pelo inverno
 
 Esses fatores podem distorcer os resultados em um teste de alocação automática mais do que em um teste A/B, pois o teste A/B analisa os resultados durante um período mais longo.
 
 * Experiências com atrasos de conversão variáveis, possivelmente devido à urgência da mensagem.
 
-   Por exemplo, &quot;O desconto de 30% termina hoje&quot; avisa o visitante para converter hoje, mas &quot;50% de desconto na primeira compra&quot; não cria o mesmo senso de urgência.
+   Por exemplo, "O desconto de 30% termina hoje" avisa o visitante para converter hoje, mas "50% de desconto na primeira compra" não cria o mesmo senso de urgência.
 
 ## Perguntas frequentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
