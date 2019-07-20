@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
 
-Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá o &quot;seletor&quot; para o slide correto, mesmo se ele for alterado no Visual Experience Composer após alguns segundos.
+Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá o "seletor" para o slide correto, mesmo se ele for alterado no Visual Experience Composer após alguns segundos.
 
 1. Crie alocadores de espaço estáticos em HTML.
 
