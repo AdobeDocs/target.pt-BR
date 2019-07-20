@@ -29,7 +29,7 @@ Use as Configurações da atividade para gerenciar o objetivo, a prioridade e a 
 
    Se esta opção não estiver ativada na [!UICONTROL Configurar] (padrão), especifique uma prioridade: baixa, média ou alta.
 
-   Para ativar as propriedades otimizadas, clique em [!UICONTROL Configurar] e alterne a opção [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ativado&quot;.
+   Para ativar as propriedades otimizadas, clique em [!UICONTROL Configurar] e alterne a opção [!UICONTROL Ativar prioridades otimizadas] para a posição "Ativado".
 
    Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
