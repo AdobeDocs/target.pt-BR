@@ -37,13 +37,13 @@ Por exemplo, na seguinte ilustração, um usuário da Califórnia que usa um dis
 
 ## Por que os nomes para o mesmo público-alvo do Target, da Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Os nomes dos públicos-alvo no [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter vários públicos-alvo com o mesmo nome (se estiverem em pastas diferentes). Quando o [!DNL Target] encontra um nome de público-alvo que corresponde a um público-alvo do [!DNL AAM] ou do [!DNL Audience Library], o [!DNL Target] adiciona &quot;#&lt;number&gt;&quot; ao nome.
+Os nomes dos públicos-alvo no [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter vários públicos-alvo com o mesmo nome (se estiverem em pastas diferentes). Quando o [!DNL Target] encontra um nome de público-alvo que corresponde a um público-alvo do [!DNL AAM] ou do [!DNL Audience Library], o [!DNL Target] adiciona "#&lt;number&gt;" ao nome.
 
-Por exemplo, você pode ver os seguintes públicos-alvo: &quot;usuários de PC&quot; (na [!DNL AAM]) e &quot;usuários de PC #1&quot; (no [!DNL Target]).
+Por exemplo, você pode ver os seguintes públicos-alvo: "usuários de PC" (na [!DNL AAM]) e "usuários de PC #1" (no [!DNL Target]).
 
 ## Por que não posso renomear um público-alvo? {#section_54E420556F534D20836E261E253D8B97}
 
-Alguns públicos-alvo do Target são predefinidos, como &quot;Novos visitantes&quot; e &quot;Visitantes recorrentes&quot;. Esses públicos-alvo predefinidos não podem ser renomeados pelos usuários.
+Alguns públicos-alvo do Target são predefinidos, como "Novos visitantes" e "Visitantes recorrentes". Esses públicos-alvo predefinidos não podem ser renomeados pelos usuários.
 
 ## Por que todos os parâmetros de perfil não são exibidos na interface do usuário do Target? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
@@ -77,4 +77,4 @@ Os números escritos em notação científica serão sempre comparados como sequ
 
 Por exemplo,
 
-&quot;4e-2&quot; somente será igual a &quot;4e-2&quot;. Ele *não* será igual a &quot;0,04&quot;.
+"4e-2" somente será igual a "4e-2". Ele *não* será igual a "0,04".
