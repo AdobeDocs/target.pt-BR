@@ -35,10 +35,10 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
 1. Insira um **[!UICONTROL nome para o critério]**.
 
-   Este é o nome &quot;interno&quot; usado para descrever o critério.  Por exemplo, você pode chamar seu critério de &quot;Produtos com margem mais alta&quot;, mas não quer que o título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
+   Este é o nome "interno" usado para descrever o critério.  Por exemplo, você pode chamar seu critério de "Produtos com margem mais alta", mas não quer que o título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
 1. Insira um **[!UICONTROL Título de exibição]** aberto ao público que irá aparecer na página para qualquer recomendação que use este critério.
 
-   Por exemplo, você pode decidir exibir &quot;Pessoas que viram isto também viram aquilo&quot; ou &quot;Produtos parecidos&quot; quando usar este critério para exibir recomendações.
+   Por exemplo, você pode decidir exibir "Pessoas que viram isto também viram aquilo" ou "Produtos parecidos" quando usar este critério para exibir recomendações.
 1. Digite uma breve **[!UICONTROL Descrição]** dos critérios.
 
    A descrição deve ajudar a identificar o critério e pode incluir informações sobre o propósito do critério.
@@ -72,7 +72,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
    >
    >As entidades com critérios personalizados (linhas) podem conter até 1.000 itens recomendados (colunas).
 
-As atualizações de critérios personalizados são &quot;cumulativas&quot; por padrão. Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valor-chave existentes que não têm chaves especificadas no upload CSV ainda estarão disponíveis para entrega.
+As atualizações de critérios personalizados são "cumulativas" por padrão. Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valor-chave existentes que não têm chaves especificadas no upload CSV ainda estarão disponíveis para entrega.
 
 Entre em contato com o Atendimento ao Cliente para habilitar a configuração para descartar os resultados existentes que não estão inclusos upload CSV. Se essa configuração estiver habilitada, somente as chaves presentes no arquivo de feed CSV personalizado estarão disponíveis para entrega. Essa configuração se aplica a todos os critérios personalizados.
 
