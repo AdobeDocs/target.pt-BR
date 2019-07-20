@@ -117,4 +117,4 @@ Nesses casos, seletores de elementos podem começar com algo como
 
    Para mais informações sobre como usar o editor de código para fazer isso, consulte [Editor de códigos](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas. Para obter mais informações, consulte &quot;Considerações assíncronas&quot; em [Limitações da at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas. Para obter mais informações, consulte "Considerações assíncronas" em [Limitações da at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
