@@ -71,9 +71,9 @@ O Target usa um algoritmo simples para criar um seletor. Esta é uma breve expli
 
    Neste exemplo:
 
-   Seletor: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (&quot; &gt; &quot; indica o filho imediato.)
+   Seletor: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (" &gt; " indica o filho imediato.)
 
-   `eq` informa ao índice que há um elemento com &quot;tagName = UL&quot; e a primeira classe é `navigation`. Portanto, `index` é 0. Consulte o artigo [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no site MDN para obter mais informações.
+   `eq` informa ao índice que há um elemento com "tagName = UL" e a primeira classe é `navigation`. Portanto, `index` é 0. Consulte o artigo [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no site MDN para obter mais informações.
 
 1. Se um elemento não contiver uma classe, o Target usará `tagName` para o elemento e navegará pelo elemento pai até que o elemento `<HTML>` ou um elemento com uma id seja encontrado.
 
