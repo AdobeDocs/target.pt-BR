@@ -16,7 +16,7 @@ source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 O Visual Experience Composer (VEC) para aplicativos móveis nativos permite criar atividades e personalizar o conteúdo de maneira autônoma, sem dependências de desenvolvimento contínuas e ciclos de lançamento de aplicativos.
 
-O [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) existente fornece um recurso do tipo &quot;faça você mesmo&quot; para criar atividades e personalizar experiências que podem ser entregues dinamicamente às suas propriedades da Web, por meio da mbox global do Target, sem nenhuma intervenção do desenvolvedor. Agora você pode aproveitar o VEC para fazer o mesmo para os aplicativos móveis nativos. O VEC para aplicativos móveis, disponível em [AEP SDK v5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec), pode ser usado para criar atividades de [Teste A/B](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicativos móveis. Compatibilidade com outros tipos de atividade estará disponível no futuro.
+O [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) existente fornece um recurso do tipo "faça você mesmo" para criar atividades e personalizar experiências que podem ser entregues dinamicamente às suas propriedades da Web, por meio da mbox global do Target, sem nenhuma intervenção do desenvolvedor. Agora você pode aproveitar o VEC para fazer o mesmo para os aplicativos móveis nativos. O VEC para aplicativos móveis, disponível em [AEP SDK v5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec), pode ser usado para criar atividades de [Teste A/B](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicativos móveis. Compatibilidade com outros tipos de atividade estará disponível no futuro.
 
 O VEC para aplicativos móveis é compatível com os navegadores listados em [Navegadores suportados](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
@@ -112,13 +112,13 @@ Neste aplicativo, cada uma dessas tarefas pode ser realizada em uma tela diferen
 
 Nesse caso, cada uma dessas tarefas pode ser considerada como Exibições pelas quais o seu aplicativo para dispositivos móveis transita. Nos referiremos a elas como Exibições do Target - cada uma caracterizada exclusivamente. Uma Exibição do Target, ou Exibição em síntese, é um contâiner lógico de elementos visuais que são exibidos na tela dos dispositivos móveis. Exemplos de uma Exibição são uma tela ou uma Classe de atividade do Android.
 
-Aplicativos para dispositivos móveis raramente são tão simples. Vamos torná-lo um pouco mais realista. Na primeira tarefa, a que lista as flores e buquês disponíveis, vamos adicionar a capacidade de criar vários layouts e, portanto, telas diferentes. Por exemplo, vamos adicionar um recurso de &quot;Classificar por&quot; que tenha três opções:
+Aplicativos para dispositivos móveis raramente são tão simples. Vamos torná-lo um pouco mais realista. Na primeira tarefa, a que lista as flores e buquês disponíveis, vamos adicionar a capacidade de criar vários layouts e, portanto, telas diferentes. Por exemplo, vamos adicionar um recurso de "Classificar por" que tenha três opções:
 
 * Por popularidade
 * Preço - baixo para alto
 * Preço - alto para baixo
 
-Neste exemplo, sempre que um usuário selecionar uma opção &quot;Ordenar por&quot; diferente, uma nova tela é exibida, mesmo quando a Classe de atividade é a mesma. Cada uma dessas telas pode assim ser considerada uma Exibição do Target diferente.
+Neste exemplo, sempre que um usuário selecionar uma opção "Ordenar por" diferente, uma nova tela é exibida, mesmo quando a Classe de atividade é a mesma. Cada uma dessas telas pode assim ser considerada uma Exibição do Target diferente.
 
 Como profissional de marketing, você tem interesse em criar experiências diferentes e executar ofertas distintas em cada uma dessas exibições, sem pedir aos seus desenvolvedores que configurem mboxes locais ou passem por um ciclo de lançamento de aplicativos.
 
@@ -194,7 +194,7 @@ Observe que, sempre que as ofertas do Target forem previamente buscadas, se poss
 
 ## Solução de problemas {#ts}
 
-**Recebi um erro informando que meu valor &quot;context. application. name&quot; contém caracteres proibidos. What characters are allowed in mobile app names?**
+**Recebi um erro informando que meu valor "context. application. name" contém caracteres proibidos. What characters are allowed in mobile app names?**
 
 Os caracteres permitidos em nomes de aplicativos móveis incluem:
 
@@ -230,7 +230,7 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
 
    * Ao criar uma nova atividade, após selecionar o aplicativo móvel, a caixa de diálogo da lista de dispositivos é exibida. Se o aplicativo já estiver aberto, feche-o e reinicie-o para que o dispositivo seja mostrado como disponível para seleção.
    * A caixa de diálogo do dispositivo é exibida ao iniciar a edição de uma atividade. Se o aplicativo já estiver aberto, feche-o e reinicie-o para que o dispositivo seja mostrado como disponível para seleção.
-   * A caixa de diálogo do dispositivo é exibida ao navegar da etapa &quot;Metas e configurações&quot; de volta para a etapa &quot;Criação&quot; (Etapa 1). Se o aplicativo já estiver aberto, feche-o e reinicie-o para se conectar novamente ao VEC para aplicativos móveis.
+   * A caixa de diálogo do dispositivo é exibida ao navegar da etapa "Metas e configurações" de volta para a etapa "Criação" (Etapa 1). Se o aplicativo já estiver aberto, feche-o e reinicie-o para se conectar novamente ao VEC para aplicativos móveis.
    Certifique-se de fechar o aplicativo na seção de aplicativos recentes e não pressionando o botão [!UICONTROL Voltar.]
 
 ## Training video: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
