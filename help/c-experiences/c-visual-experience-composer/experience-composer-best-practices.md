@@ -236,7 +236,7 @@ Se você estiver usando o Enhanced Experienced Composer em um site sem transmiss
 
 **Ao adicionar várias páginas, o painel de experiência e da página são abertos ao mesmo tempo. Isso eventualmente diminui com a largura do Visual Experience Composer para exibir o site para otimizações. Como resultado, os sites refluídos podem começar a aparecer no espaço reduzido de modo diferente do esperado.**
 
-A solução é recolher o painel de experiência e o painel da página, clicando nos ícones &quot;chevron&quot; esquerdos da página superior.
+A solução é recolher o painel de experiência e o painel da página, clicando nos ícones "chevron" esquerdos da página superior.
 
 ## Limitações {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
@@ -306,7 +306,7 @@ O script é executado dentro do escopo do target.js após a página carregar. Po
 
 **Inserir uma imagem na Biblioteca de conteúdo (Scene7) e editar o HTML quebra o url da imagem.**
 
-Adicione um elemento da âncora dentro do div &#39;customHeaderMessage&#39; com algum texto de teste:
+Adicione um elemento da âncora dentro do div 'customHeaderMessage' com algum texto de teste:
 
 ```
 <a href="#"> 
