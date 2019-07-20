@@ -141,7 +141,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
 * **Position**
 
-   Mova o elemento selecionado da posição atual. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Mova o elemento selecionado da posição atual. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Clique na lista suspensa [!UICONTROL Estático] para escolher entre as seguintes opções de posição:
 
@@ -277,7 +277,7 @@ Após a sincronização da atividade, o URL de entrega pode ser parecido com o s
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-O Recommendations suporta a opção &quot;Substituir por&quot; nas tags DIV, SECTION e ARTICLE.
+O Recommendations suporta a opção "Substituir por" nas tags DIV, SECTION e ARTICLE.
 
 **Observação:** a troca de imagens exige uma conta do sistema de publicação do Adobe Scene7.
 
@@ -327,7 +327,7 @@ Ocultar o elemento. O espaço em branco permanece, mas o conteúdo é removido.
 
 Remova o elemento. O espaço em branco atrás da imagem é removido e o espaço onde o elemento estava é recolhido.
 
-**Observação:** os itens de uma mbox &quot;clássica&quot; (uma mbox criada em uma campanha do Target Classic) não podem ser removidos usando esta opção.
+**Observação:** os itens de uma mbox "clássica" (uma mbox criada em uma campanha do Target Classic) não podem ser removidos usando esta opção.
 
 ### Expandir seção
 
