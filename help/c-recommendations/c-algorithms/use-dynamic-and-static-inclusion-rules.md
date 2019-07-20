@@ -43,32 +43,32 @@ A tabela a seguir lista os tipos de opções de filtragem para os critérios e a
 |--- |--- |--- |
 | **Filtragem dinâmica** | **Correspondência de atributos de entidade:** filtre dinamicamente comparando um conjunto de possíveis itens de recomendações a um item específico com o qual os usuários interagiram.<br>Por exemplo, recomende somente itens que correspondam à marca do item atual. | é igual a<br>não é igual a<br>está entre<br>contém<br>não contém<br>começa com<br>termina com<br>valor está presente<br>valor não está presente<br>é maior que ou igual a<br>é menor que ou igual a |
 |  | **Correspondência de atributos de perfil:** filtre dinamicamente comparando os itens (entidades) com um valor no perfil do usuário.<br>Por exemplo, recomende somente itens que correspondam à marca favorita do visitante. | é igual a<br> não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>é maior que ou igual a<br>é menor que ou igual a<br>está entre |
-|  | **Correspondência de parâmetros:** filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).<br>Por exemplo, recomende somente o conteúdo que corresponda ao parâmetro de página do &quot;setor&quot;.<br>**Importante:** se a atividade foi criada antes de 31 de outubro de 2016, ocorrerá falha na sua entrega se o filtro &quot;Correspondência de parâmetros&quot; for usado. Para resolver este problema:<ul><li>Crie uma nova atividade e adicione nela seus critérios.</li><li>Use um critério que não contenha o filtro &quot;Correspondência de parâmetros&quot;.</li><li>Remova o filtro &quot;Correspondência de parâmetros&quot; de seus critérios.</li></ul> | igual a<br>não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>é maior que ou igual a<br>é menor que ou igual a<br>está entre |
-| **Filtrar por valor** | **Filtro estático:** insira manualmente um ou mais valores estáticos para filtrar.<br>Por exemplo, apenas recomende um conteúdo com uma classificação MPAA de &quot;G&quot; ou &quot;PG&quot;. | é igual a<br>não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>valor está presente<br>valor não está presente<br>é maior que ou igual a<br>é menor que ou igual a |
+|  | **Correspondência de parâmetros:** filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).<br>Por exemplo, recomende somente o conteúdo que corresponda ao parâmetro de página do "setor".<br>**Importante:** se a atividade foi criada antes de 31 de outubro de 2016, ocorrerá falha na sua entrega se o filtro "Correspondência de parâmetros" for usado. Para resolver este problema:<ul><li>Crie uma nova atividade e adicione nela seus critérios.</li><li>Use um critério que não contenha o filtro "Correspondência de parâmetros".</li><li>Remova o filtro "Correspondência de parâmetros" de seus critérios.</li></ul> | igual a<br>não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>é maior que ou igual a<br>é menor que ou igual a<br>está entre |
+| **Filtrar por valor** | **Filtro estático:** insira manualmente um ou mais valores estáticos para filtrar.<br>Por exemplo, apenas recomende um conteúdo com uma classificação MPAA de "G" ou "PG". | é igual a<br>não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>valor está presente<br>valor não está presente<br>é maior que ou igual a<br>é menor que ou igual a |
 
 >[!NOTE]
 >
->Se você estiver familiarizado com a configuração das regras de inclusão antes do Target versão 17.6.1 (junho de 2017), perceberá que algumas opções e operadores foram alterados. Somente os operadores aplicáveis à opção selecionada são exibidos e alguns operadores foram renomeados (&quot;matches&quot; agora é &quot;equals&quot;) para ficarem mais consistentes e intuitivos. Todas as regras de exclusão existentes criadas antes desta versão foram migradas automaticamente para a nova estrutura. Nenhuma reestruturação é necessária da sua parte.
+>Se você estiver familiarizado com a configuração das regras de inclusão antes do Target versão 17.6.1 (junho de 2017), perceberá que algumas opções e operadores foram alterados. Somente os operadores aplicáveis à opção selecionada são exibidos e alguns operadores foram renomeados ("matches" agora é "equals") para ficarem mais consistentes e intuitivos. Todas as regras de exclusão existentes criadas antes desta versão foram migradas automaticamente para a nova estrutura. Nenhuma reestruturação é necessária da sua parte.
 
 Você pode criar a quantidade de regras de inclusão necessária. As regras de inclusão são unidas por um operador E. Todas as regras devem ser cumpridas para incluir um item em uma recomendação.
 
 As promoções e os critérios dinâmicos são muito mais eficientes do que os estáticos e geram melhores resultados e envolvimento. Os seguintes exemplos fornecem ideias sobre como você pode usar promoções dinâmicas em seus esforços de marketing:
 
-**Igual a:** usando o operador &quot;equals&quot; em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:
+**Igual a:** usando o operador "equals" em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:
 
 * mesma marca
 * mesma categoria
 * mesma categoria E de marca própria
 * mesma loja
 
-**Não é igual:** usando o operador &quot;não é igual&quot; em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:
+**Não é igual:** usando o operador "não é igual" em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:
 
 * uma série de TV diferente
 * um gênero diferente
 * uma série diferente de produtos
 * uma ID de estilo diferente
 
-**Está entre:** usando o operador &quot;is between&quot; nas promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens que sejam:
+**Está entre:** usando o operador "is between" nas promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens que sejam:
 
 * mais caros
 * mais baratos
@@ -80,7 +80,7 @@ As promoções e os critérios dinâmicos são muito mais eficientes do que os e
 
 Você pode escolher várias opções para lidar valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros para critérios e promoções de saída.
 
-Anteriormente, nenhum resultado era retornado se um valor estivesse em branco. A lista suspensa &quot;se *x* estiver em branco&quot; permite escolher a ação apropriada a ser executada se o critério tiver valores em branco, conforme mostrado na ilustração a seguir:
+Anteriormente, nenhum resultado era retornado se um valor estivesse em branco. A lista suspensa "se *x* estiver em branco" permite escolher a ação apropriada a ser executada se o critério tiver valores em branco, conforme mostrado na ilustração a seguir:
 
 ![](assets/empty_value.png)
 
@@ -140,7 +140,7 @@ Os filtros dinâmicos que usam atributos de perfil, que correspondem atributos d
 
 Contanto que você tenha as informações exigidas incorporadas em cada anúncio de emprego e esteja capturando as informações necessárias nos perfis de usuários, a criação e o gerenciamento de públicos-alvo e experiências são bastante simplificados.
 
-**Cenário 3:** uma empresa esportiva quer mostrar artigos em seu site de equipes que um usuário acha interessante. Todos os artigos poderiam ter um campo com `entity.featuredTeams`, que inclui todas as equipes discutidas no artigo. Cada atributo de perfil pode ter uma lista de equipes favoritas nas quais o usuário está se &quot;inscrevendo&quot;.
+**Cenário 3:** uma empresa esportiva quer mostrar artigos em seu site de equipes que um usuário acha interessante. Todos os artigos poderiam ter um campo com `entity.featuredTeams`, que inclui todas as equipes discutidas no artigo. Cada atributo de perfil pode ter uma lista de equipes favoritas nas quais o usuário está se "inscrevendo".
 
 Uma regra de inclusão de amostra poderia se parecer com a seguinte:
 
@@ -152,29 +152,29 @@ Exemplos/descrições
 
 `"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics"`
 
-Considerado uma correspondência, pois &quot;Athletics&quot; é igual a, apesar de &quot;Red Sox&quot; não ser.
+Considerado uma correspondência, pois "Athletics" é igual a, apesar de "Red Sox" não ser.
 
 `"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
 
-Considerado uma correspondência, pois &quot;Athletics&quot; e &quot;Red Sox&quot; são iguais, embora não seja necessário que ambos os times sejam correspondentes.
+Considerado uma correspondência, pois "Athletics" e "Red Sox" são iguais, embora não seja necessário que ambos os times sejam correspondentes.
 
 `"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
 
-Considerado uma correspondência, pois &quot;Athletics&quot; é igual a, apesar de &quot;Red Sox&quot; não ser.
+Considerado uma correspondência, pois "Athletics" é igual a, apesar de "Red Sox" não ser.
 
 `"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletic"`
 
-Não corresponde, pois &quot;Athletics&quot; (plural) não é igual a &quot;Athletic&quot; (singular).
+Não corresponde, pois "Athletics" (plural) não é igual a "Athletic" (singular).
 
-Alternativamente, você pode usar &quot;contém&quot;, em vez de &quot;equals&quot; para fazer uma correspondência.
+Alternativamente, você pode usar "contém", em vez de "equals" para fazer uma correspondência.
 
 `"entity.featuredTeam" - "Athletic" equals "profile.favoriteTeams" - "Athletics"`
 
-Não corresponde, pois &quot;Athletic&quot; (singular) não é igual a &quot;Athletics&quot; (plural).
+Não corresponde, pois "Athletic" (singular) não é igual a "Athletics" (plural).
 
-Alternativamente, você poderia usar &quot;começa com&quot;, em vez de &quot;equals&quot; para fazer uma correspondência.
+Alternativamente, você poderia usar "começa com", em vez de "equals" para fazer uma correspondência.
 
-**Cenário 4:** a ilustração a seguir demonstra como usar os operadores &quot;equals&quot; e &quot;is between&quot; para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, uma empresa de vestuário esportivo pode promover calçados de corrida mais caros em um esforço de fazer uma venda agregada a um visitante que esteja procurando shorts de corrida.
+**Cenário 4:** a ilustração a seguir demonstra como usar os operadores "equals" e "is between" para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, uma empresa de vestuário esportivo pode promover calçados de corrida mais caros em um esforço de fazer uma venda agregada a um visitante que esteja procurando shorts de corrida.
 
 ![](assets/dynamic3.png)
 
@@ -190,9 +190,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 >[!NOTE]
 >
->Não é possível alterar a chave em uma promoção dinâmica com várias regras (a terceira lista suspensa nas duas primeiras regras denominada &quot;Item atual&quot; na ilustração).
+>Não é possível alterar a chave em uma promoção dinâmica com várias regras (a terceira lista suspensa nas duas primeiras regras denominada "Item atual" na ilustração).
 
-**Cenário 5:** a segunda ilustração demonstra como usar os operadores &quot;equals&quot; e &quot;is between&quot; para promover itens mais caros que sejam da mesma categoria, da mesma marca e de marca própria. Por exemplo, uma empresa de material de escritório pode promover cartuchos de toner mais caros, da mesma marca e da marca própria da empresa, em um esforço de fazer uma venda agregada a um visitante que esteja à procura de impressoras.
+**Cenário 5:** a segunda ilustração demonstra como usar os operadores "equals" e "is between" para promover itens mais caros que sejam da mesma categoria, da mesma marca e de marca própria. Por exemplo, uma empresa de material de escritório pode promover cartuchos de toner mais caros, da mesma marca e da marca própria da empresa, em um esforço de fazer uma venda agregada a um visitante que esteja à procura de impressoras.
 
 ![](assets/dynamic4.png)
 
@@ -208,7 +208,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 Observe que este exemplo usa duas regras dinâmicas e uma regra estática.
 
-**Cenário 6:** a terceira ilustração demonstra como usar o operador &quot;não é igual a&quot; para promover uma série que não seja igual à série que o visitante está visualizando no momento. Por exemplo, um site de mídia pode promover uma série de televisão diferente da série que o visitante está visualizando no momento.
+**Cenário 6:** a terceira ilustração demonstra como usar o operador "não é igual a" para promover uma série que não seja igual à série que o visitante está visualizando no momento. Por exemplo, um site de mídia pode promover uma série de televisão diferente da série que o visitante está visualizando no momento.
 
 ![](assets/dynamic5.png)
 
@@ -240,7 +240,7 @@ salesPrice - is between - 90% and 110% of - current item's - price
 
 **Cenário 9:** considere o seguinte cenário de um site de mídia esportiva sobre como lidar com valores em branco, como explicado na seção [Lidar com valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) acima:
 
-A equipe de conteúdo de um site de mídia esportiva deseja mostrar aos usuários o conteúdo de seus times favoritos. Se um usuário especificou um time favorito, a equipe mostrará a mídia para esse time. Se um usuário não tiver especificado um time favorito, a equipe poderá usar a lista suspensa &quot;Se *x* estiver em branco&quot; para fazer um dos seguintes procedimentos:
+A equipe de conteúdo de um site de mídia esportiva deseja mostrar aos usuários o conteúdo de seus times favoritos. Se um usuário especificou um time favorito, a equipe mostrará a mídia para esse time. Se um usuário não tiver especificado um time favorito, a equipe poderá usar a lista suspensa "Se *x* estiver em branco" para fazer um dos seguintes procedimentos:
 
 * Use a opção [!UICONTROL Ignorar esta regra de filtragem] para ignorar completamente o filtro de time, como mostrado na ilustração a seguir:
 
