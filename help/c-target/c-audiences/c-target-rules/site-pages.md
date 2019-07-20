@@ -19,7 +19,7 @@ Direcione visitantes que estão em uma página específica ou têm um parâmetro
 
 >[!NOTE]
 >
->Os tipos de página de site de público-alvo e os operadores de comparação agora correspondem aos tipos e operadores de comparação do Target Classic. É possível criar públicos-alvo de página do site usando seu próprio &quot;parâmetro de consulta definido pelo usuário&quot; ou &quot;cabeçalho definido pelo usuário&quot;.
+>Os tipos de página de site de público-alvo e os operadores de comparação agora correspondem aos tipos e operadores de comparação do Target Classic. É possível criar públicos-alvo de página do site usando seu próprio "parâmetro de consulta definido pelo usuário" ou "cabeçalho definido pelo usuário".
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
@@ -38,7 +38,7 @@ Direcione visitantes que estão em uma página específica ou têm um parâmetro
       >O objeto `landing.url` é redefinido em uma alteração de subdomínio ou em uma substituição do URL direto.
 
    * **Mbox:** a mbox para a qual você está definindo metas. Por exemplo, se você quiser contar pedidos com um Pedido total de US$ 100 ou mais, você passaria `orderTotal` como um parâmetro de mbox com esse direcionamento especificado aqui.
-   * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar &quot;contém&quot;. Por exemplo, &quot;Domínio igual a facebook.com&quot; não aceitará `m.facebook.com` ou `www.facebook.com`. &quot;Domínio conterá facebook.com&quot; aceitará qualquer variante de facebook.com.
+   * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar "contém". Por exemplo, "Domínio igual a facebook.com" não aceitará `m.facebook.com` ou `www.facebook.com`. "Domínio conterá facebook.com" aceitará qualquer variante de facebook.com.
    * **Consulta:** o conteúdo do URL após o primeiro ponto de interrogação (?). Por exemplo, a consulta é mostrada em negrito no seguinte URL de amostra:
 
       `foo.html?e0a72cb2a2c7`
@@ -46,7 +46,7 @@ Direcione visitantes que estão em uma página específica ou têm um parâmetro
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-É possível criar públicos-alvo de páginas do site usando seu próprio &quot;parâmetro de consulta definido pelo usuário&quot; ou &quot;cabeçalho definido pelo usuário&quot;.
+É possível criar públicos-alvo de páginas do site usando seu próprio "parâmetro de consulta definido pelo usuário" ou "cabeçalho definido pelo usuário".
 
 Use um:
 
