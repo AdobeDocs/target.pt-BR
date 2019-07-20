@@ -35,19 +35,19 @@ Os problemas a seguir são problemas conhecidos com ofertas redirecionadas:
 
 ### Falha na renderização do relatório de gráfico de uma atividade do Target ao usar uma experiência personalizada como controle
 
-O relatório de gráfico de uma atividade do Target não é renderizado para modos &quot;diferencial&quot; (Incentivo médio e Incentivo diário) se não houver dados (0 visitas) em qualquer experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade se a experiência de controle estiver definida como personalizada. Para os outros modos (Executar controle médio e segmentação, Controle diário e Segmentação e Visitas) ele funciona bem. Assim que há alguns dados (visitas diferentes de zero), o relatório é renderizado como esperado.
+O relatório de gráfico de uma atividade do Target não é renderizado para modos "diferencial" (Incentivo médio e Incentivo diário) se não houver dados (0 visitas) em qualquer experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade se a experiência de controle estiver definida como personalizada. Para os outros modos (Executar controle médio e segmentação, Controle diário e Segmentação e Visitas) ele funciona bem. Assim que há alguns dados (visitas diferentes de zero), o relatório é renderizado como esperado.
 
 ### Cancelar carregamento de uma página no VEC {#cancel}
 
 * O seguinte problema conhecido existe ao cancelar o carregamento de uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de experiência] (XT) no VEC que contém um URL de redirecionamento.
 
-   Na etapa um do fluxo de trabalho guiado de três partes no VEC, ao cancelar o carregamento da página, o painel [!UICONTROL Modificações] no VEC é exibido e o redirecionamento para o modelo de URL é aplicado na experiência (por exemplo, &quot;Experiência B&quot;). Ao avançar para etapas dois ou três e retornar à etapa um, ocorre a seguinte situação.
+   Na etapa um do fluxo de trabalho guiado de três partes no VEC, ao cancelar o carregamento da página, o painel [!UICONTROL Modificações] no VEC é exibido e o redirecionamento para o modelo de URL é aplicado na experiência (por exemplo, "Experiência B"). Ao avançar para etapas dois ou três e retornar à etapa um, ocorre a seguinte situação.
 
-   Por padrão, na &quot;Experiência B&quot;, o modelo de carregamento do site cancelado é renderizado e o painel [!UICONTROL Modificações] fica acessível, o que não deve ser o caso, pois essa experiência tem um redirecionamento para o modelo de URL aplicado. O redirecionamento para o modelo de URL deve ser exibido.
+   Por padrão, na "Experiência B", o modelo de carregamento do site cancelado é renderizado e o painel [!UICONTROL Modificações] fica acessível, o que não deve ser o caso, pois essa experiência tem um redirecionamento para o modelo de URL aplicado. O redirecionamento para o modelo de URL deve ser exibido.
 
    Para mostrar o estado correto da experiência no VEC:
 
-   Se você alternar para outra experiência e alternar de volta para a &quot;Experiência B&quot;, o [!DNL Target] exibe o redirecionamento para o modelo de URL aplicado nessa experiência e o painel [!UICONTROL Modificações] não estará acessível. (TGT-32138)
+   Se você alternar para outra experiência e alternar de volta para a "Experiência B", o [!DNL Target] exibe o redirecionamento para o modelo de URL aplicado nessa experiência e o painel [!UICONTROL Modificações] não estará acessível. (TGT-32138)
 
 * Para os sites de Aplicativo de página única (SPA), cancelar o carregamento não permite editar ações no painel [!UICONTROL Modificações].
 
@@ -59,8 +59,8 @@ As ofertas de código criadas na interface do usuário do Target na biblioteca d
 
 A seguir, os problemas conhecidos com atividades de recomendações:
 
-* O índice do feed do Recommendations pode exibir &quot;Aguardando índice&quot; se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
-* O erro &quot;error.restapi.algorithmProfileAttributeInvalid&quot; das recomendações ocorre quando são utilizados atributos de perfil específicos como critérios.
+* O índice do feed do Recommendations pode exibir "Aguardando índice" se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
+* O erro "error.restapi.algorithmProfileAttributeInvalid" das recomendações ocorre quando são utilizados atributos de perfil específicos como critérios.
 * Quando Promoção atrás é usado em uma atividade de recomendações, os filtros de inclusão de critérios não se aplicam aos ERs de backup.
 * A IU de feeds de recomendação não mostra o status de indexação correto. As tarefas de back-end estão funcionando corretamente, mas a IU não é capaz de obter e exibir o estado atual.
 
@@ -93,7 +93,7 @@ A seguir, os problemas conhecidos com at.js:
 * Mboxes não disparam em navegadores Microsoft Explorer 11 depois do upgrade para at.js versão 1.0 por causa da interação entre at.js e a API de visitante API 2.2.0. Esse problema afeta a at.js versão 0.9.6 e posteriores. (TNT-27600)
 * at.js pode não funcionar com aplicativos Cordova/Hybrid porque os cookies próprios atualmente não são compatíveis com eles. (TNT-26166)
 
-   **Solução alternativa**: configure at.js com a opção &quot;somente x&quot; ativada e transmita `mboxThirdPartyId` em chamadas para gerenciar usuários.
+   **Solução alternativa**: configure at.js com a opção "somente x" ativada e transmita `mboxThirdPartyId` em chamadas para gerenciar usuários.
 
 ### mbox.js
 
@@ -103,17 +103,17 @@ A biblioteca mbox.js não é compatível com linguagens de modelos do lado do cl
 
 ### Implementação: criação automática de mbox global
 
-Na guia Implementação ([!UICONTROL Configurar &gt; Implementação]), o campo [!UICONTROL Criação automática da Mbox global] será &quot;false&quot; por padrão no caso de um inquilino recém-provisionado.
+Na guia Implementação ([!UICONTROL Configurar &gt; Implementação]), o campo [!UICONTROL Criação automática da Mbox global] será "false" por padrão no caso de um inquilino recém-provisionado.
 
-Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da Mbox global] é definido como &quot;true&quot; no arquivo mbox.js baixado e no back-end do [!DNL Target], mas continuará sendo exibido como &quot;false&quot; na página [!UICONTROL Implementação] na IU até que a página seja atualizada (depois da atualização da página, o status será &quot;true&quot;).
+Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da Mbox global] é definido como "true" no arquivo mbox.js baixado e no back-end do [!DNL Target], mas continuará sendo exibido como "false" na página [!UICONTROL Implementação] na IU até que a página seja atualizada (depois da atualização da página, o status será "true").
 
-at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
+at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como "true" e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Métricas de sucesso
 
-Métrica de sucesso com opção avançada &quot;Como a contagem será incrementada&quot; definida como &quot;a cada impressão&quot; ou &quot;a cada impressão (exceto atualizações)&quot; não pode ser usada como uma métrica de sucesso da qual dependeria outra métrica.
+Métrica de sucesso com opção avançada "Como a contagem será incrementada" definida como "a cada impressão" ou "a cada impressão (exceto atualizações)" não pode ser usada como uma métrica de sucesso da qual dependeria outra métrica.
 
-Quando uma métrica de sucesso é definida para incrementação a cada impressão, o Target conta o visitante novamente toda vez que ele visitar a métrica de sucesso. O Target reinicia, então, a métrica de sucesso &quot;associação&quot; para 0, para que ela possa contar novamente na próxima impressão. Portanto, se outra métrica exigir que essa métrica tenha sido definida primeiro, o Target nunca reconhecerá que o usuário viu a primeira métrica.
+Quando uma métrica de sucesso é definida para incrementação a cada impressão, o Target conta o visitante novamente toda vez que ele visitar a métrica de sucesso. O Target reinicia, então, a métrica de sucesso "associação" para 0, para que ela possa contar novamente na próxima impressão. Portanto, se outra métrica exigir que essa métrica tenha sido definida primeiro, o Target nunca reconhecerá que o usuário viu a primeira métrica.
 
 ### Analytics for Target (A4T)
 
@@ -150,7 +150,7 @@ Corrigido na versão da API 2.3.0 ou posterior.
 
 ### Geografia direcionamento
 
-A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por &quot;nova york&quot;, a pesquisa não retorna resultados válidos.
+A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por "nova york", a pesquisa não retorna resultados válidos.
 
 Corrigido em novembro de 2018.
 
@@ -180,7 +180,7 @@ Isso foi corrigido na versão 18.9.1.
 
 ### Atividade de recomendações que usa uma regra de Promoção do atributo
 
-Ao editar ou copiar uma atividade Recommendations que use uma regra de promoção de atributo, o erro &quot;Campo ausente&quot; é exibido ao clicar em Salvar.
+Ao editar ou copiar uma atividade Recommendations que use uma regra de promoção de atributo, o erro "Campo ausente" é exibido ao clicar em Salvar.
 
 Isso foi corrigido na versão 17.8.1.
 
@@ -192,9 +192,9 @@ Isso foi corrigido na versão 17.10.1.
 
 ### Recommendations de backup
 
-As recomendações de backup exibem erroneamente &quot;Ativado&quot; nos cartões de Itens visualizados recentemente na interface do usuário do Target. (TGT-29308)
+As recomendações de backup exibem erroneamente "Ativado" nos cartões de Itens visualizados recentemente na interface do usuário do Target. (TGT-29308)
 
-Isso foi corrigido na versão 18.4.1 para que &quot;Desabilitado&quot; fosse exibido.
+Isso foi corrigido na versão 18.4.1 para que "Desabilitado" fosse exibido.
 
 ### Atividades de Direcionamento automático e públicos-alvo de relatórios
 
@@ -204,7 +204,7 @@ Este problema foi corrigido na versão 18.5.1 (22 de maio de 2018).
 
 ### at.js
 
-O algoritmo para extrair o domínio de nível superior que deve ser usado ao salvar cookies foi alterado na at.js versão 0.9.6. Por causa dessa alteração, os cookies não pode ser salvos em endereços que usam IP. Na maioria das vezes, os endereços IP são usados ​​para fins de teste, mas, como solução alternativa, é possível usar entradas de DNS ou ajustar o arquivo de hosts em uma caixa local. Também é possível usar a função da at.js targetGlobalSettings() para inserir um fragmento de código para oferecer suporte a endereços IP.
+O algoritmo para extrair o domínio de nível superior que deve ser usado ao salvar cookies foi alterado na at.js versão 0.9.6. Por causa dessa alteração, os cookies não pode ser salvos em endereços que usam IP. Na maioria das vezes, os endereços IP são usados &#x200B;&#x200B;para fins de teste, mas, como solução alternativa, é possível usar entradas de DNS ou ajustar o arquivo de hosts em uma caixa local. Também é possível usar a função da at.js targetGlobalSettings() para inserir um fragmento de código para oferecer suporte a endereços IP.
 
 Este problema foi remediado na at.js versão 1.2.
 
@@ -257,7 +257,7 @@ Corrigido na versão 16.10.1 do Target.
 
 ### Criação de relatórios: atividades de A/B e direcionamento de experiência (XT)
 
-Entre 21:00 PST de 27 de abril e 6:00 PST do dia 5 de maio, atividades de A/B e XT criadas ou editadas com qualquer métrica usando a ação de conversão &quot;Visualizou uma página&quot; (que não foram baseadas em outras métricas), podem ter registrado conversões incorretamente. Este problema agora foi resolvido, entretanto, os relatos sobre a ação de conversão &quot;Visualizou uma página&quot; nessas atividades durante o período de tempo impactado podem não ser precisos e, infelizmente, não podem ser corrigidos. Recomendamos que, para quaisquer decisões baseadas nas ações de conversão &quot;Visualizou uma página&quot; nessas atividades, você confie apenas nos dados registrados antes ou depois do período impactado.
+Entre 21:00 PST de 27 de abril e 6:00 PST do dia 5 de maio, atividades de A/B e XT criadas ou editadas com qualquer métrica usando a ação de conversão "Visualizou uma página" (que não foram baseadas em outras métricas), podem ter registrado conversões incorretamente. Este problema agora foi resolvido, entretanto, os relatos sobre a ação de conversão "Visualizou uma página" nessas atividades durante o período de tempo impactado podem não ser precisos e, infelizmente, não podem ser corrigidos. Recomendamos que, para quaisquer decisões baseadas nas ações de conversão "Visualizou uma página" nessas atividades, você confie apenas nos dados registrados antes ou depois do período impactado.
 
 A criação de relatórios de dados para outras métricas ainda pode ser usada, pois elas não foram impactadas.
 
