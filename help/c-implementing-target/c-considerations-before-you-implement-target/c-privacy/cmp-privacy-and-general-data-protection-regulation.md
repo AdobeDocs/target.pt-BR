@@ -43,7 +43,7 @@ Para obter mais informações, consulte:
 
 ## Inclusão do Adobe Target e Adobe Launch {#section_6F7B53F5E40C4425934627B653E831B0}
 
-O Target oferece suporte a funcionalidade de inclusão por meio do Adobe Launch, para ajudar a apoiar a sua estratégia de gerenciamento de consentimento. A funcionalidade de inclusão permite que os clientes controlem como e quando a tag do Target é acionada. Além disso, há uma opção por meio do Adobe Launch para pré-aprovar a tag do Target. Para ativar a capacidade de usar a Aceitação no at.js do Target, você deve usar `targetGlobalSettings` e adicionar a configuração do `optinEnabled=true`. No Lançamento, você deverá selecionar &quot;habilitar&quot; na lista suspensa de Aceitação do GDPR na exibição de instalação do Target Launch Extension. Consulte a documentação do [Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
+O Target oferece suporte a funcionalidade de inclusão por meio do Adobe Launch, para ajudar a apoiar a sua estratégia de gerenciamento de consentimento. A funcionalidade de inclusão permite que os clientes controlem como e quando a tag do Target é acionada. Além disso, há uma opção por meio do Adobe Launch para pré-aprovar a tag do Target. Para ativar a capacidade de usar a Aceitação no at.js do Target, você deve usar `targetGlobalSettings` e adicionar a configuração do `optinEnabled=true`. No Lançamento, você deverá selecionar "habilitar" na lista suspensa de Aceitação do GDPR na exibição de instalação do Target Launch Extension. Consulte a documentação do [Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
 
 O trecho de código a seguir mostra como ativar a configuração `optinEnabled=true`:
 
@@ -246,9 +246,9 @@ Este é um exemplo de resposta da API de acesso do Target:
 |--- |--- |
 | jobId | Indica a ID de tarefa do GDPR da API central do GDPR. |
 | imsOrgID | Oferece um identificador exclusivo para sua empresa. |
-| namespace | Também conhecido como fonte de dados. Consulte &quot;Quais IDs são compatíveis para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR para o Target?&quot; neste tópico. |
-| type | O tipo de ID para a qual você solicitou o acesso de dados do GDPR. O Target aceita diversos tipos de ID, alguns são padrão e outros são específicos ao Target. Consulte &quot;Quais IDs são compatíveis para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR para o Target?&quot; neste tópico. |
-| value | A ID do namespace/fonte de dados. Consulte &quot;Quais IDs são compatíveis para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR para o Target?&quot; para saber mais sobre os valores aceitos. |
+| namespace | Também conhecido como fonte de dados. Consulte "Quais IDs são compatíveis para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR para o Target?" neste tópico. |
+| type | O tipo de ID para a qual você solicitou o acesso de dados do GDPR. O Target aceita diversos tipos de ID, alguns são padrão e outros são específicos ao Target. Consulte "Quais IDs são compatíveis para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR para o Target?" neste tópico. |
+| value | A ID do namespace/fonte de dados. Consulte "Quais IDs são compatíveis para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR para o Target?" para saber mais sobre os valores aceitos. |
 | código de integração | Códigos de integração são nomes amigáveis para suas fontes de dados e ajudam a monitorar suas fontes de dados de maneira mais fácil do que seria com IDs de fontes de dados. |
 
 Quando diversos valores são fornecidos para identificar os perfis, cada identificador válido terá um arquivo de perfil. Os arquivos de perfil são enviados central de GDPR do Azure Blob por meio da API do GDPR central, no formato de resposta JSON de perfil do Target.
