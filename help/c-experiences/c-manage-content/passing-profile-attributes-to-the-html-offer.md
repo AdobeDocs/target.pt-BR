@@ -19,9 +19,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **Casos de negócios**
 
-* Promova uma oferta com desconto para &quot;recarregar&quot; ou &quot;repor&quot; o último produto comprado. Em vez de criar uma oferta separada para cada item no catálogo, você pode criar uma oferta com texto dinâmico que lê o &quot;último produto comprado&quot; do perfil e exibe um link na oferta.
+* Promova uma oferta com desconto para "recarregar" ou "repor" o último produto comprado. Em vez de criar uma oferta separada para cada item no catálogo, você pode criar uma oferta com texto dinâmico que lê o "último produto comprado" do perfil e exibe um link na oferta.
 * Um visitante chega à página de aterrissagem com `keyword=world` `cup`. Você exibe o termo *Copa do mundo* na oferta.
-* Personalize um rótulo de recomendações com informações como (1) o último item adicionado ao carrinho do visitante (Nike Air Max 1000s), (2) a preferência de cor do visitante (preto) e (3) a categoria favorita do visitante sem ser sapatos (moletons). Exemplo: &quot;Complemente o look do seu &#39;Nike Air Max 1000s&#39; com esse &#39;moletom&#39; &#39;preto&#39; despojado!&quot;
+* Personalize um rótulo de recomendações com informações como (1) o último item adicionado ao carrinho do visitante (Nike Air Max 1000s), (2) a preferência de cor do visitante (preto) e (3) a categoria favorita do visitante sem ser sapatos (moletons). Exemplo: "Complemente o look do seu 'Nike Air Max 1000s' com esse 'moletom' 'preto' despojado!"
 
 
 **Vantagens técnicas**
@@ -35,7 +35,7 @@ Como preferências específicas do usuário, comportamentos, status, etc. podem 
 * Código da oferta HTML: `Get your ${profile.keyword} information here!`
 * O usuário vê: Saiba tudo sobre a Copa do mundo aqui!
 
-Os valores a seguir podem ser &quot;substituídos por token&quot;:
+Os valores a seguir podem ser "substituídos por token":
 
 | Valores | Exemplos |
 |--- |--- |
@@ -58,7 +58,7 @@ Em parâmetros de perfil passados para uma mbox, use a sintaxe: `${profile.param
 
 `${user.parameter}`
 
-Ao usar atributos dinâmicos em um design do Recommendations, você deve inserir uma barra invertida (&#39;\&#39;) antes do cifrão (&#39;$&#39;) para que o valor dinâmico seja renderizado adequadamente: `\${user.endpoint.lastViewedEntity}`
+Ao usar atributos dinâmicos em um design do Recommendations, você deve inserir uma barra invertida ('\') antes do cifrão ('$') para que o valor dinâmico seja renderizado adequadamente: `\${user.endpoint.lastViewedEntity}`
 
 Essas variáveis são substituídas pelo valor no lado do servidor. Não há necessidade de aspas ou JavaScript para a exibição correta.
 
@@ -66,7 +66,7 @@ Valores padrão também podem ser especificados para valores que você deseja ex
 
 `${user.testAttribute default="All Items!"}`
 
-Quando `testAttribute` não existe ou está em branco, &quot;Todos os itens!&quot; será escrito. Se um valor de atributo vazio é válido, e você quer gravá-lo em vez de mostrar o padrão, você pode usar:
+Quando `testAttribute` não existe ou está em branco, "Todos os itens!" será escrito. Se um valor de atributo vazio é válido, e você quer gravá-lo em vez de mostrar o padrão, você pode usar:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
