@@ -17,7 +17,7 @@ source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 # ![PREMIUM](/help/assets/premium.png) Coleta de dados para os algoritmos de personalização do Target{#data-collection-for-the-target-personalization-algorithms}
 
-O Target coleta e usa automaticamente uma variedade de dados para criar algoritmos de personalização nas atividades de Personalização automatizada (AP) e Direcionamento automático (AT). Quando um visitante entra na atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de &quot;registros de treinamento&quot; (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
+O Target coleta e usa automaticamente uma variedade de dados para criar algoritmos de personalização nas atividades de Personalização automatizada (AP) e Direcionamento automático (AT). Quando um visitante entra na atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de "registros de treinamento" (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
 
 Para saber mais sobre os algoritmos de personalização do Target, consulte [Algoritmo Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
@@ -25,10 +25,10 @@ The following table shows the data collected by Automated Personalization and Au
 
 | Tipo de dados | Descrição | Convenção de nomenclatura do tipo de dados | Atributos de exemplo |
 | --- | --- | --- | --- |
-| [Dados de dispositivo e dispositivos móveis](#device-mobile) | Informações específicas sobre dispositivos e dispositivos móveis.<br>Consulte &quot;Dispositivo de dispositivo e dispositivo móvel&quot; abaixo. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
+| [Dados de dispositivo e dispositivos móveis](#device-mobile) | Informações específicas sobre dispositivos e dispositivos móveis.<br>Consulte "Dispositivo de dispositivo e dispositivo móvel" abaixo. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
 | [Dados de ambiente](#env) | Informações sobre o sistema operacional do visitante e como e quando o visitante está acessando a atividade. | `Browser - / Operating System] - [Attribute Name]` | Navegador - Tipo |
 | Segmento da Experience Cloud | Públicos-alvo criados no Audience Manager ou Analytics e compartilhados na Experience Cloud | `Custom - Experience Cloud Audience - [Audience Name]` | Dados personalizados |
-| [Dados geográficos](#geo) | Informações sobre onde o visitante está localizado.<br>Consulte &quot;Dados geográficos&quot; abaixo. | `Geo - [geo attribute]` | City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier |
+| [Dados geográficos](#geo) | Informações sobre onde o visitante está localizado.<br>Consulte "Dados geográficos" abaixo. | `Geo - [geo attribute]` | City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier |
 | Atributos do perfil | Scripts ou atributos de perfil carregados diretamente no perfil do Target por meio da API de atualização | `Custom - Visitor Profile - [attribute name]` | Dados personalizados |
 | Parâmetros de URL de referência | Em geral, o URL de referência é aquele que fez referência a uma determinada página que iniciou a chamada da mbox.<br>Observe que esta variável pode ser afetada pela atividade dos usuários no site, bem como pela implementação técnica do site. | `Custom - [Referring URL Parameter] - [Parameter value]` | Dados personalizados |
 | Relatórios de relatórios | Quaisquer segmentos configurados na configuração da atividade. | `Reporting Segment -[Segment Name]` | Dados personalizados |
