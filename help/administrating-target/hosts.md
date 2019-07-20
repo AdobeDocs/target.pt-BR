@@ -21,7 +21,7 @@ Organize seus sites e ambientes de pré-produção para fácil gerenciamento e g
 
 Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 
-Uma funcionalidade semelhante existia em [!DNL Target Classic]. Os grupos de host em [!DNL Target Classic] foram chamados de &quot;ambientes&quot; em [!DNL Target Standard/Premium].
+Uma funcionalidade semelhante existia em [!DNL Target Classic]. Os grupos de host em [!DNL Target Classic] foram chamados de "ambientes" em [!DNL Target Standard/Premium].
 
 O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo inativo seja exibido acidentalmente nos sites. O gerenciamento de host também permite que você separe os dados de relatório por ambiente.
 
@@ -55,7 +55,7 @@ Para reconhecer um host, as condições a seguir devem ser cumpridas:
 
 Após a visualização de uma página, o host é adicionado na lista de [!UICONTROL Hosts], permitindo que você gerencie-o em uma ambiente, bem como, visualize e inicie atividades e testes.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Isso inclui quaisquer servidores de desenvolvimento pessoal.
 
@@ -103,7 +103,7 @@ Para selecionar vários hosts, marque as caixas de seleção perto da coluna [!U
 
 Você pode selecionar o ambiente que deseja usar como padrão em todos os relatórios de atividade.
 
-Se você usa a Produção como seu padrão, todos os hosts desconhecidos são automaticamente adicionados aqui os dados de relatórios deles são incluídos na exibição de relatório padrão. Em vez disso, criar um ambiente &quot;limpo&quot; garante somente a inclusão dos seus sites/domínios principais.
+Se você usa a Produção como seu padrão, todos os hosts desconhecidos são automaticamente adicionados aqui os dados de relatórios deles são incluídos na exibição de relatório padrão. Em vez disso, criar um ambiente "limpo" garante somente a inclusão dos seus sites/domínios principais.
 
 Para definir o ambiente padrão para relatório:
 
