@@ -47,13 +47,13 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](..
 
 1. Na lista suspensa **[!UICONTROL Escolher o tipo de comparação]**, escolha **[!UICONTROL Atributo]**.
 
-   O tipo de comparação de &quot;valor estático&quot; permite comparar o atributo de perfil do visitante com os valores específicos.
+   O tipo de comparação de "valor estático" permite comparar o atributo de perfil do visitante com os valores específicos.
 
    ![Pontuação de propensão 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
-   >Se você estiver usando uma das categorias de perfil do visitante padrão na Etapa 1 (por exemplo, Novo visitante ou Visitante recorrente), poderá escolher somente a opção de valor estático. As opções de comparação dinâmica não estão disponíveis para as categorias padrão. Outros exemplos em que as opções de comparação dinâmica não estão disponíveis incluem &quot;Primeira página da sessão&quot;, &quot;Não em outros testes&quot;, &quot;Não é primeira página da sessão&quot; e &quot;Afinidade de categorias&quot;.
+   >Se você estiver usando uma das categorias de perfil do visitante padrão na Etapa 1 (por exemplo, Novo visitante ou Visitante recorrente), poderá escolher somente a opção de valor estático. As opções de comparação dinâmica não estão disponíveis para as categorias padrão. Outros exemplos em que as opções de comparação dinâmica não estão disponíveis incluem "Primeira página da sessão", "Não em outros testes", "Não é primeira página da sessão" e "Afinidade de categorias".
 
 1. Escolha o atributo adicional que deseja comparar com o atributo inicial.
 
