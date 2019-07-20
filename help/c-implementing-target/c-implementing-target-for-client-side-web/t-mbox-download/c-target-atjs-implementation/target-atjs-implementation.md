@@ -62,7 +62,7 @@ A biblioteca [!DNL at.js] oferece várias melhorias em relação à biblioteca [
 
 ## Vídeo de treinamento: at.js - Vantagens e práticas recomendadas de implementação
 
-Este vídeo é uma gravação de &quot;[Horas do Office](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
+Este vídeo é uma gravação de "[Horas do Office](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)", uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 
 * Como funciona a biblioteca at.js
 * As vantagens da at.js em relação a mbox.js
