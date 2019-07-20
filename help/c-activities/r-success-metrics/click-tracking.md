@@ -59,7 +59,7 @@ Se você já conhece o caminho DOM para o seletor, você pode adicioná-lo manua
 
 ### Pop-up de passagem de elementos selecionados
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. A lista contém o caminho DOM completo para o elemento ajudar a validar se o elemento selecionado deve ser usado para o rastreamento de cliques.
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. A lista contém o caminho DOM completo para o elemento ajudar a validar se o elemento selecionado deve ser usado para o rastreamento de cliques.
 
 ![Link Selected Selecionado](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -71,7 +71,7 @@ Há várias coisas a considerar ao selecionar elementos:
 
    ![Ilustração do caminho DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Assim como na Etapa 1, ao criar experiências no fluxo de trabalho de criação da atividade, o seletor de caminho DOM, na parte inferior da página, permite escolher um elemento. Ao selecionar um elemento do caminho DOM, o elemento correspondente no VEC será exibido como &quot;Selecionado&quot;. Para desmarcar um elemento selecionado, clique novamente no elemento do seletor de caminho DOM ou na caixa &quot;Selecionado&quot; do VEC.
+   Assim como na Etapa 1, ao criar experiências no fluxo de trabalho de criação da atividade, o seletor de caminho DOM, na parte inferior da página, permite escolher um elemento. Ao selecionar um elemento do caminho DOM, o elemento correspondente no VEC será exibido como "Selecionado". Para desmarcar um elemento selecionado, clique novamente no elemento do seletor de caminho DOM ou na caixa "Selecionado" do VEC.
 
    Para obter mais informações, consulte [Navegar pelos elementos usando o caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nas *Opções do Visual Experience Composer*.
 
@@ -112,7 +112,7 @@ Há várias coisas a considerar ao selecionar elementos:
 
 Este vídeo inclui informações sobre a criação de métricas de sucesso de rastreamento de cliques.
 
-* Compreender métricas de &quot;meta&quot;
+* Compreender métricas de "meta"
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
