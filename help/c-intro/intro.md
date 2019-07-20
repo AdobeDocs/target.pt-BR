@@ -63,15 +63,15 @@ Uma recomendação determina como um produto é sugerido a um cliente, dependend
 
 * Incentive pessoas que compram uma mochila a considerar a compra de tênis de trilha e varas de trekking.
 
-   Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério &quot;Pessoas que compraram isso também compraram aquilo&quot;.
+   Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério "Pessoas que compraram isso também compraram aquilo".
 
 * Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de vídeos semelhante àqueles que estão assistindo atualmente.
 
-   Crie uma recomendação que sugira outros vídeos, usando o critério &quot;Pessoas que viram isso viral aquilo&quot;.
+   Crie uma recomendação que sugira outros vídeos, usando o critério "Pessoas que viram isso viral aquilo".
 
 * Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA.
 
-   Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério &quot;pessoas que viram isso também compraram&quot;.
+   Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério "pessoas que viram isso também compraram".
 
 ### Recommendations como uma oferta
 
@@ -86,7 +86,7 @@ Essa funcionalidade permite capacidades nunca antes vistas, como:
 
 ### Permissões de usuário empresarial
 
-A funcionalidade de [Permissões de usuário empresarial](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) viabiliza a criação de projetos diferentes (chamados &quot;Perfis de produto&quot; no Adobe Admin Console for Enterprise) para que você atribua permissões diferentes a um único usuário que determina os direitos de acesso dele para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no Adobe Analytics. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado consiste em clientes que poderão restringir a exibição, edição e acesso de aprovação aos usuários com base na região, ambiente (dev/stage/prod), canal ou outro critério personalizado.
+A funcionalidade de [Permissões de usuário empresarial](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) viabiliza a criação de projetos diferentes (chamados "Perfis de produto" no Adobe Admin Console for Enterprise) para que você atribua permissões diferentes a um único usuário que determina os direitos de acesso dele para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no Adobe Analytics. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado consiste em clientes que poderão restringir a exibição, edição e acesso de aprovação aos usuários com base na região, ambiente (dev/stage/prod), canal ou outro critério personalizado.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
