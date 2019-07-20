@@ -33,7 +33,7 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
 
    ![Botão Dividir](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Próximo:** Para editar outra página no fluxo de trabalho de três etapas, clique em **[!UICONTROL Próximo]** para prosseguir para a etapa desejada. Por exemplo, clicar em [!UICONTROL Próximo] na ilustração acima exibe a etapa de definição de metas.[!UICONTROL ]
+   * **Próximo:** Para editar outra página no fluxo de trabalho de três etapas, clique em **[!UICONTROL Próximo]** para prosseguir para a etapa desejada. Por exemplo, clicar em [!UICONTROL Próximo] na ilustração acima exibe a etapa de definição de metas.
    * **Salvar e fechar:** Faça as alterações desejadas na etapa atual, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página [!UICONTROL Visão geral].
    * **Salvar:** Faça as alterações desejadas em uma etapa, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar]** para salvar suas alterações e permanecer naquela etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
