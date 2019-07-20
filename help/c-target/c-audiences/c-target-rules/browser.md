@@ -104,7 +104,7 @@ Os seguintes idiomas de navegador podem ser direcionados ou excluídos:
 
 Direcione ou exclua determinadas versões de um navegador.
 
-Por exemplo, se sua página não aparece corretamente no Internet Explorer 11 ou em versões anteriores, você pode criar um público-alvo que exclua essas versões. Nesse caso, você configurará uma regra na qual o tipo de navegador &quot;é igual&quot; a Internet Explorer e adicionará uma segunda regra na qual a versão &quot;é menor que ou igual a&quot; 11.
+Por exemplo, se sua página não aparece corretamente no Internet Explorer 11 ou em versões anteriores, você pode criar um público-alvo que exclua essas versões. Nesse caso, você configurará uma regra na qual o tipo de navegador "é igual" a Internet Explorer e adicionará uma segunda regra na qual a versão "é menor que ou igual a" 11.
 
 Selecione **[!UICONTROL Versão]** e escolha um operador:
 
