@@ -29,7 +29,7 @@ For more information, see [Use a specific experience as control](/help/c-activit
 
 ## Como posso comparar personalização automatizada a uma experiência padrão? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se existir uma oferta ou experiência padrão como parte da atividade geral, para entender seu desempenho de linha de base, clique no segmento &quot;Controle&quot; nos relatórios e localize essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversação de todo o segmento &quot;Random Forest&quot;. Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
+Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se existir uma oferta ou experiência padrão como parte da atividade geral, para entender seu desempenho de linha de base, clique no segmento "Controle" nos relatórios e localize essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversação de todo o segmento "Random Forest". Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
 
 ## Quais são as práticas recomendadas para configurar uma atividade de Personalização automatizada? {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -83,7 +83,7 @@ Por exemplo, suponha que uma atividade de AP tenha dois locais com duas ofertas 
 
 ## Quando devo interromper minha atividade de Personalização automatizada? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
-A Personalização automatizada pode ser usada como personalização &quot;sempre ativa&quot; que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de Personalização automatizada. Se você quiser fazer alterações substanciais no conteúdo que não são semelhantes às ofertas atualmente em sua atividade de Personalização automatizada, a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
+A Personalização automatizada pode ser usada como personalização "sempre ativa" que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de Personalização automatizada. Se você quiser fazer alterações substanciais no conteúdo que não são semelhantes às ofertas atualmente em sua atividade de Personalização automatizada, a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
 
 ## Por quanto tempo devo esperar que os modelos sejam construídos? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
