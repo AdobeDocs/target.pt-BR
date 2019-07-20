@@ -31,11 +31,11 @@ Use `user.categoryAffinities[]` em um script de perfil para retornar uma matriz 
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` é necessário rastrear a categoria favorita de um usuário. `entity.categoryId` é necessário para basear as recomendações na categoria da página atual ou do item atual. Passe ambos os valores para o Adobe Target caso deseje usar ambos os recursos.
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` é necessário rastrear a categoria favorita de um usuário. `entity.categoryId` é necessário para basear as recomendações na categoria da página atual ou do item atual. Passe ambos os valores para o Adobe Target caso deseje usar ambos os recursos.
 
 ## Caso de negócios para afinidade de categoria {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-A atividade de um visitante em uma sessão, como por exemplo que categoria ele ou ela visita com mais frequência, pode ser usada para definir as metas de visitas futuras. Cada página de categoria visualizada por um visitante durante uma sessão é capturada e a categoria &quot;favorita&quot; dele ou dela será calculada com base no recenticidade e modelo de frequência. Desta forma, cada vez que o visitante volta para a página inicial, a área da imagem principal pode ser direcionada para exibir conteúdo relacionado à categoria favorita daquele usuário.
+A atividade de um visitante em uma sessão, como por exemplo que categoria ele ou ela visita com mais frequência, pode ser usada para definir as metas de visitas futuras. Cada página de categoria visualizada por um visitante durante uma sessão é capturada e a categoria "favorita" dele ou dela será calculada com base no recenticidade e modelo de frequência. Desta forma, cada vez que o visitante volta para a página inicial, a área da imagem principal pode ser direcionada para exibir conteúdo relacionado à categoria favorita daquele usuário.
 
 ## Exemplo de uso de afinidade de categorias {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -138,7 +138,7 @@ Esta seção contém as seguintes informações:
    * Não contém (não diferencia maiúsculas de minúsculas)
    * Igual
 
-1. Especifique cada novo valor em uma linha separada (por exemplo, &quot;sapatos&quot;).
+1. Especifique cada novo valor em uma linha separada (por exemplo, "sapatos").
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Usar o público-alvo da afinidade de categorias em uma atividade {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
