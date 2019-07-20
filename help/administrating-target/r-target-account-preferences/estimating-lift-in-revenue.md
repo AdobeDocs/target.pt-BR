@@ -39,7 +39,7 @@ Por exemplo, se a sua experiência vencedora mostrar um aumento de US$ 0,59, e s
 
 Da mesma forma, se a sua experiência vencedora mostrar um aumento de US$ 0,17 sobre a experiência de controle, e se você tiver 192.000 visitantes durante o teste, se as tendências atuais continuarem, você poderá esperar um aumento de receita de US$ 32.640.
 
-O aumento estimado no campo de receita será mostrado como &quot;---&quot; nas seguintes circunstâncias:
+O aumento estimado no campo de receita será mostrado como "---" nas seguintes circunstâncias:
 
 * Caso não tenha havido visitas suficientes para calcular uma estimativa razoável
 * Se o valor estimado da métrica não tiver sido fornecido na página de configuração da métrica
