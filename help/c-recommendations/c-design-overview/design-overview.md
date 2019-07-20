@@ -28,7 +28,7 @@ O Target também pode enviar suas recomendações como objetos JSON que podem se
 O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configurar uma atividade por meio do editor baseado em formulário.
 
 1. Crie um design na Biblioteca de projetos ou no fluxo de trabalho baseado em formulário. Se você tentar fazer isso dentro do fluxo de trabalho do Visual Experience Composer (VEC), poderá criar nada além de um design de HTML, que está envolvido com uma `<div>` para fins de rastreamento de cliques.
-1. Verifique se a opção &quot;HTML Design&quot; está desativada:
+1. Verifique se a opção "HTML Design" está desativada:
 
    ![](assets/html_design_toggle.png)
 
@@ -68,7 +68,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
    1. Selecionar **[!UICONTROL Recommendations]**.
    1. Em **[!UICONTROL Escolher Experience Composer]**, selecione **[!UICONTROL Formulário]**.
 
-   1. Em localização, digite o texto: &quot;Sample_Recs_Response&quot;
+   1. Em localização, digite o texto: "Sample_Recs_Response"
    1. Em **[!UICONTROL Conteúdo padrão]**, clique na seta para baixo e depois clique em **[!UICONTROL Adicionara recomendação]**.
    1. Selecione um tipo de página. Isso determina a filtragem inicial da próxima tela.
    1. Selecione um cartão de Critérios e depois clique em **[!UICONTROL Próximo]**.
@@ -91,13 +91,13 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 | Parâmetro | Valor |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em .../target/products.html#recsSettings Token de API do Recommendations &gt; Código do cliente. |
-| `[YOUR_MBOX_NAME]` | O nome que você selecionou na seção &quot;locais&quot; do Recommendations baseado em formulário, neste caso YOUR_CLIENT_CODE. |
+| `[YOUR_MBOX_NAME]` | O nome que você selecionou na seção "locais" do Recommendations baseado em formulário, neste caso YOUR_CLIENT_CODE. |
 | `[ENTITY_ID`] | O `entity.id` de um item em seu catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
 
 Depois que seu algoritmo for executado e você obter os resultados, sua resposta deve ser:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## Dicas e truques adicionais sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
 
