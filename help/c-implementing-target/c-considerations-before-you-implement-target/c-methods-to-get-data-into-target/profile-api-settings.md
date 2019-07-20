@@ -39,7 +39,7 @@ Para maior segurança, você pode fazer com que uma chamada de API de atualizaç
    >
    >Também é possível gerar um token de autenticação de perfil por meio da API. Para obter mais informações, consulte [Perfis](https://developers.adobetarget.com/api/#profiles) no site de [desenvolvedores do Adobe Target](https://developers.adobetarget.com/).
 
-1. Copie o token e inclua-o no cabeçalho da solicitação, em formato: &quot;Autorização&quot; : &quot;Portador&quot;
+1. Copie o token e inclua-o no cabeçalho da solicitação, em formato: "Autorização" : "Portador"
 
 Clique em [!UICONTROL Gerar novamente token de autenticação de perfil] para gerar novamente o token, conforme necessário.
 
