@@ -18,7 +18,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 Informações sobre os diferentes métodos que você pode usar para inserir dados no Target, incluindo parâmetros de página, atributos de perfil na página, atributos de perfil de script, provedores de dados, a API de atualização de perfil em massa, a API de atualização de perfil único e atributos do cliente.
 
-## Parâmetros da página (também denominados &quot;parâmetros de mbox&quot;) {#section_5A297816173C4FE48DC4FE03860CB42B}
+## Parâmetros da página (também denominados "parâmetros de mbox") {#section_5A297816173C4FE48DC4FE03860CB42B}
 
 Os parâmetros de página são pares de nome/valor enviados diretamente pelo código de página que não são armazenados no perfil do visitante para uso futuro.
 
@@ -26,7 +26,7 @@ Os parâmetros de página são úteis para enviar dados de página adicionais ao
 
 ### Formato
 
-Os parâmetros da página são enviados ao Target por uma chamada de servidor como par de nome/valor de cadeia de caracteres. Os nomes e valores do parâmetro são personalizáveis (embora alguns sejam &quot;nomes reservados&quot; para usos específicos).
+Os parâmetros da página são enviados ao Target por uma chamada de servidor como par de nome/valor de cadeia de caracteres. Os nomes e valores do parâmetro são personalizáveis (embora alguns sejam "nomes reservados" para usos específicos).
 
 Exemplos:
 
@@ -56,7 +56,7 @@ Os dados são enviados ao Target em tempo real, e podem ser usados na mesma cham
 
    Além dos mencionados no site IETF, o Target permite os seguintes caracteres nas sequências de consulta:
 
-   `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
+   `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
    O restante deve ser codificado em url. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -88,7 +88,7 @@ Confirmação do pedido: [rastreia conversões](/help/c-implementing-target/c-im
 
 Afinidade de categorias: [afinidade de categorias](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
 
-## Os atributos de perfil na página (também chamados &quot;atributos de perfil in-mbox&quot;){#section_57E1C161AA7B444689B40B6F459302B6}
+## Os atributos de perfil na página (também chamados "atributos de perfil in-mbox"){#section_57E1C161AA7B444689B40B6F459302B6}
 
 Os atributos de perfil na página são pares de nome/valor enviados diretamente pelo código de página que são armazenados no perfil do visitante para uso futuro.
 
@@ -96,9 +96,9 @@ Os atributos de perfil na página permitem que os dados específicos do usuário
 
 ### Formato
 
-Os atributos de perfil na página são enviados ao Target por uma chamada de servidor como par de nome/valor com o prefixo &quot;profile&quot;. antes do nome do Atributo.
+Os atributos de perfil na página são enviados ao Target por uma chamada de servidor como par de nome/valor com o prefixo "profile". antes do nome do Atributo.
 
-Os nomes e valores do atributo são personalizáveis (embora alguns sejam &quot;nomes reservados&quot; para usos específicos).
+Os nomes e valores do atributo são personalizáveis (embora alguns sejam "nomes reservados" para usos específicos).
 
 Exemplos:
 
@@ -151,7 +151,7 @@ Os usuários gravam pequenos snippets de código que são executados de acordo c
 
 ### Formato
 
-Os atributos de perfil do script são criados na seção Públicos-alvo do Target. Qualquer nome de atributo é válido e o valor é resultado de uma função do JavaScript gravada pelo usuário do Target. O nome do atributo é automaticamente pré-fixado pelo &quot;usuário. &quot; no Target para diferenciar de atributos de perfil na página.
+Os atributos de perfil do script são criados na seção Públicos-alvo do Target. Qualquer nome de atributo é válido e o valor é resultado de uma função do JavaScript gravada pelo usuário do Target. O nome do atributo é automaticamente pré-fixado pelo "usuário. " no Target para diferenciar de atributos de perfil na página.
 
 O snippet de código é gravado em linguagem Rhino JS e podem fazer referência a tokens e outros valores.
 
