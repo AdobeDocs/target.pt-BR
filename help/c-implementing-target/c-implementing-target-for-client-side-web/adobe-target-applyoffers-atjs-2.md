@@ -30,8 +30,8 @@ Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.t
 
 | Nome do campo | Descrição |
 | --- | --- |
-| resposta &gt; pré-busca &gt; exibições &gt; opções &gt; conteúdo | Observe que o conteúdo da &quot;opção&quot; não está bem definido e depende diretamente da estrutura de tipo/modelo de opção. |
-| resposta &gt; pré-busca &gt; exibições &gt; opções &gt; tipo | Tipo de opção. Reflete o tipo de campo &quot;conteúdo&quot;. O tipo suportado é ações. |
+| resposta &gt; pré-busca &gt; exibições &gt; opções &gt; conteúdo | Observe que o conteúdo da "opção" não está bem definido e depende diretamente da estrutura de tipo/modelo de opção. |
+| resposta &gt; pré-busca &gt; exibições &gt; opções &gt; tipo | Tipo de opção. Reflete o tipo de campo "conteúdo". O tipo suportado é ações. |
 | resposta &gt; pré-busca &gt; exibições &gt; estado | Um token de estado de exibição opaco que deve ser encaminhado com a notificação de visualização para a exibição |
 | resposta &gt; pré-busca &gt; exibições &gt; opções &gt; responseTokens | Contém o mapa de `responseTokens` que foi coletado quando a opção atual estava sendo processada. |
 | resposta &gt; pré-busca &gt; exibições &gt; analytics &gt; carga | A carga do Analytics para integração no lado do cliente que deve ser enviada para o Analytics depois que a exibição for aplicada. |
@@ -51,18 +51,18 @@ Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.t
 | resposta &gt; notificações | Indica as notificações registradas ou com falha. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; rastreamento | O objeto que contém todos os dados de rastreamento para a solicitação de mbox individual. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; responseTokens | Contém o mapa de `responseTokens` para execução de solicitação de mbox específica. |
-| resposta &gt; executar &gt; mboxes &gt; mbox &gt; opção &gt; conteúdo | Observe que o conteúdo da &quot;opção&quot; não está bem definido e depende diretamente da estrutura de tipo/modelo de opção. |
-| resposta &gt; executar &gt; mboxes &gt; mbox &gt; opção &gt; tipo | Tipo de opção. Reflete o tipo de campo &quot;conteúdo&quot;. Os tipos suportados são: html, redirecionamento, JSON e dinâmico. |
+| resposta &gt; executar &gt; mboxes &gt; mbox &gt; opção &gt; conteúdo | Observe que o conteúdo da "opção" não está bem definido e depende diretamente da estrutura de tipo/modelo de opção. |
+| resposta &gt; executar &gt; mboxes &gt; mbox &gt; opção &gt; tipo | Tipo de opção. Reflete o tipo de campo "conteúdo". Os tipos suportados são: html, redirecionamento, JSON e dinâmico. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; opções | Opção de resposta. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; métricas &gt; eventtoken | Token do evento de clique. |
-| resposta &gt; executar &gt; mboxes &gt; mbox &gt; métricas &gt; tipo | &quot;click&quot; |
+| resposta &gt; executar &gt; mboxes &gt; mbox &gt; métricas &gt; tipo | "click" |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; métricas | Contém a lista de `clickThrough` métricas. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; mbox | O nome da mbox. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; índice | Indica que a resposta é para a mbox com este índice da solicitação. |
 | resposta &gt; executar &gt; mboxes &gt; mbox &gt; analytics &gt; carga | A carga do Analytics para integração no lado do cliente que deve ser enviada para o Analytics após a aplicação da mbox. (Consulte a seção Campanhas habilitadas para A4T.) |
 | resposta &gt; executar &gt; mboxes | Lista de mboxes executadas. |
-| resposta &gt; executar &gt; carga &gt; opções &gt; conteúdo | Observe que o conteúdo da &quot;opção&quot; não está bem definido e depende diretamente da estrutura de tipo/modelo de opção. |
-| resposta &gt; executar &gt; carga &gt; opções &gt; tipo | Tipo de opção. Reflete o tipo de campo &quot;conteúdo&quot;. Os tipos suportados são: html, redirecionamento, JSON, dinâmico e ações. |
+| resposta &gt; executar &gt; carga &gt; opções &gt; conteúdo | Observe que o conteúdo da "opção" não está bem definido e depende diretamente da estrutura de tipo/modelo de opção. |
+| resposta &gt; executar &gt; carga &gt; opções &gt; tipo | Tipo de opção. Reflete o tipo de campo "conteúdo". Os tipos suportados são: html, redirecionamento, JSON, dinâmico e ações. |
 | resposta &gt; executar &gt; carga &gt; opções | Opções que não são agrupadas por exibições (target-global-mbox + opções de atividades com exibições não agrupadas por exibições). |
 | resposta &gt; executar &gt; carga &gt; métricas | Métricas de clique que não foram definidas para pertencer a uma exibição específica. |
 | resposta &gt; executar &gt; carga &gt; rastreamento | O objeto que contém todos os dados de rastreamento da solicitação de carga. |
