@@ -26,7 +26,7 @@ Ofertas de redirecionamento possuem algumas limitações:
 * Para ofertas de redirecionamento em atividades usando A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Ao usar o Experience Composer baseado em formulários, ofertas de redirecionamento não devem ser usadas em mboxes que façam parte da página. Uma oferta de redirecionamento deve ser usada somente a partir de uma tag de script que faz parte do `<head>` do HTML. Você sempre deve usar a criação automática e definir a oferta de redirecionamento para a mbox global.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Se desejar passar o valor referenciador da página de aterrissagem, é recomendado usar uma oferta HTML em vez de uma oferta de redirecionamento.
 
