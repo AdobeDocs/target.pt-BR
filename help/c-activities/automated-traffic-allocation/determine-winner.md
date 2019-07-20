@@ -21,11 +21,11 @@ Muitos profissionais de marketing cometem o erro de declarar prematuramente uma 
 
 ## Exibir o emblema do vencedor na interface do usuário do Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
-Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Target] exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente.
+Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Target] exibe um emblema na parte superior da página da atividade, indicando "Ainda não há vencedor" até que a atividade atinja o número mínimo de conversões com confiança suficiente.
 
 ![Sem selo vencedor](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
-Quando um vencedor claro é declarado, o [!DNL Target] exibe &quot;Vencedor: Experiência X&quot;.
+Quando um vencedor claro é declarado, o [!DNL Target] exibe "Vencedor: Experiência X".
 
 ![](assets/auto_traffic_winner.png)
 
@@ -41,7 +41,7 @@ Não usamos a confiança baseada em valor p para alocação automática.
 
 A coluna Confiança em uma atividade de Alocação automática (ilustrada abaixo) exibe a probabilidade de uma experiência ser a vencedora com margem de erro de 1% (ou seja, o algoritmo usa um efeito mínimo detectável de 1% entre a melhor e a segunda melhor taxa de conversão). Observe que o algoritmo usa [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) para computar esta probabilidade.
 
-Testes A/B normais calculam a confiança com base nos valores de p. A Alocação automática não usa valores p. Os valores de P calculam &quot;vagamente&quot; a probabilidade de que uma determinada experiência seja diferente do controle. Esses valores p podem ser usados somente para determinar se uma experiência pode ser diferente do controle. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
+Testes A/B normais calculam a confiança com base nos valores de p. A Alocação automática não usa valores p. Os valores de P calculam "vagamente" a probabilidade de que uma determinada experiência seja diferente do controle. Esses valores p podem ser usados somente para determinar se uma experiência pode ser diferente do controle. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
 
 A ilustração a seguir mostra uma atividade que ainda não tem vencedor:
 
@@ -63,6 +63,6 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
    A Alocação automática mostra a probabilidade de uma determinada experiência ser um verdadeiro vencedor em todas as experiências na atividade. Isso significa que apenas uma experiência vencedora (que provavelmente será a vencedora) terá um valor de confiança diferente de zero. Todos os outros são mais propensos a serem perdedores e exibirão 0%.
 
-* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. A Alocação automática é aproximadamente duas vezes mais rápida que um teste A/B normal. Para determinar por quanto tempo um teste A/B normal seria executado, use uma [calculadora de tamanho de amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html): taxa de conversão do controle de plug em &quot;Índice de conversão da linha de base&quot;, &quot;5%&quot; para &quot;Aumento&quot; e 95% para &quot;Confiança&quot;. Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
+* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. A Alocação automática é aproximadamente duas vezes mais rápida que um teste A/B normal. Para determinar por quanto tempo um teste A/B normal seria executado, use uma [calculadora de tamanho de amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html): taxa de conversão do controle de plug em "Índice de conversão da linha de base", "5%" para "Aumento" e 95% para "Confiança". Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
 * Se o relatório mostrar 0% em todo o quadro, é provável que seja muito cedo para a atividade.
 
