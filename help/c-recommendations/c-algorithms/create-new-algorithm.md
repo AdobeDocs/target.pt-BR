@@ -38,11 +38,11 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
 1. Digite um **[!UICONTROL Nome dos critérios]**.
 
-   Este é o nome &quot;interno&quot; usado para descrever o critério. Por exemplo, você pode chamar seu critério de &quot;Produtos com margem mais alta&quot;, mas não quer que o título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
+   Este é o nome "interno" usado para descrever o critério. Por exemplo, você pode chamar seu critério de "Produtos com margem mais alta", mas não quer que o título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
 
 1. Digite um **[!UICONTROL Título de exibição]** aberto ao público para aparecer na página para as Recommendations que usam esses critérios.
 
-   Por exemplo, você pode decidir exibir &quot;Pessoas que viram isto também viram aquilo&quot; ou &quot;Produtos parecidos&quot; quando usar este critério para exibir recomendações.
+   Por exemplo, você pode decidir exibir "Pessoas que viram isto também viram aquilo" ou "Produtos parecidos" quando usar este critério para exibir recomendações.
 
 1. Digite uma breve **[!UICONTROL Descrição]** dos critérios.
 
@@ -110,7 +110,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
 1. Configurar **[!UICONTROL ponderação de atributos]**.
 
-   Você pode adicionar várias regras para &quot;cutucar&quot; o algoritmo com base em descrições importantes ou metadados sobre o catálogo de conteúdo. Por exemplo, você pode aplicar um peso maior a itens em liquidação, para que apareçam com mais frequência na recomendação.
+   Você pode adicionar várias regras para "cutucar" o algoritmo com base em descrições importantes ou metadados sobre o catálogo de conteúdo. Por exemplo, você pode aplicar um peso maior a itens em liquidação, para que apareçam com mais frequência na recomendação.
 
    Consulte [Ponderação de atributos](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
 
@@ -120,7 +120,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
 ### Tempo de processamento dos critérios esperado
 
-* **mboxes**: se o critério usa mboxes como a Fonte de dados comportamentais, os critérios serão executados imediatamente após serem criados. Dependendo da quantidade de dados comportamentais usados​e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios resulta na repetição dos critérios.
+* **mboxes**: se o critério usa mboxes como a Fonte de dados comportamentais, os critérios serão executados imediatamente após serem criados. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios resulta na repetição dos critérios.
 
 * **Analytics**: se os critérios usarem o [!DNL Adobe Analytics] como a Fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios. Se o conjunto de relatórios tiver sido usado anteriormente com uma janela de lookback, pelo menos, desde que tenha sido selecionada, os dados comportamentais já estarão disponíveis no Target, e Recommendations executa os critérios imediatamente. O algoritmo pode levar até 12 horas para ser executado, dependendo da quantidade de dados comportamentais usados e do tamanho do catálogo. Se o conjunto de relatórios não tiver sido usado anteriormente ou for usado com uma janela de lookback mais longa, Recommendations deverá solicitar e receber dados do Adobe Analytics e, em seguida, executar o algoritmo. O processo de sincronização com o Google Analytics geralmente leva pelo menos dois dias e pode chegar a sete dias para ser concluído, dependendo da carga do sistema do Google Analytics.
 
@@ -131,7 +131,7 @@ As recomendações baseadas em chaves utilizam o contexto do comportamento do vi
 Há dois tipos de recomendações:
 
 * **Popularidade:** lista itens de acordo com mais visualizados, mais vendidos e métricas principais. A chave fica vazia para critérios de popularidade.
-* **Baseado em chave:** inclui o resto dos critérios. Recommendations oferecem um conjunto diverso de escolhas a respeito do tipo de chave. As opções vão desde &quot;item atual&quot; até &quot;parâmetros de perfil&quot;, que permitem que você defina programaticamente as chaves dos valores para recomendar. Você pode testar vários critérios uns em relação aos outros baseando cada critério em uma chave diferente.
+* **Baseado em chave:** inclui o resto dos critérios. Recommendations oferecem um conjunto diverso de escolhas a respeito do tipo de chave. As opções vão desde "item atual" até "parâmetros de perfil", que permitem que você defina programaticamente as chaves dos valores para recomendar. Você pode testar vários critérios uns em relação aos outros baseando cada critério em uma chave diferente.
 
 Cada critério é definido em sua própria guia. O tráfego é dividido uniformemente entre os diferentes testes de critérios. Em outras palavras, se você tem dois critérios, o tráfego é dividido igualmente entre eles. Se você tem dois critérios e dois designs, o tráfego é dividido igualmente entre as quatro combinações. Também é possível especificar uma porcentagem de visitantes do site que veem o conteúdo padrão, para comparação. Nesse caso, o percentual especificado de visitantes acompanha o conteúdo padrão e o restante é dividido entre os seus critérios e combinações de design.
 
@@ -196,7 +196,7 @@ Quando esta opção é selecionada, o valor `entity.id` deve estar presente no a
 * [!UICONTROL Mais visualizados]
 * [!UICONTROL Mais vendidos]
 
-Se a chave é um atributo personalizado do perfil e o tipo de algoritmo é Mais visualizados ou Mais vendidos, uma nova lista suspensa que mostra o chamado &quot;Agrupado pelo valor único de&quot; que tem uma lista de atributos de entidade conhecidos (exceto ID, categoria, margem, valor, inventário e ambiente). Esse campo é obrigatório.
+Se a chave é um atributo personalizado do perfil e o tipo de algoritmo é Mais visualizados ou Mais vendidos, uma nova lista suspensa que mostra o chamado "Agrupado pelo valor único de" que tem uma lista de atributos de entidade conhecidos (exceto ID, categoria, margem, valor, inventário e ambiente). Esse campo é obrigatório.
 
 **Onde usar em seu site**
 
@@ -206,22 +206,22 @@ Pode ser usado em qualquer página.
 
 Você pode basear as recomendações no valor de um atributo de perfil personalizado. Por exemplo, suponha que você deseja exibir filmes recomendados com base no filme adicionado recentemente por um visitante à fila.
 
-1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Último programa adicionado à Lista de favoritos&quot;).
-1. Em seguida, selecione a **[!UICONTROL Lógica de recomendação]** (por exemplo, &quot;Pessoas que assistiram isto, assistiram aquilo&quot;).
+1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, "Último programa adicionado à Lista de favoritos").
+1. Em seguida, selecione a **[!UICONTROL Lógica de recomendação]** (por exemplo, "Pessoas que assistiram isto, assistiram aquilo").
 
    ![Caixa de diálogo Criar novos critérios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar ao [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
 
-1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Marca favorita&quot;).
+1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, "Marca favorita").
 
-1. Em seguida, selecione **[!UICONTROL Lógica de recomendação]** que deseja usar com esta chave (por exemplo, &quot;Mais vendidos&quot;).
+1. Em seguida, selecione **[!UICONTROL Lógica de recomendação]** que deseja usar com esta chave (por exemplo, "Mais vendidos").
 
    A opção [!UICONTROL Agrupar por valor exclusivo de] é exibida.
 
-1. Selecione o atributo de entidade que corresponde à chave escolhida. Neste caso, &quot;Marca favorita&quot; corresponde à `entity.brand`.
+1. Selecione o atributo de entidade que corresponde à chave escolhida. Neste caso, "Marca favorita" corresponde à `entity.brand`.
 
-   O [!DNL Recommendations] agora gera uma lista de &quot;Mais vendidos&quot; para cada marca e mostra para o visitante a lista de &quot;Mais vendidos&quot; adequada com base no valor armazenado no atributo de perfil de Marca favorita do visitante.
+   O [!DNL Recommendations] agora gera uma lista de "Mais vendidos" para cada marca e mostra para o visitante a lista de "Mais vendidos" adequada com base no valor armazenado no atributo de perfil de Marca favorita do visitante.
 
    ![Caixa de diálogo 2 Criar novos critérios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
@@ -287,7 +287,7 @@ Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros s
 
 ### Categoria favorita
 
-A recomendação é determinada pela categoria que recebeu a mais atividade, utilizando o mesmo método usado para &quot;item mais visto&quot;, exceto que as categorias são classificadas, em vez de os produtos.
+A recomendação é determinada pela categoria que recebeu a mais atividade, utilizando o mesmo método usado para "item mais visto", exceto que as categorias são classificadas, em vez de os produtos.
 
 Isso é determinado pelos critérios de recenticidade/frequência que funciona da seguinte maneira:
 
@@ -333,7 +333,7 @@ Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros s
 
 ### Previously Purchased Items {#previously-purchased}
 
-Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
 The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site mostrará apenas itens comprados recentemente do site apropriado. Se dois sites estiverem no mesmo ambiente e um visitante alternar entre os dois sites, o visitante verá os mesmos itens comprados recentemente para ambos os sites.
 
@@ -379,7 +379,7 @@ Para criar uma regra de inclusão simples, como mencionado anteriormente, para e
 
 ## Ponderação de atributos {#task_2AEDA0DB15B74770B76F6982B24C2E42}
 
-Use a ponderação de atributos para &quot;ajustar&quot; o algoritmo de modo que seja mais provável que determinados itens sejam exibidos. Os profissionais de marketing podem influenciar o algoritmo com base em descrições importantes ou metadados sobre o catálogo de conteúdo.
+Use a ponderação de atributos para "ajustar" o algoritmo de modo que seja mais provável que determinados itens sejam exibidos. Os profissionais de marketing podem influenciar o algoritmo com base em descrições importantes ou metadados sobre o catálogo de conteúdo.
 
 Aplique um peso maior a esses itens em liquidação, para que apareçam com mais frequência na recomendação. Itens que não estão em liquidação não são totalmente excluídos, mas aparecem com menos frequência. Podem ser aplicados muitos pesos ao mesmo algoritmo, e os pesos podem ser testados no tráfego dividido na recomendação.
 
@@ -390,7 +390,7 @@ Aplique um peso maior a esses itens em liquidação, para que apareçam com mais
 1. Escolha um avaliador.
 1. Insira a palavra-chave para completar os atributos da regra.
 
-   Por exemplo, a regra completa pode ser &quot;Categoria contém sapatos&quot;.
+   Por exemplo, a regra completa pode ser "Categoria contém sapatos".
 
    ![](assets/Recs_AttributeWeighting.png)
 
@@ -404,7 +404,7 @@ Aplique um peso maior a esses itens em liquidação, para que apareçam com mais
 
 As configurações de [!UICONTROL Conteúdo] determinam como as recomendações são exibidas no design.
 
-É possível que os critérios de [!UICONTROL recomendações] exibam menos recomendações que seu design solicita. Por exemplo, seu design pode ter cinco &quot;slots&quot; disponíveis, mas o critério retorna apenas três itens recomendados. As configurações de [!UICONTROL conteúdo] controlam como as recomendações são apresentadas quando isto acontece.
+É possível que os critérios de [!UICONTROL recomendações] exibam menos recomendações que seu design solicita. Por exemplo, seu design pode ter cinco "slots" disponíveis, mas o critério retorna apenas três itens recomendados. As configurações de [!UICONTROL conteúdo] controlam como as recomendações são apresentadas quando isto acontece.
 
 Regras de conteúdo determinam o que acontece se o número de itens recomendados não preencher seu design. Por exemplo, se o seu design tem espaço para cinco itens mas seus critérios fazem com que apenas três itens sejam recomendados, você pode deixar os espaços restantes vazios ou pode usar recomendações de backup para preencher o espaço adicional.
 
@@ -425,8 +425,8 @@ Se ativar **[!UICONTROL Mostrar recomendações de backup]**, a opção para apl
 |--- |--- |--- |
 | Desativado | Desativado | Se forem retornadas menos recomendações do que o design solicita, o design das recomendações será substituído pelo conteúdo padrão, e nenhuma recomendação será exibida. |
 | Ativado | Desativado | O design é renderizado, mas pode incluir um espaço em branco se forem retornadas menos recomendações do que o design solicita. |
-| Ativado | Ativado | As recomendações de backup preencherão os &quot;slots&quot; de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será parcialmente renderizado.<br>Se os critérios não retornarem nenhuma recomendação e as regras de inclusão limitarem as recomendações de backup a zero, o design será substituído pelo conteúdo padrão. |
-| Desativado | Ativado | As recomendações de backup preencherão os &quot;slots&quot; de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será substituído pelo conteúdo padrão, e nenhuma recomendação será exibida. |
+| Ativado | Ativado | As recomendações de backup preencherão os "slots" de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será parcialmente renderizado.<br>Se os critérios não retornarem nenhuma recomendação e as regras de inclusão limitarem as recomendações de backup a zero, o design será substituído pelo conteúdo padrão. |
+| Desativado | Ativado | As recomendações de backup preencherão os "slots" de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será substituído pelo conteúdo padrão, e nenhuma recomendação será exibida. |
 
 ## Similaridade de conteúdo {#concept_5402DAFA279C4E46A9A449526889A0CB}
 
@@ -440,6 +440,6 @@ Quando você selecionar **[!UICONTROL Itens]**/ **[!UICONTROL Mídia com atribut
 
 ![](assets/ContentSimilarity.png)
 
-Como a similaridade de conteúdo usa palavras-chave para comparar itens, alguns atributos, como *mensagem* ou *descrição*, podem introduzir &quot;ruído&quot; à comparação. Você pode criar regras para ignorar estes atributos.
+Como a similaridade de conteúdo usa palavras-chave para comparar itens, alguns atributos, como *mensagem* ou *descrição*, podem introduzir "ruído" à comparação. Você pode criar regras para ignorar estes atributos.
 
 Por padrão, todos atributos são definidos como *Linha de base*. Você não precisa criar uma regra a não ser que queira alterar esta configuração.
