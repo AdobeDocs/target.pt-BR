@@ -39,7 +39,7 @@ Essa seção descreve como enviar informações de atividade do aplicativo para 
    }
    ```
 
-   Neste exemplo, um nó com a variável &#39; `tntVal`&#39; é adicionado para obter as informações da Atividade. Adicione um código simular para as outras experiências, com um título e mensagem apropriados.
+   Neste exemplo, um nó com a variável ' `tntVal`' é adicionado para obter as informações da Atividade. Adicione um código simular para as outras experiências, com um título e mensagem apropriados.
 
    Essa cadeia de caracteres fornece um número (como 115110:0:0) na resposta do Target. Isso indica a ID da atividade, a ID da experiência e o Tipo de tráfego. Este é um exemplo de resposta do Target:
 
