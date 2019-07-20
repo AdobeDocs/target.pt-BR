@@ -21,7 +21,7 @@ A cintilação ocorre quando o conteúdo padrão é exibido momentaneamente aos 
 
 ## Utilização de uma mbox global criada automaticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Se você ativar a configuração [Criar mbox global automaticamente](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) ao configurar o at.js, o at.js gerenciará a cintilação alterando a configuração de opacidade, à medida que a página é carregada. Ao carregar o at.js, é alterada a configuração de opacidade do <body> elemento para &quot;0&quot;, tornando a página invisível inicialmente para os visitantes. Após receber uma resposta do Target, ou se for detectado um erro com a solicitação Target, a at.js redefine a opacidade para &quot;1&quot;. Isso garante que o visitante veja a página somente depois que o conteúdo de suas atividades for aplicado.
+Se você ativar a configuração [Criar mbox global automaticamente](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) ao configurar o at.js, o at.js gerenciará a cintilação alterando a configuração de opacidade, à medida que a página é carregada. Ao carregar o at.js, é alterada a configuração de opacidade do <body> elemento para "0", tornando a página invisível inicialmente para os visitantes. Após receber uma resposta do Target, ou se for detectado um erro com a solicitação Target, a at.js redefine a opacidade para "1". Isso garante que o visitante veja a página somente depois que o conteúdo de suas atividades for aplicado.
 
 Se a configuração for ativada ao definir a at.js, a at.js definirá a opacidade do estilo HTML BODY para 0. Após receber uma resposta do Target, a at.js redefine a opacidade do HTML BODY para 1.
 
@@ -143,4 +143,4 @@ mboxCreate('some-mbox');
 </script>
 ```
 
-Se as suas páginas estiverem corretamente provisionadas, o at.js gerenciará a cintilação ao trocar apropriadamente a propriedade de &quot;visibilidade&quot; de CSS do elemento pela classe mboxDefault.
+Se as suas páginas estiverem corretamente provisionadas, o at.js gerenciará a cintilação ao trocar apropriadamente a propriedade de "visibilidade" de CSS do elemento pela classe mboxDefault.
