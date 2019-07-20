@@ -31,17 +31,17 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
 
 * Atributos de item usados nas regras de coleta usadas para a atividade.
 * Atributos de item usados em uma promoção com base em um atributo ou coleção associada à atividade.
-* Categoria Item que o item aparece para uma &quot;Categoria atual&quot; ou &quot;Categoria favorita&quot; no algoritmo Mais vendidos ou Mais Visualizados.
+* Categoria Item que o item aparece para uma "Categoria atual" ou "Categoria favorita" no algoritmo Mais vendidos ou Mais Visualizados.
 * A classificação dos itens recomendados quando o atributo mudou é um atributo personalizado usado como a chave personalizada para um algoritmo.
-* Classificação dos itens recomendados com base nos atributos alterados quando a lógica de recomendação é &quot;Itens com atributos semelhantes&quot;, quando os fatores de ponderação &quot;Similaridade de conteúdo&quot; são usados ou quando &quot;Ponderação de atributos&quot; são usados.
+* Classificação dos itens recomendados com base nos atributos alterados quando a lógica de recomendação é "Itens com atributos semelhantes", quando os fatores de ponderação "Similaridade de conteúdo" são usados ou quando "Ponderação de atributos" são usados.
 
 >[!NOTE]
 >
->Um arquivo de feed é considerado importado quando seu status muda de «Importar itens» para «Preparando atualizações de índice de pesquisa». As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário de pesquisa do catálogo; A pesquisa do catálogo é atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a pesquisa do catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo de atualização de índice de pesquisa do catálogo mais recente é exibido na página Pesquisa de catálogo.
+>Um arquivo de feed é considerado importado quando seu status muda de «Importar itens» para «Preparando atualizações de índice de pesquisa». As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário de pesquisa do catálogo; A pesquisa do catálogo é atualizada quando o status do feed muda para "Atualizações concluídas". Mesmo que a pesquisa do catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo de atualização de índice de pesquisa do catálogo mais recente é exibido na página Pesquisa de catálogo.
 
 ## O que devo fazer se os caracteres especiais estão quebrando a matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
-Use valores removidos no JavaScript. As aspas ( &quot; ) podem quebrar a matriz. O snippet de código a seguir é um exemplo de valores removidos:
+Use valores removidos no JavaScript. As aspas ( " ) podem quebrar a matriz. O snippet de código a seguir é um exemplo de valores removidos:
 
 ```
 #set($String='') 
@@ -96,22 +96,22 @@ Considere as informações a seguir se você vir uma coleção em zero que anter
 
    ![](assets/product_catalog.png)
 
-* O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique quantas horas têm o índice (por exemplo, &quot;Indexado há 3 horas&quot;). Você pode atualizar o índice, conforme necessário.
+* O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique quantas horas têm o índice (por exemplo, "Indexado há 3 horas"). Você pode atualizar o índice, conforme necessário.
 * Você alterou algo no feed ou na camada de dados que resultou na falta de correspondência das suas entidades com as regras de coleção? Certifique-se de que as LETRAS MAIÚSCULAS E MINÚSCULAS estejam correspondentes (sensível à maiúscula e minúsculas).
 * O seu feed foi executado com sucesso? Alguém alterou seu diretório de FTP, senha etc?
 * O Target faz o melhor para atualizar a entrega (na página/aplicativo do cliente) o mais rápido possível. Além disso, também precisamos fornecer alguma representação na interface de usuário do profissional de marketing. Não necessariamente atrasamos atualizações de entrega para esperar a sincronização de atualizações de interface de usuário. Você pode usar [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) para ver o que está no sistema no momento em que ocorre a solicitação.
 
 ## Qual a diferença entre ponderação de atributos geral e ponderação de atributo específico à similaridade de conteúdo? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
-A ponderação de atributos ocorre de duas formas: &quot;ponderação de atributos padrão&quot; e &quot;ponderação de atributos de similaridade de conteúdo&quot;.
+A ponderação de atributos ocorre de duas formas: "ponderação de atributos padrão" e "ponderação de atributos de similaridade de conteúdo".
 
-&quot;A ponderação de atributo padrão&quot; aplica-se à maioria, ou todos, os tipos de critérios (não somente à Similaridade de conteúdo). Esse tipo de ponderação fornece mais peso a determinados valores de atributo. No exemplo a seguir, os produtos da Nike terão um salto nas recomendações de saída.
+"A ponderação de atributo padrão" aplica-se à maioria, ou todos, os tipos de critérios (não somente à Similaridade de conteúdo). Esse tipo de ponderação fornece mais peso a determinados valores de atributo. No exemplo a seguir, os produtos da Nike terão um salto nas recomendações de saída.
 
 ![](assets/attribute_weighting_example.png)
 
-A &quot;ponderação de atributo por similaridade de conteúdo&quot; aplica-se aos critérios de Similaridade de conteúdo somente.
+A "ponderação de atributo por similaridade de conteúdo" aplica-se aos critérios de Similaridade de conteúdo somente.
 
-Esse tipo de ponderação é mais dinâmica e baseia-se na &quot;chave de recomendação&quot; atual (o item exibido atualmente). No exemplo a seguir (marca x 16), se um visitante estava visualizando tênis da Nike, ele tem maior probabilidade de receber recomendações de outros produtos da Nike (não necessariamente somente tênis) em vez de tênis de outros fabricantes. Se um visitante estava visualizando tênis da Adidas, ele tem maior probabilidade de recomendar produtos da Adidas.
+Esse tipo de ponderação é mais dinâmica e baseia-se na "chave de recomendação" atual (o item exibido atualmente). No exemplo a seguir (marca x 16), se um visitante estava visualizando tênis da Nike, ele tem maior probabilidade de receber recomendações de outros produtos da Nike (não necessariamente somente tênis) em vez de tênis de outros fabricantes. Se um visitante estava visualizando tênis da Adidas, ele tem maior probabilidade de recomendar produtos da Adidas.
 
 ![](assets/content_similarity_example.png)
 
