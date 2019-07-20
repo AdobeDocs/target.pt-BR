@@ -85,7 +85,7 @@ Há duas maneiras de editar a configuração de uma oferta:
 
 ### Editar uma oferta do recommendations utilizando o painel Modificações
 
-1. Clique no ícone [!UICONTROL Modificações] *`&lt;/&gt;&#39;* para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Clique no ícone [!UICONTROL Modificações] *`&lt;/&gt;'* para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passe o cursor do mouse sobre a ação desejada e clique no ícone [!UICONTROL Editar].
 
    ![Painel de modificações](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,7 +107,7 @@ Há duas maneiras de excluir uma oferta do recommendations:
 
 ### Excluir uma oferta do recommendations utilizando o painel Modificações
 
-1. Clique no ícone [!UICONTROL Modificações] *`&lt;/&gt;&#39;* para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Clique no ícone [!UICONTROL Modificações] *`&lt;/&gt;'* para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passe o cursor do mouse sobre a ação desejada e clique no ícone [!UICONTROL Excluir].
 
    ![Ícone de Excluir](/help/c-recommendations/assets/recs-offer-delete.png)
