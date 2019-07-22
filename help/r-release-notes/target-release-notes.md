@@ -1,14 +1,14 @@
 ---
-description: Essas notas de versão fornecem informações sobre recursos, melhorias e correções para as últimas ou futuras [! Versões do DNL Adobe Target.
+description: Notas de versão que fornecem informações sobre recursos, melhorias e correções para as mais recentes ou futuras [! Versões do DNL Adobe Target.
 keywords: notas de versão
-seo-description: Essas notas de versão fornecem informações sobre recursos, melhorias e correções para as últimas ou futuras [! Versões do DNL Adobe Target.
+seo-description: Notas de versão que fornecem informações sobre recursos, melhorias e correções para as mais recentes ou futuras [! Versões do DNL Adobe Target.
 seo-title: Notas de versão do Adobe Target (pré-lançamento)
 solution: Target
 title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
+source-git-commit: 48d265feb329355f5aabe34a6a950d78df981966
 
 ---
 
