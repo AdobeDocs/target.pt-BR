@@ -1,7 +1,7 @@
 ---
 description: Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
-keywords: recommendations; atividade do Recommendations; critérios
-seo-description: Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
+keywords: recommendations; atividade do Recommendations; critérios;algoritmo
+seo-description: Os critérios no Adobe Target são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
 seo-title: Critérios
 solution: Target
 title: Critérios
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ Todos os critérios de um dia são executados duas vezes ao dia. Todos os crité
 
 Você pode exibir os detalhes dos critérios em um cartão pop-up, passando o mouse sobre ele e clicando no ícone Informações, sem precisar abrir os critérios.
 
-![](assets/criteria_hover.png)
+![Flutuação do cartão de critérios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 Clique na guia **[!UICONTROL Informações do algoritmo]para exibir as informações gerais sobre os critérios selecionados, incluindo Nome, Descrições, Vertical do setor, Tipos de página, Chave de recomendação, Lógica de recomendação e ID do algoritmo.**
 
-![](assets/criteria_info.png)
+![Guia Informações do algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de atividades que fazem referência aos critérios selecionados. O cartão lista atividades ativas e inativas. Clique nas listas suspensas atividades Ativas ou Inativas para exibir toda a lista de atividades que fazem referência a esse critério. Você pode clicar no link da atividade para abri-la para edição.
 
-![](assets/criteria_usage.png)
+![Guia Uso de critérios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## Definição de quando os resultados dos critérios estarão prontos para exibição {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +91,7 @@ No diagrama de atividades, os cartões de Critérios agora indicam quando os res
 
 A ilustração a seguir mostra o diagrama de atividades na página Visão Geral de uma atividade do Recommendations. Você também pode ver o diagrama de atividades com os resultados de status dos critérios da etapa 2 durante o fluxo de trabalho de criação das atividades.
 
-![](assets/criteria_status.png)
+![Página Status do critério na página Visão geral](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 Os resultados do status incluem o seguinte: Resultados prontos, Resultados não prontos e Falha no feed, conforme ilustrado no diagrama a seguir:
 
