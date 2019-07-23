@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ A classificação do Produto Analytics é a única classificação disponível p
 >* O Target suporta somente as classificações do produto. O SKU do produto Analytics deve mapear no mesmo nível que a entity.id de Recommendations. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
 
 
-## Criar feed {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Criar feed {#steps}
 
 Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL Recommendations].
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    Se selecionar o FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório do FTP. Você tem a opção de usar o FTP com SSL (FTPS) para uploads mais seguros.
 
+   Configurações de servidor FTP suportadas:
+
+   * FTP e FTPS devem ser definidos para usar FTP passivo.
+   * Para FTPS, configure o servidor para aceitar conexões FTPS explícitas.
+   * O SFTP não é suportado.
    Se selecionar o URL, especifique-o.
+
 1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Agendar.]
 
    ![Resultado da etapa](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ Quando o Status apresentar a mensagem de "Sucesso", isso significa que o arquivo
 
 Informações sobre os status possíveis do feed e seus indicadores.
 
-### Status do feed {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### Status do feed {#status}
 
 A seguir, estão os possíveis status de um feed:
 
@@ -272,10 +278,8 @@ A seguir, estão os possíveis status de um feed:
 | Agendado na *data e hora* | O feed não foi executado, mas está agendado para execução na data e hora especificada. |
 | Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
 | Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
-| Importar itens | O Target está importando itens do arquivo de Feed. Observação: após concluir esta etapa e a opção "Preparando atualizações do índice de pesquisa" for exibida, as alterações aos atributos de item foram importadas para nosso sistema central e serão refletidas no conteúdo das recomendações entregues, retornado pelos nós de borda geográfica em 60 minutos. |
-| Preparando atualizações do índice de pesquisa | O Target está se preparando para atualizar o índice de pesquisa do catálogo. Observação: se esse status estiver listado, as alterações aos atributos de item já foram feitas e serão refletidas em breve nas recomendações entregues, embora ainda não sejam refletidas na Pesquisa do catálogo. |
-| Atualização do índice de pesquisa | O Target está atualizando o índice de pesquisa do catálogo. Observação: se esse status estiver listado, as alterações aos atributos de item já foram feitas e serão refletidas em breve nas recomendações entregues, embora ainda não sejam refletidas na Pesquisa do catálogo. |
-| Atualizações concluídas | O Target concluiu todas as atualizações associadas ao arquivo de feed. |
+| Importar itens | O Target está importando itens do arquivo de Feed. |
+| Feed Imported Successfully at *time* | O Target importou o arquivo de feed para seu sistema de entrega de conteúdo. Alterações nos atributos do item foram feitas no sistema de entrega de conteúdo e serão refletidas em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>*Observação 1:* Se alterações nos atributos de um item resultarem em um item sendo excluído das recomendações, a exclusão será refletida imediatamente. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Observação 2:* Quando esse status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário Pesquisa do catálogo. Um status separado é listado na pesquisa do catálogo, indicando a última vez que o catálogo pesquisável foi atualizado. |
 | Falha ao indexar | Ocorreu uma falha na operação de índice. Tente novamente. |
 | Servidor não encontrado | Locais de FTP ou URL inválidos ou não acessíveis. |
 
