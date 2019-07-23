@@ -7,7 +7,7 @@ title: Aplicativo para dispositivos móveis do Visual Experience Composer
 topic: Padrão
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 
 ---
 
@@ -84,16 +84,6 @@ Quando uma nova versão do aplicativo é detectada, você é notificado de que a
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
 ![Caixa de diálogo Gerenciar versões](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
-
-## Solução de problemas {#troubleshooting}
-
-**O VEC para aplicativos móveis informa que o aplicativo se desconectou.**
-
-Sua conexão com a Internet deve ter caído. Reinicie o aplicativo após a Internet estar disponível novamente e uma nova conexão será estabelecida. Recomendamos a criação de uma atividade de VEC para aplicativos móveis em uma conexão Wi-Fi.
-
-**O VEC para aplicativos móveis não está sincronizado com o meu aplicativo móvel.**
-
-Clique no botão [!UICONTROL Atualizar] no VEC para sincronizar a exibição.
 
 ## Exibições do Target e aplicativos móveis {#target-views}
 
@@ -194,9 +184,17 @@ Observe que, sempre que as ofertas do Target forem previamente buscadas, se poss
 
 ## Solução de problemas {#ts}
 
-**Recebi um erro informando que meu valor "context. application. name" contém caracteres proibidos. What characters are allowed in mobile app names?**
+**O VEC para aplicativos móveis informa que o aplicativo se desconectou.**
 
-Os caracteres permitidos em nomes de aplicativos móveis incluem:
+Sua conexão com a Internet deve ter caído. Reinicie o aplicativo após a Internet estar disponível novamente e uma nova conexão será estabelecida. Recomendamos a criação de uma atividade de VEC para aplicativos móveis em uma conexão Wi-Fi.
+
+**O VEC para aplicativos móveis não está sincronizado com o meu aplicativo móvel.**
+
+Clique no botão [!UICONTROL Atualizar] no VEC para sincronizar a exibição.
+
+**Recebi um erro informando que meu valor "context. application. id" contém caracteres proibidos. What characters are allowed in mobile app IDs?**
+
+Os caracteres permitidos em IDs de aplicativo móvel incluem:
 
 | Caracteres permitidos | Descrição |
 | --- | --- |
@@ -215,7 +213,7 @@ Os caracteres permitidos em nomes de aplicativos móveis incluem:
 Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
 ```
 
 ## Limitações conhecidas {#limitations}
