@@ -9,7 +9,7 @@ title: Funcionamento do Adobe Target
 topic: Padrão
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -96,7 +96,9 @@ Para melhorar os tempos de resposta, os ambientes do Edge hospedam somente a ló
 
 Cada nó de Edge possui todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise da solicitação. As solicitações do usuário são roteadas para o nó de Edge mais próximo.
 
-![](assets/edge_network.png)
+![Mapear com sites de borda principais e sites de borda](assets/edge_network.png)
+
+No momento, a Adobe tem sites de borda principais em Oregon e Texas nos Estados Unidos; Londres, Inglaterra; e Cingapura. No momento, a Adobe tem sites de borda em Virgínia (EUA), Amsterdã, Países Baixos; Tóquio, Japão; e Sydney, Austrália.
 
 Os principais locais do Edge contém um centro de coleta de dados e um centro de processamento de dados. Os locais de site do Edge contém apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
@@ -167,3 +169,16 @@ Além dessas diretrizes, a Google também fornece mais uma diretriz na documenta
 A Google afirma, como um exemplo, que "se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice."
 
 Acreditamos que seria difícil alterar involuntariamente o significado do conteúdo original contido nas variações de teste, mas recomendamos que esteja ciente dos temas das palavras-chave em uma página e manter esses temas. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. Recomendamos que você envolva seu parceiro de SEO como parte de seu protocolo de testes.
+
+Bots {#bots}
+
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. O tráfego identificado como sendo gerado por um bot ainda é servido como conteúdo, como um usuário comum, para garantir que esteja em conformidade com as diretrizes da SEO. O uso do tráfego de robô pode inclinar testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de forma um pouco diferente. Remover o tráfego de robô fornece uma medida mais precisa da atividade do usuário.
+
+Especificamente, para o tráfego de robô conhecido o Target não:
+
+* Criar ou recuperar um perfil de visitante
+* Registrar quaisquer atributos de perfil ou executar scripts de perfil
+* Procurar segmentos do Adobe Audience Manager (AAM) (se aplicável)
+* Usar tráfego de robô na modelagem e fornecer conteúdo personalizado para as atividades Recommendations, Target auto, personalização automatizada ou alocação automática
+* Registrar uma visita de atividade para relatório
+* Registrar dados a serem enviados para a plataforma da Adobe Experience Cloud
