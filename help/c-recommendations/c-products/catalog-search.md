@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -29,9 +29,7 @@ Nos resultados da pesquisa, você pode clicar no filtro de **[Ambiente UICONTROL
 
 O número que aparece ao lado de "Produtos" é o número de produtos que combinam com o termo de pesquisa, do total disponível no ambiente especificado.
 
-Clique no ícone de atualização para reindexar o catálogo. A indexação pode levar algum tempo, dependendo do tamanho do feed.
-
-O catálogo é automaticamente atualizado uma vez por hora. Clique em **[!UICONTROL Atualizar]** para reindexar o catálogo entre as atualizações automáticas.
+O catálogo é atualizado automaticamente quando as atualizações são recebidas por meio de arquivos de feed, API ou atualizações de mbox. Normalmente, as atualizações são concluídas em uma hora. Se as atualizações estiverem em andamento, a atualização mais recente é iniciada. Se nenhuma atualização estiver em andamento, o tempo de início da atualização mais recente será exibido.
 
 Você pode criar coleções ou exclusões usando Pesquisa avançada na página Pesquisa no catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Pesquisa no catálogo] &gt; [!UICONTROL Pesquisa avançada]). Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Coleção ou Exclusão].
 
