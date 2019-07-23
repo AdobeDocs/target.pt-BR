@@ -8,7 +8,7 @@ title: Configurar o rastreamento de cliques no VEC para aplicativos móveis
 topic: Padrão
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -50,3 +50,7 @@ Há várias coisas a considerar ao selecionar elementos:
 * No VEC para aplicativos móveis, somente os elementos com um manipulador de cliques anexado podem ser selecionados.
 * Você pode navegar para qualquer seção do aplicativo, mas certifique-se de que as [exibições](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) estejam definidas para a seção em que você está selecionando elementos para o rastreamento de cliques.
 * Ao editar uma atividade, se o dispositivo já estiver selecionado na Etapa 1, não será necessário selecionar o dispositivo novamente. No entanto, se você chegar diretamente na página de rastreamento de cliques, será exibida a tela de seleção de dispositivos para selecionar um dispositivo autorizado.
+* Um painel Modificações é exibido no VEC do aplicativo móvel que exibe os elementos configurados para rastreamento de cliques.
+
+   ![Painel Modificações mostrando o rastreamento de cliques
+   ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
