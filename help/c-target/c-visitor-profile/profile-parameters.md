@@ -8,7 +8,7 @@ title: Atributos do perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5af98ebdb15ddbb3c57a4e76c66db2a5ce1c576f
 
 ---
 
@@ -125,6 +125,7 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
 * Não exceda 1.300 caracteres ou 50 iterações de loop.
 * Não exceda 2.000 instruções do JavaScript. O Target tem um limite de 2.000 instruções de JavaScript por script, mas isso não pode ser calculado somente pela leitura manual do JavaScript. Por exemplo, o Rhino trata todas as chamadas de função e as "novas" chamadas como 100 instruções. Além disso, o tamanho dos dados de entrada, como os valores de URL, pode afetar a contagem das instruções.
 * Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. Contar o número de instruções não é óbvio, mas o importante a ser observado é que os scripts que excedem 2 KB serão automaticamente desativados. Não há limite definido para o número de scripts que podem ser executados, mas todos são executados com uma chamada de mbox única. Execute somente a quantidade de scripts necessária.
+* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed: the regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. A execução de scripts pode ser interrompida se tal regex corresponder a um dados de entrada suficientemente longos (que pode ter o menor que centenas de caracteres).
 * Se tudo falhar, envolva o script em um try/catch.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
