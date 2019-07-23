@@ -8,7 +8,7 @@ title: Recommendations como uma oferta
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -70,9 +70,9 @@ Há duas maneiras de editar a configuração de uma oferta:
 
 ### Editar uma oferta do recommendations utilizando o menu Editar
 
-1. Clique na oferta que você deseja editar e em Editar.
+1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Menu Editar](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Editar oferta de recomendações](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Escolha entre as seguintes opções:
 
@@ -85,8 +85,8 @@ Há duas maneiras de editar a configuração de uma oferta:
 
 ### Editar uma oferta do recommendations utilizando o painel Modificações
 
-1. Clique no ícone [!UICONTROL Modificações] *`&lt;/&gt;'* para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
-1. Passe o cursor do mouse sobre a ação desejada e clique no ícone [!UICONTROL Editar].
+1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Passe o cursor do mouse sobre a ação desejada e clique no ícone **[!UICONTROL Editar].**
 
    ![Painel de modificações](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,13 +101,23 @@ Há duas maneiras de excluir uma oferta do recommendations:
 
 ### Excluir uma oferta do recommendations utilizando o menu Editar
 
-1. Clique na oferta que você deseja excluir e em [!UICONTROL Layout &gt; Remover].
+1. Clique na oferta que você deseja excluir e em **[!UICONTROL Layout &gt; Remover]**.
 
    ![Remover](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### Excluir uma oferta do recommendations utilizando o painel Modificações
 
-1. Clique no ícone [!UICONTROL Modificações] *`&lt;/&gt;'* para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
 1. Passe o cursor do mouse sobre a ação desejada e clique no ícone [!UICONTROL Excluir].
 
    ![Ícone de Excluir](/help/c-recommendations/assets/recs-offer-delete.png)
+
+### Viewing the recommendations offer's status {#status}
+
+The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+
+* Resultados prontos
+* Resultados não prontos
+* Falha do feed
+
+![Status da oferta do Recommendations](/help/c-recommendations/assets/recs-offer-status.png)
