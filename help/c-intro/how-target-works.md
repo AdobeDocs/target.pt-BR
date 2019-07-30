@@ -9,7 +9,7 @@ title: Funcionamento do Adobe Target
 topic: Padrão
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
 
 ---
 
@@ -170,7 +170,7 @@ A Google afirma, como um exemplo, que "se a página original de um site é carre
 
 Acreditamos que seria difícil alterar involuntariamente o significado do conteúdo original contido nas variações de teste, mas recomendamos que esteja ciente dos temas das palavras-chave em uma página e manter esses temas. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. Recomendamos que você envolva seu parceiro de SEO como parte de seu protocolo de testes.
 
-Bots {#bots}
+## Bots {#bots}
 
 Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. O tráfego identificado como sendo gerado por um bot ainda é servido como conteúdo, como um usuário comum, para garantir que esteja em conformidade com as diretrizes da SEO. O uso do tráfego de robô pode inclinar testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de forma um pouco diferente. Remover o tráfego de robô fornece uma medida mais precisa da atividade do usuário.
 
