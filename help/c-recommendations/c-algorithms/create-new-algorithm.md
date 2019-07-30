@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
 
 ---
 
@@ -330,6 +330,8 @@ O critério Itens visualizados recentemente agora retorna resultados específico
 **Onde usar em seu site**
 
 Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
+
+[!NOTE]Os Itens visualizados recentemente respeitam as configurações globais de Exclusões e a configuração Coleção selecionada para a Atividade. Se um item for excluído por uma exclusão global ou não estiver contido na Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração «Todas as coleções» geralmente deve ser usada.
 
 ### Previously Purchased Items {#previously-purchased}
 
