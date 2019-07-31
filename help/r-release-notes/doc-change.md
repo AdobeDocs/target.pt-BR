@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -21,7 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| July 0 de julho de 20 19 | [Introdução ao Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Novo tópico. |
+| July 1 de julho de 21 19 | [Introdução ao Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Novo tópico. |
 |  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Foi adicionada uma observação aos itens visualizados recentemente. |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Foi adicionado um problema conhecido com links de visualização. |
 | July 9 de julho de 29 19 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
