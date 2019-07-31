@@ -8,7 +8,7 @@ title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -24,6 +24,10 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### Links de visualização {#preview}
+
+Os links de visualização para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Para impedir que isso continue acontecendo, arquive atividades salvas que não são mais usadas ativamente. (TNT-32697)
 
 ### Ofertas de redirecionamento {#redirect}
 
