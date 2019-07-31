@@ -1,5 +1,5 @@
 ---
-description: Informações sobre a concessão de integrações existentes da Adobe I/O a todas as áreas de trabalho com a função desejada.
+description: Informações sobre a concessão de integrações de integrações da Adobe/O a todas as áreas de trabalho com a função desejada.
 keywords: integração; funções; permissões do usuário; admin console
 seo-description: Informações sobre a concessão de integrações existentes da Adobe I/O a todas as áreas de trabalho com a função desejada no Adobe Target
 seo-title: Conceder acesso a integrações de E/S da Adobe a espaços de trabalho e atribuir funções no Adobe Target
@@ -7,7 +7,7 @@ solution: Target
 subtopic: Introdução
 title: Conceder acesso a espaços de trabalho à Adobe I/O e atribuir funções
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -54,10 +54,11 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![Guia Integrações](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
 
-   *[!UICONTROL Approver]
-*[!UICONTROL Editor]
-*[!UICONTROL Observer]
-
+   * [!UICONTROL Aprovador]
+   * [!UICONTROL Editor]
+   * [!UICONTROL Observador]
    ![Escolher função do perfil do produto](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
