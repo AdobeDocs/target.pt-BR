@@ -9,7 +9,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ A [!DNL Recommendations] activity is made up of the following components:
 
 ![Ilustração que mostra o que cria uma atividade de recomendações: Públicos, critérios e designs](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. Você pode personalizar cada um desses itens ou adicionar os seus próprios. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta seção se concentra na definição dos critérios, que definem os itens de assinatura.
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. Você pode personalizar cada um desses itens ou adicionar os seus próprios. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta seção foca na definição dos critérios, que definem quais itens serão recomendados.
 
 O Target usa o conceito do cartão de critérios. Um cartão de critérios é como uma fórmula para personalização.
 
@@ -166,7 +166,7 @@ Você pode basear sua recomendação em:
 * O item por último comprado ou adicionado ao carrinho de compras
 * Um atributo personalizado relacionado a um visitante ou item
 
-Com base nessas chaves, escolha a lógica de recomendação:
+Com base nessas chaves, você escolhe a lógica de recomendação desejada:
 
 * Itens com atributos similares
 * Os itens mais visualizados em uma categoria específica
