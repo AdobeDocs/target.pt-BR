@@ -7,7 +7,7 @@ solution: Target
 subtopic: Introdução
 title: Conceder acesso a espaços de trabalho à Adobe I/O e atribuir funções
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -36,11 +36,11 @@ Esta atualização oferece suporte para os seguintes casos de uso:
 
 **Ação necessária**: Os clientes que atualmente utilizam apis para operações CRUD em recursos (atividades, públicos, ofertas e relatórios) precisam conceder acesso de integração existente à Adobe I/O a todas as áreas de trabalho com a função desejada de acordo com o caso de uso. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. Agora você pode escolher a função desejada.
 
-This action should be performed before **September 4, 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Não há nenhuma reação negativa à configuração de integrações antecipadamente, conforme as diretrizes acima. Quanto mais cedo você efetuar essa alteração, melhor. Pouco tempo é necessário para configurar isso, dependendo do número de espaços de trabalho em sua organização. Esse processo utiliza apenas alguns cliques para adicionar uma integração existente em espaços de trabalho com a função desejada.
+This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Não há nenhuma reação negativa à configuração de integrações antecipadamente. Quanto mais cedo você efetuar essa alteração, melhor. Pouco tempo é necessário para configurar isso, dependendo do número de espaços de trabalho em sua organização. Esse processo utiliza apenas alguns cliques para adicionar uma integração existente em espaços de trabalho com a função desejada.
 
 **Para conceder acesso a integrações de E/S da Adobe a espaços de trabalho e atribuir funções:**
 
-1. Open the **[!DNL[Adobe Admin Console](https://adminconsole.adobe.com)]**.
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
 
