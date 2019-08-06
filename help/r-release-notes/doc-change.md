@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -21,16 +21,19 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 6 de agosto de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão do iOS 2.1.0 e Android 1.1.0 do Target Mobile VEC SDK. |
+|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | Atualização do tempo de processamento esperado dos critérios para o Analytics. |
+|  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Atualização da consideração sobre o uso [!UICONTROL das métricas de Impressões] da atividade e [!UICONTROL Conversões] de atividade em [!DNL Analysis Workspace]. |
 | 1 de agosto de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foi adicionado um anúncio importante sobre o suporte à API para Permissões empresariais. |
 |  | [Conceder acesso a espaços de trabalho à Adobe I/O e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Novo tópico. |
 | July 1 de julho de 21 19 | [Introdução ao Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Novo tópico. |
 |  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Foi adicionada uma observação aos itens visualizados recentemente. |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Foi adicionado um problema conhecido com links de visualização de QA da atividade. |
-| July 9 de julho de 29 19 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
-| July 4 de julho de 24 19 | [Atualização de at. js 1.*x* para at. js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| July 9 de julho de 29 19 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Novas perguntas frequentes adicionadas: " Por que os relatórios de direcionamento [!UICONTROL de experiência] (XT) contêm métricas para controlar experiências? " |
+| July 4 de julho de 24 19 | [Atualização de at. js 1.*x* para at. js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Nova seção adicionada: [Suporte de rastreamento entre domínios em at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Novo tópico. |
 |  | [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md#status) | Nova seção adicionada: " Visualizando o status da oferta de recomendações ". |
-|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status). |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | A linha «Importar itens» foi atualizada e adicionada «Feed importado com sucesso na *linha*» em [Status do feed](/help/c-recommendations/c-products/feeds.md#status). |
 |  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md) | Atualização do texto sobre como o catálogo é atualizado. |
 |  | [Configurar o rastreamento de cliques no para aplicativos móveis](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Foram adicionadas informações sobre o painel Modificações, que mostra os elementos configurados para o rastreamento de cliques. |
 |  | [Funcionamento do Adobe Target](/help/c-intro/how-target-works.md#bots) | Nova seção adicionada: " Bots ". |
@@ -48,9 +51,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Target 19.7.1 (23 de julho de 23 19).<br>Observe que essas informações estão sujeitas a alterações. |
 | 8 de julho de 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Foram adicionadas informações explicando por que você deve usar CNAME. |
 | 28 de junho de 2019 | [Problemas conhecidos e solução de variações](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[de dados issuesexpted entre o Target e o Analytics ao usar e não usar a 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[ofertas-A 4 T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Foram adicionadas informações sobre um problema conhecido que está fazendo com que um número limitado de clientes use redirecionamentos com A 4 T para ver uma porcentagem maior das taxas de ocorrência não empilhadas. |
-| 26 de junho de 2019 | [Opções de experiência visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
-|  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
-|  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+| 26 de junho de 2019 | [Opções de experiência visual](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Foram adicionadas informações sobre a [!UICONTROL opção Plano de fundo] em *Estilos*. |
+|  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) | Foram adicionadas informações sobre a [!UICONTROL ação Clone] . |
+|  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Adicionadas informações sobre o [!UICONTROL painel Elementos] selecionados. |
 |  | [Aplicativo de página única (SPA) no Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nova seção: " Configurações de entrega de página para o SPA VEC ". |
 |  | [Selecione o controle da atividade automatizada ou da atividade do Target](/help/c-activities/t-automated-personalization/experience-as-control.md) | Novo tópico. |
 |  | [Políticas de cookie do Google Chrome para samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Novo tópico. |
@@ -77,10 +80,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 7 de junho de 2019 | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Nova seção adicionada: " Cenário: Crie um design padrão do Recommendations 4 x 2 com lógica de verificação nula. " |
 |  | [Vídeos de treinamento para o Adobe Target Standard e Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Link atualizado para o novo site Tutoriais do Adobe Target. |
 |  | [iOS - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Atualização do texto e dos trechos de código. |
-| 6 de junho de 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Updated the description for the `options > page` parameter. |
+| 6 de junho de 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Atualização da descrição do `options > page` parâmetro. |
 |  | [Primeiros passos do administrador](/help/administrating-target/start-target.md) | Atualização do artigo inteiro. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Notas preliminares adicionadas da versão do Target 19.6.1. |
-| 5 de junho de 2019 | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section. |
+| 5 de junho de 2019 | [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Nova seção [Solução de problemas](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) foi adicionada. |
 |  | [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Foram atualizadas informações sobre a implantação do at. js usando o Adobe Launch, que é o método preferido de implantação. |
 |  | [Conceitos-chave do Target](/help/c-intro/target-key-concepts.md) | Edições de texto secundárias. |
 | 3 de junho de 2019 | [Notas de versão (atual)](/help/r-release-notes/release-notes.md) | Informações adicionadas sobre a versão futura do at. js 2.1.0. |
@@ -88,7 +91,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Antes de implante](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Nova seção adicionada: " Registro do Analytics no cliente ". |
 |  | [Implementação do Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Etapa 7 revisada. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Adicionadas linhas à tabela para os seguintes nomes de campo:<ul><li>Request &gt; experiencecloud</li><li>Request &gt; experiencecloud &gt; analytics</li><li>Solicitação &gt; experiencecloud &gt; analytics &gt; registro</li></ul> |
-|  | [Funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Added row to the table for `adobe.target.sendNotifications(options)`. |
+|  | [Funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Linha adicionada à tabela para `adobe.target.sendNotifications(options)`. |
 |  | [adobe. target. sendnotifications (opções)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | Novo tópico. |
 |  | [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | Adicionadas informações sobre o suporte à Adobe Opt-in no at. js 2.1.0. |
 |  | [Privacidade e o Regulamento Geral sobre a Proteção de Dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Informações atualizadas sobre o suporte a aceitação no at. js 2.1.0. |
@@ -97,7 +100,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 30 de maio de 2019 | [Acessar o Target na Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | A documentação agora está disponível no idioma chinês simplificado. |
 |  | [Download de dados em um arquivo CSV](/help/c-reports/downloading-data-in-csv-file.md) | Adição de novas advertências na seção Exportar detalhes do pedido para CSV: " Públicos-alvo aplicados na interface do usuário do Target não continuam para o relatório de download. " |
 |  | [Configurações do relatório](/help/c-reports/c-report-settings/report-settings.md) | Capturas de tela atualizadas. |
-| 29 de maio de 2019 | [Afinidade de categorias](/help/c-target/c-visitor-profile/category-affinity.md) | Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`. |
+| 29 de maio de 2019 | [Afinidade de categorias](/help/c-target/c-visitor-profile/category-affinity.md) | Texto atualizado para esclarecer a diferença entre `user.categoryId` e `entity.categoryId`. |
 |  | [Migração da mbox.js para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Seção relocalizada para este tópico: Benefícios do at. js. |
 |  | [Perguntas frequentes sobre at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Seção relocalizada para este tópico: " Qual é o impacto do at. js e mbox. js no tempo de carregamento da página? " |
 |  | [Envio de dados dinâmicos em ofertas](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Sintaxe corrigida na linha de comportamento Anterior. |
