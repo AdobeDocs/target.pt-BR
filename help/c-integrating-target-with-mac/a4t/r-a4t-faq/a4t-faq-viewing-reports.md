@@ -8,7 +8,7 @@ title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ Os segmentos aplicados aos relatórios seguem a mesma forma de aplicar segmentos
 
 É possível aplicar segmentos a métricas com uma métrica calculada. Isso geralmente é feito quando você deseja criar um novo tipo de evento de sucesso. Por exemplo, se você quiser ver quantos visitantes retornados sua atividade gerou, ou quantos visitantes chegaram a uma determinada página para ver seu teste. Observe que o aumento e a confiança não podem ser atualmente gerados para métricas calculadas.
 
-## Devo usar visitantes, impressões de atividades ou visitas ao exibir relatórios? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## Devo usar visitantes, impressões de atividades ou visitas ao exibir relatórios? {#metrics}
 
 Existem várias opções, cada uma com suas próprias vantagens:
 
@@ -52,7 +52,7 @@ Considere o seguinte:
 
 * Todas as métricas acima são acionadas quando um usuário se qualifica para uma atividade e o conteúdo é retornado do [!DNL Target]. Isso não significa necessariamente que o usuário viu a oferta. Se uma experiência de atividade estiver abaixo da dobra e o usuário não rolar a página para baixo, a oferta foi distribuída pelo [!DNL Target], mas não foi vista pelo usuário.
 * [!UICONTROL Impressões de atividade] (medidas pelo [!DNL Target]) e [!UICONTROL Instâncias] (medidas pelo [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
-* Atualmente, as métricas de [!UICONTROL Impressões de atividades] e [!UICONTROL Conversão de atividades] são aumentadas no [!DNL Analysis Workspace] e não devem ser usadas até que esse problema seja resolvido.
+* Ao usar [!UICONTROL as métricas Impressões] de atividade e [!UICONTROL Conversões] de atividade em [!DNL Analysis Workspace], verifique se ambas as métricas têm [!UICONTROL Modelos de] atribuição de Toque aplicados. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL modelos de atribuição não padrão]e selecionando [!UICONTROL o mesmo toque]. Saiba mais sobre a atribuição na visão geral IQ [Atributos](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) no Guia das ferramentas *do Analytics*.
 
 ## O que significa "conversões de atividade" se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
