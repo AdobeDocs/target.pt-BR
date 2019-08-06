@@ -9,7 +9,7 @@ title: Funcionamento do Adobe Target
 topic: Padrão
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ O Adobe Target é integrado com sites por meio de uma de duas bibliotecas javasc
 >
 >Todos os clientes devem migrar para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Você deve fazer referência ao arquivo da biblioteca do javascript do Target em todas as páginas do site. Você pode adicioná-la ao título global, por exemplo. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Você deve fazer referência ao arquivo da biblioteca do javascript do Target em todas as páginas do site. Você pode adicioná-la ao título global, por exemplo. Como alternativa, considere usar [o gerenciador de tags do Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Cada vez em que um visitante solicita uma página que foi otimizada para o Target, uma solicitação será enviada para o sistema de direcionamento para determinar qual conteúdo será enviado a um visitante. Esse processo ocorre em tempo real— toda vez que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é enviado para todo visitante do site com maior probabilidade de responder, interagir e comprar, maximizando as taxas de resposta e de aquisição e a receita.
 
@@ -98,17 +98,17 @@ Cada nó de Edge possui todas as informações necessárias para responder à so
 
 ![Mapear com sites de borda principais e sites de borda](assets/edge_network.png)
 
-No momento, a Adobe tem sites de borda principais em Oregon e Texas nos Estados Unidos; Londres, Inglaterra; e Cingapura. No momento, a Adobe tem sites de borda em Virgínia (EUA), Amsterdã, Países Baixos; Tóquio, Japão; e Sydney, Austrália.
+A fonte para essa mage é o white [paper Visão geral](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) de segurança do Adobe Target.
 
-Os principais locais do Edge contém um centro de coleta de dados e um centro de processamento de dados. Os locais de site do Edge contém apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
+A solução Adobe Target é hospedada em centros de dados proprietários da Adobe e em centros de dados da Adobe ao redor do mundo. Os servidores de administração são hospedados totalmente nos centros de dados da Adobe em Londres, Cingapura e vários locais em todo o site dos EUA, incluindo Oregon e Virgínia. Os servidores de borda são hospedados nos servidores da Adobe e alugados pela Adobe nos centros de dados da Amazon AWS em Londres, Hong Kong, Cingapura, Tóquio e Sydney.
 
-A Adobe possui atualmente data centers em vários continentes, incluindo vários locais regionais na América do Norte, Europa e Ásia.
+Os locais do Servidor de administração contêm um centro de coleta de dados e um centro de processamento de dados. Os locais de site do Edge contém apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
 Em vez de responder a todas as solicitações de direcionamento a partir de um único local, as solicitações são processadas pelo ambiente do Edge mais próximas do visitante, reduzindo o impacto do tempo de deslocamento da Internet/rede.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Devido ao ótimo Firewall e à falta de nós do Edge no país, as experiências de sites com [!DNL Target] implantado serão lentas e as cargas da página serão afetadas. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de [!DNL Target] usuário de criação.
 
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Acreditamos que seria difícil alterar involuntariamente o significado do conte�
 
 ## Bots {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. O tráfego identificado como sendo gerado por um bot ainda é servido como conteúdo, como um usuário comum, para garantir que esteja em conformidade com as diretrizes da SEO. O uso do tráfego de robô pode inclinar testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de forma um pouco diferente. Remover o tráfego de robô fornece uma medida mais precisa da atividade do usuário.
+O Adobe Target usa [o deviceatlas](https://deviceatlas.com/) para detectar bots conhecidos. O tráfego identificado como sendo gerado por um bot ainda é servido como conteúdo, como um usuário comum, para garantir que esteja em conformidade com as diretrizes da SEO. O uso do tráfego de robô pode inclinar testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de forma um pouco diferente. Remover o tráfego de robô fornece uma medida mais precisa da atividade do usuário.
 
 Especificamente, para o tráfego de robô conhecido o Target não:
 
