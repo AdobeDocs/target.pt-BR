@@ -7,7 +7,7 @@ title: Aplicativo para dispositivos móveis do Visual Experience Composer
 topic: Padrão
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
+source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 
 ---
 
@@ -81,7 +81,7 @@ Quando uma nova versão do aplicativo é detectada, você é notificado de que a
 
 ![Notificação de novo aplicativo](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
+Várias versões de aplicativos móveis podem ser adicionadas e removidas manualmente da caixa de diálogo [!UICONTROL Gerenciar versões] .
 
 ![Caixa de diálogo Gerenciar versões](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -192,7 +192,7 @@ Sua conexão com a Internet deve ter caído. Reinicie o aplicativo após a Inter
 
 Clique no botão [!UICONTROL Atualizar] no VEC para sincronizar a exibição.
 
-**Recebi um erro informando que meu valor "context. application. id" contém caracteres proibidos. What characters are allowed in mobile app IDs?**
+**Recebi um erro informando que meu valor "context. application. id" contém caracteres proibidos. Quais caracteres são permitidos em IDs de aplicativos móveis?**
 
 Os caracteres permitidos em IDs de aplicativo móvel incluem:
 
@@ -210,7 +210,7 @@ Os caracteres permitidos em IDs de aplicativo móvel incluem:
 | `&` | Ampersand |
 | `+` | Sinal de mais |
 
-Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
+Usando um caractere não permitido, por exemplo, um apóstrofe ( `'` ) faz com que você receba a seguinte mensagem de erro:
 
 ```
 Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
@@ -219,7 +219,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
 ## Limitações conhecidas {#limitations}
 
 * O VEC para aplicativos móveis pode ser usado atualmente para criar atividades de [Teste A/B](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência (XT)](/help/c-activities/t-experience-target/experience-target.md) para aplicativos móveis. Compatibilidade com outros tipos de atividade estará disponível no futuro.
-* O recurso de Visualização ainda não tem suporte. Ele será disponibilizado em uma versão futura.
 * Ao tentar reconectar o aplicativo ao VEC para aplicativos móveis, você deve sair completamente do aplicativo e reiniciá-lo.
 
    Se o aplicativo móvel já estiver aberto durante qualquer um dos cenários listados abaixo, feche-o e reabra-o. No entanto, você *deve* fechar o aplicativo na seção de aplicativos recentes e *não* pressionando o botão Voltar. Se o aplicativo for fechado pressionando o botão Voltar, pode haver problemas de conexão intermitente.
@@ -231,6 +230,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
    * A caixa de diálogo do dispositivo é exibida ao navegar da etapa "Metas e configurações" de volta para a etapa "Criação" (Etapa 1). Se o aplicativo já estiver aberto, feche-o e reinicie-o para se conectar novamente ao VEC para aplicativos móveis.
    Certifique-se de fechar o aplicativo na seção de aplicativos recentes e não pressionando o botão [!UICONTROL Voltar.]
 
-## Training video: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
+## Vídeo de treinamento: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27528?captions=por_br)
