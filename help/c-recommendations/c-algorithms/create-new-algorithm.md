@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -118,11 +118,15 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
    Se você está criando uma nova atividade do [!UICONTROL Recommendations] ou editando uma atividade existente, a caixa de seleção **[!UICONTROL Salvar critérios para mais tarde]** será selecionada por padrão. Se você não quer usar os critérios em outras atividades, desmarque a caixa de seleção antes de salvar.
 
-### Tempo de processamento dos critérios esperado
+### Tempo de processamento dos critérios esperado {#time}
 
 * **mboxes**: se o critério usa mboxes como a Fonte de dados comportamentais, os critérios serão executados imediatamente após serem criados. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios resulta na repetição dos critérios.
 
-* **Analytics**: se os critérios usarem o [!DNL Adobe Analytics] como a Fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios. Se o conjunto de relatórios tiver sido usado anteriormente com uma janela de lookback, pelo menos, desde que tenha sido selecionada, os dados comportamentais já estarão disponíveis no Target, e Recommendations executa os critérios imediatamente. O algoritmo pode levar até 12 horas para ser executado, dependendo da quantidade de dados comportamentais usados e do tamanho do catálogo. Se o conjunto de relatórios não tiver sido usado anteriormente ou for usado com uma janela de lookback mais longa, Recommendations deverá solicitar e receber dados do Adobe Analytics e, em seguida, executar o algoritmo. O processo de sincronização com o Google Analytics geralmente leva pelo menos dois dias e pode chegar a sete dias para ser concluído, dependendo da carga do sistema do Google Analytics.
+* **Analytics**: se os critérios usarem o [!DNL Adobe Analytics] como a Fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios.
+
+   * **Latência inicial**: A latência inicial é entre dois e sete dias. Essa latência inicial ocorre apenas uma vez, quando os critérios são configurados com um conjunto de relatórios que não foi usado anteriormente ou é usado com uma janela de pesquisa mais longa.
+   * **Latência contínua**: Se o conjunto de relatórios tiver sido usado anteriormente com uma janela de retrospectiva pelo menos contanto que a janela de retrospectiva selecionada tenha sido selecionada, a latência esperada para os critérios novos e existentes será inferior a 12 horas, dependendo da quantidade de dados comportamentais usada e do tamanho do catálogo.
+   Por exemplo, para a recomendação «Afinidade visualizada», quando um usuário exibe um produto, uma chamada de rastreamento de produto é passada para o Analytics próximo a tempo real. Os dados do Analytics são encaminhados para o Target desde o dia seguinte e o Target executa o algoritmo com menos de 12 horas.
 
 ## Basear a recomendação em uma chave de recomendação {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -335,7 +339,7 @@ Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros s
 >
 >Itens visualizados recentemente respeita as configurações globais de Exclusões e a configuração Coleção selecionada para a Atividade. Se um item for excluído por uma exclusão global ou não estiver contido na Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração «Todas as coleções» geralmente deve ser usada.
 
-### Previously Purchased Items {#previously-purchased}
+### Itens comprados anteriormente {#previously-purchased}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
