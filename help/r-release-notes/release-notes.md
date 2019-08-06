@@ -8,7 +8,7 @@ title: Notas de versão do Target (atual)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
 
 ---
 
@@ -21,18 +21,29 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 **July 1 de julho de 21 19**
 
-[!UICONTROL As Permissões empresariais] permitem [!DNL Target] que os clientes usem uma única organização, mas dividam-a em espaços de trabalho para diferentes equipes ou fluxos de trabalho. The [!UICONTROL Enterprise Permissions] feature facilitates effective scaling of optimization programs across teams. Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. A Adobe atualizou as apis de administração para que você possa usar a conta de integração para acessar todas as áreas de trabalho criadas em sua organização. So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+[!UICONTROL As Permissões empresariais] permitem [!DNL Target] que os clientes usem uma única organização, mas dividam-a em espaços de trabalho para diferentes equipes ou fluxos de trabalho. O [!UICONTROL recurso Permissões] empresariais facilita a escala eficaz de programas de otimização em equipes. Embora esse recurso esteja disponível na [!DNL Target] interface do usuário, as apis admin. ignoravam o suporte correspondente até [!DNL Target] a versão de fevereiro de 2019. A Adobe atualizou as apis de administração para que você possa usar a conta de integração para acessar todas as áreas de trabalho criadas em sua organização. Assim, enquanto anteriormente as apis de administração eram restritas à área de trabalho padrão, a atualização de fevereiro de 2019 concedeu acesso a todas as áreas de trabalho com [!UICONTROL acesso ao aprovador] .
 
-With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+Com a próxima versão [!DNL Target] de setembro de 2019, [!UICONTROL as Permissões] empresariais fornecerão aos clientes os seguintes controles de acesso:
 
 * É possível escolher as áreas de trabalho para as quais a integração pode ser aplicada
-* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+* Você pode aplicar uma função à integração da Adobe I/O: [!UICONTROL Aprovador], [!UICONTROL Editor]ou [!UICONTROL Observador].
 
-**Ação necessária**: Os clientes que atualmente utilizam apis para operações CRUD em recursos (atividades, públicos, ofertas e relatórios) em todas as áreas de trabalho precisam conceder acesso de integração da Adobe I/O a todas as áreas de trabalho com a função desejada. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. Com a próxima versão, agora você pode selecionar a função desejada.
+**Ação necessária**: Os clientes que atualmente utilizam apis para operações CRUD em recursos (atividades, públicos, ofertas e relatórios) em todas as áreas de trabalho precisam conceder acesso de integração da Adobe I/O a todas as áreas de trabalho com a função desejada. Antes da versão de setembro, todas as integrações operadas usando [!UICONTROL o Aprovador] , independentemente da função selecionada na lista [!UICONTROL suspensa Função] do produto. Com a próxima versão, agora você pode selecionar a função desejada.
 
-This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Não há problemas para configurar as funções de integração antecipadamente.
+Essa ação deve ser executada durante o mês **de agosto de 2019**. Após a versão [!DNL Target] de setembro de 2019, os controles de acesso serão ativados e você observará o acesso somente à área de trabalho padrão se esta for a configuração atual. Não há problemas para configurar as funções de integração antecipadamente.
 
-For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+Para obter instruções passo a passo e mais informações, consulte [Conceder acesso a integrações de E/S da Adobe a espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+
+## Target Mobile VEC SDK iOS 2.1.0 e Android 1.1.0 (7 de agosto de 2019)
+
+Esta versão do Mobile VEC SDK inclui os seguintes aprimoramentos e correções:
+
+(Os números de edição entre parênteses são para uso interno da Adobe.)
+
+* Adicionado suporte para Visualização para atividades visuais em dispositivos móveis. (TGT-27875)
+* Correção de um problema que causava uma violação da Apple Standard devido ao `UIImagePickerController` uso.
+* A dependência GSON foi removida do Android SDK. (TGT-31710)
+* Correção de um problema que fazia com que a oferta de entrega não fosse redefinida no momento da criação. (TGT-35270)
 
 ## Target Standard/Premium 19.7.1 (24 de julho de 2019) {#tgt-19-7-1}
 
@@ -42,7 +53,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Recurso/Aprimoramento | Descrição |
 | --- | --- |
-| Aplicativo para dispositivos móveis do Visual Experience Composer | Um novo painel Modificações é exibido no VEC do aplicativo móvel que exibe os elementos configurados para rastreamento de cliques. (TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| Aplicativo para dispositivos móveis do Visual Experience Composer | Um novo painel Modificações é exibido no VEC do aplicativo móvel que exibe os elementos configurados para rastreamento de cliques. (TGT -31741)<br> Consulte [Configurar o rastreamento de cliques no aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Premium badgereelogations](/help/assets/premium.png)<br>em atividades de teste A/B e direcionamento de experiência (XT) | O status da oferta do Recommendations (algoritmo) é exibido na página Visão geral das atividades de teste A/B e XT que contêm ofertas do Recommendations. Os status incluem: Resultados prontos, Resultados não prontos e Falha do feed. (TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Suporte de rastreamento entre domínios para at. js 2.0 + por meio da biblioteca da Experience Cloud ID (ECID) | Anteriormente, o rastreamento entre domínios não era compatível com o at. js 2.*x*. Com esta versão, os clientes que usam at. js 2.0 ou superior agora podem utilizar rastreamento entre domínios por meio da biblioteca ECID. A biblioteca ECID deve ser instalada na página juntamente com o at. js 2.0 ou superior para que o rastreamento entre domínios funcione. [A biblioteca da Experience Cloud ID 4.3.0 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) deve ser usada.<br>Consulte [Suporte de rastreamento entre domínios em at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
 | Suporte do Target para ITP 2.1 e ITP 2.2 da Apple por meio da biblioteca da Experience Cloud ID (ECID) 4.3 | Hoje, os clientes do Target podem reduzir o ITP 2.1 e ITP 2.2 da Apple aproveitando o programa de certificação CNAME da Adobe.<br>Com esta versão, o Target apresenta uma integração perfeita com a biblioteca ECID 4.3, que aproveita um cookie do lado do servidor para mitigar ITP 2.1 e ITP 2.2. É altamente recomendado que os clientes do Target implante [a biblioteca ECID 4.3 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) juntamente com a biblioteca javascript do Target para atenuar quaisquer versões futuras do ITP. A biblioteca ECID continuará a executar melhorias que fornecem uma solução robusta para as políticas de cookie que mudam constantemente, introduzidas pelos navegadores.<br>Consulte [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
@@ -60,15 +71,15 @@ Esta versão do at. js é uma versão de manutenção e inclui os seguintes apri
 (Os números de edição entre parênteses são para uso interno da Adobe.)
 
 * Correção de um problema que fazia com que vários beacons fossem acionados ao usar a métrica de Rastreamento de cliques na página Metas e configurações no Visual Experience Composer (VEC). (TNT-32812)
-* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* Correção de um problema que não `triggerView()` renderizava ofertas mais de uma vez. (TNT-32780)
+* Correção de um problema com `triggerView()` o objetivo de garantir que a solicitação contivesse informações da Marketing Cloud ID (MCID). (TNT-32776)
+* Correção de um problema que impedia a `triggerView()` notificação de ser acionada mesmo se não houvesse exibições salvas. (TNT-32614)
 * Correção de um problema que causava um erro devido ao uso de decodeuricomponent que causava problemas quando o URL continha um parâmetro de string de consulta malformado. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* O sinalizador de beacon agora é definido como "verdadeiro" no contexto de solicitações de entrega enviadas pela `Navigator.sendBeacon()` API. (TNT-32683)
 * Correção de um problema que impedia que as ofertas do Recommendations fossem exibidas em sites para alguns clientes. Os clientes podem ver o conteúdo da oferta na chamada da API de entrega, mas a oferta não foi aplicada no site. (TNT-32680)
 * Correção de um problema que fazia com que o rastreamento de cliques em várias experiências não funcionasse como esperado. (TNT-32644)
 * Correção de um problema que impedia o at. js de aplicar a segunda métrica depois que a renderização da primeira métrica falha. (TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* Corrigido um problema ao passar `mboxThirdPartyId` usando `targetPageParams` a função que fazia com que a carga da solicitação não estivesse presente nos parâmetros de consulta ou na carga da solicitação. (TNT-32613)
 * Correção de um problema que fazia com que as respostas de notificação de cliques e cliques fossem bloqueadas em navegadores Chromium (incluindo Google Chrome). (TNT-32290)
 
 For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
