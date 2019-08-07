@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -24,6 +24,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 7 de agosto de 2019 | [Buscar previamente conteúdo da oferta](/help/c-target-mobile-app/prefetch-offer-content.md) | Foi adicionada uma observação informando que a funcionalidade de pré-busca nos sdks não é compatível com tipos de atividade Auto-alvo, Alocação automática e Personalização automatizada. |
 |  | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Observação atualizada indicando quanto tempo o processo de classificação leva para concluir. |
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Observação atualizada indicando quanto tempo o processo de classificação leva para concluir. |
+|  | [Normas de privacidade e proteção de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Tópico atualizado para incluir informações sobre a Lei de privacidade do consumidor da Califórnia (CCPA). |
 | 6 de agosto de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão do iOS 2.1.0 e Android 1.1.0 do Target Mobile VEC SDK. |
 |  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Atualização da seguinte seção: " Tempo de processamento de critérios esperado ". |
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Atualização da consideração sobre o uso [!UICONTROL das métricas de Impressões] da atividade e [!UICONTROL Conversões] de atividade em [!DNL Analysis Workspace]. |
