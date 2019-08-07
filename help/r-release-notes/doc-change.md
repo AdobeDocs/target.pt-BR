@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -21,6 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 7 de agosto de 2019 | [Buscar previamente conteúdo da oferta](/help/c-target-mobile-app/prefetch-offer-content.md) | Foi adicionada uma observação informando que a funcionalidade de pré-busca nos sdks não é compatível com tipos de atividade Auto-alvo, Alocação automática e Personalização automatizada. |
+|  | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Observação atualizada indicando quanto tempo o processo de classificação leva para concluir. |
 | 6 de agosto de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão do iOS 2.1.0 e Android 1.1.0 do Target Mobile VEC SDK. |
 |  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Atualização da seguinte seção: " Tempo de processamento de critérios esperado ". |
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Atualização da consideração sobre o uso [!UICONTROL das métricas de Impressões] da atividade e [!UICONTROL Conversões] de atividade em [!DNL Analysis Workspace]. |
