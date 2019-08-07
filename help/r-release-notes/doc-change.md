@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
 
 ---
 
@@ -22,7 +22,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 6 de agosto de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão do iOS 2.1.0 e Android 1.1.0 do Target Mobile VEC SDK. |
-|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | Atualização do tempo de processamento esperado dos critérios para o Analytics. |
+|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Atualização da seguinte seção: " Tempo de processamento de critérios esperado ". |
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Atualização da consideração sobre o uso [!UICONTROL das métricas de Impressões] da atividade e [!UICONTROL Conversões] de atividade em [!DNL Analysis Workspace]. |
 | 1 de agosto de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foi adicionado um anúncio importante sobre o suporte à API para Permissões empresariais. |
 |  | [Conceder acesso a espaços de trabalho à Adobe I/O e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Novo tópico. |
