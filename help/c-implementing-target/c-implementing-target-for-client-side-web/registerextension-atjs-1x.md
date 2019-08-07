@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função registerExtension() para at.js. '
-keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+keywords: Registerextension; registerextension; registrar extensão; at. js; funções; ; Clientcode; Serverdomain; Globalmboxname; Globalmboxautocreate; timeout
 seo-description: Informações sobre a função registerExtension() da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função tregisterExtension() da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introdução
 title: registerExtension()
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
