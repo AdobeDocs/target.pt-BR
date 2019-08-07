@@ -9,7 +9,7 @@ title: Solução de problemas de integração do Analytics e do Target (A4T)
 topic: Padrão
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 
-## As atividades não mostram dados no Analytics, mas são listadas como "não especificadas".{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## As atividades não mostram dados no Analytics, mas são listadas como "não especificadas".{#unspecified}
 
 Existem várias razões pelas quais isso pode acontecer:
 
@@ -34,9 +34,9 @@ Existem várias razões pelas quais isso pode acontecer:
 
    [Entre em contato com o Atendimento ao cliente](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter assistência.
 
-Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que pode levar até 24 horas para classificar os relatórios após o primeiro salvamento.
-
 >[!NOTE]
+>
+>Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que normalmente leva entre 24 e 72 horas para classificar relatórios após a primeira gravação.
 >
 >Nenhum dado é perdido quando listado como "não especificado". Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
