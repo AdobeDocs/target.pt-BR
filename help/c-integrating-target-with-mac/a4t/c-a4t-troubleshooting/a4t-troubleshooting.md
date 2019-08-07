@@ -9,7 +9,7 @@ title: Solução de problemas de integração do Analytics e do Target (A4T)
 topic: Padrão
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ Existem várias razões pelas quais isso pode acontecer:
 
 * A classificação no [!DNL Target] não foi completamente processada.
 
-   A classificação pode levar até 24 horas para ser processada desde o primeiro salvamento da atividade.
+   A classificação geralmente leva entre 24 e 72 horas para classificar relatórios após a primeira gravação.
 
 * O conjunto de relatórios não contém nenhum dado, mas o [!DNL Target] tentou classificar os hits. O [!DNL Target] não pode classificar os dados até que o primeiro hit ocorra.
 
