@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
+source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
 
 ---
 
@@ -122,7 +122,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
 Depois de salvar um critério, [!DNL Target] calcule as recomendações. Esse cálculo leva algum tempo para ser executado e o período difere com base na lógica de recomendação selecionada, intervalo de dados, número de itens no catálogo, quantidade de dados comportamentais gerados pelos clientes e na fonte de dados comportamentais selecionada. A fonte de dados comportamentais tem o maior impacto no tempo de processamento, da seguinte maneira:
 
-### moboxes
+### caixas de entrada
 
 Se as mboxes forem selecionadas como fonte de dados comportamentais, depois de criadas, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração de critérios geralmente resulta em re-execução do algoritmo. Dependendo da alteração efetuada, as recomendações computadas anteriormente podem estar disponíveis até que uma nova execução seja concluída, ou para alterações maiores, somente o backup ou o conteúdo padrão estará disponível até que uma nova execução seja concluída. Se um algoritmo não for modificado, será executado automaticamente [!DNL Target] a cada 12-48 horas, dependendo do intervalo de dados selecionado.
 
