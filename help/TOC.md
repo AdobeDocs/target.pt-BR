@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/pt/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
       + [Preparação para implementar o Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacidade {#privacy}
          + [Visão geral de privacidade](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Privacidade e o Regulamento Geral sobre a Proteção de Dados (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Normas de privacidade e proteção de dados](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Excluir o cookie do Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Políticas de cookie do Google Chrome para samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
