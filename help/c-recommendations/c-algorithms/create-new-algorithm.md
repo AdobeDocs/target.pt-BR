@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
 
 ---
 
@@ -118,15 +118,21 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
    Se você está criando uma nova atividade do [!UICONTROL Recommendations] ou editando uma atividade existente, a caixa de seleção **[!UICONTROL Salvar critérios para mais tarde]** será selecionada por padrão. Se você não quer usar os critérios em outras atividades, desmarque a caixa de seleção antes de salvar.
 
-### Tempo de processamento dos critérios esperado {#time}
+## Tempo de processamento dos critérios esperado {#process-time}
 
-* **mboxes**: se o critério usa mboxes como a Fonte de dados comportamentais, os critérios serão executados imediatamente após serem criados. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios resulta na repetição dos critérios.
+Depois de salvar um critério, [!DNL Target] calcule as recomendações. Esse cálculo leva algum tempo para ser executado e o período difere com base na lógica de recomendação selecionada, intervalo de dados, número de itens no catálogo, quantidade de dados comportamentais gerados pelos clientes e na fonte de dados comportamentais selecionada. A fonte de dados comportamentais tem o maior impacto no tempo de processamento, da seguinte maneira:
 
-* **Analytics**: se os critérios usarem o [!DNL Adobe Analytics] como a Fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios.
+### moboxes
 
-   * **Latência inicial**: A latência inicial é entre dois e sete dias. Essa latência inicial ocorre apenas uma vez, quando os critérios são configurados com um conjunto de relatórios que não foi usado anteriormente ou é usado com uma janela de pesquisa mais longa.
-   * **Latência contínua**: Se o conjunto de relatórios tiver sido usado anteriormente com uma janela de retrospectiva pelo menos contanto que a janela de retrospectiva selecionada tenha sido selecionada, a latência esperada para os critérios novos e existentes será inferior a 12 horas, dependendo da quantidade de dados comportamentais usada e do tamanho do catálogo.
-   Por exemplo, para a recomendação «Afinidade visualizada», quando um usuário exibe um produto, uma chamada de rastreamento de produto é passada para o Analytics próximo a tempo real. Os dados do Analytics são encaminhados para o Target desde o dia seguinte e o Target executa o algoritmo com menos de 12 horas.
+Se as mboxes forem selecionadas como fonte de dados comportamentais, depois de criadas, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração de critérios geralmente resulta em re-execução do algoritmo. Dependendo da alteração efetuada, as recomendações computadas anteriormente podem estar disponíveis até que uma nova execução seja concluída, ou para alterações maiores, somente o backup ou o conteúdo padrão estará disponível até que uma nova execução seja concluída. Se um algoritmo não for modificado, será executado automaticamente [!DNL Target] a cada 12-48 horas, dependendo do intervalo de dados selecionado.
+
+### Adobe Analytics
+
+If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+
+* **Configuração do conjunto de relatórios uma vez**: A primeira vez que um conjunto de relatórios é usado com uma determinada janela de pesquisa de intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para fazer o download completo dos dados comportamentais do conjunto de relatórios selecionado. [!DNL Analytics] Esse período depende da carga [!DNL Analytics] do sistema.
+* **Critérios novos ou editados usando um conjunto de relatórios já disponível**: Ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado [!DNL Target Recommendations]com um intervalo de dados igual ou menor que o intervalo de dados selecionado, os dados serão imediatamente disponibilizados e nenhuma configuração será necessária. Nesse caso, ou se as configurações de um algoritmo forem editadas enquanto não modificarem o conjunto de relatórios ou intervalo de dados selecionado, o algoritmo será executado ou executado novamente em 12 horas.
+* **O algoritmo contínuo é executado**: Os dados continuam de [!DNL Analytics] uma [!DNL Target Recommendations] base diária. Por exemplo, para a recomendação [!UICONTROL de Afinidade] visualizada, quando um usuário exibe um produto, uma chamada de rastreamento de visualização de produto é passada [!DNL Analytics] para perto do tempo real. [!DNL Analytics] Os dados são encaminhados para [!DNL Target] o início do dia seguinte e [!DNL Target] executa o algoritmo em menos de 12 horas.
 
 ## Basear a recomendação em uma chave de recomendação {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
