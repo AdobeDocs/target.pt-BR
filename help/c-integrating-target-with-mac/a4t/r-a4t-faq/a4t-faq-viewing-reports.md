@@ -8,7 +8,7 @@ title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -58,11 +58,11 @@ Considere o seguinte:
 
 "Conversões de atividades" estarão vazias se uma métrica do Analytics foi selecionada como a métrica de conversão da atividade.
 
-## Por que vejo "não especificado" nos relatórios do Analytics? O que isso significa? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## Por que vejo "não especificado" nos relatórios do Analytics? O que isso significa? {#unspecified}
 
 ![](assets/unspecified.png)
 
-Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Pode levar até 36 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
+Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Geralmente, leva entre 24 e 72 horas para que os dados de atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
 
 Após o período de classificação, os dados são exibidos nesses relatórios, aproximadamente uma hora depois de serem coletados no site. Todas as métricas, os segmentos e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
