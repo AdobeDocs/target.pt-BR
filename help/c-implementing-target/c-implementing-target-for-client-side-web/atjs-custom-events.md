@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre eventos personalizados para a at.js. '
-keywords: adobe.target.notification; elemento; seletor; notificação; extensão
+keywords: eventos personalizados; at. js; falha de solicitação; solicitação com êxito; falha na renderização de conteúdo; renderização de conteúdo com êxito; biblioteca carregada; início da solicitação; início da renderização de conteúdo; conteúdo não renderizado para ofertas; redirecionamento de renderização de conteúdo
 seo-description: Informações sobre os eventos personalizados da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre os eventos personalizados da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introdução
 title: Eventos personalizados da at.js
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
