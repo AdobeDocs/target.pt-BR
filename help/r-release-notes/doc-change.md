@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -21,6 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 9 de agosto de 2019 | [Como a at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Nova seção adicionada: " O modo como o at. js renderiza ofertas com conteúdo HTML ". |
+|  | [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Nova seção adicionada: " Considerações ". |
 | 7 de agosto de 2019 | [Buscar previamente conteúdo da oferta](/help/c-target-mobile-app/prefetch-offer-content.md) | Foi adicionada uma observação informando que a funcionalidade de pré-busca nos sdks não é compatível com tipos de atividade Auto-alvo, Alocação automática e Personalização automatizada. |
 |  | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Observação atualizada indicando quanto tempo o processo de classificação leva para concluir. |
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Observação atualizada indicando quanto tempo o processo de classificação leva para concluir. |
