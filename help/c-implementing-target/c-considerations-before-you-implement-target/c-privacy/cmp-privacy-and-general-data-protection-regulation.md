@@ -8,7 +8,7 @@ title: Normas de privacidade e proteção de dados
 topic: Padrão
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. O que é retornado depende de quais informações estão nesse perfil do visitante específico.
 
-## O Target suporta ofuscação de IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### O Target suporta ofuscação de IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] suporta ofuscação de IP se optar por usá-la como parte da estratégia de implementação do RGPD ou CCPA. Para obter mais informações, consulte [Privacidade](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
