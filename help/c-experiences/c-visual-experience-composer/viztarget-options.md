@@ -8,7 +8,7 @@ title: Opções do Visual Experience Composer
 topic: Padrão
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ Abra o destino do link.
 ### Desfazer/Refazer
 
 Desfaça as alterações feitas em suas atividades durante uma sessão de alteração. Você também pode refazer alterações que foram desfeitas anteriormente.
+
+## Considerações {#considerations}
+
+* Se uma oferta contiver conteúdo HTML, consulte "Como o at. js renderiza ofertas com conteúdo HTML" em [como o at. js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) para obter mais informações.
 
 ## Navegar pelos elementos usando o caminho DOM {#dom-path}
 
