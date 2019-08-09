@@ -8,7 +8,7 @@ title: Como a at.js funciona
 topic: Padrão
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -77,10 +77,27 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 | 5 | Com base no URL, nos parâmetros mbox e nos dados do perfil, o [!DNL Target] decide quais atividades e experiências são retornadas ao visitante. | 6 | O conteúdo direcionado é retornado à página, opcionalmente incluindo os valores de perfil para personalização adicional.<br>A experiência é revelada o mais rápido possível sem cintilação do conteúdo padrão. |
 | 7 | Os dados do [!DNL Analytics] são enviados ao servidores de Coleção de dados. | 8 | Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] pela SDID, e processados no armazenamento de relatório do [!DNL Analytics].<br>[!DNL Analytics] Os dados podem ser exibidos no [!DNL Analytics] e no [!DNL Target] pelos relatórios do [!DNL Analytics for Target] (A4T). |
 
+## Como o at. js renderiza ofertas com conteúdo HTML {#render}
+
+Ao renderizar ofertas com conteúdo HTML, o at. js aplica o seguinte algoritmo:
+
+1. As imagens são pré-carregadas (se houver `<img>` tags no conteúdo HTML).
+
+1. O conteúdo HTML é anexado ao nó DOM.
+
+1. Os scripts incorporados são executados (código delimitado nas `<script>` tags).
+
+1. Scripts remotos são carregados de forma assíncrona e executada (`<script>` tags com `src` atributos).
+
+Observações importantes:
+
+* O at. js não fornece nenhuma garantia na ordem da execução de scripts remotos, já que são carregados de forma assíncrona.
+* Os scripts incorporados não devem ter dependências nos scripts remotos, pois são carregados e executados posteriormente.
+
 ## Vídeo de treinamento: diagrama de arquitetura da at.js 2.x
 
 A at.js 2.x aprimora o suporte do Adobe Target para SPAs e integra-se com outras soluções da Experience Cloud. Este vídeo explica como tudo se une.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Consulte [Entendendo como at. js 2. x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
