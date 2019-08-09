@@ -1,21 +1,21 @@
 ---
-description: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD) e a Lei de privacidade do consumidor da Califórnia (CCPA) e como esses regulamentos afetam sua organização e o Adobe Target.
+description: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
 keywords: rgropr; eu; união europeia; privacidade; perguntas frequentes; perguntas frequentes; california consumer privacy act; ccpa; privacidade; proteção de dados; recusar; recusar; governamental; regulamento
-seo-description: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD) e a Lei de privacidade do consumidor da Califórnia (CCPA) e como esses regulamentos afetam sua organização e o Adobe Target.
-seo-title: Regulamento geral de proteção de dados (RGPD), California Consumer Privacy Act (CCPA) e Adobe Target
+seo-description: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
+seo-title: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
 solution: Target
 title: Normas de privacidade e proteção de dados
 topic: Padrão
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # Normas de privacidade e proteção de dados {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD) e a Lei de privacidade do consumidor da Califórnia (CCPA) e como essas regulamentações afetam sua organização e [!DNL Adobe Target].
+Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ Para obter mais informações, consulte:
 
 ## Visão geral de Privacy Consumer Privacy Act (CCPA)
 
-A CCPA (Privacy Consumer Privacy Act) está a partir de 1 de janeiro de 2january 20. Por padrão, a lei dá ao regulador da Califórnia leiautes para fazer ajustes e esclarecer os detalhes, o que significa que você pode fazer muitas perguntas. Se você tiver dúvidas, você não será o único a trabalhar com as incertezas na lei e tentar entender e desenvolver uma abordagem para atender aos requisitos legais, operacionais e técnicos.
-
-A CCPA fornece aos consumidores da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades proteção de dados em determinadas entidades que conduzem negócios na Califórnia. Em um nível superior, a lei fornece à Califórnia vários direitos principais, incluindo direitos para:
+A CCPA (Privacy Consumer Privacy Act) fornece aos consumidores da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades proteção de dados em determinadas entidades que conduzem negócios na Califórnia. Em um nível superior, a lei fornece à Califórnia vários direitos principais, incluindo direitos para:
 
 * Solicitação de informações (acesso a dados)
 * Recusar a venda de informações pessoais (um direito definido amplamente amplamente para recusar o compartilhamento de informações com terceiros)
@@ -102,7 +100,7 @@ Há três cenários a serem considerados ao usar a inclusão:
 
 ## Perguntas frequentes sobre privacidade e proteção de dados {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Perguntas frequentes sobre o Regulamento geral de Proteção de dados (RGPD) e da Califórnia Consumer Privacy Act (CCPA) para [!DNL Target].
+Perguntas frequentes sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais específicos do Target.
 
 ### Qual é a política da Adobe para esses regulamentos? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
