@@ -1,14 +1,14 @@
 ---
 description: A nova Biblioteca SDK do Target permite que os desenvolvedores façam uma configuração única nos aplicativos móveis com Android e que os profissionais de marketing usem os recursos do Mobile Visual Experience Composer (VEC).
 keywords: mobile vec, mobile visual experience composer, opções do mobile experience composer, configuração, android
-seo-description: A nova Biblioteca SDK do Target permite que os desenvolvedores façam uma configuração única nos aplicativos móveis com Android e que os profissionais de marketing usem os recursos do Mobile Visual Experience Composer (VEC).
-seo-title: Android - Configuração do aplicativo móvel
+seo-description: A nova biblioteca do SDK do Adobe Target permite aos desenvolvedores fazer uma configuração única em seus aplicativos móveis Android e permitir que os profissionais de marketing utilizem os recursos do Visual Visual Experience Composer (VEC).
+seo-title: Android - configurar o aplicativo para dispositivos móveis do Adobe Target
 solution: Target
 title: Android - Configuração do aplicativo móvel
 topic: Padrão
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
