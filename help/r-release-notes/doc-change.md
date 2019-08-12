@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -21,6 +21,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 12 de agosto de 2019 | [Android - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Atualização de informações sobre dependências e artefatos.<br>Amostra de código atualizada para `AndroidManifest.XML` o arquivo. |
+|  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Atualização da lista de aprimoramentos e correções na seção «Target Mobile VEC SDK iOS 2.1.0 e Android 1.1.1». |
+|  | [Editar uma atividade ou Salvar como rascunho](/help/c-activities/edit-activity.md#classic) | Nova seção adicionada: " Trabalhar com atividades herdadas criadas no Adobe Target Classic ". |
 | 9 de agosto de 2019 | [Como a at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Nova seção adicionada: " O modo como o at. js renderiza ofertas com conteúdo HTML ". |
 |  | [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Nova seção adicionada: " Considerações ". |
 | 7 de agosto de 2019 | [Buscar previamente conteúdo da oferta](/help/c-target-mobile-app/prefetch-offer-content.md) | Foi adicionada uma observação informando que a funcionalidade de pré-busca nos sdks não é compatível com tipos de atividade Auto-alvo, Alocação automática e Personalização automatizada. |
