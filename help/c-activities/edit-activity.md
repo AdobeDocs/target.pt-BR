@@ -8,7 +8,7 @@ title: Editar uma atividade ou Salvar como rascunho
 topic: Padrão
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -25,9 +25,9 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
 
    ![Ícone Editar](/help/c-activities/assets/hover_edit.png)
 
-   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   O Target abre a atividade no Visual Experience Composer (VEC) e você visualiza a página [!UICONTROL Experiências] (a primeira etapa do fluxo de trabalho guiado três etapas).
 
-1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edite a atividade conforme desejado usando as opções [de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Clique no botão dividir para avançar para a próxima etapa ou para salvar a atividade.
 
@@ -59,6 +59,18 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
       * Clique em **[!UICONTROL Salvar]** para salvar suas alterações e continuar nessa etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
 
+
+## Trabalhar com atividades herdadas criadas no Adobe Target Classic {#classic}
+
+As [!UICONTROL atividades de exibição da lista de atividades] são exibidas em várias fontes, incluindo [!DNL Adobe Target Classic]. As seguintes ações estão disponíveis ao trabalhar com atividades herdadas criadas em [!DNL Target Classic]:
+
+* [!UICONTROL Ativar]
+* [!UICONTROL Desativar]
+* [!UICONTROL Arquivar]
+* [!UICONTROL Copiar]
+* [!UICONTROL Excluir]
+
+Não é possível editar uma [!DNL Target Classic] atividade diretamente. Se você quiser editar a atividade, crie uma cópia da atividade usando [!DNL Target Standard/Premium] e depois salve a atividade recém criada.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
