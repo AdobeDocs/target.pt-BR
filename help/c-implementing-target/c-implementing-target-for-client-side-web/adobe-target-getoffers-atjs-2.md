@@ -8,7 +8,7 @@ subtopic: Introdução
 title: adobe.target.getOffers(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -23,7 +23,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. |
+| consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. Esta chave é uma sequência exclusiva por visitante. |
 | solicitação | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
 | timeout | Número | Não | tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
 
