@@ -8,7 +8,7 @@ title: Editar uma atividade ou Salvar como rascunho
 topic: Padrão
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
 
 
 
-## Trabalhar com atividades herdadas criadas no Adobe Target Classic {#classic}
+## Trabalhar com atividades herdadas criadas no Recommendations Classic {#classic}
 
-As [!UICONTROL atividades de exibição da lista de atividades] são exibidas em várias fontes, incluindo [!DNL Adobe Target Classic]. As seguintes ações estão disponíveis ao trabalhar com atividades herdadas criadas em [!DNL Target Classic]:
+As [!UICONTROL atividades de exibição da lista de atividades] são exibidas em várias fontes, incluindo [!DNL Recommendations Classic]. As seguintes ações estão disponíveis ao trabalhar com atividades herdadas criadas em [!DNL Recommendations Classic]:
 
 * [!UICONTROL Ativar]
 * [!UICONTROL Desativar]
@@ -70,7 +70,7 @@ As [!UICONTROL atividades de exibição da lista de atividades] são exibidas em
 * [!UICONTROL Copiar]
 * [!UICONTROL Excluir]
 
-Não é possível editar uma [!DNL Target Classic] atividade diretamente. Se você quiser editar a atividade, crie uma cópia da atividade usando [!DNL Target Standard/Premium] e depois salve a atividade recém criada.
+Não é possível editar uma [!DNL Recommendations] atividade diretamente. Se você quiser editar a atividade, crie uma cópia da atividade usando [!DNL Target Premium] e depois salve a atividade recém criada. Essa atividade recém-criada pode ser editada conforme necessário.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
