@@ -1,6 +1,6 @@
 ---
 description: Informações sobre como trabalhar com o Adobe Client Care para implementar o suporte CNAME (Canonical Name) no Adobe Target.
-keywords: atendimento ao cliente; cname; programa de certificado; nome canônico; cookies; certificado
+keywords: atendimento ao cliente; cname; programa de certificado; nome canônico; cookies; certificado; amc; certificado gerenciado da adobe
 seo-description: Informações sobre como trabalhar com o Adobe Client Care para implementar o suporte CNAME (Canonical Name) no Adobe Target.
 seo-title: CNAME e Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: CNAME e Adobe Target
 topic: Padrão
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -20,7 +20,7 @@ Informações sobre como trabalhar com o Adobe Client Care para implementar o su
 Execute as etapas a seguir para solicitar o suporte CNAME no Target:
 
 1. Abra uma [uma chamada no Atendimento ao cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) solicitando o suporte CNAME para as chamadas do Adobe Target.
-1. Inscreva-se no programa [Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) e siga as etapas de implementação fornecidas no guia [!DNL Adobe Analytics]*Cookies próprios*.
+1. Inscreva-se no programa [Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) e siga as etapas de implementação fornecidas no guia [!DNL Adobe Analytics]*Cookies próprios.* [!DNL Target] usa o mesmo método usado pelo suporte [!DNL Analytics] CNAME.
 
    O programa AMC ajuda a eliminar o esforço e a confusão percebidas pelos clientes ao implementarem cookies próprios. Após se inscrever nesse programa, a Adobe comprará e emitirá o certificado para instalar em servidores seguros.
 
