@@ -8,7 +8,7 @@ title: Ofertas de redirecionamento - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -43,15 +43,15 @@ Algumas discrepâncias de dados são esperadas. Para obter mais informações, c
 
 ## Por que as visualizações de página na página original e na página de redirecionamento são contadas às vezes? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Existe a possibilidade de ocorrer uma condição de corrida que possa fazer com que a chamada do Analytics seja acionada antes que o redirecionamento seja executado na primeira página. Isso pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam todas contadas. Essa situação resulta em uma exibição de página extra na primeira página, quando o visitante nunca "viu" realmente essa primeira página.
+Ao usar o at. js versão 1.6.3 ou posterior, isso não é um problema. Essa condição de raça afeta apenas os clientes que usam versões anteriores. A equipe do Target mantém duas versões do at. js: a versão atual e a segunda versão mais recente. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+Se você estiver usando uma versão anterior não compatível do at. js, há uma possibilidade de ocorrer uma condição de raça que possa fazer com que a chamada do Analytics seja acionada antes que o redirecionamento seja executado na primeira página. Isso pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam todas contadas. Essa situação resulta em uma exibição de página extra na primeira página, quando o visitante nunca "viu" realmente essa primeira página.
 
 Usar o compositor baseado em formulário para criar uma atividade de redirecionamento é recomendado para aumentar a velocidade do redirecionamento da página. Isto acontece devido ao local onde o código é executado na página. Além disso, é recomendável criar uma oferta de redirecionamento para cada experiência, até mesmo para a experiência padrão, na qual o redirecionamento retornaria a página original. Isso garante que, se ocorrer uma contagem incorreta, ela ocorrerá em todas as experiências, de forma que o relatório e a análise ainda sejam válidos para o teste.
 
->[!NOTE]
->
->Essa condição de corrida afeta apenas os clientes que usam at.js versão 1.6.3 ou anterior. Observe que a equipe do Target mantém apenas duas versões da at.js— a versão atual e a segunda versão mais recente. Atualize o at.js conforme necessário para garantir que você esteja executando uma [versão compatível](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+O motivo pelo qual você pode usar ofertas de redirecionamento para todas as experiências na atividade, incluindo a experiência padrão (controle), é colocar as mesmas condições em todas as experiências. Por exemplo, se a experiência padrão não tiver uma oferta de redirecionamento, mas as outras experiências tiverem ofertas redirecionadas, a velocidade da experiência sem a oferta de redirecionamento terá uma vantagem inerente. O redirecionamento de ofertas é recomendado apenas para cenários temporários, como testes. O redirecionamento de ofertas não é recomendado para cenários permanentes, como personalização. Depois de determinar o «vencedor», você deve remover o redirecionamento para melhorar o desempenho do carregamento da página.
 
-Para obter mais informações sobre esse problema, consulte a coluna "Ofertas de redirecionamento" na tabela [Problemas conhecidos](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541).
+For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Posso usar as ofertas de redirecionamento com o A4T se eu estiver usando a biblioteca JavaScript da mbox.js? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
