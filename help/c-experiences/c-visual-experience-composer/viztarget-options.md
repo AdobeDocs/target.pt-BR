@@ -8,7 +8,7 @@ title: Opções do Visual Experience Composer
 topic: Padrão
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -313,11 +313,11 @@ Redimensionar um elemento na página. Ao selecionar [!UICONTROL Redimensionar], 
 
 **Observação:** elementos em linha não podem ser redimensionados.
 
-#### Mover
+#### Mover {#move}
 
 Mover elementos na página. Diferentemente da opção [!UICONTROL Reorganizar], [!UICONTROL Mover] não altera a posição de outros elementos para abrir espaço para o elemento que está sendo movido. Use as teclas de seta para ajustar o movimento. (Aprimoramento planejado: suporte para garantir que os elementos movidos não estejam ocultos atrás de outros elementos.)
 
-Em alguns casos, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele.
+Em alguns casos, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele. Um elemento não pode ser movido fora de um contêiner que tenha a propriedade CSS a seguir: `overflow: hidden`.
 
 #### Ocultar
 
