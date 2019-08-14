@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -22,6 +22,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 14 de agosto de 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Atualização do texto e adição do link de vídeo de treinamento. |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Informações do Clarrifed sobre `consumerID` a tecla. |
 |  | [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Foram atualizadas as informações na seção «Layout &gt; Mover». |
 | 12 de agosto de 2019 | [Android - Configuração do aplicativo móvel](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Atualização de informações sobre dependências e artefatos.<br>Amostra de código atualizada para `AndroidManifest.XML` o arquivo. |
 |  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Atualização da lista de aprimoramentos e correções na seção «Target Mobile VEC SDK iOS 2.1.0 e Android 1.1.1». |
