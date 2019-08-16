@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 16 de agosto de 2019 | [Sincronização de perfil em tempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Nova seção adicionada: " Considerações ". |
+|  | [Criar uma atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Adição de vídeo de treinamento. |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Vídeos de treinamento adicionados. |
+|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Adição de vídeo de treinamento. |
+|  | [Upload dos critérios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Adição de vídeo de treinamento. |
+|  | [Criar sequências de critérios](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Adição de vídeo de treinamento. |
+|  | [Criar um design](/help/c-recommendations/c-design-overview/create-design.md) | Adição de vídeo de treinamento. |
+|  | [Coleções](/help/c-recommendations/c-products/collections.md) | Adição de vídeo de treinamento. |
+|  | [Exclusões](/help/c-recommendations/c-products/exclusions.md) | Adição de vídeo de treinamento. |
 | 14 de agosto de 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Atualização do texto e adição do link de vídeo de treinamento. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Informações do Clarrifed sobre `consumerID` a tecla. |
 |  | [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Foram atualizadas as informações na seção «Layout &gt; Mover». |
