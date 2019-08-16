@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -92,3 +92,13 @@ Você pode receber as mensagens de erro a seguir se o Target encontrar um proble
 | Erro de credenciais | Forneça um usuário e senha válidos para uma conta ativa no servidor. |
 | Diretório não encontrado | Forneça um diretório que exista no servidor. |
 | Arquivo não encontrado | Forneça o nome de um arquivo que exista no servidor dentro do diretório indicado. |
+
+## Vídeo de treinamento: Criar critérios no Recommendations (12:33)
+
+Este vídeo contém as seguintes informações:
+
+* Criar critérios
+* Criar sequências de critérios
+* Upload dos critérios personalizados
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=por_br)
