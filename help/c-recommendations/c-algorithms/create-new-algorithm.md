@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -343,13 +343,13 @@ Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros s
 
 >[!NOTE]
 >
->Itens visualizados recentemente respeita as configurações globais de Exclusões e a configuração Coleção selecionada para a Atividade. Se um item for excluído por uma exclusão global ou não estiver contido na Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração «Todas as coleções» geralmente deve ser usada.
+>Os Itens visualizados recentemente respeitam as configurações globais de Exclusões e a configuração Coleção selecionada para a Atividade. Se um item for excluído por uma exclusão global ou não estiver contido na Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração «Todas as coleções» geralmente deve ser usada.
 
 ### Itens comprados anteriormente {#previously-purchased}
 
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante adquiriu, baseado no número de slots no design.
 
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site mostrará apenas itens comprados recentemente do site apropriado. Se dois sites estiverem no mesmo ambiente e um visitante alternar entre os dois sites, o visitante verá os mesmos itens comprados recentemente para ambos os sites.
+O critério Itens adquiridos recentemente agora retorna resultados específicos a um certo [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens adquiridos recentemente do site em questão. Caso dois sites estejam no mesmo ambiente e um visitante alternar entre eles, ele verá os mesmos itens adquiridos recentemente em ambos os sites.
 
 **Onde usar em seu site**
 
@@ -457,3 +457,13 @@ Quando você selecionar **[!UICONTROL Itens]**/ **[!UICONTROL Mídia com atribut
 Como a similaridade de conteúdo usa palavras-chave para comparar itens, alguns atributos, como *mensagem* ou *descrição*, podem introduzir "ruído" à comparação. Você pode criar regras para ignorar estes atributos.
 
 Por padrão, todos atributos são definidos como *Linha de base*. Você não precisa criar uma regra a não ser que queira alterar esta configuração.
+
+## Vídeo de treinamento: Criar critérios no Recommendations (12:33)
+
+Este vídeo contém as seguintes informações:
+
+* Criar critérios
+* Criar sequências de critérios
+* Upload dos critérios personalizados
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=por_br)
