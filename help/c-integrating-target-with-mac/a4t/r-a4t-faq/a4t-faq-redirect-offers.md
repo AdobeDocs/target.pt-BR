@@ -8,7 +8,7 @@ title: Ofertas de redirecionamento - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -23,7 +23,7 @@ Sim, contanto que sua implementação use [!DNL at.js]. No entanto, sua implemen
 
 >[!NOTE]
 >
->Uma saída de problema conhecida que está fazendo com que um número limitado de clientes use redirecionamentos com A 4 T para ver uma porcentagem maior das taxas de ocorrência não empilhadas. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>Existe um problema conhecido que faz com que um número limitado de clientes que usam redirecionamentos com A4T vejam uma porcentagem maior de taxas de hit não unificadas. Consulte [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quais são os requisitos mínimos necessários para usar as ofertas de redirecionamento com o A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -49,7 +49,7 @@ Se você estiver usando uma versão anterior não compatível do at. js, há uma
 
 Usar o compositor baseado em formulário para criar uma atividade de redirecionamento é recomendado para aumentar a velocidade do redirecionamento da página. Isto acontece devido ao local onde o código é executado na página. Além disso, é recomendável criar uma oferta de redirecionamento para cada experiência, até mesmo para a experiência padrão, na qual o redirecionamento retornaria a página original. Isso garante que, se ocorrer uma contagem incorreta, ela ocorrerá em todas as experiências, de forma que o relatório e a análise ainda sejam válidos para o teste.
 
-O motivo pelo qual você pode usar ofertas de redirecionamento para todas as experiências na atividade, incluindo a experiência padrão (controle), é colocar as mesmas condições em todas as experiências. Por exemplo, se a experiência padrão não tiver uma oferta de redirecionamento, mas as outras experiências tiverem ofertas redirecionadas, a velocidade da experiência sem a oferta de redirecionamento terá uma vantagem inerente. O redirecionamento de ofertas é recomendado apenas para cenários temporários, como testes. O redirecionamento de ofertas não é recomendado para cenários permanentes, como personalização. Depois de determinar o «vencedor», você deve remover o redirecionamento para melhorar o desempenho do carregamento da página.
+Um motivo para usar ofertas de redirecionamento para todas as experiências na atividade, incluindo a experiência padrão (controle), é colocar as mesmas condições em todas as experiências. Por exemplo, se a experiência padrão não tiver uma oferta de redirecionamento, mas as outras experiências tiverem ofertas redirecionadas, a velocidade da experiência sem a oferta de redirecionamento terá uma vantagem inerente. O redirecionamento de ofertas é recomendado apenas para cenários temporários, como testes. O redirecionamento de ofertas não é recomendado para cenários permanentes, como personalização. Depois de determinar o «vencedor», você deve remover o redirecionamento para melhorar o desempenho do carregamento da página.
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
