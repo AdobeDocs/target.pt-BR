@@ -10,7 +10,7 @@ topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -47,3 +47,12 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
    >A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99.
 
 1. Clique em **[!UICONTROL Salvar]**.
+
+## Vídeo de treinamento: Criar designs personalizados no Recommendations (3:20)
+
+Este vídeo contém as seguintes informações:
+
+* Criar um design personalizado
+* Saiba como fazer referência a variáveis de exibição em seus designs
+
+>[!VIDEO](https://video.tv.adobe.com/v/27687?captions=por_br)
