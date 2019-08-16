@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ A seguir, estão os possíveis status de um feed:
 | Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
 | Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
 | Importar itens | O Target está importando itens do arquivo de Feed. |
-| Feed Imported Successfully at *time* | O Target importou o arquivo de feed para seu sistema de entrega de conteúdo. Alterações nos atributos do item foram feitas no sistema de entrega de conteúdo e serão refletidas em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>*Observação 1:* Se alterações nos atributos de um item resultarem em um item sendo excluído das recomendações, a exclusão será refletida imediatamente. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Observação 2:* Quando esse status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário Pesquisa do catálogo. Um status separado é listado na pesquisa do catálogo, indicando a última vez que o catálogo pesquisável foi atualizado. |
+| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para seu sistema de entrega de conteúdo. Alterações nos atributos do item foram feitas no sistema de entrega de conteúdo e serão refletidas em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>*Observação 1:* Se alterações nos atributos de um item resultarem em um item sendo excluído das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se alterações nos atributos resultarem em um item *não* ser mais excluído das recomendações, ele não será refletido até a atualização do próximo algoritmo, que ocorrerá dentro de 24 horas.<br>*Observação 2:* Quando esse status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário Pesquisa do catálogo. Um status separado é listado na pesquisa do catálogo, indicando a última vez que o catálogo pesquisável foi atualizado. |
 | Falha ao indexar | Ocorreu uma falha na operação de índice. Tente novamente. |
 | Servidor não encontrado | Locais de FTP ou URL inválidos ou não acessíveis. |
 
@@ -314,3 +314,25 @@ O status deve ser amarelo, pois o índice deveria ter sido executado há aproxim
 * 03 de fevereiro: são 10h e o feed não executou há um mês, um dia e uma hora
 
 O status deve ser amarelo, pois o índice deveria ter sido executado há aproximadamente um dia e uma hora. Embora isso seja somente (31+(1/25))/30 = 1,03% da configuração de frequência, ultrapassou o máximo de atraso de um dia.
+
+## Vídeos de treinamento
+
+Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
+
+### Noções básicas sobre feeds no Recommendations (3:01)
+
+Este vídeo contém as seguintes informações:
+
+* Entender a finalidade dos feeds
+* Entender o valor dos feeds
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=por_br)
+
+### Criar um feed (6:44)
+
+Este vídeo contém as seguintes informações:
+
+* Configurar um feed
+* Saber qual tipo de feed usar
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=por_br)
