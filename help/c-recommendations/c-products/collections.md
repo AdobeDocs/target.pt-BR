@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -73,3 +73,12 @@ Você também pode criar coleções usando Pesquisa avançada na página Pesquis
 >[!IMPORTANT]
 >
 >A funcionalidade de Pesquisa avançada não faz distinção entre maiúsculas e minúsculas; contudo, os produtos devolvidos no momento da entrega baseiam-se na pesquisa sensível a maiúsculas e minúsculas. Essa não correspondência pode levar à confusão. Certifique-se de considerar a sensibilidade a maiúsculas e minúsculas quando você cria coleções baseadas em resultados usando a funcionalidade Pesquisa avançada. Por exemplo, se você realiza uma busca para "Feriado", essa busca inicial lista os resultados contendo "Feriado" e "feriado". Em seguida, se você criar um catálogo com a intenção de encontrar produtos contendo "feriado", somente os produtos contendo "feriado" serão exibidos. Os produtos contendo "Feriado" não serão exibidos.
+
+## Vídeo de treinamento: Criar coleções e exclusões no Recommendations (7:05)
+
+Este vídeo contém as seguintes informações:
+
+* Criar uma coleção
+* Criar uma exclusão
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689?captions=por_br)
