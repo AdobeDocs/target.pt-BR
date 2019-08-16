@@ -10,7 +10,7 @@ topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -91,3 +91,13 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de crité
    ![](assets/CriteriaSequenceCard.png)
 
    Para obter mais informações sobre as opções de lógica de recomendação, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+
+## Vídeo de treinamento: Criar critérios no Recommendations (12:33)
+
+Este vídeo contém as seguintes informações:
+
+* Criar critérios
+* Criar sequências de critérios
+* Upload dos critérios personalizados
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=por_br)
