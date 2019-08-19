@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
 
 ---
 
@@ -225,6 +225,7 @@ recs/t_feeds_create.xml
    * FTP e FTPS devem ser definidos para usar FTP passivo.
    * Para FTPS, configure o servidor para aceitar conexões FTPS explícitas.
    * O SFTP não é suportado.
+   * Você pode especificar manualmente uma porta na qual iniciar a conexão (por exemplo, ftp://ftp.yoursite.com:2121). Se você não especificar uma porta, a porta FTP ou FTPS padrão será usada.
    Se selecionar o URL, especifique-o.
 
 1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Agendar.]
