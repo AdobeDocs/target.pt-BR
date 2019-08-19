@@ -9,7 +9,7 @@ title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 topic: Padrão
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
 
 ---
 
@@ -128,4 +128,4 @@ Este vídeo é uma gravação de "[Horas do Office](../../cmp-resources-and-cont
 * Saiba mais sobre os relatórios adequados para usar no Analytics
 * Respostas às perguntas comuns sobre o A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=por_br)
+[Integração do Analytics/Target (A 4 T) Office](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
