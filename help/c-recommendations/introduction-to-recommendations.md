@@ -9,16 +9,16 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: b487392873f18899168ed5aab3963b7e75614cf7
 
 ---
 
 
 # ![Introdução PREMIUM](/help/assets/premium.png) ao Recommendations
 
-The text in this article comes from the *Introduction to Recommendations* webinar, which you can view in its entirety below.
+O texto deste artigo vem do webinário *Introdução ao Recommendations* , que pode ser exibido na íntegra abaixo.
 
-The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. Descubra como essa atividade do [!DNL Target] exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes, otimizando sugestões em tempo real com base nas visitas anteriores. Além disso, acesse a interface do usuário do [!DNL Target] para obter uma visão geral passo a passo sobre como criar uma atividade do [!DNL Recommendations].
+O webinar de *Introdução ao Recommendations* inclui uma análise detalhada de como utilizar o valor de [!DNL Adobe Target Recommendations]. Descubra como essa atividade do [!DNL Target] exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes, otimizando sugestões em tempo real com base nas visitas anteriores. Além disso, acesse a interface do usuário do [!DNL Target] para obter uma visão geral passo a passo sobre como criar uma atividade do [!DNL Recommendations].
 
 ## Introdução
 
@@ -32,7 +32,7 @@ No entanto, nem sempre acreditamos como as marcas digitais estão aumentando a b
 
 ![Recomendação mostrando marcas digitais](/help/c-recommendations/assets/intro-2.png)
 
-Marketers use [!DNL Adobe Target] to drive personalized experiences across a wide variety of industries, customer types, and channels.
+Os profissionais de [!DNL Adobe Target] marketing usam experiências personalizadas em diversos setores, tipos de clientes e canais.
 
 [!DNL Adobe Target] proporciona conteúdo personalizado em todos os locais.
 
@@ -41,9 +41,11 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **Publicação**: Os editores da Web usam [!DNL Target Recommendations] para recomendar artigos aos visitantes do site e promover maior envolvimento.
 * **Tutoriais em vídeo**: [!DNL Adobe Creative Cloud] usa [!DNL Target] para recomendar tutoriais em vídeo aos usuários do Photoshop no aplicativo Photoshop.
 * **Gaming**: As empresas de jogos usam [!DNL Target] para recomendar jogos e conteúdo aos usuários em seus consoles.
-* **Vendas B 2 B**: As empresas corporativas usam [!DNL Target] para recomendar vídeos, documentos e postagens de blog para as perspectivas B 2 B; entregar downloads; e forneça ajuda para clientes existentes (https://theblog.adobe.com/testing-shifts-high-gear-intel).
-* **Viagem**: Um banco de viagens alemão usa [!DNL Target] para recomendar hotéis e mais para viajantes (https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
-* **Varejo**: Um revendedor B 2 B líder usa [!DNL Target] para recomendar categorias e produtos principais para retornar visitantes no navegador e em seu aplicativo móvel (https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Vendas B 2 B**: [Empresas corporativas usam o Target para recomendar vídeos, documentos e postagens de blog para as perspectivas B 2 B; entregar downloads; e fornecer ajuda para os clientes existentes](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+
+* **Viagem**: [Um banco de viagens alemão usa o Target para recomendar hotéis e mais para viajantes](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+
+* **Varejo**: [Um revendedor B 2 B líder usa o Target para recomendar as principais categorias e produtos para retornar visitantes no navegador e em seu aplicativo móvel](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
 
 Estas são apenas algumas das formas como os clientes usam o Target para fornecer recomendações personalizadas.
 
@@ -67,23 +69,23 @@ Comece com uma estratégia.
 * **Onde deseja mostrar recomendações?** Em seguida, pense em onde deseja fazer recomendações. Em geral, quais canais (Web, dispositivos móveis, armazenamento em lojas, quiosques e assim por diante). Quais partes da jornada do cliente conterão recomendações? Quais páginas do site contêm recomendações?
 * **Como você determinará se as recomendações estão com êxito?** Suponha que você tenha uma experiência sem recomendações e uma experiência com recomendações, ou tem dois tipos diferentes de recomendações. Como você poderia determinar qual experiência foi uma experiência melhor para seus clientes? Algumas métricas podem ser mais difíceis do que outras medidas. Por exemplo, o impacto das recomendações no Valor do tempo de vida do cliente geralmente é difícil de acessar diretamente. Por isso, geralmente é mais fácil obter uma métrica menos abstrata e algo mais concreto, por exemplo, receita por visita, valor médio de pedido ou número de cliques. Em alguns casos, talvez você queira minimizar uma métrica, por exemplo, o número de chamadas de suporte.
 
-After you come up with your strategy, you are ready to start the implementation of [!DNL Target Recommendations].
+Depois de configurar sua estratégia, você estará pronto para iniciar a implementação [!DNL Target Recommendations].
 
 Há três etapas abrangentes envolvidas na criação da implementação do Recommendations:
 
 ![Ilustração que mostra as etapas para criar sua implementação de recomendações](/help/c-recommendations/assets/intro-6.png)
 
-1. Teach [!DNL Target] about your context or products.
+1. Ensine [!DNL Target] sobre seu contexto ou produtos.
 1. Captura comportamento do usuário.
 1. Obtenha recomendações com o contexto adequado.
 
-### Teach [!DNL Target] about your context or products
+### Ensina [!DNL Target] sobre seu contexto ou produtos
 
-When you start with [!DNL Recommendations], you pass information about every item you want to recommend. [!DNL Target] oferecem várias opções de integração para criar seu catálogo.
+Ao iniciar, você passa [!DNL Recommendations]informações sobre cada item que deseja recomendar. [!DNL Target] oferecem várias opções de integração para criar seu catálogo.
 
 ![Ilustração mostrando como ensinar o Target sobre seu contexto ou produtos](/help/c-recommendations/assets/intro-7.png)
 
-O método mais simples e usado com mais frequência é enviar um arquivo CSV diariamente ou semanalmente do sistema de gerenciamento de informações do produto ou do sistema de gerenciamento de conteúdo. But you can also pass information on the data layer from your page using the [!DNL Adobe Target] Javascript library, leverage our APIs to pass information directly from your source system, or use our [!DNL Adobe Analytics] integration if you are already passing catalog data to [!DNL Analytics].
+O método mais simples e usado com mais frequência é enviar um arquivo CSV diariamente ou semanalmente do sistema de gerenciamento de informações do produto ou do sistema de gerenciamento de conteúdo. Mas você também pode passar informações sobre a camada de dados da sua página usando a [!DNL Adobe Target] biblioteca Javascript, aproveitar as apis para transmitir informações diretamente do sistema de origem, ou usar nossa [!DNL Adobe Analytics] integração caso já esteja transmitindo dados de catálogo para [!DNL Analytics].
 
 Às vezes, talvez você queira usar várias opções juntas, por exemplo, transmitir a maioria dos dados diariamente por um arquivo CSV e enviar atualizações de inventário com mais frequência por meio de uma API.
 
@@ -99,29 +101,29 @@ Qualquer método escolhido, você deve incluir metadados sobre cada item em trê
 
 ### Captura do comportamento do usuário
 
-Next, you should add tags or leverage you existing [!DNL Analytics] implementation to track the conversion events (such as views and purchases) that drive [!DNL Target] algorithms.
+Em seguida, você deve adicionar tags ou aproveitar [!DNL Analytics] a implementação existente para rastrear os eventos de conversão (como exibições e compras) que geram [!DNL Target] algoritmos.
 
 ![Ilustração mostrando como capturar o comportamento do usuário](/help/c-recommendations/assets/intro-9.png)
 
-You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. Se a compra não for relevante para o contexto, talvez você queira rastrear um tipo diferente de evento de conversão, por exemplo, baixar um PDF, concluir uma pesquisa, inscrever-se em um boletim informativo, assistir a um vídeo e assim por diante.
+Você precisa garantir [!DNL Target] que esteja ciente dos itens que seus usuários estão vendo e comprando. Se a compra não for relevante para o contexto, talvez você queira rastrear um tipo diferente de evento de conversão, por exemplo, baixar um PDF, concluir uma pesquisa, inscrever-se em um boletim informativo, assistir a um vídeo e assim por diante.
 
-If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it’s easiest to set this up using a tag manager such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). It’s also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
+Se você já estiver usando [!DNL Target] atividades de teste A/B em seu site, talvez já tenha completado esta etapa. Ou se você já estiver usando [!DNL Adobe Analytics] o relatório sobre visitas do site e comportamento de conversão, poderá usar [!DNL Analytics] como sua fonte de dados comportamental. Caso contrário, é mais fácil configurar isso usando um gerenciador de tags como o [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Também é possível enviar interações offline ou no aplicativo para [!DNL Target] a API em tempo real.
 
 ### Obter recomendações com o contexto adequado
 
-Pass information about the user and context at the point of interaction to [!DNL Target] to return relevant and personalized recommendations.
+Passe informações sobre o usuário e contexto no ponto de interação para [!DNL Target] retornar recomendações relevantes e personalizadas.
 
 ![Ilustração mostrando como obter recomendações com o contexto adequado](/help/c-recommendations/assets/intro-10.png)
 
-Besides user behavior in aggregate, you need to pass [!DNL Target] the specific context where recommendations are being shown. Isso inclui informações sobre a página e as informações do perfil do usuário. [!DNL Target] usa essas informações para fazer recomendações personalizadas. Por exemplo, em um site de varejo, você quer saber a categoria produto e produto que o visitante está visualizando atualmente. Você também pode saber informações sobre esse usuário (marca favorita, categoria de produto favorita, nível de fidelidade e assim por diante). This information is important so that [!DNL Target] can filter items and improve the personalization of recommendations.
+Além do comportamento do usuário agregado, você precisa passar [!DNL Target] o contexto específico em que as recomendações são exibidas. Isso inclui informações sobre a página e as informações do perfil do usuário. [!DNL Target] usa essas informações para fazer recomendações personalizadas. Por exemplo, em um site de varejo, você quer saber a categoria produto e produto que o visitante está visualizando atualmente. Você também pode saber informações sobre esse usuário (marca favorita, categoria de produto favorita, nível de fidelidade e assim por diante). Essas informações são importantes [!DNL Target] para filtrar itens e aprimorar a personalização das recomendações.
 
 ## Crie sua primeira atividade do Recommendations
 
-What is a [!DNL Recommendations] activity?
+O que é [!DNL Recommendations] uma atividade?
 
 ![Ilustração que mostra as partes que fazem uma boa atividade de recomendações](/help/c-recommendations/assets/intro-11.png)
 
-A [!DNL Recommendations] activity is made up of the following components:
+Uma [!DNL Recommendations] atividade é composta pelos seguintes componentes:
 
 * **Público-alvo**: Quem deve ver essas recomendações?
 * **Critérios**: Quais itens devem ser recomendados?
@@ -129,7 +131,7 @@ A [!DNL Recommendations] activity is made up of the following components:
 
 ![Ilustração que mostra o que cria uma atividade de recomendações: Públicos, critérios e designs](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. Você pode personalizar cada um desses itens ou adicionar os seus próprios. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta seção foca na definição dos critérios, que definem quais itens serão recomendados.
+Da caixa, [!DNL Target] inclui 14 públicos incorporados, 42 critérios incorporados e 10 modelos incorporados de design. Você pode personalizar cada um desses itens ou adicionar os seus próprios. Temos webinars anteriores [sobre a criação de públicos](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) - [!DNL Target]alvo. Esta seção foca na definição dos critérios, que definem quais itens serão recomendados.
 
 O Target usa o conceito do cartão de critérios. Um cartão de critérios é como uma fórmula para personalização.
 
@@ -139,7 +141,7 @@ O Target usa o conceito do cartão de critérios. Um cartão de critérios é co
 
 ![Ilustração de funil](/help/c-recommendations/assets/intro-14.png)
 
-The following sections describe the various parts of this funnel and how they work in [!DNL Target]:
+As seções a seguir descrevem as várias partes desse funil e como funcionam [!DNL Target]em:
 
 ### Filtros estáticos (coleções e exclusões)
 
@@ -173,7 +175,7 @@ Com base nessas chaves, você escolhe a lógica de recomendação desejada:
 * Os clientes que compraram este item também compraram esses itens
 * Um atributo personalizado
 
-Out of the box, [!DNL Target] includes a portfolio of algorithms.
+Da caixa, [!DNL Target] inclui um portfólio de algoritmos.
 
 ![Portfólio de ilustração de algoritmos](/help/c-recommendations/assets/intro-15.png)
 
@@ -193,7 +195,7 @@ Por exemplo, no contexto do conteúdo, você pode excluir filmes que o visitante
 
 ## Demonstração
 
-Após concluir as tarefas ilustradas no funil da recomendação descrito acima, você fica com sua recomendação final. To watch an in-product demonstration inside [!DNL Target], the demo begins at 21:00 in the *Adobe Target Basics Webinar*, linked to below.
+Após concluir as tarefas ilustradas no funil da recomendação descrito acima, você fica com sua recomendação final. Para assistir a uma demonstração no produto dentro [!DNL Target], a demonstração começa em 21:00 no Webinar de conceitos básicos *do Adobe Target*, vinculada a abaixo.
 
 ## Webinar de noções básicas do Adobe Target: Introdução ao Recommendations {#intro-to-recs}
 
