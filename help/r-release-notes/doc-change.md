@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 20 de agosto de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adiou a versão Target/Premium 19.8.1 (20 de agosto de 20 19). O conteúdo desta versão será colocado na versão 19.9.1 (24 de setembro de 24 19). |
 | 16 de agosto de 2019 | [Sincronização de perfil em tempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Nova seção adicionada: " Considerações ". |
 |  | [Criar uma atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Adição de vídeo de treinamento. |
 |  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Vídeos de treinamento adicionados. |
