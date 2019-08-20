@@ -2,13 +2,13 @@
 description: Informações sobre problemas conhecidos para esta versão do Target. Também inclui informações sobre problemas que foram resolvidos.
 keywords: problemas conhecidos, problemas resolvidos, notas de versão
 seo-description: Informações sobre problemas conhecidos para esta versão do Target. Também inclui informações sobre problemas que foram resolvidos.
-seo-title: Problemas conhecidos e resolvidos problemas no Adobe Target
+seo-title: Problemas conhecidos e problemas resolvidos no Adobe Target
 solution: Target
 title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -25,7 +25,7 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
-### Activity QA preview links {#preview}
+### Links de visualização de QA da atividade {#preview}
 
 [Os links de visualização](/help/c-activities/c-activity-qa/activity-qa.md) de QA de atividade para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Para impedir que isso continue acontecendo, arquive atividades salvas que não são mais usadas ativamente. (TNT-32697)
 
@@ -33,13 +33,12 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 Os problemas a seguir são problemas conhecidos com ofertas redirecionadas:
 
-* Em algumas condições, um número limitado de clientes relatou graus mais altos de variação na distribuição do tráfego ao usar uma oferta de redirecionamento em atividades configuradas com o Analytics para Target (A 4 T). Os engenheiros da Adobe estão trabalhando atualmente nesta edição.
-* Uma condição de corrida na sua página pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam contadas. As atualizações estão planejadas para a implementação do at. js para garantir que essa condição de raça possa ser evitada. Para obter mais informações sobre o problema e uma solução alternativa, consulte [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Em algumas condições, um número limitado de clientes relatou graus mais altos de variação na distribuição do tráfego ao usar uma oferta de redirecionamento em atividades configuradas com o Analytics for Target (A4T). Os engenheiros da Adobe estão trabalhando atualmente nesse problema.
 * As atividades de redirecionamento nas implementações da at.js podem fazer com que o URL de visualização entre em loop (a oferta é entregue repetidamente). Você pode usar o [Modo de controle de qualidade](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) para realizar a Visualização e o QA. Esse problema não afeta o recebimento real da oferta. (TGT-23019)
 
-### Falha na renderização do relatório de gráfico de uma atividade do Target ao usar uma experiência personalizada como controle
+### Falha na renderização do relatório de gráfico de uma atividade de direcionamento automático ao usar uma experiência personalizada como controle
 
-O relatório de gráfico de uma atividade do Target não é renderizado para modos "diferencial" (Incentivo médio e Incentivo diário) se não houver dados (0 visitas) em qualquer experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade se a experiência de controle estiver definida como personalizada. Para os outros modos (Executar controle médio e segmentação, Controle diário e Segmentação e Visitas) ele funciona bem. Assim que há alguns dados (visitas diferentes de zero), o relatório é renderizado como esperado.
+O relatório de gráfico de uma atividade de direcionamento automático não é renderizado para modos "diferenciais" (aumento médio e aumento diário) se não houver dados (0 visitas) em nenhuma experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade, se a experiência de controle estiver definida como personalizada. Para os outros modos (Execução de controle médio e direcionado, Controle diário e Segmentação e Visitas) funciona bem. Assim que houver alguns dados (visitas diferentes de zero), o relatório ser a renderizado como esperado.
 
 ### Cancelar carregamento de uma página no VEC {#cancel}
 
@@ -63,20 +62,8 @@ As ofertas de código criadas na interface do usuário do Target na biblioteca d
 
 A seguir, os problemas conhecidos com atividades de recomendações:
 
-* O índice do feed do Recommendations pode exibir "Aguardando índice" se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
 * O erro "error.restapi.algorithmProfileAttributeInvalid" das recomendações ocorre quando são utilizados atributos de perfil específicos como critérios.
 * Quando Promoção atrás é usado em uma atividade de recomendações, os filtros de inclusão de critérios não se aplicam aos ERs de backup.
-* A IU de feeds de recomendação não mostra o status de indexação correto. As tarefas de back-end estão funcionando corretamente, mas a IU não é capaz de obter e exibir o estado atual.
-
-   **Solução alternativa**: uma maneira alternativa de determinar se um Feed de recomendação de um determinado grupo de host indexou apropriadamente é verificar a IU de pesquisa de produto (conectado como administrador) e visualizar o último horário de indexação. A etiqueta de tempo representa a última vez em que o feed de um determinado grupo de host foi indexado. (TGT-27116)
-
-* Produtos recomendados podem não exibir valores de até duas casas decimais. Por exemplo, se você tentar exibir o valor no design como 35.00, Recommendations exibirá 35 (sem pontos decimais ao invés de exibir dois pontos decimais). (RECS-5972)
-
-   **Solução alternativa**: Transmitir o valor da entidade para dois entity.attributes. O primeiro, `entity.value`, é um parâmetro reservado que espera uma dupla. O segundo pode ser um entity.atribute personalizado que armazenará o valor da entidade como uma sequência de caracteres para permitir a renderização apropriada.
-
-   Por exemplo:
-
-   `"entity.value" : 35.00, "entity.displayValue" : "35.00",`
 
 ### Atividades de teste multivariado (MVT)
 
@@ -133,6 +120,26 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 
 Quando os problemas acima são resolvidos, são movidos para as seções a seguir e as notas adicionais, se necessário, serão adicionadas.
 
+### Recommendations
+
+* O índice do feed do Recommendations pode exibir "Aguardando índice" se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
+
+   Esse problema foi corrigido na versão do Target 19.4.2.
+
+* Os feeds do Recommendations demoram mais tempo para serem processados do que o esperado. (COR-2836)
+
+   Corrigido na versão 16.10.1 do Target.
+
+* A IU de feeds de recomendação não mostra o status de indexação correto. As tarefas de back-end estão funcionando corretamente, mas a IU não é capaz de obter e exibir o estado atual.
+
+   Isso foi corrigido na versão 17.10.1.
+
+### Ofertas de redirecionamento
+
+Uma condição de corrida na sua página pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam contadas. As atualizações para a implementação da at.js estão planejadas para garantir que essa condição de corrida possa ser evitada.
+
+Esse problema foi corrigido no at. js 1.6.3.
+
 ### Grupos de exclusão
 
 * Quando a deduplicação automática é aplicada depois da criação dos grupos de exclusão, a contagem no diagrama de atividades pode estar incorreta na IU.
@@ -174,7 +181,7 @@ Corrigido em 25 de outubro de 2018
 
 Quando você clica na experiência direcionada em um relatório da atividade de Automated Personalization (AP) para exibir relatórios no nível da oferta, atualmente visualiza resultados vazios, uma mensagem de erro ou um ícone giratório. (TNT-30695)
 
-Corrigido em 27 de setembro de 2018
+Corrigido em 27 de setembro de 2018.
 
 ### Editor de códigos
 
@@ -187,12 +194,6 @@ Isso foi corrigido na versão 18.9.1.
 Ao editar ou copiar uma atividade Recommendations que use uma regra de promoção de atributo, o erro "Campo ausente" é exibido ao clicar em Salvar.
 
 Isso foi corrigido na versão 17.8.1.
-
-### Status do índice do Feed de recomendações
-
-A IU de feeds de recomendação não mostra o status de indexação correto. As tarefas de back-end estão funcionando corretamente, mas a IU não é capaz de obter e exibir o estado atual.
-
-Isso foi corrigido na versão 17.10.1.
 
 ### Recommendations de backup
 
@@ -252,12 +253,6 @@ O segundo problema foi corrigido na versão 17.6.1 do Target (Junho de 2017).
 Desde o lançamento do Target 17.4.1 (27 de abril de 2017), o uso da ação Inserir imagem no Visual Experience Composer (VEC) fazia com que o conteúdo da oferta não fosse entregue ao usar a biblioteca at.js.
 
 Uma correção para esse problema foi feita na at.js versão 0.9.7 lançada em 22 de maio de 2017.
-
-### Recommendations
-
-Os feeds do Recommendations demoram mais tempo para serem processados do que o esperado. (COR-2836)
-
-Corrigido na versão 16.10.1 do Target.
 
 ### Criação de relatórios: atividades de A/B e direcionamento de experiência (XT)
 
