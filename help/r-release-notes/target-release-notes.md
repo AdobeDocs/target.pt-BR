@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
 
 ---
 
@@ -21,28 +21,28 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 >[!NOTE]
 >
->Essas notas de versão contêm informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos a alteração sem aviso prévio. Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser iguais ou diferentes, dependendo do tempo das versões.
+>Essas notas de versão contêm informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio. Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser iguais ou diferentes, dependendo do tempo das versões.
 >
->The issue numbers in parentheses are for internal [!DNL Adobe] use.
+>Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
 ## Anúncios
 
 **July 1 de julho de 21 19**
 
-[!UICONTROL As Permissões empresariais] permitem [!DNL Target] que os clientes usem uma única organização, mas dividam-a em espaços de trabalho para diferentes equipes ou fluxos de trabalho. The [!UICONTROL Enterprise Permissions] feature facilitates effective scaling of optimization programs across teams. Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. A Adobe atualizou as apis de administração para que você possa usar a conta de integração para acessar todas as áreas de trabalho criadas em sua organização. So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+[!UICONTROL As Permissões empresariais] permitem [!DNL Target] que os clientes usem uma única organização, mas dividam-a em espaços de trabalho para diferentes equipes ou fluxos de trabalho. O [!UICONTROL recurso Permissões] empresariais facilita a escala eficaz de programas de otimização em equipes. Embora esse recurso esteja disponível na [!DNL Target] interface do usuário, as apis admin. ignoravam o suporte correspondente até [!DNL Target] a versão de fevereiro de 2019. A Adobe atualizou as apis de administração para que você possa usar a conta de integração para acessar todas as áreas de trabalho criadas em sua organização. Assim, enquanto anteriormente as apis de administração eram restritas à área de trabalho padrão, a atualização de fevereiro de 2019 concedeu acesso a todas as áreas de trabalho com [!UICONTROL acesso ao aprovador] .
 
-With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+Com a próxima versão [!DNL Target] de setembro de 2019, [!UICONTROL as Permissões] empresariais fornecerão aos clientes os seguintes controles de acesso:
 
 * É possível escolher as áreas de trabalho para as quais a integração pode ser aplicada
-* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+* Você pode aplicar uma função à integração da Adobe I/O: [!UICONTROL Aprovador], [!UICONTROL Editor]ou [!UICONTROL Observador].
 
-**Ação necessária**: Os clientes que atualmente utilizam apis para operações CRUD em recursos (atividades, públicos, ofertas e relatórios) em todas as áreas de trabalho precisam conceder acesso de integração da Adobe I/O a todas as áreas de trabalho com a função desejada. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. Com a próxima versão, agora você pode selecionar a função desejada.
+**Ação necessária**: Os clientes que atualmente utilizam apis para operações CRUD em recursos (atividades, públicos, ofertas e relatórios) em todas as áreas de trabalho precisam conceder acesso de integração da Adobe I/O a todas as áreas de trabalho com a função desejada. Antes da versão de setembro, todas as integrações operadas usando [!UICONTROL o Aprovador] , independentemente da função selecionada na lista [!UICONTROL suspensa Função] do produto. Com a próxima versão, agora você pode selecionar a função desejada.
 
-This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Não há problemas para configurar as funções de integração antecipadamente.
+Essa ação deve ser executada durante o mês **de agosto de 2019**. Após a versão [!DNL Target] de setembro de 2019, os controles de acesso serão ativados e você observará o acesso somente à área de trabalho padrão se esta for a configuração atual. Não há problemas para configurar as funções de integração antecipadamente.
 
-For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+Para obter instruções passo a passo e mais informações, consulte [Conceder acesso a integrações de E/S da Adobe a espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Standard/Premium 19.8.1 (20 de agosto de 2019) {#tgt-19-8-1}
+## Target Standard/Premium 19.9.1 (24 de setembro de 2019)
 
 Esta versão de manutenção inclui o seguinte aprimoramento:
 
