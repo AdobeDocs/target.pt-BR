@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o design {#design-faq}
 
 Lista de perguntas frequentes sobre os designs de recomendações.
+
+## O preço do item recomendado não exibe os dois valores à direita do ponto decimal. Como posso exibi-los?
+
+Por padrão, valores numéricos (como `entity.value`) retornados nos modelos de design não exibem zeros à direita após o ponto decimal. Por exemplo, se um item for de $ 35.00, `entity.value` será igual a 35 e apenas 35 será exibido na página, e não $ 35.00.
+
+Duas opções estão disponíveis para resolver esse problema.
+
+* É possível usar script Velocity ou Javascript para aplicar a formatação ao valor retornado.
+
+* Você pode passar o preço do item em dois atributos de entidade separados. O primeiro, `entity.value`pode ser usado para comparações numéricas (como regras de comparação de preço). O segundo deve ser um atributo personalizado, como `entity.displayValue` o armazenamento do valor da entidade como uma string para permitir a renderização correta.
+
+   Por exemplo,
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## Por que a categoria não está sendo exibida no design? Eu estou usando $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
 
