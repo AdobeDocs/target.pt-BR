@@ -1,18 +1,18 @@
 ---
 description: O Visual Experience Composer (VEC) para aplicativos móveis nativos permite criar atividades e personalizar o conteúdo de maneira autônoma, sem dependências de desenvolvimento contínuas e ciclos de lançamento de aplicativos.
 seo-description: O Visual Experience Composer (VEC) para aplicativos móveis nativos permite criar atividades e personalizar o conteúdo de maneira autônoma, sem dependências de desenvolvimento contínuas e ciclos de lançamento de aplicativos.
-seo-title: Aplicativo para dispositivos móveis do Visual Experience Composer
+seo-title: Aplicativo para dispositivos móveis no Visual Experience Composer
 solution: Target
-title: Aplicativo para dispositivos móveis do Visual Experience Composer
+title: Aplicativo para dispositivos móveis no Visual Experience Composer
 topic: Padrão
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
+source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
 ---
 
 
-# aplicativo para dispositivos móveis no Visual Experience Composer{#mobile-app-visual-experience-composer}
+# Aplicativo para dispositivos móveis no Visual Experience Composer{#mobile-app-visual-experience-composer}
 
 O Visual Experience Composer (VEC) para aplicativos móveis nativos permite criar atividades e personalizar o conteúdo de maneira autônoma, sem dependências de desenvolvimento contínuas e ciclos de lançamento de aplicativos.
 
@@ -100,7 +100,7 @@ Considere um aplicativo de compras de flores como exemplo. O aplicativo permite 
 
 Neste aplicativo, cada uma dessas tarefas pode ser realizada em uma tela diferente do aplicativo para dispositivos móveis. Enquanto os usuários navegam pelo aplicativo, uma tela é renderizada que permite a eles realizar uma das tarefas a seguir. Se você é um desenvolvedor Android, estará mais propenso a criar quatro Classes de atividade do Android diferentes com cada classe associada a uma dessas tarefas.
 
-Nesse caso, cada uma dessas tarefas pode ser considerada como Exibições pelas quais o seu aplicativo para dispositivos móveis transita. Nos referiremos a elas como Exibições do Target - cada uma caracterizada exclusivamente. Uma Exibição do Target, ou Exibição em síntese, é um contâiner lógico de elementos visuais que são exibidos na tela dos dispositivos móveis. Exemplos de uma Exibição são uma tela ou uma Classe de atividade do Android.
+Nesse caso, cada uma dessas tarefas pode ser considerada como Exibições pelas quais o seu aplicativo para dispositivos móveis transita. Nos referiremos a elas como Exibições do Target - cada uma caracterizada exclusivamente. Uma Exibição do Target, ou Exibição em síntese, é um contêiner lógico de elementos visuais que são exibidos na tela dos dispositivos móveis. Exemplos de uma Exibição são uma tela ou uma Classe de atividade do Android.
 
 Aplicativos para dispositivos móveis raramente são tão simples. Vamos torná-lo um pouco mais realista. Na primeira tarefa, a que lista as flores e buquês disponíveis, vamos adicionar a capacidade de criar vários layouts e, portanto, telas diferentes. Por exemplo, vamos adicionar um recurso de "Classificar por" que tenha três opções:
 
@@ -191,30 +191,6 @@ Sua conexão com a Internet deve ter caído. Reinicie o aplicativo após a Inter
 **O VEC para aplicativos móveis não está sincronizado com o meu aplicativo móvel.**
 
 Clique no botão [!UICONTROL Atualizar] no VEC para sincronizar a exibição.
-
-**Recebi um erro informando que meu valor "context. application. id" contém caracteres proibidos. Quais caracteres são permitidos em IDs de aplicativos móveis?**
-
-Os caracteres permitidos em IDs de aplicativo móvel incluem:
-
-| Caracteres permitidos | Descrição |
-| --- | --- |
-| Cartas |  |
-| Números |  |
-| `-` | Hífen |
-| `.` | Ponto |
-| `,` | Vírgula |
-| `:` | Dois-pontos |
-| `#` | Sinal numérico |
-| `(` | parêntese de abertura |
-| `)` | Parêntese de fechamento |
-| `&` | Ampersand |
-| `+` | Sinal de mais |
-
-Usando um caractere não permitido, por exemplo, um apóstrofe ( `'` ) faz com que você receba a seguinte mensagem de erro:
-
-```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
-```
 
 ## Limitações conhecidas {#limitations}
 
