@@ -8,7 +8,7 @@ title: Parâmetros personalizados
 topic: Padrão
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Personalizada]**.
 
    Para selecionar o parâmetro desejado:
 
@@ -40,7 +40,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
    * Igual
    ![Público-alvo personalizado do parâmetro](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
-1. Insira cada valor em uma nova linha.
+1. Inserir cada valor em uma nova linha.
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -49,6 +49,10 @@ O [cartão pop-up dos detalhes de definição](../../../c-target/c-audiences/aud
 >[!NOTE]
 >
 >Para público-alvo personalizados criados antes do lançamento do Target 18.5.1 (22 de maio de 2018), os nomes de mbox não serão exibidos no cartão pop-up de definição do público-alvo. Você deve salvar novamente o público-alvo personalizado para obter o nome da mbox a ser exibido no cartão.
+
+## Considerações {#considerations}
+
+* Os públicos-alvo e as atividades são avaliados para uma mbox específica. Se a mbox global passar um certo parâmetro, mas a mbox regional não for, o visitante não se qualificará para essa atividade.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
