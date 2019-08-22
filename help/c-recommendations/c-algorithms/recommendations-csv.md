@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -72,7 +72,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
    >
    >As entidades com critérios personalizados (linhas) podem conter até 1.000 itens recomendados (colunas).
 
-As atualizações de critérios personalizados são "cumulativas" por padrão. Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valor-chave existentes que não têm chaves especificadas no upload CSV ainda estarão disponíveis para entrega.
+As atualizações de critérios personalizados são "cumulativas" por padrão. Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valores chave existentes que não têm teclas especificadas no carregamento CSV ainda estarão disponíveis para entrega e expirarão em 31 dias a partir do momento em que forem carregados pela última vez como parte do arquivo CSV.
 
 Entre em contato com o Atendimento ao Cliente para habilitar a configuração para descartar os resultados existentes que não estão inclusos upload CSV. Se essa configuração estiver habilitada, somente as chaves presentes no arquivo de feed CSV personalizado estarão disponíveis para entrega. Essa configuração se aplica a todos os critérios personalizados.
 
