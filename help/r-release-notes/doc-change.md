@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dcfc016a703ac964876629b353c68a2cd8351ca5
+source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 22 de agosto de 2019 | [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Remoção de informações sobre o uso de caracteres proibidos em IDs de aplicativos móveis. Não há mais restrições. |
 | 20 de agosto de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adiou a versão Target/Premium 19.8.1 (20 de agosto de 20 19). O conteúdo desta versão será colocado na versão 19.9.1 (24 de setembro de 24 19). |
 |  | [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md) | Adicionadas as seguintes perguntas frequentes: " O preço do item recomendado não exibe os dois valores à direita do ponto decimal. Como posso exibi-los? " |
 | 16 de agosto de 2019 | [Sincronização de perfil em tempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Nova seção adicionada: " Considerações ". |
