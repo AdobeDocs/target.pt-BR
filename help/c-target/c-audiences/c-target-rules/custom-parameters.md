@@ -2,13 +2,13 @@
 description: Os parâmetros personalizados são parâmetros de mbox. Se você passar algum parâmetro de mbox para mboxes, ou usar a função targetPageParams, esses parâmetros aparecerão aqui para uso em públicos-alvo.
 keywords: parâmetros personalizados, parâmetros personalizados do target, targetpageparams, parâmetros mbox de segmentação
 seo-description: Os parâmetros personalizados são parâmetros de mbox. Se você passar algum parâmetro de mbox para mboxes, ou usar a função targetPageParams, esses parâmetros aparecerão aqui para uso em públicos-alvo.
-seo-title: Parâmetros personalizados
+seo-title: Parâmetros personalizados no Adobe Target
 solution: Target
 title: Parâmetros personalizados
 topic: Padrão
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -52,7 +52,7 @@ O [cartão pop-up dos detalhes de definição](../../../c-target/c-audiences/aud
 
 ## Considerações {#considerations}
 
-* Os públicos-alvo e as atividades são avaliados para uma mbox específica. Se a mbox global passar um certo parâmetro, mas a mbox regional não for, o visitante não se qualificará para essa atividade.
+* Os públicos-alvo e as atividades são avaliados para uma mbox específica. Por exemplo, se a mbox global passar um certo parâmetro, mas a mbox regional não, a definição de metas de atividade/público-alvo não será qualificada para a mbox regional.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
