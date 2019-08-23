@@ -1,15 +1,15 @@
 ---
 description: Os tokens de resposta permitem gerar automaticamente informações específicas do Target (detalhes da campanha, informações de perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou na integração com sistemas de terceiros (como o Clicktale)
-keywords: tokens de resposta; tokens; plugins; plug-ins
+keywords: tokens de resposta; tokens; plugins; plug-ins;at.js
 seo-description: Os tokens de resposta permitem gerar automaticamente informações específicas do Target (detalhes da campanha, informações de perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou na integração com sistemas de terceiros (como o Clicktale)
-seo-title: Tokens de resposta
+seo-title: Tokens de resposta no Adobe Target
 solution: Target
 subtopic: Introdução
 title: Tokens de resposta
 topic: Padrão
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
@@ -282,12 +282,8 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 </script>
 ```
 
->[!NOTE]
->
->O plug-in ttmeta não é mais suportado. For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
-
 ## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Assista ao vídeo a seguir para saber como usar Tokens de resposta e Eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
+Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados do at. js para compartilhar informações de perfil do Target a sistemas de terceiros.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=por_br)
