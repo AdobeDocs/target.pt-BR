@@ -2,9 +2,9 @@
 product: target
 audience: usuário final
 user-guide-title: Ajuda do Adobe Target
-user-guide-url: /content/help/pt/target/using/target-home.html
+user-guide-url: /content/help/pt-BR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
    + [Notas de versão do Target (atual)](r-release-notes/release-notes.md)
    + [Notas de versão do Target (pré-lançamento)](r-release-notes/target-release-notes.md)
    + [Problemas conhecidos e problemas resolvidos](r-release-notes/known-issues-resolved-issues.md)
-   + [Atualizações de status do sistema e notificações ativas](r-release-notes/system-status-updates.md)
+   + [Atualizações do status do sistema e notificações proativas](r-release-notes/system-status-updates.md)
    + [Alterações de documentação](r-release-notes/doc-change.md)
    + [Notas de versão para versões anteriores](r-release-notes/release-notes-for-previous-releases.md)
 + Introdução {#introduction}
@@ -43,7 +43,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Permissões de usuário empresarial](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuração de permissões empresariais](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Conceder acesso a espaços de trabalho à Adobe I/O e atribuir funções](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Integração do Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Integração com o Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Tokens de resposta](administrating-target/response-tokens.md)
 + Implementar o Target {#implement-target}
@@ -55,7 +55,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Visão geral de privacidade](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Normas de privacidade e proteção de dados](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Excluir o cookie do Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Políticas de cookie do Google Chrome para samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Políticas de cookies do Google Chrome para SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
       + Métodos para colocar os dados no Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -90,16 +90,16 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [Sendnotifications () - at. js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Depuração da at.js usando o depurador da Adobe Experience Cloud](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Usar instâncias baseadas em nuvem com o Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
-      + Perguntas frequentes do at.js {#faq-at-js}
+      + Perguntas frequentes sobre at.js {#faq-at-js}
          + [Perguntas frequentes do at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [Perguntas frequentes sobre a Mbox global](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [Detalhes da versão da at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
       + [Atualização da at.js 1.x para at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
-      + [cookies do at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+      + [Cookies do at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + Implementação da mbox.js {#mbox-implement}
          + [Visão geral da implementação do mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + Migração da mbox.js para at.js {#migrate-mbox}
@@ -131,8 +131,8 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Enviar informações de atividade para o Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Visualização do Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Buscar previamente conteúdo da oferta](c-target-mobile-app/prefetch-offer-content.md)
-      + aplicativo para dispositivos móveis no Visual Experience Composer {#composer}
-         + [aplicativo para dispositivos móveis no Visual Experience Composer](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
+      + Aplicativo para dispositivos móveis no Visual Experience Composer {#composer}
+         + [Aplicativo para dispositivos móveis no Visual Experience Composer](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
          + [Android - Configuração do aplicativo móvel](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - Configuração do aplicativo móvel](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configurar um rastreamento de cliques no VEC do Mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
@@ -163,7 +163,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [Aumento e Confiança - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [Definições de métricas - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
-         + [Contagem aumentada de visitas e visitantes - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
+         + [Contagens aumentadas de visitas e visitantes - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Classificações - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Integração herdada do SiteCatalyst com o Test&amp;Target - Perguntas frequentes do A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
@@ -185,7 +185,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Metas e Configurações](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Uso de dados do Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Vários públicos-alvo de experiência em um teste A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Vários públicos-alvo de uma experiência em um Teste A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Alocação automática {#auto-allocate}
       + [Alocação automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determinar um vencedor](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -196,11 +196,11 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Criar uma atividade de Automated Personalization](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Carregar dados para os algoritmos de personalização do Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Coleta de dados para os algoritmos de personalização do Target](c-activities/t-automated-personalization/ap-data.md)
-      + [Estime o tráfego exigido para o sucesso](c-activities/t-automated-personalization/ap-traffic-estimator.md)
+      + [Estimativa de tráfego exigido para o sucesso](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Experiências de visualização para um teste de personalização automatizado](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Ofertas de Personalização automatizada do Target](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gerenciar exclusões](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Selecione o controle da atividade de Personalização automatizada ou do Target automático](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Selecione o controle da atividade de Personalização automatizada ou Direcionamento automático](c-activities/t-automated-personalization/experience-as-control.md)
       + [Perguntas frequentes sobre a personalização automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Compartilhar URLs de experiências para visualização de Automated Personalization fora do Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Solução de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
@@ -210,7 +210,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Crie uma atividade](c-activities/t-experience-target/t-xt-create/xt-create.md)
          + [URL da atividade](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [Crie uma experiência](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [Alternando experiência no Direcionamento de experiência](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Troca de experiências no Direcionamento de experiência](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [Metas e configurações](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Definir métricas](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Teste multivariado {#multivariate-test}
@@ -274,7 +274,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Atributos do perfil](c-target/c-visitor-profile/profile-parameters.md)
       + [Afinidade de categorias](c-target/c-visitor-profile/category-affinity.md)
       + [Atributos do cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Sincronização de perfil em tempo real para mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Sincronização de perfil em tempo real para mbox 3 rdpartyid](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossário de variáveis e perfis](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Perguntas frequentes sobre direcionamentos e públicos {#faq-audiences}
       + [Perguntas frequentes sobre direcionamentos e públicos](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -299,7 +299,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Solução de problemas do Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Solução de problemas do Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Ativar conteúdo misto no navegador](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
-         + [Cenários de modificação da página.](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [Cenários de modificação da página](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Extensão de assistente do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redirecionar para um URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Criação de carrosséis aceitos pelo Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
