@@ -1,6 +1,6 @@
 ---
 description: O diagrama de sistema do Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
-keywords: diagrama do sistema; cintilação; Target Standard; at.js; implementação
+keywords: diagrama do sistema; cintilação; Target Standard; at.js; implementação; biblioteca javascript; js
 seo-description: O diagrama de sistema do Adobe Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
 seo-title: Funcionamento do Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Como a at.js funciona
 topic: Padrão
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -45,7 +45,7 @@ Os diagramas a seguir ajudam a entender o fluxo de trabalho da at.js 2.x com Exi
 | Etapa | Detalhes |
 | --- | --- |
 | 1 | A chamada retorna o [!DNL Experience Cloud ID] caso o usuário seja autenticado; outra chamada sincroniza a ID do cliente. |
-| 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>O at. js também pode ser carregado de forma assíncrona com um trecho de pré-ocultação opcional implementado na página. |
+| 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>O at.js também pode ser carregado de forma assíncrona com uma opção que oculta previamente o trecho implementado na página. |
 | 3 | Uma solicitação de carregamento de página é feita, incluindo todos os parâmetros configurados (MCID, SDID e ID do cliente). |
 | 4 | Os scripts de perfil executam e, em seguida, fazem o feed na Loja do perfil. A Loja solicita que os públicos-alvos qualificados da Biblioteca de público-alvos (por exemplo, públicos alvos compartilhados do Adobe Analytics, Gerenciamento de público-alvo etc.).<br>Os atributos do cliente são enviados à Loja de perfis em um processo em lote. |
 | 5 | Com base nos parâmetros de solicitação de URL e dados de perfil, [!DNL Target] decide quais atividades e experiências retornarão ao visitante para a página atual e para as exibições futuras. |
@@ -53,7 +53,7 @@ Os diagramas a seguir ajudam a entender o fluxo de trabalho da at.js 2.x com Exi
 | 7 | Os dados do Analytics são enviados ao servidores de Coleção de dados. |
 | 8 | Os dados direcionados correspondem aos dados do Analytics por meio da SDID e são processados no armazenamento de relatórios do Analytics.<br>Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do Analytics for Target (A4T). |
 
-Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibições e as ações são recuperadas do cache e mostradas ao usuário sem uma chamada de servidor. `triggerView()` também faz uma solicitação de notificações ao backend [!DNL Target] para aumentar e registrar contagens de impressão. Para obter mais informações sobre o at.js para SPAS com Exibições, consulte [Implementação de aplicativos de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibições e as ações são recuperadas do cache e mostradas ao usuário, sem uma chamada de servidor. `triggerView()` também faz uma solicitação de notificações ao backend [!DNL Target] para aumentar e registrar contagens de impressão. Para obter mais informações sobre o at.js para SPAS com Exibições, consulte [Implementação de aplicativos de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Fluxo do Target com a at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
@@ -68,7 +68,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 ## diagrama do at.js 1.x
 
-![](assets/target-flow.png)
+![Fluxo do Target - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Etapa | Descrição | Chama | Descrição |
 |--- |--- |--- |--- |
