@@ -1,14 +1,14 @@
 ---
 description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
-keywords: qa, visualização, links de visualização, móvel, visualização móvel
+keywords: qa; visualização; link de visualização; dispositivos móveis; visualização móvel
 seo-description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
-seo-title: Visualização do Target Mobile
+seo-title: Uso do link de visualização móvel no Adobe Target Mobile
 solution: Target
 title: Visualização do Target Mobile
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ Use o link de visualização móvel para realizar facilmente tarefas completas d
 
 >[!NOTE]
 >
->Esta função será ativada na interface do usuário para todos os clientes após 12 de outubro de 2017. O recurso de visualização móvel exige que você baixe e instale a versão 4.14 (ou posterior) apropriada do SDK do Adobe Mobile.
+>O recurso de visualização móvel exige que você baixe e instale a versão 4.14 (ou posterior) apropriada do SDK do Adobe Mobile.
 
 ## Visão geral {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ A funcionalidade visualização móvel permite que você teste completamente sua
    Para fazer a visualização móvel funcionar no Android, você também deve adicionar o seguinte fragmento de código em [!DNL AndroidManifest.xml]:
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## Gerar um link de visualização {#section_D9D58173FFF34E9BB75EBF357273F128}
