@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
@@ -21,6 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 23 de agosto de 2019 | [Visualização do Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Atualização do snippet de código.`AndroidManifest.xml` |
+|  | [plug-ins do at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | Atualização da linha ttmeta. Esse plug-in não é mais suportado. Em vez disso, use tokens de resposta. |
 | 22 de agosto de 2019 | [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Remoção de informações sobre o uso de caracteres proibidos em IDs de aplicativos móveis. Não há mais restrições. |
 |  | [Parâmetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Nova seção adicionada: " Considerações ". |
 |  | [Upload dos critérios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | A seguinte frase foi atualizada: As atualizações de critérios personalizados são por padrão "cumulativo". Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valores chave existentes que não têm teclas especificadas no carregamento CSV ainda estarão disponíveis para entrega e expirarão em 31 dias a partir do momento em que forem carregados pela última vez como parte do arquivo CSV. |
