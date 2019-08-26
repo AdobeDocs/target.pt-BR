@@ -1,14 +1,14 @@
 ---
 description: Criar uma lista de exclusão para impedir que itens sejam recomendados.
 keywords: exclusões
-seo-description: Criar uma lista de exclusão para impedir que itens sejam recomendados.
-seo-title: Exclusões
+seo-description: Crie uma lista de exclusão no Adobe Target para impedir que itens sejam recomendados.
+seo-title: Exclusões no Adobe Target
 solution: Target
 title: Exclusões
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 ---
 
@@ -21,11 +21,13 @@ Criar uma lista de exclusão para impedir que itens sejam recomendados.
 >
 >As regras de exclusão estáticas e dinâmicas são recursos poderosos que podem ajudá-lo com seus esforços de marketing. Para obter informações detalhadas, exemplos e cenários de caso de uso, consulte [Usar as regras de inclusão estática e dinâmica](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
+**Para criar uma exclusão:**
+
 1. Clique em **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Exclusões]** para exibir a lista de exclusões existentes.
 
-   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para alterar o grupo de hosts padrão.
-
    ![](assets/exclusions_list.png)
+
+   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Criar exclusão]**.
 
@@ -41,7 +43,13 @@ Criar uma lista de exclusão para impedir que itens sejam recomendados.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-   Você também pode criar exclusões usando Pesquisa avançada na página Pesquisa no catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Pesquisa no catálogo] &gt; [!UICONTROL Pesquisa avançada]). Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Exclusão].
+## Criar uma exclusão usando a Pesquisa avançada
+
+Você também pode criar exclusões usando Pesquisa avançada na página Pesquisa no catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Pesquisa no catálogo] &gt; [!UICONTROL Pesquisa avançada]).
+
+[Salvar como](/help/c-recommendations/c-products/assets/save-as.png)
+
+Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Exclusão]. Para obter mais informações, consulte [Pesquisa de catálogo](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
