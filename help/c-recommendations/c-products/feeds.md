@@ -1,7 +1,7 @@
 ---
 description: Use os feeds para importar entidades no Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
-keywords: feed do recommendations, feed, SAINT, ftp, csv
-seo-description: Use os feeds para importar entidades no Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
+keywords: feed do recommendations, feed, SAINT, ftp, csv; classificações; classificações de análise
+seo-description: Use feeds para obter entidades importadas para o Adobe Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
 seo-title: Feeds
 solution: Target
 title: Feeds
@@ -10,30 +10,35 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
+source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}
 
-Use os feeds para importar entidades no Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
+Use os feeds para importar entidades no [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produto do Adobe Analytics.
 
 ## Visão geral dos feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Use os feeds para importar entidades no Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
+Os feeds permitem passar [Entidades](/help/c-recommendations/c-products/products.md) ou aumentar seus dados de mbox com informações que ou não estão disponíveis na página, ou não são seguras para serem enviadas diretamente da página, como margem, COGS e outros.
 
-Os feeds permitem passar [Entidades](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062) ou aumentar seus dados de mbox com informações que ou não estão disponíveis na página, ou não são seguras para serem enviadas diretamente da página, como margem, COGS e outros.
-
-Você pode escolher quais colunas do seu arquivo de classificações do produto Adobe Target ou do arquivo do Google Product Search você deseja enviar para o servidor [!DNL Recommendations]. Estes dados sobre cada item podem ser usados na exibição de modelos e para controlar recomendações.
+You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. Estes dados sobre cada item podem ser usados na exibição de modelos e para controlar recomendações.
 
 Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
 
-A lista [!UICONTROL Feeds] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados. Para editar o nome de um feed, edite o próprio feed. Ao salvar com o novo nome, o feed é atualizado.
+A lista [!UICONTROL Feeds] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
 
->[!NOTE]
->
->Se o feed [!UICONTROL Última atualização] exibir "indefinido", ele será da [!DNL Recommendations Classic] e não poderá ser alterado dentro de [!DNL Target Premium Recommendations].
+![Página de feeds](/help/c-recommendations/c-products/assets/feeds-page.png)
+
+A página Feeds contém as seguintes colunas:
+
+* **Nome**: O nome do feed especificado durante a criação. Para editar o nome de um feed, edite o próprio feed. Ao salvar com o novo nome, o feed é atualizado.
+* **Tipo**: Os tipos incluem [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Feed de produtos do Google](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)e Classificações [do Analytics](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **Status**: O status atual [do feed](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Agendamento**: Exibe o cronograma de atualização do feed: Diariamente, Semanalmente, A Cada 2 Semanas ou Nunca.
+* **Itens**: Exibe o número de itens no feed.
+* **Última atualização**: Exibe a data e a hora em que o feed foi atualizado pela última vez e o nome da pessoa que atualizou o feed. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -47,11 +52,11 @@ Usar o formato .csv tem as seguintes vantagens em relação ao formato do Google
 
 Use o método de carregamento em massa para enviar informações de exibição se você não possuir mboxes na sua página, ou se desejar complementar suas informações de exibição com itens que não estão disponíveis no seu site. Por exemplo, talvez você queira enviar informações sobre o inventário que podem não estar publicadas no seu site.
 
-Qualquer dado carregado por meio do arquivo [!DNL .csv], feed de produto do Google ou feed de classificação de produto do Analytics substitui o valor do atributo da entidade existente no nosso banco de dados. Se você enviar informações de preço via solicitações de mbox e depois enviar valores de preço diferentes no arquivo, os valores no arquivo substituem os valores enviados na solicitação de mbox. Uma exceção a essa regra é o atributo de entidade `categoryId` no qual os valores de categoria são anexados em vez de substituídos até o limite de 250 caracteres.
+Qualquer dado carregado por meio do arquivo .csv, feed de produto do Google ou feed de classificação de produto do Analytics substitui o valor do atributo da entidade existente no nosso banco de dados. Se você enviar informações de preço via solicitações de mbox e depois enviar valores de preço diferentes no arquivo, os valores no arquivo substituem os valores enviados na solicitação de mbox. Uma exceção a essa regra é o atributo de entidade `categoryId` no qual os valores de categoria são anexados em vez de substituídos até o limite de 250 caracteres.
 
 >[!IMPORTANT]
 >
->Não coloque os valores em aspas duplas ( " ) no seu arquivo [!DNL .csv], a menos que seja intencional. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
+>Não inclua valores entre aspas duplas (") no arquivo. csv, a menos que eles sejam intencionais. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. Aspas duplas que não são evitadas impedem o carregamento correto do feed do Recomendações.
 
 Por exemplo, a sintaxe a seguir está incorreta:
 
@@ -87,11 +92,9 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
->[!IMPORTANT]
->
->O tipo de feed de pesquisa do produto do Google usa o formato do Google. Isso é diferente do formato de upload CSV do proprietário do Adobe.
+O tipo de feed de pesquisa do produto do Google usa o formato do Google. Isso é diferente do formato de upload CSV do proprietário do Adobe.
 
-Se você tiver um produto do feed do Google existente, então pode usar isso como seu arquivo de importação.
+Se você tiver um feed de produtos do Google existente, poderá usá-lo como seu arquivo de importação.
 
 >[!NOTE]
 >
@@ -188,45 +191,47 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Classificações do produto Analytics {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto Analytics é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Classificações](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) no guia *Ajuda e Referência do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto Analytics é a única classificação disponível para recomendações. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
 >Antes de importar os dados de entidade no Recommendations usando as classificações de produto do Analytics, esteja ciente de que esse não é o método preferido.
+>
 > Esteja ciente dos seguintes avisos:
 >* As atualizações para os atributos da entidade têm um atraso adicional de até 24 horas.
->* O Target suporta somente as classificações do produto. O SKU do produto Analytics deve mapear no mesmo nível que a entity.id de Recommendations. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
+>* O Target suporta somente as classificações do produto. O SKU do produto Analytics deve mapear no mesmo nível que a `entity.id` de Recomendações. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
 
 
 ## Criar feed {#steps}
 
 Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL Recommendations].
 
-<!-- 
-
-recs/t_feeds_create.xml
-
- -->
-
 1. Na interface do Target, clique em **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Feeds]** &gt; **[!UICONTROL Criar feed]**.
 
-   ![Resultado da etapa](assets/CreateFeed.png)
+   ![Caixa de diálogo Criar feed](assets/CreateFeed.png)
 
 1. Especifique um nome descritivo para o feed.
 1. Selecione um **[!UICONTROL Tipo de Fonte]**.
 
-   Para obter informações sobre o feed de produto do Google e os tipos de feed de CSV, consulte [Visão geral dos feeds](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890).
-1. Especifique um conjunto de relatórios, ou o URL ou local de FTP, em que o feed possa ser acessado.
+   * CSV
+   * Feed de produtos do Google
+   * Classificações do Analytics
+   Para obter informações sobre os tipos de feed do Feed de produtos CSV e do Google, consulte [Visão geral de feeds](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Também é possível [baixar um guia CSV do modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ajudar você a formatar o feed corretamente.
 
-   Se selecionar o FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório do FTP. Você tem a opção de usar o FTP com SSL (FTPS) para uploads mais seguros.
+1. (Condicional) Se você selecionou **[!UICONTROL o Feed de produtos CSV]** ou **[!UICONTROL Google]**, especifique o local onde o feed pode ser acessado.
 
-   Configurações de servidor FTP suportadas:
+   * **FTP**: Se você tiver selecionado FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório FTP. Você tem a opção de usar o FTP com SSL (FTPS) para uploads mais seguros.
 
-   * FTP e FTPS devem ser definidos para usar FTP passivo.
-   * Para FTPS, configure o servidor para aceitar conexões FTPS explícitas.
-   * O SFTP não é suportado.
-   * Você pode especificar manualmente uma porta na qual iniciar a conexão (por exemplo, ftp://ftp.yoursite.com:2121). Se você não especificar uma porta, a porta FTP ou FTPS padrão será usada.
-   Se selecionar o URL, especifique-o.
+      Configurações de servidor FTP suportadas:
+
+      * FTP e FTPS devem ser definidos para usar FTP passivo.
+      * Para FTPS, configure o servidor para aceitar conexões FTPS explícitas.
+      * O SFTP não é suportado.
+      * Você pode especificar manualmente uma porta na qual iniciar a conexão (por exemplo, `ftp://ftp.yoursite.com:2121`). Se você não especificar uma porta, a porta FTP ou FTPS padrão será usada.
+   * **URL**: Se você selecionar URL, especifique o URL.
+
+
+1. (Condicional) Se você selecionou **[!UICONTROL Classificações do Analytics]**, escolha o conjunto de relatórios na lista suspensa.
 
 1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Agendar.]
 
@@ -237,27 +242,23 @@ recs/t_feeds_create.xml
    * Diariamente
    * Semanalmente
    * A cada 2 semanas
-   * Nunca
-   Não agendar uma atualização. Escolha isso se você não quiser que esse feed seja executado.
+   * Nunca: Não agendar uma atualização. Escolha isso se você não quiser que esse feed seja executado.
 
 1. Especifique o tempo em que deseja que seu feed execute.
 
    Essa opção é baseada no fuso horário usado no seu navegador. Se desejar usar uma hora em um fuso horário diferente, deve calcular esse tempo de acordo com o seu fuso horário.
+
 1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Mapeamento], em seguida, especifique como deseja mapear seus dados para as definições do [!DNL Target].
 
    ![Resultado da etapa](assets/CreatFeedMapping.png)
 
 1. (Opcional) se você deseja que o feed pertença a um ambiente (grupo de hosts), selecione o grupo de hosts.
 
-   Por padrão, o feed pertence a todos os grupos de hosts. Isso garante que esses itens neste feed estejam disponíveis em qualquer ambiente.
-
-   >[!NOTE]
-   >
-   >Para obter mais informações, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   Por padrão, o feed pertence a todos os grupos de hosts. Isso garante que esses itens neste feed estejam disponíveis em qualquer ambiente. Para obter mais informações, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-Após criar ou editar um feed, ele é executado imediatamente, em seguida, será atualizado de acordo com os parâmetros que você definiu. Demora um tempo até que todas as informações estejam disponíveis. Em primeiro lugar, o feed deve sincronizar, em seguida, ele deve ser processado e indexados antes que possa ser publicado e disponibilizado. O status atual aparece em [Status do feed](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) na lista de Feeds. Você pode fechar o [!DNL Target] antes que o processo esteja completo e o mesmo continuará.
+Após criar ou editar um feed, ele é executado imediatamente, em seguida, será atualizado de acordo com os parâmetros que você definiu. Demora um tempo até que todas as informações estejam disponíveis. Em primeiro lugar, o feed deve sincronizar, em seguida, ele deve ser processado e indexados antes que possa ser publicado e disponibilizado. O status atual aparece em [Status do feed](/help/c-recommendations/c-products/feeds.md#status) na lista de Feeds. Você pode fechar o [!DNL Target] antes que o processo esteja completo e o mesmo continuará.
 
 Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed serão exibidos antes que os valores individuais sejam indexados. Isso permite que você pesquise e visualize os produtos para que possa criar coleções, exclusões, designs e atividades antes da indexação ser concluída.
 
