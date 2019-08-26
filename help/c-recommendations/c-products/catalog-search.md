@@ -1,8 +1,8 @@
 ---
 description: A pesquisa no catálogo ajuda a localizar os produtos ou conteúdo no catálogo.
 keywords: catálogo, pesquisa
-seo-description: A pesquisa no catálogo ajuda a localizar os produtos ou conteúdo no catálogo.
-seo-title: Pesquisa no catálogo
+seo-description: A pesquisa do catálogo no Adobe Target ajuda a localizar os produtos ou conteúdo no catálogo.
+seo-title: Pesquisa no catálogo no Adobe Target
 solution: Target
 title: Pesquisa no catálogo
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 ---
 
@@ -19,19 +19,36 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 A pesquisa no catálogo ajuda a localizar os produtos ou conteúdo no catálogo.
 
+Para acessar a pesquisa de catálogo, clique **[!UICONTROL em Recomendações]** &gt; **[!UICONTROL Pesquisa de catálogo]**.
+
 Você pode refinar a pesquisa selecionando uma opção de pesquisa no menu de opções, que é exibido ao clicar na seta para baixo no campo de pesquisa.
 
 ![](assets/searchproductsmenu.png)
 
+As opções de pesquisa incluem:
+
+* TODAS
+* Nome
+* Marca
+* Categoria
+* ID
+* Mensagem
+
 **[!UICONTROL TODAS]** as pesquisas em todos os outros critérios de pesquisa, usando a lógica OU.
 
-Nos resultados da pesquisa, você pode clicar no filtro de **[Ambiente UICONTROL]** para especificar o ambiente de produção do grupo de hosts cujo catálogo você está exibindo. Você também pode usar a rolagem através dos itens nos resultados da pesquisa para exibir miniaturas e outras informações do produto.
+Nos resultados da pesquisa, você pode clicar no filtro de **[!UICONTROL Ambiente]** para especificar o ambiente de produção do grupo de hosts cujo catálogo você está exibindo. [](/help/administrating-target/hosts.md) Você também pode usar a rolagem através dos itens nos resultados da pesquisa para exibir miniaturas e outras informações do produto.
 
 O número que aparece ao lado de "Produtos" é o número de produtos que combinam com o termo de pesquisa, do total disponível no ambiente especificado.
 
 O catálogo é atualizado automaticamente quando as atualizações são recebidas por meio de arquivos de feed, API ou atualizações de mbox. Normalmente, as atualizações são concluídas em uma hora. Se as atualizações estiverem em andamento, a atualização mais recente é iniciada. Se nenhuma atualização estiver em andamento, o tempo de início da atualização mais recente será exibido.
 
-Você pode criar coleções ou exclusões usando Pesquisa avançada na página Pesquisa no catálogo ([!UICONTROL Recommendations] &gt; [!UICONTROL Pesquisa no catálogo] &gt; [!UICONTROL Pesquisa avançada]). Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Coleção ou Exclusão].
+## Criar uma coleção ou exclusão com base na Pesquisa avançada
+
+You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+
+![Salvar como](/help/c-recommendations/c-products/assets/save-as.png)
+
+Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Coleção ou Exclusão].
 
 >[!IMPORTANT]
 >
