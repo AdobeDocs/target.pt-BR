@@ -8,7 +8,7 @@ title: Solução de problemas do Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -124,9 +124,10 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 * [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md)
 
-## Aplicativo para dispositivos móveis do Visual Experience Composer
+## Aplicativos para dispositivos móveis
 
-* [aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
+* [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
+* [Target para perguntas frequentes sobre aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Relatório
 
@@ -135,7 +136,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Otimização do mecanismo de pesquisa (SEO)
 
-* [Teste amigável da Otimização do mecanismo de pesquisa (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Status do sistema
 
