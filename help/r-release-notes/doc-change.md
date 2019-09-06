@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7020705c25ad2a4f25844ea70985ad9e2199b41f
+source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 6 de setembro de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 19.9.1 (10 de setembro de 20 19). |
 | 4 de setembro de 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
 | 23 de agosto de 2019 | [Visualização do Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Atualização do snippet de código.`AndroidManifest.xml` |
 | 22 de agosto de 2019 | [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Remoção de informações sobre o uso de caracteres proibidos em IDs de aplicativos móveis. Não há mais restrições. |
