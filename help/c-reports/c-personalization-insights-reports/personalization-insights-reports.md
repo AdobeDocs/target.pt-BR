@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
 
 ---
 
@@ -25,6 +25,8 @@ Dois relatórios especializados estão disponíveis para usuários de atividades
 >Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
 >
 >Os relatórios de insights de personalização são suportados somente no [ambiente padrão](../../administrating-target/hosts.md).
+>
+>Os relatórios de Insights de personalização são gerados somente para atividades que estão no status em tempo real e foram ativadas e recebendo tráfego por pelo menos 15 dias.
 
 ## Visão geral dos relatórios de insights de personalização {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -32,7 +34,7 @@ O objetivo dos relatórios de [!UICONTROL insights de personalização] é forne
 
 Como a meta dos relatórios de Insights de personalização é entender como os modelos de personalização do Target decidiram enviar qual visitante para que parte do conteúdo, os relatórios de Insights de personalização refletem apenas um subsegmento de todo o tráfego distribuído pela atividade de AP ou AT. Especificamente, os dois relatórios refletem todo o tráfego que usou o modelo de personalização. Ou seja, os relatórios de Insights de personalização não consideram o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global.
 
-Existem dois relatórios disponíveis em:
+Dois relatórios de Insights de personalização estão disponíveis:
 
 | Relatório | Detalhes |
 |--- |--- |
@@ -60,4 +62,4 @@ O Target fornece muitas maneiras de passar os dados adicionais para o Target, a 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=por_br)
 
-For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Para obter mais informações, consulte [Uso dos Relatórios de insights de personalização no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
