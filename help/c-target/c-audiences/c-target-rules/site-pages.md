@@ -8,7 +8,7 @@ title: Páginas do site
 topic: Padrão
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -25,7 +25,7 @@ Direcione visitantes que estão em uma página específica ou têm um parâmetro
 1. Dê um nome ao público-alvo.
 1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Páginas do site]**.
 
-   ![Público-alvo de páginas do site](assets/target_site_pages.png)
+   ![Público-alvo de Páginas do site](assets/target_site_pages.png)
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
@@ -39,7 +39,7 @@ Direcione visitantes que estão em uma página específica ou têm um parâmetro
 
    * **Mbox:** a mbox para a qual você está definindo metas. Por exemplo, se você quiser contar pedidos com um Pedido total de US$ 100 ou mais, você passaria `orderTotal` como um parâmetro de mbox com esse direcionamento especificado aqui.
    * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar "contém". Por exemplo, "Domínio igual a facebook.com" não aceitará `m.facebook.com` ou `www.facebook.com`. "Domínio conterá facebook.com" aceitará qualquer variante de facebook.com.
-   * **Consulta:** o conteúdo do URL após o primeiro ponto de interrogação (?). Por exemplo, a consulta é mostrada em negrito no seguinte URL de amostra:
+   * **Consulta:** o conteúdo do URL após o primeiro ponto de interrogação (?).
 
       `foo.html?e0a72cb2a2c7`
 
