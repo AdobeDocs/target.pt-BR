@@ -8,7 +8,7 @@ title: Fragmentos de experiência do AEM
 topic: Padrão
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -138,7 +138,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 1. Selecione o fragmento de experiência desejado e clique em **[!UICONTROL Salvar]**.
 1. Termine configurando a atividade.
 
-## Considerações (# considerações)
+## Considerações {#considerations}
 
 * [!DNL Target]No momento, o procura fragmentos de experiência a cada dez minutos. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Observe que a versão "mestre" do fragmento de experiência permanece no AEM. Você não pode editar o fragmento de experiência no [!DNL Target].
