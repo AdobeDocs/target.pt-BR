@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 9 de setembro de 2019 | [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Adicionada a seção «Considerações». |
 | 6 de setembro de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 19.9.1 (10 de setembro de 20 19). |
 |  | [Target para perguntas frequentes sobre aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Novo tópico. |
 | 4 de setembro de 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
