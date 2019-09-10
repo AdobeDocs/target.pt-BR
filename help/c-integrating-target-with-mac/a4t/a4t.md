@@ -9,7 +9,7 @@ title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 topic: Padrão
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -52,6 +52,8 @@ Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 * Quaisquer atividades do Target existentes continuam a usar a coleta de dados do Target e não são afetadas pela habilitação do A4T.
 * Apenas uma métrica baseada em mbox é permitida ao usar o Analytics como fonte de relatórios.
 * Uma chamada de servidor para servidor do Target para o Analytics envia informações de atividade e experiência para o Analytics. Esta integração não resulta em chamadas de servidor adicionais para o Target ou Analytics.
+
+   Em algumas situações, a chamada de classificação do Target para o Analytics pode falhar e as atividades não exibem dados no Analytics. Se isso acontecer, consulte [Solução de problemas da integração do Analytics e do Target (A 4 T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Também é possível [entrar em contato com o Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obter mais assistência.
 
 ## Tipos de atividades suportadas {#section_F487896214BF4803AF78C552EF1669AA}
 
