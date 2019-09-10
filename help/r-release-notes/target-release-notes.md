@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -46,7 +46,7 @@ Para obter instruções passo a passo e mais informações, consulte [Conceder a
 
 | Recurso / Aprimoramento | Descrição |
 | --- | --- |
-| ![Selo Premium](/help/assets/premium.png) Permissões Enterprise | Com a versão futura do Target setembro de 2019, as Permissões Enterprise fornecem aos clientes os seguintes controles de acesso:<UL><li>É possível escolher as áreas de trabalho para as quais a integração pode ser aplicada.</li><li>Você pode aplicar uma função à integração da Adobe I/O: Aprovador, Editor ou Observador.</li></ul>Para obter instruções passo a passo e mais informações, consulte [Conceder acesso a integrações de E/S da Adobe a espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Selo Premium](/help/assets/premium.png) Permissões Enterprise | Com a versão de setembro de 2019, as Permissões Enterprise fornecem aos clientes os seguintes controles de acesso:<UL><li>É possível escolher as áreas de trabalho para as quais a integração pode ser aplicada.</li><li>Você pode aplicar uma função à integração da Adobe I/O: Aprovador, Editor ou Observador.</li></ul>Para obter instruções passo a passo e mais informações, consulte [Conceder acesso a integrações de E/S da Adobe a espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Target Standard/Premium 19.9.2 (24 de setembro de 2019)
 
