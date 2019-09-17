@@ -8,7 +8,7 @@ title: Índice de conversão
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -107,7 +107,7 @@ O *intervalo de confiança* é uma faixa dentro da qual o valor real pode ser en
 
 O [download do relatório de CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
-Para calcular essas métricas, baixe o arquivo em Excel [Calculadora de confiança completa do Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para inserir o valor da atividade ou analisar os [cálculos estatísticos usados pelo Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
