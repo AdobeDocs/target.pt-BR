@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
 
 ---
 
@@ -21,23 +21,23 @@ Lista de perguntas frequentes sobre as atividades do Recommendations.
 
 ## Quanto tempo leva para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?
 
-Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou mbox, as seguintes alterações serão refletidas em menos de 60 minutos:
+Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou da mbox, as seguintes alterações serão refletidas em menos de 60 minutos:
 
 * Atributos de item retornados no modelo de Design.
 * Atributos de item usados em regras de exclusão globais que impedem a inclusão do item em recomendações retornadas.
 * Atributos de item usados nas regras de inclusão dentro dos critérios que afetam se o item está incluído ou excluído em recomendações retornadas.
 
-As seguintes alterações não são refletidas até que ocorra a execução do próximo algoritmo (dentro de 12-24 horas):
+As seguintes alterações não são refletidas até que ocorra a execução do próximo algoritmo (dentro de 12 a 24 horas):
 
-* Atributos de item usados nas regras de coleta usadas para a atividade.
-* Atributos de item usados em uma promoção com base em um atributo ou coleção associada à atividade.
-* Categoria Item que o item aparece para uma "Categoria atual" ou "Categoria favorita" no algoritmo Mais vendidos ou Mais Visualizados.
-* A classificação dos itens recomendados quando o atributo mudou é um atributo personalizado usado como a chave personalizada para um algoritmo.
-* Classificação dos itens recomendados com base nos atributos alterados quando a lógica de recomendação é "Itens com atributos semelhantes", quando os fatores de ponderação "Similaridade de conteúdo" são usados ou quando "Ponderação de atributos" são usados.
+* Atributos de item usados nas regras de Coleção usadas para a atividade.
+* Atributos de item usados em uma promoção baseada em um atributo ou coleção associada à atividade.
+* Categoria do item na qual o item aparece para uma "Categoria atual" ou "Categoria favorita" no algoritmo Mais vendidos ou Mais visualizados.
+* Classificação dos itens recomendados quando o atributo mudou é um atributo personalizado usado como chave personalizada para um algoritmo.
+* Classificação dos itens recomendados com base nos atributos alterados quando a lógica de recomendação é "Itens com atributos semelhantes", quando os fatores de ponderação de "Similaridade de conteúdo" são usados ou quando os fatores "Ponderação de atributos" são usados.
 
 >[!NOTE]
 >
->Um arquivo de feed é considerado importado quando seu status muda de «Importar itens» para «Preparando atualizações de índice de pesquisa». As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário de pesquisa do catálogo; A pesquisa do catálogo é atualizada quando o status do feed muda para "Atualizações concluídas". Mesmo que a pesquisa do catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo de atualização de índice de pesquisa do catálogo mais recente é exibido na página Pesquisa de catálogo.
+>Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo; a Pesquisa no catálogo está atualizada quando o status do feed muda para "Atualizações concluídas". Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
 
 ## O que devo fazer se os caracteres especiais estão quebrando a matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -165,10 +165,12 @@ Na sequência de consulta, você pode passar IDs de entidades para as entidades 
 
 Para ativar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro indica uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
 
+A exclusão é executada somente para a chamada Target atual; os itens não são excluídos em chamadas subsequentes do Target, a menos que o `excludedIds` valor seja passado novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o `excludedIds` valor em cada página.
+
 >[!NOTE]
 >
 >Se muitas entidades forem excluídas, as recomendações se comportarão como se não houvesse entidades suficientes para preencher o modelo da recomendação.
 
-Para excluir as `entityIds`, anexe o token `&excludes=${mbox.excludedIds}` no url de conteúdo da oferta. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
+To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
 
 Por padrão, esse recurso é ativado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
