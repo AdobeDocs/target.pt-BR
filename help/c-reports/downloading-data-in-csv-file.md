@@ -1,15 +1,15 @@
 ---
 description: Baixe dados em um formato .csv para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
 keywords: relatórios, baixar relatórios, csv, métrica de sucesso, detalhes do pedido
-seo-description: Baixe dados em um formato .csv para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
-seo-title: Fazendo download de dados em um arquivo CSV
+seo-description: Baixe dados em um formato .csv para importação rápida para Excel, Access ou outros programas de análise de dados usando o Adobe Target.
+seo-title: Download de dados em um arquivo CSV usando o Adobe Target
 solution: Target
 subtopic: Teste multivariado
-title: Fazendo download de dados em um arquivo CSV
+title: Download de dados em um arquivo CSV
 topic: Padrão
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ Baixe dados em um formato .csv para permitir uma importação rápida para Excel
 
 Download de dados em um arquivo CSV:
 
-1. Clique em [!DNL Activities] e depois clique na atividade desejada na lista.
+1. Clique em **[!UICONTROL Atividades]** e depois clique na atividade desejada na lista.
 
    Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Fonte de geração de relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica] e [!UICONTROL Fonte da atividade].
 
 1. Clique na guia **[!UICONTROL Relatórios].**
-1. Clique no ícone [!UICONTROL Download] e depois selecione um tipo de relatório para baixar para análise em Excel e outras ferramentas.
+1. Clique no ícone **[!UICONTROL Download]e depois selecione um tipo de relatório para baixar para análise em Excel e outras ferramentas.**
+
+   * [!UICONTROL Exportar relatórios para CSV]
+   * [!UICONTROL Exportar detalhes do pedido para CSV]
+   ![Opções de download](/help/c-reports/assets/download-options.png)
 
 ## Exportar relatório para CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ Os dados são salvos até o final da atividade.
 
 >[!NOTE]
 >
->O relatório de CSV inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B. Para calcular essas métricas, baixe o arquivo em Excel [Calculadora de confiança completa do Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) para inserir o valor da atividade ou analisar os [cálculos estatísticos usados pelo Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+>O relatório CSV inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, incentivo ou confiança usados para testes A/B. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportar detalhes do pedido para CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -81,7 +85,7 @@ O relatório Detalhes do pedido (conhecido como relatório de Auditoria no [!DNL
 
 As seguintes informações se aplicam à opção Download:
 
-* Você pode baixar ambos os relatórios para atividades A/B, Personalização automatizada, Direcionamento de experiência e atividades multivariadas. Você não pode baixar o relatório de Métricas de sucesso para atividades do Recommendation.
+* Você pode baixar ambos os relatórios para o teste A/B, personalização automatizada, direcionamento de experiência e atividades multivariadas. Você não pode baixar o relatório de Métricas de sucesso para atividades do Recommendation.
 * A opção de download não está disponível para as atividades A/B e de Direcionamento de experiência criadas antes da versão 15.7.1 do Target (julho de 2015).
 * Experiências sem dados associados não são registradas no relatório baixado.
-* Os públicos-alvo aplicados na interface do usuário do Target não continuam para o relatório de download.
+* Os públicos aplicados na interface do Target não são transferidos para o relatório de download.
