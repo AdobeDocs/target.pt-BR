@@ -1,14 +1,14 @@
 ---
 description: Você pode excluir valores extremos em relatórios afetados para que alguns pedidos incomuns não afetem os resultados de suas atividades. Um exemplo de um pedido incomum pode ser um técnico comprando uniformes para um time inteiro em vez de compradores individuais comprando uniformes individuais.
 keywords: Target, relatórios, configurações de relatório, pedidos extremos, valores extremos
-seo-description: Você pode excluir valores extremos em relatórios afetados para que alguns pedidos incomuns não afetem os resultados de suas atividades. Um exemplo de um pedido incomum pode ser um técnico comprando uniformes para um time inteiro em vez de compradores individuais comprando uniformes individuais.
-seo-title: Excluir valores extremos
+seo-description: Você pode excluir valores extremos de afetar relatórios no Adobe Target para que alguns pedidos incomuns não afetem os resultados da atividade. Um exemplo de um pedido incomum pode ser um técnico comprando uniformes para um time inteiro em vez de compradores individuais comprando uniformes individuais.
+seo-title: Excluir valores extremos nos relatórios do Adobe Target
 solution: Target
 title: Excluir valores extremos
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ Quando um valor é marcado como extremo, seu valor de pedido é substituído com
 **Para excluir os valores extremos dos seus relatórios:**
 
 1. Abra uma atividade que inclua métricas do tipo receita ou envolvimento e clique na guia **[!UICONTROL Relatórios.]**
-1. Clique no ícone de engrenagem para exibir as opções de [!UICONTROL Configurações do relatório.]
+1. Clique no ícone de engrenagem.
+
+   ![Configurações do relatório](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   A caixa de diálogo de opções de Configurações [!UICONTROL de] relatório é exibida.
 
    ![Resultado da etapa](assets/exclude_extreme_values.png)
 
 1. Alterne a opção **[!UICONTROL Excluir valores extremos]** para ligada ou desligada, como desejar.
-1. Clique em **[!UICONTROL Salvar configurações]**.
+1. Clique em **[!UICONTROL Salvar]**.
