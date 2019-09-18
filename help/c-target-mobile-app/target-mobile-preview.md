@@ -1,14 +1,14 @@
 ---
 description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
-keywords: qa; visualização; link de visualização; dispositivos móveis; visualização móvel
+keywords: qa;visualização;link de visualização;móvel;visualização móvel
 seo-description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
-seo-title: Uso do link de visualização móvel no Adobe Target Mobile
+seo-title: Usar o link de visualização móvel no Adobe Target Mobile
 solution: Target
 title: Visualização do Target Mobile
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -31,8 +31,8 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    Para instruções de como baixar o SDK apropriado, consulte:
 
-   * **iOS:**[Antes de começar](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) no guia *iOS SDK 4.x para Soluções da Experience Cloud*.
-   * **Android:**[Antes de começar](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*no guia Android SDK 4.x para Soluções da Experience Cloud.*
+   * **** iOS: [Antes de começar](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) na Ajuda *do iOS do* Mobile Services.
+   * **** Android: [Antes de iniciar](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) na Ajuda *do Android do* Mobile Services.
 
 1. **Defina um esquema de URL:** o link de visualização usa um esquema de URL para abrir seu aplicativo. Você deve especificar um esquema de URL único para a visualização.
 
