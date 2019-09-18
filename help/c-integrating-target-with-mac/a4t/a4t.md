@@ -9,7 +9,7 @@ title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 topic: Padrão
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -53,7 +53,7 @@ Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 * Apenas uma métrica baseada em mbox é permitida ao usar o Analytics como fonte de relatórios.
 * Uma chamada de servidor para servidor do Target para o Analytics envia informações de atividade e experiência para o Analytics. Esta integração não resulta em chamadas de servidor adicionais para o Target ou Analytics.
 
-   Em algumas situações, a chamada de classificação do Target para o Analytics pode falhar e as atividades não exibem dados no Analytics. Se isso acontecer, consulte [Solução de problemas da integração do Analytics e do Target (A 4 T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Também é possível [entrar em contato com o Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obter mais assistência.
+   Em algumas situações, a chamada de classificação do Target para o Analytics pode falhar e as atividades não exibem dados no Analytics. Se isso acontecer, consulte [Solução de problemas da integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Você também pode [entrar em contato com o Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obter assistência adicional.
 
 ## Tipos de atividades suportadas {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -68,7 +68,7 @@ A tabela a seguir mostra quais tipos de atividade são compatíveis com o Analyt
 | Teste multivariado (MVT) | Sim | Exige métrica de meta baseada em mbox para obter o relatório de Contribuição de elementos.  Atualmente, o Relatório de contribuição de elementos não suporta métricas do Analytics. |
 | Atividade de personalização automatizada (AP) | Não |  |
 | Atividade do Recommendations | Sim |  |
-| Aplicativo móvel | Sim | Compatível com o Mobile Services SDK, versão 4.13.1 ou superior.  Para obter mais informações, consulte a [documentação do Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
+| Aplicativo móvel | Sim | Compatível com o Mobile Services SDK, versão 4.13.1 ou superior.  Para obter mais informações, consulte a [documentação do Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html). |
 | Email | Não |  |
 | API de entrega do lado do servidor | Sim | Para obter mais informações, consulte o [Servidor: implementar o Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | SDK do NodeJS | Sim | Para obter mais informações, consulte o [Servidor: implementar o Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
@@ -130,4 +130,4 @@ Este vídeo é uma gravação de "[Horas do Office](../../cmp-resources-and-cont
 * Saiba mais sobre os relatórios adequados para usar no Analytics
 * Respostas às perguntas comuns sobre o A4T
 
-[Integração do Analytics/Target (A 4 T) Office](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Horas do Office para Integração do Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
