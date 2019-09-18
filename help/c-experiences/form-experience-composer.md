@@ -8,14 +8,14 @@ title: Experience Composer baseado em formulário
 topic: Padrão
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # Experience Composer baseado em formulário{#form-based-experience-composer}
 
-O Criador de experiências baseado em forma é uma experiência não visual e uma interface de criação de ofertas útil para criar experiências para uso em testes A/B, direcionamento de experiência, personalização automatizada e atividades do Recommendations quando o Visual Experience Composer não está disponível ou prático para uso. Por exemplo, você pode usar o compositor baseado em forma para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
+O Experience Composer baseado em formulário é uma experiência não visual e uma interface de criação de ofertas útil para criar experiências para uso em atividades de Testes A/B, Direcionamento de experiência, Personalização automatizada e Recommendations, quando o Visual Experience Composer não estiver disponível ou for prático para uso. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
 Se você está criando uma atividade do Recommendations, não há experiências. Escolha seu critério e design. Se você escolher vários critérios ou designs, o Target gera as experiências automaticamente.
 
@@ -77,7 +77,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
    1. Insira um nome de oferta.
    1. Insira ou cole seu código JSON na caixa Código.
    1. Clique em [!UICONTROL Salvar].
-   Em uma atividade do Recommendations, o menu suspenso Conteúdo oferece uma opção Adicionar recomendação. Clique em **[!UICONTROL Adicionar recomendação]** e selecione o tipo de página. Depois siga as etapas normais como definido na interface para [criar uma atividade do Recommendations](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
+   Em uma atividade do Recommendations, o menu suspenso Conteúdo oferece uma opção Adicionar recomendação. Clique em **[!UICONTROL Adicionar recomendação]** e selecione o tipo de página. Depois siga as etapas normais como definido na interface para [criar uma atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Ao selecionar o critério do Recommendations no Experience Composer baseado em formulário, agora há um link para o cartão Critérios selecionado, para que possa editar fácil e rapidamente os critérios.
 
@@ -92,7 +92,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 
 * [Criar um teste A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [Criar uma atividade de direcionamento de experiência](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Crie uma atividade do Recommendations](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Criar uma atividade do Recommendations](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Vídeo de treinamento: criador baseado em forma
 
