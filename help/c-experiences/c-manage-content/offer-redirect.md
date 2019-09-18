@@ -1,14 +1,14 @@
 ---
 description: A Oferta de redirecionamento faz com que o navegador seja redirecionado para uma nova página.
 keywords: oferta de redirecionamento, criar oferta de redirecionamento, adicionar oferta html, passar todos parâmetros de URL no redirecionamento, passar mboxSessionId no redirecionamento (necessário somente quando o redirecionamento passar por um domínio diferente)
-seo-description: Informações sobre ofertas de redirecionamento no Adobe Target que fazem com que um navegador redirecione para uma nova página.
+seo-description: Informações sobre ofertas de redirecionamento no Adobe Target que fazem com que um navegador seja redirecionado para uma nova página.
 seo-title: Criar Ofertas de redirecionamento
 solution: Target
 title: Criar Ofertas de redirecionamento
 topic: Padrão
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -62,7 +62,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 
-* Conexão entre a [biblioteca de ativos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e a biblioteca de conteúdo do Target
+* Conexão entre a [biblioteca de ativos da Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) e a biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
