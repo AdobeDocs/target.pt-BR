@@ -9,7 +9,7 @@ title: Métodos para colocar os dados no Target
 topic: Padrão
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ Os dados são enviados ao Target em tempo real, e podem ser usados na mesma cham
 * Se os dados precisarem ser usados para direcionamento em uma chamada de página/servidor subsequente, eles precisam ser traduzidos para um script de perfil.
 * As sequências de caracteres podem conter somente os caracteres, conforme o padrão [Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Além dos mencionados no site IETF, o Target permite os seguintes caracteres nas sequências de consulta:
+   Além dos mencionados no site do IETF, o Target permite os caracteres a seguir nas sequências de consulta:
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -336,8 +336,8 @@ Requer a implementação da Experience Cloud ID (ECID).
 
 ### Exemplo de código
 
-Os detalhes podem ser encontrados em [Crie uma fonte de atributo do cliente e faça upload do arquivo de dados](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Links para informações relevantes
 
-[Crie uma fonte de atributo do cliente e faça upload do arquivo de dados](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[Crie uma fonte de atributo do cliente e faça upload do arquivo de dados](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
