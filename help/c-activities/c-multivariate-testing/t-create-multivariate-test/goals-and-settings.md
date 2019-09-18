@@ -8,7 +8,7 @@ title: Metas e Configurações
 topic: Padrão
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ As configurações disponíveis dependem se você usa o Target ou Analytics como
 
 ![](assets/mvt_settings.png)
 
-## Configurações da atividade {#section_DCBDC354261F420EBD4B43EA34947BAC}
+## Configurações de atividade {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
 As seguintes configurações estão disponíveis:
 
@@ -64,7 +64,7 @@ As seguintes configurações estão disponíveis:
 
 ### Solução de relatório
 
-Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como fonte de relatório para o Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) para saber quais são as diferenças entre as soluções de relatório e as vantagens de cada uma.
+Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como fonte de relatório para o Target](/help/c-integrating-target-with-mac/a4t/a4t.md) para saber quais são as diferenças entre as soluções de relatório e as vantagens de cada uma.
 
 Ao selecionar o Analytics como fonte de relatórios para o Target, você seleciona um conjunto de relatórios do Analytics para receber os dados de atividade do Target. Para fazer isso, primeiro escolha uma das empresas do Analytics vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para se conectar ao Adobe Target estarão disponíveis para seleção. Se não vir os conjuntos de relatórios esperados, primeiro, experimente sair e entrar na Adobe Experience Cloud para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o atendimento ao cliente.
 
