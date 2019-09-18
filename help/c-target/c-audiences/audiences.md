@@ -1,14 +1,14 @@
 ---
 description: Os públicos-alvo determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, direcionamento de público-alvo, geração de relatório de público-alvo, relatar público-alvo, segmento, parâmetros de perfil personalizado, definição de público-alvo, lista de público-alvo
-seo-description: Os públicos-alvo no Adobe Target determinam quem verá conteúdo e experiências em uma atividade direcionada.
+seo-description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 seo-title: Criar públicos-alvo no Adobe Target
 solution: Target
 title: Criar públicos-alvo
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,22 +17,22 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Os públicos-alvo determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 
-Os público-alvo são usados sempre que o direcionamento estiver disponível. When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
+Os público-alvo são usados sempre que o direcionamento estiver disponível. Ao direcionar uma atividade, você pode selecionar um público-alvo reutilizável na lista de [!UICONTROL Públicos-alvo], [criar um público-alvo específico para a atividade](/help/c-target/creating-activity-only-audience.md) e direcioná-lo, ou [combinar vários públicos-alvo](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar um público-alvo ad hoc.
 
-Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Públicos-alvo na documentação de produtos da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Públicos-alvo](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) no Guia *do usuário dos serviços* principais.
 
 O [!DNL Target] define dois tipos de público-alvo:
 
 * **Direcionamento de públicos-alvo:** usado para oferecer conteúdo diferente para diferentes tipos de visitantes.
 * **Relatório de públicos-alvo:** usado para determinar como diferentes tipos de visitantes respondem ao mesmo conteúdo para que você possa analisar os resultados de seus testes.
 
-   No [!DNL Target], é possível configurar relatórios de públicos-alvo apenas se você usar o [!DNL Target] como fonte de geração de relatórios. If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
+   No [!DNL Target], é possível configurar relatórios de públicos-alvo apenas se você usar o [!DNL Target] como fonte de geração de relatórios. Se você usa o [DNL Adobe Analytics como fonte de relatórios](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), precisa configurar os públicos dos relatórios no [!DNL Analytics].
 
-## Usar a lista de Públicos-alvo
+## Usar a lista de Públicos
 
-Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públicos-alvo]na barra do menu superior:**
+Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públicos-alvo]** na barra do menu superior:
 
-![Lista de públicos-alvo](assets/audiences_list.png)
+![Lista de públicos](assets/audiences_list.png)
 
 A lista de [!UICONTROL Públicos-alvo] contém todos os públicos-alvo que você pode usar em suas atividades. Use a lista de [!UICONTROL Públicos-alvo] para criar, editar, excluir ou copiar os públicos. A lista também mostra a fonte onde o público-alvo foi criado ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e assim por diante). Públicos predefinidos, como "Novos visitantes" e "Visitantes recorrentes", não podem ser renomeados.
 
@@ -41,23 +41,23 @@ Ao trabalhar com públicos-alvo que foram originalmente criados no AAM, o Target
 * Se um público-alvo foi excluído no AAM, é exibido um ícone de aviso na lista [!UICONTROL Público-alvo] e no seletor de público. Uma dica de ferramenta na interface do usuário também indica que o público-alvo foi excluído do AAM.
 * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
 
-Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
+Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. Ao adicionar um público-alvo, clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Perfil do visitante]** e escolha o parâmetro que deseja usar para direcionar sua atividade. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
 
 Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo]. Você pode procurar qualquer parte de um nome de público-alvo ou pode colocar uma determinada sequência de caracteres entre aspas.
 
 Você pode classificar a lista de [!UICONTROL Públicos-alvo] por nome de público-alvo ou pela data da última modificação. Para classificar por nome ou data, clique no cabeçalho da coluna e selecione para exibir os públicos-alvo em ordem crescente ou decrescente.
 
-## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
+## Exibir definições de público-alvo {#section_11B9C4A777E14D36BA1E925021945780}
 
 É possível ver os detalhes da definição de público-alvo em um cartão pop-up na interface do usuário do Target, sem precisar abrir o público-alvo. Essa funcionalidade se aplica a públicos-alvo criados no Target Standard/Premium e a públicos-alvo importados do Target Classic ou criados por meio de API.
 
 Por exemplo, o seguinte cartão de definição de público-alvo é acessado quando você passa o mouse sobre um público-alvo na lista de públicos-alvo e clica no ícone Exibir:
 
-![Atividades &gt; Definição de público-alvo](assets/audience_definition_list.png)
+![Atividades &gt; Definição de público](assets/audience_definition_list.png)
 
 O seguinte cartão de definição de público-alvo é acessado clicando-se no ícone Exibir na página Visão geral de uma atividade:
 
-![Atividades &gt; Definição de público-alvo](assets/audience_definition_list.png)
+![Atividades &gt; Definição de público](assets/audience_definition_list.png)
 
 Clique na guia [!UICONTROL Uso do público-alvo] para ver outras atividades que se referem àquele público-alvo, se aplicável. Dessa forma, é possível evitar um impacto acidental em outras atividades ao editar públicos-alvo. As informações incluem atividades ao vivo, atividades inativas, atividades arquivadas e atividades de sincronização. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e [públicos-alvo somente de atividades](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
