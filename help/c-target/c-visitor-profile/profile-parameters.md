@@ -1,23 +1,23 @@
 ---
-description: Os atributos do perfil são parâmetros específicos do visitante. Esses atributos são armazenados no perfil do visitante para fornecer informações sobre o visitante que pode ser usado nas atividades do Adobe Target.
+description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades do Adobe Target.
 keywords: Script de perfil, atributos do script de perfil, práticas recomendadas do script de perfil, depurar, depuração
-seo-description: Os atributos do perfil são parâmetros específicos do visitante. Esses atributos são armazenados no perfil do visitante para fornecer informações sobre o visitante que pode ser usado nas atividades do Adobe Target.
+seo-description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades do Adobe Target.
 seo-title: Atributos de perfil no Adobe Target
 solution: Target
 title: Atributos do perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
 
 # Atributos do perfil{#profile-attributes}
 
-Os atributos de perfil são parâmetros específicos de um visitante. Esses atributos são armazenados no perfil do visitante para fornecer informações sobre o visitante que pode ser usado em suas atividades.
+Os atributos do perfil são parâmetros específicos de um visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades.
 
-Conforme um visitante procura seu site, ou quando ele retorna para outra sessão, os atributos de perfil salvos podem ser usados para direcionar conteúdo ou registrar informações para filtragem de segmentos.
+Conforme um visitante navega no site, ou quando ele retorna para uma outra sessão, os atributos do perfil salvos podem ser usados para segmentar o conteúdo ou registrar informações para a filtragem de segmentos.
 
 Para configurar os atributos de perfil, clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Scripts de perfil.]**
 
@@ -27,7 +27,7 @@ Os tipos a seguir de atributos de perfil estão disponíveis:
 
 | Tipo do parâmetro | Descrição |
 |--- |--- |
-| Mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Observação: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Observação**: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definido diretamente com um trecho de código JavaScript. Eles podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -54,7 +54,7 @@ Para copiar um script de perfil existente, na lista de [!UICONTROL Scripts de pe
 
 Você pode editar o público-alvo para criar um público-alvo semelhante.
 
-![Caixa de diálogo Criar script de perfil](assets/profile-script.png)
+![Caixa de diálogo Criar scripts de perfil](assets/profile-script.png)
 
 Scripts de perfil executam os "coletores" de atributo de perfil em cada solicitação de localização. Quando uma solicitação de localização é recebida, o Target determina qual atividade deve ser executada e exibe o conteúdo apropriado a essa atividade e experiência, monitora o sucesso da atividade e executa todos os scripts de perfil relevantes. Isto permite rastrear as informações sobre a visita, como o local do visitante, a hora do dia, o número de vezes que o visitante acessou o site, se ele já fez alguma compra anteriormente etc. Estas informações são então adicionadas ao perfil do visitante para que você possa melhor rastrear a atividade do visitante no seu site.
 
@@ -70,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Consulte os atributos de script do perfil (incluindo ele mesmo) no código com `user.get('parameterName')`
 * Salve variáveis que podem ser acessadas na próxima vez que o script for executado (na própria solicitação da mbox) com `user.setLocal('variable_name', 'value')`. Faça referência à variável com `user.getLocal('variable_name')`. Isto é útil para situações em que você deseja fazer referência à data e hora da última solicitação.
-* Os parâmetros e valores diferencia maiúsculas de minúsculas. Corresponda ao caso dos parâmetros e valores que você receberá durante a atividade ou teste.
+* Os parâmetros e valores diferencia maiúsculas de minúsculas. Verifique as letras maiúsculas e minúsculas e os valores que você receberá durante a atividade ou o teste.
 * Consulte a seção "Referência de JavaScript para os parâmetros do perfil de script" abaixo para obter mais sintaxe de JavaScript.
 
 ## Exibição dos cartões de informações do script de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -85,7 +85,7 @@ A guia [!UICONTROL Informações do script] contém as seguintes informações: 
 
 A guia [!UICONTROL Uso do script] lista as atividades (e seus espaços de trabalho) que fazem referência ao script de perfil selecionado.
 
-![Cartão de informações do script de perfil &gt; guia Uso de script](assets/profile_script_info_card_usage_tab.png)
+![Cartão de informações do script de perfil &gt; guia Uso do script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -125,7 +125,7 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
 * Não exceda 1.300 caracteres ou 50 iterações de loop.
 * Não exceda 2.000 instruções do JavaScript. O Target tem um limite de 2.000 instruções de JavaScript por script, mas isso não pode ser calculado somente pela leitura manual do JavaScript. Por exemplo, o Rhino trata todas as chamadas de função e as "novas" chamadas como 100 instruções. Além disso, o tamanho dos dados de entrada, como os valores de URL, pode afetar a contagem das instruções.
 * Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. Contar o número de instruções não é óbvio, mas o importante a ser observado é que os scripts que excedem 2 KB serão automaticamente desativados. Não há limite definido para o número de scripts que podem ser executados, mas todos são executados com uma chamada de mbox única. Execute somente a quantidade de scripts necessária.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. A execução de scripts pode ser interrompida se tal regex corresponder a um dados de entrada suficientemente longos (que pode ter o menor que centenas de caracteres).
+* Num regex, com estrela pontual no início (por exemplo: `/.*match/`, `/a|.*b/`) quase nunca é necessário. A pesquisa regex começa de todas as posições em uma sequência de caracteres (a menos que vinculada a `^`), portanto, a estrela pontual já é assumida. A execução do script pode ser interrompida se tal regex corresponder a dados de entrada longos o suficiente (que podem ter até várias centenas de caracteres).
 * Se tudo falhar, envolva o script em um try/catch.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ Para classificar visitantes em grupos onde cada um visualiza uma atividade difer
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ Por exemplo, para criar quatro grupos, utilize o JavaScript a seguir:
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ Por exemplo, para atribuir visitantes em três grupos iguais, utilize o código 
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
