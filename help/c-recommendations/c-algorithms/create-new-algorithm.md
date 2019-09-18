@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ---
 
@@ -120,19 +120,19 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
 ## Tempo de processamento dos critérios esperado {#process-time}
 
-Depois de salvar um critério, [!DNL Target] calcule as recomendações. Esse cálculo leva algum tempo para ser executado e o período difere com base na lógica de recomendação selecionada, intervalo de dados, número de itens no catálogo, quantidade de dados comportamentais gerados pelos clientes e na fonte de dados comportamentais selecionada. A fonte de dados comportamentais tem o maior impacto no tempo de processamento, da seguinte maneira:
+Depois de salvar um critério, [!DNL Target] calcula as recomendações. Esse cálculo leva algum tempo para ser executado e o período é diferente com base na lógica de recomendação selecionada, intervalo de dados, número de itens no catálogo, quantidade de dados comportamentais que seus clientes geraram e a fonte de dados comportamentais selecionada. A fonte de dados comportamental tem o maior impacto no tempo de processamento, da seguinte forma:
 
 ### caixas de entrada
 
-Se as mboxes forem selecionadas como fonte de dados comportamentais, depois de criadas, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração de critérios geralmente resulta em re-execução do algoritmo. Dependendo da alteração efetuada, as recomendações computadas anteriormente podem estar disponíveis até que uma nova execução seja concluída, ou para alterações maiores, somente o backup ou o conteúdo padrão estará disponível até que uma nova execução seja concluída. Se um algoritmo não for modificado, será executado automaticamente [!DNL Target] a cada 12-48 horas, dependendo do intervalo de dados selecionado.
+Se as mboxes forem selecionadas como a fonte de dados comportamental, depois de criadas, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração de critérios geralmente resulta na nova execução do algoritmo. Dependendo da alteração feita, as recomendações calculadas anteriormente podem estar disponíveis até que uma nova execução seja concluída ou, para alterações maiores, apenas o backup ou o conteúdo padrão estejam disponíveis até que uma nova execução seja concluída. Se um algoritmo não for modificado, ele será executado novamente a [!DNL Target] cada 12 a 48 horas, dependendo do intervalo de dados selecionado.
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **Configuração do conjunto de relatórios uma vez**: A primeira vez que um conjunto de relatórios é usado com uma determinada janela de pesquisa de intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para fazer o download completo dos dados comportamentais do conjunto de relatórios selecionado. [!DNL Analytics] Esse período depende da carga [!DNL Analytics] do sistema.
-* **Critérios novos ou editados usando um conjunto de relatórios já disponível**: Ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado [!DNL Target Recommendations]com um intervalo de dados igual ou menor que o intervalo de dados selecionado, os dados serão imediatamente disponibilizados e nenhuma configuração será necessária. Nesse caso, ou se as configurações de um algoritmo forem editadas enquanto não modificarem o conjunto de relatórios ou intervalo de dados selecionado, o algoritmo será executado ou executado novamente em 12 horas.
-* **O algoritmo contínuo é executado**: Os dados continuam de [!DNL Analytics] uma [!DNL Target Recommendations] base diária. Por exemplo, para a recomendação [!UICONTROL de Afinidade] visualizada, quando um usuário exibe um produto, uma chamada de rastreamento de visualização de produto é passada [!DNL Analytics] para perto do tempo real. [!DNL Analytics] Os dados são encaminhados para [!DNL Target] o início do dia seguinte e [!DNL Target] executa o algoritmo em menos de 12 horas.
+* **Configuração**&#x200B;única do conjunto de relatórios: A primeira vez que um conjunto de relatórios é usado com uma determinada janela de pesquisa de intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para baixar totalmente os dados comportamentais do conjunto de relatórios selecionado de [!DNL Analytics]. Esse período depende da carga do [!DNL Analytics] sistema.
+* **Critérios novos ou editados usando um conjunto** de relatórios já disponível: Ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado com [!DNL Target Recommendations], com um intervalo de dados igual ou inferior ao intervalo de dados selecionado, os dados estarão imediatamente disponíveis e nenhuma configuração única será necessária. Nesse caso, ou se as configurações de um algoritmo forem editadas sem modificar o conjunto de relatórios ou o intervalo de dados selecionado, o algoritmo será executado ou executado novamente dentro de 12 horas.
+* **O algoritmo em andamento executa**: Os dados fluem de [!DNL Analytics] para [!DNL Target Recommendations] diariamente. Por exemplo, para a recomendação Afinidade  visualizada, quando um usuário exibe um produto, uma chamada de rastreamento de exibição do produto é passada para [!DNL Analytics] perto de tempo real. Os [!DNL Analytics] dados são enviados para o início [!DNL Target] do dia seguinte e [!DNL Target] executam o algoritmo em menos de 12 horas.
 
 ## Basear a recomendação em uma chave de recomendação {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,17 +343,7 @@ Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros s
 
 >[!NOTE]
 >
->Os Itens visualizados recentemente respeitam as configurações globais de Exclusões e a configuração Coleção selecionada para a Atividade. Se um item for excluído por uma exclusão global ou não estiver contido na Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração «Todas as coleções» geralmente deve ser usada.
-
-### Itens comprados anteriormente {#previously-purchased}
-
-Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante adquiriu, baseado no número de slots no design.
-
-O critério Itens adquiridos recentemente agora retorna resultados específicos a um certo [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens adquiridos recentemente do site em questão. Caso dois sites estejam no mesmo ambiente e um visitante alternar entre eles, ele verá os mesmos itens adquiridos recentemente em ambos os sites.
-
-**Onde usar em seu site**
-
-Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
+>Itens visualizados recentemente respeita as configurações globais de Exclusões e a configuração de Coleção selecionada para a Atividade. Se um item for excluído por uma Exclusão global, ou não estiver contido na Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração "Todas as coleções" geralmente deve ser usada.
 
 ## Regras de inclusão {#task_28DB20F968B1451481D8E51BAF947079}
 
