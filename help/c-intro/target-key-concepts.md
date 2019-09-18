@@ -9,7 +9,7 @@ title: Conceitos-chave do Target
 topic: Padrão
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -50,7 +50,7 @@ Os locais são essenciais para as atividades e experiências. Você pode decidir
 
 No [!DNL Target Standard], um local pode ser qualquer elemento em uma página, desde que a página contenha uma única linha de código que ative o [!DNL Target] na seção `<head>` de cada página que você deseja rastrear. Essa linha de código chama as bibliotecas JavaScript necessárias para coletar informações e oferecer experiências direcionadas aos visitantes.
 
-See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) for more information about the differences between location implementation in [!DNL Target Standard] and the mbox implementation in [!DNL Target Classic].
+Consulte [Vantagens da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para obter mais informações sobre as diferenças entre implementação de local no [!DNL Target Standard] e a implementação da mbox no [!DNL Target Classic].
 
 As localizações são combinadas aos públicos para fornecer um número quase infinito de opções para direcionar informações para os clientes. Por exemplo, se um visitante nunca tiver visitado o site antes, você poderá exibir um cupom de desconto para novos clientes. Da mesma forma, a página poderá ser alterada para exibir ofertas mais otimizadas para clientes que retornam.
 
@@ -98,13 +98,13 @@ Por exemplo, talvez você queira direcionar uma atividade a um público-alvo con
 
 Ou sua atividade deve ser direcionada aos visitantes de uma região geográfica ou a pessoas que acessam sua página usando determinado mecanismo de busca.
 
-Os públicos-alvo podem ser salvos para reutilização em várias atividades, ou podem ser criados para uma atividade específica.
+É possível salvar os públicos para reutilização em várias atividades ou eles podem ser criados para uma atividade específica.
 
 | Tipo de público-alvo | Descrição |
 |--- |--- |
-| Públicos-alvo reutilizáveis | Públicos-alvo reutilizáveis podem ser selecionados para qualquer atividade. A mudança de um desses públicos-alvo é refletida para todas as atividades que o utilizam. |
+| Públicos-alvo reutilizáveis | Os públicos reutilizáveis podem ser selecionados para qualquer atividade. A mudança de um desses públicos-alvo é refletida para todas as atividades que o utilizam. |
 | Segmentos personalizados | Segmentos personalizados (conhecidos também como segmentos específicos de campanha) são específicos de uma campanha no Target Classic. Eles são criados como parte da campanha e não podem ser reutilizados em outras campanhas. |
-| Públicos-alvo compartilhados | Os públicos-alvo podem ser compartilhados nas soluções [!DNL Adobe Experience Cloud]. Consulte [Públicos-alvo da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) para obter exemplos. |
+| Públicos-alvo compartilhados | Os públicos-alvo podem ser compartilhados nas soluções [!DNL Adobe Experience Cloud]. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
 Para obter informações sobre como o perfil do visitante acompanha informações sobre visitantes do site, consulte [Perfis de visitante](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -116,7 +116,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
-* Descreva os tipos de atividades incluídos no [!DNL Adobe Target]
+* Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
