@@ -8,7 +8,7 @@ title: Parâmetros personalizados
 topic: Padrão
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 Os parâmetros personalizados são parâmetros de mbox. Se você passar algum parâmetro de mbox para mboxes, ou usar a função targetPageParams, esses parâmetros aparecerão aqui para uso em públicos-alvo.
 
-Para obter mais informações, consulte [Passagem de parâmetros a uma mbox global](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
+For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mboxParameter` não solicita mais `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
@@ -52,7 +52,7 @@ O [cartão pop-up dos detalhes de definição](../../../c-target/c-audiences/aud
 
 ## Considerações {#considerations}
 
-* Os públicos-alvo e as atividades são avaliados para uma mbox específica. Por exemplo, se a mbox global passar um certo parâmetro, mas a mbox regional não, a definição de metas de atividade/público-alvo não será qualificada para a mbox regional.
+* Os públicos-alvo e as atividades são avaliados para uma mbox específica. Por exemplo, se a mbox global passar um certo parâmetro, mas a mbox regional não passar, a meta de atividade/público-alvo desse parâmetro não será qualificada na mbox regional.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
