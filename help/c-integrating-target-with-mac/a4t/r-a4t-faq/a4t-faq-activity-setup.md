@@ -8,7 +8,7 @@ title: Configurações de atividade - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ Para obter uma lista completa, consulte "Tipos de atividade suportados" no [Adob
 
 ## Acabei de criar um atividade. Por que não vejo nenhum dado chegando? {#section_9F8092BE4225442896F926540292F221}
 
-Quando uma atividade é criada, o Target envia um arquivo de classificação ao Analytics. Embora o Analytics esteja capturando e processando os dados, eles não são exibidos nos relatórios até que o arquivo de classificação tenha sido atualizado. Isso pode levar até 24 horas. Se depois de 48 horas você não visualizar seus dados, [entre em contato com o Atendimento ao Cliente](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html). Alternativamente, se você sabe que vai iniciar uma atividade, você pode criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no Analytics.
+Quando uma atividade é criada, o Target envia um arquivo de classificação ao Analytics. Embora o Analytics esteja capturando e processando os dados, eles não são exibidos nos relatórios até que o arquivo de classificação tenha sido atualizado. Isso pode levar até 24 horas. Se depois de 48 horas você não visualizar seus dados, [entre em contato com o Atendimento ao Cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Alternativamente, se você sabe que vai iniciar uma atividade, você pode criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no Analytics.
 
 ## Por que não consigo selecionar o Analytics como minha fonte de geração de relatórios quando eu crio uma nova atividade? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
