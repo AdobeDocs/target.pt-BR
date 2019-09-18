@@ -6,7 +6,7 @@ seo-title: Usar um servidor de rastreamento do Analytics
 title: Usar um servidor de rastreamento do Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ O depurador deve ser visualizado em uma página na qual a atividade será entreg
 
 1. Na página em que você está criando sua atividade, abra o depurador da Adobe Experience Cloud.
 
-   Se não tiver instalado o depurador, siga as [instruções de instalação do depurador da Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
+   Se você não tiver instalado o depurador, consulte [Instalar o Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
