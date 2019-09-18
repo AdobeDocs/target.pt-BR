@@ -8,7 +8,7 @@ title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ A metodologia de contagem especifica o que o Target usa como denominador para as
 
 Para o relatório Atividades, os administradores podem alterar a métrica padrão para que, toda vez que executem o relatório, mostrem as mesmas métricas. Caso contrário, o relatório será padronizado com a última métrica aplicada ao seu último relatório.
 
-Para mais informações, consulte [Selecionar métricas de relatório padrão](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) no guia *Ajuda da interface de Reports and Analytics*.
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## Quando aplico um segmento à métrica (com uma métrica calculada) ao aplicar o segmento ao relatório? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ Considere o seguinte:
 
 * Todas as métricas acima são acionadas quando um usuário se qualifica para uma atividade e o conteúdo é retornado do [!DNL Target]. Isso não significa necessariamente que o usuário viu a oferta. Se uma experiência de atividade estiver abaixo da dobra e o usuário não rolar a página para baixo, a oferta foi distribuída pelo [!DNL Target], mas não foi vista pelo usuário.
 * [!UICONTROL Impressões de atividade] (medidas pelo [!DNL Target]) e [!UICONTROL Instâncias] (medidas pelo [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
-* Ao usar [!UICONTROL as métricas Impressões] de atividade e [!UICONTROL Conversões] de atividade em [!DNL Analysis Workspace], verifique se ambas as métricas têm [!UICONTROL Modelos de] atribuição de Toque aplicados. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL modelos de atribuição não padrão]e selecionando [!UICONTROL o mesmo toque]. Saiba mais sobre a atribuição na visão geral IQ [Atributos](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) no Guia das ferramentas *do Analytics*.
+* Ao usar as métricas Impressões [!UICONTROL de] atividade e Conversões [!UICONTROL de] atividade no [!DNL Analysis Workspace], verifique se ambas as métricas têm os modelos de atribuição [!UICONTROL de mesmo toque] aplicados. Os modelos podem ser aplicados clicando na engrenagem de configurações da coluna, ativando os modelos [!UICONTROL de atribuição]não padrão e selecionando [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição na visão geral [do IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos no Guia *de ferramentas do* Analytics.
 
 ## O que significa "conversões de atividade" se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ Considere o seguinte:
 
 ![](assets/unspecified.png)
 
-Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Geralmente, leva entre 24 e 72 horas para que os dados de atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
+Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Geralmente, demora de 24 a 72 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
 
 Após o período de classificação, os dados são exibidos nesses relatórios, aproximadamente uma hora depois de serem coletados no site. Todas as métricas, os segmentos e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
@@ -110,7 +110,7 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem "crédito" pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para geração de relatório do Target, porque você não está comparando a atividade com atividade do Target para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
-Para obter mais informações, consulte [Variáveis de conversão (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) na ajuda do Analytics.
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Por que o Analytics e o Analytics for Target (A4T) calculam números para a métrica de visitantes únicos de maneira diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
