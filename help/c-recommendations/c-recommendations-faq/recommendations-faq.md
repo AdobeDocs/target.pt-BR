@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Considere as informações a seguir se você vir uma coleção em zero que anter
 * O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique quantas horas têm o índice (por exemplo, "Indexado há 3 horas"). Você pode atualizar o índice, conforme necessário.
 * Você alterou algo no feed ou na camada de dados que resultou na falta de correspondência das suas entidades com as regras de coleção? Certifique-se de que as LETRAS MAIÚSCULAS E MINÚSCULAS estejam correspondentes (sensível à maiúscula e minúsculas).
 * O seu feed foi executado com sucesso? Alguém alterou seu diretório de FTP, senha etc?
-* O Target faz o melhor para atualizar a entrega (na página/aplicativo do cliente) o mais rápido possível. Além disso, também precisamos fornecer alguma representação na interface de usuário do profissional de marketing. Não necessariamente atrasamos atualizações de entrega para esperar a sincronização de atualizações de interface de usuário. Você pode usar [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) para ver o que está no sistema no momento em que ocorre a solicitação.
+* O Target faz o melhor para atualizar a entrega (na página/aplicativo do cliente) o mais rápido possível. Além disso, também precisamos fornecer alguma representação na interface de usuário do profissional de marketing. Não necessariamente atrasamos atualizações de entrega para esperar a sincronização de atualizações de interface de usuário. Você pode usar [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para ver o que está no sistema no momento em que ocorre a solicitação.
 
 ## Qual a diferença entre ponderação de atributos geral e ponderação de atributo específico à similaridade de conteúdo? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
