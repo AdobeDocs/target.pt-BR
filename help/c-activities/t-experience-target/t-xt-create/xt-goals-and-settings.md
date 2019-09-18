@@ -8,7 +8,7 @@ title: Metas e Configurações
 topic: Padrão
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ As configurações disponíveis dependem do uso [!DNL Target] ou [!DNL Analytics
 
 ![Página Configurações da atividade](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
-## Configurações da atividade {#section_DCBDC354261F420EBD4B43EA34947BAC}
+## Configurações de atividade {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
 As configurações a seguir estão disponíveis
 
@@ -64,7 +64,7 @@ As seguintes configurações estão disponíveis:
 
 ### Solução de relatório
 
-Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como fonte de relatório para o Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) para saber quais são as diferenças entre as soluções de relatório e as vantagens de cada uma.
+Especifique se os dados são coletados do Adobe Target ou do Adobe Analytics. Consulte [Adobe Analytics como fonte de relatório para o Target](/help/c-integrating-target-with-mac/a4t/a4t.md) para saber quais são as diferenças entre as soluções de relatório e as vantagens de cada uma.
 
 Ao selecionar o Analytics como fonte de relatórios para o Target, você seleciona um conjunto de relatórios do Analytics para receber os dados de atividade do Target. Para fazer isso, primeiro escolha uma das empresas do Analytics vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para se conectar ao Adobe Target estarão disponíveis para seleção. Se não vir os conjuntos de relatórios esperados, primeiro, experimente sair e entrar na Adobe Experience Cloud para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o atendimento ao cliente.
 
@@ -122,7 +122,7 @@ As seguintes configurações estão disponíveis:
 
 ### Qual métrica de sucesso deve ser atingida antes do aumento dessa métrica?
 
-Use esta opção para contar alguém que atingiu a métrica de sucesso somente se essa pessoa tiver atingido uma métrica de sucesso diferente antes. Por exemplo, uma conversão de teste pode ser válida somente se o visitante clicar na oferta ou acessar uma página específica antes da conversão.
+Use esta opção para contar alguém que atingiu a métrica de sucesso somente se essa pessoa tiver atingido uma métrica de sucesso diferente antes. Por exemplo uma conversão de teste é válida somente se o visitante clicar na oferta ou acessar uma página específica antes da conversão.
 
 É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada.
 
@@ -133,9 +133,9 @@ A opção Adicionar dependência permite que a métrica de sucesso seja incremen
 Para adicionar uma dependência:
 
 1. Depois de adicionar outras métricas, clique em **[!UICONTROL Configurações avançadas]**.
-2. Click **[!UICONTROL Add Dependency]**:
+2. Clique em **[!UICONTROL Adicionar dependência]**:
 
-   ![Adicionar link de dependência](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
+   ![Link Adicionar dependência](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em Alcançado para alternar a configuração entre Alcançado e Não alcançado.
 
