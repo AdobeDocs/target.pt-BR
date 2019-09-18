@@ -1,14 +1,14 @@
 ---
 description: Selecione várias métricas para exibir em um relatório.
 keywords: Target, relatórios, configurações de relatórios, várias métricas, métricas
-seo-description: Selecione várias métricas para exibir em um relatório.
-seo-title: Exibir várias métricas em um relatório
+seo-description: Selecione várias métricas para exibir em um relatório usando o Adobe Target.
+seo-title: Exibir várias métricas em um relatório usando o Adobe Target
 solution: Target
 title: Exibir várias métricas em um relatório
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -19,9 +19,9 @@ Selecione várias métricas para exibir em um relatório.
 
 Esteja ciente das seguintes informações ao trabalhar com várias métricas nos relatórios:
 
-* A capacidade de exibir várias métricas está disponível apenas para as atividades de A/B e de Direcionamento de experiência (XT).
-* Você não pode adicionar mais de 20 métricas a um relatório para uma atividade que usa o Analytics for Target (A4T). Você pode adicionar todas as métricas da sua atividade em relatórios de atividades que não usam o A4T.
-* Se você tiver selecionado várias métricas, não será possível usar a opção [!UICONTROL Baixar] para baixar os relatórios em CSV. Você deve selecionar uma única métrica apenas para ativar a opção [!UICONTROL Baixar].
+* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
+* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* Se você tiver selecionado várias métricas, não será possível usar a opção [](/help/c-reports/downloading-data-in-csv-file.md)Baixar para baixar os relatórios em CSV. Você deve selecionar uma única métrica apenas para ativar a opção [!UICONTROL Baixar].
 * Você não pode exibir várias métricas de atividades criadas antes da versão de julho de 2015 do Target (30 de julho de 2015).
 
 **Para selecionar várias métricas para exibir no relatório:**
@@ -46,17 +46,13 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
    Você pode reorganizar as métricas arrastando-as e soltando-as na ordem desejada na lista [!UICONTROL Métricas exibidas]. A ordem selecionada será refletida na Exibição de tabela e na Exibição de gráfico. Para remover uma métrica da lista [!UICONTROL Métricas exibidas], passe o ponteiro do mouse sobre a métrica e clique no ícone **X**.
 
 1. Clique em **[!UICONTROL Salvar]ao concluir.**
-1. Ao exibir o relatório na Exibição de tabela, passe o ponteiro do mouse sobre o cabeçalho de coluna de qualquer métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
+1. (Condicional) Ao visualizar o relatório na Exibição de tabela, passe o ponteiro do mouse sobre qualquer cabeçalho de coluna de métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
 
    ![](assets/multiple_metrics_table.png)
 
    Você pode expandir apenas uma métrica/coluna por vez. Clique na seta novamente para recolher as colunas.
 
-1. Ao exibir o relatório na Exibição de gráfico, você pode selecionar métricas individuais para a exibição na lista suspensa:
+1. (Condicional) Ao exibir o relatório na Exibição de gráfico, você pode selecionar métricas individuais para exibir na lista suspensa:
 
    ![](assets/multiple_metrics_graph.png)
-
-   Da mesma forma, ao exibir o relatório na Exibição de gráfico, a dimensão Receita é exibida como uma lista suspensa:
-
-   ![](assets/muttiple_revenue.png)
 
