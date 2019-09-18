@@ -8,7 +8,7 @@ title: Índice de conversão
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -55,7 +55,7 @@ Consulte [Nível de confiança e intervalo de confiança](../c-reports/conversio
 
 ## Dados de varejo {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Os dados de AOV, RPV e Vendas são exibidos para cada experiência se você inseriu uma mbox [de Pedido local](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) e a selecionou como a mbox de conversão.
+Os dados de AOV, RPV e Vendas são exibidos para cada experiência se você inseriu uma mbox [de Pedido local](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) e a selecionou como a mbox de conversão.
 
 ## Nível de confiança e intervalo de confiança {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -127,7 +127,7 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 1. Clique em **[!UICONTROL Ferramentas]** &gt; **[!UICONTROL Data Warehouse]**.
 1. Na guia **[!UICONTROL Solicitação de Data Warehouse], preencha os campos.**
 
-   Para obter mais informações sobre cada campo, consulte "Descrições do Data Warehouse" em [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Para obter mais informações sobre cada campo, consulte "Descrições do Data Warehouse" em [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Instruções |
    |--- |--- |
@@ -147,8 +147,8 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 
 Para obter mais informações sobre [!DNL Data Warehouse], consulte os seguintes links na documentação de ajuda do [!DNL Analytics]:
 
-* [Criar uma solicitação de Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Práticas recomendadas do Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Criar uma solicitação do Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Práticas recomendadas do Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia de contagem {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
