@@ -7,7 +7,7 @@ title: Depuração da at.js usando o depurador da Adobe Experience Cloud
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -18,7 +18,7 @@ Informações sobre o uso da extensão do depurador da Adobe Experience Cloud, q
 
 Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta Mbox Trace avançada para inspecionar as qualificações de atividade e público-alvo, bem como o perfil do visitante.
 
-Revise a [documentação do depurador da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) para obter mais informações. As informações específicas ao Target podem ser encontradas na seção [Ferramentas](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html).
+Revise a [documentação do depurador da Adobe Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) para obter mais informações. As informações específicas ao Target podem ser encontradas na seção [Ferramentas](https://docs.adobe.com/content/help/en/debugger/using/tools.html).
 
 ## Vídeos de treinamento
 
