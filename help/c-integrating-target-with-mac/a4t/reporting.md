@@ -9,7 +9,7 @@ title: Relatórios do A4T
 topic: Padrão
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -45,7 +45,7 @@ No Analytics, use o relatório de Atividades do Target para visualizar os result
 
 >[!NOTE]
 >
->Os detalhes de incentivo e confiança do Target também estão disponíveis no Analytics. Para obter mais informações, consulte [Tipo de relatório de confiança e incentivo do Target](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) na documentação do produto Adobe Analytics.
+>Os detalhes de incentivo e confiança do Target também estão disponíveis no Analytics. Para obter mais informações, consulte [Target Lift e Confidence](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) no Guia *de componentes do* Analytics.
 
 >[!IMPORTANT]
 >
