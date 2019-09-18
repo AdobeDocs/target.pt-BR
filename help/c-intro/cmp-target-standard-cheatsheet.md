@@ -8,7 +8,7 @@ title: Perguntas frequentes sobre otimização e personalização do Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ Leia a matriz de [Navegadores suportados](../c-implementing-target/c-considerati
 
 **Qual arquivo JavaScript de implementação devo usar, at.js ou mbox.js?**
 
-at.js é a nossa maior e mais recente biblioteca de JavaScript. mbox.js é a nossa versão mais antiga. Consulte [Benefícios do at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para compreender as diferenças entre as duas bibliotecas. Todos os novos clientes devem usar at.js.
+at.js é a nossa maior e mais recente biblioteca de JavaScript. mbox.js é a nossa versão mais antiga. Consulte [Vantagens da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para compreender as diferenças entre as duas bibliotecas. Todos os novos clientes devem usar at.js.
 
 Todos os clientes mbox.js existentes devem migrar pra at.js. Saiba mais sobre as etapas envolvidas na [Migração de mbox.js para at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) antes de fazer a transmissão.
 
@@ -81,7 +81,7 @@ Observe que o requisito de tráfego aumenta com atividades MVT.
 
 **Posso aplicar ofertas a locais diferentes (por exemplo, o funil de check-out)?**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+Experimente o recurso de [Atividade multipáginas](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que permite usar várias páginas nas experiências.
 
 **Como posso assegurar que uma meta (Primária ou secundária) tenha sido atingida, que um usuário nunca entre na atividade novamente e, ao invés disso, veja uma atividade diferente ao prosseguir?**
 
@@ -107,7 +107,7 @@ Isso é possibilitado pela configuração de meta primária na etapa 3 do fluxo 
 
 Use o recurso [Agendamento na etapa Metas e configurações](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) do fluxo de trabalho da atividade de três partes especificando as datas inicial e final.
 
-Lembre-se de ativar a atividade. Somente atividades ativas seguem o agendamento especificado. Depois de atingida a data de encerramento, a atividade vai para o estado Encerrada.
+Lembre-se de ativar a atividade. Apenas atividades ativas aderem à programação especificada. Depois de atingida a data de encerramento, a atividade vai para o estado Encerrada.
 
 **Posso fazer uma alteração apenas na etapa de direcionamento e não percorrer todo o fluxo de trabalho orientado de três etapas para edição?**
 
@@ -236,7 +236,7 @@ Use [a abordagem baseada em formulário](../c-experiences/form-experience-compos
 
 **Posso garantir que a mesma experiência seja oferecida de maneira consistente em todos os dispositivos que um usuário pode ter?**
 
-Veja nosso [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html), que permite que você vincule múltiplos dispositivos de um usuário deterministicamente e probabilisticamente através do poder da cooperação.
+Veja nosso [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), que permite que você vincule múltiplos dispositivos de um usuário deterministicamente e probabilisticamente através do poder da cooperação.
 
 Se você estiver em um Co-op, uma sinalização simples na página de Metas e Configurações ativa o recurso. A criação de relatórios também muda para refletir pessoas ao invés de visitantes. Fale com o seu contato na Adobe para saber mais sobre este recurso, pois ele não estará disponível em todas as regiões.
 
@@ -256,7 +256,7 @@ Temos [o recurso de URL de redirecionamento](../c-experiences/c-manage-content/o
 
 **Por que a entrega do conteúdo não está acontecendo no meu processo de QA?**
 
-É possível que seu site possa ter IDs dinâmicos, IDs duplicados ou classes dinâmicas em elementos. Você pode precisar avaliar as opções de preferência do site no nível da conta (ou no nível da atividade se o problema for específico a um domínio ou página). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+É possível que seu site possa ter IDs dinâmicos, IDs duplicados ou classes dinâmicas em elementos. Você pode precisar avaliar as opções de preferência do site no nível da conta (ou no nível da atividade se o problema for específico a um domínio ou página). Consulte [Seletores de CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **Por que eu não estou vendo a oferta/experiência desejada e estou vendo outra atividade ao invés disso?**
 
@@ -283,7 +283,7 @@ Veja os seguintes aspectos do produto:
 
 É aqui que entra o recurso [Públicos-alvo para relatórios](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF), disponível na página Metas e configurações da etapa 3 do fluxo de trabalho orientado.
 
-Você tem a opção de adicionar 50 segmentos, bem como o ponto de aplicativo (Entrada da atividade ou uma métrica específica) para ter uma maneira eficaz de fatia e dados.
+Você tem a opção de adicionar 50 desses segmentos e também o ponto de aplicação (Entrada de atividade ou uma métrica específica) para ter uma forma poderosa de destrinchar os dados.
 
 Observe que o Target coleta os dados relacionados a isso a partir do momento que você adiciona esses públicos-alvo, então se você deixar de adicionar segmentos antes de executar o teste, você está sem sorte.
 
@@ -291,11 +291,11 @@ Observe que o Target coleta os dados relacionados a isso a partir do momento que
 
 **O que posso fazer para tornar este processo mais fácil?**
 
-This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Se você tem o Adobe Analytics, simplesmente escolha a fonte como Analytics, que elimina essa restrição. Agora você pode realizar análise em qualquer público-alvo e você não precisa definir os públicos-alvo de criação de relatórios antecipadamente.
+É aqui que o [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) é útil. Se você tem o Adobe Analytics, simplesmente escolha a fonte como Analytics, que elimina essa restrição. Agora você pode realizar análise em qualquer público-alvo e você não precisa definir os públicos-alvo de criação de relatórios antecipadamente.
 
 **Posso realizar cálculos de criação de relatórios off-line?**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+Use as [opções Exporte relatórios para CSV e Detalhes de Pedido de Download para CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) na página Relatórios para baixar os dados de criação de relatórios desejados.
 
 **Posso mudar a experiência de controle para avaliação de relatórios ou mudar a metodologia de contagem de Visitantes para Visitas?**
 
