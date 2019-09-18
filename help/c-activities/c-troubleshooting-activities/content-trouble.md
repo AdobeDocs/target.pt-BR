@@ -9,7 +9,7 @@ title: Soluções de problemas da entrega de conteúdo
 topic: Padrão
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -102,7 +102,7 @@ Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a im
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte a documentação [*Extensão do depurador da Adobe Experience Cloud*](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Para obter informações mais detalhadas, consulte [Depurar o at.js usando o depurador](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)da Adobe Experience Cloud.
 
 ## Se o target.js não for carregado durante a entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -148,9 +148,9 @@ Para ofertas remotas, a resposta da mbox poderá conter `/* invalid remote offer
 
 Você pode verificar a resposta da mbox no navegador ou por meio da mboxTrace. Consulte [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) para obter mais informações sobre URLs válidos.
 
-## as mboxes não são acionadas no meu site.
+## as mboxes não estão disparando no meu site.
 
-O at. js não dispara mboxes Target se estiver usando um tipo de docótipo inválido. A at.js exige o doctype HTML 5.
+A at.js não dispara mboxes Target se estiver usando um tipo de documento inválido. A at.js exige o doctype HTML 5.
 
 ## Vídeos de treinamento
 
