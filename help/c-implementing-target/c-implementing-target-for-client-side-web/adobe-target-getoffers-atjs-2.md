@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função adobe.target.getOffers() para at.js. '
-keywords: adobe. target. getoffers; Getoffers; getoffers; get ofertas; at. js; funções; função
+keywords: adobe.target.getOffers;getOffers;get offer;at.js;funções;função
 seo-description: Informações sobre a função adobe.target.getOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função adobe.target.getOffers() da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introdução
 title: adobe.target.getOffers(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -23,7 +23,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. Esta chave é uma sequência exclusiva por visitante. |
+| consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. Essa chave é uma string exclusiva por visitante. |
 | solicitação | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
 | timeout | Número | Não | tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
 
@@ -33,10 +33,10 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | --- | --- | --- | --- |
 | solicitação &gt; id | Não |  | Um de `tntId`, `thirdPartyId` ou `marketingCloudVisitorId` é obrigatório. |
 | Solicitação &gt; id &gt; thirdPartyId | Não | Tamanho máximo = 128 |  |  |
-| Request &gt; experiencecloud | Não |  |  |
-| Request &gt; experiencecloud &gt; analytics | Não |  | Integração do Adobe Analytics |
-| Solicitação &gt; experiencecloud &gt; analytics &gt; registro | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>Appmeasurement. js</li></ul> | Os seguintes valores são suportados:<br>**client_ side**: Quando especificado, uma carga de análise será retornada ao chamador que deve ser usada para enviar para o Adobe Analytics por meio da API de inserção de dados.<br>**server_ side**: Esse é o valor padrão em que o backend do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
-| Request &gt; pré-busca | Não |  |  |
+| Request &gt; experienceCloud | Não |  |  |
+| Request &gt; experienceCloud &gt; analytics | Não |  | Integração do Adobe Analytics |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>AppMeasurement.js</li></ul> | Os seguintes valores são suportados:<br>**client_side**: quando especificado, uma carga de análise será retornada ao chamador que deve ser usada para enviar ao Adobe Analytics por meio da API de inserção de dados.<br>**server_side**: esse é o valor padrão em que o back-end do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
+| Solicitação &gt; pré-busca | Não |  |  |
 | Solicitação &gt; pré-busca &gt; exibições | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome`<=` 128<br>Tamanho do valor `<=` 5000<br>O nome não deve começar com "perfil"<br>Nomes não permitidos: "orderId", "orderTotal", "productPurchasedId" | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; profileParameters | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=` 5000 <br>O nome não deve começar com "perfil" | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; produto | Não |  |  |
@@ -45,7 +45,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | Solicitação &gt; pré-busca &gt; exibições &gt; ordem | Não |  |  |
 | Solicitação &gt; pré-busca &gt; exibições &gt; ordem &gt; id | Não | Tamanho máximo = 250 | Transmita as IDs da ordem a serem usadas para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; pré-busca &gt; exibições &gt; ordem &gt; total | Não | Total`>=` 0 | Transmita os totais da ordem a serem usados para recuperar exibições relevantes nas atividades ativas. |
-| Solicitação &gt; pré-busca &gt; exibições &gt; ordem &gt; purchasedProductIds | Não | Nenhum valor em branco<br>Tamanho máximo de cada valor 50<br>Concatenado e separado por vírgula<br>Tamanho total das IDs do produto `<=` 250 | Transmita as IDs do produto adiquirido a serem usadas para recuperar exibições relevantes nas atividades ativas. |
+| Solicitação &gt; pré-busca &gt; exibições &gt; ordem &gt; purchasedProductIds | Não | Nenhum valor em branco<br>Tamanho máximo de cada valor 50<br>Concatenado e separado por vírgula<br>Tamanho total das IDs do produto `<=` 250 | Transmita as IDs do produto adquirido a serem usadas para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação &gt; executar | Não |  |  |
 | Solicitação &gt; executar &gt; pageLoad | Não |  |  |
 | Solicitação &gt; executar &gt; pageLoad &gt; parâmetros | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=` 5000<br>O nome não deve começar com "perfil".<br>Nomes não permitidos: "orderId", "orderTotal", "productPurchasedId" | Recupere as ofertas com os parâmetros especificados quando a página for carregada. |
@@ -74,8 +74,9 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Chamar getoffers () para recuperar a carga do Analytics no lado do cliente
+## Chame getOffers() para recuperar a carga do Analytics no cliente
 
 ```
 adobe.target.getOffers({
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-A carga pode ser encaminhada para o Adobe Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+A carga pode ser encaminhada ao Adobe Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados.
 
 ## Buscar e renderizar dados de várias mboxes via getOffers() e applyOffers() {#multiple}
 
