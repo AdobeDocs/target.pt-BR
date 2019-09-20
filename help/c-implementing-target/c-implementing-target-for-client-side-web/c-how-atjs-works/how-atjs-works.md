@@ -1,6 +1,6 @@
 ---
 description: O diagrama de sistema do Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
-keywords: diagrama do sistema; cintilação; Target Standard; at.js; implementação; biblioteca javascript; js
+keywords: diagrama do sistema; cintilação; Target Standard; at.js; implementação;biblioteca javascript;js
 seo-description: O diagrama de sistema do Adobe Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
 seo-title: Funcionamento do Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Como a at.js funciona
 topic: Padrão
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
 
 ---
 
@@ -25,7 +25,7 @@ A biblioteca [da at.js](/help/c-implementing-target/c-implementing-target-for-cl
 
 Para obter mais informações, consulte [Bibliotecas de JavaScript do Target](/help/c-intro/how-target-works.md#libraries).
 
-Na [!DNL Target] implementação ilustrada abaixo, as [!DNL Adobe Experience Cloud] seguintes soluções são implementadas: Analytics, Target e Gerenciamento de público-alvo. Além disso, os seguintes serviços principais da Experience Cloud são implementados: Adobe Launch, Audiences e Serviço de ID do visitante.
+In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. Além disso, os seguintes serviços principais da Experience Cloud são implementados: Adobe Launch, Audiences e Serviço de ID do visitante.
 
 ## Qual é a diferença entre os fluxogramas de trabalho do at.js 1.*x* e at.js 2.x tem fluxo de trabalho de diagramas?
 
@@ -34,7 +34,7 @@ Consulte [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target
 A partir de uma exibição de alto nível, há algumas diferenças entre as duas versões:
 
 * A at.js 2.x não tem um conceito global de solicitação de mbox, mas sim uma solicitação de carregamento de página. Uma solicitação de carregamento de página pode ser visualizada como uma solicitação para recuperar o conteúdo que deve ser aplicado no carregamento da página inicial do site.
-* A at.js 2.x gerencia os conceitos de Exibições usadas para Aplicativos de página única (SPAS). at.js 1.*x* não está ciente deste conceito.
+* O at.js 2.x gerencia conceitos chamados Exibições, que são usados para SPAs (Single Page Applications, Aplicativos de Página Única). at.js 1.*x* não está ciente deste conceito.
 
 ## diagramas at.js 2.x
 
@@ -49,7 +49,7 @@ Os diagramas a seguir ajudam a entender o fluxo de trabalho da at.js 2.x com Exi
 | 3 | Uma solicitação de carregamento de página é feita, incluindo todos os parâmetros configurados (MCID, SDID e ID do cliente). |
 | 4 | Os scripts de perfil executam e, em seguida, fazem o feed na Loja do perfil. A Loja solicita que os públicos-alvos qualificados da Biblioteca de público-alvos (por exemplo, públicos alvos compartilhados do Adobe Analytics, Gerenciamento de público-alvo etc.).<br>Os atributos do cliente são enviados à Loja de perfis em um processo em lote. |
 | 5 | Com base nos parâmetros de solicitação de URL e dados de perfil, [!DNL Target] decide quais atividades e experiências retornarão ao visitante para a página atual e para as exibições futuras. |
-| 6 | O conteúdo direcionado é enviado de volta para a página, incluindo, opcionalmente, valores de perfil para personalização adicional.<br>O conteúdo direcionado na página atual é revelado o mais rápido possível sem cintilação do conteúdo padrão.<br>Conteúdo direcionado para exibições que são mostradas como resultado das ações do usuário em um SPA, que é armazenado em cache no navegador para que possa ser aplicado instantaneamente, sem uma chamada de servidor adicional, quando as exibições forem acionadas `triggerView()`. |
+| 6 | O conteúdo direcionado é enviado de volta para a página, incluindo, opcionalmente, valores de perfil para personalização adicional.<br>O conteúdo direcionado na página atual é revelado o mais rápido possível sem cintilação do conteúdo padrão.<br>O conteúdo direcionado para exibições que são mostradas como resultado das ações do usuário em um SPA é armazenado em cache no navegador, de modo que possa ser aplicado instantaneamente sem uma chamada de servidor adicional quando as exibições forem acionadas `triggerView()`. |
 | 7 | Os dados do Analytics são enviados ao servidores de Coleção de dados. |
 | 8 | Os dados direcionados correspondem aos dados do Analytics por meio da SDID e são processados no armazenamento de relatórios do Analytics.<br>Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do Analytics for Target (A4T). |
 
@@ -68,7 +68,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 ## diagrama do at.js 1.x
 
-![Fluxo do Target - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Fluxo de destino - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Etapa | Descrição | Chama | Descrição |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 | 5 | Com base no URL, nos parâmetros mbox e nos dados do perfil, o [!DNL Target] decide quais atividades e experiências são retornadas ao visitante. | 6 | O conteúdo direcionado é retornado à página, opcionalmente incluindo os valores de perfil para personalização adicional.<br>A experiência é revelada o mais rápido possível sem cintilação do conteúdo padrão. |
 | 7 | Os dados do [!DNL Analytics] são enviados ao servidores de Coleção de dados. | 8 | Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] pela SDID, e processados no armazenamento de relatório do [!DNL Analytics].<br>[!DNL Analytics] Os dados podem ser exibidos no [!DNL Analytics] e no [!DNL Target] pelos relatórios do [!DNL Analytics for Target] (A4T). |
 
-## Como o at. js renderiza ofertas com conteúdo HTML {#render}
+## Como o at.js renderiza ofertas com conteúdo HTML {#render}
 
-Ao renderizar ofertas com conteúdo HTML, o at. js aplica o seguinte algoritmo:
+Ao renderizar ofertas com conteúdo HTML, o at.js aplica o seguinte algoritmo:
 
 1. As imagens são pré-carregadas (se houver `<img>` tags no conteúdo HTML).
 
 1. O conteúdo HTML é anexado ao nó DOM.
 
-1. Os scripts incorporados são executados (código delimitado nas `<script>` tags).
+1. Scripts incorporados são executados (código delimitado por `<script>` tags).
 
-1. Scripts remotos são carregados de forma assíncrona e executada (`<script>` tags com `src` atributos).
+1. Os scripts remotos são carregados de forma assíncrona e executados (`<script>` tags com `src` atributos).
 
 Observações importantes:
 
-* O at. js não fornece nenhuma garantia na ordem da execução de scripts remotos, já que são carregados de forma assíncrona.
-* Os scripts incorporados não devem ter dependências nos scripts remotos, pois são carregados e executados posteriormente.
+* O at.js não fornece garantias sobre a ordem de execução remota de scripts, pois eles são carregados de forma assíncrona.
+* Scripts incorporados não devem ter nenhuma dependência em scripts remotos, pois eles são carregados e executados posteriormente.
 
 ## Vídeo de treinamento: diagrama de arquitetura da at.js 2.x
 
@@ -100,4 +100,4 @@ A at.js 2.x aprimora o suporte do Adobe Target para SPAs e integra-se com outras
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
 
-Consulte [Entendendo como at. js 2. x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+Consulte [Como o at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
