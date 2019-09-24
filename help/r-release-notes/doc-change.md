@@ -1,14 +1,14 @@
 ---
 description: Essa página lista alterações importantes feitas à documentação do Target.
 keywords: registro de alterações da documentação do target, atualizações da documentação
-seo-description: Esta página lista alterações importantes feitas na documentação do Adobe Target.
+seo-description: This page lists important changes made to the Adobe Target documentation.
 seo-title: Alterações de documentação na documentação do produto Adobe Target.
 solution: Target
 title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -21,6 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 24 de setembro de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Data da versão do Target/Standard 19.2.1 alterada para 30 de setembro de 2019. |
+|  | [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md) | Adição de vídeo de treinamento. |
 | 10 de setembro de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 19.9.1. |
 | 9 de setembro de 2019 | [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Adicionada a seção "Considerações". |
 |  | [Políticas de cookies do Google Chrome para SameSite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Texto atualizado para o tópico inteiro. |
@@ -56,23 +58,23 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Observação atualizada indicando quanto tempo o processo de classificação leva para ser concluído. |
 |  | [Regras de privacidade e proteção de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Tópico atualizado para incluir informações sobre o California Consumer Privacy Act (CCPA). |
 | 6 de agosto de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adicionadas notas de versão para a versão do Target Mobile VEC SDK iOS 2.1.0 e Android 1.1.0. |
-|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | A seguinte seção foi atualizada: "Tempo de processamento de critérios esperado." |
-|  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Consideração atualizada sobre o uso das métricas Impressões [!UICONTROL de] atividade e Conversões [!UICONTROL de] atividade em [!DNL Analysis Workspace]. |
+|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Updated the following section: "Expected criteria processing time." |
+|  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Updated consideration about using Activity Impressions and Activity Conversions metrics in .[!DNL Analysis Workspace] |
 | 1 de agosto de 2019 | [Notas de versão do Target (atuais)](/help/r-release-notes/release-notes.md) | Foi adicionado um anúncio importante sobre o suporte à API para Permissões corporativas. |
-|  | [Conceder acesso às integrações de E/S da Adobe para espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Novo tópico. |
-| 31 de julho de 2019 | [Introdução ao Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Novo tópico. |
-|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Foi adicionada uma observação aos itens visualizados recentemente. |
-|  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Foi adicionado um problema conhecido com os links de visualização de QA da atividade. |
-| 29 de julho de 2019 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Novas perguntas frequentes adicionadas: "Por que meus relatórios [!UICONTROL de direcionamento] de experiência (XT) contêm métricas para experiências de controle?" |
-| 24 de julho de 2019 | [Atualização de at.js 1.*x* para at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Nova seção adicionada: Suporte de rastreamento [entre domínios em at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
-|  | [Prevenção de rastreamento inteligente da Apple (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Novo tópico. |
-|  | [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md#status) | Nova seção adicionada: "Visualizando o status da oferta de recomendações." |
-|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | A linha "Importando itens" foi atualizada e adicionada a linha "Feed importado com sucesso no *momento*" em Status [de feed](/help/c-recommendations/c-products/feeds.md#status). |
-|  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md) | Texto atualizado sobre como o catálogo é atualizado. |
-|  | [Configurar o rastreamento de cliques no para aplicativos móveis](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Foram adicionadas informações sobre o painel Modificações que mostra os elementos configurados para o rastreamento de cliques. |
+|  | [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Novo tópico. |
+| 31 de julho de 2019 | [Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Novo tópico. |
+|  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Added note to Recently Viewed Items. |
+|  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Added known issue with Activity QA preview links. |
+| 29 de julho de 2019 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my Experience Targeting (XT) reports contain metrics for control experiences?" |
+| 24 de julho de 2019 | [Atualização de at.js 1.*x* para at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: Cross-domain tracking support in at.js 2.x[](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Novo tópico. |
+|  | [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md#status) | Added new section: "Viewing the recommendations offer's status." |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status). |
+|  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md) | Updated text about how the catalog is refreshed. |
+|  | [Configurar o rastreamento de cliques no para aplicativos móveis](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Added information about the Modifications panel that shows elements you have set up for click-tracking. |
 |  | [Funcionamento do Adobe Target](/help/c-intro/how-target-works.md#bots) | Nova seção adicionada: "Bots." |
 |  | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Adicionadas as práticas recomendadas para evitar a execução regex lenta. |
-|  | [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | Atualização da seção Solução de problemas para refletir que as restrições de caracteres não se aplicam mais aos nomes dos aplicativos. As restrições se aplicam somente a IDs. |
+|  | [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. The restrictions apply to IDs only. |
 |  | [Feeds](/help/c-recommendations/c-products/feeds.md#steps) | Adicionadas as configurações do servidor FTP com suporte às etapas. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a at.js 2.1.1. |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 19.7.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
