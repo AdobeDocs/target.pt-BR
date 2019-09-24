@@ -8,7 +8,7 @@ title: Recommendations como uma oferta
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -34,7 +34,7 @@ Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direc
    >
    >Para Testes A/B, lembre-se de que você pode escolher a opção [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para impulsionar automaticamente o tráfego para a recomendação com melhor desempenho ou a opção [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) para atribuir os visitantes a experiências de recomendação personalizadas com base em seus perfis.
 
-1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
+1. Ao criar uma [experiência](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), clique no elemento ao qual deseja adicionar uma recomendação como uma oferta, selecione a ação **[!UICONTROL Inserir antes]**, **[!UICONTROL Inserir após]** ou **[!UICONTROL Substituir por]** e selecione [!UICONTROL Recomendação.]
 
    A ilustração a seguir mostra a opção [!UICONTROL Inserir após &gt; Recomendação].
 
@@ -112,12 +112,16 @@ Há duas maneiras de excluir uma oferta do recommendations:
 
    ![Ícone de Excluir](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### Exibir o status da oferta de recomendações {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
 * Resultados prontos
 * Resultados não prontos
-* Falha do feed
+* Falha no feed
 
 ![Status da oferta do Recommendations](/help/c-recommendations/assets/recs-offer-status.png)
+
+## Vídeo de treinamento: Recomendações como oferta
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=por_br)
