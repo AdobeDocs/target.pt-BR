@@ -8,7 +8,7 @@ title: Visão geral do design
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -91,7 +91,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 | Parâmetro | Valor |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em .../target/products.html#recsSettings Token de API do Recommendations &gt; Código do cliente. |
-| `[YOUR_MBOX_NAME]` | O nome que você selecionou na seção "locais" do Recommendations baseado em formulário, neste caso YOUR_CLIENT_CODE. |
+| `[YOUR_MBOX_NAME]` | O nome selecionado na seção "Locais" das Recomendações baseadas em formulários, neste caso Sample_Recs_Response. |
 | `[ENTITY_ID`] | O `entity.id` de um item em seu catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
 
