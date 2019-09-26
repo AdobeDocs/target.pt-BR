@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/pt-BR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -141,6 +141,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
    + Lado do servidor: implementação do Target {#server-side}
       + [Notas de versão - APIs e SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Lado do servidor: implementar a visão geral do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [Sinalização de recurso](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [Transição de APIs herdadas do Target para o Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implementação do Target {#implement-email}
       + [Email: implementação da visão geral do Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
