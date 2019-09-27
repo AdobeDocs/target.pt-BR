@@ -8,7 +8,7 @@ title: Alocação automática
 topic: Padrão
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -171,7 +171,7 @@ No momento, a lógica favorece visitantes que convertem rapidamente ou visitam c
 
 **Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?**
 
-Você pode usar a calculadora de tamanho [de amostra existente](https://docs.adobe.com/content/target-microsite/testcalculator.html) com a correção de Bonferroni aplicada apropriadamente para obter uma estimativa de quanto tempo será a execução do teste. Em nossos experimentos, vimos a atividade de alocação automática terminar muito mais cedo do que esse tamanho de amostra.
+Você pode usar a calculadora de tamanho [de amostra existente](https://docs.adobe.com/content/target-microsite/testcalculator.html) com a correção de Bonferroni aplicada apropriadamente para obter uma estimativa de quanto tempo será a execução do teste. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessária. Em nossos experimentos, vimos a atividade de alocação automática terminar muito mais cedo do que esse tamanho de amostra.
 
 **Devo remover uma experiência com baixo desempenho de uma atividade de Alocação automática para acelerar o processo de decisão de um vencedor?**
 
