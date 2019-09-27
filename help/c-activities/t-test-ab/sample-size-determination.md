@@ -7,7 +7,7 @@ solution: Target
 title: Por quanto tempo você deve executar um teste A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -34,7 +34,7 @@ O Target fornece ferramentas para ajudar a garantir que sua atividade tenha um t
 
    Para obter mais informações, consulte [Alocação automática](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Calculadora de tamanho de amostra do Target:** se você optar por usar um teste A/B manual em vez de alocar automaticamente, a Calculadora de tamanho de amostra do Target ajudará a determinar o tamanho de amostra necessário para um teste bem-sucedido. Continue a let para obter mais informações sobre como usar a calculadora.
+* **Calculadora de tamanho de amostra do Target:** se você optar por usar um teste A/B manual em vez de alocar automaticamente, a Calculadora de tamanho de amostra do Target ajudará a determinar o tamanho de amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, então a calculadora é extremamente útil. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessária. Continue a let para obter mais informações sobre como usar a calculadora.
 
 ## Calculadora de tamanho da amostra do Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
