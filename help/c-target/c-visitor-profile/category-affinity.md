@@ -1,7 +1,7 @@
 ---
 description: O recurso de afinidade de categorias captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
 keywords: afinidade, afinidade de categorias
-seo-description: O recurso de afinidade de categoria no Adobe Target captura automaticamente as categorias que um usuário visita e calcula a afinidade do usuário da categoria para que possa ser direcionada e segmentada. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
+seo-description: O recurso de afinidade de categorias no Adobe Target captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
 seo-title: Usar a afinidade de categorias no Adobe Target
 solution: Target
 title: Afinidade de categorias
@@ -31,7 +31,7 @@ Use `user.categoryAffinities[]` em um script de perfil para retornar uma matriz 
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` é necessário rastrear a categoria favorita de um usuário. `entity.categoryId` é necessário para basear as recomendações na categoria da página atual ou do item atual. Passe ambos os valores para o Adobe Target caso deseje usar ambos os recursos.
+>O atributo `user.categoryId` usado para o algoritmo de afinidade de categorias do Adobe Target é diferente do atributo `entity.categoryId` usado nas recomendações de produto e conteúdo do Adobe Target Recommendations. O `user.categoryId` é necessário rastrear a categoria favorita de um usuário. O `entity.categoryId` é necessário para basear as recomendações na categoria da página ou do item atual. Passe ambos os valores para o Adobe Target caso deseje usar os dois recursos.
 
 ## Caso de negócios para afinidade de categoria {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -121,7 +121,7 @@ Esta seção contém as seguintes informações:
 
 1. Selecione a categoria desejada:
 
-   ![Afinidade de categoria &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Afinidade de categorias &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    As categorias incluem:
 
