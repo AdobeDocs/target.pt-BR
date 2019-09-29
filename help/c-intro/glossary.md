@@ -1,5 +1,5 @@
 ---
-description: Definições de termos usados no Adobe Target.
+description: Definições dos termos usados no Adobe Target.
 seo-description: Definição de termos.
 seo-title: Glossário do Adobe Target
 solution: Target
@@ -26,7 +26,7 @@ O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual
 
 Painel que exibe uma breve visão geral das atividades.
 
-**ilegal**
+**atividade**
 
 Permite testar designs de páginas e conteúdo direcionado para públicos-alvo específicos.
 
@@ -52,7 +52,7 @@ A [!DNL at.js] é uma nova biblioteca de implementação do [!DNL Adobe Target],
 
 **público-alvo**
 
-Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio oeste. O recurso Público-alvo permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, exibindo as mensagens certas para as pessoas certas na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência será exibida, com base em critérios definidos durante a criação da atividade.
+Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criada.
 
 **Alocação automática**
 
@@ -76,11 +76,11 @@ Testa e acompanha visita para anúncios e outros conteúdos de deslocamento. Tam
 
 **campaign**
 
-Igual a "atividade"
+O mesmo que "atividade"
 
 **pontuação de captura**
 
-Uma métrica de envolvimento que calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox de exibição da atividade.
+Uma métrica de envolvimento que calcula a pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox da atividade.
 
 **catálogo**
 
@@ -120,7 +120,7 @@ Gerenciador de Ativo Digital. A biblioteca que contém itens a serem usados como
 
 É exibido quando o visitante não atende aos requisitos do teste ou quando o conteúdo padrão é usado como controle no teste.
 
-**predefinido**
+**projeto**
 
 HTML habilitado para modelo que exibe seus itens recomendados para a página da Web. Um design define a aparência das recomendações em uma atividade do Recommendations.
 
@@ -134,7 +134,7 @@ Pode fazer parte de qualquer tipo de teste ou atividade. Não é necessário pro
 
 **mbox dinâmica**
 
-Permite que os RIA (Rich Internet Applications) manipulem o HTML após a página já ter sido carregada, usando tecnologias como DHTML e AJAX.
+Permite que aplicativos RIA (Rich Internet Applications) manipulem o HTML após a página já ter sido carregada usando tecnologias como DHTML e AJAX.
 
 **oferta dinâmica**
 
@@ -144,7 +144,7 @@ Utiliza tecnologia de página dinâmica para enviar valores à oferta.
 
 **engagement**
 
-A medida do interesse de um visitante em um site, medida por tempo no site, cliques, conversões e outras métricas de envolvimento.
+A medida de interesse de um visitante em um site que avalia o tempo no site, os cliques, as conversões e outras métricas de envolvimento.
 
 **enhanced experience composer**
 
@@ -152,7 +152,7 @@ O [!UICONTROL Enhanced Experience Composer] é uma extensão do [!UICONTROL Visu
 
 **Permissões de usuário empresarial**
 
-Um meio de administração formal de acesso de usuário empresarial ao Target. Adicione usuários ao Target, atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de Observador, Editor ou Aprovador.
+Um meio de administrar formalmente o acesso de usuários empresariais no Target. Adicione usuários ao Target, atribua permissões com base em funções e crie espaços de trabalho para as equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. É possível atribuir aos usuários as funções de Observador, Editor ou Aprovador.
 
 **atributos da entidade**
 
@@ -168,9 +168,9 @@ Os hosts são agrupados em ambientes para facilitar o gerenciamento. Os grupos d
 
 **experiência**
 
-Uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez formam um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de serviço ao cliente ou até mesmo um gosto personalizado de uma máquina bebida. You test or personalize experiences in [!DNL Target] activities.
+Uma oferta, imagem, texto, botão, vídeo, combinação desses diferentes elementos em uma página, uma página da Web completa ou um conjunto de páginas que talvez formem um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de atendimento ao cliente ou até mesmo um sabor personalizado de uma máquina bebidas. Teste ou personalize experiências nas atividades do [!DNL Target].
 
-**direcionamento da experiência**
+**direcionamento de experiência**
 
 O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 
@@ -186,13 +186,13 @@ A representação visual de uma atividade no Target Standard.
 
 **Experience Composer baseado em formulário**
 
-Uma experiência não visual e uma interface de criação de ofertas útil na criação de experiências para uso em testes A/B, atividades de direcionamento de experiência, personalização automatizada e atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou prático para uso. Por exemplo, você pode usar o compositor baseado em forma para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
+Uma interface de criação de ofertas e experiências não visuais que é útil na criação de experiências para uso em testes A/B, no Direcionamento de experiência, na Personalização automatizada e em atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou não for prático. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **parâmetro de localização geográfica**
 
-Permite direcionar atividades e experiências com base na localização geográfica dos visitantes. Também conhecido como parâmetro geolocalização.
+Permite direcionar atividades e experiências com base na localização geográfica de seus visitantes. Também conhecido como parâmetro geolocalização.
 
 **meta**
 
@@ -218,7 +218,7 @@ Parâmetro específico do visitante enviado ao respectivo cookie pela mbox. Visi
 
 **atividade de página de aterrissagem**
 
-Uma atividade de página de aterrissagem permite que você use o direcionamento para exibir diferentes conteúdos da página de aterrissagem para diferentes visitas. Caso contrário, a página de aterrissagem mostrará o mesmo conteúdo para cada visita. Uma atividade de página de aterrissagem compara diferentes versões da página para ajudá-lo a ver qual versão da página de aterrissagem produz resultados mais bem sucedidos. No Target Standard, substituída pelo *direcionamento de experiência*.
+Permite usar a segmentação para exibir diferentes conteúdos de página de aterrissagem para diversas visitas. Caso contrário, a página de aterrissagem mostrará o mesmo conteúdo para cada visita. Uma atividade de página de aterrissagem compara diferentes versões da página para ajudá-lo a ver qual versão da página de aterrissagem produz resultados mais eficazes. No Target Standard, substituída pelo *direcionamento de experiência*.
 
 **localização**
 
@@ -236,7 +236,7 @@ Antes do 16.3.1, o [!DNL Target] exigia uma chamada à [!DNL mbox.js] para criar
 
 **parâmetro da mbox**
 
-Transmitido na página, não no URL. Os parâmetros são usados para transmitir dados do banco de dados e rastrear os dados de vendas ou executar o Adobe Recommendations. Também conhecido como parâmetro de página.
+Transmitido na página, não no URL. Parâmetros são utilizados para enviar dados a partir de seu banco de dados e rastrear os dados de vendas ou executar o Adobe Recommendations. Também conhecido como parâmetro de página.
 
 **teste multivariado**
 
@@ -254,13 +254,13 @@ Uma oferta é o conteúdo exibido em uma mbox durante atividades e testes. Uma e
 
 **link para opção de não participação**
 
-Permite que os visitantes optem por não participar de todo o rastreamento e entrega de conteúdo.
+Permite que os visitantes optem por não participar de nenhum rastreamento ou entrega de conteúdo.
 
 ## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **contagem de página**
 
-Uma métrica de envolvimento que mede o número de páginas vistas em uma visita a partir do momento em que o visitante exibe a primeira mbox da atividade.
+Uma métrica de envolvimento que mede o número de páginas visualizadas em uma visita a partir do momento em que o visitante exibe a primeira mbox da atividade.
 
 **prioridade**
 
@@ -278,7 +278,7 @@ Redireciona o visitante para uma página da Web diferente. Use este Redirecionad
 
 **parâmetro de URL de referência**
 
-Envia os valores à mbox da página de destino como valores e parâmetros de URL de referência. Utilize-os para definir como meta a origem do visitante, por exemplo.
+Envia os valores à mbox da página de destino como valores e parâmetros de URL de referência. Utilize-os para definir metas para a origem do visitante, por exemplo.
 
 **função**
 
@@ -290,17 +290,17 @@ Para hospedar conteúdo fora do [!DNL Target], use ofertas remotas, que o [!DNL 
 
 **relatórios**
 
-Os relatórios fornecem informações sobre o progresso e os resultados de suas atividades que ajudam a tomar decisões com base em seus dados. Os dados do relatório podem ajudá-lo a decidir quando finalizar um teste, mostrar qual experiência ou oferta é o vencedor e fornecer insights necessários para determinar as próximas ações.
+Os relatórios fornecem informações sobre o progresso e os resultados das suas atividades que ajudam a tomar decisões baseadas em dados. Os dados dos relatórios podem ajudá-lo a decidir quando finalizar um teste, mostrar a experiência ou a oferta vencedora e fornecer os insights necessários para determinar as próximas ações.
 
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **parâmetro do perfil de script**
 
-Semelhante ao parâmetro de perfil in-mbox, mas definido com javascript que é executado no backend do Target, em vez do navegador.
+Semelhante ao parâmetro de perfil in-mbox, mas definido com um JavaScript que é executado no back-end do Target, não no navegador.
 
 **segmento**
 
-Um conjunto especificado de critérios usados para direcionar uma atividade. Somente os visitantes que atendem aos critérios veem o conteúdo de uma atividade direcionada para esse segmento. Alguns segmentos podem ser reutilizados em várias atividades e outros são específicos de uma atividade.
+Um conjunto específico de critérios usado para direcionar uma atividade. Apenas os visitantes que atendem aos critérios podem ver o conteúdo de uma atividade direcionada a determinado segmento. Alguns segmentos podem ser reutilizados em várias atividades e outros são específicos de uma atividade.
 
 **filtro de segmento**
 
@@ -308,37 +308,37 @@ Um filtro de relatório que exibe relatórios relacionados a um segmento especí
 
 **aplicativo de página única**
 
-Um aplicativo de página única (SPA) é um aplicativo da Web ou site que se ajusta em uma única página da Web para fornecer uma experiência de usuário mais fluida, semelhante a um aplicativo de desktop.
+Um aplicativo de página única (SPA) é um aplicativo ou site da Web que cabe em uma única página da Web para fornecer uma experiência do usuário mais fluida, semelhante a um aplicativo de desktop.
 
 **métricas de sucesso**
 
-Os parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta ou adicionar um item a um carrinho de compras aumenta sua receita por visitante. As métricas de sucesso podem ser úteis para descobrir problemas com registro, pedidos ou funis de compra, mas simplesmente com envolvimento de visitante ou cliente.
+Os parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta ou a adição de um item a um carrinho de compras aumenta sua receita por visitante. As métricas de sucesso podem ser úteis para descobrir problemas nos funis de registro, pedido ou compra, além de facilitar a descoberta de problemas no envolvimento de visitantes ou clientes.
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **teste**
 
-Uma atividade que compara duas ou mais experiências em relação às métricas de sucesso que você especificar, para que você possa escolher a experiência daquela com maior probabilidade de fornecer os resultados desejados.
+Uma atividade que compara duas ou mais experiências em relação às métricas de sucesso especificadas para que você possa escolher a experiência mais provável de oferecer os resultados desejados.
 
 **tempo no site**
 
-Um tipo de envolvimento que representa o tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira mbox de exibição da atividade até o carregamento da página final em uma sessão com uma mbox.
+Um tipo de envolvimento que representa o tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira mbox de exibição da atividade até o carregamento da página final na sessão com uma mbox.
 
 ## U {#section_6407B81326FF43049D92265746E6C402}
 
 **Parâmetros de URL**
 
-Todas as página de referência de URL e variáveis de página são automaticamente enviadas para a mbox, sempre que a página com a mbox é visualizada por qualquer visitante. Essas variáveis de URL ficam disponíveis para uso por meio de definição de metas de exibição ou filtros de segmento nos relatórios.
+Todas as página de referência de URL e variáveis de página são automaticamente enviadas para a mbox, sempre que a página com a mbox é visualizada por qualquer visitante. Essas variáveis de URL ficam disponíveis para definição de metas de exibição ou filtros de segmento em relatórios.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visitante**
 
-Um visitante é qualquer pessoa que acessa seu site. Um visitante é avaliado em relação aos critérios da atividade para determinar se o visitante está incluído em uma atividade. Consulte *novato*.
+Um visitante é qualquer pessoa que acessa seu site. Um visitante é avaliado em relação aos critérios da atividade para determinar se deve ser incluído nela. Consulte *novato*.
 
 **Visual Experience Composer**
 
-No Target Standard, uma interface de usuário WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta).
+No Target Standard, uma interface WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta).
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
