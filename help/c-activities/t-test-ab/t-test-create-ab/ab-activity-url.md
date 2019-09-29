@@ -25,13 +25,13 @@ Quando solicitado durante a criação da atividade, especifique o URL da ativida
 
 ## Especificar um URL diferente
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Você pode especificar uma página diferente durante a criação da atividade.
+Por padrão, o [!UICONTROL Visual Experience Composer] abre a página especificada nas suas [Preferências da conta do Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Você pode especificar uma página diferente durante a criação da atividade.
 
 Para exibir uma página diferente depois que o [!UICONTROL Visual Experience Composer] é aberto, clique no ícone de engrenagem **[!UICONTROL Configurar]** e selecione **[!UICONTROL Entrega da página]**. Insira o URL no campo URL da atividade.
 
 ![Caixa de diálogo Entrega de página](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-Clique em **[!UICONTROL Adicionar regra ao modelo]para adicionar mais páginas ou seções à atividade.**
+Clique em **[!UICONTROL Adicionar regra ao modelo]** para adicionar mais páginas ou seções à atividade.
 
 Regras adicionais podem ser baseadas em qualquer um dos seguintes:
 
