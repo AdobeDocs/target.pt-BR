@@ -1,7 +1,7 @@
 ---
 description: Adicione itens promovidos e controle o posicionamento nos designs do Recommendations. É possível adicionar promoções estáticas e dinâmicas.
 keywords: promoções, promoções principais, promoções secundárias, tipo de promoções
-seo-description: Adicione itens promovidos e controle sua posição em seus designs do Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
+seo-description: Adicione itens promovidos e controle o posicionamento nos designs do Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
 seo-title: Adicione promoções em designs do Adobe Target Recommendations.
 solution: Target
 title: Adicionar promoções
@@ -25,7 +25,7 @@ Adicione itens promovidos e controle o posicionamento nos designs do Recommendat
 
 Quando você cria uma atividade do [!DNL Recommendations], tem a opção de incluir itens promovidos no design do [!DNL Recommendations]. As promoções usam os espaços disponíveis em um design e têm precedência sobre as recomendações de back-up e os resultados de critérios. Por exemplo, se seu design tiver seis espaços e você usar dois deles para promoções, quatro espaços estarão disponíveis para os itens recomendados com base em critérios.
 
-As promoções são desduplicadas em relação a itens recomendados pelos critérios para a atividade, portanto um determinado item não aparece duas vezes em uma bandeja de recomendação única.
+As promoções são deduplicadas em relação aos itens recomendados pelos critérios para a atividade; portanto, um determinado item não aparecerá duas vezes em uma bandeja de recomendação.
 
 É possível promover itens específicos, promover itens dinamicamente, promover itens com base em atributos ou promover coleções.
 
@@ -35,11 +35,11 @@ As promoções são desduplicadas em relação a itens recomendados pelos crité
 >
 >O uso de promoções altera a estrutura e a saída do CSV. Essas alterações podem afetar qualquer processo externo que envolva CSV, como email.
 
-1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
+1. Na página **[!UICONTROL Opções]**, clique no botão de alternância **[!UICONTROL Promoção principal]** ou **[!UICONTROL Promoção secundária]**.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
+   A ilustração a seguir mostra o botão [!UICONTROL Promoção principal] na posição "Ligado".
 
-   ![Adicionar opções de Promoção frontal](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
+   ![Adicionar opções de Promoção principal](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    É possível inserir promoções antes *e* depois dos resultados dos seus critérios.
 1. Defina o número de espaços de design a serem usados para os itens promovidos.
@@ -48,13 +48,13 @@ As promoções são desduplicadas em relação a itens recomendados pelos crité
 
 1. Defina uma data de início e uma data de término para os itens promovidos.
 
-   Se você não definir uma data de início, a promoção começará imediatamente. Se você não definir uma data final, a promoção será executada indefinidamente.
+   Se você não definir uma data de início, a promoção começará imediatamente. Se você não definir uma data de término, a promoção será executada indefinidamente.
 
 1. Selecione um **[!UICONTROL Tipo de promoção]**.
 
    * Selecione **[!UICONTROL Lista de itens]** e insira os valores de `entity.id`, separados por vírgulas, dos itens específicos que você deseja promover.
 
-      Se sua lista incluir mais itens do que o número de espaços definido para as promoções, será possível marcar a caixa de seleção **[!UICONTROL Randomizar a ordem dos itens]para variar os itens promovidos exibidos em seu design.** Escolher essa opção resulta em um Target aleatoriamente selecionando o número de itens ativados para promoções no modelo de toda a promoção definida para cada visita.
+      Se sua lista incluir mais itens do que o número de espaços definido para as promoções, será possível marcar a caixa de seleção **[!UICONTROL Randomizar a ordem dos itens]** para variar os itens promovidos exibidos em seu design. Escolher esta opção fará com que o Target selecione aleatoriamente o número de itens ativados para as promoções no modelo de todo o conjunto de promoções para cada visita.
 
    * Selecione **[!UICONTROL Promover por atributo]e adicione as regras para definir os atributos dos itens que deseja remover.**
 
