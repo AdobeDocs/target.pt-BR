@@ -1,8 +1,8 @@
 ---
-description: Informações sobre plug-ins com suporte e não compatíveis no Target.
-keywords: plug-plugins do at. js; plug-plugins compatíveis; plug-plugins não compatíveis; Ttmeta; ttmeta; Mboxtrack
-seo-description: Informações sobre plug-ins com suporte e não compatíveis com o Adobe Target.
-seo-title: Plug-ins do at. js para o Adobe Target
+description: Informações sobre plug-ins do at.js suportados e não suportados no Target.
+keywords: plug-ins at.js;plug-ins suportados;plug-ins não suportados;ttMeta;ttmeta;mboxTrack
+seo-description: Informações sobre plug-ins do at.js suportados e não suportados para o Adobe Target.
+seo-title: plug-ins at.js para o Adobe Target
 solution: Target
 title: Plug-ins da at.js
 topic: Padrão
@@ -15,7 +15,7 @@ source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 # at.js plug-ins{#at-js-plug-ins}
 
-Informações sobre plug-ins com suporte e não compatíveis com o Adobe Target.
+Informações sobre plug-ins do at.js suportados e não suportados no Adobe Target.
 
 Muitas pessoas criaram plug-ins personalizados e plug-ins de resposta para a [!DNL mbox.js]. Esses plug-ins personalizados podem não ser compatíveis com a [!DNL at.js] sem ser atualizados.
 
