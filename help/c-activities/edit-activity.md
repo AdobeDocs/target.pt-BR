@@ -19,15 +19,15 @@ Informações sobre as diferentes maneiras de editar uma atividade existente, in
 
 O destino fornece vários locais na IU onde você pode editar atividades existentes. Esse processo varia conforme o método escolhido por você.
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edite uma atividade usando o botão de flutuação na página Atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Na página **[!UICONTROL Atividades]**, passe o mouse sobre a atividade que deseja editar, depois clique no ícone **Editar[!UICONTROL .]**
+1. Na página **[!UICONTROL Atividades]**, passe o mouse sobre a atividade que deseja editar, depois clique no ícone **[!UICONTROL Editar]**.
 
    ![Ícone Editar](/help/c-activities/assets/hover_edit.png)
 
    O Target abre a atividade no Visual Experience Composer (VEC) e você visualiza a página [!UICONTROL Experiências] (a primeira etapa do fluxo de trabalho guiado três etapas).
 
-1. Edite a atividade conforme desejado usando as opções [de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edite a atividade conforme desejado usando as [opções de VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Clique no botão dividir para avançar para a próxima etapa ou para salvar a atividade.
 
@@ -37,9 +37,9 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
    * **Salvar e fechar:** Faça as alterações desejadas na etapa atual, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página [!UICONTROL Visão geral].
    * **Salvar:** Faça as alterações desejadas em uma etapa, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Salvar]** para salvar suas alterações e permanecer naquela etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edite uma atividade abrindo a atividade clicando no seu nome na página Atividades {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Para evitar a necessidade de percorrer todo o fluxo de trabalho, clique na atividade desejada na página Atividades para abri-la, depois selecione uma opção na lista suspensa **[!UICONTROL Editar atividade].**
+1. Para evitar a necessidade de percorrer todo o fluxo de trabalho, clique na atividade desejada na página Atividades para abri-la, depois selecione uma opção na lista suspensa **[!UICONTROL Editar atividade]**.
 
    ![Menu suspenso Editar atividade](/help/c-activities/assets/edit_activity.png)
 
@@ -62,7 +62,7 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
 
 ## Trabalhar com atividades herdadas criadas no Recommendations Classic {#classic}
 
-As [!UICONTROL atividades de exibição da lista de atividades] são exibidas em várias fontes, incluindo [!DNL Recommendations Classic]. As seguintes ações estão disponíveis ao trabalhar com atividades herdadas criadas em [!DNL Recommendations Classic]:
+A lista [!UICONTROL Atividades] exibe atividades criadas em várias fontes, incluindo [!DNL Recommendations Classic]. As seguintes ações estão disponíveis ao trabalhar com atividades herdadas criadas em [!DNL Recommendations Classic]:
 
 * [!UICONTROL Ativar]
 * [!UICONTROL Desativar]
@@ -70,9 +70,9 @@ As [!UICONTROL atividades de exibição da lista de atividades] são exibidas em
 * [!UICONTROL Copiar]
 * [!UICONTROL Excluir]
 
-Não é possível editar uma [!DNL Recommendations] atividade diretamente. Se você quiser editar a atividade, crie uma cópia da atividade usando [!DNL Target Premium] e depois salve a atividade recém criada. Essa atividade recém-criada pode ser editada conforme necessário.
+Não é possível editar uma [!DNL Recommendations] atividade diretamente. Se quiser editar a atividade, você deve criar uma cópia da atividade usando [!DNL Target Premium] e salvar a atividade recém-criada. Essa atividade recém-criada pode ser editada conforme necessário.
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Salvar uma atividade no formato de rascunho {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Ao criar uma nova atividade que ainda não foi salva ou ao editar uma atividade que tinha sido salva no formato de rascunho, as opções Salvar rascunho são exibidas no botão dividido.
 
@@ -93,7 +93,7 @@ Um espaço de trabalho permite que uma organização atribua um conjunto especí
 
 >[!NOTE]
 >
->Os espaços de trabalho são parte da funcionalidade Propriedades e permissões, disponível como parte da solução [!DNL Target Premium]. Eles não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>Os espaços de trabalho são parte da funcionalidade Propriedades e permissões, disponível como parte da solução [!DNL Target Premium]. Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 
 Se você fizer parte de uma organização multinacional, poderá ter um espaço de trabalho para suas páginas da Web, propriedades ou sites na Europa e outro espaço de trabalho para suas páginas, propriedades ou sites da Web nos EUA. Se fizer parte de uma organização multimarcas, poderá ter um espaço de trabalho separado para cada uma de suas marcas.
 
