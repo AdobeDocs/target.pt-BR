@@ -52,7 +52,7 @@ Para obter mais informações sobre a ativação da extensão VEC do Adobe Targe
 
 1. No XCode, abra o arquivo [!DNL AppDelegate].
 
-1. Na parte superior do arquivo, adicione a seguinte linha no final das importações.
+1. Na parte superior do arquivo, adicione a seguinte linha no final das importações:
 
    `#import "ACPTargetVEC.h"`
 
@@ -233,15 +233,15 @@ Pode haver determinados cenários em que você queira chamar a API de pré-busca
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## Tutoriais: implementar a Experience Cloud nos aplicativos móveis Objective-C e Swift para iOS {#tutorial}
 
-* [Implementar a Experience Cloud em aplicativos Objetive-C para Ios](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Implementar a Experience Cloud em aplicativos Mobile iOS móveis](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [Implementar a Experience Cloud em aplicativos Objetive-C para iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implementar a Experience Cloud em aplicativos Swift para iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
-Após concluir esses tutoriais, você poderá:
+Depois de concluir estes tutoriais, você será capaz de:
 
-* Criar uma propriedade Mobile Launch
-* Instalar uma propriedade Launch em um aplicativo Objetive-C ou Swift
+* Criar uma propriedade móvel do Launch
+* Instalar uma propriedade do Launch em um aplicativo Objetive-C ou Swift
 * Implemente as seguintes soluções da Adobe Experience Cloud:
    * Serviço da Experience Cloud ID
    * Adobe Target
