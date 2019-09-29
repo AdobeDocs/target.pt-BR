@@ -17,7 +17,7 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-Os vídeos a seguir fornecem um entendimento básico de como o Target, juntamente com outras soluções da Adobe Experience Cloud, pode ajudar sua organização a atingir seus objetivos:
+Os vídeos a seguir oferecem uma compreensão básica de como o Target, juntamente com outras soluções da Adobe Experience Cloud, podem ajudar a sua empresa a alcançar as metas:
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
@@ -94,11 +94,11 @@ O [!DNL Recommendations Classic] exibe automaticamente produtos ou conteúdo que
 
 Para obter mais informações, consulte a [documentação do Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Experience League: The Adobe Target Welcome Kit {#kit}
+## Experience League: o kit de boas-vindas do Adobe Target {#kit}
 
-Crie seu programa de otimização e personalização no Adobe Target com este Kit de boas-vindas! Ele inclui informações importantes, ferramentas e recursos para ajudá-lo a preparar e iniciar a primeira atividade do Adobe Target, com vitins rápidas de curto prazo e estratégias de otimização de longo prazo.
+Crie seu programa de otimização e personalização no Adobe Target com este kit de boas-vindas! Ele inclui informações importantes, ferramentas e recursos para ajudá-lo a se preparar e lançar sua primeira atividade do Adobe Target, com ganhos rápidos em curto prazo e estratégias de otimização em longo prazo.
 
-[O Kit de boas-vindas do Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[O kit de boas-vindas do Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## Vídeo de treinamento: tipos de atividade (9:03)
 
