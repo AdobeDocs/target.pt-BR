@@ -50,7 +50,7 @@ Há várias coisas a considerar ao selecionar elementos:
 * No VEC para aplicativos móveis, somente os elementos com um manipulador de cliques anexado podem ser selecionados.
 * Você pode navegar para qualquer seção do aplicativo, mas certifique-se de que as [exibições](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) estejam definidas para a seção em que você está selecionando elementos para o rastreamento de cliques.
 * Ao editar uma atividade, se o dispositivo já estiver selecionado na Etapa 1, não será necessário selecionar o dispositivo novamente. No entanto, se você chegar diretamente na página de rastreamento de cliques, será exibida a tela de seleção de dispositivos para selecionar um dispositivo autorizado.
-* Um painel Modificações é exibido no VEC do aplicativo móvel que exibe os elementos configurados para rastreamento de cliques.
+* Um painel Modificações é exibido na VEC do aplicativo móvel que exibe os elementos configurados para o rastreamento de cliques.
 
    ![Painel Modificações mostrando o rastreamento de cliques
    ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
