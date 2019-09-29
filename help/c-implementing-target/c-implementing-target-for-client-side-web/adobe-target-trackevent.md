@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função adobe.target.trackEvent(options) para at.js. '
-keywords: adobe. target. trackevent; Trackevent; trackevent; rastrear evento; at. js; funções; ; Preventdefault; preventdefault; evitar padrão
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;funções;função;previrPadrão;prevenir padrão;prevenir padrão
 seo-description: Informações sobre a função adobe.target.trackEvent(options) da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função adobe.target.trackEvent(options) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -17,7 +17,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 Essa função aciona uma solicitação para relatar ações do usuário, como cliques e conversões. Não entrega atividades na resposta.
 
-Essa mbox de monitoramento de evento pode, então, ser usada para definir métricas em atividades. Para obter mais informações, consulte [Métricas de sucesso](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) e [Conversões de rastreamento](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+Essa mbox de monitoramento de evento pode, então, ser usada para definir métricas em atividades. Para obter mais informações, consulte Métricas [de](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sucesso e [Rastrear conversões](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
 Veja os detalhes da API:
 
