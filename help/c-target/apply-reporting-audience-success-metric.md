@@ -1,10 +1,10 @@
 ---
 description: Escolha uma métrica de sucesso que qualifique o usuário para o público-alvo do relatório.
 keywords: Direcionamento, público-alvo, geração de relatórios, métrica de sucesso
-seo-description: Escolha uma métrica de sucesso no Adobe Target que qualifica o usuário para o público-alvo de relatório.
-seo-title: Aplicar um público-alvo de relatório a uma métrica de sucesso no Adobe Target
+seo-description: Escolha uma métrica de sucesso no Adobe Target que qualifique o usuário para o público-alvo do relatório.
+seo-title: Aplicar um relatório de público-alvo a uma métrica de sucesso no Adobe Target
 solution: Target
-title: Aplicar um relatório de público a uma métrica de sucesso
+title: Aplicar um relatório de público-alvo a uma métrica de sucesso
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
@@ -12,7 +12,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Aplicar um relatório de público a uma métrica de sucesso{#apply-a-reporting-audience-to-a-success-metric}
+# Aplicar um relatório de público-alvo a uma métrica de sucesso{#apply-a-reporting-audience-to-a-success-metric}
 
 Escolha uma métrica de sucesso que qualifique o usuário para o público-alvo do relatório.
 
