@@ -1,7 +1,7 @@
 ---
 description: Use os feeds para importar entidades no Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
-keywords: feed do recommendations, feed, SAINT, ftp, csv; classificações; classificações de análise
-seo-description: Use feeds para obter entidades importadas para o Adobe Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
+keywords: feed do recommendations, feed, SAINT, ftp, csvclassificações;classificações;classificações analíticas
+seo-description: Use feeds para importar entidades para o Adobe Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
 seo-title: Feeds
 solution: Target
 title: Feeds
@@ -17,7 +17,7 @@ source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 # ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}
 
-Use os feeds para importar entidades no [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produto do Adobe Analytics.
+Use os feeds para importar entidades no [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e classificações de produtos do Adobe Analytics.
 
 ## Visão geral dos feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -29,14 +29,14 @@ Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados
 
 A lista [!UICONTROL Feeds] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
 
-![Página de feeds](/help/c-recommendations/c-products/assets/feeds-page.png)
+![Página Feeds](/help/c-recommendations/c-products/assets/feeds-page.png)
 
 A página Feeds contém as seguintes colunas:
 
 * **Nome**: O nome do feed especificado durante a criação. Para editar o nome de um feed, edite o próprio feed. Ao salvar com o novo nome, o feed é atualizado.
-* **Tipo**: Os tipos incluem [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Feed de produtos do Google](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)e Classificações [do Analytics](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Status**: O status atual [do feed](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Agendamento**: Exibe o cronograma de atualização do feed: Diariamente, Semanalmente, A Cada 2 Semanas ou Nunca.
+* **Tipo**: Os tipos incluem [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), Feed [de produtos do](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)Google e Classificações [do](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)Analytics.
+* **Status**: O [status](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)atual do feed.
+* **Agendamento**: Exibe o agendamento de atualização do feed: Diariamente, Semanalmente, A Cada 2 Semanas, ou Nunca.
 * **Itens**: Exibe o número de itens no feed.
 * **Última atualização**: Exibe a data e a hora em que o feed foi atualizado pela última vez e o nome da pessoa que atualizou o feed. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
@@ -56,7 +56,7 @@ Qualquer dado carregado por meio do arquivo .csv, feed de produto do Google ou f
 
 >[!IMPORTANT]
 >
->Não inclua valores entre aspas duplas (") no arquivo. csv, a menos que eles sejam intencionais. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. Aspas duplas que não são evitadas impedem o carregamento correto do feed do Recomendações.
+>Não coloque valores entre aspas duplas ( " ) no arquivo .csv, a menos que sejam intencionais. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. Aspas duplas que não são escapadas impedem que o feed de recomendações seja carregado corretamente.
 
 Por exemplo, a sintaxe a seguir está incorreta:
 
@@ -94,7 +94,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 O tipo de feed de pesquisa do produto do Google usa o formato do Google. Isso é diferente do formato de upload CSV do proprietário do Adobe.
 
-Se você tiver um feed de produtos do Google existente, poderá usá-lo como seu arquivo de importação.
+Se você tiver um feed de produtos do Google, poderá usá-lo como arquivo de importação.
 
 >[!NOTE]
 >
@@ -214,24 +214,24 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 1. Selecione um **[!UICONTROL Tipo de Fonte]**.
 
    * CSV
-   * Feed de produtos do Google
+   * Feed do produto Google
    * Classificações do Analytics
-   Para obter informações sobre os tipos de feed do Feed de produtos CSV e do Google, consulte [Visão geral de feeds](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Também é possível [baixar um guia CSV do modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ajudar você a formatar o feed corretamente.
+   Para obter informações sobre os tipos de feed CSV e Google Product Feed, consulte Visão geral [dos](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)feeds. Você também pode [baixar um guia](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) CSV modelo para ajudar a formatar o feed corretamente.
 
-1. (Condicional) Se você selecionou **[!UICONTROL o Feed de produtos CSV]** ou **[!UICONTROL Google]**, especifique o local onde o feed pode ser acessado.
+1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou Feed **[!UICONTROL de produto do]** Google, especifique o local onde o feed pode ser acessado.
 
-   * **FTP**: Se você tiver selecionado FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório FTP. Você tem a opção de usar o FTP com SSL (FTPS) para uploads mais seguros.
+   * **FTP**: Se você selecionou FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório FTP. Você tem a opção de usar o FTP com SSL (FTPS) para uploads mais seguros.
 
-      Configurações de servidor FTP suportadas:
+      Configurações do servidor FTP com suporte:
 
       * FTP e FTPS devem ser definidos para usar FTP passivo.
-      * Para FTPS, configure o servidor para aceitar conexões FTPS explícitas.
-      * O SFTP não é suportado.
+      * Para FTPS, configure o servidor para aceitar conexões explícitas de FTPS.
+      * SFTP não é suportado.
       * Você pode especificar manualmente uma porta na qual iniciar a conexão (por exemplo, `ftp://ftp.yoursite.com:2121`). Se você não especificar uma porta, a porta FTP ou FTPS padrão será usada.
    * **URL**: Se você selecionar URL, especifique o URL.
 
 
-1. (Condicional) Se você selecionou **[!UICONTROL Classificações do Analytics]**, escolha o conjunto de relatórios na lista suspensa.
+1. (Condicional) Se você selecionou Classificações **[!UICONTROL do]** Analytics, escolha o conjunto de relatórios na lista suspensa.
 
 1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Agendar.]
 
@@ -242,7 +242,7 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
    * Diariamente
    * Semanalmente
    * A cada 2 semanas
-   * Nunca: Não agendar uma atualização. Escolha isso se você não quiser que esse feed seja executado.
+   * Nunca: Não agende uma atualização. Escolha isso se você não quiser que esse feed seja executado.
 
 1. Especifique o tempo em que deseja que seu feed execute.
 
@@ -281,7 +281,7 @@ A seguir, estão os possíveis status de um feed:
 | Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
 | Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
 | Importar itens | O Target está importando itens do arquivo de Feed. |
-| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para seu sistema de entrega de conteúdo. Alterações nos atributos do item foram feitas no sistema de entrega de conteúdo e serão refletidas em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>*Observação 1:* Se alterações nos atributos de um item resultarem em um item sendo excluído das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se alterações nos atributos resultarem em um item *não* ser mais excluído das recomendações, ele não será refletido até a atualização do próximo algoritmo, que ocorrerá dentro de 24 horas.<br>*Observação 2:* Quando esse status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário Pesquisa do catálogo. Um status separado é listado na pesquisa do catálogo, indicando a última vez que o catálogo pesquisável foi atualizado. |
+| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para seu sistema de entrega de conteúdo. As alterações nos atributos do item foram feitas no sistema de entrega de conteúdo e serão refletidas em breve nas recomendações entregues. Se você não visualizar as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>** Nota 1: Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for adicionado recentemente, ou as alterações nos atributos resultarem em um item *não ser mais* excluído das recomendações, ele não será refletido até a próxima atualização do algoritmo, que ocorrerá dentro de 24 horas.<br>** Nota 2: Quando esse status é exibido, as atualizações ainda não podem ser refletidas na interface do usuário do Catalog Search. Um status separado é listado na Pesquisa de catálogo indicando a última vez que o catálogo pesquisável foi atualizado. |
 | Falha ao indexar | Ocorreu uma falha na operação de índice. Tente novamente. |
 | Servidor não encontrado | Locais de FTP ou URL inválidos ou não acessíveis. |
 
@@ -321,12 +321,12 @@ O status deve ser amarelo, pois o índice deveria ter sido executado há aproxim
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Noções básicas sobre feeds no Recommendations (3:01)
+### Como entender feeds no Recommendations (3:01)
 
 Este vídeo contém as seguintes informações:
 
-* Entender a finalidade dos feeds
-* Entender o valor dos feeds
+* Entenda o objetivo dos feeds
+* Entenda o valor dos feeds
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?captions=por_br)
 
@@ -335,6 +335,6 @@ Este vídeo contém as seguintes informações:
 Este vídeo contém as seguintes informações:
 
 * Configurar um feed
-* Saber qual tipo de feed usar
+* Saiba qual tipo de feed usar
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?captions=por_br)
