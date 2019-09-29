@@ -38,7 +38,7 @@ As informações de aumento na interface do usuário do Target incluem:
 
 A ilustração a seguir mostra informações sobre limites de aumento e Nível de confiança:
 
-![Relatório de elevação média e nível de confiança](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![Relatório de Incentivo médio e Nível de confiança](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## Como são calculados os Limites de aumento? {#section_1D360781D972483693680BE0F07AEAD1}
 
