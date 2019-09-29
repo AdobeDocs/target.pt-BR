@@ -70,7 +70,7 @@ As seguintes ações estão disponíveis (dependendo das suas permissões):
 | Ativar | Inicia uma atividade inativa ou pronta. |
 | Arquivar | Envie a atividade para o arquivo. Por padrão, atividades arquivadas não aparecem mais na lista de atividades. Para ver atividades arquivadas, altere o filtro para que a lista de atividades as inclua. Você pode ativar uma atividade arquivada para usá-la novamente.<br>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
 | Copiar | Copia uma atividade. Qualquer atividade pode ser copiada. A cópia de uma atividade cria uma nova atividade com o mesmo nome, com o termo "Cópia" anexado. Por exemplo, um teste chamado "Ofertas do navegador" é copiada para "Cópia de ofertas do navegador".<br>Ofertas visuais são copiadas com a atividade. As ofertas podem ser editas em segurança na cópia sem afetar a atividade original. As únicas exceções são ofertas e imagens salvas na pasta Conteúdo/Ativos. |
-| Excluir | Exclua um rascunho ou atividade.<BR>**OBSERVAÇÃO**: As atividades excluídas não podem ser recuperadas. Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. Você pode, então, reativar a atividade, se necessário. |
+| Excluir | Exclui um rascunho ou atividade.<BR>**OBSERVAÇÃO**: não é possível recuperar as atividades excluídas. A menos que você tenha certeza de que nunca precisará dessa atividade novamente, use a ação [!UICONTROL Arquivar] . Se necessário, é possível reativar a atividade. |
 
 Observe os detalhes a seguir sobre a lista Atividade:
 
@@ -137,7 +137,7 @@ Cada atividade do Target tem as seguintes limitações de conteúdo:
 
 | Item | Limite |
 |--- |--- |
-| Seletores exclusivos | 300 se um seletor se repete em uma experiência diferente, ele é contado uma vez. No entanto, se ele se repete na mesma experiência, ele é contado novamente. |
+| Seletores exclusivos | 300  se um seletor se repete em uma experiência diferente, ele é contado uma vez. No entanto, se ele se repete na mesma experiência, ele é contado novamente. |
 | Ofertas em cada experiência | 350 |
 | Seletores de rastreamento de cliques nas métricas | 50 |
 | Mboxes nas métricas | 50 |
@@ -175,7 +175,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
-* Descreva os tipos de atividades incluídos no [!DNL Adobe Target]
+* Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
