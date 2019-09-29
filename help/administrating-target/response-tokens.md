@@ -284,6 +284,6 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 
 ## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados do at. js para compartilhar informações de perfil do Target a sistemas de terceiros.
+Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados do at.js para compartilhar informações de perfil do Target para sistemas de terceiros.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=por_br)
