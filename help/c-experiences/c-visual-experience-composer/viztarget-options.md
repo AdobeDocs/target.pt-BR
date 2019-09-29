@@ -76,17 +76,17 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
 * **Segundo plano**
 
-   Altere a cor e a imagem do plano de fundo.
+   Altere a cor e a imagem do fundo.
 
    * Cor (especifique o código de cor ou use o seletor de cores)
    * Imagem (selecione uma imagem do seletor de imagens)
    * Fonte da imagem (especifique um URL externo)
    * Anexo
-      * Clique na lista suspensa superior para selecionar rolagem, fixa ou local
-      * Clique na lista suspensa inferior para selecionar repetição, repetir-x, repetir-y, sem repetição, espaço ou arredondar
+      * Clique na lista suspensa superior para selecionar rolagem, fixo ou local
+      * Clique na lista suspensa inferior para selecionar repetir, repetir-x, repetir-y, sem repetição, espaçar ou arredondar
    * Clipe
       * Clique na lista suspensa superior para selecionar a caixa de borda, a caixa de preenchimento, a caixa de conteúdo ou o texto
-      * Clique na lista suspensa inferior para selecionar áudio ou áudio automático
+      * Clique na lista suspensa inferior para selecionar o áudio automático ou o áudio
 
 * **Tipografia**
 
@@ -285,7 +285,7 @@ O Recommendations suporta a opção "Substituir por" nas tags DIV, SECTION e ART
 
 Selecione uma oferta diferente da [!UICONTROL Biblioteca de conteúdo].
 
-**Observação:**[!DNL Target] ofertas de HTML são armazenadas em servidores do
+**Observação:** ofertas de HTML são armazenadas em servidores do [!DNL Target].
 
 Uma oferta de HTML pode ter até 256 KB.
 
@@ -317,7 +317,7 @@ Redimensionar um elemento na página. Ao selecionar [!UICONTROL Redimensionar], 
 
 Mover elementos na página. Diferentemente da opção [!UICONTROL Reorganizar], [!UICONTROL Mover] não altera a posição de outros elementos para abrir espaço para o elemento que está sendo movido. Use as teclas de seta para ajustar o movimento. (Aprimoramento planejado: suporte para garantir que os elementos movidos não estejam ocultos atrás de outros elementos.)
 
-Em alguns casos, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele. Um elemento não pode ser movido fora de um contêiner que tenha a propriedade CSS a seguir: `overflow: hidden`.
+Em alguns casos, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele. Um elemento não pode ser movido para fora de um contêiner que tem a seguinte propriedade CSS: `overflow: hidden`.
 
 #### Ocultar
 
@@ -343,7 +343,7 @@ Desfaça as alterações feitas em suas atividades durante uma sessão de altera
 
 ## Considerações {#considerations}
 
-* Se uma oferta contiver conteúdo HTML, consulte "Como o at. js renderiza ofertas com conteúdo HTML" em [como o at. js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) para obter mais informações.
+* Se uma oferta tiver conteúdo HTML, consulte "Como o at.js renderiza ofertas com conteúdo HTML" em [Como o at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) para obter mais informações.
 
 ## Navegar pelos elementos usando o caminho DOM {#dom-path}
 
