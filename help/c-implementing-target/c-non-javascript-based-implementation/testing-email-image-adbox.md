@@ -13,7 +13,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Teste de uma Adbox de imagem de email{#test-an-email-image-adbox}
+# Testar uma Adbox de imagem de email{#test-an-email-image-adbox}
 
 Teste dinamicamente imagens em emails, e até mesmo mude essas imagens em tempo real quando alguém abre o email.
 
