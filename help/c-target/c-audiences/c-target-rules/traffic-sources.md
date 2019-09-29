@@ -1,8 +1,8 @@
 ---
-description: Crie públicos-alvo para direcionar os visitantes com base no mecanismo de pesquisa ou na página de aterrissagem que os referenciou para o site.
+description: Crie públicos-alvo para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
 keywords: Direcionamento, fontes de tráfego, fontes de tráfego do target, mecanismo de pesquisa do target, mecanismo de pesquisa, página de aterrissagem, página de aterrissagem do target, página de aterrissagem de referência
-seo-description: Crie públicos-alvo no Adobe Target para direcionar os visitantes com base no mecanismo de pesquisa ou na página de aterrissagem que os referenciou para o site.
-seo-title: Fontes de tráfego do Target no Adobe Target
+seo-description: Crie públicos-alvo no Adobe Target para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
+seo-title: Fontes de tráfego de direcionamento no Adobe Target
 solution: Target
 title: Fontes de tráfego
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Fontes de Tráfego {#traffic-sources}
 
-Crie públicos-alvo para direcionar os visitantes com base no mecanismo de pesquisa ou na página de aterrissagem que os referenciou para o site.
+Crie públicos-alvo para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
 
-Por exemplo, você pode definir metas com base no navegador do visitante, mecanismo de pesquisa ou na página inicial de referência. A página de aterrissagem de referência é a página a partir da qual o visitante clicou para chegar ao site atual nesta sessão. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
+Por exemplo, você pode definir metas com base no navegador do visitante, mecanismo de pesquisa ou na página inicial de referência. A página de aterrissagem de referência é a página que o visitante clicou para chegar ao site atual nessa sessão. (Por exemplo, se o visitante clicou em uma publicidade no Google e ela o levar para a página inicial da `adobe.com`, a página de aterrissagem de referência será `google.com`.)
 
 É possível combinar múltiplas fontes de tráfego para criar uma regra complexa de direcionamento.
 
