@@ -55,12 +55,12 @@ A prioridade é usada se várias atividades forem atribuídas para o mesmo local
 
 Defina a duração da atividade.
 
-A atividade pode começar quando ativada ou você pode definir uma data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00h a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
+A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00h a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
 
 ## Configurações da geração de relatórios
 
-* **Fonte de relatórios:** Selecione a fonte de relatórios: Adobe Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de relatórios depois que a atividade entrar em execução. Alterar a fonte de relatórios após uma atividade ficar ativa causa relatórios inconsistentes.
-* **Métrica de objetivo:** Selecione a métrica de sucesso que determina se a atividade foi bem-sucedida.
+* **Fonte de geração de relatórios:** selecione a fonte de geração de relatórios: Adobe Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
+* **Métrica de objetivo:** selecione a métrica de sucesso que determina se a atividade é bem sucedida.
 * **Métricas adicionais:** configure métricas de sucesso adicionais para serem usadas nos relatórios.
 * **Públicos-alvo para relatórios:** defina o público-alvo que pode ser usado ao filtrar os relatórios.
 
