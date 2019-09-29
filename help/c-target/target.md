@@ -1,8 +1,8 @@
 ---
-description: Use os públicos-alvo para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web ao exibir as mensagens certas para as pessoas certas na hora certa.
+description: Use públicos para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
 keywords: Direcionamento, públicos-alvo, direcionamento em porcentagem
-seo-description: Use os públicos-alvo no Adobe Target para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web ao exibir as mensagens certas para as pessoas certas na hora certa.
-seo-title: Públicos-alvo no Adobe Target
+seo-description: Use os públicos no Adobe Target para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
+seo-title: Públicos no Adobe Target
 solution: Target
 title: Públicos-alvo
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Públicos-alvo{#audiences}
 
-Use os públicos-alvo para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web ao exibir as mensagens certas para as pessoas certas na hora certa.
+Use públicos para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
 
-Um público é um grupo de participantes de atividades semelhantes que visualizarão uma atividade direcionada. Um público é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio oeste. O recurso Público-alvo permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, exibindo as mensagens certas para as pessoas certas na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência será exibida, com base em critérios definidos durante a criação da atividade.
+Um público-alvo é um grupo de novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criada.
 
 Por padrão, o tráfego é dividido igualmente entre as experiências. No entanto, é possível especificar direcionamentos da porcentagem para cada experiência.
 
