@@ -27,13 +27,13 @@ Quando você combina regras e parâmetros com OU, qualquer membro em potencial d
 
 Você pode misturar operadores booleanos para criar regras complexas; no entanto, operadores no mesmo nível da regra devem ser compatíveis. A interface de usuário aplica o operador correto automaticamente.
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Firefox em um computador com Windows:
 
 ![Criar público-alvo](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando o Chrome *e* o Firefox simultaneamente.
 
 ## Criar um novo público
 
