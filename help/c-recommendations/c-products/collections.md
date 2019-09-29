@@ -1,7 +1,7 @@
 ---
 description: Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação.
 keywords: coleção, direcionamento
-seo-description: Uma coleção é um conjunto de produtos ou itens no Adobe Target que são elegíveis para uma recomendação.
+seo-description: Uma coleção é um conjunto de produtos ou itens no Adobe Target que estão qualificados para uma recomendação.
 seo-title: Coleções no Adobe Target
 solution: Target
 title: Coleções
