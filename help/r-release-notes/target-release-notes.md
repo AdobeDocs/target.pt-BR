@@ -29,18 +29,18 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 **31 de julho de 2019**
 
-[!UICONTROL Enterprise Permissions allows  customers to use a single organization, but divide it into workspaces for different teams or workflows. ][!DNL Target] The [!UICONTROL Enterprise Permissions] feature facilitates effective scaling of optimization programs across teams. Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with Approver access.
+[!UICONTROL As Permissões] empresariais permitem que [!DNL Target] os clientes usem uma única organização, mas as dividam em espaços de trabalho para equipes ou fluxos de trabalho diferentes. O recurso Permissões  corporativas facilita o dimensionamento efetivo de programas de otimização entre equipes. Embora esse recurso estivesse disponível na [!DNL Target] interface do usuário, as APIs administrativas não tinham o suporte correspondente até a versão [!DNL Target] de fevereiro de 2019. A Adobe atualizou as APIs de administração para que você possa usar a conta de integração para acessar todos os espaços de trabalho criados em sua organização. Assim, embora anteriormente, as APIs administrativas estivessem restritas ao espaço de trabalho padrão, a atualização de fevereiro de 2019 concedia acesso a todos os espaços de trabalho com acesso ao [!UICONTROL Aprovador] .
 
-With the upcoming  September 2019 release, Enterprise Permissions will provide customers with the following access controls:[!DNL Target]
+Com a próxima versão [!DNL Target] de setembro de 2019, as Permissões  Enterprise fornecerão aos clientes os seguintes controles de acesso:
 
-* You can choose the workspaces to which the integration can be applied
-* You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.
+* Você pode escolher os espaços de trabalho aos quais a integração pode ser aplicada
+* Você pode aplicar uma função à integração de E/S da Adobe: [!UICONTROL Aprovador], [!UICONTROL Editor]ou [!UICONTROL Observador].
 
-**Action Required: Customers who are currently leveraging APIs for CRUD operations on resources (activities, audiences, offers, and reporting) across all workspaces need to grant their existing Adobe I/O integration access to all workspaces with the desired role.** Prior to the September release, all integrations operated using Approver access, regardless of the role selected from the Product Role drop-down list.  With the upcoming release, you can now select the desired role.
+**Ação necessária**: Os clientes que atualmente estão aproveitando as APIs para operações CRUD em recursos (atividades, públicos-alvo, ofertas e relatórios) em todos os espaços de trabalho precisam conceder acesso à integração de E/S existente da Adobe a todos os espaços de trabalho com a função desejada. Antes da versão de setembro, todas as integrações operavam usando o acesso do [!UICONTROL Aprovador] , independentemente da função selecionada na lista suspensa Função [!UICONTROL do] produto. Com a próxima versão, agora é possível selecionar a função desejada.
 
-This action should be performed during the month of August 2019. **** After the  September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. [!DNL Target] Não há consequências adversas para a definição antecipada das funções de integração.
+Esta ação deverá ser executada durante o mês de **agosto de 2019**. Após a versão de [!DNL Target] setembro de 2019, os controles de acesso serão ativados e você observará o acesso apenas ao espaço de trabalho padrão se for assim que você estiver configurado no momento. Não há consequências adversas para a definição antecipada das funções de integração.
 
-For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+Para obter instruções passo a passo e mais informações, consulte [Conceder acesso de integrações de E/S da Adobe a espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
 ## Target Standard/Premium 19.9.2 (30 de setembro de 2019)
 
