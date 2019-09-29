@@ -48,7 +48,7 @@ Os valores a seguir podem ser "substituídos por token":
 | Primeira sessão do visitante (true ou false) | `${user.isFirstSession}` |
 | Comportamento anterior | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
-Informações de log no console para fins de depuração, como `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`.
+Informações de log no console para fins de depuração, como `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
 Para designs do Recommendations, consulte mais exemplos na [Visão geral de design](/help/c-recommendations/c-design-overview/design-overview.md).
 
