@@ -1,8 +1,8 @@
 ---
-description: Você pode criar públicos-alvo no Adobe Target para direcionar os usuários que usam um navegador específico ou determinadas opções de navegador quando visitarem sua página.
+description: Você pode criar públicos no Adobe Target para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
 keywords: opções do navegador, tipo, tipo do navegador, idioma do navegador, idioma, versão, versão do navegador
-seo-description: Você pode criar públicos-alvo no Adobe Target para direcionar os usuários que usam um navegador específico ou determinadas opções de navegador quando visitarem sua página.
-seo-title: Opções de navegador nos públicos-alvo do Adobe Target
+seo-description: Você pode criar públicos no Adobe Target para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
+seo-title: Opções de navegador nos públicos do Adobe Target
 solution: Target
 subtopic: Teste multivariado
 title: Navegador
@@ -75,9 +75,9 @@ Selecione um ou mais navegadores. Várias opções estão conectadas a um OR.
 
 ### Idioma {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
-Direcione ou exclua determinados navegadores definidos para usar idiomas específicos.
+Direcione ou exclua determinados navegadores configurados para usar idiomas específicos.
 
-Por exemplo, se uma oferta estiver disponível somente em inglês, você poderá direcionar navegadores com o idioma definido como inglês. Ou, se sua página não está habilitada para byte duplo, você pode excluir navegadores definidos para idiomas do Leste Asiático.
+Por exemplo, se uma oferta está disponível em inglês, você pode direcionar navegadores cujo idioma definido seja o inglês. Ou, se sua página não está habilitada para byte duplo, você pode excluir navegadores definidos para idiomas do Leste Asiático.
 
 A inclusão ou exclusão de idiomas de navegador pode proporcionar um direcionamento de visitante mais preciso do que o direcionamento baseado em localização geográfica nos casos em que o idioma é mais importante que o local. Por exemplo, se está oferecendo um artigo escrito em inglês, você pode direcionar países de língua inglesa ou navegadores configurados para língua inglesa. O direcionamento ao navegador disponibiliza o artigo para falantes de inglês em países nos quais o inglês não é o idioma principal.
 
