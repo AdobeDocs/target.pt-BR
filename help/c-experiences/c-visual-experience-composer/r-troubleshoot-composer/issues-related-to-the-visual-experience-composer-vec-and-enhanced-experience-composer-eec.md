@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 
-## O Target suporta iframes de múltiplos níveis?
+## O Target suporta iframes de vários níveis?
 
-O Target não oferece suporte para iframes de múltiplos níveis. Se o site carregar um iframe que tem um iframe filho, as bibliotecas do Target (at. js e mbox. js) interagem somente com o iframe pai. As bibliotecas do Target não interagem com o iframe filho.
+O Target não oferece suporte para iframes de vários níveis. Se o site carregar um iframe que tenha um iframe secundário, as bibliotecas do Target (at.js e mbox.js) vão interagir somente com o iframe principal. As bibliotecas do Target não interagem com o iframe secundário.
 
-Como solução, você pode adicionar uma página na experiência com o URL do iframe filho.
+Como solução, você pode adicionar uma página na experiência com o URL do iframe secundário.
 
 ## Quando eu tento editar uma página, só vejo um ponteiro, em vez da minha página. (VEC e EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
@@ -36,7 +36,7 @@ Se os cabeçalhos de CSP do seu site bloquearem as Bibliotecas do Target e carre
 
 ![](assets/cps_headers.png)
 
-Como solução alternativa, é possível configurar uma regra do Requestly para remover cabeçalhos de CSP, conforme mostrado abaixo.
+Como solução alternativa, é possível configurar uma regra do Requestly para remover cabeçalhos de CSP, conforme mostrado abaixo:
 
 ![](assets/cps_headers_2.png)
 
