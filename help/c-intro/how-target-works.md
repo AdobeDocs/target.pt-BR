@@ -1,7 +1,7 @@
 ---
-description: O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript. at.js ou mbox.js
+description: O Adobe Target é integrado com sites por meio de uma das duas bibliotecas JavaScript. at.js ou mbox.js
 keywords: Visão geral e referência; SEO; otimização do mecanismo de pesquisa
-seo-description: O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript. at.js ou mbox.js
+seo-description: O Adobe Target é integrado com sites por meio de uma das duas bibliotecas JavaScript. at.js ou mbox.js
 seo-title: Funcionamento do Adobe Target
 solution: Target
 subtopic: Introdução
@@ -20,7 +20,7 @@ Informações sobre como o Adobe Target funciona, incluindo as bibliotecas de Ja
 
 ## Bibliotecas de JavaScript do Target {#libraries}
 
-O Adobe Target é integrado com sites por meio de uma de duas bibliotecas javascript: at. js ou mbox. js
+O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript: at.js e mbox.js
 
 * **at.js:** A biblioteca [da at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a [última versão da at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** a mbox.js é a biblioteca de implementação herdada para o Target. A biblioteca mbox.js ainda é suportada, mas não receberá atualizações.
@@ -29,13 +29,13 @@ O Adobe Target é integrado com sites por meio de uma de duas bibliotecas javasc
 >
 >Todos os clientes devem migrar para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Você deve fazer referência ao arquivo da biblioteca do javascript do Target em todas as páginas do site. Você pode adicioná-la ao título global, por exemplo. Como alternativa, considere usar [o gerenciador de tags do Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Você deve mencionar o arquivo da biblioteca JavaScript do Target em todas as páginas do site. Você pode adicioná-la ao título global, por exemplo. Como alternativa, considere usar o [gerenciador de tags do Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-Cada vez em que um visitante solicita uma página que foi otimizada para o Target, uma solicitação será enviada para o sistema de direcionamento para determinar qual conteúdo será enviado a um visitante. Esse processo ocorre em tempo real— toda vez que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é enviado para todo visitante do site com maior probabilidade de responder, interagir e comprar, maximizando as taxas de resposta e de aquisição e a receita.
+Cada vez em que um visitante solicita uma página que foi otimizada para o Target, uma solicitação será enviada para o sistema de direcionamento para determinar qual conteúdo será enviado a um visitante. Esse processo ocorre em tempo real. Toda vez em que uma página for carregada, uma solicitação para o conteúdo será feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é enviado para todo visitante do site com maior probabilidade de responder, interagir e comprar, maximizando as taxas de resposta e de aquisição e a receita.
 
 No Target, cada elemento na página faz parte de uma única experiência para toda a página. Cada experiência pode incluir vários elementos na página.
 
-O conteúdo exibido aos visitantes depende do tipo de atividade que você cria:
+O conteúdo exibido para os visitantes depende do tipo de atividade que você cria:
 
 ### Teste A/B
 
@@ -48,7 +48,7 @@ O conteúdo que exibe um teste A/B básico é escolhido aleatoriamente entre os 
 1. Um cliente solicita uma página do seu servidor e ela é exibida no navegador.
 2. Um cookie próprio é configurado no navegador do cliente para armazenar o comportamento do cliente.
 3. A página chama o sistema de direcionamento.
-4. O conteúdo é exibido com base nas regras de sua atividade.
+4. O conteúdo é exibido com base nas regras da sua atividade.
 
 ### Alocação automática
 
@@ -60,7 +60,7 @@ A Alocação automática identifica um vencedor entre duas ou mais experiências
 
 Consulte [Direcionamento automático](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) para obter mais informações.
 
-O Target automático usa aprendizado avançado de máquina para selecionar várias experiências com grande desempenho de profissional de marketing, além de servir a experiência mais adaptada para cada visitante com base no perfil individual do cliente e no comportamento dos visitantes anteriores com perfis similares, para personalizar o conteúdo e gerar conversões.
+O Direcionamento automático usa aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.
 
 ### Personalização automatizada (AP)
 
@@ -92,31 +92,31 @@ As atividades do Recommendations exibem automaticamente produtos ou conteúdo qu
 
 "Edge" é uma arquitetura de fornecimento distribuída geograficamente que assegura tempos de resposta ideais para usuários finais que solicitem o conteúdo, independentemente de onde estejam localizados ao redor do mundo.
 
-Para melhorar os tempos de resposta, os ambientes do Edge hospedam somente a lógica de atividade e o perfil em cache e as informações da oferta. Bancos de dados de atividade e conteúdo, [!DNL Analytics] dados, APIs e interfaces de usuário dos profissionais de marketing são abrigados nos ambientes de dados centrais da Adobe. As atualizações são enviadas para os nós da borda. Os ambientes centrais e os nós do Edge são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. A modelagem 1:1 também é armazenada em cada borda, portanto, essas solicitações mais complexas também podem ser processadas no Edge.
+Para aprimorar os tempos de resposta, os ambientes do Edge hospedam somente a lógica de atividade, o perfil em cache e informações de ofertas. Bancos de dados de atividade e conteúdo, [!DNL Analytics] dados, APIs e interfaces de usuário dos profissionais de marketing são abrigados nos ambientes de dados centrais da Adobe. As atualizações são enviadas para os nós da borda. Os ambientes centrais e nós do Edge são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. Como a modelagem 1:1 também é armazenada em cada borda, as solicitações mais complexas também podem ser processadas no Edge.
 
 Cada nó de Edge possui todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise da solicitação. As solicitações do usuário são roteadas para o nó de Edge mais próximo.
 
-![Mapear com sites de borda principais e sites de borda](assets/edge_network.png)
+![Mapa com sites de borda e sites de borda principais](assets/edge_network.png)
 
-A fonte para essa mage é o white [paper Visão geral](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) de segurança do Adobe Target.
+A fonte desta imagem é o documento Visão geral [de segurança do](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target.
 
-A solução Adobe Target é hospedada em centros de dados proprietários da Adobe e em centros de dados da Adobe ao redor do mundo. Os servidores de administração são hospedados totalmente nos centros de dados da Adobe em Londres, Cingapura e vários locais em todo o site dos EUA, incluindo Oregon e Virgínia. Os servidores de borda são hospedados nos servidores da Adobe e alugados pela Adobe nos centros de dados da Amazon AWS em Londres, Hong Kong, Cingapura, Tóquio e Sydney.
+A solução Adobe Target está hospedada em data centers proprietários da Adobe e alugados pela Adobe em todo o mundo. Os servidores de administração são hospedados inteiramente em data centers da Adobe em Londres, Cingapura e em vários locais nos Estados Unidos, incluindo Oregon e Virgínia. Os servidores de borda são hospedados em servidores proprietários da Adobe e alugados pela Adobe em data centers Amazon AWS em Londres, Hong Kong, Cingapura, Tóquio e Sydney.
 
-Os locais do Servidor de administração contêm um centro de coleta de dados e um centro de processamento de dados. Os locais de site do Edge contém apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
+Os locais do Admin Server contêm um centro de coleta de dados e um centro de processamento de dados. Os locais de site do Edge contém apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
-Em vez de responder a todas as solicitações de direcionamento a partir de um único local, as solicitações são processadas pelo ambiente do Edge mais próximas do visitante, reduzindo o impacto do tempo de deslocamento da Internet/rede.
+Em vez de responder a todas as solicitações de direcionamento a partir de um único local, as solicitações são processadas pelo ambiente do Edge mais próximo do visitante, reduzindo o impacto do tempo de deslocamento da Internet/rede.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] no momento não há uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Devido ao ótimo Firewall e à falta de nós do Edge no país, as experiências de sites com [!DNL Target] implantado serão lentas e as cargas da página serão afetadas. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de [!DNL Target] usuário de criação.
+>No momento, o [!DNL Adobe Target] não tem uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para os clientes do [!DNL Target] na China. Devido ao ótimo Firewall e à falta de nós de Edge no país, as experiências de sites com o [!DNL Target] implantado serão renderizadas de maneira lenta e os carregamentos de página serão afetados. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
 
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 A Adobe assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um usuário final e os servidores da Adobe pode causar uma interrupção na entrega de conteúdo.
 
-To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
+Como proteção contra interrupções do serviço e problemas de conectividade, todos os locais são configurados para incluir o conteúdo padrão (definido pelo cliente), que é exibido se não for possível conectar o navegador do usuário ao [!DNL Target].
 
-Nenhuma alteração será feita na página se o navegador do usuário não conseguir se conectar dentro de um período limite definido (por padrão: 15 segundos). Se esse tempo limite for atingido, o conteúdo padrão do local será exibido.
+Nenhuma alteração será feita na página se o navegador do usuário não puder se conectar em um período de tempo limite definido (por padrão, 15 segundos). Se esse tempo limite for atingido, o conteúdo padrão do local será exibido.
 
 A Adobe protege a experiência do usuário por otimizar e salvaguardar o desempenho.
 
@@ -160,7 +160,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para os mecanismos de pesquisa e nunca tiver sido concebida para classificar em pesquisa orgânica inicialmente, nenhuma das considerações acima é aplicável.
 
-O Google afirma que a seguir essas orientações "deve resultar em seus testes com pouca ou nenhuma impacto no site nos resultados da pesquisa".
+O Google declara que seguir essas diretrizes "deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa".
 
 Além dessas diretrizes, a Google também fornece mais uma diretriz na documentação de sua ferramenta de Experiências com Conteúdo:
 
@@ -172,13 +172,13 @@ Acreditamos que seria difícil alterar involuntariamente o significado do conte�
 
 ## Bots {#bots}
 
-O Adobe Target usa [o deviceatlas](https://deviceatlas.com/) para detectar bots conhecidos. O tráfego identificado como sendo gerado por um bot ainda é servido como conteúdo, como um usuário comum, para garantir que esteja em conformidade com as diretrizes da SEO. O uso do tráfego de robô pode inclinar testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de forma um pouco diferente. Remover o tráfego de robô fornece uma medida mais precisa da atividade do usuário.
+O Adobe Target usa o [DeviceAtlas](https://deviceatlas.com/) para detectar bots conhecidos. O tráfego que é identificado como sendo gerado por um robô ainda serve conteúdo, como um usuário comum, para garantir que esteja em conformidade com as diretrizes de SEO. O uso do tráfego de robô pode distorcer testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de forma ligeiramente diferente. A remoção do tráfego de robô fornece uma medição mais precisa da atividade do usuário.
 
-Especificamente, para o tráfego de robô conhecido o Target não:
+Especificamente, para tráfego de bot conhecido, o Target não:
 
 * Criar ou recuperar um perfil de visitante
 * Registrar quaisquer atributos de perfil ou executar scripts de perfil
-* Procurar segmentos do Adobe Audience Manager (AAM) (se aplicável)
-* Usar tráfego de robô na modelagem e fornecer conteúdo personalizado para as atividades Recommendations, Target auto, personalização automatizada ou alocação automática
-* Registrar uma visita de atividade para relatório
-* Registrar dados a serem enviados para a plataforma da Adobe Experience Cloud
+* Pesquisar segmentos do Adobe Audience Manager (AAM) (se aplicável)
+* Use o tráfego de robô na modelagem e na disponibilização de conteúdo personalizado para o Recommendations, o Auto Target, a Personalização Automatizada ou a Autoalocação de atividades
+* Registrar uma visita de atividade para relatórios
+* Dados de registro a serem enviados para a plataforma da Adobe Experience Cloud
