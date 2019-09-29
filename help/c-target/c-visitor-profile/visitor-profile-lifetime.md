@@ -22,11 +22,11 @@ Por padrão, um perfil de visitante expira após 14 dias de inatividade para ess
 
 A biblioteca de JavaScript do [!DNL Target] que você está usando ([!DNL at.js] ou [!DNL mbox.js]) determina se você precisa ou não baixar um novo arquivo:
 
-| Biblioteca de metas | Detalhes |
+| Biblioteca do Target | Detalhes |
 |--- |--- |
 | at.js | Você não precisa baixar um novo arquivo da at.js se o seu perfil for estendido além do padrão. |
 | mbox.js | Se o seu perfil for estendido além do padrão de 14 dias, baixe um novo arquivo da mbox.js depois que o consultor ou o Atendimento ao cliente alterar suas configurações. A extensão de cookie para suportar a duração alterada do perfil está incluída no arquivo mbox.js atualizado. Após começar a usar a nova biblioteca, a duração do perfil de seus visitantes será atualizada. |
 
 A data de validade não é redefinida em perfis existentes. Se um visitante anterior não voltar por 15 dias, o perfil irá expirar. Se um visitante anterior voltar antes de o perfil original de duas semanas expirar, o perfil será redefinido para a duração estendida. Todos os perfis do novo visitante são definidos para a duração de perfil estendida.
 
-Se você tiver dois sites em um código de cliente e um visitante acessar ambos os sites, o perfil será definido para a duração dos perfis no último site visitado. Por exemplo, se o Site 1 tiver uma duração de perfil de 84 dias e o Site 2 tiver uma duração de 14 dias, e o visitante acessar o Site 1 e o Site 2, o perfil do visitante expirará em 14 dias de inatividade. Se o visitante acessar o Site 1 após visitar o Site 2, o perfil expirará em 84 dias de inatividade.
+Se você tiver dois sites em um código de cliente e um visitante acessar ambos os sites, o perfil será definido para a duração dos perfis no último site visitado. Por exemplo, se o Site 1 tiver uma duração de perfil de 84 dias e o Site 2 tiver uma duração de 14 dias, e o visitante acessar o Site 1 e, em seguida, o Site 2, o perfil do visitante expirará em 14 dias de inatividade. Se o visitante acessar o Site 1 após acessar o Site 2, o perfil expirará em 84 dias de inatividade.
