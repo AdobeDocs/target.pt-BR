@@ -1,7 +1,7 @@
 ---
 description: O Visual Experience Composer fornece uma interface visual para editar as experiências em sua página.
 keywords: Definição de metas; experiência; adicionar experiência; adicionar experiência
-seo-description: O Visual Experience Composer (VEC) no Adobe Target fornece uma interface visual para editar as experiências na página.
+seo-description: O Visual Experience Composer (VEC) no Adobe Target fornece uma interface visual para editar as experiências na sua página.
 seo-title: Adicionar experiência
 solution: Target
 title: Adicionar experiência
@@ -39,11 +39,11 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](../../../
    >
    >Se você apresentar uma imagem de uma fonte diferente da sua página principal (como uma imagem hospedada em akamai.net e oferecida em dell.com), ela não será exibida na miniatura da página mostrada no diagrama de fluxo.
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. Clique em **[!UICONTROL Salvar]** ao concluir a criação da experiência.
 
 ## Renomear experiência
 
-Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
+Clique no ícone [!UICONTROL Renomear experiência] em uma experiência de uma atividade de Teste A/B ou Direcionamento de experiência (XT) para dar um novo nome à experiência.
 
 ![Renomear experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,11 +62,11 @@ Observe que quando você nomeia ou renomeia uma experiência, os seguintes carac
 
 ## Redirecionar para URL
 
-Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
+Clique no ícone Mais (três elipses verticais) em uma experiência de uma atividade de Teste A/B ou Direcionamento de experiência (XT) e clique em [!UICONTROL Redirecionar para URL].
 
-For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+Para obter mais informações, consulte [Redirecionar para URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-**OBSERVAÇÃO**: Quando você nomeia ou renomeia uma experiência, os seguintes caracteres não são permitidos:
+**OBSERVAÇÃO**: ao nomear ou renomear uma experiência, os seguintes caracteres não são permitidos:
 
 | Caractere | Descrição |
 |--- |--- |
