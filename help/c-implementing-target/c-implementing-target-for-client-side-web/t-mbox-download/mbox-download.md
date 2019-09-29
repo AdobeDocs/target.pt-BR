@@ -1,7 +1,7 @@
 ---
-description: Para usar o Target Standard ou Target Premium, adicione uma linha de código para chamar a mbox.js
+description: Para usar o Target Standard ou Target Premium, adicione uma linha de código para chamar a mbox.js.
 keywords: Implementação; Mbox; baixar mbox.js; api de download; api mbox.js
-seo-description: Para usar o Target Standard ou Target Premium, adicione uma linha de código para chamar a mbox.js
+seo-description: Para usar o Target Standard ou Target Premium, adicione uma linha de código para chamar a mbox.js.
 seo-title: Implementação da mbox.js
 solution: Target
 subtopic: Introdução
@@ -16,9 +16,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Implementação da mbox.js{#mbox-js-implementation}
 
-Para usar o Target Standard ou Target Premium, adicione uma linha de código para chamar a mbox.js
+Para usar o Target Standard ou Target Premium, adicione uma linha de código para chamar a mbox.js.
 
-Você pode usar qualquer uma das duas referências da biblioteca: [!DNL mbox.js] ou [!DNL at.js]. [Os benefícios do at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) explicam as diferenças entre as duas bibliotecas.
+Você pode usar qualquer uma das duas referências da biblioteca: [!DNL mbox.js] ou [!DNL at.js]. [Vantagens da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) explica as diferenças entre as duas bibliotecas.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Você pode usar qualquer uma das duas referências da biblioteca: [!DNL mbox.js]
 
 A única referência para a [!DNL mbox.js] em cada página fornece as bibliotecas necessárias para todas suas atividades. A [!DNL mbox.js] chama o [!DNL Target] de cada página que referencia o arquivo [!DNL mbox.js]. Isso permite que o [!DNL Target] faça o seguinte:
 
-* Entreguar atividades do Target
+* Entregar atividades do Target
 * Rastreie cliques
 * Rastreie a maioria das métricas de sucesso
 
