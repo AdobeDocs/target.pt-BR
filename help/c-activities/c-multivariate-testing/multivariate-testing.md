@@ -1,7 +1,7 @@
 ---
 description: O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
 keywords: teste multivariado, mvt, fatorial completo, mvt ou a/b, multivariado a/b, avaliador de tráfego, quando usar mvt, considerações do mvt, multivariado
-seo-description: O Teste multivariado (MVT) no Adobe Target compara combinações de ofertas em elementos em uma página para determinar qual combinação executa o melhor para um público específico e identifica qual elemento afeta o sucesso da atividade.
+seo-description: O Teste multivariado (MVT) no Adobe Target compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
 seo-title: Teste multivariado
 solution: Target
 title: Teste multivariado
@@ -15,7 +15,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 # Teste multivariado{#multivariate-test}
 
-[!UICONTROL O Teste multivariado] (MVT) em [!DNL Adobe Target] compara combinações de ofertas em elementos em uma página para determinar qual combinação executa o melhor para um público específico e identifica qual elemento afeta o sucesso da atividade.
+O [!UICONTROL Teste multivariado] (MVT) no [!DNL Adobe Target] compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
 
 ## Visão geral do MVT {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
@@ -53,11 +53,11 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 * Use um teste A/B para otimizar o layout da sua página, seguido por um teste MVT para determinar o melhor conteúdo em cada elemento na página.
 
-   Um teste A/B pode gerar um feedback importante no layout, e os testes MVT são ótimos para testar o conteúdo dentro dos elementos no design da sua página. Executar um teste A/B no layout antes de testar várias opções de conteúdo pode ajudar você a determinar o melhor layout e o conteúdo mais impactante.
+   Um teste A/B pode gerar um feedback importante no layout, e os testes MVT são ótimos para testar o conteúdo dentro dos elementos no design da sua página. A execução de um teste A/B no layout antes de testar várias opções de conteúdo pode ajudar você a determinar o melhor layout e o conteúdo mais impactante.
 
 * Use um teste MVT para determinar qual elemento é o mais importante e acompanhe com um teste A/B mais focado nesse elemento.
 
-   Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, convém considerar um teste MVT antes de executar seus testes A/B. O teste MVT mostra quais áreas na página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois que determinar quais elementos e conteúdos são mais úteis para ajudá-lo a atingir suas metas, você poderá executar um teste A/B para refinar mais os resultados, por exemplo, para testar duas imagens específicas entre si ou comparar o texto ou as cores de uma chamada à ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
+   Quando o número de experiências diferentes passar de cinco e incluir dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de executar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois que determinar quais elementos e conteúdos são mais úteis para ajudá-lo a atingir suas metas, você poderá executar um teste A/B para refinar mais os resultados, por exemplo, para testar duas imagens específicas entre si ou comparar o texto ou as cores de uma chamada à ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -70,7 +70,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
    Por exemplo, não teste o layout e o conteúdo no mesmo teste.
 * Inclua mais tempo para QA devido ao amento do número de experiências.
 
-   [!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   [!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. Essa abordagem de funcionalidade e teste pode ser utilizada no [!DNL Target] usando [esta planilha offline](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Se a sua equipe usa outras abordagens de Projeto de Experimentos, você pode usar essa planilha como implementação de referência para projetos experimentais personalizados.
 
@@ -79,7 +79,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
    * Escolha os elementos que você deseja alterar e o número de versões de cada elemento (3x2, 4x3 e assim por diante).
    * Mantenha a numeração consistente. Por exemplo, se o botão for o Elemento 1 e as opções forem Azul, Verde e Amarelo, o botão azul é 1-1, o botão verde é 1-2 e o botão amarelo é 1-3.
    * A planilha offline fornece o número apropriado de experiências necessárias (quatro para um 3x2, nove para 4x3 e assim por diante).
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Você pode usar o código personalizado, editar HTML, WYSIWYG ou qualquer combinação.
+   * Crie as experiências no fluxo de trabalho A/B com o [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Você pode usar o código personalizado, editar o HTML, o WYSIWYG ou qualquer combinação.
    * Após o término da atividade (baseada na calculadora de tamanho de exemplo), execute os resultados na planilha para obter os outros detalhes.
 
 Para mais considerações e práticas recomendadas, consulte [Práticas recomendadas de teste multivariado](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
