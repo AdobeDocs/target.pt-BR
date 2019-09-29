@@ -1,7 +1,7 @@
 ---
-description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que deseja incluir em seu Teste multivariado (MVT).
-seo-description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que deseja incluir em seu Teste multivariado (MVT).
-seo-title: Criar combinações em testes multivariados (MVT) usando o Adobe Target
+description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que você deseja incluir em seu Teste multivariado (MVT).
+seo-description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que você deseja incluir em seu Teste multivariado (MVT).
+seo-title: Criar combinações em Testes multivariados (MVT) usando o Adobe Target
 title: Criar combinações
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
@@ -12,15 +12,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Criar combinações{#create-combinations}
 
-Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que deseja incluir em seu Teste multivariado (MVT).
+Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que você deseja incluir em seu Teste multivariado (MVT).
 
-For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Para obter mais informações sobre como usar o VEC para criar e editar ofertas, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >Você pode clicar em **[!UICONTROL Expandir seleção]** ao selecionar objetos na página para selecionar o elemento pai, além do elemento selecionado originalmente. Ao selecionar qualquer elemento pai, todos os filhos desse elemento serão selecionados automaticamente. Você pode expandir a seleção várias vezes.
 >
->You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
+>Você também pode usar o [caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar pelos elementos.
 
 ## Ofertas de imagem {#section_A48333211DB149ED926AE467D0032914}
 
