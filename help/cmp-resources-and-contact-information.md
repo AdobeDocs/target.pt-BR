@@ -33,7 +33,7 @@ Visite o [Fórum da comunidade do Target](https://forums.adobe.com/community/exp
 
 Informações de registro e links para sessões anteriores da Série de webinários de Noções básicas do Target, uma Série de webinários de Sucesso do cliente trazida até você pela Comunidade.
 
-[Clique aqui para assistir a sessões passadas ou saber mais sobre as sessões futuras e as informações de registro](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
+[Clique aqui para assistir a sessões anteriores ou para saber mais sobre as próximas sessões e informações](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)de registro.
 
 
 ## Office Hours do atendimento ao cliente da Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -46,9 +46,9 @@ As sessões atuais gravadas do Target incluem:
 
 | Tópico / Tempo de execução / Data da gravação | O que você vai aprender |
 |--- |--- |
-| [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>dezembro de 2017 | Você aprenderá:<ul><li>Como funciona o VEC</li><li>Como evitar problemas comuns com o VEC</li><li>Práticas de correção que podem ser usadas com o VEC</li></ul>Para obter mais informações neste guia, consulte [Experiências](/help/c-experiences/experiences.md). |
-| [Adobe Target: Integração do Analytics/Target (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de janeiro de 2018 | Você aprenderá:<ul><li>Como configurar e validar o funcionamento da integração </li><li>Como funciona a integração</li><li>Saiba mais sobre os relatórios adequados para usar no Analytics</li><li>Respostas às perguntas comuns sobre o A4T</li></ul>Para obter mais informações neste guia, consulte [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at. js: Vantagens e Práticas recomendadas de implementação](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>de abril de 2018 | Você aprenderá: <ul><li>Como funciona a biblioteca at.js</li><li>As vantagens da at.js em relação a mbox.js</li><li>Como a at.js gerencia a cintilação</li><li>Erro de manipulação em at.js</li><li>Metodologias de depuração</li><li>Problemas conhecidos e roteiros futuros</li></ul>Para obter mais informações neste guia, consulte [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>de dezembro de 2017 | Você aprenderá:<ul><li>Como funciona o VEC</li><li>Como evitar problemas comuns com o VEC</li><li>Práticas de correção que podem ser usadas com o VEC</li></ul>Para obter mais informações neste guia, consulte [Experiências](/help/c-experiences/experiences.md). |
+| [Adobe Target: Integração do Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de janeiro de 2018 | Você aprenderá:<ul><li>Como configurar e validar o funcionamento da integração </li><li>Como funciona a integração</li><li>Saiba mais sobre os relatórios adequados para usar no Analytics</li><li>Respostas às perguntas comuns sobre o A4T</li></ul>Para obter mais informações neste guia, consulte [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [at.js: Vantagens e práticas recomendadas](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de implementação 26:43<br>de abril de 2018 | Você aprenderá: <ul><li>Como funciona a biblioteca at.js</li><li>As vantagens da at.js em relação a mbox.js</li><li>Como a at.js gerencia a cintilação</li><li>Erro de manipulação em at.js</li><li>Metodologias de depuração</li><li>Problemas conhecidos e roteiros futuros</li></ul>Para obter mais informações neste guia, consulte [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Leia o [comunicado](https://theblog.adobe.com/stay-optimized-adobe-target-inside
 
 >[!IMPORTANT]
 >
->[Cadastre-se para receber automaticamente o boletim Adobe Target Insider na sua caixa de entrada](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+>[Inscreva-se para receber automaticamente o boletim informativo do Adobe Target Insider na sua caixa de entrada](https://www.adobe.com/subscription/adobe_target_newsletter.html).
 
 Caso tenha perdido os informativos anteriores, clique nos links a seguir para garantir que você não perca nada:
 
@@ -172,7 +172,7 @@ A equipe de Atendimento ao cliente da Adobe Experience Cloud está aqui para aju
 
 Para receber notificações avançadas sobre as melhorias futuras do produto, cadastre-se no Priority Product Update da Adobe:
 
-[Atualização de produto prioritária da Adobe](https://www.adobe.com/subscription/priority-product-update.html)
+[Atualização do produto Adobe Priority](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### Serviço, capacidade e faturamento {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
