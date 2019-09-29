@@ -1,8 +1,8 @@
 ---
 description: Como uma atividade de personalização automatizada compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
 keywords: Recommendations
-seo-description: Como uma atividade de Personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
-seo-title: Visualizar experiências para uma atividade de Personalização automatizada (AP) no Adobe Target Visual Experience Composer
+seo-description: Como uma atividade de personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
+seo-title: Visualizar experiências para uma atividade de personalização automatizada (AP) no Adobe Target Visual Experience Composer
 solution: Target
 title: Visualizar experiências para Automated Personalization no Visual Experience Composer
 title-outputclass: premium
@@ -17,34 +17,34 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Visualizar experiências para Personalização automatizada no Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Como uma atividade de Personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
+Como uma atividade de personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
 
-1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
+1. No Visual Experience Composer, clique em **[!UICONTROL Visualizar]**.
 
-   ![Ícone de visualização](/help/c-activities/t-automated-personalization/assets/preview.png)
+   ![Ícone Visualizar](/help/c-activities/t-automated-personalization/assets/preview.png)
 
-   Uma lista de todas as experiências é exibida.
+   Uma lista de todas as experiências será exibida.
 
    ![Visualizar experiências](/help/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
 1. Clique em uma experiência específica na lista para visualizá-la.
 
-1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
+1. (Condicional) Para excluir uma ou mais experiências da atividade, clique no ícone **[!UICONTROL Excluir]** .
 
    ![Ícone Excluir](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   A caixa de diálogo Gerenciar conteúdo é exibida.
+   A caixa de diálogo Gerenciar conteúdo será exibida.
 
    ![Caixa de diálogo Gerenciar conteúdo](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
    É possível excluir uma experiência que mostra variações conflitantes ou que não esteja esteticamente equilibrada.
 
-   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
+   Para excluir uma experiência, passe o mouse sobre a experiência e clique no ícone **[!UICONTROL Excluir]**.
 
-   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
+   Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL Excluir]** na parte superior direita da lista.
 
-   Por padrão, todas as experiências são incluídas na atividade de Personalização automatizada. To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
+   Por padrão, todas as experiências são incluídas na atividade de Personalização automatizada. Para incluir uma experiência que foi excluída, passe o mouse sobre a experiência e clique no ícone **[!UICONTROL Incluir]**.
 
-   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
+   Para incluir várias experiências que foram excluídas, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL Incluir]** na parte superior direita da lista.
 
-1. Click **[!UICONTROL Compose]** to return to the Visual Experience Composer so you can make changes, or click **[!UICONTROL Next]** to go to the [!UICONTROL Targeting] step.
+1. Clique em **[!UICONTROL Compor]** para retornar para o Visual Experience Composer e fazer alterações ou clique em **[!UICONTROL Avançar]** para ir para a etapa [!UICONTROL Direcionamento].
