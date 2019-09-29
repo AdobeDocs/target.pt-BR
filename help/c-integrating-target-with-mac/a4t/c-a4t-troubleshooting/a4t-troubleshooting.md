@@ -24,7 +24,7 @@ Existem várias razões pelas quais isso pode acontecer:
 
 * A classificação no [!DNL Target] não foi completamente processada.
 
-   A classificação geralmente leva entre 24 e 72 horas para classificar relatórios após a primeira gravação.
+   A classificação geralmente leva de 24 a 72 horas para classificar os relatórios após o primeiro salvamento.
 
 * O conjunto de relatórios não contém nenhum dado, mas o [!DNL Target] tentou classificar os hits. O [!DNL Target] não pode classificar os dados até que o primeiro hit ocorra.
 
@@ -36,7 +36,7 @@ Existem várias razões pelas quais isso pode acontecer:
 
 >[!NOTE]
 >
->Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que normalmente leva entre 24 e 72 horas para classificar relatórios após a primeira gravação.
+>Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que geralmente leva de 24 a 72 horas para classificar relatórios após a primeira gravação.
 >
 >Nenhum dado é perdido quando listado como "não especificado". Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
