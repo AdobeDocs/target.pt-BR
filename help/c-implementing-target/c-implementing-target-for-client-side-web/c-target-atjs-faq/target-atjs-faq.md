@@ -29,7 +29,7 @@ O diagrama a seguir ilustra o desempenho do carregamento de página usando a mbo
 
 Como ilustrado acima, usando a mbox.js, o conteúdo da página não inicia o carregamento até que a chamada do [!DNL Target] seja concluída. Usando a at.js, o conteúdo da página inicia o carregamento ao iniciar a chamada do [!DNL Target] e não espera até que ela seja concluída.
 
-## What is the impact of at.js and mbox.js on page-load time? {#page-load}
+## Qual é o impacto da at.js e da mbox.js nos tempos de carregamento de página? {#page-load}
 
 Muitos clientes e consultores querem saber o impacto da [!DNL at.js] e da [!DNL mbox.js] no tempo de carregamento de página, principalmente no contexto de usuários novos e recorrentes. Infelizmente, é difícil medir e fornecer números concretos sobre como a [!DNL at.js] ou a [!DNL mbox.js] influenciam no tempo de carregamento de página devido à implementação de cada cliente.
 
@@ -75,7 +75,7 @@ A forma como as versões anteriores da [!DNL at.js] executam as solicitações �
 
 Por exemplo, se você verificar a cascata da guia de rede para a versão da [!DNL at.js] 0.9.1, verá que a próxima solicitação do Target não será iniciada até que a anterior tenha terminado. Com as versões do [!DNL at.js] 1.0.0 e posteriores isso não ocorre, pois todas as solicitações são iniciadas basicamente ao mesmo tempo.
 
-Da perspectiva de tempo de resposta, matematicamente, isso pode ser resumido assim:
+Da perspectiva de tempo de resposta, matematicamente, isso pode ser resumido assim
 
 <ul class="simplelist"> 
  <li> versão at.js 0.9.1: tempo de resposta de todas as solicitações do Target = soma do tempo de resposta das solicitações </li> 
