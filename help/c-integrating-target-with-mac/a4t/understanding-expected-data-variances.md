@@ -31,7 +31,7 @@ Estes são alguns cenários nos quais você pode experimentar a variação de da
 
    >[!NOTE]
    >
-   >Uma saída de problema conhecida que está fazendo com que um número limitado de clientes use redirecionamentos com A 4 T para ver uma porcentagem maior das taxas de ocorrência não empilhadas. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+   >Existe um problema conhecido que faz com que um número limitado de clientes que usam redirecionamentos com A4T vejam uma porcentagem maior de taxas de hit não unificadas. Consulte [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Suponha que você crie uma atividade de Alocação automática aberta a todos os visitantes para uma página específica. Já que as atividades de Alocação automática não são compatíveis com o A4T, todos os dados da atividade são coletados pelo [!DNL Target]. Você pode esperar que os visitantes da atividade no relatório [!DNL Target] correspondam aos visitantes dessa página nos relatórios [!DNL Analytics] para o mesmo intervalo de datas. Este é um cenário no qual a variância descrita abaixo é esperada.
 
