@@ -1,7 +1,7 @@
 ---
 description: Criar uma lista de exclusão para impedir que itens sejam recomendados.
 keywords: exclusões
-seo-description: Crie uma lista de exclusão no Adobe Target para impedir que itens sejam recomendados.
+seo-description: Crie uma lista de exclusão no Adobe Target para evitar que itens sejam recomendados.
 seo-title: Exclusões no Adobe Target
 solution: Target
 title: Exclusões
@@ -49,7 +49,7 @@ Você também pode criar exclusões usando Pesquisa avançada na página Pesquis
 
 [Salvar como](/help/c-recommendations/c-products/assets/save-as.png)
 
-Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Exclusão]. Para obter mais informações, consulte [Pesquisa de catálogo](/help/c-recommendations/c-products/catalog-search.md).
+Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Exclusão]. Para obter mais informações, consulte Pesquisa [em](/help/c-recommendations/c-products/catalog-search.md)catálogo.
 
 >[!IMPORTANT]
 >
