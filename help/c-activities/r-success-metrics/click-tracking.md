@@ -22,7 +22,7 @@ O Target permite monitorar os cliques em um elemento como uma métrica de sucess
 >
 >O rastreamento de cliques não é suportado na mbox global de destino quando é usada como um local em uma atividade baseada em forma.
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## Configuração do rastreamento de cliques {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Ao definir suas metas na página [!UICONTROL Metas e configurações] para a atividade, selecione a métrica de sucesso de **[!UICONTROL Conversão].**
 1. Para ação, selecione **[!UICONTROL Clicou em um elemento]** e clique em **[!UICONTROL Selecionar elementos]**.
@@ -37,13 +37,13 @@ O Target permite monitorar os cliques em um elemento como uma métrica de sucess
 
 Quando um participante da atividade clica em um elemento selecionado, esse clique é contado como uma conversão.
 
-## Selected Elements panel {#selected-elements}
+## Painel Elementos selecionados {#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+Para atividades Teste A/B, de Experiência de direcionamento (XT), Personalização automatizada (AP) e Teste multivariado (MVT), um painel [!UICONTROL Elementos selecionados] lista todos os elementos selecionados para o rastreamento de cliques no lado direito.
 
-![Painel Elementos selecionados](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+Painel ![Elementos selecionados](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. A tabela a seguir descreve cada ação que pode ser executada em um elemento:
+Há várias ações que podem ser aplicadas quando você passa o mouse sobre um elemento no painel [!UICONTROL Elementos selecionados]. A tabela a seguir descreve cada ação que pode ser executada em um elemento:
 
 | Ação | Descrição |
 | --- | --- |
@@ -53,15 +53,15 @@ There are a several actions that can be applied when you hover over an element i
 
 ### Adicionar elemento
 
-Se você já conhece o caminho DOM para o seletor, você pode adicioná-lo manualmente ao clicar no ícone de adição localizado na parte superior do painel.
+Se já conhece o caminho DOM para o seletor, você pode adicioná-lo manualmente ao clicar no ícone de adição localizado na parte superior do painel.
 
 ![Ícone Adicionar elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### Pop-up de passagem de elementos selecionados
+### Pop-up de passagem do mouse de elementos selecionados
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. A lista contém o caminho DOM completo para o elemento ajudar a validar se o elemento selecionado deve ser usado para o rastreamento de cliques.
+Depois de selecionar vários elementos para o rastreamento de cliques, você pode clicar no link [!UICONTROL Elementos selecionados] na etapa [!UICONTROL Metas e configurações] da atividade para ver a lista completa de elementos selecionados para rastreamento de cliques. A lista contém o caminho DOM completo para o elemento, para ajudar a validar se o elemento selecionado deve ser usado para o rastreamento de cliques.
 
-![Link Selected Selecionado](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![Link Elementos Selecionados](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## Considerações {#considerations}
 
@@ -84,7 +84,7 @@ Há várias coisas a considerar ao selecionar elementos:
 
    | Caractere | Descrição |
    |---|---|
-   | # | Sinal numérico ou Hash |
+   | # | Sinal numérico ou hash |
    | : | Dois-pontos |
    | . | Ponto |
    | $ | Símbolo de moeda |
