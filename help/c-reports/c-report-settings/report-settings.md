@@ -19,7 +19,7 @@ Informações para ajudar a definir os elementos que você quer que apareçam em
 
 Para exibir um relatório, clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista e na guia **Relatórios[!UICONTROL .]**
 
-![Interface do usuário do relatório](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+![Interface de relatórios](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Predefinição do Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -46,7 +46,7 @@ Você também pode configurar um relatório de atividade individual, como deseja
 
 Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefinição do Target].**
 
-![Lista suspensa predefinida](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
+![Lista suspensa Predefinição](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Editar uma predefinição**
 
@@ -63,14 +63,14 @@ Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefiniç�
 
    Clique no ícone de três elipses verticais &gt; **[!UICONTROL Atualizar]para atualizar a predefinição atual.**
 
-   ![Atualização padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
+   ![Atualização do Padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Excluir uma predefinição**
 
 1. Selecione a predefinição que deseja excluir.
 1. Clique no ícone de três elipses verticais &gt; **[!UICONTROL Excluir]**.
 
-   ![Excluir padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
+   ![Exclusão Padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Clique novamente em **[!UICONTROL Excluir]para confirmar a exclusão.**
 
@@ -183,7 +183,7 @@ Clique no ícone de **[!UICONTROL Contribuição de localização]para que o rel
 
 Marque ou desmarque as experiências à esquerda do gráfico para exibir ou ocultar as experiências correspondentes no gráfico.
 
-Se a ilustração a seguir, somente as experiências Padrão, Mid-Leste e Total forem exibidas no relatório. A experiência da Ásia está oculta no gráfico.
+Na ilustração a seguir, somente as experiências Padrão, Centro-este e Total são exibidas no relatório. A experiência na Ásia está oculta no gráfico.
 
 ![Experiências](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
@@ -198,7 +198,7 @@ Selecione a exibição de gráfico desejada:
 * Diariamente
 * Aumento diário
 
-![Média de geração de relatório](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
+![Média de execução do relatório](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
