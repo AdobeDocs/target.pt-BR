@@ -29,7 +29,7 @@ Você pode direcionar os visitantes que usam um certo sistema operacional.
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-As ilustrações a seguir mostram um público-alvo direcionado para visitantes usando um Macintosh OS.
+As ilustrações a seguir mostram um público-alvo direcionado para visitantes que usam Macintosh OS.
 
 ![](assets/target_os.png)
 
