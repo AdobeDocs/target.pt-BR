@@ -23,7 +23,7 @@ Muitos profissionais de marketing cometem o erro de declarar prematuramente uma 
 
 Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Target] exibe um emblema na parte superior da página da atividade, indicando "Ainda não há vencedor" até que a atividade atinja o número mínimo de conversões com confiança suficiente.
 
-![Sem selo vencedor](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![Sem selo de Vencedor](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Quando um vencedor claro é declarado, o [!DNL Target] exibe "Vencedor: Experiência X".
 
@@ -41,7 +41,7 @@ Não usamos a confiança baseada em valor p para alocação automática.
 
 A coluna Confiança em uma atividade de Alocação automática (ilustrada abaixo) exibe a probabilidade de uma experiência ser a vencedora com margem de erro de 1% (ou seja, o algoritmo usa um efeito mínimo detectável de 1% entre a melhor e a segunda melhor taxa de conversão). Observe que o algoritmo usa [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) para computar esta probabilidade.
 
-Testes A/B normais calculam a confiança com base nos valores de p. A Alocação automática não usa valores p. Os valores de P calculam "vagamente" a probabilidade de que uma determinada experiência seja diferente do controle. Esses valores p podem ser usados somente para determinar se uma experiência pode ser diferente do controle. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
+Testes A/B normais calculam a confiança com base nos valores de p. A Alocação automática não usa valores p. Os valores de P calculam "vagamente" a probabilidade de que uma determinada experiência seja diferente do controle. Esses valores p podem ser usados apenas para determinar se uma experiência pode ser diferente do controle. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
 
 A ilustração a seguir mostra uma atividade que ainda não tem vencedor:
 
@@ -59,7 +59,7 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
 * Testes A/B manuais e Alocação automática usam estatísticas diferentes para exibir valores de confiança.
 
-   Os testes manuais A/B usam valores p baseados no [teste t de Estudante](https://en.wikipedia.org/wiki/Student%27s_t-test). Um valor P é a probabilidade de encontrar a diferença observada (ou uma mais extrema) entre uma experiência e o controle, visto que, na realidade, não há diferença tal. Esses valores P podem ser usados somente para determinar se os dados observados estão consistentes com uma experiência específica e o controle que é o mesmo. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
+   Os testes manuais A/B usam valores p baseados no [teste t de Estudante](https://en.wikipedia.org/wiki/Student%27s_t-test). Um valor P é a probabilidade de encontrar a diferença observada (ou uma mais extrema) entre uma experiência e o controle, visto que, na realidade, não há essa diferença. Esses valores P podem ser usados somente para determinar se os dados observados estão consistentes, visto que a experiência e o controle são iguais. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
 
    A Alocação automática mostra a probabilidade de uma determinada experiência ser um verdadeiro vencedor em todas as experiências na atividade. Isso significa que apenas uma experiência vencedora (que provavelmente será a vencedora) terá um valor de confiança diferente de zero. Todos os outros são mais propensos a serem perdedores e exibirão 0%.
 
