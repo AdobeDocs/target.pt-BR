@@ -1,8 +1,8 @@
 ---
 description: A pesquisa no catálogo ajuda a localizar os produtos ou conteúdo no catálogo.
 keywords: catálogo, pesquisa
-seo-description: A pesquisa do catálogo no Adobe Target ajuda a localizar os produtos ou conteúdo no catálogo.
-seo-title: Pesquisa no catálogo no Adobe Target
+seo-description: A pesquisa de catálogo no Adobe Target ajuda a localizar os produtos ou conteúdo no catálogo.
+seo-title: Pesquisa de catálogo no Adobe Target
 solution: Target
 title: Pesquisa no catálogo
 title-outputclass: premium
@@ -19,7 +19,7 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 A pesquisa no catálogo ajuda a localizar os produtos ou conteúdo no catálogo.
 
-Para acessar a pesquisa de catálogo, clique **[!UICONTROL em Recomendações]** &gt; **[!UICONTROL Pesquisa de catálogo]**.
+Para acessar a pesquisa de catálogo, clique em **[!UICONTROL Recommendations]** &gt; Pesquisa **[!UICONTROL de]** catálogo.
 
 Você pode refinar a pesquisa selecionando uma opção de pesquisa no menu de opções, que é exibido ao clicar na seta para baixo no campo de pesquisa.
 
@@ -40,7 +40,7 @@ Nos resultados da pesquisa, você pode clicar no filtro de **[!UICONTROL Ambient
 
 O número que aparece ao lado de "Produtos" é o número de produtos que combinam com o termo de pesquisa, do total disponível no ambiente especificado.
 
-O catálogo é atualizado automaticamente quando as atualizações são recebidas por meio de arquivos de feed, API ou atualizações de mbox. Normalmente, as atualizações são concluídas em uma hora. Se as atualizações estiverem em andamento, a atualização mais recente é iniciada. Se nenhuma atualização estiver em andamento, o tempo de início da atualização mais recente será exibido.
+O catálogo é atualizado automaticamente quando as atualizações são recebidas por meio de arquivos de feed, API ou atualizações de mbox. As atualizações normalmente são concluídas em uma hora. Se as atualizações estiverem em andamento, o horário em que a atualização mais recente começou será exibido. Se nenhuma atualização estiver em andamento, o tempo em que a atualização mais recente começou e terminou será exibido.
 
 ## Criar uma coleção ou exclusão com base na Pesquisa avançada
 
