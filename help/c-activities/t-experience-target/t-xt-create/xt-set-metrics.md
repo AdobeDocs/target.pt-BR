@@ -1,7 +1,7 @@
 ---
 description: Use métricas em uma atividade Direcionamento de experiência (XT) para determinar quando uma visita obtém sucesso.
 keywords: direcionamento de experiência; xt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-seo-description: Use as métricas em uma atividade de direcionamento de experiência do Adobe Target (XT) para determinar quando uma visita é bem-sucedida.
+seo-description: Use métricas em uma atividade de Direcionamento de experiência (XT) do Adobe Target para determinar quando uma visita é bem-sucedida.
 seo-title: Definir métricas
 solution: Target,standard
 title: Definir métricas
