@@ -1,10 +1,10 @@
 ---
-description: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
-keywords: rgropr; eu; união europeia; privacidade; perguntas frequentes; perguntas frequentes; california consumer privacy act; ccpa; privacidade; proteção de dados; recusar; recusar; governamental; regulamento
-seo-description: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
-seo-title: Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
+description: Informações sobre o Regulamento Geral de Proteção de Dados da União Europeia (RGPD), o Ato de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos internacionais de privacidade, e como essas regulamentações afetam sua organização e o Adobe Target.
+keywords: gdpr;eu;união europeia;privacidade;faq;perguntas frequentes;lei de privacidade do consumidor da Califórnia;ccpa;privacidade;proteção de dados;opção de não participação;governo;regulamento
+seo-description: Informações sobre o Regulamento Geral de Proteção de Dados da União Europeia (RGPD), o Ato de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos internacionais de privacidade, e como essas regulamentações afetam sua organização e o Adobe Target.
+seo-title: Informações sobre o Regulamento Geral de Proteção de Dados da União Europeia (RGPD), o Ato de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos internacionais de privacidade, e como essas regulamentações afetam sua organização e o Adobe Target.
 solution: Target
-title: Normas de privacidade e proteção de dados
+title: Regras de privacidade e proteção de dados
 topic: Padrão
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
@@ -13,19 +13,19 @@ source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 ---
 
 
-# Normas de privacidade e proteção de dados {#privacy-and-general-data-protection-regulation-gdpr}
+# Regras de privacidade e proteção de dados {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informações sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
+Informações sobre o Regulamento Geral de Proteção de Dados da União Europeia (RGPD), o Ato de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos internacionais de privacidade, e como essas regulamentações afetam sua organização e o Adobe Target.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
-Em 25 de maio de 25 18, o RGPD da União Europeia entrou em vigor. Para obter mais informações sobre o que isso significa para você, consulte [GDPR e seus negócios](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Em 25 de maio de 2018, o RGPD da União Europeia entrou em vigor. Para obter mais informações sobre o que isso significa para você, consulte [GDPR e seus negócios](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 When [!DNL Adobe] is providing software and services to an enterprise, [!DNL Adobe] is acting as a Data Processor for any personal data it processes and stores as part of providing these services. As a Data Processor, [!DNL Adobe] processes personal data in accordance with your company's permission and instructions (for example, as set out in your agreement with [!DNL Adobe]).
 
 As the Data Controller, you determine the personal data that [!DNL Adobe] processes and stores on your behalf. If you use [!DNL Adobe Experience Cloud] solutions, [!DNL Adobe] might host personal data for you, depending on the solutions you use and the information you choose to send to your [!DNL Adobe Experience Cloud] account. Para obter uma lista detalhada de exemplos, consulte [Privacidade na Adobe Experience Cloud](https://www.adobe.com/privacy/marketing-cloud.html#collect).
 
-[!DNL Adobe Experience Cloud] fornecer apis PRONTAS para o RGPD para controladores de dados que permitem concluir as seguintes tarefas:
+[!DNL Adobe Experience Cloud] forneça APIs prontas para RGPD para Controladores de dados que permitem concluir as seguintes tarefas:
 
 * Acessar informações do titular de dados armazenadas no [!DNL Target]
 * Excluir informações do titular de dados armazenadas no [!DNL Target]
@@ -35,22 +35,22 @@ Para obter mais informações, consulte:
 * [Site da API do Regulamento Geral sobre a Proteção de Dados da Adobe](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [Documentação do GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
 
-## Visão geral de Privacy Consumer Privacy Act (CCPA)
+## Visão geral do California Consumer Privacy Act (CCPA)
 
-A CCPA (Privacy Consumer Privacy Act) fornece aos consumidores da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades proteção de dados em determinadas entidades que conduzem negócios na Califórnia. A CCPA entrará em vigor em 1 de janeiro de 2020.
+A California Consumer Privacy Act (CCPA) fornece aos consumidores da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades que fazem negócios na Califórnia. A CCPA entra em vigor em 1 de janeiro de 2020.
 
-Em um nível superior, a lei fornece à Califórnia vários direitos principais, incluindo direitos para:
+A um nível elevado, a lei concede aos californianos vários direitos fundamentais, incluindo o direito de:
 
-* Solicitação de informações (acesso a dados)
-* Recusar a venda de informações pessoais (um direito definido amplamente amplamente para recusar o compartilhamento de informações com terceiros)
+* Informações da solicitação (acesso aos dados)
+* Recusar a venda de informações pessoais (um direito definido de forma muito lata de optar por não partilhar informações com terceiros)
 * Ter informações pessoais excluídas
-* Seja informado de que as informações pessoais estão sendo divulgadas ou vendidas
+* Ser informado de que as informações pessoais estão a ser divulgadas ou vendidas
 
-Se estiver ocupado para a lei de privacidade da Europa (RGPD) no ano passado, alguns desses direitos podem ser familiares e muito do trabalho que você realizou pode ser redefinido.
+Se estivesse ocupado a preparar-se para a legislação europeia em matéria de privacidade (RGPD) no ano passado, alguns destes direitos poderiam ser familiares e muito do trabalho que realizou poderia ser reposto.
 
 ## Adobe Target and [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] fornece suporte à funcionalidade de aceitação por meio [!DNL Launch] do suporte à estratégia de gerenciamento de consentimento. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Launch] you'll need to select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the [!DNL Launch] extension installation view. Consulte a documentação do [Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
+[!DNL Target] fornece suporte à funcionalidade de aceitação por meio [!DNL Launch] do para ajudar a apoiar sua estratégia de gerenciamento de consentimento. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Launch] you'll need to select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the [!DNL Launch] extension installation view. Consulte a documentação do [Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
 
 O trecho de código a seguir mostra como ativar a configuração `optinEnabled=true`:
 
@@ -62,13 +62,13 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->A funcionalidade de aceitação é compatível com o at. js versão 1.7.0 e o at. js 2.1.0 ou posterior. Não há suporte para o at. js versão 2.0.0 e 2.0.1.
+>A funcionalidade de aceitação é suportada no at.js versão 1.7.0 e no at.js 2.1.0 ou posterior. A aceitação não é suportada no at.js versão 2.0.0 e 2.0.1.
 >
 >Using [!DNL Experience Platform Launch] to manage opt-in is the recommended approach. Further granular control exists in [!DNL Launch] to hide selected elements of your page prior to [!DNL Target] firing that are helpful to leverage as part of your consent strategy.
 
 Há três cenários a serem considerados ao usar a inclusão:
 
-1. **A[!DNL Target]tag é aprovada previamente por ([!DNL Launch]ou o assunto de dados aprovado[!DNL Target]anteriormente):** [!DNL Target] A tag não é mantida para consentimento e funções conforme esperado.
+1. **[!DNL Target]A[!DNL Launch]tag é pré-aprovada por meio[!DNL Target](ou a pessoa de dados previamente aprovada**): A [!DNL Target] tag não é mantida para consentimento e funções como esperado.
 1. **[!DNL Target]A tag do NÃO é pré-aprovada e`bodyHidingEnabled`é FALSE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. After consent is received, [!DNL Target] is called and personalized content is available to the data subject (visitor). Como apenas o conteúdo padrão está disponível antes do consentimento, é importante utilizar uma estratégia apropriada, como uma página inicial que cubra qualquer parte da página ou conteúdo que possa ser personalizado. Isso garante que a experiência permaneça consistente para o titular dos dados (visitante).
 1. **[!DNL Target]A tag do NÃO é pré-aprovada e`bodyHidingEnabled`é TRUE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. No entanto, como `bodyHidingEnabled` é definido para verdadeiro, `bodyHiddenStyle` determina qual conteúdo na página fica oculto até que a tag do seja acionada (ou o titular dos dados recuse a inclusão, sendo que nesse caso o conteúdo padrão é exibido). [!DNL Target] Por padrão, `bodyHiddenStyle` está configurado como `body { opacity:0;`}, o que oculta a tag do corpo HTML. Nossa configuração de página recomendada é apresentada abaixo para que todo o corpo da página, além da caixa de diálogo do gerenciador de consentimento, fique oculto, colocando o conteúdo da página em um contêiner e o diálogo do gerenciador de consentimento em um contêiner separado. This setup configures [!DNL Target] so that it hides the page content container only. Consulte a [documentação do Launch para obter mais informações sobre como definir essas configurações](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
@@ -100,13 +100,13 @@ Há três cenários a serem considerados ao usar a inclusão:
    #pageContent { opacity:0;}
    ```
 
-## Perguntas frequentes sobre privacidade e proteção de dados {#concept_41F88DE95D2943178BEC382736B5C038}
+## Perguntas frequentes sobre as regulamentações de privacidade e proteção de dados {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Perguntas frequentes sobre o Regulamento geral de proteção de dados da União Europeia (RGPD), a Lei de privacidade do consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais específicos do Target.
+Perguntas frequentes sobre o Regulamento Geral de Proteção de Dados (RGPD) da União Europeia, o California Consumer Privacy Act (CCPA) e outros requisitos internacionais de privacidade específicos do Target.
 
 ### Qual é a política da Adobe para esses regulamentos? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
-[!DNL Adobe]A já atende às obrigações como um Processador de dados ou está fazendo implementações de acordo. Temos uma forte base de controles de segurança e privacidade certificados por design e fizemos melhorias de produtos antes do prazo de May 018 de maio. Clientes empresariais terão a responsabilidade de implementar essas melhorias, além de atualizar quaisquer políticas e procedimentos necessários.
+[!DNL Adobe]A já atende às obrigações como um Processador de dados ou está fazendo implementações de acordo. Temos uma sólida base de controles certificados de segurança e privacidade desde o início e fizemos aprimoramentos de produtos antes do prazo de maio de 2018. Clientes empresariais terão a responsabilidade de implementar essas melhorias, além de atualizar quaisquer políticas e procedimentos necessários.
 
 ### Will my company, the Data Controller, need to submit a GDPR or CCPA request to each [!DNL Adobe Experience Cloud] solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
@@ -116,7 +116,7 @@ All GDPR and CCPA requests across [!DNL Experience Cloud] solutions, including [
 
 ### What information will [!DNL Adobe] enable our customers to delete in response to a data subject/user request? {#section_4B51D00924EC4166B2442218B69214F0}
 
-The information related to an individual visitor within [!DNL Target] is contained within the [!DNL Target] Visitor Profile. [!DNL Target]O permitirá que nossos clientes excluam todos os dados associados a uma ID em seus respectivos Perfis do visitante. Para obter exemplos dos armazenamentos de dados [!DNL Target] de perfil, consulte [Perfil do visitante](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+The information related to an individual visitor within [!DNL Target] is contained within the [!DNL Target] Visitor Profile. [!DNL Target]O permitirá que nossos clientes excluam todos os dados associados a uma ID em seus respectivos Perfis do visitante. Para obter exemplos dos [!DNL Target] armazenamentos de dados de perfil, consulte Perfil do [visitante](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Dados agregados ou anônimos (por exemplo, dados de relatórios) não usados para identificar um certo indivíduo, ou dados não relevantes a um indivíduo específico (por exemplo, dados de conteúdo), não estão no escopo de uma solicitação de exclusão de usuário.
 
@@ -138,11 +138,11 @@ Dados agregados ou anônimos (por exemplo, dados de relatórios) não usados par
 
 ### How does [!DNL Target] handle consent management? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-O RGPD e a CCPA não mudam quando você precisa obter o consentimento, mas como obtê-lo. A estratégia de consentimento de cada cliente depende de sua coleta de dados e práticas de uso, bem como da política de privacidade. Consent management isn’t supported by and shouldn’t be achieved via [!DNL Target] for GDPR and CCPA.
+O RGPD e o CCPA não mudam quando você precisa obter consentimento, mas como você obtém. A estratégia de consentimento de cada cliente depende de sua coleta de dados e práticas de uso, bem como da política de privacidade. Consent management isn’t supported by and shouldn’t be achieved via [!DNL Target] for GDPR and CCPA.
 
 [!DNL Adobe]No momento, a não oferece uma solução de Administração de consentimento, mas há várias ferramentas em desenvolvimento no mercado para atender a alguns dos novos requisitos. For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
 
-[!DNL Target] fornece suporte à funcionalidade de aceitação para [!DNL Launch] fornecer suporte à estratégia de gerenciamento de consentimento. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. Using [!DNL Launch] to manage opt-in is the recommended approach. Further granular control exists in [!DNL Launch] to hide select elements of your page prior to the [!DNL Target] firing that might be helpful to leverage as part of your consent strategy.
+[!DNL Target] O oferece suporte à funcionalidade de aceitação por meio do [!DNL Launch] para fornecer suporte à sua estratégia de gerenciamento de consentimento. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. Using [!DNL Launch] to manage opt-in is the recommended approach. Further granular control exists in [!DNL Launch] to hide select elements of your page prior to the [!DNL Target] firing that might be helpful to leverage as part of your consent strategy.
 
 For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Also, see the *Adobe Target and Experience Platform Launch opt-in* section above.
 
@@ -201,9 +201,9 @@ In addition to the requirements from Central Privacy Service, a valid GDPR or CC
 
 | Status da solicitação | Mensagem de resposta do Target | Cenário |
 |--- |--- |--- |
-| Processando | Processando | O Target recebeu a solicitação do RGPD ou CCPA e está processando. |
-| Concluído | Não aplicável - o contexto da empresa não é aplicável | A ID IMS na solicitação RGPD ou CCPA não é mapeada para qualquer cliente do Target.<br>Observe que algumas empresas têm várias IDs de IMS. Você deve enviar a ID de IMS na qual o Target é provisionado. |
-| Concluído | Não aplicável - contexto do usuário não encontrado | A ID fornecida na solicitação RGPD ou CCPA para o visitante específico ou o assunto de dados não está presente na loja de perfil do Target.<br>Observe que esse resultado também será retornado se você tentar enviar um tipo de ID de namespace que não seja suportado pelo Target (veja acima as IDs suportadas). |
+| Processando | Processando | O Target recebeu a solicitação de RGPD ou CCPA e está em processamento. |
+| Concluído | Não aplicável - o contexto da empresa não é aplicável | A ID do IMS na solicitação de RGPD ou CCPA não está mapeada para nenhum cliente do Target.<br>Observe que algumas empresas têm várias IDs de IMS. Você deve enviar a ID de IMS na qual o Target é provisionado. |
+| Concluído | Não aplicável - contexto do usuário não encontrado | A ID fornecida na solicitação do RGPD ou CCPA para o visitante ou pessoa de dados específica não está presente no repositório de perfis do Target.<br>Observe que esse resultado também será retornado se você tentar enviar um tipo de ID de namespace que não seja suportado pelo Target (veja acima as IDs suportadas). |
 | Erro | Mensagem de erro (os detalhes dependem do tipo de erro) | Erro ao buscar ou excluir o perfil do titular de dados solicitado.<br>Erro ao fazer upload no Azure para a solicitação de acesso. |
 
 ### Que resposta é enviada pelo Target à API do GDPR para uma solicitação de acesso? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
@@ -251,11 +251,11 @@ A sample [!DNL Target] access API response could look like this:
 
 | Campo | Descrição |
 |--- |--- |
-| jobId | Indica a ID do trabalho RGPD ou CCPA da API central do RGPD. |
+| jobId | Indica a ID de trabalho do RGPD ou CCPA da API do RGPD Central. |
 | imsOrgID | Oferece um identificador exclusivo para sua empresa. |
-| namespace | Também conhecido como fonte de dados. Consulte "Quais IDs têm suporte para ajudar os clientes a concluir uma solicitação de acesso e exclusão RGPCCPA e a solicitação de exclusão do Target?" neste tópico. |
-| type | O tipo de ID para o qual você solicitou o acesso aos dados do RGPD ou CCPA. O Target aceita diversos tipos de ID, alguns são padrão e outros são específicos ao Target. Consulte "Quais IDs têm suporte para ajudar os clientes a concluir uma solicitação de acesso e exclusão RGPCCPA e a solicitação de exclusão do Target?" neste tópico. |
-| value | A ID do namespace/fonte de dados. Consulte "Quais IDs têm suporte para ajudar os clientes a concluir uma solicitação de acesso e exclusão RGPCCPA e a solicitação de exclusão do Target?" para saber mais sobre os valores aceitos. |
+| namespace | Também conhecido como fonte de dados. Consulte "Quais IDs são suportadas para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR ou CCPA para o Target?" neste tópico. |
+| type | O tipo de ID para o qual você solicitou acesso ao RGPD ou ao CCPA. O Target aceita diversos tipos de ID, alguns são padrão e outros são específicos ao Target. Consulte "Quais IDs são suportadas para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR ou CCPA para o Target?" neste tópico. |
+| value | A ID do namespace/fonte de dados. Consulte "Quais IDs são suportadas para ajudar os clientes a concluírem uma solicitação de acesso e exclusão do GDPR ou CCPA para o Target?" para saber mais sobre os valores aceitos. |
 | código de integração | Códigos de integração são nomes amigáveis para suas fontes de dados e ajudam a monitorar suas fontes de dados de maneira mais fácil do que seria com IDs de fontes de dados. |
 
 Quando diversos valores são fornecidos para identificar os perfis, cada identificador válido terá um arquivo de perfil. The profile file(s) are sent to the central GDPR Azure Blob through the GDPR Central API, in the format of [!DNL Target] Profile JSON response.
@@ -291,4 +291,4 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 
 ### O Target suporta ofuscação de IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] suporta ofuscação de IP se optar por usá-la como parte da estratégia de implementação do RGPD ou CCPA. Para obter mais informações, consulte [Privacidade](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] suporta ofuscação de IP se você optar por usá-la como parte de sua estratégia de implementação de RGPD ou CCPA. Para obter mais informações, consulte [Privacidade](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
