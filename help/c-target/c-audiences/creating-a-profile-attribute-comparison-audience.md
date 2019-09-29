@@ -1,7 +1,7 @@
 ---
-description: Defina um público-alvo para comparar dois atributos de perfil para a biblioteca de público-alvo do Target ou em um público-alvo somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
+description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
 keywords: público-alvo, propensão, atributo de perfil, comparar, comparação, criar público-alvo, criação de público-alvo
-seo-description: Defina um público-alvo para comparar dois atributos de perfil para a biblioteca de público-alvo do Target ou em um público-alvo somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
+seo-description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
 seo-title: Criar um público-alvo de comparação do atributo de perfil no Adobe Target
 solution: Target
 title: Criar um público-alvo de comparação do atributo de perfil
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Criar um público-alvo de comparação do atributo de perfil{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
+Defina um público-alvo para comparar dois atributos de perfil da sua [biblioteca de público-alvo](/help/c-target/c-audiences/audiences.md) ou em um [público somente de atividade](/help/c-target/creating-activity-only-audience.md). O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
 
 >[!NOTE]
 >
