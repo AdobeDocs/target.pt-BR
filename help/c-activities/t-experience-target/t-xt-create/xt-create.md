@@ -1,6 +1,6 @@
 ---
 description: Use o Visual Experience Composer para criar uma atividade de direcionamento de experiência em uma página habilitada pelo Target e modificar partes da página no Target.
-seo-description: Use o Visual Experience Composer para criar uma atividade de direcionamento de experiência (XT) em uma página ativada pelo Target e modificar partes da página no Adobe Target.
+seo-description: Use o Visual Experience Composer para criar uma atividade de Direcionamento de experiência (XT) em uma página habilitada pelo Target e modificar partes da página no Adobe Target.
 seo-title: Criar uma atividade de direcionamento de experiência
 solution: Target
 subtopic: Teste multivariado
@@ -15,53 +15,53 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Criar uma atividade de direcionamento de experiência{#create-an-experience-targeting-activity}
 
-Use the [!UICONTROL Visual Experience Composer] (VEC) to create an [!UICONTROL Experience Targeting] (XT) activity on a Target-enabled page and to modify portions of the page within [!DNL Adobe Target].
+Use o [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade de [!UICONTROL Direcionamento de experiência] (XT) em uma página habilitada pelo Target e modificar partes da página no [!DNL Adobe Target].
 
 O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
+O Direcionamento de experiência, incluindo o [Direcionamento geográfico](/help/c-target/c-audiences/c-target-rules/geo.md), é importante para definir regras que direcionem uma experiência ou conteúdo específico para um determinado público-alvo. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
 
-For more information about Experience Targeting, a use-case scenario, and training videos, see [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md).
+Para obter mais informações sobre Direcionamento de experiência, um cenário de casos de uso e vídeos de treinamento, consulte [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md).
 
-**Para criar uma atividade XT:**
+**Para criar uma atividade de XT:**
 
 1. Na lista [!UICONTROL Atividades], clique em **[!UICONTROL Criar atividade]** &gt; **[!UICONTROL Direcionamento de experiência]**.
 
-   ![Criar atividade &gt; Direcionamento da experiência](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Criar atividade &gt; Direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >Os tipos de atividades disponíveis dependem da sua conta do Target. Alguns tipos de atividades podem não aparecer na lista. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >Os tipos de atividades disponíveis dependem da sua conta do Target. Alguns tipos de atividades podem não aparecer na lista. Por exemplo, a [!UICONTROL Personalização automatizada] é um [recurso do Target Premium](/help/c-intro/intro.md#premium).
    >
-   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
+   >Para obter mais informações sobre os diversos tipos de atividades disponíveis no [!DNL Target] e suas diferenças, consulte [Atividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de atividade do Target](/help/c-activities/target-activities-guide.md) para ajudá-lo a decidir qual tipo de atividade se adapta melhor as suas necessidades.
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. Selecione **[!UICONTROL Visual (Padrão)]**, se necessário.
 
-   ![Caixa de diálogo Criar atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+   ![Caixa de diálogo Criar atividade de Direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   Se preferir usar o Experience Composer baseado em formulário, selecione [!UICONTROL Formulário]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   Se preferir usar o Experience Composer baseado em formulário, selecione [!UICONTROL Formulário]. Consulte [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
-   >Além do VEC e do Criador de experiências baseado em forma, o Target oferece o VEC do aplicativo de página única e o VEC para aplicativos móveis. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Além do VEC e do Experience Composer baseado em formulário, o Target oferece o VEC para aplicativo de página única e o VEC para aplicativos móveis. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Sua organização tem uma licença do Target Standard caso não veja essa opção.]
+   >A opção [!UICONTROL Escolher local de trabalho] na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Caso não veja essa opção, a licença da organização é do Target Standard.]
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condicional) Se você for um cliente do Target Premium, [escolha um espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Specify your [activity URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
+1. Especifique o [URL da atividade](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) e clique em **[!UICONTROL Próximo]**.
 
-   If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. Você pode alterar do padrão para outro URL, se necessário.
+   Se sua conta foi [configurada com um URL padrão](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), esse URL aparece por padrão. Você pode alterar o URL padrão por outro, se necessário.
 
-   A VEC é aberta, mostrando a página especificada no URL.
+   O VEC é aberto, mostrando a página especificada no URL.
 
-   ![Atividade de direcionamento de experiência no VEC](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+   ![Atividade de Direcionamento de experiência no VEC](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
 
 1. Digite um nome para a atividade no espaço fornecido.
 
-   ![Campo name](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+   ![Campo nome](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
    Os seguintes caracteres não são permitidos em um nome de atividade:
 
@@ -76,8 +76,8 @@ For more information about Experience Targeting, a use-case scenario, and traini
    | `-` | menos |
    | `@` | Sinal de arroba |
 
-1. Crie novas experiências direcionadas para públicos-alvo de diferença.
+1. Crie novas experiências direcionadas para públicos-alvo diferentes.
 
-   For step-by-step instructions, see [Add experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
+   Para obter instruções passo a passo, consulte [Adicionar experiência](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
 1. Especifique as [metas e configurações](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) da atividade.
