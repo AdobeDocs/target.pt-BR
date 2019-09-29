@@ -1,7 +1,7 @@
 ---
-description: O Visual Experience Composer (VEC) fornece uma interface visual para editar as experiências na sua página em uma atividade de direcionamento de experiência (XT).
+description: O Visual Experience Composer (VEC) fornece uma interface visual para editar as experiências em sua página da atividade de Direcionamento de experiência (XT).
 keywords: criar experiência, experiência criar, prioridade, público-alvo, experiência, visual experience composer
-seo-description: O Adobe Target Visual Experience Composer (VEC) fornece uma interface visual para editar as experiências na sua página em uma atividade de direcionamento de experiência (XT).
+seo-description: O Visual Experience Composer (VEC) do Adobe Target fornece uma interface visual para editar as experiências em sua página da atividade de Direcionamento de experiência (XT).
 seo-title: Criar experiência
 solution: Target
 title: Criar experiência
@@ -13,7 +13,7 @@ source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 ---
 
 
-# Create experience{#create-experience}
+# Criar experiência{#create-experience}
 
 The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
@@ -23,21 +23,21 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    ![Público-alvo de todos os visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Todas as alterações feitas agora se aplicam à Experiência A. Em uma etapa abaixo, você clicará em **[!UICONTROL Adicionar Direcionamento de experiência]** para criar experiências adicionais.
 
-   À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o VEC. Para ver uma lista de ações que podem ser executadas em um elemento para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >Por padrão, o VEC não permite alterações a elementos que contenham javascript, como banners giratórios. Você pode desativar o javascript para alterar esses elementos usando o VEC.
+   >Por padrão, o VEC não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar o JavaScript para alterar esses elementos usando a VEC.
 
 1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
-   ![Adicionar link de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+   ![Link Adicionar Direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   The [!UICONTROL Choose Audience] dialog box displays. Para direcionar uma experiência a um público-alvo, você deve selecionar o público-alvo antes de adicionar uma experiência.
+   A caixa de diálogo [!UICONTROL Escolher público-alvo] é exibida. Para direcionar uma experiência para um público-alvo, selecione-o antes de incluir uma experiência.
 
    A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -45,35 +45,35 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
    >
    >Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Ao criar um público-alvo, você pode selecionar um local (mbox) e especificar os parâmetros para esse local. Under [!UICONTROL Custom] (Create Audience &gt; Add Rule &gt; Custom), select the mbox, then specify the desired parameters.
+   Ao criar um público-alvo, você pode selecionar um local (mbox) e especificar os parâmetros para esse local. Em [!UICONTROL Personalizar] (Criar público-alvo &gt; Adicionar regra &gt; Personalizar), selecione a mbox e especifique os parâmetros desejados.
 
    >[!NOTE]
    >
    >Os públicos-alvo são importados automaticamente em segundo plano quando você abre a lista de públicos-alvo e os públicos importados foram criados há mais de 10 minutos.
 
-1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
+1. Selecione um ou mais públicos-alvo para direcionar com a experiência e clique em **[!UICONTROL Concluído]**.
 
    ![Experiência B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   Você observará que a Experiência B agora é exibida na ilustração anterior e essa experiência é direcionada ao público-alvo dos visitantes dos EUA.
+   Você observará que a Experiência B agora é exibida na ilustração anterior e essa experiência é direcionada ao público-alvo de visitantes dos EUA.
 
-1. Selecione os elementos que deseja alterar para essa experiência e faça as alterações desejadas, uma explicada na Etapa 1 acima.
+1. Selecione os elementos que deseja alterar para essa experiência e faça as alterações, conforme explicado na Etapa 1 acima.
 
 1. Repita as etapas anteriores para criar experiências direcionadas adicionais, conforme necessário.
 
-1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
+1. Clique em **[!UICONTROL Avançar]** ao concluir a criação das experiências.
 
    O diagrama da atividade é exibido:
 
-   ![Diagrama de definição de metas XT](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![Diagrama de Direcionamento XT](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
    >[!NOTE]
    >
    >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
-1. (Condicional) Arraste e solte pares de público-alvo/experiência ao criar ou editar atividades XT para organizar os pares na ordem desejada.
+1. (Condicional) Arraste e solte pares de público-alvo/experiência ao criar ou editar atividades de XT para reorganizar os pares na ordem desejada.
 
-   Os visitantes são avaliados para experiências em ordem, de cima para baixo.
+   Os visitantes são avaliados quanto às experiências em ordem, de cima para baixo.
 
    ![Mover experiências](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
@@ -81,11 +81,11 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    Por exemplo, suponha que você não sabia que a ordem era importante ao criar uma atividade XT. Mais tarde você percebe durante os testes que visitantes que você pensava que deveriam se qualificar para as experiências B ou C estão se qualificando para a experiência A. Isso pode ocorrer pois os públicos-alvo não são mutualmente exclusivos e não estão na ordem correta (por exemplo, experiência A = Estados Unidos, experiência B = São Francisco e experiência C = Califórnia). Nesse cenários, todos usuários dos Estados Unidos se qualificam para a experiência A, mesmo se estiverem em São Francisco ou em outro lugar da Califórnia. Você pode reordenar os pares de público-alvo/experiência do mais restritivo para o menos restritivo (São Francisco &gt; Califórnia &gt; Estados Unidos) sem ter que recriar a atividade inteira.
 
-   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Uma experiência direcionada para "Todos os visitantes" pode ser usada como a última experiência na atividade de direcionamento de experiência para "capturar" todos os visitantes que não se enquadram em nenhuma outra experiência.
+   Se você tiver um público-alvo de [!UICONTROL Todos os visitantes], certifique-se de que não seja o primeiro no diagrama. Uma experiência direcionada para "Todos os visitantes" pode ser usada como a última experiência na atividade de direcionamento de experiência para "capturar" todos os visitantes que não se enquadram em nenhuma outra experiência.
 
 ## Renomear ou editar uma experiência
 
-You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
+Você pode clicar no ícone [!UICONTROL Editar] (três elipses verticais) em uma experiência de uma atividade de XT e escolher as seguintes opções, conforme necessário:
 
 * Renomear
 * Editar
@@ -94,13 +94,13 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 ## Excluir uma experiência
 
-On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses &gt; **[!UICONTROL Delete]**.
+Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais &gt; **[!UICONTROL Excluir]**.
 
 ![Excluir experiência](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## Duplicar uma experiência
 
-É possível copiar uma experiência em uma atividade XT para que você possa fazer pequenas alterações nele sem precisar recriar a experiência do zero.
+É possível copiar uma experiência em uma atividade XT para que você possa fazer pequenas alterações nela sem precisar recriar a experiência do zero.
 
 Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais &gt; **[!UICONTROL Duplicar]**.
 
@@ -122,9 +122,9 @@ Este vídeo descreve como elevar os testes A/B para o próximo nível com o dire
 
 ### Tipos de atividades (9:03)
 
-Este vídeo explica os tipos de atividade disponíveis no Target Standard/Premium. Direcionamento de experiência começa a ser examinado aos 5:15
+Este vídeo explica os tipos de atividade disponíveis no Target Standard/Premium. Direcionamento de experiência começa a ser examinado aos 5:15.
 
-* Descreva os tipos de atividades incluídas em [!DNL Adobe Target]
+* Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
