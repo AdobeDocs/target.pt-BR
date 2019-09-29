@@ -113,15 +113,15 @@ A pontuação de importância na parte do relatório "Classificação de import�
 
 **Por que algumas ofertas/experiências com uma taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação a outras ofertas/experiências para um determinado segmento automatizado?**
 
-Há vários motivos possíveis para que você possa ver mais visitas a uma oferta/experiência de conversão inferior em um segmento automatizado, incluindo:
+Há vários motivos possíveis pelos quais você pode ver mais visitas para uma oferta/experiência de conversão mais baixa em um segmento automatizado, incluindo:
 
 * Um pequeno número de visualizações para algumas ou todas as ofertas/experiências de um determinado segmento automatizado.
-* Atividades de volume inferior em que determinadas ofertas ou experiências não têm modelos criados.
-* Atividades de volume baixo em que modelos foram criados antes para algumas ofertas/experiências do que outras. Por exemplo, suponha que um modelo adicional foi criado no dia 22 e você está olhando os dados de dias em 10-24.
-* Regras de definição de metas em uma oferta específica que limita quais visitantes podem ver quais ofertas/experiências.
-* Não há intervalos de confiança no relatório de insight. No entanto, se as taxas de conversão estiverem próximas o suficiente, o modelo poderá servir tráfego para que seja maior na quantidade de pontos, mas os números não serão «estatisticamente diferentes».
+* Atividades de volume inferior nas quais determinadas ofertas ou experiências não têm modelos criados.
+* Atividades de volume inferior nas quais foram criados modelos para algumas ofertas/experiências antes do que para outras. Por exemplo, suponha que um modelo adicional foi criado no dia 22 e você está analisando os dados dos dias 10 a 24.
+* Regras de direcionamento em uma oferta específica que limitam quais visitantes podem ver quais ofertas/experiências.
+* Não há intervalos de confiança no relatório de insight. No entanto, se os índices de conversão estiverem próximos o suficiente, o modelo poderá fornecer tráfego para que o número seja maior em um ponto, mas não “estatisticamente diferente” do outro.
 
-Saber como o modelo funciona que serve tráfego pode ser útil. Cada indivíduo é servido com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para torná-lo mais interpretável por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode levar a segmentos individuais exibindo esse tipo de comportamento, pois a mesma pessoa pode aparecer em vários segmentos.
+Pode ser útil saber como o modelo fornece o tráfego. Cada indivíduo é servido com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para facilitar sua interpretação por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode fazer com que segmentos individuais exibam esse tipo de comportamento, pois uma mesma pessoa pode aparecer em vários segmentos.
 
 **Quais são as diferentes formas de usar as informações nos Insights de personalização?**
 
