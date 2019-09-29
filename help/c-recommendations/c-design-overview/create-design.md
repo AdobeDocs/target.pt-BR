@@ -53,6 +53,6 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
 Este vídeo contém as seguintes informações:
 
 * Criar um design personalizado
-* Saiba como fazer referência a variáveis de exibição em seus designs
+* Entenda como fazer referência a variáveis de exibição em seus designs
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=por_br)
