@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
 
-## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Visão geral do Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 É possível encontrar informações sobre o Velocity em [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 Também é possível usar `algorithm.name` e `algorithm.dayCount` como variáveis nos designs, assim, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido de forma dinâmica no design. Isso mostra ao visitante que ele ou ela está olhando para os "mais vendidos" ou "pessoas que viram isso compraram aquilo." Você ainda pode usar essas variáveis para exibir o `dayCount` (número de dias dos dados usados nos critérios, como "mais vendidos nos últimos dois dias" etc.
 
-## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Cenário: exibir item principal com produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Você pode modificar seu design para mostrar seu item principal ao lado de outros produtos recomendados. Por exemplo, você pode querer mostrar o item atual para referência ao lado das recomendações.
 
@@ -180,7 +180,7 @@ O resultado é um design como o seguinte, em que uma coluna mostra o item chave.
 
 Quando você está criando sua atividade do [!DNL Recommendations], se o item chave é obtido do perfil do visitante, como "último item comprado", o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
 
-## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Cenário: substituir o ponto decimal pelo delimitador de vírgula em um preço de vendas {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Você pode modificar o design para substituir o delimitador de ponto decimal usado nos Estados Unidos pelo delimitador de vírgula usado na Europa e em outros países.
 
@@ -206,15 +206,15 @@ O código a seguir é um exemplo condicional completo de um preço de venda:
                                     </span>
 ```
 
-## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
+## Cenário: criar um design 4 x 2 padrão do Recommendations com lógica de verificação nula {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Usando um script do Velocity para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML em branco quando não forem retornadas entidades correspondentes suficientes [!DNL Recommendations]. Esse script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e nos quais a [!UICONTROL Renderização parcial do modelo] está ativada.
 
-O trecho HTML a seguir substitui a porção HTML existente no design padrão de 4 x 2 (o CSS não está incluído aqui, por exemplo, para fins de abreviidade):
+O trecho HTML a seguir substitui a porção HTML existente no design 4 x 2 padrão (o CSS não está incluído aqui por motivos de brevidade):
 
-* If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
-* With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
-* Esteja ciente de que a lógica não equilibre as entidades em várias linhas. Por exemplo, se houver cinco ou seis entidades a serem exibidas, elas não se tornarão dinamicamente três na parte superior e duas na parte inferior (ou três na parte superior e três na parte inferior). A linha superior exibirá quatro itens antes de iniciar uma segunda linha.
+* Se uma quinta entidade existir, o script insere um div de fechamento e abre uma nova linha com `<div class="at-table-row">`.
+* Com 4 x 2, serão mostrados no máximo oito resultados, mas isso pode ser personalizado para listas menores ou maiores, modificando `$count <=8`.
+* Esteja ciente de que a lógica não equilibra as entidades em várias linhas. Por exemplo, se houver cinco ou seis entidades a serem exibidas, elas não se tornarão dinamicamente três na parte superior e duas na parte inferior (ou três na parte superior e três na parte inferior). A linha superior exibirá quatro itens antes de iniciar uma segunda linha.
 
 ```
 <div class="at-table">
