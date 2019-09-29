@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função targetPageParamsAll() para at.js. '
-keywords: Targetpageparamsall; targetpageparamsall; Pageparamsall; pageparamsall; params de página; parâmetros de página; at. js; funções; função
+keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;functions;function
 seo-description: Informações sobre a função targetPageParamsAll() da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função targetPageParamsAll() da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
