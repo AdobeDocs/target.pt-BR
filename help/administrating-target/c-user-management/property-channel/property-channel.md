@@ -18,13 +18,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Permissões do usuário corporativo ![PREMIUM](/help/assets/premium.png){#enterprise-user-permissions}
 
-As permissões do usuário empresarial são um meio de administração formal de acesso de usuário empresarial ao Target. Adicione usuários ao Target, atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de Observador, Editor ou Aprovador.
+As permissões do usuário corporativo		são um meio de administração formal de acesso de usuário empresarial ao Target. Adicione usuários ao Target, atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. É possível atribuir aos usuários as funções de Observador, Editor ou Aprovador.
 
 ## Determine se você tem acesso a permissões de usuário do Enterprise
 
 >[!NOTE]
 >
->A funcionalidade Propriedades e permissões está disponível como parte da solução do Target Premium. Elas não estão disponíveis no Target Standard sem uma licença do Target Premium.
+>A funcionalidade Propriedades e permissões está disponível como parte da solução do Target Premium. Não estão disponíveis no Target Standard sem uma licença do Target Premium.
 >
 >Sua implementação do Target pode usar qualquer versão de at.js ou mbox.js.
 
@@ -107,7 +107,7 @@ Quando você cria uma nova atividade, ela é criada no espaço de trabalho selec
 
 As informações a seguir explicam a forma como as permissões eram aplicadas anteriormente no [!DNL Target] e como são aplicadas usando a funcionalidade [!UICONTROL Propriedades] e [!UICONTROL Permissões].
 
-A nova funcionalidade de [!UICONTROL Permissões] permite criar projetos diferentes (chamados de "Perfis de produtos" no [!DNL Adobe Admin Console for Enterprise]) para possibilitar a atribuição de permissões diferentes para um único usuário que impõem direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes poderão restringir o acesso de visualização, edição e aprovação aos usuários com base na região, no ambiente (desenvolvimento/armazenamento temporário/produção), no canal ou em outros critérios personalizados, conforme mostrado abaixo.
+A nova funcionalidade de [!UICONTROL Permissões] permite criar projetos diferentes (chamados de "Perfis de produtos" no [!DNL Adobe Admin Console for Enterprise]) para possibilitar a atribuição de permissões diferentes para um único usuário que impõem direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes poderão restringir o acesso de visualização, edição e aprovação aos usuários com base na região, no ambiente (desenvolvimento/armazenamento temporário/produção), no canal ou em outros critérios personalizados, conforme mostrado abaixo:
 
 ![](assets/permissions.png)
 
@@ -125,11 +125,11 @@ Cada função tem diferentes níveis de permissões:
 | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
 | Aprovador | Pode criar, editar e ativar ou parar atividades. |
 
-É importante observar que a função de cada usuário se aplica a todas as páginas, propriedades ou sites da conta que incluam tags do [!DNL Target], conforme mostrado abaixo.
+É importante observar que a função de cada usuário se aplica a todas as páginas, propriedades ou sites da conta que incluam tags do [!DNL Target], conforme mostrado abaixo:
 
 ![](assets/permissions_2.png)
 
-O novo modelo de [!DNL Target] [!UICONTROL Permissões] apresenta as mesmas três funções de permissão (Observador, Editor e Aprovador); entretanto, é possível atribuir funções de permissões de um usuário separadamente para páginas, propriedades ou sites individuais, conforme mostrado abaixo.
+O novo modelo de [!DNL Target] [!UICONTROL Permissões] apresenta as mesmas três funções de permissão (Observador, Editor e Aprovador); entretanto, é possível atribuir funções de permissões de um usuário separadamente para páginas, propriedades ou sites individuais, conforme mostrado abaixo:
 
 ![](assets/permissions_3.png)
 
