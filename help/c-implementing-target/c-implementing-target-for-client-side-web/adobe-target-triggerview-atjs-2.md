@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função adobe.target.triggerView (viewName, options) para at.js. '
-keywords: adobe. target. triggerview; Triggerview; visualização de disparo; acionar exibição; at. js; funções; ; Viewname; nome do visualizador; exibir nome
+keywords: adobe.target.triggerView;triggerView;trigger view;trigger view;at.js;funções;função;viewName;viewname;view name
 seo-description: Informações sobre a função adobe.target.triggerView (viewName, options) da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função adobe.target.triggerView (viewName, options) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -25,11 +25,11 @@ Essa função pode ser chamada sempre que uma nova página é carregada ou quand
 | --- | --- | --- | --- |
 | viewName | String | Sim | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome de exibição aparece no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
 | opções | Objeto | Não |  |
-| opções &gt; página | Booleano | Não | **TRUE:** O valor padrão da página é true. Quando page=true, as notificações são enviadas ao [!DNL Target] backend para aumentar a contagem de impressões.<br>Se nenhuma experiência de atividade ou métrica de atividade estiver associada à exibição, nenhuma notificação será enviada.<br>**FALSE:** quando ocorrer page=false, as notificações não são enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
+| opções &gt; página | Booleano | Não | **TRUE:** O valor padrão da página é true. Quando page=true, as notificações são enviadas ao [!DNL Target] backend para aumentar a contagem de impressões.<br>Se nenhuma experiência ou métrica de atividade estiver associada à exibição, nenhuma notificação será enviada.<br>**FALSE:** quando ocorrer page=false, as notificações não são enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
 
 ## Exemplo: Verdadeiro
 
-`triggerView()` para enviar uma notificação para o backend do Target para aumentar impressões de atividade e outras métricas.
+Chamada `triggerView()` para enviar uma notificação para o back-end do Target para incrementar as impressões da atividade e outras métricas.
 
 ```
 adobe.target.triggerView("homeView")
@@ -37,7 +37,7 @@ adobe.target.triggerView("homeView")
 
 ## Exemplo: Falso
 
-`triggerView()` chamada para não receber notificações enviadas ao backend do Target para contagem de impressões.
+Chamada `triggerView()` para não enviar notificações ao back-end do Target para contagem de impressões.
 
 ```
 adobe.target.triggerView("homeView", {page: false})
