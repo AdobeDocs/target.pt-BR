@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Relatórios{#reports}
 
-Os relatórios fornecem informações sobre o progresso e os resultados de suas atividades que ajudam a tomar decisões com base em seus dados. Os dados do relatório podem ajudá-lo a decidir quando finalizar um teste, mostrar qual experiência da oferta é o vencedor e fornecer insights ou aprendizados necessários para determinar as próximas ações.
+Os relatórios fornecem informações sobre o progresso e os resultados das suas atividades que ajudam a tomar decisões baseadas em dados. Os dados dos relatórios podem ajudá-lo a decidir quando finalizar um teste, mostrar a experiência ou a oferta vencedora e fornecer os insights ou os aprendizados necessários para determinar as próximas ações.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
 
    Por exemplo, você poderia selecionar [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] na lista suspensa [!UICONTROL Tipo] e [!UICONTROL Ao vivo] na lista suspensa de [!UICONTROL Status] para exibir somente os testes A/B e as atividades de Direcionamento de experiência que estão em um estado ativo.
 
-   A ilustração a seguir mostra a lista suspensa [!UICONTROL Tipo] com dois tipos selecionados: Teste A/B e direcionamento de experiência. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. Você pode desmarcar um ou mais tipos conforme necessário.
+   A ilustração a seguir mostra a lista suspensa [!UICONTROL Tipo] com dois tipos selecionados: Testes A/B e direcionamento de experiência. Observe que os três tipos de testes A/B (Manual, [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)e [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md)) são selecionados por padrão. Você pode desmarcar um ou mais tipos conforme necessário.
 
    ![Filtrar relatórios por tipo](/help/c-reports/assets/report_filters-new.png)
 
@@ -50,7 +50,7 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
 
    Cada relatório inclui uma legenda para ajudá-lo a entender o relatório.
 
-   ![Legenda de relatório](/help/c-reports/assets/report_menu_bar-new.png)
+   ![Legenda do relatório](/help/c-reports/assets/report_menu_bar-new.png)
 
    A legenda exibe as seguintes informações:
 
