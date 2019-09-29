@@ -1,8 +1,8 @@
 ---
 description: Você pode criar públicos-alvo com base nos detalhes da rede.
 keywords: Direcionamento, rede, rede de direcionamento, isp, nome de domínio, velocidade de conexão, isp do target, nome de domínio do target, velocidade de conexão do target
-seo-description: Você pode criar públicos-alvo no Adobe Target com base em detalhes da rede.
-seo-title: Crie públicos-alvo no Adobe Target com base em detalhes da rede.
+seo-description: Você pode criar públicos no Adobe Target com base nos detalhes da rede.
+seo-title: Crie públicos no Adobe Target com base nos detalhes da rede.
 solution: Target
 title: Rede
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,7 +55,7 @@ Você pode criar públicos-alvo com base nos detalhes da rede.
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+A ilustração a seguir mostra um público-alvo que direciona os visitantes que usam a AT&amp;T com velocidade de conexão [!UICONTROL Celular].
 
 ![Direcionamento de rede](assets/target_network.png)
 
