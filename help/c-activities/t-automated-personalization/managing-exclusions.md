@@ -1,7 +1,7 @@
 ---
-description: Gerencie exclusões criando grupos de exclusão, excluindo ofertas duplicadas, excluindo experiências específicas e excluindo o conteúdo padrão nas atividades de Personalização automatizada (AP).
+description: Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de Personalização automatizada (AP).
 keywords: deduplicação; permitir duplicatas; excluir ofertas duplicadas; personalização automatizada; rejeitar ofertas duplicadas
-seo-description: Gerencie exclusões criando grupos de exclusão, excluindo ofertas duplicadas, excluindo experiências específicas e excluindo o conteúdo padrão nas atividades de Personalização automatizada do Adobe Target (AP).
+seo-description: Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de Personalização Adobe Target automatizada (AP) no Adobe Target.
 seo-title: Gerenciar exclusões
 solution: Target,Analytics
 title: Gerenciar exclusões
@@ -14,23 +14,23 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![Selo Premium](/help/assets/premium.png) Gerenciar exclusões{#manage-exclusions}
 
-Gerencie exclusões criando grupos de exclusão, excluindo ofertas duplicadas, excluindo experiências específicas e excluindo o conteúdo padrão nas atividades de Personalização automatizada (AP).
+Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de Personalização automatizada (AP).
 
-## Create exclusion groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
+## Criar grupos de exclusão {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
 Crie grupos de exclusão em atividades de Personalização automatizada (AP) para garantir que as experiências com as ofertas designadas sejam excluídas automaticamente.
 
 Os grupos de exclusão são uma maneira excelente de garantir que as ofertas incompatíveis não sejam apresentadas na mesma experiência em diferentes locais. Por exemplo, pressuponha que você tenha duas ofertas: uma de desconto de 20% para todas as mercadorias e outra de desconto de 15%. Você não gostaria que essas duas ofertas sejam apresentadas para os visitantes na mesma experiência. Se você adicionar essas duas ofertas a um grupo de exclusão, pode garantir que isso nunca ocorra.
 
-Você também pode limitar quais públicos-alvo podem ver ofertas específicas nas atividades AP. For more information, see [Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md).
+Você também pode limitar quais públicos-alvo podem ver as ofertas específicas nas atividades de AP. Para obter mais informações, consulte [Ofertas de Personalização automatizada do Target](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **Para criar um grupo de exclusão:**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **[!UICONTROL Manage Content]** in the header bar.
+1. Ao [criar ou editar uma atividade de AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), clique em **[!UICONTROL Gerenciar conteúdo]** na barra de cabeçalho.
 
-   ![Gerenciar link de conteúdo](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![Link Gerenciar conteúdo](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. Na caixa de diálogo [!UICONTROL Gerenciar conteúdo]**, clique em[!UICONTROL Grupo de exclusão]**.
+1. Na caixa de diálogo [!UICONTROL Gerenciar conteúdo], clique em **[!UICONTROL Grupo de exclusão]**.
 
    ![Caixa de diálogo Gerenciar conteúdo &gt; Grupos de exclusão](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
@@ -52,7 +52,7 @@ Você também pode limitar quais públicos-alvo podem ver ofertas específicas n
 
 As ofertas no grupo de exclusão serão automaticamente excluídas das mesmas experiência, a partir daí.
 
-## Exclude duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## Excluir ofertas duplicadas {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 Evita a duplicação das ofertas da biblioteca de ofertas, quando usadas em locais diferentes nas atividades de [!UICONTROL Personalização automatizada].
 
@@ -62,15 +62,15 @@ Clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Duplicar ofertas]** e c
 
 ![Opções de ofertas duplicadas](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## Excluir experiências especificas {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
 Exclui experiências específicas se você deseja excluir determinadas combinações de ofertas na sua atividade de Personalização automatizada.
 
 Pode haver certas combinações que não funcionam bem juntos, ou você pode limitar o número de experiências testadas para diminuir os requisitos de tráfego para sua atividade.
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **Manage Content** in the header bar.
+1. Ao [criar ou editar uma atividade de AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), clique em **Gerenciar conteúdo** na barra de cabeçalho.
 
-   ![Gerenciar link de conteúdo](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![Link Gerenciar conteúdo](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    A lista [!UICONTROL Experiências] mostra cada experiência gerada com permutas de todas as opções de conteúdo e locais.
 
@@ -78,11 +78,11 @@ Pode haver certas combinações que não funcionam bem juntos, ou você pode lim
 
    Você pode excluir as experiências específicas ao passar o cursor do mouse sobre a experiência desejada e clicar no ícone de exclusão.
 
-   ![Excluir experiência ao passar o mouse](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
+   ![Excluir experiência ao passar o cursor do mouse](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked.
+   Ou você pode excluir/incluir em lote as experiências marcando a caixa de seleção das experiências relevantes e, em seguida, clicando no ícone **[Excluir UICONTROL]** no canto superior direito da caixa de diálogo. O ícone [!UICONTROL Excluir] é exibido quando uma ou mais experiências são marcadas.
 
-   ![Exclusão de experiências em lote](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
+   ![Exclusão em lote de experiências](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
    É possível filtrar essa visualização de lista para ver apenas as atividades excluídas ou incluídas, clicando na lista suspensa [!UICONTROL Status].
 
@@ -90,15 +90,15 @@ Pode haver certas combinações que não funcionam bem juntos, ou você pode lim
 
    ![Experiências excluídas](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
-## Exclude default content {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## Excluir conteúdo padrão {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Em alguns casos, você pode não desejar incluir o conteúdo padrão como parte da sua Atividade personalizada. A maneira pela qual você acessa essa configuração é diferente da criação de grupos de exclusão. Você pode usar esse método para ter apenas uma oferta (diferente do conteúdo padrão) em um local como parte da atividade AP.
+Em alguns casos, você pode não desejar incluir o conteúdo padrão como parte da sua Atividade personalizada. A maneira pela qual você acessa essa configuração é diferente da criação de grupos de exclusão. Você pode usar esse método para ter somente uma oferta (diferente do conteúdo padrão) em uma localização, como parte da sua atividade de AP.
 
-Excluir o conteúdo padrão é uma excelente forma de mudar a aparência do resto da página para ajustá-la às ofertas que você está testando com a atividade AP. Por exemplo, pressuponha que você deseja corresponder a paleta de cores das ofertas que está testando, poderia alterar a cor do fundo da sua página e excluir a cor do fundo padrão.
+Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do restante da página, a fim de adequar as ofertas que você estiver testando com a atividade de AP. Por exemplo, pressuponha que você deseja corresponder a paleta de cores das ofertas que está testando, poderia alterar a cor do fundo da sua página e excluir a cor do fundo padrão.
 
 **Para excluir o conteúdo padrão usando o Visual Experience Composer (VEC):**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. Ao [criar ou editar uma atividade de AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique para acessar **[!UICONTROL Alterar texto/HTML]** ou **[!UICONTROL Alterar imagem]** ou **[!UICONTROL Alterar cor do fundo]**.
 1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **Incluir** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela de Conteúdo selecionado).
 
    Dependendo do tipo de conteúdo/oferta, a caixa de seleção [!UICONTROL Incluir] fica em um local diferente.
@@ -113,7 +113,7 @@ Excluir o conteúdo padrão é uma excelente forma de mudar a aparência do rest
 
    Para cor do fundo:
 
-   ![Incluir caixa de seleção na caixa de diálogo Editar cor do plano de fundo](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![Incluir caixa de seleção na caixa de diálogo Editar cor do fundo](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
