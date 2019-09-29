@@ -26,7 +26,7 @@ Dois relatórios especializados estão disponíveis para usuários de atividades
 >
 >Os relatórios de insights de personalização são suportados somente no [ambiente padrão](../../administrating-target/hosts.md).
 >
->Os relatórios de Insights de personalização são gerados somente para atividades que estão no status em tempo real e foram ativadas e recebendo tráfego por pelo menos 15 dias.
+>Os relatórios de Insights de Personalização são gerados somente para atividades que estão no status Online e foram ativados e recebem tráfego por pelo menos 15 dias.
 
 ## Visão geral dos relatórios de insights de personalização {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -34,7 +34,7 @@ O objetivo dos relatórios de [!UICONTROL insights de personalização] é forne
 
 Como a meta dos relatórios de Insights de personalização é entender como os modelos de personalização do Target decidiram enviar qual visitante para que parte do conteúdo, os relatórios de Insights de personalização refletem apenas um subsegmento de todo o tráfego distribuído pela atividade de AP ou AT. Especificamente, os dois relatórios refletem todo o tráfego que usou o modelo de personalização. Ou seja, os relatórios de Insights de personalização não consideram o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global.
 
-Dois relatórios de Insights de personalização estão disponíveis:
+Dois relatórios de insights de personalização estão disponíveis:
 
 | Relatório | Detalhes |
 |--- |--- |
@@ -62,4 +62,4 @@ O Target fornece muitas maneiras de passar os dados adicionais para o Target, a 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=por_br)
 
-Para obter mais informações, consulte [Uso dos Relatórios de insights de personalização no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Para obter mais informações, consulte [Uso dos relatórios de insights de personalização no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
