@@ -1,8 +1,8 @@
 ---
 description: Informações para usar a at.js 2.x para implementar Aplicativos de página única (SPAs).
-keywords: implementação de aplicativos de página única; implementar aplicativo de página única; spa; at.js 2.x; at. js; aplicativo de página única; aplicativo de página única
+keywords: implementação de aplicativos de página única; implementar aplicativo de página única; spa; at.js 2.x;at.js;aplicativo de página única;aplicativo de página única
 seo-description: Informações para usar a at.js 2.x do Adobe Target para implementar Aplicativos de página única (SPAs).
-seo-title: Implementação de aplicativos de página única no Adobe Target
+seo-title: Implementação de aplicativo de página única no Adobe Target
 solution: Target
 title: Implementação do aplicativo de página única
 topic: padrão
@@ -33,13 +33,13 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link:[Site de início](https://target.enablementadobe.com/react/demo/#/)**
+**Link: Site[doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
 Quando navegamos para o site inicial, podemos visualizar imediatamente uma imagem principal que promove uma venda de Páscoa e os produtos mais recentes que estão sendo vendidos no site. Nesse caso, uma Exibição pode ser definida como todo o site inicial. Isso é útil para observar como expandiremos mais isso na seção Implementação de exibições do Adobe Target abaixo.
 
-**Link:[Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: Site[do produto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site do produto](/help/c-experiences/assets/product-site.png)
 
@@ -87,7 +87,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos apresentar alguns exemplos de casos de uso sobre como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link:[Site de início](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: Site[doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link:[Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: Site de[produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
 Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, queremos personalizar a segunda fileira de produtos alterando a cor do rótulo de "Preço" para vermelho, depois que um usuário clicou no botão Carregar mais.
 
@@ -281,13 +281,13 @@ Os seguintes vídeos contêm mais informações:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
 
-Consulte [Entendendo como at. js 2. x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+Consulte [Como o at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
 
 ### Implementar a at.js 2.x em um SPA
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=por_br)
 
-Consulte [Implementar o at. js 2. x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
+Consulte [Implementar o at.js 2.x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
 
 ### Uso do VEC para SPAs no Adobe Target
 
