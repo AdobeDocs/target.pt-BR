@@ -2,7 +2,7 @@
 description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
 keywords: público-alvo, regras de público-alvo, combinar públicos-alvo, exclusão, adicionar exclusão, excluir, combinação de públicos-alvo, público-alvo adhoc, público-alvo ad hoc
 seo-description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
-seo-title: Combinar vários públicos-alvo no Adobe Target
+seo-title: Combinar vários públicos no Adobe Target
 solution: Target
 title: Combinar vários públicos
 topic: Advanced,Standard,Classic
@@ -23,13 +23,13 @@ Como outro exemplo, você pode direcionar todos os clientes de fidelidade inclui
 
 Você pode combinar até dez públicos-alvo usando operadores AND e OR.
 
-Você pode criar e usar públicos-alvo combinados em vários locais na interface do usuário do [!DNL Target]. 
+Você pode criar e usar públicos-alvo combinados em vários locais na interface do usuário do [!DNL Target].
 
-## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Criar um público-alvo combinado ao criar uma atividade {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Target] da atividade durante o fluxo de trabalho guiado de três etapas.
 
-1. Ao criar uma [,](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)na página **[!UICONTROL Target]** , clique nas três elipses verticais e clique **[!UICONTROL em Substituir público-alvo]**.
+1. Ao criar uma [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Target]** , clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
 
    ![Resultado da etapa](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
    1. Você pode usar a funcionalidade de arrastar e soltar para adicionar públicos-alvo dentro de uma seção existente como um bloco de construção de nível 2. Para adicionar um bloco de construção de nível 1, marque a caixa de seleção ao lado do público-alvo desejado e clique em **[!UICONTROL Adicionar às regras]**.
 
-      Por exemplo, suponha que no exemplo anterior você deseja incluir usuários do Safari no público-alvo combinado. Procure e arraste o público-alvo "Safari Browser" para a caixa "Firefox Browser" no lado direito, como no exemplo a seguir:
+      Por exemplo, suponha que, no exemplo anterior, você queira incluir usuários do Safari no público-alvo combinado. Pesquise e arraste o público-alvo "Navegador Safari " para a caixa "Navegador Firefox" à direita, como no exemplo a seguir:
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Observe que o operador entre os dois públicos-alvo do tipo de navegador é "E". Selecione a lista suspensa E altere-a para "OU" para criar um novo público-alvo combinado para novos visitantes usando Firefox ou Safari. Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível que alguém visite uma página usando o Firefox e o Safari simultaneamente.
+      Observe que o operador entre os dois públicos-alvo do tipo de navegador é "E". Selecione a lista suspensa e altere para "OU" para criar um novo público-alvo combinado para os novos visitantes que usam o Safari ou o Firefox. Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando o Firefox e o Safari simultaneamente.
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
       ![](assets/combine_multiple_audiences3b.png)
 
-      Por exemplo, para excluir visitantes dos Estados Unidos de novos visitantes, você pode arrastar o Market: Público-alvo dos Estados Unidos na caixa, como mostrado abaixo:
+      Por exemplo, para excluir visitantes dos Estados Unidos de novos visitantes, você pode arrastar o público-alvo de Mercado: Estados Unidos para a caixa, conforme mostrado abaixo:
 
       ![](assets/combine_multiple_audiences3b2.png)
 
@@ -77,7 +77,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
 1. Forneça um nome descritivo para o público-alvo combinado e clique em **[!UICONTROL Salvar]**.
 
-## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
+## Criar um público-alvo combinado para uso no direcionamento por métrica {#section_A42E795AFCBD4575809C5942039910F0}
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na segmentação de métrica. Por exemplo, para criar segmentação com base na conversão usando um público-alvo combinado:
 
@@ -103,7 +103,7 @@ Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas 
 
 1. Prossiga com o [Passo 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em "Criar um público-alvo combinado ao criar uma atividade" para criar o público-alvo combinado.
 
-## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Criar um público-alvo combinado ao editar uma atividade {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Você pode criar um público-alvo ad hoc combinado ao editar uma atividade existente.
 
@@ -113,9 +113,9 @@ Você pode criar um público-alvo ad hoc combinado ao editar uma atividade exist
 
    Clique na atividade desejada para abri-la, depois clique em **[!UICONTROL Editar atividade]**.
 
-1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
+1. Clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Públicos]** &gt; **[!UICONTROL Vários públicos]**.
 
-   ![Configurar &gt; Públicos-alvo &gt; Vários públicos](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![Configurar &gt; Públicos &gt; Vários públicos](/help/c-target/assets/combine_multiple_audiences7.png)
 
 1. Clique no ícone de mais opções (três elipses verticais) ao lado do público-alvo atual da atividade, depois clique em **[!UICONTROL Alterar público-alvo]**.
 
