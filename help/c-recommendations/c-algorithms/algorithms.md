@@ -1,7 +1,7 @@
 ---
 description: Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
 keywords: recommendations; atividade do Recommendations; critérios;algoritmo
-seo-description: Os critérios no Adobe Target são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
+seo-description: Critérios no Adobe Target são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
 seo-title: Critérios
 solution: Target
 title: Critérios
@@ -71,7 +71,7 @@ Todos os critérios de um dia são executados duas vezes ao dia. Todos os crité
 
 Você pode exibir os detalhes dos critérios em um cartão pop-up, passando o mouse sobre ele e clicando no ícone Informações, sem precisar abrir os critérios.
 
-![Flutuação do cartão de critérios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
+![Passe o ponteiro do cartão de critérios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 Clique na guia **[!UICONTROL Informações do algoritmo]para exibir as informações gerais sobre os critérios selecionados, incluindo Nome, Descrições, Vertical do setor, Tipos de página, Chave de recomendação, Lógica de recomendação e ID do algoritmo.**
 
@@ -91,7 +91,7 @@ No diagrama de atividades, os cartões de Critérios agora indicam quando os res
 
 A ilustração a seguir mostra o diagrama de atividades na página Visão Geral de uma atividade do Recommendations. Você também pode ver o diagrama de atividades com os resultados de status dos critérios da etapa 2 durante o fluxo de trabalho de criação das atividades.
 
-![Página Status do critério na página Visão geral](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
+![Status dos critérios na página Visão geral](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 Os resultados do status incluem o seguinte: Resultados prontos, Resultados não prontos e Falha no feed, conforme ilustrado no diagrama a seguir:
 
