@@ -15,23 +15,23 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Ofertas de personalização automatizada do Target{#target-automated-personalization-offers}
 
-Em uma atividade de Personalização automatizada (AP), você pode direcionar ofertas a públicos-alvo específicos.
+Em uma atividade Personalização automatizada (AP, Automated Personalization), você pode direcionar ofertas a públicos específicos.
 
-Utilizar essa funcionalidade reduz o número de ofertas que um visitante específico está qualificado a visualizar. Por exemplo, considere uma atividade AP com três ofertas. A oferta 1 tem uma regra de definição de metas que limita sua exposição ao Público A. Dois visitantes viram essa atividade AP.
+Utilizar essa funcionalidade reduz o número de ofertas que um visitante específico está qualificado a visualizar. Por exemplo, considere uma atividade com três ofertas. A oferta 1 tem uma regra de direcionamento que limita a exposição somente para o Público-alvo A. Dois visitantes visualizaram essa atividade AP.
 
 |  | Visitante 1 | Visitante 2 |
 |--- |--- |--- |
 | Qualificação do público-alvo | Público-alvo A | Público-alvo B |
 | Pontuação do modelo de personalização da Oferta 1 do Target | 90 | 90 |
-| Pontuação do modelo de personalização sa Oferta 2 do Target | 50 | 70 |
-| Pontuação do modelo de personalização sa Oferta 3 do Target | 80 | 60 |
+| Pontuação do modelo de personalização da Oferta 2 do Target | 50 | 70 |
+| Pontuação do modelo de personalização da Oferta 3 do Target | 80 | 60 |
 
 Neste cenário, o Visitante 1 veria a Oferta 1 (porque ele se qualifica como parte do Público-alvo A), que é a pontuação mais alta desse visitante. Entretanto, o Visitante 2 veria a Oferta 2 mesmo que sua pontuação mais alta seja para a Oferta 1, porque o Visitante 2 não faz parte do Público-alvo A. Este exemplo demonstra por que as regras de direcionamento devem ser usadas com moderação para atender às necessidades comerciais. Adicionar essas regras pode reduzir a eficiência dos modelos de personalização do Target.
 
-## Configurar regras de definição de metas
+## Configurar regras de direcionamento
 
-1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
-1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
+1. Crie uma [atividade Personalização automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md) contendo as ofertas que deseja direcionar.
+1. Depois de configurar as ofertas para a atividade no Visual Experience Composer, clique em **[!UICONTROL Gerenciar conteúdo]**.
 
    ![Gerenciar conteúdo](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -41,13 +41,13 @@ Neste cenário, o Visitante 1 veria a Oferta 1 (porque ele se qualifica como par
 
    ![Página de ofertas](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
-1. Selecione a (s) oferta (s) desejada (s) e escolha os públicos-alvo que deseja qualificar para ver essa oferta.
+1. Selecione a(s) oferta(s) desejada(s) e escolha os públicos que deseja qualificar para ver essa oferta.
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
+   Para configurar o direcionamento para uma única oferta, passe o mouse sobre a oferta desejada e clique no ícone **[!UICONTORL Direcionamento]**.
 
-   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
+   Para configurar o direcionamento para várias ofertas, marque as caixas de seleção para as ofertas desejadas e clique no ícone**[!UICONTROL Direcionamento], que é exibido na parte superior direita da lista.
 
-1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
+1. Na caixa de diálogo [!UICONTROL Escolher público-alvo] selecione o(s) público(s) desejado(s) para a(s) oferta(s) e clique em **[!UICONTROL Concluído]** para retornar à caixa de diálogo [!UICONTROL Gerenciar conteúdo].
 
    >[!NOTE]
    >
