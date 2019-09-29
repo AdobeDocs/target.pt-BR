@@ -19,15 +19,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Lista de perguntas frequentes sobre os designs de recomendações.
 
-## O preço do item recomendado não exibe os dois valores à direita do ponto decimal. Como posso exibi-los?
+## O preço do meu item recomendado não está exibindo ambos os valores à direita do ponto decimal. Como posso exibi-los?
 
-Por padrão, valores numéricos (como `entity.value`) retornados nos modelos de design não exibem zeros à direita após o ponto decimal. Por exemplo, se um item for de $ 35.00, `entity.value` será igual a 35 e apenas 35 será exibido na página, e não $ 35.00.
+Por padrão, os valores numéricos (como `entity.value`) retornados nos modelos de design não exibirão zeros à direita após o ponto decimal. Por exemplo, se um item for US$ 35,00, `entity.value` será igual a 35 e apenas 35 será exibido na página, não US$ 35,00.
 
 Duas opções estão disponíveis para resolver esse problema.
 
-* É possível usar script Velocity ou Javascript para aplicar a formatação ao valor retornado.
+* Você pode usar scripts Velocity ou Javascript para aplicar formatação ao valor retornado.
 
-* Você pode passar o preço do item em dois atributos de entidade separados. O primeiro, `entity.value`pode ser usado para comparações numéricas (como regras de comparação de preço). O segundo deve ser um atributo personalizado, como `entity.displayValue` o armazenamento do valor da entidade como uma string para permitir a renderização correta.
+* Você pode passar o preço do item em dois atributos de entidade separados. A primeira, `entity.value`, pode ser usada para comparações numéricas (como regras de comparação de preços). O segundo deve ser um atributo personalizado, como `entity.displayValue` que armazena o valor da entidade como uma string para permitir a renderização adequada.
 
    Por exemplo,
 
