@@ -20,7 +20,7 @@ Assista aos vídeos de treinamento para ajudá-lo a tirar o maior proveito do Ta
 Os vídeos estão disponíveis nas seguintes categorias:
 
 * Experience Cloud e Recursos gerais
-* Crição de atividades
+* Criação de atividades
 * Públicos-alvo e direcionamento
 * Gerenciamento de ativos
 * Configurações e preferências
