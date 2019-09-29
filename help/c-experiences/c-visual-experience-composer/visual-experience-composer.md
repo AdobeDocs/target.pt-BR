@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Informações sobre o uso do Visual Experience Composer (VEC).
 
-A VEC é uma interface de usuário WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta) ou da página da Web móvel.
+O VEC é uma interface de usuário WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta) ou página da Web móvel.
 
-O VEC é um dos principais recursos do [!DNL Adobe Target]. A VEC permite que profissionais de marketing e designers criem e mude conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor.
+O VEC é um dos principais recursos do [!DNL Adobe Target]. O VEC permite aos profissionais de marketing e designers criarem e alterarem o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor.
 
 No Target, na guia **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**, você pode inserir o URL do Visual Experience Composer.
 
@@ -57,7 +57,7 @@ Para obter informações sobre as opções disponíveis no VEC, consulte [Opçõ
 Você pode realizar algumas modificações em uma página enquanto ela está carregando (ou após uma falha no carregamento) ou pode cancelar o carregamento da página no VEC. Para obter mais informações, consulte:
 
 * [Editar uma página enquanto ela está carregando ou após uma falha de carregamento](#loading)
-* [Cancelar o carregamento de uma página no VEC](#cancel-loading)
+* [Cancelar carregamento de uma página no VEC](#cancel-loading)
 
 ## Editar uma página enquanto ela está carregando ou após uma falha de carregamento{#loading}
 
@@ -87,7 +87,7 @@ Alguns motivos pelos quais você pode cancelar o carregamento de uma página no 
 * Você inseriu erroneamente o URL incorreto da página
 * Você deseja ativar ou desativar o JavaScript antes de carregar a página no VEC
 * Você deseja adicionar mais regras de teste de modelo aos critérios de Entrega da página
-* Você deseja substituir o botão geral do Enhanced Experience Composer (EEC) ao carregar uma página pelo EEC ou somente no iframe, o que pode variar de uma página para outra.
+* Você deseja substituir o botão geral do Enhanced Experience Composer (EEC) ao carregar uma página pelo EEC ou somente no iframe, o que pode variar de uma página para outra
 
 Depois de cancelar o carregamento de página no VEC, você pode alternar entre experiências na atividade sem esperar que a página seja carregada. Para visualizar a página no VEC novamente, clique no botão **[!UICONTOL Recarregar]**.
 
@@ -131,7 +131,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### No expediente: Visual Experience Composer
 
-Este vídeo é uma gravação do "[No expediente](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)", uma iniciativa da equipe de Atendimento ao cliente da Adobe.
+Este vídeo é uma gravação de "[No expediente](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)", uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
 * Como funciona o VEC
 * Como evitar problemas comuns com o VEC
