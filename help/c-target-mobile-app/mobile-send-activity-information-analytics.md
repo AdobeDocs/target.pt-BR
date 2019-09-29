@@ -55,7 +55,7 @@ Essa seção descreve como enviar informações de atividade do aplicativo para 
 
    Analise a resposta recebida do Target no retorno de chamada. Você pode usar NSJSONSerialization para analisar essa resposta e armazená-la em um diretório ou matriz.
 
-   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
+   Consulte a documentação [](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) NSJSONSerialization para obter mais informações.
 1. Envie os dados ao Analytics.
 
    Adicione as informações da atividade analisada (como `tntVal` na resposta acima) ao seu objeto de dados de contexto em uma chamada do Analytics. Essa chamada do Analytics contendo os dados de contexto pode ser disparada imediatamente ou por aguardar até o disparo da próxima chamada do Analytics.
