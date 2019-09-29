@@ -1,10 +1,10 @@
 ---
-description: Crie públicos-alvo para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels) e muito mais.
+description: Crie públicos-alvo para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels), e muito mais.
 keywords: direcionamento, móvel, dispositivos móveis do target, deviceatlas, iphone, modelos do iphone, atlas do dispositivo, displaywidth, largura de exibição, altura de exibição, tipo de dispositivo, displayheight, celular, tablet, modelo do dispositivo
-seo-description: Crie públicos-alvo para o Adobe Target para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels) e muito mais.
+seo-description: Crie públicos-alvo no Adobe Target para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels), e muito mais.
 seo-title: Público-alvo móvel no Adobe Target
 solution: Target
-title: Dispositivo móvel
+title: Mobile
 topic: Padrão
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
@@ -13,9 +13,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Celular{#mobile}
+# Mobile{#mobile}
 
-Crie públicos-alvo para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels) e muito mais.
+Crie públicos-alvo para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels), e muito mais.
 
 Por exemplo, talvez você queira mostrar conteúdos diferentes para usuários que entram na sua página de um telefone e que visitam de um computador. Nesse caso, você pode selecionar o público-alvo móvel e depois selecionar a opção **[!UICONTROL Is Mobile Phone], adicionar os detalhes específicos que são importantes para você, como tipo de telefone, tamanho da tela (em pixels) etc.**
 
@@ -57,9 +57,9 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
    * Largura de tela (px)
    >[!NOTE]
    >
-   >Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo Nome do marketing do dispositivo e pelo Modelo de dispositivo que especifica Modelos do iphone é afetada. Não é mais possível direcionar os usuários que têm iphones com iOS 12.2 instalados neles. No entanto, se esses usuários não tiverem iOS 12.2, a definição de metas do iphone Model continua a funcionar corretamente.
+   >Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo Nome de comercialização do dispositivo e pelo Modelo do dispositivo que especifica os Modelos do iPhone foi afetada. Não é mais possível direcionar os usuários de iPhones com iOS 12.2. No entanto, se esses usuários não tiverem o iOS 12.2, o direcionamento por Modelo do iPhone continuará a funcionar corretamente.
    >
-   >A atualização do iOS 12.2 não afeta a identificação dos seguintes modelos, pois esses modelos não oferecem suporte à atualização para o iOS 12.2: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Retina display, ipad Retina (4 ª Geração), ipod Touch 4 e ipod Touch 5.
+   >A atualização do iOS 12.2 não afeta a identificação dos seguintes modelos, pois eles não oferecem suporte à atualização para o iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina display, iPad Retina (4ª Geração), iPod Touch 4 e iPod Touch 5.
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-A ilustração a seguir mostra um público direcionado que usa dispositivos fabricados pelo Google que são dispositivos móveis.
+A ilustração a seguir mostra um público-alvo direcionando visitantes que usam dispositivos móveis fabricados pelo Google.
 
 ![Dispositivos móveis do Target](assets/target_mobile.png)
 
