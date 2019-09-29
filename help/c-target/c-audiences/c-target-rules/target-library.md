@@ -2,9 +2,9 @@
 description: Direcione usuários com base nas regras de direcionamento pré-criadas.
 keywords: Direcionamento, biblioteca de metas, biblioteca
 seo-description: Direcione usuários com base nas regras de direcionamento pré-criadas.
-seo-title: Biblioteca de metas
+seo-title: Biblioteca do Target
 solution: Target
-title: Biblioteca de metas
+title: Biblioteca do Target
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
@@ -30,9 +30,9 @@ Os públicos pré-construídos na categoria Biblioteca do Target são herdados e
 
 1. Clique em **[!UICONTROL Selecionar]**, em seguida selecione uma regra de direcionamento pré-criada.
 
-   As regras de direcionamento pré-criadas incluem, Sistema operacional Windows, Dispositivo do tablet, Navegador Safari, Visitantes que retornam, Referido no Google e muito mais.
+   As regras de direcionamento pré-criadas incluem, Sistema operacional Windows, Dispositivo de tablet, Navegador Safari, Visitantes que retornam, Referido no Google e muito mais.
 
-   O público-alvo "Tablet Device" pré-definido já é adequado quando o agente do usuário contém uma das seguintes sequências (algumas das quais são números de modelo de dispositivos). Você não precisa criar regras de direcionamento personalizado para esses dispositivos.
+   O público-alvo predefinido "Dispositivo de tablet" já qualifica quando o agente do usuário contém uma ou mais sequências de caracteres (algumas das quais são números de modelo de dispositivos). Você não precisa criar regras de direcionamento personalizado para esses dispositivos.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 e Tablet PC.
 
