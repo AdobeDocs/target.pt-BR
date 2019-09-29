@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Acessar o Target da Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Acessar o Target na Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
 
 Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Cloud], definição da landing page padrão e alteração do idioma da interface do usuário do [!DNL Target].
 
@@ -34,7 +34,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. (Opcional) Para definir o [!DNL Target] como sua visualização padrão ao fazer logon na [!DNL Experience Cloud], clique em **[!UICONTROL Editar perfil]** no avatar do seu perfil, depois defina sua preferência de página inicial.
 
-   ![Landing page](/help/c-intro/assets/pagepref-new.png)
+   ![Página de aterrissagem](/help/c-intro/assets/pagepref-new.png)
 
 ## Alterar o idioma padrão da interface do usuário do Target {#language}
 
@@ -69,19 +69,19 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. Faça logout do [!DNL Adobe Experience Cloud] ou [!DNL Target], em seguida, entre novamente para que suas alterações entrem em vigor.
 
-## Change the language for the Target product documentation {#doc-lang}
+## Alterar o idioma da documentação do produto Target {#doc-lang}
 
-Suas configurações do sistema operacional ou do navegador devem detectar o idioma preferido e exibir a documentação nesse idioma (se disponível). A documentação do Target é traduzida automaticamente e estará sincronizada com a versão em inglês em horas de alterações feitas à documentação em inglês.
+As configurações do sistema operacional ou do navegador devem detectar o idioma preferido e exibir a documentação nesse idioma (se disponível). A documentação do Target é traduzida automaticamente e estará sincronizada com a versão em inglês horas após alterações serem feitas na documentação em inglês.
 
-É possível alterar rapidamente o idioma para a versão original em inglês clicando no link do cabeçalho da página.
+É possível alterar rapidamente o idioma para a versão original em inglês, clicando no link do cabeçalho da página.
 
 ![Alterar para o idioma original](/help/c-intro/assets/mt-original.png)
 
-You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
+Você também pode alterar rapidamente o idioma para qualquer idioma suportado clicando no ícone Alternador de idiomas na parte superior direita do cabeçalho da página (![alternador de idiomas](/help/c-intro/assets/icon-language-switcher.png)).
 
 ![alternador de idiomas](/help/c-intro/assets/language-switcher.png)
 
-The [!DNL Target] documentation is available in the following languages:
+A documentação do [!DNL Target] está disponível nos seguintes idiomas:
 
 * Inglês
 * Espanhol
@@ -99,7 +99,7 @@ The [!DNL Target] documentation is available in the following languages:
 Este vídeo inclui informações sobre o [!DNL Adobe Target] na [!DNL Experience Cloud].
 
 * Descrever e compreender o valor da Adobe Experience Cloud
-* Faça logon na Adobe Experience Cloud com a sua Adobe ID ou crie uma.
+* Faça logon na Adobe Experience Cloud com a sua Adobe ID ou crie uma
 * Convidar um novo usuário para a Adobe Experience Cloud
 * Vincule sua conta do Target à Adobe Experience Cloud
 * Definir o Adobe Target como sua página de aterrissagem padrão
