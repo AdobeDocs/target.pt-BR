@@ -23,13 +23,13 @@ O público-alvo determina quais visitantes do site são inseridos na atividade.
 
 Na caixa [!UICONTROL Público-alvo], clique no ícone Editar (três elipses verticais) e clique em **[!UICONTROL Substituir público-alvo]**.
 
-![opção Substituir público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+![Opção Substituir público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do Target. You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Para um teste A/B sem direcionamento a um público-alvo específico, escolha o padrão, Todos os visitantes.
+Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do Target. Você pode selecionar um público-alvo da biblioteca, [criar um novo público-alvo](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) ou [criar um público-alvo somente para atividades](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Para um teste A/B sem direcionamento a um público-alvo específico, escolha o padrão, Todos os visitantes.
 
 Observe que você também pode editar ou copiar um público-alvo ao passar o mouse sobre o público-alvo desejado na caixa de diálogo [!UICONTROL Escolher público-alvo], conforme indicado abaixo. Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e salvá-lo como um público-alvo novo. Essa funcionalidade de passar o mouse sobre o item também existe em outros tipos de atividade.
 
-![Flutuação do público](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+![Cursor do mouse sobre o público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
 Ao criar um público-alvo, você pode selecionar um local (mbox) e especificar os parâmetros para esse local. Em Parâmetros personalizados, selecione a mbox e especifique os parâmetros desejados.
 
