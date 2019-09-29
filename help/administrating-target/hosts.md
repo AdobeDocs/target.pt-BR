@@ -217,6 +217,6 @@ O filtro Ambiente está disponível nos seguintes locais da interface do usuári
 
 * Pesquisa do catálogo ([!UICONTROL Recommendations&gt; Pesquisa do catálogo])
 * Caixa de diálogo Criar coleção ([!UICONTROL Recommendations&gt; Coleções &gt; Criar nova])
-* Caixa de diálogo Atualizar coleção ([!UICONTROL Recommendations&gt; Coleções &gt; Editar])
-* Caixa de diálogo Criar exclusão ([!UICONTROL Recommendations &gt; Exclusões &gt; Criar nova])
+* Caixa de diálogo Atualizar coleção ([!UICONTROL Recommendations &gt; Coleções &gt; Editar])
+* Caixa de diálogo Criar exclusão ([!UICONTROL Recommendations &gt; Exclusões &gt; Criar novo])
 * Caixa de diálogo Atualizar exclusão ([!UICONTROL Recommendations &gt; Exclusões &gt; Editar])
