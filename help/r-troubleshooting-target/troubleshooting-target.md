@@ -127,7 +127,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 ## Aplicativos para dispositivos móveis
 
 * [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
-* [Target para perguntas frequentes sobre aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Relatório
 
