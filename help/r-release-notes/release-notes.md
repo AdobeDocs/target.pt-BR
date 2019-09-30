@@ -1,6 +1,6 @@
 ---
 description: Essas notas de versão oferecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para cada lançamento do Target Standard e do Target Premium.
-keywords: Notas de versão;novos recursos;atualizações;atualização;versão;aprimoramentos;correções;correções de erros
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 seo-description: Essas notas de versão oferecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para cada lançamento do Adobe Target Standard e do Target Premium.
 seo-title: Notas de versão do Target (atual)
 solution: Target
@@ -8,7 +8,7 @@ title: Notas de versão do Target (atual)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
 
 ---
 
@@ -17,11 +17,17 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 Essas notas de versão oferecem informações sobre recursos, aprimoramentos e correções para cada lançamento do Target Standard e do Target Premium.
 
+## Target Standard/Premium 19.9.2 (30 de setembro de 2019)
+
+Esta versão de manutenção inclui o seguinte aprimoramento:
+
+* Várias correções de segurança, incluindo uma atualização de segurança para o Rich Text Editor (RTE) no Visual Experience Composer (VEC). (TGT-35383)
+
 ## Target Standard/Premium 19.9.1 (10 de setembro de 2019)
 
-| Recurso / Aprimoramento | Descrição |
+| Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| ![Permissões para empresas com o selo](/help/assets/premium.png) Premium | Com a versão de setembro de 2019 do Target, as Permissões corporativas fornecem aos clientes os seguintes controles de acesso:<UL><li>Você pode escolher os espaços de trabalho aos quais a integração pode ser aplicada.</li><li>Você pode aplicar uma função à integração de E/S da Adobe: Aprovador, Editor ou Observador.</li></ul>For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | Com a versão de setembro de 2019 do Target, as Permissões corporativas fornecem aos clientes os seguintes controles de acesso:<UL><li>É possível escolher os espaços de trabalho aos quais a integração pode ser aplicada.</li><li>Você pode aplicar uma função à integração do Adobe I/O: Aprovador, Editor ou Observador.</li></ul>Para obter instruções passo a passo e mais informações, consulte [Conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Alterações na documentação, notas de versão anteriores e notas de versão da Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
