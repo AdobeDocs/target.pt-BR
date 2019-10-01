@@ -8,7 +8,7 @@ title: Glossário de variáveis e perfis
 topic: Padrão
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -84,7 +84,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | mbox.param('param_name') |  |
 | Parâmetros enviados automaticamente com cada solicitação:<ul><li>mbox.param('browserHeight')</li><li>mbox.param('browserTimeOffset')</li><li>mbox.param('browserWidth')</li><li>mbox.param('colorDepth')</li><li>mbox.param('mboxXDomain')</li><li>mbox.param('mboxTime')</li><li>mbox.param('screenHeight')</li><li>mbox.param('screenWidth')</li></ul> |
 | Parâmetros enviados com as mboxes do pedido:<ul><li>mbox.param('orderId')</li><li>mbox.param('orderTotal')</li><li>mbox.param('productPurchasedId')</li></ul> |
-| mbox3rdPartyId | Um parâmetro de mbox para sincronizar uma ID de cliente com a mboxPCID do Target. Uma ID de cliente é uma ID que sua empresa usa para rastrear visitantes, como uma ID de CRM, uma ID de associação ou algo semelhante. Essa ID pode ser usada para adicionar informações por meio das APIs de perfil e [Atributos do cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
+| mbox3rdPartyId | Um parâmetro de mbox para sincronizar uma ID de cliente com a mboxPCID do Target. Uma ID de cliente é uma ID que sua empresa usa para rastrear visitantes, como uma ID de CRM, uma ID de associação ou algo semelhante. Essa ID pode ser usada para adicionar informações por meio das APIs de perfil e  [Atributos do cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | Em cada chamada de mbox, a página recebe um valor. |
 | mboxDebug | Usado somente para depurar informações. Adicionado ao url da página em que a mbox.js procura isso. |
 | mboxOverride.browserIp | Define uma geografia diferente do local real para que seja possível testar como algo seria em outro local.<br>**Observação:** os parâmetros mboxOverride devem ser usados somente durante o teste da atividade e não em produção. O uso de qualquer parâmetro mboxOverride pode causar discrepâncias no relatório ao usar o [Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Você deve usar o [modo de QA da atividade](/help/c-activities/c-activity-qa/activity-qa.md) durante o teste para garantir que sua atividade funciona como o esperado antes de enviar a atividade para o ambiente ativo. |
@@ -93,4 +93,4 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 
 Os atributos do cliente podem ser referenciados em scripts de perfil, formatados como `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Esses atributos também ficam disponíveis como tokens em scripts de perfil e diretamente em ofertas, sem exigir primeiramente um script de perfil. O token deve estar no formato: `$crs.datasourceName.attributeName`.
+Esses atributos também ficam disponíveis como tokens em scripts de perfil e diretamente em ofertas, sem exigir primeiramente um script de perfil. O token deve estar no formato: `${crs.datasourceName.attributeName}`. Observe que os espaços no `datasourceName` devem ser removidos de qualquer chamada de API.
