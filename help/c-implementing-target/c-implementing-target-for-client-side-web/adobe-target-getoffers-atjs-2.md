@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função adobe.target.getOffers() para at.js. '
-keywords: adobe.target.getOffers;getOffers;get offer;at.js;funções;função
+keywords: adobe.target.getOffers;getOffers;getoffers;obter ofertas;at.js; funções;função
 seo-description: Informações sobre a função adobe.target.getOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função adobe.target.getOffers() da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introdução
 title: adobe.target.getOffers(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
+source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 ---
 
@@ -23,7 +23,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. Essa chave é uma string exclusiva por visitante. |
+| consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. Esta chave é uma cadeia de caracteres exclusiva por visitante. |
 | solicitação | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
 | timeout | Número | Não | tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
 
@@ -76,7 +76,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 adobe.target.getOffers({
     request: {
       prefetch: {
-        views: []
+        views: [{}]
     }
   }
 });
