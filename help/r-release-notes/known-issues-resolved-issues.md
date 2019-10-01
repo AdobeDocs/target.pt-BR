@@ -1,14 +1,14 @@
 ---
 description: Informações sobre problemas conhecidos para esta versão do Target. Também inclui informações sobre problemas que foram resolvidos.
 keywords: problemas conhecidos, problemas resolvidos, notas de versão;bugs;issues;fixes
-seo-description: Informações sobre problemas conhecidos desta versão do Adobe Target. Também inclui informações sobre problemas que foram resolvidos.
+seo-description: Information about known issues for this release of Adobe Target. Também inclui informações sobre problemas que foram resolvidos.
 seo-title: Problemas conhecidos e problemas resolvidos no Adobe Target
 solution: Target
 title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -25,9 +25,9 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
-### Links de visualização do QA da atividade {#preview}
+### Links de visualização de QA da atividade {#preview}
 
-[Os links de visualização](/help/c-activities/c-activity-qa/activity-qa.md) de QA da atividade para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Para evitar que isso continue a acontecer, arquive atividades salvas que não são mais usadas ativamente. (TNT-32697)
+Os links de [visualização de QA da atividade](/help/c-activities/c-activity-qa/activity-qa.md) para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Para impedir que isso continue acontecendo, arquive as atividades salvas que não são mais usadas ativamente. (TNT-32697)
 
 ### Ofertas de redirecionamento {#redirect}
 
@@ -62,8 +62,9 @@ As ofertas de código criadas na interface do usuário do Target na biblioteca d
 
 A seguir, os problemas conhecidos com atividades de recomendações:
 
-* O erro "error.restapi.algorithmProfileAttributeInvalid" das recomendações ocorre quando são utilizados atributos de perfil específicos como critérios.
-* Quando Promoção atrás é usado em uma atividade de recomendações, os filtros de inclusão de critérios não se aplicam aos ERs de backup.
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 
 ### Atividades de teste multivariado (MVT)
 
@@ -124,7 +125,7 @@ Quando os problemas acima são resolvidos, são movidos para as seções a segui
 
 * O índice do feed do Recommendations pode exibir "Aguardando índice" se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
 
-   Esse problema foi corrigido na versão Target 19.4.2.
+   Este problema foi corrigido no Target versão 19.4.2.
 
 * Os feeds do Recommendations demoram mais tempo para serem processados do que o esperado. (COR-2836)
 
@@ -138,7 +139,7 @@ Quando os problemas acima são resolvidos, são movidos para as seções a segui
 
 Uma condição de corrida na sua página pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam contadas. As atualizações para a implementação da at.js estão planejadas para garantir que essa condição de corrida possa ser evitada.
 
-Esse problema foi corrigido em at.js 1.6.3.
+Este problema foi corrigido no at.js versão 1.6.3.
 
 ### Grupos de exclusão
 
@@ -159,7 +160,7 @@ Mboxes não disparam em navegadores Microsoft Explorer 11 depois do upgrade para
 
 Corrigido na versão da API 2.3.0 ou posterior.
 
-### Geografia direcionamento
+### Geografia  direcionamento
 
 A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por "nova york", a pesquisa não retorna resultados válidos.
 
