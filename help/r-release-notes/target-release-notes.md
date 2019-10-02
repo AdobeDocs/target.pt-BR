@@ -1,14 +1,14 @@
 ---
-description: Notas de versão que fornecem informações sobre recursos, melhorias e correções para as versões mais recentes ou futuras do Adobe Target.
-keywords: notas de versão;versões;atualizações;versão futura;melhorias;novos recursos;correções
+description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes
 seo-description: Notas de versão que fornecem informações sobre recursos, melhorias e correções para as versões mais recentes ou futuras do Adobe Target DNL.
-seo-title: Notas de versão do Adobe Target (pré-lançamento)
+seo-title: Adobe Target prerelease notes
 solution: Target
 title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 285a09503ba6abaf2bfe19fc2b214c32ebd2de3a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 Estas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para as versões mais recentes ou que serão lançadas em breve do [!DNL Adobe Target].
 
-**Última atualização em 24 de setembro de 2019**
+**Última atualização em: 2 outubro de 2019**
 
 >[!NOTE]
 >
@@ -25,34 +25,20 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >
 >Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## Anúncios
+## Plataforma de destino (datas a serem determinadas)
 
-**31 de julho de 2019**
-
-[!UICONTROL As Permissões] empresariais permitem que [!DNL Target] os clientes usem uma única organização, mas as dividam em espaços de trabalho para equipes ou fluxos de trabalho diferentes. O recurso Permissões  corporativas facilita o dimensionamento efetivo de programas de otimização entre equipes. Embora esse recurso estivesse disponível na [!DNL Target] interface do usuário, as APIs administrativas não tinham o suporte correspondente até a versão [!DNL Target] de fevereiro de 2019. A Adobe atualizou as APIs de administração para que você possa usar a conta de integração para acessar todos os espaços de trabalho criados em sua organização. Assim, embora anteriormente, as APIs administrativas estivessem restritas ao espaço de trabalho padrão, a atualização de fevereiro de 2019 concedia acesso a todos os espaços de trabalho com acesso ao [!UICONTROL Aprovador] .
-
-Com a próxima versão [!DNL Target] de setembro de 2019, as Permissões  Enterprise fornecerão aos clientes os seguintes controles de acesso:
-
-* Você pode escolher os espaços de trabalho aos quais a integração pode ser aplicada
-* Você pode aplicar uma função à integração de E/S da Adobe: [!UICONTROL Aprovador], [!UICONTROL Editor]ou [!UICONTROL Observador].
-
-**Ação necessária**: Os clientes que atualmente estão aproveitando as APIs para operações CRUD em recursos (atividades, públicos-alvo, ofertas e relatórios) em todos os espaços de trabalho precisam conceder acesso à integração de E/S existente da Adobe a todos os espaços de trabalho com a função desejada. Antes da versão de setembro, todas as integrações operavam usando o acesso do [!UICONTROL Aprovador] , independentemente da função selecionada na lista suspensa Função [!UICONTROL do] produto. Com a próxima versão, agora é possível selecionar a função desejada.
-
-Esta ação deverá ser executada durante o mês de **agosto de 2019**. Após a versão de [!DNL Target] setembro de 2019, os controles de acesso serão ativados e você observará o acesso apenas ao espaço de trabalho padrão se for assim que você estiver configurado no momento. Não há consequências adversas para a definição antecipada das funções de integração.
-
-Para obter instruções passo a passo e mais informações, consulte [Conceder acesso de integrações de E/S da Adobe a espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
-
-## Target Standard/Premium 19.9.2 (30 de setembro de 2019)
-
-Esta versão de manutenção inclui as seguintes melhorias:
-
-* Várias correções de segurança, incluindo uma atualização de segurança para o Editor de Rich Text (RTE) no Visual Experience Composer (VEC). (TGT-35383)
-
-## Target Standard/Premium 19.9.1 (10 de setembro de 2019)
-
-| Recurso / Aprimoramento | Descrição |
+| Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| ![Permissões para empresas com o selo](/help/assets/premium.png) Premium | Com a versão de setembro de 2019 do Target, as Permissões corporativas fornecem aos clientes os seguintes controles de acesso:<UL><li>Você pode escolher os espaços de trabalho aos quais a integração pode ser aplicada.</li><li>Você pode aplicar uma função à integração de E/S da Adobe: Aprovador, Editor ou Observador.</li></ul>Para obter instruções passo a passo e mais informações, consulte [Conceder acesso de integrações de E/S da Adobe a espaços de trabalho e atribuir funções](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| Node.js SDK versão 1.0 | O SDK do Target Node.js permite implantar o servidor do Target.<br>Esse SDK do Node.js ajuda a integrar facilmente o Target a outras soluções da Experience Cloud, como o Adobe Experience Cloud Identity Service, o Adobe Analytics e o Adobe Audience Manager.<br>O SDK do Node.js apresenta práticas recomendadas e remove complexidades ao integrar-se ao Adobe Target por meio de nossa API de entrega, para que suas equipes de engenharia possam se concentrar na lógica comercial. A seguir estão recursos notáveis que estamos introduzindo na versão mais recente:<ul><li>Suporte para busca prévia e notificações que permitem otimizar o desempenho por meio do cache.</li><li>Suporte para otimizar o desempenho quando você tem uma integração híbrida do Target em suas páginas da Web e no servidor. Estamos introduzindo uma configuração chamada `serverState` que será preenchida por experiências recuperadas pelo lado do servidor para que o at.js 2.2 não faça mais uma chamada de servidor adicional para recuperar as experiências. Essa abordagem otimiza o desempenho de carregamento da página.</li><li> Support for retrieving VEC-created activities via the Node.js SDK, which is made possible by the new Delivery API.</li><li>Criado de forma aberta para que seus desenvolvedores possam contribuir com o SDK Node.js.</li></ul> |
+| Delivery API | An entirely new delivery API endpoint (/v1/delivery) will be available in production. Notable features are:<ul><li>One endpoint to retrieve experiences for one or more mboxes.</li><li>Retrieve VEC-created activities via the API.</li><li>Suporte para um objeto totalmente novo chamado Exibições, usado para aplicativos de página única (SPAs) e aplicativos móveis.</li></ul> |
+| at.js version 2.2andat.js version 1.8<br><br> | Essas versões do at.js fornecem:<ul><li>Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 2.2 or at.js 1.8 on your web pages.</li><li>Previously, the ECID made two blocking calls before at.js could fetch experiences. Isso foi reduzido a uma única chamada, o que melhora significativamente o desempenho.</li></ul> Para aproveitar essas melhorias de desempenho, atualize para at.js 2.2 ou at.js 1.8 junto com a Biblioteca ECID v4.4. |
+
+
+## Target Standard/Premium 19.10.1 (22 de outubro de 2019)
+
+| Recurso  / Aprimoramento | Descrição |
+| --- | --- |
+| ![Recomendações baseadas](/help/assets/premium.png) no usuário do selo Premium | Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante. Esses itens são geralmente chamados de "Recomendado para você".<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada na sessão e se torna mais personalizada à medida que o visitante navega em seu site. |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
