@@ -2,13 +2,13 @@
 description: Essas notas de versão oferecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para cada lançamento do Target Standard e do Target Premium.
 keywords: Notas de versão;novos recursos;lançamentos;atualizações;atualização;versão;aprimoramentos;correções;correções;correções de erros;notas de versão;novos recursos;lançamentos;atualizações;atualização;release;aprimoramentos;correções;correções
 seo-description: Essas notas de versão oferecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para cada lançamento do Adobe Target Standard e do Target Premium.
-seo-title: Notas de versão do Target (atual)
+seo-title: 'Notas de versão do Target (atual) '
 solution: Target
 title: Notas de versão do Target (atual)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
+source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
 
 ---
 
