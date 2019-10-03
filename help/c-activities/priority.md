@@ -1,14 +1,14 @@
 ---
 description: O Target determina qual atividade (ou quais atividades) mostrar em uma página de maneira diferente, dependendo da interface do Target e da função de criação de atividade (Visual Experience Composer ou Compositor baseado em formulário) que você está usando.
 keywords: configurações;priority
-seo-description: O Target determina qual atividade (ou quais atividades) mostrar em uma página de maneira diferente, dependendo da interface do Target e da função de criação de atividade (Visual Experience Composer ou Compositor baseado em formulário) que você está usando.
-seo-title: Prioridade
+seo-description: O Adobe Target determina qual atividade (ou atividades) deve ser entregue para uma página de forma diferente, dependendo da interface do Target e da função de criação da atividade (Visual Experience Composer ou Criador baseado em forma) que você está usando.
+seo-title: Priority in Adobe Target
 solution: Target
 title: Prioridade
 topic: Padrão
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -28,7 +28,7 @@ Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experie
    Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
 
 1. O conteúdo de todas as atividades e experiências que o visitante corresponde é retornado à página.
-1. Se o conteúdo de cada atividade fizer referencia a [seletores CSS diferentes](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), então todo o conteúdo é exibido.
+1. Se o conteúdo de cada atividade fizer referencia a  [seletores CSS diferentes](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), então todo o conteúdo é exibido.
 
    Se houver uma sobreposição ou duplicação de seletor de CSS, então o conteúdo de atividade com maior prioridade é exibido. Os resultados de todas as atividades executadas na página são contados e refletidos nos relatórios.
 
@@ -41,7 +41,7 @@ Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experie
    * Se apenas uma atividade tem direcionamento de público-alvo, essa atividade é exibida.
    * Se há direcionamento em todas ou nenhuma, a atividade que foi aprovada primeiro é exibida.
 
-## Composer baseado em formulário do Target Standard/Premium e Visual Experience Composer do Target Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
+## Composer baseado em formulário do Target Standard/Premium e Visual Experience Composer do Target Standard/Premium  {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Por exemplo, se você tiver duas atividades, uma definindo as metas da palavra-c
 
 Se ambas as atividades direcionadas tiverem a mesma prioridade, a atividade que foi mais recentemente visualizada é exibida. Se o visitante for novo na página, a atividade ativada por último será exibida.
 
-## Composer baseado em formulário do Target Standard/Premium com mboxes não globais {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Composer baseado em formulário do Target Standard/Premium com mboxes não globais  {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
