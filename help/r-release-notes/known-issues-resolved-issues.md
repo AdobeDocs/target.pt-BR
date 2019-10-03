@@ -1,14 +1,14 @@
 ---
 description: Informações sobre problemas conhecidos para esta versão do Target. Também inclui informações sobre problemas que foram resolvidos.
 keywords: problemas conhecidos, problemas resolvidos, notas de versão;bugs;issues;fixes
-seo-description: Information about known issues for this release of Adobe Target. Também inclui informações sobre problemas que foram resolvidos.
+seo-description: Informações sobre problemas conhecidos desta versão do Adobe Target. Também inclui informações sobre problemas que foram resolvidos.
 seo-title: Problemas conhecidos e problemas resolvidos no Adobe Target
 solution: Target
 title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -73,6 +73,10 @@ Em uma atividade de MVT, os vencedores mostrados na tabela e no gráfico não s�
 ### at.js
 
 A seguir, os problemas conhecidos com at.js:
+
+* Se você criar uma experiência sem modificações usando o at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the ttMeta plug-in might not work correctly.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+
+   Como solução, use um espaço em branco no conteúdo da experiência. (TNT-33366)
 
 * Quando uma página é carregada no Visual Experience Composer (VEC), o Target precisa determinar se a configuração global da mbox está ativada ou desativada e se há presença de entityID ou categoryID na localidade onde o usuário está tentando aplicar a recomendação no VEC. A lista de critérios é filtrada com base nestas informações. A lista padrão tem algoritmos filtrados, mas a [caixa de verificação de compatibilidade](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) permite que você visualize a lista completa de algoritmos.
 
