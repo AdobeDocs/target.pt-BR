@@ -1,15 +1,15 @@
 ---
 description: Se a página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo.
 keywords: depurar mbox; solucionar problemas de mbox; problemas de mbox; oscilação; mboxDebug; mboxTrace; token; depurador; prioridade; prioridade de atividade; Depurador da Adobe Experience Cloud; mbox orderConfirmPage; mbox de compra do SiteCatalyst; principal venda; vendedor principal
-seo-description: Se a página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo.
-seo-title: Soluções de problemas da entrega de conteúdo
+seo-description: If your page does not display the expected content, there are a few steps you can take to debug content delivery in Adobe Target.
+seo-title: Troubleshoot content delivery in Adobe Target
 solution: Target
 subtopic: Teste multivariado
 title: Soluções de problemas da entrega de conteúdo
 topic: Padrão
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -75,11 +75,11 @@ Algumas das informações incluem segmentos correspondentes ou não e IDs de dir
 * Exclusões e inclusões aplicadas
 * Regras de coleção
 
-Não é necessário incluir `=console`, `=json` ou `=window` no parâmetro de consulta. Quando terminar com os detalhes do mboxTrace, adicione `=disable` e pressione **[!UICONTROL Enter]** para retornar ao modo normal de exibição.
+Não é necessário incluir  `=console`, `=json` ou `=window` no parâmetro de consulta. Quando terminar com os detalhes do mboxTrace, adicione `=disable` e pressione **[!UICONTROL Enter]** para retornar ao modo normal de exibição.
 
 mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes verão o design normal de recomendações.
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela a seguir contém informações sobre parâmetros relacionados com o URL da mbox.
 
@@ -96,19 +96,23 @@ Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela 
 | `mboxDebug=x-time` | Mostrar o tempo de resposta para cada solicitação de mbox |
 | `mboxOverride.browserIp=<Insert IP address>` | Testar geolocalização<br>Teste a geolocalização com este parâmetro de URL. Insira um endereço IP como o valor para este atributo e o geolocalização do Test&amp;Target avalia o endereço IP para compará-lo com qualquer geolocalização e segmentação configurados em uma campanha. |
 
-## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
+>[!NOTE]
+>
+>Ensure that the URL fragment is after query string parameters. Anything after the first `#` is a fragment identifier and causes debugging parameters not to function correctly.
+
+## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta Mbox Trace avançada para inspecionar as qualificações de atividade e público-alvo, bem como o perfil do visitante.
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte [Depurar o at.js usando o depurador](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)da Adobe Experience Cloud.
+For more detailed information, see [Debug at.js using the Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Se o target.js não for carregado durante a entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
 O mbox.js envia um cookie chamado "em-disabled" para o visitante quando o target.js não é carregado durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os visitantes com esse cookie não veem o conteúdo do teste nem são contados nesses relatórios de atividades. Todo o conteúdo restante da oferta (por exemplo, das campanhas no Target Classic) continua sendo carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
 
-## Os melhores vendedores não aparecem no Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 A mbox *`SIteCatalyst: purchase`* não pode ser usada para dados de tráfego de algoritmo de compra. Em vez disso, use a mbox *`orderConfirmPage`*.
 
@@ -126,7 +130,7 @@ Atualize para [!DNL mbox.js] versão 58 ou posterior.
 
 A mbox.js versão 58 e posterior executa conteúdo não-JavaScript para a mbox global imediatamente após a tag HTML `BODY` estar presente. O conteúdo JavaScript nas tags `<script>` da mbox global é executado depois que o evento `DOMContentLoaded` é acionado. Esta ordem de entrega de conteúdo garante que o conteúdo JavaScript da mbox global seja entregue e renderizado corretamente.
 
-## O cookie do Target não é definido {#section_77AFEB541C0B495EB67E29A4475DF960}
+## O cookie do Target não é definido  {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisar que o cookie do esteja definido em [!DNL domain.com] (em vez de [!DNL us.domain.com]), você deve substituir a configuração `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
@@ -136,7 +140,7 @@ Se um elemento DOM fizer parte da segmentação de personalização do Adobe Exp
 
 Para resolver isso, você pode desativar a personalização do AEM nas páginas nas quais o Target está sendo executado.
 
-## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido. {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Se a oferta remota ou de redirecionamento usar um URL inválido, poderá ocorrer uma falha no fornecimento.
 
