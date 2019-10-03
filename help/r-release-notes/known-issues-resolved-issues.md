@@ -8,7 +8,7 @@ title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
+source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 ---
 
@@ -62,11 +62,11 @@ As ofertas de código criadas na interface do usuário do Target na biblioteca d
 
 A seguir, os problemas conhecidos com atividades de recomendações:
 
-* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* As entidades expiraram corretamente após 60 dias de não receberem atualizações através de feed ou API; no entanto, as entidades expiradas não são removidas do índice de Pesquisa de catálogo após a expiração. (IRI-857)
 * As sobreposições "Informações de uso" para Critérios e Designs não refletem seu uso em atividades A/B e direcionamento de experiência (TGT-34331)
 * As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma visualização da bandeja do Recommendations (TGT-33426)
 * Coleções, exclusões, critérios e designs criados por meio da API não estão visíveis na interface do usuário do Target e só podem ser editados por meio da API. (TGT-35777)
-* As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API
+* As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 
 ### Atividades de teste multivariado (MVT)
 
