@@ -8,7 +8,7 @@ title: Notas de versão do Target (atual)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -23,6 +23,7 @@ Esta versão de manutenção inclui o seguinte aprimoramento:
 
 * Várias correções de segurança, incluindo uma atualização de segurança para o Rich Text Editor (RTE) no Visual Experience Composer (VEC). (TGT-35383)
 * As ofertas do Recommendations agora podem ser adicionadas a outros elementos que não o DIV (p. ex. P, UL, H1), além do DIV, em atividades de teste A/B e direcionamento de experiência. (TGT-34333)
+* As notificações de evento (o ícone de sinalizador na interface de usuário do Target) não estão mais disponíveis. Uma nova busca por notificações será lançada em breve.
 
 ## Target Standard/Premium 19.9.1 (10 de setembro de 2019)
 
