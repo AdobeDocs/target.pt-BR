@@ -8,7 +8,7 @@ title: Problemas conhecidos e problemas resolvidos
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
 
 ---
 
@@ -63,8 +63,10 @@ As ofertas de código criadas na interface do usuário do Target na biblioteca d
 A seguir, os problemas conhecidos com atividades de recomendações:
 
 * Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
-* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
-* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* As sobreposições "Informações de uso" para Critérios e Designs não refletem seu uso em atividades A/B e direcionamento de experiência (TGT-34331)
+* As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma visualização da bandeja do Recommendations (TGT-33426)
+* Coleções, exclusões, critérios e designs criados por meio da API não estão visíveis na interface do usuário do Target e só podem ser editados por meio da API. (TGT-35777)
+* As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API
 
 ### Atividades de teste multivariado (MVT)
 
@@ -74,7 +76,7 @@ Em uma atividade de MVT, os vencedores mostrados na tabela e no gráfico não s�
 
 A seguir, os problemas conhecidos com at.js:
 
-* Se você criar uma experiência sem modificações usando o at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the ttMeta plug-in might not work correctly.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+* Se você criar uma experiência sem modificações usando o at.js 2.*x* (por exemplo, uma experiência padrão), a experiência pode não ser contada em relatórios, no Analytics for Target (A4T), no Analytics ou no Google Analytics. Além disso, o plug-in [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) pode não funcionar corretamente.
 
    Como solução, use um espaço em branco no conteúdo da experiência. (TNT-33366)
 
