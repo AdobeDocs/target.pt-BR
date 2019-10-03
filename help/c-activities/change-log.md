@@ -1,13 +1,13 @@
 ---
 description: O log de alterações fornece um registro de quem alterou suas atividades e quais foram as alterações.
 seo-description: O log de alterações fornece um registro de quem alterou suas atividades e quais foram as alterações.
-seo-title: Log de alterações da atividade
+seo-title: Log de alterações de atividade no Adobe Target
 solution: Target
-title: Log de alterações da atividade
+title: Log de alterações de atividade no Adobe Target
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
