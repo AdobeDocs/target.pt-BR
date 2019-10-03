@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/pt-BR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + Permissões de usuário empresarial {#enterprise}
          + [Permissões de usuário empresarial](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuração de permissões empresariais](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Conceder acesso às integrações de E/S da Adobe para espaços de trabalho e atribuir funções](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Integração com o Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Tokens de resposta](administrating-target/response-tokens.md)
@@ -53,7 +53,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Preparação para implementar o Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacidade e segurança {#privacy}
          + [Visão geral de privacidade](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Regras de privacidade e proteção de dados](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Privacidade e regulamentos sobre proteção de dados](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Excluir o cookie do Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Políticas de cookies do Google Chrome para SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
@@ -159,7 +159,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + Solução de problemas da integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
          + [Solução de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizar contagens inflacionadas de visitas e visitantes no A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Perguntas frequentes sobre o A4T {#a4t-faq}
+      + Perguntas frequentes sobre o A4T  {#a4t-faq}
          + [Provisionamento inicial - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configurações de atividade - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Exibição de relatórios - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Visão geral de QA da atividade](c-activities/c-activity-qa/activity-qa.md)
       + [Bookmarklet de controle de qualidade da atividade](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Usar o controle de qualidade de atividade com entrega do lado do servidor](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [Notificações de atividade](c-activities/notifications.md)
 + Públicos-alvo{#audiences}
    + [Visão geral de públicos-alvo](c-target/target.md)
    + [Como funciona o direcionamento](c-target/target-how-target-works.md)
@@ -285,7 +284,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiências e ofertas {#experiences}
    + [Visão geral das experiências e ofertas](c-experiences/experiences.md)
-   + Visual Experience Composer (VEC) {#vec}
+   + Visual Experience Composer (VEC)  {#vec}
       + [Visão geral do Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opções do Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Incluir a mesma experiência em páginas semelhantes](c-experiences/c-visual-experience-composer/temtest.md)
