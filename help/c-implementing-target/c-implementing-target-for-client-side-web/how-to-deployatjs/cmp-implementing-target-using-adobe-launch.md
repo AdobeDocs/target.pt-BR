@@ -1,19 +1,19 @@
 ---
 description: O Launch é a plataforma de gerenciamento de tags da Adobe de próxima geração, sendo o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
-keywords: implementar; implementação; implementação; adobe launch; launch; raça; redirecionar
-seo-description: O Launch é a plataforma de gerenciamento de tags da Adobe de próxima geração, sendo o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
+keywords: implementar; implementação; implementação; adobe launch; launch; raça; redirecionarinicialização da plataforma da experiência
+seo-description: O Adobe Experience Platform Launch é a plataforma de gerenciamento de tags da próxima geração da Adobe e é o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
 seo-title: Implementação do Target usando o Adobe Launch
 title: Implementação do Target usando o Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # Implementação do Target usando o Adobe Launch{#implement-target-using-adobe-launch}
 
-O Launch é a plataforma de gerenciamento de tags da Adobe de próxima geração, sendo o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
+O Adobe Experience Platform Launch é a plataforma de gerenciamento de tags da próxima geração da Adobe e é o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
 
 ## Implementação do Target usando o Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
