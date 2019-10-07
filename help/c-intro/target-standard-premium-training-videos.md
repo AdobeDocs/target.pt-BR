@@ -1,6 +1,6 @@
 ---
-description: Assista aos vídeos de treinamento para ajudá-lo a tirar o maior proveito do Target Standard e do Target Premium.
-keywords: Target Standard; Target Premium; vídeos de treinamento; youtube; vídeos; treinamento em vídeo
+description: Assista a vídeos de treinamento para ajudá-lo a aproveitar ao máximo o Adobe Target Standard e o Target Premium.
+keywords: vídeos de treinamento;youtube;videos;vídeo training;tutorial;tutoriais;vídeo
 seo-description: Assista aos vídeos de treinamento para ajudá-lo a tirar o maior proveito do Target Standard e do Target Premium.
 seo-title: Vídeos de treinamento para o Adobe Target Standard e Premium
 solution: Target
@@ -8,7 +8,7 @@ title: Vídeos de treinamento para o Adobe Target Standard e Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -37,7 +37,7 @@ Uma coleção de vídeos de instruções e tutoriais que destacam os recursos do
 
 ![Vídeos da Experience League](/help/c-intro/assets/experience-league.png)
 
-## Tutoriais do Adobe Target {#tutorials}
+## Tutoriais do Adobe Target  {#tutorials}
 
 Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
