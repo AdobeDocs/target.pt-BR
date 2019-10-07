@@ -1,8 +1,8 @@
 ---
 description: As atividades do Recommendations exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
-keywords: Recommendations, critérios do Recommendations, algoritmos do recommendations, atividade do recommendations, critérios, direcionamento do recommendations
-seo-description: As atividades do Recommendations exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
-seo-title: Recommendations
+keywords: Recommendations;Critérios de recomendações;algoritmos de recomendações;atividade de recomendações;critérios;direcionamento de recomendações;recs
+seo-description: As atividades do Recommendations no Adobe Target exibem automaticamente produtos ou conteúdo que podem interessar aos seus clientes com base em atividades anteriores do usuário ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+seo-title: Adobe Target Recommendations
 solution: Target
 title: Recommendations
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
