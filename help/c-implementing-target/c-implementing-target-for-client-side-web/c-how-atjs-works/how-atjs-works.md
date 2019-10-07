@@ -1,27 +1,27 @@
 ---
-description: O diagrama de sistema do Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
-keywords: diagrama do sistema; cintilação; Target Standard; at.js; implementação;biblioteca javascript;js
+description: Diagramas do sistema do Target que mostram o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando o at.js.
+keywords: diagrama do sistema;flicker;at.js;implementação;biblioteca javascript;js
 seo-description: O diagrama de sistema do Adobe Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
-seo-title: Funcionamento do Adobe Target at.js
+seo-title: Como a biblioteca JavaScript do Adobe Target at.js funciona
 solution: Target
 title: Como a at.js funciona
 topic: Padrão
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # Como a at.js funciona{#how-at-js-works}
 
-Para implementar o [!DNL Adobe Target] no lado do cliente, você deve usar a biblioteca at.js.
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
 Em uma implementação no lado do cliente do [!DNL Adobe Target], o [!DNL Target] fornece as experiências associadas a uma atividade diretamente para o navegador do cliente. O navegador decide qual experiência será exibida e realiza a ação. Com uma implementação no lado do cliente, você pode usar um editor WYSIWYG, o [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) ou uma interface não visual, o [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md), para criar experiências de teste e personalização.
 
 ## O que é a at.js?
 
-A biblioteca [da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a [última versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+A biblioteca [da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a  [última versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 Para obter mais informações, consulte [Bibliotecas de JavaScript do Target](/help/c-intro/how-target-works.md#libraries).
 
@@ -68,7 +68,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 ## diagrama do at.js 1.x
 
-![Fluxo de destino - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Fluxo do Target - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Etapa | Descrição | Chama | Descrição |
 |--- |--- |--- |--- |
@@ -81,18 +81,18 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 Ao renderizar ofertas com conteúdo HTML, o at.js aplica o seguinte algoritmo:
 
-1. As imagens são pré-carregadas (se houver `<img>` tags no conteúdo HTML).
+1. As imagens são pré-carregadas (se houver tags do `<img>` no conteúdo HTML).
 
 1. O conteúdo HTML é anexado ao nó DOM.
 
-1. Scripts incorporados são executados (código delimitado por `<script>` tags).
+1. Os scripts embutidos são executados (código delimitado nas tags do `<script>`).
 
-1. Os scripts remotos são carregados de forma assíncrona e executados (`<script>` tags com `src` atributos).
+1. Os scripts remotos são carregados de forma assíncrona e executados (tags do `<script>` com `src` atributos).
 
 Observações importantes:
 
-* O at.js não fornece garantias sobre a ordem de execução remota de scripts, pois eles são carregados de forma assíncrona.
-* Scripts incorporados não devem ter nenhuma dependência em scripts remotos, pois eles são carregados e executados posteriormente.
+* O at.js não oferece garantia na ordem de execução dos scripts remotos, pois são carregados de forma assíncrona.
+* Os scripts embutidos não devem ter dependências nos scripts remotos, pois são carregados e executados posteriormente.
 
 ## Vídeo de treinamento: diagrama de arquitetura da at.js 2.x
 
