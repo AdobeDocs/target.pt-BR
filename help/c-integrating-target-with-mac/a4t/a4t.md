@@ -4,12 +4,12 @@ keywords: a4t; analytics; analytics para target; fonte de relatórios do analyti
 seo-description: O "Analytics for Target" (A4T) da Adobe é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do Analytics. Essa integração permite usar os relatórios do Analytics para analisar seus resultados. Se usar o Analytics como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo Analytics.
 seo-title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 solution: Target
-subtopic: Teste multivariado
+subtopic: Integração
 title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 topic: Padrão
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -55,7 +55,7 @@ Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 
    Em algumas situações, a chamada de classificação do Target para o Analytics pode falhar e as atividades não exibem dados no Analytics. Se isso acontecer, consulte [Solução de problemas da integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Você também pode [entrar em contato com o Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obter assistência adicional.
 
-## Tipos de atividades suportadas {#section_F487896214BF4803AF78C552EF1669AA}
+## Tipos de atividades suportadas  {#section_F487896214BF4803AF78C552EF1669AA}
 
 A tabela a seguir mostra quais tipos de atividade são compatíveis com o Analytics como fonte de relatório (A4T):
 
@@ -79,9 +79,9 @@ A tabela a seguir mostra quais tipos de atividade são compatíveis com o Analyt
 
 Como todos os tipos de atividade ainda não compatíveis com o A4T, é recomendável manter ou implementar mboxes de conversão importantes, como a mbox "orderConfirmPage".
 
-## Exemplos de relatórios do A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## Exemplos de relatórios do A4T  {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Para exibir os relatórios do A4T no [!DNL Target]**, clique em[!UICONTROL Atividades]**, clique na atividade desejada da lista que usa o [!DNL Analytics] com sua fonte de geração de relatórios &gt; em seguida, clique na guia **[!UICONTROL Relatórios].**
+Para exibir os relatórios do A4T no [!DNL Target], clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista que usa o [!DNL Analytics] com sua fonte de geração de relatórios &gt; em seguida, clique na guia **[!UICONTROL Relatórios]**.
 
 >[!NOTE]
 >
