@@ -1,6 +1,6 @@
 ---
 description: Informações sobre como a biblioteca de JavaScript at.js do Target impede a cintilação durante o carregamento de página ou aplicativo.
-keywords: cintilação; Target Standard; at.js; implementação
+keywords: flicker;at.js;implementação
 seo-description: Informações sobre como a biblioteca de JavaScript at.js do Adobe Target impede a cintilação durante o carregamento de página ou aplicativo.
 seo-title: Como o at.js do Adobe Target gerencia a cintilação
 solution: Target
@@ -8,7 +8,7 @@ title: Como a at.js gerencia a cintilação
 topic: Padrão
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -19,7 +19,7 @@ Informações sobre como a biblioteca de JavaScript at.js do Target impede a cin
 
 A cintilação ocorre quando o conteúdo padrão é exibido momentaneamente aos visitantes, antes de ele ser substituído pelo conteúdo da atividade. A cintilação é indesejável porque pode ser confusa para os visitantes.
 
-## Utilização de uma mbox global criada automaticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## Usar uma mbox global criada automaticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
 Se você ativar a configuração [Criar mbox global automaticamente](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) ao configurar o at.js, o at.js gerenciará a cintilação alterando a configuração de opacidade, à medida que a página é carregada. Ao carregar o at.js, é alterada a configuração de opacidade do <body> elemento para "0", tornando a página invisível inicialmente para os visitantes. Após receber uma resposta do Target, ou se for detectado um erro com a solicitação Target, a at.js redefine a opacidade para "1". Isso garante que o visitante veja a página somente depois que o conteúdo de suas atividades for aplicado.
 
@@ -103,11 +103,11 @@ Em vez do padrão:
 body {opacity: 0 !important}
 ```
 
-## Gerenciamento de cintilação na at.js 2.x para triggerView()
+## Gerenciar oscilação em at.js 2.x para triggerView()
 
 Ao usar `triggerView()` para mostrar o conteúdo direcionado em seu SPA, o gerenciamento de cintilação é fornecido imediatamente. Isso significa que a lógica pré-ocultar não precisa ser adicionada manualmente. Em vez disso, a at.js 2.x pré-oculta o local em que sua exibição precisa ser mostrada antes de aplicar o conteúdo direcionado.
 
-## Gerenciamento de cintilação com getOffer() e applyOffer()
+## Gerenciar oscilação com getOffer() e applyOffer()
 
 Como `getOffer()` e `applyOffer()` são APIs de baixo nível, não há controle de cintilação incorporado. É possível passar um seletor ou elemento HTML como opção `applyOffer()`, nesse caso, `applyOffer()` adiciona o conteúdo da atividade a este elemento específico; no entanto, verifique se o elemento está pré-oculto corretamente antes de chamar `getOffer()` e `applyOffer()`.
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Uso de uma mbox regional com mboxCreate() na at.js 1.x (não compatível na at.js 2.x)
+## Usar uma mbox regional com mboxCreate() em at.js 1.x (não suportado em at.js 2.x)
 
 Se você usar uma implementação de mbox regional, poderá usar `mboxCreate()` com sua página provisionada semelhante ao seguinte código de exemplo:
 
