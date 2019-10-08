@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -21,10 +21,11 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 3 de outubro de 2019 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Added the following: <ul><li>Problema conhecido e solução temporária ao criar uma experiência sem modificações usando o at.js 2.*x* library.</li><li>Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API.</li><li>Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.</li></ul> |
+| 8 de outubro de 2019 | [Newletter do Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Novo tópico com links para o primeiro lote de boletins informativos, com mais informações por vir. |
+| 3 de outubro de 2019 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adicionado o seguinte: <ul><li>Problema conhecido e solução temporária ao criar uma experiência sem modificações usando o at.js 2.*Biblioteca x* .</li><li>Coleções, exclusões, critérios e designs criados por meio da API não estão visíveis na interface do usuário do Target e só podem ser editados por meio da API.</li><li>As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.</li></ul> |
 |  | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Foi adicionada uma observação à seção "mboxDebug". |
-| 2 de outubro de 2029 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Added information about upcoming releases. |
-| October 1, 2019 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Texto atualizado na seção "Atributos do cliente". |
+| 2 de outubro de 2029 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre as próximas versões. |
+| 1 de outubro de 2019 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Texto atualizado na seção "Atributos do cliente". |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Amostra de código atualizada na seção "Call getOffers() for all views". |
 | 30 de setembro de 2019 | [Notas de versão](/help/r-release-notes/release-notes.md): 19.9.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
@@ -34,7 +35,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 27 de setembro de 2019 | [Por quanto tempo você deve executar um teste A/B?](/help/c-activities/t-test-ab/sample-size-determination.md) | Texto atualizado sobre a Calculadora de tamanho de amostra do Target. |
 |  | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Texto atualizado sobre a Calculadora de tamanho de amostra do Target. |
-| September 24, 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Data da versão do Target/Standard 19.2.1 alterada para 30 de setembro de 2019. |
+| 24 de setembro de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Data da versão do Target/Standard 19.2.1 alterada para 30 de setembro de 2019. |
 |  | [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md) | Adição de vídeo de treinamento. |
 | 10 de setembro de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 19.9.1. |
 | 9 de setembro de 2019 | [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Adicionada a seção "Considerações". |
@@ -364,7 +365,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Sobre públicos-alvo](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Adição de informações sobre tratamento de públicos referenciados em atividades do Target que foram excluídas no Adobe Audience Manager (AAM). |
 |  | [Integrações da at.js](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | Tópico atualizado. |
 |  | [Implementação do Target sem um gerenciador de tags](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | Atualizadas todas as seções.  Adição de uma nova seção: implementação da at.js. |
-|  | Versão 18.10.1  [Notas de versão](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
+|  | Versão 18.10.1 [Notas de versão](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe Target Standard/Premium 18.9.1 (26 de setembro de 2018)  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -534,7 +535,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versão 18.9.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de versão </a> </p> </td> 
+   <td colname="col2"> <p>Versão 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de versão </a> </p> </td> 
    <td colname="col3"> <p>Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. </p> </td> 
   </tr> 
  </tbody> 
@@ -700,7 +701,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Versão 18.8.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de versão </a> </p> </td> 
+   <td colname="col2"> <p>Versão 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notas de versão </a> </p> </td> 
    <td colname="col3"> <p>Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. </p> </td> 
   </tr> 
  </tbody> 
