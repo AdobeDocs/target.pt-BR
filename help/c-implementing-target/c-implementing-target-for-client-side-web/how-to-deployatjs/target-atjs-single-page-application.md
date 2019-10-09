@@ -1,14 +1,14 @@
 ---
 description: Informações para usar a at.js 2.x para implementar Aplicativos de página única (SPAs).
-keywords: implementação de aplicativos de página única; implementar aplicativo de página única; spa; at.js 2.x;at.js;aplicativo de página única;aplicativo de página única
+keywords: implementação de aplicativos de página única; implementar aplicativo de página única; spa; at.js 2.x; at.js; aplicativo de página única; aplicativo de página única;spa;SPAs
 seo-description: Informações para usar a at.js 2.x do Adobe Target para implementar Aplicativos de página única (SPAs).
-seo-title: Implementação de aplicativo de página única no Adobe Target
+seo-title: Implementação de aplicativos de página única no Adobe Target
 solution: Target
 title: Implementação do aplicativo de página única
 topic: padrão
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
