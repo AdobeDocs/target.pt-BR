@@ -1,7 +1,7 @@
 ---
 description: Os tokens de resposta permitem gerar automaticamente informações específicas do Target (detalhes da campanha, informações de perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou na integração com sistemas de terceiros (como o Clicktale)
-keywords: tokens de resposta; tokens; plugins; plug-ins;at.js
-seo-description: Os tokens de resposta permitem gerar automaticamente informações específicas do Target (detalhes da campanha, informações de perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou na integração com sistemas de terceiros (como o Clicktale)
+keywords: tokens de resposta; tokens; plugins; plug-ins;at.js;resposta
+seo-description: Os tokens de resposta permitem que você produza automaticamente informações específicas do Target (detalhes da atividade, informações do perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou integração com sistemas de terceiros (como Clicktale)
 seo-title: Tokens de resposta no Adobe Target
 solution: Target
 subtopic: Introdução
@@ -9,7 +9,7 @@ title: Tokens de resposta
 topic: Padrão
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -24,7 +24,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
 
 >[!NOTE]
 >
->Os tokens de resposta estão disponíveis com [!DNL at.js] 1.1 ou posterior. Os tokens de resposta não são compatíveis com a mbox.js.
+>Os tokens de resposta estão disponíveis com at.js 1.1 ou posterior. Os tokens de resposta não são compatíveis com a mbox.js.
 
 | Biblioteca do Target em uso | Ações sugeridas |
 |--- |--- |
@@ -164,7 +164,7 @@ Conforme mencionado acima os tokens de resposta trabalham nas informações de p
 
 O Target realiza uma atualização de atributos em intervalos regulares. Qualquer atributo que não esteja ligado será demovido durante a próxima atualização. Entretanto, se você tem um atributo que foi ligado e tiver sido removido (por exemplo, você removeu um script de perfil que foi usado como um token), esse script não será removido da lista de atributos, até ele ter sido desligado. O Target remove somente os atributos desligados na lista, quando são excluídos ou renomeados.
 
-## Envio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envio de dados para o Google Analytics via at.js  {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código na página HTML:
 
@@ -230,7 +230,7 @@ O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código n
 </script>
 ```
 
-## Depuração (similar ao plugin ttMeta) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Depuração (similar ao plugin ttMeta)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adicionar o seguinte código à página HTML:
 
@@ -284,6 +284,6 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 
 ## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados do at.js para compartilhar informações de perfil do Target para sistemas de terceiros.
+Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=por_br)
