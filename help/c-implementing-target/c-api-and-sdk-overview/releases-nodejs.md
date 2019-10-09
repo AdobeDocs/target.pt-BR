@@ -7,14 +7,14 @@ solution: Target
 title: Notas de versão - SDK do Target Node.js
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # Notas de versão - SDK do Target Node.js
 
-Notas de versão relacionadas ao SDK Node.js do Adobe Target.
+Notas de versão relacionadas ao SDK [Node.js do](https://github.com/adobe/target-nodejs-sdk)Adobe Target.
 
 ## Versão 1.0.0 (9 de outubro de 2019)
 
