@@ -1,6 +1,6 @@
 ---
 description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades do Adobe Target.
-keywords: Script de perfil, atributos do script de perfil, práticas recomendadas do script de perfil, depurar, depuração
+keywords: Script de perfil;atributos de script de perfil;práticas recomendadas de script de perfil;depurar;depurar;scripts;scripts de perfil;atributos;attribute;parameter
 seo-description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades do Adobe Target.
 seo-title: Atributos de perfil no Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Atributos do perfil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ Os tipos a seguir de atributos de perfil estão disponíveis:
 
 | Tipo do parâmetro | Descrição |
 |--- |--- |
-| Mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Observação**: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Observação**: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definido diretamente com um trecho de código JavaScript. Eles podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -125,7 +125,7 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
 * Não exceda 1.300 caracteres ou 50 iterações de loop.
 * Não exceda 2.000 instruções do JavaScript. O Target tem um limite de 2.000 instruções de JavaScript por script, mas isso não pode ser calculado somente pela leitura manual do JavaScript. Por exemplo, o Rhino trata todas as chamadas de função e as "novas" chamadas como 100 instruções. Além disso, o tamanho dos dados de entrada, como os valores de URL, pode afetar a contagem das instruções.
 * Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. Contar o número de instruções não é óbvio, mas o importante a ser observado é que os scripts que excedem 2 KB serão automaticamente desativados. Não há limite definido para o número de scripts que podem ser executados, mas todos são executados com uma chamada de mbox única. Execute somente a quantidade de scripts necessária.
-* Num regex, com estrela pontual no início (por exemplo: `/.*match/`, `/a|.*b/`) quase nunca é necessário. A pesquisa regex começa de todas as posições em uma sequência de caracteres (a menos que vinculada a `^`), portanto, a estrela pontual já é assumida. A execução do script pode ser interrompida se tal regex corresponder a dados de entrada longos o suficiente (que podem ter até várias centenas de caracteres).
+* Em um regex, ter ponto-estrela no início (por exemplo: `/.*match/`, `/a|.*b/`) quase nunca é necessário. A pesquisa de regex começa em todas as posições em uma string (a menos que vinculada a `^`), portanto, o ponto-estrela já foi considerado. A execução do script pode ser interrompida se esse regex corresponder a dados de entrada longos o suficiente (que podem ter centenas de caracteres).
 * Se tudo falhar, envolva o script em um try/catch.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -247,7 +247,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
 **É possível usar os scripts de perfil para capturar informações de uma página localizada em uma camada de dados?**
 
-Os scripts de perfil não podem ler a página diretamente porque são executados no lado do servidor. Os dados devem ser enviados por uma solicitação mbox ou através de outros [métodos para colocar os dados no Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Depois que os dados estiverem no destino, os scripts de perfil poderão ler os dados como um parâmetro mbox ou parâmetro de perfil.
+Os scripts de perfil não podem ler a página diretamente porque são executados no lado do servidor. Os dados devem ser enviados por uma solicitação mbox ou através de outros  [métodos para colocar os dados no Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Depois que os dados estiverem no destino, os scripts de perfil poderão ler os dados como um parâmetro mbox ou parâmetro de perfil.
 
 ## Referência de JavaScript para os parâmetros do perfil de script
 
