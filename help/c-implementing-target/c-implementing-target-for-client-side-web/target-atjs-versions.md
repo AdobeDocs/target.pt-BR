@@ -8,7 +8,7 @@ subtopic: Introdução
 title: Detalhes da versão da at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 
 ---
 
@@ -21,25 +21,31 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >
 >A equipe do Target mantém apenas duas versões de [!DNL at.js]—a versão atual e a segunda versão mais recente. Atualize a [!DNL at.js] conforme necessário para garantir que você esteja executando uma versão suportada.
 
-## at.js versão 2.1.1 (24 de julho de 2019)
+## at.js versões 2.2 e 1.8 (10 de outubro de 2019)
 
-Esta versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
+| Recurso  / Aprimoramento | Descrição |
+| --- | --- |
+| at.js versão 2.2<br><br>andat.js versão 1.8 | Essas versões do at.js fornecem:<ul><li>Desempenho aprimorado ao usar o Serviço da Experience Cloud ID (ECID) v4.4 e o at.js 2.2 ou o at.js 1.8 em suas páginas da Web.</li><li>Anteriormente, o ECID fazia duas chamadas de bloqueio antes que o at.js pudesse buscar experiências. Isso foi reduzido a uma única chamada, o que melhora significativamente o desempenho.</li></ul> Para aproveitar essas melhorias de desempenho, atualize para at.js 2.2 ou at.js 1.8 junto com a Biblioteca ECID v4.4.<br>at.js 2.2 fornece:<ul><li>**serverState**: Uma configuração disponível em at.js v2.2+ que pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida.<br>Para obter mais informações, consulte "serverState" em [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+
+## at.js versão 2.1.1 (quarta-feira, 24 de julho de 2019)
+
+Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
 (Os números de edição entre parênteses são para uso interno da Adobe.)
 
-* Corrigido um problema que fazia com que vários beacons fossem disparados ao usar a métrica Rastreamento de cliques na página Metas e configurações no Visual Experience Composer (VEC). (TNT-32812)
-* Correção de um problema que fazia com que `triggerView()` as ofertas não fossem renderizadas mais de uma vez. (TNT-32780)
-* Correção de um problema com `triggerView()` o objetivo de garantir que a solicitação contenha informações da Marketing Cloud ID (MCID). (TNT-32776)
-* Correção de um problema que impedia o acionamento da `triggerView()` notificação mesmo se não houvesse exibições salvas. (TNT-32614)
-* Correção de um problema que causava um erro devido ao uso de decodeURIcomponent que causava problemas quando o URL continha um parâmetro de string de consulta malformado. (TNT-32710)
-* O sinalizador de sinal agora está definido como "true" no contexto de solicitações de entrega enviadas por meio da `Navigator.sendBeacon()` API. (TNT-32683)
-* Correção de um problema que impedia que ofertas do Recommendations fossem exibidas em sites para alguns clientes. Os clientes podiam ver o conteúdo da oferta na chamada da API de entrega, mas a oferta não era aplicada no site. (TNT-32680)
+* Correção de um problema que fazia com que vários beacons fossem acionados ao usar a métrica de Rastreamento de cliques na página Metas e configurações no Visual Experience Composer (VEC). (TNT-32812)
+* Correção de um problema que fazia com que o `triggerView()` não renderizasse ofertas mais de uma vez. (TNT-32780)
+* Correção de um problema no `triggerView()` para garantir que a solicitação contivesse informações da Experience Cloud ID (ECID). (TNT-32776)
+* Correção de um problema que impedia o acionamento da notificação do `triggerView()`, mesmo se não houvesse exibições salvas. (TNT-32614)
+* Correção de um problema que causava um erro devido ao uso de decodeURIcomponent, que causava problemas quando o URL continha um parâmetro da sequência de consulta malformado. (TNT-32710)
+* Agora o sinalizador de beacon é definido como “true” no contexto de solicitações de entrega enviadas por meio da API do `Navigator.sendBeacon()`. (TNT-32683)
+* Correção de um problema que impedia que as ofertas do Recommendations fossem exibidas nos sites de alguns clientes. Os clientes podem ver o conteúdo da oferta na chamada da API de entrega, mas a oferta não foi aplicada no site. (TNT-32680)
 * Correção de um problema que fazia com que o rastreamento de cliques em várias experiências não funcionasse como esperado. (TNT-32644)
-* Correção de um problema que impedia o at.js de aplicar a segunda métrica após a renderização da primeira métrica falhar. (TNT-32628)
-* Correção de um problema ao transmitir `mboxThirdPartyId` usando a `targetPageParams` função que fazia com que a carga da solicitação não estivesse presente nos parâmetros de consulta ou na carga da solicitação. (TNT-32613)
-* Correção de um problema que causava o bloqueio das respostas de notificação de exibição e clique em navegadores baseados em Chromo (incluindo o Google Chrome). (TNT-32290)
+* Correção de um problema que impedia o at.js de aplicar a segunda métrica após a falha da renderização da primeira métrica. (TNT-32628)
+* Correção de um problema ao passar o `mboxThirdPartyId` usando a função do `targetPageParams` que fazia com que a carga da solicitação não estivesse presente nos parâmetros de consulta ou na carga da solicitação. (TNT-32613)
+* Correção de um problema que fazia com que as respostas da notificação de cliques fossem bloqueadas nos navegadores Chromium (incluindo Google Chrome). (TNT-32290)
 
-## at.js versão 2.1.0 (3 de junho de 2019)
+## at.js versão 2.1.0 (segunda-feira, 3 de junho de 2019)
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -57,7 +63,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 * **Tamanho da at.js reduzido em ~24%**: o tamanho da at.js foi reduzido em ~24%. O tamanho de arquivo menor melhora o desempenho do carregamento da página e reduz o tempo para baixar a at.js na página.
 
-## at.js versão 2.0.1 (19 de março de 2019)
+## at.js versão 2.0.1 (terça-feira, 19 de março de 2019)
 
 Essa é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
@@ -69,7 +75,7 @@ Essa é uma versão de manutenção e inclui os seguintes aprimoramentos e corre
 * Correção de um problema que fazia com que a ação de reorganizar do VEC fosse registrada como êxito, mesmo quando os elementos estavam ausentes. (TNT-31924)
 * Correção de um problema que fazia com que as notificações de determinados clientes não contivessem o token de propriedade das Permissões empresariais. (TNT-31999)
 
-## at.js versão 1.7.1 (19 de março de 2019)
+## at.js versão 1.7.1 (terça-feira, 19 de março de 2019)
 
 Essa é uma versão de manutenção e inclui a seguinte correção:
 
@@ -207,7 +213,7 @@ A at.js versão 1.3.0 já está disponível.
 
 A [!DNL at.js] versão 1.2.3 já está disponível.
 
-* Adiciona suporte para ofertas JSON. As ofertas JSON são suportadas apenas em atividades criadas usando o Experience Composer baseado em formulário. Atualmente, a única maneira de usar as ofertas do JSON é por meio de chamadas diretas à API. Consulte [Criar ofertas JSON](../../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
+* Adiciona suporte para ofertas JSON. As ofertas JSON são suportadas apenas em atividades criadas usando o Experience Composer baseado em formulário. Atualmente, a única maneira de usar as ofertas do JSON é por meio de chamadas diretas à API. Consulte  [Criar ofertas JSON](../../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
 
 ## at.js versão 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
@@ -251,7 +257,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 ## at.js versão 1.0.0 {#section_37A3D23FC4AD42A68AA831B89E03E725}
 
-**Data:** 7 de julho de 2017
+**Data:** sexta-feira, 7 de julho de 2017
 
 Os seguintes aprimoramentos e correções estão incluídos na at.js versão 1.0:
 
@@ -267,7 +273,7 @@ Os seguintes aprimoramentos e correções estão incluídos na at.js versão 1.0
 
 ## at.js versão 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
-**Data:** 22 de maio de 2017
+**Data:** segunda-feira, 22 de maio de 2017
 
 Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] versão 0.9.7:
 
@@ -275,7 +281,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 ## at.js versão 0.9.6 {#section_EEFA6413F2F947AD8C4A88128B90245D}
 
-**Data:** 13 de abril de 2017
+**Data:** quinta-feira, 13 de abril de 2017
 
 Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] versão 0.9.6:
 
@@ -294,7 +300,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 ## at.js versão 0.9.4 {#section_A15B12F12CD94F07B3F56613A79A815F}
 
-**Data:** 19 de janeiro de 2017
+**Data:** quinta-feira, 19 de janeiro de 2017
 
 * Os nomes das mboxes agora podem conter caracteres especiais, incluindo "E" comercial (&amp;), para ser consistente com os requisitos de nomenclatura das mboxes usando a mbox.js.
 
@@ -305,7 +311,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 ## at.js versão 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
-**Data:** 10 de outubro de 2016
+**Data:** segunda-feira, 10 de outubro de 2016
 
 * Garante que as chamadas da mbox sejam acionadas no Microsoft Internet Explorer 11 quando os navegadores herdados estiverem desativados nas configurações da at.js.
 * Garante que o conteúdo padrão seja renderizado se uma oferta remota dinâmica falhar (por exemplo, se o URL estiver incorreto e retornar um erro 404).
@@ -313,7 +319,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 ## at.js versão 0.9.2 {#section_148549CBB4F046BAA8F79C79B64EC889}
 
-**Data:** 21 de setembro de 2016
+**Data:** quarta-feira, 21 de setembro de 2016
 
 * Adição de uma configuração `optoutEnabled` para ativar ou desativar a não participação no Gráfico de dispositivos. Se essa configuração for definida como `true` e o visitante tiver desativado o rastreamento, o navegador do visitante não fará chamadas de mbox. O Gráfico de dispositivos está atualmente na versão beta. Esta configuração é definida para `false` por padrão, mas deve ser definido para `true` se você estiver usando o Gráfico de dispositivos. Uma opção similar faz parte da mbox.js v61.
 * Adição do suporte a `CustomEvent` ao mecanismo de notificação. Anteriormente, o mecanismo de notificação de eventos da at.js não podia ser usado por meio das APIs DOM padrão, como `document.addEventListener()`. Agora você pode usar `document.addEventListener()` para assinar eventos at.js, como eventos de solicitação e eventos de renderização de conteúdo.
@@ -321,7 +327,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 ## at.js versão 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
 
-**Data:** 14 de julho de 2016
+**Data:** quinta-feira, 14 de julho de 2016
 
 * Fornece à at.js um tempo limite para o Serviço de ID de visitante, que é independente do tempo limite do próprio serviço.
 * Corrige um problema na versão 0.9.0 que afetava as implementações que usavam at.js em algumas páginas e mbox.js em outras.
