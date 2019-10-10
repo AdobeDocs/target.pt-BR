@@ -8,7 +8,7 @@ title: Solução de problemas de atividades
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -22,6 +22,10 @@ Se a atividade não aparecer no site, essas sugestões de solução de problemas
 >Além das seguintes informações de solução de problemas, consulte [Solução de problemas](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) a fim de obter os links para tópicos de solução de problemas adicionais, perguntas frequentes e outras informações úteis sobre como solucionar problemas de atividades e outros recursos.[!DNL Adobe Target]
 
 As seções a seguir contêm problemas que podem ser encontrados com as soluções sugeridas.
+
+## Criei uma atividade usando a interface do usuário do Target e não posso atualizá-la por meio da API.
+
+As atividades criadas usando a interface do usuário do Target *só* podem ser atualizadas por meio da interface do usuário do Target. As atividades criadas por meio da API *só* podem ser atualizadas por meio da API. Tente atualizar a atividade usando o mesmo método (IU ou API) que foi usado para criar a atividade.
 
 ## Você está vendo conteúdo padrão.
 
@@ -85,7 +89,7 @@ Depois que você for adicionado como um usuário do Target, precisará ter a fun
 
 * Recrie a atividade.
 
-Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte [Cenários de modificação da página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte  [Cenários de modificação da página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## A estrutura da página é modificada durante seu carregamento (em tempo de execução).
 
@@ -98,7 +102,7 @@ Para mais informações sobre como as modificações da página afetam a capacid
 * Atualize o código de página para identificar exclusivamente cada elemento que será testado (usando uma id).
 * Interrompa a modificação dinâmica da classe ou seus irmãos, conforme descrito acima.
 
-Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte [Cenários de modificação da página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte  [Cenários de modificação da página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js está preenchendo todo o código subsequente fora do cabeçalho e no corpo do texto.
 
