@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função targetGlobalSettings() para at.js. '
-keywords: targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverDomain;cookieDomain;cookiedomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle ContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;seltorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;funções;function;clientCode;clientcode;serverDomain;serverDomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHidden yle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;seltorsPollingTimeout;dataProviders
 seo-description: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introdução
 title: targetGlobalSettings()
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -25,6 +25,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 | Configurações | Tipo | Valor padrão | Descrição |
 |--- |--- |--- |--- |
+| serverState | Consulte "serverState" abaixo. | Consulte "serverState" abaixo. | Consulte "serverState" abaixo. |
 | clientCode | String | Valor definido via IU | Representa o código de cliente |
 | serverDomain | String | Valor definido via IU | Representa o servidor do Target Edge |
 | cookieDomain | String | Se possível, defina para o domínio de nível superior | Representa o domínio usado ao salvar cookies |
@@ -82,7 +83,7 @@ Cada provedor de dados tem a seguinte estrutura:
 |--- |--- |--- |
 | name | String | Nome do provedor. |
 | version | String | Versão do provedor. Essa tecla será usada para evolução do provedor. |
-| timeout | Número | Representa o tempo limite do provedor se essa for uma solicitação de rede. Essa tecla é opcional. |
+| timeout | Número | Representa o tempo limite do provedor se essa for uma solicitação de rede.  Essa tecla é opcional. |
 | provider | Função | A função que contém a lógica de obtenção de dados do provedor.<br>A função tem um único parâmetro obrigatório: `callback`. O parâmetro retorno de chamada é uma função que só deve ser invocada quando os dados forem obtidos com êxito ou houver um erro.<br>O retorno de chamada espera dois parâmetros:<ul><li>error: Indica que ocorreu um erro. Se tudo estiver OK, este parâmetro deve ser definido como nulo.</li><li>parâmetros: Um objeto JSON, representando os parâmetros que serão enviados em uma solicitação do Target.</li></ul> |
 
 O exemplo a seguir mostra onde o provedor de dados está usando a execução sincrônica:
@@ -175,3 +176,145 @@ Leve em consideração o seguinte ao trabalhar com a configuração `dataProvide
 
 * Se os provedores de dados adicionados a `window.targetGlobalSettings.dataProviders` forem assíncronos, serão executados em paralelo. A solicitação da API de visitante será executada em paralelo com funções adicionadas a `window.targetGlobalSettings.dataProviders` para permitir um tempo mínimo de espera.
 * at.js não tentará armazenar os dados em cache. Se o provedor de dados obtiver os dados apenas uma vez, deverá certificar-se de que os dados estão armazenados em cache e, quando a função de provedor for invocada, servir os dados do cache para a segunda invocação.
+
+## serverState {#server-state}
+
+`serverState` é uma configuração disponível em at.js v2.2+ que pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida.
+
+### Pré-requisitos
+
+Você deve ter uma integração híbrida de [!DNL Target].
+
+* **Do lado** do servidor:  Você deve usar a nova API [de](https://developers.adobetarget.com/api/delivery-api/) entrega ou SDKs [](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)do Target.
+* **Cliente**: Você deve usar [a versão 2.2 ou posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)do at.js.
+
+### Amostras de código
+
+Para entender melhor como isso funciona, consulte os exemplos de código abaixo que você teria em seu servidor. O código supõe que você esteja usando o SDK [do](https://github.com/adobe/target-nodejs-sdk)Target Node.js.
+
+```
+// First, we fetch the offers via Target Node.js SDK API, as usual
+const targetResponse = await targetClient.getOffers(options);
+// A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
+const serverState = {
+  request: targetResponse.request,
+  response: targetResponse.response
+};
+// Finally, we should set window.targetGlobalSettings.serverState in the returned page, by replacing it in a page template, for example
+const PAGE_TEMPLATE = `
+<!doctype html>
+<html>
+<head>
+  ...
+  <script>
+    window.targetGlobalSettings = {
+      overrideMboxEdgeServer: true,
+      serverState: ${JSON.stringify(serverState, null, " ")}
+    };
+  </script>
+  <script src="at.js"></script>
+</head>
+...
+</html>
+`;
+// Return PAGE_TEMPLATE to the client ...
+```
+
+Uma amostra de `serverState` objeto JSON para exibição de busca prévia é exibida da seguinte maneira:
+
+```
+{
+ "request": {
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "context": {
+   "channel": "web",
+   "timeOffsetInMinutes": 0
+  },
+  "experienceCloud": {
+   "analytics": {
+    "logging": "server_side",
+    "supplementalDataId": "7D3AA246CC99FD7F-1B3DD2E75595498E"
+   }
+  },
+  "prefetch": {
+   "views": [
+    {
+     "address": {
+      "url": "my.testsite.com/"
+     }
+    }
+   ]
+  }
+ },
+ "response": {
+  "status": 200,
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "client": "testclient",
+  "edgeHost": "mboxedge21.tt.omtrdc.net",
+  "prefetch": {
+   "views": [
+    {
+     "name": "home",
+     "key": "home",
+     "options": [
+      {
+       "type": "actions",
+       "content": [
+        {
+         "type": "setHtml",
+         "selector": "#app > DIV.app-container:eq(0) > DIV.page-container:eq(0) > DIV:nth-of-type(2) > SECTION.section:eq(0) > DIV.container:eq(1) > DIV.heading:eq(0) > H1.title:eq(0)",
+         "cssSelector": "#app > DIV:nth-of-type(1) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > SECTION:nth-of-type(1) > DIV:nth-of-type(2) > DIV:nth-of-type(1) > H1:nth-of-type(1)",
+         "content": "<span style=\"color:#FF0000;\">Latest</span> Products for 2020"
+        }
+       ],
+       "eventToken": "t0FRvoWosOqHmYL5G18QCZNWHtnQtQrJfmRrQugEa2qCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+       "responseTokens": {
+        "profile.memberlevel": "0",
+        "geo.city": "dublin",
+        "activity.id": "302740",
+        "experience.name": "Experience B",
+        "geo.country": "ireland"
+       }
+      }
+     ],
+     "state": "J+W1Fq18hxliDDJonTPfV0S+mzxapAO3d14M43EsM9f12A6QaqL+E3XKkRFlmq9U"
+    }
+   ]
+  }
+ }
+}
+```
+
+Depois que a página é carregada no navegador, o at.js aplica todas as [!DNL Target] ofertas `serverState` imediatamente, sem acionar chamadas de rede contra a [!DNL Target] borda. Além disso, o at.js oculta apenas os elementos DOM para os quais [!DNL Target] as ofertas estão disponíveis no conteúdo obtido no lado do servidor, afetando positivamente o desempenho da carga da página e a experiência do usuário final.
+
+### Notas importantes
+
+Considere o seguinte ao usar `serverState`:
+
+* No momento, o at.js v2.2 suporta apenas a entrega de experiências via serverState para:
+
+   * Atividades criadas pela VEC que são executadas no carregamento da página.
+   * Exibições pré-buscadas.
+
+      No caso de SPAs que usam [!DNL Target] Exibições e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Exibições pré-buscadas no lado do servidor e as aplica assim que cada Exibição é acionada `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Target.
+
+   * **Observação**:  Atualmente, as mboxes recuperadas no servidor não são suportadas em `serverState`.
+
+* Ao aplicar `serverState `ofertas, o at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a `pageLoadEnabled` configuração for falsa.
+
+   Para ativar essas configurações, ative a alternância em Configuração do **[UICONTROL &gt; Implementação &gt; Editar configurações &gt; Carregamento de página ativado]**.
+
+   ![Configurações Ativadas para Carregamento de Página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+### Recursos adicionais
+
+Para saber mais sobre como `serverState` funciona, consulte os seguintes recursos:
+
+* [Código de exemplo](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
+* [Aplicativo de amostra de aplicativo de página única (SPA) com `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
