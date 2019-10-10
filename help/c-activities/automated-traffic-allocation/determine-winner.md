@@ -8,7 +8,7 @@ title: Determinar um vencedor
 topic: Padrão
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -63,6 +63,6 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
    A Alocação automática mostra a probabilidade de uma determinada experiência ser um verdadeiro vencedor em todas as experiências na atividade. Isso significa que apenas uma experiência vencedora (que provavelmente será a vencedora) terá um valor de confiança diferente de zero. Todos os outros são mais propensos a serem perdedores e exibirão 0%.
 
-* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. A Alocação automática é aproximadamente duas vezes mais rápida que um teste A/B normal. Para determinar por quanto tempo um teste A/B normal seria executado, use uma [calculadora de tamanho de amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html): taxa de conversão do controle de plug em "Índice de conversão da linha de base", "5%" para "Aumento" e 95% para "Confiança". Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
+* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Esses níveis de confiança normalmente aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
 * Se o relatório mostrar 0% em todo o quadro, é provável que seja muito cedo para a atividade.
 
