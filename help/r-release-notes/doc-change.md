@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -24,6 +24,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 10 de outubro de 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Nova seção adicionada: "serverState." |
 |  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre as versões at.js 2.2 e at.js 1.8. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas informações sobre as versões at.js 2.2 e at.js 1.8. |
+|  | [Solução de problemas de atividades](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Nova seção adicionada: "Criei uma atividade usando a interface do usuário do Target e não posso atualizá-la por meio da API." |
 | 9 de outubro de 2019 | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Tópico atualizado. |
 |  | [Notas de versão - APIs do servidor do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Novo tópico. |
 |  | [Notas de versão - SDK do Target Node.js](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Novo tópico. |
