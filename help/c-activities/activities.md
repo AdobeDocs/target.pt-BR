@@ -1,21 +1,21 @@
 ---
-description: As atividades permitem testar os designs de página e direcionar o conteúdo para públicos-alvo específicos.
-keywords: lista de atividades, atividades, atividade, tipos de atividade, editar atividade, ações da atividade, atributo da atividade, filtro da lista de atividades, limitações da atividade
-seo-description: As atividades no Adobe Target permitem testar os designs de página e direcionar o conteúdo para públicos-alvo específicos.
-seo-title: Atividades no Adobe Target
+description: As atividades no Adobe Target permitem que você personalize o conteúdo para públicos-alvo específicos e teste designs de página.
+keywords: atividades lista;atividades;atividades;atividades tipos;editar atividade;ações de atividade;atributo de atividade;filtro de lista de atividades;limitações de atividade;personalizar;personalização;personalização
+seo-description: As atividades no Adobe Target permitem que você personalize o conteúdo para públicos-alvo específicos e teste designs de página
+seo-title: As atividades no Adobe Target permitem que você personalize o conteúdo para públicos-alvo específicos e teste designs de página.
 solution: Target
 title: Atividades
 topic: Padrão
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
 
 ---
 
 
 # Atividades{#activities}
 
-As atividades permitem testar os designs de página e direcionar o conteúdo para públicos-alvo específicos. Uma atividade determina as experiências que um visitante do site pode ter.
+As atividades no Adobe Target permitem que você personalize o conteúdo para públicos-alvo específicos e teste designs de página.
 
 Por exemplo, você pode criar uma atividade que teste duas landing pages diferentes, uma destacando informações sobre sapatos femininos de verão e outra destacando um vestuário de verão mais amplo. A atividade determina as condições que controlam quando cada uma dessas páginas de aterrissagem será exibida e as métricas que determinam qual página tem maior sucesso. A atividade está configurada para iniciar e terminar quando as condições específicas forem cumpridas, como entre datas específicas, ou para iniciar quando a atividade for aprovada e terminar quando ela for desativada.
 
@@ -89,7 +89,7 @@ Observe os detalhes a seguir sobre a lista Atividade:
 
 Por padrão, a lista é classificada pela data em que a atividade foi modificada pela última vez, com a mais recente no topo. No entanto, há várias opções de filtro para ajudar a personalizar a lista a fim de mostrar as atividades que você deseja ver.
 
-### Pesquisa {#search-heading}
+### Pesquisa  {#search-heading}
 
 Use o campo de pesquisa para procurar atividades que correspondam a seus critérios de pesquisa.
 
