@@ -4,11 +4,11 @@ keywords: direcionamento, a4t, geografia, geolocalização, precisão de geoloca
 seo-description: Use os públicos do Adobe Target para direcionar os usuários com base em sua localização geográfica, incluindo país, estado/província, cidade, código postal/CEP, DMA ou operadora de celular.
 seo-title: Geografia
 solution: Target,Analytics
-title: Geografia Direcionamento no Adobe Target
+title: Geografia  Direcionamento no Adobe Target
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
 
 ---
 
@@ -66,7 +66,7 @@ A tabela a seguir mostra a precisão das informações geográficas baseadas em 
 | Japão | 99.99% | Próximo de 95 | Próximo de 90 |
 | Austrália | 99.99% | 94% | 91% |
 
-## Utilização da geolocalização em scripts de perfil {#section_92C93138542C4A94997E3F4BE3F5DA28}
+## Utilização da geolocalização em scripts de perfil  {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
 Você pode usar as informações de geografia para os scripts de perfil.
 
