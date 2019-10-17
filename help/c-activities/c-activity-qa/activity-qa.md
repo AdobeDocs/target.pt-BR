@@ -8,7 +8,7 @@ title: Controle de qualidade da atividade
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -27,9 +27,9 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 * A capacidade de visualizar uma experiência de forma isolada ou em conjunto com outras atividades ativas que satisfaçam os critérios de entrega (página/mbox/público-alvo).
 * A habilidade de garantir a qualidade de toda a jornada do usuário. Você pode acessar seu site uma vez com o link de controle de qualidade e, em seguida, navegar pelo site inteiro enquanto estiver no Controle de qualidade da atividade. Você permanece no Controle de qualidade da atividade até terminar a sessão ou até usar o  [Bookmarklet de controle de qualidade do Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do controle de qualidade da atividade. Esse recurso é particularmente útil se você tiver uma atividade abrangendo várias páginas da Web.
 
->[!NOTE]
->
->Isso é verdadeiro para implementações do at.js com a versão 2.*x* ou posterior. Para at.js 1.*implementações x* e mbox.js, isso só é verdade se o navegador do visitante não bloquear cookies de terceiros.
+   >[!NOTE]
+   >
+   >Isso é verdadeiro para implementações do at.js com a versão 2.*x* ou posterior. Para at.js 1.*implementações x* e mbox.js, isso só é verdade se o navegador do visitante não bloquear cookies de terceiros.
 
 ## Acesso e compartilhamento de um URL de controle de qualidade  {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
