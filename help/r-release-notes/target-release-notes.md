@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
+source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
 
 ---
 
@@ -33,18 +33,18 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 ### Melhorias, correções e alterações
 
-* Alterações no Adobe Unified Shell.
+* Mudanças no [!DNL Experience Cloud] shell.
 
    A Adobe está fazendo atualizações no shell existente (a barra preta na parte superior das [!DNL Experience Cloud] soluções) para unificar e melhorar sua experiência em todas as [!DNL Adobe Experience Cloud] soluções.
 
    Não há mudanças nos fluxos de trabalho atuais, e essas mudanças aparentemente simples foram projetadas para tornar sua vida mais fácil de formas pequenas, mas importantes.
 
-   Ao efetuar logon no [!DNL Adobe Experience Cloud], você será direcionado para o novo Unified Shell. É muito semelhante ao Shell anterior com a barra preta na parte superior, mas oferece as seguintes melhorias:
+   Quando você fizer logon no [!DNL Adobe Experience Cloud], você será levado para o novo shell. É muito semelhante ao shell anterior com a barra preta na parte superior, mas oferece as seguintes melhorias:
 
    * É mais fácil alternar entre organizações do sistema de gerenciamento de identidade (IMS) ou para uma solução diferente da Experience [!ECloud] .
    * Ajuda do usuário aprimorada: Os resultados da pesquisa incluem os resultados da documentação do [!DNL Target] produto, bem como fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudá-lo a obter o máximo proveito [!DNL Target]. Também adicionamos um mecanismo de feedback diretamente no menu Ajuda, facilitando o relatório de problemas ou o compartilhamento de suas ideias.
    * Funcionalidade NPS (Net Promoter Score) aprimorada. Algumas vezes, alguns clientes visualizaram [!DNL Target] pesquisas com uma frequência mais alta do que nós pretendemos. Além disso, o modal da pesquisa usado para perturbar seu fluxo de trabalho. Atualizamos essa funcionalidade completamente para que se torne uma pequena pesquisa que não seja mais intrusiva. Além disso, com o novo desenho, podemos garantir que a frequência do estudo seja mais bem controlada.
-   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na página inicial do Target depois de clicar no [!DNL Target] ícone no Shell. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNo Recommendations Classic]ou [!DNL Search&Promote], como mostrado abaixo:
+   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na página inicial do Target depois de clicar no [!DNL Target] ícone no shell. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNo Recommendations Classic]ou [!DNL Search&Promote], como mostrado abaixo:
 
       ![Página de aterrissagem](/help/r-release-notes/assets/landing.png)
 
@@ -54,13 +54,13 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
       ![Link profundo Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
-      Se você usar [!DNL Search&Promote], precisará ir diretamente para o link. O caminho para acessar o Search&amp;Promote de dentro de [!DNL Adobe Target] um foi completamente removido.
-   * No momento, as notificações para não [!DNL Target] estão mais visíveis no menu suspenso [!UICONTROL Notificações] no Shell.
+      Se você usar [!DNL Search&Promote], precisará ir diretamente para o link. O caminho para alcançar [!DNL Search&Promote] de dentro de [!DNL Adobe Target] foi completamente removido.
+   * No momento, as notificações para não [!DNL Target] estão mais visíveis no menu suspenso [!UICONTROL Notificações] no shell.
    >[!NOTE]
    >
    >Esses recursos não serão implementados de uma vez, nem serão lançados para todos os clientes juntos. Estaremos lançando esses recursos nos próximos dias, começando na versão [!DNL Target Standard/Premium] 19.10.1 (22 de outubro de 2019).
    >
-   >Como parte do lançamento do novo Shell, você também notará algumas alterações no URL. Todos os links marcados anteriores continuam a funcionar, mas recomendamos que você marque novos links para uma abertura mais rápida.
+   >Como parte do lançamento do novo shell, você também notará algumas alterações no URL. Todos os links marcados anteriores continuam a funcionar, mas recomendamos que você marque novos links para uma abertura mais rápida.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
