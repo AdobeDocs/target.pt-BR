@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 
 ---
 
@@ -44,7 +44,7 @@ A chave de recomendação selecionada determina o tipo de critério. Há vários
 | Itens visualizados recentemente | Recomende os itens que um visitante viu mais recentemente, como os itens que o visitante viu na última vez em que visitou seu site, ou os artigos mais populares do momento.<br>O algoritmo de Itens visualizados recentemente retorna resultados específicos para a atividade de um visitante em um [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre eles, o algoritmo retornará apenas os itens visualizados recentemente do site apropriado.<br>Esse tipo de critério não é limitado por coleções.<ul><li>Itens visualizados recentemente</li></ul>**Observação:** você não pode usar os critérios de Itens visualizados recentemente para recomendações de backup.<br>Os itens/mídias visualizados recentemente agora podem ser filtrados para que somente os itens com um determinado atributo sejam exibidos.<ul><li>Os critérios visualizados recentemente são configuráveis, exatamente como os outros critérios nas recomendações.</li><li>Você pode utilizar [coleções](/help/c-recommendations/c-products/collections.md), [exclusões](/help/c-recommendations/c-products/exclusions.md) e [inclusões](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.</li></ul>Os possíveis casos de uso incluem:<ul><li>Uma empresa multinacional com diversas empresas pode ter itens de exibição de visitantes em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que os itens visualizados recentemente sejam exibidos no site de outra propriedade digital.</li></ul> |
 
 
-## Critérios/algoritmos {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## Critérios/algoritmos {#criteria-algorithms}
 
 O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quando as ações de um visitante se qualificam para os critérios definidos na sua atividade. A chave de recomendação determina as opções de lógica de recomendação disponíveis.
 
@@ -58,6 +58,7 @@ O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quan
 | Mais vendidos | Os itens incluídos nos pedidos mais concluídos. Várias unidades do mesmo item em um único pedido são contadas como um pedido. |
 | Mais visualizados | Os itens ou mídias visualizados com mais frequência. |
 | Itens/Mídia visualizados recentemente | Itens que foram visualizados recentemente pelo visitante. Ao utilizar um critério, atualize o design do Target para lidar com casos em que as recomendações em branco serão exibidas enquanto não houver um número suficiente de itens visualizados para exibição. |
+| Recomendações baseadas no usuário | Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante. Esses itens são geralmente chamados de "Recomendado para você".<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada em sessão e se torna mais personalizada à medida que o usuário navega em seu site.<br>As exibições e compras são usadas para determinar os itens recomendados. A Chave de recomendação especificada (por exemplo, Item atual) é usada para aplicar qualquer filtro de regra de inclusão selecionado. Por exemplo, você pode:<ul><li>Excluir itens que não atendem a determinados critérios (produtos esgotados, artigos publicados há mais de 30 dias, filmes com classificação R etc.)</li><li>Limitar itens incluídos a uma única categoria ou à categoria atual</li></ul> |
 
 >[!NOTE] {class="- topic/note "}
 >
@@ -67,13 +68,13 @@ Você também pode usar informações adicionais conhecidas sobre um visitante p
 
 Todos os critérios de um dia são executados duas vezes ao dia. Todos os critérios de uma semana ou mais são executados uma vez ao dia. Critérios de afinidade do site são executados uma vez ao dia. Critérios de backup são executados duas vezes ao dia.
 
-## Exibir informações de critérios {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Exibir informações de critérios  {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Você pode exibir os detalhes dos critérios em um cartão pop-up, passando o mouse sobre ele e clicando no ícone Informações, sem precisar abrir os critérios.
 
-![Passe o ponteiro do cartão de critérios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
+![Passar o mouse sobre o cartão de critérios](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-Clique na guia **[!UICONTROL Informações do algoritmo]para exibir as informações gerais sobre os critérios selecionados, incluindo Nome, Descrições, Vertical do setor, Tipos de página, Chave de recomendação, Lógica de recomendação e ID do algoritmo.**
+Clique na guia **[!UICONTROL Informações do algoritmo]** para exibir as informações gerais sobre os critérios selecionados, incluindo Nome, Descrições, Vertical do setor, Tipos de página, Chave de recomendação, Lógica de recomendação e ID do algoritmo.
 
 ![Guia Informações do algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
@@ -81,7 +82,7 @@ Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de ativid
 
 ![Guia Uso de critérios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## Definição de quando os resultados dos critérios estarão prontos para exibição {#section_03F328C07F234692B6D996DF745584B3}
+## Definição de quando os resultados dos critérios estarão prontos para exibição  {#section_03F328C07F234692B6D996DF745584B3}
 
 No diagrama de atividades, os cartões de Critérios agora indicam quando os resultados estão prontos para exibição. Saber se os resultados estão prontos para exibição ajuda a determinar se sua atividade está pronta para ser ativada. Saber se os resultados estão prontos para exibição também ajuda se houver algum problema com os critérios.
 
