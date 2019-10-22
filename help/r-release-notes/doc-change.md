@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -22,6 +22,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 22 de outubro de 2019 | [Critérios/algoritmos](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | Foi adicionada uma linha para Recomendações baseadas no usuário. |
+|  | [Perguntas frequentes sobre o Target e os públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Novas perguntas frequentes adicionadas: "Ao criar strings de URL complexas, o avalia [!DNL Target] o URL inteiro?" |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 19.10.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe Target/Standard/Premium 19.9.1 (30 de setembro de 2019)
