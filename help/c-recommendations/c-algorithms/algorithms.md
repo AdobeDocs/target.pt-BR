@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -31,7 +31,7 @@ Você seleciona um vertical do setor com base nos objetivos da atividade do Reco
 | Geração de lead/B2B/Serviços financeiros | Conversão sem compra |
 | Mídia/Publicação | Envolvimento |
 
-## Chave de recomendação {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 A chave de recomendação selecionada determina o tipo de critério. Há vários tipos de critérios, que são representados como cartões de critérios quando você configura uma atividade do [!DNL Recommendations].
 
@@ -43,6 +43,35 @@ A chave de recomendação selecionada determina o tipo de critério. Há vários
 | Popularidade | Recomende os itens mais populares, como os vídeos mais acessados em uma categoria relacionada ou os produtos que foram mais vistos no seu site.<ul><li>Popularidade</li></ul> |
 | Itens visualizados recentemente | Recomende os itens que um visitante viu mais recentemente, como os itens que o visitante viu na última vez em que visitou seu site, ou os artigos mais populares do momento.<br>O algoritmo de Itens visualizados recentemente retorna resultados específicos para a atividade de um visitante em um [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre eles, o algoritmo retornará apenas os itens visualizados recentemente do site apropriado.<br>Esse tipo de critério não é limitado por coleções.<ul><li>Itens visualizados recentemente</li></ul>**Observação:** você não pode usar os critérios de Itens visualizados recentemente para recomendações de backup.<br>Os itens/mídias visualizados recentemente agora podem ser filtrados para que somente os itens com um determinado atributo sejam exibidos.<ul><li>Os critérios visualizados recentemente são configuráveis, exatamente como os outros critérios nas recomendações.</li><li>Você pode utilizar [coleções](/help/c-recommendations/c-products/collections.md), [exclusões](/help/c-recommendations/c-products/exclusions.md) e [inclusões](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.</li></ul>Os possíveis casos de uso incluem:<ul><li>Uma empresa multinacional com diversas empresas pode ter itens de exibição de visitantes em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que os itens visualizados recentemente sejam exibidos no site de outra propriedade digital.</li></ul> |
 
+## Using a custom recommendations key {#custom-key}
+
+Também é possível basear as recomendações no valor de um atributo de perfil personalizado.
+
+>[!NOTE]
+>
+>Parâmetros de perfil personalizados podem ser passados para o Target por JavaScript, API ou integrações. Para obter mais informações sobre atributos de perfil personalizados, consulte Perfis [de](/help/c-target/c-visitor-profile/visitor-profile.md)visitante.)
+
+Por exemplo, suponha que você deseja exibir filmes recomendados com base no filme que um usuário adicionou mais recentemente à sua fila.
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+
+Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+
+![Caixa de diálogo Criar novo critério](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+
+Por exemplo, suponha que você deseja exibir os itens mais vendidos de uma marca favorita do usuário.
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+
+Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+
+A opção [!UICONTROL Agrupar por valor exclusivo de] é exibida. Selecione o atributo de entidade que corresponde à chave escolhida. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+
+[!DNL Recommendations] agora produz uma lista de "Mais Vendidos" para cada marca e mostra ao usuário a lista apropriada de "Mais Vendidos" com base no valor armazenado no atributo de perfil de Marca  Favorita.
+
+![Atributo de mais vendidos](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## Critérios/algoritmos {#criteria-algorithms}
 
