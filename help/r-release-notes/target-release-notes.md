@@ -8,7 +8,7 @@ title: Notas de versão do Target (pré-lançamento)
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -31,7 +31,7 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 | --- | --- |
 | ![Recomendações](/help/assets/premium.png) baseadas<br>no usuário do crachá Premium (24 de outubro de 2019) | Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante. Esses itens são geralmente chamados de "Recomendado para você".<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada na sessão e se torna mais personalizada à medida que o visitante navega em seu site.<br>Para obter mais informações, consulte "Recomendações baseadas no usuário" em [Critérios/Algoritmos](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
-### Melhorias, correções e alterações
+### Navegação na Adobe Experience Cloud
 
 * Ao efetuar logon no [!DNL Adobe Experience Cloud], você será direcionado para a nova navegação do cabeçalho. É muito semelhante à navegação anterior com a barra preta na parte superior, mas oferece as seguintes melhorias:
 
@@ -54,7 +54,7 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
    * No momento, as notificações para não [!DNL Target] estão disponíveis no menu suspenso [!UICONTROL Notificações] no cabeçalho.
    >[!NOTE]
    >
-   >Esses recursos não serão implementados de uma vez, nem serão lançados para todos os clientes juntos. Estaremos lançando esses recursos nos próximos dias, começando na versão [!DNL Target Standard/Premium] 19.10.1 (22 de outubro de 2019).
+   >Esses recursos não serão implementados de uma vez, nem serão lançados para todos os clientes juntos. Estaremos lançando esses recursos ao longo das próximas semanas, a partir da versão [!DNL Target Standard/Premium] 19.10.1 (22 de outubro de 2019).
    >
    >Como parte do lançamento da nova barra de navegação, você também notará algumas alterações no URL. Todos os links marcados anteriores continuam a funcionar, mas recomendamos que você marque novos links para uma abertura mais rápida.
 
