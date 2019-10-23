@@ -8,7 +8,7 @@ title: Perguntas frequentes sobre direcionamentos e públicos
 topic: Padrão
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
@@ -26,6 +26,10 @@ Por exemplo, na seguinte string de URL:
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
 a primeira instância do `Category` parâmetro é avaliada e o segundo `Category` parâmetro é ignorado.
+
+A prática recomendada é ter vários valores associados a uma única categoria, como mostrado abaixo:
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## Ao criar públicos-alvo, por que os públicos-alvo pré-construídos na Biblioteca do Target podem ser vistos em outras categorias? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
