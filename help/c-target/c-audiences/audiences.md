@@ -1,5 +1,5 @@
 ---
-description: Os públicos-alvo determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
+description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, direcionamento de público-alvo, geração de relatório de público-alvo, relatar público-alvo, segmento, parâmetros de perfil personalizado, definição de público-alvo, lista de público-alvo
 seo-description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 seo-title: Criar públicos-alvo no Adobe Target
@@ -8,14 +8,14 @@ title: Criar públicos-alvo
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
 
 # Criar públicos-alvo{#create-audiences}
 
-Os públicos-alvo determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
+Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 
 Os público-alvo são usados sempre que o direcionamento estiver disponível. Ao direcionar uma atividade, você pode selecionar um público-alvo reutilizável na lista de [!UICONTROL Públicos-alvo], [criar um público-alvo específico para a atividade](/help/c-target/creating-activity-only-audience.md) e direcioná-lo, ou [combinar vários públicos-alvo](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar um público-alvo ad hoc.
 
@@ -59,7 +59,7 @@ O seguinte cartão de definição de público-alvo é acessado clicando-se no í
 
 ![Atividades &gt; Definição de público](assets/audience_definition_list.png)
 
-Clique na guia [!UICONTROL Uso do público-alvo] para ver outras atividades que se referem àquele público-alvo, se aplicável. Dessa forma, é possível evitar um impacto acidental em outras atividades ao editar públicos-alvo. As informações incluem atividades ao vivo, atividades inativas, atividades arquivadas e atividades de sincronização. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e [públicos-alvo somente de atividades](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Clique na guia [!UICONTROL Uso do público-alvo] para ver outras atividades que se referem àquele público-alvo, se aplicável. Dessa forma, é possível evitar um impacto acidental em outras atividades ao editar públicos-alvo. As informações incluem atividades ao vivo, atividades inativas, atividades arquivadas e atividades de sincronização. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e  [públicos-alvo somente de atividades](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Se um público-alvo for combinado com outro público-alvo e o público-alvo combinado for usado para criar uma atividade, as informações de uso dos dois públicos-alvo exibirão a atividade recém-criada.
 
