@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -42,9 +42,11 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 1. Digite uma breve **[!UICONTROL Descrição]** dos critérios.
 
    A descrição deve ajudar a identificar o critério e pode incluir informações sobre o propósito do critério.
-1. Selecione um **[!UICONTROL Setor vertical]**.
+1. Selecione um **[!UICONTROL negócio vertical]**.
 
-   Outras opções de critério podem mudar dependendo do negócio vertical que você selecionar. 1. Selecione um **[!UICONTROL Tipo de página]**.
+   Outras opções de critério podem mudar dependendo do negócio vertical que você selecionar.
+
+1. Selecione um **[!UICONTROL Tipo de página]**.
 
    Você pode selecionar vários tipos de página.
 
@@ -59,7 +61,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
    Regras de inclusão ajudam a limitar os itens que são exibidos em suas recomendações. Consulte [Regras de inclusão](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Selecione o **[!UICONTROL local]** do seu arquivo CSV.
 
-   O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Clique em **[!UICONTROL Baixar o modelo CSV]para obter um arquivo CSV formatado corretamente.**
+   O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Clique em **[!UICONTROL Baixar o modelo CSV]** para obter um arquivo CSV formatado corretamente.
 
    Você tem duas opções de local:
 
@@ -72,7 +74,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
    >
    >As entidades com critérios personalizados (linhas) podem conter até 1.000 itens recomendados (colunas).
 
-As atualizações de critérios personalizados são "cumulativas" por padrão. Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valores chave existentes que não têm chaves especificadas no upload de CSV ainda estarão disponíveis para entrega e expirarão em 31 dias a partir do momento em que forem carregados pela última vez como parte do arquivo CSV.
+As atualizações de critérios personalizados são "cumulativas" por padrão. Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valores chave existentes que não têm teclas especificadas no upload de CSV ainda estarão disponíveis para entrega e expirarão em 31 dias a partir do momento em que forem carregados pela última vez, como parte do arquivo CSV.
 
 Entre em contato com o Atendimento ao Cliente para habilitar a configuração para descartar os resultados existentes que não estão inclusos upload CSV. Se essa configuração estiver habilitada, somente as chaves presentes no arquivo de feed CSV personalizado estarão disponíveis para entrega. Essa configuração se aplica a todos os critérios personalizados.
 
@@ -93,7 +95,7 @@ Você pode receber as mensagens de erro a seguir se o Target encontrar um proble
 | Diretório não encontrado | Forneça um diretório que exista no servidor. |
 | Arquivo não encontrado | Forneça o nome de um arquivo que exista no servidor dentro do diretório indicado. |
 
-## Vídeo de treinamento: Criar critérios no Recommendations (12:33)
+## Vídeo de treinamento: criar critérios no Recommendations (12:33)
 
 Este vídeo contém as seguintes informações:
 
