@@ -1,28 +1,32 @@
 ---
-description: No Target Standard, as métricas de sucesso são pré-configuradas para relatórios e rastreamento.
-keywords: Direcionamento, sucesso, métrica de conversão, métrica de pontuação da página, métrica de exibições de página, métricas de receita, métrica de tempo no site, valor estimado, configurações avançadas
-seo-description: No Target Standard, as métricas de sucesso são pré-configuradas para relatórios e rastreamento.
-seo-title: Métricas de sucesso
+description: No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
+keywords: Definição de metas;sucesso;métrica de conversão;métrica de pontuação de página;métrica de exibições de página;métrica de receita;métrica de tempo no site;valor estimado;configurações avançadas;métricas de sucesso
+seo-description: No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
+seo-title: Métricas de sucesso no Adobe Target
 solution: Target
 title: Métricas de sucesso
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # Métricas de sucesso{#success-metrics}
 
-No Target Standard, as métricas de sucesso são pré-configuradas para relatórios e rastreamento.
+No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
 
 As métricas de sucesso são parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta aumenta sua receita por visitante ou adicionar um item ao carrinho de compras. As métricas de sucesso podem ser úteis para descobrir problemas nos funis de registro, pedido ou compra, além de facilitar a descoberta de problemas no envolvimento de visitantes ou clientes.
 
 Ao manter a meta do [!DNL Target Standard] de simplificar a criação de testes, o aplicativo cuida de uma parte da configuração que é feita manualmente no [!DNL Target Classic]. Por exemplo, métricas de sucesso são pré-configuradas com as opções ideais.
 
-Por padrão, os eventos de conversão são definidos para "contar uma vez e manter o participante na atividade" no [!DNL Target Standard]. As conversões são contabilizadas somente uma vez, nenhuma conversão repetida é contabilizada e o visitante sempre vê o conteúdo de teste.
+By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. As conversões são contabilizadas somente uma vez, nenhuma conversão repetida é contabilizada e o visitante sempre vê o conteúdo de teste.
 
 As métricas de receita definidas para "Incrementar a contagem e manter o usuário na atividade" registram detalhes do pedido apenas para o primeiro pedido feito pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversões, mas não adicionam receita a RPV/AOV/Vendas e não serão incluídos no relatório de Detalhes do pedido.
+
+>[!NOTE]
+>
+>O comportamento padrão para atividades que usam o [Analytics como fonte](/help/c-integrating-target-with-mac/a4t/a4t.md) de geração de relatórios (A4T) é "Aumentar a contagem e manter o usuário na atividade" com "Uma vez por participante".
 
 As seguintes métricas estão disponíveis:
 
