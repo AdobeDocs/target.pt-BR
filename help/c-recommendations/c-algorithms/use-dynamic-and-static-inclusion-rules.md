@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 32fea099784cfc481028358c2270a40a98696a33
 
 ---
 
@@ -29,7 +29,7 @@ Ao [criar um critério](../../c-recommendations/c-algorithms/create-new-algorith
 
 As opções disponíveis variam, dependendo do vertical do setor selecionado e da chave de recomendação.
 
-## Adicionar regras de filtragem às promoções {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Adicionar regras de filtragem às promoções  {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Ao [criar uma promoção](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), selecione **[!UICONTROL Promover por atributo]** e clique em **[!UICONTROL Adicionar regra de filtragem]**.
 
@@ -76,7 +76,7 @@ As promoções e os critérios dinâmicos são muito mais eficientes do que os e
 * episódios posteriores na mesma temporada
 * livros anteriores em uma série
 
-## Lidar com valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Lidar com valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros  {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
 Você pode escolher várias opções para lidar valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros para critérios e promoções de saída.
 
@@ -92,167 +92,52 @@ Para selecionar a ação desejada, passe o mouse sobre o ícone de engrenagem (!
 | Não mostrar nenhum resultado para este critério | Correspondência de atributos de entidade<br>Correspondência de atributo de perfil<br>Correspondência de parâmetros | Esta é a ação padrão para a Correspondência de atributos de entidade.<br>Esta ação é a forma como o Target lidava com os valores em branco antes da adição desta opção: nenhum resultado será mostrado para este critério. |
 | Usar um valor estático | Correspondência de atributos de entidade<br>Correspondência de atributo de perfil<br>Correspondência de parâmetros | Se um valor estiver em branco, você poderá optar por usar um valor estático. |
 
-Como exemplo de como lidar com valores em branco, considere o [Cenário 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) abaixo:
+## Exemplos de correspondência de atributos de perfil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-## Cenários de filtro dinâmico {#section_9873E2F22E094E479569D05AD5BB1D40}
+[!UICONTROL A Correspondência] de atributos de perfil permite recomendar somente os itens que correspondem a um atributo do perfil do visitante, como nos exemplos abaixo.
 
-**Cenário 1:** em vez de corresponder um item em um catálogo a outros itens usando um filtro estático, você pode usar um filtro dinâmico para corresponder um item em um catálogo a um atributo do perfil do visitante.
-
-Por exemplo, você pode usar a opção de [!UICONTROL Correspondência de atributos de perfil] para criar uma regra que recomenda itens apenas onde a marca é igual ao valor ou ao texto armazenado no `profile.favoritebrand`. Com essa regra, se um visitante estiver olhando para shorts de corrida de uma marca específica, apenas as recomendações exibirão a correspondência dessa marca favorita do usuário (o valor armazenado em `profile.favoritebrand` no perfil do visitante).
-
-**Cenário 2:** antes do Target adicionar o recurso para usar informações de atributos do perfil de um visitante, caso estivesse configurando anúncios de emprego que seriam exibidos apenas para candidatos de um local específico e com um diploma universitário específico, você teria que configurar muitas atividades com diferentes públicos-alvo (uma para cada cidade e diploma). Se você tiver anúncios de emprego em muitas cidades, essa tarefa se tornou complexa.
-
-Agora você pode usar as regras de inclusão para corresponder a localização e o diploma de um candidato a emprego de seu perfil de visitante a um anúncio de emprego, conforme mostrado no exemplo a seguir:
-
-![](assets/job_seeker.png)
-
-O anúncio de emprego no lado esquerdo exige que o visitante esteja em São Francisco, Nova York ou Los Angeles (`entity.jobCity`) e tenha um diploma de BSCS ou MBA (`entity.requiredDegree`).
-
-Este candidato a emprego no lado direito está em Los Angeles (`profile.usersCity`) e tem um diploma de MBA (`profile.degree`).
-
-Usando um filtro dinâmico com correspondência de atributos de perfil, você poderá criar o filtro exibido na parte inferior da ilustração acima, que recomendará apenas anúncios de emprego para os quais esse visitante se qualifica, com base na localização e no diploma.
-
-Os critérios para esses filtros são os seguintes:
+**Exemplo 1: Recomendar itens da marca** favorita do usuário. Por exemplo, você pode usar a opção Correspondência [!UICONTROL de atributos de] perfil para criar uma regra que recomenda itens somente onde a marca seja igual ao valor ou texto armazenado em `profile.favoritebrand`. Com essa regra, se um visitante estiver olhando para shorts de corrida de uma marca específica, apenas as recomendações exibirão a correspondência dessa marca favorita do usuário (o valor armazenado em `profile.favoritebrand` no perfil do visitante).
 
 ```
-entity.jobCity - equals - the value/text stored in - profile.usersCity
+Profile Attribute Matching
+brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-e
+**Exemplo 2: Combinar empregos com os que procuram** emprego Suponha que você está tentando combinar empregos com os que procuram emprego. Você deseja recomendar somente trabalhos que estejam na mesma cidade que o candidato.
+
+Você pode usar as regras de inclusão para corresponder a localização de um usuário do perfil do visitante a uma lista de tarefas, como no exemplo a seguir:
 
 ```
-entity.requiredDegree - equals - the value/text stored in - profile.degree
+Profile Attribute Matching
+jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
-Os filtros dinâmicos que usam correspondência de atributos de perfil permitem que você faça mais com menos atividades, conforme mostrado abaixo:
+## Exemplos de Correspondência de Atributos de Entidade
 
-![](assets/dynamic_before_and_after.png)
+[!UICONTROL A Correspondência] de atributos de entidade permite que você recomende somente os itens que correspondem a um atributo do item que o usuário está visualizando no momento, o item que o usuário visualizou mais recentemente, o item que o usuário comprou mais recentemente, o item que o usuário visualizou mais frequentemente ou de um item armazenado em um atributo personalizado no perfil do visitante, como nos exemplos abaixo.
 
-O diagrama na parte superior da ilustração acima mostra como funcionam os filtros dinâmicos que usam os atributos de perfil. Você pode criar um público-alvo que usa critérios (no cenário acima, cidade e diploma) para exibir um anúncio de emprego para a qual o visitante se qualifica. Este filtro funciona para um número quase infinito de possibilidades em termos de localização e diploma.
-
-Os diagramas na parte inferior da ilustração representam apenas dois dos muitos públicos-alvo que você teria que definir caso não estivesse configurando um critério ou uma promoção com filtros dinâmicos usando os atributos de perfil. Você teria que definir um público-alvo diferente para cada cidade e para cada diploma. O número de públicos-alvo necessário pode rapidamente tornar-se não gerenciável, principalmente se você tiver um grande número de anúncios de emprego em várias cidades.
-
-Sem usar os atributos de perfil, seus públicos-alvo e experiências seriam parecidos com a metade superior da ilustração a seguir, mas com pares adicionais de público-alvo/experiência para cada cenário concebível.
-
-![](assets/dynamic_audience_experience_pairs.png)
-
-Os filtros dinâmicos que usam atributos de perfil, que correspondem atributos de entidade a atributos de usuário, permitem a configuração de um público-alvo que, dinamicamente e em tempo real, fornece a experiência desejada, conforme mostrado na metade inferior da ilustração acima.
-
-Contanto que você tenha as informações exigidas incorporadas em cada anúncio de emprego e esteja capturando as informações necessárias nos perfis de usuários, a criação e o gerenciamento de públicos-alvo e experiências são bastante simplificados.
-
-**Cenário 3:** uma empresa esportiva quer mostrar artigos em seu site de equipes que um usuário acha interessante. Todos os artigos poderiam ter um campo com `entity.featuredTeams`, que inclui todas as equipes discutidas no artigo. Cada atributo de perfil pode ter uma lista de equipes favoritas nas quais o usuário está se "inscrevendo".
-
-Uma regra de inclusão de amostra poderia se parecer com a seguinte:
-
-Inclua apenas quando `entity.featuredTeam` tiver um ou mais valores correspondentes a `profile.favoriteTeams`.
-
-Ao considerar os exemplos a seguir, lembre-se de que pelo menos um valor de cadeia de caracteres inteiro precisa ter correspondência (completamente). Se nenhuma das cadeias de caracteres corresponder, não haverá correspondência. Observe o desacoplamento dos atributos de entidade nas regras de correspondência. Isso permite a correspondência entre diferentes campos de metadados.
-
-Exemplos/descrições
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics"`
-
-Considerado uma correspondência, pois "Athletics" é igual a, apesar de "Red Sox" não ser.
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Considerado uma correspondência, pois "Athletics" e "Red Sox" são iguais, embora não seja necessário que ambos os times sejam correspondentes.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Considerado uma correspondência, pois "Athletics" é igual a, apesar de "Red Sox" não ser.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletic"`
-
-Não corresponde, pois "Athletics" (plural) não é igual a "Athletic" (singular).
-
-Alternativamente, você pode usar "contém", em vez de "equals" para fazer uma correspondência.
-
-`"entity.featuredTeam" - "Athletic" equals "profile.favoriteTeams" - "Athletics"`
-
-Não corresponde, pois "Athletic" (singular) não é igual a "Athletics" (plural).
-
-Alternativamente, você poderia usar "começa com", em vez de "equals" para fazer uma correspondência.
-
-**Cenário 4:** a ilustração a seguir demonstra como usar os operadores "equals" e "is between" para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, uma empresa de vestuário esportivo pode promover calçados de corrida mais caros em um esforço de fazer uma venda agregada a um visitante que esteja procurando shorts de corrida.
-
-![](assets/dynamic3.png)
-
-As seguintes regras são usadas neste exemplo:
+**Exemplo 3: Oferecendo um produto** mais caro Suponha que você seja um varejista de roupas e queira incentivar os usuários a considerar itens com preços mais altos e, portanto, mais lucrativos. Você pode usar os operadores "igual" e "é entre" para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, um visitante que vê uma empresa em andamento pode promover tênis de corrida mais caros em um esforço para aumentar a venda de um visitante que observa tênis de corrida.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
 And 
+Entity Attribute Matching
 brand - equals - current item's - brand 
 And 
+Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
->[!NOTE]
->
->Não é possível alterar a chave em uma promoção dinâmica com várias regras (a terceira lista suspensa nas duas primeiras regras denominada "Item atual" na ilustração).
-
-**Cenário 5:** a segunda ilustração demonstra como usar os operadores "equals" e "is between" para promover itens mais caros que sejam da mesma categoria, da mesma marca e de marca própria. Por exemplo, uma empresa de material de escritório pode promover cartuchos de toner mais caros, da mesma marca e da marca própria da empresa, em um esforço de fazer uma venda agregada a um visitante que esteja à procura de impressoras.
-
-![](assets/dynamic4.png)
-
-As seguintes regras são usadas neste exemplo:
+**Exemplo 4: Promovendo produtos** de etiquetas privadas Você pode combinar filtros dinâmicos e estáticos para promover produtos de etiquetas privadas. Por exemplo, uma empresa de fornecimento de escritórios pode promover cartuchos de toner da marca da casa da empresa para promover uma venda mais lucrativa para um visitante que olha para toner — e promover canetas da marca da casa da empresa para conduzir uma venda mais lucrativa para um visitante que olha para canetas.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
-And 
-IsHouseBrand - equals - true 
-And 
-value - is between - 100% and 1000% of - current item's - value
+And
+Static Filter
+IsHouseBrand - equals - true
 ```
-
-Observe que este exemplo usa duas regras dinâmicas e uma regra estática.
-
-**Cenário 6:** a terceira ilustração demonstra como usar o operador "não é igual a" para promover uma série que não seja igual à série que o visitante está visualizando no momento. Por exemplo, um site de mídia pode promover uma série de televisão diferente da série que o visitante está visualizando no momento.
-
-![](assets/dynamic5.png)
-
-A seguinte regra é usada neste exemplo:
-
-```
-series - does not equal - current item's - series
-```
-
-**Cenário 7:** a quarta ilustração demonstra como promover itens de acessórios compatíveis com o último item adquirido pelo visitante. Por exemplo, se alguém comprou uma nova TV, você pode promover dinamicamente um cabo de HDMI.
-
-![](assets/dynamic1.png)
-
-As seguintes regras são usadas neste exemplo:
-
-```
-id - equals - last purchased item's - compatibleAccessoryids
-```
-
-**Cenário 8:** a próxima ilustração demonstra como promover itens que estejam à venda entre 90 e 110% do valor do item que o visitante está visualizando no momento. Por exemplo, se alguém estiver procurando por uma TV, você poderá promover dinamicamente TVs semelhantes que estejam à venda na mesma faixa de preço.
-
-![](assets/dynamic2.png)
-
-As seguintes regras são usadas neste exemplo:
-
-```
-salesPrice - is between - 90% and 110% of - current item's - price
-```
-
-**Cenário 9:** considere o seguinte cenário de um site de mídia esportiva sobre como lidar com valores em branco, como explicado na seção [Lidar com valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) acima:
-
-A equipe de conteúdo de um site de mídia esportiva deseja mostrar aos usuários o conteúdo de seus times favoritos. Se um usuário especificou um time favorito, a equipe mostrará a mídia para esse time. Se um usuário não tiver especificado um time favorito, a equipe poderá usar a lista suspensa "Se *x* estiver em branco" para fazer um dos seguintes procedimentos:
-
-* Use a opção [!UICONTROL Ignorar esta regra de filtragem] para ignorar completamente o filtro de time, como mostrado na ilustração a seguir:
-
-   ![](assets/missing1.png)
-
-* Use a opção [!UICONTROL Não mostrar nenhum resultado para este critério] para não exibir nenhuma mídia como parte desse critério, como mostrado na ilustração a seguir:
-
-   ![](assets/missing7.png)
-
-* Use a opção [!UICONTROL Usar um valor estático] para exibir a mídia de um time específico (por exemplo, 49ers), como na ilustração a seguir:
-
-   ![](assets/missing10.png)
 
 ## Avisos {#section_A889FAF794B7458CA074DEE06DD0E345}
 
@@ -264,7 +149,7 @@ A equipe de conteúdo de um site de mídia esportiva deseja mostrar aos usuário
 
 A tabela a seguir mostra regras em vigor e regras que podem não ser compatíveis durante o tempo de execução:
 
-| Regras compatíveis | Possíveis regras incompatíveis |
+| Regras compatíveis | Regras potencialmente incompatíveis |
 |--- |--- |
 | valor - está entre - 90% e 110% do item atual - salesValue | salesValue - está entre - 90% e 110% do item atual - valor |
 | valor - está entre - 90% e 110% do item atual - valor | clearancePrice - está entre - 90% e 110% do item atual - margem |
