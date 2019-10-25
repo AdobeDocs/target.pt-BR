@@ -1,6 +1,6 @@
 ---
 description: 'Informações sobre a função adobe.target.applyOffers() para at.js. '
-keywords: adobe.target.applyOffers;applyOffers;apply offer;apply offer;at.js;functions;function
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;aplicar ofertas;at.js;funções;função
 seo-description: Informações sobre a função adobe.target.applyOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 seo-title: Informações sobre a função adobe.target.applyOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introdução
 title: adobe.target.applyOffers(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -23,10 +23,14 @@ Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.t
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| selector | String | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML, onde [!DNL Target] deve colocar o conteúdo da oferta. Se nenhum seletor for fornecido, o [!DNL Target] presume que o elemento HTML que devemos usar é HTML HEAD. |
+| selector | String    | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML, onde [!DNL Target] deve colocar o conteúdo da oferta. Se nenhum seletor for fornecido, o [!DNL Target] presume que o elemento HTML que devemos usar é HTML HEAD. |
 | Resposta | Objeto | Sim | Objeto response de `getOffers()`.<br>Consulte Tabela de solicitações abaixo. |
 
 ## Resposta
+
+>[!NOTE]
+>
+>Consulte a documentação [da API de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) entrega para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
 
 | Nome do campo | Descrição |
 | --- | --- |
