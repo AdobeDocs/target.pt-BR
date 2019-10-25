@@ -8,7 +8,7 @@ subtopic: Introdução
 title: adobe.target.getOffers(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -28,6 +28,10 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | timeout | Número | Não | tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
 
 ## Solicitação
+
+>[!NOTE]
+>
+>Consulte a documentação [da API de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) entrega para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
 
 | Nome do campo | Obrigatório? | Limitações | Descrição |
 | --- | --- | --- | --- |
