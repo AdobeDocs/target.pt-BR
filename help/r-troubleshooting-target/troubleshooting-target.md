@@ -8,7 +8,7 @@ title: Solução de problemas do Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -70,6 +70,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 * [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Perguntas frequentes sobre direcionamentos e públicos](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md)
+* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
 
 ## Conteúdo
 
