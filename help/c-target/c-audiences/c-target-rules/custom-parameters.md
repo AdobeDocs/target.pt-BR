@@ -8,7 +8,7 @@ title: Parâmetros personalizados
 topic: Padrão
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -52,7 +52,8 @@ O [cartão pop-up dos detalhes de definição](../../../c-target/c-audiences/aud
 
 ## Considerações {#considerations}
 
-* Os públicos-alvo e as atividades são avaliados para uma mbox específica. Por exemplo, se a mbox global passar um certo parâmetro, mas a mbox regional não passar, a meta de atividade/público-alvo desse parâmetro não será qualificada na mbox regional.
+* Os públicos-alvo e as atividades são avaliados para uma mbox específica. Por exemplo, se a mbox global transmitir determinado parâmetro, mas a mbox regional não, o direcionamento de atividades/públicos-alvo não será qualificado para a mbox regional.
+* A definição de metas não é avaliada em parâmetros internos da mbox, como mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId e mboxVersion.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
