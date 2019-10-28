@@ -2,13 +2,13 @@
 description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
 keywords: solução de problemas do target, solucionar problemas no target
 seo-description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
-seo-title: Solução de problemas do Target
+seo-title: Solução de problemas do Adobe Target
 solution: Target
 title: Solução de problemas do Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 * [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Perguntas frequentes sobre direcionamentos e públicos](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Atributos de script de perfil](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [Páginas do site](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## Conteúdo
 
