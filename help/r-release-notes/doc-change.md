@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -22,7 +22,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 29 de outubro de 2019 | [Similaridade de conteúdo](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Foi adicionada uma observação. |
-|  | [Parâmetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Adicionado um novo item em "Considerações" para explicar que a definição de metas não é avaliada em parâmetros internos da mbox. |
+| 25 de outubro de 2019 | [Parâmetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Adicionado um novo item em "Considerações" para explicar que a definição de metas não é avaliada em parâmetros internos da mbox. |
 |  | [Uso das regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Tópico atualizado completamente e exemplos desatualizados removidos. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Foi adicionada uma observação vinculando à documentação da API de entrega do Target para ajudá-lo a entender os tipos disponíveis para solicitações/respostas (array, string e assim por diante). |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Foi adicionada uma observação vinculando à documentação da API de entrega do Target para ajudá-lo a entender os tipos disponíveis para solicitações/respostas (array, string e assim por diante). |
