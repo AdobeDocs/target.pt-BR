@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ Clique na guia **[!UICONTROL Informações do algoritmo]** para exibir as inform
 Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de atividades que fazem referência aos critérios selecionados. O cartão lista atividades ativas e inativas. Clique nas listas suspensas atividades Ativas ou Inativas para exibir toda a lista de atividades que fazem referência a esse critério. Você pode clicar no link da atividade para abri-la para edição.
 
 ![Guia Uso de critérios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-No diagrama de atividades, os cartões de Critérios agora indicam quando os resultados estão prontos para exibição. Saber se os resultados estão prontos para exibição ajuda a determinar se sua atividade está pronta para ser ativada. Saber se os resultados estão prontos para exibição também ajuda se houver algum problema com os critérios.
-
->[!NOTE]
->
->Para obter uma discussão sobre tempos de carregamento, consulte "Tempo de processamento de critérios esperado" em [Criação de critérios](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-
-A ilustração a seguir mostra o diagrama de atividades na página Visão Geral de uma atividade do Recommendations. Você também pode ver o diagrama de atividades com os resultados de status dos critérios da etapa 2 durante o fluxo de trabalho de criação das atividades.
-
-![Status dos critérios na página Visão geral](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-Os resultados do status incluem o seguinte: Resultados prontos, Resultados não prontos e Falha no feed, conforme ilustrado no diagrama a seguir:
-
-![](assets/criteria_status_multi.png)
 
