@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -442,15 +442,15 @@ Usar similaridade de conteúdo para gerar recomendações é especialmente efica
 
 Quando você selecionar **[!UICONTROL Itens]**/ **[!UICONTROL Mídia com atributos similares]**, você terá a opção de criar regras para aumentar ou reduzir a importância de atributos específicos do item em determinadas recomendações. Para itens como livros, você pode querer ampliar a importância de atributos como *gênero*, *autor*, *série*, e assim em diante, para recomendar livros similares.
 
->[!NOTE]
->
->O algoritmo de semelhança de conteúdo pode usar amostragem aleatória na computação de similaridade entre itens. Como resultado, as classificações de similaridade entre itens podem variar entre execuções de algoritmos.
-
 ![](assets/ContentSimilarity.png)
 
 Como a similaridade de conteúdo usa palavras-chave para comparar itens, alguns atributos, como *mensagem* ou *descrição*, podem introduzir "ruído" à comparação. Você pode criar regras para ignorar estes atributos.
 
 Por padrão, todos atributos são definidos como *Linha de base*. Você não precisa criar uma regra a não ser que queira alterar esta configuração.
+
+>[!NOTE]
+>
+>O algoritmo de semelhança de conteúdo pode usar amostragem aleatória na computação de similaridade entre itens. Como resultado, as classificações de similaridade entre itens podem variar entre execuções de algoritmos.
 
 ## Vídeo de treinamento: criar critérios no Recommendations (12:33)
 
