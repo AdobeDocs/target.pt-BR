@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -106,7 +106,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
    Regras de inclusão determinam quais itens serão inclusos em suas recomendações. As opções disponíveis dependem do seu negócio vertical.
 
-   Para obter mais detalhes, consulte [Regras de inclusão](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
+   Para obter mais detalhes, consulte  [Regras de inclusão](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
 1. Configurar **[!UICONTROL ponderação de atributos]**.
 
@@ -118,21 +118,21 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 
    Se você está criando uma nova atividade do [!UICONTROL Recommendations] ou editando uma atividade existente, a caixa de seleção **[!UICONTROL Salvar critérios para mais tarde]** será selecionada por padrão. Se você não quer usar os critérios em outras atividades, desmarque a caixa de seleção antes de salvar.
 
-## Tempo de processamento dos critérios esperado {#process-time}
+## Tempo de processamento dos critérios esperado  {#process-time}
 
-Após salvar uma Atividade que contém um Critério, [!DNL Target] calcula as recomendações com base na Coleção e nos Critérios selecionados. Esse cálculo leva algum tempo para ser executado e o período é diferente com base na lógica de recomendação selecionada, intervalo de dados, número de itens no catálogo, quantidade de dados comportamentais que seus clientes geraram e a fonte de dados comportamentais selecionada. A fonte de dados comportamental tem o maior impacto no tempo de processamento, da seguinte forma:
+Após salvar uma Atividade que contém um Critério, [!DNL Target] calcula as recomendações com base na Coleção e nos Critérios selecionados. Esse cálculo leva algum tempo para ser executado e o período difere com base na lógica de recomendação selecionada, no intervalo de dados, no número de itens no catálogo, na quantidade de dados comportamentais gerados pelos clientes e na fonte de dados comportamentais selecionada. A fonte de dados comportamentais tem o maior impacto no tempo de processamento, da seguinte maneira:
 
-### caixas de entrada
+### mboxes
 
-Se as mboxes forem selecionadas como a fonte de dados comportamental, depois de criadas, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados&#x200B;e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração de critérios geralmente resulta na nova execução do algoritmo. Dependendo da alteração feita, as recomendações calculadas anteriormente podem estar disponíveis até que uma nova execução seja concluída ou, para alterações maiores, apenas o backup ou o conteúdo padrão estejam disponíveis até que uma nova execução seja concluída. Se um algoritmo não for modificado, ele será executado novamente a [!DNL Target] cada 12 a 48 horas, dependendo do intervalo de dados selecionado.
+Se as mboxes forem selecionadas como a fonte de dados comportamentais, depois de criados, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados&#x200B; e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios geralmente resulta na repetição do algoritmo. Dependendo da alteração efetuada, as recomendações calculadas anteriormente podem estar disponíveis até que uma nova execução seja concluída ou. para alterações maiores, somente o backup ou o conteúdo padrão estará disponível até que uma nova execução seja concluída. Se um algoritmo não for modificado, ele será executado automaticamente pelo [!DNL Target] a cada 12-48 horas, dependendo do intervalo de dados selecionado.
 
 ### Adobe Analytics
 
-If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+Se os critérios usarem o [!DNL Adobe Analytics] como a fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios.
 
-* **Configuração**&#x200B;única do conjunto de relatórios: A primeira vez que um conjunto de relatórios é usado com uma determinada janela de pesquisa de intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para baixar totalmente os dados comportamentais do conjunto de relatórios selecionado de [!DNL Analytics]. Esse período depende da carga do [!DNL Analytics] sistema.
-* **Critérios novos ou editados usando um conjunto** de relatórios já disponível: Ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado com [!DNL Target Recommendations], com um intervalo de dados igual ou inferior ao intervalo de dados selecionado, os dados estarão imediatamente disponíveis e nenhuma configuração única será necessária. Nesse caso, ou se as configurações de um algoritmo forem editadas sem modificar o conjunto de relatórios ou o intervalo de dados selecionado, o algoritmo será executado ou executado novamente dentro de 12 horas.
-* **O algoritmo em andamento executa**: Os dados fluem de [!DNL Analytics] para [!DNL Target Recommendations] diariamente. Por exemplo, para a recomendação Afinidade  visualizada, quando um usuário exibe um produto, uma chamada de rastreamento de exibição do produto é passada para [!DNL Analytics] perto de tempo real. Os [!DNL Analytics] dados são enviados para o início [!DNL Target] do dia seguinte e [!DNL Target] executam o algoritmo em menos de 12 horas.
+* **Configuração única do conjunto de relatórios**: a primeira vez que um conjunto de relatórios é usado com determinada janela de lookback do intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para baixar completamente os dados comportamentais do conjunto de relatórios selecionado no [!DNL Analytics]. Esse período depende da carga do sistema do [!DNL Analytics].
+* **Critérios novos ou editados usando um conjunto de relatórios já disponível**: ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado com o [!DNL Target Recommendations], com um intervalo de dados igual ou menor que o intervalo de dados selecionado, os dados serão imediatamente disponibilizados e a configuração única não será necessária. Nesse caso ou se as configurações de um algoritmo forem editadas, enquanto o conjunto de relatórios ou intervalo de dados selecionado não for modificado, o algoritmo será executado ou executado novamente em 12 horas.
+* **O algoritmo contínuo é executado**: os dados fluem do [!DNL Analytics] para [!DNL Target Recommendations] diariamente. Por exemplo, para a recomendação [!UICONTROL Afinidade visualizada], quando um usuário exibe um produto, uma chamada de rastreamento de exibições do produto é passada para o [!DNL Analytics] quase em tempo real. Os dados do [!DNL Analytics] são encaminhados para o [!DNL Target] no início do dia seguinte e o [!DNL Target] executa o algoritmo em menos de 12 horas.
 
 ## Basear a recomendação em uma chave de recomendação {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -191,7 +191,7 @@ Páginas de categoria única.
 
 NÃO use em páginas de resultados de busca nulos.
 
-### Atributo personalizado {#custom}
+### Atributo personalizado  {#custom}
 
 Recomendação determinada por um item que é armazenado no perfil do visitante, utilizando os atributos usuário.*x* ou perfil.*x* atributos.
 
@@ -331,7 +331,7 @@ A recomendação é determinada pela popularidade de itens em seu site. A popula
 
 Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
 
-### Itens visualizados recentemente {#recently-viewed}
+### Itens visualizados recentemente  {#recently-viewed}
 
 Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante viu, baseado no número de slots no design.
 
@@ -343,7 +343,7 @@ Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros s
 
 >[!NOTE]
 >
->Itens visualizados recentemente respeita as configurações globais de Exclusões e a configuração de Coleção selecionada para a Atividade. Se um item for excluído por uma Exclusão global, ou não estiver contido na Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração "Todas as coleções" geralmente deve ser usada.
+>Os Itens visualizados recentemente respeitam as configurações globais de Exclusões e a configuração de Coleção selecionada para a Atividade. Se um item for excluído por uma Exclusão global ou não fizer parte da Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração “Todas as coleções” geralmente deve ser usada.
 
 ## Regras de inclusão {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -442,13 +442,17 @@ Usar similaridade de conteúdo para gerar recomendações é especialmente efica
 
 Quando você selecionar **[!UICONTROL Itens]**/ **[!UICONTROL Mídia com atributos similares]**, você terá a opção de criar regras para aumentar ou reduzir a importância de atributos específicos do item em determinadas recomendações. Para itens como livros, você pode querer ampliar a importância de atributos como *gênero*, *autor*, *série*, e assim em diante, para recomendar livros similares.
 
+>[!NOTE]
+>
+>O algoritmo de semelhança de conteúdo pode usar amostragem aleatória na computação de similaridade entre itens. Como resultado, as classificações de similaridade entre itens podem variar entre execuções de algoritmos.
+
 ![](assets/ContentSimilarity.png)
 
 Como a similaridade de conteúdo usa palavras-chave para comparar itens, alguns atributos, como *mensagem* ou *descrição*, podem introduzir "ruído" à comparação. Você pode criar regras para ignorar estes atributos.
 
 Por padrão, todos atributos são definidos como *Linha de base*. Você não precisa criar uma regra a não ser que queira alterar esta configuração.
 
-## Vídeo de treinamento: Criar critérios no Recommendations (12:33)
+## Vídeo de treinamento: criar critérios no Recommendations (12:33)
 
 Este vídeo contém as seguintes informações:
 
