@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 30 de outubro de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão 19.10.2 do Target Premium (31 de outubro de 2019). |
 | 29 de outubro de 2019 | [Similaridade de conteúdo](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Foi adicionada uma observação. |
 |  | [Visualizar e iniciar sua atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Novo tópico. |
 | 25 de outubro de 2019 | [Parâmetros personalizados](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Adicionado um novo item em "Considerações" para explicar que a definição de metas não é avaliada em parâmetros internos da mbox. |
