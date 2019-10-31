@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/pt-BR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -120,7 +120,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
          + [Cookies da mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [Detalhes da versão da mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
          + Entender a mbox global {#global-mbox}
-            + [Entender a análise de big data global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+            + [Entender a visão geral da mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
             + [Personalizar uma mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
             + [Usar uma mbox global a partir de uma implementação existente](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
             + [Envio de parâmetros para uma mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
@@ -360,6 +360,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
       + [Upload dos critérios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Uso das regras de inclusão estática e dinâmica](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Usar uma recomendação de backup](c-recommendations/c-algorithms/backup-recs.md)
+      + [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + Projeto {#recommendations-design}
       + [Visão geral do design](c-recommendations/c-design-overview/design-overview.md)
       + [Criar um design](c-recommendations/c-design-overview/create-design.md)
