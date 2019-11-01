@@ -7,7 +7,7 @@ solution: Target
 title: Notas de versão - SDK do Target Node.js
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
 
 ---
 
@@ -21,6 +21,8 @@ O SDK do Target Node.js permite que você implante o lado do [!DNL Target] servi
 Esse SDK do Node.js ajuda você a se integrar facilmente [!DNL Target] com outras [!DNL Adobe Experience Cloud] soluções, como [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]e [!DNL Adobe Audience Manager].
 
 O SDK do Node.js apresenta práticas recomendadas e remove complexidades ao integrar-se [!DNL Target] por meio de nossa API de entrega, para que suas equipes de engenharia possam se concentrar na lógica comercial.
+
+Saiba mais sobre o SDK do Target Node.js no Blog técnico da Adobe - [Abrir Seleção de Fornecedor do Novo SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc)do Adobe Target Node.js.
 
 ## Versão 1.0.0 (9 de outubro de 2019)
 
