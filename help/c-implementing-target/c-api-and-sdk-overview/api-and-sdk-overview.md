@@ -8,7 +8,7 @@ title: 'Lado do servidor: implementação do Target'
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
 
 ---
 
@@ -28,7 +28,7 @@ A experiência não precisa ser exibida em um navegador. A experiência pode ser
 
 As seções a seguir fornecem mais informações sobre as várias APIs e o SDK do NodeJS:
 
-## APIs de entrega de serviços de servidor
+## APIs de entrega no lado do servidor
 
 Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
@@ -50,6 +50,13 @@ O Node.js SDK é um kit sofisticado de desenvolvimento de software que remove as
 
 * **** Suporte para busca prévia e notificações que permitem otimizar o desempenho por meio do cache: Você pode usar o SDK Node.js para recuperar experiências e armazená-las em cache localmente no servidor Node.js com o objetivo de minimizar as chamadas do servidor para [!DNL Target] e otimizar o desempenho do aplicativo.
 * **** Capacidade de recuperar atividades criadas pelo VEC: Recupere atividades criadas pelo VEC no servidor. A resposta que contém atividades criadas por VEC tem seletores que podem ser usados para ocultar apenas partes da sua página que precisam ser personalizadas. Isso ajuda a otimizar a métrica [](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Primeira pintura em Conteúdo da sua página, que é um KPI importante para sua empresa atingir uma pontuação alta no sistema [Google PageRank](https://en.wikipedia.org/wiki/PageRank) .
+
+## Target Java SDK
+
+O Java SDK é um kit sofisticado de desenvolvimento de software que remove as complexidades do gerenciamento de cookies, sessões e integração com [!DNL Adobe Experience Cloud] soluções, como [!DNL Adobe Analytics], o [!DNL Experience Cloud Visitor ID Service]e [!DNL Adobe Audience Manager]. Em segundo plano, o Java SDK usa a `/rest/v1/delivery` API. Estes são alguns recursos notáveis que são suportados no Java SDK:
+
+* **Suporte para busca prévia e notificações que permitem otimizar o desempenho por meio do cache**: Você pode usar o JavaSDK para recuperar experiências e armazená-las em cache localmente em seu servidor Java com o objetivo de minimizar as chamadas do servidor para [!DNL Target] e otimizar o desempenho do aplicativo.
+* **Capacidade de recuperar atividades** criadas pelo VEC: Recupere atividades criadas pelo VEC no servidor. A resposta que contém atividades criadas por VEC tem seletores que podem ser usados para ocultar apenas partes da sua página que precisam ser personalizadas. Isso ajuda a otimizar a métrica [Primeira pintura](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) de conteúdo da sua página, que é um KPI importante para a sua empresa atingir uma pontuação alta no sistema [Google PageRank](https://en.wikipedia.org/wiki/PageRank) .
 
 ## APIs do Target Recommendations
 
