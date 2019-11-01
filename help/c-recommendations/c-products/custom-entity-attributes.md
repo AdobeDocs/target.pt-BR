@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
 
 ---
 
@@ -122,13 +122,13 @@ using the Delivery and Save entities APIs.
 
 Quando você aplica operadores a atributos personalizados de vários valores em regras de inclusão de algoritmo, regras de catálogo e regras de exclusão, o resultado será *true* se pelo menos um valor na lista passar na operação (booleano *ou*).
 
-No exemplo a seguir, a regra é `message contains abc`.
+No exemplo a seguir, a regra é  `message contains abc`.
 
 Caso 1: `entity.genre = ["ab", "bc", "de"]`. O resultado é false porque nenhum valor contém `abc`.
 
 Caso 2: `entity.genre = ["abcde","de","ef"]`. O resultado é true porque contém um valor `abc`.
 
-Para operadores negativos, todos os valores de atributo devem passar (booleano *e*). Por exemplo, se o operador for `notEquals`, o resultado será *false* se qualquer valor for compatível.
+Para operadores negativos, todos os valores de atributo devem passar (booleano *e*). Por exemplo, se o operador for  `notEquals`, o resultado será *false* se qualquer valor for compatível.
 
 Consulte a tabela abaixo para obter informações sobre o comportamento do operador em regras de inclusão de algoritmo, regras de catálogo e regras de exclusão.
 
@@ -150,7 +150,7 @@ Consulte a tabela abaixo para obter informações sobre o comportamento do opera
 >
 >*Double* é um tipo de dado Java. Para operadores que exigem valores numéricos, a conversão para double elimina valores não numéricos da consideração nos resultados.
 
-## Atributos de vários valores em Designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Atributos de vários valores em Designs  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Os atributos de vários valores aparecerão como uma lista separada por vírgula quando forem referenciados em um design.
 
@@ -158,7 +158,7 @@ Exemplo:
 
 Quando `entity.genre=["genre1","genre2"]` for utilizado em um design como `$entity<N>.genre`, o resultado será `genre1, genre2`.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Atributos da entidade](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
 
