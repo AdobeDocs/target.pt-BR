@@ -8,7 +8,7 @@ subtopic: Introdução
 title: Perguntas frequentes sobre at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -122,7 +122,7 @@ O [!DNL Adobe Experience Manager] 6.2 com FP-11577 (ou posterior) agora é compa
 
 ## Como posso evitar a cintilação de carregamento de página usando a at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-O Target fornece várias maneiras de evitar a cintilação do carregamento de página. Para obter mais informações, consulte [Como evitar a cintilação com o at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
+O Target fornece várias maneiras de evitar a cintilação do carregamento de página. Para obter mais informações, consulte  [Como evitar a cintilação com o at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
 
 ## Qual é o tamanho do arquivo da at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -198,12 +198,14 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 }
 ```
 
-## Por que vejo mensagens de aviso, como "ações com seletores ausentes"? {#section_C36BED5B16634361A1BA46FCB731489D}
+## Por que vejo mensagens de aviso, como "ações com seletores ausentes"?  {#section_C36BED5B16634361A1BA46FCB731489D}
 
 Estas mensagens não estão relacionadas a funcionalidade da [!DNL at.js]. A biblioteca [!DNL at.js] tenta informar tudo que não pode ser encontrado no DOM.
 
 Caso veja esta mensagem de aviso, as possíveis causas raiz podem ser as seguintes:
 
+* A página está sendo construída dinamicamente e o at.js não consegue localizar o elemento.
+* O usuário está em uma rede lenta e o at.js não consegue encontrar o seletor no DOM.
 * A estrutura de página em que a atividade está sendo executada foi alterada. Se você reabrir a atividade no Visual Experience Composer (VEC), deverá receber uma mensagem de aviso. Você deve atualizar a atividade para que todos os elementos necessários possam ser encontrados.
 * A página subjacente faz parte de um Aplicativo de página única (SPA, Single Page Application) ou a página contém elementos que são exibidos mais abaixo e o "mecanismo de buscas do seletor" da [!DNL at.js] não consegue encontrá-los. Aumentar o `selectorsPollingTimeout` pode ajudar. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Todas as métricas de rastreamento de cliques tentam se adicionar a cada página, independentemente do URL em que a métrica foi configurada. Embora inofensiva, essa situação faz com que muitas dessas mensagens sejam exibidas. As versões recentes da [!DNL at.js] tentam suprimir essas mensagens, mas muitos clientes ainda estão em versões mais antigas da [!DNL at.js] ou na [!DNL mbox.js].
@@ -222,7 +224,7 @@ Seguro pode ser definido somente por JavaScript, quando a página tiver sido car
 
 Para garantir que o Target possa rastrear os usuários corretamente e, como os cookies são gerados no lado do cliente, o Target não usa nenhum desses sinalizadores.
 
-## Com que frequência a at.js dispara uma solicitação de rede? {#section_57C5235DF7694AF093A845D73EABADFD}
+## Com que frequência a at.js dispara uma solicitação de rede?  {#section_57C5235DF7694AF093A845D73EABADFD}
 
 O Adobe Target executa todas as suas decisões no lado do servidor. Isso significa que a at.js dispara uma solicitação de rede sempre que a página é recarregada ou uma API pública da at.js é chamada.
 
@@ -230,7 +232,7 @@ O Adobe Target executa todas as suas decisões no lado do servidor. Isso signifi
 
 A at.js tenta evitar esconder previamente o HTML BODY ou outros elementos DOM por um longo período de tempo, mas isso depende das condições da rede e da configuração da atividade. O at.js fornece [configurações](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) que você pode usar para personalizar o estilo CSS de ocultação do BODY, de modo que, em vez de esvaziar todo o HTML BODY, você possa pré-ocultar apenas algumas partes da página. A expectativa é que essas partes contenham elementos DOM que precisam ser "personalizados".
 
-## Qual é a sequência de eventos em um cenário médio em que um usuário se qualifica para uma atividade? {#section_56E6F448E901403FB77DF02F44C44452}
+## Qual é a sequência de eventos em um cenário médio em que um usuário se qualifica para uma atividade?  {#section_56E6F448E901403FB77DF02F44C44452}
 
 A solicitação da at.js é uma `XMLHttpRequest` assíncrona, para a execução das seguintes etapas:
 
@@ -250,11 +252,11 @@ Considerando o cenário acima, com que frequência o conteúdo da página é tot
 
 A at.js não bloqueia a renderização da página. Um usuário pode notar algumas regiões em branco na página, que representam elementos a serem personalizados pelo Target. Se o conteúdo a ser aplicado não tiver muitos recursos remotos, como SCRIPTs ou IMGs, tudo deverá ser renderizado rapidamente.
 
-## Como uma página totalmente armazenada em cache afetaria o cenário acima? Seria mais provável que o conteúdo da atividade se tornasse visível depois que o restante do conteúdo da página fosse carregado? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## Como uma página totalmente armazenada em cache afetaria o cenário acima? Seria mais provável que o conteúdo da atividade se tornasse visível depois que o restante do conteúdo da página fosse carregado?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 Se uma página for armazenada em cache em um CDN próximo à localização do usuário, mas não próximo à borda do Target, esse usuário poderá ver alguns atrasos. As bordas do Target são bem distribuídas em todo o mundo, portanto, isso não é um problema na maioria das vezes.
 
-## É possível que uma imagem herói seja exibida e depois removida após um pequeno atraso? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## É possível que uma imagem herói seja exibida e depois removida após um pequeno atraso?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Considere o seguinte cenário:
 
