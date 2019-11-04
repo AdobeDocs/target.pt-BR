@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 4 de novembro de 2019 | [Perguntas frequentes sobre at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Texto atualizado em Perguntas frequentes: "Por que vejo mensagens de aviso, como 'ações com seletores ausentes'?" |
 | 31 de outubro de 2019 | [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Novo tópico. |
 |  | [Notas de versão - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Novo tópico. |
 |  | [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Nova seção adicionada: "Que at.js 1.*Parâmetros x* para criar públicos-alvo não são suportados em at.js 2.*x*?" |
