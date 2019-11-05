@@ -8,7 +8,7 @@ subtopic: Introdução
 title: Perguntas frequentes sobre at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -205,7 +205,7 @@ Estas mensagens não estão relacionadas a funcionalidade da [!DNL at.js]. A bib
 Caso veja esta mensagem de aviso, as possíveis causas raiz podem ser as seguintes:
 
 * A página está sendo construída dinamicamente e o at.js não consegue localizar o elemento.
-* O usuário está em uma rede lenta e o at.js não consegue encontrar o seletor no DOM.
+* A página está sendo construída lentamente (devido a uma rede lenta) e o at.js não consegue localizar o seletor no DOM.
 * A estrutura de página em que a atividade está sendo executada foi alterada. Se você reabrir a atividade no Visual Experience Composer (VEC), deverá receber uma mensagem de aviso. Você deve atualizar a atividade para que todos os elementos necessários possam ser encontrados.
 * A página subjacente faz parte de um Aplicativo de página única (SPA, Single Page Application) ou a página contém elementos que são exibidos mais abaixo e o "mecanismo de buscas do seletor" da [!DNL at.js] não consegue encontrá-los. Aumentar o `selectorsPollingTimeout` pode ajudar. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Todas as métricas de rastreamento de cliques tentam se adicionar a cada página, independentemente do URL em que a métrica foi configurada. Embora inofensiva, essa situação faz com que muitas dessas mensagens sejam exibidas. As versões recentes da [!DNL at.js] tentam suprimir essas mensagens, mas muitos clientes ainda estão em versões mais antigas da [!DNL at.js] ou na [!DNL mbox.js].
