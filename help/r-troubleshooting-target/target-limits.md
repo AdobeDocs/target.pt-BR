@@ -8,7 +8,7 @@ title: Limites
 topic: Padrão
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
 
 ---
 
@@ -37,9 +37,7 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 
 ## Nomes do público-alvo
 
-**Limite**: 256 caracteres.
-
-Valores maiores que 256 caracteres são truncados.
+**Limite**: 255 caracteres.
 
 ## Públicos-alvo
 
@@ -47,7 +45,7 @@ Valores maiores que 256 caracteres são truncados.
 
 ## parâmetro categoryId
 
-**Limite**: 250 caracteres.
+**Limite**: 128 caracteres.
 
 ## Nomes do atributo do cliente
 
@@ -80,7 +78,7 @@ Para solicitações GET, embora o limite no back end seja de 5 KB, devido ao lim
 
 ## Nomes de experiência
 
-**Limite**: 20 caracteres.
+**Limite**: 50 caracteres.
 
 ## Experiências por atividade
 
@@ -218,8 +216,9 @@ Isso se refere ao número de valores separados por linha na área de texto de de
 
 ## Regras de direcionamento
 
-**Limite recomendado**: 2.500 valores únicos por regra de direcionamento.
+**Limite** recomendado: 2.500 caracteres por valor de regra de definição de metas.
 
 **Limite recomendado**: 30.000 valores únicos por público-alvo nas regras de direcionamento.
 
 **Limite recomendado**: 100.000 valores únicos de regras de direcionamento por atividade.
+
