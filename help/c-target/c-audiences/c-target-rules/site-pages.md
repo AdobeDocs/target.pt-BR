@@ -8,7 +8,7 @@ title: Páginas do site
 topic: Padrão
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -59,13 +59,10 @@ conforme ilustrado abaixo:
 
 ## Solução de problemas {#ts}
 
-* Para que os públicos-alvo da página inicial funcionem corretamente, as solicitações devem ter o parâmetro `mboxReferrer` mbox definido corretamente. A biblioteca do JavaScript at.js é obtida `mboxReferrer` da página usando `document.referrer`.
+* Para que os públicos-alvo da página inicial funcionem corretamente, as solicitações devem ter o `mboxReferrer` parâmetro definido (para a API de entrega, o `context.address.referringUrl` parâmetro) que a biblioteca JavaScript do at.js obtém da página usando o `document.referrer` atributo. Este `HTMLDocument` atributo retorna o URI da página da qual o usuário navegou. O valor desse atributo é uma string vazia quando o usuário navega para a página diretamente (não por meio de um link, mas, por exemplo, por meio de um marcador).
 
-   Se esses parâmetros não estiverem configurados corretamente, um visitante poderá sair de uma atividade depois de navegar para uma página subsequente. Por exemplo, se `document.referrer` for usado na página de aterrissagem, mas não for usado em páginas subsequentes, [!DNL Target] não será possível garantir que o visitante permaneça na atividade.
+   Se esse comportamento não corresponder aos seus requisitos, considere executar uma das seguintes ações:
 
-   Se você encontrar essa situação, considere executar uma das seguintes ações:
-
-   * Certifique-se de que seu site seja carregado `document.referrer` corretamente.
    * Enviar parâmetros [de](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox para [!DNL Target] serem usados para fins de direcionamento.
    * Use uma atividade [de teste](/help/c-activities/t-test-ab/test-ab.md) A/B em vez de uma atividade de página inicial. As atividades de teste A/B não alternam as experiências do mesmo visitante.
    * Em vez disso, use um perfil [de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitante.
