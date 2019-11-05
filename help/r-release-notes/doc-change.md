@@ -8,7 +8,7 @@ title: Alterações de documentação
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 5 de novembro de 2019 | [Páginas do site](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Texto atualizado na seção "Solução de problemas". |
 | 4 de novembro de 2019 | [Perguntas frequentes sobre at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Texto atualizado em Perguntas frequentes: "Por que vejo mensagens de aviso, como 'ações com seletores ausentes'?" |
 | 31 de outubro de 2019 | [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Novo tópico. |
 |  | [Notas de versão - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Novo tópico. |
