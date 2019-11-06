@@ -1,29 +1,30 @@
 ---
 description: Essa seção descreve como enviar informações de atividade do aplicativo para dispositivos móveis do Target para o Adobe Analytics para segmentação postAdHoc.
-seo-description: Essa seção descreve como enviar informações de atividade do aplicativo para dispositivos móveis do Target para o Adobe Analytics para segmentação postAdHoc.
-seo-title: Enviar informações da atividade ao Adobe Analytics
+keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
+seo-description: Esta seção descreve como enviar informações de atividade do aplicativo móvel do Adobe Target para o Adobe Analytics para segmentação postAhoc.
+seo-title: Enviar informações de atividade do Adobe Target para o Adobe Analytics
 title: Enviar informações da atividade ao Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ba619bc501b7421f3aed0300a35ae8ed798a884
 
 ---
 
 
 # Enviar informações da atividade ao Adobe Analytics{#send-activity-information-to-adobe-analytics}
 
-Essa seção descreve como enviar informações de atividade do aplicativo para dispositivos móveis do Target para o Adobe Analytics para segmentação postAdHoc.
+This section describes how to send [!DNL Target] mobile app activity information to Adobe [!DNL Analytics] for post hoc segmentation.
 
 **Pré-requisitos**
 
-* Essa integração exige que o Analytics e o Target sejam implementados usando o SDK móvel.
-* Verifique se o conjunto de relatórios está ativado para receber informações de Atividade do Target.
+* This integration requires that [!DNL Analytics] and [!DNL Target] are implemented using the mobile SDK.
+* Ensure that your report suite is enabled to receive activity information from [!DNL Target].
 
-   Isso normalmente é feito adicionando o código de cliente do Target ao conjunto de relatórios do Analytics. Isso já pode estar ativado se você estiver usando a integração SiteCatalyst-Test&amp;Target para atividades da web. Se tiver dúvidas sobre essa etapa, entre em contato com o Atendimento ao Cliente da Adobe.
+   This is usually done by adding the [!DNL Target] client code to the [!DNL Analytics] report suite. Isso já pode estar ativado se você estiver usando a integração SiteCatalyst-Test&amp;Target para atividades da web. Se tiver dúvidas sobre essa etapa, entre em contato com o Atendimento ao Cliente da Adobe.
 
 1. Obtenha as informações da atividade.
 
-   Se você incluir uma cadeia de caracteres como a seguinte no conteúdo da experiência, o Target retornará as informações da campanha que você pode enviar ao Analytics:
+   If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
 
    ```
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
@@ -39,9 +40,9 @@ Essa seção descreve como enviar informações de atividade do aplicativo para 
    }
    ```
 
-   Neste exemplo, um nó com a variável ' `tntVal`' é adicionado para obter as informações da Atividade. Adicione um código simular para as outras experiências, com um título e mensagem apropriados.
+   In this example, a node with the variable `tntVal` is added to obtain the activity information. Adicione um código simular para as outras experiências, com um título e mensagem apropriados.
 
-   Essa cadeia de caracteres fornece um número (como 115110:0:0) na resposta do Target. Isso indica a ID da atividade, a ID da experiência e o Tipo de tráfego. Este é um exemplo de resposta do Target:
+   Essa cadeia de caracteres fornece um número (como 115110:0:0) na resposta do [!DNL Target]. Isso indica a ID da atividade, a ID da experiência e o tipo de tráfego. The following is a sample response from [!DNL Target]:
 
    ```
    { 
@@ -53,12 +54,13 @@ Essa seção descreve como enviar informações de atividade do aplicativo para 
 
 1. Analise o objeto JSON.
 
-   Analise a resposta recebida do Target no retorno de chamada. Você pode usar NSJSONSerialization para analisar essa resposta e armazená-la em um diretório ou matriz.
+   Parse the response that came back from [!DNL Target] in the callback. You can use `NSJSONSerialization` to parse this response and store it in a dictionary or an array.
 
    Consulte a documentação [](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) NSJSONSerialization para obter mais informações.
-1. Envie os dados ao Analytics.
 
-   Adicione as informações da atividade analisada (como `tntVal` na resposta acima) ao seu objeto de dados de contexto em uma chamada do Analytics. Essa chamada do Analytics contendo os dados de contexto pode ser disparada imediatamente ou por aguardar até o disparo da próxima chamada do Analytics.
+1. Envie os dados ao [!DNL Analytics].
+
+   Adicione as informações da atividade analisada (como `tntVal` na resposta acima) ao seu objeto de dados de contexto em uma chamada do [!DNL Analytics] This [!DNL Analytics] call containing the context data can be fired immediately or it can wait until the next [!DNL Analytics] call is fired.
 
    Por exemplo, essa chamada pode ser disparada no retorno da chamada `targetLoadRequest`:
 
@@ -69,5 +71,5 @@ Essa seção descreve como enviar informações de atividade do aplicativo para 
 
    >[!NOTE]
    >
-   >`&&tnt`é uma chave de evento reservada no SDK para dispositivos móveis. A classificação posterior da variável `tntVal` no Analytics funciona no SDK móvel da mesma maneira que na web (JavaScript). Quando a informação for processada no Analytics, você deverá ver os nomes da atividade e da experiência na interface do Analytics.
+   >`&&tnt`é uma chave de evento reservada no SDK para dispositivos móveis. The post-classification of the `tntVal` variable in [!DNL Analytics] works in the same way in the mobile SDK as it does on the web (JavaScript). After the information is processed in [!DNL Analytics], you should see activity and experience names in the [!DNL Analytics] interface.
 
