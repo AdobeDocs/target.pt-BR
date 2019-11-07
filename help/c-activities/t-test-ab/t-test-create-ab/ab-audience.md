@@ -1,14 +1,11 @@
 ---
-description: O público-alvo determina quais visitantes do site são inseridos na atividade.
 keywords: público-alvo; selecionar público-alvo; escolher público-alvo; Seletores
-seo-description: O público-alvo determina quais visitantes do site são inseridos na atividade.
-seo-title: Seleção do público-alvo
-solution: Target
+description: O público-alvo determina quais visitantes do site são inseridos na atividade.
 title: Seleção do público-alvo
 topic: Padrão
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -43,7 +40,7 @@ Você pode especificar a porcentagem de visitantes qualificados para incluir na 
 
 ![Porcentagem de público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Você também pode escolher deixar a Target [alocar o tráfego automaticamente](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Você também pode escolher deixar a Target  [alocar o tráfego automaticamente](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Vídeos de treinamento
 
