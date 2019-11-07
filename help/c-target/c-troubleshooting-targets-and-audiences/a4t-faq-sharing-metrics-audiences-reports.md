@@ -1,14 +1,11 @@
 ---
-description: Este tópico contém respostas para as perguntas mais frequentes sobre compartilhamento de métricas, público-alvo e relatórios ao usar o Analytics como fonte de geração de relatórios do Target (A4T).
 keywords: perguntas frequentes, perguntas frequentes, analytics para target, a4T, compartilhar relatórios
-seo-description: Este tópico contém respostas para as perguntas mais frequentes sobre compartilhamento de métricas, público-alvo e relatórios ao usar o Analytics como fonte de geração de relatórios do Target (A4T).
-seo-title: Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T
-solution: Target
+description: Este tópico contém respostas para as perguntas mais frequentes sobre compartilhamento de métricas, público-alvo e relatórios ao usar o Analytics como fonte de geração de relatórios do Target (A4T).
 title: Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
