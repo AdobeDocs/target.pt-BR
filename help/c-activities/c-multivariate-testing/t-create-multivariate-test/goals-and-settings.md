@@ -1,14 +1,11 @@
 ---
-description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 keywords: configurações de atividade, metas e configurações mvt, metas e configurações multivariadas, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
-seo-description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
-seo-title: Metas e Configurações
-solution: Target
+description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 title: Metas e Configurações
 topic: Padrão
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
