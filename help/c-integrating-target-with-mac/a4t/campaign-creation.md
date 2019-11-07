@@ -1,14 +1,11 @@
 ---
-description: É possível configurar uma atividade no Target Standard/Premium para usar o Adobe Analytics como fonte de relatórios (A4T).
 keywords: a4t; A4T; Analytics como fonte de relatórios para Target
-seo-description: É possível configurar uma atividade no Target Standard/Premium para usar o Adobe Analytics como fonte de relatórios (A4T).
-seo-title: Criação da atividade
-solution: Target
+description: É possível configurar uma atividade no Target Standard/Premium para usar o Adobe Analytics como fonte de relatórios (A4T).
 title: Criação da atividade
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -41,7 +38,7 @@ Criar uma atividade do Target Standard que usa o Analytics como a fonte de gera�
    * Você não vê o conjunto de relatórios esperado.
    Somente conjuntos de relatórios provisionados para se conectar ao Adobe Target estarão disponíveis para seleção. Se não vir os conjuntos de relatórios esperados, primeiro, experimente sair e entrar na Adobe Experience Cloud para tentar novamente.
 
-   Se o conjunto de relatórios ainda estiver ausente na lista, [entre em contato com o Atendimento ao cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   Se o conjunto de relatórios ainda estiver ausente na lista,  [entre em contato com o Atendimento ao cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 1. Especificar o servidor de rastreamento.
 
    Consulte [Uso de um servidor de rastreamento do Analytics](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
