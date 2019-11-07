@@ -1,14 +1,11 @@
 ---
-description: Informações sobre como a biblioteca de JavaScript at.js do Target impede a cintilação durante o carregamento de página ou aplicativo.
 keywords: flicker;at.js;implementação
-seo-description: Informações sobre como a biblioteca de JavaScript at.js do Adobe Target impede a cintilação durante o carregamento de página ou aplicativo.
-seo-title: Como o at.js do Adobe Target gerencia a cintilação
-solution: Target
-title: Como a at.js gerencia a cintilação
+description: Informações sobre como a biblioteca de JavaScript at.js do Adobe Target impede a cintilação durante o carregamento de página ou aplicativo.
+title: Como o at.js do Adobe Target gerencia a cintilação
 topic: Padrão
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
