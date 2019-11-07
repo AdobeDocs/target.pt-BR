@@ -1,13 +1,11 @@
 ---
-description: Use métricas em uma atividade Direcionamento de experiência (XT) para determinar quando uma visita obtém sucesso.
 keywords: direcionamento de experiência; xt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-seo-description: Use métricas em uma atividade de Direcionamento de experiência (XT) do Adobe Target para determinar quando uma visita é bem-sucedida.
-seo-title: Definir métricas
-solution: Target,standard
+description: Use métricas em uma atividade de Direcionamento de experiência (XT) do Adobe Target para determinar quando uma visita é bem-sucedida.
 title: Definir métricas
+solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Use métricas em uma atividade Direcionamento de experiência (XT) para determinar quando uma visita obtém sucesso.
 
-Para obter informações detalhadas sobre métricas de sucesso, consulte [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Especifique a meta da atividade.
 1. Selecione uma métrica [de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
