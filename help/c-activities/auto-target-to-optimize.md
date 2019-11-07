@@ -1,16 +1,10 @@
 ---
-description: O Direcionamento automático usa aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.
 keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, faq, solução de problemas, solucionar problemas
-seo-description: O Direcionamento automático usa aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.
-seo-title: Direcionamento automático
-solution: Target
 title: Direcionamento automático
-title-outputclass: premium
 topic: Padrão
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -49,7 +43,7 @@ Os seguintes termos são úteis quando falamos de [!UICONTROL Direcionamento aut
 | Termo | Definição |
 |---|---|
 | Multi-armed bandit | Uma abordagem multi-armed bandit à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado. |
-| Floresta Aleatória | Random Forest é uma abordagem de aprendizado de máquina líder. No contexto da ciência de dados, é um método de classificação ou regressão de conjuntos que funciona por meio da construção de um grande número de árvores de decisão com base nos atributos do visitante e da visita. No Target, o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou maior receita por visita) para cada visitante específico. Para obter mais informações sobre o Random Forest no Target, consulte [Algoritmo Random Forest](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
+| Floresta Aleatória | Random Forest é uma abordagem de aprendizado de máquina líder. No contexto da ciência de dados, é um método de classificação ou regressão de conjuntos que funciona por meio da construção de um grande número de árvores de decisão com base nos atributos do visitante e da visita. No Target, o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou maior receita por visita) para cada visitante específico. Para obter mais informações sobre o Random Forest no Target, consulte  [Algoritmo Random Forest](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
 | Amostragem de Thompson | O objetivo da Amostragem de Thompson é determinar qual experiência é a melhor em geral (não personalizada), enquanto minimiza o "custo" da procura dessa experiência. A amostragem de Thompson sempre escolhe um vencedor, mesmo que não haja diferença estatística entre duas experiências. Para obter mais informações, consulte [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Como funciona o [!UICONTROL direcionamento automático] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -62,7 +56,7 @@ Saiba mais sobre os dados e algoritmos subjacentes ao [!UICONTROL Direcionamento
 | [Fazer upload de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Existem várias maneiras de inserir dados para modelos de [!UICONTROL Direcionamento automático] e Personalização automatizada. |
 | [Coleta de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/ap-data.md) | Os algoritmos de personalização do Target coletam automaticamente uma variedade de dados. |
 
-## Determinação da alocação de tráfego {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Determinação da alocação de tráfego  {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Dependendo do objetivo da sua atividade, você pode escolher uma alocação de tráfego diferente entre controle e experiências personalizadas. A prática recomendada é determinar esse objetivo antes de tornar sua atividade ativa.
 
@@ -120,7 +114,7 @@ Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcion
 
 **O Target usa automaticamente todos os públicos-alvo compartilhados da Experience Cloud para criar os modelos de personalização.**
 
-* Você não precisa fazer nada específico para adicionar públicos-alvo ao modelo. Para obter informações sobre como usar os públicos-alvo da Experience Cloud com o Target, consulte [Públicos-alvo da Experience Cloud](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* Você não precisa fazer nada específico para adicionar públicos-alvo ao modelo. Para obter informações sobre como usar os públicos-alvo da Experience Cloud com o Target, consulte  [Públicos-alvo da Experience Cloud](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Os profissionais de marketing podem fazer upload de dados offline, pontuações de propensão ou outros dados personalizados para criar modelos de personalização.**
 
