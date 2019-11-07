@@ -1,14 +1,11 @@
 ---
-description: O Experience Composer baseado em formulário oferece a criação de experiências não visuais.
 keywords: criador de experiências baseado em forma; criador baseado em forma; refinamentos
-seo-description: O Experience Composer baseado em formulário oferece a criação de experiências não visuais.
-seo-title: Experience Composer baseado em formulário
-solution: Target
+description: O Experience Composer baseado em formulário oferece a criação de experiências não visuais.
 title: Experience Composer baseado em formulário
 topic: Padrão
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,7 +36,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 
    ![](assets/location_refinements_2.png)
 
-   No Experience Composer baseado em formulários, os refinamentos foram substituídos pela funcionalidade completa de público-alvo. Os refinamentos das atividades existentes foram migrados para [públicos-alvo somente de atividades](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   No Experience Composer baseado em formulários, os refinamentos foram substituídos pela funcionalidade completa de público-alvo. Os refinamentos das atividades existentes foram migrados para  [públicos-alvo somente de atividades](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Selecione o tipo de conteúdo que você quer que apareça naquele local.
 
    ![](assets/form_content.png)
