@@ -1,17 +1,11 @@
 ---
-description: Várias configurações podem ser usadas para descrever e controlar uma atividade do Recommendations.
 keywords: Recommendations, Configurações, nome, objetivo, prioridade, duração, configurações de relatórios, outros metadados
-seo-description: Várias configurações podem ser usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
-seo-title: Configurações de atividade do Recommendations no Adobe Target
-solution: Target
+description: Várias configurações podem ser usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
+title: Configurações de atividade do Recommendations no Adobe Target
 subtopic: Recommendations
-title: Configurações de atividade do Recommendations
-title-outputclass: premium
-topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
