@@ -1,16 +1,10 @@
 ---
-description: Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Recommendations diretamente em uma página habilitada para o Target e modificar partes da página no Target.
 keywords: criar recomendações, atividade do recommendations, novas recomendações, visão geral do recommendations
-seo-description: Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Recommendations diretamente em uma página habilitada para o Target e modificar partes da página no Target.
-seo-title: Criar uma atividade do Recommendations
-solution: Target
+description: Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Recommendations diretamente em uma página habilitada para o Target e modificar partes da página no Target.
 title: Criar uma atividade do Recommendations
-title-outputclass: premium
-topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +29,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Caso não veja essa opção, a licença da organização é do Target Standard.]
+   >A opção [!UICONTROL [Escolher local de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Caso não veja essa opção, a licença da organização é do Target Standard.]
 
 1. (Condicional) Se você for um cliente do [Target Premium](/help/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -105,7 +99,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
 1. Clique em **[!UICONTROL Avançar]**.
 
-   Você tem a opção de adicionar promoções para suas recomendações. Para mais informações sobre adicionar promoções frente e atrás, consulte [Adição de promoções](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Você tem a opção de adicionar promoções para suas recomendações. Para mais informações sobre adicionar promoções frente e atrás, consulte  [Adição de promoções](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Clique em **[!UICONTROL Salvar]**.
 
    A tela do VEC exibe o design da recomendação na sua página.
@@ -171,6 +165,6 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    Conflitos de atividade ocorrem quando várias atividades estão definidas para entregar conteúdo na mesma página e podem fazer com que conteúdo inesperado seja exibido.
 
-## Vídeo de treinamento: Criar uma atividade do Recommendations (7:15)
+## Vídeo de treinamento: criar uma atividade do Recommendations (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=por_br)
