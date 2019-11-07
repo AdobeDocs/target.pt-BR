@@ -1,13 +1,10 @@
 ---
-description: No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
 keywords: Definição de metas;sucesso;métrica de conversão;métrica de pontuação de página;métrica de exibições de página;métrica de receita;métrica de tempo no site;valor estimado;configurações avançadas;métricas de sucesso
-seo-description: No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
-seo-title: Métricas de sucesso no Adobe Target
-solution: Target
-title: Métricas de sucesso
+description: No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
+title: Métricas de sucesso no Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
