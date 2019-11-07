@@ -1,15 +1,12 @@
 ---
-description: O comportamento de cookies depende do tipo do cookie, podendo ser um cookie próprio, um cookie de terceiros com um cookie próprio ou somente um cookie de terceiros.
 keywords: Visão geral e referência; webkit
-seo-description: O comportamento de cookies depende do tipo do cookie, podendo ser um cookie próprio, um cookie de terceiros com um cookie próprio ou somente um cookie de terceiros.
-seo-title: Cookies da mbox.js
-solution: Target
-subtopic: Introdução
+description: O comportamento de cookies depende do tipo do cookie, podendo ser um cookie próprio, um cookie de terceiros com um cookie próprio ou somente um cookie de terceiros.
 title: Cookies da mbox.js
+subtopic: Introdução
 topic: Padrão
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -141,4 +138,4 @@ Da Apple:
 | Funcionalidade afetada | Detalhes |
 |--- |--- |
 | Suporte para cancelamento | As alterações de rastreamento do WebKit da Apple interrompem o suporte ao cancelamento.<br>O cancelamento do Target usa um cookie no domínio `clientcode.tt.omtrdc.net`. Para obter mais detalhes, consulte [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>O Target suporta dois cancelamentos:<ul><li>Um por cliente (o cliente gerencia o link para opção de não participação).</li><li>Um via Adobe que cancela o usuário em todas as funcionalidades do Target para todos os clientes.</li></ul>Ambos os métodos usam o cookie de terceiros. |
-| Atividades do Target | Os clientes podem escolher seus [ciclo de vida do perfil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) para contas Target: até 90 dias. A preocupação é que, se a duração do perfil da conta for superior a 30 dias, e o cookie próprio for limpo porque o domínio do cliente foi marcado como usuários de rastreamento entre sites, o comportamento dos visitantes do Safari será afetado nas seguintes áreas no Target:<br>**Relatórios do Target**: Se um usuário do Safari entrar em uma atividade, retornar após 30 dias e depois se converter, o usuário contará como dois visitantes e uma conversão.<br>Esse comportamento é o mesmo para atividades que usam o Analytics como fonte de geração de relatórios (A4T).<br>**Associação de perfil e atividade**:<ul><li>Dados do perfil são apagados quando o cookie próprio expira.</li><li>Associação de atividade é apagada quando o cookie próprio expira.</li><li> O Target não funciona no Safari para contas que usam uma implementação de cookies de terceiros ou uma implementação de cookies próprios e de terceiros. Observe que esse comportamento não é novo. O Safari não permite cookies de terceiros por algum tempo.</li></ul><br>**Sugestões:** se houver uma preocupação de que o domínio do cliente possa ser marcado como uma sessão cruzada de visitantes de rastreamento, é mais seguro definir a duração do perfil para 30 dias ou menos no Target. Isso garante que os usuários sejam rastreados de forma semelhante no Safari e em todos os outros navegadores. |
+| Atividades do Target | Os clientes podem escolher seus  [ciclo de vida do perfil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) para contas Target: até 90 dias. A preocupação é que, se a duração do perfil da conta for superior a 30 dias, e o cookie próprio for limpo porque o domínio do cliente foi marcado como usuários de rastreamento entre sites, o comportamento dos visitantes do Safari será afetado nas seguintes áreas no Target:<br>**Relatórios do Target**: Se um usuário do Safari entrar em uma atividade, retornar após 30 dias e depois se converter, o usuário contará como dois visitantes e uma conversão.<br>Esse comportamento é o mesmo para atividades que usam o Analytics como fonte de geração de relatórios (A4T).<br>**Associação de perfil e atividade**:<ul><li>Dados do perfil são apagados quando o cookie próprio expira.</li><li>Associação de atividade é apagada quando o cookie próprio expira.</li><li> O Target não funciona no Safari para contas que usam uma implementação de cookies de terceiros ou uma implementação de cookies próprios e de terceiros. Observe que esse comportamento não é novo. O Safari não permite cookies de terceiros por algum tempo.</li></ul><br>**Sugestões:** se houver uma preocupação de que o domínio do cliente possa ser marcado como uma sessão cruzada de visitantes de rastreamento, é mais seguro definir a duração do perfil para 30 dias ou menos no Target. Isso garante que os usuários sejam rastreados de forma semelhante no Safari e em todos os outros navegadores. |
