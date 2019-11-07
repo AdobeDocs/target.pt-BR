@@ -1,15 +1,12 @@
 ---
-description: Antes de começar a usar o Adobe Target implemente-o no seu site, entenda alguns conceitos e termos básicos, familiarize-se com a maneira como o Target funciona e se integra à sua estrutura e compreenda como os visitantes são rastreados pelo sistema do Target.
 keywords: implementar; implementação
-seo-description: Antes de começar a usar o Adobe Target implemente-o no seu site, entenda alguns conceitos e termos básicos, familiarize-se com a maneira como o Target funciona e se integra à sua estrutura e compreenda como os visitantes são rastreados pelo sistema do Target.
-seo-title: Implementar o Target
-solution: Target
-subtopic: Introdução
+description: Antes de começar a usar o Adobe Target implemente-o no seu site, entenda alguns conceitos e termos básicos, familiarize-se com a maneira como o Target funciona e se integra à sua estrutura e compreenda como os visitantes são rastreados pelo sistema do Target.
 title: Implementar o Target
+subtopic: Introdução
 topic: Padrão
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
