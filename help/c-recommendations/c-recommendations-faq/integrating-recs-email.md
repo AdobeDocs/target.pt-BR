@@ -1,16 +1,11 @@
 ---
-description: Informações sobre como integrar o email ao Recommendations.
 keywords: email, ESP, provedor de serviços de email, rawbox, API de entrega, modelo somente para download, modelo de email, processamento em lote, email de tempo de compilação
-seo-description: Informações sobre como integrar o email ao Recommendations.
-seo-title: Integração do Recommendations ao email
-solution: Target
+description: Informações sobre como integrar o email ao Recommendations.
 title: Integração do Recommendations ao email
-title-outputclass: premium
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
