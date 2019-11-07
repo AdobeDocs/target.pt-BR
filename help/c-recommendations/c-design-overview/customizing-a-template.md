@@ -1,16 +1,10 @@
 ---
-description: Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
 keywords: design personalizado, velocity, decimal, vírgula, personalizar design
-seo-description: Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
-seo-title: Personalizar um design usando a Velocity
-solution: Target
+description: Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
 title: Personalizar um design usando a Velocity
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
