@@ -1,15 +1,12 @@
 ---
+keywords: at.js; funções; biblioteca javascript
 description: Lista de funções que podem ser usadas com a biblioteca de JavaScript at.js do Adobe Target.
-keywords: at.js;funções;biblioteca javascript
-seo-description: Lista de funções que podem ser usadas com a biblioteca de JavaScript at.js do Adobe Target.
-seo-title: Funções do Adobe Target at.js
-solution: Target
+title: Funções do Adobe Target at.js
 subtopic: Introdução
-title: Funções da at.js
 topic: Padrão
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
