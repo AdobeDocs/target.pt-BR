@@ -1,14 +1,11 @@
 ---
-description: É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 keywords: vários públicos-alvo; versões de experiência; versões de experiência de direcionamento
-seo-description: É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
-seo-title: Múltiplas versões de uma experiência em um teste A/B
-solution: Target
+description: É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 title: Múltiplas versões de uma experiência em um teste A/B
 topic: Padrão
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
