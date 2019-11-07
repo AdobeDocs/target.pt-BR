@@ -1,14 +1,11 @@
 ---
-description: Alguns navegadores bloqueiam a exibição de uma página se o conteúdo seguro estiver misturado com conteúdo inseguro.
 keywords: conteúdo misto; seguro; inseguro; chrome; solução de problemas; vec; visual experience composer; não seguro
-seo-description: Alguns navegadores bloqueiam a exibição de uma página se o conteúdo seguro estiver misturado com conteúdo inseguro.
-seo-title: Habilitar conteúdo misto no navegador
-solution: Target
+description: Alguns navegadores bloqueiam a exibição de uma página se o conteúdo seguro estiver misturado com conteúdo inseguro.
 title: Habilitar conteúdo misto no navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -54,7 +51,7 @@ target/t_mixed_content_firefox.xml
 
    O valor altera de "Verdadeiro" para "Falso". Quando o valor mostrar "Falso", você terá concluído. Recomenda-se reiniciar o computador após alterar essas definições.
 
-## Habilitar conteúdo misto no Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Habilitar conteúdo misto no Internet Explorer  {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
 Por padrão, o Internet Explorer bloqueia páginas que misturem conteúdo seguro e inseguro. É recomendável alterar essa definição permanentemente para usar o Target Standard.
 
@@ -73,7 +70,7 @@ target/t_mixed_content_ie.xml
 
 Recomenda-se reiniciar o computador após alterar essas definições.
 
-## Habilitar conteúdo misto no Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Habilitar conteúdo misto no Chrome  {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Se você está acessando um site através de uma conexão segura, o Google Chrome irá verificar se o conteúdo da página da Web foi transmitida em segurança.
 
