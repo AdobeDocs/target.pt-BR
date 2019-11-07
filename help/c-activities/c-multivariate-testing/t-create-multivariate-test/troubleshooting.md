@@ -1,15 +1,12 @@
 ---
-description: Esse tópico contém sugestões para solucionar alguns problemas que podem ocorrer ao criar um teste MVT.
 keywords: Editor de experiência online móvel
-seo-description: Esse tópico contém sugestões para solucionar alguns problemas que podem ocorrer ao criar um teste MVT.
-seo-title: Solução de problemas de testes multivariados
-solution: Target
-subtopic: Visores móveis
+description: Esse tópico contém sugestões para solucionar alguns problemas que podem ocorrer ao criar um teste MVT.
 title: Solução de problemas de testes multivariados
+subtopic: Visores móveis
 topic: Padrão
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
