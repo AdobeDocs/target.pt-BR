@@ -1,15 +1,12 @@
 ---
-description: Os tokens de resposta permitem gerar automaticamente informações específicas do Target (detalhes da campanha, informações de perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou na integração com sistemas de terceiros (como o Clicktale)
-keywords: tokens de resposta; tokens; plugins; plug-ins;at.js;resposta
-seo-description: Os tokens de resposta permitem que você produza automaticamente informações específicas do Target (detalhes da atividade, informações do perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou integração com sistemas de terceiros (como Clicktale)
-seo-title: Tokens de resposta no Adobe Target
-solution: Target
+keywords: tokens de resposta;tokens;plugins;plug-ins;at.js;response tokens;tokens;plugins;plug-ins;at.js;response tokens;response tokens;tokens;plugins;plug-ins;at.js;response
+description: Os tokens de resposta permitem que você produza automaticamente informações específicas do Target (detalhes da atividade, informações do perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou integração com sistemas de terceiros (como Clicktale)
+title: Tokens de resposta no Adobe Target
 subtopic: Introdução
-title: Tokens de resposta
 topic: Padrão
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
