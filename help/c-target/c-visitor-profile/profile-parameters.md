@@ -5,7 +5,7 @@ title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -253,7 +253,7 @@ do perfil de script de maneira eficiente. Esta seção serve como uma referênci
 
 Os parâmetros do perfil de script são encontrados na guia mboxes/perfis. É possível gravar programas de JavaScript que retornam qualquer tipo de JavaScript (sequência de caracteres, inteiro, matriz, etc.).
 
-### Exemplos de parâmetro do perfil de script
+### Exemplos de parâmetro do perfil de script {#examples}
 
 **Nome:** *user.recency*
 
@@ -279,7 +279,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Cria uma variável chamada frequência, inicializando-a para o valor anterior ou 0, se não houver um valor anterior. Se o nome da mbox for `orderThankyouPage`, o valor incrementado será retornado.
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Se o nome da mbox for `orderThankyouPage`, o valor incrementado será retornado.
 
 **Nome:** *user.monetaryValue*
 
@@ -291,6 +291,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 Cria uma variável chamada `monetaryValue`, que pesquisa o valor atual de um determinado visitante (ou define como 0 se não houver um valor anterior). Se o nome da mbox for `orderThankyouPage`, o novo valor monetário será retornado adicionando o anterior e o valor do parâmetro `orderTotal` passado para a mbox.
+
+**** Nome: adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+Cria uma variável chamada `adobeQA` para rastrear um usuário para o controle de qualidade de [atividade](/help/c-activities/c-activity-qa/activity-qa.md).
+
 
 ### Objetos e métodos
 
