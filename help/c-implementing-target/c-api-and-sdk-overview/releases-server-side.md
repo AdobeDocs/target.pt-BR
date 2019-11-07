@@ -1,13 +1,10 @@
 ---
-description: Notas de versão relacionadas às APIs e SDKs do servidor do Adobe Target
 keywords: at.js;api;release;updates;apis;sdks;server-side;server-side;server-side;api;delivery api
-seo-description: Notas de versão relacionadas às APIs do servidor do Adobe Target.
-seo-title: Notas de versão relacionadas às APIs do servidor do Adobe Target.
-solution: Target
-title: Notas de versão - APIs do servidor do Target
+description: Notas de versão relacionadas às APIs do servidor do Adobe Target.
+title: Notas de versão relacionadas às APIs do servidor do Adobe Target.
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
