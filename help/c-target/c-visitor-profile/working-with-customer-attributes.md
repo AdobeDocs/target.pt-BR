@@ -1,15 +1,12 @@
 ---
-description: Informações sobre como usar os dados de clientes corporativos provenientes de um banco de dados de gerenciamento de relacionamento com o cliente (CRM) para o direcionamento de conteúdo no Adobe Target, usando os Atributos do cliente no serviço principal de Perfis e públicos-alvo da Adobe.
 keywords: serviço de registro de clientes, crs, crm, mbox3rdpartyid, atributos do cliente, direcionamento
-seo-description: Informações sobre como usar os dados de clientes corporativos provenientes de um banco de dados de gerenciamento de relacionamento com o cliente (CRM) para o direcionamento de conteúdo no Adobe Target, usando os Atributos do cliente no serviço principal de Perfis e públicos-alvo da Adobe.
-seo-title: Atributos do cliente no Adobe Target
-solution: Target
+description: Informações sobre como usar os dados de clientes corporativos provenientes de um banco de dados de gerenciamento de relacionamento com o cliente (CRM) para o direcionamento de conteúdo no Adobe Target, usando os Atributos do cliente no serviço principal de Perfis e públicos-alvo da Adobe.
+title: Atributos do cliente no Adobe Target
 subtopic: Introdução
-title: Atributos do cliente
 topic: Padrão
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -32,7 +29,7 @@ Considere as seguintes informações ao trabalhar com os atributos do cliente e 
 
    >[!NOTE]
    >
-   >[!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required.
+   >[!DNL at.js] (qualquer versão) ou [!DNL mbox.js] versão 58 ou posterior é obrigatório.
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Em nosso design atual, existe a possibilidade de que uma pequena porcentagem de dados não seja incorporada.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Para obter mais informações, consulte  [Duração do perfil do visitante](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)
@@ -131,7 +128,7 @@ Se você estiver usando o serviço de Experience Cloud ID, será necessário def
 
 Para obter mais informações sobre o uso de atributos do cliente no [!DNL Target], consulte os recursos a seguir:
 
-* [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Product Documentation*
+* [Crie uma fonte de atributo do cliente e faça upload do arquivo](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de dados na Documentação do produto da *Experience Cloud*
 * [Atributos do cliente: quanto mais você souber, melhor se conectará](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) no *Blog de Marketing digital*
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -145,7 +142,7 @@ Você pode encontrar os seguintes problemas ao trabalhar com atributos do client
 | A entrega não funciona com base no atributo | O perfil ainda não foi atualizado na borda. Como solução, solicite que a equipe dos Atributos do Cliente republique o feed. |
 | Problemas de implementação | Esteja ciente dos seguintes problemas de implementação:<ul><li>A ID do visitante não foi passada corretamente. The ID was passed in `mboxMCGVID` instead of `setCustomerId`.</li><li>A ID do visitante foi passada corretamente, mas o estado de AUTENTICAÇÃO não foi definido como autenticado.</li><li>`mbox3rdPartyId` não foi transmitido corretamente.</li> |
 | `mboxUpdate` não foi executado adequadamente | `mboxUpdate`O não foi executado adequadamente com `mbox3rdPartyId`. |
-| Customer attributes are not being imported into Target | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
+| Os atributos do cliente não estão sendo importados para o Target | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
 
 Os problemas nas linhas 1 e 2 acima causam aproximadamente 60% dos problemas nessa área. Os problemas na linha 3 causam aproximadamente 30% dos problemas. O problema na linha 4 causa aproximadamente 5% dos problemas. Os 5% restantes são devido a diversos problemas.
 
