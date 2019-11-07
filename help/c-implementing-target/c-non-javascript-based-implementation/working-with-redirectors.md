@@ -1,15 +1,12 @@
 ---
-description: Utilize o Redirecionador de forma similar a uma mbox em seus testes.
 keywords: implementação; mbox.js não javascript; redirecionador; custos por clique; receita por clique
-seo-description: Utilize o Redirecionador de forma similar a uma mbox em seus testes.
-seo-title: Trabalhar com redirecionadores
-solution: Target
-subtopic: Introdução
+description: Utilize o Redirecionador de forma similar a uma mbox em seus testes.
 title: Trabalhar com redirecionadores
+subtopic: Introdução
 topic: Padrão
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -20,7 +17,7 @@ Utilize o Redirecionador de forma similar a uma mbox em seus testes.
 
 Redirecionadores são criados com um URL de Redirecionador especial, que carrega a mbox do Redirecionador na conta. Utilize o Redirecionador de forma similar a uma mbox em seus testes. Envie o URL de Redirecionador para sua Rede de publicidade como o link de destino do anúncio.
 
-Use o Redirecionador para faça o seguinte:
+Use o Redirecionador para  faça o seguinte:
 
 * Acompanhar cliques dos seus anúncios de exibição para o seu site
 * Criar um relatório único e centralizado para rastrear os cliques para exibir anúncios em várias redes de anúncios
@@ -30,7 +27,7 @@ Use o Redirecionador para faça o seguinte:
 
 * Descobrir qual página de aterrissagem leva ao maior número de conversões
 
-Para obter ajuda em decidir a configuração correta, consulte [Implementações não baseadas em JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Para obter ajuda em decidir a configuração correta, consulte  [Implementações não baseadas em JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Criando um Redirecionador {#task_76608B0F73FC45C4A9F125B894DCF821}
 
@@ -108,7 +105,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### Enviar receita por clique {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Enviar receita por clique  {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Use o redirecionador para passar a receita por clique.
 
