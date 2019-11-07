@@ -1,16 +1,11 @@
 ---
-description: O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo de trabalho dos outros tipos de atividade.
 keywords: personalização automatizada; Públicos-alvo; conjunto; random forest; variação residual; variância de erro; valor histórico
-seo-description: O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo de trabalho dos outros tipos de atividade.
-seo-title: Criar uma atividade de Automated Personalization
-solution: Target
+description: O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo de trabalho dos outros tipos de atividade.
 title: Criar uma atividade de Automated Personalization
-title-outputclass: premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -108,7 +103,7 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
 
    É importante compreender que os grupos de relatórios afetam o modo como o Target cria seus modelos. Como resultado, recomendamos que você use grupos de relatórios somente se planejar substituir ou adicionar novas ofertas enquanto a atividade estiver ativa. Se uma nova oferta for introduzida em uma atividade ativa, colocá-la em um grupo existente com ofertas similares permitirá que a máquina use os dados já coletados das outras ofertas do grupo para aprender sobre a nova oferta. Você nunca deve colocar todas as ofertas em um único grupo de relatórios.
 
-   Para obter informações sobre como segmentar uma oferta para públicos específicos, consulte [Ofertas do Target AP](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+   Para obter informações sobre como segmentar uma oferta para públicos específicos, consulte  [Ofertas do Target AP](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 1. (Condicional) Clique em **[!UICONTROL Grupos de exclusão]** para escolher qualquer combinação de elementos que você deseja excluir da atividade.
 
@@ -172,4 +167,4 @@ O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo
 
 Depois de clicar em **[!UICONTROL Criar]**, o Resumo da atividade é exibido. Clique em **Visualizar experiências** para visualizar como suas experiências aparecem depois de entregues. Uma pop-up é mostrada e pode ser usada para exibir e compartilhar links para as experiências de Personalização automatizada em seu site para obter uma "visualização real" das experiências fora do Visual Experience Composer do Target. É necessário compartilhar os links da mensagem para compartilhar a visualização. Clicar em um link e copiar o URL diretamente da página não funcionará porque o URL contém um parâmetro que somente exibe a página corretamente quando você acessa a página a partir do link da mensagem.
 
-Para obter informações sobre os relatórios, consulte [Relatórios de personalização automatizada](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Para obter informações sobre os relatórios, consulte  [Relatórios de personalização automatizada](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
