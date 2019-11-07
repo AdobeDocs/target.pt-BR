@@ -1,13 +1,11 @@
 ---
-description: Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
 keywords: aplicativo móvel, local de aplicativo móvel, aplicativo móvel target, métricas de sucesso no aplicativo móvel
-seo-description: Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
-seo-title: iOS - Criar um local de definição e métrica de sucesso
+description: Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
 title: iOS - Criar um local de definição e métrica de sucesso
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
