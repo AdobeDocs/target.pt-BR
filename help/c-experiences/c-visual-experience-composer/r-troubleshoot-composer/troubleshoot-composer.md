@@ -1,13 +1,10 @@
 ---
-description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 keywords: Direcionamento, visual experience composer, whitelist, lista de permissões, enhanced visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, eec, enhanced experience composer, tls, tls 1.2
-seo-description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
-seo-title: Solução de problemas do Visual Experience Composer e no Enhanced Experience Composer
-solution: Target
+description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Solução de problemas do Visual Experience Composer e no Enhanced Experience Composer
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -20,7 +17,7 @@ O VEC é um dos principais recursos do Adobe Target. O VEC é um editor que perm
 
 O EEC é uma extensão do VEC que ajuda você a editar uma experiência para um site de edição de iFrame ou páginas que ainda não contêm a implantação do Target. Se tiver problemas para abrir sua página no VEC, tente o EEC.
 
-Para obter informações sobre o VEC e o EEC, consulte [Experiências](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Para obter informações sobre o VEC e o EEC, consulte  [Experiências](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Observe que alguns problemas afetam tanto o VEC quanto o EEC, e alguns problemas afetam apenas um dos dois Composers. Revise a página apropriada para encontrar mais informações.
 
