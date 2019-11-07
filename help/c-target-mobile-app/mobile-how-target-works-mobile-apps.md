@@ -1,11 +1,9 @@
 ---
 description: O Adobe Mobile SDK entra em contato com o servidor do Target para obter o conteúdo juntamente com outros pontos de dados, para mostrar a experiência correta ao usuário.
-seo-description: O Adobe Mobile SDK entra em contato com o servidor do Target para obter o conteúdo juntamente com outros pontos de dados, para mostrar a experiência correta ao usuário.
-seo-title: Como o Target funciona em aplicativos móveis
 title: Como o Target funciona em aplicativos móveis
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -14,9 +12,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 O Adobe Mobile SDK entra em contato com o servidor do Target para obter o conteúdo juntamente com outros pontos de dados, para mostrar a experiência correta ao usuário.
 
-## Locais direcionados e métricas de sucesso {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
+## Locais direcionados e métricas de sucesso  {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
-Uma *localização direcionada* também é conhecida como uma mbox. Uma localização identificada no aplicativo é ativada para teste ou personalização (por exemplo, mensagem de boas vindas na tela inicial). Essas localizações são identificadas durante o processo de criação de teste.
+Uma *localização direcionada* também é conhecida como uma  mbox. Uma localização identificada no aplicativo é ativada para teste ou personalização (por exemplo, mensagem de boas vindas na tela inicial). Essas localizações são identificadas durante o processo de criação de teste.
 
 Um *[métrica de sucesso](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)* é uma ação realizada pelo usuário que identifica se uma atividade específica foi bem-sucedida (como se conectar, fazer uma compra, reservar uma passagem e assim por diante).
 
