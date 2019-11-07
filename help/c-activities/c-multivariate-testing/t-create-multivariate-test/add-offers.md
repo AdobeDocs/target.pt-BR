@@ -1,11 +1,9 @@
 ---
 description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que você deseja incluir em seu Teste multivariado (MVT).
-seo-description: Use o Visual Experience Composer (VEC) no Adobe Target para criar as ofertas que você deseja incluir em seu Teste multivariado (MVT).
-seo-title: Criar combinações em Testes multivariados (MVT) usando o Adobe Target
-title: Criar combinações
+title: Criar combinações em Testes multivariados (MVT) usando o Adobe Target
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,7 +20,7 @@ Para obter mais informações sobre como usar o VEC para criar e editar ofertas,
 >
 >Você também pode usar o [caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar pelos elementos.
 
-## Ofertas de imagem {#section_A48333211DB149ED926AE467D0032914}
+## Ofertas de imagem  {#section_A48333211DB149ED926AE467D0032914}
 
 Teste várias ofertas de imagem dentro de um local para determinar qual imagem é mais bem sucedida.
 
@@ -36,7 +34,7 @@ Teste várias ofertas de imagem dentro de um local para determinar qual imagem �
 
 Cada imagem se torna uma experiência separada nesse local.
 
-## Ofertas HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
+## Ofertas HTML  {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Teste várias ofertas em Texto/HTML de um local para determinar qual é mais bem-sucedida.
 
@@ -60,7 +58,7 @@ Cada oferta em Texto/HTML se torna uma experiência separada nesse local.
 * Ao criar testes multivariados, é possível excluir mais de 10% das experiências do teste, desde que você reconheça o aviso de que deve usar relatórios offline para análise.
 * Aproveite os recursos de visualização para evitar combinações indesejadas de conteúdo. Por exemplo, você pode ter duas imagens que oferecem descontos diferentes sobre o mesmo item ou serviço. Mostrar as duas imagens na mesma página é ilógico e poderá criar uma confusão.
 * Use o Avaliador de tráfego para garantir que o teste foi criado para a quantidade de tráfego que sua página recebe. Verifique se o Avaliador de tráfego aceita a configuração do teste para que você possa obter os resultados que deseja.
-* Você deve ter pelo menos três elementos para testar. Se tiver menos, execute uma série de Testes A/B.
+* Você deve ter pelo menos três elementos para testar. Se tiver menos, execute uma série de  Testes A/B.
 * Recomendamos que as alternativas de cada elemento sejam diferentes entre si.
 * Embora não seja obrigatório, é uma boa prática que cada elemento tenha o mesmo número de alternativas.
 
