@@ -1,14 +1,11 @@
 ---
-description: Informações sobre como usar os fragmentos de experiência criados no Adobe Experience Manager (AEM) nas atividades do Target para auxiliar a otimização ou a personalização.
 keywords: experiência;json;aem;adobe experience manager;exportar para adobe target;experimentar fragmentos;fragmentos;XF
-seo-description: Informações sobre como usar fragmentos de experiência criados no Adobe Experience Manager (AEM) em atividades do Adobe Target para ajudar na otimização ou personalização.
-seo-title: Fragmentos de experiência do Adobe Experience Manager (AEM) no Adobe Target
-solution: Target
-title: Fragmentos de experiência do AEM
+description: Informações sobre como usar fragmentos de experiência criados no Adobe Experience Manager (AEM) em atividades do Adobe Target para ajudar na otimização ou personalização.
+title: Fragmentos de experiência do Adobe Experience Manager (AEM) no Adobe Target
 topic: Padrão
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -40,7 +37,7 @@ You must be provisioned with the experience fragments functionality within [!DNl
 * Conta do Adobe Target Standard ou Adobe Target Premium.
 * Contact [Adobe Target Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
 
-## Criação e configuração dos Fragmentos de experiência no AEM {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
+## Criação e configuração dos Fragmentos de experiência no AEM  {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
 In order to use AEM experience fragments in [!DNL Target], you must perform the following steps:
 
