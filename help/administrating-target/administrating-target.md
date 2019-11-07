@@ -1,15 +1,12 @@
 ---
-description: Informações para ajudar a configurar o Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene7, gerenciamento de hosts e tokens de resposta.
 keywords: implementar; implementação; configuração; configurar
-seo-description: Informações para ajudar a configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene7, gerenciamento de hosts e tokens de resposta.
-seo-title: Administrar o Adobe Target
-solution: Target
+description: Informações para ajudar a configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene7, gerenciamento de hosts e tokens de resposta.
+title: Administrar o Adobe Target
 subtopic: Introdução
-title: Administrar o Target
 topic: Padrão
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
