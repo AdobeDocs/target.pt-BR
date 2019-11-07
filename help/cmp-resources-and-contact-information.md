@@ -1,14 +1,11 @@
 ---
-description: Informações sobre recursos adicionais para ajudá-lo a aprender sobre os recursos do Target e como entrar em contato com a Adobe caso precise de ajuda com o Target.
 keywords: contato, jurídico, suporte técnico, suporte téc, suporte, serviço, capacidade, faturamento, feedback
-seo-description: Informações sobre recursos adicionais para ajudá-lo a aprender sobre os recursos do Target e como entrar em contato com a Adobe caso precise de ajuda com o Target.
-seo-title: Informações de Recursos e Contato
-solution: Target
+description: Informações sobre recursos adicionais para ajudá-lo a aprender sobre os recursos do Target e como entrar em contato com a Adobe caso precise de ajuda com o Target.
 title: Informações de Recursos e Contato
 topic: Padrão
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -47,7 +44,7 @@ As sessões atuais gravadas do Target incluem:
 | Tópico / Tempo de execução / Data da gravação | O que você vai aprender |
 |--- |--- |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>de dezembro de 2017 | Você aprenderá:<ul><li>Como funciona o VEC</li><li>Como evitar problemas comuns com o VEC</li><li>Práticas de correção que podem ser usadas com o VEC</li></ul>Para obter mais informações neste guia, consulte  [Experiências](/help/c-experiences/experiences.md). |
-| [Adobe Target: Integração do Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de janeiro de 2018 | Você aprenderá:<ul><li>Como configurar e validar o funcionamento da integração </li><li>Como funciona a integração</li><li>Saiba mais sobre os relatórios adequados para usar no Analytics</li><li>Respostas às perguntas comuns sobre o A4T</li></ul>Para obter mais informações neste guia, consulte  [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [Adobe Target: Integração do Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>de janeiro de 2018 | Você aprenderá:<ul><li>Como configurar e validar o funcionamento da integração </li><li>Como funciona a integração</li><li>Saiba mais sobre os relatórios adequados para usar no Analytics</li><li>Respostas às perguntas comuns sobre o A4T</li></ul>Para obter mais informações neste guia, consulte [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js: Vantagens e práticas recomendadas](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de implementação 26:43<br>de abril de 2018 | Você aprenderá: <ul><li>Como funciona a biblioteca at.js</li><li>As vantagens da at.js em relação a mbox.js</li><li>Como a at.js gerencia a cintilação</li><li>Erro de manipulação em at.js</li><li>Metodologias de depuração</li><li>Problemas conhecidos e roteiros futuros</li></ul>Para obter mais informações neste guia, consulte  [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
