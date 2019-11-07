@@ -1,14 +1,11 @@
 ---
-description: O relatório de Contribuição da localização mostra o desempenho de cada elemento e cada oferta.
 keywords: mvt, teste multivariado, relatório de contribuição da localização
-seo-description: O relatório de Contribuição da localização mostra o desempenho de cada elemento e cada oferta.
-seo-title: Relatório de contribuição de localização (MVT)
-solution: Target
+description: O relatório de Contribuição da localização mostra o desempenho de cada elemento e cada oferta.
 title: Relatório de contribuição de localização (MVT)
 topic: Padrão
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
