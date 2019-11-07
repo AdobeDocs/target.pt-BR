@@ -1,13 +1,10 @@
 ---
-description: Informações para usar a extensão do navegador do Target Visual Experience Composer (VEC) Helper para carregar sites de maneira confiável no VEC a fim de criar e testar rapidamente experiências de QA.
 keywords: vec;visual experience composer; vec;iframe;extensão;navegador
-seo-description: Informações para usar a extensão do navegador do Adobe Target Visual Experience Composer (VEC) Helper para carregar sites de maneira confiável no VEC a fim de criar e testar rapidamente experiências de QA.
-seo-title: Extensão de ajuda do Adobe Target Visual Experience Composer (VEC)
-solution: Target
-title: Extensão de ajuda do Visual Experience Composer
+description: Informações para usar a extensão do navegador do Adobe Target Visual Experience Composer (VEC) Helper para carregar sites de maneira confiável no VEC a fim de criar e testar rapidamente experiências de QA.
+title: Extensão de ajuda do Adobe Target Visual Experience Composer (VEC)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
