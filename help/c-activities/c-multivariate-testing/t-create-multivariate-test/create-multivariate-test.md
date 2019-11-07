@@ -1,13 +1,10 @@
 ---
-description: O Visual Experience Composer no Target facilita a criação do teste multivariado (MVT) diretamente em uma página ativada para o Target e a modificação de partes da página no Target.
 keywords: mvt; teste multivariado; criação de teste multivariado; criação de teste multivariado; criar mvt; criação de mvt; como mvt; como fazer teste multivariado
-seo-description: O Visual Experience Composer (VEC) no Adobe Target facilita a criação do teste multivariado (MVT) diretamente em uma página ativada para o Target e a modificação de partes da página no Target.
-seo-title: Criar um teste multivariado
-solution: Target
+description: O Visual Experience Composer (VEC) no Adobe Target facilita a criação do teste multivariado (MVT) diretamente em uma página ativada para o Target e a modificação de partes da página no Target.
 title: Criar um teste multivariado
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
