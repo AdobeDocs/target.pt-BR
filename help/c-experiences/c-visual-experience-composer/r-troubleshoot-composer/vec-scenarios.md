@@ -1,14 +1,10 @@
 ---
-description: Os cenários neste tópico mostram como as alterações feitas a sua página afetam a exibição de uma experiência no Target.
 keywords: Recommendations
-seo-description: Os cenários neste tópico mostram como as alterações feitas a sua página afetam a exibição de uma experiência no Target.
-seo-title: Cenários de modificação da página
-solution: Target
+description: Os cenários neste tópico mostram como as alterações feitas a sua página afetam a exibição de uma experiência no Target.
 title: Cenários de modificação da página
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -289,7 +285,7 @@ Depois
 </div>
 ```
 
-## Cenário: renomeie a classe do elemento selecionado {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Cenário: renomeie a classe do elemento selecionado  {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 Neste cenário, a classe do item de lista selecionado foi alterada.
 
