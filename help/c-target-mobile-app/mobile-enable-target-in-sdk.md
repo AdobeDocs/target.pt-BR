@@ -1,13 +1,11 @@
 ---
-description: Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
 keywords: aplicativo móvel, sdk de aplicativo móvel, aplicativo móvel target, sdk target móvel, sdk de aplicativo móvel, habilitar target no sdk
-seo-description: Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
-seo-title: Habilitar o Target no SDK
+description: Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
 title: Habilitar o Target no SDK
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
