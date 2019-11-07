@@ -1,14 +1,10 @@
 ---
-description: Informações sobre problemas conhecidos para esta versão do Target. Também inclui informações sobre problemas que foram resolvidos.
-keywords: problemas conhecidos, problemas resolvidos, notas de versão;bugs;issues;fixes
-seo-description: Informações sobre problemas conhecidos desta versão do Adobe Target. Também inclui informações sobre problemas que foram resolvidos.
-seo-title: Problemas conhecidos e problemas resolvidos no Adobe Target
-solution: Target
-title: Problemas conhecidos e problemas resolvidos
-topic: Premium
+keywords: problemas conhecidos;problemas resolvidos;notas de versão;erros;problemas;correções
+description: Informações sobre problemas conhecidos desta versão do Adobe Target. Também inclui informações sobre problemas que foram resolvidos.
+title: Problemas conhecidos e problemas resolvidos no Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
