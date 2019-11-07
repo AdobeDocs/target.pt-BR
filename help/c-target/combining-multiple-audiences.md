@@ -1,14 +1,11 @@
 ---
-description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
 keywords: público-alvo, regras de público-alvo, combinar públicos-alvo, exclusão, adicionar exclusão, excluir, combinação de públicos-alvo, público-alvo adhoc, público-alvo ad hoc
-seo-description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
-seo-title: Combinar vários públicos no Adobe Target
-solution: Target
-title: Combinar vários públicos
+description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
+title: Combinar vários públicos no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -81,7 +78,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na segmentação de métrica. Por exemplo, para criar segmentação com base na conversão usando um público-alvo combinado:
 
-1. Ao editar ou criar uma [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, selecione **[!UICONTROL Conversão]** para a métrica de sucesso e, em seguida, selecione **[!UICONTROL Uma Mbox visualizada]** como ação.
+1. Ao editar ou criar uma  [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, selecione **[!UICONTROL Conversão]** para a métrica de sucesso e, em seguida, selecione **[!UICONTROL Uma Mbox visualizada]** como ação.
 1. Selecione a mbox desejada no campo **[!UICONTROL Pesquisar mbox].**
 
    ![](assets/combine_multiple_audiences4.png)
@@ -93,11 +90,11 @@ Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas 
 
 1. Prossiga com o [Passo 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em "Criar um público-alvo combinado ao criar uma atividade" para criar o público-alvo combinado.
 
-## Criar um público-alvo combinado para uso na geração de relatórios {#section_4682D342EFBB43C38E54B99B3A1E14CD}
+## Criar um público-alvo combinado para uso na geração de relatórios  {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na geração de relatórios.
 
-1. Ao editar ou criar uma [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, clique no ícone **[!UICONTROL Adicionar público-alvo]** em [!UICONTROL Públicos-alvo para geração de relatórios] para exibir a página [!UICONTROL Escolher público-alvo].
+1. Ao editar ou criar uma  [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, clique no ícone **[!UICONTROL Adicionar público-alvo]** em [!UICONTROL Públicos-alvo para geração de relatórios] para exibir a página [!UICONTROL Escolher público-alvo].
 
    ![](assets/combine_multiple_audiences6.png)
 
