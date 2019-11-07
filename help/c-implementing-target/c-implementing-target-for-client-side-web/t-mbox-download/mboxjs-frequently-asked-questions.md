@@ -1,14 +1,11 @@
 ---
-description: Respostas às perguntas mais frequentes sobre a mbox.js.
 keywords: mbox.js faq; perguntas frequentes do mbox.js; document.write; tt.omtrdc.net; bloqueio do analisador
-seo-description: Respostas às perguntas mais frequentes sobre a mbox.js.
-seo-title: Perguntas frequentes sobre a mbox.js
-solution: Target
-subtopic: Introdução
+description: Respostas às perguntas mais frequentes sobre a mbox.js.
 title: Perguntas frequentes sobre a mbox.js
+subtopic: Introdução
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -25,7 +22,7 @@ Para obter mais informações, consulte [Vantagens da at.js](/help/c-implementin
 
 Essa mensagem de console é exibida ao usar o Chrome em vários cenários nos quais a função `document.write` é usada dentro do arquivo mbox.js. Essa é uma mensagem de aviso e não deve afetar o seu processo de configuração da atividade.
 
-A melhor maneira de prevenir essa situação é [migrar a sua implementação do Target para a biblioteca do JavaScript at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), que não usa a função `document.write`. Usar uma at.js fornece muitas vantagens usando a mbox.js. Para obter mais informações, consulte [Perguntas frequentes da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+A melhor maneira de prevenir essa situação é  [migrar a sua implementação do Target para a biblioteca do JavaScript at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), que não usa a função `document.write`. Usar uma at.js fornece muitas vantagens usando a mbox.js. Para obter mais informações, consulte [Perguntas frequentes da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Por que as mboxes não estão sendo acionadas nas minhas páginas da Web? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
