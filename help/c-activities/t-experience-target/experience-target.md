@@ -1,13 +1,10 @@
 ---
-description: O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 keywords: Direcionamento, direcionamento da experiência, xt, página inicial, campanha de página de aterrissagem
-seo-description: O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
-seo-title: Direcionamento de experiência
-solution: Target
+description: O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 title: Direcionamento de experiência
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
