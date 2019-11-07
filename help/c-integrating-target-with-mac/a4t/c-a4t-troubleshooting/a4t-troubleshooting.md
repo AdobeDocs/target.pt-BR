@@ -1,15 +1,12 @@
 ---
-description: Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 keywords: servidor de rastreamento de análises; A4T; segmentos de análise; conjuntos de relatórios; dados incorretos; órfão; sdid; VisitorAPI.js; mboxMCSDID; fictício; não especificado
-seo-description: Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
-seo-title: Solução de problemas de integração do Analytics e do Target (A4T)
-solution: Target
-subtopic: Teste multivariado
+description: Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 title: Solução de problemas de integração do Analytics e do Target (A4T)
+subtopic: Teste multivariado
 topic: Padrão
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +21,7 @@ Existem várias razões pelas quais isso pode acontecer:
 
 * A classificação no [!DNL Target] não foi completamente processada.
 
-   A classificação geralmente leva de 24 a 72 horas para classificar os relatórios após o primeiro salvamento.
+   A classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 
 * O conjunto de relatórios não contém nenhum dado, mas o [!DNL Target] tentou classificar os hits. O [!DNL Target] não pode classificar os dados até que o primeiro hit ocorra.
 
@@ -36,11 +33,11 @@ Existem várias razões pelas quais isso pode acontecer:
 
 >[!NOTE]
 >
->Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que geralmente leva de 24 a 72 horas para classificar relatórios após a primeira gravação.
+>Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 >
 >Nenhum dado é perdido quando listado como "não especificado". Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
-## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T. {#section_4BE374E573D44FB7918611699B74F58E}
+## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.  {#section_4BE374E573D44FB7918611699B74F58E}
 
 Para obter mais informações, consulte [Redução de visitas aumentadas e contagem de visitantes em A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -48,7 +45,7 @@ Para obter mais informações, consulte [Redução de visitas aumentadas e conta
 
 Os detalhes de incentivo e confiança não estão disponíveis no Analytics. No entanto, eles estão disponíveis nos relatórios do Target.
 
-## As atividades não aparecem nos relatórios do Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## As atividades não aparecem nos relatórios do Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 As atividades do A4T exigem que um servidor de rastreamento de análise seja especificado. Consulte [Uso do Servidor de rastreamento de análise](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para certificar-se de que seu Servidor de rastreamento de análise está configurado corretamente.
 
@@ -56,7 +53,7 @@ As atividades do A4T exigem que um servidor de rastreamento de análise seja esp
 >
 >Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
-## Meus segmentos do Analytics não aparecem no Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Meus segmentos do Analytics não aparecem no Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Verifique se você tem as permissões certas antes de começar a criar atividades do A4T:
 
@@ -64,17 +61,17 @@ Verifique se você tem as permissões certas antes de começar a criar atividade
 * Você deve ser um membro de um ou mais grupos da Experience Cloud com acesso ao Analytics e Target.
 * Verifique se o Analytics e Target são exibidos na seção Marketing Apps da navegação à esquerda.
 
-## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Esse é um problema conhecido.
 
 Apesar de essas métricas serem negativas, o incentivo é mostrado como se elas fossem positivas nos relatórios do Target. Por exemplo, mesmo que você queira uma taxa de rejeição mais baixa, a taxa de rejeição mais alta é mostrada como vencedora com o maior incentivo. Considere essas métricas de métricas semelhantes, bem como sua preferência por diminuir ou aumentar os números, ao tomar decisões baseadas nos relatórios.
 
-## O conjunto de relatórios de que preciso não aparece. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## O conjunto de relatórios de que preciso não aparece.  {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
 A lista de conjuntos de relatórios que aparece no Target Standard/Premium é a lista de conjuntos de relatórios que foram configurados para o Analytics com a fonte de geração de relatórios para o Target. Isso significa que você pode não ver todos os seus conjuntos de relatórios. Caso não veja o conjunto de relatórios que você está procurando, entre em contato com o Atendimento ao cliente para ativá-lo.
 
-## Não vejo tantos dados nos relatórios quanto esperado. {#section_75002584FA63456D8D9086172925DD8D}
+## Não vejo tantos dados nos relatórios quanto esperado.  {#section_75002584FA63456D8D9086172925DD8D}
 
 Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics]. Na chamada do [!DNL Target], a ID complementar está contida no parâmetro `mboxMCSDID`. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
 
