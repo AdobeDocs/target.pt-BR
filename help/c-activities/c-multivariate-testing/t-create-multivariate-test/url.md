@@ -1,13 +1,10 @@
 ---
-description: O URL da atividade determina a página que é usada no teste multivariado (MVT) e que é aberta quando o teste é criado no Target.
 keywords: Direcionamento
-seo-description: O URL da atividade determina a página que é usada no teste multivariado (MVT) e que é aberta quando o teste é criado no Target.
-seo-title: URL da atividade
-solution: Target
+description: O URL da atividade determina a página que é usada no teste multivariado (MVT) e que é aberta quando o teste é criado no Target.
 title: URL da atividade
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
