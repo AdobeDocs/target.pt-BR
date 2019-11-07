@@ -1,13 +1,11 @@
 ---
-description: Perguntas frequentes sobre o Adobe Target para aplicativos móveis.
 keywords: aplicativo para dispositivos móveis;perguntas frequentes;faq;aplicativo para dispositivos móveis alvo
-seo-description: Perguntas frequentes sobre o Adobe Target para aplicativos móveis.
-seo-title: Perguntas frequentes sobre o Adobe Target para aplicativos móveis
+description: Perguntas frequentes sobre o Adobe Target para aplicativos móveis.
 title: Perguntas frequentes sobre o Adobe Target para aplicativos móveis
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
