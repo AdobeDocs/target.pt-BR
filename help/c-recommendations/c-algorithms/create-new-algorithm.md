@@ -1,15 +1,9 @@
 ---
-description: Critérios controlam o conteúdo de suas atividades do Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
-seo-description: Critérios controlam o conteúdo de suas atividades do Adobe Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
-seo-title: Criar critérios
-solution: Target
+description: Critérios controlam o conteúdo de suas atividades do Adobe Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
 title: Criar critérios
-title-outputclass: premium
-topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
