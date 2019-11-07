@@ -1,14 +1,11 @@
 ---
-description: Crie uma pasta para armazenar itens na biblioteca de ofertas.
 keywords: conteúdo; criar pasta; ativos; mover pasta; copiar pasta; excluir pasta; pasta de download; pasta
-seo-description: Crie uma pasta para armazenar itens na biblioteca de ofertas.
-seo-title: Criar uma pasta de ofertas
-solution: Target
+description: Crie uma pasta para armazenar itens na biblioteca de ofertas.
 title: Criar uma pasta de ofertas
 topic: Padrão
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -42,11 +39,11 @@ Ver as informações da pasta.
 
 Editar a pasta.
 
-### Copiar ![](assets/icon_copy.png)
+### Copiar  ![](assets/icon_copy.png)
 
 Copiar a pasta.
 
-### Mover ![](assets/icon_move_folder.png)
+### Mover  ![](assets/icon_move_folder.png)
 
 Clique no ícone, navegue até o local onde deseja mover a pasta e clique no ícone Soltar.
 
@@ -79,6 +76,6 @@ Baixa a pasta e seu conteúdo.
 
 Compartilha a pasta e seu conteúdo na Adobe Creative Cloud.
 
-### Copiar ![](assets/icon_copy_content.png)
+### Copiar  ![](assets/icon_copy_content.png)
 
 Copia a pasta e seu conteúdo.
