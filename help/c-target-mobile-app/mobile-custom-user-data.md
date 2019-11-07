@@ -1,13 +1,11 @@
 ---
-description: Você pode enviar informações adicionais sobre a localização ou o usuário para o Target como pares de nome-valor.
 keywords: aplicativo móvel, enviar dados aplicativo móvel, aplicativo móvel target, dados de usuários personalizados móveis, dados personalizados de aplicativo móvel
-seo-description: Você pode enviar informações adicionais sobre a localização ou o usuário para o Target como pares de nome-valor.
-seo-title: iOS - Enviar dados do usuário personalizados
+description: Você pode enviar informações adicionais sobre a localização ou o usuário para o Target como pares de nome-valor.
 title: iOS - Enviar dados do usuário personalizados
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
