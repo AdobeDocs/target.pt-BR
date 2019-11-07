@@ -1,14 +1,11 @@
 ---
-description: As informações sobre como implantar a biblioteca do Adobe Target JavaScript, a at.js, usando o Adobe Launch, sem um gerenciador de tags ou usando o Adobe Dynamic Tag Management (DTM).
 keywords: implementar; at.js; biblioteca javascript
-seo-description: As informações sobre como implantar a biblioteca do Adobe Target JavaScript, a at.js, usando o Adobe Launch, sem um gerenciador de tags ou usando o Adobe Dynamic Tag Management (DTM).
-seo-title: Como implantar a at.js
-solution: Target
+description: As informações sobre como implantar a biblioteca do Adobe Target JavaScript, a at.js, usando o Adobe Launch, sem um gerenciador de tags ou usando o Adobe Dynamic Tag Management (DTM).
 title: Como implantar a at.js
 topic: Padrão
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
