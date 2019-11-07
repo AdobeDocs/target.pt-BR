@@ -1,14 +1,11 @@
 ---
-description: Esta página mostra as alterações em cada versão da mbox.js.
 keywords: alterações do mbox.js; versões do mbox.js
-seo-description: Esta página mostra as alterações em cada versão da mbox.js.
-seo-title: Detalhes da versão da mbox.js
-solution: Target
-subtopic: Introdução
+description: Esta página mostra as alterações em cada versão da mbox.js.
 title: Detalhes da versão da mbox.js
+subtopic: Introdução
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -21,7 +18,7 @@ Esta página mostra as alterações em cada versão da mbox.js.
 >
 >Recomendamos que todos os usuários mbox.js atualizem para a versão 57 ou posterior. Alguns usuários tiveram problemas de limite de tempo quando `target.js` não pôde ser carregada. A versão 57 corrigiu esse problema. No entanto, se você estiver usando o serviço[!DNL Experience Cloud Visitor ID], a versão 58 ou posterior será necessária.
 
-A maneira como o Target responde a chamadas de sua página dependerá da versão da biblioteca do Target em uso, se a implementação da ID de visitante estiver presente e se a ID de visitante existir. Para obter informações, consulte [Respostas de chamada do Target pela Versão da biblioteca](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+A maneira como o Target responde a chamadas de sua página dependerá da versão da biblioteca do Target em uso, se a implementação da ID de visitante estiver presente e se a ID de visitante existir. Para obter informações, consulte  [Respostas de chamada do Target pela Versão da biblioteca](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
