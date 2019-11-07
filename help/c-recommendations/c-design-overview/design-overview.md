@@ -1,14 +1,10 @@
 ---
-description: Informações gerais sobre designs que definem como as recomendações são exibidas em uma página.
 keywords: design de recomendações, modelo, criar design, entrega, saída
-seo-description: Informações gerais sobre designs que definem como as recomendações são exibidas em uma página.
-seo-title: Visão geral do design
-solution: Target
+description: Informações gerais sobre designs que definem como as recomendações são exibidas em uma página.
 title: Visão geral do design
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +23,7 @@ O Target também pode enviar suas recomendações como objetos JSON que podem se
 
 O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configurar uma atividade por meio do editor baseado em formulário.
 
-1. Crie um design na Biblioteca de projetos ou no fluxo de trabalho baseado em formulário. Se você tentar fazer isso dentro do fluxo de trabalho do Visual Experience Composer (VEC), poderá criar nada além de um design de HTML, que está envolvido com uma `<div>` para fins de rastreamento de cliques.
+1. Crie um design na Biblioteca de projetos ou no fluxo de trabalho baseado em formulário. Se você tentar fazer isso dentro do fluxo de trabalho do Visual Experience Composer (VEC), poderá criar nada além de um design de HTML, que está envolvido com uma  `<div>` para fins de rastreamento de cliques.
 1. Verifique se a opção "HTML Design" está desativada:
 
    ![](assets/html_design_toggle.png)
