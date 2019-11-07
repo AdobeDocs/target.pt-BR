@@ -1,14 +1,11 @@
 ---
-description: Assista a vídeos de treinamento para ajudá-lo a aproveitar ao máximo o Adobe Target Standard e o Target Premium.
 keywords: vídeos de treinamento;youtube;videos;vídeo training;tutorial;tutoriais;vídeo
-seo-description: Assista aos vídeos de treinamento para ajudá-lo a tirar o maior proveito do Target Standard e do Target Premium.
-seo-title: Vídeos de treinamento para o Adobe Target Standard e Premium
-solution: Target
+description: Assista aos vídeos de treinamento para ajudá-lo a tirar o maior proveito do Target Standard e do Target Premium.
 title: Vídeos de treinamento para o Adobe Target Standard e Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
