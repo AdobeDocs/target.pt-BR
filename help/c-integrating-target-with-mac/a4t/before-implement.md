@@ -1,14 +1,10 @@
 ---
-description: Várias alterações ocorrem no processo de coleta de dados quando o Analytics é habilitado como a fonte de geração de relatórios para o Target (A4T).
 keywords: Recommendations
-seo-description: Várias alterações ocorrem no processo de coleta de dados quando o Analytics é habilitado como a fonte de geração de relatórios para o Target (A4T).
-seo-title: Antes da implementação Adobe Analytics como origem de relatório do Adobe Target (A4T)
-solution: Target
-title: Antes da implementação
-topic: Premium
+description: Várias alterações ocorrem no processo de coleta de dados quando o Analytics é habilitado como a fonte de geração de relatórios para o Target (A4T).
+title: Antes da implementação  Adobe Analytics como origem de relatório do Adobe Target (A4T)
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -66,7 +62,7 @@ Este aumento é refletido em todos os serviços e ferramentas do Adobe Analytics
 
 Saiba que o aumento da latência começa depois de implementar o serviço de ID de visitante da Experience Cloud, mesmo que essa integração não tenha sido integralmente implementada.
 
-## ID suplementar {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## ID suplementar  {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Todas as chamadas do Target usadas por uma atividade A4T para entregar conteúdo ou registrar a métrica de meta devem ter um hit do Analytics correspondente que compartilhe a mesma ID suplementar do A4T para funcionar corretamente.
 
