@@ -1,15 +1,11 @@
 ---
-description: Você pode criar públicos no Adobe Target para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
 keywords: opções do navegador, tipo, tipo do navegador, idioma do navegador, idioma, versão, versão do navegador
-seo-description: Você pode criar públicos no Adobe Target para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
-seo-title: Opções de navegador nos públicos do Adobe Target
-solution: Target
+description: Você pode criar públicos no Adobe Target para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
+title: Opções de navegador nos públicos do Adobe Target
 subtopic: Teste multivariado
-title: Navegador
-topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -73,7 +69,7 @@ Selecione **[!UICONTROL Tipo]** e escolha “é igual” ou “não é igual”.
 
 Selecione um ou mais navegadores. Várias opções estão conectadas a um OR.
 
-### Idioma {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Direcione ou exclua determinados navegadores configurados para usar idiomas específicos.
 
@@ -100,7 +96,7 @@ Os seguintes idiomas de navegador podem ser direcionados ou excluídos:
 * Espanhol
 * Chinês tradicional
 
-### Versão {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versão  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Direcione ou exclua determinadas versões de um navegador.
 
