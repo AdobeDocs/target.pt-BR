@@ -1,15 +1,12 @@
 ---
-description: Informações sobre a mbox global, um nome usado para fazer referência à chamada única de servidor feita na parte superior de cada página da Web na implementação do Adobe Target.
 keywords: mbox global; implementar mbox.js; implementar o at.js
-seo-description: Informações sobre a mbox global, um nome usado para fazer referência à chamada única de servidor feita na parte superior de cada página da Web na implementação do Adobe Target.
-seo-title: Entender a mbox global
-solution: Target
+description: Informações sobre a mbox global, um nome usado para fazer referência à chamada única de servidor feita na parte superior de cada página da Web na implementação do Adobe Target.
+title: Entender a mbox global
 subtopic: Introdução
-title: Entender a mbox global no Adobe Target
 topic: Padrão
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
