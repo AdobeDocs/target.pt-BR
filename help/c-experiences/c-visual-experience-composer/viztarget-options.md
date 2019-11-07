@@ -1,14 +1,11 @@
 ---
-description: Ao clicar em um elemento de página no Visual Experience Composer (VEC), um menu mostrará as opções disponíveis para esse tipo de elemento.
 keywords: opções do visual experience composer, opções do visual experience composer, opções de experiência, editar texto, editar html, editar texto/html, editar cor de fundo, cor de fundo, inserir elemento, editar link, link, link do visual experience composer, editar classe css, classe css, trocar oferta, troca de oferta, trocar imagem, troca de imagem, remover item, remoção de item, ocultar item, ocultação de item, reorganizar, mover elemento, movimentação de elemento, redimensionar elemento, redimensionamento de elemento, elemento, expandir seleção, navegar até este link, navegar pelo link, navegação no link, navegar, desfazer, refazer, desfazer/refazer
-seo-description: Ao clicar em um elemento de página no Visual Experience Composer (VEC) do Adobe Target, um menu mostrará as opções disponíveis para esse tipo de elemento.
-seo-title: Opções do Visual Experience Composer (VEC) do Adobe Target
-solution: Target
-title: Opções do Visual Experience Composer
+description: Ao clicar em um elemento de página no Visual Experience Composer (VEC) do Adobe Target, um menu mostrará as opções disponíveis para esse tipo de elemento.
+title: Opções do Visual Experience Composer (VEC) do Adobe Target
 topic: Padrão
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -54,7 +51,7 @@ Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pod
 
 **Observação:** essa opção não está disponível para um elemento no qual uma imagem do fundo está definida.
 
-#### Estilos {#styles}
+#### Estilos  {#styles}
 
 Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.
 
@@ -313,11 +310,11 @@ Redimensionar um elemento na página. Ao selecionar [!UICONTROL Redimensionar], 
 
 **Observação:** elementos em linha não podem ser redimensionados.
 
-#### Mover {#move}
+#### Mover  {#move}
 
 Mover elementos na página. Diferentemente da opção [!UICONTROL Reorganizar], [!UICONTROL Mover] não altera a posição de outros elementos para abrir espaço para o elemento que está sendo movido. Use as teclas de seta para ajustar o movimento. (Aprimoramento planejado: suporte para garantir que os elementos movidos não estejam ocultos atrás de outros elementos.)
 
-Em alguns casos, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele. Um elemento não pode ser movido para fora de um contêiner que tem a seguinte propriedade CSS: `overflow: hidden`.
+Em alguns casos, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele. Um elemento não pode ser movido para fora de um container que tenha a seguinte propriedade CSS: `overflow: hidden`.
 
 #### Ocultar
 
@@ -343,7 +340,7 @@ Desfaça as alterações feitas em suas atividades durante uma sessão de altera
 
 ## Considerações {#considerations}
 
-* Se uma oferta tiver conteúdo HTML, consulte "Como o at.js renderiza ofertas com conteúdo HTML" em [Como o at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) para obter mais informações.
+* Se uma oferta inclui conteúdo HTML, consulte “Como o at.js renderiza ofertas com conteúdo HTML” em [Como o at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render), para obter mais informações.
 
 ## Navegar pelos elementos usando o caminho DOM {#dom-path}
 
