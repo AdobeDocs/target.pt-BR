@@ -1,14 +1,11 @@
 ---
-description: O Target determina qual atividade (ou quais atividades) mostrar em uma página de maneira diferente, dependendo da interface do Target e da função de criação de atividade (Visual Experience Composer ou Compositor baseado em formulário) que você está usando.
 keywords: configurações;priority
-seo-description: O Adobe Target determina qual atividade (ou atividades) deve ser entregue para uma página de forma diferente, dependendo da interface do Target e da função de criação da atividade (Visual Experience Composer ou Criador baseado em forma) que você está usando.
-seo-title: Priority in Adobe Target
-solution: Target
-title: Prioridade
+description: O Adobe Target determina qual atividade (ou atividades) deve ser entregue para uma página de forma diferente, dependendo da interface do Target e da função de criação da atividade (Visual Experience Composer ou Criador baseado em forma) que você está usando.
+title: Prioridade no Adobe Target
 topic: Padrão
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
