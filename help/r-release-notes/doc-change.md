@@ -1,14 +1,11 @@
 ---
-description: Essa página lista alterações importantes feitas à documentação do Target.
-keywords: registro de alterações da documentação do target, atualizações da documentaçãonovos tópicos;edições
-seo-description: Esta página lista alterações importantes feitas na documentação do Adobe Target, ordenadas por versões.
-seo-title: Alterações na documentação do produto Adobe Target.
-solution: Target
-title: Alterações de documentação
+keywords: registro de alterações da documentação de destino;atualizações da documentação;novos tópicos;edições
+description: Esta página lista alterações importantes feitas na documentação do Adobe Target, ordenadas por versões.
+title: Alterações na documentação do produto Adobe Target.
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
