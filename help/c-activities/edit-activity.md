@@ -1,14 +1,11 @@
 ---
-description: Informações sobre as diferentes maneiras de editar uma atividade existente, incluindo como salvar uma atividade no formato de rascunho.
 keywords: atividades; atividade; tipos de atividade; editar atividade; editar; rascunho
-seo-description: Informações sobre as diferentes maneiras de editar uma atividade existente, incluindo como salvar uma atividade no formato de rascunho.
-seo-title: Editar uma atividade ou Salvar como rascunho
-solution: Target
+description: Informações sobre as diferentes maneiras de editar uma atividade existente, incluindo como salvar uma atividade no formato de rascunho.
 title: Editar uma atividade ou Salvar como rascunho
 topic: Padrão
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -47,22 +44,22 @@ O destino fornece vários locais na IU onde você pode editar atividades existen
 
    * **Editar Experiências:** Leva você diretamente à página [!UICONTROL Experiências] (a primeira etapa no fluxo de trabalho orientado). Faça suas alterações desejadas e use o botão dividido (explicado acima) para salvar a atividade.
 
-      * Clique em **[!UICONTROL Salvar e fechar]para salvar suas alterações e exibir a página de visão geral da atividade.**
+      * Clique em **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página de visão geral da atividade.
       * Clique em **[!UICONTROL Salvar]** para salvar suas alterações e continuar nessa etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
    * **Editar direcionamento:** Leva você diretamente à página [!UICONTROL Direcionamento] (a primeira etapa no fluxo de trabalho orientado). Faça suas alterações desejadas e use o botão dividido (explicado acima) para salvar a atividade.
 
-      * Clique em **[!UICONTROL Salvar e fechar]para salvar suas alterações e exibir a página de visão geral da atividade.**
+      * Clique em **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página de visão geral da atividade.
       * Clique em **[!UICONTROL Salvar]** para salvar suas alterações e continuar nessa etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
    * **Editar metas e configurações:** Leva você diretamente à página [!UICONTROL Metas e configurações] (a etapa final no fluxo de trabalho orientado). Faça suas alterações desejadas e use o botão dividido (explicado acima) para salvar a atividade.
 
-      * Clique em **[!UICONTROL Salvar e fechar]para salvar suas alterações e exibir a página de visão geral da atividade.**
+      * Clique em **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página de visão geral da atividade.
       * Clique em **[!UICONTROL Salvar]** para salvar suas alterações e continuar nessa etapa, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
 
 
-## Trabalhar com atividades herdadas criadas no Recommendations Classic {#classic}
+## Trabalhar com as atividades herdadas criadas no Recommendations Classic {#classic}
 
-A lista [!UICONTROL Atividades] exibe atividades criadas em várias fontes, incluindo [!DNL Recommendations Classic]. As seguintes ações estão disponíveis ao trabalhar com atividades herdadas criadas em [!DNL Recommendations Classic]:
+As atividades de exibição da lista de [!UICONTROL Atividades] criadas em várias fontes, incluindo [!DNL Recommendations Classic]. As seguintes ações estão disponíveis ao trabalhar com as atividades herdadas criadas em [!DNL Recommendations Classic]:
 
 * [!UICONTROL Ativar]
 * [!UICONTROL Desativar]
@@ -70,7 +67,7 @@ A lista [!UICONTROL Atividades] exibe atividades criadas em várias fontes, incl
 * [!UICONTROL Copiar]
 * [!UICONTROL Excluir]
 
-Não é possível editar uma [!DNL Recommendations] atividade diretamente. Se quiser editar a atividade, você deve criar uma cópia da atividade usando [!DNL Target Premium] e salvar a atividade recém-criada. Essa atividade recém-criada pode ser editada conforme necessário.
+Não é possível editar uma [!DNL Recommendations] atividade diretamente. Se você quiser editar a atividade, crie uma cópia da atividade usando [!DNL Target Premium] e depois salve a atividade recém-criada. Essa atividade recém-criada pode ser editada conforme necessário.
 
 ## Salvar uma atividade no formato de rascunho {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
@@ -97,7 +94,7 @@ Um espaço de trabalho permite que uma organização atribua um conjunto especí
 
 Se você fizer parte de uma organização multinacional, poderá ter um espaço de trabalho para suas páginas da Web, propriedades ou sites na Europa e outro espaço de trabalho para suas páginas, propriedades ou sites da Web nos EUA. Se fizer parte de uma organização multimarcas, poderá ter um espaço de trabalho separado para cada uma de suas marcas.
 
-Para obter mais informações sobre espaços de trabalho e a funcionalidade Permissões de usuário empresarial, consulte [Permissões de usuário empresarial](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Para obter mais informações sobre espaços de trabalho e a funcionalidade Permissões de usuário empresarial, consulte  [Permissões de usuário empresarial](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
 Se você tiver Permissões e usuário empresarial ativadas no seu ambiente, poderá copiar atividades para o mesmo espaço de trabalho, ou para outro espaço de trabalho. Atualmente, não é possível mover uma atividade de um espaço de trabalho para outro. Para copiar uma atividade para outro espaço de trabalho, na página [!UICONTROL Atividades], passe o mouse sobre a atividade que você deseja copiar, clique no ícone [!UICONTROL Copiar] e selecione o espaço de trabalho desejado na lista suspensa.
 
