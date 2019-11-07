@@ -1,16 +1,10 @@
 ---
-description: As entidades referem-se a itens que você quer recomendar. As entidades podem ser produtos, conteúdo (como artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante.
 keywords: produto, coleções
-seo-description: As entidades se referem aos itens que você deseja recomendar usando o Adobe Target. As entidades podem ser produtos, conteúdo (como artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante.
-seo-title: Entidades no Adobe Target
-solution: Target
-title: Entidades
-title-outputclass: premium
-topic: Premium
+description: As entidades se referem aos itens que você deseja recomendar usando o Adobe Target. As entidades podem ser produtos, conteúdo (como artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante.
+title: Entidades no Adobe Target
 uuid: 1940dd31-b416-413e-aa6c-babbc8883d47
-badge: premium
 translation-type: tm+mt
-source-git-commit: 5a10156bfe235d894c7ee3518cbf685deed324ca
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
