@@ -1,14 +1,11 @@
 ---
-description: Crie públicos-alvo somente de atividades dentro do fluxo de trabalho orientado de três etapas ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na Biblioteca de público para uso em outras atividades.
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, somente atividade, adhoc
-seo-description: Crie públicos somente de atividades dentro do fluxo de trabalho orientado de três etapas do Adobe Target ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na Biblioteca de público para uso em outras atividades.
-seo-title: Criar um público-alvo com apenas uma atividade no Adobe Target
-solution: Target
-title: Criar um público-alvo com apenas uma atividade
+description: Crie públicos somente de atividades dentro do fluxo de trabalho orientado de três etapas do Adobe Target ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na Biblioteca de público para uso em outras atividades.
+title: Criar um público-alvo com apenas uma atividade  no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
