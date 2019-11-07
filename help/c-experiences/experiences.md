@@ -1,14 +1,11 @@
 ---
-description: Uma experiência determina qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 keywords: experiência, visual experience composer, enhanced experience composer, experience composer baseado em formulário, composer de formulário, visual composer, experience composer, conteúdo misto, iframe, edição do iframe, editar iframe, x-frame-options, opções do x frame, origem cruzada, problemas de origem cruzada, fluxo de trabalho de autenticação, lista negra de ip, lista de ips permitidos
-seo-description: Uma experiência determina qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
-seo-title: Experiências e ofertas
-solution: Target
+description: Uma experiência determina qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 title: Experiências e ofertas
 topic: Padrão
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
