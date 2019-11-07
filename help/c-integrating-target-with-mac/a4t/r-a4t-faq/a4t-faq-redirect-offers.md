@@ -1,14 +1,11 @@
 ---
-description: Este tópico contém respostas para perguntas frequentes sobre o uso de ofertas de redirecionamento ao usar o Analytics como origem de geração de relatórios do Target (A4T).
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; redirecionar; oferta de redirecionamento; adobe-mc-sdid; adobe_mc_ref
-seo-description: Este tópico contém respostas para perguntas frequentes sobre o uso de ofertas de redirecionamento ao usar o Analytics como origem de geração de relatórios do Target (A4T).
-seo-title: Ofertas de redirecionamento - Perguntas frequentes sobre o A4T
-solution: Target
+description: Este tópico contém respostas para perguntas frequentes sobre o uso de ofertas de redirecionamento ao usar o Analytics como origem de geração de relatórios do Target (A4T).
 title: Ofertas de redirecionamento - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -43,15 +40,15 @@ Algumas discrepâncias de dados são esperadas. Para obter mais informações, c
 
 ## Por que as visualizações de página na página original e na página de redirecionamento são contadas às vezes? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Ao usar a versão 1.6.3 ou posterior do at.js, isso não é problema. Essa condição de corrida afeta apenas os clientes que usam versões anteriores. A equipe do Target mantém duas versões do at.js: a versão atual e a segunda mais recente. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Ao usar o at.js versão 1.6.3 ou posterior, isso não é um problema. Essa condição de corridas afeta apenas os clientes que usam as versões anteriores. A equipe do Target mantém duas versões do at.js, a versão atual e a segunda versão mais recente. Atualize o at.js conforme necessário para garantir que você esteja executando uma [versão compatível](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-Se você estiver usando uma versão anterior e não suportada do at.js, há uma possibilidade de que uma condição de raça possa ocorrer que possa fazer com que a chamada do Analytics seja acionada antes que o redirecionamento seja executado na primeira página. Isso pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam todas contadas. Essa situação resulta em uma exibição de página extra na primeira página, quando o visitante nunca "viu" realmente essa primeira página.
+Se você estiver usando uma versão anterior não compatível do at.js, existe a possibilidade de ocorrer uma condição de corrida que pode fazer com que a chamada do Analytics seja acionada antes que o redirecionamento seja executado na primeira página. Isso pode fazer com que as visualizações de página na página original e na página de redirecionamento sejam todas contadas. Essa situação resulta em uma exibição de página extra na primeira página, quando o visitante nunca "viu" realmente essa primeira página.
 
 Usar o compositor baseado em formulário para criar uma atividade de redirecionamento é recomendado para aumentar a velocidade do redirecionamento da página. Isto acontece devido ao local onde o código é executado na página. Além disso, é recomendável criar uma oferta de redirecionamento para cada experiência, até mesmo para a experiência padrão, na qual o redirecionamento retornaria a página original. Isso garante que, se ocorrer uma contagem incorreta, ela ocorrerá em todas as experiências, de forma que o relatório e a análise ainda sejam válidos para o teste.
 
-Um motivo pelo qual você pode usar ofertas de redirecionamento para todas as experiências na atividade, incluindo a experiência padrão (controle), é colocar as mesmas condições em todas as experiências. Por exemplo, se a experiência padrão não tiver uma oferta de redirecionamento, mas as outras experiências tiverem ofertas de redirecionamento, a velocidade da experiência sem a oferta de redirecionamento terá uma vantagem inerente. As ofertas de redirecionamento são recomendadas apenas para cenários temporários, como testes. Ofertas de redirecionamento não são recomendadas para cenários permanentes, como personalização. Depois de determinar o "vencedor", você deve remover o redirecionamento para melhorar o desempenho de carregamento da página.
+Um motivo para usar ofertas de redirecionamento para todas as experiências na atividade, incluindo a experiência padrão (controle), é colocar as mesmas condições em todas as experiências. Por exemplo, se a experiência padrão não tiver uma oferta de redirecionamento, mas as outras experiências tiverem ofertas redirecionadas, a velocidade da experiência sem a oferta de redirecionamento terá uma vantagem inerente. O redirecionamento de ofertas é recomendado apenas para cenários temporários, como testes. O redirecionamento de ofertas não é recomendado para cenários permanentes, como personalização. Depois de determinar o “vencedor”, você deve remover o redirecionamento para melhorar o desempenho do carregamento da página.
 
-For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+Para obter mais informações sobre esse problema, consulte as informações das “Ofertas de redirecionamento” em [Problemas conhecidos](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Posso usar as ofertas de redirecionamento com o A4T se eu estiver usando a biblioteca JavaScript da mbox.js? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
@@ -74,7 +71,7 @@ Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.
 
-## Meus servidores da web estão removendo esses parâmetros de meus URLs. O que devo fazer? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meus servidores da web estão removendo esses parâmetros de meus URLs. O que devo fazer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Você precisará trabalhar com sua equipe de TI para colocar esses parâmetros (`adobe_mc_sdid` e `adobe_mc_ref`) na lista de permissões.
 
