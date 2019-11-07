@@ -1,14 +1,10 @@
 ---
-description: Informações para ajudar a definir os elementos que você quer que apareçam em seu relatório. As definições de relatório podem ser salvas para uso posterior.
 keywords: Target, relatórios, configurações de relatório, predefinição, predefinição de direcionamento, métrica, público-alvo, intervalo de datas, configurações, download, exibição de tabela, exibição em gráfico, elevação média, elevação, limite de elevação, intervalo de confiança, confiança, contribuição de localização, média de execução, metodologia de contagem
-seo-description: Informações para ajudar a definir os elementos que você quer que apareçam em seu relatório. As definições de relatório podem ser salvas para uso posterior.
-seo-title: Configurações do relatório
-solution: Target
+description: Informações para ajudar a definir os elementos que você quer que apareçam em seu relatório. As definições de relatório podem ser salvas para uso posterior.
 title: Configurações do relatório
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -92,7 +88,7 @@ Clique na lista suspensa **[!UICONTROL Métrica do relatório]** para selecionar
 
 Por padrão, a métrica principal é determinada na configuração de métricas de sucesso ao criar a atividade. Se você alterar a configuração e salvar novamente a atividade, a métrica principal da geração de relatórios será atualizada.
 
-Para obter mais informações sobre a seleção de várias métricas para visualização nos relatórios, consulte [Exibir várias métricas em um relatório](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Para obter mais informações sobre a seleção de várias métricas para visualização nos relatórios, consulte  [Exibir várias métricas em um relatório](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Público-alvo {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -150,11 +146,11 @@ Clique no ícone de download para baixar dados de relatório em um formato [!DNL
 
 Clique em no ícone de Atualização para atualizar a tabela do relatório e a exibição em gráfico sem atualizar a página inteira, sua configuração ou seu intervalo de datas.
 
-## Mais opções {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Mais opções  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Clique no ícone de Mais opções (três elipses verticais) para acessar as opções [!UICONTROL Editar atividade] e [!UICONTROL Exibir URLs de experiência].
 
-## Exibição em tabela {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Exibição em tabela  {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Clique no ícone de **[!UICONTROL Exibição em tabela]para exibir o relatório como uma tabela.**
 
@@ -173,7 +169,7 @@ Considere o seguinte:
 * Disponível somente quando os relatórios estão sendo exibidos em Exibição em tabela.
 * Este recurso não está disponível para atividades que usam o Analytics como fonte de relatórios (A4T).
 
-## Contribuição de localização {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribuição de localização  {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Clique no ícone de **[!UICONTROL Contribuição de localização]para que o relatório mostre a contribuição por localização.**
 
@@ -187,7 +183,7 @@ Na ilustração a seguir, somente as experiências Padrão, Centro-este e Total 
 
 ![Experiências](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
-## Média móvel {#section_59066693158C4433B87D07402C2BC6CD}
+## Média móvel  {#section_59066693158C4433B87D07402C2BC6CD}
 
 (Disponível somente ao exibir o relatório em gráficos)
 
