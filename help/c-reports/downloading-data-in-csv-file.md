@@ -1,15 +1,12 @@
 ---
-description: Baixe dados em um formato .csv para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
 keywords: relatórios, baixar relatórios, csv, métrica de sucesso, detalhes do pedido
-seo-description: Baixe dados em um formato .csv para importação rápida para Excel, Access ou outros programas de análise de dados usando o Adobe Target.
-seo-title: Download de dados em um arquivo CSV usando o Adobe Target
-solution: Target
+description: Baixe dados em um formato .csv para importação rápida para Excel, Access ou outros programas de análise de dados usando o Adobe Target.
+title: Download de dados em um arquivo CSV usando o Adobe Target
 subtopic: Teste multivariado
-title: Download de dados em um arquivo CSV
 topic: Padrão
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
