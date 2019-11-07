@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -18,6 +18,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 7 de novembro de 2019 | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Adição de uma amostra de código para o parâmetro adobeQA. |
 | 5 de novembro de 2019 | [Páginas do site](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Texto atualizado na seção "Solução de problemas". |
 | 4 de novembro de 2019 | [Perguntas frequentes sobre at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Texto atualizado em Perguntas frequentes: "Por que vejo mensagens de aviso, como 'ações com seletores ausentes'?" |
 | 31 de outubro de 2019 | [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Novo tópico. |
