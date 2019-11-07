@@ -1,14 +1,11 @@
 ---
-description: 'Informações sobre eventos personalizados para a at.js. '
-keywords: eventos personalizados;falha na solicitação;falha na solicitação;falha na renderização de conteúdo;falha na renderização de conteúdo;renderização de conteúdo bem-sucedida;biblioteca carregada;solicitação início;renderização de conteúdo início;renderização de conteúdo sem ofertas;redirecionamento de renderização de conteúdo
-seo-description: Informações sobre os eventos personalizados da biblioteca at.js de JavaScript do Adobe Target.
-seo-title: Informações sobre os eventos personalizados da biblioteca at.js de JavaScript do Adobe Target.
-solution: Target
+keywords: eventos personalizados; at.js; falha de solicitação; solicitação com êxito; falha na renderização de conteúdo; renderização de conteúdo com êxito; biblioteca carregada; início da solicitação; início da renderização de conteúdo; renderização de conteúdo não há ofertas; redirecionamento da renderização de conteúdo
+description: Informações sobre os eventos personalizados da biblioteca at.js de JavaScript do Adobe Target.
+title: Informações sobre os eventos personalizados da biblioteca at.js de JavaScript do Adobe Target.
 subtopic: Introdução
-title: Eventos personalizados da at.js
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
