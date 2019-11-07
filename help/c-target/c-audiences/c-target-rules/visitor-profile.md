@@ -1,14 +1,10 @@
 ---
-description: Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 keywords: perfil do visitante, perfil do visitante do target
-seo-description: Crie públicos no Adobe Target para direcionar os visitantes que atendem a parâmetros de perfil específicos.
-seo-title: Perfil do visitante
-solution: Target
-title: Criar públicos para direcionar perfis de visitantes usando o Adobe Target
-topic: Premium
+description: Crie públicos no Adobe Target para direcionar os visitantes que atendem a parâmetros de perfil específicos.
+title: Perfil do visitante
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
