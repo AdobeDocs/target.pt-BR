@@ -1,13 +1,10 @@
 ---
-description: Informações para ajudar a definir várias configurações na página Configurações da mbox.js.
 keywords: configurações avançadas de mbox.js; cliente; domínio do servidor; xdomain; nível de compactação; suporte a id de sessão do cliente; secureOnly; suporte a id do pc do cliente; passar página; url de referência; nível de tráfego; duração do tráfego; corpo da função mboxParameters(); corpo da função mboxSupported(); corpo da função mboxCookieDomain(); JavaScript extra; plug-in do SiteCatalyst; obter mbox.js como JavaScript com extração automática; cintilação; ocultação de corpo; ocultar corpo
-seo-description: Informações para ajudar a definir várias configurações na página Configurações da mbox.js.
-seo-title: Configurar mbox.js
-solution: Target
+description: Informações para ajudar a definir várias configurações na página Configurações da mbox.js.
 title: Configurar mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
