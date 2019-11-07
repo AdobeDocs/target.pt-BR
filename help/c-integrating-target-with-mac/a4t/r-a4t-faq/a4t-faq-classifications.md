@@ -1,14 +1,11 @@
 ---
-description: Este tópico contém respostas para as perguntas mais frequentes sobre classificação e uso do Analytics como fonte de geração de relatórios para o Target (A4T).
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; classificações; classificação; importador de classificações; post-tnt-action
-seo-description: Este tópico contém respostas para as perguntas mais frequentes sobre classificação e uso do Analytics como fonte de geração de relatórios para o Target (A4T).
-seo-title: Classificações - Perguntas frequentes sobre o A4T
-solution: Target
+description: Este tópico contém respostas para as perguntas mais frequentes sobre classificação e uso do Analytics como fonte de geração de relatórios para o Target (A4T).
 title: Classificações - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
