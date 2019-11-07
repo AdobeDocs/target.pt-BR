@@ -1,14 +1,11 @@
 ---
-description: 'Informações sobre a função adobe.target.getOffer() para at.js. '
-keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;funções;function
-seo-description: Informações sobre a função adobe.target.getOffer(options) da biblioteca at.js de JavaScript do Adobe Target.
-seo-title: Informações sobre a função adobe.target.getOffer(options) da biblioteca at.js de JavaScript do Adobe Target.
-solution: Target
+keywords: adobe.target.getOffer;getOffer;getoffer;obter oferta;at.js;funções;função
+description: Informações sobre a função adobe.target.getOffer(options) da biblioteca at.js de JavaScript do Adobe Target.
+title: Informações sobre a função adobe.target.getOffer(options) da biblioteca at.js de JavaScript do Adobe Target.
 subtopic: Introdução
-title: adobe.target.getOffer(options)
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +21,7 @@ Use com `adobe.target.applyOffer()` para processar a resposta ou use sua própri
 | mbox | String | Sim | Nome da mbox |
 | params | Objeto | Não | Parâmetros de mbox. Um objeto de pares de valores-chave que tem a seguinte estrutura:<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Função | Sim | Retorno de chamada para execução quando recebemos uma resposta do servidor. A função de retorno de chamada bem-sucedida receberá um único parâmetro que represente uma variedade de objetos em oferta. Este é um exemplo de retorno de chamada:<br>`function handleSuccess(response){......}`<br>Consulte Respostas abaixo para obter detalhes. |
-| error | Função | Sim | Retorno de chamada para execução quando recebemos um erro. Há alguns casos que são considerados errôneos:<ul><li>Código do status de HTTP diferente de 200 OK</li><li>Não foi possível analisar a resposta. Por exemplo, nós mal construímos JSON ou HTML ao invés de JSON.</li><li>A resposta contém a tecla "erro". Por exemplo, uma exceção foi lançada no Edge e não foi possível processar a solicitação apropriadamente. Podemos receber um erro quando uma mbox está bloqueada e não é possível recuperar o conteúdo dela, etc. A função de retorno de chamada de erro receberá dois parâmetros: status e erro. Veja um exemplo de retorno de chamada de erro: `function handleError(status, error){......}`</li></ul>Veja as respostas com erro abaixo para obter mais informações. |
+| error | Função | Sim | Retorno de chamada para execução quando recebemos um erro. Há alguns casos que são considerados errôneos:<ul><li>Código do status de HTTP diferente de 200 OK</li><li>Não foi possível analisar a resposta. Por exemplo, nós mal construímos JSON ou HTML ao invés de JSON.</li><li>A resposta contém a tecla "erro". Por exemplo, uma exceção foi lançada no Edge e não foi possível processar a solicitação apropriadamente. Podemos receber um erro quando uma mbox está bloqueada e não é possível recuperar o conteúdo dela, etc. A função de retorno de chamada de erro receberá dois parâmetros: status e erro. Veja um exemplo de retorno de chamada de erro:  `function handleError(status, error){......}`</li></ul>Veja as respostas com erro abaixo para obter mais informações. |
 | timeout | Número | Não | Tempo limite em milissegundos. Se não especificado, o tempo limite padrão em at.js será utilizado.<br>O tempo limite padrão pode ser definido na interface de usuário do [!DNL Target] em [!UICONTROL Configurar &gt; Implementação &gt; Editar configurações do Mbox.js &gt; Tempo limite]. |
 
 ## Exemplos {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
@@ -90,7 +87,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Respostas {#section_CF9FD236EF794620BCBF84EB80160183}
+## Respostas  {#section_CF9FD236EF794620BCBF84EB80160183}
 
 O parâmetro de resposta passado para o retorno de chamada de sucesso será uma variedade de ações. Uma ação é um objeto que geralmente tem o seguinte formato:
 
