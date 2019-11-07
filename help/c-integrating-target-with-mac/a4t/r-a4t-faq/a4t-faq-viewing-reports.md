@@ -1,14 +1,11 @@
 ---
-description: Este tópico contém respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics como a origem de geração de relatórios do Target (A4T).
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; relatório; relatórios; exibir relatórios; relatórios; metodologia de contagem; impressões; visitantes; visitas; métrica padrão; conversões de atividade; não especificado
-seo-description: Este tópico contém respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics como a origem de geração de relatórios do Target (A4T).
-seo-title: Exibição de relatórios - Perguntas frequentes sobre o A4T
-solution: Target
+description: Este tópico contém respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics como a origem de geração de relatórios do Target (A4T).
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -25,7 +22,7 @@ A metodologia de contagem especifica o que o Target usa como denominador para as
 * visitantes
 * visitas
 
-## Posso definir uma métrica padrão para os relatórios do Target? {#section_50C20D286AA042CCA958184C9C0767DD}
+## Posso definir uma métrica padrão para os relatórios do Target?  {#section_50C20D286AA042CCA958184C9C0767DD}
 
 Para o relatório Atividades, os administradores podem alterar a métrica padrão para que, toda vez que executem o relatório, mostrem as mesmas métricas. Caso contrário, o relatório será padronizado com a última métrica aplicada ao seu último relatório.
 
@@ -37,7 +34,7 @@ Os segmentos aplicados aos relatórios seguem a mesma forma de aplicar segmentos
 
 É possível aplicar segmentos a métricas com uma métrica calculada. Isso geralmente é feito quando você deseja criar um novo tipo de evento de sucesso. Por exemplo, se você quiser ver quantos visitantes retornados sua atividade gerou, ou quantos visitantes chegaram a uma determinada página para ver seu teste. Observe que o aumento e a confiança não podem ser atualmente gerados para métricas calculadas.
 
-## Devo usar visitantes, impressões de atividades ou visitas ao exibir relatórios? {#metrics}
+## Devo usar visitantes, impressões de atividades ou visitas ao exibir relatórios?  {#metrics}
 
 Existem várias opções, cada uma com suas próprias vantagens:
 
@@ -52,17 +49,17 @@ Considere o seguinte:
 
 * Todas as métricas acima são acionadas quando um usuário se qualifica para uma atividade e o conteúdo é retornado do [!DNL Target]. Isso não significa necessariamente que o usuário viu a oferta. Se uma experiência de atividade estiver abaixo da dobra e o usuário não rolar a página para baixo, a oferta foi distribuída pelo [!DNL Target], mas não foi vista pelo usuário.
 * [!UICONTROL Impressões de atividade] (medidas pelo [!DNL Target]) e [!UICONTROL Instâncias] (medidas pelo [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
-* Ao usar as métricas Impressões [!UICONTROL de] atividade e Conversões [!UICONTROL de] atividade no [!DNL Analysis Workspace], verifique se ambas as métricas têm os modelos de atribuição [!UICONTROL de mesmo toque] aplicados. Os modelos podem ser aplicados clicando na engrenagem de configurações da coluna, ativando os modelos [!UICONTROL de atribuição]não padrão e selecionando [!UICONTROL Mesmo toque]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
+* Ao usar as métricas [!UICONTROL Impressões de atividade] e [!UICONTROL Conversões de atividade] no [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição do [!UICONTROL Mesmo toque]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL Modelos de atribuição não padrão] e selecionando o [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição na visão geral [do IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos no Guia *de ferramentas do* Analytics.
 
 ## O que significa "conversões de atividade" se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
 "Conversões de atividades" estarão vazias se uma métrica do Analytics foi selecionada como a métrica de conversão da atividade.
 
-## Por que vejo "não especificado" nos relatórios do Analytics? O que isso significa? {#unspecified}
+## Por que vejo "não especificado" nos relatórios do Analytics? O que isso significa?  {#unspecified}
 
 ![](assets/unspecified.png)
 
-Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Geralmente, demora de 24 a 72 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
+Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Em geral, pode levar entre 24 e 72 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
 
 Após o período de classificação, os dados são exibidos nesses relatórios, aproximadamente uma hora depois de serem coletados no site. Todas as métricas, os segmentos e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
@@ -122,7 +119,7 @@ A métrica Visitantes únicos exibe o número de pessoas que foram expostas ao t
 
 Você pode diminuir o tempo que a variável do Target persiste em uma sessão; no entanto, isso geralmente é problemático para testes em que o evento de conversão não é tão provável de acontecer na mesma sessão.
 
-## Por que o mesmo visitante às vezes é contado em várias experiências no Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Por que o mesmo visitante às vezes é contado em várias experiências no Analytics?  {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 A lista a seguir explica os motivos pelos quais o mesmo visitante pode ser contado em várias experiências no Analytics:
 
