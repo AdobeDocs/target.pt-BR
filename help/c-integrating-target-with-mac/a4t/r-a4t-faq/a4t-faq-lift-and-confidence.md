@@ -1,14 +1,11 @@
 ---
-description: Este tópico contém respostas para as perguntas mais frequentes sobre aumento e confiança ao usar o Analytics como origem de geração de relatórios do Target (A4T).
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; aumento; ad hoc; construtor de relatórios; confiança
-seo-description: Este tópico contém respostas para as perguntas mais frequentes sobre aumento e confiança ao usar o Analytics como origem de geração de relatórios do Target (A4T).
-seo-title: Aumento e Confiança - Perguntas frequentes sobre o A4T
-solution: Target
+description: Este tópico contém respostas para as perguntas mais frequentes sobre aumento e confiança ao usar o Analytics como origem de geração de relatórios do Target (A4T).
 title: Aumento e Confiança - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -25,15 +22,15 @@ Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com a
 
 Aumento é a diferença percentual entre os resultados da página de controle e uma variante de teste bem-sucedida.
 
-## Como a confiança é calculada? {#section_97DB24D833E742988318CA65DA65DAD9}
+## Como a confiança é calculada?  {#section_97DB24D833E742988318CA65DA65DAD9}
 
 O nível de confiança é a probabilidade de a taxa de conversão medida diferir da taxa de conversão da página de campeão por outros motivos que não o acaso.
 
-## Por que não posso ver o aumento e a confiança nas métricas calculadas? {#section_D3E44E24782A409DBD88AE4D1595CB58}
+## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#section_D3E44E24782A409DBD88AE4D1595CB58}
 
 Atualmente, o aumento e a confiança não podem ser gerados para métricas calculadas. No entanto, na maioria dos casos, isso não deve ser um problema porque o aumento é normalizado pela métrica de normalização. Por exemplo, se você selecionar aumento para pedidos e a métrica de normalização for visitas, o aumento será calculado na proporção dos dois, que é a taxa de conversão.
 
-## Como o A4T gerencia os cálculos de confiança? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 O A4T usa cálculos de métricas não binárias com a soma dos dados quadrados. A variação é calculada usando a soma dos dados quadrados. Pedidos extremos não são levados em consideração.
 
