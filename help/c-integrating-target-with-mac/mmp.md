@@ -1,14 +1,11 @@
 ---
-description: Os públicos-alvo da Experience Cloud permitem que as soluções da Adobe Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site para que os mesmos dados possam ser usados por cada solução.
 keywords: Experience Cloud Audiences;audiences
-seo-description: Os públicos-alvo da Experience Cloud permitem que as soluções da Adobe Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site para que os mesmos dados possam ser usados por cada solução.
-seo-title: Públicos-alvo da Experience Cloud
-solution: Target
+description: Os públicos-alvo da Experience Cloud permitem que as soluções da Adobe Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site para que os mesmos dados possam ser usados por cada solução.
 title: Públicos-alvo da Experience Cloud
 topic: Padrão
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
