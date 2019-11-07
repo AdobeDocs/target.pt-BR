@@ -1,16 +1,11 @@
 ---
-description: Os URLs de experiência podem ser gerados para as atividades de Personalização automatizada do Target para ver o conteúdo da experiência diretamente em seu site antes que a atividade seja ativada para fins de visualização e controle de qualidade. Os URLs de experiência ignoram o direcionamento para forçar a visualização de uma experiência específica.
 keywords: visualização de experiência, urls de experiências, gerar urls, ver urls de experiências
-seo-description: Os URLs de experiência podem ser gerados para as atividades de Personalização automatizada do Target para ver o conteúdo da experiência diretamente em seu site antes que a atividade seja ativada para fins de visualização e controle de qualidade. Os URLs de experiência ignoram o direcionamento para forçar a visualização de uma experiência específica.
-seo-title: Compartilhar URLs de experiências para visualização de Automated Personalization fora do Target
-solution: Target
+description: Os URLs de experiência podem ser gerados para as atividades de Personalização automatizada do Target para ver o conteúdo da experiência diretamente em seu site antes que a atividade seja ativada para fins de visualização e controle de qualidade. Os URLs de experiência ignoram o direcionamento para forçar a visualização de uma experiência específica.
 title: Compartilhar URLs de experiências para visualização de Automated Personalization fora do Target
-title-outputclass: premium
 topic: Padrão
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
