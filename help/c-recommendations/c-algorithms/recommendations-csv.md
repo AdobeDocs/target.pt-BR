@@ -1,16 +1,10 @@
 ---
-description: Faça upload de um CSV para personalizar suas recomendações.
 keywords: criar critérios personalizados, algoritmos, critérios, critérios de recomendações, csv, ftp, carregar csv
-seo-description: Faça upload de um CSV para personalizar suas recomendações.
-seo-title: Upload dos critérios personalizados
-solution: Target
+description: Faça upload de um CSV para personalizar suas recomendações.
 title: Upload dos critérios personalizados
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
