@@ -1,13 +1,10 @@
 ---
-description: O Visual Experience Composer fornece uma interface visual para editar as experiências em sua página.
 keywords: Definição de metas; experiência; adicionar experiência; adicionar experiência
-seo-description: O Visual Experience Composer (VEC) no Adobe Target fornece uma interface visual para editar as experiências na sua página.
-seo-title: Adicionar experiência
-solution: Target
+description: O Visual Experience Composer (VEC) no Adobe Target fornece uma interface visual para editar as experiências na sua página.
 title: Adicionar experiência
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
