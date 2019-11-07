@@ -1,14 +1,11 @@
 ---
-description: Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Também há outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC).
 keywords: visual experience composer; práticas recomendadas do visual experience composer; limitações do visual experience composer; avisos do visual experience composer; práticas recomendadas do vec; vec
-seo-description: Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Também há outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC).
-seo-title: Práticas recomendadas e limitações do Visual Experience Composer
-solution: Target
+description: Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Também há outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC).
 title: Práticas recomendadas e limitações do Visual Experience Composer
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
