@@ -1,16 +1,10 @@
 ---
-description: Como uma atividade de personalização automatizada compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
 keywords: Recommendations
-seo-description: Como uma atividade de personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
-seo-title: Visualizar experiências para uma atividade de personalização automatizada (AP) no Adobe Target Visual Experience Composer
-solution: Target
-title: Visualizar experiências para Automated Personalization no Visual Experience Composer
-title-outputclass: premium
-topic: Premium
+description: Como uma atividade de personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
+title: Visualizar experiências para uma atividade de personalização automatizada (AP) no Adobe Target Visual Experience Composer
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
