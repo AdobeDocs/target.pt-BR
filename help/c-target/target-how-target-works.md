@@ -1,13 +1,10 @@
 ---
-description: Adobe Target integra-se com as páginas da Web por meio da biblioteca de JavaScript de at.js ou mbox.js.
 keywords: direcionamento, cookie, cookie de origem, cookie de origem
-seo-description: Adobe Target integra-se com as páginas da Web por meio da biblioteca de JavaScript de at.js ou mbox.js.
-seo-title: Como funciona o direcionamento
-solution: Target
+description: Adobe Target integra-se com as páginas da Web por meio da biblioteca de JavaScript de at.js ou mbox.js.
 title: Como funciona o direcionamento
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
