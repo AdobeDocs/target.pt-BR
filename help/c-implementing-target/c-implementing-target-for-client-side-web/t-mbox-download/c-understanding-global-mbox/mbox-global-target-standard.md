@@ -1,15 +1,12 @@
 ---
-description: Por padrão, o Target Standard cria uma mbox global chamada target-global-mbox, usada para executar atividades criadas no Target Standard. No entanto, se você já criou uma mbox global em suas páginas para suas implementações existentes, você pode usar essa mbox para suas atividades no Target Standard.
 keywords: mbox global; target classic; usar mbox global do target classic
-seo-description: Por padrão, o Target Standard cria uma mbox global chamada target-global-mbox, usada para executar atividades criadas no Target Standard. No entanto, se você já criou uma mbox global em suas páginas para suas implementações existentes, você pode usar essa mbox para suas atividades no Target Standard.
-seo-title: Usar uma mbox global de uma implementação existente
-solution: Target
-subtopic: Introdução
+description: Por padrão, o Target Standard cria uma mbox global chamada target-global-mbox, usada para executar atividades criadas no Target Standard. No entanto, se você já criou uma mbox global em suas páginas para suas implementações existentes, você pode usar essa mbox para suas atividades no Target Standard.
 title: Usar uma mbox global de uma implementação existente
+subtopic: Introdução
 topic: Padrão
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -41,6 +38,6 @@ Para usar sua mbox global existente no [!DNL Target Standard] e em sua implement
 1. Clique em **[!UICONTROL Enviar]**.
 
    Todas as atividades existentes foram atualizadas para usar a mbox global especificada, inclusive as atividades que foram anteriormente criadas e implementadas.
-   **Resolução de problemas na implementação de mbox global** *Por que a mbox global não está carregando ou por que há uma latência no carregamento da mbox global quando a página carrega?*
+   **Resolução de problemas na implementação de mbox global**  *Por que a mbox global não está carregando ou por que há uma latência no carregamento da mbox global quando a página carrega?*
 
-Certifique-se de que a referência mbox.js é a primeira chamada JavaScript na página. Para outras soluções para este problema, consulte [Implementação do Mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Certifique-se de que a referência mbox.js é a primeira chamada JavaScript na página. Para outras soluções para este problema, consulte  [Implementação do Mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
