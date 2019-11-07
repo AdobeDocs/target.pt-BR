@@ -1,14 +1,11 @@
 ---
-description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
 keywords: público-alvo, propensão, atributo de perfil, comparar, comparação, criar público-alvo, criação de público-alvo
-seo-description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
-seo-title: Criar um público-alvo de comparação do atributo de perfil no Adobe Target
-solution: Target
-title: Criar um público-alvo de comparação do atributo de perfil
+description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
+title: Criar um público-alvo de comparação do atributo de perfil  no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
