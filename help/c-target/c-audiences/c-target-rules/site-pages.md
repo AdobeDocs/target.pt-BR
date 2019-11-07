@@ -1,14 +1,11 @@
 ---
-description: Direcione visitantes que estão em uma página específica ou têm um parâmetro específico de mbox.
 keywords: páginas do site, páginas do site do target, direcionamento, página atual, página atual do target, página anterior, página anterior do target, páginas de aterrissagem, páginas de aterrissagem do target, mbox, mbox do target
-seo-description: Você pode direcionar os visitantes que estão em uma página específica ou têm um parâmetro de mbox específico usando o Adobe Target.
-seo-title: Páginas do site no Adobe Target
-solution: Target
-title: Páginas do site
+description: Você pode direcionar os visitantes que estão em uma página específica ou têm um parâmetro de mbox específico usando o Adobe Target.
+title: Páginas do site no Adobe Target
 topic: Padrão
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
