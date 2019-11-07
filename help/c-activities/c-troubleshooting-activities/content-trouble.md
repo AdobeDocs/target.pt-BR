@@ -1,15 +1,12 @@
 ---
-description: Se a página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo.
 keywords: depurar mbox; solucionar problemas de mbox; problemas de mbox; oscilação; mboxDebug; mboxTrace; token; depurador; prioridade; prioridade de atividade; Depurador da Adobe Experience Cloud; mbox orderConfirmPage; mbox de compra do SiteCatalyst; principal venda; vendedor principal
-seo-description: If your page does not display the expected content, there are a few steps you can take to debug content delivery in Adobe Target.
-seo-title: Troubleshoot content delivery in Adobe Target
-solution: Target
+description: Se sua página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo no Adobe Target.
+title: Solução de problemas de entrega de conteúdo no Adobe Target
 subtopic: Teste multivariado
-title: Soluções de problemas da entrega de conteúdo
 topic: Padrão
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -98,7 +95,7 @@ Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela 
 
 >[!NOTE]
 >
->Ensure that the URL fragment is after query string parameters. Anything after the first `#` is a fragment identifier and causes debugging parameters not to function correctly.
+>Certifique-se de que o fragmento do URL esteja depois dos parâmetros da string de consulta. Qualquer coisa depois do primeiro `#` é um identificador de fragmento e faz com que os parâmetros de depuração não funcionem corretamente.
 
 ## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
@@ -106,7 +103,7 @@ Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a im
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-For more detailed information, see [Debug at.js using the Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Para obter informações mais detalhadas, consulte [Depurar o at.js usando o depurador](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)da Adobe Experience Cloud.
 
 ## Se o target.js não for carregado durante a entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
