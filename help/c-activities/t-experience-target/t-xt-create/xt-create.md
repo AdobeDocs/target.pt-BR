@@ -1,14 +1,11 @@
 ---
-description: Use o Visual Experience Composer para criar uma atividade de direcionamento de experiência em uma página habilitada pelo Target e modificar partes da página no Target.
-seo-description: Use o Visual Experience Composer para criar uma atividade de Direcionamento de experiência (XT) em uma página habilitada pelo Target e modificar partes da página no Adobe Target.
-seo-title: Criar uma atividade de direcionamento de experiência
-solution: Target
-subtopic: Teste multivariado
+description: Use o Visual Experience Composer para criar uma atividade de Direcionamento de experiência (XT) em uma página habilitada pelo Target e modificar partes da página no Adobe Target.
 title: Criar uma atividade de direcionamento de experiência
+subtopic: Teste multivariado
 topic: Padrão
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
