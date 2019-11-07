@@ -1,14 +1,11 @@
 ---
-description: 'Informações sobre a função targetPageParams() para at.js. '
-keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;page parameters;at.js;functions;function
-seo-description: Informações sobre a função targetPageParams() da biblioteca at.js de JavaScript do Adobe Target.
-seo-title: Informações sobre a função targetPageParams() da biblioteca at.js de JavaScript do Adobe Target.
-solution: Target
+keywords: targetPageParams; targetpageparams; pageParams; pageparams; parâmetros da página; parâmetros da página; at.js; funções; função
+description: Informações sobre a função targetPageParams() da biblioteca at.js de JavaScript do Adobe Target.
+title: Informações sobre a função targetPageParams() da biblioteca at.js de JavaScript do Adobe Target.
 subtopic: Introdução
-title: targetPageParams()
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
