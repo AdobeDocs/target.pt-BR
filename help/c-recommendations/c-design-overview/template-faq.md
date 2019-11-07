@@ -1,16 +1,10 @@
 ---
-description: Lista de perguntas frequentes sobre os designs de recomendações.
 keywords: recomendações, perguntas frequentes, faq
-seo-description: Lista de perguntas frequentes sobre os designs de recomendações.
-seo-title: Perguntas e respostas sobre design
-solution: Target
+description: Lista de perguntas frequentes sobre os designs de recomendações.
 title: Perguntas e respostas sobre design
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,15 +13,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Lista de perguntas frequentes sobre os designs de recomendações.
 
-## O preço do meu item recomendado não está exibindo ambos os valores à direita do ponto decimal. Como posso exibi-los?
+## O preço do item recomendado não exibe os dois valores à direita da casa decimal. Como posso exibi-los?
 
-Por padrão, os valores numéricos (como `entity.value`) retornados nos modelos de design não exibirão zeros à direita após o ponto decimal. Por exemplo, se um item for US$ 35,00, `entity.value` será igual a 35 e apenas 35 será exibido na página, não US$ 35,00.
+Por padrão, os valores numéricos (como `entity.value`) retornados nos modelos de design não exibem zeros à direita após a casa decimal. Por exemplo, se um item for de $35,00, `entity.value` será igual a 35 e a página exibirá apenas 35 e não $35,00.
 
 Duas opções estão disponíveis para resolver esse problema.
 
-* Você pode usar scripts Velocity ou Javascript para aplicar formatação ao valor retornado.
+* É possível usar o script do Velocity ou Javascript para aplicar a formatação ao valor retornado.
 
-* Você pode passar o preço do item em dois atributos de entidade separados. A primeira, `entity.value`, pode ser usada para comparações numéricas (como regras de comparação de preços). O segundo deve ser um atributo personalizado, como `entity.displayValue` que armazena o valor da entidade como uma string para permitir a renderização adequada.
+* Você pode passar o preço do item em dois atributos de entidade separados. O primeiro, `entity.value`, pode ser usado para comparações numéricas (como regras de comparação de preço). O segundo deve ser um atributo personalizado, como `entity.displayValue`, que armazena o valor da entidade como uma string para permitir a renderização correta.
 
    Por exemplo,
 
@@ -37,11 +31,11 @@ Duas opções estão disponíveis para resolver esse problema.
 
 A ID da categoria não pode ser exibida no design. Como várias categorias podem ser armazenadas, o sistema não saberia qual categoria exibir.
 
-## Como devo mudar um design para obter uma atualização instantânea? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## Como devo mudar um design para obter uma atualização instantânea?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 A alteração do design que está atualmente em uso leva um tempo para atualizar. Para alterar o design imediatamente, crie um novo design, selecione-o na campanha e salve a recomendação.
 
-## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade? {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 O parâmetro `$key. *`value`*` captura a maioria das informações do produto para exibir dentro do design. Por exemplo: se você deseja exibir a miniatura dos principais produtos, use `$key.thumbnailURL`.
 
