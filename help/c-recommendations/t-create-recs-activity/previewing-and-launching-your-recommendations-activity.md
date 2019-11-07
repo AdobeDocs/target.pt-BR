@@ -1,16 +1,10 @@
 ---
-description: 'Depois de criar a atividade Recomendações, Teste A/B ou Direcionamento de experiência (XT) que contém as ofertas do Recommendations, você deverá visualizá-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Target Recommendations oferece várias maneiras de visualizar suas recomendações. '
 keywords: Recommendations;oferta;visualização;inicialização
-seo-description: 'Depois de criar suas atividades Recomendações, Teste A/B ou Direcionamento de experiência (XT) que contêm as ofertas do Adobe Target Recommendations, você deverá visualizá-las para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Target Recommendations oferece várias maneiras de visualizar suas recomendações. '
-seo-title: 'Depois de criar suas atividades Recomendações, Teste A/B ou Direcionamento de experiência (XT) que contêm as ofertas do Adobe Target Recommendations, você deverá visualizá-las para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Target Recommendations oferece várias maneiras de visualizar suas recomendações. '
-solution: Target
+description: 'Depois de criar suas atividades Recomendações, Teste A/B ou Direcionamento de experiência (XT) que contêm as ofertas do Adobe Target Recommendations, você deverá visualizá-las para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Target Recommendations oferece várias maneiras de visualizar suas recomendações. '
+title: 'Depois de criar suas atividades Recomendações, Teste A/B ou Direcionamento de experiência (XT) que contêm as ofertas do Adobe Target Recommendations, você deverá visualizá-las para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Target Recommendations oferece várias maneiras de visualizar suas recomendações. '
 subtopic: Recommendations
-title: Visualização e inicialização da atividade do Recommendations
-title-outputclass: premium
-topic: Premium
-badge: premium
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
