@@ -1,14 +1,11 @@
 ---
-description: Use as ofertas remotas para hospedar conteúdo fora do Target que o Target faz referência e entrega aos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
 keywords: oferta remota, matriz de seleção de oferta remota, conteúdo armazenado em cache, conteúdo dinâmico
-seo-description: Use as ofertas remotas para hospedar conteúdo fora do Target que o Target faz referência e entrega aos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
-seo-title: Criar ofertas remotas
-solution: Target
+description: Use as ofertas remotas para hospedar conteúdo fora do Target que o Target faz referência e entrega aos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
 title: Criar ofertas remotas
 topic: Padrão
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
