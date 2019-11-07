@@ -1,15 +1,12 @@
 ---
-description: Use uma AdBox para usar imagens em uma implementação externa.
 keywords: implementação; mbox.js não javascript; mbox; adbox
-seo-description: Use uma AdBox para fornecer imagens em uma implementação fora do site, usando o Adobe Target.
-seo-title: Criar uma Adbox para uma imagem usando o Adobe Target
-solution: Target
+description: Use uma AdBox para fornecer imagens em uma implementação fora do site, usando o Adobe Target.
+title: Criar uma Adbox para uma imagem usando o Adobe Target
 subtopic: Introdução
-title: Criar uma AdBox para uma imagem uso do Adobe Target
 topic: Padrão
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
