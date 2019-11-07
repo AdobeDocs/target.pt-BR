@@ -1,14 +1,11 @@
 ---
-description: Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de Teste multivariado no Adobe Target.
 keywords: mvt, teste multivariado, práticas recomendadas para o teste multivariado, práticas recomendadas para mvt, combinações mvt, relatórios mvt
-seo-description: Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de Teste multivariado no Adobe Target.
-seo-title: Práticas recomendadas para testes multivariados usando o Adobe Target
-solution: Target
-title: Práticas recomendadas para testes multivariados
+description: Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de Teste multivariado no Adobe Target.
+title: Práticas recomendadas para testes multivariados usando o Adobe Target
 topic: Padrão
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -17,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de Teste multivariado (MVT) no [!DNL Adobe Target].
 
-## Planejar {#section_4D4A1F6226F042379BF48DB753608579}
+## Planejar  {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Conheça os locais na sua página que provavelmente produzirão resultados significativos.
 
@@ -45,14 +42,14 @@ Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir proble
    Verifique se o Avaliador de tráfego aceita a configuração do teste para que você possa obter os resultados que deseja.
 * Recomendamos que as alternativas de cada elemento sejam diferentes entre si.
 
-## Analisar {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analisar  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Use o relatório de [Contribuição da localização](/help/c-reports/location-contribution-report.md) para monitorar o desempenho de cada localização e cada oferta.
 * No relatório de [Desempenho da experiência](/help/c-reports/experience-performance-report.md), baseie suas decisões nos dados mostrados com o uso dos filtros 5 melhores e 5 piores.
 
    O filtro [!UICONTROL Todos] dificulta a extração das informações desejadas e nem todas as experiências podem ser exibidas no gráfico. Use o filtro [!UICONTROL Todas] se quiser ver uma experiência específica que não seja uma das cinco melhores ou piores.
 
-## Acompanhar {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Acompanhar  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Embora o [!DNL Target] permita a edição de uma atividade ao vivo, tenha em mente que a edição de uma atividade que esteja em andamento pode redefinir o teste. Sendo assim, os relatórios podem não reconhecer algumas das alterações. É seguro fazer alterações em ofertas HTML somente na biblioteca de ofertas.
 
