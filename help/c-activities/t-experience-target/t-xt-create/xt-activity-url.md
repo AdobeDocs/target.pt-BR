@@ -1,13 +1,10 @@
 ---
-description: O URL da atividade determina a página usada na atividade de Direcionamento de experiência, que é aberta no Visual Experience Composer (VEC) ou no Experience Composer baseado em formulário quando a atividade é criada.
 keywords: Direcionamento
-seo-description: O URL da atividade determina a página usada na atividade de Direcionamento de experiência, que é aberta no Visual Experience Composer (VEC) ou no Experience Composer baseado em formulário do Adobe Target quando a atividade é criada.
-seo-title: URL da atividade
-solution: Target
+description: O URL da atividade determina a página usada na atividade de Direcionamento de experiência, que é aberta no Visual Experience Composer (VEC) ou no Experience Composer baseado em formulário do Adobe Target quando a atividade é criada.
 title: URL da atividade
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
