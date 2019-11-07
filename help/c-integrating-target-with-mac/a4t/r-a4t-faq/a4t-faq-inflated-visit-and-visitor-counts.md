@@ -1,14 +1,11 @@
 ---
-description: Este tópico contém respostas para as perguntas mais frequentes sobre as contagens aumentadas de visitas e visitantes ao usar o Analytics como fonte de relatórios do Target (A4T).
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; inflacionado; visita; visitante; acesso parcial; órfão; órfão; acesso parcial
-seo-description: Este tópico contém respostas para as perguntas mais frequentes sobre as contagens aumentadas de visitas e visitantes ao usar o Analytics como fonte de relatórios do Target (A4T).
-seo-title: Contagem aumentada de visitas e visitantes - Perguntas frequentes sobre o A4T
-solution: Target
+description: Este tópico contém respostas para as perguntas mais frequentes sobre as contagens aumentadas de visitas e visitantes ao usar o Analytics como fonte de relatórios do Target (A4T).
 title: Contagem aumentada de visitas e visitantes - Perguntas frequentes sobre o A4T
 topic: Padrão
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -29,7 +26,7 @@ Um hit de dados parciais ocorre quando uma guia do [!DNL Target] na parte superi
 
 Para obter mais informações, consulte [Redução de visitas aumentadas e contagem de visitantes em A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Posso ver um pico nas visitas. Como posso dizer que eles foram causados por hits de dados parciais? {#section_28506672C6224ED18AC74F6A02F6F811}
+## Posso ver um pico nas visitas. Como posso dizer que eles foram causados por hits de dados parciais?  {#section_28506672C6224ED18AC74F6A02F6F811}
 
 Você pode entrar em contato com o [Atendimento ao cliente da Adobe](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para recuperar um relatório de Dados parciais. Estas informações não estão disponíveis diretamente na interface do usuário do [!DNL Analytics].
 
@@ -37,9 +34,9 @@ Você pode entrar em contato com o [Atendimento ao cliente da Adobe](../../../cm
 
 Os hits de dados parciais geralmente são o resultado de uma implementação inadequada, como IDs de conjuntos de relatórios desalinhadas. Há também causas legítimas, que incluem páginas lentas, erros de página, ofertas de redirecionamento em uma atividade ou versões de biblioteca desatualizadas.
 
-Para obter mais informações, consulte "O que contribui para dados parciais" em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Para obter mais informações, consulte "O que contribui para dados parciais" em  [Minimizar contagens inflacionadas de visitas e visitantes no A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Tenho hits de dados parciais. O que posso fazer para apagar meus dados? {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Tenho hits de dados parciais. O que posso fazer para apagar meus dados?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 Você pode criar um conjunto de relatórios virtuais para excluir dados parciais históricos de seus relatórios.
 
