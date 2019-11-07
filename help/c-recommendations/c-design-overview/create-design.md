@@ -1,16 +1,10 @@
 ---
-description: Um design define como as recomendações são exibidas em uma página.
 keywords: design de recomendações, criar design, copiar design
-seo-description: Um design define como as recomendações são exibidas em uma página.
-seo-title: Criar um design
-solution: Target
+description: Um design define como as recomendações são exibidas em uma página.
 title: Criar um design
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -48,11 +42,11 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criar designs personalizados no Recommendations (3:20)
+## Vídeo de treinamento: criar designs personalizados no Recommendations (3:20)
 
 Este vídeo contém as seguintes informações:
 
 * Criar um design personalizado
-* Entenda como fazer referência a variáveis de exibição em seus designs
+* Saiba como fazer referência às variáveis de exibição nos designs
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=por_br)
