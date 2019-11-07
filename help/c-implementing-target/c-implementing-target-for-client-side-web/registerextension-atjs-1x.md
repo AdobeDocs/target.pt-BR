@@ -1,14 +1,11 @@
 ---
-description: 'Informações sobre a função registerExtension() para at.js. '
-keywords: registerExtension;registerextension;register extension;at.js;funções;função;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
-seo-description: Informações sobre a função registerExtension() da biblioteca at.js de JavaScript do Adobe Target.
-seo-title: Informações sobre a função tregisterExtension() da biblioteca at.js de JavaScript do Adobe Target.
-solution: Target
+keywords: registerExtension; registerextension; extensão de registro; at.js; funções; função; clientCode; serverDomain; globalMboxName; globalMboxAutoCreate; tempo limite
+description: Informações sobre a função registerExtension() da biblioteca at.js de JavaScript do Adobe Target.
+title: Informações sobre a função tregisterExtension() da biblioteca at.js de JavaScript do Adobe Target.
 subtopic: Introdução
-title: registerExtension()
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -46,7 +43,7 @@ Para mais informações e exemplos de como usar `registerExtension`, consulte a 
 | globalMboxAutoCreate | Booleano | Indica se a criação automática está ativada ou não |
 | timeout | Número | Tempo limite da solicitação |
 
-## Métodos de módulo do agente de log {#section_10AF62B49AEF48F981E950D26E176138}
+## Métodos de módulo do agente de log  {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Chave | Tipo | Descrição |
 |--- |--- |--- |
