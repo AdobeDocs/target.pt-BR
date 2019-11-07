@@ -1,16 +1,10 @@
 ---
-description: Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
 keywords: Recommendations, algoritmos do recommendations, atividade do recommendations, recommendations classic
-seo-description: Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
-seo-title: Atividades do Recommendations Classic versus Recommendations no Target Premium
-solution: Target
+description: Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
 title: Atividades do Recommendations Classic versus Recommendations no Target Premium
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -61,10 +55,10 @@ Para obter mais informações sobre o uso e a criação de critérios, consulte 
 O fluxo de trabalho do [!DNL Recommendations] foi simplificado. Em vez de preencher formulários complicados, você segue um fluxo de trabalho visual para:
 
 1. Selecionar o critério.
-1. Selecione um pré-configurado [predefinido](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Selecione um pré-configurado  [predefinido](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Visualize as recomendações resultantes.
 
-## Visualização do visual {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Visualização do visual  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Você pode visualizar suas recomendações depois de configurá-las e fazer as alterações necessárias, sem ter que criá-las na página e testá-las. As visualizações estão disponíveis no [!DNL Target].
 
