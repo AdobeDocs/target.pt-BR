@@ -1,14 +1,11 @@
 ---
-description: Você pode criar públicos-alvo personalizados e salvá-los na biblioteca do Target para usar nas atividades. Agora é possível copiar um público-alvo existente, que pode ser editado para criar um público-alvo semelhante.
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo
-seo-description: Você pode criar públicos-alvo personalizados e salvá-los na biblioteca do Target para usar nas atividades. Agora é possível copiar um público-alvo existente, que pode ser editado para criar um público-alvo semelhante.
-seo-title: Criar públicos no Target
-solution: Target
+description: Você pode criar públicos-alvo personalizados e salvá-los na biblioteca do Target para usar nas atividades. Agora é possível copiar um público-alvo existente, que pode ser editado para criar um público-alvo semelhante.
 title: Criar públicos no Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
