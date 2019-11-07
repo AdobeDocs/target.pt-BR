@@ -1,15 +1,12 @@
 ---
-description: Informações sobre como implementar o Adobe Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
 keywords: confirmação de pedido; orderConfirmPage
-seo-description: Informações sobre como implementar o Adobe Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
-seo-title: Implementação do Target sem um gerenciador de tags
-solution: Target
-subtopic: Introdução
+description: Informações sobre como implementar o Adobe Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
 title: Implementação do Target sem um gerenciador de tags
+subtopic: Introdução
 topic: Padrão
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
