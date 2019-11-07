@@ -1,13 +1,10 @@
 ---
-description: Os filtros de público-alvo (ou públicos-alvo) são grupos de visitantes que compartilham uma característica ou um conjunto de características específicas.
-keywords: Direcionamento, filtro de público-alvo, públicos alvo;filtro
-seo-description: Os filtros de público-alvo no Adobe Target (ou públicos-alvo) são grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
-seo-title: Filtros de público-alvo para relatórios no Adobe Target
-solution: Target
-title: Filtros de público-alvo para relatórios
+keywords: Definição de metas;filtro de público-alvo;públicos;filtro
+description: Os filtros de público-alvo no Adobe Target (ou públicos-alvo) são grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
+title: Filtros de público-alvo para relatórios no Adobe Target
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
