@@ -1,14 +1,10 @@
 ---
-description: É possível realizar várias tarefas em um ativo na biblioteca.
 keywords: biblioteca de conteúdo; ativos; anotar; copiar; excluir ativo; baixar ativo; editar conteúdo; compartilhar cartão; exibir propriedades do conteúdo
-seo-description: É possível realizar várias tarefas em um ativo na biblioteca.
-seo-title: Trabalhar com conteúdo na biblioteca
-solution: Target
+description: É possível realizar várias tarefas em um ativo na biblioteca.
 title: Trabalhar com conteúdo na biblioteca
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
