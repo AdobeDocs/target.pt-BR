@@ -1,14 +1,11 @@
 ---
-description: A migração da mbox.js para a at.js é um processo simples.
 keywords: Target; at.js; migrar para at.js; preparação; auditar at.js; integrar at.js
-seo-description: A migração da mbox.js para a at.js é um processo simples.
-seo-title: Como migrar da mbox.js para a at.js
-solution: Target
+description: A migração da mbox.js para a at.js é um processo simples.
 title: Como migrar da mbox.js para a at.js
 topic: Padrão
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -31,8 +28,8 @@ Use os seguintes passos para migrar da [!DNL mbox.js] para a [!DNL at.js] e conf
    | Mbox global criada automaticamente | A mbox global criada automaticamente é criada quando a única linha de código do Target no seu site é o arquivo mbox.js. Aquele arquivo gera uma chamada mbox automaticamente. |
    | Global, mboxCreate vazio | Recomenda-se que você altere para a mbox global criada automaticamente. |
    | Encapsulamento mboxCreate | A migração deve ser simples, desde que seu `mboxCreate()` seja precedido pelo `<div class="mboxDefault"></div>`. |
-   | mboxUpdate | A migração deve ser simples quando o `mboxUpdate()` é usada juntamente com `mboxDefine()` ou `mboxCreate()`. `mboxUpdate()` não atualiza a mbox global criada automaticamente ou uma mbox criada originalmente por `getOffer()`. Nessas circunstâncias, uma combinação de `getOffer()` e `applyOffer()` deve ser usada para substituir `mboxUpdate()` ao migrar para o at.js. |
-   | Mboxes de clicktracking personalizadas, incluindo mboxTrack | Recomendamos que você atualize seu código para usar `trackEvent()`. |
+   | mboxUpdate | A migração deve ser simples quando o  `mboxUpdate()` é usada juntamente com `mboxDefine()` ou `mboxCreate()`. `mboxUpdate()` não atualiza a mbox global criada automaticamente ou uma mbox criada originalmente por `getOffer()`. Nessas circunstâncias, uma combinação de `getOffer()` e `applyOffer()` deve ser usada para substituir `mboxUpdate()` ao migrar para o at.js. |
+   | Mboxes de clicktracking personalizadas, incluindo mboxTrack | Recomendamos que você atualize seu código para usar  `trackEvent()`. |
 
    >[!NOTE]
    >
@@ -89,7 +86,7 @@ Use os seguintes passos para migrar da [!DNL mbox.js] para a [!DNL at.js] e conf
    Essas são algumas coisas que você pode fazer enquanto teste para confirmar que a [!DNL at.js] está funcionando como o esperado:
 
    * Certifique-se de que todas suas atividades atuais funcionam com a nova biblioteca JavaScript.
-   * Confirme que todas [integrações](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) e [plugins](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funcionam conforme esperado.
+   * Confirme que todas  [integrações](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) e [plugins](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funcionam conforme esperado.
    * Verifique se você está familiarizado com [a depuração](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) das abordagens disponíveis em [!DNL at.js].
 
 **Possíveis problemas ao migrar para o at.js** Alguns clientes relataram os seguintes problemas após executar a migração para o at.js:
@@ -115,6 +112,6 @@ Nesses casos, seletores de elementos podem começar com algo como
    HTML > BODY > DIV:nth-of-type(1)
    ```
 
-   Para mais informações sobre como usar o editor de código para fazer isso, consulte [Editor de códigos](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
+   Para mais informações sobre como usar o editor de código para fazer isso, consulte  [Editor de códigos](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas. Para obter mais informações, consulte "Considerações assíncronas" em [Limitações da at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas. Para obter mais informações, consulte "Considerações assíncronas" em  [Limitações da at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
