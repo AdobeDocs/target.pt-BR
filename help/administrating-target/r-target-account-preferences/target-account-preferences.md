@@ -1,15 +1,12 @@
 ---
-description: Defina as preferências da conta para configurar o Target Standard ou o Target Premium para funcionarem corretamente com a conta.
 keywords: preferências de conta; preferências; detalhes do site; nome da mbox personalizada; solução da Experience Cloud usada para relatórios; Mostrar aumento estimado na receita; seletores de css; usar classes de elemento; URL padrão do Visual Experience Composer; Habilitar Enhanced Experience Composer; Gerar instantâneos de experiência; configuração de visor móvel; Vertical do setor; Filtrar critérios incompatíveis
-seo-description: Defina as preferências da conta para configurar o Adobe Target Standard ou o Target Premium para funcionarem corretamente com a conta.
-seo-title: Preferências
-solution: Target
-subtopic: Introdução
+description: Defina as preferências da conta para configurar o Adobe Target Standard ou o Target Premium para funcionarem corretamente com a conta.
 title: Preferências
+subtopic: Introdução
 topic: Padrão
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
