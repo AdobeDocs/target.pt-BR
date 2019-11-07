@@ -1,15 +1,12 @@
 ---
-description: Os relatórios apresentam informações sobre o desempenho de suas atividades.
 keywords: relatórios, bloqueio de endereços ip, bloqueio de visitante do endereço ip, baixar relatórios, csv
-seo-description: Os relatórios apresentam informações sobre o desempenho de suas atividades
-seo-title: Relatórios
-solution: Target
-subtopic: Teste multivariado
+description: Os relatórios apresentam informações sobre o desempenho de suas atividades
 title: Relatórios
+subtopic: Teste multivariado
 topic: Padrão
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -20,7 +17,7 @@ Os relatórios fornecem informações sobre o progresso e os resultados das suas
 
 >[!NOTE]
 >
->Você pode bloquear a contagem de visitantes de endereços IP específicos nos relatórios. Entre em contato com o Client Care para configurar filtros IP. Essa filtragem não se aplica ao usar [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) como a sua fonte de geração de relatório.
+>Você pode bloquear a contagem de visitantes de endereços IP específicos nos relatórios. Entre em contato com o Client Care para configurar filtros IP. Essa filtragem não se aplica ao usar  [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) como a sua fonte de geração de relatório.
 
 ## Informações de relatórios para tipos de atividades específicas {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -42,7 +39,7 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
 
    Por exemplo, você poderia selecionar [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] na lista suspensa [!UICONTROL Tipo] e [!UICONTROL Ao vivo] na lista suspensa de [!UICONTROL Status] para exibir somente os testes A/B e as atividades de Direcionamento de experiência que estão em um estado ativo.
 
-   A ilustração a seguir mostra a lista suspensa [!UICONTROL Tipo] com dois tipos selecionados: Testes A/B e direcionamento de experiência. Observe que os três tipos de testes A/B (Manual, [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)e [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md)) são selecionados por padrão. Você pode desmarcar um ou mais tipos conforme necessário.
+   A ilustração a seguir mostra a lista suspensa [!UICONTROL Tipo] com dois tipos selecionados:  Testes A/B e direcionamento de experiência. Observe que os três tipos de testes A/B (Manual, [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)e [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md)) são selecionados por padrão. Você pode desmarcar um ou mais tipos conforme necessário.
 
    ![Filtrar relatórios por tipo](/help/c-reports/assets/report_filters-new.png)
 
