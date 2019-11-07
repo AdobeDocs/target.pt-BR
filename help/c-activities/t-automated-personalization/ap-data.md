@@ -1,16 +1,10 @@
 ---
-description: O Adobe Target coleta e usa automaticamente uma variedade de dados para criar algoritmos de personalização nas atividades Personalização automatizada (AP) e Direcionamento automático (AT). Quando um visitante entra na atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de "registros de treinamento" (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
 keywords: dados ambientais; dados de sessão; dados geográficos; dados geográficos; dados do dispositivo; dados móveis; atributos; atributos do perfil
-seo-description: O Adobe Target coleta e usa automaticamente uma variedade de dados para criar algoritmos de personalização nas atividades Personalização automatizada (AP) e Direcionamento automático (AT). Quando um visitante entra na atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de "registros de treinamento" (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
-seo-title: Coleta de dados para os algoritmos de personalização do Adobe Target
-solution: Target
-title: Coleta de dados para os algoritmos de personalização do Target
-title-outputclass: premium
-topic: Premium
+description: O Adobe Target coleta e usa automaticamente uma variedade de dados para criar algoritmos de personalização nas atividades Personalização automatizada (AP) e Direcionamento automático (AT). Quando um visitante entra na atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de "registros de treinamento" (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
+title: Coleta de dados para os algoritmos de personalização do Adobe Target
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
-badge: premium
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,9 +13,9 @@ source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 O Target coleta e usa automaticamente uma variedade de dados para criar algoritmos de personalização nas atividades Personalização automatizada (AP) e Direcionamento automático (AT). Quando um visitante entra na atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de "registros de treinamento" (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
 
-Para saber mais sobre os algoritmos de personalização do Target, consulte [Algoritmo Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Para saber mais sobre os algoritmos de personalização do Target, consulte  [Algoritmo Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
-A tabela a seguir mostra os dados coletados pela Personalização automatizada e pelo Direcionamento automático por padrão, sem que o profissional de marketing precise fazer nada, além da convenção de nomenclatura usada para indicar esses atributos nos [relatórios de informações insights de personalização](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como fazer upload de dados adicionais, consulte [Fazer upload de dados para os algoritmos de personalização do Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+A tabela a seguir mostra os dados coletados pela Personalização automatizada e pelo Direcionamento automático por padrão, sem que o profissional de marketing precise fazer nada, além da convenção de nomenclatura usada para indicar esses atributos nos [relatórios de informações insights de personalização](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como fazer upload de dados adicionais, consulte  [Fazer upload de dados para os algoritmos de personalização do Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 | Tipo de dados | Descrição | Convenção de nomenclatura do tipo de dados | Atributos de exemplo |
 | --- | --- | --- | --- |
