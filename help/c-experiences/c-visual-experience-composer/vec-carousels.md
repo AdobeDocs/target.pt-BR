@@ -1,15 +1,12 @@
 ---
-description: Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
 keywords: Visual Experience Composer;VEC;carrossel
-seo-description: Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
-seo-title: Criar carrosséis que funcionam no Visual Experience Composer
-solution: Target
-subtopic: Teste multivariado
+description: Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
 title: Criar carrosséis que funcionam no Visual Experience Composer
+subtopic: Teste multivariado
 topic: Padrão
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
