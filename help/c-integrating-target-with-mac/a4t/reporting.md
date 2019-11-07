@@ -1,15 +1,12 @@
 ---
-description: Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) dá a você acesso aos relatórios do Analytics de suas atividades do Target.
 keywords: analytics para target; a4T; análise como fonte de relatórios
-seo-description: Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) dá a você acesso aos relatórios do Analytics de suas atividades do Target.
-seo-title: Relatórios do A4T
-solution: Target
-subtopic: Teste multivariado
+description: Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) dá a você acesso aos relatórios do Analytics de suas atividades do Target.
 title: Relatórios do A4T
+subtopic: Teste multivariado
 topic: Padrão
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -34,7 +31,7 @@ Quando você classifica como *Participantes* usando a operação Selecionar, ape
 >
 >Os relatórios fornecidos pelo Target têm uma latência de quatro minutos. Para atividades fornecidas pelo A4T, nos relatórios do Target e Analytics, pode demorar até 24 horas após a atividade ser inicialmente salva, antes que os dados do relatório possam ser detalhados por experiências. Os dados coletados nas primeiras 24 horas ainda são precisos e são atribuídos à experiência correta.
 
-## Relatórios no Analytics {#section_F6884872DC864AE7913587FAED4CD11C}
+## Relatórios no Analytics  {#section_F6884872DC864AE7913587FAED4CD11C}
 
 No Analytics, clique em **[!UICONTROL Target]** &gt; **[!UICONTROL Atividades do Target]** no menu à esquerda. No Target, os relatórios de atividade mostram automaticamente os dados do Analytics, métricas e segmentos. Os dados são exibidos nesses relatórios aproximadamente uma hora depois de serem coletados do site. Todas as métricas, os públicos-alvo e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
@@ -51,7 +48,7 @@ No Analytics, use o relatório de Atividades do Target para visualizar os result
 >
 >Se o seu relatório de Atividades do Target no Analytics listar "não especificado", em vez de listar suas atividades, é necessária uma atualização para a sua conta provisionada. Entre em contato com o Atendimento ao cliente para resolver esse problema.
 
-## Relatórios no Target {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Relatórios no Target  {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Quando o Analytics é usado como fonte de geração de relatórios, os relatórios no Target Standard mostram os dados coletados do Analytics. O relatório difere um pouco dos outros relatórios do Target Standard:
 
