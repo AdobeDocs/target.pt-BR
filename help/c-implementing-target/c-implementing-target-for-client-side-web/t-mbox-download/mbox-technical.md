@@ -1,15 +1,12 @@
 ---
-description: As informações são fornecidas para ajudar sua equipe técnica a compreender a implementação da mbox.js e como ela pode afetar seu site.
 keywords: implementação; mbox.js; biblioteca de manipulação de dom; target. js; visual experience composer; iframe; sites angulares; aplicativos de página única; aplicativo de página única; SPA
-seo-description: As informações são fornecidas para ajudar sua equipe técnica a compreender a implementação da mbox.js e como ela pode afetar seu site.
-seo-title: O que a mbox.js faz
-solution: Target
-subtopic: Introdução
+description: As informações são fornecidas para ajudar sua equipe técnica a compreender a implementação da mbox.js e como ela pode afetar seu site.
 title: O que a mbox.js faz
+subtopic: Introdução
 topic: Padrão
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -36,6 +33,7 @@ O [!DNL Target.js] é chamado de [!DNL mbox.js] por uma linha de código JavaScr
 [!DNL Target.js] controla a biblioteca de manipulação de DOM usada pelo Standard. Para exibir o conteúdo de um site, [!DNL target.js] referencia [!DNL sizzle.js] (version1.10.8-pre). [!DNL Sizzle.js] ativa os seletores de elemento HTML. Sem ser [!DNL sizzle.js], somente o JavaScript nativo é usado. Nenhuma jquery é necessária.
 
 Além disso, o seguinte fragmento é usado para sondar o DOM:
+
 `https://github.com/dperini/ContentLoaded`
 
 ## Target.js e o Visual Experience Composer {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
@@ -45,7 +43,7 @@ Quando você usa o [!UICONTROL Visual Experience Composer] para configurar uma e
 * Para geração de miniaturas: [!DNL https://html2canvas.hertzen.com/]
 * Para consulta entre domínios: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], usados para enviar mensagens no iFrames. Esses scripts permitem que a Adobe envie dados entre as páginas.
 
-## Considerações para aplicativos de sites angulares e de página única {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Considerações para aplicativos de sites angulares e de página única  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Se você estiver implementando o Target em um site Angular ou em qualquer aplicativo de página única (SPA), deve usar a biblioteca at.js em vez da mbox.js.
 
