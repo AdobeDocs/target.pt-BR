@@ -1,14 +1,10 @@
 ---
-description: Criar uma lista de exclusão para impedir que itens sejam recomendados.
 keywords: exclusões
-seo-description: Crie uma lista de exclusão no Adobe Target para evitar que itens sejam recomendados.
-seo-title: Exclusões no Adobe Target
-solution: Target
-title: Exclusões
-topic: Premium
+description: Criar uma lista de exclusão no Adobe Target para impedir que itens sejam recomendados.
+title: Exclusões no Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -49,13 +45,13 @@ Você também pode criar exclusões usando Pesquisa avançada na página Pesquis
 
 [Salvar como](/help/c-recommendations/c-products/assets/save-as.png)
 
-Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Exclusão]. Para obter mais informações, consulte Pesquisa [em](/help/c-recommendations/c-products/catalog-search.md)catálogo.
+Após criar uma pesquisa usando "id &gt; contains" Por exemplo, você pode clicar em [!UICONTROL Salvar como] &gt; [!UICONTROL Exclusão]. Para obter mais informações, consulte [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
 >A funcionalidade de Pesquisa avançada não faz distinção entre maiúsculas e minúsculas; contudo, os produtos devolvidos no momento da entrega baseiam-se na pesquisa sensível a maiúsculas e minúsculas. Essa não correspondência pode levar à confusão. Certifique-se de considerar a sensibilidade a maiúsculas e minúsculas quando você cria exclusões baseadas em resultados usando a funcionalidade Pesquisa avançada. Por exemplo, se você realiza uma busca para "Feriado", essa busca inicial lista os resultados contendo "Feriado" e "feriado". Em seguida, se você criar uma exclusão com a intenção de excluir produtos contendo "feriado", somente os produtos contendo "feriado" são excluídos. Os produtos contendo "Feriado" não são excluídos.
 
-## Vídeo de treinamento: Criar coleções e exclusões no Recommendations (7:05)
+## Vídeo de treinamento: criar coleções e exclusões no Recommendations (7:05)
 
 Este vídeo contém as seguintes informações:
 
