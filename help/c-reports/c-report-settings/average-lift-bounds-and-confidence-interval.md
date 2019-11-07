@@ -1,14 +1,10 @@
 ---
-description: Os relatórios incluem vários pontos de dados e representações de visualização que ajudam você a entender os limites de aumento e o nível de confiança associados à sua atividade. Isso ajuda você a determinar um vencedor com mais precisão.
 keywords: Target, relatórios, configurações de relatório, ambiente, aumento, limite de incentivo, variação, confiança, controle
-seo-description: Os relatórios incluem vários pontos de dados e representações de visualização que ajudam você a entender os limites de aumento e o nível de confiança associados à sua atividade. Isso ajuda você a determinar um vencedor com mais precisão.
-seo-title: Média de aumento, Limites de aumento e Intervalo de confiança
-solution: Target
+description: Os relatórios incluem vários pontos de dados e representações de visualização que ajudam você a entender os limites de aumento e o nível de confiança associados à sua atividade. Isso ajuda você a determinar um vencedor com mais precisão.
 title: Média de aumento, Limites de aumento e Intervalo de confiança
-topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -40,7 +36,7 @@ A ilustração a seguir mostra informações sobre limites de aumento e Nível d
 
 ![Relatório de Incentivo médio e Nível de confiança](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## Como são calculados os Limites de aumento? {#section_1D360781D972483693680BE0F07AEAD1}
+## Como são calculados os Limites de aumento?  {#section_1D360781D972483693680BE0F07AEAD1}
 
 Os limites de aumento representam os intervalos de confiança de 95% do aumento que a experiência ou oferta específica tem sobre a experiência de controle ou oferta. Falando vagamente, isso significa que o aumento real tem cerca de 95% de chance de estar entre esses limites.
 
