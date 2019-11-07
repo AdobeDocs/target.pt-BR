@@ -1,14 +1,11 @@
 ---
-description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
 keywords: Target Standard; perguntas frequentes; perguntas frequentes; gabarito; gabarito
-seo-description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
-seo-title: Perguntas frequentes sobre otimização e personalização do Target
-solution: Target
+description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
 title: Perguntas frequentes sobre otimização e personalização do Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -37,13 +34,13 @@ Visite o [ Target Community Forum](../cmp-resources-and-contact-information.md#c
 
 Leia a matriz de [Navegadores suportados](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
 
-## Bibliotecas de JavaScript do Target (at.js e mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Bibliotecas de JavaScript do Target (at.js e mbox.js)  {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **Qual arquivo JavaScript de implementação devo usar, at.js ou mbox.js?**
 
 at.js é a nossa maior e mais recente biblioteca de JavaScript. mbox.js é a nossa versão mais antiga. Consulte [Vantagens da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para compreender as diferenças entre as duas bibliotecas. Todos os novos clientes devem usar at.js.
 
-Todos os clientes mbox.js existentes devem migrar pra at.js. Saiba mais sobre as etapas envolvidas na [Migração de mbox.js para at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) antes de fazer a transmissão.
+Todos os clientes mbox.js existentes devem migrar pra at.js. Saiba mais sobre as etapas envolvidas na  [Migração de mbox.js para at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) antes de fazer a transmissão.
 
 ## Atividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -178,7 +175,7 @@ Confira as [Regras de modelo](../c-experiences/c-visual-experience-composer/temt
 
 Isso ocorre porque seu site tem conteúdo misto. É um site que obtém recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
-Até que isso aconteça, siga as instruções em [Ativar conteúdo misto no navegador](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
+Até que isso aconteça, siga as instruções em  [Ativar conteúdo misto no navegador](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
 
 **Posso experimentar o Visual Experience Composer (VEC) no meu site mesmo que a biblioteca at.js do Target ainda não tenha sido implementada?**
 
@@ -190,7 +187,7 @@ Experimente as [informações de solução de problemas](../c-experiences/c-visu
 
 Também temos a [abordagem baseada em formulários](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que pode desbloquear você.
 
-Leia também quando e por que o [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para [adicionar os servidores proxy da Adobe à lista de permissões](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Leia também quando e por que o [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para  [adicionar os servidores proxy da Adobe à lista de permissões](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Eu tenho um site responsivo. Ao criar uma atividade, como posso ter certeza de que estou levando em consideração dispositivos importantes?**
 
@@ -299,11 +296,11 @@ Use as [opções Exporte relatórios para CSV e Detalhes de Pedido de Download p
 
 **Posso mudar a experiência de controle para avaliação de relatórios ou mudar a metodologia de contagem de Visitantes para Visitas?**
 
-Faça essas alterações usando a [engrenagem de Configurações na página de relatórios](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Leia mais sobre essas configurações para compreender como os cálculos variam.
+Faça essas alterações usando a  [engrenagem de Configurações na página de relatórios](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Leia mais sobre essas configurações para compreender como os cálculos variam.
 
 **Como eu devo interpretar os relatórios?**
 
-Nós tentamos tornar os relatórios os mais intuitivos possível com recursos como [Barras de intervalo de confiança, limites de incentivo, significância/confiança e múltiplas seleções métricas, visualizações em tabela e gráfico, médias de execução e mais](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para possibilitar análise de relatórios poderosa, mas facilitada. Obviamente, você pode pesquisar Analytics se você estiver usando [Atividades do Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para mais análise sobre públicos-alvo.
+Nós tentamos tornar os relatórios os mais intuitivos possível com recursos como  [Barras de intervalo de confiança, limites de incentivo, significância/confiança e múltiplas seleções métricas, visualizações em tabela e gráfico, médias de execução e mais](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para possibilitar análise de relatórios poderosa, mas facilitada. Obviamente, você pode pesquisar Analytics se você estiver usando  [Atividades do Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para mais análise sobre públicos-alvo.
 
 ## Tokens de resposta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
