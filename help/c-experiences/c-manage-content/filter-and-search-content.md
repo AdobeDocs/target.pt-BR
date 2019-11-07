@@ -1,14 +1,10 @@
 ---
-description: Pesquise recursos por palavras-chave e salve as pastas de pesquisa, chamadas de coleções inteligentes, que são atualizadas automaticamente com os resultados da pesquisa.
 keywords: biblioteca de conteúdo, ativos, pesquisa, coleções inteligentes, pesquisar pasta, filtro
-seo-description: Pesquise recursos por palavras-chave e salve as pastas de pesquisa, chamadas de coleções inteligentes, que são atualizadas automaticamente com os resultados da pesquisa.
-seo-title: Pesquisar o conteúdo e criar coleções inteligentes
-solution: Target
+description: Pesquise recursos por palavras-chave e salve as pastas de pesquisa, chamadas de coleções inteligentes, que são atualizadas automaticamente com os resultados da pesquisa.
 title: Pesquisar o conteúdo e criar coleções inteligentes
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,7 +18,7 @@ Esta seção contém as seguintes informações:
 * [Pesquisar por ativos usando palavra-chave](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [Salvar conjunto inteligente](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## Pesquisar por ativos usando palavra-chave {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Pesquisar por ativos usando palavra-chave  {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Clique em **[!UICONTROL Ofertas]** &gt; **[!UICONTROL Ofertas de imagem]** para acessar a [!UICONTROL Biblioteca de ativos].
 
@@ -38,7 +34,7 @@ Esta seção contém as seguintes informações:
 
 1. Na caixa de pesquisa, digite uma palavra-chave para o ativo que deseja localizar, em seguida, pressione Enter.
 
-## Salvar conjunto inteligente {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Salvar conjunto inteligente  {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Você pode criar pesquisas salvas, chamadas coleções inteligentes, para economizar tempo ao realizar pesquisas similares. Uma pesquisa salva cria uma coleção inteligente que é automaticamente atualizada com os resultados de pesquisa.
 
