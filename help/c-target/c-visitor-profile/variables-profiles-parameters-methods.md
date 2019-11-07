@@ -1,14 +1,11 @@
 ---
-description: Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de perfil.
 keywords: variáveis, perfis, parâmetros, perfis internos, métodos, variáveis de url, perfis geográficos, perfis de terceiros, variáveis da mbox, variáveis de campanha, atributos do cliente
-seo-description: Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de perfil.
-seo-title: Glossário de variáveis e perfis
-solution: Target
+description: Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de perfil.
 title: Glossário de variáveis e perfis
 topic: Padrão
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
