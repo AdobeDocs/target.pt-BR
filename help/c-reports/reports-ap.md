@@ -1,15 +1,10 @@
 ---
-description: Relatórios especializados estão disponíveis para usuários de Personalização automatizada.
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, relatório de nível de atividade, relatório de nível de oferta, relatório de detalhe de oferta
-seo-description: Relatórios especializados estão disponíveis para usuários de Personalização automatizada.
-seo-title: Relatórios de resumo de Automated Personalization
-solution: Target
+description: Relatórios especializados estão disponíveis para usuários de Personalização automatizada.
 title: Relatórios de resumo de Automated Personalization
-title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -40,7 +35,7 @@ O relatório [!UICONTROL Nível de atividade] compara o desempenho agregado de u
 
 ![](assets/box_plot_ap.jpg)
 
-As regras padrão da interpretação de resultados do teste A/B ainda são aplicáveis, incluindo incentivo, confiança, tendência, duração e assim por diante. Para obter mais informações sobre a interpretação de resultados, consulte [Sobre o Índice de conversão](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+As regras padrão da interpretação de resultados do teste A/B ainda são aplicáveis, incluindo incentivo, confiança, tendência, duração e assim por diante. Para obter mais informações sobre a interpretação de resultados, consulte  [Sobre o Índice de conversão](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
 ## Relatório de nível de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
 
