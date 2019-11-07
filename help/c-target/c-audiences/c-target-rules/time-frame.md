@@ -1,13 +1,10 @@
 ---
-description: É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
 keywords: intervalo de tempo, data de início, data de término, datas de início/término, intervalo de tempo, agenda do target, divisão de semana, divisão de dia, divisão
-seo-description: É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
-seo-title: Intervalo de tempo
-solution: Target
+description: É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
 title: Intervalo de tempo
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
