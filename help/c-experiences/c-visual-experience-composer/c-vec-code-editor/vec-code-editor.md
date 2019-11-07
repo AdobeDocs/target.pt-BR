@@ -1,15 +1,12 @@
 ---
-description: Informações sobre a página de Modificações que permite visualizar e adicionar modificações na página (Seletor CSS, Mbox e Código personalizado).
 keywords: seletor de css; código personalizado; editor de código; editor de experiência online móvel
-seo-description: Informações sobre a página de Modificações que permite visualizar e adicionar modificações na página (Seletor CSS, Mbox e Código personalizado).
-seo-title: Modificações
-solution: Target
-subtopic: Editor de códigos
+description: Informações sobre a página de Modificações que permite visualizar e adicionar modificações na página (Seletor CSS, Mbox e Código personalizado).
 title: Modificações
+subtopic: Editor de códigos
 topic: Padrão
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -18,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Informações sobre a página de Modificações que permite visualizar e adicionar modificações na página (Seletor CSS, Mbox e Código personalizado).
 
-A página de Modificações mostra todas as alterações feitas em sua página no Visual Experience Composer (VEC) e permite que você faça alterações adicionais clicando em cada elemento da página e [selecionando uma ação](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Cada alteração feita aparece como uma ação ou elemento separado na lista de [!UICONTROL Modificações]. Além disso, é possível adicionar modificações, incluindo os seguintes tipos de modificação: Seletor CSS, Mbox. e Código personalizado.
+A página de Modificações mostra todas as alterações feitas em sua página no Visual Experience Composer (VEC) e permite que você faça alterações adicionais clicando em cada elemento da página e  [selecionando uma ação](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Cada alteração feita aparece como uma ação ou elemento separado na lista de [!UICONTROL Modificações]. Além disso, é possível adicionar modificações, incluindo os seguintes tipos de modificação: Seletor CSS, Mbox. e Código personalizado.
 
 ## Visão geral das Modificações {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -223,7 +220,7 @@ Cada alteração cria um novo elemento no painel Modificações. Como a segunda 
 
 Se você usar o recurso de código personalizado para duas atividades que direcionam o mesmo URL, o JavaScript será injetado na página de ambas as atividades. O Target determina automaticamente a ordem do conteúdo entregue. Verifique se o código não depende de posicionamento. Cabe a você verificar se não há conflitos no código.
 
-## Resolução de problemas do código personalizado {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Resolução de problemas do código personalizado  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **Recebi um aviso de que uma ação não pode ser aplicada devido a alterações estruturais em uma página. O que isso significa?**
 
