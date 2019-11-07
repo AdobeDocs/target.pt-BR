@@ -1,15 +1,12 @@
 ---
-description: O aplicativo Adobe Target e a entrega de conteúdo foram testados em uma grande variedade de navegadores e dispositivos.
 keywords: Navegadores; Pré-requisitos; Requisitos; internet explorer; chrome; firefox; safari; android; surface
-seo-description: O aplicativo Adobe Target e a entrega de conteúdo foram testados em uma grande variedade de navegadores e dispositivos.
-seo-title: Navegadores compatíveis
-solution: Target
-subtopic: Introdução
+description: O aplicativo Adobe Target e a entrega de conteúdo foram testados em uma grande variedade de navegadores e dispositivos.
 title: Navegadores compatíveis
+subtopic: Introdução
 topic: Padrão
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
