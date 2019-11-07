@@ -1,16 +1,10 @@
 ---
-description: Se for usado o recurso de recomendação de backup, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
 keywords: recomendação, backup, fazer o back up
-seo-description: Se for usado o recurso de recomendação de backup, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
-seo-title: Usar uma recomendação de backup
-solution: Target
+description: Se for usado o recurso de recomendação de backup, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
 title: Usar uma recomendação de backup
-title-outputclass: premium
-topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -48,4 +42,4 @@ As duplicatas são removidas dos lotes de recomendações.
 
 O uso das recomendações de backup normalmente faz parte da discussão com a equipe de implementação durante a configuração inicial do programa. Se quiser mudar a configuração da recomendação de backup após a implementação, entre em contato com seu gerente de conta.
 
-Para Habilitar a renderização de design parcial (consulte [Configurações de conteúdo](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) não estiverem ativadas e o modelo não for exibido, então a recomendação de backup ou o conteúdo padrão serão exibidos.
+Para Habilitar a renderização de design parcial (consulte  [Configurações de conteúdo](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) não estiverem ativadas e o modelo não for exibido, então a recomendação de backup ou o conteúdo padrão serão exibidos.
