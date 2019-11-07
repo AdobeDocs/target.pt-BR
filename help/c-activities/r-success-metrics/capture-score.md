@@ -1,15 +1,12 @@
 ---
-description: A métrica de envolvimento de Pontuação de captura calcula a pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox da campanha.
 keywords: pontuação de captura;pontuação
-seo-description: A métrica de envolvimento de Pontuação de captura calcula a pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox da campanha.
-seo-title: Pontuação de captura
-solution: Target
-subtopic: Introdução
+description: A métrica de envolvimento de Pontuação de captura calcula a pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox da campanha.
 title: Pontuação de captura
+subtopic: Introdução
 topic: Padrão
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
