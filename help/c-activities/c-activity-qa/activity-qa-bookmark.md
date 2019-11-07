@@ -1,14 +1,11 @@
 ---
-description: Informações para ajudá-lo a usar o bookmarklet de QA do Adobe Target para forçar o Target a liberá-lo do modo de QA.
 keywords: qa, visualização, bookmarklet, links de visualização
-seo-description: Informações para ajudá-lo a usar o bookmarklet de QA do Adobe Target para forçar o Target a liberá-lo do modo de QA.
-seo-title: bookmarklet de QA da atividade para o Adobe Target
-solution: Target
-title: Bookmarklet de controle de qualidade da atividade
+description: Informações para ajudá-lo a usar o bookmarklet de QA do Adobe Target para forçar o Target a liberá-lo do modo de QA.
+title: bookmarklet de QA da atividade para o Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
