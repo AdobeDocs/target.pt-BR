@@ -1,14 +1,10 @@
 ---
-description: Selecione várias métricas para exibir em um relatório.
 keywords: Target, relatórios, configurações de relatórios, várias métricas, métricas
-seo-description: Selecione várias métricas para exibir em um relatório usando o Adobe Target.
-seo-title: Exibir várias métricas em um relatório usando o Adobe Target
-solution: Target
-title: Exibir várias métricas em um relatório
-topic: Premium
+description: Selecione várias métricas para exibir em um relatório usando o Adobe Target.
+title: Exibir várias métricas em um relatório usando o Adobe Target
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
