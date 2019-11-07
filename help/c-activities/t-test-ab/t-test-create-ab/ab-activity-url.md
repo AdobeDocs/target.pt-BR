@@ -1,14 +1,11 @@
 ---
-description: O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado.
 keywords: Visão geral e referência
-seo-description: O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado.
-seo-title: URL da atividade
-solution: Target
+description: O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado.
 title: URL da atividade
 topic: Padrão
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
