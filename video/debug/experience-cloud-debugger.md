@@ -1,11 +1,8 @@
 ---
-description: Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta Mbox Trace avançada para inspecionar as qualificações de atividade e público-alvo, bem como o perfil do visitante.
-solution: Target
 title: Depurar o Target com o Experience Cloud Debugger
-seo-title: Depurar o Target com o Experience Cloud Debugger
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
