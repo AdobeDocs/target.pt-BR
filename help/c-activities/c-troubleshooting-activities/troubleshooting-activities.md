@@ -1,14 +1,11 @@
 ---
-description: Se a atividade não aparecer no site, essas sugestões de solução de problemas ajudarão a encontrar uma solução.
 keywords: solucionar problemas do target, solução de problemas do target, conteúdo padrão, teste não ativo, atividade não ativa, não funcionamento do direcionamento, exibições da experiência anterior, não é possível criar atividades, não é possível criar atividades, criar atividades, estrutura de página alterada, estrutura de página modificada, mensagem de erro, script de perfil para a exclusão do erro, não funcionamento do ajax
-seo-description: Se a atividade não aparecer no site, essas sugestões de solução de problemas ajudarão a encontrar uma solução.
-seo-title: Solução de problemas de atividades
-solution: Target
+description: Se a atividade não aparecer no site, essas sugestões de solução de problemas ajudarão a encontrar uma solução.
 title: Solução de problemas de atividades
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
