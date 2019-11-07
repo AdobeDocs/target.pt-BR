@@ -1,14 +1,11 @@
 ---
-description: Use a página Status do sistema da Adobe para visualizar o status dos produtos da Adobe e das soluções da Experience Cloud, incluindo o Target. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
 keywords: atualização do sistema, solução de problemas, manutenção, status do sistema, status de atualização
-seo-description: Use a página Status do sistema da Adobe para visualizar o status dos produtos da Adobe e das soluções da Experience Cloud, incluindo o Target. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
-seo-title: Atualizações do status do sistema
-solution: Target
+description: Use a página Status do sistema da Adobe para visualizar o status dos produtos da Adobe e das soluções da Experience Cloud, incluindo o Target. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
 title: Atualizações do status do sistema
 topic: Padrão
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
