@@ -1,14 +1,11 @@
 ---
-description: 'Informações sobre a função mboxCreate(mbox,params) para at.js. '
-keywords: mboxCreate;mbox create;mbox create;at.js;funções;function
-seo-description: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
-seo-title: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
-solution: Target
+keywords: mboxCreate; mboxcreate; criar mbox; at.js; funções; função
+description: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
+title: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
 subtopic: Introdução
-title: mboxCreate(mbox,params) - at.js 2.x
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
