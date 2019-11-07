@@ -1,14 +1,10 @@
 ---
-description: O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
 keywords: teste multivariado, mvt, fatorial completo, mvt ou a/b, multivariado a/b, avaliador de tráfego, quando usar mvt, considerações do mvt, multivariado
-seo-description: O Teste multivariado (MVT) no Adobe Target compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
-seo-title: Teste multivariado
-solution: Target
+description: O Teste multivariado (MVT) no Adobe Target compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
 title: Teste multivariado
-topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -17,7 +13,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 O [!UICONTROL Teste multivariado] (MVT) no [!DNL Adobe Target] compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
 
-## Visão geral do MVT {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## Visão geral do MVT  {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 O teste multivariado pode ajudar você a descobrir a influência relativa que os elementos específicos têm na conversão, em comparação com outros elementos na página. Ele também pode ajudar você a refinar uma combinação de elementos que demonstraram ser eficazes.
 
@@ -61,7 +57,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
-* Use um teste MVT quando você tiver pelo menos três elementos para testar. Se tiver menos, execute uma série de Testes A/B.
+* Use um teste MVT quando você tiver pelo menos três elementos para testar. Se tiver menos, execute uma série de  Testes A/B.
 * Selecione os elementos de páginas que você acha que terão mais impacto sobre os resultados.
 * Não inclua elementos nem locais demais em um teste. Quanto maior o número, maior será a duração do teste.
 * Planejar o teste com antecedência. Não é aconselhável editar um teste depois que ele for acionado e os dados começarem a ser coletados e analisados.
