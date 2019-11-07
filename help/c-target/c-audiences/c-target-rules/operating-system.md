@@ -1,14 +1,11 @@
 ---
-description: Você pode direcionar os visitantes que usam um certo sistema operacional.
 keywords: Direcionamento, sistema operacional target, sistema operacional, target os, os, target linux, linux, target windows, windows, target macintosh, macintosh, mac, target mac, win, target win
-seo-description: Você pode direcionar os visitantes que usam um certo sistema operacional.
-seo-title: Sistema operacional
-solution: Target
+description: Você pode direcionar os visitantes que usam um certo sistema operacional.
 title: Sistema operacional
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
