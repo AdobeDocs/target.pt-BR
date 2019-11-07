@@ -1,16 +1,10 @@
 ---
-description: Informações sobre como criar regras de inclusão para critérios e promoções e adicionar regras de filtragem dinâmica ou estática adicionais para alcançar melhores resultados.
 keywords: regras de inclusão, critérios de inclusão, recomendações, criar novos critérios, promoção, promoções, filtragem dinâmica, dinâmica, valores em branco, ignorar regra de filtragem, filtro estático, filtrar por valor, correspondência de atributos de entidade, correspondência de atributos de perfil, correspondência de parâmetros, filtrar por valor, filtro estático
-seo-description: Informações sobre como criar regras de inclusão no Adobe Target Recommendations para critérios e promoções e adicionar regras de filtragem dinâmicas ou estáticas adicionais para obter melhores resultados.
-seo-title: Usar regras de inclusão dinâmicas e estáticas no Adobe Target Recommendations
-solution: Target
-title: Uso das regras de inclusão estática e dinâmica
-title-outputclass: premium
-topic: Premium
+description: Informações sobre como criar regras de inclusão no Adobe Target Recommendations para critérios e promoções e adicionar regras de filtragem dinâmicas ou estáticas adicionais para obter melhores resultados.
+title: Usar regras de inclusão dinâmicas e estáticas no Adobe Target Recommendations
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
-badge: premium
 translation-type: tm+mt
-source-git-commit: 5ab3258eda4363072b7cec1d4b5284f1d5638472
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
