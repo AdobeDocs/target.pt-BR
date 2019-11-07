@@ -1,13 +1,10 @@
 ---
-description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove dos erros mais significativos que empresas cometem ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 keywords: AB, A/B, AB...n, erros, armadilhas, erro, armadilha
-seo-description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove dos erros mais significativos que empresas cometem ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
-seo-title: Nove erros comuns em testes A/B e como evitá-los
-solution: Target
+description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove dos erros mais significativos que empresas cometem ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 title: Nove erros comuns em testes A/B e como evitá-los
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -148,7 +145,7 @@ Considere a oferta de esqui abaixo. Ela gera uma CTR muito maior do que a oferta
 
 Para evitar esse problema, monitore suas métricas de negócios com cuidado para identificar o impacto comercial das ofertas ou, melhor ainda, use uma métrica mais próxima de sua meta de negócios, se possível.
 
-## Conclusão: sucesso com testes A/B, reconhecendo e contornando as armadilhas {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusão: sucesso com testes A/B, reconhecendo e contornando as armadilhas  {#section_54D33248163A481EBD4421A786FE2B15}
 
 Depois de aprender sobre as armadilhas comuns dos testes A/B, esperamos que você possa identificar quando e onde você pode ter sido vítima deles. Esperamos também que você tenha uma melhor compreensão de alguns dos conceitos de probabilidade e estatística envolvidos nos testes A/B, que muitas vezes parecem ser do domínio de pessoas com formação em matemática.
 
