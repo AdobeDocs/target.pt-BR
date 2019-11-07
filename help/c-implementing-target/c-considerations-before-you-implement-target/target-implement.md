@@ -1,13 +1,11 @@
 ---
-description: Implemente o Target referenciando as bibliotecas do Target (at.js ou mbox.js) nas suas páginas da Web.
 keywords: document write; target; implementar; implementar o target; dtm; dynamic tag management; at.js; mbox.js; target.js; mbox
-seo-description: Implemente o Target referenciando as bibliotecas do Target (at.js ou mbox.js) nas suas páginas da Web.
-seo-title: Noções básicas sobre as bibliotecas de JavaScript do Target
+description: Implemente o Target referenciando as bibliotecas do Target (at.js ou mbox.js) nas suas páginas da Web.
 title: Noções básicas sobre as bibliotecas de JavaScript do Target
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
