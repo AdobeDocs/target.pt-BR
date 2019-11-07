@@ -1,14 +1,11 @@
 ---
+keywords: qa; visualização; link de visualização; dispositivo móvel; visualização móvel
 description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
-keywords: qa;visualização;link de visualização;móvel;visualização móvel
-seo-description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
-seo-title: Usar o link de visualização móvel no Adobe Target Mobile
-solution: Target
-title: Visualização do Target Mobile
+title: Uso do link de visualização móvel no Adobe Target Mobile
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
