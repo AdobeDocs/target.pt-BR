@@ -1,14 +1,10 @@
 ---
-description: Várias etapas são necessárias para a implementação do Adobe Analytics como a fonte de geração de relatórios para o Target (A4T).
 keywords: A4T; Adobe Analytics; Atividade baseada no Analytics; Conjunto de relatórios do Analytics; conjunto de relatórios; Integração do Analytics Target; configurar conjunto de relatórios
-seo-description: Várias etapas são necessárias para a implementação do Adobe Analytics como a fonte de geração de relatórios para o Target (A4T).
-seo-title: Implementação do Analytics for Target
-solution: Target
+description: Várias etapas são necessárias para a implementação do Adobe Analytics como a fonte de geração de relatórios para o Target (A4T).
 title: Implementação do Analytics for Target
-topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -55,7 +51,7 @@ Se você implantou anteriormente o at.js ou o mbox.js, você pode substituir seu
 
 Caso contrário, este arquivo pode ser hospedado com o serviço de ID de visitante e os arquivos do AppMeasurement para JavaScript. Esses arquivos devem ser hospedados em um servidor da Web que seja acessível a todas as páginas no seu site. Você precisa do caminho até esses arquivos na próxima etapa.
 
-## Etapa 7: Referência a at.js ou mbox.js em todas as páginas do site {#step7}
+## Etapa 7: Referência a at.js ou mbox.js em todas as páginas do site  {#step7}
 
 Inclua at.js ou mbox.js abaixo de VisitorAPI.js adicionando a seguinte linha de código na tag de cada página:
 
