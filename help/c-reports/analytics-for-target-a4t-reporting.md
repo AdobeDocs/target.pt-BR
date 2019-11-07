@@ -1,15 +1,12 @@
 ---
-description: Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) dá a você acesso aos relatórios do Analytics de suas atividades do Target.
 keywords: analytics para target; a4T; análise como fonte de relatórios
-seo-description: Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) dá a você acesso aos relatórios do Analytics de suas atividades do Target.
-seo-title: Relatórios do Analytics for Target (A4T)
-solution: Target
-subtopic: Teste multivariado
+description: Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) dá a você acesso aos relatórios do Analytics de suas atividades do Target.
 title: Relatórios do Analytics for Target (A4T)
+subtopic: Teste multivariado
 topic: Padrão
 uuid: 4132492b-92d7-4b21-b7ca-324e7b898251
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
