@@ -1,24 +1,18 @@
 ---
-description: Informações sobre como criar propriedades e usar a funcionalidade Propriedades e permissões, que permite aos administradores do Target criar espaços de trabalho separados (perfis de produto) no Target e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais com base nesses espaços de trabalho.
 keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração de produto; perfil de produto; funções; projeto
-seo-description: Informações sobre como criar propriedades e usar a funcionalidade Propriedades e permissões, que permite aos administradores do Target criar espaços de trabalho separados (perfis de produto) no Target e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais com base nesses espaços de trabalho.
-seo-title: Permissões de usuário empresarial
-solution: Target
-subtopic: Introdução
+description: Informações sobre como criar propriedades e usar a funcionalidade Propriedades e permissões, que permite aos administradores do Target criar espaços de trabalho separados (perfis de produto) no Target e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais com base nesses espaços de trabalho.
 title: Permissões de usuário empresarial
-title-outputclass: premium
-topic: Premium
+subtopic: Introdução
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # Permissões do usuário corporativo ![PREMIUM](/help/assets/premium.png){#enterprise-user-permissions}
 
-As permissões do usuário corporativo		são um meio de administração formal de acesso de usuário empresarial ao Target. Adicione usuários ao Target, atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. É possível atribuir aos usuários as funções de Observador, Editor ou Aprovador.
+As permissões do usuário corporativo são um meio de administração formal de acesso de usuário empresarial ao Target. Adicione usuários ao Target, atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. É possível atribuir aos usuários as funções de Observador, Editor ou Aprovador.
 
 ## Determine se você tem acesso a permissões de usuário do Enterprise
 
@@ -103,7 +97,7 @@ Canal refere-se ao tipo de conteúdo onde suas atividades do Target são entregu
 
 Quando você cria uma nova atividade, ela é criada no espaço de trabalho selecionado atualmente. Você verá as opções de seleção de canal na primeira caixa de diálogo, que permite escolher o canal desejado para a atividade: Web, Aplicativo móvel, Email ou Outro/API.
 
-## Visão geral de permissões {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Visão geral de permissões  {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 As informações a seguir explicam a forma como as permissões eram aplicadas anteriormente no [!DNL Target] e como são aplicadas usando a funcionalidade [!UICONTROL Propriedades] e [!UICONTROL Permissões].
 
@@ -141,7 +135,7 @@ Além disso, Jan não poderá ver as páginas, propriedades ou sites no [!DNL Ta
 
 Neste exemplo, Jan não pode ver as páginas dos produtos, o site da Rússia e o site de carreiras.
 
-## Cenários de casos de uso {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Cenários de casos de uso  {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 Os seguintes casos de uso podem ser úteis para entender como as propriedades, projetos, funções e permissões podem ajudá-lo a atingir suas metas de marketing como [!DNL Target]:
 
@@ -188,7 +182,7 @@ Após uma reorganização, usando as pessoas das ilustrações acima, você pode
 
 * **Diana**: Diana agora é uma analista da organização e recebeu permissões de observador para o site do hospital e do consumidor que dá acesso somente leitura às atividades. Diana pode exibir atividades, mas não pode criá-las ou editá-las.
 
-## Propriedade da interface do usuário do Target e pontos de contato de permissões {#section_3414371393BB42999A268628B5456EC9}
+## Propriedade da interface do usuário do Target e pontos de contato de permissões  {#section_3414371393BB42999A268628B5456EC9}
 
 A nova funcionalidade de Permissões pode ser vista em vários locais na interface do usuário do [!DNL Target].
 
