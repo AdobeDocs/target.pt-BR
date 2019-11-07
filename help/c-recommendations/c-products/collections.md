@@ -1,16 +1,10 @@
 ---
-description: Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação.
 keywords: coleção, direcionamento
-seo-description: Uma coleção é um conjunto de produtos ou itens no Adobe Target que estão qualificados para uma recomendação.
-seo-title: Coleções no Adobe Target
-solution: Target
-title: Coleções
-title-outputclass: premium
-topic: Premium
+description: Uma coleção é um conjunto de produtos ou itens no Adobe Target que são qualificados para uma recomendação.
+title: Coleções no Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +17,7 @@ Normalmente, uma coleção é um conjunto de itens semelhantes ou relacionados, 
 
 Use as coleções para organizar seus produtos em caixas lógicas. Por exemplo, se alguns itens estão disponíveis em uma região, mas não em outra, você pode criar uma coleção que exclui os itens que não estão disponíveis na região do visitante. Você também pode usar as coleções para organizar os itens sazonais ou quaisquer outros parâmetros de organização que se aplicam ao seu negócio.
 
-The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. Com as coleções, você pode garantir que apenas os produtos que fazem sentido serão exibidos em um local.
+As [recomendações de backup](/help/c-recommendations/c-algorithms/backup-recs.md) geradas para cada critério dentro da recomendação também usam essa coleção, para que sejam incluídos na recomendação de backup apenas os itens na coleção. Com as coleções, você pode garantir que apenas os produtos que fazem sentido serão exibidos em um local.
 
 As coleções são recriadas ou atualizadas cada vez que o critério for executado.
 
@@ -67,7 +61,7 @@ Crie uma coleta para organizar os produtos que deseja mostrar nas recomendaçõe
 
 ## Criar uma coleção usando a Pesquisa avançada
 
-You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+Você também pode criar coleções usando a Pesquisa avançada na página [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Recommendations] &gt; [!UICONTROL Pesquisa no catálogo] &gt; [!UICONTROL Pesquisa avançada]).
 
 ![Salvar como](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -77,7 +71,7 @@ Após criar uma pesquisa usando "id &gt; contains" por exemplo, você pode clica
 >
 >A funcionalidade de Pesquisa avançada não faz distinção entre maiúsculas e minúsculas; contudo, os produtos devolvidos no momento da entrega baseiam-se na pesquisa sensível a maiúsculas e minúsculas. Essa não correspondência pode levar à confusão. Certifique-se de considerar a sensibilidade a maiúsculas e minúsculas quando você cria coleções baseadas em resultados usando a funcionalidade Pesquisa avançada. Por exemplo, se você realiza uma busca para "Feriado", essa busca inicial lista os resultados contendo "Feriado" e "feriado". Em seguida, se você criar um catálogo com a intenção de encontrar produtos contendo "feriado", somente os produtos contendo "feriado" serão exibidos. Os produtos contendo "Feriado" não serão exibidos.
 
-## Vídeo de treinamento: Criar coleções e exclusões no Recommendations (7:05)
+## Vídeo de treinamento: criar coleções e exclusões no Recommendations (7:05)
 
 Este vídeo contém as seguintes informações:
 
