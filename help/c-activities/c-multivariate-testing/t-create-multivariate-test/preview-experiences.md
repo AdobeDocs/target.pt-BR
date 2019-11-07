@@ -1,13 +1,10 @@
 ---
 description: Como um teste multivariado compara várias experiências em uma página, é útil visualizar a página com cada experiência.
-seo-description: Como um teste multivariado compara várias experiências em uma página, é útil visualizar a página com cada experiência.
-seo-title: Experiências de visualização para um Teste multivariado
-solution: Target
 title: Experiências de visualização para um Teste multivariado
 topic: Padrão
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
