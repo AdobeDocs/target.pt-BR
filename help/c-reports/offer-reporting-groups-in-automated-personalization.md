@@ -1,16 +1,11 @@
 ---
-description: Informações sobre o uso de grupos de relatórios em atividades de Automated Personalization (AP).
-keywords: personalização automatizada, oferta, relatórios, grupo;grupo de relatórios
-seo-description: Informações sobre como usar grupos de relatórios em atividades de Personalização automatizada (AP) no Adobe Target.
-seo-title: Ofereça grupos de relatórios em atividades de Personalização automatizada (AP) no Adobe Target
-solution: Target
-title: Oferecer Grupos de relatório na Automated Personalization
-title-outputclass: premium
+keywords: personalização automatizada;oferta;relatório;grupo;grupo de relatórios;personalização automatizada;oferta;relatório;grupo;grupo de relatórios
+description: Informações sobre como usar grupos de relatórios em atividades de Personalização automatizada (AP) no Adobe Target.
+title: Ofereça grupos de relatórios em atividades de Personalização automatizada (AP) no Adobe Target
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
-badge: premium
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
