@@ -1,14 +1,10 @@
 ---
-description: Os visores móveis ajudam a visualizar como as atividades aparecem em telas de vários tamanhos.
 keywords: responsivo, janelas de visualização móvel, janela, dispositivos, exemplo móvel, iphone
-seo-description: Os visores móveis ajudam a visualizar como as atividades aparecem em telas de vários tamanhos.
-seo-title: Visores móveis para experiências responsivas
-solution: Target
+description: Os visores móveis ajudam a visualizar como as atividades aparecem em telas de vários tamanhos.
 title: Visores móveis para experiências responsivas
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -36,7 +32,7 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 | iPhone 7 | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
 | iPhone 6 | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
 | iPhone 6s | 414 de largura x 736 de altura | 1080 de largura x 1920 de altura |
-| iPad Pro | 1024 de largura x 1366 de altura | 2048 de largura x 2732 de altura |
+| iPad  Pro | 1024 de largura x 1366 de altura | 2048 de largura x 2732 de altura |
 | iPad de terceira e quarta generação | 768 de largura x 1024 de altura | 1536 de largura x 2048 de altura |
 | iPad Air 1 e 2 | 768 de largura x 1024 de altura | 1536 de largura x 2048 de altura |
 | iPad Mini | 768 de largura x 1024 de altura | 768 de largura x 1024 de altura |
