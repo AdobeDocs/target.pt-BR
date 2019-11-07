@@ -1,25 +1,22 @@
 ---
-description: O Visual Experience Composer (VEC) fornece uma interface visual para editar as experiências em sua página da atividade de Direcionamento de experiência (XT).
 keywords: criar experiência, experiência criar, prioridade, público-alvo, experiência, visual experience composer
-seo-description: O Visual Experience Composer (VEC) do Adobe Target fornece uma interface visual para editar as experiências em sua página da atividade de Direcionamento de experiência (XT).
-seo-title: Criar experiência
-solution: Target
+description: O Visual Experience Composer (VEC) do Adobe Target fornece uma interface visual para editar as experiências em sua página da atividade de Direcionamento de experiência (XT).
 title: Criar experiência
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # Criar experiência{#create-experience}
 
-The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
+O [!UICONTROL Visual Experience Composer] (VEC) do fornece uma interface visual para editar as experiências em sua página da atividade de [!UICONTROL Direcionamento de experiência] (XT).
 
 1. Selecione os elementos que você deseja alterar e faça as modificações desejadas.
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   Ao [criar uma atividade de XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), a etapa um do fluxo de trabalho guiado de três etapas ([!UICONTROL Experiências]) exibe a [!UICONTROL Experiência A] padrão com o público-alvo [!UICONTROL Todos os visitantes].
 
    ![Público-alvo de todos os visitantes](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +24,19 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o VEC. Para ver uma lista de ações que podem ser executadas em um elemento para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   Se você criou uma mbox na página usando o [!DNL Target Classic], essa mbox aparece como um elemento que mostra o seu nome e pode ser modificada como qualquer outro elemento.
 
    >[!NOTE]
    >
-   >Por padrão, o VEC não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar o JavaScript para alterar esses elementos usando a VEC.
+   >Por padrão, o VEC não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode selecionar a desativação do JavaScript para alterar esses elementos usando o VEC.
 
-1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
+1. Para criar experiências adicionais, clique em **[!UICONTROL Adicionar direcionamento de experiência]**.
 
    ![Link Adicionar Direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    A caixa de diálogo [!UICONTROL Escolher público-alvo] é exibida. Para direcionar uma experiência para um público-alvo, selecione-o antes de incluir uma experiência.
 
-   A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do [!DNL Target]. Você pode selecionar um público-alvo da biblioteca ou [criar um novo público-alvo](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +66,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    >[!NOTE]
    >
-   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
+   >Se você apresentar uma imagem de uma fonte diferente da sua página principal (como uma imagem hospedada em `akamai.net` e disponibilizada em `adobe.com`), ela não será exibida na miniatura da página mostrada no diagrama de fluxo.
 
 1. (Condicional) Arraste e solte pares de público-alvo/experiência ao criar ou editar atividades de XT para reorganizar os pares na ordem desejada.
 
@@ -100,7 +97,7 @@ Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho
 
 ## Duplicar uma experiência
 
-É possível copiar uma experiência em uma atividade XT para que você possa fazer pequenas alterações nela sem precisar recriar a experiência do zero.
+Você pode copiar uma experiência em uma atividade de XT para fazer pequenas alterações nela sem ter que recriar a experiência do zero.
 
 Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais &gt; **[!UICONTROL Duplicar]**.
 
