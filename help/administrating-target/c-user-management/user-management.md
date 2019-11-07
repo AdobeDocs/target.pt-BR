@@ -1,15 +1,12 @@
 ---
-description: Informações sobre o gerenciamento de Usuários no Target Standard e de Propriedades e permissões do empresariais no Target Premium.
 keywords: adicionar usuário;gerenciar usuário;permissões do usuário
-seo-description: Informações sobre o gerenciamento de Usuários no Target Standard e de Propriedades e permissões do empresariais no Target Premium.
-seo-title: Gerenciamento do usuário
-solution: Target
-subtopic: Introdução
+description: Informações sobre o gerenciamento de Usuários no Target Standard e de Propriedades e permissões do empresariais no Target Premium.
 title: Gerenciamento do usuário
+subtopic: Introdução
 topic: Padrão
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
