@@ -1,14 +1,11 @@
 ---
-description: A at.js é uma nova biblioteca de implementação do Adobe Target, projetada para implementações típicas da Web e aplicativos de página única.
 keywords: Target Standard; at.js; implementação
-seo-description: A at.js é uma nova biblioteca de implementação do Adobe Target, projetada para implementações típicas da Web e aplicativos de página única.
-seo-title: Migração da mbox.js para at.js
-solution: Target
+description: A at.js é uma nova biblioteca de implementação do Adobe Target, projetada para implementações típicas da Web e aplicativos de página única.
 title: Migração da mbox.js para at.js
 topic: Padrão
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
