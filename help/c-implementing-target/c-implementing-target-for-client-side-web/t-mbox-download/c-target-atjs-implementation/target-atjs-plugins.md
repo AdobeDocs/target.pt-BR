@@ -1,21 +1,18 @@
 ---
-description: Informações sobre plug-ins do at.js suportados e não suportados no Target.
-keywords: plug-ins at.js;plug-ins suportados;plug-ins não suportados;ttMeta;ttmeta;mboxTrack
-seo-description: Informações sobre plug-ins do at.js suportados e não suportados para o Adobe Target.
-seo-title: plug-ins at.js para o Adobe Target
-solution: Target
-title: Plug-ins da at.js
+keywords: plug-ins do at.js; plug-ins compatíveis; plug-ins incompatíveis; ttMeta; ttmeta; mboxTrack
+description: Informações sobre plug-ins compatíveis e incompatíveis do Adobe Target.
+title: Plug-ins do at.js para Adobe Target
 topic: Padrão
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# at.js plug-ins{#at-js-plug-ins}
+# Plug-ins do at.js{#at-js-plug-ins}
 
-Informações sobre plug-ins do at.js suportados e não suportados no Adobe Target.
+Informações sobre plug-ins compatíveis e incompatíveis no Adobe Target.
 
 Muitas pessoas criaram plug-ins personalizados e plug-ins de resposta para a [!DNL mbox.js]. Esses plug-ins personalizados podem não ser compatíveis com a [!DNL at.js] sem ser atualizados.
 
@@ -27,4 +24,4 @@ Este é o status atual de alguns dos plug-ins usados por muitos clientes, quando
 |--- |--- |
 | mboxTrack | Não suportado.<br>Isso é substituído pela função [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md). Atualize seus plug-ins para aplicar a nova função.<br>Consulte a página [de integrações](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md). |
 | Plugin de backup de perfil persistente | Não suportado.<br>Este plug-in foi desatualizado quando o tempo de vida do perfil do Target foi estendido de duas semanas para 90 dias. Verifique a data de expiração do cookie da mbox para ver a configuração de tempo de vida do perfil na sua conta.<br>Entre em contato com o Atendimento ao cliente se desejar estender o tempo de vida do perfil para 90 dias. |
-| ttMeta | Old SiteCatalyst plugins should be disabled and replaced with [Adobe Analytics as the reporting source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). O plugin ttMeta deve ser desativado e substituído pelo [depurador da Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| ttMeta | Os plug-ins antigos do SiteCatalyst devem ser desativados e substituídos pelo [Adobe Analytics como a fonte de relatórios do Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). O plugin ttMeta deve ser desativado e substituído pelo [depurador da Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
