@@ -1,14 +1,11 @@
 ---
-description: Use URLs de controle de qualidade com entrega do lado do servidor para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
 keywords: qa, lado do servidor, lado do servidor, visualização, visualização de links
-seo-description: Use URLs de controle de qualidade com entrega do lado do servidor para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
-seo-title: Usar o controle de qualidade de atividade com entrega do lado do servidor
-solution: Target
+description: Use URLs de controle de qualidade com entrega do lado do servidor para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
 title: Usar o controle de qualidade de atividade com entrega do lado do servidor
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
