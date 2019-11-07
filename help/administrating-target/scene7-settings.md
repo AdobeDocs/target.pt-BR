@@ -1,14 +1,11 @@
 ---
 description: O Target Standard pode ser integrado com o Adobe Dynamic Media Classic (anteriormente Adobe Scene7) para fornecer gerenciamento de ativos digitais (DAM) na biblioteca de conteúdo.
-seo-description: O Target Standard pode ser integrado com o Adobe Dynamic Media Classic (anteriormente Adobe Scene7) para fornecer gerenciamento de ativos digitais (DAM) na biblioteca de conteúdo.
-seo-title: Integração com o Dynamic Media Classic
-solution: Target
-subtopic: Introdução
 title: Integração com o Dynamic Media Classic
+subtopic: Introdução
 topic: Padrão
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: c6a59843c80017e6f072f65ffad822fe198ebb55
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +20,7 @@ O Target Standard pode ser integrado com o Adobe Dynamic Media Classic (anterior
 
 Se você já tiver uma conta do Dynamic Media, poderá fornecer suas credenciais existentes. Se não tiver uma conta, poderá solicitar uma conta do Dynamic Media Classic de uso restrito sem nenhum custo adicional do representante da Adobe. Esta conta pode ser usada para propósitos restritos para uso apenas no Target. Este serviço está disponível para cliente com fluxos de trabalho que precisam de funcionalidade de troca de imagem.
 
-Se esta configuração não estiver definida, a opção de troca de imagem de oferta dentro do fluxo de trabalho da criação da atividade não estará disponível. Após está configuração estar definida, a opção de trocar imagens de oferta ficará disponível no [Visual Experience Composer (VEC) e no Experience Composer baseado em formulários](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Você pode então alavancar imagens de ofertas com imagens que foram carregadas na Adobe Experience Cloud para uso em atividades do Target.
+Se esta configuração não estiver definida, a opção de troca de imagem de oferta dentro do fluxo de trabalho da criação da atividade não estará disponível. Após está configuração estar definida, a opção de trocar imagens de oferta ficará disponível no  [Visual Experience Composer (VEC) e no Experience Composer baseado em formulários](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Você pode então alavancar imagens de ofertas com imagens que foram carregadas na Adobe Experience Cloud para uso em atividades do Target.
 
 Se você quer referenciar um URL de imagem pública diretamente em uma oferta ou código personalizado durante a criação da atividade, você deve implantar a imagem em seu próprio servidor web e usar seu próprio URL no código. Não há como obter o URL publicado de uma imagem carregada na Experience Cloud para consumir diretamente ou por fora de fluxos de trabalho de definição usando o Adobe Target. Esta funcionalidade não é permitida, de acordo com o contrato.
 
