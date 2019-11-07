@@ -1,14 +1,11 @@
 ---
-description: Um seletor de elemento é uma expressão CSS que pode identificar um ou mais elementos.
 keywords: Direcionamento de experiência;teste de página de aterrissagem
-seo-description: Um seletor de elemento é uma expressão CSS que pode identificar um ou mais elementos.
-seo-title: Seletores de elementos usados no Visual Experience Composer
-solution: Target
+description: Um seletor de elemento é uma expressão CSS que pode identificar um ou mais elementos.
 title: Seletores de elementos usados no Visual Experience Composer
 topic: Padrão
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
