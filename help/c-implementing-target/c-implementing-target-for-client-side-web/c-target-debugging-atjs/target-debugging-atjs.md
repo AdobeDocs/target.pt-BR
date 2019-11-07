@@ -1,13 +1,11 @@
 ---
-description: Informações sobre o uso da extensão do depurador da Adobe Experience Cloud, que agiliza e facilita a compreensão da implementação do Target.
 keywords: at.js; depurar o at.js; depurador da adobe Experience Cloud; depurador da Experience Cloud; rastreamento de mbox; realce da mbox; depurar; depuração
-seo-description: Informações sobre o uso da extensão do depurador da Adobe Experience Cloud, que agiliza e facilita a compreensão da implementação do Target.
-seo-title: Depuração da at.js usando o depurador da Adobe Experience Cloud
+description: Informações sobre o uso da extensão do depurador da Adobe Experience Cloud, que agiliza e facilita a compreensão da implementação do Target.
 title: Depuração da at.js usando o depurador da Adobe Experience Cloud
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +22,7 @@ Revise a [documentação do depurador da Adobe Experience Cloud](https://docs.ad
 
 Os vídeos a seguir o orientam pelo processo de depuração:
 
-### Adicionar a extensão do depurador da Adobe Experience Cloud {#section_8CD96F76E397476193529573F3199615}
+### Adicionar a extensão do depurador da Adobe Experience Cloud  {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=por_br)
 
