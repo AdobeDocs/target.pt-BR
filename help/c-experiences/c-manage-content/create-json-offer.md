@@ -1,14 +1,11 @@
 ---
-description: Crie ofertas JSON na Biblioteca de ofertas para uso no Experience Composer baseado em formulário.
 keywords: oferta remota; criar oferta remota
-seo-description: Crie ofertas JSON na Biblioteca de ofertas para uso no Experience Composer baseado em formulário.
-seo-title: Criar ofertas JSON
-solution: Target
+description: Crie ofertas JSON na Biblioteca de ofertas para uso no Experience Composer baseado em formulário.
 title: Criar ofertas JSON
 topic: Padrão
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,9 +21,9 @@ Considere as informações a seguir ao trabalhar com ofertas JSON:
 * Ofertas JSON estão atualmente disponíveis apenas para atividades AB e XT.
 * Ofertas JSON podem ser usadas somente em atividades baseadas em formulário.
 * A oferta JSON pode ser recuperada diretamente quando você está usando a API do lado do servidor, o SDK para dispositivos móveis ou o SDK do NodeJS.
-* No navegador, as ofertas JSON podem ser recuperadas APENAS via at.js 1.2.3 (ou posterior) e usando [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) filtrando ações com o uso da ação `setJson`.
+* No navegador, as ofertas JSON podem ser recuperadas APENAS via at.js 1.2.3 (ou posterior) e usando  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) filtrando ações com o uso da ação `setJson`.
 * As ofertas JSON são entregues como objetos JSON nativos, e não como cadeia de caracteres. Os consumidores desses objetos não precisam mais manipular objetos como cadeia de caracteres e convertê-los em objetos JSON.
-* As ofertas JSON não são aplicadas automaticamente em oposição a outras ofertas (como ofertas de HTML) porque as ofertas JSON são ofertas não visuais. Os desenvolvedores devem escrever o código para obter explicitamente a oferta usando [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* As ofertas JSON não são aplicadas automaticamente em oposição a outras ofertas (como ofertas de HTML) porque as ofertas JSON são ofertas não visuais. Os desenvolvedores devem escrever o código para obter explicitamente a oferta usando  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * Ofertas JSON não são suportadas se você estiver usando mbox.js.
 
 ## Criação de uma oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
@@ -129,7 +126,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Filtrando ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Filtrando ofertas por tipo de oferta JSON  {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 Você pode filtrar a Biblioteca de ofertas por tipo de oferta JSON ao clicar na lista suspensa **[!UICONTROL Tipo]** e selecionar a caixa de verificação **JSON[!UICONTROL .]**
 
