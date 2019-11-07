@@ -1,14 +1,10 @@
 ---
-description: Há algumas diferenças entre o at.js e o mbox.js. Este tópico lista algumas das diferenças e limitações a fim de ajudar você a ser bem-sucedido com a at.js.
 keywords: limitações do visual experience composer; suporte para navegador; integrações; plugins; considerações assíncronas
-seo-description: Há algumas diferenças entre o at.js e o mbox.js. Este tópico lista algumas das diferenças e limitações a fim de ajudar você a ser bem-sucedido com a at.js.
-seo-title: Limitações da at.js
-solution: Target
+description: Há algumas diferenças entre o at.js e o mbox.js. Este tópico lista algumas das diferenças e limitações a fim de ajudar você a ser bem-sucedido com a at.js.
 title: Limitações da at.js
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +19,7 @@ Há algumas diferenças entre o at.js e o mbox.js. Este tópico lista algumas da
 
    Como o DOM não é limpo em eventos de carregamento de página nos aplicativos de página única, como ocorre em sites tradicionais, as manipulações de Inserir elemento e Reorganizar podem ser reaplicadas várias vezes, dependendo de como o visitante navega no SPA.
 
-## Integrações e plug-ins {#section_D92E31170176406AAC7B5005F03D3425}
+## Integrações e plug-ins  {#section_D92E31170176406AAC7B5005F03D3425}
 
 Algumas funções da [!DNL mbox.js] não estão disponíveis na [!DNL at.js]. Métodos e objetos da [mbox.js internos](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (como `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` e outros) não são mais compatíveis com a [!DNL at.js] (por exemplo: `mboxFactoryDefault`). Isso ocorre por design, destinado a desencorajá-lo de "hackear" a [!DNL at.js] para desenvolver recursos não suportados que, a longo prazo, podem comprometer uma implementação e impossibilitar a atualização. Os únicos métodos expostos são abordados nas páginas da API desta documentação. Por esse motivo:
 
