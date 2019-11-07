@@ -1,15 +1,12 @@
 ---
-description: Informações sobre os vários métodos que você pode usar para inserir dados no Target, incluindo parâmetros de página, atributos de perfil na página, atributos de script de perfil, provedores de dados, a API de atualização de perfil em massa, a API de atualização de perfil único e atributos do cliente.
 keywords: implementar, implementação, configuração, configurar, parâmetro de página, tomcat, url codificado, atributo de perfil na página, parâmetro mbox, atributos de perfil na página, atributo de perfil de script, API de atualização de perfil em massa, API de atualização de arquivo único, atributos de cliente, provedores de dados, dataprovider, provedor de dados
-seo-description: Informações sobre os vários métodos que você pode usar para inserir dados no Target, incluindo parâmetros de página, atributos de perfil na página, atributos de script de perfil, provedores de dados, a API de atualização de perfil em massa, a API de atualização de perfil único e atributos do cliente.
-seo-title: Métodos para colocar os dados no Target
-solution: Target
-subtopic: Introdução
+description: Informações sobre os vários métodos que você pode usar para inserir dados no Target, incluindo parâmetros de página, atributos de perfil na página, atributos de script de perfil, provedores de dados, a API de atualização de perfil em massa, a API de atualização de perfil único e atributos do cliente.
 title: Métodos para colocar os dados no Target
+subtopic: Introdução
 topic: Padrão
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -298,7 +295,7 @@ Perfis de atualização somente. Não é possível criar um perfil para um usuá
 
 ### Exemplo de código
 
-Suporte a GET e POST. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+Suporte a GET e POST.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Links para informações relevantes
 
