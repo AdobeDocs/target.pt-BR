@@ -1,14 +1,11 @@
 ---
-description: Solução de problemas de informações sobre o gerenciamento de usuários no Adobe Target.
 keywords: solucionar problemas; solução de problemas; usuários; gerenciamento de usuários
-seo-description: Solução de problemas de informações sobre o gerenciamento de usuários no Adobe Target.
-seo-title: Solução de problemas de gerenciamento de usuários
-solution: Target
+description: Solução de problemas de informações sobre o gerenciamento de usuários no Adobe Target.
 title: Solução de problemas de gerenciamento de usuários
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
