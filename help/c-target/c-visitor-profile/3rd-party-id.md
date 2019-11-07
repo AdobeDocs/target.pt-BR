@@ -1,14 +1,11 @@
 ---
-description: A mbox3rdPartyId é a ID de visitante de sua empresa, como a ID de associação do programa de fidelidade da empresa.
 keywords: mbox; mbox3rdPartyId; sincronização de perfil; sincronização de perfil; PCID
-seo-description: 'Informações sobre o perfil em tempo real '
-seo-title: Sincronização de perfil em tempo real para mbox3rdPartyId no Adobe Target
-solution: Target
-title: Sincronização de perfil em tempo real para mbox3rdPartyId
+description: 'Informações sobre o perfil em tempo real '
+title: Sincronização de perfil em tempo real para mbox3rdPartyId no Adobe Target
 topic: Padrão
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
