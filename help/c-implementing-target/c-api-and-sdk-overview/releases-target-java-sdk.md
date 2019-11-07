@@ -1,13 +1,10 @@
 ---
-description: Notas de versão relacionadas ao Java SDK do Adobe Target
 keywords: at.js;sdk;release;updates;sdks;server-side;server-side;server-side;java;java sdk
-seo-description: Notas de versão relacionadas ao Java SDK do Adobe Target.
-seo-title: Notas de versão relacionadas ao Java SDK do Adobe Target.
-solution: Target
-title: Notas de versão - Target Java SDK
+description: Notas de versão relacionadas ao Java SDK do Adobe Target.
+title: Notas de versão relacionadas ao Java SDK do Adobe Target.
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
