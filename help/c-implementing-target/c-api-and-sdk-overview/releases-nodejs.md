@@ -1,13 +1,10 @@
 ---
-description: Notas de versão relacionadas ao SDK Node.js do Adobe Target
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;server-side;server-side;nodejs;at.js;sdk;node.js;release;updates;sdks;server side;server-side;server-side;server-side;nodejs
-seo-description: Notas de versão relacionadas às APIs do servidor do Adobe Target.
-seo-title: Notas de versão relacionadas ao SDK Node.js do Adobe Target.
-solution: Target
-title: Notas de versão - SDK do Target Node.js
+description: Notas de versão relacionadas às APIs do servidor do Adobe Target.
+title: Notas de versão relacionadas ao SDK Node.js do Adobe Target.
 topic: Padrão
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
