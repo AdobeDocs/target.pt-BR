@@ -1,14 +1,11 @@
 ---
-description: O resumo do teste oferece uma visão geral visual do teste multivariado.
 keywords: Visão geral e referência
-seo-description: O resumo do teste oferece uma visão geral visual do teste multivariado.
-seo-title: Resumo do teste
-solution: Target
+description: O resumo do teste oferece uma visão geral visual do teste multivariado.
 title: Resumo do teste
 topic: Padrão
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
