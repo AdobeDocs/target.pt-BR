@@ -1,14 +1,11 @@
 ---
-description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, direcionamento de público-alvo, geração de relatório de público-alvo, relatar público-alvo, segmento, parâmetros de perfil personalizado, definição de público-alvo, lista de público-alvo
-seo-description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
-seo-title: Criar públicos-alvo no Adobe Target
-solution: Target
-title: Criar públicos-alvo
+description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
+title: Criar públicos-alvo no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
