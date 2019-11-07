@@ -1,13 +1,10 @@
 ---
-description: Direcione usuários com base nas regras de direcionamento pré-criadas.
 keywords: Direcionamento, biblioteca de metas, biblioteca
-seo-description: Direcione usuários com base nas regras de direcionamento pré-criadas.
-seo-title: Biblioteca do Target
-solution: Target
+description: Direcione usuários com base nas regras de direcionamento pré-criadas.
 title: Biblioteca do Target
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -16,7 +13,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Direcione usuários com base nas regras de direcionamento pré-criadas.
 
-Os públicos pré-construídos na categoria Biblioteca do Target são herdados e existem em outras categorias. Para obter mais informações e práticas recomendadas, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Os públicos pré-construídos na categoria Biblioteca do Target são herdados e existem em outras categorias. Para obter mais informações e práticas recomendadas, consulte  [Perguntas frequentes sobre direcionamentos e público-alvo](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 >[!NOTE]
 >
