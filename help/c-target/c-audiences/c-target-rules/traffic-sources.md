@@ -1,13 +1,10 @@
 ---
-description: Crie públicos-alvo para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
 keywords: Direcionamento, fontes de tráfego, fontes de tráfego do target, mecanismo de pesquisa do target, mecanismo de pesquisa, página de aterrissagem, página de aterrissagem do target, página de aterrissagem de referência
-seo-description: Crie públicos-alvo no Adobe Target para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
-seo-title: Fontes de tráfego de direcionamento no Adobe Target
-solution: Target
-title: Fontes de tráfego
+description: Crie públicos-alvo no Adobe Target para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
+title: Fontes de tráfego de direcionamento no Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
