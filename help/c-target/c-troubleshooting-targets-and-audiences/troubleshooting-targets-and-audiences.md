@@ -1,14 +1,11 @@
 ---
-description: Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
 keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, metas, públicos-alvo
-seo-description: Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
-seo-title: Perguntas frequentes sobre direcionamentos e públicos
-solution: Target
+description: Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
 title: Perguntas frequentes sobre direcionamentos e públicos
 topic: Padrão
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
