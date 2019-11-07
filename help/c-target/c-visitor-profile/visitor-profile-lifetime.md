@@ -1,15 +1,12 @@
 ---
-description: Por padrão, os perfis de visitantes são armazenados por 14 dias. A duração desse perfil pode ser estendida.
 keywords: Visão geral e referência
-seo-description: Por padrão, os perfis de visitantes são armazenados por 14 dias. A duração desse perfil pode ser estendida.
-seo-title: Duração do perfil do visitante
-solution: Target
-subtopic: Introdução
+description: Por padrão, os perfis de visitantes são armazenados por 14 dias. A duração desse perfil pode ser estendida.
 title: Duração do perfil do visitante
+subtopic: Introdução
 topic: Padrão
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
