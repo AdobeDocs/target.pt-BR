@@ -1,15 +1,10 @@
 ---
 description: O Avaliador de tráfego fornece feedback que permite saber se há tráfego suficiente para a atividade ser bem-sucedida.
-seo-description: O Avaliador de tráfego fornece feedback que permite saber se há tráfego suficiente para a atividade ser bem-sucedida.
-seo-title: Estimativa de tráfego exigido para o sucesso
-solution: Target
 title: Estimativa de tráfego exigido para o sucesso
-title-outputclass: premium
 topic: Padrão
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
