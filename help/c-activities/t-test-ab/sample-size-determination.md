@@ -1,13 +1,10 @@
 ---
-description: Um teste A/B bem-sucedido requer um número adequado de visitantes (tamanho da amostra) para melhorar o índice de conversão, mas como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre as atividades de alocação automática e a calculadora de tamanho de amostra do Target para ajudar a garantir que sua atividade tenha um número suficiente de visitantes para atingir as metas.
 keywords: AB;A/B;AB...n;tamanho da amostra; calculador de tamanho da amostra; alocação automática; autoalocação
-seo-description: Um teste A/B bem-sucedido requer um número adequado de visitantes (tamanho da amostra) para melhorar o índice de conversão, mas como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre as atividades de alocação automática e a calculadora de tamanho de amostra do Target para ajudar a garantir que sua atividade tenha um número suficiente de visitantes para atingir as metas.
-seo-title: Por quanto tempo você deve executar um teste A/B?
-solution: Target
+description: Um teste A/B bem-sucedido requer um número adequado de visitantes (tamanho da amostra) para melhorar o índice de conversão, mas como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre as atividades de alocação automática e a calculadora de tamanho de amostra do Target para ajudar a garantir que sua atividade tenha um número suficiente de visitantes para atingir as metas.
 title: Por quanto tempo você deve executar um teste A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -36,7 +33,7 @@ O Target fornece ferramentas para ajudar a garantir que sua atividade tenha um t
 
 * **Calculadora de tamanho de amostra do Target:** se você optar por usar um teste A/B manual em vez de alocar automaticamente, a Calculadora de tamanho de amostra do Target ajudará a determinar o tamanho de amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, então a calculadora é extremamente útil. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessária. Continue a let para obter mais informações sobre como usar a calculadora.
 
-## Calculadora de tamanho da amostra do Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculadora de tamanho da amostra do Adobe Target  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
@@ -130,7 +127,7 @@ Há uma compensação ente o aumento mínimo que pode ser identificado com confi
 
 Neste exemplo, você pode decidir ser capaz de detectar um aumento de 5% (correspondente a uma taxa de conversão da oferta alternativa de (100+5%)*5% = 5,25%) em 80 de 100 testes é adequado, portanto, você precisa de um tamanho de amostra de 100.000 visitantes para cada oferta. Se o site tiver 20.000 visitantes por dia e você estiver testando duas ofertas, o teste deverá ter permissão para ser 2*100.000/20.000 = 10 dias antes de poder determinar se a oferta alternativa é estatisticamente significativa superior à oferta de controle. Novamente, é recomendável que o tempo necessário sempre seja arredondado para o número inteiro de semana mais próximo possível, para evitar efeitos de dia da semana. Assim, neste exemplo, o teste deverá ser executado por duas semanas antes da avaliação do resultado.
 
-## Receita por métrica de visita {#section_C704C0861C9B4641AB02E911648D2DC2}
+## Receita por métrica de visita  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Ao usar a Receita por visita (RPV) como uma métrica, uma fonte adicional de variação será adicionada porque a RPV é o produto da receita por pedido e taxa de conversão (RPV = Receita / # de visitantes = (Receita por pedido * # de pedidos) / # de visitantes = Receita por pedido * (# de visitantes * CTR) / # de visitantes = Receita por pedido * CTR), cada um com sua variação. A variação da taxa de conversão pode ser estimada diretamente com o uso de um modelo matemático, mas a variação da receita por pedido é específica para a campanha. Assim, use o conhecimento dessa variação de campanhas anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada com base nos valores da Soma de vendas, Soma de vendas quadrada e Número de visitantes que foram encontrados no arquivo de download CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para realizar o teste.
 
@@ -150,7 +147,7 @@ Em geral, o uso de RPV como métrica requer de 20% a 30% mais tempo para alcanç
 
 Cada vez que você compara duas ofertas, a possibilidade de receber um falso positivo (observando uma diferença significativamente estatística, até mesmo quando não há diferença na taxa de conversão) é igual ao nível de significância. Por exemplo, se houver cinco ofertas, A/B/C/D/E, e A for a oferta de controle, quatro comparações serão feitas (controle para B, controle para C, controle para D e controle para E) e a probabilidade de um falso positivo será de 18,5%, até mesmo quando o nível de confiança for 95%, pois Pr(pelo menos um falso positivo) = 1 - Pr(sem falsos positivos) = 1 - 0,95 = 18,5%. Um falso positivo está nesse contexto definido como o controle sendo relatado como melhor do que a alternativa ou a alternativa sendo relatada como melhor do que o controle quando, de fato, não há diferença entre elas.
 
-## Conclusão {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusão  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Ao usar a atividade de alocação automática, o Target identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido. A alocação automática facilita a conquista das metas de conversão, além de remover a adivinhação.
 
