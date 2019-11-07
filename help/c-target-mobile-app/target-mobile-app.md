@@ -1,13 +1,11 @@
 ---
-description: Target pode ser usado para otimização e personalização de aplicativos móveis
 keywords: aplicativo móvel, processo de aplicativo móvel, aplicativo móvel target, métricas de sucesso no aplicativo móvel
-seo-description: Target pode ser usado para otimização e personalização de aplicativos móveis
-seo-title: Target para aplicativos móveis
+description: Target pode ser usado para otimização e personalização de aplicativos móveis
 title: Target para aplicativos móveis
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
