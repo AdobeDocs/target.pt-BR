@@ -1,16 +1,10 @@
 ---
-description: Use atributos de entidade para passar informações do produto ou conteúdo para o Recommendations.
 keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
-seo-description: Use atributos de entidade para passar informações do produto ou conteúdo para o Recommendations.
-seo-title: Atributos da entidade
-solution: Target
+description: Use atributos de entidade para passar informações do produto ou conteúdo para o Recommendations.
 title: Atributos da entidade
-title-outputclass: premium
-topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
-badge: premium
 translation-type: tm+mt
-source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +21,7 @@ A lista a seguir descreve as variáveis disponíveis.
 
 Somente valor único.
 
-Este parâmetro obrigatório identifica o produto. This alphanumeric ID must be the same across all [!DNL Adobe Experience Cloud] products that are used, including [!DNL Analytics], for the various products to recognize the item and share data about it.
+Este parâmetro obrigatório identifica o produto. Esta ID alfanumérica deve ser igual em todos os produtos utilizados da [!DNL Adobe Experience Cloud], incluindo o [!DNL Analytics], para que os produtos reconheçam o item e compartilhem dados sobre ele.
 
 Os valores do `entity.id` não devem conter barras, "E" comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
 
