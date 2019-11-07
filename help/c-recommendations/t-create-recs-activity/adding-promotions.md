@@ -1,16 +1,10 @@
 ---
-description: Adicione itens promovidos e controle o posicionamento nos designs do Recommendations. É possível adicionar promoções estáticas e dinâmicas.
 keywords: promoções, promoções principais, promoções secundárias, tipo de promoções
-seo-description: Adicione itens promovidos e controle o posicionamento nos designs do Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
-seo-title: Adicione promoções em designs do Adobe Target Recommendations.
-solution: Target
-title: Adicionar promoções
-title-outputclass: premium
-topic: Premium
+description: Adicione itens promovidos e controle o posicionamento nos designs do Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
+title: Adicione promoções em designs do Adobe Target Recommendations.
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
