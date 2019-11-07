@@ -1,14 +1,11 @@
 ---
-description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 keywords: host;hosts;grupo de hosts;ambiente;solução de problemas;práticas recomendadas
-seo-description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
-seo-title: Hosts
-solution: Target
+description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 title: Hosts
 topic: Padrão
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -46,7 +43,7 @@ As informações sobre as condições a serem seguidas para que o [!DNL Target] 
 Para reconhecer um host, as condições a seguir devem ser cumpridas:
 
 * Pelo menos uma mbox deve existir no host
-* Uma página no host deve ter o seguinte:
+* Uma página no host deve ter  o seguinte:
 
    * Uma referência de [!DNL mbox.js] precisa
    * Uma mbox ou uma chamada de mbox global automaticamente gerada
@@ -87,11 +84,11 @@ Para classificar a lista de [!UICONTROL Hosts], clique em qualquer cabeçalho e 
 
 Para pesquisar a lista de [!UICONTROL Hosts], digite um termo de pesquisa na caixa Pesquisar.
 
-## Selecionar vários hosts {#section_EF3B458475184B7EA997C3559714397C}
+## Selecionar vários hosts  {#section_EF3B458475184B7EA997C3559714397C}
 
 Para selecionar vários hosts, marque as caixas de seleção perto da coluna [!UICONTROL Nome] dos hosts desejados. Em seguida, você pode mover ou excluir todos os hosts selecionados.
 
-## Criar um ambiente {#section_32097D0993724DF3A202D164D3F18674}
+## Criar um ambiente  {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes].**
 1. Clique em **[!UICONTROL Criar ambiente]**.
