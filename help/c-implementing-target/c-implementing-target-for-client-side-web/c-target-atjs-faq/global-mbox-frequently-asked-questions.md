@@ -1,14 +1,11 @@
 ---
-description: Lista de perguntas frequentes sobre as mboxes globais.
 keywords: solução de problemas; perguntas frequentes; Pergunta frequente; Perguntas frequentes; global; mbox global
-seo-description: Lista de perguntas frequentes sobre as mboxes globais.
-seo-title: Perguntas frequentes sobre a Mbox global
-solution: Target
+description: Lista de perguntas frequentes sobre as mboxes globais.
 title: Perguntas frequentes sobre a Mbox global
 topic: Padrão
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
