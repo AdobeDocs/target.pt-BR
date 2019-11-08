@@ -1,18 +1,18 @@
 ---
-keywords: qa, visualização, links de visualização
-description: Use URLs de controle de qualidade para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
+keywords: qa;visualizar;visualizar links;adobe target;target
+description: Use os URLs de QA do Adobe Target para realizar facilmente o controle de qualidade de atividade completo com links de visualização que nunca mudam, direcionamento de público-alvo opcional e relatórios de controle de qualidade que permaneçam segmentados dos dados de atividade ativa.
 title: Controle de qualidade da atividade
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
 
 # Controle de qualidade da atividade {#activity-qa}
 
-Use URLs de controle de qualidade para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
+Use URLs de controle de qualidade no Adobe Target para realizar um controle de qualidade de atividade completo e fácil com links de visualização que nunca mudam, direcionamento de público-alvo opcional e relatórios de controle de qualidade que permaneçam segmentados dos dados de atividade ativa.
 
 ## Visão geral {#section_11B761A522A14E61978275772210A4C2}
 
