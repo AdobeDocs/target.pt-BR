@@ -5,7 +5,7 @@ title: Informações sobre o Regulamento Geral sobre a Proteção de Dados (GDPR
 topic: Padrão
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ Em um nível superior, a lei concede aos cidadãos da Califórnia vários direit
 * Ser informado que as informações pessoais estão sendo divulgadas ou vendidas
 
 Se estava ocupado se preparando para a lei de privacidade da Europa (GDPR) no ano passado, alguns desses direitos podem ser familiares e grande parte do trabalho que você realizou pode ser redefinida.
+
+>[!NOTE]
+>
+>O acesso e a eliminação de dados à medida que se aplicam à CCPA segue o mesmo processo do RGPD.
 
 ## Adobe Target e [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 ### O Target suporta ofuscação de IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte de sua estratégia de implementação do GDPR ou da CCPA. Para obter mais informações, consulte [Privacidade](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+
+### Preciso fazer algo para impedir que meus dados sejam compartilhados ou vendidos a terceiros?
+
+O Target não tem a capacidade de permitir que os clientes compartilhem ou vendam dados diretamente do Target para terceiros, portanto, não há cancelamento da venda para o Target.
