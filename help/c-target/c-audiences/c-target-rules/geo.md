@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ Será necessário limpar os cookies do navegador antes.
 **Como os territórios, por exemplo, Porto Rico e Hong Kong, são mapeados na estrutura de geolocalização?**
 
 Porto Rico, Hong Konge outros territórios são tratados como valores de "País" separados.
+
+**Captura[!DNL Target](e armazena) informações como CEP quando a atividade é direcionada aos recursos de direcionamento de localização geográfica?**
+
+Não, [!DNL Target] usa dados geográficos somente para a duração da sessão e os dados são descartados.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
