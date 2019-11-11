@@ -5,7 +5,7 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Essas notas de versão oferecem informações sobre recursos, aprimoramentos e correções para cada lançamento do Target Standard e do Target Premium. Além disso, as notas de versão para APIs do Target, SDKs, biblioteca JavaScript (at.js) e outras alterações da plataforma também são incluídas, quando aplicável.
 
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## Target Java SDK versão 1.0.1 (11 de novembro de 2019)
+
+O seguinte problema foi corrigido na versão 1.0.1:
+
+* Envie uma ID de dados adicional em uma solicitação do Target mesmo quando não houver cookie da API do visitante presente.
+
+Para obter mais informações, consulte Notas de [versão - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)Java do Target.
 
 ## Plataforma Target (31 de outubro de 2019)
 
