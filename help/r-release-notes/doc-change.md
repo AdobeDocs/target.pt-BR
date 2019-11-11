@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Padrão
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -20,6 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 11 de novembro de 2019 | [Notas de versão - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Foram adicionadas informações sobre a versão 1.0.1. |
 |  | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Atualização de todo o tópico. |
+|  | [Geografia](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Foram adicionadas informações explicando que [!DNL Target] não armazena informações geográficas, como CEPs. |
 | 8 de novembro de 2019 | [Newletter do Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Links adicionados a outros problemas anteriores. |
 |  | [Privacidade e regulamentos sobre proteção de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Atualização da seção CCPA com uma nova observação.<br>Novas perguntas frequentes foram adicionadas informando aos clientes que o Target não tem a capacidade de permitir que os clientes compartilhem ou vendam dados diretamente do Target para terceiros, de modo que não há cancelamento na venda do Target. |
 | 7 de novembro de 2019 | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Adição de uma amostra de código para o parâmetro adobeQA. |
