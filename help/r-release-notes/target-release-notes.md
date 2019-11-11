@@ -5,7 +5,7 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Padrão
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -21,6 +21,14 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >Essas notas de versão contêm informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio. Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser iguais ou diferentes, dependendo do tempo das versões.
 >
 >Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## Target Java SDK versão 1.0.1 (11 de novembro de 2019)
+
+O seguinte problema foi corrigido na versão 1.0.1:
+
+* Envie uma ID de dados adicional em uma solicitação do Target mesmo quando não houver cookie da API do visitante presente.
+
+Para obter mais informações, consulte Notas de [versão - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)Java do Target.
 
 ## Plataforma Target (31 de outubro de 2019)
 
