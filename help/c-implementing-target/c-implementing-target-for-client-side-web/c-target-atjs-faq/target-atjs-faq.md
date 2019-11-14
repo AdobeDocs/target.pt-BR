@@ -1,11 +1,11 @@
 ---
-keywords: perguntas frequentes da at.js; perguntas frequentes da at.js; perguntas frequentes; cintilação; loader; loader de página; domínio cruzado; tamanho do arquivo; tamanho; domínio x; at.js e mbox.js; somente x; domínio cruzado; safari; aplicativo de página única; seletores ausentes; seletores; aplicativo de página única; tt.omtrdc.net; spa; Adobe Experience Manager; AEM; endereço ip; httponly; Httponly; proteger; ip; domínio de cookie
+keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
 description: Respostas às perguntas frequentes sobre a biblioteca de JavaScript at.js do Adobe Target.
 title: Perguntas frequentes do Adobe Target at.js
-subtopic: Introdução
+subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 36159cc0db41513267bfb9c5ac9bda96bc8120f2
 
 ---
 
@@ -205,9 +205,8 @@ Caso veja esta mensagem de aviso, as possíveis causas raiz podem ser as seguint
 * A página está sendo construída lentamente (devido a uma rede lenta) e o at.js não consegue localizar o seletor no DOM.
 * A estrutura de página em que a atividade está sendo executada foi alterada. Se você reabrir a atividade no Visual Experience Composer (VEC), deverá receber uma mensagem de aviso. Você deve atualizar a atividade para que todos os elementos necessários possam ser encontrados.
 * A página subjacente faz parte de um Aplicativo de página única (SPA, Single Page Application) ou a página contém elementos que são exibidos mais abaixo e o "mecanismo de buscas do seletor" da [!DNL at.js] não consegue encontrá-los. Aumentar o `selectorsPollingTimeout` pode ajudar. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
-* Todas as métricas de rastreamento de cliques tentam se adicionar a cada página, independentemente do URL em que a métrica foi configurada. Embora inofensiva, essa situação faz com que muitas dessas mensagens sejam exibidas. As versões recentes da [!DNL at.js] tentam suprimir essas mensagens, mas muitos clientes ainda estão em versões mais antigas da [!DNL at.js] ou na [!DNL mbox.js].
-
-   Para obter melhores resultados, baixe e use a versão mais recente da [!DNL at.js]. Para obter mais informações, consulte [Detalhes da versão da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) e [Download at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+* Todas as métricas de rastreamento de cliques tentam se adicionar a cada página, independentemente do URL em que a métrica foi configurada. Embora inofensiva, essa situação faz com que muitas dessas mensagens sejam exibidas.
+Para obter melhores resultados, baixe e use a versão mais recente da [!DNL at.js]. Para obter mais informações, consulte [Detalhes da versão da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) e [Download at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 ## Qual é o domínio tt.omtrdc.net para o qual as chamadas de servidor Target são direcionadas? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
