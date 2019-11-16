@@ -1,19 +1,19 @@
 ---
-keywords: AB, A/B, AB...n, erros, armadilhas, erro, armadilha
-description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove dos erros mais significativos que empresas cometem ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
+keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
+description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B no Adobe Target. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 title: Nove erros comuns em testes A/B e como evitá-los
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 91cfd46500e1f245750c651f254ee560b04b0795
 
 ---
 
 
-# Nove erros comuns em testes A/B e como evitá-los{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Ten common A/B testing pitfalls and how to avoid them{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
 
-Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove dos erros mais significativos que empresas cometem ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
+Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve dez das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 
-## Armadilha 1. Ignorando os efeitos do nível de significância {#section_55F5577A13C6470BA1417C2B735C6B1D}
+## Pitfall 1: Ignoring the effects of the significance level {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
 Qual é a probabilidade de o seu teste relatar uma diferença significativa na taxa de conversão entre duas ofertas quando, na verdade, não há nenhuma? Isso é o que o *nível de significância* de um teste ajuda a determinar. Tais descobertas enganosas são frequentemente chamadas de falso positivo e, no mundo das estatísticas, são chamadas de erro Tipo I (se você rejeitar incorretamente a hipótese nula que é realmente verdadeira).
 
@@ -53,7 +53,7 @@ No entanto, duas situações justificam prestar muita atenção ao nível de sig
 
    Aplicando a correção de Bonferroni ao exemplo acima, você usaria um nível de significância de 5%/4 = 1,25%, que é o mesmo que um nível de confiança de 98,75% para um teste individual (100% - 1,25% = 98,75%). Esse ajuste mantém o nível de confiança efetivo em 95% quando você tem quatro testes, como no exemplo descrito.
 
-## Armadilha 2. Declarando vencedores de vários testes de oferta sem diferença estatisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
+## Pitfall 2: Declaring winners of multiple offer tests with no statistically significant difference {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Com vários testes de ofertas, os profissionais de marketing geralmente declaram a oferta com o maior aumento como vencedora do teste, embora não haja diferença estatisticamente significativa entre o vencedor e o segundo lugar. Esta situação ocorre quando a diferença entre as alternativas é menor que a diferença entre as alternativas e o controle. A figura abaixo ilustra esse conceito, com as barras de erro pretas representando intervalos de confiança de elevação de 95%. O verdadeiro aumento para cada oferta em relação à oferta de controle é 95% provável de ser incluído dentro do intervalo de confiança, ou seja, o intervalo mostrado pelas barras de erro.
 
@@ -67,7 +67,7 @@ Normalmente, não é viável executar o teste por tempo suficiente para identifi
 
 Observe que, se você quiser identificar a oferta com a maior taxa de conversão, estará comparando todas as ofertas a todas as outras ofertas. No exemplo acima, você tem n = 5 ofertas. Você precisa fazer n (n-1)/2 comparações, ou 5*(5-1)/2 = 10 comparações. Neste caso, a correção de Bonferroni exige que o nível de significância do teste seja de 5%/10 = 0,5%, o que corresponde a um nível de confiança de 99,5%. No entanto, um nível de confiança tão alto pode exigir que você execute o teste por um período de tempo excessivamente longo.
 
-## Armadilha 3. Ignorando os efeitos do poder estatístico {#section_0D517079B7D547CCAA75F80981CBE12A}
+## Pitfall 3: Ignoring the effects of statistical power {#section_0D517079B7D547CCAA75F80981CBE12A}
 
 O poder estatístico é a probabilidade de um teste detectar uma diferença real na taxa de conversão entre as ofertas. Por causa da natureza aleatória, ou como os estatísticos gostam de chamá-la, "estocástica", dos eventos de conversão, um teste pode não mostrar uma diferença estatisticamente significativa, mesmo quando existe uma diferença real na taxa de conversão entre duas ofertas a longo prazo. Chame de má sorte ou de acaso. Não detectar uma diferença real na taxa de conversão é chamado de falso negativo ou erro de tipo II.
 
@@ -79,7 +79,7 @@ Os profissionais de marketing de hoje subestimam um número notável de testes. 
 
 Para evitar subutilizar seu teste, considere que um padrão típico para um teste potente inclui um nível de confiança de 95% e um poder estatístico de 80%. Esse teste oferece uma probabilidade de 95% de que você evite um falso positivo e uma probabilidade de 80% de evitar um falso negativo.
 
-## Etapa 4. Uso de testes unilaterais {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Etapa 4: Uso de testes de um único canal {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Testes unilaterais exigem uma menor diferença observada nas taxas de conversão entre as ofertas para chamar um vencedor em um determinado nível de significância. Isso parece atraente porque os vencedores podem ser chamados antes e com mais frequência do que quando se usa testes bilaterais. Mas, de acordo com o ditado, "Nada é de graça", os testes unilaterais custam caro.
 
@@ -87,7 +87,7 @@ Em um teste unilateral, você testa se a oferta B é melhor que a oferta A. A di
 
 Você pode ver um teste unilateral como uma oferta em julgamento com um juiz que já tomou uma decisão. Em um teste unilateral, você já decidiu qual será a oferta vencedora e está prestes a prová-la, em vez de dar a cada experiência uma chance igual de se provar como a vencedora. Testes unilaterais devem ser usados somente nas raras situações em que você está interessado apenas em saber se uma oferta é melhor que a outra e não o contrário. Para evitar a emissão do teste unilateral, use uma solução de teste A/B que sempre usa testes bilaterais, como o [!DNL Adobe Target].
 
-## Armadilha 5. Monitoramento de testes {#section_EA42F8D5967B439284D863C46706A1BA}
+## Passo 5: Testes de monitorização {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Os profissionais de marketing monitoram frequentemente os testes A/B até que o teste determine um resultado significativo. Afinal, por que testar depois de obter significância estatística?
 
@@ -101,7 +101,7 @@ Para entender porque isso ocorre, você deve considerar as diferentes ações to
 
 Para evitar este problema, você deve determinar um período de tempo adequado durante o qual o teste será executado antes de iniciar o teste propriamente dito. Embora seja bom examinar os resultados do teste durante o teste para certificar-se de que você implementou o teste corretamente, não tire conclusões ou interrompa o teste antes que o número necessário de visitantes seja alcançado. Em outras palavras, não fique espiando!
 
-## Armadilha 6. Interrupção prematura de testes {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Passo 6: Interrompendo testes prematuramente {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 É tentador parar um teste se uma das ofertas tiver um desempenho muito melhor ou pior do que os outros nos primeiros dias do teste. No entanto, quando o número de observações é baixo, há uma alta probabilidade de que um aumento positivo ou negativo seja observado apenas por acaso, porque a taxa de conversão é calculada em média por um número baixo de visitantes. À medida que o teste coleta mais pontos de dados, as taxas de conversão convergem para seus valores verdadeiros de longo prazo.
 
@@ -113,7 +113,21 @@ Esse fenômeno é conhecido como "regressão à média" e pode levar ao desapont
 
 Assim como a armadilha de monitorar seu teste, a melhor maneira de evitar esses problemas é determinar um número adequado de visitantes antes de executar o teste e, em seguida, permitir que o teste seja executado até que esse número de visitantes tenha sido exposto às ofertas.
 
-## Armadilha 7. Sem considerar os efeitos de novidade {#section_90F0D24C40294A8F801B1A6D6DEF9003}
+## Passo 7: Alteração da alocação de tráfego durante o período de teste {#allocation}
+
+Recomendamos que você não altere as porcentagens de alocação de tráfego durante o período de teste, pois isso pode distorcer os resultados do teste até que os dados sejam normalizados.
+Por exemplo, suponha que você tenha uma atividade de teste A/B na qual 80% do tráfego seja atribuído à Experiência A (o controle) e 20% do tráfego seja atribuído à Experiência B. Durante o período de teste, você altera a alocação para 50% para cada experiência. Alguns dias depois, você altera a alocação de tráfego para 100% para a Experiência B.
+
+Neste cenário, como os usuários são atribuídos às experiências?
+
+Se você alterar manualmente a divisão de alocação para 100% para a Experiência B, os visitantes que foram alocados originalmente para a Experiência A (o controle) permanecerão em sua experiência atribuída inicialmente (Experiência A). A alteração na atribuição do tráfego afeta apenas os novos operadores.
+
+Se você quiser alterar as porcentagens ou afetar o fluxo de visitantes em cada experiência, recomendamos que você crie uma nova atividade ou copie a atividade e edite as porcentagens de alocação de tráfego.
+
+Se você alterar as porcentagens de diferentes experiências durante o período de teste, levará alguns dias para os dados se normalizarem, especialmente se muitos compradores retornarem visitantes.
+Como outro exemplo, se a alocação de tráfego do Teste A/B for dividida em 50/50 e você alterar a divisão para 80/20, nos primeiros dias após essa alteração os resultados podem parecer distorcidos. Se o tempo médio para conversão for alto, o que significa que alguém leva várias horas ou até mesmo dias para fazer uma compra, essas conversões atrasadas podem afetar seus relatórios. Assim, nessa primeira experiência, em que o número passou de 50% para 80%, e o tempo médio de conversão é de dois dias, apenas os visitantes de 50% da população convertem no primeiro dia do teste, embora hoje 80% da população esteja entrando na experiência. Isso faz com que pareça que a taxa de conversão caiu abruptamente, mas ela se normalizará novamente depois que esses 80% dos visitantes levarem dois dias para serem convertidos.
+
+## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
 Outras coisas inesperadas podem acontecer se não permitirmos tempo suficiente para executar um teste. Desta vez, o problema não é um problema de estatística; é simplesmente uma reação à mudança pelos visitantes. Se você alterar uma parte bem estabelecida do seu site, os visitantes recorrentes poderão, a princípio, se envolver menos com a nova oferta devido a alterações no fluxo de trabalho normal. Isso pode temporariamente fazer com que uma nova oferta superior tenha um desempenho menos ideal até que os visitantes recorrentes se acostumem a ela. Um pequeno preço a pagar, dados os ganhos de longo prazo que a oferta superior oferecerá.
 
@@ -121,7 +135,7 @@ Para determinar se a nova oferta tem um desempenho inferior devido a um efeito i
 
 O efeito de novidade também pode funcionar em sentido inverso. Os visitantes costumam reagir positivamente a uma mudança apenas porque ela introduz algo novo. Depois de um tempo, quando o novo conteúdo se torna obsoleto ou menos excitante para o visitante, a taxa de conversão cai. Esse efeito é mais difícil de identificar, mas monitorar cuidadosamente as alterações na taxa de conversão é a chave para detectar esse problema.
 
-## Armadilha 8. Sem considerar as diferenças no período de consideração {#section_B166731B5BEE4E578816E351ECDEA992}
+## Pitfall 9: Not considering differences in the consideration period {#section_B166731B5BEE4E578816E351ECDEA992}
 
 O período de consideração é o período desde o momento em que a solução de teste A/B apresenta uma oferta a um visitante até quando o visitante converte. Isso pode ser importante com ofertas que afetam substancialmente o período de consideração. Por exemplo, uma oferta que implique em um prazo, como "Oferta por tempo limitado - Compre até domingo".
 
@@ -133,7 +147,7 @@ A figura abaixo mostra duas ofertas que dois visitantes diferentes veem ao mesmo
 
 Para evitar essa armadilha, reserve um tempo para que os visitantes expostos às ofertas de teste sejam convertidos depois que uma nova entrada no teste for interrompida. Este passo proporciona uma comparação justa das ofertas.
 
-## Armadilha 9. Uso de métricas que não refletem os objetivos de negócios {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
+## Pitfall 10: Using metrics that do not reflect business objectives {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
 Os profissionais de marketing podem se sentir tentados a usar métricas de conversão de alto tráfego e baixa variação no funil superior, como taxa de cliques (CTR), para alcançar um número adequado de conversões de teste mais rapidamente. No entanto, considere cuidadosamente se a CTR é um proxy adequada para a meta de negócios que você deseja atingir. Ofertas com CTRs mais altas podem facilmente levar a uma receita menor. Isso pode acontecer quando as ofertas atraem visitantes com menor propensão a comprar, ou quando a própria oferta, por exemplo, uma oferta de desconto, simplesmente leva a uma receita menor.
 
@@ -145,7 +159,7 @@ Considere a oferta de esqui abaixo. Ela gera uma CTR muito maior do que a oferta
 
 Para evitar esse problema, monitore suas métricas de negócios com cuidado para identificar o impacto comercial das ofertas ou, melhor ainda, use uma métrica mais próxima de sua meta de negócios, se possível.
 
-## Conclusão: sucesso com testes A/B, reconhecendo e contornando as armadilhas  {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusion: Success with A/B testing by recognizing and stepping around the pitfalls {#section_54D33248163A481EBD4421A786FE2B15}
 
 Depois de aprender sobre as armadilhas comuns dos testes A/B, esperamos que você possa identificar quando e onde você pode ter sido vítima deles. Esperamos também que você tenha uma melhor compreensão de alguns dos conceitos de probabilidade e estatística envolvidos nos testes A/B, que muitas vezes parecem ser do domínio de pessoas com formação em matemática.
 
