@@ -1,11 +1,11 @@
 ---
-keywords: flicker;at.js;implementação
+keywords: flicker;at.js;implementation
 description: Informações sobre como a biblioteca de JavaScript at.js do Adobe Target impede a cintilação durante o carregamento de página ou aplicativo.
 title: Como o at.js do Adobe Target gerencia a cintilação
-topic: Padrão
+topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ Para obter mais informações sobre `bodyHiddenStyle` a substituição, consulte
 
 Carregar a at.js de forma assíncrona é uma ótima maneira de evitar o bloqueio de renderização do navegador. No entanto, essa técnica pode levar à cintilação na página da Web.
 
-Você pode evitar a cintilação usando um trecho oculto previamente, que ficará visível após a personalização dos elementos HTML relevantes pelo [!DNL Target]. Recomendamos o uso de um gerenciador de tags, como o Adobe DTM ou o novo Adobe Launch, para adicionar o trecho oculto previamente. O trecho deve ser adicionado antes de carregar a at.js.
+Você pode evitar a cintilação usando um trecho oculto previamente, que ficará visível após a personalização dos elementos HTML relevantes pelo [!DNL Target].
+
+O at.js pode ser carregado de forma assíncrona, seja diretamente incorporado na página ou por meio de um gerenciador de tags (Adobe Launch, Gerenciador dinâmico de tags (DTM) etc.).
+
+Se o at.js estiver incorporado na página, o snippet deverá ser adicionado antes de carregar o at.js. Se você carregar o at.js por um gerenciador de tags, que também é carregado de forma assíncrona, é necessário adicionar o snippet antes de carregar o gerenciador de tags. Se o gerenciador de tags for carregado sincronicamente, o script poderá ser incluído no gerenciador de tags antes de at.js.
 
 O trecho de código oculto previamente é como o seguinte:
 
