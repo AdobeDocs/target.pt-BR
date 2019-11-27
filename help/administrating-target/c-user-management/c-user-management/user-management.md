@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
 
    ![Guia Produtos](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. Clique no nome da configuração desejada.
-1. Clique em **[!UICONTROL Usuários]**.
+1. Clique na área de trabalho desejada (por exemplo, Área de trabalho padrão).
+
+   ![Espaço de trabalho padrão](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    A guia [!UICONTROL Usuários] exibe todos os usuários nesse espaço de trabalho.
 
    ![usuários de configuração](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. Selecione a função de permissões desejada (Observador, Editor ou Aprovador) usando a lista suspensa de cada usuário na coluna [!UICONTROL Função do produto].
+1. Selecione a função de permissões desejada (Aprovador, Editor, ou Observador) usando a lista suspensa para cada usuário na coluna [!UICONTROL Função do produto].
+
+   ![Lista suspensa Função do produto](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | Função | Descrição |
    |--- |--- |
-   | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
-   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
    | Aprovador | Pode criar, editar e ativar ou parar atividades. |
+   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+   | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
 
 Para obter mais informações, consulte [Gerenciar permissões e funções do produto no Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) no *Guia do usuário da empresa*.
 
