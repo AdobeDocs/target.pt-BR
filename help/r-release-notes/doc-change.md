@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -18,6 +18,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 26 de novembro de 2019 | [Como a at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Texto atualizado em "Gerenciar oscilação ao carregar o at.js de forma assíncrona". |
+|  | [Newletter do Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Foi adicionado um link para a newsletter de novembro de 2019. |
+|  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texto e imagens atualizados em "Especificar funções e permissões". |
 | 15 de novembro de 2019 | [Dez armadilhas comuns de teste A/B e como evitá-las](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | Adicionado "Pitfall 7: Alterando a alocação de tráfego durante o período de teste." |
 | 11 de novembro de 2019 | [Notas de versão - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Foram adicionadas informações sobre a versão 1.0.1. |
 |  | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Atualização de todo o tópico. |
