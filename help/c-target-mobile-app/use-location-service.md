@@ -1,0 +1,20 @@
+---
+keywords: mobile app;mobile app location;target mobile app;mobile target locations;location service;adobe experience cloud location service;pois;points of interest;sdk;location
+description: Este tópico é uma visão geral de como usar o Adobe Experience Platform Location Service no Adobe Target.
+title: Usar Serviço de Localização
+topic: Target
+translation-type: tm+mt
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
+
+---
+
+
+# Usar Serviço de Localização
+
+A localização é um contexto importante para entender e se envolver com usuários móveis. Ao usar esse contexto, os desenvolvedores de aplicativos móveis podem melhorar o design do aplicativo e torná-lo uma experiência mais personalizada e envolvente.
+
+O Adobe Experience Platform Location Service (Location Service) é um serviço de localização geográfica que permite que aplicativos móveis com detecção de localização compreendam o contexto de localização usando interfaces SDK avançadas e fáceis de usar acompanhadas por um banco de dados flexível de pontos de interesse (POIs).
+
+Você pode usar o Serviço de localização com o Target para aproveitar as regras no [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) para anexar seus dados do Local aos eventos do SDK do Adobe Target.
+
+Para obter mais informações, consulte [Usar o Serviço de localização com o Adobe Target](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) no guia [Serviço de localização da plataforma](https://docs.adobe.com/content/help/en/places/using/home.html)Adobe Experience.
