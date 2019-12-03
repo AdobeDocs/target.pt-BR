@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -18,6 +18,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 2 de dezembro de 2019 | [Usar Serviço de Localização](/help/c-target-mobile-app/use-location-service.md) | Novo tópico. |
 | 26 de novembro de 2019 | [Como a at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Texto atualizado em "Gerenciar oscilação ao carregar o at.js de forma assíncrona". |
 |  | [Newletter do Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Foi adicionado um link para a newsletter de novembro de 2019. |
 |  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texto e imagens atualizados em "Especificar funções e permissões". |
