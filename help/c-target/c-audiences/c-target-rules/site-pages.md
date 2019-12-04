@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: Você pode direcionar os visitantes que estão em uma página específica ou têm um parâmetro de mbox específico usando o Adobe Target.
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: Você pode direcionar os visitantes que estão em uma página específica do site.
 title: Páginas do site no Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # Páginas do site{#site-pages}
 
-Você pode direcionar os visitantes que estão em uma página específica ou têm um parâmetro de mbox específico.
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. É possível criar públicos-alvo de página do site usando seu próprio "parâmetro de consulta definido pelo usuário" ou "cabeçalho definido pelo usuário".
+Você pode direcionar os visitantes que estão em uma página específica do site.
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
@@ -32,7 +28,7 @@ Você pode direcionar os visitantes que estão em uma página específica ou tê
 
    As opções a seguir estão disponíveis na lista suspensa inicial ao escolher [!UICONTROL Selecionar].
 
-   * **Página atual:** a página que o usuário está atualmente, que é a página que contém uma mbox na atividade. Se você direcionar no nível da atividade, essa pode ser uma página com uma mbox que você está usando para definir condições de entrada ou uma página que exibe conteúdo. Se você está direcionando por experiência, então a página atual é a página em que a mbox é exibida. Para métricas de sucesso ou direcionamento de conversão, então é a página em que essas mboxes estão.
+   * **** Página atual: A página em que o usuário está atualmente.
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
@@ -68,7 +64,7 @@ Você pode direcionar os visitantes que estão em uma página específica ou tê
       >
       >O objeto `landing.url` é redefinido em uma alteração de subdomínio ou em uma substituição do URL direto.
 
-   * **** Cabeçalho HTTP: Essa opção avalia as informações no cabeçalho HTTP da primeira página que o visitante vê ao acessar seu site. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a `Accept-Language: es` condição para direcionar os visitantes.
+   * **** Cabeçalho HTTP: Essa opção avalia as informações no cabeçalho HTTP da solicitação do Target. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a `Accept-Language: es` condição para direcionar os visitantes que acessam a página em espanhol.
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
@@ -79,7 +75,7 @@ Você pode direcionar os visitantes que estão em uma página específica ou tê
       * Autorização
       * Controle de cache
       * Conexão
-      * Comprimento do conteúdo
+      * Tamanho do conteúdo
       * Content-MDS
       * Tipo de conteúdo
       * Data
