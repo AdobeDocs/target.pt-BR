@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 10 de dezembro de 2019 | [Limites do Target](/help/r-troubleshooting-target/target-limits.md) | Atualização da seção de parâmetros da mbox. |
+|  | [Critérios](/help/c-recommendations/c-algorithms/algorithms.md) | Foi adicionada uma observação sobre o suporte ao recurso Uso de critérios. |
 | 5 de dezembro de 2019 | [Páginas do site](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Tópico atualizado. |
 | 2 de dezembro de 2019 | [Usar Serviço de Localização](/help/c-target-mobile-app/use-location-service.md) | Novo tópico. |
 | 26 de novembro de 2019 | [Como a at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Texto atualizado em "Gerenciar oscilação ao carregar o at.js de forma assíncrona". |
