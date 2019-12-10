@@ -1,11 +1,11 @@
 ---
-keywords: Script de perfil;atributos de script de perfil;práticas recomendadas de script de perfil;depurar;depurar;scripts;scripts de perfil;atributos;attribute;parameter
+keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades do Adobe Target.
 title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -108,7 +108,7 @@ Os motivos típicos para o sistema desativar os scripts de perfil incluem o segu
 
 * Uma variável indefinida a ser referenciada.
 * Um valor inválido é referenciado. Isso normalmente é causar pela referências a valores de URL e outros dados inseridos pelo cliente, sem a validação apropriada.
-* Muitas instruções de JavaScript usadas. O Target tem um limite de 2.000 instruções de JavaScript por script, mas isso não pode ser calculado somente pela leitura manual do JavaScript. Por exemplo, o Rhino trata todas as chamadas de função e as "novas" chamadas como 100 instruções. Além disso, o tamanho dos dados de entrada, como os valores de URL, pode afetar a contagem das instruções.
+* Muitas instruções de JavaScript usadas. O Target tem um limite de 2.000 instruções de JavaScript por script, mas isso não pode ser calculado somente pela leitura manual do JavaScript. Por exemplo, o Rhino trata todas as chamadas de função e as "novas" chamadas como 100 instruções. Isso significa que qualquer chamada para qualquer função consome 100 instruções. Além disso, o tamanho dos dados de entrada, como os valores de URL, pode afetar a contagem das instruções.
 * Não seguir os itens destacados na seção [Práticas recomendadas](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) abaixo.
 
 ## Práticas recomendadas {#best}
@@ -321,7 +321,7 @@ As seguintes propriedades e métodos podem ser referenciados pelos parâmetros d
 | `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a landing page. |
 | `mbox.name` | O nome da mbox ativa. |
 | `mbox.param(‘<par_name>’)` | Um parâmetro de mbox pelo nome fornecido na mbox ativa. |
-| `profile.get(‘<par_name>’)` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado de "gênero", o valor poderá ser extraído usando "profile.gender". Retorna o valor do "`profile.<par_name>`" definido para o visitante atual; retorna nulo se nenhum valor foi definido. |
+| `profile.get(‘<par_name>’)` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado de "gênero", o valor poderá ser extraído usando "profile.gender". Retorna o valor do "`profile.<par_name>`" definido para o visitante atual; retorna nulo se nenhum valor foi definido. Observe que `profile.get(<par_name>)` é qualificado como uma chamada de função. |
 | `user.get(‘<par_name>’)` | Retorna o valor do "`user.<par_name>`" definido para o visitante atual; retorna nulo se nenhum valor foi definido. |
 | `user.categoryAffinity` | Retorna o nome da melhor categoria. |
 | `user.categoryAffinities` | Retorna uma matriz com as melhores categorias. |
