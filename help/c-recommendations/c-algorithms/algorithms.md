@@ -1,10 +1,10 @@
 ---
-keywords: recomendações;atividade do Recomendações;critérios;algoritmo;chave de recomendação;chave personalizada;chave personalizada;vertical do setor;varejo;comércio;geração de chumbo;b2b;serviços financeiros;mídia;publicação;Recomendações;atividade do Recomendações;critérios;algoritmo;chave de recomendação;chave personalizada;chave;indústria vertical;varejo;eccommerce;geração de chumbo;b2b;serviços financeiros;mídia;publicação
+keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Critérios no Adobe Target Recommendations são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
 title: Critérios no Adobe Target Recommendations
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -107,3 +107,6 @@ Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de ativid
 
 ![Guia Uso de critérios](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
+>[!NOTE]
+>
+>O recurso Uso de critérios é atualmente compatível apenas com atividades do Recommendations. As atividades de teste A/B e direcionamento de experiência (XT) não são suportadas no momento.
