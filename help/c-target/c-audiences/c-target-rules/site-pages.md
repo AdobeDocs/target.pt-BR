@@ -5,7 +5,7 @@ title: Páginas do site no Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL
+      * URL (para obter mais informações sobre como o Target avalia URLs, consulte Perguntas frequentes sobre [Metas e públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
@@ -43,7 +43,7 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL
+      * URL (para obter mais informações sobre como o Target avalia URLs, consulte Perguntas frequentes sobre [Metas e públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
@@ -53,7 +53,7 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL
+      * URL (para obter mais informações sobre como o Target avalia URLs, consulte Perguntas frequentes sobre [Metas e públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
