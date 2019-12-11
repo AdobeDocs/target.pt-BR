@@ -1,11 +1,11 @@
 ---
-keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, metas, públicos-alvo
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
 title: Perguntas frequentes sobre direcionamentos e públicos
-topic: Padrão
+topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # Perguntas frequentes sobre direcionamentos e públicos{#targets-and-audiences-faq}
 
 Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
+
+## Como o Target avalia URLs na definição de metas? {#url}
+
+O Target avalia URLs de forma diferente dependendo se você usa o direcionamento de URL de público-alvo ao criar uma atividade ou se você usa o direcionamento de URL ao criar um público-alvo.
+
+Considere o seguinte URL:
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**Direcionamento** do URL de público-alvo: Para aplicar a definição de metas de URL de público-alvo, ao criar uma atividade, na página Experiências (etapa um do fluxo de trabalho guiado em três etapas), clique no ícone de engrenagem, clique em Entrega de página e especifique o URL desejado.
+
+![URL de entrega da página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+A definição de metas do URL de público-alvo procura uma correspondência exata do URL. Se o URL corresponder, o Target não considera lógica adicional. No URL acima, se a atividade estiver definida para ser ativada, `www.example.com`o URL corresponde aos seguintes URLs porque a definição de metas do URL do público-alvo é agnóstico de consulta:
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+Como prática recomendada, além do direcionamento de público-alvo no URL, você também pode especificar valores específicos que podem estar na consulta.
+
+**Direcionamento** de URL: Para aplicar a definição de metas de URL, ao criar um público-alvo, clique em Adicionar regra, clique em Páginas do site, selecione uma opção na primeira lista suspensa (Página atual, Página anterior ou Página inicial), selecione URL na segunda lista suspensa, especifique um avaliador e especifique o URL desejado.
+
+![Páginas do site &gt; Página atual &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+A segmentação de URL transforma o URL em um conjunto de regras para avaliar:
+
+* Domínio do URL = `example.com`
+* Caminho = caminho1/caminho2/caminho3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## Ao criar strings de URL complexas, o avalia [!DNL Target] o URL inteiro?
 
