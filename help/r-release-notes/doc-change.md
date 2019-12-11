@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -18,6 +18,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 11 de dezembro de 2019 | [Perguntas frequentes sobre direcionamentos e públicos](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Novas perguntas frequentes adicionadas: "Como o Target avalia URLs na definição de metas?" |
 | 10 de dezembro de 2019 | [Limites do Target](/help/r-troubleshooting-target/target-limits.md) | Atualização da seção de parâmetros da mbox. |
 |  | [Critérios](/help/c-recommendations/c-algorithms/algorithms.md) | Foi adicionada uma observação sobre o suporte ao recurso Uso de critérios. |
 | 5 de dezembro de 2019 | [Páginas do site](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Tópico atualizado. |
