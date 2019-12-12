@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 
 ---
 
@@ -18,6 +18,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 12 de dezembro de 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Atualização da seção de perguntas frequentes. |
 | 11 de dezembro de 2019 | [Perguntas frequentes sobre direcionamentos e públicos](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Novas perguntas frequentes adicionadas: "Como o Target avalia URLs na definição de metas?" |
 | 10 de dezembro de 2019 | [Limites do Target](/help/r-troubleshooting-target/target-limits.md) | Atualização da seção de parâmetros da mbox. |
 |  | [Critérios](/help/c-recommendations/c-algorithms/algorithms.md) | Foi adicionada uma observação sobre o suporte ao recurso Uso de critérios. |
