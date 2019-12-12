@@ -1,20 +1,32 @@
 ---
-keywords: alocação automática de tráfego, direcionamento, vencedor, garantia estatística, confiança, determinar vencedor
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Determine um vencedor em uma atividade de Alocação automática A/B exibindo indicadores na interface do usuário do Target.
 title: Determinar um vencedor
-topic: Padrão
+topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
 
-# Determinar um vencedor{#determine-a-winner}
+# Interpretar relatórios de Autoalocação {#determine-a-winner}
 
-Determine um vencedor em uma atividade de Alocação automática A/B exibindo indicadores na interface do usuário do Target.
+Interprete os resultados de uma atividade A/B de autoalocação examinando indicadores importantes, incluindo incentivo e confiança, na interface do usuário do Target.
 
 Muitos profissionais de marketing cometem o erro de declarar prematuramente uma experiência vencedora antes dos resultados indicarem claramente o vencedor. Agora facilitamos para você determinar o vencedor.
+
+## Compreender os relatórios de incentivo e confiança nas atividades de autoalocação {#lift-confidence}
+
+Nas atividades de Autoalocação, a primeira experiência (por padrão, denominada Experiência A) é sempre definida como uma experiência de "Controle" na guia Relatórios. Esta experiência não é tratada como um verdadeiro controlo estatístico no modelo utilizado para determinar o desempenho das experiências, mas é tratada como uma referência ou uma linha de base para alguns valores no relatório.
+
+O valor numérico "Lift" e os limites de 95% para cada experiência são sempre calculados com referência à experiência "Control" definida. A experiência "Controle" definida não pode ter incentivo relativo a si mesma, portanto, um valor "—" em branco é reportado para essa experiência. Ao contrário dos testes A/B, nos testes de Autoalocação, se uma experiência tiver um desempenho pior do que o controle definido, não é reportado um valor de Elevação negativo; em vez disso, "—" é exibido.
+
+As barras de Intervalo de confiança exibidas representam o intervalo de confiança de 95% em torno da estimativa média da taxa de conversão de uma experiência. Eles também são codificados por cores em relação à experiência "Controle" definida. A barra da experiência "Controle" sempre fica cinza. As partes dos intervalos de confiança abaixo do intervalo de confiança da experiência de "Controle" são coloridas em vermelho e as partes dos intervalos de confiança acima da experiência de "Controle" são coloridas em verde.
+
+Um vencedor é encontrado quando o Intervalo de confiança de 95% da experiência líder não se sobrepõe a nenhuma outra experiência. A experiência vencedora é designada com um selo de estrela verde à esquerda do nome da experiência e no banner "Vencedor". Quando nenhuma estrela é visível, o banner diz "No Winner AINDA" e um vencedor ainda não foi encontrado.
+
+Um número de "Confiança" também é reportado ao lado da experiência líder ou vencedora atual. Este número é reportado apenas até que a Confiança da experiência líder atinja pelo menos 60%. Se exatamente duas experiências estiverem presentes no experimento de Autoalocação, esse número representa o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes no experimento de Autoalocação, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de "Controle" definida. Se a experiência de "Controle" estiver vencendo, nenhum número de "Confiança" será relatado.
 
 ## Exibir o emblema do vencedor na interface do usuário do Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
