@@ -1,11 +1,11 @@
 ---
-keywords: Notas de versão;novos recursos;lançamentos;atualizações;atualização;versão;aprimoramentos;correções;correções;correções de erros;notas de versão;novos recursos;lançamentos;atualizações;atualização;release;aprimoramentos;correções;correções
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 description: Essas notas de versão oferecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para cada lançamento do Adobe Target Standard e do Target Premium.
 title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 Essas notas de versão oferecem informações sobre recursos, aprimoramentos e correções para cada lançamento do Target Standard e do Target Premium. Além disso, as notas de versão para APIs do Target, SDKs, biblioteca JavaScript (at.js) e outras alterações da plataforma também são incluídas, quando aplicável.
 
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## Target Java SDK versão 1.1.0 (16 de dezembro de 2019)
+
+* Suporte para configuração de proxy adicionado devido a uma contribuição de código aberto feita por @hisham-hassan.
+
+Para obter mais informações, consulte Notas de [versão - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)Java do Target.
 
 ## Target Java SDK versão 1.0.1 (11 de novembro de 2019)
 
