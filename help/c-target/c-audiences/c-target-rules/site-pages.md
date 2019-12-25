@@ -5,7 +5,7 @@ title: Páginas do site no Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Você pode direcionar os visitantes que estão em uma página específica do site.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]**>**[!UICONTROL  Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Páginas do site]**.
+1. Clique em **[!UICONTROL Adicionar regra]**>**[!UICONTROL  Páginas do site]**.
 
    ![Público-alvo de Páginas do site](assets/target_site_pages.png)
 
-1. Clique na lista suspensa **[!UICONTROL Selecionar]** , selecione uma das opções a seguir e configure a regra conforme desejado.
+1. Clique na lista suspensa **[!UICONTROL Selecionar]**, selecione uma das opções a seguir e configure a regra conforme desejado.
 
    As opções disponíveis e os avaliadores nas listas suspensas subsequentes na regra variam dependendo da opção escolhida. A ilustração a seguir mostra as opções disponíveis se você escolher Página atual:
 
@@ -99,7 +99,7 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
       * Aviso
    Se você escolher Página atual, Página anterior ou Página inicial, as opções [!UICONTROL Domínio] e [!UICONTROL Consulta] estarão disponíveis. Considere o seguinte ao escolher estas opções:
 
-   * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar "contém". Por exemplo, "Domínio igual a facebook.com" não aceitará `m.facebook.com` ou `www.facebook.com`. "Domínio conterá facebook.com" aceitará qualquer variante de facebook.com.
+   * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar &quot;contém&quot;. Por exemplo, &quot;Domínio igual a facebook.com&quot; não aceitará `m.facebook.com` ou `www.facebook.com`. &quot;Domínio conterá facebook.com&quot; aceitará qualquer variante de facebook.com.
    * **Consulta:** o conteúdo do URL após o primeiro ponto de interrogação (?).
 
       `foo.html?e0a72cb2a2c7`
@@ -108,10 +108,10 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
 
 
 
-1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
+1. (Opcional) Clique em **[!UICONTROL Adicionar regra]**e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-É possível criar públicos-alvo de páginas do site usando seu próprio "parâmetro de consulta definido pelo usuário" ou "cabeçalho definido pelo usuário".
+É possível criar públicos-alvo de páginas do site usando seu próprio &quot;parâmetro de consulta definido pelo usuário&quot; ou &quot;cabeçalho definido pelo usuário&quot;.
 
 Use um:
 
@@ -132,6 +132,12 @@ conforme ilustrado abaixo:
    * Use uma atividade [de teste](/help/c-activities/t-test-ab/test-ab.md) A/B em vez de uma atividade de página inicial. As atividades de teste A/B não alternam as experiências do mesmo visitante.
    * Em vez disso, use um perfil [de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitante.
 
+* Ao usar avaliadores &quot;começa/termina com&quot; em strings que contêm vírgulas, esteja ciente de que eles são avaliados como uma matriz de valores, na qual cada valor separado por vírgula é avaliado. Por exemplo, se tivermos o valor de um cabeçalho: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` ele se qualificará para condições como:
+   * começa com zh,
+   * começa com en,
+   * termina com 0,7,
+   * termina com 0,8.
+
 ## Vídeo de treinamento: Criação de públicos-alvo
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
@@ -139,4 +145,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
