@@ -4,7 +4,7 @@ description: Informações sobre problemas conhecidos desta versão do Adobe Tar
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -67,7 +67,7 @@ A seguir, os problemas conhecidos com atividades de recomendações:
 * As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma visualização da bandeja do Recommendations (TGT-33426)
 * Coleções, exclusões, critérios e designs criados por meio da API não estão visíveis na interface do usuário do Target e só podem ser editados por meio da API. (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
-* O status do feed de Critérios personalizados exibido na exibição da lista de critérios (cartão) é atualizado a cada 10 minutos e pode estar mais de 10 minutos desatualizado em algumas circunstâncias raras. O status exibido na exibição de edição de critérios personalizados é obtido em tempo real e sempre atualizado. (TGT-35896, TGT-36173)
+* O status do feed de Critérios personalizados exibido na exibição da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar mais de dez minutos desatualizado em raras circunstâncias. O status exibido na exibição de edição de Critérios personalizados é obtido em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
 
 ### Atividades de teste multivariado (MVT)
 
