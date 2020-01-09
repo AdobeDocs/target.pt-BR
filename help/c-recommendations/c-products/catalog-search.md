@@ -4,7 +4,7 @@ description: A pesquisa no catálogo do Adobe Target ajuda a localizar os produt
 title: Pesquisa no catálogo do Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
+source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 ---
 
@@ -40,7 +40,7 @@ O catálogo é atualizado automaticamente quando as atualizações são recebida
 
 Você pode criar [coleções](/help/c-recommendations/c-products/collections.md) ou [exclusões](/help/c-recommendations/c-products/exclusions.md) usando a Pesquisa avançada na página Pesquisa no catálogo ([!UICONTROL Recommendations] > [!UICONTROL Pesquisa no catálogo] > [!UICONTROL Pesquisa avançada]).
 
-![Caixa de diálogo Salvar como](/help/c-recommendations/c-products/assets/save-as.png)
+![Caixa de diálogo Salvar como](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 Após criar uma pesquisa usando &quot;id > contains&quot; Por exemplo, você pode clicar em [!UICONTROL Salvar como] > [!UICONTROL Coleção ou Exclusão].
 
