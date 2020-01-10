@@ -1,10 +1,10 @@
 ---
-keywords: responsivo, janelas de visualização móvel, janela, dispositivos, exemplo móvel, iphone
+keywords: responsive;mobile viewports;viewport;devices;mobile example;iphone
 description: Os visores móveis ajudam a visualizar como as atividades aparecem em telas de vários tamanhos.
 title: Visores móveis para experiências responsivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 ---
 
@@ -19,7 +19,7 @@ O recurso de visualização do visor móvel é projetado para sites responsivos.
 >
 >Os visores móveis não estarão disponíveis se sobrepostos por uma oferta de redirecionamento.
 
-Uma visor é definido pelo tamanho do retângulo preenchido por uma página da Web na sua tela. É o tamanho da janela do navegador, menos as barras de rolagem e as barras de ferramentas. Os navegadores usam "pixels CSS". Em vários dispositivos, como os com telas de retina, o visor é menor que a resolução de dispositivo anunciada.
+Uma visor é definido pelo tamanho do retângulo preenchido por uma página da Web na sua tela. É o tamanho da janela do navegador, menos as barras de rolagem e as barras de ferramentas. Os navegadores usam &quot;pixels CSS&quot;. Em vários dispositivos, como os com telas de retina, o visor é menor que a resolução de dispositivo anunciada.
 
 Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre-se de usar um tamanho de visor no Target.
 
@@ -57,7 +57,7 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 | Samsung Galaxy Tab 10 | 800 de largura x 1280 de altura | 800 de largura x 1280 de altura |
 | Chromebook Pixel | 1280 de largura x 850 de altura | 2560 de largura x 1700 de altura |
 
-Vários sites listam os tamanhos da janela de visualização de dispositivos populares. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
+Vários sites listam os tamanhos da janela de visualização de dispositivos populares. Por exemplo, consulte [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ou consulte o site do fabricante do dispositivo.
 
 Se você deseja fornecer uma atividade a pessoas em um determinado dispositivo, escolha o público-alvo apropriado para ele no diagrama de atividade. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Se deseja executar uma atividade em toda a sua experiência digital e certificar-se de que ela funcione em todos os dispositivos, não aplique o direcionamento, e use visores móveis para visualizar a atividade em cada tela.
 
@@ -73,8 +73,8 @@ Se o seu site não for responsivo, você ainda poderá usar o Mobile Web Compose
 
 Configure as janelas de visualização móvel que você deseja disponibilizar ao criar suas experiências.
 
-1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**.
-1. Na seção de Configuração de janelas de visualização móvel da página Preferências da conta, clique em **[!UICONTROL Adicionar novo]** para adicionar uma janela de visualização móvel.
+1. Clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Preferências]**.
+1. Na seção de Configuração de janelas de visualização móvel da página Preferências da conta, clique em **[!UICONTROL Adicionar novo]**para adicionar uma janela de visualização móvel.
 
    Para alterar a configuração de uma janela de visualização móvel existente, selecione a janela e clique no ícone Editar (lápis).
 
@@ -106,8 +106,8 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
 Adicione janelas de visualização móvel às atividades do Target para criar experiências responsivas para telas de dispositivos móveis.
 
 1. Crie uma atividade.
-1. No Visual Experience Composer, clique no ícone de engrenagem **[!UICONTROL Configurações]** e selecione **[!UICONTROL Adicionar janelas de visualização móvel]**.
-1. Clique no ícone **[!UICONTROL Dispositivos]** e ative cada dispositivo com um visor móvel.
+1. No Visual Experience Composer, clique no ícone de engrenagem **[!UICONTROL Configurações]**e selecione**[!UICONTROL  Adicionar janelas de visualização móvel]**.
+1. Clique no ícone **[!UICONTROL Dispositivos]**e ative cada dispositivo com um visor móvel.
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ Adicione janelas de visualização móvel às atividades do Target para criar ex
 
 Este caso de uso mostra como configurar experiências em duas versões de iPhone, o iPhone 6 e o iPhone 6 Plus, usando a função janelas de visualização móvel do Target Standard.
 
-1. No Target Standard, clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**.
+1. No Target Standard, clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Preferências]**.
 1. Na seção Configuração de janela de visualização móvel da página de Preferências, crie janelas de visualização móvel para iPhone 6 e iPhone 6 Plus.
 
    Use as seguintes configurações para cada janela:
@@ -140,7 +140,7 @@ Este caso de uso mostra como configurar experiências em duas versões de iPhone
 
 1. Crie uma atividade com a experiência que gostaria no Target.
 1. Selecione a experiência que deseja exibir para visitantes que acessarem seu site com um iPhone 6 ou iPhone 6 Plus.
-1. Ao selecionar sua meta, clique em **[!UICONTROL Criar público-alvo]** e configure um público como mostrado na imagem abaixo:
+1. Ao selecionar sua meta, clique em **[!UICONTROL Criar público-alvo]**e configure um público como mostrado na imagem abaixo:
 
    ![](assets/iphoneaudiences.png)
 
@@ -163,10 +163,10 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferências de conta no Adobe Target
 
 Este vídeo inclui informações sobre configurar janelas de visualização móvel nas preferências da conta, a partir de 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)
