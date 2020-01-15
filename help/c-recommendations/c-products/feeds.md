@@ -1,10 +1,10 @@
 ---
-keywords: feed de recomendações;feed;SAINT;ftp;csv;classificações;classificações;classificações analíticas
+keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Use os feeds para importar entidades no Adobe Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
 title: Feeds
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 ---
 
@@ -21,7 +21,7 @@ Você pode escolher quais colunas do seu arquivo de classificações do produto 
 
 Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
 
-A lista [!UICONTROL Feeds] (**[!UICONTROL Recommendations]** &gt; **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
+A lista [!UICONTROL Feeds] (**[!UICONTROL Recomendações]**>**[!UICONTROL  Feeds]**) fornece informações sobre quaisquer feeds criados.
 
 ![Página de feeds](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -33,6 +33,14 @@ A página Feeds contém as seguintes colunas:
 * **Programação**: exibe a programação de atualização do feed: diariamente, semanalmente, a cada 2 semanas ou nunca.
 * **Itens**: exibe o número de itens no feed.
 * **Última atualização**: exibe a data e a hora em que o feed foi atualizado pela última vez e o nome da pessoa que atualizou o feed. Se a [!UICONTROL Última atualização] do feed indicar “indefinido”, o feed será recebido da [!DNL Recommendations Classic] e não poderá ser alterado em [!DNL Target Premium Recommendations].
+
+>[!IMPORTANT]
+>
+>Entidades e atributos de entidade carregados expiram após 61 dias. Isso significa o seguinte:
+>
+>* Seu feed deve ser executado pelo menos mensalmente para garantir que o conteúdo do catálogo não expire.
+>* Remover um item do arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da interface do usuário ou da API do Target. Ou modifique os atributos do item (como o inventário) para garantir que o item seja excluído da consideração.
+
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -50,7 +58,7 @@ Qualquer dado carregado por meio do arquivo .csv, feed de produto do Google ou f
 
 >[!IMPORTANT]
 >
->Não coloque os valores entre aspas duplas ( " ) no arquivo .csv, a menos que seja intencional. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
+>Não coloque os valores entre aspas duplas ( &quot; ) no arquivo .csv, a menos que seja intencional. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
 
 Por exemplo, a sintaxe a seguir está incorreta:
 
@@ -66,7 +74,7 @@ A sintaxe a seguir está correta:
 
 >[!NOTE]
 >
->Não é possível substituir um valor existente por um valor em branco. É necessário aprovar outro valor para substituí-lo. Em caso de preço de venda, uma solução comum é aprovar um "NULL" ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
+>Não é possível substituir um valor existente por um valor em branco. É necessário aprovar outro valor para substituí-lo. Em caso de preço de venda, uma solução comum é aprovar um &quot;NULL&quot; ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
 
 O produto estará disponível na interface de Admin aproximadamente duas horas depois de ter carregado a entidade com sucesso.
 
@@ -200,7 +208,7 @@ A classificação do Produto Analytics é a única classificação disponível p
 
 Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL Recommendations].
 
-1. Na interface do Target, clique em **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Feeds]** &gt; **[!UICONTROL Criar feed]**.
+1. Na interface do Target, clique em **[!UICONTROL Recomendações]**>**[!UICONTROL  Feeds]** > **[!UICONTROL Criar feed]**.
 
    ![Caixa de diálogo Criar feed](assets/CreateFeed.png)
 
@@ -212,7 +220,7 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
    * Classificações do Analytics
    Para obter informações sobre os tipos de feed CSV e Feed do produto Google, consulte [Visão geral dos feeds](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou **[!UICONTROL Feed do produto Google]**, especifique o local em que o feed pode ser acessado.
+1. (Condicional) Se você selecionou **[!UICONTROL CSV]**ou**[!UICONTROL  Feed do produto Google]**, especifique o local em que o feed pode ser acessado.
 
    * **FTP**: se você selecionar FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório do FTP. Você tem a opção de usar o FTP com SSL (FTPS) para uploads mais seguros.
 
@@ -227,7 +235,7 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
 1. (Condicional) Se você selecionou **[!UICONTROL Classificações do Analytics]**, escolha o conjunto de relatórios na lista suspensa.
 
-1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Agendar.]
+1. Clique na seta **[!UICONTROL Avançar]**para exibir as opções de[!UICONTROL Agendar.]
 
    ![Resultado da etapa](assets/CreateFeedSchedule.png)
 
@@ -242,7 +250,7 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
    Essa opção é baseada no fuso horário usado no seu navegador. Se desejar usar uma hora em um fuso horário diferente, deve calcular esse tempo de acordo com o seu fuso horário.
 
-1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Mapeamento], em seguida, especifique como deseja mapear seus dados para as definições do [!DNL Target].
+1. Clique na seta **[!UICONTROL Avançar]**para exibir as opções de[!UICONTROL Mapeamento], em seguida, especifique como deseja mapear seus dados para as definições do[!DNL Target].
 
    ![Resultado da etapa](assets/CreatFeedMapping.png)
 
@@ -256,7 +264,7 @@ Após criar ou editar um feed, ele é executado imediatamente, em seguida, será
 
 Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed serão exibidos antes que os valores individuais sejam indexados. Isso permite que você pesquise e visualize os produtos para que possa criar coleções, exclusões, designs e atividades antes da indexação ser concluída.
 
-Quando o Status apresentar a mensagem de "Sucesso", isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se houver falha no processo, que o arquivo não foi encontrado (por exemplo, você usou um URL incorreto ou sua informação do FTP estava incorreta), ou ocorreu um erro de análise.
+Quando o Status apresentar a mensagem de &quot;Sucesso&quot;, isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se houver falha no processo, que o arquivo não foi encontrado (por exemplo, você usou um URL incorreto ou sua informação do FTP estava incorreta), ou ocorreu um erro de análise.
 
 ## Status do feed e indicadores  {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -275,7 +283,7 @@ A seguir, estão os possíveis status de um feed:
 | Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
 | Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
 | Importar itens | O Target está importando itens do arquivo de Feed. |
-| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não observar as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>*Observação 1:* se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem no *cancelamento* da exclusão de um item das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorrerá em 24 horas.<br>*Observação 2:* quando esse status é exibido, as atualizações podem não ser refletidas ainda na interface do usuário da Pesquisa no catálogo. Um status separado é listado na Pesquisa no catálogo, indicando a última vez que o catálogo pesquisável foi atualizado. |
+| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não observar as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>*Observação 1:*se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem no* cancelamento *da exclusão de um item das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorrerá em 24 horas.<br>*Observação 2:* quando esse status é exibido, as atualizações podem não ser refletidas ainda na interface do usuário da Pesquisa no catálogo. Um status separado é listado na Pesquisa no catálogo, indicando a última vez que o catálogo pesquisável foi atualizado. |
 | Falha ao indexar | Ocorreu uma falha na operação de índice. Tente novamente. |
 | Servidor não encontrado | Locais de FTP ou URL inválidos ou não acessíveis. |
 
@@ -292,7 +300,7 @@ O indicadores de status do feed a seguir são exibidos na coluna [!UICONTROL Sta
 | Indicador de status | Descrição |
 |--- |--- |
 | Indicador de status verde | Quando um feed acaba de indexar de modo bem-sucedido, um ponto de status verde indica que o feed está em um estado bem-sucedido. |
-| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado.   Observação: assim que o status do feed for "Aguardando para fila de índice" os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
+| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado.   Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot; os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
 | Indicador de status branco | Quando um feed não está agendado, um ponto de status branco indica que o feed ainda não foi executado. |
 | Indicador de status vermelho | Se o feed não faz o upload dos dados para um servidor, um indicador de status vermelho é mostrado. |
 Considere os exemplos a seguir:
@@ -322,7 +330,7 @@ Este vídeo contém as seguintes informações:
 * Entender a finalidade dos feeds
 * Entender o valor dos feeds
 
->[!VIDEO](https://video.tv.adobe.com/v/27695?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Criar um feed (6:44)
 
@@ -331,4 +339,4 @@ Este vídeo contém as seguintes informações:
 * Configurar um feed
 * Saber qual tipo de feed usar
 
->[!VIDEO](https://video.tv.adobe.com/v/27696?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
