@@ -1,12 +1,12 @@
 ---
-keywords: Visão geral e referência; SEO; otimização do mecanismo de pesquisa
+keywords: Overview and Reference;SEO;search engine optimization
 description: 'O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript: at.js e mbox.js'
 title: Funcionamento do Adobe Target
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -87,7 +87,7 @@ As atividades do Recommendations exibem automaticamente produtos ou conteúdo qu
 
 ## A rede Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-"Edge" é uma arquitetura de fornecimento distribuída geograficamente que assegura tempos de resposta ideais para usuários finais que solicitem o conteúdo, independentemente de onde estejam localizados ao redor do mundo.
+&quot;Edge&quot; é uma arquitetura de fornecimento distribuída geograficamente que assegura tempos de resposta ideais para usuários finais que solicitem o conteúdo, independentemente de onde estejam localizados ao redor do mundo.
 
 Para aprimorar os tempos de resposta, os ambientes do Edge hospedam somente a lógica de atividade, o perfil em cache e informações de ofertas. Bancos de dados de atividade e conteúdo, [!DNL Analytics] dados, APIs e interfaces de usuário dos profissionais de marketing são abrigados nos ambientes de dados centrais da Adobe. As atualizações são enviadas para os nós da borda. Os ambientes centrais e nós do Edge são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. Como a modelagem 1:1 também é armazenada em cada borda, as solicitações mais complexas também podem ser processadas no Edge.
 
@@ -97,7 +97,7 @@ Cada nó de Edge possui todas as informações necessárias para responder à so
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-A solução Adobe Target é hospedada em data centers próprios e alugados pela Adobe ao redor do mundo. Os servidores de administração são hospedados totalmente em data centers próprios da Adobe em Londres, Cingapura e vários locais nos EUA, incluindo Oregon e Virgínia. Os servidores de borda são hospedados em servidores próprios e alugados pela Adobe em data centers da Amazon AWS em Londres, Hong Kong, Cingapura, Tóquio e Sydney.
+A solução Adobe Target é hospedada em data centers próprios e alugados pela Adobe ao redor do mundo. Os servidores de administração são hospedados totalmente em data centers próprios da Adobe em Londres, Cingapura e vários locais nos EUA, incluindo Oregon e Virgínia. Os servidores de borda são hospedados em servidores proprietários da Adobe e alugados pela Adobe em data centers Amazon AWS em Londres, Hong Kong SAR da China, Cingapura, Tóquio e Sydney.
 
 Os locais do servidor de administração contém um centro de coleta de dados e um centro de processamento de dados. Os locais de site do Edge contém apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
@@ -105,7 +105,7 @@ Em vez de responder a todas as solicitações de direcionamento a partir de um �
 
 >[!IMPORTANT]
 >
->No momento, o [!DNL Adobe Target] não tem uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para os clientes do [!DNL Target] na China. Devido ao ótimo Firewall e à falta de nós de Edge no país, as experiências de sites com o [!DNL Target] implantado serão renderizadas de maneira lenta e os carregamentos de página serão afetados. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
+>No momento, o [!DNL Adobe Target] não tem uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para os clientes do [!DNL Target] na China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -137,9 +137,9 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
 * **Sem cloaking** - Cloaking é exibir um conjunto de conteúdo aos seus usuários e um conjunto diferente de conteúdo para os bots do mecanismo de pesquisa, identificando-os especificamente e enviando conteúdo diferente propositalmente.
 
-   O Target, como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Isso significa que os bots podem ser incluídos em testes que você está executando, se selecionados aleatoriamente, e "ver" as variações de teste.
+   O Target, como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Isso significa que os bots podem ser incluídos em testes que você está executando, se selecionados aleatoriamente, e &quot;ver&quot; as variações de teste.
 
-* **Use rel="canonical"** - Algumas vezes, um teste A/B precisa ser configurado usando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, se a Adobe estivesse testando sua página inicial usando URLs diferentes para cada variação, a tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
+* **Use rel=&quot;canonical&quot;** - Algumas vezes, um teste A/B precisa ser configurado usando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, se a Adobe estivesse testando sua página inicial usando URLs diferentes para cada variação, a tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -149,21 +149,21 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    Embora continuemos a procurar soluções viáveis para obter alinhamento total com as diretrizes do mecanismo de pesquisa, para esses clientes que precisam usar URLs separados para testes, estamos confiantes de que a implementação apropriada das tags canônicas mencionadas acima diminui o risco associado a esta abordagem.
 
-* **Execute experimentos somente conforme necessário** - Acreditamos que "conforme necessário" é o quanto for necessário para atingir significância estatística. O Target [fornece práticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar quando seu teste atingiu este ponto. Recomendamos que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Execute experimentos somente conforme necessário** - Acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. O Target [fornece práticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar quando seu teste atingiu este ponto. Recomendamos que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
-   Usando a plataforma Target para "publicar" testes vencedores não é recomendado como solução permanente, mas contanto que o teste vencedor é publicado para 100% dos usuários em 100% do tempo, essa abordagem pode ser usada enquanto o processo de codificação permanente do teste vencedor é concluído.
+   Usando a plataforma Target para &quot;publicar&quot; testes vencedores não é recomendado como solução permanente, mas contanto que o teste vencedor é publicado para 100% dos usuários em 100% do tempo, essa abordagem pode ser usada enquanto o processo de codificação permanente do teste vencedor é concluído.
 
    É importante levar em consideração também o que seu teste alterou. Simplesmente atualizar a cor de botões ou outros itens de menor importância não baseados em texto na página não exercerá qualquer influência sobre suas classificações orgânicas. As alterações, entretanto, devem ser codificadas permanentemente.
 
    Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para os mecanismos de pesquisa e nunca tiver sido concebida para classificar em pesquisa orgânica inicialmente, nenhuma das considerações acima é aplicável.
 
-O Google declara que seguir essas diretrizes "deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa".
+O Google declara que seguir essas diretrizes &quot;deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa&quot;.
 
 Além dessas diretrizes, a Google também fornece mais uma diretriz na documentação de sua ferramenta de Experiências com Conteúdo:
 
-* "Suas variações de páginas devem manter o espírito do conteúdo das suas páginas originais. Essas variações não devem alterar o significado da percepção geral do seu usuário sobre aquele conteúdo original".
+* &quot;Suas variações de páginas devem manter o espírito do conteúdo das suas páginas originais. Essas variações não devem alterar o significado da percepção geral do seu usuário sobre aquele conteúdo original&quot;.
 
-A Google afirma, como um exemplo, que "se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice."
+A Google afirma, como um exemplo, que &quot;se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice.&quot;
 
 Acreditamos que seria difícil alterar involuntariamente o significado do conteúdo original contido nas variações de teste, mas recomendamos que esteja ciente dos temas das palavras-chave em uma página e manter esses temas. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. Recomendamos que você envolva seu parceiro de SEO como parte de seu protocolo de testes.
 
