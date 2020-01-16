@@ -1,12 +1,12 @@
 ---
-keywords: confirmação de pedido; orderConfirmPage
+keywords: order confirmation;orderConfirmPage
 description: Informações sobre como implementar o Adobe Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
 title: Implementação do Target sem um gerenciador de tags
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -23,7 +23,7 @@ Informações sobre como implementar o Adobe Target sem usar um gerenciador de t
 >
 >[O Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) é o método preferido para a implementação do Target e da biblioteca at.js. As informações a seguir não são aplicáveis quando o Adobe Launch é usado para implementar o Target.
 
-## Configurações da at.js {#concept_2FA0456607D04F82B0539C5BF5309812}
+## at.js configurations {#concept_2FA0456607D04F82B0539C5BF5309812}
 
 Informações para ajudar a definir várias configurações na página Configurações da at.js.
 
@@ -37,8 +37,8 @@ Informações para ajudar a definir várias configurações na página Configura
 
 Para abrir a página [!UICONTROL Configurações]:
 
-1. Clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Implementação]**.
-1. Selecione **[!UICONTROL at.js]** &gt; **[!UICONTROL Editar configurações de at.js]**.
+1. Clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Implementação]**.
+1. Selecione **[!UICONTROL at.js]**>**[!UICONTROL  Editar configurações de at.js]**.
 
 ## Configurações de entrega de conteúdo {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -57,7 +57,7 @@ Consulte o Atendimento ao cliente antes de alterar essas configurações. Essas 
 | ID da organização IMS | Essa ID vincula sua implementação à sua conta da [!DNL Adobe Experience Cloud].<br>Esta configuração não pode ser alterada. |
 | Duração do perfil | Essa configuração determina a duração de armazenamento do perfil do visitante. Por padrão, os perfis são armazenados por duas semanas. Isso pode ser aumentado para até 90 dias.<br>Para alterar a configuração de Duração do perfil, entre em contato com o [Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html). |
 | Domínio X | Determina se o navegador define cookies em seu domínio (cookies próprios), no domínio do Target ou em ambos.<br>A alteração dessa configuração afeta at.js e mbox.js. |
-| Tempo limite | Se o [!DNL Target] não responder ao conteúdo no período definido, o tempo limite da chamada do servidor acaba e o conteúdo padrão é exibido. Ainda há tentativas de chamadas adicionais durante a sessão do visitante. O limite padrão é de 5 segundos.<br>A alteração dessa configuração afeta at.js e mbox.js.<br>A biblioteca at.js usa a configuração de tempo limite em `XMLHttpRequest`. O tempo limite começa quando a solicitação é acionada e para quando Target recebe uma resposta do servidor. Para obter mais informações, consulte [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) no site Mozilla Developer Network.<br>Se o tempo limite especificado ocorrer antes de receber uma resposta, o conteúdo padrão é mostrado e o visitante pode ser contabilizado como um participante em uma atividade, pois toda a coleta de dados acontece na borda do [!DNL Target]. Se a solicitação alcançar a borda do [!DNL Target], o visitante é contabilizado.<br>Leve em consideração o seguinte ao configurar o tempo limite:<ul><li>Se o valor for muito baixo, os usuários podem visualizar o conteúdo padrão na maioria das vezes, embora o visitante possa ser contabilizado como participante na atividade.</li><li>Se o valor for muito alto, os visitantes podem ver regiões em branco na sua página da Web, ou páginas em branco se você ocultar o corpo por períodos prolongados.</li></ul>Para obter uma compreensão melhor dos tempos de resposta do mbox, olhe a guia Rede nas Ferramentas de desenvolvedor do navegador. Você também pode usar ferramentas de monitoramento de desempenho na Web de terceiros, como Catchpoint.<br>**Observação**: A configuração [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) garante que o [!DNL Target] não espere a resposta da API do visitante por muito tempo. Essa configuração e a configuração de Tempo limite para at.js descrita aqui não são conflitantes. |
+| Tempo limite | Se o [!DNL Target] não responder ao conteúdo no período definido, o tempo limite da chamada do servidor acaba e o conteúdo padrão é exibido. Ainda há tentativas de chamadas adicionais durante a sessão do visitante. O limite padrão é de 5 segundos.<br>A alteração dessa configuração afeta at.js e mbox.js.<br>A biblioteca at.js usa a configuração de tempo limite em `XMLHttpRequest`. O tempo limite começa quando a solicitação é acionada e para quando Target recebe uma resposta do servidor. Para obter mais informações, consulte [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) no site Mozilla Developer Network.<br>Se o tempo limite especificado ocorrer antes de receber uma resposta, o conteúdo padrão é mostrado e o visitante pode ser contabilizado como um participante em uma atividade, pois toda a coleta de dados acontece na borda do [!DNL Target]. Se a solicitação alcançar a borda do [!DNL Target], o visitante é contabilizado.<br>Leve em consideração o seguinte ao configurar o tempo limite:<ul><li>Se o valor for muito baixo, os usuários podem visualizar o conteúdo padrão na maioria das vezes, embora o visitante possa ser contabilizado como participante na atividade.</li><li>Se o valor for muito alto, os visitantes podem ver regiões em branco na sua página da Web, ou páginas em branco se você ocultar o corpo por períodos prolongados.</li></ul>Para obter uma compreensão melhor dos tempos de resposta do mbox, olhe a guia Rede nas Ferramentas de desenvolvedor do navegador. Você também pode usar ferramentas de monitoramento de desempenho na Web de terceiros, como Catchpoint.<br>**Observação **: A configuração[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)garante que o[!DNL Target]não espere a resposta da API do visitante por muito tempo. Essa configuração e a configuração de Tempo limite para at.js descrita aqui não são conflitantes. |
 | Suporte a navegador herdado | **Observação:** A opção Suporte a navegador herdado está disponível na at.js versão 0.9.3 e posteriores. Essa opção foi removida na at.js versão 0.9.4. Para obter uma lista de navegadores suportados at.js, consulte [Navegadores suportados](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)<br>Os navegadores herdados são navegadores antigos que não suportam completamente CORS (Cross Origin Resource Sharing). Esses navegadores incluem: Internet Explorer em versão anterior a 11 e Safari versões 6 e anteriores. Se o Suporte a navegador herdado estiver desativada, o Target não entrega o conteúdo ou conta visitantes em relatórios nesses navegadores. Se essa opção estiver ativada, recomenda-se fazer um controle de qualidade nos navegadores mais antigos para garantir uma boa experiência do cliente. |
 
 ## Configurações de código  {#section_D41C905D0F8149949F525C85F2CCFF7F}
@@ -85,21 +85,21 @@ ov2/c_target-configure-atjs.xml
 >
 >A equipe do Target mantém apenas duas versões de [!DNL at.js]—a versão atual e a segunda versão mais recente. Atualize a [!DNL at.js] conforme necessário para garantir que você esteja executando uma versão suportada. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
-## Baixar a at.js usando a interface do Target {#section_1F5EE401C2314338910FC57F9592894E}
+## Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
 
 Para baixar a [!DNL at.js] na interface do [!DNL Target]:
 
-1. Clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Implementação]**.
+1. Clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Implementação]**.
 1. Selecione **[!UICONTROL at.js]**.
 1. Clique em **[!UICONTROL Baixar at.js]**.
 
-## Baixar at.js usando a API de download do Target {#section_C0D9D2A9068144708D08526BA5CA10D0}
+## Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Para baixar a [!DNL at.js] usando a API.
 
 1. Obtenha o seu código de cliente.
 
-   O código de cliente está disponível na parte superior da página **[!UICONTROL Configurar]** &gt; **[!UICONTROL Implementação]** &gt; **[!UICONTROL Editar configurações da at.js]** na [!DNL Target] interface.
+   O código de cliente está disponível na parte superior da página **[!UICONTROL Configurar]**>**[!UICONTROL  Implementação]** > **[!UICONTROL Editar configurações da at.js]**na interface do[!DNL Target].
 
 1. Obtenha o seu número de administrador.
 
@@ -119,7 +119,7 @@ Para baixar a [!DNL at.js] usando a API.
    }
    ```
 
-   Neste exemplo, "6" é o número do administrador.
+   Neste exemplo, &quot;6&quot; é o número do administrador.
 
 1. Baixar [!DNL at.js].
 
@@ -138,7 +138,7 @@ Para baixar a [!DNL at.js] usando a API.
 
    O carreamento deste URL inicia o download do arquivo da [!DNL at.js] personalizado.
 
-## Implementação da at.js {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 A at.js deve ser implementada no elemento `<head>` de cada página do site.
 
@@ -202,21 +202,15 @@ Uma implementação típica do Target que não usa um gerenciador de tags como o
 Considere as informações importantes a seguir:
 
 * O HTML5 Doctype (por exemplo, `<!doctype html>`) deve ser usado. Doctypes não compatíveis ou mais antigos poderiam imperdir o Target de fazer uma solicitação.
-* Pré-conectar e Buscar previamente são opções que podem auxiliar no carregamento mais rápido das páginas da Web. Se você usa essas configurações, certifique-se de substituir `<client code>` pelo seu próprio código de cliente, que pode ser obtido na página **[!UICONTROL Configurar]** &gt; **[!UICONTROL Implementação]** &gt; **[!UICONTROL Editar configurações at.js]**.
+* Pré-conectar e Buscar previamente são opções que podem auxiliar no carregamento mais rápido das páginas da Web. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
 * Se você tiver uma camada de dados, é ideal definir o máximo dela possível em `<head>` das suas páginas, antes dos carregamentos da at.js. Esse posicionamento fornece a capacidade máxima de aproveitar essas informações no Target para personalização.
 * As funções especiais do Target, como `targetPageParams()`, `targetPageParamsAll()`, Provedores de dados e `targetGlobalSettings()` devem ser definidas após a camada de dados e antes dos carregamentos da at.js. Como alternativa, é possível salvá-las na seção [!UICONTROL Cabeçalho da biblioteca] da página [!UICONTROL Editar configurações da at.js] e como parte da própria biblioteca at.js. Para obter mais informações sobre essas funções, consulte  [Funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Se você usar as bibliotecas auxiliares do JavaScript, como jQuery, inclua-as antes do Target, para que possa aproveitar a sintaxe e métodos delas ao criar as experiências do Target.
 * Inclua a at.js no `<head>` das suas páginas.
 
-## Rastrear conversas {#task_E85D2F64FEB84201A594F2288FABF053}
+## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
 
-A mbox de confirmação de pedido registra detalhes sobre pedidos no seu site e permite a geração de relatórios baseados em receita e pedidos. A mbox de confirmação de pedido também pode impulsionar algoritmos de recomendação, como "Pessoas que compraram o produto x também compraram o produto y".
-
-<!-- 
-
-ov/t_create_orderconfirm-page-mbox-atjs.xml
-
- -->
+A mbox de confirmação de pedido registra detalhes sobre pedidos no seu site e permite a geração de relatórios baseados em receita e pedidos. A mbox de confirmação de pedido também pode impulsionar algoritmos de recomendação, como &quot;Pessoas que compraram o produto x também compraram o produto y&quot;.
 
 >[!NOTE]
 >
