@@ -1,10 +1,10 @@
 ---
-keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Lista de perguntas frequentes sobre atividades do Adobe Target Recommendations.
 title: Perguntas frequentes sobre o Adobe Target Recommendations
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
 
 ---
 
@@ -25,17 +25,17 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
 
 * Atributos de item usados nas regras de Coleção usadas para a atividade.
 * Atributos de item usados em uma promoção baseada em um atributo ou coleção associada à atividade.
-* Categoria do item na qual o item aparece para uma "Categoria atual" ou "Categoria favorita" no algoritmo Mais vendidos ou Mais visualizados.
+* Categoria do item na qual o item aparece para uma &quot;Categoria atual&quot; ou &quot;Categoria favorita&quot; no algoritmo Mais vendidos ou Mais visualizados.
 * Classificação dos itens recomendados quando o atributo mudou é um atributo personalizado usado como chave personalizada para um algoritmo.
-* Classificação dos itens recomendados com base nos atributos alterados quando a lógica de recomendação é "Itens com atributos semelhantes", quando os fatores de ponderação de "Similaridade de conteúdo" são usados ou quando os fatores "Ponderação de atributos" são usados.
+* Classificação dos itens recomendados com base nos atributos alterados quando a lógica de recomendação é &quot;Itens com atributos semelhantes&quot;, quando os fatores de ponderação de &quot;Similaridade de conteúdo&quot; são usados ou quando os fatores &quot;Ponderação de atributos&quot; são usados.
 
 >[!NOTE]
 >
->Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo; a Pesquisa no catálogo está atualizada quando o status do feed muda para "Atualizações concluídas". Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
+>Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo; a Pesquisa no catálogo está atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
 
 ## O que devo fazer se os caracteres especiais estão quebrando a matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
-Use valores removidos no JavaScript. As aspas ( " ) podem quebrar a matriz. O snippet de código a seguir é um exemplo de valores removidos:
+Use valores removidos no JavaScript. As aspas ( &quot; ) podem quebrar a matriz. O snippet de código a seguir é um exemplo de valores removidos:
 
 ```
 #set($String='') 
@@ -62,7 +62,7 @@ O Target tem uma  [definição de Critérios incompatíveis de filtro](../../c-r
 >
 >Essa configuração se aplica às atividades criadas somente no Visual Experience Composer (VEC). Essa definição não se aplica às atividades criadas no Experience Composer baseado em formulário (o Target não tem contexto de localização).
 
-Para acessar a configuração [!UICONTROL Critérios incompatíveis de filtro], clique em [!UICONTROL Recommendations] &gt; [!UICONTROL Configurações]:
+Para acessar a configuração [!UICONTROL Critérios incompatíveis de filtro], clique em [!UICONTROL Recommendations] > [!UICONTROL Configurações]:
 
 ![](assets/recs_settings_filter.png)
 
@@ -90,22 +90,22 @@ Considere as informações a seguir se você vir uma coleção em zero que anter
 
    ![](assets/product_catalog.png)
 
-* O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique quantas horas têm o índice (por exemplo, "Indexado há 3 horas"). Você pode atualizar o índice, conforme necessário.
+* O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique quantas horas têm o índice (por exemplo, &quot;Indexado há 3 horas&quot;). Você pode atualizar o índice, conforme necessário.
 * Você alterou algo no feed ou na camada de dados que resultou na falta de correspondência das suas entidades com as regras de coleção? Certifique-se de que as LETRAS MAIÚSCULAS E MINÚSCULAS estejam correspondentes (sensível à maiúscula e minúsculas).
 * O seu feed foi executado com sucesso? Alguém alterou seu diretório de FTP, senha etc?
 * O Target faz o melhor para atualizar a entrega (na página/aplicativo do cliente) o mais rápido possível. Além disso, também precisamos fornecer alguma representação na interface de usuário do profissional de marketing. Não necessariamente atrasamos atualizações de entrega para esperar a sincronização de atualizações de interface de usuário. Você pode usar [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para ver o que está no sistema no momento em que ocorre a solicitação.
 
 ## Qual a diferença entre ponderação de atributos geral e ponderação de atributo específico à similaridade de conteúdo? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
-A ponderação de atributos ocorre de duas formas: "ponderação de atributos padrão" e "ponderação de atributos de similaridade de conteúdo".
+A ponderação de atributos ocorre de duas formas: &quot;ponderação de atributos padrão&quot; e &quot;ponderação de atributos de similaridade de conteúdo&quot;.
 
-"A ponderação de atributo padrão" aplica-se à maioria, ou todos, os tipos de critérios (não somente à Similaridade de conteúdo). Esse tipo de ponderação fornece mais peso a determinados valores de atributo. No exemplo a seguir, os produtos da Nike terão um salto nas recomendações de saída.
+&quot;A ponderação de atributo padrão&quot; aplica-se à maioria, ou todos, os tipos de critérios (não somente à Similaridade de conteúdo). Esse tipo de ponderação fornece mais peso a determinados valores de atributo. No exemplo a seguir, os produtos da Nike terão um salto nas recomendações de saída.
 
 ![](assets/attribute_weighting_example.png)
 
-A "ponderação de atributo por similaridade de conteúdo" aplica-se aos critérios de Similaridade de conteúdo somente.
+A &quot;ponderação de atributo por similaridade de conteúdo&quot; aplica-se aos critérios de Similaridade de conteúdo somente.
 
-Esse tipo de ponderação é mais dinâmica e baseia-se na "chave de recomendação" atual (o item exibido atualmente). No exemplo a seguir (marca x 16), se um visitante estava visualizando tênis da Nike, ele tem maior probabilidade de receber recomendações de outros produtos da Nike (não necessariamente somente tênis) em vez de tênis de outros fabricantes. Se um visitante estava visualizando tênis da Adidas, ele tem maior probabilidade de recomendar produtos da Adidas.
+Esse tipo de ponderação é mais dinâmica e baseia-se na &quot;chave de recomendação&quot; atual (o item exibido atualmente). No exemplo a seguir (marca x 16), se um visitante estava visualizando tênis da Nike, ele tem maior probabilidade de receber recomendações de outros produtos da Nike (não necessariamente somente tênis) em vez de tênis de outros fabricantes. Se um visitante estava visualizando tênis da Adidas, ele tem maior probabilidade de recomendar produtos da Adidas.
 
 ![](assets/content_similarity_example.png)
 
@@ -168,3 +168,23 @@ A exclusão é executada somente para a chamada Target atual; os itens não são
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
 
 Por padrão, esse recurso é ativado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
+
+## O que a resposta NO_CONTENT às vezes retorna no rastreamento de conteúdo do Recommendations significa?
+
+NO_CONTENT é retornado quando as recomendações não estão disponíveis para o algoritmo solicitado e a combinação de teclas. Geralmente, isso ocorre quando os backups são desativados para o algoritmo e uma ou mais das seguintes opções também são verdadeiras:
+
+* Os resultados ainda não estão prontos.
+
+   Isso normalmente ocorre ao salvar uma atividade recém-criada ou depois que alterações de configuração são feitas na coleção, nos critérios ou nas promoções usadas na atividade.
+
+* Os resultados estão prontos, mas ainda não são armazenados em cache no servidor de borda mais próximo, para a combinação de algoritmo/chave solicitada.
+
+   A solicitação recém-feita iniciará uma operação de armazenamento em cache, portanto isso deve resolver-se após alguns recarregamentos de página e/ou alguns minutos de passagem.
+
+* Os resultados estão prontos, mas não estão disponíveis para o valor-chave fornecido.
+
+   Isso normalmente ocorre ao solicitar recomendações para um item que foi adicionado ao catálogo após a execução mais recente do algoritmo e resolverá a si mesmo após a execução do próximo algoritmo.
+
+* A renderização parcial do modelo está desativada e não há resultados suficientes disponíveis para preencher o modelo.
+
+   Isso normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtra agressivamente muitos itens dos resultados possíveis. Para evitar isso, ative os backups e não aplique a regra de inclusão aos backups, ou use os critérios em sequência com critérios filtrados menos agressivos.
