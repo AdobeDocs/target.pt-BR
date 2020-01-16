@@ -1,26 +1,29 @@
 ---
-keywords: confirmação de pedido; orderConfirmPage
+keywords: order confirmation;orderConfirmPage
 description: A mbox de confirmação de pedido registra detalhes sobre pedidos no seu site e permite a geração de relatórios baseados em receita e pedidos. A mbox de confirmação de pedido também pode impulsionar algoritmos de recomendação, como "Pessoas que compraram o produto x também compraram o produto y".
 title: Criar uma mbox de confirmação de pedido - mbox.js
-subtopic: Introdução
+subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
 
 # Criar uma mbox de confirmação de pedido - mbox.js{#create-an-order-confirmation-mbox-mbox-js}
 
-A mbox de confirmação de pedido registra detalhes sobre pedidos no seu site e permite a geração de relatórios baseados em receita e pedidos. A mbox de confirmação de pedido também pode impulsionar algoritmos de recomendação, como "Pessoas que compraram o produto x também compraram o produto y".
+A mbox de confirmação de pedido registra detalhes sobre pedidos no seu site e permite a geração de relatórios baseados em receita e pedidos. A mbox de confirmação de pedido também pode impulsionar algoritmos de recomendação, como &quot;Pessoas que compraram o produto x também compraram o produto y&quot;.
 
 >[!NOTE]
 >
->Se usuários fazem compras no seu site, recomendamos implementar uma mbox de confirmação de pedido mesmo se você usar Analytics for Target (A4T) como seu gerador de relatórios.
+>* Se usuários fazem compras no seu site, recomendamos implementar uma mbox de confirmação de pedido mesmo se você usar Analytics for Target (A4T) como seu gerador de relatórios.
+   >
+   >
+* Você também pode criar uma mbox de confirmação de pedido para at.js 1.*x* utilizando o mesmo método; no entanto, o [!DNL at.js] método é preferido. Para obter mais informações, consulte [Rastrear conversões](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+   >
+   >
+* Se você estiver usando o at.js 2.*x*, não `mboxCreate` é mais suportado. Para confirmação de pedido usando at.js 2.*x*, use as seguintes APIs relacionadas a rastreamento: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) e [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
->[!NOTE]
->
->Você também pode criar uma mbox de confirmação de pedido para o at.js usando o mesmo método; no entanto, o método [!DNL at.js] é preferido. Para obter mais informações, consulte [Rastrear conversões](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
 1. Na página de detalhes do pedido, insira o script da mbox seguindo o modelo abaixo.
 1. Substitua as PALAVRAS EM LETRAS MAIÚSCULAS por valores dinâmicos ou estáticos do seu catálogo.
