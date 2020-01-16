@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 15 de janeiro de 2020 | [Habilitar conteúdo misto em seu navegador](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Adicionado um vídeo de treinamento e instruções para explicar como atualizar as configurações do site para permitir conteúdo misto na versão mais recente do Chrome. |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Foi adicionada uma observação sobre como fazer upload e remover entidades e atributos de entidade. |
+|  | [Criar uma mbox de confirmação de pedido - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | Foi adicionada uma observação explicando como executar a confirmação do pedido usando o at.js 2.*x*. |
 | 9 de janeiro de 2020 | [Alterações na criptografia do TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Texto atualizado.<br>Após 1º de março de 2020, o Adobe Target não oferecerá mais suporte à criptografia TLS 1.1 para o Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), entrega de atividades, APIs etc. Atualize para TLS 1.2 antes de 1º de março de 2020 para evitar problemas. |
 | 6 de janeiro de 2020 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Foi adicionado um problema conhecido sobre o status do feed de Critérios personalizados. |
 | 19 de dezembro de 2019 | [Notas de versão - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Foram adicionadas informações sobre a versão 1.1.0. |
