@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentação do produto do Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 4425cff98a2508b4f322c44901c09c0154a229f8
 
 ---
 
@@ -16,42 +16,55 @@ O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferec
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
-## Todos os usuários [!DNL Target] {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
+- [Todos os usuários do Target](#all)
+- [Profissionais de marketing](#marketers)
+- [Desenvolvedores](#developers)
+- [Administradores do Target e da Adobe Experience Cloud](#admins)
+- [Analistas](#analysts)
+- [Engenheiros de controle de qualidade](#qa)
+
+## Todos os usuários [!DNL Target] {#all}
 
 Profissionais de marketing, desenvolvedores, administradores e engenheiros de controle de qualidade.
 
 - [Notas de versão do Target](r-release-notes/release-notes.md): contém informações sobre a versão atual, informações sobre problemas conhecidos que afetam o [!DNL Target], uma lista de alterações importantes nesta documentação e um arquivo das notas de versão anteriores.
 - [Introdução ao Target](c-intro/intro.md): explica os conceitos principais da solução do [!DNL Target].
 - Integrar o Target com a Adobe Experience Cloud: explica como integrar o [!DNL Target] com outras soluções da [!DNL Experience Cloud], incluindo o [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), os [Públicos-alvo da Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), o [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) e o [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
+- [Tutoriais](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)do Adobe Target: Fornece tutoriais e vídeos para ajudá-lo a aproveitar ao máximo o Target.
 - [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md): fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros, etc.) que afetam as atividades e outros elementos no [!DNL Target].
 - [Target para aplicativos móveis](c-target-mobile-app/target-mobile-app.md): explica como o [!DNL Target] pode ser usado para otimização e personalização de aplicativos móveis.
 - [Recursos e informações de contato](cmp-resources-and-contact-information.md): fornece informações sobre recursos adicionais para ajudá-lo a saber mais sobre os recursos do [!DNL Target] e como entrar em contato com [!DNL Adobe] caso você precise de ajuda.
 
-## Profissionais de marketing
+## Profissionais de marketing {#marketers}
 
 - [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
 - [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em uma atividade direcionada.
 - [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 - [Recommendations](c-recommendations/recommendations.md): explica como as atividades do [!DNL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
 
-## Desenvolvedores
+## Desenvolvedores {#developers}
 
 - [Implementar o Target](c-implementing-target/implementing-target.md): explica como implementar o [!DNL Target] em sites, em aplicativos para dispositivos móveis, em aplicativos de página única (SPAs) e em plataformas iOT/OTT.
+- [APIs](https://developers.adobetarget.com/api/delivery-api/)do servidor de destino: Descreve os recursos que compõem a API de entrega do Adobe Target.
+- [SDK](https://github.com/adobe/target-nodejs-sdk)NodeJS de destino: Explica como implantar o servidor do Target. Esse SDK do Node.js ajuda a integrar facilmente o Target com outras soluções da Adobe Experience Cloud.
+- [SDK](https://github.com/adobe/target-java-sdk)Java do Target: Explica como implantar o servidor do Target. Esse Java SDK ajuda a integrar facilmente o Target com outras soluções da Adobe Experience Cloud.
+- [API](https://developers.adobetarget.com/api/recommendations/)do Target Recommendations: Descreve os recursos que compõem a API oficial do Adobe Target Recommendations.
+- [Documentação](http://developers.adobetarget.com/api/#introduction)do Adobe.IO do Target: Descreve como usar as APIs de Admin e REST de perfil do Target que usam a integração Adobe.IO para gerenciar atividades, públicos-alvo, ofertas, propriedades, relatórios, mboxes, ambientes e perfis.
 
-## Administradores do Target e da Adobe Experience Cloud
+## Administradores do Target e da Adobe Experience Cloud {#admins}
 
 - [Administer Target](administrating-target/administrating-target.md): explica como adicionar usuários e configurar sua conta [!DNL Target].
 
-## Analistas
+## Analistas {#analysts}
 
 - [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em uma atividade direcionada.
 - [Relatórios](c-reports/reports.md): explica como interpretar o desempenho de suas atividades.
 
-## Engenheiros de controle de qualidade
+## Engenheiros de controle de qualidade {#qa}
 
 - [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
 
-## Recursos adicionais {#section_BF207244CECD479F98900F0E11151E31}
+## Recursos adicionais {#additional}
 
 | Ajuda das soluções do Adobe [!DNL Target] | [!DNL Adobe Experience Cloud] recursos |
 |--- |--- |
