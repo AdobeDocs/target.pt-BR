@@ -1,11 +1,11 @@
 ---
-keywords: alocação automatizada de tráfego, direcionamento, Aumentar contagem e manter o usuário na atividade, alocação de tráfego
+keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 title: Alocação automática
-topic: Padrão
+topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: b398c14f3e9b60af58ec0812462e25f495c0baec
 
 ---
 
@@ -32,16 +32,16 @@ A alocação automática move os visitantes para experiências vencedoras gradat
 
 Um teste A/B normal no Target mostra apenas comparações de pares de desafiantes com controle. Por exemplo, se uma atividade tiver experiências: A, B, C e D, em que A é o controle, um teste A/B normal do Target compararia A versus B, A versus C e A versus D.
 
-Em tais testes, a maioria dos produtos, incluindo o Target, usa um teste t de Estudante para produzir confiança baseada no valor p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, o Target não realiza automaticamente as comparações implícitas (B versus C, B versus D e C versus D) que são necessárias para encontrar a "melhor" experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a "melhor" experiência.
+Em tais testes, a maioria dos produtos, incluindo o Target, usa um teste t de Estudante para produzir confiança baseada no valor p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, o Target não realiza automaticamente as comparações implícitas (B versus C, B versus D e C versus D) que são necessárias para encontrar a &quot;melhor&quot; experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a &quot;melhor&quot; experiência.
 
-A alocação automática executa todas as comparações implícitas entre as experiências e produz um vencedor "verdadeiro". Não há noção de experiência de "controle" no teste.
+A alocação automática executa todas as comparações implícitas entre as experiências e produz um vencedor &quot;verdadeiro&quot;. Não há noção de experiência de &quot;controle&quot; no teste.
 
 A alocação automática aloca novos visitantes a experiências de modo inteligente até que o intervalo de confiança da melhor experiência não se sobreponha ao de qualquer outra experiência. Normalmente, este processo pode produzir falsos positivos, mas a alocação automática usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensa avaliações repetidas. Neste ponto, temos um verdadeiro vencedor. Quando a Alocação automática é interrompida, desde que não haja uma dependência de tempo substancial para os visitantes que chegam à página, há pelo menos 95% de chance de que a alocação automática retorne uma experiência cuja resposta verdadeira não seja pior do que 1% (relativa) menos do que a verdadeira resposta da experiência vencedora.
 
 ## Quando usar a alocação automática, o teste A/B ou a personalização automatizada {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Use **Alocação automática** quando quiser otimizar sua atividade a partir do início e identificar as experiências vencedoras o mais rapidamente possível. Quando experiências de alto desempenho são proporcionadas com mais frequência, o desempenho geral da atividade aumenta.
-* Use um padrão **[Use o teste A/B](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** quando quiser caracterizar o desempenho de todas as experiências antes de otimizar o site. Um teste A/B ajuda a classificar todas as experiências, enquanto a alocação de tráfego automatizada encontra aquelas de desempenho mais alto, mas não garante a diferenciação entre aquelas de desempenho mais baixo.
+* Use um padrão **[Use o teste A/B](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**quando quiser caracterizar o desempenho de todas as experiências antes de otimizar o site. Um teste A/B ajuda a classificar todas as experiências, enquanto a alocação de tráfego automatizada encontra aquelas de desempenho mais alto, mas não garante a diferenciação entre aquelas de desempenho mais baixo.
 * Use [Personalização automatizada](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando quiser algoritmos de otimização da mais alta complexidade, como modelos de aprendizado automatizado que fazem previsões com base em atributos de perfil individuais. A alocação de tráfego automatizada observa o comportamento agregado das experiências (assim como testes A/B padrão) e não diferencia os visitantes.
 
 ## Principais benefícios  {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -80,15 +80,15 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 | ![Rodada 2](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **Rodada 2:** nesta rodada, 80% do tráfego é alocado às experiências A e D (40% cada). 20% do tráfego é alocado aleatoriamente, portanto, isso significa que A, B, C e D recebem 5% cada um. Durante esta rodada, a experiência B tem um excelente desempenho.<ul><li>O algoritmo escolhe a experiência D para avançar para a próxima rodada porque tem a taxa de conversão mais alta (conforme indicado por na escala vertical de cada atividade).</li><li>O algoritmo escolhe a experiência B para avançar também porque tem o limite superior mais alto do intervalo de confiança de 95% de Bernstein das experiências restantes.</li></ul>As experiências D e B seguem em frente. |
 | ![Rodada 3](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **Rodada 3:** nesta rodada, 80% do tráfego é alocado às experiências B e D (40% cada). 20% do tráfego é alocado aleatoriamente, portanto, isso significa que A, B, C e D recebem 5% cada um. Durante esta ronda, a experiência D continua a ter um bom desempenho e a experiência C tem um excelente desempenho.<ul><li>O algoritmo escolhe a experiência D para avançar para a próxima rodada porque tem a taxa de conversão mais alta (conforme indicado por na escala vertical de cada atividade).</li><li>O algoritmo escolhe a experiência C para avançar também porque tem o limite superior mais alto do intervalo de confiança de 95% de Bernstein das experiências restantes.</li></ul>As experiências D e C seguem em frente. |
 | ![Rodada 4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **Rodada 4:** nesta rodada, 80% do tráfego é alocado às experiências C e D (40% cada). 20% do tráfego é alocado aleatoriamente, portanto, isso significa que A, B, C e D recebem 5% cada um. Durante esta rodada, a experiência C tem um excelente desempenho.<ul><li>O algoritmo escolhe a experiência C para avançar para a próxima rodada porque tem a taxa de conversão mais alta (conforme indicado por na escala vertical de cada atividade).</li><li>O algoritmo escolhe a experiência D para avançar também porque tem o limite superior mais alto do intervalo de confiança de 95% de Bernstein das experiências restantes.</li></ul>As experiências C e D seguem em frente. |
-| ![Rodada n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Rodada n**: Conforme a atividade avança, uma experiência de alto desempenho começa a surgir e o processo continua até que haja uma experiência vencedora. Quando o intervalo de confiança da experiência com a taxa de conversão mais alta não coincide com o intervalo de confiança de qualquer outra experiência, ele é rotulado como vencedor e um [selo é exibido na página da atividade](/help/c-activities/automated-traffic-allocation/determine-winner.md) e na lista da Atividade.<ul><li>O algoritmo escolhe a experiência C como o vencedor claro</li></ul>Nesse ponto, o algoritmo serve 80% do tráfego para a experiência C, enquanto 20% do tráfego continua a ser servido aleatoriamente para todas as experiências (A, B, C e D). No total, C recebe 85% do tráfego. No caso improvável de que o intervalo de confiança do vencedor comece a se sobrepor novamente, o algoritmo reverte para o comportamento da rodada 4 acima.<br>**Importante:** se você escolhesse manualmente um vencedor no início do processo, teria sido fácil escolher a experiência errada. Por esse motivo, é uma prática recomendada esperar até que o algoritmo determine a experiência vencedora. |
+| ![Rodada n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Rodada n**: Conforme a atividade avança, uma experiência de alto desempenho começa a surgir e o processo continua até que haja uma experiência vencedora. Quando o intervalo de confiança da experiência com a taxa de conversão mais alta não coincide com o intervalo de confiança de qualquer outra experiência, ele é rotulado como vencedor e um [selo é exibido na página da atividade](/help/c-activities/automated-traffic-allocation/determine-winner.md) e na lista da Atividade.<ul><li>O algoritmo escolhe a experiência C como o vencedor claro</li></ul>Nesse ponto, o algoritmo serve 80% do tráfego para a experiência C, enquanto 20% do tráfego continua a ser servido aleatoriamente para todas as experiências (A, B, C e D). No total, C recebe 85% do tráfego. No caso improvável de que o intervalo de confiança do vencedor comece a se sobrepor novamente, o algoritmo reverte para o comportamento da rodada 4 acima.<br>**Importante:**se você escolhesse manualmente um vencedor no início do processo, teria sido fácil escolher a experiência errada. Por esse motivo, é uma prática recomendada esperar até que o algoritmo determine a experiência vencedora. |
 
 Se a atividade tiver apenas duas experiências, ambas receberão tráfego igual até que o Target encontre uma experiência com 90% de confiança. Nesse ponto, 70% do tráfego é alocado para o vencedor e 30% para o perdedor. Após essa experiência atingir 95% de confiança, 100% do tráfego é atribuído ao vencedor e 0% ao perdedor.
 
 Depois que o modelo para uma atividade de Alocação automática estiver pronto (cada experiência tem um mínimo de 1.000 visitantes e 50 conversões), as seguintes operações da interface do usuário não serão permitidas:
 
-* Alternar o modo "Alocação de tráfego" para "Manual"
+* Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
-* Alterar as opções no painel "Configurações avançadas"
+* Alterar as opções no painel &quot;Configurações avançadas&quot;
 
 ## Avisos {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -120,15 +120,15 @@ Alguns fatores que podem ser ignorados durante um teste A/B padrão por afetarem
 
    Por exemplo:
 
-   * "Graças a Deus é sexta-feira" resulta em maiores conversões na sexta-feira
-   * "Impulsione sua segunda-feira" tem conversão mais alta na segunda-feira
-   * "Prepare-se para um inverno da Costa Leste" tem conversão mais alta na Costa Leste ou em locais afetados pelo inverno
+   * &quot;Graças a Deus é sexta-feira&quot; resulta em maiores conversões na sexta-feira
+   * &quot;Impulsione sua segunda-feira&quot; tem conversão mais alta na segunda-feira
+   * &quot;Prepare-se para um inverno da Costa Leste&quot; tem conversão mais alta na Costa Leste ou em locais afetados pelo inverno
 
 Esses fatores podem distorcer os resultados em um teste de alocação automática mais do que em um teste A/B, pois o teste A/B analisa os resultados durante um período mais longo.
 
 * Experiências com atrasos de conversão variáveis, possivelmente devido à urgência da mensagem.
 
-   Por exemplo, "O desconto de 30% termina hoje" avisa o visitante para converter hoje, mas "50% de desconto na primeira compra" não cria o mesmo senso de urgência.
+   Por exemplo, &quot;O desconto de 30% termina hoje&quot; avisa o visitante para converter hoje, mas &quot;50% de desconto na primeira compra&quot; não cria o mesmo senso de urgência.
 
 ## Perguntas frequentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
@@ -168,7 +168,9 @@ No momento, a lógica favorece visitantes que convertem rapidamente ou visitam c
 
 **Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?**
 
-Você pode usar a calculadora de tamanho [de amostra existente](https://docs.adobe.com/content/target-microsite/testcalculator.html) com a correção de Bonferroni aplicada apropriadamente para obter uma estimativa de quanto tempo será a execução do teste. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessária. Em nossos experimentos, vimos a atividade de alocação automática terminar muito mais cedo do que esse tamanho de amostra.
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como ocorre com os testes A/B tradicionais, aplique a correção Bonferroni se você estiver testando mais de 2 ofertas ou mais de 1 métrica/hipótese de conversão.) Observe que esta calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
+* Ao testar exatamente 2 experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho da amostra) quando a diferença de desempenho entre experiências é grande, mas pode exigir mais tempo para identificar um vencedor quando a diferença de desempenho entre experiências é pequena. Nestes casos, os testes com horizonte fixo teriam normalmente terminado sem um resultado estatisticamente significativo.
+* Ao testar mais de duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho de amostra) quando uma única experiência executa fortemente todas as outras experiências. Quando duas ou mais experiências estão &quot;vencendo&quot; em relação a outras experiências, mas muito próximas umas das outras, a Autoalocação pode exigir mais tempo para determinar qual é superior. Nesses casos, os testes de horizonte fixo tipicamente terminariam ao concluir que as experiências &quot;vencedoras&quot; eram melhores que as de menor desempenho, mas não identificaram qual era superior.
 
 **Devo remover uma experiência com baixo desempenho de uma atividade de Alocação automática para acelerar o processo de decisão de um vencedor?**
 
@@ -189,7 +191,7 @@ Este vídeo inclui informações sobre a configuração da alocação de tráfeg
 * Selecione seu método de alocação de tráfego
 * aloque o tráfego entre diferentes experiências
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### Criação de testes A/B (8:36)
 
@@ -198,4 +200,4 @@ Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado
 * Criar uma atividade A/B no Adobe Target
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
