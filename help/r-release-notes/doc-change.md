@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 23 de janeiro de 2020 | [Interpretar relatórios de Autoalocação](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Foi adicionada uma observação para usar a calculadora de tamanho de amostra do Adobe Target para determinar o vencedor. |
+|  | [Atributos da entidade](/help/c-recommendations/c-products/entity-attributes.md) | Foi adicionada uma observação explicando que se você estiver usando o at.js 2.*x*, não `mboxCreate` é mais suportado. Para enviar informações do produto ou conteúdo para o Recommendations usando o at.js 2.*x*, use `targePageParams`. |
 | 22 de janeiro de 2020 | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | As seguintes perguntas frequentes foram atualizadas: &quot;Posso usar a calculadora de tamanho de amostra ao usar a Autoalocação para estimar quanto tempo a atividade levará para identificar o vencedor?&quot; |
 | 15 de janeiro de 2020 | [Habilitar conteúdo misto em seu navegador](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Adicionado um vídeo de treinamento e instruções para explicar como atualizar as configurações do site para permitir conteúdo misto na versão mais recente do Chrome. |
 |  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Foi adicionada uma observação sobre como fazer upload e remover entidades e atributos de entidade. |
