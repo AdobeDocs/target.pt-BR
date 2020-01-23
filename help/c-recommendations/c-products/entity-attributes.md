@@ -4,7 +4,7 @@ description: Use atributos de entidade para passar informações do produto ou c
 title: Atributos da entidade
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 ---
 
@@ -183,7 +183,7 @@ Em geral, a mbox de informações de exibição pode ser semelhante ao exemplo a
 
 >[!NOTE]
 >
->Se você estiver usando o at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o Recommendations usando o at.js 2.*x*, use os seguintes métodos de API: [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)ou [applyOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md).
+>Se você estiver usando o at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o Recommendations usando o at.js 2.*x*, use [targePageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
 
 >[!NOTE]
 >
