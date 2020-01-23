@@ -1,10 +1,10 @@
 ---
-keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Use atributos de entidade para passar informações do produto ou conteúdo para o Recommendations.
 title: Atributos da entidade
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -23,7 +23,7 @@ Somente valor único.
 
 Este parâmetro obrigatório identifica o produto. Esta ID alfanumérica deve ser igual em todos os produtos utilizados da [!DNL Adobe Experience Cloud], incluindo o [!DNL Analytics], para que os produtos reconheçam o item e compartilhem dados sobre ele.
 
-Os valores do `entity.id` não devem conter barras, "E" comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
+Os valores do `entity.id` não devem conter barras, &quot;E&quot; comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
 
 Exemplo: `'entity.id=67833'`
 
@@ -91,7 +91,7 @@ Exemplo: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Somente valor único.
 
-A mensagem sobre o produto que é exibido na recomendação, como "à venda" ou "promoção". A mensagem normalmente é mais detalhada do que o nome do produto. Use para definir informações adicionais para exibir com o produto no modelo.
+A mensagem sobre o produto que é exibido na recomendação, como &quot;à venda&quot; ou &quot;promoção&quot;. A mensagem normalmente é mais detalhada do que o nome do produto. Use para definir informações adicionais para exibir com o produto no modelo.
 
 Exemplo: `'entity.message=Family&nbsp;special'`
 
@@ -103,7 +103,7 @@ Exibe o nível de inventário do item.
 
 Exemplo: `'entity.inventory=1'`
 
-**Tratamento de atributo de inventário vazio:** para a entrega, se você tiver uma regra de inclusão, regra de coleção ou uma configuração de critérios com `entity.inventory` &gt; 0 ou `entity.inventory` = 0 e o produto não tiver o inventário definido, o [!DNL Target] avaliará isso como TRUE e incluirá os produtos com inventário não definido. Isso foi feito por padrão, de modo que os produtos com inventário não sejam exibidos em resultados da recomendação.
+**Tratamento de atributo de inventário vazio:** para a entrega, se você tiver uma regra de inclusão, regra de coleção ou uma configuração de critérios com `entity.inventory` > 0 ou `entity.inventory` = 0 e o produto não tiver o inventário definido, o [!DNL Target] avaliará isso como TRUE e incluirá os produtos com inventário não definido. Isso foi feito por padrão, de modo que os produtos com inventário não sejam exibidos em resultados da recomendação.
 
 Da mesma forma, se você tiver uma regra de exclusão global com `entity.inventory` = 0 e `entity.inventory` não definido, o [!DNL Target] avalia essa regra como TRUE e exclui o produto.
 
@@ -179,7 +179,11 @@ Recommendations envia `productId` ou `productPurchasedId` (referido como `entity
 
 A maioria dos parâmetros predefinidos aceita apenas um único valor, e os novos valores substituem os valores antigos. O parâmetro `categoryId` pode aceitar uma lista delimitada por vírgulas de valores de cada categoria que contenha esse produto. Os novos valores de `categoryId` não substituem os valores existentes, mas em vez disso são anexados durante a atualização da entidade (limite de 250 caracteres).
 
-Em geral, a mbox de informações de exibição pode ser parecida com o seguinte exemplo: Mude os detalhes em negrito para se referirem aos seus produtos.
+Em geral, a mbox de informações de exibição pode ser semelhante ao exemplo a seguir se você estiver usando o at.js 1.*x* com `mboxCreate`.
+
+>[!NOTE]
+>
+>Se você estiver usando o at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o Recommendations usando o at.js 2.*x*, use os seguintes métodos de API: [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)ou [applyOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md).
 
 >[!NOTE]
 >
