@@ -1,11 +1,11 @@
 ---
-keywords: contato, jurídico, suporte técnico, suporte téc, suporte, serviço, capacidade, faturamento, feedback
+keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: Informações sobre recursos adicionais para ajudá-lo a aprender sobre os recursos do Target e como entrar em contato com a Adobe caso precise de ajuda com o Target.
 title: Informações de Recursos e Contato
-topic: Padrão
+topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -35,7 +35,7 @@ Informações de registro e links para sessões anteriores da Série de webinár
 
 ## Office Hours do atendimento ao cliente da Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
-"Office Hours" é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Essas sessões foram criadas para informar e ajudar os participantes a solucionar problemas e fornecer dicas e truques para obter sucesso com as soluções da Adobe Experience Cloud, incluindo o Target.
+&quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Essas sessões foram criadas para informar e ajudar os participantes a solucionar problemas e fornecer dicas e truques para obter sucesso com as soluções da Adobe Experience Cloud, incluindo o Target.
 
 Para se inscrever nas próximas sessões e assistir a sessões gravadas, consulte [Office Hours do atendimento ao cliente da Adobe](https://helpx.adobe.com/customer-care-office-hours.html).
 
@@ -85,14 +85,14 @@ Prepare também informações relacionadas ao problema específico. Por exemplo,
    Um relatório gomez com uma ou duas solicitações remotas não são dados suficientes para analisar ou resolver o problema.
 * Uma captura de tela de um traceroute de uma máquina que executa o firebug TO 70.42.13.100.
 
-   Isso é muito importante. As redes EDGE são mundiais. Por isso, é muito difícil determinar para onde o cliente é enviado. Por exemplo, se for possível reproduzir o problema no desktop de seu escritório, diga "Eu consigo reproduzir isso em meu desktop e estou no EDGE 20".
+   Isso é muito importante. As redes EDGE são mundiais. Por isso, é muito difícil determinar para onde o cliente é enviado. Por exemplo, se for possível reproduzir o problema no desktop de seu escritório, diga &quot;Eu consigo reproduzir isso em meu desktop e estou no EDGE 20&quot;.
 * Seu código de cliente e nome de mbox (se houver).
 * O número de mboxes embutidas na página.
 
    Uma única mbox de várias na página está lenta?
 * Com que frequência ocorre lentidão com essa mbox nessa página?
 
-   Fornecer um rastro de Firebug mostra ao Atendimento ao cliente um cenário de caso único. Se puder fornecer dados estatísticos, como "o mais baixo que vi foi 300ms, o mais alto que vi foi 1,1 segundo e testei 50 vezes", será mais fácil encontrar uma solução.
+   Fornecer um rastro de Firebug mostra ao Atendimento ao cliente um cenário de caso único. Se puder fornecer dados estatísticos, como &quot;o mais baixo que vi foi 300ms, o mais alto que vi foi 1,1 segundo e testei 50 vezes&quot;, será mais fácil encontrar uma solução.
 * Informações relacionadas a qualquer coisa incomum sobre suas campanhas.
 
    Há um número elevado de segmentos? (Por exemplo, você atualiza seus segmentos 3 a 4 vezes por hora na interface de administração?) Essas informações ajudam o Atendimento ao cliente a entender a interação entre interfaces de administração e as margens dessa campanha. Atualizações frequentes na campanha significam recargas frequentes no servidor central, que podem forçar mais chamadas remotas ou recargas de cache.
@@ -117,7 +117,6 @@ A equipe de Atendimento ao cliente da Adobe Experience Cloud está aqui para aju
 
 * [Consulte a página de ajuda da Experience Cloud em busca de conselhos, dicas e perguntas frequentes](https://helpx.adobe.com/marketing-cloud.html)
 * [Faça uma pergunta rápida no Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)
-* [Registre um incidente em seu portal do cliente](https://customers.omniture.com/login.php)
 * [Entre em contato diretamente com a equipe de Atendimento ao cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Verifique a disponibilidade e o status das Soluções da Experience Cloud](https://status.adobe.com/)
 
