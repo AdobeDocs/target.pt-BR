@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -16,9 +16,9 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 
 >[!NOTE]
 >
->Os limites listados abaixo devem ser considerados limites "rígidos", a menos que especificados como "recomendados".
+>Os limites listados abaixo devem ser considerados limites &quot;rígidos&quot;, a menos que especificados como &quot;recomendados&quot;.
 >
->Quando os limites designados como "recomendados" forem atingidos ou ultrapassados, o desempenho poderá ficar lento. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
+>Quando os limites designados como &quot;recomendados&quot; forem atingidos ou ultrapassados, o desempenho poderá ficar lento. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
 >
 >Atividades altamente complexas devem ser analisadas com a Consultoria da Adobe e testadas em um ambiente restrito antes de serem liberadas para produção.
 
@@ -114,9 +114,11 @@ Para chamadas mbox padrão:
 
 Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
 
+Se você estiver usando a API de entrega em lote, o limite será de 50 mboxes por solicitação em lote.
+
 Se estiver usando a [API de entrega em lote](https://developers.adobetarget.com/api/#server-side-batch-delivery) no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contiver mais do que esses limites, a API retornará a seguinte mensagem de erro:
 
-"O número de mboxParameters não pode exceder 50."
+&quot;O número de mboxParameters não pode exceder 50.&quot;
 
 Limites definidos para pontos finais:
 
@@ -164,7 +166,7 @@ Esse limite é devido a restrições de tamanho de URL do Microsoft Internet Exp
 
 Se estiver usando uma mbox global, o limite será para todo o conjunto de conteúdo retornado para a página. A limitação do tamanho da oferta melhora o tempo de carregamento da página. Se o limite for excedido, a seguinte mensagem será exibida:
 
-"O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página."
+&quot;O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página.&quot;
 
 ## Ofertas
 
