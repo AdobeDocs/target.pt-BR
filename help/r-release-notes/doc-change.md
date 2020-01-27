@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -18,8 +18,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 27 de janeiro de 2020 | [Limites](/help/r-troubleshooting-target/target-limits.md) | Foram adicionadas as seguintes informações: &quot;Se você estiver usando a API de entrega em lote, o limite será de 50 mboxes por solicitação em lote.&quot; |
+| 27 de janeiro de 2020 | [Relatórios de insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Nova seção adicionada: &quot;Adobe Blogs&quot;. |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Foram adicionadas as seguintes informações: &quot;Se você estiver usando a API de entrega em lote, o limite será de 50 mboxes por solicitação em lote.&quot; |
 |  | [Recursos e informações de contato](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Link atualizado para abrir um ticket de suporte. |
+|  | [Relatório de Resumo do direcionamento automático](/help/c-reports/auto-target-summary-report.md) | Texto e imagens atualizados. |
 | 23 de janeiro de 2020 | [Interpretar relatórios de Autoalocação](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Foi adicionada uma observação para usar a calculadora de tamanho de amostra do Adobe Target para determinar o vencedor. |
 |  | [Atributos da entidade](/help/c-recommendations/c-products/entity-attributes.md) | Foi adicionada uma observação explicando que se você estiver usando o at.js 2.*x*, não `mboxCreate` é mais suportado. Para enviar informações do produto ou conteúdo para o Recommendations usando o at.js 2.*x*, use `targetPageParams`. |
 | 22 de janeiro de 2020 | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | As seguintes perguntas frequentes foram atualizadas: &quot;Posso usar a calculadora de tamanho de amostra ao usar a Autoalocação para estimar quanto tempo a atividade levará para identificar o vencedor?&quot; |
