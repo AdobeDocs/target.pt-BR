@@ -1,10 +1,10 @@
 ---
-keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, relatório de nível de atividade, relatório de nível de oferta, relatório de detalhe de oferta
+keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Relatórios especializados estão disponíveis para usuários de Personalização automatizada.
 title: Relatórios de resumo de Automated Personalization
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -15,17 +15,13 @@ Relatórios especializados estão disponíveis para usuários de Personalizaçã
 
 >[!NOTE]
 >
->A Personalização automatizada está disponível como parte da solução do [!DNL Target Premium]. Ela não está incluída no [!DNL Target Standard] como uma licença do [!DNL Target Premium].
+>A Personalização automatizada está disponível como parte da solução do [!DNL Target Premium]. Ela não está incluída no [!DNL Target Standard] como uma licença do [Target Premium](/help/c-intro/intro.md#premium).
 
-1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada de [!UICONTROL Personalização automatizada] da lista, em seguida, clique na guia **Relatórios[!UICONTROL .]**
+1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada de[!UICONTROL Personalização automatizada]da lista, em seguida, clique na guia**[!UICONTROL  Relatórios.]**
 
    Se você tiver muitas atividades, pode filtrar a lista ao selecionar [!UICONTROL Personalização automatizada] na lista suspensa [!UICONTROL Tipo].
 
 1. (Opcional) Clique no ícone de [!UICONTROL Baixar] para baixar a exibição resumida (por exemplo, comparação de tráfego de Controle e Direcionado) conforme detalhado por todas as métricas de sucesso disponíveis.
-
->[!NOTE]
->
->O ícone [!UICONTROL Configurações] não está disponível para os relatórios de [!UICONTROL Personalização automatizada].
 
 [!UICONTROL Personalização automatizada] fornece os relatórios a seguir:
 
@@ -39,7 +35,7 @@ As regras padrão da interpretação de resultados do teste A/B ainda são aplic
 
 ## Relatório de nível de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-O relatório [!UICONTROL Nível da oferta] para a experiência Random Forest compara o desempenho de cada algoritmo aplicado à oferta à mesma oferta veiculada aleatoriamente (Controle). Portanto, as ofertas não devem ser comparadas entre si nessa exibição. No exemplo abaixo, pode ser declarado que a Oferta D exibe um incentivo de 12,43% quando veiculada de acordo com a lógica do algoritmo (Random Forest) em oposição ao modo aleatório (Controle).
+O relatório [!UICONTROL Nível da oferta] para a experiência Random Forest compara o desempenho de cada algoritmo aplicado à oferta à mesma oferta veiculada aleatoriamente (Controle). Portanto, as ofertas não devem ser comparadas entre si nessa exibição.
 
 Clique no algoritmo de experiência (Random Forest ou controle) para visualizar o relatório de Nível de oferta.
 
@@ -50,4 +46,3 @@ As ofertas podem ser mostradas em grupos de relatórios, e esses grupos de relat
 >[!NOTE]
 >
 >O ícone de relógio indica que o modelo de algoritmo ainda está sendo criado. O ícone de marca de verificação indica que o algoritmo de base foi estabelecido.
-
