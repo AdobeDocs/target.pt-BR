@@ -1,10 +1,10 @@
 ---
-keywords: design personalizado, velocity, decimal, vírgula, personalizar design
+keywords: custom design;velocity;decimal;comma;customize design
 description: Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
 title: Personalizar um design usando a Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -71,87 +71,117 @@ Por exemplo, se você deseja um design que exibe algo semelhante a isto:
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Se desejar adicionar informações após o valor da variável, faça isso usando a notação formal. Por exemplo: `${entity1.thumbnailUrl}.gif`.
+>Se você quiser adicionar texto após o valor de uma variável antes de uma tag que indique que o nome da variável foi concluído, é possível fazer isso usando a notação formal para incluir o nome da variável. Por exemplo: `${entity1.thumbnailUrl}.gif`.
 
-Também é possível usar `algorithm.name` e `algorithm.dayCount` como variáveis nos designs, assim, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido de forma dinâmica no design. Isso mostra ao visitante que ele ou ela está olhando para os "mais vendidos" ou "pessoas que viram isso compraram aquilo." Você ainda pode usar essas variáveis para exibir o `dayCount` (número de dias dos dados usados nos critérios, como "mais vendidos nos últimos dois dias" etc.
+Também é possível usar `algorithm.name` e `algorithm.dayCount` como variáveis nos designs, assim, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido de forma dinâmica no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar essas variáveis para exibir o `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
 
-## Cenário: exibir item principal com produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Trabalhar com números em modelos Velocity
+
+Por padrão, os modelos Velocity tratam todos os atributos da entidade como valores de string. Talvez você queira tratar um atributo de entidade como um valor numérico para executar uma operação matemática ou compará-lo a outro valor numérico. Para tratar um atributo de entidade como um valor numérico, siga estas etapas:
+1. Declarar uma variável fictícia e inicializá-la em um valor duplo ou inteiro arbitrário
+2. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para o analisador de modelo do Target Recommendations validar e salvar o modelo)
+3. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste criada na etapa 1 para transformar a string em um valor inteiro ou duplo
+4. Executar a operação matemática ou comparação no novo valor numérico
+
+**Exemplo: Calcular um preço de desconto**
+
+Suponha que você queira reduzir o preço exibido de um item em US$ 0,99 para aplicar um desconto. Você poderia usar a seguinte abordagem para obter esse resultado:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**Exemplo: Escolhendo o número de estrelas a serem exibidas com base na classificação de um item**
+
+Suponha que você deseja exibir um número adequado de estrelas com base na média numérica da classificação do cliente de um item. Você poderia usar a seguinte abordagem para obter esse resultado:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**Exemplo: Calcular o tempo em horas e minutos com base na duração de um item em minutos**
+
+Suponha que você armazene a duração de um filme em minutos, mas queira exibi-la em horas e minutos. Você poderia usar a seguinte abordagem para obter esse resultado:
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## Exibir um item principal com os produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Você pode modificar seu design para mostrar seu item principal ao lado de outros produtos recomendados. Por exemplo, você pode querer mostrar o item atual para referência ao lado das recomendações.
 
@@ -172,11 +202,11 @@ O resultado é um design como o seguinte, em que uma coluna mostra o item chave.
 
 ![](assets/rec_key.png)
 
-Quando você está criando sua atividade do [!DNL Recommendations], se o item chave é obtido do perfil do visitante, como "último item comprado", o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
+Quando você está criando sua atividade do [!DNL Recommendations], se o item chave é obtido do perfil do visitante, como &quot;último item comprado&quot;, o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
 
-## Cenário: substituir o ponto decimal pelo delimitador de vírgula em um preço de vendas {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Execução de substituições em um valor de string {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Você pode modificar o design para substituir o delimitador de ponto decimal usado nos Estados Unidos pelo delimitador de vírgula usado na Europa e em outros países.
+Você pode modificar seu design para substituir valores em uma string. Por exemplo, substituir o delimitador de ponto decimal usado nos Estados Unidos pelo delimitador de vírgula usado na Europa e em outros países.
 
 O código a seguir mostra uma única linha em um exemplo condicional do preço de venda:
 
@@ -200,7 +230,7 @@ O código a seguir é um exemplo condicional completo de um preço de venda:
                                     </span>
 ```
 
-## Cenário: criar um design 4 x 2 padrão do Recommendations com lógica de verificação nula {#default}
+## Personalizar o tamanho do modelo e verificar valores em branco {#default}
 
 Usando um script do Velocity para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML em branco quando não forem retornadas entidades correspondentes suficientes [!DNL Recommendations]. Esse script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e nos quais a [!UICONTROL Renderização parcial do modelo] está ativada.
 
