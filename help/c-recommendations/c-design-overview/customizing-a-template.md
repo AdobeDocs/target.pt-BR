@@ -4,7 +4,7 @@ description: Use a linguagem de design Velocity de código aberto para personali
 title: Personalizar um design usando a Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -123,10 +123,11 @@ Também é possível usar `algorithm.name` e `algorithm.dayCount` como variávei
 ## Trabalhar com números em modelos Velocity
 
 Por padrão, os modelos Velocity tratam todos os atributos da entidade como valores de string. Talvez você queira tratar um atributo de entidade como um valor numérico para executar uma operação matemática ou compará-lo a outro valor numérico. Para tratar um atributo de entidade como um valor numérico, siga estas etapas:
+
 1. Declarar uma variável fictícia e inicializá-la em um valor duplo ou inteiro arbitrário
-2. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para o analisador de modelo do Target Recommendations validar e salvar o modelo)
-3. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste criada na etapa 1 para transformar a string em um valor inteiro ou duplo
-4. Executar a operação matemática ou comparação no novo valor numérico
+1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para que o analisador de modelo do Target Recommendations valide e salve o modelo)
+1. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste criada na etapa 1 para transformar a string em um valor inteiro ou duplo
+1. Executar a operação matemática ou comparação no novo valor numérico
 
 **Exemplo: Calcular um preço de desconto**
 
