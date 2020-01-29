@@ -1,12 +1,12 @@
 ---
-keywords: relatórios, bloqueio de endereços ip, bloqueio de visitante do endereço ip, baixar relatórios, csv
+keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: Os relatórios apresentam informações sobre o desempenho de suas atividades
 title: Relatórios
-subtopic: Teste multivariado
-topic: Padrão
+subtopic: Multivariate Test
+topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 
 ---
 
@@ -33,7 +33,7 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
 
 ## Exibição de um relatório {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
-1. Clique em **[!UICONTROL Atividades]** e depois clique na atividade desejada na lista.
+1. Clique em **[!UICONTROL Atividades]**e depois clique na atividade desejada na lista.
 
    Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Fonte de geração de relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica] e [!UICONTROL Fonte da atividade].
 
@@ -43,7 +43,7 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
 
    ![Filtrar relatórios por tipo](/help/c-reports/assets/report_filters-new.png)
 
-1. Clique na guia **[!UICONTROL Relatórios].**
+1. Clique na guia **[!UICONTROL Relatórios]**.
 
    Cada relatório inclui uma legenda para ajudá-lo a entender o relatório.
 
@@ -52,7 +52,7 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
    A legenda exibe as seguintes informações:
 
    * O status da atividade, incluindo o intervalo de datas quando a atividade for executada.
-   * A experiência vencedora projetada (se disponível).
+   * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available).
    >[!NOTE]
    >
    >Os resultados da experiência são exibidos depois de, ao menos, um participante ter visto a experiência.
@@ -65,6 +65,12 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
    * [!UICONTROL Exportar relatório para CSV]
    * [!UICONTROL Exportar detalhes do pedido para CSV]
 
-1. (Opcional) Clique nos ícones de **[!UICONTROL Exibição em tabela]** e **[!UICONTROL Exibição em gráfico]** para trocar entre os formatos de relatório.
+1. (Opcional) Clique nos ícones de **[!UICONTROL Exibição em tabela]**e**[!UICONTROL  Exibição em gráfico]** para trocar entre os formatos de relatório.
 
-   Para Testes multivariados somente, clique no ícone de **[!UICONTROL Contribuição de localização]** (![Contribuição de localização](assets/icon_location_contribution.png)) para que o relatório mostre a contribuição por localização.
+   Dependendo do tipo de relatório selecionado, outras exibições e relatórios podem estar disponíveis:
+
+   | Tipo de relatório | Exibir |
+   | --- | --- |
+   | Direcionamento automático | Clique nos ícones Segmentos ****automatizados ou Atributos**** importantes.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.</li></ul> |
+   | Personalização automatizada (AP) | Além dos relatórios [Resumo de personalização](/help/c-reports/reports-ap.md)automatizada, você pode clicar nos ícones Segmentos ****automatizados ou Atributos**** importantes.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.</li></ul> |
+   | Teste multivariado (MVT) | Além do relatório [Desempenho da](/help/c-reports/experience-performance-report.md)experiência, você pode clicar no ícone Contribuição [da](/help/c-reports/location-contribution-report.md) localização para alternar o relatório para mostrar a contribuição por localização. |
