@@ -4,7 +4,7 @@ description: Relatórios especializados estão disponíveis para usuários de Pe
 title: Relatórios de resumo de Automated Personalization
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
+source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
 
 ---
 
