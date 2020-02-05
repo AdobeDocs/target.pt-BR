@@ -1,11 +1,11 @@
 ---
-keywords: Notas de versão
+keywords: Release notes
 description: Notas de versão referentes a versões anteriores do Target, incluindo notas de versão para Target Standard/Premium, a plataforma Target e as bibliotecas JavaScript do Target (at.js e mbox.js). As notas de versão são processadas em ordem decrescente por mês e ano da versão.
 title: Notas de versão para versões anteriores
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 
 ---
 
@@ -20,11 +20,70 @@ Notas de versão referentes a versões anteriores do Target, incluindo notas de 
 
 ## Notas de versão - 2019 {#releases-2019}
 
+### Target Java SDK versão 1.1.0 (16 de dezembro de 2019)
+
+* Suporte para configuração de proxy adicionado devido a uma contribuição de código aberto feita por @hisham-hassan.
+
+Para obter mais informações, consulte Notas de [versão - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)Java do Target.
+
+### Target Java SDK versão 1.0.1 (11 de novembro de 2019)
+
+O seguinte problema foi corrigido na versão 1.0.1:
+
+* Envie uma ID de dados adicional em uma solicitação do Target mesmo quando não houver cookie da API do visitante presente.
+
+Para obter mais informações, consulte Notas de [versão - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)Java do Target.
+
+### Plataforma Target (31 de outubro de 2019)
+
+| Recurso  / Aprimoramento | Descrição |
+| --- | --- |
+| Java SDK | O [!DNL Target] Java SDK permite implantar o lado do [!DNL Target] servidor. Esse Java SDK ajuda você a se integrar facilmente [!DNL Target] com outras [!DNL Adobe Experience Cloud] soluções, como [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]e [!DNL Adobe Audience Manager].<br>O Java SDK apresenta práticas recomendadas e remove complexidades ao integrar-se [!DNL Target] por meio de nossa API de entrega, para que suas equipes de engenharia possam se concentrar na lógica comercial. A seguir estão recursos notáveis que estamos introduzindo na versão mais recente:<ul><li>Suporte para busca prévia e notificações que permitem otimizar o desempenho por meio do cache.</li><li>Suporte para otimizar o desempenho quando você tem uma integração híbrida do [!DNL Target] em suas páginas da Web e do lado do servidor. Estamos introduzindo uma configuração chamada `serverState` que é preenchida por experiências recuperadas pelo lado do servidor para que o at.js 2.2 não faça mais uma chamada de servidor adicional para recuperar as experiências. Essa abordagem otimiza o desempenho de carregamento da página.</li><li>Suporte para recuperar atividades criadas pelo VEC por meio do Java SDK, possibilitado pela nova API de entrega.</li><li>Criado de forma aberta para que seus desenvolvedores possam contribuir com o [Target Java SDK](https://github.com/adobe/target-java-sdk).</li></ul>Para obter mais informações, consulte Notas de [versão - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)Java do Target.<br>Saiba mais sobre o Target Java SDK no Adobe Tech Blog - Otimização do lado do [servidor com o novo Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
+
+### Target Standard/Premium 19.10.2 (31 de outubro de 2019)
+
+| Recurso  / Aprimoramento | Descrição |
+| --- | --- |
+| ![Atributos de múltiplos valores do selo](/help/assets/premium.png) Premium | Às vezes, você deseja trabalhar com um campo de vários valores. Considere os exemplos a seguir:<ul><li>Você oferece filmes aos usuários. Um determinado filme tem vários atores.</li><li>Você vende ingressos para concertos. Um determinado usuário tem várias bandas favoritas.</li><li>Você vende roupas. Uma camisa está disponível em vários tamanhos.</li></ul>Para lidar com recomendações nesses cenários, você pode passar dados de vários valores para o Target Recommendations e usar operadores especiais de vários valores.<br>Para obter mais informações, consulte [Trabalhar com atributos](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)de vários valores. |
+
+### Target Standard/Premium 19.10.1 (22 de outubro de 2019)
+
+| Recurso  / Aprimoramento | Descrição |
+| --- | --- |
+| ![Recomendações](/help/assets/premium.png) baseadas<br>no usuário do crachá Premium (24 de outubro de 2019) | Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante. Esses itens são geralmente chamados de &quot;Recomendado para você&quot;.<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada na sessão e se torna mais personalizada à medida que o visitante navega em seu site.<br>Para obter mais informações, consulte &quot;Recomendações baseadas no usuário&quot; em [Critérios/Algoritmos](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
+
+**Navegação na Adobe Experience Cloud**
+
+* Ao efetuar logon no [!DNL Adobe Experience Cloud], você será direcionado para a nova navegação do cabeçalho. É muito semelhante à navegação anterior com a barra preta na parte superior, mas oferece as seguintes melhorias:
+
+   * Comutação mais fácil entre organizações [!DNL Identity Management System] (IMS) ou para uma solução diferente.
+   * Ajuda do usuário aprimorada: Os resultados da pesquisa incluem os resultados da documentação do [!DNL Target] produto, bem como fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudá-lo a obter o máximo proveito [!DNL Target]. Também adicionamos um mecanismo de feedback diretamente no menu [!UICONTROL Ajuda] , facilitando o relatório de problemas ou o compartilhamento de ideias.
+
+   * Melhoria na funcionalidade de feedback do Net Promoter Score (NPS) para que o modal da pesquisa não atrapalhe seu fluxo de trabalho.
+   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na página inicial do Target depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], conforme mostrado abaixo:
+
+      ![Página de aterrissagem](/help/r-release-notes/assets/landing.png)
+
+      Eliminamos esta página de aterrissagem para todos os nossos clientes. Agora, você sempre é direcionado diretamente para a página Lista [!UICONTROL de] atividades clicando no [!DNL Target] ícone na nova barra de navegação do cabeçalho.
+
+      Se você usar [!DNL Recommendations Classic], poderá ir diretamente para a solução ou ir do link curto criado na guia [!UICONTROL Recomendações] , como mostrado abaixo:
+
+      ![Link profundo Recs Classic](/help/r-release-notes/assets/recs-classic.png)
+
+      Se você usar [!DNL Search&Promote], precisará ir diretamente para o URL [do](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). O caminho para alcançar [!DNL Search&Promote] de dentro de [!DNL Adobe Target] foi completamente removido.
+
+   * No momento, as notificações para não [!DNL Target] estão disponíveis no menu suspenso [!UICONTROL Notificações] no cabeçalho.
+   >[!NOTE]
+   >
+   >Esses recursos não serão implementados de uma vez, nem serão lançados para todos os clientes juntos. Estaremos lançando esses recursos ao longo das próximas semanas, a partir da versão [!DNL Target Standard/Premium] 19.10.1 (22 de outubro de 2019).
+   >
+   >Como parte do lançamento da nova barra de navegação, você também notará algumas alterações no URL. Todos os links marcados anteriores continuam a funcionar, mas recomendamos que você marque novos links para uma abertura mais rápida.
+
 ### at.js versões 2.2 e 1.8 (10 de outubro de 2019)
 
 | Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| at.js versão 2.2<br><br>andat.js versão 1.8 | Essas versões do at.js fornecem:<ul><li>Desempenho aprimorado ao usar o Serviço da Experience Cloud ID (ECID) v4.4 e o at.js 2.2 ou o at.js 1.8 em suas páginas da Web.</li><li>Anteriormente, o ECID fazia duas chamadas de bloqueio antes que o at.js pudesse buscar experiências. Isso foi reduzido a uma única chamada, o que melhora significativamente o desempenho.</li></ul> Para aproveitar essas melhorias de desempenho, atualize para at.js 2.2 ou at.js 1.8 junto com a Biblioteca ECID v4.4.<br>at.js 2.2 fornece:<ul><li>**serverState**: Uma configuração disponível em at.js v2.2+ que pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida.<br>Para obter mais informações, consulte "serverState" em [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+| at.js versão 2.2<br><br>andat.js versão 1.8 | Essas versões do at.js fornecem:<ul><li>Desempenho aprimorado ao usar o Serviço da Experience Cloud ID (ECID) v4.4 e o at.js 2.2 ou o at.js 1.8 em suas páginas da Web.</li><li>Anteriormente, o ECID fazia duas chamadas de bloqueio antes que o at.js pudesse buscar experiências. Isso foi reduzido a uma única chamada, o que melhora significativamente o desempenho.</li></ul> Para aproveitar essas melhorias de desempenho, atualize para at.js 2.2 ou at.js 1.8 junto com a Biblioteca ECID v4.4.<br>at.js 2.2 fornece:<ul><li>**serverState**: Uma configuração disponível em at.js v2.2+ que pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida.<br>Para obter mais informações, consulte &quot;serverState&quot; em [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
 
 ### Plataforma Target (9 de outubro de 2019)
 
@@ -107,11 +166,11 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| Visual Experience Composer (VEC) | **Novas opções de menu do VEC**: Ao clicar em um elemento de página no VEC, um menu mostrará as opções disponíveis para esse tipo de elemento.<ul><li>Agora é possível usar a opção [!UICONTROL Estilos &gt; Fundo] para alterar a imagem do fundo e a cor do elemento selecionado. (TGT-15001)</li></ul>Consulte *Estilos* nas [Opções do Visual Experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Melhorias no rastreamento de cliques**: Melhoramos o processo para configurar o rastreamento de cliques no VEC e no VEC de aplicativos de página única (SPA).<ul><li>Ao selecionar elementos a serem usados no rastreamento de cliques, os nomes de todos os elementos disponíveis são exibidos no painel Modificações do lado direito, facilitando a seleção dos elementos desejados.</li><li>A página [!UICONTROL Metas e configurações] do fluxo de trabalho guiado de três partes exibe um número que representa o número de elementos selecionados para o rastreamento de cliques. Você pode passar o mouse sobre esse número para ver os nomes de todos os elementos selecionados. (TGT-33878)</li></ul>Consulte [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md). |
-| Aplicativo de página única no Visual Experience Composer  (SPA VEC) | **Fluxo de trabalho guiado**: Um novo fluxo de trabalho guiado o ajuda a entender como as configurações da regra de entrega de página devem ser configuradas para executar e executar uma atividade com sucesso para seu Aplicativo de página única. (TGT -33718)<br> Consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Clonar modificações**: Agora é possível definir uma modificação usando o SPA VEC e clonar a modificação para uso em outras exibições no aplicativo de página única. (TGT -33882)<br>Consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| Mobile Visual Experience Composer | **Várias versões do aplicativo**: Agora você pode criar atividades para várias versões do seu aplicativo móvel. Isso poupa tempo e esforço quando as versões são semelhantes e você não precisa alterar significativamente a interface do usuário do aplicativo. (TGT -34231)<br>Consulte "Gerenciar várias versões de aplicativo" no [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![Selo Premium](/help/assets/premium.png) Personalização automatizada (AP) e direcionamento automático | **Experiência específica como controle**: É possível selecionar uma experiência para ser usada como controle ao criar uma atividade AP ou de Direcionamento automático. Esse recurso permite rotear todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado com relação ao tráfego de controle para essa experiência única. A opção de controle atual (experiências aleatoriamente enviadas) continuará disponível. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Consulte [Selecionar o controle da atividade de personalização automatizada ou de direcionamento automático](/help/c-activities/t-automated-personalization/experience-as-control.md). Observe que há um [problema conhecido atual](/help/r-release-notes/known-issues-resolved-issues.md) com esse recurso.<br>**Relatórios de insights de personalização**: A nomenclatura compatível com o profissional de marketing ara atributos quando um visitante vê um conteúdo específico em um local específico fornece informações mais relevantes. (TGT -33421 &amp; TGT -34957)<br>Consulte [Coleta de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![Selo Premium](/help/assets/premium.png) Recommendations | Você pode usar a opção Recomendar itens comprados anteriormente ao criar a lógica de Itens visualizados recentemente. (TGT-34030)<br>Para obter mais informações, consulte [Itens visualizados recentemente](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) em "Criar critérios". |
+| Visual Experience Composer (VEC) | **Novas opções de menu do VEC**: Ao clicar em um elemento de página no VEC, um menu mostrará as opções disponíveis para esse tipo de elemento.<ul><li>Agora é possível usar a opção [!UICONTROL Estilos > Fundo] para alterar a imagem do fundo e a cor do elemento selecionado. (TGT-15001)</li></ul>Consulte *Estilos* nas [Opções do Visual Experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Melhorias no rastreamento de cliques **: Melhoramos o processo para configurar o rastreamento de cliques no VEC e no VEC de aplicativos de página única (SPA).<ul><li>Ao selecionar elementos a serem usados no rastreamento de cliques, os nomes de todos os elementos disponíveis são exibidos no painel Modificações do lado direito, facilitando a seleção dos elementos desejados.</li><li>A página [!UICONTROL Metas e configurações] do fluxo de trabalho guiado de três partes exibe um número que representa o número de elementos selecionados para o rastreamento de cliques. Você pode passar o mouse sobre esse número para ver os nomes de todos os elementos selecionados. (TGT-33878)</li></ul>Consulte [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md). |
+| Aplicativo de página única no Visual Experience Composer  (SPA VEC) | **Fluxo de trabalho guiado**: Um novo fluxo de trabalho guiado o ajuda a entender como as configurações da regra de entrega de página devem ser configuradas para executar e executar uma atividade com sucesso para seu Aplicativo de página única. (TGT -33718)<br> Consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Clonar modificações **: Agora é possível definir uma modificação usando o SPA VEC e clonar a modificação para uso em outras exibições no aplicativo de página única. (TGT -33882)<br>Consulte[Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| Mobile Visual Experience Composer | **Várias versões do aplicativo**: Agora você pode criar atividades para várias versões do seu aplicativo móvel. Isso poupa tempo e esforço quando as versões são semelhantes e você não precisa alterar significativamente a interface do usuário do aplicativo. (TGT -34231)<br>Consulte &quot;Gerenciar várias versões de aplicativo&quot; no [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
+| ![Selo Premium](/help/assets/premium.png) Personalização automatizada (AP) e direcionamento automático | **Experiência específica como controle**: É possível selecionar uma experiência para ser usada como controle ao criar uma atividade AP ou de Direcionamento automático. Esse recurso permite rotear todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado com relação ao tráfego de controle para essa experiência única. A opção de controle atual (experiências aleatoriamente enviadas) continuará disponível. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Consulte [Selecionar o controle da atividade de personalização automatizada ou de direcionamento automático](/help/c-activities/t-automated-personalization/experience-as-control.md). Observe que há um [problema conhecido atual](/help/r-release-notes/known-issues-resolved-issues.md) com esse recurso.<br>**Relatórios de insights de personalização **: A nomenclatura compatível com o profissional de marketing ara atributos quando um visitante vê um conteúdo específico em um local específico fornece informações mais relevantes. (TGT -33421 &amp; TGT -34957)<br>Consulte[Coleta de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![Selo Premium](/help/assets/premium.png) Recommendations | Você pode usar a opção Recomendar itens comprados anteriormente ao criar a lógica de Itens visualizados recentemente. (TGT-34030)<br>Para obter mais informações, consulte [Itens visualizados recentemente](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) em &quot;Criar critérios&quot;. |
 | Políticas de cookies do Google Chrome para SameSite | O Google anunciou recentemente que a partir do Chrome 76, com uma versão programada para 30 de julho de 2019, os desenvolvedores devem especificar explicitamente quais cookies podem funcionar entre os sites e quais cookies podem rastrear usuários.<br>Conforme o setor se esforça para criar uma Web mais segura para os consumidores, o Target mantém o absoluto compromisso de fornecer experiências personalizadas, cumprindo e excedendo as expectativas de privacidade dos visitantes.<br>Consulte [Políticas de cookies do Google Chrome para SameSite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
 
 ### at.js versão 2.1.0 (segunda-feira, 3 de junho de 2019)  {#atjs-210}
@@ -135,7 +194,7 @@ Estamos empenhados em anunciar os seguintes excelentes recursos na at.js 2.1.0:
 
 | Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| Aplicativo de página única no Visual Experience Composer  (SPA VEC) | O SPA VEC inclui os seguintes aprimoramentos para agilizar seu trabalho e deixá-lo mais eficiente:<ul><li>Clique em uma ação na SPA para destacar o elemento no site onde esta ação será aplicada. Cada ação do VEC criada em uma Exibição tem quatro ícones correspondentes: Informações, Editar, Mover e Excluir. A nova funcionalidade "Mover" nesta versão permite mover a ação para um Evento de carregamento de página ou qualquer outra Exibição existente no painel Modificações. (TGT-33746)</li><li>É possível executar muitas ações antes que a página seja carregada no VEC ou até mesmo se a página não carregar completamente (por exemplo, o código personalizado não é mais operacional). Ações que não podem ser editadas antes que o site seja carregado estão desabilitadas na interface do Target. (TGT-33851 e TGT-34149)</li></ul>Para obter mais informações, consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| Aplicativo de página única no Visual Experience Composer  (SPA VEC) | O SPA VEC inclui os seguintes aprimoramentos para agilizar seu trabalho e deixá-lo mais eficiente:<ul><li>Clique em uma ação na SPA para destacar o elemento no site onde esta ação será aplicada. Cada ação do VEC criada em uma Exibição tem quatro ícones correspondentes: Informações, Editar, Mover e Excluir. A nova funcionalidade &quot;Mover&quot; nesta versão permite mover a ação para um Evento de carregamento de página ou qualquer outra Exibição existente no painel Modificações. (TGT-33746)</li><li>É possível executar muitas ações antes que a página seja carregada no VEC ou até mesmo se a página não carregar completamente (por exemplo, o código personalizado não é mais operacional). Ações que não podem ser editadas antes que o site seja carregado estão desabilitadas na interface do Target. (TGT-33851 e TGT-34149)</li></ul>Para obter mais informações, consulte [Aplicativo de página única (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
 
 #### Melhorias, correções e alterações
 
@@ -157,14 +216,14 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 
 | Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] | O [!UICONTROL Visual Experience Composer] (VEC) inclui as seguintes melhorias para agilizar o seu trabalho e torná-lo mais eficiente:<ul><li>O recurso de caminho DOM agora está disponível ao configurar o rastreamento de cliques.<br>Para obter mais informações, consulte [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Use o painel Estilos para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.<br>Para acessar o painel Estilos, clique em um elemento de página no VEC e em [!UICONTROL Editar] &gt; [!UICONTROL Estilos].<br>O painel Estilos é exibido no lado direito do VEC. O painel contém uma lista de estilos que permite editar ou adicionar ao elemento selecionado. Um Editor de CSS em tempo real permite exibir alterações e adicionar estilos se você estiver familiarizado com o uso de Folhas de estilo em cascata (CSS) ou se receber um código do desenvolvedor.<br>Para obter mais informações, consulte [Estilos](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) nas *Opções do Visual Experience Composer*.</li><li>O Editor de Rich Text agora suporta elementos HTML 5 aninhados.<br>As especificações de HTML 5 permitem novas combinações de tags para aninhamento. A versão anterior do editor de rich text não suportava o novo aninhamento de tags conforme permitido pela especificação de HTML 5. Como resultado, quaisquer elementos aninhados selecionados no VEC não eram tratados corretamente, o que resultava em alterações de HTML indesejadas. (TGT -33618)<br>Para obter mais informações, consulte [Editar Texto/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) nas *Opções do Visual Experience Composer*.</li> |
+| [!UICONTROL Visual Experience Composer] | O [!UICONTROL Visual Experience Composer] (VEC) inclui as seguintes melhorias para agilizar o seu trabalho e torná-lo mais eficiente:<ul><li>O recurso de caminho DOM agora está disponível ao configurar o rastreamento de cliques.<br>Para obter mais informações, consulte [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Use o painel Estilos para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.<br>Para acessar o painel Estilos, clique em um elemento de página no VEC e em [!UICONTROL Editar] > [!UICONTROL Estilos].<br>O painel Estilos é exibido no lado direito do VEC. O painel contém uma lista de estilos que permite editar ou adicionar ao elemento selecionado. Um Editor de CSS em tempo real permite exibir alterações e adicionar estilos se você estiver familiarizado com o uso de Folhas de estilo em cascata (CSS) ou se receber um código do desenvolvedor.<br>Para obter mais informações, consulte [Estilos](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) nas *Opções do Visual Experience Composer*.</li><li>O Editor de Rich Text agora suporta elementos HTML 5 aninhados.<br>As especificações de HTML 5 permitem novas combinações de tags para aninhamento. A versão anterior do editor de rich text não suportava o novo aninhamento de tags conforme permitido pela especificação de HTML 5. Como resultado, quaisquer elementos aninhados selecionados no VEC não eram tratados corretamente, o que resultava em alterações de HTML indesejadas. (TGT -33618)<br>Para obter mais informações, consulte [Editar Texto/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) nas *Opções do Visual Experience Composer*.</li> |
 
 #### Melhorias, correções e alterações
 
 * Aprimoramos o fluxo de trabalho ao excluir ativos usando o VEC. Os ativos excluídos agora são removidos da [!UICONTROL Biblioteca de ofertas] e do [!DNL Scene7] (se aplicável). Os ativos excluídos não são mais exibidos nos resultados de pesquisa. (TGT-31981)
 * Agora, é possível excluir pastas de ativos mesmo que elas contenham imagens (pastas não vazias). (TGT-33265)
 
-   Anteriormente, não era possível excluir uma pasta que não estava vazia da biblioteca de ofertas de imagem do Target ([!UICONTROL Ofertas] &gt; [!UICONTROL Ofertas de imagem]). Você receberia uma notificação "A pasta não está vazia!" ao tentar excluir a pasta da interface do usuário. Com esse recurso, foi adicionada a capacidade excluir a pasta para remover uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.
+   Anteriormente, não era possível excluir uma pasta que não estava vazia da biblioteca de ofertas de imagem do Target ([!UICONTROL Ofertas] > [!UICONTROL Ofertas de imagem]). Você receberia uma notificação &quot;A pasta não está vazia!&quot; ao tentar excluir a pasta da interface do usuário. Com esse recurso, foi adicionada a capacidade excluir a pasta para remover uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.
 
    * As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas.
    * A renderização das ofertas de imagens no seletor de Ativos de imagem é mais rápida e eficiente.
@@ -221,8 +280,8 @@ Essa é uma versão de manutenção e inclui a seguinte correção:
 
 | Recurso/Aprimoramento | Descrição |
 | --- | --- |
-| at.js versão 2.0.0<br>19 de fevereiro de 2019 | A at.js 2.x já está disponível.<br>A versão mais recente da at.js fornece conjuntos de recursos avançados que possibilitam à sua empresa executar personalização em tecnologias do lado do cliente de próxima geração. Essa nova versão tem como foco a atualização da at.js para ter interações harmoniosas com aplicativos de página única (SPAs).<br>Estes são alguns benefícios do uso da at.js 2.x que não estão disponíveis nas versões anteriores:<ul><li>A capacidade de armazenar todas as ofertas em cache quando a página é carregada para reduzir o número de chamadas de servidor a apenas uma chamada.</li><li>Melhore bastante as experiências dos usuários finais em seu site, uma vez que as ofertas são exibidas imediatamente por meio do cache, sem o atraso imposto pelas chamadas tradicionais do servidor.</li><li>Uma linha de código simples e uma configuração de desenvolvedor única para permitir que seus profissionais de marketing criem e executem atividades A/B e Experience (XT) por meio do Visual Experience Composer (VEC) em seus aplicativos de página única.</li></ul>A at.js 2.x apresenta as seguintes novas funções:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>As seguintes funções foram descontinuadas com a introdução da at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Para obter mais informações, consulte [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) e [funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).<br>**Observação**: se você precisar de suporte do Adobe Opt-in para o [Regulamento Geral sobre a Proteção de Dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), use a at.js 1.7.0. A at.js 2 não oferece suporte ao Opt-in. |
-| at.js versão 1.7.0<br>14 de fevereiro de 2019 | A at.js 1.7.0 está disponível.<br>Essa versão inclui o suporte ao Adobe Opt-In. O Adobe Opt-In é uma maneira de simplificar as integrações das soluções da Adobe com as plataformas de gerenciamento de consentimento.<br>Para obter mais informações sobre o Adobe Opt-in, consulte [Privacidade e Regulamento Geral sobre a Proteção de Dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR).<br>Esta versão também corrige um problema em que o Target pode substituir parâmetros de URL de redirecionamento por parâmetros provenientes do URL de redirecionamento.<br>**Observação**: se você precisar de suporte do Adobe Opt-in para o GDPR, use a at.js 1.7.0. No momento, a at.js 2 não oferece suporte ao Opt-in.<br>Para obter uma lista de todas as versões, consulte [Detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| at.js versão 2.0.0<br>19 de fevereiro de 2019 | A at.js 2.x já está disponível.<br>A versão mais recente da at.js fornece conjuntos de recursos avançados que possibilitam à sua empresa executar personalização em tecnologias do lado do cliente de próxima geração. Essa nova versão tem como foco a atualização da at.js para ter interações harmoniosas com aplicativos de página única (SPAs).<br>Estes são alguns benefícios do uso da at.js 2.x que não estão disponíveis nas versões anteriores:<ul><li>A capacidade de armazenar todas as ofertas em cache quando a página é carregada para reduzir o número de chamadas de servidor a apenas uma chamada.</li><li>Melhore bastante as experiências dos usuários finais em seu site, uma vez que as ofertas são exibidas imediatamente por meio do cache, sem o atraso imposto pelas chamadas tradicionais do servidor.</li><li>Uma linha de código simples e uma configuração de desenvolvedor única para permitir que seus profissionais de marketing criem e executem atividades A/B e Experience (XT) por meio do Visual Experience Composer (VEC) em seus aplicativos de página única.</li></ul>A at.js 2.x apresenta as seguintes novas funções:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>As seguintes funções foram descontinuadas com a introdução da at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Para obter mais informações, consulte [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) e [funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).<br>**Observação **: se você precisar de suporte do Adobe Opt-in para o[Regulamento Geral sobre a Proteção de Dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR), use a at.js 1.7.0. A at.js 2 não oferece suporte ao Opt-in. |
+| at.js versão 1.7.0<br>14 de fevereiro de 2019 | A at.js 1.7.0 está disponível.<br>Essa versão inclui o suporte ao Adobe Opt-In. O Adobe Opt-In é uma maneira de simplificar as integrações das soluções da Adobe com as plataformas de gerenciamento de consentimento.<br>Para obter mais informações sobre o Adobe Opt-in, consulte [Privacidade e Regulamento Geral sobre a Proteção de Dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR).<br>Esta versão também corrige um problema em que o Target pode substituir parâmetros de URL de redirecionamento por parâmetros provenientes do URL de redirecionamento.<br>**Observação **: se você precisar de suporte do Adobe Opt-in para o GDPR, use a at.js 1.7.0. No momento, a at.js 2 não oferece suporte ao Opt-in.<br>Para obter uma lista de todas as versões, consulte[Detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (19 de fevereiro de 2019) {#target-19-2-1}
 
@@ -235,7 +294,7 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 | Aplicativo de página única no Visual Experience Composer | O Visual Experience Composer (VEC) para aplicativos de página única (SPAs) permite aos profissionais de marketing criar testes e personalizar conteúdo nos SPAs de uma maneira faça você mesmo sem dependências contínuas de desenvolvimento. É possível usar o VEC para criar atividades nos frameworks mais populares, como o React e o Angular. (TGT-27916)<br>Para obter mais informações, consulte o [Visual Experience Composer de Aplicativo de página única (SPA)](/help/c-experiences/spa-visual-experience-composer.md) e a [integração de aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).<br>Além do artigo acima, há muitos tópicos relacionados aos SPAs e à at.js que aborda esse recurso e como implementá-la. Para obter mais informações, consulte [Alterações de documentação](/help/r-release-notes/doc-change.md). |
 | Visual Experience Composer | O Visual Experience Composer (VEC) inclui as seguintes melhorias para agilizar o seu trabalho e torná-lo mais eficiente:<ul><li>Agora, você pode usar as opções Inserir antes e Inserir após no VEC ao inserir [fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md). Consulte as [opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>A extensão para navegador do assistente do VEC do [!DNL Adobe Target] para o Google Chrome permite carregar os sites com confiança no VEC para criar e controlar a qualidade das experiências da web com rapidez. Consulte [Extensão de assistente do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
 | ![Selo Premium ](/help/assets/premium.png)<br>Recommendations em atividades de [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] | Agora, você pode incluir recomendações nas atividades de [!UICONTROL Teste A/B] (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) e [!UICONTROL Direcionamento de experiência] (XT). Isso permite capacidades nunca antes vistas, como:<ul><li>Teste e direcione conteúdo de recomendações e não recomendações em uma mesma atividade.</li><li>Experimente com facilidade a colocação de recomendações na página, incluindo a ordem de várias recomendações.</li><li>Impulsione automaticamente o tráfego para a experiência do recommendations com melhor desempenho usando [!UICONTROL Alocação automática].</li><li>Atribua de maneira dinâmica os visitantes a experiências de recomendação personalizadas com base em seus perfis individuais usando o [!UICONTROL Direcionamento automático].</li></ul>Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de experiência] usando o VEC e use a ação [!UICONTROL Inserir antes], [!UICONTROL Inserir depois] ou [!UICONTROL Substituir por] para adicionar recomendações a uma experiência. (RECS-6166)<br>Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
-| ![Selo Premium ](/help/assets/premium.png)<br>Suporte a permissões empresariais nas APIs do Target | As [APIs de administrador do Adobe Target](http://developers.adobetarget.com/api/#admin-apis) aproveitarão os mesmos recursos de Permissões empresariais encontrados na interface do usuário do Target. A partir de **21 de fevereiro do 2019**, os administradores do sistema poderão acessar programaticamente os dados dos relatórios, bem como criar e gerenciar atividades, ofertas e públicos em qualquer espaço de trabalho. Essas ações estavam limitadas ao espaço de trabalho padrão somente. A compatibilidade com as atividades de Personalização automatizada (AP) será adicionada em uma próxima versão.<br>**Observação:** Há um [problema conhecido](/help/r-release-notes/known-issues-resolved-issues.md#api) em relação a essa funcionalidade. |
+| ![Selo Premium ](/help/assets/premium.png)<br>Suporte a permissões empresariais nas APIs do Target | As [APIs de administrador do Adobe Target](http://developers.adobetarget.com/api/#admin-apis) aproveitarão os mesmos recursos de Permissões empresariais encontrados na interface do usuário do Target. A partir de **21 de fevereiro do 2019**, os administradores do sistema poderão acessar programaticamente os dados dos relatórios, bem como criar e gerenciar atividades, ofertas e públicos em qualquer espaço de trabalho. Essas ações estavam limitadas ao espaço de trabalho padrão somente. A compatibilidade com as atividades de Personalização automatizada (AP) será adicionada em uma próxima versão.<br>**Observação:**Há um[problema conhecido](/help/r-release-notes/known-issues-resolved-issues.md#api)em relação a essa funcionalidade. |
 
 **Melhorias, correções e alterações**
 
@@ -245,7 +304,7 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 
 | Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| Direcionamento<br>25 de janeiro de 2019 | Alterações feitas no funcionamento das correspondências de direcionamento para comparações de "iguais" com valores decimais e não decimais retornados por scripts de perfil ou por qualquer outra fonte de entrada, como parâmetros de mbox, parâmetros de perfil, etc.<br>Para obter mais informações, consulte as perguntas frequentes sobre [direcionamentos e público-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
+| Direcionamento<br>25 de janeiro de 2019 | Alterações feitas no funcionamento das correspondências de direcionamento para comparações de &quot;iguais&quot; com valores decimais e não decimais retornados por scripts de perfil ou por qualquer outra fonte de entrada, como parâmetros de mbox, parâmetros de perfil, etc.<br>Para obter mais informações, consulte as perguntas frequentes sobre [direcionamentos e público-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
 | Scripts de perfil<br>17 de janeiro de 2019 | Por motivos de desempenho, recomendamos retornar um valor que não ultrapasse 256 caracteres.<br>Para um valor de retorno de Cadeia de caracteres, se o tamanho do valor de retorno exceder 2048 caracteres, o script será desativado pelo sistema.<br>Para um valor de retorno de matriz, se o tamanho dos valores concatenados da matriz exceder 2048 caracteres, o script será desativado pelo sistema.<br>Para obter mais informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros, etc.) que afetam as atividades e outros elementos no Target, consulte [Limites](../r-troubleshooting-target/target-limits.md). |
 | at.js<br>16 de janeiro de 2019 | A at.js 1.6.4 é uma versão de manutenção e aborda os seguintes problemas:<ul><li>Correção de uma condição de corrida que se manifestava no Microsoft Internet Explorer 11 e que causava a aplicação de ofertas duplicadas. (TNT-31374)</li><li>Correção de um problema que afetava o rastreamento de cliques quando havia uma oferta padrão com um token de clique e ofertas em html. (TNT-31493)</li><li>Estendeu o cookie mboxEdgeCluster com cada solicitação do Target. Isso somente é usado quando mboxEdgeOverride está ativado. (TNT-31485)</li></ul> |
 
@@ -257,8 +316,8 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 
 | Recurso  / Aprimoramento | Descrição |
 | --- | --- |
-| ![Selo Target Premium](/help/assets/premium.png)<br/>Suporte a [!UICONTROL Permissões empresariais] nas [!DNL Target] APIs | As [APIs de administrador do Adobe Target](http://developers.adobetarget.com/api/#admin-apis) aproveitarão os mesmos recursos de Permissões empresariais encontrados na interface do usuário do Target. A partir de **21 de fevereiro do 2019**, os administradores do sistema poderão acessar programaticamente os dados dos relatórios, bem como criar e gerenciar atividades, ofertas e públicos em qualquer espaço de trabalho. Essas ações estavam limitadas ao espaço de trabalho padrão somente. A compatibilidade com as atividades de Personalização automatizada (AP) será adicionada em uma próxima versão. |
-| ![Selo Target Premium](/help/assets/premium.png)<br/>[!UICONTROL Recommendations]: filtre coleções e exclusões por ambiente (grupo de hosts) | Agora, você pode visualizar o conteúdo das coleções e exclusões do [!UICONTROL Recommendations] para um ambiente selecionado (grupo de hosts).<br/>Antes, ao visualizar uma coleção ou exclusão, os itens exibidos eram resultado do grupo de hosts padrão (especificado em [!UICONTROL Recommendations &gt; Configurações &gt; Grupo de hosts padrão]).<br/>Agora, ao criar ou atualizar uma coleção ou exclusão, você pode usar o seletor de [!UICONTROL Ambiente] para escolher o ambiente para o qual visualizar os resultados. O novo filtro de [!UICONTROL Ambiente] poupa tempo e esforço porque você não precisa mais navegar até a página [!UICONTROL Configurações] para selecionar o grupo de hosts padrão apropriado antes de criar ou editar coleções e exclusões.<br/>**Observação:** depois de alterar o ambiente selecionado, você deve clicar em [!UICONTROL Pesquisar] para atualizar os resultados retornados.<br/>O novo filtro de [!UICONTROL Ambiente] está disponível nos seguintes locais na interface do usuário do [!DNL Target]:<ul><li>[!UICONTROL Pesquisa no catálogo] ([!UICONTROL Recommendations &gt; Pesquisa no catálogo])</li><li>Caixa de diálogo [!UICONTROL Criar coleção] ([!UICONTROL Recommendations &gt; Coleções &gt; Criar novo])</li><li>Caixa de diálogo [!UICONTROL Atualizar coleção] ([!UICONTROL Recommendations &gt; Coleções &gt; Editar])</li><li>Caixa de diálogo [!UICONTROL Criar exclusão] ([!UICONTROL Recommendations &gt; Exclusões &gt; Criar novo])</li><li>Caixa de diálogo [!UICONTROL Atualizar exclusão] ([!UICONTROL Recommendations &gt; Exclusões &gt; Editar])</li></ul><br>Para obter mais informações, consulte os seguintes tópicos:<uL><li>[Coleções](/help/c-recommendations/c-products/collections.md)</li><li>[Exclusões](/help/c-recommendations/c-products/exclusions.md)</li><li>[Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Configurações](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations: filtre coleções e exclusões por ambiente (grupo de hosts)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Selo Target Premium](/help/assets/premium.png)<br/>[!UICONTROL Suporte a Permissões empresariais] nas [!DNL Target] APIs | As [APIs de administrador do Adobe Target](http://developers.adobetarget.com/api/#admin-apis) aproveitarão os mesmos recursos de Permissões empresariais encontrados na interface do usuário do Target. A partir de **21 de fevereiro do 2019**, os administradores do sistema poderão acessar programaticamente os dados dos relatórios, bem como criar e gerenciar atividades, ofertas e públicos em qualquer espaço de trabalho. Essas ações estavam limitadas ao espaço de trabalho padrão somente. A compatibilidade com as atividades de Personalização automatizada (AP) será adicionada em uma próxima versão. |
+| ![Selo Target Premium](/help/assets/premium.png)<br/>[!UICONTROL Recommendations]: filtre coleções e exclusões por ambiente (grupo de hosts) | Agora, você pode visualizar o conteúdo das coleções e exclusões do [!UICONTROL Recommendations] para um ambiente selecionado (grupo de hosts).<br/>Antes, ao visualizar uma coleção ou exclusão, os itens exibidos eram resultado do grupo de hosts padrão (especificado em [!UICONTROL Recommendations > Configurações > Grupo de hosts padrão]).<br/>Agora, ao criar ou atualizar uma coleção ou exclusão, você pode usar o seletor de [!UICONTROL Ambiente] para escolher o ambiente para o qual visualizar os resultados. O novo filtro de [!UICONTROL Ambiente] poupa tempo e esforço porque você não precisa mais navegar até a página [!UICONTROL Configurações] para selecionar o grupo de hosts padrão apropriado antes de criar ou editar coleções e exclusões.<br/>**Observação:**depois de alterar o ambiente selecionado, você deve clicar em Pesquisar para atualizar os resultados retornados.<br/>O novo filtro de[!UICONTROL Ambiente]está disponível nos seguintes locais na interface do usuário do[!DNL Target]:<ul><li>[!UICONTROL Pesquisa no catálogo] ([!UICONTROL Recommendations > Pesquisa no catálogo])</li><li>Caixa de diálogo [!UICONTROL Criar coleção] ([!UICONTROL Recommendations > Coleções > Criar novo])</li><li>Caixa de diálogo [!UICONTROL Atualizar coleção] ([!UICONTROL Recommendations > Coleções > Editar])</li><li>Caixa de diálogo [!UICONTROL Criar exclusão] ([!UICONTROL Recommendations > Exclusões > Criar novo])</li><li>Caixa de diálogo [!UICONTROL Atualizar exclusão] ([!UICONTROL Recommendations > Exclusões > Editar])</li></ul><br>Para obter mais informações, consulte os seguintes tópicos:<uL><li>[Coleções](/help/c-recommendations/c-products/collections.md)</li><li>[Exclusões](/help/c-recommendations/c-products/exclusions.md)</li><li>[Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Configurações](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations: filtre coleções e exclusões por ambiente (grupo de hosts)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Melhorias, correções e alterações**
 
@@ -351,7 +410,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
    * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
    Consulte [Sobre públicos](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
-* Correção de um problema que impedia que usuários em determinadas situações pudessem criar uma atividade quando o Adobe Analytics era selecionado como origem de relatório na página [!UICONTROL Configurar]. Os usuários recebiam a mensagem "Selecione um conjunto de relatórios" mesmo que não tivessem a opção de selecionar o conjunto de relatórios. (TGT-31968)
+* Correção de um problema que impedia que usuários em determinadas situações pudessem criar uma atividade quando o Adobe Analytics era selecionado como origem de relatório na página [!UICONTROL Configurar]. Os usuários recebiam a mensagem &quot;Selecione um conjunto de relatórios&quot; mesmo que não tivessem a opção de selecionar o conjunto de relatórios. (TGT-31968)
 
 ### Plataforma (19 de outubro de 2018)
 
@@ -589,7 +648,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e alterações:
 
-* A linha Backup do download CSV do Recommendations agora apresenta um "*" (asterisco entre aspas) em vez de * (apenas um asterisco) no início.
+* A linha Backup do download CSV do Recommendations agora apresenta um &quot;*&quot; (asterisco entre aspas) em vez de * (apenas um asterisco) no início.
 * A linha Mais vendidos / Mais visualizados no download CSV do Recommendations não mais apresenta uma vírgula no início.
 
 ### Alterações na plataforma do Target (19 de junho de 2018)  {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -932,8 +991,8 @@ Esta versão inclui os seguintes recursos e melhorias:
 Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e alterações voltados para o cliente:
 
 * Agora é possível navegar pela página enquanto reorganiza as experiências na Etapa 2 do fluxo de trabalho guiado de três etapas ao criar atividades. (TGT-27652)
-* É possível clicar com o botão direito do mouse em uma atividade na Lista de atividades para abri-la em uma nova guia. Por exemplo, no Firefox, clique com o botão direito na atividade desejada &gt; Abrir link em uma nova aba. (TGT-27409)
-* Melhorias de desempenho feitas na página Designs (Recommendations &gt; Designs). A velocidade para exibir e pesquisar designs foi aprimorada. (TGT-21792)
+* É possível clicar com o botão direito do mouse em uma atividade na Lista de atividades para abri-la em uma nova guia. Por exemplo, no Firefox, clique com o botão direito na atividade desejada > Abrir link em uma nova aba. (TGT-27409)
+* Melhorias de desempenho feitas na página Designs (Recommendations > Designs). A velocidade para exibir e pesquisar designs foi aprimorada. (TGT-21792)
 * A at.js agora é a opção de implementação padrão para baixar. (TGT-24676)
 * A validação de URL agora permite o uso de hifens duplos no URL. Anteriormente, um URL com hifens duplos não podia ser carregado no Visual Experience Composer (VEC). (TGT-28176)
 * Várias correções de localização da interface do usuário para os idiomas suportados.
@@ -1333,14 +1392,14 @@ Essa versão do [!DNL Target] inclui os seguintes aprimoramentos e correções v
    Se um usuário executar uma ação intermitente em uma página do [!DNL Target] e experimentar um tempo limite de sessão, ele será direcionado para fazer logon novamente e, em seguida, será direcionado para a última página trabalhada na interface do usuário do [!DNL Target].
 
 * Correção de um problema que fazia com que as alterações de código personalizadas fossem perdidas se o usuário saísse (altera as experiências, alterna a página, alterna o público-alvo, clica em Avançar etc.) e esquecesse de salvar as alterações. O usuário agora é solicitado a salvar as alterações. (TGT-23766)
-* Quando uma atividade é arquivada, "Atividade arquivada" é exibido em vez de "Atualizando a atividade". (KB-1517)
+* Quando uma atividade é arquivada, &quot;Atividade arquivada&quot; é exibido em vez de &quot;Atualizando a atividade&quot;. (KB-1517)
 * O seletor suspenso nos seguintes locais da interface do usuário do Target foi substituído pela funcionalidade de preenchimento automático para melhorar a velocidade e o desempenho: (TGT-22939)
 
-   * Página da atividade &gt; *atividade* &gt; Etapa 3 &gt; Seletor de conjunto de relatórios
-   * Públicos-alvo &gt; Criar público-alvo &gt; Perfil do visitante
-   * Recommendations&gt; Criação de feed &gt; Quando o tipo de origem &gt; Analytics &gt; Seletor do Conjunto de relatórios
+   * Página da atividade > *atividade* > Etapa 3 > Seletor de conjunto de relatórios
+   * Públicos-alvo > Criar público-alvo > Perfil do visitante
+   * Recommendations> Criação de feed > Quando o tipo de origem > Analytics > Seletor do Conjunto de relatórios
 
-* Mensagens de erro aprimoradas quando um site tem "X-Frame-options" definido como SAMEORIGIN e o site não pode ser carregado no Visual Experience Composer (VEC). A mensagem solicita que o usuário alterne para o Enhanced Experience Composer em Configurar &gt; Preferências. (TGT-17356)
+* Mensagens de erro aprimoradas quando um site tem &quot;X-Frame-options&quot; definido como SAMEORIGIN e o site não pode ser carregado no Visual Experience Composer (VEC). A mensagem solicita que o usuário alterne para o Enhanced Experience Composer em Configurar > Preferências. (TGT-17356)
 * Os relatórios do Target Standard/Premium agora são exibidos no fuso horário da sua conta, em vez do fuso horário do servidor do Target (EST dos EUA). (TGT-24868)
 * Se atividades criadas no [!DNL Target] forem carregadas de fora do [!DNL Target] (por exemplo, através do Adobe I/O), os seguintes atributos de atividade serão importados novamente ao [!DNL Target]:
 
@@ -1491,7 +1550,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Essa versão do [!DNL Target] está focada em correções de back-end e inclui os seguintes aprimoramentos e correções voltados para o cliente (os números de edição entre parênteses são para o uso interno da Adobe):
 
-* Correção de um problema que fazia com que a configuração "Incrementar contagem, liberar usuário e permitir reentrada" nas Configurações avançadas das atividades não funcionasse corretamente. (TNT-26556)
+* Correção de um problema que fazia com que a configuração &quot;Incrementar contagem, liberar usuário e permitir reentrada&quot; nas Configurações avançadas das atividades não funcionasse corretamente. (TNT-26556)
 * Correção de um problema que impedia que os dados de Atributos do cliente fossem removidos do Target depois de serem atualizados com valor NULO na interface do usuário da Experience Cloud. (TNT-26462)
 
 ### Alterações na plataforma do Target (13 de abril de 2017)  {#section_B59C26405EB7482AA80820D6D39B9C44}
@@ -1568,7 +1627,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos e correções:
    * Na biblioteca de [!UICONTROL Ofertas], as ofertas agora são exibidas em uma lista, e não como cartões. Outras alterações secundárias foram feitas em toda a interface do usuário da biblioteca de [!UICONTROL Ofertas].
 
 * Desempenho significativamente melhorado nas listas de [!UICONTROL Atividades] e [!UICONTROL Públicos-alvo]. Além disso, os tempos de carregamento dos resultados da pesquisa são significativamente mais rápidos.
-* "Exibições" agora é "Visitas" no [!UICONTROL Relatório em nível de oferta] para relatórios de [!UICONTROL Personalização automatizada].
+* &quot;Exibições&quot; agora é &quot;Visitas&quot; no [!UICONTROL Relatório em nível de oferta] para relatórios de [!UICONTROL Personalização automatizada].
 * O [!DNL Target] agora oferece suporte à alternação de ambientes (grupos de hosts) para atividades de [!UICONTROL Personalização automatizada].
 * As atividades de [!UICONTROL Personalização automatizada] agora oferecem suporte aos grupos de hosts.
 
@@ -1580,7 +1639,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos e correções:
 
 Essa versão do [!DNL Target] está focada em melhorias de usabilidade e desempenho e inclui os seguintes aprimoramentos e correções (os números de edição entre parênteses são para o uso interno da Adobe):
 
-* Adição de mais itens ao menu Ajuda que podem ser acessados no canto superior direito da interface do usuário do [!DNL Target]. As novas opções incluem: "Blogs" e "Vídeos". A opção "Status da Adobe Experience Cloud" agora é "Status do Adobe Target Standard/Premium". (TGT-22629)
+* Adição de mais itens ao menu Ajuda que podem ser acessados no canto superior direito da interface do usuário do [!DNL Target]. As novas opções incluem: &quot;Blogs&quot; e &quot;Vídeos&quot;. A opção &quot;Status da Adobe Experience Cloud&quot; agora é &quot;Status do Adobe Target Standard/Premium&quot;. (TGT-22629)
 * Ao excluir um público-alvo, o [!DNL Target] exibe uma lista de atividades que fazem referência a esse público-alvo. Os usuários podem clicar em cada atividade na lista para exibir as respectivas páginas de [!UICONTROL Visão geral]. (TGT-17997)
 * `user.activeCampaigns` melhorado para retornar a ID da campanha para todas as campanhas/atividades nas quais o usuário está, mesmo que ele não tenha interagido com a campanha/atividade na sessão atual. (TNT-26237)
 * O botão [!UICONTROL Criar atividade] na página [!UICONTROL Atividades] agora fica ativo antes do carregamento de todos os nomes de atividades na lista. Essa melhoria permite que os usuários criem novas atividades com mais rapidez, especialmente quando a conta tem muitas atividades configuradas. (TGT-21470)
@@ -2063,8 +2122,8 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
-* Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha **[!UICONTROL Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]** como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
+* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
+* Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha**[!UICONTROL  Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]**como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
 
 * A documentação mostra o comportamento esperado para a caixa de seleção URL de redirecionamento. No entanto, devido a um erro, a caixa de seleção não aparece como selecionada por padrão. Este defeito será corrigido em breve.
 
@@ -2073,7 +2132,7 @@ Os seguintes problemas conhecidos foram relatados:
    1. Abra a pop-up Redirecionar para URL.
    1. Altere o URL para um URL fictício e salve.
    1. Altere o URL fictício novamente para o URL de redirecionamento esperado da sua campanha.
-   1. Marque a opção "Incluir parâmetros de consulta atuais" e salve.
+   1. Marque a opção &quot;Incluir parâmetros de consulta atuais&quot; e salve.
    Se você marcar a opção ao criar uma nova oferta de redirecionamento, poderá esperar que seus parâmetros de consulta sejam incluídos no redirecionamento.
 
    Para atividades mais antigas, se esta opção estiver marcada no Experience Composer da sua atividade, significará que seu redirecionamento incluirá os parâmetros de consulta. Se não for marcada, os parâmetros de consulta atuais não serão incluídos no redirecionamento.
@@ -2150,8 +2209,8 @@ Aprimoramento feito para melhorar o processo de provisionamento do A4T.
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
-* Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha **[!UICONTROL Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]** como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
+* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
+* Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha**[!UICONTROL  Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]**como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
 
 ### Nova biblioteca de implementação do Target, at.js 0.8.0 (5 de maio de 2016)  {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2269,7 +2328,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
+* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
 
 ### Adobe Target Standard/Premium 16.3.1 (15 de março de 2016)  {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
@@ -2314,12 +2373,12 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
+* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
    * Use o Firefox ou o Internet Explorer.
-   * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**.
+   * Ative o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Configurar]**>**[!UICONTROL  Preferências]**.
 
 ### Adobe Target Standard/Premium 16.2.1 (18 de fevereiro de 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2336,12 +2395,12 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando "Desativar JavaScript" é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de "Desativar JavaScript" não estar selecionado em outras páginas.
+* Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
    * Use o Firefox ou o Internet Explorer.
-   * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**.
+   * Ative o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Configurar]**>**[!UICONTROL  Preferências]**.
 
 ### Adobe Target Standard/Premium 16.1.1 (28 de janeiro de 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2408,18 +2467,18 @@ Esta versão inclui as seguintes correções:
 * Correção de um problema que encapsulava um modelo de Recommendations não-HTML em um elemento, `<div>` quando usado em um fluxo de trabalho baseado em formulários.
 * Correção de um problema que fazia com que os cálculos de colisão finalizassem a sessão mesmo com um grande número de atividades.
 * Correção de um problema que exibia o relatório de Resumo de um download CSV em vez de exibir o relatório de Métricas de sucesso.
-* Removida a mensagem pop-up "ID exclusiva" que, às vezes, aparecia ao editar elementos.
+* Removida a mensagem pop-up &quot;ID exclusiva&quot; que, às vezes, aparecia ao editar elementos.
 
 **Problemas conhecidos**
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
    * Use o Firefox ou o Internet Explorer.
-   * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**.
+   * Ative o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Configurar]**>**[!UICONTROL  Preferências]**.
 
 ## Versões de 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -2531,7 +2590,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
 ### Adobe Target Standard/Premium 15.9.1 (30 de setembro de 2015)  {#section_A54204291A99476688E8C0BD8255F93C}
 
@@ -2607,7 +2666,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
 ### Adobe Target Standard/Premium 15.8.1 (20 de agosto de 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
@@ -2743,7 +2802,7 @@ Esta versão inclui as seguintes correções:
 
 Os seguintes problemas conhecidos foram relatados:
 
-* Quando a opção "Desativar JavaScript" é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
+* Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
 ### Adobe Target Standard/Premium 15.6.1 (25 de junho de 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
@@ -2950,9 +3009,9 @@ Esta versão inclui as seguintes correções:
 **Problemas conhecidos**
 
 * Os eventos de conversão baseados no Target para testes multivariados no Target Standard/Premium não estão sendo relatados quando o Analytics é usado como a fonte de relatórios do Target. Espera-se que esse problema seja corrigido em breve.
-* A mbox.js versão 56 moveu a seção "extra JavaScript" para ser executada antes da mbox global.
+* A mbox.js versão 56 moveu a seção &quot;extra JavaScript&quot; para ser executada antes da mbox global.
 
-   Todas as definições no v56+ têm nomes espaçados. Se houver funções declaradas em "extra JavaScript", elas deverão ter o prefixo window. Consulte [Log de alterações da mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html).
+   Todas as definições no v56+ têm nomes espaçados. Se houver funções declaradas em &quot;extra JavaScript&quot;, elas deverão ter o prefixo window. Consulte [Log de alterações da mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html).
 
 ### Adobe Target 15.2.1 (19 de fevereiro de 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
@@ -3062,7 +3121,7 @@ Esta versão inclui os seguintes recursos e melhorias:
 
 | Recurso/Aprimoramento | Descrição |
 |---|---|
-| Permite inserção e edição de JavaScript | Adicionada a capacidade de editar e inserir JavaScript personalizado no editor de experiência ao escolher **[!UICONTROL Editar HTML]** no menu de ações. |
+| Permite inserção e edição de JavaScript | Adicionada a capacidade de editar e inserir JavaScript personalizado no editor de experiência ao escolher **[!UICONTROL Editar HTML]**no menu de ações. |
 | Importação de público-alvo automática | Os públicos-alvo são importados automaticamente no plano de fundo quando um usuário abre a lista de públicos e os públicos importados foram criados há mais de 10 minutos. |
 | Ampliado o tamanho das ofertas HTML que podem ser sincronizadas com o [!DNL Target Classic] | Ampliado o antigo limite de 64 KB para 256 KB. |
 
@@ -3085,7 +3144,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 **Correções**
 
 * Corrigido um problema no qual o gráfico de Relatórios não era gerado se o usuário navegasse entre duas ou mais atividades.
-* Corrigido um problema no qual os links selecionados não eram marcados como  selecionado quando os usuários clicavam em **[!UICONTROL Selecionar link]** na página [!UICONTROL Metas e Configurações].
+* Corrigido um problema no qual os links selecionados não eram marcados como  selecionado quando os usuários clicavam em **[!UICONTROL Selecionar link]**na página[!UICONTROL Metas e Configurações].
 
 * Corrigido um erro que evitava que uma nova atividade fosse exibida na [!UICONTROL Activities List] mesmo depois de ter sido ativada na página [!UICONTROL Visão geral].
 
@@ -3336,7 +3395,7 @@ Essa versão inclui os seguintes problemas conhecidos. Esses problemas serão co
 * Um erro de sincronização ocorrerá caso públicos-alvo geográficos sejam criados no Target Standard quando a geolocalização estiver desativada em Target Advanced.
 * Não é possível trocar uma imagem quando esta é referenciada em CSS.
 * O rastreamento de cliques não funciona em elementos que tenham sido reorganizados por meio do Visual Experience Composer. Evite configurar o rastreamento de cliques em elementos reorganizados até que o erro seja corrigido.
-* Os usuários não podem selecionar a ação **[!UICONTROL Remover]** para o conteúdo que é colocado em uma mbox.
+* Os usuários não podem selecionar a ação **[!UICONTROL Remover]**para o conteúdo que é colocado em uma mbox.
 
 ### Adobe Target Standard 1.2 (31 de outubro de 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3354,7 +3413,7 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 
 * Foi corrigido um problema que fazia com que alguns ativos referenciados fossem copiados quando uma atividade era copiada.
 * Foi corrigido um problema que causava a falha de atualização de uma oferta de imagem atualizada no Scene7 e no Target Advanced.
-* Foi corrigido um problema em que a aplicação de um filtro de pesquisa limpa os públicos-alvo selecionados em "Públicos-alvo para relatório".
+* Foi corrigido um problema em que a aplicação de um filtro de pesquisa limpa os públicos-alvo selecionados em &quot;Públicos-alvo para relatório&quot;.
 * Os gráficos aprimorados seguem o padrão de resultados por hora quando um teste está ao vivo há menos de dois dias.
 * Foi corrigido um problema que causava a falha da cópia de uma atividade não sincronizada.
 * Foi adicionada uma funcionalidade de entrada de teclado para menus suspensos de local.
@@ -3368,7 +3427,7 @@ Esta versão inclui o seguinte recurso:
 
 | Recurso | Descrição |
 |---|---|
-| Download da [!DNL mbox.js] do Target Standard | O arquivo [!DNL mbox.js] agora pode ser baixado diretamente de **[!UICONTROL Configuração]** &gt; **[!UICONTROL Implementação]** na interface do Target Standard. Anteriormente, o arquivo precisava ser baixado do Target Advanced ou ser fornecido pelo seu consultor ou representante de conta. |
+| Download da [!DNL mbox.js] do Target Standard | O arquivo da [!DNL mbox.js] agora pode ser baixado diretamente de **[!UICONTROL Configurar]**>**[!UICONTROL  Implementação]** na interface do Target Standard. Anteriormente, o arquivo precisava ser baixado do Target Advanced ou ser fornecido pelo seu consultor ou representante de conta. |
 
 Essa versão inclui as seguintes correções e aprimoramentos:
 
