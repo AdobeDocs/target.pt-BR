@@ -5,7 +5,7 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 Estas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para as versões mais recentes ou que serão lançadas em breve do [!DNL Adobe Target].
 
-
-
-**Última atualização: 28 de janeiro de 2020**
+**Última atualização: 4 de fevereiro de 2020**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
    Para obter informações detalhadas sobre o possível impacto e as etapas que podem ser necessárias para atualizar sua implementação, consulte Alterações [de criptografia de](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS (Transport Layer Security).
 
 
-## Target Standard/Premium 20.1.1 (4 de fevereiro de 2020)
+## Target Standard/Premium 20.2.1 (19 de fevereiro de 2020)
 
-A versão Target Standard/Premium 20.1.1 é uma versão de manutenção e inclui melhorias e aprimoramentos de backend. Além disso, as seguintes correções foram incluídas:
-
-* Corrigido um problema que fazia com que o campo do servidor de rastreamento do Adobe Analytics ficasse em branco na página Metas e configurações para atividades existentes do Adobe for Target (A4T). (TGT-35960)
-* Corrigido um problema na interface do usuário que fazia com que sua seleção na segunda lista suspensa não fosse exibida ao criar um público-alvo para afinidade de categoria. (TGT-36098)
+A versão Target Standard/Premium 20.2.1 está programada para 19 de fevereiro de 2020. Informações sobre recursos específicos, melhorias e correções serão publicadas aqui nos próximos dias.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
