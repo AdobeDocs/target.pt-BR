@@ -1,10 +1,10 @@
 ---
-keywords: Recomendações;critérios do Recommendations;algoritmos do Recomendações;atividade do Recomendações;critérios;direcionamento do Recomendações;recs
+keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: As atividades do Recommendations no Adobe Target exibem automaticamente produtos ou conteúdo que podem interessar aos seus clientes com base em atividades anteriores do usuário ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -36,14 +36,14 @@ Uma recomendação determina como um produto é sugerido a um cliente, dependend
 
 | Ação desejada | Recomendação |
 |--- |--- |
-| Incentive pessoas que compram uma mochila a considerar a compra de tênis de trilha e varas de trekking. | Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério "Pessoas que compraram isso também compraram aquilo". |
-| Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de mídia similar semelhante àqueles que estão assistindo. | Crie uma recomendação que sugira outros vídeos, usando o critério "Pessoas que viram isso viral aquilo". |
-| Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA. | Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério "pessoas que viram isso também compraram". |
+| Incentive pessoas que compram uma mochila a considerar a compra de tênis de trilha e varas de trekking. | Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério &quot;Pessoas que compraram isso também compraram aquilo&quot;. |
+| Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de mídia similar semelhante àqueles que estão assistindo. | Crie uma recomendação que sugira outros vídeos, usando o critério &quot;Pessoas que viram isso viral aquilo&quot;. |
+| Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA. | Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério &quot;pessoas que viram isso também compraram&quot;. |
 </table>
 
 Para mais informações sobre estes e outros critérios do [!DNL Recommendations], consulte [Critérios](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de treinamento: tipos de atividade
+## ![Vídeo de treinamento do emblema](/help/assets/overview.png) Visão geral: Tipos de atividade
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium]. O [!DNL Recommendations] é discutido a partir de 7:20.
 
@@ -51,7 +51,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Webinar de noções básicas do Adobe Target: Introdução ao Recommendations {#intro-to-recs}
 
