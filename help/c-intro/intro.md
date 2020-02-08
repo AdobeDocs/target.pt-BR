@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard;Recomendações;Target Premium;Personalização automatizada;direcionamento automático;direcionamento automático;permissões;o que é o adobe target;
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: Introdução ao Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -38,6 +38,10 @@ As práticas recomendadas do setor são criadas no [!DNL Target Standard] e proj
 
 O [!DNL Target Premium] é uma licença avançada do [!DNL Target] que adiciona recursos premium ao [!DNL Target Standard].
 
+Os tópicos do Target Premium nesta ajuda incluem o selo Premium na parte superior da página:
+
+![Selo premium](/help/assets/premium.png)
+
 O Target Premium inclui os seguintes recursos premium:
 
 ### Personalização automatizada
@@ -60,15 +64,15 @@ Uma recomendação determina como um produto é sugerido a um cliente, dependend
 
 * Incentive pessoas que compram uma mochila a considerar a compra de tênis de trilha e varas de trekking.
 
-   Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério "Pessoas que compraram isso também compraram aquilo".
+   Crie uma recomendação para mostrar itens que são frequentemente comprados juntos, usando o critério &quot;Pessoas que compraram isso também compraram aquilo&quot;.
 
 * Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de vídeos semelhante àqueles que estão assistindo atualmente.
 
-   Crie uma recomendação que sugira outros vídeos, usando o critério "Pessoas que viram isso viral aquilo".
+   Crie uma recomendação que sugira outros vídeos, usando o critério &quot;Pessoas que viram isso viral aquilo&quot;.
 
 * Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA.
 
-   Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério "pessoas que viram isso também compraram".
+   Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério &quot;pessoas que viram isso também compraram&quot;.
 
 ### Recommendations como uma oferta
 
@@ -83,7 +87,7 @@ Essa funcionalidade permite capacidades nunca antes vistas, como:
 
 ### Permissões de usuário empresarial
 
-A funcionalidade de [Permissões de usuário empresarial](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) viabiliza a criação de projetos diferentes (chamados "Perfis de produto" no Adobe Admin Console for Enterprise) para que você atribua permissões diferentes a um único usuário que determina os direitos de acesso dele para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no Adobe Analytics. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado consiste em clientes que poderão restringir a exibição, edição e acesso de aprovação aos usuários com base na região, ambiente (dev/stage/prod), canal ou outro critério personalizado.
+A funcionalidade de [Permissões de usuário empresarial](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) viabiliza a criação de projetos diferentes (chamados &quot;Perfis de produto&quot; no Adobe Admin Console for Enterprise) para que você atribua permissões diferentes a um único usuário que determina os direitos de acesso dele para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no Adobe Analytics. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado consiste em clientes que poderão restringir a exibição, edição e acesso de aprovação aos usuários com base na região, ambiente (dev/stage/prod), canal ou outro critério personalizado.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -97,7 +101,7 @@ Crie seu programa de otimização e personalização no Adobe Target com este ki
 
 [O kit de boas-vindas do Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vídeo de treinamento: tipos de atividade (9:03)
+## ![Vídeo de treinamento do emblema](/help/assets/overview.png) Visão geral: Tipos de atividade (9:03)
 
 O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium] e como o fluxo de Trabalho guiado em três etapas do Target pode ajudar você a alcançar as metas do seu site.
 
@@ -105,4 +109,4 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
