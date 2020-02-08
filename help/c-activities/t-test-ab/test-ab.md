@@ -1,10 +1,10 @@
 ---
-keywords: AB;A/B;AB...n;comparar experiências;direcionamento;comparar conteúdo
+keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.
 title: Teste A/B
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -27,7 +27,7 @@ Ao definir o seu teste, você pode determinar qual a porcentagem de visitantes q
 
 Quando o número de experiências diferentes é maior que cinco e passa por dois ou mais locais, é uma boa ideia considerar um [teste MVT](/help/c-activities/c-multivariate-testing/multivariate-testing.md) antes de realizar seus testes A/B. O teste multivariado mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Estes são os locais que um profissional de marketing deve se concentrar. Por exemplo, o teste MVT pode mostrar que a chamada para a ação é o local mais importante para atender suas metas. Após determinar quais locais e conteúdo são mais úteis para ajudá-lo a atender suas metas, você pode executar um teste A/B para refinar ainda mais os resultados, como testar duas imagens específicas uma contra a outra ou comparando o texto ou as cores de uma chamada para a ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
-## Vídeo de treinamento: tipos de atividade (9:03)
+## ![Vídeo de treinamento do emblema](/help/assets/overview.png) Visão geral: Tipos de atividade (9:03)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
@@ -35,4 +35,4 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
