@@ -1,11 +1,11 @@
 ---
-keywords: solução de problemas do target, solucionar problemas no target
+keywords: troubleshoot target;troubleshooting target
 description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
 title: Solução de problemas do Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -48,7 +48,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 ## Integração do Analytics e do Target (A4T)
 
 * [Solução de problemas na integração do Analytics e do Target ](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* "Office Hours" é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Adobe Analytics como fonte de relatórios da funcionalidade do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
+* &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Adobe Analytics como fonte de relatórios da funcionalidade do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 * Perguntas frequentes sobre o A4T
    * [Minimizar contagens inflacionadas de visitas e visitantes no A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Provisionamento inicial - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -111,7 +111,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 * [Depuração da at.js usando o Adobe Experience Cloud Debugger ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [Limitações da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* "Office Hours" é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+* &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
 ### mbox.js
 
@@ -124,7 +124,6 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Aplicativos para dispositivos móveis
 
-* [Aplicativo para dispositivos móveis no Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 * [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Relatório
@@ -154,4 +153,4 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 * [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Práticas recomendadas e limitações do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* "Office Hours" é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte o [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
+* &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte o [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
