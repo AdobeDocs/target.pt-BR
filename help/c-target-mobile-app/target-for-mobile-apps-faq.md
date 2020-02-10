@@ -1,11 +1,11 @@
 ---
-keywords: aplicativo para dispositivos móveis;perguntas frequentes;faq;aplicativo para dispositivos móveis alvo
+keywords: mobile app;frequently asked questions;faq;target mobile app
 description: Perguntas frequentes sobre o Adobe Target para aplicativos móveis.
 title: Perguntas frequentes sobre o Adobe Target para aplicativos móveis
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -18,18 +18,6 @@ Lista de perguntas frequentes sobre [!DNL Target] aplicativos móveis.
 
 O SDK está disponível na git [da](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)Adobe Marketing Cloud. Se você não usar o [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), será necessário gerenciar seu próprio arquivo de configurações e gerenciá-lo no aplicativo.
 
-## O Visual Experience Composer (VEC) para aplicativos móveis pode ser usado com suporte React-Native para o SDK da plataforma Adobe Experience v5?
-
-Atualmente, o [VEC para aplicativos](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) móveis nativos não é compatível com o aplicativo nativo React. Você deve usar o Criador de experiências baseado em [forma](/help/c-experiences/form-experience-composer.md).
-
-## A integração do Mobile SDK permite a implantação de novas funcionalidades móveis? Posso ativar e desativar o sinalizador de recurso sem novas implantações de código?
-
-Sim, você pode usar nosso SDK móvel para implantar recursos gradualmente.
-
-## Para uma lógica mais complexa, devo desenvolver diretamente no aplicativo em vez de usar o Mobile VEC? Em caso afirmativo, que língua de desenvolvimento devo utilizar?
-
-Atualmente, o VEC suporta casos de uso comuns, como alteração da imagem, texto, cor etc. Para casos de uso mais avançados, como a personalização do layout do aplicativo, você deve inserir a [!DNL Target] solicitação/local (mbox) no código e usar o Criador [de experiências baseado em](/help/c-experiences/form-experience-composer.md) formulário para projetar as experiências e alocar tráfego. Nosso SDK móvel suporta Java, Objetive C e Swift. Depende da preferência e dos recursos de sua equipe para escolher o idioma.
-
 ## Quais SDKs estão disponíveis hoje?
 
 Os SDKs móveis da plataforma Adobe Experience são compatíveis com iOS, Android e React no momento. Para obter mais informações, consulte o guia [SDKs móveis da plataforma](https://aep-sdks.gitbook.io/docs/)Adobe Experience Cloud.
@@ -37,10 +25,6 @@ Os SDKs móveis da plataforma Adobe Experience são compatíveis com iOS, Androi
 ## Qual é a frequência do recurso baseado na localização, em termos de verificação da latitude e longitude?
 
 Consulte a documentação [do](https://placesdocs.com/places-services-by-adobe-documentation/) Adobe Places para obter mais informações.
-
-## Quais classes nativas são compatíveis com "Exibições" móveis? Eles suportam qualquer classe derivada NSObject (ou qualquer objeto Android) ou apenas NSViewController e Activities?
-
-Para obter mais informações, visite a documentação do Android para obter a maneira [manual de declarar exibições](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views).
 
 ## Preciso do at.js para que os SDKs móveis da Adobe Experience Platform funcionem?
 
