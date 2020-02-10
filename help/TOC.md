@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 
 ---
 
@@ -134,11 +134,6 @@ source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
       + [Enviar informações de atividade para o Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Visualização do Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Buscar previamente conteúdo da oferta](c-target-mobile-app/prefetch-offer-content.md)
-      + Aplicativo para dispositivos móveis no Visual Experience Composer {#composer}
-         + [Aplicativo para dispositivos móveis no Visual Experience Composer](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
-         + [Android - Configuração do aplicativo móvel](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
-         + [iOS - Configuração do aplicativo móvel](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
-         + [Configurar um rastreamento de cliques no VEC do Mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Usar Serviço de Localização](/help/c-target-mobile-app/use-location-service.md)
    + Lado do servidor: implementação do Target {#server-side}
