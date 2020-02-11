@@ -1,10 +1,10 @@
 ---
-keywords: design de recomendações, criar design, copiar design
+keywords: recommendations design;create design;copy design
 description: Um design define como as recomendações são exibidas em uma página.
 title: Criar um design
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Um design define como as recomendações são exibidas em uma página.
 
-Você pode criar um design de [!UICONTROL recomendações] usando um design padrão ou criando um design personalizado. A tela **[!UICONTROL Recommendations &gt; Designs]** exibe cartões de design padrão e qualquer design que você tenha criado. Os designs padrão não podem ser editados ou excluídos.
+Você pode criar um design de [!UICONTROL recomendações] usando um design padrão ou criando um design personalizado. A tela **[!UICONTROL Recommendations > Designs]** exibe cartões de design padrão e qualquer design que você tenha criado. Os designs padrão não podem ser editados ou excluídos.
 
-1. Na tela **[!UICONTROL Recommendations &gt; Designs]**, passe com o mouse sobre o cartão do design que você deseja criar.
+1. Na tela **[!UICONTROL Recommendations > Designs]**, passe com o mouse sobre o cartão do design que você deseja criar.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -23,13 +23,13 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
 
    Ou
 
-   Para criar um design personalizado clique em **[!UICONTROL Criar design]** na tela **Recommendations &gt; Designs[!UICONTROL .]**
+   Para criar um design personalizado clique em **[!UICONTROL Criar design]** na tela **[!UICONTROL Recommendations > Designs.]**
 
    ![](assets/createDesign.png)
 
 1. Adicione um **[!UICONTROL Nome de conteúdo]**.
 
-   Quando usar um design padrão, o nome do design e "Cópia" irão aparecer no campo **[!UICONTROL Nome de conteúdo]**. Você pode editar o nome. 1. (Opcional) Clique para selecionar uma imagem para exibir no cartão do design.
+   Quando usar um design padrão, o nome do design e &quot;Cópia&quot; irão aparecer no campo **[!UICONTROL Nome de conteúdo]**. Você pode editar o nome. 1. (Opcional) Clique para selecionar uma imagem para exibir no cartão do design.
 1. Edite o **[!UICONTROL Código]** do design.
 
    Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [](https://velocity.apache.org)https://velocity.apache.org.
@@ -42,11 +42,11 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: criar designs personalizados no Recommendations (3:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 Este vídeo contém as seguintes informações:
 
 * Criar um design personalizado
 * Saiba como fazer referência às variáveis de exibição nos designs
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
