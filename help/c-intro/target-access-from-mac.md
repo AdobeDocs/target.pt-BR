@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud;logon
+keywords: Experience Cloud;sign in
 description: Instruções para acessar o Adobe Target na Adobe Experience Cloud.
 title: Acessar o Target na Adobe Experience Cloud
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -91,7 +91,7 @@ A documentação do [!DNL Target] está disponível nos seguintes idiomas:
 * Chinês Tradicional
 * Coreano
 
-## Vídeo de treinamento: Adobe Target na Experience Cloud (4:59)
+## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre o [!DNL Adobe Target] na [!DNL Experience Cloud].
 
