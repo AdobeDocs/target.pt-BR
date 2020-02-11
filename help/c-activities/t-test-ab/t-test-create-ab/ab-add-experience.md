@@ -1,10 +1,10 @@
 ---
-keywords: Definição de metas; experiência; adicionar experiência; adicionar experiência
+keywords: Targeting;experience;add experience;experience add
 description: O Visual Experience Composer (VEC) no Adobe Target fornece uma interface visual para editar as experiências na sua página.
 title: Adicionar experiência
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -80,21 +80,21 @@ Para obter mais informações, consulte [Redirecionar para URL](/help/c-experien
 
 Você pode copiar uma experiência em um teste A/B para fazer pequenas alterações nele sem precisar recriar a experiência do zero.
 
-Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais &gt; **[!UICONTROL Duplicar]**.
+Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais > **[!UICONTROL Duplicar]**.
 
 ![Opção de experiência duplicada](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Excluir uma experiência
 
-Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais &gt; **[!UICONTROL Duplicar]**.
+Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique nos três elipses verticais > **[!UICONTROL Duplicar]**.
 
 ![Opção Excluir experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vídeo de treinamento: uso do Visual Experience Composer
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 O vídeo abaixo contém informações sobre o uso das opções do Visual Experience Composer. (7:17)
 
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
