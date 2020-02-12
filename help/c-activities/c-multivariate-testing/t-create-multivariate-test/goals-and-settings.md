@@ -1,11 +1,11 @@
 ---
-keywords: configurações de atividade, metas e configurações mvt, metas e configurações multivariadas, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
+keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 title: Metas e Configurações
-topic: Padrão
+topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -38,7 +38,7 @@ A prioridade é usada se várias atividades forem atribuídas para o mesmo local
 
 Se esta opção não estiver ativada na Configurar (padrão), especifique uma prioridade: baixa, média ou alta.
 
-Para ativar as propriedades otimizadas, clique em Configurar e alterne a opção Ativar prioridades otimizadas para a posição "Ativado".
+Para ativar as propriedades otimizadas, clique em Configurar e alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -152,7 +152,7 @@ Digite qualquer informação sobre sua atividade que seja útil para manter ao s
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Configurações de atividade (3:02)
+### Etiqueta do ![tutorial de configurações de atividade (3:02)](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
@@ -162,13 +162,13 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Criação de testes multivariados (9:25)
+### Criando o selo do ![tutorial de testes multivariados (9:25)](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. Metas e configurações são discutidas a partir de 7:00.
 
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
