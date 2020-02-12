@@ -1,11 +1,11 @@
 ---
-keywords: versões do at.js; versões do at.js; aplicativo de página única; spa; entre domínios; entre domínios
+keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Informações detalhadas sobre como atualizar do Adobe Target at.js 1.*x* para o at.js versão 2.0.0
 title: Atualize do Adobe Target at.js versão 1.*x* para o at.js versão 2.*x*
-subtopic: Introdução
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,7 +24,7 @@ Estes são alguns benefícios do uso do at.js 2.*x* que não estão disponíveis
 
 Os diagramas a seguir ajudam a entender o fluxo de trabalho do at.js 2.*x* com Exibições e como isso melhora a integração de SPA. Para obter uma melhor introdução dos conceitos usados no at.js 2.*x*, consulte [Implementação de aplicativos de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Fluxo do Target com o at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Fluxo do Target com o at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Chama | Detalhes |
 | --- | --- |
@@ -225,7 +225,7 @@ at.js 2.*x*  A usa uma nova API, chamada de API de entrega. Para depurar se o at
 
 ### A mbox global do Target não é mais usada
 
-Em at.js 2.Na *x*, “`target-global-mbox`” não estará mais visível nas chamadas de rede. Em vez disso, substituímos a sintaxe "`target-global-mbox`" por "`execute > pageLoad`" na carga JSON enviada aos [!DNL Target] servidores, como observado a seguir:
+Em at.js 2.Na *x*, “`target-global-mbox`” não estará mais visível nas chamadas de rede. Em vez disso, substituímos a sintaxe &quot;`target-global-mbox`&quot; por &quot;`execute > pageLoad`&quot; na carga JSON enviada aos [!DNL Target] servidores, como observado a seguir:
 
 ```
 {
@@ -246,7 +246,7 @@ Basicamente, o conceito global de mbox foi apresentado para [!DNL Target] inform
 
 ### O nome da mbox global no at.js não importa mais?
 
-Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target &gt; Configuração &gt; Implementação &gt; Editar configurações da at.js]. Essa configuração é usada pelos servidores de borda [!DNL Target] para traduzir execute &gt; pageLoad para o nome da mbox global que aparece na interface do [!DNL Target]. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo usando o nome global da mbox. Recomendamos que você também verifique se o mesmo nome global da mbox está configurado na página [!UICONTROL Configuração &gt; Preferências], caso ainda tenha páginas que usam o at.js 1.*x* ou mbox.js, conforme mostrado nas ilustrações a seguir.
+Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target > Configuração > Implementação > Editar configurações da at.js]. Essa configuração é usada pelos servidores de borda [!DNL Target] para traduzir execute > pageLoad para o nome da mbox global que aparece na interface do [!DNL Target]. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo usando o nome global da mbox. Recomendamos que você também verifique se o mesmo nome global da mbox está configurado na página [!UICONTROL Configuração > Preferências], caso ainda tenha páginas que usam o at.js 1.*x* ou mbox.js, conforme mostrado nas ilustrações a seguir.
 
 ![Modificar caixa de diálogo da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -256,15 +256,15 @@ e
 
 ### A configuração de mbox global de criação automática precisa ser ativada para o at.js 2.*x*?
 
-Na maioria dos casos, sim. Essa configuração informa à at.js 2.*x* para disparar uma solicitação nos servidores de borda do [!DNL Target] ao carregar a página. Como a mbox global é traduzida para executar o &gt; pageLoad e se você quiser acionar uma solicitação no carregamento da página, essa configuração deve estar ativada.
+Na maioria dos casos, sim. Essa configuração informa à at.js 2.*x* para disparar uma solicitação nos servidores de borda do [!DNL Target] ao carregar a página. Como a mbox global é traduzida para executar o > pageLoad e se você quiser acionar uma solicitação no carregamento da página, essa configuração deve estar ativada.
 
 ### As atividades existentes do VEC continuarão a funcionar, mesmo que o nome da mbox global do Target não seja especificado no at.js 2.*x*?
 
-Sim, porque executar &gt; carga é tratado no [!DNL Target] backend como `target-global-mbox`.
+Sim, porque executar > carga é tratado no [!DNL Target] backend como `target-global-mbox`.
 
 ### Se minhas atividades baseadas em formulário forem direcionadas para o `target-global-mbox`, essas atividades continuarão funcionando?
 
-Sim, porque executar &gt; carga é tratado nos servidores [!DNL Target] de borda como `target-global-mbox`.
+Sim, porque executar > carga é tratado nos servidores [!DNL Target] de borda como `target-global-mbox`.
 
 ### Configurações compatíveis e não compatíveis no at.js 2.*x*
 
@@ -290,11 +290,11 @@ Se quiser usar o rastreamento entre domínios, instale a biblioteca [ECID v4.3.0
 
 ### Criar automaticamente mbox global é compatível
 
-Essa configuração informa à at.js 2.*x* para disparar uma solicitação nos servidores de borda do [!DNL Target] no carregamento da página. Como a mbox global é traduzida para executar &gt; carga, e isso é interpretado pelos servidores [!DNL Target] de borda, os clientes devem ativar esse recurso se quiserem acionar uma solicitação no carregamento da página.
+Essa configuração informa à at.js 2.*x* para disparar uma solicitação nos servidores de borda do [!DNL Target] no carregamento da página. Como a mbox global é traduzida para executar > carga, e isso é interpretado pelos servidores [!DNL Target] de borda, os clientes devem ativar esse recurso se quiserem acionar uma solicitação no carregamento da página.
 
 ### O nome da mbox global é compatível
 
-Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target &gt; Configuração &gt; Implementação &gt; Editar configurações da at.js]. Essa configuração é usada pelos [!DNL Target] servidores de borda para traduzir executar &gt; carga para o nome da mbox global inserido. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo que direcionem a mbox global.
+Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target > Configuração > Implementação > Editar configurações da at.js]. Essa configuração é usada pelos [!DNL Target] servidores de borda para traduzir executar > carga para o nome da mbox global inserido. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo que direcionem a mbox global.
 
 ### Os eventos personalizados da at.js abaixo são aplicáveis a `triggerView()` ou são somente para `applyOffer()` ou `applyOffers()`?
 
@@ -750,10 +750,10 @@ at.js 2.*x*  Carga JSON:
 
 A versão é enviada como um parâmetro de sequência de consulta por meio do parâmetro da versão.
 
-## Vídeo de treinamento: diagrama de arquitetura do at.js 2.*x*
+## Vídeo de treinamento: at.js 2.*x* diagrama arquitetônico ![emblema de visão geral](/help/assets/overview.png)
 
 at.js 2.*x*  A aprimora o suporte do Adobe Target para SPAs e integra-se com outras soluções da Experience Cloud. Este vídeo explica como tudo se une.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Consulte [Como entender o at.js 2.*O x* funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
