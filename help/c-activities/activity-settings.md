@@ -1,12 +1,12 @@
 ---
-keywords: Objetivo e amp; Configurações; objetivo; prioridade; duração
+keywords: Goal &Settings;objective;priority;duration
 description: Use as Configurações da atividade para gerenciar o objetivo, a prioridade e a duração das atividades.
 title: Configurações de atividade
-subtopic: Teste multivariado
-topic: Padrão
+subtopic: Multivariate Test
+topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -26,7 +26,7 @@ Use as Configurações da atividade para gerenciar o objetivo, a prioridade e a 
 
    Se esta opção não estiver ativada na [!UICONTROL Configurar] (padrão), especifique uma prioridade: baixa, média ou alta.
 
-   Para ativar as propriedades otimizadas, clique em [!UICONTROL Configurar] e alterne a opção [!UICONTROL Ativar prioridades otimizadas] para a posição "Ativado".
+   Para ativar as propriedades otimizadas, clique em [!UICONTROL Configurar] e alterne a opção [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ativado&quot;.
 
    Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -54,7 +54,7 @@ A página [!UICONTROL Meta e configurações] inclui configurações adicionais 
 * [Teste multivariado](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vídeo de treinamento: configurações da atividade
+## Vídeo de treinamento: configurações da atividade Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
@@ -64,4 +64,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=por_br)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
