@@ -1,11 +1,11 @@
 ---
-keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração de produto; perfil de produto; funções; projeto
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informações sobre como criar propriedades e usar a funcionalidade Propriedades e permissões, que permite aos administradores do Target criar espaços de trabalho separados (perfis de produto) no Target e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais com base nesses espaços de trabalho.
 title: Permissões de usuário empresarial
-subtopic: Introdução
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,13 +24,13 @@ As permissões do usuário corporativo são um meio de administração formal de
 
 É possível saber se sua organização tem uma licença Standard ou Premium clicando no link [!UICONTROL Configurar] na parte superior da interface do usuário do [!DNL Target].
 
-* **[!DNL Target Standard]Clientes**: caso veja a guia [!UICONTROL Usuários] ([!UICONTROL Configuração &gt; Usuários]), sua organização tem uma licença de [!DNL Target Standard]. [!DNL Target Standard]Os clientes devem seguir as instruções em [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) para adicionar usuários e atribuir permissões no Adobe Admin Console.
+* **[!DNL Target Standard]Clientes **: caso veja a guia[!UICONTROL Usuários]([!UICONTROL Configuração > Usuários]), sua organização tem uma licença de[!DNL Target Standard].[!DNL Target Standard]Os clientes devem seguir as instruções em[Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md)para adicionar usuários e atribuir permissões no Adobe Admin Console.
 
    [!DNL Target Standard]Os usuários do veem a seguinte mensagem de erro ao clicar na guia [!UICONTROL Propriedades]. Não há nada de errado com o [!DNL Target]. Os usuários do [!DNL Target Standard] não têm acesso à funcionalidade de [!DNL Target Premium]Permissões empresariais[!UICONTROL  do ].
 
    ![Mensagem de erro](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **[!DNL Target Premium]Clientes**: caso veja a guia [!UICONTROL Propriedades] ([!UICONTROL Configuração &gt; Propriedades]), sua organização terá uma licença de [!DNL Target Premium]. Os clientes da [!DNL Target Premium] devem seguir as instruções neste artigo e em [Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clientes **: caso veja a guia[!UICONTROL Propriedades]([!UICONTROL Configuração > Propriedades]), sua organização terá uma licença de[!DNL Target Premium]. Os clientes da[!DNL Target Premium]devem seguir as instruções neste artigo e em[Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Antes de começar a usar permissões corporativas
 
@@ -65,13 +65,13 @@ Os usuários podem ver diferentes exibições do Adobe Target movendo-se pelos e
 
 Os espaços de trabalho podem incluir diferentes públicos-alvo, ofertas de código e atividades.
 
-Todos os públicos-alvo e atividades criados antes da migração para o novo modelo de Permissões empresariais serão agrupados no "Espaço de trabalho padrão", discutido abaixo.
+Todos os públicos-alvo e atividades criados antes da migração para o novo modelo de Permissões empresariais serão agrupados no &quot;Espaço de trabalho padrão&quot;, discutido abaixo.
 
-Todas as atividades criadas por meio do Adobe Experience Manager (AEM), do Adobe Mobile Services e do Adobe Target Classic farão parte do "Espaço de trabalho padrão".
+Todas as atividades criadas por meio do Adobe Experience Manager (AEM), do Adobe Mobile Services e do Adobe Target Classic farão parte do &quot;Espaço de trabalho padrão&quot;.
 
 ### Espaço de trabalho padrão
 
-Todos os espaços de trabalho existentes (perfis de produtos) no Admin Console são mesclados em um único espaço de trabalho chamado "Espaço de trabalho padrão" durante a migração da organização para o novo modelo de Permissões empresariais.
+Todos os espaços de trabalho existentes (perfis de produtos) no Admin Console são mesclados em um único espaço de trabalho chamado &quot;Espaço de trabalho padrão&quot; durante a migração da organização para o novo modelo de Permissões empresariais.
 
 >[!IMPORTANT]
 >
@@ -101,11 +101,11 @@ Quando você cria uma nova atividade, ela é criada no espaço de trabalho selec
 
 As informações a seguir explicam a forma como as permissões eram aplicadas anteriormente no [!DNL Target] e como são aplicadas usando a funcionalidade [!UICONTROL Propriedades] e [!UICONTROL Permissões].
 
-A nova funcionalidade de [!UICONTROL Permissões] permite criar projetos diferentes (chamados de "Perfis de produtos" no [!DNL Adobe Admin Console for Enterprise]) para possibilitar a atribuição de permissões diferentes para um único usuário que impõem direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes poderão restringir o acesso de visualização, edição e aprovação aos usuários com base na região, no ambiente (desenvolvimento/armazenamento temporário/produção), no canal ou em outros critérios personalizados, conforme mostrado abaixo:
+A nova funcionalidade de [!UICONTROL Permissões] permite criar projetos diferentes (chamados de &quot;Perfis de produtos&quot; no [!DNL Adobe Admin Console for Enterprise]) para possibilitar a atribuição de permissões diferentes para um único usuário que impõem direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes poderão restringir o acesso de visualização, edição e aprovação aos usuários com base na região, no ambiente (desenvolvimento/armazenamento temporário/produção), no canal ou em outros critérios personalizados, conforme mostrado abaixo:
 
 ![](assets/permissions.png)
 
-Por exemplo, um usuário específico pode ter acesso de "aprovação" nos sites das Américas, mas apenas de "visualização" no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
+Por exemplo, um usuário específico pode ter acesso de &quot;aprovação&quot; nos sites das Américas, mas apenas de &quot;visualização&quot; no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
 
 O modelo atual de [!DNL Target] [!UICONTROL Permissões] apresenta três funções de permissão (Observador, Editor e Aprovador), conforme mostrado na seguinte ilustração:
 
@@ -196,7 +196,7 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 * **Criação de público-alvo:** ao criar um novo público-alvo, ele é criado no espaço de trabalho selecionado no momento.
 * **Criação de oferta:** ao criar uma nova oferta, ela é criada no espaço de trabalho selecionado no momento.
-* **Página Propriedades (Configurar &gt; Propriedades):**&#x200B;é possível usar a caixa [!UICONTROL Pesquisa], as opções [!UICONTROL Canal] e [!UICONTROL Perfil do produto] para filtrar a Lista de [!UICONTROL Propriedades].
+* **Página Propriedades (Configurar > Propriedades):**&#x200B;é possível usar a caixa [!UICONTROL Pesquisa], as opções [!UICONTROL Canal] e [!UICONTROL Perfil do produto] para filtrar a Lista de [!UICONTROL Propriedades].
 
    ![](assets/properties_list.png)
 
@@ -236,7 +236,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no Target 
    * Atividades, públicos, ofertas de código, ofertas de imagem, ou qualquer outro recurso criado usando as seguintes soluções ou métodos não podem ser controlados pelo modelo de Permissões empresariais, mas farão parte do Espaço de trabalho padrão: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e recursos criados por meio da API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
    * Ofertas de imagem (os ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não podem ser controlados pelo modelo de Permissões empresariais no momento.
    * O clickTracking e os redirecionamentos somente funcionarão quando o link ou a página de destino fizerem parte de uma propriedade incluída na atividade. Além disso, o clickTracking pode não funcionar ao usar a função `targetPageParams()`. A função recomendada é `targetPageParamsAll()`.
-   Atualmente, o Target exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Caso o token seja (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a mbox do clicktracking por meio da função `targetPageParamsAll()`, a métrica não será aumentada e exibida como "0".
+   Atualmente, o Target exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Caso o token seja (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a mbox do clicktracking por meio da função `targetPageParamsAll()`, a métrica não será aumentada e exibida como &quot;0&quot;.
 
    O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
 
@@ -250,7 +250,7 @@ As perguntas frequentes sobre as permissões empresariais incluem o seguinte:
 
 ### Posso mover uma atividade de um espaço de trabalho para outro?
 
-Infelizmente, não é possível mover atividades de um espaço de trabalho para outro. No entanto, é possível copiar uma atividade para qualquer espaço de trabalho, sabendo que os dados de relatório não serão transferidos. Para obter mais informações, consulte "Copiando/editando uma atividade ao usar espaços de trabalho" em [Copiando/editando uma atividade ao usar espaços de trabalho](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
+Infelizmente, não é possível mover atividades de um espaço de trabalho para outro. No entanto, é possível copiar uma atividade para qualquer espaço de trabalho, sabendo que os dados de relatório não serão transferidos. Para obter mais informações, consulte &quot;Copiando/editando uma atividade ao usar espaços de trabalho&quot; em [Copiando/editando uma atividade ao usar espaços de trabalho](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 As atividades criadas antes da migração continuam sendo executadas da mesma maneira no Espaço de trabalho padrão, a menos que sejam editadas e atribuídas a propriedades. As atividades em um espaço de trabalho específico seguirão as propriedades atribuídas a ele e, portanto, o comportamento poderá ser diferente de antes da migração.
 
@@ -272,7 +272,7 @@ Quando um visitante abre a Página 1 em um navegador, ele é redirecionado para 
 
 Se a página de redirecionamento e o URL da atividade pertencerem à mesma propriedade, o rastreamento de cliques funcionará como esperado. Para obter mais informações, consulte [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Vídeo de treinamento: vídeo de treinamento de permissões empresariais {#section_2FA080303A064242B63FF16CFA6DB31D}
+## Vídeo de treinamento: Etiqueta de {#section_2FA080303A064242B63FF16CFA6DB31D} ![visão geral do vídeo para treinamento de permissões de empresa](/help/assets/overview.png)
 
 Objetivos de aprendizagem:
 
@@ -280,4 +280,4 @@ Objetivos de aprendizagem:
 * Os conceitos de Propriedades e Espaços de trabalho e como esses limites e agrupamentos funcionam para permitir o controle sobre os níveis de acesso dos usuários
 * Exemplos de diferentes propriedades para sua organização considerar
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
