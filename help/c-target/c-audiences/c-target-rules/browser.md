@@ -1,11 +1,11 @@
 ---
-keywords: opções do navegador, tipo, tipo do navegador, idioma do navegador, idioma, versão, versão do navegador
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Você pode criar públicos no Adobe Target para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
 title: Opções de navegador nos públicos do Adobe Target
-subtopic: Teste multivariado
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,11 +35,11 @@ Há duas formas de direcionar navegadores:
 
 **Regra do público-alvo personalizado do navegador:** um público-alvo personalizado permite direcionar vários navegadores ou configurar regras ou exclusões para navegadores específicos, versões de navegadores ou idiomas de navegadores. Isso proporciona flexibilidade significativa no direcionamento de uma campanha com base em atributos de navegador.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Navegador]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Procurar]**.
 
-   ![Regras &gt; Navegador](assets/target_browser.png)
+   ![Regras > Navegador](assets/target_browser.png)
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
@@ -100,7 +100,7 @@ Os seguintes idiomas de navegador podem ser direcionados ou excluídos:
 
 Direcione ou exclua determinadas versões de um navegador.
 
-Por exemplo, se sua página não aparece corretamente no Internet Explorer 11 ou em versões anteriores, você pode criar um público-alvo que exclua essas versões. Nesse caso, você configurará uma regra na qual o tipo de navegador "é igual" a Internet Explorer e adicionará uma segunda regra na qual a versão "é menor que ou igual a" 11.
+Por exemplo, se sua página não aparece corretamente no Internet Explorer 11 ou em versões anteriores, você pode criar um público-alvo que exclua essas versões. Nesse caso, você configurará uma regra na qual o tipo de navegador &quot;é igual&quot; a Internet Explorer e adicionará uma segunda regra na qual a versão &quot;é menor que ou igual a&quot; 11.
 
 Selecione **[!UICONTROL Versão]** e escolha um operador:
 
@@ -117,11 +117,11 @@ Somente versões principais podem ser inseridas no campo de texto. A versão esp
 
 Várias opções estão conectadas a um OR.
 
-## Vídeo de treinamento: Criação de públicos-alvo
+## Vídeo de treinamento: Criação de públicos-alvo Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
