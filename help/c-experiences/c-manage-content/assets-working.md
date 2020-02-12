@@ -1,10 +1,10 @@
 ---
-keywords: biblioteca de conteúdo; ativos; anotar; copiar; excluir ativo; baixar ativo; editar conteúdo; compartilhar cartão; exibir propriedades do conteúdo
+keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: É possível realizar várias tarefas em um ativo na biblioteca.
 title: Trabalhar com conteúdo na biblioteca
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ Informações sobre as tarefas que você pode executar em um ativo na Biblioteca
 
 1. Para alterar a imagem que representa um item na biblioteca, clique no item e, em seguida, clique no ícone **[!UICONTROL Propriedades]**, clique em **[!UICONTROL Editar]** e adicione uma imagem.
 
-## Vídeo de treinamento: o repositório de conteúdo
+## Vídeo de treinamento: O selo ![Visão geral do repositório de conteúdo](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo. (4:56)
 
@@ -41,4 +41,4 @@ Este vídeo inclui informações sobre o gerenciamento de conteúdo. (4:56)
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
