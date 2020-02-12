@@ -5,7 +5,7 @@ title: Criar públicos-alvo no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -31,14 +31,14 @@ Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públi
 
 ![Lista de públicos](assets/audiences_list.png)
 
-A lista de [!UICONTROL Públicos-alvo] contém todos os públicos-alvo que você pode usar em suas atividades. Use a lista de [!UICONTROL Públicos-alvo] para criar, editar, excluir ou copiar os públicos. A lista também mostra a fonte onde o público-alvo foi criado ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e assim por diante). Públicos predefinidos, como "Novos visitantes" e "Visitantes recorrentes", não podem ser renomeados.
+A lista de [!UICONTROL Públicos-alvo] contém todos os públicos-alvo que você pode usar em suas atividades. Use a lista de [!UICONTROL Públicos-alvo] para criar, editar, excluir ou copiar os públicos. A lista também mostra a fonte onde o público-alvo foi criado ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e assim por diante). Públicos predefinidos, como &quot;Novos visitantes&quot; e &quot;Visitantes recorrentes&quot;, não podem ser renomeados.
 
 Ao trabalhar com públicos-alvo que foram originalmente criados no AAM, o Target o alerta se você fizer referência a um público-alvo em atividades do Target que foram posteriormente excluídas no AAM.
 
 * Se um público-alvo foi excluído no AAM, é exibido um ícone de aviso na lista [!UICONTROL Público-alvo] e no seletor de público. Uma dica de ferramenta na interface do usuário também indica que o público-alvo foi excluído do AAM.
 * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
 
-Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. Ao adicionar um público-alvo, clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Perfil do visitante]** e escolha o parâmetro que deseja usar para direcionar sua atividade. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
+Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
 
 Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo]. Você pode procurar qualquer parte de um nome de público-alvo ou pode colocar uma determinada sequência de caracteres entre aspas.
 
@@ -50,11 +50,11 @@ Você pode classificar a lista de [!UICONTROL Públicos-alvo] por nome de públi
 
 Por exemplo, o seguinte cartão de definição de público-alvo é acessado quando você passa o mouse sobre um público-alvo na lista de públicos-alvo e clica no ícone Exibir:
 
-![Atividades &gt; Definição de público](assets/audience_definition_list.png)
+![Atividades > Definição de público](assets/audience_definition_list.png)
 
 O seguinte cartão de definição de público-alvo é acessado clicando-se no ícone Exibir na página Visão geral de uma atividade:
 
-![Atividades &gt; Definição de público](assets/audience_definition_list.png)
+![Atividades > Definição de público](assets/audience_definition_list.png)
 
 Clique na guia [!UICONTROL Uso do público-alvo] para ver outras atividades que se referem àquele público-alvo, se aplicável. Dessa forma, é possível evitar um impacto acidental em outras atividades ao editar públicos-alvo. As informações incluem atividades ao vivo, atividades inativas, atividades arquivadas e atividades de sincronização. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e  [públicos-alvo somente de atividades](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
@@ -71,7 +71,7 @@ Os detalhes a seguir estão disponíveis para esses tipos de público-alvo impor
 | Tipo de público-alvo | Detalhes |
 |--- |--- |
 | Público-alvo de dispositivos móveis | Nome de comercialização, fornecedor e modelo.<br>O operador `matches | does not match` é exibido em vez do `equals | does not equal`<br>![Público de dispositivos móveis importado](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Público-alvo com comportamento de visitante | **user.categoryAffinity:** `categoryAffinity` com o parâmetro `FAVORITE`.<br>![Afinidade da categoria importada](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Monitoramento:** serviço de monitoramento é igual a verdadeiro.<br>**Sem serviço de monitoramento:** serviço de monitoramento igual a falso.<br>![Monitoramento importado](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Público-alvo com comportamento de visitante | **user.categoryAffinity:** `categoryAffinity` com o parâmetro `FAVORITE`.<br>![Afinidade da categoria importada](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Monitoramento:**serviço de monitoramento é igual a verdadeiro.<br>**Sem serviço de monitoramento:** serviço de monitoramento igual a falso.<br>![Monitoramento importado](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Públicos-alvo que usam o operador NOT | **Regra única**: o Target exibe o público-alvo no formato `[All Visitor AND [NOT [rule]`. A regra única NÃO é exibida com E com o público-alvo de `AllVisitor`.<br>![Público não importado](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Tenha os seguintes pontos em mente ao trabalhar com públicos-alvo importados:
@@ -79,14 +79,14 @@ Tenha os seguintes pontos em mente ao trabalhar com públicos-alvo importados:
 * Os públicos-alvo de direcionamento de expressão não são mais suportados no Target Standard/Premium.
 * O Target Standard/Premium não suporta alguns públicos-alvo obsoletos ou melhorou os operadores para facilidade de uso. Por causa disso, a definição de um público-alvo importado, apesar de funcionar de acordo com a definição, não significa que o mesmo esteja agora disponível para criação na interface Standard/Premium. Por exemplo, os públicos-alvo sociais são visíveis com suas regras, mas o Target Standard/Premium não permite que públicos-alvo sociais sejam criados.
 
-## Vídeo de treinamento: Uso de públicos-alvo
+## Vídeo de treinamento: Uso de públicos-alvo Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre o uso de públicos-alvo.
 
-* Explique o termo "público-alvo"
+* Explique o termo &quot;público-alvo&quot;
 * Explicar as duas maneiras como o público-alvo é usado para otimização
 * Encontre públicos-alvo na lista de públicos-alvo
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
