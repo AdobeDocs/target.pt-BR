@@ -1,12 +1,12 @@
 ---
-keywords: direcionamento, a4t, geografia, geolocalização, precisão de geolocalização, país, estado, cidade, CEP, dma, operadora de celular, códigos de cidade, códigos de região, códigos de país, códigos metropolitanos, scripts de perfil, scripts de perfil de geolocalização, dispositivos móveis de geolocalização
+keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Use os públicos do Adobe Target para direcionar os usuários com base em sua localização geográfica, incluindo país, estado/província, cidade, código postal/CEP, DMA ou operadora de celular.
-title: Geografia
+title: 'Geografia '
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,9 +19,9 @@ Os parâmetros de localização geográfica permitem definir atividades e experi
 
 ## Criar um público-alvo com geolocalização {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Geografia]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Geografia]**.
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
@@ -80,7 +80,7 @@ Por exemplo, use:
 * `profile.geolocation.connectionSpeed`
 * `profile.geolocation.mobileCarrier`
 
-Dessa forma você pode criar uma expressão de definição com o nome de "Da América do Norte" com o código a seguir:
+Dessa forma você pode criar uma expressão de definição com o nome de &quot;Da América do Norte&quot; com o código a seguir:
 
 `return profile.geolocation.country == 'united states' || profile.geolocation.country == 'canada' || profile.geolocation.country == 'mexico';`
 
@@ -117,7 +117,7 @@ A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi
 
 **Como o recurso geográfico trata visitantes da AOL?**
 
-Devido a AOL enviar todo o tráfego por servidores proxy, somente podemos identificá-los no nível do país. Por exemplo, uma campanha direcionada para a França alcançará com sucesso usuários da AOL na França. No entanto, uma campanha direcionada para Paris não será capaz de alcançar usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como "aol." Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos "estados unidos" e a região corresponde à "aol."
+Devido a AOL enviar todo o tráfego por servidores proxy, somente podemos identificá-los no nível do país. Por exemplo, uma campanha direcionada para a França alcançará com sucesso usuários da AOL na França. No entanto, uma campanha direcionada para Paris não será capaz de alcançar usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como &quot;aol.&quot; Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos &quot;estados unidos&quot; e a região corresponde à &quot;aol.&quot;
 
 **Que nível de granularidade de localidade é fornecido pelo geolocalização?**
 
@@ -138,17 +138,17 @@ Será necessário limpar os cookies do navegador antes.
 
 **Como os territórios, por exemplo, Porto Rico e Hong Kong, são mapeados na estrutura de geolocalização?**
 
-Porto Rico, Hong Konge outros territórios são tratados como valores de "País" separados.
+Porto Rico, Hong Konge outros territórios são tratados como valores de &quot;País&quot; separados.
 
 **Captura[!DNL Target](e armazena) informações como CEP quando a atividade é direcionada aos recursos de direcionamento de localização geográfica?**
 
 Não, [!DNL Target] usa dados geográficos somente para a duração da sessão e os dados são descartados.
 
-## Vídeo de treinamento: Criação de públicos-alvo
+## Vídeo de treinamento: Criar o selo do ![tutorial de públicos-alvo](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
