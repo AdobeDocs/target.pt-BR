@@ -1,10 +1,10 @@
 ---
-keywords: intervalo de tempo, data de início, data de término, datas de início/término, intervalo de tempo, agenda do target, divisão de semana, divisão de dia, divisão
+keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
 title: Intervalo de tempo
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), você pode direcionar os usuários com conteúdo específico durante os três dias que antecedem a Black Friday e com outro conteúdo após a Black Friday.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Intervalo de tempo]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Intervalo de tempo]**.
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -31,11 +31,11 @@ Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](../../../c-t
    >
    >O fuso horário é exibido para datas de início/término como GMT +/- NN:NN, onde NN:NN é o deslocamento de GMT e reflete o fuso horário no nível da conta, em vez do fuso horário do visitante. Por exemplo, o fuso horário da Califórnia seria exibido como GMT -08:00.
 
-1. (Condicional) Clique em **[!UICONTROL Divisão de semana e dia]para definir padrões recorrentes, incluindo dias das semanas e horas.**
+1. (Condicional) Clique em **[!UICONTROL Divisão de semana e dia]** para definir padrões recorrentes, incluindo dias das semanas e horas.
 
    ![Divisão de semana e dia](assets/week_and_day_parting.png)
 
-   Você pode usar as opções de Divisão de semana e dia, por exemplo, para exibir uma opção de "Bate-papo agora" para os visitantes, somente durante os dias e horas em que a sua central de atendimento estiver funcionando.
+   Você pode usar as opções de Divisão de semana e dia, por exemplo, para exibir uma opção de &quot;Bate-papo agora&quot; para os visitantes, somente durante os dias e horas em que a sua central de atendimento estiver funcionando.
 
    Selecione um ou mais dias da semana e defina as horas de início e término. Clique em **[!UICONTROL Adicionar mais]** para especificar os padrões adicionais, conforme desejado.
 
@@ -49,11 +49,11 @@ Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](../../../c-t
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criação de públicos-alvo
+## Vídeo de treinamento: Criando o selo ![Visão geral de públicos-alvo](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
