@@ -1,11 +1,11 @@
 ---
-keywords: público-alvo, propensão, atributo de perfil, comparar, comparação, criar público-alvo, criação de público-alvo
+keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
 title: Criar um público-alvo de comparação do atributo de perfil  no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,8 +33,8 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](..
 
 ## Criar um público-alvo de comparação do atributo de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Clique em **[!UICONTROL Públicos-Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]** &gt; **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Perfil do visitante]**.
-1. Na lista suspensa **[!UICONTROL Perfil do visitante], escolha um atributo:**
+1. Clique em **[!UICONTROL Públicos-Públicos-alvo]** > **[!UICONTROL Criar público-alvo]** > **[!UICONTROL Adicionar regra]** > **[!UICONTROL Perfil do visitante]**.
+1. Na lista suspensa **[!UICONTROL Perfil do visitante]**, escolha um atributo:
 
    ![Pontuação de propensão 1](assets/propensity_score_1.png)
 
@@ -44,20 +44,20 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](..
 
 1. Na lista suspensa **[!UICONTROL Escolher o tipo de comparação]**, escolha **[!UICONTROL Atributo]**.
 
-   O tipo de comparação de "valor estático" permite comparar o atributo de perfil do visitante com os valores específicos.
+   O tipo de comparação de &quot;valor estático&quot; permite comparar o atributo de perfil do visitante com os valores específicos.
 
    ![Pontuação de propensão 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
-   >Se você estiver usando uma das categorias de perfil do visitante padrão na Etapa 1 (por exemplo, Novo visitante ou Visitante recorrente), poderá escolher somente a opção de valor estático. As opções de comparação dinâmica não estão disponíveis para as categorias padrão. Outros exemplos em que as opções de comparação dinâmica não estão disponíveis incluem "Primeira página da sessão", "Não em outros testes", "Não é primeira página da sessão" e "Afinidade de categorias".
+   >Se você estiver usando uma das categorias de perfil do visitante padrão na Etapa 1 (por exemplo, Novo visitante ou Visitante recorrente), poderá escolher somente a opção de valor estático. As opções de comparação dinâmica não estão disponíveis para as categorias padrão. Outros exemplos em que as opções de comparação dinâmica não estão disponíveis incluem &quot;Primeira página da sessão&quot;, &quot;Não em outros testes&quot;, &quot;Não é primeira página da sessão&quot; e &quot;Afinidade de categorias&quot;.
 
 1. Escolha o atributo adicional que deseja comparar com o atributo inicial.
 
    ![](assets/propensity_score_4.png)
 
-## Vídeo de Treinamento {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Etiqueta de {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} Visão ![geral do vídeo de treinamento](/help/assets/overview.png)
 
 Assista ao vídeo a seguir para obter mais informações e um cenário no qual seja possível usar esse recurso:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)
