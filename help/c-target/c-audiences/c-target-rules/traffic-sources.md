@@ -1,10 +1,10 @@
 ---
-keywords: Direcionamento, fontes de tráfego, fontes de tráfego do target, mecanismo de pesquisa do target, mecanismo de pesquisa, página de aterrissagem, página de aterrissagem do target, página de aterrissagem de referência
+keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Crie públicos-alvo no Adobe Target para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
 title: Fontes de tráfego de direcionamento no Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,9 +17,9 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 
 É possível combinar múltiplas fontes de tráfego para criar uma regra complexa de direcionamento.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Fontes de tráfego]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Fontes de tráfego]**.
 
    ![](assets/target_traffic_source.png)
 
@@ -39,11 +39,11 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 
 Você pode direcionar usuários que são referenciados para o seu site por meio de um mecanismo de pesquisa ou uma página de aterrissagem específica.
 
-## Vídeo de treinamento: Criação de públicos-alvo
+## Vídeo de treinamento: Criação de públicos-alvo Etiqueta ![Visão geral](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
