@@ -4,7 +4,7 @@ description: Os visores móveis ajudam a visualizar como as atividades aparecem 
 title: Visores móveis para experiências responsivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,8 +73,8 @@ Se o seu site não for responsivo, você ainda poderá usar o Mobile Web Compose
 
 Configure as janelas de visualização móvel que você deseja disponibilizar ao criar suas experiências.
 
-1. Clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Preferências]**.
-1. Na seção de Configuração de janelas de visualização móvel da página Preferências da conta, clique em **[!UICONTROL Adicionar novo]**para adicionar uma janela de visualização móvel.
+1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]**.
+1. Na seção de Configuração de janelas de visualização móvel da página Preferências da conta, clique em **[!UICONTROL Adicionar novo]** para adicionar uma janela de visualização móvel.
 
    Para alterar a configuração de uma janela de visualização móvel existente, selecione a janela e clique no ícone Editar (lápis).
 
@@ -106,8 +106,8 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
 Adicione janelas de visualização móvel às atividades do Target para criar experiências responsivas para telas de dispositivos móveis.
 
 1. Crie uma atividade.
-1. No Visual Experience Composer, clique no ícone de engrenagem **[!UICONTROL Configurações]**e selecione**[!UICONTROL  Adicionar janelas de visualização móvel]**.
-1. Clique no ícone **[!UICONTROL Dispositivos]**e ative cada dispositivo com um visor móvel.
+1. No Visual Experience Composer, clique no ícone de engrenagem **[!UICONTROL Configurações]** e selecione **[!UICONTROL Adicionar janelas de visualização móvel]**.
+1. Clique no ícone **[!UICONTROL Dispositivos]** e ative cada dispositivo com um visor móvel.
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ Adicione janelas de visualização móvel às atividades do Target para criar ex
 
 Este caso de uso mostra como configurar experiências em duas versões de iPhone, o iPhone 6 e o iPhone 6 Plus, usando a função janelas de visualização móvel do Target Standard.
 
-1. No Target Standard, clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Preferências]**.
+1. No Target Standard, clique em **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]**.
 1. Na seção Configuração de janela de visualização móvel da página de Preferências, crie janelas de visualização móvel para iPhone 6 e iPhone 6 Plus.
 
    Use as seguintes configurações para cada janela:
@@ -140,7 +140,7 @@ Este caso de uso mostra como configurar experiências em duas versões de iPhone
 
 1. Crie uma atividade com a experiência que gostaria no Target.
 1. Selecione a experiência que deseja exibir para visitantes que acessarem seu site com um iPhone 6 ou iPhone 6 Plus.
-1. Ao selecionar sua meta, clique em **[!UICONTROL Criar público-alvo]**e configure um público como mostrado na imagem abaixo:
+1. Ao selecionar sua meta, clique em **[!UICONTROL Criar público-alvo]** e configure um público como mostrado na imagem abaixo:
 
    ![](assets/iphoneaudiences.png)
 
@@ -152,7 +152,7 @@ Este caso de uso mostra como configurar experiências em duas versões de iPhone
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Visual Experience Composer (2 de 2) (7:29)
+### Visual Experience Composer (2 de 2) (7:29) Etiqueta ![Visão geral](/help/assets/overview.png)
 
 O vídeo de demonstração a seguir inclui informações sobre o uso do Visual Experience Composer para funcionar com visores móveis:
 
@@ -165,7 +165,7 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Preferências de conta no Adobe Target
+### Preferências de conta no selo de ![visão geral do Adobe Target](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre configurar janelas de visualização móvel nas preferências da conta, a partir de 4:40.
 
