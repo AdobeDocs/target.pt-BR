@@ -4,7 +4,7 @@ description: 'Dois relatórios especializados estão disponíveis para usuários
 title: Relatórios de insights de personalização
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,7 +53,7 @@ O Target fornece muitas maneiras de passar os dados adicionais para o Target, a 
 | Públicos-alvo compartilhados (Adobe Audience Manager ou Adobe Analytics) | Os públicos-alvo criados por meio do Adobe Audience Manager ou do Adobe Analytics e compartilhados com o Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Públicos-alvo/segmentos dos relatórios na atividade | Os públicos-alvo definidos na atividade de AP ou de Direcionamento automático durante a configuração nas &quot;Metas e métricas&quot;. | `Custom - Reporting Segment - [segment name]` |
 
-## Vídeo de treinamento: Uso de relatórios de insights de personalização
+## Vídeo de treinamento: Uso de relatórios de insights de personalização Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
