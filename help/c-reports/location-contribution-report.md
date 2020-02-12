@@ -1,11 +1,11 @@
 ---
-keywords: mvt, teste multivariado, relatório de contribuição da localização
+keywords: mvt;multivariate test;location contribution report
 description: O relatório de Contribuição da localização mostra o desempenho de cada elemento e cada oferta.
 title: Relatório de contribuição de localização (MVT)
-topic: Padrão
+topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,8 +30,8 @@ A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice
 
 ![](assets/locationcontributionbottom.png)
 
-## Vídeo de treinamento: Criar um teste MVT
+## Vídeo de treinamento: Criar um teste MVT Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Contribuição da localização é descrito no começo às 08:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
