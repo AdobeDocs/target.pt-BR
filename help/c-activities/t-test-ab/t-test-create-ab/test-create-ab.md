@@ -1,11 +1,11 @@
 ---
-keywords: Criar A/B; teste A/B; atividade A/B; nova atividade a/b
+keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Use o Visual Experience Composer no Target para criar o teste diretamente em uma página habilitada para o Target e modificar partes da página no Target.
 title: Criar um teste A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Use o Visual Experience Composer no Target para criar o teste diretamente em uma página habilitada para o Target e modificar partes da página no Target.
 
-1. Na lista [!UICONTROL Atividades], clique em **[!UICONTROL Criar atividade]** &gt; **[!UICONTROL Teste A/B]**.
+1. Na lista [!UICONTROL Atividades], clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Teste A/B]**.
 
    ![Lista suspensa Criar atividade](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -99,7 +99,7 @@ Use o Visual Experience Composer no Target para criar o teste diretamente em uma
    * **[!UICONTROL Alocar automaticamente para a melhor experiência]**: a maioria dos participantes da atividade é direcionada automaticamente para as experiências de maior desempenho. Alguns visitantes são alocados em todas experiências, para manter a exploração de experiências e reconhecer alterações em tendências de desempenho. Consulte [Alocação de tráfego automatizada](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
    * **[!UICONTROL Direcionamento automático para experiências personalizadas]**: o Target usa algoritmos avançados de aprendizado de máquina para direcionar os visitantes automaticamente para a melhor experiência, maximizando suas metas. Para obter mais informações, consulte [Direcionamento automático para otimizar](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
-   Você também pode clicar em **[!UICONTROL Adicionar experiência]para adicionar uma outra experiência à atividade.**
+   Você também pode clicar em **[!UICONTROL Adicionar experiência]** para adicionar uma outra experiência à atividade.
 
 1. Quando estiver satisfeito com suas opções de público-alvo e experiência, clique em **[!UICONTROL Próximo]** para ir até a terceira etapa do fluxo de trabalho guiado em três etapas.
 
@@ -111,11 +111,11 @@ Use o Visual Experience Composer no Target para criar o teste diretamente em uma
 
 Após criar a atividade, a guia Visão geral mostra informações sobre a atividade, incluindo um diagrama da atividade.
 
-## Vídeo de treinamento: Criar testes A/B (8:36)
+## Vídeo de treinamento: Criar testes A/B (8:36) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste A/B usando fluxo de trabalho orientado de três etapas do [!DNL Target].
 
 * Criar uma atividade A/B no Adobe Target
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
