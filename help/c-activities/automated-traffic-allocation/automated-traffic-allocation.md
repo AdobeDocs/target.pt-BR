@@ -5,7 +5,7 @@ title: Alocação automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ Não há motivo para remover uma experiência com baixo desempenho. A Alocação
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Fluxo de trabalho da atividade - Direcionamento (2:14)
+### Fluxo de trabalho da atividade - Direcionamento (2:14) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração da alocação de tráfego.
 
@@ -193,7 +193,7 @@ Este vídeo inclui informações sobre a configuração da alocação de tráfeg
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Criação de testes A/B (8:36)
+### Criando o selo de ![tutorial de testes A/B (8:36)](/help/assets/tutorial.png)
 
 Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado de três etapas do Target. Alocação automática de tráfego será discutida a partir de 4:45.
 
