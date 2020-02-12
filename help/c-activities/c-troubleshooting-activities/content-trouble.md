@@ -1,12 +1,12 @@
 ---
-keywords: depurar mbox; solucionar problemas de mbox; problemas de mbox; oscilação; mboxDebug; mboxTrace; token; depurador; prioridade; prioridade de atividade; Depurador da Adobe Experience Cloud; mbox orderConfirmPage; mbox de compra do SiteCatalyst; principal venda; vendedor principal
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Se sua página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo no Adobe Target.
 title: Solução de problemas de entrega de conteúdo no Adobe Target
-subtopic: Teste multivariado
-topic: Padrão
+subtopic: Multivariate Test
+topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ Como mboxTrace e mboxDebug podem expor dados de campanha e dados de perfil a ter
 
 Para recuperar o token de autorização:
 
-1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Implementação]**.
+1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Implementação]**.
 1. Selecione **[!UICONTROL mbox.js]** ou **[!UICONTROL at.js]**.
 1. Clique em **[!UICONTROL Gerar token de autenticação]**.
 
@@ -107,7 +107,7 @@ Para obter informações mais detalhadas, consulte [Depurar o at.js usando o dep
 
 ## Se o target.js não for carregado durante a entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
-O mbox.js envia um cookie chamado "em-disabled" para o visitante quando o target.js não é carregado durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os visitantes com esse cookie não veem o conteúdo do teste nem são contados nesses relatórios de atividades. Todo o conteúdo restante da oferta (por exemplo, das campanhas no Target Classic) continua sendo carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
+O mbox.js envia um cookie chamado &quot;em-disabled&quot; para o visitante quando o target.js não é carregado durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os visitantes com esse cookie não veem o conteúdo do teste nem são contados nesses relatórios de atividades. Todo o conteúdo restante da oferta (por exemplo, das campanhas no Target Classic) continua sendo carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
 
 ## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -157,14 +157,14 @@ A at.js não dispara mboxes Target se estiver usando um tipo de documento invál
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Adicionar a extensão
+### Adicionar a extensão Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Depuração básica do Target
+### Crachá do ![tutorial de depuração do Target básico](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### Crachá do ![tutorial de rastreamento da mbox](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
