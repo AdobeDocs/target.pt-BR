@@ -3,7 +3,7 @@ description: Informações sobre o uso do Visual Experience Composer (VEC) no Ad
 title: Visual Experience Composer (VEC) do Adobe Target
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ O VEC é uma interface de usuário WYSIWYG que permite criar e testar facilmente
 
 O VEC é um dos principais recursos do [!DNL Adobe Target]. O VEC permite aos profissionais de marketing e designers criarem e alterarem o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor.
 
-No Target, na guia **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**, você pode inserir o URL do Visual Experience Composer.
+Na guia **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]** do Target, você pode inserir o URL padrão do Visual Experience Composer.
 
 ![Configurações padrão de URL do VEC](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -28,7 +28,7 @@ Esse URL determina onde você começa quando abre o VEC. Se não inserir um padr
 
 O conteúdo dentro de um iframe na página não pode ser modificado no VEC. Para editar o conteúdo dentro de um iframe, verifique se o documento do iframe está ativado para o Target, em seguida, carregue um URL de iframe no VEC.
 
-Você pode usar os menus suspensos na parte superior da página para ver como sua página aparecerá para públicos-alvo diferentes ou com experiências diferentes. Você pode fornecer um nome para cada experiência na segunda lista suspensa. Por exemplo, se você estiver testando o local do link Início na sua barra de navegação, poderá nomear uma experiência em que esse link aparecerá primeiro como algo como "link Início" para facilitar a identificação das experiências na lista.
+Você pode usar os menus suspensos na parte superior da página para ver como sua página aparecerá para públicos-alvo diferentes ou com experiências diferentes. Você pode fornecer um nome para cada experiência na segunda lista suspensa. Por exemplo, se você estiver testando o local do link Início na sua barra de navegação, poderá nomear uma experiência em que esse link aparecerá primeiro como algo como &quot;link Início&quot; para facilitar a identificação das experiências na lista.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Clique no ícone **[!UICONTROL Sobreposições]** para alterar a maneira como o 
 
 ![Alterar as configurações de sobreposição](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Clique em um elemento destacado para obter um menu de opções disponíveis para esse tipo de elemento. Por exemplo, você pode clicar em uma imagem e selecionar **[!UICONTROL Editar &gt; Texto/HTML]** para alterar o texto ou clicar em um botão e alterar a cor do fundo. Você pode usar os botões na parte esquerda superior da página para ligar e desligar as sobreposições.
+Clique em um elemento destacado para obter um menu de opções disponíveis para esse tipo de elemento. Por exemplo, você pode clicar em uma imagem e selecionar **[!UICONTROL Editar > Texto/HTML]** para alterar o texto ou clicar em um botão e alterar a cor do fundo. Você pode usar os botões na parte esquerda superior da página para ligar e desligar as sobreposições.
 
 Você também pode clicar em **[!UICONTROL Navegar]**, depois navegar para uma página que esteja disponível a partir da página primária, como uma página de remessa ou carrinho de compras, e testar as alterações nessa página. Você também pode acessar elementos de página que estão disponíveis quando passa o mouse, como menus flyout e minicarrinhos. Quando você terminar de navegar na página, clique em **[!UICONTROL Compor]** para editar a experiência. Por exemplo, talvez você queira alterar o design do menu suspenso de um carrinho de compras ou de um carrossel de imagens.
 
@@ -103,20 +103,20 @@ Para continuar o gerenciamento de experiências na atividade atual ou adicionar 
 
 >[!NOTE]
 >
->Há um problema conhecido com este recurso que será corrigido na próxima versão. Para obter mais informações, consulte "Cancelar o carregamento de uma página no VEC" na página [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#cancel).
+>Há um problema conhecido com este recurso que será corrigido na próxima versão. Para obter mais informações, consulte &quot;Cancelar o carregamento de uma página no VEC&quot; na página [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#cancel).
 
 ## Vídeos de treinamento
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Visual Experience Composer (1 de 2) (7:17)
+### Visual Experience Composer (1 de 2) (7:17) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 de 2) (7:29)
+### Visual Experience Composer (2 de 2) (7:29) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 * Renomear e duplicar uma experiência
 * Criar uma experiência de redirecionamento
@@ -125,14 +125,14 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### No expediente: Visual Experience Composer
+### Horas de escritório: Crachá do ![tutorial do Visual Experience Composer](/help/assets/tutorial.png)
 
-Este vídeo é uma gravação de "[No expediente](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)", uma iniciativa da equipe de Atendimento ao cliente da Adobe.
+Este vídeo é uma gravação de &quot;[No expediente](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
 * Como funciona o VEC
 * Como evitar problemas comuns com o VEC
 * Práticas de correção que podem ser usadas com o VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/20784/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/20784/)
