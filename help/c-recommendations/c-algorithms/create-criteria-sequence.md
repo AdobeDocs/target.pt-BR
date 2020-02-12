@@ -1,10 +1,10 @@
 ---
-keywords: sequência de critérios; vários critérios; algoritmos; critérios; critérios de recomendações
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Use sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do Recommendations.
 title: Criar sequências de critérios
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -39,9 +39,9 @@ Uma sequência de critérios de uma página inicial pode seguir esta ordem:
 
 Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de critérios]. Algumas opções de tela variam de acordo com o modo que você chegar na tela.
 
-* Ao criar uma atividade do [!UICONTROL Recommendations], clique em **[!UICONTROL Criar novo]** &gt; **[!UICONTROL Criar sequência de critérios]** na tela [!UICONTROL Selecionar critérios]. Você terá a opção de salvar sua nova sequência de critérios para uso com outras atividades do [!UICONTROL Recommendations].
-* Quando você editar uma atividade de [!UICONTROL Recommendations], clique em uma caixa de [!UICONTROL Localização das Recommendations] na sua página e selecione **[!UICONTROL Alterar critério]**. Na tela [!UICONTROL Selecionar critérios], clique em **[!UICONTROL Criar novo]** &gt; **[!UICONTROL Criar sequência de critérios]**. Você terá a opção de salvar seu novo critério para uso com outras atividades do [!UICONTROL Recommendations].
-* Na tela da biblioteca **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Critérios]**, clique em **[!UICONTROL Criar critérios]** &gt; **[!UICONTROL Criar sequência de critérios]**. Critérios que você criar aqui ficam disponíveis automaticamente para todas atividades do [!UICONTROL Recommendations].
+* Quando você criar uma atividade de [!UICONTROL Recomendações], clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Criar sequência de critérios]** na tela [!UICONTROL Selecionar critério]. Você terá a opção de salvar sua nova sequência de critérios para uso com outras atividades do [!UICONTROL Recommendations].
+* Quando você editar uma atividade de [!UICONTROL Recommendations], clique em uma caixa de [!UICONTROL Localização das Recommendations] na sua página e selecione **[!UICONTROL Alterar critério]**. Na tela [!UICONTROL Selecionar critério], clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Criar sequência de critérios]**. Você terá a opção de salvar seu novo critério para uso com outras atividades do [!UICONTROL Recommendations].
+* Na tela de biblioteca **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios]**, clique em **[!UICONTROL Criar critério]** > **[!UICONTROL Criar sequência de critérios]**. Critérios que você criar aqui ficam disponíveis automaticamente para todas atividades do [!UICONTROL Recommendations].
 
 1. Clique em **[!UICONTROL Criar critérios]** ou **[!UICONTROL Criar novo]**.
 
@@ -53,10 +53,10 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de crité
 
 1. Digite um **[!UICONTROL Nome]** para a sequência.
 
-   Este é o nome "interno" usado para descrever a sequência de critérios. Os visitantes do seu site não verão este nome.
+   Este é o nome &quot;interno&quot; usado para descrever a sequência de critérios. Os visitantes do seu site não verão este nome.
 1. Digite um **[!UICONTROL Título de exibição genérico]** aberto ao público para aparecer na página, se vários critérios na sequência forem usados para preencher o design do [!UICONTROL Recommendations].
 
-   Por exemplo, você pode querer substituir "Clientes que viram isto também viram..." por "Recomendado para você" se o design puder incluir itens baseados em mais de uma chave de [!UICONTROL recomendações].
+   Por exemplo, você pode querer substituir &quot;Clientes que viram isto também viram...&quot; por &quot;Recomendado para você&quot; se o design puder incluir itens baseados em mais de uma chave de [!UICONTROL recomendações].
 1. Digite uma breve **[!UICONTROL Descrição]** da sequência de critérios.
 
    A descrição deve ajudar a identificar a sequência de critérios e pode incluir informações sobre seu propósito.
@@ -86,7 +86,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de crité
 
    Para obter mais informações sobre as opções de lógica de recomendação, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de treinamento: criar critérios no Recommendations (12:33)
+## Vídeo de treinamento: criar critérios no Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png
 
 Este vídeo contém as seguintes informações:
 
@@ -94,4 +94,4 @@ Este vídeo contém as seguintes informações:
 * Criar sequências de critérios
 * Upload dos critérios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
