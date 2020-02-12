@@ -1,12 +1,12 @@
 ---
-keywords: serviço de registro de clientes, crs, crm, mbox3rdpartyid, atributos do cliente, direcionamento
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
 description: Informações sobre como usar os dados de clientes corporativos provenientes de um banco de dados de gerenciamento de relacionamento com o cliente (CRM) para o direcionamento de conteúdo no Adobe Target, usando os Atributos do cliente no serviço principal de Perfis e públicos-alvo da Adobe.
 title: Atributos do cliente no Adobe Target
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ The Audiences core service is part of the [!DNL Adobe Experience Cloud] and prov
 
 Considere as seguintes informações ao trabalhar com os atributos do cliente e o [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
    >[!NOTE]
    >
@@ -33,9 +33,9 @@ Considere as seguintes informações ao trabalhar com os atributos do cliente e 
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Em nosso design atual, existe a possibilidade de que uma pequena porcentagem de dados não seja incorporada.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Para obter mais informações, consulte  [Duração do perfil do visitante](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). O perfil será exibido apenas se `authState` for alterado para NÃO AUTENTICADO (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). O perfil será exibido apenas se `authState` for alterado para NÃO AUTENTICADO (1).
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. Se o comportamento desejado for buscar o perfil autenticado, o `vst.myDataSource.authState` precisa ter o valor de 1 (AUTENTICADO).
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. Se o comportamento desejado for buscar o perfil autenticado, o `vst.myDataSource.authState` precisa ter o valor de 1 (AUTENTICADO).
 
 * Não é possível enviar os seguintes caracteres em `mbox3rdPartyID`: sinal de adição (+) e barra invertida (/).
 
@@ -100,7 +100,7 @@ Você pode usar os atributos do cliente no [!DNL Target] das seguintes maneiras:
 
 ### Criação de públicos-alvo de direcionamento
 
-No [!DNL Target], você pode selecionar um atributo do cliente na seção Perfil do visitante ao criar um público-alvo.  Todos os atributos do cliente têm o prefixo &lt; data_source_name &gt; na lista. Combine esses atributos como necessário a outros atributos de dados para construir públicos-alvo.
+No [!DNL Target], você pode selecionar um atributo do cliente na seção Perfil do visitante ao criar um público-alvo.  Todos os atributos do cliente têm o prefixo &lt; data_source_name > na lista. Combine esses atributos como necessário a outros atributos de dados para construir públicos-alvo.
 
 ![Público-alvo](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -146,8 +146,8 @@ Você pode encontrar os seguintes problemas ao trabalhar com atributos do client
 
 Os problemas nas linhas 1 e 2 acima causam aproximadamente 60% dos problemas nessa área. Os problemas na linha 3 causam aproximadamente 30% dos problemas. O problema na linha 4 causa aproximadamente 5% dos problemas. Os 5% restantes são devido a diversos problemas.
 
-## Vídeo de treinamento: Fazer upload de dados offline usando atributos do cliente {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## Vídeo de treinamento: Fazer upload de dados offline usando atributos do cliente {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
-Este vídeo mostra como importar CRM offline, suporte técnico, ponto de venda e outros dados de marketing para o serviço de Pessoas da Experience Cloud, além de como associá-los a visitantes que usam suas IDs conhecidas.
+Este vídeo mostra como importar CRM offline, help desk, ponto de venda e outros dados de marketing para o serviço de Pessoas da Experience Cloud e associá-los aos visitantes usando suas IDs conhecidas.
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
