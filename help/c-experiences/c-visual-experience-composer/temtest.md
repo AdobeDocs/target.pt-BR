@@ -4,7 +4,7 @@ description: Se você usar um modelo de página para oferecer estrutura para as 
 title: Incluir a mesma experiência em páginas semelhantes
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -72,7 +72,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 >
 > O Target não pode verificar as páginas para se certificar de que elas são exibidas conforme o esperado, por isso é sempre uma prática importante ao usar esse recurso testar as páginas afetadas antes de torná-las públicas.
 
-## Vídeo de treinamento: Visual Experience Composer (2 de 2) (7:29)
+## Vídeo de treinamento: Visual Experience Composer (2 de 2) (7:29) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 * Renomear e duplicar uma experiência
 * Criar uma experiência de redirecionamento
@@ -81,4 +81,4 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
