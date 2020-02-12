@@ -1,11 +1,11 @@
 ---
-keywords: criador de experiências baseado em forma; criador baseado em forma; refinamentos
+keywords: form-based experience composer;form-based composer;refinements
 description: O Experience Composer baseado em formulário oferece a criação de experiências não visuais.
 title: Experience Composer baseado em formulário
-topic: Padrão
+topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -29,7 +29,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 1. Nomeie a atividade.
 1. Selecione um local.
 
-   Quando você clicar na caixa Selecionar local, uma lista de locais disponíveis irá aparecer. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha "target-global-mbox."
+   Quando você clicar na caixa Selecionar local, uma lista de locais disponíveis irá aparecer. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha &quot;target-global-mbox.&quot;
 
    Você também pode inserir um local que não esteja listado. Isto pode ser útil se a mbox ainda não foi criada ou visualizada em uma página. Insira o nome do local. Cuidado ao inserir um local que ainda não existe. Se a grafia ou capitalização não for compatível com a grafia e capitalização quando a chamada da mbox for feita, a atividade não será entregue. Locais inseridos manualmente são salvos na lista.
 1. Clique em **[!UICONTROL Adicionar refinamentos de público-alvo]** e escolha um ou mais [públicos-alvo](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta atividade.
@@ -63,14 +63,14 @@ Se você está criando uma atividade do Recommendations, não há experiências.
    **Criar uma oferta HTML:**
 
    1. Clique em [!UICONTROL Ofertas] e selecione a guia [!UICONTROL Ofertas de código].
-   1. Clique em [!UICONTROL Criar] &gt; [!UICONTROL Oferta HTML].
+   1. Clique em [!UICONTROL Criar] > [!UICONTROL Oferta HTML].
    1. Insira um nome de oferta.
    1. Digite ou cole seu código HTML na caixa Código.
    1. Clique em [!UICONTROL Salvar].
    **Criar oferta JSON:**
 
    1. Clique em [!UICONTROL Ofertas] e selecione a guia [!UICONTROL Ofertas de código].
-   1. Clique em [!UICONTROL Criar] &gt; [!UICONTROL Oferta JSON].
+   1. Clique em [!UICONTROL Criar] > [!UICONTROL Oferta JSON].
    1. Insira um nome de oferta.
    1. Insira ou cole seu código JSON na caixa Código.
    1. Clique em [!UICONTROL Salvar].
@@ -91,7 +91,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 * [Criar uma atividade de direcionamento de experiência](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Criar uma atividade do Recommendations](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de treinamento: criador baseado em forma
+## Vídeo de treinamento: criador baseado em forma Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo oferece uma demonstração do compositor baseado em formulário.
 
@@ -99,4 +99,4 @@ Este vídeo oferece uma demonstração do compositor baseado em formulário.
 * Entenda quando usar o Experience Composer baseado em formulário ou o Visual Experience Composer
 * Use refinamentos para direcionar um local
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
