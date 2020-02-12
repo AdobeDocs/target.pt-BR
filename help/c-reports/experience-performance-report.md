@@ -1,10 +1,10 @@
 ---
-keywords: teste multivariado, mvt, relatório de desempenho da experiência
+keywords: multivariate test;mvt;experience performance report
 description: O relatório de desempenho da experiência mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
 title: Relatório de desempenho da experiência (MVT)
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 O relatório de desempenho da experiência mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
 
-Você pode selecionar uma ou mais experiências para compará-las. Clique na experiência e selecione **[!UICONTROL Visualizar]para abrir a experiência em uma guia do navegador.**
+Você pode selecionar uma ou mais experiências para compará-las. Clique na experiência e selecione **[!UICONTROL Visualizar]** para abrir a experiência em uma guia do navegador.
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ Você pode exibir as cinco melhores, as cinco piores ou todas as experiências. 
 
 Abaixo do gráfico, uma tabela mostra quantos participantes visualizaram cada experiência, bem como outras informações relevantes para a sua métrica de sucesso.
 
-## Vídeo de treinamento: Criar um teste MVT
+## Vídeo de treinamento: Criar um teste MVT Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da experiência é descrito no começo às 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
