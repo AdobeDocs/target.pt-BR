@@ -5,7 +5,7 @@ title: Habilitar conteúdo misto em seu navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ Se você está acessando um site através de uma conexão segura, o Google Chrom
 
 Consulte [Esta página possui conteúdo não seguro](https://support.google.com/chrome/answer/1342714?hl=en) na Ajuda do Chrome.
 
-### Vídeo de treinamento: Ative o VEC no Chrome versão 79.0.3945.117 ou posterior (Jan. 2020)
+### Vídeo de treinamento: Ativar o VEC no crrome versão 79.0.3945.117 ou posterior (Jan. 2020) ![emblema Visão geral](/help/assets/overview.png)
 
 Se você estiver usando o VEC com a versão mais recente do Chrome (versão 79.0.3945.117 ou posterior), é necessário atualizar as configurações do site. Os visitantes do site não precisarão concluir essas etapas.
 
@@ -71,10 +71,10 @@ Por padrão, o Internet Explorer bloqueia páginas que misturem conteúdo seguro
 
 1. No Internet Explorer, clique no ícone de configurações > **[!UICONTROL Opções da Internet]**.
 1. Abra a guia [!UICONTROL Segurança.]
-1. Selecione **[!UICONTROL Internet]**e clique em**[!UICONTROL  Nível personalizado]**.
+1. Selecione **[!UICONTROL Internet]** e clique em **[!UICONTROL Nível personalizado]**.
 1. Selecione **[!UICONTROL Diversos]**.
 1. Em [!UICONTROL Miscelânea]**[!UICONTROL , ative Exibir conteúdo misto]**.
-1. Clique em **[!UICONTROL OK]**>**[!UICONTROL  Sim]** > **[!UICONTROL Aplicar]**.
+1. Clique em **[!UICONTROL OK]** > **[!UICONTROL Sim]** > **[!UICONTROL Aplicar]**.
 
 Recomendamos que você reinicie o computador após alterar essa configuração.
 
