@@ -1,10 +1,10 @@
 ---
-keywords: perfil do visitante, perfil do visitante do target
+keywords: visitor profile;target visitor profile
 description: Crie públicos no Adobe Target para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 title: Perfil do visitante
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Criar público-alvo]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** &gt; **[!UICONTROL Perfil do visitante]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Perfil do visitante]**.
 
    ![](assets/target_visitor_profile.png)
 
@@ -39,11 +39,11 @@ Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criação de públicos-alvo
+## Vídeo de treinamento: Criando o selo ![Visão geral de públicos-alvo](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
