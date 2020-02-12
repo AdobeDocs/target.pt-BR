@@ -1,18 +1,18 @@
 ---
-keywords: implementação de aplicativo de página única;implementar aplicativo de página única;spa;at.js 2.x;at.js;aplicativo de página única;aplicativo de página única;spa;SPAs
+keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informações para usar a at.js 2.x do Adobe Target para implementar Aplicativos de página única (SPAs).
 title: Implementação de aplicativos de página única no Adobe Target
-topic: padrão
+topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
 
 # Implementação do aplicativo de página única{#single-page-application-implementation}
 
-Os sites tradicionais funcionavam em modelos de navegação de "página para página", conhecidos como Aplicativos de várias páginas, em que os designs de site eram totalmente combinados com URLs e as transições de uma página da Web para outra exigiam um carregamento de página. Aplicativos da Web modernos, como Aplicativos de página única (SPAs), em vez disso adotam um modelo que impulsiona o uso rápido da renderização da interface do usuário do navegador, que geralmente é independente dos recarregamentos de página. Essas experiências são frequentemente acionadas por interações do cliente, como rolagens, cliques e movimentos de cursor. À medida que os paradigmas da Web moderna evoluíram, a relevância dos eventos genéricos tradicionais, como o carregamento de página, para implantar a personalização e a experimentação não funciona mais.
+Os sites tradicionais funcionavam em modelos de navegação de &quot;página para página&quot;, conhecidos como Aplicativos de várias páginas, em que os designs de site eram totalmente combinados com URLs e as transições de uma página da Web para outra exigiam um carregamento de página. Aplicativos da Web modernos, como Aplicativos de página única (SPAs), em vez disso adotam um modelo que impulsiona o uso rápido da renderização da interface do usuário do navegador, que geralmente é independente dos recarregamentos de página. Essas experiências são frequentemente acionadas por interações do cliente, como rolagens, cliques e movimentos de cursor. À medida que os paradigmas da Web moderna evoluíram, a relevância dos eventos genéricos tradicionais, como o carregamento de página, para implantar a personalização e a experimentação não funciona mais.
 
 ![Ciclo de vida da página tradicional vs. ciclo de vida de SPA](/help/c-experiences/assets/trad-vs-spa.png)
 
@@ -40,23 +40,23 @@ Quando navegamos para o site inicial, podemos visualizar imediatamente uma image
 
 ![site do produto](/help/c-experiences/assets/product-site.png)
 
-À medida que nos interessamos mais pelos produtos que a empresa está vendendo, decidimos clicar no link Produtos. Assim como o site inicial, a totalidade do site de produtos pode ser definida como uma Exibição. É possível nomear os "produtos" dessa exibição como o nome do caminho em `https://target.enablementadobe.com/react/demo/#/products)`.
+À medida que nos interessamos mais pelos produtos que a empresa está vendendo, decidimos clicar no link Produtos. Assim como o site inicial, a totalidade do site de produtos pode ser definida como uma Exibição. É possível nomear os &quot;produtos&quot; dessa exibição como o nome do caminho em `https://target.enablementadobe.com/react/demo/#/products)`.
 
 ![site do produto 2](/help/c-experiences/assets/product-site-2.png)
 
-No início desta seção, definimos Exibições como o site inteiro ou até mesmo um grupo de elementos visuais no site. Como mostrado acima, os quatro produtos mostrados no site também podem ser agrupados e considerados como uma Exibição. Se quisermos nomear essa Exibição, podemos chamá-la de "Produtos".
+No início desta seção, definimos Exibições como o site inteiro ou até mesmo um grupo de elementos visuais no site. Como mostrado acima, os quatro produtos mostrados no site também podem ser agrupados e considerados como uma Exibição. Se quisermos nomear essa Exibição, podemos chamá-la de &quot;Produtos&quot;.
 
 ![site do produto 3](/help/c-experiences/assets/product-site-3.png)
 
-Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da Exibição pode ser chamado de "PRODUCTS-PAGE-2".
+Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da Exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
 **Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de checkout](/help/c-experiences/assets/checkout.png)
 
-Como curtimos alguns produtos mostrados no site, decidimos comprar alguns deles. Agora, no site de checkout, recebemos algumas opções para escolher a entrega normal ou a expressa. Como uma Exibição pode ser qualquer grupo de elementos visuais em um site, podemos nomeá-la como "Exibir preferências de entrega".
+Como curtimos alguns produtos mostrados no site, decidimos comprar alguns deles. Agora, no site de checkout, recebemos algumas opções para escolher a entrega normal ou a expressa. Como uma Exibição pode ser qualquer grupo de elementos visuais em um site, podemos nomeá-la como &quot;Exibir preferências de entrega&quot;.
 
-Além disso, o conceito de Exibições pode ser estendido muito além disso. Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar "Entrega normal". Se a opção Express Delivery estiver selecionada, a Exibição pode se chamar "Entrega expressa".
+Além disso, o conceito de Exibições pode ser estendido muito além disso. Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar &quot;Entrega normal&quot;. Se a opção Express Delivery estiver selecionada, a Exibição pode se chamar &quot;Entrega expressa&quot;.
 
 Agora, os profissionais de marketing podem executar um teste A/B para ver se a alteração da cor de azul para vermelho, quando a opção Entrega expressa é selecionada, pode aumentar as conversões, em vez de manter a cor do botão azul para ambas as opções de entrega.
 
@@ -68,7 +68,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores da at.js e mbox.js não são compatíveis com as Exibições do Adobe Target e o VEC para SPAs.
 
-   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Configuração &gt; Implementação]. A at.js 2.x também pode ser implantada por meio do Adobe Launch. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
+   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Configuração > Implementação]. A at.js 2.x também pode ser implantada por meio do Adobe Launch. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
 
 1. Implemente a função mais recente da at.js 2.x, `triggerView()`, em seus sites.
 
@@ -78,9 +78,9 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    | Parâmetro | Tipo | Obrigatório? | Validação | Descrição |
    | --- | --- | --- | --- | --- |
-   | viewName | String | Sim | 1. Sem espaços à direita.<br>2. Não pode estar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com '`/`'. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, "home" e "`/home`" são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome Exibição é mostrado no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
+   | viewName | String | Sim | 1. Sem espaços à direita.<br>2. Não pode estar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com &#39;`/`&#39;. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, &quot;home&quot; e &quot;`/home`&quot; são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome Exibição é mostrado no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
    | opções | Objeto | Não |  |  |
-   | opções &gt; página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE**: quando `page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
+   | opções > página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE **: quando`page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
 
    Agora vamos apresentar alguns exemplos de casos de uso sobre como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
@@ -88,7 +88,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
-   Como profissionais de marketing, se desejarmos executar testes A/B em todo o site inicial, talvez queiramos nomear a exibição "inicial":
+   Como profissionais de marketing, se desejarmos executar testes A/B em todo o site inicial, talvez queiramos nomear a exibição &quot;inicial&quot;:
 
 ```
  function targetView() {
@@ -117,7 +117,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
 **Link: Site de[produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
-Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, queremos personalizar a segunda fileira de produtos alterando a cor do rótulo de "Preço" para vermelho, depois que um usuário clicou no botão Carregar mais.
+Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, queremos personalizar a segunda fileira de produtos alterando a cor do rótulo de &quot;Preço&quot; para vermelho, depois que um usuário clicou no botão Carregar mais.
 
 ![produtos do react](/help/c-experiences/assets/react4.png)
 
@@ -148,7 +148,7 @@ Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como pro
 
 ![checkout do react](/help/c-experiences/assets/react6.png)
 
-Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar "Entrega normal". Se a opção Express Delivery estiver selecionada, a Exibição pode se chamar "Entrega expressa".
+Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar &quot;Entrega normal&quot;. Se a opção Express Delivery estiver selecionada, a Exibição pode se chamar &quot;Entrega expressa&quot;.
 
 Agora, os profissionais de marketing podem executar um teste A/B para ver se a alteração da cor de azul para vermelho quando a opção Entrega expressa está selecionada pode aumentar as conversões em vez de manter a cor do botão azul para ambas as opções de entrega.
 
@@ -276,18 +276,18 @@ Os seguintes vídeos contêm mais informações:
 
 ### Noções básicas sobre o funcionamento da at.js 2.x
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26250) Etiqueta ![Visão geral](/help/assets/overview.png)
 
 Consulte [Como o at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
 
 ### Implementar a at.js 2.x em um SPA
 
->[!VIDEO](https://video.tv.adobe.com/v/26248?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26248) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Consulte [Implementar o at.js 2.x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
 
-### Uso do VEC para SPAs no Adobe Target
+### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
