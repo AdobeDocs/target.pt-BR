@@ -1,12 +1,12 @@
 ---
-keywords: tokens de resposta;tokens;plugins;plug-ins;at.js;response tokens;tokens;plugins;plug-ins;at.js;response tokens;response tokens;tokens;plugins;plug-ins;at.js;response
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: Os tokens de resposta permitem que você produza automaticamente informações específicas do Target (detalhes da atividade, informações do perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou integração com sistemas de terceiros (como Clicktale)
 title: Tokens de resposta no Adobe Target
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
 
    Para obter mais informações, consulte [Baixar a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Em [!DNL Target], clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Tokens de resposta]**.
+1. No [!DNL Target], clique em **[!UICONTROL Configurar]** > **[!UICONTROL Tokens de resposta]**.
 
    ![](assets/response_tokens.png)
 
@@ -45,15 +45,15 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
    | Tipo | Parâmetro | Notas |
    |--- |--- |--- |
    | Perfis incorporados | `profile.activeActivities` | Retorna uma matriz do `activityIds` para o qual os visitantes estão qualificados. Ele é incrementado à medida que os usuários são qualificados. Por exemplo, em uma página com duas mboxes entregando duas atividades diferentes, a segunda mbox incluirá ambas as atividades. |
-   |  | `profile.isFirstSession` | Retorna "true" ou "false." |
-   |  | `profile.isNewSession` | Retorna "true" ou "false." |
+   |  | `profile.isFirstSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
+   |  | `profile.isNewSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
    |  | `profile.daysSinceLastVisit` | Retorna o número de dias, desde a última visita do visitante. |
    |  | `profile.tntId` | Retorna tntID do visitante |
    |  | `profile.marketingCloudVisitorId` | Retorna a ID do visitante da Experience Cloud. |
    |  | `profile.thirdPartyId` | Retorna a ID de terceiros do visitante. |
    |  | `profile.categoryAffinity` | Retorna a categoria favorita do visitante. |
    |  | `profile.categoryAffinities` | Retorna uma matriz das 5 categorias principais do visitante como sequências de caracteres. |
-   | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que "option" equivale a "offer." |
+   | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que &quot;option&quot; equivale a &quot;offer.&quot; |
    | Geografia | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulte [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) para obter mais informações sobre como usar o direcionamento geográfico nas atividades. |
 
    Os atributos do perfil do usuário e dos Atributos do cliente também são exibidos na lista.
@@ -279,8 +279,8 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 </script>
 ```
 
-## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
