@@ -4,7 +4,7 @@ description: Uma coleção é um conjunto de produtos ou itens no Adobe Target q
 title: Coleções no Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,7 +35,7 @@ Quando você está criando ou editando uma atividade do [!DNL Recommendations], 
 
 Crie uma coleta para organizar os produtos que deseja mostrar nas recomendações.
 
-1.  Clique em **[!UICONTROL Recommendations]**>**[!UICONTROL  Coleções]** para exibir a lista de coleções existentes. 
+1.  Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Coleções]** para exibir a lista de coleções existentes. 
 
    ![Lista de coleções](assets/collections_list.png)
 
@@ -43,11 +43,11 @@ Crie uma coleta para organizar os produtos que deseja mostrar nas recomendaçõe
 
 1. Clique em **[!UICONTROL Criar coleção]**.
 
-1. (Condicional) Escolha um ambiente no filtro **[!UICONTROL Ambiente]**ao criar (ou atualizar) uma coleção para visualizar o conteúdo da coleção no ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
+1. (Condicional) Escolha um ambiente no filtro **[!UICONTROL Ambiente]** ao criar (ou atualizar) uma coleção para visualizar o conteúdo da coleção no ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
 
    ![Criar coleção](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Digite um **[!UICONTROL Nome]**para a coleção.
+1. Digite um **[!UICONTROL Nome]** para a coleção.
 
    Você também pode inserir uma **[!UICONTROL Descrição opcional]**.
 
@@ -71,7 +71,7 @@ Após criar uma pesquisa usando &quot;id > contains&quot; por exemplo, você pod
 >
 >A funcionalidade de Pesquisa avançada não faz distinção entre maiúsculas e minúsculas; contudo, os produtos devolvidos no momento da entrega baseiam-se na pesquisa sensível a maiúsculas e minúsculas. Essa não correspondência pode levar à confusão. Certifique-se de considerar a sensibilidade a maiúsculas e minúsculas quando você cria coleções baseadas em resultados usando a funcionalidade Pesquisa avançada. Por exemplo, se você realiza uma busca para &quot;Feriado&quot;, essa busca inicial lista os resultados contendo &quot;Feriado&quot; e &quot;feriado&quot;. Em seguida, se você criar um catálogo com a intenção de encontrar produtos contendo &quot;feriado&quot;, somente os produtos contendo &quot;feriado&quot; serão exibidos. Os produtos contendo &quot;Feriado&quot; não serão exibidos.
 
-## Vídeo de treinamento: criar coleções e exclusões no Recommendations (7:05)
+## Vídeo de treinamento: criar coleções e exclusões no Recommendations (7:05) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
