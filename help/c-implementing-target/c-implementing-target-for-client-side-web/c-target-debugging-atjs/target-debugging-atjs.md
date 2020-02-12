@@ -1,11 +1,11 @@
 ---
-keywords: at.js; depurar o at.js; depurador da adobe Experience Cloud; depurador da Experience Cloud; rastreamento de mbox; realce da mbox; depurar; depuração
+keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Informações sobre o uso da extensão do depurador da Adobe Experience Cloud, que agiliza e facilita a compreensão da implementação do Target.
 title: Depuração da at.js usando o depurador da Adobe Experience Cloud
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -22,14 +22,14 @@ Revise a [documentação do depurador da Adobe Experience Cloud](https://docs.ad
 
 Os vídeos a seguir o orientam pelo processo de depuração:
 
-### Adicionar a extensão do depurador da Adobe Experience Cloud  {#section_8CD96F76E397476193529573F3199615}
+### Adicionar a extensão do depurador da Adobe Experience Cloud  Etiqueta {#section_8CD96F76E397476193529573F3199615} de ![visão geral](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Depuração básica do Target usando o depurador da Adobe Experience Cloud {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911} ![Overview badge](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Etiqueta de {#section_FD3BC8019FA847209AB8BCA747C50211} Visão ![Geral do Rastreamento da Mbox](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/)
