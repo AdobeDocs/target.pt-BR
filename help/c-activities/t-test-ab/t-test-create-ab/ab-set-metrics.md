@@ -1,11 +1,11 @@
 ---
-keywords: A/B; métricas de atividade; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
+keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Use métricas em uma atividade A/B para determinar quando uma visita é bem-sucedida.
 title: Definir métricas
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -37,7 +37,8 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métr
 
    Para obter mais informações, consulte [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 1. (Opcional) Adicione condições adicionais.
-1. Clique em **[!UICONTROL Continuar]** quando terminar de definir suas métricas.
+1. Clique em **[!UICONTROL Continuar]** quando terminar de definir suas métricas. 
+
 
 Observe que quando você nomeia ou renomeia uma métrica, os seguintes caracteres não são permitidos:
 
@@ -52,12 +53,12 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
 | - | Menos |
 | @ | Sinal de arroba |
 
-## Vídeo de treinamento: métricas de atividade (7:43)
+## Vídeo de treinamento: métricas de atividade (7:43) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 
-* Compreender métricas de "meta"
+* Compreender métricas de &quot;meta&quot;
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
