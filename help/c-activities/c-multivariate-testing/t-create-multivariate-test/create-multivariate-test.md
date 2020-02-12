@@ -1,10 +1,10 @@
 ---
-keywords: mvt; teste multivariado; criação de teste multivariado; criação de teste multivariado; criar mvt; criação de mvt; como mvt; como fazer teste multivariado
+keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: O Visual Experience Composer (VEC) no Adobe Target facilita a criação do teste multivariado (MVT) diretamente em uma página ativada para o Target e a modificação de partes da página no Target.
 title: Criar um teste multivariado
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ O editor de apontar e clicar do Target permite que você escolha qualquer local 
 
 O [!UICONTROL teste multivariado] (MVT) ocupa um relatório de primeira página. Em outras palavras, o teste é executado em um URL específico, com as experiências projetadas para essa página.
 
-1. Clique em **[!UICONTROL Criar atividade]** &gt; **[!UICONTROL Teste multivariado]**.
+1. Clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Teste multivariado]**.
 
    ![Criar um teste multivariado](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -114,11 +114,11 @@ O [!UICONTROL teste multivariado] (MVT) ocupa um relatório de primeira página.
 
 1. Clique em **[!UICONTROL Salvar e fechar]** para criar a atividade.
 
-## Vídeo de treinamento: Criação de testes multivariados (9:25)
+## Vídeo de treinamento:Criando o selo do ![tutorial de testes multivariados (9:25)](/help/assets/tutorial.png)
 
 Este vídeo monstra como planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target.
 
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
