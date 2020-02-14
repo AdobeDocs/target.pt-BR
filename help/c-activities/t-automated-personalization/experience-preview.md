@@ -1,11 +1,11 @@
 ---
-keywords: visualização de experiência, urls de experiências, gerar urls, ver urls de experiências
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: Os URLs de experiência podem ser gerados para as atividades de Personalização automatizada do Target para ver o conteúdo da experiência diretamente em seu site antes que a atividade seja ativada para fins de visualização e controle de qualidade. Os URLs de experiência ignoram o direcionamento para forçar a visualização de uma experiência específica.
 title: Compartilhar URLs de experiências para visualização de Automated Personalization fora do Target
-topic: Padrão
+topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -34,10 +34,10 @@ Use URLs de experiência para compartilhar experiências com membros da equipe e
    * Se você está usando o Experience Composer baseado em formulário, nenhum URL padrão é inserido automaticamente. Se você não criou URLs de experiência anteriormente, clique em **Adicionar novo URL**. Você deve especificar todos URLs que quer visualizar além de um nome para cada URL.
    Você pode adicionar vários URLs, o que é útil ao executar um teste multipágina ou um teste de modelo e você quer visualizar a atividade em mais de uma página.
 
-   Uma janela modal exibe links para suas experiências em seu site para obter uma "visualização real" das experiências fora do Visual Experience Composer do Target. É necessário compartilhar os links da mensagem para compartilhar a visualização. Clicar em um link e copiar o URL resultante da página não funciona porque o URL contém um parâmetro que só exibe a página corretamente quando você acessa a página a partir do link na mensagem. Em vez disso, copie o texto na janela modal e envie o texto inteiro por email para sua equipe.
+   Uma janela modal exibe links para suas experiências em seu site para obter uma &quot;visualização real&quot; das experiências fora do Visual Experience Composer do Target. É necessário compartilhar os links da mensagem para compartilhar a visualização. Clicar em um link e copiar o URL resultante da página não funciona porque o URL contém um parâmetro que só exibe a página corretamente quando você acessa a página a partir do link na mensagem. Em vez disso, copie o texto na janela modal e envie o texto inteiro por email para sua equipe.
 1. Clique em **[!UICONTROL Gerar tudo]** e, em seguida, clique em cada experiência para visualizá-la.
 
-   Então se você fizer alterações na experiência, certifique-se de gerar novos links de visualização para sua equipe voltando para a janela modal e clicando em **Gerar todos** para obter novos links.
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **Observação:** os links de visualização abrem em novas guias e requerem que o bloqueador de pop-up do seu navegador esteja desabilitado.
 
