@@ -5,7 +5,7 @@ title: Informações de Recursos e Contato
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
 
 ---
 
@@ -78,25 +78,7 @@ Para fazer uma triagem rápida do problema, tenha em mãos as seguintes informa�
 | Impacto nos negócios | Qual é o impacto em seus negócios? Por exemplo, esse problema está causando perda de receita ou tornando o produto inutilizável, e há uma forma viável de contorná-lo? |
 | Expectativas | O que você espera que aconteça? |
 
-Prepare também informações relacionadas ao problema específico. Por exemplo, um dos problemas mais comuns recebidos pelo Atendimento ao cliente são mboxes carregadas com muita lentidão. Para esse problema, os dados de ajuda incluem:
-
-* Um rastro de Firebug que mostre a repetitiva lentidão para um URL ou host.
-
-   Um relatório gomez com uma ou duas solicitações remotas não são dados suficientes para analisar ou resolver o problema.
-* Uma captura de tela de um traceroute de uma máquina que executa o firebug TO 70.42.13.100.
-
-   Isso é muito importante. As redes EDGE são mundiais. Por isso, é muito difícil determinar para onde o cliente é enviado. Por exemplo, se for possível reproduzir o problema no desktop de seu escritório, diga &quot;Eu consigo reproduzir isso em meu desktop e estou no EDGE 20&quot;.
-* Seu código de cliente e nome de mbox (se houver).
-* O número de mboxes embutidas na página.
-
-   Uma única mbox de várias na página está lenta?
-* Com que frequência ocorre lentidão com essa mbox nessa página?
-
-   Fornecer um rastro de Firebug mostra ao Atendimento ao cliente um cenário de caso único. Se puder fornecer dados estatísticos, como &quot;o mais baixo que vi foi 300ms, o mais alto que vi foi 1,1 segundo e testei 50 vezes&quot;, será mais fácil encontrar uma solução.
-* Informações relacionadas a qualquer coisa incomum sobre suas campanhas.
-
-   Há um número elevado de segmentos? (Por exemplo, você atualiza seus segmentos 3 a 4 vezes por hora na interface de administração?) Essas informações ajudam o Atendimento ao cliente a entender a interação entre interfaces de administração e as margens dessa campanha. Atualizações frequentes na campanha significam recargas frequentes no servidor central, que podem forçar mais chamadas remotas ou recargas de cache.
-* Quaisquer outros dados que você acredite que possam ser úteis.
+Para problemas de entrega de conteúdo, consulte [Solução de problemas de entrega](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de conteúdo para obter possíveis soluções e informações sobre solução de problemas.
 
 ### Em caso de interrupção  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
