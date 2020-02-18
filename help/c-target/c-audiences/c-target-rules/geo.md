@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 ---
 
@@ -135,6 +135,10 @@ Você pode sobrescrever seu endereço IP com um endereço IP de um local diferen
 `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
 Será necessário limpar os cookies do navegador antes.
+
+>[!NOTE]
+>
+>mboxOverride.browserIp é suportado somente em at.js 1.*jx*. Essa funcionalidade não é suportada no at.js 2.*x*.
 
 **Como os territórios, por exemplo, Porto Rico e Hong Kong, são mapeados na estrutura de geolocalização?**
 
