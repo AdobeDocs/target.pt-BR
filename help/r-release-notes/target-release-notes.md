@@ -5,7 +5,7 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: f710882392f54c13a2161a97b7530796f9a99283
 
 ---
 
@@ -51,7 +51,6 @@ Esta versão contém os seguintes aprimoramentos e correções:
 * Correção de um problema em que um critério criado por meio da API, mas não referenciado por uma atividade criada na interface do usuário do Target, podia ser excluído erroneamente da interface do usuário. (TGT-35917)
 * Aprimoramentos de segurança implementados na Política de segurança de conteúdo (CSP). (TGT-36190)
 * Correção de um problema que fazia com que &quot;NaN%&quot; fosse exibido ao deslizar a barra de porcentagem de Ponderação do atributo para a extremidade esquerda. (TGT-36211)
-* Solução de um problema que impedia os clientes de alterar o algoritmo em uma atividade de Personalização automatizada (AP) de Floresta aleatória para Variação residual. (TGT-36321)
 * Solução de problemas de localização para que o texto da interface em vários idiomas seja exibido corretamente.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
