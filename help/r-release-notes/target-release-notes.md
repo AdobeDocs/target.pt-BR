@@ -5,7 +5,7 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
+source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 Estas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para as versões mais recentes ou que serão lançadas em breve do [!DNL Adobe Target].
 
-**Última atualização: 4 de fevereiro de 2020**
+**Última atualização: 18 de fevereiro de 2020**
 
 >[!NOTE]
 >
@@ -32,7 +32,14 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 ## Target Standard/Premium 20.2.1 (19 de fevereiro de 2020)
 
-A versão Target Standard/Premium 20.2.1 está programada para 19 de fevereiro de 2020. Informações sobre recursos específicos, melhorias e correções serão publicadas aqui nos próximos dias.
+Esta versão contém os seguintes aprimoramentos e correções:
+
+* Correção de um problema que impedia os clientes de selecionar uma coleção ao executar uma pesquisa de catálogo. (TGT-36230)
+* Correção de um problema em que um critério criado por meio da API, mas não referenciado por uma atividade criada na interface do usuário do Target, podia ser excluído erroneamente da interface do usuário. (TGT-35917)
+* Aprimoramentos de segurança implementados na Política de segurança de conteúdo (CSP). (TGT-36190)
+* Correção de um problema que fazia com que &quot;NaN%&quot; fosse exibido ao deslizar a barra de porcentagem de Ponderação do atributo para a extremidade esquerda. (TGT-36211)
+* Solução de um problema que impedia os clientes de alterar o algoritmo em uma atividade de Personalização automatizada (AP) de Floresta aleatória para Variação residual. (TGT-36321)
+* Solução de problemas de localização para que o texto da interface em vários idiomas seja exibido corretamente.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
