@@ -5,7 +5,7 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -32,12 +32,19 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
 
-## Target Standard/Premium 20.1.1 (4 de fevereiro de 2020)
+## Target Standard/Premium 20.2.1 (19 de fevereiro de 2020)
 
-A versão Target Standard/Premium 20.1.1 é uma versão de manutenção e inclui melhorias e aprimoramentos de backend. Além disso, as seguintes correções foram incluídas:
+>[!IMPORTANT]
+>
+>Consulte as informações acima sobre a desaprovação do mbox.js.
 
-* Corrigido um problema que fazia com que o campo do servidor de rastreamento do Adobe Analytics ficasse em branco na página Metas e configurações para atividades existentes do Adobe for Target (A4T). (TGT-35960)
-* Corrigido um problema na interface do usuário que fazia com que sua seleção na segunda lista suspensa não fosse exibida ao criar um público-alvo para afinidade de categoria. (TGT-36098)
+Esta versão contém os seguintes aprimoramentos e correções:
+
+* Correção de um problema que impedia os clientes de selecionar uma coleção ao executar uma pesquisa de catálogo. (TGT-36230)
+* Correção de um problema em que um critério criado por meio da API, mas não referenciado por uma atividade criada na interface do usuário do Target, podia ser excluído erroneamente da interface do usuário. (TGT-35917)
+* Aprimoramentos de segurança implementados na Política de segurança de conteúdo (CSP). (TGT-36190)
+* Correção de um problema que fazia com que &quot;NaN%&quot; fosse exibido ao deslizar a barra de porcentagem de Ponderação do atributo para a extremidade esquerda. (TGT-36211)
+* Solução de problemas de localização para que o texto da interface em vários idiomas seja exibido corretamente.
 
 ## Notas de versão adicionais e detalhes da versão
 
