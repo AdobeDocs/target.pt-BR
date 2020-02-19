@@ -1,11 +1,11 @@
 ---
-keywords: versões da at.js; versões da at.js
+keywords: at.js releases;at.js versions
 description: Detalhes sobre as alterações em cada versão da at.js.
 title: Detalhes da versão da at.js
-subtopic: Introdução
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 
 ---
 
@@ -16,7 +16,7 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 
 >[!IMPORTANT]
 >
->A equipe do Target mantém apenas duas versões de [!DNL at.js]—a versão atual e a segunda versão mais recente. Atualize a [!DNL at.js] conforme necessário para garantir que você esteja executando uma versão suportada.
+>A equipe do Target oferece suporte ao at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente da versão principal do at.js para garantir que você esteja executando uma versão compatível.
 
 ## at.js versão 2.2.0 (10 de outubro de 2019)
 
@@ -29,7 +29,7 @@ Esta versão do at.js inclui os seguintes aprimoramentos e correções:
    >
    >Atualize sua extensão de lançamento de ECID para v4.4 para aproveitar esse aprimoramento de desempenho.
 
-* A versão 2.2 do at.js também fornece uma nova configuração chamada `serverState`. Essa configuração pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* A versão 2.2 do at.js também fornece uma nova configuração chamada `serverState`. Essa configuração pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js versão 1.8.0 (10 de outubro de 2019)
 
@@ -157,7 +157,7 @@ A versão 1.6.3 do at.js inclui as seguintes correções e aprimoramentos:
 
 Esta é uma versão de manutenção e aborda o seguinte problema:
 
-* Corrigido um problema que, em alguns sites de clientes, resultava em um loop "async" infinito.
+* Corrigido um problema que, em alguns sites de clientes, resultava em um loop &quot;async&quot; infinito.
 
 >[!IMPORTANT]
 >
@@ -243,7 +243,7 @@ A [!DNL at.js] versão 1.2.2 já está disponível.
 
 A [!DNL at.js] versão 1.2.1 já está disponível.
 
-* Correção de um problema no rastreamento de cliques em que um link com target="_blank" impedia o Target de abrir o link em uma nova guia.
+* Correção de um problema no rastreamento de cliques em que um link com target=&quot;_blank&quot; impedia o Target de abrir o link em uma nova guia.
 
 ## at.js versão 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
@@ -317,7 +317,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 **Data:** quinta-feira, 19 de janeiro de 2017
 
-* Os nomes das mboxes agora podem conter caracteres especiais, incluindo "E" comercial (&amp;), para ser consistente com os requisitos de nomenclatura das mboxes usando a mbox.js.
+* Os nomes das mboxes agora podem conter caracteres especiais, incluindo &quot;E&quot; comercial (&amp;), para ser consistente com os requisitos de nomenclatura das mboxes usando a mbox.js.
 
    Para obter uma lista de caracteres especiais permitidos, consulte [Configurações da at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
