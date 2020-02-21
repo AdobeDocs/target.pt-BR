@@ -5,7 +5,7 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 ---
 
@@ -33,6 +33,31 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
    >
 * Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
+
+## Navegação na Adobe Experience Cloud (22 de fevereiro de 2019)
+
+* Ao efetuar logon no [!DNL Adobe Experience Cloud], você será direcionado para a nova navegação do cabeçalho. É muito semelhante à navegação anterior com a barra preta na parte superior, mas oferece as seguintes melhorias:
+
+   * Comutação mais fácil entre organizações [!DNL Identity Management System] (IMS) ou para uma solução diferente.
+   * Ajuda do usuário aprimorada: Os resultados da pesquisa incluem os resultados da documentação do [!DNL Target] produto, bem como fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudá-lo a obter o máximo proveito [!DNL Target]. Também adicionamos um mecanismo de feedback diretamente no menu [!UICONTROL Ajuda] , facilitando o relatório de problemas ou o compartilhamento de ideias.
+
+   * Melhoria na funcionalidade de feedback do Net Promoter Score (NPS) para que o modal da pesquisa não atrapalhe seu fluxo de trabalho.
+   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na página inicial do Target depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], conforme mostrado abaixo:
+
+      ![Página de aterrissagem](/help/r-release-notes/assets/landing.png)
+
+      Eliminamos esta página de aterrissagem para todos os nossos clientes. Agora, você sempre é direcionado diretamente para a página Lista [!UICONTROL de] atividades clicando no [!DNL Target] ícone na nova barra de navegação do cabeçalho.
+
+      Se você usar [!DNL Recommendations Classic], poderá ir diretamente para a solução ou ir do link curto criado na guia [!UICONTROL Recomendações] , como mostrado abaixo:
+
+      ![Link profundo Recs Classic](/help/r-release-notes/assets/recs-classic.png)
+
+      Se você usar [!DNL Search&Promote], precisará ir diretamente para o URL [do](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). O caminho para alcançar [!DNL Search&Promote] de dentro de [!DNL Adobe Target] foi completamente removido.
+
+   * No momento, as notificações para não [!DNL Target] estão disponíveis no menu suspenso [!UICONTROL Notificações] no cabeçalho.
+   >[!NOTE]
+   >
+   >Como parte do lançamento da nova barra de navegação, você também notará algumas alterações no URL. Todos os links marcados anteriores continuam a funcionar, mas recomendamos que você marque novos links para uma abertura mais rápida.
 
 ## Target Standard/Premium 20.2.1 (19 de fevereiro de 2020)
 
