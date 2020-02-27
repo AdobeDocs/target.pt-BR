@@ -5,7 +5,7 @@ title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
 
 ---
 
@@ -34,10 +34,6 @@ Defina um atributo de perfil de script com o snippet do código JavaScript assoc
 Você pode usar scripts de perfil para capturar os atributos do visitante em várias visitas. Os scripts de perfil são snippets de código definidos no Target usando um formulário de JavaScript do lado do servidor. Por exemplo, você pode usar um script de perfil para capturar a frequência na qual um visitante acessa seu site e quando ele foi visitado pela última vez.
 
 Os scripts de perfil não são os mesmos que os parâmetros de perfil. Os parâmetros de perfil capturam as informações sobre visitantes que usam a implementação do código de mbox do Target.
-
->[!NOTE]
->
->O [!DNL Target] tem um limite de 1.000 scripts de perfil por conta.
 
 ## Criar scripts de perfil {#section_CB02F8B97CAF407DA84F7591A7504810}
 
@@ -124,6 +120,17 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
 * Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. Contar o número de instruções não é óbvio, mas o importante a ser observado é que os scripts que excedem 2 KB serão automaticamente desativados. Não há limite definido para o número de scripts que podem ser executados, mas todos são executados com uma chamada de mbox única. Execute somente a quantidade de scripts necessária.
 * Em um regex, ter ponto-estrela no início (por exemplo: `/.*match/`, `/a|.*b/`) quase nunca é necessário. A pesquisa de regex começa em todas as posições em uma string (a menos que vinculada a `^`), portanto, o ponto-estrela já foi considerado. A execução do script pode ser interrompida se esse regex corresponder a dados de entrada longos o suficiente (que podem ter centenas de caracteres).
 * Se tudo falhar, envolva o script em um try/catch.
+* Recomendações para limitar a complexidade do script de perfil: Scripts de perfil podem executar um número limitado de instruções.
+
+   Como prática recomendada:
+
+   * Mantenha scripts de perfil pequenos e tão simples quanto possível.
+   * Evite expressões regulares ou use apenas expressões regulares muito simples. Até mesmo expressões simples podem levar muitas instruções para avaliar.
+   * Evitar a repetição.
+   Os scripts de perfil devem ser testados com desempenho antes de serem adicionados ao Target. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas. Isso pode afetar o tráfego e a conversão.
+
+   Se scripts de perfil se tornarem muito complexos, considere usar tokens de resposta.
+
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Scripts de perfil para testar atividades mutuamente exclusivas {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
