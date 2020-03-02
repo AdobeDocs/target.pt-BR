@@ -5,7 +5,7 @@ title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
 
 ---
 
@@ -14,18 +14,26 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 Os atributos do perfil são parâmetros específicos de um visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades.
 
-Conforme um visitante navega no site, ou quando ele retorna para uma outra sessão, os atributos do perfil salvos podem ser usados para segmentar o conteúdo ou registrar informações para a filtragem de segmentos.
+Um perfil de usuário contém informações demográficas e comportamentais de um visitante da página da Web, como idade, gênero, produtos adquiridos, última visita e assim por diante, o Target usa para personalizar o conteúdo que serve ao visitante.
 
-Para configurar os atributos de perfil, clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Scripts de perfil.]**
+Conforme um visitante navega em seu site, ou quando o visitante retorna para outra sessão, os atributos de perfil salvos no perfil podem ser usados para direcionar o conteúdo ou registrar informações para filtragem de segmentos.
 
-![Guia Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+Para configurar atributos de perfil:
 
-Os tipos a seguir de atributos de perfil estão disponíveis:
+1. Clique em **[!UICONTROL Públicos-alvo]** > Scripts **[!UICONTROL de perfil.]**
 
-| Tipo do parâmetro | Descrição |
-|--- |--- |
-| mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Observação **: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte[Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
-| Script | Definido diretamente com um trecho de código JavaScript. Eles podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
+   ![Guia Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+
+1. Clique em **[!UICONTROL Criar script]**.
+
+   ![Caixa de diálogo Criar scripts de perfil](/help/c-target/c-visitor-profile/assets/create-script.png)
+
+   Os tipos a seguir de atributos de perfil estão disponíveis:
+
+   | Tipo do parâmetro | Descrição |
+   |--- |--- |
+   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Observação **: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte[Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+   | Perfil | Definido diretamente com um trecho de código JavaScript. Eles podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -43,13 +51,13 @@ Para adicionar um novo script de perfil, clique na guia **[!UICONTROL Scripts de
 
 Ou
 
-Para copiar um script de perfil existente, na lista de [!UICONTROL Scripts de perfil], passe com o mouse sobre o script desejado e clique no ícone **[!UICONTROL Copiar]**: (assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 ![Caixa de diálogo Criar scripts de perfil](assets/profile-script.png)
 
-Scripts de perfil executam os &quot;coletores&quot; de atributo de perfil em cada solicitação de localização. Quando uma solicitação de localização é recebida, o Target determina qual atividade deve ser executada e exibe o conteúdo apropriado a essa atividade e experiência, monitora o sucesso da atividade e executa todos os scripts de perfil relevantes. Isto permite rastrear as informações sobre a visita, como o local do visitante, a hora do dia, o número de vezes que o visitante acessou o site, se ele já fez alguma compra anteriormente etc. Estas informações são então adicionadas ao perfil do visitante para que você possa melhor rastrear a atividade do visitante no seu site.
+Scripts de perfil executam os &quot;coletores&quot; de atributo de perfil em cada solicitação de localização. Quando uma solicitação de localização é recebida, o Target determina qual atividade deve ser executada e exibe o conteúdo apropriado a essa atividade e experiência, monitora o sucesso da atividade e executa todos os scripts de perfil relevantes. Isso permite que você rastreie informações sobre a visita, como o local do visitante, a hora do dia, o número de vezes que o visitante visitou o site, se ele já tiver comprado antes e assim por diante. Estas informações são então adicionadas ao perfil do visitante para que você possa melhor rastrear a atividade do visitante no seu site.
 
 Os atributos de script de perfil têm a tag de `user.` inserida antes dos nomes dos atributos. Por exemplo:
 
@@ -60,6 +68,8 @@ if (mbox.name == 'Track_Interest') {
     } 
 }
 ```
+
+Lembre-se das seguintes informações:
 
 * Consulte os atributos de script do perfil (incluindo ele mesmo) no código com `user.get('parameterName')`
 * Salve variáveis que podem ser acessadas na próxima vez que o script for executado (na própria solicitação da mbox) com `user.setLocal('variable_name', 'value')`. Faça referência à variável com `user.getLocal('variable_name')`. Isto é útil para situações em que você deseja fazer referência à data e hora da última solicitação.
@@ -87,10 +97,9 @@ A guia [!UICONTROL Uso do script] lista as atividades (e seus espaços de trabal
 > * O conteúdo ou a oferta usada na atividade utiliza variáveis de script (seja uma oferta na linha dentro da atividade ou dentro da biblioteca Oferta).
 
 
-
 ## O Target desativa os scripts de perfil em determinadas situações {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-O [!DNL Target] desativará automaticamente os scripts de perfil em determinadas situações, como em caso de demora para execução ou de excesso de instruções.
+[!DNL Target] desativa automaticamente scripts de perfil em determinadas situações, como se demorassem muito para serem executados ou tivessem instruções demais.
 
 Quando um script de perfil é desativado, um ícone de alerta amarelo é exibido perto do script de perfil na interface de usuário do Target, conforme ilustrado abaixo:
 
@@ -111,25 +120,23 @@ Os motivos típicos para o sistema desativar os scripts de perfil incluem o segu
 
 As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simplificados que são os mais livres de erros possíveis, ao escrever código com falhas leves, para que os scripts sejam processados sem forçar uma interrupção do script do sistema. Essas orientações resultam das práticas recomendadas com execução eficaz comprovada. Essas diretrizes devem ser aplicadas juntamente com os princípios e as recomendações formulados pela comunidade de desenvolvimento Rhino.
 
-* Defina o valor do script atual para uma variável local no script do usuário, defina um failover para a sequência de caracteres em branco.
+* Defina o valor do script atual como uma variável local no script do usuário, defina um failover como uma string em branco.
 * Valide a variável local, certificando-se de que ela não seja uma sequência de caracteres em branco.
-* Use funções de manipulação com base em sequências de caracteres x Expressões Regulares.
+* Use funções de manipulação com base em sequência vs. Expressões regulares.
 * Use limitado para loops e abertos para ou enquanto nos loops.
 * Não exceda 1.300 caracteres ou 50 iterações de loop.
 * Não exceda 2.000 instruções do JavaScript. O Target tem um limite de 2.000 instruções de JavaScript por script, mas isso não pode ser calculado somente pela leitura manual do JavaScript. Por exemplo, o Rhino trata todas as chamadas de função e as &quot;novas&quot; chamadas como 100 instruções. Além disso, o tamanho dos dados de entrada, como os valores de URL, pode afetar a contagem das instruções.
 * Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. Contar o número de instruções não é óbvio, mas o importante a ser observado é que os scripts que excedem 2 KB serão automaticamente desativados. Não há limite definido para o número de scripts que podem ser executados, mas todos são executados com uma chamada de mbox única. Execute somente a quantidade de scripts necessária.
 * Em um regex, ter ponto-estrela no início (por exemplo: `/.*match/`, `/a|.*b/`) quase nunca é necessário. A pesquisa de regex começa em todas as posições em uma string (a menos que vinculada a `^`), portanto, o ponto-estrela já foi considerado. A execução do script pode ser interrompida se esse regex corresponder a dados de entrada longos o suficiente (que podem ter centenas de caracteres).
 * Se tudo falhar, envolva o script em um try/catch.
-* Recomendações para limitar a complexidade do script de perfil.
-
-    Scripts de perfil podem executar um número limitado de instruções.
+* As recomendações a seguir podem ajudar a limitar a complexidade do script de perfil.  Scripts de perfil podem executar um número limitado de instruções.
 
    Como prática recomendada:
 
    * Mantenha scripts de perfil pequenos e tão simples quanto possível.
    * Evite expressões regulares ou use apenas expressões regulares muito simples. Até mesmo as expressões simples podem receber muitas instruções para avaliar.
    * Evitar a repetição.
-   * Os scripts de perfil devem ser testados com desempenho antes de serem adicionados ao Target. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas, o que pode afetar o tráfego e a conversão.
+   * Os scripts de perfil devem ser testados com desempenho antes de serem adicionados ao Target. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas. Isso pode afetar o tráfego e a conversão.
    * Se scripts de perfil se tornarem complexos demais, considere usar tokens [de](/help/administrating-target/response-tokens.md) resposta.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -140,12 +147,12 @@ Você pode utilizar atributos de perfil para configurar testes que comparam duas
 
 Testar atividades mutuamente exclusivas evita que um visitante em uma atividade afete os resultados do teste de outras atividades. Quando um visitante participa em diversas atividades, pode ser difícil determinar se um incentivo positivo ou negativo é resultado da experiência do visitante em outra atividade, ou se as interações entre diversas atividades afetaram os resultados de uma ou mais atividades.
 
-Por exemplo, você pode testar duas áreas de sistema de comércio eletrônico. Você pode desejar testar tornar vermelho o botão Adicionar o carrinho, em vez de azul. Você também pode testar um novo processo de checkout que reduz o número de etapas, de cinco para duas. Se ambas as atividades têm o mesmo evento de sucesso (uma compra concluída) pode ser difícil determinar se o botão vermelho melhorou as conversões, ou se as mesmas conversões também aumentaram devido ao processo melhorado de checkout. Ao separar os testes em atividades mutuamente exclusivas, você pode testar cada alteração independentemente.
+Por exemplo, você pode testar duas áreas de sistema de comércio eletrônico. Você pode querer testar tornar vermelho o botão &quot;Adicionar ao carrinho&quot; em vez de azul. Você também pode testar um novo processo de checkout que reduz o número de etapas, de cinco para duas. Se ambas as atividades tiverem o mesmo evento bem-sucedido (uma compra concluída), pode ser difícil determinar se o botão vermelho melhora as conversões ou se essas mesmas conversões também aumentaram devido ao processo de checkout melhorado. Ao separar os testes em atividades mutuamente exclusivas, você pode testar cada alteração independentemente.
 
 Esteja ciente das informações a seguir ao usar um dos scripts de perfil abaixo:
 
 * O script de perfil devem ser executados antes da atividade ser iniciada e ele deve permanecer inalterado em toda a duração da atividade.
-* Essa técnica reduzirá a quantidade de tráfego na atividade, o que deve precisar de execução mais longa da atividade. Você deve considerar esse fato ao estimar a duração da atividade.
+* Essa técnica reduz a quantidade de tráfego na atividade, o que pode exigir que a atividade seja executada por mais tempo. Você deve considerar esse fato ao estimar a duração da atividade.
 
 ### Configuração de até duas atividades
 
@@ -162,17 +169,17 @@ if (!user.get('twogroups')) {
 }
 ```
 
-`if (!user.get('twogroups'))` determina se o atributo de perfil *doisgrupos* está definido para o visitante atual. Se estiver definido, não é necessária mais nenhuma alteração.
+* `if (!user.get('twogroups'))` determina se o atributo de perfil *doisgrupos* está definido para o visitante atual. Se estiver definido, não é necessária mais nenhuma alteração.
 
-`var ran_number=Math.floor(Math.random() *99)` declara uma nova variável chamada ran_number, define um valor decimal aleatório entre 0 e 1 e, em seguida, multiplica o valor por 99 e arredonda o resultado para baixo, criando um intervalo de 100 (0-99), útil para especificar a porcentagem de visitantes que visualizarão a atividade.
+* `var ran_number=Math.floor(Math.random() *99)` declara uma nova variável chamada ran_number, define um valor decimal aleatório entre 0 e 1 e, em seguida, multiplica o valor por 99 e arredonda o resultado para baixo, criando um intervalo de 100 (0-99), útil para especificar a porcentagem de visitantes que visualizarão a atividade.
 
-`if (ran_number <= 49)` inicia uma rotina que determina a qual grupo o usuário pertence. Se o resultado for entre 0-49, o visitante é atribuído ao GrupoA. Se o resultado for entre 50-99, o visitante é atribuído ao GrupoB. O grupo determina qual atividade o visitante visualizará.
+* `if (ran_number <= 49)` inicia uma rotina que determina a qual grupo o usuário pertence. Se o resultado for entre 0-49, o visitante é atribuído ao GrupoA. Se o resultado for entre 50-99, o visitante é atribuído ao GrupoB. O grupo determina qual atividade o visitante visualizará.
 
-Após criar o atributo de perfil, defina a primeira atividade direcionada à população desejada, solicitando que o parâmetro do perfil de usuário user.twogroups corresponda ao valor do GrupoA.
+After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
 >[!NOTE]
 >
->Selecione uma mbox logo no início da página. Esse código determina quando o visitante visualiza a campanha. Desde que uma mbox seja encontrada primeiro pelo navegador, ela pode ser utilizada para definir esse valor.
+>Selecione uma mbox logo no início da página. Esse código determina se um visitante acessará a atividade. Desde que uma mbox seja encontrada primeiro pelo navegador, ela pode ser utilizada para definir esse valor.
 
 Defina a segunda campanha de forma que o parâmetro do perfil do usuário `user.twogroups` corresponda ao valor especificado para o GrupoB.
 
@@ -256,8 +263,7 @@ Os scripts de perfil não podem ler a página diretamente porque são executados
 
 ## Referência de JavaScript para os parâmetros do perfil de script
 
-É necessário o conhecimento básico de JavaScript para usar os parâmetros
-do perfil de script de maneira eficiente. Esta seção serve como uma referência rápida para torná-lo produtivo com essa funcionalidade em apenas alguns minutos.
+É necessário um conhecimento simples do Javascript para usar efetivamente parâmetros de perfil de script. Esta seção serve como uma referência rápida para torná-lo produtivo com essa funcionalidade em apenas alguns minutos.
 
 Os parâmetros do perfil de script são encontrados na guia mboxes/perfis. É possível gravar programas de JavaScript que retornam qualquer tipo de JavaScript (sequência de caracteres, inteiro, matriz, etc.).
 
@@ -313,7 +319,6 @@ else if (mbox.param("adobeQA"))
 
 Cria uma variável chamada `adobeQA` para rastrear um usuário para o controle de qualidade de [atividade](/help/c-activities/c-activity-qa/activity-qa.md).
 
-
 ### Objetos e métodos
 
 As seguintes propriedades e métodos podem ser referenciados pelos parâmetros do perfil de script:
@@ -322,7 +327,7 @@ As seguintes propriedades e métodos podem ser referenciados pelos parâmetros d
 | --- | --- |
 | `page.url` | O URL atual. |
 | `page.protocol` | O protocolo usado pela página (http ou https). |
-| page.domain | O domínio do URL atual (tudo antes da primeira barra). Por exemplo, `www.acme.com` em `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | O domínio do URL atual (tudo antes da primeira barra). Por exemplo, `www.acme.com` em `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
 | `page.query` | A sequência de consulta da página atual. Tudo depois de &quot;?&quot;. Por exemplo, `blue&size=small` em `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param(‘<par_name>’)` | O valor do parâmetro indicado por `<par_name>`. Se o URL atual for a página de pesquisa do Google e você digitou `page.param('hl')`, &quot;en&quot; seria obtido para o URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | O mesmo conjunto de operações acima se aplica ao referenciador e à landing page (ou seja, referrer.url será o endereço url do referenciador). |
