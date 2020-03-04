@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 
 ---
 
@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 4 de março | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Atualização de todo o tópico, com revisões extensas para a seção &quot;Práticas recomendadas&quot;. |
+|  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre métricas obsoletas e alteradas ao usar o Target para o Analytics (A4T). |
 | 21 de fevereiro | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a nova navegação da Adobe Experience Cloud. |
 | 20 de fevereiro | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Foram adicionadas informações para as seguintes configurações: `pageLoadEnabled` e `viewsEnabled`. |
 | 19 de fevereiro | [Notas de versão](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a futura desaprovação da biblioteca mbox.js. |
