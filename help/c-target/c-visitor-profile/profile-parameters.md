@@ -5,7 +5,7 @@ title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -126,108 +126,20 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
 * Use limitado para loops e abertos para ou enquanto nos loops.
 * Não exceda 1.300 caracteres ou 50 iterações de loop.
 * Não exceda 2.000 instruções do JavaScript. O Target tem um limite de 2.000 instruções de JavaScript por script, mas isso não pode ser calculado somente pela leitura manual do JavaScript. Por exemplo, o Rhino trata todas as chamadas de função e as &quot;novas&quot; chamadas como 100 instruções. Além disso, o tamanho dos dados de entrada, como os valores de URL, pode afetar a contagem das instruções.
-* Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. Contar o número de instruções não é óbvio, mas o importante a ser observado é que os scripts que excedem 2 KB serão automaticamente desativados. Não há limite definido para o número de scripts que podem ser executados, mas todos são executados com uma chamada de mbox única. Execute somente a quantidade de scripts necessária.
+* Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. A contagem do número de instruções não é óbvia, mas o importante a ser observado é que scripts que excedem 2.000 instruções são automaticamente desativados. O número de scripts de perfil ativos não deve exceder 300. Cada script é executado com cada chamada de mbox. Execute somente a quantidade de scripts necessária.
 * Em um regex, ter ponto-estrela no início (por exemplo: `/.*match/`, `/a|.*b/`) quase nunca é necessário. A pesquisa de regex começa em todas as posições em uma string (a menos que vinculada a `^`), portanto, o ponto-estrela já foi considerado. A execução do script pode ser interrompida se esse regex corresponder a dados de entrada longos o suficiente (que podem ter centenas de caracteres).
 * Se tudo falhar, envolva o script em um try/catch.
-* As recomendações a seguir podem ajudar a limitar a complexidade do script de perfil.  Scripts de perfil podem executar um número limitado de instruções.
+* As recomendações a seguir podem ajudar a limitar a complexidade do script de perfil. Scripts de perfil podem executar um número limitado de instruções.
 
    Como prática recomendada:
 
    * Mantenha scripts de perfil pequenos e tão simples quanto possível.
    * Evite expressões regulares ou use apenas expressões regulares muito simples. Até mesmo as expressões simples podem receber muitas instruções para avaliar.
    * Evitar a repetição.
-   * Os scripts de perfil devem ser testados com desempenho antes de serem adicionados ao Target. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas. Isso pode afetar o tráfego e a conversão.
+   * Os scripts de perfil devem ser testados em relação ao desempenho antes de serem adicionados ao Target. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas. Isso pode afetar o tráfego e a conversão.
    * Se scripts de perfil se tornarem complexos demais, considere usar tokens [de](/help/administrating-target/response-tokens.md) resposta.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
-
-## Scripts de perfil para testar atividades mutuamente exclusivas {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
-
-Você pode utilizar atributos de perfil para configurar testes que comparam duas ou mais atividades, mas não permita que os mesmos visitantes participem em cada atividades.
-
-Testar atividades mutuamente exclusivas evita que um visitante em uma atividade afete os resultados do teste de outras atividades. Quando um visitante participa em diversas atividades, pode ser difícil determinar se um incentivo positivo ou negativo é resultado da experiência do visitante em outra atividade, ou se as interações entre diversas atividades afetaram os resultados de uma ou mais atividades.
-
-Por exemplo, você pode testar duas áreas de sistema de comércio eletrônico. Você pode querer testar tornar vermelho o botão &quot;Adicionar ao carrinho&quot; em vez de azul. Você também pode testar um novo processo de checkout que reduz o número de etapas, de cinco para duas. Se ambas as atividades tiverem o mesmo evento bem-sucedido (uma compra concluída), pode ser difícil determinar se o botão vermelho melhora as conversões ou se essas mesmas conversões também aumentaram devido ao processo de checkout melhorado. Ao separar os testes em atividades mutuamente exclusivas, você pode testar cada alteração independentemente.
-
-Esteja ciente das informações a seguir ao usar um dos scripts de perfil abaixo:
-
-* O script de perfil devem ser executados antes da atividade ser iniciada e ele deve permanecer inalterado em toda a duração da atividade.
-* Essa técnica reduz a quantidade de tráfego na atividade, o que pode exigir que a atividade seja executada por mais tempo. Você deve considerar esse fato ao estimar a duração da atividade.
-
-### Configuração de até duas atividades
-
-Para classificar visitantes em grupos onde cada um visualiza uma atividade diferente, você deve criar um atributo de perfil. Um atributo de perfil pode classificar um visitante em um ou mais grupos. Para configurar um atributo de perfil chamado &quot;doisgrupos&quot;, crie o script a seguir:
-
-```
-if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number <= 49) { 
-        return 'GroupA'; 
-    } else { 
-        return 'GroupB'; 
-    } 
-}
-```
-
-* `if (!user.get('twogroups'))` determina se o atributo de perfil *doisgrupos* está definido para o visitante atual. Se estiver definido, não é necessária mais nenhuma alteração.
-
-* `var ran_number=Math.floor(Math.random() *99)` declara uma nova variável chamada ran_number, define um valor decimal aleatório entre 0 e 1 e, em seguida, multiplica o valor por 99 e arredonda o resultado para baixo, criando um intervalo de 100 (0-99), útil para especificar a porcentagem de visitantes que visualizarão a atividade.
-
-* `if (ran_number <= 49)` inicia uma rotina que determina a qual grupo o usuário pertence. Se o resultado for entre 0-49, o visitante é atribuído ao GrupoA. Se o resultado for entre 50-99, o visitante é atribuído ao GrupoB. O grupo determina qual atividade o visitante visualizará.
-
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
-
->[!NOTE]
->
->Selecione uma mbox logo no início da página. Esse código determina se um visitante acessará a atividade. Desde que uma mbox seja encontrada primeiro pelo navegador, ela pode ser utilizada para definir esse valor.
-
-Defina a segunda campanha de forma que o parâmetro do perfil do usuário `user.twogroups` corresponda ao valor especificado para o GrupoB.
-
-### Configuração de três ou mais atividades
-
-A configuração de três ou mais atividades mutuamente exclusivas é similar à configuração de duas, mas você deve alterar o atributo de perfil JavaScript para criar um grupo separado para cada atividade e determina quem visualizará as campanhas. A geração de número aleatório é diferente, dependendo da criação de um número par ou ímpar de grupos.
-
-Por exemplo, para criar quatro grupos, utilize o JavaScript a seguir:
-
-```
-if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number <= 24) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 49) { 
-        return 'GroupB'; 
-    } else if (ran_number <= 74) { 
-        return 'GroupC'; 
-    } else { 
-        return 'GroupD'; 
-    } 
-}
-```
-
-Nesse exemplo, a matemática utilizada para gerar o número aleatório que atribui um visitante a um grupo é a mesma para somente dois grupos. Um número decimal aleatório é gerado e arredondado para baixo, criando um número inteiro.
-
-Se você criar um número ímpar de grupos ou um número não divisível por 100, você não deve arredondar o número decimal para baixo e criar um número inteiro. Não arredondar o decimal permite especificar intervalos de números não inteiros. Altere a linha a seguir para fazer isso:
-
-`var ran_number=Math.floor(Math.random()*99);`
-
-para:
-
-`var ran_number=Math.random()*99;`
-
-Por exemplo, para atribuir visitantes em três grupos iguais, utilize o código a seguir:
-
-```
-if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
-    if (ran_number <= 32.33) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 65.66) { 
-        return 'GroupB'; 
-    } else { 
-        return 'GroupC'; 
-    } 
-}
-```
 
 ## Depurar scripts de perfil {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -306,7 +218,7 @@ if (mbox.name == 'orderThankyouPage') {
 
 Cria uma variável chamada `monetaryValue`, que pesquisa o valor atual de um determinado visitante (ou define como 0 se não houver um valor anterior). Se o nome da mbox for `orderThankyouPage`, o novo valor monetário será retornado adicionando o anterior e o valor do parâmetro `orderTotal` passado para a mbox.
 
-**** Nome: adobeQA
+**Nome:** adobeQA
 
 ```
 if (page.param("adobeQA"))
