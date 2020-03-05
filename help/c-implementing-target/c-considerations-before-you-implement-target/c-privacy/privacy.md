@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
 description: O Adobe Target possibilitou processos e definições que permitem seu uso em conformidade com as leis de privacidade de dados aplicáveis.
 title: Privacidade
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 O Adobe Target possibilitou processos e definições que permitem seu uso em conformidade com as leis de privacidade de dados aplicáveis.
 
-## Coleta de endereço IP  {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Coleção de endereços IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 O endereço IP de um visitante do seu site é transmitido para um Centro de processamento de dados da Adobe (DPC). Dependendo da configuração de rede do visitante, o endereço IP não representa necessariamente o endereço IP do computador dele. Por exemplo, o endereço IP pode ser o endereço IP externo de um firewall NAT (Network Address Translation, tradução de endereço de rede), proxy HTTP ou gateway de Internet. O Target não armazena nenhum endereço IP do usuário ou nenhuma informação pessoal identificável (PII). Os endereços IP são usados apenas pelo Target para a duração da sessão (na memória, nunca mantidos).
 
-## Substituição do último octeto do endereço IP  {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Substituição do último octeto de endereços IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 O Adobe desenvolveu uma nova configuração de &quot;privacidade por design&quot; que pode ser ativada pelo Adobe Client Care para o Adobe Target. Quando a configuração estiver ativada, o último octeto (a última parte) do endereço IP será omitido imediatamente quando o endereço IP for coletado pela Adobe. Essa anonimização é realizada antes de qualquer processamento do endereço IP, inclusive antes de uma consulta geográfica opcional do endereço IP.
 
@@ -41,7 +41,7 @@ Se você ativar a substituição do último octeto do endereço IP, os valores r
 
 Se os endereços IP forem completamente ofuscados, a GeoSegmentation e a geolocalização não estarão disponíveis.
 
-## Link para opção de não participação {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Você pode adicionar um link para opção de não participação a seus sites para permitir que os visitantes optem por não participar de todas as contagens e entregas de conteúdo.
 
@@ -53,3 +53,7 @@ Você pode adicionar um link para opção de não participação a seus sites pa
 Qualquer visitante que clicar neste link não será incluído em qualquer solicitação de mbox chamadas de suas sessões de navegação até que excluam seus cookies, ou por dois anos, o que acontecer primeiro. Isto funciona através da configuração um cookie chamado `disableClient` para o visitante no domínio `clientcode.tt.omtrdc.net`.
 
 Mesmo se estiver usando uma implementação de cookie primário, a opção de não participação fornecida é definida por meio de um cookie de terceiros. Se o cliente estiver usando apenas um cookie próprio, o Target verificará se um cookie de não participação foi definido.
+
+## Privacidade e regulamentos sobre proteção de dados
+
+See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
