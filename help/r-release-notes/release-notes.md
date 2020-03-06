@@ -5,7 +5,7 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 ---
 
@@ -34,7 +34,7 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 * Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
 
-## Target Standard/Premium 20.2.1 (3 de março de 2020) 
+## Target Standard/Premium 20.2.1 (9 de março de 2020) 
 
 >[!IMPORTANT]
 >
@@ -68,7 +68,7 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
    * Ajuda do usuário aprimorada: Os resultados da pesquisa incluem os resultados da documentação do [!DNL Target] produto, bem como fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudá-lo a obter o máximo proveito [!DNL Target]. Também adicionamos um mecanismo de feedback diretamente no menu [!UICONTROL Ajuda] , facilitando o relatório de problemas ou o compartilhamento de ideias.
 
    * Melhoria na funcionalidade de feedback do Net Promoter Score (NPS) para que o modal da pesquisa não atrapalhe seu fluxo de trabalho.
-   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na página inicial do Target depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], como mostrado abaixo:
+   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na página inicial do Target depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], conforme mostrado abaixo:
 
       ![Página de aterrissagem](/help/r-release-notes/assets/landing.png)
 
