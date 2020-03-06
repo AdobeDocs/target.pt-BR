@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -25,8 +25,6 @@ O Adobe desenvolveu uma nova configuração de &quot;privacidade por design&quot
 
 Quando esse recurso é ativado, o endereço IP fica anônimo de forma que não seja mais identificado como informações pessoais. Assim, o Adobe Target pode ser usado em conformidade com as leis de privacidade de dados em países que não permitem a coleta de informações pessoais. A obtenção de informações do nível da cidade provavelmente será muito afeta pela ofuscação do endereço IP. A obtenção de informações do nível da região e do país será pouco afetada.
 
-Entre em contato com o Adobe Client Care para ativar o recurso de ofuscação do IP.
-
 As seguintes configurações estão disponíveis:
 
 * Sem ofuscação: O Target não oculta nenhuma parte do endereço IP.
@@ -34,6 +32,10 @@ As seguintes configurações estão disponíveis:
 * IP completo: O Target oculta o endereço IP inteiro.
 
 O Target recebe o endereço IP completo e o ofusca (se estiver definido como Último octeto ou IP completo) conforme especificado. O Target mantém o endereço IP ofuscado na memória durante a sessão.
+
+>[!NOTE]
+>
+>[Entre em contato com o Atendimento](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ao cliente da Adobe para determinar que configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
 
 ## GeoSegmentation  {#section_BB69F96559BD44BDA4177537C4A5345A}
 
