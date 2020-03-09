@@ -1,10 +1,10 @@
 ---
-keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Use atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre os itens do catálogo.
 title: Atributos de entidade personalizados
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ O tamanho máximo dos atributos personalizados da entidade de valor único é de
 
 Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
-## Valores de atributos de entidade personalizados {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 Atributos de entidade personalizados podem conter um único valor ou vários valores. Valores de atributos da entidade são exibidos na visualização do produto.
 
@@ -61,7 +61,7 @@ Depois que um atributo personalizado é enviado como uma matriz JSON válida, el
 * As matrizes devem conter um único tipo de valor. Matrizes de valores mistos (`["AB",1,true]`) não são compatíveis.
 * Um atributo de vários valores que inclui uma matriz JSON aninhada (`[10,12,[1,2,3]]`) é tratado como um atributo de valor único.
 
-## Implementar atributos de vários valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`, API de entrega e ta API Salvar entidades para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
 
@@ -109,10 +109,16 @@ Tenha cuidado ao editar diretamente um arquivo CSV de catálogo simples.
 
 **Uso de APIs**
 
+Você pode passar atributos de vários valores usando a API de entrega em um parâmetro de mbox como um valor de string contendo uma matriz JSON escaped.
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Quando você aplica operadores a atributos personalizados de vários valores em regras de inclusão de algoritmo, regras de catálogo e regras de exclusão, o resultado será *true* se pelo menos um valor na lista passar na operação (booleano *ou*).
 
@@ -144,7 +150,7 @@ Consulte a tabela abaixo para obter informações sobre o comportamento do opera
 >
 >*Double* é um tipo de dado Java. Para operadores que exigem valores numéricos, a conversão para double elimina valores não numéricos da consideração nos resultados.
 
-## Atributos de vários valores em Designs  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Os atributos de vários valores aparecerão como uma lista separada por vírgula quando forem referenciados em um design.
 
