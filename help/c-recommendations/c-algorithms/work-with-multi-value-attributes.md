@@ -1,9 +1,9 @@
 ---
-keywords: multi-valor;atributos;recomendações;multi-valor;multivalue
+keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Informações sobre como trabalhar com um campo de vários valores no Adobe Target Recommendations usando operadores especiais de vários valores.
 title: Trabalhar com atributos de vários valores no Adobe Target Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -20,14 +20,24 @@ Para lidar com recomendações nesses cenários, você pode passar dados de vár
 
 Para permitir [!DNL Recommendations] a identificação de dados de vários valores, eles devem ser enviados como uma matriz JSON, como nas amostras de código abaixo.
 
-## Passe um parâmetro mbox de vários valores no JavaScript
+## Enviar um parâmetro de vários valores em JavaScript
 
 ```
- <!-- pass in the value of mbox parameter “favName” as JSON array -->
-<script type="text/javascript">
-   mboxCreate('myMbox','entity.id=<key>','favName=["a","b","c"]');
-</script>
+function targetPageParams() { 
+  return { 
+    'entity.id':                   '123', 
+    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
+    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
+    'entity.event.detailsOnly':     'true', 
+    'excludedIds":                  '[123, 3232, 2323, 4344]', 
+    'orderId":                      '123456', 
+    'orderTotal":                   '195.32', 
+    'productPurchaseId":            '[001,002,003]' 
+  }; 
+}
 ```
+
+Para obter mais informações, consulte [Implementação de atributos](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) de vários valores em atributos *de entidade* Personalizados.
 
 ## Passe um atributo de entidade de vários valores em um arquivo CSV
 
@@ -57,7 +67,7 @@ Os operadores a seguir estão disponíveis para uso com atributos de entidade, p
 
 >[!NOTE]
 >
->Atualmente, o suporte para a correspondência dinâmica com atributos de vários valores está disponível somente em critérios ao usar uma regra de correspondência de atributo de perfil ou parâmetro (mbox) ao comparar um único valor à esquerda com um lado direito de vários valores. O suporte para promoções, correspondência de atributos de entidade e para listas no lado esquerdo das regras de inclusão estará disponível no início de 2020.
+>Atualmente, o suporte para a correspondência dinâmica com atributos de vários valores está disponível somente em critérios ao usar uma regra de correspondência de atributo de perfil ou parâmetro (mbox) ao comparar um único valor do lado esquerdo a um lado direito de vários valores. O suporte para promoções, correspondência de atributos de entidade e para listas no lado esquerdo das regras de inclusão estará disponível no início de 2020.
 
 
 ### Exemplo: Excluir itens observados recentemente
