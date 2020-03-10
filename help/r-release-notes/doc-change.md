@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
+source-git-commit: f26423b4f34ce824383da181deec3a87a7b62cc6
 
 ---
 
@@ -21,7 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 9 de março | [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Foram adicionadas mais informações na seção &quot;Substituição do último octeto de endereços IP&quot;. |
 |  | [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Amostra de código atualizada em *Transmitir um parâmetro de vários valores em JavaScript*. |
 |  | [Atributos de entidade personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md) | Adição de amostra de código em *Uso de APIs* em *Implementação de atributos* de vários valores. |
-|  | [Notas de versão](/help/r-release-notes/release-notes.md) | Data de lançamento alterada para 9 de março. |
+|  | [Notas de versão](/help/r-release-notes/release-notes.md) | Indicado que a data desta versão ainda não foi determinada. |
 | 4 de março | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Atualização de todo o tópico, com revisões extensas para a seção &quot;Práticas recomendadas&quot;. |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md) | Indicado que essa data de lançamento ainda não foi determinada. |
 |  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre métricas obsoletas e alteradas ao usar o Target para o Analytics (A4T). |
