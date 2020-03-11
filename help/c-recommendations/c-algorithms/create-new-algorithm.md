@@ -3,7 +3,7 @@ description: Critérios controlam o conteúdo de suas atividades do Adobe Recomm
 title: Criar critérios
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -438,7 +438,7 @@ Por padrão, todos atributos são definidos como *Linha de base*. Você não pre
 >
 >O algoritmo de semelhança de conteúdo pode usar amostragem aleatória na computação de similaridade entre itens. Como resultado, as classificações de similaridade entre itens podem variar entre execuções de algoritmos.
 
-## Vídeo de treinamento: Criar critérios no Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
