@@ -4,7 +4,7 @@ description: Faça upload de um CSV para personalizar suas recomendações.
 title: Upload dos critérios personalizados
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ Você pode receber as mensagens de erro a seguir se o Target encontrar um proble
 | Diretório não encontrado | Forneça um diretório que exista no servidor. |
 | Arquivo não encontrado | Forneça o nome de um arquivo que exista no servidor dentro do diretório indicado. |
 
-## Vídeo de treinamento: criar critérios no Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Vídeo de treinamento: criar critérios no Recommendations (12:33) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
-Este vídeo contém as seguintes informações:
+Este vídeo contém as seguintes informações (os detalhes sobre como fazer upload de critérios personalizados começam às 11:43):
 
 * Criar critérios
 * Criar sequências de critérios
