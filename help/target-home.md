@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentação do produto do Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -14,7 +14,11 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 11 de março de 2020 ([Veja o que mudou](r-release-notes/doc-change.md))**
+**Última atualização: 12 de março de 2020 ([Veja o que mudou](r-release-notes/doc-change.md))**
+
+>[!IMPORTANT]
+>
+>O Adobe Summit se tornou um evento virtual! A Adobe está removendo todas as paradas com uma experiência digital ao vivo! Essa experiência ao vivo incluirá nosso endereço Keynote de estágio principal, minikeynotes com as últimas tendências e avanços, insights sobre o sucesso dos líderes do setor e sessões de grupo. Para se registrar para obter acesso gratuito a todo o evento digital, acesse [a Conferência da Experiência Digital: Cúpula](https://www.adobe.com/summit.html) .
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
