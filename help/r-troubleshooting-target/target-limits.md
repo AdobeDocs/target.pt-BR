@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -124,7 +124,7 @@ Limites definidos para pontos finais:
 
 Batch mbox v2:
 * parâmetros da mbox 100
-* comprimento máximo do nome do parâmetro mbox 128
+* comprimento máximo do nome do parâmetro da mbox 128
 * o valor do parâmetro mbox não pode ser nulo
 * valor de parâmetro mbox 5000
 * parâmetros de perfil 50
@@ -134,7 +134,7 @@ Batch mbox v2:
 
 Ponto final da API de entrega
 * parâmetros da mbox 50
-* comprimento máximo do nome do parâmetro mbox 128
+* comprimento máximo do nome do parâmetro da mbox 128
 * o valor do parâmetro mbox não pode ser nulo
 * valor de parâmetro mbox 5000
 * parâmetros de perfil 50
@@ -204,9 +204,7 @@ Qualquer valor maior será truncado pelo sistema.
 
 ## Contas/públicos-alvo reutilizáveis
 
-**Limite recomendado**: 75 públicos-alvo.
-
-Os limites de tempo do JavaScript ocorrem na interface caso você tenha limites demais.
+**Limite recomendado**: 20,000 públicos-alvo.
 
 ## Caixa de entrada do perfil de script na interface do usuário do Target
 
