@@ -1,12 +1,12 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
 description: Informações sobre como usar os dados de clientes corporativos provenientes de um banco de dados de gerenciamento de relacionamento com o cliente (CRM) para o direcionamento de conteúdo no Adobe Target, usando os Atributos do cliente no serviço principal de Perfis e públicos-alvo da Adobe.
 title: Atributos do cliente no Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -33,7 +33,7 @@ Considere as seguintes informações ao trabalhar com os atributos do cliente e 
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Em nosso design atual, existe a possibilidade de que uma pequena porcentagem de dados não seja incorporada.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Para obter mais informações, consulte  [Duração do perfil do visitante](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). O perfil será exibido apenas se `authState` for alterado para NÃO AUTENTICADO (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. Se o comportamento desejado for buscar o perfil autenticado, o `vst.myDataSource.authState` precisa ter o valor de 1 (AUTENTICADO).
 
@@ -65,8 +65,8 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Os arquivos de dados de até 100 MB podem ser enviados usando o método de HTTP. Arquivos maiores que 100 MB, até 4 GB, podem ser carregados por FTP.
 
-   * **** HTTPS: Você pode arrastar e soltar o arquivo de dados .csv ou clicar em **[!UICONTROL Procurar]** para fazer upload do seu sistema de arquivos.
-   * **** FTP: Clique no link FTP para [carregar o arquivo por FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). O primeiro passo é fornecer uma senha para o servidor de FTP fornecido pela Adobe. Specify the password, then click **[!UICONTROL Done]**.
+   * **HTTPS:** Você pode arrastar e soltar o arquivo de dados .csv ou clicar em **[!UICONTROL Procurar]** para fazer upload do seu sistema de arquivos.
+   * **FTP:** Clique no link FTP para [carregar o arquivo por FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). O primeiro passo é fornecer uma senha para o servidor de FTP fornecido pela Adobe. Specify the password, then click **[!UICONTROL Done]**.
 
       Agora transfira o arquivo CSV/ZIP/GZIP para o servidor FTP. Depois que a transferência de arquivos for bem-sucedida, crie um novo arquivo com o mesmo nome e extensão .fin. Transfira este arquivo vazio para o servidor. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
