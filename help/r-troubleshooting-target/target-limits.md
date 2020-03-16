@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -40,6 +40,10 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 
 **Limite**: 50 públicos-alvos por mbox, métrica ou experiência.
 
+## Públicos-alvo, reutilizáveis por conta
+
+**Limite recomendado**: 20,000 públicos-alvo.
+
 ## parâmetro categoryId
 
 **Limite**: 128 caracteres.
@@ -51,6 +55,12 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 ## ID de alias do atributo do cliente
 
 **Limite** 50 caracteres.
+
+## Atributos do cliente, upload
+
+* **Tamanho máximo de arquivo para cada upload usando o método** HTTP: 100 MB.
+* **tamanho máximo de arquivo para cada upload usando o método** FTP: 4 GB.
+* **Número de atributos permitidos para assinar**: 5 para [!DNL Target Standard] e 200 para [!DNL Target Premium].
 
 ## Atributos personalizados da entidade
 
@@ -201,10 +211,6 @@ Qualquer valor maior será truncado pelo sistema.
 ## Segmentos/públicos-alvo dos relatórios
 
 **Limite**: 50 públicos-alvos/segmentos por atividade.
-
-## Contas/públicos-alvo reutilizáveis
-
-**Limite recomendado**: 20,000 públicos-alvo.
 
 ## Caixa de entrada do perfil de script na interface do usuário do Target
 
