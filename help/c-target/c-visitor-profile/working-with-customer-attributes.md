@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Para obter mais informações sobre o uso de atributos do cliente no [!DNL Targe
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-Você pode encontrar os seguintes problemas ao trabalhar com atributos do cliente e o [!DNL Target]:
+Você pode encontrar os seguintes problemas ao trabalhar com atributos do cliente e o [!DNL Target].
+
+>[!NOTE]
+>
+>Os problemas 1 e 2 causam aproximadamente 60% dos problemas nessa área. O problema 3 causa aproximadamente 30% dos problemas. O problema 4 causa aproximadamente 5% dos problemas. Os 5% restantes são devido a diversos problemas.
 
 ### Problema 1: Os atributos do cliente são removidos porque o perfil é muito grande
 
@@ -178,11 +182,7 @@ Esteja ciente dos seguintes problemas de implementação:
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
->[!NOTE]
->
->Os problemas 1 e 2 acima causam aproximadamente 60% dos problemas nessa área. O problema 3 causa aproximadamente 30% dos problemas. O problema 4 causa aproximadamente 5% dos problemas. Os 5% restantes são devido a diversos problemas.
-
-## Vídeo de treinamento: Fazer upload de dados offline usando atributos do cliente {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
