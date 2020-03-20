@@ -5,7 +5,7 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 Estas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para as versões mais recentes ou que serão lançadas em breve do [!DNL Adobe Target].
 
-**Última atualização: 9 de março de 2020**
+**Última atualização: 20 de março de 2020**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Estas notas de versão fornecem informações sobre recursos, aprimoramentos e c
    Ao mudar todos os clientes para o at.js, nossos engenheiros e funcionários de suporte poderão fornecer novas funcionalidades e oferecer o suporte que você espera da Adobe.
 
 
-## Target Standard/Premium 20.2.1 (17 de março de 2020) 
+## Target Standard/Premium 20.2.1 (23 de março de 2020) 
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
 * Aprimoramentos de segurança implementados na Política de segurança de conteúdo (CSP). (TGT-36190)
 * Correção de um problema que fazia com que &quot;NaN%&quot; fosse exibido ao deslizar a barra de porcentagem de Ponderação do atributo para a extremidade esquerda. (TGT-36211)
 * Solução de problemas de localização para que o texto da interface em vários idiomas seja exibido corretamente.
-* As seguintes métricas do Adobe Analytics não são mais suportadas pelo Analytics para Target (A4T) em vigor na versão de março de 2020 do Target:
-   * averagvisitdepth
-   * bots
-* As métricas a seguir não são mais suportadas e são convertidas automaticamente em novas versões da métrica na primeira vez que um usuário modifica uma atividade que contém a métrica:
+* Nós padronizamos a lista de métricas disponíveis do Adobe Analytics para atividades do Target (A4T) descontinuando as métricas do Adobe Analytics não suportadas na versão atual das APIs do Adobe Analytics. Isso nos permitirá estender nosso suporte A4T em versões futuras do Adobe Target.
 
-   | Métrica obsoleta | Nova métrica |
+   Foram feitas as seguintes alterações:
+
+   * &quot;Tempo médio gasto na página&quot; foi substituído por &quot;Tempo médio gasto no site&quot;. Todas as atividades que usam essa métrica como métrica a Métrica de meta principal terá &quot;Tempo médio gasto no site&quot; (observação: medida em minutos em vez de segundos) selecionada como a Métrica de meta principal na próxima vez que a atividade for editada.
+   * &quot;Visitantes&quot; foi substituído por &quot;Visitantes únicos&quot;. Todas as atividades que usam essa métrica como a Métrica de meta principal terão &quot;Visitantes únicos&quot; selecionados como a Métrica de meta principal na próxima vez que a atividade for editada.
+
+* As métricas a seguir foram substituídas e não podem mais ser selecionadas como a Métrica de meta principal ao criar uma nova atividade A4T.
+
+   | Métricas obsoletas | Métricas de substituição sugeridas |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (nota: medido em minutos em vez de segundos) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Visitantes diários, Visitantes por hora, Visitantes mensais, Visitantes trimestrais, Visitantes semanais, Visitantes anuais | Visitantes únicos |
+   | Profundidade média da visita | n/d. Não sugerido como uma métrica de objetivo principal |
+   | Bots | n/d. Não sugerido como uma métrica de objetivo principal |
+   | Taxa De Falha Móvel, Duração Média Da Sessão Anterior Móvel, Classificação Média Da Loja De Aplicativos Móveis, Taxa De Falha De Desempenho Do Aplicativo Móvel, Classificação Média Da Loja De Aplicativos Móveis | n/d. Não sugerido como uma métrica de objetivo principal |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
