@@ -5,7 +5,7 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -38,13 +38,13 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 O Adobe Summit se tornou um evento virtual! A Adobe está removendo todas as paradas com uma experiência digital ao vivo a partir de 31 de março de 2020. Essa experiência ao vivo incluirá nosso endereço Keynote de estágio principal, minikeynotes com as últimas tendências e avanços, insights sobre o sucesso dos líderes do setor e sessões de grupo.
 
-* **Assista ao teclado ao vivo**: Saiba mais sobre tendências e novos produtos que estão transformando as indústrias do conforto de seu lugar.
+* **Assista ao teclado ao vivo**: Saiba mais sobre tendências e novos produtos que estão transformando as indústrias do conforto de sua casa.
 * **Explore mais de 100 sessões de grupo por demanda:** Obtenha acesso gratuito a mais de cem sessões de grupo por demanda da Adobe, clientes e parceiros.
 * **Atacar um pico no futuro**: Junte-se à convidada especial Chelsea Handler para ver a mais recente tecnologia experimental dos nossos laboratórios. no Adobe Sneaks.
 
 Para se registrar para obter acesso gratuito a todo o evento digital, acesse [a Conferência da Experiência Digital: Cúpula](https://www.adobe.com/summit.html) .
 
-## Target Standard/Premium 20.2.1 (17 de março de 2020) 
+## Target Standard/Premium 20.2.1 (23 de março de 2020) 
 
 >[!IMPORTANT]
 >
@@ -57,18 +57,21 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
 * Aprimoramentos de segurança implementados na Política de segurança de conteúdo (CSP). (TGT-36190)
 * Correção de um problema que fazia com que &quot;NaN%&quot; fosse exibido ao deslizar a barra de porcentagem de Ponderação do atributo para a extremidade esquerda. (TGT-36211)
 * Solução de problemas de localização para que o texto da interface em vários idiomas seja exibido corretamente.
-* As seguintes métricas do Adobe Analytics não são mais suportadas pelo Analytics para Target (A4T) em vigor na versão de março de 2020 do Target:
-   * averagvisitdepth
-   * bots
-* As métricas a seguir não são mais suportadas e são convertidas automaticamente em novas versões da métrica na primeira vez que um usuário modifica uma atividade que contém a métrica:
+* Nós padronizamos a lista de métricas disponíveis do Adobe Analytics para atividades do Target (A4T) descontinuando as métricas do Adobe Analytics não suportadas na versão atual das APIs do Adobe Analytics. Isso nos permitirá estender nosso suporte A4T em versões futuras do Adobe Target.
 
-   | Métrica obsoleta | Nova métrica |
+   Foram feitas as seguintes alterações:
+
+   * &quot;Tempo médio gasto na página&quot; foi substituído por &quot;Tempo médio gasto no site&quot;. Todas as atividades que usam essa métrica como métrica a Métrica de meta principal terá &quot;Tempo médio gasto no site&quot; (observação: medida em minutos em vez de segundos) selecionada como a Métrica de meta principal na próxima vez que a atividade for editada.
+   * &quot;Visitantes&quot; foi substituído por &quot;Visitantes únicos&quot;. Todas as atividades que usam essa métrica como a Métrica de meta principal terão &quot;Visitantes únicos&quot; selecionados como a Métrica de meta principal na próxima vez que a atividade for editada.
+
+* As métricas a seguir foram substituídas e não podem mais ser selecionadas como a Métrica de meta principal ao criar uma nova atividade A4T.
+
+   | Métricas obsoletas | Métricas de substituição sugeridas |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (nota: medido em minutos em vez de segundos) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Visitantes diários, Visitantes por hora, Visitantes mensais, Visitantes trimestrais, Visitantes semanais, Visitantes anuais | Visitantes únicos |
+   | Profundidade média da visita | n/d. Não sugerido como uma métrica de objetivo principal |
+   | Bots | n/d. Não sugerido como uma métrica de objetivo principal |
+   | Taxa De Falha Móvel, Duração Média Da Sessão Anterior Móvel, Classificação Média Da Loja De Aplicativos Móveis, Taxa De Falha De Desempenho Do Aplicativo Móvel, Classificação Média Da Loja De Aplicativos Móveis | n/d. Não sugerido como uma métrica de objetivo principal |
 
 ## Navegação na Adobe Experience Cloud (22 de fevereiro de 2019)
 
