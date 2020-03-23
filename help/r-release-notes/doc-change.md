@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 24 de março | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Foram adicionadas informações sobre os impactos para o seguinte:<ul><li>Scripts de perfil baseados em 3rdPartyID</li><li>URLs de QA/visualização em dispositivos iOS</li></ul> |
 | 20 de março | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Indicado que a versão do Target Standard/Premium 20.2.1 será 23 de março de 2020. |
 | 13 de março | [Limites](/help/r-troubleshooting-target/target-limits.md) | Número de &quot;Públicos-alvo, reutilizáveis por conta&quot; atualizado. |
 | 12 de março | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md#summit) | Foram adicionadas informações de registro para acesso gratuito à conferência online do Digital Summit. |
