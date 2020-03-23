@@ -1,11 +1,11 @@
 ---
-keywords: apple; ITP; prevenção inteligente de rastreamento
+keywords: apple;ITP;intelligent tracking prevention
 description: Informações sobre suporte do Adobe Target para ITP 2.1 e ITP 2.2 da Apple por meio da biblioteca Experience Cloud ID (ECID) 4.3.
 title: Suporte do Adobe Target e Apple ITP
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -21,9 +21,9 @@ Essas versões da ITP incluem as seguintes restrições:
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Cookies limitados do lado do cliente que são colocados no navegador usando a `document.cookie` API até um prazo de sete dias.<br>Lançado em 21 de fevereiro de 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Redução drástica do prazo de validade de sete dias para um dia.<br>Lançado em 24 de abril de 2019. |
 
-## Qual é o impacto para mim como cliente do Adobe Target?
+## Qual é o impacto para mim como cliente do Adobe Target? {#impact}
 
-O [!DNL Target] fornece bibliotecas JavaScript para implantar em suas páginas para que o [!DNL Target] possa oferecer personalização em tempo real aos seus visitantes. Há três bibliotecas JavaScript do Target ([at.js 1.*x* e at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) e [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) que colocam os [!DNL Target]cookies do lado do cliente nos navegadores de seus visitantes por meio da `document.cookie` API. Como resultado, os [!DNL Target] cookies são afetados pela ITP 2.1 e 2.2 da Apple e expirarão após sete dias (com a ITP 2.1) e após um dia (com a ITP 2.2).
+O [!DNL Target] fornece bibliotecas JavaScript para implantar em suas páginas para que o [!DNL Target] possa oferecer personalização em tempo real aos seus visitantes. Há três bibliotecas JavaScript do Target ([at.js 1.x and at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors&#39; browsers via the `document.cookie` API. Como resultado, os [!DNL Target] cookies são afetados pela ITP 2.1 e 2.2 da Apple e expirarão após sete dias (com a ITP 2.1) e após um dia (com a ITP 2.2).
 
 As versões Apple ITP 2.1 e 2.2 afetam o [!DNL Target] nas seguintes áreas:
 
@@ -31,6 +31,8 @@ As versões Apple ITP 2.1 e 2.2 afetam o [!DNL Target] nas seguintes áreas:
 | --- | --- |
 | Aumento potencial das contagens de visitantes únicos | Como a janela de expiração está sendo definida como sete dias (com a ITP 2.1) e um dia (com a ITP 2.2), você pode ver um aumento de visitantes únicos vindos dos navegadores do Safari. Se os visitantes revisitarem seu domínio após sete dias (ITP 2.1) ou um dia (ITP 2.2), o [!DNL Target] será forçado a colocar um novo [!DNL Target] cookie em seu domínio, no lugar do cookie expirado. O novo [!DNL Target] cookie indica um novo visitante único, mesmo que o usuário seja o mesmo. |
 | Redução nos períodos de pesquisa para [!DNL Target] atividades | Os perfis de visitante para [!DNL Target] atividades podem ter um período de lookback reduzido para a tomada de decisão. Os [!DNL Target] cookies são usados para identificar um visitante e armazenar atributos de perfil do usuário para personalização. Considerando que os [!DNL Target] cookies podem ser expirados no Safari após sete dias (ITP 2.1) ou um dia (ITP 2.2), os dados de perfil do usuário vinculados ao [!DNL Target] cookie não podem ser usados para a tomada de decisão. |
+| Scripts de perfil baseados em 3rdPartyID | Devido à definição da janela de expiração para sete dias (com ITP 2.1) e um dia (com ITP 2.2), os scripts [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil com base no cookie 3rdPartyID deixarão de funcionar após a expiração. |
+| URLs de QA/visualização em dispositivos iOS | Devido à definição da janela de expiração para sete dias (com ITP 2.1) e um dia (com ITP 2.2), os URLs [de](/help/c-activities/c-activity-qa/activity-qa.md) QA/Visualização pararão de funcionar após a expiração, pois os URLs são baseados no cookie 3rdPartyID. |
 
 ## Minha implementação atual do [!DNL Target] será afetada?
 
