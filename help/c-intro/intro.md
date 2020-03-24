@@ -5,7 +5,7 @@ title: Introdução ao Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
 
 Os vídeos a seguir oferecem uma compreensão básica de como o Target, juntamente com outras soluções da Adobe Experience Cloud, podem ajudar a sua empresa a alcançar as metas:
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 A solução [!DNL Adobe Target] contém vários componentes:
 
@@ -38,7 +38,7 @@ As práticas recomendadas do setor são criadas no [!DNL Target Standard] e proj
 
 O [!DNL Target Premium] é uma licença avançada do [!DNL Target] que adiciona recursos premium ao [!DNL Target Standard].
 
-Os tópicos do Target Premium nesta ajuda incluem o selo Premium na parte superior da página:
+Os tópicos do Público alvo Premium nesta ajuda incluem o selo Premium na parte superior da página:
 
 ![Selo premium](/help/assets/premium.png)
 
@@ -99,9 +99,9 @@ Para obter mais informações, consulte a [documentação do Recommendations Cla
 
 Crie seu programa de otimização e personalização no Adobe Target com este kit de boas-vindas! Ele inclui informações importantes, ferramentas e recursos para ajudá-lo a se preparar e lançar sua primeira atividade do Adobe Target, com ganhos rápidos em curto prazo e estratégias de otimização em longo prazo.
 
-[O kit de boas-vindas do Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[O kit de boas-vindas do Público alvo da Adobe](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vídeo de treinamento:Etiqueta de ![Visão Geral dos Tipos de Atividade (9:03)](/help/assets/overview.png)
+## Vídeo de treinamento: Etiqueta de ![Visão Geral de Tipos de Atividades (9:03)](/help/assets/overview.png)
 
 O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium] e como o fluxo de Trabalho guiado em três etapas do Target pode ajudar você a alcançar as metas do seu site.
 
