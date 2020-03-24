@@ -5,7 +5,7 @@ title: Habilitar conteúdo misto em seu navegador
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -38,13 +38,13 @@ Consulte [Esta página possui conteúdo não seguro](https://support.google.com/
 
 ### Vídeo de treinamento: Ativar o VEC no crrome versão 79.0.3945.117 ou posterior (Jan. 2020) ![emblema Visão geral](/help/assets/overview.png)
 
-Se você estiver usando o VEC com a versão mais recente do Chrome (versão 79.0.3945.117 ou posterior), é necessário atualizar as configurações do site. Os visitantes do site não precisarão concluir essas etapas.
+Se você estiver usando o VEC com a versão mais recente do Chrome (versão 79.0.3945.117 ou posterior), é necessário atualizar as configurações do site. Os Visitantes do site não precisarão concluir essas etapas.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 O vídeo acima descreve as etapas necessárias:
 
-1. Clique no ícone de bloqueio ou cuidado e clique em Configurações do site.
+1. Clique no ícone de bloqueio ou cuidado e, em seguida, clique em Configurações do site.
 
    ![Configurações do site](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
