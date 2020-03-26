@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -95,7 +95,7 @@ Cada nó de Edge possui todas as informações necessárias para responder à so
 
 ![Mapear com sites de borda principais e sites de borda](assets/edge_network.png)
 
-The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+A fonte desta imagem é o documento Visão geral [de segurança do](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Público alvo.
 
 A solução Adobe Target é hospedada em data centers próprios e alugados pela Adobe ao redor do mundo. Os servidores de administração são hospedados totalmente em data centers próprios da Adobe em Londres, Cingapura e vários locais nos EUA, incluindo Oregon e Virgínia. Os servidores de borda são hospedados em servidores proprietários da Adobe e alugados pela Adobe em data centers Amazon AWS em Londres, Hong Kong SAR da China, Cingapura, Tóquio e Sydney.
 
