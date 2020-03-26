@@ -1,11 +1,11 @@
 ---
-keywords: host;hosts;grupo de hosts;ambiente;solução de problemas;práticas recomendadas
+keywords: host;hosts;host group;environment;troubleshooting;best practices
 description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 title: Hosts
-topic: Padrão
+topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,8 +17,6 @@ Organize seus sites e ambientes de pré-produção para fácil gerenciamento e g
 ## Hosts {#concept_516BB01EBFBD4449AB03940D31AEB66E}
 
 Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
-
-Uma funcionalidade semelhante existia em [!DNL Target Classic]. Os grupos de host em [!DNL Target Classic] foram chamados de "ambientes" em [!DNL Target Standard/Premium].
 
 O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo inativo seja exibido acidentalmente nos sites. O gerenciamento de host também permite que você separe os dados de relatório por ambiente.
 
@@ -32,7 +30,7 @@ Quando uma solicitação de mbox é recebida em um novos sites ou domínios, ess
 
 O Target não limita um host que pode enviar e receber mboxes. Dessa forma, quando novos servidores ou domínios entram em contato, funcionam automaticamente (a menos que tenha configurado uma lista de permissões ou lista negra). Isso também permite o teste de publicidade em domínios diferentes, desconhecidos ou não previstos.
 
-Para gerenciar hosts e ambientes, clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Hosts]**.
+Para gerenciar hosts e ambientes, clique em **[!UICONTROL Configurar]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
@@ -52,13 +50,13 @@ Para reconhecer um host, as condições a seguir devem ser cumpridas:
 
 Após a visualização de uma página, o host é adicionado na lista de [!UICONTROL Hosts], permitindo que você gerencie-o em uma ambiente, bem como, visualize e inicie atividades e testes.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Isso inclui quaisquer servidores de desenvolvimento pessoal.
 
 Após adicionar um host na lista de [!UICONTROL Host], certifique-se de que o host seja reconhecido.
 
-1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Hosts]**.
+1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Hosts]**.
 1. Se o seu host não estiver listado, atualize seu navegador. 
 Por padrão, um novo host reconhecido é colocado no ambiente de Produção. Esse é o ambiente mais seguro porque ele não permite que atividades inativas sejam visualizadas nesses hosts.
 1. (Condicional) Mova o host para o ambiente de Desenvolvimento ou Ambiente de preparo.
@@ -72,13 +70,13 @@ Por padrão, um novo host reconhecido é colocado no ambiente de Produção. Ess
 Informações para ajudá-lo a gerenciar hosts e ambientes (grupos de hosts) incluindo a configuração de host padrão para geração de relatório, criação de listas de permissão, alteração do nome do ambiente, transferência de um host para outro ambiente e exclusão de um host ou ambiente.
 
 
-Para acessar a lista [!UICONTROL Hosts], clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Hosts]**.
+Para acessar a lista de [!UICONTROL Hosts], clique em **[!UICONTROL Configurar]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
 ## Filtrar, Classificar ou Pesquisar a lista de hosts {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Para filtrar a lista de [!UICONTROL Hosts] por ambiente, clique na lista suspensa **[!UICONTROL Tudo], em seguida, selecione o ambiente desejado (Produção, Armazenamento temporário, Desenvolvimento ou um ambiente personalizado que você criou).**
+Para filtrar a lista de [!UICONTROL Hosts] por ambiente, clique na lista suspensa **[!UICONTROL Tudo]**, em seguida, selecione o ambiente desejado (Produção, Armazenamento temporário, Desenvolvimento ou um ambiente personalizado que você criou).
 
 Para classificar a lista de [!UICONTROL Hosts], clique em qualquer cabeçalho e coluna (Nome, Ambiente ou Última solicitação) para classificar a lista em ordem ascendente ou descendente.
 
@@ -90,7 +88,7 @@ Para selecionar vários hosts, marque as caixas de seleção perto da coluna [!U
 
 ## Criar um ambiente  {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes].**
+1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
 1. Clique em **[!UICONTROL Criar ambiente]**.
 1. Especifique um nome descritivo para o ambiente.
 1. Especifique o modo ativo desejado para o ambiente: [!UICONTROL Atividades ativas] ou [!UICONTROL Atividades ativas e inativas].
@@ -100,12 +98,12 @@ Para selecionar vários hosts, marque as caixas de seleção perto da coluna [!U
 
 Você pode selecionar o ambiente que deseja usar como padrão em todos os relatórios de atividade.
 
-Se você usa a Produção como seu padrão, todos os hosts desconhecidos são automaticamente adicionados aqui os dados de relatórios deles são incluídos na exibição de relatório padrão. Em vez disso, criar um ambiente "limpo" garante somente a inclusão dos seus sites/domínios principais.
+Se você usa a Produção como seu padrão, todos os hosts desconhecidos são automaticamente adicionados aqui os dados de relatórios deles são incluídos na exibição de relatório padrão. Em vez disso, criar um ambiente &quot;limpo&quot; garante somente a inclusão dos seus sites/domínios principais.
 
 Para definir o ambiente padrão para relatório:
 
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Configurações].**
-1. Selecione o host padrão na lista suspensa **[!UICONTROL Configurações do ambiente].**
+1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Configurações]**.
+1. Selecione o host padrão na lista suspensa **[!UICONTROL Configurações do ambiente]**.
 1. Clique em **[!UICONTROL Salvar]**.
 
 >[!NOTE]
@@ -118,9 +116,9 @@ Você pode criar uma lista de permissões que especifica hosts (domínios) autor
 
 Para criar uma lista de permissões:
 
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Configurações].**
-1. Marque a caixa de seleção **[!UICONTROL Ativar hosts autorizados para entrega de conteúdo].**
-1. Adicione os hosts desejados na caixa **[!UICONTROL Host contém], conforme desejado.**
+1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Configurações]**.
+1. Marque a caixa de seleção **[!UICONTROL Ativar hosts autorizados para entrega de conteúdo]**.
+1. Adicione os hosts desejados na caixa **[!UICONTROL Host contém]**, conforme desejado.
 
    Vários hosts podem ser listados, cada um na própria linha.
 
@@ -138,7 +136,7 @@ Você também pode criar uma lista negra que especifica os hosts (domínios) que
 
 ## Alterar o nome de um ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes].**
+1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
 1. Passe o cursor do mouse sobre o ambiente desejado, em seguida clique no ícone de **[!UICONTROL Editar.]**
 1. Altere o nome do ambiente.
 1. Clique em **[!UICONTROL Salvar]**.
@@ -155,7 +153,7 @@ Você pode excluir um host quando ele não é mais necessário.
 
 1. Na lista de [!UICONTROL Hosts], passe o cursor do mouse sobre o host que deseja excluir.
 1. Clique no ícone de **[!UICONTROL Excluir.]**
-1. Clique em **[!UICONTROL Excluir]para confirmar a exclusão.**
+1. Clique em **[!UICONTROL Excluir]** para confirmar a exclusão.
 
 >[!NOTE]
 >
@@ -165,10 +163,10 @@ Você pode excluir um host quando ele não é mais necessário.
 
 Você pode excluir um ambiente quando ele não é mais necessário.
 
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes].**
+1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
 1. Passe o cursor do mouse sobre o ambiente que deseja excluir.
 1. Clique no ícone de **[!UICONTROL Excluir.]**
-1. Clique em **[!UICONTROL Excluir]para confirmar a exclusão.**
+1. Clique em **[!UICONTROL Excluir]** para confirmar a exclusão.
 
 >[!NOTE]
 >
@@ -212,8 +210,8 @@ Se você não visualiza seus produtos, certifique-se de que você esteja usando 
 
 O filtro Ambiente está disponível nos seguintes locais da interface do usuário do Target:
 
-* Pesquisa do catálogo ([!UICONTROL Recommendations&gt; Pesquisa do catálogo])
-* Caixa de diálogo Criar coleção ([!UICONTROL Recommendations&gt; Coleções &gt; Criar nova])
-* Caixa de diálogo Atualizar coleção ([!UICONTROL Recommendations &gt; Coleções &gt; Editar])
-* Caixa de diálogo Criar exclusão ([!UICONTROL Recommendations &gt; Exclusões &gt; Criar novo])
-* Caixa de diálogo Atualizar exclusão ([!UICONTROL Recommendations &gt; Exclusões &gt; Editar])
+* Pesquisa do catálogo ([!UICONTROL Recommendations> Pesquisa do catálogo])
+* Caixa de diálogo Criar coleção ([!UICONTROL Recommendations> Coleções > Criar nova])
+* Caixa de diálogo Atualizar coleção ([!UICONTROL Recommendations > Coleções > Editar])
+* Caixa de diálogo Criar exclusão ([!UICONTROL Recommendations > Exclusões > Criar novo])
+* Caixa de diálogo Atualizar exclusão ([!UICONTROL Recommendations > Exclusões > Editar])
