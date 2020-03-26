@@ -1,10 +1,10 @@
 ---
 description: Definição de termos.
 title: Glossário do Adobe Target
-topic: Padrão
+topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -73,7 +73,7 @@ Testa e acompanha visita para anúncios e outros conteúdos de deslocamento. Tam
 
 **campaign**
 
-O mesmo que "atividade"
+O mesmo que &quot;atividade&quot;
 
 **pontuação de captura**
 
@@ -161,7 +161,7 @@ Um novato é um visitante que atende aos critérios para entrar em uma atividade
 
 **ambiente**
 
-Os hosts são agrupados em ambientes para facilitar o gerenciamento. Os grupos de hosts predefinidos são Produção, Armazenamento temporário e Desenvolvimento. No entanto, é possível adicionar novos grupos de hosts e renomear os já existentes. Os ambientes eram chamados de "grupos de hosts" no [!DNL Target Classic].
+Os hosts são agrupados em ambientes para facilitar o gerenciamento. Os grupos de hosts predefinidos são Produção, Armazenamento temporário e Desenvolvimento. No entanto, é possível adicionar novos grupos de hosts e renomear os já existentes.
 
 **experiência**
 
@@ -203,7 +203,7 @@ Qualquer servidor da Web (ou domínio da Web) de onde você disponibiliza conte�
 
 **grupo de hosts**
 
-Consulte *Ambiente*. Os grupos de hosts são chamados de "ambientes" no [!DNL Target Standard/Premium].
+Consulte *Ambiente*. Os grupos de hosts são chamados de &quot;ambientes&quot; no [!DNL Target Standard/Premium].
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
@@ -225,7 +225,7 @@ Uma área de conteúdo específico em uma página, normalmente, contido por um e
 
 **mbox**
 
-"Marketing box", o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
+&quot;Marketing box&quot;, o local da página da Web em que o conteúdo é exibido e o comportamento do visitante é registrado. Algumas mboxes não exibem nada. Elas podem rastrear o progresso do visitante no site da Web ou podem rastrear se o visitante atender uma métrica específica de sucesso, como adicionar um item ao carrinho de compras ou concluir uma compra. Esse tipo de mbox é uma *mbox de conversão*.
 
 **mbox.js**
 
