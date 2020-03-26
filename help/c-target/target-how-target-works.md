@@ -1,19 +1,17 @@
 ---
-keywords: direcionamento, cookie, cookie de origem, cookie de origem
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target integra-se com as páginas da Web por meio da biblioteca de JavaScript de at.js ou mbox.js.
 title: Como funciona o direcionamento
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # Como funciona o direcionamento{#how-targeting-works}
 
-Adobe Target integra-se com as páginas da Web por meio da biblioteca de JavaScript de at.js ou mbox.js.
-
-O [!DNL Target Classic] usa as mboxes em cada área na página onde você deseja exibir o conteúdo direcionado ou coletar os dados. Essas mboxes não são exigidas no [!DNL Target Standard]. Em vez disso, uma biblioteca de JavaScript referenciada em cada página é tudo que você precisa para executar suas atividades de otimização.
+Adobe Target integra-se com as páginas da Web por meio da biblioteca de JavaScript de at.js ou mbox.js. Uma biblioteca JavaScript referenciada em cada página é tudo o que você precisa para executar suas atividades de otimização.
 
 Cada vez que um visitante solicita uma página ativada pelo, o [!DNL Target]Target usa o seguinte processo para fornecer as ofertas:
 
