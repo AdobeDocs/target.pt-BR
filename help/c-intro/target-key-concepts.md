@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -46,8 +46,6 @@ Os locais são essenciais para as atividades e experiências. Você pode decidir
 * Registrar em log o comportamento do visitante.
 
 No [!DNL Target Standard], um local pode ser qualquer elemento em uma página, desde que a página contenha uma única linha de código que ative o [!DNL Target] na seção `<head>` de cada página que você deseja rastrear. Essa linha de código chama as bibliotecas JavaScript necessárias para coletar informações e oferecer experiências direcionadas aos visitantes.
-
-Consulte [Vantagens da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) para obter mais informações sobre as diferenças entre implementação de local no [!DNL Target Standard] e a implementação da mbox no [!DNL Target Classic].
 
 As localizações são combinadas aos públicos para fornecer um número quase infinito de opções para direcionar informações para os clientes. Por exemplo, se um visitante nunca tiver visitado o site antes, você poderá exibir um cupom de desconto para novos clientes. Da mesma forma, a página poderá ser alterada para exibir ofertas mais otimizadas para clientes que retornam.
 
@@ -119,7 +117,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Usar públicos-alvo no selo de ![visão geral do Adobe Target (6:21)](/help/assets/overview.png)
+### Usar o Audiência no crachá ![Visão geral do Adobe Público alvo (6:21)](/help/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
