@@ -5,7 +5,7 @@ title: Informações sobre a função targetGlobalSettings() da biblioteca at.js
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -30,9 +30,9 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 | timeout | Número | Valor definido via IU | Representa o tempo limite da solicitação do Target Edge |
 | globalMboxAutoCreate | Booleano | Valor definido via IU | Indica se a solicitação global de mbox deve ser disparada ou não |
 | visitorApiTimeout | Número | 2000 ms = 2 s | Representa o tempo limite da solicitação da API de visitante |
-| ativado | Booleano | true | Quando ativada, uma solicitação do Target para recuperar experiências e a manipulação do DOM para renderizar as experiências é executada automaticamente. Além disso, as chamadas do Target podem ser executadas manualmente via `getOffer(s)` / `applyOffer(s)`<br>Quando desativadas, as solicitações do Target não são executadas automática ou manualmente |
+| ativado | Booleano | true | Quando ativada, uma solicitação de Público alvo para recuperar experiências e a manipulação de DOM para renderizar as experiências é executada automaticamente. Além disso, as chamadas de Público alvo podem ser executadas manualmente via `getOffer(s)` / `applyOffer(s)`<br>Quando desativadas, as solicitações de Público alvo não são executadas automática ou manualmente |
 | pageLoadEnabled | Booleano | true | Quando ativado, recupera automaticamente experiências que devem ser retornadas ao carregar a página |
-| viewsEnabled | Booleano | true | Quando ativado, recupera automaticamente as exibições que devem ser retornadas no carregamento da página. As exibições são suportadas em at.js 2.somente *x* |
+| viewsEnabled | Booleano | true | Quando habilitado, recupere automaticamente visualizações que devem ser retornadas no carregamento da página. As Visualizações são suportadas em at.js 2.somente *x* |
 | defaultContentHiddenStyle | String | visibility: hidden | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe &quot;mboxDefault&quot; e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para ocultar conteúdo padrão |
 | defaultContentVisibleStyle | String | visibility: visible | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe &quot;mboxDefault&quot; e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para revelar uma oferta aplicada, caso exista, ou conteúdo padrão |
 | bodyHiddenStyle | String | body { opacity: 0 } | Usado apenas quando `globalMboxAutocreate === true` para minimizar a chance de cintilação.<br>Para obter mais informações, consulte [Como o at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
@@ -44,6 +44,8 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 | optoutEnabled | Booleano | false | Indica se o Target deve chamar a função `isOptedOut()` da API de visitante. Isso é parte da ativação do gráfico de dispositivos. |
 | selectorsPollingTimeout | Número | 5000 ms = 5 s | Na at.js 0.9.6, o Target apresentou essa nova configuração que pode ser anulada via `targetGlobalSettings`.<br>`selectorsPollingTimeout` representa quanto tempo o cliente está disposto a esperar até que todos os elementos identificados por seletores sejam exibidos na página.<br>Atividades criadas pelo Visual Experience Composer (VEC) têm ofertas que contêm seletores. |
 | dataProviders | Consulte &quot;Provedores de dados&quot; abaixo. | Consulte &quot;Provedores de dados&quot; abaixo. | Consulte &quot;Provedores de dados&quot; abaixo. |
+| cspScriptNonce | Consulte &quot;Política de segurança de conteúdo&quot; abaixo. | Consulte &quot;Política de segurança de conteúdo&quot; abaixo. | Consulte &quot;Política de segurança de conteúdo&quot; abaixo. |
+| cspStyleNonce | Consulte &quot;Política de segurança de conteúdo&quot; abaixo. | Consulte &quot;Política de segurança de conteúdo&quot; abaixo. | Consulte &quot;Política de segurança de conteúdo&quot; abaixo. |
 
 ## Uso {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -176,20 +178,43 @@ Leve em consideração o seguinte ao trabalhar com a configuração `dataProvide
 * Se os provedores de dados adicionados a `window.targetGlobalSettings.dataProviders` forem assíncronos, serão executados em paralelo. A solicitação da API de visitante será executada em paralelo com funções adicionadas a `window.targetGlobalSettings.dataProviders` para permitir um tempo mínimo de espera.
 * at.js não tentará armazenar os dados em cache. Se o provedor de dados obtiver os dados apenas uma vez, deverá certificar-se de que os dados estão armazenados em cache e, quando a função de provedor for invocada, servir os dados do cache para a segunda invocação.
 
+## Content Security Policy {#content-security}
+
+O at.js 2.3.0+ oferece suporte à definição de políticas de segurança de conteúdo em tags SCRIPT e STYLE anexadas ao DOM da página ao aplicar ofertas Públicos alvos entregues.
+
+As funções SCRIPT e STYLE devem ser definidas em `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` de forma correspondente, antes do carregamento de at.js 2.3.0+. Veja um exemplo abaixo:
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar o Público alvo oferta.
+
 ## serverState {#server-state}
 
-`serverState` é uma configuração disponível em at.js v2.2+ que pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida.
+`serverState` é uma configuração disponível em at.js v2.2+ que pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Público alvo é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API do delivery ou um SDK do Público alvo no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida.
 
 ### Pré-requisitos
 
 Você deve ter uma integração híbrida de [!DNL Target].
 
-* **Do lado** do servidor:  Você deve usar a nova API [de](https://developers.adobetarget.com/api/delivery-api/) entrega ou SDKs [](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)do Target.
+* **Do lado** do servidor:  Você deve usar a nova API [do](https://developers.adobetarget.com/api/delivery-api/) delivery ou os SDKs [do](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)Público alvo.
 * **Cliente**: Você deve usar [a versão 2.2 ou posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)do at.js.
 
 ### Amostras de código
 
-Para entender melhor como isso funciona, consulte os exemplos de código abaixo que você teria em seu servidor. O código supõe que você esteja usando o SDK [do](https://github.com/adobe/target-nodejs-sdk)Target Node.js.
+Para entender melhor como isso funciona, consulte os exemplos de código abaixo que você teria em seu servidor. O código supõe que você esteja usando o SDK [Node.js do](https://github.com/adobe/target-nodejs-sdk)Público alvo.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -219,7 +244,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-Uma amostra de `serverState` objeto JSON para exibição de busca prévia é exibida da seguinte maneira:
+Um objeto de amostra JSON para busca prévia de visualização é exibido da seguinte maneira: `serverState`
 
 ```
 {
@@ -298,14 +323,14 @@ Considere o seguinte ao usar `serverState`:
 
 * No momento, o at.js v2.2 suporta apenas a entrega de experiências via serverState para:
 
-   * Atividades criadas pela VEC que são executadas no carregamento da página.
-   * Exibições pré-buscadas.
+   * atividades criadas por VEC que são executadas no carregamento da página.
+   * visualizações pré-buscadas.
 
-      No caso de SPAs que usam [!DNL Target] Exibições e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Exibições pré-buscadas no lado do servidor e as aplica assim que cada Exibição é acionada `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Target.
+      No caso de SPAs que usam [!DNL Target] Visualização e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Visualizações pré-buscadas no lado do servidor e as aplica assim que cada Visualização é acionada `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Público alvo.
 
    * **Observação**:  Atualmente, as mboxes recuperadas no servidor não são suportadas em `serverState`.
 
-* Ao aplicar `serverState `ofertas, o at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a `pageLoadEnabled` configuração for falsa.
+* Ao aplicar o `serverState `oferta, o at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` as configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a `pageLoadEnabled` configuração for falsa.
 
    Para ativar essas configurações, ative a alternância em Configuração do **[UICONTROL > Implementação > Editar configurações > Carregamento de página ativado]**.
 
