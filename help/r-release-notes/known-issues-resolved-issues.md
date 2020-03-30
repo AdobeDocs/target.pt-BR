@@ -1,10 +1,10 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Informações sobre problemas conhecidos desta versão do Adobe Target. Também inclui informações sobre problemas que foram resolvidos.
+description: Informações sobre problemas conhecidos desta versão do Público alvo da Adobe. Também inclui informações sobre problemas que foram resolvidos.
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -21,9 +21,9 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
-### Entrega da página {#page-delivery}
+### delivery de página {#page-delivery}
 
-Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) na entrega [da](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)página, espaços adicionais recebem o prefixo de suas regras. Esse é um problema superficial e não afeta a criação de definição de público-alvo e a entrega de ofertas. (TGT-35916)
+Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no delivery [da](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)página, espaços adicionais recebem o prefixo de suas regras. Esse é um problema superficial e não afeta a criação de definição de audiências e o delivery de ofertas. (TGT-35916)
 
 ### Links de visualização de QA da atividade {#preview}
 
@@ -63,11 +63,11 @@ As ofertas de código criadas na interface do usuário do Target na biblioteca d
 A seguir, os problemas conhecidos com atividades de recomendações:
 
 * As entidades expiraram corretamente após 60 dias de não receberem atualizações através de feed ou API; no entanto, as entidades expiradas não são removidas do índice de Pesquisa de catálogo após a expiração. (IRI-857)
-* As sobreposições &quot;Informações de uso&quot; para Critérios e Designs não refletem seu uso em atividades A/B e direcionamento de experiência (TGT-34331)
-* As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma visualização da bandeja do Recommendations (TGT-33426)
-* Coleções, exclusões, critérios e designs criados por meio da API não estão visíveis na interface do usuário do Target e só podem ser editados por meio da API. (TGT-35777)
+* As sobreposições &quot;Informações de uso&quot; para Critérios e Designs não refletem seu uso em atividades A/B e Experience Targeting (TGT-34331)
+* Ofertas do Recommendations em atividades A/B e direcionamento de experiência não mostram uma pré-visualização visual da bandeja do Recommendations (TGT-33426)
+* Coleções, exclusões, critérios e designs criados por meio da API não estão visíveis na interface do usuário do Público alvo e só podem ser editados por meio da API. (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
-* O status do feed de Critérios personalizados exibido na exibição da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar mais de dez minutos desatualizado em raras circunstâncias. O status exibido na exibição de edição de Critérios personalizados é obtido em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
+* O status do feed de Critérios personalizados exibido na visualização de lista de critérios (cartão) é atualizado a cada dez minutos e pode estar mais de dez minutos desatualizado em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é obtido em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
 
 ### Atividades de teste multivariado (MVT)
 
@@ -77,9 +77,10 @@ Em uma atividade de MVT, os vencedores mostrados na tabela e no gráfico não s�
 
 A seguir, os problemas conhecidos com at.js:
 
-* Se você criar uma experiência sem modificações usando o at.js 2.1.1 ou anterior (por exemplo, uma experiência padrão), a experiência pode não ser contada nos relatórios, no Analytics para Target (A4T), no Adobe Analytics ou no Google Analytics. Além disso, o plug-in [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) pode não funcionar corretamente.
+* Ao usar as versões do at.js anteriores à 2.2.0, o rastreamento de cliques não relata conversões no Analytics para Públicos alvos (A4T) se o código do Adobe Analytics não estiver presente nos elementos da página (como botões). Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) mais recente do at.js se você encontrar esse problema.
+* Se você criar uma experiência sem modificações usando o at.js 2.1.1 ou anterior (por exemplo, uma experiência padrão), a experiência pode não ser contada nos relatórios, no Analytics para Públicos alvos (A4T), no Adobe Analytics ou no Google Analytics. Além disso, o plug-in [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) pode não funcionar corretamente.
 
-   Como solução, use um espaço em branco no conteúdo da experiência. (TNT-33366)
+   Como uma solução alternativa, use um espaço em branco no conteúdo da experiência. (TNT-33366)
 
    >[!NOTE]
    >
