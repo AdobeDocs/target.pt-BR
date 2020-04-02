@@ -5,7 +5,7 @@ title: Implementação de aplicativos de página única no Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -274,17 +274,17 @@ Se as etapas anteriores forem seguidas, você terá uma solução A4T robusta pa
 
 Os seguintes vídeos contêm mais informações:
 
-### Noções básicas sobre o funcionamento da at.js 2.x
+### Noções básicas sobre o funcionamento da at.js 2.x Etiqueta ![Visão geral](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) Etiqueta ![Visão geral](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Consulte [Como o at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
 
-### Implementar a at.js 2.x em um SPA
+### Implementação do at.js 2.x em um selo do ![tutorial do SPA](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Consulte [Implementar o at.js 2.x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
+Consulte [Implementação do Público alvo da Adobe at.js 2.x em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
