@@ -5,7 +5,7 @@ title: Atualize do Adobe Target at.js versão 1.*x* para o at.js versão 2.*x*
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -286,7 +286,11 @@ No Target, o cookie de terceiros é armazenado no `<CLIENTCODE>.tt.omtrdc.net`. 
 
 No entanto, no at.js 2.*x*, o HTTP GET não é mais usado e, em vez disso, usamos o HTTP POST. Agora o HTTP POST é usado por meio do at.js 2.*x* para enviar cargas JSON para os servidores do Target Edge. Isso significa que a solicitação de redirecionamento para verificar se um navegador suporta cookies de terceiros agora está rompida. Isso ocorre porque as solicitações HTTP GET são transações idempotentes, enquanto HTTP POST é não idempotente e não deve ser repetido arbitrariamente. Por isso, o rastreamento entre domínios no at.js 2.*x* não é mais compatível imediatamente. Somente o at.js 1.*x* tem suporte pronto para uso para rastreamento entre domínios.
 
-Se quiser usar o rastreamento entre domínios, instale a biblioteca [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) em conjunto com at.js 2.*x*. A biblioteca da ECID existe para gerenciar IDs persistentes usadas para identificar um visitante, mesmo entre domínios. Depois de instalar a biblioteca da ECID v4.3.0+ e o at.js 2.*x*, você poderá criar atividades que abrangem domínios exclusivos e rastrear usuários.
+Se quiser usar o rastreamento entre domínios, instale a biblioteca [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) em conjunto com at.js 2.*x*. A biblioteca da ECID existe para gerenciar IDs persistentes usadas para identificar um visitante, mesmo entre domínios.
+
+>[!NOTE]
+>
+>Depois de instalar a biblioteca da ECID v4.3.0+ e o at.js 2.*x*, você poderá criar atividades que abrangem domínios exclusivos e rastrear usuários. É importante observar que essa funcionalidade funciona somente após a sessão expirar.
 
 ### Criar automaticamente mbox global é compatível
 
@@ -313,9 +317,9 @@ Quando uma chamada de pré-busca é feita no [!DNL Target] backend, os scripts d
 
 Não, não é necessário adicionar código de pré-ocultação antes de chamar `triggerView()`. at.js 2.*x*  A gerencia a lógica de pré-ocultação e cintilação antes da exibição e aplicação da exibição.
 
-### Que at.js 1.*Parâmetros x* para criar públicos-alvo não são suportados em at.js 2.*x*? {#audience-parameters}
+### Que at.js 1.*Os parâmetros x* para criar audiência não são suportados no at.js 2.*x*? {#audience-parameters}
 
-Os seguintes parâmetros at.js 1.x *NÃO* são suportados atualmente para criação de público-alvo ao usar o at.js 2.*x*:
+Os seguintes parâmetros at.js 1.x *NÃO* são suportados atualmente para criação de audiência ao usar o at.js 2.*x*:
 
 * browserHeight
 * browserWidth
@@ -756,4 +760,4 @@ at.js 2.*x*  A aprimora o suporte do Adobe Target para SPAs e integra-se com out
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Consulte [Como entender o at.js 2.*O x* funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+Consulte [Entendendo como o at.js 2.*O x* funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
