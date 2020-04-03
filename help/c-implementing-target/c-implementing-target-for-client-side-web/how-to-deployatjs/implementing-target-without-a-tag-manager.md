@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -37,8 +37,8 @@ Informações para ajudar a definir várias configurações na página Configura
 
 Para abrir a página [!UICONTROL Configurações]:
 
-1. Clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Implementação]**.
-1. Selecione **[!UICONTROL at.js]**>**[!UICONTROL  Editar configurações de at.js]**.
+1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Implementação]**.
+1. Selecione **[!UICONTROL at.js]** > **[!UICONTROL Editar configurações de at.js]**.
 
 ## Configurações de entrega de conteúdo {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -89,7 +89,7 @@ ov2/c_target-configure-atjs.xml
 
 Para baixar a [!DNL at.js] na interface do [!DNL Target]:
 
-1. Clique em **[!UICONTROL Configurar]**>**[!UICONTROL  Implementação]**.
+1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Implementação]**.
 1. Selecione **[!UICONTROL at.js]**.
 1. Clique em **[!UICONTROL Baixar at.js]**.
 
@@ -99,7 +99,7 @@ Para baixar a [!DNL at.js] usando a API.
 
 1. Obtenha o seu código de cliente.
 
-   O código de cliente está disponível na parte superior da página **[!UICONTROL Configurar]**>**[!UICONTROL  Implementação]** > **[!UICONTROL Editar configurações da at.js]**na interface do[!DNL Target].
+   O código de cliente está disponível na parte superior da página **[!UICONTROL Configurar]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar configurações da at.js]** na interface do [!DNL Target].
 
 1. Obtenha o seu número de administrador.
 
@@ -126,7 +126,7 @@ Para baixar a [!DNL at.js] usando a API.
    Carregue este URL com a seguinte estrutura:
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Replace `admin number` with your admin number.
@@ -202,7 +202,7 @@ Uma implementação típica do Target que não usa um gerenciador de tags como o
 Considere as informações importantes a seguir:
 
 * O HTML5 Doctype (por exemplo, `<!doctype html>`) deve ser usado. Doctypes não compatíveis ou mais antigos poderiam imperdir o Target de fazer uma solicitação.
-* Pré-conectar e Buscar previamente são opções que podem auxiliar no carregamento mais rápido das páginas da Web. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
+* Pré-conectar e Buscar previamente são opções que podem auxiliar no carregamento mais rápido das páginas da Web. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** page.
 * Se você tiver uma camada de dados, é ideal definir o máximo dela possível em `<head>` das suas páginas, antes dos carregamentos da at.js. Esse posicionamento fornece a capacidade máxima de aproveitar essas informações no Target para personalização.
 * As funções especiais do Target, como `targetPageParams()`, `targetPageParamsAll()`, Provedores de dados e `targetGlobalSettings()` devem ser definidas após a camada de dados e antes dos carregamentos da at.js. Como alternativa, é possível salvá-las na seção [!UICONTROL Cabeçalho da biblioteca] da página [!UICONTROL Editar configurações da at.js] e como parte da própria biblioteca at.js. Para obter mais informações sobre essas funções, consulte  [Funções da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Se você usar as bibliotecas auxiliares do JavaScript, como jQuery, inclua-as antes do Target, para que possa aproveitar a sintaxe e métodos delas ao criar as experiências do Target.
