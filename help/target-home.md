@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentação do produto do Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -15,10 +15,6 @@ source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
 **Última atualização: 2 de abril de 2020 ([Veja o que mudou](r-release-notes/doc-change.md))**
-
->[!IMPORTANT]
->
->O Adobe Summit se tornou um evento virtual! A Adobe está removendo todas as paradas com uma experiência digital ao vivo! Essa experiência ao vivo incluirá nosso endereço Keynote de estágio principal, minikeynotes com as últimas tendências e avanços, insights sobre o sucesso dos líderes do setor e sessões de grupo. Para se registrar para acesso gratuito a todo o evento digital, vá para [A Conferência da Experiência Digital: Cúpula](https://www.adobe.com/summit.html) .
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
@@ -74,4 +70,4 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 | Ajuda das soluções do Adobe [!DNL Target] | [!DNL Adobe Experience Cloud] recursos |
 |--- |--- |
-| <ul><li>[Aprendizagem e suporte do Público alvo Adobe](https://helpx.adobe.com/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentação da API do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Fórum da comunidade do Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de versão da Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Página inicial da ajuda da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Aprendizagem e suporte do Público alvo Adobe](https://helpx.adobe.com/br/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentação da API do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Fórum da comunidade do Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de versão da Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Página inicial da ajuda da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
