@@ -5,7 +5,7 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
+source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 ---
 
@@ -16,23 +16,16 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 >[!NOTE]
 >
->* **Alterações** de suporte a TLS: A partir de 1º de março de 2020, o Público alvo desativará o suporte para criptografia TLS 1.1 e TLS 1.0. A Segurança da camada de transporte (TLS) é o protocolo de segurança mais amplamente implantado usado atualmente em navegadores Web e outros aplicativos que exigem dados trocados de maneira segura por meio de uma rede. Essa alteração é necessária para atender ao padrão de conformidade de segurança geralmente aceito do TLS 1.2 ou superior. Verifique qual versão do TLS você está usando no momento. Se sua versão for inferior a 1.2, implemente as alterações necessárias antes de 1º de março de 2020 para continuar a usar o Público alvo conforme esperado.
-   >
-   >   
-   Para obter informações detalhadas sobre o possível impacto e as etapas que podem ser necessárias para atualizar sua implementação, consulte Alterações [de criptografia de](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS (Transport Layer Security).
-   >
-   >
-* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Público alvo da Adobe não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Público alvo em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Público alvo da Adobe não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Público alvo em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    Embora a mbox.js seja atualmente compatível, não fornecemos atualizações de recursos para esta biblioteca desde julho de 2017. O mais recente at.js oferece muitas vantagens sobre o mbox.js. Entre outros benefícios, o at.js melhora o tempo de carregamento da página para implementações da Web, melhora a segurança e oferece melhores opções de implementação para aplicativos de página única.
    >
    >   
    Ao mudar todos os clientes para o at.js, nossos engenheiros e funcionários de suporte poderão fornecer novas funcionalidades e oferta do suporte que você espera da Adobe.
-   >
-   >
-* Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
+
+Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
 ## Público alvo at.js (25 de março de 2020)
 
@@ -80,7 +73,7 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
    * Ajuda do usuário aprimorada: Os resultados da pesquisa incluem os resultados da documentação do [!DNL Target] produto, bem como fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudá-lo a obter o máximo proveito [!DNL Target]. Também adicionamos um mecanismo de feedback diretamente no menu [!UICONTROL Ajuda] , facilitando o relatório de problemas ou o compartilhamento de ideias.
 
    * Funcionalidade de feedback NPS (Net Promoter Score) aprimorada, de modo que o modal da pesquisa não atrapalha seu fluxo de trabalho.
-   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na landing page do Público alvo depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], como mostrado abaixo:
+   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na landing page do Público alvo depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], conforme mostrado abaixo:
 
       ![Página de aterrissagem](/help/r-release-notes/assets/landing.png)
 
