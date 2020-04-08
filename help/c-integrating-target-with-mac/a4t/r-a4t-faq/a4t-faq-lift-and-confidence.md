@@ -5,7 +5,7 @@ title: Aumento e Confiança - Perguntas frequentes sobre o A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: b5191230c76135d5299754e72c9651d018086e60
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -26,15 +26,15 @@ Aumento é a diferença percentual entre os resultados da página de controle e 
 
 O nível de confiança é a probabilidade de a taxa de conversão medida diferir da taxa de conversão da página de campeão por outros motivos que não o acaso.
 
-## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#section_D3E44E24782A409DBD88AE4D1595CB58}
+## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#lift-confidence}
 
-No momento, o incentivo e a confiança não são suportados com métricas calculadas. No entanto, na maioria dos casos isso não deve ser um problema, pois a taxa de conversão calculada no relatório A4T já é uma métrica calculada na qual o denominador é a métrica de normalização (instâncias, visitas, visitantes). Por exemplo, se você selecionar a métrica de ordens e a métrica de normalização for visitantes, a taxa de conversão (pedidos/visitante) será calculada automaticamente por meio do relatórios A4T. A métrica de incentivo resultante reflete a diferença nessa taxa de conversão entre as experiências de texto quando comparada ao padrão.
+No momento, o incentivo e a confiança não são suportados com métricas calculadas. No entanto, na maioria dos casos isso não deve ser um problema, pois a taxa de conversão calculada no relatório A4T já é uma métrica calculada na qual o denominador é a métrica de normalização (instâncias, visitas ou visitantes). Por exemplo, se você selecionar a métrica de ordens e a métrica de normalização for visitantes, a taxa de conversão (pedidos/visitante) será calculada automaticamente por meio do relatórios A4T. A métrica de incentivo resultante reflete a diferença nessa taxa de conversão entre as experiências de texto quando comparada ao padrão.
 
-A maioria das métricas calculadas para otimização se enquadram em uma das duas categorias: Métricas de agregação e outros cálculos de conversão, como Valor médio do pedido (AOV).
+A maioria das métricas calculadas para otimização se enquadram em uma das duas categorias: Métricas de agregação ou outros cálculos de conversão, como Valor médio do pedido (AOV).
 
-Métricas de Agregação são usadas quando uma organização usa eventos únicos para capturar diferentes &quot;sabores&quot; da conversão de gravação. Por exemplo, se sua meta é promover envios de formulário de cliente potencial e você tem 10 formulários de cliente potencial diferentes, uma empresa pode criar eventos exclusivos para contar cada tipo de conversão de formulário. Para ver a quantidade total de todos os formulários de lead enviados, eles devem criar uma métrica calculada simples para adicioná-los todos juntos. Uma maneira melhor e mais moderna de rastrear isso é implementar um único evento de envio de cliente potencial no Analytics e, em seguida, usar uma eVar para coletar o tipo de formulário de cliente potencial. O uso desse método requer menos variáveis e elimina a necessidade de agregação de métricas individuais e você ainda tem a capacidade de ver a conversão holística do formulário de cliente potencial e dividi-lo por tipo de formulário de cliente potencial usando a eVar. Isso também elimina a necessidade de métricas de agregação ao avaliar o desempenho de uma Atividade de Público alvo.
+Métricas de Agregação são usadas quando uma organização usa eventos únicos para capturar diferentes &quot;sabores&quot; da conversão de gravação. Por exemplo, se sua meta é promover envios de formulário de cliente potencial e você tem dez formulários de cliente potencial diferentes, você pode criar eventos exclusivos para contar cada tipo de conversão de formulário. Para ver a quantidade total de todos os formulários de lead enviados, é necessário criar uma métrica calculada simples para adicioná-los. Uma maneira melhor e mais moderna de rastrear isso é implementar um único evento de envio de cliente potencial no Analytics e, em seguida, usar uma eVar para coletar o tipo de formulário de cliente potencial. O uso desse método requer menos variáveis e elimina a necessidade de agregação de métricas individuais e você ainda tem a capacidade de ver a conversão holística de forma de lead e detalhá-la por tipo de formulário de lead usando a eVar. Isso também elimina a necessidade de métricas de agregação ao avaliar o desempenho de uma atividade de Público alvo.
 
-Outra métrica calculada comum, Valor médio do pedido, não é atualmente suportada com incentivo e confiança porque a métrica de normalização não é padrão (instâncias, visitas, visitantes). Em vez disso, a recomendação é manter um olho nas duas métricas de influência da AOV, Receita por Visitante e Taxa de conversão.
+Outra métrica calculada comum, Valor médio do pedido, não é atualmente suportada com incentivo e confiança porque a métrica de normalização não é uma métrica padrão (instâncias, visitas ou visitantes). Em vez disso, a recomendação é manter um olho nas duas métricas de influência da AOV, Receita por Visitante e Taxa de conversão.
 
 ## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
