@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | Abril de 2 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram adicionadas informações sobre como usar `user.header('x-forwarded-for')` as bordas AWS mais recentes para recuperar os endereços IP dos usuários. |
 |  | [Atualização do at.js 1.*x* para o at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adição da seguinte observação:<ul><li>Depois de instalar a biblioteca da ECID v4.3.0+ e o at.js 2.*x*, você poderá criar atividades que abrangem domínios exclusivos e rastrear usuários. É importante observar que essa funcionalidade funciona somente após a sessão expirar.</li></ul> |
 | 30 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Adicionados problemas conhecidos que afetam as versões do at.js anteriores ao at.js 2.2.0. Esse problema fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código do Adobe Analytics não estava presente nos elementos da página. |
@@ -120,7 +121,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Notas de versão - SDK do Node.js do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Novo tópico. |
 |  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a API V1/Delivery e as versões do SDK Node.js. |
 | 8 de outubro de 2019 | [Newletter do Público alvo Insider](/help/r-release-notes/target-insider-newsletter.md) | Novo tópico com links para o primeiro lote de boletins informativos, com mais informações por vir. |
-| 3 de outubro de 2019 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adicionado o seguinte: <ul><li>Problema conhecido e solução temporária ao criar uma experiência sem modificações usando o at.js 2.*Biblioteca x* .</li><li>Coleções, exclusões, critérios e designs criados por meio da API não estão visíveis na interface do usuário do Público alvo e só podem ser editados por meio da API.</li><li>As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.</li></ul> |
+| 3 de outubro de 2019 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adicionado o seguinte: <ul><li>Problema conhecido e solução temporária ao criar uma experiência sem modificações usando o at.js 2.*Biblioteca x* .</li><li>Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário Público-alvo e podem ser editados por meio da API.</li><li>As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.</li></ul> |
 |  | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Foi adicionada uma observação à seção &quot;mboxDebug&quot;. |
 | 2 de outubro de 2029 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre as próximas versões. |
 | 1 de outubro de 2019 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Texto atualizado na seção &quot;Atributos do cliente&quot;. |
