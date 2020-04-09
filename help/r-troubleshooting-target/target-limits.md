@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -26,7 +26,7 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 
 **Limite recomendado**: 10.000 atividades ativas.
 
-**Limite** recomendado: 10.000 atividades salvas (e não encerradas) ativas.
+**Limite** recomendado: 10.000 atividades salvas (e não terminadas) ativas.
 
 ## Nomes de atividade
 
@@ -40,7 +40,7 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 
 **Limite**: 50 públicos-alvos por mbox, métrica ou experiência.
 
-## Públicos-alvo, reutilizáveis por conta
+## Audiências, reutilizáveis por conta
 
 **Limite recomendado**: 20,000 públicos-alvo.
 
@@ -99,12 +99,6 @@ Para solicitações GET, embora o limite no back end seja de 5 KB, devido ao lim
 
 Valores mais longos do que isso são truncados.
 
-## Perfis in-mbox em uma solicitação de mbox
-
-**Limite**: 50 perfis.
-
-Todos os perfis depois de 50 são ignorados.
-
 ## Nomes de perfil da in-mbox
 
 **Limite**: 128 caracteres.
@@ -119,12 +113,12 @@ Todos os perfis depois de 50 são ignorados.
 
 Para chamadas mbox padrão:
 * Parâmetros da mbox: 500 parâmetros por mbox.
-* Parâmetros de perfil: Parâmetros de perfil de 500 parâmetros por mbox.
+* Parâmetros do Perfil: 500 parâmetros de perfil por mbox.
 * Outros parâmetros (URL, URL de referência etc.): 50 por mbox para cada tipo de parâmetro.
 
 Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
 
-Se você estiver usando a API de entrega em lote, o limite será de 50 mboxes por solicitação em lote.
+Se você estiver usando a API Delivery em lote, o limite será de 50 mboxes por solicitação em lote.
 
 Se estiver usando a [API de entrega em lote](https://developers.adobetarget.com/api/#server-side-batch-delivery) no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contiver mais do que esses limites, a API retornará a seguinte mensagem de erro:
 
@@ -137,20 +131,20 @@ Batch mbox v2:
 * comprimento máximo do nome do parâmetro da mbox 128
 * o valor do parâmetro mbox não pode ser nulo
 * valor de parâmetro mbox 5000
-* parâmetros de perfil 50
-* comprimento máximo do nome do parâmetro do perfil 128
-* valor de parâmetro de perfil não pode ser nulo
-* comprimento máximo do valor do parâmetro do perfil 256
+* Parâmetros do perfil 50
+* Nome do parâmetro do perfil comprimento máximo 128
+* O valor do parâmetro de perfil não pode ser nulo
+* Valor máximo do parâmetro de perfil 256
 
-Ponto final da API de entrega
+Ponto de extremidade da API do Delivery
 * parâmetros da mbox 50
 * comprimento máximo do nome do parâmetro da mbox 128
 * o valor do parâmetro mbox não pode ser nulo
 * valor de parâmetro mbox 5000
-* parâmetros de perfil 50
-* comprimento máximo do nome do parâmetro do perfil 128
-* valor de parâmetro de perfil não pode ser nulo
-* comprimento máximo do valor do parâmetro do perfil 256
+* Parâmetros do perfil 50
+* Nome do parâmetro do perfil comprimento máximo 128
+* O valor do parâmetro de perfil não pode ser nulo
+* Valor máximo do parâmetro de perfil 256
 
 ## URLs de solicitação de mbox
 
@@ -202,7 +196,7 @@ Qualquer valor maior será truncado pelo sistema.
 
 **Limite recomendado de scripts de perfil totais por conta**: 2 000
 
-**Recomendações para limitar a complexidade** do script de perfil: Scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte Práticas [recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) nos atributos ** de perfil.
+**Recomendações para limitar a complexidade** do script do perfil: Scripts de Perfil podem executar um número limitado de instruções. Para obter mais informações, consulte Práticas [recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) nos atributos *do* Perfil.
 
 ## Propriedades
 
