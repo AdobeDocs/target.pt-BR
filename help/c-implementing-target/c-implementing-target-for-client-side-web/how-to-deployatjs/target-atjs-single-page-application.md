@@ -5,7 +5,7 @@ title: Implementação de aplicativos de página única no Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
+source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
 
 ---
 
@@ -283,7 +283,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 | 1 | Carregar JS VisitorAPI | Essa biblioteca é responsável por atribuir uma ECID ao visitante. Essa ID é consumida posteriormente por outras [!DNL Adobe] soluções na página da Web. |
 | 2 | Carregar at.js 2.x | O at.js 2.x carrega todas as APIs necessárias que você usa para implementar [!DNL Target] solicitações e visualizações. |
 | 3 | Executar [!DNL Target] solicitação | Se você tiver uma camada de dados, recomendamos que carregue os dados críticos necessários para enviar [!DNL Target] antes de executar uma [!DNL Target] solicitação. Isso permite que você use `targetPageParams` para enviar os dados que deseja usar para o direcionamento. É necessário garantir que você solicite executar > pageLoad, bem como realizar uma busca prévia > visualizações nesta chamada de API. se você definiu `pageLoadEnabled` e `viewsEnabled`, execute > pageLoad e prefetch > visualização automaticamente acontece com a Etapa 2; caso contrário, é necessário usar a `getOffers()` API para fazer essa solicitação. |
-| 4 | Chama `triggerView()` | Como a [!DNL Target] solicitação iniciada na Etapa 3 pode retornar experiências para a execução do Carregamento de página, bem como para o Visualização, verifique se `triggerView()` é chamada depois que a [!DNL Target] solicitação é retornada e termina de aplicar o oferta no cache. É necessário executar essa etapa apenas uma vez por visualização. |
+| 4 | Chama `triggerView()` | Como a [!DNL Target] solicitação que você iniciou na Etapa 3 pode retornar experiências para a execução do Carregamento de página, bem como para o Visualização, verifique se `triggerView()` é chamada depois que a [!DNL Target] solicitação é retornada e termina de aplicar o oferta ao cache. É necessário executar essa etapa apenas uma vez por visualização. |
 | 5 | Chame o beacon de visualização da página [!DNL Analytics] | Esse beacon envia o SDID associado às Etapa 3 e 4 para [!DNL Analytics] a identificação de dados. |
 | 6 | Chamada adicional `triggerView({"page": false})` | Esta é uma etapa opcional para estruturas SPA que poderiam renderizar novamente determinados componentes na página sem que uma alteração visualização ocorresse. Em tais ocasiões, é importante que você chame essa API para garantir que [!DNL Target] as experiências sejam reaplicadas depois que a estrutura SPA renderizar novamente os componentes. Você pode executar essa etapa quantas vezes desejar para garantir que [!DNL Target] as experiências persistam nas visualizações SPA. |
 
@@ -292,7 +292,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 | Etapa  | Ação | Detalhes |
 | --- | --- | --- |
 | 1 | Chama `visitor.resetState()` | Essa API garante que o SDID seja gerado novamente para a nova visualização à medida que ela é carregada. |
-| 2 | Atualize o cache chamando a `getOffer()` API | Esta é uma etapa opcional a ser tomada se essa alteração de visualização tiver o potencial de qualificar o visitante atual para mais [!DNL Target] atividades ou desqualificá-los do atividade. Nesse ponto, você também pode optar por enviar dados adicionais [!DNL Target] para habilitar outros recursos de definição de metas. |
+| 2 | Atualize o cache chamando a `getOffers()` API | Esta é uma etapa opcional a ser tomada se essa alteração de visualização tiver o potencial de qualificar o visitante atual para mais [!DNL Target] atividades ou desqualificá-los do atividade. Nesse ponto, você também pode optar por enviar dados adicionais [!DNL Target] para habilitar outros recursos de definição de metas. |
 | 3 | Chama `triggerView()` | Se você executou a Etapa 2, aguarde a [!DNL Target] solicitação e aplique as ofertas ao cache antes de executar esta etapa. É necessário executar essa etapa apenas uma vez por visualização. |
 | 4 | Chama `triggerView()` | Se você não executou a Etapa 2, poderá executar essa etapa assim que concluir a Etapa 1. Se você executou a Etapa 2 e a Etapa 3, ignore essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
 | 5 | Chame o beacon de visualização da página [!DNL Analytics] | Esse beacon envia o SDID associado à Etapa 2, 3 e 4 para [!DNL Analytics] a identificação de dados. |
