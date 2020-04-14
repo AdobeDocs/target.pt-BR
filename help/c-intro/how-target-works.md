@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ Em vez de responder a todas as solicitações de direcionamento a partir de um �
 >
 >No momento, o [!DNL Adobe Target] não tem uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para os clientes do [!DNL Target] na China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
+Você pode adicionar notas de borda do Público alvo à lista de permissões, se desejar. Para obter mais informações, consulte [Nó](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)de borda do Público alvo de lista de permissões.
+
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 A Adobe assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um usuário final e os servidores da Adobe pode causar uma interrupção na entrega de conteúdo.
@@ -131,7 +133,7 @@ A Google encoraja os testes por usuários e declarou em sua documentação que t
 Para obter mais informações, consulte os seguintes recursos da Google:
 
 * [Testes de site e pesquisa Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos e cloaking](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [Experimentos e cloaking](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webmaster da Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Embora a publicação seja datada de 2012, ela continua sendo a declaração mais recente da Google sobre o assunto e as diretrizes continuam relevantes.
 
