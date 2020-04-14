@@ -1,11 +1,11 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Target Help
+user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 + Notas de versão do Target {#release-notes}
    + [Notas de versão do Target (atual)](r-release-notes/release-notes.md)
    + [Notas de versão do Target (pré-lançamento)](r-release-notes/target-release-notes.md)
-   + [Newletter do Target Insider](/help/r-release-notes/target-insider-newsletter.md)
+   + [Newletter do Público alvo Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problemas conhecidos e problemas resolvidos](r-release-notes/known-issues-resolved-issues.md)
    + [Atualizações do status do sistema e notificações proativas](r-release-notes/system-status-updates.md)
    + [Alterações de documentação](r-release-notes/doc-change.md)
@@ -60,6 +60,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
          + [Políticas de cookies do Google Chrome para SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Diretivas de Política de Segurança de Conteúdo (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Nós de borda do Público alvo da lista de permissões](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
       + Métodos para colocar os dados no Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configurações da API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -134,12 +135,12 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Enviar informações de atividade para o Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Visualização do Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Buscar previamente conteúdo da oferta](c-target-mobile-app/prefetch-offer-content.md)
-      + [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Perguntas frequentes sobre o Público alvo para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Usar Serviço de Localização](/help/c-target-mobile-app/use-location-service.md)
    + Lado do servidor: implementação do Target {#server-side}
-      + [Notas de versão - APIs do lado do servidor do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Notas de versão - SDK do Target Node.js](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Notas de versão - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [Notas de versão - APIs do lado do servidor do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notas de versão - SDK do Node.js do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Notas de versão - SDK Java do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Lado do servidor: implementar a visão geral do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transição de APIs herdadas do Target para o Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implementação do Target {#implement-email}
@@ -206,7 +207,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Gerenciar exclusões](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Selecione o controle da atividade de Personalização automatizada ou Direcionamento automático](c-activities/t-automated-personalization/experience-as-control.md)
       + [Perguntas frequentes sobre a personalização automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Visualizar atividades de personalização automatizada com URLs de visualização de experiência](c-activities/t-automated-personalization/experience-preview.md)
+      + [atividades de personalização automatizada de Pré-visualização com URLs de pré-visualização de experiência](c-activities/t-automated-personalization/experience-preview.md)
       + [Solução de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Direcionamento de experiência {#experience-targeting}
       + [Visão geral de direcionamento da experiência](c-activities/t-experience-target/experience-target.md)
@@ -370,7 +371,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Selecione o critério](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Adicionar promoções](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Configurações de atividade do Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Visualizar e iniciar sua atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Pré-visualização e inicie sua atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations como uma oferta](c-recommendations/recommendations-as-an-offer.md)
    + Perguntas frequentes {#recommendations-faq}
       + [Perguntas frequentes do Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
