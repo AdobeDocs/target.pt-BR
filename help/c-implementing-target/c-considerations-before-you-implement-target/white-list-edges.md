@@ -5,18 +5,18 @@ title: Lista de permissões dos nós de borda do Público alvo da Adobe
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
 
 ---
 
 
 # Nós de borda do Público alvo da lista de permissões
 
-Informações e uma lista atualizada de hosts para ajudá-lo a colocar as bordas dos Públicos alvos da Adobe na lista de permissões.
+Informações e uma lista atualizada de hosts para ajudá-lo a colocar as [!DNL Target] bordas na lista de permissões da Adobe.
 
-Uma borda é uma arquitetura de serviço distribuída geograficamente que garante tempos de resposta ideais para usuários finais que solicitem conteúdo, independentemente de onde estejam localizados no mundo inteiro. Cada nó de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o nó de borda mais próximo. Para obter mais informações, consulte [A rede](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) de borda em *Como o Público alvo da Adobe funciona*.
+Uma borda é uma arquitetura de serviço distribuída geograficamente que garante tempos de resposta ideais para usuários finais que solicitem conteúdo, independentemente de onde estejam localizados no mundo inteiro. Cada nó de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o nó de borda mais próximo. Para obter mais informações, consulte [A rede](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) de borda em *Como a Adobe[!DNL Target]funciona*.
 
-Se desejar, é possível adicionar nós de borda do Público alvo à lista de permissões.
+Você pode adicionar nós de [!DNL Target] borda à lista de permissões, se desejar.
 
 A lista a seguir inclui os hosts atuais:
 
