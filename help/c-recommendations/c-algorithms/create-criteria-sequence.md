@@ -4,7 +4,7 @@ description: Use sequências de até cinco critérios para exercer maior control
 title: Criar sequências de critérios
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -86,7 +86,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de crité
 
    Para obter mais informações sobre as opções de lógica de recomendação, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de treinamento: criar critérios no Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Vídeo de treinamento: criar critérios no Recommendations (12:33) Etiqueta ![do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
