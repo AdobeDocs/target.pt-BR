@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentação do produto do Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 ---
 
@@ -14,7 +14,11 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 14 de abril de 2020 ([Veja o que mudou](r-release-notes/doc-change.md))**
+**Última atualização: 20 de abril de 2020 ([Veja o que mudou](r-release-notes/doc-change.md))**
+
+>[!NOTE]
+>
+>Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o gerente de produto do Público alvo da Adobe está hospedando um bate-papo de desenvolvedor para discutir os benefícios da migração do mbox.js para o at.js. Para obter mais informações, consulte Construtor [de habilidades do Adobe Público alvo: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js](/help/r-release-notes/release-notes.md#skill-builder).
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
