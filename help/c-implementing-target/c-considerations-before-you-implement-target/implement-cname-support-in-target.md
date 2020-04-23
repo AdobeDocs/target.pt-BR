@@ -5,7 +5,7 @@ title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8267de6c27566ec397651d3bfc88aad0818ed8d2
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -20,9 +20,9 @@ Execute as etapas a seguir para solicitar o suporte CNAME no [!DNL Target]:
 
 1. A autoridade de certificação da Adobe (DigiCert) precisa verificar se a Adobe está autorizada a gerar certificados em seu domínio.
 
-   A DigiCert chama esse processo de DCV ( [Domain Control Validation, validação do controle de domínio)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/), e a Adobe não poderá gerar um certificado em seu domínio até que esse processo seja concluído para pelo menos um dos métodos de DCV abaixo:
+   A DigiCert chama esse processo de validação de controle de [domínio (DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/), e a Adobe não poderá gerar um certificado em seu domínio até que esse processo seja concluído para pelo menos um dos seguintes métodos DCV:
 
-   * O método DCV mais rápido é o método ____ DNS CNAME, no qual você adiciona um registro DNS CNAME (contendo um token) ao seu domínio que aponta para o nome do host DCV da DigiCert (dcv.digicert.com). Este registro CNAME indica à DigiCert que a Adobe está autorizada a gerar o certificado. O Adobe Client Care enviará as instruções com os registros de DNS necessários. Um exemplo:
+   * O método DCV mais rápido é o método DNS CNAME, no qual você adiciona um registro DNS CNAME (contendo um token) ao seu domínio que aponta para o nome do host DCV (`dcv.digicert.com`) da DigiCert. Este registro CNAME indica à DigiCert que a Adobe está autorizada a gerar o certificado. O Adobe Client Care enviará as instruções com os registros de DNS necessários. Um exemplo:
 
       ```
       3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
@@ -30,13 +30,13 @@ Execute as etapas a seguir para solicitar o suporte CNAME no [!DNL Target]:
 
       >[!NOTE]
       >
-      >Esses tokens DCV expiram depois de 30 dias, e o Adobe Client Care entrará em contato com você com os tokens atualizados. Por um tempo mais rápido para a resolução da solicitação CNAME, esteja preparado para fazer essas alterações de DNS em todos os domínios solicitados antes de enviar a solicitação.
+      >* Esses tokens DCV expiram depois de 30 dias, e o Adobe Client Care entrará em contato com você com os tokens atualizados. Por um tempo mais rápido para a resolução de sua solicitação CNAME, esteja preparado para fazer essas alterações de DNS em todos os domínios solicitados antes de enviar sua solicitação.
+         >
+         >
+      * Se o domínio tiver registros [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)DNS, você deverá adicionar `digicert.com` se ele ainda não tiver sido adicionado. Este registro DNS indica quais autoridades de certificados estão autorizadas a emitir certificados para o domínio. O registro DNS resultante seria semelhante a: `example.com. IN CAA 0 issue "digicert.com"`. Você pode usar [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CAA) para determinar se o domínio raiz tem um registro CAA existente. Você pode ler mais sobre como a DigiCert lida com registros CAA [aqui](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
 
-      >[!NOTE]
-      >
-      >Se o domínio tiver registros [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)DNS, será necessário adicionar `digicert.com` se ele ainda não tiver sido adicionado. Este registro DNS indica quais autoridades de certificados estão autorizadas a emitir certificados para o domínio. O registro DNS resultante seria semelhante a: `example.com. IN CAA 0 issue "digicert.com"`. Você pode usar [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CAA) para determinar se o domínio raiz tem um registro CAA existente. Você pode ler mais sobre como a DigiCert lida com registros CAA [aqui](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
 
-   * A DigiCert também tentará o método __de__ email, no qual eles enviarão emails para endereços encontrados nas informações do WHOIS do domínio, bem como endereços de email pré-determinados (administrador, administrador, webmaster, host e postmaster `@[domain_name]`). Consulte a documentação [dos métodos](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV para obter mais informações.
+   * A DigiCert também tenta o método de email, no qual envia mensagens de email para endereços encontrados nas informações do WHOIS do domínio e para endereços de email predeterminados (administrador, administrador, webmaster, host e postmaster `@[domain_name]`). Consulte a documentação [dos métodos](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV para obter mais informações.
 
       Para acelerar o processo de email do DCV, a DigiCert fornece as seguintes recomendações:
 
@@ -60,11 +60,11 @@ As informações a seguir respondem a perguntas frequentes sobre como solicitar 
 
 ### Posso fornecer meu próprio certificado (também conhecido como trazer seu próprio certificado ou BYOC)? Em caso afirmativo, qual é o processo?
 
-Sim, você pode fornecer seu próprio certificado, mas não __é recomendado__. O gerenciamento do ciclo de vida do certificado SSL é significativamente mais fácil para a Adobe e para o cliente quando a Adobe compra e controla o certificado. Os certificados SSL precisam ser renovados todos os anos, o que significa que o Adobe Client Care precisará entrar em contato com você todos os anos para enviar um novo certificado à Adobe em tempo hábil. Alguns clientes podem ter dificuldade em produzir um certificado renovado em tempo hábil a cada ano, o que compromete sua [!DNL Target] implementação porque os navegadores recusarão as conexões quando o certificado expirar.
+Sim, você pode fornecer seu próprio certificado; no entanto, não é recomendado. O gerenciamento do ciclo de vida do certificado SSL é significativamente mais fácil para a Adobe e para você quando a Adobe compra e controla o certificado. Os certificados SSL devem ser renovados todos os anos, o que significa que o Adobe Client Care deve entrar em contato com você todos os anos para enviar um novo certificado à Adobe em tempo hábil. Alguns clientes podem ter dificuldade em produzir um certificado renovado em tempo hábil a cada ano, o que compromete sua [!DNL Target] implementação porque os navegadores recusarão as conexões quando o certificado expirar.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Esteja ciente de que, se você solicitar uma implementação CNAME de [!DNL Target] trazer seu próprio certificado, será responsável por fornecer certificados renovados ao Atendimento ao cliente da Adobe todos os anos. Permitir que seu certificado CNAME expire antes que a Adobe possa implantar um certificado renovado resultará em uma interrupção para sua [!DNL Target] implementação específica.
+>Esteja ciente de que, se você solicitar uma implementação CNAME de [!DNL Target] trazer seu próprio certificado, é responsável por fornecer certificados renovados ao Atendimento ao cliente da Adobe todos os anos. Permitir que seu certificado CNAME expire antes que a Adobe possa implantar um certificado renovado resultará em uma interrupção para sua [!DNL Target] implementação específica.
 
 1. Ignore a etapa 1 acima, mas conclua as etapas 2 e 3. Ao abrir um ticket do Adobe Client Care (etapa 3), informe-os de que você fornecerá seu próprio certificado.
 
@@ -78,7 +78,7 @@ Sim, você pode fornecer seu próprio certificado, mas não __é recomendado__. 
 
 ### Quanto tempo até que meu novo certificado SSL expire?
 
-Os certificados emitidos antes de 1º de setembro de 2020 serão de 2 anos. Certificados emitidos em 1º de setembro de 2020 e depois serão certificados de um ano. Você pode ler mais sobre a mudança para certificados de 1 ano [aqui](https://www.digicert.com/position-on-1-year-certificates).
+Os certificados emitidos antes de 1º de setembro de 2020 serão certificados de dois anos. Os certificados emitidos a partir de 1º de setembro de 2020 serão de um ano. Você pode ler mais sobre a mudança para certificados de um ano [aqui](https://www.digicert.com/position-on-1-year-certificates).
 
 ### Quais nomes de host devo escolher? Quantos nomes de host por domínio devo escolher?
 
@@ -150,4 +150,4 @@ Use o seguinte conjunto de comandos (no terminal de linha de comando do MacOs ou
 
    >[!NOTE]
    >
-   >Se esse comando falhar, mas o `validateEdgeFpsslSni` comando acima for bem-sucedido, talvez seja necessário aguardar a propagação completa das atualizações de DNS. Os registros de DNS têm um [TTL associado (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) que determina o tempo de expiração do cache para as respostas de DNS desses registros, portanto talvez seja necessário aguardar pelo menos tanto tempo quanto seus TTLs. Você pode usar o `dig target.example.com` comando ou [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) para pesquisar seus TTLs específicos.
+   >Se esse comando falhar, mas o `validateEdgeFpsslSni` comando acima for bem-sucedido, talvez seja necessário aguardar a propagação completa das atualizações de DNS. Os registros de DNS têm um [TTL associado (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) que determina o tempo de expiração do cache para as respostas de DNS desses registros, portanto talvez seja necessário aguardar pelo menos tanto tempo quanto seus TTLs. Você pode usar o `dig target.example.com` comando ou [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) para procurar seus TTLs específicos.
