@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -13,6 +13,12 @@ source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 # Alterações de documentação{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.4.1 (27 de abril de 2020)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| Abril de 27 | [Notas de versão](/help/r-release-notes/release-notes.md): 20.4.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe Target Standard/Premium 20.2.1 (19 de fevereiro de 2020)
 
@@ -139,7 +145,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 27 de setembro de 2019 | [Por quanto tempo você deve executar um teste A/B?](/help/c-activities/t-test-ab/sample-size-determination.md) | Texto atualizado sobre a Calculadora de tamanho de amostra do Público alvo. |
 |  | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Texto atualizado sobre a Calculadora de tamanho de amostra do Público alvo. |
-| 24 de setembro de 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Data da versão do Público alvo/Standard 19.2.1 alterada para 30 de setembro de 2019. |
+| September 24, 2019 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Data da versão do Público alvo/Standard 19.2.1 alterada para 30 de setembro de 2019. |
 |  | [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md) | Adição de vídeo de treinamento. |
 | 10 de setembro de 2019 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão 19.9.1 do Público alvo Standard/Premium. |
 | 9 de setembro de 2019 | [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Adicionada a seção &quot;Considerações&quot;. |
