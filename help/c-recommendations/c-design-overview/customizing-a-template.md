@@ -4,7 +4,7 @@ description: Use a linguagem de design Velocity de código aberto para personali
 title: Personalizar um design usando a Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
 
 ---
 
@@ -124,9 +124,9 @@ Também é possível usar `algorithm.name` e `algorithm.dayCount` como variávei
 
 Por padrão, os modelos Velocity tratam todos os atributos da entidade como valores de string. Talvez você queira tratar um atributo de entidade como um valor numérico para executar uma operação matemática ou compará-lo a outro valor numérico. Para tratar um atributo de entidade como um valor numérico, siga estas etapas:
 
-1. Declarar uma variável fictícia e inicializá-la em um valor duplo ou inteiro arbitrário
-1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para que o analisador de modelo do Target Recommendations valide e salve o modelo)
-1. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste criada na etapa 1 para transformar a string em um valor inteiro ou duplo
+1. Declarar uma variável fictícia e inicializá-la em um número inteiro ou valor de duplo arbitrário
+1. Certifique-se de que o atributo de entidade que você deseja usar não esteja em branco (necessário para que o analisador de modelo do Público alvo Recommendations valide e salve o modelo)
+1. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste que você criou na etapa 1 para transformar a string em um valor inteiro ou de duplo
 1. Executar a operação matemática ou comparação no novo valor numérico
 
 **Exemplo: Calcular um preço de desconto**
@@ -182,7 +182,7 @@ Suponha que você armazene a duração de um filme em minutos, mas queira exibi-
 #end
 ```
 
-## Exibir um item principal com os produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Exibição de um item-chave com produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Você pode modificar seu design para mostrar seu item principal ao lado de outros produtos recomendados. Por exemplo, você pode querer mostrar o item atual para referência ao lado das recomendações.
 
@@ -264,6 +264,6 @@ O trecho HTML a seguir substitui a porção HTML existente no design 4 x 2 padr�
             #set($count = $count + 1) 
         #end 
     #end
-    </div>
   </div>
+</div>
 ```
