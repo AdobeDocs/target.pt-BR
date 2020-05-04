@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -18,12 +18,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Maio de 4 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Novas perguntas frequentes adicionadas: &quot;Por que o tráfego é dividido entre minhas experiências de forma irregular na minha atividade A/B ou MVT?&quot; |
 | Abril de 29 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Foi adicionado um problema conhecido para o relatórios com pedidos extremos. |
 | Abril de 28 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram removidas informações sobre o uso `user.header('x-forwarded-for')` com bordas AWS mais recentes para recuperar os endereços IP dos usuários. Esse comando agora funciona com bordas AWS mais recentes. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Data alterada da versão Público alvo Standard/Premium (20.4.1) para 6 de maio. |
 | Abril de 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
-| Abril de 22 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Nova seção adicionada: Alterações na API de status de lote de *Perfis v2 (4 de maio de 2020).* |
-| Abril de 20 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Nova seção adicionada: Construtor de habilidades *do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js.* |
+| Abril de 22 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Nova seção adicionada: *Alterações na API de status de lote de Perfis v2 (4 de maio de 2020).* |
+| Abril de 20 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Nova seção adicionada: *Construtor de habilidades do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js.* |
 | Abril de 14 | [Hosts de borda do Público alvo da lista de permissões](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Novo tópico. |
 | Abril de 10 | [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nova seção adicionada: &quot;Práticas recomendadas de implementação.&quot; |
 | Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
