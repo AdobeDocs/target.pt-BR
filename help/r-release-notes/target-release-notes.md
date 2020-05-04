@@ -5,7 +5,7 @@ title: Notas de pré-lançamento do Adobe Público alvo
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 28 de abril de 2020**
+**Última atualização: 4 de maio de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -53,7 +53,7 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
 * Correção de um problema de exibição que fazia com que um algoritmo do Recommendations exibisse &quot;resultados de busca&quot; por um período de tempo estendido. (TGT-36550 e TGT-36551)
 * Foram atualizadas várias sequências de interface localizadas em vários idiomas.
 
-## Alterações na API de status de lote de Perfis v2 (4 de maio de 2020)
+## Alterações na API de status de lote de Perfis v2 (12 de maio de 2020)
 
 Com a versão de 4 de maio, o status do Lote de Perfis retornará somente os dados de falha em nível de linha a partir de agora (os dados de sucesso não serão retornados). As IDs de perfil com falha serão retornadas pela API em andamento.
 
