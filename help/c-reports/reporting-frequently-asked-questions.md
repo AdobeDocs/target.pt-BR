@@ -5,7 +5,10 @@ title: Perguntas frequentes sobre relatórios do Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 50%
 
 ---
 
@@ -52,13 +55,11 @@ Para obter mais informações sobre os ambientes, consulte [Hosts](../administra
 
 ## Por que a divisão de tráfego entre minhas experiências é irregular na minha atividade A/B ou MVT? {#uneven}
 
-Por exemplo, eu defini a divisão de tráfego como 50/50 ou 33/33/33, mas estou vendo uma distribuição muito diferente entre as experiências no relatórios.
-
-Há vários motivos explicáveis para divisões de tráfego desiguais no [!DNL Target] relatórios:
+Por exemplo, eu defini a divisão de tráfego como 50/50 ou 25/25/25/25, mas estou vendo uma distribuição muito diferente entre as experiências no relatórios. Há vários motivos explicáveis para contagens de visitantes desiguais no [!DNL Target] relatórios:
 
 * Quando uma [!DNL Target] atividade é iniciada pela primeira vez, a distribuição do tráfego pode ser irregular devido à arquitetura do nó da borda que [!DNL Target] usa para otimizar o delivery da experiência. A melhor prática é dar a uma atividade algum tempo para coletar dados adicionais e a distribuição se normalizará. Para obter mais informações sobre [!DNL Adobe Target] arquitetura e nós do Edge, consulte [Como o Público alvo da Adobe funciona](/help/c-intro/how-target-works.md).
-* Qual métrica de normalização você está usando? Se você estiver dentro [!DNL Target] ou [!DNL Analytics] estiver usando a métrica **[!UICONTROL Visitas]** , lembre-se de que [!DNL Target] é um sistema baseado em visitante e que a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Assim, se você examinar os resultados da atividade usando a métrica **[!UICONTROL Visitas]** , a distribuição do tráfego pode parecer irregular, pois determinados visitantes podem ter várias visitas.
-* A prática recomendada para testes A/B e MVT é manter as divisões de tráfego uniformes. Alterar a distribuição do tráfego entre experiências (por exemplo, de 10/90 para 50/50) durante um teste pode levar a visitantes desiguais entre experiências.
+* Se você estiver dentro [!DNL Target] ou [!DNL Analytics] estiver usando a métrica **[!UICONTROL Visitas]** , lembre-se de que [!DNL Target] é um sistema baseado em visitante e que a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Assim, se você examinar os resultados da atividade usando a métrica **[!UICONTROL Visitas]** , a distribuição do tráfego pode parecer irregular, pois determinados visitantes podem ter várias visitas. Visitantes é a métrica de normalização padrão ao avaliar o desempenho da atividade.
+* A prática recomendada para testes A/B e MVT é manter as divisões de tráfego uniformes. Alterar a distribuição do tráfego entre experiências (por exemplo, de 10/90 para 50/50) durante um teste pode levar a visitantes desiguais entre experiências. A menor experiência de tráfego pode nunca &quot;alcançar&quot;.
 * Se você estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 
    * Você está usando a biblioteca mais recente do at.js? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte os detalhes [da versão do](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
