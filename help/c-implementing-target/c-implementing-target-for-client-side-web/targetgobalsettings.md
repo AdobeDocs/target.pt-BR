@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
 title: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1532'
+ht-degree: 64%
 
 ---
 
@@ -22,7 +25,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 | Configurações | Tipo | Valor padrão | Descrição |
 |--- |--- |--- |--- |
-| serverState | Consulte &quot;serverState&quot; abaixo. | Consulte &quot;serverState&quot; abaixo. | Consulte &quot;serverState&quot; abaixo. |
+| serverState | Consulte &quot;Personalização híbrida&quot; abaixo. | Consulte &quot;Personalização híbrida&quot; abaixo. | Consulte &quot;Personalização híbrida&quot; abaixo. |
 | clientCode | String | Valor definido via IU | Representa o código de cliente |
 | serverDomain | String | Valor definido via IU | Representa o servidor do Target Edge |
 | cookieDomain | String | Se possível, defina para o domínio de nível superior | Representa o domínio usado ao salvar cookies |
@@ -32,14 +35,14 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 | visitorApiTimeout | Número | 2000 ms = 2 s | Representa o tempo limite da solicitação da API de visitante |
 | ativado | Booleano | true | Quando ativada, uma solicitação de Público alvo para recuperar experiências e a manipulação de DOM para renderizar as experiências é executada automaticamente. Além disso, as chamadas de Público alvo podem ser executadas manualmente via `getOffer(s)` / `applyOffer(s)`<br>Quando desativadas, as solicitações de Público alvo não são executadas automática ou manualmente |
 | pageLoadEnabled | Booleano | true | Quando ativado, recupera automaticamente experiências que devem ser retornadas ao carregar a página |
-| viewsEnabled | Booleano | true | Quando habilitado, recupere automaticamente visualizações que devem ser retornadas no carregamento da página. As Visualizações são suportadas em at.js 2.somente *x* |
+| viewsEnabled | Booleano | true | Quando habilitado, recupere automaticamente visualizações que devem ser retornadas ao carregar a página. As Visualizações são suportadas em at.js 2.somente *x* |
 | defaultContentHiddenStyle | String | visibility: hidden | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe &quot;mboxDefault&quot; e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para ocultar conteúdo padrão |
 | defaultContentVisibleStyle | String | visibility: visible | Usado apenas para mboxes de encapsulamento que usam DIV com nome de classe &quot;mboxDefault&quot; e são executadas via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` para revelar uma oferta aplicada, caso exista, ou conteúdo padrão |
 | bodyHiddenStyle | String | body { opacity: 0 } | Usado apenas quando `globalMboxAutocreate === true` para minimizar a chance de cintilação.<br>Para obter mais informações, consulte [Como o at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
 | bodyHidingEnabled | Booleano | true | Usado para controlar a cintilação quando `target-global-mbox` é usada para entregar ofertas criadas no Visual Experience Composer, também conhecido como ofertas visuais |
 | imsOrgId | String | ID da ORG IMS | Representa a ID da ORG IMS |
 | secureOnly | Booleano | false | Indica se a at.js deve usar somente HTTPS ou pode alternar entre HTTP e HTTPS com base no protocolo da página. |
-| overrideMboxEdgeServer | Booleano | true (true que começa com a at.js versão 1.6.2) | Indica se devemos usar o domínio `<clientCode>.tt.omtrdc.net` ou o domínio `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Se este valor for true, o domínio `mboxedge<clusterNumber>.tt.omtrdc.net` será salvo em um cookie |
+| overrideMboxEdgeServer | Booleano | true (true que começa com a at.js versão 1.6.2) | Indica se devemos usar o domínio `<clientCode>.tt.omtrdc.net` ou o domínio `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Se este valor for true, o domínio `mboxedge<clusterNumber>.tt.omtrdc.net` será salvo em um cookie. Atualmente não está trabalhando com [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | Número | 1860000 => 31 minutos | Indica a vida útil do cookie que contém o valor `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booleano | false | Indica se o Target deve chamar a função `isOptedOut()` da API de visitante. Isso é parte da ativação do gráfico de dispositivos. |
 | selectorsPollingTimeout | Número | 5000 ms = 5 s | Na at.js 0.9.6, o Target apresentou essa nova configuração que pode ser anulada via `targetGlobalSettings`.<br>`selectorsPollingTimeout` representa quanto tempo o cliente está disposto a esperar até que todos os elementos identificados por seletores sejam exibidos na página.<br>Atividades criadas pelo Visual Experience Composer (VEC) têm ofertas que contêm seletores. |
@@ -73,8 +76,8 @@ Os seguintes vídeos contêm mais informações:
 
 | Vídeo | Descrição |
 |--- |--- |
-| [Uso de provedores de dados do Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Os provedores de dados são uma função que permite passar dados de terceiros facilmente para o Target. Um terceiro pode ser um serviço de clima, um DMP ou até mesmo o seu próprio serviço Web. É possível então usar esses dados para criar públicos-alvo, conteúdo de direcionamento e enriquecer o perfil do visitante. |
-| [Implementação de provedores de dados no Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Detalhes de implementação e exemplos de como usar o recurso de provedores de dados do Adobe Target para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target. |
+| [Uso de provedores de dados do Adobe Target](https://helpx.adobe.com/br/target/kt/using/dataProviders-atjs-feature-video-use.html) | Os provedores de dados são uma função que permite passar dados de terceiros facilmente para o Target. Um terceiro pode ser um serviço de clima, um DMP ou até mesmo o seu próprio serviço Web. É possível então usar esses dados para criar públicos-alvo, conteúdo de direcionamento e enriquecer o perfil do visitante. |
+| [Implementação de provedores de dados no Adobe Target](https://helpx.adobe.com/br/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Detalhes de implementação e exemplos de como usar o recurso de provedores de dados do Adobe Target para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target. |
 
 A configuração `window.targetGlobalSettings.dataProviders` é uma matriz de provedores de dados.
 
@@ -201,7 +204,7 @@ window.targetGlobalSettings = {
 
 Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar o Público alvo oferta.
 
-## serverState {#server-state}
+## Personalização híbrida {#server-state}
 
 `serverState` é uma configuração disponível em at.js v2.2+ que pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Público alvo é implementada. A integração híbrida significa que você está usando o at.js v2.2+ no lado do cliente e a API do delivery ou um SDK do Público alvo no lado do servidor para fornecer experiências. `serverState` oferece ao at.js v2.2+ a capacidade de aplicar experiências diretamente do conteúdo obtido no lado do servidor e retornado ao cliente como parte da página que está sendo fornecida.
 
