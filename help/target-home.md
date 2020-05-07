@@ -3,7 +3,10 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentação do produto do Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 63%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 4 de maio de 2020 ([Consulte o que foi alterado](r-release-notes/doc-change.md))**
+**Última atualização: 7 de maio de 2020 ([Consulte o que foi alterado](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o gerente de produto do Público alvo da Adobe está hospedando um bate-papo de desenvolvedor para discutir os benefícios da migração do mbox.js para o at.js. Para obter mais informações, consulte Construtor [de habilidades do Adobe Público alvo: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js](/help/r-release-notes/release-notes.md#skill-builder).
+>Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o gerente de produtos do Público alvo da Adobe lançou recentemente um bate-papo para o desenvolvedor discutir os benefícios da migração do mbox.js para o at.js. Nos próximos 30 dias, você poderá [visualização a gravação](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)do webinar.
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
