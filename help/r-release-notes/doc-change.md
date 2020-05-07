@@ -5,7 +5,10 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '7548'
+ht-degree: 81%
 
 ---
 
@@ -18,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Maio de 7 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o gerente de produtos do Público alvo da Adobe lançou recentemente um bate-papo para o desenvolvedor discutir os benefícios da migração do mbox.js para o at.js. Há um link no qual você pode assistir ao webinar pelos próximos 30 dias. |
+|  | [Controle de qualidade da atividade ](/help/c-activities/c-activity-qa/activity-qa.md) | Atualização da seção &quot;Considerações&quot;. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | A linha &quot;overrideMboxEdgeServer&quot; foi atualizada em &quot;Configurações&quot;. |
+| Maio de 6 | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Foram adicionadas informações sobre o ITP 2.3. |
 | Maio de 4 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Novas perguntas frequentes adicionadas: &quot;Por que o tráfego é dividido entre minhas experiências de forma irregular na minha atividade A/B ou MVT?&quot; |
 | Abril de 29 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Foi adicionado um problema conhecido para o relatórios com pedidos extremos. |
 | Abril de 28 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram removidas informações sobre o uso `user.header('x-forwarded-for')` com bordas AWS mais recentes para recuperar os endereços IP dos usuários. Esse comando agora funciona com bordas AWS mais recentes. |
