@@ -5,7 +5,10 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +19,7 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 >[!NOTE]
 >
->* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Público alvo da Adobe não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Público alvo em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Consulte Construtor de habilidades *do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js* abaixo para obter informações sobre como se registrar em um próximo bate-papo no desenvolvedor sobre esse assunto.
+>* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Público alvo da Adobe não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Público alvo em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Consulte Construtor de habilidades *do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js* abaixo para obter informações.
    >
    >   
    Embora a mbox.js seja atualmente compatível, não fornecemos atualizações de recursos para esta biblioteca desde julho de 2017. O mais recente at.js oferece muitas vantagens sobre o mbox.js. Entre outros benefícios, o at.js melhora o tempo de carregamento da página para implementações da Web, melhora a segurança e oferece melhores opções de implementação para aplicativos de página única.
@@ -29,11 +32,7 @@ Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
 ## Construtor de habilidades do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js {#skill-builder}
 
-Junte-se a David Son, gerente de produtos de Públicos alvos da Adobe, já que ele apresenta os benefícios da migração do mbox.js para o at.js. Saiba mais sobre as últimas atualizações do at.js, saiba mais sobre seus recursos avançados e como eles se alinham com as maiores tendências no cenário tecnológico, bem como algumas dicas práticas para garantir que você extraia o valor do Público alvo ao migrar do mbox.js para o at.js. Os desenvolvedores de Públicos alvos da Adobe não vão querer perder isso!
-
-Terça-feira, 5 de maio, 8:00 - 9:00 (PDT)
-
-[Inscreva-se agora!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o gerente de produtos do Público alvo da Adobe lançou recentemente um bate-papo para o desenvolvedor discutir os benefícios da migração do mbox.js para o at.js. Nos próximos 30 dias, você poderá [visualização a gravação](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)do webinar.
 
 ## Público alvo at.js (25 de março de 2020)
 
@@ -81,7 +80,7 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
    * Ajuda do usuário aprimorada: Os resultados da pesquisa incluem os resultados da documentação do [!DNL Target] produto, bem como fóruns da comunidade e mais conteúdo de vídeo, facilitando o acesso a mais conteúdo para ajudá-lo a obter o máximo proveito [!DNL Target]. Também adicionamos um mecanismo de feedback diretamente no menu [!UICONTROL Ajuda] , facilitando o relatório de problemas ou o compartilhamento de ideias.
 
    * Funcionalidade de feedback NPS (Net Promoter Score) aprimorada, de modo que o modal da pesquisa não atrapalha seu fluxo de trabalho.
-   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na landing page do Público alvo depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], conforme mostrado abaixo:
+   * Fluxo de logon aprimorado. Anteriormente, todos os [!DNL Target] clientes chegavam na landing page do Público alvo depois de clicar no [!DNL Target] ícone no cabeçalho. Essa página permitiu que os clientes continuassem com [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], como mostrado abaixo:
 
       ![Página de aterrissagem](/help/r-release-notes/assets/landing.png)
 
