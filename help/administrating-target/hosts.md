@@ -5,7 +5,7 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 93%
@@ -125,7 +125,7 @@ Para criar uma lista de permissões:
 
 Se uma chamada de mbox for feita em um host não autorizado, a chamada responderá com `/* no display - unauthorized mbox host */`.
 
-Se você usar a funcionalidade de ubox [!DNL Target], observe que essa lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) podem navegar. Certifique-se de adicionar quaisquer domínios aos quais você deseja redirecionar ao usar o ubox como parte da implementação. Se a lista de permissões não for especificada, a Adobe não poderá verificar os URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
+Se você usar a funcionalidade do ubox [!DNL Target], observe que essa lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) podem navegar. Certifique-se de adicionar quaisquer domínios aos quais você deseja redirecionar ao usar o ubox como parte da implementação. Se a lista de permissões não for especificada, a Adobe não poderá verificar os URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
 
 A lista de permissões tem precedência em relação a outros ambientes. Você deve limpar todos os hosts antes de usar o recurso de lista de permissões; assim, apenas os hosts autorizados pela lista de permissões aparecerão na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
