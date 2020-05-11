@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 96%
 
 ---
 
@@ -121,6 +124,8 @@ Para criar uma lista de permissões:
 1. Clique em **[!UICONTROL Salvar]**.
 
 Se uma chamada de mbox for feita em um host não autorizado, a chamada responderá com `/* no display - unauthorized mbox host */`.
+
+Se você usar a funcionalidade de ubox [!DNL Target], observe que essa lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) podem navegar. Certifique-se de adicionar quaisquer domínios aos quais você deseja redirecionar ao usar o ubox como parte da implementação. Se a lista de permissões não for especificada, a Adobe não poderá verificar os URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
 
 A lista de permissões tem precedência em relação a outros ambientes. Você deve limpar todos os hosts antes de usar o recurso de lista de permissões; assim, apenas os hosts autorizados pela lista de permissões aparecerão na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
