@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1820'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Para gerenciar hosts e ambientes, clique em **[!UICONTROL Configurar]** > **[!UI
 
 ![](assets/hosts_list.png)
 
-## Reconhecimento de hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 As informações sobre as condições a serem seguidas para que o [!DNL Target] reconheça um host e adicione-o à lista Hosts.
 
@@ -64,7 +64,7 @@ Por padrão, um novo host reconhecido é colocado no ambiente de Produção. Ess
 >
 >O ambiente de produção não pode ser removido, mesmo que você o renomeie. Pressupõe-se que este seja o local em que você disponibiliza atividades ativas e testes finais e aprovados. O ambiente padrão não permite que campanhas inativas sejam visualizadas.
 
-## Gerenciar hosts e ambientes {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 Informações para ajudá-lo a gerenciar hosts e ambientes (grupos de hosts) incluindo a configuração de host padrão para geração de relatório, criação de listas de permissão, alteração do nome do ambiente, transferência de um host para outro ambiente e exclusão de um host ou ambiente.
 
@@ -73,7 +73,7 @@ Para acessar a lista de [!UICONTROL Hosts], clique em **[!UICONTROL Configurar]*
 
 ![](assets/hosts_list.png)
 
-## Filtrar, Classificar ou Pesquisar a lista de hosts {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Para filtrar a lista de [!UICONTROL Hosts] por ambiente, clique na lista suspensa **[!UICONTROL Tudo]**, em seguida, selecione o ambiente desejado (Produção, Armazenamento temporário, Desenvolvimento ou um ambiente personalizado que você criou).
 
@@ -81,11 +81,11 @@ Para classificar a lista de [!UICONTROL Hosts], clique em qualquer cabeçalho e 
 
 Para pesquisar a lista de [!UICONTROL Hosts], digite um termo de pesquisa na caixa Pesquisar.
 
-## Selecionar vários hosts  {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 Para selecionar vários hosts, marque as caixas de seleção perto da coluna [!UICONTROL Nome] dos hosts desejados. Em seguida, você pode mover ou excluir todos os hosts selecionados.
 
-## Criar um ambiente  {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
 1. Clique em **[!UICONTROL Criar ambiente]**.
@@ -93,7 +93,7 @@ Para selecionar vários hosts, marque as caixas de seleção perto da coluna [!U
 1. Especifique o modo ativo desejado para o ambiente: [!UICONTROL Atividades ativas] ou [!UICONTROL Atividades ativas e inativas].
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Definir o host padrão para relatórios {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Você pode selecionar o ambiente que deseja usar como padrão em todos os relatórios de atividade.
 
@@ -109,7 +109,7 @@ Para definir o ambiente padrão para relatório:
 >
 >[!DNL Recommendations]Os usuários do devem recriar sua base de dados comportamental e a base de dados de produtos se os hosts alternarem os grupos de host.
 
-## Criar listas de permissões que especifica hosts autorizados a enviar chamadas de mbox para o Target. {#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 Você pode criar uma lista de permissões que especifica hosts (domínios) autorizados a enviar chamadas de mbox para o [!DNL Target]. Todos os outros hosts que estiverem gerando chamadas receberão uma resposta comentada do erro de autorização. Por padrão, qualquer host que contenha uma chamada de mbox é registrado no [!DNL Target], dentro do ambiente Produção, e tem acesso a todas as atividades ativas e aprovadas. Se esta não for a abordagem desejada, você pode usar a lista de permissões para gravar hosts específicos que sejam elegíveis para fazer chamadas de mbox e receber conteúdo de atividade do [!DNL Target]. Todos os hosts continuarão a ser exibidos na lista de [!UICONTROL Hosts], e os ambientes ainda poderão ser usados para agrupar estes hosts e designar níveis diferentes a cada um, como decidir se o host pode ver campanhas ativas e/ou inativas.
 
@@ -135,20 +135,20 @@ Nos casos em que `mboxHost` é passada na chamada de API, a conversão é regist
 
 Você também pode criar uma lista negra que especifica os hosts (domínios) que não podem enviar chamadas da mbox para o [!DNL Target] ao adicionar os hosts desejados na caixa [!UICONTROL Host não contêm].
 
-## Alterar o nome de um ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
 1. Passe o cursor do mouse sobre o ambiente desejado, em seguida clique no ícone de **[!UICONTROL Editar.]**
 1. Altere o nome do ambiente.
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Mover um host para um ambiente diferente {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. Na lista de [!UICONTROL Hosts], passe o cursor do mouse sobre o host que deseja mover.
 1. Clique no ícone de **[!UICONTROL Mover.]**
 1. Selecione o ambiente desejado na lista suspensa, em seguida, clique no ícone de marca de verificação.
 
-## Excluir um host {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Você pode excluir um host quando ele não é mais necessário.
 
@@ -160,7 +160,7 @@ Você pode excluir um host quando ele não é mais necessário.
 >
 >O host será listado novamente se alguém navegar até uma página com mbox no host.
 
-## Excluir um ambiente {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 Você pode excluir um ambiente quando ele não é mais necessário.
 
@@ -173,7 +173,7 @@ Você pode excluir um ambiente quando ele não é mais necessário.
 >
 >Não é possível excluir o ambiente de Produção, mas você pode renomeá-lo.
 
-## Solução de problemas de hosts {#concept_B3D7583FA4BB480382CC7453529FE1B7}
+## Solucionar problemas dos hosts {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
 Práticas recomendadas para gerenciamento e solução de problemas de host no [!DNL Adobe Target].
 
