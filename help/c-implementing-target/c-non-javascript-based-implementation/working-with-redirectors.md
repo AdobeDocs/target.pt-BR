@@ -1,12 +1,15 @@
 ---
-keywords: implementação; mbox.js não javascript; redirecionador; custos por clique; receita por clique
+keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: Utilize o Redirecionador de forma similar a uma mbox em seus testes.
 title: Trabalhar com redirecionadores
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 78%
 
 ---
 
@@ -44,20 +47,23 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
    * Onde `yourclientcode` é o código de cliente da sua empresa. O código de cliente de sua empresa tem todos os caracteres em minúsculas e sem caracteres especiais.
 
-      * **at.js**: Seu código de cliente está disponível no topo da página [!UICONTROL Configuração &gt; Implementação &gt; Editar configurações] da at.js da [!DNL Target] interface.
+      * **at.js**: Seu código de cliente está disponível no topo da página [!UICONTROL Configuração > Implementação > Editar configurações] da at.js da [!DNL Target] interface.
 
-      * **mbox.js**: Seu código de cliente está disponível no topo da [!UICONTROL página Configurar &gt; Implementação &gt; Editar configurações mbox.js.]
+      * **mbox.js**: Seu código de cliente está disponível no topo da [!UICONTROL página Configurar > Implementação > Editar configurações mbox.js.]
    * `redirectorlink_456` é o nome do Redirecionador mbox que aparece em sua conta para ser usado em campanhas e testes.
 
-      Redirecionadores funcionam de forma diferente das outras mboxes, mas são exibidas como qualquer outra mbox em sua conta. Identifique o redirecionador de uma forma que seja fácil diferenciá-lo das mboxes de tipo padrão em sua conta.  Como prática recomendada, comece o nome da mbox com "redirectorlink".
+      Redirecionadores funcionam de forma diferente das outras mboxes, mas são exibidas como qualquer outra mbox em sua conta. Identifique o redirecionador de uma forma que seja fácil diferenciá-lo das mboxes de tipo padrão em sua conta.  Como prática recomendada, comece o nome da mbox com &quot;redirectorlink&quot;.
 
    * Onde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` é o destino padrão.
+
+      Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para adicionar à lista de permissões os domínios de URL de redirecionamento padrão. O Público alvo usa hosts para domínios de lista de permissões para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Hosts](/help/administrating-target/hosts.md).
 
       Isso deve ser codificado no URL e uma referência absoluta. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
 1. Valide o redirecionador.
+   1. Verifique se o domínio usado no Redirecionador está na lista de permissões, conforme indicado acima. Se você usar um domínio que não esteja na lista de permissões, a Adobe bloqueará quaisquer chamadas para esse domínio para impedir que atores mal-intencionados usem o Redirecionador para domínios potencialmente mal-intencionados.
    1. Insira o URL do redirecionador no navegador e atualize a página.
    1. Efetue logon em sua conta, atualize a lista de mbox e verifique se o novo redirecionador está indicado como uma mbox.
 1. Se você vai testar destinos diferentes para um anúncio, crie [Ofertas de redirecionamento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) para cada versão.
@@ -76,7 +82,7 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
 1. Verifique se todos as experiências, o conteúdo padrão e os relatórios estão funcionando corretamente em todos os tipos de navegadores, para todos os seus ambientes.
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE] {class=&quot;- topic/note &quot;}
    >
    >* Redirecionadores não são suportados pela Visualização de oferta ou Procurar por mbox. Visualize as experiências diretamente em um navegador.
    >* `mboxDebug` não funciona com Redirecionadores.
