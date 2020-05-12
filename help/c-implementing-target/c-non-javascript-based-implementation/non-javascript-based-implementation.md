@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 82%
 
 ---
@@ -29,6 +29,10 @@ Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade
 | AdBox | Retorna imagens diferentes para o anúncio | Alterar o conteúdo de um anúncio | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | oferta de redirecionamento | URL de uma imagem |
 | Redirecionador | Redireciona o visitante para uma página da Web diferente | Alterar a página de aterrissagem de um anúncio | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | oferta de redirecionamento | URL de uma página |
 
+## Práticas recomendadas de segurança {#security}
+
+Observe que com o Redirecionador, você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para adicionar à lista de permissões os domínios de URL de redirecionamento padrão. O Público alvo usa hosts para domínios de lista de permissões para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#whitelist) nos *hosts*.
+
 ## Limitações {#section_38F559DCF1324271926608BCD4AB1227}
 
 * Não existe um tempo limite para o lado do cliente como nas mboxes padrão. Se o Target estiver completamente inacessível, os visitantes do anúncio não visualizarão qualquer conteúdo, nem mesmo o conteúdo padrão.
@@ -36,4 +40,3 @@ Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade
 * Para utilizar cookies próprios na AdBox, é necessário enviar a sessão mBox no URL. Entre em contato com seu representante de contas para fazer isso.
 * Para utilizar cookies próprios para rastrear cliques de anúncios, é necessário enviar a sessão mbox no URL. Entre em contato com seu representante de contas para fazer isso.
 * Para utilizar mais de uma AdBox na mesma página, você deve enviar a sessão Mbox no URL. Entre em contato com seu representante de contas para fazer isso. Você pode ter mais de uma AdBox e um link Redirecionador na mesma página (porque o Redirecionador está na segunda página).
-* Observe que com o Redirecionador, você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para adicionar à lista de permissões os domínios de URL de redirecionamento padrão. O Público alvo usa hosts para domínios de lista de permissões para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#whitelist) nos *hosts*.
