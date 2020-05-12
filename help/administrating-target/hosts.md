@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 93%
+source-wordcount: '1823'
+ht-degree: 92%
 
 ---
 
@@ -125,9 +125,11 @@ Para criar uma lista de permissões:
 
 Se uma chamada de mbox for feita em um host não autorizado, a chamada responderá com `/* no display - unauthorized mbox host */`.
 
-Se você usar a funcionalidade do ubox [!DNL Target], observe que essa lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) podem navegar. Certifique-se de adicionar quaisquer domínios aos quais você deseja redirecionar ao usar o ubox como parte da implementação. Se a lista de permissões não for especificada, a Adobe não poderá verificar os URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
-
-A lista de permissões tem precedência em relação a outros ambientes. Você deve limpar todos os hosts antes de usar o recurso de lista de permissões; assim, apenas os hosts autorizados pela lista de permissões aparecerão na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
+>[!IMPORTANT]
+>
+>*Práticas* recomendadas de segurança: Se você usar a funcionalidade do ubox [!DNL Target], observe que essa lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) podem navegar. Certifique-se de adicionar quaisquer domínios aos quais você deseja redirecionar ao usar o ubox como parte da implementação. Se a lista de permissões não for especificada, a Adobe não poderá verificar os URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
+>
+>A lista de permissões tem precedência em relação a outros ambientes. Você deve limpar todos os hosts antes de usar o recurso de lista de permissões; assim, apenas os hosts autorizados pela lista de permissões aparecerão na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
 Em algumas ocasiões, domínios de outros sites podem ser exibidos em seus ambientes. Um domínio é exibido na lista se este fizer uma chamada para mbox.js. Por exemplo, se alguém copiar uma de suas página da Web para outro servidor, o domínio será exibido em seu ambiente. Você também poderá ver domínios de mecanismos spiders, sites de tradução ou unidades de disco locais.
 
