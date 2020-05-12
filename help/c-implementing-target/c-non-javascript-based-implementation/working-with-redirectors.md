@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 73%
 
 ---
@@ -32,7 +32,7 @@ Use o Redirecionador para  faça o seguinte:
 
 Para obter ajuda em decidir a configuração correta, consulte  [Implementações não baseadas em JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#redirector}
 
 Antes de utilizar um redirecionador, você deve criá-lo.
 
@@ -56,14 +56,15 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
    * Onde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` é o destino padrão.
 
-      Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para adicionar à lista de permissões os domínios de URL de redirecionamento padrão. O Público alvo usa hosts para domínios de lista de permissões para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#whitelist) nos *hosts*.
+      Isso deve ser codificado no URL e uma referência absoluta. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
 
-      Isso deve ser codificado no URL e uma referência absoluta. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
-
+      >[!IMPORTANT]
+      >
+      >Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para adicionar à lista de permissões os domínios de URL de redirecionamento padrão. O Público alvo usa hosts para domínios de lista de permissões para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#whitelist) nos *hosts*.
 
 
 1. Valide o redirecionador.
-   1. Verifique se o domínio usado no Redirecionador está na lista de permissões, conforme indicado acima. Se você usar um domínio que não esteja na lista de permissões, a Adobe bloqueará quaisquer chamadas para esse domínio para impedir que atores mal-intencionados usem o Redirecionador para domínios potencialmente mal-intencionados.
+   1. *Práticas* recomendadas de segurança: Verifique se o domínio usado no Redirecionador está na lista de permissões, conforme indicado acima. Se você usar um domínio que não esteja na lista de permissões, a Adobe bloqueará quaisquer chamadas para esse domínio para impedir que atores mal-intencionados usem o Redirecionador para domínios potencialmente mal-intencionados.
    1. Insira o URL do redirecionador no navegador e atualize a página.
    1. Efetue logon em sua conta, atualize a lista de mbox e verifique se o novo redirecionador está indicado como uma mbox.
 1. Se você vai testar destinos diferentes para um anúncio, crie [Ofertas de redirecionamento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) para cada versão.
