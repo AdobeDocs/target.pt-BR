@@ -5,9 +5,9 @@ title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -154,3 +154,8 @@ Use o seguinte conjunto de comandos (no terminal de linha de comando do MacOs ou
    >[!NOTE]
    >
    >Se esse comando falhar, mas o `validateEdgeFpsslSni` comando acima for bem-sucedido, talvez seja necessário aguardar a propagação completa das atualizações de DNS. Os registros de DNS têm um [TTL associado (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) que determina o tempo de expiração do cache para as respostas de DNS desses registros, portanto talvez seja necessário aguardar pelo menos tanto tempo quanto seus TTLs. Você pode usar o `dig target.example.com` comando ou [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) para procurar seus TTLs específicos.
+
+## Limitações conhecidas
+
+* O modo de QA não ficará fixo quando você tiver CNAME e at.js 1.x porque ele é baseado em um cookie de terceiros. A solução alternativa é adicionar os parâmetros de pré-visualização a cada URL para o qual você navega. O modo de QA é fixo quando você tem CNAME e at.js 2.x.
+* Atualmente, a `overrideMboxEdgeServer` configuração não funciona corretamente com CNAME. Isso deve ser definido como `false` para evitar solicitações com falha.
