@@ -5,10 +5,10 @@ title: Notas de pré-lançamento do Adobe Público alvo
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 19%
+source-wordcount: '342'
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 4 de maio de 2020**
+**Última atualização: 14 de maio de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -39,75 +39,6 @@ Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o g
 ## Target Standard/Premium 20.5.1 (10 de junho de 2020)
 
 Detalhes desta versão serão publicados aqui.
-
-## Alterações na API de status de lote de Perfis v2 (Data TBD)
-
-Com a versão de 4 de maio, o status do Lote de Perfis retornará somente os dados de falha em nível de linha a partir de agora (os dados de sucesso não serão retornados). As IDs de perfil com falha serão retornadas pela API em andamento.
-
-As respostas anteriores e novas da API são as seguintes:
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**Atualmente, vemos a resposta como:**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**Após 4 de maio, a resposta será:**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
