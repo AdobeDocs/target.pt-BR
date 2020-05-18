@@ -1,29 +1,32 @@
 ---
-keywords: Definição de metas;sucesso;métrica de conversão;métrica de pontuação de página;métrica de exibições de página;métrica de receita;métrica de tempo no site;valor estimado;configurações avançadas;métricas de sucesso
-description: No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
-title: Métricas de sucesso no Adobe Target
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
+description: No Público alvo da Adobe, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
+title: Métricas de sucesso no Público alvo da Adobe
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 92%
 
 ---
 
 
 # Métricas de sucesso{#success-metrics}
 
-No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
+No Público alvo da Adobe, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
 
 As métricas de sucesso são parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta aumenta sua receita por visitante ou adicionar um item ao carrinho de compras. As métricas de sucesso podem ser úteis para descobrir problemas nos funis de registro, pedido ou compra, além de facilitar a descoberta de problemas no envolvimento de visitantes ou clientes.
 
 Ao manter a meta do [!DNL Target Standard] de simplificar a criação de testes, o aplicativo cuida de uma parte da configuração que é feita manualmente no [!DNL Target Classic]. Por exemplo, métricas de sucesso são pré-configuradas com as opções ideais.
 
-By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. As conversões são contabilizadas somente uma vez, nenhuma conversão repetida é contabilizada e o visitante sempre vê o conteúdo de teste.
+By default, conversion events are set to &quot;Count once and keep the entrant in the activity&quot; in [!DNL Target Standard]. As conversões são contabilizadas somente uma vez, nenhuma conversão repetida é contabilizada e o visitante sempre vê o conteúdo de teste.
 
-As métricas de receita definidas para "Incrementar a contagem e manter o usuário na atividade" registram detalhes do pedido apenas para o primeiro pedido feito pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversões, mas não adicionam receita a RPV/AOV/Vendas e não serão incluídos no relatório de Detalhes do pedido.
+As métricas de receita definidas para &quot;Incrementar a contagem e manter o usuário na atividade&quot; registram detalhes do pedido apenas para o primeiro pedido feito pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversões, mas não adicionam receita a RPV/AOV/Vendas e não serão incluídos no relatório de Detalhes do pedido.
 
 >[!NOTE]
 >
->O comportamento padrão para atividades que usam o [Analytics como fonte](/help/c-integrating-target-with-mac/a4t/a4t.md) de geração de relatórios (A4T) é "Aumentar a contagem e manter o usuário na atividade" com "Uma vez por participante".
+>O comportamento padrão do atividade que usa o [Analytics como fonte](/help/c-integrating-target-with-mac/a4t/a4t.md) de relatórios (A4T) é &quot;Aumentar a contagem e manter o usuário na atividade&quot; com &quot;Uma vez por participante&quot;.
 
 As seguintes métricas estão disponíveis:
 
@@ -41,7 +44,7 @@ Também é possível criar métricas de sucesso personalizadas.
 
 Depois de selecionar a métrica de sucesso, selecione a ação executada por um visitante para atingir essa meta. Por exemplo, escolha uma métrica de conversão, defina-a para ser contada uma vez por visitante e defina se o sucesso será atingido quando um visitante visualizar uma certa página (ou conjunto de páginas), visualizar uma determinada mbox ou clicar em um link específico.
 
-Se estiver habilitado, o campo Valor estimado de um campo de conversão (não disponível para as métricas de Pontuação da página) fornece um valor para a meta, mas não para outras métricas. Este valor permite que o [!DNL Target] calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. Para todas as métricas de receita (Receita por visitante, Valor médio de pedido, Total de vendas e Pedidos), a estimativa usa a Receita por visitante. O tipo de dados é a moeda. Consulte [Aumento estimado na receita](../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) para obter mais informações.
+Se estiver habilitado, o campo Valor estimado de um campo de conversão (não disponível para as métricas de Pontuação da página) fornece um valor para a meta, mas não para outras métricas. Este valor permite que o [!DNL Target] calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. Para todas as métricas de receita (Receita por visitante, Valor médio de pedido, Total de vendas e Pedidos), a estimativa usa a Receita por visitante. O tipo de dados é a moeda. Consulte [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações.
 
 As métricas de sucesso escolhidas para sua atividade estão disponíveis nas configurações de relatório quando você exibe um relatório da atividade.
 
@@ -84,8 +87,8 @@ Use as configurações avançadas para determinar o que acontece depois que um u
 
 Estes vídeos mostram como usar métricas de atividade.
 
-* Compreender métricas de "meta"
+* Compreender métricas de &quot;meta&quot;
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
