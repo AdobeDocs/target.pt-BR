@@ -1,11 +1,14 @@
 ---
-keywords: Visão geral e referência
+keywords: Overview and Reference
 description: O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado.
 title: URL da atividade
-topic: Padrão
+topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +25,8 @@ Quando solicitado durante a criação da atividade, especifique o URL da ativida
 
 ## Especificar um URL diferente
 
-Por padrão, o [!UICONTROL Visual Experience Composer] abre a página especificada nas suas [Preferências da conta do Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Você pode especificar uma página diferente durante a criação da atividade.
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+. Você pode especificar uma página diferente durante a criação da atividade.
 
 Para exibir uma página diferente depois que o [!UICONTROL Visual Experience Composer] é aberto, clique no ícone de engrenagem **[!UICONTROL Configurar]** e selecione **[!UICONTROL Entrega da página]**. Insira o URL no campo URL da atividade.
 
@@ -41,7 +45,7 @@ Regras adicionais podem ser baseadas em qualquer um dos seguintes:
 
 Regras adicionais podem ser unidas no URL da atividade com AND ou OR. Todas regras que você adicionar são avaliadas contra si próprias com AND.
 
-Clique em **[!UICONTROL Salvar]quando tiver concluído.**
+Clique em **[!UICONTROL Salvar]** quando tiver concluído.
 
 >[!NOTE]
 >
