@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard; perguntas frequentes; perguntas frequentes; gabarito; gabarito
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
 title: Perguntas frequentes sobre otimização e personalização do Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -84,13 +87,13 @@ Experimente o recurso de [Atividade multipáginas](../c-experiences/c-visual-exp
 
 Isso é fácil de conseguir usando a opção [Configurações avançadas](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponível com cada meta. Você tem opções para decidir o que deve acontecer depois que o usuário atingir a meta e como você deseja que a contagem seja incrementada.
 
-Então, neste caso, você pode escolher "Incrementar contagem, liberar usuário e impedir reentrada" juntamente com "Conteúdo de outra atividade/atividade padrão" para atingir o objetivo. Verifique também outras opções.
+Então, neste caso, você pode escolher &quot;Incrementar contagem, liberar usuário e impedir reentrada&quot; juntamente com &quot;Conteúdo de outra atividade/atividade padrão&quot; para atingir o objetivo. Verifique também outras opções.
 
 **Eu criei várias metas na minha atividade. Posso criar uma cadeia de metas como um funil para fins de análise e criação de relatórios?**
 
 **Por exemplo, eu desejo considerar a Meta B quando o usuário tiver atingido a Meta A, para que eu possa monitorar os números para um funil específico.**
 
-O Target tem uma maneira robusta de atingir isso com nosso recurso de dependência de métrica. Simplesmente [adicione dependências em outra métrica de sucesso](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Você tem opções como "Atingido" e "Não atingido," juntamente com a capacidade de combinar métricas de várias formas para criar qualquer combinação que você desejar.
+O Target tem uma maneira robusta de atingir isso com nosso recurso de dependência de métrica. Simplesmente [adicione dependências em outra métrica de sucesso](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Você tem opções como &quot;Atingido&quot; e &quot;Não atingido,&quot; juntamente com a capacidade de combinar métricas de várias formas para criar qualquer combinação que você desejar.
 
 **Como posso ter certeza sobre como configurar uma atividade para atingir meus objetivos?**
 
@@ -131,7 +134,7 @@ Use a configuração de prioridade disponível na etapa 3 do fluxo de trabalho o
 Existem duas opções:
 
 * Padrão, com três níveis (Baixo/Médio/Alto)
-* Personalizada, com um intervalo entre 0 e 999. Para Personalizada, ative o recurso Prioridades otimizadas (Configurar &gt; Preferências).
+* Personalizada, com um intervalo entre 0 e 999. Para Personalizada, ative o recurso Prioridades otimizadas (Configurar > Preferências).
 
 ## Públicos-alvo{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -171,7 +174,7 @@ Veja os seguintes aspectos do produto:
 
 Confira as [Regras de modelo](../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) para incluir várias páginas estruturadas semelhantes à atividade, enquanto ainda cria a experiência no único URL fornecido.
 
-**Estou cansado de ver a mensagem "Deixe seu carregador carregar os scripts" quando tento carregar minha página no Visual Experience Composer (VEC). Como posso evitar isso?**
+**Estou cansado de ver a mensagem &quot;Deixe seu carregador carregar os scripts&quot; quando tento carregar minha página no Visual Experience Composer (VEC). Como posso evitar isso?**
 
 Isso ocorre porque seu site tem conteúdo misto. É um site que obtém recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
@@ -195,7 +198,7 @@ Experimente o recurso [Mobile Viewports](../c-experiences/c-visual-experience-co
 
 **Eu tenho múltiplos domínios. Um dos domínios precisa que o Enhanced Experience Composer seja ativado, enquanto outros precisam que ele seja desativado. Como posso fazer isso?**
 
-Você sempre pode usar a opção [Enhanced Experience Composer no nível de atividade](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular a configuração padrão (Configurar &gt; Preferências).
+Você sempre pode usar a opção [Enhanced Experience Composer no nível de atividade](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular a configuração padrão (Configurar > Preferências).
 
 **Por que eu não vejo uma opção de troca de imagens?**
 
@@ -253,7 +256,7 @@ Temos [o recurso de URL de redirecionamento](../c-experiences/c-manage-content/o
 
 **Por que a entrega do conteúdo não está acontecendo no meu processo de QA?**
 
-É possível que seu site possa ter IDs dinâmicos, IDs duplicados ou classes dinâmicas em elementos. Você pode precisar avaliar as opções de preferência do site no nível da conta (ou no nível da atividade se o problema for específico a um domínio ou página). Consulte [Seletores de CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+É possível que seu site possa ter IDs dinâmicos, IDs duplicados ou classes dinâmicas em elementos. Você pode precisar avaliar as opções de preferência do site no nível da conta (ou no nível da atividade se o problema for específico a um domínio ou página). Consulte [Seletores de CSS](/help/administrating-target/visual-experience-composer-set-up.md#css).
 
 **Por que eu não estou vendo a oferta/experiência desejada e estou vendo outra atividade ao invés disso?**
 
