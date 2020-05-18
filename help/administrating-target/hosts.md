@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 92%
+source-wordcount: '1179'
+ht-degree: 68%
 
 ---
 
@@ -17,32 +17,30 @@ ht-degree: 92%
 
 Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 
-O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo inativo seja exibido acidentalmente nos sites. O gerenciamento de host também permite que você separe os dados de relatório por ambiente.
+O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo inativo seja exibido acidentalmente nos sites. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 Um host é qualquer servidor da Web (ou domínio da Web) de onde você serve conteúdo em qualquer fase do seu projeto. Todo host que serve um mbox é reconhecido.
 
-Os hosts são agrupados em ambientes para facilitar o gerenciamento. Por exemplo, você pode ter dezenas de hosts agrupados em dois ou três ambientes. Os ambientes predefinidos incluem Produção, Armazenamento temporário e Desenvolvimento. Você pode adicionar novos ambientes e renomear seus ambientes, se desejado.
+Os hosts são agrupados em ambientes para facilitar o gerenciamento. Por exemplo, você pode ter dezenas de hosts agrupados em dois ou três ambientes. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. Você pode adicionar novos ambientes e renomear seus ambientes, se desejado.
 
-Um ambiente, o ambiente padrão, é pré-nomeado Produção. Esse ambiente padrão não pode ser removido, mesmo que você o renomeie. O [!DNL Target] parte do princípio que este é o local onde você disponibiliza atividades finais, aprovadas e testes.
+One environment, the default environment, is pre-named [!UICONTROL Production]. Esse ambiente padrão não pode ser removido, mesmo que você o renomeie. O [!DNL Target] parte do princípio que este é o local onde você disponibiliza atividades finais, aprovadas e testes.
 
-Quando uma solicitação de mbox é recebida em um novos sites ou domínios, esses novos domínios sempre aparecem no ambiente Produção. O ambiente Produção não pode ter suas configurações alteradas de forma que, sites novos ou desconhecidos somente visualizarão o conteúdo pronto e ativo. O gerenciamento de hosts também permite garantir a qualidade de novas atividades e do conteúdo em seus ambientes de teste, armazenamento temporário e desenvolvimento, antes das atividades serem ativadas.
+When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. O gerenciamento de hosts também permite garantir a qualidade de novas atividades e do conteúdo em seus ambientes de teste, armazenamento temporário e desenvolvimento, antes das atividades serem ativadas.
 
-O Target não limita um host que pode enviar e receber mboxes. Dessa forma, quando novos servidores ou domínios entram em contato, funcionam automaticamente (a menos que tenha configurado uma lista de permissões ou lista negra). Isso também permite o teste de publicidade em domínios diferentes, desconhecidos ou não previstos.
+[!DNL Target]O não limita um host que pode enviar e receber mboxes. Dessa forma, quando novos servidores ou domínios entram em contato, funcionam automaticamente (a menos que tenha configurado uma lista de permissões ou lista negra). Isso também permite o teste de publicidade em domínios diferentes, desconhecidos ou não previstos.
 
-Para gerenciar hosts e ambientes, clique em **[!UICONTROL Configurar]** > **[!UICONTROL Hosts]**.
+Para gerenciar hosts, clique em **[!UICONTROL Administração]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
 ## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
-As informações sobre as condições a serem seguidas para que o [!DNL Target] reconheça um host e adicione-o à lista Hosts.
-
-Para reconhecer um host, as condições a seguir devem ser cumpridas:
+Para reconhecer um host e adicioná-lo à lista [!UICONTROL Hosts] , as seguintes condições devem ser atendidas:
 
 * Pelo menos uma mbox deve existir no host
 * Uma página no host deve ter  o seguinte:
 
-   * Uma referência de [!DNL mbox.js] precisa
+   * Uma referência precisa do at.js ou mbox.js
    * Uma mbox ou uma chamada de mbox global automaticamente gerada
 
 * A página com a mbox deve ser visualizada em um navegador
@@ -55,59 +53,23 @@ Após a visualização de uma página, o host é adicionado na lista de [!UICONT
 
 Após adicionar um host na lista de [!UICONTROL Host], certifique-se de que o host seja reconhecido.
 
-1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Hosts]**.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Hosts]**.
 1. Se o seu host não estiver listado, atualize seu navegador. 
-Por padrão, um novo host reconhecido é colocado no ambiente de Produção. Esse é o ambiente mais seguro porque ele não permite que atividades inativas sejam visualizadas nesses hosts.
-1. (Condicional) Mova o host para o ambiente de Desenvolvimento ou Ambiente de preparo.
+
+
+   By default, a newly recognized host is placed in the [!UICONTROL Production] environment. Esse é o ambiente mais seguro porque ele não permite que atividades inativas sejam visualizadas nesses hosts.
+
+1. (Condicional) Clique no ícone Mover ( ícone ![](/help/administrating-target/assets/icon-move.png) Mover ) para mover o host para o [!UICONTROL Desenvolvimento], [!UICONTROL Armazenamento temporário]ou outro ambiente.
 
 >[!NOTE]
 >
->O ambiente de produção não pode ser removido, mesmo que você o renomeie. Pressupõe-se que este seja o local em que você disponibiliza atividades ativas e testes finais e aprovados. O ambiente padrão não permite que campanhas inativas sejam visualizadas.
+>The [!UICONTROL Production] environment cannot be deleted, even if you rename it. Pressupõe-se que este seja o local em que você disponibiliza atividades ativas e testes finais e aprovados. O ambiente padrão não permite que campanhas inativas sejam visualizadas.
 
-## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Sort or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Informações para ajudá-lo a gerenciar hosts e ambientes (grupos de hosts) incluindo a configuração de host padrão para geração de relatório, criação de listas de permissão, alteração do nome do ambiente, transferência de um host para outro ambiente e exclusão de um host ou ambiente.
+To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name], [!UICONTROL Environment], or [!UICONTROL Last Requested]) to sort the list in ascending or descending order.
 
-
-Para acessar a lista de [!UICONTROL Hosts], clique em **[!UICONTROL Configurar]** > **[!UICONTROL Hosts]**.
-
-![](assets/hosts_list.png)
-
-## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
-
-Para filtrar a lista de [!UICONTROL Hosts] por ambiente, clique na lista suspensa **[!UICONTROL Tudo]**, em seguida, selecione o ambiente desejado (Produção, Armazenamento temporário, Desenvolvimento ou um ambiente personalizado que você criou).
-
-Para classificar a lista de [!UICONTROL Hosts], clique em qualquer cabeçalho e coluna (Nome, Ambiente ou Última solicitação) para classificar a lista em ordem ascendente ou descendente.
-
-Para pesquisar a lista de [!UICONTROL Hosts], digite um termo de pesquisa na caixa Pesquisar.
-
-## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
-
-Para selecionar vários hosts, marque as caixas de seleção perto da coluna [!UICONTROL Nome] dos hosts desejados. Em seguida, você pode mover ou excluir todos os hosts selecionados.
-
-## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
-
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
-1. Clique em **[!UICONTROL Criar ambiente]**.
-1. Especifique um nome descritivo para o ambiente.
-1. Especifique o modo ativo desejado para o ambiente: [!UICONTROL Atividades ativas] ou [!UICONTROL Atividades ativas e inativas].
-1. Clique em **[!UICONTROL Salvar]**.
-
-## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
-
-Você pode selecionar o ambiente que deseja usar como padrão em todos os relatórios de atividade.
-
-Se você usa a Produção como seu padrão, todos os hosts desconhecidos são automaticamente adicionados aqui os dados de relatórios deles são incluídos na exibição de relatório padrão. Em vez disso, criar um ambiente &quot;limpo&quot; garante somente a inclusão dos seus sites/domínios principais.
-
-Para definir o ambiente padrão para relatório:
-
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Configurações]**.
-1. Selecione o host padrão na lista suspensa **[!UICONTROL Configurações do ambiente]**.
-1. Clique em **[!UICONTROL Salvar]**.
-
->[!NOTE]
->
->[!DNL Recommendations]Os usuários do devem recriar sua base de dados comportamental e a base de dados de produtos se os hosts alternarem os grupos de host.
+To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
 ## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
@@ -115,9 +77,13 @@ Você pode criar uma lista de permissões que especifica hosts (domínios) autor
 
 Para criar uma lista de permissões:
 
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Configurações]**.
-1. Marque a caixa de seleção **[!UICONTROL Ativar hosts autorizados para entrega de conteúdo]**.
-1. Adicione os hosts desejados na caixa **[!UICONTROL Host contém]**, conforme desejado.
+1. Na lista [!UICONTROL Hosts] , clique em **[!UICONTROL Autorizar hosts]**.
+1. Ative a opção **[!UICONTROL Ativar hosts autorizados para alternar delivery]** de conteúdo.
+1. Add the desired hosts in the **[!UICONTROL Host contains]** box, as desired.
+
+   Vários hosts podem ser listados, cada um na própria linha.
+
+1. Add the desired hosts in the **[!UICONTROL Host does not contains]** box, as desired.
 
    Vários hosts podem ser listados, cada um na própria linha.
 
@@ -131,49 +97,22 @@ Se uma chamada de mbox for feita em um host não autorizado, a chamada responder
 >
 >A lista de permissões tem precedência em relação a outros ambientes. Você deve limpar todos os hosts antes de usar o recurso de lista de permissões; assim, apenas os hosts autorizados pela lista de permissões aparecerão na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
-Em algumas ocasiões, domínios de outros sites podem ser exibidos em seus ambientes. Um domínio é exibido na lista se este fizer uma chamada para mbox.js. Por exemplo, se alguém copiar uma de suas página da Web para outro servidor, o domínio será exibido em seu ambiente. Você também poderá ver domínios de mecanismos spiders, sites de tradução ou unidades de disco locais.
+Em algumas ocasiões, domínios de outros sites podem ser exibidos em seus ambientes. Um domínio é exibido na lista se o domínio fizer uma chamada para seu at.js ou mbox.js. Por exemplo, se alguém copiar uma de suas página da Web para outro servidor, o domínio será exibido em seu ambiente. Você também poderá ver domínios de mecanismos spiders, sites de tradução ou unidades de disco locais.
 
-Nos casos em que `mboxHost` é passada na chamada de API, a conversão é registrada para o ambiente que é transmitido. Se nenhum ambiente for transmitido, o host na chamada volta ao padrão Produção.
+Nos casos em que `mboxHost` é passada na chamada de API, a conversão é registrada para o ambiente que é transmitido. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 Você também pode criar uma lista negra que especifica os hosts (domínios) que não podem enviar chamadas da mbox para o [!DNL Target] ao adicionar os hosts desejados na caixa [!UICONTROL Host não contêm].
-
-## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
-
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
-1. Passe o cursor do mouse sobre o ambiente desejado, em seguida clique no ícone de **[!UICONTROL Editar.]**
-1. Altere o nome do ambiente.
-1. Clique em **[!UICONTROL Salvar]**.
-
-## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
-
-1. Na lista de [!UICONTROL Hosts], passe o cursor do mouse sobre o host que deseja mover.
-1. Clique no ícone de **[!UICONTROL Mover.]**
-1. Selecione o ambiente desejado na lista suspensa, em seguida, clique no ícone de marca de verificação.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Você pode excluir um host quando ele não é mais necessário.
 
-1. Na lista de [!UICONTROL Hosts], passe o cursor do mouse sobre o host que deseja excluir.
-1. Clique no ícone de **[!UICONTROL Excluir.]**
+1. From the [!UICONTROL Hosts] list, click the **[!UICONTROL Delete]** icon.
 1. Clique em **[!UICONTROL Excluir]** para confirmar a exclusão.
 
 >[!NOTE]
 >
 >O host será listado novamente se alguém navegar até uma página com mbox no host.
-
-## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
-
-Você pode excluir um ambiente quando ele não é mais necessário.
-
-1. Na lista de [!UICONTROL Hosts], clique na guia **[!UICONTROL Ambientes]**.
-1. Passe o cursor do mouse sobre o ambiente que deseja excluir.
-1. Clique no ícone de **[!UICONTROL Excluir.]**
-1. Clique em **[!UICONTROL Excluir]** para confirmar a exclusão.
-
->[!NOTE]
->
->Não é possível excluir o ambiente de Produção, mas você pode renomeá-lo.
 
 ## Solucionar problemas dos hosts {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
@@ -184,7 +123,7 @@ Tente as dicas de solução de problemas a seguir se tiver dificuldade com seus 
 **O host não é exibido na lista de mbox da sua conta.**
 
 * Atualize a página [!UICONTROL Hosts] no seu navegador.
-* Confirme se o código da mbox está correto, incluindo a referência a [!DNL mbox.js].
+* Confirme se o código da mbox está correto, incluindo a referência a at.js ou mbox.js.
 * Tente navegar para uma das mboxes no host. É possível que nenhuma mbox no host tenha sido renderizada em um navegador.
 
 **Domínios aleatórios ou desconhecidos são exibidos nas listas de grupo de[!UICONTROL Hosts].**
@@ -194,27 +133,3 @@ Um domínio é exibido nessa lista se uma chamada para o [!DNL Target] for feita
 **Minha chamada da mbox retorna /* sem exibição - host do mbox não autorizado */.**
 
 Se uma chamada de mbox for feita em um host autorizado, a chamada responderá com /* sem exibição - host mbox não autorizado */.
-
-## Recommendations: coleções e exclusões de filtros por ambiente (grupo de hosts)
-
-![Selo premium](/help/assets/premium.png)
-
-Você pode visualizar o conteúdo das coleções e exclusões do Recommendations de um ambiente selecionado (grupo de hosts).
-
->[!NOTE]
->As atividades do Recommendations estão disponíveis como parte da solução Target Premium. Elas não estão disponíveis no Target Standard sem uma licença do Target Premium.
-
-O grupo de hosts pode ser usado para separar os itens disponíveis no catálogo para usos diferentes. Por exemplo, você pode usar grupos de hosts para os ambientes de Desenvolvimento e Produção, para diferentes marcas ou diferentes regiões. Por padrão, os resultados de visualização na Pesquisa no catálogo, nas Coleções e nas Exclusões estão baseados no grupo de hosts padrão. (Também é possível selecionar um grupo de hosts diferente para visualizar os resultados, usando o filtro Ambiente.) Por padrão, os itens recém adicionados ficam disponíveis em todos os grupos de hosts, a menos que uma ID de ambiente seja especificada ao criar ou atualizar o item. As recomendações entregues dependem do grupo de hosts especificado na solicitação.
-
-Se você não visualiza seus produtos, certifique-se de que você esteja usando o grupo correto de hosts. Por exemplo, se você configurar sua recomendação para usar um ambiente de preparo e você definir o grupo de hosts para Armazenamento temporário, você pode necessitar recriar suas coleções no ambiente de preparo para serem mostradas pelos produtos. Para ver quais produtos estão disponíveis em cada ambiente, use a Pesquisa de catálogo com cada ambiente. Você também pode visualizar o conteúdo das coleções e exclusões do Recommendations para um ambiente selecionado (grupo de hosts).
-
->[!NOTE]
->Depois de alterar o ambiente selecionado, clique em Pesquisar para atualizar os resultados retornados.
-
-O filtro Ambiente está disponível nos seguintes locais da interface do usuário do Target:
-
-* Pesquisa do catálogo ([!UICONTROL Recommendations> Pesquisa do catálogo])
-* Caixa de diálogo Criar coleção ([!UICONTROL Recommendations> Coleções > Criar nova])
-* Caixa de diálogo Atualizar coleção ([!UICONTROL Recommendations > Coleções > Editar])
-* Caixa de diálogo Criar exclusão ([!UICONTROL Recommendations > Exclusões > Criar novo])
-* Caixa de diálogo Atualizar exclusão ([!UICONTROL Recommendations > Exclusões > Editar])
