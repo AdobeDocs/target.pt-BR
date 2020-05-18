@@ -5,9 +5,9 @@ title: Notas de versão para versões anteriores
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29277'
+source-wordcount: '29260'
 ht-degree: 92%
 
 ---
@@ -449,7 +449,7 @@ Esta versão inclui os seguintes recursos e melhorias:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Origem de relatório para atividades </p> </td> 
-   <td colname="col2"> <p>Em <span class="wintitle">Configurar</span> &gt; <span class="wintitle">Preferências</span>, você pode selecionar a origem do relatório para suas atividades, <span class="keyword">Target</span> ou <span class="keyword">Adobe Analytics </span>. Também é possível optar por selecionar sua origem de relatórios por atividade. </p> <p>A partir desta versão, há algumas considerações importantes sobre o fluxo de trabalho que você deve conhecer ao escolher a origem de relatório em <span class="wintitle">Preferências</span> ou por atividade. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">Preferências </a>. </p> </td> 
+   <td colname="col2"> <p>Em <span class="wintitle">Configurar</span> &gt; <span class="wintitle">Preferências</span>, você pode selecionar a origem do relatório para suas atividades, <span class="keyword">Target</span> ou <span class="keyword">Adobe Analytics </span>. Também é possível optar por selecionar sua origem de relatórios por atividade. </p> <p>A partir desta versão, há algumas considerações importantes sobre o fluxo de trabalho que você deve conhecer ao escolher a origem de relatório em <span class="wintitle">Preferências</span> ou por atividade.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3391,7 +3391,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
  <tbody> 
   <tr> 
    <td colname="col1"> Estimativa do aumento de receita </td> 
-   <td colname="col2"> <p>O Target pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora. </p> <p>Esta estimativa calcula a quantidade de aumento alcançado pela experiência vencedora e o seu número total de visitantes durante o teste, e mostra o aumento que você pode alcançar se todos os visitantes visualizarem a experiência vencedora, se as tendências continuarem sendo como durante o teste. </p> <p> A exatidão da estimativa depende de uma série de fatores, incluindo números projetados se as tendências atuais continuarem. Esses valores são estimativas baseadas no último desempenho e não devem ser usadas para orientação financeira. Os resultados futuros podem variar. </p> <p>Consulte <a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Aumento estimado na receita </a>. </p> </td> 
+   <td colname="col2"> <p>O Target pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora. </p> <p>Esta estimativa calcula a quantidade de aumento alcançado pela experiência vencedora e o seu número total de visitantes durante o teste, e mostra o aumento que você pode alcançar se todos os visitantes visualizarem a experiência vencedora, se as tendências continuarem sendo como durante o teste. </p> <p> A exatidão da estimativa depende de uma série de fatores, incluindo números projetados se as tendências atuais continuarem. Esses valores são estimativas baseadas no último desempenho e não devem ser usadas para orientação financeira. Os resultados futuros podem variar. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Desfazer/Refazer </td> 
