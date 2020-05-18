@@ -5,7 +5,10 @@ title: Definir métricas
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métr
 
    As configurações disponíveis dependem da métrica de sucesso que você estiver usando.
 
-   Se estiver habilitado, o campo [!UICONTROL Valor estimado de conversão] (não disponível para as métricas de Pontuação da página) fornece um valor para a meta. Este valor permite que o Target calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. O tipo de dados é a moeda. Este campo é exibido progressivamente depois que o usuário indica a ação realizada para satisfazer o objetivo. Consulte [Aumento estimado na receita](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) para obter mais informações.
+   Se estiver habilitado, o campo [!UICONTROL Valor estimado de conversão] (não disponível para as métricas de Pontuação da página) fornece um valor para a meta. Este valor permite que o Target calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. O tipo de dados é a moeda. Este campo é exibido progressivamente depois que o usuário indica a ação realizada para satisfazer o objetivo. Consulte [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações.
 
    A configuração correta das métricas de sucesso é essencial para garantir que você obtenha os dados que espera.
 
@@ -51,7 +54,7 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
    | `-` | menos |
    | `@` | Sinal de arroba |
 
-## Vídeo de treinamento: métricas de atividade (7:43) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: métricas de atividade (7:43) ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 
