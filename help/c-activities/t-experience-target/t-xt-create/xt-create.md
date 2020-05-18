@@ -1,11 +1,14 @@
 ---
 description: Use o Visual Experience Composer para criar uma atividade de Direcionamento de experiência (XT) em uma página habilitada pelo Target e modificar partes da página no Adobe Target.
 title: Criar uma atividade de direcionamento de experiência
-subtopic: Teste multivariado
-topic: Padrão
+subtopic: Multivariate Test
+topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,9 @@ Para obter mais informações sobre Direcionamento de experiência, um cenário 
 
 **Para criar uma atividade de XT:**
 
-1. Na lista [!UICONTROL Atividades], clique em **[!UICONTROL Criar atividade]** &gt; **[!UICONTROL Direcionamento de experiência]**.
+1. Na lista [!UICONTROL Atividades], clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Direcionamento de experiência]**.
 
-   ![Criar atividade &gt; Direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Criar atividade > Direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -50,7 +53,7 @@ Para obter mais informações sobre Direcionamento de experiência, um cenário 
 
 1. Especifique o [URL da atividade](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) e clique em **[!UICONTROL Próximo]**.
 
-   Se sua conta foi [configurada com um URL padrão](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), esse URL aparece por padrão. Você pode alterar o URL padrão por outro, se necessário.
+   Se sua conta foi [configurada com um URL padrão](/help/administrating-target/visual-experience-composer-set-up.md), esse URL aparece por padrão. Você pode alterar o URL padrão por outro, se necessário.
 
    O VEC é aberto, mostrando a página especificada no URL.
 
