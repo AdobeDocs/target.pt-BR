@@ -1,10 +1,13 @@
 ---
-keywords: Direcionamento
+keywords: Targeting
 description: O URL da atividade determina a página usada na atividade de Direcionamento de experiência, que é aberta no Visual Experience Composer (VEC) ou no Experience Composer baseado em formulário do Adobe Target quando a atividade é criada.
 title: URL da atividade
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ O URL da atividade determina a página usada na atividade de Direcionamento de e
    >
    >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] têm correspondência.
    >
-   >Por padrão, o VEC ou o Experience Composer baseado em formulário abre a página especificada nas suas [Preferências da conta](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Você pode especificar uma página diferente durante a criação da atividade.
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). Você pode especificar uma página diferente durante a criação da atividade.
    >
    >Caso tenha especificado um URL para um site que não inclui o código JavaScript do Target Standard, não será possível selecionar elementos da página.
 
@@ -43,4 +46,4 @@ O URL da atividade determina a página usada na atividade de Direcionamento de e
    * Parâmetro da mbox
    Regras adicionais podem ser unidas no URL da atividade com AND ou OR. Todas regras que você adicionar são avaliadas contra si próprias com AND.
 
-1. Clique em **[!UICONTROL Salvar]quando tiver concluído.**
+1. Clique em **[!UICONTROL Salvar]** quando tiver concluído.
