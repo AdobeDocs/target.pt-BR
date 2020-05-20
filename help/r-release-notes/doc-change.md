@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 36%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | Maio de 20 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Público alvo Standard/Premium 20.6.1 (10 de junho de 2020). |
+|  | [Hosts](/help/administrating-target/hosts.md) | Foi adicionada uma observação à seção &quot;Práticas recomendadas de segurança&quot;. |
 | Maio de 14 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre alterações na API v2 de status de lote de Perfis. |
 | Maio de 13 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Adicionada a seção &quot;Limitações conhecidas&quot;. |
 | Maio de 11 | [Hosts](/help/administrating-target/hosts.md) | Foram adicionadas informações sobre o uso da funcionalidade de ubox com redirecionamentos e listas brancas. |
