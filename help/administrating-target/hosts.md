@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 68%
+source-wordcount: '1232'
+ht-degree: 65%
 
 ---
 
@@ -102,6 +102,10 @@ Em algumas ocasiões, domínios de outros sites podem ser exibidos em seus ambie
 Nos casos em que `mboxHost` é passada na chamada de API, a conversão é registrada para o ambiente que é transmitido. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 Você também pode criar uma lista negra que especifica os hosts (domínios) que não podem enviar chamadas da mbox para o [!DNL Target] ao adicionar os hosts desejados na caixa [!UICONTROL Host não contêm].
+
+>[!NOTE]
+>
+>Como a lista Hosts Autorizados é usada para hosts mbox e hosts de redirecionamento padrão, você deve adicionar todos os domínios existentes aprovados para usar o SDK do Javascript do Público alvo da Adobe (at.js) ** E todos os domínios usados em urls de redirecionamento padrão da ubox. Você também deve adicionar novos domínios semelhantes à lista de permissões no futuro.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
