@@ -1,22 +1,25 @@
 ---
 keywords: mobile app;frequently asked questions;faq;target mobile app
-description: Perguntas frequentes sobre o Adobe Target para aplicativos móveis.
-title: Perguntas frequentes sobre o Adobe Target para aplicativos móveis
+description: Perguntas frequentes sobre o Público alvo da Adobe para aplicativos móveis.
+title: Perguntas frequentes sobre o Adobe Público alvo para aplicativos móveis
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
 
-# Perguntas frequentes sobre o Target para aplicativos móveis
+# Perguntas frequentes sobre o Público alvo para aplicativos móveis
 
-Lista de perguntas frequentes sobre [!DNL Target] aplicativos móveis.
+Lista de perguntas frequentes sobre aplicativos [!DNL Target] para dispositivos móveis.
 
 ## Devo usar [!DNL Adobe Experience Platform Launch] para implantar o SDK ou posso implantar o SDK sem usar [!DNL Launch]?
 
-O SDK está disponível na git [da](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)Adobe Marketing Cloud. Se você não usar o [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), será necessário gerenciar seu próprio arquivo de configurações e gerenciá-lo no aplicativo.
+O SDK está disponível na git [da](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)Adobe Marketing Cloud. Se você não usar o [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), precisará gerenciar seu próprio arquivo de configurações e gerenciá-lo no aplicativo.
 
 ## Quais SDKs estão disponíveis hoje?
 
@@ -30,18 +33,10 @@ Consulte a documentação [do](https://placesdocs.com/places-services-by-adobe-d
 
 Não, você não precisa do at.js para usar os SDKs móveis. at.js é a biblioteca [!DNL Target] JavaScript para sites. Os SDKs do Adobe Experience Platform Mobile são para aplicativos móveis.
 
-## O Target Mobile é uma funcionalidade do SKU de produto do Adobe Target Premium somente?
+## O Público alvo Mobile é uma funcionalidade do SKU de produto do Adobe Público alvo Premium somente?
 
-Para clientes do Adobe Target Standard, você pode usar nossos SDKs móveis somente para atividades de teste A/B e direcionamento de experiência (XT). Se você quiser usar o Recommendations ou os recursos habilitados pelo AI no aplicativo móvel, precisará de uma licença do [Adobe Target Premium](/help/c-intro/intro.md#premium) .
+Para clientes do Adobe Público alvo Standard, você pode usar nossos SDKs móveis somente para atividades de teste A/B e direcionamento de experiência (XT). Se você quiser usar o Recommendations ou os recursos habilitados por AI no aplicativo móvel, você precisa de uma licença do [Adobe Público alvo Premium](/help/c-intro/intro.md#premium) .
 
-## É possível aproveitar os públicos-alvo do Adobe Audience Manager (AAM) no VEC para aplicativos móveis?
+## Existe uma integração de aplicativo móvel entre o Adobe Experience Manager (AEM) e o Público alvo Mobile atividade?
 
-Sim, os SDKs móveis da Adobe Experience Platform foram criados para o [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html), o [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html), o [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)e o Target. Seus públicos-alvo no Audience Manager são compartilhados com [!DNL Target].
-
-## Existe uma integração de aplicativo móvel entre as atividades móveis do Adobe Experience Manager (AEM) e do Target?
-
-Está no nosso roteiro, mas ainda não existe um calendário. No momento, você pode compartilhar Fragmentos [de](/help/c-experiences/c-manage-content/aem-experience-fragments.md) experiência JSON do AEM para o Target e, em seguida, usá-los em uma atividade de aplicativo móvel.
-
-## É possível adicionar mais imagens usando o VEC ou alterar apenas as imagens existentes?
-
-No momento, é possível alterar apenas as imagens existentes.
+Está no nosso roteiro, mas ainda não existe um calendário. Atualmente, você pode compartilhar Fragmentos [de](/help/c-experiences/c-manage-content/aem-experience-fragments.md) experiência JSON do AEM para o Público alvo e, em seguida, usá-los em uma atividade de aplicativo móvel.
