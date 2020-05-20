@@ -5,9 +5,9 @@ title: Notas de pré-lançamento do Adobe Público alvo
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 14 de maio de 2020**
+**Última atualização: 20 de maio de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -36,9 +36,12 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o gerente de produtos do Público alvo da Adobe lançou recentemente um bate-papo para o desenvolvedor discutir os benefícios da migração do mbox.js para o at.js. Nos próximos 30 dias, você poderá [visualização a gravação](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)do webinar.
 
-## Target Standard/Premium 20.5.1 (10 de junho de 2020)
+## Target Standard/Premium 20.6.1 (10 de junho de 2020)
 
-Detalhes desta versão serão publicados aqui.
+| Recurso  / Aprimoramento | Descrição |
+| --- | --- |
+| Papel do editor | Essa nova função é semelhante à função atual do Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para atividades ativas. |
+| Página<br>de administraçãoAntes &quot;Configuração&quot;. | A página Configuração foi renomeada para &quot;Administração&quot; e a interface de usuário para todos os itens de menu foi atualizada para melhorar o fluxo de trabalho e a facilidade de uso.<br>Os itens de menu disponíveis incluem:<ul><li>Visual Experience Composer</li><li>Relatório</li><li>Definições do Scene7</li><li>Implementação</li><li>Propriedades</li><li>Hosts</li><li>Ambientes</li><li>Tokens de resposta</li><li>Usuários</li></ul> |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
