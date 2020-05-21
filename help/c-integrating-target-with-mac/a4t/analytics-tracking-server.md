@@ -1,42 +1,45 @@
 ---
-keywords: servidor de rastreamento de análises; A4T; Depurador da Adobe Experience Cloud; fonte de relatórios
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Se estiver usando uma versão mais antiga da at.js ou da mbox.js, deverá especificar um servidor de rastreamento de análise para as atividades que usam o Analytics for Target (A4T).
 title: Usar um servidor de rastreamento do Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 53%
 
 ---
 
 
 # Usar um servidor de rastreamento do Analytics{#use-an-analytics-tracking-server}
 
-Se estiver usando uma versão mais antiga da at.js ou da mbox.js, deverá especificar um servidor de rastreamento de análise para as atividades que usam o Analytics for Target (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
->Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+>If you use [!DNL Analytics] as your activity&#39;s reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
-Para garantir que os dados do Target sejam enviados para o local correto no Analytics, o A4T exige que todas as chamadas ao Modstats do Target sejam enviadas para um servidor de rastreamento. Para implementações que usam vários servidores de rastreamento, é possível usar o depurador da Adobe Experience Cloud para determinar o servidor de rastreamento correto para a sua atividade.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Cloud Debugger] to determine the correct tracking server for your activity.
 
 O depurador deve ser visualizado em uma página na qual a atividade será entregue para garantir a seleção do servidor de rastreamento correto. Também é possível pode especificar um servidor de rastreamento padrão para cada conta. Entre em contato com o Atendimento ao cliente para especificar ou modificar o padrão.
 
-1. Na página em que você está criando sua atividade, abra o depurador da Adobe Experience Cloud.
+1. Na página na qual você está criando sua atividade, abra o [!DNL Adobe Experience Cloud Debugger].
 
    Se você não tiver instalado o depurador, consulte [Instalar o Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-   O servidor de rastreamento do Analytics pode ser encontrado na seção Imagem do SiteCatalyst do depurador. O campo é chamado *Cookies próprios* ou *Cookies de terceiros*, dependendo da implementação, e o valor do servidor de rastreamento do Analytics estará em um desses formatos:
+   The analytics tracking server is found in the [!UICONTROL SiteCatalyst Image] section of the debugger. O campo é chamado *Cookies próprios* ou *Cookies de terceiros*, dependendo da implementação, e o valor do servidor de rastreamento do estará em um desses formatos:[!DNL Analytics]
 
    * (para implementações CNAME)
    * (para implementações não RDC)
    * (para implementações RDC)
-   *Empresa* representa o nome da empresa do Analytics, *métricas* é um exemplo de um valor CNAME e *d1* é um exemplo de um data center do Analytics.
+   *Empresa*[!DNL Analytics] representa o nome da empresa do , *métricas* é um exemplo de um valor CNAME e *d1* é um exemplo de um data center do [!DNL Analytics]
 1. Copie todo o conteúdo do campo.
-1. Na seção [!UICONTROL Configurações de relatório] da tela [!UICONTROL Meta e configurações]**da atividade, cole as informações do servidor de rastreamento no campo[!UICONTROL Servidor de rastreamento.]**
+1. Na seção [!UICONTROL Configurações de relatório] da tela [!UICONTROL Meta e configurações]**[!UICONTROL da atividade, cole as informações do servidor de rastreamento no campo Servidor de rastreamento.]**
 
    >[!NOTE]
    >
-   >É necessário selecionar o Adobe Analytics como a Fonte de relatórios da sua atividade para que o campo Servidor de rastreamento fique disponível.
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
