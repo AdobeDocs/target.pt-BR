@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '860'
 ht-degree: 36%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Maio de 21 | [Nós de borda do Público alvo da lista de permissões](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
 | Maio de 20 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Público alvo Standard/Premium 20.6.1 (10 de junho de 2020). |
 |  | [Hosts](/help/administrating-target/hosts.md) | Foi adicionada uma observação à seção &quot;Práticas recomendadas de segurança&quot;. |
 | Maio de 14 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre alterações na API v2 de status de lote de Perfis. |
