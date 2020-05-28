@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre relatórios do Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 35%
+source-wordcount: '1012'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ Lista de perguntas frequentes sobre relatórios no [!DNL Target].
 
 ## Como as métricas Novos Visitantes e Visitantes de Retorno são contadas?
 
-Considere o seguinte:
+As informações a seguir explicam como Novos Visitantes e Visitantes de Retorno são contados e fornecem exemplos de por que a soma desses dois segmentos nem sempre soma ao número total de visitantes.
 
 **Novos Visitantes**: Um visitante é incluído no segmento Novos Visitantes se uma das seguintes condições for atendida:
 
@@ -38,9 +38,9 @@ Considere o exemplo a seguir, considerando as condições mencionadas acima para
 
 Esse visitante é contado como um único visitante na contagem geral de visitantes da atividade, mesmo sendo contado nos segmentos Novos Visitantes e Visitantes de Retorno.
 
-As discrepâncias entre as contagens de Novos Visitantes e Visitantes de Retorno também dependem de como você configura as métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)sucesso de atividade:
+As discrepâncias entre as contagens de Novos Visitantes e Visitantes de Retorno também dependem de como você configura as métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)sucesso de atividade.
 
-Considere o exemplo a seguir:
+Por exemplo:
 
 Vários visitantes novos visitam seu site e estão qualificados para uma atividade. Esses novos visitantes são contados para o segmento Novos Visitantes. Todos esses visitantes também registraram uma visita àquela atividade.
 
