@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre relatórios do Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 39%
+source-wordcount: '983'
+ht-degree: 35%
 
 ---
 
@@ -37,6 +37,14 @@ Considere o exemplo a seguir, considerando as condições mencionadas acima para
 * O visitante retorna ao site depois que as condições são atendidas para Visitantes de retorno e é contado como um Visitante de retorno.
 
 Esse visitante é contado como um único visitante na contagem geral de visitantes da atividade, mesmo sendo contado nos segmentos Novos Visitantes e Visitantes de Retorno.
+
+As discrepâncias entre as contagens de Novos Visitantes e Visitantes de Retorno também dependem de como você configura as métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)sucesso de atividade:
+
+Considere o exemplo a seguir:
+
+Vários visitantes novos visitam seu site e estão qualificados para uma atividade. Esses novos visitantes são contados para o segmento Novos Visitantes. Todos esses visitantes também registraram uma visita àquela atividade.
+
+Alguns visitantes acessaram a métrica de conversão, que foi configurada como &quot;Aumentar a contagem, liberar o usuário e permitir a reentrada&quot;. Suponha que alguns desses usuários acessem a métrica de conversão várias vezes, a métrica de conversão não aumentará. Entretanto, considerando essa configuração, alguns usuários podem atingir a métrica de conversão e, em seguida, navegar de volta para o home page, se qualificando para a atividade novamente para gravar uma nova visita.
 
 ## Por que os relatórios de [!UICONTROL Direcionamento de experiência] (XT) contêm métricas para controlar experiências?
 
