@@ -4,7 +4,10 @@ description: Os visores móveis ajudam a visualizar como as atividades aparecem 
 title: Visores móveis para experiências responsivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 | Google Pixel | 411 de largura x 731 de altura | 1080 de largura x 1920 de altura |
 | Google Pixel XL | 411 de largura x 731 de altura | 1440 de largura x 2560 de altura |
 | Google Pixel 2 | 411 de largura x 731 de altura | 1080 de largura x 1920 de altura |
-| Google Pixel 2 XL | 411 de largura x 731 de altura | 1440 de largura x 2560 de altura |
+| Google Pixel 2 XL | 411 de largura x 823 de altura | 1440 de largura x 2880 de altura |
 | Samsung Galaxy Note 5 | 480 de largura x 853 de altura | 1440 de largura x 2560 de altura |
 | LG G5 | 480 de largura x 853 de altura | 1440 de largura x 2560 de altura |
 | One Plus 3 | 480 de largura x 853 de altura | 1080 de largura x 1920 de altura |
@@ -152,7 +155,7 @@ Este caso de uso mostra como configurar experiências em duas versões de iPhone
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Visual Experience Composer (2 de 2) (7:29) Etiqueta ![Visão geral](/help/assets/overview.png)
+### Visual Experience Composer (2 de 2) (7:29) ![Etiqueta de visão geral](/help/assets/overview.png)
 
 O vídeo de demonstração a seguir inclui informações sobre o uso do Visual Experience Composer para funcionar com visores móveis:
 
@@ -165,7 +168,7 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Preferências de conta no selo de ![visão geral do Adobe Target](/help/assets/overview.png)
+### Preferências de conta no selo ![Visão geral do Público alvo da Adobe](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre configurar janelas de visualização móvel nas preferências da conta, a partir de 4:40.
 
