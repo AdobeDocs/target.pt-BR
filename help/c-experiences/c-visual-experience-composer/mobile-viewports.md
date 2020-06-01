@@ -4,9 +4,9 @@ description: Os visores móveis ajudam a visualizar como as atividades aparecem 
 title: Visores móveis para experiências responsivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 98%
 
 ---
@@ -33,8 +33,10 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 | iPhone 8 | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
 | iPhone 7 Plus | 414 de largura x 736 de altura | 1080 de largura x 1920 de altura |
 | iPhone 7 | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
+| iPhone 6s Plus | 414 de largura x 736 de altura | 1080 de largura x 1920 de altura |
+| iPhone 6s | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
+| iPhone 6 Plus | 414 de largura x 736 de altura | 1080 de largura x 1920 de altura |
 | iPhone 6 | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
-| iPhone 6s | 414 de largura x 736 de altura | 1080 de largura x 1920 de altura |
 | iPad  Pro | 1024 de largura x 1366 de altura | 2048 de largura x 2732 de altura |
 | iPad de terceira e quarta generação | 768 de largura x 1024 de altura | 1536 de largura x 2048 de altura |
 | iPad Air 1 e 2 | 768 de largura x 1024 de altura | 1536 de largura x 2048 de altura |
