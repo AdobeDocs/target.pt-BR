@@ -4,7 +4,7 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de Públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Junte-se aos gerentes de produtos Tamer Myna e Mark Tuyay quando eles mostrarem 
 * Automatize a ingestão de conteúdo nas Recomendações de Público alvo
 * Acompanhar o desempenho do conteúdo recomendado e como ele se correlaciona à geração de lead
 
-quinta-feira, 4 de junho de 2010:00 às 10:45. (EST)
+**quinta-feira, 4 de junho de 2020**
+
+**das 10:00 às 10:45 (EST)**
 
 Para se registrar, visite a página de [registro no site](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)da Adobe Experience League.
 
