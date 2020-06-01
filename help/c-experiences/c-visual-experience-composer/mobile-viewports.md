@@ -4,10 +4,10 @@ description: Os visores móveis ajudam a visualizar como as atividades aparecem 
 title: Visores móveis para experiências responsivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 98%
+source-wordcount: '1346'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,14 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 
 | Dispositivo | Tamanho do visor | Resolução do dispositivo |
 |---|---|---|
+| iPhone SE | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
+| iPhone 11 Pro máx | 414 de largura x 896 de altura | 1242 de largura x 2688 de altura |
+| iPhone 11 Xs Max | 414 de largura x 896 de altura | 1242 de largura x 2688 de altura |
+| iPhone 11 | 414 de largura x 896 de altura | 828 de largura x 1792 de altura |
+| iPhone 11 Xr | 414 de largura x 896 de altura | 828 de largura x 1792 de altura |
+| iPhone 11 Pro | 375 de largura x 812 de altura | 1125 de largura x 2436 de altura |
+| iPhone 11 X | 375 de largura x 812 de altura | 1125 de largura x 2436 de altura |
+| iPhone 11 Xs | 375 de largura x 812 de altura | 1125 de largura x 2436 de altura |
 | iPhone X | 375 de largura x 812 de altura | 1125 de largura x 2436 de altura |
 | iPhone 8 Plus | 414 de largura x 736 de altura | 1080 de largura x 1920 de altura |
 | iPhone 8 | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
