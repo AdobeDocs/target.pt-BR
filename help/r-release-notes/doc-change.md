@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '952'
 ht-degree: 34%
 
 ---
@@ -21,8 +21,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 1 de junho | [Visores móveis para experiências responsivas](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Atualizadas as dimensões e resoluções do visor para os modelos Apple iPhone 11, Apple iPhone SE e Google Pixel 2 XL. |
 | Maio de 28 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Adicionadas as seguintes perguntas frequentes: <ul><li>Como as métricas Novos Visitantes e Visitantes de Retorno são contadas?</li></ul> |
-| Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para alocação automática de atividades. |
+| Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para a Autoalocação de atividades. |
 | Maio de 26 | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Foram adicionadas as seguintes informações: &quot;O parâmetro permanece no perfil após desativar o script. Os usuários cujos perfis já contenham um parâmetro que seja usado em uma audiência de atividade se qualificarão nessa atividade.&quot; |
 | Maio de 21 | [Nós de borda do Público alvo da lista de permissões](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
 | Maio de 20 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Público alvo Standard/Premium 20.6.1 (10 de junho de 2020). |
