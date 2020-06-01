@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre relatórios do Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 33%
+source-wordcount: '1110'
+ht-degree: 31%
 
 ---
 
@@ -21,15 +21,28 @@ Lista de perguntas frequentes sobre relatórios no [!DNL Target].
 
 As informações a seguir explicam como Novos Visitantes e Visitantes de Retorno são contados e fornecem exemplos de por que a soma desses dois segmentos nem sempre soma ao número total de visitantes.
 
-**Novos Visitantes**: Um visitante é incluído no segmento Novos Visitantes se uma das seguintes condições for atendida:
+### Novos visitantes
+
+Um visitante é incluído no segmento Novos Visitantes se uma das seguintes condições for atendida:
 
 * É a primeira vez que o visitante visita o site.
 * É a primeira vez que o visitante visita o site desde a limpeza dos cookies.
 * É a primeira vez que o visitante visita o site desde que a duração [do perfil do](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Visitante expirou.
 
-**Visitantes** de retorno: O visitante é incluído no segmento Visitantes recorrentes se o usuário visitou o site anteriormente, saiu por pelo menos 30 minutos e retornou ao site novamente com os mesmos cookies. Desde que o visitante retorne dentro da duração do perfil, será um visitante recorrente.
+### Visitantes que retornam
 
-Se esses dois segmentos forem aplicados a uma atividade, o segmento Novos Visitantes e o segmento Visitantes de Retorno nem sempre serão adicionados ao número total de visitantes.
+O visitante é incluído no segmento Visitantes recorrentes se o usuário visitou o site anteriormente, saiu por pelo menos 30 minutos e retornou ao site novamente com os mesmos cookies. Desde que o visitante retorne dentro da duração do perfil, será um visitante recorrente.
+
+Suponha que a duração do seu perfil seja definida para 14 dias (o padrão). Um visitante é incluído no segmento Visitantes de retorno se as seguintes condições forem atendidas:
+
+* Um visitante visita o site pela primeira vez e é registrado como um Novo Visitante.
+* O visitante deixa o site, mas retorna seis dias depois.
+
+Como a duração do perfil é definida para 14 dias, esse visitante é incluído no segmento Visitantes de retorno. Observe que se o visitante tiver excluído cookies dentro desse período de seis dias, esse visitante será incluído no segmento Novos Visitantes.
+
+### Exemplos que explicam discrepâncias entre contagens de métricas
+
+**Exemplo 1**: Se esses dois segmentos forem aplicados a uma atividade, o segmento Novos Visitantes e o segmento Visitantes de Retorno nem sempre serão adicionados ao número total de visitantes.
 
 Considere o exemplo a seguir, considerando as condições mencionadas acima para Novos Visitantes e Visitantes de Retorno:
 
@@ -38,13 +51,13 @@ Considere o exemplo a seguir, considerando as condições mencionadas acima para
 
 Esse visitante é contado como um único visitante na contagem geral de visitantes da atividade, mesmo sendo contado nos segmentos Novos Visitantes e Visitantes de Retorno.
 
-As discrepâncias entre as contagens de Novos Visitantes e Visitantes de Retorno também dependem de como você configura as métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)sucesso de atividade.
+**Exemplo 2**: As discrepâncias entre as contagens de Novos Visitantes e Visitantes de Retorno também dependem de como você configura as métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)sucesso de atividade.
 
 Por exemplo:
 
 Vários visitantes novos visitam seu site e estão qualificados para uma atividade. Esses novos visitantes são contados para o segmento Novos Visitantes. Todos esses visitantes também registraram uma visita àquela atividade.
 
-Alguns visitantes acessaram a métrica de conversão, que foi configurada como &quot;Aumentar a contagem, liberar o usuário e permitir a reentrada&quot;. Suponha que alguns desses usuários acessem a métrica de conversão várias vezes, a métrica de conversão não aumentará. Entretanto, considerando essa configuração, alguns usuários podem atingir a métrica de conversão e, em seguida, navegar de volta para o home page, se qualificando para a atividade novamente para gravar uma nova visita.
+Alguns visitantes acessaram a métrica de conversão, que foi configurada como &quot;Aumentar a contagem e manter o usuário na Atividade&quot;. Suponha que alguns desses usuários acessem a métrica de conversão várias vezes, a métrica de conversão não aumentará. Entretanto, considerando essa configuração, alguns usuários podem atingir a métrica de conversão e, em seguida, navegar de volta para o home page, se qualificando para a atividade novamente para gravar uma nova visita.
 
 ## Por que os relatórios de [!UICONTROL Direcionamento de experiência] (XT) contêm métricas para controlar experiências?
 
