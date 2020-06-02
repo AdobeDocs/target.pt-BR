@@ -4,13 +4,16 @@ description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Targ
 title: Solução de problemas do Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+workflow-type: ht
+source-wordcount: '429'
+ht-degree: 100%
 
 ---
 
 
-# Solução de problemas do Target{#troubleshoot-target}
+# Solução de problemas do Target {#troubleshoot-target}
 
 Lista de tópicos para ajudá-lo a resolver problemas no [!DNL Adobe Target], incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
 
@@ -21,7 +24,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 ### Solução de problemas em atividades gerais
 
 * [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
-* [Solução de problemas em atividades](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
+* [Atividades de solução de problemas](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
 ### [!UICONTROL Teste A/B], [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] (AT)
 
