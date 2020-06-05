@@ -4,9 +4,9 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de Públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ David Son, gerente de [!DNL Target] produtos, responderá a todas as suas pergun
 
 * at.js 
 * Mobile
-* Liga
+* Adobe Experience Platform - AEP Web SDK (Aloy)
 * APIs
 
 Mas sinta-se à vontade para fazer quaisquer perguntas relacionadas ao Público alvo.
