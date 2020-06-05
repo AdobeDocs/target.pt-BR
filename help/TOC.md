@@ -5,9 +5,9 @@ user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1408'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 + [Documentação do produto do Adobe Target](target-home.md)
 + Notas de versão do Target {#release-notes}
-   + [Anúncios de Públicos alvos](/help/r-release-notes/target-announcements.md)
+   + [Anúncios e eventos do Público alvo](/help/r-release-notes/target-announcements.md)
    + [Notas de versão do Target (atual)](r-release-notes/release-notes.md)
    + [Notas de versão do Target (pré-lançamento)](r-release-notes/target-release-notes.md)
    + [Newletter do Público alvo Insider](/help/r-release-notes/target-insider-newsletter.md)
@@ -142,7 +142,7 @@ ht-degree: 93%
       + [Enviar informações de atividade para o Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Visualização do Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Buscar previamente conteúdo da oferta](c-target-mobile-app/prefetch-offer-content.md)
-      + [Perguntas frequentes sobre o Público alvo para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Usar Serviço de Localização](/help/c-target-mobile-app/use-location-service.md)
    + Lado do servidor: implementação do Target {#server-side}
       + [Notas de versão - APIs do lado do servidor do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
