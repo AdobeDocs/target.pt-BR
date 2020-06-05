@@ -4,34 +4,38 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de Públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# Anúncios de Públicos alvos
+# Anúncios e eventos do Público alvo
 
 Informações sobre eventos futuros, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 
-## Construtor de habilidades do Público alvo da Adobe: Como `Adobe.com` usar o Adobe Sensei AI para personalizar experiências
+## Quebra de Café de Perguntas e Respostas da Comunidade de Públicos alvos da Adobe
 
-**quinta-feira, 4 de junho de 2020**
+**quarta-feira, 10 de junho de 2020**
 
-**das 10:00 às 10:45 (EST)**
+**10:00 às 11:00 da manhã. (PST)**
 
-Como um dos maiores sites B2E da Internet, `Adobe.com` assumiu totalmente sua função de &quot;Cliente zero&quot; para a Adobe Experience Cloud, adotando todas as soluções para casos de uso de B2B e B2C globalmente. Como destino digital que serve uma miríade de personas, incluindo criativos práticos, profissionais de marketing não técnicos e compradores de TI profundamente técnicos, a personalização é crucial para o sucesso da `Adobe.com`.
+Por favor, junte-se a nós para nossa próxima pausa de café de perguntas e respostas [!DNL Adobe Target] da comunidade! Esta é parte de uma série que recentemente iniciamos para nossos especialistas internos se envolverem diretamente com você em nossos processos de fórum para uma &quot;pausa de café&quot;. Pense nisso como o fórum da [!DNL Adobe Target] Comunidade equivalente a um AMA (Ask Me Any) ou um bate-papo no Twitter.
 
-Junte-se aos gerentes de produtos Tamer Myna e Mark Tuyay quando eles mostrarem histórias verdadeiras de como a personalização funciona `Adobe.com`. Neste webinar, você aprenderá a:
+David Son, gerente de [!DNL Target] produtos, responderá a todas as suas perguntas. A área de especialização de David inclui:
 
-* Mantenha o conteúdo relevante e atualizado sem precisar de atualizações manuais
-* Use experiências fluidas para dimensionar o conteúdo recomendado em `Adobe.com`
-* Automatize a ingestão de conteúdo nas Recomendações de Público alvo
-* Acompanhar o desempenho do conteúdo recomendado e como ele se correlaciona à geração de lead
+* at.js 
+* Mobile
+* Liga
+* APIs
 
-Para se registrar, visite a página de [registro no site](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)da Adobe Experience League.
+Mas sinta-se à vontade para fazer quaisquer perguntas relacionadas ao Público alvo.
+
+Basta fazer logon na Comunidade [de Públicos alvos da](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) Adobe para poder participar.
+
+[Inscreva-se aqui](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Construtor de habilidades do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js {#skill-builder}
 
