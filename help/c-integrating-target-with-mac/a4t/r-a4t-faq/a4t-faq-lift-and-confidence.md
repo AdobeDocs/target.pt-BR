@@ -5,7 +5,10 @@ title: Aumento e Confiança - Perguntas frequentes sobre o A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 55%
 
 ---
 
@@ -28,13 +31,14 @@ O nível de confiança é a probabilidade de a taxa de conversão medida diferir
 
 ## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#lift-confidence}
 
-No momento, o incentivo e a confiança não são suportados com métricas calculadas. No entanto, na maioria dos casos isso não deve ser um problema, pois a taxa de conversão calculada no relatório A4T já é uma métrica calculada na qual o denominador é a métrica de normalização (instâncias, visitas ou visitantes). Por exemplo, se você selecionar a métrica de ordens e a métrica de normalização for visitantes, a taxa de conversão (pedidos/visitante) será calculada automaticamente por meio do relatórios A4T. A métrica de incentivo resultante reflete a diferença nessa taxa de conversão entre as experiências de texto quando comparada ao padrão.
+As métricas calculadas não são suportadas atualmente nas funções de incentivo e confiança. Isso se deve ao fato de o Analytics calcular métricas em nível de agregação, e não em nível de visitante. A confiança, em particular, é um cálculo ao nível do visitante.
 
-A maioria das métricas calculadas para otimização se enquadram em uma das duas categorias: Métricas de agregação ou outros cálculos de conversão, como Valor médio do pedido (AOV).
+eventos não calculados (padrão) são suportados em incentivo e confiança. Tornam-se o numerador na função de elevação; o numerador não pode ser um cálculo em si. O denominador é a métrica de normalização (impressões, visitas ou visitantes). Alguns exemplos de eventos padrão incluem pedidos, receita, conversões de atividade, eventos personalizados 1-1000 etc. Isso significa que métricas de otimização comuns, como taxa de conversação (Pedidos/Visitante) e RPV (Receita/Visitante) são suportadas em incentivo e confiança.
 
-Métricas de Agregação são usadas quando uma organização usa eventos únicos para capturar diferentes &quot;sabores&quot; da conversão de gravação. Por exemplo, se sua meta é promover envios de formulário de cliente potencial e você tem dez formulários de cliente potencial diferentes, você pode criar eventos exclusivos para contar cada tipo de conversão de formulário. Para ver a quantidade total de todos os formulários de lead enviados, é necessário criar uma métrica calculada simples para adicioná-los. Uma maneira melhor e mais moderna de rastrear isso é implementar um único evento de envio de cliente potencial no Analytics e, em seguida, usar uma eVar para coletar o tipo de formulário de cliente potencial. O uso desse método requer menos variáveis e elimina a necessidade de agregação de métricas individuais e você ainda tem a capacidade de ver a conversão holística de forma de lead e detalhá-la por tipo de formulário de lead usando a eVar. Isso também elimina a necessidade de métricas de agregação ao avaliar o desempenho de uma atividade de Público alvo.
+Exemplos de métricas não suportadas ou casos de uso incluem:
 
-Outra métrica calculada comum, Valor médio do pedido, não é atualmente suportada com incentivo e confiança porque a métrica de normalização não é uma métrica padrão (instâncias, visitas ou visitantes). Em vez disso, a recomendação é manter um olho nas duas métricas de influência da AOV, Receita por Visitante e Taxa de conversão.
+* Valor Médio do Pedido (Receita/Pedido, por Visitante). Não há suporte para AOV porque o numerador é uma métrica calculada. Em vez disso, a recomendação é considerar as duas métricas de influência da AOV - Receita por Visitante e Taxa de conversão.
+* Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de cliente potencial diferentes em dez eventos separados e adicioná-los juntos para obter o total de envios de cliente potencial. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de cliente potencial no Analytics e, em seguida, usar uma eVar para coletar o tipo de formulário de cliente potencial. O uso desse método requer menos variáveis e garante que você possa usar a métrica de envio de lead único nas funções de incentivo e confiança.
 
 ## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
