@@ -5,7 +5,7 @@ title: Notas de pré-lançamento do Adobe Público alvo
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 3 de junho de 2020**
+**Última atualização: 4 de junho de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -35,7 +35,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 * **Anúncios** do Público alvo: Consulte a página de anúncios do Público alvo para obter informações sobre eventos futuros, incluindo sessões do Público alvo Skill Builder, bate-papos para desenvolvedores, webinars e sessões do Público alvo Coffee Break. Para obter mais informações, consulte Anúncios de [Públicos alvos](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.5.1 (10 de junho de 2020)
+## Target Standard/Premium 20.5.1 (17 de junho de 2020)
 
 | Recurso  / Aprimoramento | Descrição |
 | --- | --- |
