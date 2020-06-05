@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1008'
 ht-degree: 33%
 
 ---
@@ -22,11 +22,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 5 de junho | [Anúncios e eventos do Público alvo](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café do Público alvo da Adobe de 10 de junho. |
+|  | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Texto atualizado para as seguintes perguntas frequentes: &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | 4 de junho | [Relatórios do A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Atualização da seção &quot;Relatórios no Analytics&quot;. |
 | 1 de junho | [Anúncios de Públicos alvos](/help/r-release-notes/target-announcements.md) | Nova página adicionada para anunciar eventos futuros do Público alvo. |
 |  | [Visores móveis para experiências responsivas](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Atualizadas as dimensões e resoluções do visor para os modelos Apple iPhone 11, Apple iPhone SE e Google Pixel 2 XL. |
 | Maio de 28 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Adicionadas as seguintes perguntas frequentes: <ul><li>Como as métricas Novos Visitantes e Visitantes de Retorno são contadas?</li></ul> |
-| Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para alocação automática de atividades. |
+| Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para a Autoalocação de atividades. |
 | Maio de 26 | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Foram adicionadas as seguintes informações: &quot;O parâmetro permanece no perfil após desativar o script. Os usuários cujos perfis já contenham um parâmetro que seja usado em uma audiência de atividade se qualificarão nessa atividade.&quot; |
 | Maio de 21 | [Nós de borda do Público alvo da lista de permissões](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
 | Maio de 20 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Público alvo Standard/Premium 20.6.1 (10 de junho de 2020). |
