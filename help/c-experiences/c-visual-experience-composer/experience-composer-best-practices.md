@@ -1,11 +1,14 @@
 ---
-keywords: visual experience composer; práticas recomendadas do visual experience composer; limitações do visual experience composer; avisos do visual experience composer; práticas recomendadas do vec; vec
+keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Também há outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC).
 title: Práticas recomendadas e limitações do Visual Experience Composer
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +31,13 @@ Coloque o mbox.js no final da seção `<head>`, sem declarações adicionais dep
 
 **Você pode ativar/desativar o Enhanced Experience Composer no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.**
 
-Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Configurar &gt; Preferências] e, em seguida, alterne o comutador para a posição Ligado.
+Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Configurar > Preferências] e, em seguida, alterne o comutador para a posição Ligado.
 
-Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configurar &gt; URL] e, em seguida, alterne o comutador para a posição Ligado.
+Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configurar > URL] e, em seguida, alterne o comutador para a posição Ligado.
 
-**Você pode colocar na lista de permissões determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.**
+**Você pode permitir a lista de determinados endereços IP se o Visual Experience Composer aprimorado não for carregado em páginas seguras do site.**
 
-Os problemas para carregar o Enhanced Visual Experience Composer podem ser resolvidos colocando os endereços IP a seguir na lista de permissões. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam incluir esses endereços IP na lista de permissões.
+Problemas ao carregar o Visual Experience Composer aprimorado podem ser resolvidos ao permitir a listagem dos seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os Visitantes do site não precisam desses endereços IP permitidos.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92, and 54.204.197.253
 
@@ -222,7 +225,7 @@ Se você estiver usando o Enhanced Experienced Composer em um site sem transmiss
 
 **Ao adicionar várias páginas, o painel de experiência e da página são abertos ao mesmo tempo. Isso eventualmente diminui com a largura do Visual Experience Composer para exibir o site para otimizações. Como resultado, os sites refluídos podem começar a aparecer no espaço reduzido de modo diferente do esperado.**
 
-A solução é recolher o painel de experiência e o painel da página, clicando nos ícones "chevron" esquerdos da página superior.
+A solução é recolher o painel de experiência e o painel da página, clicando nos ícones &quot;chevron&quot; esquerdos da página superior.
 
 ## Limitações {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
@@ -292,7 +295,7 @@ O script é executado dentro do escopo do target.js após a página carregar. Po
 
 **Inserir uma imagem na Biblioteca de conteúdo (Scene7) e editar o HTML quebra o url da imagem.**
 
-Adicione um elemento da âncora dentro do div 'customHeaderMessage' com algum texto de teste:
+Adicione um elemento da âncora dentro do div &#39;customHeaderMessage&#39; com algum texto de teste:
 
 ```
 <a href="#"> 
