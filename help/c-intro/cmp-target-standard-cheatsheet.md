@@ -5,7 +5,7 @@ title: Perguntas frequentes sobre otimização e personalização do Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '2904'
 ht-degree: 99%
@@ -190,7 +190,7 @@ Experimente as [informações de solução de problemas](../c-experiences/c-visu
 
 Também temos a [abordagem baseada em formulários](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que pode desbloquear você.
 
-Leia também quando e por que o [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para  [adicionar os servidores proxy da Adobe à lista de permissões](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Leia também quando e por que o [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para  [allowlist Adobe&#39;s proxy servers](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
 
 **Eu tenho um site responsivo. Ao criar uma atividade, como posso ter certeza de que estou levando em consideração dispositivos importantes?**
 
