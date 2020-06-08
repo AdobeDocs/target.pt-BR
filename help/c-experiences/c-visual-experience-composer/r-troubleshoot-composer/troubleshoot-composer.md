@@ -1,10 +1,13 @@
 ---
-keywords: Direcionamento, visual experience composer, whitelist, lista de permissões, enhanced visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, eec, enhanced experience composer, tls, tls 1.2
+keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Solução de problemas do Visual Experience Composer e no Enhanced Experience Composer
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
