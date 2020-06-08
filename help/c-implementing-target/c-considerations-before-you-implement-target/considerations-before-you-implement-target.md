@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 96%
 
 ---
 
@@ -28,4 +31,4 @@ Esta seção inclui informações para desenvolvedores, específicas à sua impl
 - [Navegadores compatíveis](supported-browsers.md)
 - [Alterações na criptografia do TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME e Adobe Target](implement-cname-support-in-target.md)
-- [Nós de borda do Público alvo da lista de permissões](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+- [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
