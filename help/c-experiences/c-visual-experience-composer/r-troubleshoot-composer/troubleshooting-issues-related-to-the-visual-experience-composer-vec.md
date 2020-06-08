@@ -1,10 +1,13 @@
 ---
-keywords: Direcionamento, visual experience composer, lista branca, lista de permissões, vec, solucionar problemas do visual experience composer, solução de problemas, tls, tls 1.2
+keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Problemas de exibição às vezes ocorrem no Visual Experience Composer (VEC), sob certas condições.
 title: Solução de problemas relacionados ao Visual Experience Composer
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Vários problemas podem afetar o desempenho da página nos compositores de exper
 
 Se ocorrerem problemas no Enhanced Experience Composer, tente desativá-lo e usar o Visual Experience Composer.
 
-Para desativar o Enhanced Experience Composer, acesse **[!UICONTROL Configurar]** &gt; **[!UICONTROL Preferências]** e desative a opção **[!UICONTROL Ativar Enhanced Experience Composer]**.
+Para desativar o Enhanced Experience Composer, acesse **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]** e desative a opção **[!UICONTROL Ativar Enhanced Experience Composer]**.
 
 Alguns usuários veem a seguinte mensagem de erro no console:
 
@@ -73,14 +76,15 @@ Para a extensão Modify Response Header (Firefox), já que você não pode adici
 
       * Alterne **[!UICONTROL Adicionar]** para **[!UICONTROL Remover]**.
       * Alterne **[!UICONTROL Solicitação]** para **[!UICONTROL Resposta]**.
-      * Digite "X-Frame-Options" como o nome do cabeçalho.
-      * Repita as etapas anteriores e digite "x-frame-options" como nome do cabeçalho.
+      * Digite &quot;X-Frame-Options&quot; como o nome do cabeçalho.
+      * Repita as etapas anteriores e digite &quot;x-frame-options&quot; como nome do cabeçalho.
 
          >[!NOTE]
          >
          >Os cabeçalhos manipulados pelo Requestly diferenciam maiúsculas de minúsculas.
 
       * Altere **[!UICONTROL Igual a]** para **[!UICONTROL Contém]** como a condição para o URL de origem e insira o URL da atividade que você está tentando carregar no VEC.
+
       ![](assets/chrome_extension.png)
 
 
@@ -114,9 +118,9 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 * Você inseriu um URL inválido.
 * Você não inseriu um URL padrão na sua página de configuração de conta.
 
-## Ao iniciar um URL para uma atividade do VEC, o console exibe a seguinte mensagem de erro: "ReferenceError não captado:_AT não foi definido". (Somente VEC)  {#section_BB5B9B629AC4452496A82943EFF72B85}
+## Ao iniciar um URL para uma atividade do VEC, o console exibe a seguinte mensagem de erro: &quot;ReferenceError não captado:_AT não foi definido&quot;. (Somente VEC)  {#section_BB5B9B629AC4452496A82943EFF72B85}
 
-Esse erro ocorre ao tentar entregar campanhas do Visual Experience Composer (VEC) sem atualizar a mbox.js baixado na interface do usuário do Target com a opção [!UICONTROL Suporte a atividades do Visual Experience Composer] ativada ([!UICONTROL Configurar] &gt; [!UICONTROL Implementação] &gt; [!UICONTROL mbox.js] &gt; [!UICONTROL Editar as configurações da mbox.js]).
+Esse erro ocorre ao tentar entregar campanhas do Visual Experience Composer (VEC) sem atualizar a mbox.js baixado na interface do usuário do Target com a opção [!UICONTROL Suporte a atividades do Visual Experience Composer] ativada ([!UICONTROL Configurar] > [!UICONTROL Implementação] > [!UICONTROL mbox.js] > [!UICONTROL Editar as configurações da mbox.js]).
 
 Certifique-se de que essa configuração esteja ativada, baixe e atualize a mbox.js no site.
 
