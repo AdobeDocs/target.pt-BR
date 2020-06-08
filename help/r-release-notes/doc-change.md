@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1040'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 8 de junho | [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Texto atualizado para as seguintes perguntas frequentes: &quot;O Público alvo Mobile é uma funcionalidade do SKU de produto do Adobe Público alvo Premium somente?&quot; |
+|  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Atualização de todo o tópico. |
 | 5 de junho | [Anúncios e eventos do Público alvo](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café do Público alvo da Adobe de 10 de junho. |
 |  | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Texto atualizado para as seguintes perguntas frequentes: &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | 4 de junho | [Relatórios do A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Atualização da seção &quot;Relatórios no Analytics&quot;. |
