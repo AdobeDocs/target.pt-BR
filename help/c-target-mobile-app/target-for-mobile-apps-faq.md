@@ -5,15 +5,15 @@ title: Perguntas frequentes sobre o Adobe Público alvo para aplicativos móveis
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 2%
 
 ---
 
 
-# Perguntas frequentes sobre o Público alvo para aplicativos móveis
+# Perguntas frequentes sobre o Target para aplicativos móveis
 
 Lista de perguntas frequentes sobre aplicativos [!DNL Target] para dispositivos móveis.
 
@@ -35,7 +35,7 @@ Não, você não precisa do at.js para usar os SDKs móveis. at.js é a bibliote
 
 ## O Público alvo Mobile é uma funcionalidade do SKU de produto do Adobe Público alvo Premium somente?
 
-Para clientes do Adobe Público alvo Standard, você pode usar nossos SDKs móveis somente para atividades de teste A/B e direcionamento de experiência (XT). Se você quiser usar o Recommendations ou os recursos habilitados por AI no aplicativo móvel, você precisa de uma licença do [Adobe Público alvo Premium](/help/c-intro/intro.md#premium) .
+Não. Para [!DNL Adobe Target Standard] os clientes, você pode usar nossos SDKs móveis para atividades de teste A/B e direcionamento de experiência (XT) somente com o complemento do aplicativo [!DNL Target Standard] Mobile. Se você quiser usar o Recommendations ou os recursos habilitados por AI no aplicativo móvel, você precisa de uma licença do [Adobe Público alvo Premium](/help/c-intro/intro.md#premium) .
 
 ## Existe uma integração de aplicativo móvel entre o Adobe Experience Manager (AEM) e o Público alvo Mobile atividade?
 
