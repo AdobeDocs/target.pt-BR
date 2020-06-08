@@ -1,10 +1,13 @@
 ---
-keywords: Direcionamento, visual experience composer, whitelist, lista de permissões, enhanced visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, eec, enhanced experience composer, tls, tls 1.2
+keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,7 @@ Se a mesma ID de elemento DOM for usada em vários elementos na página, a alter
 
 ## Não consigo editar experiências para um site do iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]** e marque a caixa de seleção que ativa o Enhanced Experience Composer. O Enhanced Experience Composer usa um proxy gerenciado pela Adobe para carregar sua página para edição. Isso permite a edição de sites no iFrame e a edição de sites e páginas em que ainda não adicionou código do Adobe Target. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites talvez não sejam carregados no Enhanced Experience Composer, nesse caso, você poderá desmarcar essa opção para carregar o Visual Experience Composer via um iFrame.  []
+Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]** e marque a caixa de seleção que ativa o Enhanced Experience Composer. O Enhanced Experience Composer usa um proxy gerenciado pela Adobe para carregar sua página para edição. Isso permite a edição de sites no iFrame e a edição de sites e páginas em que ainda não adicionou código do Adobe Target. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites talvez não sejam carregados no Enhanced Experience Composer, nesse caso, você poderá desmarcar essa opção para carregar o Visual Experience Composer via um iFrame.  []
 
 >[!NOTE]
 >
@@ -72,7 +75,7 @@ Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique
 
 ## Quero configurar testes nas páginas que ainda não têm a implementação de mbox/direcionamento. (VEC e EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
-Consulte "Não consigo editar experiências para um site do iFrame".
+Consulte &quot;Não consigo editar experiências para um site do iFrame&quot;.
 
 ## Os estilos de texto negrito e itálico com Editar texto/HTML ou Alterar texto/HTML não são exibidos na minha página. Às vezes, o texto desaparece após aplicar essas alterações de estilo. (VEC e EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
@@ -80,7 +83,7 @@ Se você usar **[!UICONTROL Editar texto/HTML]** no Visual Experience Composer p
 
 Caso veja esse problema:
 
-1. Clique no botão **[!UICONTROL HTML]no editor de rich text para entrar no modo de edição de fonte.**
+1. Clique no botão **[!UICONTROL HTML]** no editor de rich text para entrar no modo de edição de fonte.
 1. Encontre os elementos de texto de estilos.
 
    * Para texto em negrito, altere os elementos `<strong>` para `<b>`.
