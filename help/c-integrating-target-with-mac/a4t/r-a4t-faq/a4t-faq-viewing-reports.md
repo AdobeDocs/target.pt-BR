@@ -1,11 +1,14 @@
 ---
-keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; relatório; relatórios; exibir relatórios; relatórios; metodologia de contagem; impressões; visitantes; visitas; métrica padrão; conversões de atividade; não especificado
+keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Este tópico contém respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics como a origem de geração de relatórios do Target (A4T).
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
-topic: Padrão
+topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+workflow-type: tm+mt
+source-wordcount: '2023'
+ht-degree: 80%
 
 ---
 
@@ -14,34 +17,29 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Este tópico contém respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics como a origem de geração de relatórios do Target (A4T).
 
-## Qual é a metodologia de contagem e como usá-la? {#section_E9C21C47B5BE4E54BABF0CD7F03D3945}
+## Posso exibir meus dados de atividade do Target na Analysis Workspace? {#workspace}
 
-A metodologia de contagem especifica o que o Target usa como denominador para as taxas de conversão. As opções são:
+Você pode usar o Análise Workspace para analisar suas atividades e experiências do Adobe Público alvo. O painel [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Público alvo permite que você veja incentivo e confiança para até três métricas de sucesso. Você também pode pesquisar mais fundo usando tabelas e visualizações.
 
-* impressões
-* visitantes
-* visitas
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## Posso definir uma métrica padrão para os relatórios do Target?  {#section_50C20D286AA042CCA958184C9C0767DD}
+## Onde os segmentos podem ser aplicados na área de trabalho da Análise? {#segmentation}
 
-Para o relatório Atividades, os administradores podem alterar a métrica padrão para que, toda vez que executem o relatório, mostrem as mesmas métricas. Caso contrário, o relatório será padronizado com a última métrica aplicada ao seu último relatório.
+Os segmentos são aplicados com mais frequência à parte superior de um painel na área de segmentos. O segmento é aplicado a todas as tabelas e visualizações no painel. Esta técnica é mais útil para ver como o teste afeta um subgrupo de pessoas (por exemplo, como esse teste funcionou para pessoas no Reino Unido)?
 
-For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
+## Quando eu aplico um segmento de ocorrência para uma atividade de Público alvo específica, por que vejo experiências não relacionadas retornadas? {#activity-segmentation}
 
-## Quando aplico um segmento à métrica (com uma métrica calculada) ao aplicar o segmento ao relatório? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
+A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. (Observação: esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário). À medida que os visitantes navegam pelo site por toda essa janela de expiração, eles farão parte de muitas atividades do Público alvo, todas coletadas na dimensão.
 
-Os segmentos aplicados aos relatórios seguem a mesma forma de aplicar segmentos no Target classic. Essa técnica é mais útil para ver como um teste afeta um subgrupo de pessoas (por exemplo, como esse teste foi realizado para pessoas no Reino Unido?).
+Como resultado, ao segmentar para que uma atividade esteja presente em uma ocorrência, você obterá todas as experiências que fazem parte dessa atividade MAIS quaisquer outras experiências que persistem nessa ocorrência.
 
-É possível aplicar segmentos a métricas com uma métrica calculada. Isso geralmente é feito quando você deseja criar um novo tipo de evento de sucesso. Por exemplo, se você quiser ver quantos visitantes retornados sua atividade gerou, ou quantos visitantes chegaram a uma determinada página para ver seu teste. Observe que o aumento e a confiança não podem ser atualmente gerados para métricas calculadas.
+## Devo usar visitantes, visitas ou impressões atividades como minha métrica de normalização (ou seja, metodologia de contagem)? {#metrics}
 
-## Devo usar visitantes, impressões de atividades ou visitas ao exibir relatórios?  {#metrics}
-
-Existem várias opções, cada uma com suas próprias vantagens:
+Existem várias opções para normalizar métricas no relatórios A4T. Essa métrica, também chamada de metodologia de contagem, torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.
 
 * ***Visitantes únicos*** aumentam uma vez quando um usuário se qualifica primeiro para uma atividade.
 * ***Visitas*** aumentam a cada sessão quando um usuário (Visitante único) insere uma atividade, mesmo se a atividade não for exibida em visitas subsequentes.
 * ***Impressões de atividade*** aumentam sempre que o conteúdo da atividade é distribuído. (Medidas pelo Target)
-* ***Instâncias*** aumentam uma vez por página quando o conteúdo da atividade é distribuído. (Medidas por Analytics)
 
 Quando um visitante exibe uma página que contém uma atividade, uma variável é definida para esse visitante e contém o nome dessa atividade. Veja os cenários detalhados abaixo sobre como cada metodologia de contagem é comparada.
 
@@ -49,23 +47,26 @@ Considere o seguinte:
 
 * Todas as métricas acima são acionadas quando um usuário se qualifica para uma atividade e o conteúdo é retornado do [!DNL Target]. Isso não significa necessariamente que o usuário viu a oferta. Se uma experiência de atividade estiver abaixo da dobra e o usuário não rolar a página para baixo, a oferta foi distribuída pelo [!DNL Target], mas não foi vista pelo usuário.
 * [!UICONTROL Impressões de atividade] (medidas pelo [!DNL Target]) e [!UICONTROL Instâncias] (medidas pelo [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
-* Ao usar as métricas [!UICONTROL Impressões de atividade] e [!UICONTROL Conversões de atividade] no [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição do [!UICONTROL Mesmo toque]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL Modelos de atribuição não padrão] e selecionando o [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição na visão geral [do IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos no Guia *de ferramentas do* Analytics.
 
-## O que significa "conversões de atividade" se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
+## Por que as &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot; são mais altas na área de trabalho da Análise do que no Relatórios e análises? {#sametouch}
 
-"Conversões de atividades" estarão vazias se uma métrica do Analytics foi selecionada como a métrica de conversão da atividade.
+O Relatórios e análises aplica o mesmo modelo de atribuição de toque a &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot;, enquanto o Análise Workspace exibe as métricas brutas, que podem aparecer infladas devido à persistência da dimensão do Público alvo.
 
-## Por que vejo "não especificado" nos relatórios do Analytics? O que isso significa?  {#unspecified}
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL Modelos de atribuição não padrão] e selecionando o [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição na visão geral [do IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos no Guia *de ferramentas do* Analytics.
 
-![](assets/unspecified.png)
+## O que significa &quot;conversões de atividade&quot; se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
-Em outros relatórios, "não especificado" significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir "não especificado", o serviço de classificação ainda não foi executado. Em geral, pode levar entre 24 e 72 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
+&quot;Conversões de atividades&quot; estarão vazias se uma métrica do Analytics foi selecionada como a métrica de conversão da atividade.
+
+## Por que vejo &quot;não especificado&quot; nos relatórios do Analytics? O que isso significa?  {#unspecified}
+
+Em outros relatórios, &quot;não especificado&quot; significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir &quot;não especificado&quot;, o serviço de classificação ainda não foi executado. Em geral, pode levar entre 24 e 72 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
 
 Após o período de classificação, os dados são exibidos nesses relatórios, aproximadamente uma hora depois de serem coletados no site. Todas as métricas, os segmentos e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
 ## Por que as métricas do Target são enviadas ao Analytics mesmo após a desativação da atividade? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. Este período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
+A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. Esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
 
 Você pode ver as variáveis de destino enviadas ao Analytics após o período de expiração porque a expiração é de 90 dias, mas apenas se esse usuário nunca vir outra atividade do Target habilitada para A4T. Se um usuário voltar ao site no dia 45 e vir outra atividade, todo o valor eVar do A4T terá seu contador redefinido para 90 dias. Isso significa que a primeira campanha do dia 1 agora pode persistir por até 45 + 90 = 135 dias. Se o usuário continuar voltando, você pode chegar ao ponto em que vê as métricas enviadas para o Analytics nos relatórios de atividades muito mais antigas. À medida que os usuários excluem cookies e não retornam ao site, os números dessa atividade diminuem, mas você ainda os vê.
 
@@ -105,7 +106,7 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 3 | 1 | 1 |
 
-Como as duas experiências foram vistas antes da conversão, ambas recebem "crédito" pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para geração de relatório do Target, porque você não está comparando a atividade com atividade do Target para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
+Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para geração de relatório do Target, porque você não está comparando a atividade com atividade do Target para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
 For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
@@ -136,9 +137,3 @@ Os conjuntos de relatórios virtuais *não* estão incluídos na lista de Conjun
 Alterar a porcentagem da alocação de tráfego em uma atividade após a ativação pode causar relatórios inconsistentes no Analytics, pois a alteração afeta apenas os novos visitantes. Os visitantes recorrentes não são afetados.
 
 Como prática recomendada, você deve interromper a atividade existente e criar uma nova atividade, em vez de alterar a porcentagem depois da ativação. Os relatórios para a nova atividade começam com os novos visitantes e os dados de visitantes recorrentes não causam relatórios inconsistentes.
-
-## Posso exibir meus dados de atividade do Target na Adobe Analysis Workspace?
-
-É possível usar a [!DNL Adobe Analysis Workspace] para pesquisar mais e visualizar os dados ou descobrir insights ocultos nas entrelinhas.
-
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
