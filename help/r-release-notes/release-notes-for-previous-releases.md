@@ -281,6 +281,7 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 
    * As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas.
    * A renderização das ofertas de imagens no seletor de Ativos de imagem é mais rápida e eficiente.
+
    Para obter mais informações, consulte [Trabalhar com conteúdo na biblioteca](/help/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
 * Melhoramos a renderização de ofertas de imagem no seletor de ativos. Exibir e selecionar ofertas de imagem agora é mais fácil e eficiente. (TGT-32897)
@@ -462,6 +463,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
 
    * Se um público-alvo foi excluído no AAM, é exibido um ícone de aviso na lista [!UICONTROL Público-alvo] e no seletor de público. Uma dica de ferramenta na interface do usuário também indica que o público-alvo foi excluído do AAM.
    * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
+
    Consulte [Sobre públicos](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
 * Correção de um problema que impedia que usuários em determinadas situações pudessem criar uma atividade quando o Adobe Analytics era selecionado como origem de relatório na página [!UICONTROL Configurar]. Os usuários recebiam a mensagem &quot;Selecione um conjunto de relatórios&quot; mesmo que não tivessem a opção de selecionar o conjunto de relatórios. (TGT-31968)
@@ -2187,6 +2189,7 @@ Os seguintes problemas conhecidos foram relatados:
    1. Altere o URL para um URL fictício e salve.
    1. Altere o URL fictício novamente para o URL de redirecionamento esperado da sua campanha.
    1. Marque a opção &quot;Incluir parâmetros de consulta atuais&quot; e salve.
+
    Se você marcar a opção ao criar uma nova oferta de redirecionamento, poderá esperar que seus parâmetros de consulta sejam incluídos no redirecionamento.
 
    Para atividades mais antigas, se esta opção estiver marcada no Experience Composer da sua atividade, significará que seu redirecionamento incluirá os parâmetros de consulta. Se não for marcada, os parâmetros de consulta atuais não serão incluídos no redirecionamento.
