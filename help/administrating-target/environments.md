@@ -1,14 +1,14 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 title: Ambientes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. O gerenciamento de hosts também permite garantir a qualidade de novas atividades e do conteúdo em seus ambientes de teste, armazenamento temporário e desenvolvimento, antes das atividades serem ativadas.
 
-[!DNL Target]O não limita um host que pode enviar e receber mboxes. Dessa forma, quando novos servidores ou domínios entram em contato, funcionam automaticamente (a menos que tenha configurado uma lista de permissões ou lista negra). Isso também permite o teste de publicidade em domínios diferentes, desconhecidos ou não previstos.
+[!DNL Target] não limita um host que pode enviar e receber mboxes, portanto, quando novos servidores ou domínios entram em contato, eles funcionam automaticamente (a menos que você tenha configurado uma lista de permissões ou uma lista de bloqueios). Isso também permite o teste de publicidade em domínios diferentes, desconhecidos ou não previstos.
 
 Para gerenciar ambientes, clique em **[!UICONTROL Administração]** > **[!UICONTROL Ambientes]**.
 
