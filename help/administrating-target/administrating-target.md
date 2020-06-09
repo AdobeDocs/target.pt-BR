@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: bd95e4bcd3d8e8de5cb231e0632c73a24b36995e
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 44%
@@ -20,7 +20,7 @@ Informações para ajudar a configurar o Adobe Target, incluindo preferências, 
 
 >[!NOTE]
 >
->Os tópicos desta seção, listados abaixo, foram atualizados para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Público alvo Standard/Premium 20.6.1 (10 de junho de 2020). As informações apresentadas nestes tópicos aplicam-se à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
+>Os tópicos desta seção, listados abaixo, foram atualizados para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Público alvo Standard/Premium 20.5.1 (17 de junho de 2020). As informações apresentadas nestes tópicos aplicam-se à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
