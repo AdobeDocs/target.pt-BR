@@ -5,10 +5,10 @@ title: Notas de pré-lançamento do Adobe Público alvo
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
+source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 21%
+source-wordcount: '413'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 4 de junho de 2020**
+**Última atualização: 10 de junho de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -41,7 +41,6 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 | --- | --- |
 | Analytics for Target (A4T) suporte para a autoalocação de atividades | Com a versão de junho, a Autoalocação de testes oferecerá suporte ao [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md). Essa integração permite que você use o recurso de alocação automática de banco com várias armas para direcionar o tráfego para experiências vencedoras, ao mesmo tempo que usa uma métrica de objetivo do Adobe Analytics e/ou recursos de relatórios e análise do Adobe Analytics. Se você já tiver [implementado a A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para uso com atividades de teste A/B e direcionamento de experiência, todos estarão configurados! |
 | Papel do editor | Essa nova função é semelhante à função atual do Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para ativar o atividade. |
-| Página<br>de administraçãoAntes &quot;Configuração&quot;. | A página Configuração foi renomeada para &quot;Administração&quot; e a interface de usuário para todos os itens de menu foi atualizada para melhorar o fluxo de trabalho e a facilidade de uso.<br>Os itens de menu disponíveis incluem:<ul><li>Visual Experience Composer</li><li>Relatório</li><li>Definições do Scene7</li><li>Implementação</li><li>Propriedades</li><li>Hosts</li><li>Ambientes</li><li>Tokens de resposta</li><li>Usuários</li></ul> |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
