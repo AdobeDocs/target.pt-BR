@@ -5,7 +5,7 @@ user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 93%
@@ -35,7 +35,7 @@ ht-degree: 93%
    + [Vídeos de treinamento para o Adobe Target Standard e Premium](c-intro/target-standard-premium-training-videos.md)
    + [Perguntas frequentes sobre otimização e personalização do Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Administrar o Target {#administer}
-   + [Visão geral do Target](administrating-target/administrating-target.md)
+   + [Visão geral da administração do Target](administrating-target/administrating-target.md)
    + [Primeiros passos do administrador](administrating-target/start-target.md)
    + [Configurar o Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
    + Relatório {#reporting}
@@ -67,7 +67,7 @@ ht-degree: 93%
          + [Políticas de cookies do Google Chrome para SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Diretivas de Política de Segurança de Conteúdo (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+         + [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Métodos para colocar os dados no Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configurações da API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
