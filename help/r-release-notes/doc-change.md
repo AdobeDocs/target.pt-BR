@@ -5,7 +5,7 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 33%
@@ -31,7 +31,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Maio de 28 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Adicionadas as seguintes perguntas frequentes: <ul><li>Como as métricas Novos Visitantes e Visitantes de Retorno são contadas?</li></ul> |
 | Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para a Autoalocação de atividades. |
 | Maio de 26 | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Foram adicionadas as seguintes informações: &quot;O parâmetro permanece no perfil após desativar o script. Os usuários cujos perfis já contenham um parâmetro que seja usado em uma audiência de atividade se qualificarão nessa atividade.&quot; |
-| Maio de 21 | [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
+| Maio de 21 | [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
 | Maio de 20 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Público alvo Standard/Premium 20.6.1 (10 de junho de 2020). |
 |  | [Hosts](/help/administrating-target/hosts.md) | Foi adicionada uma observação à seção &quot;Práticas recomendadas de segurança&quot;. |
 | Maio de 14 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre alterações na API v2 de status de lote de Perfis. |
@@ -57,7 +57,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
 | Abril de 22 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Nova seção adicionada: *Alterações na API de status de lote de Perfis v2 (4 de maio de 2020).* |
 | Abril de 20 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Nova seção adicionada: *Construtor de habilidades do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js.* |
-| Abril de 14 | [Lista permitida de hosts de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Novo tópico. |
+| Abril de 14 | [Lista permitida de hosts de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Novo tópico. |
 | Abril de 10 | [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nova seção adicionada: &quot;Práticas recomendadas de implementação.&quot; |
 | Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | Abril de 2 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram adicionadas informações sobre como usar `user.header('x-forwarded-for')` as bordas AWS mais recentes para recuperar os endereços IP dos usuários. |
