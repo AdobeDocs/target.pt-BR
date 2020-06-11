@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 73%
@@ -60,7 +60,7 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
       >[!IMPORTANT]
       >
-      >Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para permitir a lista dos domínios de URL de redirecionamento padrão. O Público alvo usa hosts para permitir domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#whitelist) nos *hosts*.
+      >Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para permitir a lista dos domínios de URL de redirecionamento padrão. O Público alvo usa hosts para permitir domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) nos *hosts*.
 
 
 1. Valide o redirecionador.
