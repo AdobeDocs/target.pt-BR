@@ -5,10 +5,10 @@ title: Controle de qualidade da atividade
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
    Devido a essa codificação dupla, quando tentamos decodificar o `at_preview_token`, o Target não pode extrair o valor do token correto, resultando em uma visualização que não funciona.
 
-   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de visualização sejam colocados na lista de permissões para que esses valores não sejam transformados de forma alguma.
+   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de pré-visualização sejam permitidos para que esses valores não sejam transformados de nenhuma forma.
 
    A tabela a seguir lista os parâmetros que podem ser permitidos listados em seu domínio:
 
