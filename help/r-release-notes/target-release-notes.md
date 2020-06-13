@@ -5,10 +5,10 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 18%
+source-wordcount: '504'
+ht-degree: 17%
 
 ---
 
@@ -41,13 +41,13 @@ As seguintes melhorias e correções foram feitas nas bibliotecas do [!DNL Targe
 
 ### at.js 1.8.2
 
-* Ao usar CNAME e substituição de borda, o at.js 1.*O x* pode criar incorretamente o domínio do servidor, o que resultou na falha da [!DNL Target] solicitação. (TNT-35064)
+* Correção de um problema ao usar o CNAME e a substituição de borda, at.js 1.*O x* pode criar incorretamente o domínio do servidor, o que resultou na falha da [!DNL Target] solicitação. (TNT-35064)
 
 ### at.js 2.3.1
 
 * A `deviceIdLifetime` configuração foi substituída por [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
-* Ao usar CNAME e substituição de borda, at.js 2.*O x* pode criar incorretamente o domínio do servidor, o que resultou na falha da [!DNL Target] solicitação. (TNT-35065)
-* Ao usar a [!DNL Target] extensão v2 e a [!DNL Launch][!DNL Adobe Analytics] extensão, [!DNL Launch] atrasou a [!DNL Target] chamada [!DNL Analytics] `sendBeacon` . (TNT-36407, TNT-35990, TNT-36000)
+* Correção de um problema ao usar o CNAME e a substituição de borda, at.js 2.*O x* pode criar incorretamente o domínio do servidor, o que resultou na falha da [!DNL Target] solicitação. (TNT-35065)
+* Correção de um problema ao usar a [!DNL Target] extensão v2 e a [!DNL Launch][!DNL Adobe Analytics] extensão, [!DNL Launch] atrasou a [!DNL Target] [!DNL Analytics] `sendBeacon` chamada. (TNT-36407, TNT-35990, TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (17 de junho de 2020)
 
