@@ -5,10 +5,10 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 33%
+source-wordcount: '821'
+ht-degree: 32%
 
 ---
 
@@ -19,7 +19,7 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 >[!NOTE]
 >
->* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Público alvo da Adobe não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Público alvo em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Consulte Construtor de habilidades *do Público alvo da Adobe: Bate-papo no desenvolvedor, migre o mbox.js do Público alvo da Adobe para o at.js* abaixo para obter informações.
+>* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Adobe Target não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Público alvo em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Como o At.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) e o Construtor de habilidades do [Adobe Target: Bate-papo no desenvolvedor, migre o mbox.js do Adobe Target para o at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >   
    Embora a mbox.js seja atualmente compatível, não fornecemos atualizações de recursos para esta biblioteca desde julho de 2017. O mais recente at.js oferece muitas vantagens sobre o mbox.js. Entre outros benefícios, o at.js melhora o tempo de carregamento da página para implementações da Web, melhora a segurança e oferece melhores opções de implementação para aplicativos de página única.
@@ -122,10 +122,10 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
 
 | Recurso | Detalhes |
 |--- |--- |
-| [Notas de versão - APIs do lado do servidor do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Notas de versão relacionadas às APIs do lado do servidor do Público alvo da Adobe. |
-| [Notas de versão - SDK do Node.js do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Notas de versão relacionadas ao SDK do Nó.js do Público alvo da Adobe. |
-| [Notas de versão - SDK Java do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Notas de versão relacionadas ao SDK Java do Público alvo da Adobe. |
-| [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Detalhes sobre as alterações em cada versão do Público alvo da Adobe na biblioteca JavaScript at.js. |
+| [Notas de versão - APIs do lado do servidor do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Notas de versão relacionadas às APIs do servidor do Adobe Target. |
+| [Notas de versão - SDK do Node.js do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Notas de versão relacionadas ao SDK Node.js do Adobe Target. |
+| [Notas de versão - SDK Java do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Notas de versão relacionadas ao Java SDK do Adobe Target. |
+| [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Detalhes sobre as alterações em cada versão da biblioteca JavaScript do Adobe Target at.js. |
 | [Detalhes da versão da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | Esta página mostra as alterações em cada versão da mbox.js.<br>Observe que a biblioteca mbox.js não está mais sendo desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. |
 
 ## Alterações na documentação, notas de versão anteriores e notas de versão da Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
