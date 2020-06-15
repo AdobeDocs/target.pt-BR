@@ -5,9 +5,9 @@ title: Informações sobre a função targetGlobalSettings() da biblioteca at.js
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1648'
 ht-degree: 42%
 
 ---
@@ -90,6 +90,10 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 * **Tipo**: Número
 * **Valor** padrão: 63244800000 ms = 2 anos
 * **Descrição**: A quantidade de tempo `deviceId` é persistente nos cookies.
+
+>[!NOTE]
+>
+>A configuração deviceIdLifetime pode ser substituída em at.js versão 2.3.1 ou posterior.
 
 ### ativado
 
@@ -335,7 +339,7 @@ window.targetGlobalSettings = {
 ...
 ```
 
-Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar o Público alvo oferta.
+Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar o Target oferta.
 
 ## Personalização híbrida {#server-state}
 
