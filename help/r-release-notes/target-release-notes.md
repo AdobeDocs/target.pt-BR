@@ -5,10 +5,10 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 17%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 12 de junho de 2020**
+**Última atualização: 15 de junho de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -55,6 +55,7 @@ As seguintes melhorias e correções foram feitas nas bibliotecas do [!DNL Targe
 | --- | --- |
 | Analytics for Target (A4T) suporte para a autoalocação de atividades | Com a versão de junho, a Autoalocação de testes oferecerá suporte ao [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md). Essa integração permite que você use o recurso de alocação automática de banco com várias armas para direcionar o tráfego para experiências vencedoras, ao mesmo tempo que usa uma métrica de objetivo do Adobe Analytics e/ou recursos de relatórios e análise do Adobe Analytics. Se você já tiver [implementado a A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para uso com atividades de teste A/B e direcionamento de experiência, todos estarão configurados! |
 | Papel do editor | Essa nova função é semelhante à função atual do Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para ativar o atividade. |
+| Suporte a A4T em 25 [!DNL Analysis Workspace]<br>de junho de 2020 | [!UICONTROL O Analytics for Público alvo] (A4T) agora é compatível com [!DNL Analysis Workspace]. O painel  Analytics for Público alvo (A4T) permite analisar suas [!DNL Adobe Target] atividades e experiências no [!DNL Analysis Workspace].<br>Para obter mais informações, consulte [Analytics for Público alvo (A4T) no Guia](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) de ferramentas do *Analytics*. |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
