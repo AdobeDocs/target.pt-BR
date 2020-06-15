@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1079'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 15 de junho | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualizadas as notas da versão [!DNL Target Standard/Premium] 20.5.1 (17 de junho de 2020) para incluir informações sobre o suporte a A4T no [!DNL Analysis Workspace]. |
 | 12 de junho | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Adição de informações sobre a configuração `deviceIdLifetime`. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre as versões at.js 1.8.2 e at.js 2.3.1. |
 | 8 de junho | [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Texto atualizado para as seguintes perguntas frequentes: &quot;O Público alvo Mobile é uma funcionalidade do SKU de produto do Adobe Target Premium somente?&quot; |
@@ -31,7 +32,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 1 de junho | [Anúncios de Públicos alvos](/help/r-release-notes/target-announcements.md) | Nova página adicionada para anunciar eventos futuros do Público alvo. |
 |  | [Visores móveis para experiências responsivas](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Atualizadas as dimensões e resoluções do visor para os modelos Apple iPhone 11, Apple iPhone SE e Google Pixel 2 XL. |
 | Maio de 28 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Adicionadas as seguintes perguntas frequentes: <ul><li>Como as métricas Novos Visitantes e Visitantes de Retorno são contadas?</li></ul> |
-| Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para a Autoalocação de atividades. |
+| Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para alocação automática de atividades. |
 | Maio de 26 | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Foram adicionadas as seguintes informações: &quot;O parâmetro permanece no perfil após desativar o script. Os usuários cujos perfis já contenham um parâmetro que seja usado em uma audiência de atividade se qualificarão nessa atividade.&quot; |
 | Maio de 21 | [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
 | Maio de 20 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Target Standard/Premium 20.6.1 (10 de junho de 2020). |
