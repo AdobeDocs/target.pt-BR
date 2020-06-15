@@ -5,10 +5,10 @@ title: Notas de pré-lançamento de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 18%
+source-wordcount: '529'
+ht-degree: 17%
 
 ---
 
@@ -42,6 +42,12 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 | Analytics for Target (A4T) suporte para a autoalocação de atividades | Com o lançamento de junho, os testes de Autoalocação oferecerão suporte à [Analytics para o Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md). Essa integração permite que você use o recurso de alocação automática de banco com vários braços para direcionar o tráfego para experiências vencedoras, ao mesmo tempo em que usa uma métrica de objetivo do Adobe Analytics e/ou os recursos de relatórios e análise do Adobe Analytics. Se você já tiver [implementado a A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para uso com atividades de teste A/B e direcionamento de experiência, todos estarão configurados! |
 | Papel do editor | Essa nova função é semelhante à função atual do Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para ativar o atividade. |
 | Suporte a A4T em 25 [!DNL Analysis Workspace]<br>de junho de 2020 | [!UICONTROL O Analytics for Target] (A4T) agora é compatível com [!DNL Analysis Workspace]. O painel [!UICONTROL Analytics for Target (A4T) permite que você analise suas] atividades e experiências no [!DNL Adobe Target] [!DNL Analysis Workspace].<br>Para obter mais informações, consulte o painel [Analytics for Target (A4T) no Guia](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) de ferramentas da ** Analytics. |
+
+### Melhorias, correções e alterações
+
+* Foram feitos aprimoramentos na interface do Público alvo para facilitar a especificação da mbox global. (TGT-15280)
+* Correção de um problema que fazia com que a métrica &quot;visitantes&quot; fosse armazenada na definição de atividade em vez de &quot;Visitantes únicos&quot;. (TGT-37098)
+* Corrigido um problema na interface do usuário que fazia com que a barra de rolagem vertical não funcionasse corretamente na página do [!DNL Target] Audiência  . (TGT-36968)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
