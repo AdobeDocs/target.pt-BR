@@ -5,9 +5,9 @@ title: Notas de pré-lançamento de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '515'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,6 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 ### Melhorias, correções e alterações
 
-* Foram feitos aprimoramentos na interface do Público alvo para facilitar a especificação da mbox global. (TGT-15280)
 * Correção de um problema que fazia com que a métrica &quot;visitantes&quot; fosse armazenada na definição de atividade em vez de &quot;Visitantes únicos&quot;. (TGT-37098)
 * Corrigido um problema na interface do usuário que fazia com que a barra de rolagem vertical não funcionasse corretamente na página do [!DNL Target] Audiência  . (TGT-36968)
 
