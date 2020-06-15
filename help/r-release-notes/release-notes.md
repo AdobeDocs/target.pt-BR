@@ -5,10 +5,10 @@ title: 'Notas de versão do Target (atual) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 32%
+source-wordcount: '957'
+ht-degree: 30%
 
 ---
 
@@ -19,7 +19,7 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 >[!NOTE]
 >
->* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Adobe Target não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Público alvo em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Como o At.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) e o Construtor de habilidades do [Adobe Target: Bate-papo no desenvolvedor, migre o mbox.js do Adobe Target para o at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+>* **desaprovação** da mbox.js: Em 30 de agosto de 2020, o Adobe Target não oferecerá mais suporte à biblioteca mbox.js. Após 30 de agosto de 2020, todas as chamadas feitas do mbox.js falharão e afetarão suas páginas com atividades do Target em execução. Recomendamos que todos os clientes migrem para a versão mais recente da biblioteca do at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Como o At.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) e o Construtor de habilidades [Adobe Target: Bate-papo do desenvolvedor, migre o Adobe Target mbox.js para o at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >   
    Embora a mbox.js seja atualmente compatível, não fornecemos atualizações de recursos para esta biblioteca desde julho de 2017. O mais recente at.js oferece muitas vantagens sobre o mbox.js. Entre outros benefícios, o at.js melhora o tempo de carregamento da página para implementações da Web, melhora a segurança e oferece melhores opções de implementação para aplicativos de página única.
@@ -28,10 +28,19 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
    Ao mudar todos os clientes para o at.js, nossos engenheiros e funcionários de suporte poderão fornecer novas funcionalidades e oferta do suporte que você espera da Adobe.
    >
    >
-* **Anúncios** do Público alvo: Consulte a página de anúncios do Público alvo para obter informações sobre eventos futuros, incluindo sessões do Público alvo Skill Builder, bate-papos para desenvolvedores, webinars e sessões do Público alvo Coffee Break. Para obter mais informações, consulte Anúncios de [Públicos alvos](/help/r-release-notes/target-announcements.md).
+* **Anúncios** do Público alvo: Consulte a página de anúncios do Público alvo para obter informações sobre eventos futuros, incluindo sessões do Target Skill Builder, bate-papos para desenvolvedores, webinars e sessões do Target Coffee Break. Para obter mais informações, consulte Anúncios de [Públicos alvos](/help/r-release-notes/target-announcements.md).
 
 
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## Versões at.js 1.8.2 e at.js 2.3.1 (15 de junho de 2020)
+
+As seguintes melhorias e correções foram feitas nas bibliotecas do [!DNL Target] at.js:
+
+| Recurso  / Aprimoramento | Descrição |
+| --- | --- |
+| at.js 1.8.2 | Esta versão do at.js é uma versão de manutenção e inclui a seguinte correção:<ul><li>Correção de um problema ao usar o CNAME e a substituição de borda, at.js 1.*O x* pode criar incorretamente o domínio do servidor, o que resultou na falha da [!DNL Target] solicitação. (TNT-35064)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| at.js 2.3.1 | Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:<ul><li>A `deviceIdLifetime` configuração foi substituída por [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>Correção de um problema ao usar o CNAME e a substituição de borda, at.js 2.*O x* pode criar incorretamente o domínio do servidor, o que resultou na falha da [!DNL Target] solicitação. (TNT-35065)</li><li>Correção de um problema ao usar a [!DNL Target] extensão v2 e a [!DNL Launch][!DNL Adobe Analytics] extensão, [!DNL Launch] atrasou a [!DNL Target] [!DNL Analytics] `sendBeacon` chamada. (TNT-36407, TNT-35990, TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 
 ## Alterações na API de status de lote de Perfis v2 (14 de maio de 2020)
 
@@ -109,7 +118,7 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
 * Correção de um problema que qualificava incorretamente um dispositivo e um tipo de navegador para uma audiência. (TGT-36266)
 * Correção de um problema que impedia que os dados do relatório fossem exibidos em telas com menos de 963 pixels de largura. (TGT-36549)
 * Correção de um problema que fazia com que os relatórios de Personalização automática não fossem renderizados corretamente. (TGT-36619)
-* Correção de um problema que permitia a seleção de métricas incompatíveis em Autoalocação e atividades de Público alvo automático que usam o Analytics para Públicos alvos (A4t). (TGT-36646)
+* Correção de um problema que permitia a seleção de métricas incompatíveis nas atividades Autoalocação e Público alvo automático que usam o Analytics para Público alvo (A4t). (TGT-36646)
 * Correção de um problema que fazia com que certas opções no Visual Experience Composer (VEC) não fossem exibidas corretamente. (TGT-36571)
 * Correção de um problema na interface do usuário do Público alvo que fazia com que outras pré-visualizações de oferta do Recommendations exibissem o conteúdo editado depois que um usuário substituísse o conteúdo em uma única experiência. (TGT-36053 e TGT-36894)
 * Correção de um problema que impedia alguns usuários de excluir itens de um catálogo do Recommendations. (TGT-36455)
@@ -122,9 +131,9 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações:
 
 | Recurso | Detalhes |
 |--- |--- |
-| [Notas de versão - APIs do lado do servidor do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Notas de versão relacionadas às APIs do servidor do Adobe Target. |
-| [Notas de versão - SDK do Node.js do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Notas de versão relacionadas ao SDK Node.js do Adobe Target. |
-| [Notas de versão - SDK Java do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Notas de versão relacionadas ao Java SDK do Adobe Target. |
+| [Notas de versão - APIs do lado do servidor do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Notas de versão relacionadas às APIs do Adobe Target Server |
+| [Notas de versão - SDK do Node.js do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Notas de versão relacionadas ao Adobe Target Node.js SDK. |
+| [Notas de versão - SDK Java do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Notas de versão relacionadas ao Adobe Target Java SDK. |
 | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Detalhes sobre as alterações em cada versão da biblioteca JavaScript do Adobe Target at.js. |
 | [Detalhes da versão da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | Esta página mostra as alterações em cada versão da mbox.js.<br>Observe que a biblioteca mbox.js não está mais sendo desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. |
 
@@ -136,7 +145,7 @@ Além das notas para cada versão, os recursos a seguir oferecem informações a
 |--- |--- |
 | Alterações de documentação | Veja informações detalhadas sobre atualizações neste manual que podem não ser incluídas nas notas de versão.<br>Para obter mais informações, consulte [Alterações de documentação](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | Notas de versão para versões anteriores | Veja informações sobre os novos recursos e aprimoramentos das versões anteriores do Target Standard e do Target Premium.<br>Para obter mais informações, consulte [Notas de versões anteriores](../r-release-notes/release-notes-for-previous-releases.md). |
-| Notas de versão da Adobe Experience Cloud | Veja as notas de versão mais recentes para as soluções da Adobe Experience Cloud.<br>Para obter mais informações, consulte Notas [de versão da](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)Experience Cloud. |
+| Notas de versão da Adobe Experience Cloud | Veja as notas de versão mais recentes para as soluções da Adobe Experience Cloud.<br>Para obter mais informações, consulte Notas [de versão do](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)Experience Cloud. |
 
 ## Informações de pré-lançamento {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
