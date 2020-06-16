@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1408'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 93%
 
 + [Documentação do produto do Adobe Target](target-home.md)
 + Notas de versão do Target {#release-notes}
-   + [Anúncios e eventos do Público alvo](/help/r-release-notes/target-announcements.md)
+   + [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md)
    + [Notas de versão do Target (atual)](r-release-notes/release-notes.md)
    + [Notas de versão do Target (pré-lançamento)](r-release-notes/target-release-notes.md)
-   + [Newletter do Público alvo Insider](/help/r-release-notes/target-insider-newsletter.md)
+   + [informativo Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problemas conhecidos e problemas resolvidos](r-release-notes/known-issues-resolved-issues.md)
    + [Atualizações do status do sistema e notificações proativas](r-release-notes/system-status-updates.md)
    + [Alterações de documentação](r-release-notes/doc-change.md)
@@ -66,8 +66,8 @@ ht-degree: 93%
          + [Excluir o cookie do Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Políticas de cookies do Google Chrome para SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Diretivas de Política de Segurança de Conteúdo (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Diretivas da Política de segurança de conteúdo (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Nós de borda permitidos no Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Métodos para colocar os dados no Target {#methods}
          + [Métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Configurações da API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -143,11 +143,11 @@ ht-degree: 93%
       + [Visualização do Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Buscar previamente conteúdo da oferta](c-target-mobile-app/prefetch-offer-content.md)
       + [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [Usar Serviço de Localização](/help/c-target-mobile-app/use-location-service.md)
+      + [Usar serviço de localização](/help/c-target-mobile-app/use-location-service.md)
    + Lado do servidor: implementação do Target {#server-side}
-      + [Notas de versão - APIs do lado do servidor do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Notas de versão - SDK do Node.js do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Notas de versão - SDK Java do Público alvo](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [Notas de versão - APIs do lado do servidor do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notas de versão - SDK Node.js do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Notas de versão - SDK Java do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Lado do servidor: implementar a visão geral do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transição de APIs herdadas do Target para o Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implementação do Target {#implement-email}
@@ -167,7 +167,7 @@ ht-degree: 93%
       + Solução de problemas da integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
          + [Solução de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizar contagens inflacionadas de visitas e visitantes no A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Perguntas frequentes sobre o A4T  {#a4t-faq}
+      + Perguntas frequentes sobre o A4T {#a4t-faq}
          + [Provisionamento inicial - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configurações de atividade - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Exibição de relatórios - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -185,10 +185,10 @@ ht-degree: 93%
 + Atividades {#activities}
    + [Visão geral das atividades](c-activities/activities.md)
    + [Tipos de atividade do Target](c-activities/target-activities-guide.md)
-   + Teste A/B{#abtest}
+   + Teste A/B {#abtest}
       + [Visão geral do teste A/B](c-activities/t-test-ab/test-ab.md)
       + [Por quanto tempo você deve executar um teste A/B?](c-activities/t-test-ab/sample-size-determination.md)
-      + [Dez armadilhas comuns de teste A/B e como evitá-las](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [Dez erros comuns em testes A/B e como evitá-los](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Criar um teste A/B {#create}
          + [Criar um teste](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL da atividade](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
@@ -200,7 +200,7 @@ ht-degree: 93%
          + [Vários públicos-alvo de uma experiência em um Teste A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Alocação automática {#auto-allocate}
       + [Alocação automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [Interpretar relatórios de Autoalocação](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Interpretar relatórios de autoalocação](c-activities/automated-traffic-allocation/determine-winner.md)
    + [Direcionamento automático](c-activities/auto-target-to-optimize.md)
    + Personalização automatizada {#automated-personalization}
       + [Visão geral da personalização automatizada](c-activities/t-automated-personalization/automated-personalization.md)
@@ -214,7 +214,7 @@ ht-degree: 93%
       + [Gerenciar exclusões](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Selecione o controle da atividade de Personalização automatizada ou Direcionamento automático](c-activities/t-automated-personalization/experience-as-control.md)
       + [Perguntas frequentes sobre a personalização automatizada](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [atividades de personalização automatizada de Pré-visualização com URLs de pré-visualização de experiência](c-activities/t-automated-personalization/experience-preview.md)
+      + [Pré-visualizar atividades do Automated Personalization com URLs de visualização da experiência](c-activities/t-automated-personalization/experience-preview.md)
       + [Solução de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Direcionamento de experiência {#experience-targeting}
       + [Visão geral de direcionamento da experiência](c-activities/t-experience-target/experience-target.md)
@@ -255,7 +255,7 @@ ht-degree: 93%
       + [Visão geral de QA da atividade](c-activities/c-activity-qa/activity-qa.md)
       + [Bookmarklet de controle de qualidade da atividade](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Usar o controle de qualidade de atividade com entrega do lado do servidor](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-+ Públicos-alvo{#audiences}
++ Públicos-alvo {#audiences}
    + [Visão geral de públicos-alvo](c-target/target.md)
    + Criar públicos-alvo {#create-audiences}
       + [Criar](c-target/c-audiences/audiences.md)
@@ -282,7 +282,7 @@ ht-degree: 93%
       + [Visão geral dos perfis do visitante](c-target/c-visitor-profile/visitor-profile.md)
       + [Duração do perfil do visitante](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Atributos do perfil](c-target/c-visitor-profile/profile-parameters.md)
-      + [Use scripts de perfil para testar atividades mutuamente exclusivas](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+      + [Usar scripts de perfil para testar atividades mutuamente exclusivas](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Afinidade de categorias](c-target/c-visitor-profile/category-affinity.md)
       + [Atributos do cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Sincronização de perfil em tempo real para mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
@@ -292,7 +292,7 @@ ht-degree: 93%
       + [Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiências e ofertas {#experiences}
    + [Visão geral das experiências e ofertas](c-experiences/experiences.md)
-   + Visual Experience Composer (VEC)  {#vec}
+   + Visual Experience Composer (VEC) {#vec}
       + [Visão geral do Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opções do Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Incluir a mesma experiência em páginas semelhantes](c-experiences/c-visual-experience-composer/temtest.md)
@@ -327,7 +327,7 @@ ht-degree: 93%
       + [Pesquisar o conteúdo e criar coleções inteligentes](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Envio de dados dinâmicos em ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [Fragmentos de experiência do AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
-+ Relatórios{#reports}
++ Relatórios {#reports}
    + [Visão geral dos relatórios](c-reports/reports.md)
    + Configurações do relatório {#settings}
       + [Visão geral das configurações de relatório](c-reports/c-report-settings/report-settings.md)
@@ -372,12 +372,12 @@ ht-degree: 93%
       + [Criar um design](c-recommendations/c-design-overview/create-design.md)
       + [Perguntas frequentes sobre o design](c-recommendations/c-design-overview/template-faq.md)
       + [Personalizar um design usando a Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
-   + Atividade{#recommendations-activity}
+   + Atividade {#recommendations-activity}
       + [Criar uma atividade do Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Selecione o critério](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Adicionar promoções](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Configurações de atividade do Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Pré-visualização e inicie sua atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Pré-visualizar e iniciar atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations como uma oferta](c-recommendations/recommendations-as-an-offer.md)
    + Perguntas frequentes {#recommendations-faq}
       + [Perguntas frequentes do Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
