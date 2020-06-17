@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: bd95e4bcd3d8e8de5cb231e0632c73a24b36995e
+source-git-commit: 86b2f0eba5c995967b93b516c224140cc4771420
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 44%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 44%
 # Administrar o Target{#administer-target}
 
 Informações para ajudar a configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configurações do Scene7, gerenciamento de hosts e tokens de resposta.
-
->[!NOTE]
->
->Os tópicos desta seção, listados abaixo, foram atualizados para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Público alvo Standard/Premium 20.5.1 (17 de junho de 2020). As informações apresentadas nestes tópicos aplicam-se à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
@@ -34,4 +30,4 @@ To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]
 * [Tokens de resposta](/help/administrating-target/response-tokens.md)
 * [Usuários](/help/administrating-target/c-user-management/user-management.md)
 
-![Menu Administração de Públicos alvos da Adobe](/help/administrating-target/assets/administration.png)
+![Menu Administração de Adobe Target](/help/administrating-target/assets/administration.png)
