@@ -5,16 +5,23 @@ title: Determinar um vencedor
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+workflow-type: tm+mt
+source-wordcount: '1109'
+ht-degree: 49%
 
 ---
 
 
-# Interpretar relatórios de Autoalocação {#determine-a-winner}
+# Interpretar relatórios de autoalocação {#determine-a-winner}
 
-Interprete os resultados de uma atividade A/B de autoalocação examinando indicadores importantes, incluindo incentivo e confiança, na interface do usuário do Target.
+Interprete os resultados de uma atividade A/B de autoalocação examinando indicadores importantes, incluindo incentivo e confiança, na interface do Público alvo.
 
 Muitos profissionais de marketing cometem o erro de declarar prematuramente uma experiência vencedora antes dos resultados indicarem claramente o vencedor. Agora facilitamos para você determinar o vencedor.
+
+>[!NOTE]
+>
+>Para obter informações gerais sobre como declarar um vencedor, consulte [Dez armadilhas comuns de teste A/B e como evitá-las](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identifique a experiência vencedora {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -24,7 +31,7 @@ Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Target] exibe um 
 
 Quando um vencedor claro é declarado, o [!DNL Target] exibe &quot;Vencedor: Experiência X&quot;.
 
-![](assets/auto_traffic_winner.png)
+![](assets/winner.png)
 
 >[!NOTE]
 >
@@ -40,21 +47,13 @@ A coluna Confiança em uma atividade de Alocação automática (ilustrada abaixo
 
 Testes A/B normais calculam a confiança com base nos valores de p. A Alocação automática não usa valores p. Os valores de P calculam &quot;vagamente&quot; a probabilidade de que uma determinada experiência seja diferente do controle. Esses valores p podem ser usados apenas para determinar se uma experiência pode ser diferente do controle. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
 
-A ilustração a seguir mostra uma atividade que ainda não tem vencedor:
-
-![](assets/no_winner.png)
-
-A ilustração a seguir mostra uma atividade que tem vencedor:
-
-![](assets/winner_found.png)
-
 >[!IMPORTANT]
 >
->O Target mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre estar nos resultados da calculadora [de tamanho de](https://docs.adobe.com/content/target-microsite/testcalculator.html)amostra do Adobe Target. O Target não considera as taxas de conversão básicas de um site e outros aspectos importantes que são inseridos na calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte Calculadora [de tamanho de](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)amostra.
+>Público alvo mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre basear-se nos resultados da calculadora [de tamanho da](https://docs.adobe.com/content/target-microsite/testcalculator.html)amostra de Adobe Target. O Público alvo não considera as taxas de conversão básicas de um site e outros aspectos importantes que são inseridos na calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte Calculadora [de tamanho de](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)amostra.
 
-## Compreender os relatórios de incentivo e confiança nas atividades de autoalocação {#lift-confidence}
+## Entenda o relatórios de incentivo e confiança nas atividades de autoalocação {#lift-confidence}
 
-Nas atividades de Autoalocação, a primeira experiência (por padrão, denominada Experiência A) é sempre definida como uma experiência de &quot;Controle&quot; na guia Relatórios. Esta experiência não é tratada como um verdadeiro controlo estatístico no modelo utilizado para determinar o desempenho das experiências, mas é tratada como uma referência ou uma linha de base para alguns valores no relatório.
+Nas atividades de Autoalocação, a primeira experiência (por padrão, denominada Experiência A) é sempre definida como uma experiência de &quot;Controle&quot; na guia Relatórios. Esta experiência não é tratada como um verdadeiro controlo estatístico na modelização utilizada para determinar o desempenho das experiências, mas é tratada como uma referência ou uma linha de base para alguns valores no relatório.
 
 O valor numérico &quot;Lift&quot; e os limites de 95% para cada experiência são sempre calculados com referência à experiência &quot;Control&quot; definida. A experiência &quot;Controle&quot; definida não pode ter incentivo relativo a si mesma, portanto, um valor &quot;—&quot; em branco é reportado para essa experiência. Ao contrário dos testes A/B, nos testes de Autoalocação, se uma experiência tiver um desempenho pior do que o controle definido, não é reportado um valor de Elevação negativo; em vez disso, &quot;—&quot; é exibido.
 
@@ -62,7 +61,7 @@ As barras de Intervalo de confiança exibidas representam o intervalo de confian
 
 Um vencedor é encontrado quando o Intervalo de confiança de 95% da experiência líder não se sobrepõe a nenhuma outra experiência. A experiência vencedora é designada com um selo de estrela verde à esquerda do nome da experiência e no banner &quot;Vencedor&quot;. Quando nenhuma estrela é visível, o banner diz &quot;No Winner AINDA&quot; e um vencedor ainda não foi encontrado.
 
-Um número de &quot;Confiança&quot; também é reportado ao lado da experiência líder ou vencedora atual. Este número é reportado apenas até que a Confiança da experiência líder atinja pelo menos 60%. Se exatamente duas experiências estiverem presentes no experimento de Autoalocação, esse número representa o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes no experimento de Autoalocação, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;Controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver vencendo, nenhum número de &quot;Confiança&quot; será relatado.
+Um número de &quot;Confiança&quot; também é reportado ao lado da experiência líder ou vencedora atual. Este número é reportado apenas até que a Confiança da experiência líder atinja pelo menos 60%. Se exatamente duas experiências estiverem presentes no experimento de Autoalocação, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes no experimento de Autoalocação, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;Controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver vencendo, nenhum número de &quot;Confiança&quot; será relatado.
 
 ## Perguntas frequentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
