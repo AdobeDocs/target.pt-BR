@@ -5,7 +5,10 @@ title: Alocação automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3026'
+ht-degree: 89%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # Alocação automática{#auto-allocate}
 
 A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor, a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
-
->[!IMPORTANT]
->
->A Alocação automática não oferece suporte aos relatórios do [!DNL Target for Analytics] (A4T).
 
 Ao [criar uma atividade A/B usando o fluxo de trabalho guiado de três etapas](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), é possível escolher a opção [!UICONTROL Alocar automaticamente para a melhor experiência].
 
@@ -92,10 +91,6 @@ Depois que o modelo para uma atividade de Alocação automática estiver pronto 
 
 ## Avisos {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**A alocação automática de atividades A/B não é mais suportada no Analytics for Target (A4T)**
-
-Com a versão 16.10.1.0 (25 de outubro de 2016), o Target não suporta o Analytics como fonte de relatórios para as atividades de alocação automática de A/B no futuro. Qualquer atividade A/B de Alocação automática com o A4T ativado será alternada para o modo Manual (alocação de tráfego igual).
-
 **O recurso de alocação automática funciona apenas com uma configuração de métrica avançada: Aumentar contagem e manter o usuário na atividade**
 
 As seguintes configurações avançadas de métricas não são suportadas: Aumentar contagem, Liberar o usuário, Permitir a reentrada e Aumentar a contagem e Liberar o usuário e Impedir a reentrada.
@@ -131,6 +126,10 @@ Esses fatores podem distorcer os resultados em um teste de alocação automátic
    Por exemplo, &quot;O desconto de 30% termina hoje&quot; avisa o visitante para converter hoje, mas &quot;50% de desconto na primeira compra&quot; não cria o mesmo senso de urgência.
 
 ## Perguntas frequentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** A Analytics for Target (A4T) suporta a Autoalocação de atividades?
+
+Sim. Para obter mais informações, consulte Suporte da [Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) na criação *de* Atividades.
 
 **Os visitantes recorrentes são realocados automaticamente a experiências de alto desempenho?**
 
@@ -168,9 +167,9 @@ No momento, a lógica favorece visitantes que convertem rapidamente ou visitam c
 
 **Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?**
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como ocorre com os testes A/B tradicionais, aplique a correção Bonferroni se você estiver testando mais de duas ofertas ou mais de uma métrica/hipótese de conversão.) Observe que esta calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. O uso da calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como ocorre com os testes A/B tradicionais, aplique a correção Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica de conversão/hipótese.) Observe que esta calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
 * Ao testar exatamente duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho da amostra) quando a diferença de desempenho entre experiências é grande, mas pode exigir mais tempo para identificar um vencedor quando a diferença de desempenho entre experiências é pequena. Nestes casos, os testes com horizonte fixo teriam normalmente terminado sem um resultado estatisticamente significativo.
-* Ao testar mais de duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho de amostra) quando uma única experiência executa fortemente todas as outras experiências. Quando duas ou mais experiências estão &quot;vencendo&quot; em relação a outras experiências, mas muito próximas entre si, a Autoalocação pode exigir mais tempo para determinar qual é superior. Nesses casos, os testes de horizonte fixo tipicamente terminariam ao concluir que as experiências &quot;vencedoras&quot; eram melhores que as de menor desempenho, mas não identificaram qual era superior.
+* Ao testar mais de duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho de amostra) quando uma única experiência executa fortemente todas as outras experiências. Quando duas ou mais experiências estão &quot;vencendo&quot; em relação a outras experiências, mas muito próximas entre si, a Autoalocação pode exigir mais tempo para determinar qual é superior. Nesses casos, os testes de horizonte fixo tipicamente terminariam ao concluir que as experiências &quot;vencedoras&quot; eram melhores do que as de menor desempenho, mas não identificaram qual era superior.
 
 **Devo remover uma experiência com baixo desempenho de uma atividade de Alocação automática para acelerar o processo de decisão de um vencedor?**
 
@@ -182,7 +181,7 @@ Não há motivo para remover uma experiência com baixo desempenho. A Alocação
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Fluxo de trabalho da atividade - Direcionamento (2:14) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+### Fluxo de trabalho da atividade - Direcionamento (2:14) ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração da alocação de tráfego.
 
