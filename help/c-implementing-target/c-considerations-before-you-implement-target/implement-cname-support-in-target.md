@@ -5,10 +5,10 @@ title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 3%
 
 ---
 
@@ -21,39 +21,36 @@ Instructions for working with Adobe Client Care to implement CNAME (Canonical Na
 
 Execute as etapas a seguir para solicitar o suporte CNAME no [!DNL Target]:
 
-1. A autoridade de certificação da Adobe (DigiCert) precisa verificar se a Adobe está autorizada a gerar certificados em seu domínio.
+1. Determine a lista de nomes de host necessários para seu certificado SSL (consulte as Perguntas frequentes).
 
-   A DigiCert chama esse processo de validação de controle de [domínio (DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/), e a Adobe não poderá gerar um certificado em seu domínio até que esse processo seja concluído para pelo menos um dos seguintes métodos DCV:
-
-   * O método DCV mais rápido é o método DNS CNAME, no qual você adiciona um registro DNS CNAME (contendo um token) ao seu domínio que aponta para o nome do host DCV (`dcv.digicert.com`) da DigiCert. Este registro CNAME indica à DigiCert que a Adobe está autorizada a gerar o certificado. O Adobe Client Care enviará as instruções com os registros de DNS necessários. Um exemplo:
-
-      ```
-      3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
-      ```
-
-      >[!NOTE]
-      >
-      >* Esses tokens DCV expiram depois de 30 dias, e o Adobe Client Care entrará em contato com você com os tokens atualizados. Por um tempo mais rápido para a resolução de sua solicitação CNAME, esteja preparado para fazer essas alterações de DNS em todos os domínios solicitados antes de enviar sua solicitação.
-         >
-         >
-      * Se o domínio tiver registros [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)DNS, você deverá adicionar `digicert.com` se ele ainda não tiver sido adicionado. Este registro DNS indica quais autoridades de certificados estão autorizadas a emitir certificados para o domínio. O registro DNS resultante seria semelhante a: `example.com. IN CAA 0 issue "digicert.com"`. Você pode usar [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CAA) para determinar se o domínio raiz tem um registro CAA existente. Você pode ler mais sobre como a DigiCert lida com registros CAA [aqui](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
-
-
-   * A DigiCert também tenta o método de email, no qual envia mensagens de email para endereços encontrados nas informações do WHOIS do domínio e para endereços de email predeterminados (administrador, administrador, webmaster, host e postmaster `@[domain_name]`). Consulte a documentação [dos métodos](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV para obter mais informações.
-
-      Para acelerar o processo de email do DCV, a DigiCert fornece as seguintes recomendações:
-
-      &quot;Verifique se seu registrador/provedor WHOIS não mascarou ou removeu endereços de email relevantes. Se estiverem, descubra se eles fornecem uma maneira (por exemplo, endereço de email anônimo, formulário da Web) para permitir que as autoridades de certificados acessem os dados WHOIS de seu domínio.&quot;
-
-1. Crie um registro CNAME no DNS do seu domínio apontando para seu nome de host comum `clientcode.tt.omtrdc.net`. Por exemplo, se o código do cliente for cnamecustomer e o nome do host proposto for `target.example.com`, seu registro CNAME de DNS deverá ser semelhante a:
+1. Para cada nome de host, crie um registro CNAME em seu DNS apontando para seu [!DNL Target] nome de host comum `clientcode.tt.omtrdc.net`. Por exemplo, se o código do cliente for cnamecustomer e o nome do host proposto for `target.example.com`, seu registro CNAME de DNS deverá ser semelhante a:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
    ```
 
-1. Abra um ticket do [Adobe Client Care solicitando suporte](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C) CNAME para suas [!DNL Target] chamadas.
+   >[!NOTE]
+   >
+   >* A autoridade de certificação da Adobe, a DigiCert, não pode emitir um certificado até que essa etapa seja concluída, portanto, a Adobe não poderá atender à solicitação de uma implementação CNAME até que essa etapa seja concluída.
 
-   A Adobe trabalhará com a DigiCert para comprar e implantar seu certificado nos servidores de produção da Adobe. A DigiCert iniciará o processo DCV e o Adobe Client Care notificará você quando sua implementação estiver pronta.
+
+1. Preencha o formulário a seguir e inclua-o ao [abrir um ticket do Adobe Client Care solicitando suporte](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C)CNAME:
+
+   * Adobe [!DNL Target] client code:
+   * Nomes de host de certificado SSL (por exemplo: `target.example.com target.example.org`):
+   * Comprador de certificados SSL (a Adobe é altamente recomendada, consulte as Perguntas frequentes): Adobe/cliente
+   * Se o cliente estiver comprando o certificado (conhecido como BYOC), preencha estes detalhes adicionais:
+      * Organização do certificado (por exemplo: Exemplo de Empresa Inc):
+      * Unidade organizacional do certificado (opcional, por exemplo: Comercialização):
+      * País do certificado (por exemplo: EUA):
+      * Estado/região do certificado (exemplo: Califórnia):
+      * Cidade do certificado (por exemplo: San Jose):
+
+1. Se a Adobe comprar o certificado, a Adobe trabalhará com a DigiCert para comprar e implantar seu certificado nos servidores de produção da Adobe.
+
+   Se o cliente estiver comprando o certificado (BYOC), o Adobe Client Care enviará de volta a solicitação de assinatura de certificado (CSR) que você precisará usar ao adquirir o certificado por meio da autoridade de certificação de sua escolha. Depois que o certificado for emitido, você precisará enviar uma cópia do certificado e quaisquer certificados intermediários de volta ao Atendimento ao cliente da Adobe para implantação.
+
+   O Atendimento ao cliente da Adobe notificará você quando sua implementação estiver pronta.
 
 1. Depois de concluir o tarefa anterior e o Adobe Client Care ter notificado que a implementação está pronta, você deve atualizá-la `serverDomain` para o novo CNAME em at.js.
 
@@ -61,23 +58,13 @@ Execute as etapas a seguir para solicitar o suporte CNAME no [!DNL Target]:
 
 As informações a seguir respondem a perguntas frequentes sobre como solicitar e implementar o suporte CNAME em [!DNL Target]:
 
-### Posso fornecer meu próprio certificado (também conhecido como trazer seu próprio certificado ou BYOC)? Em caso afirmativo, qual é o processo?
+### Posso fornecer meu próprio certificado (também conhecido como trazer seu próprio certificado ou BYOC)?
 
 Sim, você pode fornecer seu próprio certificado; no entanto, não é recomendado. O gerenciamento do ciclo de vida do certificado SSL é significativamente mais fácil para a Adobe e para você quando a Adobe compra e controla o certificado. Os certificados SSL devem ser renovados todos os anos, o que significa que o Adobe Client Care deve entrar em contato com você todos os anos para enviar um novo certificado à Adobe em tempo hábil. Alguns clientes podem ter dificuldade em produzir um certificado renovado em tempo hábil a cada ano, o que compromete sua [!DNL Target] implementação porque os navegadores recusarão as conexões quando o certificado expirar.
 
 >[!IMPORTANT]
 >
 >Esteja ciente de que, se você solicitar uma implementação CNAME de [!DNL Target] trazer seu próprio certificado, é responsável por fornecer certificados renovados ao Atendimento ao cliente da Adobe todos os anos. Permitir que seu certificado CNAME expire antes que a Adobe possa implantar um certificado renovado resultará em uma interrupção para sua [!DNL Target] implementação específica.
-
-1. Ignore a etapa 1 acima, mas conclua as etapas 2 e 3. Ao abrir um ticket do Adobe Client Care (etapa 3), informe-os de que você fornecerá seu próprio certificado.
-
-   A Adobe gerará e enviará uma solicitação de assinatura de certificado (CSR).
-
-1. Use o CSR para adquirir o certificado por meio da autoridade de certificação (CA) escolhida.
-
-1. Envie o novo certificado público para a Adobe. Os representantes da Adobe implantarão o certificado público em seus servidores de produção.
-
-1. Conclua a etapa 4 após o Adobe Client Care ter notificado que a implementação está pronta.
 
 ### Quanto tempo até que meu novo certificado SSL expire?
 
@@ -97,9 +84,17 @@ Não, [!DNL Target] requer um nome de host e um certificado separados.
 
 Em um navegador Safari, navegue até seu site no qual você tem uma biblioteca JavaScript de Públicos alvos. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
 
-Os problemas de ITP podem ser resolvidos para Público alvo com apenas um CNAME do Analytics. Você precisará de um Público alvo separado CNAME somente no caso de cenários de bloqueio de anúncios em que o Público alvo estiver bloqueado.
+Os problemas de ITP podem ser resolvidos para Público alvo com apenas um Analytics CNAME. Você precisará de um Público alvo separado CNAME somente no caso de cenários de bloqueio de anúncios em que o Público alvo estiver bloqueado.
 
 Para obter mais informações sobre o ITP, consulte [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+
+### Que tipo de interrupções de serviço posso esperar quando minha implementação CNAME é implantada?
+
+Não há interrupção de serviço quando o certificado é implantado (incluindo renovações de certificados). Entretanto, quando você altera o nome do host no código de implementação do Público alvo (`serverDomain` em at.js) para o novo nome do host CNAME (`target.example.com`), os navegadores da Web tratarão os visitantes recorrentes como novos visitantes e seus dados de perfil serão perdidos porque o cookie anterior estará inacessível sob o nome do host antigo (`clientcode.tt.omtrdc.net`) devido aos modelos de segurança do navegador. Esta é uma interrupção única somente no corte inicial para o novo CNAME, as renovações de certificados não têm o mesmo efeito, já que o nome do host não é alterado.
+
+### Que tipo de chave e algoritmo de assinatura de certificado serão usados para minha implementação CNAME?
+
+Todos os certificados são RSA SHA-256 e as chaves são RSA 2048 bits por padrão. Os tamanhos de chave maiores que 2048 bits não são suportados no momento.
 
 ### A Adobe/DigiCert pode enviar emails do DCV para outro endereço de email `<someone>@example.com`?
 
@@ -114,7 +109,7 @@ Use o seguinte conjunto de comandos (no terminal de linha de comando do MacOs ou
    ```
    function validateEdgeFpsslSni {
        domain=$1
-       for edge in mboxedge{17,21,22,26,{28..32},34,35,37,38}.tt.omtrdc.net; do
+       for edge in mboxedge{31,32,{34..38}}.tt.omtrdc.net; do
            echo "$edge: $(curl -sSv --connect-to $domain:443:$edge:443 https://$domain 2>&1 | grep subject:)"
        done
    }
@@ -130,17 +125,11 @@ Use o seguinte conjunto de comandos (no terminal de linha de comando do MacOs ou
 
    ```
    $ validateEdgeFpsslSni target.example.com
-   mboxedge17.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge21.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge22.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge26.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge28.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge29.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge30.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge31.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge32.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge34.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge35.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge36.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge37.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```
