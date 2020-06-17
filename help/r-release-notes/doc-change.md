@@ -5,10 +5,10 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 33%
+source-wordcount: '1199'
+ht-degree: 35%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 33%
 # Alterações de documentação{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.5.1 (17 de junho de 2020)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 17 de junho | [Criação da atividade](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações sobre o suporte da Analytics para o Público alvo (A4T) para a Autoalocação de atividades. |
+|  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] em *Especificar funções e permissões*. |
+|  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] na *Etapa 6: Especifique funções e permissões*. |
+|  | [Permissões de usuário empresarial](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Foi adicionado um link para o horário do *Office: Sessão* do Target Premium Workspaces. |
+|  | [Notas de versão](/help/r-release-notes/release-notes.md): 20.5.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe Target Standard/Premium 20.4.1 (6 de maio de 2020) 
 
@@ -28,7 +38,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre as versões at.js 1.8.2 e at.js 2.3.1. |
 | 8 de junho | [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Texto atualizado para as seguintes perguntas frequentes: &quot;O Target Mobile é uma funcionalidade do SKU de produto Adobe Target Premium somente?&quot; |
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Atualização de todo o tópico. |
-| 5 de junho | [Anúncios e eventos do Público alvo](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café com Adobe Target de 10 de junho. |
+| 5 de junho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café com Adobe Target de 10 de junho. |
 |  | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Texto atualizado para as seguintes perguntas frequentes: &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | 4 de junho | [Relatórios do A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Atualização da seção &quot;Relatórios no Analytics&quot;. |
 | 1 de junho | [Anúncios de Públicos alvos](/help/r-release-notes/target-announcements.md) | Nova página adicionada para anunciar eventos futuros do Público alvo. |
@@ -36,7 +46,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Maio de 28 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Adicionadas as seguintes perguntas frequentes: <ul><li>Como as métricas Novos Visitantes e Visitantes de Retorno são contadas?</li></ul> |
 | Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte da Analytics para o Público alvo (A4T) para a Autoalocação de atividades. |
 | Maio de 26 | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Foram adicionadas as seguintes informações: &quot;O parâmetro permanece no perfil após desativar o script. Os usuários cujos perfis já contenham um parâmetro que seja usado em uma audiência de atividade se qualificarão nessa atividade.&quot; |
-| Maio de 21 | [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
+| Maio de 21 | [Nós de borda permitidos no Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Adicionado `mboxedge30.tt.omtrdc.net` à lista. |
 | Maio de 20 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a próxima versão do Target Standard/Premium 20.6.1 (10 de junho de 2020). |
 |  | [Hosts](/help/administrating-target/hosts.md) | Foi adicionada uma observação à seção &quot;Práticas recomendadas de segurança&quot;. |
 | Maio de 14 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre alterações na API v2 de status de lote de Perfis. |
