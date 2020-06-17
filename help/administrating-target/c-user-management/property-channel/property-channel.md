@@ -5,10 +5,10 @@ title: Permissões de usuário empresarial
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,9 +87,12 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 As funções e permissões determinam os níveis de acesso que os usuários têm para criar e gerenciar as atividades na implementação do [!DNL Target]. No [!DNL Target], as funções incluem:
 
-* **[!UICONTROL Observador]**: Pode visualização atividades, mas não pode criá-las ou editá-las.
-* **[!UICONTROL Editor]**: É possível criar e editar atividades antes que elas estejam ativas, mas não é possível aprovar a inicialização de uma atividade.
-* **[!UICONTROL Aprovador]**: Pode criar, editar e ativar ou parar atividades.
+| Função | Descrição |
+|--- |--- |
+| Aprovador | Pode criar, editar e ativar ou parar atividades. |
+| Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+| Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
+| Editor | Semelhante à função Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para ativar o atividade. |
 
 ### Canal
 
@@ -115,10 +118,10 @@ Cada função tem diferentes níveis de permissões:
 
 | Função | Descrição |
 |--- |--- |
-| Observador | Tem acesso somente leitura às atividades. Pode exibir atividades, mas não pode criá-las ou editá-las. |
-| Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
 | Aprovador | Pode criar, editar e ativar ou parar atividades. |
-
+| Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+| Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
+| Editor | Semelhante à função Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para ativar o atividade. |
 É importante observar que a função de cada usuário se aplica a todas as páginas, propriedades ou sites da conta que incluam tags do [!DNL Target], conforme mostrado abaixo:
 
 ![](assets/permissions_2.png)
@@ -241,6 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * Atividades, públicos, ofertas de código, ofertas de imagem, ou qualquer outro recurso criado usando as seguintes soluções ou métodos não podem ser controlados pelo modelo de Permissões empresariais, mas farão parte do Espaço de trabalho padrão: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e recursos criados por meio da API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
    * Ofertas de imagem (os ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não podem ser controlados pelo modelo de Permissões empresariais no momento.
    * O clickTracking e os redirecionamentos somente funcionarão quando o link ou a página de destino fizerem parte de uma propriedade incluída na atividade. Além disso, o clickTracking pode não funcionar ao usar a função `targetPageParams()`. A função recomendada é `targetPageParamsAll()`.
+
    [!DNL Target]Atualmente, o exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Caso o token seja (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a mbox do clicktracking por meio da função `targetPageParamsAll()`, a métrica não será aumentada e exibida como &quot;0&quot;.
 
    O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
