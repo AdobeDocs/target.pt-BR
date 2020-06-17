@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Configure o Adobe Público alvo Visual Experience Composer (VEC) especificando suas configurações gerais, configuração do visor móvel e seletores de CSS.
-title: Configurar relatórios no Adobe Público alvo
+description: Configure o Adobe Target Visual Experience Composer (VEC) especificando suas configurações gerais, configuração do visor móvel e seletores de CSS.
+title: Configurar relatórios no Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 69%
 # Configurar relatórios no Público alvo
 
 Defina as configurações gerais a serem usadas no relatórios do Público alvo que se aplicam a toda a sua [!DNL Target] conta.
+
+>[!NOTE]
+>
+>As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 Para acessar a página de configuração do [!UICONTROL Relatórios] , clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatórios].**
 
