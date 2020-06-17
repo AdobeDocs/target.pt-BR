@@ -5,10 +5,10 @@ title: Configuração de permissões empresariais
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1465'
+ht-degree: 72%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 0%
 # ![PREMIUM](/help/assets/premium.png) Configurar permissões corporativas{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+
+>[!NOTE]
+>
+>As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 >[!NOTE]
 >
@@ -74,7 +78,6 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 
       * Criar novos espaços de trabalho dentro do [!DNL Admin Console for Enterprise].
       * Atribuir propriedades do Target aos espaços de trabalho.
-
    Você pode usar esses espaços de trabalho para dividir o acesso a diferentes equipes por região, por unidades de negócios, por seção do site ou por qualquer outro método que você escolher. Os usuários podem fazer parte de vários espaços de trabalho e podem ter diferentes funções dentro de cada um deles.
 
 1. Siga as instruções em [Criar e gerenciar configurações de produto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) no *Guia do usuário da empresa*.
