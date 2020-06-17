@@ -5,10 +5,10 @@ title: Ambientes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 64%
+source-wordcount: '804'
+ht-degree: 61%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 64%
 # Ambientes
 
 Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
+
+>[!NOTE]
+>
+>As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo inativo seja exibido acidentalmente nos sites. O gerenciamento de host também permite que você separe os dados de relatório por ambiente.
 
