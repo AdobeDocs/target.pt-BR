@@ -1,10 +1,13 @@
 ---
-keywords: integração; funções; permissões do usuário; admin console
+keywords: integration;roles;user permissions;admin console
 description: Informações sobre a concessão de acesso às integrações do Adobe I/O existentes para todos os espaços de trabalho com a função desejada no Adobe Target
 title: Conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções no Adobe Target
-subtopic: Introdução
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +60,9 @@ Esta atualização oferece suporte para os seguintes casos de uso:
 
 1. Na lista suspensa **[!UICONTROL Função do produto]**, selecione a função desejada para esse espaço de trabalho:
 
-   * [!UICONTROL Aprovador]
-   * [!UICONTROL Editor]
-   * [!UICONTROL Observador]
-   ![Escolha a função Perfil do produto](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | Função | Descrição |
+   |--- |--- |
+   | Aprovador | Pode criar, editar e ativar ou parar atividades. |
+   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+   | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
+   | Editor | Semelhante à função Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para ativar o atividade. |
