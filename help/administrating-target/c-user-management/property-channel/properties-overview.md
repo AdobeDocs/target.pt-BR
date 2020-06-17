@@ -5,10 +5,10 @@ title: Configuração de permissões empresariais
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ A tabela a seguir lista as tarefas que você deve realizar para criar propriedad
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. No Adobe Público alvo, clique em **[!UICONTROL Administração]** > **[!UICONTROL Propriedades]** > **[!UICONTROL Atribuir propriedades a espaços de trabalho]**.
+1. No Adobe Target, clique em **[!UICONTROL Administração]** > **[!UICONTROL Propriedades]** > **[!UICONTROL Atribuir propriedades a espaços de trabalho]**.
 
    Ou
 
@@ -74,6 +74,7 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 
       * Criar novos espaços de trabalho dentro do [!DNL Admin Console for Enterprise].
       * Atribuir propriedades do Target aos espaços de trabalho.
+
    Você pode usar esses espaços de trabalho para dividir o acesso a diferentes equipes por região, por unidades de negócios, por seção do site ou por qualquer outro método que você escolher. Os usuários podem fazer parte de vários espaços de trabalho e podem ter diferentes funções dentro de cada um deles.
 
 1. Siga as instruções em [Criar e gerenciar configurações de produto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) no *Guia do usuário da empresa*.
@@ -172,22 +173,28 @@ Para usar a funcionalidade de permissões de usuário do [!DNL Target], você de
 
 1. No Admin Console, clique em **[!UICONTROL Produtos]** e selecione o nome do produto desejado.
 
-   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Clique no nome do perfil desejado.
+1. Clique no nome do perfil desejado (por exemplo, Área de trabalho padrão).
+
+   ![Espaço de trabalho padrão](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. Clique em **[!UICONTROL Usuários]**.
 
    A guia [!UICONTROL Usuários] exibe todos os usuários nesse espaço de trabalho.
 
-   ![Configurar usuários](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![usuários de configuração](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Selecione a função de permissões desejada (Aprovador, Editor, ou Observador) usando a lista suspensa para cada usuário na coluna [!UICONTROL Função do produto].
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![lista suspensa Função do produto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Função | Descrição |
    |--- |--- |
-   | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
-   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
    | Aprovador | Pode criar, editar e ativar ou parar atividades. |
+   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+   | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
+   | Editor | Semelhante à função Observador (pode visualização atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem permissão adicional para ativar o atividade. |
 
    Para obter mais informações, consulte [Gerenciar permissões e funções do produto no Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) no *Guia do usuário da empresa*.
 
