@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentação do produto do Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -17,11 +17,11 @@ ht-degree: 63%
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 15 de junho de 2020 ([Veja o que mudou](r-release-notes/doc-change.md))**
+**Última atualização: 17 de junho de 2020 ([Veja o que mudou](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->Consulte a página de anúncios do Público alvo para obter informações sobre eventos futuros, incluindo sessões do Público alvo Skill Builder, bate-papos para desenvolvedores, webinars e sessões do Público alvo Coffee Break. Para obter mais informações, consulte Anúncios de [Públicos alvos](/help/r-release-notes/target-announcements.md).
+>Consulte a página de anúncios do Público alvo para obter informações sobre eventos futuros, incluindo sessões do Target Skill Builder, bate-papos para desenvolvedores, webinars e sessões do Target Coffee Break. Para obter mais informações, consulte Anúncios de [Públicos alvos](/help/r-release-notes/target-announcements.md).
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
@@ -39,7 +39,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 - [Notas de versão do Target](r-release-notes/release-notes.md): contém informações sobre a versão atual, informações sobre problemas conhecidos que afetam o [!DNL Target], uma lista de alterações importantes nesta documentação e um arquivo das notas de versão anteriores.
 - [Introdução ao Target](c-intro/intro.md): explica os conceitos principais da solução do [!DNL Target].
 - Integrar o Target com a Adobe Experience Cloud: explica como integrar o [!DNL Target] com outras soluções da [!DNL Experience Cloud], incluindo o [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), os [Públicos-alvo da Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), o [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) e o [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
-- [Tutoriais](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)do Adobe Target: Fornece tutoriais e vídeos para ajudá-lo a aproveitar ao máximo o Público alvo.
+- [Tutoriais](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)de Adobe Target: Fornece tutoriais e vídeos para ajudá-lo a aproveitar ao máximo o Público alvo.
 - [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md): fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros, etc.) que afetam as atividades e outros elementos no [!DNL Target].
 - [Target para aplicativos móveis](c-target-mobile-app/target-mobile-app.md): explica como o [!DNL Target] pode ser usado para otimização e personalização de aplicativos móveis.
 - [Recursos e informações de contato](cmp-resources-and-contact-information.md): fornece informações sobre recursos adicionais para ajudá-lo a saber mais sobre os recursos do [!DNL Target] e como entrar em contato com [!DNL Adobe] caso você precise de ajuda.
@@ -54,7 +54,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 ## Desenvolvedores {#developers}
 
 - [Implementar o Target](c-implementing-target/implementing-target.md): explica como implementar o [!DNL Target] em sites, em aplicativos para dispositivos móveis, em aplicativos de página única (SPAs) e em plataformas iOT/OTT.
-- [APIs](https://developers.adobetarget.com/api/delivery-api/)do servidor do Público alvo: Descreve os recursos que compõem a API de Delivery do Adobe Target.
+- [APIs](https://developers.adobetarget.com/api/delivery-api/)do servidor do Público alvo: Descreve os recursos que compõem a API do Delivery Adobe Target.
 - [SDK](https://github.com/adobe/target-nodejs-sdk)NodeJS do Público alvo: Explica como implantar o servidor do Público alvo. Esse SDK do Node.js ajuda a integrar facilmente o Público alvo a outras soluções da Adobe Experience Cloud.
 - [SDK](https://github.com/adobe/target-java-sdk)Java do Público alvo: Explica como implantar o servidor do Público alvo. Esse Java SDK ajuda você a integrar facilmente o Público alvo com outras soluções da Adobe Experience Cloud.
 - [API](https://developers.adobetarget.com/api/recommendations/)do Recomendações do Público alvo: Descreve os recursos que compõem a API oficial do Adobe Target Recommendations.
