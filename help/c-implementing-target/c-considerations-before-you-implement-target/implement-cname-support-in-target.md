@@ -5,9 +5,9 @@ title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1145'
 ht-degree: 3%
 
 ---
@@ -97,10 +97,6 @@ Não há interrupção de serviço quando o certificado é implantado (incluindo
 ### Que tipo de chave e algoritmo de assinatura de certificado serão usados para minha implementação CNAME?
 
 Todos os certificados são RSA SHA-256 e as chaves são RSA 2048-bit, por padrão. Os tamanhos de chave maiores que 2048 bits não são suportados no momento.
-
-### A Adobe/DigiCert pode enviar emails do DCV para outro endereço de email `<someone>@example.com`?
-
-Não, a DigiCert (ou qualquer autoridade de certificação) não permitirá que apenas qualquer pessoa com um endereço de email sob um domínio autorize um certificado SSL sob esse mesmo domínio, a menos que esse endereço de email também esteja incluído nas informações WHOIS do domínio ou na lista predeterminada de endereços (veja acima). Isso garante que somente indivíduos autorizados possam aprovar o DCV para um domínio específico. Se isso não for viável para você, recomendamos o uso do método DNS CNAME DCV (consulte acima).
 
 ### Como posso validar se minha implementação CNAME está pronta para o tráfego?
 
