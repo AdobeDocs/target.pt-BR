@@ -5,10 +5,10 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 36%
+source-wordcount: '1222'
+ht-degree: 35%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 17 de junho | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
+|  | [Tokens de resposta](/help/administrating-target/response-tokens.md) | Foram adicionadas informações sobre tokens de resposta para o Método de alocação de tráfego para atividades de Público alvo [!UICONTROL automático e personalização]  automatizada. |
 |  | [Criação da atividade](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações sobre o suporte da Analytics para o Público alvo (A4T) para a Autoalocação de atividades. |
 |  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] em *Especificar funções e permissões*. |
 |  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] na *Etapa 6: Especifique funções e permissões*. |
