@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1570'
 ht-degree: 87%
 
 ---
@@ -62,8 +62,8 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
    |  | `profile.categoryAffinities` | Retorna uma matriz das 5 categorias principais do visitante como sequências de caracteres. |
    | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que &quot;option&quot; equivale a &quot;offer.&quot; |
    | Geografia | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulte [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) para obter mais informações sobre como usar o direcionamento geográfico nas atividades. |
-   | Método<br>de alocação de tráfegoAplica-se somente às atividades de Público alvo  automático e personalização  automatizada. | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência de estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência da distribuição de tráfego &quot;direcionada&quot;. |
-   |  | `experience.trafficAllocationType` | Retorna &quot;controle&quot; e &quot;direcionado&quot;, respectivamente. |
+   | Método<br>de alocação de tráfego (aplica-se somente a atividades de Público alvo  automático e personalização  automatizada). | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência de estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência da distribuição de tráfego &quot;direcionada&quot;. |
+   |  | `experience.trafficAllocationType` | Retorna &quot;controle&quot; ou &quot;direcionado&quot;. |
 
    Os atributos do perfil do usuário e dos Atributos do cliente também são exibidos na lista.
 
