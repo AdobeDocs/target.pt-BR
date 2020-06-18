@@ -5,10 +5,10 @@ title: Aumento e Confiança - Perguntas frequentes sobre o A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 55%
+source-wordcount: '496'
+ht-degree: 50%
 
 ---
 
@@ -31,7 +31,7 @@ O nível de confiança é a probabilidade de a taxa de conversão medida diferir
 
 ## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#lift-confidence}
 
-As métricas calculadas não são suportadas atualmente nas funções de incentivo e confiança. Isso se deve ao fato de o Analytics calcular métricas em nível de agregação, e não em nível de visitante. A confiança, em particular, é um cálculo ao nível do visitante.
+As métricas calculadas não são suportadas atualmente nas funções de incentivo e confiança. Isso se deve ao fato de que a Analytics calcula as métricas em nível de agregação, e não em nível de visitante. A confiança, em particular, é um cálculo ao nível do visitante.
 
 eventos não calculados (padrão) são suportados em incentivo e confiança. Tornam-se o numerador na função de elevação; o numerador não pode ser um cálculo em si. O denominador é a métrica de normalização (impressões, visitas ou visitantes). Alguns exemplos de eventos padrão incluem pedidos, receita, conversões de atividade, eventos personalizados 1-1000 etc. Isso significa que métricas de otimização comuns, como taxa de conversação (Pedidos/Visitante) e RPV (Receita/Visitante) são suportadas em incentivo e confiança.
 
@@ -42,9 +42,7 @@ Exemplos de métricas não suportadas ou casos de uso incluem:
 
 ## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-O A4T usa cálculos de métricas não binárias com a soma dos dados quadrados. A variação é calculada usando a soma dos dados quadrados. Pedidos extremos não são levados em consideração.
-
-Qualquer segmento do Analytics pode ser aplicado ao relatório. Essa é a maneira como você pode obter o &quot;pedido extremo&quot; entre outras opções do segmento. Uma métrica também pode ser construída para limitar as coisas, como quantas vezes um visitante converteu.
+O A4T usa cálculos de métricas não binárias com a soma dos dados quadrados. A variação é calculada usando a soma dos dados quadrados. Pedidos extremos não são levados em consideração. Além disso, o cálculo de confiança não aplica uma correção de Bonferroni para várias ofertas.
 
 ## O aumento e a confiança funcionam na Ad Hoc e Report Builder? Se não é nativo, posso fazer isso sozinho? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
