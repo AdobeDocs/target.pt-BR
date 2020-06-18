@@ -1,9 +1,12 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Informações sobre como trabalhar com um campo de vários valores no Adobe Target Recommendations usando operadores especiais de vários valores.
-title: Trabalhar com atributos de vários valores no Adobe Target Recommendations
+description: Informações sobre como trabalhar com um campo de vários valores no Recomendações de Adobe Target usando operadores especiais de vários valores.
+title: Trabalhar com atributos de vários valores no Recommendations de Adobe Target
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 1%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 Às vezes, talvez você queira trabalhar com um campo de vários valores. Considere os exemplos a seguir:
 
-* Você oferece filmes aos usuários. Um determinado filme tem vários atores.
+* Você oferta filmes aos usuários. Um determinado filme tem vários atores.
 * Você vende ingressos para concertos. Um determinado usuário tem várias bandas favoritas.
 * Você vende roupas. Uma camisa está disponível em vários tamanhos.
 
@@ -67,7 +70,7 @@ Os operadores a seguir estão disponíveis para uso com atributos de entidade, p
 
 >[!NOTE]
 >
->Atualmente, o suporte para a correspondência dinâmica com atributos de vários valores está disponível somente em critérios ao usar uma regra de correspondência de atributo de perfil ou parâmetro (mbox) ao comparar um único valor do lado esquerdo a um lado direito de vários valores. O suporte para promoções, correspondência de atributos de entidade e para listas no lado esquerdo das regras de inclusão estará disponível no início de 2020.
+>Atualmente, o suporte para a correspondência dinâmica com atributos de vários valores está disponível somente em critérios ao usar uma regra de correspondência de atributo de perfil ou parâmetro (mbox) ao comparar um único valor do lado esquerdo a um lado direito de vários valores. Os atributos de vários valores não são suportados atualmente em promoções, correspondência de atributos de entidade ou para listas no lado esquerdo das regras de inclusão.
 
 
 ### Exemplo: Excluir itens observados recentemente
@@ -116,7 +119,7 @@ Representação da API JSON da regra de inclusão:
 
 ### Exemplo: Criação de critérios pela API recomendando itens dos favoritos de um usuário
 
-Critérios que usam regras de filtragem de vários valores, como todos os critérios, podem ser criados por meio das APIs de E/S da Adobe. Uma chamada de API de exemplo para criar um critério onde o atributo da entidade `id` está contido na lista de parâmetros da mbox `favorites` é fornecida aqui:
+Critérios que usam regras de filtragem de vários valores, como todos os critérios, podem ser criados por meio das APIs de E/S da Adobe. Uma chamada de API de exemplo para criar um critério onde o atributo da entidade `id` está contido na lista de parâmetro da mbox `favorites` é fornecida aqui:
 
 ```
 curl -X POST \
