@@ -4,17 +4,17 @@ description: Configure o Adobe Target Visual Experience Composer (VEC) especific
 title: Configurar relatórios no Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 65%
+source-wordcount: '713'
+ht-degree: 31%
 
 ---
 
 
 # Configurar relatórios no Público alvo
 
-Defina as configurações gerais a serem usadas no relatórios do Público alvo que se aplicam a toda a sua [!DNL Target] conta.
+Defina as configurações gerais a serem usadas no [!DNL Adobe Target] relatórios que se aplicam a toda a sua [!DNL Target] conta.
 
 >[!NOTE]
 >
@@ -31,21 +31,24 @@ Você pode especificar as seguintes configurações nesta página:
 * Mostrar ou não o aumento estimado na receita no relatórios
 * Se as prioridades refinadas devem ser ativadas
 
+>[!NOTE]
+>
+>Observe que o fuso horário, a moeda e os endereços IP para excluir configurações se aplicam às atividades que usam o [!DNL Target] relatórios. Essas configurações não se aplicam a atividades que usam o [Analytics para Público alvo (A4T)] como a fonte do relatórios (/help/c-integrating-target-with-mac/a4t/a4t.md).
+
 ![página Relatórios](/help/administrating-target/assets/reporting.png)
 
 ## Solução da Relatórios Cloud
 
 Defina as opções que determinam quais dados são usados para os resultados e relatórios.
 
-Selecione a fonte de relatórios das suas atividades: o [!DNL Target] ou o Adobe Analytics. Também é possível optar por selecionar sua origem de relatórios por atividade.
+Selecione a fonte de relatórios das suas atividades: o [!DNL Target] ou o [!DNL Adobe Analytics]. Também é possível optar por selecionar sua origem de relatórios por atividade.
 
 Considere as informações a seguir ao escolher sua origem de relatórios:
 
-* Criação, ativação e desativação de atividades de [!UICONTROL Alocação automática], [!UICONTROL Direcionamento automático] e [!UICONTROL Personalização automatizada] (AP) são permitidas independentemente da fonte de relatórios selecionada. Esses tipos de atividades não são compatíveis quando você escolhe o [Adobe Analytics como origem de relatórios para o Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Mesmo que você especifique o Analytics como fonte de geração de relatórios, [!DNL Target] será usado como a fonte de relatórios para esses tipos de atividades.
-* Se a fonte de relatórios for definida aqui como Analytics, você não poderá ativar uma atividade que usa [!DNL Target] como fonte de relatórios (a fonte de relatórios é especificada como Target por atividade). Você deve alterar a origem de relatórios para Analytics na sua atividade ou alterar o mecanismo de relatórios para Selecionar por atividade em Configurar > Preferências.
-* Se a origem de relatório for definida aqui para [!DNL Target], você não poderá ativar uma atividade que usa o Analytics como a origem de relatório. Você deve alterar a origem de relatórios para [!DNL Target] na sua atividade ou alterar a origem de relatório para Selecionar por atividade em Configurar > Preferências.
-* Se a origem de relatório for definida aqui para Selecionar por atividade, você pode criar, ativar e desativar atividades compatíveis com a origem de relatório selecionada. Para obter uma matriz de atividades compatíveis, consulte [Adobe Analytics como origem de relatório para o Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* Quando você alternar do manual A/B para [!UICONTROL Alocação automática] ou [!UICONTROL Direcionamento automático], todas as métricas e públicos-alvo serão perdidos se a origem de relatórios da atividade manual A/B não for compatível nas atividades de [!UICONTROL Alocação automática] ou [!UICONTROL Direcionamento automático].
+* Se a origem de relatório for definida aqui para **[!DNL Target]**, você não poderá ativar uma atividade que usa o como a origem de relatório. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
+* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL A criação, a ativação e a desativação da atividade de Personalização] Automatizada (AP) são permitidas independentemente da origem do relatórios selecionada. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## Fuso horário do Relatórios
 
@@ -65,7 +68,7 @@ Insira cada endereço IP em uma nova linha.
 
 Você pode optar por mostrar o aumento estimado na receita se informar um valor monetário para sua meta. [!DNL Target]O pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora. O recurso de aumento estimado está desativado por padrão.
 
-Apenas usuários de Administração da Experience Cloud podem habilitar ou desabilitar esse recurso. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
+Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
 
 Para obter informações detalhadas, consulte [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
