@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
-translation-type: ht
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
-workflow-type: ht
-source-wordcount: '1408'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
    + Relatório {#reporting}
       + [Configurar relatórios](/help/administrating-target/reporting.md)
       + [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Integração com o Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Configuração do Scene7](administrating-target/scene7-settings.md)
    + [Implementação](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
    + [Ambientes](/help/administrating-target/environments.md)
