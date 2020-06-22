@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: Configure o Adobe Público alvo Visual Experience Composer (VEC) especificando suas configurações gerais, configuração do visor móvel e seletores de CSS.
-title: Configurar o Adobe Público alvo Visual Experience Composer
+description: Configure o Adobe Target Visual Experience Composer (VEC) especificando suas configurações gerais, configuração do visor móvel e seletores de CSS.
+title: Configurar o Adobe Target Visual Experience Composer
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # Configurar o Visual Experience Composer
 
 Configure o [!DNL Adobe Target] Visual Experience Composer  (VEC) especificando suas configurações gerais, a configuração do visor móvel e os seletores de CSS.
+
+>[!NOTE]
+>
+>Os tópicos desta seção, listados abaixo, foram atualizados para fornecer um pico rápido nas mudanças da interface do usuário que serão lançadas na versão [!DNL Target Standard/Premium] 20.6.1 (julho de 2020). A maior parte das informações apresentadas nestes tópicos aplica-se à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 Para acessar a página de configuração do [!UICONTROL Visual Experience Composer] , clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
 
@@ -38,15 +42,15 @@ O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a pág
 
 ### Ativar Enhanced Experience Composer
 
-Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque essa opção para reverter para o Visual Experience Composer original. A entrega de atividades nos sites não é afetada por essa escolha.
+Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. A entrega de atividades nos sites não é afetada por essa escolha.
 
 Para obter mais informações, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Você também pode ativar o Enhanced Experience Composer no nível da atividade.
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### Carregar conteúdo misto
 
-Ative o conteúdo misto ao abrir um site usando o Enhanced Experience Composer (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 Essa opção é útil se, por exemplo:
 
