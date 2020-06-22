@@ -5,10 +5,10 @@ title: Permissões de usuário empresarial
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 984a58373c1a19fa4faf9041b5e3fb0c523fa4b5
 workflow-type: tm+mt
 source-wordcount: '2996'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -219,7 +219,7 @@ Consider the following when using or configuring properties and permissions in [
 
    * Visual Experience Composer
    * Relatório
-   * Definições do Scene7
+   * Configuração do Scene7
    * Implementação
    * Propriedades
    * Hosts
@@ -244,6 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * Atividades, públicos, ofertas de código, ofertas de imagem, ou qualquer outro recurso criado usando as seguintes soluções ou métodos não podem ser controlados pelo modelo de Permissões empresariais, mas farão parte do Espaço de trabalho padrão: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e recursos criados por meio da API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
    * Ofertas de imagem (os ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não podem ser controlados pelo modelo de Permissões empresariais no momento.
    * O clickTracking e os redirecionamentos somente funcionarão quando o link ou a página de destino fizerem parte de uma propriedade incluída na atividade. Além disso, o clickTracking pode não funcionar ao usar a função `targetPageParams()`. A função recomendada é `targetPageParamsAll()`.
+
    [!DNL Target]Atualmente, o exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Caso o token seja (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a mbox do clicktracking por meio da função `targetPageParamsAll()`, a métrica não será aumentada e exibida como &quot;0&quot;.
 
    O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
