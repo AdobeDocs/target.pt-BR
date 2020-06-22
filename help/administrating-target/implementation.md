@@ -5,17 +5,17 @@ title: Implementar o Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 39%
+ht-degree: 21%
 
 ---
 
 
 # Implementação
 
-Antes de começar a usar o [!DNL Adobe Target] implemente-o no seu site, entenda alguns conceitos e termos básicos, familiarize-se com a maneira como o [!DNL Target] funciona e se integra à sua estrutura e compreenda como os visitantes são rastreados pelo sistema do [!DNL Target].
+Before you start using [!DNL Adobe Target], you should implement it on your site, understand a few basic concepts and terms; be familiar with how [!DNL Target] works and integrates with your infrastructure; and understand how visitors are tracked by the [!DNL Target] system.
 
 Para obter mais informações, consulte os vários tópicos em [Implementar Público alvo](/help/c-implementing-target/implementing-target.md).
 
