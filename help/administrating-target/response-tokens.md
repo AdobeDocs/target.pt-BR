@@ -6,23 +6,23 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 87%
+source-wordcount: '1571'
+ht-degree: 85%
 
 ---
 
 
 # Tokens de resposta{#response-tokens}
 
-Os tokens de resposta permitem gerar automaticamente informações específicas do Target (detalhes da campanha, informações de perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou na integração com sistemas de terceiros (como o Clicktale).
+Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
 >[!NOTE]
 >
 >As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
-Os tokens de resposta permitem que você escolha quais variáveis serão utilizadas e, em seguida, permitem que elas sejam enviadas como parte de uma resposta de mbox. Para isso, basta ativar uma variável usando o comutador e a variável será enviada com respostas de mbox, que podem ser validadas em chamadas de rede. Os tokens de resposta funcionam no modo de Visualização também.
+Os tokens de resposta permitem que você escolha quais variáveis serão utilizadas e, em seguida, permitem que elas sejam enviadas como parte de uma resposta de mbox. Para isso, basta ativar uma variável usando o comutador e a variável será enviada com respostas de mbox, que podem ser validadas em chamadas de rede. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Uma diferença importante entre os plugins e os tokens de resposta é que os plugins entregam o JavaScript para a página de execução, após a entrega, por sua vez, os tokens de resposta entregam um objeto que pode ser lido e utilizado pelos ouvintes do evento. Para obter mais informações, consulte [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) e os exemplos mais adiante neste artigo. A abordagem dos tokens de resposta é mais segura e permite um desenvolvimento e manutenção mais fáceis de integrações de terceiros.
 
