@@ -5,10 +5,10 @@ title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 80%
+source-wordcount: '2442'
+ht-degree: 79%
 
 ---
 
@@ -80,6 +80,7 @@ Lembre-se das seguintes informações:
 * Consulte a seção &quot;Referência de JavaScript para os parâmetros do perfil de script&quot; abaixo para obter mais sintaxe de JavaScript.
 * O parâmetro permanece no perfil após a desativação do script. Os usuários cujos perfis já contêm um parâmetro que é usado em uma audiência de atividade se qualificarão nessa atividade.
 * Os scripts de Perfil não podem ser excluídos enquanto estiverem sendo usados em uma atividade.
+* Não é recomendável criar scripts de perfil dependentes que usam o resultado de um script de perfil em outro script de perfil. A ordem de execução do script de perfil não é garantida.
 
 ## Exibição dos cartões de informações do script de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
