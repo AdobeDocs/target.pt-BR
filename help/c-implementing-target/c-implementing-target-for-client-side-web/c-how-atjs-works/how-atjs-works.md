@@ -1,11 +1,14 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: O diagrama de sistema do Adobe Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
-title: Como a biblioteca JavaScript do Público alvo da Adobe at.js funciona
+title: Como a biblioteca do JavaScript Adobe Target at.js funciona
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -91,10 +94,27 @@ Observações importantes:
 * O at.js não oferece garantia na ordem de execução dos scripts remotos, pois são carregados de forma assíncrona.
 * Os scripts embutidos não devem ter dependências nos scripts remotos, pois são carregados e executados posteriormente.
 
-## Vídeo de treinamento: diagrama arquitetônico do at.js 2.x ![emblema Visão geral](/help/assets/overview.png)
+## Vídeos de treinamento
+
+Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
+
+### diagrama arquitetônico do at.js 2.x ![emblema Visão geral](/help/assets/overview.png)
 
 A at.js 2.x aprimora o suporte do Adobe Target para SPAs e integra-se com outras soluções da Experience Cloud. Este vídeo explica como tudo se une.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Consulte [Como o at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+
+### Horas de escritório: dicas e visão geral do at.js (26 de junho de 2019) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+
+Este vídeo é uma gravação de &quot;No expediente&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
+
+* Benefícios do uso do at.js
+* Configurações do at.js
+* Manuseio de oscilação
+* Depuração do at.js
+* Problemas conhecidos
+* Perguntas frequentes
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
