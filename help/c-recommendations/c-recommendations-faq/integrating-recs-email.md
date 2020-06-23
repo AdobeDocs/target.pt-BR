@@ -5,10 +5,10 @@ title: Integração do Recommendations ao email
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 93%
+source-wordcount: '1459'
+ht-degree: 91%
 
 ---
 
@@ -63,6 +63,10 @@ Consulte a [Documentação da API de entrega](https://developers.adobetarget.com
 ## Option 2: Use a rawbox email template {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes não-Web, como provedores de serviços de email (ESPs). Como você não tem [!DNL mbox.js] ou [!DNL at.js] para usar nas solicitações de rawbox, deve criar as solicitações manualmente. Os exemplos abaixo explicam como trabalhar com solicitações de rawbox no email.
+
+>[!NOTE]
+>
+>Ao usar uma rawbox e [!DNL Target], consulte o aviso de segurança importante em [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist).
 
 Essa abordagem permite rastrear o desempenho das recomendações em emails, testá-las da maneira normal com uma recomendação, e continuar a rastrear o site.
 
