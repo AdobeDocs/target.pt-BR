@@ -5,10 +5,10 @@ title: Notas de pré-lançamento de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 19%
+source-wordcount: '684'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 23 de junho de 2020**
+**Última atualização: 24 de junho de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -49,9 +49,18 @@ Se você já tiver [implementado o A4T](/help/c-integrating-target-with-mac/a4t/
 
 ### [!UICONTROL Atualização da interface da seção de administração]
 
-Atualizamos a seção [!UICONTROL Administração] (antigo [!UICONTROL Administrador]) e suas páginas para tornar seus workflows mais fáceis e eficientes.
+Estamos gradualmente reescrevendo a interface inteira usando uma nova pilha técnica para oferta de melhor desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. [!DNL Target] A primeira seção atualizada é a seção [!UICONTROL Configuração] , que foi renomeada para [!UICONTROL Administração].
 
-Os destaques incluem:
+Como parte dessa atualização, você poderá executar facilmente muitas ações usando as páginas na seção [!UICONTROL Administração] , como:
+
+* Baixe o arquivo at.js mais recente na guia [!UICONTROL Implementação] (**[!UICONTROL Administração]** > **[!UICONTROL Implementação]**).
+* Personalize suas configurações do at.js e possa revisar facilmente suas alterações (**[!UICONTROL Administração]** > **[!UICONTROL Implementação]**).
+* Modifique as configurações de relatórios aprimoradas, como moeda e fuso horário padrão, IPs a serem excluídos do relatórios etc. (**[!UICONTROL Administração]** > **[!UICONTROL Relatórios]**)
+* Ofuscar endereços IP de visitante por motivos de privacidade (**[!UICONTROL Administração]** > **[!UICONTROL Implementação]**)
+* Visualização a lista existente de usuários por espaço de trabalho e suas funções, antes de gerenciá-los no Adobe Admin Console (**[!UICONTROL Administração]** > **[!UICONTROL Usuários]**).
+* Pesquise e filtre todas as tabelas na seção [!UICONTROL Administração] .
+
+As mudanças significativas incluem:
 
 * **[!UICONTROL Página]do Visual Experience Composer **: Esta nova página (**[!UICONTROL Administração ]**>**[!UICONTROL Visual Experience Composer ]**) permite:
 
