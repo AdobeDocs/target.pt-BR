@@ -5,10 +5,10 @@ title: Notas de pré-lançamento de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 19%
+source-wordcount: '478'
+ht-degree: 17%
 
 ---
 
@@ -38,14 +38,6 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 ## Target Standard/Premium 20.7.1 (21 de julho de 2020)
 
 Essa versão inclui os seguintes aprimoramentos:
-
-### Suporte Analytics para Públicos alvos (A4T) para atividades de Público alvo  automático
-
-[!UICONTROL O Público alvo] automático atividade agora é compatível com [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md).
-
-Essa integração usa o aprendizado de máquina avançado para selecionar entre várias experiências definidas pelo profissional de marketing de alto desempenho para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
-
-Se você já tiver [implementado o A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para uso com atividades de teste A/B, todos estarão prontos!
 
 ### [!UICONTROL Atualização da interface da seção de administração]
 
