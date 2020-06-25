@@ -5,9 +5,9 @@ title: Alocação automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3014'
 ht-degree: 89%
 
 ---
@@ -83,7 +83,7 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 
 Se a atividade tiver apenas duas experiências, ambas receberão tráfego igual até que o Target encontre uma experiência com 90% de confiança. Nesse ponto, 70% do tráfego é alocado para o vencedor e 30% para o perdedor. Após essa experiência atingir 95% de confiança, 100% do tráfego é atribuído ao vencedor e 0% ao perdedor.
 
-Depois que o modelo para uma atividade de Alocação automática estiver pronto (cada experiência tem um mínimo de 1.000 visitantes e 50 conversões), as seguintes operações da interface do usuário não serão permitidas:
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
