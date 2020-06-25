@@ -5,9 +5,9 @@ title: Como a biblioteca do JavaScript Adobe Target at.js funciona
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1106'
 ht-degree: 88%
 
 ---
@@ -66,7 +66,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 | 5 | Os dados do Analytics são enviados aos Servidores de coleta de dados. |
 | 6 | Os dados do Target são correspondidos aos dados do Analytics pela SDID, e processados no armazenamento de relatório do Analytics. Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do A4T. |
 
-### diagrama arquitetônico do at.js 2.x ![emblema Visão geral](/help/assets/overview.png)
+### Vídeo - diagrama da arquitetura do at.js 2.x
 
 A at.js 2.x aprimora o suporte do Adobe Target para SPAs e integra-se com outras soluções da Experience Cloud. Este vídeo explica como tudo se une.
 
@@ -85,7 +85,7 @@ Consulte [Como o at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atj
 | 5 | Com base no URL, nos parâmetros mbox e nos dados do perfil, o [!DNL Target] decide quais atividades e experiências são retornadas ao visitante. | 6 | O conteúdo direcionado é retornado à página, opcionalmente incluindo os valores de perfil para personalização adicional.<br>A experiência é revelada o mais rápido possível sem cintilação do conteúdo padrão. |
 | 7 | Os dados do [!DNL Analytics] são enviados ao servidores de Coleção de dados. | 8 | Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] pela SDID, e processados no armazenamento de relatório do [!DNL Analytics].<br>[!DNL Analytics] Os dados podem ser exibidos no [!DNL Analytics] e no [!DNL Target] pelos relatórios do [!DNL Analytics for Target] (A4T). |
 
-### Horas de escritório: dicas e visão geral do at.js (26 de junho de 2019) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+### Vídeo - Horário do escritório: dicas e visão geral do at.js (26 de junho de 2019)
 
 Este vídeo é uma gravação de &quot;No expediente&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
