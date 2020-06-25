@@ -5,10 +5,10 @@ title: Notas de pré-lançamento de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ Como parte dessa atualização, você poderá executar facilmente muitas ações
 * Ofuscar endereços IP de visitante por motivos de privacidade (**[!UICONTROL Administração]** > **[!UICONTROL Implementação]**)
 * Visualização a lista existente de usuários por espaço de trabalho e suas funções, antes de gerenciá-los no Adobe Admin Console (**[!UICONTROL Administração]** > **[!UICONTROL Usuários]**).
 * Pesquise e filtre todas as tabelas na seção [!UICONTROL Administração] .
-
-As mudanças significativas incluem:
-
-* **[!UICONTROL Página]do Visual Experience Composer **: Esta nova página (**[!UICONTROL Administração ]**>**[!UICONTROL Visual Experience Composer ]**) permite:
-
-   * Defina as configurações gerais para o VEC (especifique o URL padrão, ative o [!UICONTROL Enhanced Experience Composer], carregue conteúdo misto e gere instantâneos de experiência no diagrama de fluxo de atividade)
-   * Configurar visualizadores móveis
-   * Configurar seletores de CSS
-
-* **[!UICONTROL Página]do Relatórios **: Esta nova página (**[!UICONTROL Administração ]**>**[!UICONTROL Relatórios ]**) permite que você defina as configurações gerais a serem usadas no[!DNL Target]relatórios que se aplicam a toda a sua[!DNL Target]conta.
-
-   As configurações disponíveis incluem:
-
-   * A [!DNL Adobe Experience Cloud] solução a ser usada para o relatórios
-   * O fuso horário a ser usado para o relatórios
-   * A moeda a ser usada para o relatórios
-   * Endereços IP a serem excluídos do relatórios
-   * Mostrar ou não o aumento estimado na receita no relatórios
-   * Se as prioridades refinadas devem ser ativadas
-
-* A página [!UICONTROL Hosts] anterior foi dividida em duas novas páginas:
-
-   * [!UICONTROL Hosts]
-   * [!UICONTROL Ambientes]
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
