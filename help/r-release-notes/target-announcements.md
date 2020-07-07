@@ -4,10 +4,10 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de Públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '168'
+ht-degree: 5%
 
 ---
 
@@ -16,18 +16,21 @@ ht-degree: 2%
 
 Informações sobre eventos futuros, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 
-## Quebra de Café de Perguntas e Respostas do Adobe Target
+## Quebra de Café de Perguntas e Respostas da Comunidade do Adobe Target
 
-* **quarta-feira, 24 de junho de 2020**
-* **10:00 às 11:00 da manhã. (PDT)**
+* **quarta-feira, 8 de julho**
+* **10:00 - 11:00 da manhã. (PST)**
 
-Nós vamos nos juntar a Ram Parthasarathy, também conhecido como @ram_adobe, Gerente Principal de Produtos para [!DNL Adobe Experience Cloud]. Ram será conectado ao para conversar diretamente com você [!DNL Adobe Target Community] sobre suas [!DNL Target] questões relacionadas às suas áreas de especialização:
+Juntar-nos-emos a Rob Hornick, Gerente Sênior de Produtos do Adobe Target, que entrará na Comunidade do Adobe Target para conversar diretamente com você sobre as questões do seu Público alvo relacionadas às suas áreas de especialização:
 
-* Tópicos gerais [!DNL Target]
-* Próxima oferta
-* decisão Oferta
+* Personalização
+* Aprendizagem de máquina e inteligência artificial
+* Recommendations
+* Alocação automática
+* Direcionamento automático
+* Personalização automatizada
 
-Para se registrar, [visite a Comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286)do Adobe Target.
+Para se registrar, [visite a Comunidade](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558)do Adobe Target.
 
 ## Adobe Target Skill Builder: Bate-papo do desenvolvedor, migre o Adobe Target mbox.js para o at.js {#skill-builder}
 
