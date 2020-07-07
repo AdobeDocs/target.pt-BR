@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 >
 >As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
-Os tokens de resposta permitem que você escolha quais variáveis serão utilizadas e, em seguida, permitem que elas sejam enviadas como parte de uma resposta de mbox. Para isso, basta ativar uma variável usando o comutador e a variável será enviada com respostas de mbox, que podem ser validadas em chamadas de rede. Response tokens work in [!UICONTROL Preview] mode as well.
+Os tokens de resposta permitem que você escolha quais variáveis serão aproveitadas e, em seguida, permite que sejam enviadas como parte de uma resposta do Público alvo. Para fazer isso, basta ativar uma variável usando o switch e a variável será enviada com respostas de Público alvo, que podem ser validadas em chamadas de rede. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Uma diferença importante entre os plugins e os tokens de resposta é que os plugins entregam o JavaScript para a página de execução, após a entrega, por sua vez, os tokens de resposta entregam um objeto que pode ser lido e utilizado pelos ouvintes do evento. Para obter mais informações, consulte [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) e os exemplos mais adiante neste artigo. A abordagem dos tokens de resposta é mais segura e permite um desenvolvimento e manutenção mais fáceis de integrações de terceiros.
 
