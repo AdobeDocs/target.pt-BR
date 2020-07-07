@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 7 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café com Adobe Target de 8 de julho. |
 | 25 de junho | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão Target Standard/Premium 20.6.1 (julho de 2020). |
 |  | [Visão geral da documentação do Público alvo](/help/r-release-notes/target-documentation.md) | Novo tópico detalhando as diferentes fontes de [!DNL Target] documentação. |
 | 23 de junho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café Adobe Target de 24 de junho. |
@@ -58,7 +59,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Hosts](/help/administrating-target/hosts.md) | Foi adicionada uma observação à seção &quot;Práticas recomendadas de segurança&quot;. |
 | Maio de 14 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre alterações na API v2 de status de lote de Perfis. |
 | Maio de 13 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Adicionada a seção &quot;Limitações conhecidas&quot;. |
-| Maio de 11 | [Hosts](/help/administrating-target/hosts.md) | Foram adicionadas informações sobre como usar a funcionalidade de ubox com redirecionamentos e listas permitidas. |
+| Maio de 11 | [Hosts](/help/administrating-target/hosts.md) | Foram adicionadas informações sobre como usar a funcionalidade de ubox com redirecionamentos e lista de permissões. |
 |  | [Trabalhar com redirecionadores](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Foram adicionadas informações sobre o uso de hosts para evitar vulnerabilidades de redirecionamento aberto. |
 |  | [Integração do Recommendations ao email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Foram adicionadas informações sobre o uso de hosts para evitar vulnerabilidades de redirecionamento aberto. |
 |  | [Email: implementação do Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Foram adicionadas informações sobre o uso de hosts para evitar vulnerabilidades de redirecionamento aberto. |
@@ -79,7 +80,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
 | Abril de 22 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Nova seção adicionada: *Alterações na API de status de lote de Perfis v2 (4 de maio de 2020).* |
 | Abril de 20 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Nova seção adicionada: *Adobe Target Skill Builder: Bate-papo do desenvolvedor, migre o Adobe Target mbox.js para o at.js.* |
-| Abril de 14 | [Lista permitida de hosts de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Novo tópico. |
+| Abril de 14 | [Lista de permissões hosts de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Novo tópico. |
 | Abril de 10 | [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nova seção adicionada: &quot;Práticas recomendadas de implementação.&quot; |
 | Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | Abril de 2 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram adicionadas informações sobre como usar `user.header('x-forwarded-for')` as bordas AWS mais recentes para recuperar os endereços IP dos usuários. |
