@@ -5,10 +5,10 @@ title: Permissões de usuário empresarial
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '2996'
-ht-degree: 85%
+source-wordcount: '2999'
+ht-degree: 83%
 
 ---
 
@@ -47,7 +47,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 Uma propriedade da Web é uma biblioteca de regras e um código incorporado. Uma propriedade da Web pode ser qualquer agrupamento de um ou mais domínios e subdomínios.
 
-As propriedades são ativadas adicionando um par de nome/valor específico como um parâmetro em qualquer chamada (mbox, api, etc.) para [!DNL Target].
+As propriedades são ativadas adicionando um par de nome/valor específico como parâmetro com qualquer chamada (chamada de Público alvo, chamada de api etc.) para [!DNL Target].
 
 As propriedades pertencem a canais específicos (Web, celular, email ou API/Outros).
 
@@ -244,7 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * Atividades, públicos, ofertas de código, ofertas de imagem, ou qualquer outro recurso criado usando as seguintes soluções ou métodos não podem ser controlados pelo modelo de Permissões empresariais, mas farão parte do Espaço de trabalho padrão: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e recursos criados por meio da API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
    * Ofertas de imagem (os ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não podem ser controlados pelo modelo de Permissões empresariais no momento.
    * O clickTracking e os redirecionamentos somente funcionarão quando o link ou a página de destino fizerem parte de uma propriedade incluída na atividade. Além disso, o clickTracking pode não funcionar ao usar a função `targetPageParams()`. A função recomendada é `targetPageParamsAll()`.
-   [!DNL Target]Atualmente, o exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Caso o token seja (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a mbox do clicktracking por meio da função `targetPageParamsAll()`, a métrica não será aumentada e exibida como &quot;0&quot;.
+   [!DNL Target]Atualmente, o exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
 
    O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
 
