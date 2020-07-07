@@ -5,10 +5,10 @@ title: Configuração de permissões empresariais
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 72%
+source-wordcount: '1469'
+ht-degree: 70%
 
 ---
 
@@ -103,7 +103,7 @@ Você precisará passar a ID do espaço de trabalho para utilizar as Permissões
 
 ## Etapa 4. Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-As propriedades são ativadas adicionando um par de nome/valor específico como um parâmetro em qualquer chamada (mbox, api, etc.) ao Target.
+As propriedades são ativadas adicionando um par de nome/valor específico como parâmetro com qualquer chamada (chamada de Público alvo, chamada de api etc.) ao Target.
 
 As propriedades pertencem a canais específicos (Web, dispositivos móveis, email e API/Outros).
 
@@ -128,7 +128,7 @@ As propriedades pertencem a canais específicos (Web, dispositivos móveis, emai
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-Para usar a funcionalidade de permissões de usuário do [!DNL Target], você deve adicionar o parâmetro `at_property` para qualquer chamada que esteja acessando o  (mbox, api, etc.).[!DNL Target]
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **Para obter o código do parâmetro`at_property`:**
 
