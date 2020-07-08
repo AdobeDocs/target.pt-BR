@@ -1,11 +1,14 @@
 ---
-keywords: solucionar problemas do target, solução de problemas do target, conteúdo padrão, teste não ativo, atividade não ativa, não funcionamento do direcionamento, exibições da experiência anterior, não é possível criar atividades, não é possível criar atividades, criar atividades, estrutura de página alterada, estrutura de página modificada, mensagem de erro, script de perfil para a exclusão do erro, não funcionamento do ajax
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Se a atividade não aparecer no site, essas sugestões de solução de problemas ajudarão a encontrar uma solução.
 title: Solução de problemas de atividades
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 83%
 
 ---
 
@@ -20,9 +23,9 @@ Se a atividade não aparecer no site, essas sugestões de solução de problemas
 
 As seções a seguir contêm problemas que podem ser encontrados com as soluções sugeridas.
 
-## Criei uma atividade usando a interface do usuário do Target e não posso atualizá-la por meio da API.
+## Criei uma atividade usando a interface do Público alvo e não posso atualizá-la por meio da API.
 
-As atividades criadas usando a interface do usuário do Target devem ser atualizadas por meio da interface do usuário do Target. As atividades criadas via API devem ser atualizadas por meio da API. Se originalmente você criar uma atividade usando a API, por exemplo, mas posteriormente editar a atividade por meio da interface do usuário do Target, nem todas as alterações serão atualizadas. Todas as alterações são armazenadas no backend e podem ser atualizadas fazendo outra chamada de API.
+As Atividades criadas usando a interface do usuário do Público alvo devem ser atualizadas por meio da interface do usuário do Público alvo. As Atividades criadas por meio da API devem ser atualizadas por meio da API. Se originalmente você criar uma atividade usando a API, por exemplo, mas posteriormente editar a atividade por meio da interface do Público alvo, nem todas as alterações serão atualizadas. Todas as alterações são armazenadas no backend e podem ser atualizadas fazendo outra chamada de API.
 
 Como prática recomendada, tente atualizar a atividade usando o mesmo método (IU ou API) usado para criar a atividade originalmente.
 
@@ -54,7 +57,7 @@ Verifique se a sua atividade foi concluída e ativada.
 
 **Opções:**
 
-* Vá para o Visual Experience Composer, clique em URL\&gt; Avançado\&gt; página atual.
+* Vá para o Visual Experience Composer, clique em URL\> Avançado\> página atual.
 
 ## Uma experiência anterior é exibida, em vez da nova experiência.
 
@@ -76,7 +79,7 @@ Verifique se a sua atividade foi concluída e ativada.
 Depois que você for adicionado como um usuário do Target, precisará ter a função Aprovador para criar Atividades.
 
 * Peça que o administrador da sua conta o atribua como um Aprovador.
-* Se você for o administrador, atribua a si mesmo a função de Aprovador em Configurar &gt; Usuários no Target Standard.
+* Se você for o administrador, atribua a si mesmo a função de Aprovador em Configurar > Usuários no Target Standard.
 
    Consulte [Atribuir a função de aprovador a si próprio](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -126,7 +129,7 @@ Para mais informações sobre como as modificações da página afetam a capacid
 
 ## Uma mensagem de erro é exibida ao excluir um script de perfil.
 
-**Validar:** a exclusão de um script de perfil do Target Standard/Premium exibe a mensagem de erro: "Falha ao excluir o script de perfil".
+**Validar:** a exclusão de um script de perfil do Target Standard/Premium exibe a mensagem de erro: &quot;Falha ao excluir o script de perfil&quot;.
 
 **Opções:**
 
@@ -135,10 +138,10 @@ Faça uma das seguintes opções:
 * Exclua novamente. A mensagem de sucesso é exibida.
 * Aguarde cerca de 10 minutos para que o importador do Target Standard/Premium seja executado. O importador atualiza a lista de scripts de perfil.
 
-## Algumas chamadas ajax da mbox não estão funcionando.
+## Some ajax [!DNL Target] calls are not working.
 
-**Observação:** várias chamadas de mbox ajax com o mesmo nome de mbox mas diferentes parâmetros não funcionarão na mesma página. Somente a primeira chamada será feita.
+**Observação:**[!DNL Target] várias chamadas de ajax com o mesmo nome de mas diferentes parâmetros não funcionarão na mesma página. Somente a primeira chamada será feita.
 
-## Você ativou uma atividade usando a API do Target, mas a atividade mostra um status Inativo na interface do Target.
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 Ao executar determinadas ações, como ativar uma atividade fora da interface usando a API do Target, a atualização poderá levar até dez minutos para se propagar na interface do usuário.
