@@ -5,10 +5,10 @@ title: Criar ofertas remotas
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Use as ofertas remotas para hospedar conteúdo fora do Target que o Target faz r
 
 >[!NOTE]
 >
->As ofertas remotas podem ser criadas somente no compositor baseado em formulário. O conteúdo será injetado nos locais da mbox, portanto, provavelmente não são apropriados para uma mbox global.
+>As ofertas remotas podem ser criadas somente no compositor baseado em formulário. Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
 >
 >[!DNL Target Classic] inclui recursos semelhantes: [!UICONTROL Oferta em seu site] e [!UICONTROL Oferta fora do Test&amp;Target].
 
@@ -47,7 +47,7 @@ Alguns exemplos de ofertas remotas incluem:
    | Opção | Descrição |
    |--- |--- |
    | Armazenado em cache | O conteúdo de uma oferta remota em cache é exibido no Target.<br>A cada duas horas, o [!DNL Target] busca o conteúdo no URL remoto e, em seguida, armazena o conteúdo dentro do Target. Quando os visitantes carregam um site com uma experiência que inclui uma oferta remota, a oferta é entregue pelo Target.<br>As ofertas remotas em cache fornecem segurança aprimorada porque alguém conectado no Target não pode alterar o conteúdo. Para alterar o conteúdo, alguém precisaria fazer login no gerenciamento de conteúdo ou outro sistema e alterar o conteúdo lá.<br>Você pode especificar um URL absoluto ou relativo para uma oferta remota em cache. |
-   | Dinâmico | Uma oferta remota dinâmica é servida a partir do gerenciamento de conteúdo ou outro sistema, em vez do Target.<br>Talvez você não queira que o conteúdo seja armazenado em cache periodicamente e entregue pelo Target sempre que os visitantes carregarem um site com uma experiência que inclua uma oferta remota. Em vez disso, você deseja chamar o sistema que hospeda o conteúdo, possivelmente transmitir informações específicas para que a oferta retornada possa ser dinâmica ou diferente para cada usuário.<br>Por exemplo, se um usuário fizer login em um site para um cartão de crédito que inclua uma experiência com uma oferta remota dinâmica, você poderá passar parâmetros para o URL das informações da conta do usuário. Em seguida, o site pode fornecer informações específicas do usuário, como o saldo da conta.<br>Clique em [!UICONTROL Adicionar parâmetro] para adicionar uma ou mais mbox ou solicitar parâmetros. |
+   | Dinâmico | Uma oferta remota dinâmica é servida a partir do gerenciamento de conteúdo ou outro sistema, em vez do Target.<br>Talvez você não queira que o conteúdo seja armazenado em cache periodicamente e entregue pelo Target sempre que os visitantes carregarem um site com uma experiência que inclua uma oferta remota. Em vez disso, você deseja chamar o sistema que hospeda o conteúdo, possivelmente transmitir informações específicas para que a oferta retornada possa ser dinâmica ou diferente para cada usuário.<br>Por exemplo, se um usuário fizer login em um site para um cartão de crédito que inclua uma experiência com uma oferta remota dinâmica, você poderá passar parâmetros para o URL das informações da conta do usuário. Em seguida, o site pode fornecer informações específicas do usuário, como o saldo da conta.<br>Clique em [!UICONTROL Adicionar parâmetro] para adicionar uma ou mais [!DNL Target] solicitações ou parâmetros de solicitação. |
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -55,7 +55,7 @@ Alguns exemplos de ofertas remotas incluem:
 
 Práticas recomendadas para usar ofertas remotas em suas atividades:
 
-* Se a sua oferta reside no mesmo domínio que as mboxes, usar a opção [!UICONTROL Armazenado em cache] permite que você use URLs relativos ao descrever a localização da oferta.
+* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
    Isso significa que ao mover sua atividade dos servidores de armazenamento temporário para produção, o conteúdo se tornará automaticamente acessível, sem necessidade de alterar o URL manualmente.
 
