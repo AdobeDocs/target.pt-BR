@@ -1,21 +1,21 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Use os URLs de QA do Público alvo da Adobe para realizar um controle de qualidade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que fica segmentado dos dados de atividade em tempo real.
+description: Use os URLs de QA do Adobe Target para realizar um controle de qualidade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que permaneça segmentado dos dados de atividade ativa.
 title: Controle de qualidade da atividade
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 85%
+ht-degree: 79%
 
 ---
 
 
 # Controle de qualidade da atividade {#activity-qa}
 
-Use URLs de QA no Público alvo da Adobe para realizar um controle de qualidade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que fica segmentado a partir de dados de atividade ativos.
+Use URLs de QA no Adobe Target para realizar um controle de qualidade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que fica segmentado dos dados de atividade ativa.
 
 ## Visão geral {#section_11B761A522A14E61978275772210A4C2}
 
@@ -24,7 +24,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 * Links para compartilhar com membros da equipe que nunca mudam ou exigem regeneração, independentemente das atualizações feitas nas experiências ou atividades. Isso permite testar totalmente suas atividades em toda a jornada do usuário.
 * As condições do público-alvo são respeitadas opcionalmente, para que os profissionais de marketing possam testar os critérios de direcionamento ou ignorá-los para garantir a qualidade da aparência das experiências sem precisar atender a essas condições.
 * Os relatórios de controle de qualidade são capturados para que os profissionais de marketing possam confirmar que as métricas estão sendo incrementadas conforme esperado e os dados do relatório de controle de qualidade são mantidos separados dos relatórios de produção (para relatórios não-A4T).
-* A capacidade de visualizar uma experiência de forma isolada ou em conjunto com outras atividades ativas que satisfaçam os critérios de entrega (página/mbox/público-alvo).
+* A capacidade de pré-visualização de uma experiência isoladamente ou em conjunto com outras atividades ativas que satisfazem os critérios do delivery (solicitação de página/Público alvo/audiência).
 * A habilidade de garantir a qualidade de toda a jornada do usuário. Você pode acessar seu site uma vez com o link de controle de qualidade e, em seguida, navegar pelo site inteiro enquanto estiver no Controle de qualidade da atividade. Você permanece no Controle de qualidade da atividade até terminar a sessão ou até usar o  [Bookmarklet de controle de qualidade do Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do controle de qualidade da atividade. Esse recurso é particularmente útil se você tiver uma atividade abrangendo várias páginas da Web.
 
    >[!NOTE]
@@ -45,7 +45,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
       Se essa configuração for colocada na posição &quot;off&quot;, você verá as experiências ao clicar nos links, independente do fato de você se qualificar ou não. Ao executar o controle de qualidade, você pode alternar entre exigir ou não exigir que o direcionamento do público-alvo seja respeitado.
 
-   * **Mostrar conteúdo padrão para todas as outras atividades:** se essa opção for alternada para a posição &quot;ativada&quot;, o conteúdo padrão será exibido para todas as outras atividades (por exemplo, a visualização será exibida sem considerar todas as outras atividades ativas na mesma página/mbox.
+   * **Mostrar conteúdo padrão para todas as outras Atividades:** Se essa opção for alternada para a posição &quot;ligado&quot;, o conteúdo padrão será exibido para todas as outras atividades (por exemplo, a pré-visualização será exibida isoladamente sem considerar todas as outras atividades ativas na mesma página/[!DNL Target] solicitação.
 
       Se essa configuração for configurada como &quot;desativada&quot;, considere o seguinte:
 
@@ -81,16 +81,16 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
    Devido a essa codificação dupla, quando tentamos decodificar o `at_preview_token`, o Target não pode extrair o valor do token correto, resultando em uma visualização que não funciona.
 
-   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de pré-visualização sejam permitidos para que esses valores não sejam transformados de nenhuma forma.
+   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de pré-visualização sejam incluído na lista de permissões para que esses valores não sejam transformados de nenhuma forma.
 
-   A tabela a seguir lista os parâmetros que podem ser permitidos listados em seu domínio:
+   A tabela a seguir lista os parâmetros que podem ser incluído na lista de permissões em seu domínio:
 
    | Parâmetro | Tipo | Valor | Descrição |
    |--- |--- |--- |--- |
    | `at_preview_token` | Sequência de caracteres criptografada | Obrigatório; sem valor padrão | Uma entidade criptografada que contém a lista de IDs de campanha que podem ser executadas no modo QA. |
    | `at_preview_index` | String | Empty | O formato do parâmetro é `<campaignIndex>` ou `<campaignIndex>_< experienceIndex>`<br>Ambos os índices começam com 1. |
    | `at_preview_listed_activities_only` | Booleano (true/false) | Valor padrão: false | Se &quot;true&quot;, todas as campanhas especificadas nos parâmetros `at_preview_index` serão processadas.<br>Se &quot;false&quot;, todas as campanhas da página serão processadas, mesmo que não tenham sido especificadas no token de visualização. |
-   | `at_preview_evaluate_as_true_audience_ids` | String | Empty | Lista de segmentId-s separada por sublinhado (&quot;_&quot;) que deve sempre (a nível de direcionamento e relatórios) ser avaliada como &quot;true&quot; no escopo da solicitação da mbox. |
+   | `at_preview_evaluate_as_true_audience_ids` | String | Empty | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
    | `_AT_Debug` | String | Janela ou console | Logon no console ou nova janela. |
    | `adobe_mc_ref` |  |  | Passa o URL de referência da página padrão para a nova página. Quando usado com a versão 2.1 (ou posterior) do `AppMeasurement.js`, o [!DNL Adobe Analytics] usa esse valor de parâmetro como o URL de referência na nova página. |
    | `adobe_mc_sdid` |  |  | Passa a [!DNL Supplemental Data Id] (SDID) e a [!DNL Experience Cloud Org Id] da página padrão para a nova página, para que o Analytics para Target (A4T) &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página. |
