@@ -1,12 +1,15 @@
 ---
-keywords: Rastreamento de cliques; rastrear cliques; cliques; AppMeasurement
+keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: O Target permite monitorar os cliques em um elemento como uma métrica de sucesso.
 title: Rastreamento de cliques
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +20,11 @@ O Target permite monitorar os cliques em um elemento como uma métrica de sucess
 
 >[!NOTE]
 >
->O rastreamento de cliques não é suportado na mbox global de destino quando é usada como um local em uma atividade baseada em forma.
+>O rastreamento de cliques não é suportado na solicitação de Público alvo global quando é usado como um local em uma atividade baseada em formulário.
 
 ## Configuração do rastreamento de cliques {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Ao definir suas metas na página [!UICONTROL Metas e configurações] para a atividade, selecione a métrica de sucesso de **[!UICONTROL Conversão].**
+1. Ao definir suas metas na página [!UICONTROL Metas e configurações] para a atividade, selecione a métrica de sucesso de **[!UICONTROL Conversão]**.
 1. Para ação, selecione **[!UICONTROL Clicou em um elemento]** e clique em **[!UICONTROL Selecionar elementos]**.
 
    A página é aberta no [!UICONTROL Visual Experience Composer] (VEC).
@@ -68,7 +71,7 @@ Há várias coisas a considerar ao selecionar elementos:
 
    ![Ilustração do caminho DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Assim como na Etapa 1, ao criar experiências no fluxo de trabalho de criação da atividade, o seletor de caminho DOM, na parte inferior da página, permite escolher um elemento. Ao selecionar um elemento do caminho DOM, o elemento correspondente no VEC será exibido como "Selecionado". Para desmarcar um elemento selecionado, clique novamente no elemento do seletor de caminho DOM ou na caixa "Selecionado" do VEC.
+   Assim como na Etapa 1, ao criar experiências no fluxo de trabalho de criação da atividade, o seletor de caminho DOM, na parte inferior da página, permite escolher um elemento. Ao selecionar um elemento do caminho DOM, o elemento correspondente no VEC será exibido como &quot;Selecionado&quot;. Para desmarcar um elemento selecionado, clique novamente no elemento do seletor de caminho DOM ou na caixa &quot;Selecionado&quot; do VEC.
 
    Para obter mais informações, consulte [Navegar pelos elementos usando o caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nas *Opções do Visual Experience Composer*.
 
@@ -101,6 +104,7 @@ Há várias coisas a considerar ao selecionar elementos:
 
       * Tag `A` (link): o comportamento padrão é navegar até o URL definido pela atributo HREF.
       * Tag `FORM`: o comportamento padrão é enviar o formulário.
+
    Este comportamento padrão pode interferir no rastreamento de cliques do Analytics. Se estiver usando o Analytics, deverá confiar nele para o rastreamento de cliques em vez do Target.
 
 * O rastreamento de cliques não é registrado quando a página e o URL da atividade pertencerem a propriedades diferentes. As permissões de usuário do Enterprise são um recurso do Target Premium. Para obter mais informações, consulte [Permissões de usuário do Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
@@ -109,8 +113,8 @@ Há várias coisas a considerar ao selecionar elementos:
 
 Este vídeo inclui informações sobre a criação de métricas de sucesso de rastreamento de cliques.
 
-* Compreender métricas de "meta"
+* Compreender métricas de &quot;meta&quot;
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
