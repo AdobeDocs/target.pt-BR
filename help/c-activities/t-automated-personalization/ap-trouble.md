@@ -3,7 +3,10 @@ description: Às vezes, as atividades não acontecem como o esperado. Aqui estã
 title: Solução de problemas de Personalização automatizada
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 94%
 
 ---
 
@@ -29,14 +32,14 @@ Vários fatores são necessários para uma atividade de AP gerar aumento:
 
 * As ofertas precisam ser diferentes o suficiente para influenciar os visitantes.
 * As ofertas precisam estar localizadas em um lugar que faça diferença na meta de otimização.
-* Deve haver tráfego e "potência" estatística suficiente no teste para detectar o aumento.
+* Deve haver tráfego e &quot;potência&quot; estatística suficiente no teste para detectar o aumento.
 * O algoritmo de personalização deve funcionar corretamente.
 
 **Solução:** o melhor curso de ação é garantir que o conteúdo e os locais que compõem as experiências da atividade realmente façam diferença nas taxas de resposta geral usando um teste A/B simples e não personalizado. Certifique-se de calcular os tamanhos das amostras antecipadamente para garantir que haja energia suficiente para ver um aumento razoável e executar o teste A/B por um período fixo sem interrompê-lo ou fazer quaisquer alterações. Se um resultado do teste A/B mostrar um aumento estatisticamente significativo em uma ou mais das experiências, é provável que uma atividade personalizada funcione. Claro, a personalização pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre de ofertas/locais que não têm um impacto suficientemente grande na meta da otimização para serem detectados com significância estatística.
 
 ## O URL da minha atividade de AP está mostrando o conteúdo da oferta nas páginas incorretas.  {#section_82A224406DBF4107B05204BEFBBE458C}
 
-No AP, as regras de teste de URLs e modelos são adicionadas à restrição de entrada da mbox (por exemplo, target-global-mbox), na qual são avaliadas apenas uma vez. Quando um usuário se qualifica para uma campanha, as regras de direcionamento no nível da mbox não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Quando um usuário se qualifica para uma atividade, as regras de definição de metas no nível da solicitação do Público alvo não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
 
 **Solução:** adicione as regras de modelo necessárias como o público-alvo de entrada da campanha. A avaliação do público-alvo ocorre a cada solicitação/chamada.
 
