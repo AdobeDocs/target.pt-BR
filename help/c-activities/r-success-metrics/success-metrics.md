@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: No Público alvo da Adobe, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
-title: Métricas de sucesso no Público alvo da Adobe
+description: No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
+title: Métricas de sucesso no Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
 
 # Métricas de sucesso{#success-metrics}
 
-No Público alvo da Adobe, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
+No Adobe Target, as métricas de sucesso são pré-configuradas para fins de relatórios e rastreamento.
 
 As métricas de sucesso são parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta aumenta sua receita por visitante ou adicionar um item ao carrinho de compras. As métricas de sucesso podem ser úteis para descobrir problemas nos funis de registro, pedido ou compra, além de facilitar a descoberta de problemas no envolvimento de visitantes ou clientes.
 
@@ -26,7 +26,7 @@ As métricas de receita definidas para &quot;Incrementar a contagem e manter o u
 
 >[!NOTE]
 >
->O comportamento padrão do atividade que usa o [Analytics como fonte](/help/c-integrating-target-with-mac/a4t/a4t.md) de relatórios (A4T) é &quot;Aumentar a contagem e manter o usuário na atividade&quot; com &quot;Uma vez por participante&quot;.
+>O comportamento padrão do atividade que usa o [Analytics como fonte](/help/c-integrating-target-with-mac/a4t/a4t.md) do relatórios (A4T) é &quot;Aumentar a contagem e manter o usuário na atividade&quot; com &quot;Uma vez por participante&quot;.
 
 As seguintes métricas estão disponíveis:
 
@@ -35,14 +35,14 @@ As seguintes métricas estão disponíveis:
 | Conversão | Com base em conversão | A conversão ocorre quando um visitante realiza uma ação definida no site (clica em um botão, visualiza uma página, conclui uma pesquisa ou faz uma compra). Uma conversão pode ser contada uma vez por visitante ou cada vez que um visitante conclui uma conversão. |
 | Receita | Com base em conversão | A receita gerada pela visita. Você pode escolher entre as seguintes métricas de campanha:<ul><li>Receita por Visitante (RPV)</li><li>Valor Médio de Pedido (AOV)</li><li>Vendas Totais</li></ul> |
 | Exibições de página | Com base em participação | Cada visitante único é contado como uma conversão. |
-| Tempo no Site | Com base em participação | O tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira mbox de exibição da atividade até o carregamento da página final com uma mbox na sessão. |
-| Pontuação personalizada | Com base em participação | Uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira mbox da atividade. |
+| Tempo no Site | Com base em participação | O tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira solicitação de Público alvo de exibição do atividade até o carregamento da página final com uma solicitação na sessão. |
+| Pontuação personalizada | Com base em participação | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 Para métricas com base em participação (diferente de métricas com base em conversão e com base na receita), os visitantes devem se requalificar para a atividade em cada visita para incrementar a contagem dessa sessão. A métrica associada começa a incrementar após a requalificação e interrompe no final de cada sessão do visitante. Uma sessão é finalizada depois de 30 minutos de inatividade. Dessa forma, você não verá os resultados imediatamente durante os testes. Contudo, todos os resultados dessa sessão estarão disponíveis dentro de alguns minutos no final da sessão.
 
 Também é possível criar métricas de sucesso personalizadas.
 
-Depois de selecionar a métrica de sucesso, selecione a ação executada por um visitante para atingir essa meta. Por exemplo, escolha uma métrica de conversão, defina-a para ser contada uma vez por visitante e defina se o sucesso será atingido quando um visitante visualizar uma certa página (ou conjunto de páginas), visualizar uma determinada mbox ou clicar em um link específico.
+Depois de selecionar a métrica de sucesso, selecione a ação executada por um visitante para atingir essa meta. For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 Se estiver habilitado, o campo Valor estimado de um campo de conversão (não disponível para as métricas de Pontuação da página) fornece um valor para a meta, mas não para outras métricas. Este valor permite que o [!DNL Target] calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. Para todas as métricas de receita (Receita por visitante, Valor médio de pedido, Total de vendas e Pedidos), a estimativa usa a Receita por visitante. O tipo de dados é a moeda. Consulte [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações.
 
