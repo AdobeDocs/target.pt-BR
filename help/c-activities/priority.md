@@ -1,11 +1,14 @@
 ---
-keywords: configurações;priority
-description: O Adobe Target determina qual atividade (ou atividades) deve ser entregue para uma página de forma diferente, dependendo da interface do Target e da função de criação da atividade (Visual Experience Composer ou Criador baseado em forma) que você está usando.
+keywords: settings;priority
+description: O Adobe Target determina qual atividade (ou atividade) deve ser entregue para uma página de forma diferente, dependendo da interface do Público alvo e da função de criação da atividade (Visual Experience Composer ou Criador baseado em forma) que você está usando.
 title: Prioridade no Adobe Target
-topic: Padrão
+topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1167'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 O Target determina qual atividade (ou quais atividades) mostrar em uma página de maneira diferente, dependendo da interface do Target e da função de criação de atividade (Visual Experience Composer ou Compositor baseado em formulário) que você está usando.
 
-## Visual Experience Composer do Target Standard/Premium somente ou Composer baseado em formulário usando mbox global somente {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experience Composer, então o conteúdo de várias atividades pode ser retornado para a mesma chamada. As atividades são entregues por meio do seguinte fluxo de decisão:
 
@@ -46,8 +49,8 @@ Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experie
 
 Se a sua empresa usa um Composer baseado em formulário no Target Standard/Premium e o Visual Experience Composer do Target Standard/Premium, então o conteúdo de várias atividades do Visual Experience Composer podem ser entregues, mas somente uma atividade do fluxo de trabalho baseado em formulário. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
 
-1. A chamada do servidor do Target chega ao Target com informações sobre o mbox e o URL.
-1. O Target Classic e o Standard extraem todas as atividades em execução nesse mbox.
+1. Target server call comes to Target with information about the [!DNL Target] request and URL.
+1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
 1. O Target tenta corresponder o visitante às atividades.
 
    Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
@@ -63,17 +66,17 @@ Por exemplo, se você tiver duas atividades, uma definindo as metas da palavra-c
 
 Se ambas as atividades direcionadas tiverem a mesma prioridade, a atividade que foi mais recentemente visualizada é exibida. Se o visitante for novo na página, a atividade ativada por último será exibida.
 
-## Composer baseado em formulário do Target Standard/Premium com mboxes não globais  {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Essas informações também se aplicam a todas as campanhas que foram criadas no Target Classic.
 
-Se a sua empresa usa as mboxes que não são globais no Composer baseado em formulário, o conteúdo de somente uma atividade pode ser retornada por chamada. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
+If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
 
-1. A chamada do servidor do Target chega ao Target com informações sobre o mbox e o URL.
-1. O Target extrai todas as atividades em execução nesse mbox.
-1. O Target tenta corresponder o visitante à atividades com prioridade mais alta.
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target] puxa cada atividade em execução nessa [!DNL Target] solicitação.
+1. [!DNL Target]O tenta corresponder o visitante à atividades com prioridade mais alta.
 
    Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
 
@@ -88,7 +91,7 @@ Se a sua empresa usa as mboxes que não são globais no Composer baseado em form
 >
 >Dependendo das configurações, os valores de prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999. Para obter mais informações, consulte [Configurações da atividade](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Duas campanhas do Target Classic usam mboxes não globais**
+**Duas campanhas Públicos alvos clássicas usam solicitações de Público alvo não globais**
 
 * Campanha 1: homePageHero, offer1, prioridade alta
 * Campanha 2: homePageHero, offer2, prioridade baixa
@@ -136,4 +139,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
