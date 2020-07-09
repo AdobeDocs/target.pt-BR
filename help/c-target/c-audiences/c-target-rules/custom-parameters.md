@@ -5,7 +5,10 @@ title: Parâmetros personalizados no Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +29,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
 
    * Ao criar um novo público-alvo, selecione um nome de parâmetro na lista, comece a digitar os primeiros caracteres do nome ou o nome completo do parâmetro desejado.
    * Caso lembre do nome da mbox, mas não do parâmetro, use a caixa de seleção para filtrar uma mbox conhecida que passe o parâmetro desejado.
+
    Com ambos os métodos, não há link entre a mbox e o parâmetro. O público-alvo funcionará de acordo com o parâmetro em todas as mboxes que passam esse parâmetro.
 
    Se você editar um público-alvo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
@@ -35,6 +39,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
    * Contém (não diferencia maiúsculas de minúsculas)
    * Não contém (não diferencia maiúsculas de minúsculas)
    * Igual
+
    ![Público-alvo personalizado do parâmetro](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. Inserir cada valor em uma nova linha.
@@ -50,9 +55,9 @@ O [cartão pop-up dos detalhes de definição](../../../c-target/c-audiences/aud
 ## Considerações {#considerations}
 
 * Os públicos-alvo e as atividades são avaliados para uma mbox específica. Por exemplo, se a mbox global transmitir determinado parâmetro, mas a mbox regional não, o direcionamento de atividades/públicos-alvo não será qualificado para a mbox regional.
-* A definição de metas não é avaliada em parâmetros internos da mbox, como mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId e mboxVersion.
+* A definição de metas não é avaliada em parâmetros internos da mbox, como mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId e mboxVersion.
 
-## Vídeo de treinamento: Criar o selo do ![tutorial de públicos-alvo](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando o emblema ![do tutorial do Audiência](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
