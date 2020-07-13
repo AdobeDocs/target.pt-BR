@@ -5,7 +5,10 @@ title: Criar Ofertas de redirecionamento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ A Oferta de redirecionamento faz com que o navegador seja redirecionado para uma
 
 Você pode ter duas páginas completamente diferentes para testar, em vez de mudar apenas partes do conteúdo dentro de uma página. Neste caso, o teste A/B compara a página A com a página B. Configure uma campanha de testes A/B, com duas experiências: uma apontando para a página A padrão e a outra redirecionando para a página B. A oferta é configurada para redirecionar o visitante para uma página diferente.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Não é possível usar ofertas de redirecionamento em mboxes ajax (`mboxUpdate`).
 >
@@ -26,7 +29,7 @@ Para obter informações sobre como configurar uma experiência com redirecionam
 
 A oferta de redirecionamento executa um código JavaScript para redirecionar o navegador. Ela usa o método `window.location.replace();`, para que a página que o visitante é redirecionado não fique armazenada no histórico do navegador. Isso permite que o visitante consiga utilizar o botão Voltar de seu navegador.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Se desejar passar o valor referenciador da página de aterrissagem, é recomendado usar uma oferta HTML em vez de uma oferta de redirecionamento.
 
@@ -51,11 +54,11 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
    Se você usar a configuração de cookies próprios e de terceiros, você não precisa enviar a ID de sessão da mbox ao mudar de domínios. Isso é persistente no cookie de terceiros, por isso não é necessário no URL.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Entre em contato com seu Consultor de implementações antes de iniciar esses testes.
 
-## Vídeo de treinamento: o repositório de conteúdo (4:56) Etiqueta ![Visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: o repositório de conteúdo (4:56) ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 
