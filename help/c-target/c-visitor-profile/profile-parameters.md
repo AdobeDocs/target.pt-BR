@@ -5,9 +5,9 @@ title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2441'
 ht-degree: 79%
 
 ---
@@ -96,9 +96,10 @@ A guia [!UICONTROL Uso do script] lista as atividades (e seus espaços de trabal
 
 ![Cartão de informações do script de perfil > guia Uso do script](assets/profile_script_info_card_usage_tab.png)
 
->[!Note]
+>[!NOTE]
 >
 >A guia Uso do script não exibe atividades que referenciam o script de perfil selecionado nas seguintes situações:
+>
 > * A atividade está no estado Rascunho.
 > * O conteúdo ou a oferta usada na atividade utiliza variáveis de script (seja uma oferta na linha dentro da atividade ou dentro da biblioteca Oferta).
 
