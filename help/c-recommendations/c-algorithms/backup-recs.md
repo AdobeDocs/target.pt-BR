@@ -1,10 +1,13 @@
 ---
-keywords: recomendação, backup, fazer o back up
+keywords: recommendation;backup;back up
 description: Se for usado o recurso de recomendação de backup, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
 title: Usar uma recomendação de backup
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Esse processo de divisão de compartimentos significa que as recomendações de 
 
 Sem o intervalo de recomendações de backup, seria possível mostrar o 499º item mais visualizado, seguido pelo 200º item mais visualizado, seguido pelo 380º item mais visualizado, e assim por diante. O processo de divisão garante que os itens mais visualizados sejam recomendados primeiro.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Se você agrupar seus itens em catálogos, as recomendações de backup geradas para cada algoritmo em cada recomendação também usarão o catálogo, portanto, somente os itens no catálogo serão incluídos na recomendação de backup.
 
