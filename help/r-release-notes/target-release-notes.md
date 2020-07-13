@@ -5,10 +5,10 @@ title: Notas de pré-lançamento de Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 17%
+source-wordcount: '572'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 24 de junho de 2020**
+**Última atualização: 13 de julho de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -51,6 +51,16 @@ Como parte dessa atualização, você poderá executar facilmente muitas ações
 * Ofuscar endereços IP de visitante por motivos de privacidade (**[!UICONTROL Administração]** > **[!UICONTROL Implementação]**)
 * Visualização a lista existente de usuários por espaço de trabalho e suas funções, antes de gerenciá-los no Adobe Admin Console (**[!UICONTROL Administração]** > **[!UICONTROL Usuários]**).
 * Pesquise e filtre todas as tabelas na seção [!UICONTROL Administração] .
+
+### Melhorias, correções e alterações
+
+Esta versão contém os seguintes aprimoramentos, correções e alterações:
+
+* Correção de um problema que impedia a retenção das preferências do site após a atualização. (TGT-37239)
+* Correção de um problema que impedia o funcionamento correto de [!UICONTROL Inserir após] > [!UICONTROL Imagem] com imagens SVG (Scalable Vetor Graphics). (TGT-37242)
+* Correção de um problema para usuários com a função [!UICONTROL Publisher] que impedia a exclusão de atividades de rascunho. (TGT-37358)
+* Correção de um problema que impedia os usuários de editar uma atividade quando [!UICONTROL Todos os Meus Espaços de Trabalho] estava selecionado. (TGT-37276)
+* Placas de informações de script de perfil existentes aprimoradas com informações de uso de audiência. (TGT-37302)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
