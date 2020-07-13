@@ -1,12 +1,15 @@
 ---
-keywords: implementação; mbox.js não javascript; mbox; adbox
+keywords: Implementation;mbox.js non javascript;mbox;adbox
 description: Use uma AdBox para fornecer imagens em uma implementação fora do site, usando o Adobe Target.
-title: Criar uma Adbox para uma imagem usando o Adobe Target
-subtopic: Introdução
-topic: Padrão
+title: Criar uma Adbox para uma imagem usando Adobe Target
+subtopic: Getting Started
+topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Use uma AdBox para fornecer imagens em uma implementação fora do site usando o Adobe Target.
 
-Uma AdBox é como uma mbox, mas é controlada por um URL, em vez de um JavaScript. AdBoxes são criadas com um URL AdBox especial que carrega uma mbox de "anúncio" (ou AdBox) na conta da Adobe. Use a AdBox no lugar de uma mbox em suas atividades. Use o URL da AdBox em vez de uma referência direta da imagem em um email ou outras implementações não-JavaScript.
+Uma AdBox é como uma mbox, mas é controlada por um URL, em vez de um JavaScript. AdBoxes são criadas com um URL AdBox especial que carrega uma mbox de &quot;anúncio&quot; (ou AdBox) na conta da Adobe. Use a AdBox no lugar de uma mbox em suas atividades. Use o URL da AdBox em vez de uma referência direta da imagem em um email ou outras implementações não-JavaScript.
 
 Para obter ajuda para selecionar a configuração correta, consulte  [Implementações não baseadas em JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
@@ -29,9 +32,9 @@ Para obter ajuda para selecionar a configuração correta, consulte  [Implementa
 
    * Onde `myClientCode` é o código de cliente da sua empresa. O código de cliente de sua empresa tem todos os caracteres em minúsculas e sem caracteres especiais.
 
-      * **at.js**: Seu código de cliente está disponível no topo da página [!UICONTROL Configuração &gt; Implementação &gt; Editar configurações] da at.js da [!DNL Target] interface.
+      * **at.js**: Seu código de cliente está disponível no topo da página [!UICONTROL Configuração > Implementação > Editar configurações] da at.js da [!DNL Target] interface.
 
-      * **mbox.js**: Seu código de cliente está disponível no topo da [!UICONTROL página Configurar &gt; Implementação &gt; Editar configurações mbox.js.]
+      * **mbox.js**: Seu código de cliente está disponível no topo da [!UICONTROL página Configurar > Implementação > Editar configurações mbox.js.]
    * Onde `image` é o tipo de chamada. Nesse caso, uma imagem.
 
    * Onde `emailHeroImage123_320x200` é o nome da AdBox.
@@ -43,7 +46,7 @@ Para obter ajuda para selecionar a configuração correta, consulte  [Implementa
 
 1. Crie [Ofertas de redirecionamento](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) para cada imagem alternativa.
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE]
    >
    >As AdBoxes devem ser carregadas com uma Oferta de redirecionamento ou com a oferta de conteúdo padrão. Outros tipos de ofertas não funcionarão. Como a AdBox é um URL, ela só pode exibir os URLs que recebe, portanto, apenas a Oferta de redirecionamento funciona.
 
