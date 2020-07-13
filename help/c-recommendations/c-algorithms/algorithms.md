@@ -1,10 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Critérios no Adobe Target Recommendations são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
-title: Critérios no Adobe Target Recommendations
+description: Critérios nas Recomendações de Adobe Target são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos de visitante.
+title: Critérios nas Recomendações de Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1631'
+ht-degree: 74%
 
 ---
 
@@ -43,7 +46,7 @@ Também é possível basear as recomendações no valor de um atributo de perfil
 
 >[!NOTE]
 >
->Parâmetros de perfil personalizados podem ser passados para o Target por JavaScript, API ou integrações. Para obter mais informações sobre atributos de perfil personalizados, consulte Perfis [de](/help/c-target/c-visitor-profile/visitor-profile.md)visitante.
+>Parâmetros de perfil personalizados podem ser passados para o Público alvo por meio de JavaScript, API ou integrações. Para obter mais informações sobre atributos de perfil personalizados, consulte perfis [de](/help/c-target/c-visitor-profile/visitor-profile.md)Visitante.
 
 Por exemplo, suponha que você deseja exibir filmes recomendados com base no filme que um usuário adicionou mais recentemente à fila.
 
@@ -65,7 +68,7 @@ Por exemplo, suponha que você deseja exibir os itens mais vendidos de uma marca
 
 1. Selecione o atributo de entidade que corresponde à chave escolhida. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   [!DNL Recommendations] agora produz uma lista de "Mais Vendidos" para cada marca e mostra ao usuário a lista apropriada de "Mais Vendidos" com base no valor armazenado no atributo de perfil de Marca  Favorita.
+   [!DNL Recommendations] agora produz uma lista &quot;Mais vendidos&quot; para cada marca e mostra ao usuário a lista &quot;Mais vendidos&quot; apropriada, com base no valor armazenado no atributo de perfil da Marca  Favorita.
 
    ![Atributo de mais vendidos](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
@@ -75,7 +78,7 @@ O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quan
 
 | Critérios | Descrição |
 |--- |--- |
-| Itens/Mídia com atributos semelhantes | Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante.<br>**Observação:** Se você selecionar Itens/mídia com Atributos similares, você terá a opção de definir regras de similaridade de conteúdo. |
+| Itens/Mídia com atributos semelhantes | Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante.<br>**Observação:**Se você selecionar Itens/mídia com Atributos similares, você terá a opção de definir regras de similaridade de conteúdo. |
 | Pessoas que visualizaram isto, visualizaram aquilo | Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado. |
 | Pessoas que visualizaram isto, compraram aquilo | Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Este critério retorna outros produtos que pessoas compraram depois de ver este, o produto especificado não é incluído nos resultados. |
 | Pessoas que compraram isto, compraram aquilo | Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado. |
@@ -83,9 +86,9 @@ O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quan
 | Mais vendidos | Os itens incluídos nos pedidos mais concluídos. Várias unidades do mesmo item em um único pedido são contadas como um pedido. |
 | Mais visualizados | Os itens ou mídias visualizados com mais frequência. |
 | Itens/Mídia visualizados recentemente | Itens que foram visualizados recentemente pelo visitante. Ao utilizar um critério, atualize o design do Target para lidar com casos em que as recomendações em branco serão exibidas enquanto não houver um número suficiente de itens visualizados para exibição. |
-| Recomendações baseadas no usuário | Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante. Esses itens são geralmente chamados de "Recomendado para você".<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada em sessão e se torna mais personalizada à medida que o usuário navega em seu site.<br>As exibições e compras são usadas para determinar os itens recomendados. A Chave de recomendação especificada (por exemplo, Item atual) é usada para aplicar qualquer filtro de regra de inclusão selecionado. Por exemplo, você pode:<ul><li>Excluir itens que não atendem a determinados critérios (produtos esgotados, artigos publicados há mais de 30 dias, filmes com classificação R etc.)</li><li>Limitar itens incluídos a uma única categoria ou à categoria atual</li></ul> |
+| Recomendações baseadas no usuário | Recomenda itens com base em cada histórico de navegação, exibição e compra de visitantes. Esses itens são geralmente chamados de &quot;Recomendado para você&quot;.<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada em sessão e se torna mais personalizada à medida que o usuário navega em seu site.<br>As visualizações e compras são usadas para determinar os itens recomendados. A Chave de recomendação especificada (por exemplo, Item atual) é usada para aplicar qualquer filtros de regra de inclusão selecionado. Por exemplo, você pode:<ul><li>Excluir itens que não atendem a determinados critérios (produtos esgotados, artigos publicados há mais de 30 dias, filmes com classificação R etc.)</li><li>Limitar itens incluídos a uma única categoria ou à categoria atual</li></ul> |
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Se estiver executando uma recomendação e alterar seus critérios, seus dados de relatório serão perdidos.
 
@@ -109,4 +112,4 @@ Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de ativid
 
 >[!NOTE]
 >
->O recurso Uso [!UICONTROL de] algoritmo é atualmente compatível apenas com atividades do Recommendations. No momento, esse recurso não é compatível com atividades de teste A/B e direcionamento de experiência (XT) que incluem [recomendações como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+>O recurso Uso [!UICONTROL de] algoritmo é atualmente compatível somente com atividades do Recommendations. No momento, esse recurso não é compatível com atividades de teste A/B e direcionamento de experiência (XT) que incluem [recomendações como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
