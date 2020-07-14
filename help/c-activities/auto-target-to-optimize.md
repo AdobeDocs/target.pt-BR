@@ -4,7 +4,10 @@ title: Direcionamento automático
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '3365'
+ht-degree: 96%
 
 ---
 
@@ -146,7 +149,9 @@ Para obter mais informações, consulte [Relatório de resumo do direcionamento 
 
 ## Perguntas frequentes sobre direcionamento automático {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-**Quais são as práticas recomendadas para configurar uma atividade de[!UICONTROL Direcionamento automático]?**
+Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades de Público alvo [!UICONTROL automático] :
+
+### Quais são as práticas recomendadas para configurar uma atividade de [!UICONTROL Direcionamento automático]?
 
 * Decida se o valor comercial de uma métrica de sucesso de Receita por visita (RPV) vale os requisitos adicionais de tráfego. O RPV normalmente precisa de pelo menos 1.000 conversões por experiência para que uma atividade funcione em comparação com a conversão.
 * Decida sobre a alocação entre controle e experiências personalizadas antes de iniciar a atividade com base em suas metas.
@@ -159,15 +164,15 @@ Para obter mais informações, consulte [Relatório de resumo do direcionamento 
 
 * Tente não fazer mudanças substanciais nas experiências durante o curso da atividade.
 
-**As marcas de verificação que indicam que um modelo foi criado para aquela experiência são atualizadas se o intervalo de datas do relatório for alterado?**
+### As marcas de verificação que indicam que um modelo foi criado para aquela experiência são atualizadas se o intervalo de datas do relatório for alterado?
 
 Não, as marcas de verificação para geração de modelos mostram apenas os modelos construídos até o momento. Não há como voltar e ver quando um modelo foi concluído.
 
-**Se um visitante NÃO vir a atividade de[!UICONTROL Direcionamento automático]e converter, a conversão conta em minha atividade?**
+### Se um visitante NÃO vir a atividade de [!UICONTROL Direcionamento automático] e converter, a conversão conta em minha atividade?
 
 Não, apenas os visitantes qualificados para exibir a atividade de [!UICONTROL Direcionamento automático] são contados nos relatórios.
 
-**Minha atividade de[!UICONTROL Direcionamento automático]parece não estar gerando nenhum aumento. O que está acontecendo?**
+### Minha atividade de [!UICONTROL Direcionamento automático] parece não estar gerando nenhum aumento. O que está acontecendo?
 
 Há quatro fatores necessários para uma atividade de [!UICONTROL Dimensionamento automático] gerar aumento:
 
@@ -180,13 +185,13 @@ O melhor curso de ação é garantir que o conteúdo e os locais que compõem as
 
 Se os resultados de um teste A/B mostram um aumento estatisticamente significativo em uma ou mais das experiências, é provável que uma atividade personalizada funcione. Claro, a personalização pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre de ofertas/locais que não têm um impacto suficientemente grande na meta da otimização para serem detectados com significância estatística.
 
-**Quando devo interromper minha atividade de[!UICONTROL Direcionamento automático]?**
+### Quando devo interromper minha atividade de [!UICONTROL Direcionamento automático]?
 
 O [!UICONTROL Direcionamento automático] pode ser usado como personalização &quot;sempre ativa&quot; que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de [!UICONTROL Direcionamento automático].
 
 Se você quiser fazer alterações substanciais no conteúdo em sua atividade de [!UICONTROL Direcionamento automático], a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
 
-**Por quanto tempo devo esperar que os modelos sejam construídos?**
+### Por quanto tempo devo esperar que os modelos sejam construídos?
 
 O tempo que leva para os modelos serem construídos em sua atividade de [!UICONTROL Direcionamento automático] normalmente depende do tráfego para a(s) localização(ões) de atividades selecionada(s) e a métrica de sucesso da atividade.
 
@@ -195,21 +200,27 @@ Para o [!UICONTROL Direcionamento automático], as regras básicas podem ser usa
 * **Quando a conversão é a sua métrica de sucesso:** 1.000 visitas e pelo menos 50 conversões por dia e por experiência, além disso, a atividade deve ter pelo menos 7.000 visitas e 350 conversões.
 * **Quando a Receita por visita é sua métrica de sucesso:** 1.000 visitas e pelo menos 50 conversões por dia e por experiência, além disso, a atividade deve ter pelo menos 1.000 conversões por experiência. O RPV geralmente requer mais dados para criar modelos devido à maior variação de dados que normalmente existe na receita de visitas em comparação com a taxa de conversão.
 
-**Um modelo é construído na minha atividade. As visitas a essa experiência são personalizadas?**
+### Um modelo é construído na minha atividade. As visitas a essa experiência são personalizadas?
 
 Não, deve haver pelo menos dois modelos construídos em sua atividade para que a personalização comece.
 
-**Quando posso ver os resultados da minha atividade de[!UICONTROL Direcionamento automático]?**
+### Quando posso ver os resultados da minha atividade de [!UICONTROL Direcionamento automático]?
 
 Você pode começar a ver os resultados da sua atividade de [!UICONTROL Direcionamento automático] depois de ter pelo menos duas experiências com modelos construídos (marca de seleção verde) para a experiência que os modelos construíram.
 
-**Posso definir uma experiência específica para ser usada como controle?**
+### Posso definir uma experiência específica para ser usada como controle?
 
-É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de[ Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) (AT).
+É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) (AT).
 
 Esse recurso permite rotear todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado com relação ao tráfego de controle para essa experiência única.
 
 Para obter mais informações, consulte [Usar uma experiência específica como controle](/help/c-activities/t-automated-personalization/experience-as-control.md).
+
+### É possível alterar a métrica de objetivo no meio de uma atividade de Público alvo automático? {#change-metric}
+
+Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
+
+Esta recomendação se aplica às atividades de [!UICONTROL Autoalocação], Público alvo Automático e Personalização  Automatizada que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
 
 ## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -247,7 +258,7 @@ Em uma atividade de [!UICONTROL Direcionamento automático], depois que uma mét
 
 Por exemplo, há uma atividade com uma métrica de conversão (C1) e uma métrica adicional (A1). A1 depende de C1. Quando um visitante entra na atividade pela primeira vez, e os critérios de conversão de A1 e C1 não são convertidos, a métrica A1 não é convertida por depender da métrica de sucesso. Se o visitante converte C1 e depois converte A1, A1 ainda não é convertida porque, assim que C1 é convertida, o visitante é liberado.
 
-## Vídeo de treinamento: Entendendo as atividades de direcionamento automático Etiqueta ![Visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Entendendo as atividades de direcionamento automático ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como configurar uma atividade A/B de [!UICONTROL Direcionamento automático].
 
