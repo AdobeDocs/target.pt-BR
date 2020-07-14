@@ -1,10 +1,13 @@
 ---
-keywords: solução de problemas; perguntas frequentes; Perguntas frequentes; Perguntas mais frequentes; personalização automatizada
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: Lista de perguntas frequentes sobre a Personalização automatizada (AP).
 title: Perguntas frequentes sobre a personalização automatizada
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +26,7 @@ Para obter mais informações, consulte [Usar uma experiência específica como 
 
 ## Como posso comparar personalização automatizada a uma experiência padrão? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se existir uma oferta ou experiência padrão como parte da atividade geral, para entender seu desempenho de linha de base, clique no segmento "Controle" nos relatórios e localize essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversação de todo o segmento "Random Forest". Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
+Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se existir uma oferta ou experiência padrão como parte da atividade geral, para entender seu desempenho de linha de base, clique no segmento &quot;Controle&quot; nos relatórios e localize essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversação de todo o segmento &quot;Random Forest&quot;. Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
 
 ## Quais são as práticas recomendadas para configurar uma atividade de Personalização automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -38,7 +41,7 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
    Há três cenários a serem considerados com base na meta da atividade e no tipo de controle selecionado:
 
    * **Experiências aleatórias como controle e o objetivo da atividade é testar a eficácia do algoritmo de personalização**: se o objetivo é avaliar o algoritmo de personalização, você desejará ter uma imagem mais precisa do seu aumento. Você também pode querer fazer a comparação de como seria a taxa de conversão de suas experiências/ofertas se simplesmente fizesse um Teste A/B (um controle disponibilizado aleatoriamente). Nessa situação, recomenda-se utilizar uma alocação de 50% para um controle de experiências disponibilizadas aleatoriamente.
-   * **"Experiências aleatórias" como controle e a meta da atividade é maximizar o tráfego personalizado**: se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30%. A compensação aqui é a precisão que você poderá ver em suas informações de lift (já que os intervalos de confiança do tráfego de controle estarão maiores, pois há menos tráfego fluindo para eles).
+   * **&quot;Experiências aleatórias&quot; como controle e a meta da atividade é maximizar o tráfego personalizado**: se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30%. A compensação aqui é a precisão que você poderá ver em suas informações de lift (já que os intervalos de confiança do tráfego de controle estarão maiores, pois há menos tráfego fluindo para eles).
    * **Experiência específica como controle, com ambos os tipos de metas**: se você quiser comparar uma experiência específica orientada por um profissional de marketing aos modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, o tráfego não é distribuído em cada oferta/experiência da atividade.
 
 * As regras de direcionamento devem ser usadas com toda moderação possível, pois podem interferir na capacidade do modelo de otimizar.
@@ -77,7 +80,7 @@ Por exemplo, suponha que uma atividade de AP tenha dois locais com duas ofertas 
 
 ## Quando devo interromper minha atividade de Personalização automatizada?  {#section_C51F3DAB8887463BB147373F6FE06B93}
 
-A Personalização automatizada pode ser usada como personalização "sempre ativa" que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de Personalização automatizada. Se você quiser fazer alterações substanciais no conteúdo que não são semelhantes às ofertas atualmente em sua atividade de Personalização automatizada, a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
+A Personalização automatizada pode ser usada como personalização &quot;sempre ativa&quot; que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de Personalização automatizada. Se você quiser fazer alterações substanciais no conteúdo que não são semelhantes às ofertas atualmente em sua atividade de Personalização automatizada, a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
 
 ## Por quanto tempo devo esperar que os modelos sejam construídos? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
@@ -103,3 +106,9 @@ Revise a configuração da atividade e veja se deseja fazer alguma alteração p
 ## Por que os visitantes veem experiências para uma atividade de AP que não deveriam ver? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 As atividades de Personalização automatizada são avaliadas uma vez por sessão. Se houver sessões ativas que se qualificaram para uma experiência específica e agora novas ofertas foram adicionadas a elas, os usuários verão o novo conteúdo junto com as ofertas exibidas anteriormente. Como elas se qualificaram previamente para essas experiências, eles ainda as veriam durante a sessão. Se houver um desejo de avaliar isso em todas as visitas a uma página única, você deverá mudar para o tipo de atividade de Direcionamento de experiência (XT).
+
+## É possível alterar a métrica de meta no meio de uma atividade de personalização automatizada? {#change-metric}
+
+Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
+
+Esta recomendação se aplica às atividades de [!UICONTROL Autoalocação], Público alvo Automático e Personalização  Automatizada que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
