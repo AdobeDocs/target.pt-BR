@@ -5,10 +5,10 @@ title: Alocação automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '3014'
-ht-degree: 89%
+source-wordcount: '3112'
+ht-degree: 84%
 
 ---
 
@@ -127,55 +127,63 @@ Esses fatores podem distorcer os resultados em um teste de alocação automátic
 
 ## Perguntas frequentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-** A Analytics for Target (A4T) suporta a Autoalocação de atividades?
+Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades de [!UICONTROL autoalocação] :
+
+### A Analytics for Target (A4T) oferece suporte à Autoalocação de atividades?
 
 Sim. Para obter mais informações, consulte Suporte da [Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) na criação *de* Atividades.
 
-**Os visitantes recorrentes são realocados automaticamente a experiências de alto desempenho?**
+### Os visitantes recorrentes são realocados automaticamente a experiências de alto desempenho?
 
 Não. Somente novos visitantes são alocados automaticamente. Os visitantes recorrentes continuam vendo sua experiência original. Isso protege a validade do teste A/B.
 
-**Como o algoritmo lida com falsos positivos?**
+### Como o algoritmo lida com falsos positivos?
 
 O algoritmo garante uma confiança de 95% ou taxa de 5% de falso-positivo, se você esperar até que o emblema vencedor apareça.
 
-**Quando a alocação automática começa a alocar o tráfego?**
+### Quando a alocação automática começa a alocar o tráfego?
 
 O algoritmo começa a funcionar depois que todas as experiências na atividade têm um mínimo de 1.000 visitantes e 50 conversões.
 
-**Qual é o nível de dinamismo do aproveitamento pelo algoritmo?**
+### Qual é o nível de dinamismo do aproveitamento pelo algoritmo?
 
 80% do tráfego é veiculado usando alocação automática e 20% do tráfego é veiculado aleatoriamente. Quando um vencedor é identificado, todos os 80% do tráfego vão para ele, enquanto todas as experiências continuam recebendo tráfego como parte dos 20%, incluindo a experiência vencedora.
 
-**As experiências perdedoras são exibidas?**
+### As experiências perdedoras são exibidas?
 
 Sim. A abordagem multi-armed bandit garante que pelo menos 20% do tráfego seja reservado para explorar a mudança nos padrões ou nas taxas de conversão em todas as experiências.
 
-**O que acontece com atividades com longos atrasos de conversão?**
+### O que acontece com atividades com longos atrasos de conversão?
 
 Desde que todas as experiências que estão sendo otimizadas enfrentem atrasos semelhantes, o comportamento é o mesmo de uma atividade com um ciclo de conversão mais rápido, embora leve mais tempo para atingir o limite de 50 conversões antes do início do processo de alocação de tráfego.
 
-**Qual é a diferença entre a alocação automática e a personalização automatizada?**
+### Qual é a diferença entre a alocação automática e a personalização automatizada?
 
 A personalização automatizada usa os atributos de perfil de cada visitante para determinar a melhor experiência. Ao fazer isso, ela não apenas otimiza, mas também personaliza a atividade para esse usuário.
 
 A alocação automática, por outro lado, é um teste A/B que produz um vencedor agregado (a experiência mais popular, mas não necessariamente a experiência mais efetiva para cada visitante).
 
-**Os visitantes recorrentes aumentam a taxa de conversão em minha métrica de sucesso?**
+### Os visitantes recorrentes aumentam a taxa de conversão em minha métrica de sucesso?
 
 No momento, a lógica favorece visitantes que convertem rapidamente ou visitam com mais frequência. Isso ocorre porque esses visitantes aumentam temporariamente a taxa de conversão geral da experiência à qual eles pertencem. O algoritmo se ajusta frequentemente, então o aumento na taxa de conversão é amplificado a cada instantâneo. Se o site recebe muitos visitantes recorrentes, suas conversões podem aumentar potencialmente a taxa de conversão geral da experiência à qual eles pertencem. Há uma boa chance de os visitantes recorrentes serem distribuídos aleatoriamente; nesse caso, o efeito agregado (maior incentivo) é uniformizado. Para amenizar esse efeito, considere alterar o método de contagem da métrica de sucesso para contar somente uma vez por participante.
 
-**Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?**
+### Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como ocorre com os testes A/B tradicionais, aplique a correção Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica de conversão/hipótese.) Observe que esta calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
 * Ao testar exatamente duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho da amostra) quando a diferença de desempenho entre experiências é grande, mas pode exigir mais tempo para identificar um vencedor quando a diferença de desempenho entre experiências é pequena. Nestes casos, os testes com horizonte fixo teriam normalmente terminado sem um resultado estatisticamente significativo.
 * Ao testar mais de duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho de amostra) quando uma única experiência executa fortemente todas as outras experiências. Quando duas ou mais experiências estão &quot;vencendo&quot; em relação a outras experiências, mas muito próximas entre si, a Autoalocação pode exigir mais tempo para determinar qual é superior. Nesses casos, os testes de horizonte fixo tipicamente terminariam ao concluir que as experiências &quot;vencedoras&quot; eram melhores do que as de menor desempenho, mas não identificaram qual era superior.
 
-**Devo remover uma experiência com baixo desempenho de uma atividade de Alocação automática para acelerar o processo de decisão de um vencedor?**
+### Devo remover uma experiência com desempenho inferior de uma atividade de Autoalocação para acelerar o processo de determinação de um vencedor?
 
-Não há motivo para remover uma experiência com baixo desempenho. A Alocação automática veicula automaticamente as experiências de alto desempenho com mais frequência e as com baixo desempenho com menos frequência. Deixar uma experiência com baixo desempenho na atividade não afetará significativamente a velocidade para determinar um vencedor.
+Na verdade, não há razão para eliminar uma experiência com desempenho inferior. A autoalocação atende automaticamente a experiências de alto desempenho com mais frequência e atende a experiências de baixo desempenho com menos frequência. Deixar uma experiência com desempenho inferior na atividade não afetará significativamente a velocidade para determinar um vencedor.
 
-20% dos visitantes são atribuídos aleatoriamente em todas as experiências. A quantidade de tráfego veiculada para uma experiência com baixo desempenho é mínima (20% dividido pelo número de experiências).
+20% dos visitantes são atribuídos aleatoriamente em todas as experiências. A quantidade de tráfego servida para uma experiência com baixo desempenho é mínima (20% dividida pelo número de experiências).
+
+### É possível alterar a métrica de objetivo no meio de uma atividade de Autoalocação? {#change-metric}
+
+Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
+
+Esta recomendação se aplica às atividades de [!UICONTROL Autoalocação], Público alvo Automático e Personalização  Automatizada que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
 
 ## Vídeos de treinamento {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
