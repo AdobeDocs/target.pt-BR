@@ -5,10 +5,10 @@ user-guide-title: Ajuda do Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 99%
+source-wordcount: '1421'
+ht-degree: 98%
 
 ---
 
@@ -202,6 +202,7 @@ ht-degree: 99%
    + Alocação automática {#auto-allocate}
       + [Alocação automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Interpretar relatórios de autoalocação](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [A Autoalocação fornece resultados de teste mais rápidos e maior receita do que um teste manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Direcionamento automático](c-activities/auto-target-to-optimize.md)
    + Personalização automatizada {#automated-personalization}
       + [Visão geral da personalização automatizada](c-activities/t-automated-personalization/automated-personalization.md)
