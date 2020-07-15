@@ -5,10 +5,10 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 34%
+source-wordcount: '1351'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 15 de julho | [A Autoalocação pode fornecer resultados de teste mais rápidos e maior receita do que um teste manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Novo tópico. |
 | 14 de julho | [Autoalocar](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),Público alvo<br>[](/help/c-activities/auto-target-to-optimize.md)automático<br><br>[e perguntas frequentes de personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Foram adicionadas perguntas frequentes recomendando que você não alterasse a métrica de objetivo a meio de uma atividade. |
 | 7 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café com Adobe Target de 8 de julho. |
 | 25 de junho | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão Target Standard/Premium 20.6.1 (julho de 2020). |
