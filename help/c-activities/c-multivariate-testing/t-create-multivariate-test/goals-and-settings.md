@@ -5,7 +5,10 @@ title: Metas e Configurações
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +39,9 @@ Dependendo das configurações, a interface do usuário e as opções de Priorid
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-Se esta opção não estiver ativada na Configurar (padrão), especifique uma prioridade: baixa, média ou alta.
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-Para ativar as propriedades otimizadas, clique em Configurar e alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -152,7 +155,7 @@ Digite qualquer informação sobre sua atividade que seja útil para manter ao s
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Etiqueta do ![tutorial de configurações de atividade (3:02)](/help/assets/tutorial.png)
+### Configurações de Atividade (3:02) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
