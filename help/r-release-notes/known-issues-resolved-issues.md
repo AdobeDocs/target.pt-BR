@@ -4,7 +4,10 @@ description: Informações sobre problemas conhecidos para esta versão do Adobe
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
-
-### Relatórios e pedidos extremos
-
-De 25 de novembro de 2019 a 26 de abril de 2020, um servidor Público alvo apresentou um problema que fazia com que valores extremos de pedido fossem contados em métricas de relatório baseadas em receita (AOV, RPV). De 19 de dezembro de 2019 a 23 de abril de 2020, outro servidor enfrentou o mesmo problema. Esse problema não afetou todos os servidores de Públicos alvos ou todos os clientes de Públicos alvos.
-
-Você *não* foi afetado se:
-
-* A implementação do Público alvo usa servidores diferentes.
-* Seus relatórios não excluíram pedidos extremos.
-* Você usou uma métrica de conversão para medir suas atividades.
-* As atividades do Público alvo usam o Analytics para Públicos alvos (A4T).
-* Você está localizado na região Ásia-Pacífico (APAC).
-
-Para determinar se esse problema afetou seu relatórios do Público alvo, entre em contato com o [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Delivery de página {#page-delivery}
 
@@ -121,7 +110,7 @@ A biblioteca mbox.js não é compatível com linguagens de modelos do lado do cl
 
 ### Implementação: criação automática de mbox global
 
-Na guia Implementação ([!UICONTROL Configurar > Implementação]), o campo [!UICONTROL Criação automática da Mbox global] será &quot;false&quot; por padrão no caso de um inquilino recém-provisionado.
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da Mbox global] é definido como &quot;true&quot; no arquivo mbox.js baixado e no back-end do [!DNL Target], mas continuará sendo exibido como &quot;false&quot; na página [!UICONTROL Implementação] na IU até que a página seja atualizada (depois da atualização da página, o status será &quot;true&quot;).
 
@@ -146,6 +135,20 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Quando os problemas acima são resolvidos, são movidos para as seções a seguir e as notas adicionais, se necessário, serão adicionadas.
+
+### Relatórios e pedidos extremos
+
+De 25 de novembro de 2019 a 26 de abril de 2020, um servidor Target apresentou um problema que fazia com que valores extremos de pedido fossem contados em métricas de relatório baseadas em receita (AOV, RPV). De 19 de dezembro de 2019 a 23 de abril de 2020, outro servidor enfrentou o mesmo problema. Esse problema não afetou todos os servidores de Públicos alvos ou todos os clientes de Públicos alvos.
+
+Você *não* foi afetado se:
+
+* A implementação do Público alvo usa servidores diferentes.
+* Seus relatórios não excluíram pedidos extremos.
+* Você usou uma métrica de conversão para medir suas atividades.
+* O seu Público alvo atividade usa o Analytics para Público alvo (A4T).
+* Você está localizado na região Ásia-Pacífico (APAC).
+
+Para determinar se esse problema afetou seu relatórios do Público alvo, entre em contato com o [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
