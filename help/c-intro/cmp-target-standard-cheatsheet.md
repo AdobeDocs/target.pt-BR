@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre otimização e personalização do Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,9 +134,9 @@ Use a configuração de prioridade disponível na etapa 3 do fluxo de trabalho o
 Existem duas opções:
 
 * Padrão, com três níveis (Baixo/Médio/Alto)
-* Personalizada, com um intervalo entre 0 e 999. Para Personalizada, ative o recurso Prioridades otimizadas (Configurar > Preferências).
+* Personalizada, com um intervalo entre 0 e 999. Para Personalizado, ative o recurso Prioridades granuladas ( Administração > Visual Experience Composer).
 
-## Públicos-alvo{#section_FA6314777ABC46D8B198D6F388051460}
+## Públicos-alvo {#section_FA6314777ABC46D8B198D6F388051460}
 
 **Posso criar um segmento de públicos-alvo em uma atividade que seja específico a ela? Eu não acredito que um público-alvo como esse deva ser criado na Biblioteca de público-alvo, pois não há fator de reutilização.**
 
@@ -198,7 +198,7 @@ Experimente o recurso [Mobile Viewports](../c-experiences/c-visual-experience-co
 
 **Eu tenho múltiplos domínios. Um dos domínios precisa que o Enhanced Experience Composer seja ativado, enquanto outros precisam que ele seja desativado. Como posso fazer isso?**
 
-Você sempre pode usar a opção [Enhanced Experience Composer no nível de atividade](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular a configuração padrão (Configurar > Preferências).
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **Por que eu não vejo uma opção de troca de imagens?**
 
