@@ -1,12 +1,15 @@
 ---
-keywords: mbox global; target classic; usar mbox global do target classic
+keywords: global mbox;target classic;use global mbox from target classic
 description: Por padrão, o Target Standard cria uma mbox global chamada target-global-mbox, usada para executar atividades criadas no Target Standard. No entanto, se você já criou uma mbox global em suas páginas para suas implementações existentes, você pode usar essa mbox para suas atividades no Target Standard.
 title: Usar uma mbox global de uma implementação existente
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +24,7 @@ Por padrão, o Target Standard cria uma mbox global chamada target-global-mbox, 
 
 Para usar sua mbox global existente no [!DNL Target Standard] e em sua implementação existente, você deve definir alguns parâmetros.
 
-1. Vá até [!DNL Target Standard] e clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Implementação]**.
+1. Go to [!DNL Target Standard], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    Por padrão, a opção [!UICONTROL Criar mbox global automaticamente] está ativada, e a mbox global é chamada de `target-global-mbox`.
 1. Caso queira utilizar uma mbox já existente, desative a opção [!UICONTROL Criar mbox global automaticamente] e especifique o nome da mbox global existente no campo [!UICONTROL Mbox global personalizada.]
@@ -33,8 +36,8 @@ Para usar sua mbox global existente no [!DNL Target Standard] e em sua implement
 1. Baixe o novo arquivo mbox.js e cite-o em seu site.
 
    Após ter atualizado seu site de produção com o novo arquivo mbox.js, você está pronto para definir suas preferências.
-1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Preferências]**.
-1. No campo [!UICONTROL Mbox global personalizada], especifique o nome da mbox global selecionada na página de Implementação.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
+1. In the [!UICONTROL Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
 1. Clique em **[!UICONTROL Enviar]**.
 
    Todas as atividades existentes foram atualizadas para usar a mbox global especificada, inclusive as atividades que foram anteriormente criadas e implementadas.
