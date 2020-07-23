@@ -5,10 +5,10 @@ title: Permissões de usuário empresarial
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 83%
+source-wordcount: '3053'
+ht-degree: 82%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]Clientes **: Se você visualizar a guia[!UICONTROL Usuários]([!UICONTROL Administração > Usuários]) (e não a guia[!UICONTROL Propriedades]), sua organização tem uma[!DNL Target Standard]licença.[!DNL Target Standard]Os clientes devem seguir as instruções em[Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md)para adicionar usuários e atribuir permissões no[!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clientes **: Se você visualizar a guia[!UICONTROL Propriedades]([!UICONTROL Configuração > Propriedades]) e a guia[!UICONTROL Usuários], sua organização tem uma[!DNL Target Premium]licença. Os clientes da[!DNL Target Premium]devem seguir as instruções neste artigo e em[Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clientes **: Se você visualizar a guia[!UICONTROL Propriedades]([!UICONTROL Administração > Propriedades]) e a guia[!UICONTROL Usuários], sua organização tem uma[!DNL Target Premium]licença. Os clientes da[!DNL Target Premium]devem seguir as instruções neste artigo e em[Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Antes de começar a usar permissões corporativas
 
@@ -199,7 +199,7 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 * **Criação de público-alvo:** ao criar um novo público-alvo, ele é criado no espaço de trabalho selecionado no momento.
 * **Criação de oferta:** ao criar uma nova oferta, ela é criada no espaço de trabalho selecionado no momento.
-* **Página Propriedades (Configuração > Propriedades):** Você pode usar a caixa [!UICONTROL Pesquisar] para pesquisar a lista [!UICONTROL Propriedade] .
+* **Página Propriedades (Administração > Propriedades):** Você pode usar a caixa [!UICONTROL Pesquisar] para pesquisar a lista [!UICONTROL Propriedade] .
 
    ![](assets/properties_list.png)
 
@@ -244,6 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * Atividades, públicos, ofertas de código, ofertas de imagem, ou qualquer outro recurso criado usando as seguintes soluções ou métodos não podem ser controlados pelo modelo de Permissões empresariais, mas farão parte do Espaço de trabalho padrão: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e recursos criados por meio da API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
    * Ofertas de imagem (os ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não podem ser controlados pelo modelo de Permissões empresariais no momento.
    * O clickTracking e os redirecionamentos somente funcionarão quando o link ou a página de destino fizerem parte de uma propriedade incluída na atividade. Além disso, o clickTracking pode não funcionar ao usar a função `targetPageParams()`. A função recomendada é `targetPageParamsAll()`.
+
    [!DNL Target]Atualmente, o exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
 
    O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
@@ -302,5 +303,9 @@ Este vídeo é uma gravação de &quot;No expediente&quot;, uma iniciativa da eq
 * Criação de propriedades
 * Adicionar usuários
 * Atualização da implementação
+
+>[!NOTE]
+>
+>A interface do usuário do menu [!DNL Target] Administração [!UICONTROL (anteriormente] Configuração ) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
