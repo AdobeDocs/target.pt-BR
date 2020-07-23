@@ -1,10 +1,13 @@
 ---
-keywords: configurações avançadas de mbox.js; cliente; domínio do servidor; xdomain; nível de compactação; suporte a id de sessão do cliente; secureOnly; suporte a id do pc do cliente; passar página; url de referência; nível de tráfego; duração do tráfego; corpo da função mboxParameters(); corpo da função mboxSupported(); corpo da função mboxCookieDomain(); JavaScript extra; plug-in do SiteCatalyst; obter mbox.js como JavaScript com extração automática; cintilação; ocultação de corpo; ocultar corpo
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Informações para ajudar a definir várias configurações na página Configurações da mbox.js.
 title: Configurar mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ As seguintes configurações estão disponíveis:
 
 Código de cliente da sua conta.
 
-Ao visualizar [!UICONTROL Configurar &gt; Implementação &gt; Editar configurações da mbox.js], o Cliente na parte superior é o código de cliente da sua conta.
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## Tempo limite
 
 A solicitação do Target atinge o tempo limite.
 
-Ao exibir [!UICONTROL Configuração &gt; Implementação &gt; Editar configurações da Mbox. js], o Tempo limite após o Nível de compactação é o tempo limite da solicitação do Target. Por padrão, esse valor é definido como 15 segundos, mas é recomendável configurá-lo para um valor entre 2 segundos e 5 segundos.
+Ao exibir [!UICONTROL Administração > Implementação], a configuração Tempo limite (segundos) é o tempo limite da solicitação de Público alvo. Por padrão, esse valor é definido como 15 segundos, mas é recomendável configurá-lo para um valor entre 2 segundos e 5 segundos.
 
 ## XDomain
 
@@ -47,7 +50,7 @@ Retorna parâmetros adicionais que serão transmitidos para cada chamada de mbox
 
 Por exemplo:
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## Corpo da função mboxSupported()
 
@@ -55,7 +58,7 @@ Retorna false para excluir usuários específicos.
 
 Por exemplo:
 
-return !navigator.userAgent.indexOf('Safari') != -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
 
 Os navegadores a seguir podem ser aceitos ou excluídos:
 
@@ -70,7 +73,7 @@ Retorna uma cadeia de caracteres descrevendo o domínio para definir cookies pri
 
 Por exemplo:
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## JavaScript extra
 
