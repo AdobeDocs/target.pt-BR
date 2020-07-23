@@ -5,10 +5,10 @@ title: Atributos de perfil no Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 79%
+source-wordcount: '2446'
+ht-degree: 78%
 
 ---
 
@@ -158,7 +158,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
 * **Adicionar scripts de perfil como tokens de resposta para depurá-los:**
 
-   No Target, clique em **[!UICONTROL Configurar]**, **[!UICONTROL Tokens de resposta]**, em seguida, ative o script de perfil que deseja depurar.
+   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
    Sempre que carregar uma página para o site com o Target nela, parte da resposta do Target conterá o valor para o script de perfil específico, como mostrado abaixo:
 
@@ -166,7 +166,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
 * **Use a ferramenta de depuração mboxTrace para depurar scripts de perfil.**
 
-   Este método requer um token de autorização que pode ser gerado clicando em **[!UICONTROL Target]** > **[!UICONTROL Configuração]** > **[!UICONTROL Implementação]** > **[!UICONTROL Gerar token de autorização]**.
+   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
    Em seguida, você adiciona esses dois parâmetros ao URL da página após o “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 
