@@ -4,10 +4,10 @@ description: Configure o Adobe Target Visual Experience Composer (VEC) especific
 title: Configurar relatórios no Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 31%
+source-wordcount: '666'
+ht-degree: 33%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 31%
 # Configurar relatórios no Público alvo
 
 Defina as configurações gerais a serem usadas no [!DNL Adobe Target] relatórios que se aplicam a toda a sua [!DNL Target] conta.
-
->[!NOTE]
->
->As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 Para acessar a página de configuração do [!UICONTROL Relatórios] , clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatórios].**
 
