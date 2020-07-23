@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 48%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 48%
 # Usuários{#users}
 
 You can add users and manage their permissions in the [!DNL Adobe Admin Console].
-
->[!NOTE]
->
->As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 >[!NOTE]
 >
@@ -121,5 +117,9 @@ Objetivos de aprendizagem:
    * Adicionar usuários a espaços de trabalho
    * Adicionar propriedades aos espaços de trabalho
 * Compreenda espaços de trabalho padrão
+
+>[!NOTE]
+>
+>A interface do usuário do menu [!DNL Target] Administração [!UICONTROL (anteriormente] Configuração ) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
