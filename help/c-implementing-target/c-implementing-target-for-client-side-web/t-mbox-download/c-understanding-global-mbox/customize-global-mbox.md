@@ -1,12 +1,15 @@
 ---
-keywords: mbox global; personalizar mbox global; editar mbox.js; editar at.js; at.js; implementar mbox.js; implementar o at.js
+keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: Informações para ajudar você a personalizar uma mbox global para at.js e mbox.js
 title: Personalizar uma mbox global
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +20,11 @@ Informações para ajudar você a personalizar uma mbox global para at.js e mbox
 
 1. Edite a mbox.js
 
-   Vá para **[!UICONTROL Target]** &gt; **[!UICONTROL Configurar]** &gt; **[!UICONTROL Implementação]**.
+   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * Para mbox.js, clique em **[!UICONTROL Editar configurações mbox.js]**.
-   * Para [!DNL at.js]**, selecione[!UICONTROL at.js]** sob Método de implementação, depois clique em **[!UICONTROL Editar configurações mbox.js]**.
+   * Para [!DNL at.js]**[!UICONTROL , selecione at.js]** sob Método de implementação, depois clique em **[!UICONTROL Editar configurações mbox.js]**.
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. Edite [!DNL mbox.js] ou [!DNL at.js].
@@ -29,7 +33,7 @@ Informações para ajudar você a personalizar uma mbox global para at.js e mbox
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   Clique em **[!UICONTROL Salvar]ao terminar.**
+   Clique em **[!UICONTROL Salvar]** ao terminar.
 1. Implemente a biblioteca [!DNL mbox.js] ou [!DNL at.js] no seu site.
 
 * Para mbox.js, consulte [Implementação da mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
