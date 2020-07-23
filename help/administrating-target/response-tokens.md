@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 78%
+source-wordcount: '1574'
+ht-degree: 77%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 78%
 # Tokens de resposta{#response-tokens}
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
-
->[!NOTE]
->
->As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 Os tokens de resposta permitem que você escolha quais variáveis serão aproveitadas e, em seguida, permite que sejam enviadas como parte de uma resposta do Público alvo. Para fazer isso, basta ativar uma variável usando o switch e a variável será enviada com respostas de Público alvo, que podem ser validadas em chamadas de rede. Response tokens work in [!UICONTROL Preview] mode as well.
 
@@ -291,5 +287,9 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 ## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
+
+>[!NOTE]
+>
+>A interface do usuário do menu [!DNL Target] Administração [!UICONTROL (anteriormente] Configuração ) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
