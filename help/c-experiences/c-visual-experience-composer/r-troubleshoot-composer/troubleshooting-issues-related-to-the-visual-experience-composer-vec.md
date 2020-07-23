@@ -4,10 +4,10 @@ description: Problemas de exibição às vezes ocorrem no Visual Experience Comp
 title: Solução de problemas relacionados ao Visual Experience Composer
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Vários problemas podem afetar o desempenho da página nos compositores de exper
 
 Se ocorrerem problemas no Enhanced Experience Composer, tente desativá-lo e usar o Visual Experience Composer.
 
-Para desativar o Enhanced Experience Composer, acesse **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]** e desative a opção **[!UICONTROL Ativar Enhanced Experience Composer]**.
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 Alguns usuários veem a seguinte mensagem de erro no console:
 
@@ -117,10 +117,6 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
    Clique no ícone à esquerda do URL na barra de endereço do navegador e clique em **[!UICONTROL Desativar proteção nesta página]**
 * Você inseriu um URL inválido.
 * Você não inseriu um URL padrão na sua página de configuração de conta.
-
-## Ao iniciar um URL para uma atividade do VEC, o console exibe a seguinte mensagem de erro: &quot;ReferenceError não captado:_AT não foi definido&quot;. (Somente VEC)  {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-Esse erro ocorre ao tentar entregar campanhas do Visual Experience Composer (VEC) sem atualizar a mbox.js baixado na interface do usuário do Target com a opção [!UICONTROL Suporte a atividades do Visual Experience Composer] ativada ([!UICONTROL Configurar] > [!UICONTROL Implementação] > [!UICONTROL mbox.js] > [!UICONTROL Editar as configurações da mbox.js]).
 
 Certifique-se de que essa configuração esteja ativada, baixe e atualize a mbox.js no site.
 
