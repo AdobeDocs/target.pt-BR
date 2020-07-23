@@ -1,11 +1,14 @@
 ---
-keywords: perguntas frequentes; perguntas frequentes; analytics for target; a4T; configuração de atividades
+keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: Este tópico contém respostas para as perguntas mais frequentes sobre a configuração de atividades e o uso do Analytics como origem de geração de relatórios para o Target (A4T).
 title: Configurações de atividade - Perguntas frequentes sobre o A4T
-topic: Padrão
+topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -16,7 +19,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre a configu
 
 ## Quais tipos de atividade são compatíveis com o Analytics como fonte de geração de relatórios (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-Para obter uma lista completa, consulte "Tipos de atividade suportados" no [Adobe Analytics como a Fonte de relatórios do Adobe Target (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+Para obter uma lista completa, consulte &quot;Tipos de atividade suportados&quot; no [Adobe Analytics como a Fonte de relatórios do Adobe Target (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Acabei de criar um atividade. Por que não vejo nenhum dado chegando?  {#section_9F8092BE4225442896F926540292F221}
 
@@ -24,13 +27,13 @@ Quando uma atividade é criada, o Target envia um arquivo de classificação ao 
 
 ## Por que não consigo selecionar o Analytics como minha fonte de geração de relatórios quando eu crio uma nova atividade?  {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-Você pode alterar suas opções de Configurações de relatório em Configurar.
+É possível alterar as opções de Configurações do Relatórios em Administração.
 
-1. No Adobe Target, clique em **[!UICONTROL Configurar]**.
+1. In Adobe Target, click **[!UICONTROL Administration]**.
 1. Na solução **[!UICONTROL Experience Cloud usada para a lista suspensa de]** relatórios, clique em **[!UICONTROL Selecionar por atividade]**.
 
 ![](assets/select-per-activity.png)
 
 A lista suspensa de **[!UICONTROL Fonte de geração de relatório]** está habilitada na tela **[!UICONTROL Meta e configurações]** para criar e editar atividades.
 
-Para sempre usar o Analytics como fonte de geração de relatório, selecione **[!UICONTROL Adobe Analytics]na lista suspensa em Configurar.**
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
