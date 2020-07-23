@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -24,14 +27,15 @@ Use as Configurações da atividade para gerenciar o objetivo, a prioridade e a 
 
    A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-   Se esta opção não estiver ativada na [!UICONTROL Configurar] (padrão), especifique uma prioridade: baixa, média ou alta.
+   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-   Para ativar as propriedades otimizadas, clique em [!UICONTROL Configurar] e alterne a opção [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ativado&quot;.
+   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
 
    Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
    * 0 = Baixo
    * 999 = Alto
+
    Para atividades criadas em versões anteriores do [!DNL Target Standard/Premium], a prioridade Baixa é convertida para 0, a Média é convertida para 5 e a Alta é convertida para 10. É possível ajustar esses valores conforme necessário.
 
    >[!NOTE]
@@ -54,7 +58,7 @@ A página [!UICONTROL Meta e configurações] inclui configurações adicionais 
 * [Teste multivariado](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vídeo de treinamento: configurações da atividade Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: configurações da atividade ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
