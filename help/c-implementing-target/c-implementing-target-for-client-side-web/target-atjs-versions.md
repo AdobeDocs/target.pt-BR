@@ -5,9 +5,9 @@ title: Detalhes da versão da at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '3947'
+source-wordcount: '3978'
 ht-degree: 86%
 
 ---
@@ -22,6 +22,12 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >A equipe do Público alvo oferece suporte para o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente da versão principal do at.js para garantir que você esteja executando uma versão compatível.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar o at.js. Os desenvolvedores de extensões adicionam continuamente novos recursos às suas extensões e frequentemente corrigem erros. Essas atualizações são compactadas em novas versões de uma extensão e disponibilizadas no [!DNL Launch] catálogo como atualizações. Para obter mais informações, consulte Atualização [de](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensão no Guia *do usuário do* Experience Platform Launch.
+
+## at.js 2.3.2 (24 de julho de 2020)
+
+Esta versão do at.js é uma versão de manutenção e inclui a seguinte correção:
+
+* Correção de um bug quando um script ou código adiciona uma propriedade padrão à janela ou ao documento.
 
 ## at.js 1.8.2 (15 de junho de 2020)
 
@@ -245,6 +251,7 @@ A at.js versão 1.3.0 já está disponível.
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
+
    Para obter mais informações, consulte [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md).
 
 * É possível aumentar uma solicitação de at.js com parâmetros adicionais provenientes de provedores de dados. Os provedores de dados devem ser adicionados a `window.targetGlobalSettings` sob o `dataProviders key`.
