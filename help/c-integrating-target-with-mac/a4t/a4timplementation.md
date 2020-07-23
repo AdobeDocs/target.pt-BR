@@ -4,10 +4,10 @@ description: Várias etapas são necessárias para a implementação do Adobe An
 title: Implementação do Analytics for Target
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 65%
+source-wordcount: '879'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +20,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 As seções a seguir descrevem as etapas necessárias para implantar essa integração no site.
 
-## Etapa 1: Solicitar provisionamento para o Analytics e Públicos alvos
+## Etapa 1: Solicitar provisionamento para Analytics e Público alvo
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use este formulário para solicitar o aprovisionamento](http://www.adobe.com/go/audiences).
 
@@ -97,7 +97,7 @@ Essa configuração tem um efeito global, o que significa que **analyticsLogging
 }
 ```
 
-A carga pode ser encaminhada ao Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados.
+A carga pode ser encaminhada à Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados.
 
 Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, você poderá usar a função [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) para fazer isso, passando em **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
@@ -171,7 +171,7 @@ Recomendamos remover a integração anterior para simplificar sua implementaçã
 
 ## Etapa 10: Ativar as opções de uso do Analytics como a fonte de relatórios do Target
 
-No [!DNL Target], clique em **[!UICONTROL Configurar > Preferências]** escolha **[!UICONTROL Selecionar por atividade]** ou **[!UICONTROL Adobe Analytics]** para habilitar as opções.
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL Selecionar por atividade permite escolher entre o e o para criar cada atividade.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL O Adobe configura o Analytics como fonte de relatórios para todas as atividades que você criar.]**[!DNL Analytics]
