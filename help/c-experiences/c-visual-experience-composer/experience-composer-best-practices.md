@@ -5,10 +5,10 @@ title: Práticas recomendadas e limitações do Visual Experience Composer
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 98%
+source-wordcount: '2448'
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,13 @@ Coloque o mbox.js no final da seção `<head>`, sem declarações adicionais dep
 
 **Você pode ativar/desativar o Enhanced Experience Composer no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.**
 
-Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Configurar > Preferências] e, em seguida, alterne o comutador para a posição Ligado.
+To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
 
 Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configurar > URL] e, em seguida, alterne o comutador para a posição Ligado.
 
-**Você pode permitir a lista de determinados endereços IP se o Visual Experience Composer aprimorado não for carregado em páginas seguras do site.**
+**Você pode lista de permissões determinados endereços IP se o Visual Experience Composer aprimorado não for carregado em páginas seguras do site.**
 
-Problemas ao carregar o Visual Experience Composer aprimorado podem ser resolvidos ao permitir a listagem dos seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os Visitantes do site não precisam desses endereços IP permitidos.
+Problemas ao carregar o Visual Experience Composer aprimorado podem ser resolvidos ao incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os Visitantes do site não precisam desses endereços IP incluído na lista de permissões.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92, and 54.204.197.253
 
