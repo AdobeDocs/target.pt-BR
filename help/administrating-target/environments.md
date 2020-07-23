@@ -5,10 +5,10 @@ title: Ambientes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '654'
+ht-degree: 68%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 63%
 # Ambientes
 
 Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
-
->[!NOTE]
->
->As informações neste tópico foram atualizadas para fornecer um pico rápido nas alterações da interface do usuário que vêm na versão Target Standard/Premium 20.6.1 (julho de 2020). A maioria das informações apresentadas neste tópico se aplica à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 Os hosts são agrupados em ambientes para facilitar o gerenciamento. Por exemplo, você pode ter dezenas de hosts agrupados em dois ou três ambientes. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. Você pode adicionar novos ambientes e renomear seus ambientes, se desejado.
 
