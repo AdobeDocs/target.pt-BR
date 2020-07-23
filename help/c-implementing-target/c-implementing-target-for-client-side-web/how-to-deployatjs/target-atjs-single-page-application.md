@@ -5,7 +5,10 @@ title: Implementação de aplicativos de página única no Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2752'
+ht-degree: 74%
 
 ---
 
@@ -30,13 +33,13 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link: Site[doméstico](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
 Quando navegamos para o site inicial, podemos visualizar imediatamente uma imagem principal que promove uma venda de Páscoa e os produtos mais recentes que estão sendo vendidos no site. Nesse caso, uma Exibição pode ser definida como todo o site inicial. Isso é útil para observar como expandiremos mais isso na seção Implementação de exibições do Adobe Target abaixo.
 
-**Link: Site[do produto](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site do produto](/help/c-experiences/assets/product-site.png)
 
@@ -68,7 +71,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores da at.js e mbox.js não são compatíveis com as Exibições do Adobe Target e o VEC para SPAs.
 
-   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Configuração > Implementação]. A at.js 2.x também pode ser implantada por meio do Adobe Launch. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
+   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio do Adobe Launch. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
 
 1. Implemente a função mais recente da at.js 2.x, `triggerView()`, em seus sites.
 
@@ -84,7 +87,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos apresentar alguns exemplos de casos de uso sobre como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link: Site[doméstico](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +118,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link: Site de[produtos](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
 Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, queremos personalizar a segunda fileira de produtos alterando a cor do rótulo de &quot;Preço&quot; para vermelho, depois que um usuário clicou no botão Carregar mais.
 
@@ -302,7 +305,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 
 Os seguintes vídeos contêm mais informações:
 
-### Noções básicas sobre o funcionamento da at.js 2.x Etiqueta ![Visão geral](/help/assets/overview.png)
+### Noções básicas sobre o funcionamento da at.js 2.x ![Etiqueta de visão geral](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
@@ -312,7 +315,7 @@ Consulte [Como o at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atj
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Consulte [Implementação do Público alvo da Adobe at.js 2.x em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
+Consulte [Implementação do Adobe Target em um SPA (Single Page Application)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
