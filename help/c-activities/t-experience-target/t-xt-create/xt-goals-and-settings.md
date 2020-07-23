@@ -1,11 +1,14 @@
 ---
-keywords: configurações de atividade, metas e configurações de direcionamento da experiência, metas e configurações xt, direcionamento da experiência, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
+keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 title: Metas e Configurações
-topic: Padrão
+topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1228'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +39,9 @@ Dependendo das configurações, a interface do usuário e as opções de Priorid
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-Se esta opção não estiver ativada na Configurar (padrão), especifique uma prioridade: baixa, média ou alta.
+Se essa opção não estiver ativada na Administração (o padrão), especifique uma prioridade: Baixa, Média ou Alta.
 
-Para ativar as propriedades otimizadas, clique em Configurar e alterne a opção Ativar prioridades otimizadas para a posição "Ativado".
+To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -160,4 +163,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
