@@ -1,12 +1,15 @@
 ---
-keywords: implementação; api; perfil; configurações da api de perfil
+keywords: implementation;api;profile;profile api settings;authentication token
 description: Ative ou desative a autenticação para atualizações em lote pela API e gere um token de autenticação de perfil.
 title: Configurações da API de perfil
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 64%
 
 ---
 
@@ -15,18 +18,18 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Ative ou desative a autenticação para atualizações em lote pela API e gere um token de autenticação de perfil.
 
-O Adobe Target cria e mantém um perfil para cada usuário individual. Esse perfil é armazenado no cluster de borda do Target e atualizado em tempo real após cada visita, no entanto, você pode atualizar um perfil individualmente ou em massa via API.
+[!DNL Adobe Target]O cria e mantém um perfil para cada usuário individual. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
 
-Para maior segurança, você pode fazer com que uma chamada de API de atualização em massa solicite um token de acesso válido a ser enviado no cabeçalho da solicitação. Usuários com permissões de Aprovador podem gerar e ativar tokens de autenticação da API de perfil.
+Para maior segurança, você pode fazer com que uma chamada de API de atualização em massa solicite um token de acesso válido a ser enviado no cabeçalho da solicitação. Users with [!UICONTROL Approver] permissions can generate and enable profile API authentication tokens.
 
 **Para solicitar a autenticação e gerar um token de acesso usando a interface de usuário do Target:**
 
-1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Implementação]**.
-1. Em **[!UICONTROL Configurações de API de perfil]**, use a lista suspensa **[!UICONTROL Requer autenticação]** para ativar ou desativar os requisitos de autenticação.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
+1. Em API **[!UICONTROL de]** Perfil, alterne a opção **[!UICONTROL Exigir autenticação]** para a posição ativada ou desativada.
 
    ![](assets/profile_api_settings.png)
 
-1. (Condicional) se você ativou requisitos de autenticação, clique em **[!UICONTROL Gerar token de autenticação de perfil]**.
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Pfofile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
@@ -36,11 +39,10 @@ Para maior segurança, você pode fazer com que uma chamada de API de atualizaç
    >
    >Também é possível gerar um token de autenticação de perfil por meio da API. Para obter mais informações, consulte [Perfis](https://developers.adobetarget.com/api/#profiles) no site de [desenvolvedores do Adobe Target](https://developers.adobetarget.com/).
 
-1. Copie o token e inclua-o no cabeçalho da solicitação, em formato: "Autorização" : "Portador"
+1. Copie o token e inclua-o no cabeçalho da solicitação, em formato: &quot;Autorização&quot; : &quot;Portador&quot;
 
-Clique em [!UICONTROL Gerar novamente token de autenticação de perfil] para gerar novamente o token, conforme necessário.
+Click [!UICONTROL Generate New Profile Authentication Token] to regenerate the token as needed.
 
 >[!IMPORTANT]
 >
 >Redefinir esse token resulta em falha das chamadas de API usando o token atual. Isso necessitará da atualização de qualquer script ou aplicativo que use esse token.
-
