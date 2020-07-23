@@ -5,7 +5,10 @@ title: Atualize do Adobe Target at.js versão 1.*x* para o at.js versão 2.*x*
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2747'
+ht-degree: 93%
 
 ---
 
@@ -246,7 +249,7 @@ Basicamente, o conceito global de mbox foi apresentado para [!DNL Target] inform
 
 ### O nome da mbox global no at.js não importa mais?
 
-Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target > Configuração > Implementação > Editar configurações da at.js]. Essa configuração é usada pelos servidores de borda [!DNL Target] para traduzir execute > pageLoad para o nome da mbox global que aparece na interface do [!DNL Target]. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo usando o nome global da mbox. Recomendamos que você também verifique se o mesmo nome global da mbox está configurado na página [!UICONTROL Configuração > Preferências], caso ainda tenha páginas que usam o at.js 1.*x* ou mbox.js, conforme mostrado nas ilustrações a seguir.
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Essa configuração é usada pelos servidores de borda [!DNL Target] para traduzir execute > pageLoad para o nome da mbox global que aparece na interface do [!DNL Target]. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo usando o nome global da mbox. We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*x* ou mbox.js, conforme mostrado nas ilustrações a seguir.
 
 ![Modificar caixa de diálogo da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -298,7 +301,7 @@ Essa configuração informa à at.js 2.*x* para disparar uma solicitação nos s
 
 ### O nome da mbox global é compatível
 
-Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target > Configuração > Implementação > Editar configurações da at.js]. Essa configuração é usada pelos [!DNL Target] servidores de borda para traduzir executar > carga para o nome da mbox global inserido. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo que direcionem a mbox global.
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit]. Essa configuração é usada pelos [!DNL Target] servidores de borda para traduzir executar > carga para o nome da mbox global inserido. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo que direcionem a mbox global.
 
 ### Os eventos personalizados da at.js abaixo são aplicáveis a `triggerView()` ou são somente para `applyOffer()` ou `applyOffers()`?
 
