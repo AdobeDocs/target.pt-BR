@@ -4,9 +4,9 @@ description: Configure o Adobe Target Visual Experience Composer (VEC) especific
 title: Configurar o Adobe Target Visual Experience Composer
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 52%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 52%
 # Configurar o Visual Experience Composer
 
 Configure o [!DNL Adobe Target] Visual Experience Composer  (VEC) especificando suas configurações gerais, a configuração do visor móvel e os seletores de CSS.
-
->[!NOTE]
->
->Os tópicos desta seção, listados abaixo, foram atualizados para fornecer um pico rápido nas mudanças da interface do usuário que serão lançadas na versão [!DNL Target Standard/Premium] 20.6.1 (julho de 2020). A maior parte das informações apresentadas nestes tópicos aplica-se à interface atual; no entanto, as opções podem estar em locais ligeiramente diferentes.
 
 Para acessar a página de configuração do [!UICONTROL Visual Experience Composer] , clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
 
@@ -104,5 +100,9 @@ Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a pági
 Este vídeo inclui informações sobre as preferências da conta.
 
 * Descreva as configurações da conta disponíveis em [!DNL Target Standard]
+
+>[!NOTE]
+>
+>A interface do usuário do menu [!DNL Target] Administração [!UICONTROL (anteriormente] Configuração ) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
