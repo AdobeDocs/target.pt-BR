@@ -5,10 +5,10 @@ title: Informações sobre a função targetGlobalSettings() da biblioteca at.js
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 42%
+source-wordcount: '1647'
+ht-degree: 40%
 
 ---
 
@@ -189,7 +189,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 ## Uso {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Esta função pode ser definida antes que at.js seja carregada ou em **[!UICONTROL Configurar]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar configurações da at.js]** > **[!UICONTROL Configurações do código]** > **[!UICONTROL Cabeçalho da biblioteca]**.
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 O campo Cabeçalho da biblioteca permite que você entre no JavaScript do formulário gratuito. O código de personalização deve ser semelhante ao seguinte exemplo:
 
@@ -472,7 +472,7 @@ Considere o seguinte ao usar `serverState`:
 
 * Ao aplicar o `serverState `oferta, o at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` as configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a `pageLoadEnabled` configuração for falsa.
 
-   Para ativar essas configurações, ative a alternância em Configuração do **[UICONTROL > Implementação > Editar configurações > Carregamento de página ativado]**.
+   Para ativar essas configurações, ative a alternância em Administração **[UICONTROL > Implementação > Editar > Carregamento de página ativado]**.
 
    ![Configurações Ativadas para Carregamento de Página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
