@@ -4,10 +4,10 @@ description: Os visores móveis ajudam a visualizar como as atividades aparecem 
 title: Visores móveis para experiências responsivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 97%
+source-wordcount: '1343'
+ht-degree: 93%
 
 ---
 
@@ -86,12 +86,12 @@ Se o seu site não for responsivo, você ainda poderá usar o Mobile Web Compose
 
 Configure as janelas de visualização móvel que você deseja disponibilizar ao criar suas experiências.
 
-1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]**.
-1. Na seção de Configuração de janelas de visualização móvel da página Preferências da conta, clique em **[!UICONTROL Adicionar novo]** para adicionar uma janela de visualização móvel.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
+1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add]** to add a mobile viewport.
 
    Para alterar a configuração de uma janela de visualização móvel existente, selecione a janela e clique no ícone Editar (lápis).
 
-   ![](assets/viewpoert_add.png)
+   ![Adicionar visor](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
 1. Digite um nome para a janela de visualização móvel.
 
@@ -111,6 +111,7 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
    * Windows
    * Symbian
    * BlackBerry
+
    Se você usa o [Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o Target emula aquele dispositivo quando você visualiza a página. Se, por exemplo, há uma aparência diferente para Android e iOS no seu site responsivo, o Target irá simular este comportamento.
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -139,8 +140,8 @@ Adicione janelas de visualização móvel às atividades do Target para criar ex
 
 Este caso de uso mostra como configurar experiências em duas versões de iPhone, o iPhone 6 e o iPhone 6 Plus, usando a função janelas de visualização móvel do Target Standard.
 
-1. No Target Standard, clique em **[!UICONTROL Configurar]** > **[!UICONTROL Preferências]**.
-1. Na seção Configuração de janela de visualização móvel da página de Preferências, crie janelas de visualização móvel para iPhone 6 e iPhone 6 Plus.
+1. No Público alvo, clique em **[!UICONTROL Administração]**.
+1. Na seção Configuração do Mobile Viewport, crie visualizações para dispositivos móveis para iPhone 6 e iPhone 6 mais.
 
    Use as seguintes configurações para cada janela:
 
@@ -178,7 +179,7 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Preferências de conta no selo ![Visão geral do Público alvo da Adobe](/help/assets/overview.png)
+### Preferências de conta no selo ![Visão geral do Adobe Target](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre configurar janelas de visualização móvel nas preferências da conta, a partir de 4:40.
 
