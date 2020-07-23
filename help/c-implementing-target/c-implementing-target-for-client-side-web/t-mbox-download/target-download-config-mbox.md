@@ -1,12 +1,15 @@
 ---
-keywords: Implementação; Mbox; mbox.js; baixar mbox.js; configurar mbox.js
+keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
 description: Target Standard e Premium usam uma versão modificada do arquivo da mbox.js do Adobe Target.
 title: Baixar a mbox.js
-subtopic: Introdução
-topic: Padrão
+subtopic: Getting Started
+topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 94%
 
 ---
 
@@ -17,11 +20,11 @@ Target Standard e Premium usam uma versão modificada do arquivo da mbox.js do A
 
 Para usar o [!UICONTROL Visual Experience Editor] do [!DNL Adobe Target], você deve incluir uma linha adicional de JavaScript como parte de seu arquivo [!DNL mbox.js].
 
-1. Clique em **[!UICONTROL Configuração]** &gt; **[!UICONTROL Implementação]** em [!DNL Target Standard].
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]** em [!DNL Target Standard].
 1. Clique **[!UICONTROL em Baixar mbox.js]** e siga as instruções para salvar o arquivo.
 1. (Condicional) Se você usa a versão 60 ou superior da [!DNL mbox.js], você pode configurar a biblioteca para ocultar conteúdo da página automaticamente por padrão até que mboxes sejam carregadas para reduzir a cintilação em sites responsivos.
 
-   Para obter mais informações, consulte "Suprimir cintilação de carregamento de página" nas [Configurações avançadas do mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
+   Para obter mais informações, consulte &quot;Suprimir cintilação de carregamento de página&quot; nas [Configurações avançadas do mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
 
 1. Crie a referência à [!DNL mbox.js] no site.
 
