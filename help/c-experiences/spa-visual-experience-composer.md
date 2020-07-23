@@ -1,11 +1,14 @@
 ---
-keywords: spa vec;react;angular;react.js;spa visual experience composer;opções de spa do experience composer;single page apps;single-page-app;spa;opções do mobile experience;exibição do target
+keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: O Visual Experience Composer (VEC) para aplicativos de página única (SPAs) no Adobe Target permite que os profissionais de marketing criem testes e personalizem conteúdo em SPAs de forma autônoma, sem dependências de desenvolvimento contínuas. É possível usar o VEC para criar atividades nos frameworks mais populares, como o React e o Angular.
 title: Aplicativo de página única (SPA) no Visual Experience Composer
-topic: Padrão
+topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3692'
+ht-degree: 92%
 
 ---
 
@@ -24,33 +27,33 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link: Site[doméstico](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
 Quando navegamos para o site inicial, é possível visualizar imediatamente uma imagem principal que promove uma venda de Páscoa e os produtos mais recentes à venda no site. Nesse caso, uma Exibição pode ser definida como todo o site inicial. Isso é útil para observar como expandiremos mais isso na seção Implementação de exibições do Adobe Target abaixo.
 
-**Link: Site[do produto](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site do produto](/help/c-experiences/assets/product-site.png)
 
-Conforme o interesse nos produtos aumenta, decidimos clicar no link Produtos. Assim como o site inicial, a totalidade do site de produtos pode ser definida como uma Exibição. É possível nomear os "produtos" dessa exibição como o nome do caminho em `https://target.enablementadobe.com/react/demo/#/products`.
+Conforme o interesse nos produtos aumenta, decidimos clicar no link Produtos. Assim como o site inicial, a totalidade do site de produtos pode ser definida como uma Exibição. É possível nomear os &quot;produtos&quot; dessa exibição como o nome do caminho em `https://target.enablementadobe.com/react/demo/#/products`.
 
 ![site do produto 2](/help/c-experiences/assets/product-site-2.png)
 
-No início desta seção, definimos Exibições como o site inteiro ou até mesmo um grupo de elementos visuais no site. Como mostrado acima, os quatro produtos mostrados no site também podem ser agrupados e considerados como uma Exibição. Se queremos nomear esta Exibição, podemos chamá-la de "produtos".
+No início desta seção, definimos Exibições como o site inteiro ou até mesmo um grupo de elementos visuais no site. Como mostrado acima, os quatro produtos mostrados no site também podem ser agrupados e considerados como uma Exibição. Se queremos nomear esta Exibição, podemos chamá-la de &quot;produtos&quot;.
 
 ![site do produto 3](/help/c-experiences/assets/product-site-3.png)
 
-Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da exibição pode ser chamado de "PRODUCTS-PAGE-2".
+Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
 **Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de checkout](/help/c-experiences/assets/checkout.png)
 
-Como curtimos alguns produtos mostrados no site, decidimos comprar alguns deles. Agora, no site de checkout, recebemos algumas opções para escolher a entrega normal ou a expressa. Como uma exibição pode ser qualquer grupo de elementos visuais em um site, podemos nomear essa opção como "Exibir preferências de entrega".
+Como curtimos alguns produtos mostrados no site, decidimos comprar alguns deles. Agora, no site de checkout, recebemos algumas opções para escolher a entrega normal ou a expressa. Como uma exibição pode ser qualquer grupo de elementos visuais em um site, podemos nomear essa opção como &quot;Exibir preferências de entrega&quot;.
 
-Além disso, o conceito de Exibições pode ser estendido muito além disso. Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar "Entrega normal". Se a opção Entrega expressa estiver selecionada, a Exibição pode ser chamada de "Entrega expressa".
+Além disso, o conceito de Exibições pode ser estendido muito além disso. Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar &quot;Entrega normal&quot;. Se a opção Entrega expressa estiver selecionada, a Exibição pode ser chamada de &quot;Entrega expressa&quot;.
 
 Agora, os profissionais de marketing podem executar um teste A/B para ver se a alteração da cor de azul para vermelho quando a opção Entrega expressa está selecionada pode aumentar as conversões em vez de manter a cor do botão azul para ambas as opções de entrega.
 
@@ -64,7 +67,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![Caixa de diálogo Detalhes da implementação](/help/c-experiences/assets/imp-200.png)
 
-   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Configuração &gt; Implementação]. A at.js 2.x também pode ser implantada por meio do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis.
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis.
 
 1. Implemente a função mais recente da at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) em seus sites.
 
@@ -74,17 +77,17 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    | Parâmetro | Tipo | Obrigatório? | Validação | Descrição |
    | --- | --- | --- | --- | --- |
-   | viewName | String | Sim | 1. Sem espaços à direita.<br>2. Não pode estar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com '`/`'. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, "home" e "`/home`" são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome Exibição é mostrado no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
+   | viewName | String | Sim | 1. Sem espaços à direita.<br>2. Não pode estar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com &#39;`/`&#39;. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, &quot;home&quot; e &quot;`/home`&quot; são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome Exibição é mostrado no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
    | opções | Objeto | Não |  |  |
-   | opções &gt; página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE**: quando `page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
+   | opções > página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE **: quando`page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
 
    Agora vamos analisar alguns exemplos de casos de uso de como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link: Site[doméstico](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
-   Como profissionais de marketing, se queremos executar testes A/B em todo o site inicial, talvez seja ideal nomear a exibição "inicial" que pode ser extraída do URL:
+   Como profissionais de marketing, se queremos executar testes A/B em todo o site inicial, talvez seja ideal nomear a exibição &quot;inicial&quot; que pode ser extraída do URL:
 
    ```
    function targetView() {
@@ -111,7 +114,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link: Site de[produtos](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link:[Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
    Agora, vejamos um exemplo que é um pouco mais complicado. Considere que desejamos personalizar a segunda linha dos produtos alterando a cor do rótulo de preço para vermelho depois que um usuário clica no botão Carregar mais.
 
@@ -144,7 +147,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![checkout do react](/help/c-experiences/assets/react6.png)
 
-   Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar "Entrega normal". Se a opção Entrega expressa estiver selecionada, a Exibição pode ser chamada de "Entrega expressa".
+   Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar &quot;Entrega normal&quot;. Se a opção Entrega expressa estiver selecionada, a Exibição pode ser chamada de &quot;Entrega expressa&quot;.
 
    Agora, os profissionais de marketing podem executar um teste A/B para ver se a alteração da cor de azul para vermelho quando a opção Entrega expressa está selecionada pode aumentar as conversões em vez de manter a cor do botão azul para ambas as opções de entrega.
 
@@ -205,8 +208,8 @@ A seguinte tabela descreve cada ação:
 | --- | --- |
 | Informações | Exibe os detalhes da ação. |
 | Editar | Permite editar as propriedades da ação diretamente. |
-| Clonar | Clona a ação a uma ou mais Exibições que existem no painel [!UICONTROL Modificações] ou a uma ou mais Exibições que você buscou e nas quais navegou no VEC. A ação não precisa existir necessariamente no painel [!UICONTROL Modificações] .<br>**Observação**: após a realização de uma operação de Clonar, é necessário navegar para a Exibição no VEC via [!UICONTROL Procurar] para verificar se a ação clonada foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro. |
-| Mover | Move a ação para um Evento de carregamento de página ou qualquer outra Exibição que já existe no painel de modificações.<br>[!UICONTROL Evento de carregamento de página] - qualquer ação correspondente ao evento de carregamento de página é aplicada no carregamento inicial da página no aplicativo da Web.<br>**Observação**: após a realização de uma operação de Mover, é necessário navegar para a Exibição no VEC via Procurar para ver se a movimentação foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro |
+| Clonar | Clona a ação a uma ou mais Exibições que existem no painel [!UICONTROL Modificações] ou a uma ou mais Exibições que você buscou e nas quais navegou no VEC. A ação não precisa existir necessariamente no painel [!UICONTROL Modificações] .<br>**Observação **: após a realização de uma operação de Clonar, é necessário navegar para a Exibição no VEC via[!UICONTROL Procurar]para verificar se a ação clonada foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro. |
+| Mover | Move a ação para um Evento de carregamento de página ou qualquer outra Exibição que já existe no painel de modificações.<br>[!UICONTROL Evento de carregamento de página] - qualquer ação correspondente ao evento de carregamento de página é aplicada no carregamento inicial da página no aplicativo da Web.<br>**Observação **: após a realização de uma operação de Mover, é necessário navegar para a Exibição no VEC via Procurar para ver se a movimentação foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro |
 | Excluir | Exclui a ação. |
 
 >[!NOTE]
@@ -217,8 +220,8 @@ A seguinte tabela descreve cada ação:
 
 Vamos consultar o exemplo acima em que criamos uma exibição de Página inicial. Nosso objetivo é criar duas dobras para esta exibição:
 
-1. Altere os botões Adicionar ao carrinho e Curtir para uma cor azul mais clara. Isso deve estar em um "Carregamento de página" porque estamos alterando componentes do cabeçalho.
-1. Altere o rótulo "Produtos mais recentes de 2019" para "Produtos de teste simples para 2019" com a cor do texto alterada para violeta.
+1. Altere os botões Adicionar ao carrinho e Curtir para uma cor azul mais clara. Isso deve estar em um &quot;Carregamento de página&quot; porque estamos alterando componentes do cabeçalho.
+1. Altere o rótulo &quot;Produtos mais recentes de 2019&quot; para &quot;Produtos de teste simples para 2019&quot; com a cor do texto alterada para violeta.
 
 Para executar essas metas, no VEC, clique em [!UICONTROL Compor] e aplique essas alterações na visualização inicial.
 
@@ -226,12 +229,12 @@ Para executar essas metas, no VEC, clique em [!UICONTROL Compor] e aplique essas
 
 **Exemplo 2**
 
-Vamos analisar o exemplo acima em que criamos uma visualização PRODUCTS-PAGE-2. Nosso objetivo é alterar o rótulo "Preço" para "Preço de venda" com a cor do rótulo em vermelho.
+Vamos analisar o exemplo acima em que criamos uma visualização PRODUCTS-PAGE-2. Nosso objetivo é alterar o rótulo &quot;Preço&quot; para &quot;Preço de venda&quot; com a cor do rótulo em vermelho.
 
 1. Clique em [!UICONTROL Procurar] e, em seguida, clique no link [!UICONTROL Produtos] no cabeçalho.
 1. Clique em [!UICONTROL Carregar mais] uma vez para ir até a segunda linha de produtos.
 1. Clique em [!UICONTROL Compor].
-1. Aplique ações a fim de alterar o rótulo do texto para "Preço de venda" e a cor como vermelho.
+1. Aplique ações a fim de alterar o rótulo do texto para &quot;Preço de venda&quot; e a cor como vermelho.
 
 ![Exemplo 2](/help/c-experiences/assets/example2.png)
 
@@ -245,7 +248,7 @@ Por fim, como mencionado anteriormente, as Exibições podem ser definidas em n�
 1. Clique em Checkout do pedido.
 1. Clique no botão de opção Entrega expressa.
 1. Clique em [!UICONTROL Compor].
-1. Altere o botão "Pagar" para ler o botão "Concluir o pedido" e altere a cor para vermelho.
+1. Altere o botão &quot;Pagar&quot; para ler o botão &quot;Concluir o pedido&quot; e altere a cor para vermelho.
 
 ![Exemplo 3](/help/c-experiences/assets/example3.png)
 
@@ -261,33 +264,33 @@ O fluxo de trabalho típico da at.js 2.x é quando seu site é carregado; todas 
 
 Por exemplo, considere que você tem uma SPA que usa a at.js 2.x. e é uma empresa de telecomunicações que deseja alcançar os seguintes objetivos:
 
-* Para um usuário desconectado ou anônimo, mostre a promoção da empresa mais recente, como mostrar uma oferta principal de "Primeiro mês gratuito" em `http://www.telecom.com/home`.
-* Para um usuário conectado, mostre uma oferta promocional de atualização para usuários cujos contratos estão surgindo, como "Você está qualificado para receber um telefone gratuito!" em `http://www.telecom.com/loggedIn/home`.
+* Para um usuário desconectado ou anônimo, mostre a promoção da empresa mais recente, como mostrar uma oferta principal de &quot;Primeiro mês gratuito&quot; em `http://www.telecom.com/home`.
+* Para um usuário conectado, mostre uma oferta promocional de atualização para usuários cujos contratos estão surgindo, como &quot;Você está qualificado para receber um telefone gratuito!&quot; em `http://www.telecom.com/loggedIn/home`.
 
 Agora seus desenvolvedores nomeiam e fazem chamadas para `triggerView()` da seguinte maneira:
 
-* Para `http://www.telecom.com/home` o nome da exibição, é "Página inicial desconectada"
+* Para `http://www.telecom.com/home` o nome da exibição, é &quot;Página inicial desconectada&quot;
    * `triggerView(“Logged Out Home”)` é chamado.
-* Para `http://www.telecom.com/loggedIn/home`, o nome de exibição é "Logon conectado"
+* Para `http://www.telecom.com/loggedIn/home`, o nome de exibição é &quot;Logon conectado&quot;
    * `triggerView(“Logged In Home”)` é chamado na alteração da rota.
 
 Seus profissionais de marketing executam as seguintes atividades A/B por meio do VEC:
 
-* Compare a atividade com a oferta "Primeiro mês gratuito" para os públicos-alvo com o parâmetro "`loggedIn= false`" que serão exibidos em `http://www.telecom.com/home`, onde o nome da exibição está Desconectado do início.
-* Atividade A/B com a oferta "Você está qualificado para receber um telefone gratuito!" de público-alvo com o parâmetro "`loggedIn=true`" a ser exibido em `http://www.telecom.com/loggedIn/home`, onde o nome da exibição é Oferta de exemplo conectada.
+* Compare a atividade com a oferta &quot;Primeiro mês gratuito&quot; para os públicos-alvo com o parâmetro &quot;`loggedIn= false`&quot; que serão exibidos em `http://www.telecom.com/home`, onde o nome da exibição está Desconectado do início.
+* Atividade A/B com a oferta &quot;Você está qualificado para receber um telefone gratuito!&quot; de público-alvo com o parâmetro &quot;`loggedIn=true`&quot; a ser exibido em `http://www.telecom.com/loggedIn/home`, onde o nome da exibição é Oferta de exemplo conectada.
 
 Agora, considere este fluxo de usuário:
 
 1. Um usuário anônimo desconectado chega à sua página.
-1. Como a at.js 2.x está em uso, você passa o parâmetro "`loggedIn = false`" no carregamento da página para recuperar todas as exibições presentes em atividades ativas, qualificadas quando o público-alvo tiver o parâmetro "`loggedIn = false`".
-1. A at.js 2.x recupera a exibição de Logout da página inicial e a ação para mostrar a oferta "Primeiro mês gratuito", armazenando-as no cache.
-1. Quando `triggerView(“Logged Out Home”)` é invocado, a oferta "Primeiro mês gratuito" é recuperada do cache e a oferta é exibida sem uma chamada de servidor.
-1. Agora o usuário clica em "Logon" e fornece suas credenciais.
+1. Como a at.js 2.x está em uso, você passa o parâmetro &quot;`loggedIn = false`&quot; no carregamento da página para recuperar todas as exibições presentes em atividades ativas, qualificadas quando o público-alvo tiver o parâmetro &quot;`loggedIn = false`&quot;.
+1. A at.js 2.x recupera a exibição de Logout da página inicial e a ação para mostrar a oferta &quot;Primeiro mês gratuito&quot;, armazenando-as no cache.
+1. Quando `triggerView(“Logged Out Home”)` é invocado, a oferta &quot;Primeiro mês gratuito&quot; é recuperada do cache e a oferta é exibida sem uma chamada de servidor.
+1. Agora o usuário clica em &quot;Logon&quot; e fornece suas credenciais.
 1. Como seu site é um SPA, você não faz um carregamento de página completo e, em vez disso, direciona seu usuário para `http://www.telecom.com/loggedIn/home`.
 
 Agora, este é o problema. O usuário entra e encontramos `triggerView(“Logged In Home”)`, pois colocamos esse código na alteração da rota. Isso instrui que a at.js 2.x recupere a exibição e as ações do cache, mas a única exibição existente no cache é o Logout da página inicial.
 
-Assim, como podemos recuperar a Exibição conectada e mostrar "Você está qualificado para receber um telefone gratuito!" offer? Como todas as ações subsequentes do site serão de uma perspectiva logada no usuário, como você pode garantir que todas as ações subsequentes resultam em ofertas personalizadas para usuários conectados?
+Assim, como podemos recuperar a Exibição conectada e mostrar &quot;Você está qualificado para receber um telefone gratuito!&quot; offer? Como todas as ações subsequentes do site serão de uma perspectiva logada no usuário, como você pode garantir que todas as ações subsequentes resultam em ofertas personalizadas para usuários conectados?
 
 Você pode usar as novas funções `getOffers()` e `applyOffers()` compatíveis com a at.js 2.x:
 
@@ -306,7 +309,7 @@ adobe.target.getOffers({
 });
 ```
 
-Envie a resposta `getOffers()` de `applyOffers()`. Agora todas as exibições e ações associadas a "loggedIn = true" atualizam o cache do at.js.
+Envie a resposta `getOffers()` de `applyOffers()`. Agora todas as exibições e ações associadas a &quot;loggedIn = true&quot; atualizam o cache do at.js.
 
 Ou seja, a at.js 2.x suporta uma maneira de recuperar exibições, ações e ofertas com os dados do público-alvo mais atualizados sob demanda.
 
@@ -372,7 +375,7 @@ Se você quiser usar atividades A/B de Direcionamento automático, mova todas as
 
 As configurações de [!UICONTROL Entrega de página] permitem definir regras para determinar quando uma atividade do Target deve ser qualificada e executada para um público-alvo.
 
-Para acessar as opções de [!UICONTROL Entrega de página] no fluxo de trabalho de criação de atividade guiado de três partes do VEC, na etapa **[!UICONTROL Experiências]** , clique em **[!UICONTROL Configurar]** (ícone de engrenagem) &gt; **[!UICONTROL Entrega de página]**.
+Para acessar as opções de [!UICONTROL Entrega de página] no fluxo de trabalho de criação de atividade guiado de três partes do VEC, na etapa **[!UICONTROL Experiências]** , clique em **[!UICONTROL Configurar]** (ícone de engrenagem) > **[!UICONTROL Entrega de página]**.
 
 ![Caixa de diálogo de opções de Entrega de página](/help/c-experiences/assets/page-delivery.png)
 
@@ -436,6 +439,6 @@ Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibiçã
 
 ## Vídeo de treinamento: uso do VEC para SPAs no Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
