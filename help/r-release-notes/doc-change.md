@@ -5,10 +5,10 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 33%
+source-wordcount: '1661'
+ht-degree: 32%
 
 ---
 
@@ -21,7 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 28 de julho | [Relatórios](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)de insights de personalização,relatório<br>[de segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados<br>e relatório de atributos [importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Texto atualizado na nota. |
+| 28 de julho | [Relatórios](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)de insights de personalização,relatório<br>[de segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados<br>e relatório de atributos [importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Texto atualizado na nota na parte superior dos tópicos. |
+|  | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Foram adicionadas as seguintes perguntas frequentes:<ul><li>Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Autoalocação?</li><li>Como a Autoalocação de modelos de construção é feita em relação aos ambientes?</li></ul> |
+|  | [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) | Adição das seguintes perguntas frequentes:<ul><li>Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Público alvo automático?</li></ul>Texto atualizado na seção &quot;Considerações&quot;. |
+|  | [Perguntas frequentes da Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Foram adicionadas as seguintes perguntas frequentes:<ul><li>Posso usar a opção Redefinir dados do relatório ao executar uma atividade do Automated Personalization?</li><li>Como a Automated Personalization constrói modelos em relação aos ambientes?</li></ul> |
 |  | [Navegadores compatíveis](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Foram adicionadas informações sobre o Internet Explorer e elementos desconhecidos. |
 |  | [Atributos do cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Em nosso projeto atual, há a possibilidade de uma pequena porcentagem de dados (até 0,1% dos grandes lotes de produção) não ser integrada. |
 | 27 de julho | [Administrar o Target](/help/administrating-target/administrating-target.md) | Texto atualizado em todos os tópicos vinculados nesta página para refletir as novas alterações da interface do usuário para as páginas [!UICONTROL de Administração] . |
