@@ -5,10 +5,10 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 34%
+source-wordcount: '1573'
+ht-degree: 33%
 
 ---
 
@@ -21,8 +21,11 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 28 de julho | [Relatórios](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)de insights de personalização,relatório<br>[de segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados<br>e relatório de atributos [importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Texto atualizado na nota. |
+|  | [Navegadores compatíveis](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Foram adicionadas informações sobre o Internet Explorer e elementos desconhecidos. |
+|  | [Atributos do cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Em nosso projeto atual, há a possibilidade de uma pequena porcentagem de dados (até 0,1% dos grandes lotes de produção) não ser integrada. |
 | 27 de julho | [Administrar o Target](/help/administrating-target/administrating-target.md) | Texto atualizado em todos os tópicos vinculados nesta página para refletir as novas alterações da interface do usuário para as páginas [!UICONTROL de Administração] . |
-|  | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | As seguintes alterações foram feitas: <ul><li>Foram adicionadas informações de registro para o seguinte webinar: &quot;Como o HSBC aproveita o Adobe Target e a IA para otimizar e fornecer rapidamente a personalização em escala.&quot;</li><li>Foram adicionadas informações sobre a Adobe novamente como líder no Gartner Magic Quadrant for Personalization Engines.</li></ul> |
+|  | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | As seguintes alterações foram feitas: <ul><li>Foram adicionadas informações de registro para o seguinte webinar: &quot;Como o HSBC aproveita o Adobe Target e a IA para otimizar e fornecer rapidamente a personalização em escala.&quot;</li><li>Foram adicionadas informações sobre o Adobe novamente como líder no Quadrante Mágico da Gartner para mecanismos de personalização.</li></ul> |
 |  | [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md) | Informações esclarecidas na Etapa 4: Selecione um local. |
 | 24 de julho | <br>[Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a at.js 2.3.2. |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 20.7.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
@@ -41,7 +44,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Foi adicionada uma observação informando que a criação de scripts de perfil dependentes que usam o resultado de um script de perfil em outro script de perfil não é recomendada. |
 |  | [Como a at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Adicionado o seguinte vídeo: Horas de escritório: dicas e visão geral do at.js |
 | 17 de junho | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
-|  | [Tokens de resposta](/help/administrating-target/response-tokens.md) | Foram adicionadas informações sobre tokens de resposta para o Método de alocação de tráfego para atividades de Público alvo [!UICONTROL automático e personalização]  automatizada. |
+|  | [Tokens de resposta](/help/administrating-target/response-tokens.md) | Foram adicionadas informações sobre tokens de resposta para o Método de alocação de tráfego para Público alvo [!UICONTROL automático e atividades] Automated Personalization  . |
 |  | [Criação da atividade](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações sobre o suporte da Analytics para o Público alvo (A4T) para a Autoalocação de atividades. |
 |  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] em *Especificar funções e permissões*. |
 |  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] na *Etapa 6: Especifique funções e permissões*. |
@@ -98,8 +101,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | Abril de 2 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram adicionadas informações sobre como usar `user.header('x-forwarded-for')` as bordas AWS mais recentes para recuperar os endereços IP dos usuários. |
 |  | [Atualização do at.js 1.*x* para o at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adição da seguinte observação:<ul><li>Depois de instalar a biblioteca da ECID v4.3.0+ e o at.js 2.*x*, você poderá criar atividades que abrangem domínios exclusivos e rastrear usuários. É importante observar que essa funcionalidade funciona somente após a sessão expirar.</li></ul> |
-| 30 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Adicionados problemas conhecidos que afetam as versões do at.js anteriores ao at.js 2.2.0. Esse problema fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código do Adobe Analytics não estava presente nos elementos da página. |
-|  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas as seguintes informações aos detalhes da versão 2.2.0 do at.js:<ul><li>Correção de um problema que fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código do Adobe Analytics não estava presente nos elementos da página.</li></ul> |
+| 30 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Adicionados problemas conhecidos que afetam as versões do at.js anteriores ao at.js 2.2.0. Esse problema fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página. |
+|  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas as seguintes informações aos detalhes da versão 2.2.0 do at.js:<ul><li>Correção de um problema que fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página.</li></ul> |
 | 25 de março | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas informações sobre as seguintes novas versões do at.js:<ul><li>at.js versão 2.3.0</li><li>at.js versão 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Foram adicionadas as novas linhas a seguir na seção &quot;Configurações&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Adição da seguinte nova seção:<ul><li>Política de segurança de conteúdo</li></ul> |
 | 24 de março | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Foram adicionadas informações sobre os impactos para o seguinte:<ul><li>Scripts de Perfil com base em 3rdPartyID</li><li>URLs de QA/Pré-visualização em dispositivos iOS</li></ul> |
@@ -110,7 +113,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Amostra de código atualizada em *Transmitir um parâmetro de vários valores em JavaScript*. |
 |  | [Atributos de entidade personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md) | Adição de amostra de código em *Uso de APIs* em *Implementação de atributos* de vários valores. |
 | 4 de março | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Atualização de todo o tópico, com revisões extensas para a seção &quot;Práticas recomendadas&quot;. |
-| 21 de fevereiro | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a nova navegação da Adobe Experience Cloud. |
+| 21 de fevereiro | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a nova navegação do Adobe Experience Cloud. |
 | 20 de fevereiro | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Foram adicionadas informações para as seguintes configurações: `pageLoadEnabled` e `viewsEnabled`. |
 | 19 de fevereiro | [Notas de versão](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a futura desaprovação da biblioteca mbox.js. |
 |  | [Geografia](/help/c-target/c-audiences/c-target-rules/geo.md) | Foi adicionada uma observação que `mboxOverride.browserIp` é suportada em at.js 1.somente *x.* |
