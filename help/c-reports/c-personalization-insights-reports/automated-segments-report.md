@@ -1,10 +1,13 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
-description: Informações sobre o relatório Segmentos automatizados, um dos dois relatórios especializados disponíveis para usuários de atividades de Personalização automatizada (AP) e AutoTarget (AT) no Adobe Target.
+description: Informações sobre o relatório Segmentos automatizados, um dos dois relatórios especializados disponíveis para os usuários das atividades Automated Personalization (AP) e Público alvo automático (AT) no Adobe Target.
 title: Relatório de Segmentos automáticos
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 92%
 
 ---
 
@@ -14,15 +17,29 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 Informações sobre o relatório de Segmentos automatizados, um dos dois relatórios especializados disponíveis aos usuários de atividades de Automated Personalization (AP) e Direcionamento automático (AT).
 
 >[!NOTE]
->As atividades de AP e AT estão disponíveis como parte da solução Target Premium. Não estão incluídos com o Target Standard sem uma licença do [Target Premium](/help/c-intro/intro.md#premium).
 >
->Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.|
+>Considere o seguinte ao usar relatórios de Insights de personalização:
+>
+>* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+   >
+   >
+* [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
+   >
+   >
+* [!UICONTROL Os relatórios de Insights] de personalização estão disponíveis somente se o Objetivo  principal estiver selecionado na lista suspensa Métrica [!UICONTROL de] relatório.
+   >
+   >
+* Os relatórios de insights de personalização são suportados somente no [ambiente padrão](../../administrating-target/hosts.md).
+   >
+   >
+* [!UICONTROL Os relatórios de Insights] de personalização são gerados somente para atividades que estão no status [!UICONTROL Live] e foram ativados e recebem tráfego por pelo menos 15 dias.
+
 
 Visitantes diferentes respondem de forma distinta às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
 ## Acessar o relatório de Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
