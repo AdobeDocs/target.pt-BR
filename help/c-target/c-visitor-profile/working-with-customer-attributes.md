@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 40%
 
 ---
 
@@ -33,7 +36,7 @@ Considere as seguintes informações ao trabalhar com os atributos do cliente e 
    >
    >[!DNL at.js] (qualquer versão) ou [!DNL mbox.js] versão 58 ou posterior é obrigatório.
 
-* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Em nosso design atual, existe a possibilidade de que uma pequena porcentagem de dados não seja incorporada.
+* [!DNL Adobe] não garante que 100% dos dados do atributo do cliente (perfil do visitante) dos bancos de dados do CRM serão integrados ao [!DNL Experience Cloud] e, portanto, estarão disponíveis para uso na definição de metas no [!DNL Target]. Em nosso projeto atual, há a possibilidade de uma pequena porcentagem de dados (até 0,1% dos grandes lotes de produção) não ser integrada.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Para obter mais informações, consulte  [Duração do perfil do visitante](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
@@ -83,6 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    * **HTTPS:** Você pode arrastar e soltar o arquivo de dados .csv ou clicar em **[!UICONTROL Procurar]** para fazer upload do seu sistema de arquivos.
    * **FTP:** Clique no link FTP para [carregar o arquivo por FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). O primeiro passo é fornecer uma senha para o servidor de FTP fornecido pela Adobe. Specify the password, then click **[!UICONTROL Done]**.
+
    Agora transfira o arquivo CSV/ZIP/GZIP para o servidor FTP. Depois que a transferência de arquivos for bem-sucedida, crie um novo arquivo com o mesmo nome e extensão .fin. Transfira este arquivo vazio para o servidor. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. Validar o esquema.
@@ -91,13 +95,13 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Click **[!UICONTROL Save]** after the schema validation is complete. O tempo de upload do arquivo varia dependendo do tamanho.
 
-   ![Validar esquema](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
+   ![Validar schema](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![Carregar esquema](/help/c-target/c-visitor-profile/assets/upload1.png)
+   ![Carregar schema](/help/c-target/c-visitor-profile/assets/upload1.png)
 
 1. Configurar assinaturas e ativar a fonte de atributo.
 
-   Clique em **[!UICONTROL Adicionar assinatura]**, em seguida, selecione a solução para inscrever esses atributos. [Configurar assinaturas](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) configura o fluxo de dados entre as soluções [!DNL Experience Cloud] e. Ativar a fonte de atributo permite que os dados fluam para as soluções assinadas. Os registros do cliente carregados são combinados com sinais de ID vindos do seu site ou aplicativo.
+   Clique em **[!UICONTROL Adicionar assinatura]**, em seguida, selecione a solução para inscrever esses atributos. [Configure o subscrição](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) para configurar o fluxo de dados entre as soluções [!DNL Experience Cloud] e. Ativar a fonte de atributo permite que os dados fluam para as soluções assinadas. Os registros do cliente carregados são combinados com sinais de ID vindos do seu site ou aplicativo.
 
    ![Configurar solução](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -143,7 +147,7 @@ Se você estiver usando o serviço de Experience Cloud ID, será necessário def
 
 Para obter mais informações sobre o uso de atributos do cliente no [!DNL Target], consulte os recursos a seguir:
 
-* [Crie uma fonte de atributo do cliente e faça upload do arquivo](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de dados na Documentação do produto da *Experience Cloud*
+* [Crie uma fonte de atributo do cliente e faça upload do arquivo](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de dados na Documentação do produto do *Experience Cloud*
 * [Atributos do cliente: quanto mais você souber, melhor se conectará](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) no *Blog de Marketing digital*
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -162,7 +166,7 @@ Não há limite de caracteres em um campo específico do perfil do usuário, mas
 
 Isso geralmente é um problema de conexão do pipeline. Como solução, solicite que a equipe dos Atributos do Cliente republique o feed.
 
-### Problema 3: Entrega não funcionando com base no atributo
+### Problema 3: Delivery que não funciona com base no atributo
 
 O perfil ainda não foi atualizado na borda. Como solução, solicite que a equipe dos Atributos do Cliente republique o feed.
 
