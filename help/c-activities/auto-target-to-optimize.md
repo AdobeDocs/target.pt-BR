@@ -4,10 +4,10 @@ title: Direcionamento automático
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 96%
+source-wordcount: '3517'
+ht-degree: 91%
 
 ---
 
@@ -32,11 +32,18 @@ Do mesmo modo que a Personalização automatizada, o [!UICONTROL Direcionamento 
 
 Ao contrário de uma atividade A/B na qual a alocação de experiência para um determinado visitante é fixa, o [!UICONTROL Direcionamento automático] otimiza a meta de negócios especificada em cada visita. Como na [!UICONTROL Personalização automática], o [!UICONTROL Direcionamento automático], por padrão, reserva parte do tráfego da atividade como um grupo de controle para medir o aumento. Os visitantes do grupo de controle recebem uma experiência aleatória na atividade.
 
-Existem algumas observações importantes que você deve ter em mente ao usar o [!UICONTROL Direcionamento automático]:
+## Considerações
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * Você não pode alternar uma atividade específica de [!UICONTROL Direcionamento automático] para Personalização automatizada, e vice-versa.
 * Você não pode alternar de Alocação de tráfego manual (teste tradicional A/B) para [!UICONTROL Direcionamento automático] e vice-versa depois que uma atividade estiver ativa.
-* Ao usar hosts e ambientes (grupos de hosts), os modelos são criados apenas para o ambiente &quot;Produção&quot;. Todos os ambientes contribuem com dados para construir modelos para campanhas de &quot;Produção&quot;.
+* Um modelo é criado para identificar o desempenho da estratégia personalizada em comparação ao tráfego atendido aleatoriamente em vez de enviar todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
+
+   O tráfego de um segundo conjunto de modelos é criado para cada grupo de modelagem (AP) ou experiência (AT). Para cada um desses modelos, as ocorrências e conversões em todos os ambientes são consideradas.
+
+   Por conseguinte, os pedidos serão acompanhados do mesmo modelo, independentemente do ambiente, mas a pluralidade do tráfego deverá provir do ambiente por defeito, a fim de assegurar que a experiência globalmente identificada vencedora seja coerente com o comportamento no mundo real.
+
 * Você deve usar no mínimo duas experiências.
 
 ## Terminologia {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -220,7 +227,11 @@ Para obter mais informações, consulte [Usar uma experiência específica como 
 
 Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
 
-Esta recomendação se aplica às atividades de [!UICONTROL Autoalocação], Público alvo Automático e Personalização  Automatizada que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
+Esta recomendação se aplica a [!UICONTROL Autoalocação], Público alvo automático e atividades [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a fonte do relatórios.
+
+### Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Público alvo automático?
+
+Não é recomendável usar a opção [!UICONTROL Redefinir dados] de relatório para atividades de Público alvo  automático. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo de Público alvo  automático. Em vez de usar a opção [!UICONTROL Redefinir dados] do relatório para atividades de Público alvo  automático, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica a [!UICONTROL Autoalocação] e atividades [!UICONTROL Automated Personalization] .)
 
 ## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
