@@ -5,10 +5,10 @@ title: Alocação automática
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -187,7 +187,19 @@ Na verdade, não há razão para eliminar uma experiência com desempenho inferi
 
 Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
 
-Esta recomendação se aplica às atividades de [!UICONTROL Autoalocação], Público alvo Automático e Personalização  Automatizada que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
+Esta recomendação se aplica a [!UICONTROL Autoalocação], Público alvo automático e atividades [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a fonte do relatórios.
+
+### Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Autoalocação?
+
+Não é sugerido usar a opção [!UICONTROL Redefinir dados] de relatório para [!UICONTROL Autoalocar] atividades. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo de [!UICONTROL Autoalocação] . Em vez de usar a opção [!UICONTROL Redefinir dados] do relatório para [!UICONTROL Autoalocar] atividades, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica ao Público alvo [!UICONTROL automático e às atividades] Automated Personalization  .)
+
+### Como a Autoalocação de modelos de construção é feita em relação aos ambientes?
+
+[!UICONTROL A Autoalocação] cria modelos com base no comportamento de tráfego e conversão registrado somente no ambiente padrão. Por padrão, [!UICONTROL Production] é o ambiente padrão, mas isso pode ser alterado em Target [Administration > Ambiente](/help/administrating-target/environments.md).
+
+Se uma ocorrência ocorrer em outro ambiente (não padrão), o tráfego será distribuído de acordo com o comportamento de conversão observado no ambiente padrão. O resultado dessa ocorrência (conversão ou não conversão) será registrado para fins de relatórios, mas não será considerado no modelo de [!UICONTROL Autoalocação] .
+
+Ao selecionar outro ambiente, o relatório mostrará o tráfego e as conversões desse ambiente. O ambiente selecionado padrão para um relatório sempre será o padrão para toda a conta selecionado. O ambiente padrão não pode ser definido por atividade.
 
 ## Vídeos de treinamento {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
