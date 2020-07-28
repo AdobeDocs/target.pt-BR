@@ -4,15 +4,15 @@ description: Lista de perguntas frequentes sobre a Personalização automatizada
 title: Perguntas frequentes sobre a personalização automatizada
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 95%
+source-wordcount: '1965'
+ht-degree: 85%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre personalização automatizada{#automated-personalization-faq}
+# ![Perguntas frequentes sobre o PREMIUM](/help/assets/premium.png) Automated Personalization{#automated-personalization-faq}
 
 Lista de perguntas frequentes sobre a Personalização automatizada (AP).
 
@@ -51,15 +51,19 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
    * Não há personalização entre ofertas em um grupo de relatórios: todas as ofertas são tratadas como iguais pelo modelo de personalização.
    * Nunca coloque todas as ofertas em uma atividade em um único grupo de relatórios. Esta decisão fará com que todas as ofertas sejam uniformemente distribuídas aleatoriamente para todos os visitantes da atividade.
 
-## Quais são alguns limites na personalização automatizada?  {#section_08BA09ED51B547299963C94FE6417CFA}
+## Perguntas frequentes
+
+Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades de autoalocação:
+
+### Quais são alguns limites na personalização automatizada?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
 O Target tem um limite rígido de 30.000 experiências, mas funciona no seu melhor quando menos de 10.000 experiências são criadas.
 
-## Como é implementado o direcionamento no nível da oferta?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### Como é implementado o direcionamento no nível da oferta?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 Quando cada visitante chega, o conjunto de possíveis ofertas que o visitante pode ver é determinado pelas regras de direcionamento no nível da oferta. Em seguida, o algoritmo escolhe a oferta que o modelo prevê que terá a melhor receita esperada ou a chance de conversão entre essas ofertas. Observe que o direcionamento por oferta afeta a eficácia dos algoritmos de aprendizagem de máquina do Target e, como resultado, deve ser usado com toda moderação possível.
 
-## Minha atividade não está apresentando nenhum aumento. O que está acontecendo? {#section_BFA07C8C258F45318F73A461B8F32737}
+### Minha atividade não está apresentando nenhum aumento. O que está acontecendo? {#section_BFA07C8C258F45318F73A461B8F32737}
 
 Há quatro fatores necessários para uma atividade de AP gerar aumento:
 
@@ -72,29 +76,29 @@ O melhor curso de ação é garantir que o conteúdo e os locais que compõem as
 
 Para obter mais informações, consulte [Solução de problemas de personalização automatizada](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
-## Como a Personalização automatizada está alocando o tráfego da minha atividade? {#section_4369364F77804E0D9B78BEE551DA5659}
+### Como a Personalização automatizada está alocando o tráfego da minha atividade? {#section_4369364F77804E0D9B78BEE551DA5659}
 
 A Personalização automatizada encaminha os visitantes da experiência com a maior métrica de sucesso prevista baseada nos modelos [Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) mais recentes criados para cada modelo. Esta previsão baseia-se na informação específica do visitante e no contexto da visita.
 
 Por exemplo, suponha que uma atividade de AP tenha dois locais com duas ofertas cada. No primeiro local, a Oferta A tem uma taxa de conversão prevista de 3% para um visitante específico e a Oferta B tem uma taxa de conversão prevista de 1%. No segundo local, a Oferta C tem uma taxa de conversão prevista de 2% para o mesmo visitante e a Oferta D tem uma taxa de conversão prevista de 5%. Portanto, a Personalização automatizada ofereceria a esse visitante uma experiência com a Oferta A e a Oferta D.
 
-## Quando devo interromper minha atividade de Personalização automatizada?  {#section_C51F3DAB8887463BB147373F6FE06B93}
+### Quando devo interromper minha atividade de Personalização automatizada?  {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 A Personalização automatizada pode ser usada como personalização &quot;sempre ativa&quot; que otimizará constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de Personalização automatizada. Se você quiser fazer alterações substanciais no conteúdo que não são semelhantes às ofertas atualmente em sua atividade de Personalização automatizada, a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
 
-## Por quanto tempo devo esperar que os modelos sejam construídos? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+### Por quanto tempo devo esperar que os modelos sejam construídos? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 O tempo que leva para os modelos serem construídos em sua atividade normalmente depende do tráfego para a(s) localização(ões) de atividades selecionada(s) e a métrica de sucesso da atividade. Use a variável [Avaliador de tráfego](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para determinar o período de tempo esperado para que os modelos construam sua atividade.
 
-## Um modelo é construído dentro da minha atividade. As visitas a essa experiência são personalizadas? {#section_51EA953C6D1D4A3185FC9DD290D66621}
+### Um modelo é construído dentro da minha atividade. As visitas a essa experiência são personalizadas? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
 Não, deve haver pelo menos dois modelos construídos em sua atividade para que a personalização comece.
 
-## Quando posso ver os resultados da minha atividade de Personalização automatizada?  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### Quando posso ver os resultados da minha atividade de Personalização automatizada?  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 Você pode começar a ver os resultados da sua atividade de Personalização automatizada depois de ter pelo menos duas experiências com modelos construídos (marca de seleção verde) para a experiência que os modelos construíram.
 
-## Como posso diminuir o tempo necessário para que os modelos construam minha atividade?  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### Como posso diminuir o tempo necessário para que os modelos construam minha atividade?  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Revise a configuração da atividade e veja se deseja fazer alguma alteração para melhorar a velocidade de criação dos modelos.
 
@@ -103,12 +107,24 @@ Revise a configuração da atividade e veja se deseja fazer alguma alteração p
 * Há algumas experiências que você pode abandonar em sua atividade? A diminuição do número de experiências em uma atividade irá acelerar a quantidade de tempo para construir modelos.
 * Existe uma página de tráfego mais alto, em tal página essa atividade seria mais bem-sucedida? Quanto mais tráfego e conversões em seus locais de atividade, mais rápidos serão os modelos.
 
-## Por que os visitantes veem experiências para uma atividade de AP que não deveriam ver? {#section_41CECEAE0881446A8D9F3B016857914B}
+### Por que os visitantes veem experiências para uma atividade de AP que não deveriam ver? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 As atividades de Personalização automatizada são avaliadas uma vez por sessão. Se houver sessões ativas que se qualificaram para uma experiência específica e agora novas ofertas foram adicionadas a elas, os usuários verão o novo conteúdo junto com as ofertas exibidas anteriormente. Como elas se qualificaram previamente para essas experiências, eles ainda as veriam durante a sessão. Se houver um desejo de avaliar isso em todas as visitas a uma página única, você deverá mudar para o tipo de atividade de Direcionamento de experiência (XT).
 
-## É possível alterar a métrica de meta no meio de uma atividade de personalização automatizada? {#change-metric}
+### É possível alterar a métrica de objetivo no meio de uma atividade Automated Personalization? {#change-metric}
 
 Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
 
-Esta recomendação se aplica às atividades de [!UICONTROL Autoalocação], Público alvo Automático e Personalização  Automatizada que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
+Esta recomendação se aplica a [!UICONTROL Autoalocação], Público alvo automático e atividades [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a fonte do relatórios.
+
+### Posso usar a opção Redefinir dados do relatório ao executar uma atividade do Automated Personalization?
+
+Não é recomendado usar a opção [!UICONTROL Redefinir dados] de relatório para [!UICONTROL Automated Personalization] atividade. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Automated Personalization] . Em vez de usar a opção [!UICONTROL Redefinir dados] de relatório para [!UICONTROL Automated Personalization] atividade, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica às atividades [!UICONTROL Autoalocação] e Público alvo [!UICONTROL automático] .)
+
+### Como a Automated Personalization constrói modelos em relação aos ambientes?
+
+Um modelo é criado para identificar o desempenho da estratégia personalizada em comparação ao tráfego atendido aleatoriamente em vez de enviar todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
+
+O tráfego de um segundo conjunto de modelos é criado para cada grupo de modelagem (AP) ou experiência (AT). Para cada um desses modelos, as ocorrências e conversões em todos os ambientes são consideradas.
+
+Por conseguinte, os pedidos serão acompanhados do mesmo modelo, independentemente do ambiente, mas a pluralidade do tráfego deverá provir do ambiente por defeito, a fim de assegurar que a experiência globalmente identificada vencedora seja coerente com o comportamento no mundo real.
