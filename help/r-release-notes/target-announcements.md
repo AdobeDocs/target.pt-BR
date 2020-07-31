@@ -4,9 +4,9 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de Públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,22 @@ ht-degree: 1%
 
 Anúncios e informações sobre os próximos eventos, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 
-## A Adobe voltou a ser nomeada líder no Gartner Magic Quadrant para mecanismos de personalização
+## Adobe novamente nomeado Líder no Quadrante Mágico da Gartner para Mecanismos de Personalização
 
-A Adobe foi mais uma vez chamada de Líder no Quadrante Mágico da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução. [Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução. [Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Café da Comunidade Adobe Target
+
+* **10:00 - 11:00 da manhã. (PDT)**
+* **quarta-feira, 5 de agosto de 2020**
+
+Juntar-nos-emos a Cristinel Anastasoaie, gerente de produtos do Adobe Target, que entrará na Comunidade do Adobe Target para conversar diretamente com você para responder a perguntas gravadoras do Adobe Target, relacionadas às suas áreas de especialização:
+
+* interface do usuário Adobe Target
+* integrações de Adobe Target
+* Permissões e espaços de trabalho empresariais
+
+[Inscreva-se na Comunidade Adobe Target.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## Webinar: Como o HSBC aproveita o Adobe Target e a IA para otimizar e fornecer rapidamente personalização em escala
 
@@ -29,7 +42,7 @@ McKinsey Digital relata que &quot;nós lançamos cinco anos para a adoção digi
 
 As demandas dos consumidores estão evoluindo rapidamente, e o HSBC adotou a otimização com Adobe Target para testar e personalizar rapidamente novas viagens de clientes, reduzindo certos desenvolvimentos e inicializações de 6 meses para 1 semana!
 
-Junte-se à Adobe e ao HSBC para este webinar para saber mais:
+Junte-se ao Adobe e ao HSBC para este webinar para saber mais:
 
 * Como os esforços de otimização e personalização do HSBC geram mudanças rápidas na organização
 * Como a IA e a Analytics aceleram seus esforços e proporcionam um claro e significativo impacto nos negócios
