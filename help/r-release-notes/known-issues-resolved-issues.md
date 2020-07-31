@@ -4,10 +4,10 @@ description: Informações sobre problemas conhecidos para esta versão do Adobe
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3261'
-ht-degree: 94%
+source-wordcount: '3352'
+ht-degree: 91%
 
 ---
 
@@ -135,6 +135,10 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 ### Definição de metas GEO
 
 No dia 10 de maio de 2020, atualizamos nossos arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores nas audiências existentes não tinham vírgula. Nem todos os nossos servidores de delivery foram afetados por esta mudança. Como resultado, as audiências que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
+
+### Imagem 0ffers mostrando o rótulo &quot;Processamento&quot;
+
+As ofertas de imagem na página do Oferta às vezes retêm o rótulo de &quot;processamento&quot; por várias horas depois que as imagens são carregadas. Na maioria dos casos, isso é um problema apenas com o rótulo: as ofertas de imagem ainda podem ser usadas no atividade e entregues. Em alguns casos, no entanto, uma oferta de imagem pode não estar disponível para a ação Substituir conteúdo > Imagem. Se isso acontecer, você deve carregar a oferta de imagem novamente e verificar após algumas horas para ver se a oferta de imagem está disponível para substituição. (TGT-37458)
 
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
