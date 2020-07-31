@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1706'
 ht-degree: 32%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 31 de julho | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Novo problema conhecido adicionado: &quot;Ofertas de imagem mostrando o rótulo &quot;Processamento&quot;.&quot; |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Adição de amostra de código para usar `getoffers()` para executar pageLoad. |
 |  | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre a próxima pausa do Café da Comunidade do Adobe Target em 5 de agosto. |
 | 28 de julho | [Relatórios](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)de insights de personalização,relatório<br>[de segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados<br>e relatório de atributos [importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Texto atualizado na nota na parte superior dos tópicos. |
 |  | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Foram adicionadas as seguintes perguntas frequentes:<ul><li>Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Autoalocação?</li><li>Como a Autoalocação de modelos de construção é feita em relação aos ambientes?</li></ul> |
