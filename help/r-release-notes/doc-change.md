@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1693'
 ht-degree: 32%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 31 de julho | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Novo problema conhecido adicionado: &quot;Ofertas de imagem mostrando o rótulo &quot;Processamento&quot;.&quot; |
+|  | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre a próxima pausa do Café da Comunidade do Adobe Target em 5 de agosto. |
 | 28 de julho | [Relatórios](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)de insights de personalização,relatório<br>[de segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados<br>e relatório de atributos [importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Texto atualizado na nota na parte superior dos tópicos. |
 |  | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Foram adicionadas as seguintes perguntas frequentes:<ul><li>Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Autoalocação?</li><li>Como a Autoalocação de modelos de construção é feita em relação aos ambientes?</li></ul> |
 |  | [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) | Adição das seguintes perguntas frequentes:<ul><li>Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Público alvo automático?</li></ul>Texto atualizado na seção &quot;Considerações&quot;. |
