@@ -1,10 +1,10 @@
 ---
-keywords: announcements;skill builder;developer chat
+keywords: announcements;skill builder;developer chat;coffee break;events
 description: Informações sobre eventos futuros, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 title: Anúncios de Públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
+source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
