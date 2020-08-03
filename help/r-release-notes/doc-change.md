@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 3 de agosto | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md) | Foi adicionada uma observação esclarecendo o que as opções de Contagem [!UICONTROL de] incrementos significam em relação a visitantes vs. visitas. |
 | 31 de julho | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Novo problema conhecido adicionado: &quot;Ofertas de imagem mostrando o rótulo &quot;Processamento&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Adição de amostra de código para usar `getoffers()` para executar pageLoad. |
 |  | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre a próxima pausa do Café da Comunidade do Adobe Target em 5 de agosto. |
