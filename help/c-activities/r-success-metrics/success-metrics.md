@@ -4,10 +4,10 @@ description: No Adobe Target, as métricas de sucesso são pré-configuradas par
 title: Métricas de sucesso no Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,10 @@ Use as configurações avançadas para determinar o que acontece depois que um u
 | Incrementar contagem e manter o usuário na atividade | Especifique como a contagem é incrementada:<ul><li>Uma vez por participante (padrão)</li><li>Em todas as impressões, excluindo as atualizações de página</li><li>Em todas as impressões</li></ul> |
 | Incrementar a contagem, liberar o usuário e permitir reentrada | Selecione a experiência que o visitante vê ao entrar na atividade novamente:<ul><li>Mesma experiência (padrão)</li><li>Experiência aleatória</li><li>Experiência invisível</li></ul> |
 | Incrementar a contagem, liberar o usuário e proibir a reentrada do usuário | Determine o que o usuário vê no lugar do conteúdo da atividade:<ul><li>Mesma experiência, sem rastreamento (padrão)</li><li>Conteúdo padrão ou outro conteúdo da atividade</li></ul> |
+
+>[!NOTE]
+>
+>Se você configurar uma métrica para uma das opções de Contagem [!UICONTROL de] incrementos (mencionadas acima), a contagem de métricas incrementará corretamente apenas uma vez por participante no nível do visitante. A contagem de métricas aumenta uma vez por visita para cada nova sessão no nível da visita.
 
 ## Vídeo de treinamento: métricas de atividade
 
