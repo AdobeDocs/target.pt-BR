@@ -5,10 +5,10 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 32%
+source-wordcount: '1746'
+ht-degree: 31%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 4 de agosto | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre o webinar &quot;Estratégias de personalização usando inteligência artificial e Adobe Target&quot; programado para 13 de agosto. |
 | 3 de agosto | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md) | Foi adicionada uma observação esclarecendo o que as opções de Contagem [!UICONTROL de] incrementos significam em relação a visitantes vs. visitas. |
 | 31 de julho | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Novo problema conhecido adicionado: &quot;Ofertas de imagem mostrando o rótulo &quot;Processamento&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Adição de amostra de código para usar `getoffers()` para executar pageLoad. |
