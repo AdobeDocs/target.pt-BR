@@ -4,9 +4,9 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de Públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,13 @@ Junte-se ao Adobe e ao HSBC para este webinar para saber mais:
 [Inscreva-se neste webinar empolgante aqui](https://hsbc-targetai.experienceleague.adobeevents.com/).
 
 *Artigo da McKinsey: &quot;[A recuperação do COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maio de 2020
+
+## Webinar: Estratégias de personalização usando inteligência artificial e Adobe Target
+
+* **8:00 - 9:00 (PDT)**
+* **quinta-feira, 13 de agosto de 2020**
+
+[Registre-se neste webinar aqui](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
 
 ## Adobe Target Skill Builder: Bate-papo do desenvolvedor, migre o Adobe Target mbox.js para o at.js {#skill-builder}
 
