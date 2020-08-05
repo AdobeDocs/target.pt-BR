@@ -5,10 +5,10 @@ title: Notas de pré-lançamento do Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 580a4cbdc4ea164e858eadc2fe2923ab65711e2b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 22%
+source-wordcount: '391'
+ht-degree: 19%
 
 ---
 
@@ -40,11 +40,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 ## Target Standard/Premium 20.9.1 (2 de setembro de 2020)
 
-Esta versão de Público alvo inclui os seguintes novos recursos ou melhorias:
-
-| Recurso  / Aprimoramento | Descrição |
-| --- | --- |
-| Analytics for Target (A4T) suporte para atividades [!UICONTROL de Público alvo] automático | [!UICONTROL As atividades de Público alvo] automático oferecerão suporte ao [!UICONTROL Analytics for Público alvo] (A4T).<br>Essa integração permitirá que você use o aprendizado de máquina avançado com Público alvo [!UICONTROL automático para selecionar entre várias experiências definidas pelo profissional de marketing de alto desempenho para personalizar o conteúdo e gerar conversões, ao mesmo tempo que usa uma métrica de objetivo] Adobe Analytics [!UICONTROL e/ou recursos de] [!DNL Adobe Analytics] relatórios e análise. [!UICONTROL O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.]<br>Se você já tiver [implementado a A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para uso com o Teste A/B, a [!UICONTROL Autoalocação]e as atividades de direcionamento [!UICONTROL de] experiência, você está pronto! |
+Novos recursos, melhorias e correções nesta versão serão atualizados aqui.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
