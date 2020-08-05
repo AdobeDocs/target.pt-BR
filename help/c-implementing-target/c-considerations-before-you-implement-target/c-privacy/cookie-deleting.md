@@ -4,7 +4,7 @@ title: Excluir o cookie Adobe Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 8%
@@ -18,9 +18,10 @@ Você pode excluir os cookies [!DNL Target] do navegador para que possa validar 
 
 If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
-&lt;[!NOTE]
->As instruções a seguir estão corretas para os navegadores e versões listados. Procure na Internet instruções para o seu navegador ou versão específica.
+>[!NOTE]
 >
+>As instruções a seguir estão corretas para os navegadores e versões listados. Procure na Internet instruções para o seu navegador ou versão específica.
+
 ## Excluir cookies do Google Chrome
 
 Versão 84.0.4147.105
