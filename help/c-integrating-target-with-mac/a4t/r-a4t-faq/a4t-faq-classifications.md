@@ -1,28 +1,31 @@
 ---
-keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; classificações; classificação; importador de classificações; post-tnt-action
+keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: Este tópico contém respostas para as perguntas mais frequentes sobre classificação e uso do Analytics como fonte de geração de relatórios para o Target (A4T).
 title: Classificações - Perguntas frequentes sobre o A4T
-topic: Padrão
+topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 66%
 
 ---
 
 
 # Classificações - Perguntas frequentes do A4T{#classifications-a-t-faq}
 
-Este tópico contém respostas para as perguntas mais frequentes sobre classificação e uso do Analytics como fonte de geração de relatórios para o Target (A4T).
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## Depois de usar o Importador de classificações para baixar classificações, como faço para relacionar o valor de post-tnt-action com o nome de uma atividade? {#section_6045DAC488B248418F430E663C38D001}
 
-Você pode baixar as classificações para a cadeia de caracteres A4T/TNT do [Importador de classificação das Ferramentas administrativas](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html). A variável é chamada "TNT" na lista de exportação. Os dados baixados incluem os nomes amigáveis de atividades, experiências e assim por diante.
+Você pode baixar as classificações para a cadeia de caracteres A4T/TNT do [Importador de classificação das Ferramentas administrativas](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html). A variável é chamada &quot;TNT&quot; na lista de exportação. Os dados baixados incluem os nomes amigáveis de atividades, experiências e assim por diante.
 
 Este arquivo de pesquisa é útil para clientes que recebem a alimentação de dados de sequência de cliques da Adobe. O arquivo fornece nomes amigáveis para as colunas `post_tnt` e `post_tnt_action`.
 
 O formato da string da variável TNT é `activityID:experienceID:targettype|event`.
 
-* o tipo de direcionamento será sempre 0 para A4T.
+* tipo de destino = 0 (controle/aleatório) ou 1 (direcionado) para atividades de [!UICONTROL Autoalocação] e Público alvo  automático.
 * Evento = 0 representa entrada de uma experiência.
 * Evento = 1 representa visita de uma experiência.
 * Evento = 2 representa impressão de uma atividade.
