@@ -4,10 +4,10 @@ title: Direcionamento automático
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -198,14 +198,17 @@ O [!UICONTROL Direcionamento automático] pode ser usado como personalização &
 
 Se você quiser fazer alterações substanciais no conteúdo em sua atividade de [!UICONTROL Direcionamento automático], a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
 
-### Por quanto tempo devo esperar que os modelos sejam construídos?
+### Por quanto tempo devo esperar que os modelos sejam construídos? {#how-long}
 
-O tempo que leva para os modelos serem construídos em sua atividade de [!UICONTROL Direcionamento automático] normalmente depende do tráfego para a(s) localização(ões) de atividades selecionada(s) e a métrica de sucesso da atividade.
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-Para o [!UICONTROL Direcionamento automático], as regras básicas podem ser usadas para entender os requisitos de tráfego:
+[!UICONTROL O Público alvo] automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para essa experiência. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline em dados de &quot;teste&quot; suspensos, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para servir o tráfego de forma personalizada.
 
-* **Quando a conversão é a sua métrica de sucesso:** 1.000 visitas e pelo menos 50 conversões por dia e por experiência, além disso, a atividade deve ter pelo menos 7.000 visitas e 350 conversões.
-* **Quando a Receita por visita é sua métrica de sucesso:** 1.000 visitas e pelo menos 50 conversões por dia e por experiência, além disso, a atividade deve ter pelo menos 1.000 conversões por experiência. O RPV geralmente requer mais dados para criar modelos devido à maior variação de dados que normalmente existe na receita de visitas em comparação com a taxa de conversão.
+Alguns outros pontos para ter em mente sobre a construção de modelos do [!UICONTROL Público alvo]automático:
+
+* Quando uma atividade está ativa, o [!UICONTROL AutoPúblico alvo] considera até os últimos 45 dias de dados servidos aleatoriamente ao tentar criar modelos (ou seja, controlar o tráfego, mais alguns dados fornecidos aleatoriamente pelo nosso algoritmo).
+* Quando [!UICONTROL Receita por visita] é sua métrica de sucesso, essas atividades geralmente exigem mais dados para construir modelos devido à maior variação de dados que normalmente existe na receita da visita em comparação com a taxa de conversão.
+* Como os modelos são criados por experiência, substituir uma experiência por outra significa que tráfego suficiente (ou seja, pelo menos 50 conversões) deve ser coletado para a nova experiência antes que os modelos personalizados possam ser recriados.
 
 ### Um modelo é construído na minha atividade. As visitas a essa experiência são personalizadas?
 
