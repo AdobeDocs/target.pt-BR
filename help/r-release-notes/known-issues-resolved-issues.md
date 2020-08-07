@@ -4,10 +4,10 @@ description: Informações sobre problemas conhecidos para esta versão do Adobe
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
+source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 91%
+source-wordcount: '3421'
+ht-degree: 88%
 
 ---
 
@@ -124,9 +124,9 @@ Quando uma métrica de sucesso é definida para incrementação a cada impressã
 
 ### Analytics for Target (A4T)
 
-Atualmente, as impressões e as conversões das atividades do Target são contadas incorretamente na Analysis Workspace.
+Ao usar impressões e conversões de atividades de Públicos alvos no Analysis Workspace, aplique o modelo de Attribution IQ &quot;Mesmo toque&quot; às métricas para garantir uma contagem precisa. Para aplicar um modelo [de atribuição](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)não padrão, clique com o botão direito do mouse na métrica para **modificar Configurações de coluna > ativar Usar modelo de atribuição não padrão > selecionar modelo** de mesmo toque. Sem esse modelo aplicado, as métricas são sobrestimadas.
 
-Como solução alternativa, confie nos dados do A4T em Reports &amp; Analytics até que esse problema seja corrigido.
+Todos os pacotes atuais do Analytics têm a capacidade de adicionar esse modelo com o Attribution IQ. Se você não tiver acesso ao Attribution IQ, confie nos dados A4T no Relatórios e análises.
 
 ### APIs do Target
 
@@ -136,7 +136,7 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 
 No dia 10 de maio de 2020, atualizamos nossos arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores nas audiências existentes não tinham vírgula. Nem todos os nossos servidores de delivery foram afetados por esta mudança. Como resultado, as audiências que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
 
-### ofertas de imagem mostrando o rótulo &quot;Processamento&quot;
+### Ofertas de imagem mostrando o rótulo &quot;Processamento&quot;
 
 As ofertas de imagem na página do Oferta às vezes retêm o rótulo de &quot;processamento&quot; por várias horas depois que as imagens são carregadas. Na maioria dos casos, isso é um problema apenas com o rótulo: as ofertas de imagem ainda podem ser usadas no atividade e entregues. Em alguns casos, no entanto, uma oferta de imagem pode não estar disponível para a ação Substituir conteúdo > Imagem. Se isso acontecer, você deve carregar a oferta de imagem novamente e verificar após algumas horas para ver se a oferta de imagem está disponível para substituição. (TGT-37458)
 
@@ -146,14 +146,14 @@ Quando os problemas acima são resolvidos, são movidos para as seções a segui
 
 ### Relatórios e pedidos extremos
 
-De 25 de novembro de 2019 a 26 de abril de 2020, um servidor Target apresentou um problema que fazia com que valores extremos de pedido fossem contados em métricas de relatório baseadas em receita (AOV, RPV). De 19 de dezembro de 2019 a 23 de abril de 2020, outro servidor enfrentou o mesmo problema. Esse problema não afetou todos os servidores de Públicos alvos ou todos os clientes de Públicos alvos.
+De 25 de novembro de 2019 a 26 de abril de 2020, um servidor Público alvo apresentou um problema que fazia com que valores extremos de pedido fossem contados em métricas de relatório baseadas em receita (AOV, RPV). De 19 de dezembro de 2019 a 23 de abril de 2020, outro servidor enfrentou o mesmo problema. Esse problema não afetou todos os servidores de Públicos alvos ou todos os clientes de Públicos alvos.
 
 Você *não* foi afetado se:
 
 * A implementação do Público alvo usa servidores diferentes.
 * Seus relatórios não excluíram pedidos extremos.
 * Você usou uma métrica de conversão para medir suas atividades.
-* O seu Público alvo atividade usa o Analytics para Público alvo (A4T).
+* As atividades do Público alvo usam o Analytics para Públicos alvos (A4T).
 * Você está localizado na região Ásia-Pacífico (APAC).
 
 Para determinar se esse problema afetou seu relatórios do Público alvo, entre em contato com o [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
