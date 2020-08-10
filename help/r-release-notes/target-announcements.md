@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events
 description: Informações sobre eventos futuros, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
-title: Anúncios de Públicos alvos
+title: Anúncios de públicos alvos
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,16 @@ Anúncios e informações sobre os próximos eventos, incluindo sessões do Cons
 
 Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução. [Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-## Webinar: Como o HSBC utiliza a Adobe Target e a IA para otimizar e fornecer rapidamente personalização em escala
+## Webinar: Estratégias de personalização usando inteligência artificial e Adobe Target
 
 * **8:00 - 9:00 (PDT)**
-* **quinta-feira, 6 de agosto de 2020**
+* **quinta-feira, 13 de agosto de 2020**
+
+[Registre-se neste webinar aqui](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
+
+## Webinar: Como o HSBC utiliza a Adobe Target e a IA para otimizar e fornecer rapidamente personalização em escala
+
+* **Nos próximos 30 dias, você pode clicar aqui para visualização na Gravação[do](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Webinar.**
 
 McKinsey Digital relata que &quot;nós lançamos cinco anos para a adoção digital de consumidores e empresas em questão de cerca de oito semanas&quot;. *
 
@@ -38,13 +44,6 @@ Junte-se ao Adobe e ao HSBC para este webinar para saber mais:
 [Inscreva-se neste webinar empolgante aqui](https://hsbc-targetai.experienceleague.adobeevents.com/).
 
 *Artigo da McKinsey: &quot;[A recuperação do COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maio de 2020
-
-## Webinar: Estratégias de personalização usando inteligência artificial e Adobe Target
-
-* **8:00 - 9:00 (PDT)**
-* **quinta-feira, 13 de agosto de 2020**
-
-[Registre-se neste webinar aqui](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
 
 ## Adobe Target Skill Builder: Bate-papo no desenvolvedor, migre o Adobe Target mbox.js para o at.js {#skill-builder}
 
