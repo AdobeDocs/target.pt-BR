@@ -5,9 +5,9 @@ title: Alterações na documentação do produto Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1843'
 ht-degree: 31%
 
 ---
@@ -21,6 +21,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 10 de agosto | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Foi adicionado um texto indicando que o tamanho do cabeçalho do cookie aumentará ao usar CNAME. |
+|  | [Integrar Público alvo ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | Novo tópico. |
+|  | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foi adicionado um link para a visualização do seguinte webinar arquivado: &quot;Como o HSBC utiliza a Adobe Target e a IA para otimizar e fornecer rapidamente a personalização em escala.&quot; |
 | 6 de agosto | [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md#how-long) | Texto atualizado para as seguintes perguntas frequentes: &quot;Quanto tempo devo esperar que os modelos construam?&quot; |
 |  | [Classificações - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Atualização do texto para o tipo de destino. |
 | 5 de agosto | [Excluir o cookie do Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Atualização de todo o tópico. |
@@ -51,7 +54,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 14 de julho | [Autoalocar](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),Público alvo<br>[](/help/c-activities/auto-target-to-optimize.md)automático<br><br>[e perguntas frequentes de personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Foram adicionadas perguntas frequentes recomendando que você não alterasse a métrica de objetivo a meio de uma atividade. |
 | 7 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café Adobe Target de 8 de julho. |
 | 25 de junho | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 20.6.1 (julho de 2020). |
-|  | [Visão geral da documentação do Público alvo](/help/r-release-notes/target-documentation.md) | Novo tópico detalhando as diferentes fontes de [!DNL Target] documentação. |
+|  | [Visão geral da documentação do público alvo](/help/r-release-notes/target-documentation.md) | Novo tópico detalhando as diferentes fontes de [!DNL Target] documentação. |
 | 23 de junho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café Adobe Target de 24 de junho. |
 |  | [Atributos do perfil](/help/c-target/c-visitor-profile/profile-parameters.md) | Foi adicionada uma observação informando que a criação de scripts de perfil dependentes que usam o resultado de um script de perfil em outro script de perfil não é recomendada. |
 |  | [Como a at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Adicionado o seguinte vídeo: Horas de escritório: dicas e visão geral do at.js |
@@ -77,7 +80,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 5 de junho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café Adobe Target de 10 de junho. |
 |  | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Texto atualizado para as seguintes perguntas frequentes: &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | 4 de junho | [Relatórios do A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Atualização da seção &quot;Relatórios no Analytics&quot;. |
-| 1 de junho | [Anúncios de Públicos alvos](/help/r-release-notes/target-announcements.md) | Nova página adicionada para anunciar eventos futuros do Público alvo. |
+| 1 de junho | [Anúncios de públicos alvos](/help/r-release-notes/target-announcements.md) | Nova página adicionada para anunciar eventos futuros do Público alvo. |
 |  | [Visores móveis para experiências responsivas](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Atualizadas as dimensões e resoluções do visor para os modelos Apple iPhone 11, Apple iPhone SE e Google Pixel 2 XL. |
 | Maio de 28 | [Perguntas frequentes de geração de relatórios](/help/c-reports/reporting-frequently-asked-questions.md) | Adicionadas as seguintes perguntas frequentes: <ul><li>Como as métricas Novos Visitantes e Visitantes de Retorno são contadas?</li></ul> |
 | Maio de 27 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para a Autoalocação de atividades. |
@@ -106,9 +109,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 28 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram removidas informações sobre o uso `user.header('x-forwarded-for')` com bordas AWS mais recentes para recuperar os endereços IP dos usuários. Esse comando agora funciona com bordas AWS mais recentes. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Data alterada da versão do Target Standard/Premium (20.4.1) para 6 de maio. |
 | Abril de 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
-| Abril de 22 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Nova seção adicionada: *Alterações na API de status de lote de Perfis v2 (4 de maio de 2020).* |
+| Abril de 22 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Nova seção adicionada: *Alterações na API de status de lote de perfis v2 (4 de maio de 2020).* |
 | Abril de 20 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Nova seção adicionada: *Adobe Target Skill Builder: Bate-papo no desenvolvedor, migre o mbox.js do Adobe Target para o at.js.* |
-| Abril de 14 | [Lista de permissões hosts de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Novo tópico. |
+| Abril de 14 | [lista de permissões hosts de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Novo tópico. |
 | Abril de 10 | [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nova seção adicionada: &quot;Práticas recomendadas de implementação.&quot; |
 | Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | Abril de 2 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram adicionadas informações sobre como usar `user.header('x-forwarded-for')` as bordas AWS mais recentes para recuperar os endereços IP dos usuários. |
@@ -117,7 +120,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas as seguintes informações aos detalhes da versão 2.2.0 do at.js:<ul><li>Correção de um problema que fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página.</li></ul> |
 | 25 de março | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas informações sobre as seguintes novas versões do at.js:<ul><li>at.js versão 2.3.0</li><li>at.js versão 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Foram adicionadas as novas linhas a seguir na seção &quot;Configurações&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Adição da seguinte nova seção:<ul><li>Política de segurança de conteúdo</li></ul> |
-| 24 de março | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Foram adicionadas informações sobre os impactos para o seguinte:<ul><li>Scripts de Perfil com base em 3rdPartyID</li><li>URLs de QA/Pré-visualização em dispositivos iOS</li></ul> |
+| 24 de março | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Foram adicionadas informações sobre os impactos para o seguinte:<ul><li>Scripts de perfil com base em 3rdPartyID</li><li>URLs de QA/Pré-visualização em dispositivos iOS</li></ul> |
 | 20 de março | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Indicado que a versão do Target Standard/Premium 20.2.1 será 23 de março de 2020. |
 | 13 de março | [Limites](/help/r-troubleshooting-target/target-limits.md) | Número de &quot;Audiências reutilizáveis por conta&quot; atualizado. |
 | 12 de março | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md#summit) | Foram adicionadas informações de registro para acesso gratuito à conferência online do Digital Summit. |
