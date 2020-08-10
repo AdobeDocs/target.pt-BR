@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1429'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md)
    + [Notas de versão do Target (atual)](r-release-notes/release-notes.md)
    + [Notas de versão do Target (pré-lançamento)](r-release-notes/target-release-notes.md)
-   + [Visão geral da documentação do Público alvo](/help/r-release-notes/target-documentation.md)
+   + [Visão geral da documentação do público alvo](/help/r-release-notes/target-documentation.md)
    + [informativo Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problemas conhecidos e problemas resolvidos](r-release-notes/known-issues-resolved-issues.md)
    + [Atualizações do status do sistema e notificações proativas](r-release-notes/system-status-updates.md)
@@ -43,7 +43,7 @@ ht-degree: 98%
    + Relatório {#reporting}
       + [Configurar relatórios](/help/administrating-target/reporting.md)
       + [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Configuração do Scene7](administrating-target/scene7-settings.md)
+   + [Configuração Scene7](administrating-target/scene7-settings.md)
    + [Implementação](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
    + [Ambientes](/help/administrating-target/environments.md)
@@ -182,6 +182,7 @@ ht-degree: 98%
          + [Integração herdada do SiteCatalyst com o Test&amp;Target - Perguntas frequentes do A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Públicos-alvo da Experience Cloud](c-integrating-target-with-mac/mmp.md)
+   + [Integrar Público alvo ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integração do Target ao Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Device Co-op da Experience Cloud](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Atividades {#activities}
