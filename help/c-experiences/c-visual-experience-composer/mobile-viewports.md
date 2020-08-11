@@ -4,10 +4,10 @@ description: Os visores móveis ajudam você a pré-visualização de como suas 
 title: Visualizações móveis para experiências responsivas
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 66%
+source-wordcount: '1402'
+ht-degree: 71%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-Este caso de uso mostra como configurar experiências para duas versões do iPhone: iPhone 11 Pro Max e iPhone SE.
+Este caso de uso mostra como configurar experiências para duas versões do iPhone: iPhone 6 e iPhone 6 Plus.
 
-1. No Público alvo, clique em **[!UICONTROL Administração]**.
-1. Na seção de configuração **[!UICONTROL do visualizador]** móvel, crie visores móveis para iPhone 11 Pro Max e iPhone SE.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    Use as seguintes configurações para cada janela:
 
    | Nome | Largura | Altura | Sistema operacional |
    |---|---|---|---|
-   | iPhone 11 Pro máx | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Crie uma atividade com a experiência que você gostaria de público alvo.
-1. Selecione a experiência que deseja público alvo para visitantes que acessam seu site a partir de um iPhone 11 Pro Max ou iPhone SE.
+1. Selecione a experiência que deseja exibir para visitantes que acessarem seu site com um iPhone 6 ou iPhone 6 Plus.
 1. Ao selecionar sua meta, clique em **[!UICONTROL Criar público-alvo]** e configure um público como mostrado na imagem abaixo:
 
    ![](assets/iphoneaudiences.png)
 
-   Como o telefone pode ser girado para paisagem, exigir que a altura e a largura sejam maiores que 320 simultaneamente cria uma condição que somente o iPhone 11 Pro Max e o iPhone SE poderiam atender, quando combinados com o Modelo de dispositivo iPhone.
+   Como o celular pode ficar na posição paisagem, o requerimento de altura e largura serem maior que 320 simultaneamente cria uma condição que somente o 6 e o 6 Plus podem atender, quando combinado com o modelo do dispositivo iPhone.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Continue configurando sua atividade como normalmente faria.
 
