@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: Crie públicos no Adobe Target para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 title: Perfil do visitante
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil
    * Primeira página da sessão
    * Não é a primeira página da sessão
    * Afinidade de categorias
+
    Um perfil de visitante é criado na memória de borda local para cada chamada de mbox com um novo `mboxPC`. Após 30 minutos de inatividade, o perfil é salvo no banco de dados de destino e pode ser acessado de outras bordas.
 
    Quando um visitante do site faz logon no meio de uma sessão e obtém um `3rdpartyId`, todos os atributos de perfil previamente carregados e vinculados ao `3rdPartyId` ficam imediatamente disponíveis.
@@ -39,7 +44,7 @@ Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criando o selo ![Visão geral de públicos-alvo](/help/assets/overview.png)
+## Vídeo de treinamento: Criando o selo ![Visão geral do Audiência](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
