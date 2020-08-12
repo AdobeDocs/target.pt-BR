@@ -1,11 +1,15 @@
 ---
-keywords: mboxCreate; mboxcreate; criar mbox; at.js; funções; função
+keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
 description: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
 title: Informações sobre a função mboxCreate(mbox,params) da biblioteca at.js de JavaScript do Adobe Target.
-subtopic: Introdução
-topic: Padrão
+feature: null
+subtopic: Getting Started
+topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +37,7 @@ A função está incorporada na [!DNL at.js], principalmente para facilitar a tr
 
 ## Notas
 
-`mboxCreate()` agora usa o terminal "json" ao invés de "standard" e dispara de maneira assíncrona. Por esse motivo:
+`mboxCreate()` agora usa o terminal &quot;json&quot; ao invés de &quot;standard&quot; e dispara de maneira assíncrona. Por esse motivo:
 
 * [Depuração](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) é diferente.
 * Evite oferecer código que exija chamadas bloqueio sincrônicas.
