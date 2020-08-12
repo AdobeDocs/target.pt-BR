@@ -1,10 +1,14 @@
 ---
-keywords: Direcionamento
+keywords: Targeting
 description: O principal algoritmo de personalização do Target usado na Personalização automatizada e no Direcionamento automático é o Random Forest. Métodos de conjunto como a Random Forest usam vários algoritmos de aprendizagem para obter desempenhos preditivos melhores dos que poderiam ser obtidos de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest da Personalização automatizada é um método de classificação ou regressão que funciona por meio da construção de várias de árvores de decisão durante o treinamento.
 title: Algoritmo Random Forest
+feature: null
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 99%
 
 ---
 
@@ -13,13 +17,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 O principal algoritmo de personalização do Target usado na Personalização automatizada e no Direcionamento automático é o Random Forest. Métodos de conjunto como a Random Forest usam vários algoritmos de aprendizagem para obter desempenhos preditivos melhores dos que poderiam ser obtidos de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest da Personalização automatizada é um método de classificação ou regressão que funciona por meio da construção de várias de árvores de decisão durante o treinamento.
 
-Quando você pensa em estatísticas, um único modelo de regressão usado para prever um resultado pode vir à mente. A pesquisa mais recente em ciência de dados sugere que "métodos conjuntos", em que vários modelos são criados a partir do mesmo conjunto de dados e depois combinados de forma inteligente, produzem melhores resultados do que a previsão baseada em um único modelo.
+Quando você pensa em estatísticas, um único modelo de regressão usado para prever um resultado pode vir à mente. A pesquisa mais recente em ciência de dados sugere que &quot;métodos conjuntos&quot;, em que vários modelos são criados a partir do mesmo conjunto de dados e depois combinados de forma inteligente, produzem melhores resultados do que a previsão baseada em um único modelo.
 
 O algoritmo Random Forest é a chave subjacente ao algoritmo de personalização usado nas atividades de Personalização automatizada e Direcionamento automático. A Random Forest combina centenas de árvores de decisões para chegar a uma melhor previsão do que uma única árvore poderia fazer sozinha.
 
 ## O que é uma Árvore de decisão? {#section_7F5865D8064447F4856FED426243FDAC}
 
-O objetivo de uma árvore de decisão é decompor todos os dados de visita disponíveis que um sistema pode aprender e, em seguida, agrupar esses dados, onde as visitas dentro de cada grupo são tão semelhantes quanto possível umas às outras em relação à métrica de meta. Nos grupos, no entanto, as visitas são tão diferentes quanto possível, com relação à métrica de meta (por exemplo, taxa de conversão). A árvore de decisão analisa as diferentes variáveis que possui no conjunto de treinamento para determinar como dividir os dados em um modo MECE (Mutualmente-Exclusivo-Coletivamente-Exaustivo) nesses grupos (ou "folhas") para maximizar esse objetivo.
+O objetivo de uma árvore de decisão é decompor todos os dados de visita disponíveis que um sistema pode aprender e, em seguida, agrupar esses dados, onde as visitas dentro de cada grupo são tão semelhantes quanto possível umas às outras em relação à métrica de meta. Nos grupos, no entanto, as visitas são tão diferentes quanto possível, com relação à métrica de meta (por exemplo, taxa de conversão). A árvore de decisão analisa as diferentes variáveis que possui no conjunto de treinamento para determinar como dividir os dados em um modo MECE (Mutualmente-Exclusivo-Coletivamente-Exaustivo) nesses grupos (ou &quot;folhas&quot;) para maximizar esse objetivo.
 
 Em um exemplo simples, vamos supor que temos apenas duas variáveis de entrada:
 
@@ -28,13 +32,13 @@ Em um exemplo simples, vamos supor que temos apenas duas variáveis de entrada:
 
 Se nossa métrica de meta for conversão, a árvore primeiro determinará qual das nossas duas variáveis explica a maior quantidade de variação na taxa de conversão dos dados da visita.
 
-Vamos dizer que o código postal é mais preditivo. Esta variável formaria então a primeira "ramificação" da árvore. A árvore de decisão determinaria então como dividir os dados da visita, como a taxa de conversão dos registros dentro de cada divisão que seria a mais semelhante possível, e a taxa de conversão entre as divisões que seria tão diferente quanto possível. Em nosso exemplo, assumiremos que 11111, 22222, 33333 pertencem a uma divisão e 44444 e 55555 pertencem à segunda divisão.
+Vamos dizer que o código postal é mais preditivo. Esta variável formaria então a primeira &quot;ramificação&quot; da árvore. A árvore de decisão determinaria então como dividir os dados da visita, como a taxa de conversão dos registros dentro de cada divisão que seria a mais semelhante possível, e a taxa de conversão entre as divisões que seria tão diferente quanto possível. Em nosso exemplo, assumiremos que 11111, 22222, 33333 pertencem a uma divisão e 44444 e 55555 pertencem à segunda divisão.
 
 Esta ação resultaria na primeira camada da nossa árvore de decisão:
 
 ![](assets/decsion_tree_1.png)
 
-A árvore de decisão faria a pergunta: "Qual é a variável mais previsível?" No nosso exemplo, temos apenas duas variáveis, então a resposta aqui é claramente de gênero. A árvore agora procurará concluir um exercício semelhante para dividir os dados *dentro de cada ramificação*. Primeiro, vamos considerar a ramificação 11111, 22222 e 33333. Nestes códigos postais, se houver uma diferença na conversão entre homens e mulheres, então haveria duas folhas (homens e mulheres), e esta ramificação estaria completa. Na outra ramificação, 44444 e 55555, vamos supor que não há diferença estatística entre a conversão de mulheres e homens. Neste caso, a primeira ramificação torna-se a divisão final.
+A árvore de decisão faria a pergunta: &quot;Qual é a variável mais previsível?&quot; No nosso exemplo, temos apenas duas variáveis, então a resposta aqui é claramente de gênero. A árvore agora procurará concluir um exercício semelhante para dividir os dados *dentro de cada ramificação*. Primeiro, vamos considerar a ramificação 11111, 22222 e 33333. Nestes códigos postais, se houver uma diferença na conversão entre homens e mulheres, então haveria duas folhas (homens e mulheres), e esta ramificação estaria completa. Na outra ramificação, 44444 e 55555, vamos supor que não há diferença estatística entre a conversão de mulheres e homens. Neste caso, a primeira ramificação torna-se a divisão final.
 
 Nosso exemplo resultaria na árvore abaixo:
 
@@ -42,7 +46,7 @@ Nosso exemplo resultaria na árvore abaixo:
 
 ## Como as Árvores de decisão são usadas pelo Random Forest?  {#section_536C105EF9F540C096D60450CAC6F627}
 
-Árvores de decisão podem ser uma poderosa ferramenta estatística. No entanto, elas têm algumas desvantagens. Mais criticamente, elas podem "encaixar" os dados de modo que uma árvore individual mal possa prever os dados futuros que não foram usados para construir a árvore inicial. Este desafio é conhecido como [compensação de viés-variância](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) na aprendizagem estatística. Random forests ajudam a superar esse desafio de superajuste. No nível mais alto, uma random forest é uma coleção de árvores de decisão que são construídas de forma ligeiramente diferente no mesmo conjunto de dados que "votam" juntos para produzir um modelo melhor que uma árvore individual. As árvores são construídas aleatoriamente selecionando um subconjunto de registros de visitas com substituição (conhecida como embalagem), bem como selecionando aleatoriamente um subconjunto dos atributos, de modo que a floresta consista em árvores de decisão ligeiramente diferentes. Este método introduz pequenas variações nas árvores criadas na Random forest. Adicionar essa quantidade controlada de variação ajuda a melhorar a precisão da previsão do algoritmo.
+Árvores de decisão podem ser uma poderosa ferramenta estatística. No entanto, elas têm algumas desvantagens. Mais criticamente, elas podem &quot;encaixar&quot; os dados de modo que uma árvore individual mal possa prever os dados futuros que não foram usados para construir a árvore inicial. Este desafio é conhecido como [compensação de viés-variância](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) na aprendizagem estatística. Random forests ajudam a superar esse desafio de superajuste. No nível mais alto, uma random forest é uma coleção de árvores de decisão que são construídas de forma ligeiramente diferente no mesmo conjunto de dados que &quot;votam&quot; juntos para produzir um modelo melhor que uma árvore individual. As árvores são construídas aleatoriamente selecionando um subconjunto de registros de visitas com substituição (conhecida como embalagem), bem como selecionando aleatoriamente um subconjunto dos atributos, de modo que a floresta consista em árvores de decisão ligeiramente diferentes. Este método introduz pequenas variações nas árvores criadas na Random forest. Adicionar essa quantidade controlada de variação ajuda a melhorar a precisão da previsão do algoritmo.
 
 ## Como os algoritmos de personalização do Target usam a Random Forest?  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
@@ -68,7 +72,7 @@ Quando um modelo se torna válido para uma experiência ou oferta, o ícone do r
 
 Antes de os dados passarem pelo algoritmo de personalização, eles passam por uma transformação de recurso, que pode ser considerada como preparação dos dados coletados nos registros de treinamento para uso pelos modelos de personalização.
 
-As transformações de recurso dependem do tipo de atributo. Principalmente, existem dois tipos de atributos (ou "recursos", como às vezes são descritos pelos cientistas de dados):
+As transformações de recurso dependem do tipo de atributo. Principalmente, existem dois tipos de atributos (ou &quot;recursos&quot;, como às vezes são descritos pelos cientistas de dados):
 
 * **Categóricos:** os recursos categóricos não podem ser contados, mas podem ser classificados em grupos diferentes. Eles podem ser recursos como país, gênero ou CEP.
 * **Numérico:** os recursos numéricos podem ser medidos ou contados, como idade, renda etc.
@@ -79,6 +83,6 @@ Para recursos categóricos, um conjunto de todos os recursos possíveis é manti
 
 Depois que o Target tiver modelos de personalização criados para personalizar seu tráfego, haverá uma compensação clara para os futuros visitantes de sua atividade: você deve personalizar todo o tráfego com base no modelo atual ou continuar aprendendo com novos visitantes apresentado-lhes ofertas aleatórias? Você quer ter certeza de que o algoritmo de personalização está sempre aprendendo sobre novas tendências em seus visitantes, enquanto personaliza a maior parte do tráfego.
 
-O multi-arm bandit é usando pelo Target para ajudar você a atingir esta meta. O multi-arm bandit garante que o modelo esteja sempre "gastando" uma pequena fração do tráfego para continuar aprendendo durante toda a vida do aprendizado da atividade e para evitar a exploração excessiva de tendências aprendidas anteriormente.
+O multi-arm bandit é usando pelo Target para ajudar você a atingir esta meta. O multi-arm bandit garante que o modelo esteja sempre &quot;gastando&quot; uma pequena fração do tráfego para continuar aprendendo durante toda a vida do aprendizado da atividade e para evitar a exploração excessiva de tendências aprendidas anteriormente.
 
 No mundo da ciência de dados, o problema multi-armed bandit (MAB) é um exemplo clássico de exploração versus o dilema de exploração no qual uma coleção de one-armed bandits, todos com probabilidade de recompensa desconhecida, é atribuída. A ideia principal é desenvolver uma estratégia, que resulta na execução do segmento com a maior probabilidade de sucesso para que a recompensa total obtida seja maximizada. O multi-armed bandit é usado no sistema quando a pontuação online após os modelos online é criada. Isso o ajuda com o aprendizado online durante a exploração. O algoritmo multi-armed atual é o algoritmo ganancioso epsílon (ε). Nesse algoritmo, com probabilidade 1- ε, o melhor segmento é escolhido. E, com a probabilidade ε, qualquer outro segmento é escolhido aleatoriamente.
