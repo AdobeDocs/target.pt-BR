@@ -1,11 +1,15 @@
 ---
-keywords: personalização automatizada;oferta;relatório;grupo;grupo de relatórios;personalização automatizada;oferta;relatório;grupo;grupo de relatórios
-description: Informações sobre como usar grupos de relatórios em atividades de Personalização automatizada (AP) no Adobe Target.
-title: Ofereça grupos de relatórios em atividades de Personalização automatizada (AP) no Adobe Target
+keywords: automated personalization;offer;reporting;group;reporting group
+description: Informações sobre como usar grupos de relatórios no Automated Personalization (AP) atividade no Adobe Target.
+title: Grupos de relatórios de oferta no Automated Personalization (AP) atividade no Adobe Target
+feature: null
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +25,7 @@ Os grupos de relatórios executam duas funções-chave:
 
 When you use reporting groups, [!DNL Target] creates only one personalization model for each reporting group instead of each offer in your AP activity using the data from all offers in that group.
 
-Se a configuração da atividade não tiver dados suficientes para criar um modelo de personalização por oferta, os grupos de relatórios poderão ajudar a reduzir os requisitos de dados para usar a Personalização automatizada. Os grupos de relatórios também podem ajudar a resolver o problema de "inicialização imediata" para novas ofertas, agrupando ofertas semelhantes para que cada modelo receba mais dados para treinar. Os grupos de modelagem também podem ser usados para atividades em que novas ofertas estão sendo introduzidas regularmente na atividade de AP.
+Se a configuração da atividade não tiver dados suficientes para criar um modelo de personalização por oferta, os grupos de relatórios poderão ajudar a reduzir os requisitos de dados para usar a Personalização automatizada. Os grupos de relatórios também podem ajudar a resolver o problema de &quot;inicialização imediata&quot; para novas ofertas, agrupando ofertas semelhantes para que cada modelo receba mais dados para treinar. Os grupos de modelagem também podem ser usados para atividades em que novas ofertas estão sendo introduzidas regularmente na atividade de AP.
 
 Essa abordagem funciona bem se os visitantes responderem da mesma maneira a todas as ofertas de um grupo. A prática recomendada é agrupar as ofertas nas quais grupos semelhantes de visitantes respondem de maneira similar. Ou seja, agrupe ofertas com taxas de conversão semelhantes. Você nunca deve colocar todas as ofertas em um único grupo de relatórios. Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
 
@@ -36,11 +40,11 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
    ![](assets/ap_manage_content.png)
 
 1. Clique na guia **[!UICONTROL Ofertas]** na parte superior da caixa de diálogo [!UICONTROL Gerenciar conteúdo].
-1. (Condicional) Adicione experiências específicas a um grupo de relatórios, passando o mouse sobre a oferta desejada e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios].**
+1. (Condicional) Adicione experiências específicas a um grupo de relatórios, passando o mouse sobre a oferta desejada e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios]**.
 
    ![](assets/ap_manage_content_2.png)
 
-1. (Condicional) Adicione experiências em lote a um grupo de relatórios, marcando a caixa de seleção das experiências relevantes e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios]no canto superior direito da caixa de diálogo.**
+1. (Condicional) Adicione experiências em lote a um grupo de relatórios, marcando a caixa de seleção das experiências relevantes e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios]** no canto superior direito da caixa de diálogo.
 
    ![](assets/ap_manage_content_3.png)
 
