@@ -2,10 +2,11 @@
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 title: Metas e Configurações
+feature: null
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 96%
@@ -68,7 +69,7 @@ Consulte [Métricas de sucesso](../../../c-activities/r-success-metrics/success-
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Configurações de Atividade (3:02) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+### Configurações de atividade (3:02) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
