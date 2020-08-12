@@ -1,11 +1,15 @@
 ---
-keywords: opções do visual experience composer, opções do visual experience composer, opções de experiência, editar texto, editar html, editar texto/html, editar cor de fundo, cor de fundo, inserir elemento, editar link, link, link do visual experience composer, editar classe css, classe css, trocar oferta, troca de oferta, trocar imagem, troca de imagem, remover item, remoção de item, ocultar item, ocultação de item, reorganizar, mover elemento, movimentação de elemento, redimensionar elemento, redimensionamento de elemento, elemento, expandir seleção, navegar até este link, navegar pelo link, navegação no link, navegar, desfazer, refazer, desfazer/refazer
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Ao clicar em um elemento de página no Visual Experience Composer (VEC) do Adobe Target, um menu mostrará as opções disponíveis para esse tipo de elemento.
 title: Opções do Visual Experience Composer (VEC) do Adobe Target
-topic: Padrão
+feature: null
+topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +59,7 @@ Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pod
 
 Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.
 
-Para acessar o painel [!UICONTROL Estilos], clique em um elemento de página no VEC e em **[!UICONTROL Editar]** &gt; **[!UICONTROL Estilos]**.
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 O painel [!UICONTROL Estilos] é exibido no lado direito do VEC. O painel contém uma lista de estilos que permite editar ou adicionar ao elemento selecionado. Um Editor de CSS em tempo real permite exibir alterações e adicionar estilos se você estiver familiarizado com o uso de Folhas de estilo em cascata (CSS) ou se receber um código do desenvolvedor.
 
@@ -109,6 +113,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
    * Automático
    * Valor (arraste o controle deslizante para definir a margem ou especifique o número de pixels para cada margem)
+
    A margem suporta valores positivos e negativos.
 
    O Target também é compatível com outras unidades de tamanho, como rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
    * Estilo da borda (nenhum, oculta, pontilhada, tracejada, sólida ou dupla)
    * Cor da borda (especifique o código de cor ou use o seletor de cores)
    * Largura da borda (arraste o controle deslizante para selecionar uma largura de borda ou especifique a largura em pixels)
+
    A borda suporta escalas de largura a partir de 0.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Position**
 
-   Mova o elemento selecionado da posição atual. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Mova o elemento selecionado da posição atual. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Clique na lista suspensa [!UICONTROL Estático] para escolher entre as seguintes opções de posição:
 
@@ -147,10 +153,12 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
    * Absoluto
    * Aderente
    * Fixo
+
    Clique no ícone suspenso de cada posição para escolher entre as seguintes opções:
 
    * Automático
    * Valor (arraste o controle deslizante para posicionar o elemento ou especifique o número de pixels que deseja mover o elemento)
+
    A posição suporta valores positivos e negativos.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
@@ -274,7 +282,7 @@ Após a sincronização da atividade, o URL de entrega pode ser parecido com o s
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-O Recommendations suporta a opção "Substituir por" nas tags DIV, SECTION e ARTICLE.
+O Recommendations suporta a opção &quot;Substituir por&quot; nas tags DIV, SECTION e ARTICLE.
 
 **Observação:** a troca de imagens exige uma conta do sistema de publicação do Adobe Scene7.
 
@@ -324,7 +332,7 @@ Ocultar o elemento. O espaço em branco permanece, mas o conteúdo é removido.
 
 Remova o elemento. O espaço em branco atrás da imagem é removido e o espaço onde o elemento estava é recolhido.
 
-**Observação:** os itens de uma mbox "clássica" (uma mbox criada em uma campanha do Target Classic) não podem ser removidos usando esta opção.
+**Observação:** os itens de uma mbox &quot;clássica&quot; (uma mbox criada em uma campanha do Target Classic) não podem ser removidos usando esta opção.
 
 ### Expandir seção
 
