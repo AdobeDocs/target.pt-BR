@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;enviar notificações;notificações;at.js;funções;função
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
 description: Informações sobre a função adobe.target.sendNotifications(options) da biblioteca at.js de JavaScript do Adobe Target.
 title: Informações sobre a função adobe.target.sendNotifications(options) da biblioteca at.js de JavaScript do Adobe Target.
-subtopic: Introdução
-topic: Padrão
+feature: null
+subtopic: Getting Started
+topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 100%
 
 ---
 
@@ -28,32 +32,32 @@ Esta função envia uma notificação para a borda do Target quando uma experiê
 
 | Nome do campo | Tipo | Obrigatório? | Limitação | Descrição |
 | --- | --- | --- | --- | --- |
-| Request &gt; notifications | Matriz de objetos | Sim |  | Notificações para o conteúdo exibido, seletores clicados e/ou exibições ou mboxes visitadas. |
-| Request &gt; notifications &gt; address | Objeto | Não |  |  |
-| Request &gt; notifications &gt; address &gt; url | String | Não |  | URL de onde a notificação foi disparada. |
-| Request &gt; notifications &gt; address &gt; referringUrl | String | Não |  | O URL de referência do qual a notificação foi disparada. |
-| Request &gt; notifications &gt; parameters | Objeto | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com "perfil".</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
-| Request &gt; notifications &gt; profileParameters | Objeto | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com "perfil".</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
-| Request &gt; notifications &gt; order | Objeto | Não |  | Objeto que descreve os detalhes da ordem. |
-| Request &gt; notifications &gt; order &gt; id | String | Não | `<=` 250 caracteres. | ID do pedido. |
-| Request &gt; notifications &gt; order &gt; total | String | Não | `>=` 0 | Total do pedido. |
-| Request &gt; notifications &gt; order &gt; purchasedProductIds | Matriz de string | Não | <ul><li>Valores em branco não são permitidos.</li><li>Comprimento máx. da ID de produto: 50.</li><li>IDs de produto, separadas por vírgulas e concatenadas, o comprimento total não pode exceder 250.</li></ul> | Identificações de produto da ordem. |
-| Request &gt; notifications &gt; product | Objeto | Não |  |  |
-| Request &gt; notifications &gt; product &gt; id | String | Não | `<=` 128 caracteres; não pode ficar em branco. | Identificação do produto. |
-| Request &gt; notifications &gt; product &gt; categoryId | String | Não | `<=` 128 caracteres; não pode ficar em branco. | Identificação da categoria. |
-| Request &gt; notifications &gt; id | String | Sim | `<=` 200 caracteres. | A ID da notificação será retornada em resposta e indicará que a notificação foi processada com sucesso. |
-| Request &gt; notifications &gt; impressionId | String | Não | `<= 128` caracteres. | A ID da impressão é usada para unir (vincular) a notificação atual com uma notificação anterior ou executar a solicitação. Caso as duas correspondam, a segunda e as solicitações subsequentes não gerarão uma nova impressão para a atividade ou experiência. |
-| Solicitação &gt; notificações &gt; tipo | String | Sim | “click” ou “display” são suportados. | Tipo de notificação. |
-| Request &gt; notifications &gt; timestamp | Número`<int64>` | Sim |  | O carimbo de data e hora da notificação em milissegundos decorridos desde a época UNIX. |
-| Request &gt; notifications &gt; tokens | Matriz de string | Sim |  | Uma lista de tokens para o conteúdo exibido ou para os seletores clicados, com base no tipo de notificação. |
-| Request &gt; notifications &gt; mbox | Objeto | Não |  | Notificações para a mbox. |
-| Request &gt; notifications &gt; mbox &gt; name | String | Não | Valores em branco não são permitidos.<br>Caracteres permitidos: consulte a observação após a tabela. | nome da mbox. |
-| Request &gt; notifications &gt; mbox &gt; state | String | Não |  | token de estado da mbox. |
-| Request &gt; notifications &gt; view | Objeto | Não |  |  |
-| Request &gt; notifications &gt; view &gt; id | Número inteiro `<int64>` | Não |  | Identificação de exibição. A identificação atribuída à exibição quando ela foi criada por meio da API de exibição. |
-| Request &gt; notifications &gt; view &gt; name | String | Não | `<= 128` caracteres. | Nome da exibição. |
-| Request &gt; notifications &gt; view &gt; key | String | Não | `<=` 512 caracteres. | Chave da exibição. A chave definida para a exibição por meio da API. |
-| Request &gt; notifications &gt; view &gt; state | String | Não |  | Token de estado da exibição. |
+| Request > notifications | Matriz de objetos | Sim |  | Notificações para o conteúdo exibido, seletores clicados e/ou exibições ou mboxes visitadas. |
+| Request > notifications > address | Objeto | Não |  |  |
+| Request > notifications > address > url | String | Não |  | URL de onde a notificação foi disparada. |
+| Request > notifications > address > referringUrl | String | Não |  | O URL de referência do qual a notificação foi disparada. |
+| Request > notifications > parameters | Objeto | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com &quot;perfil&quot;.</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
+| Request > notifications > profileParameters | Objeto | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com &quot;perfil&quot;.</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
+| Request > notifications > order | Objeto | Não |  | Objeto que descreve os detalhes da ordem. |
+| Request > notifications > order > id | String | Não | `<=` 250 caracteres. | ID do pedido. |
+| Request > notifications > order > total | String | Não | `>=` 0 | Total do pedido. |
+| Request > notifications > order > purchasedProductIds | Matriz de string | Não | <ul><li>Valores em branco não são permitidos.</li><li>Comprimento máx. da ID de produto: 50.</li><li>IDs de produto, separadas por vírgulas e concatenadas, o comprimento total não pode exceder 250.</li></ul> | Identificações de produto da ordem. |
+| Request > notifications > product | Objeto | Não |  |  |
+| Request > notifications > product > id | String | Não | `<=` 128 caracteres; não pode ficar em branco. | Identificação do produto. |
+| Request > notifications > product > categoryId | String | Não | `<=` 128 caracteres; não pode ficar em branco. | Identificação da categoria. |
+| Request > notifications > id | String | Sim | `<=` 200 caracteres. | A ID da notificação será retornada em resposta e indicará que a notificação foi processada com sucesso. |
+| Request > notifications > impressionId | String | Não | `<= 128` caracteres. | A ID da impressão é usada para unir (vincular) a notificação atual com uma notificação anterior ou executar a solicitação. Caso as duas correspondam, a segunda e as solicitações subsequentes não gerarão uma nova impressão para a atividade ou experiência. |
+| Solicitação > notificações > tipo | String | Sim | “click” ou “display” são suportados. | Tipo de notificação. |
+| Request > notifications > timestamp | Número`<int64>` | Sim |  | O carimbo de data e hora da notificação em milissegundos decorridos desde a época UNIX. |
+| Request > notifications > tokens | Matriz de string | Sim |  | Uma lista de tokens para o conteúdo exibido ou para os seletores clicados, com base no tipo de notificação. |
+| Request > notifications > mbox | Objeto | Não |  | Notificações para a mbox. |
+| Request > notifications > mbox > name | String | Não | Valores em branco não são permitidos.<br>Caracteres permitidos: consulte a observação após a tabela. | nome da mbox. |
+| Request > notifications > mbox > state | String | Não |  | token de estado da mbox. |
+| Request > notifications > view | Objeto | Não |  |  |
+| Request > notifications > view > id | Número inteiro `<int64>` | Não |  | Identificação de exibição. A identificação atribuída à exibição quando ela foi criada por meio da API de exibição. |
+| Request > notifications > view > name | String | Não | `<= 128` caracteres. | Nome da exibição. |
+| Request > notifications > view > key | String | Não | `<=` 512 caracteres. | Chave da exibição. A chave definida para a exibição por meio da API. |
+| Request > notifications > view > state | String | Não |  | Token de estado da exibição. |
 
 **Observação**: os seguintes caracteres são permitidos para `Request > notifications > mbox > name`:
 
