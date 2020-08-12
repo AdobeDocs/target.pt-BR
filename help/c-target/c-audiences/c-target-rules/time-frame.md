@@ -2,9 +2,13 @@
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
 title: Intervalo de tempo
+feature: null
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +53,7 @@ Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](../../../c-t
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criando o selo ![Visão geral de públicos-alvo](/help/assets/overview.png)
+## Vídeo de treinamento: Criando o selo ![Visão geral do Audiência](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
