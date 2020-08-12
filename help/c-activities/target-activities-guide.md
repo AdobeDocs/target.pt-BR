@@ -1,11 +1,15 @@
 ---
-keywords: guia de atividades; atividades; atividade; tipos de atividade; ações de atividade
+keywords: activities guide;activities;activity;activity types;activity actions
 description: Baixe um PDF interativo que descreve os diferentes tipos de atividade no Adobe Target (com exceção do Recommendations).
 title: Tipos de atividade do Target
-topic: Padrão
+feature: null
+topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1462'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +49,7 @@ Baixe um PDF interativo que descreve os diferentes tipos de atividade no Adobe T
 | Tipo de atividade | O profissional de marketing |
 |--- |--- |
 | Teste A/B manual | Possui conhecimento de estatísticas.<br/>Tem tempo para aguardar até o fim do período de teste para analisar resultados. |
-| Alocação automática | Tem um prazo curto.<br/>Precisa identificar a melhor experiência e entregar rapidamente.<br/>Quer ser capaz de "espiar" os resultados conforme o teste é executado. |
+| Alocação automática | Tem um prazo curto.<br/>Precisa identificar a melhor experiência e entregar rapidamente.<br/>Quer ser capaz de &quot;espiar&quot; os resultados conforme o teste é executado. |
 | Direcionamento automático | Possui várias experiências elegíveis.<br/>Quer corresponder experiências com visitantes específicos em épocas ideais com base em seus perfis dinâmicos e em alteração. |
 | Personalização automatizada (AP) | Possui uma ou mais ofertas.<br/>Quer criar combinações de ofertas que produzem experiências personalizadas ideais para visitantes específicos entre uma variedade de perfil e comportamentos únicos. |
 | Teste multivariado (MVT) | Possui conhecimento de estatísticas.<br/>Possui uma ou mais ofertas.<br/>Quer analisar tendências de conversão relacionadas às interações com elementos da página. |
@@ -66,8 +70,8 @@ Baixe um PDF interativo que descreve os diferentes tipos de atividade no Adobe T
 
 | Tipo de atividade | Benefícios | Considerações |
 |--- |--- |--- |
-| Teste A/B manual | Testes A/B permitem que você obtenha um entendimento completo do desempenho de cada experiência, além de qual experiência tem o melhor desempenho. | No teste A/B, se você observar os testes dos resultados antes que o tamanho de amostras sejam alcançado você corre o risco de depender de resultados imprecisos (você não pode "espiar" com antecedência!).</br>Isso se deve ao fato de que, diferente da alocação automática, em um teste A/B, a distribuição de tráfego continua fixa mesmo após você reconhecer que algumas experiências estejam com desempenho melhor que outras. |
-| Alocação automática | A alocação automática reduz o custo do teste A/B comum pois tem uma taxa de conversão maior no geral do que um teste A/B manual. A taxa de conversão é maior porque a alocação automática empurra mais tráfego para a experiência com melhor desempenho, ou seja, você pode perceber o benefício da experiência vencedora antes do fim do período de teste (você pode espiar!). | A alocação automática identifica o vencedor mas não diferencia os perdedores. Se você precisa saber o desempenho de cada experiência, o teste A/B é preferível.</br>A função alocação automática trabalha somente com uma configuração de métrica avançada, que é "Aumentar contagem e manter o usuário na atividade".Isso significa que se você não quer contar conversões repetidas, você deve usar o teste A/B. A alocação automática não pode consumir relatórios no A4T. |
+| Teste A/B manual | Testes A/B permitem que você obtenha um entendimento completo do desempenho de cada experiência, além de qual experiência tem o melhor desempenho. | No teste A/B, se você observar os testes dos resultados antes que o tamanho de amostras sejam alcançado você corre o risco de depender de resultados imprecisos (você não pode &quot;espiar&quot; com antecedência!).</br>Isso se deve ao fato de que, diferente da alocação automática, em um teste A/B, a distribuição de tráfego continua fixa mesmo após você reconhecer que algumas experiências estejam com desempenho melhor que outras. |
+| Alocação automática | A alocação automática reduz o custo do teste A/B comum pois tem uma taxa de conversão maior no geral do que um teste A/B manual. A taxa de conversão é maior porque a alocação automática empurra mais tráfego para a experiência com melhor desempenho, ou seja, você pode perceber o benefício da experiência vencedora antes do fim do período de teste (você pode espiar!). | A alocação automática identifica o vencedor mas não diferencia os perdedores. Se você precisa saber o desempenho de cada experiência, o teste A/B é preferível.</br>A função alocação automática trabalha somente com uma configuração de métrica avançada, que é &quot;Aumentar contagem e manter o usuário na atividade&quot;.Isso significa que se você não quer contar conversões repetidas, você deve usar o teste A/B. A alocação automática não pode consumir relatórios no A4T. |
 | Direcionamento automático | Com o direcionamento automático, a aprendizagem de máquina é aplicada para qualquer tipo de experiência, incluindo experiências multipáginas. Ele também permite que você ganhe o valor da personalização automática enquanto usa o fluxo de trabalho familiar de um teste A/B. | Com o direcionamento automático, se você quiser alterar o conteúdo de suas ofertas com frequência, o algoritmo irá precisar de tempo suficiente após cada alteração para explorar o que aprendeu e entregar aquele conteúdo para os visitantes corretos.</br>O direcionamento automático não pode consumir relatórios no A4T. |
 | Personalização automatizada (AP) | Com a personalização automatizada, você pode coletar todas suas ofertas em um único lugar e o algoritmo simplesmente calcula a melhor combinação entre elas. Você não precisa especificar ou construir experiências individuais. A personalização automatizada usa os mesmos algoritmos de aprendizagem de máquina que o direcionamento automático. | Quando você combina várias ofertas, uma explosão de combinações ocorre, resultando na necessidade de uma quantia significativa de tráfego. O algoritmo da personalização automatizada leva em conta uma grande quantidade de fatores; portanto precisa da maior quantidade de tráfego.</br>A personalização automatizada não pode consumir relatórios no A4T. |
 | Teste multivariado (MVT) | Com um teste multivariado, você é capaz de testar vários elementos simultaneamente. | Um teste multivariado consome tempo e devido às múltiplas variáveis em jogo ele não produz necessariamente uma experiência vencedora com confiança.</br>Geralmente é desafiante alcançar a quantidade de tráfego necessária para completar o teste. Como todos experimentos de testes multivariados são totalmente fatoriais, muitos elementos em alteração ao mesmo tempo podem adicionar rapidamente para um grande número de combinações possíveis que devem ser testadas.</br>Mesmo um site com tráfego relativamente alto pode ter problemas em completar um teste com mais de 25 combinações em uma quantia de tempo praticável. |
