@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: É possível adicionar usuários e gerenciar suas permissões no Adobe Admin Console.
 title: Usuários
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 48%
@@ -45,7 +46,7 @@ Você pode visualização uma lista dos usuários atuais no ambiente do Público
 
 Para visualização na página Usuários, clique em **[!UICONTROL Administração]** > **[!UICONTROL Usuários]**.
 
-![lista do usuário no Público alvo](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+![Lista do usuário no Público alvo](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -97,7 +98,7 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
 
 1. Selecione a função de permissões desejada (Aprovador, Editor, ou Observador) usando a lista suspensa para cada usuário na coluna [!UICONTROL Função do produto].
 
-   ![lista suspensa Função do produto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![Lista suspensa Função do produto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Função | Descrição |
    |--- |--- |
