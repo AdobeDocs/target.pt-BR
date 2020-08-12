@@ -1,11 +1,15 @@
 ---
 keywords: email;adbox;email image adbox
-description: Usando o Adobe Target, teste dinamicamente imagens em emails e até altere essas imagens em tempo real quando alguém abrir o email.
-title: Testar uma Adbox de imagem de email usando o Adobe Target
+description: Usando o Adobe Target, teste dinamicamente imagens em e-mails e até altere essas imagens em tempo real quando alguém abrir o e-mail.
+title: Testar uma imagem de email Adbox usando o Adobe Target
+feature: null
 topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +42,7 @@ Onde os valores abaixo são específicos para você:
 | Valor | Descrição |
 |--- |--- |
 | clientcode | O código de cliente de sua empresa. Encontre isso em seu at.js ou mbox.js listado como `clientCode='yourclientcode'`. Todos os caracteres em minúsculas e sem caracteres especiais. |
-| image | O tipo de oferta. É sempre "image" para anúncios gráficos e "page" para redirecionadores. |
+| image | O tipo de oferta. É sempre &quot;image&quot; para anúncios gráficos e &quot;page&quot; para redirecionadores. |
 | email_header | O nome da adbox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Obrigatório. Substitua o URL pelo conteúdo padrão apropriado para sua adbox. Esta deve ser uma referência absoluta e deve ser codificada no URL. |
 | `mboxXDomain=disabled` | Faz com que o Target não tente definir um cookie. |
