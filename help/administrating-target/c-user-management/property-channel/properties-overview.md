@@ -2,10 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Informações sobre as tarefas necessárias para adicionar usuários à sua implementação do Adobe Target; criar espaços de trabalho, grupos de usuários e propriedades; atualizar sua implementação do Target para incluir o parâmetro at_property; e especificar funções e permissões.
 title: Configuração de permissões empresariais
+feature: null
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
@@ -187,7 +188,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
 
-   ![lista suspensa Função do produto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![Lista suspensa Função do produto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Função | Descrição |
    |--- |--- |
