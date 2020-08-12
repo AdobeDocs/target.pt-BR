@@ -2,13 +2,14 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: É possível configurar uma atividade no Target Standard/Premium para usar o Adobe Analytics como fonte de relatórios (A4T).
 title: Criação da atividade
+feature: null
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1130'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +20,7 @@ You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as 
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Escolha uma métrica de sucesso final para a atividade. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## Crie uma atividade que use o Analytics como fonte do relatórios
+## Crie uma atividade que use o Analytics como a fonte do relatórios
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
@@ -69,11 +70,11 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Suporte Analytics para Público alvo (A4T) para alocação automática de atividades {#a4t-aa}
+## Suporte do Analytics para Públicos alvos (A4T) para alocação automática de atividades {#a4t-aa}
 
-Atualizamos a integração Adobe Target para a Adobe Analytics, conhecida como [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Atualizamos a integração entre Adobe Target e Adobe Analytics, conhecida como [Analytics para Públicos alvos](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-[!UICONTROL A Autoalocação] de atividades agora é compatível com [!UICONTROL Analytics para Público alvo]. Essa integração permite que você use o recurso de alocação automática de banco multiarcado para direcionar o tráfego para experiências vencedoras, ao mesmo tempo que usa uma métrica de [!DNL Adobe Analytics] objetivo e/ou recursos de [!DNL Adobe Analytics] relatórios e análise. Se você já tiver [implementado o A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência, você estará pronto!
+[!UICONTROL A Autoalocação] de atividades agora é compatível com o [!UICONTROL Analytics para Público alvo]. Essa integração permite que você use o recurso de alocação automática de banco multiarcado para direcionar o tráfego para experiências vencedoras, ao mesmo tempo que usa uma métrica de [!DNL Adobe Analytics] objetivo e/ou recursos de [!DNL Adobe Analytics] relatórios e análise. Se você já tiver [implementado o A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência, você estará pronto!
 
 Para começar:
 
@@ -85,13 +86,13 @@ Para começar:
 
    Ou
 
-   Escolha **[!UICONTROL Usar uma métrica]** Analytics e selecione uma métrica [!DNL Analytics] para usar como meta de otimização. Você pode usar uma métrica de conversão [!DNL Analytics] predefinida ou um evento [!DNL Analytics] personalizado.
+   Escolha **[!UICONTROL Usar uma métrica]** do Analytics e, em seguida, selecione uma métrica [!DNL Analytics] para usar como meta de otimização. Você pode usar uma métrica de conversão [!DNL Analytics] predefinida ou um evento [!DNL Analytics] personalizado.
 
 1. Salve e ative sua atividade.
 
    [!UICONTROL A Autoalocação] usará sua métrica selecionada para otimizar a atividade, levando visitantes para a experiência que maximiza sua métrica de meta.
 
-1. Use a guia **[!UICONTROL Relatórios]** para visualização do relatórios de sua atividade por sua escolha de [!DNL Adobe Analytics] métricas. Clique em **[!UICONTROL Visualização no Analytics]** para detalhar e segmentar ainda mais os dados do relatórios.
+1. Use a guia **[!UICONTROL Relatórios]** para visualização do relatórios de sua atividade por sua escolha de [!DNL Adobe Analytics] métricas. Clique em **[!UICONTROL Visualização no Analytics]** para detalhar e segmentar ainda mais seus dados de relatórios.
 
 ### Métricas de meta suportadas
 
