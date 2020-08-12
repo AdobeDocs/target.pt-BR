@@ -1,10 +1,14 @@
 ---
-keywords: Target, relatórios, configurações de relatório, pedidos extremos, valores extremos
+keywords: Target;reports;report settings;extreme orders;extreme values
 description: Você pode excluir valores extremos de afetar relatórios no Adobe Target para que alguns pedidos incomuns não afetem os resultados da atividade. Um exemplo de um pedido incomum pode ser um técnico comprando uniformes para um time inteiro em vez de compradores individuais comprando uniformes individuais.
-title: Excluir valores extremos nos relatórios do Adobe Target
+title: Excluir valores extremos em relatórios do Adobe Target
+feature: null
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 88%
 
 ---
 
