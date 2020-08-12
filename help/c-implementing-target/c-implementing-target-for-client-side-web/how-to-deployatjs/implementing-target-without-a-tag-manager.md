@@ -2,11 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Informações sobre como implementar o Adobe Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
 title: Implementação do Target sem um gerenciador de tags
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -28,7 +29,7 @@ Você pode especificar as seguintes configurações nesta página:
 
 * Detalhes da conta
 * Métodos de implementação
-* API do Perfil
+* API do perfil
 * Ferramentas do depurador
 * Privacidade
 
@@ -81,7 +82,7 @@ Além das configurações explicadas acima, as seguintes configurações especí
 | Cabeçalho da biblioteca personalizada | Adicione qualquer JavaScript personalizado para incluir na parte superior da biblioteca. |
 | Rodapé da biblioteca personalizada | Adicione qualquer JavaScript personalizado para incluir na parte inferior da biblioteca. |
 
-### API do Perfil
+### API do perfil
 
 Ative ou desative a autenticação para atualizações em lote pela API e gere um token de autenticação de perfil.
 
@@ -107,7 +108,7 @@ Para obter mais informações, consulte [Privacidade](/help/c-implementing-targe
 
 >[!NOTE]
 >
->A opção Suporte a navegador herdado estava disponível no at.js versão 0.9.3 e anterior. Essa opção foi removida na at.js versão 0.9.4. Para obter uma lista de navegadores suportados at.js, consulte [Navegadores suportados](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)<br>Os navegadores herdados são navegadores antigos que não suportam completamente CORS (Cross Origin Resource Sharing). Esses navegadores incluem: Internet Explorer em versão anterior a 11 e Safari versões 6 e anteriores. Se o suporte a navegador herdado estivesse desativado, o Target não forneceria conteúdo ou contaria visitantes nos relatórios desses navegadores. Se essa opção estiver ativada, é recomendável fazer o controle de qualidade em navegadores mais antigos para garantir uma boa experiência do cliente.
+>A opção Suporte a navegador herdado estava disponível no at.js versão 0.9.3 e anterior. Essa opção foi removida na at.js versão 0.9.4. Para obter uma lista de navegadores suportados at.js, consulte [Navegadores suportados](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)<br>Os navegadores herdados são navegadores antigos que não suportam completamente CORS (Cross Origin Resource Sharing). Esses navegadores incluem: Internet Explorer em versão anterior a 11 e Safari versões 6 e anteriores. Se o suporte a navegador herdado estivesse desativado, o Público alvo não forneceria conteúdo ou contaria visitantes nos relatórios desses navegadores. Se essa opção estiver ativada, é recomendável fazer o controle de qualidade em navegadores mais antigos para garantir uma boa experiência do cliente.
 
 ## Baixe a at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
