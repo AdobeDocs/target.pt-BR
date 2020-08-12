@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 title: Alocação automática
+feature: null
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -133,9 +134,9 @@ Esses fatores podem distorcer os resultados em um teste de alocação automátic
 
 Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades de [!UICONTROL autoalocação] :
 
-### A Analytics for Target (A4T) oferece suporte à Autoalocação de atividades?
+### O Analytics for Público alvo (A4T) oferece suporte à Autoalocação de atividades?
 
-Sim. Para obter mais informações, consulte Suporte da [Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) na criação *de* Atividades.
+Sim. Para obter mais informações, consulte Suporte [do Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) na criação *de* Atividades.
 
 ### Os visitantes recorrentes são realocados automaticamente a experiências de alto desempenho?
 
@@ -195,7 +196,7 @@ Não é sugerido usar a opção [!UICONTROL Redefinir dados] de relatório para 
 
 ### Como a Autoalocação de modelos de construção é feita em relação aos ambientes?
 
-[!UICONTROL A Autoalocação] cria modelos com base no comportamento de tráfego e conversão registrado somente no ambiente padrão. Por padrão, [!UICONTROL Production] é o ambiente padrão, mas isso pode ser alterado em Target [Administration > Ambiente](/help/administrating-target/environments.md).
+[!UICONTROL A Autoalocação] cria modelos com base no comportamento de tráfego e conversão registrado somente no ambiente padrão. Por padrão, [!UICONTROL Production] é o ambiente padrão, mas isso pode ser alterado em Público alvo [Administration > Ambiente](/help/administrating-target/environments.md).
 
 Se uma ocorrência ocorrer em outro ambiente (não padrão), o tráfego será distribuído de acordo com o comportamento de conversão observado no ambiente padrão. O resultado dessa ocorrência (conversão ou não conversão) será registrado para fins de relatórios, mas não será considerado no modelo de [!UICONTROL Autoalocação] .
 
