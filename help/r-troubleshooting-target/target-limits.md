@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: As informações sobre os limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
 title: Limites
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -113,7 +117,7 @@ Valores mais longos do que isso são truncados.
 
 Para chamadas mbox padrão:
 * Parâmetros da mbox: 500 parâmetros por mbox.
-* Parâmetros do Perfil: 500 parâmetros de perfil por mbox.
+* Parâmetros do perfil: 500 parâmetros de perfil por mbox.
 * Outros parâmetros (URL, URL de referência etc.): 50 por mbox para cada tipo de parâmetro.
 
 Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
@@ -136,7 +140,7 @@ Batch mbox v2:
 * O valor do parâmetro de perfil não pode ser nulo
 * Valor máximo do parâmetro de perfil 256
 
-Ponto de extremidade da API do Delivery
+Ponto de extremidade da API do delivery
 * parâmetros da mbox 50
 * comprimento máximo do nome do parâmetro da mbox 128
 * o valor do parâmetro mbox não pode ser nulo
@@ -196,7 +200,7 @@ Qualquer valor maior será truncado pelo sistema.
 
 **Limite recomendado de scripts de perfil totais por conta**: 2 000
 
-**Recomendações para limitar a complexidade** do script do perfil: Scripts de Perfil podem executar um número limitado de instruções. Para obter mais informações, consulte Práticas [recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) nos atributos *do* Perfil.
+**Recommendations para limitar a complexidade** do script do perfil: Scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte Práticas [recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) nos atributos *do* Perfil.
 
 ## Propriedades
 
