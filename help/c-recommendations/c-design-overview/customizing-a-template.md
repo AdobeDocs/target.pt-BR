@@ -2,9 +2,10 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
 title: Personalizar um design usando a Velocity
+feature: null
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 65%
@@ -128,7 +129,7 @@ Também é possível usar `algorithm.name` e `algorithm.dayCount` como variávei
 Por padrão, os modelos Velocity tratam todos os atributos da entidade como valores de string. Talvez você queira tratar um atributo de entidade como um valor numérico para executar uma operação matemática ou compará-lo a outro valor numérico. Para tratar um atributo de entidade como um valor numérico, siga estas etapas:
 
 1. Declarar uma variável fictícia e inicializá-la em um número inteiro ou valor de duplo arbitrário
-1. Certifique-se de que o atributo de entidade que você deseja usar não esteja em branco (necessário para que o analisador de modelo do Target Recommendations valide e salve o modelo)
+1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para que o analisador de modelo do Público alvo Recommendations valide e salve o modelo)
 1. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste que você criou na etapa 1 para transformar a string em um valor inteiro ou de duplo
 1. Executar a operação matemática ou comparação no novo valor numérico
 
