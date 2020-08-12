@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 title: Criar públicos-alvo no Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +20,7 @@ Os públicos no Adobe Target determinam quem verá o conteúdo e as experiência
 
 Os público-alvo são usados sempre que o direcionamento estiver disponível. Ao direcionar uma atividade, você pode selecionar um público-alvo reutilizável na lista de [!UICONTROL Públicos-alvo], [criar um público-alvo específico para a atividade](/help/c-target/creating-activity-only-audience.md) e direcioná-lo, ou [combinar vários públicos-alvo](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar um público-alvo ad hoc.
 
-Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Públicos-alvo](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) no Guia *do usuário dos serviços* principais.
+Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Audiência](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) no Guia *do usuário dos serviços* principais.
 
 O [!DNL Target] define dois tipos de público-alvo:
 
@@ -79,7 +83,7 @@ Tenha os seguintes pontos em mente ao trabalhar com públicos-alvo importados:
 * Os públicos-alvo de direcionamento de expressão não são mais suportados no Target Standard/Premium.
 * O Target Standard/Premium não suporta alguns públicos-alvo obsoletos ou melhorou os operadores para facilidade de uso. Por causa disso, a definição de um público-alvo importado, apesar de funcionar de acordo com a definição, não significa que o mesmo esteja agora disponível para criação na interface Standard/Premium. Por exemplo, os públicos-alvo sociais são visíveis com suas regras, mas o Target Standard/Premium não permite que públicos-alvo sociais sejam criados.
 
-## Vídeo de treinamento: Uso de públicos-alvo Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Uso de públicos-alvo ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre o uso de públicos-alvo.
 
