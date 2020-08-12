@@ -1,17 +1,21 @@
 ---
-keywords: implementar;implementação;implementação;adobe launch;launch;race;redirect;plataforma de experiência
-description: O Adobe Experience Platform Launch é a plataforma de gerenciamento de tags da próxima geração da Adobe e é o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
+keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
+description: A Adobe Experience Platform Launch é a plataforma de gerenciamento de tags da próxima geração da Adobe e é o método preferido para implementar a Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
 title: Implementação do Target usando o Adobe Launch
+feature: null
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 82%
 
 ---
 
 
 # Implementação do Target usando o Adobe Launch{#implement-target-using-adobe-launch}
 
-O Adobe Experience Platform Launch é a plataforma de gerenciamento de tags da próxima geração da Adobe e é o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
+A Adobe Experience Platform Launch é a plataforma de gerenciamento de tags da próxima geração da Adobe e é o método preferido para implementar a Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
 
 ## Implementação do Target usando o Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
@@ -21,9 +25,9 @@ A tabela a seguir lista as diversas fontes em que você pode obter mais informa�
 
 | Recurso | Detalhes |
 |--- |--- |
-| [Implementação do Target usando o tutorial de extensão do Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Esse tutorial fornece instruções passo a passo para implementar o Adobe Target em um site com o Launch. Os tópicos incluem a adição da biblioteca do JavaScript at.js, o acionamento da mbox global, a adição de parâmetros e a integração com outras soluções. Este artigo faz parte de um tutorial maior que mostra como implementar o Adobe Launch, bem como as outras soluções da Adobe Experience Cloud. |
+| [Implementação do Público alvo usando o Tutorial de extensão do Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Esse tutorial fornece instruções passo a passo para implementar o Adobe Target em um site com o Launch. Os tópicos incluem a adição da biblioteca do JavaScript at.js, o acionamento da mbox global, a adição de parâmetros e a integração com outras soluções. Este artigo faz parte de um tutorial maior que mostra como implementar o Adobe Launch, bem como as outras soluções da Adobe Experience Cloud. |
 | [Documentação do Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informações sobre implementação e gerenciamento de todas as análises, marketing e marcas de anúncio para aprimorar experiências de cliente relevantes. |
-| [Documentação da extensão do Adobe Target](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informações sobre como implementar o Target utilizando o Launch. |
+| [Documentação do Adobe Target Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informações sobre como implementar o Target utilizando o Launch. |
 
 ## Vantagens de implementar o at.js utilizando a extensão Launch do Target {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
