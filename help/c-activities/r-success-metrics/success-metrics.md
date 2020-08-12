@@ -2,9 +2,10 @@
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
 description: No Adobe Target, as métricas de sucesso são parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target.
 title: Métricas de sucesso no Adobe Target
+feature: null
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 53%
@@ -28,7 +29,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->O comportamento padrão do atividade que usa o [Analytics como fonte](/help/c-integrating-target-with-mac/a4t/a4t.md) do relatórios (A4T) é &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; com &quot;[!UICONTROL Uma vez por participante]&quot;.
+>O comportamento padrão do atividade que usa o [Analytics como fonte](/help/c-integrating-target-with-mac/a4t/a4t.md) de relatórios (A4T) é &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; com &quot;[!UICONTROL Uma vez por participante]&quot;.
 
 As seguintes métricas estão disponíveis:
 
