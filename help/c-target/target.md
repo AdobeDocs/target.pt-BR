@@ -2,9 +2,13 @@
 keywords: Targeting;audiences;percentage target
 description: Use os públicos no Adobe Target para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
 title: Públicos no Adobe Target
+feature: null
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +29,7 @@ Quando um visitante acessa uma página onde você configurou uma atividade, o [!
 
 Se o visitante for identificado como parte de um público-alvo de direcionamento, o [!DNL Target] determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criado.
 
-## Vídeo de treinamento: Direcionamento de atividades  (2:13) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Direcionamento de atividades  (2:13) ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração do direcionamento e dos públicos-alvo.
 
