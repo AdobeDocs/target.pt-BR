@@ -1,16 +1,20 @@
 ---
 keywords: Profile script;profile script attributes;mutually exclusive activities
 description: Você pode utilizar atributos de perfil para configurar testes que comparam duas ou mais atividades, mas não permita que os mesmos visitantes participem em cada atividades.
-title: Use scripts de perfil para testar atividades mutuamente exclusivas
+title: Usar scripts de perfil para testar atividades mutuamente exclusivas
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 84%
 
 ---
 
 
-# Use profile scripts to test mutually exclusive activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# Usar scripts de perfil para testar atividades mutuamente exclusivas {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 Você pode utilizar atributos de perfil para configurar testes que comparam duas ou mais atividades, mas não permita que os mesmos visitantes participem em cada atividades.
 
@@ -48,7 +52,7 @@ After you create the profile attribute, set up the first activity to target the 
 
 >[!NOTE]
 >
->Selecione uma mbox logo no início da página. Esse código determina se um visitante acessará a atividade. Desde que uma mbox seja encontrada primeiro pelo navegador, ela pode ser utilizada para definir esse valor.
+>Selecione uma mbox logo no início da página. Esse código determina se um visitante experimenta a atividade. Desde que uma mbox seja encontrada primeiro pelo navegador, ela pode ser utilizada para definir esse valor.
 
 Defina a segunda campanha de forma que o parâmetro do perfil do usuário `user.twogroups` corresponda ao valor especificado para o GrupoB.
 
