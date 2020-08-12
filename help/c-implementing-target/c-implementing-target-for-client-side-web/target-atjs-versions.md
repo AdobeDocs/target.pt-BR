@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions
 description: Detalhes sobre as alterações em cada versão da at.js.
 title: Detalhes da versão da at.js
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3978'
 ht-degree: 86%
@@ -21,7 +22,7 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >
 >A equipe do Público alvo oferece suporte para o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente da versão principal do at.js para garantir que você esteja executando uma versão compatível.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar o at.js. Os desenvolvedores de extensões adicionam continuamente novos recursos às suas extensões e frequentemente corrigem erros. Essas atualizações são compactadas em novas versões de uma extensão e disponibilizadas no [!DNL Launch] catálogo como atualizações. Para obter mais informações, consulte Atualização [de](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensão no Guia *do usuário do* Experience Platform Launch.
+>[A Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar o at.js. Os desenvolvedores de extensões adicionam continuamente novos recursos às suas extensões e frequentemente corrigem erros. Essas atualizações são compactadas em novas versões de uma extensão e disponibilizadas no [!DNL Launch] catálogo como atualizações. Para obter mais informações, consulte Atualização [de](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensão no Guia *do usuário do* Experience Platform Launch.
 
 ## at.js 2.3.2 (24 de julho de 2020)
 
@@ -61,7 +62,7 @@ Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprim
 
 Esta versão do at.js inclui os seguintes aprimoramentos e correções:
 
-* Correção de um problema em que o rastreamento de cliques não relatava conversões no Analytics para Público alvo (A4T) quando o código do Adobe Analytics não estava presente nos elementos da página.
+* Correção de um problema em que o rastreamento de cliques não relatava conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página.
 * Desempenho aprimorado ao usar o Serviço de ID de Experience Cloud (ECID) v4.4 e o at.js 2.2 em suas páginas da Web.
 * Anteriormente, o ECID fazia duas chamadas de bloqueio antes que o at.js pudesse buscar experiências. Isso foi reduzido a uma única chamada, o que melhora significativamente o desempenho.
 
