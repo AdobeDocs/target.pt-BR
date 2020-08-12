@@ -1,38 +1,42 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
-description: Você pode direcionar os visitantes que estão em uma página específica do site.
+description: Você pode público alvo visitantes que estão em uma página específica do site.
 title: Páginas do site no Adobe Target
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 43%
 
 ---
 
 
 # Páginas do site{#site-pages}
 
-Você pode direcionar os visitantes que estão em uma página específica do site.
+Você pode público alvo visitantes que estão em uma página específica do site.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]**>**[!UICONTROL  Criar público-alvo]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]**>**[!UICONTROL  Páginas do site]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Páginas do site]**.
 
    ![Público-alvo de Páginas do site](assets/target_site_pages.png)
 
-1. Clique na lista suspensa **[!UICONTROL Selecionar]**, selecione uma das opções a seguir e configure a regra conforme desejado.
+1. Clique na lista suspensa **[!UICONTROL Selecionar]** , selecione uma das opções a seguir e configure a regra conforme desejado.
 
-   As opções disponíveis e os avaliadores nas listas suspensas subsequentes na regra variam dependendo da opção escolhida. A ilustração a seguir mostra as opções disponíveis se você escolher Página atual:
+   As opções disponíveis e os avaliadores nas listas suspensas subsequentes na regra variam dependendo de qual opção você escolher. A ilustração a seguir mostra as opções disponíveis se você escolher Página atual:
 
    ![Página atual](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   As opções a seguir estão disponíveis na lista suspensa inicial ao escolher [!UICONTROL Selecionar].
+   As opções a seguir estão disponíveis na lista suspensa inicial quando você escolhe [!UICONTROL Selecionar].
 
-   * **** Página atual: A página em que o usuário está atualmente.
+   * **Página atual:** A página na qual o usuário está no momento.
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL (para obter mais informações sobre como o Target avalia URLs, consulte Perguntas frequentes sobre [Metas e públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
@@ -43,7 +47,7 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL (para obter mais informações sobre como o Target avalia URLs, consulte Perguntas frequentes sobre [Metas e públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
@@ -53,18 +57,19 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL (para obter mais informações sobre como o Target avalia URLs, consulte Perguntas frequentes sobre [Metas e públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
       * Domínio de nível superior
       * Caminho
       * Fragmento em hash (#)
+
       >[!NOTE]
       >
       >O objeto `landing.url` é redefinido em uma alteração de subdomínio ou em uma substituição do URL direto.
 
-   * **** Cabeçalho HTTP: Essa opção avalia as informações no cabeçalho HTTP da solicitação do Target. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a `Accept-Language: es` condição para direcionar os visitantes que acessam a página em espanhol.
+   * **Cabeçalho HTTP:** Essa opção avalia as informações no cabeçalho HTTP da solicitação de Público alvo. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a `Accept-Language: es` condição para visitantes públicos alvos que acessam a página em espanhol.
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
@@ -84,7 +89,7 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
       * Host
       * Se-Correspondência
       * If-Modificated-Since
-      * Correspondência If-None
+      * Se-Nenhum-Correspondência
       * If-Range
       * If-Unmodified-Since
       * Máx. para frente
@@ -97,7 +102,8 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
       * User-Agent
       * Via
       * Aviso
-   Se você escolher Página atual, Página anterior ou Página inicial, as opções [!UICONTROL Domínio] e [!UICONTROL Consulta] estarão disponíveis. Considere o seguinte ao escolher estas opções:
+
+   Se você escolher Página atual, Página anterior ou [!UICONTROL Landing page], as opções [!UICONTROL Domínio] e [!UICONTROL Query] estarão disponíveis. Considere o seguinte ao escolher estas opções:
 
    * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar &quot;contém&quot;. Por exemplo, &quot;Domínio igual a facebook.com&quot; não aceitará `m.facebook.com` ou `www.facebook.com`. &quot;Domínio conterá facebook.com&quot; aceitará qualquer variante de facebook.com.
    * **Consulta:** o conteúdo do URL após o primeiro ponto de interrogação (?).
@@ -108,7 +114,7 @@ Você pode direcionar os visitantes que estão em uma página específica do sit
 
 
 
-1. (Opcional) Clique em **[!UICONTROL Adicionar regra]**e configure regras adicionais para o público-alvo.
+1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
 É possível criar públicos-alvo de páginas do site usando seu próprio &quot;parâmetro de consulta definido pelo usuário&quot; ou &quot;cabeçalho definido pelo usuário&quot;.
@@ -124,17 +130,17 @@ conforme ilustrado abaixo:
 
 ## Solução de problemas {#ts}
 
-* Para que os públicos-alvo da página inicial funcionem corretamente, as solicitações devem ter o `mboxReferrer` parâmetro definido (para a API de entrega, o `context.address.referringUrl` parâmetro) que a biblioteca JavaScript do at.js obtém da página usando o `document.referrer` atributo. Este `HTMLDocument` atributo retorna o URI da página da qual o usuário navegou. O valor desse atributo é uma string vazia quando o usuário navega para a página diretamente (não por meio de um link, mas, por exemplo, por meio de um marcador).
+* Para que as audiências de landing page funcionem corretamente, as solicitações devem ter o `mboxReferrer` parâmetro definido (para a API do Delivery, o `context.address.referringUrl` parâmetro) que a biblioteca JavaScript do at.js obtém da página usando o `document.referrer` atributo. Este `HTMLDocument` atributo retorna o URI da página a partir da qual o usuário navegou. O valor desse atributo é uma string vazia quando o usuário navega para a página diretamente (não por meio de um link, mas, por exemplo, por meio de um marcador).
 
    Se esse comportamento não corresponder aos seus requisitos, considere executar uma das seguintes ações:
 
    * Enviar parâmetros [de](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox para [!DNL Target] serem usados para fins de direcionamento.
-   * Use uma atividade [de teste](/help/c-activities/t-test-ab/test-ab.md) A/B em vez de uma atividade de página inicial. As atividades de teste A/B não alternam as experiências do mesmo visitante.
+   * Use uma atividade [de teste](/help/c-activities/t-test-ab/test-ab.md) A/B em vez de uma atividade de landing page. As atividades de teste A/B não alternam as experiências para o mesmo visitante.
    * Em vez disso, use um perfil [de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitante.
 
-* Ao usar avaliadores &quot;começa/termina com&quot; em strings que contêm vírgulas, esteja ciente de que eles são avaliados como uma matriz de valores, na qual cada valor separado por vírgula é avaliado. Por exemplo, se tivermos o valor de um cabeçalho: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` ele se qualificará para condições como:
-   * começa com zh,
-   * começa com en,
+* Ao usar avaliadores &quot;start/finais com&quot; em strings contendo vírgulas, esteja ciente de que eles são avaliados como uma matriz de valores, na qual cada valor separado por vírgula é avaliado. Por exemplo, se tivermos o valor de um cabeçalho: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` ele se qualificará para condições como:
+   * start com zh,
+   * start com en,
    * termina com 0,7,
    * termina com 0,8.
 
