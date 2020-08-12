@@ -1,11 +1,12 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-description: Informações sobre o uso de fragmentos de experiência criados no Adobe Experience Manager (AEM) nas atividades do Adobe Público alvo para ajudar na otimização ou personalização.
-title: Fragmentos de experiência do Adobe Experience Manager (AEM) no Adobe Público alvo
+description: Informações sobre como usar fragmentos de experiência criados no Adobe Experience Manager (AEM) no Adobe Target atividade para ajudar na otimização ou personalização.
+title: Fragmentos de experiência do Adobe Experience Manager (AEM) no Adobe Target
+feature: null
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 31%
@@ -48,9 +49,9 @@ In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perfo
 
 Para obter mais informações, consulte:
 
-* **[!DNL AEM]6.3 **:[Aceitar o Adobe Analytics e o Público alvo](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)da Adobe na documentação do_Adobe Experience Manager 6.3 _.
-* **[!DNL AEM]6.4 **:[Aceitar o Adobe Analytics e o Público alvo](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)da Adobe na documentação do_Adobe Experience Manager 6.4 _.
-* **[!DNL AEM]6.5 **:[Aceitar o Adobe Analytics e o Público alvo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)da Adobe na documentação do *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3 **:[Aceitar Adobe Analytics e Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)na documentação do_Adobe Experience Manager 6.3 _.
+* **[!DNL AEM]6.4 **:[Aceitar Adobe Analytics e Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)na documentação do_Adobe Experience Manager 6.4 _.
+* **[!DNL AEM]6.5 **:[Aceitar Adobe Analytics e Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)na documentação do *Adobe Experience Manager 6.5*.
 
 ### Etapa 2: criar o fragmento de experiência
 
@@ -155,4 +156,4 @@ O vídeo a seguir mostra como configurar e usar fragmentos de experiência:
 >
 >O recurso de [!DNL AEM] deep link discutido às 4:54 foi removido.
 
-Para obter mais informações, consulte [Uso de fragmentos de experiência com o Público alvo](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) da Adobe na página Vídeos e tutoriais *do* AEM Sites.
+Para obter mais informações, consulte [Uso de fragmentos de experiência com o Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) na página Vídeos e Tutorials *do* AEM Sites.
