@@ -1,9 +1,10 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Informações sobre como trabalhar com um campo de vários valores no Recomendações de Adobe Target usando operadores especiais de vários valores.
-title: Trabalhar com atributos de vários valores no Recommendations de Adobe Target
+description: Informações sobre como trabalhar com um campo de vários valores no Adobe Target Recommendations usando operadores especiais de vários valores.
+title: Trabalhar com atributos de vários valores no Adobe Target Recommendations
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -119,7 +120,7 @@ Representação da API JSON da regra de inclusão:
 
 ### Exemplo: Criação de critérios pela API recomendando itens dos favoritos de um usuário
 
-Critérios que usam regras de filtragem de vários valores, como todos os critérios, podem ser criados por meio das APIs de E/S da Adobe. Uma chamada de API de exemplo para criar um critério onde o atributo da entidade `id` está contido na lista de parâmetro da mbox `favorites` é fornecida aqui:
+Critérios que usam regras de filtragem de vários valores, como todos os critérios, podem ser criados por APIs de E/S de Adobe. Uma chamada de API de exemplo para criar um critério onde o atributo da entidade `id` está contido na lista de parâmetro da mbox `favorites` é fornecida aqui:
 
 ```
 curl -X POST \
