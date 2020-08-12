@@ -2,11 +2,12 @@
 keywords: troubleshoot target;troubleshooting target
 description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
 title: Solução de problemas do Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
-translation-type: ht
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
