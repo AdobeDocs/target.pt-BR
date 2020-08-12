@@ -1,11 +1,15 @@
 ---
-keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; provisionamento; provisionamento; adobe Experience Cloud
+keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
 description: Este tópico contém respostas a perguntas frequentes sobre o provisionamento do Analytics como a fonte de geração de relatórios para o Target (A4T).
 title: Provisionamento inicial - Perguntas frequentes sobre o A4T
-topic: Padrão
+feature: null
+topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
@@ -40,12 +44,12 @@ Verifique o seguinte se algum destes problemas ocorrer:
 
 ## Por que não vejo as opções do Analytics no Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-Consulte "Por que meus conjuntos de relatórios não estão carregando?" acima. A causa raiz deste problema é a mesma.
+Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
 
 ## Por que não vejo os relatórios do A4T no Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
-Consulte "Por que meus conjuntos de relatórios não estão carregando?" acima. A causa raiz deste problema é a mesma.
+Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
 
 ## Por que meus relatórios no Target estão vazios?  {#section_3837104757464CB488C5A83014A669A1}
 
-Consulte "Por que meus conjuntos de relatórios não estão carregando?" acima. A causa raiz deste problema é a mesma.
+Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
