@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Este tópico contém respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics como a origem de geração de relatórios do Target (A4T).
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 64%
@@ -23,7 +24,7 @@ Você pode usar [!DNL Analysis Workspace] para analisar suas [!DNL Target] ativi
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## Onde os segmentos podem ser aplicados na área de trabalho da Análise? {#segmentation}
+## Onde os segmentos podem ser aplicados no Analysis Workspace? {#segmentation}
 
 Os segmentos são aplicados com mais frequência à parte superior de um painel na área de segmentos. O segmento é aplicado a todas as tabelas e visualizações no painel. Esta técnica é mais útil para ver como o teste afeta um subgrupo de pessoas (por exemplo, como esse teste funcionou para pessoas no Reino Unido)?
 
@@ -48,7 +49,7 @@ Considere o seguinte:
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. Isso não significa necessariamente que o usuário viu a oferta. Se uma experiência de atividade estiver abaixo da dobra e o usuário não rolar a página para baixo, a oferta foi distribuída pelo [!DNL Target], mas não foi vista pelo usuário.
 * [!UICONTROL Impressões de atividade] (medidas pelo [!DNL Target]) e [!UICONTROL Instâncias] (medidas pelo [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
 
-## Por que as &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot; são mais altas na área de trabalho da Análise do que no Relatórios e análises? {#sametouch}
+## Por que as &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot; são mais altas no Analysis Workspace do que no Relatórios e análises? {#sametouch}
 
 [!DNL Reports & Analytics] aplica um modelo de atribuição de mesmo toque a &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot;, enquanto [!DNL Analysis Workspace] exibe as métricas brutas, que podem aparecer infladas devido à persistência da [!DNL Target] dimensão.
 
@@ -66,7 +67,7 @@ Após o período de classificação, os dados são exibidos nesses relatórios, 
 
 ## Por que as métricas do Target são enviadas ao Analytics mesmo após a desativação da atividade? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. Esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
+A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias.  Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
 
 You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. Se um usuário voltar ao site no dia 45 e vir outra atividade, todo o valor eVar do A4T terá seu contador redefinido para 90 dias. Isso significa que a primeira campanha do dia 1 agora pode persistir por até 45 + 90 = 135 dias. If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. À medida que os usuários excluem cookies e não retornam ao site, os números dessa atividade diminuem, mas você ainda os vê.
 
