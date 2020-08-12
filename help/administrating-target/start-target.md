@@ -1,12 +1,16 @@
 ---
-keywords: Administração; função de aprovador; aprovador
+keywords: Administration;approver role;approver
 description: Esta seção contém as primeiras etapas que os administradores do Adobe Target devem realizar após receber o convite enviado por email para a Adobe Experience Cloud.
 title: Primeiros passos do administrador
-subtopic: Introdução
-topic: Padrão
+feature: null
+subtopic: Getting Started
+topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ Esta seção contém as primeiras etapas que os administradores do [!DNL Target]
 
 Um Administrador do sistema do [!DNL Adobe Admin Console] deve adicioná-lo como usuário no [!DNL Target], convidando-o para entrar. Em seguida, ele deve adicioná-lo a um ou mais grupos específicos da função. Ambas as tarefas são executadas no [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obter mais informações, consulte [Gerenciar usuários e produtos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) da Experience Cloud na ajuda *da* Experience Cloud e dos principais serviços.
+Para obter mais informações, consulte [Gerenciar usuários e produtos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) do Experience Cloud na ajuda *dos* Experience Cloud e principais serviços.
 
 Você receberá um email de convite depois que o Administrador do sistema executar essas etapas.
 
