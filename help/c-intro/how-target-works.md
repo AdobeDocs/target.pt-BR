@@ -2,11 +2,12 @@
 keywords: Overview and Reference;SEO;search engine optimization
 description: 'O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript: at.js e mbox.js'
 title: Funcionamento do Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 94%
@@ -98,9 +99,9 @@ Cada nó de Edge possui todas as informações necessárias para responder à so
 
 ![Mapear com sites de borda principais e sites de borda](assets/edge_network.png)
 
-A fonte desta imagem é o documento Visão geral [de segurança do](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Público alvo.
+A fonte desta imagem é o documento Visão geral [de segurança da](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) Adobe Target.
 
-A solução Adobe Target é hospedada em data centers próprios e alugados pela Adobe ao redor do mundo. Os servidores de administração são hospedados totalmente em data centers próprios da Adobe em Londres, Cingapura e vários locais nos EUA, incluindo Oregon e Virgínia. Os servidores de borda são hospedados em servidores proprietários da Adobe e alugados pela Adobe em data centers Amazon AWS em Londres, Hong Kong SAR da China, Cingapura, Tóquio e Sydney.
+A solução Adobe Target é hospedada em data centers próprios e alugados pela Adobe ao redor do mundo. Os servidores de administração são hospedados totalmente em data centers próprios da Adobe em Londres, Cingapura e vários locais nos EUA, incluindo Oregon e Virgínia. Os servidores de borda são hospedados em servidores proprietários de Adobe e alugados por Adobe nos data centers Amazon AWS em Londres, Hong Kong SAR da China, Cingapura, Tóquio e Sydney.
 
 Os locais do servidor de administração contém um centro de coleta de dados e um centro de processamento de dados. Os locais de site do Edge contém apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
@@ -110,7 +111,7 @@ Em vez de responder a todas as solicitações de direcionamento a partir de um �
 >
 >No momento, o [!DNL Adobe Target] não tem uma rede Edge na China e o desempenho do usuário final continuará sendo limitado para os clientes do [!DNL Target] na China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Você pode permitir a lista de notas de borda do Público alvo, se desejar. Para obter mais informações, consulte [permitir a lista de nós](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)de borda do Público alvo.
+Você pode lista de permissões notas de borda do Público alvo, se desejar. Para obter mais informações, consulte [lista de permissões nós](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)de borda do Público alvo.
 
 ## Experiência de usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
