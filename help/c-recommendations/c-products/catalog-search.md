@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: A pesquisa no catálogo do Adobe Target ajuda a localizar os produtos ou o conteúdo no catálogo.
 title: Pesquisa no catálogo do Adobe Target
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 A pesquisa no catálogo ajuda a localizar os produtos ou conteúdo no catálogo.
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 Você pode refinar a pesquisa selecionando uma opção de pesquisa no menu de opções, que é exibido ao clicar na seta para baixo no campo de pesquisa.
 
@@ -28,9 +32,9 @@ As opções de pesquisa incluem o seguinte:
 * ID
 * Mensagem
 
-**[!UICONTROL TODAS]**as pesquisas em todos os outros critérios de pesquisa, usando a lógica OU.
+**[!UICONTROL TODAS]** as pesquisas em todos os outros critérios de pesquisa, usando a lógica OU.
 
-Nos resultados da pesquisa, você pode clicar no filtro de **[!UICONTROL Ambiente]**para especificar o ambiente de produção do grupo de hosts cujo catálogo você está exibindo.[](/help/administrating-target/hosts.md)Você também pode usar a rolagem através dos itens nos resultados da pesquisa para exibir miniaturas e outras informações do produto.
+Nos resultados da pesquisa, você pode clicar no filtro de **[!UICONTROL Ambiente]** para especificar o ambiente de produção do grupo de hosts cujo catálogo você está exibindo. [](/help/administrating-target/hosts.md) Você também pode usar a rolagem através dos itens nos resultados da pesquisa para exibir miniaturas e outras informações do produto.
 
 O número que aparece ao lado de &quot;Produtos&quot; é o número de produtos que combinam com o termo de pesquisa, do total disponível no ambiente especificado.
 
