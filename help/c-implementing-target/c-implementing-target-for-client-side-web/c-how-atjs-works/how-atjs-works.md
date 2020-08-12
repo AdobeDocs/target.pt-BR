@@ -1,11 +1,12 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: O diagrama de sistema do Adobe Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
-title: Como a biblioteca do JavaScript Adobe Target at.js funciona
+title: Como a biblioteca JavaScript do Adobe Target at.js funciona
+feature: null
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
