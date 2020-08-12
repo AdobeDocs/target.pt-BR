@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Informações sobre a implementação do Target em cenários que não utilizam JavaScript como uma AdBox ou redirecionador.
 title: 'Email: implementação do Target'
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
@@ -31,7 +32,7 @@ Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade
 
 ## Práticas recomendadas de segurança {#security}
 
-Observe que com o Redirecionador, você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para permitir a lista dos domínios de URL de redirecionamento padrão. O Público alvo usa hosts para permitir domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) nos *hosts*.
+Observe que com o Redirecionador, você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O público alvo usa hosts para lista de permissões domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) nos *hosts*.
 
 ## Limitações {#section_38F559DCF1324271926608BCD4AB1227}
 
