@@ -1,10 +1,14 @@
 ---
 description: Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O Avaliador de tráfego usa estatísticas sobre a página e a quantidade de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para que o teste seja bem-sucedido.
 title: Estimar o tráfego necessário para um teste bem-sucedido
-topic: Padrão
+feature: null
+topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -41,6 +45,7 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
    * [!UICONTROL Taxa de conversão típica]: a taxa de conversão é expressa como uma porcentagem, com base na estimativa ou dados anteriores do sistema de análise
    * [!UICONTROL Visitantes estimados por dia]: essa é a quantidade de visitantes que provavelmente visualizarão essa página com base nos critérios de direcionamento. Isso pode se basear nos dados da análise.
    * [!UICONTROL Duração do teste]: a quantidade de dias de duração da execução da atividade.
+
    O Avaliador de tráfego usa essas estatísticas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
 
    Próximo da parte superior do Avaliador de tráfego, os valores inseridos são calculados, e os resultados são exibidos.
@@ -53,6 +58,7 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
 
    * Reduza o número de combinações de ofertas e o número de locais.
    * Aumente a duração do teste.
+
    Ajuste os números até que o Avaliador de tráfego indique que você tem tráfego suficiente, então, crie seu teste de acordo.
 
    ![](assets/estimatorok.png)
