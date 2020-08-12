@@ -2,9 +2,13 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Use atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre os itens do catálogo.
 title: Atributos de entidade personalizados
+feature: null
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 95%
 
 ---
 
@@ -109,7 +113,7 @@ Tenha cuidado ao editar diretamente um arquivo CSV de catálogo simples.
 
 **Uso de APIs**
 
-Você pode passar atributos de vários valores usando a API de entrega em um parâmetro de mbox como um valor de string contendo uma matriz JSON escaped.
+Você pode passar atributos de vários valores usando a API de Delivery em um parâmetro de mbox como um valor de string contendo uma matriz JSON escaped.
 
 ```
 "execute": {
