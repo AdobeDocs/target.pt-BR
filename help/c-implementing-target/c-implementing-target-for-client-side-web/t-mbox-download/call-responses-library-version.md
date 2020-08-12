@@ -1,9 +1,13 @@
 ---
 description: A maneira como o Target faz e responde a chamadas de sua página dependerá da versão da biblioteca do Target em uso, se a implementação da ID de visitante de Experience Cloud estiver presente e se a ID de visitante existir.
 title: Métodos de página do Target por versão da biblioteca mbox.js
+feature: null
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +46,7 @@ Se você escrever seu próprio código personalizado em vez de usar as ações d
 >
 >Várias chamadas de mbox ajax com o mesmo nome de mbox, mas diferentes parâmetros, não funcionarão na mesma página. Somente a primeira chamada será feita.
 
-Se você usar "criar mbox global automaticamente", mas também tiver chamadas `mboxCreate` em sua página, por exemplo, se estiver implementando o [!DNL Target Standard] ou [!DNL Premium] em uma página que era anteriormente usada na implementação antiga, as chamadas da mbox global serão feitas usando o endpoint **criar mbox glonal automaticamente - padrão** e as chamadas `mboxCreate` são feitas usando o endpoint **padrão**. O endpoint **padrão** usa `document.write()` para fazer a chamada e responder. Isso bloqueia o carregamento da página, inclusive o conteúdo entregue na resposta ajax, até que toda a informação seja baixada.
+Se você usar &quot;criar mbox global automaticamente&quot;, mas também tiver chamadas `mboxCreate` em sua página, por exemplo, se estiver implementando o [!DNL Target Standard] ou [!DNL Premium] em uma página que era anteriormente usada na implementação antiga, as chamadas da mbox global serão feitas usando o endpoint **criar mbox glonal automaticamente - padrão** e as chamadas `mboxCreate` são feitas usando o endpoint **padrão**. O endpoint **padrão** usa `document.write()` para fazer a chamada e responder. Isso bloqueia o carregamento da página, inclusive o conteúdo entregue na resposta ajax, até que toda a informação seja baixada.
 
 Se você usar somente o mboxCreate, por exemplo, em páginas criadas com o [!DNL Target Classic], a página funcionará como sempre funcionou.
 
