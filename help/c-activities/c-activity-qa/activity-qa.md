@@ -1,11 +1,12 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Use os URLs de QA do Adobe Target para realizar um controle de qualidade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que permaneça segmentado dos dados de atividade ativa.
+description: Use os URLs de QA da Adobe Target para realizar um controle de qualidade completo da atividade com links de pré-visualização que nunca mudam, direcionamento opcional da audiência e relatórios de controle de qualidade que permaneça segmentado dos dados de atividade ativa.
 title: Controle de qualidade da atividade
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
@@ -81,9 +82,9 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
    Devido a essa codificação dupla, quando tentamos decodificar o `at_preview_token`, o Target não pode extrair o valor do token correto, resultando em uma visualização que não funciona.
 
-   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de pré-visualização sejam incluído na lista de permissões para que esses valores não sejam transformados de nenhuma forma.
+   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de pré-visualização sejam incluir na lista de permissões para que esses valores não sejam transformados de nenhuma forma.
 
-   A tabela a seguir lista os parâmetros que podem ser incluído na lista de permissões em seu domínio:
+   A tabela a seguir lista os parâmetros que podem ser incluir na lista de permissões em seu domínio:
 
    | Parâmetro | Tipo | Valor | Descrição |
    |--- |--- |--- |--- |
