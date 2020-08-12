@@ -1,11 +1,15 @@
 ---
-keywords: aumento de receita, receita, estimativa de aumento de receita, calcular aumento, valor estimado
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: O Target pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora.
 title: Aumento estimado na receita
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ Esta estimativa calcula a quantidade de aumento alcançado pela experiência ven
 
 O aumento estimado na receita é calculado com base na receita por visita (RPV) obtida da métrica da meta primária.
 
-O aumento estimado é calculado com o uso da seguinte fórmula: (&lt;RPV de experiência vencedora&gt; - &lt;RPV de experiência de controle&lt;)*&lt;número total de visitantes na atividade&gt;
+O aumento estimado é calculado com o uso da seguinte fórmula: (&lt;RPV de experiência vencedora> - &lt;RPV de experiência de controle&lt;)*&lt;número total de visitantes na atividade>
 
 O número resultante será arredondado para a casa decimal máxima, se a forma condensada tiver apenas um único dígito antes do decimal. Por exemplo: US$ 1,6 milhões, US$ 60 mil, US$ 900, US$ 8,5 mil, US$ 205 mil
 
@@ -36,7 +40,7 @@ Por exemplo, se a sua experiência vencedora mostrar um aumento de US$ 0,59, e s
 
 Da mesma forma, se a sua experiência vencedora mostrar um aumento de US$ 0,17 sobre a experiência de controle, e se você tiver 192.000 visitantes durante o teste, se as tendências atuais continuarem, você poderá esperar um aumento de receita de US$ 32.640.
 
-O aumento estimado no campo de receita será mostrado como "---" nas seguintes circunstâncias:
+O aumento estimado no campo de receita será mostrado como &quot;---&quot; nas seguintes circunstâncias:
 
 * Caso não tenha havido visitas suficientes para calcular uma estimativa razoável
 * Se o valor estimado da métrica não tiver sido fornecido na página de configuração da métrica
