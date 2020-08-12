@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: Informações sobre os principais conceitos que ajudarão você a entender os recursos e capacidades do Adobe Target.
 title: Conceitos-chave do Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +111,7 @@ Para obter informações sobre como o perfil do visitante acompanha informaçõe
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Tipos de atividades (9:03) Etiqueta ![Visão geral](/help/assets/overview.png)
+### Tipos de atividades (9:03) ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
@@ -117,7 +121,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Usar o Audiência no crachá ![Visão geral do Adobe Público alvo (6:21)](/help/assets/overview.png)
+### Usando o Audiência no Adobe Target (6:21) ![emblema de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
