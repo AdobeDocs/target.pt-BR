@@ -1,10 +1,14 @@
 ---
-keywords: Target, relatórios, configurações de relatórios, várias métricas, métricas
-description: Selecione várias métricas para exibir em um relatório usando o Adobe Target.
-title: Exibir várias métricas em um relatório usando o Adobe Target
+keywords: Target;reports;report settings;multiple metrics;metrics
+description: Selecione várias métricas para visualização em um relatório usando o Adobe Target.
+title: Visualização de várias métricas em um relatório usando o Adobe Target
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +26,7 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 
 **Para selecionar várias métricas para exibir no relatório:**
 
-1. Para exibir um relatório, clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista e na guia **Relatórios[!UICONTROL .]**
+1. Para exibir um relatório, clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista e na guia **[!UICONTROL Relatórios.]**
 1. Clique na lista suspensa **[!UICONTROL Métrica de relatório]** para exibir as listas [!UICONTROL Métricas exibidas] e [!UICONTROL Métricas ocultas].
 
    ![](assets/multiple_metrics.png)
@@ -41,14 +45,14 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 
    Você pode reorganizar as métricas arrastando-as e soltando-as na ordem desejada na lista [!UICONTROL Métricas exibidas]. A ordem selecionada será refletida na Exibição de tabela e na Exibição de gráfico. Para remover uma métrica da lista [!UICONTROL Métricas exibidas], passe o ponteiro do mouse sobre a métrica e clique no ícone **X**.
 
-1. Clique em **[!UICONTROL Salvar]ao concluir.**
-1. (Condicional) Ao visualizar o relatório na Exibição de tabela, passe o ponteiro do mouse sobre qualquer cabeçalho de coluna de métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
+1. Clique em **[!UICONTROL Salvar]** ao concluir.
+1. (Condicional) Ao exibir o relatório na Visualização Tabela, passe o ponteiro do mouse sobre qualquer cabeçalho de coluna de métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
 
    ![](assets/multiple_metrics_table.png)
 
    Você pode expandir apenas uma métrica/coluna por vez. Clique na seta novamente para recolher as colunas.
 
-1. (Condicional) Ao exibir o relatório na Exibição de gráfico, você pode selecionar métricas individuais para exibir na lista suspensa:
+1. (Condicional) Ao exibir o relatório na Visualização de gráfico, você pode selecionar métricas individuais para exibir na lista suspensa:
 
    ![](assets/multiple_metrics_graph.png)
 
