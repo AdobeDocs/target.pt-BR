@@ -2,10 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades do Adobe Target.
 title: Atributos de perfil no Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -19,7 +20,7 @@ Os atributos do perfil são parâmetros específicos de um visitante. Estes atri
 
 Um perfil de usuário contém informações demográficas e comportamentais de um visitante de página da Web, como idade, gênero, produtos comprados, última visita e assim por diante, o Público alvo usa para personalizar o conteúdo que serve ao visitante.
 
-À medida que um visitante navega em seu site, ou quando o visitante retorna para outra sessão, os atributos salvos do perfil no perfil podem ser usados para público alvo de conteúdo ou registro de informações para filtragem de segmentos.
+As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
 
 Para configurar atributos de perfil:
 
@@ -79,7 +80,7 @@ Lembre-se das seguintes informações:
 * Os parâmetros e valores diferencia maiúsculas de minúsculas. Verifique as letras maiúsculas e minúsculas e os valores que você receberá durante a atividade ou o teste.
 * Consulte a seção &quot;Referência de JavaScript para os parâmetros do perfil de script&quot; abaixo para obter mais sintaxe de JavaScript.
 * O parâmetro permanece no perfil após a desativação do script. Os usuários cujos perfis já contêm um parâmetro que é usado em uma audiência de atividade se qualificarão nessa atividade.
-* Os scripts de Perfil não podem ser excluídos enquanto estiverem sendo usados em uma atividade.
+* Os scripts de perfil não podem ser excluídos enquanto estiverem sendo usados em uma atividade.
 * Não é recomendável criar scripts de perfil dependentes que usam o resultado de um script de perfil em outro script de perfil. A ordem de execução do script de perfil não é garantida.
 
 ## Exibição dos cartões de informações do script de perfil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -136,14 +137,14 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
 * Lembre-se não apenas do desempenho do script, mas do desempenho combinado de todos os scripts. Recomenda-se menos de 5.000 instruções no total. A contagem do número de instruções não é óbvia, mas o importante a ser observado é que scripts que excedem 2.000 instruções são automaticamente desativados. O número de scripts de perfil ativos não deve exceder 300. Cada script é executado com cada chamada de mbox. Execute somente a quantidade de scripts necessária.
 * Em um regex, ter ponto-estrela no início (por exemplo: `/.*match/`, `/a|.*b/`) quase nunca é necessário. A pesquisa de regex começa em todas as posições em uma string (a menos que vinculada a `^`), portanto, o ponto-estrela já foi considerado. A execução do script pode ser interrompida se esse regex corresponder a dados de entrada longos o suficiente (que podem ter centenas de caracteres).
 * Se tudo falhar, envolva o script em um try/catch.
-* As recomendações a seguir podem ajudar a limitar a complexidade do script do perfil. Scripts de Perfil podem executar um número limitado de instruções.
+* As recomendações a seguir podem ajudar a limitar a complexidade do script do perfil. Scripts de perfil podem executar um número limitado de instruções.
 
    Como prática recomendada:
 
    * Mantenha scripts de perfil pequenos e tão simples quanto possível.
    * Evite expressões regulares ou utilize apenas expressões regulares muito simples. Até mesmo expressões simples podem receber muitas instruções para avaliar.
    * Evitar a repetição.
-   * Os scripts de Perfil devem ser testados em relação ao desempenho antes de serem adicionados ao Público alvo. Todos os scripts de perfil são executados em cada solicitação de mbox. Se scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas. Isso pode afetar o tráfego e a conversão.
+   * Os scripts de perfil devem ser testados em relação ao desempenho antes de serem adicionados ao Público alvo. Todos os scripts de perfil são executados em cada solicitação de mbox. Se scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas. Isso pode afetar o tráfego e a conversão.
    * Se scripts de perfil se tornarem muito complexos, considere usar tokens [de](/help/administrating-target/response-tokens.md) resposta.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -277,7 +278,7 @@ Todos os operadores JavaScript padrão estão presentes e utilizáveis. Os opera
 | `||` | Na lógica, &quot;OR&quot; entre as expressões, à esquerda e à direita - é verdadeiro somente se um dos lados for verdadeiro (caso contrário, é falso). |
 | `//` | Verifica se a origem contém todos os elementos que os booleanos de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também suporta o uso de valores de sequência constantes, agrupando-os (`condition1 || condition2) && condition3` e expressões regulares (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vídeo de treinamento: Etiqueta do ![tutorial de scripts de Perfil](/help/assets/tutorial.png)
+## Vídeo de treinamento: Etiqueta do ![tutorial de scripts de perfil](/help/assets/tutorial.png)
 
 Esse vídeo inclui informações sobre o uso e a criação de scripts de perfil.
 
