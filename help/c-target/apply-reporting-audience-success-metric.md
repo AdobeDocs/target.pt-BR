@@ -1,10 +1,14 @@
 ---
-keywords: Direcionamento, público-alvo, geração de relatórios, métrica de sucesso
+keywords: Targeting;audience;reporting;success metric
 description: Escolha uma métrica de sucesso no Adobe Target que qualifique o usuário para o público-alvo do relatório.
 title: Aplicar um relatório de público-alvo a uma métrica de sucesso no Adobe Target
+feature: null
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
