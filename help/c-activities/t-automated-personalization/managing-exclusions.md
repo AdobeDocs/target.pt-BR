@@ -1,11 +1,15 @@
 ---
-keywords: deduplicação; permitir duplicatas; excluir ofertas duplicadas; personalização automatizada; rejeitar ofertas duplicadas
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de Personalização Adobe Target automatizada (AP) no Adobe Target.
 title: Gerenciar exclusões
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +34,7 @@ Você também pode limitar quais públicos-alvo podem ver as ofertas específica
 
 1. Na caixa de diálogo [!UICONTROL Gerenciar conteúdo], clique em **[!UICONTROL Grupo de exclusão]**.
 
-   ![Caixa de diálogo Gerenciar conteúdo &gt; Grupos de exclusão](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![Caixa de diálogo Gerenciar conteúdo > Grupos de exclusão](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    Se você criou previamente os grupos de exclusão, eles são exibidos na lista. Se você ainda não criou um grupo de exclusão, será solicitado a criar um.
 
@@ -56,7 +60,7 @@ Evita a duplicação das ofertas da biblioteca de ofertas, quando usadas em loca
 
 Você pode ter uma atividade, por exemplo, seis locais na página com 12 ofertas. Há uma chance de que a mesma oferta possa ser colocada em um ou mais locais na atividade. Esse recurso evita a exibição e ofertas duplicadas ao mesmo tempo em locais diferentes, dentro da mesma atividade.
 
-Clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Duplicar ofertas]** e clique em **[!UICONTROL Permitir duplicatas]** ou **[!UICONTROL Cancelar duplicatas]**.
+Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Duplicar ofertas]**, em seguida, clique em **[!UICONTROL Permitir duplicatas]** ou **[!UICONTROL Não permitir duplicatas]**.
 
 ![Opções de ofertas duplicadas](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
 **Para excluir o conteúdo padrão usando o Visual Experience Composer (VEC):**
 
-1. Ao [criar ou editar uma atividade de AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique para acessar **[!UICONTROL Alterar texto/HTML]** ou **[!UICONTROL Alterar imagem]** ou **[!UICONTROL Alterar cor do fundo]**.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **Incluir** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela de Conteúdo selecionado).
 
    Dependendo do tipo de conteúdo/oferta, a caixa de seleção [!UICONTROL Incluir] fica em um local diferente.
@@ -122,7 +126,7 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 **Para excluir o conteúdo usando o Experience Composer baseado em formulário:**
 
 1. Ao criar ou editar uma atividade de AP, clique em **[!UICONTROL Alterar texto/HTML]** ou **[!UICONTROL Alterar oferta de imagem]** em **[!UICONTROL Conteúdo]**.
-1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **[!UICONTROL Incluir]à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela de Conteúdo selecionado).**
+1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **[!UICONTROL Incluir]** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela de Conteúdo selecionado).
 
    Dependendo do tipo de conteúdo/oferta, a caixa de seleção Incluir fica em um local diferente.
 
