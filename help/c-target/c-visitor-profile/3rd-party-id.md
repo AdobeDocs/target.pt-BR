@@ -1,11 +1,15 @@
 ---
-keywords: mbox; mbox3rdPartyId; sincronização de perfil; sincronização de perfil; PCID
+keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: 'Informações sobre o perfil em tempo real '
 title: Sincronização de perfil em tempo real para mbox3rdPartyId no Adobe Target
-topic: Padrão
+feature: null
+topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
@@ -35,7 +39,7 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] as metas não serão rastreadas nos casos em que a [!DNL Adobe Experience Cloud] ID (EDID) muda (por exemplo, o visitante muda de dispositivo), mesmo que o [!DNL Target] perfil possa ser mesclado com base na mbox3rdPartyId e ainda tenha informações de atividade. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] os objetivos não serão rastreados nos casos em que a [!DNL Adobe Experience Cloud] ID (EDID) muda (por exemplo, o visitante muda de dispositivos), mesmo que o [!DNL Target] perfil possa ser mesclado com base na mbox3rdPartyId e ainda tenha informações de atividade. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
 
 ## Considerações {#considerations}
 
