@@ -2,9 +2,10 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Várias etapas são necessárias para a implementação do Adobe Analytics como a fonte de geração de relatórios para o Target (A4T).
 title: Implementação do Analytics for Target
+feature: null
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 63%
@@ -20,7 +21,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 As seções a seguir descrevem as etapas necessárias para implantar essa integração no site.
 
-## Etapa 1: Solicitar provisionamento para Analytics e Público alvo
+## Etapa 1: Solicitar provisionamento para o Analytics e Públicos alvos
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Use este formulário para solicitar o aprovisionamento](http://www.adobe.com/go/audiences).
 
@@ -97,7 +98,7 @@ Essa configuração tem um efeito global, o que significa que **analyticsLogging
 }
 ```
 
-A carga pode ser encaminhada à Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados.
+A carga pode ser encaminhada ao Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados.
 
 Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, você poderá usar a função [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) para fazer isso, passando em **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
