@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: O Teste multivariado (MVT) no Adobe Target compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
 title: Teste multivariado
+feature: null
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 91%
 
 ---
 
@@ -60,7 +64,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 * Use um teste MVT quando você tiver pelo menos três elementos para testar. Se tiver menos, execute uma série de  Testes A/B.
 * Selecione os elementos de páginas que você acha que terão mais impacto sobre os resultados.
 * Não inclua elementos nem locais demais em um teste. Quanto maior o número, maior será a duração do teste.
-* Planejar o teste com antecedência. Não é aconselhável editar um teste depois que ele é ativado e os dados começam a ser coletados e analisados.
+* Planejar o teste com antecedência. Não é aconselhável editar um teste depois que ele é ativado e start de dados sendo coletados e analisados.
 * Recomenda-se que os elementos sejam independentes entre si.
 
    Por exemplo, não teste o layout e o conteúdo no mesmo teste.
@@ -87,7 +91,7 @@ Para mais considerações e práticas recomendadas, consulte [Práticas recomend
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Tipos de atividades (9:03) Etiqueta ![Visão geral](/help/assets/overview.png)
+### Tipos de atividades (9:03) ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo de visão geral explica os tipos de atividades disponíveis no Target Standard/Premium. O teste multivariado é discutido a partir de 04:20.
 
