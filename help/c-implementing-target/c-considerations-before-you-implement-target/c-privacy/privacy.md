@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: O Adobe Target possibilitou processos e definições que permitem seu uso em conformidade com as leis de privacidade de dados aplicáveis.
 title: Privacidade
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 78%
 
 ---
 
@@ -27,15 +31,15 @@ Quando esse recurso é ativado, o endereço IP fica anônimo de forma que não s
 
 As seguintes configurações estão disponíveis:
 
-* Sem ofuscação: O Target não oculta nenhuma parte do endereço IP.
-* Último octeto: O Target oculta o último octeto do endereço IP.
-* IP completo: O Target oculta o endereço IP inteiro.
+* Sem ofuscação: O público alvo não oculta nenhuma parte do endereço IP.
+* Último octeto: O público alvo oculta o último octeto do endereço IP.
+* IP completo: O público alvo oculta todo o endereço IP.
 
-O Target recebe o endereço IP completo e o ofusca (se estiver definido como Último octeto ou IP completo) conforme especificado. O Target mantém o endereço IP ofuscado na memória durante a sessão.
+O público alvo recebe o endereço IP completo e o ofusca (se estiver definido como Last octet ou Full IP) conforme especificado. Em seguida, o público alvo mantém o endereço IP ofuscado na memória durante a sessão.
 
 >[!NOTE]
 >
->[Entre em contato com o Atendimento](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ao cliente da Adobe para determinar que configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
+>[Entre em contato com o Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para determinar que configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
 
 ## GeoSegmentation  {#section_BB69F96559BD44BDA4177537C4A5345A}
 
