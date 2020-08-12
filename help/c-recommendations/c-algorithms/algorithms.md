@@ -1,10 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Critérios nas Recomendações de Adobe Target são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos de visitante.
-title: Critérios nas Recomendações de Adobe Target
+description: Critérios no Adobe Target Recommendations são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos de visitante.
+title: Critérios no Adobe Target Recommendations
+feature: null
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -86,7 +87,7 @@ O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quan
 | Mais vendidos | Os itens incluídos nos pedidos mais concluídos. Várias unidades do mesmo item em um único pedido são contadas como um pedido. |
 | Mais visualizados | Os itens ou mídias visualizados com mais frequência. |
 | Itens/Mídia visualizados recentemente | Itens que foram visualizados recentemente pelo visitante. Ao utilizar um critério, atualize o design do Target para lidar com casos em que as recomendações em branco serão exibidas enquanto não houver um número suficiente de itens visualizados para exibição. |
-| Recomendações baseadas no usuário | Recomenda itens com base em cada histórico de navegação, exibição e compra de visitantes. Esses itens são geralmente chamados de &quot;Recomendado para você&quot;.<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada em sessão e se torna mais personalizada à medida que o usuário navega em seu site.<br>As visualizações e compras são usadas para determinar os itens recomendados. A Chave de recomendação especificada (por exemplo, Item atual) é usada para aplicar qualquer filtros de regra de inclusão selecionado. Por exemplo, você pode:<ul><li>Excluir itens que não atendem a determinados critérios (produtos esgotados, artigos publicados há mais de 30 dias, filmes com classificação R etc.)</li><li>Limitar itens incluídos a uma única categoria ou à categoria atual</li></ul> |
+| Recommendations baseado em usuário | Recomenda itens com base em cada histórico de navegação, exibição e compra de visitantes. Esses itens são geralmente chamados de &quot;Recomendado para você&quot;.<br>Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada em sessão e se torna mais personalizada à medida que o usuário navega em seu site.<br>As visualizações e compras são usadas para determinar os itens recomendados. A Chave de recomendação especificada (por exemplo, Item atual) é usada para aplicar qualquer filtros de regra de inclusão selecionado. Por exemplo, você pode:<ul><li>Excluir itens que não atendem a determinados critérios (produtos esgotados, artigos publicados há mais de 30 dias, filmes com classificação R etc.)</li><li>Limitar itens incluídos a uma única categoria ou à categoria atual</li></ul> |
 
 >[!NOTE]
 >
@@ -112,4 +113,4 @@ Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de ativid
 
 >[!NOTE]
 >
->O recurso Uso [!UICONTROL de] algoritmo é atualmente compatível somente com atividades do Recommendations. No momento, esse recurso não é compatível com atividades de teste A/B e direcionamento de experiência (XT) que incluem [recomendações como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+>O recurso de Uso [!UICONTROL de] algoritmo é atualmente compatível somente com o Recommendations atividade. No momento, esse recurso não é compatível com atividades de teste A/B e direcionamento de experiência (XT) que incluem [recomendações como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
