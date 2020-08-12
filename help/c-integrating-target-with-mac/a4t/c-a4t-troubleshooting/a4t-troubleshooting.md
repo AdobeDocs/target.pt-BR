@@ -1,12 +1,16 @@
 ---
-keywords: servidor de rastreamento de análises; A4T; segmentos de análise; conjuntos de relatórios; dados incorretos; órfão; sdid; VisitorAPI.js; mboxMCSDID; fictício; não especificado
+keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
 description: Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 title: Solução de problemas de integração do Analytics e do Target (A4T)
-subtopic: Teste multivariado
-topic: Padrão
+feature: null
+subtopic: Multivariate Test
+topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 
-## As atividades não mostram dados no Analytics, mas são listadas como "não especificadas".{#unspecified}
+## As atividades não mostram dados no Analytics, mas são listadas como &quot;não especificadas&quot;.{#unspecified}
 
 Existem várias razões pelas quais isso pode acontecer:
 
@@ -33,9 +37,9 @@ Existem várias razões pelas quais isso pode acontecer:
 
 >[!NOTE]
 >
->Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para "não especificados" porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
+>Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para &quot;não especificados&quot; porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 >
->Nenhum dado é perdido quando listado como "não especificado". Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
+>Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
 ## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.  {#section_4BE374E573D44FB7918611699B74F58E}
 
