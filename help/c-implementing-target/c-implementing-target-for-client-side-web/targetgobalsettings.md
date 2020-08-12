@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
 title: Informações sobre a função targetGlobalSettings() da biblioteca at.js de JavaScript do Adobe Target.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 40%
@@ -179,7 +180,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Booleano
 * **Valor** padrão: true
-* **Descrição**: Quando habilitado, recupere automaticamente visualizações que devem ser retornadas no carregamento da página. As Visualizações são suportadas em at.js 2.somente *x.*
+* **Descrição**: Quando habilitado, recupere automaticamente visualizações que devem ser retornadas no carregamento da página. As visualizações são suportadas em at.js 2.somente *x.*
 
 ### visitorApiTimeout
 
@@ -339,7 +340,7 @@ window.targetGlobalSettings = {
 ...
 ```
 
-Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar o Target oferta.
+Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar o Público alvo oferta.
 
 ## Personalização híbrida {#server-state}
 
@@ -463,8 +464,8 @@ Considere o seguinte ao usar `serverState`:
 
 * No momento, o at.js v2.2 suporta apenas a entrega de experiências via serverState para:
 
-   * atividades criadas por VEC que são executadas no carregamento da página.
-   * visualizações pré-buscadas.
+   * Atividades criadas por VEC que são executadas no carregamento da página.
+   * Visualizações pré-buscadas.
 
       No caso de SPAs que usam [!DNL Target] Visualização e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Visualizações pré-buscadas no lado do servidor e as aplica assim que cada Visualização é acionada `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Público alvo.
 
