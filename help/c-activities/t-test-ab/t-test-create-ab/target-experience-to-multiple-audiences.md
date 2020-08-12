@@ -1,11 +1,15 @@
 ---
-keywords: vários públicos-alvo; versões de experiência; versões de experiência de direcionamento
+keywords: multiple audiences;experience versions;target experience versions
 description: É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 title: Múltiplas versões de uma experiência em um teste A/B
-topic: Padrão
+feature: null
+topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +36,7 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
 
    Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir.
 
-1. Selecione a experiência e clique em **[!UICONTROL Configurar]** &gt; **[!UICONTROL Públicos-alvo]** &gt; **[!UICONTROL Vários públicos-alvo]**.
+1. Selecione a experiência, clique em **[!UICONTROL Configurar]** > **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Múltiplos públicos-alvo]**.
 
    ![Opção de Vários públicos-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
@@ -50,5 +54,5 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
 
 * Escolha públicos-alvo mutualmente exclusivos. Se a atividade foi criada no VEC, se um visitante fizer parte de mais de um público-alvo, o conteúdo para cada público-alvo é exibido, com o conteúdo do último público-alvo na lista exibindo a página.
 * Públicos-alvo de entrada de atividade definidos no diagrama são combinados com os públicos-alvo da experiência usando uma condição E. Para entrar na atividade, um visitante deve fazer parte do público-alvo da atividade e um dos públicos-alvo da experiência.
-* Adicione os mesmos públicos-alvo como segmentos para relatórios. Isto ajuda a observar nos resultados do teste no nível alto da experiência A contra B e no nível baixo da experiência A contra B por apenas "browser lang ja_JP." Isto funciona somente em relatórios baseados no Target e não em relatórios baseados no Analytics.
+* Adicione os mesmos públicos-alvo como segmentos para relatórios. Isto ajuda a observar nos resultados do teste no nível alto da experiência A contra B e no nível baixo da experiência A contra B por apenas &quot;browser lang ja_JP.&quot; Isto funciona somente em relatórios baseados no Target e não em relatórios baseados no Analytics.
 
