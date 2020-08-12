@@ -2,10 +2,14 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Você pode criar públicos no Adobe Target para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
 title: Opções de navegador nos públicos do Adobe Target
+feature: null
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +121,7 @@ Somente versões principais podem ser inseridas no campo de texto. A versão esp
 
 Várias opções estão conectadas a um OR.
 
-## Vídeo de treinamento: Criação de públicos-alvo Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
