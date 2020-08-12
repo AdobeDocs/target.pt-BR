@@ -2,14 +2,18 @@
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
 description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B no Adobe Target. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 title: Nove erros comuns em testes A/B e como evitá-los
+feature: null
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 91cfd46500e1f245750c651f254ee560b04b0795
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3918'
+ht-degree: 88%
 
 ---
 
 
-# Ten common A/B testing pitfalls and how to avoid them{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Dez erros comuns em testes A/B e como evitá-los{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
 
 Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve dez das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 
@@ -17,9 +21,9 @@ Os formulários de teste A/B são o suporte principal da maioria dos programas d
 
 Qual é a probabilidade de o seu teste relatar uma diferença significativa na taxa de conversão entre duas ofertas quando, na verdade, não há nenhuma? Isso é o que o *nível de significância* de um teste ajuda a determinar. Tais descobertas enganosas são frequentemente chamadas de falso positivo e, no mundo das estatísticas, são chamadas de erro Tipo I (se você rejeitar incorretamente a hipótese nula que é realmente verdadeira).
 
-Quando você especifica o nível de significância de um teste A/B, você está fazendo uma compensação entre sua tolerância para aceitar que uma experiência é melhor que a outra quando realmente não é (erro Tipo I ou "falso positivo") versus não ver diferença estatística entre as experiências quando realmente existe uma diferença verdadeira (erro tipo II ou "falso negativo"). O *nível de confiança* é determinado antes da execução de um teste.
+Quando você especifica o nível de significância de um teste A/B, você está fazendo uma compensação entre sua tolerância para aceitar que uma experiência é melhor que a outra quando realmente não é (erro Tipo I ou &quot;falso positivo&quot;) versus não ver diferença estatística entre as experiências quando realmente existe uma diferença verdadeira (erro tipo II ou &quot;falso negativo&quot;). O *nível de confiança* é determinado antes da execução de um teste.
 
-O *intervalo de confiança*, que é determinado após a conclusão de um teste, é impactado por três fatores principais: tamanho da amostra do teste, nível de significância e desvio padrão da população. Como o profissional de marketing selecionou o nível de significância antes do teste ser projetado e o desvio padrão da população não pode ser afetado, o único fator "controlável" é o tamanho da amostra. O tamanho da amostra necessário para um intervalo de confiança com o qual você se sente confortável e o tempo resultante para alcançar esse tamanho de amostra é uma decisão importante que um profissional de marketing deve determinar durante o design do teste.
+O *intervalo de confiança*, que é determinado após a conclusão de um teste, é impactado por três fatores principais: tamanho da amostra do teste, nível de significância e desvio padrão da população. Como o profissional de marketing selecionou o nível de significância antes do teste ser projetado e o desvio padrão da população não pode ser afetado, o único fator &quot;controlável&quot; é o tamanho da amostra. O tamanho da amostra necessário para um intervalo de confiança com o qual você se sente confortável e o tempo resultante para alcançar esse tamanho de amostra é uma decisão importante que um profissional de marketing deve determinar durante o design do teste.
 
 Outro termo diretamente relacionado, o *nível de confiança*, é mais do que uma abordagem equilibrada. Em vez de indicar a probabilidade de obter um falso positivo, conforme o nível de significância, o nível de confiança representa a probabilidade de o teste não cometer esse erro.
 
@@ -69,7 +73,7 @@ Observe que, se você quiser identificar a oferta com a maior taxa de conversão
 
 ## Pitfall 3: Ignoring the effects of statistical power {#section_0D517079B7D547CCAA75F80981CBE12A}
 
-O poder estatístico é a probabilidade de um teste detectar uma diferença real na taxa de conversão entre as ofertas. Por causa da natureza aleatória, ou como os estatísticos gostam de chamá-la, "estocástica", dos eventos de conversão, um teste pode não mostrar uma diferença estatisticamente significativa, mesmo quando existe uma diferença real na taxa de conversão entre duas ofertas a longo prazo. Chame de má sorte ou de acaso. Não detectar uma diferença real na taxa de conversão é chamado de falso negativo ou erro de tipo II.
+O poder estatístico é a probabilidade de um teste detectar uma diferença real na taxa de conversão entre as ofertas. Por causa da natureza aleatória, ou como os estatísticos gostam de chamá-la, &quot;estocástica&quot;, dos eventos de conversão, um teste pode não mostrar uma diferença estatisticamente significativa, mesmo quando existe uma diferença real na taxa de conversão entre duas ofertas a longo prazo. Chame de má sorte ou de acaso. Não detectar uma diferença real na taxa de conversão é chamado de falso negativo ou erro de tipo II.
 
 Existem dois fatores principais que determinam o poder de um teste. O primeiro é o tamanho da amostra, ou seja, o número de visitantes incluídos no teste. O segundo é a magnitude da diferença na taxa de conversão que você deseja que o teste detecte. Talvez isso seja um pouco intuitivo, mas se você estiver interessado em detectar apenas grandes diferenças de taxa de conversão, há uma probabilidade muito maior de que o teste realmente detecte grandes diferenças, como descobrir que você tem um elefante na sala de estar versus uma mosca enquanto olha através de um tubo de papel toalha. Ao longo dessas linhas, quanto menor a diferença que você deseja detectar, maior o tamanho da amostra e, portanto, o tempo para obter esse tamanho de amostra maior que você precisa.
 
@@ -81,9 +85,9 @@ Para evitar subutilizar seu teste, considere que um padrão típico para um test
 
 ## Etapa 4: Uso de testes de um único canal {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
-Testes unilaterais exigem uma menor diferença observada nas taxas de conversão entre as ofertas para chamar um vencedor em um determinado nível de significância. Isso parece atraente porque os vencedores podem ser chamados antes e com mais frequência do que quando se usa testes bilaterais. Mas, de acordo com o ditado, "Nada é de graça", os testes unilaterais custam caro.
+Testes unilaterais exigem uma menor diferença observada nas taxas de conversão entre as ofertas para chamar um vencedor em um determinado nível de significância. Isso parece atraente porque os vencedores podem ser chamados antes e com mais frequência do que quando se usa testes bilaterais. Mas, de acordo com o ditado, &quot;Nada é de graça&quot;, os testes unilaterais custam caro.
 
-Em um teste unilateral, você testa se a oferta B é melhor que a oferta A. A direção do teste deve ser determinada antes do início do teste, ou "a priori" em estatística. Em outras palavras, você deve decidir se testa para B sendo melhor que A ou A sendo melhor que B *antes* de iniciar o teste. No entanto, se você observar os resultados do teste A/B e ver que B está melhor que A e, *em seguida,* decidir fazer um teste unilateral para ver se essa diferença é estatisticamente significativa, estará violando as suposições por trás do teste estatístico. Violar as suposições do teste significa que seus intervalos de confiança não são confiáveis e o teste tem uma taxa de falsos positivos mais alta do que você esperava.
+Em um teste unilateral, você testa se a oferta B é melhor que a oferta A. A direção do teste deve ser determinada antes do início do teste, ou &quot;a priori&quot; em estatística. Em outras palavras, você deve decidir se testa para B sendo melhor que A ou A sendo melhor que B *antes* de iniciar o teste. No entanto, se você observar os resultados do teste A/B e ver que B está melhor que A e, *em seguida,* decidir fazer um teste unilateral para ver se essa diferença é estatisticamente significativa, estará violando as suposições por trás do teste estatístico. Violar as suposições do teste significa que seus intervalos de confiança não são confiáveis e o teste tem uma taxa de falsos positivos mais alta do que você esperava.
 
 Você pode ver um teste unilateral como uma oferta em julgamento com um juiz que já tomou uma decisão. Em um teste unilateral, você já decidiu qual será a oferta vencedora e está prestes a prová-la, em vez de dar a cada experiência uma chance igual de se provar como a vencedora. Testes unilaterais devem ser usados somente nas raras situações em que você está interessado apenas em saber se uma oferta é melhor que a outra e não o contrário. Para evitar a emissão do teste unilateral, use uma solução de teste A/B que sempre usa testes bilaterais, como o [!DNL Adobe Target].
 
@@ -109,7 +113,7 @@ A figura abaixo mostra cinco ofertas que têm a mesma taxa de conversão de long
 
 ![](assets/pitfalls4.png)
 
-Esse fenômeno é conhecido como "regressão à média" e pode levar ao desapontamento quando uma oferta que teve bom desempenho durante os primeiros dias de um teste não consegue manter esse nível de desempenho a longo prazo. Também pode levar à perda de receita quando uma boa oferta não é implementada porque aconteceu de ter um desempenho ruim nos primeiros dias de um teste, apenas por acaso.
+Esse fenômeno é conhecido como &quot;regressão à média&quot; e pode levar ao desapontamento quando uma oferta que teve bom desempenho durante os primeiros dias de um teste não consegue manter esse nível de desempenho a longo prazo. Também pode levar à perda de receita quando uma boa oferta não é implementada porque aconteceu de ter um desempenho ruim nos primeiros dias de um teste, apenas por acaso.
 
 Assim como a armadilha de monitorar seu teste, a melhor maneira de evitar esses problemas é determinar um número adequado de visitantes antes de executar o teste e, em seguida, permitir que o teste seja executado até que esse número de visitantes tenha sido exposto às ofertas.
 
@@ -122,10 +126,10 @@ Neste cenário, como os usuários são atribuídos às experiências?
 
 Se você alterar manualmente a divisão de alocação para 100% para a Experiência B, os visitantes que foram alocados originalmente para a Experiência A (o controle) permanecerão em sua experiência atribuída inicialmente (Experiência A). A alteração na atribuição do tráfego afeta apenas os novos operadores.
 
-Se você quiser alterar as porcentagens ou afetar o fluxo de visitantes em cada experiência, recomendamos que você crie uma nova atividade ou copie a atividade e edite as porcentagens de alocação de tráfego.
+Se você quiser alterar as porcentagens ou afetar muito o fluxo de visitantes em cada experiência, recomendamos que você crie uma nova atividade ou copie a atividade e edite as porcentagens de alocação de tráfego.
 
-Se você alterar as porcentagens de diferentes experiências durante o período de teste, levará alguns dias para os dados se normalizarem, especialmente se muitos compradores retornarem visitantes.
-Como outro exemplo, se a alocação de tráfego do Teste A/B for dividida em 50/50 e você alterar a divisão para 80/20, nos primeiros dias após essa alteração os resultados podem parecer distorcidos. Se o tempo médio para conversão for alto, o que significa que alguém leva várias horas ou até mesmo dias para fazer uma compra, essas conversões atrasadas podem afetar seus relatórios. Assim, nessa primeira experiência, em que o número passou de 50% para 80%, e o tempo médio de conversão é de dois dias, apenas os visitantes de 50% da população convertem no primeiro dia do teste, embora hoje 80% da população esteja entrando na experiência. Isso faz com que pareça que a taxa de conversão caiu abruptamente, mas ela se normalizará novamente depois que esses 80% dos visitantes levarem dois dias para serem convertidos.
+Se você alterar as porcentagens de diferentes experiências durante o período de teste, levará alguns dias para os dados se normalizarem, especialmente se muitos compradores estiverem retornando visitantes.
+Como outro exemplo, se a alocação de tráfego do Teste A/B for dividida em 50/50 e você alterar a divisão para 80/20, nos primeiros dias após essa alteração os resultados podem parecer distorcidos. Se o tempo médio para conversão for alto, o que significa que alguém leva várias horas ou até mesmo dias para fazer uma compra, essas conversões atrasadas podem afetar seus relatórios. Assim, naquela primeira experiência em que o número passou de 50% para 80% e o tempo médio de conversão é de dois dias, apenas visitantes de 50% da população convertem no primeiro dia do teste, embora hoje 80% da população esteja ingressando na experiência. Isso faz parecer que a taxa de conversão caiu, mas vai normalizar novamente depois que esses 80% dos visitantes levaram dois dias para se converter.
 
 ## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
@@ -137,7 +141,7 @@ O efeito de novidade também pode funcionar em sentido inverso. Os visitantes co
 
 ## Pitfall 9: Not considering differences in the consideration period {#section_B166731B5BEE4E578816E351ECDEA992}
 
-O período de consideração é o período desde o momento em que a solução de teste A/B apresenta uma oferta a um visitante até quando o visitante converte. Isso pode ser importante com ofertas que afetam substancialmente o período de consideração. Por exemplo, uma oferta que implique em um prazo, como "Oferta por tempo limitado - Compre até domingo".
+O período de consideração é o período desde o momento em que a solução de teste A/B apresenta uma oferta a um visitante até quando o visitante converte. Isso pode ser importante com ofertas que afetam substancialmente o período de consideração. Por exemplo, uma oferta que implique em um prazo, como &quot;Oferta por tempo limitado - Compre até domingo&quot;.
 
 Essas ofertas incentivam os visitantes a converter mais cedo e serão favorecidas se o teste for interrompido imediatamente após o término da oferta, porque a oferta alternativa pode ter um prazo mais longo ou nenhum prazo e, portanto, um período de consideração mais longo. A alternativa receberia conversões no período após o término do teste, mas se você interromper o teste no final do prazo, conversões adicionais não serão contadas para a taxa de conversão de teste.
 
