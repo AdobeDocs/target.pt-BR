@@ -5,25 +5,19 @@ title: Introdução ao Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 96%
+source-wordcount: '906'
+ht-degree: 86%
 
 ---
 
 
 # Introdução ao Target{#introduction-to-target}
 
-O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
+[!DNL Adobe Target]O é a solução da que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.[!DNL Adobe Experience Cloud]
 
 A solução [!DNL Adobe Target] contém vários componentes:
-
-| Componente | Descrição |
-|--- |--- |
-| Target Standard | Fornece uma interface visual para criar e gerenciar testes A/B e atividades de definição de metas com base em regras. |
-| Target Premium | Adiciona recursos premium à interface do Target Standard. |
-| Recommendations Classic | Exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes com base na atividade anterior do usuário no seu site. |
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
@@ -35,7 +29,7 @@ As práticas recomendadas do setor são criadas no [!DNL Target Standard] e proj
 
 O [!DNL Target Premium] é uma licença avançada do [!DNL Target] que adiciona recursos premium ao [!DNL Target Standard].
 
-Os tópicos do Target Premium nesta ajuda incluem o selo Premium na parte superior da página:
+[!DNL Target Premium] os tópicos desta ajuda incluem o selo Premium na parte superior da página:
 
 ![Selo premium](/help/assets/premium.png)
 
@@ -84,7 +78,7 @@ Essa funcionalidade permite capacidades nunca antes vistas, como:
 
 ### Permissões de usuário empresarial
 
-A funcionalidade de [Permissões de usuário empresarial](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) viabiliza a criação de projetos diferentes (chamados &quot;Perfis de produto&quot; no Adobe Admin Console for Enterprise) para que você atribua permissões diferentes a um único usuário que determina os direitos de acesso dele para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no Adobe Analytics. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado consiste em clientes que poderão restringir a exibição, edição e acesso de aprovação aos usuários com base na região, ambiente (dev/stage/prod), canal ou outro critério personalizado.
+[A funcionalidade Permissões](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) de usuário corporativo permite criar projetos diferentes (chamados de &quot;Perfis de produto&quot; no [!DNL Adobe Admin Console for Enterprise]) para permitir que você atribua permissões diferentes a um único usuário que dita os direitos de acesso desse usuário para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes poderão restringir o acesso à visualização, editar, aprovar e publicar aos seus usuários com base na região, ambiente (dev/stage/prod), canal ou outros critérios personalizados.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -94,11 +88,11 @@ Para obter mais informações, consulte a [documentação do Recommendations Cla
 
 ## Experience League: o kit de boas-vindas do Adobe Target {#kit}
 
-Crie seu programa de otimização e personalização no Adobe Target com este kit de boas-vindas! Ele inclui informações importantes, ferramentas e recursos para ajudá-lo a se preparar e lançar sua primeira atividade do Adobe Target, com ganhos rápidos em curto prazo e estratégias de otimização em longo prazo.
+Crie seu programa de otimização e personalização no Adobe Target com este kit de boas-vindas! It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
 
-[O kit de boas-vindas do Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[O kit de boas-vindas da Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vídeo de treinamento: Etiqueta de ![Visão Geral de Tipos de Atividades (9:03)](/help/assets/overview.png)
+## Vídeo de treinamento: Etiqueta de ![Visão Geral de Tipos de atividades (9:03)](/help/assets/overview.png)
 
 O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium] e como o fluxo de Trabalho guiado em três etapas do Target pode ajudar você a alcançar as metas do seu site.
 
