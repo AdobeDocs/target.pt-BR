@@ -1,11 +1,12 @@
 ---
 keywords: apple;ITP;intelligent tracking prevention
-description: Informações sobre o suporte ao Público alvo da Adobe para o ITP 2.x da Apple por meio da biblioteca da Experience Cloud ID (ECID) 4.3.
+description: Informações sobre o suporte da Adobe Target para o ITP 2.x da Apple por meio da biblioteca de ID do Experience Cloud (ECID) 4.3.
 title: Suporte do Adobe Target e Apple ITP
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 54%
@@ -35,7 +36,7 @@ O Apple ITP 2.x impacta [!DNL Target] nas seguintes áreas:
 | --- | --- |
 | Aumento potencial das contagens de visitantes únicos | Devido à definição da janela de expiração para sete dias (com ITP 2.1) e um dia (com ITP 2.2 e ITP 2.3), é possível que você veja um aumento de visitantes únicos provenientes dos navegadores Safari. If your visitors revisit your domain after seven days (ITP 2.1) or one day (ITP 2.2 and ITP 2.3), [!DNL Target] is forced to place a new [!DNL Target] cookie on your domain in place of the expired cookie. O novo [!DNL Target] cookie indica um novo visitante único, mesmo que o usuário seja o mesmo. |
 | Redução nos períodos de pesquisa para [!DNL Target] atividades | Os perfis de visitante para [!DNL Target] atividades podem ter um período de lookback reduzido para a tomada de decisão. Os [!DNL Target] cookies são usados para identificar um visitante e armazenar atributos de perfil do usuário para personalização. Given that [!DNL Target] cookies can be expired on Safari after seven days (ITP 2.1) or one day (ITP 2.2 and 2.3), the user profile data that was tied to the purged [!DNL Target] cookie cannot be used for decisioning. |
-| Scripts de Perfil com base em 3rdPartyID | Devido à definição da janela de expiração para sete dias (com ITP 2.1) e um dia (com ITP 2.2 e ITP 2.3), os scripts [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil com base no cookie 3rdPartyID deixarão de funcionar após a expiração. |
+| Scripts de perfil com base em 3rdPartyID | Devido à definição da janela de expiração para sete dias (com ITP 2.1) e um dia (com ITP 2.2 e ITP 2.3), os scripts [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil com base no cookie 3rdPartyID deixarão de funcionar após a expiração. |
 | URLs de QA/Pré-visualização em dispositivos iOS | Devido à definição da janela de expiração para sete dias (com ITP 2.1) e um dia (com ITP 2.2 e ITP 2.3), os URLs [de](/help/c-activities/c-activity-qa/activity-qa.md) QA/Pré-visualização pararão de funcionar após a expiração, pois os URLs são baseados no cookie 3rdPartyID. |
 
 ## Minha implementação atual do [!DNL Target] será afetada?
