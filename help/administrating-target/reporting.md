@@ -2,9 +2,10 @@
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
 description: Configure o Adobe Target Visual Experience Composer (VEC) especificando suas configurações gerais, configuração do visor móvel e seletores de CSS.
 title: Configurar relatórios no Adobe Target
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 33%
@@ -20,7 +21,7 @@ Para acessar a página de configuração do [!UICONTROL Relatórios] , clique em
 
 Você pode especificar as seguintes configurações nesta página:
 
-* A solução da Adobe Experience Cloud a ser usada para o relatórios
+* A solução Adobe Experience Cloud a ser usada para o relatórios
 * O fuso horário a ser usado para o relatórios
 * A moeda a ser usada para o relatórios
 * Endereços IP a serem excluídos do relatórios
@@ -29,9 +30,9 @@ Você pode especificar as seguintes configurações nesta página:
 
 >[!NOTE]
 >
->Observe que o fuso horário, a moeda e os endereços IP para excluir configurações se aplicam às atividades que usam o [!DNL Target] relatórios. Essas configurações não se aplicam a atividades que usam o [Analytics para Público alvo (A4T)] como a fonte do relatórios (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Observe que o fuso horário, a moeda e os endereços IP para excluir configurações se aplicam às atividades que usam o [!DNL Target] relatórios. Essas configurações não se aplicam a atividades que usam o [Analytics para Públicos alvos (A4T)] como a fonte do relatórios (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-![página Relatórios](/help/administrating-target/assets/reporting.png)
+![página relatórios](/help/administrating-target/assets/reporting.png)
 
 ## Solução da Relatórios Cloud
 
@@ -44,7 +45,7 @@ Considere as informações a seguir ao escolher sua origem de relatórios:
 * Se a origem de relatório for definida aqui para **[!DNL Target]**, você não poderá ativar uma atividade que usa o como a origem de relatório. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
 * If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL A criação, a ativação e a desativação da atividade de Personalização] Automatizada (AP) são permitidas independentemente da origem do relatórios selecionada. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL A criação, a ativação e a desativação de atividades Automated Personalization] (AP) são permitidas independentemente da origem do relatórios selecionada. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## Fuso horário do Relatórios
 
