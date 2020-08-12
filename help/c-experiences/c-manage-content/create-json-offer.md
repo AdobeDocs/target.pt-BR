@@ -1,11 +1,15 @@
 ---
-keywords: oferta remota; criar oferta remota
+keywords: remote offer;create remote offer
 description: Crie ofertas JSON na Biblioteca de ofertas para uso no Experience Composer baseado em formulário.
 title: Criar ofertas JSON
-topic: Padrão
+feature: null
+topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -28,13 +32,13 @@ Considere as informações a seguir ao trabalhar com ofertas JSON:
 
 ## Criação de uma oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Clique em **[!UICONTROL Ofertas]** e selecione a guia **Ofertas de código[!UICONTROL .]**
-1. Clique em **[!UICONTROL Criar]** &gt; **[!UICONTROL Oferta JSON]**.
+1. Clique em **[!UICONTROL Ofertas]** e selecione a guia **[!UICONTROL Ofertas de código]**.
+1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Oferta JSON]**.
 
    ![](assets/offer-json.png)
 
 1. Insira um nome de oferta.
-1. Insira ou cole seu código JSON na caixa **[!UICONTROL Código].**
+1. Insira ou cole seu código JSON na caixa **[!UICONTROL Código]**.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Exemplo {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -111,7 +115,7 @@ Digamos que a seguinte oferta JSON seja entregue em sua página da Web:
   
 ```
 
-O código a seguir mostra como acessar o atributo "saudação":
+O código a seguir mostra como acessar o atributo &quot;saudação&quot;:
 
 ```
 adobe.target.getOffer({   
@@ -128,7 +132,7 @@ adobe.target.getOffer({
 
 ## Filtrando ofertas por tipo de oferta JSON  {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Você pode filtrar a Biblioteca de ofertas por tipo de oferta JSON ao clicar na lista suspensa **[!UICONTROL Tipo]** e selecionar a caixa de verificação **JSON[!UICONTROL .]**
+Você pode filtrar a Biblioteca de ofertas por tipo de oferta JSON ao clicar na lista suspensa **[!UICONTROL Tipo]** e selecionar a caixa de verificação **[!UICONTROL JSON.]**
 
 ![](assets/offer-json-filter.png)
 
