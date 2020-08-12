@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: Lista de perguntas frequentes sobre atividades do Adobe Target Recommendations.
-title: Perguntas frequentes sobre o Adobe Target Recommendations
+description: Lista de perguntas frequentes sobre o Adobe Target Recommendations atividade.
+title: Perguntas frequentes sobre a Adobe Target Recommendations
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o Recommendations{#recommendations-faq}
 
-Lista de perguntas frequentes sobre atividades do Adobe Target Recommendations.
+Lista de perguntas frequentes sobre o Adobe Target Recommendations atividade.
 
 ## Quanto tempo leva para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?
 
@@ -159,7 +163,7 @@ Na sequência de consulta, você pode passar IDs de entidades para as entidades 
 
 Para ativar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro indica uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
 
-A exclusão é executada somente para a chamada Target atual; os itens não são excluídos em chamadas subsequentes do Target, a menos que o `excludedIds` valor seja passado novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o `excludedIds` valor em cada página.
+A exclusão é executada apenas para a chamada de Público alvo atual; os itens não são excluídos em chamadas de Público alvo subsequentes, a menos que o `excludedIds` valor seja passado novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o `excludedIds` valor em cada página.
 
 >[!NOTE]
 >
@@ -169,13 +173,13 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 Por padrão, esse recurso é ativado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
 
-## O que a resposta NO_CONTENT às vezes retorna no rastreamento de conteúdo do Recommendations significa?
+## O que a resposta NO_CONTENT às vezes retorna no rastreamento de conteúdo da Recommendations significa?
 
 NO_CONTENT é retornado quando as recomendações não estão disponíveis para o algoritmo solicitado e a combinação de teclas. Geralmente, isso ocorre quando os backups são desativados para o algoritmo e uma ou mais das seguintes opções também são verdadeiras:
 
 * Os resultados ainda não estão prontos.
 
-   Isso normalmente ocorre ao salvar uma atividade recém-criada ou depois que alterações de configuração são feitas na coleção, nos critérios ou nas promoções usadas na atividade.
+   Isso normalmente ocorre ao salvar uma atividade recém-criada ou depois que alterações de configuração são feitas na coleção, nos critérios ou nas promoções usados na atividade.
 
 * Os resultados estão prontos, mas ainda não são armazenados em cache no servidor de borda mais próximo, para a combinação de algoritmo/chave solicitada.
 
@@ -187,4 +191,4 @@ NO_CONTENT é retornado quando as recomendações não estão disponíveis para 
 
 * A renderização parcial do modelo está desativada e não há resultados suficientes disponíveis para preencher o modelo.
 
-   Isso normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtra agressivamente muitos itens dos resultados possíveis. Para evitar isso, ative os backups e não aplique a regra de inclusão aos backups, ou use os critérios em sequência com critérios filtrados menos agressivos.
+   Isso normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtros agressivamente muitos itens dos resultados possíveis. Para evitar isso, ative os backups e não aplique a regra de inclusão aos backups, ou use os critérios em sequência com critérios filtrados menos agressivos.
