@@ -2,9 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Se estiver usando uma versão mais antiga da at.js ou da mbox.js, deverá especificar um servidor de rastreamento de análise para as atividades que usam o Analytics for Target (A4T).
 title: Usar um servidor de rastreamento do Analytics
+feature: null
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 53%
@@ -35,6 +36,7 @@ O depurador deve ser visualizado em uma página na qual a atividade será entreg
    * (para implementações CNAME)
    * (para implementações não RDC)
    * (para implementações RDC)
+
    *Empresa*[!DNL Analytics] representa o nome da empresa do , *métricas* é um exemplo de um valor CNAME e *d1* é um exemplo de um data center do [!DNL Analytics]
 1. Copie todo o conteúdo do campo.
 1. Na seção [!UICONTROL Configurações de relatório] da tela [!UICONTROL Meta e configurações]**[!UICONTROL da atividade, cole as informações do servidor de rastreamento no campo Servidor de rastreamento.]**
