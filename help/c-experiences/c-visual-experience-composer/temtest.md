@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Se você usar um modelo de página para oferecer estrutura para as páginas, ou se as páginas contiverem elementos semelhantes, esse recurso possibilitará o teste de variações em elementos de página estruturadas de forma semelhante.
 title: Incluir a mesma experiência em páginas semelhantes
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +40,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
 
-   * URL (Para obter mais informações sobre como o Target avalia URLs, consulte Perguntas frequentes sobre [Metas e públicos-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domínio
    * Caminho
    * Fragmento de hash (#) (Defina a parte de um URL que segue o símbolo #)
@@ -72,7 +76,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 >
 > O Target não pode verificar as páginas para se certificar de que elas são exibidas conforme o esperado, por isso é sempre uma prática importante ao usar esse recurso testar as páginas afetadas antes de torná-las públicas.
 
-## Vídeo de treinamento: Visual Experience Composer (2 de 2) (7:29) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Visual Experience Composer (2 de 2) (7:29) ![Crachá do tutorial](/help/assets/tutorial.png)
 
 * Renomear e duplicar uma experiência
 * Criar uma experiência de redirecionamento
