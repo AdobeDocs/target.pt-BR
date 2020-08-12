@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: Baixe dados em um formato .csv para importação rápida para Excel, Access ou outros programas de análise de dados usando o Adobe Público alvo.
-title: Download de dados em um arquivo CSV usando o Adobe Público alvo
+description: Baixe dados em um formato .csv para importação rápida para Excel, Access ou outros programas de análise de dados usando o Adobe Target.
+title: Download de dados em um arquivo CSV usando o Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ Download de dados em um arquivo CSV:
 
    * [!UICONTROL Exportar relatórios para CSV]
    * [!UICONTROL Exportar detalhes do pedido para CSV]
+
    ![Opções de download](/help/c-reports/assets/download-options.png)
 
 ## Exportar relatório para CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -82,7 +87,7 @@ O relatório Detalhes do pedido mostra informações sobre seus pedidos, incluin
 
 As seguintes informações se aplicam à opção Download:
 
-* Você pode baixar ambos os relatórios para Teste A/B, Personalização automatizada, Direcionamento de experiência e atividades multivariadas. Você não pode baixar o relatório de Métricas de sucesso para atividades do Recommendation.
+* Você pode baixar ambos os relatórios para Teste A/B, Automated Personalization, Direcionamento de experiência e atividades multivariadas. Você não pode baixar o relatório de Métricas de sucesso para atividades do Recommendation.
 * A opção de download não está disponível para as atividades A/B e de Direcionamento de experiência criadas antes da versão 15.7.1 do Target (julho de 2015).
 * Experiências sem dados associados não são registradas no relatório baixado.
 * Os públicos aplicados na interface do Target não são transferidos para o relatório de download.
