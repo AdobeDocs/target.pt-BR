@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: Um design define como as recomendações são exibidas em uma página.
 title: Criar um design
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 95%
 
 ---
 
@@ -110,7 +114,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 | Parâmetro | Valor |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em .../target/products.html#recsSettings Token de API do Recommendations > Código do cliente. |
-| `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;Locais&quot; das Recomendações baseadas em formulários, neste caso Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;Locais&quot; do Recommendations baseado em formulário, neste caso Sample_Recs_Response. |
 | `[ENTITY_ID`] | O `entity.id` de um item em seu catálogo. |
 | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
 
