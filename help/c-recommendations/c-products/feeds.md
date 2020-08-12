@@ -2,9 +2,13 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Use os feeds para importar entidades no Adobe Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
 title: Feeds
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +43,7 @@ A página Feeds contém as seguintes colunas:
 >Entidades e atributos de entidade carregados expiram após 61 dias. Isso significa o seguinte:
 >
 >* Seu feed deve ser executado pelo menos mensalmente para garantir que o conteúdo do catálogo não expire.
->* Remover um item do arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da interface do usuário ou da API do Target. Ou modifique os atributos do item (como o inventário) para garantir que o item seja excluído da consideração.
+>* Remover um item do arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da interface do Público alvo ou da API. Ou modifique os atributos do item (como o inventário) para garantir que o item seja excluído da consideração.
 
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
@@ -102,7 +106,7 @@ Se você tiver um feed do produto Google existente, poderá usá-lo como arquivo
 >
 >Não é necessário utilizar dados do Google. O [!DNL Recommendations] utiliza o mesmo formato que o Google. Você pode usar este método para atualizar qualquer dado que possua e usar os recursos de programação disponíveis. No entanto, você dever manter os nomes predefinidos dos atributos do Google ao configurar o arquivo.
 
-Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
+Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -218,6 +222,7 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
    * CSV
    * Feed do produto Google
    * Classificações do Analytics
+
    Para obter informações sobre os tipos de feed CSV e Feed do produto Google, consulte [Visão geral dos feeds](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou **[!UICONTROL Feed do produto Google]**, especifique o local em que o feed pode ser acessado.
@@ -323,7 +328,7 @@ O status deve ser amarelo, pois o índice deveria ter sido executado há aproxim
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Noções básicas sobre feeds no Recommendations (3:01) Etiqueta ![Visão geral](/help/assets/overview.png)
+### Noções básicas sobre feeds no Recommendations (3:01) ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo contém as seguintes informações:
 
@@ -332,7 +337,7 @@ Este vídeo contém as seguintes informações:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Criar um feed (6:44) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+### Criar um feed (6:44) ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
