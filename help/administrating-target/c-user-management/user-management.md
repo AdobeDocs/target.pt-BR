@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Informações sobre o gerenciamento de Usuários no Target Standard e de Propriedades e permissões do empresariais no Target Premium.
 title: Gerenciamento do usuário
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -24,10 +25,11 @@ Information about managing users in [!DNL Target] Standard and managing enterpri
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **Clientes padrão do Público alvo:** Se sua organização tiver uma licença [!DNL Target] padrão, você observará o seguinte na [!DNL Target] interface do usuário:
+* **Clientes do Target Standard:** Se sua organização tiver uma licença [!DNL Target] padrão, você observará o seguinte na [!DNL Target] interface do usuário:
 
    * Você verá a guia [!UICONTROL Usuários] ( [!UICONTROL Administração] > [!UICONTROL Usuários] )
    * Você *não* verá a guia [!UICONTROL Propriedades] ( [!UICONTROL Administração] > [!UICONTROL Propriedades] )
+
    [!DNL Target]Os clientes do Standard devem seguir as instruções em [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) para adicionar usuários e atribuir permissões no Adobe Admin Console.
 
 * **Clientes do Público alvo Premium:** Se sua organização tiver uma licença [!DNL Target] Premium, você observará o seguinte na interface do usuário do Público alvo:
