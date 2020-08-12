@@ -1,10 +1,14 @@
 ---
-keywords: promoções, promoções principais, promoções secundárias, tipo de promoções
+keywords: promotions;front promotions;back promotions;promotions type
 description: Adicione itens promovidos e controle o posicionamento nos designs do Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
 title: Adicione promoções em designs do Adobe Target Recommendations.
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +35,7 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
 
 1. Na página **[!UICONTROL Opções]**, clique no botão de alternância **[!UICONTROL Promoção principal]** ou **[!UICONTROL Promoção secundária]**.
 
-   A ilustração a seguir mostra o botão [!UICONTROL Promoção principal] na posição "Ligado".
+   A ilustração a seguir mostra o botão [!UICONTROL Promoção principal] na posição &quot;Ligado&quot;.
 
    ![Adicionar opções de Promoção principal](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -50,12 +54,12 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
 
       Se sua lista incluir mais itens do que o número de espaços definido para as promoções, será possível marcar a caixa de seleção **[!UICONTROL Randomizar a ordem dos itens]** para variar os itens promovidos exibidos em seu design. Escolher esta opção fará com que o Target selecione aleatoriamente o número de itens ativados para as promoções no modelo de todo o conjunto de promoções para cada visita.
 
-   * Selecione **[!UICONTROL Promover por atributo]e adicione as regras para definir os atributos dos itens que deseja remover.**
+   * Selecione **[!UICONTROL Promover por atributo]** e adicione as regras para definir os atributos dos itens que deseja remover.
 
       Se você selecionar Promover por atributo, poderá criar correspondências dinâmicas. Para obter mais informações, consulte [Usar as regras de inclusão estática e dinâmica](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Selecione **[!UICONTROL Promover uma coleção]** e escolha a coleção de itens que deseja promover. É possível criar novas coleções para usar em promoções. Consulte [Criar uma coleção](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obter mais informações.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Salvar.]**.
 
 As promoções são aplicadas a todas as experiências na atividade.
