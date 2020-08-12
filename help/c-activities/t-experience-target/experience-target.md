@@ -1,10 +1,14 @@
 ---
-keywords: Direcionamento, direcionamento da experiência, xt, página inicial, campanha de página de aterrissagem
+keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 title: Direcionamento de experiência
+feature: null
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +41,7 @@ Este vídeo descreve como elevar os testes A/B para o próximo nível com o dire
 * Descreve como entregar conteúdo específico de localidade para públicos -alvo localizados em áreas geográficas diferentes
 * Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Tipos de atividades (9:03)
 
@@ -47,4 +51,4 @@ Este vídeo explica os tipos de atividade disponíveis no Target Standard/Premiu
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
