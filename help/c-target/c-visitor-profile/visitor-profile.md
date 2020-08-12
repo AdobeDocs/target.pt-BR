@@ -1,12 +1,16 @@
 ---
-keywords: Visão geral e referência
+keywords: Overview and Reference
 description: Os perfis do visitante contêm informações sobre como os visitantes usam as páginas e outros locais de conteúdo otimizado
 title: Perfis do visitante
-subtopic: Introdução
-topic: Padrão
+feature: null
+subtopic: Getting Started
+topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 100%
 
 ---
 
