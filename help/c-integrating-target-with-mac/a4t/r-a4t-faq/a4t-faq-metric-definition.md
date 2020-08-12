@@ -1,11 +1,15 @@
 ---
-keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; métrica; definições de métricas
+keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
 description: Este tópico contém respostas para as perguntas mais frequentes sobre definições de métrica e uso do Analytics como origem de geração de relatórios para o Target (A4T).
 title: Definições de métricas - Perguntas frequentes sobre o A4T
-topic: Padrão
+feature: null
+topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -28,4 +32,4 @@ As métricas calculadas permitem criar métricas personalizadas que são derivad
 
 ## O A4T atribui conversões a várias campanhas?  {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Sim. Isso é feito usando a configuração "Alocação completa".
+Sim. Isso é feito usando a configuração &quot;Alocação completa&quot;.
