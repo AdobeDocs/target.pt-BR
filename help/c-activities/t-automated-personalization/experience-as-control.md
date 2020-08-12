@@ -1,11 +1,15 @@
 ---
-keywords: experiência; controle; personalização automatizada; direcionamento automático
+keywords: experience;control;automated personalization;auto-target
 description: Selecione uma experiência para ser usada como controle ao criar uma atividade de Personalização automatizada (AP) ou de Direcionamento automático (AT) no Adobe Target.
 title: Usar uma experiência específica como controle no Adobe Target
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +24,7 @@ As opções para configurar um controle em atividades AP e AT são um pouco dife
 
 Há duas opções disponíveis para controle nas atividades de AP e AT: experiências disponibilizadas aleatoriamente ou uma experiência específica.
 
-* **Disponibilizada aleatoriamente**: para um controle aleatório, a porcentagem de controle do tráfego disponibiliza aleatoriamente todas as experiências na atividade, sem considerar o perfil do visitante. Pense no controle como uma ajuda para responder a pergunta: "Se uma experiência (ou oferta) for disponibilizada aleatoriamente para os visitantes e não considerar seus perfis, qual é o índice de conversão dessa experiência (ou oferta)?" O controle é como um Teste A/B na atividade de IA. Essas informações sobre o índice de conversão não personalizado para cada experiência ou oferta podem ser úteis para entender a análise dos resultados da atividade.
+* **Disponibilizada aleatoriamente**: para um controle aleatório, a porcentagem de controle do tráfego disponibiliza aleatoriamente todas as experiências na atividade, sem considerar o perfil do visitante. Pense no controle como uma ajuda para responder a pergunta: &quot;Se uma experiência (ou oferta) for disponibilizada aleatoriamente para os visitantes e não considerar seus perfis, qual é o índice de conversão dessa experiência (ou oferta)?&quot; O controle é como um Teste A/B na atividade de IA. Essas informações sobre o índice de conversão não personalizado para cada experiência ou oferta podem ser úteis para entender a análise dos resultados da atividade.
 
 * **Experiência específica**: um controle de experiência específica permite comparar seu tráfego disponibilizado pelos modelos de personalização do Target a uma experiência específica definida pelo profissional de marketing (por exemplo, a página inicial padrão). Com essa opção, a porcentagem de controle disponibiliza aleatoriamente o tráfego apenas para aquela experiência.
 
@@ -42,7 +46,7 @@ Lembre-se dos pontos a seguir ao usar uma experiência específica como controle
 * Não é recomendável excluir a experiência de controle.
 * Não é recomendável adicionar um grande número de novas ofertas/experiências a uma atividade ativa com uma experiência específica como controle.
 * Em atividades de AP, não é recomendável incluir direcionamento na experiência de controle que possa restringir ainda mais quem consegue vê-la.
-* Em atividades de AP, se uma experiência específica estiver selecionada, as informações de lift e confiança *NÃO* estarão disponíveis no relatório de nível de oferta. As informações de lift e confiança estão disponíveis no nível geral de tráfego de "controle" vs. "direcionado" para a atividade de AP. As informações de lift e confiança estão disponíveis se a opção "aleatória" estiver selecionada como controle. Essa distinção ocorre porque não é lógico comparar o índice de conversão de uma experiência específica ao de uma oferta devido à diferença em unidades. As informações disponíveis em uma atividade de AT são as mesmas, independentemente do tipo de controle selecionado.
+* Em atividades de AP, se uma experiência específica estiver selecionada, as informações de lift e confiança *NÃO* estarão disponíveis no relatório de nível de oferta. As informações de lift e confiança estão disponíveis no nível geral de tráfego de &quot;controle&quot; vs. &quot;direcionado&quot; para a atividade de AP. As informações de lift e confiança estão disponíveis se a opção &quot;aleatória&quot; estiver selecionada como controle. Essa distinção ocorre porque não é lógico comparar o índice de conversão de uma experiência específica ao de uma oferta devido à diferença em unidades. As informações disponíveis em uma atividade de AT são as mesmas, independentemente do tipo de controle selecionado.
 * Como todo o tráfego de controle é encaminhado para uma única experiência ou para um conjunto de ofertas, ao selecionar a experiência como controle (comparada à aleatória, em que o valor do tráfego de controle é dividido pelo número de experiências ou ofertas na atividade), geralmente não é necessário direcionar muito tráfego para o controle. 10% é um bom ponto para iniciar.
 * Se você executar um dos seguintes procedimentos em uma atividade ativa com uma experiência específica como controle, o controle será redefinido automaticamente para as experiências disponibilizadas aleatoriamente (em vez da experiência específica selecionada anteriormente):
 
