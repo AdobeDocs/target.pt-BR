@@ -2,11 +2,12 @@
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Informações sobre o uso de dados de clientes corporativos em bancos de dados de gerenciamento de relacionamento com o cliente (CRM) para direcionamento de conteúdo no Adobe Target usando Atributos do cliente no serviço principal do Adobe Experience Cloud People.
 title: Atributos do cliente no Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 40%
