@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
-description: As atividades do Recommendations no Adobe Público alvo exibem automaticamente produtos ou conteúdo que podem interessar aos seus clientes com base na atividade do usuário anterior ou em outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
-title: Recomendações sobre Públicos alvos da Adobe
+description: O Recommendations atividade no Adobe Target exibe automaticamente produtos ou conteúdo que podem interessar aos seus clientes com base na atividade do usuário anterior ou em outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+title: Adobe Target Recommendations
+feature: null
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 89%
