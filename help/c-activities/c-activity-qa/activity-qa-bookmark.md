@@ -1,11 +1,15 @@
 ---
-keywords: qa, visualização, bookmarklet, links de visualização
-description: Informações para ajudá-lo a usar o bookmarklet de QA do Adobe Target para forçar o Target a liberá-lo do modo de QA.
-title: bookmarklet de QA da atividade para o Adobe Target
+keywords: qa;preview;bookmarklet;preview links
+description: Informações para ajudá-lo a usar o bookmarklet Adobe Target QA para forçar o Público alvo a liberá-lo do modo de QA.
+title: bookmarklet de QA de atividade para Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 43%
 
 ---
 
@@ -16,7 +20,7 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 Como o [modo de QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) é persistente, depois de navegar em um site no modo de QA, sua sessão do precisa expirar ou o precisa liberar você do modo de QA para exibir o site como um visitante normal. [!DNL Target][!DNL Target] Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
 ```
 javascript:(
