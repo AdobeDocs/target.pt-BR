@@ -1,10 +1,14 @@
 ---
-keywords: biblioteca de conteúdo, ativos, pesquisa, coleções inteligentes, pesquisar pasta, filtro
+keywords: content library;assets;search;smart collections;search folder;filter
 description: Pesquise recursos por palavras-chave e salve as pastas de pesquisa, chamadas de coleções inteligentes, que são atualizadas automaticamente com os resultados da pesquisa.
 title: Pesquisar o conteúdo e criar coleções inteligentes
+feature: null
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +24,7 @@ Esta seção contém as seguintes informações:
 
 ## Pesquisar por ativos usando palavra-chave  {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Clique em **[!UICONTROL Ofertas]** &gt; **[!UICONTROL Ofertas de imagem]** para acessar a [!UICONTROL Biblioteca de ativos].
+1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagem]** para acessar a [!UICONTROL Biblioteca de ativos].
 
    Você pode clicar no ícone de [!UICONTROL Exibição de cartão], no canto superior direito, para exibir os ativos em formato de exibição de cartão.
 
@@ -28,7 +32,7 @@ Esta seção contém as seguintes informações:
 
    Você pode clicar no ícone de [!UICONTROL Exibição de lista], no canto superior direito, para exibir os ativos em formato de exibição de lista.
 
-1. Clique no ícone de **[!UICONTROL Conteúdo somente]no canto superior esquerdo para exibir a caixa de pesquisa.**
+1. Clique no ícone de **[!UICONTROL Conteúdo somente]** no canto superior esquerdo para exibir a caixa de pesquisa.
 
    ![](assets/search_assets.png)
 
@@ -38,7 +42,7 @@ Esta seção contém as seguintes informações:
 
 Você pode criar pesquisas salvas, chamadas coleções inteligentes, para economizar tempo ao realizar pesquisas similares. Uma pesquisa salva cria uma coleção inteligente que é automaticamente atualizada com os resultados de pesquisa.
 
-1. Clique em **[!UICONTROL Ofertas]** &gt; **[!UICONTROL Ofertas de imagem]** para acessar a [!UICONTROL Biblioteca de ativos].
+1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagem]** para acessar a [!UICONTROL Biblioteca de ativos].
 
    ![](assets/content.png)
 
