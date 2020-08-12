@@ -2,11 +2,12 @@
 keywords: Analytics as reporting source;a4t;A4T
 description: Requisitos da conta do usuário para criar uma atividade do Adobe Analytics no Adobe Target (A4T).
 title: Exigências de permissão do usuário
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 63%
