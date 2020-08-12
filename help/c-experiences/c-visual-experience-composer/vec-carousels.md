@@ -1,12 +1,16 @@
 ---
-keywords: Visual Experience Composer;VEC;carrossel
+keywords: Visual Experience Composer;VEC;carousel
 description: Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
 title: Criar carrosséis que funcionam no Visual Experience Composer
-subtopic: Teste multivariado
-topic: Padrão
+feature: null
+subtopic: Multivariate Test
+topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
 
-Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá o "seletor" para o slide correto, mesmo se ele for alterado no Visual Experience Composer após alguns segundos.
+Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá o &quot;seletor&quot; para o slide correto, mesmo se ele for alterado no Visual Experience Composer após alguns segundos.
 
 1. Crie alocadores de espaço estáticos em HTML.
 
