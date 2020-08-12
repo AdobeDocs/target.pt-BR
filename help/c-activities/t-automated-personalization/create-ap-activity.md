@@ -2,10 +2,11 @@
 keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
 description: O fluxo de trabalho da atividade de Personalização automatizada varia do fluxo de trabalho dos outros tipos de atividade.
 title: Criar uma atividade de Automated Personalization
+feature: null
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 98%
