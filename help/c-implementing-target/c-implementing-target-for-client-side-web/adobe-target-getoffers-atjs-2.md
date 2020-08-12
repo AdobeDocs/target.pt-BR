@@ -2,10 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Informações sobre a função adobe.target.getOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 title: Informações sobre a função adobe.target.getOffers() da biblioteca at.js de JavaScript do Adobe Target.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
