@@ -2,11 +2,12 @@
 keywords: capture score;score
 description: A métrica de envolvimento de Pontuação de captura calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante visualiza a primeira Solicitação de Público alvo de exibição da campanha.
 title: Pontuação de captura
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
@@ -50,7 +51,7 @@ Existem dois métodos para atribuir uma pontuação a uma página:
 
 >[!NOTE]
 >
->As solicitações de Público alvo localizadas acima da primeira [!DNL Target] solicitação de exibição de atividade não serão incluídas na pontuação.
+>As solicitações de público alvo localizadas acima da primeira [!DNL Target] solicitação de exibição de atividade não serão incluídas na pontuação.
 
 Best practice is to assign values in the [!DNL Target] request. Isso permite que você seja preciso nos valores medidos, dependendo do conteúdo de cada solicitação.
 
