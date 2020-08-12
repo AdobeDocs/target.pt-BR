@@ -2,11 +2,12 @@
 keywords: analytics for target;a4t;analytics as the reporting source
 description: Usar o Analytics como sua fonte de geração de relatórios para o Target (A4T) dá a você acesso aos relatórios do Analytics de suas atividades do Target.
 title: Relatórios do A4T
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 37%
@@ -43,13 +44,13 @@ Em [!DNL Analytics]geral, há várias dimensões e métricas disponibilizadas de
 * [!UICONTROL Analytics for Público alvo] - a ID pai transmitida pela integração. O formato dessa dimensão é `Activity ID:Experience ID:3rd ID`. As dimensões abaixo são classificações dessa dimensão.
 * [!UICONTROL Atividades do Target]
 * [!UICONTROL Experiências target]
-* [!UICONTROL Atividade] do Público alvo > [!UICONTROL Experiência]
+* [!UICONTROL Atividade] do público alvo > [!UICONTROL Experiência]
 * [!UICONTROL 3ª ID] - pode ser ignorada
 
 ### Métricas
 
-* [!UICONTROL Impressões] de Atividade - Corresponde ao número de [!UICONTROL participantes] no [!DNL Target] relatório.
-* [!UICONTROL Conversões] de Atividade - Corresponde ao número de Conversões  personalizadas no [!DNL Target] relatório.
+* [!UICONTROL Impressões] de atividade - Corresponde ao número de [!UICONTROL participantes] no [!DNL Target] relatório.
+* [!UICONTROL Conversões] de atividade - Corresponde ao número de Conversões  personalizadas no [!DNL Target] relatório.
 
 Em [!DNL Analysis Workspace], use o painel [!UICONTROL Analytics for Público alvo] para analisar suas [!DNL Target] atividades e experiências com incentivo e confiança. Para obter mais informações, consulte Painel [do](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics para Públicos alvos (A4T) no Guia *de ferramentas do* Analytics.
 
