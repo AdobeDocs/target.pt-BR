@@ -2,23 +2,27 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Informações sobre alterações em como a Adobe e o Target usam a Segurança da camada de transporte (TLS) para manter os mais altos padrões de segurança e promover a segurança dos dados do cliente.
 title: Alterações na criptografia do TLS (Transport Layer Security)
+feature: null
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1233'
+ht-degree: 62%
 
 ---
 
 
 # Alterações na criptografia do TLS (Transport Layer Security){#tls-transport-layer-security-encryption-changes}
 
-Informações sobre alterações em como o Adobe e o Adobe Target usam o TLS (Transport Layer Security) para manter os mais altos padrões de segurança e promover a segurança dos dados do cliente.
+Informações sobre alterações em como o Adobe e a Adobe Target usam o TLS (Transport Layer Security) para manter os mais altos padrões de segurança e promover a segurança dos dados do cliente.
 
 A Segurança da camada de transporte (TLS) é o protocolo de segurança mais amplamente implantado usado atualmente em navegadores Web e outros aplicativos que exigem dados trocados de maneira segura por meio de uma rede. A Adobe tem padrões de conformidade em segurança que exigem o fim da vida útil de protocolos mais antigos e que estão demandando o uso do TLS 1.2 para que se tenha a versão mais atualizada e segura em uso.
 
 >[!IMPORTANT]
 >
->Após 1º de março de 2020, o Adobe Target não oferecerá mais suporte à criptografia TLS 1.1 para o Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), entrega de atividades, APIs etc. Atualize para TLS 1.2 antes de 1º de março de 2020 para evitar problemas.
+>Após 1º de março de 2020, a Adobe Target não oferecerá suporte à criptografia TLS 1.1 para o Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), delivery, APIs etc. Atualize para TLS 1.2 antes de 1º de março de 2020 para evitar problemas.
 
 Não esperamos que isso afete significativamente os dados ou relatórios do cliente.
 
@@ -30,19 +34,19 @@ A Adobe estará movendo os clientes em fases para o TLS 1.2. Para aqueles cujos 
 
 Você não deve enfrentar qualquer problema durante essa fase de migração. Se o VEC interrompeu o carregamento de um site que estava funcionando anteriormente,  [abra um tíquete de Atendimento ao cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) e cite esta migração como uma causa possível.
 
-No entanto, se você for um desses clientes que estão no TSL 1.1 sem suporte ao TLS 1.2, deverá planejar a movimentação dos domínios/infraestrutura para o TLS 1.2. Continuaremos a apoiar o protocolo TLS 1.1 até 1º de março de 2020. A partir de 1º de março de 2020, o Target não oferecerá suporte ao protocolo TLS 1.1 a ser usado para o VEC por meio do recurso Enhanced Experience Composer.
+No entanto, se você for um desses clientes que estão no TSL 1.1 sem suporte ao TLS 1.2, deverá planejar a movimentação dos domínios/infraestrutura para o TLS 1.2. Continuaremos a apoiar o protocolo TLS 1.1 até 1º de março de 2020. A partir de 1º de março de 2020, o Público alvo não oferecerá suporte ao protocolo TLS 1.1 a ser usado para o VEC por meio do recurso Enhanced Experience Composer.
 
 Embora recomendemos fortemente a todos usar o TLS 1.2 de agora em diante, se você for um novo cliente, mas *NÃO* for compatível com o TLS 1.2, entre em contato com o Atendimento ao cliente e os informe de que você precisa usar o TLS 1.1 no Compositor de experiências avançadas. Entretanto, planeje mudar para o TLS 1.2, pois você também não será suportado depois de 1º de março de 2020.
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-A partir de 1º de março de 2020, os servidores do Target não oferecerão mais suporte ao TLS 1.1. Com essa alteração, os servidores do Target não aceitarão mais solicitações de visitantes com dispositivos mais antigos ou navegadores da Web que não suportam TLS 1.2 (ou posterior). Como resultado, dispositivos e navegadores mais antigos que oferecem suporte apenas para o TLS 1.1 (ou suporte ao TLS 1.1, por padrão) não receberão conteúdo de atividade do Adobe Target. O conteúdo padrão do site será renderizado.
+A partir de 1º de março de 2020, os servidores de Públicos alvos não oferecerão mais suporte ao TLS 1.1. Com essa alteração, os servidores de Públicos alvos não aceitarão mais solicitações de visitantes com dispositivos mais antigos ou navegadores da Web que não suportam TLS 1.2 (ou posterior). Como resultado, dispositivos e navegadores mais antigos que oferecem suporte apenas para o TLS 1.1 (ou suporte ao TLS 1.1, por padrão) não receberão conteúdo de atividade do Adobe Target. O conteúdo padrão do site será renderizado.
 
 Alguns dos dispositivos e navegadores mais antigos que serão afetados incluem:
 
 * Google Chrome (Chrome para Android) versões 29 e anteriores
 * Opera Browser (Opera Mobile) versões 12.17 e anteriores
-* Mozilla Firefox (Firefox para Mobile) versões 26 e anteriores
+* Mozilla Firefox (Firefox para dispositivos móveis) versões 26 e anteriores
 * Android 4.3 e versões anteriores
 * Internet Explorer 8 a 10 no Windows 7 e versões anteriores
 * Internet Explorer 10 no Windows Phone 8.0
@@ -52,13 +56,13 @@ Conforme você planeja essa alteração, considere o seguinte (observe que o pra
 
 * Você deve assegurar que o seu site padrão esteja pronto de uma maneira que seja consumível por dispositivos e navegadores compatíveis.
 * Esteja ciente de que o número de visitantes nos seus relatórios do Target pode sofrer potencialmente um declínio insignificante no número de visitantes.
-* Talvez seja necessário alterar os públicos-alvo criados especificamente para dispositivos mais antigos ou navegadores que não suportam TLS 1.2. A entrega para esses dispositivos e navegadores não funcionará mais.
+* Talvez seja necessário alterar as audiências criadas especificamente para dispositivos mais antigos do público alvo ou navegadores que não suportam TLS 1.2. O delivery para esses dispositivos e navegadores não funcionará mais.
 
 Para obter mais detalhes sobre os navegadores compatíveis e suas versões, consulte  [Navegadores suportados](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## APIs do Adobe Target {#section_88797FA5434049EC89F908853CC76903}
 
-A partir de 1º de março de 2020, as APIs do Target não oferecerão mais suporte à criptografia TLS 1.1. Clientes que acessam a API devem verificar se não serão afetados.
+A partir de 1º de março de 2020, as APIs de Público alvo não oferecerão mais suporte à criptografia TLS 1.1. Clientes que acessam a API devem verificar se não serão afetados.
 
 * Os clientes da API que usam o Java 7 com configurações padrão precisarão de modificações para serem compatíveis com TLS 1.2. Para obter mais informações, consulte &quot;[Mudança da versão padrão do protocolo TLS para pontos de extremidade do cliente: TLS 1.0 para TLS 1.2](https://www.java.com/en/configure_crypto.html)&quot; no site do Java.
 * Os clientes de API que usam o Java 8 não deverão ser afetados, pois a configuração padrão é TLS 1.2.
@@ -77,7 +81,7 @@ Para verificar a versão TLS em seu site usando o Google Chrome:
 
    ![Ferramentas de desenvolvedor do Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/chrome-developer-tools.png)
 
-1. Abra a guia Segurança e examine as informações da versão TLS em Conexão:
+1. Abra a guia Segurança e, em seguida, examine as informações da versão TLS em Conexão:
 
    ![Detalhes da versão TLS](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/chrome-tls-version.png)
 
@@ -103,7 +107,7 @@ Esta seção descreve o que esperar com navegadores que suportam versões TLS ab
 | at.js | Com TLS 1.0 ou TLS 1.1 ativado:<ul><li>Com as ferramentas dev do navegador, na guia Rede, você verá &quot;200 OK.&quot; Isso significa que a solicitação foi bem-sucedida.</li><li>O usuário vê a mensagem &quot;Não foi possível se conectar com segurança a essa página&quot;. A mensagem explica que isso pode ser causado porque o site usa configurações de segurança TLS desatualizadas ou inseguras.</li><li>Nenhum erro de console é exibido.</li><li>O conteúdo padrão é distribuído.</li></ul>Com o TLS 1.2 habilitado:<ul><li>O conteúdo da oferta é distribuído.</li></ul> |
 | mbox.js | Com TLS 1.0 ou TLS 1.1 ativado:<ul><li>Com as ferramentas dev do navegador, na guia Rede, você verá &quot;200 OK.&quot; Isso significa que a solicitação foi bem-sucedida.</li><li>O usuário vê a mensagem &quot;Não foi possível se conectar com segurança a essa página&quot;. A mensagem explica que isso pode ser causado porque o site usa configurações de segurança TLS desatualizadas ou inseguras.</li><li>Nenhum erro de console é exibido.</li><li>O conteúdo padrão é distribuído.</li></ul>Com o TLS 1.2 habilitado:<ul><li>O conteúdo da oferta é distribuído</li></ul> |
 
-### Atividade direcionada ao público-alvo da versão do navegador (Internet Explorer, Versões 6, 7 ou 8)
+### Atividade direcionada à audiência da versão do navegador (Internet Explorer, versões 6, 7 ou 8)
 
 >[!NOTE]
 >
