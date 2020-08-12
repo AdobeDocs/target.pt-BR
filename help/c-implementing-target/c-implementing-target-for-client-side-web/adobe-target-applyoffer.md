@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.applyOffer; applyOffer; applyoffer; aplicar oferta; at.js; funções; função
+keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;functions;function
 description: Informações sobre a função adobe.target.applyOffer(options) da biblioteca at.js de JavaScript do Adobe Target.
 title: Informações sobre a função adobe.target.applyOffer() da biblioteca at.js de JavaScript do Adobe Target.
-subtopic: Introdução
-topic: Padrão
+feature: null
+subtopic: Getting Started
+topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 
