@@ -2,10 +2,11 @@
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Se a atividade não aparecer no site, essas sugestões de solução de problemas ajudarão a encontrar uma solução.
 title: Solução de problemas de atividades
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -25,7 +26,7 @@ As seções a seguir contêm problemas que podem ser encontrados com as soluçõ
 
 ## Criei uma atividade usando a interface do Público alvo e não posso atualizá-la por meio da API.
 
-As Atividades criadas usando a interface do usuário do Público alvo devem ser atualizadas por meio da interface do usuário do Público alvo. As Atividades criadas por meio da API devem ser atualizadas por meio da API. Se originalmente você criar uma atividade usando a API, por exemplo, mas posteriormente editar a atividade por meio da interface do Público alvo, nem todas as alterações serão atualizadas. Todas as alterações são armazenadas no backend e podem ser atualizadas fazendo outra chamada de API.
+As atividades criadas usando a interface do usuário do Público alvo devem ser atualizadas por meio da interface do usuário do Público alvo. As atividades criadas por meio da API devem ser atualizadas por meio da API. Se originalmente você criar uma atividade usando a API, por exemplo, mas posteriormente editar a atividade por meio da interface do Público alvo, nem todas as alterações serão atualizadas. Todas as alterações são armazenadas no backend e podem ser atualizadas fazendo outra chamada de API.
 
 Como prática recomendada, tente atualizar a atividade usando o mesmo método (IU ou API) usado para criar a atividade originalmente.
 
