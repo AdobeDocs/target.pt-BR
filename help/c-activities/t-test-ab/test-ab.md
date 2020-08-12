@@ -2,9 +2,13 @@
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.
 title: Teste A/B
+feature: null
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +31,7 @@ Ao definir o seu teste, você pode determinar qual a porcentagem de visitantes q
 
 Quando o número de experiências diferentes é maior que cinco e passa por dois ou mais locais, é uma boa ideia considerar um [teste MVT](/help/c-activities/c-multivariate-testing/multivariate-testing.md) antes de realizar seus testes A/B. O teste multivariado mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Estes são os locais que um profissional de marketing deve se concentrar. Por exemplo, o teste MVT pode mostrar que a chamada para a ação é o local mais importante para atender suas metas. Após determinar quais locais e conteúdo são mais úteis para ajudá-lo a atender suas metas, você pode executar um teste A/B para refinar ainda mais os resultados, como testar duas imagens específicas uma contra a outra ou comparando o texto ou as cores de uma chamada para a ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
-## Vídeo de treinamento:Etiqueta de ![Visão Geral dos Tipos de Atividade (9:03)](/help/assets/overview.png)
+## Vídeo de treinamento: Etiqueta de ![Visão Geral de Tipos de atividades (9:03)](/help/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
