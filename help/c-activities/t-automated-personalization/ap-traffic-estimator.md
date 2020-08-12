@@ -1,10 +1,14 @@
 ---
 description: O Avaliador de tráfego fornece feedback que permite saber se há tráfego suficiente para a atividade ser bem-sucedida.
 title: Estimativa de tráfego exigido para o sucesso
-topic: Padrão
+feature: null
+topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ Lembre-se de que o Target oferece experiências aleatoriamente até que os algor
 
    ![Ícone de tráfego](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   O Avaliador de tráfego é aberto. Você pode clicar em **[!UICONTROL Tráfego]novamente para ocultar o Avaliador de tráfego.**
+   O Avaliador de tráfego é aberto. Você pode clicar em **[!UICONTROL Tráfego]** novamente para ocultar o Avaliador de tráfego.
 
    ![](assets/ap_est.png)
 
@@ -33,6 +37,7 @@ Lembre-se de que o Target oferece experiências aleatoriamente até que os algor
    * Taxa de conversão típica: a taxa de conversão é expressa como uma porcentagem, com base na estimativa ou dados passados do sistema de análise.
    * Visitas estimadas por dia: esse é o número de visitas por dia dos visitantes que podem visualizar a atividade com base nos critérios de direcionamento. Isso pode se basear nos dados da análise. Observe que esse número deve ser de visitas e não de visitantes únicos.
    * Duração do teste: a quantidade de dias de duração da execução da atividade.
+
    O Avaliador de tráfego usa essas estatísticas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
 
    Próximo da parte superior do Avaliador de tráfego, os valores inseridos são calculados, e os resultados são exibidos.
@@ -46,6 +51,7 @@ Lembre-se de que o Target oferece experiências aleatoriamente até que os algor
    * Considere o uso do Direcionamento automático em vez da Personalização automatizada para criar experiências com várias alterações de oferta em uma variação de experiência.
    * Reduza o número de combinações de ofertas na sua atividade de Personalização automatizada.
    * Aumente a duração da atividade.
+
    Ajuste os números até que o Avaliador de tráfego indique que você tem tráfego suficiente, então, crie seu teste de acordo.
 
    ![](assets/ap_est_yes.png)
