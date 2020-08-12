@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: Este tópico contém respostas para as perguntas mais frequentes sobre aumento e confiança ao usar o Analytics como origem de geração de relatórios do Target (A4T).
 title: Aumento e Confiança - Perguntas frequentes sobre o A4T
+feature: null
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -31,14 +32,14 @@ O nível de confiança é a probabilidade de a taxa de conversão medida diferir
 
 ## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#lift-confidence}
 
-As métricas calculadas não são suportadas atualmente nas funções de incentivo e confiança. Isso se deve ao fato de que a Analytics calcula as métricas em nível de agregação, e não em nível de visitante. A confiança, em particular, é um cálculo ao nível do visitante.
+As métricas calculadas não são suportadas atualmente nas funções de incentivo e confiança. Isso se deve ao fato de o Analytics calcular métricas em nível de agregação, e não em nível de visitante. A confiança, em particular, é um cálculo ao nível do visitante.
 
-eventos não calculados (padrão) são suportados em incentivo e confiança. Tornam-se o numerador na função de elevação; o numerador não pode ser um cálculo em si. O denominador é a métrica de normalização (impressões, visitas ou visitantes). Alguns exemplos de eventos padrão incluem pedidos, receita, conversões de atividade, eventos personalizados 1-1000 etc. Isso significa que métricas de otimização comuns, como taxa de conversação (Pedidos/Visitante) e RPV (Receita/Visitante) são suportadas em incentivo e confiança.
+Eventos não calculados (padrão) são suportados em incentivo e confiança. Tornam-se o numerador na função de elevação; o numerador não pode ser um cálculo em si. O denominador é a métrica de normalização (impressões, visitas ou visitantes). Alguns exemplos de eventos padrão incluem pedidos, receita, conversões de atividade, eventos personalizados 1-1000 etc. Isso significa que métricas de otimização comuns, como taxa de conversação (Pedidos/Visitante) e RPV (Receita/Visitante) são suportadas em incentivo e confiança.
 
 Exemplos de métricas não suportadas ou casos de uso incluem:
 
 * Valor Médio do Pedido (Receita/Pedido, por Visitante). Não há suporte para AOV porque o numerador é uma métrica calculada. Em vez disso, a recomendação é considerar as duas métricas de influência da AOV - Receita por Visitante e Taxa de conversão.
-* Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de cliente potencial diferentes em dez eventos separados e adicioná-los juntos para obter o total de envios de cliente potencial. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de cliente potencial no Analytics e, em seguida, usar uma eVar para coletar o tipo de formulário de cliente potencial. O uso desse método requer menos variáveis e garante que você possa usar a métrica de envio de lead único nas funções de incentivo e confiança.
+* Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de cliente potencial diferentes em dez eventos separados e adicioná-los juntos para obter o total de envios de cliente potencial. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de cliente potencial no Analytics e, em seguida, usar um eVar para coletar o tipo de formulário de cliente potencial. O uso desse método requer menos variáveis e garante que você possa usar a métrica de envio de lead único nas funções de incentivo e confiança.
 
 ## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
