@@ -2,10 +2,11 @@
 keywords: mobile app;mobile app sdk;target mobile app;mobile target sdk;mobile app sdk;enable target in sdk
 description: Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
 title: Habilitar o Target no SDK
+feature: null
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 88%
@@ -27,7 +28,7 @@ Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
 
    Na Experience Cloud, abra o Mobile Services, depois vá para **[!UICONTROL Administrar configurações do aplicativo]** > **[!UICONTROL Opções do SDK do Target]**.
 
-   Adicione seu código do cliente Target e tempo limite. O código do cliente é único para sua conta e empresa. O tempo limite é o tempo em segundos que o Target irá aguardar por uma resposta antes de exibir o conteúdo padrão. Certifique-se de que a opção **[!UICONTROL Usar HTTPS]** está marcada na página Administrar configurações do aplicativo no Adobe Mobile Services. Se o HTTPS não estiver ativado, todas as chamadas no iOS9+ serão bloqueadas, a menos que você permita a lista do servidor de Públicos alvos.
+   Adicione seu código do cliente Target e tempo limite. O código do cliente é único para sua conta e empresa. O tempo limite é o tempo em segundos que o Target irá aguardar por uma resposta antes de exibir o conteúdo padrão. Certifique-se de que a opção **[!UICONTROL Usar HTTPS]** está marcada na página Administrar configurações do aplicativo no Adobe Mobile Services. Se HTTPS não estiver ativado, todas as chamadas no iOS9+ serão bloqueadas, a menos que você lista de permissões no servidor do Público alvo.
 
    ![](assets/mobile-clientcode.png)
 
