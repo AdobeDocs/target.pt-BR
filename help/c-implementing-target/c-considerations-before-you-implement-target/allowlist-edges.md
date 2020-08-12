@@ -1,25 +1,26 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Permitir a lista de nós de borda do Público alvo Adobe
-title: Permitir a lista de nós de borda do Público alvo Adobe
+description: lista de permissões nós de borda do Adobe Target
+title: lista de permissões nós de borda do Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Nós de borda de Público alvo permitidos
+# Nós de borda permitidos no Target
 
-Informações e uma lista atualizada de hosts para ajudá-lo a permitir a lista de [!DNL Target] bordas da Adobe.
+Informações e uma lista atualizada de hosts para ajudá-lo a lista de permissões as [!DNL Target] bordas do Adobe.
 
-Uma borda é uma arquitetura de serviço distribuída geograficamente que garante tempos de resposta ideais para usuários finais que solicitem conteúdo, independentemente de onde estejam localizados no mundo inteiro. Cada nó de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o nó de borda mais próximo. Para obter mais informações, consulte [A rede](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) de borda em *Como a Adobe[!DNL Target]funciona*.
+Uma borda é uma arquitetura de serviço distribuída geograficamente que garante tempos de resposta ideais para usuários finais que solicitem conteúdo, independentemente de onde estejam localizados no mundo inteiro. Cada nó de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o nó de borda mais próximo. Para obter mais informações, consulte [A rede](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) de borda em *Como o Adobe[!DNL Target]funciona*.
 
-Você pode permitir a lista [!DNL Target] de nós de borda, se desejado.
+É possível lista de permissões nós de [!DNL Target] borda, se desejado.
 
 A lista a seguir inclui os hosts atuais:
 
