@@ -2,9 +2,10 @@
 keywords: Targeting
 description: O URL da atividade determina a página usada na atividade de Direcionamento de experiência, que é aberta no Visual Experience Composer (VEC) ou no Experience Composer baseado em formulário do Adobe Target quando a atividade é criada.
 title: URL da atividade
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ O URL da atividade determina a página usada na atividade de Direcionamento de e
    * Fragmento em hash (#)
    * Consulta
    * Parâmetro da mbox
+
    Regras adicionais podem ser unidas no URL da atividade com AND ou OR. Todas regras que você adicionar são avaliadas contra si próprias com AND.
 
 1. Clique em **[!UICONTROL Salvar]** quando tiver concluído.
