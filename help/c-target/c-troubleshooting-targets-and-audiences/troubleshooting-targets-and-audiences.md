@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
 title: Perguntas frequentes sobre direcionamentos e públicos
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -14,33 +18,33 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
 
-## Como o Target avalia URLs na definição de metas? {#url}
+## Como o Público alvo avalia URLs na definição de metas? {#url}
 
-O Target avalia URLs de forma diferente dependendo se você usa o direcionamento de URL de público-alvo ao criar uma atividade ou se você usa o direcionamento de URL ao criar um público-alvo.
+O público alvo avalia os URLs de forma diferente dependendo se você usa o direcionamento de URL de audiência ao criar uma atividade ou se usa o direcionamento de URL ao criar uma audiência.
 
 Considere o seguinte URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### Direcionamento do URL do público-alvo
+### Direcionamento de URL de audiência
 
- Para aplicar a definição de metas de URL de público-alvo, ao criar uma atividade, na página Experiências (etapa um do fluxo de trabalho guiado em três etapas), clique no ícone de engrenagem, clique em Entrega de página e especifique o URL desejado.
+Para aplicar a definição de metas de URL de audiência, ao criar uma atividade, na página Experiências (etapa um do fluxo de trabalho guiado de três etapas), clique no ícone de engrenagem, clique em Delivery de página e especifique o URL desejado.
 
-![URL de entrega da página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![URL do Delivery da página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-A definição de metas do URL de público-alvo procura uma correspondência exata do URL. Se o URL corresponder, o Target não considera lógica adicional. No URL acima, se a atividade estiver definida para ser ativada, `www.example.com`o URL corresponde aos seguintes URLs porque a definição de metas do URL do público-alvo é agnóstico de consulta:
+A definição de metas de URL de audiência procura uma correspondência exata de URL. Se o URL corresponder, o Público alvo não considerará lógica adicional. No URL acima, se a atividade estiver definida para ser ativada, `www.example.com`o URL corresponde aos seguintes URLs porque a definição de metas do URL da audiência é agnóstica do query:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Além do direcionamento de público-alvo no URL, também é possível especificar valores específicos que podem estar na consulta.
+Além da definição de metas de audiência no URL, também é possível especificar valores específicos que podem estar no query.
 
 ### Direcionamento de URL
 
- Para aplicar a definição de metas de URL, ao criar um público-alvo, clique em Adicionar regra, clique em Páginas do site, selecione uma opção na primeira lista suspensa (Página atual, Página anterior ou Página inicial), selecione URL na segunda lista suspensa, especifique um avaliador e especifique o URL desejado.
+Para aplicar a definição de metas de URL, ao criar uma audiência, clique em Adicionar regra, clique em Páginas do site, selecione uma opção na primeira lista suspensa (Página atual, Página anterior ou Landing page), selecione URL na segunda lista suspensa, especifique um avaliador e especifique o URL desejado.
 
-![Páginas do site &gt; Página atual &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![Páginas do site > Página atual > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 A segmentação de URL transforma o URL em um conjunto de regras para avaliar:
 
@@ -65,7 +69,7 @@ A prática recomendada é ter vários valores associados a uma única categoria,
 
 ## Ao criar públicos-alvo, por que os públicos-alvo pré-construídos na Biblioteca do Target podem ser vistos em outras categorias? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-Os públicos pré-construídos na categoria Biblioteca do Target são herdados e existem em outras categorias. Por exemplo, o público-alvo herdado da Biblioteca do Target &gt; Novos visitantes tem uma contraparte atualizada: Perfil do visitante &gt; Novo visitante.
+Os públicos pré-construídos na categoria Biblioteca do Target são herdados e existem em outras categorias. Por exemplo, o público-alvo herdado da Biblioteca do Target > Novos visitantes tem uma contraparte atualizada: Perfil do visitante > Novo visitante.
 
 A prática recomendada é usar os públicos-alvo mais recentes, pois houve melhora no desempenho. Alguns clientes podem estar usando públicos-alvo herdados e pré-contruídos, por isso, eles não foram removidos da interface do Target.
 
@@ -83,13 +87,13 @@ Por exemplo, na seguinte ilustração, um usuário da Califórnia que usa um dis
 
 ## Por que os nomes para o mesmo público-alvo do Target, da Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Os nomes dos públicos-alvo no [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter vários públicos-alvo com o mesmo nome (se estiverem em pastas diferentes). Quando o [!DNL Target] encontra um nome de público-alvo que corresponde a um público-alvo do [!DNL AAM] ou do [!DNL Audience Library], o [!DNL Target] adiciona "#&lt;number&gt;" ao nome.
+Os nomes dos públicos-alvo no [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter vários públicos-alvo com o mesmo nome (se estiverem em pastas diferentes). Quando o [!DNL Target] encontra um nome de público-alvo que corresponde a um público-alvo do [!DNL AAM] ou do [!DNL Audience Library], o [!DNL Target] adiciona &quot;#&lt;number>&quot; ao nome.
 
-Por exemplo, você pode ver os seguintes públicos-alvo: "usuários de PC" (na [!DNL AAM]) e "usuários de PC #1" (no [!DNL Target]).
+Por exemplo, você pode ver os seguintes públicos-alvo: &quot;usuários de PC&quot; (na [!DNL AAM]) e &quot;usuários de PC #1&quot; (no [!DNL Target]).
 
 ## Por que não posso renomear um público-alvo? {#section_54E420556F534D20836E261E253D8B97}
 
-Alguns públicos-alvo do Target são predefinidos, como "Novos visitantes" e "Visitantes recorrentes". Esses públicos-alvo predefinidos não podem ser renomeados pelos usuários.
+Alguns públicos-alvo do Target são predefinidos, como &quot;Novos visitantes&quot; e &quot;Visitantes recorrentes&quot;. Esses públicos-alvo predefinidos não podem ser renomeados pelos usuários.
 
 ## Por que todos os parâmetros de perfil não são exibidos na interface do usuário do Target?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
@@ -123,4 +127,4 @@ Os números escritos em notação científica serão sempre comparados como sequ
 
 Por exemplo,
 
-"4e-2" somente será igual a "4e-2". Ele *não* será igual a "0,04".
+&quot;4e-2&quot; somente será igual a &quot;4e-2&quot;. Ele *não* será igual a &quot;0,04&quot;.
