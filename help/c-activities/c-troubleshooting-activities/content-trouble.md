@@ -2,11 +2,12 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Se sua página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar o delivery de conteúdo no Adobe Target.
 title: Solução de problemas de delivery de conteúdo no Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
@@ -105,7 +106,7 @@ Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a im
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte [Depurar o at.js usando o depurador](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)da Adobe Experience Cloud.
+Para obter informações mais detalhadas, consulte [Depurar o at.js usando o Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Se o target.js não for carregado durante a entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -151,7 +152,7 @@ For remote offers, the [!DNL Target] response can contain `/* invalid remote off
 
 You can check the [!DNL Target] response in the browser or using mboxTrace. Consulte [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) para obter mais informações sobre URLs válidos.
 
-## As solicitações de Público alvo não estão sendo acionadas no meu site.
+## As solicitações de público alvo não estão sendo acionadas no meu site.
 
 O at.js não aciona solicitações de Público alvo se você estiver usando um documento inválido. A at.js exige o doctype HTML 5.
 
