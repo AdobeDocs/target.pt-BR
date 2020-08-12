@@ -2,9 +2,13 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Faça upload de um CSV para personalizar suas recomendações.
 title: Upload dos critérios personalizados
+feature: null
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +93,7 @@ Você pode receber as mensagens de erro a seguir se o Target encontrar um proble
 | Diretório não encontrado | Forneça um diretório que exista no servidor. |
 | Arquivo não encontrado | Forneça o nome de um arquivo que exista no servidor dentro do diretório indicado. |
 
-## Vídeo de treinamento: criar critérios no Recommendations (12:33) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: criar critérios no Recommendations (12:33) ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações (os detalhes sobre como fazer upload de critérios personalizados começam às 11:43):
 
