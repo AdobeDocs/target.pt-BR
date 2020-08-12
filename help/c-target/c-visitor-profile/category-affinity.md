@@ -1,11 +1,15 @@
 ---
-keywords: afinidade, afinidade de categorias
+keywords: affinity;category affinity
 description: O recurso de afinidade de categorias no Adobe Target captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
 title: Usar a afinidade de categorias no Adobe Target
-topic: Padrão
+feature: null
+topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +36,7 @@ Use `user.categoryAffinities[]` em um script de perfil para retornar uma matriz 
 
 ## Caso de negócios para afinidade de categoria {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-A atividade de um visitante em uma sessão, como por exemplo que categoria ele ou ela visita com mais frequência, pode ser usada para definir as metas de visitas futuras. Cada página de categoria visualizada por um visitante durante uma sessão é capturada e a categoria "favorita" dele ou dela será calculada com base no recenticidade e modelo de frequência. Desta forma, cada vez que o visitante volta para a página inicial, a área da imagem principal pode ser direcionada para exibir conteúdo relacionado à categoria favorita daquele usuário.
+A atividade de um visitante em uma sessão, como por exemplo que categoria ele ou ela visita com mais frequência, pode ser usada para definir as metas de visitas futuras. Cada página de categoria visualizada por um visitante durante uma sessão é capturada e a categoria &quot;favorita&quot; dele ou dela será calculada com base no recenticidade e modelo de frequência. Desta forma, cada vez que o visitante volta para a página inicial, a área da imagem principal pode ser direcionada para exibir conteúdo relacionado à categoria favorita daquele usuário.
 
 ## Exemplo de uso de afinidade de categorias {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -111,14 +115,14 @@ Esta seção contém as seguintes informações:
    Para copiar um público-alvo existente, na lista de Públicos-alvo, passe com o mouse sobre o público-alvo desejado e clique no ícone Copiar. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo.
-1. Clique em **[!UICONTROL + Adicionar regra]** &gt; **[!UICONTROL Perfil do visitante]**.
+1. Clique em **[!UICONTROL + Adicionar regra]** > **[!UICONTROL Perfil do visitante]**.
 1. Na lista suspensa **[!UICONTROL Perfil do visitante]**, selecione **[!UICONTROL Afinidade de categorias]**.
 
-   ![Perfil do visitante &gt; Afinidade de categorias](assets/affinity.png)
+   ![Perfil do visitante > Afinidade de categorias](assets/affinity.png)
 
 1. Selecione a categoria desejada:
 
-   ![Afinidade de categorias &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Afinidade de categorias > Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    As categorias incluem:
 
@@ -128,7 +132,8 @@ Esta seção contém as seguintes informações:
    * Terceira categoria
    * Quarta categoria
    * Quinta categoria
-   As opções "Categoria favorita" e "Primeira categoria" são equivalentes.
+
+   As opções &quot;Categoria favorita&quot; e &quot;Primeira Categoria&quot; são equivalentes.
 
 1. Escolha o avaliador:
 
@@ -136,7 +141,7 @@ Esta seção contém as seguintes informações:
    * Não contém (não diferencia maiúsculas de minúsculas)
    * Igual
 
-1. Especifique cada novo valor em uma linha separada (por exemplo, "sapatos").
+1. Especifique cada novo valor em uma linha separada (por exemplo, &quot;sapatos&quot;).
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Usar o público-alvo da afinidade de categorias em uma atividade {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
