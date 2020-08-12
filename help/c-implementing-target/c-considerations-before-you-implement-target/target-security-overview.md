@@ -1,10 +1,14 @@
 ---
-keywords: segurança; práticas de segurança
+keywords: security;security practices
 description: Informações sobre a abordagem detalhada e os procedimentos de segurança implementados pela Adobe para reforçar a segurança de seus dados e a experiência do Adobe Target.
 title: Visão geral da segurança no Target
+feature: null
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
