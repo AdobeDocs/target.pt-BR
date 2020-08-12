@@ -1,12 +1,16 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Use os públicos do Adobe Target para direcionar os usuários com base em sua localização geográfica, incluindo país, estado/província, cidade, código postal/CEP, DMA ou operadora de celular.
-title: 'Geografia '
+title: 'Geografia  '
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ Os parâmetros de localização geográfica permitem definir atividades e experi
    * Longitude
    * DMA
    * Operadora de celular
+
    O endereço IP de um visitante é transmitido com uma solicitação de mbox, uma vez por visita (sessão), para resolver parâmetros de geolocalização para esse visitante.
 
    Para operadoras de celular, o [!DNL Target] os dados de registro do endereço IP (proprietários do bloco de endereços IP) para determinar a operadora de celular apropriada usando [Códigos de país móveis (MCC) e Códigos de rede móveis (MNC)](https://www.mcc-mnc.com).
@@ -148,7 +153,7 @@ Porto Rico, Hong Konge outros territórios são tratados como valores de &quot;P
 
 Não, [!DNL Target] usa dados geográficos somente para a duração da sessão e os dados são descartados.
 
-## Vídeo de treinamento: Criar o selo do ![tutorial de públicos-alvo](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando o emblema ![do tutorial do Audiência](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
