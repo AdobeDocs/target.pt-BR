@@ -1,11 +1,15 @@
 ---
-keywords: gdpr; ue; união europeia; privacidade; perguntas frequentes; perguntas frequentes; california consumer privacy act; ccpa; privacidade; proteção de dados; opt-out; recusar; governamental; regulamento
+keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informações sobre o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia, a California Consumer Privacy Act (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
 title: Informações sobre o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia, a California Consumer Privacy Act (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
-topic: Padrão
+feature: null
+topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 93%
 
 ---
 
@@ -296,4 +300,4 @@ O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte 
 
 ### Preciso fazer algo para impedir que meus dados sejam compartilhados ou vendidos a terceiros?
 
-O Target não tem a capacidade de permitir que os clientes compartilhem ou vendam dados diretamente do Target para terceiros, portanto, não há cancelamento da venda para o Target.
+O Público alvo não tem a capacidade de permitir que os clientes compartilhem ou vendam dados diretamente do Público alvo para terceiros, portanto, não há cancelamento na venda do Público alvo.
