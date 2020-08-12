@@ -2,8 +2,12 @@
 keywords: Recommendations;offer
 description: O Adobe Recommendations como uma oferta em atividades de Testes A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT)
 title: O Adobe Recommendations como uma oferta em atividades de Testes A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT)
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -117,6 +121,6 @@ O status da oferta de recomendações (algoritmo) é exibido na parte inferior d
 
 ![Status da oferta de recomendações](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vídeo de treinamento: Recomendações como um emblema ![Visão geral da oferta](/help/assets/overview.png)
+## Vídeo de treinamento: Recommendations como um selo de ![Visão geral da oferta](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
