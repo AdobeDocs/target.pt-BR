@@ -2,9 +2,10 @@
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Use atributos de entidade para passar informações do produto ou conteúdo para o Recommendations.
 title: Atributos da entidade
+feature: null
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 94%
@@ -186,7 +187,7 @@ Em geral, a mbox de informações de exibição pode ser semelhante ao exemplo a
 
 >[!NOTE]
 >
->Se você estiver usando o at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações sobre o produto ou conteúdo para o Recommendations usando o at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para obter um exemplo disso, consulte [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md).
+>Se você estiver usando o at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações sobre o produto ou conteúdo para a Recommendations usando o at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver um exemplo disso, consulte [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >
