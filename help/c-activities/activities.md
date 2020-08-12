@@ -1,18 +1,22 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: As atividades no Adobe Target permitem que você personalize o conteúdo para públicos-alvo específicos e teste designs de página
-title: As atividades no Adobe Target permitem que você personalize o conteúdo para públicos-alvo específicos e teste designs de página.
+description: As atividades no Adobe Target permitem que você personalize o conteúdo para audiências específicas e teste designs de página
+title: As atividades no Adobe Target permitem que você personalize o conteúdo para audiências específicas e teste designs de página.
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2094'
+ht-degree: 97%
 
 ---
 
 
 # Atividades{#activities}
 
-As atividades no Adobe Target permitem que você personalize o conteúdo para públicos-alvo específicos e teste designs de página.
+As atividades no Adobe Target permitem que você personalize o conteúdo para audiências específicas e teste designs de página.
 
 Por exemplo, você pode criar uma atividade que teste duas landing pages diferentes, uma destacando informações sobre sapatos femininos de verão e outra destacando um vestuário de verão mais amplo. A atividade determina as condições que controlam quando cada uma dessas páginas de aterrissagem será exibida e as métricas que determinam qual página tem maior sucesso. A atividade está configurada para iniciar e terminar quando as condições específicas forem cumpridas, como entre datas específicas, ou para iniciar quando a atividade for aprovada e terminar quando ela for desativada.
 
@@ -168,7 +172,7 @@ Esse trabalho de importação será executado quando a página de atividades for
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Etiqueta de ![Visão Geral dos Tipos de Atividade (9:03)](/help/assets/overview.png)
+### Etiqueta de ![Visão Geral de Tipos de atividades (9:03)](/help/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
@@ -178,7 +182,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Etiqueta de ![Visão Geral do Gerenciamento de Atividades (5:55)](/help/assets/overview.png)
+### Como gerenciar o selo de ![visão geral do Atividade (5:55)](/help/assets/overview.png)
 
 Este vídeo explica como usar a lista de Atividades para gerenciar as atividades.
 
