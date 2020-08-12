@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: Problemas de exibição às vezes ocorrem no Enhanced Experience Composer (EEC), sob certas condições.
 title: Solução de problemas relacionados ao Enhanced Experience Composer
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -18,9 +19,9 @@ Problemas de exibição às vezes ocorrem no Enhanced Experience Composer (EEC),
 
 ## O EEC não carregará um URL interno de controle de qualidade que não esteja acessível no IP público. (Somente EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Isso pode ser resolvido permitindo a listagem dos seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os Visitantes do site não precisam desses endereços IP permitidos
+Isso pode ser resolvido incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do site não precisam desses endereços IP incluir na lista de permissões
 
-Peça à sua equipe de TI para permitir os seguintes endereços IP:
+Peça à sua equipe de TI para lista de permissões os seguintes endereços IP:
 
 | Região | Endereço IP | Nomes de hosts |
 |--- |--- |--- |
@@ -38,9 +39,9 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
 * **Problema:** o domínio (ISP) do site está bloqueando o Enhanced Experience Composer.
 
-   **Solução:** Permite listar os endereços IP listados acima.
+   **Solução:** lista de permissões os endereços IP listados acima.
 
-* **Problema:** Os endereços IP são permitidos na lista, mas seu site não suporta a versão 1.2 do TLS. Atualmente, o Público alvo usa a configuração padrão 1.2. Antes do Público alvo 18.4.1 (25 de abril de 2018), a configuração padrão suportava TLS 1.0. Para obter mais informações, consulte Alterações [de criptografia de](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
+* **Problema:** Os endereços IP são incluir na lista de permissões, mas seu site não suporta a versão 1.2 do TLS. Atualmente, o público alvo usa a configuração padrão 1.2. Antes do Público alvo 18.4.1 (25 de abril de 2018), a configuração padrão suportava TLS 1.0. Para obter mais informações, consulte Alterações [de criptografia de](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
 
    **Solução:** consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).
 
