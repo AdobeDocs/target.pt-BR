@@ -2,10 +2,11 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Use métricas em um teste multivariado quando uma visita obtém sucesso.
 title: Definir métricas
+feature: null
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
@@ -29,6 +30,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métr
    * Conversão
    * Receita
    * Envolvimento
+
    Você pode usar qualquer uma das métricas de sucesso predefinidas ou criar uma métrica de sucesso personalizadas. Você também pode marcar uma métrica de sucesso como uma métrica principal. Cartões de relatórios e Experience Cloud mostram a primeira métrica por padrão, se alguma estiver definida.
 1. Especifique as configurações para suas métricas.
 
