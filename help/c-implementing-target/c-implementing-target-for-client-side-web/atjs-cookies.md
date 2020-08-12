@@ -1,11 +1,15 @@
 ---
-keywords: at.js; 2.0; 1.x; cookies
+keywords: at.js;2.0;1.x;cookies
 description: Detalhes sobre como a at.js 2.x e a at.js 1.x do Adobe Target lidam com cookies
 title: Cookies do Adobe Target at.js
-subtopic: Introdução
-topic: Padrão
+feature: null
+subtopic: Getting Started
+topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +113,7 @@ O cookie possui várias configurações padrão. Você pode alterar essas config
 | Nome do cookie | mbox. |
 | Domínio do cookie | Domínio de primeiro e segundo nível a partir de onde o conteúdo será disponibilizado. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. |
 | Domínio do servidor | `clientcode.tt.omtrdc.net`, utilizando o código de cliente de sua conta. |
-| Duração do cookie | O cookie permanece no navegador do visitante dois anos após seu último logon. Não é possível alterar a duração do cookie. |
+| Duração do cookie | O cookie permanece no navegador do visitante dois anos após seu último login. Não é possível alterar a duração do cookie. |
 | Política P3P | O cookie é publicado com a política P3P, conforme requerido pela configuração padrão na maioria dos navegadores. Uma política P3P indica ao navegador quem está disponibilizando o cookie e como as informações serão utilizadas. |
 
 O cookie mantém uma série de valores para gerenciar a experiência de seus visitantes nas campanhas:
@@ -129,26 +133,26 @@ Lembre-se do seguinte:
 
 | Cookies | Detalhes |
 |--- |--- |
-| Domínios próprios | Esta é a implementação padrão para clientes-alvo. Os cookies "mbox" são definidos no domínio do cliente. |
-| Rastreamento de terceiros | O rastreamento de terceiros é importante para anunciar e segmentar casos de uso no Target e no Adobe Audience Manager (AAM).  O rastreamento de terceiros requer técnicas de script entre sites.  O Target usa dois cookies, "mboxSession" e "mboxPC" configurados no domínio `clientcode.tt.omtrd.net`. |
+| Domínios próprios | Esta é a implementação padrão para clientes-alvo. Os cookies &quot;mbox&quot; são definidos no domínio do cliente. |
+| Rastreamento de terceiros | O rastreamento de terceiros é importante para anunciar e segmentar casos de uso no Target e no Adobe Audience Manager (AAM).  O rastreamento de terceiros requer técnicas de script entre sites.  O Target usa dois cookies, &quot;mboxSession&quot; e &quot;mboxPC&quot; configurados no domínio `clientcode.tt.omtrd.net`. |
 
 ### Qual é a abordagem da Apple?
 
 Da Apple:
 
-"A Intelligent Tracking Prevention é um novo recurso do WebKit que reduz o rastreamento entre sites, limitando ainda mais os cookies e outros dados do site".
+&quot;A Intelligent Tracking Prevention é um novo recurso do WebKit que reduz o rastreamento entre sites, limitando ainda mais os cookies e outros dados do site&quot;.
 
-"Isso é chamado de rastreamento entre sites e o cookie usado por `example-tracker.com` é chamado de cookie de terceiros. Em nossos testes, encontramos sites populares com mais de 70 desses rastreadores, todos coletando dados em silêncio sobre os usuários".
+&quot;Isso é chamado de rastreamento entre sites e o cookie usado por `example-tracker.com` é chamado de cookie de terceiros. Em nossos testes, encontramos sites populares com mais de 70 desses rastreadores, todos coletando dados em silêncio sobre os usuários&quot;.
 
 | Abordagem | Detalhes |
 |--- |--- |
 | Intelligent tracking prevention (Prevenção inteligente de rastreamento) | Para obter mais informações, consulte [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) no site WebKit Open Source Web Browser Engine. |
 | Cookies | Como o Safari gerencia cookies:<ul><li>Cookies de terceiros que não estão em um domínio que o usuário acessa diretamente nunca são salvos. Esse comportamento não é novo. Cookies de terceiros já não são suportados no Safari.</li><li>Cookies de terceiros definidos em um domínio que o usuário acessa diretamente são removidos após 24 horas.</li><li>Os cookies próprios são removidos após 30 dias se o domínio próprio for classificado como rastreamento de usuários em todos os sites. Esse problema pode se aplicar a grandes empresas que enviam usuários para domínios diferentes online. A Apple não deixou claro como exatamente esses domínios serão classificados, ou como um domínio pode determinar se eles foram classificados como usuários de rastreamento entre sites.</li></ul> |
-| Aprendizagem de máquina para identificar domínios que estão em todos os sites | Da Apple:<br>Classificador de aprendizagem de máquina: um modelo de aprendizagem de máquina é usado para classificar os principais domínios controlados de forma privada que podem controlar o usuário em todos os sites, com base nas estatísticas coletadas. Das várias estatísticas coletadas, três vetores mostraram forte sinal de classificação com base nas práticas de rastreamento atuais: sub-origem em número de domínios únicos, subestrutura em número de domínios únicos e número de domínios exclusivos redirecionados. Toda a coleta e classificação de dados acontece no dispositivo.<br>No entanto, se o usuário interagir com example.com como o domínio principal, geralmente chamado de domínio próprio, a Intelligent Tracking Prevention considera um sinal de que o usuário está interessado no site e ajusta temporariamente seu comportamento, conforme demonstrado na linha do tempo:<br>Se o usuário interagiu com example.com as últimas 24 horas, seus cookies estarão disponíveis quando `example.com` for um terceiro. Isso permite cenários de login "Fazer login com minha conta X em Y".<ul><li>Os domínios visitados como domínio de nível superior não serão afetados. Sites como o OKTA, por exemplo</li><li>Identifica domínios que são subdomínios ou subestruturas da página atual em vários domínios exclusivos.</li></ul> |
+| Aprendizagem de máquina para identificar domínios que estão em todos os sites | Da Apple:<br>Classificador de aprendizagem de máquina: um modelo de aprendizagem de máquina é usado para classificar os principais domínios controlados de forma privada que podem controlar o usuário em todos os sites, com base nas estatísticas coletadas. Das várias estatísticas coletadas, três vetores mostraram forte sinal de classificação com base nas práticas de rastreamento atuais: sub-origem em número de domínios únicos, subestrutura em número de domínios únicos e número de domínios exclusivos redirecionados. Toda a coleta e classificação de dados acontece no dispositivo.<br>No entanto, se o usuário interagir com example.com como o domínio principal, geralmente chamado de domínio próprio, a Intelligent Tracking Prevention considera um sinal de que o usuário está interessado no site e ajusta temporariamente seu comportamento, conforme demonstrado na linha do tempo:<br>Se o usuário interagiu com example.com as últimas 24 horas, seus cookies estarão disponíveis quando `example.com` for um terceiro. Isso permite cenários de login &quot;Fazer login com minha conta X em Y&quot;.<ul><li>Os domínios visitados como domínio de nível superior não serão afetados. Sites como o OKTA, por exemplo</li><li>Identifica domínios que são subdomínios ou subestruturas da página atual em vários domínios exclusivos.</li></ul> |
 
 ### Como a Adobe será afetada?
 
 | Funcionalidade afetada | Detalhes |
 |--- |--- |
 | Suporte para cancelamento | As alterações de rastreamento do WebKit da Apple interrompem o suporte ao cancelamento.<br>O cancelamento do Target usa um cookie no domínio `clientcode.tt.omtrdc.net`. Para obter mais detalhes, consulte [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>O Target suporta dois cancelamentos:<ul><li>Um por cliente (o cliente gerencia o link para opção de não participação).</li><li>Um via Adobe que cancela o usuário em todas as funcionalidades do Target para todos os clientes.</li></ul>Ambos os métodos usam o cookie de terceiros. |
-| Atividades do Target | Os clientes podem escolher seus  [ciclo de vida do perfil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) para contas Target: até 90 dias. A preocupação é que, se a duração do perfil da conta for superior a 30 dias, e o cookie próprio for limpo porque o domínio do cliente foi marcado como usuários de rastreamento entre sites, o comportamento dos visitantes do Safari será afetado nas seguintes áreas no Target:<br>**Relatórios do Target**: Se um usuário do Safari entrar em uma atividade, retornar após 30 dias e depois se converter, o usuário contará como dois visitantes e uma conversão.<br>Esse comportamento é o mesmo para atividades que usam o Analytics como fonte de geração de relatórios (A4T).<br>**Associação de perfil e atividade**:<ul><li>Dados do perfil são apagados quando o cookie próprio expira.</li><li>Associação de atividade é apagada quando o cookie próprio expira.</li><li> O Target não funciona no Safari para contas que usam uma implementação de cookies de terceiros ou uma implementação de cookies próprios e de terceiros. Observe que esse comportamento não é novo. O Safari não permite cookies de terceiros por algum tempo.</li></ul><br>**Sugestões:** se houver uma preocupação de que o domínio do cliente possa ser marcado como uma sessão cruzada de visitantes de rastreamento, é mais seguro definir a duração do perfil para 30 dias ou menos no Target. Isso garante que os usuários sejam rastreados de forma semelhante no Safari e em todos os outros navegadores. |
+| Atividades do Target | Os clientes podem escolher seus  [ciclo de vida do perfil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) para contas Target: até 90 dias. A preocupação é que, se a duração do perfil da conta for superior a 30 dias, e o cookie próprio for limpo porque o domínio do cliente foi marcado como usuários de rastreamento entre sites, o comportamento dos visitantes do Safari será afetado nas seguintes áreas no Target:<br>**Relatórios do Target **: Se um usuário do Safari entrar em uma atividade, retornar após 30 dias e depois se converter, o usuário contará como dois visitantes e uma conversão.<br>Esse comportamento é o mesmo para atividades que usam o Analytics como fonte de geração de relatórios (A4T).<br>**Associação de perfil e atividade**:<ul><li>Dados do perfil são apagados quando o cookie próprio expira.</li><li>Associação de atividade é apagada quando o cookie próprio expira.</li><li> O Target não funciona no Safari para contas que usam uma implementação de cookies de terceiros ou uma implementação de cookies próprios e de terceiros. Observe que esse comportamento não é novo. O Safari não permite cookies de terceiros por algum tempo.</li></ul><br>**Sugestões: **se houver uma preocupação de que o domínio do cliente possa ser marcado como uma sessão cruzada de visitantes de rastreamento, é mais seguro definir a duração do perfil para 30 dias ou menos no Target. Isso garante que os usuários sejam rastreados de forma semelhante no Safari e em todos os outros navegadores. |
