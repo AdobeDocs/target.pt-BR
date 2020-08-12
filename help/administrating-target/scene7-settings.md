@@ -1,11 +1,12 @@
 ---
 description: O Target Standard pode ser integrado com o Adobe Dynamic Media Classic (anteriormente Adobe Scene7) para fornecer gerenciamento de ativos digitais (DAM) na biblioteca de conteúdo.
 title: Integração com o Dynamic Media Classic integração de configuração
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 36%
@@ -13,7 +14,7 @@ ht-degree: 36%
 ---
 
 
-# Configuração do Scene7 {#scene-settings}
+# Configuração Scene7 {#scene-settings}
 
 Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
 
@@ -31,7 +32,7 @@ Note that the storage URL and the final publish URLs of images from [!DNL Dynami
 
 To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to specify the following information.
 
-1. Clique em **[!UICONTROL Administração]** > Configuração **[!UICONTROL do]** Scene7.
+1. Clique em **[!UICONTROL Administração]** > Configuração **** Scene7.
 
    ![Página do Scene7](/help/administrating-target/assets/scene7.png)
 
