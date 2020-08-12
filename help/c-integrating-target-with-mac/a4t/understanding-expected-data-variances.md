@@ -1,11 +1,15 @@
 ---
-keywords: variâncias de dados; análises; diferenças; variance; a4T; analytics para target; análises como fonte de relatórios; discrepâncias; discrepância
+keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
 description: Informações sobre as variâncias esperadas de dados entre o Target e o Adobe Analytics ao não usar o Analytics como fonte de relatórios (A4T), o que elimina a variância de dados completamente.
 title: Variâncias esperadas de dados ao não usar o A4T
+feature: null
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +56,7 @@ Os itens a seguir podem causar variações técnicas com base em diferenças té
 
 * [!DNL Target]Os visitantes do devem permitir cookies e JavaScript
 * Os cookies próprios e de terceiros são processados de forma diferente e, como resultado, os dados desses tipos de cookies não correspondem
-* Localização relativa de tags nas páginas e "vazamento" causado por visitantes que saem da página antes que ela carregue totalmente
+* Localização relativa de tags nas páginas e &quot;vazamento&quot; causado por visitantes que saem da página antes que ela carregue totalmente
 * Considerações de fuso-horário
 * Diferenças em que os dispositivos podem ser contados
 
