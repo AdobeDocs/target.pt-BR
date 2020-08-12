@@ -2,10 +2,14 @@
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Várias configurações podem ser usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
 title: Configurações de atividade do Recommendations no Adobe Target
+feature: null
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +66,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 Insira observações sobre a atividade.
 
-## Vídeo de treinamento:Etiqueta do ![tutorial de configurações de atividade (3:02)](/help/assets/tutorial.png)
+## Vídeo de treinamento: Configurações de atividade (3:02) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
