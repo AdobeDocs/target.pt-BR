@@ -2,14 +2,15 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: O "Analytics for Target" (A4T) da Adobe é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do Analytics. Essa integração permite usar os relatórios do Analytics para analisar seus resultados. Se usar o Analytics como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo Analytics.
 title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
+feature: null
 subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1257'
+ht-degree: 47%
 
 ---
 
@@ -53,7 +54,7 @@ Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
 * A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
 
-   Em algumas situações, a chamada de classificação de [!DNL Target] para [!DNL Analytics] pode falhar e as atividades não exibem dados em [!DNL Analytics]. Se isso acontecer, consulte [Solução de problemas do Analytics e da integração do Público alvo (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Você também pode [entrar em contato com o Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obter assistência adicional.
+   Em algumas situações, a chamada de classificação de [!DNL Target] para [!DNL Analytics] pode falhar e as atividades não exibem dados em [!DNL Analytics]. Se isso acontecer, consulte [Solução de problemas do Analytics e da integração de Públicos alvos (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Você também pode [entrar em contato com o Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) para obter assistência adicional.
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -62,7 +63,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Tipos de atividades | O A4T é compatível? | Observações, se aplicável |
 |--- |--- |--- |
 | Atividade A/B com divisão manual de tráfego | Sim |  |
-| Atividade A/B com alocação automática | Sim | Consulte [Analytics para obter suporte ao Público alvo (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| Atividade A/B com alocação automática | Sim | Consulte Suporte [do Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
 | Atividade A/B com direcionamento automático | Não |  |
 | Direcionamento de experiência (XT) | Sim |  |
 | Teste multivariado (MVT) | Sim | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -111,7 +112,7 @@ Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.ado
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste tópico.
 
-### Etiqueta de ![visão geral do Analytics for Target (A4T) (4:32)](/help/assets/overview.png)
+### Etiqueta de ![visão geral do Analytics para Públicos alvos (A4T) (4:32)](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -130,4 +131,4 @@ Este vídeo é uma gravação de &quot;[Horas do Office](../../cmp-resources-and
 * Saiba mais sobre os relatórios adequados para usar no Analytics
 * Respostas às perguntas comuns sobre o A4T
 
-[Horas do Office para Integração de Públicos alvos/Analytics (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Horas do Office para Integração de Públicos alvos/Análises (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
