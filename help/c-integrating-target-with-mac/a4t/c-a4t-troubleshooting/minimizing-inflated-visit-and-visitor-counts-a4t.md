@@ -1,12 +1,16 @@
 ---
-keywords: dados parciais; dados parciais; A4T; discrepâncias; analytics para target; órfão; conjunto de relatórios virtual; fictício; solução de problemas; não corrigido; inflacionado; não especificado
+keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas de Visitas e Visitantes ao usar o Analytics como origem de geração de relatórios.
 title: Minimizar contagens inflacionadas de visitas e visitantes no A4T
-subtopic: Teste multivariado
-topic: Padrão
+feature: null
+subtopic: Multivariate Test
+topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +29,7 @@ Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas d
 >* Serviço de ID de visitante da Experience Cloud: visitorAPI.js versão 2.3.0 ou superior.
 >* Adobe Analytics: appMeasurement.js versão 2.1.
 >* Adobe Target: at.js versão 0.9.6 ou posterior (exceto a versão 1.1.0, se estiver usando ofertas de redirecionamento com A4T).
+
 >
 >  
 A biblioteca mbox.js não é compatível com as ofertas de redirecionamento com o A4T. Sua implementação deve usar at.js.
@@ -35,7 +40,7 @@ Quando o [!DNL Adobe Analytics] é usado para medir as atividades do [!DNL Targe
 
 ## Por que a Adobe fez essa alteração? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-A Adobe orgulha-se de sua qualidade e precisão de dados. Quando a tag do [!DNL Target] é disparada, mas a tag do [!DNL Analytics] não, estamos registrando "dados parciais" (algumas vezes chamados de "acessos não corrigidos"), que não seriam capturados pelo [!DNL Analytics] se não houvesse atividade do [!DNL Target]. Embora a inclusão desses dados parciais nos relatórios do [!DNL Analytics] realmente forneça informações adicionais, ela também cria inconsistência com dados históricos de períodos em que não havia atividades do [!DNL Target] em execução. Isso pode causar problemas para os usuários do [!DNL Analytics] que estão analisando tendências ao longo do tempo. Com o intuito de assegurar a consistência dos dados no [!DNL Analytics], nós excluiremos todos os dados parciais.
+A Adobe orgulha-se de sua qualidade e precisão de dados. Quando a tag do [!DNL Target] é disparada, mas a tag do [!DNL Analytics] não, estamos registrando &quot;dados parciais&quot; (algumas vezes chamados de &quot;acessos não corrigidos&quot;), que não seriam capturados pelo [!DNL Analytics] se não houvesse atividade do [!DNL Target]. Embora a inclusão desses dados parciais nos relatórios do [!DNL Analytics] realmente forneça informações adicionais, ela também cria inconsistência com dados históricos de períodos em que não havia atividades do [!DNL Target] em execução. Isso pode causar problemas para os usuários do [!DNL Analytics] que estão analisando tendências ao longo do tempo. Com o intuito de assegurar a consistência dos dados no [!DNL Analytics], nós excluiremos todos os dados parciais.
 
 ## O que contribui para dados parciais? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
@@ -93,9 +98,9 @@ Ao criar o conjunto de relatórios virtuais, especifique a configuração a segu
 * E
 * Instâncias de link de saída: não existe
 
-**Ocorrências órfãs:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Esses são os que definimos como acessos "órfãos". Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
+**Ocorrências órfãs:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Esses são os que definimos como acessos &quot;órfãos&quot;. Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
 
-Para minimizar esses acessos "órfãos", você pode criar um [conjunto de relatórios virtuais](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que exclua esses acessos conforme explicado acima.
+Para minimizar esses acessos &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que exclua esses acessos conforme explicado acima.
 
 ## O que isso significa para meus [!DNL Target] relatórios? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
