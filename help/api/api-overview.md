@@ -4,17 +4,17 @@ description: Informações sobre as APIs da Adobe Target, incluindo as APIs de A
 title: Visão geral da API Adobe Target
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 
 # Visão geral da API Adobe Target
 
-As APIs do Adobe Target podem ser agrupadas de acordo com o tipo.
+[!DNL Adobe Target] As APIs podem ser agrupadas de acordo com o tipo.
 
 | Tipo de API | O que ele permite fazer | Link de download | Outros links úteis |
 | --- | --- | --- |--- |
@@ -25,6 +25,12 @@ As APIs do Adobe Target podem ser agrupadas de acordo com o tipo.
 
 >[!NOTE]
 >
->Observe a distinção entre APIs **de** administração (incluindo as [!DNL Recommendations] APIs), que permite configurar vários aspectos do Adobe Target, em comparação às APIs **de** delivery, que permitem recuperar o conteúdo. As APIs de administração exigem autenticação, enquanto as APIs de delivery não.
+>Há distinções importantes entre [!DNL Target] as APIs de administração (incluindo as [!DNL Recommendations] APIs) e as APIs de [!DNL Target] Delivery:
 >
->Para usar as Adobe Target Admin APIs, primeiro é necessário configurar a autenticação usando a E/S do Adobe. Para obter mais informações, consulte [Configurar autenticação](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) em Tutorials ** Adobe Target.
+>* As APIs de administração permitem configurar vários aspectos dos [!DNL Target] quais você também pode configurar na [!DNL Target] interface do usuário. As APIs administrativas exigem autenticação.
+   >
+   >
+* As APIs de delivery permitem recuperar conteúdo. As APIs de delivery não exigem autenticação.
+>
+>
+Para usar [!DNL Target] as APIs de administração, primeiro é necessário configurar a autenticação usando E/S de Adobe. Para obter mais informações, consulte [Configurar autenticação](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) em Tutorials ** Adobe Target.
