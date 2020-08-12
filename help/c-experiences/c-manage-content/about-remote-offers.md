@@ -2,10 +2,11 @@
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: Use as ofertas remotas para hospedar conteúdo fora do Target que o Target faz referência e entrega aos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
 title: Criar ofertas remotas
+feature: null
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 92%
