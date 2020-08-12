@@ -2,9 +2,13 @@
 keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: É possível definir metas em uma das diversas categorias. Cada categoria funciona como uma guia que permite criar regras de definição de metas (ou grupos) para cada categoria.
 title: Categorias para públicos
+feature: null
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +29,7 @@ Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo].
 
 Você pode classificar a lista de públicos-alvo por nome de público-alvo ou pela data da última modificação. Para classificar por nome ou data, clique no cabeçalho da coluna e selecione para exibir os públicos-alvo em ordem crescente ou decrescente.
 
-## Vídeo de treinamento: Criar o selo do ![tutorial de públicos-alvo](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando o emblema ![do tutorial do Audiência](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
