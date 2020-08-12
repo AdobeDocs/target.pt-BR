@@ -1,10 +1,14 @@
 ---
-keywords: AB;A/B;AB...n;tamanho da amostra; calculador de tamanho da amostra; alocação automática; autoalocação
+keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Um teste A/B bem-sucedido requer um número adequado de visitantes (tamanho da amostra) para melhorar o índice de conversão, mas como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre as atividades de alocação automática e a calculadora de tamanho de amostra do Target para ajudar a garantir que sua atividade tenha um número suficiente de visitantes para atingir as metas.
 title: Por quanto tempo você deve executar um teste A/B?
+feature: null
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3108'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +31,7 @@ O Target fornece ferramentas para ajudar a garantir que sua atividade tenha um t
 
    A alocação automática move os visitantes para experiências vencedoras gradativamente, em vez de exigir que você aguarde o fim de uma atividade para determinar um vencedor. Você se beneficia do incentivo mais rapidamente porque os participantes da atividade que teriam sido enviados para experiências de menor sucesso recebem experiências vencedoras potenciais.
 
-   Ao usar o recurso Alocação automática, o Target exibe um emblema na parte superior da página da atividade, indicando "Ainda não há vencedor" até que a atividade atinja o número mínimo de conversões com confiança suficiente. O Target declara a experiência vencedora exibindo um emblema no topo da página da atividade.
+   Ao usar o recurso Alocação automática, o Target exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente. O Target declara a experiência vencedora exibindo um emblema no topo da página da atividade.
 
    Para obter mais informações, consulte [Alocação automática](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
