@@ -1,34 +1,38 @@
 ---
-keywords: Recommendations;oferta;visualização;inicialização
-description: 'Depois de criar suas atividades Recomendações, Teste A/B ou Direcionamento de experiência (XT) que contêm as ofertas do Adobe Target Recommendations, você deverá visualizá-las para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Target Recommendations oferece várias maneiras de visualizar suas recomendações. '
-title: 'Depois de criar suas atividades Recomendações, Teste A/B ou Direcionamento de experiência (XT) que contêm as ofertas do Adobe Target Recommendations, você deverá visualizá-las para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Target Recommendations oferece várias maneiras de visualizar suas recomendações. '
+keywords: Recommendations;offer;preview;launch
+description: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
+title: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
+feature: null
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1398'
+ht-degree: 19%
 
 ---
 
 
-# Visualizar e iniciar sua atividade do Recommendations
+# Pré-visualizar e iniciar atividade do Recommendations
 
-Depois de criar sua atividade [!UICONTROL Recomendações], Teste A/B ou Definição de metas [!UICONTROL de] experiência (XT) contendo ofertas [do](/help/c-recommendations/recommendations-as-an-offer.md)Recommendations, você deverá visualizar suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. [!DNL Target Recommendations] oferece várias maneiras de visualizar suas recomendações.
+Depois de criar a atividade [!UICONTROL Recommendations], Teste A/B ou Definição de metas [!UICONTROL de] experiência (XT) que contém o [Recommendations oferta](/help/c-recommendations/recommendations-as-an-offer.md), você desejará pré-visualização nas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. [!DNL Target Recommendations] oferta várias maneiras de pré-visualização de suas recomendações.
 
-## Verificando o status do algoritmo do Recommendations
+## Verificando o status do algoritmo Recommendations
 
 Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
 
-Você pode verificar se o algoritmo terminou de ser executado no diagrama de visão geral da [!UICONTROL Atividade] , onde o status do critério é listado. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity's [!UICONTROL Overview] page:
+Você pode verificar se o algoritmo terminou de ser executado no diagrama de visão geral da [!UICONTROL Atividade] , onde o status do critério está listado. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity&#39;s [!UICONTROL Overview] page:
 
-![Página Visão geral da atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
+![Página Visão geral da atividade Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-A ilustração a seguir descreve o status em uma página de Teste [!UICONTROL A/B ou] Visão geral  da atividade XT:
+A ilustração a seguir descreve o status em um teste [!UICONTROL A/B ou na página] Visão geral  da atividade XT:
 
 ![Página Visão geral do teste A/B](/help/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
 Os resultados de status incluem o seguinte, conforme ilustrado abaixo:
 
 * [!UICONTROL Resultados prontos]: Indica que o algoritmo retornou resultados
-* [!UICONTROL Resultados não prontos]: Indica que o algoritmo não terminou de ser executado.
+* [!UICONTROL Resultados Não Prontos]: Indica que o algoritmo não terminou de ser executado.
 * [!UICONTROL Falha]do feed: Indica que o arquivo de feed de critérios personalizados não pôde ser recuperado.
 
 ![Caixa de diálogo Resultados](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
@@ -53,37 +57,37 @@ Se os critérios usarem o [!DNL Adobe Analytics] como a fonte de dados comportam
 
 >[!NOTE]
 >
->[!UICONTROL Itens] visualizados recentemente não exigem execução de algoritmos offline e os resultados estão disponíveis instantaneamente. [!UICONTROL Os algoritmos de Mais Visualizados] e [!UICONTROL Mais Vendidos] com base nos dados da mbox geralmente produzem resultados muito rapidamente devido à computação mais simples necessária. Essas podem ser boas opções quando você deseja visualizar uma alteração de design ou confirmar que os dados comportamentais estão sendo coletados corretamente.
+>[!UICONTROL Itens] visualizados recentemente não exigem execução de algoritmos offline e os resultados estão disponíveis instantaneamente. [!UICONTROL Os algoritmos de Mais Visualizados] e [!UICONTROL Mais Vendidos] com base nos dados da mbox geralmente produzem resultados muito rapidamente devido à simplificação do cálculo necessário. Essas podem ser boas opções quando você deseja pré-visualização uma alteração de design ou confirmar que os dados comportamentais estão sendo coletados corretamente.
 
-## Usar links de controle de qualidade para visualizar recomendações
+## Usar links de QA para a pré-visualização Recommendations
 
-Depois que o algoritmo tiver os resultados prontos, você poderá visualizar esses resultados usando a funcionalidade de link [de](/help/c-activities/c-activity-qa/activity-qa.md) QA do [!DNL Adobe Target]. Os links de controle de qualidade estão disponíveis na seção de controle de qualidade da [!UICONTROL atividade] da página Visão geral da atividade:
+Depois que o algoritmo tiver os resultados prontos, você poderá pré-visualização-los usando a funcionalidade de link [de](/help/c-activities/c-activity-qa/activity-qa.md) QA do [!DNL Adobe Target]. Os links de controle de qualidade estão disponíveis na seção de controle de qualidade [!UICONTROL da] Atividade da página de visão geral da Atividade:
 
 ![Link de controle de qualidade da atividade](/help/c-recommendations/t-create-recs-activity/assets/qa-link.png)
 
 >[!NOTE]
 >
->Por padrão, o adiciona [!DNL Target] automaticamente ao público-alvo necessário para o link de QA. Se essa configuração estiver desativada e sua atividade tiver regras de definição de metas, seu perfil de usuário precisará atender a essas regras de definição de metas para ver a experiência que contém as recomendações.
+>Por padrão, [!DNL Target] o adiciona automaticamente à audiência necessária para o link de QA. Se essa configuração estiver desativada e sua atividade tiver regras de definição de metas, seu perfil de usuário precisará atender a essas regras de definição de metas para ver a experiência que contém as recomendações.
 
-Usar um link de QA permite visualizar as recomendações na sua página:
+Usar um link de QA permite que você pré-visualização as recomendações na sua página:
 
 ![Produtos em destaque](/help/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
->O modo de controle de qualidade do Target é "aderente" e salvo em um cookie. Se você não sair do modo de controle de qualidade, continuará vendo os resultados de controle de qualidade em todo o site. Para sair do modo de QA, use o [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>O modo de QA do público alvo é &quot;aderente&quot; e salvo em um cookie. Se você não sair do modo de controle de qualidade, continuará vendo os resultados de controle de qualidade em todo o site. Para sair do modo de QA, use o [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
 
 >[!NOTE]
 >
->Enquanto estiver no modo de QA, a navegação no site não afetará os itens [!UICONTROL visualizados] recentemente ou os itens [!UICONTROL comprados]recentemente do seu perfil" Esse comportamento ocorre pelo design para evitar a poluição não intencional dos dados comportamentais da produção. Para visualizar os resultados de um critério de Itens [!UICONTROL visualizados] recentemente ou Recomendações [!UICONTROL baseadas no] usuário, navegue primeiro no site fora do modo de QA e use a mesma sessão para abrir um link do modo de QA.
+>Enquanto estiver no modo de QA, a navegação no site não afetará os itens [!UICONTROL visualizados] recentemente ou os itens [!UICONTROL comprados]recentemente&quot; do perfil. Esse comportamento ocorre pelo design para evitar a poluição não intencional dos dados comportamentais da produção. Para pré-visualização dos resultados de um critério de Itens [!UICONTROL visualizados] recentemente ou Recommendations [!UICONTROL baseado no] usuário, navegue primeiro no site fora do modo de QA e use a mesma sessão para abrir um link do modo de QA.
 
-## Uso do download CSV para visualizar recomendações
+## Uso do download CSV para recomendações de pré-visualização
 
 Em alguns casos, talvez você queira auditar os itens específicos recomendados. Isso é particularmente útil ao usar algoritmos como [!UICONTROL Pessoas que visualizaram isso, viram aquilo], onde um conjunto diferente de itens é recomendado dependendo do item que o usuário está visualizando no momento, e você pode ter milhares ou milhões de itens diferentes em seu catálogo.
 
 Os resultados não estão disponíveis para download até que o status [!UICONTROL Resultados prontos] seja mostrado para pelo menos um algoritmo na atividade.
 
-Para baixar os resultados da visualização, clique no ícone de menu no canto superior direito da página Visão geral da atividade e clique em **[!UICONTROL Download de dados]**.
+Para baixar os resultados da pré-visualização, clique no ícone de menu no canto superior direito da página de visão geral da Atividade e clique em **[!UICONTROL Download de dados]**.
 
 ![Opção de download de dados](/help/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
@@ -91,15 +95,15 @@ Um arquivo CSV é baixado. Abra-o para ver os itens recomendados:
 
 ![Arquivo CSV de itens recomendados](/help/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
-Da esquerda para a direita é uma lista de itens recomendados, neste caso os exibidos com mais frequência. As recomendações são separadas pelo ambiente, nesse caso, apenas o ambiente de produção tem recomendações. Para este algoritmo, não aplicamos restrições baseadas no valor chave, portanto a linha rotulada com um asterisco (*) contém o conjunto completo de recomendações. Para outros tipos de algoritmos com base em um valor-chave, como [!UICONTROL Pessoas que viram isso, viram que]os valores-chave (ou seja, os itens "This") estão listados na coluna mais à esquerda e os itens recomendados (ou seja, os itens "This") estão listados da esquerda para a direita nas colunas Recommendation_X.
+Da esquerda para a direita é uma lista de itens recomendados, neste caso os exibidos com mais frequência. As recomendações são separadas por ambiente, nesse caso apenas o ambiente de Produção tem recomendações. Para este algoritmo, não aplicamos restrições baseadas no valor chave, portanto a linha rotulada com um asterisco (*) contém o conjunto completo de recomendações. Para outros tipos de algoritmos com base em um valor-chave, como [!UICONTROL Pessoas que viram isso, viram que]os valores-chave (ou seja, os itens &quot;This&quot;) estão listados na coluna mais à esquerda e os itens recomendados (ou seja, os itens &quot;This&quot;) estão listados da esquerda para a direita nas colunas Recommendation_X.
 
 >[!NOTE]
 >
->Os downloads de resultados não estão disponíveis para atividades que contêm um algoritmo de Recomendações [!UICONTROL Baseadas em] Usuário. Os downloads de resultados não estão disponíveis para critérios usando a lógica de recomendação Itens [!UICONTROL visualizados] recentemente.
+>Os downloads de resultados não estão disponíveis para atividades que contêm um algoritmo Recommendations [!UICONTROL baseado em] usuário. Os downloads de resultados não estão disponíveis para critérios usando a lógica de recomendação Itens [!UICONTROL visualizados] recentemente.
 
-## Ativando a atividade do Recommendations
+## Como ativar sua atividade Recommendations
 
-Na guia Visão geral [!UICONTROL da] atividade, clique na seta suspensa ao lado do status e selecione **[!UICONTROL Ativar]**.
+Na guia Visão geral [!UICONTROL da] Atividade, clique na seta suspensa ao lado do status e selecione **[!UICONTROL Ativar]**.
 
 ![Opção Ativar](/help/c-recommendations/t-create-recs-activity/assets/activate.png)
 
@@ -115,21 +119,21 @@ Observe que você também pode desativar ou arquivar a atividade usando a mesma 
 
 ## Evitar interrupções ao alterar configurações do Recommendations
 
-Alterar [!DNL Recommendations] coleções, critérios, promoções ou configurações de design em uma atividade ativa pode resultar em resultados do algoritmo se tornando inválidos e no status de um algoritmo alterando para [!UICONTROL Resultados não prontos].
+Alterar [!DNL Recommendations] coleções, critérios, promoções ou configurações de design em uma atividade ao vivo pode resultar em resultados do algoritmo se tornando inválidos e no status de um algoritmo alterando para [!UICONTROL Resultados não prontos].
 
 Para evitar interromper uma atividade ao vivo, recomendamos adotar a seguinte abordagem ao modificar uma atividade ao vivo:
 
-1. Duplique a atividade e os critérios que deseja modificar.
+1. Duplicado a atividade e os critérios que você deseja modificar.
 1. Faça alterações na atividade e nos critérios duplicados e aguarde até que o algoritmo gere resultados.
-1. Visualize a nova atividade modificada e confirme se os resultados são os desejados.
+1. Pré-visualização a nova atividade modificada e confirme se os resultados são os desejados.
 1. Ative a nova atividade.
 1. Desative a atividade antiga.
 
-Se você precisar manter os resultados do relatório histórico na mesma atividade, uma abordagem alternativa será possível, o que pode resultar em uma interrupção temporária da disponibilidade das recomendações:
+Se você precisar manter os resultados do relatórios histórico na mesma atividade, uma abordagem alternativa será possível, o que pode resultar em uma interrupção temporária da disponibilidade das recomendações:
 
-1. Duplique a atividade e os critérios que deseja modificar.
+1. Duplicado a atividade e os critérios que você deseja modificar.
 1. Faça alterações na atividade e nos critérios duplicados e aguarde até que o algoritmo gere resultados.
-1. Visualize a nova atividade modificada e confirme se os resultados são os desejados.
+1. Pré-visualização a nova atividade modificada e confirme se os resultados são os desejados.
 1. Pause a atividade existente e troque as configurações/critérios pelos novos critérios.
-1. Visualize a atividade existente e confirme se os resultados são os desejados.
+1. Pré-visualização a atividade existente e confirme se os resultados são os desejados.
 1. Reative a atividade.
