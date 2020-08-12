@@ -1,11 +1,15 @@
 ---
-keywords: várias páginas; teste de jornada; atividade multipáginas
+keywords: multi-page;journey testing;multipage activity
 description: Uma atividade multipáginas permite criar uma história em várias páginas, com um design específico para cada página.
 title: Atividade multipáginas
+feature: null
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ Você pode especificar as regras do modelo para cada página no teste de multip�
 
 Para adicionar páginas a um teste:
 
-1. Clique no ícone de engrenagem **[!UICONTROL Configurar].**
+1. Clique no ícone de engrenagem **[!UICONTROL Configurar]**.
 1. Clique em **[!UICONTROL Adicionar mais páginas]**.
 
    Uma barra de navegação aparece à esquerda da tela.
@@ -35,7 +39,7 @@ Para adicionar páginas a um teste:
 
 1. Use uma barra de navegação para especificar suas páginas e definir a página padrão.
 
-   Clique em **[!UICONTROL Adicionar página]para adicionar uma página adicional.**
+   Clique em **[!UICONTROL Adicionar página]** para adicionar uma página adicional.
 
    Clique no ícone de três elipses verticais para exibir um menu de ação:
 
