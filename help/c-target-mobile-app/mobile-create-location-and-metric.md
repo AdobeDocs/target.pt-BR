@@ -1,11 +1,15 @@
 ---
-keywords: aplicativo móvel, local de aplicativo móvel, aplicativo móvel target, métricas de sucesso no aplicativo móvel
+keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
 description: Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
 title: iOS - Criar um local de definição e métrica de sucesso
+feature: null
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +45,7 @@ Existem dois métodos primários para criar um local do Target no seu aplicativo
    | `ADBTargetLocationRequest *myRequest` | Substitua `myRequest` com o nome de seu `targetLocation` no aplicativo. |
    | `targetCreateRequestWithName:@"heroBanner"` | Substitua `heroBanner` com o nome de seu `targetLocation` no Target. Este é o mesmo nome da mbox. Este banner herói aparece na interface do Target. |
    | `defaultContent:@"default.png"` | Substitua `default.png` com o valor que o aplicativo usa se o Target não responder. |
-   | `parameters:nil` | Especifique os parâmetros de perfil ou mbox. Veja mais informações na seção "Passando dados personalizados". |
+   | `parameters:nil` | Especifique os parâmetros de perfil ou mbox. Veja mais informações na seção &quot;Passando dados personalizados&quot;. |
 
    Este é um exemplo de chamada para carregar a solicitação:
 
