@@ -1,11 +1,15 @@
 ---
-keywords: qa; visualização; link de visualização; dispositivo móvel; visualização móvel
+keywords: qa;preview;preview link;mobile;mobile preview
 description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
 title: Uso do link de visualização móvel no Adobe Target Mobile
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -28,8 +32,8 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    Para instruções de como baixar o SDK apropriado, consulte:
 
-   * **** iOS: [Antes de começar](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) na Ajuda *do iOS do* Mobile Services.
-   * **** Android: [Antes de iniciar](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) na Ajuda *do Android do* Mobile Services.
+   * **iOS:** [Antes de start](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) na Ajuda *do iOS do* Mobile Services.
+   * **Android:** [Antes de start](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) na Ajuda *do Android do* Mobile Services.
 
 1. **Defina um esquema de URL:** o link de visualização usa um esquema de URL para abrir seu aplicativo. Você deve especificar um esquema de URL único para a visualização.
 
