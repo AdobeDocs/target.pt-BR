@@ -1,11 +1,15 @@
 ---
-keywords: mbox.js faq; perguntas frequentes do mbox.js; document.write; tt.omtrdc.net; bloqueio do analisador
+keywords: mbox.js faq;mbox.js frequently asked questions;document.write;tt.omtrdc.net;parser blocking
 description: Respostas às perguntas mais frequentes sobre a mbox.js.
 title: Perguntas frequentes sobre a mbox.js
-subtopic: Introdução
+feature: null
+subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +22,7 @@ Respostas às perguntas mais frequentes sobre a mbox.js.
 
 Para obter mais informações, consulte [Vantagens da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
-## Por que recebo mensagens de aviso de "Bloqueio de analisador" no Google Chrome ao usar mbox.js e document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
+## Por que recebo mensagens de aviso de &quot;Bloqueio de analisador&quot; no Google Chrome ao usar mbox.js e document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
 
 Essa mensagem de console é exibida ao usar o Chrome em vários cenários nos quais a função `document.write` é usada dentro do arquivo mbox.js. Essa é uma mensagem de aviso e não deve afetar o seu processo de configuração da atividade.
 
