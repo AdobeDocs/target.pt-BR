@@ -2,11 +2,12 @@
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: Os tokens de resposta permitem que você produza automaticamente informações específicas do Público alvo (detalhes da atividade, informações do perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou integração com sistemas de terceiros (como Clicktale)
 title: Tokens de resposta no Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -58,7 +59,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
    |  | `profile.categoryAffinities` | Retorna uma matriz das 5 categorias principais do visitante como sequências de caracteres. |
    | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que &quot;option&quot; equivale a &quot;offer.&quot; |
    | Geografia | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulte [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) para obter mais informações sobre como usar o direcionamento geográfico nas atividades. |
-   | Método<br>de alocação de tráfego (aplica-se somente a atividades de Público alvo  automático e personalização  automatizada). | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência de estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência da distribuição de tráfego &quot;direcionada&quot;. |
+   | Método<br>de alocação de tráfego (aplica-se somente ao Público alvo [!UICONTROL automático] e ao [!UICONTROL Automated Personalization] atividade.) | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência de estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência da distribuição de tráfego &quot;direcionada&quot;. |
    |  | `experience.trafficAllocationType` | Retorna &quot;controle&quot; ou &quot;direcionado&quot;. |
 
    Os atributos do perfil do usuário e dos Atributos do cliente também são exibidos na lista.
