@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience
 description: Você pode criar públicos-alvo personalizados e salvá-los na biblioteca do Target para usar nas atividades. Agora é possível copiar um público-alvo existente, que pode ser editado para criar um público-alvo semelhante.
 title: Criar públicos no Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +60,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
    Públicos-alvo criados recentemente aparecem na lista após alguns segundos de processamento. Se o público-alvo não aparecer imediatamente na lista, tente procurar pelo público-alvo ou atualizar a lista.
 
-## Vídeo de treinamento: Criação de públicos-alvo Etiqueta ![Visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre a criação de públicos-alvo.
 
