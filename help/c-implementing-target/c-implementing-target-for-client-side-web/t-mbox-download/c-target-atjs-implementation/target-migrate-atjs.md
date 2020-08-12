@@ -1,11 +1,15 @@
 ---
-keywords: Target; at.js; migrar para at.js; preparação; auditar at.js; integrar at.js
+keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: A migração da mbox.js para a at.js é um processo simples.
 title: Como migrar da mbox.js para a at.js
-topic: Padrão
+feature: null
+topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +46,7 @@ Use os seguintes passos para migrar da [!DNL mbox.js] para a [!DNL at.js] e conf
    * mboxCookieDomain()
    * JavaScript extra
    * Outros locais
+
    A maioria dos [objetos e métodos da mbox.js](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (como `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` e outros) não são suportados. Abordagens alternadas podem ser possíveis para realizar o que você está tentando fazer.
 
    **Você tem a[!DNL mbox.js]em alguma de suas páginas da Web?**
@@ -58,6 +63,7 @@ Use os seguintes passos para migrar da [!DNL mbox.js] para a [!DNL at.js] e conf
    * AAM (frontend existente)
    * AEM
    * Data Workbench
+
    Algumas integrações existentes não são suportadas pela [!DNL at.js]. Para obter mais informações, consulte a página de [Integrações](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39).
 
    **Você integra o[!DNL Target]com alguma outra ferramenta de terceiros?**
@@ -67,6 +73,7 @@ Use os seguintes passos para migrar da [!DNL mbox.js] para a [!DNL at.js] e conf
    * Demandbase
    * Click-tale
    * Outras
+
    Essas integrações podem precisar de ajustes para funcionar com a [!DNL at.js]. Para obter mais informações, consulte a página de [Integrações](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39).
 
    **Você usa um gerenciador de tags?**
@@ -75,6 +82,7 @@ Use os seguintes passos para migrar da [!DNL mbox.js] para a [!DNL at.js] e conf
    * Ensighten
    * Tealium
    * Signal/BrightTag
+
    Para obter mais informações, consulte [Integrações da at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39).
 
    >[!NOTE]
@@ -104,7 +112,7 @@ Nesses casos, seletores de elementos podem começar com algo como
 
    e foram criados com a expectativa de que [!DNL mbox.js] adicionou um elemento extra `<div>` à parte superior da página. Como [!DNL at.js] não adiciona um elemento `<div>` à parte superior da página, esse seletor não funcionaria mais com [!DNL at.js].
 
-   Esse problema pode ser corrigido ao recriar a atividade no VEC no URL usando a [!DNL at.js]ou atualizando manualmente o seletor usando a opção **[!UICONTROL &lt;/&gt; Código]** &gt; **[!UICONTROL Modificações]** no VEC.
+   Este problema pode ser corrigido ao recriar a atividade no VEC no URL usando a [!DNL at.js] ou atualizando manualmente o seletor usando a opção **[!UICONTROL &lt;/> Código]** > **[!UICONTROL Modificações]** no VEC.
 
    Para solucionar esse problema, você deve subtrair 1 do número nth-of-type no primeiro elemento DIV após BODY. No exemplo acima o código editado seria:
 
@@ -114,4 +122,4 @@ Nesses casos, seletores de elementos podem começar com algo como
 
    Para mais informações sobre como usar o editor de código para fazer isso, consulte  [Editor de códigos](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas. Para obter mais informações, consulte "Considerações assíncronas" em  [Limitações da at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas. Para obter mais informações, consulte &quot;Considerações assíncronas&quot; em  [Limitações da at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
