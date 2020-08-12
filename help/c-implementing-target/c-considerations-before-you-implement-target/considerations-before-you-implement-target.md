@@ -2,14 +2,15 @@
 keywords: implement;implementing
 description: Considerações que você deve fazer antes de implementar o Adobe Target.
 title: Antes da implementação
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +32,4 @@ Esta seção inclui informações para desenvolvedores, específicas à sua impl
 - [Navegadores compatíveis](supported-browsers.md)
 - [Alterações na criptografia do TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME e Adobe Target](implement-cname-support-in-target.md)
-- [Nós de borda de Público alvo permitidos](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Nós de borda permitidos no Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
