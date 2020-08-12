@@ -2,9 +2,13 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Crie públicos-alvo no Adobe Target para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
 title: Fontes de tráfego de direcionamento no Adobe Target
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +36,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
    * Página de aterrissagem de referência: URL
    * Página de aterrissagem de referência: domínio
    * Página de aterrissagem de referência: consulta
+
    Dependendo da sua seleção, talvez seja necessário fornecer informações adicionais (avaliador e/ou valores).
 
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
@@ -39,7 +44,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 
 Você pode direcionar usuários que são referenciados para o seu site por meio de um mecanismo de pesquisa ou uma página de aterrissagem específica.
 
-## Vídeo de treinamento: Criação de públicos-alvo Etiqueta ![Visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
