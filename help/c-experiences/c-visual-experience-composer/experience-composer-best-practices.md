@@ -2,10 +2,11 @@
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Também há outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC).
 title: Práticas recomendadas e limitações do Visual Experience Composer
+feature: null
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -37,7 +38,7 @@ Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria 
 
 **Você pode lista de permissões determinados endereços IP se o Visual Experience Composer aprimorado não for carregado em páginas seguras do site.**
 
-Problemas ao carregar o Visual Experience Composer aprimorado podem ser resolvidos ao incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os Visitantes do site não precisam desses endereços IP incluído na lista de permissões.
+Problemas ao carregar o Visual Experience Composer aprimorado podem ser resolvidos ao incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do site não precisam desses endereços IP incluir na lista de permissões.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92, and 54.204.197.253
 
