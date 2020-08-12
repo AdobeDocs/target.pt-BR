@@ -1,11 +1,12 @@
 ---
 description: Use esta opção quando quiser direcionar o visitante para uma página diferente em vez de mostrar o conteúdo na mesma página.
 title: Redirecionar para um URL
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
