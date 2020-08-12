@@ -1,10 +1,14 @@
 ---
-keywords: Definição de metas;filtro de público-alvo;públicos;filtro
-description: Os filtros de público-alvo no Adobe Target (ou públicos-alvo) são grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
-title: Filtros de público-alvo para relatórios no Adobe Target
+keywords: Targeting;audience filter;audiences;filter
+description: Filtros de audiência no Adobe Target (ou audiência) são grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
+title: Filtros de audiência para relatórios no Adobe Target
+feature: null
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '482'
+ht-degree: 80%
 
 ---
 
@@ -19,11 +23,11 @@ Por exemplo, visitantes que chegam à sua página a partir de um certo mecanismo
 
 Ao planejar o uso de filtros de público-alvo para uma atividade, considere as seguintes diretrizes:
 
-* **Os visitantes podem estar em diversos públicos-alvo.** Se houver dois públicos-alvo configurados (por exemplo, "novos visitantes" e "visitantes do Google") e uma pessoa atender a ambos os critérios, esse visitante será contado e rastreado em ambos os públicos-alvo. Como resultado, a soma dos visitantes nos públicos-alvo não corresponde ao número de visitantes em uma campanha.
-* **Configure públicos antes de iniciar a atividade.** Os dados de público-alvo não podem ser recuperados de forma retroativa. Se você não configurar os filtros de público-alvo antes de começar a atividade e decidir usá-los depois que a atividade já estiver em execução por algum tempo, você não coletará os dados do tempo que já passou.
+* **Os visitantes podem estar em diversos públicos-alvo.** Se houver duas audiências configuradas (por exemplo, &quot;novos visitantes&quot; e &quot;visitantes do Google&quot;) e uma pessoa atender a ambos os critérios, esse visitante será contado e rastreado em ambas as audiências. Como resultado, a soma dos visitantes nos públicos-alvo não corresponde ao número de visitantes em uma campanha.
+* **Configure o audiência antes de iniciar a atividade.** Os dados de público-alvo não podem ser recuperados de forma retroativa. Se você não configurar os filtros de público-alvo antes de começar a atividade e decidir usá-los depois que a atividade já estiver em execução por algum tempo, você não coletará os dados do tempo que já passou.
 * **Comece com dois a quatro públicos-alvo.** Concentre-se nas informações básicas como fonte de tráfego.
 * **Renomeie os públicos-alvo, conforme necessário.** É possível renomear um público-alvo sem afetar os dados para fazer com que o nome do público-alvo seja mais significativo para os resultados coletados, mesmo que a atividade esteja ativa.
-* **Insira valores precisos.** Os valores de filtros de público-alvo distinguem maiúsculas de minúsculas. Por exemplo, se você estiver utilizando um público-alvo que filtre por cidades, você deve utilizar uma condição "OU" para incluir possíveis variações de digitação e maiúsculas de minúsculas como "Vienna," "vienna," "viena" e "Viena".
+* **Insira valores precisos.** Os valores de filtros de público-alvo distinguem maiúsculas de minúsculas. Por exemplo, se você estiver utilizando um público-alvo que filtre por cidades, você deve utilizar uma condição &quot;OU&quot; para incluir possíveis variações de digitação e maiúsculas de minúsculas como &quot;Vienna,&quot; &quot;vienna,&quot; &quot;viena&quot; e &quot;Viena&quot;.
 * **Os públicos-alvo criados na lista de segmentos são reutilizáveis.** Os públicos-alvo criados como parte de uma atividade não podem ser reutilizados.
 
 As seções a seguir fornecem mais informações sobre a configuração e o relatório sobre públicos-alvo:
