@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Determine um vencedor em uma atividade de Alocação automática A/B exibindo indicadores na interface do usuário do Target.
 title: Determinar um vencedor
+feature: null
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 49%
@@ -49,7 +50,7 @@ Testes A/B normais calculam a confiança com base nos valores de p. A Alocação
 
 >[!IMPORTANT]
 >
->Público alvo mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre basear-se nos resultados da calculadora [de tamanho da](https://docs.adobe.com/content/target-microsite/testcalculator.html)amostra de Adobe Target. O Público alvo não considera as taxas de conversão básicas de um site e outros aspectos importantes que são inseridos na calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte Calculadora [de tamanho de](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)amostra.
+>Público alvo mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre ser baseada nos resultados da calculadora [de tamanho da](https://docs.adobe.com/content/target-microsite/testcalculator.html)amostra da Adobe Target. O público alvo não considera as taxas de conversão básicas de um site e outros aspectos importantes que são inseridos na calculadora para determinar a duração da atividade. Como resultado, o Público alvo pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte Calculadora [de tamanho de](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)amostra.
 
 ## Entenda o relatórios de incentivo e confiança nas atividades de autoalocação {#lift-confidence}
 
