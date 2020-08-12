@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: Utilize o Redirecionador de forma similar a uma mbox em seus testes.
 title: Trabalhar com redirecionadores
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -59,10 +60,10 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
       >[!IMPORTANT]
       >
-      >Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O Público alvo usa hosts para lista de permissões domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) nos *hosts*.
+      >Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O público alvo usa hosts para lista de permissões domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) nos *hosts*.
 
 1. Valide o redirecionador.
-   1. *Práticas* recomendadas de segurança: Verifique se o domínio usado no Redirecionador está incluído na lista de permissões, conforme indicado acima. Se você usar um domínio não incluído na lista de permissões, a Adobe bloqueará quaisquer chamadas para esse domínio para impedir que atores mal-intencionados usem o Redirecionador para domínios potencialmente mal-intencionados.
+   1. *Práticas* recomendadas de segurança: Verifique se o domínio usado no Redirecionador está incluir na lista de permissões, conforme indicado acima. Se você usar um domínio que não é incluir na lista de permissões, o Adobe bloqueará quaisquer chamadas para esse domínio para impedir que atores mal-intencionados usem o Redirecionador para domínios potencialmente mal-intencionados.
    1. Insira o URL do redirecionador no navegador e atualize a página.
    1. Efetue logon em sua conta, atualize a lista de mbox e verifique se o novo redirecionador está indicado como uma mbox.
 1. Se você vai testar destinos diferentes para um anúncio, crie [Ofertas de redirecionamento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) para cada versão.
