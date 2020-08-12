@@ -2,9 +2,13 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Use sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do Recommendations.
 title: Criar sequências de critérios
+feature: null
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +90,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de crité
 
    Para obter mais informações sobre as opções de lógica de recomendação, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vídeo de treinamento: criar critérios no Recommendations (12:33) Etiqueta ![do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: criar critérios no Recommendations (12:33) ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
