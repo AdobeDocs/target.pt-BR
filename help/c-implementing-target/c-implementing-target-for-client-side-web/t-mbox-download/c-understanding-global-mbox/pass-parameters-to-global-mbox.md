@@ -1,12 +1,16 @@
 ---
-keywords: parâmetros de mbox global; targetPageParams; sequência de consulta; matriz; json; dtm; dynamic tag management
+keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: A função targetPageParams do JavaScript é usada para passar parâmetros para o mbox global. Isso é necessário em qualquer situação na qual informações adicionais de direcionamento/contexto devam ser passadas para o Target.
 title: Envio de parâmetros para uma mbox global
-subtopic: Introdução
-topic: Padrão
+feature: null
+subtopic: Getting Started
+topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +44,7 @@ p1=v1&p2=v2&p3=hello%20world
 ```
 
 * Nome: `targetPageParams`
-* Valor de retorno: a "&amp;" parâmetros delimitados, com valores de parâmetro codificados por URL.
+* Valor de retorno: a &quot;&amp;&quot; parâmetros delimitados, com valores de parâmetro codificados por URL.
 
    Exemplo:
 
@@ -106,7 +110,7 @@ JSON é um modo poderoso de enviar os parâmetros. O Target usa as chaves de obj
 }; 
 ```
 
-Os valores não precisam ser codificados por URL. Por exemplo, "San Francisco" não precisa de espaço para ser codificado. Um espaço é suficiente.
+Os valores não precisam ser codificados por URL. Por exemplo, &quot;San Francisco&quot; não precisa de espaço para ser codificado. Um espaço é suficiente.
 
 Este exemplo envia os seguintes dados para a borda do mbox:
 
