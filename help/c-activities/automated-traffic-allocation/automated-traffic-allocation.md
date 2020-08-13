@@ -2,11 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 title: Alocação automática
-feature: auto-allocate
+feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
