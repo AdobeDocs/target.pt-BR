@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: Informações sobre como criar regras de inclusão no Adobe Target Recommendations para critérios e promoções e adicionar regras de filtragem dinâmicas ou estáticas adicionais para obter melhores resultados.
 title: Usar regras de inclusão dinâmicas e estáticas no Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 75%
@@ -41,7 +41,7 @@ A tabela a seguir lista os tipos de opções de filtragem para os critérios e a
 |--- |--- |--- |
 | **Filtragem dinâmica** | **Correspondência de atributos de entidade:** filtre dinamicamente comparando um conjunto de possíveis itens de recomendações a um item específico com o qual os usuários interagiram.<br>Por exemplo, recomende somente itens que correspondam à marca do item atual. | é igual a<br>não é igual a<br>está entre<br>contém<br>não contém<br>começa com<br>termina com<br>valor está presente<br>valor não está presente<br>é maior que ou igual a<br>é menor que ou igual a |
 |  | **Correspondência de atributos de perfil:** filtre dinamicamente comparando os itens (entidades) com um valor no perfil do usuário.<br>Por exemplo, recomende somente itens que correspondam à marca favorita do visitante. | é igual a<br> não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>é maior que ou igual a<br>é menor que ou igual a<br>está entre |
-|  | **Correspondência de parâmetros:** filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).<br>Por exemplo, recomende somente o conteúdo que corresponda ao parâmetro de página do &quot;setor&quot;.<br>**Importante:**se a atividade foi criada antes de 31 de outubro de 2016, ocorrerá falha na sua entrega se o filtro &quot;Correspondência de parâmetros&quot; for usado. Para resolver este problema:<ul><li>Crie uma nova atividade e adicione nela seus critérios.</li><li>Use um critério que não contenha o filtro &quot;Correspondência de parâmetros&quot;.</li><li>Remova o filtro &quot;Correspondência de parâmetros&quot; de seus critérios.</li></ul> | igual a<br>não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>é maior que ou igual a<br>é menor que ou igual a<br>está entre |
+|  | **Correspondência de parâmetros:** filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).<br>Por exemplo, recomende somente o conteúdo que corresponda ao parâmetro de página do &quot;setor&quot;.<br>**Importante:** se a atividade foi criada antes de 31 de outubro de 2016, ocorrerá falha na sua entrega se o filtro &quot;Correspondência de parâmetros&quot; for usado. Para resolver este problema:<ul><li>Crie uma nova atividade e adicione nela seus critérios.</li><li>Use um critério que não contenha o filtro &quot;Correspondência de parâmetros&quot;.</li><li>Remova o filtro &quot;Correspondência de parâmetros&quot; de seus critérios.</li></ul> | igual a<br>não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>é maior que ou igual a<br>é menor que ou igual a<br>está entre |
 | **Filtrar por valor** | **Filtro estático:** insira manualmente um ou mais valores estáticos para filtrar.<br>Por exemplo, apenas recomende um conteúdo com uma classificação MPAA de &quot;G&quot; ou &quot;PG&quot;. | é igual a<br>não é igual a<br>contém<br>não contém<br>começa com<br>termina com<br>valor está presente<br>valor não está presente<br>é maior que ou igual a<br>é menor que ou igual a |
 
 >[!NOTE]
