@@ -1,11 +1,11 @@
 ---
 description: Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O Avaliador de tráfego usa estatísticas sobre a página e a quantidade de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para que o teste seja bem-sucedido.
 title: Estimar o tráfego necessário para um teste bem-sucedido
-feature: null
+feature: mvt
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
