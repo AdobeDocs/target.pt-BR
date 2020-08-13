@@ -2,10 +2,10 @@
 keywords: Recommendations;offer;preview;launch
 description: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
 title: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
-feature: null
+feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 19%
@@ -21,7 +21,7 @@ Depois de criar a atividade [!UICONTROL Recommendations], Teste A/B ou Definiç�
 
 Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
 
-Você pode verificar se o algoritmo terminou de ser executado no diagrama de visão geral da [!UICONTROL Atividade] , onde o status do critério está listado. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity&#39;s [!UICONTROL Overview] page:
+Você pode verificar se o algoritmo terminou de ser executado no diagrama de visão geral da [!UICONTROL Atividade] , onde o status do critério é listado. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity&#39;s [!UICONTROL Overview] page:
 
 ![Página Visão geral da atividade Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
