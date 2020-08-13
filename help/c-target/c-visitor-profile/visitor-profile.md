@@ -2,12 +2,12 @@
 keywords: Overview and Reference
 description: Os perfis do visitante contêm informações sobre como os visitantes usam as páginas e outros locais de conteúdo otimizado
 title: Perfis do visitante
-feature: null
+feature: visitor profiles
 subtopic: Getting Started
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
