@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Critérios no Adobe Target Recommendations são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos de visitante.
 title: Critérios no Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quan
 
 | Critérios | Descrição |
 |--- |--- |
-| Itens/Mídia com atributos semelhantes | Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante.<br>**Observação:**Se você selecionar Itens/mídia com Atributos similares, você terá a opção de definir regras de similaridade de conteúdo. |
+| Itens/Mídia com atributos semelhantes | Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante.<br>**Observação:** Se você selecionar Itens/mídia com Atributos similares, você terá a opção de definir regras de similaridade de conteúdo. |
 | Pessoas que visualizaram isto, visualizaram aquilo | Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado. |
 | Pessoas que visualizaram isto, compraram aquilo | Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Este critério retorna outros produtos que pessoas compraram depois de ver este, o produto especificado não é incluído nos resultados. |
 | Pessoas que compraram isto, compraram aquilo | Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado. |
