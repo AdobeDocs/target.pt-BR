@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
 description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B no Adobe Target. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 title: Nove erros comuns em testes A/B e como evitá-los
-feature: null
+feature: ab
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
