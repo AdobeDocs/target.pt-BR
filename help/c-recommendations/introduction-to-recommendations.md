@@ -2,9 +2,9 @@
 keywords: Recommendations;intro;introduction;webinar;demo
 description: Introdução às atividades do Adobe Target Recommendations que exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base nas atividades anteriores do usuário ou em outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 title: Introdução às atividades do Recommendations no Adobe Target
-feature: null
+feature: recommendations general
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 96%
