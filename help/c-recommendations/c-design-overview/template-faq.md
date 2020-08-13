@@ -2,10 +2,10 @@
 keywords: recommendations;frequently asked questions;faq
 description: Lista de perguntas frequentes sobre os designs de recomendações.
 title: Perguntas e respostas sobre design
-feature: null
+feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
