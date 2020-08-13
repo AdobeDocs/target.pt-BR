@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.
 title: Teste A/B
-feature: null
+feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 98%
