@@ -2,11 +2,11 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: Esta página lista alterações importantes feitas na documentação do Adobe Target, ordenadas por versões.
 title: Alterações na documentação do produto Adobe Target.
-feature: null
+feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 31%
@@ -118,7 +118,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Abril de 10 | [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nova seção adicionada: &quot;Práticas recomendadas de implementação.&quot; |
 | Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | Abril de 2 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram adicionadas informações sobre como usar `user.header('x-forwarded-for')` as bordas AWS mais recentes para recuperar os endereços IP dos usuários. |
-|  | [Atualização do at.js 1.*x* para o at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adição da seguinte observação:<ul><li>Depois de instalar a biblioteca da ECID v4.3.0+ e o at.js 2.*x*, você poderá criar atividades que abrangem domínios exclusivos e rastrear usuários. É importante observar que essa funcionalidade funciona somente após a sessão expirar.</li></ul> |
+|  | [Atualização do at.js 1.*x* para o at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adição da seguinte observação:<ul><li>Depois de instalar a biblioteca da ECID v4.3.0+ e o at.js 2.*x*, você poderá criar atividades que abrangem domínios exclusivos e rastrear usuários. É importante observar que essa funcionalidade funciona somente após a sessão expirar.</li></ul> |
 | 30 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Adicionados problemas conhecidos que afetam as versões do at.js anteriores ao at.js 2.2.0. Esse problema fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas as seguintes informações aos detalhes da versão 2.2.0 do at.js:<ul><li>Correção de um problema que fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página.</li></ul> |
 | 25 de março | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas informações sobre as seguintes novas versões do at.js:<ul><li>at.js versão 2.3.0</li><li>at.js versão 1.8.1</li></ul> |
@@ -126,7 +126,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 24 de março | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Foram adicionadas informações sobre os impactos para o seguinte:<ul><li>Scripts de perfil com base em 3rdPartyID</li><li>URLs de QA/Pré-visualização em dispositivos iOS</li></ul> |
 | 20 de março | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Indicado que a versão do Target Standard/Premium 20.2.1 será 23 de março de 2020. |
 | 13 de março | [Limites](/help/r-troubleshooting-target/target-limits.md) | Número de &quot;Audiências reutilizáveis por conta&quot; atualizado. |
-| March  12 | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md#summit) | Foram adicionadas informações de registro para acesso gratuito à conferência online do Digital Summit. |
+| 12 de março | [Notas de versão (atuais)](/help/r-release-notes/release-notes.md#summit) | Foram adicionadas informações de registro para acesso gratuito à conferência online do Digital Summit. |
 | 9 de março | [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Foram adicionadas mais informações na seção &quot;Substituição do último octeto de endereços IP&quot;. |
 |  | [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Amostra de código atualizada em *Transmitir um parâmetro de vários valores em JavaScript*. |
 |  | [Atributos de entidade personalizados](/help/c-recommendations/c-products/custom-entity-attributes.md) | Adição de amostra de código em *Uso de APIs* em *Implementação de atributos* de vários valores. |
