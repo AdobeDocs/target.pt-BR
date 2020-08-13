@@ -2,10 +2,10 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Se você usar um modelo de página para oferecer estrutura para as páginas, ou se as páginas contiverem elementos semelhantes, esse recurso possibilitará o teste de variações em elementos de página estruturadas de forma semelhante.
 title: Incluir a mesma experiência em páginas semelhantes
-feature: null
+feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 96%
