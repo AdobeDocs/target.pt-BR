@@ -2,11 +2,11 @@
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: Os parâmetros personalizados são parâmetros de mbox. Se você passar algum parâmetro de mbox para mboxes, ou usar a função targetPageParams, esses parâmetros aparecerão aqui para uso em públicos-alvo.
 title: Parâmetros personalizados no Adobe Target
-feature: null
+feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
