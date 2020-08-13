@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: Os relatórios incluem vários pontos de dados e representações de visualização que ajudam você a entender os limites de aumento e o nível de confiança associados à sua atividade. Isso ajuda você a determinar um vencedor com mais precisão.
 title: Média de aumento, Limites de aumento e Intervalo de confiança
-feature: null
+feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 98%
