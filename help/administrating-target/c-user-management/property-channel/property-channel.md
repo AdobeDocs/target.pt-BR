@@ -2,11 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informações sobre como criar propriedades e usar a funcionalidade Propriedades e permissões, que permite aos administradores do Target criar espaços de trabalho separados (perfis de produto) no Target e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais com base nesses espaços de trabalho.
 title: Permissões de usuário empresarial
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 82%
@@ -28,9 +28,9 @@ As permissões do usuário corporativo são um meio de administração formal de
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]Clientes **: Se você visualizar a guia[!UICONTROL Usuários]([!UICONTROL Administração > Usuários]) (e não a guia[!UICONTROL Propriedades]), sua organização tem uma[!DNL Target Standard]licença.[!DNL Target Standard]Os clientes devem seguir as instruções em[Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md)para adicionar usuários e atribuir permissões no[!DNL Adobe Admin Console].
+* **[!DNL Target Standard]Clientes**: Se você visualizar a guia [!UICONTROL Usuários] ([!UICONTROL Administração > Usuários]) (e não a guia [!UICONTROL Propriedades] ), sua organização tem uma [!DNL Target Standard] licença. [!DNL Target Standard]Os clientes devem seguir as instruções em [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clientes **: Se você visualizar a guia[!UICONTROL Propriedades]([!UICONTROL Administração > Propriedades]) e a guia[!UICONTROL Usuários], sua organização tem uma[!DNL Target Premium]licença. Os clientes da[!DNL Target Premium]devem seguir as instruções neste artigo e em[Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clientes**: Se você visualizar a guia [!UICONTROL Propriedades] ([!UICONTROL Administração > Propriedades]) e a guia [!UICONTROL Usuários] , sua organização tem uma [!DNL Target Premium] licença. Os clientes da [!DNL Target Premium] devem seguir as instruções neste artigo e em [Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Antes de começar a usar permissões corporativas
 
