@@ -2,11 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: O Visual Experience Composer (VEC) para aplicativos de página única (SPAs) no Adobe Target permite que os profissionais de marketing criem testes e personalizem conteúdo em SPAs de forma autônoma, sem dependências de desenvolvimento contínuas. É possível usar o VEC para criar atividades nos frameworks mais populares, como o React e o Angular.
 title: Aplicativo de página única (SPA) no Visual Experience Composer
-feature: null
+feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -80,7 +80,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    | --- | --- | --- | --- | --- |
    | viewName | String | Sim | 1. Sem espaços à direita.<br>2. Não pode estar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com &#39;`/`&#39;. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, &quot;home&quot; e &quot;`/home`&quot; são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome Exibição é mostrado no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
    | opções | Objeto | Não |  |  |
-   | opções > página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE **: quando`page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
+   | opções > página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE**: quando `page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
 
    Agora vamos analisar alguns exemplos de casos de uso de como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
@@ -209,8 +209,8 @@ A seguinte tabela descreve cada ação:
 | --- | --- |
 | Informações | Exibe os detalhes da ação. |
 | Editar | Permite editar as propriedades da ação diretamente. |
-| Clonar | Clona a ação a uma ou mais Exibições que existem no painel [!UICONTROL Modificações] ou a uma ou mais Exibições que você buscou e nas quais navegou no VEC. A ação não precisa existir necessariamente no painel [!UICONTROL Modificações] .<br>**Observação **: após a realização de uma operação de Clonar, é necessário navegar para a Exibição no VEC via[!UICONTROL Procurar]para verificar se a ação clonada foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro. |
-| Mover | Move a ação para um Evento de carregamento de página ou qualquer outra Exibição que já existe no painel de modificações.<br>[!UICONTROL Evento de carregamento de página] - qualquer ação correspondente ao evento de carregamento de página é aplicada no carregamento inicial da página no aplicativo da Web.<br>**Observação **: após a realização de uma operação de Mover, é necessário navegar para a Exibição no VEC via Procurar para ver se a movimentação foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro |
+| Clonar | Clona a ação a uma ou mais Exibições que existem no painel [!UICONTROL Modificações] ou a uma ou mais Exibições que você buscou e nas quais navegou no VEC. A ação não precisa existir necessariamente no painel [!UICONTROL Modificações] .<br>**Observação**: após a realização de uma operação de Clonar, é necessário navegar para a Exibição no VEC via [!UICONTROL Procurar] para verificar se a ação clonada foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro. |
+| Mover | Move a ação para um Evento de carregamento de página ou qualquer outra Exibição que já existe no painel de modificações.<br>[!UICONTROL Evento de carregamento de página] - qualquer ação correspondente ao evento de carregamento de página é aplicada no carregamento inicial da página no aplicativo da Web.<br>**Observação**: após a realização de uma operação de Mover, é necessário navegar para a Exibição no VEC via Procurar para ver se a movimentação foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro |
 | Excluir | Exclui a ação. |
 
 >[!NOTE]
