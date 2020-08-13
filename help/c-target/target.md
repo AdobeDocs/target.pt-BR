@@ -2,10 +2,10 @@
 keywords: Targeting;audiences;percentage target
 description: Use os públicos no Adobe Target para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
 title: Públicos no Adobe Target
-feature: null
+feature: audiences
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 99%
