@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
 title: Criar públicos-alvo no Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Os detalhes a seguir estão disponíveis para esses tipos de público-alvo impor
 | Tipo de público-alvo | Detalhes |
 |--- |--- |
 | Público-alvo de dispositivos móveis | Nome de comercialização, fornecedor e modelo.<br>O operador `matches | does not match` é exibido em vez do `equals | does not equal`<br>![Público de dispositivos móveis importado](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Público-alvo com comportamento de visitante | **user.categoryAffinity:** `categoryAffinity` com o parâmetro `FAVORITE`.<br>![Afinidade da categoria importada](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Monitoramento:**serviço de monitoramento é igual a verdadeiro.<br>**Sem serviço de monitoramento:** serviço de monitoramento igual a falso.<br>![Monitoramento importado](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Público-alvo com comportamento de visitante | **user.categoryAffinity:** `categoryAffinity` com o parâmetro `FAVORITE`.<br>![Afinidade da categoria importada ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Monitoramento:** serviço de monitoramento é igual a verdadeiro.<br>**Sem serviço de monitoramento:** serviço de monitoramento igual a falso.<br>![Monitoramento importado](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Públicos-alvo que usam o operador NOT | **Regra única**: o Target exibe o público-alvo no formato `[All Visitor AND [NOT [rule]`. A regra única NÃO é exibida com E com o público-alvo de `AllVisitor`.<br>![Público não importado](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Tenha os seguintes pontos em mente ao trabalhar com públicos-alvo importados:
