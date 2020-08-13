@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
 description: Crie públicos somente de atividades dentro do fluxo de trabalho orientado de três etapas do Adobe Target ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na Biblioteca de público para uso em outras atividades.
 title: Criar um público-alvo com apenas uma atividade  no Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
