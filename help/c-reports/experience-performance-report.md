@@ -2,10 +2,10 @@
 keywords: multivariate test;mvt;experience performance report
 description: O relatório de desempenho da experiência mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
 title: Relatório de desempenho da experiência (MVT)
-feature: null
+feature: reports
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 99%
