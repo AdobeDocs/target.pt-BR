@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Informações sobre a função adobe.target.getOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
 title: Informações sobre a função adobe.target.getOffers() da biblioteca at.js de JavaScript do Adobe Target.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
@@ -40,7 +40,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | Solicitação > id > thirdPartyId | Não | Tamanho máximo = 128 |  |  |
 | Request > experienceCloud | Não |  |  |
 | Request > experienceCloud > analytics | Não |  | Integração do Adobe Analytics |
-| Request > experienceCloud > analytics > logging | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>AppMeasurement.js</li></ul> | Os seguintes valores são suportados:<br>**client_side **: quando especificado, uma carga de análise será retornada ao chamador que deve ser usada para enviar ao Adobe Analytics por meio da API de inserção de dados.<br>**server_side**: esse é o valor padrão em que o back-end do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
+| Request > experienceCloud > analytics > logging | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>AppMeasurement.js</li></ul> | Os seguintes valores são suportados:<br>**client_side**: quando especificado, uma carga de análise será retornada ao chamador que deve ser usada para enviar ao Adobe Analytics por meio da API de inserção de dados.<br>**server_side**: esse é o valor padrão em que o back-end do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
 | Solicitação > pré-busca | Não |  |  |
 | Solicitação > pré-busca > exibições | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome`<=` 128<br>Tamanho do valor `<=` 5000<br>O nome não deve começar com &quot;perfil&quot;<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação > pré-busca > exibições > profileParameters | Não | Contagem máxima 50<br>Não deixar o nome em branco<br>Tamanho do nome `<=` 128<br>Tamanho do valor `<=` 5000 <br>O nome não deve começar com &quot;perfil&quot; | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
