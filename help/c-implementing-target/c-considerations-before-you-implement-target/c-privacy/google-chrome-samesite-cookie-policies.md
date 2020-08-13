@@ -2,12 +2,12 @@
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Informações sobre o Adobe Target e o padrão SameSite IETF introduzido com a versão 80 do Google Chrome.
 title: Políticas de cookies do mesmo site da Adobe Target e do Google
-feature: null
+feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 8%
@@ -82,7 +82,7 @@ However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] 
 
 ## O que você precisa fazer?
 
-Para entender o que você precisa fazer para ter [!DNL Target] continuado a trabalhar para usuários do Google Chrome 80+, consulte a tabela abaixo, da qual você verá as seguintes colunas:
+Para entender o que você precisa fazer para [!DNL Target] continuar trabalhando para usuários do Google Chrome 80+, consulte a tabela abaixo, da qual você verá as seguintes colunas:
 
 * **Biblioteca** do JavaScript do público alvo: Se você estiver usando mbox.js, at.js 1.*x* ou a at.js 2.*x* em seus sites.
 * **SameSite por cookies padrão = Enabled**: Se os usuários tiverem &quot;SameSite by default cookies&quot; ativado, como isso afeta você e há algo que você precisa fazer para [!DNL Target] continuar trabalhando.
