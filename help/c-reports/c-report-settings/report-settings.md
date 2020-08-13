@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informações para ajudar a definir os elementos que você quer que apareçam em seu relatório. As definições de relatório podem ser salvas para uso posterior.
 title: Configurações do relatório
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 84%
 
 ---
 
@@ -25,9 +29,9 @@ Você também pode configurar um relatório de atividade individual, como deseja
 
 ### Criar uma predefinição ou predefinição padrão
 
-1. Configure o relatório da atividade conforme desejado.
+1. Configure o relatório de atividades conforme desejado.
 
-   As configurações disponíveis, incluindo métricas, intervalos de datas, públicos-alvo, configurações avançadas e assim por diante, são explicadas abaixo.
+   As configurações disponíveis, incluindo métricas, intervalos de datas, audiências, configurações avançadas e assim por diante, são explicadas abaixo.
 
 1. Perto de **[!UICONTROL Predefinição do Target]**, clique no ícone de três elipses verticais > **[!UICONTROL Salvar como novo]**.
 
@@ -153,16 +157,16 @@ Clique em no ícone de Atualização para atualizar a tabela do relatório e a e
 
 Clique no ícone de Mais opções (três elipses verticais) para acessar as opções [!UICONTROL Editar atividade] e [!UICONTROL Exibir URLs de experiência].
 
-## Opções de exibição
+## Opções de visualização
 
-É possível exibir o relatório em vários formatos, dependendo do tipo de atividade. Selecione a opção desejada.
+Você pode visualização o relatório em vários formatos, dependendo do tipo de atividade. Selecione a opção desejada.
 
-![Exibir ícones de opções](/help/c-reports/c-report-settings/assets/view-options.png)
+![Ícones de opções de visualização](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **Exibição** da tabela: Clique no ícone Exibição **[!UICONTROL de]** tabela para exibir o relatório como uma tabela.
-* **Exibição** do gráfico: Clique no ícone Visualização **[!UICONTROL do]** gráfico para exibir o relatório como um gráfico.
-* **Segmentos** automatizados:(Disponível somente para atividades de Personalização automatizada (AP) e AutoTarget (AT).) Clique no ícone **Segmentos automatizados para exibir o relatório [de segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados.
-* **Atributos** importantes: (Disponível somente para atividades de Personalização automatizada (AP) e AutoTarget (AT).) Clique no ícone **Atributos importantes para exibir o relatório [Atributos](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importantes.
+* **Visualização** da tabela: Clique no ícone Visualização **[!UICONTROL da]** tabela para visualização do relatório como uma tabela.
+* **Visualização** do gráfico: Clique no ícone Visualização **[!UICONTROL do]** gráfico para visualização do relatório como gráfico.
+* **Segmentos** automatizados:(Disponível somente para atividades Automated Personalization (AP) e Público alvo automático (AT).) Clique no ícone **Segmentos automatizados para visualização do relatório [Segmentos](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizados.
+* **Atributos** importantes: (Disponível somente para atividades Automated Personalization (AP) e Público alvo automático (AT).) Clique no ícone **Atributos importantes para visualização no relatório [Atributos](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importantes.
 
 ## Média de aumento, Limites de aumento e Intervalo de confiança {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -193,7 +197,7 @@ Na ilustração a seguir, somente as experiências Padrão, Centro-este e Total 
 
 (Disponível somente ao exibir o relatório em gráficos)
 
-&quot;Média em execução&quot; reflete as conversões cumulativas (do início da janela de relatórios até a data representada no gráfico) divididas pelos visitantes cumulativos.
+&quot;Média em execução&quot; reflete as conversões cumulativas (do start da janela do relatórios até a data representada no gráfico) divididas pelos visitantes cumulativos.
 
 Selecione a exibição de gráfico desejada:
 
@@ -207,7 +211,7 @@ Selecione a exibição de gráfico desejada:
 
 >[!NOTE]
 >
->O nome dessa lista suspensa varia dependendo da exibição selecionada, mas será uma das exibições listadas acima.
+>O nome dessa lista suspensa varia dependendo da visualização selecionada, mas será uma das visualizações listadas acima.
 
 ## Metodologia de contagem {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -235,10 +239,10 @@ Há quatro modos para atividades de direcionamento automático: Controle diário
 
 A seguir, a ordem padrão na qual o gráfico é criado:
 
-* **Testes A/B (incluindo Autoalocação e personalização automatizada)**: Ordem de criação da experiência, em ordem decrescente.
+* **Testes A/B (incluindo Autoalocação e Automated Personalization)**: Ordem de criação da experiência, em ordem decrescente.
 * **Direcionamento de experiência (XT)**: Ordem das experiências na atividade.
 * **Teste multivariado (MVT)**: Alfabético pelo nome da experiência.
-* **Recomendações**: Ordem de criação da experiência, em ordem decrescente.
+* **Recommendations**: Ordem de criação da experiência, em ordem decrescente.
 
 À medida que usa as opções de Metodologia de contagem, considere os seguintes avisos:
 
