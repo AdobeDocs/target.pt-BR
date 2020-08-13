@@ -2,11 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Os atributos do perfil são parâmetros específicos do visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades do Adobe Target.
 title: Atributos de perfil no Adobe Target
-feature: null
+feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -20,7 +20,7 @@ Os atributos do perfil são parâmetros específicos de um visitante. Estes atri
 
 Um perfil de usuário contém informações demográficas e comportamentais de um visitante de página da Web, como idade, gênero, produtos comprados, última visita e assim por diante, o Público alvo usa para personalizar o conteúdo que serve ao visitante.
 
-As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
+À medida que um visitante navega em seu site, ou quando o visitante retorna para outra sessão, os atributos salvos do perfil no perfil podem ser usados para público alvo de conteúdo ou registro de informações para filtragem de segmentos.
 
 Para configurar atributos de perfil:
 
@@ -36,7 +36,7 @@ Para configurar atributos de perfil:
 
    | Tipo do parâmetro | Descrição |
    |--- |--- |
-   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Observação **: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte[Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Observação**: o Target tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o Target, é possível fazer isso usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na documentação da API do Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
    | Perfil | Definido diretamente com um trecho de código JavaScript. Eles podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
