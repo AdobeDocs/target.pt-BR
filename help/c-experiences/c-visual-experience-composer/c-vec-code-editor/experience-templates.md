@@ -2,12 +2,12 @@
 keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
 description: Informações sobre Modelos de experiência do Adobe Target para uso no código personalizado. Os Modelos de experiência do Target são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso de profissionais de marketing comuns.
 title: Modelos de experiência
-feature: null
+feature: vec
 subtopic: Code Editor
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 87%
