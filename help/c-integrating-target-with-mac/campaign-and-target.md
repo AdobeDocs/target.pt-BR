@@ -2,11 +2,11 @@
 keywords: Overview and Reference
 description: Use o Target com o Adobe Campaign para otimizar o conteúdo de email.
 title: Integração do Target ao Adobe Campaign
-feature: null
+feature: campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 51%
