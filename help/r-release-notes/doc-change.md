@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1894'
 ht-degree: 31%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 14 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Foi adicionado um problema conhecido sobre o controle de qualidade nas atividades Recommendations. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Foi adicionado um texto indicando que se você estiver usando `serverState` e usando `<script>` tags no conteúdo retornado, verifique se o conteúdo HTML usa `<\/script>` em vez de `</script>`. |
 | 12 de agosto | [Entenda a interface do Público alvo](/help/c-intro/understand-the-target-ui.md) | Novo tópico. |
 |  | [Visão geral da API Adobe Target](/help/api/api-overview.md) | Novo tópico. |
 | 10 de agosto | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Foi adicionado um texto indicando que o tamanho do cabeçalho do cookie aumentará ao usar CNAME. |
