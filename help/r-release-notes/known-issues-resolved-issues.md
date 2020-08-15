@@ -5,9 +5,9 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no d
 ### Links de visualização de QA da atividade {#preview}
 
 Os links de [visualização de QA da atividade](/help/c-activities/c-activity-qa/activity-qa.md) para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Para impedir que isso continue acontecendo, arquive as atividades salvas que não são mais usadas ativamente. (TNT-32697)
+
+### Modo de QA para Recommendations atividade
+
+Um problema conhecido impede a pré-visualização se os critérios usados na atividade forem baseados em itens ou em categorias. (TNT-37455)
 
 ### Ofertas de redirecionamento {#redirect}
 
