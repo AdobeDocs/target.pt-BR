@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 40%
+source-wordcount: '1686'
+ht-degree: 39%
 
 ---
 
@@ -180,7 +180,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Booleano
 * **Valor** padrão: true
-* **Descrição**: Quando habilitado, recupere automaticamente visualizações que devem ser retornadas no carregamento da página. As visualizações são suportadas em at.js 2.somente *x.*
+* **Descrição**: Quando habilitado, recupere automaticamente visualizações que devem ser retornadas ao carregar a página. As visualizações são suportadas em at.js 2.somente *x.*
 
 ### visitorApiTimeout
 
@@ -476,6 +476,8 @@ Considere o seguinte ao usar `serverState`:
    Para ativar essas configurações, ative a alternância em Administração **[UICONTROL > Implementação > Editar > Carregamento de página ativado]**.
 
    ![Configurações Ativadas para Carregamento de Página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+* Se você estiver usando `serverState` e usando `<script>` tags no conteúdo retornado, verifique se o conteúdo HTML usa `<\/script>` em vez de `</script>`. Se você usar `</script>`, o navegador interpreta `</script>` como o fim em um SCRIPT em linha e pode quebrar a página HTML.
 
 ### Recursos adicionais
 
