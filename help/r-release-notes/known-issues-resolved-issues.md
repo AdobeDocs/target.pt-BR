@@ -5,7 +5,7 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
 workflow-type: tm+mt
 source-wordcount: '3403'
 ht-degree: 88%
@@ -54,10 +54,6 @@ Os problemas a seguir são problemas conhecidos com ofertas redirecionadas:
 
 * Para os sites de Aplicativo de página única (SPA), cancelar o carregamento não permite editar ações no painel [!UICONTROL Modificações].
 
-### Suporte a permissões empresariais nas APIs do Target {#api}
-
-As ofertas de código criadas na interface do usuário do Target na biblioteca de ofertas podem ser exibidas no espaço de trabalho padrão se a lista de ofertas for obtida usando APIs GET. Esse problema será corrigido na primeira semana de março de 2019. Após essa correção, as ofertas de código serão exibidas no espaço de trabalho apropriado quando obtidas das APIs. Esse problema *não* afeta as ofertas criadas com as APIs. Por exemplo, as ofertas de código criadas nas APIs são exibidas no espaço de trabalho em que foram criadas, seja por meio de APIs GET ou da interface do usuário do Target.
-
 ### Recommendations
 
 A seguir, os problemas conhecidos com atividades de recomendações:
@@ -99,14 +95,6 @@ A seguir, os problemas conhecidos com at.js:
 
    **Solução alternativa**: configure at.js com a opção &quot;somente x&quot; ativada e transmita `mboxThirdPartyId` em chamadas para gerenciar usuários.
 
-### Implementação: criação automática de mbox global
-
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
-
-Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da Mbox global] é definido como &quot;true&quot; no arquivo mbox.js baixado e no back-end do [!DNL Target], mas continuará sendo exibido como &quot;false&quot; na página [!UICONTROL Implementação] na IU até que a página seja atualizada (depois da atualização da página, o status será &quot;true&quot;).
-
-at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
-
 ### Métricas de sucesso
 
 Métrica de sucesso com opção avançada &quot;Como a contagem será incrementada&quot; definida como &quot;a cada impressão&quot; ou &quot;a cada impressão (exceto atualizações)&quot; não pode ser usada como uma métrica de sucesso da qual dependeria outra métrica.
@@ -146,6 +134,18 @@ Este problema foi corrigido no Target versão 19.7.1.
 A biblioteca mbox.js não é compatível com linguagens de modelos do lado do cliente, como Handlebars e Mustache. A biblioteca at.js *oferece* suporte a esses idiomas.
 
 **Observação:** a biblioteca mbox.js não será mais desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+
+### Implementação: criação automática de mbox global
+
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+
+Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da Mbox global] é definido como &quot;true&quot; no arquivo mbox.js baixado e no back-end do [!DNL Target], mas continuará sendo exibido como &quot;false&quot; na página [!UICONTROL Implementação] na IU até que a página seja atualizada (depois da atualização da página, o status será &quot;true&quot;).
+
+at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
+
+### Suporte a permissões empresariais nas APIs do Target {#api}
+
+As ofertas de código criadas na interface do usuário do Target na biblioteca de ofertas podem ser exibidas no espaço de trabalho padrão se a lista de ofertas for obtida usando APIs GET. Esse problema será corrigido na primeira semana de março de 2019. Após essa correção, as ofertas de código serão exibidas no espaço de trabalho apropriado quando obtidas das APIs. Esse problema *não* afeta as ofertas criadas com as APIs. Por exemplo, as ofertas de código criadas nas APIs são exibidas no espaço de trabalho em que foram criadas, seja por meio de APIs GET ou da interface do usuário do Target.
 
 ### Relatórios e pedidos extremos
 
