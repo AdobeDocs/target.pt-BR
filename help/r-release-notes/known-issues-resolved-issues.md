@@ -5,9 +5,9 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 ### Delivery de página {#page-delivery}
 
-Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no delivery [da](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esse é um problema superficial e não afeta a criação de definição de públicos e o delivery de ofertas. (TGT-35916)
-
-### Links de visualização de QA da atividade {#preview}
-
-Os links de [visualização de QA da atividade](/help/c-activities/c-activity-qa/activity-qa.md) para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Para impedir que isso continue acontecendo, arquive as atividades salvas que não são mais usadas ativamente. (TNT-32697)
+Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no delivery [da](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esse é um problema superficial e não afeta a criação de definição de públicos e o delivery de ofertas. (TGT-35920)
 
 ### Modo de QA para Recommendations atividade
 
@@ -43,10 +39,6 @@ Os problemas a seguir são problemas conhecidos com ofertas redirecionadas:
 
 * Em algumas condições, um número limitado de clientes relatou graus mais altos de variação na distribuição do tráfego ao usar uma oferta de redirecionamento em atividades configuradas com o Analytics for Target (A4T). Os engenheiros da Adobe estão trabalhando atualmente nesse problema.
 * As atividades de redirecionamento nas implementações da at.js podem fazer com que o URL de visualização entre em loop (a oferta é entregue repetidamente). Você pode usar o [Modo de controle de qualidade](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) para realizar a Visualização e o QA. Esse problema não afeta o recebimento real da oferta. (TGT-23019)
-
-### Falha na renderização do relatório de gráfico de uma atividade de direcionamento automático ao usar uma experiência personalizada como controle
-
-O relatório de gráfico de uma atividade de direcionamento automático não é renderizado para modos &quot;diferenciais&quot; (aumento médio e aumento diário) se não houver dados (0 visitas) em nenhuma experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade, se a experiência de controle estiver definida como personalizada. Para os outros modos (Execução de controle médio e direcionado, Controle diário e Segmentação e Visitas) funciona bem. Assim que houver alguns dados (visitas diferentes de zero), o relatório ser a renderizado como esperado.
 
 ### Cancelar carregamento de uma página no VEC {#cancel}
 
@@ -107,12 +99,6 @@ A seguir, os problemas conhecidos com at.js:
 
    **Solução alternativa**: configure at.js com a opção &quot;somente x&quot; ativada e transmita `mboxThirdPartyId` em chamadas para gerenciar usuários.
 
-### mbox.js
-
-A biblioteca mbox.js não é compatível com linguagens de modelos do lado do cliente, como Handlebars e Mustache. A biblioteca at.js *oferece* suporte a esses idiomas.
-
-**Observação:** a biblioteca mbox.js não será mais desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
 ### Implementação: criação automática de mbox global
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -148,6 +134,18 @@ As ofertas de imagem na página do Oferta às vezes retêm o rótulo de &quot;pr
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Quando os problemas acima são resolvidos, são movidos para as seções a seguir e as notas adicionais, se necessário, serão adicionadas.
+
+### Falha na renderização do relatório de gráfico de uma atividade de direcionamento automático ao usar uma experiência personalizada como controle
+
+O relatório de gráfico de uma atividade de direcionamento automático não é renderizado para modos &quot;diferenciais&quot; (aumento médio e aumento diário) se não houver dados (0 visitas) em nenhuma experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade, se a experiência de controle estiver definida como personalizada. Para os outros modos (Execução de controle médio e direcionado, Controle diário e Segmentação e Visitas) funciona bem. Assim que houver alguns dados (visitas diferentes de zero), o relatório ser a renderizado como esperado.
+
+Este problema foi corrigido no Target versão 19.7.1.
+
+### mbox.js
+
+A biblioteca mbox.js não é compatível com linguagens de modelos do lado do cliente, como Handlebars e Mustache. A biblioteca at.js *oferece* suporte a esses idiomas.
+
+**Observação:** a biblioteca mbox.js não será mais desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Relatórios e pedidos extremos
 
