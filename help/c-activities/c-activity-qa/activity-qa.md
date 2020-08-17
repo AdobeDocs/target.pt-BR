@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 ## Considerações {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * O link [!UICONTROL Controle de qualidade da atividade] é exibido na página [!UICONTROL Visão geral] de todos os tipos de atividade exceto para a Personalização automatizada (AP). Você pode utilizar  [Visualização de links](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) para atividades de AP.
+* Os links de visualização de QA da atividade para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Para impedir que isso continue acontecendo, arquive as atividades salvas que não são mais usadas ativamente.
 * Os URLs de controle de qualidade de atividades estão disponíveis com atividades com o Analytics como fonte de geração de relatórios (A4T). Os hits gerados durante a execução do Controle de qualidade usando o Controle de qualidade da atividade fluirão para o mesmo conjunto de relatórios no qual os dados da atividade serão gerados mesmo depois que a atividade for ativada.
 * O Controle de qualidade da atividade não exibe o conteúdo para atividades arquivadas ou atividades que estão além das datas de término. Se você desativar uma atividade finalizada, deverá salvá-la novamente para que o Controle de qualidade da atividade funcione.
 * Atividades importadas para Target Standard / Premium (do Target Classic, por exemplo) não são compatíveis com URLs de controle de qualidade.
