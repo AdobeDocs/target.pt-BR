@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1922'
 ht-degree: 31%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 20 de agosto | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Adicionada a seguinte seção: &quot;Como as políticas de aplicação de cookies do Google Chrome SameSite, recentemente anunciadas, afetam o VEC e o EEC?&quot; |
+|  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Atualizado o seguinte texto: &quot;Se você selecionar mais de um elemento, se um participante clicar em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item clicando em vários elementos em uma página, edite o Seletor de elementos CSS para corresponder a vários elementos.&quot; |
+|  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão 20.9.1 do Target Standard/Premium (2 de setembro de 2020). |
 | 14 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Foi adicionado um problema conhecido sobre o controle de qualidade nas atividades Recommendations. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Foi adicionado um texto indicando que se você estiver usando `serverState` e usando `<script>` tags no conteúdo retornado, verifique se o conteúdo HTML usa `<\/script>` em vez de `</script>`. |
 | 12 de agosto | [Entenda a interface do Público alvo](/help/c-intro/understand-the-target-ui.md) | Novo tópico. |
@@ -65,7 +68,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Como a at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Adicionado o seguinte vídeo: Horas de escritório: dicas e visão geral do at.js |
 | 17 de junho | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Tópico atualizado. |
 |  | [Tokens de resposta](/help/administrating-target/response-tokens.md) | Foram adicionadas informações sobre tokens de resposta para o Método de alocação de tráfego para Público alvo [!UICONTROL automático e atividades] Automated Personalization  . |
-|  | [Criação da atividade](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para alocação automática de atividades. |
+|  | [Criação da atividade](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações sobre o suporte do Analytics para Públicos alvos (A4T) para a Autoalocação de atividades. |
 |  | [Usuários](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] em *Especificar funções e permissões*. |
 |  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Foram adicionadas informações sobre a nova função [!UICONTROL Editor] na *Etapa 6: Especifique funções e permissões*. |
 |  | [Permissões de usuário empresarial](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Foi adicionado um link para o horário do *Office: Sessão* do Público alvo Premium Workspaces. |
