@@ -4,9 +4,9 @@ description: Kit de boas-vindas da Adobe Target - Capítulo 7
 title: Kit de boas-vindas da Adobe Target - Capítulo 7
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Estas são apenas algumas maneiras de criar essas ideias atividades que são fá
 
 ## Planejamento da atividade com o Planejador de Atividade
 
-Incluímos o seguinte Planejador de Atividades como um PDF independente (veja abaixo) que você pode salvar e usar várias vezes. Para executar uma atividade efetiva, é necessário preencher cada área do planejador. Use essa ferramenta à medida que você e outros entendam ideias para testar e personalizar atividades.
+Incluímos o [Adobe Target Atividade Planner](/help/assets/activity-planner.pdf) como um PDF independente que você pode salvar e usar várias vezes. Para executar uma atividade efetiva, é necessário preencher cada área do planejador. Use essa ferramenta à medida que você e outros entendam ideias para testar e personalizar atividades.
 
 ![Adobe Target Atividade Planner](/help/c-intro/assets/activity-planner.png)
 
