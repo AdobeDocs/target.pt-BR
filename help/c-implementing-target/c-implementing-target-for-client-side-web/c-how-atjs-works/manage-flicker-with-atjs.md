@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ Se a configuração for ativada ao definir a at.js, a at.js definirá a opacidad
 
 A opacidade definida para 0 mantém o conteúdo da página oculto para evitar cintilação, mas o navegador ainda renderiza a página e carrega todos os recursos necessários, como CSS, imagens, etc.
 
-Se a opacidade 0 não funcionar na implementação, você também poderá gerenciar a cintilação personalizando `bodyHiddenStyle` e configurando-a `body {visibility:hidden !important}`. Você pode usar o corpo de valor `{opacity:0 !important` ou `body {visibility:hidden !important}`, o que funcionar melhor para a circunstância específica.
+Se a opacidade 0 não funcionar na implementação, você também poderá gerenciar a cintilação personalizando `bodyHiddenStyle` e configurando-a `body {visibility:hidden !important}`. You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
 A ilustração a seguir mostra as chamadas Ocultar corpo e Mostrar corpo no at.js 1.*x* e at.js 2.x.
 
