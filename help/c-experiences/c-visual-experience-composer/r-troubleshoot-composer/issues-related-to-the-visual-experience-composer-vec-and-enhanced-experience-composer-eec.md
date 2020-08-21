@@ -5,10 +5,10 @@ title: Solução de problemas relacionados ao Visual Experience Composer e ao En
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 74%
+source-wordcount: '1282'
+ht-degree: 72%
 
 ---
 
@@ -26,6 +26,10 @@ Com as alterações mais recentes (agosto de 2020), todos os usuários com as ve
 * A EEC *não* funcionará para todos os usuários porque não é possível definir o atributo SameSite para cookies `adobemc.com domain`. Sem esse atributo, o navegador rejeitará esses cookies, fazendo com que a CEE falhe.
 
 A Adobe enviou uma extensão do VEC Helper atualizada para a Google Chrome Store. Essa extensão substitui os atributos do cookie para definir o `SameSite="none"` atributo, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+Para seus próprios cookies de site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ligada e especifique o cookie por nome.
+
+![Extensão VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### Alternativas e alternativas
 
