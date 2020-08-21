@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -285,7 +285,7 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 </script>
 ```
 
-## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js ![Crachá do tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
 
