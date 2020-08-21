@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1932'
 ht-degree: 31%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 21 de agosto | [Visão geral do kit de boas-vindas da Adobe Target](/help/c-intro/target-welcome-kit.md) | Novo artigo e subtópicos. |
 | 20 de agosto | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Adicionada a seguinte seção: &quot;Como as políticas de aplicação de cookies do Google Chrome SameSite, recentemente anunciadas, afetam o VEC e o EEC?&quot; |
 |  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Atualizado o seguinte texto: &quot;Se você selecionar mais de um elemento, se um participante clicar em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item clicando em vários elementos em uma página, edite o Seletor de elementos CSS para corresponder a vários elementos.&quot; |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão 20.9.1 do Target Standard/Premium (2 de setembro de 2020). |
