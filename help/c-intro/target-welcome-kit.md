@@ -4,7 +4,7 @@ description: Kit de boas-vindas da Adobe Target.
 title: Kit de boas-vindas da Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -24,7 +24,6 @@ Este kit de boas-vindas contém os seguintes capítulos:
 * [Capítulo 4: Dicas para usar o Público alvo](/help/c-intro/target-welcome-kit-4.md)
 * [Capítulo 5: Inspiração para atividades de teste e personalização](/help/c-intro/target-welcome-kit-5.md)
 * [Capítulo 6: armadilhas facilmente evitáveis](/help/c-intro/target-welcome-kit-6.md)
-* Capítulo 7: Crie e execute sua primeira atividade de Público alvo
-* Capítulo 8: Comunicar os resultados da atividade
-* Capítulo 9: Próximos passos
-* Capítulo 10: Apêndice
+* [Capítulo 7: Crie e execute sua primeira atividade de Público alvo](/help/c-intro/target-welcome-kit-7.md)
+* [Capítulo 8: Comunicar os resultados da atividade](/help/c-intro/target-welcome-kit-8.md)
+* [Capítulo 9: Próximas etapas e recursos](/help/c-intro/target-welcome-kit-9.md)
