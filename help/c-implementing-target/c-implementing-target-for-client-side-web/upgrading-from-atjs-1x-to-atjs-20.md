@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 93%
+source-wordcount: '2751'
+ht-degree: 92%
 
 ---
 
@@ -313,7 +313,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 Sim, os eventos personalizados da at.js `triggerView()` também se aplicam.
 
-### Ele informa quando eu chamo `triggerView()` com `{“page” : “true”}`, enviará uma notificação para o [!DNL Target] backend e aumentará a impressão. Também faz com que os scripts de perfil sejam executados?
+### It says when I call `triggerView()` with &amp;lbrace;`“page” : “true”`&amp;rbrace;, it will send a notification to the [!DNL Target] backend and increase the impression. Também faz com que os scripts de perfil sejam executados?
 
 Quando uma chamada de pré-busca é feita no [!DNL Target] backend, os scripts de perfil são executados. Consequentemente, os dados de perfil afetados serão criptografados e enviados para o lado do cliente. Após invocar `triggerView()` com `{"page": "true"}`, uma notificação é enviada juntamente com os dados de perfil criptografados. Isso ocorre quando o [!DNL Target] backend descriptografa os dados do perfil e armazena nos bancos de dados.
 
