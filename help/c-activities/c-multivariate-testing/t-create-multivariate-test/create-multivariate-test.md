@@ -5,7 +5,7 @@ title: Criar um teste multivariado
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 98%
@@ -39,7 +39,7 @@ O [!UICONTROL teste multivariado] (MVT) ocupa um relatório de primeira página.
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >A opção [!UICONTROL Escolher local de trabalho] na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Caso não veja essa opção, a licença da organização é do Target Standard.]
+   >A opção [!UICONTROL Escolher local de trabalho] na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Caso não veja essa opção, a licença da organização é do Target Standard.
 
 1. (Condicional) Se você for um cliente do Target Premium, [escolha um espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -100,7 +100,7 @@ O [!UICONTROL teste multivariado] (MVT) ocupa um relatório de primeira página.
 
    ![](assets/estimator2.png)
 
-1. Clique em **[!UICONTROL Avançar]** para avançar para a página [!UICONTROL Direcionamento].]
+1. Clique em **[!UICONTROL Avançar]** para avançar para a página [!UICONTROL Direcionamento.]
 
 1. Escolha o público-alvo e porcentagem de visitantes qualificados que você quer inserir na atividade.
 
