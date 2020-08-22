@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de boas-vindas da Adobe Target - Capítulo 2
-title: Kit de boas-vindas da Adobe Target - Capítulo 2
+description: Kit de boas-vindas da Adobe Target - Capítulo 2 - Público alvo de uma primeira vista
+title: Kit de boas-vindas da Adobe Target - Capítulo 2 - Público alvo de uma primeira vista
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2504'
 ht-degree: 17%
 
 ---
@@ -28,12 +28,12 @@ Para obter uma compreensão mais profunda de quando e como usar cada recurso, co
 
 | Tipo de atividade | Detalhes |
 | --- | --- |
-| Direcionamento de experiência (XT) | Forneça conteúdo para uma audiência específica com base em um conjunto de regras e critérios definidos pelo usuário. **[!UICONTROL O direcionamento]** de experiência é valioso para direcionar uma experiência ou conteúdo específico a uma audiência específica quando você entende que uma audiência é valiosa e tem uma boa noção do que a experiência tem a ver com elas. [Saiba mais](/help/c-activities/t-experience-target/experience-target.md). |
 | Teste A/B | Compare duas ou mais variações de suas experiências ou ofertas em seu site ou outro ponto de contato do cliente digital para ver qual variação melhora mais as principais medidas de negócios durante um período de teste pré-especificado. Os testes A/B são adequados para grandes alterações, como novos layouts de página da Web, diferentes abordagens para a navegação do site ou tratamentos drasticamente diferentes de elementos individuais de uma experiência digital, como cópia, imagens e botões de chamada para ação. [Saiba mais](/help/c-activities/t-test-ab/test-ab.md). |
-| Teste multivariado (MVT) | Compare todas as combinações possíveis de variações de elementos na sua página ou experiência digital — por exemplo, três imagens de fundo diferentes, duas variações de cópia e duas cores de botão diferentes. O MVT determina qual combinação tem o melhor desempenho para uma audiência específica e quais elementos têm mais impacto nos resultados. [Saiba mais](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Alocação automática | Identifique a experiência de melhor desempenho entre duas ou mais experiências e realoque automaticamente mais tráfego para o vencedor para aumentar as conversões enquanto o teste continua sendo executado e aprendido. Usa inteligência artificial capacitada por [!DNL Adobe Sensei]. [Saiba mais](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Público alvo<br>automático (Premium) | Aproveite a Adobe Sensei AI para determinar e fornecer a melhor experiência de vários para cada visitante, com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. [!DNL Target] O Público alvo automático permite a personalização em escala. |
+| Público alvo<br>automático (Premium) | Aproveite a Adobe Sensei AI para determinar e fornecer a melhor experiência de vários para cada visitante, com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. [!DNL Target] O Público alvo automático permite a personalização em escala. [Saiba mais](/help/c-activities/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Use algoritmos avançados de aprendizado de máquina e automação com [!DNL Adobe Sensei] o objetivo de revisar diferentes combinações de imagens, cópias e outros elementos em uma oferta e fornecer a melhor combinação para cada visitante, com base na qual o melhor alcance as metas comerciais, como maior conversão ou receita por visitante. [Saiba mais](/help/c-activities/t-automated-personalization/automated-personalization.md). |
+| Direcionamento de experiência (XT) | Forneça conteúdo para uma audiência específica com base em um conjunto de regras e critérios definidos pelo usuário. **[!UICONTROL O direcionamento]** de experiência é valioso para direcionar uma experiência ou conteúdo específico a uma audiência específica quando você entende que uma audiência é valiosa e tem uma boa noção do que a experiência tem a ver com elas. [Saiba mais](/help/c-activities/t-experience-target/experience-target.md). |
+| Teste multivariado (MVT) | Compare todas as combinações possíveis de variações de elementos na sua página ou experiência digital — por exemplo, três imagens de fundo diferentes, duas variações de cópia e duas cores de botão diferentes. O MVT determina qual combinação tem o melhor desempenho para uma audiência específica e quais elementos têm mais impacto nos resultados. [Saiba mais](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Recommendations<br>(Premium) | Use o Adobe Sensei AI para sugerir automaticamente produtos ou conteúdos que possam interessar seus clientes com base em suas atividades anteriores e de outros clientes. [Saiba mais](/help/c-recommendations/recommendations.md). |
 
 ## Canais
@@ -54,7 +54,7 @@ Muitos de vocês podem querer usar [!DNL Target] para testar e personalizar seus
 | Tipo de implementação | Detalhes |
 | --- | --- |
 | Lado do cliente | With this implementation of [!DNL Target], [!DNL Target] delivers the experiences associated with an activity directly to the client browser. O navegador decide qual experiência será exibida e realiza a ação. With client-side, you can use a WYSIWYG editor, the **[!UICONTROL Visual Experience Composer]** (VEC), or a non-visual interface, the **[!UICONTROL Form-based Experience Composer]**, to create your test and personalization experiences. [Saiba mais](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
-| Servidor | Nesse tipo de [!DNL Target] implementação, um dispositivo cliente faz uma solicitação para uma experiência por meio do seu servidor, seu servidor envia essa solicitação para [!DNL Target], [!DNL Target] envia a resposta ao seu servidor e seu servidor toma a decisão sobre qual experiência fornecer ao dispositivo cliente para que ele seja renderizado. A experiência não precisa ser exibida em um navegador; ela pode ser exibida em um email ou quiosque, por um assistente de voz ou por alguma outra experiência não visual ou dispositivo não baseado em navegador. Como o servidor fica entre o cliente e o [!DNL Target], esse tipo de implementação também será ideal se você precisar de mais controle e segurança ou de processos de back-end complexos que deseja executar no servidor. [Saiba mais](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| Servidor | Nesse tipo de [!DNL Target] implementação, um dispositivo cliente faz uma solicitação para uma experiência por meio do seu servidor, seu servidor envia essa solicitação para [!DNL Target], [!DNL Target] envia a resposta para o seu servidor e seu servidor toma a decisão sobre qual experiência fornecer ao dispositivo cliente para que ele seja renderizado. A experiência não precisa ser exibida em um navegador; ela pode ser exibida em um email ou quiosque, por um assistente de voz ou por alguma outra experiência não visual ou dispositivo não baseado em navegador. Como o servidor fica entre o cliente e o [!DNL Target], esse tipo de implementação também será ideal se você precisar de mais controle e segurança ou de processos de back-end complexos que deseja executar no servidor. [Saiba mais](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | Implementação híbrida | Nessa implementação, você escolhe a abordagem de implementação que funciona melhor para um determinado caso de uso. Por exemplo, você pode usar uma implementação do cliente para testar A/B e uma oferta em um banner principal no home page, mas também usar uma implementação do lado do servidor para determinar os resultados da pesquisa interna a serem exibidos em um navegador cliente, a experiência a ser exibida em um painel de carro inteligente ou a resposta de voz a ser fornecida por um assistente de voz. |
 
 ## Elementos de atividade
@@ -106,7 +106,7 @@ Considere as seguintes ideias antes de passarmos para o próximo capítulo: &quo
 * **Boa estratégia**: Qual é o nosso objetivo e hipótese? Eles estão alinhados? Por exemplo, desejamos aumentar as solicitações de empréstimo, portanto, presumimos que a redução do número de campos no formulário de solicitação fará isso.
 * **Metodologia** disciplinada Estamos começando a testar nos lugares certos? Por exemplo, você precisa de locais com tráfego suficiente e que afetem as métricas que importam para os negócios.
 * **Configuração** adequada A nossa atividade está configurada para atingir o nosso objetivo? Por exemplo, se estamos tentando aumentar as solicitações de empréstimo, devemos público alvo pessoas interessadas em empréstimos e avaliar cliques do botão &quot;Enviar&quot;.
-* **Análise** complexa: A atividade de teste foi executada até a conclusão? O que dizem os resultados? Execute sua atividade até atingir entre 95% e 99% de confiança estatística. Documento por que você acha que a experiência vencedora ganhou e aplica o aprendizado em outro lugar.
+* **Análise** complexa: A atividade de teste foi executada até a conclusão? O que dizem os resultados? Execute sua atividade até atingir entre 95% e 99% de confiança estatística. Documento porque você acha que a experiência vencedora ganhou e aplica o aprendizado em outro lugar.
 * **Teste** iterativo: Estamos a partir dos conhecimentos de atividades anteriores? Se encontrar uma tática vencedora, tente aprimorá-la ou fazer alterações que funcionem com ela para melhorar ainda mais sua métrica de sucesso.
 
 ### As opiniões podem afetar negativamente os seus resultados
