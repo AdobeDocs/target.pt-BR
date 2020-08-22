@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '3978'
+source-wordcount: '3977'
 ht-degree: 85%
 
 ---
@@ -175,7 +175,7 @@ Para obter mais informações sobre o Adobe Opt-in, consulte [Privacidade e Regu
 
 Esta versão também corrige um problema em que o Target pode substituir parâmetros de URL de redirecionamento por parâmetros provenientes do URL de redirecionamento.
 
->[! OBSERVAÇÃO]
+>[!NOTE]
 >
 >Se você precisar de suporte do Adobe Opt-in para o GDPR, use a at.js 1.7.0 ou 2.1.0.<br>Para obter uma lista de todas as versões, consulte [Detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
