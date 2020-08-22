@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de boas-vindas da Adobe Target - Capítulo 6
-title: Kit de boas-vindas da Adobe Target - Capítulo 6
+description: Kit de boas-vindas da Adobe Target - Capítulo 6 - armadilhas facilmente evitáveis
+title: Kit de boas-vindas da Adobe Target - Capítulo 6 - armadilhas facilmente evitáveis
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,15 @@ ht-degree: 0%
 
 A coisa boa sobre começar seu programa de otimização e personalização agora é que as pessoas que fazem isso por algum tempo já descobriram muitos dos erros que são fáceis de cometer. Ao saber sobre essas armadilhas, você pode facilmente evitá-las ou remediá-las.
 
-Consulte [Dez armadilhas comuns de teste A/B e como evitá-las](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) para obter informações detalhadas. Além das ideias apresentadas nesse artigo, mantenha essa lista curta à disposição para evitar ou corrigir essas armadilhas comuns de teste e personalização.
+>[!NOTE]
+>
+>Consulte [Dez armadilhas comuns de teste A/B e como evitá-las](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) para obter informações detalhadas. Além das ideias apresentadas nesse artigo, mantenha essa lista curta à disposição para evitar ou corrigir essas armadilhas comuns de teste e personalização.
 
 | Armadilha | Solução |
 | --- | --- |
 | Sem tráfego suficiente para alcançar resultados estatisticamente significativos. | Use a calculadora [de tamanho de](https://docs.adobe.com/content/target-microsite/testcalculator.html) amostra da Adobe Target antecipadamente para entender por quanto tempo o teste deve ser executado e execute o teste até a conclusão. |
 | Fazendo uma mudança que é muito pequena ou inperceptível. | Torne a alteração suficientemente substancial para que possa ser visível quando estiver a alguns pés da tela. |
-| Falha ao alinhar atividades com objetivos de negócios. | Dar maior atenção à metodologia de definição de prioridades e comunicar essa metodologia às partes interessadas internas. |
+| Falha ao alinhar atividades com objetivos de negócios. | Aumentar a ênfase na metodologia de priorização e comunicar essa metodologia às partes interessadas internas. |
 | Com pouco ou nenhum atraso nos testes. | Participe com as partes interessadas internas e permita que elas enviem testes que estejam alinhados com as principais metas comerciais. |
 | Estender inicializações de atividades além de prazos | Melhore a documentação para atividade e inclua detalhes específicos sobre a configuração do teste. |
 | Selecionar dados de métricas de sucesso atividades que não ajudam na tomada de decisões. | Documento todas as métricas principais de teste e inclui métricas adicionais para obter insights adicionais. |
