@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de boas-vindas da Adobe Target - Capítulo 4
-title: Kit de boas-vindas da Adobe Target - Capítulo 4
+description: Kit de boas-vindas da Adobe Target - Capítulo 4 - Dicas para usar o Público alvo
+title: Kit de boas-vindas da Adobe Target - Capítulo 4 - Dicas para usar o Público alvo
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -194,7 +194,7 @@ Considere as seguintes ideias antes de passarmos para o próximo capítulo: &quo
 ### Usar Chamada efetiva para ações (CTAs)
 
 * Coloque-se no lugar do cliente.
-* Use uma linguagem orientada à ação.
+* Use linguagem orientada a ações.
 * Considere a motivação para a conversão.
 * Atender ao resultado da conversão.
 * Verifique se os CTAs estão visíveis!
