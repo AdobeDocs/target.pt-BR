@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de boas-vindas da Adobe Target - Capítulo 9
-title: Kit de boas-vindas da Adobe Target - Capítulo 9
+description: Kit de boas-vindas da Adobe Target - Capítulo 9 - Próximas etapas e recursos
+title: Kit de boas-vindas da Adobe Target - Capítulo 9 - Próximas etapas e recursos
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Abordamos as noções básicas para executar sua primeira atividade. Esperamos que essa atividade mostre a você e à sua empresa o incrível potencial que o uso [!DNL Adobe Target] para otimizar e personalizar tem para impactar os resultados da empresa. Isto é apenas um start. É hora de pensar no que você vai focar na sua segunda atividade? Considere a criação de uma lista priorizada de atividades que você deseja executar. Você ficará surpreso com a rapidez com que vê como a atividade por atividade melhora a experiência do cliente e gera sucesso nos negócios.
 
-A propósito, você tem tantas maneiras de aprender mais sobre testes, personalização e uso [!DNL Target]. Analise a lista de recursos abaixo para a construção desse conhecimento pelo start. Ouça nossos webinars, leia o blog da Adobe Target, participe da Adobe Summit e se torne ativo na comunidade online da Adobe Target. Não se esqueça de que estamos aqui sempre para ajudá-lo a lançar seu programa e colocá-lo no caminho do sucesso. Alcance a qualquer momento.
+A propósito, você tem tantas maneiras de aprender mais sobre testes, personalização e uso [!DNL Target]. Analise a lista de recursos abaixo para a construção desse conhecimento pelo start. Ouça nossos webinars, leia o blog da Adobe Target, participe da Adobe Summit e se torne ativo na comunidade online da Adobe Target. Não se esqueça de que estamos sempre aqui para ajudá-lo a lançar seu programa e colocá-lo no caminho para o sucesso. Alcance a qualquer momento.
 
 Nós compilamos uma lista organizada de informações valiosas para ajudá-lo a obter ainda mais conhecimento sobre otimização e personalização usando [!DNL Target].
 
