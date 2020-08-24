@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '960'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ Pode haver certas combinações que não funcionam bem juntos, ou você pode lim
 
    ![Excluir experiência ao passar o cursor do mouse](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Ou você pode excluir/incluir em lote as experiências marcando a caixa de seleção das experiências relevantes e, em seguida, clicando no ícone **[Excluir UICONTROL]** no canto superior direito da caixa de diálogo. O ícone [!UICONTROL Excluir] é exibido quando uma ou mais experiências são marcadas.
+   Ou você pode excluir/incluir em lote as experiências marcando a caixa de seleção das experiências relevantes e, em seguida, clicando no ícone **[!UICONTROL Excluir]** no canto superior direito da caixa de diálogo. O ícone [!UICONTROL Excluir] é exibido quando uma ou mais experiências são marcadas.
 
    ![Exclusão em lote de experiências](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
