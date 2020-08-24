@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 39%
+source-wordcount: '1685'
+ht-degree: 40%
 
 ---
 
@@ -180,7 +180,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Booleano
 * **Valor** padrão: true
-* **Descrição**: Quando habilitado, recupere automaticamente visualizações que devem ser retornadas ao carregar a página. As visualizações são suportadas em at.js 2.somente *x.*
+* **Descrição**: Quando habilitado, recupere automaticamente visualizações que devem ser retornadas no carregamento da página. As visualizações são suportadas em at.js 2.somente *x.*
 
 ### visitorApiTimeout
 
@@ -473,7 +473,7 @@ Considere o seguinte ao usar `serverState`:
 
 * Ao aplicar o `serverState `oferta, o at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` as configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a `pageLoadEnabled` configuração for falsa.
 
-   Para ativar essas configurações, ative a alternância em Administração **[UICONTROL > Implementação > Editar > Carregamento de página ativado]**.
+   Para ativar essas configurações, ative a alternância em **[!UICONTROL Administração]>[!UICONTROL Implementação]>[!UICONTROL Editar]> Carregamento de[!UICONTROL página ativado]**.
 
    ![Configurações Ativadas para Carregamento de Página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
