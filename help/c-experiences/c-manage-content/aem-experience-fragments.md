@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 31%
+source-wordcount: '1100'
+ht-degree: 32%
 
 ---
 
@@ -34,7 +34,7 @@ Os fragmentos de experiência representam um enorme passo à frente para vincula
 
 ## Exigências {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNl Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
+Você deve estar provido da funcionalidade dos fragmentos de experiência dentro do [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
 
 * [!DNL Adobe Experience Manager] 6.4 (ou posterior).
 * [!DNL Adobe Experience Manager] 6.3 SP2 (ou posterior).
@@ -131,7 +131,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **Para consumir fragmentos de experiência usando o Criador de experiências baseado em forma:**
 
-1. Em [!DNtodos os Públicos alvos], ao criar ou editar uma experiência no Criador [de experiências baseado em](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)formulário, selecione o local na página onde deseja inserir o [!DNL AEM] conteúdo e, em seguida, selecione **[!UICONTROL Alterar fragmento]** de experiência para exibir a lista [!UICONTROL Escolher um fragmento] de experiência.
+1. Em [!DNL Target], ao criar ou editar uma experiência no Criador de experiências baseado em [formulário](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), selecione o local na página onde deseja inserir o [!DNL AEM] conteúdo e, em seguida, selecione **[!UICONTROL Alterar fragmento]** de experiência para exibir a lista [!UICONTROL Escolher um fragmento] de experiência.
 
    ![](assets/experience_fragment_list.png)
 
