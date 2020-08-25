@@ -4,7 +4,7 @@ title: Visual Experience Composer (VEC) do Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Alguns motivos pelos quais você pode cancelar o carregamento de uma página no 
 * Você deseja adicionar mais regras de teste de modelo aos critérios de Entrega da página
 * Você deseja substituir o botão geral do Enhanced Experience Composer (EEC) ao carregar uma página pelo EEC ou somente no iframe, o que pode variar de uma página para outra
 
-Depois de cancelar o carregamento de página no VEC, você pode alternar entre experiências na atividade sem esperar que a página seja carregada. Para visualizar a página no VEC novamente, clique no botão **[!UICONTOL Recarregar]**.
+Depois de cancelar o carregamento de página no VEC, você pode alternar entre experiências na atividade sem esperar que a página seja carregada. Para visualizar a página no VEC novamente, clique no botão **[!UICONTROL Recarregar]**.
 
 >[!IMPORTANT]
 >
