@@ -4,9 +4,9 @@ description: Usar o Adobe Analytics como fonte de dados comportamental permite q
 title: Uso do Adobe Analytics com o Público alvo Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -95,10 +95,10 @@ Supondo que todos os pré-requisitos estejam no lugar, execute as seguintes tare
    >Consulte a [!DNL Adobe Analytics] equipe antes de executar esta etapa.
 
    * **Tipo**: FTP
-   * **Host**: xxx.yyy.com
-   * **Caminho**: Seu código de cliente do Público alvo
-   * **Nome de usuário**: xxiy
-   * **Senha**: xxxxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **Caminho**: Seu código [!DNL Target] de cliente
+   * **Nome de usuário**: Especifique seu nome de usuário
+   * **Senha**: Especifique sua senha
 
    A captura de tela é apenas para fins de referência. Sua implantação terá credenciais diferentes. Consulte a [!DNL Adobe Analytics] equipe ou o Atendimento ao cliente ao executar esta etapa.
 
