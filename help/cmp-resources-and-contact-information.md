@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -61,7 +61,7 @@ Além das sessões sobre o Target, há mais sessões para outras soluções da A
 
 ## Entre em contato com o Atendimento ao cliente da Adobe {#reference_ACA3391A00EF467B87930A450050077C}
 
-O Atendimento ao cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Essa página contém as informações de que você precisa ao entrar em contato com o Atendimento ao cliente para agilizar uma resolução.
+O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Essa página contém as informações de que você precisa ao entrar em contato com o Atendimento ao Cliente para agilizar uma resolução.
 
 ### Informações básicas  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
