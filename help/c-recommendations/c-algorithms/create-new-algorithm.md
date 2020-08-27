@@ -4,9 +4,9 @@ title: Criar critérios
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '3605'
+source-wordcount: '3615'
 ht-degree: 98%
 
 ---
@@ -89,6 +89,8 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
 1. Selecione a **[!UICONTROL fonte de dados comportamentais]** desejada: [!UICONTROL mboxes] ou [!UICONTROL Analytics].
 
    Se você escolher [!UICONTROL Analytics], selecione o conjunto de relatórios desejado.
+
+   Para obter mais informações, consulte [Usar o Adobe Analytics com o Público alvo Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 1. Defina suas **[!UICONTROL regras de conteúdo]**.
 
@@ -442,7 +444,7 @@ Por padrão, todos atributos são definidos como *Linha de base*. Você não pre
 
 >[!NOTE]
 >
->O algoritmo de semelhança de conteúdo pode usar amostragem aleatória na computação de similaridade entre itens. Como resultado, as classificações de similaridade entre itens podem variar entre execuções de algoritmos.
+>O algoritmo de semelhança de conteúdo pode usar amostragem aleatória na computação de similaridade entre itens. Como resultado, as classificações de similaridade entre itens podem variar entre as execuções de algoritmos.
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
