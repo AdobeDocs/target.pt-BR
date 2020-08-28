@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '2015'
 ht-degree: 30%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 28 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Atualizado o seguinte:<ul><li>Adicionada à seção Problemas conhecidos: &quot;Relatórios - Atualmente, as conversões incrementam de forma diferente com base na audiência usada.&quot;</li><li>Adicionada à seção Problemas resolvidos: &quot;Páginas que não são carregadas no Visual Experience Composer (VEC) ou no Enhanced Experience Composer (EEC) ao usar o Google Chrome versão 80+.&quot;</li></ul> |
+|  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | A data de desaprovação do mbox.js foi alterada de 30 de agosto de 2020 para 18 de janeiro de 2021. |
 | 26 de agosto | [Usar o Adobe Analytics com o Público alvo Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Novo tópico. |
 | 24 de agosto | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Atualização da seção &quot;Configurações avançadas&quot;. |
 | 21 de agosto | [Visão geral do kit de boas-vindas da Adobe Target](/help/c-intro/target-welcome-kit.md) | Novo artigo e subtópicos. |
