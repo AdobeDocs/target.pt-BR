@@ -5,10 +5,10 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '3521'
-ht-degree: 85%
+source-wordcount: '3657'
+ht-degree: 82%
 
 ---
 
@@ -24,6 +24,22 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### Relatório
+
+Atualmente, as conversões incrementam de forma diferente com base na audiência usada.
+
+Por exemplo, para o mesmo visitante, se a contagem de conversão estiver definida para incrementar &quot;Uma vez por participante:&quot;
+
+* Audiência: &quot;Todos os Visitantes qualificados&quot; para conversões no nível de visita aumentam apenas uma vez. Esse é o comportamento esperado.
+* Audiência: &quot;Novos Visitantes&quot; para conversões em nível de visita aumentam incorretamente todas as vezes, em vez de aumentarem apenas uma vez. Esse não é o comportamento esperado.
+
+Se a contagem de conversão estiver definida para incrementar &quot;Em cada impressão:&quot;
+
+* Audiência: &quot;Todos os Visitantes qualificados&quot; para conversões em nível de visitante aumentam incorretamente apenas uma vez, em vez de aumentar cada vez. Esse não é o comportamento esperado.
+* Audiência: &quot;Novos Visitantes&quot; para conversões em nível de visitante aumentam cada vez. Esse é o comportamento esperado.
+
+Observe que esse problema está relacionado apenas ao [!DNL Target] relatórios. Esse não é um problema ao usar o [!UICONTROL Analytics para o relatórios Público alvo] (A4T).
 
 ### Delivery de página {#page-delivery}
 
