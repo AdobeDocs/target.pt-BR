@@ -5,7 +5,7 @@ title: Anúncios de públicos alvos
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 1%
@@ -48,4 +48,4 @@ Junte-se ao Adobe e ao HSBC para este webinar para saber mais:
 
 ## Adobe Target Skill Builder: Bate-papo no desenvolvedor, migre o Adobe Target mbox.js para o at.js {#skill-builder}
 
-Com a próxima desaprovação do mbox.js em 30 de agosto de 2020, David Son, o gerente de produtos da Adobe Target recentemente hospedou um bate-papo de desenvolvedor para discutir os benefícios da migração do mbox.js para o at.js. Nos próximos 30 dias, você poderá [visualização a gravação](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)do webinar.
+Com a próxima desaprovação do mbox.js em 18 de janeiro de 2021, David Son, o gerente de produtos da Adobe Target recentemente hospedou um bate-papo de desenvolvedor para discutir os benefícios da migração do mbox.js para o at.js. Nos próximos 30 dias, você poderá [visualização a gravação](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)do webinar.
