@@ -5,10 +5,10 @@ title: Extensão de ajuda do Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 89%
 
 ---
 
@@ -23,8 +23,9 @@ Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC:
 * O site está em um iframe.
 * A biblioteca do at.js ainda não está implementada no site.
 * O site de QA e/ou etapas do cliente não está disponível para o mundo externo (o site é interno).
+* Você está usando o Google Chrome 80+ com políticas aprimoradas de aplicação de cookies do SameSite. Para obter mais informações, consulte [Como as políticas de aplicação de cookies do Google Chrome SameSite, anunciadas recentemente, afetam a VEC e a EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-A extensão de navegador VEC Helper para o Chrome resolve problemas de carregamento de site para os quais os clientes agora dependem do [!DNL Target] [!UICONTROL Enhanced Experience Composer] ou extensões de terceiros, como Requestly
+A extensão de navegador VEC Helper para o Chrome resolve problemas de carregamento de site para os quais os clientes agora dependem do [!DNL Target] [!UICONTROL Enhanced Experience Composer] ou extensões de terceiros, como Requestly.
 
 Benefícios do uso da extensão do VEC Helper:
 
