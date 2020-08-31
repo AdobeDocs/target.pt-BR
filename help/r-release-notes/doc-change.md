@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2024'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 31 de agosto | [Usar Adobe Analytics com Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Adicionada a seção Perguntas frequentes. |
 | 28 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Atualizado o seguinte:<ul><li>Adicionada à seção Problemas conhecidos: &quot;Relatórios - Atualmente, as conversões incrementam de forma diferente com base na audiência usada.&quot;</li><li>Adicionada à seção Problemas resolvidos: &quot;Páginas que não são carregadas no Visual Experience Composer (VEC) ou no Enhanced Experience Composer (EEC) ao usar o Google Chrome versão 80+.&quot;</li></ul> |
 |  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | A data de desaprovação do mbox.js foi alterada de 30 de agosto de 2020 para 18 de janeiro de 2021. |
 | 26 de agosto | [Usar o Adobe Analytics com o Público alvo Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Novo tópico. |
