@@ -4,10 +4,10 @@ description: Usar o Adobe Analytics como fonte de dados comportamental permite q
 title: Uso do Adobe Analytics com o Público alvo Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
+source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
@@ -57,79 +57,9 @@ Para obter mais detalhes sobre como configurar variáveis de produto, consulte [
 
 Para uma tomada de decisão rápida sobre qual fonte de dados deve ser usada, se houver muitos dados orgânicos gerados todos os dias pelos usuários, e não muita dependência necessária aos dados históricos, então usar uma [!DNL Target] mbox como fonte de dados comportamental pode ser uma boa opção. Em casos de menos disponibilidade de dados orgânicos gerados recentemente, se você quiser basear-se em [!DNL Analytics] dados, então o uso [!DNL Analytics] como fonte de dados comportamental é um bom ajuste.
 
-### Etapas para implantar
+### Entre em contato com o Atendimento ao cliente para criar um feed de dados para você
 
-Supondo que todos os pré-requisitos estejam no lugar, execute as seguintes tarefas:
-
-1. Em [!DNL Target], clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]** para adquirir seu código [!DNL Target] de cliente.
-
-   ![Código de cliente](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. Adquira seu conjunto de [!DNL Analytics] relatórios.
-
-   Use seu conjunto de relatórios do site [!DNL Analytics] de produção. Este é o conjunto de relatórios que rastreia o site no qual você [!DNL Recommendations] implantou.
-
-1. Em [!DNL Analytics], clique em **[!UICONTROL Admin]** > Feeds **[!UICONTROL de dados]**.
-
-   ![Configuração > Feeds de dados](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. Click **[!UICONTROL Add]** to create a new feed.
-
-   ![Adicionar feed](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. Preencha as informações do feed:
-
-   * **Nome**: Feed de Prod Recs
-   * **Conjunto** de relatórios: Seu conjunto de relatórios predeterminado
-   * **Email**: Especifique qualquer endereço apropriado para um usuário administrador
-   * **Intervalo** do feed: Selecionar o intervalo desejado
-   * **Atraso no processamento**: Sem atraso.
-   * **Datas** de start e término: Alimentação contínua
-
-   ![Seção de informações do feed](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. Fill in the details in the **[!UICONTROL Destination]** section:
-
-   >[!NOTE]
-   > 
-   >Consulte a [!DNL Adobe Analytics] equipe antes de executar esta etapa.
-
-   * **Tipo**: FTP
-   * **Host**: `xxx.yyy.com`
-   * **Caminho**: Seu código [!DNL Target] de cliente
-   * **Nome de usuário**: Especifique seu nome de usuário
-   * **Senha**: Especifique sua senha
-
-   A captura de tela é apenas para fins de referência. Sua implantação terá credenciais diferentes. Consulte a [!DNL Adobe Analytics] equipe ou o Atendimento ao cliente ao executar esta etapa.
-
-   ![Seção de destino](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. Preencha as definições da Coluna **[!UICONTROL de]** dados:
-
-   * **Formato** de compactação: Gzip
-   * **Tipo** de empacotamento:  Arquivo único
-   * **Manifesto:** Concluir arquivo
-
-      ![Configurações de Formato de compactação, Tipo de empacotamento e Manifesto](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **Colunas incluídas**:
-
-      >[!IMPORTANT]
-      >
-      >As colunas devem ser adicionadas na mesma ordem documentada aqui. Selecione as colunas na seguinte ordem e clique em **[!UICONTROL Adicionar]** para cada coluna.
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * visit_num
-
-1. Clique em **[!UICONTROL Salvar]**.
-
-   ![Seção Definições da coluna de dados](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-Com isso, a configuração no [!DNL Analytics] lado está concluída. Agora é hora de mapear essas variáveis de [!DNL Target] lado para o fornecimento contínuo de dados comportamentais.
+Considerando que todos os pré-requisitos estão em vigor, entre em contato com o [Atendimento](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ao cliente para criar um feed de dados para você.
 
 ## Implementação no Público alvo
 
