@@ -4,9 +4,9 @@ description: Usar o Adobe Analytics como fonte de dados comportamental permite q
 title: Uso do Adobe Analytics com o Público alvo Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ Para uma tomada de decisão rápida sobre qual fonte de dados deve ser usada, se
 
 ### Etapas para implantar
 
-Considerando que todos os pré-requisitos estão em vigor, as seguintes tarefas devem ser executadas pela equipe da Adobe Target Recommendations:
+Supondo que todos os pré-requisitos estejam em vigor, as seguintes tarefas devem ser executadas pela [!DNL Adobe Target Recommendations] equipe:
 
->[IMPORTANTE]
+>[!IMPORTANT]
 >
->As etapas abaixo são para fins ilustrativos. Observe que um membro da equipe Recommendations deve executar essas etapas no momento. [Para obter mais infirmações, em contato com o Atendimento ao cliente da ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+>As etapas abaixo são apenas para fins ilustrativos. No momento, um membro da [!DNL Recommendations] equipe deve executar essas etapas. [Para obter mais infirmações, em contato com o Atendimento ao cliente da ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 1. Em [!DNL Target], clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]** para adquirir seu código [!DNL Target] de cliente.
 
