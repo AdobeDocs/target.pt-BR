@@ -5,7 +5,7 @@ title: Configurar o Adobe Target Visual Experience Composer
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 52%
@@ -37,7 +37,7 @@ As seguintes configurações estão disponíveis:
 
 O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la.
 
-### Ativar Enhanced Experience Composer
+### Ativar Enhanced Experience Composer {#eec}
 
 Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. A entrega de atividades nos sites não é afetada por essa escolha.
 
