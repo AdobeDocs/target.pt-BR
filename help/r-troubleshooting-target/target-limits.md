@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1012'
 ht-degree: 77%
 
 ---
@@ -65,6 +65,10 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 * **Tamanho máximo de arquivo para cada upload usando o método** HTTP: 100 MB.
 * **tamanho máximo de arquivo para cada upload usando o método** FTP: 4 GB.
 * **Número de atributos permitidos para assinar**: 5 para [!DNL Target Standard] e 200 para [!DNL Target Premium].
+
+## Entidades
+
+A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99.
 
 ## Atributos personalizados da entidade
 
