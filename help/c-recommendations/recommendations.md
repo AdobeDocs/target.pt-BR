@@ -5,9 +5,9 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 59%
 
 ---
@@ -53,7 +53,7 @@ Antes de começar a usar [!DNL Recommendations], é útil se familiarizar com al
 | Termo | Definição |
 | --- | --- |
 | Atividade | Atividades permitem [!DNL Target] que você personalize o conteúdo para audiências específicas e teste designs de página. [!DNL Recommendations] é apenas um dos muitos tipos de atividades disponíveis em [!DNL Target]. Para obter mais informações, consulte Tipos [de atividade de](/help/c-activities/target-activities-guide.md)Públicos alvos. |
-| Entidades | As entidades referem-se a itens que você quer recomendar. As entidades podem ser qualquer coisa como produtos, conteúdo (artigos, apresentações de slides, imagens, filmes e programas de tv), listas de trabalhos, restaurantes e assim por diante.Para obter mais informações, consulte [Entidades](/help/c-recommendations/c-products/products.md). |
+| Entidades | As entidades referem-se a itens que você quer recomendar. As entidades podem ser qualquer coisa como produtos, conteúdo (artigos, apresentações de slides, imagens, filmes e programas de tv), listas de trabalhos, restaurantes e assim por diante. For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | Feeds | Os feeds são usados para importar entidades para [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics. Para obter mais informações, consulte  [Feeds](/help/c-recommendations/c-products/feeds.md). |
 | Catálogo | Os catálogos se referem a todo o conjunto de produtos (entidades). Seu catálogo pode conter muitas coleções, uma forma de organizar seus produtos em compartimentos lógicos. |
 | Coleção | As coleções se referem a um conjunto de itens semelhantes ou relacionados, como uma única categoria de produto. No entanto, você pode agrupar qualquer item em uma categoria que faça sentido para o seu negócio, como produtos em uma determinada faixa de preço ou cor, ou itens que possam ser interessantes em uma área geográfica específica. For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
