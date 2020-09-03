@@ -5,10 +5,10 @@ title: Solução de problemas relacionados ao Visual Experience Composer e ao En
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 72%
+source-wordcount: '1370'
+ht-degree: 68%
 
 ---
 
@@ -25,11 +25,11 @@ Com as alterações mais recentes (agosto de 2020), todos os usuários com as ve
 * *Não* será possível baixar [!DNL Target] bibliotecas ao editar uma atividade (quando elas ainda não estão no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio de Adobe protegido e é rejeitada como não autenticada.
 * A EEC *não* funcionará para todos os usuários porque não é possível definir o atributo SameSite para cookies `adobemc.com domain`. Sem esse atributo, o navegador rejeitará esses cookies, fazendo com que a CEE falhe.
 
-A Adobe enviou uma extensão do VEC Helper atualizada para a Google Chrome Store. Essa extensão substitui os atributos do cookie para definir o `SameSite="none"` atributo, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+A Adobe enviou uma extensão do VEC Helper atualizada para a Google Chrome Store. Essa extensão substitui os atributos do cookie para definir o `SameSite="none"` atributo, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre a instalação e o uso da Extensão Auxiliar VEC, consulte a extensão [auxiliar do](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Visual Experience Composer.
 
-Para seus próprios cookies de site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ligada e especifique o cookie por nome.
+Para seus próprios cookies de site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ligada e especifique o cookie pelo nome e o domínio do cookie. O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte Cookies [da](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target no Guia *do usuário da interface do* Experience Cloud.
 
-![Extensão VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
+![Os cookies alternam na extensão auxiliar VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### Alternativas e alternativas
 
