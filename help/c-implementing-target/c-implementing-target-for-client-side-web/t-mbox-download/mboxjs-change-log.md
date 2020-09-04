@@ -6,10 +6,10 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -147,9 +147,9 @@ A mbox.js versão 58 e posterior executa conteúdo não-JavaScript para a mbox g
 
 As seguintes alterações foram feitas nesta versão:
 
-* A resposta de mbox global criada automaticamente para o Target Standard não usa mais document. write() ou cria um <div> elemento.
+* A resposta de mbox global criada automaticamente para o Target Standard não usa mais document. write() ou cria um `<div>` elemento.
 
-   Isso remove o requisito do arquivo mbox.js ser o último item da função <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> da página. Recomenda-se um QA apurado ao se atualizar para esta nova versão.
+   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Recomenda-se um QA apurado ao se atualizar para esta nova versão.
 
    Essa alteração pode levar a mudanças no comportamento ao se entregar alguns tipos de ofertas. Veja algumas condições específicas que deverão ser levadas em consideração:
 
@@ -227,7 +227,7 @@ Modifica a versão 53 com correções do IE.
 
 **Data de lançamento:** 30 de setembro de 2014
 
-Altera a implementação da mbox global para AJAX de document.write. Isso remove o requisito do arquivo mbox.js ser o último item da página <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> . Esta versão está disponível somente via API. Os clientes podem baixá-la e usar esse arquivo mbox.js. Alguns sites apresentam cintilação de conteúdo com essa implementação, portanto, valide a integração no site.
+Altera a implementação da mbox global para AJAX de document.write. Isso remove o requisito do arquivo mbox.js ser o último item da página `<head>`. Esta versão está disponível somente via API. Os clientes podem baixá-la e usar esse arquivo mbox.js. Alguns sites apresentam cintilação de conteúdo com essa implementação, portanto, valide a integração no site.
 
 ## mbox versão 53
 
