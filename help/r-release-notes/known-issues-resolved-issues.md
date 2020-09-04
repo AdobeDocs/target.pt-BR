@@ -5,10 +5,10 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ Observe que esse problema está relacionado apenas ao [!DNL Target] relatórios.
 ### Delivery de página {#page-delivery}
 
 Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no delivery [da](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esse é um problema superficial e não afeta a criação de definição de públicos e o delivery de ofertas. (TGT-35920)
+
+### Links de pré-visualização do controle de qualidade
+
+Os links de visualização de QA da atividade para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tentar novamente os links de visualização deve funcionar. Arquive atividades salvas que não são mais usadas ativamente para impedir que esse problema continue. (TNT-37294)
 
 ### Modo de QA para Recommendations atividade
 
