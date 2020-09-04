@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 93%
@@ -34,7 +34,7 @@ ht-degree: 93%
    + [Entenda a interface do Público alvo](/help/c-intro/understand-the-target-ui.md)
    + Kit de boas-vindas da Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas da Adobe Target](/help/c-intro/target-welcome-kit.md)
-      + [Capítulo 1: Introdução](/help/c-intro/target-welcome-kit-1.md)
+      + [Capítulo 1: Vias](/help/c-intro/target-welcome-kit-1.md)
       + [Capítulo 2: Visão geral do Adobe Target](/help/c-intro/target-welcome-kit-2.md)
       + [Capítulo 3: Desenvolver seus testes e ideias de personalização](/help/c-intro/target-welcome-kit-3.md)
       + [Capítulo 4: Dicas para usar o Público alvo](/help/c-intro/target-welcome-kit-4.md)
@@ -159,10 +159,10 @@ ht-degree: 93%
       + [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Usar serviço de localização](/help/c-target-mobile-app/use-location-service.md)
    + Lado do servidor: implementação do Target {#server-side}
+      + [Lado do servidor: implementar a visão geral do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Notas de versão - APIs do lado do servidor do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Notas de versão - SDK Node.js do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Notas de versão - SDK Java do Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
-      + [Lado do servidor: implementar a visão geral do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transição de APIs herdadas do Target para o Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implementação do Target {#implement-email}
       + [Email: implementação da visão geral do Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
