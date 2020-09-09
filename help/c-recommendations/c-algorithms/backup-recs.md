@@ -5,7 +5,7 @@ title: Usar uma recomendação de backup
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -46,4 +46,4 @@ As duplicatas são removidas dos lotes de recomendações.
 
 O uso das recomendações de backup normalmente faz parte da discussão com a equipe de implementação durante a configuração inicial do programa. Se quiser mudar a configuração da recomendação de backup após a implementação, entre em contato com seu gerente de conta.
 
-Para Habilitar a renderização de design parcial (consulte  [Configurações de conteúdo](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) não estiverem ativadas e o modelo não for exibido, então a recomendação de backup ou o conteúdo padrão serão exibidos.
+Para Habilitar a renderização de design parcial (consulte  [Configurações de conteúdo](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)) não estiverem ativadas e o modelo não for exibido, então a recomendação de backup ou o conteúdo padrão serão exibidos.
