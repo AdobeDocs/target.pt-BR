@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '852'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 31 de agosto de 2020**
+**Última atualização em 9 de setembro de 2020**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -38,6 +38,12 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
    >
 * **Anúncios** do público alvo: Consulte a página de anúncios do Público alvo para obter informações sobre eventos futuros, incluindo sessões do Público alvo Skill Builder, bate-papos para desenvolvedores, webinars e sessões do Público alvo Coffee Break. Para obter mais informações, consulte Anúncios de [Públicos alvos](/help/r-release-notes/target-announcements.md).
 
+
+## Target Standard/Premium 20.8.2 (10 de setembro de 2020)
+
+| Recurso | Detalhes |
+| --- | --- |
+| Controlar slots de recomendações em sequências de critérios | As Sequências de critérios agora permitem controlar o número de slots absorvidos por cada critério de recomendação, permitindo que você combine e corresponda tipos diferentes de itens ou diferentes lógicas de algoritmo.<br>Consulte [Criar sequências](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de critérios para saber mais. |
 
 ## Target Standard/Premium 20.8.1 (2 de setembro de 2020)
 
