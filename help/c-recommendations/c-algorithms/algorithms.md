@@ -5,15 +5,15 @@ title: Critérios no Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![Critérios](/help/assets/premium.png) PREMIUM{#criteria}
+# ![Critérios](/help/assets/premium.png) PREMIUM
 
 Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
 
@@ -107,10 +107,10 @@ Clique na guia **[!UICONTROL Informações do algoritmo]** para exibir as inform
 
 ![Guia Informações do algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de atividades que fazem referência aos critérios selecionados. O cartão lista atividades ativas e inativas. Clique nas listas suspensas atividades Ativas ou Inativas para exibir toda a lista de atividades que fazem referência a esse critério. Você pode clicar no link da atividade para abri-la para edição.
+Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de atividades que fazem referência aos critérios selecionados. As listas de cartão estão ativas, inativas e atividades de rascunho. Clique nas listas suspensas Atividades ativas/Atividades inativas/Atividades de rascunho para visualização toda a lista de atividades que fazem referência a esses critérios. Você pode clicar no link da atividade para abri-la para edição.
 
 ![Guia Uso do algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->O recurso de Uso [!UICONTROL de] algoritmo é atualmente compatível somente com o Recommendations atividade. No momento, esse recurso não é compatível com atividades de teste A/B e direcionamento de experiência (XT) que incluem [recomendações como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+>O recurso de Uso [!UICONTROL de] algoritmo é atualmente compatível somente com o Recommendations atividade. No momento, esse recurso não é compatível com atividades de teste A/B, autoalocação, Público alvo automático e direcionamento de experiência (XT) que incluem [recomendações como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
