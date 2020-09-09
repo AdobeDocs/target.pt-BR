@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -44,7 +44,7 @@ Uma recomendação determina como um produto é sugerido a um visitante, depende
 | Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de mídia similar semelhante àqueles que estão assistindo. | Crie uma recomendação que sugira outros vídeos, usando o critério &quot;Pessoas que viram isso viral aquilo&quot;. |
 | Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA. | Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério &quot;pessoas que viram isso também compraram&quot;. |
 
-Para mais informações sobre estes e outros critérios do [!DNL Recommendations], consulte [Critérios](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Para mais informações sobre estes e outros critérios do [!DNL Recommendations], consulte [Critérios](../c-recommendations/c-algorithms/algorithms.md).
 
 ## Termos
 
