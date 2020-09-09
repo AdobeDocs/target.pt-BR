@@ -5,7 +5,7 @@ title: Atividades do Recommendations Classic versus Recommendations no Target Pr
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Para obter mais informações, consulte [Recommendations como uma oferta](/help/
 
 Os critérios são predefinidos e classificados por setores da indústria, tipos de página e implementação. Por exemplo, você pode procurar pelos critérios que se aplicam ao setor varejista, para o uso em uma página de produto, mostrando produtos dentro de uma categoria específica (como definido pelo parâmetro `entity.categoryID`).
 
-Para obter mais informações sobre o uso e a criação de critérios, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Para obter mais informações sobre o uso e a criação de critérios, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Fluxo de trabalho {#section_76B4A26297BF422382DE2C79A2713D3C}
 
