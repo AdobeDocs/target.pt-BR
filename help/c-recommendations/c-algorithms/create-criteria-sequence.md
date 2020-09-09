@@ -5,7 +5,7 @@ title: Criar sequências de critérios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ Quando você cria uma sequência de critérios, as configurações de recomenda�
 
    O maior número possível de slots será preenchido, mas o modelo de design pode incluir espaço em branco para os slots restantes.
 
-1. (Opcional) Fatia a alternância do **[!UICONTROL Backup Recommendations]** para a posição &quot;ligado&quot;.
+1. (Opcional) Deslize o **[!UICONTROL backup Recommendations]** para alternar para a posição &quot;ligado&quot;.
 
    Preencha todos os slots vazios restantes no design com uma seleção aleatória dos produtos mais visualizados de todo o site.
 
