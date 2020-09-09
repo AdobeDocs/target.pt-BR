@@ -5,10 +5,10 @@ title: Upload dos critérios personalizados
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
    Para obter mais informações sobre como basear os critérios em uma chave, consulte [Baseie a recomendação em uma Chave de recomendação](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 1. Defina suas **[!UICONTROL regras de conteúdo]**.
 
-   Regras de conteúdo determinam o que acontece se o número de itens recomendados não preencher seu design. Por exemplo, se o seu design tem espaço para cinco itens mas seus critérios fazem com que apenas três itens sejam recomendados, você pode deixar os espaços restantes vazios ou pode usar recomendações de backup para preencher o espaço adicional. Selecione as opções apropriadas. Consulte [Configurações de conteúdo](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
+   Regras de conteúdo determinam o que acontece se o número de itens recomendados não preencher seu design. Por exemplo, se o seu design tem espaço para cinco itens mas seus critérios fazem com que apenas três itens sejam recomendados, você pode deixar os espaços restantes vazios ou pode usar recomendações de backup para preencher o espaço adicional. Selecione as opções apropriadas. Consulte [Especifique as configurações](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)do conteúdo.
 1. Defina suas **[!UICONTROL Regras de inclusão]**.
 
-   Regras de inclusão ajudam a limitar os itens que são exibidos em suas recomendações. Consulte [Regras de inclusão](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Selecione o **[!UICONTROL local]** do seu arquivo CSV.
+   Regras de inclusão ajudam a limitar os itens que são exibidos em suas recomendações. Consulte [Especifique as regras](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)de inclusão. 1. Selecione o **[!UICONTROL local]** do seu arquivo CSV.
 
    O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Clique em **[!UICONTROL Baixar o modelo CSV]** para obter um arquivo CSV formatado corretamente.
 
