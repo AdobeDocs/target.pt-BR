@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1509'
 ht-degree: 93%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 93%
    + [Entenda a interface do Público alvo](/help/c-intro/understand-the-target-ui.md)
    + Kit de boas-vindas da Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas da Adobe Target](/help/c-intro/target-welcome-kit.md)
-      + [Capítulo 1: Vias](/help/c-intro/target-welcome-kit-1.md)
+      + [Capítulo 1: Introdução](/help/c-intro/target-welcome-kit-1.md)
       + [Capítulo 2: Visão geral do Adobe Target](/help/c-intro/target-welcome-kit-2.md)
       + [Capítulo 3: Desenvolver seus testes e ideias de personalização](/help/c-intro/target-welcome-kit-3.md)
       + [Capítulo 4: Dicas para usar o Público alvo](/help/c-intro/target-welcome-kit-4.md)
@@ -378,6 +378,7 @@ ht-degree: 93%
    + Critérios {#criteria}
       + [Visão geral dos critérios](c-recommendations/c-algorithms/algorithms.md)
       + [Criar critérios](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Criar sequências de critérios](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Upload dos critérios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Uso das regras de inclusão estática e dinâmica](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
