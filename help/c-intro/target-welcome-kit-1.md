@@ -4,7 +4,7 @@ description: Kit de boas-vindas da Adobe Target - Capítulo 1 - Introdução
 title: Kit de boas-vindas da Adobe Target - Capítulo 1 - Introdução
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Capítulo 1: Vias
+# Capítulo 1: Introdução
 
 Se você é como a maioria das empresas hoje, modernizou seus canais de marketing digital. Agora, você está procurando maneiras de distinguir sua marca — para se separar do pacote e, ao fazer isso, aumentar a receita, as taxas de conversão e outras métricas principais de negócios. Uma maneira de fazer isso é otimizar e personalizar as experiências digitais que você oferece aos seus clientes usando o que você sabe sobre eles para aproveitar ao máximo suas interações em seu site, site móvel, aplicativo móvel ou qualquer outro ponto de contato de marca. Você pode até desejar estender essa otimização e personalização além dos pontos de contato digitais tradicionais para pontos de contato como quiosques, dispositivos de Internet das coisas (IoT), interações com a central de atendimento e assistentes de voz como a Alexa. As marcas que usaram [!DNL Target] para testar e personalizar suas experiências digitais obtiveram resultados incríveis.
 
@@ -29,3 +29,4 @@ Se você estiver revisando esse kit de boas-vindas, já decidiu criar seu progra
 Agora queremos ter certeza de que você está start de usá-lo da maneira certa, imediatamente.
 
 Para ajudar nisso, criamos este kit de boas-vindas, com informações importantes, ferramentas e recursos para ajudá-lo a se preparar e lançar sua primeira [!DNL Target] atividade. A longo prazo, esses conteúdos também fornecem a base para a criação de um programa de otimização e personalização bem-sucedido.
+
