@@ -5,7 +5,7 @@ title: Upload dos critérios personalizados
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 97%
@@ -51,7 +51,7 @@ Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. A
    Juntos, o negócio vertical e tipos de página são usados para categorizar seu critério salvo, tornando mais fácil o reuso de critérios para outras atividades do [!UICONTROL Recommendations].
 1. Selecione uma **[!UICONTROL Chave de recomendação]**.
 
-   Para obter mais informações sobre como basear os critérios em uma chave, consulte [Baseie a recomendação em uma Chave de recomendação](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Para obter mais informações sobre como basear os critérios em uma chave, consulte [Baseie a recomendação em uma Chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 1. Defina suas **[!UICONTROL regras de conteúdo]**.
 
    Regras de conteúdo determinam o que acontece se o número de itens recomendados não preencher seu design. Por exemplo, se o seu design tem espaço para cinco itens mas seus critérios fazem com que apenas três itens sejam recomendados, você pode deixar os espaços restantes vazios ou pode usar recomendações de backup para preencher o espaço adicional. Selecione as opções apropriadas. Consulte [Especifique as configurações](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)do conteúdo.
