@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 11%
 
 ---
@@ -43,7 +43,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 | Recurso | Detalhes |
 | --- | --- |
-| Controlar slots de recomendações em sequências de critérios | As Sequências de critérios agora permitem controlar o número de slots absorvidos por cada critério de recomendação, permitindo que você combine e corresponda tipos diferentes de itens ou diferentes lógicas de algoritmo.<br>Consulte [Criar sequências](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de critérios para saber mais. |
+| ![Slots de recomendações de controle de emblema](/help/assets/premium.png) Premium em sequências de critérios | As Sequências de critérios agora permitem controlar o número de slots absorvidos por cada critério de recomendação, permitindo que você combine e corresponda tipos diferentes de itens ou diferentes lógicas de algoritmo.<br>Consulte [Criar sequências](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de critérios para saber mais. |
 
 ## Target Standard/Premium 20.8.1 (2 de setembro de 2020)
 
