@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Critérios no Adobe Target Recommendations são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos de visitante.
+description: Critérios no Adobe Target são regras que determinam quais produtos ou conteúdo serão recomendados com base em um conjunto predeterminado de comportamentos de visitante.
 title: Critérios no Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 69%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
 
 # ![Critérios](/help/assets/premium.png) PREMIUM
 
-Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Os critérios podem ser baseados em tendências populares, nos comportamentos atuais e passados de um visitante ou em produtos e conteúdo semelhantes. Você pode comparar vários tipos de recomendação por meio da adição de vários critérios.
 
-Os critérios determinam qual ação resultará em qual recomendação. Você pode comparar vários tipos de recomendação por meio da adição de vários critérios.
+As seções a seguir explicam mais sobre chaves de critérios e a lógica de recomendação que você pode usar para cada chave. Clique nos links para obter informações mais detalhadas.
 
 ## Vertical do setor {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-Você seleciona um vertical do setor com base nos objetivos da atividade do Recommendations. Dependendo do vertical do setor selecionado,
+Ao criar um critério, você seleciona um vertical do setor com base nas metas de sua atividade de recomendações.
 
 | Vertical do setor | Meta |
 |--- |--- |
@@ -29,9 +29,15 @@ Você seleciona um vertical do setor com base nos objetivos da atividade do Reco
 | Geração de lead/B2B/Serviços financeiros | Conversão sem compra |
 | Mídia/Publicação | Envolvimento |
 
+Outras opções de critérios mudam com base no vertical do setor selecionado. Você pode definir seu setor padrão vertical na página **[!UICONTROL Recommendations > Configurações]** ou especificar o vertical do setor para cada critério.
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 A chave de recomendação selecionada determina o tipo de critério. Há vários tipos de critérios, que são representados como cartões de critérios quando você configura uma atividade do [!DNL Recommendations].
+
+![Página Critérios](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+A tabela a seguir explica os vários tipos de critérios e as chaves que os acompanham. Clique nos links para obter informações mais detalhadas sobre cada chave.
 
 | Tipo de critério | Teclas |
 |--- |--- |
@@ -39,7 +45,7 @@ A chave de recomendação selecionada determina o tipo de critério. Há vários
 | Personalizado | Recomende itens com base em atributos personalizados.<ul><li>[Atributo personalizado ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Ao basear as recomendações em atributos personalizados, selecione o atributo personalizado e, em seguida, selecione o tipo de recomendação. |
 | Comportamento anterior | Itens recomendados com base no modo como os visitantes responderam a um item no passado. Por exemplo, pessoas que compram um item de uma determinada marca têm maior probabilidade de comprar outro item dessa mesma marca.<ul><li>[Último item comprado](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Último item visualizado](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Item Mais Visualizado](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Categoria favorita](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | Popularidade | Recomende os itens mais populares, como os vídeos mais acessados em uma categoria relacionada ou os produtos que foram mais vistos no seu site.<ul><li>[Popularidade](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| Itens visualizados recentemente | Recomende os itens que um visitante viu mais recentemente, como os itens que o visitante viu na última vez em que visitou seu site, ou os artigos mais populares do momento.<br>O algoritmo de Itens visualizados recentemente retorna resultados específicos para a atividade de um visitante em um [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre eles, o algoritmo retornará apenas os itens visualizados recentemente do site apropriado.<br>Esse tipo de critério não é limitado por coleções.<ul><li>[Itens visualizados recentemente ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**Observação:** você não pode usar os critérios de Itens visualizados recentemente para recomendações de backup.<br>Os itens/mídias visualizados recentemente agora podem ser filtrados para que somente os itens com um determinado atributo sejam exibidos.<ul><li>Os critérios visualizados recentemente são configuráveis, exatamente como os outros critérios nas recomendações.</li><li>Você pode utilizar [coleções](/help/c-recommendations/c-products/collections.md), [exclusões](/help/c-recommendations/c-products/exclusions.md) e [inclusões](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.</li></ul>Os possíveis casos de uso incluem:<ul><li>Uma empresa multinacional com diversas empresas pode ter itens de exibição de visitantes em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que os itens visualizados recentemente sejam exibidos no site de outra propriedade digital.</li></ul> |
+| [Itens visualizados recentemente ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Itens recomendados que um visitante visualizou mais recentemente, como os itens que um visitante visualizou na última vez em que visitou site, ou os artigos que apresentam as tendências mais importantes no momento. |
 
 ## Uso de uma chave de recomendação personalizada {#custom-key}
 
