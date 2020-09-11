@@ -4,7 +4,7 @@ description: Informações sobre como trabalhar com um campo de vários valores 
 title: Trabalhar com atributos de vários valores no Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -72,7 +72,6 @@ Os operadores a seguir estão disponíveis para uso com atributos de entidade, p
 >[!NOTE]
 >
 >Atualmente, o suporte para a correspondência dinâmica com atributos de vários valores está disponível somente em critérios ao usar uma regra de correspondência de atributo de perfil ou parâmetro (mbox) ao comparar um único valor do lado esquerdo a um lado direito de vários valores. Os atributos de vários valores não são suportados atualmente em promoções, correspondência de atributos de entidade ou para listas no lado esquerdo das regras de inclusão.
-
 
 ### Exemplo: Excluir itens observados recentemente
 
