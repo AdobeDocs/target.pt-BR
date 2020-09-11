@@ -5,10 +5,10 @@ title: Basear a recomendação em uma chave de recomendação
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
+source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 70%
+source-wordcount: '2692'
+ht-degree: 72%
 
 ---
 
@@ -77,6 +77,23 @@ Quando essa opção é selecionada, o valor `entity.categoryId` deve ser passado
 Recomendação determinada por um item que é armazenado no perfil do visitante, utilizando os atributos usuário.*x* ou perfil.*x* atributos.
 
 Quando esta opção é selecionada, o valor `entity.id` deve estar presente no atributo do perfil.
+
+Ao basear as recomendações em atributos personalizados, selecione o atributo personalizado e, em seguida, selecione o tipo de recomendação.
+
+Você pode realizar uma filtragem em tempo real sobre os próprios resultados de critérios personalizados. Por exemplo, você pode limitar os itens recomendados somente àqueles da categoria ou marca favorita de um visitante. Isso permite combinar os cálculos offline com filtragens em tempo real.
+
+This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Isso combina o poder de seus cientistas de dados e pesquisa com a entrega testada e comprovada da Adobe, filtragem em tempo de execução, testes A/B, direcionamento, relatórios, integrações e muito mais.
+
+Com a adição das regras de inclusão aos critérios personalizados, as recomendações foram transformadas de estáticas para dinâmicas com base nos interesses de um visitante.
+
+* Os critérios personalizados agora podem ser configurados, assim como outros critérios nas recomendações.
+* Você pode utilizar [coleções](/help/c-recommendations/c-products/collections.md), [exclusões](/help/c-recommendations/c-products/exclusions.md) e [inclusões](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.
+
+Os possíveis casos de uso incluem:
+
+* Você deseja recomendar filmes de uma lista personalizada, mas somente se o visitante ainda não os assistiu.
+* Você deseja executar um algoritmo offline e usar os resultados para ativar suas recomendações, mas é necessário garantir que itens fora de estoque nunca sejam recomendados.
+* Você deseja incluir apenas itens que são da categoria favorita deste visitante.
 
 #### Lógica (critério)
 
@@ -226,11 +243,15 @@ O critério Itens visualizados recentemente agora retorna resultados específico
 
 ## Lógica da recomendação
 
+O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quando as ações de um visitante se qualificam para os critérios definidos na sua atividade. A chave de recomendação determina as opções de lógica de recomendação disponíveis.
+
 A seguinte lógica de recomendação (critérios) está disponível na lista suspensa Lógica [!UICONTROL de] recomendação:
 
-### Itens com atributos semelhantes
+### Itens/Mídia com atributos semelhantes
 
-Similaridade de conteúdo compara palavras-chave de atributo do item e faz recomendações baseadas em quantas palavras-chave itens diferentes têm em comum. Recommendations baseadas em similaridade de conteúdo não requerem dados antigos para providenciar melhores resultados.
+Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante.
+
+Se você selecionar Itens/Mídia com atributos semelhantes, terá a opção de definir regras de similaridade de conteúdo.
 
 O uso da similaridade de conteúdo para gerar recomendações é especialmente eficaz para novos itens, que provavelmente não serão exibidos nas recomendações usando Pessoas que visualizaram isso, viram aquilo e outras lógicas com base no comportamento anterior. Você também pode usar similaridade de conteúdo para gerar recomendações úteis para novos visitantes, que não possuem compras antigas ou outros dados de histórico.
 
@@ -245,9 +266,9 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
 ### Mais visualizados
 
-Exibe os itens mais visualizados em seu site.
+Exibe os itens ou mídias visualizados com mais frequência no site.
 
-Essa lógica permite que você exiba recomendações com base nos itens mais visualizados do site para aumentar as conversões de outros itens. Por exemplo, um site de mídia pode exibir recomendações em seu home page para seus vídeos mais populares, a fim de incentivar visitantes a assistir a vídeos adicionais.
+Essa lógica permite que você exiba recomendações com base nos itens mais visualizados do site para aumentar as conversões de outros itens. Por exemplo, um site de mídia pode exibir recomendações em seu home page para seus vídeos mais visualizados, a fim de incentivar visitantes a assistir a vídeos adicionais.
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
@@ -258,9 +279,9 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
 ### Pessoas que compraram isto, compraram aquilo
 
-Exibe itens que outros visitantes também compraram que compraram o item selecionado.
+Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado.
 
-Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram, como gravatas, sapatos de vestimenta e caixotes. À medida que os visitantes revisam suas compras, você fornece recomendações de compra adicionais.
+Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos de vestimenta e caixotes. À medida que os visitantes revisam suas compras, você fornece recomendações adicionais.
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
@@ -272,9 +293,9 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
 ### Pessoas que visualizaram isto, compraram aquilo
 
-Exibe outros itens comprados por visitantes que visualizaram o item selecionado.
+Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Este critério retorna outros produtos que pessoas compraram depois de ver este, o produto especificado não é incluído nos resultados.
 
-Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes visualizaram o item comprado. Por exemplo, se o visitante estiver visualizando uma haste de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes visualizam o item comprado, como caixas de ataque, panelas e lures de pesca. À medida que os visitantes navegam pelo seu site, você fornece recomendações de compra adicionais.
+Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes visualizaram o item comprado. Por exemplo, se o visitante estiver visualizando uma haste de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de ataque, panelas e lures de pesca. À medida que os visitantes navegam pelo seu site, você fornece recomendações de compra adicionais.
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
@@ -286,9 +307,9 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
 ### Pessoas que visualizaram isto, visualizaram aquilo
 
-Exibe itens que outros visitantes também visualizaram e que visualizaram o item selecionado.
+Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado.
 
-Essa lógica permite criar oportunidades de conversão adicionais recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, visitantes que visualizações bicicletas de estrada em seu site também podem olhar para capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. É possível criar uma recomendação usando essa lógica que sugere outros produtos.
+Essa lógica permite criar oportunidades de conversão adicionais recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, visitantes que visualizações bicicletas de estrada em seu site também podem olhar para capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere outros produtos para ajudá-lo a aumentar a receita.
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
@@ -300,9 +321,11 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
 ### Afinidade do site
 
-Exibe itens usando um algoritmo proprietário do Adobe para recomendar outros itens com base em critérios, como visualizações de páginas de produtos, compras e atividades do carrinho de compras (adicionar ou remover itens, exibir o carrinho etc.)
+Recomenda itens com base na certeza de uma relação entre os itens. Você pode configurar esses critérios para determinar quantos dados são exigidos antes de uma recomendação ser apresentada usando o controle deslizante Regras de inclusão. Por exemplo, se você selecionar muito forte, serão recomendados os produtos com maior certeza de correspondência.
 
-Por exemplo, um varejista on-line pode recomendar itens que um visitante demonstrou interesse em sessões passadas em visitas subsequentes. A atividade de cada sessão de visitante é capturada para calcular uma pontuação de afinidade com base em um modelo de recenticidade e frequência. Conforme esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações passadas no seu site.
+Por exemplo, se você definir uma afinidade muito forte e seu design incluir cinco itens, três dos quais alcançam o limite de força de conexão, os dois itens que não alcançarem os requisitos mínimos de força não serão exibidos nas recomendações e serão substituídos por seus itens de backup definidos. Os itens com a maior afinidade são exibidos primeiro.
+
+Por exemplo, um varejista online pode recomendar itens em visitas subsequentes nos quais um visitante tenha mostrado interesse durante sessões passadas. A atividade de cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. Conforme esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações passadas no seu site.
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
@@ -313,11 +336,31 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
 ### Mais vendidos
 
-Exibe os itens mais vendidos em seu site com base em conversões de visitantes.
+Exibe os itens incluídos nas ordens mais concluídas. Várias unidades do mesmo item em um único pedido são contadas como um pedido.
 
-Essa lógica permite que você crie recomendações para itens populares no seu site para aumentar a conversão. Essa lógica é especialmente adequada para visitantes pela primeira vez do site.
+Essa lógica permite que você crie recomendações para itens mais vendidos no seu site para aumentar a conversão e a receita. Essa lógica é especialmente adequada para visitantes pela primeira vez do site.
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
 * Categoria favorita
 * Popularidade
+
+### Recommendations baseado em usuário
+
+Recomenda itens com base em cada histórico de navegação, exibição e compra de visitantes. Esses itens são geralmente chamados de &quot;Recomendado para você&quot;.
+
+Esse critério permite que você forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada em sessão e se torna mais personalizada à medida que o usuário navega em seu site.
+
+As visualizações e compras são usadas para determinar os itens recomendados. A chave de recomendação especificada (por exemplo, Item atual) é usada para aplicar qualquer filtros de regra de inclusão selecionado.
+
+Por exemplo, você pode:
+
+* Exclua itens que não atendem a determinados critérios (produtos esgotados, artigos publicados há mais de 30 dias, filmes com classificação R etc.).
+* Limitar itens incluídos a uma única categoria ou à categoria atual.
+
+Essa lógica pode ser usada com as seguintes chaves de recomendação:
+
+* Item Atual
+* Último item comprado
+* Último item visualizado
+* Item Mais Visualizado
