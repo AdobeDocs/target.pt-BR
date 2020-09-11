@@ -5,10 +5,10 @@ title: Basear a recomendação em uma chave de recomendação
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 70%
+source-wordcount: '2889'
+ht-degree: 69%
 
 ---
 
@@ -231,7 +231,20 @@ A recomendação é determinada pela popularidade de itens em seu site. A popula
 
 Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante viu, baseado no número de slots no design.
 
-O critério Itens visualizados recentemente agora retorna resultados específicos a um certo [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens visualizados recentemente do site em questão. Caso dois sites estejam no mesmo ambiente e um visitante alternar entre eles, ele verá os mesmos itens visualizados recentemente em ambos os sites.
+The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens visualizados recentemente do site em questão. Caso dois sites estejam no mesmo ambiente e um visitante alternar entre eles, ele verá os mesmos itens visualizados recentemente em ambos os sites.
+
+>[!NOTE]
+>
+>You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+
+Os itens/mídias visualizados recentemente agora podem ser filtrados para que somente os itens com um determinado atributo sejam exibidos.
+
+* Os critérios visualizados recentemente são configuráveis, exatamente como os outros critérios nas recomendações.
+* Você pode utilizar [coleções](/help/c-recommendations/c-products/collections.md), [exclusões](/help/c-recommendations/c-products/exclusions.md) e [inclusões](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.
+
+Os possíveis casos de uso incluem:
+
+Uma empresa multinacional com diversas empresas pode ter itens de exibição de visitantes em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que os itens visualizados recentemente sejam exibidos no site de outra propriedade digital.
 
 #### Onde usar em seu site
 
@@ -239,7 +252,7 @@ O critério Itens visualizados recentemente agora retorna resultados específico
 
 >[!NOTE]
 >
->Os Itens visualizados recentemente respeitam as configurações globais de Exclusões e a configuração de Coleção selecionada para a Atividade. Se um item for excluído por uma Exclusão global ou não fizer parte da Coleção selecionada, ele não será exibido; portanto, ao usar um critério de Itens visualizados recentemente, a configuração “Todas as coleções” geralmente deve ser usada.
+>[!UICONTROL Itens] visualizados recentemente respeitam as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
 
 ## Lógica da recomendação
 
