@@ -5,10 +5,10 @@ title: Basear a recomendação em uma chave de recomendação
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 72%
+source-wordcount: '2777'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Cada critério é definido em sua própria guia. O tráfego é dividido uniforme
 
 As seguintes chaves de recomendação estão disponíveis na lista suspensa Chave [!UICONTROL de] recomendação:
 
-### Item Atual
+### Item Atual {#current-item}
 
 A recomendação é determinada pelo item que o visitante está vendo atualmente.
 
@@ -54,7 +54,7 @@ Quando essa opção é selecionada, o valor `entity.id` deve ser passado como pa
 * Páginas de item único, como páginas de produtos.
 * NÃO use em páginas de resultados de busca nulos.
 
-### Categoria Atual
+### Categoria Atual {#current-category}
 
 A recomendação é determinada pela categoria de produto que o visitante está vendo atualmente.
 
@@ -133,7 +133,29 @@ Se o atributo de perfil personalizado não corresponder diretamente a uma única
 
    ![Caixa de diálogo 2 Criar novos critérios](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Último item comprado
+### Categoria favorita {#favorite-category}
+
+A recomendação é determinada pela categoria que recebeu a mais atividade, utilizando o mesmo método usado para &quot;item mais visto&quot;, exceto que as categorias são classificadas, em vez de os produtos.
+
+Isso é determinado pelos critérios de recenticidade/frequência que funciona da seguinte maneira:
+
+* 10 pontos para primeira visualização de categoria
+* 5 pontos para cada visualização seguinte
+
+Categorias visitadas pela primeira vez recebem 10 pontos. 5 pontos são dados para visitas seguintes para a mesma categoria. Com cada visita, categorias não atuais que foram vistas anteriormente são diminuídas em 1.
+
+Por exemplo, a visualização da categoria A e da categoria B em uma sessão resulta em A: 9, B: 10. Se você viu os mesmos itens na próxima sessão, os valores mudam para A: 20, B: 9.
+
+#### Lógica (critério)
+
+* [!UICONTROL Mais vendidos]
+* [!UICONTROL Mais visualizados]
+
+#### Onde usar em seu site
+
+* Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
+
+### Último item comprado {#last-purchased}
 
 A recomendação é determinada pelo último item comprado por cada visitante único. Ela é capturada automaticamente, assim nenhum valor precisa ser aprovado na página.
 
@@ -150,7 +172,7 @@ A recomendação é determinada pelo último item comprado por cada visitante ú
 * Página inicial, página minha conta, anúncios em outros sites.
 * NÃO use nas páginas do produto ou páginas relevantes para compras.
 
-### Último item visualizado
+### Último item visualizado {#last-viewed}
 
 A recomendação é determinada pelo último item visto por cada visitante único. Ela é capturada automaticamente, assim nenhum valor precisa ser aprovado na página.
 
@@ -167,7 +189,7 @@ A recomendação é determinada pelo último item visto por cada visitante únic
 * Página inicial, página minha conta, anúncios em outros sites.
 * NÃO use nas páginas do produto ou páginas relevantes para compras.
 
-### Item Mais Visualizado
+### Item Mais Visualizado {#most-viewed}
 
 A recomendação é determinada pelo item visto com mais frequência, usando o mesmo método utilizado para a categoria de favoritos.
 
@@ -191,29 +213,7 @@ Por exemplo, visualizar a prancha_de_surfe_A e depois a prancha_de_surfe_B em um
 
 * Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
 
-### Categoria favorita
-
-A recomendação é determinada pela categoria que recebeu a mais atividade, utilizando o mesmo método usado para &quot;item mais visto&quot;, exceto que as categorias são classificadas, em vez de os produtos.
-
-Isso é determinado pelos critérios de recenticidade/frequência que funciona da seguinte maneira:
-
-* 10 pontos para primeira visualização de categoria
-* 5 pontos para cada visualização seguinte
-
-Categorias visitadas pela primeira vez recebem 10 pontos. 5 pontos são dados para visitas seguintes para a mesma categoria. Com cada visita, categorias não atuais que foram vistas anteriormente são diminuídas em 1.
-
-Por exemplo, a visualização da categoria A e da categoria B em uma sessão resulta em A: 9, B: 10. Se você viu os mesmos itens na próxima sessão, os valores mudam para A: 20, B: 9.
-
-#### Lógica (critério)
-
-* [!UICONTROL Mais vendidos]
-* [!UICONTROL Mais visualizados]
-
-#### Onde usar em seu site
-
-* Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
-
-### Popularidade
+### Popularidade {#popularity}
 
 A recomendação é determinada pela popularidade de itens em seu site. A popularidade inclui os principais vendedores e os mais visualizados por dados de mbox e, se você utilizar o Adobe Analytics, todas as métricas disponíveis no relatório do produto. Itens são classificados de acordo com a lógica de recomendação que você selecionou.
 
@@ -247,7 +247,7 @@ O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quan
 
 A seguinte lógica de recomendação (critérios) está disponível na lista suspensa Lógica [!UICONTROL de] recomendação:
 
-### Itens/Mídia com atributos semelhantes
+### Itens/Mídia com atributos semelhantes {#similar-attributes}
 
 Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante.
 
@@ -264,7 +264,7 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Último item visualizado
 * Item Mais Visualizado
 
-### Mais visualizados
+### Mais visualizados {#most-viewed-logic}
 
 Exibe os itens ou mídias visualizados com mais frequência no site.
 
@@ -277,9 +277,11 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Categoria favorita
 * Popularidade
 
-### Pessoas que compraram isto, compraram aquilo
+### Pessoas que compraram isto, compraram aquilo {#bought-bought}
 
 Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado.
+
+Esta lógica retorna outros produtos que as pessoas compraram depois de comprarem este; o produto especificado não está incluído no conjunto de resultados.
 
 Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos de vestimenta e caixotes. À medida que os visitantes revisam suas compras, você fornece recomendações adicionais.
 
@@ -291,9 +293,11 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Último item visualizado
 * Item Mais Visualizado
 
-### Pessoas que visualizaram isto, compraram aquilo
+### Pessoas que visualizaram isto, compraram aquilo {#viewed-bought}
 
 Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Este critério retorna outros produtos que pessoas compraram depois de ver este, o produto especificado não é incluído nos resultados.
+
+Essa lógica retorna outros produtos que as pessoas compraram depois de ver este; o produto especificado não está incluído no conjunto de resultados.
 
 Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes visualizaram o item comprado. Por exemplo, se o visitante estiver visualizando uma haste de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de ataque, panelas e lures de pesca. À medida que os visitantes navegam pelo seu site, você fornece recomendações de compra adicionais.
 
@@ -305,9 +309,11 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Último item visualizado
 * Item Mais Visualizado
 
-### Pessoas que visualizaram isto, visualizaram aquilo
+### Pessoas que visualizaram isto, visualizaram aquilo {#viewed-viewed}
 
 Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado.
+
+Esta lógica retorna outros produtos que as pessoas visualizaram depois de ver este; o produto especificado não está incluído no conjunto de resultados.
 
 Essa lógica permite criar oportunidades de conversão adicionais recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, visitantes que visualizações bicicletas de estrada em seu site também podem olhar para capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere outros produtos para ajudá-lo a aumentar a receita.
 
@@ -319,13 +325,15 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Último item visualizado
 * Item Mais Visualizado
 
-### Afinidade do site
+### Afinidade do site {#site-affinity}
 
 Recomenda itens com base na certeza de uma relação entre os itens. Você pode configurar esses critérios para determinar quantos dados são exigidos antes de uma recomendação ser apresentada usando o controle deslizante Regras de inclusão. Por exemplo, se você selecionar muito forte, serão recomendados os produtos com maior certeza de correspondência.
 
 Por exemplo, se você definir uma afinidade muito forte e seu design incluir cinco itens, três dos quais alcançam o limite de força de conexão, os dois itens que não alcançarem os requisitos mínimos de força não serão exibidos nas recomendações e serão substituídos por seus itens de backup definidos. Os itens com a maior afinidade são exibidos primeiro.
 
 Por exemplo, um varejista online pode recomendar itens em visitas subsequentes nos quais um visitante tenha mostrado interesse durante sessões passadas. A atividade de cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. Conforme esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações passadas no seu site.
+
+Alguns clientes com coleções de produtos e comportamento do site diversos poderão obter melhores resultados caso definam uma afinidade do site fraca.
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
@@ -334,7 +342,7 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Último item visualizado
 * Item Mais Visualizado
 
-### Mais vendidos
+### Mais vendidos {#top-sellers}
 
 Exibe os itens incluídos nas ordens mais concluídas. Várias unidades do mesmo item em um único pedido são contadas como um pedido.
 
@@ -345,7 +353,7 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Categoria favorita
 * Popularidade
 
-### Recommendations baseado em usuário
+### Recommendations baseado em usuário {#user-based}
 
 Recomenda itens com base em cada histórico de navegação, exibição e compra de visitantes. Esses itens são geralmente chamados de &quot;Recomendado para você&quot;.
 
