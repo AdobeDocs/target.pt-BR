@@ -5,10 +5,10 @@ title: Upload dos critérios personalizados
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 66%
+source-wordcount: '1893'
+ht-degree: 65%
 
 ---
 
@@ -49,11 +49,13 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar novo cr
 
    A descrição deve ajudá-lo a identificar os critérios e pode incluir informações sobre a finalidade dos critérios.
 
-1. Selecione um **[!UICONTROL negócio vertical]**:
+1. Selecione um vertical do setor com base nas metas de sua atividade de recomendações.
 
-   * [!UICONTROL Varejo/Comércio eletrônico]
-   * [!UICONTROL Geração de lead/B2B/Serviços financeiros]
-   * [!UICONTROL Mídia/Publicação]
+   | Vertical do setor | Meta |
+   |--- |--- |
+   | Varejo/Comércio eletrônico | Conversão resultando em compra |
+   | Geração de lead/B2B/Serviços financeiros | Conversão sem compra |
+   | Mídia/Publicação | Envolvimento |
 
    Outras opções de critério irão mudar de acordo com o negócio vertical que você selecionar.
 
