@@ -5,9 +5,9 @@ title: Criar critérios
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2422'
 ht-degree: 66%
 
 ---
@@ -53,11 +53,13 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar novo cr
 
    A descrição deve ajudá-lo a identificar os critérios e pode incluir informações sobre a finalidade dos critérios.
 
-1. Selecione um **[!UICONTROL negócio vertical]**:
+1. Selecione um vertical do setor com base nas metas de sua atividade de recomendações.
 
-   * [!UICONTROL Varejo/Comércio eletrônico]
-   * [!UICONTROL Geração de lead/B2B/Serviços financeiros]
-   * [!UICONTROL Mídia/Publicação]
+   | Vertical do setor | Meta |
+   |--- |--- |
+   | Varejo/Comércio eletrônico | Conversão resultando em compra |
+   | Geração de lead/B2B/Serviços financeiros | Conversão sem compra |
+   | Mídia/Publicação | Envolvimento |
 
    Outras opções de critério irão mudar de acordo com o negócio vertical que você selecionar.
 
