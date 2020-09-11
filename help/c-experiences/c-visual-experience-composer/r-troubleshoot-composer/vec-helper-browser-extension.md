@@ -5,10 +5,10 @@ title: Extensão de ajuda do Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 61%
+source-wordcount: '880'
+ht-degree: 59%
 
 ---
 
@@ -35,6 +35,9 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 * Todos os cabeçalhos de interrupção de iframe, como X-Frame-Opções e Conteúdo-Segurança-Política, são removidos implicitamente do site. Não é mais necessário criar regras Solicitáveis complexas para fazer isso.
 * Se uma página da Web ainda não contiver a biblioteca JavaScript do at.js [!DNL Target], você poderá usar a extensão e inserir a biblioteca para poder criar experiências no site. Em seguida, você pode criar atividades, além de QA, usando links de visualização.
+
+   Observe que ao usar o Enhanced Experience Composer (EEC), a extensão não injeta o at.js, mas a funcionalidade do mesmo cookie de site ainda está presente. Para injetar o at.js na página Web, desligue a CEE.
+
 * [Os visores](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) móveis são suportados mesmo sem o [!UICONTROL Enhanced Experience Composer] (EEC).
 * Os clientes novos do [!DNL Target] podem usar a extensão para experimentar com [!DNL Target] mesmo se os desenvolvedores de TI ainda não tiverem implementado o [!DNL Target] em seus sites.
 * Os parceiros que servem vários sites e contas do [!DNL Target] de vários clientes agora têm um mecanismo simples para suportar o carregamento do VEC, em vez de gerenciar várias regras em ferramentas de terceiros.
