@@ -1,21 +1,21 @@
 ---
 keywords: recommendation;backup;back up
-description: Se for usado o recurso de recomendação de backup, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
+description: Se você usar o recurso de recomendação de backup no Adobe Target, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
 title: Usar uma recomendação de backup
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Use uma recomendação de backup{#use-a-backup-recommendation}
 
-Se for usado o recurso de recomendação de backup, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
+Se você usar o recurso de recomendação de backup no Adobe Target, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
 
 Se você não usar a recomendação de backup, se uma recomendação não tiver itens suficientes para preencher a tela, o sistema exibirá o conteúdo padrão para o usuário.
 
