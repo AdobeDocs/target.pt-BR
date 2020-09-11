@@ -5,10 +5,10 @@ title: Criar sequências de critérios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar sequên
 
    A descrição deve ajudá-lo a identificar a sequência de critérios e pode incluir informações sobre sua finalidade.
 
-1. Selecione um **[!UICONTROL negócio vertical]**.
+1. Selecione um vertical do setor com base nas metas de sua atividade de recomendações.
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | Vertical do setor | Meta |
+   |--- |--- |
+   | Varejo/Comércio eletrônico | Conversão resultando em compra |
+   | Geração de lead/B2B/Serviços financeiros | Conversão sem compra |
+   | Mídia/Publicação | Envolvimento |
+
+   Seu negócio vertical padrão aparece automaticamente.
+
+   Outras opções de critério irão mudar de acordo com o negócio vertical que você selecionar.
 
 1. Selecione um **[!UICONTROL Tipo de página]**.
 
