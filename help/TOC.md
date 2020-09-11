@@ -1,12 +1,13 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Ajuda do Adobe Target
+user-guide-title: Guia Adobe Target
+breadcrumb-title: Target Guide
 user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: f6cd9dacf554b04e65f3978fc28bd1346879a075
+source-git-commit: e31e21d4485dfd0357898e1e2d3e47c730876226
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 93%
@@ -34,7 +35,7 @@ ht-degree: 93%
    + [Entenda a interface do Público alvo](/help/c-intro/understand-the-target-ui.md)
    + Kit de boas-vindas da Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas da Adobe Target](/help/c-intro/target-welcome-kit.md)
-      + [Capítulo 1: Vias](/help/c-intro/target-welcome-kit-1.md)
+      + [Capítulo 1: Introdução](/help/c-intro/target-welcome-kit-1.md)
       + [Capítulo 2: Visão geral do Adobe Target](/help/c-intro/target-welcome-kit-2.md)
       + [Capítulo 3: Desenvolver seus testes e ideias de personalização](/help/c-intro/target-welcome-kit-3.md)
       + [Capítulo 4: Dicas para usar o Público alvo](/help/c-intro/target-welcome-kit-4.md)
