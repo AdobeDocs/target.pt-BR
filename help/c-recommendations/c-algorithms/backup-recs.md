@@ -1,14 +1,14 @@
 ---
 keywords: recommendation;backup;back up
 description: Se você usar o recurso de recomendação de backup no Adobe Target, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
-title: Usar uma recomendação de backup
+title: Usar uma recomendação de backup no Adobe Target Recommendations
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '523'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 90%
 Se você usar o recurso de recomendação de backup no Adobe Target, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
 
 Se você não usar a recomendação de backup, se uma recomendação não tiver itens suficientes para preencher a tela, o sistema exibirá o conteúdo padrão para o usuário.
+
+>[!NOTE]
+>
+>Informações adicionais estão incluídas na seção [Conteúdo do tópico Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , incluindo uma matriz que explica os resultados que você observará ao usar as opções [!UICONTROL Parcial de renderização] de design e [!UICONTROL Mostrar backup Recommendations] juntas ou separadamente.
 
 O recurso de recomendação de backup sempre usa os principais itens visualizados no site para preencher as vagas restantes após os dados do algoritmo serem usados. Por exemplo, seu modelo está configurado para mostrar cinco itens recomendados e você está usando o algoritmo de *Afinidades de compra*. No entanto, você só tem dados suficientes para preencher duas das cinco vagas, de modo que o recurso de recomendação de backup preenche as outras três vagas com os itens mais visualizados.
 
