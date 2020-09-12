@@ -1,14 +1,14 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
 description: Use sequências de até cinco critérios para exercer maior controle dos itens exibidos nas atividades Adobe Target Recommendations.
 title: Criar sequências de critérios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 44%
+source-wordcount: '787'
+ht-degree: 36%
 
 ---
 
@@ -32,7 +32,9 @@ Suas sequências de critérios podem variar dependendo do tipo de página, como 
 | Página do produto | <ol><li>Baseado no item atual, da mesma marca</li><li>Baseado no item atual, de todas as marcas</li><li>Baseado na semelhança de conteúdo</li><li>Baseado nos mais vendidos</li><li>Baseado nos itens mais visualizados por todo site</li></ol> |
 | Home page | <ol><li>Baseado na última compra do visitante </li><li>Baseado no item favorito do visitante</li><li>Baseado na categoria favorita do visitante</li><li>Baseado nos mais vendidos</li><li>Baseado nos mais visualizados por todo site</li></ol> |
 
-## Acesse a tela Criar sequência de critérios
+## Criar uma sequência de critérios
+
+Crie sequências de critérios na tela [!UICONTROL Criar sequência] de critérios.
 
 Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de critérios]. Algumas opções de tela variam de acordo com o modo que você chegar na tela.
 
@@ -48,55 +50,19 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar sequên
 
    ![](assets/CreateCriteriaSequence.png)
 
-## Preencha a seção Informações
-
-1. Digite um **[!UICONTROL Nome]** para a sequência.
-
-   Este é o nome &quot;interno&quot; usado para descrever a sequência de critérios. Os visitantes do seu site não verão este nome.
-
-   ![Criar seção de informações da sequência de critérios](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png)
-
-1. Digite um **[!UICONTROL Título de exibição genérico]** aberto ao público para aparecer na página, se vários critérios na sequência forem usados para preencher o design do [!UICONTROL Recommendations].
-
-   Por exemplo, você pode querer substituir &quot;Clientes que viram isto também viram...&quot; por &quot;Recomendado para você&quot; se o design puder incluir itens baseados em mais de uma chave de [!UICONTROL recomendações].
-
-1. Digite uma breve **[!UICONTROL Descrição]** da sequência de critérios.
-
-   A descrição deve ajudá-lo a identificar a sequência de critérios e pode incluir informações sobre sua finalidade.
-
-1. Selecione um vertical do setor com base nas metas de sua atividade de recomendações.
-
-   | Vertical do setor | Meta |
-   |--- |--- |
-   | Varejo/Comércio eletrônico | Conversão resultando em compra |
-   | Geração de lead/B2B/Serviços financeiros | Conversão sem compra |
-   | Mídia/Publicação | Envolvimento |
-
-   Seu negócio vertical padrão aparece automaticamente.
-
-   Outras opções de critério irão mudar de acordo com o negócio vertical que você selecionar.
-
-1. Selecione um **[!UICONTROL Tipo de página]**.
-
-   Você pode selecionar vários tipos de página.
-
-   Juntos, o negócio vertical e tipos de página são usados para categorizar sua sequência de critérios salva, tornando mais fácil o reuso de sequências para outras atividades do [!UICONTROL Recommendations].
-
-## Criar sequência {#sequence}
-
-A ordem de sequência define a ordem em que um design é preenchido. Se o Critério 1 não tiver recomendações suficientes para preencher seu design, os slots restantes serão preenchidos com o Critério 2 e assim por diante.
+1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
 1. Na seção Sequência **[!UICONTROL de]** critérios, clique em **[!UICONTROL Adicionar critérios]**.
 
+   A ordem de sequência define a ordem em que um design é preenchido. Se o Critério 1 não tiver recomendações suficientes para preencher seu design, os slots restantes serão preenchidos com o Critério 2 e assim por diante.
+
    ![Adicionar critérios](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. On the [!UICONTROL Select Criteria] screen, select a criteria.
+1. Na tela [!UICONTROL Selecionar critérios] , selecione um critério e clique em **[!UICONTROL Adicionar]**.
 
    Você pode usar a caixa Pesquisar e os menus suspensos do filtro para localizar os critérios desejados.
 
    ![Selecione o critério](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
-
-1. Clique em **[!UICONTROL Adicionar]**.
 
 1. (Opcional) Deslize o **[!UICONTROL Limite de número de itens retornados]** para alternar para a posição &quot;ligado&quot; e especifique o número de itens (entre 1 e 50).
 
@@ -114,27 +80,7 @@ A ordem de sequência define a ordem em que um design é preenchido. Se o Crité
 
 1. Continue adicionando critérios adicionais à sua sequência. Você pode adicionar até cinco critérios em uma sequência.
 
-## Especificar conteúdo de backup
-
-Escolha qual conteúdo será retornado quando não houver recomendações suficientes disponíveis para preencher o modelo de design.
-
-Quando você cria uma sequência de critérios, as configurações de recomendações backup e renderização parcial de design são ignoradas para os critérios individuais que fazem parte da sequência. Para usar recomendações backup e renderização parcial de design você deve habilitá-los para a sequência. Selecione as opções apropriadas. Se você escolher permitir recomendações backup, você também pode escolher aplicar regras de inclusão aos backups.
-
-![Configurações de conteúdo de backup](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
-
-1. (Opcional) Deslize a opção Renderização **** parcial do design para a posição &quot;ligado&quot;.
-
-   O maior número possível de slots será preenchido, mas o modelo de design pode incluir espaço em branco para os slots restantes.
-
-1. (Opcional) Deslize o **[!UICONTROL backup Recommendations]** para alternar para a posição &quot;ligado&quot;.
-
-   Preencha todos os slots vazios restantes no design com uma seleção aleatória dos produtos mais visualizados de todo o site.
-
-   Para obter mais informações, consulte [Usar uma recomendação](/help/c-recommendations/c-algorithms/backup-recs.md)de backup.
-
-1. (Condicional) Se você selecionou **[!UICONTROL Backup Recommendations]** na etapa anterior, é possível selecionar **[!UICONTROL Aplicar regras de inclusão às recomendações]** de backup.
-
-   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+1. Ative as opções [de Conteúdo](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)de backup.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
