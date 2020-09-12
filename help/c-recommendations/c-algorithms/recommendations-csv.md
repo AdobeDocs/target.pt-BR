@@ -5,7 +5,7 @@ title: Upload dos critérios personalizados
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar novo cr
 
 1. (Condicional) Preencha as informações na seção Regras [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) inclusão.
 
-1. (Preencha condicional nas informações na seção Ponderação [do](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) atributo.
+1. (Condicional) Preencha as informações na seção Ponderação do [atributo](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
 
 1. Na seção **[!UICONTROL Carregar CSV]** , selecione o **[!UICONTROL Local]** do arquivo CSV.
 
