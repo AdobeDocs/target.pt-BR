@@ -5,7 +5,7 @@ title: Criar critérios
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -81,7 +81,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar novo cr
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## Fonte de dados
+## Fonte de dados {#data-source}
 
 1. Defina o **[!UICONTROL Intervalo de dados]** para determinar o intervalo de tempo de dados históricos disponíveis do comportamento do usuário, ao determinar quais recomendações serão mostradas.
 
@@ -224,7 +224,7 @@ Para criar uma regra de inclusão simples, como mencionado anteriormente, para e
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## Ponderação de atributos
+## Ponderação de atributos {#weighting}
 
 É possível adicionar várias regras para &quot;ajustar&quot; o algoritmo com base em informações importantes ou metadados sobre o catálogo de conteúdo, de modo que seja mais provável que determinados itens sejam exibidos.
 
