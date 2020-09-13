@@ -1,29 +1,38 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: Use os feeds para importar entidades no Adobe Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
-title: Feeds
+description: Use feeds para obter entidades importadas para o Adobe Target Recommendations. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e/ou as classificações de produtos do Adobe Analytics.
+title: Feeds no Adobe Target Recommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 93%
+source-wordcount: '2520'
+ht-degree: 86%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}
 
-Use os feeds para importar entidades no [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics.
+Use os feeds para importar entidades no [!DNL Adobe Target Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics.
 
 ## Visão geral dos feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 Os feeds permitem passar [Entidades](/help/c-recommendations/c-products/products.md) ou aumentar seus dados de mbox com informações que ou não estão disponíveis na página, ou não são seguras para serem enviadas diretamente da página, como margem, COGS e outros.
 
-Você pode escolher quais colunas do seu arquivo de classificações do produto [!DNL Target] ou do arquivo do Google Product Search você deseja enviar para o servidor [!DNL Recommendations]. Estes dados sobre cada item podem ser usados na exibição de modelos e para controlar recomendações.
+Os feeds permitem que você passe informações detalhadas do item para [!DNL Recommendations], como ID do produto, categoria, nome, mensagem e outros atributos.
 
-Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
+Você pode escolher quais colunas do seu arquivo de classificações do produto [!DNL Target] ou do arquivo do Google Product Search você deseja enviar para o servidor [!DNL Recommendations].
+
+Esses dados sobre cada item podem ser usados para:
+
+* Exibir valores em designs
+* Definir regras de inclusão de critérios
+* Classificar itens em diferentes coleções
+* Aplicar exclusões a recomendações
+
+As descrições de itens podem ser passadas para [!DNL Target] o uso de feeds ou mboxes. Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
 
 A lista [!UICONTROL Feeds] (**[!UICONTROL Recomendações]** > **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
 
@@ -46,9 +55,13 @@ A página Feeds contém as seguintes colunas:
 >* Remover um item do arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da interface do Público alvo ou da API. Ou modifique os atributos do item (como o inventário) para garantir que o item seja excluído da consideração.
 
 
-## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+## Tipos de origem
 
-Você pode criar um arquivo `.csv` usando o formato de upload CSV proprietário da Adobe. O arquivo contém as informações de exibição sobre os atributos reservados e personalizados para os seus produtos. Para fazer o upload dos atributos específicos à sua implementação, substitua `CustomN` na linha de cabeçalho pelo nome do atributo que deseja usar. No exemplo abaixo, `entity.Custom1` foi substituído por: `entity.availability`. Em seguida, você pode fazer o upload em massa do arquivo para o servidor [!DNL Recommendations].
+As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics.
+
+### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+
+Você pode criar um arquivo .csv usando o formato de upload CSV proprietário. O arquivo contém as informações de exibição sobre os atributos reservados e personalizados para os seus produtos. Para fazer o upload dos atributos específicos à sua implementação, substitua `CustomN` na linha de cabeçalho pelo nome do atributo que deseja usar. No exemplo abaixo, `entity.Custom1` foi substituído por: `entity.availability`. Em seguida, você pode fazer o upload em massa do arquivo para o servidor [!DNL Recommendations].
 
 Usar o formato .csv tem as seguintes vantagens em relação ao formato do Google Feed:
 
@@ -78,7 +91,7 @@ A sintaxe a seguir está correta:
 
 >[!NOTE]
 >
->Não é possível substituir um valor existente por um valor em branco. É necessário aprovar outro valor para substituí-lo. Em caso de preço de venda, uma solução comum é aprovar um &quot;NULL&quot; ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
+>Não é possível substituir um valor existente por um valor em branco. Você deve passar outro valor em seu lugar para substituí-lo. Em caso de preço de venda, uma solução comum é aprovar um &quot;NULL&quot; ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
 
 O produto estará disponível na interface de Admin aproximadamente duas horas depois de ter carregado a entidade com sucesso.
 
@@ -96,7 +109,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 O tipo de feed de pesquisa do produto do Google usa o formato do Google. Isso é diferente do formato de upload CSV do proprietário do Adobe.
 
@@ -106,13 +119,13 @@ Se você tiver um feed do produto Google existente, poderá usá-lo como arquivo
 >
 >Não é necessário utilizar dados do Google. O [!DNL Recommendations] utiliza o mesmo formato que o Google. Você pode usar este método para atualizar qualquer dado que possua e usar os recursos de programação disponíveis. No entanto, você dever manter os nomes predefinidos dos atributos do Google ao configurar o arquivo.
 
-Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
+Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >O método POST deve ser permitido no servidor que está hospedando o conteúdo de feed do Google.
 
-Como os usuários do [!DNL Recommendations] já configuram os feeds [!DNL .xml] ou [!DNL .txt] para enviar ao Google, tanto via URL quanto via FTP, os feeds de entidade aceitam esses dados do produto e os usam para criar o catálogo de recomendações. Especifique onde esse feed existe, e o servidor de recomendações recuperará os dados.
+Como os usuários do [!DNL Recommendations] já configuram os feeds .xml e .txt para enviar ao Google, tanto via URL quanto via FTP, os feeds de entidade aceitam esses dados do produto e os usam para criar o catálogo de recomendações. Especifique onde esse feed existe, e o servidor de recomendações recuperará os dados.
 
 Mesmo se usar o Google Product Search para a atualização de feed de uma entidade, ainda será necessário ter uma página mbox do produto na página se você desejar mostrar as recomendações ou acompanhar as visualizações do produto para entrega do algoritmo com base nas visualizações.
 
@@ -195,17 +208,18 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Classificações do produto Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Classificações do produto Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 A classificação do Produto Analytics é a única classificação disponível para recomendações. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
->Antes de importar os dados de entidade no Recommendations usando as classificações de produto do Analytics, esteja ciente de que esse não é o método preferido.
+>Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
 >
 > Esteja ciente dos seguintes avisos:
+>
 >* As atualizações para os atributos da entidade têm um atraso adicional de até 24 horas.
->* O Target suporta somente as classificações do produto. O SKU do produto Analytics deve mapear no mesmo nível que a `entity.id` de Recomendações. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
+>* [!DNL Target] suporta somente classificações de produtos. The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
 
 
 ## Criar feed {#steps}
@@ -288,7 +302,7 @@ A seguir, estão os possíveis status de um feed:
 | Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
 | Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
 | Importar itens | O Target está importando itens do arquivo de Feed. |
-| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não observar as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>*Observação 1:* se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem no *cancelamento* da exclusão de um item das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorrerá em 24 horas.<br>*Observação 2:* quando esse status é exibido, as atualizações podem não ser refletidas ainda na interface do usuário da Pesquisa no catálogo. Um status separado é listado na Pesquisa no catálogo, indicando a última vez que o catálogo pesquisável foi atualizado. |
+| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não observar as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>Notas:<ul><li>Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem no *cancelamento* da exclusão de um item das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorrerá em 24 horas.</li><li>Quando esse status é exibido, as atualizações ainda não podem ser refletidas na interface do usuário do Catalog Search. Um status separado é listado na Pesquisa no catálogo, indicando a última vez que o catálogo pesquisável foi atualizado.</li></ul> |
 | Falha ao indexar | Ocorreu uma falha na operação de índice. Tente novamente. |
 | Servidor não encontrado | Locais de FTP ou URL inválidos ou não acessíveis. |
 
@@ -296,7 +310,7 @@ Para atualizar um feed (por exemplo, para fazer alterações na sua configuraç�
 
 >[!IMPORTANT]
 >
->As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades de recomendações. Se um item não estiver incluído em um arquivo de feed (ou em outro método de atualização de entidade) pelo menos uma vez a cada 60 dias, o Adobe Target deduzirá que ele não é mais relevante e o removerá do catálogo.
+>As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades de recomendações. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
 
 ### Indicadores de status do feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -308,6 +322,7 @@ O indicadores de status do feed a seguir são exibidos na coluna [!UICONTROL Sta
 | Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado.   Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot; os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
 | Indicador de status branco | Quando um feed não está agendado, um ponto de status branco indica que o feed ainda não foi executado. |
 | Indicador de status vermelho | Se o feed não faz o upload dos dados para um servidor, um indicador de status vermelho é mostrado. |
+
 Considere os exemplos a seguir:
 
 **Exemplo 1:**
