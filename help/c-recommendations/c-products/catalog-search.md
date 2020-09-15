@@ -5,9 +5,9 @@ title: Pesquisa no catálogo do Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ Você pode usar uma pesquisa simples ou avançada para localizar itens no catál
 
 Você pode usar a Pesquisa  avançada para refinar ainda mais os resultados da pesquisa ou salvar os resultados da pesquisa como uma [coleção](/help/c-recommendations/c-products/collections.md) ou [exclusão](/help/c-recommendations/c-products/exclusions.md).
 
-1. Clique em Pesquisa **** avançada.
+1. Clique no link Pesquisa **** avançada.
 
    ![Página Pesquisa avançada](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ Todas as informações sobre esse item são removidas do índice de catálogo. O
 
 ## Atualizar o catálogo
 
-O índice do catálogo é criado automaticamente quando você carrega seu primeiro feed e é atualizado de acordo com o agendamento especificado.
+O índice do catálogo é criado automaticamente quando você carrega seu primeiro feed e é atualizado de acordo com o agendamento [](/help/c-recommendations/c-products/feeds.md#steps)especificado.
 
 O catálogo é atualizado automaticamente quando as atualizações são recebidas por meio de arquivos de feed, API ou atualizações de mbox. Normalmente, as atualizações são concluídas em uma hora. Se houver atualizações em andamento, será exibida a hora em que a atualização mais recente foi iniciada. Se não houver atualizações em andamento, será exibida a hora em que a atualização mais recente foi iniciada e finalizada.
 
@@ -118,7 +118,7 @@ Você pode criar [coleções](/help/c-recommendations/c-products/collections.md)
 
 1. Execute uma pesquisa [](#advanced-search)avançada.
 
-1. (Opcional) Clique em **[!UICONTROL Salvar como]** e, em seguida, clique em **[!UICONTROL Coleção]** ou **[!UICONTROL Exclusão]**.
+1. Clique em **[!UICONTROL Salvar como]** e, em seguida, clique em **[!UICONTROL Coleção]** ou **[!UICONTROL Exclusão]**.
 
    ![Salvar como opções](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -149,6 +149,8 @@ Você pode adicionar outros aspectos de filtro à página Pesquisa [!UICONTROL d
    ![Link Modificar filtros](/help/c-recommendations/c-products/assets/modify-filters.png)
 
 1. Selecione os aspectos de pesquisa desejados (ID, nome, mensagem etc.).
+
+   ![Adicionar filtros](/help/c-recommendations/c-products/assets/add-filters.png)
 
 Lembre-se de que as facetas de filtro adicionais estão disponíveis somente na sessão atual.
 
