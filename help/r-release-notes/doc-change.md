@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 31%
+source-wordcount: '2275'
+ht-degree: 30%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 15 de setembro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 20.8.3, que inclui o suporte do Analytics para Públicos alvos (A4T) para atividades de Público alvo automático. O suporte para a Autoalocação de atividades foi adicionado em uma versão anterior. |
+|  | [Suporte do Analytics para Públicos alvos (A4T) para alocação automática e atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de Público alvo automático. | Foram adicionadas informações sobre o suporte a A4T nas atividades de Público alvo automático. |
+|  | [Bookmarklet de controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Texto atualizado para indicar que o método para se forçar manualmente para fora do modo de QA carregando uma página no site com o `at_preview_token` parâmetro com um valor vazio se aplica ao at.js 1.somente *x.* |
+|  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md) | Atualização de todo o tópico. |
 | 10 de setembro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 20.9.2 que inclui o seguinte novo recurso: Controle os slots de recomendações em sequências de critérios. |
 |  | [Criar sequências de critérios](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Foram adicionadas informações sobre o recurso &quot;Limitar o número de itens retornados&quot;. |
 | 9 de setembro | [Bookmarklet de controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Código JavaScript adicionado para uso com at.js 2.*x*. |
