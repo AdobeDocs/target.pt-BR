@@ -6,10 +6,10 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 25%
+source-wordcount: '1329'
+ht-degree: 21%
 
 ---
 
@@ -70,57 +70,69 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Suporte do Analytics para Públicos alvos (A4T) para alocação automática de atividades {#a4t-aa}
+## Suporte do Analytics para Públicos alvos (A4T) para alocação automática e atividades de Público alvo automático {#a4t-aa}
 
-Atualizamos a integração entre Adobe Target e Adobe Analytics, conhecida como [Analytics para Públicos alvos](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Atualizamos a integração entre Adobe Target e Adobe Analytics, conhecida como [Analytics para Públicos alvos](/help/c-integrating-target-with-mac/a4t/a4t.md). As atividades de Autoalocação e Público alvo automático agora são compatíveis com o Analytics para Públicos alvos.
 
-[!UICONTROL A Autoalocação] de atividades agora é compatível com o [!UICONTROL Analytics para Público alvo]. Essa integração permite que você use o recurso de alocação automática de banco multiarcado para direcionar o tráfego para experiências vencedoras, ao mesmo tempo que usa uma métrica de [!DNL Adobe Analytics] objetivo e/ou recursos de [!DNL Adobe Analytics] relatórios e análise. Se você já tiver [implementado o A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência, você estará pronto!
+Essa integração permite:
+
+* Use a capacidade de [autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)de vários bandit para direcionar o tráfego para experiências vencedoras.
+* Use o algoritmo de aprendizado de máquina [montada](/help/c-activities/auto-target-to-optimize.md)pelo Público alvo automático para escolher uma melhor experiência para cada visitante com base em seu perfil, comportamento e contexto.
+
+Tudo isso ao usar uma métrica de [!DNL Adobe Analytics] objetivo e recursos ricos de relatórios e análise [!DNL Adobe Analytics]do .
+
+Se você já tiver [implementado o A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência, não será necessário configurar mais, você estará pronto!
 
 Para começar:
 
-1. Crie uma atividade de teste A/B e selecione **[!UICONTROL Autoalocar para a melhor experiência]** como o Método **[!UICONTROL de alocação de]** tráfego na página [!UICONTROL Direcionamento] .
+1. Ao criar uma atividade de teste A/B, na página **[!UICONTROL Definição de metas]** , selecione uma das seguintes opções como Método **[!UICONTROL de alocação de]** tráfego:
+
+   * Autoalocar para a melhor experiência
+   * Público alvo automático para experiências personalizadas
+
 1. Selecione **[!UICONTROL Adobe Analytics]** para a Fonte **[!UICONTROL do]** Relatórios na página **[!UICONTROL Metas e configurações]** e selecione o conjunto de relatórios correspondente à meta de otimização desejada.
+
 1. Escolha uma métrica de Objetivo principal.
 
-   Escolha **[!UICONTROL Conversão]** para usar [!DNL Adobe Target] para especificar a meta de otimização.
-
-   Ou
-
-   Escolha **[!UICONTROL Usar uma métrica]** do Analytics e, em seguida, selecione uma métrica [!DNL Analytics] para usar como meta de otimização. Você pode usar uma métrica de conversão [!DNL Analytics] predefinida ou um evento [!DNL Analytics] personalizado.
+   * Escolha **[!UICONTROL Conversão]** para usar [!DNL Adobe Target] para especificar a meta de otimização.
+   * Escolha **[!UICONTROL Usar uma métrica]** do Analytics e, em seguida, selecione uma métrica [!DNL Analytics] para usar como meta de otimização. Você pode usar uma métrica de conversão [!DNL Analytics] predefinida ou um evento [!DNL Analytics] personalizado.
 
 1. Salve e ative sua atividade.
 
    [!UICONTROL A Autoalocação] usará sua métrica selecionada para otimizar a atividade, levando visitantes para a experiência que maximiza sua métrica de meta.
 
-1. Use a guia **[!UICONTROL Relatórios]** para visualização do relatórios de sua atividade por sua escolha de [!DNL Adobe Analytics] métricas. Clique em **[!UICONTROL Visualização no Analytics]** para detalhar e segmentar ainda mais seus dados de relatórios.
+   [!UICONTROL O Público alvo] automático usará sua métrica selecionada para otimizar a atividade, conduzindo visitantes a uma melhor experiência personalizada.
+
+1. Use a guia **[!UICONTROL Relatórios]** para visualização do relatórios de sua atividade por sua escolha de [!DNL Adobe Analytics] métricas. Clique em **[!UICONTROL Visualização no Analytics]** para detalhar e segmentar ainda mais os dados do relatórios.
 
 ### Métricas de meta suportadas
 
-O A4T para [!UICONTROL Autoalocação] permite escolher qualquer um dos seguintes tipos de métricas como sua métrica de meta principal para otimização:
+[!UICONTROL O A4T] para [!UICONTROL Autoalocação] e Público alvo  Automático permite escolher qualquer um dos seguintes tipos de métricas como sua métrica principal de meta para otimização:
 
 * [!DNL Adobe Target] métricas de conversão
 * [!DNL Adobe Analytics] métricas de conversão
 * [!DNL Adobe Analytics] eventos personalizados
 
-A A4T para [!UICONTROL Autoalocação] exige que você escolha uma métrica baseada em um evento binômico, ou seja, um evento que ocorra ou não, por exemplo, um clique, uma conversão, um pedido etc. (Esses tipos de eventos às vezes também são chamados de eventos Bernoulli, binários ou discretos.)
+[!UICONTROL O A4T] para [!UICONTROL Autoalocação] e Público alvo  Automático exige que você escolha uma métrica baseada em um evento binômico, ou seja, um evento que ocorra ou não, por exemplo, um clique, uma conversão, um pedido etc. (Esses tipos de eventos às vezes também são chamados de eventos Bernoulli, binários ou discretos.)
 
-A A4T para [!UICONTROL Autoalocação] não oferece suporte à otimização para métricas contínuas, como receita, número de produtos solicitados, duração da sessão, número de visualizações de página na sessão etc. (Esses tipos de métricas não suportados às vezes também são chamadas de métricas não-binomiais ou não-Bernoulli.)
+[!UICONTROL A A4T] para alocação [!UICONTROL automática] e Público alvo  automático não suporta otimização para métricas contínuas, como receita, número de produtos solicitados, duração da sessão, número de visualizações de página na sessão etc. (Esses tipos de métricas não suportados às vezes também são chamadas de métricas não-binomiais ou não-Bernoulli.)
 
 Os seguintes tipos de métricas não são suportados como métricas de objetivo principal:
 
 * [!DNL Adobe Target] métricas de envolvimento e receita
 * [!DNL Adobe Analytics] métricas de envolvimento e receita
 
-   >[!NOTE]
-   >
-   >Pode ser possível selecionar [!DNL Analytics] métricas de envolvimento e receita como sua métrica de objetivo principal porque não é possível [!DNL Target] identificar todas as métricas de envolvimento e receita [!DNL Analytics]. Tenha cuidado para selecionar somente métricas de conversão binomial ou eventos personalizados de [!DNL Analytics].
+   Pode ser possível selecionar uma métrica de envolvimento ou de receita como sua métrica de objetivo principal porque [!DNL Analytics] não é possível identificar e excluir todas as métricas de envolvimento e receita [!DNL Target] [!DNL Analytics]. Tenha cuidado para selecionar somente métricas de conversão binomial ou eventos personalizados de [!DNL Analytics].
 
-* Métricas calculadas da Adobe Analytics
+* [!DNL Adobe Analytics] métricas calculadas
 
 ### Limitações e notas
 
 * A fonte do relatórios não pode ser alterada de [!DNL Analytics] para [!DNL Target] ou vice-versa depois que uma atividade é ativada.
 * Embora as métricas calculadas não sejam suportadas como métricas de objetivo principal, geralmente é possível alcançar o resultado pretendido selecionando, em vez disso, um evento personalizado como a métrica de objetivo principal. Por exemplo, se você deseja otimizar para uma métrica como &quot;conclusões de formulário por visitante&quot;, selecione um evento personalizado que corresponda a &quot;conclusões de formulário&quot; como sua métrica de objetivo principal. [!DNL Target] normaliza automaticamente as métricas de conversão com base em cada visita para contabilizar uma distribuição de tráfego desigual, de modo que não é necessário usar uma métrica calculada para executar a normalização.
-* [!DNL Target] usa o modelo de atribuição &quot;Mesmo toque&quot; na implementação de Autoalocação A4T.
+* [!DNL Target] usa o modelo de atribuição &quot;Mesmo toque&quot; na implementação [!UICONTROL Autoalocar] A4T.
+* [!UICONTROL Os modelos de autoalocação] continuam treinando a cada duas horas, como de costume.
+* [!UICONTROL Os modelos de Público alvo] automático continuam treinando a cada 24 horas, como de costume. No entanto, os dados de conversão do evento [!DNL Analytics] são atrasados em mais 6 a 24 horas. Isso significa que a distribuição do tráfego por [!DNL Target] rastreará os eventos mais recentes registrados em [!DNL Adobe Analytics]. Este fato terá o maior efeito nas primeiras 48 horas após a primeira ativação de uma atividade; o desempenho da atividade refletirá melhor o comportamento de [!DNL Adobe Analytics] conversão após cinco dias. Você deve considerar o uso da [!UICONTROL Autoalocação] em vez do Público alvo  Automático para atividades de curta duração, onde a maioria do tráfego ocorre nos primeiros cinco dias de vida da atividade.
+* Ao usar [!DNL Analytics] como fonte de dados para uma atividade de Público alvo [!UICONTROL automático] , as sessões são consideradas encerradas após seis horas de duração. As conversões que ocorrerem após seis horas não serão contadas.
 
-Para obter mais informações, consulte Visão geral [da](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) atribuição no Guia *de ferramentas do* Analytics.
+Para obter mais informações, consulte Modelos de [atribuição e janelas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) de pesquisa no Guia *de ferramentas do* Analytics.
