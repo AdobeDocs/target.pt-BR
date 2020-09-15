@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 26%
+source-wordcount: '1185'
+ht-degree: 25%
 
 ---
 
@@ -36,6 +36,12 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## Target Standard/Premium 20.8.3 (15 de setembro de 2020)
+
+| Recurso | Detalhes |
+| --- | --- |
+| ![Suporte Premium badge](/help/assets/premium.png) do Analytics para Públicos alvos (A4T) para atividades de Público alvo automático | [!UICONTROL As atividades de Público alvo] automático agora são compatíveis com o [Analytics para Públicos alvos](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Essa integração permite que você use o algoritmo de aprendizado de máquina do conjunto [!UICONTROL Automático] para escolher a melhor experiência para cada visitante com base no perfil, comportamento e contexto.<br>Se você já tiver [implementado a A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para uso com atividades de teste A/B e direcionamento de experiência, todos estarão configurados!<br>Para obter mais informações, consulte Suporte [do Analytics para Públicos alvos (A4T) para Autoalocação e atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de Público alvo automático na criação *de* Atividades. |
 
 ## Target Standard/Premium 20.8.2 (10 de setembro de 2020)
 
