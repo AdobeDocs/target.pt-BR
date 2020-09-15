@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 21%
 
 ---
@@ -76,10 +76,10 @@ Atualizamos a integração entre Adobe Target e Adobe Analytics, conhecida como 
 
 Essa integração permite:
 
-* Use a capacidade de [autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)de vários bandit para direcionar o tráfego para experiências vencedoras.
-* Use o algoritmo de aprendizado de máquina [montada](/help/c-activities/auto-target-to-optimize.md)pelo Público alvo automático para escolher uma melhor experiência para cada visitante com base em seu perfil, comportamento e contexto.
+* Use a capacidade de [autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)de vários bandit para direcionar o tráfego para experiências vencedoras
+* Use o algoritmo de aprendizado de máquina [automática](/help/c-activities/auto-target-to-optimize.md)para escolher a melhor experiência para cada visitante com base em seu perfil, comportamento e contexto
 
-Tudo isso ao usar uma métrica de [!DNL Adobe Analytics] objetivo e recursos ricos de relatórios e análise [!DNL Adobe Analytics]do .
+tudo isso ao usar uma métrica de [!DNL Adobe Analytics] objetivo e [!DNL Adobe Analytics]recursos avançados de análise e relatórios.
 
 Se você já tiver [implementado o A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência, não será necessário configurar mais, você estará pronto!
 
@@ -100,6 +100,8 @@ Para começar:
 1. Salve e ative sua atividade.
 
    [!UICONTROL A Autoalocação] usará sua métrica selecionada para otimizar a atividade, levando visitantes para a experiência que maximiza sua métrica de meta.
+
+   Ou
 
    [!UICONTROL O Público alvo] automático usará sua métrica selecionada para otimizar a atividade, conduzindo visitantes a uma melhor experiência personalizada.
 
@@ -132,7 +134,7 @@ Os seguintes tipos de métricas não são suportados como métricas de objetivo 
 * Embora as métricas calculadas não sejam suportadas como métricas de objetivo principal, geralmente é possível alcançar o resultado pretendido selecionando, em vez disso, um evento personalizado como a métrica de objetivo principal. Por exemplo, se você deseja otimizar para uma métrica como &quot;conclusões de formulário por visitante&quot;, selecione um evento personalizado que corresponda a &quot;conclusões de formulário&quot; como sua métrica de objetivo principal. [!DNL Target] normaliza automaticamente as métricas de conversão com base em cada visita para contabilizar uma distribuição de tráfego desigual, de modo que não é necessário usar uma métrica calculada para executar a normalização.
 * [!DNL Target] usa o modelo de atribuição &quot;Mesmo toque&quot; na implementação [!UICONTROL Autoalocar] A4T.
 * [!UICONTROL Os modelos de autoalocação] continuam treinando a cada duas horas, como de costume.
-* [!UICONTROL Os modelos de Público alvo] automático continuam treinando a cada 24 horas, como de costume. No entanto, os dados de conversão do evento [!DNL Analytics] são atrasados em mais 6 a 24 horas. Isso significa que a distribuição do tráfego por [!DNL Target] rastreará os eventos mais recentes registrados em [!DNL Adobe Analytics]. Este fato terá o maior efeito nas primeiras 48 horas após a primeira ativação de uma atividade; o desempenho da atividade refletirá melhor o comportamento de [!DNL Adobe Analytics] conversão após cinco dias. Você deve considerar o uso da [!UICONTROL Autoalocação] em vez do Público alvo  Automático para atividades de curta duração, onde a maioria do tráfego ocorre nos primeiros cinco dias de vida da atividade.
+* [!UICONTROL Os modelos de Público alvo] automático continuam treinando a cada 24 horas, como de costume. No entanto, os dados de conversão do evento [!DNL Analytics] são atrasados em mais 6 a 24 horas. Esse atraso significa que a distribuição do tráfego [!DNL Target] rastreará os eventos mais recentes registrados em [!DNL Analytics]. Este fato terá o maior efeito nas primeiras 48 horas após a primeira ativação de uma atividade; o desempenho da atividade refletirá melhor o comportamento de [!DNL Analytics] conversão após cinco dias. Você deve considerar o uso da [!UICONTROL Autoalocação] em vez do Público alvo  Automático para atividades de curta duração, onde a maioria do tráfego ocorre nos primeiros cinco dias de vida da atividade.
 * Ao usar [!DNL Analytics] como fonte de dados para uma atividade de Público alvo [!UICONTROL automático] , as sessões são consideradas encerradas após seis horas de duração. As conversões que ocorrerem após seis horas não serão contadas.
 
 Para obter mais informações, consulte Modelos de [atribuição e janelas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) de pesquisa no Guia *de ferramentas do* Analytics.
