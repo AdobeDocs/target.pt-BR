@@ -5,21 +5,27 @@ title: Exclusões no Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 55%
+source-wordcount: '597'
+ht-degree: 45%
 
 ---
 
 
 # Exclusões{#exclusions}
 
-Crie uma exclusão para impedir que produtos ou conteúdo sejam recomendados para visitantes. [!DNL Adobe Target Recommendations]
+Crie uma exclusão para impedir que produtos ou conteúdo sejam recomendados para visitantes. [!DNL Adobe Target Recommendations] Uma exclusão é um subconjunto de produtos ou conteúdo que não deve ser recomendado aos visitantes.
 
-Uma exclusão é um subconjunto de produtos ou conteúdo que não deve ser recomendado aos visitantes. Por exemplo, você pode usar exclusões para impedir que produtos ou conteúdo sejam exibidos em recomendações que foram descontinuadas ou são sensíveis na natureza (como filmes com uma classificação não adequada para todos com base em classificações de conteúdo).
+As exclusões estão disponíveis em toda a conta. Diferentemente das coleções, onde você especifica uma coleção específica para cada experiência ao criar uma atividade [!UICONTROL Recommendations] , as exclusões se aplicam a todas as atividades na conta. Não há opção para atribuir um grupo de exclusão durante a criação da atividade.
 
-As exclusões estão disponíveis em toda a conta.
+Alguns exemplos de vezes que você usaria exclusões incluem:
+
+* Produtos que foram descontinuados
+* O catálogo de outono/inverno agora é o único que deve estar presente online. Nenhum item do catálogo de verão está mais disponível para compra.
+* Itens que podem não ser recomendados na maioria das páginas/telas (produtos para adultos, filmes NC-17 etc.)
+* Produtos com campos de metadados incompletos (miniatura ausente, preço ou outros metadados importantes)
+* Produtos que nunca devem ser recomendados (talvez exista um SKU no sistema para algo, mas não é um item comprável, ou talvez seja um SKU falso para a equipe de controle de qualidade simular uma compra sem solicitar algo, etc)
 
 >[!IMPORTANT]
 >
