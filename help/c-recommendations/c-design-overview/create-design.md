@@ -5,10 +5,10 @@ title: Criar um design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '988'
+ht-degree: 36%
 
 ---
 
@@ -36,7 +36,11 @@ Esta ilustração mostra um design personalizado:
 
 Você pode criar um design durante o processo de criação de atividades a partir do Visual Experience Composer (VEC) ou da biblioteca de design fora da criação de atividades. As seções a seguir supõem que você esteja criando designs a partir da biblioteca, mas as etapas são semelhantes.
 
-## Criar um design com base em um design padrão
+## Criar designs
+
+Você pode criar um design com base em um design padrão ou pode criar um design personalizado.
+
+### Criar um design com base em um design padrão
 
 1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para exibir a biblioteca de [!UICONTROL Designs] .
 
@@ -56,9 +60,9 @@ Você pode criar um design durante o processo de criação de atividades a parti
 
 1. (Condicional) Edite o **[!UICONTROL código]** de design, conforme desejado.
 
-   Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [](https://velocity.apache.org)https://velocity.apache.org.
+   Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. Informações sobre a velocidade podem ser encontradas em [https://velocity.apache.org](https://velocity.apache.org) e em [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Um design pode ser HTML ou não-HTML. Por padrão, os designs em HTML são envolvidos com uma tag <div> para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível.
+   Um design pode ser HTML ou não-HTML. Por padrão, os designs em HTML são envolvidos com uma tag <div> para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize a opção Design  HTML para alternar para a posição &quot;desligado&quot; para usar código não HTML.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Você pode criar um design durante o processo de criação de atividades a parti
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Criar um design personalizado
+### Criar um design personalizado
 
 1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para exibir a biblioteca de [!UICONTROL Designs] .
 
@@ -81,6 +85,18 @@ Você pode criar um design durante o processo de criação de atividades a parti
    Consulte as informações na Etapa 4 acima para obter mais informações.
 
 1. Clique em **[!UICONTROL Salvar]**.
+
+## Editar, copiar ou excluir um design
+
+Lembre-se de que não é possível editar ou copiar um design padrão; você só pode copiar designs padrão.
+
+Passe o mouse sobre o design desejado na biblioteca [!UICONTROL de design] e clique no ícone apropriado: editar, copiar ou excluir.
+
+![Ícones de flutuação para um design](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+Você pode copiar um design existente para criar um design de duplicado que você pode modificar. Isso permite que você crie um design semelhante com menos esforço.
+
+Esteja ciente de que os designs estão disponíveis em toda a conta. Considere isso antes de excluir um design. Os designs excluídos não podem ser recuperados.
 
 ## Exemplo de JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
