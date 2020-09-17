@@ -5,10 +5,10 @@ title: Criar um design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 43%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 95%
 
 Um design define como as recomendações são exibidas em uma página.
 
-Você pode criar um design de [!UICONTROL recomendações] usando um design padrão ou criando um design personalizado. A tela **[!UICONTROL Recommendations > Designs]** exibe cartões de design padrão e qualquer design que você tenha criado. Os designs padrão não podem ser editados ou excluídos.
+Você pode criar um design de [!UICONTROL recomendações] usando um design padrão ou criando um design personalizado. A tela **[!UICONTROL Recommendations > Designs]** exibe os cartões de design padrão e quaisquer designs que foram criados em sua conta.
 
-1. Na tela **[!UICONTROL Recommendations > Designs]**, passe com o mouse sobre o cartão do design que você deseja criar.
+Lembre-se das seguintes informações ao trabalhar com designs:
+
+* Você pode criar um design de recomendações usando um design padrão ou pode criar um design personalizado.
+* Não é possível editar ou excluir um design padrão.
+* Você pode editar, copiar ou excluir um design personalizado.
+* Para criar um design com base em um design padrão, primeiro copie o design e edite a cópia.
+
+Esta ilustração mostra o design padrão 1 x 4:
+
+![1 x 4 design padrão](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+Esta ilustração mostra um design personalizado:
+
+![Design personalizado](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+Você pode criar um design durante o processo de criação de atividades a partir do Visual Experience Composer (VEC) ou da biblioteca de design fora da criação de atividades. As seções a seguir supõem que você esteja criando designs a partir da biblioteca, mas as etapas são semelhantes.
+
+## Criar um design com base em um design padrão
+
+1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para exibir a biblioteca de [!UICONTROL Designs] .
+
+   ![Biblioteca de designs](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. Passe o mouse sobre o cartão para o design que deseja criar e clique no ícone **[!UICONTROL Copiar]** .
 
    ![](assets/Card_CopyDesign.png)
 
-1. Para copiar e editar um design existente, clique no ícone **[!UICONTROL Copiar.]**
-
-   Ou
-
-   Para criar um design personalizado clique em **[!UICONTROL Criar design]** na tela **[!UICONTROL Recommendations > Designs.]**
+   A caixa de diálogo [!UICONTROL Criar design] é exibida.
 
    ![](assets/createDesign.png)
 
-1. Adicione um **[!UICONTROL Nome de conteúdo]**.
+1. No painel **[!UICONTROL Informações]** , adicione um Nome **[!UICONTROL de]** conteúdo e uma imagem de pré-visualização opcional para exibição no cartão de design.
 
-   Quando usar um design padrão, o nome do design e &quot;Cópia&quot; irão aparecer no campo **[!UICONTROL Nome de conteúdo]**. Você pode editar o nome. 1. (Opcional) Clique para selecionar uma imagem para exibir no cartão do design.
-1. Edite o **[!UICONTROL Código]** do design.
+   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
+
+1. (Condicional) Edite o **[!UICONTROL código]** de design, conforme desejado.
 
    Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -42,7 +62,23 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
 
    >[!NOTE]
    >
-   >A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99.
+   >O número máximo de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é 99.
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+## Criar um design personalizado
+
+1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para exibir a biblioteca de [!UICONTROL Designs] .
+
+1. Clique em **[!UICONTROL Criar design]**.
+
+   Se você quiser basear seu novo design personalizado em um design existente, passe o mouse sobre o design desejado e clique no ícone [!UICONTROL Copiar] . Em seguida, você pode editar a cópia para criar um novo design personalizado.
+
+1. Adicione um Nome **[!UICONTROL de]** conteúdo e uma imagem de pré-visualização opcional.
+
+1. (Condicional) Edite o **[!UICONTROL código]** de design, conforme desejado.
+
+   Consulte as informações na Etapa 4 acima para obter mais informações.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -50,12 +86,13 @@ Você pode criar um design de [!UICONTROL recomendações] usando um design padr
 
 O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configurar uma atividade por meio do editor baseado em formulário.
 
-1. Crie um design na Biblioteca de projetos ou no fluxo de trabalho baseado em formulário. Se você tentar fazer isso dentro do fluxo de trabalho do Visual Experience Composer (VEC), poderá criar nada além de um design de HTML, que está envolvido com uma  `<div>` para fins de rastreamento de cliques.
+1. Crie um design na biblioteca de design ou no fluxo de trabalho baseado em formulário. Se você tentar fazer isso dentro do fluxo de trabalho do Visual Experience Composer (VEC), poderá criar nada além de um design de HTML, que está envolvido com uma  `<div>` para fins de rastreamento de cliques.
+
 1. Verifique se a opção &quot;HTML Design&quot; está desativada:
 
    ![](assets/html_design_toggle.png)
 
-1. O código a seguir é um exemplo abaixo do que você pode colar em seu design:
+1. O código a seguir é um exemplo do que você poderia colar no design:
 
    ```
        #* 
@@ -84,24 +121,22 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
        }  
    ```
 
-1. Configurar uma atividade do Recommendations baseada em formulário que use esse design.
+1. Set up a form-based [!DNL Recommendations] activity that uses this design.
 
-   1. Navegue até a página Atividades.
-   1. Clique em **[!UICONTROL Criar atividade]**.
-   1. Selecionar **[!UICONTROL Recommendations]**.
-   1. Em **[!UICONTROL Escolher Experience Composer]**, selecione **[!UICONTROL Formulário]**.
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Recomendações]**.
+   1. Em **[!UICONTROL Escolher o Experience Composer]**, selecione **[!UICONTROL Formulário]** e clique em **[!UICONTROL Avançar]**.
    1. Em localização, digite o texto: &quot;Sample_Recs_Response&quot;
    1. Em **[!UICONTROL Conteúdo padrão]**, clique na seta para baixo e depois clique em **[!UICONTROL Adicionara recomendação]**.
    1. Selecione um tipo de página. Isso determina a filtragem inicial da próxima tela.
    1. Selecione um cartão de Critérios e depois clique em **[!UICONTROL Próximo]**.
-   1. Selecione o design que você criou na etapa anterior e clique em **[!UICONTROL Salvar]**.
+   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
    1. Complete o processo de configuração.
    1. Clique na seta à direita próximo a **[!UICONTROL Inativo]** e depois selecione **[!UICONTROL Ativar]**.
 
 1. Depois que sua atividade estiver configurada e ativada, você pode configurar uma solicitação de amostra para recuperar a resposta limpa do JSON.
 
-   A partir do momento que você salvar sua atividade, o Target precisará criar um modelo para suportar a configuração de critérios selecionada. Dependendo de vários fatores, isso pode levar algum tempo. Os resultados aparecem quando o modelo tiver sido criado.
+   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. Dependendo de vários fatores, isso pode levar algum tempo. Os resultados aparecem quando o modelo tiver sido criado.
 
    Por exemplo:
 
@@ -111,18 +146,18 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
    onde
 
-| Parâmetro | Valor |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em .../target/products.html#recsSettings Token de API do Recommendations > Código do cliente. |
-| `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;Locais&quot; do Recommendations baseado em formulário, neste caso Sample_Recs_Response. |
-| `[ENTITY_ID` | O `entity.id` de um item em seu catálogo. |
-| `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
+   | Parâmetro | Valor |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em .../target/products.html#recsSettings Token de API do Recommendations > Código do cliente. |
+   | `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;Locais&quot; do Recommendations baseado em formulário, neste caso Sample_Recs_Response. |
+   | `[ENTITY_ID` | O `entity.id` de um item em seu catálogo. |
+   | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
 
 Depois que seu algoritmo for executado e você obter os resultados, sua resposta deve ser:
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## Dicas e truques adicionais sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
+## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
 Você também pode simplesmente enviar de volta uma lista simples de itens delimitados por vírgula, configurando um design com a seguinte sintaxe:
 
@@ -130,7 +165,7 @@ Você também pode simplesmente enviar de volta uma lista simples de itens delim
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Como alternativa, você pode enviar informações adicionais na resposta. O seguinte arquivo de código é um exemplo mais complexo que retorna muito mais do que as IDs de entidade com seus slots associados (ordem). Este exemplo de Design também retorna detalhes da atividade, detalhes do Perfil do Target (conforme aplicável) e outros `entity.attributes` associados aos itens retornados.
+Como alternativa, você pode enviar informações adicionais na resposta. O seguinte arquivo de código é um exemplo mais complexo que retorna muito mais do que as IDs de entidade com seus slots associados (ordem). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```
     {   
