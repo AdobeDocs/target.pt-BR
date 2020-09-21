@@ -5,10 +5,10 @@ title: Criar uma atividade do Recommendations
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 93%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -49,9 +49,15 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   Os visitantes do site visualizarão o conteúdo recomendado somente se eles se qualificarem para a recomendação. Os visitantes que não se qualificarem para a recomendação verão o conteúdo padrão.
+
    ![Opções do Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   Substituir um elemento com recomendações exclui o conteúdo atual e o substituiu com as suas recomendações.
+   * **[!UICONTROL Substituir pelo Recommendations]**: Substituir um elemento por recomendações exclui o conteúdo atual e o substitui por suas recomendações. Quando os visitantes visitam seu site e se qualificam para a recomendação, eles verão os itens recomendados na área especificada em vez do conteúdo existente.
+   * **[!UICONTROL Insira o Recommendations antes]**: Inserir recomendações antes do elemento selecionado coloca o conteúdo recomendado antes desse elemento. Dependendo da construção da sua página, a recomendação é exibida acima ou à esquerda do elemento selecionado.
+   * **[!UICONTROL Inserir Recommendations após]**: Inserir recomendações depois do elemento selecionado coloca o conteúdo recomendado após esse elemento. Dependendo da construção da sua página, a recomendação é exibida abaixo ou à direita do elemento selecionado.
+
+   A opção **[!UICONTROL Expandir seleção]** permite expandir o local selecionado (container pai) para ajudá-lo a identificar facilmente e incluir os elementos de página desejados com mais facilidade.
 
 1. Selecione um tipo de página.
 
@@ -70,7 +76,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
 1. Selecione um ou mais [critérios](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. Por padrão, a tela [!UICONTROL Selecionar critério] mostra critérios que são compatíveis com seu negócio vertical e o tipo de página que você selecionou. Você pode alterar essas opções para exibir outros critérios.
+   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. Você pode alterar essas opções para exibir outros critérios.
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 1. Clique em **[!UICONTROL Avançar]**.
 1. Selecione um [design](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Um design é um modelo que determina a aparência dos locais em sua página. [!DNL Target]O inclui vários designs pré-configurados. Também é possível criar designs personalizados. Para obter mais informações, consulte [Criar um design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) e [Personalizar um design](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Um design é um modelo que determina a aparência dos locais em sua página. [!DNL Target] inclui vários designs pré-configurados. Também é possível criar designs personalizados. Para obter mais informações, consulte [Criar um design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) e [Personalizar um design](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Caixa de diálogo Selecionar design](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 1. Clique em **[!UICONTROL Avançar]**.
 
    Você tem a opção de adicionar promoções para suas recomendações. Para mais informações sobre adicionar promoções frente e atrás, consulte  [Adição de promoções](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. Clique em **[!UICONTROL Salvar]**.
 
    A tela do VEC exibe o design da recomendação na sua página.
@@ -158,7 +165,8 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    * Ativar a atividade
    * Editar a atividade
-   * Colocar a atividade no quadro da Experience Cloud
+   * Compartilhe a atividade
+   * Faça o controle da atividade
    * Visualizar seus URLs da experiência
    * Baixar os dados
    * Alterar a porcentagem dos participantes da atividade que visualizam a experiência de controle
@@ -166,6 +174,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
    * Visualizar o código dos seus designs
 
 1. (Opcional) Abra a guia [!UICONTROL Relatórios] para visualizar o relatório que mostra o desempenho de sua atividade do [!DNL Recommendations].
+
 1. (Opcional) Abra a guia [!UICONTROL Conflitos] para visualizar qualquer [conflito de atividade](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) que possa ocorrer.
 
    Conflitos de atividade ocorrem quando várias atividades estão definidas para entregar conteúdo na mesma página e podem fazer com que conteúdo inesperado seja exibido.
