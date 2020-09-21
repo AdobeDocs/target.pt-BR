@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
+description: Use a linguagem de design de código aberto Velocity para personalizar designs de recomendação no Adobe Target Recommendations.
 title: Personalizar um design usando a Velocity
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '1014'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Personalizar um design usando o Velocity{#customize-a-design-using-velocity}
 
-Use a linguagem de design Velocity de código aberto para personalizar designs de recomendação.
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Visão geral do Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ Se você usar um script de perfil em seu design, o $ precedente ao nome do scrip
 
 >[!NOTE]
 >
->A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99. O comprimento do script do modelo pode conter até 65.000 caracteres.
+>O número máximo de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é 99. O comprimento do script do modelo pode conter até 65.000 caracteres.
 
 Por exemplo, se você deseja um design que exibe algo semelhante a isto:
 
@@ -128,12 +128,12 @@ Também é possível usar `algorithm.name` e `algorithm.dayCount` como variávei
 
 Por padrão, os modelos Velocity tratam todos os atributos da entidade como valores de string. Talvez você queira tratar um atributo de entidade como um valor numérico para executar uma operação matemática ou compará-lo a outro valor numérico. Para tratar um atributo de entidade como um valor numérico, siga estas etapas:
 
-1. Declarar uma variável fictícia e inicializá-la em um número inteiro ou valor de duplo arbitrário
-1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para que o analisador de modelo do Público alvo Recommendations valide e salve o modelo)
-1. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste que você criou na etapa 1 para transformar a string em um valor inteiro ou de duplo
-1. Executar a operação matemática ou comparação no novo valor numérico
+1. Declare uma variável de teste e inicialize-a em um número inteiro ou valor de duplo arbitrário.
+1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para que o analisador de modelo do Público alvo Recommendations valide e salve o modelo).
+1. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste que você criou na etapa 1 para transformar a string em um valor inteiro ou de duplo.
+1. Execute a operação matemática ou comparação no novo valor numérico.
 
-**Exemplo: Calcular um preço de desconto**
+### Exemplo: Calcular um preço de desconto
 
 Suponha que você queira reduzir o preço exibido de um item em US$ 0,99 para aplicar um desconto. Você poderia usar a seguinte abordagem para obter esse resultado:
 
@@ -148,9 +148,9 @@ Suponha que você queira reduzir o preço exibido de um item em US$ 0,99 para ap
 #end
 ```
 
-**Exemplo: Escolhendo o número de estrelas a serem exibidas com base na classificação de um item**
+### Exemplo: Escolhendo o número de estrelas a serem exibidas com base na classificação de um item
 
-Suponha que você deseja exibir um número adequado de estrelas com base na média numérica da classificação do cliente de um item. Você poderia usar a seguinte abordagem para obter esse resultado:
+Suponha que você queira exibir um número adequado de estrelas com base na média numérica da classificação do cliente de um item. Você poderia usar a seguinte abordagem para obter esse resultado:
 
 ```
 #set( $Double = 0.1 )
@@ -173,7 +173,7 @@ Suponha que você deseja exibir um número adequado de estrelas com base na méd
 #end
 ```
 
-**Exemplo: Calcular o tempo em horas e minutos com base na duração de um item em minutos**
+### Exemplo: Calcular o tempo em horas e minutos com base na duração de um item em minutos
 
 Suponha que você armazene a duração de um filme em minutos, mas queira exibi-la em horas e minutos. Você poderia usar a seguinte abordagem para obter esse resultado:
 
