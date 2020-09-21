@@ -6,17 +6,17 @@ feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 98%
+source-wordcount: '384'
+ht-degree: 89%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Configurações de atividade do Recommendations{#recommendations-activity-settings}
 
-Informações sobre as configurações que podem ser usadas para descrever e controlar uma atividade do [!UICONTROL Recommendations].
+Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 
 ![Página Metas e configurações do Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -37,7 +37,7 @@ Os seguintes caracteres não são permitidos em um nome de atividade:
 `-`
 `@`
 
-Se especificar um nome de atividade do [!UICONTROL Recommendations] que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. O novo nome é exibido no Target Standard/Premium e no [!UICONTROL Recommendations Classic].
+Se especificar um nome de atividade do [!UICONTROL Recommendations] que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
 
 ## Objetivo
 
@@ -57,7 +57,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 ## Configurações da geração de relatórios
 
-* **Fonte de geração de relatórios:** selecione a fonte de geração de relatórios: Adobe Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
+* **Fonte do relatórios:** Selecione a fonte do relatórios: [!DNL Adobe Target] ou [do Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
 * **Métrica de objetivo:** selecione a métrica de sucesso que determina se a atividade é bem sucedida.
 * **Métricas adicionais:** configure métricas de sucesso adicionais para serem usadas nos relatórios.
 * **Públicos-alvo para relatórios:** defina o público-alvo que pode ser usado ao filtrar os relatórios.
