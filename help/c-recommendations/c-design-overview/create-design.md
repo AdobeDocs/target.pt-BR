@@ -5,7 +5,7 @@ title: Criar um design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 36%
@@ -62,7 +62,7 @@ Você pode criar um design com base em um design padrão ou pode criar um design
 
    Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. Informações sobre a velocidade podem ser encontradas em [https://velocity.apache.org](https://velocity.apache.org) e em [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Um design pode ser HTML ou não-HTML. Por padrão, os designs em HTML são envolvidos com uma tag <div> para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize a opção Design  HTML para alternar para a posição &quot;desligado&quot; para usar código não HTML.
+   Um design pode ser HTML ou não-HTML. Por padrão, os designs em HTML são envolvidos com uma tag `<div>` para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize a opção Design  HTML para alternar para a posição &quot;desligado&quot; para usar código não HTML.
 
    >[!NOTE]
    >
