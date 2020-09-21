@@ -5,10 +5,10 @@ title: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamen
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ Depois de criar a atividade [!UICONTROL Recommendations], Teste A/B ou Definiç�
 
 Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
 
-Você pode verificar se o algoritmo terminou de ser executado no diagrama de visão geral da [!UICONTROL Atividade] , onde o status do critério é listado. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity&#39;s [!UICONTROL Overview] page:
+Você pode verificar se o algoritmo terminou de ser executado no diagrama de visão geral da [!UICONTROL Atividade] , onde o status do critério está listado. The following illustration shows the status in the activity diagram on a [!DNL Recommendations] activity&#39;s [!UICONTROL Overview] page:
 
 ![Página Visão geral da atividade Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -39,7 +39,7 @@ Os resultados de status incluem o seguinte, conforme ilustrado abaixo:
 
 ## Quanto tempo o algoritmo levará para ser executado?
 
-Depois de salvar uma atividade que contém um critério, [!DNL Target] calcula as recomendações com base na coleção, critérios, design e promoções selecionados. Esse cálculo leva algum tempo para ser executado e o período difere com base na lógica de recomendação selecionada, no intervalo de dados, no número de itens no catálogo, na quantidade de dados comportamentais gerados pelos clientes e na fonte de dados comportamentais selecionada.
+Depois de salvar uma atividade que contém um critério, [!DNL Target] calcula as recomendações com base na coleção, critérios, design e promoções selecionados. Esse cálculo leva algum tempo para ser executado e o período é diferente com base na lógica de recomendação selecionada, no intervalo de dados, no número de itens no catálogo, na quantidade de dados comportamentais que seus clientes geraram e na fonte de dados comportamentais selecionada.
 
 A fonte de dados comportamentais tem o maior impacto no tempo de processamento, da seguinte maneira:
 
@@ -57,7 +57,7 @@ Se os critérios usarem o [!DNL Adobe Analytics] como a fonte de dados comportam
 
 >[!NOTE]
 >
->[!UICONTROL Itens] visualizados recentemente não exigem execução de algoritmos offline e os resultados estão disponíveis instantaneamente. [!UICONTROL Os algoritmos de Mais Visualizados] e [!UICONTROL Mais Vendidos] com base nos dados da mbox geralmente produzem resultados muito rapidamente devido à simplificação do cálculo necessário. Essas podem ser boas opções quando você deseja pré-visualização uma alteração de design ou confirmar que os dados comportamentais estão sendo coletados corretamente.
+>[!UICONTROL Itens] visualizados recentemente não exigem execução de algoritmos offline e os resultados estão disponíveis instantaneamente. [!UICONTROL Os algoritmos de Mais Visualizados] e [!UICONTROL Mais Vendidos] com base nos dados da mbox geralmente produzem resultados muito rapidamente devido à computação mais simples necessária. Essas podem ser boas opções quando você deseja pré-visualização uma alteração de design ou confirmar que os dados comportamentais estão sendo coletados corretamente.
 
 ## Usar links de QA para a pré-visualização Recommendations
 
@@ -75,11 +75,11 @@ Usar um link de QA permite que você pré-visualização as recomendações na s
 
 >[!NOTE]
 >
->O modo de QA do público alvo é &quot;aderente&quot; e salvo em um cookie. Se você não sair do modo de controle de qualidade, continuará vendo os resultados de controle de qualidade em todo o site. Para sair do modo de QA, use o [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* O modo de QA do público alvo é &quot;aderente&quot; e salvo em um cookie. Se você não sair do modo de controle de qualidade, continuará vendo os resultados de controle de qualidade em todo o site. Para sair do modo de QA, use o [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* Enquanto estiver no modo de controle de qualidade, a navegação no site não afetará os itens [!UICONTROL visualizados] recentemente ou os itens [!UICONTROL comprados]recentemente do perfil.&quot; Esse comportamento ocorre por projeto para evitar poluição não intencional dos dados comportamentais de produção. Para pré-visualização dos resultados de um critério de Itens [!UICONTROL visualizados] recentemente ou Recommendations [!UICONTROL baseado no] usuário, navegue primeiro no site fora do modo de QA e use a mesma sessão para abrir um link do modo de QA.
 
->[!NOTE]
->
->Enquanto estiver no modo de QA, a navegação no site não afetará os itens [!UICONTROL visualizados] recentemente ou os itens [!UICONTROL comprados]recentemente&quot; do perfil. Esse comportamento ocorre pelo design para evitar a poluição não intencional dos dados comportamentais da produção. Para pré-visualização dos resultados de um critério de Itens [!UICONTROL visualizados] recentemente ou Recommendations [!UICONTROL baseado no] usuário, navegue primeiro no site fora do modo de QA e use a mesma sessão para abrir um link do modo de QA.
 
 ## Uso do download CSV para recomendações de pré-visualização
 
