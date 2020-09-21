@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: Lista de perguntas frequentes sobre os designs de recomendações.
+description: Lista de perguntas frequentes sobre designs de recomendações do Adobe Target.
 title: Perguntas e respostas sobre design
 feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 87%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o design {#design-faq}
 
-Lista de perguntas frequentes sobre os designs de recomendações.
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
 
 ## O preço do item recomendado não exibe os dois valores à direita da casa decimal. Como posso exibi-los?
 
 Por padrão, os valores numéricos (como `entity.value`) retornados nos modelos de design não exibem zeros à direita após a casa decimal. Por exemplo, se um item for de $35,00, `entity.value` será igual a 35 e a página exibirá apenas 35 e não $35,00.
 
-Duas opções estão disponíveis para resolver esse problema.
+Duas opções estão disponíveis para resolver esse problema:
 
 * É possível usar o script do Velocity ou Javascript para aplicar a formatação ao valor retornado.
 
@@ -37,7 +37,7 @@ A ID da categoria não pode ser exibida no design. Como várias categorias podem
 
 ## Como devo mudar um design para obter uma atualização instantânea?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-A alteração do design que está atualmente em uso leva um tempo para atualizar. Para alterar o design imediatamente, crie um novo design, selecione-o na campanha e salve a recomendação.
+A alteração do design que está atualmente em uso leva um tempo para atualizar. Para alterar o design imediatamente, crie um novo design, selecione-o na atividade e salve a recomendação.
 
 ## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -49,7 +49,7 @@ A versão 1.7 sem ferramentas adicionais ou bibliotecas incorporadas. O recurso 
 
 ## O que devo fazer para deixar um valor de entidade existente em branco? Por exemplo: a entity.message de um item precisa ser limpa quando uma promoção termina. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Enviar um espaço sem quebra do JavaScript parece ser suficiente. Peça que os desenvolvedores enviem `\u00A0` como o valor. Exemplo: `entity.message=\u00A0`. Você pode considerar esse como sendo o valor padrão, ao invés de um valor nulo, quando nenhum valor estiver presente.
+Enviar um espaço JavaScript sem quebra parece fazer isso. Peça que os desenvolvedores enviem `\u00A0` como o valor. Exemplo: `entity.message=\u00A0`. Você pode considerar esse como sendo o valor padrão, ao invés de um valor nulo, quando nenhum valor estiver presente.
 
 ## Posso usar um script de perfil em um design de recomendações? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
