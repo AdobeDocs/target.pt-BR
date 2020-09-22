@@ -5,10 +5,10 @@ title: Antes de implementar o Adobe Analytics como a fonte de relatórios para A
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 59%
+source-wordcount: '903'
+ht-degree: 53%
 
 ---
 
@@ -23,7 +23,7 @@ Antes de decidir usar essa integração, revise as seguintes seções e consider
 
 >[!IMPORTANT]
 >
->Antes de começar a usar A4T, você precisa solicitar que sua conta seja provisionada para a integração. Use [este formulário](https://www.adobe.com/go/audiences) para solicitar o aprovisionamento.
+>Antes de começar a usar A4T, você precisa solicitar que sua conta seja provisionada para a integração. Use o Formulário [de Provisionamento de Integrações de](https://www.adobe.com/go/audiences) Marketing Cloud para solicitar o provisionamento.
 
 Esta integração do A4T requer que você implemente as seguintes versões de biblioteca (ou mais recentes), dependendo se deseja ou não usar ofertas de redirecionamento com o A4T:
 
@@ -82,3 +82,15 @@ When troubleshooting, be sure to confirm that the supplemental ID is present on 
 Por padrão, quando a at.js, [!DNL Experience Cloud Visitor ID Service] e appMeasurement.js estão na página, [!DNL Analytics] e [!DNL Target] une os eventos corretamente para fins de relatório e análise no back-end, desde que a ID adicional correta esteja incluída na página, como mencionado acima. Não é necessário gerenciar e executar operações adicionais para a A4T funcionar corretamente.
 
 No entanto, há casos em que você precisa ter mais controle sobre quando e como enviar dados de análise relacionados ao [!DNL Target] para o [!DNL Analytics] para fins de relatório. Você pode ter uma ferramenta de análise interna usada para fins internos, mas também pode enviar os dados de análise ao [!DNL Analytics] por meio de um produto de análise interno, de forma que os outros membros da organização possam continuar a utilizar o [!DNL Analytics] como uma fonte de relatórios visuais. Consulte a [Etapa 7: Referência a at.js ou mbox.js em todas as páginas do site](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) no *Analytics para implementação do Target* para obter mais informações.
+
+## Públicos-alvo compartilhados
+
+Ao preencher o Formulário [de Provisionamento de Integrações de](https://www.adobe.com/go/audiences)Marketing Cloud, esteja ciente das seguintes informações importantes sobre a opção Audiências  compartilhadas listadas em &quot;[!UICONTROL Para quais recursos você está solicitando o provisionamento]?&quot;
+
+![Formulário de solicitação](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
+
+Ao solicitar Audiências compartilhadas, você ativa o [!UICONTROL Público alvo] e o [!UICONTROL Adobe Audience Manager] (AAM) para compartilhar informações, neste caso, o audiência.
+
+>[!IMPORTANT]
+>
+>Essa integração entre o [!UICONTROL Público alvo] e o AAM acarreta custos adicionais. Você será cobrado por cada chamada de [!UICONTROL Público alvo] em AAM.
