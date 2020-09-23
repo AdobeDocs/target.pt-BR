@@ -6,10 +6,10 @@ feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 93%
+source-wordcount: '562'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.daysSinceLastVisit |  |
 | user.browser | O agente do usuário |
 | user.header | Todos os perfis `user.header` são incorporados nos dados do cabeçalho da solicitação de mbox |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-encaminhado-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>É possível obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172. |
+| user.header(&#39;x-encaminhado-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>É possível obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172.<br>Observação: user.header(&#39;x-cluster-client-ip&#39;) foi descontinuado. |
 | user.header(&#39;host&#39;) | Nome do host do site |
 | user.header(&#39;cookie&#39;) | Dados de cookie do visitante |
 | user.header(&#39;user-agent&#39;) | Agente do usuário do navegador do visitante |
