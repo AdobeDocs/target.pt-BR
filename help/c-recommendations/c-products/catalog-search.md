@@ -5,10 +5,10 @@ title: Pesquisa no catálogo do Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ Lembre-se de que as facetas de filtro adicionais estão disponíveis somente na 
    Você também pode clicar no ícone Excluir ( x ) ao lado da coluna que deseja mover da seção ativa para inativa.
 
 Lembre-se de que todas as alterações feitas se aplicam somente à sessão atual.
+
+## Perguntas frequentes {#faq}
+
+Consulte as seguintes perguntas frequentes para obter ajuda com o recurso Pesquisa [!UICONTROL de] catálogo:
+
+### Por que a Pesquisa de catálogo não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?
+
+Quando você realiza uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de String em vez de um valor numérico.
+
+Atualmente, não há funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) do cliente que faça referência aos atributos que precisam do tipo alterado de sequência para numérico.
