@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -268,7 +268,7 @@ Este exemplo usa a variável de contagem para criar os seletores de CSS. Em um c
 
 Observe que este exemplo usa `prefetch > mboxes`, mas você também pode usar `execute > mboxes`. Certifique-se de que, se você usar a pré-busca em `getOffers()`, também deverá usá-la na invocação de `applyOffers()`.
 
-## Chamar Chamada `getOffers()` para executar uma pageLoad
+## Chamar `getOffers()` para executar um pageLoad
 
 O exemplo a seguir mostra como executar pageLoad usando getOffers() com at.js 2.*x* 
 
