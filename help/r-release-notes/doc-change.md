@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '2396'
 ht-degree: 30%
 
 ---
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 24 de setembro | [Bookmarklet de controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Atualização do código do bookmarklet de QA da atividade para at.js 2.*x*. |
-|  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md#faq) | Adicionada uma seção de perguntas frequentes. |
+|  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md#faq) | Foi adicionada uma observação sobre a pesquisa em um atributo personalizado com um valor numérico. |
+|  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Por que a Pesquisa de catálogo não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?&quot; |
 |  | [Como o Target funciona](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | Atualizados os locais do Cluster do Público alvo e do Cluster Central do Público alvo listados em &quot;A rede de borda&quot;. |
 | 23 de setembro | [Usar um servidor de rastreamento do Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Atualização de todo o tópico com informações das Ferramentas do desenvolvedor do navegador [!DNL Adobe Experience Platform Debugger] e do navegador. |
 |  | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | A linha &quot;user.header(&#39;x-nada-encaminhado-para&#39;)&quot; foi atualizada para indicar que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; foi descontinuado. |
