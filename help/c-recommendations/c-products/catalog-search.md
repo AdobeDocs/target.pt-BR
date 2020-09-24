@@ -5,9 +5,9 @@ title: Pesquisa no catálogo do Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ Você pode usar uma pesquisa simples ou avançada para localizar itens no catál
    Observe que você pode usar a funcionalidade de pesquisa de preenchimento automático. Na ilustração a seguir, digitar &quot;bik&quot; retorna todos os produtos que contêm a palavra &quot;bike&quot;.
 
    ![Conclusão automática da pesquisa](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >Quando você realiza uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de String em vez de um valor numérico.
+   >
+   >Atualmente, não há funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) do cliente que faça referência aos atributos que precisam do tipo alterado de sequência para numérico.
 
 1. Você também pode usar filtros para encontrar o produto desejado. No exemplo a seguir, expandindo a faceta [!UICONTROL Coleções] e selecionando &quot;Ferramentas de bicicleta&quot;, todas as ferramentas de bicicleta no catálogo são exibidas.
 
@@ -170,12 +176,3 @@ Lembre-se de que as facetas de filtro adicionais estão disponíveis somente na 
 
 Lembre-se de que todas as alterações feitas se aplicam somente à sessão atual.
 
-## Perguntas frequentes {#faq}
-
-Consulte as seguintes perguntas frequentes para obter ajuda com o recurso Pesquisa [!UICONTROL de] catálogo:
-
-### Por que a Pesquisa de catálogo não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?
-
-Quando você realiza uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de String em vez de um valor numérico.
-
-Atualmente, não há funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) do cliente que faça referência aos atributos que precisam do tipo alterado de sequência para numérico.
