@@ -5,10 +5,10 @@ title: Perguntas frequentes sobre a Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o Recommendations{#recommendations-faq}
 
 Lista de perguntas frequentes sobre o Adobe Target Recommendations atividade.
+
+## Por que a Pesquisa de catálogo não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?
+
+Quando você realiza uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de String em vez de um valor numérico.
+
+Atualmente, não há funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) do cliente que faça referência aos atributos que precisam do tipo alterado de sequência para numérico.
 
 ## Quanto tempo leva para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?
 
@@ -191,4 +197,4 @@ NO_CONTENT é retornado quando as recomendações não estão disponíveis para 
 
 * A renderização parcial do modelo está desativada e não há resultados suficientes disponíveis para preencher o modelo.
 
-   Isso normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtros agressivamente muitos itens dos resultados possíveis. Para evitar isso, ative os backups e não aplique a regra de inclusão aos backups, ou use os critérios em sequência com critérios filtrados menos agressivos.
+   Isso normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtros agressivamente muitos itens dos resultados possíveis. Para evitar isso, ative os backups e não aplique a regra de inclusão aos backups, ou use os critérios em sequência com critérios filtrados menos agressivamente.
