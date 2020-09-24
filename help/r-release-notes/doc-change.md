@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2323'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 23 de setembro | [Usar um servidor de rastreamento do Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Atualização de todo o tópico com informações das Ferramentas do desenvolvedor do navegador [!DNL Adobe Experience Platform Debugger] e do navegador. |
+|  | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | A linha &quot;user.header(&#39;x-nada-encaminhado-para&#39;)&quot; foi atualizada para indicar que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; foi descontinuado. |
+|  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão 20.9.1 do Target Standard/Premium (30 de setembro de 2020). |
 | 15 de setembro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 20.8.3, que inclui o suporte do Analytics para Públicos alvos (A4T) para atividades de Público alvo automático. O suporte para a Autoalocação de atividades foi adicionado em uma versão anterior. |
 |  | [Suporte do Analytics para Públicos alvos (A4T) para alocação automática e atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de Público alvo automático. | Foram adicionadas informações sobre o suporte a A4T nas atividades de Público alvo automático. |
 |  | [Bookmarklet de controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Texto atualizado para indicar que o método para se forçar manualmente para fora do modo de QA carregando uma página no site com o `at_preview_token` parâmetro com um valor vazio se aplica ao at.js 1.somente *x.* |
