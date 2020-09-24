@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: Se estiver usando uma versão mais antiga da at.js ou da mbox.js, deverá especificar um servidor de rastreamento de análise para as atividades que usam o Analytics for Target (A4T).
 title: Usar um servidor de rastreamento do Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ O depurador deve ser visualizado em uma página na qual a atividade será entreg
    * **Implementações** CNAME: `sstats.adobe.com` é um exemplo de um servidor de rastreamento primário CNAME para uma solicitação https (segura). `stats.adobe.com` é um exemplo de uma solicitação primária CNAME para uma página http (não segura).
 
 1. Copie todo o conteúdo do campo.
+
 1. Na seção **[!UICONTROL Configurações de relatório]** da tela **[!UICONTROL Meta e configurações]****[!UICONTROL da atividade, cole as informações do servidor de rastreamento no campo Servidor de rastreamento.]**
 
    >[!NOTE]
@@ -69,4 +70,12 @@ As Ferramentas do desenvolvedor devem ser exibidas em uma página onde a ativida
    * **Servidor** de rastreamento primário: Se o nome do host da solicitação corresponder ao domínio em que você está, então ele será um servidor de rastreamento primário. Por exemplo, se você estiver ativo `adobe.com`, `adobe.com` será o servidor de rastreamento primário.
    * **Servidor** de rastreamento de terceiros: Geralmente, um servidor de rastreamento de terceiros é aquele `[company].sc.omtrdc.net` em que a empresa é o nome da empresa, mas sempre termina `sc.omtrdc.net`.
    * **Implementações** CNAME: `sstats.adobe.com` é um exemplo de um servidor de rastreamento primário CNAME para uma solicitação https (segura). `stats.adobe.com` é um exemplo de uma solicitação primária CNAME para uma página http (não segura).
+
+1. Copie todo o conteúdo do campo.
+
+1. Na seção **[!UICONTROL Configurações de relatório]** da tela **[!UICONTROL Meta e configurações]****[!UICONTROL da atividade, cole as informações do servidor de rastreamento no campo Servidor de rastreamento.]**
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
