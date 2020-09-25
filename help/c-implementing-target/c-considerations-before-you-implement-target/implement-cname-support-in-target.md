@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -34,8 +34,7 @@ Execute as etapas a seguir para solicitar o suporte CNAME no [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Certificado até que a DigiCert não emita uma etapa seja concluída. Portanto, o Adobe não pode atender à solicitação de uma implementação CNAME até que essa etapa seja concluída.
-
+   >Certificado até que a DigiCert não emita uma etapa seja concluída. Portanto, o Adobe não pode atender à solicitação de uma implementação CNAME até que essa etapa seja concluída.
 
 1. [Preencha este formulário](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) e inclua-o ao [abrir um ticket do Atendimento ao cliente do Adobe solicitando suporte](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
 
@@ -93,7 +92,7 @@ Para obter mais informações sobre o ITP, consulte [Apple Intelligent Tracking 
 
 ### Que tipo de interrupções de serviço posso esperar quando minha implementação CNAME é implantada?
 
-Não há interrupção de serviço quando o certificado é implantado (incluindo renovações de certificados). No entanto, quando você altera o nome do host em seu código de [!DNL Target] implementação (`serverDomain` em at.js) para o novo nome do host CNAME (`target.example.com`), os navegadores da Web tratarão os visitantes recorrentes como novos visitantes e seus dados de perfil serão perdidos porque o cookie anterior estará inacessível sob o nome do host antigo (`clientcode.tt.omtrdc.net`) devido aos modelos de segurança do navegador. Esta é uma interrupção única somente no corte inicial para o novo CNAME. As renovações de certificados não têm o mesmo efeito, pois o nome do host não é alterado.
+Não há interrupção de serviço quando o certificado é implantado (incluindo renovações de certificados). No entanto, quando você altera o nome do host em seu código de [!DNL Target] implementação (`serverDomain` em at.js) para o novo nome do host CNAME (`target.example.com`), os navegadores da Web tratarão os visitantes recorrentes como novos visitantes e seus dados de perfil serão perdidos porque o cookie anterior estará inacessível sob o nome do host antigo (`clientcode.tt.omtrdc.net`) devido aos modelos de segurança do navegador. Esta é uma interrupção única somente no recorte inicial do novo CNAME. As renovações de certificados não têm o mesmo efeito, pois o nome do host não é alterado.
 
 ### Que tipo de chave e algoritmo de assinatura de certificado serão usados para minha implementação CNAME?
 
@@ -141,7 +140,7 @@ Use o seguinte conjunto de comandos (no terminal de linha de comando do MacOs ou
 
    >[!NOTE]
    >
-   >Se esse comando falhar, mas o `validateEdgeFpsslSni` comando acima for bem-sucedido, talvez seja necessário aguardar a propagação completa das atualizações de DNS. Os registros de DNS têm um [TTL associado (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) que determina o tempo de expiração do cache para as respostas de DNS desses registros, portanto talvez seja necessário aguardar pelo menos tanto tempo quanto seus TTLs. Você pode usar o `dig target.example.com` comando ou [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) para procurar seus TTLs específicos.
+   >Se esse comando falhar, mas o `validateEdgeFpsslSni` comando acima for bem-sucedido, talvez seja necessário aguardar a propagação completa das atualizações de DNS. Os registros DNS têm um [TTL associado (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) que determina o tempo de expiração do cache para as respostas DNS desses registros, portanto, talvez seja necessário aguardar pelo menos tanto tempo quanto seus TTLs. Você pode usar o `dig target.example.com` comando ou [a G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) para procurar seus TTLs específicos.
 
 ## Limitações conhecidas
 
