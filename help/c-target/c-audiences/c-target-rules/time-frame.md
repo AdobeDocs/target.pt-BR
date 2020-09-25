@@ -1,14 +1,14 @@
 ---
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
-title: Intervalo de tempo
+title: Opções de período no Adobe Target audiência
 feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 98%
+source-wordcount: '410'
+ht-degree: 96%
 
 ---
 
