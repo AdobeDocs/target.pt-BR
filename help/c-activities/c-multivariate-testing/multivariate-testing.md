@@ -5,9 +5,9 @@ title: Teste multivariado
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1440'
 ht-degree: 91%
 
 ---
@@ -29,7 +29,7 @@ Os testes multivariados também ajudam você a descobrir os efeitos compostos en
 
 No Target, cada combinação é uma experiência única. O teste multivariado compara cada experiência para você poder saber quais são as combinações de maior êxito. Ao mesmo tempo, os dados são coletados e analisados para entender como cada local e as ofertas influenciam a métrica de sucesso.
 
-![](assets/multivariate.png){width=&quot;672px&quot;}
+![](assets/multivariate.png)
 
 Devido ao número de combinações que podem ser geradas, um teste multivariado requer mais tempo e tráfego do que um teste A/B. A página deve receber tráfego suficiente para produzir resultados significativos estatisticamente para cada experiência. Para obter resultados úteis, você precisa entender a quantidade de tráfego que a sua página recebe e testar o número ideal de combinações para a quantidade certa de tempo a fim de obter os resultados necessários. Target&#39;s [O Avaliador de tráfego](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) pode ajudar você a projetar um teste que funcione com seu tráfego. Antes de usar o Avaliador de tráfego, você deve ter boas estatísticas que demonstrem o número de impressões e conversas que o site recebe normalmente. Considere seus níveis diários de tráfego. Quanto mais experiências em uma atividade, mais tráfego ela precisará incluir, ou terá que ser executada por mais tempo. Se o seu tráfego não for muito alto, você deverá testar um número pequeno de combinações; caso contrário, o tempo necessário para produzir resultados significativos para o teste pode ser muito longo para ser útil.
 
