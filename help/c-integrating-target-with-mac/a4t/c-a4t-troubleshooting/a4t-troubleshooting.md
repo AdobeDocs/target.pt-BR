@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,10 @@ A lista de conjuntos de relatórios que aparece no Target Standard/Premium é a 
 
 ## Não vejo tantos dados nos relatórios quanto esperado.  {#section_75002584FA63456D8D9086172925DD8D}
 
-Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics]. Na chamada do [!DNL Target], a ID complementar está contida no parâmetro `mboxMCSDID`. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
+Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics]. 
+
+* **at.js 1.x**: Na [!DNL Target] chamada, a ID adicional está contida no `mboxMCSDID` parâmetro. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
+* **at.js 2.x**: A ID adicional é retornada no cabeçalho HTTP como valor para `experienceCloud.analytics.supplementalDataId`.
 
 Se não houver uma ID de dados complementar na chamada do [!DNL Target], confirme se o arquivo [!DNL VisitorAPI.js] foi carregado antes da [!DNL at.js] ou da [!DNL mbox.js]. Se não houver uma ID de dados complementar na chamada do [!DNL Analytics], confirme se a chamada do [!DNL Target] é acionada antes da chamada do [!DNL Analytics].
 
