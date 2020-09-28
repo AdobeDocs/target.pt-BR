@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 90%
 
 ---
@@ -70,7 +70,7 @@ Aspas duplas devem ser evitadas. Por exemplo, `"[""test"", ""value""]"` é uma m
 
 É possível incluir até 500 valores em um atributo de vários valores.
 
-**Uso de targetPageParams**
+### Uso de targetPageParams
 
 O exemplo a seguir mostra como usar `targetPageParams`
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**Uso de CSV**
+### Uso de CSV
 
 Você pode gerenciar seus arquivos CSV de forma simples usando um editor de texto ou você pode usar um software de planilhas.
 
@@ -108,7 +108,7 @@ Ao converter para o formato .csv, o software de planilha adiciona aspas duplas a
 
 Tenha cuidado ao editar diretamente um arquivo CSV de catálogo simples.
 
-**Uso de APIs**
+### Uso de APIs
 
 Você pode passar atributos de vários valores usando a API de Delivery em um parâmetro de mbox como um valor de string contendo uma matriz JSON escaped.
 
@@ -261,7 +261,6 @@ Exemplo:
 
 Quando `entity.genre=["genre1","genre2"]` for utilizado em um design como `$entity<N>.genre`, o resultado será `genre1, genre2`.
 
->[!MORELIKETHIS]
->
->* [Atributos da entidade](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Tópicos relacionados:
 
+* [Atributos da entidade](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
