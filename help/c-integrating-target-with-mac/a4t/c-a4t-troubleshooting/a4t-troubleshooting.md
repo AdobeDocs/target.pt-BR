@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 90%
 
 ---
 
@@ -81,6 +81,12 @@ Revise sua implementação, especialmente em páginas nas quais seus visitantes 
 
 * **at.js 1.x**: Na [!DNL Target] chamada, a ID adicional está contida no `mboxMCSDID` parâmetro. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
 * **at.js 2.x**: A ID adicional é retornada no cabeçalho HTTP como valor para `experienceCloud.analytics.supplementalDataId`.
+
+A maneira mais fácil de examinar a ID adicional é usando o Adobe Experience Platform Debugger.
+
+Se você não instalou o depurador, consulte [Introdução ao Adobe Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+
+![Depurador](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 Se não houver uma ID de dados complementar na chamada do [!DNL Target], confirme se o arquivo [!DNL VisitorAPI.js] foi carregado antes da [!DNL at.js] ou da [!DNL mbox.js]. Se não houver uma ID de dados complementar na chamada do [!DNL Analytics], confirme se a chamada do [!DNL Target] é acionada antes da chamada do [!DNL Analytics].
 
