@@ -4,7 +4,7 @@ description: Informações sobre como trabalhar com um campo de vários valores 
 title: Trabalhar com atributos de vários valores no Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Representação da API JSON da regra de inclusão:
     "attribute": "id",
     "operation": "isNotContainedInList",
     "source": {
-        "name": " user.lastWatchedMovies",
+        "name": "user.lastWatchedMovies",
         "type": "PROFILE"
     }
 } 
