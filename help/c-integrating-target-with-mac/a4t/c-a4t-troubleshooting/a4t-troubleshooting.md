@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ A lista de conjuntos de relatórios que aparece no Target Standard/Premium é a 
 Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics]. 
 
 * **at.js 1.x**: Na [!DNL Target] chamada, a ID adicional está contida no `mboxMCSDID` parâmetro. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
-* **at.js 2.x**: A ID adicional é retornada no cabeçalho HTTP como valor para `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**: Na [!DNL Target] chamada, a ID suplementar é retornada no cabeçalho HTTP como valor para `experienceCloud.analytics.supplementalDataId`. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
 
 A maneira mais fácil de examinar a ID adicional é usando o Adobe Experience Platform Debugger.
 
