@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2420'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 29 de setembro | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | Foram adicionadas informações sobre como inspecionar a ID suplementar em at.js 1.x e at.js 2.x. |
 | 24 de setembro | [Bookmarklet de controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Atualização do código do bookmarklet de QA da atividade para at.js 2.*x*. |
 |  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md#faq) | Foi adicionada uma observação sobre a pesquisa em um atributo personalizado com um valor numérico. |
 |  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Por que a Pesquisa de catálogo não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?&quot; |
