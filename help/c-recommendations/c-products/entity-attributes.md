@@ -5,7 +5,7 @@ title: Atributos da entidade
 feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: ed4f132dbf1ac8614f4aac8bd29b39b3dfbce2fe
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 92%
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 # ![PREMIUM](/help/assets/premium.png) Atributos da entidade{#entity-attributes}
 
-Use atributos de entidade para passar informações do produto ou conteúdo para o ∂.
+Use atributos de entidade para passar informações do produto ou conteúdo para o [!DNL Adobe Target Recommendations].
 
 [!DNL Recommendations] envia `productId` ou `productPurchasedId` (referido como `entity.id` no código) que é usado no algoritmo.
 
