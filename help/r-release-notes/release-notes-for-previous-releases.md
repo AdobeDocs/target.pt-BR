@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '29263'
-ht-degree: 88%
+source-wordcount: '29830'
+ht-degree: 86%
 
 ---
 
@@ -23,6 +23,40 @@ Notas de versão para versões anteriores de Públicos alvos, incluindo notas de
 >Consulte [Notas de versão do Target (atual)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2020
+
+### Target Standard/Premium 20.8.3 (15 de setembro de 2020)
+
+| Recurso | Detalhes |
+| --- | --- |
+| ![Suporte Premium badge](/help/assets/premium.png) do Analytics para Públicos alvos (A4T) para atividades de Público alvo automático | [!UICONTROL As atividades de Público alvo] automático agora são compatíveis com o [Analytics para Públicos alvos](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Essa integração permite que você use o algoritmo de aprendizado de máquina do conjunto [!UICONTROL Automático] para escolher a melhor experiência para cada visitante com base no perfil, comportamento e contexto.<br>Se você já tiver [implementado a A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) para uso com atividades de teste A/B e direcionamento de experiência, todos estarão configurados!<br>Para obter mais informações, consulte Suporte [do Analytics para Públicos alvos (A4T) para Autoalocação e atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de Público alvo automático na criação *de* Atividades. |
+
+### Target Standard/Premium 20.8.2 (10 de setembro de 2020)
+
+| Recurso | Detalhes |
+| --- | --- |
+| ![Slots de recomendações de controle de emblema](/help/assets/premium.png) Premium em sequências de critérios | As Sequências de critérios agora permitem controlar o número de slots absorvidos por cada critério de recomendação, permitindo que você combine e corresponda tipos diferentes de itens ou diferentes lógicas de algoritmo.<br>Consulte [Criar sequências](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de critérios para saber mais. |
+
+### Target Standard/Premium 20.8.1 (2 de setembro de 2020)
+
+Esta versão contém os seguintes aprimoramentos, correções e alterações:
+
+* Correção de um problema que causava a exibição de erros ao carregar as novas páginas [!UICONTROL de Administração] após a alternância de organizações. (TGT-37730)
+* Corrigido um problema de exibição que fazia com que o código do cliente incorreto fosse exibido na página [!UICONTROL Administração > Implementação] . (TGT-37849)
+* Correção de um problema que às vezes impedia os usuários de usar os recursos de edição no [!UICONTROL Visual Experience Composer] (VEC) após carregar o VEC com êxito. (TGT-37162)
+* Correção de um problema que impedia o carregamento de páginas no VEC e no Enhanced Experience Composer (EEC) mesmo se a extensão do VEC Helper estivesse instalada. Isso se deve a mudanças no Google Chrome 80+. Baixe a extensão [do VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)atualizada. (TGT-37893)
+* Correção de um problema que às vezes impedia os usuários de baixar o at.js na página [!UICONTROL Administração > Implementação] após alternar entre as organizações. (TGT-37668)
+* O botão de download do at.js agora está desativado durante o carregamento para impedir o envio [!DNL Target] de várias solicitações se os usuários clicarem no botão de download várias vezes. (TGT-37633)
+* Correção de um problema nas atividades [!UICONTROL Experience Targeting] (XT) que fazia com que as experiências exibissem &quot;resultados de busca&quot; por um longo período de tempo. (TGT-37684)
+* Navegação e funcionalidade aprimoradas para usuários somente de teclado. (TGT-34479 e TGT-34473)
+* Adicionadas etiquetas na interface do usuário para ajudar os usuários a usar tecnologias de assistência. (TGT-34480)
+* Mensagem de erro aprimorada ao excluir um visor móvel que está sendo usado em uma atividade. A mensagem de erro agora diz: &quot;Atualmente, esse visor está associado a uma ou várias atividades. Você precisa remover o visor dessas atividades antes de poder excluí-lo.&quot; (TGT-37030)
+* Adição de suporte no VEC para permitir o rastreamento de cliques em um seletor css que corresponde a mais de um elemento na página. (TGT-37323)
+* Correção de um problema que impedia certos usuários de exibirem a lista da [!UICONTROL Atividade] . A seguinte mensagem de erro foi exibida: &quot;Não é possível buscar URLsugestões.&quot; O erro ocorria para os usuários que usavam retornos de carro em FirstName (FirstName/r/n) no sistema de backend de Adobe. (TGT-37330)
+* Correção de um problema que impedia que os usuários exibissem a página de [!UICONTROL Atividade] se o nome do espaço de trabalho (especificado no [!UICONTROL Adobe Admin Console for Enterprise]) contivesse um apóstrofo. (TGT-37709)
+* Correção de um problema em [!UICONTROL Autoalocar] atividades ao selecionar métricas de otimização e conversão em que uma mensagem de erro informava incorretamente os usuários a selecionar um conjunto de relatórios, mesmo que um conjunto de relatórios já tivesse sido especificado. (TGT-37689)
+* Correção de um problema que às vezes fazia com que as métricas na página [!UICONTROL Metas e Configurações] ficassem em branco depois de navegar para a página [!UICONTROL Definição de metas] e, em seguida, voltar. (TGT-37691)
+* Correção de um problema que causava um valor modificado por último incorreto para [!DNL Recommendations] critérios. (TGT-37666)
+* Correção de um problema que fazia com que IDs de mbox fossem exibidas na lista suspensa Mboxes em vez de nomes de mbox. (TGT-37739)
 
 ### at.js 2.3.2 (24 de julho de 2020)
 
