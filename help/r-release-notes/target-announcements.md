@@ -5,10 +5,10 @@ title: Anúncios de públicos alvos
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,23 @@ Anúncios e informações sobre os próximos eventos, incluindo sessões do Cons
 ## Adobe novamente nomeado Líder no Quadrante Mágico da Gartner para Mecanismos de Personalização
 
 Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução. [Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webinar: Personalização adaptável e ajustada em escala com Adobe Target e Analytics
+
+* **terça-feira, 27 de outubro de 2020**
+* **8h PT | 10am CT | 11am ET**
+* **Duração: 60 minutos**
+
+A adoção digital está aumentando neste momento, trazendo novos segmentos de clientes para o mundo digital com altas expectativas sobre como encontrar o que eles precisam e receber assistência excepcional e atendimento ao cliente. A personalização é fundamental para adaptar-se às mudanças imediatas e desenvolver seus negócios para o futuro.
+
+Neste webinar, mostraremos como [!DNL Adobe Target] agir com confiança nos [!DNL Analytics] insights e segmentos de audiência, garantindo que as empresas em todos os setores possam evoluir rapidamente seus negócios com a personalização acionada por IA, respaldada por uma visualização completa de impacto no desempenho no relatórios aprimorado do Analytics.
+
+Neste webinar, você aprenderá:
+
+* Como a única integração de servidor a servidor entre [!DNL Adobe Analytics] e [!DNL Adobe Target] permite um perfil, audiências e relatórios unificados para uma personalização rápida orientada por desempenho
+* Dicas e truques sobre como as empresas estão economizando horas na &quot;paralisia da análise&quot; e estão rapidamente personalizando suas interações críticas com os clientes em escala
+
+[Registre-se aqui para este evento empolgante.](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
 
 ## Webinar: Como o HSBC utiliza a Adobe Target e a IA para otimizar e fornecer rapidamente personalização em escala
 
