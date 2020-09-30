@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 25%
+source-wordcount: '1237'
+ht-degree: 24%
 
 ---
 
@@ -36,6 +36,14 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 
 
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## Target Standard/Premium 20.9.1 (30 de setembro de 2020)
+
+Esta versão de manutenção contém os seguintes aprimoramentos, correções e alterações:
+
+* Navegação e funcionalidade aprimoradas para usuários somente de teclado. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* Adicionadas etiquetas na interface do usuário para ajudar os usuários a usar tecnologias de assistência. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* Texto e contraste de cor aprimorados para imagens e texto na interface do usuário. (TGT-34513)
 
 ## Target Standard/Premium 20.8.3 (15 de setembro de 2020)
 
