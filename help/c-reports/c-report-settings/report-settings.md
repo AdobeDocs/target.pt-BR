@@ -1,29 +1,32 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: Informações para ajudar a definir os elementos que você quer que apareçam em seu relatório. As definições de relatório podem ser salvas para uso posterior.
+description: Informações para ajudá-lo a definir os elementos que deseja que apareçam no relatório da Adobe Target. As definições de relatório podem ser salvas para uso posterior.
 title: Configurações do relatório
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 84%
+source-wordcount: '1887'
+ht-degree: 69%
 
 ---
 
 
 # Configurações do relatório{#report-settings}
 
-Informações para ajudar a definir os elementos que você quer que apareçam em seu relatório. As definições de relatório podem ser salvas para uso posterior.
+Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. As definições de relatório podem ser salvas para uso posterior.
 
-Para exibir um relatório, clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista e na guia **[!UICONTROL Relatórios.]**
+Para exibir um relatório:
 
-![Interface de relatórios](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. Clique em **[!UICONTROL Atividades]** e depois clique na atividade desejada na lista.
+1. Clique na guia **[!UICONTROL Relatórios]**.
+
+   ![Interface de relatórios](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Predefinição do Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Você pode salvar até dez predefinições diferentes de um relatório de atividade individual, após configurá-lo como desejado (métricas, intervalos de datas, públicos-alvo, configurações avançadas e assim por diante). Todos os usuários do Target podem exibir, editar e excluir as diversas predefinições, independentemente de quem as criou.
+Você pode salvar até dez predefinições diferentes de um relatório de atividade individual, após configurá-lo como desejado (métricas, intervalos de datas, públicos-alvo, configurações avançadas e assim por diante). All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
 
 Você também pode configurar um relatório de atividade individual, como desejado, e depois salvar essa configuração como sua predefinição padrão/favorita. A partir de agora, esta será a exibição apresentada sempre que você visualizar o relatório dessa atividade.
 
@@ -41,8 +44,8 @@ Você também pode configurar um relatório de atividade individual, como deseja
 
    ![Caixa de diálogo Nova predefinição](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Revise as informações nas seções Filtros e Configurações para garantir que o relatório esteja configurado como desejado e especifique o **[!UICONTROL Nome de predefinição]** (até 50 caracteres).
-1. (Condicional) Se desejar que isso seja a exibição de relatório padrão/favorita, deslize o botão **[!UICONTROL Definir isto como padrão]** para a posição Ativado.
+1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ### Selecionar uma predefinição diferente
@@ -75,7 +78,7 @@ Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefiniç�
 
    ![Exclusão Padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Clique novamente em **[!UICONTROL Excluir]** para confirmar a exclusão.
+1. Clique em **[!UICONTROL Excluir]** novamente para confirmar sua exclusão (as predefinições excluídas não podem ser recuperadas).
 
 ### Tratamento de erros predefinidos
 
@@ -109,7 +112,7 @@ A caixa Intervalo de datas exibe o intervalo de datas atual do relatório. Cliqu
 
 ![Calendário](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Selecione as datas **[!UICONTROL Iniciais]** e **[!UICONTROL Finais]** para o relatório. Você também pode usar as caixas de seleção **[!UICONTROL Do início da atividade]** e **[!UICONTROL Até o final da atividade.]**
+Selecione as datas **[!UICONTROL Iniciais]** e **[!UICONTROL Finais]** para o relatório. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
 
 Clique em **[!UICONTROL Personalizar datas]** para selecionar intervalos de datas predefinidos: Últimos 7 dias, Últimos 15 dias ou Últimos 30 dias. Esses intervalos de datas predefinidos são intervalos acumulados. Se a data de início for menor do que o número de dias escolhido, o calendário mostrará o intervalo desde a data de início, mas acumulará quando a data de início se tornar mais anterior do que o número de dias escolhido conforme a duração da atividade aumenta.
 
@@ -121,7 +124,10 @@ Os relatórios têm as seguintes restrições de data:
 
 ## Configurações {#section_D99CE462107D45CABE0960F820E1E972}
 
-Clique no ícone de engrenagem para configurar o relatório e, em seguida, clique em **[!UICONTROL Salvar configurações]** quando concluído.
+Para configurar as configurações do relatório:
+
+1. Clique no ícone de engrenagem e faça as alterações desejadas (conforme explicado abaixo).
+1. Clique em **[!UICONTROL Salvar]** ao concluir.
 
 A ilustração a seguir mostra a caixa de diálogo Configurações para uma atividade A/B:
 
@@ -129,29 +135,45 @@ A ilustração a seguir mostra a caixa de diálogo Configurações para uma ativ
 
 Dependendo do tipo de atividade selecionada, as opções variam:
 
-* **Metodologia de contagem:** selecione a metodologia desejada:
+### Metodologia de contagem
 
-   * Visitantes
-   * Visitas
-   * Impressões de atividade
+Selecione a metodologia desejada:
 
-* **Controle:** selecione a experiência de controle para usar o cálculo e comparar o incentivo.
-* **Ambiente:** selecione o ambiente (grupo de host) para usar no relatório.  Para obter mais informações, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
-* **Redefinir dados de relatório:** redefina os dados de relatório para remover os dados antigos. Os visitantes atuais permanecerão na atividade.  Essa opção está disponível somente para os que tem permissões do aprovador.
+* Visitantes
+* Visitas
+* Impressões de atividade
 
-   >[!IMPORTANT]
-   >
-   >Essa é uma ação permanente que não pode ser desfeita.
+### Controle
 
-* **Excluir valores extremos:** a opção de alternar [!UICONTROL Excluir valores extremos] é aplicada apenas para atividades com métricas do tipo receita e envolvimento. Para obter mais informações, consulte [Exceto pedidos extremos](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+Selecione a experiência de controle a ser usada ao calcular e comparar o incentivo.
+
+### Ambiente
+
+Selecione o ambiente (grupo de host) a ser usado para o relatório. Para obter mais informações, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Redefinir dados do relatório
+
+Redefina os dados do relatórios para remover os dados antigos. Os visitantes atuais permanecerão na atividade.  This option is available only for those with [!UICONTROL Approver] permissions.
+
+>[!IMPORTANT]
+>
+>Essa é uma ação permanente que não pode ser desfeita.
+
+### Excluir valores extremos
+
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Para obter mais informações, consulte [Exceto pedidos extremos](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Baixar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Clique no ícone de download para baixar dados de relatório em um formato [!DNL .csv] para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados. Para obter mais informações, consulte [Fazendo download de dados em um arquivo CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+
+![Ícone Download](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+Para obter mais informações, consulte [Fazendo download de dados em um arquivo CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Atualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Clique em no ícone de Atualização para atualizar a tabela do relatório e a exibição em gráfico sem atualizar a página inteira, sua configuração ou seu intervalo de datas.
+Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
 
 ## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -203,23 +225,20 @@ Selecione a exibição de gráfico desejada:
 
 * Média móvel
 * Executar aumento médio
-* Diariamente Controle
-* Direcionado Diariamente
+* Diariamente
 * Aumento diário
 
 ![Média de execução do relatório](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->O nome dessa lista suspensa varia dependendo da visualização selecionada, mas será uma das visualizações listadas acima.
+O nome dessa lista suspensa varia dependendo da visualização selecionada, mas será uma das visualizações listadas acima.
 
 ## Metodologia de contagem {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (Disponível somente ao exibir o relatório em gráficos)
 
-É possível escolher a metodologia de contagem de gráficos nos relatórios. Observe que isso não é suportado nas atividades de Personalização automatizada (AP).
+É possível escolher a metodologia de contagem de gráficos nos relatórios. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
 
-Para acessar a opção de Metodologia de contagem, ao exibir um relatório em modo de gráfico, clique na lista suspensa **[!UICONTROL Minha meta primária]**, em seguida, selecione a metodologia de contagem.
+To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
 
 A metodologia de contagem será a mesma que a selecionada na caixa de diálogo [!UICONTROL Configurações], descrita acima.
 
