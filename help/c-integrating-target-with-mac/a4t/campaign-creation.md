@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
+source-git-commit: e501100ba149472169f11072fd1663095dd40612
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1357'
 ht-degree: 21%
 
 ---
@@ -130,17 +130,19 @@ Os seguintes tipos de métricas não são suportados como métricas de objetivo 
 
 ### Limitações e notas
 
-**Autoalocar e Público alvo automático**
+Algumas limitações e observações se aplicam à Autoalocação e ao Público alvo automático. Outras limitações e observações se aplicam a um tipo de atividade ou outro.
+
+#### Autoalocar e Público alvo automático
 
 * A fonte do relatórios não pode ser alterada de [!DNL Analytics] para [!DNL Target] ou vice-versa depois que uma atividade é ativada.
 * Embora as métricas calculadas não sejam suportadas como métricas de objetivo principal, geralmente é possível alcançar o resultado pretendido selecionando, em vez disso, um evento personalizado como a métrica de objetivo principal. Por exemplo, se você deseja otimizar para uma métrica como &quot;conclusões de formulário por visitante&quot;, selecione um evento personalizado que corresponda a &quot;conclusões de formulário&quot; como sua métrica de objetivo principal. [!DNL Target] normaliza automaticamente as métricas de conversão com base em cada visita para contabilizar uma distribuição de tráfego desigual, de modo que não é necessário usar uma métrica calculada para executar a normalização.
 * [!DNL Target] usa o modelo de atribuição &quot;Mesmo toque&quot; na implementação [!UICONTROL Autoalocar] A4T.
 
-**Alocação automática**
+#### Alocação automática
 
 * [!UICONTROL Os modelos de autoalocação] continuam treinando a cada duas horas, como de costume.
 
-**Direcionamento automático**
+#### Direcionamento automático
 
 * [!UICONTROL Os modelos de Público alvo] automático continuam treinando a cada 24 horas, como de costume. No entanto, os dados de conversão do evento [!DNL Analytics] são atrasados em mais 6 a 24 horas. Esse atraso significa que a distribuição do tráfego [!DNL Target] rastreará os eventos mais recentes registrados em [!DNL Analytics]. Este fato terá o maior efeito nas primeiras 48 horas após a primeira ativação de uma atividade; o desempenho da atividade refletirá melhor o comportamento de [!DNL Analytics] conversão após cinco dias. Você deve considerar o uso da [!UICONTROL Autoalocação] em vez do Público alvo  Automático para atividades de curta duração, onde a maioria do tráfego ocorre nos primeiros cinco dias de vida da atividade.
 * Ao usar [!DNL Analytics] como fonte de dados para uma atividade de Público alvo [!UICONTROL automático] , as sessões são consideradas encerradas após seis horas de duração. As conversões que ocorrerem após seis horas não serão contadas.
