@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 27%
@@ -69,4 +69,4 @@ Considere as seguintes perguntas frequentes enquanto trabalha com o Avaliador de
 
 Em determinadas circunstâncias, seu tráfego pode ser grande o suficiente para um modelo personalizado ser construído, mas esse tráfego pode informar [!DNL Target] que não há diferença significativa entre o modelo personalizado e o aleatório. Embora o modelo seja construído [!DNL Target] e testado, ele não será implantado porque o modelo não é significativamente melhor do que o aleatório.
 
-Uma possível razão para o modelo não ser melhor do que o radom pode ser que as ofertas não sejam significativamente diferentes umas das outras. Se esse for o caso, você pode tentar aumentar as diferenças nas ofertas tornando-as visualmente diferentes ou alterando o conteúdo em si.
+Uma possível razão para o modelo não ser melhor do que aleatório pode ser que as ofertas não sejam significativamente diferentes umas das outras. Se esse for o caso, você pode tentar aumentar as diferenças nas ofertas tornando-as visualmente diferentes ou alterando o conteúdo em si.
