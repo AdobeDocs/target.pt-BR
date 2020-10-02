@@ -6,9 +6,9 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
+source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 27%
 
 ---
@@ -69,4 +69,4 @@ Considere as seguintes perguntas frequentes enquanto trabalha com o Avaliador de
 
 Em determinadas circunstâncias, seu tráfego pode ser grande o suficiente para um modelo personalizado ser construído, mas esse tráfego pode informar [!DNL Target] que não há diferença significativa entre o modelo personalizado e o aleatório. Embora o modelo seja construído [!DNL Target] e testado, ele não será implantado porque o modelo não é significativamente melhor do que o aleatório.
 
-Uma possível razão para o modelo não ser melhor do que aleatório pode ser que as ofertas não sejam significativamente diferentes umas das outras. Se esse for o caso, você pode tentar aumentar as diferenças nas ofertas tornando-as visualmente diferentes ou alterando o conteúdo em si.
+Uma possível razão para o modelo não ser melhor do que aleatório pode ser que as ofertas não sejam significativamente diferentes umas das outras. Se esse for o caso, você pode tentar tornar as ofertas mais visualmente diferentes se as mensagens forem semelhantes, ou pode tentar mudar as próprias mensagens.
