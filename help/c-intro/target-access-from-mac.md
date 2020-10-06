@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '392'
 ht-degree: 76%
 
 ---
@@ -92,15 +92,3 @@ A documentação do [!DNL Target] está disponível nos seguintes idiomas:
 * Chinês Simplificado
 * Chinês Tradicional
 * Coreano
-
-## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
-
-Este vídeo inclui informações sobre o [!DNL Adobe Target] na [!DNL Experience Cloud].
-
-* Descrever e compreender o valor da Adobe Experience Cloud
-* Faça logon na Adobe Experience Cloud com a sua Adobe ID ou crie uma
-* Convidar um novo usuário para a Adobe Experience Cloud
-* Vincule sua conta do Target à Adobe Experience Cloud
-* Definir o Adobe Target como sua página de aterrissagem padrão
-
->[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
