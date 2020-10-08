@@ -5,9 +5,9 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
+source-git-commit: 4abd3678914c3866b08f56c5594df285cd903e08
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3794'
 ht-degree: 80%
 
 ---
@@ -129,7 +129,7 @@ Quando os problemas acima são resolvidos, são movidos para as seções a segui
 
 ### Relatórios de Público alvo automático (#at-metrics)
 
-Foi resolvido um problema que afetava o relatórios de Público alvo [!DNL Adobe Target Premium] automático [!UICONTROL de] usuários a partir de 15 de setembro, 14:30. (PDT) para 6 de outubro, 9:25 (TFD). Ao visualizar relatórios para as métricas de conversão afetadas (&quot;[!UICONTROL Exibida uma página]&quot; ou &quot;[!UICONTROL Clicada em mbox]&quot;), as taxas de conversão são reportadas incorretamente. Não há nenhum problema de delivery conhecido no momento.
+Foi resolvido um problema que afetava o relatórios de Público alvo [!DNL Adobe Target Premium] automático [!UICONTROL de] usuários a partir de 15 de setembro, 14:30. (PDT) para 6 de outubro, 9:25 (TFD). Ao exibir relatórios para as métricas de conversão afetadas (configuradas usando a opção [!UICONTROL Visualizar uma página]ou &quot;[!UICONTROL Clicar em mbox]&quot;), as taxas de conversão são reportadas incorretamente. Não há nenhum problema de delivery conhecido no momento.
 
 Para ressincronizar e corrigir seu relatórios:
 
