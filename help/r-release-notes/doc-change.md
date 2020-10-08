@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2537'
 ht-degree: 31%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 8 de outubro | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Foi adicionado o seguinte problema resolvido:<ul><li>[Relatórios de Público alvo automático](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>O seguinte problema foi movido da seção Problemas conhecidos para a seção Problemas resolvidos:<ul><li>[Relatório](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
+|  | [Implementação híbrida](/help/c-implementing-target/hybrid-implementation.md) | Novo tópico. |
 | 7 de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 20.10.1. |
 | 1 de outubro | [Estimativa de tráfego exigido para o sucesso](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Adicionada a seção Perguntas frequentes. |
 | 30 de setembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte webinar ao vivo:<ul><li>Personalização adaptável e ajustada em escala com Adobe Target e Analytics</li></ul> |
