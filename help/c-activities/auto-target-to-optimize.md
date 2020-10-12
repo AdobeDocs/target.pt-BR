@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: O Público alvo automático no Adobe Target usa o aprendizado de máquina avançado para selecionar entre várias experiências definidas pelo profissional de marketing de alto desempenho para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 title: Direcionamento automático
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 85%
+source-wordcount: '3744'
+ht-degree: 83%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Direcionamento automático{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Direcionamento automático
 
 O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada para selecionar várias experiências de alto desempenho definidas pelo profissional de marketing para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 
@@ -21,11 +22,19 @@ O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada
 >
 >O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
 
+## História de sucesso real usando o Público alvo automático {#success}
+
+Recentemente, um grande varejista de roupas usou uma atividade de Público alvo  automático com dez experiências baseadas em categorias de produtos (além de controle aleatório) para fornecer o conteúdo correto a cada visitante. &quot;[!UICONTROL Adicionar ao carrinho]&quot; foi escolhida como a métrica de otimização primária. As experiências direcionadas tiveram um aumento médio de 29,09%. Depois de criar os modelos de Público alvo  automático, a atividade foi definida para 90% de experiências personalizadas.
+
+Em apenas dez dias, mais de US$ 1.700.000 em incentivo foram alcançados.
+
+Continue lendo para saber como usar o Público alvo  automático para aumentar o incentivo e a receita de sua organização.
+
+## Visão geral {#section_972257739A2648AFA7E7556B693079C9}
+
 [Ao criar uma atividade A/B usando o fluxo de trabalho guiado de três etapas](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), é possível optar por alocar o tráfego usando a opção [!UICONTROL Direcionamento automático para experiências personalizadas]:
 
 ![Opção de Direcionamento automático para experiências personalizadas](/help/c-activities/assets/auto-target-ui-new.png)
-
-## Visão geral {#section_972257739A2648AFA7E7556B693079C9}
 
 A opção de [!UICONTROL Direcionamento automático] no fluxo de atividade A/B permite aproveitar a aprendizagem de máquina para personalizar com base em um conjunto de experiências definidas pelo profissional de marketing em um clique. O [!UICONTROL direcionamento automático] foi projetado para fornecer otimização máxima, em comparação com o teste A/B tradicional ou Alocação automática, determinando qual experiência exibir para cada visitante. Ao contrário de uma atividade A/B na qual o objetivo é encontrar um único vencedor, o [!UICONTROL direcionamento automático] determina automaticamente a melhor experiência para um determinado visitante (com base em seu perfil e outras informações contextuais) para oferecer uma experiência altamente personalizada.
 
@@ -117,7 +126,7 @@ Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcion
 
 * Essa métrica pode ser baseada em conversão ou baseada em receita (mais especificamente, Receita por visitante).
 
-**O algoritmo não suporta o uso do[!DNL Analytics]como uma fonte de dados ou um terminal de geração de relatório.**
+**O algoritmo não suporta o uso do [!DNL Analytics] como uma fonte de dados ou um terminal de geração de relatório.**
 
 **O Target coleta automaticamente informações sobre os visitantes para criar os modelos de personalização.**
 
@@ -133,7 +142,7 @@ Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcion
 
 ## Como o [!UICONTROL Direcionamento automático] difere da Personalização automatizada? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-**[!UICONTROL O Direcionamento automático]exige frequentemente menos tráfego do que a Personalização automatizada para um modelo personalizado a ser criado.**
+**[!UICONTROL O Direcionamento automático] exige frequentemente menos tráfego do que a Personalização automatizada para um modelo personalizado a ser criado.**
 
 Embora a quantidade de tráfego *por experiência* necessária para os modelos de [!UICONTROL Direcionamento automático] ou de [!UICONTROL Personalização automática] seja a mesma, geralmente há mais experiências em uma atividade de [!UICONTROL Personalização automatizada] do que uma atividade de Direcionamento automático. Por exemplo, se você tivesse uma atividade de [!UICONTROL Personalização automática] em que criou duas ofertas por local com dois locais, haveria quatro (2 = 4) experiências totais incluídas na atividade (sem exclusões). Usando o [!UICONTROL Direcionamento automático], você pode definir a experiência 1 para incluir a oferta 1 no local 1 e a oferta 2 no local 2 e a experiência 2 para incluir a oferta 1 no local 1 e a oferta 2 no local 2. Como o [!UICONTROL Direcionamento automático] permite que você tenha várias alterações em uma experiência, é possível reduzir o número total de experiências em sua atividade.
 
@@ -142,11 +151,11 @@ Para o [!UICONTROL Direcionamento automático], as regras básicas podem ser usa
 * **Quando a conversão é a sua métrica de sucesso:** 1.000 visitas e pelo menos 50 conversões por dia e por experiência, além disso, a atividade deve ter pelo menos 7.000 visitas e 350 conversões.
 * **Quando a Receita por visita é sua métrica de sucesso:** 1.000 visitas e pelo menos 50 conversões por dia e por experiência, além disso, a atividade deve ter pelo menos 1.000 conversões por experiência. O RPV geralmente requer mais dados para criar modelos devido à maior variação de dados que normalmente existe na receita de visitas em comparação com a taxa de conversão.
 
-**[!UICONTROL O Direcionamento automático]possui uma funcionalidade de configuração completa.**
+**[!UICONTROL O Direcionamento automático] possui uma funcionalidade de configuração completa.**
 
 * Como o [!UICONTROL Direcionamento automático] é incorporado no fluxo de trabalho da atividade A/B, o [!UICONTROL Direcionamento automático] se beneficia do Visual Experience Composer (VEC) mais maduro e completo. Você também pode utilizar os [links de controle de qualidade](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) com o [!UICONTROL Direcionamento automático].
 
-**[!UICONTROL O Direcionamento automático]fornece uma extensa estrutura de testes online.**
+**[!UICONTROL O Direcionamento automático] fornece uma extensa estrutura de testes online.**
 
 * O multi-arm bandit é parte de uma estrutura de testes online maior que permite que nossos cientistas de dados e pesquisadores entendam os benefícios de suas melhorias contínuas em condições do mundo real.
 * No futuro, esse banco de testes nos permitirá abrir nossa plataforma de aprendizagem de máquina para nossos clientes com conhecimento de dados, de modo que eles possam trazer seus próprios modelos para aumentar os modelos do Target.
@@ -203,7 +212,7 @@ Se você quiser fazer alterações substanciais no conteúdo em sua atividade de
 
 The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-[!UICONTROL O Público alvo] automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para essa experiência. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline em dados de &quot;teste&quot; suspensos, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para servir o tráfego de forma personalizada.
+[!UICONTROL O Público alvo] automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para essa experiência. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para servir o tráfego de forma personalizada.
 
 Alguns outros pontos para ter em mente sobre a construção de modelos do [!UICONTROL Público alvo]automático:
 
@@ -241,7 +250,7 @@ Não é recomendável usar a opção [!UICONTROL Redefinir dados] de relatório 
 
 Às vezes, as atividades não acontecem como o esperado. Aqui estão alguns possíveis desafios que você pode enfrentar ao usar o [!UICONTROL Direcionamento automático] e algumas soluções sugeridas.
 
-**Minha atividade de[!UICONTROL Direcionamento automático]está demorando muito para criar modelos.**
+**Minha atividade de [!UICONTROL Direcionamento automático] está demorando muito para criar modelos.**
 
 Há várias alterações de configuração de atividade que podem diminuir o tempo esperado para criar modelos, incluindo o número de experiências em sua atividade de [!UICONTROL Direcionamento automático], o tráfego para seu site e sua métrica de sucesso selecionada.
 
@@ -252,7 +261,7 @@ Há várias alterações de configuração de atividade que podem diminuir o tem
 * Há algumas experiências que você pode abandonar em sua atividade? A diminuição do número de experiências em uma atividade irá diminuir a quantidade de tempo para construir modelos.
 * Existe uma página de tráfego mais alto onde essa atividade seria mais bem-sucedida? Quanto mais tráfego e conversões em seus locais de atividade, mais rápidos serão os modelos.
 
-**Minha atividade de[!UICONTROL Direcionamento automático]não está gerando nenhum aumento.**
+**Minha atividade de [!UICONTROL Direcionamento automático] não está gerando nenhum aumento.**
 
 Há quatro fatores necessários para uma atividade de AP gerar aumento:
 
