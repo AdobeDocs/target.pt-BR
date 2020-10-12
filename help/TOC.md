@@ -2,16 +2,16 @@
 product: target
 audience: end-user
 user-guide-title: Guia Adobe Target
-breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+breadcrumb-title: Guia do público alvo
+user-guide-description: Saiba como personalizar e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 92%
+source-wordcount: '1548'
+ht-degree: 90%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 92%
       + [Antes da implementação](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementação do Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Exigências de permissão do usuário](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [Criação da atividade](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Crie uma atividade que use o Analytics como a fonte do relatórios](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Usar um servidor de rastreamento do Analytics](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [Relatórios do A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Solução de problemas da integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
