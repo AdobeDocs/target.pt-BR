@@ -5,15 +5,15 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '3793'
-ht-degree: 80%
+source-wordcount: '3898'
+ht-degree: 77%
 
 ---
 
 
-# Problemas conhecidos e problemas resolvidos {#known-issues-and-resolved-issues}
+# Problemas conhecidos e problemas resolvidos
 
 Informações sobre problemas conhecidos para esta versão do Target. Também inclui informações sobre problemas que foram resolvidos.
 
@@ -24,6 +24,12 @@ Informações sobre problemas conhecidos para esta versão do Target. Também in
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### Métricas do Analytics para Públicos alvos (A4T) para alocação automática e atividades de Público alvo automático
+
+Existe um problema conhecido atual na interface do usuário que permite que os usuários selecionem métricas de envolvimento e receita não suportadas como sua métrica principal de objetivo para otimização nas atividades de [!DNL Target] Autoalocação [!UICONTROL e Público alvo]  automático. As métricas de conversão são suportadas; as métricas de envolvimento e receita *não* são suportadas. Se você selecionar as métricas de envolvimento ou objetivo de receita, um modelo de otimização não será criado (mesmo que a interface do usuário do Público alvo atualmente permita selecionar métricas de objetivo não suportadas).
+
+Para obter uma lista de métricas de objetivo compatíveis e não compatíveis, consulte Métricas [de objetivo](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) suportadas em *Criar uma atividade que use o Analytics como a fonte* do relatórios. (TNT-38409)
 
 ### Delivery de página {#page-delivery}
 
