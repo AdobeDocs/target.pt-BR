@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2610'
 ht-degree: 31%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 12 de outubro | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Atualizado: [recupere o token de autorização para usar com ferramentas](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) de depuração para indicar o nível de permissão que você deve ter para gerar um token de autenticação. |
 |  | [Configurações da API de perfil](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Tópico atualizado para indicar o nível de permissão necessário para gerar um token de autenticação. |
+|  | [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) | Foi adicionada uma história de sucesso do mundo real usando o Público alvo automático. |
 |  | [Incluir a mesma experiência em páginas semelhantes](/help/c-experiences/c-visual-experience-composer/temtest.md) | Foi adicionada uma seção para explicar como renderizar a mesma atividade em todo o domínio. |
 | 8 de outubro | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Foi adicionado o seguinte problema resolvido:<ul><li>[Relatórios de Público alvo automático](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>O seguinte problema foi movido da seção Problemas conhecidos para a seção Problemas resolvidos:<ul><li>[Relatório](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Implementação híbrida](/help/c-implementing-target/hybrid-implementation.md) | Novo tópico. |
