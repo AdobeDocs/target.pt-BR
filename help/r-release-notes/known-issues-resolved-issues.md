@@ -5,9 +5,9 @@ title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
+source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
 workflow-type: tm+mt
-source-wordcount: '3900'
+source-wordcount: '3897'
 ht-degree: 77%
 
 ---
@@ -27,7 +27,7 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 ### Métricas do Analytics para Públicos alvos (A4T) para alocação automática e atividades de Público alvo automático
 
-Existe um problema conhecido atual na interface do usuário que permite que os usuários selecionem métricas de envolvimento e receita não suportadas como sua métrica principal de objetivo para otimização nas atividades de [!DNL Target] Autoalocação [!UICONTROL e Público alvo]  automático. As métricas de conversão são suportadas; as métricas de envolvimento e receita *não* são suportadas. Se você selecionar métricas de envolvimento ou de objetivo de receita (como pedidos), um modelo de otimização não será criado (mesmo que a [!DNL Target] interface do usuário atualmente permita selecionar métricas de objetivo não suportadas).
+Existe um problema conhecido atual na interface do usuário que permite que os usuários selecionem métricas de envolvimento e receita não suportadas como sua métrica principal de objetivo para otimização nas atividades de [!DNL Target] Autoalocação [!UICONTROL e Público alvo]  automático. As métricas de conversão são suportadas; as métricas de envolvimento e receita *não* são suportadas. Se você selecionar métricas de envolvimento ou de objetivo de receita, um modelo de otimização não será criado (mesmo que a [!DNL Target] interface do usuário atualmente permita selecionar métricas de objetivo não suportadas).
 
 Para obter uma lista de métricas de objetivo compatíveis e não compatíveis, consulte Métricas [de objetivo](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) suportadas em *Criar uma atividade que use o Analytics como a fonte* do relatórios. (TNT-38409)
 
