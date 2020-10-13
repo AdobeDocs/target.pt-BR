@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 15%
+source-wordcount: '582'
+ht-degree: 13%
 
 ---
 
@@ -45,7 +45,7 @@ Esta versão contém os seguintes novos recursos:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Decisões no dispositivo | As decisões no dispositivo permitem que tanto os profissionais de marketing quanto os desenvolvedores de produtos forneçam experimentação e personalização orientada pelo Machine Learning a partir de um dispositivo do usuário, em canais, a uma latência quase zero.<br>Questões de velocidade e desempenho — em insights do cliente e satisfação do usuário. As decisões no dispositivo permitem que os profissionais de marketing, e agora desenvolvedores de produtos, testem e otimizem experiências diretamente de um dispositivo de usuário, diminuindo os tempos de decisão e carga para quase zero para experiências contextuais em tempo real.<br>As decisões no dispositivo permitem compilar todas as instruções de personalização e experimentação em &quot;artefatos de otimização&quot;, que são carregados em dispositivos do cliente. Esses artefatos de latência zero proporcionam aos comerciantes personalização individual, redefinição de metas comportamentais e recomendações de conteúdo e produtos em tempo real, ao mesmo tempo em que proporcionam aos desenvolvedores e proprietários de produtos acesso direto ao código para testar experiências do usuário e lançamentos de produtos em público alvo e fase, aprimorando em tempo real. E como as decisões no dispositivo se conectam nativamente com [!DNL Adobe Experience Cloud] produtos, [!DNL Target] os usuários obtêm uma análise rápida e iterações de experiência mais rápidas. |
+| Decisões no dispositivo | As decisões no dispositivo permitem que tanto os profissionais de marketing quanto os desenvolvedores de produtos forneçam experimentação e personalização orientada pelo Machine Learning a partir de um dispositivo do usuário, em canais, a uma latência quase zero.<br>Questões de velocidade e desempenho — em insights do cliente e satisfação do usuário. As decisões no dispositivo permitem que os profissionais de marketing, e agora desenvolvedores de produtos, testem e otimizem experiências diretamente de um dispositivo de usuário, diminuindo os tempos de decisão e carga para quase zero para experiências contextuais em tempo real.<br>As decisões no dispositivo permitem compilar todas as instruções de personalização e experimentação em &quot;artefatos de otimização&quot;, que são carregados em dispositivos do cliente. Esses artefatos de latência zero proporcionam aos comerciantes personalização individual, redefinição de metas comportamentais e recomendações de conteúdo e produtos em tempo real, ao mesmo tempo em que proporcionam aos desenvolvedores e proprietários de produtos acesso direto ao código para testar experiências do usuário e lançamentos de produtos em público alvo e fase, aprimorando em tempo real. E como as decisões no dispositivo se conectam nativamente com [!DNL Adobe Experience Cloud] produtos, [!DNL Target] os usuários obtêm uma análise rápida e iterações de experiência mais rápidas.<br>**Registre-se agora para um webinar ao vivo.** Junte-se aos especialistas em produtos da Adobe Target quando eles discutirem como mover as decisões de otimização de experiência crítica no dispositivo para execução local com latência zero pode abrir portas para novos casos de uso interessantes e, ao mesmo tempo, melhorar o desempenho do site para seus clientes.<ul><li>10 de novembro de 2020</li><li>10 h PT / 12 h CT / 13 h ET</li><li>[Registre-se aqui](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
