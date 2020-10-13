@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 36%
+source-wordcount: '2100'
+ht-degree: 35%
 
 ---
 
@@ -59,20 +59,6 @@ Filtre dinamicamente comparando um pool de itens de recomendações potenciais a
 Por exemplo, somente os itens recomendados que correspondem à marca do item atual como no exemplo a seguir:
 
 Se a mbox em uma Landing page de marca retornar `entity.brand=Nike`, somente os produtos Nike serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca para o Adidas, apenas os produtos Adidas são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário só precisa especificar uma regra de recomendação que retorna os resultados relevantes da marca em todas as páginas da marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome da marca.
-
-Operadores disponíveis:
-
-* é igual a
-* não é igual
-* está entre
-* contém
-* não contém
-* começa com
-* termina com
-* o valor está presente
-* o valor não está presente
-* é maior que ou igual a
-* é menor que ou igual a
 
 #### Correspondência de atributos de perfil
 
