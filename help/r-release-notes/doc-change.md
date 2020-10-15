@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2700'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 14 de outubro | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Adicionada uma observação sobre a alocação de tráfego para uma atividade de Autoalocação com apenas duas experiências. |
 | 13 de outubro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte webinar ao vivo programado para 10 de novembro de 2020:<ul><li>Personalize e teste em latência zero com decisões no dispositivo da Adobe Target</li></ul> |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o seguinte webinar ao vivo programado para 10 de novembro de 2020:<ul><li>Personalize e teste em latência zero com decisões no dispositivo da Adobe Target</li></ul> |
 | 12 de outubro | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Atualizado: [recupere o token de autorização para usar com ferramentas](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) de depuração para indicar o nível de permissão que você deve ter para gerar um token de autenticação. |
