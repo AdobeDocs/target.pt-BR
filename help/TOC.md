@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1563'
 ht-degree: 92%
 
 ---
@@ -384,7 +384,12 @@ ht-degree: 92%
       + [Criar sequências de critérios](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Upload dos critérios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Uso das regras de inclusão estática e dinâmica](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamic and static inclusion rules {#dynamic-static}
+         + [Uso das regras de inclusão estática e dinâmica](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Correspondência de atributos de entidade](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Correspondência de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Correspondência de parâmetros](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Filtro estático](/help/c-recommendations/c-algorithms/static-value.md)
       + [Usar uma recomendação de backup](c-recommendations/c-algorithms/backup-recs.md)
       + [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Usar Adobe Analytics com Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
