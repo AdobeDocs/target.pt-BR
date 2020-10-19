@@ -4,32 +4,19 @@ description: Insira manualmente um ou mais valores estáticos para filtrar usand
 title: Filtrar por valores estáticos nas regras de inclusão no Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 75%
+source-wordcount: '160'
+ht-degree: 73%
 
 ---
 
 
 # ![Filtro estático PREMIUM](/help/assets/premium.png)
 
-Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão no Adobe Target Recommendations.
+Insira manualmente um ou mais valores estáticos para filtrar usando as regras de inclusão no [!DNL Adobe Target][!DNL Recommendations].
 
 Por exemplo, apenas recomende um conteúdo com uma classificação MPAA de &quot;G&quot; ou &quot;PG&quot;.
-
-Operadores disponíveis:
-
-* é igual a
-* não é igual
-* contém
-* não contém
-* começa com
-* termina com
-* o valor está presente
-* o valor não está presente
-* é maior que ou igual a
-* é menor que ou igual a
 
 >[!NOTE]
 >
