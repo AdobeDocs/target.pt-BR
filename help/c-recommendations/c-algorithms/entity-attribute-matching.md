@@ -4,9 +4,9 @@ description: Filtre dinamicamente no Adobe Target Recommendations comparando um 
 title: Filtrar por correspondência de atributo de entidade nas regras de inclusão dinâmica no Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 Por exemplo, recomende somente itens que correspondam à marca do item atual, como no exemplo a seguir:
 
-Se a mbox em uma Landing page de marca retornar `entity.brand=Nike`, somente os produtos Nike serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca para o Adidas, apenas os produtos Adidas são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorna os resultados relevantes da marca em todas as páginas da marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome da marca.
+Se a mbox em uma Landing page de marca retornar `entity.brand=brandA`, somente os produtos da Marca A serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca da Marca B, apenas os produtos da Marca B são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorna os resultados relevantes da marca em todas as páginas da marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome da marca.
 
 Observe que você deve fornecer o conteúdo da mbox `entity.brand` nessas landings page para que isso funcione.
 
@@ -42,21 +42,23 @@ Depois que as regras de atributo da entidade forem criadas, elas filtrarão toda
 
 O exemplo a seguir mostra recomendações que correspondem à marca do produto mostrada na página:
 
-Quando você visita uma página que apresenta um produto Nike, a página define o valor do `entity.brand` parâmetro como &quot;Nike&quot;.
+Quando você visita uma página que contém um produto da Marca A, a página define o valor do `entity.brand` parâmetro como &quot;MarcaA&quot;.
 
 ![Exemplo de chamada de Público alvo](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-Nas recomendações da página, você verá somente os produtos Nike.
+Nas recomendações da página, você verá somente os produtos da Marca A.
 
-![Recomendações Nike](/help/c-recommendations/c-algorithms/assets/nike.png)
+![Recomendações da marca A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Se você visualização uma página de produto Adidas, o `entity.brand` valor será redefinido para &quot;Adidas&quot; e você verá os produtos Adidas recomendados nas páginas de produto Adidas.
+Se você visualização uma página de produto da Marca B, o `entity.brand` valor será redefinido para &quot;MarcaB&quot; e você verá os produtos da Marca B recomendados nas páginas de produto da Marca B.
 
-![Recomendações do Adidas](/help/c-recommendations/c-algorithms/assets/adidas.png)
+![Recomendações da marca B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Venda a um produto mais caro
 
-Suponha que você seja um varejista de roupas e queira incentivar os usuários a considerar itens com preços mais altos e, portanto, mais lucrativos. Você pode usar os operadores &quot;igual&quot; e &quot;é entre&quot; para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, um varejista de sapatos pode promover tênis de corrida mais caros em um esforço para vender um visitante olhando tênis de corrida, como na seguinte amostra de código:
+Suponha que você seja um varejista de roupas e queira incentivar os usuários a considerar itens com preços mais altos e, portanto, mais lucrativos. Você pode usar os operadores &quot;igual&quot; e &quot;é entre&quot; para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, um varejista de sapatos pode promover tênis de corrida mais caros em um esforço para vender um visitante olhando tênis de corrida, como na seguinte amostra:
+
+![Aumento](/help/c-recommendations/c-algorithms/assets/upsell.png)
 
 ```
 Entity Attribute Matching
@@ -71,7 +73,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 ### Promoção de produtos de etiquetas privadas
 
-Você pode combinar filtros dinâmicos e estáticos para promover produtos de etiquetas privadas. Por exemplo, uma empresa de suprimento de escritório pode promover cartuchos de toner da marca da empresa para promover uma venda mais lucrativa para um visitante que olha para o toner — e promover canetas da marca da empresa para levar a uma venda mais lucrativa para um visitante que olha para as canetas, como na seguinte amostra de código:
+Você pode combinar filtros dinâmicos e estáticos para promover produtos de etiquetas privadas. Por exemplo, uma empresa de suprimento de escritório pode promover cartuchos de toner da marca da empresa para levar a uma venda mais lucrativa para um visitante que olha para toner — e promover canetas da marca da empresa para levar a uma venda mais lucrativa para um visitante que olha para canetas, como na amostra a seguir:
+
+![Marca da casa](/help/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching
