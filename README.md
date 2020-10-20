@@ -1,11 +1,16 @@
 ---
-source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
-translation-type: ht
+source-git-commit: 1911fc7f9fb82d57a995184e904fb993646ad2c1
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 73%
 
 ---
 # Artigo do colaborador
 
-Matt está testando a PR
+| EXL-PR | EXL | Visualizar | Ativar | Publicado | Ajuda  |
+|--- |--- |--- |--- |--- |--- |
+| [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/lastBuild/) | [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/lastBuild) | [URL de pré-visualização](https://experienceleague.corp.adobe.com/docs/target/using/target-home.html?lang=en) | [ativate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live URL](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=en) | [Guia de criação](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Agradecemos as contribuições de nossa comunidade e de funcionários da Adobe de fora das equipes de documentação.
 
@@ -15,13 +20,13 @@ Este projeto adotou o [Código de conduta aberto da Adobe](code-of-conduct.md) o
 
 ## Sobre suas contribuições para o conteúdo da Adobe
 
-Consulte o [Guia do colaborador do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Consulte o Guia [do colaborador de](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)Adobe Docs.
 
 A forma como você colabora depende de quem você é e do tipo de alterações que deseja fazer:
 
 ### Pequenas alterações
 
-Caso esteja contribuindo com pequenas atualizações de livre e espontânea vontade, visite o artigo e clique no **link Editar** no artigo que vai para a origem GitHub do artigo. Em seguida, use a interface do usuário do GitHub para fazer suas atualizações. Consulte o [Guia geral do colaborador do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para ver mais detalhes.
+Caso esteja contribuindo com pequenas atualizações de livre e espontânea vontade, visite o artigo e clique no **link Editar** no artigo que vai para a origem GitHub do artigo. Em seguida, use a interface do usuário do GitHub para fazer suas atualizações. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Pequenas correções ou esclarecimentos que você envia para a documentação e os exemplos de código aqui estão cobertos pelos termos de uso da Adobe.
 
@@ -43,14 +48,14 @@ Caso seja um autor técnico, gerente de programa ou desenvolvedor da equipe de p
 
 Os colaboradores da comunidade podem usar a interface do usuário do GitHub para edição básica ou forjar o repo, fazendo contribuições importantes.
 
-Consulte o [Guia do colaborador do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para ver mais detalhes.
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## Como usar a marcação para formatar seu tópico
 
 Todos os artigos neste repositório usam o flavored markdown do GitHub. Caso não esteja familiarizado com a marcação, consulte:
 
 * [Noções básicas de marcação](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Guia de marcação para impressão](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Tabuleiro de marcação para impressão](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Rótulos
 
