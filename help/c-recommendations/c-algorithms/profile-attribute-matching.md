@@ -4,10 +4,10 @@ description: Filtre dinamicamente no Adobe Target Recommendations comparando ite
 title: Filtrar por correspondência de atributos de Perfil nas regras de inclusão dinâmica no Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 5%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -35,6 +35,8 @@ Os seguintes cenários mostram como você pode usar a Correspondência de Atribu
 
 For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. Com essa regra, se um visitante estiver olhando para shorts de corrida de uma marca específica, apenas as recomendações exibirão a correspondência dessa marca favorita do usuário (o valor armazenado em `profile.favoritebrand` no perfil do visitante).
 
+![Marca favorita](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
+
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
@@ -46,47 +48,12 @@ Suponha que você esteja tentando combinar empregos com candidatos a emprego. Vo
 
 Você pode usar as regras de inclusão para corresponder a localização de um visitante de trabalho de seu perfil a uma lista de trabalhos, como no exemplo a seguir:
 
+![Cidade do usuário](/help/c-recommendations/c-algorithms/assets/city.png)
+
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
-
-### Recomendar roupas que correspondam ao tamanho de um visitante
-
-Vejamos um exemplo para recomendar roupas que correspondam ao tamanho da roupa do perfil.
-
-A página do produto envia `entity.size` na chamada da mbox (seta vermelha na figura abaixo).
-
-Você pode criar um script [de](/help/c-target/c-visitor-profile/profile-parameters.md) perfil para capturar os atributos e valores do perfil da última página que o visitante visitou.
-
-Por exemplo,
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-O script de perfil captura o `entity.size` valor da mbox nomeada `target-global-mbox` e o retorna como um atributo de perfil nomeado `user.size` (seta azul na figura abaixo).
-
-![chamada mbox size](/help/c-recommendations/c-algorithms/assets/size.png)
-
-Ao criar os critérios de recomendação, clique em **[!UICONTROL Adicionar regra]** de filtragem e selecione Correspondência **[!UICONTROL de atributo de]** Perfil.
-
-![ilustração de correspondência de atributo de perfil](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Se o `user.size` perfil foi carregado no [!DNL Target], ele será exibido na lista suspensa para correspondência quando você configurar a regra para corresponder ao valor passado na chamada da mbox (`size`) para o nome do script do perfil (`user.size`).
-
-Em seguida, você pode selecionar &quot;tamanho&quot; &quot;igual&quot; ao valor/texto armazenado em &quot;user.size&quot; para a correspondência do atributo do perfil.
-
-![Exemplo de tamanho](/help/c-recommendations/c-algorithms/assets/example-size.png)
-
-Depois que as regras de atributo do perfil forem criadas, elas filtrarão todas as recomendações que têm atributos que não correspondem ao atributo do perfil armazenado pelo visitante.
 
 ### Recomendar itens com base no tamanho
 
