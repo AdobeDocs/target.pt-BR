@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3744'
+source-wordcount: '3731'
 ht-degree: 83%
 
 ---
@@ -125,8 +125,6 @@ Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcion
 **O algoritmo otimiza continuamente para uma métrica de meta única.**
 
 * Essa métrica pode ser baseada em conversão ou baseada em receita (mais especificamente, Receita por visitante).
-
-**O algoritmo não suporta o uso do [!DNL Analytics] como uma fonte de dados ou um terminal de geração de relatório.**
 
 **O Target coleta automaticamente informações sobre os visitantes para criar os modelos de personalização.**
 
