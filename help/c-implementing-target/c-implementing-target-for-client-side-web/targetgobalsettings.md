@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1698'
 ht-degree: 39%
 
 ---
@@ -128,7 +128,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 * **Valor** padrão: true (verdadeiro começo com a versão 1.6.2 do at.js)
 * **Descrição**: Indica se devemos usar `<clientCode>.tt.omtrdc.net` domínio ou `mboxedge<clusterNumber>.tt.omtrdc.net` domínio.
 
-   Se este valor for true, o domínio `mboxedge<clusterNumber>.tt.omtrdc.net` será salvo em um cookie. Atualmente não está trabalhando com [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   Se este valor for true, o domínio `mboxedge<clusterNumber>.tt.omtrdc.net` será salvo em um cookie. Atualmente, não está trabalhando com [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) ao usar versões do at.js anteriores ao at.js 1.8.2 e ao at.js 2.3.1. Se isso for um problema para você, considere [atualizar o at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) para uma versão mais recente e compatível.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -467,13 +467,13 @@ Considere o seguinte ao usar `serverState`:
    * Atividades criadas por VEC que são executadas no carregamento da página.
    * Visualizações pré-buscadas.
 
-      No caso de SPAs que usam [!DNL Target] Visualização e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Visualizações pré-buscadas no lado do servidor e as aplica assim que cada Visualização é acionada `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Público alvo.
+      No caso de SPA usando o [!DNL Target] Visualização e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Visualizações pré-buscadas no lado do servidor e aplica-as assim que cada Visualização é acionada por `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Público alvo.
 
    * **Observação**:  Atualmente, as mboxes recuperadas no servidor não são suportadas em `serverState`.
 
 * Ao aplicar o `serverState `oferta, o at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` as configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a `pageLoadEnabled` configuração for falsa.
 
-   Para ativar essas configurações, ative a alternância em **[!UICONTROL Administração]>[!UICONTROL Implementação]>[!UICONTROL Editar]> Carregamento de[!UICONTROL página ativado]**.
+   Para ativar essas configurações, ative a alternância em **[!UICONTROL Administração] > [!UICONTROL Implementação] > [!UICONTROL Editar] > Carregamento de [!UICONTROL página ativado]**.
 
    ![Configurações Ativadas para Carregamento de Página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
