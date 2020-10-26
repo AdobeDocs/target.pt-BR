@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2746'
+source-wordcount: '2757'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 26 de outubro | [Visão geral da segurança no Target](/help/c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md) | Atualização do documento Visão geral *de segurança da* Adobe Target. |
 | 22 de outubro | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Foram adicionadas informações sobre uma correção para o suporte CNAME nas versões 1.8.2 e 2.3.1 do at.js |
 |  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Foram adicionadas informações sobre uma correção para o suporte CNAME nas versões 1.8.2 e 2.3.1 do at.js |
 | 15 de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualizadas as notas de pré-lançamento do Target Standard/Premium 20.10.1 (27 de outubro de 2020). |
