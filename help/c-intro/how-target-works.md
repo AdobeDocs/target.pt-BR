@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 Cada cluster de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o Cluster de Borda mais próximo.
 
-Para obter mais informações, consulte o white paper [Visão geral da segurança no Adobe Target](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Para obter mais informações, consulte o white paper [Visão geral da segurança no Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ Os locais de Cluster Central contêm um centro de coleta de dados e um centro de
 Os dados de atividade do local do cliente são coletados pelo mais próximo de sete Clusters de Borda e direcionados para o destino do Cluster Central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Cingapura) para processamento. Os dados do perfil Visitante são armazenados no Edge Cluster mais próximo do visitante do site (os locais incluem os locais do Central Cluster e Virginia, Amsterdam, Sydney, Tokyo e Hong Kong).
 
 Em vez de responder a todas as solicitações de direcionamento de um único local, as solicitações são processadas pelo cluster de Borda mais próximo ao visitante, reduzindo o impacto do tempo de deslocamento de rede/Internet.
+
+![Tipos de mapa de servidores de Públicos alvos](/help/c-intro/assets/target-servers.png)
 
 Os Clusters do Público alvo Central, hospedados nos Serviços da Web da Amazon (AWS), estão localizados em:
 
