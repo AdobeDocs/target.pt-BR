@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
+source-git-commit: a5a84e96ea3498140f4e0c9af4f75ec674bbf4b8
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 78%
@@ -24,7 +24,7 @@ Veja os detalhes da API:
 
 | Chave | Tipo | Obrigatório | Descrição |
 |--- |--- |--- |--- |
-| mbox | String | Sim | Mbox <br>**nameNote**: Se uma chamada trackEvent() for acionada com um nome de mbox que já tenha sido acionado na página, o SDID de trackEvent() será redefinido e será diferente das chamadas de Público alvo na página. Entretanto, disparar uma chamada trackEvent() com um nome de mbox diferente mantém a SDID das chamadas trackEvent() consistente com as chamadas de Request/triggerView() de carregamento de página na página. |
+| mbox | String | Sim | Mbox <br>**nameNote**: Se uma chamada trackEvent() for acionada com um nome de mbox que já tenha sido acionado na página, o SDID de trackEvent() será redefinido e será diferente das chamadas de Público alvo na página. Entretanto, disparar uma chamada trackEvent() com um nome de mbox diferente mantém a SDID da chamada trackEvent() consistente com as chamadas de Solicitação de carregamento de página/triggerView() na página. |
 | selector | String    | Não | Seletores CSS usados para encontrar os elementos HTML. Os ouvintes do evento serão fixados aos elementos encontrados. |
 | type | String | Não | Representa um tipo de evento registrado. Pode ser que ambos sejam elementos HTML conhecidos como: clique, mouse para baixo, etc., bem como eventos HTML. |
 | preventDefault | Booleano | Não | Indica se usará `event.preventDefault()` no retorno do ouvinte do evento. O padrão é false.<br>**Observação:** somente `form[submit] and `a[click] são compatíveis. Outros cenários não são compatíveis devido à complexidade e à grande quantidade de cenários para suporte. |
