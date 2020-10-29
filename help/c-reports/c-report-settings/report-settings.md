@@ -5,10 +5,10 @@ title: Configurações do relatório
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 69%
+source-wordcount: '1891'
+ht-degree: 68%
 
 ---
 
@@ -119,7 +119,7 @@ Clique em **[!UICONTROL Personalizar datas]** para selecionar intervalos de data
 Os relatórios têm as seguintes restrições de data:
 
 * A data de início do relatório deve ficar dentro dos últimos dois anos.
-* Os relatórios diários estão limitados a 100 dias.
+* Os relatórios de grupos de ofertas são limitados a 99 dias a partir do dia atual.
 * Os relatórios por hora estão limitados a 15 dias.
 
 ## Configurações {#section_D99CE462107D45CABE0960F820E1E972}
