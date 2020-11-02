@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,7 +73,11 @@ Apesar de essas métricas serem negativas, o incentivo é mostrado como se elas 
 
 ## O conjunto de relatórios de que preciso não aparece.  {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-A lista de conjuntos de relatórios que aparece no Target Standard/Premium é a lista de conjuntos de relatórios que foram configurados para o Analytics com a fonte de geração de relatórios para o Target. Isso significa que você pode não ver todos os seus conjuntos de relatórios. Caso não veja o conjunto de relatórios que você está procurando, entre em contato com o Atendimento ao cliente para ativá-lo.
+A lista de conjuntos de relatórios que aparece no Target Standard/Premium é a lista de conjuntos de relatórios que foram configurados para o Analytics com a fonte de geração de relatórios para o Target. Isso significa que você pode não ver todos os seus conjuntos de relatórios.
+
+Além disso, se você estiver usando várias fontes de relatórios, os conjuntos de relatórios DEVEM estar presentes no conjunto de fontes de relatórios padrão também no Público alvo. Caso contrário, os conjuntos de relatórios não serão exibidos.
+
+Se você ainda não vir o conjunto de relatórios que está procurando, entre em contato com o Atendimento ao cliente para ativá-lo.
 
 ## Não vejo tantos dados nos relatórios quanto esperado.  {#section_75002584FA63456D8D9086172925DD8D}
 
