@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 80%
 
 ---
 
@@ -71,13 +71,13 @@ Esse é um problema conhecido.
 
 Apesar de essas métricas serem negativas, o incentivo é mostrado como se elas fossem positivas nos relatórios do Target. Por exemplo, mesmo que você queira uma taxa de rejeição mais baixa, a taxa de rejeição mais alta é mostrada como vencedora com o maior incentivo. Considere essas métricas de métricas semelhantes, bem como sua preferência por diminuir ou aumentar os números, ao tomar decisões baseadas nos relatórios.
 
-## O conjunto de relatórios de que preciso não aparece.  {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-A lista de conjuntos de relatórios que aparece no Target Standard/Premium é a lista de conjuntos de relatórios que foram configurados para o Analytics com a fonte de geração de relatórios para o Target. Isso significa que você pode não ver todos os seus conjuntos de relatórios.
+The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). Isso significa que você pode não ver todos os seus conjuntos de relatórios.
 
-Além disso, se você estiver usando várias fontes de relatórios, os conjuntos de relatórios DEVEM estar presentes no conjunto de fontes de relatórios padrão também no Público alvo. Caso contrário, os conjuntos de relatórios não serão exibidos.
+Além disso, se você estiver usando várias fontes de relatórios, os conjuntos de relatórios também deverão estar presentes na fonte padrão de relatórios definida em [!DNL Target] ; caso contrário, os conjuntos de relatórios não serão exibidos.
 
-Se você ainda não vir o conjunto de relatórios que está procurando, entre em contato com o Atendimento ao cliente para ativá-lo.
+If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## Não vejo tantos dados nos relatórios quanto esperado.  {#section_75002584FA63456D8D9086172925DD8D}
 
