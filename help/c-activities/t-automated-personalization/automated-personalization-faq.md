@@ -5,9 +5,9 @@ title: Perguntas frequentes sobre a personalização automatizada
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1962'
 ht-degree: 85%
 
 ---
@@ -31,7 +31,7 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
 
 ## Quais são as práticas recomendadas para configurar uma atividade de Personalização automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Se você deseja personalizar uma página de tráfego mais baixo ou quer fazer alterações estruturais na experiência que está personalizando, considere o uso do direcionamento automático no lugar da personalização automatizada. Consulte [Segmentação automática para experiências personalizadas](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Se você deseja personalizar uma página de tráfego mais baixo ou quer fazer alterações estruturais na experiência que está personalizando, considere o uso do direcionamento automático no lugar da personalização automatizada. Consulte  [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md).
 * Considere a conclusão de uma atividade A/B entre as ofertas e os locais que você planeja usar em sua atividade de Personalização automatizada para garantir que os locais e as ofertas tenham impacto na meta de otimização. Se uma atividade A/B não demonstrar uma diferença significativa, a Personalização automatizada provavelmente também não gerará aumento.
 
    * Se um teste A/B…N não mostra diferenças estatisticamente significativas entre as experiências, provavelmente as ofertas que você está considerando não são suficientemente diferentes umas das outras, os locais selecionados não afetam a métrica de sucesso ou a meta de otimização está muito distante no funil de conversão a ser afetado pelas ofertas escolhidas.
