@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -28,13 +28,13 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link:[Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
+**Link: [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
 Quando navegamos para o site inicial, é possível visualizar imediatamente uma imagem principal que promove uma venda de Páscoa e os produtos mais recentes à venda no site. Nesse caso, uma Exibição pode ser definida como todo o site inicial. Isso é útil para observar como expandiremos mais isso na seção Implementação de exibições do Adobe Target abaixo.
 
-**Link:[Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: [Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site do produto](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ No início desta seção, definimos Exibições como o site inteiro ou até mesm
 
 Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
-**Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de checkout](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos analisar alguns exemplos de casos de uso de como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link:[Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link:[Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link: [Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
    Agora, vejamos um exemplo que é um pouco mais complicado. Considere que desejamos personalizar a segunda linha dos produtos alterando a cor do rótulo de preço para vermelho depois que um usuário clica no botão Carregar mais.
 
@@ -144,7 +144,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    }
    ```
 
-   **Link:[Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link: [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![checkout do react](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ Sim, a at.js 2.x suporta o A4T para SPA por meio da função `triggerView()`, po
 | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sim |
 | [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) | Sim |
 | [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Não |
-| [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) | Não |
+| [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) | Não |
 | [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) | Não |
 | [Recommendations](/help/c-recommendations/recommendations.md) | Não |
 
-**Se a at.js 2.x for instalada e implementada`triggerView()`em nossos sites, como é possível executar atividades A/B de Direcionamento automático, já que a SPA do VEC não é compatível com o Direcionamento automático?**
+**Se a at.js 2.x for instalada e implementada `triggerView()` em nossos sites, como é possível executar atividades A/B de Direcionamento automático, já que a SPA do VEC não é compatível com o Direcionamento automático?**
 
 Se você quiser usar atividades A/B de Direcionamento automático, mova todas as suas ações para serem executadas no Evento de carregamento de página no VEC. Passe o mouse sobre cada ação e clique no botão [!UICONTROL Mover para o evento de carregamento de página]. Depois de fazer isso, na próxima etapa você pode selecionar o Direcionamento automático para o método de alocação de tráfego.
 
