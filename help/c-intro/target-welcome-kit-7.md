@@ -4,7 +4,7 @@ description: Kit de boas-vindas da Adobe Target - Capítulo 7 - Crie e execute s
 title: Kit de boas-vindas da Adobe Target - Capítulo 7 - Crie e execute sua primeira atividade de Público alvo
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Exemplo: Uma companhia aérea público alvo seus membros de nível platinum com 
 
 ## Rota 3: Aplicação de IA e automação para personalizar em escala para visitantes individuais
 
-Você pode configurar uma atividade acionada por AI para oferecer a melhor experiência de vários visitantes selecionando o Público alvo [](/help/c-activities/auto-target-to-optimize.md) automático na segunda etapa do fluxo de trabalho de configuração do teste A/B. O uso do Público alvo automático com sua primeira atividade pode ser extremamente útil quando você não sabe qual experiência será exibida para visitantes diferentes. Com o Público alvo automático, você permite que o aprendizado da máquina avalie e classifique os atributos preditivos em tempo real e determine quais atributos de seus visitantes são mais importantes para determinar qual experiência fornecer.
+Você pode configurar uma atividade acionada por AI para oferecer a melhor experiência de vários visitantes selecionando o Público alvo [](/help/c-activities/auto-target/auto-target-to-optimize.md) automático na segunda etapa do fluxo de trabalho de configuração do teste A/B. O uso do Público alvo automático com sua primeira atividade pode ser extremamente útil quando você não sabe qual experiência será exibida para visitantes diferentes. Com o Público alvo automático, você permite que o aprendizado da máquina avalie e classifique os atributos preditivos em tempo real e determine quais atributos de seus visitantes são mais importantes para determinar qual experiência fornecer.
 
 Exemplo: Um telco que vende várias marcas e modelos de telefones ativa o AutoPúblico alvo para usar automação e aprendizado de máquina para determinar qual das quatro experiências diferentes ou ofertas em sua tela inicial ou de abertura de aplicativos móveis terá melhor repercussão com sua grande variedade de visitantes.
 
