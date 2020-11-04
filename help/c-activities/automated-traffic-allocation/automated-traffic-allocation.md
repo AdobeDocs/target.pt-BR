@@ -6,19 +6,19 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 76%
+source-wordcount: '3369'
+ht-degree: 75%
 
 ---
 
 
-# Alocação automática{#auto-allocate}
+# Autoalocar visão geral
 
 A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor, a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
-Ao [criar uma atividade A/B usando o fluxo de trabalho guiado de três etapas](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), é possível escolher a opção [!UICONTROL Alocar automaticamente para a melhor experiência].
+While creating an A/B activity using the three-step guided workflow, you can choose the [!UICONTROL Auto-Allocate to best experience] option.
 
 ## O desafio {#section_85D5A03637204BACA75E19646162ACFF}
 
