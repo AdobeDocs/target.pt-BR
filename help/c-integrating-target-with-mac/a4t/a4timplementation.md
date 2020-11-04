@@ -5,9 +5,9 @@ title: Implementação do Analytics for Target
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '900'
 ht-degree: 49%
 
 ---
@@ -91,7 +91,7 @@ Essa configuração tem um efeito global, o que significa que **analyticsLogging
 }
 ```
 
-A carga pode ser encaminhada ao Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados. Observe que, para as atividades [!UICONTROL Autoalocação] e Público alvo  Automático, você também precisará encaminhar sessionId. Para obter mais informações, consulte [Adobe Analytics for Público alvo (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) no Guia da API do Delivery *Adobe Target*
+A carga pode ser encaminhada ao Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados. Observe que, para as atividades [!UICONTROL Autoalocação] e Público alvo  Automático, você também precisará encaminhar sessionId. Para obter mais informações, consulte relatórios [A4T (](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics for Público alvo) no guia SDKs *da* Adobe Target.
 
 Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, você poderá usar a função [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) para fazer isso, passando em **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
