@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: activity url;url;different url
 description: O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado.
 title: URL da atividade
 feature: ab
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 93%
