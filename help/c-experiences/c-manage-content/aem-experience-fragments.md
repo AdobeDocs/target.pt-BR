@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 31%
@@ -121,9 +121,9 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
    Para obter mais informações sobre a configuração de vários tipos de atividades, consulte os tópicos a seguir:
 
-   * **Teste A/B:** [criar um teste A/B](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
+   * **Teste A/B:** [criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **Autoalocação:** [autoalocação](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **Público alvo automático:** [Público alvo automático](/help/c-activities/auto-target-to-optimize.md)
+   * **Público alvo automático:** [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md)
    * **Para obter mais informações, consulte** [Criação de uma atividade de Personalização automatizada](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Direcionamento de experiência (XT):** [criar uma atividade de direcionamento de experiência](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Teste multivariado (MVT):** [criar um teste multivariado](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
