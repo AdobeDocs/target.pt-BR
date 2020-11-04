@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ Use os [relatórios para determinar a experiência vencedora](../c-activities/au
 
 **Posso realizar uma atividade com um nível de personalização como parte integrante da atividade?**
 
-Opção de Público alvo [automático](/help/c-activities/auto-target-to-optimize.md) .
+Opção de Público alvo [automático](/help/c-activities/auto-target/auto-target-to-optimize.md) .
 
 **Como posso saber qual tipo de atividade é atende melhor às minhas necessidades?**
 
@@ -120,7 +120,7 @@ Isso também é possível. Basta [usar a opção Salvar para fazer alterações 
 
 **Como posso visualizar e fazer QA de uma atividade que acabei de criar?**
 
-Use nosso [poderoso recurso de Modo de QA](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) para executar o QA. Você pode compartilhar links com sua equipe de QA e também testar a atividade de ponta a ponta, incluindo a criação de relatórios, para assegurar que, depois que a atividade estiver sendo realizada, ela funcione como pretendido e testado.
+Use nosso [poderoso recurso de Modo de QA](/help/c-activities/c-activity-qa/activity-qa.md) para executar o QA. Você pode compartilhar links com sua equipe de QA e também testar a atividade de ponta a ponta, incluindo a criação de relatórios, para assegurar que, depois que a atividade estiver sendo realizada, ela funcione como pretendido e testado.
 
 **Como posso usar o poder de decisão do Target para receber uma experiência/oferta que possa ser usada em aplicativos de página única (SPAs) ou integrações no lado do servidor?**
 
@@ -167,7 +167,7 @@ Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Atributos do cliente](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [Públicos-alvo](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Públicos-alvo](/help/c-integrating-target-with-mac/mmp.md)
 
 ## Experiências {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Veja os seguintes aspectos do produto:
 
 * [Atributos do cliente](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [Públicos-alvo](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Públicos-alvo](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **Posso destrinchar a criação de relatórios sobre múltiplos segmentos de usuários?**
