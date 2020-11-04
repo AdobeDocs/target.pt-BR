@@ -5,7 +5,7 @@ title: Relatório de Segmentos automáticos
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -40,7 +40,7 @@ Visitantes diferentes respondem de forma distinta às ofertas/experiências na a
 
 ## Acessar o relatório de Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -145,19 +145,19 @@ Há vários motivos possíveis pelos quais você pode ver mais visitas para uma 
 * Atividades com volume menor, nas quais determinadas ofertas/experiências não têm modelos criados ou os modelos foram criados antes para algumas ofertas/experiências do que para outras.
 * Regras de direcionamento em uma oferta específica que limitam quais visitantes podem ver quais ofertas/experiências.
 
-**As informações nos relatórios dos[!UICONTROL Segmentos automatizados]e[!UICONTROL Atributos importantes]são as mesmas que no download do CSV?**
+**As informações nos relatórios dos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] são as mesmas que no download do CSV?**
 
 Não, o relatório da interface do usuário contém informações selecionadas. O download do CSV contém detalhes adicionais. O download do relatório de Insights do segmento automatizado contém Segmentos automatizados adicionais, além dos principais segmentos incluídos na interface do usuário, juntamente com a forma como esses segmentos são executados em relação às ofertas ou experiências. O relatório de Atributos importantes inclui os 100 principais atributos de visitantes e sua importância relativa, enquanto a interface do usuário inclui apenas os 10 principais atributos de visitantes.
 
-**Posso ver[!UICONTROL os]Insights de personalização para um intervalo de datas personalizado?**
+**Posso ver[!UICONTROL  os ]Insights de personalização para um intervalo de datas personalizado?**
 
 Os relatórios dos Insights de personalização (os [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes]) estão disponíveis apenas para intervalos de datas fixos: 15 dias, 30 dias, 45 dias, 60 dias e 90 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. Você pode selecionar essas durações para qualquer data final (onde esses dados são suficientes na atividade para atender a duração).
 
-**Como os[!UICONTROL Insights de personalização]são criados?**
+**Como os [!UICONTROL Insights de personalização] são criados?**
 
 Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa da Adobe disponível no [site da arXiv.org](https://arxiv.org/abs/1706.07160).
 
-**Por que o total de dados de tráfego dos visitantes no relatório de[!UICONTROL Segmentos automatizados]não corresponde ao meu relatório de resumo/desempenho de AP ou AT?**
+**Por que o total de dados de tráfego dos visitantes no relatório de [!UICONTROL Segmentos automatizados] não corresponde ao meu relatório de resumo/desempenho de AP ou AT?**
 
 Os relatórios de [!UICONTROL Insights de personalização] incluem apenas visitantes que viram uma parte do conteúdo selecionado por modelos de personalização do Target (isto é, não considera o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). Este tipo de tráfego é chamado de tráfego &quot;personalizado&quot;. O relatório de resumo/desempenho em AP/AT inclui controle versus tráfego &quot;direcionado&quot;. O tráfego direcionado inclui o tráfego personalizado, bem como o distribuído usando o modelo vencedor global e algum tráfego distribuído aleatoriamente para continuar o aprendizado.
 
@@ -165,7 +165,7 @@ Os relatórios de [!UICONTROL Insights de personalização] incluem apenas visit
 
 Não, há uma sobreposição entre os segmentos automatizados.
 
-**Os[!UICONTROL Insights de personalização]estão disponíveis para metas de modelagem baseadas em receita/meta principal?**
+**Os [!UICONTROL Insights de personalização] estão disponíveis para metas de modelagem baseadas em receita/meta principal?**
 
 No momento, os [!UICONTROL Insights de personalização] estão disponíveis apenas para atividades com meta de otimização de conversão. O suporte será adicionado para atividades com meta de otimização de receita em uma versão futura.
 
