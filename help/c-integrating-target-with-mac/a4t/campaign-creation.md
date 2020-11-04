@@ -6,7 +6,7 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 20%
@@ -77,7 +77,7 @@ Atualizamos a integração entre Adobe Target e Adobe Analytics, conhecida como 
 Essa integração permite:
 
 * Use a capacidade de [autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)de vários bandit para direcionar o tráfego para experiências vencedoras
-* Use o algoritmo de aprendizado de máquina [montada](/help/c-activities/auto-target-to-optimize.md)pelo Público alvo automático para escolher uma melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso, ao usar uma métrica de [!DNL Adobe Analytics] objetivo e [!DNL Adobe Analytics]os recursos de relatórios e análise avançados.
+* Use o algoritmo de aprendizado de máquina [montada](/help/c-activities/auto-target/auto-target-to-optimize.md)pelo Público alvo automático para escolher uma melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso, ao usar uma métrica de [!DNL Adobe Analytics] objetivo e [!DNL Adobe Analytics]os recursos de relatórios e análise avançados.
 
 Verifique se você [implementou a A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência. Se estiver usando `analyticsLogging = client_side`, você também precisará passar o `sessionId` valor para [!DNL Analytics]. Para obter mais informações, consulte relatórios [A4T (](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics for Público alvo) no guia SDKs *da* Adobe Target.
 
