@@ -5,7 +5,7 @@ title: Visão geral do teste A/B
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ Além da atividade de teste [!UICONTROL A/B manual (discutida nesta seção),] [
 | --- | --- |
 | [!UICONTROL Teste A/B manual] | Compara duas ou mais experiências para ver qual melhora mais conversões durante um período de teste pré-especificado. <br>Esta seção descreve como configurar uma atividade de teste [!UICONTROL A/B manual, mas as etapas para os outros tipos de atividades de teste]  A/B são semelhantes. |
 | [!UICONTROL Alocação automática] | Identifica um vencedor entre duas ou mais experiências e redireciona tráfego para o vencedor, aumentando conversões enquanto o teste continua a ser executado e aprendendo. <br>Para saber mais sobre os benefícios de usar uma atividade de Autoalocação, consulte [Autoalocação](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) em *Quanto tempo você deve executar um Teste* A/B e uma visão geral [de](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Autoalocação. |
-| ![Etiqueta](/help/assets/premium.png) Premium [!UICONTROL Público alvo automático] | Usa aprendizagem de máquina avançada para personalizar conteúdo identificando várias experiências de alta performance definidas por profissionais de marketing e depois apresentando a experiência mais personalizada para visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfil similares. <br>Para obter mais informações, consulte Público alvo [automático](/help/c-activities/auto-target-to-optimize.md). |
+| ![Etiqueta](/help/assets/premium.png) Premium [!UICONTROL Público alvo automático] | Usa aprendizagem de máquina avançada para personalizar conteúdo identificando várias experiências de alta performance definidas por profissionais de marketing e depois apresentando a experiência mais personalizada para visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfil similares. <br>Para obter mais informações, consulte Público alvo [automático](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 
 Para obter mais informações sobre qual dessas atividades de teste [!UICONTROL A/B é a mais adequada para você, consulte o PDF] interativo do Guia do [](/help/c-activities/target-activities-guide.md)Adobe Target Atividade.
 
