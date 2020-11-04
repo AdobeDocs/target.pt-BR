@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -40,7 +40,7 @@ O conteúdo exibido para os visitantes depende do tipo de atividade que você cr
 
 ### Teste A/B
 
-Consulte [Criar um teste A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) para obter mais informações.
+Consulte [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) para obter mais informações.
 
 O conteúdo que exibe um teste A/B básico é escolhido aleatoriamente entre os ativos que você atribui à atividade, de acordo com os percentuais escolhidos para cada experiência. Em resultado dessa divisão aleatória de tráfego, pode ser necessário muito tráfego inicial mesmo antes de as porcentagens aparecerem. Por exemplo, se você criar duas experiências, a inicial será escolhida aleatoriamente. Se houver pouco tráfego, é possível que a porcentagem de visitantes venha a tender para uma experiência. Com o aumento do tráfego, as porcentagens devem se igualar cada vez mais.
 
@@ -59,7 +59,7 @@ A Alocação automática identifica um vencedor entre duas ou mais experiências
 
 ### Direcionamento automático (AT)
 
-Consulte [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) para obter mais informações.
+Consulte [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) para obter mais informações.
 
 O Direcionamento automático usa aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.
 
