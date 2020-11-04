@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '29837'
 ht-degree: 86%
@@ -1311,8 +1311,8 @@ Esta versão inclui os seguintes recursos e aprimoramentos (os números de ediç
    <td colname="col1" class="premium"> <p>Direcionamento automático </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>As atividades de Direcionamento automático agora são compatíveis com os relatórios em nível de segmento. (TGT-22777) </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>É possível alterar a Porcentagem de controle para atividades de Direcionamento automático. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>As atividades de Direcionamento automático agora são compatíveis com os relatórios em nível de segmento. (TGT-22777) </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>É possível alterar a Porcentagem de controle para atividades de Direcionamento automático. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1553,7 +1553,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Direcionamento automático </p> </td> 
-   <td colname="col2"> <p>O Direcionamento automático já está disponível para todos os clientes do Target Premium. </p> <p>O Direcionamento automático usa aprendizagem de máquina avançada para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões. </p> <p>Ao criar uma atividade A/B usando o fluxo de trabalho guiado de três etapas, é possível optar por alocar o tráfego usando a opção <span class="wintitle">Direcionamento automático para experiências personalizadas</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p>O Direcionamento automático já está disponível para todos os clientes do Target Premium. </p> <p>O Direcionamento automático usa aprendizagem de máquina avançada para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões. </p> <p>Ao criar uma atividade A/B usando o fluxo de trabalho guiado de três etapas, é possível optar por alocar o tráfego usando a opção <span class="wintitle">Direcionamento automático para experiências personalizadas</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Esta versão inclui os seguintes recursos e melhorias:
  <tbody> 
   <tr> 
    <td colname="col1"> Relatório </td> 
-   <td colname="col2"> <p><b>Exibir várias metas/métricas:</b> agora é possível visualizar várias métricas em atividades A/B e de Direcionamento de experiência (XT), com a exceção das  Atividades A/B de <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Alocação automática </a> e <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Direcionamento automático </a>. </p> <p>Para obter mais informações, consulte <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Exibir várias métricas em um relatório </a>. </p> </td> 
+   <td colname="col2"> <p><b>Exibir várias metas/métricas:</b> agora é possível visualizar várias métricas em atividades A/B e de Direcionamento de experiência (XT), com a exceção das  Atividades A/B de <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Alocação automática </a> e <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> Direcionamento automático </a>. </p> <p>Para obter mais informações, consulte <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Exibir várias métricas em um relatório </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Esta versão inclui os seguintes recursos e melhorias:
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Primeira impressão</b> </p> Direcionamento automático em atividades A/B </td> 
-   <td colname="col2"> <p> <p>Observação: esta oferta de "Primeira impressão" está ativada para alguns clientes nesta versão para testes e feedback. </p> </p> <p>Direcione automaticamente as experiências nos testes A/B para veicular a experiência certa ao visitante certo. </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p> <p>Observação: esta oferta de "Primeira impressão" está ativada para alguns clientes nesta versão para testes e feedback. </p> </p> <p>Direcione automaticamente as experiências nos testes A/B para veicular a experiência certa ao visitante certo. </p> <p>Para obter mais informações, consulte <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Direcionamento automático para experiências personalizadas</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
