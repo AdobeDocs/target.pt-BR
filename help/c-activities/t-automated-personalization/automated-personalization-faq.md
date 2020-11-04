@@ -5,7 +5,7 @@ title: Perguntas frequentes sobre a personalização automatizada
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Lista de perguntas frequentes sobre a Personalização automatizada (AP).
 
 ## Posso definir uma experiência específica para ser usada como controle?
 
-É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) (AT).
+É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Esse recurso permite rotear todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado com relação ao tráfego de controle para essa experiência única.
 
@@ -31,7 +31,7 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
 
 ## Quais são as práticas recomendadas para configurar uma atividade de Personalização automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Se você deseja personalizar uma página de tráfego mais baixo ou quer fazer alterações estruturais na experiência que está personalizando, considere o uso do direcionamento automático no lugar da personalização automatizada. Consulte  [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md).
+* Se você deseja personalizar uma página de tráfego mais baixo ou quer fazer alterações estruturais na experiência que está personalizando, considere o uso do direcionamento automático no lugar da personalização automatizada. Consulte  [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * Considere a conclusão de uma atividade A/B entre as ofertas e os locais que você planeja usar em sua atividade de Personalização automatizada para garantir que os locais e as ofertas tenham impacto na meta de otimização. Se uma atividade A/B não demonstrar uma diferença significativa, a Personalização automatizada provavelmente também não gerará aumento.
 
    * Se um teste A/B…N não mostra diferenças estatisticamente significativas entre as experiências, provavelmente as ofertas que você está considerando não são suficientemente diferentes umas das outras, os locais selecionados não afetam a métrica de sucesso ou a meta de otimização está muito distante no funil de conversão a ser afetado pelas ofertas escolhidas.
@@ -79,7 +79,7 @@ Para obter mais informações, consulte [Solução de problemas de personalizaç
 
 ### Como a Personalização automatizada está alocando o tráfego da minha atividade? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-A Personalização automatizada encaminha os visitantes da experiência com a maior métrica de sucesso prevista baseada nos modelos [Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) mais recentes criados para cada modelo. Esta previsão baseia-se na informação específica do visitante e no contexto da visita.
+A Personalização automatizada encaminha os visitantes da experiência com a maior métrica de sucesso prevista baseada nos modelos [Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md) mais recentes criados para cada modelo. Esta previsão baseia-se na informação específica do visitante e no contexto da visita.
 
 Por exemplo, suponha que uma atividade de AP tenha dois locais com duas ofertas cada. No primeiro local, a Oferta A tem uma taxa de conversão prevista de 3% para um visitante específico e a Oferta B tem uma taxa de conversão prevista de 1%. No segundo local, a Oferta C tem uma taxa de conversão prevista de 2% para o mesmo visitante e a Oferta D tem uma taxa de conversão prevista de 5%. Portanto, a Personalização automatizada ofereceria a esse visitante uma experiência com a Oferta A e a Oferta D.
 
