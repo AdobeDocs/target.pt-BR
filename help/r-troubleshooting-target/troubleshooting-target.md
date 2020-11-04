@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 98%
 
 ---
 
@@ -27,11 +27,19 @@ As seguintes seções contêm informações de solução de problemas em ativida
 * [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Atividades de solução de problemas](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL Teste A/B], [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] (AT)
+### Teste A/B
 
 * [Nove erros comuns em testes A/B e como evitá-los](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Direcionamento automático para experiências personalizadas](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### Alocação automática
+
+* [Autoalocar visão geral](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### Direcionamento automático
+
+* [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Personalização automatizada (AP)
 
