@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 92%
+source-wordcount: '1555'
+ht-degree: 91%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 92%
       + [Por quanto tempo você deve executar um teste A/B?](c-activities/t-test-ab/sample-size-determination.md)
       + [Dez erros comuns em testes A/B e como evitá-los](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Criar um teste A/B {#create}
-         + [Criar um teste](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Criar um teste A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL da atividade](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Adicionar experiência](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Seleção do público-alvo](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 92%
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Vários públicos-alvo de uma experiência em um Teste A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Alocação automática {#auto-allocate}
-      + [Alocação automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Autoalocar visão geral](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Criar uma atividade de autoalocação](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretar relatórios de autoalocação](c-activities/automated-traffic-allocation/determine-winner.md)
       + [A Autoalocação pode fornecer resultados de teste mais rápidos e maior receita do que um teste manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Direcionamento automático](c-activities/auto-target-to-optimize.md)
