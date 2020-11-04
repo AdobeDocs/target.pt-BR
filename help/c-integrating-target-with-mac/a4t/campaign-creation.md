@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1393'
 ht-degree: 20%
 
 ---
@@ -79,7 +79,7 @@ Essa integração permite:
 * Use a capacidade de [autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)de vários bandit para direcionar o tráfego para experiências vencedoras
 * Use o algoritmo de aprendizado de máquina [montada](/help/c-activities/auto-target-to-optimize.md)pelo Público alvo automático para escolher uma melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso, ao usar uma métrica de [!DNL Adobe Analytics] objetivo e [!DNL Adobe Analytics]os recursos de relatórios e análise avançados.
 
-Verifique se você [implementou a A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência. Se estiver usando `analyticsLogging = client_side`, você também precisará passar o `sessionId` valor para [!DNL Analytics]. Para obter mais informações, consulte [Adobe Analytics for Público alvo (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) no Guia da API do Delivery *Adobe Target*
+Verifique se você [implementou a A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência. Se estiver usando `analyticsLogging = client_side`, você também precisará passar o `sessionId` valor para [!DNL Analytics]. Para obter mais informações, consulte relatórios [A4T (](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics for Público alvo) no guia SDKs *da* Adobe Target.
 
 Para começar:
 
