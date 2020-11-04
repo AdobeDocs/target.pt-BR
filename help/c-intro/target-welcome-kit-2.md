@@ -4,7 +4,7 @@ description: Kit de boas-vindas da Adobe Target - Capítulo 2 - Público alvo de
 title: Kit de boas-vindas da Adobe Target - Capítulo 2 - Público alvo de uma primeira vista
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 17%
@@ -30,7 +30,7 @@ Para obter uma compreensão mais profunda de quando e como usar cada recurso, co
 | --- | --- |
 | Teste A/B | Compare duas ou mais variações de suas experiências ou ofertas em seu site ou outro ponto de contato do cliente digital para ver qual variação melhora mais as principais medidas de negócios durante um período de teste pré-especificado. Os testes A/B são adequados para grandes alterações, como novos layouts de página da Web, diferentes abordagens para a navegação do site ou tratamentos drasticamente diferentes de elementos individuais de uma experiência digital, como cópia, imagens e botões de chamada para ação. [Saiba mais](/help/c-activities/t-test-ab/test-ab.md). |
 | Alocação automática | Identifique a experiência de melhor desempenho entre duas ou mais experiências e realoque automaticamente mais tráfego para o vencedor para aumentar as conversões enquanto o teste continua sendo executado e aprendido. Usa inteligência artificial capacitada por [!DNL Adobe Sensei]. [Saiba mais](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Público alvo<br>automático (Premium) | Aproveite a Adobe Sensei AI para determinar e fornecer a melhor experiência de vários para cada visitante, com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. [!DNL Target] O Público alvo automático permite a personalização em escala. [Saiba mais](/help/c-activities/auto-target-to-optimize.md). |
+| Público alvo<br>automático (Premium) | Aproveite a Adobe Sensei AI para determinar e fornecer a melhor experiência de vários para cada visitante, com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. [!DNL Target] O Público alvo automático permite a personalização em escala. [Saiba mais](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Use algoritmos avançados de aprendizado de máquina e automação com [!DNL Adobe Sensei] o objetivo de revisar diferentes combinações de imagens, cópias e outros elementos em uma oferta e fornecer a melhor combinação para cada visitante, com base na qual o melhor alcance as metas comerciais, como maior conversão ou receita por visitante. [Saiba mais](/help/c-activities/t-automated-personalization/automated-personalization.md). |
 | Direcionamento de experiência (XT) | Forneça conteúdo para uma audiência específica com base em um conjunto de regras e critérios definidos pelo usuário. **[!UICONTROL O direcionamento]** de experiência é valioso para direcionar uma experiência ou conteúdo específico a uma audiência específica quando você entende que uma audiência é valiosa e tem uma boa noção do que a experiência tem a ver com elas. [Saiba mais](/help/c-activities/t-experience-target/experience-target.md). |
 | Teste multivariado (MVT) | Compare todas as combinações possíveis de variações de elementos na sua página ou experiência digital — por exemplo, três imagens de fundo diferentes, duas variações de cópia e duas cores de botão diferentes. O MVT determina qual combinação tem o melhor desempenho para uma audiência específica e quais elementos têm mais impacto nos resultados. [Saiba mais](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
@@ -42,7 +42,7 @@ Você pode usar [!DNL Target] para testar e personalizar experiências digitais 
 
 | Canal | Detalhes |
 | --- | --- |
-| Site | [!DNL Target] pode ser usado para executar testes A/B, Multivariate Testing, direcionamento de experiência, Autoalocação, Público alvo automático, Automated Personalization e Recommendations atividades em páginas de seu aplicativo de página única (SPA) multipáginas e sites móveis para melhorar o envolvimento do visitante e do cliente, aumentar as conversões e aumentar a receita. |
+| Site | [!DNL Target] pode ser usado para executar testes A/B, Multivariate Testing, direcionamento de experiência, Autoalocação, Público alvo automático, Automated Personalization e Recommendations atividades em páginas de várias páginas, aplicativos de página única (SPA) e sites móveis para melhorar o envolvimento do visitante e do cliente, aumentar as conversões e aumentar a receita. |
 | Web móvel | [!DNL Target] pode ser usado para executar todos os mesmos tipos de atividade que você executa em seu site nas páginas de seu site para dispositivos móveis para melhorar de maneira semelhante o envolvimento do visitante e do cliente, aumentar as conversões e aumentar a receita. |
 | Aplicativo móvel | [!DNL Target] pode ser usado para testar e personalizar experiências de aplicativos móveis com base no comportamento do usuário e no contexto móvel. [!DNL Target] permite fornecer interações que envolvem e convertem por meio de testes iterativos, bem como direcionamento de experiência e personalização acionada por AI. Para usar [!DNL Target] em seu aplicativo móvel, você deve usar o SDK do Adobe Mobile Services. |
 | IoT/Todo lugar | [!DNL Target] oferta uma implementação do lado do servidor para que você possa usar os mesmos recursos de teste e personalização no atividade que você usa no site tradicional, site móvel e aplicativos móveis em emails e pontos de contato que não possuem um navegador ou não usam o código JavaScript. Por exemplo, você pode testar e personalizar quiosques, decodificadores de sinais, consoles de jogos, assistentes de voz e outros pontos de contato não tradicionais. |
@@ -71,7 +71,7 @@ Em [!DNL Target]geral, é possível criar uma atividade de personalização, uma
 
 ## Ferramentas de criação de atividades
 
-[!DNL Target] fornece três formas principais de configurar suas atividades de teste e personalização, o [!UICONTROL Visual Experience Composer] (VEC), o Criador [!UICONTROL de experiências baseado em]forma e o [!UICONTROL Single Page Application (SPA) Visual Experience Composer]. Ambas o guiarão pelo processo de configuração da atividade em três etapas — definindo as experiências, selecionando ou definindo as audiências e selecionando as métricas de sucesso principal e secundário pelas quais você medirá os resultados da atividade.
+[!DNL Target] fornece três formas principais de configurar suas atividades de teste e personalização, o [!UICONTROL Visual Experience Composer] (VEC), o Criador [!UICONTROL de experiências baseado em]forma e o Aplicativo de página [!UICONTROL única (SPA) Visual Experience Composer]. Ambas o guiarão pelo processo de configuração da atividade em três etapas — definindo as experiências, selecionando ou definindo as audiências e selecionando as métricas de sucesso principal e secundário pelas quais você medirá os resultados da atividade.
 
 | Ferramenta | Detalhes |
 | --- | --- |
