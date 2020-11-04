@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2903'
 ht-degree: 98%
 
 ---
@@ -64,7 +64,7 @@ Use os [relatórios para determinar a experiência vencedora](../c-activities/au
 
 **Posso realizar uma atividade com um nível de personalização como parte integrante da atividade?**
 
-Confira o [Teste A/B com a opção Direcionamento automático](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+Opção de Público alvo [automático](/help/c-activities/auto-target-to-optimize.md) .
 
 **Como posso saber qual tipo de atividade é atende melhor às minhas necessidades?**
 
