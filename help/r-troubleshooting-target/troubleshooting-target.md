@@ -6,7 +6,7 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
@@ -31,7 +31,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 * [Nove erros comuns em testes A/B e como evitá-los](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-* [Direcionamento automático para experiências personalizadas](/help/c-activities/auto-target-to-optimize.md)
+* [Direcionamento automático para experiências personalizadas](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### Personalização automatizada (AP)
 
