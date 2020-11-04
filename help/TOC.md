@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 91%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 91%
       + [Criar uma atividade de autoalocação](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretar relatórios de autoalocação](c-activities/automated-traffic-allocation/determine-winner.md)
       + [A Autoalocação pode fornecer resultados de teste mais rápidos e maior receita do que um teste manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [Direcionamento automático](c-activities/auto-target-to-optimize.md)
+   + Direcionamento automático {#auto-target}
+      + [Visão geral do Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Criar uma atividade de Público alvo automático](/help/c-activities/auto-target/create-auto-target.md)
+      + [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + Personalização automatizada {#automated-personalization}
       + [Visão geral da personalização automatizada](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Random Forest](c-activities/t-automated-personalization/algo-random-forest.md)
