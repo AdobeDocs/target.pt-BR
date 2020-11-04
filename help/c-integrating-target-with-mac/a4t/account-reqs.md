@@ -1,5 +1,5 @@
 ---
-keywords: Analytics as reporting source;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T;requirements
 description: Requisitos da conta do usuário para criar uma atividade do Adobe Analytics no Adobe Target (A4T).
 title: Exigências de permissão do usuário
 feature: a4t implementation
@@ -7,15 +7,15 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
+source-git-commit: 95e620e78fa6bcb2cded1c6efc79d365c5b70b30
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 51%
+source-wordcount: '257'
+ht-degree: 48%
 
 ---
 
 
-# Exigências de permissão do usuário {#user-permission-requirements}
+# Exigências de permissão do usuário
 
 Informações sobre os requisitos da conta de usuário para criar uma atividade baseada em [!DNL Adobe Analytics] no [!DNL Adobe Target] (A4T).
 
@@ -41,15 +41,19 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Conclua as seguintes tarefas em [!DNL Adobe Analytics]:
+Configure access to the [!DNL Analytics] report suite:
 
-### Configurar o acesso ao conjunto de relatórios do Analytics
+Para usar o A4T em um determinado conjunto de relatórios, é necessário ter acesso a esse conjunto de relatórios.
 
-Para usar o A4T em um determinado conjunto de relatórios, é necessário ter acesso a esse conjunto de relatórios. Para obter acesso ao [!UICONTROL Admin Console], clique em um perfil de [!DNL Analytics] produto e, em seguida, clique na guia [!UICONTROL Permissões] . Em seguida, é possível ver a quais conjuntos de relatórios o perfil tem acesso. Verifique se o conjunto de relatórios ao qual você deseja ter acesso [!DNL Target] é um dos listados no perfil de produto do qual você faz parte.
+1. No **[!UICONTROL Admin Console]**, clique em um perfil de [!DNL Analytics] produto e, em seguida, clique na guia **[!UICONTROL Permissões]** .
 
-A ilustração a seguir é um exemplo de um perfil de produto que tem acesso a todos os conjuntos de relatórios:
+   Em seguida, é possível ver a quais conjuntos de relatórios o perfil tem acesso.
 
-![Guia Permissão de Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+1. Certifique-se de que o conjunto de relatórios ao qual você deseja ter acesso [!DNL Target] seja um dos listados no perfil do produto do qual você faz parte.
+
+   A ilustração a seguir é um exemplo de um perfil de produto que tem acesso a todos os conjuntos de relatórios:
+
+   ![Guia Permissão de Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
