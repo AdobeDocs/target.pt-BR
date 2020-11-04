@@ -4,7 +4,7 @@ description: O Adobe Recommendations como uma oferta em atividades de Testes A/B
 title: O Adobe Recommendations como uma oferta em atividades de Testes A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT)
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 98%
@@ -31,7 +31,7 @@ Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direc
 
    >[!NOTE]
    >
-   >Para Testes A/B, lembre-se de que você pode escolher a opção [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para impulsionar automaticamente o tráfego para a recomendação com melhor desempenho ou a opção [Direcionamento automático](/help/c-activities/auto-target-to-optimize.md) para atribuir os visitantes a experiências de recomendação personalizadas com base em seus perfis.
+   >Para Testes A/B, lembre-se de que você pode escolher a opção [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para impulsionar automaticamente o tráfego para a recomendação com melhor desempenho ou a opção [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) para atribuir os visitantes a experiências de recomendação personalizadas com base em seus perfis.
 
 1. Ao criar uma [experiência](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), clique no elemento ao qual deseja adicionar uma recomendação como uma oferta, selecione a ação **[!UICONTROL Inserir antes]**, **[!UICONTROL Inserir após]** ou **[!UICONTROL Substituir por]** e selecione [!UICONTROL Recomendação].
 
@@ -84,7 +84,7 @@ Há duas maneiras de editar a configuração de uma oferta:
 
 ### Editar uma oferta do recommendations utilizando o painel Modificações
 
-1. Clique no ícone [!UICONTROL Modificações] **(`</>`)** para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Clique no ícone [!UICONTROL Modificações] **( `</>` )** para exibir o painel [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passe o cursor do mouse sobre a ação desejada e clique no ícone **[!UICONTROL Editar]**.
 
    ![Painel de modificações](/help/c-recommendations/assets/recs-offer-modifications.png)
