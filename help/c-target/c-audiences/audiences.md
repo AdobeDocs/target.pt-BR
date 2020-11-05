@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ O seguinte cartão de definição de público-alvo é acessado clicando-se no í
 
 ![Atividades > Definição de público](assets/audience_definition_list.png)
 
-Clique na guia [!UICONTROL Uso do público-alvo] para ver outras atividades que se referem àquele público-alvo, se aplicável. Dessa forma, é possível evitar um impacto acidental em outras atividades ao editar públicos-alvo. As informações incluem atividades ao vivo, atividades inativas, atividades arquivadas e atividades de sincronização. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e  [públicos-alvo somente de atividades](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Clique na guia [!UICONTROL Uso do público-alvo] para ver outras atividades que se referem àquele público-alvo, se aplicável. Dessa forma, é possível evitar um impacto acidental em outras atividades ao editar públicos-alvo. As informações incluem atividades ao vivo, atividades inativas, atividades arquivadas e atividades de sincronização. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e  [públicos-alvo somente de atividades](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Se um público-alvo for combinado com outro público-alvo e o público-alvo combinado for usado para criar uma atividade, as informações de uso dos dois públicos-alvo exibirão a atividade recém-criada.
 
