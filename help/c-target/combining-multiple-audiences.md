@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
@@ -30,7 +30,7 @@ Você pode criar e usar públicos-alvo combinados em vários locais na interface
 
 Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Target] da atividade durante o fluxo de trabalho guiado de três etapas.
 
-1. Ao criar uma [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Target]** , clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
+1. Ao criar uma [atividade](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Target]** , clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
 
    ![Resultado da etapa](assets/edit_audience.png)
 
@@ -82,7 +82,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na segmentação de métrica. Por exemplo, para criar segmentação com base na conversão usando um público-alvo combinado:
 
-1. Ao editar ou criar uma  [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, selecione **[!UICONTROL Conversão]** para a métrica de sucesso e, em seguida, selecione **[!UICONTROL Uma Mbox visualizada]** como ação.
+1. Ao editar ou criar uma  [atividade](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, selecione **[!UICONTROL Conversão]** para a métrica de sucesso e, em seguida, selecione **[!UICONTROL Uma Mbox visualizada]** como ação.
 1. Selecione a mbox desejada no campo **[!UICONTROL Pesquisar mbox]**.
 
    ![](assets/combine_multiple_audiences4.png)
@@ -92,17 +92,17 @@ Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas 
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. Prossiga com o [Passo 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
+1. Prossiga com o [Passo 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
 
 ## Criar um público-alvo combinado para uso na geração de relatórios  {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na geração de relatórios.
 
-1. Ao editar ou criar uma  [atividade](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, clique no ícone **[!UICONTROL Adicionar público-alvo]** em [!UICONTROL Públicos-alvo para geração de relatórios] para exibir a página [!UICONTROL Escolher público-alvo].
+1. Ao editar ou criar uma  [atividade](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, clique no ícone **[!UICONTROL Adicionar público-alvo]** em [!UICONTROL Públicos-alvo para geração de relatórios] para exibir a página [!UICONTROL Escolher público-alvo].
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. Prossiga com o [Passo 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
+1. Prossiga com o [Passo 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
 
 ## Criar um público-alvo combinado ao editar uma atividade {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -122,4 +122,4 @@ Você pode criar um público-alvo ad hoc combinado ao editar uma atividade exist
 
    ![Alterar público-alvo](/help/c-target/assets/combine_multiple_audiences8.png)
 
-1. Prossiga com o [Passo 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
+1. Prossiga com o [Passo 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
