@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Para obter mais informações sobre Direcionamento de experiência, um cenário 
    >
    >Os tipos de atividades disponíveis dependem da sua conta do Target. Alguns tipos de atividades podem não aparecer na lista. Por exemplo, a [!UICONTROL Personalização automatizada] é um [recurso do Target Premium](/help/c-intro/intro.md#premium).
    >
-   >Para obter mais informações sobre os diversos tipos de atividades disponíveis no [!DNL Target] e suas diferenças, consulte [Atividades](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de atividade do Target](/help/c-activities/target-activities-guide.md) para ajudá-lo a decidir qual tipo de atividade se adapta melhor as suas necessidades.
+   >Para obter mais informações sobre os diversos tipos de atividades disponíveis no [!DNL Target] e suas diferenças, consulte [Atividades](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de atividade do Target](/help/c-activities/target-activities-guide.md) para ajudá-lo a decidir qual tipo de atividade se adapta melhor as suas necessidades.
 
 1. Selecione **[!UICONTROL Visual (Padrão)]**, se necessário.
 
@@ -52,7 +52,7 @@ Para obter mais informações sobre Direcionamento de experiência, um cenário 
 
 1. (Condicional) Se você for um cliente do Target Premium, [escolha um espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Especifique o [URL da atividade](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) e clique em **[!UICONTROL Próximo]**.
+1. Especifique o [URL da atividade](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) e clique em **[!UICONTROL Próximo]**.
 
    Se sua conta foi [configurada com um URL padrão](/help/administrating-target/visual-experience-composer-set-up.md), esse URL aparece por padrão. Você pode alterar o URL padrão por outro, se necessário.
 
@@ -81,4 +81,4 @@ Para obter mais informações sobre Direcionamento de experiência, um cenário 
 
    Para obter instruções passo a passo, consulte [Adicionar experiência](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
-1. Especifique as [metas e configurações](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) da atividade.
+1. Especifique as [metas e configurações](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) da atividade.
