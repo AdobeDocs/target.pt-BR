@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ Esta página mostra as alterações em cada versão da mbox.js.
 >
 >Recomendamos que todos os usuários mbox.js atualizem para a versão 57 ou posterior. Alguns usuários tiveram problemas de limite de tempo quando `target.js` não pôde ser carregada. A versão 57 corrigiu esse problema. No entanto, se você estiver usando o serviço[!DNL Experience Cloud Visitor ID], a versão 58 ou posterior será necessária.
 
-A maneira como o Target responde a chamadas de sua página dependerá da versão da biblioteca do Target em uso, se a implementação da ID de visitante estiver presente e se a ID de visitante existir. Para obter informações, consulte  [Respostas de chamada do Target pela Versão da biblioteca](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+A maneira como o Target responde a chamadas de sua página dependerá da versão da biblioteca do Target em uso, se a implementação da ID de visitante estiver presente e se a ID de visitante existir. Para obter informações, consulte  [Respostas de chamada do Target pela Versão da biblioteca](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->A biblioteca mbox.js não está mais sendo desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>A biblioteca mbox.js não está mais sendo desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## mbox.js versão 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ Além disso, na versão 60, se o arquivo [!DNL visitorAPI.js] estiver presente p
 
 * Chamadas assíncronas V60
 
-   Ao usar a v60 com o serviço de identificação de visitante, todas as chamadas de mbox serão feitas de forma assíncrona. Esta é uma alteração na forma como as mboxes sempre funcionaram, portanto, tenha cuidado ao atualizar para esta versão. Revise a seção [Considerações assíncronas](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) da documentação da [!DNL at.js] (a [!DNL at.js] também usa chamadas assíncronas) para compreender alguns riscos.
+   Ao usar a v60 com o serviço de identificação de visitante, todas as chamadas de mbox serão feitas de forma assíncrona. Esta é uma alteração na forma como as mboxes sempre funcionaram, portanto, tenha cuidado ao atualizar para esta versão. Revise a seção [Considerações assíncronas](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) da documentação da [!DNL at.js] (a [!DNL at.js] também usa chamadas assíncronas) para compreender alguns riscos.
 * Novos cenários de visitantes podem sofrer cintilação
 
    Ao usar a v58 até v60 com o serviço de identificação de visitante, as chamadas de mbox aguardarão a definição da identificação do visitante antes de acionar (ou até atingir um tempo limite). Isso acontece no primeiro carregamento da página por um novo visitante.
