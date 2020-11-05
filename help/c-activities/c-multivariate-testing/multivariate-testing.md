@@ -5,7 +5,7 @@ title: Teste multivariado
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
@@ -31,7 +31,7 @@ No Target, cada combinação é uma experiência única. O teste multivariado co
 
 ![](assets/multivariate.png)
 
-Devido ao número de combinações que podem ser geradas, um teste multivariado requer mais tempo e tráfego do que um teste A/B. A página deve receber tráfego suficiente para produzir resultados significativos estatisticamente para cada experiência. Para obter resultados úteis, você precisa entender a quantidade de tráfego que a sua página recebe e testar o número ideal de combinações para a quantidade certa de tempo a fim de obter os resultados necessários. Target&#39;s [O Avaliador de tráfego](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) pode ajudar você a projetar um teste que funcione com seu tráfego. Antes de usar o Avaliador de tráfego, você deve ter boas estatísticas que demonstrem o número de impressões e conversas que o site recebe normalmente. Considere seus níveis diários de tráfego. Quanto mais experiências em uma atividade, mais tráfego ela precisará incluir, ou terá que ser executada por mais tempo. Se o seu tráfego não for muito alto, você deverá testar um número pequeno de combinações; caso contrário, o tempo necessário para produzir resultados significativos para o teste pode ser muito longo para ser útil.
+Devido ao número de combinações que podem ser geradas, um teste multivariado requer mais tempo e tráfego do que um teste A/B. A página deve receber tráfego suficiente para produzir resultados significativos estatisticamente para cada experiência. Para obter resultados úteis, você precisa entender a quantidade de tráfego que a sua página recebe e testar o número ideal de combinações para a quantidade certa de tempo a fim de obter os resultados necessários. Target&#39;s [O Avaliador de tráfego](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) pode ajudar você a projetar um teste que funcione com seu tráfego. Antes de usar o Avaliador de tráfego, você deve ter boas estatísticas que demonstrem o número de impressões e conversas que o site recebe normalmente. Considere seus níveis diários de tráfego. Quanto mais experiências em uma atividade, mais tráfego ela precisará incluir, ou terá que ser executada por mais tempo. Se o seu tráfego não for muito alto, você deverá testar um número pequeno de combinações; caso contrário, o tempo necessário para produzir resultados significativos para o teste pode ser muito longo para ser útil.
 
 ## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -85,7 +85,7 @@ Se a sua equipe usa outras abordagens de Projeto de Experimentos, você pode usa
 * Crie as experiências no fluxo de trabalho A/B com o [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Você pode usar o código personalizado, editar o HTML, o WYSIWYG ou qualquer combinação.
 * Após o término da atividade (baseada na calculadora de tamanho de exemplo), execute os resultados na planilha para obter os outros detalhes.
 
-Para mais considerações e práticas recomendadas, consulte [Práticas recomendadas de teste multivariado](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Para mais considerações e práticas recomendadas, consulte [Práticas recomendadas de teste multivariado](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Vídeos de treinamento:
 
