@@ -5,7 +5,7 @@ title: Aplicar um relatório de público-alvo a uma métrica de sucesso no Adobe
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Por exemplo, suponha que você tenha criado uma atividade para todos os visitant
 
 A lista suspensa Aplicado em oferece três categorias: qualquer visitante da atividade, apenas visitantes que atingem uma determinada etapa da atividade ou apenas visitantes que alcançam a conversão. Ou, para expressar isso de outra maneira, você pode especificar que um visitante deve ter alcançado uma mbox na página de entrada da atividade, uma mbox que define algum ponto no meio da atividade ou a mbox de conversão no final da atividade.
 
-[Métricas de sucesso](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) estão disponíveis apenas se você as configurar para sua atividade. Se você não definiu as métricas de sucesso, verá apenas duas opções na lista suspensa: Entrada da campanha e Conversão.
+[Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) estão disponíveis apenas se você as configurar para sua atividade. Se você não definiu as métricas de sucesso, verá apenas duas opções na lista suspensa: Entrada da campanha e Conversão.
 
 Considere as seguintes informações ao aplicar um público-alvo de relatórios a uma métrica de sucesso:
 
