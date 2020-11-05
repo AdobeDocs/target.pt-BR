@@ -4,7 +4,7 @@ title: Visual Experience Composer (VEC) do Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ Você também pode clicar em **[!UICONTROL Navegar]**, depois navegar para uma p
 >
 >Se um estado de passar o mouse depender do JavaScript, verifique se a opção **[!UICONTROL Desativar JavaScript]** não está selecionada. O JavaScript deve ser ativado para editar elementos de JavaScript.
 
-Para obter informações sobre as opções disponíveis no VEC, consulte [Opções do Visual Experience Composer](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Para obter informações sobre as opções disponíveis no VEC, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 Você pode realizar algumas modificações em uma página enquanto ela está carregando (ou após uma falha no carregamento) ou pode cancelar o carregamento da página no VEC. Para obter mais informações, consulte:
 
@@ -133,7 +133,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Horas de escritório: Crachá do ![tutorial do Visual Experience Composer](/help/assets/tutorial.png)
 
-Este vídeo é uma gravação de &quot;[No expediente](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
+Este vídeo é uma gravação de &quot;[No expediente](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
 * Como funciona o VEC
 * Como evitar problemas comuns com o VEC
