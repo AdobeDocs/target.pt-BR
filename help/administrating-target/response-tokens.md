@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
 
 1. Certifique-se de que você esteja usando a [!DNL at.js] versão 1.1 ou posterior.
 
-   Para obter mais informações, consulte [Baixar a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Para obter mais informações, consulte [Baixar a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ As instruções a seguir mostram como adicionar um manipulador de evento da [!DN
    });
    ```
 
-Você pode adicionar o seguinte trecho ao rodapé da biblioteca da [páginas de configuração do at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) se quiser que tudo seja um único arquivo.
+Você pode adicionar o seguinte trecho ao rodapé da biblioteca da [páginas de configuração do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) se quiser que tudo seja um único arquivo.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 Os plugins e os tokens de resposta serão disponibilizados em paralelo; no entanto, os plugins serão desativados no futuro.
 
-**Os tokens de resposta são entregues por meio de todas as[!DNL Target]respostas ou somente por meio de[!DNL Target]respostas que fornecem uma atividade?**
+**Os tokens de resposta são entregues por meio de todas as [!DNL Target] respostas ou somente por meio de [!DNL Target] respostas que fornecem uma atividade?**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
