@@ -5,7 +5,7 @@ title: Visualizações móveis para experiências responsivas
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 69%
@@ -21,7 +21,7 @@ O recurso de pré-visualização do visor móvel foi projetado para sites respon
 
 >[!NOTE]
 >
-> * Use visores móveis se o seu site for responsivo e os mesmos elementos na sua página de desktop forem usados na sua página móvel em uma configuração diferente. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * Use visores móveis se o seu site for responsivo e os mesmos elementos na sua página de desktop forem usados na sua página móvel em uma configuração diferente. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
    >
    >
 * Os visores móveis não estarão disponíveis se sobrepostos por uma oferta de redirecionamento.
@@ -35,7 +35,7 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 |---|---|---|
 | iPhone SE | 375 de largura x 667 de altura | 750 de largura x 1334 de altura |
 | iPhone 11 Pro máx | 414 de largura x 896 de altura | 1242 de largura x 2688 de altura |
-| iPhone 11 Xs Max | 414 de largura x 896 de altura | 1242 de largura x 2688 de altura |
+| iPhone 11 Xs Máx | 414 de largura x 896 de altura | 1242 de largura x 2688 de altura |
 | iPhone 11 | 414 de largura x 896 de altura | 828 de largura x 1792 de altura |
 | iPhone 11 Xr | 414 de largura x 896 de altura | 828 de largura x 1792 de altura |
 | iPhone 11 Pro | 375 de largura x 812 de altura | 1125 de largura x 2436 de altura |
@@ -116,7 +116,7 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
    * Symbian
    * BlackBerry
 
-   Se você usa o [Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   Se você usa o [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
