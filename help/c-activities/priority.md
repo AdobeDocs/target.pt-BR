@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -29,7 +29,7 @@ Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experie
    Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
 
 1. O conteúdo de todas as atividades e experiências que o visitante corresponde é retornado à página.
-1. Se o conteúdo de cada atividade fizer referencia a  [seletores CSS diferentes](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), então todo o conteúdo é exibido.
+1. Se o conteúdo de cada atividade fizer referencia a  [seletores CSS diferentes](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), então todo o conteúdo é exibido.
 
    Se houver uma sobreposição ou duplicação de seletor de CSS, então o conteúdo de atividade com maior prioridade é exibido. Os resultados de todas as atividades executadas na página são contados e refletidos nos relatórios.
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->Dependendo das configurações, os valores de prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999. Para obter mais informações, consulte [Configurações da atividade](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Dependendo das configurações, os valores de prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999. Para obter mais informações, consulte [Configurações da atividade](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 **Duas campanhas Públicos alvos clássicas usam solicitações de Público alvo não globais**
 
