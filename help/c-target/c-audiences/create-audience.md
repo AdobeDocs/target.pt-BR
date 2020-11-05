@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%
@@ -54,7 +54,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
    As regras possibilitam a limitação do seu público-alvo a um subconjunto dos visitantes do seu site.
 1. Selecione um tipo de regra.
 
-   Cada tipo de regra tem seus próprios parâmetros. Consulte [Categorias para públicos-alvo](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) para mais informações sobre a configuração de cada tipo de regra de público-alvo.
+   Cada tipo de regra tem seus próprios parâmetros. Consulte [Categorias para públicos-alvo](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) para mais informações sobre a configuração de cada tipo de regra de público-alvo.
 1. Defina os parâmetros da regra.
 1. Clique em **[!UICONTROL Salvar]**.
 
