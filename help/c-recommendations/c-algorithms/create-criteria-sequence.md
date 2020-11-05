@@ -5,7 +5,7 @@ title: Criar sequências de critérios
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 36%
@@ -86,7 +86,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar sequên
 
    A sequência de critérios irá aparecer na lista de critérios.
 
-   Para obter mais informações sobre as opções de lógica de recomendação, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md).
+   Para obter mais informações sobre as opções de lógica de recomendação, consulte [Critérios](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Vídeo de treinamento: criar critérios no Recommendations (12:33) ![Crachá do tutorial](/help/assets/tutorial.png)
 
