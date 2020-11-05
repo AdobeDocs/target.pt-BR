@@ -6,7 +6,7 @@ feature: experiences
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -26,6 +26,6 @@ O Target oferece os seguintes Composers de experiência:
 
 | Tipo | Detalhes |
 | --- | --- |
-| [Visual Experience Composer (VEC)](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | O VEC é um dos principais recursos do Adobe Target. O VEC é um editor que permite aos profissionais de marketing e designers criarem e alterarem o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor. |
-| [Experience Composer baseado em formulário](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | O Experience Composer baseado em formulário oferece a criação de experiências não visuais. Essa função permite que testes A/B no Target Standard, direcionamento de experiências, personalização automatizada e atividades do Recommendations sejam entregues em emails, quiosques e outros locais que não funcionam com o Visual Experience Composer. |
+| [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | O VEC é um dos principais recursos do Adobe Target. O VEC é um editor que permite aos profissionais de marketing e designers criarem e alterarem o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor. |
+| [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | O Experience Composer baseado em formulário oferece a criação de experiências não visuais. Essa função permite que testes A/B no Target Standard, direcionamento de experiências, personalização automatizada e atividades do Recommendations sejam entregues em emails, quiosques e outros locais que não funcionam com o Visual Experience Composer. |
 | [Aplicativo de página única (SPA) no Visual Experience Composer (VEC)](/help/c-experiences/spa-visual-experience-composer.md) | O VEC para SPAs permite que os comerciantes criem testes e personalizem conteúdo em SPAs de forma autônoma, sem dependências de desenvolvimento contínuas. O VEC pode ser usado para criar atividades de teste A/B e Direcionamento de experiência (XT) em estruturas populares, como o React e o Angular. |
