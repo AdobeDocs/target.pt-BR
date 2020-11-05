@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -53,11 +53,11 @@ Depois que um atributo personalizado é enviado como uma matriz JSON válida, el
 
 >[!NOTE]
 >
->Para alterar um atributo de vários valores para valor único, você deve excluir seu catálogo e fazer upload dos dados corrigidos do produto. A exclusão do seu catálogo não exclui os dados históricos associados às suas IDs de produto. Consulte [Exclusão de todos os itens do sistema](../../assets/adobe-recommendations-classic.pdf) na documentação *Adobe Recommendations Classic* para obter mais informações.
+>Para alterar um atributo de vários valores para valor único, você deve excluir seu catálogo e fazer upload dos dados corrigidos do produto. A exclusão do seu catálogo não exclui os dados históricos associados às suas IDs de produto. Consulte [Exclusão de todos os itens do sistema](/help/assets/adobe-recommendations-classic.pdf) na documentação *Adobe Recommendations Classic* para obter mais informações.
 
 **Restrições**:
 
-* Não é possível usar nomes de atributos de entidade predefinidos para atributos de entidade personalizados. (Consulte [Atributos da entidade](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* Não é possível usar nomes de atributos de entidade predefinidos para atributos de entidade personalizados. (Consulte [Atributos da entidade](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
 * O atributo `entity.environment` é reservado pelo sistema e não pode ser usado para atributos de entidade personalizados. Tentativas de enviar `entity.environment` usando `targetPageParams`, feeds ou APIs serão ignoradas.
 * As matrizes devem conter um único tipo de valor. Matrizes de valores mistos (`["AB",1,true]`) não são compatíveis.
 * Um atributo de vários valores que inclui uma matriz JSON aninhada (`[10,12,[1,2,3]]`) é tratado como um atributo de valor único.
@@ -263,4 +263,4 @@ Quando `entity.genre=["genre1","genre2"]` for utilizado em um design como `$enti
 
 ## Tópicos relacionados:
 
-* [Atributos da entidade](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Atributos da entidade](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
