@@ -6,10 +6,10 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 87%
+source-wordcount: '2014'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,8 @@ O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada
 >[!NOTE]
 >
 >O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
+>
+>[!UICONTROL O Analytics for Público alvo] (A4T) oferece suporte a atividades de Público alvo [!UICONTROL automático] . Para obter mais informações, consulte [Criar uma atividade que use o Analytics como a fonte](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)do relatórios.
 
 ## História de sucesso real usando o Público alvo automático {#success}
 
