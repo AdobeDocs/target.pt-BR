@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 65%
@@ -26,7 +26,7 @@ ht-degree: 65%
 
 Use URLs de pré-visualização de experiência para compartilhar experiências com membros da equipe e para experiências de QA em navegadores e ambientes, sem criar uma atividade de QA separada. Este recurso é particularmente útil se um site for complexo ou se as políticas de segurança não permitirem que o site seja visualizado em um simulador.
 
-1. Crie uma [atividade de Personalização automatizada](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou clique na atividade para abri-la.
+1. Crie uma [atividade de Personalização automatizada](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou clique na atividade para abri-la.
 
    A atividade não precisa estar inicializada para visualizar uma experiência.
 1. Na página de resumo da atividade, clique nos três pontos verticais e clique em **[!UICONTROL Exibir URLs da experiência]**.
