@@ -5,7 +5,7 @@ title: Opções da biblioteca de públicos alvos no Adobe Target audiência
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Direcione usuários com base nas regras de direcionamento pré-criadas.
 
-Os públicos pré-construídos na categoria Biblioteca do Target são herdados e existem em outras categorias. Para obter mais informações e práticas recomendadas, consulte  [Perguntas frequentes sobre direcionamentos e público-alvo](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Os públicos pré-construídos na categoria Biblioteca do Target são herdados e existem em outras categorias. Para obter mais informações e práticas recomendadas, consulte  [Perguntas frequentes sobre direcionamentos e público-alvo](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
