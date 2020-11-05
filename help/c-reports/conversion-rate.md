@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ Se o controle for 0, não há aumento percentual.
 
 Este número representa a probabilidade de que os resultados seriam duplicados se o teste fosse executado novamente. A confiança é arredondada para 100,00% sempre que for maior ou igual a 99,995%.
 
-Consulte [Nível de confiança e intervalo de confiança](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Consulte [Nível de confiança e intervalo de confiança](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Dados de varejo {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ O *intervalo de confiança* é uma faixa dentro da qual o valor real pode ser en
 
 ## Cálculo de confiança e como executá-lo offline  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-O [download do relatório de CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
+O [download do relatório de CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ Para o A4T, usamos um cálculo de teste t de Estudante para variáveis contínua
 
 Por exemplo, se você estiver otimizando para exibições de página por visitante, você exportaria uma amostra do número total de visualizações de página por visitante e por um período de tempo especificado, talvez alguns dias (alguns milhares de pontos de dados são tudo que você precisa). Você, então, elevaria ao quadrado de cada valor e somaria os totais (a ordem das operações é essencial aqui). Este valor de &quot;soma dos quadrados&quot; é então usado na Calculadora de confiança completa. Use a seção &quot;receita&quot; dessa planilha para esses valores.
 
-**Para usar o recurso de exportação de dados do[!DNL Analytics]para fazer isso:**
+**Para usar o recurso de exportação de dados do [!DNL Analytics] para fazer isso:**
 
 1. Efetue logon no [!DNL Adobe Analytics].
 1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]**.
