@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
@@ -39,7 +39,7 @@ A função está incorporada na [!DNL at.js], principalmente para facilitar a tr
 
 `mboxCreate()` agora usa o terminal &quot;json&quot; ao invés de &quot;standard&quot; e dispara de maneira assíncrona. Por esse motivo:
 
-* [Depuração](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) é diferente.
+* [Depuração](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) é diferente.
 * Evite oferecer código que exija chamadas bloqueio sincrônicas.
 
    Por exemplo, ofertas que definem variáveis de JavaScript que são usadas para código do site ou outras mboxes posteriores na página.
