@@ -5,7 +5,7 @@ title: Perguntas frequentes sobre a personalização automatizada
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -36,7 +36,7 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
 
    * Se um teste A/B…N não mostra diferenças estatisticamente significativas entre as experiências, provavelmente as ofertas que você está considerando não são suficientemente diferentes umas das outras, os locais selecionados não afetam a métrica de sucesso ou a meta de otimização está muito distante no funil de conversão a ser afetado pelas ofertas escolhidas.
 
-* Certifique-se de usar o  [Avaliador de tráfego](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para que você tenha uma noção de quanto tempo levará para que os modelos de personalização sejam incorporados à sua atividade de Personalização automatizada.
+* Certifique-se de usar o  [Avaliador de tráfego](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para que você tenha uma noção de quanto tempo levará para que os modelos de personalização sejam incorporados à sua atividade de Personalização automatizada.
 * Decida sobre a alocação entre controle e segmentado antes de iniciar a atividade com base em suas metas.
 
    Há três cenários a serem considerados com base na meta da atividade e no tipo de controle selecionado:
@@ -75,7 +75,7 @@ Há quatro fatores necessários para uma atividade de AP gerar aumento:
 
 O melhor curso de ação é garantir que o conteúdo e os locais que compõem as experiências da atividade realmente façam diferença nas taxas de resposta geral usando um teste A/B simples e não personalizado. Certifique-se de calcular os tamanhos das amostras antecipadamente para garantir que haja energia suficiente para ver um aumento razoável e executar o teste A/B por um período fixo sem interrompê-lo ou fazer quaisquer alterações. Se um resultado do teste A/B mostrar um aumento estatisticamente significativo em uma ou mais das experiências, é provável que uma atividade personalizada funcione. Claro, a personalização pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre de ofertas/locais que não têm um impacto suficientemente grande na meta da otimização para serem detectados com significância estatística.
 
-Para obter mais informações, consulte [Solução de problemas de personalização automatizada](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Para obter mais informações, consulte [Solução de problemas de personalização automatizada](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 ### Como a Personalização automatizada está alocando o tráfego da minha atividade? {#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -89,7 +89,7 @@ A Personalização automatizada pode ser usada como personalização &quot;sempr
 
 ### Por quanto tempo devo esperar que os modelos sejam construídos? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-O tempo que leva para os modelos serem construídos em sua atividade normalmente depende do tráfego para a(s) localização(ões) de atividades selecionada(s) e a métrica de sucesso da atividade. Use a variável [Avaliador de tráfego](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para determinar o período de tempo esperado para que os modelos construam sua atividade.
+O tempo que leva para os modelos serem construídos em sua atividade normalmente depende do tráfego para a(s) localização(ões) de atividades selecionada(s) e a métrica de sucesso da atividade. Use a variável [Avaliador de tráfego](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para determinar o período de tempo esperado para que os modelos construam sua atividade.
 
 ### Um modelo é construído dentro da minha atividade. As visitas a essa experiência são personalizadas? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
