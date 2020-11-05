@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -20,7 +20,7 @@ Se a atividade não aparecer no site, essas sugestões de solução de problemas
 
 >[!NOTE]
 >
->Além das seguintes informações de solução de problemas, consulte [Solução de problemas](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) a fim de obter os links para tópicos de solução de problemas adicionais, perguntas frequentes e outras informações úteis sobre como solucionar problemas de atividades e outros recursos.[!DNL Adobe Target]
+>Além das seguintes informações de solução de problemas, consulte [Solução de problemas](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) a fim de obter os links para tópicos de solução de problemas adicionais, perguntas frequentes e outras informações úteis sobre como solucionar problemas de atividades e outros recursos.[!DNL Adobe Target]
 
 As seções a seguir contêm problemas que podem ser encontrados com as soluções sugeridas.
 
@@ -82,7 +82,7 @@ Depois que você for adicionado como um usuário do Target, precisará ter a fun
 * Peça que o administrador da sua conta o atribua como um Aprovador.
 * If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
-   Consulte [Atribuir a função de aprovador a si próprio](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+   Consulte [Atribuir a função de aprovador a si próprio](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## A estrutura da página foi alterada desde a configuração da atividade.
 
@@ -92,7 +92,7 @@ Depois que você for adicionado como um usuário do Target, precisará ter a fun
 
 * Recrie a atividade.
 
-Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte  [Cenários de modificação da página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte  [Cenários de modificação da página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## A estrutura da página é modificada durante seu carregamento (em tempo de execução).
 
@@ -105,7 +105,7 @@ Para mais informações sobre como as modificações da página afetam a capacid
 * Atualize o código de página para identificar exclusivamente cada elemento que será testado (usando uma id).
 * Interrompa a modificação dinâmica da classe ou seus irmãos, conforme descrito acima.
 
-Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte  [Cenários de modificação da página](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte  [Cenários de modificação da página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js está preenchendo todo o código subsequente fora do cabeçalho e no corpo do texto.
 
