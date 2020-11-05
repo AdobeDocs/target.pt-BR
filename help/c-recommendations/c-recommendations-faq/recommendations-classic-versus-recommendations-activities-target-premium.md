@@ -5,7 +5,7 @@ title: Atividades do Recommendations Classic versus Recommendations no Target Pr
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ Para obter mais informações, consulte [Recommendations como uma oferta](/help/
 
 Os critérios são predefinidos e classificados por setores da indústria, tipos de página e implementação. Por exemplo, você pode procurar pelos critérios que se aplicam ao setor varejista, para o uso em uma página de produto, mostrando produtos dentro de uma categoria específica (como definido pelo parâmetro `entity.categoryID`).
 
-Para obter mais informações sobre o uso e a criação de critérios, consulte [Critérios](../../c-recommendations/c-algorithms/algorithms.md).
+Para obter mais informações sobre o uso e a criação de critérios, consulte [Critérios](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Fluxo de trabalho {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 O fluxo de trabalho do [!DNL Recommendations] foi simplificado. Em vez de preencher formulários complicados, você segue um fluxo de trabalho visual para:
 
 1. Selecionar o critério.
-1. Selecione um pré-configurado  [predefinido](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Selecione um pré-configurado  [predefinido](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Visualize as recomendações resultantes.
 
 ## Visualização do visual  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
