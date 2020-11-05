@@ -5,7 +5,7 @@ title: Configurações do relatório
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
@@ -94,17 +94,17 @@ A lista a seguir descreve algumas das situações que podem fazer com que uma pr
 
 ## Métrica de relatório {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Clique na lista suspensa **[!UICONTROL Métrica do relatório]** para selecionar outra [métrica de sucesso](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) ou várias métricas para exibir no gráfico.
+Clique na lista suspensa **[!UICONTROL Métrica do relatório]** para selecionar outra [métrica de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) ou várias métricas para exibir no gráfico.
 
 Por padrão, a métrica principal é determinada na configuração de métricas de sucesso ao criar a atividade. Se você alterar a configuração e salvar novamente a atividade, a métrica principal da geração de relatórios será atualizada.
 
-Para obter mais informações sobre a seleção de várias métricas para visualização nos relatórios, consulte  [Exibir várias métricas em um relatório](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Para obter mais informações sobre a seleção de várias métricas para visualização nos relatórios, consulte  [Exibir várias métricas em um relatório](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Público-alvo {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 Clique na lista suspensa [!UICONTROL Público] para alterar o público exibido no relatório.
 
-Para obter mais informações, consulte [Públicos](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
+Para obter mais informações, consulte [Públicos](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Intervalo de datas {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Selecione a experiência de controle a ser usada ao calcular e comparar o incent
 
 ### Ambiente
 
-Selecione o ambiente (grupo de host) a ser usado para o relatório. Para obter mais informações, consulte [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Selecione o ambiente (grupo de host) a ser usado para o relatório. Para obter mais informações, consulte [Hosts](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ### Redefinir dados do relatório
 
@@ -161,7 +161,7 @@ Redefina os dados do relatórios para remover os dados antigos. Os visitantes at
 
 ### Excluir valores extremos
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Para obter mais informações, consulte [Exceto pedidos extremos](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Para obter mais informações, consulte [Exceto pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Baixar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![Ícone Download](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-Para obter mais informações, consulte [Fazendo download de dados em um arquivo CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Para obter mais informações, consulte [Fazendo download de dados em um arquivo CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Atualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Você pode visualização o relatório em vários formatos, dependendo do tipo d
 
 Os relatórios incluem vários pontos de dados e representações de visualização que entendem os limites de aumento e o nível de confiança associados à sua atividade. Isso ajuda você a determinar um vencedor com mais precisão.
 
-Para obter mais informações, consulte [Incentivo médio, Limites de incentivo e Intervalo de confiança](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Para obter mais informações, consulte [Incentivo médio, Limites de incentivo e Intervalo de confiança](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Considere o seguinte:
 
