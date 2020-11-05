@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 59%
@@ -48,7 +48,7 @@ Para criar uma atividade de Público alvo [!UICONTROL automático] :
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >A opção [!UICONTROL Escolher local de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >A opção [[!UICONTROL Escolher local de trabalho]](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
 
 1. Escolha um [espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
