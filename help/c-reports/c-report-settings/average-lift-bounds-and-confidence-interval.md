@@ -5,7 +5,7 @@ title: Média de aumento, Limites de aumento e Intervalo de confiança
 feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 73%
@@ -19,7 +19,7 @@ Os relatórios incluem vários pontos de dados e representações de visualizaç
 
 >[!NOTE]
 >
->This feature is available only when viewing reports in [!UICONTROL Table] View. Este recurso não está disponível para atividades que usam o [Analytics como fonte de relatórios (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>This feature is available only when viewing reports in [!UICONTROL Table] View. Este recurso não está disponível para atividades que usam o [Analytics como fonte de relatórios (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interpretar os dados {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
