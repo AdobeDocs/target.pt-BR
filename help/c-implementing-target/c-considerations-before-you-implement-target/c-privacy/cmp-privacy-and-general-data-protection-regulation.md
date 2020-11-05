@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 Há três cenários a serem considerados ao usar a inclusão:
 
-1. **A tag do[!DNL Target]é pré-aprovada por meio do[!DNL Launch](ou pelo titular dos dados previamente aprovado pelo[!DNL Target]):** a tag do [!DNL Target] não é mantida para consentimento e funciona conforme esperado.
-1. **[!DNL Target]A tag do NÃO é pré-aprovada e`bodyHidingEnabled`é FALSE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. Após o recebimento do consentimento, o [!DNL Target] é chamado e o conteúdo personalizado fica disponível para o titular dos dados (visitante). Como apenas o conteúdo padrão está disponível antes do consentimento, é importante utilizar uma estratégia apropriada, como uma página inicial que cubra qualquer parte da página ou conteúdo que possa ser personalizado. Isso garante que a experiência permaneça consistente para o titular dos dados (visitante).
-1. **[!DNL Target]A tag do NÃO é pré-aprovada e`bodyHidingEnabled`é TRUE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. No entanto, como `bodyHidingEnabled` é definido para verdadeiro, `bodyHiddenStyle` determina qual conteúdo na página fica oculto até que a tag do seja acionada (ou o titular dos dados recuse a inclusão, sendo que nesse caso o conteúdo padrão é exibido). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Nossa configuração de página recomendada é apresentada abaixo para que todo o corpo da página, além da caixa de diálogo do gerenciador de consentimento, fique oculto, colocando o conteúdo da página em um contêiner e o diálogo do gerenciador de consentimento em um contêiner separado. Essa configuração define o [!DNL Target] para que ele apenas oculte o container da página. Consulte a [documentação do Launch para obter mais informações sobre como definir essas configurações](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **A tag do [!DNL Target] é pré-aprovada por meio do [!DNL Launch] (ou pelo titular dos dados previamente aprovado pelo [!DNL Target]):** a tag do [!DNL Target] não é mantida para consentimento e funciona conforme esperado.
+1. **[!DNL Target]A tag do NÃO é pré-aprovada e `bodyHidingEnabled` é FALSE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. Após o recebimento do consentimento, o [!DNL Target] é chamado e o conteúdo personalizado fica disponível para o titular dos dados (visitante). Como apenas o conteúdo padrão está disponível antes do consentimento, é importante utilizar uma estratégia apropriada, como uma página inicial que cubra qualquer parte da página ou conteúdo que possa ser personalizado. Isso garante que a experiência permaneça consistente para o titular dos dados (visitante).
+1. **[!DNL Target]A tag do NÃO é pré-aprovada e `bodyHidingEnabled` é TRUE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. No entanto, como `bodyHidingEnabled` é definido para verdadeiro, `bodyHiddenStyle` determina qual conteúdo na página fica oculto até que a tag do seja acionada (ou o titular dos dados recuse a inclusão, sendo que nesse caso o conteúdo padrão é exibido). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Nossa configuração de página recomendada é apresentada abaixo para que todo o corpo da página, além da caixa de diálogo do gerenciador de consentimento, fique oculto, colocando o conteúdo da página em um contêiner e o diálogo do gerenciador de consentimento em um contêiner separado. Essa configuração define o [!DNL Target] para que ele apenas oculte o container da página. Consulte a [documentação do Launch para obter mais informações sobre como definir essas configurações](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    A configuração de página recomendada para o cenário 3 é:
 
@@ -121,7 +121,7 @@ Todas as solicitações do GDPR e da CCPA nas soluções da [!DNL Experience Clo
 
 ### Quais informações a [!DNL Adobe] permitirá que nossos clientes excluam em resposta a uma solicitação do usuário/titular dos dados? {#section_4B51D00924EC4166B2442218B69214F0}
 
-As informações relacionadas a um visitante individual dentro do [!DNL Target] são contidas no Perfil do visitante do [!DNL Target]. O [!DNL Target] permitirá que nossos clientes excluam todos os dados associados a uma ID em seus respectivos Perfis do visitante. Para obter exemplos dos dados de perfil armazenados no [!DNL Target], consulte [Perfil do visitante](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+As informações relacionadas a um visitante individual dentro do [!DNL Target] são contidas no Perfil do visitante do [!DNL Target]. O [!DNL Target] permitirá que nossos clientes excluam todos os dados associados a uma ID em seus respectivos Perfis do visitante. Para obter exemplos dos dados de perfil armazenados no [!DNL Target], consulte [Perfil do visitante](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Dados agregados ou anônimos (por exemplo, dados de relatórios) não usados para identificar um certo indivíduo, ou dados não relevantes a um indivíduo específico (por exemplo, dados de conteúdo), não estão no escopo de uma solicitação de exclusão de usuário.
 
@@ -296,7 +296,7 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 
 ### O Target suporta ofuscação de IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte de sua estratégia de implementação do GDPR ou da CCPA. Para obter mais informações, consulte [Privacidade](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte de sua estratégia de implementação do GDPR ou da CCPA. Para obter mais informações, consulte [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
 ### Preciso fazer algo para impedir que meus dados sejam compartilhados ou vendidos a terceiros?
 
