@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 98%
@@ -36,7 +36,7 @@ Para resolver isso, o Target coleta dados adicionais para detectar com precisão
 
 >[!NOTE]
 >
->Clientes que usam o SDK móvel não precisam fazer nada para aproveitar desta funcionalidade. Clientes usando at.js devem [atualizar para a nova versão at.js 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (ou posterior).
+>Clientes que usam o SDK móvel não precisam fazer nada para aproveitar desta funcionalidade. Clientes usando at.js devem [atualizar para a nova versão at.js 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (ou posterior).
 
 Você pode escolher mais de uma propriedade de dispositivo móvel. Várias seleções são unidas com um OU.
 
@@ -65,7 +65,7 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
 
    >[!NOTE]
    >
-   >Você pode direcionar por operadora de dispositivo móvel usando as [configurações geográficas](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
+   >Você pode direcionar por operadora de dispositivo móvel usando as [configurações geográficas](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
