@@ -6,7 +6,7 @@ feature: ab
 solution: Target
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 99%
@@ -18,10 +18,10 @@ ht-degree: 99%
 
 Use métricas em uma atividade A/B para determinar quando uma visita é bem-sucedida.
 
-Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Especifique a meta da atividade.
-1. Selecione uma métrica [de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Selecione uma métrica [de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Selecionar métrica de sucesso](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
@@ -40,7 +40,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métr
 
    A configuração correta das métricas de sucesso é essencial para garantir que você obtenha os dados que espera.
 
-   Para obter mais informações, consulte [Métricas de sucesso](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+   Para obter mais informações, consulte [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 1. (Opcional) Adicione condições adicionais.
 1. Clique em **[!UICONTROL Continuar]** quando terminar de definir suas métricas. 
 
