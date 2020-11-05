@@ -5,7 +5,7 @@ title: Solução de problemas relacionados ao Visual Experience Composer e ao En
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 68%
@@ -86,11 +86,11 @@ Por padrão, o Visual Experience Composer bloqueia elementos de JavaScript. Voc�
 
 Esse problema ocorre quando os clientes têm uma versão da mbox.js anterior à versão 57 (ou seja, versão 56 ou anterior).
 
-Recomendamos que todos os usuários da sala de aula virtual atualizem para a [versão mais recente do mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) o pelo menos atualizem para a versão 57. Considere também [fazer a transição para o at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+Recomendamos que todos os usuários da sala de aula virtual atualizem para a [versão mais recente do mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) o pelo menos atualizem para a versão 57. Considere também [fazer a transição para o at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## Quando eu altero um elemento na página, vários elementos são alterados. (VEC e EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-Se a mesma ID de elemento DOM for usada em vários elementos na página, a alteração desses elementos modificará todos os elementos com essa ID. Para evitar que isso aconteça, uma ID só deverá ser usada uma vez em cada página. Essa é uma prática recomendada de HTML padrão. Para obter mais informações, consulte  [Cenários de modificação da página](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Se a mesma ID de elemento DOM for usada em vários elementos na página, a alteração desses elementos modificará todos os elementos com essa ID. Para evitar que isso aconteça, uma ID só deverá ser usada uma vez em cada página. Essa é uma prática recomendada de HTML padrão. Para obter mais informações, consulte  [Cenários de modificação da página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Não consigo editar experiências para um site do iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
