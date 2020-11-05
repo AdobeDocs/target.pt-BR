@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 68%
@@ -48,7 +48,7 @@ For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], acce
 
 Quando você começa a usar a nova funcionalidade [!UICONTROL Propriedades], todo o gerenciamento de usuário deve ser realizado no [!DNL Adobe Admin Console for Enterprise]. Entretanto, todos os seus usuários existentes no [!DNL Target] serão migrados do [!DNL Target] para o [!DNL Admin Console for Enterprise].
 
-1. [No Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), clique na guia **[!UICONTROL Usuários]** na parte superior da página > **[!UICONTROL Adicionar usuários]** para criar novos usuários ou editar usuários existentes.
+1. [No Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), clique na guia **[!UICONTROL Usuários]** na parte superior da página > **[!UICONTROL Adicionar usuários]** para criar novos usuários ou editar usuários existentes.
 1. Siga as instruções em [Gerenciar usuários e grupos na Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) no *Guia do usuário da empresa*.
 
 ## Etapa 2. Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -118,7 +118,7 @@ As propriedades pertencem a canais específicos (Web, dispositivos móveis, emai
    * **Descrição:** especifique uma descrição opcional para a propriedade.
    * **Canal:** Selecione o canal desejado para a propriedade: Web, Aplicativo móvel, E-mail, ou Outro/API (por exemplo, um conversor ou um console PlayStation).
 
-1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. Clique em **[!UICONTROL Salvar]** ao concluir.
 
 >[!NOTE]
@@ -128,9 +128,9 @@ As propriedades pertencem a canais específicos (Web, dispositivos móveis, emai
 
 To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
-**Para obter o código do parâmetro`at_property`:**
+**Para obter o código do parâmetro `at_property`:**
 
-1. (Condicional) Use o código de implementação que você gerou e salvou sua área de transferência enquanto realizava as etapas em [4. Crie propriedades](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) e prossiga para a etapa 2.
+1. (Condicional) Use o código de implementação que você gerou e salvou sua área de transferência enquanto realizava as etapas em [4. Crie propriedades](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) e prossiga para a etapa 2.
 
    Ou
 
@@ -148,11 +148,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    Há várias maneiras de atualizar sua implementação do [!DNL Target]. Por exemplo, é possível usar os métodos a seguir em páginas da Web:
 
-   * **Por meio de um &quot;Parâmetro global&quot; em[!DNL Adobe Launch]:**
+   * **Por meio de um &quot;Parâmetro global&quot; em [!DNL Adobe Launch]:**
 
       For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **Por meio de um &quot;Parâmetro global&quot; em[!DNL Dynamic Tag Management]:**
+   * **Por meio de um &quot;Parâmetro global&quot; em [!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
