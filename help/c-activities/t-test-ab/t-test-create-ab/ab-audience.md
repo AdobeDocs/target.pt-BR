@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -20,13 +20,13 @@ O público-alvo determina quais visitantes do site são inseridos na atividade.
 
 >[!NOTE]
 >
->Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 Na caixa [!UICONTROL Público-alvo], clique no ícone Editar (três elipses verticais) e clique em **[!UICONTROL Substituir público-alvo]**.
 
 ![Opção Substituir público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do Target. Você pode selecionar um público-alvo da biblioteca, [criar um novo público-alvo](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) ou [criar um público-alvo somente para atividades](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Para um teste A/B sem direcionamento a um público-alvo específico, escolha o padrão, Todos os visitantes.
+Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do Target. Você pode selecionar um público-alvo da biblioteca, [criar um novo público-alvo](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) ou [criar um público-alvo somente para atividades](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Para um teste A/B sem direcionamento a um público-alvo específico, escolha o padrão, Todos os visitantes.
 
 Observe que você também pode editar ou copiar um público-alvo ao passar o mouse sobre o público-alvo desejado na caixa de diálogo [!UICONTROL Escolher público-alvo], conforme indicado abaixo. Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e salvá-lo como um público-alvo novo. Essa funcionalidade de passar o mouse sobre o item também existe em outros tipos de atividade.
 
@@ -44,7 +44,7 @@ Você pode especificar a porcentagem de visitantes qualificados para incluir na 
 
 ![Porcentagem de público-alvo](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Você também pode escolher deixar a Target  [alocar o tráfego automaticamente](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Você também pode escolher deixar a Target  [alocar o tráfego automaticamente](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Vídeos de treinamento
 
@@ -73,4 +73,4 @@ Este vídeo inclui informações sobre a configuração de públicos-alvo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-Para obter informações detalhadas, consulte [Públicos-alvo](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Para obter informações detalhadas, consulte [Públicos-alvo](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
