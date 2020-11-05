@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 83%
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 Por padrão, um perfil de visitante expira após 14 dias de inatividade para esse visitante. A duração desse perfil pode ser estendida.
 
-[Entre em contato com o Atendimento ao cliente ou com o consultor da Adobe](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para estender o tempo de vida do perfil sem custo adicional. A duração pode ser definida para até 90 dias.
+[Entre em contato com o Atendimento ao cliente ou com o consultor da Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para estender o tempo de vida do perfil sem custo adicional. A duração pode ser definida para até 90 dias.
 
 A biblioteca de JavaScript do [!DNL Target] que você está usando ([!DNL at.js] ou [!DNL mbox.js]) determina se você precisa ou não baixar um novo arquivo:
 
