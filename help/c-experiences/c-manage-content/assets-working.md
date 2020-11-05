@@ -5,7 +5,7 @@ title: Trabalhar com conteúdo na biblioteca
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ Informações sobre as tarefas que você pode executar em um ativo na Biblioteca
 
 1. Clique em **[!UICONTROL Oferta]**, selecione a guia **[!UICONTROL Oferta de código]** ou **[!UICONTROL Oferta de imagem]** e localize o ativo com o qual deseja trabalhar.
 
-   Para obter mais informações sobre como pesquisar a biblioteca de ofertas e criar Coleções inteligentes, consulte [Filtro e conteúdo de pesquisa](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
+   Para obter mais informações sobre como pesquisar a biblioteca de ofertas e criar Coleções inteligentes, consulte [Filtro e conteúdo de pesquisa](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
 1. Passe o mouse sobre o item que deseja trabalhar e selecione uma ação. Para acessar e executar algumas ações abaixo, clique primeiro no ícone Selecionar (a marca de seleção) e escolha a ação desejada (por exemplo, Excluir).
 
