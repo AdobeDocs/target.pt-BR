@@ -5,10 +5,10 @@ title: Criar um design
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 36%
+source-wordcount: '989'
+ht-degree: 35%
 
 ---
 
@@ -164,7 +164,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
    | Parâmetro | Valor |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em .../target/products.html#recsSettings Token de API do Recommendations > Código do cliente. |
+   | `[YOUR_CLIENT_CODE]` | Código do cliente do público alvo (disponível em /help/target/products.html#recsSettings > Token da API do Recommendations > Código do cliente). |
    | `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;Locais&quot; do Recommendations baseado em formulário, neste caso Sample_Recs_Response. |
    | `[ENTITY_ID` | O `entity.id` de um item em seu catálogo. |
    | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
