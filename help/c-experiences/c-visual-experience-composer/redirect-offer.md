@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
@@ -24,7 +24,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
 Ofertas de redirecionamento possuem algumas limitações:
 
-* Para ofertas de redirecionamento em atividades usando A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Para ofertas de redirecionamento em atividades usando A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Ao usar o Experience Composer baseado em formulários, ofertas de redirecionamento não devem ser usadas em mboxes que façam parte da página. Uma oferta de redirecionamento deve ser usada somente a partir de uma tag de script que faz parte do `<head>` do HTML. Você sempre deve usar a criação automática e definir a oferta de redirecionamento para a mbox global.
 
 >[!NOTE]
