@@ -6,7 +6,7 @@ feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
@@ -20,7 +20,7 @@ Informações para ajudá-lo a usar a transição das APIs herdadas do Target pa
 
 Com a desativação do Adobe Target Classic, as APIs que conectadas na conta do Target Classic também ficaram indisponíveis. Esse documento ajudará você a fazer a transição das integrações baseadas em API antigas às APIs do Target capacitadas pelo Adobe I/O.
 
-Para obter mais informações sobre a documentação do Target API, consulte  [APIs do Target e SDK do NodeJS](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Para obter mais informações sobre a documentação do Target API, consulte  [APIs do Target e SDK do NodeJS](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
 ## Terminologia {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
