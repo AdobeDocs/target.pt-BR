@@ -5,7 +5,7 @@ title: Por quanto tempo você deve executar um teste A/B?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ A successful [!UICONTROL A/B Test] activity requires an adequate number of visit
 
 >[!IMPORTANT]
 >
->Parar uma atividade prematuramente é uma das dez armadilhas significativas que você pode cair presa ao executar o teste A/B. For more information, see [Ten common A/B testing pitfalls and how to avoid them](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>Parar uma atividade prematuramente é uma das dez armadilhas significativas que você pode cair presa ao executar o teste A/B. For more information, see [Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] fornece ferramentas para ajudar a garantir que sua atividade tenha um tamanho de amostra suficiente para atingir suas metas de conversão: Autoalocação.
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL A alocação automática
 
 Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Target] exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente. [!DNL Target]O declara a experiência vencedora exibindo um emblema no topo da página da atividade.
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Calculadora de tamanho da amostra do Adobe Target  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
@@ -148,13 +148,13 @@ A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a conf
 * Número de visitantes para a oferta de controle
 * Receita total para a oferta de controle
 
-   Verifique se o filtro de pedido extremo está selecionado.
+   Make sure the extreme order filter is selected.
 
 * A soma das receitas elevadas ao quadrado para a oferta de controle
 
    Lembre-se de marcar o filtro de ordens extremas.
 
-Em geral, o uso do RPV como uma métrica requer de 20 a 30% mais tempo para atingir o mesmo nível de confiança estatística para o mesmo nível de incentivo medido. Isso ocorre porque o RPV tem a variação adicionada de tamanhos de pedido diferentes por conversão. Isso deve ser considerado ao escolher entre taxa de conversão direta e RPV como a métrica na qual basear sua decisão comercial final.
+Em geral, o uso do RPV como uma métrica requer de 20 a 30% mais tempo para atingir o mesmo nível de confiança estatística para o mesmo nível de incentivo medido. Isso ocorre porque o RPV tem a variação adicionada de tamanhos de pedido diferentes por conversão. 
 
 ## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
 
