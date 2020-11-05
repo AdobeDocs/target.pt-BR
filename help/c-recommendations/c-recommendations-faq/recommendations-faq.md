@@ -5,7 +5,7 @@ title: Perguntas frequentes sobre a Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ Se a localização na qual você estiver aplicando esse critério não contiver 
 
 Se você usar um local onde a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-O Target tem uma  [definição de Critérios incompatíveis de filtro](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para controlar a filtragem inteligente do seletor de algoritmo.
+O Target tem uma  [definição de Critérios incompatíveis de filtro](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao p�
 
 ## Qual é o tamanho máximo de um arquivo CSV para um upload de feed?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, limite o tamanho do arquivo CSV para 1 GB para evitar falhas durante o processo de upload de arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Limites adicionais sobre o comprimento das colunas requeridas estão disponíveis na  [página de Limitações do Target](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, limite o tamanho do arquivo CSV para 1 GB para evitar falhas durante o processo de upload de arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Limites adicionais sobre o comprimento das colunas requeridas estão disponíveis na  [página de Limitações do Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Posso excluir dinamicamente uma entidade?
 
