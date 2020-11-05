@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -21,7 +21,7 @@ ht-degree: 59%
 >
 >As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. ](/help/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
->Se você tiver o [!DNL Recommendations Classic], consulte [Atividades do Recommendations Classic versus Recommendations no Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) para obter mais informações sobre as duas soluções.
+>Se você tiver o [!DNL Recommendations Classic], consulte [Atividades do Recommendations Classic versus Recommendations no Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) para obter mais informações sobre as duas soluções.
 
 O [!DNL Recommendations] ajuda você a otimizar e personalizar as sugestões em tempo real entre os canais, aplicativos, páginas, mensagens de email e outras opções para aumentar a participação e a conversão enquanto reduz o esforço de gerenciamento.
 
@@ -44,7 +44,7 @@ Uma recomendação determina como um produto é sugerido a um visitante, depende
 | Aumente o tempo que os visitantes gastam no seu site de mídia ao recomendar conteúdo de mídia similar semelhante àqueles que estão assistindo. | Crie uma recomendação que sugira outros vídeos, usando o critério &quot;Pessoas que viram isso viral aquilo&quot;. |
 | Sugira que clientes que visualizaram informações sobre planos de economia no banco também leiam sobre contas IRA. | Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério &quot;pessoas que viram isso também compraram&quot;. |
 
-Para mais informações sobre estes e outros critérios do [!DNL Recommendations], consulte [Critérios](../c-recommendations/c-algorithms/algorithms.md).
+Para mais informações sobre estes e outros critérios do [!DNL Recommendations], consulte [Critérios](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Termos
 
