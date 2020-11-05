@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ Depois de receber o convite para entrar no [!DNL Adobe Experience Cloud], aceite
    Nesse ponto, você ainda não tem nenhum grupo configurado com qualificações para você vincular.
 1. Se desejar, assista ao vídeo que apresenta você ao [!DNL Adobe Experience Cloud].
 1. Para ver seus novos privilégios e acessar o produto, saia da [!DNL Adobe Experience Cloud] e entre novamente.
-1. Prossiga para a próxima etapa [, atribuindo a função de Aprovador](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+1. Prossiga para a próxima etapa [, atribuindo a função de Aprovador](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Atribuir a função de aprovador a si próprio {#task_15CAA437A71444E2932B333D5E66A3C7}
 
