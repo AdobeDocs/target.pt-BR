@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Estes são alguns cenários nos quais você pode experimentar a variação de da
 
 * Suponha que você crie uma atividade de Alocação automática aberta a todos os visitantes para uma página específica. Já que as atividades de Alocação automática não são compatíveis com o A4T, todos os dados da atividade são coletados pelo [!DNL Target]. Você pode esperar que os visitantes da atividade no relatório [!DNL Target] correspondam aos visitantes dessa página nos relatórios [!DNL Analytics] para o mesmo intervalo de datas. Este é um cenário no qual a variância descrita abaixo é esperada.
 
-   Para obter uma lista completa dos tipos de atividades que são compatíveis com o A4T, consulte [Tipos de atividade compatíveis](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
+   Para obter uma lista completa dos tipos de atividades que são compatíveis com o A4T, consulte [Tipos de atividade compatíveis](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
 ## Variação de dados esperada quando *não está usando* A4T  {#expected-not-using-a4t}
 
