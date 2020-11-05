@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 47%
@@ -45,7 +45,7 @@ Após o período de classificação, os dados são exibidos nesses relatórios, 
 
 Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 
-* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Entre em contato com o seu representante de conta,](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) caso precise de uma solução.
+* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Entre em contato com o seu representante de conta,](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) caso precise de uma solução.
 * A fonte de relatórios é definida para cada atividade. [!DNL Target] continua a coletar dados para uso no relatórios e [!DNL Target] os dados ainda estarão disponíveis se você preferir basear uma atividade em dados coletados pelo [!DNL Target].
 * Você deve usar uma fonte de relatórios ou outra. Você não pode coletar dados para uma única atividade de ambas as fontes.
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. No entanto, sua métrica de meta pode ser baseada em uma chamada mbox. For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
@@ -124,7 +124,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 ### Analytics / Integração de Públicos alvos (A4T) (40:33) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
-Este vídeo é uma gravação de &quot;[Horas do Office](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
+Este vídeo é uma gravação de &quot;[Horas do Office](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 
 * Como configurar e validar o funcionamento da integração
 * Como funciona a integração
