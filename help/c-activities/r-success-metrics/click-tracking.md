@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 95%
@@ -76,7 +76,7 @@ Há várias coisas a considerar ao selecionar elementos:
 
    Para obter mais informações, consulte [Navegar pelos elementos usando o caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nas *Opções do Visual Experience Composer*.
 
-* É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o  [recurso multipágina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] ou [!DNL mbox.js] devem ser implementadas nela.
+* É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o  [recurso multipágina](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] ou [!DNL mbox.js] devem ser implementadas nela.
 * Se selecionar mais de um elemento, caso um participante clique em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item clicando em vários elementos em uma página, edite o Seletor de elementos CSS para corresponder a vários elementos.
 * Certifique-se de selecionar o nível do elemento que deseja rastrear. Por exemplo, ao especificar um botão, certifique-se de selecionar o link e não o texto do botão.
 * Os eventos de clique são enviados para o [!DNL Target] na mesma página de destino do clique.
