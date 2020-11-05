@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 62%
@@ -32,7 +32,7 @@ O TLS 1.2 é o padrão a partir de 1º de março de 2020 e o TLS 1.1 não será 
 
 A Adobe estará movendo os clientes em fases para o TLS 1.2. Para aqueles cujos domínios já estão em conformidade com o TLS 1.2, nós os moveremos para o TLS 1.2 sem qualquer alteração necessária da sua parte. A maioria dos domínios do cliente já suporta TLS 1.2; no entanto, se o seu domínio não suportar TLS 1.2, manteremos esses domínios no TLS 1.1 como hoje (até março de 2020).
 
-Você não deve enfrentar qualquer problema durante essa fase de migração. Se o VEC interrompeu o carregamento de um site que estava funcionando anteriormente,  [abra um tíquete de Atendimento ao cliente](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) e cite esta migração como uma causa possível.
+Você não deve enfrentar qualquer problema durante essa fase de migração. Se o VEC interrompeu o carregamento de um site que estava funcionando anteriormente,  [abra um tíquete de Atendimento ao cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) e cite esta migração como uma causa possível.
 
 No entanto, se você for um desses clientes que estão no TSL 1.1 sem suporte ao TLS 1.2, deverá planejar a movimentação dos domínios/infraestrutura para o TLS 1.2. Continuaremos a apoiar o protocolo TLS 1.1 até 1º de março de 2020. A partir de 1º de março de 2020, o Público alvo não oferecerá suporte ao protocolo TLS 1.1 a ser usado para o VEC por meio do recurso Enhanced Experience Composer.
 
@@ -58,7 +58,7 @@ Conforme você planeja essa alteração, considere o seguinte (observe que o pra
 * Esteja ciente de que o número de visitantes nos seus relatórios do Target pode sofrer potencialmente um declínio insignificante no número de visitantes.
 * Talvez seja necessário alterar as audiências criadas especificamente para dispositivos mais antigos do público alvo ou navegadores que não suportam TLS 1.2. O delivery para esses dispositivos e navegadores não funcionará mais.
 
-Para obter mais detalhes sobre os navegadores compatíveis e suas versões, consulte  [Navegadores suportados](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Para obter mais detalhes sobre os navegadores compatíveis e suas versões, consulte  [Navegadores suportados](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## APIs do Adobe Target {#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ A partir de 1º de março de 2020, as APIs de Público alvo não oferecerão mai
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Como a interface do Target Standard/Premium já requer um [navegador moderno](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), não prevemos problemas. Caso não seja possível se conectar ao Target, será necessário atualizar seu navegador para a versão mais recente.
+Como a interface do Target Standard/Premium já requer um [navegador moderno](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), não prevemos problemas. Caso não seja possível se conectar ao Target, será necessário atualizar seu navegador para a versão mais recente.
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
