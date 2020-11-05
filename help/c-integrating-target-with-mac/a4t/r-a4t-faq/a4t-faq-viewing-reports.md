@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 64%
@@ -125,7 +125,7 @@ You can shorten the amount of time the [!DNL Target] variable persists down to a
 A lista a seguir explica os motivos pelos quais o mesmo visitante pode ser contado em várias experiências no [!DNL Analytics]:
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
-* Se o visitante estiver usando o `mbox3rdPartyId`, quando o visitante anônimo for mesclado ao perfil de ID de terceiros, o poderá colocar o visitante em uma experiência diferente para corresponder ao ID de terceiros. [!DNL Target] Para obter mais informações, consulte [Sincronização de perfil em tempo real para mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
+* Se o visitante estiver usando o `mbox3rdPartyId`, quando o visitante anônimo for mesclado ao perfil de ID de terceiros, o poderá colocar o visitante em uma experiência diferente para corresponder ao ID de terceiros. [!DNL Target] Para obter mais informações, consulte [Sincronização de perfil em tempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] pode estar rastreando dispositivos diferentes do mesmo visitante de uma forma diferente do que [!DNL Target] rastreia esses dispositivos: a configuração da ID de terceiros em [!DNL Target] é diferente da do Analytics.
 
 ## O A4T suporta conjuntos de relatórios virtuais?
