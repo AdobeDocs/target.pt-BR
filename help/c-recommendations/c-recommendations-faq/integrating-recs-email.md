@@ -6,7 +6,7 @@ feature: recommendations general
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 91%
@@ -71,7 +71,7 @@ Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes não-We
 
 Essa abordagem permite rastrear o desempenho das recomendações em emails, testá-las da maneira normal com uma recomendação, e continuar a rastrear o site.
 
-Defina uma atividade de [!DNL Recommendations] no [!DNL Adobe Target] usando a opção [Criador de experiências baseado em formulários](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para o local, selecione o nome da mbox escolhido para usar na solicitação de rawbox proveniente do ESP. Selecione um design com a aparência desejada para o seu email. No momento da criação do email, o ESP faz uma chamada aos servidores do [!DNL Adobe Target] para cada rawbox em cada email gerado. Seu ESP deve ter uma maneira de incluir o HTML retornado no email quando ele for enviado.
+Defina uma atividade de [!DNL Recommendations] no [!DNL Adobe Target] usando a opção [Criador de experiências baseado em formulários](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para o local, selecione o nome da mbox escolhido para usar na solicitação de rawbox proveniente do ESP. Selecione um design com a aparência desejada para o seu email. No momento da criação do email, o ESP faz uma chamada aos servidores do [!DNL Adobe Target] para cada rawbox em cada email gerado. Seu ESP deve ter uma maneira de incluir o HTML retornado no email quando ele for enviado.
 
 O sistema de email usado deve ser capaz de lidar com esses cenários:
 
@@ -141,4 +141,4 @@ Defina uma recomendação como de costume, mas escolha **somente download** na s
 
 Com essa opção, o servidor do Recommendations não poderá acompanhar diretamente o desempenho de uma recomendação ou dividir o tráfego entre múltiplas combinações de algoritmo/modelo. Além disso, as recomendações não estão vinculadas a um perfil de visitante.
 
-Para obter mais informações sobre como baixar a API, consulte [APIs herdadas > Baixar](../../assets/adobe-recommendations-classic.pdf).
+Para obter mais informações sobre como baixar a API, consulte [APIs herdadas > Baixar](/help/assets/adobe-recommendations-classic.pdf).
