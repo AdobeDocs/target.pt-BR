@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 98%
@@ -26,13 +26,13 @@ Para obter mais informações, consulte [Vantagens da at.js](/help/c-implementin
 
 Essa mensagem de console é exibida ao usar o Chrome em vários cenários nos quais a função `document.write` é usada dentro do arquivo mbox.js. Essa é uma mensagem de aviso e não deve afetar o seu processo de configuração da atividade.
 
-A melhor maneira de prevenir essa situação é  [migrar a sua implementação do Target para a biblioteca do JavaScript at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), que não usa a função `document.write`. Usar uma at.js fornece muitas vantagens usando a mbox.js. Para obter mais informações, consulte [Perguntas frequentes da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+A melhor maneira de prevenir essa situação é  [migrar a sua implementação do Target para a biblioteca do JavaScript at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), que não usa a função `document.write`. Usar uma at.js fornece muitas vantagens usando a mbox.js. Para obter mais informações, consulte [Perguntas frequentes da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Por que as mboxes não estão sendo acionadas nas minhas páginas da Web? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
 Os clientes do, às vezes, usam instâncias baseadas em nuvem com o [!DNL Target]Target para testes ou fins de prova de conceito simples. Esses domínios e muitos outros fazem parte da [Lista de sufixos públicos](https://publicsuffix.org/list/public_suffix_list.dat).
 
-Se estiver usando esses domínios, os navegadores modernos não salvarão os cookies, a menos que você personalize a configuração de `cookieDomain` usando targetGlobalSettings(). Para obter mais informações, consulte [Uso de instâncias baseadas em nuvem com o Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
+Se estiver usando esses domínios, os navegadores modernos não salvarão os cookies, a menos que você personalize a configuração de `cookieDomain` usando targetGlobalSettings(). Para obter mais informações, consulte [Uso de instâncias baseadas em nuvem com o Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
 
 ## Qual é o domínio tt.omtrdc.net para o qual as chamadas de servidor Target são direcionadas? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
