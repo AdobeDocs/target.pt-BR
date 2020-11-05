@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: f3877d05d583bdb4690a2638efd874bbfff6154e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
@@ -21,7 +21,7 @@ Information about implementing [!DNL Adobe Target] without using a tag manager (
 
 >[!NOTE]
 >
->[O Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) é o método preferido para a implementação do Target e da biblioteca at.js. As informações a seguir não são aplicáveis quando o Adobe Launch é usado para implementar o Target.
+>[O Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) é o método preferido para a implementação do Target e da biblioteca at.js. As informações a seguir não são aplicáveis quando o Adobe Launch é usado para implementar o Target.
 
 Para acessar a página [!UICONTROL Implementação] , clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
 
@@ -118,10 +118,10 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
 >[!NOTE]
 >
->* [O Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) é o método preferido para a implementação do Target e da biblioteca at.js. As informações a seguir não são aplicáveis quando o Adobe Launch é usado para implementar o Target.
+>* [O Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) é o método preferido para a implementação do Target e da biblioteca at.js. As informações a seguir não são aplicáveis quando o Adobe Launch é usado para implementar o Target.
    >
    >
-* A equipe do Público alvo oferece suporte para o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente da versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* A equipe do Público alvo oferece suporte para o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente da versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
 ### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
@@ -173,7 +173,7 @@ Para baixar a [!DNL at.js] usando a API.
 
    >[!IMPORTANT]
    >
-   >A equipe do Target mantém apenas duas versões de [!DNL at.js]—a versão atual e a segunda versão mais recente. Atualize a [!DNL at.js] conforme necessário para garantir que você esteja executando uma versão suportada. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+   >A equipe do Target mantém apenas duas versões de [!DNL at.js]—a versão atual e a segunda versão mais recente. Atualize a [!DNL at.js] conforme necessário para garantir que você esteja executando uma versão suportada. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
    O carreamento deste URL inicia o download do arquivo da [!DNL at.js] personalizado.
 
@@ -181,7 +181,7 @@ Para baixar a [!DNL at.js] usando a API.
 
 A at.js deve ser implementada no elemento `<head>` de cada página do site.
 
-Uma implementação típica do Target que não usa um gerenciador de tags como o [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Dynamic Tag Management](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) é semelhante a:
+Uma implementação típica do Target que não usa um gerenciador de tags como o [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) é semelhante a:
 
 ```
 <!doctype html> 
