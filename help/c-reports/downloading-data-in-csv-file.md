@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%
@@ -57,7 +57,7 @@ O relatório Detalhes do pedido mostra informações sobre seus pedidos, incluin
 
 * Indicador de pedido (pedidos duplicados ou extremos)
 
-   Um pedido é sinalizado como extremo se ele tiver +/- 3 desvios padrão do valor médio de pedido usando o último mês de dados (até o ponto no tempo em que o cálculo foi feito). Uma atividade terá seus pedidos extremos excluídos após a atividade ter sido executada por uma hora ou 15 pedidos, o que ocorrer primeiro. Para obter mais informações, consulte [Exceto pedidos extremos](../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+   Um pedido é sinalizado como extremo se ele tiver +/- 3 desvios padrão do valor médio de pedido usando o último mês de dados (até o ponto no tempo em que o cálculo foi feito). Uma atividade terá seus pedidos extremos excluídos após a atividade ter sido executada por uma hora ou 15 pedidos, o que ocorrer primeiro. Para obter mais informações, consulte [Exceto pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * Identificação do produto
 
