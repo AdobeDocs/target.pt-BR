@@ -3,10 +3,8 @@ keywords: Release notes;new features;releases;updates;update;release;enhancement
 description: Essas notas de versão oferecem informações sobre recursos, aprimoramentos, correções e problemas conhecidos para cada lançamento do Adobe Target Standard e do Target Premium.
 title: 'Notas de versão do Target (atual) '
 feature: release notes
-topic: Recommendations
-uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 27%
