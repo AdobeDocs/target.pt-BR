@@ -3,9 +3,8 @@ keywords: Targeting
 description: O URL da atividade determina a página que é usada no teste multivariado (MVT) e que é aberta quando o teste é criado no Target.
 title: URL da atividade
 feature: mvt
-uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 93%
