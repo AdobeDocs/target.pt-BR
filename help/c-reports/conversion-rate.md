@@ -6,9 +6,9 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1615'
 ht-degree: 96%
 
 ---
@@ -128,7 +128,7 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]**.
 1. Na guia **[!UICONTROL Solicitação de Data Warehouse]**, preencha os campos.
 
-   Para obter mais informações sobre cada campo, consulte &quot;Descrições do Data Warehouse&quot; em [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
+   Para obter mais informações sobre cada campo, consulte &quot;Descrições do Data Warehouse&quot; em [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Instruções |
    |--- |--- |
@@ -148,8 +148,8 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 
 Para obter mais informações sobre [!DNL Data Warehouse], consulte os seguintes links na documentação de ajuda do [!DNL Analytics]:
 
-* [Criar uma solicitação do Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Práticas recomendadas de Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Criar uma solicitação do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Práticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia de contagem {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
