@@ -2,17 +2,15 @@
 cloud: experience-cloud
 product: target
 solution: Target
-solution-title: Aprendizagem e suporte
-solution-hub-url: https://helpx.adobe.com/br/support/target.html
-solution-image: assets/target-icon-24.png
-getting-started-title: Introdução
-getting-started-url: https://helpx.adobe.com/br/target/get-started.html
-tutorials-title: Tutoriais
-tutorials-url: https://helpx.adobe.com/br/target/kt/index/target-videos.html
-git-repo: https://github.com/AdobeDocs/target.en
+audience: end-user
+type: Documentation
+git-repo: https://git.corp.adobe.com/AdobeDocs/target.pt-BR
 index: true
 translation-type: tm+mt
-source-git-commit: 184f1dad7cab80f67af7a77664f1c1acd27059a4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 100%
 
 ---
 
