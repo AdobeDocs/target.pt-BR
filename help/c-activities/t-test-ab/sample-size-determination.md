@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto al
 description: Um teste A/B bem-sucedido requer um número adequado de visitantes (tamanho da amostra) para melhorar o índice de conversão, mas como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre a Autoalocação de atividades e a Calculadora de tamanho de amostra da Adobe Target para ajudá-lo a garantir que sua atividade tenha um número suficiente de visitantes para atingir suas metas.
 title: Por quanto tempo você deve executar um teste A/B?
 feature: ab
-uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -148,13 +147,13 @@ A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a conf
 * Número de visitantes para a oferta de controle
 * Receita total para a oferta de controle
 
-   Make sure the extreme order filter is selected.
+   Verifique se o filtro de pedido extremo está selecionado.
 
 * A soma das receitas elevadas ao quadrado para a oferta de controle
 
    Lembre-se de marcar o filtro de ordens extremas.
 
-Em geral, o uso do RPV como uma métrica requer de 20 a 30% mais tempo para atingir o mesmo nível de confiança estatística para o mesmo nível de incentivo medido. Isso ocorre porque o RPV tem a variação adicionada de tamanhos de pedido diferentes por conversão. 
+Em geral, o uso do RPV como uma métrica requer de 20 a 30% mais tempo para atingir o mesmo nível de confiança estatística para o mesmo nível de incentivo medido. Isso ocorre porque o RPV tem a variação adicionada de tamanhos de pedido diferentes por conversão. Isso deve ser considerado ao escolher entre taxa de conversão direta e RPV como a métrica na qual basear sua decisão comercial final.
 
 ## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
 
