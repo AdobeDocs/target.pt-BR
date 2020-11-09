@@ -3,9 +3,8 @@ keywords: Recommendations;settings;preferences;industry vertical;filter incompat
 description: O que é necessário saber antes de criar uma atividade do Recommendations.
 title: Planejar e implementar o Recommendations
 feature: recommendations general
-uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
