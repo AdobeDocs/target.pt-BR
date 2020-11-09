@@ -5,9 +5,9 @@ title: Implementação híbrida
 feature: hybrid implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 [!DNL Adobe Target] oferta um modelo exclusivo de implantação híbrida para personalização — mesclando implementações do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experiência ou personalização usando o WYSIWYG [!UICONTROL Visual Experience Composer] (VEC) e que a experiência seja executada, entregue e renderizada pelo lado do servidor para um delivery de alto desempenho.
 
-Para obter mais informações, consulte Implantação [Adobe nos Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) ** Adobe Target.
+Para obter mais informações, consulte Implantação [Adobe nos Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/hybrid-deployment.html) ** Adobe Target.
