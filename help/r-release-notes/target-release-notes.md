@@ -3,10 +3,8 @@ keywords: release notes;releases;updates;future release;enhancements;new feature
 description: Notas de versão que fornecem informações sobre recursos, melhorias e correções para as versões mais recentes ou futuras da DNL Adobe Target.
 title: Notas de pré-lançamento do Adobe Target
 feature: null
-topic: Standard
-uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 10%
