@@ -3,10 +3,8 @@ keywords: multiple audiences;experience versions;target experience versions
 description: É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 title: Múltiplas versões de uma experiência em um teste A/B
 feature: ab
-topic: Standard
-uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
