@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1986'
 ht-degree: 64%
 
 ---
@@ -20,7 +20,7 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Posso exibir meus dados de atividade do Target na Analysis Workspace? {#workspace}
 
-Você pode usar [!DNL Analysis Workspace] para analisar suas [!DNL Target] atividades e experiências. O painel [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Público alvo permite que você veja incentivo e confiança para até três métricas de sucesso. Você também pode pesquisar mais fundo usando tabelas e visualizações.
+Você pode usar [!DNL Analysis Workspace] para analisar suas [!DNL Target] atividades e experiências. O painel [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Público alvo permite que você veja incentivo e confiança para até três métricas de sucesso. Você também pode pesquisar mais fundo usando tabelas e visualizações.
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
@@ -53,7 +53,7 @@ Considere o seguinte:
 
 [!DNL Reports & Analytics] aplica um modelo de atribuição de mesmo toque a &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot;, enquanto [!DNL Analysis Workspace] exibe as métricas brutas, que podem aparecer infladas devido à persistência da [!DNL Target] dimensão.
 
-To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL Modelos de atribuição não padrão] e selecionando o [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição na visão geral [do IQ de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) atributos no Guia *de ferramentas do* Analytics.
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL Modelos de atribuição não padrão] e selecionando o [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição na visão geral [do IQ de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) atributos no Guia *de ferramentas do* Analytics.
 
 ## O que significa &quot;conversões de atividade&quot; se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -108,7 +108,7 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. For [!DNL Target] reporting, because you aren’t putting a [!DNL Target] activity against another activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
-For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
+For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Por que o Analytics e o Analytics for Target (A4T) calculam números para a métrica de visitantes únicos de maneira diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
