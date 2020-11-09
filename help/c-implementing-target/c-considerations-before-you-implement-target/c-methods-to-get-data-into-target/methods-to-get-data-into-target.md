@@ -3,11 +3,8 @@ keywords: implement;implementing;setting up;setup;page parameter;tomcat;url enco
 description: Informações sobre os vários métodos que você pode usar para inserir dados no Target, incluindo parâmetros de página, atributos de perfil na página, atributos de script de perfil, provedores de dados, a API de atualização de perfil em massa, a API de atualização de perfil único e atributos do cliente.
 title: Métodos para colocar os dados no Target
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 96%
