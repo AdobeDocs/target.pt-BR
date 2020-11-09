@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;st
 description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B no Adobe Target. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 title: Nove erros comuns em testes A/B e como evitá-los
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
@@ -126,7 +125,7 @@ Neste cenário, como os usuários são atribuídos às experiências?
 
 Se você alterar manualmente a divisão de alocação para 100% para a Experiência B, os visitantes que foram alocados originalmente para a Experiência A (o controle) permanecerão em sua experiência atribuída inicialmente (Experiência A). A alteração na atribuição do tráfego afeta apenas os novos operadores.
 
-Se você quiser alterar as porcentagens ou afetar muito o fluxo de visitantes em cada experiência, recomendamos que você crie uma nova atividade ou copie a atividade e edite as porcentagens de alocação de tráfego.
+Se você quiser alterar as porcentagens ou afetar consideravelmente o fluxo de visitantes em cada experiência, recomendamos que você crie uma nova atividade ou copie a atividade e edite as porcentagens de alocação de tráfego.
 
 Se você alterar as porcentagens de diferentes experiências durante o período de teste, levará alguns dias para os dados se normalizarem, especialmente se muitos compradores estiverem retornando visitantes.
 Como outro exemplo, se a alocação de tráfego do Teste A/B for dividida em 50/50 e você alterar a divisão para 80/20, nos primeiros dias após essa alteração os resultados podem parecer distorcidos. Se o tempo médio para conversão for alto, o que significa que alguém leva várias horas ou até mesmo dias para fazer uma compra, essas conversões atrasadas podem afetar seus relatórios. Assim, naquela primeira experiência em que o número passou de 50% para 80% e o tempo médio de conversão é de dois dias, apenas visitantes de 50% da população convertem no primeiro dia do teste, embora hoje 80% da população esteja ingressando na experiência. Isso faz parecer que a taxa de conversão caiu, mas vai normalizar novamente depois que esses 80% dos visitantes levaram dois dias para se converter.
