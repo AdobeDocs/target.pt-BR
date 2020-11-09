@@ -3,9 +3,8 @@ keywords: Targeting;visual experience composer;whitelist;white list;allowlist;al
 description: Problemas de exibição ocorrem às vezes no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
 feature: vec
-uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 69%
