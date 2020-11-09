@@ -3,9 +3,8 @@ keywords: recommendations;recommendations activity;criteria;algorithm;recommenda
 description: Critérios no Adobe Target são regras que determinam quais produtos ou conteúdo serão recomendados com base em um conjunto predeterminado de comportamentos de visitante.
 title: Critérios no Adobe Target Recommendations
 feature: criteria
-uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 53%
