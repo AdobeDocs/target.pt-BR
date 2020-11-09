@@ -3,10 +3,8 @@ keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: O diagrama de sistema do Adobe Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
 title: Como a biblioteca JavaScript do Adobe Target at.js funciona
 feature: client-side
-topic: Standard
-uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -35,7 +33,7 @@ Consulte [Atualização da at.js 1.x para at.js 2.x](/help/c-implementing-target
 A partir de uma exibição de alto nível, há algumas diferenças entre as duas versões:
 
 * A at.js 2.x não tem um conceito global de solicitação de mbox, mas sim uma solicitação de carregamento de página. Uma solicitação de carregamento de página pode ser visualizada como uma solicitação para recuperar o conteúdo que deve ser aplicado no carregamento da página inicial do site.
-* O at.js 2.x gerencia conceitos chamados Visualização, que são usados para SPAs (Single Page Applications, Aplicativos de Página Única). at.js 1.*x* não está ciente deste conceito.
+* O at.js 2.x gerencia conceitos chamados Visualização, que são usados para aplicativos de página única (SPA). at.js 1.*x* não está ciente deste conceito.
 
 ## diagramas at.js 2.x
 
@@ -50,7 +48,7 @@ Os diagramas a seguir ajudam a entender o fluxo de trabalho da at.js 2.x com Exi
 | 3 | Uma solicitação de carregamento de página é feita, incluindo todos os parâmetros configurados (MCID, SDID e ID do cliente). |
 | 4 | Os scripts de perfil executam e, em seguida, fazem o feed na Loja do perfil. A Loja solicita que os públicos-alvos qualificados da Biblioteca de público-alvos (por exemplo, públicos alvos compartilhados do Adobe Analytics, Gerenciamento de público-alvo etc.).<br>Os atributos do cliente são enviados à Loja de perfis em um processo em lote. |
 | 5 | Com base nos parâmetros de solicitação de URL e dados de perfil, [!DNL Target] decide quais atividades e experiências retornarão ao visitante para a página atual e para as exibições futuras. |
-| 6 | O conteúdo direcionado é enviado de volta para a página, incluindo, opcionalmente, valores de perfil para personalização adicional.<br>O conteúdo direcionado na página atual é revelado o mais rápido possível sem cintilação do conteúdo padrão.<br>O conteúdo direcionado para visualizações que são mostrados como resultado de ações do usuário em um SPA é armazenado em cache no navegador, de modo que possa ser aplicado instantaneamente sem uma chamada de servidor adicional quando as visualizações forem acionadas `triggerView()`. |
+| 6 | O conteúdo direcionado é enviado de volta para a página, incluindo, opcionalmente, valores de perfil para personalização adicional.<br>O conteúdo direcionado na página atual é revelado o mais rápido possível sem cintilação do conteúdo padrão.<br>O conteúdo direcionado para visualizações que são mostrados como resultado das ações do usuário em um SPA é armazenado em cache no navegador, de modo que possa ser aplicado instantaneamente sem uma chamada de servidor adicional quando o visualização for acionado `triggerView()`. |
 | 7 | Os dados do Analytics são enviados ao servidores de Coleção de dados. |
 | 8 | Os dados direcionados correspondem aos dados do Analytics por meio da SDID e são processados no armazenamento de relatórios do Analytics.<br>Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do Analytics for Target (A4T). |
 
