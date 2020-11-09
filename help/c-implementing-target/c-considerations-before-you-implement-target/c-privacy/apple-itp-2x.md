@@ -6,9 +6,9 @@ feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '883'
 ht-degree: 54%
 
 ---
@@ -53,13 +53,13 @@ Para atenuar o impacto de futuras versões do ITP 2.x no Público alvo, conclua 
 
    A biblioteca da ECID ativa a estrutura de identificação de pessoas para as soluções principais da Experience Cloud. A biblioteca da ECID permite identificar os mesmos visitantes do site e seus dados em diferentes soluções da Experience Cloud, atribuindo identificadores persistentes e exclusivos. A biblioteca da ECID será atualizada frequentemente para ajudar a mitigar as alterações relacionadas à ITP que afetam sua implementação.
 
-   Para ITP 2.x, a biblioteca [ECID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) deve ser usada para mitigação.
+   Para ITP 2.x, a biblioteca [ECID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) deve ser usada para mitigação.
 
 1. Use o CNAME da Adobe e inscreva-se no Programa Managed Certificate do Adobe Analytics.
 
    Depois de instalar a biblioteca da ECID 4.3.0+, você pode aproveitar o CNAME e o Programa Managed Certificate do Adobe Analytics. Esse programa permite implementar um certificado próprio para cookies próprios sem custos adicionais. Leveraging CNAME will help [!DNL Target] customers mitigate the impact of ITP 2.x.
 
-   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
+   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
 Depois de implantar uma biblioteca JavaScript do Target, em conjunto com a biblioteca da ECID v4.3.0+, e inscrever-se no Programa Adobe Managed Certificate para usar o CNAME, você terá um plano de mitigação robusto e de longo prazo para alterações relacionadas à ITP.
 
