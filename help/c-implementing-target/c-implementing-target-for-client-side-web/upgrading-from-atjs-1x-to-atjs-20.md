@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2749'
 ht-degree: 92%
 
 ---
@@ -96,7 +96,7 @@ Executa uma solicitação e aplica a oferta ao DIV mais próximo com o nome de c
 </script>
 ```
 
-**at.js 2.*x*equivalente**
+**at.js 2.*x* equivalente**
 
 Uma alternativa para `mboxCreate(mbox, params)` é `getOffer()` e `applyOffer()`.
 
@@ -145,7 +145,7 @@ Cria um mapeamento interno entre um elemento e um nome de mbox, mas não executa
 </script>
 ```
 
-**at.js 2.*x*equivalente**:
+**at.js 2.*x* equivalente**:
 
 Uma alternativa para `mboxDefine()` e `mboxUpdate` é `getOffer()` e `applyOffer()`, com a opção do seletor usada em `applyOffer()`. Essa abordagem permite mapear a oferta para um elemento usando qualquer seletor de CSS, não apenas um com uma ID.
 
@@ -290,7 +290,7 @@ No Target, o cookie de terceiros é armazenado no `<CLIENTCODE>.tt.omtrdc.net`. 
 
 No entanto, no at.js 2.*x*, o HTTP GET não é mais usado e, em vez disso, usamos o HTTP POST. Agora o HTTP POST é usado por meio do at.js 2.*x* para enviar cargas JSON para os servidores do Target Edge. Isso significa que a solicitação de redirecionamento para verificar se um navegador suporta cookies de terceiros agora está rompida. Isso ocorre porque as solicitações HTTP GET são transações idempotentes, enquanto HTTP POST é não idempotente e não deve ser repetido arbitrariamente. Por isso, o rastreamento entre domínios no at.js 2.*x* não é mais compatível imediatamente. Somente o at.js 1.*x* tem suporte pronto para uso para rastreamento entre domínios.
 
-Se quiser usar o rastreamento entre domínios, instale a biblioteca [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) em conjunto com at.js 2.*x*. A biblioteca da ECID existe para gerenciar IDs persistentes usadas para identificar um visitante, mesmo entre domínios.
+Se quiser usar o rastreamento entre domínios, instale a biblioteca [ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) em conjunto com at.js 2.*x*. A biblioteca da ECID existe para gerenciar IDs persistentes usadas para identificar um visitante, mesmo entre domínios.
 
 >[!NOTE]
 >
