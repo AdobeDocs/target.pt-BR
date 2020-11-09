@@ -3,9 +3,8 @@ keywords: automated traffic allocation;targeting;auto-allocate
 description: A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 title: A Autoalocação pode fornecer resultados de teste mais rápidos e maior receita do que um teste manual
 feature: auto-allocate
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
@@ -43,7 +42,7 @@ No exemplo a seguir, a [!UICONTROL Autoalocação] ganhou mais receita durante o
 
 ## Em que casos devo me ater à alocação manual de tráfego?
 
-Quando você precisa classificar como cada experiência é realizada em relação às outras, um teste A/B manual é mais aplicável. [!UICONTROL A Autoalocação] encontra e explora os principais executores, mas não garante a diferenciação entre as experiências de desempenho mais baixo. Você deve usar a alocação de tráfego manual para obter controle total de quanto do seu tráfego de visitantes vê cada variante de teste e para personalizar os limites estatísticos relevantes para a sua empresa.
+Quando você precisa classificar como cada experiência é realizada em relação às outras, um teste A/B manual é mais aplicável. [!UICONTROL A Autoalocação] encontra e explora os principais executores, mas não garante a diferenciação entre as experiências de desempenho mais baixo. Você deve usar a alocação de tráfego manual para obter controle total de quanto do tráfego do visitante vê cada variante de teste e para personalizar os limites estatísticos relevantes para a sua empresa.
 
 ## Começar
 
