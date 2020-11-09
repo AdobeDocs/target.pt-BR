@@ -3,10 +3,8 @@ keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orpha
 description: Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas de Visitas e Visitantes ao usar o Analytics como origem de geração de relatórios.
 title: Minimizar contagens inflacionadas de visitas e visitantes no A4T
 feature: a4t troubleshooting
-topic: Standard
-uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 97%
