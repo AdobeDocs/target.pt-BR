@@ -3,9 +3,8 @@ keywords: Recommendations
 description: Várias alterações ocorrem no processo de coleta de dados quando o Analytics é habilitado como a fonte de geração de relatórios para o Target (A4T).
 title: Antes de implementar o Adobe Analytics como a fonte de relatórios para Adobe Target (A4T)
 feature: a4t implementation
-uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 53%
