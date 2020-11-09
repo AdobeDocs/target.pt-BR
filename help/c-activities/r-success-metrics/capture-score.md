@@ -3,11 +3,8 @@ keywords: capture score;score
 description: A métrica de envolvimento de Pontuação de captura calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante visualiza a primeira Solicitação de Público alvo de exibição da campanha.
 title: Pontuação de captura
 feature: success metrics
-subtopic: Getting Started
-topic: Standard
-uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
