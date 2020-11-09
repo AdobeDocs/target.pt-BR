@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ Use [a abordagem baseada em formulário](/help/c-experiences/form-experience-com
 
 **Posso garantir que a mesma experiência seja oferecida de maneira consistente em todos os dispositivos que um usuário pode ter?**
 
-Veja nosso [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), que permite que você vincule múltiplos dispositivos de um usuário deterministicamente e probabilisticamente através do poder da cooperação.
+Veja nosso [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), que permite que você vincule múltiplos dispositivos de um usuário deterministicamente e probabilisticamente através do poder da cooperação.
 
 Se você estiver em um Co-op, uma sinalização simples na página de Metas e Configurações ativa o recurso. A criação de relatórios também muda para refletir pessoas ao invés de visitantes. Fale com o seu contato na Adobe para saber mais sobre este recurso, pois ele não estará disponível em todas as regiões.
 
