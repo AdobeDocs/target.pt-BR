@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience;activity onl
 description: Crie públicos somente de atividades dentro do fluxo de trabalho orientado de três etapas do Adobe Target ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na Biblioteca de público para uso em outras atividades.
 title: Criar um público-alvo com apenas uma atividade  no Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
