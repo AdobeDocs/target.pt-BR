@@ -3,10 +3,8 @@ keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device
 description: Crie públicos-alvo no Adobe Target para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels), e muito mais.
 title: Opções de dispositivos móveis no Adobe Target audiência
 feature: audiences
-topic: Standard
-uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 98%
