@@ -5,9 +5,9 @@ title: Extensão de ajuda do Adobe Target Visual Experience Composer (VEC)
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 59%
 
 ---
@@ -66,7 +66,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
    * Para obter mais informações sobre a correção do navegador de atributos SameSite=None, consulte &quot;Como as políticas de aplicação de cookies do Google Chrome SameSite recentemente anunciadas afetam o VEC e EEC?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte Cookies [da](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target no Guia *do usuário da interface do* Experience Cloud.
+   * O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte Cookies [da](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target no Guia *do usuário da interface do* Experience Cloud.
 
 ## Notas
 
