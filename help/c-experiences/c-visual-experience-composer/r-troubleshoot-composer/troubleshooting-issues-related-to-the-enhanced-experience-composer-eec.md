@@ -3,9 +3,8 @@ keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experie
 description: Problemas de exibição às vezes ocorrem no Enhanced Experience Composer (EEC), sob certas condições.
 title: Solução de problemas relacionados ao Enhanced Experience Composer
 feature: vec
-uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
