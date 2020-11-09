@@ -1,4 +1,5 @@
 ---
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
 description: O Target Standard pode ser integrado ao Adobe Dynamic Media Classic para fornecer o Gerenciamento de ativos digitais (DAM) na Biblioteca de conteúdo.
 title: Integração de configuração de integração do Dynamic Media Classic
 feature: administration general
@@ -6,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
+source-git-commit: b1dbed6f911cb4e8542855322022f75b7779878f
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '399'
 ht-degree: 28%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 28%
 
 # Configuração Scene7 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
+[!DNL Target] pode ser integrado [!DNL Adobe Dynamic Media Classic] para fornecer o Gerenciamento de ativos digitais (DAM) na Biblioteca [!UICONTROL de]conteúdo.
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ If you already have a [!DNL Dynamic Media] account, you can supply your existing
 
 >[!NOTE]
 >
->Uma [!DNL Dynamic Media Classic] conta gratuita de uso restrito para Adobe Target não é mais compatível com novos clientes ou usuários. As credenciais de logon existentes funcionam como de costume.
+>Não há mais suporte para uma [!DNL Dynamic Media Classic] [!DNL Adobe Target] conta gratuita e de uso restrito para novos clientes ou novos usuários. As credenciais de logon existentes funcionam como de costume.
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Após está configuração estar definida, a opção de trocar imagens de oferta ficará disponível no  [Visual Experience Composer (VEC) e no Experience Composer baseado em formulários](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
