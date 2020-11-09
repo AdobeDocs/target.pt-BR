@@ -5,9 +5,9 @@ title: Anúncios de públicos alvos
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Esta é uma breve descrição dos tipos mais comuns de documentação disponíve
 | Tipo de documentação | Descrição |
 | --- | --- |
 | [Documentação](/help/target-home.md)<br>do produto Adobe Target (Este guia) | Informações de visão geral, etapas e capturas de tela focadas na interação com [!DNL Target] a interface do usuário. Este guia descreve todas as ações e opções disponíveis, incluindo &quot;get chas&quot; para evitar. Este é o recurso mais detalhado para trabalhar com a [!DNL Target] interface do usuário. |
-| [Tutoriais do Adobe Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | Vídeos e tutoriais para ajudá-lo a conhecer os vários componentes do [!DNL Target]. |
+| [Tutoriais do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | Vídeos e tutoriais para ajudá-lo a conhecer os vários componentes do [!DNL Target]. |
 | [Biblioteca de conteúdo do Público alvo Adobe Experience League](https://guided.adobe.com/#recommended/solutions/target) | Uma coleção de vídeos explicativos e tutoriais destacando os recursos de [!DNL Target] disponível na [!DNL Adobe Target Experience League] página. |
 | [Documentação do Público alvo Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informações sobre como implementar [!DNL Target] o uso [!DNL Adobe Experience Platform Launch], a plataforma de gerenciamento de tags da próxima geração [!DNL Adobe]. Este é o método preferido para implementar [!DNL Target]. |
 | [Office Hours do atendimento ao cliente da Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informações sobre o &quot;Office Hours&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente do Adobe. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
