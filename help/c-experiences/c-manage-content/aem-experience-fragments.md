@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1111'
 ht-degree: 31%
 
 ---
@@ -77,7 +77,7 @@ Fragmentos de experiência são criados no [!DNL AEM]. Para obter mais informaç
 Dependendo da sua [!DNL AEM] versão, consulte os seguintes links para obter instruções detalhadas:
 
 * **[!DNL AEM]6.3**: [Exportar um fragmento de experiência para o Público alvo](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) na documentação do *Adobe Experience Manager 6.3* .
-* **[!DNL AEM]6.4**: [Exportar um fragmento de experiência para o Público alvo](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) na documentação do *Adobe Experience Manager 6.4* .
+* **[!DNL AEM]6.4**: [Exportar um fragmento de experiência para o Público alvo](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) na documentação do *Adobe Experience Manager 6.4* .
 * **[!DNL AEM]6.5**: [Exportar um fragmento de experiência para o Público alvo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) na documentação do *Adobe Experience Manager 6.5* .
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
@@ -157,4 +157,4 @@ O vídeo a seguir mostra como configurar e usar fragmentos de experiência:
 >
 >O recurso de [!DNL AEM] deep link discutido às 4:54 foi removido.
 
-Para obter mais informações, consulte [Uso de fragmentos de experiência com o Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) na página Vídeos e Tutorials *do* AEM Sites.
+Para obter mais informações, consulte [Uso de fragmentos de experiência com o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) na página Vídeos e Tutorials *do* AEM Sites.
