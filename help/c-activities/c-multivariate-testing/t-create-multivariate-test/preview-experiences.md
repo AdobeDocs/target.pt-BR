@@ -2,10 +2,8 @@
 description: Como um teste multivariado compara várias experiências em uma página, é útil visualizar a página com cada experiência.
 title: Experiências de visualização para um Teste multivariado
 feature: mvt
-topic: Standard
-uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
