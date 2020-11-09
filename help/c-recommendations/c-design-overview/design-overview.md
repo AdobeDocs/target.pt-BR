@@ -3,9 +3,8 @@ keywords: recommendations design;template;create design;delivery;output
 description: Os designs no Adobe Target Recommendations definem como as recomendações aparecem em uma página. Os designs definem o layout e o formato de suas recomendações para melhorar o envolvimento, a conversão e a receita do visitante.
 title: Visão geral do design
 feature: designs
-uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 30%
