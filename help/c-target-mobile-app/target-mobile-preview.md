@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    Para instruções de como baixar o SDK apropriado, consulte:
 
-   * **iOS:** [Antes de start](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) na Ajuda *do iOS do* Mobile Services.
-   * **Android:** [Antes de start](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) na Ajuda *do Android do* Mobile Services.
+   * **iOS:** [Antes de start](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) na Ajuda *do iOS do* Mobile Services.
+   * **Android:** [Antes de start](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) na Ajuda *do Android do* Mobile Services.
 
 1. **Defina um esquema de URL:** o link de visualização usa um esquema de URL para abrir seu aplicativo. Você deve especificar um esquema de URL único para a visualização.
 
