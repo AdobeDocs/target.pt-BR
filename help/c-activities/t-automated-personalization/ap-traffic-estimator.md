@@ -3,10 +3,8 @@ keywords: traffic estimator;automated personalization;ap
 description: O Estimador de tráfego fornece feedback que informa se você tem tráfego suficiente para que sua atividade Adobe Target tenha sucesso.
 title: Estimativa de tráfego exigido para o sucesso
 feature: ap
-topic: Standard
-uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 27%
