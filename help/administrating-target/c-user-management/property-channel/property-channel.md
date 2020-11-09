@@ -3,10 +3,8 @@ keywords: workspaces;manage property;permissions;product configuration;product p
 description: Informações sobre como criar propriedades e usar a funcionalidade Propriedades e permissões, que permite aos administradores do Target criar espaços de trabalho separados (perfis de produto) no Target e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais com base nesses espaços de trabalho.
 title: Permissões de usuário empresarial
 feature: user management
-subtopic: Getting Started
-uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 82%
