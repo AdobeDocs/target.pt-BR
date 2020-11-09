@@ -3,11 +3,8 @@ keywords: analytics tracking server;A4T;analytics segments;report suites;incorre
 description: Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 title: Solução de problemas de integração do Analytics e do Target (A4T)
 feature: a4t troubleshooting
-subtopic: Multivariate Test
-topic: Standard
-uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 80%
