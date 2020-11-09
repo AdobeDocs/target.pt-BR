@@ -5,10 +5,10 @@ title: Trabalhar com conteúdo na biblioteca
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: '511'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Informações sobre as tarefas que você pode executar em um ativo na Biblioteca
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo. (4:56)
 
-* Conexão entre a [biblioteca de ativos da Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) e a biblioteca de conteúdo do Target
+* Conexão entre a [biblioteca de ativos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e a biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
