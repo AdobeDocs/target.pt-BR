@@ -3,10 +3,8 @@ keywords: audience;audience rules;combine audiences;exclusion;add exclusion;excl
 description: Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
 title: Combinar vários públicos no Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
