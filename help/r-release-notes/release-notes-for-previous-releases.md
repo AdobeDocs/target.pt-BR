@@ -3,10 +3,8 @@ keywords: Release notes
 description: Notas de versão para versões anteriores de Públicos alvos, incluindo notas de versão do Target Standard/Premium, a plataforma do Público alvo e a biblioteca Javascript do Público alvo (at.js). As notas de versão são processadas em ordem decrescente por mês e ano da versão.
 title: Notas de versão para versões anteriores
 feature: release notes
-topic: Recommendations
-uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '29813'
 ht-degree: 86%
