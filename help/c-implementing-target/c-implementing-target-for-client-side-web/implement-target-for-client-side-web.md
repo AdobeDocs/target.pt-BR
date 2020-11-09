@@ -2,10 +2,8 @@
 description: Informações sobre a implementação do Adobe Target para Web no lado do cliente.
 title: Implementar o Adobe Target para Web no lado do cliente
 feature: client-side
-topic: Standard
-uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
