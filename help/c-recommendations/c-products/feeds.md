@@ -5,9 +5,9 @@ title: Feeds no Adobe Target Recommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2518'
 ht-degree: 86%
 
 ---
@@ -210,7 +210,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificações do produto Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto Analytics é a única classificação disponível para recomendações. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto Analytics é a única classificação disponível para recomendações. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
