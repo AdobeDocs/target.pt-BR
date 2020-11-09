@@ -4,10 +4,8 @@ description: Use os públicos do Adobe Target para direcionar os usuários com b
 title: Opções geográficas no Adobe Target audiência
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ Será necessário limpar os cookies do navegador antes.
 
 Porto Rico, Hong Konge outros territórios são tratados como valores de &quot;País&quot; separados.
 
-**Captura[!DNL Target](e armazena) informações como CEP quando a atividade é direcionada aos recursos de direcionamento de localização geográfica?**
+**Captura [!DNL Target] (e armazena) informações como CEP quando a atividade é direcionada aos recursos de direcionamento de localização geográfica?**
 
 Não, [!DNL Target] usa dados geográficos somente para a duração da sessão e os dados são descartados.
 
