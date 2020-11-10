@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fb843aef10721d138fa652c818d90295b606247e
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2932'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 10 de novembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café de perguntas e respostas da Comunidade Adobe Target programada para 11 de novembro. |
 | 3 de novembro | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Atualizado o seguinte tópico de solução de problemas: &quot;O conjunto de relatórios de que preciso não é exibido.&quot; |
 | 28 de outubro | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Foi adicionada uma observação informando que os visitantes inicializados podem ser inicializados somente pelo lado do cliente, não pelo lado do servidor. |
 | 27 de outubro | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Foi adicionado um link para o novo portal de SDKs *[do](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target. |
