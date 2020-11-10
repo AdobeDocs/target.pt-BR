@@ -4,21 +4,21 @@ description: O Adobe Target coleta e usa automaticamente uma variedade de dados 
 title: Coleta de dados para os algoritmos de personalização do Adobe Target
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1754'
+ht-degree: 92%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Coleta de dados para os algoritmos de personalização do Target{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) Coleta de dados para os algoritmos de personalização do Target
 
-O Target coleta e usa automaticamente uma variedade de dados para criar algoritmos de personalização nas atividades Personalização automatizada (AP) e Direcionamento automático (AT). Quando um visitante entra na atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de &quot;registros de treinamento&quot; (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
+[!DNL Adobe Target] coleta e usa automaticamente uma variedade de dados para criar seus algoritmos de personalização nas atividades [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto Público alvo] (AT). Quando um visitante entra em uma atividade AP ou AT, um instantâneo das informações é passado para um conjunto de &quot;registros de treinamento&quot; (os dados do visitante que os algoritmos de personalização conhecerão).
 
 Para saber mais sobre os algoritmos de personalização do Target, consulte  [Algoritmo Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-A tabela a seguir mostra os dados coletados pela Personalização automatizada e pelo Direcionamento automático por padrão, sem que o profissional de marketing precise fazer nada, além da convenção de nomenclatura usada para indicar esses atributos nos [relatórios de informações insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como fazer upload de dados adicionais, consulte  [Fazer upload de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como fazer upload de dados adicionais, consulte  [Fazer upload de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Tipo de dados | Descrição | Convenção de nomenclatura do tipo de dados | Atributos de exemplo |
 | --- | --- | --- | --- |
