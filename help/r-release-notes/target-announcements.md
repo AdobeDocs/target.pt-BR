@@ -4,10 +4,10 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de públicos alvos
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 1%
+source-wordcount: '417'
+ht-degree: 0%
 
 ---
 
@@ -30,21 +30,6 @@ Neste webinar ao vivo, junte-se aos especialistas em produtos da Adobe Target ao
 * **10 h PST | 12 horas CST | 1 p.m. EST**
 
 [Registre-se aqui para este evento empolgante.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Quebra de Café de Perguntas e Respostas da Comunidade Adobe Target
-
-* **quarta-feira, 11 de novembro de 2020**
-* **8 h PST**
-
-Nosso especialista será o Gerente [!DNL Adobe Target] de Produto Sênior, David Son, que compartilhará informações e experiência sobre os seguintes tópicos:
-
-* Decisão no dispositivo
-* At.js
-* Mobile
-* SDK da Web AEP
-* APIs
-
-[Inscreva-se aqui.](https://adobe.ly/2H3MBX9)
 
 ## Webinar: Como o HSBC utiliza a Adobe Target e a IA para otimizar e fornecer rapidamente personalização em escala
 
