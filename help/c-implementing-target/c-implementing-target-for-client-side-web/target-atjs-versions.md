@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: Detalhes sobre as alterações em cada versão da at.js.
+keywords: at.js releases;at.js versions;release notes
+description: Detalhes sobre as alterações em cada versão do Adobe Target at.js.
 title: Detalhes da versão da at.js
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3975'
-ht-degree: 86%
+source-wordcount: '4003'
+ht-degree: 85%
 
 ---
 
 
-# Detalhes da versão da at.js {#at-js-version-details}
+# Detalhes da versão da at.js
 
 Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do [!DNL Adobe Target].
 
@@ -21,6 +21,12 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >A equipe do Público alvo oferece suporte para o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente da versão principal do at.js para garantir que você esteja executando uma versão compatível.
 >
 >[A Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar o at.js. Os desenvolvedores de extensões adicionam continuamente novos recursos às suas extensões e frequentemente corrigem erros. Essas atualizações são compactadas em novas versões de uma extensão e disponibilizadas no [!DNL Launch] catálogo como atualizações. Para obter mais informações, consulte Atualização [de](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extensão no Guia *do usuário do* Experience Platform Launch.
+
+## at.js 2.3.3 (13 de novembro de 2020)
+
+Esta versão do at.js é uma versão de manutenção e inclui a seguinte correção:
+
+* Correção de um problema relacionado ao rastreamento de cliques em mbox e ao A4T.
 
 ## at.js 2.3.2 (24 de julho de 2020)
 
