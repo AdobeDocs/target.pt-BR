@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Solução de problemas e perguntas frequentes sobre o Público alvo automático no Adobe Target.
 title: Solução de problemas de Público alvo automático e perguntas frequentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 73%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -37,11 +37,15 @@ Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com ati
 
 Sua divisão de alocação de tráfego ideal depende do que você deseja realizar.
 
-Se sua meta é personalizar o máximo de tráfego possível, você pode manter 90% de direcionamento e 10% de controle durante a vida útil da atividade. Se sua meta é executar um experimento comparando o quão bem os algoritmos personalizados fazem versus o controle, então uma divisão 50/50 é melhor.
+Se sua meta é personalizar o máximo de tráfego possível, você pode manter 90% de direcionamento e 10% de controle durante a vida útil da atividade. Se sua meta é executar um experimento comparando o quão bem os algoritmos personalizados fazem versus o controle, então uma divisão 50/50 é melhor para toda a vida da atividade.
 
-### As marcas de verificação que indicam que um modelo foi criado para aquela experiência são atualizadas se o intervalo de datas do relatório for alterado?
+A prática recomendada é manter a divisão de alocação de tráfego para a duração da atividade, de modo que os visitantes não alterem entre experiências direcionadas e de controle.
 
-Não, as marcas de verificação para geração de modelos mostram apenas os modelos construídos até o momento. Não há como voltar e ver quando um modelo foi concluído.
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### Se um visitante NÃO vir a atividade de [!UICONTROL Direcionamento automático] e converter, a conversão conta em minha atividade?
 
