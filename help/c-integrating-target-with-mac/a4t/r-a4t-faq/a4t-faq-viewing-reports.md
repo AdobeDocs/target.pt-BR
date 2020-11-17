@@ -4,10 +4,10 @@ description: Este tópico contém respostas para perguntas frequentes sobre como
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 59%
+source-wordcount: '2196'
+ht-degree: 58%
 
 ---
 
@@ -138,13 +138,11 @@ Como prática recomendada, você deve interromper a atividade existente e criar 
 
 ## Como as visitas são contadas no Analytics e o crédito de conversão são alocados em uma atividade de Público alvo automático que usa a A4T?
 
-Depois que um visitante se qualificar para uma atividade, todo o crédito de conversão será vinculado a essa atividade no futuro.
+Quando um visitante se qualifica para, conteúdo de visualização ou conversão em uma atividade A4T, [!DNL Target] envia dados do evento para [!DNL Analytics], o que permite [!DNL Analytics] atribuir eventos de conversão e outros eventos de sequência de cliques que ocorrem na página para as [!DNL Target] atividades e experiências relevantes.
 
-Considere o seguinte:
+Estes são alguns pontos que devem ser lembrados ao exibir [!DNL Analytics] relatórios:
 
-* Se uma conversão ocorrer fora da janela de análise, ela não estará visível nos relatórios. A janela relatórios deve começar a partir da data do start da atividade.
-* É possível que um visitante que não se qualifica para a atividade incremente a contagem de visitantes no [!DNL Analytics], mesmo que ele ou ela não veja o conteúdo fornecido pela atividade.
-* Se um visitante se qualificar para várias experiências em visitas diferentes, o crédito de conversão será atribuído à última experiência vista.
-* Se uma entrada inicial em uma atividade ocorrer antes da janela de análise, as visitas e conversões subsequentes ainda serão contadas na janela de análise. No entanto, isso pode distorcer [!DNL Analytics] os relatórios.
-* As atividades são anexadas e funcionam como variáveis de lista; no entanto, as experiências são substituídas, mas o crédito pela conversão é atribuído à última experiência visualizada.
-* Um visitante pode incrementar visitas para duas experiências diferentes se o visitante entrar novamente na atividade em uma visita subsequente.
+* Em geral, a janela do relatórios deve sempre começar a partir da data do start da atividade.
+* Se uma conversão ocorrer fora da janela do relatório, ela não estará visível em [!DNL Analytics].
+* Quando na parte &quot;direcionada&quot; do tráfego para atividades de Público alvo  automático, os visitantes podem ver experiências diferentes de uma sessão para a próxima. Por exemplo, seu perfil ou contexto foi alterado e os algoritmos de aprendizado [!DNL Target]automático decidem que têm maior probabilidade de conversão em uma nova experiência. Isso é diferente das atividades comuns de teste A/B, onde as experiências são aderentes a um visitante durante as visitas.
+* Se um visitante visualizar várias experiências ao longo das visitas, qualquer conversão é sempre atribuída à última experiência que o visitante viu; no entanto, a contagem de visitas será aumentada para cada experiência que o visitante tiver visto. Isso pode deprimir artificialmente as taxas de conversão por experiência ao visualizar experiências na dimensão &quot;[!UICONTROL Direcionado]&quot; nos [!DNL Adobe Analytics] relatórios.
