@@ -4,10 +4,10 @@ description: Solução de problemas e perguntas frequentes sobre o Público alvo
 title: Solução de problemas de Público alvo automático e perguntas frequentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 76%
+source-wordcount: '1845'
+ht-degree: 73%
 
 ---
 
@@ -32,6 +32,12 @@ Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com ati
    * Se um teste A/B não mostra diferenças estatisticamente significativas entre as experiências, é provável que as ofertas que você está considerando não são suficientemente diferentes umas das outras, os locais selecionados não afetam a métrica de sucesso ou a meta de otimização está muito distante no funil de conversão a ser afetado pelas ofertas escolhidas.
 
 * Tente não fazer mudanças substanciais nas experiências durante o curso da atividade.
+
+### Você recomenda usar o Público alvo automático com uma divisão 90(Controle)/10(Direcionado) até que os modelos sejam criados?
+
+Sua divisão de alocação de tráfego ideal depende do que você deseja realizar.
+
+Se sua meta é personalizar o máximo de tráfego possível, você pode manter 90% de direcionamento e 10% de controle durante a vida útil da atividade. Se sua meta é executar um experimento comparando o quão bem os algoritmos personalizados fazem versus o controle, então uma divisão 50/50 é melhor.
 
 ### As marcas de verificação que indicam que um modelo foi criado para aquela experiência são atualizadas se o intervalo de datas do relatório for alterado?
 
