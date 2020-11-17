@@ -4,10 +4,10 @@ description: Este tópico contém respostas para perguntas frequentes sobre como
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 58%
+source-wordcount: '2214'
+ht-degree: 57%
 
 ---
 
@@ -138,11 +138,11 @@ Como prática recomendada, você deve interromper a atividade existente e criar 
 
 ## Como as visitas são contadas no Analytics e o crédito de conversão são alocados em uma atividade de Público alvo automático que usa a A4T?
 
-Quando um visitante se qualifica para, conteúdo de visualização ou conversão em uma atividade A4T, [!DNL Target] envia dados do evento para [!DNL Analytics], o que permite [!DNL Analytics] atribuir eventos de conversão e outros eventos de sequência de cliques que ocorrem na página para as [!DNL Target] atividades e experiências relevantes.
+Quando um visitante se qualifica para, conteúdo do visualização ou converte em uma atividade A4T, [!DNL Target] envia dados do evento para [!DNL Analytics], o que permite [!DNL Analytics] atribuir eventos de conversão e outros eventos de sequência de cliques que ocorrem na página às [!DNL Target] atividades e experiências relevantes.
 
 Estes são alguns pontos que devem ser lembrados ao exibir [!DNL Analytics] relatórios:
 
-* Em geral, a janela do relatórios deve sempre começar a partir da data do start da atividade.
+* Em geral, como prática recomendada, a janela do relatórios deve começar a partir da data do start da atividade.
 * Se uma conversão ocorrer fora da janela do relatório, ela não estará visível em [!DNL Analytics].
-* Quando na parte &quot;direcionada&quot; do tráfego para atividades de Público alvo  automático, os visitantes podem ver experiências diferentes de uma sessão para a próxima. Por exemplo, seu perfil ou contexto foi alterado e os algoritmos de aprendizado [!DNL Target]automático decidem que têm maior probabilidade de conversão em uma nova experiência. Isso é diferente das atividades comuns de teste A/B, onde as experiências são aderentes a um visitante durante as visitas.
-* Se um visitante visualizar várias experiências ao longo das visitas, qualquer conversão é sempre atribuída à última experiência que o visitante viu; no entanto, a contagem de visitas será aumentada para cada experiência que o visitante tiver visto. Isso pode deprimir artificialmente as taxas de conversão por experiência ao visualizar experiências na dimensão &quot;[!UICONTROL Direcionado]&quot; nos [!DNL Adobe Analytics] relatórios.
+* Quando na parte &quot;direcionada&quot; do tráfego para atividades de Público alvo [!UICONTROL automático] , os visitantes podem ver experiências diferentes de uma sessão para a seguinte. Por exemplo, se seu perfil ou contexto mudou e os algoritmos de aprendizado por máquina decidirem que é mais provável que eles convertam em uma nova experiência. [!DNL Target] À medida que os visitantes passam da experiência para a experiência, a contagem de visitas é aumentada para cada experiência vista. Isso é diferente das atividades comuns de teste A/B, onde as experiências são aderentes a um visitante durante as visitas.
+* Se um visitante visualizar várias experiências ao longo das visitas, qualquer conversão será sempre atribuída à última experiência que o visitante viu. Conforme mencionado, a contagem de visitas aumenta para cada experiência que o visitante viu. Isso pode deprimir artificialmente as taxas de conversão por experiência ao visualizar experiências na dimensão &quot;[!UICONTROL Direcionado]&quot; nos [!DNL Adobe Analytics] relatórios.
