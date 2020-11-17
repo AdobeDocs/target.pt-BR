@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '2994'
+source-wordcount: '3020'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 de novembro | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Um visitante pode alternar entre experiências direcionadas e controladas em diferentes visitas em uma atividade de Público alvo automático que usa A4T?&quot; |
 |  | [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Você recomenda usar o Público alvo automático com uma divisão 90(Controle)/10(Direcionado) até que os modelos sejam criados?&quot; |
+|  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Como as visitas são contadas no Analytics e o crédito de conversão é alocado em uma atividade de Público alvo automático que usa A4T?&quot; |
 | 13 de novembro | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a at.js 2.3.3. |
 | 10 de novembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café de perguntas e respostas da Comunidade Adobe Target programada para 11 de novembro. |
 | 3 de novembro | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Atualizado o seguinte tópico de solução de problemas: &quot;O conjunto de relatórios de que preciso não é exibido.&quot; |
