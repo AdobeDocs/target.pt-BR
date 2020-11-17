@@ -4,10 +4,10 @@ description: Este tópico contém respostas para as perguntas mais frequentes so
 title: Configurações de atividade - Perguntas frequentes sobre o A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 37%
+source-wordcount: '432'
+ht-degree: 44%
 
 ---
 
@@ -47,10 +47,3 @@ Se as porcentagens não forem ajustadas no meio da atividade, um visitante que i
 
 * Depois de estar no &quot;bucket&quot; de tráfego direcionado, o visitante pode ser enviado a uma experiência diferente da visita para a visita se os modelos de aprendizado de máquina determinarem que uma experiência diferente é relevante para a nova visita.
 * Depois de ser atribuído ao &quot;bucket&quot; de controle do tráfego, um visitante sempre visualizará a mesma experiência, pois a atribuição da experiência é baseada em um hash pseudo-aleatório determinístico do visitorId do visitante.
-
-## É recomendável usar o modelo personalizado para Público alvo automático e A4T com uma divisão 90(Controle)/10(Direcionado) até que os modelos sejam criados?
-
-Sua divisão de alocação de tráfego ideal depende do que você deseja realizar.
-
-Se sua meta é personalizar o máximo de tráfego possível, você pode manter 90% de direcionamento e 10% de controle durante a vida útil da atividade. Se sua meta é executar um experimento comparando o quão bem os algoritmos personalizados fazem versus o controle, então uma divisão 50/50 é melhor.
-
