@@ -4,10 +4,10 @@ description: Informações sobre problemas conhecidos para esta versão do Adobe
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3957'
-ht-degree: 76%
+source-wordcount: '4273'
+ht-degree: 71%
 
 ---
 
@@ -128,7 +128,7 @@ No dia 10 de maio de 2020, atualizamos nossos arquivos do provedor GEO, o que in
 
 As ofertas de imagem na página do Oferta às vezes retêm o rótulo de &quot;processamento&quot; por várias horas depois que as imagens são carregadas. Na maioria dos casos, isso é um problema apenas com o rótulo: as ofertas de imagem ainda podem ser usadas no atividade e entregues. Em alguns casos, no entanto, uma oferta de imagem pode não estar disponível para a ação Substituir conteúdo > Imagem. Se isso acontecer, você deve carregar a oferta de imagem novamente e verificar após algumas horas para ver se a oferta de imagem está disponível para substituição. (TGT-37458)
 
-### Relatórios - dados inconsistentes no relatório .csv baixável versus o relatório exibido na interface do Público alvo.
+### Relatórios - dados inconsistentes no relatório .csv baixável versus o relatório exibido na interface do Público alvo. {#csv}
 
 Os relatórios gerados para download como arquivos .csv são inconsistentes se a atividade usar mais de uma métrica. O relatório que pode ser baixado é gerado somente com base nas configurações do relatório e considera o mesmo valor para qualquer outra métrica usada.
 
@@ -137,6 +137,37 @@ A fonte da verdade é sempre o relatório exibido na [!DNL Target] interface do 
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Quando os problemas acima são resolvidos, são movidos para as seções a seguir e as notas adicionais, se necessário, serão adicionadas.
+
+### Relatórios do Analytics for Target (A4T)
+
+Os seguintes problemas relacionados ao A4T foram resolvidos:
+
+* Um problema que afetou as atividades A4T usando uma métrica de [!DNL Analytics] objetivo que fazia com que os relatórios A4T mostrassem uma divisão de tráfego inesperada ou conversões infladas artificialmente.
+
+   Esse problema afetou o relatórios A4T sob as seguintes condições:
+
+   * A atividade foi criada ou salva entre 15 de setembro e 5 de novembro de 2020 (4 horas PST), e
+   * A atividade tinha uma [!DNL Analytics] métrica selecionada como métrica de objetivo.
+
+   [!DNL Target] dividir corretamente o tráfego durante esse período. No entanto, uma divisão 50/50 na configuração da atividade pode ser exibida, por exemplo, como uma divisão 90/10 nos relatórios A4T.
+
+   Para atividades impactadas, a divisão de tráfego correta é visível para visitantes pela primeira vez na atividade após 5 de novembro (4 horas PST). As novas atividades criadas ou salvas depois desse tempo relatarão a divisão de tráfego corretamente.
+
+* Um problema que afetou as atividades A4T usando uma métrica de [!DNL Target] objetivo que fazia com que os relatórios A4T relatassem conversões baixas ou inexistentes.
+
+   >[!NOTE]
+   >
+   >Esse problema afetava apenas o relatórios A4T. Não afetou o delivery da atividade.
+
+   Esse problema afetou o relatórios A4T sob as seguintes condições:
+
+   * A atividade A4T estava em funcionamento entre 22 de setembro e 11 de novembro de 2020 (14:30 PST), e
+   * A atividade tinha uma [!DNL Target] métrica selecionada como métrica de objetivo e
+   * Quando um visitante atingiu o evento da meta para a atividade (por exemplo, [!UICONTROL Clicou em um elemento]), também havia uma atividade não A4T de prioridade mais baixa que correspondia ao evento de conversão. Isso pode acontecer se a atividade não A4T for configurada com a mesma métrica da atividade A4T ou se for configurada com a métrica &quot;any mbox&quot;.
+
+   Esse problema afetou o relatórios das atividades A4T que estavam ativas entre 22 de setembro e 11 de novembro de 2020 (14:30 PST). O relatórios para atividades A4T impactadas mostrará conversões corretamente fora desse intervalo de datas. O relatórios para atividades não-A4T não foi afetado.
+
+Caso tenha dúvidas, entre em contato com o Atendimento ao cliente do seu Gerente de sucesso do cliente (CSM) ou do [Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Relatórios de Público alvo automático {#at-metrics}
 
