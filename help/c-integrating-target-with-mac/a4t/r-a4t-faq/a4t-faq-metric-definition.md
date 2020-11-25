@@ -4,15 +4,15 @@ description: Este tópico contém respostas para as perguntas mais frequentes so
 title: Definições de métricas - Perguntas frequentes sobre o A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '367'
+ht-degree: 65%
 
 ---
 
 
-# Definições de métricas - Perguntas frequentes sobre o A4T{#metric-definitions-a-t-faq}
+# Definições de métricas - Perguntas frequentes sobre o A4T
 
 Este tópico contém respostas para as perguntas mais frequentes sobre definições de métrica e uso do Analytics como origem de geração de relatórios para o Target (A4T).
 
@@ -20,9 +20,15 @@ Este tópico contém respostas para as perguntas mais frequentes sobre definiç�
 
 A expiração padrão para a atividade é de 90 dias após a última interação do visitante com a atividade. Isso pode ser configurado pelo Atendimento ao cliente. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
 
-## As opções avançadas para métricas de sucesso no Target funcionam com o A4T?  {#section_F060E3438F4144258BB95813EDEABDAA}
+## Ao configurar minhas métricas de objetivo, por que não posso acessar as opções de Configurações avançadas? {#adv-settings}
 
-Atualmente, essas opções não funcionam com o A4T.
+As opções de Configurações  avançadas não estão disponíveis para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T).
+
+Para atividades que usam A4T, a métrica de meta sempre usará as configurações &quot;[!UICONTROL Aumentar a contagem e manter o usuário na Atividade]&quot; e &quot;[!UICONTROL Em cada impressão]&quot;. Isso *não* é configurável.
+
+Para atividades não-A4T, você pode usar as opções [Configurações](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) avançadas para gerenciar como você avalia o sucesso. As opções incluem adicionar dependências, escolher manter o usuário na atividade ou removê-lo e contar a métrica uma vez por participante ou em cada impressão. Você acessa as opções de Configurações  avançadas em uma atividade que não seja A4T clicando nas elipses verticais > Configurações avançadas, como mostrado abaixo:
+
+![Configurações avançadas](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 ## O que são métricas calculadas e como elas substituem a mbox SiteCatalyst:Event que eu costumava usar?  {#section_D59F4719E6B94758A2187427C17F8EF3}
 
