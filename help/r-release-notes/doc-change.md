@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 24 de novembro | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Foi adicionado o seguinte problema conhecido:<ul><li>[Relatórios - dados inconsistentes no relatório .csv baixável versus o relatório exibido na interface do Público alvo.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Foi adicionado o seguinte problema resolvido:<ul><li>[Relatórios do Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [Definições de métricas - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Ao configurar minhas métricas de objetivo, por que não posso acessar as opções de Configurações avançadas?&quot; |
+|  | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md) | Texto ajustado na observação sobre atividades que usam A4T. |
 | 17 de novembro | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Um visitante pode alternar entre experiências direcionadas e controladas em diferentes visitas em uma atividade de Público alvo automático que usa A4T?&quot; |
 |  | [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Você recomenda usar o Público alvo automático com uma divisão 90(Controle)/10(Direcionado) até que os modelos sejam criados?&quot; |
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Como as visitas são contadas no Analytics e o crédito de conversão é alocado em uma atividade de Público alvo automático que usa A4T?&quot; |
