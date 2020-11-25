@@ -4,10 +4,10 @@ description: Este tópico contém respostas para perguntas frequentes sobre como
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 57%
+source-wordcount: '2280'
+ht-degree: 56%
 
 ---
 
@@ -31,6 +31,12 @@ Os segmentos são aplicados com mais frequência à parte superior de um painel 
 A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. (Observação: esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário). À medida que os visitantes navegam pelo site durante essa janela de expiração, eles fazem parte de muitas [!DNL Target] atividades, todas coletadas na dimensão.
 
 Como resultado, ao segmentar para que uma atividade esteja presente em uma ocorrência, você obterá todas as experiências que fazem parte dessa atividade, *além* de quaisquer outras experiências que persistem nessa ocorrência.
+
+## Ao configurar minhas métricas de metas, por que não posso acessar as configurações avançadas?
+
+Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de objetivo sempre usará as configurações &quot;[!UICONTROL Aumentar a contagem e manter o usuário na Atividade]&quot; e &quot;[!UICONTROL Em cada impressão]&quot;. Isso *não* é configurável.
+
+Para obter mais informações, consulte &quot;Ao configurar minhas métricas de objetivo, por que não posso acessar as opções de Configurações avançadas?&quot; in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Devo usar visitantes, visitas ou impressões atividades como minha métrica de normalização (ou seja, metodologia de contagem)? {#metrics}
 
