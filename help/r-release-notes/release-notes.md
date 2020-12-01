@@ -4,9 +4,9 @@ description: Essas notas de versão oferecem informações sobre recursos, aprim
 title: 'Notas de versão do Target (atual) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '928'
 ht-degree: 27%
 
 ---
@@ -44,7 +44,7 @@ Esta versão contém os seguintes novos recursos:
 
 | Recurso | Detalhes |
 | --- | --- |
-| [Decisão no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | A decisão no dispositivo permite que tanto os profissionais de marketing quanto os desenvolvedores de produtos forneçam experimentação e personalização orientada pelo Machine Learning a partir de um dispositivo do usuário, em canais, a uma latência quase zero.<br>Questões de velocidade e desempenho — em insights do cliente e satisfação do usuário.<br>A decisão no dispositivo permite compilar instruções importantes de personalização e experimentação em tipos de atividade de teste A/B e direcionamento de experiência (XT) em &quot;artefatos de otimização&quot;: objetos JSON carregados em dispositivos do cliente por meio do CDN. E como a decisão no dispositivo se conecta nativamente com [!DNL Adobe Experience Cloud] produtos, [!DNL Target] os usuários obtêm uma análise rápida e iterações de experiência mais rápidas.<br>Para obter mais informações, consulte *[Introdução à decisão](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* no dispositivo no Guia *de SDKs do* Adobe Target. |
+| [Decisão no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | A decisão no dispositivo permite que tanto os profissionais de marketing quanto os desenvolvedores de produtos forneçam experimentação e personalização orientada pelo Machine Learning a partir de um dispositivo do usuário, em canais, a uma latência quase zero.<br>Questões de velocidade e desempenho — em insights do cliente e satisfação do usuário.<br>A decisão no dispositivo permite compilar instruções importantes de personalização e experimentação em tipos de atividade de teste A/B e direcionamento de experiência (XT) em &quot;artefatos de otimização&quot;: objetos JSON carregados em dispositivos do cliente por meio do CDN. E como a decisão no dispositivo se conecta nativamente com [!DNL Adobe Experience Cloud] produtos, [!DNL Target] os usuários obtêm uma análise rápida e iterações de experiência mais rápidas.<br>Para obter mais informações, consulte *[Introdução à decisão](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* no dispositivo no Guia *de SDKs do* Adobe Target.<br>Assista ao webinário gravado aqui: [Decisão no dispositivo no Adobe Target](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=por_br). |
 
 Esta versão contém os seguintes aprimoramentos, correções e alterações:
 
