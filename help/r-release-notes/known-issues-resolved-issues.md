@@ -4,10 +4,10 @@ description: Informações sobre problemas conhecidos para esta versão do Adobe
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
 workflow-type: tm+mt
-source-wordcount: '4273'
-ht-degree: 71%
+source-wordcount: '4326'
+ht-degree: 70%
 
 ---
 
@@ -73,6 +73,7 @@ A seguir, os problemas conhecidos com atividades de recomendações:
 * Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário Público-alvo e podem ser editados por meio da API. (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 * O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
+* Os cartões de Critérios e Designs não mostram o número correto de atividades em que estão sendo usados. Se os Critérios ou Design forem usados em uma Atividade AB, a atividade não será considerada e o cartão poderá mostrar que o design/critério não é usado quando, de fato, é.
 
 ### Atividades de teste multivariado (MVT)
 
