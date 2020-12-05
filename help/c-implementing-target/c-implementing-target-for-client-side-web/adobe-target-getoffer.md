@@ -4,7 +4,7 @@ description: Informações sobre a função adobe.target.getOffer(options) da bi
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ Use com `adobe.target.applyOffer()` para processar a resposta ou use sua própri
 
 Adicionar parâmetros com getOffer() e usar applyOffer() para método bem-sucedido:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 Adicionar parâmetros e parâmetros de perfil com getOffer() e usar applyOffer() para método bem-sucedido:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ Usar tempo limite personalizado e método bem-sucedido personalizado com getOffe
 
 &quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot; é um placeholder para uma função que o cliente definiria.
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ O parâmetro de resposta passado para o retorno de chamada de sucesso será uma 
 
 ## Exemplo
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
