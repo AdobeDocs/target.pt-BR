@@ -4,7 +4,7 @@ description: Informações sobre a função targetGlobalSettings() da biblioteca
 title: targetGlobalSettings()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 39%
@@ -192,7 +192,7 @@ This function can be defined before at.js is loaded or in **[!UICONTROL Administ
 
 O campo Cabeçalho da biblioteca permite que você entre no JavaScript do formulário gratuito. O código de personalização deve ser semelhante ao seguinte exemplo:
 
-```
+```javascript
 window.targetGlobalSettings = {  
    timeout: 200, // using custom timeout  
    visitorApiTimeout: 500, // using custom API timeout  
@@ -228,7 +228,7 @@ Cada provedor de dados tem a seguinte estrutura:
 
 O exemplo a seguir mostra onde o provedor de dados está usando a execução sincrônica:
 
-```
+```javascript
 var syncDataProvider = { 
   name: "simpleDataProvider", 
   version: "1.0.0", 
@@ -248,7 +248,7 @@ Após at.js processar `window.targetGlobalSettings.dataProviders`, a solicitaç�
 
 O que segue é um exemplo se os parâmetros que você deseja adicionar à solicitação do Target forem obtidos de um serviço de terceiros, como Bluekai, Demandbase e daí por diante:
 
-```
+```javascript
 var blueKaiDataProvider = { 
    name: "blueKai", 
    version: "1.0.0", 
@@ -271,7 +271,7 @@ Após at.js processar `window.targetGlobalSettings.dataProviders`, a solicitaç�
 
 O exemplo a seguir usa provedores de dados para coletar dados da API de tempo e enviá-los como parâmetros em uma solicitação do Target. A solicitação do Target terá parâmetros adicionais, como `country` e `weatherCondition`.
 
-```
+```javascript
 var weatherProvider = { 
       name: "weather-api", 
       version: "1.0.0", 
@@ -323,7 +323,7 @@ O at.js 2.3.0+ oferece suporte à definição de políticas de segurança de con
 
 As funções SCRIPT e STYLE devem ser definidas em `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` de forma correspondente, antes do carregamento de at.js 2.3.0+. Veja um exemplo abaixo:
 
-```
+```javascript
 ...
 <head>
  <script nonce="<script_nonce_value>">
@@ -355,7 +355,7 @@ Você deve ter uma integração híbrida de [!DNL Target].
 
 Para entender melhor como isso funciona, consulte os exemplos de código abaixo que você teria em seu servidor. O código supõe que você esteja usando o SDK [Node.js do](https://github.com/adobe/target-nodejs-sdk)Público alvo.
 
-```
+```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
 const targetResponse = await targetClient.getOffers(options);
 // A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
