@@ -4,7 +4,7 @@ description: Use o link de visualização móvel para realizar facilmente tarefa
 title: Uso do link de visualização móvel no Adobe Target Mobile
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
@@ -49,7 +49,7 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    O fragmento de código a seguir é um exemplo:
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    **Android:** no aplicativo, chame `Config.trackAdobeDeepLink(URL);`; quando o chamado pedir para abrir o recurso com o esquema de URL que foi especificado no passo anterior.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    Para fazer a visualização móvel funcionar no Android, você também deve adicionar o seguinte fragmento de código em [!DNL AndroidManifest.xml]:
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
