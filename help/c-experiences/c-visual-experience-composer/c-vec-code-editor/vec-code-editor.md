@@ -4,7 +4,7 @@ description: Informações sobre a página de Modificações que permite visuali
 title: Modificações
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
    Por exemplo, para alterar a cor de um elemento:
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
    Por exemplo, para definir uma classe para um elemento de sobreposição:
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
    Por exemplo, use o seguinte trecho HTML para criar uma sobreposição `<div>` usando a classe CSS definida acima:
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * Ative o DOM pronto usando jQuery
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
 * Trocar para modo pronto para DOM, sem jQuery (não suporta Internet Explorer 8)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
    A vantagem disso é que a troca ocorre mais cedo do que no modo pronto para DOM. O plug-in lida com a pré-ocultação e a exibição, e requer uma id do elemento.
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
 * Personalizar o redirecionamento transmitindo os parâmetros existentes, o parâmetro `s_tnt` (para integração herdada ao Analytics), o parâmetro de referenciador e a sessão da mbox
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
 Por exemplo:
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
