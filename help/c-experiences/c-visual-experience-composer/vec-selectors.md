@@ -4,7 +4,7 @@ description: Um seletor de elemento é uma expressão CSS que pode identificar u
 title: Seletores de elementos usados no Visual Experience Composer
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -36,7 +36,7 @@ O Target usa um algoritmo simples para criar um seletor. Esta é uma breve expli
 
    Por exemplo:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- Selector is computed for this element -->
        <ul class="navigation">
@@ -55,7 +55,7 @@ O Target usa um algoritmo simples para criar um seletor. Esta é uma breve expli
 
    Por exemplo:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
@@ -78,7 +78,7 @@ O Target usa um algoritmo simples para criar um seletor. Esta é uma breve expli
 
    Por exemplo:
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
