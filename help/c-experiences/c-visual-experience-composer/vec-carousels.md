@@ -4,7 +4,7 @@ description: Este tópico mostra como criar um carrossel que pode ser editado no
 title: Criar carrosséis que funcionam no Visual Experience Composer
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá
 
 1. Crie alocadores de espaço estáticos em HTML.
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>
