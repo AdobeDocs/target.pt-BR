@@ -4,7 +4,7 @@ description: Informações para ajudá-lo a usar o bookmarklet Adobe Target QA p
 title: bookmarklet de QA de atividade para Adobe Target
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -26,7 +26,7 @@ Como o [modo de QA](/help/c-activities/c-activity-qa/activity-qa.md) é persiste
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         if (window.location.href.indexOf('?') != -1) {
@@ -55,7 +55,7 @@ Ao contrário de at.js 1.*x*, at.js 2.*O x* não suporta cookies de terceiros, e
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         var AT_QA_MODE = 'at_qa_mode=';
