@@ -4,7 +4,7 @@ description: Várias etapas são necessárias para a implementação do Adobe An
 title: Implementação do Analytics for Target
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 50%
@@ -60,7 +60,7 @@ Inclua o at.js abaixo de VisitorAPI.js adicionando a seguinte linha de código n
 
 Para at.js:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 Por exemplo:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 Essa configuração tem um efeito global, o que significa que **analyticsLogging: &quot;client_side&quot;** será enviado para todas as chamadas feitas pela at.js nas solicitações do e uma carga de análise será retornada para cada solicitação. [!DNL Target] Quando configurado, o formato da carga retornada é semelhante ao seguinte:
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ Se uma configuração global não for desejada e uma abordagem mais sob demanda 
 
 Por exemplo:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ Essa chamada chama uma resposta da qual você pode extrair a carga de análise.
 
 A resposta é semelhante à seguinte:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
