@@ -4,7 +4,7 @@ description: Você pode utilizar atributos de perfil para configurar testes que 
 title: Usar scripts de perfil para testar atividades mutuamente exclusivas
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 84%
@@ -29,7 +29,7 @@ Esteja ciente das informações a seguir ao usar um dos scripts de perfil abaixo
 
 Para classificar visitantes em grupos onde cada um visualiza uma atividade diferente, você deve criar um atributo de perfil. Um atributo de perfil pode classificar um visitante em um ou mais grupos. Para configurar um atributo de perfil chamado &quot;doisgrupos&quot;, crie o script a seguir:
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ A configuração de três ou mais atividades mutuamente exclusivas é similar à
 
 Por exemplo, para criar quatro grupos, utilize o JavaScript a seguir:
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ para:
 
 Por exemplo, para atribuir visitantes em três grupos iguais, utilize o código a seguir:
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
