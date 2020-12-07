@@ -4,7 +4,7 @@ description: Informações sobre o uso de dados de clientes corporativos em banc
 title: Atributos do cliente no Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 40%
@@ -131,7 +131,7 @@ Esse script de perfil pode ser usado diretamente nas ofertas para entrega de atr
 
 Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPageParams()` method. The value of `mbox3rdPartyId` should be set to the customer ID that was present in the CSV data file.
 
-```
+```javascript
 <script type="text/javascript">
             function targetPageParams() {
                return 'mbox3rdPartyId=2000578';
