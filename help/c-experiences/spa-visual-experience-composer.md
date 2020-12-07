@@ -4,7 +4,7 @@ description: O Visual Experience Composer (VEC) para aplicativos de página úni
 title: Aplicativo de página única (SPA) no Visual Experience Composer
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -88,7 +88,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Como profissionais de marketing, se queremos executar testes A/B em todo o site inicial, talvez seja ideal nomear a exibição &quot;inicial&quot; que pode ser extraída do URL:
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![produtos do react](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora, os profissionais de marketing podem executar um teste A/B para ver se a alteração da cor de azul para vermelho quando a opção Entrega expressa está selecionada pode aumentar as conversões em vez de manter a cor do botão azul para ambas as opções de entrega.
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ Assim, como podemos recuperar a Exibição conectada e mostrar &quot;Você está
 
 Você pode usar as novas funções `getOffers()` e `applyOffers()` compatíveis com a at.js 2.x:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
