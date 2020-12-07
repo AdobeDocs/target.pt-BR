@@ -4,7 +4,7 @@ description: Os cenários neste tópico mostram como as alterações feitas a su
 title: Cenários de modificação da página
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Há uma possibilidade de a primeira classe presente no elemento poder ser adicio
 
 **Elemento inserido:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -48,7 +48,7 @@ O seletor funciona como esperado, pois `li.women-section:eq(0)` não é afetado.
 
 Antes:
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
@@ -58,7 +58,7 @@ Antes:
 
 Depois:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
@@ -73,7 +73,7 @@ Neste cenário, é feita uma tentativa de inserir uma lista quando um item em um
 
 **Elemento inserido:**
 
-```
+```html
 <ul class="nav"> 
    <li class="item"> Sale </li> 
    <li> class="item"> Offers </li> 
@@ -92,7 +92,7 @@ O seletor não funciona, pois `ul.nav:eq(0)` fornece um elemento adicionado dina
 
 Antes:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
@@ -102,7 +102,7 @@ Antes:
 
 Depois (tentativa):
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="item"> Sale</li>
@@ -121,7 +121,7 @@ Neste cenário, um item de lista é inserido após o elemento selecionado.
 
 **Elemento inserido:**
 
-```
+```html
 <ul class="nav"> 
    <li class="men-section"> Men Clothes</li> 
    <li class="women-section"> Women Clothes</li> 
@@ -140,7 +140,7 @@ Nesse caso, insira uma lista depois do fim da lista com o item de lista selecion
 
 Antes:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
@@ -150,7 +150,7 @@ Antes:
 
 Depois:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>
@@ -169,7 +169,7 @@ Neste cenário, o item de lista antes do elemento selecionado é excluído.
 
 **Elemento removido:**
 
-```
+```html
 <li class="men-section"> Men </li>
 ```
 
@@ -185,7 +185,7 @@ O elemento foi removido com êxito porque a classe do item selecionado não foi 
 
 Antes:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -196,7 +196,7 @@ Antes:
 
 Depois:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="women-section">Women</li>
@@ -210,7 +210,7 @@ Neste cenário, o item de lista depois do elemento selecionado é excluído.
 
 **Elemento removido:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -226,7 +226,7 @@ O elemento foi removido com êxito porque a classe do item selecionado não foi 
 
 Antes:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -238,7 +238,7 @@ Antes:
 
 Depois:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -253,7 +253,7 @@ Neste cenário, o item de lista selecionado é excluído.
 
 **Elemento removido:**
 
-```
+```html
 <li class="women-shoes">Women</li>
 ```
 
@@ -269,7 +269,7 @@ O elemento foi removido com êxito.
 
 Antes:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -280,7 +280,7 @@ Antes:
 
 Depois
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
        <li class="men-section">Men</li>
@@ -294,7 +294,7 @@ Neste cenário, a classe do item de lista selecionado foi alterada.
 
 **Elemento alterado:**
 
-```
+```html
 <li class="women-section">Women</li>
 ```
 
@@ -310,7 +310,7 @@ Não é possível renomear a classe do elemento porque `class` não foi encontra
 
 Antes:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -321,7 +321,7 @@ Antes:
 
 Depois (tentativa):
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
