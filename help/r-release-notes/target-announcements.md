@@ -4,9 +4,9 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de públicos alvos
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,17 @@ ht-degree: 0%
 
 Anúncios e informações sobre os próximos eventos, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 
-## Adobe novamente nomeado Líder no Quadrante Mágico da Gartner para Mecanismos de Personalização
+## Adobe chamado de Leader in Forrester wave report para plataformas de otimização de experiência
 
-Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução. [Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+Adobe foi nomeado Líder na Onda Forrester: Plataformas de otimização de experiência, relatório do quarto trimestre de 2020 para sua oferta neste espaço, Adobe Target Premium. A Adobe recebeu a maior pontuação de todos os fornecedores participantes nas categorias atuais de presença e oferta, bem como nos critérios de experiência da plataforma e recomendações. O Público alvo Premium também recebeu a maior pontuação possível na inovação da técnica de otimização de experiência e nos critérios de serviços de suporte. O relatório baseia-se numa avaliação exaustiva de 10 fornecedores de plataformas de otimização de experiências em 22 critérios.
+
+Leia sobre isso no [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
+
+## Adobe novamente nomeado Líder no Gartner Magic Quadrant para mecanismos de personalização
+
+Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução.
+
+[Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
 ## Webinar: Personalize e teste em latência zero com decisões no dispositivo da Adobe Target
 
