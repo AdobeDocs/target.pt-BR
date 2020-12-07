@@ -4,9 +4,9 @@ description: Informações sobre como trabalhar com o Adobe Client Care para imp
 title: CNAME e Adobe Target
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Execute as etapas a seguir para solicitar o suporte CNAME no [!DNL Target]:
    >
    >Certificado até que a DigiCert não emita uma etapa seja concluída. Portanto, o Adobe não pode atender à solicitação de uma implementação CNAME até que essa etapa seja concluída.
 
-1. [Preencha este formulário](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) e inclua-o ao [abrir um ticket do Atendimento ao cliente do Adobe solicitando suporte](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
+1. [Preencha este formulário](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) e inclua-o ao [abrir um ticket do Atendimento ao cliente do Adobe solicitando suporte](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
 
    * Adobe [!DNL Target] client code:
    * Nomes de host de certificado SSL (por exemplo: `target.example.com target.example.org`):
