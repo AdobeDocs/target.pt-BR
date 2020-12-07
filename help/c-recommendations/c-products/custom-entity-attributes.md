@@ -5,7 +5,7 @@ title: Atributos personalizados de entidade no Adobe Target
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -73,7 +73,7 @@ Aspas duplas devem ser evitadas. Por exemplo, `"[""test"", ""value""]"` é uma m
 
 O exemplo a seguir mostra como usar `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ Tenha cuidado ao editar diretamente um arquivo CSV de catálogo simples.
 
 Você pode passar atributos de vários valores usando a API de Delivery em um parâmetro de mbox como um valor de string contendo uma matriz JSON escaped.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
