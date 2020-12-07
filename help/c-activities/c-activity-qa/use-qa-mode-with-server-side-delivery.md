@@ -4,7 +4,7 @@ description: Use URLs de controle de qualidade com entrega do lado do servidor p
 title: Usar o controle de qualidade de atividade com entrega do lado do servidor
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ A implementação padrão do Controle de qualidade de atividade é compatível c
 
 O código a seguir mostra o Controle de qualidade de atividade em uma chamada do lado do servidor:
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
