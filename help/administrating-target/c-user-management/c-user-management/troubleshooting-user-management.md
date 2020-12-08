@@ -1,13 +1,13 @@
 ---
 keywords: troubleshoot target;troubleshooting target;users;user management
 description: Solução de problemas de informações sobre o gerenciamento de usuários no Adobe Target.
-title: Solução de problemas de gerenciamento de usuários
+title: Solucionar problemas do gerenciamento de usuários no Adobe Target
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 30%
+source-wordcount: '75'
+ht-degree: 25%
 
 ---
 
