@@ -1,17 +1,18 @@
 ---
-description: Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O Avaliador de tráfego usa estatísticas sobre a página e a quantidade de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para que o teste seja bem-sucedido.
+keyword: traffic estimate;traffic estimator
+description: Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O Adobe Target Traffic Estimator usa estatísticas sobre sua página e o número de experiências testadas para estimar a quantidade de tráfego e a duração do teste necessário para que o teste seja bem-sucedido.
 title: Estimar o tráfego necessário para um teste bem-sucedido
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
 
-# Estimar o tráfego necessário para um teste bem-sucedido{#estimate-the-traffic-required-for-a-successful-test}
+# Estimar o tráfego necessário para um teste bem-sucedido
 
 Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O Avaliador de tráfego usa estatísticas sobre a página e a quantidade de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para que o teste seja bem-sucedido.
 
