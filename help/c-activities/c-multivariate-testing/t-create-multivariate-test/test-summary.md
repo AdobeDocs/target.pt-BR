@@ -1,13 +1,13 @@
 ---
 keywords: Overview and Reference
-description: O resumo do teste oferece uma visão geral visual do teste multivariado.
+description: O resumo do teste fornece uma visão geral visual do teste multivariado Adobe Target.
 title: Resumo do teste
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 87%
 
 ---
 
