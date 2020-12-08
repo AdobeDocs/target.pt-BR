@@ -1,13 +1,13 @@
 ---
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
-description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
+description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separado no Adobe Target.
 title: Ambientes
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 68%
+source-wordcount: '657'
+ht-degree: 65%
 
 ---
 
