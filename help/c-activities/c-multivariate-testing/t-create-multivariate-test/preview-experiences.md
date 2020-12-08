@@ -1,11 +1,11 @@
 ---
 description: Como um teste multivariado compara várias experiências em uma página, é útil visualizar a página com cada experiência.
-title: Experiências de visualização para um Teste multivariado
+title: Experiências de visualização para um Teste multivariado no Adobe Target
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
