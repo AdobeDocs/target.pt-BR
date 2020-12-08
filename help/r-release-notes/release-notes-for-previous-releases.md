@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: Notas de versão para versões anteriores de Públicos alvos, incluindo notas de versão do Target Standard/Premium, a plataforma do Público alvo e a biblioteca Javascript do Público alvo (at.js). As notas de versão são processadas em ordem decrescente por mês e ano da versão.
+description: Notas de versão de versões anteriores do Adobe Target, incluindo notas de versão do Target Standard/Premium, a plataforma do Público alvo e a biblioteca Javascript do Público alvo (at.js). As notas de versão são processadas em ordem decrescente por mês e ano da versão.
 title: Notas de versão para versões anteriores
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '29813'
+source-wordcount: '29814'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 86%
 
 # Notas de versão para versões anteriores{#release-notes-for-previous-releases}
 
-Notas de versão para versões anteriores de Públicos alvos, incluindo notas de versão do Target Standard/Premium, a plataforma do Público alvo e a biblioteca Javascript do Público alvo (at.js). As notas de versão são processadas em ordem decrescente por mês e ano da versão.
+Notas de versão para versões anteriores de Públicos alvos, incluindo notas de versão do Target Standard/Premium, a plataforma do Público alvo e a biblioteca Javascript do Público alvo (at.js).
+
+As notas de versão são processadas em ordem decrescente por mês e ano da versão.
 
 >[!NOTE]
 >
