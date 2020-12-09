@@ -4,9 +4,9 @@ description: 'A tomada de decisão no dispositivo oferece a capacidade de armaze
 title: Decisão no dispositivo
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Este vídeo de 7 minutos:
 * Mostra exemplo de código SDK Node.JS que contém a configuração de chave necessária para a decisão no dispositivo
 * Demonstra resultados em um navegador
 
-Ao final deste vídeo, você poderá:
-
-* Descrever a decisão no dispositivo e seus benefícios
-* Ativar a decisão no dispositivo em [!DNL Target]
-* Criar uma atividade de compositor baseada em formulário para uso com decisão no dispositivo
-* Saiba mais sobre a configuração do SDK necessária para a tomada de decisões no dispositivo visitando a documentação do SDK do [Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Entenda quais experiências os usuários finais terão com o conteúdo fornecido usando a decisão no dispositivo
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+Para obter mais vídeos e tutoriais, consulte o guia de Tutorials [](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) Adobe Target.
