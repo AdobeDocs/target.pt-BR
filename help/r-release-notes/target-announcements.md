@@ -4,9 +4,9 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de públicos alvos
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Mais do que nunca, os profissionais de marketing, os proprietários de produtos 
 Neste webinar gravado, os especialistas em produtos da Adobe Target discutem como mover as decisões de otimização de experiência crítica no dispositivo para execução local com latência zero pode abrir portas para novos casos de uso interessantes e, ao mesmo tempo, melhorar o desempenho do site para seus clientes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[Registre-se aqui para este evento empolgante.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinar: Como o HSBC utiliza a Adobe Target e a IA para otimizar e fornecer rapidamente personalização em escala
 
