@@ -1,20 +1,20 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Use sequências de até cinco critérios para exercer maior controle dos itens exibidos nas atividades Adobe Target Recommendations.
 title: Criar sequências de critérios
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 36%
+source-wordcount: '808'
+ht-degree: 35%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Criar sequência de critérios
 
-Use sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do [!UICONTROL Recommendations].
+Use sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do [!UICONTROL Recommendations. ] Você também pode limitar o número de itens retornados (às vezes chamados de &quot;controle de nível de slot&quot;).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar sequên
 
    ![Limitar o número de itens retornados alternar](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Para ajudá-lo a entender o valor da opção [!UICONTROL Limitar o número de itens retornados] , considere os seguintes casos de uso:
+   Para ajudá-lo a entender o valor da opção [!UICONTROL Limitar o número de itens retornados] (às vezes chamada de &quot;controle de nível de slot&quot;), considere os seguintes casos de uso:
 
    * **Caso de uso 1**: Você deseja ter uma combinação de diferentes tipos de itens em uma única bandeja de recomendações. Por exemplo, você quer mostrar uma mistura de roupas (casacos) e tampas (camisas, camisas). Para isso, use uma Coleção para a atividade que inclua todos os tipos de produto potenciais que você deseja em qualquer slot do seu design. Em seguida, configure seus primeiros critérios com um filtro estático limitando os critérios para incluir apenas desgaste externo e configure seus segundo critérios com um filtro estático limitando os critérios para incluir somente os demais. Por fim, adicione ambos os critérios a uma sequência de critérios e limite o primeiro critério a 2 slots.
 
