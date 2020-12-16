@@ -100,7 +100,7 @@ Ou sua atividade deve ser direcionada aos visitantes de uma região geográfica 
 |--- |--- |
 | Públicos-alvo reutilizáveis | Os públicos reutilizáveis podem ser selecionados para qualquer atividade. A mudança de um desses públicos-alvo é refletida para todas as atividades que o utilizam. |
 | Segmentos personalizados | Segmentos personalizados (conhecidos também como segmentos específicos de campanha) são específicos de uma campanha no Target Classic. Eles são criados como parte da campanha e não podem ser reutilizados em outras campanhas. |
-| Públicos-alvo compartilhados | Os públicos-alvo podem ser compartilhados nas soluções [!DNL Adobe Experience Cloud]. See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
+| Públicos-alvo compartilhados | Os públicos-alvo podem ser compartilhados nas soluções [!DNL Adobe Experience Cloud]. Consulte [Audiência](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) para obter exemplos. |
 
 Para obter informações sobre como o perfil do visitante acompanha informações sobre visitantes do site, consulte [Perfis de visitante](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -108,7 +108,7 @@ Para obter informações sobre como o perfil do visitante acompanha informaçõe
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Tipos de atividades (9:03) ![Etiqueta de visão geral](/help/assets/overview.png)
+### Tipos de atividades (9:03)  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
@@ -118,7 +118,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Usando o Audiência no Adobe Target (6:21) ![emblema de visão geral](/help/assets/overview.png)
+### Usando o Audiência no Adobe Target (6:21) ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
