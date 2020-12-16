@@ -30,8 +30,8 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    Para instruções de como baixar o SDK apropriado, consulte:
 
-   * **iOS:** [Antes de start](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) na Ajuda *do iOS do* Mobile Services.
-   * **Android:** [Antes de start](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) na Ajuda *do Android do* Mobile Services.
+   * **iOS:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iniciar a Ajuda *do iOS do* Mobile Services.
+   * **Android:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) iniciar a Ajuda *do Android do* Mobile Services.
 
 1. **Defina um esquema de URL:** o link de visualização usa um esquema de URL para abrir seu aplicativo. Você deve especificar um esquema de URL único para a visualização.
 
