@@ -12,7 +12,7 @@ ht-degree: 95%
 ---
 
 
-# adobe.target.applyOffers(options) - at.js 2.x
+# adobe.público alvo.applyOffers (opções) - at.js 2.x
 
 Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.target.getOffers()`.
 
@@ -22,14 +22,14 @@ Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.t
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| selector | String    | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML, onde [!DNL Target] deve colocar o conteúdo da oferta. If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | String    | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML, onde [!DNL Target] deve colocar o conteúdo da oferta. Se um seletor não for fornecido, [!DNL Target] assumirá que o elemento HTML a ser usado é HTML HEAD. |
 | Resposta | Objeto | Sim | Objeto response de `getOffers()`.<br>Consulte Tabela de solicitações abaixo. |
 
 ## Resposta
 
 >[!NOTE]
 >
->Consulte a documentação [da API de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Delivery para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
+>Consulte a [documentação da API do Delivery](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
 
 | Nome do campo | Descrição |
 | --- | --- |
