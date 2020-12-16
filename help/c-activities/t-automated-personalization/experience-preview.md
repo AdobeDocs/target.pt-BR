@@ -12,7 +12,7 @@ ht-degree: 65%
 ---
 
 
-# ![ATIVIDADES PREMIUM](/help/assets/premium.png) Pré-visualização Automated Personalization com URLs de pré-visualização de experiência{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![automated personalization atividade ](/help/assets/premium.png) PREMIUMPreview com URLs de pré-visualização de experiência{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 É possível gerar URLs de pré-visualização de experiência para o Público alvo Automated Personalization atividade para ver o conteúdo de experiência diretamente no seu site antes que a atividade esteja ativa para fins de pré-visualização e QA. URLs de pré-visualização de experiência ignoram a definição de metas para forçar a visualização de uma experiência específica.
 
@@ -31,14 +31,14 @@ Use URLs de pré-visualização de experiência para compartilhar experiências 
 1. Reveja e/ou especifique seus URLs.
 
    * Se você está usando o Visual Experience Composer, o URL padrão que você especificou para a atividade é inserido automaticamente e um link é gerado para cada experiência na sua atividade. Você pode alterar este URLS e adicionar outros, se quiser.
-   * Se você está usando o Experience Composer baseado em formulário, nenhum URL padrão é inserido automaticamente. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. Você deve especificar todos URLs que quer visualizar além de um nome para cada URL.
+   * Se você está usando o Experience Composer baseado em formulário, nenhum URL padrão é inserido automaticamente. Se você ainda não criou os URLs de pré-visualização da experiência, clique em **Adicionar novo URL**. Você deve especificar todos URLs que quer visualizar além de um nome para cada URL.
 
    Você pode adicionar vários URLs, o que é útil ao executar um teste multipágina ou um teste de modelo e você quer visualizar a atividade em mais de uma página.
 
    Uma janela modal exibe links para suas experiências em seu site para obter uma &quot;visualização real&quot; das experiências fora do Visual Experience Composer do Target. É necessário compartilhar os links da mensagem para compartilhar a visualização. Clicar em um link e copiar o URL resultante da página não funciona porque o URL contém um parâmetro que só exibe a página corretamente quando você acessa a página a partir do link na mensagem. Em vez disso, copie o texto na janela modal e envie o texto inteiro por email para sua equipe.
 1. Clique em **[!UICONTROL Gerar tudo]** e, em seguida, clique em cada experiência para visualizá-la.
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
+   Se você fizer alterações na experiência, certifique-se de gerar novos links de pré-visualização para sua equipe, retornando à janela modal e clicando em **Renovar links** para obter novos links.
 
    **Observação:** os links de visualização abrem em novas guias e requerem que o bloqueador de pop-up do seu navegador esteja desabilitado.
 
