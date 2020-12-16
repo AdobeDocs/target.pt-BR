@@ -16,6 +16,6 @@ ht-degree: 25%
 
 Solução de problemas de informações sobre o gerenciamento de usuários no Adobe Target.
 
-## I invited a user to Target, but his or her name does not display in the Users list (Administraion > Users). {#section_13A1A9697BA44537BA569C81CF136160}
+## Convidei um usuário para o Público alvo, mas seu nome não é exibido na lista Usuários (Administração > Usuários). {#section_13A1A9697BA44537BA569C81CF136160}
 
-You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her Adobe Experience Cloud account and then logs in to [!DNL Target Standard/Premium].
+Você não verá o novo usuário listado na página [!UICONTROL Usuários] até que o usuário faça logon usando sua conta do Adobe Experience Cloud e faça logon em [!DNL Target Standard/Premium].
