@@ -28,7 +28,7 @@ Quando um visitante acessa uma página onde você configurou uma atividade, o [!
 
 Se o visitante for identificado como parte de um público-alvo de direcionamento, o [!DNL Target] determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criado.
 
-## Vídeo de treinamento: Direcionamento de atividades  (2:13) ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Direcionamento de atividades  (2:13)  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração do direcionamento e dos públicos-alvo.
 
