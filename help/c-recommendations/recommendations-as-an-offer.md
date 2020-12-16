@@ -121,6 +121,6 @@ O status da oferta de recomendações (algoritmo) é exibido na parte inferior d
 
 ![Status da oferta de recomendações](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vídeo de treinamento: Recommendations como um selo de ![Visão geral da oferta](/help/assets/overview.png)
+## Vídeo de treinamento: Recommendations como um símbolo de oferta ![Visão geral](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
