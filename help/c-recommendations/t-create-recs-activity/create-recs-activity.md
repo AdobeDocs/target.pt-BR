@@ -32,7 +32,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Caso não veja essa opção, a licença da organização é do Target Standard.
+   >A opção [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso [Público alvo Premium](/help/c-intro/intro.md). Caso não veja essa opção, a licença da organização é do Target Standard.
 
 1. (Condicional) Se você for um [cliente do Target Premium](/help/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -46,7 +46,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    Ao clicar em [!UICONTROL Avançar], o VEC será aberto e irá exibir sua página. Você pode substituir um elemento atual com recomendações ou inseri-las.
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. Clique em um elemento na sua página e, se as recomendações estiverem disponíveis, clique em **[!UICONTROL Substituir com Recommendations]**, **[!UICONTROL Inserir Recommendations Antes]** ou **[!UICONTROL Inserir Recommendations Depois]**.
 
    Os visitantes do site visualizarão o conteúdo recomendado somente se eles se qualificarem para a recomendação. Os visitantes que não se qualificarem para a recomendação verão o conteúdo padrão.
 
@@ -75,7 +75,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
 1. Selecione um ou mais [critérios](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. Você pode alterar essas opções para exibir outros critérios.
+   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. Por padrão, a tela [!UICONTROL Selecionar critérios] exibe critérios compatíveis com o vertical do setor e o tipo de página selecionado na etapa anterior. Você pode alterar essas opções para exibir outros critérios.
 
    >[!NOTE]
    >
@@ -89,8 +89,8 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
       Alguns critérios são fornecidos com o [!DNL Recommendations]. Você e sua equipe também podem criar seus próprios critérios personalizados.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Para obter informações sobre como criar novos critérios, consulte [Criação de critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Você também pode agrupar critérios em sequências. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Consulte [Criar sequência](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) de critérios para obter mais informações.
+   * Para criar um novo critério, clique em **[!UICONTROL Criar critérios]** > **[!UICONTROL Criar critérios]** e preencha as informações para os novos critérios. Para obter informações sobre como criar novos critérios, consulte [Criação de critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Você também pode agrupar critérios em sequências. Para criar uma nova sequência de critérios, clique em **[!UICONTROL Criar Critérios]** > **[!UICONTROL Criar Sequência de Critérios]**. Consulte [Criar sequência de critérios](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) para obter mais informações.
 
 1. Clique em **[!UICONTROL Avançar]**.
 1. Selecione um [design](/help/c-recommendations/c-design-overview/design-overview.md).
@@ -178,6 +178,6 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    Conflitos de atividade ocorrem quando várias atividades estão definidas para entregar conteúdo na mesma página e podem fazer com que conteúdo inesperado seja exibido.
 
-## Vídeo de treinamento: criar uma atividade do Recommendations (7:15) ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: criar uma atividade do Recommendations (7:15)  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
