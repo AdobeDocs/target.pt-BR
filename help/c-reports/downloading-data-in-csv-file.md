@@ -28,7 +28,7 @@ Download de dados em um arquivo CSV:
    * [!UICONTROL Exportar relatórios para CSV]
    * [!UICONTROL Exportar detalhes do pedido para CSV]
 
-   ![Opções de download](/help/c-reports/assets/download-options.png)
+   ![Baixar opções](/help/c-reports/assets/download-options.png)
 
 ## Exportar relatório para CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -41,7 +41,7 @@ Os dados são salvos até o final da atividade.
 
 >[!NOTE]
 >
->O relatório CSV inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, incentivo ou confiança usados para testes A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>O relatório CSV inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, incentivo ou confiança usados para testes A/B. Para calcular essas métricas calculadas, baixe o arquivo Excel [Calculadora de confiança completa](/help/assets/complete_confidence_calculator.xlsx) do Público alvo para inserir o valor do atividade ou reveja os [cálculos estatísticos usados pelo Público alvo](/help/assets/statistical-calculations.pdf).
 
 ## Exportar detalhes do pedido para CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
