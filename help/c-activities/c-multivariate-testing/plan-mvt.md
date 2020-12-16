@@ -26,7 +26,7 @@ Planejar o teste dos elementos na sua página com maior probabilidade de produzi
 
 Por fim, antes de criar seu teste, você deve criar o conteúdo que deseja testar. Entenda as diferenças de conteúdo de cada oferta e crie imagens, texto, e ofertas de HTML que você espera usar no teste.
 
-## Vídeo de treinamento: Criando o selo do ![tutorial de testes multivariados (9:25)](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando testes multivariados (9:25) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo monstra como planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target.
 
