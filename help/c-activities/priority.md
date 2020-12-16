@@ -16,7 +16,7 @@ ht-degree: 88%
 
 O Target determina qual atividade (ou quais atividades) mostrar em uma página de maneira diferente, dependendo da interface do Target e da função de criação de atividade (Visual Experience Composer ou Compositor baseado em formulário) que você está usando.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer apenas ou Composer baseado em forma usando a solicitação de Público alvo global somente {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experience Composer, então o conteúdo de várias atividades pode ser retornado para a mesma chamada. As atividades são entregues por meio do seguinte fluxo de decisão:
 
@@ -40,7 +40,7 @@ Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experie
    * Se apenas uma atividade tem direcionamento de público-alvo, essa atividade é exibida.
    * Se há direcionamento em todas ou nenhuma, a atividade que foi aprovada primeiro é exibida.
 
-## Composer baseado em formulário do Target Standard/Premium e Visual Experience Composer do Target Standard/Premium  {#section_4620253E1CE942DD830724C7822B175F}
+## Composer baseado em formulário do Target Standard/Premium e Visual Experience Composer do Target Standard/Premium   {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experie
 
 Se a sua empresa usa um Composer baseado em formulário no Target Standard/Premium e o Visual Experience Composer do Target Standard/Premium, então o conteúdo de várias atividades do Visual Experience Composer podem ser entregues, mas somente uma atividade do fluxo de trabalho baseado em formulário. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. A chamada do servidor do público alvo chega ao Público alvo com informações sobre a solicitação [!DNL Target] e o URL.
+1. O Público alvo Classic e o Standard extraem cada atividade em execução na solicitação [!DNL Target].
 1. O Target tenta corresponder o visitante às atividades.
 
    Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
@@ -65,16 +65,16 @@ Por exemplo, se você tiver duas atividades, uma definindo as metas da palavra-c
 
 Se ambas as atividades direcionadas tiverem a mesma prioridade, a atividade que foi mais recentemente visualizada é exibida. Se o visitante for novo na página, a atividade ativada por último será exibida.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositor baseado em forma Target Standard/Premium com solicitações de Público alvo não globais {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Essas informações também se aplicam a todas as campanhas que foram criadas no Target Classic.
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
+Se sua empresa usar solicitações [!DNL Target] diferentes da solicitação global [!DNL Target] no compositor baseado em formulário, o conteúdo de apenas uma atividade poderá ser retornado por chamada. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
-1. [!DNL Target] puxa cada atividade em execução nessa [!DNL Target] solicitação.
+1. A chamada do servidor [!DNL Target] chega a [!DNL Target] com informações sobre a solicitação e o URL [!DNL Target].
+1. [!DNL Target] puxa cada atividade em execução nessa  [!DNL Target] solicitação.
 1. [!DNL Target]O tenta corresponder o visitante à atividades com prioridade mais alta.
 
    Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
