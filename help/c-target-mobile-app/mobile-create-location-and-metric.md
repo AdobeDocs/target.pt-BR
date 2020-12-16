@@ -20,7 +20,7 @@ Esta seção inclui amostras de código que podem ser usadas como molde para seu
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>Consulte a [documentação móvel](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) para obter uma lista de todos os métodos de Público alvo disponíveis.
 
 Existem dois métodos primários para criar um local do Target no seu aplicativo e fazer uma solicitação:
 
