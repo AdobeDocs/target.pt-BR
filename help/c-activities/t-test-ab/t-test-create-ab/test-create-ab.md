@@ -14,15 +14,15 @@ ht-degree: 64%
 
 # Criar um teste A/B
 
-Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
+Use o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] para criar sua atividade [!UICONTROL Teste A/B] diretamente em uma página ativada por [!DNL Target] e modificar partes da página em [!DNL Target].
 
 >[!NOTE]
 >
->Além da atividade de teste [!UICONTROL A/B Manual (Padrão) (discutida nesta seção),] fornece dois tipos adicionais de atividades de teste [!DNL Target]  A/B: [!UICONTROL Alocar] automaticamente e Público alvo [!UICONTROL automático].
+>Além da atividade Manual (Padrão) [!UICONTROL Teste A/B] (discutida nesta seção), [!DNL Target] fornece dois tipos adicionais de atividades [!UICONTROL Teste A/B]: [!UICONTROL Alocar automaticamente] e [!UICONTROL Público alvo automático].
 >
->Consulte [Tipos de atividades](/help/c-activities/t-test-ab/test-ab.md#types) de teste A/B na visão geral *do teste* A/B.
+>Consulte [Tipos de atividades de teste A/B](/help/c-activities/t-test-ab/test-ab.md#types) em *Visão geral do teste A/B*.
 
-Para criar uma atividade manual de teste  A/B:
+Para criar uma atividade manual [!UICONTROL Teste A/B]:
 
 1. Na lista **[!UICONTROL Atividades]**, clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Teste A/B]**.
 
@@ -38,15 +38,15 @@ Para criar uma atividade manual de teste  A/B:
 
    ![Criar Atividade de teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. Consulte [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md) para obter mais informações.
+   Se preferir usar o [!UICONTROL Criador de experiências baseado em forma], selecione [!UICONTROL Formulário]. Consulte [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
-   >Além do VEC e do Criador de experiências baseado em [!UICONTROL forma], [!DNL Target] oferta a VEC do aplicativo de página única. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
+   >Além do VEC e do [!UICONTROL Criador de experiências baseado em forma], o [!DNL Target] oferta o aplicativo de página única VEC. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >A opção [[!UICONTROL Escolher local de trabalho]](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >A opção [[!UICONTROL Escolher local de trabalho]](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Sua organização tem uma licença [!UICONTROL Target Standard] se você não visualizar essa opção.
 
 1. (Condicional) Se você for um [cliente do Target Premium](/help/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -89,9 +89,9 @@ Para criar uma atividade manual de teste  A/B:
 
    O diagrama do fluxo guia você pelas etapas da escolha do público-alvo para a atividade e da configuração das experiências.
 
-1. Na caixa [!UICONTROL Audiência] , clique no ícone de edição (três elipses verticais), clique em **[!UICONTROL Substituir Audiência]** e [selecione a audiência](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para a atividade.
+1. Na caixa [!UICONTROL Audiência], clique no ícone de edição (três elipses verticais), clique em **[!UICONTROL Substituir Audiência]** e [selecione a audiência](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para a sua atividade.
 
-   By default, the audience is set to [!UICONTROL All Visitors].
+   Por padrão, a audiência está definida como [!UICONTROL Todos os Visitantes].
 
 1. Escolha a porcentagem de visitantes qualificados que você deseja inserir na atividade.
 
@@ -109,24 +109,24 @@ Para criar uma atividade manual de teste  A/B:
 
    * **[!UICONTROL Alocar automaticamente para a melhor experiência]**: a maioria dos participantes da atividade é direcionada automaticamente para as experiências de maior desempenho. Alguns visitantes são alocados em todas experiências, para manter a exploração de experiências e reconhecer alterações em tendências de desempenho. Consulte [Alocação de tráfego automatizada](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-   * **[!UICONTROL Público alvo automático para experiências]** personalizadas: [!DNL Target] O usa o aprendizado de máquina avançado para personalizar o conteúdo e gerar conversões, identificando várias experiências de alto desempenho definidas pelo profissional de marketing e, em seguida, servindo a experiência mais personalizada para visitantes com base em seus perfis individuais de clientes e comportamentos passados de visitantes semelhantes. Para obter mais informações, consulte Público alvo [automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
-   You can also click **[!UICONTROL Add]** to add another experience to the activity.
+   * **[!UICONTROL Público alvo automático para experiências]** personalizadas:  [!DNL Target] O usa o aprendizado de máquina avançado para personalizar o conteúdo e gerar conversões, identificando várias experiências de alto desempenho definidas pelo profissional de marketing e, em seguida, servindo a experiência mais personalizada para visitantes com base em seus perfis individuais de clientes e comportamentos passados de visitantes semelhantes. Para obter mais informações, consulte [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
+   Você também pode clicar em **[!UICONTROL Adicionar]** para adicionar outra experiência à atividade.
 
-1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
+1. Quando estiver satisfeito com sua audiência, suas opções de experiência e suas opções de alocação de tráfego, clique em **[!UICONTROL Próximo]** para ir para a terceira etapa do fluxo de trabalho guiado em três etapas.
 
 1. Especifique as [metas e configurações](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) da atividade.
 
    ![Configurações de atividade A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. Clique em **[!UICONTROL Salvar e fechar]** ou em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Salvar e fechar]** ou **[!UICONTROL Salvar]**.
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+Depois de criar a atividade, a guia [!UICONTROL Visão geral] mostra informações sobre a atividade, incluindo um diagrama da atividade.
 
-## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando testes A/B (8:36) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste A/B usando fluxo de trabalho orientado de três etapas do [!DNL Target].
 
-* Criar uma atividade de teste  A/B em [!DNL Adobe Target]
+* Criar uma atividade [!UICONTROL Teste A/B] em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
