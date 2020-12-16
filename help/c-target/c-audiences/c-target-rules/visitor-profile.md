@@ -43,7 +43,7 @@ Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criando o selo ![Visão geral do Audiência](/help/assets/overview.png)
+## Vídeo de treinamento: Criando o emblema ![Visão geral do Audiência](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
