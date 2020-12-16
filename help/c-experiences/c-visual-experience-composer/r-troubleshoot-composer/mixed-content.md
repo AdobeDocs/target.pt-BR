@@ -12,13 +12,13 @@ ht-degree: 35%
 ---
 
 
-# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
+# Habilitar conteúdo misto em seu navegador{#enabling-mixed-content-in-your-browser}
 
-O conteúdo misto ocorre se o conteúdo HTTPS (seguro) ** e HTTP (inseguro) for carregado para exibir a mesma página da Web e a solicitação inicial estiver protegida em HTTPS.
+O conteúdo misto ocorre se o conteúdo HTTPS (seguro) *e* HTTP (inseguro) for carregado para exibir a mesma página da Web e a solicitação inicial estiver protegida em HTTPS.
 
 Os navegadores modernos podem bloquear a exibição de uma página ou exibir mensagens de aviso se o conteúdo protegido estiver misturado a conteúdo inseguro.
 
-If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
+Se o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Target] tentar abrir uma página com conteúdo misto, uma mensagem será exibida mostrando como desativar o bloqueio no seu navegador para que você possa abrir um site HTTP ou um site que tenha chamadas mistas (HTTPS e HTTP).
 
 ![aviso de conteúdo misto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -34,7 +34,7 @@ Se o seu site estiver executando em um domínio inseguro (HTTP), precisa permiti
 
 Para obter mais informações, consulte [Conteúdo misto](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) no site *Mozilla Developer Network* (MDN).
 
-## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Habilitar conteúdo misto no Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Se você estiver visitando um site por uma conexão segura, o Chrome verificará se o conteúdo da página da Web foi transmitido com segurança.
 
@@ -42,17 +42,17 @@ Consulte [Esta página possui conteúdo não seguro](https://support.google.com/
 
 Se você estiver usando o VEC com a versão mais recente do Chrome (versão 79.0.3945.117 ou posterior), é necessário atualizar as configurações do site. Os visitantes do site não precisam concluir essas etapas.
 
-1. Clique no ícone de bloqueio ou cuidado e, em seguida, clique em Configurações **** do site.
+1. Clique no ícone de bloqueio ou cuidado e em **[!UICONTROL Configurações do site]**.
 
    ![Configurações do site](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Role até Conteúdo **** inseguro e use a lista suspensa para alterar &quot;Bloquear (padrão)&quot; para &quot;Permitir&quot;.
+1. Role até **[!UICONTROL Conteúdo inseguro]** e use a lista suspensa para alterar &quot;Bloquear (padrão)&quot; para &quot;Permitir&quot;.
 
    ![Conteúdo inseguro](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Recarregue a página VEC.
 
-## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Habilitar conteúdo misto no Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Por padrão, o Firefox bloqueia páginas que misturem conteúdo seguro e inseguro. É recomendável alterar essa definição permanentemente para usar o [!DNL Target]. Os visitantes do site não precisam concluir essas etapas.
 
@@ -79,11 +79,11 @@ Se você estiver visitando um site por uma conexão segura, o Edge verificará s
 
 Se estiver usando o VEC com a versão mais recente do Edge, é necessário atualizar as configurações do site. Os visitantes do site não precisam concluir essas etapas.
 
-1. Clique no ícone de bloqueio ou cuidado e, em seguida, clique em Permissões **** do site.
+1. Clique no ícone de bloqueio ou cuidado e em **[!UICONTROL Permissões do site]**.
 
    ![Permissões do site no Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Role até Conteúdo **** inseguro e use a lista suspensa para alterar &quot;Bloquear (padrão)&quot; para &quot;Permitir&quot;.
+1. Role até **[!UICONTROL Conteúdo inseguro]** e use a lista suspensa para alterar &quot;Bloquear (padrão)&quot; para &quot;Permitir&quot;.
 
    ![Conteúdo inseguro](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
