@@ -12,7 +12,7 @@ ht-degree: 10%
 ---
 
 
-# ![Correspondência de parâmetros PREMIUM](/help/assets/premium.png)
+# ![Correspondência ](/help/assets/premium.png) PREMIUMParameter
 
 Filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).
 
@@ -33,9 +33,9 @@ Por exemplo, somente conteúdo recomendado que corresponda ao parâmetro de pág
 
 ## Exemplos de correspondência de parâmetros
 
-[!UICONTROL A Correspondência] de parâmetros permite que você recomende conteúdo que corresponda aos parâmetros da página ou aos parâmetros do visitante, como dimensões do dispositivo ou localização geográfica, como no exemplo a seguir:
+[!UICONTROL A ] Correspondência de parâmetros permite que você recomende conteúdo que corresponda aos parâmetros da página ou aos parâmetros do visitante, como dimensões do dispositivo ou localização geográfica, como no exemplo a seguir:
 
-[!DNL Recommendations] pode corresponder aos valores de parâmetro enviados na [!DNL Target] chamada. Nesse caso, [!DNL Target] detecta que um visitante está usando um dispositivo móvel, com base nos parâmetros de altura e largura da tela enviados na [!DNL Target] chamada, e recomendará somente itens que sejam dispositivos móveis.
+[!DNL Recommendations] pode corresponder aos valores de parâmetro enviados na  [!DNL Target] chamada. Neste caso, [!DNL Target] detecta que um visitante está usando um dispositivo móvel, com base nos parâmetros de altura e largura da tela enviados na chamada [!DNL Target], e recomendará somente itens que sejam dispositivos móveis.
 
 Considere a seguinte chamada de Público alvo de exemplo:
 
