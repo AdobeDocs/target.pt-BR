@@ -36,15 +36,15 @@ O público alvo recebe o endereço IP completo e o ofusca (se estiver definido c
 
 >[!NOTE]
 >
->[Entre em contato com o Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para determinar que configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
+>[Entre em contato com o ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Atendimento ao cliente Adobe para determinar que configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
 
-## GeoSegmentation  {#section_BB69F96559BD44BDA4177537C4A5345A}
+## GeoSegmentation   {#section_BB69F96559BD44BDA4177537C4A5345A}
 
 Se você ativar a substituição do último octeto do endereço IP, os valores restantes do endereço IP poderão ser analisados por meio de relatórios no Adobe Target. Se o último octeto do endereço IP não for ofuscado, o endereço IP inteiro poderá ser analisado no Adobe Target. Você pode usar o recurso GeoSegmentation para mapear o local do visitante por área geográfica. Os dados de GeoSegmentation são granulares somente no nível da cidade ou no nível de código postal, e não no nível individual.
 
 Se os endereços IP forem completamente ofuscados, a GeoSegmentation e a geolocalização não estarão disponíveis.
 
-## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Link de opção de não participação {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Você pode adicionar um link para opção de não participação a seus sites para permitir que os visitantes optem por não participar de todas as contagens e entregas de conteúdo.
 
@@ -59,4 +59,4 @@ Mesmo se estiver usando uma implementação de cookie primário, a opção de n�
 
 ## Privacidade e regulamentos sobre proteção de dados
 
-See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+Consulte [Regras de privacidade e proteção de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) para obter informações sobre o Regulamento Geral de Proteção de Dados da União (RGPD), o Ato de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos internacionais de privacidade, e como essas regulamentações afetam sua organização e a Adobe Target.
