@@ -14,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Configurações de atividade do Recommendations{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+Informações sobre as configurações que você pode usar para descrever e controlar uma atividade [!UICONTROL Recommendations] em [!DNL Adobe Target].
 
 ![Página Metas e configurações do Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ Os seguintes caracteres não são permitidos em um nome de atividade:
 `-`
 `@`
 
-Se especificar um nome de atividade do [!UICONTROL Recommendations] que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+Se especificar um nome de atividade do [!UICONTROL Recommendations] que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. Esse novo nome é exibido em [!DNL Target Standard/Premium] e [!UICONTROL Recommendations Classic].
 
 ## Objetivo
 
@@ -55,7 +55,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 ## Configurações da geração de relatórios
 
-* **Fonte do relatórios:** Selecione a fonte do relatórios: [!DNL Adobe Target] ou [do Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
+* **Fonte do relatórios:** Selecione a fonte do relatórios:  [!DNL Adobe Target] ou  [do Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
 * **Métrica de objetivo:** selecione a métrica de sucesso que determina se a atividade é bem sucedida.
 * **Métricas adicionais:** configure métricas de sucesso adicionais para serem usadas nos relatórios.
 * **Públicos-alvo para relatórios:** defina o público-alvo que pode ser usado ao filtrar os relatórios.
