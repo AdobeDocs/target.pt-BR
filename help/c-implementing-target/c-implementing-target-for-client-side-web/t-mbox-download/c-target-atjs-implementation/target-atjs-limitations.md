@@ -22,7 +22,7 @@ Há algumas diferenças entre o at.js e o mbox.js. Este tópico lista algumas da
 
    Como o DOM não é limpo em eventos de carregamento de página nos aplicativos de página única, como ocorre em sites tradicionais, as manipulações de Inserir elemento e Reorganizar podem ser reaplicadas várias vezes, dependendo de como o visitante navega no SPA.
 
-## Integrações e plug-ins  {#section_D92E31170176406AAC7B5005F03D3425}
+## Integrações e plug-ins   {#section_D92E31170176406AAC7B5005F03D3425}
 
 Algumas funções da [!DNL mbox.js] não estão disponíveis na [!DNL at.js]. Métodos e objetos da [mbox.js internos](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (como `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` e outros) não são mais compatíveis com a [!DNL at.js] (por exemplo: `mboxFactoryDefault`). Isso ocorre por design, destinado a desencorajá-lo de &quot;hackear&quot; a [!DNL at.js] para desenvolver recursos não suportados que, a longo prazo, podem comprometer uma implementação e impossibilitar a atualização. Os únicos métodos expostos são abordados nas páginas da API desta documentação. Por esse motivo:
 
