@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![Filtro estático PREMIUM](/help/assets/premium.png)
+# ![Filtro ](/help/assets/premium.png) Tático PREMIUMS
 
-Insira manualmente um ou mais valores estáticos para filtrar usando as regras de inclusão no [!DNL Adobe Target][!DNL Recommendations].
+Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão em [!DNL Adobe Target] [!DNL Recommendations].
 
 Por exemplo, recomendamos apenas o conteúdo com uma classificação MPA (Motion Picture Association) de &quot;G&quot; ou &quot;PG&quot;.
 
