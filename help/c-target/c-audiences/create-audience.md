@@ -58,7 +58,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
    Públicos-alvo criados recentemente aparecem na lista após alguns segundos de processamento. Se o público-alvo não aparecer imediatamente na lista, tente procurar pelo público-alvo ou atualizar a lista.
 
-## Vídeo de treinamento: Criação de públicos-alvo ![Etiqueta de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre a criação de públicos-alvo.
 
