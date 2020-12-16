@@ -34,7 +34,7 @@ Você pode editar ou copiar uma pasta ou oferta ao passar o mouse sobre o item d
 
 ![](assets/offer-picker-large.png)
 
-## Exibição de definições das ofertas  {#section_6B059DD121434E6292CAB393507D010E}
+## Exibição de definições das ofertas   {#section_6B059DD121434E6292CAB393507D010E}
 
 É possível ver os detalhes da definição da oferta em um cartão pop-up na Biblioteca de ofertas, sem precisar abrir a oferta.
 
@@ -86,7 +86,7 @@ As informações a seguir estão disponíveis:
 * Redirecionar tipo de URL
 * URL absoluto ou relativo
 
-## Vídeo de treinamento: o repositório de conteúdo ![Etiqueta de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: o repositório de conteúdo  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre o gerenciamento de ofertas.
 
