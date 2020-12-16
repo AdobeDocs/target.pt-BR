@@ -12,15 +12,15 @@ ht-degree: 69%
 ---
 
 
-# Mobile Viewports for responsive experiences{#mobile-viewports-for-responsive-experiences}
+# Visualizações móveis para experiências responsivas{#mobile-viewports-for-responsive-experiences}
 
-Mobile viewports help you preview how your [!DNL Target] activities appear on screens of various sizes.
+Os visores móveis ajudam você a pré-visualização de como suas atividades [!DNL Target] aparecem em telas de vários tamanhos.
 
 O recurso de pré-visualização do visor móvel foi projetado para sites responsivos que são bem renderizados em vários dispositivos, janelas ou tamanhos de tela. Sites responsivos ajustam-se e adaptam-se automaticamente a qualquer tamanho de tela, incluindo desktops, laptops, tablets ou telefones celulares.
 
 >[!NOTE]
 >
-> * Use visores móveis se o seu site for responsivo e os mesmos elementos na sua página de desktop forem usados na sua página móvel em uma configuração diferente. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * Use visores móveis se o seu site for responsivo e os mesmos elementos na sua página de desktop forem usados na sua página móvel em uma configuração diferente. Se você tiver um site móvel separado com uma estrutura separada, como `m.mysite.com`, use uma [atividade de várias páginas](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) em vez disso.
    >
    >
 * Os visores móveis não estarão disponíveis se sobrepostos por uma oferta de redirecionamento.
@@ -76,9 +76,9 @@ Abaixo, estão visores e resoluções para alguns dispositivos populares. Lembre
 
 Se você deseja fornecer uma atividade a pessoas em um determinado dispositivo, escolha o público-alvo apropriado para ele no diagrama de atividade. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Se deseja executar uma atividade em toda a sua experiência digital e certificar-se de que ela funcione em todos os dispositivos, não aplique o direcionamento, e use visores móveis para visualizar a atividade em cada tela.
 
-Se você tiver um site responsivo, normalmente ele é projetado para abrir em uma exibição diferente, quando acessado por um dispositivo com uma tela específica. Esses tamanhos de tela que acionam as novas exibições são conhecidas como pontos de interrupção de CSS. Os pontos de interrupção CSS são pontos em que o conteúdo do site responde dependendo da largura do dispositivo para exibir o layout ideal para os visitantes. Os pontos de interrupção CSS também são chamados de query [de](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)mídia.
+Se você tiver um site responsivo, normalmente ele é projetado para abrir em uma exibição diferente, quando acessado por um dispositivo com uma tela específica. Esses tamanhos de tela que acionam as novas exibições são conhecidas como pontos de interrupção de CSS. Os pontos de interrupção CSS são pontos em que o conteúdo do site responde dependendo da largura do dispositivo para exibir o layout ideal para os visitantes. Os pontos de interrupção CSS também são chamados de [query de mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
-Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences is displayed in a mobile viewport in the [!DNL Target] interface. Abra a exibição em cada tamanho de tela ao clicar no visor ao longo da parte superior do visor.
+Salve os pontos de interrupção CSS em [!DNL Target] para que você possa pré-visualização suas experiências para cada visualização definida. Cada uma dessas experiências é exibida em um visor móvel na interface [!DNL Target]. Abra a exibição em cada tamanho de tela ao clicar no visor ao longo da parte superior do visor.
 
 Se o seu site não for responsivo, você ainda poderá usar o Mobile Web Composer para exibir um site, se sua atividade estiver direcionada para um dispositivo específico.
 
@@ -86,16 +86,16 @@ Se o seu site não for responsivo, você ainda poderá usar o Mobile Web Compose
 >
 >Embora você possa editar uma experiência em visualizações móveis, essas alterações se aplicam a todos os visualizadores e dispositivos, não apenas ao visor no qual você está trabalhando. Da mesma forma, editar uma experiência na exibição de desktop normal altera a página para todos os tamanhos de tela, não somente a exibição de desktop atual. Atualmente, não suportamos alterações de página específicas do visor.
 
-## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Configuração do visor móvel {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Configure as janelas de visualização móvel que você deseja disponibilizar ao criar suas experiências.
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
-1. Para adicionar um novo visor móvel, na seção de configuração **[!UICONTROL do visualizador]** móvel, clique em **[!UICONTROL Adicionar]**.
+1. Para adicionar um novo visor móvel, na seção **[!UICONTROL Configuração do visualizador móvel]**, clique em **[!UICONTROL Adicionar]**.
 
    ![Adicionar visor](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
-   To change the configuration of an existing mobile viewport, select that viewport, then click the [!UICONTROL Edit] (pencil) icon.
+   Para alterar a configuração de um visor móvel existente, selecione esse visor e clique no ícone [!UICONTROL Editar] (lápis).
 
 1. Digite um nome para a janela de visualização móvel.
 
@@ -115,7 +115,7 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
    * Symbian
    * BlackBerry
 
-   Se você usa o [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   Se você usa o [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] Por exemplo, se houver uma aparência diferente para o Android em relação ao iOS no site responsivo, [!DNL Target] imitará esse comportamento.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -123,11 +123,11 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
 >
 >Se você tentar excluir um visor móvel que esteja em uso, a seguinte mensagem será exibida: &quot;Atualmente, esse visor está associado a uma ou várias atividades. Você precisa remover o visor dessas atividades antes de poder excluí-lo.&quot;
 
-## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Crie uma experiência responsiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
+Adicione visores móveis às suas [!DNL Target] atividades para criar experiências responsivas para telas móveis.
 
-1. Crie a atividade [](/help/c-activities/activities.md)desejada.
+1. Crie a [atividade desejada](/help/c-activities/activities.md).
 1. No Visual Experience Composer, clique no ícone de engrenagem **[!UICONTROL Configurações]** e selecione **[!UICONTROL Adicionar janelas de visualização móvel]**.
 
    ![Opção Adicionar visualizações móveis](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
@@ -150,12 +150,12 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    ![Opções de orientação](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## Caso de uso: Público alvo de duas versões do iPhone {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
 Este caso de uso mostra como configurar experiências para duas versões do iPhone: iPhone 6 e iPhone 6 Plus.
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
-1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
+1. Na seção **[!UICONTROL Configuração do Mobile Viewport]**, crie visores móveis para iPhone 6 e iPhone 6 mais.
 
    Use as seguintes configurações para cada janela:
 
@@ -180,7 +180,7 @@ Este caso de uso mostra como configurar experiências para duas versões do iPho
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Visual Experience Composer (2 de 2) (7:29) ![Etiqueta de visão geral](/help/assets/overview.png)
+### Visual Experience Composer (2 de 2) (7:29)  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 O vídeo de demonstração a seguir inclui informações sobre o uso do Visual Experience Composer para funcionar com visores móveis:
 
