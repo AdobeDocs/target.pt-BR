@@ -20,7 +20,7 @@ O comportamento de cookies depende do tipo do cookie, podendo ser um cookie pró
 >
 >Este tópico contém informações sobre `mboxSession` e `mboxPC`. Nossas práticas recomendadas de implementação recomendam que você não vincule nem armazene informações confidenciais com os dados do cookie: `mboxSession` ou `mboxPC`.
 
-See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+Consulte também [Excluir o cookie do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## Quando utilizar cookies próprios ou de terceiros {#section_F71B29420C004A7FA3B1921E619B326E}
 
