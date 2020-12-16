@@ -19,7 +19,7 @@ O VEC é uma interface de usuário WYSIWYG que permite criar e testar facilmente
 
 O VEC é um dos principais recursos do [!DNL Adobe Target]. O VEC permite aos profissionais de marketing e designers criarem e alterarem o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor.
 
-On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
+Na guia Público alvo **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, você pode inserir o URL padrão do Visual Experience Composer.
 
 ![Configurações padrão de URL do VEC](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -130,7 +130,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Horas de escritório: Crachá do ![tutorial do Visual Experience Composer](/help/assets/tutorial.png)
+### Horas de escritório: Visual Experience Composer ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo é uma gravação de &quot;[No expediente](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
