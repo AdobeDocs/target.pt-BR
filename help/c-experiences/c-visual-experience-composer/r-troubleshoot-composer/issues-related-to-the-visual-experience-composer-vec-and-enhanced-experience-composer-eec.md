@@ -20,13 +20,13 @@ Problemas de exibição e outros problemas às vezes ocorrem no Visual Experienc
 
 Com as alterações mais recentes (agosto de 2020), todos os usuários com as versões do navegador Chrome 80+:
 
-* O VEC *não* poderá ser usado (com ou sem a extensão VEC Helper instalada e ativada) em páginas protegidas por senha de seus sites. Isso ocorre porque os cookies de logon do site serão considerados cookies de terceiros e não serão enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site do cliente já tem o parâmetro SameSite definido como &quot;none&quot;.
-* *Não* será possível baixar [!DNL Target] bibliotecas ao editar uma atividade (quando elas ainda não estão no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio de Adobe protegido e é rejeitada como não autenticada.
-* A EEC *não* funcionará para todos os usuários porque não é possível definir o atributo SameSite para cookies `adobemc.com domain`. Sem esse atributo, o navegador rejeitará esses cookies, fazendo com que a CEE falhe.
+* *not* poderá usar o VEC (com ou sem a extensão VEC Helper instalada e ativada) em páginas protegidas por senha de seus sites. Isso ocorre porque os cookies de logon do site serão considerados cookies de terceiros e não serão enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site do cliente já tem o parâmetro SameSite definido como &quot;none&quot;.
+* *not* poderá baixar as bibliotecas [!DNL Target] ao editar uma atividade (quando elas ainda não estiverem no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio de Adobe protegido e é rejeitada como não autenticada.
+* O EEC funcionará *não* para todos os usuários porque não é possível definir o atributo SameSite para cookies em `adobemc.com domain`. Sem esse atributo, o navegador rejeitará esses cookies, fazendo com que a CEE falhe.
 
-A Adobe enviou uma extensão do VEC Helper atualizada para a Google Chrome Store. Essa extensão substitui os atributos do cookie para definir o `SameSite="none"` atributo, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre a instalação e o uso da Extensão Auxiliar VEC, consulte a extensão [auxiliar do](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Visual Experience Composer.
+A Adobe enviou uma extensão do VEC Helper atualizada para a Google Chrome Store. Essa extensão substitui os atributos do cookie para definir o atributo `SameSite="none"`, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre como instalar e usar a Extensão Auxiliar VEC, consulte [Extensão auxiliar do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Para seus próprios cookies de site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ligada e especifique o cookie pelo nome e o domínio do cookie. O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte Cookies [da](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target no Guia *do usuário da interface do* Experience Cloud.
+Para seus próprios cookies de site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ligada e especifique o cookie pelo nome e o domínio do cookie. O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) no *Guia do Usuário da Interface do Experience Cloud*.
 
 ![Os cookies alternam na extensão auxiliar VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,7 +34,7 @@ Para seus próprios cookies de site, você deve especificar os cookies por nome.
 
 Use uma das seguintes opções para garantir que sua VEC e EEC continuem funcionando como esperado:
 
-* Baixe e use a extensão [atualizada do](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)VEC Helper.
+* Baixe e use a [extensão do Auxiliar VEC](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) atualizada.
 * Use o navegador Mozilla Firefox. O Firefox ainda não está aplicando essa política.
 * Continue usando o Chrome, mas defina o sinalizador `chrome://flags/#same-site-by-default-cookies` como &quot;Desativado&quot;.
 
@@ -93,7 +93,7 @@ Se a mesma ID de elemento DOM for usada em vários elementos na página, a alter
 
 ## Não consigo editar experiências para um site do iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. O Enhanced Experience Composer usa um proxy gerenciado pela Adobe para carregar sua página para edição. Isso permite a edição de sites no iFrame e a edição de sites e páginas em que ainda não adicionou código do Adobe Target. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites talvez não sejam carregados no Enhanced Experience Composer, nesse caso, você poderá desmarcar essa opção para carregar o Visual Experience Composer via um iFrame.  []
+Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que ativa o Enhanced Experience Composer. O Enhanced Experience Composer usa um proxy gerenciado pela Adobe para carregar sua página para edição. Isso permite a edição de sites no iFrame e a edição de sites e páginas em que ainda não adicionou código do Adobe Target. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites talvez não sejam carregados no Enhanced Experience Composer, nesse caso, você poderá desmarcar essa opção para carregar o Visual Experience Composer via um iFrame.   []
 
 >[!NOTE]
 >
