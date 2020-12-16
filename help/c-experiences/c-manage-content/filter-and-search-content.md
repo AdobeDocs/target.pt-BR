@@ -21,7 +21,7 @@ Esta seção contém as seguintes informações:
 * [Pesquisar por ativos usando palavra-chave](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [Salvar conjunto inteligente](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## Pesquisar por ativos usando palavra-chave  {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Pesquisar por ativos usando palavra-chave   {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagem]** para acessar a [!UICONTROL Biblioteca de ativos].
 
@@ -37,7 +37,7 @@ Esta seção contém as seguintes informações:
 
 1. Na caixa de pesquisa, digite uma palavra-chave para o ativo que deseja localizar, em seguida, pressione Enter.
 
-## Salvar conjunto inteligente  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Salvar conjunto inteligente   {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Você pode criar pesquisas salvas, chamadas coleções inteligentes, para economizar tempo ao realizar pesquisas similares. Uma pesquisa salva cria uma coleção inteligente que é automaticamente atualizada com os resultados de pesquisa.
 
