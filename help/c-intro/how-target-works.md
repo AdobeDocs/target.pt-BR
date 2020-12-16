@@ -86,19 +86,19 @@ Consulte [Recommendations](/help/c-recommendations/recommendations.md#concept_75
 
 As atividades do Recommendations exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
-## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## A rede de borda {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 Uma &quot;Edge&quot; é uma arquitetura de serviço distribuída geograficamente que garante tempos de resposta ideais para usuários finais que solicitem conteúdo, independentemente de onde estejam localizados em todo o mundo.
 
 Para melhorar os tempos de resposta, as bordas do Público alvo hospedam apenas a lógica de atividade, perfis em cache e informações de oferta.
 
-Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. As atualizações são então enviadas para as Bordas do Público alvo. Os clusters centrais e os clusters de borda são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. Toda a modelagem 1:1 também é armazenada em cada borda, de modo que essas solicitações mais complexas também podem ser processadas na borda.
+Bancos de dados de atividade e conteúdo, [!DNL Analytics] dados, APIs e interfaces de usuário do comerciante são abrigados nos clusters centrais do Adobe. As atualizações são então enviadas para as Bordas do Público alvo. Os clusters centrais e os clusters de borda são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. Toda a modelagem 1:1 também é armazenada em cada borda, de modo que essas solicitações mais complexas também podem ser processadas na borda.
 
 Cada cluster de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o Cluster de Borda mais próximo.
 
 Para obter mais informações, consulte o white paper [Visão geral da segurança no Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
+A solução [!DNL Adobe Target] é hospedada em data centers proprietários de Adobe e alugados por Adobe em todo o mundo.
 
 Os locais de Cluster Central contêm um centro de coleta de dados e um centro de processamento de dados. Os locais do Edge Cluster contêm apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
@@ -124,15 +124,15 @@ Os públicos alvos Edge Clusters, hospedados no AWS, estão localizados em:
 * Dublin, Irlanda
 * República de Cingapura
 
-O [!DNL Target Recommendations] serviço está hospedado em um centro de [!DNL Adobe] dados em Oregon.
+O serviço [!DNL Target Recommendations] está hospedado em um data center [!DNL Adobe] no Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] atualmente não tem um cluster Edge na China e o desempenho do usuário final continuará sendo limitado para [!DNL Target] os clientes na China. Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] atualmente não tem um cluster Edge na China e o desempenho do usuário final continuará a ser limitado para  [!DNL Target] os clientes na China. Devido ao firewall e à falta de clusters de borda no país, as experiências de sites com [!DNL Target] implantados serão lentas e as cargas de página serão afetadas. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação [!DNL Target].
 
-Você pode lista de permissões os Públicos alvos de Arestas de Arestas, se desejar. Para obter mais informações, consulte [lista de permissões nós](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)de borda do Público alvo.
+Você pode lista de permissões os Públicos alvos de Arestas de Arestas, se desejar. Para obter mais informações, consulte [lista de permissões nós de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
-## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Experiência protegida do usuário {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 A Adobe assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um usuário final e os servidores da Adobe pode causar uma interrupção na entrega de conteúdo.
 
@@ -194,7 +194,7 @@ Acreditamos que seria difícil alterar involuntariamente o significado do conte�
 
 ## Bots {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. O tráfego identificado como sendo gerado por um bot ainda recebe conteúdo, como um usuário comum, para garantir que esteja alinhado às diretrizes de SEO. O uso do tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de uma forma um pouco diferente. A remoção do tráfego de bot fornece uma medida mais precisa da atividade do usuário.
+A Adobe Target usa [DeviceAtlas](https://deviceatlas.com/) para detectar bots conhecidos. O tráfego identificado como sendo gerado por um bot ainda recebe conteúdo, como um usuário comum, para garantir que esteja alinhado às diretrizes de SEO. O uso do tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de uma forma um pouco diferente. A remoção do tráfego de bot fornece uma medida mais precisa da atividade do usuário.
 
 Especificamente, para o tráfego de bot conhecido, o Target não:
 
