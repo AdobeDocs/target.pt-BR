@@ -45,7 +45,7 @@ Para mais informações e exemplos de como usar `registerExtension`, consulte a 
 | globalMboxAutoCreate | Booleano | Indica se a criação automática está ativada ou não |
 | timeout | Número | Tempo limite da solicitação |
 
-## Métodos de módulo do agente de log  {#section_10AF62B49AEF48F981E950D26E176138}
+## Métodos de módulo do agente de log   {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Chave | Tipo | Descrição |
 |--- |--- |--- |
