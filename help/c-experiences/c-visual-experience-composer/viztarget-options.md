@@ -44,7 +44,7 @@ As seguintes tags de HTML 5 podem ser aninhadas:
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
 | `<label>` | `<p>` |
 
 #### Cor do plano de fundo
@@ -53,11 +53,11 @@ Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pod
 
 **Observação:** essa opção não está disponível para um elemento no qual uma imagem do fundo está definida.
 
-#### Estilos  {#styles}
+#### Estilos   {#styles}
 
 Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+Para acessar o painel [!UICONTROL Estilos], clique em um elemento de página no VEC e, em seguida, clique em **[!UICONTROL Editar]** > **[!UICONTROL Estilos]**.
 
 O painel [!UICONTROL Estilos] é exibido no lado direito do VEC. O painel contém uma lista de estilos que permite editar ou adicionar ao elemento selecionado. Um Editor de CSS em tempo real permite exibir alterações e adicionar estilos se você estiver familiarizado com o uso de Folhas de estilo em cascata (CSS) ou se receber um código do desenvolvedor.
 
@@ -114,7 +114,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
    A margem suporta valores positivos e negativos.
 
-   O Target também é compatível com outras unidades de tamanho, como rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   O Target também é compatível com outras unidades de tamanho, como rem, pc, em, etc. Para obter mais informações sobre essas unidades, consulte [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Preenchimento**
 
@@ -124,7 +124,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
    O preenchimento suporta escalas de largura a partir de 0.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   O público alvo também suporta [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Borda**
 
@@ -138,11 +138,11 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
    A borda suporta escalas de largura a partir de 0.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   O público alvo também suporta [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Position**
 
-   Mova o elemento selecionado da posição atual. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Mova o elemento selecionado da posição atual. Você pode alterar a posição superior, inferior, esquerda, direita e [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) do elemento.
 
    Clique na lista suspensa [!UICONTROL Estático] para escolher entre as seguintes opções de posição:
 
@@ -159,7 +159,7 @@ Observe que os pontos azuis no painel principal e ao lado de cada opção nos v�
 
    A posição suporta valores positivos e negativos.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   O público alvo também suporta [outras unidades de tamanho](https://www.w3.org/Style/Examples/007/units.en.html), como rem, pc, em, etc.
 
 * **Tamanho**
 
@@ -316,7 +316,7 @@ Redimensionar um elemento na página. Ao selecionar [!UICONTROL Redimensionar], 
 
 **Observação:** elementos em linha não podem ser redimensionados.
 
-#### Mover  {#move}
+#### Mover   {#move}
 
 Mover elementos na página. Diferentemente da opção [!UICONTROL Reorganizar], [!UICONTROL Mover] não altera a posição de outros elementos para abrir espaço para o elemento que está sendo movido. Use as teclas de seta para ajustar o movimento. (Aprimoramento planejado: suporte para garantir que os elementos movidos não estejam ocultos atrás de outros elementos.)
 
