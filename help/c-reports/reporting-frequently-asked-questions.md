@@ -26,7 +26,7 @@ Um visitante é incluído no segmento Novos Visitantes se uma das seguintes cond
 
 * É a primeira vez que o visitante visita o site.
 * É a primeira vez que o visitante visita o site desde a limpeza dos cookies.
-* É a primeira vez que o visitante visita o site desde que a duração [do perfil do](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Visitante expirou.
+* É a primeira vez que o visitante visita o site desde que [duração do perfil do Visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) expirou.
 
 ### Visitantes que retornam
 
@@ -50,7 +50,7 @@ Considere o exemplo a seguir, considerando as condições mencionadas acima para
 
 Esse visitante é contado como um único visitante na contagem geral de visitantes da atividade, mesmo sendo contado nos segmentos Novos Visitantes e Visitantes de Retorno.
 
-**Exemplo 2**: As discrepâncias entre as contagens de Novos Visitantes e Visitantes de Retorno também dependem de como você configura as métricas [de](/help/c-activities/r-success-metrics/success-metrics.md)sucesso de atividade.
+**Exemplo 2**: As discrepâncias entre as contagens de Novos Visitantes e Visitantes de Retorno também dependem de como você configura as métricas [ de ](/help/c-activities/r-success-metrics/success-metrics.md)sucesso de atividade.
 
 Por exemplo:
 
@@ -96,13 +96,13 @@ Para obter mais informações sobre os ambientes, consulte [Hosts](/help/adminis
 
 ## Por que a divisão de tráfego entre minhas experiências é irregular na minha atividade A/B ou MVT? {#uneven}
 
-Por exemplo, eu defini a divisão de tráfego como 50/50 ou 25/25/25/25, mas estou vendo uma distribuição muito diferente entre as experiências no relatórios. Há vários motivos explicáveis para contagens de visitantes desiguais no [!DNL Target] relatórios:
+Por exemplo, eu defini a divisão de tráfego como 50/50 ou 25/25/25/25, mas estou vendo uma distribuição muito diferente entre as experiências no relatórios. Há vários motivos explicáveis para contagens de visitantes irregulares no relatórios [!DNL Target]:
 
-* Quando uma [!DNL Target] atividade é iniciada pela primeira vez, a distribuição do tráfego pode ser irregular devido à arquitetura do nó da borda que [!DNL Target] usa para otimizar o delivery da experiência. A melhor prática é dar a uma atividade algum tempo para coletar dados adicionais e a distribuição se normalizará. Para obter mais informações sobre [!DNL Adobe Target] arquitetura e nós do Edge, consulte [Como o Adobe Target funciona](/help/c-intro/how-target-works.md).
-* Se você estiver dentro [!DNL Target] ou [!DNL Analytics] estiver usando a métrica **[!UICONTROL Visitas]** , lembre-se de que [!DNL Target] é um sistema baseado em visitante e que a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Assim, se você examinar os resultados da atividade usando a métrica **[!UICONTROL Visitas]** , a distribuição do tráfego pode parecer irregular, pois determinados visitantes podem ter várias visitas. Visitantes é a métrica de normalização padrão ao avaliar o desempenho da atividade.
+* Quando uma atividade [!DNL Target] é iniciada pela primeira vez, a distribuição do tráfego pode ser irregular devido à arquitetura do nó da borda que [!DNL Target] usa para otimizar o delivery da experiência. A melhor prática é dar a uma atividade algum tempo para coletar dados adicionais e a distribuição se normalizará. Para obter mais informações sobre a arquitetura [!DNL Adobe Target] e nós de Borda, consulte [Como a Adobe Target funciona](/help/c-intro/how-target-works.md).
+* Se você estiver em [!DNL Target] ou [!DNL Analytics] e estiver usando a métrica **[!UICONTROL Visitas]**, lembre-se de que [!DNL Target] é um sistema baseado em visitante e a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Portanto, se você examinar os resultados da atividade usando a métrica **[!UICONTROL Visitas]**, a distribuição do tráfego pode parecer irregular, pois determinados visitantes podem ter várias visitas. Visitantes é a métrica de normalização padrão ao avaliar o desempenho da atividade.
 * A prática recomendada para testes A/B e MVT é manter as divisões de tráfego uniformes. Alterar a distribuição do tráfego entre experiências (por exemplo, de 10/90 para 50/50) durante um teste pode levar a visitantes desiguais entre experiências. A menor experiência de tráfego pode nunca &quot;alcançar&quot;.
 * Se você estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 
-   * Você está usando a biblioteca mais recente do at.js? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte os detalhes [da versão do](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
+   * Você está usando a biblioteca mais recente do at.js? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [detalhes da versão do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-   * É um teste de redirecionamento? A sincronização incorreta das tags acionadas na página pode resultar em divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como fonte de dados para uma [!DNL Target] atividade. Para obter detalhes sobre como corrigir a distribuição irregular de tráfego em uma atividade de redirecionamento com o Analytics for Público alvo (A4T), consulte Perguntas frequentes sobre [Redirecionamento de oferta - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * É um teste de redirecionamento? A sincronização incorreta das tags acionadas na página pode resultar em divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como fonte de dados para uma atividade [!DNL Target]. Para obter detalhes sobre como corrigir a distribuição irregular de tráfego em uma atividade de redirecionamento com o Analytics para Público alvo (A4T), consulte [Redirecionar ofertas - Perguntas frequentes sobre A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
