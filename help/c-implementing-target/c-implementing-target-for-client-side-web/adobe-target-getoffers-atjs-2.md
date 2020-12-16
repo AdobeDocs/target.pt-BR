@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.público alvo.getOffers (opções) - at.js 2.x
 
 Essa função permite que você recupere várias ofertas passando em várias mboxes. Além disso, várias ofertas podem ser recuperadas para todas as exibições em atividades ativas.
 
@@ -30,7 +30,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 >[!NOTE]
 >
->Consulte a documentação [da API de](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Delivery para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
+>Consulte a [documentação da API do Delivery](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
 
 | Nome do campo | Obrigatório? | Limitações | Descrição |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-A carga pode ser encaminhada à Adobe Analytics por meio da API [de inserção de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dados.
+A carga pode ser encaminhada para a Adobe Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Buscar e renderizar dados de várias mboxes via getOffers() e applyOffers() {#multiple}
 
