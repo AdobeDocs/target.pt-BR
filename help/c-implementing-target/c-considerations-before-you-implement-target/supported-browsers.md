@@ -20,7 +20,7 @@ Para obter informações importantes sobre TLS, consulte [Alterações de cripto
 
 ## [!DNL Target]Interface do Standard/Premium{#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-The [!DNL Target] interface supports the following browsers and devices:
+A interface [!DNL Target] suporta os seguintes navegadores e dispositivos:
 
 | Tipo de dispositivo | Versão do navegador |
 |--- |--- |
