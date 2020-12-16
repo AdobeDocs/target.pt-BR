@@ -18,7 +18,7 @@ Informações que ajudam a personalizar uma mbox global para at.js.
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
 
-1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
+1. Desative **[!UICONTROL Carregamento de página ativado (Criar mbox global automaticamente)]** e adicione o nome da mbox global personalizada que você gostaria de usar para fornecer atividades de [!DNL Target].
 
    Essa mbox global personalizada também será usada para rastreamento de cliques.
 
@@ -26,9 +26,9 @@ Informações que ajudam a personalizar uma mbox global para at.js.
 
 1. Clique em **[!UICONTROL Salvar]** ao terminar.
 
-1. Implement the [!DNL at.js] library on your site.
+1. Implemente a biblioteca [!DNL at.js] em seu site.
 
-   Consulte [Como implantar o at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) para obter mais informações.
+   Consulte [Como implantar at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) para obter mais informações.
 
 1. Organize a transição com seu lançamento.
 
