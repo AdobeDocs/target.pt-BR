@@ -78,7 +78,7 @@ Verifique se a sua atividade foi concluída e ativada.
 Depois que você for adicionado como um usuário do Target, precisará ter a função Aprovador para criar Atividades.
 
 * Peça que o administrador da sua conta o atribua como um Aprovador.
-* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
+* Se você for o Administrador, atribua a função de Aprovador de **[!UICONTROL Administração]** > **[!UICONTROL Usuários]** no Público alvo.
 
    Consulte [Atribuir a função de aprovador a si próprio](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -137,10 +137,10 @@ Faça uma das seguintes opções:
 * Exclua novamente. A mensagem de sucesso é exibida.
 * Aguarde cerca de 10 minutos para que o importador do Target Standard/Premium seja executado. O importador atualiza a lista de scripts de perfil.
 
-## Some ajax [!DNL Target] calls are not working.
+## Algumas chamadas ajax [!DNL Target] não estão funcionando.
 
 **Observação:**[!DNL Target] várias chamadas de ajax com o mesmo nome de mas diferentes parâmetros não funcionarão na mesma página. Somente a primeira chamada será feita.
 
-## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
+## Você ativou uma atividade usando a API do Público alvo, mas a atividade mostra um status de [!UICONTROL Inative] na interface do usuário do Público alvo.
 
 Ao executar determinadas ações, como ativar uma atividade fora da interface usando a API do Target, a atualização poderá levar até dez minutos para se propagar na interface do usuário.
