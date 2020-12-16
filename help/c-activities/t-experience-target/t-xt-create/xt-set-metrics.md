@@ -55,7 +55,7 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
    | `-` | menos |
    | `@` | Sinal de arroba |
 
-## Vídeo de treinamento: métricas de atividade (7:43) ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: métricas de atividade (7:43)  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
