@@ -42,7 +42,7 @@ Crie uma coleção para organizar os produtos ou o conteúdo que deseja mostrar 
 
    ![Lista de coleções](assets/collections_list.png)
 
-   A página [!UICONTROL Coleções] exibe uma lista das coleções existentes. Para criar novas coleções, clique no botão [!UICONTROL Criar coleção] . Você também pode editar, copiar e excluir coleções existentes passando o mouse sobre a coleção desejada e clicando no ícone desejado.
+   A página [!UICONTROL Coleções] exibe uma lista de suas coleções existentes. Você cria novas coleções clicando no botão [!UICONTROL Criar coleção]. Você também pode editar, copiar e excluir coleções existentes passando o mouse sobre a coleção desejada e clicando no ícone desejado.
 
    ![Ícones de flutuação: editar, copiar e excluir](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -102,7 +102,7 @@ Esteja ciente de que as coleções estão disponíveis em toda a conta. Consider
 
    ![Opção Alterar coleção](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criar coleções e exclusões no Recommendations (7:05) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
