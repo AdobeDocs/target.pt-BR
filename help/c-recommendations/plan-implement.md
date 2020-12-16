@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Planeje e implemente a Recommendations {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlan e implementação do Recommendations  {#plan-and-implement-recommendations}
 
 O que é necessário saber antes de criar uma atividade do Recommendations.
 
@@ -26,7 +26,7 @@ O que é necessário saber antes de criar uma atividade do [!DNL Recommendations
 |--- |--- |--- |
 | ![Etapa 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requer uma referência à at.js versão 0.9.1 (ou posterior) ou mbox.js versão 55 (ou posterior). Essa etapa de implementação é necessária em todas as páginas em que uma atividade do Target será usada, e pode incluir chaves como um produto ou ID de categoria.<BR>Para obter informações sobre at.js, consulte [Implementação de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Para obter mais informações sobre a mbox.js, consulte [Implementação da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
 | ![Etapa 2](/help/c-recommendations/assets/step2_red.png) | Teclas | A tecla determina o tipo de produto ou de conteúdo exibido nas suas recomendações. Por exemplo, a tecla pode ser uma categoria de produto. Consulte [Basear a recomendação em uma Chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-| ![Etapa 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Os atributos fornecem informações mais específicas sobre os produtos que você deseja exibir. Por exemplo, você pode querer mostrar produtos dentro de uma faixa de preço específica ou itens que atendam a um limite de inventário. Os atributos podem ser fornecidos na mbox ou através de um  [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulte [Especificar regras](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)de inclusão. |
+| ![Etapa 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Os atributos fornecem informações mais específicas sobre os produtos que você deseja exibir. Por exemplo, você pode querer mostrar produtos dentro de uma faixa de preço específica ou itens que atendam a um limite de inventário. Os atributos podem ser fornecidos na mbox ou através de um  [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulte  [Especificar regras](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) de inclusão. |
 | ![Etapa 4](/help/c-recommendations/assets/step4_red.png) | Exclusões | As exclusões determinam quais itens específicos não serão exibidos nas recomendações.<br>Consulte [Exclusões](/help/c-recommendations/c-products/exclusions.md). |
 | ![Etapa 5](/help/c-recommendations/assets/step5_red.png) | Detalhes da compra | Os detalhes da compra oferecem informações sobre os itens comprados e o pedido quando a compra foi concluída. |
 
@@ -45,7 +45,7 @@ Há dois métodos para fornecer informações sobre produtos e serviços para o 
 
 Esses métodos podem ser usados separadamente ou juntos, como nos exemplos a seguir.
 
-## Exemplo um: combinar página e feeds  {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+## Exemplo um: combinar página e feeds   {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
 
 Uma opção comum de implementação do [!DNL Recommendations] usa tanto parâmetros de página quanto feeds.
 
@@ -93,7 +93,7 @@ Este exemplo pode ser especialmente útil para uma empresa de mídia, com conte�
    * `entity.categoryId`
    * Todos os outros atributos
 
-## Código de exemplo  {#section_6E8A73376F30468BB549F337C4C220B1}
+## Código de exemplo   {#section_6E8A73376F30468BB549F337C4C220B1}
 
 Por exemplo, você pode usar o seguinte código na seção de cabeçalho das páginas de produto ou conteúdo:
 
@@ -193,7 +193,7 @@ function targetPageParams() {
 </script>
 ```
 
-## Página de agradecimento  {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Página de agradecimento   {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 Na página de agradecimento, você pode querer mostrar o total e a ID do pedido e mostrar os produtos que foram comprados, sem recomendar itens adicionais. É possível implementar uma segunda mbox para capturar as informações do pedido.
 
@@ -204,7 +204,7 @@ Na página de agradecimento, você pode querer mostrar o total e a ID do pedido 
 
 Use as configurações para gerenciar a sua implementação do [!DNL Recommendations].
 
-To access the [!UICONTROL Recommendations Settings] options, open [!DNL Target] in the [!DNL Adobe Experience Cloud], then click **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
+Para acessar as opções [!UICONTROL Configurações do Recommendations], abra [!DNL Target] em [!DNL Adobe Experience Cloud] e clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]**.
 
 ![](assets/recs_settings.png)
 
@@ -212,7 +212,7 @@ As opções disponíveis são as seguintes:
 
 | Configuração | Descrição |
 |--- |--- |
-| Mbox global personalizada | (Opcional) especifique a mbox personalizada global usada para atender às atividades do [!DNL Target]. By default, the global mbox used by [!DNL Target] is used for [!DNL Recommendations].<br>Observação: Essa opção é definida na página [!DNL Target] Administração  . Abra [!DNL Target]e clique em [!UICONTROL Administração] > [!UICONTROL Visual Experience Composer]. |
+| Mbox global personalizada | (Opcional) especifique a mbox personalizada global usada para atender às atividades do [!DNL Target]. Por padrão, a mbox global usada por [!DNL Target] é usada para [!DNL Recommendations].<br>Observação: Essa opção é definida na página  [!DNL Target]  Administração. Abra [!DNL Target] e clique em [!UICONTROL Administração] > [!UICONTROL Visual Experience Composer]. |
 | Vertical do setor | O vertical do setor é usado para ajudar a categorizar os critérios de recomendação. Isso ajuda os membros de sua equipe a encontrar critérios que façam sentido para uma página específica, como critérios que são melhores para a página do carrinho de compras ou para uma página de mídia. |
 | Filtrar critérios incompatíveis | Ative essa opção para mostrar apenas os critérios pelos quais a página selecionada passa os dados solicitados. Nem todos os critérios serão executados corretamente em cada página. A página e a mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque essa opção.<br>É recomendável desativar esta opção se estiver usando uma solução de gerenciamento de tags.<br>Para obter mais informações sobre essa opção, consulte [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
 | Grupo de host padrão | Selecione o seu grupo de hosts padrão.<br>O grupo de hosts pode ser usado para separar os itens disponíveis no catálogo para diferentes usos. Por exemplo, você pode usar grupos de hosts para os ambientes de Desenvolvimento e Produção, para diferentes marcas ou diferentes regiões. Por padrão, os resultados de visualização na Pesquisa no catálogo, nas Coleções e nas Exclusões estão baseados no grupo de hosts padrão. (Também é possível selecionar um grupo de hosts diferente para visualizar os resultados, usando o filtro Ambiente.) Por padrão, os itens recém adicionados ficam disponíveis em todos os grupos de hosts, a menos que uma ID de ambiente seja especificada ao criar ou atualizar o item. As recomendações entregues dependem do grupo de hosts especificado na solicitação.<br>Se você não visualiza seus produtos, certifique-se de que você esteja usando o grupo correto de hosts. Por exemplo, se você configurar sua recomendação para usar um ambiente de preparo e você definir o grupo de hosts para Armazenamento temporário, você pode necessitar recriar suas coleções no ambiente de preparo para serem mostradas pelos produtos. Para ver quais produtos estão disponíveis em cada ambiente, use a Pesquisa de catálogo com cada ambiente. Você também pode visualizar o conteúdo das coleções e exclusões do Recommendations para um ambiente selecionado (grupo de hosts).<br>**Observação:** depois de alterar o ambiente selecionado, você deve clicar em Pesquisar para atualizar os resultados retornados.<br>O filtro de [!UICONTROL Ambiente] está disponível nos seguintes locais na interface do usuário do [!DNL Target]:<ul><li>Pesquisa do catálogo (Recommendations> Pesquisa do catálogo)</li><li>Caixa de diálogo Criar coleção ([!UICONTROL Recommendations> Coleções > Criar nova])</li><li>Caixa de diálogo Atualizar coleção ([!UICONTROL Recommendations > Coleções > Editar])</li><li>Caixa de diálogo Criar exclusão ([!UICONTROL Recommendations > Exclusões > Criar novo])</li><li>Caixa de diálogo Atualizar exclusão ([!UICONTROL Recommendations > Exclusões > Editar])</li></ul>Para obter mais informações, consulte [Hosts](/help/administrating-target/hosts.md). |
