@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Capítulo 7: Crie e execute sua primeira atividade de Público alvo
 
-Então você está pronto para começar a sua primeira atividade em [!DNL Target]? Excelente. Vamos descobrir uma atividade para seu site, site móvel ou aplicativo móvel que não é muito complexo. Mas pode fornecer um retorno sobre o investimento rápido e deixar você animado com o potencial de usar [!DNL Target] para testar e personalizar. Dependendo da sua organização e do seu foco, você pode considerar a possibilidade de seguir uma de três rotas diferentes com a primeira atividade.
+Então você está pronto para começar a usar sua primeira atividade em [!DNL Target]? Excelente. Vamos descobrir uma atividade para seu site, site móvel ou aplicativo móvel que não é muito complexo. Mas pode fornecer um ROI rápido e deixar você animado sobre o potencial de usar [!DNL Target] para testar e personalizar. Dependendo da sua organização e do seu foco, você pode considerar a possibilidade de seguir uma de três rotas diferentes com a primeira atividade.
 
 Entretanto, a primeira atividade é estabelecer uma linha de base da métrica de negócios que você está tentando melhorar — receita, click throughs, envios de formulário, registros concluídos e assim por diante. Em um teste A/B, geralmente é possível usar a experiência ou a oferta atual como um &quot;controle&quot; e medir o impacto de uma variante dessa experiência ou oferta em relação a ela. Entretanto, com a maioria das atividades de personalização, você preferiria determinar o desempenho da experiência atual antes de iniciar uma versão personalizada. Isso permitirá medir o impacto da personalização.
 
 ## Rota 1: Teste A/B para todo o tráfego de visitantes
 
-Você pode configurar uma atividade [básica de teste](/help/c-activities/t-test-ab/test-ab.md) A/B na qual você teste uma variação de uma oferta ou experiência em relação a uma ou mais variações para ver quais visitantes preferem. Se você estiver procurando apenas pela variante vencedora, poderá optar por aproveitar a IA para obter resultados mais rápidos selecionando [Autoalocar](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) na segunda etapa do fluxo de trabalho de configuração do teste A/B.
+Você pode configurar uma oferta de teste básica [A/B](/help/c-activities/t-test-ab/test-ab.md) na qual você testa uma variação de uma atividade ou experiência em relação a uma ou mais variações para ver quais visitantes preferem. Se você estiver procurando apenas pela variante vencedora, poderá optar por aproveitar a IA para obter resultados mais rápidos selecionando [Autoalocar](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) na segunda etapa do fluxo de trabalho de configuração do teste A/B.
 
 Exemplo: Uma empresa de mídia testa sua cópia atual para obter uma oferta de subscrição de presente em sua página inicial da Web ou de site móvel para ver qual variação leva mais visitantes a comprar uma subscrição de presente. Se eles selecionarem Autoalocar, a atividade mudará mais tráfego para a variante vencedora à medida que o teste for executado. Caso contrário, ele aguardará que você coloque a experiência vencedora manualmente ao vivo após a conclusão do teste.
 
@@ -32,13 +32,13 @@ Exemplo: Uma companhia aérea público alvo seus membros de nível platinum com 
 
 ## Rota 3: Aplicação de IA e automação para personalizar em escala para visitantes individuais
 
-Você pode configurar uma atividade acionada por AI para oferecer a melhor experiência de vários visitantes selecionando o Público alvo [](/help/c-activities/auto-target/auto-target-to-optimize.md) automático na segunda etapa do fluxo de trabalho de configuração do teste A/B. O uso do Público alvo automático com sua primeira atividade pode ser extremamente útil quando você não sabe qual experiência será exibida para visitantes diferentes. Com o Público alvo automático, você permite que o aprendizado da máquina avalie e classifique os atributos preditivos em tempo real e determine quais atributos de seus visitantes são mais importantes para determinar qual experiência fornecer.
+Você pode configurar uma atividade acionada por AI para fornecer a melhor experiência de vários visitantes selecionando [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md) na segunda etapa do fluxo de trabalho de configuração do teste A/B. O uso do Público alvo automático com sua primeira atividade pode ser extremamente útil quando você não sabe qual experiência será exibida para visitantes diferentes. Com o Público alvo automático, você permite que o aprendizado da máquina avalie e classifique os atributos preditivos em tempo real e determine quais atributos de seus visitantes são mais importantes para determinar qual experiência fornecer.
 
 Exemplo: Um telco que vende várias marcas e modelos de telefones ativa o AutoPúblico alvo para usar automação e aprendizado de máquina para determinar qual das quatro experiências diferentes ou ofertas em sua tela inicial ou de abertura de aplicativos móveis terá melhor repercussão com sua grande variedade de visitantes.
 
 ## Gerar uma ideia de atividade
 
-Você poderia fazer esse teste básico de cores ou cópias de alterações, mas que tal testar ou personalizar algo que tenha o potencial de demonstrar o quão poderoso [!DNL Target] pode ser para mover a agulha das métricas de negócios que importam? Algo que desperta ânimo com executivos na suíte C e líderes nas unidades de negócios.
+Você poderia fazer esse teste básico de cor de botão ou cópia de alteração, mas que tal testar ou personalizar algo que tenha o potencial de demonstrar o quão poderoso [!DNL Target] pode ser para mover a agulha das métricas de negócios que importam? Algo que desperta ânimo com executivos na suíte C e líderes nas unidades de negócios.
 
 Estas são apenas algumas maneiras de criar essas ideias atividades que são fáceis de implementar, mas que podem causar um grande impacto nos negócios:
 
@@ -52,7 +52,7 @@ Estas são apenas algumas maneiras de criar essas ideias atividades que são fá
 
 ## Planejamento da atividade com o Planejador de Atividade
 
-Incluímos o [Adobe Target Atividade Planner](/help/assets/activity-planner.pdf) como um PDF independente que você pode salvar e usar várias vezes. Clique no link para visualização do arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
+Incluímos o [Adobe Target Atividade Planner](/help/assets/activity-planner.pdf) como um PDF autônomo que você pode salvar e usar repetidamente. Clique no link para visualização do arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
 
 Para executar uma atividade efetiva, é necessário preencher cada área do planejador. Use essa ferramenta à medida que você e outros entendam ideias para testar e personalizar atividades.
 
@@ -70,7 +70,7 @@ Explique claramente qual é o problema com a experiência atual da página da We
 
 ### Que tipo de atividade é necessária?
 
-Marque a caixa do tipo de atividade que você pretende executar. Você pode revisar o tópico de tipos [de atividades de](/help/c-activities/target-activities-guide.md) Públicos alvos ou o capítulo Visão geral [do](/help/c-intro/target-welcome-kit-2.md) Adobe Target para entender os diferentes tipos de tipos de atividades disponíveis.
+Marque a caixa do tipo de atividade que você pretende executar. Você pode revisar o tópico [tipos de atividades de Públicos alvos](/help/c-activities/target-activities-guide.md) ou o capítulo [Adobe Target at a3/> para entender os diferentes tipos de tipos de atividades disponíveis.](/help/c-intro/target-welcome-kit-2.md)
 
 ### Quem é a audiência do público alvo?
 
@@ -92,7 +92,7 @@ Se sua atividade exigir o assistente de um designer, um desenvolvedor da Web ou 
 
 É necessário colocar um certo número de visitantes na população de teste para tirar uma conclusão estatisticamente significativa do teste. Pensem nisso, se apenas duas pessoas participarem do vosso teste, estarão vocês confiantes nos resultados?
 
-[!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. A calculadora [de tamanho de](https://docs.adobe.com/content/target-microsite/testcalculator.html) amostra de Adobe ajuda a determinar a duração para executar um teste com base na confiança necessária nos resultados. Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
+[!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. A calculadora de tamanho de amostra Adobe [ajuda a determinar o tempo necessário para executar um teste com base na confiança necessária nos resultados. ](https://docs.adobe.com/content/target-microsite/testcalculator.html) Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
 
 ### Qual é a importância desta atividade?
 
@@ -108,4 +108,4 @@ Os resultados da sua atividade geralmente fornecem informações sobre as açõe
 
 ## Abra o Público alvo e crie e inicie a atividade
 
-Você preencheu seu Planejador de Atividades. Agora é hora de entrar na solução e criar sua atividade. [!DNL Target] torna mais fácil modificar sua página da Web no [!UICONTROL Visual Experience Composer].
+Você preencheu seu Planejador de Atividades. Agora é hora de entrar na solução e criar sua atividade. [!DNL Target] torna mais fácil modificar sua página da Web no  [!UICONTROL Visual Experience Composer].
