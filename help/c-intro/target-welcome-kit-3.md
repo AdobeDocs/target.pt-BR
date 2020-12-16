@@ -24,7 +24,7 @@ Identifique oportunidades para atividades que se alinham aos objetivos de negóc
 
 Faça isso:
 
-* Atividades potenciais de brainstorming com base nos dados de desempenho do site, na análise do concorrente e nos resultados de testes anteriores. [!DNL Target]
+* Atividades potenciais [!DNL Target] de brainstorming, com base nos dados de desempenho do site, na análise do concorrente e nos resultados de testes anteriores.
 * Desenvolver ideias para atividades para análise, feedback e aprovação.
 
 Por exemplo, procure uma página em seu site com uma alta taxa de rejeição, considere o que pode estar causando o problema e experimente formas de reduzir a taxa de rejeição.
@@ -49,13 +49,13 @@ Faça isso:
 
 * Finalizando os critérios e métricas de entrada de atividade necessários para determinar o desempenho da atividade.
 * Concluindo e aprovando designs finais para experiências de atividade.
-* Requisitos de documentação para a [!DNL Target] atividade, incluindo critérios de entrada de teste, métricas de relatórios e mudanças de experiência.
+* Requisitos de documentação para a atividade [!DNL Target], incluindo critérios de entrada de teste, métricas de relatórios e alterações de experiência.
 
 Use o Planejador de Atividade, fornecido posteriormente no kit de boas-vindas, para documento dos detalhes da atividade, incluindo as métricas que você usará para medir o desempenho da atividade, como cliques em um botão de chamada para ação, inicializações de vídeo ou receita gerada. Certifique-se de incluir capturas de tela ou imagens dos designs da experiência que você planeja testar ou personalizar.
 
 ## Etapa 4: Criar e executar
 
-Crie e execute a atividade dentro de, desenvolva qualquer código, se necessário, realize testes de controle de qualidade e inicie a atividade. [!DNL Target]
+Crie e execute a atividade em [!DNL Target], desenvolva qualquer código, se necessário, realize testes de QA e inicie a atividade.
 
 Faça isso:
 
