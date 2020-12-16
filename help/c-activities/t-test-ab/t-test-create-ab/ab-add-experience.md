@@ -30,7 +30,7 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/c-e
 
    À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o Experience Composer.
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Se você criou uma solicitação [!DNL Target] na página usando o Público alvo Classic (antigo Test&amp;Público alvo), essa solicitação [!DNL Target] aparece como um elemento que mostra o nome da solicitação e pode ser modificada como qualquer outro elemento.
 
    Para ver uma lista de ações que podem ser executadas em um elemento de uma página exibida para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -93,7 +93,7 @@ Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho
 
 ![Opção Excluir experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de treinamento: Usando o Visual Experience Composer ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 O vídeo abaixo contém informações sobre o uso das opções do Visual Experience Composer. (7:17)
 
