@@ -52,7 +52,7 @@ Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](/help/c-targ
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criando o selo ![Visão geral do Audiência](/help/assets/overview.png)
+## Vídeo de treinamento: Criando o emblema ![Visão geral do Audiência](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
