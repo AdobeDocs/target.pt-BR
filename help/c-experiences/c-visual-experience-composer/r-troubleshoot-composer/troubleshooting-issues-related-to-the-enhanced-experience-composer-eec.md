@@ -38,15 +38,15 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
 * **Problema:** o domínio (ISP) do site está bloqueando o Enhanced Experience Composer.
 
-   **Solução:** lista de permissões os endereços IP listados acima.
+   **Solução:** Lista de permissões os endereços IP listados acima.
 
-* **Problema:** Os endereços IP são incluir na lista de permissões, mas seu site não suporta a versão 1.2 do TLS. Atualmente, o público alvo usa a configuração padrão 1.2. Antes do Público alvo 18.4.1 (25 de abril de 2018), a configuração padrão suportava TLS 1.0. Para obter mais informações, consulte Alterações [de criptografia de](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
+* **Problema:** os endereços IP são incluir na lista de permissões, mas seu site não suporta a versão 1.2 do TLS. Atualmente, o público alvo usa a configuração padrão 1.2. Antes do Público alvo 18.4.1 (25 de abril de 2018), a configuração padrão suportava TLS 1.0. Para obter mais informações, consulte Alterações [ de criptografia de ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
 
    **Solução:** consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).
 
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Você poderá ver a mensagem de erro descrita acima em &quot;o Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site&quot;. if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Você poderá ver a mensagem de erro descrita acima em &quot;o Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site&quot;. se os endereços IP acima forem incluir na lista de permissões, mas seu site não suportar a versão 1.2 do TLS. Atualmente, o público alvo usa a configuração padrão 1.2. Antes do Público alvo 18.4.1 (25 de abril de 2018), a configuração padrão suportava TLS 1.0. Para obter mais informações, consulte [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores têm etapas semelhantes):
 
