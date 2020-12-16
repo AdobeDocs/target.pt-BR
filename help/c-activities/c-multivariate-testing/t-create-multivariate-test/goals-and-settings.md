@@ -38,9 +38,9 @@ Dependendo das configurações, a interface do usuário e as opções de Priorid
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+Se essa opção não estiver ativada em S[!UICONTROL Administration] > [!UICONTROL Relatórios] (o padrão), especifique uma prioridade: Baixa, Média ou Alta.
 
-To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Para ativar prioridades refinadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatórios] e, em seguida, alterne a opção Ativar prioridades granuladas para a posição &quot;Ligado&quot;.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -166,7 +166,7 @@ Este vídeo inclui informações sobre as configurações da atividade.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Criando o selo do ![tutorial de testes multivariados (9:25)](/help/assets/tutorial.png)
+### Criando testes multivariados (9:25) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. Metas e configurações são discutidas a partir de 7:00.
 
