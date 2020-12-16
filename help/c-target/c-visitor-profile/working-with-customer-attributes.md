@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Informações sobre o uso de dados de clientes corporativos em bancos de dados de gerenciamento de relacionamento com o cliente (CRM) para direcionamento de conteúdo no Adobe Target usando Atributos do cliente no serviço principal do Adobe Experience Cloud People.
+description: Informações sobre o uso de dados de clientes corporativos em bancos de dados de gerenciamento de relacionamento com o cliente (CRM) para direcionamento de conteúdo no Adobe Target usando Atributos do cliente no serviço Adobe Experience Cloud People.
 title: Atributos do cliente no Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1488'
 ht-degree: 40%
 
 ---
 
 
-# Atributos do cliente {#customer-attributes}
+# Atributos do cliente
 
-Informações sobre o uso de dados de clientes corporativos de bancos de dados CRM (Customer Relationship Management) para direcionamento de conteúdo em [!DNL Adobe Target] usando atributos do cliente no serviço principal [!DNL Adobe Enterprise Cloud People].
+Informações sobre o uso de dados de clientes corporativos de bancos de dados CRM (Customer Relationship Management) para direcionamento de conteúdo em [!DNL Adobe Target] usando atributos do cliente no serviço [!DNL Adobe Enterprise Cloud People].
 
-Os dados de clientes corporativos coletados por meio de várias fontes e armazenados dentro de bancos de dados CRM podem ser usados em [!DNL Target] para fornecer estrategicamente o conteúdo mais relevante aos clientes, com foco específico nos clientes recorrentes. Audiências e atributos do cliente no serviço principal [!DNL People] (anteriormente Perfis e Audiência) reúnem a coleta de dados e a análise com testes e otimização, tornando os dados e insights acionáveis.
+Os dados de clientes corporativos coletados por meio de várias fontes e armazenados dentro de bancos de dados CRM podem ser usados em [!DNL Target] para fornecer estrategicamente o conteúdo mais relevante aos clientes, com foco específico nos clientes recorrentes. Audiências e atributos do cliente no serviço [!DNL People] (anteriormente Perfis e Audiência) reúnem a coleta de dados e a análise com testes e otimização, tornando os dados e insights acionáveis.
 
 ## Visão geral dos atributos do cliente {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Os ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) atributos do cliente no serviço  [!DNL People] principal fazem parte do  [!DNL Adobe Experience Cloud] e fornecem às empresas uma ferramenta para encaminhar os dados do cliente para a  [!DNL Experience Cloud] plataforma.
+[Os ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) atributos do cliente no  [!DNL People] serviço fazem parte do  [!DNL Adobe Experience Cloud] e fornecem às empresas uma ferramenta para encaminhar os dados do cliente para a  [!DNL Experience Cloud] plataforma.
 
 Os dados incorporados à [!DNL Experience Cloud] estão disponíveis para todos os fluxos de trabalho da [!DNL Experience Cloud]. [!DNL Target] usa esses dados para direcionar o cliente recorrente com base em atributos. O [!DNL Adobe Analytics] consome esses atributos e eles podem ser usados para análise e segmentação.
 
@@ -28,7 +28,7 @@ Os dados incorporados à [!DNL Experience Cloud] estão disponíveis para todos 
 
 Considere as seguintes informações ao trabalhar com os atributos do cliente e o [!DNL Target]:
 
-* Existem alguns requisitos de pré-requisito que você deve atender para poder usar o recurso [!UICONTROL Atributos do cliente] no serviço principal [!DNL People]. Para obter mais informações, consulte &quot;Pré-requisitos para fazer upload dos atributos do cliente&quot; em [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) na *documentação do Experience Cloud and Core Services Product*.
+* Existem alguns requisitos de pré-requisito que você deve atender para poder usar o recurso [!UICONTROL Atributos do cliente] no serviço [!DNL People]. Para obter mais informações, consulte &quot;Pré-requisitos para carregar Atributos do cliente&quot; em [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) na documentação *Serviços e administração do Experience Cloud*.
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Considere as seguintes informações ao trabalhar com os atributos do cliente e 
 
 * Não é possível enviar os seguintes caracteres em `mbox3rdPartyID`: sinal de adição (+) e barra invertida (/).
 
-## Acessar atributos do cliente no serviço principal de Pessoas
+## Acessar atributos do cliente no serviço de Pessoas
 
 1. Em [!DNL Adobe Experience Cloud], clique no ícone de menu ( ![ícone de menu](/help/c-target/c-visitor-profile/assets/menu-icon.png) ) e, em seguida, clique em **[!UICONTROL Pessoas]**.
 
@@ -58,7 +58,7 @@ Conclua as etapas a seguir para usar os dados do CRM no [!DNL Target], conforme 
 
 ![fluxo de trabalho do crm](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-As instruções detalhadas para concluir cada uma das tarefas a seguir podem ser encontradas em [Crie uma fonte de atributo do cliente e carregue o arquivo de dados](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) na *Documentação do produto do Experience Cloud e dos serviços principais*.
+As instruções detalhadas para concluir cada uma das tarefas a seguir podem ser encontradas em [Crie uma fonte de atributo do cliente e carregue o arquivo de dados](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) na documentação *Experience Cloud Services and Administration*.
 
 1. Criar um arquivo de dados.
 
@@ -141,11 +141,11 @@ Passe `mbox3rdPartyId` como um parâmetro para a mbox global dentro do método `
 
 ### Uso do serviço de Experience Cloud ID.
 
-Se você estiver usando o serviço de Experience Cloud ID, será necessário definir uma ID do cliente e um Estado de autenticação para usar os atributos do cliente no direcionamento. Para obter mais informações, consulte [IDs do cliente e estado de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) na *Ajuda do Serviço de identidade do Experience Cloud*.
+Se você estiver usando o serviço de Experience Cloud ID, será necessário definir uma ID do cliente e um Estado de autenticação para usar os atributos do cliente no direcionamento. Para obter mais informações, consulte [IDs do cliente e estado de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) na *Ajuda do serviço de ID do Experience Cloud*.
 
 Para obter mais informações sobre o uso de atributos do cliente no [!DNL Target], consulte os recursos a seguir:
 
-* [Crie uma fonte de atributo do cliente e faça upload do ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) arquivo de dados na Documentação do produto do  *Experience Cloud*
+* [Crie uma fonte de atributo do cliente e faça upload do ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) arquivo de dados na documentação de Serviços e Administração do  *Experience Cloud*
 * [Atributos do cliente: quanto mais você souber, melhor se conectará](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) no *Blog de Marketing digital*
 
 ## Problemas encontrados com frequência pelos clientes {#section_BE0F70E563F64294B17087DE2BC1E74C}
