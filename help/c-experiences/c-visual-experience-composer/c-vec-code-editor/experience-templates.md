@@ -26,13 +26,13 @@ O modelo de experiência da [Galeria do banner com miniaturas é um carrossel gi
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Galeria do banner  {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Galeria do banner   {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 O modelo de experiência da [Galeria do banner é um carrossel giratório](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel), comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas setas esquerda e direita.
 
 ![](assets/exp-template-banner-carousel.png)
 
-## Contagem regressiva do banner  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Contagem regressiva do banner   {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 O [modelo de experiência da Contagem regressiva do banner](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) é um banner grande com uma contagem regressiva central, comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume.
 
@@ -44,7 +44,7 @@ O [modelo de experiência do Criador de botão](https://github.com/Adobe-Marketi
 
 ![](assets/exp-template-button-builder.png)
 
-## Lightbox com contagem regressiva  {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox com contagem regressiva   {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 O [modelo de experiência do Lightbox com contagem regressiva](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) é um pop-up de sobreposição de lightbox com uma contagem regressiva central, comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume.
 
