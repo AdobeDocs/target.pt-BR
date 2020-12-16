@@ -58,7 +58,7 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](/h
 
    ![](assets/propensity_score_4.png)
 
-## Etiqueta ![Visão geral do vídeo de treinamento](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Vídeo de treinamento ![emblema de visão geral](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Assista ao vídeo a seguir para obter mais informações e um cenário no qual seja possível usar esse recurso:
 
