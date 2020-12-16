@@ -46,7 +46,7 @@ Aumento = (CR da experiência - CR de controle) / CR de controle
 
 Se o controle for 0, não há aumento percentual.
 
-## Confiança (significância estatística)  {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Confiança (significância estatística)   {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Este número representa a probabilidade de que os resultados seriam duplicados se o teste fosse executado novamente. A confiança é arredondada para 100,00% sempre que for maior ou igual a 99,995%.
 
@@ -102,11 +102,11 @@ O *intervalo de confiança* é uma faixa dentro da qual o valor real pode ser en
 * **Tamanho da amostra:** conforme a amostra aumenta, o intervalo diminui. Este é o método ideal, pois significa que os seus relatórios estão chegando mais perto do valor da métrica de sucesso.
 * **Desvio padrão menor:** Resultados mais semelhantes, como AOVs semelhantes, números semelhantes ou visitantes convertidos a cada dia reduzem o desvio padrão.
 
-## Cálculo de confiança e como executá-lo offline  {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Cálculo de confiança e como executá-lo offline   {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 O [download do relatório de CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+Para calcular essas métricas calculadas, baixe o arquivo Excel [Calculadora de confiança completa](/help/assets/complete_confidence_calculator.xlsx) do Público alvo para inserir o valor do atividade ou reveja os [cálculos estatísticos usados pelo Público alvo](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
