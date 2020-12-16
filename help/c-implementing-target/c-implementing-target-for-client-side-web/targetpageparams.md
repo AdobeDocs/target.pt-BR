@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Este método permite anexar parâmetros ao mbox global de fora do código da solicitação.
 
-Esta função é muito útil para incluir o mesmo conjunto de parâmetros em múltiplas chamadas da mbox. A função precisa ser definida pelo cliente. Ela deve retornar uma matriz de parâmetros que serão transmitidos apenas à solicitação global da mbox. This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
+Esta função é muito útil para incluir o mesmo conjunto de parâmetros em múltiplas chamadas da mbox. A função precisa ser definida pelo cliente. Ela deve retornar uma matriz de parâmetros que serão transmitidos apenas à solicitação global da mbox. Essa função pode ser definida antes do at.js ser carregado ou em **[!UICONTROL Administration]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar]** > **[!UICONTROL Cabeçalho da biblioteca]**.
 
 Você pode transmitir parâmetros para target-global-mbox usando a função `targetPageParams()` de qualquer uma das seguintes maneiras:
 
