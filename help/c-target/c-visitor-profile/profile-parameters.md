@@ -22,7 +22,7 @@ Um perfil de usuário contém informações demográficas e comportamentais de u
 
 Para configurar atributos de perfil:
 
-1. Clique em **[!UICONTROL Audiência]** > Scripts de **[!UICONTROL Perfis.]**
+1. Clique em **[!UICONTROL Audiência]** > **[!UICONTROL Scripts de Perfis.]**
 
    ![Guia Scripts de perfil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -53,7 +53,7 @@ Para adicionar um novo script de perfil, clique na guia **[!UICONTROL Scripts de
 
 Ou
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Para copiar um script de perfil existente, na lista [!UICONTROL Scripts de Perfil], passe o mouse sobre o script desejado e clique no ícone **[!UICONTROL Copiar]**: ![ícone de cópia](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Você pode editar o público-alvo para criar um público-alvo semelhante.
 
@@ -143,9 +143,9 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
    * Evite expressões regulares ou utilize apenas expressões regulares muito simples. Até mesmo expressões simples podem receber muitas instruções para avaliar.
    * Evitar a repetição.
    * Os scripts de perfil devem ser testados em relação ao desempenho antes de serem adicionados ao Público alvo. Todos os scripts de perfil são executados em cada solicitação de mbox. Se scripts de perfil não forem executados corretamente, as solicitações mbox levarão mais tempo para serem executadas. Isso pode afetar o tráfego e a conversão.
-   * Se scripts de perfil se tornarem muito complexos, considere usar tokens [de](/help/administrating-target/response-tokens.md) resposta.
+   * Se scripts de perfil se tornarem muito complexos, considere usar [tokens de resposta](/help/administrating-target/response-tokens.md) em vez disso.
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Consulte a documentação do mecanismo JS Rhino para obter mais informações: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Depurar scripts de perfil {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -157,7 +157,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
 * **Adicionar scripts de perfil como tokens de resposta para depurá-los:**
 
-   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+   No Público alvo, clique em **[!UICONTROL Administração]**, clique em **[!UICONTROL Tokens de Resposta]** e ative o script de perfil que deseja depurar.
 
    Sempre que carregar uma página para o site com o Target nela, parte da resposta do Target conterá o valor para o script de perfil específico, como mostrado abaixo:
 
@@ -165,7 +165,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
 * **Use a ferramenta de depuração mboxTrace para depurar scripts de perfil.**
 
-   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
+   Este método requer um token de autorização que pode ser gerado clicando em **[!UICONTROL Público alvo]** > **[!UICONTROL Administração]** > **[!UICONTROL Implementação]** > **[!UICONTROL Gerar token de autorização]** na seção [!UICONTROL Ferramentas do depurador].
 
    Em seguida, você adiciona esses dois parâmetros ao URL da página após o “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -181,11 +181,12 @@ Os scripts de perfil não podem ler a página diretamente porque são executados
 
 ## Referência de JavaScript para os parâmetros do perfil de script
 
-É necessário um conhecimento simples do Javascript para usar efetivamente parâmetros de perfil de script. Esta seção serve como uma referência rápida para torná-lo produtivo com essa funcionalidade em apenas alguns minutos.
+Conhecimento Javascript simples é necessário para usar o perfil de script com eficácia
+parâmetros. Esta seção serve como uma referência rápida para torná-lo produtivo com essa funcionalidade em apenas alguns minutos.
 
 Os parâmetros do perfil de script são encontrados na guia mboxes/perfis. É possível gravar programas de JavaScript que retornam qualquer tipo de JavaScript (sequência de caracteres, inteiro, matriz, etc.).
 
-### Exemplos de parâmetro do perfil de script {#examples}
+### Exemplos de parâmetro do perfil de script  {#examples}
 
 **Nome:** *user.recency*
 
@@ -211,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Se o nome da mbox for `orderThankyouPage`, o valor incrementado será retornado.
+Cria uma variável chamada `frequency`, inicializando-a para o valor anterior ou 0, se não houver valor anterior. Se o nome da mbox for `orderThankyouPage`, o valor incrementado será retornado.
 
 **Nome:** *user.monetaryValue*
 
@@ -235,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Cria uma variável chamada `adobeQA` para rastrear um usuário para controle de qualidade de [Atividade](/help/c-activities/c-activity-qa/activity-qa.md).
+Cria uma variável chamada `adobeQA` para rastrear um usuário para [Atividade QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ### Objetos e métodos
 
@@ -276,7 +277,7 @@ Todos os operadores JavaScript padrão estão presentes e utilizáveis. Os opera
 | `||` | Na lógica, &quot;OR&quot; entre as expressões, à esquerda e à direita - é verdadeiro somente se um dos lados for verdadeiro (caso contrário, é falso). |
 | `//` | Verifica se a origem contém todos os elementos que os booleanos de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também suporta o uso de valores de sequência constantes, agrupando-os (`condition1 || condition2) && condition3` e expressões regulares (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vídeo de treinamento: Etiqueta do ![tutorial de scripts de perfil](/help/assets/tutorial.png)
+## Vídeo de treinamento: Scripts de perfil ![Etiqueta de tutorial](/help/assets/tutorial.png)
 
 Esse vídeo inclui informações sobre o uso e a criação de scripts de perfil.
 
