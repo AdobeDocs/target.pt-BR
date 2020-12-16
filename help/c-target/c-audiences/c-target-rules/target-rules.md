@@ -28,7 +28,7 @@ Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo].
 
 Você pode classificar a lista de públicos-alvo por nome de público-alvo ou pela data da última modificação. Para classificar por nome ou data, clique no cabeçalho da coluna e selecione para exibir os públicos-alvo em ordem crescente ou decrescente.
 
-## Vídeo de treinamento: Criando o emblema ![do tutorial do Audiência](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando Audiência ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
