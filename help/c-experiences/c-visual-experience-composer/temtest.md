@@ -31,9 +31,9 @@ Por exemplo, você pode usar esse recurso para fazer uma das seguintes opções:
 
 Você pode especificar páginas que incluem os elementos de alteração ou aplicar a alteração em seu site ou domínio.
 
-1. Create  or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Crie ou edite uma atividade conforme descrito em [Atividade](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Para especificar as páginas nas quais a experiência será exibida, no [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem e selecione **[!UICONTROL Delivery de página]**.
 
    ![Ícone de engrenagem > Delivery de página](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -41,7 +41,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
 
-   * URL (Para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Para obter mais informações sobre como o Público alvo avalia URLs, consulte [Perguntas frequentes sobre Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domínio
    * Caminho
    * Fragmento de hash (#) (público alvo a parte de um URL que segue o símbolo #).
@@ -69,7 +69,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
    >
    >Vários itens usam a lógica OU, o que significa que qualquer item na lista torna a condição verdadeira.
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
+1. Se desejar, insira critérios adicionais clicando em **[!UICONTROL Adicionar regra de modelo]** e repetindo o procedimento nas etapas anteriores.
 
    Múltiplos critérios são agrupados com uma lógica E. [!DNL Target]O adiciona a experiência para todas as páginas que correspondem aos critérios especificados.
 
@@ -89,17 +89,17 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 * Para incluir um banner global (por exemplo, anúncios COVID-19)
 * Para incluir uma promoção global de entrega livre
 
-1. Create or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Crie ou edite uma atividade conforme descrito em [Atividade](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Para especificar o domínio em que a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Delivery de página]**.
 
-1. Clique em **[!UICONTROL Adicionar regra]** de modelo > **[!UICONTROL Domínio]**.
+1. Clique em **[!UICONTROL Adicionar Regra de Modelo]** > **[!UICONTROL Domínio]**.
 
-1. Na lista suspensa **[!UICONTROL Escolher avaliador]** , selecione **[!UICONTROL Contém]** e especifique o domínio.
+1. Na lista suspensa **[!UICONTROL Escolher avaliador]**, selecione **[!UICONTROL Contém]** e especifique o domínio.
 
    ![O domínio contém](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de treinamento: Visual Experience Composer (2 de 2) (7:29) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 * Renomear e duplicar uma experiência
 * Criar uma experiência de redirecionamento
