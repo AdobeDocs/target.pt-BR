@@ -32,7 +32,7 @@ A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice
 
 ![](assets/locationcontributionbottom.png)
 
-## Vídeo de treinamento: Criar um teste MVT ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criar um teste MVT  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Contribuição da localização é descrito no começo às 08:45.
 
