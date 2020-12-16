@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # Bookmarklet de controle de qualidade da atividade{#activity-qa-bookmarklet}
 
-Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+Informações para ajudá-lo a usar o bookmarklet de QA [!DNL Target] para forçar [!DNL Target] a liberá-lo do modo de QA.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 ## bookmarklet de QA da atividade para at.js 1.*x* 
 
-Como o [modo de QA](/help/c-activities/c-activity-qa/activity-qa.md) é persistente, depois de navegar em um site no modo de QA, sua sessão do precisa expirar ou o precisa liberar você do modo de QA para exibir o site como um visitante normal. [!DNL Target][!DNL Target] Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
+Como o [modo de QA](/help/c-activities/c-activity-qa/activity-qa.md) é persistente, depois de navegar em um site no modo de QA, sua sessão do precisa expirar ou o precisa liberar você do modo de QA para exibir o site como um visitante normal. [!DNL Target][!DNL Target] Use o bookmarklet QA [!DNL Target] para se forçar a sair do modo de QA.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Para usar o bookmarklet [!DNL Target] QA, crie um bookmarklet contendo o seguinte código JavaScript e adicione-o à barra de favoritos do seu navegador:
 
 ```javascript
 javascript:(
@@ -43,7 +43,7 @@ javascript:(
 )();
 ```
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+Você também pode se forçar manualmente a sair do modo de QA carregando uma página no seu site com o parâmetro `at_preview_token` com um valor vazio.
 
 Por exemplo:
 
@@ -51,9 +51,9 @@ Por exemplo:
 
 ## bookmarklet de QA da atividade para at.js 2.*x* 
 
-Ao contrário de at.js 1.*x*, at.js 2.*O x* não suporta cookies de terceiros, e o modo de controle de qualidade só é aderente ao domínio próprio (por meio de um cookie primário definido pelo at.js). Assim, em at.js 2.*x*, a sessão do modo de QA é gerenciada somente no lado do cliente e nenhum cookie do modo de QA é enviado para o Público alvo.
+Ao contrário de at.js 1.*x*, at.js 2.*O* xdoes não é compatível com cookies de terceiros, e o modo de controle de qualidade só é aderente ao domínio próprio (por meio de um cookie primário definido pelo at.js). Assim, em at.js 2.*x*, a sessão do modo de QA é gerenciada somente no lado do cliente e nenhum cookie do modo de QA é enviado para o Público alvo.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Para usar o bookmarklet [!DNL Target] QA, crie um bookmarklet contendo o seguinte código JavaScript e adicione-o à barra de favoritos do seu navegador:
 
 ```javascript
 javascript:(
