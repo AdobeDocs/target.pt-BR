@@ -18,7 +18,7 @@ Informações sobre como a biblioteca de JavaScript at.js do Target impede a cin
 
 A cintilação ocorre quando o conteúdo padrão é exibido momentaneamente aos visitantes, antes de ele ser substituído pelo conteúdo da atividade. A cintilação é indesejável porque pode ser confusa para os visitantes.
 
-## Uso de uma mbox global criada automaticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## Usando uma mbox global criada automaticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
 Se você ativar a configuração [Criar mbox global automaticamente](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) ao configurar o at.js, o at.js gerenciará a cintilação alterando a configuração de opacidade, à medida que a página é carregada. Ao carregar o at.js, é alterada a configuração de opacidade do `<body>` elemento para &quot;0&quot;, tornando a página invisível inicialmente para os visitantes. Após receber uma resposta do Target, ou se for detectado um erro com a solicitação Target, a at.js redefine a opacidade para &quot;1&quot;. Isso garante que o visitante veja a página somente depois que o conteúdo de suas atividades for aplicado.
 
@@ -26,7 +26,7 @@ Se a configuração for ativada ao definir a at.js, a at.js definirá a opacidad
 
 A opacidade definida para 0 mantém o conteúdo da página oculto para evitar cintilação, mas o navegador ainda renderiza a página e carrega todos os recursos necessários, como CSS, imagens, etc.
 
-Se a opacidade 0 não funcionar na implementação, você também poderá gerenciar a cintilação personalizando `bodyHiddenStyle` e configurando-a `body {visibility:hidden !important}`. You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
+Se a opacidade 0 não funcionar na implementação, você também poderá gerenciar a cintilação personalizando `bodyHiddenStyle` e configurando-a `body {visibility:hidden !important}`. Você pode usar o corpo do valor `{opacity:0 !important}` ou `body {visibility:hidden !important}`, o que funcionar melhor para sua circunstância específica.
 
 A ilustração a seguir mostra as chamadas Ocultar corpo e Mostrar corpo no at.js 1.*x* e at.js 2.x.
 
