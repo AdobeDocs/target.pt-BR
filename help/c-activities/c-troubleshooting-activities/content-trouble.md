@@ -17,31 +17,31 @@ ht-degree: 60%
 Se a página não exibir o conteúdo esperado, há algumas etapas que você pode seguir para depurar a entrega de conteúdo.
 
 * Verifique seu código de campanha ou atividade cuidadosamente. Um erro de ortografia ou de outro tipo pode fazer com que o conteúdo esperado não seja exibido.
-* Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request.
-* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
+* Use mboxTrace ou mboxDebug para solucionar problemas da solicitação [!DNL Target].
+* Use o Adobe Experience Cloud Debugger, uma ferramenta fácil de usar que fornece muitas das mesmas informações que mboxDebug, para solucionar problemas da solicitação [!DNL Target].
 
-mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. No entanto, ela não entra no tipo de detalhes que são úteis durante a depuração da entrega de conteúdo. Se a sua atividade não aparecer na sua página ou se aparecer conteúdo indesejado, use mboxTrace para examinar e depurar a página atentamente.
+mboxDebug é especialmente útil quando você está configurando [!DNL Target] em sua página para garantir que a solicitação [!DNL Target] seja acionada e o cookie esteja sendo definido. No entanto, ela não entra no tipo de detalhes que são úteis durante a depuração da entrega de conteúdo. Se a sua atividade não aparecer na sua página ou se aparecer conteúdo indesejado, use mboxTrace para examinar e depurar a página atentamente.
 
-## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
+## Recuperar o token de autorização para usar com as ferramentas de depuração {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Como mboxTrace e mboxDebug podem expor dados de campanha e dados de perfil a terceiros, um token de autorização é necessário. O token de autorização pode ser recuperado na interface de usuário do [!DNL Target]. O token é válido por seis horas.
 
 Você deve ter uma das seguintes permissões de usuário para gerar um token de autenticação:
 
-* Pelo menos [!UICONTROL permissão do editor] (ou [!UICONTROL aprovador])
+* Pelo menos [!UICONTROL Permissão do editor] (ou [!UICONTROL Aprovador])
 
-   Para obter mais informações sobre [!DNL Target Standard] os clientes, consulte [Especificar funções e permissões](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*. Para obter mais informações sobre [!DNL Target Premium] os clientes, consulte [Configurar permissões](/help/administrating-target/c-user-management/property-channel/properties-overview.md)corporativas.
+   Para obter mais informações sobre clientes [!DNL Target Standard], consulte [Especificar funções e permissões](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*. Para obter mais informações sobre clientes [!DNL Target Premium], consulte [Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Função de administrador no nível do espaço de trabalho/perfil do produto
 
-   Os espaços de trabalho estão disponíveis somente para [!DNL Target Premium] os clientes. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+   Os espaços de trabalho estão disponíveis somente para [!DNL Target Premium] clientes. Para obter mais informações, consulte [Configurar permissões corporativas](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-* Direitos de administrador (permissão do Sysadmin) no nível do [!DNL Adobe Target] produto
+* Direitos de administrador (permissão do Sysadmin) no nível do produto [!DNL Adobe Target]
 
 Para recuperar o token de autorização:
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
-1. Na seção Ferramentas do depurador, clique em **[!UICONTROL Gerar novo token]** de autenticação.
+1. Na seção Ferramentas do depurador, clique em **[!UICONTROL Gerar novo token de autenticação]**.
 
    ![Gerar novo token de autenticação](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -51,7 +51,7 @@ Para recuperar o token de autorização:
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace enables you to receive trace information attached to [!DNL Target] responses. Trace information reflects the outcome of a [!DNL Target] call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. Use essas informações para depurar a entrega de conteúdo.
+mboxTrace permite que você receba informações de rastreamento anexadas às respostas [!DNL Target]. As informações de rastreamento refletem o resultado de uma chamada [!DNL Target] (por exemplo, uma conversão ou uma impressão) e quaisquer dados adicionais que possam ajudar a determinar por que esse resultado em particular aconteceu, como um conjunto de ramificações disponíveis entre as quais a seleção foi feita em uma campanha. Use essas informações para depurar a entrega de conteúdo.
 
 Os seguintes parâmetros estão disponíveis:
 
@@ -90,7 +90,7 @@ mboxTrace não altera o funcionamento e a aparência normais do site. Os visitan
 
 ## mboxDebug {#mboxdebug}
 
-Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. The following table contains information about [!DNL Target] response-related URL parameters.
+Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela a seguir contém informações sobre [!DNL Target] parâmetros de URL relacionados à resposta.
 
 >[!NOTE]
 >
@@ -98,48 +98,48 @@ Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. The follo
 
 | Parâmetros de URL | Propósito |
 |--- |--- |
-| `mboxDebug=1` | <br>DepuradorA adição desse parâmetro a qualquer URL com solicitações de Público alvo definidas abre uma janela pop-up com detalhes de depuração importantes. Informações sobre cookies, PCid e valores de ID de sessão aparecem escritos e todos os URLs de são visíveis. Click on a Target request URL to show the response for that [!DNL Target] request. Mais detalhes estão disponíveis em [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Depurador<br>Adicionar este parâmetro a qualquer URL com solicitações de Público alvo definidas abre uma janela pop-up com detalhes de depuração importantes. Informações sobre cookies, PCid e valores de ID de sessão aparecem escritos e todos os URLs de são visíveis. Clique em um URL de solicitação de Público alvo para mostrar a resposta da solicitação [!DNL Target]. Mais detalhes estão disponíveis em [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Modificar o cookie |
 | `mboxDisable=1` | Desabilitar mboxes na página |
 | `mboxDebug=x-profile` | Ver perfis definidos. |
-| `mboxDebug=x-time` | Show response time for each [!DNL Target] request |
+| `mboxDebug=x-time` | Mostrar tempo de resposta para cada solicitação [!DNL Target] |
 | `mboxOverride.browserIp=<Insert IP address>` | Testar geolocalização<br>Teste a geolocalização com este parâmetro de URL. Insira um endereço IP como o valor para este atributo e o geolocalização do Test&amp;Target avalia o endereço IP para compará-lo com qualquer geolocalização e segmentação configurados em uma campanha. |
 
 >[!NOTE]
 >
 >Certifique-se de que o fragmento do URL esteja depois dos parâmetros da string de query. Qualquer coisa depois do primeiro `#` é um identificador de fragmento e faz com que os parâmetros de depuração não funcionem corretamente.
 
-## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger   {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Autentique para o Experience Cloud e você pode usar a poderosa ferramenta MboxTrace para inspecionar suas qualificações de atividade e audiência, bem como seu perfil de visitante.
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte [Depurar o at.js usando o Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Para obter informações mais detalhadas, consulte [Depurar at.js usando o depurador do Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Se o target.js não for carregado durante a entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
 O mbox.js envia um cookie chamado &quot;em-disabled&quot; para o visitante quando o target.js não é carregado durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os visitantes com esse cookie não veem o conteúdo do teste nem são contados nesses relatórios de atividades. Todo o conteúdo restante da oferta (por exemplo, das campanhas no Target Classic) continua sendo carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
 
-## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Os melhores vendedores não aparecem no Recommendations   {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. Em vez disso, use a *`orderConfirmPage`* chamada.
+A chamada *`SiteCatalyst: purchase`* não pode ser usada para dados de tráfego do algoritmo de compra. Em vez disso, use a chamada *`orderConfirmPage`*.
 
-## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
+## Verificar prioridade da atividade {#section_3D0DD07240F0465BAF655D0804100AED}
 
-Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
+Atividades baseadas em formulário criadas com [!DNL Target Standard/Premium] podem colidir com atividades criadas na interface de usuário [!DNL Target Classic] com a mesma prioridade e usar a mesma solicitação [!DNL Target].
 
 ## O código personalizado não produz os resultados esperados no Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 O Target não é mais compatível com o IE8.
 
-## JavaScript content delivered by the global [!DNL Target] request doesn&#39;t load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
+## O conteúdo JavaScript fornecido pela solicitação global [!DNL Target] não é carregado ao usar mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 Atualize para [!DNL mbox.js] versão 58 ou posterior.
 
-mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
+mbox.js versão 58 e posterior executa conteúdo não JavaScript para a solicitação global [!DNL Target] imediatamente após a tag HTML `BODY` estar presente. O conteúdo do JavaScript nas tags `<script>` para a solicitação global [!DNL Target] é executado depois que o evento `DOMContentLoaded` é acionado. Essa ordem de delivery de conteúdo garante que o conteúdo JavaScript para a solicitação global [!DNL Target] seja entregue e renderizado corretamente.
 
-## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
+## O cookie do público alvo não é definido {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisar que o cookie do esteja definido em [!DNL domain.com] (em vez de [!DNL us.domain.com]), você deve substituir a configuração `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
@@ -149,17 +149,17 @@ Se um elemento DOM fizer parte da segmentação de personalização do Adobe Exp
 
 Para resolver isso, você pode desativar a personalização do AEM nas páginas nas quais o Target está sendo executado.
 
-## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido.   {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Se a oferta remota ou de redirecionamento usar um URL inválido, poderá ocorrer uma falha no fornecimento.
 
-For redirect offers, the [!DNL Target] response can contain `/* invalid redirect offer URL */`
+Para ofertas de redirecionamento, a resposta [!DNL Target] pode conter `/* invalid redirect offer URL */`
 
 Ou
 
-For remote offers, the [!DNL Target] response can contain `/* invalid remote offer URL */`
+Para ofertas remotas, a resposta [!DNL Target] pode conter `/* invalid remote offer URL */`
 
-You can check the [!DNL Target] response in the browser or using mboxTrace. Consulte [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) para obter mais informações sobre URLs válidos.
+Você pode verificar a resposta [!DNL Target] no navegador ou usando mboxTrace. Consulte [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) para obter mais informações sobre URLs válidos.
 
 ## As solicitações de público alvo não estão sendo acionadas no meu site.
 
@@ -169,14 +169,14 @@ O at.js não aciona solicitações de Público alvo se você estiver usando um d
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Adicionar a extensão ![Crachá do tutorial](/help/assets/tutorial.png)
+### Adicionar a extensão  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Crachá do ![tutorial de depuração de Público alvo básico](/help/assets/tutorial.png)
+### Depuração básica de Públicos alvos ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Crachá do ![tutorial de rastreamento da mbox](/help/assets/tutorial.png)
+### Rastreamento de mbox ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
