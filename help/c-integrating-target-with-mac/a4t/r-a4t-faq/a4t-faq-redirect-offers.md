@@ -73,9 +73,9 @@ Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.
 
-## Meus servidores da web estão removendo esses parâmetros de meus URLs. O que devo fazer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meus servidores da web estão removendo esses parâmetros de meus URLs. O que devo fazer?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+Você precisará trabalhar com sua equipe de TI para que esses parâmetros ( `adobe_mc_sdid` e `adobe_mc_ref`) incluir na lista de permissões.
 
 ## E se eu não estiver usando o A4T com minha atividade de redirecionamento e não quiser que esses parâmetros extras sejam adicionados aos meus URLs? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -89,11 +89,11 @@ Se você usa o A4T e ofertas de redirecionamento, o Target anexa os parâmetros 
 
 Devido a essa codificação dupla, quando a API de visitante tenta decodificar o valor `adobe_mc_sdid`, ele não pode extrair o valor SDID e gera um novo SDID. Isso faz com que valores SDID incorretos sejam enviados para o Target e para o Analytics. Você verá a divisão desigual para redirecionamentos nos relatórios do Analytics.
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
+Recomendamos que você entre em contato com a equipe de TI para garantir que `adobe_mc_ref` e `adobe_mc_sdid` sejam incluir na lista de permissões para que esses valores não sejam transformados de nenhuma forma.
 
 ## Por que o URL de referência precisa ser passado para a nova página? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
+Suponha que um visitante clique em um link em [!DNL `www.google.com`] para sua página inicial (`www.mysite.com/index.html`) no qual uma atividade de redirecionamento está ativa e é redirecionada para uma nova página (`www.mysite.com/index2.html`).
 
 Anteriormente, a solicitação do [!DNL Analytics] na nova página relataria um URL de referência do [!DNL `www.mysite.com/index.html`] em vez de [!DNL `www.google.com`]. Isso causava a geração de relatórios imprecisos no [!DNL Analytics] associados aos URLs de referência (relatórios de canal de marketing, por exemplo). Os relatórios perderam o fato de que você veio ao site de [!DNL `www.google.com`].
 
