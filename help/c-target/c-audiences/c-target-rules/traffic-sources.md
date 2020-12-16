@@ -43,7 +43,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 
 Você pode direcionar usuários que são referenciados para o seu site por meio de um mecanismo de pesquisa ou uma página de aterrissagem específica.
 
-## Vídeo de treinamento: Criação de públicos-alvo ![Etiqueta de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
