@@ -16,4 +16,4 @@ ht-degree: 78%
 
 Os públicos-alvo da Experience Cloud permitem que as soluções da Adobe Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site para que os mesmos dados possam ser usados por cada solução.
 
-Para obter informações detalhadas, consulte [Audiência](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) no Guia *do usuário dos serviços* principais.
+Para obter informações detalhadas, consulte [Audiência](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) no *Guia do Usuário dos Principais Serviços*.
