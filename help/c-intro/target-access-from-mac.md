@@ -20,9 +20,9 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. Faça logon no [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Clique no ícone **** do aplicativo na barra de navegação e, em seguida, clique em **[!UICONTROL Público alvo]**.
+1. Clique no **[!UICONTROL ícone do aplicativo]** na barra de navegação e, em seguida, clique em **[!UICONTROL Público alvo]**.
 
-   Você também pode clicar no [!DNL Target] painel na janela principal para acessar [!DNL Target] (ou em qualquer outra [!DNL Adobe Experience Cloud] solução à qual você tenha acesso).
+   Você também pode clicar no painel [!DNL Target] na janela principal para acessar [!DNL Target] (ou qualquer outra solução [!DNL Adobe Experience Cloud] à qual você tenha acesso).
 
    ![Ícone do aplicativo](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 ## Alterar o idioma padrão da interface do usuário do Target {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
+1. Depois de fazer logon em [!DNL Adobe Experience Cloud ] ou [!DNL Target], clique no avatar do perfil e, em seguida, clique em **[!UICONTROL Editar preferências]**.
 
    ![Editar perfil](/help/c-intro/assets/change-language.png)
 
-1. Clique em Conta **[!UICONTROL do]** Adobe para acessar seu [!DNL Adobe] perfil.
+1. Clique em **[!UICONTROL Conta do Adobe]** para acessar seu perfil [!DNL Adobe].
 
    ![Conta Adobe](/help/c-intro/assets/adobe-account.png)
 
-1. Clique na guia **[!UICONTROL Notificações]** na barra de menus superior e, em seguida, clique na guia **[!UICONTROL Preferências]** no lado esquerdo.
+1. Clique na guia **[!UICONTROL Notificações]** na barra de menus superior e clique na guia **[!UICONTROL Preferências]** no lado esquerdo.
 
    ![Idiomas de preferência](/help/c-intro/assets/prefered-language.png)
 
@@ -48,7 +48,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. Selecione o primeiro idioma (primário) e, em seguida, um segundo idioma, se desejado.
 
-   A [!DNL Target] interface do usuário está disponível nos seguintes idiomas: embora as notificações estejam disponíveis em mais idiomas:
+   A interface do usuário [!DNL Target] está disponível nos seguintes idiomas: embora as notificações estejam disponíveis em mais idiomas:
 
    * Inglês
    * Espanhol
