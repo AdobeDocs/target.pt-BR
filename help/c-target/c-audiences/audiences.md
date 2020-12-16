@@ -18,7 +18,7 @@ Os públicos no Adobe Target determinam quem verá o conteúdo e as experiência
 
 Os público-alvo são usados sempre que o direcionamento estiver disponível. Ao direcionar uma atividade, você pode selecionar um público-alvo reutilizável na lista de [!UICONTROL Públicos-alvo], [criar um público-alvo específico para a atividade](/help/c-target/creating-activity-only-audience.md) e direcioná-lo, ou [combinar vários públicos-alvo](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar um público-alvo ad hoc.
 
-Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Audiência](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) no Guia *do usuário dos serviços* principais.
+Você também pode usar os dados do público-alvo coletados pelo [!DNL Analytics] para o direcionamento e personalização em tempo real no [!DNL Adobe Target] e outras soluções da [!DNL Experience Cloud]. Consulte [Audiência](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) no *Guia do Usuário dos Principais Serviços*.
 
 O [!DNL Target] define dois tipos de público-alvo:
 
@@ -40,7 +40,7 @@ Ao trabalhar com públicos-alvo que foram originalmente criados no AAM, o Target
 * Se um público-alvo foi excluído no AAM, é exibido um ícone de aviso na lista [!UICONTROL Público-alvo] e no seletor de público. Uma dica de ferramenta na interface do usuário também indica que o público-alvo foi excluído do AAM.
 * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
 
-Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
+Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. Ao adicionar uma audiência, clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Perfil do Visitante]** e escolha o parâmetro que deseja usar para público alvo da atividade. Se o parâmetro desejado não aparecer, ele ainda não foi acionado por uma mbox. Outros parâmetros de mbox personalizados estão disponíveis na lista suspensa [!UICONTROL Parâmetros personalizados].
 
 Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo]. Você pode procurar qualquer parte de um nome de público-alvo ou pode colocar uma determinada sequência de caracteres entre aspas.
 
@@ -81,7 +81,7 @@ Tenha os seguintes pontos em mente ao trabalhar com públicos-alvo importados:
 * Os públicos-alvo de direcionamento de expressão não são mais suportados no Target Standard/Premium.
 * O Target Standard/Premium não suporta alguns públicos-alvo obsoletos ou melhorou os operadores para facilidade de uso. Por causa disso, a definição de um público-alvo importado, apesar de funcionar de acordo com a definição, não significa que o mesmo esteja agora disponível para criação na interface Standard/Premium. Por exemplo, os públicos-alvo sociais são visíveis com suas regras, mas o Target Standard/Premium não permite que públicos-alvo sociais sejam criados.
 
-## Vídeo de treinamento: Uso de públicos-alvo ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Uso de públicos-alvo  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre o uso de públicos-alvo.
 
