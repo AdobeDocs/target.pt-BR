@@ -30,7 +30,7 @@ Use o Redirecionador para  faça o seguinte:
 
 Para obter ajuda em decidir a configuração correta, consulte  [Implementações não baseadas em JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#redirector}
+## Criar um redirecionador {#redirector}
 
 Antes de utilizar um redirecionador, você deve criá-lo.
 
@@ -45,7 +45,7 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
    * Onde `yourclientcode` é o código de cliente da sua empresa. O código de cliente de sua empresa tem todos os caracteres em minúsculas e sem caracteres especiais.
 
-      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
+      O código do cliente está disponível na parte superior da página [!UICONTROL Administração > Implementação] da interface [!DNL Target].
 
    * `redirectorlink_456` é o nome do Redirecionador mbox que aparece em sua conta para ser usado em campanhas e testes.
 
@@ -53,11 +53,11 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
    * Onde `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` é o destino padrão.
 
-      Isso deve ser codificado no URL e uma referência absoluta. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
+      Isso deve ser codificado no URL e uma referência absoluta. Você pode usar a [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) para codificar seus URLs rapidamente.
 
       >[!IMPORTANT]
       >
-      >Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O público alvo usa hosts para lista de permissões domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) nos *hosts*.
+      >Observe que com o Redirecionador você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O público alvo usa hosts para lista de permissões domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) em *Hosts*.
 
 1. Valide o redirecionador.
    1. *Práticas* recomendadas de segurança: Verifique se o domínio usado no Redirecionador está incluir na lista de permissões, conforme indicado acima. Se você usar um domínio que não é incluir na lista de permissões, o Adobe bloqueará quaisquer chamadas para esse domínio para impedir que atores mal-intencionados usem o Redirecionador para domínios potencialmente mal-intencionados.
@@ -87,7 +87,7 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 
 1. Envie o URL completo do Redirecionador para sua rede de publicidade como destino do anúncio.
 
-## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use um redirecionador para passar os Custos por clique e Receita por clique {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informações sobre o uso de um redirecionador para transmitir os custos por clique e a receita por clique.
 
@@ -97,7 +97,7 @@ Use o redirecionador para passar os custos por clique.
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric.
+>A prática recomendada é determinar o valor do custo usando a métrica de envolvimento **Pontuação por visita**.
 
 Adicione `&mboxPageValue=-value` à URL. Observe o valor negativo.
 
@@ -108,13 +108,13 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### Enviar receita por clique  {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Enviar receita por clique   {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Use o redirecionador para passar a receita por clique.
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric.
+>A prática recomendada é determinar o valor da receita usando a métrica de envolvimento **Pontuação por visita**.
 
 Adicione `&mboxPageValue=value` à URL.
 
