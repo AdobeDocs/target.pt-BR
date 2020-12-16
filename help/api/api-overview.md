@@ -18,19 +18,19 @@ ht-degree: 1%
 
 | Tipo de API | O que ele permite fazer | Link de download | Outros links úteis |
 | --- | --- | --- |--- |
-| Admin | Crie, modifique e exclua atividades, audiências, ofertas e outros objetos (incluindo [!DNL Recommendations] entidades, critérios, designs e assim por diante). As [!DNL Recommendations] APIs são um tipo de API de administração.) | <UL><li>[Coleção Postman da API do administrador do público alvo](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Coleção Recommendations API Postman](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Usar APIs](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html) Recommendations em Tutorials *Adobe Target* |
-| Entrega | Recupere conteúdo otimizado e personalizado de [!DNL Target] delivery para usuário final. | [Coleção Postman da API do Delivery do público alvo](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
-| Relatório | Exporte os resultados da atividade e outros resultados do relatórios. | As APIs de relatórios estão incluídas na coleção [Postman da API de administração de](https://developers.adobetarget.com/api/#admin-postman-collection)Públicos alvos. |  |
+| Admin | Crie, modifique e exclua atividades, audiências, ofertas e outros objetos (incluindo [!DNL Recommendations] entidades, critérios, designs e assim por diante). As APIs [!DNL Recommendations] são um tipo de API de administração.) | <UL><li>[Coleção Postman da API do administrador do público alvo](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Coleção Recommendations API Postman](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Usar Recommendations ](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html) APIs em Tutorials  *Adobe Target* |
+| Entrega | Recupere conteúdo otimizado e personalizado de [!DNL Target] para delivery para um usuário final. | [Coleção Postman da API do Delivery do público alvo](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
+| Relatório | Exporte os resultados da atividade e outros resultados do relatórios. | As APIs de relatórios estão incluídas na [coleção do Postman da API de administração de Públicos alvos](https://developers.adobetarget.com/api/#admin-postman-collection). |  |
 | Perfil | Recupere e modifique perfis de usuário armazenados no Adobe Target. | [Coleção Postman da API do Perfil do público alvo](https://developers.adobetarget.com/api/#profiles) |  |
 
 >[!NOTE]
 >
->Há distinções importantes entre [!DNL Target] as APIs de administração (incluindo as [!DNL Recommendations] APIs) e as APIs de [!DNL Target] Delivery:
+>Há distinções importantes entre [!DNL Target] APIs de administração (incluindo [!DNL Recommendations] APIs) e [!DNL Target] APIs de Delivery:
 >
->* As APIs de administração permitem configurar vários aspectos dos [!DNL Target] quais você também pode configurar na [!DNL Target] interface do usuário. As APIs administrativas exigem autenticação.
+>* As APIs administrativas permitem configurar vários aspectos de [!DNL Target] que também podem ser configurados na interface do usuário [!DNL Target]. As APIs administrativas exigem autenticação.
    >
    >
 * As APIs de delivery permitem recuperar conteúdo. As APIs de delivery não exigem autenticação.
 >
 >
-Para usar [!DNL Target] as APIs de administração, primeiro é necessário configurar a autenticação usando E/S de Adobe. Para obter mais informações, consulte [Configurar autenticação](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html) em Tutorials ** Adobe Target.
+Para usar [!DNL Target] APIs de administração, primeiro é necessário configurar a autenticação usando o Adobe I/O. Para obter mais informações, consulte [Configurar autenticação](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html) em *Adobe Target Tutorials*.
