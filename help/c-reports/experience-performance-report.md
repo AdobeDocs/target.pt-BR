@@ -36,7 +36,7 @@ Você pode exibir as cinco melhores, as cinco piores ou todas as experiências. 
 
 Abaixo do gráfico, uma tabela mostra quantos participantes visualizaram cada experiência, bem como outras informações relevantes para a sua métrica de sucesso.
 
-## Vídeo de treinamento: Criar um teste MVT ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criar um teste MVT  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da experiência é descrito no começo às 8:20.
 
