@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # Basear a recomendação em uma chave de recomendação
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+O Recommendations baseado em chaves usa o contexto de comportamento do visitante para mostrar resultados relevantes nas atividades [!DNL Adobe Target] [!DNL Recommendations].
 
 Há dois tipos de recomendações:
 
@@ -24,14 +24,14 @@ Há dois tipos de recomendações:
 
 Cada critério é definido em sua própria guia. O tráfego é dividido uniformemente entre os diferentes testes de critérios. Em outras palavras, se você tem dois critérios, o tráfego é dividido igualmente entre eles. Se você tem dois critérios e dois designs, o tráfego é dividido igualmente entre as quatro combinações. Também é possível especificar uma porcentagem de visitantes do site que veem o conteúdo padrão, para comparação. Nesse caso, o percentual especificado de visitantes acompanha o conteúdo padrão e o restante é dividido entre os seus critérios e combinações de design.
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. Crie um novo critério ou selecione um critério existente e clique em **[!UICONTROL Editar]**.
+1. Para alterar a chave de recomendação, selecione a nova chave na lista suspensa [!UICONTROL Chave de recomendação] e clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Atualizar]**.
 
    Como lógicas diferentes levam a chaves de recomendações diferentes, recomendações diferentes se apresentam para localização em diferentes tipos de páginas. Consulte as seções a seguir para obter mais informações sobre cada chave de recomendação.
 
 ## Chaves de recomendação
 
-As seguintes chaves de recomendação estão disponíveis na lista suspensa Chave [!UICONTROL de] recomendação:
+As seguintes chaves de recomendação estão disponíveis na lista suspensa [!UICONTROL Chave de recomendação]:
 
 ### Item Atual {#current-item}
 
@@ -54,7 +54,7 @@ Quando essa opção é selecionada, o valor `entity.id` deve ser passado como pa
 * Páginas de item único, como páginas de produtos.
 * NÃO use em páginas de resultados de busca nulos.
 
-### Categoria Atual {#current-category}
+### Categoria Atual  {#current-category}
 
 A recomendação é determinada pela categoria de produto que o visitante está vendo atualmente.
 
@@ -72,7 +72,7 @@ Quando essa opção é selecionada, o valor `entity.categoryId` deve ser passado
 * Páginas de categoria única.
 * NÃO use em páginas de resultados de busca nulos.
 
-### Atributo personalizado  {#custom}
+### Atributo personalizado   {#custom}
 
 Recomendação determinada por um item que é armazenado no perfil do visitante, utilizando os atributos usuário.*x* ou perfil.*x* atributos.
 
@@ -82,7 +82,7 @@ Ao basear as recomendações em atributos personalizados, selecione o atributo p
 
 Você pode realizar uma filtragem em tempo real sobre os próprios resultados de critérios personalizados. Por exemplo, você pode limitar os itens recomendados somente àqueles da categoria ou marca favorita de um visitante. Isso permite combinar os cálculos offline com filtragens em tempo real.
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Isso combina o poder de seus cientistas de dados e pesquisa com a entrega testada e comprovada da Adobe, filtragem em tempo de execução, testes A/B, direcionamento, relatórios, integrações e muito mais.
+Essa funcionalidade significa que você pode usar [!DNL Target] para adicionar personalização sobre suas recomendações calculadas offline ou listas com curadoria personalizada. Isso combina o poder de seus cientistas de dados e pesquisa com a entrega testada e comprovada da Adobe, filtragem em tempo de execução, testes A/B, direcionamento, relatórios, integrações e muito mais.
 
 Com a adição das regras de inclusão aos critérios personalizados, as recomendações foram transformadas de estáticas para dinâmicas com base nos interesses de um visitante.
 
@@ -172,7 +172,7 @@ A recomendação é determinada pelo último item comprado por cada visitante ú
 * Página inicial, página minha conta, anúncios em outros sites.
 * NÃO use nas páginas do produto ou páginas relevantes para compras.
 
-### Último item visualizado {#last-viewed}
+### Último item visualizado  {#last-viewed}
 
 A recomendação é determinada pelo último item visto por cada visitante único. Ela é capturada automaticamente, assim nenhum valor precisa ser aprovado na página.
 
@@ -189,7 +189,7 @@ A recomendação é determinada pelo último item visto por cada visitante únic
 * Página inicial, página minha conta, anúncios em outros sites.
 * NÃO use nas páginas do produto ou páginas relevantes para compras.
 
-### Item Mais Visualizado {#most-viewed}
+### Item Mais Visualizado  {#most-viewed}
 
 A recomendação é determinada pelo item visto com mais frequência, usando o mesmo método utilizado para a categoria de favoritos.
 
@@ -213,7 +213,7 @@ Por exemplo, visualizar a prancha_de_surfe_A e depois a prancha_de_surfe_B em um
 
 * Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
 
-### Popularidade {#popularity}
+### Popularidade  {#popularity}
 
 A recomendação é determinada pela popularidade de itens em seu site. A popularidade inclui os principais vendedores e os mais visualizados por dados de mbox e, se você utilizar o Adobe Analytics, todas as métricas disponíveis no relatório do produto. Itens são classificados de acordo com a lógica de recomendação que você selecionou.
 
@@ -227,15 +227,15 @@ A recomendação é determinada pela popularidade de itens em seu site. A popula
 
 * Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
 
-### Itens visualizados recentemente  {#recently-viewed}
+### Itens visualizados recentemente   {#recently-viewed}
 
 Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante viu, baseado no número de slots no design.
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens visualizados recentemente do site em questão. Caso dois sites estejam no mesmo ambiente e um visitante alternar entre eles, ele verá os mesmos itens visualizados recentemente em ambos os sites.
+Os critérios de Itens visualizados recentemente retornam resultados específicos para um determinado [ambiente](/help/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens visualizados recentemente do site em questão. Caso dois sites estejam no mesmo ambiente e um visitante alternar entre eles, ele verá os mesmos itens visualizados recentemente em ambos os sites.
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>Não é possível usar os critérios [!UICONTROL Itens visualizados recentemente] para recomendações de backup.
 
 Os itens/mídias visualizados recentemente agora podem ser filtrados para que somente os itens com um determinado atributo sejam exibidos.
 
@@ -252,13 +252,13 @@ Uma empresa multinacional com diversas empresas pode ter itens de exibição de 
 
 >[!NOTE]
 >
->[!UICONTROL Itens] visualizados recentemente respeitam as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL Os ] Itens visualizados recentemente respeitam as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. Se um item for excluído por uma exclusão global ou não estiver contido na coleção selecionada, ele não será exibido. Portanto, ao usar um critério [!UICONTROL Itens visualizados recentemente], a configuração &quot;Todas as coleções&quot; geralmente deve ser usada.
 
 ## Lógica da recomendação
 
 O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quando as ações de um visitante se qualificam para os critérios definidos na sua atividade. A chave de recomendação determina as opções de lógica de recomendação disponíveis.
 
-A seguinte lógica de recomendação (critérios) está disponível na lista suspensa Lógica [!UICONTROL de] recomendação:
+A seguinte lógica de recomendação (critérios) está disponível na lista suspensa [!UICONTROL Lógica de Recomendação]:
 
 ### Itens/Mídia com atributos semelhantes {#similar-attributes}
 
@@ -268,7 +268,7 @@ Se você selecionar Itens/Mídia com atributos semelhantes, terá a opção de d
 
 O uso da similaridade de conteúdo para gerar recomendações é especialmente eficaz para novos itens, que provavelmente não serão exibidos nas recomendações usando Pessoas que visualizaram isso, viram aquilo e outras lógicas com base no comportamento anterior. Você também pode usar similaridade de conteúdo para gerar recomendações úteis para novos visitantes, que não possuem compras antigas ou outros dados de histórico.
 
-Para obter mais informações, consulte Semelhança [de conteúdo](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Para obter mais informações, consulte [Semelhança de conteúdo](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 Essa lógica pode ser usada com as seguintes chaves de recomendação:
 
@@ -366,7 +366,7 @@ Essa lógica pode ser usada com as seguintes chaves de recomendação:
 * Categoria favorita
 * Popularidade
 
-### Recommendations baseado em usuário {#user-based}
+### Recommendations baseado no usuário {#user-based}
 
 Recomenda itens com base em cada histórico de navegação, exibição e compra de visitantes. Esses itens são geralmente chamados de &quot;Recomendado para você&quot;.
 
