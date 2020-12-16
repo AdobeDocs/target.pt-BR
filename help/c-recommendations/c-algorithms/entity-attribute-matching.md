@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![Correspondência de Atributo de Entidade PREMIUM](/help/assets/premium.png)
+# ![Correspondência de Atributo ](/help/assets/premium.png) PREMIUMEntity
 
-Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+Filtre dinamicamente em [!DNL Adobe Target] [!DNL Recommendations] comparando um pool de itens de recomendações potenciais a um item específico com o qual o usuário interagiu.
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>O processo [para criar e usar regras de inclusão](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para critérios e promoções é semelhante, assim como os casos de uso e exemplos.
 
 Por exemplo, recomende somente itens que correspondam à marca do item atual, como no exemplo a seguir:
 
-Se a mbox em uma Landing page de marca retornar `entity.brand=brandA`, somente os produtos da Marca A serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca da Marca B, apenas os produtos da Marca B são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorna os resultados relevantes da marca em todas as páginas da marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome da marca.
+Se a mbox em uma Landing page de marca retornar `entity.brand=brandA`, então somente os produtos da Marca A serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca da Marca B, apenas os produtos da Marca B são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorna os resultados relevantes da marca em todas as páginas da marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome da marca.
 
-Observe que você deve fornecer o conteúdo da mbox `entity.brand` nessas landings page para que isso funcione.
+Observe que você deve fornecer o `entity.brand` na mbox nessas landings page para que isso funcione.
 
 ## Exemplos de Correspondência de Atributo de Entidade
 
-[!UICONTROL A Correspondência] de Atributos de Entidade permite recomendar somente os itens que correspondem, por exemplo:
+[!UICONTROL A ] Correspondência de Atributo de Entidade permite que você recomende somente os itens que correspondem, por exemplo:
 
 * Um atributo do item que o usuário está visualizando no momento
 * O item que o usuário visualizou mais recentemente
@@ -42,7 +42,7 @@ Depois que as regras de atributo da entidade forem criadas, elas filtrarão toda
 
 O exemplo a seguir mostra recomendações que correspondem à marca do produto mostrada na página:
 
-Quando você visita uma página que contém um produto da Marca A, a página define o valor do `entity.brand` parâmetro como &quot;MarcaA&quot;.
+Quando você visita uma página que possui um produto da Marca A, a página define o valor do parâmetro `entity.brand` como &quot;BrandA&quot;.
 
 ![Exemplo de chamada de Público alvo](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ Nas recomendações da página, você verá somente os produtos da Marca A.
 
 ![Recomendações da marca A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Se você visualização uma página de produto da Marca B, o `entity.brand` valor será redefinido para &quot;MarcaB&quot; e você verá os produtos da Marca B recomendados nas páginas de produto da Marca B.
+Se você visualização uma página de produto da Marca B, o valor `entity.brand` será redefinido para &quot;MarcaB&quot; e você verá os produtos da Marca B recomendados nas páginas de produto da Marca B.
 
 ![Recomendações da marca B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
