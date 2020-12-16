@@ -1,6 +1,9 @@
 ---
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 # Contribuição
@@ -19,4 +22,4 @@ Todas as contribuições de terceiros para esse projeto devem ser acompanhadas p
 
 ## Revisões de código
 
-Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados pelos responsáveis pelo projeto. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados pelos responsáveis pelo projeto. Leia a [documentação de solicitação de envio do GitHub](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests) para obter mais informações sobre envio de pull requests.
