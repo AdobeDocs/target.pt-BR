@@ -117,7 +117,7 @@ O [!UICONTROL teste multivariado] (MVT) ocupa um relatório de primeira página.
 
 1. Clique em **[!UICONTROL Salvar e fechar]** para criar a atividade.
 
-## Vídeo de treinamento: Criando o selo do ![tutorial de testes multivariados (9:25)](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando testes multivariados (9:25) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo monstra como planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target.
 
