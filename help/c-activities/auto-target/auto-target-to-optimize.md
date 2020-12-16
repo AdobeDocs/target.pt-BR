@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![Visão geral do Público alvo automático PREMIUM](/help/assets/premium.png)
+# ![Visão geral do ](/help/assets/premium.png) PREMIUMAuto-Público alvo
 
 O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada para selecionar várias experiências de alto desempenho definidas pelo profissional de marketing para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 
@@ -20,15 +20,15 @@ O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada
 >
 >O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL O Analytics for Público alvo] (A4T) oferece suporte a atividades de Público alvo [!UICONTROL automático] . Para obter mais informações, consulte [Criar uma atividade que use o Analytics como a fonte](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)do relatórios.
+>[!UICONTROL O Analytics for Público alvo] (A4T) oferece suporte para atividades de direcionamento  [!UICONTROL automático ] para usuários. Para obter mais informações, consulte [Criar uma atividade que use o Analytics como a fonte do relatórios](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
 
 ## História de sucesso real usando o Público alvo automático {#success}
 
-Recentemente, um grande varejista de roupas usou uma atividade de Público alvo  automático com dez experiências baseadas em categorias de produtos (além de controle aleatório) para fornecer o conteúdo correto a cada visitante. &quot;[!UICONTROL Adicionar ao carrinho]&quot; foi escolhida como a métrica de otimização primária. As experiências direcionadas tiveram um aumento médio de 29,09%. Depois de criar os modelos de Público alvo  automático, a atividade foi definida para 90% de experiências personalizadas.
+Um grande varejista de roupas recentemente usou uma atividade [!UICONTROL Público alvo automático] com dez experiências baseadas em categorias de produtos (além de controle aleatório) para fornecer o conteúdo correto para cada visitante. &quot;[!UICONTROL Adicionar ao carrinho]&quot; foi escolhido como a métrica de otimização primária. As experiências direcionadas tiveram um aumento médio de 29,09%. Depois de criar os modelos [!UICONTROL Público alvo automático], a atividade foi definida como 90% de experiências personalizadas.
 
 Em apenas dez dias, mais de US$ 1.700.000 em incentivo foram alcançados.
 
-Continue lendo para saber como usar o Público alvo  automático para aumentar o incentivo e a receita de sua organização.
+Continue lendo para saber como usar [!UICONTROL Público alvo automático] para aumentar o incentivo e a receita de sua organização.
 
 ## Visão geral {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,7 +44,7 @@ Ao contrário de uma atividade A/B na qual a alocação de experiência para um 
 
 ## Considerações
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+Há algumas considerações importantes a serem levadas em conta ao usar [!UICONTROL Público alvo automático]:
 
 * Você não pode alternar uma atividade específica de [!UICONTROL Direcionamento automático] para Personalização automatizada, e vice-versa.
 * Você não pode alternar de Alocação de tráfego manual (teste tradicional A/B) para [!UICONTROL Direcionamento automático] e vice-versa depois que uma atividade estiver ativa.
@@ -76,7 +76,7 @@ Saiba mais sobre os dados e algoritmos subjacentes ao [!UICONTROL Direcionamento
 | [Fazer upload de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Existem várias maneiras de inserir dados para modelos de [!UICONTROL Direcionamento automático] e Personalização automatizada. |
 | [Coleta de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/ap-data.md) | Os algoritmos de personalização do Target coletam automaticamente uma variedade de dados. |
 
-## Determinação da alocação de tráfego  {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Determinação da alocação de tráfego   {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Dependendo do objetivo da sua atividade, você pode escolher uma alocação de tráfego diferente entre controle e experiências personalizadas. A prática recomendada é determinar esse objetivo antes de tornar sua atividade ativa.
 
@@ -162,7 +162,7 @@ Para o [!UICONTROL Direcionamento automático], as regras básicas podem ser usa
 
 Para obter mais informações, consulte [Relatório de resumo do direcionamento automático](/help/c-reports/auto-target-summary-report.md) na seção [Relatórios](/help/c-reports/reports.md).
 
-## Vídeo de treinamento: Entendendo o selo ![Visão geral do Público alvo automático do Atividade](/help/assets/overview.png)
+## Vídeo de treinamento: Compreensão das Atividades de Público alvo automático ![emblema de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como configurar uma atividade A/B de [!UICONTROL Direcionamento automático].
 
