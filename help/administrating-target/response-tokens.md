@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # Tokens de resposta{#response-tokens}
 
-Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
+Os tokens de resposta permitem que você publique automaticamente informações específicas para [!DNL Target] (detalhes da atividade, informações do perfil do usuário, informações geográficas e assim por diante) para usar na depuração ou integração com sistemas de terceiros (como Clicktale).
 
-Os tokens de resposta permitem que você escolha quais variáveis serão aproveitadas e, em seguida, permite que sejam enviadas como parte de uma resposta do Público alvo. Para fazer isso, basta ativar uma variável usando o switch e a variável será enviada com respostas de Público alvo, que podem ser validadas em chamadas de rede. Response tokens work in [!UICONTROL Preview] mode as well.
+Os tokens de resposta permitem que você escolha quais variáveis serão aproveitadas e, em seguida, permite que sejam enviadas como parte de uma resposta do Público alvo. Para fazer isso, basta ativar uma variável usando o switch e a variável será enviada com respostas de Público alvo, que podem ser validadas em chamadas de rede. Os tokens de resposta também funcionam no modo [!UICONTROL Pré-visualização].
 
 Uma diferença importante entre os plugins e os tokens de resposta é que os plugins entregam o JavaScript para a página de execução, após a entrega, por sua vez, os tokens de resposta entregam um objeto que pode ser lido e utilizado pelos ouvintes do evento. Para obter mais informações, consulte [eventos personalizados de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) e os exemplos mais adiante neste artigo. A abordagem dos tokens de resposta é mais segura e permite um desenvolvimento e manutenção mais fáceis de integrações de terceiros.
 
@@ -35,7 +35,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
 
    Para obter mais informações, consulte [Baixar a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. Em [!DNL Target], clique em **[!UICONTROL Administração]** > **[!UICONTROL Tokens de Resposta]**.
 
    ![](assets/response_tokens-new.png)
 
@@ -45,7 +45,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
 
    | Tipo | Parâmetro | Notas |
    |--- |--- |--- |
-   | Perfis incorporados | `profile.activeActivities` | Retorna uma matriz do `activityIds` para o qual os visitantes estão qualificados. Ele é incrementado à medida que os usuários são qualificados. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | Perfis incorporados | `profile.activeActivities` | Retorna uma matriz do `activityIds` para o qual os visitantes estão qualificados. Ele é incrementado à medida que os usuários são qualificados. Por exemplo, em uma página com duas [!DNL Target] solicitações que fornecem duas atividades diferentes, a segunda solicitação inclui ambas as atividades. |
    |  | `profile.isFirstSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
    |  | `profile.isNewSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
    |  | `profile.daysSinceLastVisit` | Retorna o número de dias, desde a última visita do visitante. |
@@ -56,7 +56,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
    |  | `profile.categoryAffinities` | Retorna uma matriz das 5 categorias principais do visitante como sequências de caracteres. |
    | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que &quot;option&quot; equivale a &quot;offer.&quot; |
    | Geografia | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulte [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) para obter mais informações sobre como usar o direcionamento geográfico nas atividades. |
-   | Método<br>de alocação de tráfego (aplica-se somente ao Público alvo [!UICONTROL automático] e ao [!UICONTROL Automated Personalization] atividade.) | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência de estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência da distribuição de tráfego &quot;direcionada&quot;. |
+   | Método de alocação de tráfego<br>(Aplica-se somente a [!UICONTROL Público alvo automático] e [!UICONTROL Automated Personalization] atividade.) | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência de estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência da distribuição de tráfego &quot;direcionada&quot;. |
    |  | `experience.trafficAllocationType` | Retorna &quot;controle&quot; ou &quot;direcionado&quot;. |
 
    Os atributos do perfil do usuário e dos Atributos do cliente também são exibidos na lista.
@@ -65,9 +65,9 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
    >
    >Os parâmetros com caracteres especiais não são exibidos na lista. Somente caracteres alfanuméricos e sublinhados são suportados.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Condicional) Se você deseja usar um parâmetro de perfil como um token de resposta, mas o parâmetro não foi passado por uma solicitação [!DNL Target] e, portanto, não foi carregado na interface do usuário do Público alvo, você pode usar o botão [!UICONTROL Adicionar token de resposta] para adicionar o perfil à interface do usuário.
 
-   Clique em **[!UICONTROL Adicionar token]** de resposta, forneça o nome do token e clique em **[!UICONTROL Ativar]**.
+   Clique em **[!UICONTROL Adicionar token de resposta]**, forneça o nome do token e clique em **[!UICONTROL Ativar]**.
 
    ![](assets/response_token_create.png)
 
@@ -130,15 +130,15 @@ Você verá os tokens de resposta, mas a at.js não poderá usá-los.
 
 **O que acontece se eu estiver usando a at.js 1.1 (ou posterior) em algumas páginas, mas a mbox.js em outras páginas?**
 
-Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
+Os tokens de resposta serão entregues às respostas do Público alvo [!DNL at.js], mas não às respostas [!DNL mbox.js].
 
 **Posso fazer com que ambos plugins e tokens de resposta do Target Classic fiquem ativos ao mesmo tempo?**
 
 Os plugins e os tokens de resposta serão disponibilizados em paralelo; no entanto, os plugins serão desativados no futuro.
 
-**Os tokens de resposta são entregues por meio de todas as [!DNL Target] respostas ou somente por meio de [!DNL Target] respostas que fornecem uma atividade?**
+**Os tokens de resposta são entregues por meio de todas as  [!DNL Target] respostas ou somente por meio de  [!DNL Target] respostas que fornecem uma atividade?**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+Os tokens de resposta são entregues somente por meio de [!DNL Target] respostas que fornecem uma atividade.
 
 **Meu plugin do Target Classic está incluído no JavaScript. Como replico a funcionalidade dele usando os tokens de resposta?**
 
@@ -164,7 +164,7 @@ Conforme mencionado acima os tokens de resposta trabalham nas informações de p
 
 O Target realiza uma atualização de atributos em intervalos regulares. Qualquer atributo que não esteja ligado será demovido durante a próxima atualização. Entretanto, se você tem um atributo que foi ligado e tiver sido removido (por exemplo, você removeu um script de perfil que foi usado como um token), esse script não será removido da lista de atributos, até ele ter sido desligado. O Target remove somente os atributos desligados na lista, quando são excluídos ou renomeados.
 
-## Envio de dados para o Google Analytics via at.js  {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envio de dados para o Google Analytics via at.js   {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código na página HTML:
 
@@ -230,7 +230,7 @@ O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código n
 </script>
 ```
 
-## Depuração (similar ao plugin ttMeta)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Depuração (similar ao plugin ttMeta)   {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adicionar o seguinte código à página HTML:
 
@@ -282,12 +282,12 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 </script>
 ```
 
-## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js ![Crachá do tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js ![Etiqueta do tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
 
 >[!NOTE]
 >
->A interface do usuário do menu [!DNL Target] Administração [!UICONTROL (anteriormente] Configuração ) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
+>A interface do usuário do menu [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
