@@ -20,7 +20,7 @@ Lista de perguntas frequentes sobre o Adobe Target Recommendations atividade.
 
 Quando você realiza uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de String em vez de um valor numérico.
 
-Atualmente, não há funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) do cliente que faça referência aos atributos que precisam do tipo alterado de sequência para numérico.
+Atualmente, não há funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema do cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referenciando os atributos que precisam do tipo alterados de string para numérico.
 
 ## Quanto tempo leva para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?
 
@@ -57,7 +57,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recommendations?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recommendations?   {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Os critérios disponíveis são baseados na categoria atual. Quando você está criando ofertas do Recommendations, o seletor de algoritmo exibe os critérios com base na ID de categoria.
 
@@ -90,7 +90,7 @@ A lista a seguir contém casos especiais em que o Target não exibe a caixa de s
 * Nenhuma chamada de mbox está sendo filtrada na página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Os parâmetros do Target não estão definidos.
 
-## O que devo fazer se uma coleção no Recommendations chega a zero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## O que devo fazer se uma coleção no Recommendations chega a zero (0)?   {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Considere as informações a seguir se você vir uma coleção em zero que anteriormente não estava em zero:
 
@@ -118,7 +118,7 @@ Esse tipo de ponderação é mais dinâmica e baseia-se na &quot;chave de recome
 
 ![](assets/content_similarity_example.png)
 
-## Por que o Target às vezes não consegue mostrar as recomendações?  {#section_DB3F40673AED42228E407C05437D99E9}
+## Por que o Target às vezes não consegue mostrar as recomendações?   {#section_DB3F40673AED42228E407C05437D99E9}
 
 Às vezes, o Target não consegue mostrar recomendações devido ao baixo número de recomendações disponíveis.
 
@@ -135,13 +135,13 @@ O número de valores gerados por critério é 3 vezes o número de entidades esp
 #end 
 ```
 
-## Qual é o limite de tamanho de uma chamada à API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed?  {#section_434FE1F187B7436AA39B7C14C7895168}
+## Qual é o limite de tamanho de uma chamada à API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed?   {#section_434FE1F187B7436AA39B7C14C7895168}
 
 O Target impõe um limite de postagem de 50 MB no nível do aplicativo; no entanto, isso apenas acontece quando o cabeçalho de tipo de conteúdo `application/x-www-form-urlencoded` é passado.
 
 Certamente é possível tentar enviar 50.000 produtos em uma mesma chamada. Se ela falhar, você deve quebrá-la em lotes. Normalmente, recomendamos que os clientes quebrem suas chamadas em lotes de 5.000 ou 10.000 produtos para diminuir a possibilidade de se alcançar o tempo limite devido à carga do sistema.
 
-## Preciso especificar o nome da mbox ao criar critérios, promoções ou regras de teste do modelo do Recommendations?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Preciso especificar o nome da mbox ao criar critérios, promoções ou regras de teste do modelo do Recommendations?   {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Ao criar critérios, promoções ou regras de testes do modelo do Recommendations com base em um parâmetro mbox, o `mboxParameter` não solicitará o `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
@@ -154,11 +154,11 @@ Com ambos os métodos, não há link entre a mbox e o parâmetro. Os critérios,
 
 Se você editar um critério, uma promoção ou uma regra de testes do modelo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
 
-## Por que não posso salvar minha atividade herdada de Recommendations, depois de definir um novo público-alvo?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Por que não posso salvar minha atividade herdada de Recommendations, depois de definir um novo público-alvo?   {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao público o mesmo nome de um público-alvo existente, não poderá salvar sua atividade herdada de Recommendations (uma atividade de Recommendations criada antes de outubro de 2016).
 
-## Qual é o tamanho máximo de um arquivo CSV para um upload de feed?  {#section_20F1AF4839A447B9889B246D6E873538}
+## Qual é o tamanho máximo de um arquivo CSV para um upload de feed?   {#section_20F1AF4839A447B9889B246D6E873538}
 
 Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, limite o tamanho do arquivo CSV para 1 GB para evitar falhas durante o processo de upload de arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Limites adicionais sobre o comprimento das colunas requeridas estão disponíveis na  [página de Limitações do Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
@@ -168,13 +168,13 @@ Na sequência de consulta, você pode passar IDs de entidades para as entidades 
 
 Para ativar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro indica uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
 
-A exclusão é executada apenas para a chamada de Público alvo atual; os itens não são excluídos em chamadas de Público alvo subsequentes, a menos que o `excludedIds` valor seja passado novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o `excludedIds` valor em cada página.
+A exclusão é executada apenas para a chamada de Público alvo atual; os itens não são excluídos em chamadas de Público alvo subsequentes, a menos que o valor `excludedIds` seja passado novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o valor `excludedIds` em cada página.
 
 >[!NOTE]
 >
 >Se muitas entidades forem excluídas, as recomendações se comportarão como se não houvesse entidades suficientes para preencher o modelo da recomendação.
 
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
+Para excluir `entityIds`, anexe o token `&excludes=${mbox.excludedIds}` ao url de conteúdo da oferta. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
 
 Por padrão, esse recurso é ativado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
 
