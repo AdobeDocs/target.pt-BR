@@ -40,7 +40,7 @@ A prioridade é usada se várias atividades forem atribuídas para o mesmo local
 
 Se essa opção não estiver ativada na Administração (o padrão), especifique uma prioridade: Baixa, Média ou Alta.
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Para ativar prioridades refinadas, clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatórios]** e, em seguida, alterne a opção Ativar prioridades granuladas para a posição &quot;Ligado&quot;.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
