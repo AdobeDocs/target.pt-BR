@@ -65,13 +65,13 @@ O Direcionamento automático usa aprendizagem de máquina avançada para identif
 
 A Personalização automatizada (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões.
 
-## B  {#section_03D02D426DB44F2CA79314F73BB2DD84}
+## B   {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
 **anúncios comportamentais**
 
 Testa e acompanha visita para anúncios e outros conteúdos de deslocamento. Também é possível usar anúncios comportamentais para identificar a entrada e saída do mesmo usuário em seu site e fornecer uma experiência Web consistente.
 
-## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C   {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaign**
 
@@ -109,7 +109,7 @@ Registra os resultados do teste ou da atividade, como registros, pedidos ou vend
 
 Regras que determinam quais produtos ou conteúdo devem ser recomendados. Os critérios podem ser baseados em tendências populares, nos comportamentos atuais e passados de um visitante ou em produtos e conteúdo semelhantes.
 
-## D  {#section_CD712B37316C45F58F82113707A98D5C}
+## D   {#section_CD712B37316C45F58F82113707A98D5C}
 
 **DAM**
 
@@ -139,7 +139,7 @@ Permite que aplicativos RIA (Rich Internet Applications) manipulem o HTML após 
 
 Utiliza tecnologia de página dinâmica para enviar valores à oferta.
 
-## E  {#section_55C3D8AF3D31494784C70090D8343244}
+## E   {#section_55C3D8AF3D31494784C70090D8343244}
 
 **engagement**
 
@@ -173,7 +173,7 @@ Uma oferta, imagem, texto, botão, vídeo, combinação desses diferentes elemen
 
 O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 
-## F  {#section_45450032955C4DD2B607B85A23C4E21A}
+## F   {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **feed**
 
@@ -187,7 +187,7 @@ A representação visual de uma atividade no Target Standard.
 
 Uma interface de criação de ofertas e experiências não visuais que é útil na criação de experiências para uso em testes A/B, no Direcionamento de experiência, na Personalização automatizada e em atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou não for prático. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
-## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **parâmetro de localização geográfica**
 
@@ -197,7 +197,7 @@ Permite direcionar atividades e experiências com base na localização geográf
 
 A conversão ou o resultado que sinaliza uma atividade bem-sucedida. Faz parte das práticas recomendadas nunca executar um teste sem ter uma meta para aprimorá-la de alguma maneira específica.
 
-## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H   {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **host**
 
@@ -213,7 +213,7 @@ Consulte *Ambiente*. Os grupos de hosts são chamados de &quot;ambientes&quot; n
 
 Parâmetro específico do visitante enviado ao respectivo cookie pela mbox. Visitantes recorrentes são um exemplo de um parâmetro interno de perfil da mbox.
 
-## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L   {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **atividade de página de aterrissagem**
 
@@ -223,7 +223,7 @@ Permite usar a segmentação para exibir diferentes conteúdos de página de ate
 
 Uma área de conteúdo específico em uma página, normalmente, contido por um elemento DOM. Na metodologia MVT, uma localização é, às vezes, chamado de *fator*. Um teste multivariado fatorial completo compara todas as combinações possíveis de ofertas nas localizações.
 
-## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M   {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -241,7 +241,7 @@ Transmitido na página, não no URL. Parâmetros são utilizados para enviar dad
 
 O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade
 
-## O  {#section_A2C1A057EC87445CBDB535E80C371105}
+## O   {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **objetivo**
 
@@ -255,7 +255,7 @@ Uma oferta é o conteúdo exibido em uma mbox durante atividades e testes. Uma e
 
 Permite que os visitantes optem por não participar de nenhum rastreamento ou entrega de conteúdo.
 
-## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P   {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **contagem de página**
 
@@ -265,7 +265,7 @@ Uma métrica de envolvimento que mede o número de páginas visualizadas em uma 
 
 A prioridade é usada se várias atividades são atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-## R  {#section_86725D549B6F46A6ADEE424F33595705}
+## R   {#section_86725D549B6F46A6ADEE424F33595705}
 
 **receita**
 
@@ -291,7 +291,7 @@ Para hospedar conteúdo fora do [!DNL Target], use ofertas remotas, que o [!DNL 
 
 Os relatórios fornecem informações sobre o progresso e os resultados das suas atividades que ajudam a tomar decisões baseadas em dados. Os dados dos relatórios podem ajudá-lo a decidir quando finalizar um teste, mostrar a experiência ou a oferta vencedora e fornecer os insights necessários para determinar as próximas ações.
 
-## S  {#section_9482B06EBB09486784492F838289E54D}
+## S   {#section_9482B06EBB09486784492F838289E54D}
 
 **parâmetro do perfil de script**
 
@@ -313,7 +313,7 @@ Um aplicativo de página única (SPA) é um aplicativo ou site da Web que cabe e
 
 Os parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target. Por exemplo, você pode determinar se uma nova oferta ou a adição de um item a um carrinho de compras aumenta sua receita por visitante. As métricas de sucesso podem ser úteis para descobrir problemas nos funis de registro, pedido ou compra, além de facilitar a descoberta de problemas no envolvimento de visitantes ou clientes.
 
-## T  {#section_1841144841AF41169AF1E83B90C18292}
+## T   {#section_1841144841AF41169AF1E83B90C18292}
 
 **teste**
 
@@ -323,13 +323,13 @@ Uma atividade que compara duas ou mais experiências em relação às métricas 
 
 Um tipo de envolvimento que representa o tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira mbox de exibição da atividade até o carregamento da página final na sessão com uma mbox.
 
-## U  {#section_6407B81326FF43049D92265746E6C402}
+## U   {#section_6407B81326FF43049D92265746E6C402}
 
 **Parâmetros de URL**
 
 Todas as página de referência de URL e variáveis de página são automaticamente enviadas para a mbox, sempre que a página com a mbox é visualizada por qualquer visitante. Essas variáveis de URL ficam disponíveis para definição de metas de exibição ou filtros de segmento em relatórios.
 
-## V  {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+## V   {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visit**
 
@@ -343,7 +343,7 @@ Um visitante é qualquer pessoa que acessa seu site. Um visitante é avaliado em
 
 No Target Standard, uma interface WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta).
 
-## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W   {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **experiência vencedora**
 
