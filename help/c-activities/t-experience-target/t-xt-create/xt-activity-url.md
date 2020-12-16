@@ -22,7 +22,7 @@ O URL da atividade determina a página usada na atividade de Direcionamento de e
    >
    >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] têm correspondência.
    >
-   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). Você pode especificar uma página diferente durante a criação da atividade.
+   >Por padrão, o VEC ou o Criador de experiências baseado em forma abre a página especificada nas [configurações do Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md). Você pode especificar uma página diferente durante a criação da atividade.
    >
    >Caso tenha especificado um URL para um site que não inclui o código JavaScript do Target Standard, não será possível selecionar elementos da página.
 
