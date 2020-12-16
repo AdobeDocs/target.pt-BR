@@ -54,7 +54,7 @@ Se você usar somente o mboxCreate, por exemplo, em páginas criadas com o [!DNL
 | autocriar mbox global | autocriar mbox global - síncrono | autocriar mbox global - síncrono | autocriar mbox global - síncrono | autocriar mbox global - síncrono |
 | mboxCreate | padrão | padrão | padrão | padrão |
 
-## Implementação de ID de visitante presente, mas sem ID de visitante definida  {#section_29888A119C7A4753AD287FC845AA63F4}
+## Implementação de ID de visitante presente, mas sem ID de visitante definida   {#section_29888A119C7A4753AD287FC845AA63F4}
 
 Se nenhuma ID de visitante foi configurada, não há nenhum cookie de visitante da [!DNL Experience Cloud] para o usuário. A página chama o serviço de ID de visitante para obter a ID de visitante. O aguarda a resposta com a ID que está fazendo a chamada para o [!DNL Target]Target.
 
@@ -69,7 +69,7 @@ Se você estiver usando a versão 57 da [!DNL mbox.js] nesta situação, tudo fu
 | autocriar mbox global | autocriar mbox global - síncrono | autocriar mbox global - assíncrono | autocriar mbox global - assíncrono | autocriar mbox global - assíncrono |
 | mboxCreate | padrão | ajax | ajax | ajax |
 
-## Implementação de ID de visitante presente, e a ID de visitante existe  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## Implementação de ID de visitante presente, e a ID de visitante existe   {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 Se houver cookie de ID de visitante, o [!DNL Target] não precisará fazer uma chamada para o serviço de ID de visitante. Nesse caso, não há necessidade de aguardar o serviço de ID de visitante antes de exibir o conteúdo. Das versões 57 a 59, o tipo **criar mbox global automaticamente - síncrono** é usado, então a página aguarda a chamada para o [!DNL Target] retornar antes de continuar o carregamento. Isso impede a oscilação do conteúdo padrão. Para a versão 60, o **tipo mbox global - assíncrono** é usado para garantir que o [!DNL Target] aguarde o serviço de cancelamento da [!DNL Experience Cloud] para responder. O serviço de cancelamento é parte do lançamento do Data Co-op no quarto trimestre de 2016. Como todas as chamadas são retornadas usando o ajax, `document.write()` não deve ser usado com a [!DNL mbox.js] versão 60.
 
