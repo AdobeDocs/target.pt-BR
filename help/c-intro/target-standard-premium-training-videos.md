@@ -32,12 +32,12 @@ Os vídeos de treinamento estão incorporados dentro de tópicos relevantes nest
 
 ## Adobe Target - Tutoriais e vídeos
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
+Uma coleção de vídeos práticos e tutoriais destacando os recursos do Público alvo disponíveis na página [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
 
 ![Vídeos da Experience League](/help/c-intro/assets/experience-league.png)
 
-## Tutoriais do Adobe Target  {#tutorials}
+## Tutoriais do Adobe Target   {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) page.
+As introduções de vídeo aos conceitos e ferramentas [!DNL Target] estão disponíveis na página [Tutorials Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
 
 ![Tutoriais do Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
