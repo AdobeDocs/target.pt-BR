@@ -88,7 +88,7 @@ Observe os detalhes a seguir sobre a lista Atividade:
 
 Por padrão, a lista é classificada pela data em que a atividade foi modificada pela última vez, com a mais recente no topo. No entanto, há várias opções de filtro para ajudar a personalizar a lista a fim de mostrar as atividades que você deseja ver.
 
-### Pesquisa  {#search-heading}
+### Pesquisa   {#search-heading}
 
 Use o campo de pesquisa para procurar atividades que correspondam a seus critérios de pesquisa.
 
@@ -170,7 +170,7 @@ Esse trabalho de importação será executado quando a página de atividades for
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Etiqueta de ![Visão Geral de Tipos de atividades (9:03)](/help/assets/overview.png)
+### Tipos de atividade (9:03) ![emblema de visão geral](/help/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
@@ -180,7 +180,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Como gerenciar o selo de ![visão geral do Atividade (5:55)](/help/assets/overview.png)
+### Gerenciamento do Atividade (5:55) ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar a lista de Atividades para gerenciar as atividades.
 
