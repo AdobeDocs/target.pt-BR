@@ -147,7 +147,7 @@ As seguintes alterações foram feitas nesta versão:
 
 * A resposta de mbox global criada automaticamente para o Target Standard não usa mais document. write() ou cria um `<div>` elemento.
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Recomenda-se um QA apurado ao se atualizar para esta nova versão.
+   Isso remove o requisito para que o arquivo mbox.js seja o último item em `<head>` da página. Recomenda-se um QA apurado ao se atualizar para esta nova versão.
 
    Essa alteração pode levar a mudanças no comportamento ao se entregar alguns tipos de ofertas. Veja algumas condições específicas que deverão ser levadas em consideração:
 
