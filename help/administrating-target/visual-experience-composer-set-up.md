@@ -14,13 +14,13 @@ ht-degree: 52%
 
 # Configurar o Visual Experience Composer
 
-Configure o [!DNL Adobe Target] Visual Experience Composer  (VEC) especificando suas configurações gerais, a configuração do visor móvel e os seletores de CSS.
+Configure o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando suas configurações gerais, configuração do visor móvel e seletores de CSS.
 
-Para acessar a página de configuração do [!UICONTROL Visual Experience Composer] , clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
+Para acessar a página de configuração do [!UICONTROL Visual Experience Composer], clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Observe que as configurações desta página se aplicam à [!DNL Target] conta inteira.
+>Observe que as configurações nesta página se aplicam a toda a conta [!DNL Target].
 
 ![Página de configuração do Visual Experience Composer](/help/administrating-target/assets/vec.png)
 
@@ -36,17 +36,17 @@ As seguintes configurações estão disponíveis:
 
 O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la.
 
-### Ativar Enhanced Experience Composer {#eec}
+### Ativar Enhanced Experience Composer  {#eec}
 
-Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. A entrega de atividades nos sites não é afetada por essa escolha.
+Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque essa opção para reverter para o [!UICONTROL Visual Experience Composer] original. A entrega de atividades nos sites não é afetada por essa escolha.
 
 Para obter mais informações, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
+Você também pode ativar o [!UICONTROL Enhanced Experience Composer] no nível da atividade.
 
 ### Carregar conteúdo misto
 
-Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Ative conteúdo misto ao abrir um site usando o [!UICONTROL Enhanced Experience Composer] (EEC). A habilitação dessa opção evita a sobrecarga extra de carregamento de recursos estáticos por meio de [!DNL Target] servidores proxy.
 
 Essa opção é útil se, por exemplo:
 
@@ -57,13 +57,13 @@ Essa opção é útil se, por exemplo:
 
 Quando os instantâneos de experiência estão ativados, miniaturas são geradas para as experiências no diagrama de fluxo de trabalho da atividade. A desativação de instantâneos pode resultar no desempenho mais rápido para alguns usuários.
 
-## ![Configuração do selo](/help/assets/premium.png) Premium Mobile Viewport
+## ![Configuração Premium ](/help/assets/premium.png) badgeMobile Viewport
 
 É possível adicionar dispositivos para usar ao visualizar experiências. Cada dispositivo está associado a um público-alvo.
 
 ![Seção Configuração do Mobile Viewport](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click [!UICONTROL Save].
+Clique em **[!UICONTROL Adicionar]**, especifique um nome descritivo para o visor móvel, especifique a largura e a altura, selecione o sistema operacional desejado e clique em [!UICONTROL Salvar].
 
 Para obter mais informações sobre como adicionar um visor móvel, consulte [Configuração de visor móvel](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -93,9 +93,9 @@ Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a pági
 
 >[!NOTE]
 >
->Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
+>A substituição da configuração por atividade não está disponível nas atividades [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing].  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
 
-## Vídeo de treinamento: Etiqueta ![Visão geral das preferências da conta (7:33)](/help/assets/overview.png)
+## Vídeo de treinamento: Preferências de conta (7:33) ![emblema de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre as preferências da conta.
 
@@ -103,6 +103,6 @@ Este vídeo inclui informações sobre as preferências da conta.
 
 >[!NOTE]
 >
->A interface do usuário do menu [!DNL Target] Administração [!UICONTROL (anteriormente] Configuração ) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
+>A interface do usuário do menu [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
