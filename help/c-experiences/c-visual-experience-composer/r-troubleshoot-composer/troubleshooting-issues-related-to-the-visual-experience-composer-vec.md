@@ -16,14 +16,14 @@ ht-degree: 97%
 
 Problemas de exibição às vezes ocorrem no Visual Experience Composer (VEC), sob certas condições.
 
-## Quando abro meu site no Visual Experience Composer, as bibliotecas do Target não são carregadas. (Somente VEC)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando abro meu site no Visual Experience Composer, as bibliotecas do Target não são carregadas. (Somente VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 O Target adiciona dois parâmetros (`mboxEdit=1` e `mboxDisable=1`) ao abrir o site no Visual Experience Composer.
 
 Se o site (principalmente, Aplicativos de página única) corta nossos parâmetros ou os remove ao navegar de uma página a outra (sem um recarregamento de página), a funcionalidade do Target é interrompida e as bibliotecas do Target não são carregadas. 
 Para evitar esse problema, assegure-se de não cortar ou remover esses dois parâmetros.
 
-## Minha página não abre no EEC ou carrega lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Minha página não abre no EEC ou carrega lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC)   {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Vários problemas podem afetar o desempenho da página nos compositores de experiência do Target. Alguns erros comuns incluem:
 
@@ -33,7 +33,7 @@ Vários problemas podem afetar o desempenho da página nos compositores de exper
 
 Se ocorrerem problemas no Enhanced Experience Composer, tente desativá-lo e usar o Visual Experience Composer.
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+Para desativar o Enhanced Experience Composer, vá até **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** e desative a opção **[!UICONTROL Ativar o Enhanced Experience Composer]**.
 
 Alguns usuários veem a seguinte mensagem de erro no console:
 
@@ -109,7 +109,7 @@ Para a extensão Modify Response Header (Firefox), já que você não pode adici
 
 Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carregadas no Visual Experience Composer, mesmo que o Enhanced Experience Composer esteja desativado.
 
-## Minha página não é exibida no VEC (somente VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Minha página não é exibida no VEC (somente VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Não há suporte para o navegador.
 * O navegador está bloqueando uma página não segura em um site seguro.
@@ -120,6 +120,6 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 
 Certifique-se de que essa configuração esteja ativada, baixe e atualize a mbox.js no site.
 
-## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Ao usar o modo de navegação, se você acessar um URL que não tenha target.js ou contenha um cabeçalho de quadro, o Visual Experience Composer parecerá quebrado. Devido a preocupações com a segurança do navegador, o Target não pode acessar o URL para o qual você navegou.
