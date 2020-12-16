@@ -16,7 +16,7 @@ ht-degree: 74%
 
 A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor, a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
-While creating an A/B activity using the three-step guided workflow, you can choose the [!UICONTROL Auto-Allocate to best experience] option.
+Ao criar uma atividade A/B usando o fluxo de trabalho guiado em três etapas, você pode escolher a opção [!UICONTROL Autoalocar para a melhor experiência].
 
 ## O desafio {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -42,7 +42,7 @@ A alocação automática aloca novos visitantes a experiências de modo intelige
 * Use um padrão **[Use o teste A/B](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** quando quiser caracterizar o desempenho de todas as experiências antes de otimizar o site. Um teste A/B ajuda a classificar todas as experiências, enquanto a alocação de tráfego automatizada encontra aquelas de desempenho mais alto, mas não garante a diferenciação entre aquelas de desempenho mais baixo.
 * Use [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando quiser algoritmos de otimização da mais alta complexidade, como modelos de aprendizado automatizado que fazem previsões com base em atributos de perfil individuais. A alocação de tráfego automatizada observa o comportamento agregado das experiências (assim como testes A/B padrão) e não diferencia os visitantes.
 
-## Principais benefícios  {#section_0913BF06F73C4794862561388BBDDFF0}
+## Principais benefícios   {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Mantém o rigor de um teste A/B
 * Encontra um vencedor estatisticamente significativo mais rapidamente do que um teste A/B manual
@@ -82,9 +82,9 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 
 >[!NOTE]
 >
->If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. Nesse ponto, 2/3 do tráfego é alocado para o vencedor e 1/3 para o perdedor. Depois disso, quando uma experiência atinge 95% de confiança, 90% do tráfego é alocado para o vencedor e 10% é alocado para o perdedor. Sempre mantemos algum tráfego sendo enviado para a experiência &quot;perdendo&quot; para evitar falsos positivos a longo prazo (ou seja, manter alguma exploração).
+>Se uma atividade tiver apenas duas experiências, ambas as experiências terão tráfego igual até [!DNL Target] encontrar uma experiência vencedora com 75% de confiança. Nesse ponto, 2/3 do tráfego é alocado para o vencedor e 1/3 para o perdedor. Depois disso, quando uma experiência atinge 95% de confiança, 90% do tráfego é alocado para o vencedor e 10% é alocado para o perdedor. Sempre mantemos algum tráfego sendo enviado para a experiência &quot;perdendo&quot; para evitar falsos positivos a longo prazo (ou seja, manter alguma exploração).
 
-After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
+Depois que uma atividade [!UICONTROL Autoalocar] é ativada, as seguintes operações da interface do usuário não são permitidas:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
@@ -132,11 +132,11 @@ Esses fatores podem distorcer os resultados em um teste de alocação automátic
 
 ## Perguntas frequentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades de [!UICONTROL autoalocação] :
+Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com as atividades de [!UICONTROL Autoalocação]:
 
 ### O Analytics for Público alvo (A4T) oferece suporte à Autoalocação de atividades?
 
-Sim. Para obter mais informações, consulte Suporte [do Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) na criação *de* Atividades.
+Sim. Para obter mais informações, consulte [Suporte do Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) em *criação de Atividades*.
 
 ### Os visitantes recorrentes são realocados automaticamente a experiências de alto desempenho?
 
@@ -174,7 +174,7 @@ No momento, a lógica favorece visitantes que convertem rapidamente ou visitam c
 
 ### Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Como ocorre com os testes A/B tradicionais, aplique a correção Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica de conversão/hipótese.) Observe que esta calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
+Você pode usar a [calculadora de tamanho de amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html) existente para obter uma estimativa de quanto tempo o teste será executado. (Como ocorre com os testes A/B tradicionais, aplique a correção Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica de conversão/hipótese.) Observe que esta calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. Usar a calculadora para uma atividade de Autoalocação é opcional, pois a Autoalocação declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
 * Ao testar exatamente duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho da amostra) quando a diferença de desempenho entre experiências é grande, mas pode exigir mais tempo para identificar um vencedor quando a diferença de desempenho entre experiências é pequena. Nestes casos, os testes com horizonte fixo teriam normalmente terminado sem um resultado estatisticamente significativo.
 * Ao testar mais de duas experiências, a Autoalocação encontra um vencedor mais rapidamente do que o teste de horizonte fixo (isto é, o período sugerido pela calculadora de tamanho de amostra) quando uma única experiência executa fortemente todas as outras experiências. Quando duas ou mais experiências estão &quot;vencendo&quot; em relação a outras experiências, mas muito próximas entre si, a Autoalocação pode exigir mais tempo para determinar qual é superior. Nesses casos, os testes de horizonte fixo tipicamente terminariam ao concluir que as experiências &quot;vencedoras&quot; eram melhores do que as de menor desempenho, mas não identificaram qual era superior.
 
@@ -186,19 +186,19 @@ Na verdade, não há razão para eliminar uma experiência com desempenho inferi
 
 ### É possível alterar a métrica de objetivo no meio de uma atividade de Autoalocação? {#change-metric}
 
-Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
+Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a interface do usuário [!DNL Target], você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
 
-Esta recomendação se aplica a [!UICONTROL Autoalocação], Público alvo automático e atividades [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a fonte do relatórios.
+Esta recomendação se aplica às atividades [!UICONTROL Autoalocar], [!UICONTROL Público alvo automático] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a origem do relatórios.
 
 ### Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Autoalocação?
 
-Não é sugerido usar a opção [!UICONTROL Redefinir dados] de relatório para [!UICONTROL Autoalocar] atividades. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo de [!UICONTROL Autoalocação] . Em vez de usar a opção [!UICONTROL Redefinir dados] do relatório para [!UICONTROL Autoalocar] atividades, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica ao Público alvo [!UICONTROL automático e às atividades] Automated Personalization  .)
+Não é sugerido usar a opção [!UICONTROL Redefinir dados de relatório] para [!UICONTROL Autoalocar] atividades. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Autoalocar]. Em vez de usar a opção [!UICONTROL Redefinir dados do relatório] para [!UICONTROL Autoalocar] atividades, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica ao [!UICONTROL Público alvo automático] e [!UICONTROL Automated Personalization] atividade.)
 
 ### Como a Autoalocação de modelos de construção é feita em relação aos ambientes?
 
-[!UICONTROL A Autoalocação] cria modelos com base no comportamento de tráfego e conversão registrado somente no ambiente padrão. Por padrão, [!UICONTROL Production] é o ambiente padrão, mas isso pode ser alterado em Público alvo [Administration > Ambiente](/help/administrating-target/environments.md).
+[!UICONTROL A ] alocação automática cria modelos com base no comportamento de tráfego e conversão registrado somente no ambiente padrão. Por padrão, [!UICONTROL Production] é o ambiente padrão, mas isso pode ser alterado no Público alvo [Administração > Ambientes](/help/administrating-target/environments.md).
 
-Se uma ocorrência ocorrer em outro ambiente (não padrão), o tráfego será distribuído de acordo com o comportamento de conversão observado no ambiente padrão. O resultado dessa ocorrência (conversão ou não conversão) será registrado para fins de relatórios, mas não será considerado no modelo de [!UICONTROL Autoalocação] .
+Se uma ocorrência ocorrer em outro ambiente (não padrão), o tráfego será distribuído de acordo com o comportamento de conversão observado no ambiente padrão. O resultado dessa ocorrência (conversão ou não conversão) será registrado para fins de relatórios, mas não será considerado no modelo [!UICONTROL Autoalocar].
 
 Ao selecionar outro ambiente, o relatório mostrará o tráfego e as conversões desse ambiente. O ambiente selecionado padrão para um relatório sempre será o padrão para toda a conta selecionado. O ambiente padrão não pode ser definido por atividade.
 
@@ -206,7 +206,7 @@ Ao selecionar outro ambiente, o relatório mostrará o tráfego e as conversões
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Fluxo de trabalho da atividade - Direcionamento (2:14) ![Crachá do tutorial](/help/assets/tutorial.png)
+### Fluxo de trabalho da atividade - Direcionamento (2:14)  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração da alocação de tráfego.
 
@@ -217,7 +217,7 @@ Este vídeo inclui informações sobre a configuração da alocação de tráfeg
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Criando o selo de ![tutorial de testes A/B (8:36)](/help/assets/tutorial.png)
+### Criando testes A/B (8:36) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado de três etapas do Target. Alocação automática de tráfego será discutida a partir de 4:45.
 
