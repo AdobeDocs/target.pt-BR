@@ -11,7 +11,7 @@ ht-degree: 91%
 ---
 
 
-# Guia do Adobe Target {#using}
+# Guia do Adobe Target  {#using}
 
 + [Página inicial do Guia Adobe Target](target-home.md)
 + Notas de versão do Target {#release-notes}
@@ -177,7 +177,7 @@ ht-degree: 91%
       + Solução de problemas da integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
          + [Solução de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizar contagens inflacionadas de visitas e visitantes no A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Perguntas frequentes sobre o A4T {#a4t-faq}
+      + Perguntas frequentes sobre o A4T  {#a4t-faq}
          + [Provisionamento inicial - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configurações de atividade - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Exibição de relatórios - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -308,7 +308,7 @@ ht-degree: 91%
       + [Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiências e ofertas {#experiences}
    + [Visão geral das experiências e ofertas](c-experiences/experiences.md)
-   + Visual Experience Composer (VEC) {#vec}
+   + Visual Experience Composer (VEC)  {#vec}
       + [Visão geral do Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opções do Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Incluir a mesma experiência em páginas semelhantes](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 91%
       + [Criar sequências de critérios](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Upload dos critérios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + Regras de inclusão dinâmicas e estáticas {#dynamic-static}
          + [Uso das regras de inclusão estática e dinâmica](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Correspondência de atributos de entidade](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Correspondência de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
