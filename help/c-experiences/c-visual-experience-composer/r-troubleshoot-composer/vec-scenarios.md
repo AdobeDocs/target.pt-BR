@@ -288,7 +288,7 @@ Depois
 </div>
 ```
 
-## Cenário: renomeie a classe do elemento selecionado  {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Cenário: renomeie a classe do elemento selecionado   {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 Neste cenário, a classe do item de lista selecionado foi alterada.
 
