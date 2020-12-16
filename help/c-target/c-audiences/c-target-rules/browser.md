@@ -71,7 +71,7 @@ Selecione **[!UICONTROL Tipo]** e escolha “é igual” ou “não é igual”.
 
 Selecione um ou mais navegadores. Várias opções estão conectadas a um OR.
 
-### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma   {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Direcione ou exclua determinados navegadores configurados para usar idiomas específicos.
 
@@ -98,7 +98,7 @@ Os seguintes idiomas de navegador podem ser direcionados ou excluídos:
 * Espanhol
 * Chinês tradicional
 
-### Versão  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versão   {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Direcione ou exclua determinadas versões de um navegador.
 
@@ -119,7 +119,7 @@ Somente versões principais podem ser inseridas no campo de texto. A versão esp
 
 Várias opções estão conectadas a um OR.
 
-## Vídeo de treinamento: Criação de públicos-alvo ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criação de públicos-alvo  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
