@@ -24,7 +24,7 @@ A cada intervalo de 3 a 5 minutos, as atualizações são sincronizadas com o ba
 
 | PCID (sem logon) | mbox3rdPartyId (com logon) | Mesclado e salvo em mbox3rdPartyId |
 |---|---|---|
-| category=hats | category=skis | category=skis |
+| category=hats | category=skis | categoria=esquis |
 |  | store=94103 | store=94103 |
 | Atividade 1, experiência A | Atividade 1, experiência B | Atividade 1, experiência B |
 | Atividade 1 |  | Atividade 1 |
@@ -37,7 +37,7 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] os objetivos não serão rastreados nos casos em que a [!DNL Adobe Experience Cloud] ID (EDID) muda (por exemplo, o visitante muda de dispositivos), mesmo que o [!DNL Target] perfil possa ser mesclado com base na mbox3rdPartyId e ainda tenha informações de atividade. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] os objetivos não serão rastreados nos casos em que a  [!DNL Adobe Experience Cloud] ID (EDID) muda (por exemplo, o visitante muda de dispositivos), mesmo que o  [!DNL Target] perfil possa ser mesclado com base na mbox3rdPartyId e ainda tenha informações de atividade. Para visitantes identificados com o mesmo EDID (aqueles que acessam a página com o mesmo dispositivo), [!DNL Analytics for Target] (A4T) deve funcionar conforme esperado.
 
 ## Considerações {#considerations}
 
