@@ -32,7 +32,7 @@ Quando você for membro de um ou mais grupos da Experience Cloud que têm acesso
 
 Se ocorrerem problemas de provisionamento, verifique se o A4T está provisionado corretamente.
 
-## Por que meus conjuntos de relatórios não estão carregando?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## Por que meus conjuntos de relatórios não estão carregando?   {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 Verifique o seguinte se algum destes problemas ocorrer:
 
@@ -40,14 +40,14 @@ Verifique o seguinte se algum destes problemas ocorrer:
 * Se você estiver usando vários logins da empresa do Analytics na mesma empresa Experience Cloud, verifique se a última empresa do Analytics na qual você fez login é aquela vinculada à conta do Target para a integração.
 * Se você fez login no Experience Cloud por várias horas, às vezes a sessão do Analytics pode expirar. Saia e faça login novamente para tentar de novo.
 
-## Por que não vejo as opções do Analytics no Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Por que não vejo as opções do Analytics no Target?   {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
 
-## Por que não vejo os relatórios do A4T no Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Por que não vejo os relatórios do A4T no Analytics?   {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
 
-## Por que meus relatórios no Target estão vazios?  {#section_3837104757464CB488C5A83014A669A1}
+## Por que meus relatórios no Target estão vazios?   {#section_3837104757464CB488C5A83014A669A1}
 
 Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
