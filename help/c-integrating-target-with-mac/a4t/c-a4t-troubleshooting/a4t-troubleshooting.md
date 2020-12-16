@@ -38,7 +38,7 @@ Existem várias razões pelas quais isso pode acontecer:
 >
 >Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
-## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.  {#section_4BE374E573D44FB7918611699B74F58E}
+## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.   {#section_4BE374E573D44FB7918611699B74F58E}
 
 Para obter mais informações, consulte [Redução de visitas aumentadas e contagem de visitantes em A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -46,7 +46,7 @@ Para obter mais informações, consulte [Redução de visitas aumentadas e conta
 
 Os detalhes de incentivo e confiança não estão disponíveis no Analytics. No entanto, eles estão disponíveis nos relatórios do Target.
 
-## As atividades não aparecem nos relatórios do Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## As atividades não aparecem nos relatórios do Analytics.   {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 As atividades do A4T exigem que um servidor de rastreamento de análise seja especificado. Consulte [Uso do Servidor de rastreamento de análise](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para certificar-se de que seu Servidor de rastreamento de análise está configurado corretamente.
 
@@ -54,7 +54,7 @@ As atividades do A4T exigem que um servidor de rastreamento de análise seja esp
 >
 >Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
-## Meus segmentos do Analytics não aparecem no Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Meus segmentos do Analytics não aparecem no Target.   {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Verifique se você tem as permissões certas antes de começar a criar atividades do A4T:
 
@@ -62,26 +62,26 @@ Verifique se você tem as permissões certas antes de começar a criar atividade
 * Você deve ser um membro de um ou mais grupos da Experience Cloud com acesso ao Analytics e Target.
 * Verifique se o Analytics e Target são exibidos na seção Marketing Apps da navegação à esquerda.
 
-## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios.   {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Esse é um problema conhecido.
 
 Apesar de essas métricas serem negativas, o incentivo é mostrado como se elas fossem positivas nos relatórios do Target. Por exemplo, mesmo que você queira uma taxa de rejeição mais baixa, a taxa de rejeição mais alta é mostrada como vencedora com o maior incentivo. Considere essas métricas de métricas semelhantes, bem como sua preferência por diminuir ou aumentar os números, ao tomar decisões baseadas nos relatórios.
 
-## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## O conjunto de relatórios que preciso não é exibido. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). Isso significa que você pode não ver todos os seus conjuntos de relatórios.
+A lista de conjuntos de relatórios que aparece em [!DNL Target Standard/Premium] é a lista de conjuntos de relatórios que foram configurados para [!DNL Analytics] como a fonte de relatórios para [!DNL Target] (A4T). Isso significa que você pode não ver todos os seus conjuntos de relatórios.
 
-Além disso, se você estiver usando várias fontes de relatórios, os conjuntos de relatórios também deverão estar presentes na fonte padrão de relatórios definida em [!DNL Target] ; caso contrário, os conjuntos de relatórios não serão exibidos.
+Além disso, se você estiver usando várias fontes de relatórios, os conjuntos de relatórios também deverão estar presentes no conjunto de fontes de relatórios padrão em [!DNL Target]; caso contrário, os conjuntos de relatórios não serão exibidos.
 
-If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
+Se você ainda não vir o conjunto de relatórios que está procurando, entre em contato com o [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para habilitá-lo.
 
-## Não vejo tantos dados nos relatórios quanto esperado.  {#section_75002584FA63456D8D9086172925DD8D}
+## Não vejo tantos dados nos relatórios quanto esperado.   {#section_75002584FA63456D8D9086172925DD8D}
 
 Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics]. 
 
-* **at.js 1.x**: Na [!DNL Target] chamada, a ID adicional está contida no `mboxMCSDID` parâmetro. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
-* **at.js 2.x**: Na [!DNL Target] chamada, a ID suplementar é retornada no cabeçalho HTTP como valor para `experienceCloud.analytics.supplementalDataId`. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
+* **at.js 1.x**: Na  [!DNL Target] chamada, a ID adicional está contida no  `mboxMCSDID` parâmetro. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
+* **at.js 2.x**: Na  [!DNL Target] chamada, a ID suplementar é retornada no cabeçalho HTTP como valor para  `experienceCloud.analytics.supplementalDataId`. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
 
 A maneira mais fácil de examinar a ID adicional é usando o Adobe Experience Platform Debugger.
 
