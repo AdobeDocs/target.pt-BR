@@ -92,7 +92,7 @@ Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas 
 
 1. Prossiga com o [Passo 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
 
-## Criar um público-alvo combinado para uso na geração de relatórios  {#section_4682D342EFBB43C38E54B99B3A1E14CD}
+## Criar um público-alvo combinado para uso na geração de relatórios   {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na geração de relatórios.
 
@@ -112,7 +112,7 @@ Você pode criar um público-alvo ad hoc combinado ao editar uma atividade exist
 
    Clique na atividade desejada para abri-la, depois clique em **[!UICONTROL Editar atividade]**.
 
-1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Clique em **[!UICONTROL Configure]** > **[!UICONTROL Audiência]** > **[!UICONTROL Várias Audiências]**.
 
    ![Configurar > Públicos > Vários públicos](/help/c-target/assets/combine_multiple_audiences7.png)
 
