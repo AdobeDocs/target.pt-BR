@@ -41,11 +41,11 @@ Ver as informações da pasta.
 
 Editar a pasta.
 
-### Copiar  ![](assets/icon_copy.png)
+### Copiar   ![](assets/icon_copy.png)
 
 Copiar a pasta.
 
-### Mover  ![](assets/icon_move_folder.png)
+### Mover   ![](assets/icon_move_folder.png)
 
 Clique no ícone, navegue até o local onde deseja mover a pasta e clique no ícone Soltar.
 
@@ -78,6 +78,6 @@ Baixa a pasta e seu conteúdo.
 
 Compartilha a pasta e seu conteúdo na Adobe Creative Cloud.
 
-### Copiar  ![](assets/icon_copy_content.png)
+### Copiar   ![](assets/icon_copy_content.png)
 
 Copia a pasta e seu conteúdo.
