@@ -57,7 +57,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 >
 >Entre em contato com seu Consultor de implementações antes de iniciar esses testes.
 
-## Vídeo de treinamento: o repositório de conteúdo (4:56) ![Etiqueta de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: o repositório de conteúdo (4:56)  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 
