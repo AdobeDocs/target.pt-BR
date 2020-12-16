@@ -26,7 +26,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: String
 * **Valor** padrão: body { opacity: 0 }
-* **Descrição**: Usado apenas quando `globalMboxAutocreate === true` para minimizar a chance de oscilação.
+* **Descrição**: Usado apenas quando  `globalMboxAutocreate === true` para minimizar a chance de oscilação.
 
    Para obter mais informações, consulte [Como o at.js gerencia a cintilação](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
@@ -34,7 +34,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Booleano
 * **Valor** padrão: true
-* **Descrição**: Usado para controlar a oscilação quando `target-global-mbox` é usado para fornecer ofertas criadas no Visual Experience Composer, também conhecido como ofertas visuais.
+* **Descrição**: Usado para controlar a oscilação quando  `target-global-mbox` é usado para fornecer ofertas criadas no Visual Experience Composer, também conhecido como ofertas visuais.
 
 ### clientCode
 
@@ -56,39 +56,39 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 ### cspScriptNonce
 
-* **Tipo**: Consulte Política [de segurança de](#content-security) conteúdo abaixo.
-* **Valor** padrão: Consulte Política [de segurança de](#content-security) conteúdo abaixo.
-* **Descrição**: Consulte Política [de segurança de](#content-security) conteúdo abaixo.
+* **Tipo**: Consulte  [Política de segurança ](#content-security) de conteúdo abaixo.
+* **Valor** padrão: Consulte  [Política de segurança ](#content-security) de conteúdo abaixo.
+* **Descrição**: Consulte  [Política de segurança ](#content-security) de conteúdo abaixo.
 
 ### cspStyleNonce
 
-* **Tipo**: Consulte Política [de segurança de](#content-security) conteúdo abaixo.
-* **Valor** padrão: Consulte Política [de segurança de](#content-security) conteúdo abaixo.
-* **Descrição**: Consulte Política [de segurança de](#content-security) conteúdo abaixo.
+* **Tipo**: Consulte  [Política de segurança ](#content-security) de conteúdo abaixo.
+* **Valor** padrão: Consulte  [Política de segurança ](#content-security) de conteúdo abaixo.
+* **Descrição**: Consulte  [Política de segurança ](#content-security) de conteúdo abaixo.
 
 ### dataProviders
 
-* **Tipo**: Consulte Provedores [de dados](#data-providers) abaixo.
-* **Valor** padrão: Consulte Provedores [de dados](#data-providers) abaixo.
-* **Descrição**: Consulte Provedores [de dados](#data-providers) abaixo.
+* **Tipo**: Consulte  [Data ](#data-providers) Providers abaixo.
+* **Valor** padrão: Consulte  [Data ](#data-providers) Providers abaixo.
+* **Descrição**: Consulte  [Data ](#data-providers) Providers abaixo.
 
 ### defaultContentHiddenStyle
 
 * **Tipo**: String
 * **Valor** padrão: visibilidade: hidden
-* **Descrição**: Usado apenas para vincular mboxes que usam DIV com o nome de classe &quot;mboxDefault&quot; e são executados via `mboxCreate()`, `mboxUpdate()`ou `mboxDefine()` para ocultar o conteúdo padrão.
+* **Descrição**: Usado apenas para vincular mboxes que usam DIV com o nome de classe &quot;mboxDefault&quot; e são executadas via  `mboxCreate()`,  `mboxUpdate()`ou  `mboxDefine()` para ocultar o conteúdo padrão.
 
 ### defaultContentVisibleStyle
 
 * **Tipo**: String
 * **Valor** padrão: visibilidade: visible
-* **Descrição**: Usado apenas para vincular mboxes que usam DIV com o nome de classe &quot;mboxDefault&quot; e são executados via `mboxCreate()`, `mboxUpdate()`ou `mboxDefine()` para revelar a oferta aplicada se houver algum conteúdo padrão.
+* **Descrição**: Usado apenas para vincular mboxes que usam DIV com o nome de classe &quot;mboxDefault&quot; e são executados via  `mboxCreate()`,  `mboxUpdate()`ou  `mboxDefine()` para revelar a oferta aplicada se houver algum conteúdo padrão.
 
 ### deviceIdLifetime
 
 * **Tipo**: Número
 * **Valor** padrão: 63244800000 ms = 2 anos
-* **Descrição**: A quantidade de tempo `deviceId` é persistente nos cookies.
+* **Descrição**: A quantidade de tempo  `deviceId` é persistente nos cookies.
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Booleano
 * **Valor** padrão: true
-* **Descrição**: Quando ativada, uma [!DNL Target] solicitação para recuperar experiências e a manipulação de DOM para renderizar as experiências é executada automaticamente. Além disso, [!DNL Target] as chamadas podem ser executadas manualmente via `getOffer(s)` / `applyOffer(s)`.
+* **Descrição**: Quando ativada, uma  [!DNL Target] solicitação para recuperar experiências e a manipulação de DOM para renderizar as experiências é executada automaticamente. Além disso, as chamadas [!DNL Target] podem ser executadas manualmente via `getOffer(s)` / `applyOffer(s)`.
 
-   Quando desativadas, as solicitações não são executadas automática ou manualmente. [!DNL Target]
+   Quando desativadas, as solicitações [!DNL Target] não são executadas automática ou manualmente.
 
 ### globalMboxAutoCreate
 
@@ -118,13 +118,13 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Booleano
 * **Valor** padrão: false
-* **Descrição**: Indica se o Público alvo deve chamar a `isOptedOut()` função da API do Visitante. Isso é parte da ativação do gráfico de dispositivos.
+* **Descrição**: Indica se o Público alvo deve chamar a  `isOptedOut()` função da API do Visitante. Isso é parte da ativação do gráfico de dispositivos.
 
 ### overrideMboxEdgeServer
 
 * **Tipo**: Booleano
 * **Valor** padrão: true (verdadeiro começo com a versão 1.6.2 do at.js)
-* **Descrição**: Indica se devemos usar `<clientCode>.tt.omtrdc.net` domínio ou `mboxedge<clusterNumber>.tt.omtrdc.net` domínio.
+* **Descrição**: Indica se devemos usar  `<clientCode>.tt.omtrdc.net` domínio ou  `mboxedge<clusterNumber>.tt.omtrdc.net` domínio.
 
    Se este valor for true, o domínio `mboxedge<clusterNumber>.tt.omtrdc.net` será salvo em um cookie. Atualmente, não está trabalhando com [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) ao usar versões do at.js anteriores ao at.js 1.8.2 e ao at.js 2.3.1. Se isso for um problema para você, considere [atualizar o at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) para uma versão mais recente e compatível.
 
@@ -132,7 +132,7 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Número
 * **Valor** padrão: 1860000 => 31 minutos
-* **Descrição**: Indica a duração do cookie que contém o `mboxedge<clusterNumber>.tt.omtrdc.net` valor.
+* **Descrição**: Indica a duração do cookie que contém o  `mboxedge<clusterNumber>.tt.omtrdc.net` valor.
 
 ### pageLoadEnabled
 
@@ -150,9 +150,9 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Número
 * **Valor** padrão: 5000 ms = 5 s
-* **Descrição**: Em at.js 0.9.6, [!DNL Target] introduziu essa nova configuração que pode ser substituída por `targetGlobalSettings`.
+* **Descrição**: Em at.js 0.9.6,  [!DNL Target] introduziu essa nova configuração que pode ser substituída por  `targetGlobalSettings`.
 
-   The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
+   A configuração `selectorsPollingTimeout` representa quanto tempo o cliente está disposto a aguardar que todos os elementos identificados pelos seletores apareçam na página.
 
    Atividades criadas pelo Visual Experience Composer (VEC) têm ofertas que contêm seletores.
 
@@ -164,15 +164,15 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 ### serverState
 
-* **Tipo**: Consulte Personalização [híbrida](#server-state) abaixo.
-* **Valor** padrão: Consulte Personalização [híbrida](#server-state) abaixo.
-* **Descrição**: Consulte Personalização [híbrida](#server-state) abaixo.
+* **Tipo**: Consulte  [Personalização ](#server-state) híbrida abaixo.
+* **Valor** padrão: Consulte  [Personalização ](#server-state) híbrida abaixo.
+* **Descrição**: Consulte  [Personalização ](#server-state) híbrida abaixo.
 
 ### timeout
 
 * **Tipo**: Número
 * **Valor** padrão: Valor definido pela interface do usuário.
-* **Descrição**: Representa o tempo limite da solicitação de [!DNL Target] borda.
+* **Descrição**: Representa o tempo limite da solicitação de  [!DNL Target] borda.
 
 ### viewsEnabled
 
@@ -184,11 +184,11 @@ Há casos de uso, especialmente quando at.js for entregue via [!DNL Dynamic Tag 
 
 * **Tipo**: Número
 * **Valor** padrão: 2000 ms = 2 s
-* **Descrição**: Representa o tempo limite da solicitação da API [!UICONTROL do] Visitante.
+* **Descrição**: Representa o tempo limite  [!UICONTROL Visitante ] APIrequest.
 
 ## Uso {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Essa função pode ser definida antes do at.js ser carregado ou em **[!UICONTROL Administration]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar configurações do at.js]** > **[!UICONTROL Configurações de código]** > **[!UICONTROL Cabeçalho da biblioteca]**.
 
 O campo Cabeçalho da biblioteca permite que você entre no JavaScript do formulário gratuito. O código de personalização deve ser semelhante ao seguinte exemplo:
 
@@ -317,7 +317,7 @@ Leve em consideração o seguinte ao trabalhar com a configuração `dataProvide
 * Se os provedores de dados adicionados a `window.targetGlobalSettings.dataProviders` forem assíncronos, serão executados em paralelo. A solicitação da API de visitante será executada em paralelo com funções adicionadas a `window.targetGlobalSettings.dataProviders` para permitir um tempo mínimo de espera.
 * at.js não tentará armazenar os dados em cache. Se o provedor de dados obtiver os dados apenas uma vez, deverá certificar-se de que os dados estão armazenados em cache e, quando a função de provedor for invocada, servir os dados do cache para a segunda invocação.
 
-## Content Security Policy {#content-security}
+## Política de segurança de conteúdo {#content-security}
 
 O at.js 2.3.0+ oferece suporte à definição de políticas de segurança de conteúdo em tags SCRIPT e STYLE anexadas ao DOM da página ao aplicar ofertas Públicos alvos entregues.
 
@@ -338,7 +338,7 @@ window.targetGlobalSettings = {
 ...
 ```
 
-Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar o Público alvo oferta.
+Depois que as configurações `cspScriptNonce` e `cspStyleNonce` são especificadas, o at.js 2.3.0+ as define como atributos nonce em todas as tags SCRIPT e STYLE que elas anexam ao DOM ao aplicar ofertas Público alvo.
 
 ## Personalização híbrida {#server-state}
 
@@ -348,12 +348,12 @@ Depois que `cspScriptNonce` e `cspStyleNonce` as configurações são especifica
 
 Você deve ter uma integração híbrida de [!DNL Target].
 
-* **Do lado** do servidor:  Você deve usar a nova API [do](https://developers.adobetarget.com/api/delivery-api/) delivery ou os SDKs [do](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)Público alvo.
-* **Cliente**: Você deve usar [a versão 2.2 ou posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)do at.js.
+* **Do lado** do servidor: Você deve usar a nova  [API ](https://developers.adobetarget.com/api/delivery-api/) do delivery ou SDKs [ do ](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)Público alvo.
+* **Cliente**: Você deve usar  [a versão 2.2 ou posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) do at.js.
 
 ### Amostras de código
 
-Para entender melhor como isso funciona, consulte os exemplos de código abaixo que você teria em seu servidor. O código supõe que você esteja usando o SDK [Node.js do](https://github.com/adobe/target-nodejs-sdk)Público alvo.
+Para entender melhor como isso funciona, consulte os exemplos de código abaixo que você teria em seu servidor. O código supõe que você esteja usando o SDK [Nó de Público alvo.js](https://github.com/adobe/target-nodejs-sdk).
 
 ```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -383,7 +383,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-Um objeto de amostra JSON para busca prévia de visualização é exibido da seguinte maneira: `serverState`
+Uma amostra de objeto `serverState` JSON para busca prévia de visualização é exibida da seguinte maneira:
 
 ```
 {
@@ -454,7 +454,7 @@ Um objeto de amostra JSON para busca prévia de visualização é exibido da seg
 }
 ```
 
-Depois que a página é carregada no navegador, o at.js aplica todas as [!DNL Target] ofertas `serverState` imediatamente, sem acionar chamadas de rede contra a [!DNL Target] borda. Além disso, o at.js oculta apenas os elementos DOM para os quais [!DNL Target] as ofertas estão disponíveis no conteúdo obtido no lado do servidor, afetando positivamente o desempenho da carga da página e a experiência do usuário final.
+Depois que a página é carregada no navegador, o at.js aplica todas as ofertas [!DNL Target] de `serverState` imediatamente, sem acionar nenhuma chamada de rede contra a borda [!DNL Target]. Além disso, o at.js oculta somente os elementos DOM para os quais [!DNL Target] ofertas estão disponíveis no conteúdo obtido no lado do servidor, afetando positivamente o desempenho de carregamento da página e a experiência do usuário final.
 
 ### Notas importantes
 
@@ -465,21 +465,21 @@ Considere o seguinte ao usar `serverState`:
    * Atividades criadas por VEC que são executadas no carregamento da página.
    * Visualizações pré-buscadas.
 
-      No caso de SPA usando o [!DNL Target] Visualização e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Visualizações pré-buscadas no lado do servidor e aplica-as assim que cada Visualização é acionada por `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Público alvo.
+      No caso de SPA usando [!DNL Target] Visualização e `triggerView()` na API at.js, o at.js v2.2 armazena em cache o conteúdo de todas as Visualizações pré-buscadas no lado do servidor e as aplica assim que cada Visualização é acionada por `triggerView()`, novamente sem acionar chamadas adicionais de busca de conteúdo para o Público alvo.
 
-   * **Observação**:  Atualmente, as mboxes recuperadas no servidor não são suportadas em `serverState`.
+   * **Observação**: Atualmente, as mboxes recuperadas no servidor não são suportadas em  `serverState`.
 
-* Ao aplicar o `serverState `oferta, o at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` as configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a `pageLoadEnabled` configuração for falsa.
+* Ao aplicar `serverState `oferta, at.js leva em consideração `pageLoadEnabled` e `viewsEnabled` as configurações, por exemplo, as ofertas de carregamento de página não serão aplicadas se a configuração `pageLoadEnabled` for falsa.
 
-   Para ativar essas configurações, ative a alternância em **[!UICONTROL Administração] > [!UICONTROL Implementação] > [!UICONTROL Editar] > Carregamento de [!UICONTROL página ativado]**.
+   Para ativar essas configurações, ative a alternância em **[!UICONTROL Administration] > [!UICONTROL Implementação] > [!UICONTROL Editar] > [!UICONTROL Carregamento de página ativado]**.
 
    ![Configurações Ativadas para Carregamento de Página](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
-* Se você estiver usando `serverState` e usando `<script>` tags no conteúdo retornado, verifique se o conteúdo HTML usa `<\/script>` em vez de `</script>`. Se você usar `</script>`, o navegador interpreta `</script>` como o fim em um SCRIPT em linha e pode quebrar a página HTML.
+* Se você estiver usando `serverState` e `<script>` tags no conteúdo retornado, verifique se o conteúdo HTML usa `<\/script>` em vez de `</script>`. Se você usar `</script>`, o navegador interpreta `</script>` como o fim em um SCRIPT em linha e ele pode quebrar a página HTML.
 
 ### Recursos adicionais
 
-Para saber mais sobre como `serverState` funciona, consulte os seguintes recursos:
+Para saber mais sobre como `serverState` funciona, verifique os seguintes recursos:
 
 * [Código de exemplo](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [Aplicativo de amostra de aplicativo de página única (SPA) com `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [Aplicativo de amostra de aplicativo de página única (SPA) com  `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
