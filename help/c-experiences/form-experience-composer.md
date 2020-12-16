@@ -31,7 +31,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 1. Nomeie a atividade.
 1. Selecione um local.
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha &quot;target-global-mbox.&quot;
+   Quando você clica na caixa [!UICONTROL Selecionar local], uma lista de locais disponíveis é exibida. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha &quot;target-global-mbox.&quot;
 
    Você também pode inserir um local que não esteja listado. Isto pode ser útil se a mbox ainda não foi criada ou visualizada em uma página. Insira o nome do local. Cuidado ao inserir um local que ainda não existe. Se a grafia ou capitalização não for compatível com a grafia e capitalização quando a chamada da mbox for feita, a atividade não será entregue. Os locais inseridos manualmente são salvos na lista de locais disponíveis. Na próxima vez que você tentar selecionar um local inserido manualmente, ele estará disponível na lista suspensa [!UICONTROL Selecionar local] para essa atividade.
 
@@ -94,14 +94,14 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. (Opcional, para atividade AB, Automated Personalization e direcionamento de experiência) Para repetir esse processo para locais adicionais, clique em **[!UICONTROL Adicionar localização]** e configure o local e o conteúdo.
+1. Clique em **[!UICONTROL Avançar]** e conclua as etapas de criação da atividade como de costume para o tipo de atividade.
 
 * [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Criar uma atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Criar uma atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de treinamento: criador baseado em forma ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: criador baseado em forma  ![Crachá do tutorial](/help/assets/tutorial.png)
 
 Este vídeo oferece uma demonstração do compositor baseado em formulário.
 
