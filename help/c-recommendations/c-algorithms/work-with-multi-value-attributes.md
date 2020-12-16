@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Para lidar com recomendações nesses cenários, você pode passar dados de vários valores para [!DNL Target Recommendations] e usar operadores especiais de vários valores.
 
-Para permitir [!DNL Recommendations] a identificação de dados de vários valores, eles devem ser enviados como uma matriz JSON, como nas amostras de código abaixo.
+Para permitir que [!DNL Recommendations] identifique dados de vários valores, eles devem ser enviados como uma matriz JSON, como nas amostras de código abaixo.
 
 ## Enviar um parâmetro de vários valores em JavaScript
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Para obter mais informações, consulte [Implementação de atributos](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) de vários valores em atributos *de entidade* Personalizados.
+Para obter mais informações, consulte [Implementação de atributos de vários valores](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) em *Atributos de entidade personalizados*.
 
 ## Passe um atributo de entidade de vários valores em um arquivo CSV
 
@@ -60,7 +60,7 @@ Para obter mais informações, consulte [Implementação de atributos](/help/c-r
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Quando um atributo de entidade, atributo de perfil ou parâmetro de mbox é fornecido como vários valores de acordo com o formato acima, [!DNL Recommendations] infere automaticamente que o campo tem vários valores.
+Quando um atributo de entidade, atributo de perfil ou parâmetro de mbox é fornecido como multi-valor de acordo com o formato acima, [!DNL Recommendations] infere automaticamente que o campo tem vários valores.
 
 Os operadores a seguir estão disponíveis para uso com atributos de entidade, perfil e mbox de vários valores:
 
@@ -119,7 +119,7 @@ Representação da API JSON da regra de inclusão:
 
 ### Exemplo: Criação de critérios pela API recomendando itens dos favoritos de um usuário
 
-Critérios que usam regras de filtragem de vários valores, como todos os critérios, podem ser criados por APIs de E/S de Adobe. Uma chamada de API de exemplo para criar um critério onde o atributo da entidade `id` está contido na lista de parâmetro da mbox `favorites` é fornecida aqui:
+Critérios que usam regras de filtragem de vários valores, como todos os critérios, podem ser criados por meio de APIs da Adobe I/O. Uma chamada de API de exemplo para criar um critério onde o atributo de entidade `id` está contido na lista de parâmetro de mbox `favorites` é fornecida aqui:
 
 ```
 curl -X POST \
