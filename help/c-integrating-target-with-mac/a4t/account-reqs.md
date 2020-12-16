@@ -29,25 +29,25 @@ Conclua as seguintes tarefas no [!DNL Adobe Experience Cloud] [Admin Console](ht
 
 Suas contas de usuário do [!DNL Analytics] e do [!DNL Target] devem estar vinculadas a sua Adobe ID.
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Para obter mais informações, consulte [Organizações e vinculação de contas](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ### Configurar a associação do grupo da Experience Cloud
 
 Você deve ser um membro de um ou mais grupos do [!DNL Experience Cloud] com acesso ao [!DNL Analytics] e [!DNL Target].
 
-For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Para obter mais informações, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
+Configure o acesso ao conjunto de relatórios [!DNL Analytics]:
 
 Para usar o A4T em um determinado conjunto de relatórios, é necessário ter acesso a esse conjunto de relatórios.
 
-1. No **[!UICONTROL Admin Console]**, clique em um perfil de [!DNL Analytics] produto e, em seguida, clique na guia **[!UICONTROL Permissões]** .
+1. Em **[!UICONTROL Admin Console]**, clique em um perfil de produto [!DNL Analytics] e, em seguida, clique na guia **[!UICONTROL Permissões]**.
 
    Em seguida, é possível ver a quais conjuntos de relatórios o perfil tem acesso.
 
-1. Certifique-se de que o conjunto de relatórios ao qual você deseja ter acesso [!DNL Target] seja um dos listados no perfil do produto do qual você faz parte.
+1. Verifique se o conjunto de relatórios ao qual você deseja ter acesso em [!DNL Target] é um dos listados no perfil de produto do qual você faz parte.
 
    A ilustração a seguir é um exemplo de um perfil de produto que tem acesso a todos os conjuntos de relatórios:
 
