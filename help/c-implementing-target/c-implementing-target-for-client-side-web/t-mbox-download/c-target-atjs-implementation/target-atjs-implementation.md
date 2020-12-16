@@ -59,7 +59,7 @@ A biblioteca [!DNL at.js] oferece várias melhorias em relação à biblioteca [
 
 * Funções projetadas especificamente para aplicativos de página única/estruturas de MVC
 
-## Vídeo de treinamento: at.js - Vantagens e práticas recomendadas de implementação ![Etiqueta de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: at.js - Vantagens e práticas recomendadas de implementação  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo é uma gravação de &quot;[No expediente](/help/cmp-resources-and-contact-information.md)&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
