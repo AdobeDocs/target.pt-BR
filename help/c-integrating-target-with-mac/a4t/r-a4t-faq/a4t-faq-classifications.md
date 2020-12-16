@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # Classificações - Perguntas frequentes do A4T{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+Este tópico contém respostas a perguntas frequentes sobre classificações e o uso de [!DNL Analytics] como fonte de relatórios para [!DNL Target] (A4T).
 
 ## Depois de usar o Importador de classificações para baixar classificações, como faço para relacionar o valor de post-tnt-action com o nome de uma atividade? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ Este arquivo de pesquisa é útil para clientes que recebem a alimentação de d
 
 O formato da string da variável TNT é `activityID:experienceID:targettype|event`.
 
-* tipo de destino = 0 (controle/aleatório) ou 1 (direcionado) para atividades de [!UICONTROL Autoalocação] e Público alvo  automático.
+* targettype = 0 (controle/aleatório) ou 1 (direcionado) para [!UICONTROL Autoalocar] e [!UICONTROL Público alvo automático] atividades.
 * Evento = 0 representa entrada de uma experiência.
 * Evento = 1 representa visita de uma experiência.
 * Evento = 2 representa impressão de uma atividade.
 * Evento = 3-32766 representa a ID da métrica de sucesso do Analytics.
 * Evento = 32767 representa conversão de uma atividade.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Você também pode se envolver com os Serviços de engenharia para obter o arquivo como uma tabela de pesquisa junto com uma alimentação de dados de sequência de cliques.
+Você pode importar o arquivo de classificação frequentemente da interface do usuário usando [importação do navegador](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) ou [importação FTP](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Você também pode se envolver com os Serviços de engenharia para obter o arquivo como uma tabela de pesquisa junto com uma alimentação de dados de sequência de cliques.
