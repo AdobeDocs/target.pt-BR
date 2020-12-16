@@ -22,11 +22,11 @@ Por exemplo:
 * Uma grande empresa de tecnologia B2B personalizou páginas de produtos com ativos como guias e white papers. Os cliques em ativos aumentaram mais de 25%.
 * Uma empresa principal do hotel personalizou seu conteúdo de aplicativo móvel. As taxas de conversão dobraram em relação ao seu site móvel, e o aplicativo levou mais de US$ 1,5 bilhão em reservas.
 
-A interação com seus clientes dessa forma requer uma solução que pode ser usada em praticamente qualquer ponto de contato usando quase qualquer fonte de dados para entendê-los. [!DNL Adobe Target]E parte disso [!DNL Adobe Experience Cloud]é essa solução. [!DNL Target] oferece os recursos de otimização e personalização necessários para fornecer aos clientes experiências altamente relevantes e oportunas que geram mais receita e maior conversão.
+A interação com seus clientes dessa forma requer uma solução que pode ser usada em praticamente qualquer ponto de contato usando quase qualquer fonte de dados para entendê-los. [!DNL Adobe Target]E parte disso  [!DNL Adobe Experience Cloud]é essa solução. [!DNL Target] oferece os recursos de otimização e personalização necessários para fornecer aos clientes experiências altamente relevantes e oportunas que geram mais receita e maior conversão.
 
-Se você estiver revisando esse kit de boas-vindas, já decidiu criar seu programa de otimização e personalização [!DNL Adobe Target]. Estamos felizes por você ter feito.
+Se você estiver revisando esse kit de boas-vindas, já decidiu criar seu programa de otimização e personalização em [!DNL Adobe Target]. Estamos felizes por você ter feito.
 
 Agora queremos ter certeza de que você está start de usá-lo da maneira certa, imediatamente.
 
-Para ajudar nisso, criamos este kit de boas-vindas, com informações importantes, ferramentas e recursos para ajudá-lo a se preparar e lançar sua primeira [!DNL Target] atividade. A longo prazo, esses conteúdos também fornecem a base para a criação de um programa de otimização e personalização bem-sucedido.
+Para ajudar nisso, criamos esse kit de boas-vindas, com informações importantes, ferramentas e recursos para ajudá-lo a se preparar e iniciar sua primeira atividade [!DNL Target]. A longo prazo, esses conteúdos também fornecem a base para a criação de um programa de otimização e personalização bem-sucedido.
 
