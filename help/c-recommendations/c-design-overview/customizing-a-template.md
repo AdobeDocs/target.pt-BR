@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) Personalizar um design usando o Velocity{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+Use a linguagem de design de código aberto Velocity para personalizar designs de recomendação em [!DNL Adobe Target Recommendations].
 
 ## Visão geral do Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -129,7 +129,7 @@ Por padrão, os modelos Velocity tratam todos os atributos da entidade como valo
 
 1. Declare uma variável de teste e inicialize-a em um número inteiro ou valor de duplo arbitrário.
 1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para que o analisador de modelo do Público alvo Recommendations valide e salve o modelo).
-1. Transmita o atributo da entidade para o método `parseInt` ou `parseDouble` na variável de teste que você criou na etapa 1 para transformar a string em um valor inteiro ou de duplo.
+1. Passe o atributo entity para o método `parseInt` ou `parseDouble` na variável de teste que você criou na etapa 1 para transformar a string em um valor inteiro ou de duplo.
 1. Execute a operação matemática ou comparação no novo valor numérico.
 
 ### Exemplo: Calcular um preço de desconto
@@ -185,7 +185,7 @@ Suponha que você armazene a duração de um filme em minutos, mas queira exibi-
 #end
 ```
 
-## Exibição de um item-chave com produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Exibir um item chave com os produtos recomendados {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Você pode modificar seu design para mostrar seu item principal ao lado de outros produtos recomendados. Por exemplo, você pode querer mostrar o item atual para referência ao lado das recomendações.
 
@@ -208,7 +208,7 @@ O resultado é um design como o seguinte, em que uma coluna mostra o item chave.
 
 Quando você está criando sua atividade do [!DNL Recommendations], se o item chave é obtido do perfil do visitante, como &quot;último item comprado&quot;, o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
 
-## Execução de substituições em um valor de string {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Realização de substituições em um valor de string {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Você pode modificar seu design para substituir valores em uma string. Por exemplo, substituir o delimitador de ponto decimal usado nos Estados Unidos pelo delimitador de vírgula usado na Europa e em outros países.
 
