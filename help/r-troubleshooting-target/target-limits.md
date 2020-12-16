@@ -62,7 +62,7 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 
 * **Tamanho máximo de arquivo para cada upload usando o método** HTTP: 100 MB.
 * **tamanho máximo de arquivo para cada upload usando o método** FTP: 4 GB.
-* **Número de atributos permitidos para assinar**: 5 para [!DNL Target Standard] e 200 para [!DNL Target Premium].
+* **Número de atributos permitidos para assinar**: 5 a favor  [!DNL Target Standard] e 200 a  [!DNL Target Premium].
 
 ## Entidades
 
@@ -204,7 +204,7 @@ Qualquer valor maior será truncado pelo sistema.
 
 **Limite recomendado de scripts de perfil totais por conta**: 2 000
 
-**Recommendations para limitar a complexidade** do script do perfil: Scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte Práticas [recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) nos atributos *do* Perfil.
+**Recommendations para limitar a complexidade** do script do perfil: Scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte [Práticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) em *atributos do Perfil*.
 
 ## Propriedades
 
