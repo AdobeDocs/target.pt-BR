@@ -222,7 +222,7 @@ Cada alteração cria um novo elemento no painel Modificações. Como a segunda 
 
 Se você usar o recurso de código personalizado para duas atividades que direcionam o mesmo URL, o JavaScript será injetado na página de ambas as atividades. O Target determina automaticamente a ordem do conteúdo entregue. Verifique se o código não depende de posicionamento. Cabe a você verificar se não há conflitos no código.
 
-## Resolução de problemas do código personalizado  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Resolução de problemas do código personalizado   {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **Recebi um aviso de que uma ação não pode ser aplicada devido a alterações estruturais em uma página. O que isso significa?**
 
