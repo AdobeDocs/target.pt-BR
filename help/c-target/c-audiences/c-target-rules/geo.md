@@ -50,24 +50,24 @@ A ilustração a seguir mostra um público-alvo que direciona os usuários que a
 
 ## Precisão {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando um visitante estiver usando uma conexão de dados de celular, a precisão da geolocalização pode ser afetada pelo local, relacionamento de dados da operadora com [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando um visitante estiver usando uma conexão de dados de celular, a precisão da geolocalização pode ser afetada pelo local, relacionamento de dados da operadora com [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, um endereço IP do visitante pode ser mapeado para o local ISP dele, que pode não ser o mesmo que o local do visitante atual. Alguns problemas de localização geográfica móvel podem ser resolvidos usando a [API de localização geográfica](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 A tabela a seguir mostra a precisão das informações geográficas baseadas em IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexões de Internet com fuio ou Wi-Fi. A DigitalEnvoy oferece os dados mais precisos do setor. A precisão global é de mais de 99,9% em nível nacional e de até 97% em nível municipal. As informações de precisão não se aplicam a redes baseadas em torre de celular.
 
 | País | Estado | Cidade | Região |
 |--- |--- |--- |--- |
 | BR | 99.99% | 96% | 94% |
-| Canadá | 99.99% | 96% | 94% |
-| Europa | 99.99% |  |  |
-| Reino Unido | 99.99% |  | 87% |
-| Alemanha | 99.99% | 95% | 93% |
+| Canadá | 99,99% | 96% | 94% |
+| Europa | 99,99% |  |  |
+| Reino Unido | 99,99% |  | 87% |
+| Alemanha | 99,99% | 95% | 93% |
 | Escandinávia | 99% | Próximo de 90 | Próximo de 85 |
-| Espanha | 99.99% | Em torno de 90% | Entre 85 e 90 |
+| Espanha | 99,99% | Em torno de 90% | Entre 85 e 90 |
 | Ásia | 99% | Próximo de 95 | Próximo de 90 |
-| Japão | 99.99% | Próximo de 95 | Próximo de 90 |
-| Austrália | 99.99% | 94% | 91% |
+| Japão | 99,99% | Próximo de 95 | Próximo de 90 |
+| Austrália | 99,99% | 94% | 91% |
 
-## Utilização da geolocalização em scripts de perfil  {#section_92C93138542C4A94997E3F4BE3F5DA28}
+## Utilização da geolocalização em scripts de perfil   {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
 Você pode usar as informações de geografia para os scripts de perfil.
 
@@ -116,7 +116,7 @@ Por exemplo, use:
 
 **Como a geolocalização funciona em dispositivos móveis?**
 
-A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi, o que significa que o geolocalização baseado em IP do Target é tão preciso como em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+A grande maioria dos usuários de dispositivos móveis acessa conteúdo via WiFi, o que significa que o geolocalização baseado em IP do Target é tão preciso como em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser resolvidos usando a [API de localização geográfica](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Como o recurso geográfico trata visitantes da AOL?**
 
@@ -141,17 +141,17 @@ Será necessário limpar os cookies do navegador antes.
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` é compatível apenas com at.js 1.*jx* . Essa funcionalidade não é suportada no at.js 2.*x*.
+>`mboxOverride.browserIp` é compatível com at.js 1.** jxonly. Essa funcionalidade não é suportada no at.js 2.*x*.
 
 **Como os territórios, por exemplo, Porto Rico e Hong Kong, são mapeados na estrutura de geolocalização?**
 
 Porto Rico, Hong Konge outros territórios são tratados como valores de &quot;País&quot; separados.
 
-**Captura [!DNL Target] (e armazena) informações como CEP quando a atividade é direcionada aos recursos de direcionamento de localização geográfica?**
+**A  [!DNL Target] captura (e armazena) informações como CEPs quando a atividade é direcionada aos recursos de direcionamento de localização geográfica?**
 
 Não, [!DNL Target] usa dados geográficos somente para a duração da sessão e os dados são descartados.
 
-## Vídeo de treinamento: Criando o emblema ![do tutorial do Audiência](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criando Audiência ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
