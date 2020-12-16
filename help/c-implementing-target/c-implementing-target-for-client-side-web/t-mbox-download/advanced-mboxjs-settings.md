@@ -26,7 +26,7 @@ As seguintes configurações estão disponíveis:
 
 Código de cliente da sua conta.
 
-When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
+Ao exibir [!UICONTROL Administração > Implementação], o Cliente na parte superior é o código do cliente para sua conta.
 
 ## Tempo limite
 
