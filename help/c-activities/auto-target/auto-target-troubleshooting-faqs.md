@@ -12,13 +12,13 @@ ht-degree: 71%
 ---
 
 
-# ![Solução de problemas de Público alvo automático PREMIUM](/help/assets/premium.png) e perguntas frequentes
+# ![Solução de problemas e perguntas frequentes do ](/help/assets/premium.png) PREMIUMAuto-Público alvo
 
-Solução de problemas e Perguntas frequentes sobre o Público alvo [!UICONTROL automático] no [!DNL Adobe Target].
+Solução de problemas e Perguntas frequentes (FAQs) sobre [!UICONTROL Público alvo automático] em [!DNL Adobe Target].
 
 ## Perguntas frequentes sobre direcionamento automático {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades de Público alvo [!UICONTROL automático] :
+Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades [!UICONTROL Público alvo automático]:
 
 ### Quais são as práticas recomendadas para configurar uma atividade de [!UICONTROL Direcionamento automático]?
 
@@ -72,13 +72,13 @@ Se você quiser fazer alterações substanciais no conteúdo em sua atividade de
 
 ### Por quanto tempo devo esperar que os modelos sejam construídos? {#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
+O tempo necessário para os modelos criarem na atividade [!UICONTROL Público alvo automático] normalmente depende do tráfego para os locais de atividade selecionados e taxas de conversão associadas à sua métrica de sucesso de atividade.
 
-[!UICONTROL O Público alvo] automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para essa experiência. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para servir o tráfego de forma personalizada.
+[!UICONTROL O ] direcionamento automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para essa experiência. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para fornecer tráfego de maneira personalizada.
 
-Alguns outros pontos para ter em mente sobre a construção de modelos do [!UICONTROL Público alvo]automático:
+Alguns outros pontos para ter em mente sobre a criação de modelos de [!UICONTROL Público alvo automático]:
 
-* Quando uma atividade está ativa, o [!UICONTROL AutoPúblico alvo] considera até os últimos 45 dias de dados servidos aleatoriamente ao tentar criar modelos (ou seja, controlar o tráfego, mais alguns dados fornecidos aleatoriamente pelo nosso algoritmo).
+* Quando uma atividade está ativa, [!UICONTROL O Público alvo automático] considera até os últimos 45 dias de dados fornecidos aleatoriamente ao tentar criar modelos (isto é, controlar o tráfego, mais alguns dados fornecidos aleatoriamente pelo nosso algoritmo).
 * Quando [!UICONTROL Receita por visita] é sua métrica de sucesso, essas atividades geralmente exigem mais dados para construir modelos devido à maior variação de dados que normalmente existe na receita da visita em comparação com a taxa de conversão.
 * Como os modelos são criados por experiência, substituir uma experiência por outra significa que tráfego suficiente (ou seja, pelo menos 50 conversões) deve ser coletado para a nova experiência antes que os modelos personalizados possam ser recriados.
 
@@ -100,13 +100,13 @@ Para obter mais informações, consulte [Usar uma experiência específica como 
 
 ### É possível alterar a métrica de objetivo no meio de uma atividade de Público alvo automático? {#change-metric}
 
-Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a [!DNL Target] interface do usuário, você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
+Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a interface do usuário [!DNL Target], você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
 
-Esta recomendação se aplica a [!UICONTROL Autoalocação], Público alvo automático e atividades [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a fonte do relatórios.
+Esta recomendação se aplica às atividades [!UICONTROL Autoalocar], [!UICONTROL Público alvo automático] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a origem do relatórios.
 
 ### Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Público alvo automático?
 
-Não é recomendável usar a opção [!UICONTROL Redefinir dados] de relatório para atividades de Público alvo  automático. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo de Público alvo  automático. Em vez de usar a opção [!UICONTROL Redefinir dados] do relatório para atividades de Público alvo  automático, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica a [!UICONTROL Autoalocação] e atividades [!UICONTROL Automated Personalization] .)
+Não é sugerido usar a opção [!UICONTROL Redefinir dados de relatório] para [!UICONTROL Público alvo automático] atividades. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Público alvo automático]. Em vez de usar a opção [!UICONTROL Redefinir dados do relatório] para [!UICONTROL Público alvo automático] atividades, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica às atividades [!UICONTROL Autoalocação] e [!UICONTROL Automated Personalization].)
 
 ## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
