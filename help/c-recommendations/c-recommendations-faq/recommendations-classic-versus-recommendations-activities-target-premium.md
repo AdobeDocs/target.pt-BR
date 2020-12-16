@@ -61,7 +61,7 @@ O fluxo de trabalho do [!DNL Recommendations] foi simplificado. Em vez de preenc
 1. Selecione um pré-configurado  [predefinido](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Visualize as recomendações resultantes.
 
-## Visualização do visual  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Visualização do visual   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Você pode visualizar suas recomendações depois de configurá-las e fazer as alterações necessárias, sem ter que criá-las na página e testá-las. As visualizações estão disponíveis no [!DNL Target].
 
