@@ -14,19 +14,19 @@ ht-degree: 20%
 
 # Crie uma atividade que use o Analytics como a fonte do relatórios
 
-You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
+Você pode configurar uma atividade em [!DNL Target] para usar [!DNL Adobe Analytics] como a fonte do relatórios (A4T).
 
-Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Escolha uma métrica de sucesso final para a atividade. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
+Antes de configurar uma atividade que use [!DNL Analytics] como fonte de relatórios, estabeleça a meta para a atividade, como melhorar a receita por visitante (RPV) ou aumentar os cliques no carrinho de compras. Escolha uma métrica de sucesso final para a atividade. Embora seja possível selecionar métricas adicionais a qualquer momento em [!DNL Analytics], você ainda deve especificar uma métrica específica que espera que esse teste afete.
 
 ## Crie a atividade
 
-Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
+A criação de uma atividade [!DNL Target] que usa [!DNL Analytics] como fonte de relatórios é semelhante à configuração de uma atividade regular [!DNL Target], com algumas diferenças importantes. Por exemplo, não é possível selecionar um segmento para relatórios ao criar a atividade, pois todos os segmentos disponíveis em [!DNL Analytics] podem ser aplicados ao visualizar um relatório.
 
 1. Clique em **[!UICONTROL Criar atividade]**.
 
    >[!NOTE]
    >
-   >An activity name cannot include the &quot;%&quot; character if [!DNL Analytics] is used as the reporting source.
+   >Um nome de atividade não pode incluir o caractere &quot;%&quot; se [!DNL Analytics] for usado como a origem do relatórios.
 
 1. Selecione o tipo de atividade e comece a configurar a atividade.
 1. Quando chegar na parte de **[!UICONTROL Configurações]** do fluxo de criação de atividade, escolha **[!UICONTROL Adobe Analytics]** e especifique a empresa.
@@ -38,11 +38,11 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
    * Você recebe um erro informando que nenhum conjunto de relatórios está disponível, mas sua conta está configurada corretamente.
 
-      You might need to check your [!DNL Analytics] company. If your [!DNL Adobe Experience Cloud] account is tied to more than one [!DNL Analytics] company, log out of [!DNL Target], and log in to [!DNL Analytics] under the right company. Then return to [!DNL Target], and the report suites will load.
+      Talvez seja necessário verificar sua empresa [!DNL Analytics]. Se sua conta [!DNL Adobe Experience Cloud] estiver vinculada a mais de uma empresa [!DNL Analytics], faça logout de [!DNL Target] e faça logon em [!DNL Analytics] na empresa direita. Em seguida, volte para [!DNL Target] e os conjuntos de relatórios serão carregados.
 
    * Você não vê o conjunto de relatórios esperado.
 
-      Only report suites that are provisioned to connect to [!DNL Target] will be available for selection. If you don&#39;t see the report suite(s) you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again.
+      Somente conjuntos de relatórios provisionados para conexão com [!DNL Target] estarão disponíveis para seleção. Se você não vir o(s) conjunto(s) de relatórios esperado(s), experimente sair e fazer login novamente no [!DNL Adobe Experience Cloud] para tentar novamente.
    Se o conjunto de relatórios ainda estiver ausente na lista,  [entre em contato com o Atendimento ao cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Especificar o servidor de rastreamento.
@@ -52,11 +52,11 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 1. Defina a experiência.
 1. Especifique a meta da atividade.
 
-   É necessário selecionar uma métrica de sucesso para usar como meta para cada atividade. Sua meta da atividade é a atividade de conversão que sinaliza uma atividade bem sucedida. Faz parte das práticas recomendadas nunca executar um teste sem ter uma meta para aprimorá-la de alguma maneira específica. You can choose any [!DNL Analytics] metric available in the [!DNL Analytics] metric selector.
+   É necessário selecionar uma métrica de sucesso para usar como meta para cada atividade. Sua meta da atividade é a atividade de conversão que sinaliza uma atividade bem sucedida. Faz parte das práticas recomendadas nunca executar um teste sem ter uma meta para aprimorá-la de alguma maneira específica. Você pode escolher qualquer métrica [!DNL Analytics] disponível no seletor de métricas [!DNL Analytics].
 
    >[!NOTE]
    >
-   >You can send a custom Target-based metric to [!DNL Analytics] rather than relying only on [!DNL Analytics] data. Por exemplo, você pode monitorar ao clicar em uma página que normalmente não é rastreada pelo [!DNL Analytics]. This custom metric is sent to [!DNL Analytics] automatically from the [!DNL Target] server, and appears as the &quot;[!DNL Target] Conversion&quot; metric in the metrics selector in [!DNL Analytics]. The [!DNL Target] Conversion metric is empty if you choose to use [!DNL Analytics] metrics.
+   >Você pode enviar uma métrica personalizada baseada em Públicos alvos para [!DNL Analytics] em vez de depender apenas dos dados [!DNL Analytics]. Por exemplo, você pode monitorar ao clicar em uma página que normalmente não é rastreada pelo [!DNL Analytics]. Essa métrica personalizada é enviada para [!DNL Analytics] automaticamente do servidor [!DNL Target] e aparece como a métrica &quot;[!DNL Target] Conversão&quot; no seletor de métricas em [!DNL Analytics]. A métrica de conversão [!DNL Target] fica vazia se você optar por usar as métricas [!DNL Analytics].
 
    Estabelecer uma meta não significa que você não pode usar outras métricas ao avaliar os resultados do teste. A meta, no entanto, é um lembrete de algo que deseja melhorar com a atividade.
 
@@ -64,63 +64,63 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
    >[!NOTE]
    >
-   >When setting up an activity after setting up [!DNL Analytics] as your reporting source, there is no option to set up audiences for reporting. [!DNL Analytics] segmentos estão disponíveis no relatório [!DNL Target] Atividade.
+   >Ao configurar uma atividade depois de configurar [!DNL Analytics] como fonte de relatórios, não há opção para configurar o audiência para relatórios. [!DNL Analytics] segmentos estão disponíveis no relatório  [!DNL Target] Atividade.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Suporte do Analytics para Públicos alvos (A4T) para alocação automática e atividades de Público alvo automático {#a4t-aa}
 
-Atualizamos a integração entre Adobe Target e Adobe Analytics, conhecida como [Analytics para Públicos alvos](/help/c-integrating-target-with-mac/a4t/a4t.md). As atividades de Autoalocação e Público alvo automático agora são compatíveis com o Analytics para Públicos alvos.
+Atualizamos a integração entre Adobe Target e Adobe Analytics, conhecida como [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md). As atividades de Autoalocação e Público alvo automático agora são compatíveis com o Analytics para Públicos alvos.
 
 Essa integração permite:
 
-* Use a capacidade de [autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)de vários bandit para direcionar o tráfego para experiências vencedoras
-* Use o algoritmo de aprendizado de máquina [montada](/help/c-activities/auto-target/auto-target-to-optimize.md)pelo Público alvo automático para escolher uma melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso, ao usar uma métrica de [!DNL Adobe Analytics] objetivo e [!DNL Adobe Analytics]os recursos de relatórios e análise avançados.
+* Use o recurso de [Autoalocar](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) bandit multiarmed para direcionar o tráfego para experiências vencedoras
+* Use o algoritmo de aprendizado de máquina montado de [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md) para escolher uma melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso usando uma métrica de [!DNL Adobe Analytics] objetivo e recursos ricos de relatórios e análise [!DNL Adobe Analytics].
 
-Verifique se você [implementou a A4T para uso com atividades](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de teste A/B e direcionamento de experiência. Se estiver usando `analyticsLogging = client_side`, você também precisará passar o `sessionId` valor para [!DNL Analytics]. Para obter mais informações, consulte relatórios [A4T (](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics for Público alvo) no guia SDKs *da* Adobe Target.
+Certifique-se de que [implementou A4T para uso com atividades de teste A/B e direcionamento de experiência](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Se você estiver usando `analyticsLogging = client_side`, também será necessário passar o valor `sessionId` para [!DNL Analytics]. Para obter mais informações, consulte [relatórios do Analytics for Público alvo (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) no guia *SDKs do Adobe Target*.
 
 Para começar:
 
-1. Ao criar uma atividade de teste A/B, na página **[!UICONTROL Definição de metas]** , selecione uma das seguintes opções como Método **[!UICONTROL de alocação de]** tráfego:
+1. Ao criar uma atividade de teste A/B, na página **[!UICONTROL Definição de metas]**, selecione uma das seguintes opções como **[!UICONTROL Método de alocação de tráfego]**:
 
    * Autoalocar para a melhor experiência
    * Público alvo automático para experiências personalizadas
 
-1. Selecione **[!UICONTROL Adobe Analytics]** para a Fonte **[!UICONTROL do]** Relatórios na página **[!UICONTROL Metas e configurações]** e selecione o conjunto de relatórios correspondente à meta de otimização desejada.
+1. Selecione **[!UICONTROL Adobe Analytics]** para a sua **[!UICONTROL Origem do Relatórios]** na página **[!UICONTROL Metas e Definições]** e selecione o conjunto de relatórios correspondente à sua meta de otimização desejada.
 
 1. Escolha uma métrica de Objetivo principal.
 
    * Escolha **[!UICONTROL Conversão]** para usar [!DNL Adobe Target] para especificar a meta de otimização.
-   * Escolha **[!UICONTROL Usar uma métrica]** do Analytics e, em seguida, selecione uma métrica [!DNL Analytics] para usar como meta de otimização. Você pode usar uma métrica de conversão [!DNL Analytics] predefinida ou um evento [!DNL Analytics] personalizado.
+   * Escolha **[!UICONTROL Use uma métrica do Analytics]** e selecione uma métrica de [!DNL Analytics] para usar como objetivo de otimização. Você pode usar uma métrica de conversão [!DNL Analytics] predefinida ou um evento personalizado [!DNL Analytics].
 
 1. Salve e ative sua atividade.
 
-   [!UICONTROL A Autoalocação] usará sua métrica selecionada para otimizar a atividade, levando visitantes para a experiência que maximiza sua métrica de meta.
+   [!UICONTROL A ] alocação automática usará sua métrica selecionada para otimizar a atividade, direcionando os visitantes para a experiência que maximiza sua métrica de objetivo.
 
    Ou
 
-   [!UICONTROL O Público alvo] automático usará sua métrica selecionada para otimizar a atividade, conduzindo visitantes a uma melhor experiência personalizada.
+   [!UICONTROL O Auto-] Target usará sua métrica selecionada para otimizar a atividade, conduzindo visitantes a uma melhor experiência personalizada.
 
-1. Use a guia **[!UICONTROL Relatórios]** para visualização do relatórios de sua atividade por sua escolha de [!DNL Adobe Analytics] métricas. Clique em **[!UICONTROL Visualização no Analytics]** para detalhar e segmentar ainda mais os dados do relatórios.
+1. Use a guia **[!UICONTROL Relatórios]** para visualização do relatórios de sua atividade por sua escolha de [!DNL Adobe Analytics] métricas. Clique em **[!UICONTROL Visualização no Analytics]** para detalhar e segmentar ainda mais seus dados de relatórios.
 
 ### Métricas de meta suportadas
 
-[!UICONTROL O A4T] para [!UICONTROL Autoalocação] e Público alvo  Automático permite escolher qualquer um dos seguintes tipos de métricas como sua métrica principal de meta para otimização:
+[!UICONTROL A4] Tfor  [!UICONTROL Auto] Allocate and  [!UICONTROL Auto-] Targetpermite escolher qualquer um dos seguintes tipos de métricas como sua principal métrica de meta para otimização:
 
 * [!DNL Adobe Target] métricas de conversão
 * [!DNL Adobe Analytics] métricas de conversão
 * [!DNL Adobe Analytics] eventos personalizados
 
-[!UICONTROL O A4T] para [!UICONTROL Autoalocação] e Público alvo  Automático exige que você escolha uma métrica baseada em um evento binômico, ou seja, um evento que ocorra ou não, por exemplo, um clique, uma conversão, um pedido etc. (Esses tipos de eventos às vezes também são chamados de eventos Bernoulli, binários ou discretos.)
+[!UICONTROL A4] Tfor  [!UICONTROL Auto-] Allocate and  [!UICONTROL Auto-] Targetexige que você escolha uma métrica baseada em um evento binomial, ou seja, um evento que ocorra ou não, por exemplo, um clique, uma conversão, um pedido etc. (Esses tipos de eventos às vezes também são chamados de eventos Bernoulli, binários ou discretos.)
 
-[!UICONTROL A A4T] para alocação [!UICONTROL automática] e Público alvo  automático não suporta otimização para métricas contínuas, como receita, número de produtos solicitados, duração da sessão, número de visualizações de página na sessão etc. (Esses tipos de métricas não suportados às vezes também são chamadas de métricas não-binomiais ou não-Bernoulli.)
+[!UICONTROL A4] Tfor  [!UICONTROL Auto-] Alocate and  [!UICONTROL Auto-] Targett não suporta otimização para métricas contínuas, como receita, número de produtos solicitados, duração da sessão, número de visualizações de página na sessão etc. (Esses tipos de métricas não suportados às vezes também são chamadas de métricas não-binomiais ou não-Bernoulli.)
 
 Os seguintes tipos de métricas não são suportados como métricas de objetivo principal:
 
 * [!DNL Adobe Target] métricas de envolvimento e receita
 * [!DNL Adobe Analytics] métricas de envolvimento e receita
 
-   Pode ser possível selecionar uma métrica de envolvimento ou de receita como sua métrica de objetivo principal porque [!DNL Analytics] não é possível identificar e excluir todas as métricas de envolvimento e receita [!DNL Target] [!DNL Analytics]. Tenha cuidado para selecionar somente métricas de conversão binomial ou eventos personalizados de [!DNL Analytics].
+   Pode ser possível selecionar uma métrica de envolvimento ou de receita [!DNL Analytics] como sua métrica de objetivo principal porque [!DNL Target] não pode identificar e excluir todas as métricas de envolvimento e receita de [!DNL Analytics]. Tenha cuidado para selecionar somente métricas de conversão binomial ou eventos personalizados de [!DNL Analytics].
 
 * [!DNL Adobe Analytics] métricas calculadas
 
@@ -132,15 +132,15 @@ Algumas limitações e observações se aplicam à Autoalocação e ao Público 
 
 * A fonte do relatórios não pode ser alterada de [!DNL Analytics] para [!DNL Target] ou vice-versa depois que uma atividade é ativada.
 * Embora as métricas calculadas não sejam suportadas como métricas de objetivo principal, geralmente é possível alcançar o resultado pretendido selecionando, em vez disso, um evento personalizado como a métrica de objetivo principal. Por exemplo, se você deseja otimizar para uma métrica como &quot;conclusões de formulário por visitante&quot;, selecione um evento personalizado que corresponda a &quot;conclusões de formulário&quot; como sua métrica de objetivo principal. [!DNL Target] normaliza automaticamente as métricas de conversão com base em cada visita para contabilizar uma distribuição de tráfego desigual, de modo que não é necessário usar uma métrica calculada para executar a normalização.
-* [!DNL Target] usa o modelo de atribuição &quot;Mesmo toque&quot; na implementação [!UICONTROL Autoalocar] A4T.
+* [!DNL Target] usa o modelo de atribuição &quot;Same Touch&quot; na implementação  [!UICONTROL Auto-] AlocarA4T.
 
 #### Alocação automática
 
-* [!UICONTROL Os modelos de autoalocação] continuam treinando a cada duas horas, como de costume.
+* [!UICONTROL A autoalocação ] continua a treinar a cada duas horas, como de costume.
 
 #### Direcionamento automático
 
-* [!UICONTROL Os modelos de Público alvo] automático continuam treinando a cada 24 horas, como de costume. No entanto, os dados de conversão do evento [!DNL Analytics] são atrasados em mais 6 a 24 horas. Esse atraso significa que a distribuição do tráfego [!DNL Target] rastreará os eventos mais recentes registrados em [!DNL Analytics]. Este fato terá o maior efeito nas primeiras 48 horas após a primeira ativação de uma atividade; o desempenho da atividade refletirá melhor o comportamento de [!DNL Analytics] conversão após cinco dias. Você deve considerar o uso da [!UICONTROL Autoalocação] em vez do Público alvo  Automático para atividades de curta duração, onde a maioria do tráfego ocorre nos primeiros cinco dias de vida da atividade.
-* Ao usar [!DNL Analytics] como fonte de dados para uma atividade de Público alvo [!UICONTROL automático] , as sessões são consideradas encerradas após seis horas de duração. As conversões que ocorrerem após seis horas não serão contadas.
+* [!UICONTROL Os modelos de ] direcionamento automático continuam treinando a cada 24 horas, como de costume. No entanto, os dados do evento de conversão provenientes de [!DNL Analytics] são atrasados em mais 6 a 24 horas. Esse atraso significa que a distribuição do tráfego por [!DNL Target] rastreará os eventos mais recentes registrados em [!DNL Analytics]. Este fato terá o maior efeito nas primeiras 48 horas após a primeira ativação de uma atividade; o desempenho da atividade refletirá melhor o comportamento de conversão [!DNL Analytics] após cinco dias. Você deve considerar o uso de [!UICONTROL Autoalocar] em vez de [!UICONTROL Público alvo automático] para atividades de curta duração nas quais a maioria do tráfego ocorre nos primeiros cinco dias de vida da atividade.
+* Ao usar [!DNL Analytics] como fonte de dados para uma atividade [!UICONTROL Público alvo automático], as sessões são consideradas como encerradas após seis horas. As conversões que ocorrerem após seis horas não serão contadas.
 
-Para obter mais informações, consulte Modelos de [atribuição e janelas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) de pesquisa no Guia *de ferramentas do* Analytics.
+Para obter mais informações, consulte [Modelos de atribuição e janelas de pesquisa](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) no *Guia de ferramentas do Analytics*.
