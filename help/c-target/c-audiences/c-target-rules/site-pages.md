@@ -22,19 +22,19 @@ Você pode público alvo visitantes que estão em uma página específica do sit
 
    ![Público-alvo de Páginas do site](assets/target_site_pages.png)
 
-1. Clique na lista suspensa **[!UICONTROL Selecionar]** , selecione uma das opções a seguir e configure a regra conforme desejado.
+1. Clique na lista suspensa **[!UICONTROL Selecionar]**, selecione uma das opções a seguir e configure a regra conforme desejado.
 
-   As opções disponíveis e os avaliadores nas listas suspensas subsequentes na regra variam dependendo de qual opção você escolher. A ilustração a seguir mostra as opções disponíveis se você escolher Página atual:
+   As opções disponíveis e os avaliadores nas listas suspensas subsequentes na regra variam dependendo de qual opção você escolher. A ilustração a seguir mostra as opções disponíveis se você escolher [!UICONTROL Página atual]:
 
    ![Página atual](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   As opções a seguir estão disponíveis na lista suspensa inicial quando você escolhe [!UICONTROL Selecionar].
+   As seguintes opções estão disponíveis na lista suspensa inicial quando você escolhe [!UICONTROL Select].
 
-   * **Página atual:** A página na qual o usuário está no momento.
+   * **Página atual:** a página na qual o usuário está no momento.
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte [Perguntas frequentes sobre Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
@@ -45,7 +45,7 @@ Você pode público alvo visitantes que estão em uma página específica do sit
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte [Perguntas frequentes sobre Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
@@ -55,7 +55,7 @@ Você pode público alvo visitantes que estão em uma página específica do sit
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte Perguntas frequentes sobre [Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * URL (para obter mais informações sobre como o Público alvo avalia URLs, consulte [Perguntas frequentes sobre Públicos alvos e audiências](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domínio
       * Consulta
       * Subdomínio
@@ -67,7 +67,7 @@ Você pode público alvo visitantes que estão em uma página específica do sit
       >
       >O objeto `landing.url` é redefinido em uma alteração de subdomínio ou em uma substituição do URL direto.
 
-   * **Cabeçalho HTTP:** Essa opção avalia as informações no cabeçalho HTTP da solicitação de Público alvo. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a `Accept-Language: es` condição para visitantes públicos alvos que acessam a página em espanhol.
+   * **Cabeçalho HTTP:** essa opção avalia as informações no cabeçalho HTTP da solicitação de Público alvo. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a condição `Accept-Language: es` para visitantes de públicos alvos que acessam a página em espanhol.
 
       As seguintes opções estão disponíveis na segunda lista suspensa se você escolher essa opção:
 
@@ -101,7 +101,7 @@ Você pode público alvo visitantes que estão em uma página específica do sit
       * Via
       * Aviso
 
-   Se você escolher Página atual, Página anterior ou [!UICONTROL Landing page], as opções [!UICONTROL Domínio] e [!UICONTROL Query] estarão disponíveis. Considere o seguinte ao escolher estas opções:
+   Se você escolher [!UICONTROL Página atual], [!UICONTROL Página anterior] ou [!UICONTROL Landing page], as opções [!UICONTROL Domínio] e [!UICONTROL Query] estarão disponíveis. Considere o seguinte ao escolher estas opções:
 
    * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar &quot;contém&quot;. Por exemplo, &quot;Domínio igual a facebook.com&quot; não aceitará `m.facebook.com` ou `www.facebook.com`. &quot;Domínio conterá facebook.com&quot; aceitará qualquer variante de facebook.com.
    * **Consulta:** o conteúdo do URL após o primeiro ponto de interrogação (?).
@@ -128,15 +128,16 @@ conforme ilustrado abaixo:
 
 ## Solução de problemas {#ts}
 
-* Para que as audiências de landing page funcionem corretamente, as solicitações devem ter o `mboxReferrer` parâmetro definido (para a API do Delivery, o `context.address.referringUrl` parâmetro) que a biblioteca JavaScript do at.js obtém da página usando o `document.referrer` atributo. Este `HTMLDocument` atributo retorna o URI da página a partir da qual o usuário navegou. O valor desse atributo é uma string vazia quando o usuário navega para a página diretamente (não por meio de um link, mas, por exemplo, por meio de um marcador).
+* Para que as audiências de landing page funcionem corretamente, as solicitações devem ter o parâmetro `mboxReferrer` definido (para a API de Delivery o parâmetro `context.address.referringUrl`) que a biblioteca JavaScript do at.js obtém da página usando o atributo `document.referrer`. Esse atributo `HTMLDocument` retorna o URI da página da qual o usuário navegou. O valor desse atributo é uma string vazia quando o usuário navega para a página diretamente (não por meio de um link, mas, por exemplo, por meio de um marcador).
 
    Se esse comportamento não corresponder aos seus requisitos, considere executar uma das seguintes ações:
 
-   * Enviar parâmetros [de](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox para [!DNL Target] serem usados para fins de direcionamento.
-   * Use uma atividade [de teste](/help/c-activities/t-test-ab/test-ab.md) A/B em vez de uma atividade de landing page. As atividades de teste A/B não alternam as experiências para o mesmo visitante.
-   * Em vez disso, use um perfil [de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitante.
+   * Passe [parâmetros da mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) para [!DNL Target] a serem usados para fins de definição de metas.
+   * Use uma [atividade de teste A/B](/help/c-activities/t-test-ab/test-ab.md) em vez de uma atividade de landing page. As atividades de teste A/B não alternam as experiências para o mesmo visitante.
+   * Em vez disso, use um perfil [visitante](/help/c-target/c-audiences/c-target-rules/visitor-profile.md).
 
-* Ao usar avaliadores &quot;start/finais com&quot; em strings contendo vírgulas, esteja ciente de que eles são avaliados como uma matriz de valores, na qual cada valor separado por vírgula é avaliado. Por exemplo, se tivermos o valor de um cabeçalho: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` ele se qualificará para condições como:
+* Ao usar avaliadores &quot;start/finais com&quot; em strings contendo vírgulas, esteja ciente de que esses valores
+são avaliados como uma matriz de valores, na qual cada valor separado por vírgula é avaliado. Por exemplo, se tivermos o valor de um cabeçalho: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` qualificará para condições como:
    * start com zh,
    * start com en,
    * termina com 0,7,
