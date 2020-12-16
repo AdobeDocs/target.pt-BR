@@ -24,11 +24,11 @@ Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com a
 
 Aumento é a diferença percentual entre os resultados da página de controle e uma variante de teste bem-sucedida.
 
-## Como a confiança é calculada?  {#section_97DB24D833E742988318CA65DA65DAD9}
+## Como a confiança é calculada?   {#section_97DB24D833E742988318CA65DA65DAD9}
 
 O nível de confiança é a probabilidade de a taxa de conversão medida diferir da taxa de conversão da página de campeão por outros motivos que não o acaso.
 
-## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#lift-confidence}
+## Por que não posso ver o aumento e a confiança nas métricas calculadas?   {#lift-confidence}
 
 As métricas calculadas não são suportadas atualmente nas funções de incentivo e confiança. Isso se deve ao fato de o Analytics calcular métricas em nível de agregação, e não em nível de visitante. A confiança, em particular, é um cálculo ao nível do visitante.
 
@@ -39,7 +39,7 @@ Exemplos de métricas não suportadas ou casos de uso incluem:
 * Valor Médio do Pedido (Receita/Pedido, por Visitante). Não há suporte para AOV porque o numerador é uma métrica calculada. Em vez disso, a recomendação é considerar as duas métricas de influência da AOV - Receita por Visitante e Taxa de conversão.
 * Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de cliente potencial diferentes em dez eventos separados e adicioná-los juntos para obter o total de envios de cliente potencial. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de cliente potencial no Analytics e, em seguida, usar um eVar para coletar o tipo de formulário de cliente potencial. O uso desse método requer menos variáveis e garante que você possa usar a métrica de envio de lead único nas funções de incentivo e confiança.
 
-## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Como o A4T gerencia os cálculos de confiança?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 O A4T usa cálculos de métricas não binárias com a soma dos dados quadrados. A variação é calculada usando a soma dos dados quadrados. Pedidos extremos não são levados em consideração. Além disso, o cálculo de confiança não aplica uma correção de Bonferroni para várias ofertas.
 
