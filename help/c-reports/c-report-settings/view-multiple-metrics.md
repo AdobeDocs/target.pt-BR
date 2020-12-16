@@ -14,14 +14,14 @@ ht-degree: 61%
 
 # Exibir várias métricas em um relatório{#view-multiple-metrics-in-a-report}
 
-É possível selecionar várias métricas para visualização em um [!DNL Adobe Target] relatório.
+Você pode selecionar várias métricas para visualização em um relatório [!DNL Adobe Target].
 
 Esteja ciente das seguintes informações ao trabalhar com várias métricas nos relatórios:
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
-* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* A capacidade de visualização de várias métricas está disponível somente para atividades [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Autoalocação](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md) e [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) (XT).
+* Não é possível adicionar mais de 20 métricas a um relatório para uma atividade que use [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Você pode adicionar quantas métricas você tiver na atividade aos relatórios de atividades que *não* usam A4T.
 * Se você tiver selecionado várias métricas, não será possível usar a opção [](/help/c-reports/downloading-data-in-csv-file.md)Baixar para baixar os relatórios em CSV. Você deve selecionar uma única métrica apenas para ativar a opção [!UICONTROL Baixar].
-* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
+* Não é possível visualização de várias métricas para atividades criadas antes da versão [!DNL Target] de julho de 2015 (30 de julho de 2015).
 
 **Para selecionar várias métricas para exibir no relatório:**
 
@@ -42,10 +42,10 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 
    Deve existir ao menos uma métrica na lista [!UICONTROL Métricas exibidas].
 
-   Você pode reorganizar as métricas arrastando-as e soltando-as na ordem desejada na lista [!UICONTROL Métricas exibidas]. The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. Para remover uma métrica da lista [!UICONTROL Métricas exibidas], passe o ponteiro do mouse sobre a métrica e clique no ícone **X**.
+   Você pode reorganizar as métricas arrastando-as e soltando-as na ordem desejada na lista [!UICONTROL Métricas exibidas]. A ordem selecionada será refletida na [!UICONTROL Visualização de tabela] e [!UICONTROL Visualização de gráfico]. Para remover uma métrica da lista [!UICONTROL Métricas exibidas], passe o ponteiro do mouse sobre a métrica e clique no ícone **X**.
 
 1. Clique em **[!UICONTROL Salvar]** ao concluir.
-1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
+1. (Condicional) Ao visualizar o relatório na [!UICONTROL Visualização de tabela], passe o ponteiro do mouse sobre qualquer cabeçalho de coluna de métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
 
    ![](assets/multiple_metrics_table.png)
 
