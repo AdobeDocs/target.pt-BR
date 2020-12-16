@@ -26,7 +26,7 @@ O [!UICONTROL Visual Experience Composer] (VEC) do fornece uma interface visual 
 
    À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o VEC. Para ver uma lista de ações que podem ser executadas em um elemento para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Se você criou uma solicitação [!DNL Target] na página usando [!DNL Target Classic], essa solicitação [!DNL Target] aparecerá como um elemento que mostra o nome da solicitação e poderá ser modificada como qualquer outro elemento.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ O [!UICONTROL Visual Experience Composer] (VEC) do fornece uma interface visual 
    >
    >Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Ao criar uma audiência, você pode selecionar um local e especificar parâmetros para esse local. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   Ao criar uma audiência, você pode selecionar um local e especificar parâmetros para esse local. Em [!UICONTROL Personalizado] (Criar Audiência > Adicionar regra > Personalizado), selecione o local e especifique os parâmetros desejados.
 
    >[!NOTE]
    >
