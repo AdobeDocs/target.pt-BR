@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # ![Critérios](/help/assets/premium.png) PREMIUM
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Os critérios podem ser baseados em tendências populares, nos comportamentos atuais e passados de um visitante ou em produtos e conteúdo semelhantes. Você pode comparar vários tipos de recomendação por meio da adição de vários critérios.
+Os critérios em [!DNL Adobe Target] são regras que determinam quais produtos ou conteúdo serão recomendados com base em um conjunto predeterminado de comportamentos de visitante. Os critérios podem ser baseados em tendências populares, nos comportamentos atuais e passados de um visitante ou em produtos e conteúdo semelhantes. Você pode comparar vários tipos de recomendação por meio da adição de vários critérios.
 
 As seções a seguir explicam mais sobre chaves de critérios e a lógica de recomendação que você pode usar para cada chave. Clique nos links para obter informações mais detalhadas.
 
@@ -28,9 +28,9 @@ Ao criar um critério, você seleciona um vertical do setor com base nas metas d
 | Geração de lead/B2B/Serviços financeiros | Conversão sem compra |
 | Mídia/Publicação | Envolvimento |
 
-Outras opções de critérios mudam com base no vertical do setor selecionado. Você pode definir seu setor padrão vertical na página **[!UICONTROL Recommendations > Configurações]** ou especificar o vertical do setor para cada critério.
+Outras opções de critérios mudam com base no vertical do setor selecionado. Você pode definir seu setor padrão vertical na página **[!UICONTROL Recommendations > Configurações]** ou especificar o setor vertical para cada critério.
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Chave de recomendação {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 A chave de recomendação selecionada determina o tipo de critério. Há vários tipos de critérios, que são representados como cartões de critérios quando você configura uma atividade do [!DNL Recommendations].
 
@@ -46,39 +46,39 @@ A tabela a seguir explica os vários tipos de critérios e as chaves que os acom
 | Popularidade | Recomende os itens mais populares, como os vídeos mais acessados em uma categoria relacionada ou os produtos que foram mais vistos no seu site.<ul><li>[Popularidade](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
 | [Itens visualizados recentemente ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Itens recomendados que um visitante visualizou mais recentemente, como os itens que um visitante visualizou na última vez em que visitou site, ou os artigos que apresentam as tendências mais importantes no momento. |
 
-## Uso de uma chave de recomendação personalizada {#custom-key}
+## Usando uma chave de recomendação personalizada {#custom-key}
 
 Também é possível basear as recomendações no valor de um atributo de perfil personalizado.
 
 >[!NOTE]
 >
->Parâmetros de perfil personalizados podem ser passados para o Público alvo por meio de JavaScript, API ou integrações. Para obter mais informações sobre atributos de perfil personalizados, consulte perfis [de](/help/c-target/c-visitor-profile/visitor-profile.md)Visitante.
+>Parâmetros de perfil personalizados podem ser passados para o Público alvo por meio de JavaScript, API ou integrações. Para obter mais informações sobre atributos de perfil personalizados, consulte [perfis de Visitante](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 Por exemplo, suponha que você deseja exibir filmes recomendados com base no filme que um usuário adicionou mais recentemente à fila.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Selecione seu atributo de perfil personalizado na lista suspensa [!UICONTROL Chave de recomendação] (por exemplo, [!UICONTROL Última exibição adicionada à lista de monitoramento]).
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Selecione sua [!UICONTROL Lógica de recomendação] (por exemplo, [!UICONTROL Pessoas que viram isso, viram aquilo]).
 
    ![Caixa de diálogo Criar novo critério](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, será necessário explicar para [!DNL Recommendations] como você deseja que ocorra a correspondência com uma entidade.
 
 Por exemplo, suponha que você deseja exibir os itens mais vendidos de uma marca favorita do usuário.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. Selecione seu atributo de perfil personalizado na lista suspensa [!UICONTROL Chave de recomendação] (por exemplo, [!UICONTROL Marca favorita]).
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Selecione a [!UICONTROL Lógica de Recomendação] que deseja usar com esta chave (por exemplo, [!UICONTROL Mais Vendidos]).
 
    A opção [!UICONTROL Agrupar por valor exclusivo de] é exibida.
 
-1. Selecione o atributo de entidade que corresponde à chave escolhida. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+1. Selecione o atributo de entidade que corresponde à chave escolhida. Nesse caso, [!UICONTROL Marca favorita] corresponde a `entity.brand`.
 
-   [!DNL Recommendations] agora produz uma lista &quot;Mais vendidos&quot; para cada marca e mostra ao usuário a lista &quot;Mais vendidos&quot; apropriada, com base no valor armazenado no atributo de perfil da Marca  Favorita.
+   [!DNL Recommendations] agora produz uma lista &quot;Mais Vendidos&quot; para cada marca e mostra ao usuário a lista &quot;Mais Vendidos&quot; apropriada, com base no valor armazenado no atributo  [!UICONTROL Favorito ] Brandprofile.
 
    ![Atributo de mais vendidos](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## Criteria/algorithms {#criteria-algorithms}
+## Critérios/algoritmos {#criteria-algorithms}
 
 O [!DNL Target Recommendations] usa algoritmos sofisticados para determinar quando as ações de um visitante se qualificam para os critérios definidos na sua atividade. A chave de recomendação determina as opções de lógica de recomendação disponíveis.
 
@@ -101,7 +101,7 @@ Você também pode usar informações adicionais conhecidas sobre um visitante p
 
 Todos os critérios de um dia são executados duas vezes ao dia. Todos os critérios de uma semana ou mais são executados uma vez ao dia. Critérios de afinidade do site são executados uma vez ao dia. Critérios de backup são executados duas vezes ao dia.
 
-## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Exibindo informações de critérios {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Você pode exibir os detalhes dos critérios em um cartão pop-up, passando o mouse sobre ele e clicando no ícone Informações, sem precisar abrir os critérios.
 
@@ -117,4 +117,4 @@ Clique na guia **[!UICONTROL Uso do algoritmo]** para exibir uma lista de ativid
 
 >[!NOTE]
 >
->O recurso de Uso [!UICONTROL de] algoritmo é atualmente compatível somente com o Recommendations atividade. No momento, esse recurso não é compatível com atividades de teste A/B, autoalocação, Público alvo automático e direcionamento de experiência (XT) que incluem [recomendações como oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+>O recurso [!UICONTROL Uso do algoritmo] é atualmente compatível somente com o Recommendations atividade. No momento, esse recurso não é compatível com atividades de teste A/B, autoalocação, Público alvo automático e direcionamento de experiência (XT) que incluem [recomendações como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
