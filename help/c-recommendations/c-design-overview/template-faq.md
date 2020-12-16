@@ -14,7 +14,7 @@ ht-degree: 87%
 
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o design {#design-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+Lista de perguntas frequentes (FAQs) sobre [!DNL Adobe Target] designs de recomendações.
 
 ## O preço do item recomendado não exibe os dois valores à direita da casa decimal. Como posso exibi-los?
 
@@ -34,11 +34,11 @@ Duas opções estão disponíveis para resolver esse problema:
 
 A ID da categoria não pode ser exibida no design. Como várias categorias podem ser armazenadas, o sistema não saberia qual categoria exibir.
 
-## Como devo mudar um design para obter uma atualização instantânea?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## Como devo mudar um design para obter uma atualização instantânea?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 A alteração do design que está atualmente em uso leva um tempo para atualizar. Para alterar o design imediatamente, crie um novo design, selecione-o na atividade e salve a recomendação.
 
-## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade?   {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 O parâmetro `$key. *`value`*` captura a maioria das informações do produto para exibir dentro do design. Por exemplo: se você deseja exibir a miniatura dos principais produtos, use `$key.thumbnailURL`.
 
