@@ -24,14 +24,14 @@ Revise a [documentação do depurador da Adobe Experience Cloud](https://experie
 
 Os vídeos a seguir o orientam pelo processo de depuração:
 
-### Adicionar a extensão do depurador da Adobe Experience Cloud  ![Etiqueta de visão geral](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### Adicionar a extensão do depurador da Adobe Experience Cloud   ![Etiqueta de visão geral](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Depuração básica de Públicos alvos usando o emblema ![Visão geral do Adobe Experience Cloud Debugger](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Etiqueta ![Visão geral do rastreamento da mbox](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Mbox Trace ![emblema de visão geral](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
