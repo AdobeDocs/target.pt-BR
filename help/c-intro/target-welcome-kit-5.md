@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Capítulo 5: Inspiração para atividades de teste e personalização.
 
-Essas ideias de teste e personalização, inspiradas em atividades reais conduzidas por nossos clientes que elevaram taxas de conversão e receitas, valem a pena dar uma tentativa ou usar como inspiração para suas próprias [!DNL Target] atividades. Mesmo que a ideia não seja uma forma exata de sua organização, com um pouco de criatividade e brainstorming, considere desenvolver uma atividade baseada no espírito da ideia de teste ou personalização.
+Essas ideias de teste e personalização, inspiradas em atividades reais conduzidas por nossos clientes que elevaram taxas de conversão e receitas, valem a pena dar uma tentativa ou usar como inspiração para suas próprias atividades [!DNL Target]. Mesmo que a ideia não seja uma forma exata de sua organização, com um pouco de criatividade e brainstorming, considere desenvolver uma atividade baseada no espírito da ideia de teste ou personalização.
 
 ## Ideia 1: Teste a personalização da jornada do cliente.
 
-Aumente a taxa de conversão e a receita criando uma jornada criativa personalizada e uma experiência de marca que ressoa com visitantes de sites e, ao mesmo tempo, atende às metas comerciais. Em seguida, teste essa jornada personalizada comparando-a com experiências estáticas ou experiências distribuídas aleatoriamente. Saiba mais sobre a personalização ao descobrir e criar as audiências que você personaliza para usar dados de terceiros e de segundo em [!DNL Adobe Audience Manager].
+Aumente a taxa de conversão e a receita criando uma jornada criativa personalizada e uma experiência de marca que ressoa com visitantes de sites e, ao mesmo tempo, atende às metas comerciais. Em seguida, teste essa jornada personalizada comparando-a com experiências estáticas ou experiências distribuídas aleatoriamente. Saiba mais sobre a personalização ao descobrir e criar as audiências que você personaliza para usar dados de terceiros e segundos em [!DNL Adobe Audience Manager].
 
 Depois de identificar essas audiências, realize testes de experiência do usuário e pesquisas de mercado para saber o que os convence a responder e desenvolver as experiências que você as público alvo em sua jornada de acordo.
 
@@ -77,4 +77,4 @@ Considere as seguintes ideias antes de passarmos para o próximo capítulo: &quo
 * Duração mínima da atividade: Execute uma atividade de teste por pelo menos 14 dias.
 * Nível Mínimo de Confiança de Resultados: Execute uma atividade de teste até que os resultados atinjam um mínimo de 90% de confiança.
 * Conversão mínima por experiência: Execute uma atividade de teste até que haja pelo menos 500 conversões por experiência.
-* Consistência nos resultados: Confirme se os resultados são consistentes e estáveis ao visualizá-los na visualização do gráfico em [!DNL Target].
+* Consistência nos resultados: Confirme se os resultados são consistentes e estáveis ao visualizá-los na visualização de gráfico em [!DNL Target].
