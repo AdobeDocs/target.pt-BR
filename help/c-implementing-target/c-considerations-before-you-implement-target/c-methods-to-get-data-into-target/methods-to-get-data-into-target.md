@@ -56,7 +56,7 @@ Os dados são enviados ao Target em tempo real, e podem ser usados na mesma cham
 
    `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
-   O restante deve ser codificado em url. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
+   O restante deve ser codificado em url. O padrão especifica o seguinte formato ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), conforme ilustrado abaixo:
 
    ![](assets/ietf1.png)
 
@@ -296,7 +296,7 @@ Perfis de atualização somente. Não é possível criar um perfil para um usuá
 
 ### Exemplo de código
 
-Suporte a GET e POST.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+Suporte a GET e POST.   `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Links para informações relevantes
 
@@ -334,7 +334,7 @@ Requer a implementação da Experience Cloud ID (ECID).
 
 ### Exemplo de código
 
-Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+Detalhes podem ser encontrados em [Crie uma fonte de atributo do cliente e carregue o arquivo de dados](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Links para informações relevantes
 
