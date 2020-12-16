@@ -18,13 +18,13 @@ Com uma atividade A/B manual, você pode estar perdendo conversões porque não 
 
 ## Autoalocação de tráfego
 
-Se você quiser que uma opção sirva a experiência vencedora com mais frequência e mais cedo na atividade e, ao mesmo tempo, remover ou reduzir a configuração e o custo de cálculo da coleta de tamanhos de amostra, níveis de confiança e outros conceitos estatísticos, a [!UICONTROL Autoalocação] é a melhor opção.
+Se você quiser que uma opção sirva a experiência vencedora com mais frequência e mais cedo na atividade, ao mesmo tempo que remove ou reduz a configuração e o custo de cálculo da coleta de tamanhos de amostra, níveis de confiança e outros conceitos estatísticos, [!UICONTROL Autoalocar] é sua melhor opção.
 
 ## Como a Autoalocação funciona?
 
-[!UICONTROL A Autoalocação] usa o princípio do multi-armed bandit. Se o termo não é familiar, um bandido com um único braço é um termo coloquial para uma slot machine (pense: Las Vegas). Visualize a alocação automática do tráfego como tendo várias máquinas de slot, neste caso, variações de teste e, primeiramente, puxando todas as alças igualmente. Com o tempo, uma ou mais máquinas, ou variações de teste, podem pagar mais do que outras. Quando isso acontece, um jogador naturalmente start puxando os punhos dos que ganham com mais frequência. Em termos de alocação de tráfego, [!DNL Adobe Target] servirá a mais visitantes a experiência ou experiências que estão ganhando mais.
+[!UICONTROL A autoalocação ] usa o princípio do multi-armed bandit. Se o termo não é familiar, um bandido com um único braço é um termo coloquial para uma slot machine (pense: Las Vegas). Visualize a alocação automática do tráfego como tendo várias máquinas de slot, neste caso, variações de teste e, primeiramente, puxando todas as alças igualmente. Com o tempo, uma ou mais máquinas, ou variações de teste, podem pagar mais do que outras. Quando isso acontece, um jogador naturalmente start puxando os punhos dos que ganham com mais frequência. Em termos de alocação de tráfego, [!DNL Adobe Target] servirá a mais visitantes a experiência ou experiências que estão ganhando mais.
 
-Considere a ilustração a seguir de uma atividade A/B de duas semanas. Com a [!UICONTROL Autoalocação], conforme uma experiência vencedora emerge, o [!UICONTROL Público alvo] direciona mais tráfego para o vencedor no início do teste.
+Considere a ilustração a seguir de uma atividade A/B de duas semanas. Com [!UICONTROL Autoalocar], quando uma experiência vencedora emerge, [!UICONTROL o Público alvo] direciona mais tráfego para o vencedor no início do teste.
 
 ![Autoalocar ilustração](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
@@ -34,17 +34,17 @@ O lado positivo é bastante claro: mais visitantes veem as variações que têm 
 
 ## Como a Autoalocação poderia me dar uma receita maior?
 
-[!UICONTROL A Autoalocação] encontra o vencedor mais rápido do que uma divisão A/B manual e também permite que você explore o vencedor imediatamente capturando a receita ascendente que seria perdida em uma abordagem tradicional ou manual. Como a [!UICONTROL Autoalocação] direciona mais tráfego para a experiência com a maior taxa de conversão, ela pode aumentar sua receita enquanto a atividade é executada e aprende.
+[!UICONTROL A ] alocação automática localiza o vencedor mais rapidamente do que uma divisão A/B manual e também permite que você explore o vencedor imediatamente capturando a receita ascendente que seria perdida em uma abordagem tradicional ou manual. Como a [!UICONTROL Autoalocação] direciona mais tráfego para a experiência com a maior taxa de conversão, ela pode aumentar sua receita enquanto a atividade é executada e aprende.
 
-No exemplo a seguir, a [!UICONTROL Autoalocação] ganhou mais receita durante o teste, empurrando mais tráfego (40%) para a Experiência D, que teve a maior taxa de conversão.
+No exemplo a seguir, [!UICONTROL Autoalocação] ganhou mais receita durante o teste, empurrando mais tráfego (40%) para a Experiência D, que tinha a maior taxa de conversão.
 
 ![A autoalocação fornece uma ilustração de receita mais alta](/help/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## Em que casos devo me ater à alocação manual de tráfego?
 
-Quando você precisa classificar como cada experiência é realizada em relação às outras, um teste A/B manual é mais aplicável. [!UICONTROL A Autoalocação] encontra e explora os principais executores, mas não garante a diferenciação entre as experiências de desempenho mais baixo. Você deve usar a alocação de tráfego manual para obter controle total de quanto do tráfego do visitante vê cada variante de teste e para personalizar os limites estatísticos relevantes para a sua empresa.
+Quando você precisa classificar como cada experiência é realizada em relação às outras, um teste A/B manual é mais aplicável. [!UICONTROL A ] alocação automática localiza e explora os melhores desempenhos, mas não garante a diferenciação entre as experiências de menor desempenho. Você deve usar a alocação de tráfego manual para obter controle total de quanto do tráfego do visitante vê cada variante de teste e para personalizar os limites estatísticos relevantes para a sua empresa.
 
 ## Começar
 
-Pronto para iniciar sua primeira atividade de [!UICONTROL Autoalocação] ? [Saiba como aqui](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Pronto para iniciar sua primeira atividade [!UICONTROL Autoalocar]? [Saiba como aqui](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
