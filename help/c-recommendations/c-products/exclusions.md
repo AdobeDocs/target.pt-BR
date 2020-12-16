@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: Crie uma exclusão [!DNL Adobe Target Recommendations] para impedir que produtos ou conteúdo sejam recomendados para visitantes.
+description: Crie uma exclusão em [!DNL Adobe Target Recommendations] para impedir que produtos ou conteúdo sejam recomendados para visitantes.
 title: Exclusões no Adobe Target
 feature: entities
 translation-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 45%
 
 # Exclusões{#exclusions}
 
-Crie uma exclusão para impedir que produtos ou conteúdo sejam recomendados para visitantes. [!DNL Adobe Target Recommendations] Uma exclusão é um subconjunto de produtos ou conteúdo que não deve ser recomendado aos visitantes.
+Crie uma exclusão em [!DNL Adobe Target Recommendations] para evitar que produtos ou conteúdo sejam recomendados para visitantes. Uma exclusão é um subconjunto de produtos ou conteúdo que não deve ser recomendado aos visitantes.
 
-As exclusões estão disponíveis em toda a conta. Diferentemente das coleções, onde você especifica uma coleção específica para cada experiência ao criar uma atividade [!UICONTROL Recommendations] , as exclusões se aplicam a todas as atividades na conta. Não há opção para atribuir um grupo de exclusão durante a criação da atividade.
+As exclusões estão disponíveis em toda a conta. Diferentemente das coleções, onde você especifica uma coleção específica para cada experiência ao criar uma atividade [!UICONTROL Recommendations], as exclusões se aplicam a todas as atividades na conta. Não há opção para atribuir um grupo de exclusão durante a criação da atividade.
 
 Alguns exemplos de vezes que você usaria exclusões incluem:
 
@@ -54,7 +54,7 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 
 ## Criar uma exclusão usando a Pesquisa avançada
 
-You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Você também pode criar exclusões usando [!UICONTROL Pesquisa avançada] na página [Pesquisa de catálogo](/help/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Pesquisa de catálogo] > [!UICONTROL Pesquisa avançada]).
 
 ![Caixa de diálogo Salvar como](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -62,7 +62,7 @@ Após criar uma pesquisa usando &quot;id > contains&quot; Por exemplo, você pod
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. Essa não correspondência pode levar à confusão. Certifique-se de considerar a sensibilidade a maiúsculas e minúsculas quando você cria exclusões baseadas em resultados usando a funcionalidade Pesquisa avançada. Por exemplo, se você realiza uma busca para &quot;Feriado&quot;, essa busca inicial lista os resultados contendo &quot;Feriado&quot; e &quot;feriado&quot;. Em seguida, se você criar uma exclusão com a intenção de excluir produtos contendo &quot;feriado&quot;, somente os produtos contendo &quot;feriado&quot; são excluídos. Os produtos contendo &quot;Feriado&quot; não são excluídos.
+>A funcionalidade [!UICONTROL Pesquisa avançada] não diferencia maiúsculas de minúsculas; no entanto, os produtos retornados no momento do delivery são baseados em pesquisas que diferenciam maiúsculas e minúsculas. Essa não correspondência pode levar à confusão. Certifique-se de considerar a sensibilidade a maiúsculas e minúsculas quando você cria exclusões baseadas em resultados usando a funcionalidade Pesquisa avançada. Por exemplo, se você realiza uma busca para &quot;Feriado&quot;, essa busca inicial lista os resultados contendo &quot;Feriado&quot; e &quot;feriado&quot;. Em seguida, se você criar uma exclusão com a intenção de excluir produtos contendo &quot;feriado&quot;, somente os produtos contendo &quot;feriado&quot; são excluídos. Os produtos contendo &quot;Feriado&quot; não são excluídos.
 
 ## Editar, copiar ou excluir uma exclusão
 
@@ -74,7 +74,7 @@ Você pode copiar uma exclusão existente para criar uma exclusão de duplicado 
 
 Esteja ciente de que as exclusões estão disponíveis em toda a conta. Considere isso antes de excluir uma exclusão. As exclusões excluídas não podem ser recuperadas.
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criar coleções e exclusões no Recommendations (7:05) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
