@@ -14,11 +14,11 @@ ht-degree: 51%
 
 # Integração do Target ao Adobe Campaign{#integrate-target-with-adobe-campaign}
 
-Use [!DNL Target] with [!DNL Adobe Campaign] to optimize email content.
+Use [!DNL Target] com [!DNL Adobe Campaign] para otimizar o conteúdo de email.
 
-To optimize your email content--for example, to display different offers for male and female recipients--you can create a redirect offer in [!DNL Target], then use [!DNL Adobe Campaign] to manage the email offers.
+Para otimizar seu conteúdo de e-mail, por exemplo, para exibir ofertas diferentes para recipient machos e fêmeas, você pode criar uma oferta de redirecionamento em [!DNL Target], em seguida, usar [!DNL Adobe Campaign] para gerenciar as ofertas de e-mail.
 
-A integração ocorre quando o email é aberto. When the customer opens the email, a call is made to [!DNL Target] and a dynamic version of the content appears. O conteúdo consiste em uma imagem estática compatível com todos os navegadores. [!DNL Target]O rastreia a reação à oferta no nível do público-alvo ou da sessão, e esses dados são disponibilizados nos relatórios do [!DNL Target]
+A integração ocorre quando o email é aberto. Quando o cliente abre o email, uma chamada é feita para [!DNL Target] e uma versão dinâmica do conteúdo é exibida. O conteúdo consiste em uma imagem estática compatível com todos os navegadores. [!DNL Target]O rastreia a reação à oferta no nível do público-alvo ou da sessão, e esses dados são disponibilizados nos relatórios do [!DNL Target]
 
 O Target pode rastrear os seguintes dados:
 
@@ -26,47 +26,47 @@ O Target pode rastrear os seguintes dados:
 * Endereço IP
 * Localização geográfica
 * Segmento associado à ID de visitante no Target (sujeito a aprovação legal)
-* Data from [!DNL Campaign] Datamart
+* Dados do Datamart [!DNL Campaign]
 
 Há várias limitações:
 
 * Como somente uma imagem pode ser usada, não é possível personalizar o conteúdo.
-* Tracking is not consolidated in [!DNL Adobe Campaign].
+* O rastreamento não é consolidado em [!DNL Adobe Campaign].
 * Sem unificação da experiência de usuário.
 
-   You must use both [!DNL Target] and [!DNL Campaign] to set up different parts of the integration:
+   Você deve usar [!DNL Target] e [!DNL Campaign] para configurar diferentes partes da integração:
 
    * O rawbox e a experiência no [!DNL Target]
    >[!NOTE]
    >
    >Ao usar uma rawbox e [!DNL Target], consulte o aviso de segurança importante em [Criar lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist).
 
-   * The delivery in [!DNL Campaign]
+   * O delivery em [!DNL Campaign]
 
 
 
-## Antes de começar  {#section_FF19BF1BCA064260930BF6C141313B0E}
+## Antes de começar   {#section_FF19BF1BCA064260930BF6C141313B0E}
 
-Before you use [!DNL Adobe Campaign] to set up your targeted email offers, set up the following in [!DNL Target]:
+Antes de usar [!DNL Adobe Campaign] para configurar suas ofertas de email direcionadas, configure o seguinte em [!DNL Target]:
 
-* Two or more [!DNL Target] redirect offers
+* Duas ou mais ofertas de redirecionamento [!DNL Target]
 
-   See [Create redirect offer](/help/c-experiences/c-manage-content/offer-redirect.md).
+   Consulte [Criar oferta de redirecionamento](/help/c-experiences/c-manage-content/offer-redirect.md).
 * Uma atividade do Target com uma experiência para cada oferta e a [métrica de sucesso](/help/c-activities/r-success-metrics/success-metrics.md) desejada.
 
    Consulte [Redirecionar para um URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-Start the activity in [!DNL Target] before setting up the [!DNL Campaign] portion of the integration.
+Start a atividade em [!DNL Target] antes de configurar a parte [!DNL Campaign] da integração.
 
-## Incluir uma oferta do Target em um email do Adobe Campaign  {#section_B201BBE27A704E18AF0D553F35695837}
+## Incluir uma oferta do Target em um email do Adobe Campaign   {#section_B201BBE27A704E18AF0D553F35695837}
 
-1. Create an email in [!DNL Adobe Campaign].
+1. Crie um email em [!DNL Adobe Campaign].
 1. Nas propriedades do email, clique em **[!UICONTROL Incluir]** > **[!UICONTROL Imagem dinâmica fornecida pelo Adobe Target]**.
 1. Selecione a imagem padrão nos ativos compartilhados.
 1. Especifique o local (rawbox).
 1. Adicione quaisquer outros parâmetros de tomada de decisão, como o gênero do destinatário.
 1. Visualize o email, selecionando pelo menos um destinatário por cada oferta (nesse caso, um destinatário do sexo masculino e um do sexo feminino).
-1. In [!DNL Campaign], define the [!DNL Target] Edge server you are using to control the activity and the name of the tenant.
-1. Specify the external account used for the [!DNL Adobe Experience Cloud] so you can access the resources in the [!DNL Experience Cloud].
+1. Em [!DNL Campaign], defina o [!DNL Target] servidor de Borda que você está usando para controlar a atividade e o nome do locatário.
+1. Especifique a conta externa usada para [!DNL Adobe Experience Cloud] para que você possa acessar os recursos em [!DNL Experience Cloud].
 
-For more information, refer to the [!DNL Adobe Campaign] documentation.
+Para obter mais informações, consulte a documentação [!DNL Adobe Campaign].
