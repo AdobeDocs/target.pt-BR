@@ -36,7 +36,7 @@ Quando um vencedor claro é declarado, o [!DNL Target] exibe &quot;Vencedor: Exp
 >
 >As atividades de alocação automática são projetadas para encontrar a melhor experiência entre todas as opções e não apenas para fazer comparações emparelhadas com controle.
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Garantias estatísticas de Autoalocação {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 No final de uma atividade A/B, a Alocação automática garante que o vencedor determinado tenha uma taxa de falso-positivo eficaz de 5%. Isso significa que apenas 5% do tempo, o vencedor determinado não é realmente a melhor experiência entre todas as experiências na atividade. Para um teste A/A (com experiências idênticas), concluímos um teste com menos de 5% do tempo. O comportamento esperado para um teste A/A (com experiências idênticas) é para ser executado indefinidamente e, portanto, o emblema do vencedor nunca deve aparecer.
 
@@ -48,9 +48,9 @@ Testes A/B normais calculam a confiança com base nos valores de p. A Alocação
 
 >[!IMPORTANT]
 >
->Público alvo mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre ser baseada nos resultados da calculadora [de tamanho da](https://docs.adobe.com/content/target-microsite/testcalculator.html)amostra da Adobe Target. O público alvo não considera as taxas de conversão básicas de um site e outros aspectos importantes que são inseridos na calculadora para determinar a duração da atividade. Como resultado, o Público alvo pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte Calculadora [de tamanho de](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)amostra.
+>Público alvo mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre estar nos resultados da calculadora de tamanho de amostra da Adobe Target [a1/>. ](https://docs.adobe.com/content/target-microsite/testcalculator.html) O público alvo não considera as taxas de conversão básicas de um site e outros aspectos importantes que são inseridos na calculadora para determinar a duração da atividade. Como resultado, o Público alvo pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte [Calculadora de tamanho de amostra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Entenda o relatórios de incentivo e confiança nas atividades de autoalocação {#lift-confidence}
+## Entenda o relatórios de Lift e Confidence na Autoalocação do atividade {#lift-confidence}
 
 Nas atividades de Autoalocação, a primeira experiência (por padrão, denominada Experiência A) é sempre definida como uma experiência de &quot;Controle&quot; na guia Relatórios. Esta experiência não é tratada como um verdadeiro controlo estatístico na modelização utilizada para determinar o desempenho das experiências, mas é tratada como uma referência ou uma linha de base para alguns valores no relatório.
 
@@ -74,6 +74,6 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
    A Alocação automática mostra a probabilidade de uma determinada experiência ser um verdadeiro vencedor em todas as experiências na atividade. Isso significa que apenas uma experiência vencedora (que provavelmente será a vencedora) terá um valor de confiança diferente de zero. Todos os outros são mais propensos a serem perdedores e exibirão 0%.
 
-* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Esses níveis de confiança normalmente aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
+* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Esses níveis de confiança normalmente aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). Para determinar por quanto tempo um teste A/B normal seria executado, use uma [calculadora de tamanho de amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html): taxa de conversão do controle de plug-in na &quot;taxa de conversão da linha de base&quot;, &quot;5%&quot; para &quot;Elevação&quot; e 95% para &quot;Confiança&quot;. Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
 * Se o relatório mostrar 0% em todo o quadro, é provável que seja muito cedo para a atividade.
 
