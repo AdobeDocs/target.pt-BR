@@ -28,7 +28,7 @@ Um hit de dados parciais ocorre quando uma guia do [!DNL Target] na parte superi
 
 Para obter mais informações, consulte [Redução de visitas aumentadas e contagem de visitantes em A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Posso ver um pico nas visitas. Como posso dizer que eles foram causados por hits de dados parciais?  {#section_28506672C6224ED18AC74F6A02F6F811}
+## Posso ver um pico nas visitas. Como posso dizer que eles foram causados por hits de dados parciais?   {#section_28506672C6224ED18AC74F6A02F6F811}
 
 Você pode entrar em contato com o [Atendimento ao cliente da Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para recuperar um relatório de Dados parciais. Estas informações não estão disponíveis diretamente na interface do usuário do [!DNL Analytics].
 
@@ -38,7 +38,7 @@ Os hits de dados parciais geralmente são o resultado de uma implementação ina
 
 Para obter mais informações, consulte &quot;O que contribui para dados parciais&quot; em  [Minimizar contagens inflacionadas de visitas e visitantes no A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Tenho hits de dados parciais. O que posso fazer para apagar meus dados?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Tenho hits de dados parciais. O que posso fazer para apagar meus dados?   {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 Você pode criar um conjunto de relatórios virtuais para excluir dados parciais históricos de seus relatórios.
 
