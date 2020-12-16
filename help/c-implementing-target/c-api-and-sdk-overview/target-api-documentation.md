@@ -27,7 +27,7 @@ Para obter mais informações sobre a documentação do Target API, consulte  [A
 | API antigas | As APIs vinculadas à sua conta do Target Classic. Essas chamadas de API são baseadas em um nome de usuário e uma autenticação por senha e usam o nome de host `testandtarget.omniture.com`. Se as chamadas de API contiverem um nome de usuário e uma senha no URL de solicitação, você deverá fazer a transição para as do Adobe I/O. |
 | Adobe I/O | A Adobe I/O é o novo gateway para APIs do Target. Essas APIs são conectadas à sua conta do Target Standard/Premium. As APIs do Target APIs no Adobe I/O usam uma autenticação baseada em JWT, que é o padrão do setor para APIs corporativas seguras. |
 
-## Linha do tempo  {#section_A478EBF637554A2DB5A31661955121ED}
+## Linha do tempo   {#section_A478EBF637554A2DB5A31661955121ED}
 
 As APIs antigas serão descontinuadas quando o Target Classic for descomissionado:
 
@@ -38,7 +38,7 @@ As APIs antigas serão descontinuadas quando o Target Classic for descomissionad
 
 As APIs do Recommendations Classic não serão afetadas por essa linha do tempo.
 
-## Métodos equivalentes  {#section_DDB42CCC172545B09CB728D794CC466B}
+## Métodos equivalentes   {#section_DDB42CCC172545B09CB728D794CC466B}
 
 A tabela a seguir lista os novos métodos de API do Target equivalentes para os métodos de API herdados. As novas APIs retornam JSON quando comparadas à resposta de XML fornecida pelas APIs antigas.
 
@@ -66,6 +66,6 @@ Os novos métodos de API são vinculados à seção correspondente no site de do
 
 Se você precisar de uma exceção, entre em contato com o seu Gerente de sucesso do cliente.
 
-## Ajuda  {#section_591F850E2B7A4342B1C233693425415C}
+## Ajuda   {#section_591F850E2B7A4342B1C233693425415C}
 
 Entre em contato com o Atendimento ao cliente do Adobe Target (tt-support@adobe.com) se tiver qualquer pergunta ou precisar de ajuda na transição para as novas APIs do Target no Adobe I/O.
