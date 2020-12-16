@@ -58,23 +58,23 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
    * Selecione **[!UICONTROL Promover uma coleção]** e escolha a coleção de itens que deseja promover.
 
       É possível criar novas coleções para usar em promoções. Consulte [Criar uma coleção](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obter mais informações.
-   Se você escolher a **[!UICONTROL Lista de itens]** como o Tipo **[!UICONTROL de]** promoção, poderá marcar a caixa de seleção **[!UICONTROL Tornar ordem]** de item aleatória, se desejar.
+   Se você escolher **[!UICONTROL Lista de itens]** como **[!UICONTROL Tipo de promoção]**, poderá marcar a caixa de seleção **[!UICONTROL Randomizar pedido de item]**, se desejar.
 
-   A ordem de classificação padrão para a [!UICONTROL Lista de itens] é baseada na ordem que você digitou na interface do Público alvo ou na API. If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+   A ordem de classificação padrão para [!UICONTROL Lista de Itens] é baseada na ordem que você digitou na interface do Público alvo ou na API. Se sua lista incluir mais itens do que o número de slots definidos para promoções, a opção [!UICONTROL Randomizar ordem de item] aleatorizará os itens promovidos exibidos no design. Escolher essa opção resulta em [!DNL Target] selecionar aleatoriamente os itens habilitados para promoções no modelo a partir de todo o conjunto de promoções em cada ocorrência.
 
-   Se as entidades não tiverem um `entity.value` atributo (por exemplo, você não vende produtos), poderá passar um valor numérico para o `entity.value` atributo, como a data de publicação. Nesse caso, os itens promovidos podem ser promovidos com base na data de publicação mais recente, em ordem decrescente. O `entity.value` atributo é do tipo duplo; não aceita cordas.
+   Se as entidades não tiverem um atributo `entity.value` (por exemplo, se você não vender produtos), você poderá passar um valor numérico para o atributo `entity.value`, como a data de publicação. Nesse caso, os itens promovidos podem ser promovidos com base na data de publicação mais recente, em ordem decrescente. O atributo `entity.value` é do tipo duplo; não aceita cordas.
 
-   Se você selecionou a opção **[!UICONTROL Promover por atributo]** ou **[!UICONTROL Promover uma coleção]** , a opção para aleatorizar a ordem não é aplicável.
+   Se você selecionou a opção **[!UICONTROL Promover por atributo]** ou **[!UICONTROL Promover uma coleção]**, a opção para randomizar a ordem não é aplicável.
 
-   Ao promover itens específicos usando as opções [!UICONTROL Promover por atributo] ou [!UICONTROL Promover uma coleção] , a ordem padrão na qual os itens são apresentados é baseada no `entity.value` atributo, em ordem numérica decrescente.
+   Ao promover itens específicos usando as opções [!UICONTROL Promover por atributo] ou [!UICONTROL Promover uma coleção], a ordem padrão na qual os itens são apresentados é baseada no atributo `entity.value`, em ordem numérica decrescente.
 
    A tabela a seguir ilustra as diferenças entre essas opções:
 
    | Tipo de promoção | Classificação padrão | Classificação de backup | Opção de filtragem dinâmica |
    | --- | --- | --- | --- |
    | Lista de itens | Pedido inserido na interface de usuário/API do Público alvo | Aleatório (quando selecionado por interface de usuário/API | Não |
-   | Promover por atributo | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum `entity.value` atributo está presente) | Sim |
-   | Promover uma coleção | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum `entity.value` atributo está presente) | Não |
+   | Promover por atributo | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum atributo `entity.value` está presente) | Sim |
+   | Promover uma coleção | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum atributo `entity.value` está presente) | Não |
 
 1. Clique em **[!UICONTROL Salvar]**.
 
