@@ -26,13 +26,13 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link: [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
+**Link:  [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
 Quando navegamos para o site inicial, é possível visualizar imediatamente uma imagem principal que promove uma venda de Páscoa e os produtos mais recentes à venda no site. Nesse caso, uma Exibição pode ser definida como todo o site inicial. Isso é útil para observar como expandiremos mais isso na seção Implementação de exibições do Adobe Target abaixo.
 
-**Link: [Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:  [Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site do produto](/help/c-experiences/assets/product-site.png)
 
@@ -46,7 +46,7 @@ No início desta seção, definimos Exibições como o site inteiro ou até mesm
 
 Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
-**Link: [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:  [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de checkout](/help/c-experiences/assets/checkout.png)
 
@@ -66,7 +66,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![Caixa de diálogo Detalhes da implementação](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis.
+   Baixe o at.js 2.x por meio da interface do usuário do Adobe Target localizada em [!UICONTROL Administração > Implementação]. A at.js 2.x também pode ser implantada por meio do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis.
 
 1. Implemente a função mais recente da at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) em seus sites.
 
@@ -82,7 +82,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos analisar alguns exemplos de casos de uso de como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link: [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:  [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -113,7 +113,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link: [Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link:  [Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
    Agora, vejamos um exemplo que é um pouco mais complicado. Considere que desejamos personalizar a segunda linha dos produtos alterando a cor do rótulo de preço para vermelho depois que um usuário clica no botão Carregar mais.
 
@@ -142,7 +142,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    }
    ```
 
-   **Link: [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link:  [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![checkout do react](/help/c-experiences/assets/react6.png)
 
@@ -358,7 +358,7 @@ Se você quiser usar atividades A/B de Direcionamento automático, mova todas as
 | [Atributos do cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sim |
 | [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Sim |
 
-## Recursos compatíveis  {#supported-features}
+## Recursos compatíveis   {#supported-features}
 
 | Recurso | Suportado? |
 | --- | --- |
@@ -391,9 +391,9 @@ Considere este exemplo de caso de uso:
 As seguintes alterações foram feitas:
 
 * Alteração da cor de fundo na exibição Início, localizada no URL: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Alterada a cor do botão na visualização Produtos, localizada abaixo do URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+Com o exemplo acima em mente, o que aconteceria quando definimos [!UICONTROL Configurações de Delivery de página] para incluir apenas: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) em um SPA com at.js 2.*x*?
 
 ![Caixa de diálogo Entrega de página](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +403,19 @@ A ilustração a seguir mostra o Fluxo do Target - Solicitação de carregamento
 
 **Jornada do usuário nº 1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Um usuário navega diretamente para [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x*  faz um query no Edge para ver se alguma atividade precisa ser executada para o URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * Na etapa 6, o Target Edge retorna as ações para as exibições Início e Produtos para que sejam armazenadas em cache no navegador.
 
 **Resultado**: o usuário vê a cor de fundo verde na exibição Início. Quando o usuário navega para [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, a cor de fundo azul do botão é vista porque a ação foi armazenada no cache do navegador na exibição Produtos.
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+Observação: O usuário que navega para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) não acionou um carregamento de página.
 
 **Jornada do usuário nº 2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Um usuário navega diretamente para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x*  faz um query no Edge para ver se alguma atividade precisa ser executada para o URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Não há atividades qualificadas para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Como não há atividades qualificadas, não há ações e Exibições para armazenar em cache para a at.js 2.*x* acionar.
 
 **Resultado**: mesmo que você tenha definido `triggerView()` para a exibição Produtos e executado uma ação na exibição Produtos por meio do SPA VEC, você não verá a ação esperada, pois não criou uma regra que incluísse [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products nas configurações de Entrega de página.
@@ -440,4 +440,4 @@ Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibiçã
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+Consulte [Usando o Visual Experience Composer para Aplicativo de Página Única (SPA VEC) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
