@@ -48,7 +48,7 @@ Você também pode escolher deixar a Target  [alocar o tráfego automaticamente]
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Uso de públicos-alvo no Adobe Target (6:21) ![Etiqueta de visão geral](/help/assets/overview.png)
+### Uso de públicos-alvo no Adobe Target (6:21)  ![Etiqueta de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Fluxo de trabalho da atividade - Etiqueta do ![tutorial de definição de metas (2:14)](/help/assets/tutorial.png)
+### Fluxo de trabalho da atividade - definição de metas (2:14) ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração de públicos-alvo.
 
