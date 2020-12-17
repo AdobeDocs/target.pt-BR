@@ -4,10 +4,10 @@ description: Solução de problemas e perguntas frequentes sobre o Público alvo
 title: Solução de problemas de Público alvo automático e perguntas frequentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 71%
+source-wordcount: '1902'
+ht-degree: 68%
 
 ---
 
@@ -143,3 +143,9 @@ Isso é esperado.
 Em uma atividade de [!UICONTROL Direcionamento automático], depois que uma métrica de conversão (objetivo de otimização ou de postagem) é convertida, o usuário é liberado da experiência e a atividade é reiniciada.
 
 Por exemplo, há uma atividade com uma métrica de conversão (C1) e uma métrica adicional (A1). A1 depende de C1. Quando um visitante entra na atividade pela primeira vez, e os critérios de conversão de A1 e C1 não são convertidos, a métrica A1 não é convertida por depender da métrica de sucesso. Se o visitante converte C1 e depois converte A1, A1 ainda não é convertida porque, assim que C1 é convertida, o visitante é liberado.
+
+### O que acontece se eu remover uma única experiência de uma atividade de Público alvo automático?
+
+[!DNL Target] cria um modelo por experiência, portanto, remover um meio de experiência  [!DNL Target] criará apenas um modelo a menos e não afetará os modelos para as outras experiências.
+
+Por exemplo, suponha que você tenha uma atividade [!UICONTROL Público alvo automático] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afetará os modelos das sete experiências restantes.
