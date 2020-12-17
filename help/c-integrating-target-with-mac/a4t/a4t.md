@@ -4,15 +4,15 @@ description: O "Analytics for Target" (A4T) da Adobe é uma integração entre s
 title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 feature: a4t general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 47%
+source-wordcount: '1306'
+ht-degree: 46%
 
 ---
 
 
-# Adobe Analytics como origem de relatório do Adobe Target (A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
+# Adobe Analytics como origem de relatório do Adobe Target (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) é uma integração entre soluções que permite criar atividades com base em métricas de  [!DNL Analytics] conversão e segmentos de audiência. A integração A4T permite que você use relatórios [!DNL Analytics] para examinar seus resultados. Se você usar [!DNL Analytics] como fonte de relatórios para uma atividade, todos os relatórios e segmentação dessa atividade serão baseados na coleta de dados [!DNL Analytics].
 
@@ -73,7 +73,8 @@ A tabela a seguir mostra quais tipos de atividade suportam [!DNL Analytics] como
 | AEM 6.1 (ou anterior) Integração dos Serviços em Nuvem | Não |  |
 | AEM 6.2 (ou posterior) Integração dos Serviços em Nuvem | Sim | Para obter mais informações, consulte [Integração com o Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) na documentação [!DNL Adobe Experience Manager] 6.2. |
 | Qualquer atividade usando uma oferta de redirecionamento | Sim | Existem requisitos mínimos mais rigorosos para o uso de Ofertas de redirecionamento com o A4T. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Sim |  |
+| Node.JS | Sim | Para obter mais informações, consulte [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) no guia *Adobe Target SDKs*. |
+| Java SDK | Sim | Para obter mais informações, consulte [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) no guia *Adobe Target* SDKs. |
 
 Como todos os tipos de atividade ainda não suportam A4T, é recomendável manter ou implementar mboxes de conversão importantes, como a mbox `orderConfirmPage`.
 
