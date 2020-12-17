@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3188'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 17 de dezembro | [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Tabela atualizada para indicar que o Java SDK suporta A4T. |
 | 16 de dezembro | [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;O que acontece se eu remover uma única experiência de uma atividade de Público alvo automático?&quot; |
 | 9 de dezembro | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Novo tópico. |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | O seguinte problema foi movido da seção Problemas conhecidos para a seção Problemas resolvidos: &quot;ofertas de imagem mostrando o rótulo &quot;Processamento&quot;.&quot; |
