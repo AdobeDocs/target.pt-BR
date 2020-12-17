@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 16 de dezembro | [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;O que acontece se eu remover uma única experiência de uma atividade de Público alvo automático?&quot; |
 | 9 de dezembro | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Novo tópico. |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | O seguinte problema foi movido da seção Problemas conhecidos para a seção Problemas resolvidos: &quot;ofertas de imagem mostrando o rótulo &quot;Processamento&quot;.&quot; |
 | 1 de dezembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Gravação de webinar incorporada para &quot;Personalizar e testar a latência zero com decisões no dispositivo da Adobe Target&quot;. |
