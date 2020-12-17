@@ -1,12 +1,12 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Determine um vencedor em uma atividade A/B de autoalocação exibindo indicadores na interface do usuário do Adobe Target.
-title: Determinar um vencedor
-feature: auto-allocate
+description: Interprete os resultados de uma atividade A/B de autoalocação examinando indicadores importantes, incluindo incentivo e confiança, na interface do usuário do Adobe Target.
+title: Interpretar relatórios de autoalocação
+feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1115'
 ht-degree: 48%
 
 ---
