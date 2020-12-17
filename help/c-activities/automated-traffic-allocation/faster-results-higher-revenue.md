@@ -2,9 +2,9 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: A atividade de Autoalocação no Adobe Target identifica um vencedor entre duas ou mais experiências e aloca automaticamente mais tráfego para o vencedor para aumentar as conversões enquanto o teste continua em execução e aprende.
 title: A Autoalocação pode fornecer resultados de teste mais rápidos e maior receita do que um teste manual
-feature: auto-allocate
+feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
