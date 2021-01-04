@@ -4,7 +4,7 @@ description: Informações sobre eventos futuros, incluindo sessões do Construt
 title: Anúncios de públicos alvos
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -54,6 +54,6 @@ Junte-se ao Adobe e ao HSBC para este webinar para saber mais:
 
 ## Adobe Target Skill Builder: Bate-papo no desenvolvedor, migre o Adobe Target mbox.js para at.js {#skill-builder}
 
-Com a próxima desaprovação do mbox.js em 18 de janeiro de 2021, David Son, o gerente de produtos da Adobe Target recentemente hospedou um bate-papo de desenvolvedor para discutir os benefícios da migração do mbox.js para o at.js.
+Com a próxima desaprovação do mbox.js em 31 de março de 2021, David Son, o gerente de produtos da Adobe Target recentemente hospedou um bate-papo de desenvolvedor para discutir os benefícios da migração do mbox.js para o at.js.
 
 [Visualização a gravação do webinar aqui](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
