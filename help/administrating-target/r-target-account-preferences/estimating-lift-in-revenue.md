@@ -1,24 +1,24 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: A Adobe Target pode estimar o aumento de receita que você obteria se todos os usuários visualizações a experiência vencedora.
+description: Use a Adobe Target para estimar o aumento de receita que você obteria se todos os usuários visualizações a experiência vencedora.
 title: Aumento estimado na receita
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
 
 # Aumento estimado na receita{#estimate-lift-in-revenue}
 
-O Target pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora.
+Use [!DNL Adobe Target] para estimar o aumento de receita que você obteria se todos os usuários visualizações a experiência vencedora.
 
 >[!NOTE]
 >
->O aumento estimado não está disponível para atividades de Direcionamento de experiência (XT) no momento.
+>O incentivo estimado não está disponível para [!UICONTROL atividades de direcionamento de experiência] (XT) no momento.
 
 Por padrão, o recurso de estimativa de aumento fica desativado. Isso pode ser ativado nas suas preferências de conta. Apenas usuários de Administração da Experience Cloud podem habilitar ou desabilitar esse recurso. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
 
