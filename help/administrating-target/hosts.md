@@ -4,17 +4,17 @@ description: Organize seus sites e ambientes de pré-produção para fácil gere
 title: Hosts
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 26%
+source-wordcount: '1083'
+ht-degree: 25%
 
 ---
 
 
 # Hosts{#hosts}
 
-Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
+Organize seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separado em [!DNL Adobe Target].
 
 O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo inativo seja exibido acidentalmente nos sites. O gerenciamento de hosts também permite separar os dados do relatório por [ambiente](/help/administrating-target/environments.md).
 
