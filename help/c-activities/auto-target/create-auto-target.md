@@ -1,13 +1,13 @@
 ---
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
-description: Use o Visual Experience Composer no Adobe Target para criar sua atividade de teste A/B de autoalocação diretamente em uma página ativada pelo Público alvo e para modificar partes da página no Público alvo.
+description: Use o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B de Público alvo automático diretamente em uma página habilitada por Público alvo e para modificar partes da página no Público alvo.
 title: Criar uma atividade de Público alvo automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '897'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 59%
 Use o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] para criar a atividade [!UICONTROL Público alvo automático] [!UICONTROL Teste A/B] diretamente em uma página ativada por [!DNL Target] e modificar partes da página em [!DNL Target].
 
 >[!NOTE]
+>
+>O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
 >
 >Além da atividade [!UICONTROL Público alvo automático] [!UICONTROL Teste A/B] (discutida neste artigo), [!DNL Target] fornece dois tipos adicionais de atividades [!UICONTROL Teste A/B]: [!UICONTROL Manual (Padrão)] e [!UICONTROL Autoalocar].
 >
