@@ -2,20 +2,19 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Use métricas em um Teste multivariado Adobe Target para determinar quando uma visita é bem-sucedida.
 title: Definir métricas
-feature: mvt
-solution: Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 94%
+source-wordcount: '317'
+ht-degree: 88%
 
 ---
 
 
-# Definir métricas{#set-metrics}
+# Definir métricas para testes multivariados
 
-Use métricas em um teste multivariado quando uma visita obtém sucesso.
+Use métricas em um Teste multivariado Adobe Target para determinar quando uma visita é bem-sucedida.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
