@@ -4,17 +4,17 @@ description: Use os URLs de QA da Adobe Target com delivery do lado do servidor 
 title: Usar o controle de qualidade de atividade com entrega do lado do servidor
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# Usar o controle de qualidade de atividade com entrega do lado do servidor{#use-activity-qa-with-server-side-delivery}
+# Usar o controle de qualidade de atividade com entrega do lado do servidor
 
-Use URLs de controle de qualidade com entrega do lado do servidor para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
+Use URLs de QA com delivery do lado do servidor em [!DNL Adobe Target] para realizar um controle de qualidade de atividade completo e fácil com links de pré-visualização que nunca mudam, direcionamento de audiência opcional e relatórios de controle de qualidade que permaneça segmentado dos dados de atividade ativa.
 
 A implementação padrão do Controle de qualidade de atividade é compatível com a transferência de parâmetros `qa_mode` por meio de parâmetros `pageUrl`. Essa abordagem é conveniente para chamadas padrão/ajax [!DNL Target]. No entanto, para chamadas de servidor para servidor, isso não é a melhor abordagem para um caso SDK do Adobe Mobile, quando `pageUrl` não está disponível.
 
