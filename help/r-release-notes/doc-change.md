@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3220'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 4 de janeiro de 2021 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Alterada a data em que o Público alvo não oferecerá mais suporte ao mbox.js de 18 de janeiro de 2021 para 31 de março de 2021. |
 | 18 de dezembro | [Teste A/A](/help/c-activities/t-test-ab/aa-testing.md) | Novo tópico. |
 | 17 de dezembro | [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Tabela atualizada para indicar que o Java SDK suporta A4T. |
 | 16 de dezembro | [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;O que acontece se eu remover uma única experiência de uma atividade de Público alvo automático?&quot; |
@@ -93,7 +94,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 | --- | --- | --- |
 | 31 de agosto | [Usar Adobe Analytics com Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Adicionada a seção Perguntas frequentes. |
 | 28 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Atualizado o seguinte:<ul><li>Adicionada à seção Problemas conhecidos: &quot;Relatórios - Atualmente, as conversões incrementam de forma diferente com base na audiência usada.&quot;</li><li>Adicionada à seção Problemas resolvidos: &quot;Páginas que não são carregadas no Visual Experience Composer (VEC) ou no Enhanced Experience Composer (EEC) ao usar o Google Chrome versão 80+.&quot;</li></ul> |
-|  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | A data de desaprovação do mbox.js foi alterada de 30 de agosto de 2020 para 18 de janeiro de 2021. |
+|  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | A data de desaprovação do mbox.js foi alterada de 30 de agosto de 2020 para 18 de janeiro de 2021. Isso foi alterado para 31 de março de 2020. |
 | 26 de agosto | [Usar o Adobe Analytics com o Público alvo Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Novo tópico. |
 | 24 de agosto | [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Atualização da seção &quot;Configurações avançadas&quot;. |
 | 21 de agosto | [Visão geral do kit de boas-vindas da Adobe Target](/help/c-intro/target-welcome-kit.md) | Novo artigo e subtópicos. |
