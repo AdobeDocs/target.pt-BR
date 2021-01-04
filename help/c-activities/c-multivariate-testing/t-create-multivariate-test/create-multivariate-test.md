@@ -2,21 +2,21 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: O Visual Experience Composer (VEC) no Adobe Target facilita a criação do teste multivariado (MVT) diretamente em uma página ativada para o Target e a modificação de partes da página no Target.
 title: Criar um teste multivariado
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 96%
 
 ---
 
 
 # Criar um teste multivariado{#create-a-multivariate-test}
 
-O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Target] facilita a criação do teste diretamente em uma página ativada para o Target e a modificação de partes da página no [!DNL Target].
+O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] facilita a criação do teste diretamente em uma página ativada para o Target e a modificação de partes da página no [!DNL Target].
 
-O editor de apontar e clicar do Target permite que você escolha qualquer local e adicione várias ofertas.
+O editor de apontar e clicar [!DNL Target] permite que você escolha qualquer local e adicione várias ofertas.
 
 O [!UICONTROL teste multivariado] (MVT) ocupa um relatório de primeira página. Em outras palavras, o teste é executado em um URL específico, com as experiências projetadas para essa página.
 
