@@ -1,13 +1,13 @@
 ---
 keywords: integration;roles;user permissions;admin console
-description: Informações sobre a concessão de acesso às integrações do Adobe I/O existentes para todos os espaços de trabalho com a função desejada no Adobe Target
+description: Conceder acesso às integrações existentes do Adobe I/O a todas as áreas de trabalho com a função desejada no Adobe Target
 title: Conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções no Adobe Target
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '613'
+ht-degree: 85%
 
 ---
 
