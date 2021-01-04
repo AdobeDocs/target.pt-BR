@@ -4,17 +4,17 @@ description: O Público alvo automático no Adobe Target usa o aprendizado de m�
 title: Visão geral do Público alvo automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 86%
+source-wordcount: '2018'
+ht-degree: 85%
 
 ---
 
 
 # ![Visão geral do ](/help/assets/premium.png) PREMIUMAuto-Público alvo
 
-O [!UICONTROL Direcionamento automático] usa aprendizagem de máquina avançada para selecionar várias experiências de alto desempenho definidas pelo profissional de marketing para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
+[!UICONTROL As atividades de ] direcionamento automático no Adobe Target usam o aprendizado de máquina avançado para selecionar entre várias experiências definidas pelo profissional de marketing de alto desempenho para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 
 >[!NOTE]
 >
