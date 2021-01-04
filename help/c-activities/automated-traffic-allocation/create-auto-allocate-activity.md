@@ -1,12 +1,12 @@
 ---
-keywords: Create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate
-description: Use o Visual Experience Composer no Adobe Target para criar sua atividade de teste A/B de autoalocação diretamente em uma página ativada pelo Público alvo e para modificar partes da página no Público alvo.
+keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+description: Use o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B de autoalocação diretamente em uma página ativada pelo Público alvo e para modificar partes da página no Público alvo.
 title: Criar uma atividade de autoalocação
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 61%
 
 ---
