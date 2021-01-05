@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: A métrica de envolvimento de Pontuação de captura calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante visualiza a primeira Solicitação de Público alvo de exibição da campanha.
+description: A métrica de envolvimento de Pontuação de captura no Adobe Target calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante visualiza a primeira Solicitação de Público alvo de exibição da campanha.
 title: Pontuação de captura
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# Pontuação de captura{#capture-score}
+# Pontuação de captura
 
-A métrica de envolvimento de Pontuação de captura calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante visualiza a primeira solicitação [!DNL Target] de exibição da campanha.
+A métrica de envolvimento de Pontuação de captura em [!DNL Adobe Target] calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante visualiza a primeira solicitação [!DNL Target] de exibição da campanha.
 
 O exemplo a seguir mostra como o envolvimento da pontuação é calculado em uma campanha que testa duas experiências, uma com uma imagem de um gato e outra com a imagem de um cão.
 
@@ -28,7 +28,7 @@ Você pode levar em consideração os custos de aquisição e receita de links a
 
 ![](assets/example_score2.png)
 
-**Atribuindo uma pontuação de página**
+## Atribuição de uma pontuação de página
 
 Você pode atribuir um valor à qualquer página em seu site, com base no quão valiosa é a página para você. Por exemplo, um site sobre culinária pode vender anúncios por valores mais altos nas páginas de artigo em destaque do que na seção de experiências. Logo, os artigos em destaque são mais valiosos do que a seção de experiências. A pontuação da página permite desenvolver um valor &quot;geral&quot; de uma visita, de forma que a pessoa que ler mais artigos em destaque obtenha mais &quot;pontos&quot; do que alguém que simplesmente navegue pela seção de experiências.
 
