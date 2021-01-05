@@ -2,20 +2,19 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Use métricas em uma atividade de Direcionamento de experiência (XT) do Adobe Target para determinar quando uma visita é bem-sucedida.
 title: Definir métricas
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 99%
+source-wordcount: '321'
+ht-degree: 92%
 
 ---
 
 
-# Definir métricas{#set-metrics}
+# Definir métricas em atividades de direcionamento de experiência (XT)
 
-Use métricas em uma atividade Direcionamento de experiência (XT) para determinar quando uma visita obtém sucesso.
+Use métricas em uma atividade [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) para determinar quando uma visita é bem-sucedida.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
