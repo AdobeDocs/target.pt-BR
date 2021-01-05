@@ -2,17 +2,17 @@
 keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 title: Metas e Configurações
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 97%
+source-wordcount: '1233'
+ht-degree: 96%
 
 ---
 
 
-# Metas e configurações{#goals-and-settings}
+# Metas e configurações nas atividades de direcionamento de experiência (XT)
 
 A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 
