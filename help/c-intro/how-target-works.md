@@ -1,13 +1,13 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: 'O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript: at.js e mbox.js'
 title: Funcionamento do Adobe Target
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 82%
+source-wordcount: '2438'
+ht-degree: 79%
 
 ---
 
@@ -18,10 +18,11 @@ Informações sobre como o Adobe Target funciona, incluindo as bibliotecas de Ja
 
 ## Bibliotecas de JavaScript do Target {#libraries}
 
-O Adobe Target integra-se aos sites por meio de uma das duas bibliotecas JavaScript: at.js e mbox.js
+A Adobe Target integra-se a sites por meio de bibliotecas JavaScript:
 
 * **at.js:** A biblioteca [da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a  [última versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** a mbox.js é a biblioteca de implementação herdada para o Target. A biblioteca mbox.js ainda é suportada, mas não receberá atualizações.
+* **Adobe Experience Platform Web SDK:** O  [Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK é uma nova biblioteca JavaScript do lado do cliente que permite  [!DNL Adobe Experience Cloud] a interação entre os clientes e os vários serviços  [!DNL Experience Cloud] por meio da  [!DNL Adobe Experience Platform] Edge Network.
+* **mbox.js:**[ a mbox.js é a biblioteca de implementação herdada para o Target. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) A biblioteca mbox.js ainda é compatível até 31 de março de 2021, mas não haverá atualizações de recursos.
 
 >[!IMPORTANT]
 >
