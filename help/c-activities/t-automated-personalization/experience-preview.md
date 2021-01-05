@@ -2,9 +2,9 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: É possível gerar URLs de pré-visualização de experiência para o Público alvo Automated Personalization atividade para ver o conteúdo de experiência diretamente no seu site antes que a atividade esteja ativa para fins de pré-visualização e QA. URLs de pré-visualização de experiência ignoram a definição de metas para forçar a visualização de uma experiência específica.
 title: Pré-visualizar atividades do Automated Personalization com URLs de visualização da experiência
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 65%
@@ -12,7 +12,7 @@ ht-degree: 65%
 ---
 
 
-# ![automated personalization atividade ](/help/assets/premium.png) PREMIUMPreview com URLs de pré-visualização de experiência{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![automated personalization atividade ](/help/assets/premium.png) PREMIUMPreview com URLs de pré-visualização de experiência
 
 É possível gerar URLs de pré-visualização de experiência para o Público alvo Automated Personalization atividade para ver o conteúdo de experiência diretamente no seu site antes que a atividade esteja ativa para fins de pré-visualização e QA. URLs de pré-visualização de experiência ignoram a definição de metas para forçar a visualização de uma experiência específica.
 
