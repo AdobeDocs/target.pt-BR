@@ -1,20 +1,20 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest
-description: A Personalização automatizada (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar o incentivo.
+keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
+description: As atividades Automated Personalization (AP)no Adobe Target combinam ofertas ou mensagens e usam o aprendizado de máquina avançado para corresponder às diferentes variações de oferta de cada visitante com base no perfil individual do cliente, a fim de personalizar o conteúdo e o incentivo.
 title: Personalização automatizada
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 97%
+source-wordcount: '1027'
+ht-degree: 89%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Personalização automatizada{#automated-personalization}
+# ![Personalização ](/help/assets/premium.png) personalizada PREMIUMA (AP)
 
-A [!UICONTROL Personalização automatizada] (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar o incentivo.
+[!UICONTROL As atividades Automated Personalization] (AP)  [!DNL Adobe Target] combinam ofertas ou mensagens e usam o aprendizado avançado da máquina para corresponder variações de oferta diferentes para cada visitante com base em seu perfil individual do cliente, a fim de personalizar o conteúdo e o incentivo.
 
 >[!NOTE]
 >
