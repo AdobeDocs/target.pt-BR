@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: O URL da atividade determina a página usada na atividade de Direcionamento de experiência, que é aberta no Visual Experience Composer (VEC) ou no Experience Composer baseado em formulário do Adobe Target quando a atividade é criada.
+keywords: Experience Targeting;xt;activity url;url
+description: O URL da Atividade determina a página que é usada na atividade Adobe Target Experience Targeting e que é aberta no Visual Experience Composer (VEC) ou no Criador de experiências baseado em forma quando a atividade é projetada.
 title: URL da atividade
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 92%
+source-wordcount: '280'
+ht-degree: 66%
 
 ---
 
 
-# URL da atividade{#activity-url}
+# URL de atividade nas atividades de direcionamento de experiência (XT)
 
-O URL da atividade determina a página usada na atividade de Direcionamento de experiência (XT), que é aberta no Visual Experience Composer (VEC) ou no Experience Composer baseado em formulário quando a atividade é criada.
+O [!UICONTROL URL de Atividade] determina a página que é usada na atividade [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) e que é aberta no [!UICONTROL Visual Experience Composer] (VEC) ou [!UICONTROL Compositor de Experiência Baseado em Formulário] quando a atividade é projetada.
 
 1. Quando solicitado ao [criar uma atividade de XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), especifique o URL da atividade. Digite o URL completo (incluindo `https://`) e clique em **[!UICONTROL Criar atividade]**.
 
