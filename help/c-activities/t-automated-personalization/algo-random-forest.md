@@ -1,18 +1,18 @@
 ---
-keywords: Targeting
+keywords: random forest;decision tree;ap;Automated Personalization
 description: O principal algoritmo de personalização do Target usado na Personalização automatizada e no Direcionamento automático é o Random Forest. Métodos de conjunto como a Random Forest usam vários algoritmos de aprendizagem para obter desempenhos preditivos melhores dos que poderiam ser obtidos de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest da Personalização automatizada é um método de classificação ou regressão que funciona por meio da construção de várias de árvores de decisão durante o treinamento.
 title: Algoritmo Random Forest
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Algoritmo Random Forest{#random-forest-algorithm}
+# ![PREMIUM](/help/assets/premium.png) Algoritmo Random Forest
 
 O principal algoritmo de personalização do Target usado na Personalização automatizada e no Direcionamento automático é o Random Forest. Métodos de conjunto como a Random Forest usam vários algoritmos de aprendizagem para obter desempenhos preditivos melhores dos que poderiam ser obtidos de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest da Personalização automatizada é um método de classificação ou regressão que funciona por meio da construção de várias de árvores de decisão durante o treinamento.
 
@@ -20,7 +20,7 @@ Quando você pensa em estatísticas, um único modelo de regressão usado para p
 
 O algoritmo Random Forest é a chave subjacente ao algoritmo de personalização usado nas atividades de Personalização automatizada e Direcionamento automático. A Random Forest combina centenas de árvores de decisões para chegar a uma melhor previsão do que uma única árvore poderia fazer sozinha.
 
-## O que é uma Árvore de decisão? {#section_7F5865D8064447F4856FED426243FDAC}
+## O que é uma árvore decisória? {#section_7F5865D8064447F4856FED426243FDAC}
 
 O objetivo de uma árvore de decisão é decompor todos os dados de visita disponíveis que um sistema pode aprender e, em seguida, agrupar esses dados, onde as visitas dentro de cada grupo são tão semelhantes quanto possível umas às outras em relação à métrica de meta. Nos grupos, no entanto, as visitas são tão diferentes quanto possível, com relação à métrica de meta (por exemplo, taxa de conversão). A árvore de decisão analisa as diferentes variáveis que possui no conjunto de treinamento para determinar como dividir os dados em um modo MECE (Mutualmente-Exclusivo-Coletivamente-Exaustivo) nesses grupos (ou &quot;folhas&quot;) para maximizar esse objetivo.
 
@@ -43,11 +43,11 @@ Nosso exemplo resultaria na árvore abaixo:
 
 ![](assets/decsion_tree_2.png)
 
-## Como as Árvores de decisão são usadas pelo Random Forest?   {#section_536C105EF9F540C096D60450CAC6F627}
+## Como as árvores de decisão são usadas pela Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Árvores de decisão podem ser uma poderosa ferramenta estatística. No entanto, elas têm algumas desvantagens. Mais criticamente, elas podem &quot;encaixar&quot; os dados de modo que uma árvore individual mal possa prever os dados futuros que não foram usados para construir a árvore inicial. Este desafio é conhecido como [compensação de viés-variância](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) na aprendizagem estatística. Random forests ajudam a superar esse desafio de superajuste. No nível mais alto, uma random forest é uma coleção de árvores de decisão que são construídas de forma ligeiramente diferente no mesmo conjunto de dados que &quot;votam&quot; juntos para produzir um modelo melhor que uma árvore individual. As árvores são construídas aleatoriamente selecionando um subconjunto de registros de visitas com substituição (conhecida como embalagem), bem como selecionando aleatoriamente um subconjunto dos atributos, de modo que a floresta consista em árvores de decisão ligeiramente diferentes. Este método introduz pequenas variações nas árvores criadas na Random forest. Adicionar essa quantidade controlada de variação ajuda a melhorar a precisão da previsão do algoritmo.
 
-## Como os algoritmos de personalização do Target usam a Random Forest?   {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Como os algoritmos de personalização do Público alvo usam Floresta Aleatória? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Como são construídos os modelos**
 
@@ -78,7 +78,7 @@ As transformações de recurso dependem do tipo de atributo. Principalmente, exi
 
 Para recursos categóricos, um conjunto de todos os recursos possíveis é mantido e a transformação de probabilidade é usada para reduzir o tamanho dos dados. Para recursos numéricos, o redimensionamento assegura que os recursos sejam equivalentes no quadro.
 
-**Equilíbrio de Aprendizagem versus Personalização com o Multi-Armed Bandit**.
+**Equilibrar aprendizagem vs. personalização com o Multi-Armed Bandit**
 
 Depois que o Target tiver modelos de personalização criados para personalizar seu tráfego, haverá uma compensação clara para os futuros visitantes de sua atividade: você deve personalizar todo o tráfego com base no modelo atual ou continuar aprendendo com novos visitantes apresentado-lhes ofertas aleatórias? Você quer ter certeza de que o algoritmo de personalização está sempre aprendendo sobre novas tendências em seus visitantes, enquanto personaliza a maior parte do tráfego.
 
