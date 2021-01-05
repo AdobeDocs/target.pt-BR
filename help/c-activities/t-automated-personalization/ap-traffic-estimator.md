@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: O Estimador de tráfego fornece feedback que informa se você tem tráfego suficiente para que sua atividade Adobe Target tenha sucesso.
 title: Estimativa de tráfego exigido para o sucesso
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 27%
@@ -12,7 +12,7 @@ ht-degree: 27%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Estimativa do tráfego necessário para o sucesso{#estimate-the-traffic-required-for-success}
+# ![PREMIUM](/help/assets/premium.png) Estimativa do tráfego necessário para o sucesso
 
 O [!UICONTROL Estimador de Tráfego] fornece feedback que permite saber se você tem tráfego suficiente para que sua atividade [!DNL Adobe Target] tenha êxito.
 
