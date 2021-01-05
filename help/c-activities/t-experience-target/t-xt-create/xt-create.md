@@ -1,9 +1,10 @@
 ---
+keywords: Experience Targeting;xt;create
 description: Use o Visual Experience Composer para criar uma atividade de Direcionamento de experiência (XT) em uma página habilitada pelo Target e modificar partes da página no Adobe Target.
 title: Criar uma atividade de direcionamento de experiência
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
