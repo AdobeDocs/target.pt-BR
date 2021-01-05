@@ -4,10 +4,10 @@ description: Você pode exibir valores de perfil e informações de atividade di
 title: Envio de dados dinâmicos em ofertas
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Como preferências específicas do usuário, comportamentos, status, etc. podem 
 
 Os valores a seguir podem ser &quot;substituídos por token&quot;:
 
-| Valores | Exemplos |
+| Valor | Exemplos |
 |--- |--- |
 | Parâmetros do perfil da in-mbox | `${profile.age}` |
 | Parâmetros do perfil de script | `${user.lifetimeSpend}` |
@@ -57,7 +57,7 @@ Em parâmetros de perfil passados para uma mbox, use a sintaxe: `${profile.param
 
 `${user.parameter}`
 
-Ao usar atributos dinâmicos em um design do Recommendations, você deve inserir uma barra invertida (&#39;\&#39;) antes do cifrão (&#39;$&#39;) para que o valor dinâmico seja renderizado adequadamente: `\${user.endpoint.lastViewedEntity}`
+Ao usar atributos dinâmicos em um design do Recommendations, você deve inserir uma barra invertida ( \ ) antes do cifrão ( $ ) para que o valor dinâmico seja renderizado corretamente: `\${user.endpoint.lastViewedEntity}`
 
 Essas variáveis são substituídas pelo valor no lado do servidor. Não há necessidade de aspas ou JavaScript para a exibição correta.
 
