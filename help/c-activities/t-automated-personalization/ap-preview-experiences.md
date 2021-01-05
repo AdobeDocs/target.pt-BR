@@ -1,22 +1,22 @@
 ---
-keywords: Recommendations
+keywords: Automated Personalization;ap;preview;exclude experience;
 description: Como uma atividade de personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
 title: Visualizar experiências para uma atividade de personalização automatizada (AP) no Adobe Target Visual Experience Composer
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Visualizar experiências para Personalização automatizada no Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Como uma atividade de personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
+Como uma atividade [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) compara várias ofertas em uma página, é útil pré-visualização a página com cada experiência.
 
-1. No Visual Experience Composer, clique em **[!UICONTROL Visualizar]**.
+1. No [!UICONTROL Visual Experience Composer] (VEC), clique em **[!UICONTROL Pré-visualização]**.
 
    ![Ícone Visualizar](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -30,7 +30,7 @@ Como uma atividade de personalização automatizada (AP) compara várias ofertas
 
    ![Ícone Excluir](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   A caixa de diálogo Gerenciar conteúdo será exibida.
+   A caixa de diálogo [!UICONTROL Gerenciar conteúdo] é exibida.
 
    ![Caixa de diálogo Gerenciar conteúdo](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
@@ -38,9 +38,9 @@ Como uma atividade de personalização automatizada (AP) compara várias ofertas
 
    Para excluir uma experiência, passe o mouse sobre a experiência e clique no ícone **[!UICONTROL Excluir]**.
 
-   Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL Excluir]** na parte superior direita da lista.
+   Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL Excluir]** no canto superior direito da lista.
 
-   Por padrão, todas as experiências são incluídas na atividade de Personalização automatizada. Para incluir uma experiência que foi excluída, passe o mouse sobre a experiência e clique no ícone **[!UICONTROL Incluir]**.
+   Por padrão, todas as experiências são incluídas na atividade [!UICONTROL Automated Personalization]. Para incluir uma experiência que foi excluída, passe o mouse sobre a experiência e clique no ícone **[!UICONTROL Incluir]**.
 
    Para incluir várias experiências que foram excluídas, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL Incluir]** na parte superior direita da lista.
 
