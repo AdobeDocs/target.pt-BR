@@ -2,9 +2,9 @@
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: Informações sobre como visitantes podem alternar entre experiências em uma atividade de Direcionamento de experiência (XT) conforme seus perfis evoluem.
 title: Troca de experiências no Direcionamento de experiência
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Troca de experiências no Direcionamento de experiência{#switching-experiences-in-experience-targeting}
+# Troca de experiências no Direcionamento de experiência
 
 Informações sobre como visitantes podem alternar entre experiências em uma atividade de Direcionamento de experiência (XT) conforme seus perfis evoluem.
 
