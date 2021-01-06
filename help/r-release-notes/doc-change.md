@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3248'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,8 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 4 de janeiro de 2021 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Alterada a data em que o Público alvo não oferecerá mais suporte ao mbox.js de 18 de janeiro de 2021 para 31 de março de 2021. |
+| Janeiro de 6 | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações e informações de registro para o seguinte webinar ao vivo:<ul><li>Personalização bem-sucedida em escala: Principais descobertas das Plataformas Forrester Wave e de Otimização de Experiência.</li></ul> |
+| Janeiro 4 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Alterada a data em que o Público alvo não oferecerá mais suporte ao mbox.js de 18 de janeiro de 2021 para 31 de março de 2021. |
 | 18 de dezembro | [Teste A/A](/help/c-activities/t-test-ab/aa-testing.md) | Novo tópico. |
 | 17 de dezembro | [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Tabela atualizada para indicar que o Java SDK suporta A4T. |
 | 16 de dezembro | [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;O que acontece se eu remover uma única experiência de uma atividade de Público alvo automático?&quot; |
