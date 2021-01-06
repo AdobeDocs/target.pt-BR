@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events
+keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
 description: Informações sobre eventos futuros, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 title: Anúncios de públicos alvos
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
+source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 
 Anúncios e informações sobre os próximos eventos, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 
+## Reconhecimento para Adobe Target
+
+A Adobe Target foi recentemente reconhecida pela Forrester e pela Gartner como líder de mercado.
+
 | Serviço de investigação | Detalhes |
 | --- | --- |
-| Forrester | Adobe nomeou um líder no relatório Forrester wave para plataformas de otimização de experiência.<br>Adobe foi nomeado Líder na Onda Forrester: Plataformas de otimização de experiência, relatório do quarto trimestre de 2020 para sua oferta neste espaço, Adobe Target Premium. A Adobe recebeu a maior pontuação de todos os fornecedores participantes nas categorias atuais de presença e oferta, bem como nos critérios de experiência da plataforma e recomendações. O Público alvo Premium também recebeu a maior pontuação possível na inovação da técnica de otimização de experiência e nos critérios de serviços de suporte. O relatório baseia-se numa avaliação exaustiva de 10 fornecedores de plataformas de otimização de experiências em 22 critérios.<br>Leia sobre isso no  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
-| Gartner | Adobe novamente nomeado Líder no Gartner Magic Quadrant para mecanismos de personalização.<br>Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução.<br>[Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+| Forrester | **Adobe nomeou um líder no relatório Forrester wave para plataformas de otimização de experiência.**<br> Adobe foi nomeado Líder na Onda Forrester: Plataformas de otimização de experiência, relatório do quarto trimestre de 2020 para sua oferta neste espaço, Adobe Target Premium. A Adobe recebeu a maior pontuação de todos os fornecedores participantes nas categorias atuais de presença e oferta, bem como nos critérios de experiência da plataforma e recomendações. O Público alvo Premium também recebeu a maior pontuação possível na inovação da técnica de otimização de experiência e nos critérios de serviços de suporte. O relatório baseia-se numa avaliação exaustiva de 10 fornecedores de plataformas de otimização de experiências em 22 critérios.<br>Leia sobre isso no  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | **Adobe novamente nomeado Líder no Gartner Magic Quadrant para mecanismos de personalização.**<br> Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução.<br>[Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## Webinar: Personalização bem-sucedida em escala: Principais descobertas das Plataformas Forrester Wave e de Otimização de Experiência
 
