@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informações sobre eventos futuros, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
+description: Informações sobre eventos futuros, incluindo sessões do Adobe Target Skill Builder, bate-papos de desenvolvedor, webinars e sessões de pausa de café do Público alvo.
 title: Anúncios de públicos alvos
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Anúncios e eventos do Target
 
-Anúncios e informações sobre os próximos eventos, incluindo sessões do Construtor de habilidades do Público alvo, bate-papos do desenvolvedor, webinars e sessões de pausa de café do Público alvo.
+Anúncios e informações sobre os próximos eventos, incluindo sessões do Adobe Target Skill Builder, bate-papos para desenvolvedores, webinars e sessões de pausa de café de Público alvo.
 
 ## Reconhecimento para Adobe Target
 
