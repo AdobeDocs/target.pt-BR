@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado.
+description: O URL da Atividade determina a página que é usada no teste e que é aberta quando o teste é projetado usando o Adobe Target.
 title: URL da atividade
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '296'
+ht-degree: 78%
 
 ---
 
 
-# URL da atividade{#activity-url}
+# URL da atividade
 
-O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado.
+O URL da Atividade determina a página que é usada no teste e que é aberta quando o teste é projetado usando o Adobe Target.
 
 Quando solicitado durante a criação da atividade, especifique o URL da atividade. Digite o URL completo (incluindo `https://`) e clique em **[!UICONTROL Criar]**.
 
