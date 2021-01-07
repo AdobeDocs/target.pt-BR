@@ -1,20 +1,20 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
+description: Você pode público alvo versões da mesma experiência para audiências diferentes no Adobe Target A/B atividade. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 title: Múltiplas versões de uma experiência em um teste A/B
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 94%
 
 ---
 
 
-# Vários públicos-alvo de uma experiência em um Teste A/B{#multiple-experience-versions-in-an-a-b-test}
+# Vários públicos-alvo de uma experiência em um Teste A/B
 
-É possível direcionar versões da mesma experiência para públicos-alvo diferentes em atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
+Você pode público alvo versões da mesma experiência para audiências diferentes em [!DNL Adobe Target] atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 
 Usuários podem alternar entre públicos-alvo de experiência conforme seu perfis mudam. Eles não ficam presos na mesma experiência pela duração da atividade.
 
@@ -24,7 +24,7 @@ Sem a habilidade de definir versões de experiência, você teria que definir te
 
 Ao criar versões diferentes de uma experiência, você recebe informações mais precisas sem a necessidade de cálculos manuais e suposições.
 
-**Cenário**
+## Cenário
 
 Você está testando duas experiências, um banner direcionado geograficamente contra um banner genérico. O banner para cada geografia precisa ser diferente, mas o teste geral irá determinar se o geolocalização é melhor do que exibir conteúdo genérico. Se você definir uma experiência separada para cada local, na verdade você estaria medindo o desempenho de cada região contra a outra, em vez de se o geolocalização ajuda a atender suas metas de sucesso quando medidos contra o banner genérico.
 
@@ -48,7 +48,7 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
 
 1. Continue configurando a atividade.
 
-**Práticas recomendadas**
+## Práticas recomendadas
 
 * Escolha públicos-alvo mutualmente exclusivos. Se a atividade foi criada no VEC, se um visitante fizer parte de mais de um público-alvo, o conteúdo para cada público-alvo é exibido, com o conteúdo do último público-alvo na lista exibindo a página.
 * Públicos-alvo de entrada de atividade definidos no diagrama são combinados com os públicos-alvo da experiência usando uma condição E. Para entrar na atividade, um visitante deve fazer parte do público-alvo da atividade e um dos públicos-alvo da experiência.
