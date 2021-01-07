@@ -2,11 +2,11 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: lista de permissões nós de borda do Adobe Target
 title: lista de permissões nós de borda do Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Nós de borda permitidos no Target
 
-Informações e uma lista atualizada de hosts para ajudá-lo a lista de permissões as bordas Adobe [!DNL Target].
+Informações e uma lista atualizada de hosts para ajudá-lo a lista de permissões as bordas [!DNL Adobe Target].
 
 Uma borda é uma arquitetura de serviço distribuída geograficamente que garante tempos de resposta ideais para usuários finais que solicitem conteúdo, independentemente de onde estejam localizados no mundo inteiro. Cada nó de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o nó de borda mais próximo. Para obter mais informações, consulte [A rede de borda](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) em *Como o Adobe [!DNL Target] funciona*.
 
