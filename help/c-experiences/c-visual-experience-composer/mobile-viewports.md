@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: Os visores móveis ajudam você a pré-visualização de como suas atividades Adobe Target aparecem em telas de vários tamanhos.
 title: Visualizações móveis para experiências responsivas
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 69%
@@ -12,9 +12,9 @@ ht-degree: 69%
 ---
 
 
-# Visualizações móveis para experiências responsivas{#mobile-viewports-for-responsive-experiences}
+# Visualizações móveis para experiências responsivas
 
-Os visores móveis ajudam você a pré-visualização de como suas atividades [!DNL Target] aparecem em telas de vários tamanhos.
+Os visores móveis ajudam você a pré-visualização de como suas atividades [!DNL Adobe Target] aparecem em telas de vários tamanhos.
 
 O recurso de pré-visualização do visor móvel foi projetado para sites responsivos que são bem renderizados em vários dispositivos, janelas ou tamanhos de tela. Sites responsivos ajustam-se e adaptam-se automaticamente a qualquer tamanho de tela, incluindo desktops, laptops, tablets ou telefones celulares.
 
