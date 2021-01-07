@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: É possível adicionar itens à lista de Ofertas de imagem.
+description: Você pode adicionar itens à lista Ofertas de imagem no Adobe Target.
 title: Upload de conteúdo
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 91%
+source-wordcount: '111'
+ht-degree: 68%
 
 ---
 
 
-# Upload de conteúdo{#upload-content}
+# Upload de conteúdo
 
-É possível adicionar ou remover itens da lista de Ofertas de imagem.
+Você pode adicionar ou remover itens da lista Ofertas de imagem em [!DNL Adobe Target].
 
 1. Clique em **[!UICONTROL Ofertas]** e selecione a guia **[!UICONTROL Ofertas de imagem]**.
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Arquivos]**.
