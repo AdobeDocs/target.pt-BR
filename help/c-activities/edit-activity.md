@@ -1,20 +1,20 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: Informações sobre as diferentes maneiras de editar uma atividade existente, incluindo como salvar uma atividade no formato de rascunho.
+description: Informações sobre as diferentes maneiras de editar uma atividade existente no Adobe Target, incluindo salvar uma atividade no formulário de rascunho.
 title: Editar uma atividade ou Salvar como rascunho
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 96%
 
 ---
 
 
-# Editar uma atividade ou Salvar como rascunho{#edit-an-activity-or-save-as-draft}
+# Editar uma atividade ou Salvar como rascunho
 
-Informações sobre as diferentes maneiras de editar uma atividade existente, incluindo como salvar uma atividade no formato de rascunho.
+Informações sobre as diferentes maneiras de editar uma atividade existente em [!DNL Adobe Target], incluindo salvar uma atividade no formulário de rascunho.
 
 O destino fornece vários locais na IU onde você pode editar atividades existentes. Esse processo varia conforme o método escolhido por você.
 
