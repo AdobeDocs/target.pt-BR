@@ -2,9 +2,9 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: O diagrama de sistema do Adobe Target que mostra o fluxo de chamadas e informações enviadas ou coletadas para uma mbox global criada automaticamente usando a at.js.
 title: Como a biblioteca JavaScript do Adobe Target at.js funciona
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -12,7 +12,7 @@ ht-degree: 88%
 ---
 
 
-# Como a at.js funciona{#how-at-js-works}
+# Como a at.js funciona
 
 Para implementar [!DNL Adobe Target] no cliente, você deve usar a biblioteca JavaScript at.js.
 
@@ -60,7 +60,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 | --- | --- |
 | 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
-| 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
+| 3 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
 | 5 | Os dados do Analytics são enviados aos Servidores de coleta de dados. |
 | 6 | Os dados do Target são correspondidos aos dados do Analytics pela SDID, e processados no armazenamento de relatório do Analytics. Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do A4T. |
