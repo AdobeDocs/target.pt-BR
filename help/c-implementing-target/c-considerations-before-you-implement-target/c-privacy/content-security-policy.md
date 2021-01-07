@@ -2,11 +2,11 @@
 keywords: content security policy;csp;at.js;whitelist;allowlist;flicker;pre-hide;pre-hiding;prehiding
 description: Informações sobre diretivas de Política de segurança de conteúdo (CSP) que devem ser adicionadas ao usar o Adobe Target at.js 2.1 ou posterior.
 title: Políticas de segurança de conteúdo (CSP)
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '85'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Diretivas da Política de segurança de conteúdo (CSP)
 
-Se você estiver usando [Política de segurança de conteúdo](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) para sua implementação de Público alvo, adicione as seguintes diretivas CSP ao usar [at.js 2.1 ou posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
+Se você estiver usando [Política de segurança de conteúdo](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) para sua implementação [!DNL Adobe Target], adicione as seguintes diretivas CSP ao usar [at.js 2.1 ou posterior](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
 
 * `connect-src` com  `*.tt.omtrdc.net` incluir na lista de permissões. Necessário para permitir a solicitação de rede para a borda [!DNL Target].
 * `style-src unsafe-inline`. Necessário para pré-ocultação e controle de oscilação.
