@@ -1,13 +1,13 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: Um teste A/B bem-sucedido requer um número adequado de visitantes (tamanho da amostra) para melhorar o índice de conversão, mas como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre a Autoalocação de atividades e a Calculadora de tamanho de amostra da Adobe Target para ajudá-lo a garantir que sua atividade tenha um número suficiente de visitantes para atingir suas metas.
+description: Um teste A/B bem-sucedido no Adobe Target requer um número adequado de visitantes (tamanho da amostra) para melhorar sua taxa de conversão, mas como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre a Autoalocação de atividades e a Calculadora de tamanho de amostra da Adobe Target para ajudá-lo a garantir que sua atividade tenha um número suficiente de visitantes para atingir suas metas.
 title: Por quanto tempo você deve executar um teste A/B?
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3102'
-ht-degree: 75%
+source-wordcount: '3105'
+ht-degree: 74%
 
 ---
 
