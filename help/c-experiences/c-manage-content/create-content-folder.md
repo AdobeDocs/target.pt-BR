@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Crie uma pasta para armazenar itens na biblioteca de ofertas.
+description: Crie uma pasta para armazenar itens na biblioteca do Oferta no Adobe Target.
 title: Criar uma pasta de ofertas
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# Criar uma pasta de ofertas{#create-offer-folder}
+# Criar uma pasta de ofertas
 
-Crie uma pasta para armazenar itens na biblioteca de ofertas.
+Crie uma pasta para armazenar itens na biblioteca do Oferta no Adobe Target.
 
 1. Clique em **[!UICONTROL Ofertas]** e selecione a guia **[!UICONTROL Ofertas de código]** ou **[!UICONTROL Ofertas de imagem]**, conforme apropriado.
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Pasta]**.
