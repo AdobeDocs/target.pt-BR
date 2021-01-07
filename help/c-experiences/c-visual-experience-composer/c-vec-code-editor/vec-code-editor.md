@@ -1,20 +1,20 @@
 ---
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: Informações sobre a página de Modificações que permite visualizar e adicionar modificações na página (Seletor CSS, Mbox e Código personalizado).
+description: Informações sobre a página Modificações no Adobe Target que permite visualização modificações em sua página e adição de modificações adicionais (Seletor de CSS, Mbox e Código personalizado).
 title: Modificações
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2107'
+ht-degree: 97%
 
 ---
 
 
 # Modificações{#modifications}
 
-Informações sobre a página de Modificações que permite visualizar e adicionar modificações na página (Seletor CSS, Mbox e Código personalizado).
+Informações sobre a página Modificações em [!DNL Adobe Target], que permite que você visualização modificações na sua página e adicione modificações adicionais (Seletor de CSS, Mbox e Código personalizado).
 
 A página de Modificações mostra todas as alterações feitas em sua página no Visual Experience Composer (VEC) e permite que você faça alterações adicionais clicando em cada elemento da página e  [selecionando uma ação](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Cada alteração feita aparece como uma ação ou elemento separado na lista de [!UICONTROL Modificações]. Além disso, é possível adicionar modificações, incluindo os seguintes tipos de modificação: Seletor CSS, Mbox. e Código personalizado.
 
