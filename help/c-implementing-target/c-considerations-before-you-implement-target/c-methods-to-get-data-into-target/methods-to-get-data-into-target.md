@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: Informações sobre os vários métodos que você pode usar para inserir dados no Target, incluindo parâmetros de página, atributos de perfil na página, atributos de script de perfil, provedores de dados, a API de atualização de perfil em massa, a API de atualização de perfil único e atributos do cliente.
+description: Informações sobre os vários métodos que você pode usar para inserir dados no Adobe Target, incluindo parâmetros de página, atributos de perfil na página, atributos de perfil de script, provedores de dados, API de atualização de perfil em massa, API de atualização de perfil único e Atributos do cliente.
 title: Métodos para colocar os dados no Target
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
 
-# Métodos para colocar os dados no Target{#methods-to-get-data-into-target}
+# Métodos para colocar os dados no Target
 
-Informações sobre os diferentes métodos que você pode usar para inserir dados no Target, incluindo parâmetros de página, atributos de perfil na página, atributos de perfil de script, provedores de dados, a API de atualização de perfil em massa, a API de atualização de perfil único e atributos do cliente.
+Informações sobre os diferentes métodos que você pode usar para inserir dados em [!DNL Adobe Target], incluindo parâmetros de página, atributos de perfil na página, atributos de perfil de script, provedores de dados, API de atualização de perfil em massa, API de atualização de perfil único e Atributos do cliente.
 
 ## Parâmetros da página (também denominados &quot;parâmetros de mbox&quot;) {#section_5A297816173C4FE48DC4FE03860CB42B}
 
