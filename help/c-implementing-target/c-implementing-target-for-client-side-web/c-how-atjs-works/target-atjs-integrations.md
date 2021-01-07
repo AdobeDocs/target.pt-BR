@@ -2,9 +2,9 @@
 keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
 description: Informações sobre integrações comuns com o Target e seu status de suporte com a at.js.
 title: Integrações da at.js
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 91%
