@@ -1,19 +1,20 @@
 ---
-description: As atividades do Recommendations exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+keywords: recommendations
+description: O Recommendations atividade no Adobe Target exibe automaticamente produtos ou conteúdo que podem interessar aos seus clientes com base na atividade do usuário anterior ou em outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 title: Atividade do Recommendations
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 47%
 
 ---
 
 
-# Atividade do Recommendations{#recommendations-activity}
+# Atividade do Recommendations
 
-As atividades do Recommendations exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+O Recommendations atividade no Adobe Target exibe automaticamente produtos ou conteúdo que podem interessar aos seus clientes com base na atividade do usuário anterior ou em outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
 >[!NOTE]
 >
