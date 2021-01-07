@@ -2,9 +2,9 @@
 keywords: a/b;a/a;aa;
 description: Antes de executar um teste A/A em seu site usando o Adobe Target, é importante entender o que é um teste A/A, por que você pode querer executar um teste A/A, por quanto tempo deve executar o teste e como interpretar os resultados.
 title: Teste A/A
-feature: A/B tests
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 1%
