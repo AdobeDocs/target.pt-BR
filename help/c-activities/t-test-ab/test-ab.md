@@ -2,9 +2,9 @@
 keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
 description: Uma atividade manual de teste A/B compara duas ou mais versões do conteúdo do site para ver qual versão melhora melhor suas conversões durante um período de teste pré-especificado.
 title: Visão geral do teste A/B
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
