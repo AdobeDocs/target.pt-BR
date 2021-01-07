@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: O log de alterações fornece um registro de quem alterou suas atividades e quais foram as alterações.
 title: Log de alterações de atividade no Adobe Target
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 93%
+source-wordcount: '100'
+ht-degree: 77%
 
 ---
 
 
-# Log de alterações da atividade{#activity-change-log}
+# Log de alterações da atividade
 
-O log de alterações fornece um registro de quem alterou suas atividades e quais foram as alterações.
+O log de alterações em [!DNL Adobe Target] fornece um registro de quem alterou suas atividades e quando as alterações ocorreram.
 
 1. Abra a atividade e clique em **[!UICONTROL Registro de alterações]**.
 
