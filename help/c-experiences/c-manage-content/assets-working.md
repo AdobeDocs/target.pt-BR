@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: É possível realizar várias tarefas em um ativo na biblioteca.
+description: Há várias tarefas que você pode executar em um ativo na biblioteca no Adobe Target.
 title: Trabalhar com conteúdo na biblioteca
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# Trabalhar com conteúdo na biblioteca{#work-with-content-in-the-library}
+# Trabalhar com conteúdo na biblioteca
 
-Informações sobre as tarefas que você pode executar em um ativo na Biblioteca de conteúdo.
+Informações sobre as tarefas que você pode executar em um ativo na Biblioteca de conteúdo em [!DNL Adobe Target].
 
 1. Clique em **[!UICONTROL Oferta]**, selecione a guia **[!UICONTROL Oferta de código]** ou **[!UICONTROL Oferta de imagem]** e localize o ativo com o qual deseja trabalhar.
 
