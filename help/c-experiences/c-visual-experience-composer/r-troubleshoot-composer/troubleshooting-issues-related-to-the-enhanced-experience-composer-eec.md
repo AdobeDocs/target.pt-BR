@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Problemas de exibição às vezes ocorrem no Enhanced Experience Composer (EEC), sob certas condições.
+description: Às vezes, problemas de exibição ocorrem no Adobe Target Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Solução de problemas relacionados ao Enhanced Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 71%
+source-wordcount: '432'
+ht-degree: 63%
 
 ---
 
 
-# Solução de problemas relacionados ao Enhanced Experience Composer{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# Solução de problemas relacionados ao Enhanced Experience Composer
 
-Problemas de exibição às vezes ocorrem no Enhanced Experience Composer (EEC), sob certas condições.
+Às vezes, problemas de exibição ocorrem em [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
 
 ## O EEC não carregará um URL interno de controle de qualidade que não esteja acessível no IP público. (Somente EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
 
