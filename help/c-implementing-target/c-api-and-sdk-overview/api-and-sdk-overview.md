@@ -4,7 +4,7 @@ description: Informações sobre APIs de delivery do lado do servidor, SDKs e AP
 title: Informações sobre APIs de delivery do lado do servidor da Adobe Target, SDK do Node.js e APIs Recommendations do Público alvo.
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# Lado do servidor: implementação do Target{#server-side-implement-target}
+# Lado do servidor: implementação do Target
 
 Informações sobre [!DNL Adobe Target] APIs de delivery do lado do servidor, SDKs e [!DNL Target Recommendations] APIs.
 
