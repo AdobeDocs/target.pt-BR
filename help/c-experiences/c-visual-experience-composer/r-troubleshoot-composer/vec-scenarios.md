@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: Os cenários neste tópico mostram como as alterações feitas a sua página afetam a exibição de uma experiência no Target.
+description: Os cenários neste tópico mostram como as alterações feitas na sua página afetam a capacidade de Adobe Target uma experiência da.
 title: Cenários de modificação da página
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
 
-# Cenários de modificação da página {#page-modification-scenarios}
+# Cenários de modificação da página
 
-Os cenários neste tópico mostram como as alterações feitas a sua página afetam a exibição de uma experiência no Target.
+Os cenários neste tópico mostram como as alterações feitas na sua página afetam a capacidade de Adobe Target uma experiência da.
 
 O seletor do Target determina onde exibir uma experiência. Se uma página for modificada fora do Target, as alterações poderão afetar a capacidade de o Target exibir a experiência.
 
