@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
+description: A página Metas e configurações no Adobe Target é onde você insere informações sobre as metas do teste.
 title: Metas e Configurações
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 96%
+source-wordcount: '1264'
+ht-degree: 93%
 
 ---
 
 
-# Metas e Configurações {#goals-and-settings}
+# Metas e Configurações
 
-A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
+A página Metas e configurações em [!DNL Adobe Target] é onde você insere informações sobre as metas do teste.
 
 As configurações disponíveis dependem se você usa o Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) como a fonte de dados.
 
