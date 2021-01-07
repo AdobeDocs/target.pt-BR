@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: Exclua os cookies do navegador do Target para que você possa validar todas as suas experiências.
 title: Excluir o cookie Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 9%
@@ -11,9 +12,9 @@ ht-degree: 9%
 ---
 
 
-# Excluir o cookie do Target{#delete-the-target-cookie}
+# Excluir o cookie do Target
 
-Você pode excluir seu cookie do navegador [!DNL Target] (mbox) para que possa validar todas as suas experiências durante os testes.
+Você pode excluir seu cookie do navegador [!DNL Adobe Target] (mbox) para que possa validar todas as suas experiências durante os testes.
 
 Se não houver cookie [!DNL Target] (mbox), você será considerado um novo visitante e uma nova experiência será exibida. Existem várias formas de excluir o seu da mbox sem excluir todos os cookies do seu navegador.
 
