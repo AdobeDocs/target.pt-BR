@@ -2,9 +2,9 @@
 keywords: Experience Targeting;Landing Page Test
 description: Um seletor de elemento é uma expressão CSS que pode identificar um ou mais elementos.
 title: Seletores de elementos usados no Visual Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -12,7 +12,7 @@ ht-degree: 90%
 ---
 
 
-# Seletores de elementos usados no Visual Experience Composer{#element-selectors-used-in-the-visual-experience-composer}
+# Seletores de elementos usados no Visual Experience Composer
 
 Um seletor de elemento é uma expressão CSS que pode identificar um ou mais elementos.
 
