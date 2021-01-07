@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Use as ofertas remotas para hospedar conteúdo fora do Target que o Target faz referência e entrega aos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
+description: Use ofertas remotas para hospedar conteúdo fora do Adobe Target que o Público alvo faz referência e entrega nos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
 title: Criar ofertas remotas
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
 
-# Criar ofertas remotas{#create-remote-offers}
+# Criar ofertas remotas
 
-Use as ofertas remotas para hospedar conteúdo fora do Target que o Target faz referência e entrega aos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
+Use ofertas remotas, que o [!DNL Adobe Target] faz referência e entrega ao sites do usuários, para hospedar conteúdo fora do Target. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
 
 >[!NOTE]
 >
