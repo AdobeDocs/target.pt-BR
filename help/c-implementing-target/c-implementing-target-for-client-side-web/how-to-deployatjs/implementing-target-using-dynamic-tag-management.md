@@ -2,9 +2,9 @@
 keywords: implement;implementing;implementation;tag manager;dtm;at.js;dynamic tag management
 description: O Adobe Dynamic Tag Management (DTM) é o gerenciador de tags herdado da Adobe.
 title: Implementar o Target usando o Dynamic Tag Management (DTM)
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 92%
