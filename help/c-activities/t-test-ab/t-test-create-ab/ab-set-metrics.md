@@ -1,21 +1,20 @@
 ---
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Use métricas em uma atividade A/B para determinar quando uma visita é bem-sucedida.
+description: Use métricas em uma atividade A/B da Adobe Target para determinar quando uma visita é bem-sucedida.
 title: Definir métricas
-feature: ab
-solution: Target
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 99%
+source-wordcount: '314'
+ht-degree: 89%
 
 ---
 
 
-# Definir métricas{#set-metrics}
+# Definir métricas
 
-Use métricas em uma atividade A/B para determinar quando uma visita é bem-sucedida.
+Use métricas em uma atividade [!DNL Adobe Target] A/B para determinar quando uma visita é bem-sucedida.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
