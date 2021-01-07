@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve nove das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B no Adobe Target. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
+description: O teste A/B na Adobe Target é a espinha dorsal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferta de experiências otimizadas e direcionadas para seus visitantes e clientes. Esta seção descreve nove das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B no Adobe Target. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 title: Nove erros comuns em testes A/B e como evitá-los
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
-ht-degree: 88%
+source-wordcount: '3922'
+ht-degree: 87%
 
 ---
 
 
-# Dez erros comuns em testes A/B e como evitá-los{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Dez erros comuns em testes A/B e como evitá-los
 
-Os formulários de teste A/B são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecerem experiências otimizadas e direcionadas aos seus visitantes e clientes. Esta seção descreve dez das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
+O teste A/B em [!DNL Adobe Target] forma a espinha dorsal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferta de experiências otimizadas e direcionadas para seus visitantes e clientes. Esta seção descreve dez das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 
 ## Passo 1: Ignorando os efeitos do nível de significância {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
