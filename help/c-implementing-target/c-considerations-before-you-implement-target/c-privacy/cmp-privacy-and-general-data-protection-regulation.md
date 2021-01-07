@@ -2,19 +2,19 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informações sobre o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia, a California Consumer Privacy Act (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
 title: Privacidade e regulamentos sobre proteção de dados
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2248'
 ht-degree: 93%
 
 ---
 
 
-# Privacidade e regulamentos sobre proteção de dados {#privacy-and-general-data-protection-regulation-gdpr}
+# Privacidade e regulamentos sobre proteção de dados
 
-Informações sobre o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia, a California Consumer Privacy Act (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o Adobe Target.
+Informações sobre o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia, a California Consumer Privacy Act (CCPA) e outros requisitos de privacidade internacionais e como esses regulamentos afetam sua organização e o [!DNL Adobe Target].
 
 ## Visão geral de Privacidade e Regulamento Geral sobre a Proteção de Dados (GDPR) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
