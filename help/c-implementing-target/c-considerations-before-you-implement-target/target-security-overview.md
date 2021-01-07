@@ -2,11 +2,11 @@
 keywords: security;security practices
 description: Informações sobre a abordagem detalhada e os procedimentos de segurança implementados pela Adobe para reforçar a segurança de seus dados e a experiência do Adobe Target.
 title: Visão geral da segurança no Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '154'
 ht-degree: 92%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # Target visão geral de segurança
 
-Informações sobre a abordagem detalhada e os procedimentos de segurança implementados pela Adobe para reforçar a segurança de seus dados e a experiência do Adobe Target.
+Informações sobre a abordagem detalhada e os procedimentos de segurança implementados pela [!DNL Adobe] para reforçar a segurança de seus dados e a experiência do [!DNL Adobe Target].
 
 Na Adobe, levamos a segurança de sua experiência digital muito a sério. As práticas de segurança estão profundamente enraizadas em nossos processos e ferramentas internas de desenvolvimento e operações de software e são rigorosamente seguidas por nossas equipes multifuncionais para prevenir, detectar e responder a incidentes de maneira conveniente.
 
