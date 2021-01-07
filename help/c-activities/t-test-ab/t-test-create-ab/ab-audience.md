@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: O público-alvo determina quais visitantes do site são inseridos na atividade.
+description: A audiência determina quais visitantes do site são inseridos na atividade do Adobe Target.
 title: Seleção do público-alvo
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# Seleção do público-alvo{#select-audience}
+# Seleção do público-alvo
 
-O público-alvo determina quais visitantes do site são inseridos na atividade.
+A audiência determina quais visitantes do site são inseridos na atividade [!DNL Adobe Target].
 
 >[!NOTE]
 >
