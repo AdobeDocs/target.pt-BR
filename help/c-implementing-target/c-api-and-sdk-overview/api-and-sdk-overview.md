@@ -2,9 +2,9 @@
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Informações sobre APIs de delivery do lado do servidor, SDKs e APIs de Recommendations de Públicos alvos.
 title: Informações sobre APIs de delivery do lado do servidor da Adobe Target, SDK do Node.js e APIs Recommendations do Público alvo.
-feature: server-side
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
