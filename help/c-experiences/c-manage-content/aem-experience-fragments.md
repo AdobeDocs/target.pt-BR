@@ -2,9 +2,9 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: Informações sobre como usar fragmentos de experiência criados no Adobe Experience Manager (AEM) no Adobe Target atividade para ajudar na otimização ou personalização.
 title: Fragmentos de experiência do Adobe Experience Manager (AEM) no Adobe Target
-feature: aem
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 31%
@@ -12,7 +12,7 @@ ht-degree: 31%
 ---
 
 
-# Fragmentos de experiência do AEM{#aem-experience-fragments}
+# Fragmentos de experiência do AEM
 
 Informações sobre como usar fragmentos de experiência criados em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para ajudar na otimização ou personalização.
 
