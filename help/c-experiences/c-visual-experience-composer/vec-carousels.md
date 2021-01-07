@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
+description: Este tópico mostra como criar um carrossel que pode ser editado no Adobe Target Visual Experience Composer (VEC).
 title: Criar carrosséis que funcionam no Visual Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 74%
 
 ---
 
 
-# Criação de carrosséis aceitos pelo Visual Experience Composer{#creating-carousels-that-work-in-the-visual-experience-composer}
+# Criar carrosséis que funcionam no Visual Experience Composer
 
-Este tópico mostra como criar um carrossel que pode ser editado no Visual Experience Composer (VEC).
+Este tópico mostra como criar um carrossel que pode ser editado no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 
 Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá o &quot;seletor&quot; para o slide correto, mesmo se ele for alterado no Visual Experience Composer após alguns segundos.
 
