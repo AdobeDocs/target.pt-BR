@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3283'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Janeiro de 12 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações de pré-lançamento sobre a versão Target Standard/Premium 21.1.1 (19 de janeiro de 2021). |
 | Janeiro de 11 | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações e informações de registro para a quebra de café de 13 de janeiro da Adobe Target Community Q&amp;A. |
 | Janeiro de 6 | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações e informações de registro para o seguinte webinar ao vivo:<ul><li>Personalização bem-sucedida em escala: Principais descobertas das Plataformas Forrester Wave e de Otimização de Experiência.</li></ul> |
 | Janeiro 4 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Alterada a data em que o Público alvo não oferecerá mais suporte ao mbox.js de 18 de janeiro de 2021 para 31 de março de 2021. |
