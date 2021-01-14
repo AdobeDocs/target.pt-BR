@@ -2,9 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Informações sobre como trabalhar com um campo de vários valores no Adobe Target Recommendations usando operadores especiais de vários valores.
 title: Trabalhar com atributos de vários valores no Adobe Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
