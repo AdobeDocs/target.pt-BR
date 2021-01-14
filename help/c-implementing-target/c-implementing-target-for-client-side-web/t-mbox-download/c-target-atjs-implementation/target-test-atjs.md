@@ -1,17 +1,18 @@
 ---
+keywords: at.js;non-production;non production;deploy
 description: Informações sobre como implementar com segurança a at.js em um ambiente de não-produção.
-title: Implementar a at.js em um ambiente de não-produção
-feature: null
+title: Implantar o at.js em um Ambiente que não seja de produção
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 92%
+source-wordcount: '369'
+ht-degree: 90%
 
 ---
 
 
-# Implantar o at.js em um ambiente que não seja de produção{#deploy-at-js-to-a-non-production-environment}
+# Implantar o at.js em um ambiente que não seja de produção
 
 Informações sobre as técnicas para implantar com segurança o at.js em um ambiente não de produção.
 
