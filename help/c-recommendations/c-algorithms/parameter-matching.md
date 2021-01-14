@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;parameter matching
 description: Filtre dinamicamente no Adobe Target Recommendations comparando itens (entidades) com um valor na solicitação (API ou mbox).
 title: Filtrar por parâmetro Correspondência em regras de inclusão dinâmica no Adobe Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 10%
