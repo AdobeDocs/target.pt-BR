@@ -2,9 +2,9 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informações para usar a at.js 2.x do Adobe Target para implementar Aplicativos de página única (SPAs).
 title: Implementação de aplicativos de página única no Adobe Target
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -12,7 +12,7 @@ ht-degree: 74%
 ---
 
 
-# Implementação do aplicativo de página única{#single-page-application-implementation}
+# Implementação do aplicativo de página única
 
 Os sites tradicionais funcionavam em modelos de navegação de &quot;página para página&quot;, conhecidos como Aplicativos de várias páginas, em que os designs de site eram totalmente combinados com URLs e as transições de uma página da Web para outra exigiam um carregamento de página. Aplicativos da Web modernos, como Aplicativos de página única (SPAs), em vez disso adotam um modelo que impulsiona o uso rápido da renderização da interface do usuário do navegador, que geralmente é independente dos recarregamentos de página. Essas experiências são frequentemente acionadas por interações do cliente, como rolagens, cliques e movimentos de cursor. À medida que os paradigmas da Web moderna evoluíram, a relevância dos eventos genéricos tradicionais, como o carregamento de página, para implantar a personalização e a experimentação não funciona mais.
 
@@ -210,7 +210,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 | --- | --- |
 | 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
-| 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
+| 3 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
 | 5 | Os dados do Analytics são enviados aos Servidores de coleta de dados. |
 | 6 | Os dados do Target são correspondidos aos dados do Analytics pela SDID, e processados no armazenamento de relatório do Analytics. Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do A4T. |
@@ -284,7 +284,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 | --- | --- | --- |
 | 1 | Carregar JS VisitorAPI | Essa biblioteca é responsável por atribuir uma ECID ao visitante. Essa ID é consumida posteriormente por outras [!DNL Adobe] soluções na página da Web. |
 | 2 | Carregar at.js 2.x | O at.js 2.x carrega todas as APIs necessárias que você usa para implementar [!DNL Target] solicitações e visualizações. |
-| 1 | Executar solicitação [!DNL Target] | Se você tiver uma camada de dados, recomendamos que carregue dados críticos que são necessários para enviar para [!DNL Target] antes de executar uma solicitação [!DNL Target]. Isso permite usar `targetPageParams` para enviar todos os dados que você deseja usar para o direcionamento. É necessário garantir que você solicite executar > pageLoad, bem como realizar uma busca prévia > visualizações nesta chamada de API. se você tiver definido `pageLoadEnabled` e `viewsEnabled`, ambas as visualizações execute > pageLoad e prefetch > acontecerão automaticamente com a Etapa 2; caso contrário, é necessário usar a API `getOffers()` para fazer essa solicitação. |
+| 3 | Executar solicitação [!DNL Target] | Se você tiver uma camada de dados, recomendamos que carregue dados críticos que são necessários para enviar para [!DNL Target] antes de executar uma solicitação [!DNL Target]. Isso permite usar `targetPageParams` para enviar todos os dados que você deseja usar para o direcionamento. É necessário garantir que você solicite executar > pageLoad, bem como realizar uma busca prévia > visualizações nesta chamada de API. se você tiver definido `pageLoadEnabled` e `viewsEnabled`, ambas as visualizações execute > pageLoad e prefetch > acontecerão automaticamente com a Etapa 2; caso contrário, é necessário usar a API `getOffers()` para fazer essa solicitação. |
 | 4 | Chama `triggerView()` | Como a solicitação [!DNL Target] que você iniciou na Etapa 3 pode retornar experiências para a execução do Carregamento de página, bem como para o Visualização, verifique se `triggerView()` é chamado depois que a solicitação [!DNL Target] é retornada e termina de aplicar o oferta ao cache. É necessário executar essa etapa apenas uma vez por visualização. |
 | 5 | Chame o sinal de visualização da página [!DNL Analytics] | Esse beacon envia o SDID associado à Etapa 3 e 4 para [!DNL Analytics] para a identificação de dados. |
 | 6 | Chamar mais `triggerView({"page": false})` | Esta é uma etapa opcional para estruturas SPA que poderiam renderizar novamente certos componentes na página sem que uma alteração visualização ocorresse. Em tais ocasiões, é importante que você chame essa API para garantir que as experiências [!DNL Target] sejam reaplicadas depois que a estrutura SPA renderizar novamente os componentes. Você pode executar essa etapa quantas vezes desejar para garantir que [!DNL Target] as experiências persistam nas visualizações SPA. |
@@ -295,7 +295,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 | --- | --- | --- |
 | 1 | Chama `visitor.resetState()` | Essa API garante que o SDID seja gerado novamente para a nova visualização à medida que ela é carregada. |
 | 2 | Atualize o cache chamando a API `getOffers()` | Esta é uma etapa opcional a ser tomada se essa alteração de visualização tiver um potencial para qualificar o visitante atual para mais [!DNL Target] atividades ou desqualificá-las do atividade. Nesse ponto, você também pode optar por enviar dados adicionais para [!DNL Target] para permitir outros recursos de definição de metas. |
-| 1 | Chama `triggerView()` | Se você executou a Etapa 2, aguarde a solicitação [!DNL Target] e aplique as ofertas ao cache antes de executar essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
+| 3 | Chama `triggerView()` | Se você executou a Etapa 2, aguarde a solicitação [!DNL Target] e aplique as ofertas ao cache antes de executar essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
 | 4 | Chama `triggerView()` | Se você não executou a Etapa 2, poderá executar essa etapa assim que concluir a Etapa 1. Se você executou a Etapa 2 e a Etapa 3, ignore essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
 | 5 | Chame o sinal de visualização da página [!DNL Analytics] | Esse beacon envia o SDID associado à Etapa 2, 3 e 4 para [!DNL Analytics] para a identificação de dados. |
 | 6 | Chamar mais `triggerView({"page": false})` | Esta é uma etapa opcional para estruturas SPA que poderiam renderizar novamente certos componentes na página sem que uma alteração visualização ocorresse. Em tais ocasiões, é importante que você chame essa API para garantir que as experiências [!DNL Target] sejam reaplicadas depois que a estrutura SPA renderizar novamente os componentes. Você pode executar essa etapa quantas vezes desejar para garantir que [!DNL Target] as experiências persistam nas visualizações SPA. |
