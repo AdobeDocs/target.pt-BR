@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: Os relatórios incluem vários pontos de dados e representações de visualização que ajudam você a entender os limites de incentivo e o nível de confiança associados à atividade do Adobe Target para ajudar a determinar com mais precisão um vencedor.
 title: Média de aumento, Limites de aumento e Intervalo de confiança
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 73%
