@@ -2,9 +2,9 @@
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
 title: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
@@ -98,7 +98,7 @@ Da esquerda para a direita é uma lista de itens recomendados, neste caso os exi
 
 >[!NOTE]
 >
->Os downloads de resultados não estão disponíveis para atividades que contêm um algoritmo Recommendations[!UICONTROL  baseado em usuário. ] Os downloads de resultados não estão disponíveis para critérios usando a lógica de recomendação [!UICONTROL Itens visualizados recentemente].
+>Os downloads de resultados não estão disponíveis para atividades que contêm um algoritmo Recommendations] baseado em usuário. [!UICONTROL  Os downloads de resultados não estão disponíveis para critérios usando a lógica de recomendação [!UICONTROL Itens visualizados recentemente].
 
 ## Como ativar sua atividade Recommendations
 
