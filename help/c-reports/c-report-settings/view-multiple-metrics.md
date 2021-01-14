@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
 description: Selecione várias métricas para visualização em um relatório usando o Adobe Target.
 title: Visualização de várias métricas em um relatório usando o Adobe Target
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 61%
