@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informações para ajudá-lo a definir os elementos que deseja que apareçam no relatório da Adobe Target. As definições de relatório podem ser salvas para uso posterior.
 title: Configurações do relatório
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
