@@ -4,10 +4,10 @@ description: Notas de versão que fornecem informações sobre recursos, melhori
 title: Notas de pré-lançamento do Adobe Target
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 83612ef2fa8d76f9318b0b9637203fefd82215ee
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 19%
+source-wordcount: '671'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 19%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 12 de janeiro de 2021**
+**Última atualização: 14 de janeiro de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -49,7 +49,6 @@ Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 * Correção de um problema que impedia os usuários de removerem uma audiência de uma oferta em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-39058)
 * Correção de um problema que fazia com que o período incorreto (datas de start e término) fosse exibido nos cartões [!UICONTROL Informações da Audiência] para alguns clientes. (TGT-39150)
 * Correção de um problema que impedia alguns clientes de visualizarem a lista de atividades no [!UICONTROL Espaço de trabalho padrão]. (TGT-38526)
-* Os limites de tamanho para oferta na interface do usuário e API [!DNL Target] foram aumentados para 1 MB. (TGT-38304)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
