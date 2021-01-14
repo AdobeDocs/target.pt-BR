@@ -4,7 +4,7 @@ description: Detalhes sobre as alterações em cada versão do Adobe Target at.j
 title: Detalhes da versão da at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4034'
 ht-degree: 84%
@@ -26,8 +26,8 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 
 Esta versão do at.js é uma versão de manutenção e inclui as seguintes correções:
 
-* Adiciona suporte para ID de perfil/plataforma unificada a customerIds da API de delivery
-* Corrige a injeção de etiqueta de estilo inválida
+* Adiciona suporte para ID de perfil/plataforma unificada às IDs de clientes da API do delivery.
+* Correção de uma injeção de tag de estilo inválida.
 
 ## at.js 2.3.3 (13 de novembro de 2020)
 
