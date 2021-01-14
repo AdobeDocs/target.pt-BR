@@ -4,9 +4,9 @@ description: Essas notas de versão oferecem informações sobre recursos, aprim
 title: 'Notas de versão do Target (atual) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '963'
 ht-degree: 26%
 
 ---
@@ -30,11 +30,12 @@ Embora a mbox.js seja atualmente suportada (até 31 de março de 2021), não for
 
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## at.js 2.3.3 (13 de novembro de 2020)
+## at.js 2.4.0 (14 de janeiro de 2021)
 
-Esta versão do at.js é uma versão de manutenção e inclui a seguinte correção:
+Esta versão do at.js é uma versão de manutenção e inclui as seguintes correções:
 
-* Correção de um problema relacionado ao rastreamento de cliques em mbox e ao A4T.
+* Adiciona suporte para ID de perfil/plataforma unificada a customerIds da API de delivery
+* Corrige a injeção de etiqueta de estilo inválida
 
 ## Target Standard/Premium 20.10.1 (27 de outubro de 2020)
 
