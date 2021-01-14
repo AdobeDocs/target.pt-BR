@@ -2,9 +2,9 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Informações sobre como implementar o Adobe Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
 title: Implementação do Target sem um gerenciador de tags
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
@@ -12,7 +12,7 @@ ht-degree: 70%
 ---
 
 
-# Implementação do Target sem um gerenciador de tags{#implement-target-without-a-tag-manager}
+# Implementação do Target sem um gerenciador de tags
 
 Informações sobre como implementar [!DNL Adobe Target] sem usar um gerenciador de tags ([!DNL Adobe Launch] ou [!DNL Dynamic Tag Manager]).
 
