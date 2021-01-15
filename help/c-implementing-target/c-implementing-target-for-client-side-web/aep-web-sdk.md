@@ -4,9 +4,9 @@ description: O Adobe Experience Platform Web SDK é uma biblioteca JavaScript do
 title: Adobe Experience Platform Web SDK
 feature: AEP Web SDK
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -18,5 +18,5 @@ ht-degree: 0%
 
 Para obter mais informações, consulte os seguintes links na ajuda do *Adobe Experience Platform Web SDK*:
 
-* Para obter informações abrangentes: [O que é o Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+* Para obter informações abrangentes: [O que é o Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * Para obter informações específicas de [!DNL Target]: [Visão Geral do Público alvo](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
