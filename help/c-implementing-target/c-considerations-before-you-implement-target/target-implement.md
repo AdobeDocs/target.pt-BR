@@ -4,10 +4,10 @@ description: Implemente o Adobe Target fazendo referência às bibliotecas de P�
 title: Noções básicas sobre as bibliotecas de JavaScript do Target
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 74%
+source-wordcount: '689'
+ht-degree: 76%
 
 ---
 
@@ -26,7 +26,7 @@ A tabela a seguir explica as diferenças entre as [!DNL Target] bibliotecas Java
 
 | Referência da biblioteca | Descrição |
 |--- |--- |
-| Adobe Experience Platform Web SDK | O [!UICONTROL Adobe Experience Platform Web SDK] permite que você interaja com os vários serviços em [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da Adobe Experience Edge Network. Se você optar por migrar para [!DNL Adobe Experience Platform Web SDK], consulte [O que é Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html), no *Guia do SDK da Web*. Consulte [Visão geral do Público alvo](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) para obter [!DNL Target] informações específicas. |
+| Adobe Experience Platform Web SDK | O [!UICONTROL Adobe Experience Platform Web SDK] permite que você interaja com os vários serviços em [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da Adobe Experience Edge Network. Se você optar por migrar para [!DNL Adobe Experience Platform Web SDK], consulte [O que é Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md), no *Guia do SDK da Web*. |
 | at.js  | O at.js substitui o mbox.js para implementações [!DNL [!DNL Target]].<br>Entre outros benefícios, a at.js melhora os tempos de carregamento de página para implementações da Web, melhora a segurança, evita avisos de document.write no Google Chrome e fornece opções de implementações melhores para aplicativos de página única.<br>Para obter mais informações, consulte [Implementação do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 | mbox.js | Antes do [!DNL Target] 16.3.1 (março de 2016), o [!DNL Target] exigia uma chamada para a mbox.js a fim de criar a mbox global necessária para o [!DNL Target] fornecer atividades, rastrear cliques e a maioria das métricas de sucesso. Esse arquivo contém as bibliotecas necessárias para todas as suas atividades. Você não precisa manter versões específicas de atividades diferentes do arquivo.<br>Se você já tiver mboxes de envolvimento nas suas páginas de um estilo antigo de implementação do [!DNL Target], elas ainda poderão ser usadas na nova interface. O arquivo mbox.js atualizado ainda é necessário, mas essas mboxes podem ser selecionadas para atividades e editadas usando o Visual Experience Composer.<br>[!DNL Target]O Standard e Premium atualizam e complementam a mbox.js com uma referência para um arquivo target.js. O arquivo target.js é hospedado pelo Adobe. O arquivo target.js possibilita a edição de conteúdo em qualquer página que usa o Visual Experience Composer, mesmo que a página não contenha mboxes predefinidas. Você deve mencionar esse arquivo em todas as páginas do site.<br>Para obter mais informações, consulte [Implementação do mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Importante**: Em 31 de março de 2021, não  [!DNL Adobe Target] será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas a partir do mbox.js falharão e afetarão suas páginas que possuem [!DNL Target] atividades sendo executadas com o conteúdo padrão. Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca JavaScript at.js antes dessa data para evitar possíveis problemas com seus sites.<br> |
 
