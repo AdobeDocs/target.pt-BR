@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: As informações sobre os limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
 title: Limites
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '1035'
+ht-degree: 71%
 
 ---
 
 
-# Limites{#limits}
+# Limites
 
-As informações sobre os limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
+As informações sobre os limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ As informações sobre os limites de caracteres e outros limites (tamanho da ofe
 >
 >Quando os limites designados como &quot;recomendados&quot; forem atingidos ou ultrapassados, o desempenho poderá ficar lento. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
 >
->Atividades altamente complexas devem ser analisadas com a Consultoria da Adobe e testadas em um ambiente restrito antes de serem liberadas para produção.
+>Atividades altamente complexas devem ser revisadas com [!DNL Adobe] consultoria e testadas em um ambiente limitado antes de serem liberadas para produção.
 
 ## Atividades
 
@@ -194,9 +194,7 @@ Se estiver usando uma mbox global, o limite será para todo o conjunto de conte�
 
 ## parâmetro productPurchasedId
 
-**Limite**: 47 caracteres por valor separado por vírgula.
-
-Qualquer valor maior será truncado pelo sistema.
+**Limite**: 47 caracteres por valor separado por vírgulas e 250 caracteres no total. Valores individuais com mais de 47 caracteres podem ser truncados pelo sistema. Comprimentos totais acima de 250 caracteres podem resultar em um erro de 400.
 
 ## Scripts de perfil
 
