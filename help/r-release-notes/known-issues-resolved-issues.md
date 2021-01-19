@@ -4,7 +4,7 @@ description: Informações sobre problemas conhecidos para esta versão do Adobe
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
 source-wordcount: '4337'
 ht-degree: 69%
@@ -67,7 +67,7 @@ Os problemas a seguir são problemas conhecidos com ofertas redirecionadas:
 
 Estes são problemas conhecidos das atividades [!UICONTROL Recommendations]:
 
-* Atualmente, ao copiar uma atividade [!UICONTROL Recommendation] com uma promoção ativa, qualquer alteração na atividade do duplicado também afeta a atividade original e vice-versa. (TGT-39155)
+* Ao copiar uma atividade [!UICONTROL Recommendation] com uma promoção ativa, qualquer alteração na atividade do duplicado atualmente também afeta a atividade original e vice-versa. (TGT-39155)
 
    Como uma solução temporária:
 
