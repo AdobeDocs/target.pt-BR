@@ -4,10 +4,10 @@ description: Essas notas de versão oferecem informações sobre recursos, aprim
 title: 'Notas de versão do Target (atual) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 27%
+source-wordcount: '852'
+ht-degree: 36%
 
 ---
 
@@ -28,7 +28,25 @@ Essas notas de versão oferecem informações sobre recursos, aprimoramentos e c
 >
 Embora a mbox.js seja atualmente suportada (até 31 de março de 2021), não fornecemos atualizações de recursos para esta biblioteca desde julho de 2017. Ao mover todos os clientes para o [!UICONTROL Adobe Experience Platform Web SDK] ou o at.js, nossos engenheiros e funcionários de suporte poderão fornecer novas funcionalidades e oferta o suporte que você espera do Adobe.
 
+(Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## Target Standard/Premium 21.1.1 (19 de janeiro de 2021)
+
+Esta versão de manutenção contém os seguintes aprimoramentos, correções e alterações.
+
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+* Adicionado um aviso ao selecionar uma métrica [!DNL Adobe Analytics] ao usar [!UICONTROL Analytics como a fonte do relatórios] (A4T) em uma atividade [!UICONTROL Público alvo automático]. [!UICONTROL Os modelos de ] direcionamento automático são otimizados para funcionar com métricas binárias (baseadas em conversão). Selecionar uma métrica contínua, como receita, pode ter resultados abaixo do ideal e os relatórios [!UICONTROL Insights de personalização] podem não ser precisos. (TGT-38926)
+* Adição de um ícone de status no relatório [!UICONTROL Resumo do Público alvo automático] para [!UICONTROL Público alvo automático] atividades que usam A4T. O ícone de verificação verde ao lado de cada experiência no relatório indica que um modelo personalizado de aprendizagem de máquina foi gerado para essa experiência. O ícone do relógio indica que não foi fornecido tráfego suficiente para construir o modelo. (TGT-38925)
+* Os relatórios [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] para [!UICONTROL Público alvo automático] atividades que usam as métricas de conversão A4T e [!DNL Analytics] são gerados e têm a mesma aparência que ao usar [!DNL Target] como fonte de relatórios. (TGT-38931)
+* Adicionada uma opção de filtragem de ambiente à lista [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
+* Correção de um problema que fazia com que a contagem de produtos incorreta fosse exibida em [!UICONTROL coleções do Recommendations]. (TGT-39162)
+* Adicionado um filtro [!UICONTROL Última atualização] ao [!UICONTROL Recommendations] [!UICONTROL Pesquisa de catálogo]. (TGT-38340)
+* Correção de um problema em [!UICONTROL Recommendations] que causava o travamento da página [!UICONTROL Criar sequência] após alterar a vertical do setor. (TGT-38160)
+* Correção de um problema que impedia que a atividade fosse salva se o Device Co-op estivesse ativado e o usuário fosse alterado de [!DNL Target] como a fonte do relatórios para [!DNL Analytics] (A4T). (TGT-38163)
+* Correção de um problema que impedia os usuários de removerem uma audiência de uma oferta em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-39058)
+* Correção de um problema que fazia com que o período incorreto (datas de start e término) fosse exibido nos cartões [!UICONTROL Informações da Audiência] para alguns clientes. (TGT-39150)
+* Correção de um problema que impedia alguns clientes de visualizarem a lista de atividades no [!UICONTROL Espaço de trabalho padrão]. (TGT-38526)
 
 ## at.js 2.4.0 (14 de janeiro de 2021)
 
@@ -36,27 +54,6 @@ Esta versão do at.js é uma versão de manutenção e inclui as seguintes corre
 
 * Adiciona suporte para ID de perfil/plataforma unificada às IDs de clientes da API do delivery.
 * Correção de uma injeção de tag de estilo inválida.
-
-## Target Standard/Premium 20.10.1 (27 de outubro de 2020)
-
-Esta versão contém os seguintes novos recursos:
-
-| Recurso | Detalhes |
-| --- | --- |
-| [Decisão no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | A decisão no dispositivo permite que tanto os profissionais de marketing quanto os desenvolvedores de produtos forneçam experimentação e personalização orientada pelo Machine Learning a partir de um dispositivo do usuário, em canais, a uma latência quase zero.<br>Questões de velocidade e desempenho — em insights do cliente e satisfação do usuário.<br>A decisão no dispositivo permite compilar instruções importantes de personalização e experimentação em tipos de atividade de teste A/B e direcionamento de experiência (XT) em &quot;artefatos de otimização&quot;: objetos JSON carregados em dispositivos do cliente por meio do CDN. E como a decisão no dispositivo se conecta nativamente com [!DNL Adobe Experience Cloud] produtos, os usuários [!DNL Target] obtêm análise rápida e iterações de experiência mais rápidas.<br>Para obter mais informações, consulte *Decisão [no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
-
-Esta versão contém os seguintes aprimoramentos, correções e alterações:
-
-* Correção de um problema que impedia que [!UICONTROL Intervalo médio de confiança de incentivo] e [!UICONTROL Confiança] fossem exibidos no relatórios [!DNL Auto-Target] para a linha [!UICONTROL Total]. Medições exibidas corretamente para todas as experiências individuais. (TGT-37301)
-* Correção de um problema que afetava o relatórios [!DNL Adobe Target Premium] [!UICONTROL Público alvo automático] dos usuários a partir de 15 de setembro, 14:30. (PDT) para 6 de outubro, 9:25 (TFD). Ao exibir relatórios para as métricas de conversão afetadas (configuradas usando a opção &quot;[!UICONTROL Exibida uma página]&quot; ou &quot;[!UICONTROL Clicadas em mbox]&quot;), as taxas de conversão são reportadas incorretamente. Não há nenhum problema de delivery conhecido no momento. Para obter informações sobre como ressincronizar e corrigir seu relatórios, consulte [relatórios de Público alvo automático](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) em *Problemas resolvidos* em *Problemas conhecidos e problemas resolvidos*.
-* Adicionada uma coluna [!UICONTROL Última atualização em] selecionável na tabela [!UICONTROL Pesquisa de catálogo] e um filtro [!UICONTROL Última atualização em]. Esse aprimoramento economiza tempo e esforço, pois você não precisa abrir cada item individual para ver quando ele foi atualizado pela última vez e pode filtrar por data em que os itens foram atualizados pela última vez.
-
-   ![Última atualização na ilustração da coluna e do filtro](/help/r-release-notes/assets/column-and-filter.png)
-
-* Foram feitas atualizações para ajudar a tornar a interface do Público alvo compatível com [Diretrizes de acessibilidade de conteúdo da Web](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Nível A e Critérios de sucesso AA (WCAG 2.0 AA). (TGT-34384 e TGT-24679)
-* Foram feitos aprimoramentos na Política de segurança de conteúdo (CSP). (TGT-37035)
-* Introduziu uma forma de especificar o código do cliente como parâmetro para clientes que usam CNAME. (TNT-38571)
-* [!DNL Adobe Experience Cloud] a documentação está sendo transferida para  [!DNL Experience League]. Durante o mês de outubro, todas as notas de versão, artigos, vídeos e tutoriais serão movidos de seu local atual em `docs.adobe.com` para [!DNL Experience League]. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para [!DNL Experience League]. Atualizaremos as notas de versão quando o cutover começar.
 
 ## Notas de versão adicionais e detalhes da versão
 
