@@ -4,10 +4,10 @@ description: Informações para ajudar a definir várias configurações na pág
 title: Configurar mbox.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 91%
+source-wordcount: '402'
+ht-degree: 74%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 91%
 # Configurar mbox.js
 
 Informações para ajudar a definir várias configurações na página Configurações da mbox.js.
+
+>[!IMPORTANT]
+>
+>**Fim da vida útil** do mbox.js: Em 31 de março de 2021, não  [!DNL Adobe Target] será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas a partir do mbox.js falharão e afetarão suas páginas que possuem [!DNL Target] atividades sendo executadas com o conteúdo padrão.
+>
+>Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca JavaScript at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implemente o Público alvo para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 As configurações padrão da biblioteca da função [!DNL mbox.js] atendem aos objetivos da maioria dos clientes do [!DNL Target].
 
