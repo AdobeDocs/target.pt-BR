@@ -4,10 +4,10 @@ description: Informações sobre eventos futuros, incluindo sessões do Adobe Ta
 title: Anúncios de públicos alvos
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 1%
+source-wordcount: '679'
+ht-degree: 0%
 
 ---
 
@@ -25,21 +25,6 @@ A Adobe Target foi recentemente reconhecida pela Forrester e pela Gartner como l
 | Forrester | **Adobe nomeou um líder no relatório Forrester wave para plataformas de otimização de experiência.**<br> Adobe foi nomeado Líder na Onda Forrester: Plataformas de otimização de experiência, relatório do quarto trimestre de 2020 para sua oferta neste espaço, Adobe Target Premium. A Adobe recebeu a maior pontuação de todos os fornecedores participantes nas categorias atuais de presença e oferta, bem como nos critérios de experiência da plataforma e recomendações. O Público alvo Premium também recebeu a maior pontuação possível na inovação da técnica de otimização de experiência e nos critérios de serviços de suporte. O relatório baseia-se numa avaliação exaustiva de 10 fornecedores de plataformas de otimização de experiências em 22 critérios.<br>Leia sobre isso no  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe novamente nomeado Líder no Gartner Magic Quadrant para mecanismos de personalização.**<br> Adobe foi mais uma vez nomeado Líder no Quadrante Magic da Gartner para Mecanismos de Personalização, relatório de 2020. O Gartner Magic Quadrant for Personalization Engines avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução.<br>[Leia sobre isso no The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## Quebra de Café de Perguntas e Respostas da Comunidade Adobe Target
-
-* **quarta-feira, 13 de janeiro**
-* **8 h PT | 10 h CT | 11 h ET**
-* **Duração: 60 minutos**
-* **[Clique aqui para obter mais informações](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
-
-Estaremos unidos por Robert Calangiu, Gerente Sênior de Produtos da Adobe Target, que será assinado aqui na Comunidade Adobe Target para conversar diretamente com você neste tópico sobre suas perguntas da Adobe Target relacionadas às suas áreas de especialização:
-
-* Configuração do público alvo e IU administrativa
-* Integração A4T
-* Integração AEM
-* Interface geral do usuário Adobe Target
-* Respostas às perguntas que você incluir ao [se registrar para este evento](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/) (embora opcional)
-
 ## Webinar: Personalização bem-sucedida em escala: Principais descobertas das Plataformas Forrester Wave e de Otimização de Experiência
 
 * **terça-feira, 19 de janeiro**
@@ -47,7 +32,7 @@ Estaremos unidos por Robert Calangiu, Gerente Sênior de Produtos da Adobe Targe
 * **Duração: 60 minutos**
 * **[Registre-se aqui](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
 
-A capacidade de otimizar as experiências dos clientes em escala é agora fundamental para atender às necessidades dinâmicas dos clientes e ao aumento atual de novos visitantes digitais. Uma plataforma de otimização de experiência, como [!DNL Adobe Target], pode ser implantada em suas propriedades digitais para determinar e fornecer rapidamente a experiência certa para seus clientes no momento certo, aproveitando os recursos manuais e de direcionamento comportamental, teste e recomendações habilitados por AI. Junte-se a nós e ao nosso convidado especial James McCormick, analista principal da Forrester, enquanto apresentamos e discutimos as principais descobertas de The Forrester Wave, Experience Otimization Platforms, quarto trimestre de 2020.
+A capacidade de otimizar as experiências dos clientes em escala é agora fundamental para atender às necessidades dinâmicas dos clientes e ao pico atual de novos visitantes digitais. Uma plataforma de otimização de experiência, como [!DNL Adobe Target], pode ser implantada em suas propriedades digitais para determinar e fornecer rapidamente a experiência certa para seus clientes no momento certo, aproveitando os recursos manuais e de direcionamento comportamental, teste e recomendações habilitados por AI. Junte-se a nós e ao nosso convidado especial James McCormick, analista principal da Forrester, enquanto apresentamos e discutimos as principais descobertas de The Forrester Wave, Experience Otimization Platforms, quarto trimestre de 2020.
 
 Neste webinar, você aprenderá:
 
@@ -69,7 +54,7 @@ Neste webinar gravado, os especialistas em produtos da Adobe Target discutem com
 
 McKinsey Digital relata que &quot;nós lançamos cinco anos para a adoção digital de consumidores e empresas em questão de cerca de oito semanas&quot;. *
 
-As demandas dos consumidores estão evoluindo rapidamente, e a HSBC adotou a otimização com a Adobe Target para testar e personalizar rapidamente novas viagens de clientes, reduzindo certos desenvolvimentos e inicializações de 6 meses para 1 semana!
+As demandas dos consumidores estão evoluindo rapidamente, e a HSBC adotou a otimização com a Adobe Target para testar e personalizar rapidamente novas jornadas de clientes, reduzindo certas iniciativas de desenvolvimento e inicializações de 6 meses para 1 semana!
 
 Junte-se ao Adobe e ao HSBC para este webinar para saber mais:
 
