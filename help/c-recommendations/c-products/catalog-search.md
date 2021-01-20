@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: A pesquisa no catálogo do Adobe Target ajuda a localizar os produtos ou o conteúdo no catálogo.
-title: Pesquisa no catálogo do Adobe Target
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Saiba como usar a Pesquisa de catálogo do Recommendations para localizar produtos ou conteúdo, criar coleções ou exclusões, remover itens do catálogo e muito mais.
+title: Como usar a Pesquisa de catálogo do Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Pesquisa no catálogo {#catalog-search}
+# ![Pesquisa ](/help/assets/premium.png) PREMIUMCatalog
 
-A página [!UICONTROL Pesquisa de catálogo] ajuda a localizar os produtos ou conteúdo no catálogo.
+A página [!UICONTROL Pesquisa de Catálogo] em [!DNL Adobe Recommendations] ajuda a localizar os produtos ou conteúdo no catálogo. A tarefa mais básica que você pode executar nesta página é procurar um item. Além disso, você pode alterar o ambiente, salvar os resultados da pesquisa em coleções ou exclusões, adicionar aspectos de filtro e modificar colunas na tabela, adicionar novos aspectos de pesquisa e muito mais.
 
 Os catálogos se referem a todo o conjunto de produtos (entidades). Seu catálogo pode conter muitas coleções, uma forma de organizar seus produtos em compartimentos lógicos.
+
+## Pesquisar no catálogo de acesso
 
 Para acessar a página [!UICONTROL Pesquisa de catálogo], clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Pesquisa de catálogo]**.
 
 ![Página de pesquisa no catálogo](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-A tarefa mais básica que você pode executar nesta página é procurar um item. Além disso, você pode alterar o ambiente; salvar resultados de pesquisa em coleções ou exclusões; adicione, remova ou reorganize colunas na tabela e adicione novos aspectos de pesquisa ao painel [!UICONTROL Filtros].
 
 ## Procurar um item
 
@@ -59,9 +59,9 @@ Você pode usar uma pesquisa simples ou avançada para localizar itens no catál
 
    >[!NOTE]
    >
-   >Quando você realiza uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de String em vez de um valor numérico.
+   >Quando você realiza uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de string em vez de um valor numérico.
    >
-   >Atualmente, não há funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema do cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referenciando os atributos que precisam do tipo alterados de string para numérico.
+   >Atualmente, não há funcionalidade disponível que permita alterar o tipo de atributo. Para fazer uma alteração, [abra um problema do cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referenciando os atributos que precisam do tipo alterados de string para numérico.
 
 1. Você também pode usar filtros para encontrar o produto desejado. No exemplo a seguir, expandindo a faceta [!UICONTROL Collections] e selecionando &quot;Bike Tools&quot;, todas as ferramentas de bicicletas no catálogo são exibidas.
 
@@ -153,7 +153,7 @@ Você pode adicionar outros aspectos de filtro à página [!UICONTROL Pesquisa d
 
    ![Link Modificar filtros](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Selecione os aspectos de pesquisa desejados (ID, nome, mensagem etc.).
+1. Selecione os aspectos de pesquisa desejados (ID, nome, mensagem, etc.) e clique em **[!UICONTROL Salvar]**.
 
    ![Adicionar filtros](/help/c-recommendations/c-products/assets/add-filters.png)
 
