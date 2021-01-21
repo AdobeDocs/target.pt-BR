@@ -4,15 +4,15 @@ description: Este tópico aborda alguns problemas comuns encontrados durante o u
 title: Solução de problemas de integração do Analytics e do Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 63%
 
 ---
 
 
-# Solução de problemas na integração do Analytics e do Target (A4T){#troubleshoot-the-analytics-and-target-integration-a-t}
+# Solução de problemas de integração do Analytics e do Target (A4T)
 
 Este tópico aborda alguns problemas comuns encontrados durante o uso do Analytics como a fonte de geração de relatórios para o Target (A4T).
 
@@ -40,17 +40,15 @@ Se você detalhar a linha &quot;não especificado&quot; pela dimensão &quot;Ana
 >
 >Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
+## Os relatórios de Atividade A4T incluem uma linha com um grande número de eventos &quot;não especificados&quot;. {#added_unspecified_events}
 
-## Os relatórios de Atividades A4T incluem uma linha com um grande número de eventos &quot;não especificados&quot;. {#added_unspecified_events}
+Pode haver uma linha de eventos &quot;[!UICONTROL Não especificado]&quot; mostrada no seu relatório, dependendo da métrica usada para exibir seus dados.
 
-Pode haver uma linha de eventos &quot;não especificada&quot; mostrada no seu relatório, dependendo da métrica usada para exibir seus dados.
+Normalmente, essa linha é exibida se você escolher uma métrica comum no relatório que não seja [!DNL Target] específica (por exemplo, [!UICONTROL Visualizações de página], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos] etc). Nesse caso, a linha [!UICONTROL &quot;Não especificado&quot;] inclui todas as [!UICONTROL Visualizações de página], [!UICONTROL Visitas] e [!UICONTROL Visitantes únicos] que não estão associados às atividades [!DNL Target].
 
-Normalmente, essa linha é exibida se você escolher uma métrica comum no relatório que não seja específica do Público alvo (por exemplo, Visualizações de página, Visitas, Visitantes únicos etc).
-Nesse caso, a linha &quot;Não especificado&quot; incluirá todas as Visualizações de página, Visitas e Visitantes exclusivos que não estão associados às atividades do Público alvo.
-Essa linha não terá nenhuma informação associada ao Público alvo (por exemplo, nenhum visitante, visitas ou impressões). Para obter mais informações, consulte [&quot;Não especificado&quot;, &quot;Nenhum&quot;, &quot;Outro&quot; e &quot;Desconhecido&quot; no relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) nas *Notas técnicas do Analytics*.
+Essa linha não terá nenhuma informação associada a [!DNL Target] (por exemplo, nenhum visitante, visita ou impressões). Para obter mais informações, consulte [&quot;Não especificado&quot;, &quot;Nenhum&quot;, &quot;Outro&quot; e &quot;Desconhecido&quot; no relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) nas *Notas técnicas do Analytics*.
 
-Se você escolher uma métrica específica do Público alvo no relatório, essa linha &quot;Não especificado&quot; não será exibida.
-A única maneira de evitar tê-la totalmente no relatório é definir uma chamada de Público alvo em cada solicitação enviada dessa página, o que não é comum ou necessário.
+Se você escolher uma métrica específica de [!DNL Target] no relatório, essa linha [!UICONTROL &quot;Unspecified&quot;] não será exibida. A única maneira de evitar tê-la totalmente no relatório é definir uma chamada [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
 
 ## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.   {#section_4BE374E573D44FB7918611699B74F58E}
 
