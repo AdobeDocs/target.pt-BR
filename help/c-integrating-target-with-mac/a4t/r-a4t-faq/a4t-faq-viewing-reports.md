@@ -4,9 +4,9 @@ description: Este tópico contém respostas para perguntas frequentes sobre como
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 3776fac31aa512728f40211de8b8bb902df35070
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '2347'
+source-wordcount: '2344'
 ht-degree: 54%
 
 ---
@@ -69,8 +69,7 @@ Em outros relatórios, &quot;não especificado&quot; significa que os dados não
 
 Após o período de classificação, os dados são exibidos nesses relatórios, aproximadamente uma hora depois de serem coletados no site. Todas as métricas, os segmentos e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
-Caso a classificação tenha sido feita para essa atividade e você ainda veja uma linha &quot;não especificada&quot; no relatório, verifique se o relatório não está usando uma métrica que não seja de público alvo para exibir os dados. A menos que o relatório esteja usando uma métrica específica do Público alvo, essa linha &quot;não especificada&quot; conterá eventos para chamadas que não estão associadas ao Público alvo.
-Respectivamente, essa linha não conterá nenhuma informação associada ao Público alvo (por exemplo, nenhum visitante/visitas/impressões).
+Caso a classificação tenha sido feita para essa atividade e você ainda veja uma linha &quot;Não especificado&quot; no relatório, verifique se o relatório não está usando uma métrica não[!DNL Target] para exibir os dados. A menos que o relatório esteja usando uma métrica específica de [!DNL Target], essa linha &quot;Não especificado&quot; conterá eventos para chamadas que não estão associadas a [!DNL Target]. Essa linha não conterá informações associadas a [!DNL Target] (por exemplo, visitantes/visitas/impressões).
 
 ## Por que as métricas do Target são enviadas ao Analytics mesmo após a desativação da atividade? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
@@ -90,7 +89,7 @@ Em 1 de janeiro, o usuário acessa o site e vê a atividade XYZ uma vez e tem ci
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 3 |
 
 O usuário retorna em 1 de fevereiro, visualiza mais cinco páginas e não encontra mais nenhuma atividade do Target e a atividade original não está mais ativa. Mesmo que a atividade não esteja mais ativa, ela ainda está seguindo o usuário por meio da persistência de eVar. Agora os dados ficam assim:
 
@@ -102,16 +101,16 @@ O usuário volta em 1 de março e vê uma nova atividade, ABC. O usuário també
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 1 | 3 |
 
 O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra. A expiração de 90 dias desse primeiro valor eVar é redefinida em 1 de abril, então veremos isso nos relatórios. E todas as atividades do Target que o usuário vê recebem o crédito pela conversão, mas o número total de conversões é deduplicado:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 3 |
-| Total | 2 | 20 | 1 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 3 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 1 | 1 | 3 |
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para o relatórios [!DNL Target], como você não está colocando uma atividade [!DNL Target] contra outra atividade para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu tenham crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
