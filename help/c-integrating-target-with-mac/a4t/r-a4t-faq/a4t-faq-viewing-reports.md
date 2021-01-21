@@ -4,10 +4,10 @@ description: Este tópico contém respostas para perguntas frequentes sobre como
 title: Exibição de relatórios - Perguntas frequentes sobre o A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 56%
+source-wordcount: '2347'
+ht-degree: 54%
 
 ---
 
@@ -69,6 +69,10 @@ Em outros relatórios, &quot;não especificado&quot; significa que os dados não
 
 Após o período de classificação, os dados são exibidos nesses relatórios, aproximadamente uma hora depois de serem coletados no site. Todas as métricas, os segmentos e os valores nos relatórios vêm do conjunto de relatórios selecionado ao configurar a atividade.
 
+Caso a classificação tenha sido feita para essa atividade e você ainda veja uma linha &quot;não especificada&quot; no relatório, verifique se o relatório não está usando uma métrica que não seja de público alvo para exibir os dados.
+A menos que o relatório esteja usando uma métrica específica do Público alvo, essa linha &quot;não especificada&quot; conterá eventos para chamadas que não estão associadas ao Público alvo.
+Respectivamente, essa linha não conterá nenhuma informação associada ao Público alvo (por exemplo, nenhum visitante/visitas/impressões).
+
 ## Por que as métricas do Target são enviadas ao Analytics mesmo após a desativação da atividade? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. Esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
@@ -93,22 +97,22 @@ O usuário retorna em 1 de fevereiro, visualiza mais cinco páginas e não encon
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 O usuário volta em 1 de março e vê uma nova atividade, ABC. O usuário também visualiza cinco páginas. Como a atividade XYZ ainda segue o usuário por meio da persistência, e esse usuário tem ABC definido, veremos dois itens de linha no relatório:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| ABC | 1 | 5 | 3 | 3 |
 
 O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra. A expiração de 90 dias desse primeiro valor eVar é redefinida em 1 de abril, então veremos isso nos relatórios. E todas as atividades do Target que o usuário vê recebem o crédito pela conversão, mas o número total de conversões é deduplicado:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 3 | 10 | 2 | 3 | 1 |
-| Total | 2 | 20 | 3 | 3 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 1 |
+| Total | 2 | 20 | 1 | 1 | 1 |
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para o relatórios [!DNL Target], como você não está colocando uma atividade [!DNL Target] contra outra atividade para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu tenham crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
