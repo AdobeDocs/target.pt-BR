@@ -4,10 +4,10 @@ description: Este tópico aborda alguns problemas comuns encontrados durante o u
 title: Solução de problemas de integração do Analytics e do Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,11 +32,25 @@ Existem várias razões pelas quais isso pode acontecer:
 
    [Entre em contato com o Atendimento ao cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter assistência.
 
+Se você detalhar a linha &quot;não especificado&quot; pela dimensão &quot;Analytics for Público alvo&quot; e ela não consistir em IDs de atividade, significa que tudo está classificado corretamente.  Se as IDs de atividade estiverem listadas lá, isso servirá como uma indicação para um problema de classificação.
+
 >[!NOTE]
 >
 >Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para &quot;não especificados&quot; porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 >
 >Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
+
+
+## Os relatórios de Atividades A4T incluem uma linha com um grande número de eventos &quot;não especificados&quot;. {#added_unspecified_events}
+
+Pode haver uma linha de eventos &quot;não especificada&quot; mostrada no seu relatório, dependendo da métrica usada para exibir seus dados.
+
+Normalmente, essa linha é exibida se você escolher uma métrica comum no relatório que não seja específica do Público alvo (por exemplo, Visualizações de página, Visitas, Visitantes únicos etc).
+Nesse caso, a linha &quot;Não especificado&quot; incluirá todas as Visualizações de página, Visitas e Visitantes exclusivos que não estão associados às atividades do Público alvo.
+Essa linha não terá nenhuma informação associada ao Público alvo (por exemplo, nenhum visitante, visitas ou impressões). Para obter mais informações, consulte [&quot;Não especificado&quot;, &quot;Nenhum&quot;, &quot;Outro&quot; e &quot;Desconhecido&quot; no relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) nas *Notas técnicas do Analytics*.
+
+Se você escolher uma métrica específica do Público alvo no relatório, essa linha &quot;Não especificado&quot; não será exibida.
+A única maneira de evitar tê-la totalmente no relatório é definir uma chamada de Público alvo em cada solicitação enviada dessa página, o que não é comum ou necessário.
 
 ## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.   {#section_4BE374E573D44FB7918611699B74F58E}
 
