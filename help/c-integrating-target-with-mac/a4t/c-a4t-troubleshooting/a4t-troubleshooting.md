@@ -4,10 +4,10 @@ description: Este tópico aborda alguns problemas comuns encontrados durante o u
 title: Solução de problemas de integração do Analytics e do Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: d6ee46899813049c1fad7a358f800702730b3c2d
+source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 71%
+source-wordcount: '779'
+ht-degree: 80%
 
 ---
 
@@ -37,15 +37,6 @@ Existem várias razões pelas quais isso pode acontecer:
 >Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para &quot;não especificados&quot; porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 >
 >Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
-
-## Os relatórios de Atividades A4T incluem uma linha com um grande número de eventos &quot;não especificados&quot;. {#added_unspecified_events}
-
-Sempre haverá uma linha de eventos não especificada exibida, dependendo da métrica usada para exibir os dados.\
-Se você usar uma métrica somente Público alvo, essa linha &quot;não especificada&quot; não será exibida.
-Se você usar uma métrica mais comum, essa linha aparecerá novamente no relatório.
-
-Esse item de linha &quot;não especificado&quot; não terá nenhuma informação associada ao Público alvo (por exemplo, nenhum visitante/visitas/impressões).\
-A única maneira de evitar tê-lo no relatório é definir Público alvo em absolutamente cada solicitação enviada dessa página, o que não faz sentido.
 
 ## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.   {#section_4BE374E573D44FB7918611699B74F58E}
 
