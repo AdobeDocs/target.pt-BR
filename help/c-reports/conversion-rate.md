@@ -4,7 +4,7 @@ description: A taxa de conversão, o incentivo, a confiança (significância est
 title: Índice de conversão
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 72%
