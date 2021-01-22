@@ -4,9 +4,9 @@ description: A taxa de conversão, o incentivo, a confiança (significância est
 title: Índice de conversão
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ Você pode visualizar relatórios pelas seguintes metodologias de contagem:
 >
 >Normalmente, as contagens são determinadas por cookies e pela atividade da sessão. No entanto, se você alcançar o ponto de conversão final de uma atividade e, em seguida, entrar na atividade novamente, você será considerado um novo participante e uma nova visita à atividade. Isso é verdade mesmo se os valores PCID e `sessionID` não mudarem.
 
-## Por que o Público alvo usa os testes T-T do aluno? {#t-test}
+## Por que o Público alvo recomenda usar os testes T-T do aluno? {#t-test}
 
 Os testes A/B são experimentos para comparar o valor médio de alguma métrica comercial em uma variante de controle (também conhecida como experiência) com o valor médio dessa mesma métrica em uma ou mais experiências alternativas.
 
