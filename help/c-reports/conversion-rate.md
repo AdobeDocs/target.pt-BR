@@ -4,15 +4,15 @@ description: A taxa de conversão, o incentivo, a confiança (significância est
 title: Índice de conversão
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 96%
+source-wordcount: '2145'
+ht-degree: 72%
 
 ---
 
 
-# Índice de conversão{#conversion-rate}
+# Índice de conversão
 
 A taxa de conversão, o incentivo, a confiança (significância estatística) e o intervalo de confiança são reportados para cada experiência.
 
@@ -185,3 +185,27 @@ Você pode visualizar relatórios pelas seguintes metodologias de contagem:
 >[!NOTE]
 >
 >Normalmente, as contagens são determinadas por cookies e pela atividade da sessão. No entanto, se você alcançar o ponto de conversão final de uma atividade e, em seguida, entrar na atividade novamente, você será considerado um novo participante e uma nova visita à atividade. Isso é verdade mesmo se os valores PCID e `sessionID` não mudarem.
+
+## Por que o Público alvo usa os testes T-T do aluno? {#t-test}
+
+Os testes A/B são experimentos para comparar o valor médio de alguma métrica comercial em uma variante de controle (também conhecida como experiência) com o valor médio dessa mesma métrica em uma ou mais experiências alternativas.
+
+[!DNL Target] recomenda usar dois testes [ t de ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)aluno de amostra, pois exigem menos pressuposições do que alternativas como testes z, e são o teste estatístico adequado para fazer comparações emparelhadas de métricas de negócios (quantitativas) entre experiências de controle e experiências alternativas.
+
+### Mais detalhes
+
+Ao executar testes A/B online, cada usuário/visitante é atribuído aleatoriamente a uma única variante. Subsequentemente, fazemos medições das métricas de negócios de interesse (por exemplo, conversões, pedidos, receita etc.) para visitantes em cada variante. O teste estatístico que usamos então testa a hipótese de que a métrica média de negócios (por exemplo, taxa de conversão, pedidos por usuário, receita por usuário etc.) é igual para o controlo e para uma dada variante alternativa.
+
+Embora a própria métrica de negócios possa ser distribuída de acordo com alguma distribuição arbitrária, a distribuição da média dessa métrica (dentro de cada variante) deve convergir para uma distribuição normal por meio do teorema [Limite Central](https://en.wikipedia.org/wiki/Central_limit_theorem). Observe que, embora não haja nenhuma garantia de quão rapidamente essa distribuição da média será convertida para o normal, essa condição normalmente é alcançada, dada a escala de visitantes em testes on-line.
+
+Dada esta normalidade da média, a estatística de teste a ser utilizada pode ser mostrada como segue uma distribuição t, porque é a razão entre um valor normalmente distribuído (a diferença nas médias da métrica de negócios) e um termo de escala com base numa estimativa a partir dos dados (o erro padrão da diferença nas médias). O **Teste t do aluno** é então o teste de hipótese apropriado, dado que a estatística do teste segue uma distribuição t.
+
+### Por que outros testes não são usados
+
+Um **z-test** é inadequado porque no cenário de teste A/B típico, o denominador da estatística de teste não é derivado de uma variação conhecida e, em vez disso, deve ser estimado a partir dos dados.
+
+**Não são utilizados** testes qui-quadrados, uma vez que estes são adequados para determinar se existe uma relação qualitativa entre duas variantes (ou seja, uma hipótese nula de que não há diferença entre variantes). Os testes T são mais apropriados para o cenário de _quantitativamente_ comparando métricas.
+
+O **Mann-Whitney U test** é um teste não paramétrico, que é apropriado quando a distribuição da amostragem da métrica média de negócios (para cada variante) normalmente não é distribuída. No entanto, como discutido anteriormente, dada a magnitude do tráfego envolvido em testes online, o Teorema de Limite Central normalmente se aplica, e assim o teste t pode ser aplicado com segurança.
+
+Métodos mais complexos como **ANOVA** (que generalizam os testes t para mais de duas variantes) podem ser aplicados quando um teste tem mais de duas experiências (&quot;testes A/Bn&quot;). No entanto, a ANOVA responde à pergunta &quot;se todas as variantes têm a mesma média&quot;, enquanto no teste A/Bn típico estamos mais interessados em _qual variante específica_ é melhor. Em [!DNL Target], aplicamos testes t regulares comparando cada variante a um controle, com uma correção de Bonferroni para contabilizar várias comparações.
