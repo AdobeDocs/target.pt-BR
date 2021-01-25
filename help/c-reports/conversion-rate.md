@@ -4,10 +4,10 @@ description: A taxa de conversão, o incentivo, a confiança (significância est
 title: Índice de conversão
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
+source-git-commit: f30e16bdb24268e85f6cb3739455d77f7bcb4279
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 72%
+source-wordcount: '2172'
+ht-degree: 71%
 
 ---
 
@@ -116,7 +116,7 @@ Para calcular essas métricas calculadas, baixe o arquivo Excel [Calculadora de 
 
 Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics].
 
-Para o A4T, usamos um cálculo de teste t de Estudante para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para realizar o cálculo do teste t de Estudante, é necessária a &quot;soma dos quadrados&quot;. Isto pode ser recuperado do [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
+Para o A4T, usamos um cálculo de teste t de Estudante para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para efetuar o cálculo t-test do aluno, é necessário &quot;somar quadrados&quot; para calcular a variação, que é utilizada no denominador da estatística t. [Esse documento explica os ](/help/assets/statistical-calculations.pdf) detalhes das fórmulas matemáticas usadas. A soma dos quadrados pode ser recuperada de [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
 
 Por exemplo, se você estiver otimizando para exibições de página por visitante, você exportaria uma amostra do número total de visualizações de página por visitante e por um período de tempo especificado, talvez alguns dias (alguns milhares de pontos de dados são tudo que você precisa). Você, então, elevaria ao quadrado de cada valor e somaria os totais (a ordem das operações é essencial aqui). Este valor de &quot;soma dos quadrados&quot; é então usado na Calculadora de confiança completa. Use a seção &quot;receita&quot; dessa planilha para esses valores.
 
