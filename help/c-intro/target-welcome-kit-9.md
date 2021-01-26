@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit de boas-vindas da Adobe Target - Capítulo 9 - Próximas etapas e recursos
 title: Kit de boas-vindas da Adobe Target - Capítulo 9 - Próximas etapas e recursos
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
