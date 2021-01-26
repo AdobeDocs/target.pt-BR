@@ -1,24 +1,24 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Use ofertas remotas para hospedar conteúdo fora do Adobe Target que o Público alvo faz referência e entrega nos sites dos usuários. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
+description: É possível usar ofertas remotas para hospedar conteúdo externo?
 title: Criar ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 89%
+source-wordcount: '1018'
+ht-degree: 69%
 
 ---
 
 
 # Criar ofertas remotas
 
-Use ofertas remotas, que o [!DNL Adobe Target] faz referência e entrega ao sites do usuários, para hospedar conteúdo fora do Target. Esse conteúdo pode estar em um gerenciador de conteúdo ou outro sistema, seja para facilidade de uso ou por motivos de segurança.
+Para hospedar conteúdo fora do [!DNL Adobe Target], use ofertas remotas, que o [!DNL Target] faz referência e entrega aos sites do usuários. Esse conteúdo pode estar em uma gestão de conteúdo (CMS) ou em outro sistema, por motivos de facilidade de uso ou de segurança.
 
 >[!NOTE]
 >
->As ofertas remotas podem ser criadas somente no compositor baseado em formulário. O conteúdo será inserido nos locais de solicitação [!DNL Target], portanto, é provável que eles não sejam apropriados para uma solicitação global [!DNL Target].
+>Ofertas remotas podem ser criadas na página Ofertas > Ofertas de código ou no [Compositor de experiência baseado em Forms](/help/c-experiences/form-experience-composer.md). Não é possível criar ofertas remotas no Visual Experience Composer (VEC). O conteúdo será inserido nos locais de solicitação [!DNL Target], portanto, é provável que eles não sejam apropriados para uma solicitação global [!DNL Target].
 >
 >[!DNL Target Classic] inclui recursos semelhantes: [!UICONTROL Oferta em seu site] e [!UICONTROL Oferta fora do Test&amp;Target].
 
@@ -30,12 +30,15 @@ Alguns exemplos de ofertas remotas incluem:
 * Calculadoras
 * Atualizações de taxa de juros
 
-**Para criar uma oferta remota:**
+## Criar uma oferta remota na página Ofertas de código
 
 1. Clique em **[!UICONTROL Ofertas]** e selecione a guia **[!UICONTROL Ofertas de código]**.
+
+   ![Ofertas > Ofertas de código](/help/c-experiences/c-manage-content/assets/offers-code-offers.png)
+
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Oferta remota]**.
 
-   ![](assets/remote_offer_ui.png)
+   ![Caixa de diálogo Criar Oferta remota](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Forneça um nome descritivo para a oferta.
 
@@ -45,12 +48,39 @@ Alguns exemplos de ofertas remotas incluem:
 
    | Opção | Descrição |
    |--- |--- |
-   | Armazenado em cache | O conteúdo de uma oferta remota em cache é exibido no Target.<br>A cada duas horas, o [!DNL Target] busca o conteúdo no URL remoto e, em seguida, armazena o conteúdo dentro do Target. Quando os visitantes carregam um site com uma experiência que inclui uma oferta remota, a oferta é entregue pelo Target.<br>As ofertas remotas em cache fornecem segurança aprimorada porque alguém conectado no Target não pode alterar o conteúdo. Para alterar o conteúdo, alguém precisaria fazer login no gerenciamento de conteúdo ou outro sistema e alterar o conteúdo lá.<br>Você pode especificar um URL absoluto ou relativo para uma oferta remota em cache. |
-   | Dinâmico | Uma oferta remota dinâmica é servida a partir do gerenciamento de conteúdo ou outro sistema, em vez do Target.<br>Talvez você não queira que o conteúdo seja armazenado em cache periodicamente e entregue pelo Target sempre que os visitantes carregarem um site com uma experiência que inclua uma oferta remota. Em vez disso, você deseja chamar o sistema que hospeda o conteúdo, possivelmente transmitir informações específicas para que a oferta retornada possa ser dinâmica ou diferente para cada usuário.<br>Por exemplo, se um usuário fizer login em um site para um cartão de crédito que inclua uma experiência com uma oferta remota dinâmica, você poderá passar parâmetros para o URL das informações da conta do usuário. Em seguida, o site pode fornecer informações específicas do usuário, como o saldo da conta.<br>Clique em  [!UICONTROL Adicionar ] parâmetro para adicionar uma ou mais  [!DNL Target] solicitações ou parâmetros de solicitação. |
+   | Armazenado em cache | O conteúdo de uma oferta remota em cache é exibido no [!DNL Target].<br>A cada duas horas, o [!DNL Target] busca o conteúdo no URL remoto e, em seguida, armazena o conteúdo dentro do [!DNL Target]. Quando os visitantes carregam um site com uma experiência que inclui uma oferta remota, a oferta é entregue pelo [!DNL Target].<br>As ofertas remotas em cache fornecem segurança aprimorada porque alguém que efetuou login no não pode alterar o conteúdo. [!DNL Target] Para alterar o conteúdo, alguém precisaria fazer login no gerenciamento de conteúdo ou outro sistema e alterar o conteúdo lá.<br>Você pode especificar um URL absoluto ou relativo para uma oferta remota em cache. |
+   | Dinâmico | Uma oferta remota dinâmica é servida a partir do gerenciamento de conteúdo ou outro sistema, em vez do [!DNL Target].<br>[!DNL Target]Talvez você não queira que o conteúdo seja armazenado em cache periodicamente e entregue pelo sempre que os visitantes carregarem um site com uma experiência que inclua uma oferta remota. Em vez disso, você deseja chamar o sistema que está hospedando o conteúdo, possivelmente transmita informações específicas para que a oferta retornada possa ser dinâmica (ou diferente) para cada usuário.<br>Por exemplo, se um usuário fizer login em um site para um cartão de crédito que inclua uma experiência com uma oferta remota dinâmica, você poderá passar parâmetros para o URL das informações da conta do usuário. Em seguida, o site pode fornecer informações específicas do usuário, como o saldo da conta.<br>Clique em  **[!UICONTROL Adicionar]** parâmetro para adicionar uma ou mais  [!DNL Target] solicitações ou parâmetros de solicitação. |
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Práticas recomendadas para usar ofertas remotas {#section_7718512D08E14121B6F6B8C38134F4BC}
+## Crie uma oferta remota usando o Criador de experiências baseado em forma
+
+1. Ao criar uma atividade usando o [Criador de experiências baseado em forma](/help/c-experiences/form-experience-composer.md), selecione o local para exibir a seção **[!UICONTROL Conteúdo]**.
+
+   ![Seção de conteúdo no Criador de experiências baseado em forma](/help/c-experiences/c-manage-content/assets/form-based-content.png)
+
+1. Clique na lista suspensa **[!UICONTROL Conteúdo padrão]** e, em seguida, clique em **[!UICONTROL Alterar Oferta remota]**.
+
+   ![Opção Alterar Oferta remota](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Oferta remota]**.
+
+   ![Caixa de diálogo Criar Oferta remota](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+
+1. Forneça um nome descritivo para a oferta.
+
+   Um nome descritivo ajuda você e outras pessoas a encontrar rapidamente a oferta na biblioteca [!UICONTROL Ativos].
+
+1. Especifique o URL remoto para a oferta remota:
+
+   | Opção | Descrição |
+   |--- |--- |
+   | Armazenado em cache | O conteúdo de uma oferta remota em cache é exibido no [!DNL Target].<br>A cada duas horas, o [!DNL Target] busca o conteúdo no URL remoto e, em seguida, armazena o conteúdo dentro do [!DNL Target]. Quando os visitantes carregam um site com uma experiência que inclui uma oferta remota, a oferta é entregue pelo [!DNL Target].<br>As ofertas remotas em cache fornecem segurança aprimorada porque alguém que efetuou login no não pode alterar o conteúdo. [!DNL Target] Para alterar o conteúdo, alguém precisaria fazer login no gerenciamento de conteúdo ou outro sistema e alterar o conteúdo lá.<br>Você pode especificar um URL absoluto ou relativo para uma oferta remota em cache. |
+   | Dinâmico | Uma oferta remota dinâmica é servida a partir do gerenciamento de conteúdo ou outro sistema, em vez do [!DNL Target].<br>[!DNL Target]Talvez você não queira que o conteúdo seja armazenado em cache periodicamente e entregue pelo sempre que os visitantes carregarem um site com uma experiência que inclua uma oferta remota. Em vez disso, você deseja chamar o sistema que está hospedando o conteúdo, possivelmente transmita informações específicas para que a oferta retornada possa ser dinâmica (ou diferente) para cada usuário.<br>Por exemplo, se um usuário fizer login em um site para um cartão de crédito que inclua uma experiência com uma oferta remota dinâmica, você poderá passar parâmetros para o URL das informações da conta do usuário. Em seguida, o site pode fornecer informações específicas do usuário, como o saldo da conta.<br>Clique em  **[!UICONTROL Adicionar]** parâmetro para adicionar uma ou mais  [!DNL Target] solicitações ou parâmetros de solicitação. |
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+## Práticas recomendadas para o uso do oferta remoto {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Práticas recomendadas para usar ofertas remotas em suas atividades:
 
@@ -60,13 +90,13 @@ Práticas recomendadas para usar ofertas remotas em suas atividades:
 
 * Se o seu teste envolve dados gerados dinamicamente pelo seu servidor, a opção [!UICONTROL Dinâmica] pode ser a opção correta.
 * Se você pretende testar apenas a aparência do seu conteúdo de oferta remota existente, use o [!UICONTROL Visual Experience Composer] para alterar a aparência do conteúdo retornado do sistema de gerenciamento de conteúdo.
-* Use a Matriz de seleção de oferta remota para ajudá-lo a escolher a oferta mais adequada para o caso específico. Entre em contato com seu representante de conta caso tenha dúvidas.
+* Use a Matriz de seleção de Oferta remota (abaixo) para ajudá-lo a escolher a oferta mais adequada para seu caso específico. Entre em contato com seu representante de conta caso tenha dúvidas.
 
-## Como funcionam as ofertas dinâmicas remotas {#concept_CC2A969420B34364A9FA78C1CE251818}
+## Como as ofertas remotas dinâmicas funcionam {#concept_CC2A969420B34364A9FA78C1CE251818}
 
 Ofertas dinâmicas remotas utilizam tecnologia de página dinâmica para enviar os valores para a oferta.
 
-A oferta é executada após a página ser renderizada. Um iframe invisível coleta, copia os dados para fora do frame e os insere na página, carregando os valores enviados.
+A oferta é executada após a página ser renderizada. Um iframe invisível coleta os dados, os copia para fora do quadro e os insere na página, carregando os valores transmitidos.
 
 ![](assets/remote_offer_howitworks_2.jpeg)
 
