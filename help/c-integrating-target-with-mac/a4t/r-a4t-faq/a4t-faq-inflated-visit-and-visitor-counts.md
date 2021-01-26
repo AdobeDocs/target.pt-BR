@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
 description: Este tópico contém respostas para as perguntas mais frequentes sobre as contagens aumentadas de visitas e visitantes ao usar o Analytics como fonte de relatórios do Target (A4T).
 title: Contagem aumentada de visitas e visitantes - Perguntas frequentes sobre o A4T
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
