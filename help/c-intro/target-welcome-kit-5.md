@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit de boas-vindas da Adobe Target - Capítulo 5 - Inspiração para atividades de teste e personalização
 title: Kit de boas-vindas da Adobe Target - Capítulo 5 - Inspiração para atividades de teste e personalização
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Essas ideias de teste e personalização, inspiradas em atividades reais conduzi
 
 ## Ideia 1: Teste a personalização da jornada do cliente.
 
-Aumente a taxa de conversão e a receita criando uma jornada criativa personalizada e uma experiência de marca que ressoa com visitantes de sites e, ao mesmo tempo, atende às metas comerciais. Em seguida, teste essa jornada personalizada comparando-a com experiências estáticas ou experiências distribuídas aleatoriamente. Saiba mais sobre a personalização ao descobrir e criar as audiências que você personaliza para usar dados de terceiros e segundos em [!DNL Adobe Audience Manager].
+Aumente a taxa de conversão e a receita criando uma jornada criativa e experiência de marca personalizada que ecoam com visitantes de sites e, ao mesmo tempo, atinja as metas comerciais. Em seguida, teste essa jornada personalizada comparando-a com experiências estáticas ou experiências distribuídas aleatoriamente. Saiba mais sobre a personalização ao descobrir e criar as audiências que você personaliza para usar dados de terceiros e segundos em [!DNL Adobe Audience Manager].
 
-Depois de identificar essas audiências, realize testes de experiência do usuário e pesquisas de mercado para saber o que os convence a responder e desenvolver as experiências que você as público alvo em sua jornada de acordo.
+Após identificar essas audiências, realize testes de experiência do usuário e pesquisas de mercado para saber o que os convence a responder e desenvolver as experiências que você as público alvo dentro de suas jornadas de acordo.
 
 Por exemplo, quando um visitante que cai em uma audiência de &quot;jogador sério&quot; para uma empresa de telecomunicações visita o site da empresa, fornece uma experiência que inclui cópia e imagens que ressoam com jogadores e uma oferta para Internet de alta velocidade.
 
