@@ -4,10 +4,10 @@ description: Posso usar o redirecionamento de ofertas para fazer com que um nave
 title: Criar Ofertas de redirecionamento
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ O [!DNL Adobe Target] [!UICONTROL Criador de experiências baseado em forma] é 
 
 1. Termine configurando a atividade.
 
-## Vídeo de treinamento: O repositório de conteúdo (4:56) ![emblema de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Compositor baseado em forma ![Etiqueta do tutorial](/help/assets/tutorial.png)
 
-Este vídeo inclui informações sobre o gerenciamento de conteúdo.
+Este vídeo fornece uma demonstração do compositor baseado em formulário, que você pode usar para criar ofertas de redirecionamento.
 
-* Conexão entre a [biblioteca de ativos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e a biblioteca de conteúdo do Target
-* Ofertas HTML personalizadas
-* Ofertas HTML personalizadas no Visual Experience Composer
+* Criar uma atividade usando o Experience Composer baseado em formulário
+* Entenda quando usar o Experience Composer baseado em formulário ou o Visual Experience Composer
+* Use refinamentos para direcionar um local
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
