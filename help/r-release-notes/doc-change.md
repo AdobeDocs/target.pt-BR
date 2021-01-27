@@ -4,10 +4,10 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '3469'
-ht-degree: 30%
+source-wordcount: '3480'
+ht-degree: 31%
 
 ---
 
@@ -20,6 +20,8 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Janeiro de 27 | [Criar Ofertas de redirecionamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Tópico atualizado. |
+|  | [Criar ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md) | Tópico atualizado. |
 | Janeiro de 26 | [Índice de conversão](/help/c-reports/conversion-rate.md) | Esclareceu como o Público alvo usa a &quot;soma dos quadrados&quot; nos testes T-T do aluno. |
 | Janeiro de 22 | [Índice de conversão](/help/c-reports/conversion-rate.md#t-test) | Foi adicionada a seguinte seção: &quot;Por que o Público alvo recomenda usar os testes T-T do aluno?&quot; |
 | Janeiro de 21 | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nova seção adicionada: &quot;Os relatórios de Atividade A4T incluem uma linha com um grande número de eventos &quot;não especificados&quot;.&quot; |
