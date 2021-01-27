@@ -4,10 +4,10 @@ description: É possível usar ofertas remotas para hospedar conteúdo externo?
 title: Criar ofertas remotas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 59%
+source-wordcount: '934'
+ht-degree: 54%
 
 ---
 
@@ -18,7 +18,7 @@ Para hospedar conteúdo fora do [!DNL Adobe Target], use ofertas remotas, que o 
 
 >[!NOTE]
 >
->Ofertas remotas podem ser criadas na página Ofertas > Ofertas de código ou no [Compositor de experiência baseado em Forms](/help/c-experiences/form-experience-composer.md). Não é possível criar ofertas remotas no Visual Experience Composer (VEC). O conteúdo será inserido nos locais de solicitação [!DNL Target], portanto, é provável que eles não sejam apropriados para uma solicitação global [!DNL Target].
+>Ofertas remotas podem ser criadas na página [!UICONTROL Oferta] > [!UICONTROL Ofertas de código] ou na página [Compositor de experiências baseado em Forms](/help/c-experiences/form-experience-composer.md). Não é possível criar ou aplicar ofertas remotas no Visual Experience Composer (VEC). O conteúdo será inserido nos locais de solicitação [!DNL Target], portanto, é provável que eles não sejam apropriados para uma solicitação global [!DNL Target].
 >
 >[!DNL Target Classic] inclui recursos semelhantes: [!UICONTROL Oferta em seu site] e [!UICONTROL Oferta fora do Test&amp;Target].
 
@@ -78,11 +78,11 @@ Alguns exemplos de ofertas remotas incluem:
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Tipo de URL de redirecionamento: Em cache ou dinâmico {#url-type}
+### Tipo de URL de redirecionamento: Em cache ou dinâmico {#url-type}
 
 As seguintes informações ajudam você a entender as diferenças entre as duas opções:
 
-### URL em cache
+#### URL em cache
 
 O conteúdo de uma oferta remota em cache é exibido no [!DNL Target].
 
@@ -92,13 +92,31 @@ As ofertas remotas em cache fornecem segurança aprimorada porque alguém conect
 
 Você pode especificar um URL absoluto ou relativo para uma oferta remota em cache.
 
-### URL dinâmico
+#### URL dinâmico
 
 Uma oferta remota dinâmica é servida a partir do gerenciamento de conteúdo ou outro sistema, em vez do [!DNL Target].
 
 Talvez você não queira que o conteúdo seja armazenado em cache periodicamente e entregue pelo [!DNL Target] sempre que os visitantes carregarem um site com uma experiência que inclua uma oferta remota. Em vez disso, você deseja chamar o sistema que está hospedando o conteúdo, possivelmente transmita informações específicas para que a oferta retornada possa ser dinâmica (ou diferente) para cada usuário. Por exemplo, se um usuário fizer login em um site para um cartão de crédito que inclua uma experiência com uma oferta remota dinâmica, você poderá passar parâmetros para o URL das informações da conta do usuário. Em seguida, o site pode fornecer informações específicas do usuário, como o saldo da conta.
 
 Você pode clicar em **[!UICONTROL Adicionar Parâmetro]** para adicionar uma ou mais solicitações [!DNL Target] ou parâmetros de solicitação.
+
+## Usar ofertas remotas no atividade
+
+Você deve aplicar ofertas remotas usando o [!UICONTROL Criador de experiências baseado em forma]. No momento, não é possível aplicar ofertas remotas usando o VEC.
+
+1. Crie ou edite uma atividade no [!UICONTROL Criador de experiências baseado em forma].
+
+   Consulte [Criador de experiências baseado em forma](/help/c-experiences/form-experience-composer.md) para obter instruções detalhadas passo a passo.
+
+1. Especifique o local desejado e adicione quaisquer refinamentos de audiência, conforme necessário.
+
+1. Clique na lista suspensa na seção **[!UICONTROL Conteúdo]** e clique em **[!UICONTROL Alterar Oferta Remota]**.
+
+   ![Opção Alterar Oferta remota](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. Selecione a oferta remota desejada na caixa de diálogo [!UICONTROL Selecionar Oferta remota] e clique em **[!UICONTROL Concluído]**.
+
+1. Termine configurando a atividade.
 
 ## Práticas recomendadas para o uso do oferta remoto {#section_7718512D08E14121B6F6B8C38134F4BC}
 
