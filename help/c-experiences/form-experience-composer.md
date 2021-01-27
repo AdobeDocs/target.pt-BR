@@ -4,10 +4,10 @@ description: O Adobe Target Form-Based Experience Composer fornece criação de 
 title: Experience Composer baseado em formulário
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 1. Clique em **[!UICONTROL Criar atividade]** e selecione o tipo de atividade que deseja criar.
 
    O Experience Composer baseado em formulário está disponível para testes A/B, direcionamento de experiência, personalização automatizada e atividades do Recommendations.
-1. Selecione **[!UICONTROL Criador de experiências baseado em forma]** na caixa de diálogo [!UICONTROL Nova atividade].
+1. Selecione **[!UICONTROL Criador de experiências baseado em forma]** na caixa de diálogo [!UICONTROL Criar Atividade].
+
+1. (Condicional) Escolha um espaço de trabalho e uma propriedade.
+
+1. Clique em **[!UICONTROL Avançar]**.
 
    O Experience Composer baseado em formulário irá abrir.
 
    ![](assets/location_refinements.png)
 
    Essa tela é diferente se você estiver criando uma atividade do Recommendations. Atividades do Recommendations não incluem experiências.
-1. Nomeie a atividade.
+1. Dê um nome à atividade clicando em &quot;[!UICONTROL Atividade sem título]&quot;.
 1. Selecione um local.
 
    Quando você clica na caixa [!UICONTROL Selecionar local], uma lista de locais disponíveis é exibida. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha &quot;target-global-mbox.&quot;
@@ -64,9 +68,9 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 
    **Alterar fragmento de experiência:** escolha um fragmento de experiência.
 
-   **Alterar oferta de redirecionamento:** escolha uma oferta de redirecionamento.
+   **Alterar oferta de redirecionamento:** escolha uma oferta de redirecionamento. Para obter mais informações, consulte [Criar ofertas de redirecionamento](/help/c-experiences/c-manage-content/offer-redirect.md).
 
-   **Alterar oferta remota:** escolha uma oferta remota.
+   **Alterar oferta remota:** escolha uma oferta remota. Para obter mais informações, consulte [Criar ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md).
 
    **Criar uma oferta HTML:**
 
