@@ -4,10 +4,10 @@ description: Como faço para criar pastas na biblioteca do Oferta?
 title: Criar uma pasta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 11%
+source-wordcount: '245'
+ht-degree: 21%
 
 ---
 
@@ -30,17 +30,7 @@ O processo para criar pastas para ofertas de código e ofertas de imagem é lige
 
 1. Clique em **[!UICONTROL Criar]**.
 
-### Opções de ofertas de código
-
-Ao exibir a página [!UICONTROL Ofertas de código], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
-
-![Ícones de flutuação na guia Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
-
-* **Informações**: Visualização das informações da oferta.
-* **Editar**: Edite a pasta ou a oferta.
-* **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
-* **Mover**: Clique no ícone Mover, navegue até o local para o qual deseja mover a oferta ou pasta e clique no  **** Dropicon. Por exemplo, você pode mover uma ou mais pastas para outra pasta para criar subpastas. Clique em [!UICONTROL Limpar seleção] para desmarcar as ofertas ou pastas selecionadas.
-* **Excluir**: Exclua a oferta ou pasta.
+Para obter informações sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de ativos](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Pastas de oferta de imagens
 
@@ -66,46 +56,4 @@ Ao exibir a página [!UICONTROL Ofertas de código], você pode executar as segu
 
 1. Clique em **[!UICONTROL Criar]**.
 
-### Alternar entre a Visualização da placa e a Visualização da Lista
-
-Para alternar entre [!UICONTROL Visualização de cartão] e [!UICONTROL Visualização de Lista], clique no ícone [!UICONTROL Visualização de cartão] ou no ícone [!UICONTROL Visualização] no canto superior direito da biblioteca de conteúdo. Você também pode usar [!UICONTROL Configurações de Visualização] para configurar ainda mais as colunas ao visualizar a [!UICONTROL Visualização de Lista].
-
-A ilustração a seguir mostra as opções disponíveis ao visualizar a Visualização [!UICONTROL Lista]:
-
-![Opções de Visualização de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
-### Opções de Ofertas de imagem
-
-Ao exibir a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
-
-A ilustração a seguir mostra os ícones de flutuação ao visualizar a [!UICONTROL Visualização de cartão].
-
-![Ícones de flutuação na guia Ofertas de imagem quando estiver na Visualização da placa](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
-
-A ilustração a seguir mostra os ícones de flutuação ao visualizar a Visualização [!UICONTROL Lista]. Para exibir os ícones, clique em um item na lista.
-
-![Ícones de flutuação na guia Ofertas de imagem quando em Visualização de Lista](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
-
-* **Selecione**: Selecione uma ou mais pastas nas quais executar as seguintes ações:
-
-   * Baixar
-   * Copiar
-   * Mover
-   * Excluir
-
-   Selecione uma ou mais ofertas de imagem para executar as seguintes ações:
-
-   * Compartilhar
-   * Baixar
-   * Propriedades da exibição
-   * Editar
-   * Anotar
-   * Mover 
-
-
-* **Download**: Baixe a oferta da imagem ou a pasta e seu conteúdo.
-* **Propriedades** da visualização: Visualização das propriedades do item. Certifique-se de clicar na guia [!UICONTROL Basic] e na guia [!UICONTROL Advanced] para visualização de todas as informações disponíveis.
-* **Mais ações**: Exiba opções adicionais quando estiver na Visualização [!UICONTROL  da ]placa.
-* **Editar**: Edite a pasta ou a oferta.
-* **Anotar**: Adicione anotações à oferta de imagem.
-* **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
+Para obter informações sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de ativos](/help/c-experiences/c-manage-content/assets-working.md).
