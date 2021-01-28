@@ -4,9 +4,9 @@ description: Como faço para criar pastas na biblioteca do Oferta?
 title: Criar uma pasta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 21%
 
 ---
@@ -62,13 +62,15 @@ Ao visualizar a página [!UICONTROL Ofertas de código], você pode executar as 
 
    Especifica que você e outros podem reorganizar a posição da pasta na exibição de lista.
 
-1. (Opcional) Para alternar entre [!UICONTROL Visualização de cartão] e [!UICONTROL Visualização de Lista], clique no ícone [!UICONTROL Visualização de cartão] ou no ícone [!UICONTROL Visualização de Lista] no canto superior direito da biblioteca de conteúdo. Você também pode usar [!UICONTROL Configurações de Visualização] para configurar ainda mais as colunas ao visualizar a [!UICONTROL Visualização de Lista].
-
-   A ilustração a seguir mostra as opções disponíveis ao visualizar a Visualização [!UICONTROL Lista]:
-
-   ![Opções de Visualização de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. Clique em **[!UICONTROL Criar]**.
+
+### Alternar entre a Visualização da placa e a Visualização da Lista
+
+Para alternar entre [!UICONTROL Visualização de cartão] e [!UICONTROL Visualização de Lista], clique no ícone [!UICONTROL Visualização de cartão] ou no ícone [!UICONTROL Visualização] no canto superior direito da biblioteca de conteúdo. Você também pode usar [!UICONTROL Configurações de Visualização] para configurar ainda mais as colunas ao visualizar a [!UICONTROL Visualização de Lista].
+
+A ilustração a seguir mostra as opções disponíveis ao visualizar a Visualização [!UICONTROL Lista]:
+
+![Opções de Visualização de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### Opções de Ofertas de imagem
 
