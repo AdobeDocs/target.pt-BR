@@ -4,10 +4,10 @@ description: Como faço para criar pastas na biblioteca do Oferta?
 title: Criar uma pasta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 21%
+source-wordcount: '588'
+ht-degree: 11%
 
 ---
 
@@ -32,14 +32,14 @@ O processo para criar pastas para ofertas de código e ofertas de imagem é lige
 
 ### Opções de ofertas de código
 
-Ao visualizar a página [!UICONTROL Ofertas de código], você pode executar as seguintes ações na pasta ao passar o curso do mouse sobre ela e selecionando o ícone apropriado.
+Ao exibir a página [!UICONTROL Ofertas de código], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
 
 ![Ícones de flutuação na guia Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Informações**: Visualização das informações da oferta.
 * **Editar**: Edite a pasta ou a oferta.
 * **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
-* **Mover**: Clique no ícone Mover, navegue até o local para o qual deseja mover a pasta e clique no  **** Dropicon. Por exemplo, você pode mover uma ou mais pastas para outra pasta para criar subpastas. Clique em [!UICONTROL Limpar seleção] para desmarcar as ofertas ou pastas selecionadas.
+* **Mover**: Clique no ícone Mover, navegue até o local para o qual deseja mover a oferta ou pasta e clique no  **** Dropicon. Por exemplo, você pode mover uma ou mais pastas para outra pasta para criar subpastas. Clique em [!UICONTROL Limpar seleção] para desmarcar as ofertas ou pastas selecionadas.
 * **Excluir**: Exclua a oferta ou pasta.
 
 ## Pastas de oferta de imagens
@@ -51,7 +51,9 @@ Ao visualizar a página [!UICONTROL Ofertas de código], você pode executar as 
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Pasta]**.
 1. Especifique um **[!UICONTROL Título]** descritivo para a pasta.
 
-   Por exemplo, você pode incluir o tipo de conteúdo que ela irá armazenar. O nome não pode conter os seguintes caracteres: Sinal de porcentagem `%`,Barra para frente `/`,Barra invertida `\`, Colon `:`, Asterisco `*`, Ponto de interrogação `?`, Duplos entre `"`, Colchete quadrado `[`, Colchete quadrado `]`, Sinal de mais: `+`, Pipe: `|`, Período: `.`, Sinal de número: `#`, Colchete ondulado: `{`, Colchete ondulado `}`, Cursor `^` ou Semicolon `;`. Você pode usar um hífen ( `- `) em vez desses caracteres.
+   Por exemplo, você pode incluir o tipo de conteúdo que ela irá armazenar.
+
+   O nome não pode conter os seguintes caracteres: Sinal de porcentagem `%`,Barra para frente `/`,Barra invertida `\`, Colon `:`, Asterisco `*`, Ponto de interrogação `?`, Duplos entre `"`, Colchete quadrado `[`, Colchete quadrado `]`, Sinal de mais: `+`, Pipe: `|`, Período: `.`, Sinal de número: `#`, Colchete ondulado: `{`, Colchete ondulado `}`, Cursor `^` ou Semicolon `;`. Você pode usar um hífen ( `- `) em vez desses caracteres.
 
 1. (Opcional) Edite o **[!UICONTROL Nome]**.
 1. (Opcional) Marque a caixa de seleção **[!UICONTROL Privado]**.
@@ -60,7 +62,7 @@ Ao visualizar a página [!UICONTROL Ofertas de código], você pode executar as 
 
 1. (Opcional) Marque a caixa de seleção **[!UICONTROL Reordenar em Visualização de Lista]**.
 
-   Especifica que você e outros podem reorganizar a posição da pasta na exibição de lista.
+   Especifica que você e outras pessoas podem reordenar a posição da pasta na Visualização [!UICONTROL Lista].
 
 1. Clique em **[!UICONTROL Criar]**.
 
@@ -74,7 +76,7 @@ A ilustração a seguir mostra as opções disponíveis ao visualizar a Visualiz
 
 ### Opções de Ofertas de imagem
 
-Ao visualizar a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações na pasta ao passar o cursor do mouse sobre ela e selecionar o ícone apropriado.
+Ao exibir a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
 
 A ilustração a seguir mostra os ícones de flutuação ao visualizar a [!UICONTROL Visualização de cartão].
 
