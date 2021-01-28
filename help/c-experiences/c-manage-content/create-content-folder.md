@@ -1,83 +1,107 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Crie uma pasta para armazenar itens na biblioteca do Oferta no Adobe Target.
+description: Como faço para criar pastas na biblioteca do Oferta?
 title: Criar uma pasta de ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 93%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
 
-# Criar uma pasta de ofertas
+# Criar pastas de oferta
 
-Crie uma pasta para armazenar itens na biblioteca do Oferta no Adobe Target.
+Crie pastas na biblioteca de Ofertas do Adobe Target para armazenar ofertas de código, ofertas de imagem e outras pastas para criar uma estrutura de subpastas.
 
-1. Clique em **[!UICONTROL Ofertas]** e selecione a guia **[!UICONTROL Ofertas de código]** ou **[!UICONTROL Ofertas de imagem]**, conforme apropriado.
+O processo para criar pastas para ofertas de código e ofertas de imagem é ligeiramente diferente. As seguintes seções contêm mais informações.
+
+## Pastas de oferta de código
+
+1. Clique em **[!UICONTROL Oferta]** > **[!UICONTROL Ofertas de código]**.
+
+   ![Guia Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Pasta]**.
-1. Preencha os campos:
 
-   | Campo | Descrição |
-   |--- |--- |
-   | Título (aplicável somente a ofertas de imagem) | Especifique um nome descritivo para a pasta. Por exemplo, você pode incluir o tipo de conteúdo que ela irá armazenar.<br>O nome não pode conter os seguintes caracteres:<br>sinal de porcentagem `%`<br>barra `/`<br>Barra invertida `\`<br>dois pontos `:`<br>asterisco `*`<br>interrogação `?`<br>aspas duplas `"`<br>colchetes `[`<br>colchete `]`<br>sinal de positivo: `+`<br>barra vertical: `|`<br>ponto: `.`<br>sinal numérico: `#`<br>aspas: `{`<br>aspa `}`<br>sinal de intercalação `^`<br>ponto e vírgula `;`<br>Você pode usar um hífen (`- `) em vez desses caracteres. |
-   | Nome (aplicável a ofertas de código e de imagem) | Edite o nome, se quiser. |
-   | Privacidade (aplicável somente a ofertas de imagem) | Especifica que a pasta é privada para que somente você possa vê-la e seu conteúdo. |
-   | Reorganizável na exibição de lista (aplicável somente a ofertas de imagem) | Especifica que você e outros podem reorganizar a posição da pasta na exibição de lista.<br>Para alternar entre exibição de cartão e exibição de lista, clique no ícone Exibição de cartão ou no ícone Exibição de lista no canto superior direito da biblioteca de conteúdo. Você também pode selecionar as Configurações de visualização para incluírem ou excluírem colunas na exibição de lista. |
+1. Forneça um nome descritivo para a pasta.
 
 1. Clique em **[!UICONTROL Criar]**.
 
-## Opções de ofertas de código
+### Opções de ofertas de código
 
 Ao visualizar a página [!UICONTROL Ofertas de código], você pode executar as seguintes ações na pasta ao passar o curso do mouse sobre ela e selecionando o ícone apropriado.
 
-### Informações ![](assets/icon_info.png)
+![Ícones de flutuação na guia Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-Ver as informações da pasta.
+* **Informações**: Visualização das informações da oferta.
+* **Editar**: Edite a pasta ou a oferta.
+* **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
+* **Mover**: Clique no ícone Mover, navegue até o local para o qual deseja mover a pasta e clique no  **** Dropicon. Por exemplo, você pode mover uma ou mais pastas para outra pasta para criar subpastas. Clique em [!UICONTROL Limpar seleção] para desmarcar as ofertas ou pastas selecionadas.
+* **Excluir**: Exclua a oferta ou pasta.
 
-### Editar ![](assets/icon_edit.png)
+## Pastas de oferta de imagens
 
-Editar a pasta.
+1. Clique em **[!UICONTROL Oferta]** > **[!UICONTROL Ofertas de imagem]**.
 
-### Copiar   ![](assets/icon_copy.png)
+   ![Guia Ofertas de imagem](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-Copiar a pasta.
+1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Pasta]**.
+1. Especifique um **[!UICONTROL Título]** descritivo para a pasta.
 
-### Mover   ![](assets/icon_move_folder.png)
+   Por exemplo, você pode incluir o tipo de conteúdo que ela irá armazenar. O nome não pode conter os seguintes caracteres: Sinal de porcentagem `%`,Barra para frente `/`,Barra invertida `\`, Colon `:`, Asterisco `*`, Ponto de interrogação `?`, Duplos entre `"`, Colchete quadrado `[`, Colchete quadrado `]`, Sinal de mais: `+`, Pipe: `|`, Período: `.`, Sinal de número: `#`, Colchete ondulado: `{`, Colchete ondulado `}`, Cursor `^` ou Semicolon `;`. Você pode usar um hífen ( `- `) em vez desses caracteres.
 
-Clique no ícone, navegue até o local onde deseja mover a pasta e clique no ícone Soltar.
+1. (Opcional) Edite o **[!UICONTROL Nome]**.
+1. (Opcional) Marque a caixa de seleção **[!UICONTROL Privado]**.
 
-Por exemplo, você pode mover uma ou mais pastas para dentro de outra pasta para criar subpastas.
+   Especifica que a pasta é privada para que somente você possa vê-la e seu conteúdo.
 
-Clique em Apagar seleção para desmarcar as pastas que você selecionou.
+1. (Opcional) Marque a caixa de seleção **[!UICONTROL Reordenar em Visualização de Lista]**.
 
-### Excluir ![](assets/icon_delete.png)
+   Especifica que você e outros podem reorganizar a posição da pasta na exibição de lista.
 
-Excluir a pasta.
+1. (Opcional) Para alternar entre [!UICONTROL Visualização de cartão] e [!UICONTROL Visualização de Lista], clique no ícone [!UICONTROL Visualização de cartão] ou no ícone [!UICONTROL Visualização de Lista] no canto superior direito da biblioteca de conteúdo. Você também pode usar [!UICONTROL Configurações de Visualização] para configurar ainda mais as colunas ao visualizar a [!UICONTROL Visualização de Lista].
 
-## Opções de Ofertas de imagem
+   A ilustração a seguir mostra as opções disponíveis ao visualizar a Visualização [!UICONTROL Lista]:
 
-Ao visualizar a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações na pasta ao passar o cursor do mouse sobre ela e selecionar o ícone apropriado:
+   ![Opções de Visualização de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-### Selecionar ![](assets/icon_check.png)
+1. Clique em **[!UICONTROL Criar]**.
 
-Selecione uma ou mais pastas para executar as seguintes funções:
+### Opções de Ofertas de imagem
 
-* Baixar
-* Copiar
-* Mover
-* Excluir
+Ao visualizar a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações na pasta ao passar o cursor do mouse sobre ela e selecionar o ícone apropriado.
 
-### Baixar ![](assets/icon_download.png)
+A ilustração a seguir mostra os ícones de flutuação ao visualizar a [!UICONTROL Visualização de cartão].
 
-Baixa a pasta e seu conteúdo.
+![Ícones de flutuação na guia Ofertas de imagem quando estiver na Visualização da placa](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-### Compartilhar na Adobe Creative Cloud ![](assets/icon_creative_cloud.png)
+A ilustração a seguir mostra os ícones de flutuação ao visualizar a Visualização [!UICONTROL Lista]. Para exibir os ícones, clique em um item na lista.
 
-Compartilha a pasta e seu conteúdo na Adobe Creative Cloud.
+![Ícones de flutuação na guia Ofertas de imagem quando em Visualização de Lista](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-### Copiar   ![](assets/icon_copy_content.png)
+* **Selecione**: Selecione uma ou mais pastas nas quais executar as seguintes ações:
 
-Copia a pasta e seu conteúdo.
+   * Baixar
+   * Copiar
+   * Mover
+   * Excluir
+
+   Selecione uma ou mais ofertas de imagem para executar as seguintes ações:
+
+   * Compartilhar
+   * Baixar
+   * Propriedades da exibição
+   * Editar
+   * Anotar
+   * Mover 
+
+
+* **Download**: Baixe a oferta da imagem ou a pasta e seu conteúdo.
+* **Propriedades** da visualização: Visualização das propriedades do item. Certifique-se de clicar na guia [!UICONTROL Basic] e na guia [!UICONTROL Advanced] para visualização de todas as informações disponíveis.
+* **Mais ações**: Exiba opções adicionais quando estiver na Visualização [!UICONTROL  da ]placa.
+* **Editar**: Edite a pasta ou a oferta.
+* **Anotar**: Adicione anotações à oferta de imagem.
+* **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
