@@ -4,9 +4,9 @@ description: Informações sobre problemas conhecidos para esta versão do Adobe
 title: Problemas conhecidos e problemas resolvidos no Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '4337'
+source-wordcount: '4365'
 ht-degree: 69%
 
 ---
@@ -75,6 +75,7 @@ Estes são problemas conhecidos das atividades [!UICONTROL Recommendations]:
    * Duplicado da atividade
    * Habilitar promoções novamente em cada atividade
 
+* Quando [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo JSON. No entanto, se você retornar um design JSON Recommendations, ele retornará com um tipo de HTML.
 * As entidades expiraram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. (IRI-857)
 * As sobreposições &quot;Informações de uso&quot; para critérios e desenhos não refletem seu uso nas atividades A/B e direcionamento de experiência (TGT-34331)
 * As ofertas de recomendações nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja de recomendações (TGT-33426)
