@@ -1,40 +1,88 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Há várias tarefas que você pode executar em um ativo na biblioteca no Adobe Target.
+description: Como trabalho com ativos na biblioteca de conteúdo
 title: Trabalhar com conteúdo na biblioteca
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 90%
+source-wordcount: '727'
+ht-degree: 37%
 
 ---
 
 
-# Trabalhar com conteúdo na biblioteca
+# Trabalhar com conteúdo na biblioteca de ativos
 
-Informações sobre as tarefas que você pode executar em um ativo na Biblioteca de conteúdo em [!DNL Adobe Target].
+Informações sobre as tarefas que você pode executar em um ativo na Biblioteca de conteúdo em [!DNL Adobe Target], incluindo propriedades de anotação, cópia, exclusão, download, edição, compartilhamento e exibição.
 
-1. Clique em **[!UICONTROL Oferta]**, selecione a guia **[!UICONTROL Oferta de código]** ou **[!UICONTROL Oferta de imagem]** e localize o ativo com o qual deseja trabalhar.
+1. Clique em **[!UICONTROL Oferta]** > **[!UICONTROL Ofertas de código]** ou **[!UICONTROL Ofertas de imagem]**.
+
+   ![Guias Ofertas de código e Ofertas de imagem](/help/c-experiences/c-manage-content/assets/offers-both.png)
 
    Para obter mais informações sobre como pesquisar a biblioteca de ofertas e criar Coleções inteligentes, consulte [Filtro e conteúdo de pesquisa](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. Passe o mouse sobre o item que deseja trabalhar e selecione uma ação. Para acessar e executar algumas ações abaixo, clique primeiro no ícone Selecionar (a marca de seleção) e escolha a ação desejada (por exemplo, Excluir).
+1. (Opcional) Alterne entre [!UICONTROL Visualização de cartão] e [!UICONTROL Visualização de Lista], clique no ícone [!UICONTROL Visualização de cartão] ou no ícone [!UICONTROL Visualização de Lista] no canto superior direito da biblioteca de conteúdo. Você também pode usar [!UICONTROL Configurações de Visualização] para configurar ainda mais as colunas ao visualizar a [!UICONTROL Visualização de Lista].
 
-   Um menu de opções será exibido abaixo do item. As ações disponíveis incluem:
+   A ilustração a seguir mostra as opções disponíveis ao visualizar a Visualização [!UICONTROL Lista]:
 
-   | Ação | Tipo de ativo | Descrição |
-   |--- |--- |--- |
-   | Anotar | Imagem | Adicionar uma observação ao ativo. Clique no ativo, selecione a área que deseja anotar e digite a sua observação. |
-   | Copiar | Experiência<br>Imagem<br>Pasta<br>Texto/HTML | Copie o ativo para a área de transferência. |
-   | Excluir | Experiência<br>Imagem<br>Pasta<br>Texto/HTML | Exclua o ativo.<br>É possível excluir uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.<br>Se você excluir uma pasta com um grande número de imagens, o processo em execução em segundo plano pode levar algum tempo (vários minutos) antes que a interface do usuário seja atualizada para mostrar o estado final. O tempo necessário é em função do número de imagens, não do tamanho delas. Uma boa estimativa é de dez minutos para 2.000 imagens. Você pode continuar com outros trabalhos e verificar o estado final depois de alguns minutos para confirmar a exclusão.<br> As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas. |
-   | Baixar | Experiência<br>Imagem<br>Texto/HTML | Baixe o ativo para o dispositivo ou computador. |
-   | Editar | Imagem<br>Texto/HTML | Edite o ativo. A tela Editar ativo é aberta, contendo algumas opções de edição, como girar e recortar. |
-   | Compartilhar cartão | Experiência<br>Imagem<br>Texto/HTML | Compartilhe o cartão em outro quadro. Você pode fazer uma anotação, selecionar o quadro para compartilhar e adicionar um comentário sobre o cartão. |
-   | Propriedades da exibição | Experiência<br>Imagem<br>Texto/HTML | Exibir as propriedades do ativo. Clique no ícone de Lápis na página de propriedades para editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença. |
+   ![Opções de Visualização de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-1. Para alterar a imagem que representa um item na biblioteca, clique no item e, em seguida, clique no ícone **[!UICONTROL Propriedades]**, clique em **[!UICONTROL Editar]** e adicione uma imagem.
+1. Execute a ação desejada, conforme explicado nas seguintes seções:
+
+## Opções de ofertas de código
+
+Ao exibir a página [!UICONTROL Ofertas de código], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
+
+![Ícones de flutuação na guia Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
+
+* **Informações**: Visualização das informações da oferta.
+* **Editar**: Edite a pasta ou a oferta.
+* **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
+* **Mover**: Clique no ícone Mover, navegue até o local para o qual deseja mover a oferta ou pasta e clique no  **** Dropicon. Por exemplo, você pode mover uma ou mais pastas para outra pasta para criar subpastas. Clique em [!UICONTROL Limpar seleção] para desmarcar as ofertas ou pastas selecionadas.
+* **Excluir**: Exclua a oferta ou pasta. Consulte [Considerações ao excluir itens](#delete).
+
+## Opções de Ofertas de imagem
+
+Ao exibir a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
+
+A ilustração a seguir mostra os ícones de flutuação ao visualizar a [!UICONTROL Visualização de cartão].
+
+![Ícones de flutuação na guia Ofertas de imagem quando estiver na Visualização da placa](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
+
+A ilustração a seguir mostra os ícones de flutuação ao visualizar a Visualização [!UICONTROL Lista]. Para exibir os ícones, clique em um item na lista.
+
+![Ícones de flutuação na guia Ofertas de imagem quando em Visualização de Lista](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
+
+* **Selecione**: Selecione uma ou mais pastas nas quais executar as seguintes ações:
+
+   * Baixar
+   * Copiar
+   * Mover
+   * Excluir (Consulte [Considerações ao excluir itens](#delete).)
+
+   Selecione uma ou mais ofertas de imagem para executar as seguintes ações:
+
+   * Compartilhar
+   * Baixar
+   * Propriedades da exibição
+   * Editar
+   * Anotar
+   * Mover 
+
+
+* **Download**: Baixe a oferta da imagem ou a pasta e seu conteúdo.
+* **Propriedades** da visualização: Visualização das propriedades do item. Certifique-se de clicar na guia [!UICONTROL Basic] e na guia [!UICONTROL Advanced] para visualização de todas as informações disponíveis. Clique no ícone de Lápis na página de propriedades para editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença.
+* **Mais ações**: Exiba opções adicionais quando estiver na Visualização [!UICONTROL  da ]placa.
+* **Editar**: Edite a pasta ou a oferta.
+* **Anotar**: Adicione uma nota ao ativo. Clique no ativo, selecione a área que deseja anotar e digite a sua observação.
+* **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
+
+## Considerações ao excluir itens {#delete}
+
+* É possível excluir uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.
+* Se você excluir uma pasta com um grande número de imagens, o processo em execução em segundo plano pode levar algum tempo (vários minutos) antes que a interface do usuário seja atualizada para mostrar o estado final. O tempo necessário é em função do número de imagens, não do tamanho delas. Uma boa estimativa é de dez minutos para 2.000 imagens. Você pode continuar com outros trabalhos e verificar o estado final depois de alguns minutos para confirmar a exclusão.
+* As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas.
 
 ## Vídeo de treinamento: O selo ![Visão geral do repositório de conteúdo](/help/assets/overview.png)
 
