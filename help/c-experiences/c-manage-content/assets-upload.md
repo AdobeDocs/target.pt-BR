@@ -1,29 +1,42 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Você pode adicionar itens à lista Ofertas de imagem no Adobe Target.
+description: Como fazer upload de imagens para usar como ofertas de imagem?
 title: Upload de conteúdo
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 68%
+source-wordcount: '215'
+ht-degree: 17%
 
 ---
 
 
 # Upload de conteúdo
 
-Você pode adicionar ou remover itens da lista Ofertas de imagem em [!DNL Adobe Target].
+Você pode carregar imagens para a lista [!UICONTROL Ofertas de imagem] em [!DNL Adobe Target] para usar como ofertas de imagem no atividade. Também é possível excluir ofertas de imagem quando elas não são mais necessárias no atividade.
 
-1. Clique em **[!UICONTROL Ofertas]** e selecione a guia **[!UICONTROL Ofertas de imagem]**.
+## Adicionar ofertas de imagem à lista
+
+1. Clique em **[!UICONTROL Oferta]** > **[!UICONTROL Ofertas de imagem]**.
+
+   ![Ofertas > Ofertas de imagem](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Arquivos]**.
-1. Selecione o item que deseja adicionar e clique em **[!UICONTROL Abrir]**.
-1. Edite o nome do arquivo do item, conforme necessário, e clique em **[!UICONTROL Fazer upload]**.
+1. Navegue até o item que deseja adicionar e selecione-o e clique em **[!UICONTROL Abrir]**.
+1. Edite o nome de arquivo do item, se necessário, e clique em **[!UICONTROL Carregar]**.
 
-   O item é carregado para a biblioteca.
+## Excluir ofertas ou pastas de imagens
 
-## Vídeo de treinamento: o repositório de conteúdo  ![Etiqueta de visão geral](/help/assets/overview.png)
+Para alternar entre [!UICONTROL Visualização de cartão] e [!UICONTROL Visualização de Lista], clique no ícone [!UICONTROL Visualização de cartão] ou no ícone [!UICONTROL Visualização] no canto superior direito da biblioteca de conteúdo.
+
+Na [!UICONTROL Visualização de cartão], passe o cursor do mouse sobre a oferta ou pasta de imagem desejada, clique no ícone **[!UICONTROL Selecionar]** (a marca de seleção) e, em seguida, clique em **[!UICONTROL Excluir]**.
+
+Na [!UICONTROL Visualização de Lista], clique na imagem em miniatura no lado esquerdo da lista para selecionar a oferta ou pasta de imagem desejada e, em seguida, clique em **[!UICONTROL Excluir]**, conforme mostrado abaixo:
+
+![Excluir item selecionado](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
+
+## Vídeo de treinamento: O selo ![Visão geral do repositório de conteúdo](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 
