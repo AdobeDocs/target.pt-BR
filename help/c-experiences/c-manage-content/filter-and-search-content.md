@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: Pesquise recursos por palavras-chave e salve as pastas de pesquisa, chamadas de coleções inteligentes, que são atualizadas automaticamente com os resultados da pesquisa.
+description: Como pesquisar ativos por palavras-chave e salvar pastas de pesquisa?
 title: Pesquisar o conteúdo e criar coleções inteligentes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ Pesquise recursos por palavras-chave e salve as pastas de pesquisa, chamadas de 
 
 Esta seção contém as seguintes informações:
 
-* [Pesquisar por ativos usando palavra-chave](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Salvar conjunto inteligente](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## Pesquisar por ativos usando palavra-chave   {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Procurar ativos por palavra-chave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagem]** para acessar a [!UICONTROL Biblioteca de ativos].
 
