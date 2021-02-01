@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 31%
 
 ---
@@ -20,7 +20,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 1 de fevereiro | [Relatórios de resumo de Automated Personalization](/help/c-reports/reports-ap.md) | Nova seção adicionada: &quot;Diferenças nos dados entre os relatórios de Nível de Atividade e Nível de Oferta.&quot; |
+| 1 de fevereiro | [Relatórios de resumo de Automated Personalization](/help/c-reports/reports-ap.md) | Nova seção adicionada: &quot;Perguntas frequentes.&quot; |
 | Janeiro de 27 | [Criar Ofertas de redirecionamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Tópico atualizado. |
 |  | [Criar ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md) | Tópico atualizado. |
 | Janeiro de 26 | [Índice de conversão](/help/c-reports/conversion-rate.md) | Esclareceu como o Público alvo usa a &quot;soma dos quadrados&quot; nos testes T-T do aluno. |
