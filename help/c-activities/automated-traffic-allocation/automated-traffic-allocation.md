@@ -4,9 +4,9 @@ description: Uma atividade de Autoalocação no Adobe Target identifica um vence
 title: Alocação automática
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3373'
 ht-degree: 73%
 
 ---
@@ -136,7 +136,7 @@ Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com as 
 
 ### O Analytics for Público alvo (A4T) oferece suporte à Autoalocação de atividades?
 
-Sim. Para obter mais informações, consulte [Suporte do Analytics para Públicos alvos (A4T) para Autoalocar atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) em *criação de Atividades*.
+Sim. Para obter mais informações, consulte [Suporte A4T para a Autoalocação e Público alvo de atividades](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Os visitantes recorrentes são realocados automaticamente a experiências de alto desempenho?
 
