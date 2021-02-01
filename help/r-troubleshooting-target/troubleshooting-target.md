@@ -4,9 +4,9 @@ description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Targ
 title: Solução de problemas do Adobe Target
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 98%
 
 ---
@@ -43,6 +43,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 * [Perguntas frequentes sobre a personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Solução de problemas de personalização automatizada](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Relatórios de resumo de Automated Personalization](/help/c-reports/reports-ap.md)
 
 ### Teste multivariado (MVT)
 
