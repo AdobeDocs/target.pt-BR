@@ -4,10 +4,10 @@ description: Como usar os relatórios de Resumo da Automated Personalization?
 title: Relatórios de resumo de Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 43%
+source-wordcount: '631'
+ht-degree: 44%
 
 ---
 
@@ -55,16 +55,6 @@ As ofertas podem ser mostradas em grupos de relatórios, e esses grupos de relat
 >
 >O ícone de relógio indica que o modelo de algoritmo ainda está sendo criado. O ícone de marca de seleção indica que o algoritmo base foi estabelecido.
 
-## Diferenças nos dados entre os relatórios de Nível de Atividade e Nível de Oferta
-
-**[!UICONTROL Atividade ] Levelreport**: Visitas registradas no relatório de  [!UICONTROL Nível de ] Atividade capturam o número de visitas para a(s) experiência(s) de controle vs. tráfego &quot;direcionado&quot;. O tráfego direcionado inclui uma combinação de tráfego de exploração e tráfego personalizado.
-
-**Relatório** de nível de oferta: As impressões gravadas no relatório  [!UICONTROL Níveis de ] Oferta capturam o número de impressões de cada oferta. Portanto, em uma atividade com mais de um local, o número total de visitas registradas no relatório [!UICONTROL Nível de Oferta] em todos os Grupos de Relatórios é igual ao múltiplo do número de visitas registradas para o Controle ou o tráfego Direcionado no relatório [!UICONTROL Nível de Atividade] é igual ao número total de locais na atividade. As impressões de conteúdo padrão que ocorrem em locais onde o conteúdo padrão era uma opção disponível são registradas no grupo de ofertas &quot;Conteúdo padrão&quot;. As impressões de ofertas que não foram atribuídas a um grupo de relatórios são registradas no grupo de ofertas &quot;Não agrupadas&quot;.
-
->[!NOTE]
-
-O número de impressões registradas no relatório [!UICONTROL Nível de Oferta] pode não ser um número inteiro exato de visitas registrado no relatório [!UICONTROL Nível de Atividade]. Isso se deve a pequenas discrepâncias que ocorrem na captura do tráfego de dados do relatórios pela Internet (a taxa de discrepância típica é inferior a 5%). Assim, o número de impressões não será um múltiplo exato quando o número de locais disponíveis na atividade for alterado após a atividade ser ativada.
-
 ## Segmentos automatizados
 
 Clique no ícone [!UICONTROL Segmentos automatizados]. Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
@@ -80,3 +70,15 @@ Clique no ícone [!UICONTROL Atributos importantes]. Este relatório mostra como
 ![Ícone de atributos importantes](/help/c-reports/assets/icon-important-attributes-ap.png)
 
 Para obter mais informações, consulte [Relatório de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+
+## Perguntas frequentes
+
+### Há diferenças nos dados entre os relatórios de Nível de Atividade e Nível de Oferta?
+
+**[!UICONTROL Atividade ] Levelreport**: Visitas registradas no relatório de  [!UICONTROL Nível de ] Atividade capturam o número de visitas para a(s) experiência(s) de controle vs. tráfego &quot;direcionado&quot;. O tráfego direcionado inclui uma combinação de tráfego de exploração e tráfego personalizado.
+
+**Relatório** de nível de oferta: As impressões gravadas no relatório  [!UICONTROL Níveis de ] Oferta capturam o número de impressões de cada oferta. Portanto, em uma atividade com mais de um local, o número total de visitas registradas no relatório [!UICONTROL Nível de Oferta] em todos os Grupos de Relatórios é igual ao múltiplo do número de visitas registradas para o Controle ou o tráfego Direcionado no relatório [!UICONTROL Nível de Atividade] é igual ao número total de locais na atividade. As impressões de conteúdo padrão que ocorrem em locais onde o conteúdo padrão era uma opção disponível são registradas no grupo de ofertas &quot;Conteúdo padrão&quot;. As impressões de ofertas que não foram atribuídas a um grupo de relatórios são registradas no grupo de ofertas &quot;Não agrupadas&quot;.
+
+>[!NOTE]
+
+O número de impressões registradas no relatório [!UICONTROL Nível de Oferta] pode não ser um número inteiro exato de visitas registrado no relatório [!UICONTROL Nível de Atividade]. Isso se deve a pequenas discrepâncias que ocorrem na captura do tráfego de dados do relatórios pela Internet (a taxa de discrepância típica é inferior a 5%). Assim, o número de impressões não será um múltiplo exato quando o número de locais disponíveis na atividade for alterado após a atividade ser ativada.
