@@ -4,9 +4,9 @@ description: Como usar os relatórios de Resumo da Automated Personalization?
 title: Relatórios de resumo de Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 43%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # ![PREMIUM](/help/assets/premium.png) Relatórios de resumo da personalização automatizada
 
-Relatórios especializados estão disponíveis para usuários de [!UICONTROL Automated Personalization] atividades em [!DNL Adobe Target].
+Os relatórios de resumo especializados estão disponíveis para usuários de [!UICONTROL Automated Personalization] atividades em [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ Para obter mais informações, consulte [Relatório de atributos importantes](/h
 **Relatório** de nível de oferta: As impressões gravadas no relatório  [!UICONTROL Níveis de ] Oferta capturam o número de impressões de cada oferta. Portanto, em uma atividade com mais de um local, o número total de visitas registradas no relatório [!UICONTROL Nível de Oferta] em todos os Grupos de Relatórios é igual ao múltiplo do número de visitas registradas para o Controle ou o tráfego Direcionado no relatório [!UICONTROL Nível de Atividade] é igual ao número total de locais na atividade. As impressões de conteúdo padrão que ocorrem em locais onde o conteúdo padrão era uma opção disponível são registradas no grupo de ofertas &quot;Conteúdo padrão&quot;. As impressões de ofertas que não foram atribuídas a um grupo de relatórios são registradas no grupo de ofertas &quot;Não agrupadas&quot;.
 
 >[!NOTE]
-
-O número de impressões registradas no relatório [!UICONTROL Nível de Oferta] pode não ser um número inteiro exato de visitas registrado no relatório [!UICONTROL Nível de Atividade]. Isso se deve a pequenas discrepâncias que ocorrem na captura do tráfego de dados do relatórios pela Internet (a taxa de discrepância típica é inferior a 5%). Assim, o número de impressões não será um múltiplo exato quando o número de locais disponíveis na atividade for alterado após a atividade ser ativada.
+>
+>O número de impressões registradas no relatório [!UICONTROL Nível de Oferta] pode não ser um número inteiro exato de visitas registrado no relatório [!UICONTROL Nível de Atividade]. Isso se deve a pequenas discrepâncias que ocorrem na captura do tráfego de dados do relatórios pela Internet (a taxa de discrepância típica é inferior a 5%). Assim, o número de impressões não será um múltiplo exato quando o número de locais disponíveis na atividade for alterado após a atividade ser ativada.
