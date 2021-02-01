@@ -4,10 +4,10 @@ description: Como usar os relatórios de Resumo da Automated Personalization?
 title: Relatórios de resumo de Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 44%
+source-wordcount: '632'
+ht-degree: 43%
 
 ---
 
@@ -73,7 +73,7 @@ Para obter mais informações, consulte [Relatório de atributos importantes](/h
 
 ## Perguntas frequentes
 
-### Há diferenças nos dados entre os relatórios de Nível de Atividade e Nível de Oferta?
+### Por que existem diferenças nos dados entre os relatórios de Nível de Atividade e Nível de Oferta?
 
 **[!UICONTROL Atividade ] Levelreport**: Visitas registradas no relatório de  [!UICONTROL Nível de ] Atividade capturam o número de visitas para a(s) experiência(s) de controle vs. tráfego &quot;direcionado&quot;. O tráfego direcionado inclui uma combinação de tráfego de exploração e tráfego personalizado.
 
