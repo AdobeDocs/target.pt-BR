@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Relatórios especializados estão disponíveis para usuários do Automated Personalization atividade no Adobe Target.
+description: Como usar os relatórios de Resumo da Automated Personalization?
 title: Relatórios de resumo de Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 72%
+source-wordcount: '626'
+ht-degree: 43%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Relatórios de resumo da personalização automatizada{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) Relatórios de resumo da personalização automatizada
 
 Relatórios especializados estão disponíveis para usuários de [!UICONTROL Automated Personalization] atividades em [!DNL Adobe Target].
 
@@ -24,9 +24,14 @@ Relatórios especializados estão disponíveis para usuários de [!UICONTROL Aut
 
    Se você tiver muitas atividades, pode filtrar a lista ao selecionar [!UICONTROL Personalização automatizada] na lista suspensa [!UICONTROL Tipo].
 
-1. (Opcional) Clique no ícone de [!UICONTROL Baixar] para baixar a exibição resumida (por exemplo, comparação de tráfego de Controle e Direcionado) conforme detalhado por todas as métricas de sucesso disponíveis.
+1. (Opcional) Clique no ícone de **[!UICONTROL Baixar]** para baixar a exibição resumida (por exemplo, comparação de tráfego de Controle e Direcionado) conforme detalhado por todas as métricas de sucesso disponíveis.
 
 [!UICONTROL Personalização automatizada] fornece os relatórios a seguir:
+
+* Nível de atividade
+* Nível de oferta
+* Segmentos automatizados
+* Atributos importantes
 
 ## Relatório de nível de atividade {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -48,7 +53,17 @@ As ofertas podem ser mostradas em grupos de relatórios, e esses grupos de relat
 
 >[!NOTE]
 >
->O ícone de relógio indica que o modelo de algoritmo ainda está sendo criado. O ícone de marca de verificação indica que o algoritmo de base foi estabelecido.
+>O ícone de relógio indica que o modelo de algoritmo ainda está sendo criado. O ícone de marca de seleção indica que o algoritmo base foi estabelecido.
+
+## Diferenças nos dados entre os relatórios de Nível de Atividade e Nível de Oferta
+
+**[!UICONTROL Atividade ] Levelreport**: Visitas registradas no relatório de  [!UICONTROL Nível de ] Atividade capturam o número de visitas para a(s) experiência(s) de controle vs. tráfego &quot;direcionado&quot;. O tráfego direcionado inclui uma combinação de tráfego de exploração e tráfego personalizado.
+
+**Relatório** de nível de oferta: As impressões gravadas no relatório  [!UICONTROL Níveis de ] Oferta capturam o número de impressões de cada oferta. Portanto, em uma atividade com mais de um local, o número total de visitas registradas no relatório [!UICONTROL Nível de Oferta] em todos os Grupos de Relatórios é igual ao múltiplo do número de visitas registradas para o Controle ou o tráfego Direcionado no relatório [!UICONTROL Nível de Atividade] é igual ao número total de locais na atividade. As impressões de conteúdo padrão que ocorrem em locais onde o conteúdo padrão era uma opção disponível são registradas no grupo de ofertas &quot;Conteúdo padrão&quot;. As impressões de ofertas que não foram atribuídas a um grupo de relatórios são registradas no grupo de ofertas &quot;Não agrupadas&quot;.
+
+>[!NOTE]
+
+O número de impressões registradas no relatório [!UICONTROL Nível de Oferta] pode não ser um número inteiro exato de visitas registrado no relatório [!UICONTROL Nível de Atividade]. Isso se deve a pequenas discrepâncias que ocorrem na captura do tráfego de dados do relatórios pela Internet (a taxa de discrepância típica é inferior a 5%). Assim, o número de impressões não será um múltiplo exato quando o número de locais disponíveis na atividade for alterado após a atividade ser ativada.
 
 ## Segmentos automatizados
 
