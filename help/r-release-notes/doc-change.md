@@ -4,9 +4,9 @@ description: Esta página lista alterações importantes feitas na documentaçã
 title: Alterações na documentação do produto Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3488'
 ht-degree: 31%
 
 ---
@@ -99,7 +99,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 |  | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | A linha &quot;user.header(&#39;x-nada-encaminhado-para&#39;)&quot; foi atualizada para indicar que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; foi descontinuado. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão 20.9.1 do Target Standard/Premium (30 de setembro de 2020). |
 | 15 de setembro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 20.8.3, que inclui o suporte do Analytics para Públicos alvos (A4T) para atividades de Público alvo automático. O suporte para a Autoalocação de atividades foi adicionado em uma versão anterior. |
-|  | [Suporte do Analytics para Públicos alvos (A4T) para alocação automática e atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) de Público alvo automático. | Foram adicionadas informações sobre o suporte a A4T nas atividades de Público alvo automático. |
+|  | [Suporte A4T para autoalocação e Público alvo automático de atividades](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Foram adicionadas informações sobre o suporte a A4T nas atividades de Público alvo automático. |
 |  | [Bookmarklet de controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Texto atualizado para indicar que o método para se forçar manualmente para fora do modo de QA carregando uma página no site com o parâmetro `at_preview_token` com um valor vazio se aplica ao at.js 1.somente *x.* |
 |  | [Pesquisa no catálogo](/help/c-recommendations/c-products/catalog-search.md) | Atualização de todo o tópico. |
 | 10 de setembro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do Target Standard/Premium 20.9.2 que inclui o seguinte novo recurso: Controle os slots de recomendações em sequências de critérios. |
