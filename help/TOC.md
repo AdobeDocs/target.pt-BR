@@ -3,10 +3,10 @@ user-guide-title: Guia do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídias sociais e outros canais digitais.
 translation-type: tm+mt
-source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 90%
+source-wordcount: '1587'
+ht-degree: 89%
 
 ---
 
@@ -175,6 +175,7 @@ ht-degree: 90%
       + [Implementação do Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Exigências de permissão do usuário](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [Crie uma atividade que use o Analytics como a fonte do relatórios](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Suporte A4T para autoalocação e Público alvo automático de atividades](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Usar um servidor de rastreamento do Analytics](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [Relatórios do A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Solução de problemas da integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
