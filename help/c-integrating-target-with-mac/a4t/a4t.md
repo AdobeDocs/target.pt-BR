@@ -4,9 +4,9 @@ description: O "Analytics for Target" (A4T) da Adobe é uma integração entre s
 title: Adobe Analytics como origem de relatório do Adobe Target (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1300'
 ht-degree: 46%
 
 ---
@@ -60,8 +60,8 @@ A tabela a seguir mostra quais tipos de atividade suportam [!DNL Analytics] como
 | Tipos de atividades | O A4T é compatível? | Observações, se aplicável |
 |--- |--- |--- |
 | Atividade A/B com divisão manual de tráfego | Sim |  |
-| Atividade A/B com alocação automática | Sim | Consulte [Suporte do Analytics para Públicos alvos (A4T) para Autoalocar e Público alvo automático de atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| Atividade A/B com direcionamento automático | Sim | Consulte [Suporte do Analytics para Públicos alvos (A4T) para Autoalocar e Público alvo automático de atividades](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| Atividade A/B com alocação automática | Sim | Consulte [Suporte a A4T para Autoalocar e Público alvo automático de atividades](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| Atividade A/B com direcionamento automático | Sim | Consulte [Suporte a A4T para Autoalocar e Público alvo automático atividade](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Direcionamento de experiência (XT) | Sim |  |
 | Teste multivariado (MVT) | Sim | Exige uma meta de métrica de meta baseada em mbox para obter o relatório [!UICONTROL Contribuição do elemento].  O relatório [!UICONTROL Contribuição do elemento] não suporta atualmente as métricas [!DNL Analytics]. |
 | Atividade de personalização automatizada (AP) | Não |  |
