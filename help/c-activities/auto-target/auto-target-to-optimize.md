@@ -4,9 +4,9 @@ description: O Público alvo automático no Adobe Target usa o aprendizado de m�
 title: Visão geral do Público alvo automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL O Analytics for Público alvo] (A4T) oferece suporte para atividades de direcionamento  [!UICONTROL automático ] para usuários. Para obter mais informações, consulte [Criar uma atividade que use o Analytics como a fonte do relatórios](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
+>[!UICONTROL O Analytics for Público alvo] (A4T) oferece suporte para atividades de direcionamento  [!UICONTROL automático ] para usuários. Para obter mais informações, consulte [Suporte A4T para a Autoalocação e Público alvo de atividades](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## História de sucesso real usando o Público alvo automático {#success}
 
