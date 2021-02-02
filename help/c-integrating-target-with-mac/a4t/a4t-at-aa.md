@@ -4,9 +4,9 @@ description: É possível usar o A4T com Público alvo automático e autoalocaç
 title: Suporte A4T para autoalocação e Público alvo automático de atividades
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ Para começar:
 
 1. Selecione **[!UICONTROL Adobe Analytics]** para a sua **[!UICONTROL Origem do Relatórios]** na página **[!UICONTROL Metas e Definições]** e selecione o conjunto de relatórios correspondente à sua meta de otimização desejada.
 
+   ![seção Origem do relatórios na página Metas e configurações](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. Escolha uma métrica de Objetivo principal.
 
    * Escolha **[!UICONTROL Conversão]** para usar [!DNL Adobe Target] para especificar a meta de otimização.
    * Escolha **[!UICONTROL Use uma métrica do Analytics]** e selecione uma métrica de [!DNL Analytics] para usar como objetivo de otimização. Você pode usar uma métrica de conversão [!DNL Analytics] predefinida ou um evento personalizado [!DNL Analytics].
+
+   Consulte [Métricas de objetivo suportadas](#supported) abaixo para obter mais informações.
 
 1. Salve e ative sua atividade.
 
@@ -51,7 +55,7 @@ Para começar:
 
 1. Use a guia **[!UICONTROL Relatórios]** para visualização do relatórios de sua atividade por sua escolha de [!DNL Adobe Analytics] métricas. Clique em **[!UICONTROL Visualização no Analytics]** para detalhar e segmentar ainda mais seus dados de relatórios.
 
-## Métricas de meta suportadas
+## Métricas de meta suportadas {#supported}
 
 [!UICONTROL A4] para  [!UICONTROL autoalocação ] e  [!UICONTROL autodirecionamento, você ] pode escolher qualquer um dos seguintes tipos de métricas como sua principal métrica de meta para otimização:
 
