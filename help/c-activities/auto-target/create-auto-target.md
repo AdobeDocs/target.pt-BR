@@ -1,13 +1,13 @@
 ---
-keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
+keywords: Criar público alvo automático;teste A/B;atividade de público alvo automático;nova atividade a/b;público alvo automático;público alvo automático para experiências personalizadas;personalizado
 description: Use o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B de Público alvo automático diretamente em uma página habilitada por Público alvo e para modificar partes da página no Público alvo.
 title: Criar uma atividade de Público alvo automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 60%
+source-wordcount: '940'
+ht-degree: 58%
 
 ---
 
@@ -121,6 +121,10 @@ Para criar uma atividade [!UICONTROL Público alvo automático]:
 1. Especifique as [metas e configurações](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) da atividade.
 
    ![Configurações de atividade A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Se você quiser usar [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) com essa atividade, consulte informações importantes no suporte [A4T para Autoalocação e atividades de Público alvo automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Clique em **[!UICONTROL Salvar e fechar]** ou **[!UICONTROL Salvar]**.
 
