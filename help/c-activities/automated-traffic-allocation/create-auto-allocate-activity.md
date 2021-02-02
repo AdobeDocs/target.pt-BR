@@ -1,13 +1,13 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: criar autoalocação;teste A/B;autoalocar atividade;nova atividade a/b;autoalocar;autoalocar;autoalocar para a melhor experiência;alocar;autoalocar
 description: Use o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B de autoalocação diretamente em uma página ativada pelo Público alvo e para modificar partes da página no Público alvo.
 title: Criar uma atividade de autoalocação
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 61%
+source-wordcount: '916'
+ht-degree: 58%
 
 ---
 
@@ -119,6 +119,10 @@ Para criar uma atividade [!UICONTROL Autoalocar]:
 1. Especifique as [metas e configurações](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) da atividade.
 
    ![Configurações de atividade A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Se você quiser usar [Analytics para Público alvo](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) com essa atividade, consulte informações importantes no suporte [A4T para Autoalocação e atividades de Público alvo automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Clique em **[!UICONTROL Salvar e fechar]** ou **[!UICONTROL Salvar]**.
 
