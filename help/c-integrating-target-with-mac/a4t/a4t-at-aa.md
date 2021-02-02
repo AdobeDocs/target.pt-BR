@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t; A4T; Analytics como fonte de relatórios para Target
 description: É possível usar o A4T com Público alvo automático e autoalocação de atividades?
 title: Suporte A4T para autoalocação e Público alvo automático de atividades
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ Para começar:
 
    * [!UICONTROL Autoalocar para a melhor experiência]
    * [!UICONTROL Público alvo automático para experiências personalizadas]
+
+   ![Opções de métodos de alocação de tráfego: Manual, Autoalocação e Público alvo automático](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    Para obter mais informações e instruções passo a passo, consulte [Criar uma atividade de Autoalocação](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) e [Criar uma atividade de Público alvo Automático](/help/c-activities/auto-target/create-auto-target.md).
 
