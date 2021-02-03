@@ -1,13 +1,13 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
+keywords: perguntas frequentes; perguntas frequentes; analytics for target; a4T; configuração de atividades
 description: Este tópico contém respostas para as perguntas mais frequentes sobre a configuração de atividades e o uso do Analytics como origem de geração de relatórios para o Target (A4T).
-title: Configurações de atividade - Perguntas frequentes sobre o A4T
+title: Configurações de atividade - Perguntas frequentes sobre a A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 38%
+source-wordcount: '509'
+ht-degree: 39%
 
 ---
 
