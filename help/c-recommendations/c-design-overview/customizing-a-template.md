@@ -1,12 +1,12 @@
 ---
-keywords: custom design;velocity;decimal;comma;customize design
+keywords: design personalizado, velocity, decimal, vírgula, personalizar design
 description: Use a linguagem de design de código aberto Velocity para personalizar designs de recomendação no Adobe Target Recommendations.
-title: Personalizar um design usando a Velocity
+title: Personalize um design usando a velocidade
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1021'
 ht-degree: 61%
 
 ---
