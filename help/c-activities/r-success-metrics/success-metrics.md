@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings;dependency;dependant;Increment Count & Keep User in Activity;Increment Count, Release user, & Allow Reentry;increment Count, Release User, & Bar from Reentry
+keywords: Direcionamento;sucesso;métrica de conversão;métrica de pontuação de página;métrica de visualizações de página;métrica de receita;métrica de tempo no site;valor estimado;configurações avançadas;métricas de sucesso;configurações avançadas;dependência;dependente;Aumentar a contagem e manter o usuário na Atividade;Aumentar a contagem, liberar o usuário e permitir reentrada;aumentar a contagem, liberar o usuário e impedir a reentrada
 description: No Adobe Target, as métricas de sucesso são parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target.
-title: Métricas de sucesso no Adobe Target
+title: Métricas de sucesso
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 47%
+source-wordcount: '1180'
+ht-degree: 46%
 
 ---
 
