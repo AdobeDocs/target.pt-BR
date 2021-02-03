@@ -1,12 +1,12 @@
 ---
-keywords: qa;server side;server-side;preview;preview links
+keywords: qa, lado do servidor, lado do servidor, visualização, visualização de links
 description: Use os URLs de QA da Adobe Target com delivery do lado do servidor para realizar um controle de qualidade de atividade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que permaneça segmentado dos dados de atividade ativa.
 title: Usar o controle de qualidade de atividade com entrega do lado do servidor
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '391'
 ht-degree: 72%
 
 ---
