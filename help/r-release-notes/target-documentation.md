@@ -1,12 +1,12 @@
 ---
-keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: A documentação do Adobe Target é fornecida em vários formatos, incluindo visões gerais, tutoriais e guias para a interface do usuário, SKDs e APIs.
-title: Anúncios de públicos alvos
+keywords: adobe público alvo;público alvo;documentação;api;apis;sdk;sdks;tutorials;doc;documentação
+description: Onde posso encontrar a documentação do Público alvo?
+title: Visão geral da documentação
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
