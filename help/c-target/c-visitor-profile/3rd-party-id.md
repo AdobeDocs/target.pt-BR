@@ -1,13 +1,13 @@
 ---
-keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
-description: 'Informações sobre o perfil em tempo real '
-title: Sincronização de perfil em tempo real para mbox3rdPartyId no Adobe Target
-feature: visitor profiles
+keywords: mbox; mbox3rdPartyId; sincronização de perfil; sincronização de perfil; PCID
+description: Informações sobre o perfil em tempo real
+title: Sincronização de Perfis em tempo real para Mbox3Rdpartyid
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 81%
+source-wordcount: '525'
+ht-degree: 80%
 
 ---
 
