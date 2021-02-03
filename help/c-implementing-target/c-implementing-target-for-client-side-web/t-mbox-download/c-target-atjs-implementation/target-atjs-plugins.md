@@ -1,13 +1,13 @@
 ---
-keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
+keywords: plug-ins do at.js; plug-ins compatíveis; plug-ins incompatíveis; ttMeta; ttmeta; mboxTrack
 description: Informações sobre plug-ins compatíveis e incompatíveis do Adobe Target.
-title: Plug-ins do at.js para Adobe Target
+title: Plug-ins do at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 97%
+source-wordcount: '215'
+ht-degree: 96%
 
 ---
 
