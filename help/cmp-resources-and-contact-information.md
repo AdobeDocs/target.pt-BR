@@ -1,12 +1,12 @@
 ---
-keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
+keywords: contato, jurídico, suporte técnico, suporte téc, suporte, serviço, capacidade, faturamento, feedback
 description: Informações sobre recursos adicionais para ajudá-lo a aprender sobre os recursos do Target e como entrar em contato com a Adobe caso precise de ajuda com o Target.
 title: Informações de Recursos e Contato
-feature: Recommendations
+feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1223'
 ht-degree: 79%
 
 ---
