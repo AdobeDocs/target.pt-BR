@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: páginas do site;páginas do site do público alvo;definição de metas;página atual;página atual do público alvo;página anterior;página anterior do público alvo;página anterior;landing page;landing page do público alvo;cabeçalho http
 description: Você pode público alvo visitantes que estão em uma página específica do site.
-title: Opções de páginas do site no Adobe Target audiência
-feature: audiences
+title: Opções de páginas do site no Audiência
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 43%
+source-wordcount: '883'
+ht-degree: 42%
 
 ---
 
