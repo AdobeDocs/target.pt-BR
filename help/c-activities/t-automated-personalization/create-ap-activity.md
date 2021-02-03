@@ -1,12 +1,12 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+keywords: personalização automatizada;ap;audiência;conjunto;floresta aleatória;variância residual;variação do erro;valor da vida útil;personalização automatizada;ap;;ensemble;random forest;residual variance;error variance;lifetime value
 description: O fluxo de trabalho da atividade Automated Personalization no Adobe Target varia de acordo com o fluxo de trabalho dos outros tipos de atividades.
-title: Criar uma atividade de Automated Personalization
+title: Criar uma Atividade Automated Personalization
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2053'
 ht-degree: 92%
 
 ---
