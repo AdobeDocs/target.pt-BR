@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
+keywords: Recommendations, algoritmos do recommendations, atividade do recommendations, recommendations classic
 description: Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
-title: Atividades do Recommendations Classic versus Recommendations no Target Premium
+title: Recommendations Classic versus Recommendations Atividade no Público alvo Premium
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 98%
 
 ---
 
