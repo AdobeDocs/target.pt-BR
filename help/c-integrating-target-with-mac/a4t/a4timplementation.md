@@ -1,13 +1,13 @@
 ---
-keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
+keywords: A4T; Adobe Analytics; Atividade baseada no Analytics; Conjunto de relatórios do Analytics; conjunto de relatórios; Integração do Analytics Target; configurar conjunto de relatórios
 description: Várias etapas são necessárias para a implementação do Adobe Analytics como a fonte de geração de relatórios para o Target (A4T).
-title: Implementação do Analytics for Target
+title: Análise para implementação do Target
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 50%
+source-wordcount: '911'
+ht-degree: 51%
 
 ---
 
