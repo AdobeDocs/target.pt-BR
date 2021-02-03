@@ -1,14 +1,14 @@
 ---
-keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: chave de recomendação;lógica de recomendação;categoria atual;atributo personalizado;último item comprado;último item visualizado;item mais visualizado;item mais visualizado;categoria favorita;popularidade;item visualizado recentemente;último comprado;último visualizado;mais visualizado;favorito;recentemente visualizado
 description: O Recommendations baseado em chaves usa o contexto de comportamento do visitante para mostrar resultados relevantes no Adobe Target Recommendations atividade.
-title: Basear a recomendação em uma chave de recomendação
+title: Basear a recomendação em uma Chave de recomendação
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2889'
-ht-degree: 69%
+source-wordcount: '2924'
+ht-degree: 68%
 
 ---
 
