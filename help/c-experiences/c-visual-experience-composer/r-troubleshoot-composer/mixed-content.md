@@ -1,12 +1,12 @@
 ---
-keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
+keywords: conteúdo misto;protegido;inseguro;cromo;solução de problemas;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Alguns navegadores bloqueiam a exibição de uma página se o conteúdo seguro estiver misturado com conteúdo inseguro.
-title: Habilitar conteúdo misto em seu navegador
+title: Habilitar conteúdo misto no navegador
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '574'
 ht-degree: 35%
 
 ---
