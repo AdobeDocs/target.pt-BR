@@ -1,13 +1,13 @@
 ---
-keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
+keywords: at.js; depurar o at.js; depurador da adobe Experience Cloud; depurador da Experience Cloud; rastreamento de mbox; realce da mbox; depurar; depuração
 description: Informações sobre o uso da extensão do depurador da Adobe Experience Cloud, que agiliza e facilita a compreensão da implementação do Target.
-title: Depuração da at.js usando o depurador da Adobe Experience Cloud
+title: Depurar o At.Js usando o Adobe Experience Cloud Debugger
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 83%
+source-wordcount: '196'
+ht-degree: 81%
 
 ---
 
