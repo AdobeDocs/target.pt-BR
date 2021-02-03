@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: Direcionamento, fontes de tráfego, fontes de tráfego do target, mecanismo de pesquisa do target, mecanismo de pesquisa, página de aterrissagem, página de aterrissagem do target, página de aterrissagem de referência
 description: Crie públicos-alvo no Adobe Target para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
-title: Opções de fontes de tráfego no Adobe Target audiência
-feature: audiences
+title: Opções de fontes de tráfego no Audiência
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 
