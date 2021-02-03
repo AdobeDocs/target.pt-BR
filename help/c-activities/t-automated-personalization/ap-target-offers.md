@@ -1,14 +1,14 @@
 ---
-keywords: automated personalization;offers;target;audience;targeting rules;targeting
+keywords: personalização automatizada;oferta;público alvo;audiência;regras de definição de metas;definição de metas;personalização automatizada;;;;regras de definição de metas;definição de metas
 description: Em uma atividade de Automated Personalization, você pode direcionar ofertas a públicos específicos.
-title: Ofertas de Personalização automatizada do Target no Adobe Target
+title: 'Automated Personalization Oferta '
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
