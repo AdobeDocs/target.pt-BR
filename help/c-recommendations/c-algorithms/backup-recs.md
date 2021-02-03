@@ -1,13 +1,13 @@
 ---
-keywords: recommendation;backup;back up
+keywords: recomendação, backup, fazer o back up
 description: Se você usar o recurso de recomendação de backup no Adobe Target, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
-title: Usar uma recomendação de backup no Adobe Target Recommendations
+title: Usar uma recomendação de backup no Público alvo Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 83%
+source-wordcount: '526'
+ht-degree: 82%
 
 ---
 
