@@ -1,12 +1,12 @@
 ---
-keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
+keywords: dados parciais; dados parciais; A4T; discrepâncias; analytics para target; órfão; conjunto de relatórios virtual; fictício; solução de problemas; não corrigido; inflacionado; não especificado
 description: Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas de Visitas e Visitantes ao usar o Analytics como origem de geração de relatórios.
 title: Minimizar contagens inflacionadas de visitas e visitantes no A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1363'
 ht-degree: 97%
 
 ---
