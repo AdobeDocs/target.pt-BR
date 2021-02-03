@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
 description: Kit de boas-vindas da Adobe Target - Capítulo 6 - armadilhas facilmente evitáveis
-title: Kit de boas-vindas da Adobe Target - Capítulo 6 - armadilhas facilmente evitáveis
+title: Kit de boas-vindas - Capítulo 6 - Impedir armadilhas facilmente
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
