@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: Direcionamento, biblioteca de metas, biblioteca
 description: Direcione usuários com base nas regras de direcionamento pré-criadas.
-title: Opções da biblioteca de públicos alvos no Adobe Target audiência
-feature: audiences
+title: Biblioteca do Target Opções no Audiência
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
