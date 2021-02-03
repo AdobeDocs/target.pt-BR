@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;offer;reporting;group;reporting group
+keywords: personalização automatizada;oferta;relatórios;grupo;grupo de relatórios;personalização automatizada;;;grupo;grupo;
 description: Informações sobre como usar grupos de relatórios no Automated Personalization (AP) atividade no Adobe Target.
-title: Grupos de relatórios de oferta no Automated Personalization (AP) atividade no Adobe Target
+title: Grupos de Relatórios de oferta no Automated Personalization (AP) Atividade
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 64%
+source-wordcount: '433'
+ht-degree: 63%
 
 ---
 
