@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;act
-description: Informações sobre os principais conceitos que ajudarão você a entender os recursos e capacidades do Adobe Target.
-title: Conceitos-chave do Target
+keywords: Visão geral e referência; act
+description: Como faço para entender e usar o Público alvo?
+title: Principais conceitos
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1507'
 ht-degree: 98%
 
 ---
