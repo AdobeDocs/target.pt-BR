@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;create audience;creating audience
+keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo
 description: Você pode criar públicos-alvo personalizados e salvá-los na biblioteca do Target para usar nas atividades. Agora é possível copiar um público-alvo existente, que pode ser editado para criar um público-alvo semelhante.
-title: Criar públicos no Target
-feature: audiences
+title: Criar Audiências
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '478'
 ht-degree: 99%
 
 ---
