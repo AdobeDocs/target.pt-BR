@@ -1,12 +1,12 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, faq, solução de problemas, solucionar problemas
 description: O Público alvo automático no Adobe Target usa o aprendizado de máquina avançado para selecionar entre várias experiências definidas pelo profissional de marketing de alto desempenho para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 title: Visão geral do Público alvo automático
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2027'
 ht-degree: 85%
 
 ---
