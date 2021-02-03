@@ -1,13 +1,13 @@
 ---
-keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
+keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
 description: Use atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre os itens do catálogo.
 title: Atributos de entidade personalizados
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 4fb3603946850092ff2db47e2ad319ab84ff9261
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1391'
 ht-degree: 91%
 
 ---
