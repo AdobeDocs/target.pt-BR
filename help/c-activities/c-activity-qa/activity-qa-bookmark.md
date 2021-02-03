@@ -1,13 +1,13 @@
 ---
-keywords: qa;preview;bookmarklet;preview links
+keywords: qa, visualização, bookmarklet, links de visualização
 description: Informações para ajudá-lo a usar o bookmarklet Adobe Target QA para forçar o Público alvo a liberá-lo do modo de QA.
-title: bookmarklet de QA de atividade para Adobe Target
+title: Bookmarklet de controle de qualidade da atividade
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 26%
+source-wordcount: '263'
+ht-degree: 28%
 
 ---
 
