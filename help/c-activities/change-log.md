@@ -1,13 +1,13 @@
 ---
-keywords: activity change log;change log
+keywords: log de alterações de atividade;log de alterações
 description: O log de alterações fornece um registro de quem alterou suas atividades e quais foram as alterações.
-title: Log de alterações de atividade no Adobe Target
-feature: activities
+title: Log de alterações da atividade
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 77%
+source-wordcount: '102'
+ht-degree: 78%
 
 ---
 
