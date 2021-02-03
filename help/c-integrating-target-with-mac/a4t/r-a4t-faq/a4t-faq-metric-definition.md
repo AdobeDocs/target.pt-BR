@@ -1,13 +1,13 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
+keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; métrica; definições de métricas
 description: Este tópico contém respostas para as perguntas mais frequentes sobre definições de métrica e uso do Analytics como origem de geração de relatórios para o Target (A4T).
-title: Definições de métricas - Perguntas frequentes sobre o A4T
+title: Definições da métrica - Perguntas frequentes sobre o A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 65%
+source-wordcount: '379'
+ht-degree: 67%
 
 ---
 
