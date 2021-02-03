@@ -1,13 +1,13 @@
 ---
-keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
+keywords: experiência;experimento visual composer;experimento aprimorado compositor;compositor de experiência baseada em formulário;compositor de formulário;compositor visual;compositor de experiência;conteúdo misto;iframe;iframe busting;bust iframe;x-frame-options;x frame options;origem cruzada;problemas de origem cruzada;fluxo de trabalho de autenticação
 description: Uma experiência no Adobe Target determina qual conteúdo é exibido quando o visitante atende aos critérios de audiência de uma atividade.
-title: Experiências e ofertas
+title: Experiências e Ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 89%
+source-wordcount: '376'
+ht-degree: 80%
 
 ---
 
