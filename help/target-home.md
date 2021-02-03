@@ -1,14 +1,14 @@
 ---
-keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Público alvo;home;popular tópicos;adobe público alvo;padrão;premium;documentação do público alvo;documentação do adobe público alvo
 title: Guia do Adobe Target
-description: Visualização o home page da guia do Público alvo.
+description: Onde posso encontrar a documentação do Público alvo?
 seo-description: O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 63%
+source-wordcount: '714'
+ht-degree: 62%
 
 ---
 
