@@ -1,13 +1,13 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: perfil do visitante, perfil do visitante do target
 description: Crie públicos no Adobe Target para direcionar os visitantes que atendem a parâmetros de perfil específicos.
-title: Opções de Perfil de visitante no Adobe Target audiência
-feature: audiences
+title: Opções de Perfil do visitante no Audiência
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 94%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 
