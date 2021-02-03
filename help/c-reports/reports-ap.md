@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
+keywords: Direcionamento;relatórios PA;relatórios de personalização automatizada;relatório de nível de atividade;relatório de nível de oferta;relatório de detalhes de oferta;perguntas frequentes
 description: Como usar os relatórios de Resumo da Automated Personalization?
-title: Relatórios de resumo de Automated Personalization
+title: Relatórios de Resumo da personalização automatizada
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 24680f707928201b9390c0e71e54fc549c81e165
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 43%
+source-wordcount: '649'
+ht-degree: 42%
 
 ---
 
