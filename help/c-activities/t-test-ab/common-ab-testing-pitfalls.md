@@ -1,13 +1,13 @@
 ---
-keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
+keywords: AB;A/B;AB...n;erros;erros;erro;erro;inclinação;significância;vencedor;diferença estatisticamente;estatística;poder estatístico;alocação de tráfego;n;erros;armadilhas;erro;pitfall;significância;vencedor;diferença estatisticamente;estatística;poder estatístico;alocação de tráfego;alocação;
 description: O teste A/B na Adobe Target é a espinha dorsal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferta de experiências otimizadas e direcionadas para seus visitantes e clientes. Esta seção descreve nove das armadilhas mais importantes para as quais as empresas são presas ao realizar testes A/B no Adobe Target. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 title: Nove erros comuns em testes A/B e como evitá-los
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3922'
-ht-degree: 87%
+source-wordcount: '3940'
+ht-degree: 86%
 
 ---
 
