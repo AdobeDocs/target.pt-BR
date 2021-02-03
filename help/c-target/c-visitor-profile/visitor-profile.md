@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: Visão geral e referência
 description: Os perfis do visitante contêm informações sobre como os visitantes usam as páginas e outros locais de conteúdo otimizado
-title: Perfis do visitante
-feature: visitor profiles
+title: Perfis de visitante
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
