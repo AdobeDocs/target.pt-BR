@@ -1,12 +1,12 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
+keywords: público alvo automático;definição de metas;alocação de tráfego;perguntas frequentes;perguntas frequentes;solução de problemas;solução de problemas;tráfego
 description: Solução de problemas e perguntas frequentes sobre o Público alvo automático no Adobe Target.
 title: Solução de problemas de Público alvo automático e perguntas frequentes
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1914'
 ht-degree: 68%
 
 ---
