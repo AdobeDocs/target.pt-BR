@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;webkit
+keywords: Visão geral e referência; webkit
 description: O comportamento de cookies depende do tipo do cookie, podendo ser um cookie próprio, um cookie de terceiros com um cookie próprio ou somente um cookie de terceiros.
-title: Cookies da mbox.js
-feature: null
+title: Cookies mbox.js
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1642'
 ht-degree: 94%
 
 ---
