@@ -1,13 +1,13 @@
 ---
-keywords: activities;activity;activity types;edit activity;edit;draft
+keywords: atividades; atividade; tipos de atividade; editar atividade; editar; rascunho
 description: Informações sobre as diferentes maneiras de editar uma atividade existente no Adobe Target, incluindo salvar uma atividade no formulário de rascunho.
-title: Editar uma atividade ou Salvar como rascunho
+title: Editar uma Atividade ou Salvar como rascunho
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 96%
+source-wordcount: '1123'
+ht-degree: 95%
 
 ---
 
