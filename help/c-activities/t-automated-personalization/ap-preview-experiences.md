@@ -1,13 +1,13 @@
 ---
-keywords: Automated Personalization;ap;preview;exclude experience;
+keywords: Automated Personalization;ap;pré-visualização;excluir experiência;
 description: Como uma atividade de personalização automatizada (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
-title: Visualizar experiências para uma atividade de personalização automatizada (AP) no Adobe Target Visual Experience Composer
-feature: ap
+title: Experiências Pré-visualização Automated Personalization no Visual Experience Composer (VEC)
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 61%
+source-wordcount: '260'
+ht-degree: 55%
 
 ---
 
