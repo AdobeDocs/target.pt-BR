@@ -1,13 +1,13 @@
 ---
-keywords: Experience Cloud;sign in;language;default ui language;default language
-description: Instruções para acessar o Adobe Target na Adobe Experience Cloud.
-title: Acessar o Target na Adobe Experience Cloud
+keywords: Experience Cloud;login;idioma;idioma ui padrão;idioma padrão;;login;language;default ui language;default
+description: Como faço para acessar o Público alvo da Adobe Experience Cloud?
+title: Acesse o Público alvo do Adobe Experience Cloud
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 76%
+source-wordcount: '402'
+ht-degree: 69%
 
 ---
 
