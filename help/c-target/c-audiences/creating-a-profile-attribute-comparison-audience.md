@@ -1,12 +1,12 @@
 ---
-keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
+keywords: público-alvo, propensão, atributo de perfil, comparar, comparação, criar público-alvo, criação de público-alvo
 description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
-title: Criar um público-alvo de comparação do atributo de perfil  no Adobe Target
-feature: audiences
+title: Criar um público-alvo de comparação do atributo de perfil
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 99%
 
 ---
