@@ -1,12 +1,12 @@
 ---
-keywords: recommendations design;create design;copy design
+keywords: design de recomendações, criar design, copiar design
 description: Um design define como as recomendações são exibidas em uma página.
 title: Criar um design
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '995'
 ht-degree: 35%
 
 ---
