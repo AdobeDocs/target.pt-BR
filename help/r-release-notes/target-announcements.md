@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informações sobre eventos futuros, incluindo sessões do Adobe Target Skill Builder, bate-papos de desenvolvedor, webinars e sessões de pausa de café do Público alvo.
-title: Anúncios de públicos alvos
+keywords: anúncios;construtor de habilidades;bate-papo de desenvolvedor;quebra de café;eventos;forrester;gartner;webinar
+description: Onde posso encontrar eventos e webinars futuros?
+title: Anúncios e Eventos
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ A Adobe Target foi recentemente reconhecida pela Forrester e pela Gartner como l
 * **Duração: 60 minutos**
 * **[Registre-se aqui](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
 
-A capacidade de otimizar as experiências dos clientes em escala é agora fundamental para atender às necessidades dinâmicas dos clientes e ao pico atual de novos visitantes digitais. Uma plataforma de otimização de experiência, como [!DNL Adobe Target], pode ser implantada em suas propriedades digitais para determinar e fornecer rapidamente a experiência certa para seus clientes no momento certo, aproveitando os recursos manuais e de direcionamento comportamental, teste e recomendações habilitados por AI. Junte-se a nós e ao nosso convidado especial James McCormick, analista principal da Forrester, enquanto apresentamos e discutimos as principais descobertas de The Forrester Wave, Experience Otimization Platforms, quarto trimestre de 2020.
+A capacidade de otimizar as experiências dos clientes em escala é agora fundamental para atender às necessidades dinâmicas dos clientes e ao aumento atual de novos visitantes digitais. Uma plataforma de otimização de experiência, como [!DNL Adobe Target], pode ser implantada em suas propriedades digitais para determinar e fornecer rapidamente a experiência certa para seus clientes no momento certo, aproveitando os recursos manuais e de direcionamento comportamental, teste e recomendações habilitados por AI. Junte-se a nós e ao nosso convidado especial James McCormick, analista principal da Forrester, enquanto apresentamos e discutimos as principais descobertas de The Forrester Wave, Experience Otimization Platforms, quarto trimestre de 2020.
 
 Neste webinar, você aprenderá:
 
