@@ -1,13 +1,13 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
+keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;estático;filtro estático
 description: Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão no Adobe Target Recommendations.
-title: Filtrar por valores estáticos nas regras de inclusão no Adobe Target Recommendations
+title: Filtrar Por Valores Estáticos Em Regras De Inclusão No Adobe Target Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 48%
+source-wordcount: '225'
+ht-degree: 46%
 
 ---
 
