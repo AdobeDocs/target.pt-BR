@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
+keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, direcionamento de público-alvo, geração de relatório de público-alvo, relatar público-alvo, segmento, parâmetros de perfil personalizado, definição de público-alvo, lista de público-alvo
 description: Os públicos no Adobe Target determinam quem verá o conteúdo e as experiências em uma atividade direcionada.
-title: Criar públicos-alvo no Adobe Target
-feature: audiences
+title: Criar Audiências
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '897'
 ht-degree: 95%
 
 ---
