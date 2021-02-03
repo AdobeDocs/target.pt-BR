@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: Direcionamento, categoria de metas, condições de meta, audience manager, parâmetros de perfil personalizados, perfil do visitante, parâmetros de usuário personalizado, regras de metas
 description: É possível definir metas em uma das diversas categorias. Cada categoria funciona como uma guia que permite criar regras de definição de metas (ou grupos) para cada categoria.
-title: Categorias para públicos
-feature: audiences
+title: Categorias para públicos-alvo
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '386'
 ht-degree: 98%
 
 ---
