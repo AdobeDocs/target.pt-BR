@@ -1,12 +1,12 @@
 ---
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
+keywords: aumento de receita, receita, estimativa de aumento de receita, calcular aumento, valor estimado
 description: Use a Adobe Target para estimar o aumento de receita que você obteria se todos os usuários visualizações a experiência vencedora.
-title: Aumento estimado na receita
+title: Estimativa de aumento na receita
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '517'
 ht-degree: 90%
 
 ---
