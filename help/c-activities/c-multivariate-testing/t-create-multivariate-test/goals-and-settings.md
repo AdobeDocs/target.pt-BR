@@ -1,18 +1,18 @@
 ---
-keywords: activity settings;goals and settings;multivariate;mvt
+keywords: configurações de atividade;metas e configurações;multivariado;mvt
 description: A página Metas e configurações no Adobe Target é onde você insere informações sobre as metas do teste.
 title: Metas e Configurações
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 93%
+source-wordcount: '1265'
+ht-degree: 92%
 
 ---
 
 
-# Metas e Configurações (Testes multivariados)
+# Metas e configurações (testes multivariados)
 
 A página Metas e configurações no Adobe Target é onde você insere informações sobre as metas dos testes [!UICONTROL Multivariados] (MVT).
 
