@@ -1,12 +1,12 @@
 ---
-keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
+keywords: integração com at.js; integrações compatíveis; integrações não compatíveis; integrações de terceiros
 description: Informações sobre integrações comuns com o Target e seu status de suporte com a at.js.
 title: Integrações da at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '560'
 ht-degree: 91%
 
 ---
