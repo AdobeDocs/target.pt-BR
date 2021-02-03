@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
-description: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
-title: 'Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você deverá pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações. '
+keywords: Recommendations;oferta;pré-visualização;lançamento;status;critérios;algoritmo;;;;launch;status;Criteria;algorithm
+description: Depois de criar sua atividade Recommendations, teste A/B ou direcionamento de experiência (XT) contendo ofertas Adobe Target Recommendations, você desejará pré-visualização-la para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O Público alvo Recommendations oferta várias maneiras de pré-visualização de suas recomendações.
+title: Pré-visualização e lançamento da Atividade Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 16%
+source-wordcount: '1371'
+ht-degree: 17%
 
 ---
 
