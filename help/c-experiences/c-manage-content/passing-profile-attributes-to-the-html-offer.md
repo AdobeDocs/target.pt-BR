@@ -1,12 +1,12 @@
 ---
-keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
+keywords: dados dinâmicos; ativos; dados; ofertas; ofertas personalizadas; ofertas pessoais; substituição de token
 description: Como posso transmitir valores de perfil e informações de atividade diretamente em uma oferta HTML ou JSON?
 title: Envio de dados dinâmicos em ofertas
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '502'
 ht-degree: 81%
 
 ---
