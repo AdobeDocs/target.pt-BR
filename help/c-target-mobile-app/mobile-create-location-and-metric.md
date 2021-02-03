@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
+keywords: aplicativo móvel, local de aplicativo móvel, aplicativo móvel target, métricas de sucesso no aplicativo móvel
 description: Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
-title: iOS - Criar um local de definição e métrica de sucesso
-feature: mobile implementation
+title: IOS - Criar um local de Público alvo e uma métrica de sucesso
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
