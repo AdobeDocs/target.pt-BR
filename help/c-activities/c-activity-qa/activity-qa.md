@@ -1,12 +1,12 @@
 ---
-keywords: qa;preview;preview links;adobe target;target
+keywords: qa;pré-visualização;links de pré-visualização;adobe público alvo;público alvo;qa;;links de ;adobe ;
 description: Use os URLs de QA da Adobe Target para realizar um controle de qualidade completo da atividade com links de pré-visualização que nunca mudam, direcionamento opcional da audiência e relatórios de controle de qualidade que permaneça segmentado dos dados de atividade ativa.
 title: Controle de qualidade da atividade
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1536'
 ht-degree: 80%
 
 ---
