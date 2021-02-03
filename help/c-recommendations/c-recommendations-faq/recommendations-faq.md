@@ -1,12 +1,12 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
+keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Lista de perguntas frequentes sobre o Adobe Target Recommendations atividade.
-title: Perguntas frequentes sobre a Adobe Target Recommendations
+title: Perguntas frequentes sobre o Público alvo Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2031'
 ht-degree: 80%
 
 ---
