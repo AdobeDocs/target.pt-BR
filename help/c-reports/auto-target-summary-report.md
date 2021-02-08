@@ -1,13 +1,13 @@
 ---
 keywords: relatórios;público alvo automático;público alvo automático;AT;relatório
-description: Informações sobre como interpretar o relatório Resumo do Público alvo automático no Adobe Target.
-title: Relatório de Resumo do direcionamento automático
+description: Saiba como interpretar o relatório Resumo do Público alvo automático no Adobe Target. Você pode alternar para os relatórios Segmentos automatizados e Atributos importantes deste relatório.
+title: Como uso o relatório de Resumo de Públicos alvos automáticos?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 56%
+source-wordcount: '690'
+ht-degree: 54%
 
 ---
 
