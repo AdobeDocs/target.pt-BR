@@ -1,13 +1,14 @@
 ---
 keywords: implementar; implementação; rfi; solicitação para obter informações
-description: Há tarefas que você deve concluir e informações que deve coletar ao preparar-se para implementar o Adobe Target.
-title: Preparar para implementar
+description: Conheça as considerações que você deve abordar antes de implementar o Adobe Target. Conclua as tarefas necessárias e colete as informações ao se preparar para implementar o Público alvo.
+title: Como devo me preparar para implementar o Público alvo?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 98%
+source-wordcount: '279'
+ht-degree: 89%
 
 ---
 
