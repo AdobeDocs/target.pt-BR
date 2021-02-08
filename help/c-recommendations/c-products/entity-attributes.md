@@ -1,13 +1,13 @@
 ---
 keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
-description: Use os atributos da entidade para passar informações do produto ou conteúdo para a Adobe Target Recommendations.
-title: Atributos da entidade
+description: Saiba como usar atributos de entidade para passar informações sobre produtos ou conteúdo para a Adobe Target Recommendations.
+title: Como uso os atributos da entidade?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 93%
+source-wordcount: '1050'
+ht-degree: 92%
 
 ---
 
