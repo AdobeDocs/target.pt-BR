@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento, fontes de tráfego, fontes de tráfego do target, mecanismo de pesquisa do target, mecanismo de pesquisa, página de aterrissagem, página de aterrissagem do target, página de aterrissagem de referência
-description: Crie públicos-alvo no Adobe Target para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
-title: Opções de fontes de tráfego no Audiência
+description: Saiba como criar audiências no Adobe Target para visitantes de públicos alvos com base no mecanismo de pesquisa ou na landing page que os refere ao seu site.
+title: É possível Público alvo Visitantes com base no mecanismo de pesquisa ou no site de referência?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 97%
+source-wordcount: '261'
+ht-degree: 85%
 
 ---
 
