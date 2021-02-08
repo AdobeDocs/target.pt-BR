@@ -1,13 +1,13 @@
 ---
 keywords: vídeos de treinamento;youtube;videos;vídeo training;tutorial;tutoriais;vídeo
 description: Assista aos vídeos de treinamento para ajudá-lo a tirar o maior proveito do Target Standard e do Target Premium.
-title: Vídeos de treinamento
+title: Onde posso encontrar vídeos de treinamento para Públicos alvos?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 67%
+source-wordcount: '169'
+ht-degree: 63%
 
 ---
 
