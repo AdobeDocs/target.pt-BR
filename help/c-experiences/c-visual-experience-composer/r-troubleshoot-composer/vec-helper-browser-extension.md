@@ -1,13 +1,13 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extensão;navegador
-description: Informações para usar a extensão do navegador do Adobe Target Visual Experience Composer (VEC) Helper para carregar sites de maneira confiável no VEC a fim de criar e testar rapidamente experiências de QA.
-title: Extensão Auxiliar do Visual Experience Composer (VEC)
+description: Descubra por que alguns sites podem não ser abertos com confiança no Visual Experience Composer (VEC). A extensão do navegador VEC Helper permite carregar sites com confiança no VEC.
+title: Como uso a extensão de ajuda do Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 59%
+source-wordcount: '890'
+ht-degree: 55%
 
 ---
 
