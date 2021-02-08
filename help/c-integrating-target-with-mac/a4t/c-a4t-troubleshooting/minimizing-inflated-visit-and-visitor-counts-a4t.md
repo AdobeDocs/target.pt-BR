@@ -1,13 +1,13 @@
 ---
 keywords: dados parciais; dados parciais; A4T; discrepâncias; analytics para target; órfão; conjunto de relatórios virtual; fictício; solução de problemas; não corrigido; inflacionado; não especificado
-description: Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas de Visitas e Visitantes ao usar o Analytics como origem de geração de relatórios.
-title: Minimizar contagens inflacionadas de visitas e visitantes no A4T
+description: Saiba como minimizar os efeitos da contagem de visitas e Visitantes inflados ao usar o Analytics para Públicos alvos (A4t). Saiba o que é "dados parciais" e como reduzi-los.
+title: Como minimizar visitas infladas e contagens de Visitantes no A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 97%
+source-wordcount: '1375'
+ht-degree: 94%
 
 ---
 
