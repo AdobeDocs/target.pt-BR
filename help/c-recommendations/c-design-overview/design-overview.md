@@ -1,13 +1,13 @@
 ---
 keywords: design de recomendações, modelo, criar design, entrega, saída
-description: Os designs no Adobe Target Recommendations definem como as recomendações aparecem em uma página. Os designs definem o layout e o formato de suas recomendações para melhorar o envolvimento, a conversão e a receita do visitante.
-title: Visão geral do design
+description: Saiba como usar designs no Adobe Target Recommendations para definir como as recomendações aparecem em uma página (1X4, 1X6, 2X2 e assim por diante).
+title: Como uso designs no Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
