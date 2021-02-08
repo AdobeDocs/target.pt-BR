@@ -1,13 +1,13 @@
 ---
 keywords: avaliador de tráfego;personalização automatizada;ap;estimar tráfego
-description: O Estimador de tráfego fornece feedback que informa se você tem tráfego suficiente para que sua atividade Adobe Target tenha sucesso.
-title: Estimativa de tráfego exigido para o sucesso
+description: Saiba como usar o Estimador de tráfego que permite saber se você tem tráfego suficiente para que sua atividade Adobe Target Automated Personalization tenha êxito.
+title: Quanto tráfego é necessário para uma Atividade Automated Personalization?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 26%
+source-wordcount: '746'
+ht-degree: 25%
 
 ---
 
