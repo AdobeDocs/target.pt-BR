@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes, atributos importantes
-description: 'Dois relatórios especializados estão disponíveis para usuários de atividades de Personalização automatizada (AP) e Direcionamento automático (AT): os relatórios de Segmentos automatizados e atributos importantes.'
-title: Relatórios de insights de personalização
+description: Saiba como usar os relatórios especializados para atividades Automated Personalization (AP) e Público alvo automático (AT) - Segmentos automatizados e atributos importantes.
+title: Como uso os relatórios de insights de personalização?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 72%
+source-wordcount: '743'
+ht-degree: 69%
 
 ---
 
