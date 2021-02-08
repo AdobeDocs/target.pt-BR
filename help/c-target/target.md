@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento, públicos-alvo, direcionamento em porcentagem
-description: Use os públicos no Adobe Target para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
-title: Públicos-alvo
+description: Saiba como usar o audiência no Adobe Target para público alvo de diferentes conteúdos e experiências em audiências específicas para otimizar seus esforços de marketing na Web.
+title: Como posso usar o Audiência para Público alvo de conteúdo diferente em segmentos específicos?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 99%
+source-wordcount: '358'
+ht-degree: 89%
 
 ---
 
