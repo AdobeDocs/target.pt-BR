@@ -1,12 +1,12 @@
 ---
 keywords: a4t; A4T; Analytics como fonte de relatórios para Target
-description: É possível usar o A4T com Público alvo automático e autoalocação de atividades?
-title: Suporte A4T para autoalocação e Público alvo automático de Atividades
+description: Saiba como criar atividades de Autoalocação e Público alvo automático no Adobe Target que usam o Analytics como a fonte do relatórios (A4T).
+title: O A4T suporta a autoalocação e o Público alvo automático de Atividades?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '863'
 ht-degree: 2%
 
 ---
