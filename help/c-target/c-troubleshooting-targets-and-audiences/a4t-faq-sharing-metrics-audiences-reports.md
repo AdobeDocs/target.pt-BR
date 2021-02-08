@@ -1,13 +1,13 @@
 ---
 keywords: perguntas frequentes, perguntas frequentes, analytics para target, a4T, compartilhar relatórios
-description: Este tópico contém respostas para as perguntas mais frequentes sobre compartilhamento de métricas, público-alvo e relatórios ao usar o Analytics como fonte de geração de relatórios do Target (A4T).
-title: Compartilhar métricas, Audiências e relatórios - Perguntas frequentes sobre a A4T
+description: Encontre perguntas frequentes sobre o compartilhamento de métricas, audiências e relatórios ao usar o Analytics para Públicos alvos (A4T). O A4T permite que você use o relatórios do Analytics para Adobe Target atividade.
+title: Onde encontrar perguntas frequentes sobre o compartilhamento de métricas, Audiências e relatórios no A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 82%
+source-wordcount: '249'
+ht-degree: 70%
 
 ---
 
