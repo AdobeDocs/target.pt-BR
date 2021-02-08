@@ -1,13 +1,14 @@
 ---
 keywords: oferta;pré-busca;iOS;android;sdk;mobile;mobile sdk
-description: O recurso de busca prévia do Adobe Target usa o SDK móvel do Android e do iOS para buscar conteúdo de oferta a menor quantidade de vezes possível, armazenando as respostas do servidor em cache.
-title: Buscar previamente conteúdo da oferta
+description: Use o recurso de busca prévia do Adobe Target nos SDKs do iOS e do Android Mobile para buscar conteúdo de oferta o menor número de vezes possível, armazenando as respostas do servidor em cache.
+title: Posso pré-buscar conteúdo de Oferta para aplicativos móveis?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 47%
 
 ---
 
