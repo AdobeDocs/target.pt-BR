@@ -1,13 +1,14 @@
 ---
 keywords: configuração;configuração;configuração;configuração;configuração;administração
 description: Configure o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configuração do Scene7, gerenciamento de host e tokens de resposta.
-title: Administrador
+title: Como Administro O Público alvo?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 15%
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
