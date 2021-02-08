@@ -1,13 +1,13 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Use métricas em uma atividade de Direcionamento de experiência (XT) do Adobe Target para determinar quando uma visita é bem-sucedida.
-title: Definir métricas
+keywords: direcionamento de experiência; xt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
+description: Saiba como especificar métricas em uma atividade Adobe Target Experience Targeting para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
+title: Como defino métricas de metas em uma Atividade de direcionamento de experiência?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 92%
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
