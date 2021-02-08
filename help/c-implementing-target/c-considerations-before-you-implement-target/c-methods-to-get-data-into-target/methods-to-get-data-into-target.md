@@ -1,13 +1,14 @@
 ---
 keywords: implementar, implementação, configuração, configurar, parâmetro de página, tomcat, url codificado, atributo de perfil na página, parâmetro mbox, atributos de perfil na página, atributo de perfil de script, API de atualização de perfil em massa, API de atualização de arquivo único, atributos de cliente, provedores de dados, dataprovider, provedor de dados
-description: Informações sobre os vários métodos que você pode usar para inserir dados no Adobe Target, incluindo parâmetros de página, atributos de perfil na página, atributos de perfil de script, provedores de dados, API de atualização de perfil em massa, API de atualização de perfil único e Atributos do cliente.
-title: Métodos para inserir dados no Público alvo
+description: Obtenha dados no Público alvo (parâmetros de página, atributos do perfil, atributos do perfil de script, provedores de dados, APIs de atualização de perfil único e em massa, Atributos do cliente).
+title: Como obtenho dados no Público alvo?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 92%
+source-wordcount: '1956'
+ht-degree: 93%
 
 ---
 
