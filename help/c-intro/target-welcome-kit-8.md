@@ -1,12 +1,12 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Kit de boas-vindas da Adobe Target - Capítulo 8 - Comunicar os resultados da atividade
-title: Kit de boas-vindas - Capítulo 8 - Comunicar os resultados da sua Atividade
+description: Use o modelo Resultados do resumo executivo para ajudá-lo a comunicar seus sucessos com suas atividades Adobe Target.
+title: Como posso compartilhar os resultados de minhas atividades de Público alvo com minha organização?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
