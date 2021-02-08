@@ -1,13 +1,13 @@
 ---
 keywords: critérios;algoritmo;setor vertical;tipo de página;chave de recomendação;lógica;faixa de dados;comportamento fonte de dados;design parcial;recomendações de backup;regras de inclusão;ponderação de atributo;categoria atual;atributo personalizado;último item comprado;último item visualizado;item mais visualizado;item mais visualizado;categoria favorita;popularidade;item visualizado recentemente;último visualizado;mais visualizado;favorito;exibido recentemente
-description: Critérios controlam o conteúdo de suas atividades do Adobe Recommendations. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade.
-title: Criar critérios
+description: Saiba como criar critérios que controlam o conteúdo de suas atividades Adobe Recommendations para mostrar as recomendações mais apropriadas para sua atividade.
+title: Como crio critérios no Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 64%
+source-wordcount: '2485'
+ht-degree: 63%
 
 ---
 
