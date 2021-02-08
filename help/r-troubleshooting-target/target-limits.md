@@ -1,13 +1,13 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: As informações sobre os limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
-title: Limites
+keywords: limite de caracteres;parâmetros da mbox;api do delivery em lote;parâmetros do perfil;limites;perfis incorporados;máximo;limite;restrição;caractere;prática recomendada;orderid;orderTotal;mbox3rdPartyID;categoria;categoryID;solução de problemas
+description: Visualização de uma lista de limites de caracteres e outros limites (tamanho da oferta, audiências, perfis, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
+title: Analise uma lista de limites de caracteres e outros limites (tamanho da oferta, audiências, perfis, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 71%
+source-wordcount: '1086'
+ht-degree: 67%
 
 ---
 
