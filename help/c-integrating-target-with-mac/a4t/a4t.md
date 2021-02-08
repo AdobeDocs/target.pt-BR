@@ -1,13 +1,13 @@
 ---
 keywords: a4t; analytics; analytics para target; fonte de relatórios do analytics; adobe analytics como fonte de relatório para o target
-description: O "Analytics for Target" (A4T) da Adobe é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do Analytics. Essa integração permite usar os relatórios do Analytics para analisar seus resultados. Se usar o Analytics como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo Analytics.
-title: Adobe Analytics como a Fonte do Relatórios (A4T)
+description: Use o Analytics for Público alvo (A4T) para criar atividades com base nas métricas de conversão do Analytics e nos segmentos de audiência e use os relatórios do Analytics para examinar os resultados.
+title: O que é o Analytics for Público alvo (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 46%
+source-wordcount: '1279'
+ht-degree: 43%
 
 ---
 
