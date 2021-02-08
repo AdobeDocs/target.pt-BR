@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;experience targeting;xt;landing page;landing page campaign
-description: O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
-title: Direcionamento de experiência
+keywords: Direcionamento, direcionamento da experiência, xt, página inicial, campanha de página de aterrissagem
+description: Saiba como usar as atividades de direcionamento de experiência (XT) no Adobe Target para fornecer conteúdo a uma audiência específica com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
+title: O que é uma Atividade de direcionamento de experiência (XT)?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 93%
 
 ---
 
