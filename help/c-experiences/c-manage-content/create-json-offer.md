@@ -1,13 +1,13 @@
 ---
 keywords: oferta remota; criar oferta remota
-description: Como faço para criar ofertas JSON?
-title: Criar ofertas JSON
+description: Saiba como criar ofertas JSON no Adobe Target para uso no Criador de experiências baseado em formulário. As ofertas JSON são úteis para estruturas SPA ou integrações do lado do servidor.
+title: Como crio Ofertas JSON?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 58%
+source-wordcount: '411'
+ht-degree: 54%
 
 ---
 
