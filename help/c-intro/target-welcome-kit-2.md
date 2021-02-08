@@ -1,12 +1,12 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Kit de boas-vindas da Adobe Target - Capítulo 2 - Público alvo de uma primeira vista
-title: Kit de boas-vindas - Capítulo 2 - Visão geral
+description: Dê uma olhada no Adobe Target. Saiba mais sobre atividades, canais, implementação, integrações e muito mais disponíveis.
+title: Onde posso encontrar uma introdução de alto nível ao Público alvo?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2520'
 ht-degree: 17%
 
 ---
