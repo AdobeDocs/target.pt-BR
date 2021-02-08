@@ -1,12 +1,12 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Kit de boas-vindas da Adobe Target.
-title: Kit de boas-vindas
+description: Novo no Adobe Target? Tire um start com o Adobe Target Welcome Kit.
+title: Como começar a usar o Público alvo
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
