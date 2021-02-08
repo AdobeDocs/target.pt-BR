@@ -1,13 +1,14 @@
 ---
 keywords: versões do at.js; versões do at.js; aplicativo de página única; spa; entre domínios; entre domínios
-description: Informações detalhadas sobre como atualizar do Adobe Target at.js 1.*x* para o at.js versão 2.0.0
-title: Atualizar do at.js versão 1.x para a versão 2.x
+description: Saiba como atualizar do Adobe Target at.js 1.x para o at.js 2.x. Examine diagramas de fluxo do sistema, saiba mais sobre funções novas e obsoletas e muito mais.
+title: Como atualizo do at.js versão 1.x para a versão 2.x?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 92%
+source-wordcount: '2770'
+ht-degree: 91%
 
 ---
 
@@ -45,7 +46,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 | Chama | Detalhes |
 | --- | --- |
-| 3 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
+| 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
 | 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
