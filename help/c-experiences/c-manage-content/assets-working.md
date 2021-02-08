@@ -1,13 +1,13 @@
 ---
 keywords: biblioteca de conteúdo; ativos; anotar; copiar; excluir ativo; baixar ativo; editar conteúdo; compartilhar cartão; exibir propriedades do conteúdo
-description: Como trabalho com ativos na biblioteca de conteúdo
-title: Trabalhar com conteúdo na biblioteca
+description: Saiba como gerenciar ofertas de código e imagem na biblioteca do Adobe Target Oferta. Saiba como visualização os detalhes de uma oferta e como editar, copiar, mover ou excluir ofertas.
+title: Como trabalho com conteúdo na biblioteca do Oferta?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 38%
+source-wordcount: '767'
+ht-degree: 37%
 
 ---
 
