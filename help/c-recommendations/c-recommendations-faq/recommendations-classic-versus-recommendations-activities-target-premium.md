@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations, algoritmos do recommendations, atividade do recommendations, recommendations classic
-description: Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
-title: Recommendations Classic versus Recommendations Atividade no Público alvo Premium
+description: Revise as informações para ajudá-lo a entender as diferenças entre o Recommendations Classic e o Recommendations atividade herdados no Público alvo Premium.
+title: Qual é a diferença entre o Recommendations Classic e o Recommendations no Público alvo Premium?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 95%
 
 ---
 
