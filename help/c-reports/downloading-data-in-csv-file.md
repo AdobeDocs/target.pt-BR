@@ -1,13 +1,13 @@
 ---
 keywords: relatórios, baixar relatórios, csv, métrica de sucesso, detalhes do pedido
-description: Baixe dados em um formato .csv para importação rápida para Excel, Access ou outros programas de análise de dados usando o Adobe Target.
-title: Download de dados em um arquivo CSV
+description: Saiba como baixar dados do Adobe Target atividade em um formato CVS para importação rápida para o Excel, Access ou outros programas de análise de dados.
+title: Como faço o download de dados de relatório em um arquivo CSV?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 83%
+source-wordcount: '686'
+ht-degree: 82%
 
 ---
 
