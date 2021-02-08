@@ -1,13 +1,14 @@
 ---
 keywords: implementar público alvo;implementação;implementar o at.js;tag manager
-description: Informações sobre como implementar o Adobe Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
-title: Implementação sem um Tag Manager
+description: Saiba como especificar as configurações (detalhes da conta, métodos de implementação etc.) para implementar a biblioteca do Adobe Target at.js sem usar um gerenciador de tags.
+title: Posso implementar o Público alvo sem um Tag Manager?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1555'
+ht-degree: 68%
 
 ---
 
