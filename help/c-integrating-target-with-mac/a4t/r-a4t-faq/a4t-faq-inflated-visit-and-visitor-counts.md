@@ -1,13 +1,13 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; inflacionado; visita; visitante; acesso parcial; órfão; órfão; acesso parcial
-description: Este tópico contém respostas para as perguntas mais frequentes sobre as contagens aumentadas de visitas e visitantes ao usar o Analytics como fonte de relatórios do Target (A4T).
-title: Contagens aumentadas de visitas e visitantes - Perguntas frequentes sobre o A4T
+description: Encontre respostas para perguntas sobre visitas infladas e contagens de visitantes ao usar o Analytics para Públicos alvos (A4T). Saiba como minimizar "dados parciais".
+title: Onde posso encontrar perguntas frequentes sobre visitas infladas e contagem de Visitantes com A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 94%
 
 ---
 
