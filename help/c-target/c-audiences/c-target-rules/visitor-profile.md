@@ -1,13 +1,13 @@
 ---
 keywords: perfil do visitante, perfil do visitante do target
-description: Crie públicos no Adobe Target para direcionar os visitantes que atendem a parâmetros de perfil específicos.
-title: Opções de Perfil do visitante no Audiência
+description: Saiba como criar audiências no Adobe Target para visitantes públicos alvos que atendem a parâmetros específicos do perfil, como visitante novo ou recorrente, afinidade de categoria e muito mais.
+title: Posso Público alvo Visitantes Que Atendem A Parâmetros De Perfil Específicos?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '242'
+ht-degree: 83%
 
 ---
 
