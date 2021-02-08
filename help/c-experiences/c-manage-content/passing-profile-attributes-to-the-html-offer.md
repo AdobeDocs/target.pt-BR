@@ -1,13 +1,13 @@
 ---
 keywords: dados dinâmicos; ativos; dados; ofertas; ofertas personalizadas; ofertas pessoais; substituição de token
-description: Como posso transmitir valores de perfil e informações de atividade diretamente em uma oferta HTML ou JSON?
-title: Envio de dados dinâmicos em ofertas
+description: Saiba como transferir dados dinâmicos para o Adobe Target Oferta. Explore casos comerciais que mostram por que você pode querer usar exemplos de ofertas dinâmicas e visualizações e informações de implementação.
+title: Como passo dados dinâmicos para o Oferta?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 81%
+source-wordcount: '518'
+ht-degree: 78%
 
 ---
 
