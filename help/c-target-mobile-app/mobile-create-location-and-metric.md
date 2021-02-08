@@ -1,13 +1,14 @@
 ---
 keywords: aplicativo móvel, local de aplicativo móvel, aplicativo móvel target, métricas de sucesso no aplicativo móvel
-description: Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
-title: IOS - Criar um local de Público alvo e uma métrica de sucesso
+description: Amostra de código de visualização para ajudá-lo a aprender como criar locais e métricas de sucesso em aplicativos iOS, para que você possa usar o Adobe Target para personalizar e otimizar seu aplicativo.
+title: Como crio locais de Públicos alvos e métricas de sucesso em um aplicativo iOS?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 91%
+source-wordcount: '420'
+ht-degree: 83%
 
 ---
 
