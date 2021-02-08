@@ -1,12 +1,13 @@
 ---
 keywords: gdpr; ue; união europeia; privacidade; perguntas frequentes; perguntas frequentes; california consumer privacy act; ccpa; privacidade; proteção de dados; opt-out; recusar; governamental; regulamento
-description: Informações sobre o Regulamento Geral de Proteção de Dados da União Europeia (RGPD), o Ato de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos internacionais de privacidade, e como essas regulamentações afetam sua organização e a Adobe Target.
-title: Regras de privacidade e proteção de dados
+description: Saiba mais sobre o Público alvo e o Regulamento Geral de Proteção de Dados da União Europeia (RGPD), o California Consumer Privacy Act (CCPA) e outros requisitos de privacidade.
+title: Como o Público alvo lida com os regulamentos de privacidade e proteção de dados?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2265'
 ht-degree: 91%
 
 ---
