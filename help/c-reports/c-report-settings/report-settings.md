@@ -1,12 +1,12 @@
 ---
 keywords: Target, relatórios, configurações de relatório, predefinição, predefinição de direcionamento, métrica, público-alvo, intervalo de datas, configurações, download, exibição de tabela, exibição em gráfico, elevação média, elevação, limite de elevação, intervalo de confiança, confiança, contribuição de localização, média de execução, metodologia de contagem
-description: Informações para ajudá-lo a definir os elementos que deseja que apareçam no relatório da Adobe Target. As definições de relatório podem ser salvas para uso posterior.
-title: Configurações do relatório
+description: Saiba como configurar as configurações do relatório no Adobe Target, incluindo métricas, audiências, intervalos de datas e muito mais.
+title: Como configurar as configurações de relatório?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1918'
 ht-degree: 69%
 
 ---
