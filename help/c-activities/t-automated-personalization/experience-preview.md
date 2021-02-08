@@ -1,13 +1,13 @@
 ---
 keywords: visualização de experiência, urls de experiências, gerar urls, ver urls de experiências
-description: É possível gerar URLs de pré-visualização de experiência para o Público alvo Automated Personalization atividade para ver o conteúdo de experiência diretamente no seu site antes que a atividade esteja ativa para fins de pré-visualização e QA. URLs de pré-visualização de experiência ignoram a definição de metas para forçar a visualização de uma experiência específica.
-title: Pré-visualização do Automated Personalization Atividade com URLs de Pré-visualização da experiência
+description: Saiba como usar os URLs de pré-visualização da experiência para o Adobe Target Automated Personalization atividade para ver o conteúdo da experiência diretamente no seu site antes da atividade estar disponível.
+title: Como posso usar URLS da Experience Pré-visualização no Automated Personalization Atividade?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 64%
+source-wordcount: '783'
+ht-degree: 65%
 
 ---
 
