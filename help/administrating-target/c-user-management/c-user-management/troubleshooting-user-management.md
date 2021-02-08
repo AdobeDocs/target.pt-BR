@@ -1,13 +1,14 @@
 ---
 keywords: solucionar problemas; solução de problemas; usuários; gerenciamento de usuários
 description: Solução de problemas de informações sobre o gerenciamento de usuários no Adobe Target.
-title: Solução de problemas do Gerenciamento de usuários
+title: Como posso solucionar problemas com o Gerenciamento de usuários?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 32%
+source-wordcount: '84'
+ht-degree: 30%
 
 ---
 
