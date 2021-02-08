@@ -1,13 +1,13 @@
 ---
 keywords: problemas conhecidos;problemas resolvidos;notas de versão;erros;problemas;correções
-description: Onde posso encontrar problemas conhecidos e problemas resolvidos?
-title: Problemas conhecidos e problemas resolvidos
+description: Encontre informações sobre problemas conhecidos no Adobe Target, incluindo informações alternativas. Quando os problemas forem resolvidos, eles serão movidos para a seção Resolvidos.
+title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4355'
-ht-degree: 69%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ Estes são problemas conhecidos das atividades [!UICONTROL Recommendations]:
 * As entidades expiraram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. (IRI-857)
 * As sobreposições &quot;Informações de uso&quot; para critérios e desenhos não refletem seu uso nas atividades A/B e direcionamento de experiência (TGT-34331)
 * As ofertas de recomendações nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja de recomendações (TGT-33426)
-* Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário Público-alvo e podem ser editados por meio da API. (TGT-35777)
+* Coleções, exclusões, critérios e designs criados por meio da API não são visíveis na interface do usuário do Público alvo e podem ser editados somente por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do Público alvo e editá-los posteriormente por meio da API, essas alterações não serão refletidas na interface do usuário do Público alvo. Os itens editados por API devem continuar a ser editados por meio da API para evitar a perda de quaisquer modificações.  (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 * O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
 * Critérios e cartões de design não mostram o número correto de atividades em que estão sendo usados. Se o critério ou design for usado em uma atividade A/B, o cartão pode mostrar incorretamente que o design ou o critério não é usado, mesmo quando o design ou o critério é usado na atividade. (TGT-36621, TGT-37217)
