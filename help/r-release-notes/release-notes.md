@@ -1,13 +1,13 @@
 ---
 keywords: Notas de versão;novos recursos;versões;atualizações;atualização;versão;aprimoramentos;correções;correções;atualizações;notas de versão;novos recursos;atualizações;update;update;release;enhancements;fixes;fixes;fixes;fixes;correções de bugs;updates;updates
-description: Quais novos recursos estão incluídos na versão atual?
-title: Notas de versão (atuais)
+description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na versão atual do Adobe Target, incluindo SDKs, APIs e bibliotecas JavaScript.
+title: Quais novos recursos estão incluídos na versão atual?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 40%
+source-wordcount: '714'
+ht-degree: 39%
 
 ---
 
