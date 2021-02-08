@@ -1,13 +1,13 @@
 ---
 keywords: Público alvo;relatórios;configurações de relatório;várias métricas;métricas;métricas mostradas;métricas ocultas;;relatórios;configurações de relatório;várias métricas;métricas;métricas;mostradas;métricas ocultas;;reports;report settings;multiple metrics;displayed metrics;displayed metrics;hidden metrics;hidden metrics;hidden metrics
-description: Selecione várias métricas para visualização em um relatório usando o Adobe Target.
-title: Exibir várias métricas em um relatório
+description: Saiba como selecionar várias métricas para visualização em um relatório usando o Adobe Target.
+title: Como faço para Visualização de várias métricas em um relatório?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 
