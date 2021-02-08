@@ -1,10 +1,10 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório de direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes
-description: Informações sobre o relatório Segmentos automatizados, um dos dois relatórios especializados disponíveis para usuários do Automated Personalization (AP) e do AutoPúblico alvo (AT) atividade no Adobe Target.
-title: Relatório de segmentos automatizados
+description: Saiba como os diferentes segmentos definidos pelos modelos de personalização do Adobe Target respondem às ofertas/experiências na atividade exibindo o relatório Segmentos automatizados.
+title: O que é o Relatório de segmentos automatizados?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
