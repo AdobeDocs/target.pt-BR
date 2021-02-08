@@ -1,13 +1,13 @@
 ---
 keywords: log de alteração da documentação do público alvo;atualizações da documentação;novos tópicos;edições;atualizações;atualização;registro de alteração da documentação do ;atualizações da documentação;novos tópicos;edições;atualizações;atualização
-description: Que alterações foram feitas à documentação?
-title: Alterações de documentação
+description: Mantenha-se atualizado com as adições e alterações importantes na documentação do produto Adobe Target.
+title: Onde posso Visualização as atualizações de documentação do Público alvo?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '3487'
-ht-degree: 31%
+source-wordcount: '3600'
+ht-degree: 30%
 
 ---
 
@@ -20,6 +20,8 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 8 de fevereiro | [Visualização do Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Adição do trecho de código que você deve adicionar ao arquivo AndroidManifest.xml para a versão 4 do SDK do Adobe Mobile. |
+|  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | O seguinte problema conhecido foi esclarecido:<ul><li>Coleções, exclusões, critérios e designs criados por meio da API não são visíveis na interface do usuário do Público alvo e podem ser editados somente por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do Público alvo e editá-los posteriormente por meio da API, essas alterações não serão refletidas na interface do usuário do Público alvo. Os itens editados por API devem continuar a ser editados por meio da API para evitar a perda de quaisquer modificações.</li></ul> |
 | 1 de fevereiro | [Relatórios de resumo de Automated Personalization](/help/c-reports/reports-ap.md) | Nova seção adicionada: &quot;Perguntas frequentes.&quot; |
 | Janeiro de 27 | [Criar Ofertas de redirecionamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Tópico atualizado. |
 |  | [Criar ofertas remotas](/help/c-experiences/c-manage-content/about-remote-offers.md) | Tópico atualizado. |
