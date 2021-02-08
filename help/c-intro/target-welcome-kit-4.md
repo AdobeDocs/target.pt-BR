@@ -1,12 +1,12 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Kit de boas-vindas da Adobe Target - Capítulo 4 - Dicas para usar o Público alvo
-title: Kit de boas-vindas - Capítulo 4 - Dicas para usar o Público alvo
+description: Leia dicas de nosso painel de especialistas sobre como usar o Adobe Target como parte de seus esforços de teste e personalização.
+title: Onde posso encontrar dicas e truques para usar o Público alvo?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
