@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento;sucesso;métrica de conversão;métrica de pontuação de página;métrica de visualizações de página;métrica de receita;métrica de tempo no site;valor estimado;configurações avançadas;métricas de sucesso;configurações avançadas;dependência;dependente;Aumentar a contagem e manter o usuário na Atividade;Aumentar a contagem, liberar o usuário e permitir reentrada;aumentar a contagem, liberar o usuário e impedir a reentrada
-description: No Adobe Target, as métricas de sucesso são parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma dada experiência ou oferta em uma atividade do Target.
-title: Métricas de sucesso
+description: Saiba mais sobre as métricas de sucesso no Adobe Target que ajudam a determinar o sucesso de uma atividade. As métricas de sucesso incluem Conversão, Receita, Visualizações de página, Pontuação personalizada e Tempo no site.
+title: O que são métricas de sucesso?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 46%
+source-wordcount: '1173'
+ht-degree: 44%
 
 ---
 
