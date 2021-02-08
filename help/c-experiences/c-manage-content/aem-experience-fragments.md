@@ -1,13 +1,13 @@
 ---
 keywords: experiência;json;aem;adobe experience manager;exportar para adobe público alvo;experimentar fragmentos;fragmentos;XF
-description: Como posso usar AEM fragmentos de experiência no Público alvo atividade?
-title: Fragmentos de experiência do Adobe Experience Manager (AEM)
+description: Saiba como usar AEM fragmentos de experiência no Adobe Target atividade. Combine a facilidade de uso e a potência do AEM com recursos avançados de AI e ML no Público alvo.
+title: Como usar os fragmentos de experiência do Adobe Experience Manager (AEM)?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 32%
+source-wordcount: '1132'
+ht-degree: 31%
 
 ---
 
