@@ -1,12 +1,13 @@
 ---
 keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração de produto; perfil de produto; funções; projeto
-description: Crie propriedades e use a funcionalidade Propriedades e permissões que permite que os administradores do Adobe Target criem espaços de trabalho separados (perfis de produtos) no Público alvo e atribuam aos usuários funções e permissões diferentes para páginas individuais, propriedades ou sites com base nesses espaços de trabalho.
-title: Permissões de usuário empresarial
+description: Saiba como criar espaços de trabalho separados (perfis de produtos) e depois atribuir aos usuários funções e permissões diferentes para páginas, propriedades ou sites individuais.
+title: O que são permissões de usuário corporativo e como utilizá-las?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3053'
 ht-degree: 81%
 
 ---
