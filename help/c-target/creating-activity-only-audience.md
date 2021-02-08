@@ -1,13 +1,13 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, somente atividade, adhoc
-description: Crie públicos somente de atividades dentro do fluxo de trabalho orientado de três etapas do Adobe Target ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na Biblioteca de público para uso em outras atividades.
-title: Criar Uma Audiência Somente Atividade
+description: Saiba como criar audiências somente para atividades no Adobe Target que são para uso único na atividade atual e não são armazenadas na Biblioteca Audiência.
+title: Posso criar uma Audiência para usar apenas uma vez?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 99%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 
