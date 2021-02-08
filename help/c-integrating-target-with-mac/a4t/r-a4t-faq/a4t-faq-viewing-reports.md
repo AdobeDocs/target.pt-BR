@@ -1,13 +1,13 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; relatório; relatórios; exibir relatórios; relatórios; metodologia de contagem; impressões; visitantes; visitas; métrica padrão; conversões de atividade; não especificado
-description: Este tópico contém respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics como a origem de geração de relatórios do Target (A4T).
-title: Relatórios de visualização - Perguntas frequentes sobre a A4T
+description: Encontre respostas para perguntas frequentes sobre a exibição de relatórios ao usar o Analytics para Públicos alvos (A4T). O A4T permite que você use o relatórios do Analytics para atividades do Público alvo.
+title: Localizar respostas para perguntas sobre como visualizar relatórios com a A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 54%
+source-wordcount: '2377'
+ht-degree: 53%
 
 ---
 
@@ -101,16 +101,16 @@ O usuário volta em 1 de março e vê uma nova atividade, ABC. O usuário també
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 3 | 5 | 1 | 3 |
 
 O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra. A expiração de 90 dias desse primeiro valor eVar é redefinida em 1 de abril, então veremos isso nos relatórios. E todas as atividades do Target que o usuário vê recebem o crédito pela conversão, mas o número total de conversões é deduplicado:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 3 |
 | ABC | 1 | 10 | 2 | 1 | 3 |
-| Total | 2 | 20 | 1 | 1 | 3 |
+| Total | 2 | 20 | 1 | 3 | 1 |
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para o relatórios [!DNL Target], como você não está colocando uma atividade [!DNL Target] contra outra atividade para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu tenham crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
