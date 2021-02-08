@@ -1,13 +1,13 @@
 ---
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;vinculação de atributo dinâmico;perfil
-description: Filtre dinamicamente no Adobe Target Recommendations comparando itens (entidades) com um valor no perfil do usuário.
-title: Filtrar por correspondência de atributo de Perfil nas regras de inclusão dinâmica nas Recomendações de Público alvo v
+description: Saiba como filtrar dinamicamente no Adobe Target Recommendations comparando itens (entidades) com um valor no perfil do usuário.
+title: Como Filtro por Correspondência de Atributo de Perfil no Recommendations Atividade?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 7%
+source-wordcount: '487'
+ht-degree: 6%
 
 ---
 
