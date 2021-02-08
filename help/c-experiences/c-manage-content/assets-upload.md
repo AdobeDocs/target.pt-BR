@@ -1,13 +1,13 @@
 ---
 keywords: conteúdo; atualizar conteúdo; ativos; carregar conteúdo; fazer upload do ativo
-description: Como fazer upload de imagens para usar como ofertas de imagem?
-title: Carregar conteúdo
+description: Saiba como carregar imagens para usar como ofertas de imagem no Adobe Target.
+title: Como fazer upload de conteúdo para a biblioteca do Oferta?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '233'
+ht-degree: 18%
 
 ---
 
