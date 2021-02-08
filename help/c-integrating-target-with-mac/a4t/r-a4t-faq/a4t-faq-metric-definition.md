@@ -1,13 +1,13 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; métrica; definições de métricas
-description: Este tópico contém respostas para as perguntas mais frequentes sobre definições de métrica e uso do Analytics como origem de geração de relatórios para o Target (A4T).
-title: Definições da métrica - Perguntas frequentes sobre o A4T
+description: Encontre respostas para perguntas sobre definições de métricas e como usar o Analytics para Públicos alvos (A4T). O A4T permite que você use o relatórios do Analytics com o Adobe Target atividade.
+title: Onde posso encontrar informações sobre definições de métricas com A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 67%
+source-wordcount: '386'
+ht-degree: 58%
 
 ---
 
