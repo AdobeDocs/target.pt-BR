@@ -1,13 +1,13 @@
 ---
 keywords: intervalo de tempo, data de início, data de término, datas de início/término, intervalo de tempo, agenda do target, divisão de semana, divisão de dia, divisão
-description: É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
-title: Opções de período no Audiência
+description: Saiba como usar datas e horas de start/término para usuários públicos alvos que visitam site durante um período específico. Também é possível definir opções de Fatia e Fatia do dia.
+title: É possível Público alvo Visitantes que visitam meu site em momentos específicos?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
