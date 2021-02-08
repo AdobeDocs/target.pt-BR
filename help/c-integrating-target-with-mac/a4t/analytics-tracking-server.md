@@ -1,13 +1,13 @@
 ---
 keywords: servidor de rastreamento do Analytics;A4T;depurador do Adobe Experience Cloud;depurador do Adobe Experience Platform;fonte do relatórios;ferramentas do desenvolvedor
-description: Se estiver usando uma versão mais antiga da at.js ou da mbox.js, deverá especificar um servidor de rastreamento de análise para as atividades que usam o Analytics for Target (A4T).
-title: Usar um servidor de rastreamento do Analytics
+description: 'Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics para Públicos alvos (A4T) se você estiver usando uma versão anterior do at.js ou mbox.js. '
+title: Como usar um servidor de rastreamento do Analytics?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 25%
+source-wordcount: '717'
+ht-degree: 22%
 
 ---
 
