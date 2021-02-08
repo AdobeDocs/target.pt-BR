@@ -1,13 +1,14 @@
 ---
 keywords: implementar;implementar;lista branca;lista branca;lista de permissões;lista de permissões;borda;bordas;implementation;whitelist;white list;
-description: lista de permissões nós de borda do Adobe Target
-title: lista de permissões nós da borda do Público alvo
+description: Visualização uma lista de hosts para ajudá-lo a lista de permissões as bordas do Adobe Target (nós de serviço distribuídos geograficamente que garantem tempos de resposta ideais para os usuários finais).
+title: Como Lista de permissões nós de borda do Público alvo?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 3%
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
 
