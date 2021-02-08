@@ -1,13 +1,13 @@
 ---
 keywords: oferta remota;matriz de seleção de oferta remota;conteúdo em cache;conteúdo dinâmico;tipo de url
-description: É possível usar ofertas remotas para hospedar conteúdo externo?
-title: Criar ofertas remotas
+description: Saiba como usar ofertas remotas no Adobe Target para hospedar conteúdo externo (conteúdo em um CMS ou outro sistema). Descubra por que deseja usar ofertas remotas.
+title: Como crio Ofertas remotas?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 50%
+source-wordcount: '1082'
+ht-degree: 49%
 
 ---
 
