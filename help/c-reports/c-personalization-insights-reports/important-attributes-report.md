@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, perguntas frequentes, perguntas frequentes, atributos importantes
-description: Informações sobre o relatório de Atributos importantes, um dos dois relatórios especializados disponíveis aos usuários de atividades de Automated Personalization (AP) e Direcionamento automático (AT).
-title: Relatório de atributos importantes
+description: Saiba como usar o relatório Atributos importantes no Adobe Target que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
+title: Qual é o relatório de atributos importantes?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 94%
+source-wordcount: '1656'
+ht-degree: 92%
 
 ---
 
