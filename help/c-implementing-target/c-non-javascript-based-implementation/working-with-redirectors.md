@@ -1,13 +1,14 @@
 ---
 keywords: implementação; mbox.js não javascript; redirecionador; custos por clique; receita por clique
-description: Utilize o Redirecionador de forma similar a uma mbox em seus testes.
-title: Trabalhar com Redirecionadores
+description: Saiba mais sobre como usar Redirecionadores em implementações de email, de modo semelhante ao uso de uma mbox em suas atividades Adobe Target.
+title: Como trabalho com redirecionadores?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 69%
+source-wordcount: '680'
+ht-degree: 66%
 
 ---
 
