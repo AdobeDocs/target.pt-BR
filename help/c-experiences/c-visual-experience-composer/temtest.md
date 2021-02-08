@@ -1,13 +1,13 @@
 ---
 keywords: teste de modelo, modelo, mesma experiência em páginas semelhantes, teste de modelo
-description: Use um modelo de página no Adobe Target para fornecer estrutura para suas páginas, ou se suas páginas contêm elementos semelhantes, para testar variações em elementos de página estruturados de forma semelhante.
-title: Incluir a mesma experiência em páginas semelhantes
+description: Saiba como usar o Adobe Target Visual Experience Composer (VEC) para incluir a mesma experiência em várias páginas que estão estruturadas de forma semelhante ou contêm os mesmos elementos de modelo.
+title: Posso incluir a mesma experiência em páginas semelhantes?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 47%
+source-wordcount: '618'
+ht-degree: 45%
 
 ---
 
