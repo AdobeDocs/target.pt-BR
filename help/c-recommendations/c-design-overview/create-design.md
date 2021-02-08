@@ -1,13 +1,13 @@
 ---
 keywords: design de recomendações, criar design, copiar design
-description: Um design define como as recomendações são exibidas em uma página.
-title: Criar um design
+description: Saiba como criar um design da Adobe Target Recommendations usando um design padrão ou criando um design personalizado que se ajuste melhor ao layout da sua página.
+title: Como crio um design no Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 35%
+source-wordcount: '1018'
+ht-degree: 33%
 
 ---
 
