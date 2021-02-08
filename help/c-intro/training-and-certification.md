@@ -1,13 +1,13 @@
 ---
 keywords: treinamento;certificação;público alvo;cursos on-line;cursos;classe;classes;training;Certificação;;online courses;cursos;cursos;class;classes;
-description: Os Serviços de treinamento do Adobe fornecem classes e certificações para produtos e soluções de Adobe, incluindo a Adobe Target.
-title: Treinamento e certificado
+description: Encontre as aulas e certificações da Adobe Target oferecidas pelos Adobe Training Services.
+title: Onde posso encontrar aulas de treinamento e certificação?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 51%
+source-wordcount: '92'
+ht-degree: 47%
 
 ---
 
