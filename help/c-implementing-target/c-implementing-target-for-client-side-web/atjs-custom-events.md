@@ -1,13 +1,14 @@
 ---
 keywords: eventos personalizados; at.js; falha de solicitação; solicitação com êxito; falha na renderização de conteúdo; renderização de conteúdo com êxito; biblioteca carregada; início da solicitação; início da renderização de conteúdo; renderização de conteúdo não há ofertas; redirecionamento da renderização de conteúdo
-description: Informações sobre os eventos personalizados da biblioteca at.js de JavaScript do Adobe Target.
-title: eventos personalizados do at.js
+description: Use eventos personalizados para que a biblioteca JavaScript do Adobe Target at.js seja notificada quando uma solicitação de mbox ou oferta falhar ou for bem-sucedida.
+title: Como uso Eventos personalizados do at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 92%
 
 ---
 
