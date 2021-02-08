@@ -1,12 +1,12 @@
 ---
 keywords: configurações;priority
-description: A Adobe Target determina qual atividade (ou atividade) deve ser entregue para uma página de forma diferente, dependendo da interface do Público alvo e da função de criação da atividade (Visual Experience Composer ou Criador baseado em forma) que você está usando.
-title: Prioridade
+description: Saiba como a Adobe Target determina qual atividade (ou atividade) deve ser entregue para uma página de forma diferente, dependendo da interface do Público alvo e da função de criação da atividade que você está usando.
+title: Como o Público alvo atribui prioridade a Atividades diferentes?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 88%
 
 ---
