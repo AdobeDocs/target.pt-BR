@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;obter ofertas;at.js; funções;função
-description: Informações sobre a função adobe.target.getOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
-title: Adobe.Público alvo.Getoffer(Opções) - at.js 2.x
+description: Use a função adobe.público alvo.getOffers() e suas opções para que a biblioteca do Adobe Target at.js acione solicitações para obter várias ofertas de Público alvo. (at.js 2.x)
+title: Como uso a função adobe.público alvo.getOffers()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 92%
+source-wordcount: '1240'
+ht-degree: 90%
 
 ---
 
 
-# adobe.público alvo.getOffers (opções) - at.js 2.x
+# adobe.target.getOffers(options) - at.js 2.x
 
 Essa função permite que você recupere várias ofertas passando em várias mboxes. Além disso, várias ofertas podem ser recuperadas para todas as exibições em atividades ativas.
 
