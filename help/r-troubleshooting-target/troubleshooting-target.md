@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas do target, solucionar problemas no target
-description: Lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
-title: Solução de problemas
+description: Revise uma lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
+title: Como soluciono problemas com o Público alvo?
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 98%
+source-wordcount: '445'
+ht-degree: 92%
 
 ---
 
