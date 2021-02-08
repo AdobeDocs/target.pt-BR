@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Público alvo Premium;Automated Personalization;público alvo automático;público alvo automático;permissões;o que é o adobe público alvo;
-description: O que é Público alvo?
+description: Conheça os conceitos básicos do Adobe Target Standard e do Adobe Target Premium. O Público alvo Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
-title: Introdução
+title: O que é Público alvo?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 82%
+source-wordcount: '945'
+ht-degree: 80%
 
 ---
 
