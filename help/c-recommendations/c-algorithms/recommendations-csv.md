@@ -1,13 +1,13 @@
 ---
 keywords: criar critérios personalizados, algoritmos, critérios, critérios de recomendações, csv, ftp, carregar csv
-description: Faça upload de um CSV para personalizar suas recomendações.
-title: Carregar critérios personalizados
+description: Saiba como carregar um arquivo CSV para personalizar suas recomendações no Adobe Target Recommendations.
+title: Como fazer upload de critérios personalizados no Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 64%
+source-wordcount: '710'
+ht-degree: 61%
 
 ---
 
