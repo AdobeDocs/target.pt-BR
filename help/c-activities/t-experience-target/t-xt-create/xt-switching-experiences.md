@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: Informações sobre como visitantes podem alternar entre experiências em uma atividade de Direcionamento de experiência (XT) conforme seus perfis evoluem.
-title: Troca de experiências no Direcionamento de experiência
+keywords: prioridade; criação de experiência; prioridade; experiência; público-alvo; experiência; troca de experiências; visual experience composer
+description: Saiba como os visitantes podem alternar entre experiências em uma atividade Adobe Target Experience Targeting (XT) à medida que seus perfis evoluem.
+title: Os Visitantes podem trocar experiências em uma Atividade de direcionamento de experiência?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 96%
 
 ---
 
