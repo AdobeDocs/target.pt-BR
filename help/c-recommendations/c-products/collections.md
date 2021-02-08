@@ -1,13 +1,13 @@
 ---
 keywords: coleção, direcionamento
-description: Uma coleção é um conjunto de produtos ou itens no Adobe Target que são qualificados para uma recomendação.
-title: Coleções
+description: Saiba como usar coleções no Adobe Target Recommendations. Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação.
+title: Como uso coleções no Recommendations Atividade?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 61%
+source-wordcount: '880'
+ht-degree: 60%
 
 ---
 
