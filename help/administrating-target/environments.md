@@ -1,13 +1,14 @@
 ---
 keywords: ambiente;solução de problemas;práticas recomendadas;ubox;redireciona;redireciona;lista de permissões;lista negra;lista de bloqueios;lista de permissões;;troubleshooting;unpractices;redirects;redirect;whitelist;blacklist;blacklist;;_solution;best practices;ubox;redirects;
-description: Organize seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separado no Adobe Target.
-title: Ambientes
+description: Saiba como usar ambientes na Adobe Target para organizar seus sites e ambientes de pré-produção para facilitar o gerenciamento e o relatórios separado.
+title: O que são Ambientes e como eu os uso?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '682'
+ht-degree: 63%
 
 ---
 
