@@ -1,13 +1,14 @@
 ---
 keywords: implementação; mbox.js não javascript; mbox; adbox
-description: Use uma AdBox para fornecer imagens em uma implementação fora do site, usando o Adobe Target.
-title: Criar uma AdBox para uma imagem
+description: Use uma AdBox para fornecer imagens em uma implementação fora do site usando o Adobe Target. Uma AdBox é como uma mbox, mas é controlada por um URL em vez de JavaScript.
+title: Como crio uma Adbox para uma imagem?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 80%
+source-wordcount: '328'
+ht-degree: 74%
 
 ---
 
