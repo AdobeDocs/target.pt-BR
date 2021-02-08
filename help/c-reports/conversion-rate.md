@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento
-description: A taxa de conversão, o incentivo, a confiança (significância estatística) e o intervalo de confiança são reportados para cada experiência.
-title: Índice de conversão
+description: Saiba como a Adobe Target mostra e calcula a taxa de conversão, o incentivo, a confiança (significância estatística) e o intervalo de confiança para cada experiência.
+title: Como Visualização a Taxa de conversão, o incentivo e o nível de confiança?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2173'
-ht-degree: 71%
+source-wordcount: '2187'
+ht-degree: 70%
 
 ---
 
