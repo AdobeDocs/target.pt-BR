@@ -1,12 +1,12 @@
 ---
 keywords: público alvo automático;definição de metas;alocação de tráfego;perguntas frequentes;perguntas frequentes;solução de problemas;solução de problemas;tráfego
-description: Solução de problemas e perguntas frequentes sobre o Público alvo automático no Adobe Target.
-title: Solução de problemas de Público alvo automático e perguntas frequentes
+description: Explore tópicos de solução de problemas e Perguntas frequentes sobre o Público alvo automático de atividades no Adobe Target.
+title: Como posso solucionar problemas de Atividades de Público alvo automático?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
