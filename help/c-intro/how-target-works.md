@@ -1,12 +1,12 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;otimização do mecanismo de pesquisa;clusters de borda, clusters centrais;at.js;mbox.js;
-description: Informações sobre como o Adobe Target funciona, incluindo informações sobre o Adobe Experience Platform Web SDK, as bibliotecas do JavaScript do Público alvo (at.js e mbox.js) e os vários tipos de atividade que você pode criar no Público alvo.
-title: Como o Público alvo funciona
+description: Saiba mais sobre como a Adobe Target funciona, incluindo informações sobre as bibliotecas do JavaScript do Público alvo (at.js e AEP Web SDK), os data centers do Adobe e os testes SEO.
+title: Como Funciona O Público alvo?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2516'
 ht-degree: 70%
 
 ---
