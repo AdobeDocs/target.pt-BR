@@ -1,13 +1,13 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo
-description: Você pode criar públicos-alvo personalizados e salvá-los na biblioteca do Target para usar nas atividades. Agora é possível copiar um público-alvo existente, que pode ser editado para criar um público-alvo semelhante.
-title: Criar Audiências
+description: Saiba como criar audiências personalizadas e salvá-las na biblioteca do Adobe Target Audiência para uso em suas atividades.
+title: Como crio Audiências?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 99%
+source-wordcount: '464'
+ht-degree: 94%
 
 ---
 
