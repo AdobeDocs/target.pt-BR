@@ -46,7 +46,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 | Chama | Detalhes |
 | --- | --- |
-| 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
+| 3 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
 | 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
