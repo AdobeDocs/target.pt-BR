@@ -1,12 +1,12 @@
 ---
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
-description: Lista de perguntas frequentes sobre o Adobe Target Recommendations atividade.
-title: Perguntas frequentes sobre o Público alvo Recommendations
+description: Visualização uma lista de perguntas frequentes e respostas sobre as atividades Adobe Target Recommendations.
+title: Onde posso encontrar perguntas e respostas sobre o Público alvo Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2041'
 ht-degree: 80%
 
 ---
