@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;acionar exibição;at.js;funções;função viewName;viewname;exibir nome
-description: Informações sobre a função adobe.target.triggerView (viewName, options) da biblioteca at.js de JavaScript do Adobe Target.
-title: Adobe.Público alvo.Triggerview (Nome do visualizador, Opções) - at.js 2.x
+description: Use a função adobe.público alvo.triggerView() para a biblioteca JavaScript do Adobe Target at.js para uso em Aplicativos de página única (SPA). (at.js 2.x)
+title: Como uso a função adobe.público alvo.triggerView()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
 
-# adobe.público alvo.triggerView (viewName, opções) - at.js 2.x
+# adobe.target.triggerView (viewName, options) - at.js 2.x
 
 Essa função pode ser chamada sempre que uma nova página é carregada ou quando um componente em uma página é renderizado novamente. `adobe.target.triggerView()` deve ser implementado para aplicativos de página única (SPAs) para usar o Visual Experience Composer (VEC) para criar atividades de teste A/B e direcionamento de experiência (XT). Se `adobe.target.triggerView()` não estiver implementado no site, o VEC não poderá ser usado para SPA. Para obter mais informações, consulte [Implementação do aplicativo de página única](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
