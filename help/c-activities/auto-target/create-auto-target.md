@@ -1,12 +1,12 @@
 ---
 keywords: Criar público alvo automático;teste A/B;atividade de público alvo automático;nova atividade a/b;público alvo automático;público alvo automático para experiências personalizadas;personalizado
-description: Use o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B de Público alvo automático diretamente em uma página habilitada por Público alvo e para modificar partes da página no Público alvo.
-title: Criar uma Atividade de Público alvo automático
+description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B de Público alvo automático diretamente em uma página habilitada para Públicos alvos.
+title: Como crio uma Atividade de Público alvo automático?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '937'
 ht-degree: 58%
 
 ---
