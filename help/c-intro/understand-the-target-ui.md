@@ -1,13 +1,13 @@
 ---
 keywords: interface do usuário do público alvo;interface do usuário;ui
-description: Como usar a interface do usuário (IU)?
-title: Entenda A Interface Do Usuário
+description: Familiarize-se com a interface do usuário e encontre links para informações mais detalhadas para ajudá-lo a aproveitar ao máximo o Público alvo.
+title: Como uso a interface do Público alvo?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 30%
+source-wordcount: '817'
+ht-degree: 29%
 
 ---
 
