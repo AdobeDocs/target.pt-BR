@@ -1,13 +1,13 @@
 ---
 keywords: Meta & Configurações;objetivo;prioridade;duração
-description: Use as Configurações de Atividade no Adobe Target para gerenciar o objetivo, a prioridade e a duração de suas atividades.
-title: Configurações de atividade
+description: Saiba como usar as Configurações de Atividade no Adobe Target para gerenciar o objetivo, a prioridade e a duração de suas atividades.
+title: Como especificar configurações de Atividade?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 82%
+source-wordcount: '416'
+ht-degree: 80%
 
 ---
 
