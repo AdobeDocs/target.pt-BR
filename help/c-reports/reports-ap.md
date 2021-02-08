@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento;relatórios PA;relatórios de personalização automatizada;relatório de nível de atividade;relatório de nível de oferta;relatório de detalhes de oferta;perguntas frequentes
-description: Como usar os relatórios de Resumo da Automated Personalization?
-title: Relatórios de Resumo da personalização automatizada
+description: Saiba como interpretar o relatório Resumo da Automated Personalization no Adobe Target. Você pode alternar para os relatórios Segmentos automatizados e Atributos importantes deste relatório.
+title: Como uso os relatórios de resumo da Automated Personalization?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 42%
+source-wordcount: '671'
+ht-degree: 40%
 
 ---
 
