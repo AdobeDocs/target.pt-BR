@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento;analytics;servidor de rastreamento;analytics para público alvo;a4t
-description: Você pode configurar uma atividade no Adobe Target Standard para usar o Adobe Analytics como a fonte do relatórios (A4T).
-title: Uso de dados do Analytics
+description: Saiba como configurar uma atividade no Adobe Target para usar o Adobe Analytics como a fonte do relatórios. Essa integração é chamada de Analytics for Público alvo (A4T).
+title: Como posso usar os dados do Analytics no Público alvo?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 88%
+source-wordcount: '554'
+ht-degree: 85%
 
 ---
 
