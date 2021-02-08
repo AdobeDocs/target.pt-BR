@@ -1,12 +1,12 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Kit de boas-vindas da Adobe Target - Capítulo 6 - armadilhas facilmente evitáveis
-title: Kit de boas-vindas - Capítulo 6 - Impedir armadilhas facilmente
+description: Aprenda com os erros dos outros para que você não cometa os mesmos erros ao usar o Adobe Target como parte de sua estratégia de teste e personalização.
+title: O que são erros comuns ao usar o Público alvo e como posso evitá-los?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
