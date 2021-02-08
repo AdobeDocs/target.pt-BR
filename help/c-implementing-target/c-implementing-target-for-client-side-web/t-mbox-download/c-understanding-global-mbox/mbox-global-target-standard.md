@@ -1,13 +1,14 @@
 ---
-keywords: global mbox;target classic;use global mbox from target classic
-description: Por padrão, o Target Standard cria uma mbox global chamada target-global-mbox, usada para executar atividades criadas no Target Standard. No entanto, se você já criou uma mbox global em suas páginas para suas implementações existentes, você pode usar essa mbox para suas atividades no Target Standard.
-title: Usar uma mbox global de uma implementação existente
+keywords: mbox global; target classic; usar mbox global do target classic
+description: Saiba como usar uma mbox global legada para suas atividades Adobe Target se você já tiver criado uma mbox global em suas páginas para suas implementações herdadas.
+title: Posso usar uma mbox global de uma implementação legada?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 50%
+source-wordcount: '303'
+ht-degree: 36%
 
 ---
 
