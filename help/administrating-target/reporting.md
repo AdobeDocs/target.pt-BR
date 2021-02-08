@@ -1,13 +1,14 @@
 ---
 keywords: relatório;relatórios;relatórios;solução de nuvem de experiência;fuso horário;fuso horário;moeda;excluir IPs;aumento estimado na receita;aumento na receita;prioridades refinadas;com granulado fino
-description: Defina as configurações gerais a serem usadas no relatórios Adobe Target que se aplicam a toda a sua conta de Público alvo. Você pode configurar a solução Adobe Experience Cloud para usar para o relatórios (Público alvo ou Analytics), o fuso horário e o formato de moeda a serem usados para o relatórios, os endereços IP para excluir do relatórios e se deve mostrar o aumento estimado na receita e as prioridades refinadas no relatórios.
-title: Configurar Relatórios
+description: Use o Público alvo ou o Adobe Analytics como a fonte do relatórios, especifique o fuso horário padrão e o formato de moeda, adicione endereços IP para excluir do relatórios e muito mais.
+title: Como configurar o Relatórios no Público alvo?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 30%
+source-wordcount: '698'
+ht-degree: 31%
 
 ---
 
