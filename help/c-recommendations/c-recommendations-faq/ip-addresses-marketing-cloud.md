@@ -1,13 +1,13 @@
 ---
 keywords: endereço IP;endereços IP;lista de permissões;lista de permissões;firewall;recs;feed;servidores;adobe marketing cloud;recomendações;endereço IP;lista de permissões;;firewall;recs;feed;servidores;adobe marketing cloud;Recomendações
-description: Utilização de lista de endereços IP nos servidores de processamento de feeds do Recommendations, localizados no data center de Oregon, para ajudá-lo a configurar seu firewall para permitir os endereços IP originados de servidores da Adobe.
-title: Endereços IP usados pelos servidores de processamento de feed do Recommendations
+description: Visualização uma lista de endereços IP usados em servidores de processamento de feed Recommendations Público alvo para ajudá-lo a configurar seu firewall para permitir endereços IP originários de servidores Adobe.
+title: Quais endereços IP os servidores de processamento de feed da Recommendations usam?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 81%
+source-wordcount: '178'
+ht-degree: 61%
 
 ---
 
