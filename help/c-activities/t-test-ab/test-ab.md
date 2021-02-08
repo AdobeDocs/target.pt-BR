@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;comparar experiências;Direcionamento;comparar conteúdo;público alvo automático;alocar automaticamente
-description: Uma atividade manual de teste A/B compara duas ou mais versões do conteúdo do site para ver qual versão melhora melhor suas conversões durante um período de teste pré-especificado.
-title: Visão geral do teste A/B
+description: Saiba mais sobre os diferentes tipos de atividades de teste A/B no Adobe Target - Manual, Autoalocação e Público alvo automático. Escolha o que é certo para você.
+title: Que tipo de Atividades A/B estão disponíveis no Público alvo?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 38%
 
 ---
