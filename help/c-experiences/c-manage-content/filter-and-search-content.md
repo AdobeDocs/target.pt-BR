@@ -1,13 +1,13 @@
 ---
 keywords: biblioteca de conteúdo;ativos;pesquisar;filtrar
-description: Como pesquisar ativos por palavras-chave?
-title: Pesquisar conteúdo
+description: Saiba como pesquisar ofertas de código e imagem na biblioteca do Adobe Target Oferta.
+title: Como faço para procurar conteúdo na biblioteca do Oferta?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
