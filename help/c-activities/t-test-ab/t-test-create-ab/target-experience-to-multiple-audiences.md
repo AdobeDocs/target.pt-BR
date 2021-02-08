@@ -1,13 +1,13 @@
 ---
 keywords: vários públicos-alvo; versões de experiência; versões de experiência de direcionamento
-description: Você pode público alvo versões da mesma experiência para audiências diferentes no Adobe Target A/B atividade. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
-title: Múltiplas versões de uma experiência em um teste A/B
+description: Saiba como público alvo versões da mesma experiência para diferentes audiências no Adobe Target A/B atividade.
+title: Posso usar várias versões de experiência em uma atividade A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
