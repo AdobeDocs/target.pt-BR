@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: Várias alterações ocorrem no processo de coleta de dados quando o Analytics é habilitado como a fonte de geração de relatórios para o Target (A4T).
-title: Antes de implementar o Analytics como a Fonte do Relatórios (A4T)
+description: Saiba mais sobre os requisitos de implementação do Analytics para Públicos alvos (A4T) e o que considerar antes de implementar essa integração.
+title: O Que Devo Saber Antes De Implementar A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 54%
+source-wordcount: '896'
+ht-degree: 52%
 
 ---
 
