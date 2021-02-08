@@ -1,12 +1,12 @@
 ---
 keywords: páginas do site;páginas do site do público alvo;definição de metas;página atual;página atual do público alvo;página anterior;página anterior do público alvo;página anterior;landing page;landing page do público alvo;cabeçalho http
-description: Você pode público alvo visitantes que estão em uma página específica do site.
-title: Opções de páginas do site no Audiência
+description: Saiba como público alvo visitantes usando o Adobe Target que estão em uma página específica do seu site.
+title: Posso Público alvo Visitantes com base nas páginas do site?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 42%
 
 ---
