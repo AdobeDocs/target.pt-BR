@@ -1,13 +1,14 @@
 ---
 keywords: perguntas frequentes da at.js; perguntas frequentes da at.js; perguntas frequentes; cintilação; loader; loader de página; domínio cruzado; tamanho do arquivo; tamanho; domínio x; at.js e mbox.js; somente x; domínio cruzado; safari; aplicativo de página única; seletores ausentes; seletores; aplicativo de página única; tt.omtrdc.net; spa; Adobe Experience Manager; AEM; endereço ip; httponly; Httponly; proteger; ip; domínio de cookie
-description: Respostas às perguntas frequentes sobre a biblioteca de JavaScript at.js do Adobe Target.
-title: Perguntas frequentes sobre at.js
+description: Leia as respostas às perguntas frequentes sobre a biblioteca JavaScript do Adobe Target at.js.
+title: O que são perguntas e respostas comuns sobre o at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2698'
-ht-degree: 94%
+source-wordcount: '2703'
+ht-degree: 93%
 
 ---
 
