@@ -1,12 +1,13 @@
 ---
 keywords: implantação híbrida;híbrida;lado do servidor;lado do servidor;lado do servidor;lado do cliente;lado do cliente;lado do cliente;implementação híbrida
-description: A Adobe Target oferta um modelo exclusivo de implantação híbrida para personalização, mesclando implementações do lado do cliente e do lado do servidor.
-title: Implementação híbrida
+description: Saiba mais sobre o modelo exclusivo de implantação híbrida da Adobe Target para personalização, mesclando implementações do lado do cliente e do lado do servidor.
+title: O Que É Uma Implementação De Público alvo Híbrido?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
