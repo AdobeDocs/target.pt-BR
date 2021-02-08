@@ -1,13 +1,14 @@
 ---
 keywords: aplicativo móvel, sdk de aplicativo móvel, aplicativo móvel target, sdk target móvel, sdk de aplicativo móvel, habilitar target no sdk
-description: Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
-title: Habilitar o Target no SDK
+description: Saiba como adicionar o SDK do Adobe Mobile Services ao seu aplicativo móvel.
+title: Como ativar o Público alvo no SDK do Adobe Mobile?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 90%
+source-wordcount: '259'
+ht-degree: 81%
 
 ---
 
