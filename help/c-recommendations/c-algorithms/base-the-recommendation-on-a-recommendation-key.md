@@ -1,14 +1,14 @@
 ---
 keywords: chave de recomendação;lógica de recomendação;categoria atual;atributo personalizado;último item comprado;último item visualizado;item mais visualizado;item mais visualizado;categoria favorita;popularidade;item visualizado recentemente;último comprado;último visualizado;mais visualizado;favorito;recentemente visualizado
-description: O Recommendations baseado em chaves usa o contexto de comportamento do visitante para mostrar resultados relevantes no Adobe Target Recommendations atividade.
-title: Basear a recomendação em uma Chave de recomendação
+description: Saiba como usar recomendações com base em chaves que usam o contexto de comportamento do visitante para mostrar resultados relevantes no Adobe Target Recommendations atividade.
+title: Como faço para basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 
