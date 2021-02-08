@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, metas, públicos-alvo
-description: Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
-title: Perguntas frequentes sobre públicos alvos e Audiências
+description: Perguntas frequentes sobre visualização sobre direcionamento de experiência e audiências usadas no Adobe Target atividade.
+title: Onde posso encontrar perguntas e respostas sobre Públicos alvos e Audiências?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 
