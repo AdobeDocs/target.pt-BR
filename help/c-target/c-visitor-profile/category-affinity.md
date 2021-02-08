@@ -1,13 +1,13 @@
 ---
 keywords: afinidade, afinidade de categorias
-description: O recurso de afinidade de categorias no Adobe Target captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
-title: Usar Afinidade da Categoria
+description: Saiba mais sobre a afinidade de categoria no Adobe Target que captura automaticamente as visitas de um usuário ao categoria e calcula a afinidade do usuário para a categoria, para que ela possa ser direcionada e segmentada.
+title: O Que É Afinidade Categoria?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 98%
+source-wordcount: '812'
+ht-degree: 94%
 
 ---
 
