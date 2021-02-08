@@ -1,13 +1,13 @@
 ---
 keywords: log de alterações de atividade;log de alterações
-description: O log de alterações fornece um registro de quem alterou suas atividades e quais foram as alterações.
-title: Log de alterações da atividade
+description: Acesse um log de alterações de atividade no Adobe Target para visualização de um registro de quem alterou suas atividades e quando as alterações ocorreram.
+title: Como posso ver um registro de alterações do Atividade?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
