@@ -1,13 +1,14 @@
 ---
 keywords: at.js;non-production;non-production;deployment
-description: Informações sobre como implementar com segurança a at.js em um ambiente de não-produção.
-title: Implementar a at.js em um ambiente de não-produção
+description: Saiba mais sobre a implementação legada da mbox.js do Adobe Target. Migre para o Adobe Experience Platform Web SDK (AEP Web SDK) ou para a versão mais recente do at.js.
+title: Como faço para implantar o at.js em um Ambiente que não seja de produção?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 91%
+source-wordcount: '392'
+ht-degree: 82%
 
 ---
 
