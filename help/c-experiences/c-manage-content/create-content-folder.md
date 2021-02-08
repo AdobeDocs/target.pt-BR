@@ -1,13 +1,13 @@
 ---
 keywords: conteúdo; criar pasta; ativos; mover pasta; copiar pasta; excluir pasta; pasta de download; pasta
 description: Como faço para criar pastas na biblioteca do Oferta?
-title: Criar uma pasta de ofertas
+title: Saiba como criar pastas na biblioteca do Adobe Target Oferta para manter ofertas de código e imagem, bem como outras pastas.
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 25%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 
