@@ -1,12 +1,12 @@
 ---
 keywords: sequência de critérios;vários critérios;algoritmos;critérios;critérios de recomendações;sequência;número limite de itens devolvidos;controle de nível de slot;slot
-description: Use sequências de até cinco critérios para exercer maior controle dos itens exibidos nas atividades Adobe Target Recommendations.
-title: Criar sequências de critérios
+description: Saiba como definir sequências de até cinco critérios para exercer maior controle dos itens exibidos nas atividades Adobe Target Recommendations.
+title: Como crio sequências de critérios no Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
