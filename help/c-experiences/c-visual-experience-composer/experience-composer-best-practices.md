@@ -1,12 +1,12 @@
 ---
 keywords: visual experience composer; práticas recomendadas do visual experience composer; limitações do visual experience composer; avisos do visual experience composer; práticas recomendadas do vec; vec
-description: Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Há também outras dicas e limitações que você deve ter em mente ao usar o Visual Experience Composer (VEC) no Adobe Target.
-title: Práticas recomendadas e limitações do Visual Experience Composer
+description: Saiba mais sobre as práticas recomendadas para fazer com que suas experiências funcionem como esperado ao usar o Visual Experience Composer (VEC) no Adobe Target.
+title: Quais são as práticas recomendadas e limitações do Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2460'
 ht-degree: 95%
 
 ---
