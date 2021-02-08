@@ -1,12 +1,12 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Kit de boas-vindas da Adobe Target - Capítulo 9 - Próximas etapas e recursos
-title: Kit de boas-vindas - Capítulo 9 - Próximas etapas e recursos
+description: Você criou sua primeira atividade no Adobe Target. O que vem a seguir? Use este artigo para encontrar links para recursos adicionais, tutoriais de treinamento e vídeos explicativos.
+title: Onde posso encontrar recursos adicionais para usar o Público alvo de forma mais eficaz?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
