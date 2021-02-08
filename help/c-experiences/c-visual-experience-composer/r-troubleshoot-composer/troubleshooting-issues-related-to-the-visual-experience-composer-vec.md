@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: Às vezes, ocorrem problemas de exibição no Adobe Target Visual Experience Composer (VEC) sob determinadas condições.
-title: Solução de problemas relacionados ao Visual Experience Composer
+keywords: Definição de metas;Visual Experience Composer;vec;solução de problemas do Visual Experience Composer;solução de problemas;tls;tls 1.2
+description: Saiba como solucionar problemas que às vezes ocorrem no Adobe Target Visual Experience Composer (VEC) sob determinadas condições.
+title: Como soluciono problemas relacionados ao Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 92%
+source-wordcount: '798'
+ht-degree: 89%
 
 ---
 
