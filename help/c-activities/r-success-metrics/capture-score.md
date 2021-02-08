@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: A métrica de envolvimento de Pontuação de captura no Adobe Target calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante visualiza a primeira Solicitação de Público alvo de exibição da campanha.
-title: Pontuação de captura
+keywords: pontuação de captura;pontuação
+description: Saiba mais sobre a métrica de envolvimento da Pontuação de captura no Adobe Target que calcula uma pontuação agregada com base no valor atribuído às páginas visitadas no site.
+title: O que é a métrica de Pontuação de captura?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 
