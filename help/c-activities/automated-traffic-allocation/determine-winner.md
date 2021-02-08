@@ -1,12 +1,12 @@
 ---
 keywords: alocação de tráfego automatizada;definição de metas;vencedor;garantia estatística;confiança;determinar vencedor;incentivo;confiança;padrão;experiência padrão;autoalocar;alocar automaticamente
-description: Interprete os resultados de uma atividade A/B de autoalocação no Adobe Target examinando indicadores importantes, incluindo incentivo e confiança.
-title: Interpretar relatórios de autoalocação
+description: Saiba como interpretar os resultados de uma atividade A/B de autoalocação no Adobe Target examinando indicadores importantes, incluindo incentivo e confiança.
+title: Como interpreto a autoalocação de relatórios?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 47%
 
 ---
