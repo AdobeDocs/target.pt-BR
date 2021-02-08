@@ -1,13 +1,14 @@
 ---
 keywords: Administração; função de aprovador; aprovador
-description: As primeiras etapas que os administradores da Adobe Target devem seguir após receber o convite enviado por email para a Adobe Experience Cloud.
-title: Primeiros passos do administrador
+description: Execute o primeiro tarefa Os administradores do Adobe Target devem receber o convite enviado por email para a Adobe Experience Cloud.
+title: Onde Começo A Administrar O Público alvo?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 84%
+source-wordcount: '408'
+ht-degree: 83%
 
 ---
 
