@@ -1,12 +1,12 @@
 ---
-keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate;integration
-description: A integração Público alvo permite enviar segmentos Audience Manager para a Adobe Target
-title: Integrar Público alvo ao Adobe Audience Manager (AAM)
+keywords: segmentos;audiência;aam;gerenciador de audiências;adobe audiência manager;integrar;integração
+description: Saiba como usar a integração Público alvo para enviar segmentos Audience Manager (AAM) para a Adobe Target.
+title: Como integrar o Público alvo ao Adobe Audience Manager (AAM)?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
