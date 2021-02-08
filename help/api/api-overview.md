@@ -1,12 +1,13 @@
 ---
 keywords: api;apis;admin api;delivery api;relatórios api;perfil api;api
-description: Informações sobre as APIs da Adobe Target, incluindo as APIs de Admin, Delivery, Relatórios e Perfil.
-title: Visão geral da API do Adobe Target
+description: Encontre as APIs da Adobe Target, incluindo as APIs de administração, Delivery, Relatórios e Perfil.
+title: Onde posso encontrar a API do Público alvo e a documentação do SDK?
 feature: APIs/SDKs
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
