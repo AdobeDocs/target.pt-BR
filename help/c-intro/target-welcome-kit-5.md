@@ -1,12 +1,12 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Kit de boas-vindas da Adobe Target - Capítulo 5 - Inspiração para atividades de teste e personalização
-title: Kit de boas-vindas - Capítulo 5 - Inspiração para Atividades de teste e personalização
+description: Onde posso encontrar ideias e inspiração para minhas atividades de teste e personalização usando o Adobe Target?
+title: Onde posso encontrar inspiração para meus esforços de teste e personalização?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Talvez apenas mudar a ordem das opções para escolher quando os clientes querem
 
 Se a sua empresa estiver gastando recursos para desenvolver um aplicativo móvel para iOS, Android ou outros dispositivos, não fique parado e espere que os usuários tropecem no aplicativo na app store. Em vez disso, tem uma estratégia sólida para a sua promoção. Teste diferentes abordagens para direcionar downloads e uso de aplicativos. Se seu site não móvel tiver um link para baixar seu aplicativo, tente testar a eficácia de uma landing page intersticial que promove explicitamente seu aplicativo quando visitantes chegarem ao home page. Configure um teste de redirecionamento que filtros metade do seu tráfego móvel para a página do site atual e a outra metade para a landing page intersticial.
 
-## Ideia 9: use inovações de aplicativos móveis.
+## Ideia 9: Use inovações de aplicativos móveis.
 
 Explore aspectos do smartphone além da geolocalização, como o acelerômetro ou o giroscópio. Por exemplo, teste uma experiência que use o acelerômetro para adicionar um item exibido a um carrinho de compras, agitando o telefone. Até mesmo teste para usuários de diferentes marcas de dispositivos, como iOS ou Android, para ver se a resposta deles é diferente. Esses testes permitem que você descubra o novo comportamento do visitante para considerar o uso em testes futuros.
 
