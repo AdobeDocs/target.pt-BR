@@ -1,13 +1,13 @@
 ---
 keywords: variáveis, perfis, parâmetros, perfis internos, métodos, variáveis de url, perfis geográficos, perfis de terceiros, variáveis da mbox, variáveis de campanha, atributos do cliente
-description: Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de perfil.
-title: Glossário de variáveis e perfis
+description: Visualização uma lista de vários perfis, variáveis e parâmetros úteis em scripts de perfil no Adobe Target.
+title: Quais Perfis, variáveis e parâmetros são usados no Público alvo?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 88%
 
 ---
 
