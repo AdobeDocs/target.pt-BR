@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento, rede, rede de direcionamento, isp, nome de domínio, velocidade de conexão, isp do target, nome de domínio do target, velocidade de conexão do target
-description: Você pode criar públicos no Adobe Target com base nos detalhes da rede.
-title: Opções de rede no Audiência
+description: Saiba como criar o audiência no Adobe Target com base em detalhes da rede, como ISP, Nome do domínio e Velocidade da conexão.
+title: Posso Público alvo Visitantes com base nas opções de rede?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 98%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
