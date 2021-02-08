@@ -1,13 +1,14 @@
 ---
 keywords: cookie;cookies;excluir cookie;excluir cookie de público alvo;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: Exclua os cookies do navegador do Target para que você possa validar todas as suas experiências.
-title: Exclua o cookie do Target
+description: Saiba como excluir os cookies do navegador do Público alvo para que você possa validar suas experiências.
+title: Como excluir o cookie do Público alvo?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 9%
+source-wordcount: '428'
+ht-degree: 5%
 
 ---
 
