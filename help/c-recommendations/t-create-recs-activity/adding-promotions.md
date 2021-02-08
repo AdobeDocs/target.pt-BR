@@ -1,13 +1,13 @@
 ---
 keywords: promoções;promoções frontais;promoções traseiras;tipo promoções;lista de itens;promover por atributo;promover uma coleção
-description: Adicione itens promovidos e controle o posicionamento nos designs do Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
-title: Adicionar promoções nos designs Recommendations do Público alvo
+description: Saiba como adicionar itens promovidos e controlar sua colocação em seus designs Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
+title: Como adiciono promoções nos designs Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 58%
+source-wordcount: '699'
+ht-degree: 56%
 
 ---
 
