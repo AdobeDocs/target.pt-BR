@@ -1,13 +1,14 @@
 ---
 keywords: qa; visualização; link de visualização; dispositivo móvel; visualização móvel
-description: Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
-title: Usar o Mobile Pré-visualização Link no Público alvo Mobile
+description: Use links de pré-visualização para dispositivos móveis para executar um controle de qualidade completo para atividades de aplicativos móveis. Você pode se inscrever em experiências diferentes sem dispositivos de teste especiais.
+title: Como uso o Mobile Pré-visualização Link no Público alvo Mobile?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,10 +77,16 @@ A funcionalidade visualização móvel permite que você teste completamente sua
      }
    ```
 
-   Para fazer a visualização móvel funcionar no Android, você também deve adicionar o seguinte fragmento de código em [!DNL AndroidManifest.xml]:
+   Para fazer a Pré-visualização móvel funcionar para Android, você também deve adicionar o seguinte trecho de código em [!DNL AndroidManifest.xml] se estiver usando a versão 5 do SDK do Adobe Mobile:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   Se você estiver usando a versão 4 do SDK do Adobe Mobile, use o seguinte trecho de código:
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## Gerar um link de visualização {#section_D9D58173FFF34E9BB75EBF357273F128}
