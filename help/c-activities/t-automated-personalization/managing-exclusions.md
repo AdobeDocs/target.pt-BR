@@ -1,14 +1,14 @@
 ---
 keywords: desfazer;permitir duplicados;excluir ofertas duplicados;personalização automatizada;desabilitar ofertas duplicados;excluir;conteúdo padrão;grupo de exclusão;
-description: Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de Personalização Adobe Target automatizada (AP) no Adobe Target.
-title: Gerenciar exclusões
+description: Gerencie exclusões em atividades Adobe Target Automated Personalization (AP). Crie grupos de exclusão e exclua ofertas de duplicados, experiências específicas e conteúdo padrão.
+title: Como gerenciar exclusões no Automated Personalization Atividade?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 92%
+source-wordcount: '986'
+ht-degree: 89%
 
 ---
 
