@@ -1,13 +1,14 @@
 ---
 keywords: tls;tls 1.0;segurança da camada de transporte;encriptação;tls 1.1;tls 1.2
-description: Informações sobre alterações em como a Adobe e o Target usam a Segurança da camada de transporte (TLS) para manter os mais altos padrões de segurança e promover a segurança dos dados do cliente.
-title: Alterações na criptografia do TLS (Transport Layer Security)
+description: Saiba como o Público alvo usa o protocolo TLS (Transport Layer Security) para manter os mais altos padrões de segurança e promover a segurança dos dados do cliente.
+title: Como o Público alvo usa o TLS para fornecer segurança?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1238'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
