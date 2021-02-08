@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;aplicar ofertas;at.js;funções;função
-description: Informações sobre a função adobe.target.applyOffers(options) da biblioteca at.js de JavaScript do Adobe Target.
-title: Adobe.Público alvo.Applyoffer(Opções) - at.js 2.x
+description: Use a função adobe.público alvo.applyOffers() da biblioteca JavaScript do Adobe Target at.js para aplicar várias ofertas na resposta. (at.js 2.x)
+title: Como uso a função adobe.público alvo.applyOffers()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 94%
+source-wordcount: '809'
+ht-degree: 92%
 
 ---
 
 
-# adobe.público alvo.applyOffers (opções) - at.js 2.x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.target.getOffers()`.
 
