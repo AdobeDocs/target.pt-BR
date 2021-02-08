@@ -1,12 +1,12 @@
 ---
 keywords: boletim informativo interno;boletim informativo;atualizações de produtos;dicas e truques;eventos;sucesso do cliente;blog;blogs;whitepaper;white paper;insider newsletter;products updates;tips;customer success;blog;blogs;whitepaper;white paper;white paper
-description: Onde posso encontrar a newsletter mensal do Adobe Target Insider?
-title: Informativo do Insider
+description: Leia as últimas notícias sobre o Adobe Target. Encontre informações sobre eventos futuros, histórias de sucesso de clientes, informações e dicas dos especialistas e muito mais.
+title: O que é o Adobe Target Insider Newsletter?
 feature: Release Notes, Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2150'
 ht-degree: 41%
 
 ---
