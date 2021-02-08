@@ -1,13 +1,13 @@
 ---
 keywords: solucionar problemas do target, solução de problemas do target, conteúdo padrão, teste não ativo, atividade não ativa, não funcionamento do direcionamento, exibições da experiência anterior, não é possível criar atividades, não é possível criar atividades, criar atividades, estrutura de página alterada, estrutura de página modificada, mensagem de erro, script de perfil para a exclusão do erro, não funcionamento do ajax
-description: Se sua atividade Adobe Target não for exibida em seu site, essas sugestões de solução de problemas devem ajudá-lo a encontrar sua solução.
-title: Solucionar problemas do Atividade
+description: Encontre sugestões de solução de problemas caso sua atividade Adobe Target não apareça no site.
+title: Como posso solucionar problemas do Atividade?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '838'
+ht-degree: 78%
 
 ---
 
