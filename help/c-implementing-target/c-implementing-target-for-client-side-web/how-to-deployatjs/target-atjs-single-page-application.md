@@ -1,12 +1,13 @@
 ---
 keywords: implementação de aplicativo de página única;implementar aplicativo de página única;spa;at.js 2.x;at.js;aplicativo de página única;aplicativo de página única;spa;SPA
-description: Informações para usar a at.js 2.x do Adobe Target para implementar Aplicativos de página única (SPAs).
-title: Implementação de aplicativo de página única
+description: Saiba como usar o Adobe Target at.js 2.x para implementar o Público alvo para aplicativos de página única (SPA).
+title: É possível implementar o Público alvo para aplicativos de página única (SPA)?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2777'
 ht-degree: 73%
 
 ---
@@ -208,7 +209,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 | Etapa | Detalhes |
 | --- | --- |
-| 3 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
+| 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
 | 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
@@ -282,7 +283,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 
 | Etapa  | Ação | Detalhes |
 | --- | --- | --- |
-| 1 | Carregar JS VisitorAPI | Essa biblioteca é responsável por atribuir uma ECID ao visitante. Essa ID é consumida posteriormente por outras [!DNL Adobe] soluções na página da Web. |
+| 3 | Carregar JS VisitorAPI | Essa biblioteca é responsável por atribuir uma ECID ao visitante. Essa ID é consumida posteriormente por outras [!DNL Adobe] soluções na página da Web. |
 | 2 | Carregar at.js 2.x | O at.js 2.x carrega todas as APIs necessárias que você usa para implementar [!DNL Target] solicitações e visualizações. |
 | 3 | Executar solicitação [!DNL Target] | Se você tiver uma camada de dados, recomendamos que carregue dados críticos que são necessários para enviar para [!DNL Target] antes de executar uma solicitação [!DNL Target]. Isso permite usar `targetPageParams` para enviar todos os dados que você deseja usar para o direcionamento. É necessário garantir que você solicite executar > pageLoad, bem como realizar uma busca prévia > visualizações nesta chamada de API. se você tiver definido `pageLoadEnabled` e `viewsEnabled`, ambas as visualizações execute > pageLoad e prefetch > acontecerão automaticamente com a Etapa 2; caso contrário, é necessário usar a API `getOffers()` para fazer essa solicitação. |
 | 4 | Chama `triggerView()` | Como a solicitação [!DNL Target] que você iniciou na Etapa 3 pode retornar experiências para a execução do Carregamento de página, bem como para o Visualização, verifique se `triggerView()` é chamado depois que a solicitação [!DNL Target] é retornada e termina de aplicar o oferta ao cache. É necessário executar essa etapa apenas uma vez por visualização. |
@@ -293,7 +294,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 
 | Etapa  | Ação | Detalhes |
 | --- | --- | --- |
-| 3 | Chama `visitor.resetState()` | Essa API garante que o SDID seja gerado novamente para a nova visualização à medida que ela é carregada. |
+| 1 | Chama `visitor.resetState()` | Essa API garante que o SDID seja gerado novamente para a nova visualização à medida que ela é carregada. |
 | 2 | Atualize o cache chamando a API `getOffers()` | Esta é uma etapa opcional a ser tomada se essa alteração de visualização tiver um potencial para qualificar o visitante atual para mais [!DNL Target] atividades ou desqualificá-las do atividade. Nesse ponto, você também pode optar por enviar dados adicionais para [!DNL Target] para permitir outros recursos de definição de metas. |
 | 3 | Chama `triggerView()` | Se você executou a Etapa 2, aguarde a solicitação [!DNL Target] e aplique as ofertas ao cache antes de executar essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
 | 4 | Chama `triggerView()` | Se você não executou a Etapa 2, poderá executar essa etapa assim que concluir a Etapa 1. Se você executou a Etapa 2 e a Etapa 3, ignore essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
