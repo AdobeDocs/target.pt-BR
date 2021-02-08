@@ -1,12 +1,13 @@
 ---
 keywords: lado do servidor;lado do servidor;api;sdk;node.js;nodejs;node js;Recomendações api;api:apis
-description: Informações sobre APIs de delivery do lado do servidor, SDKs e APIs de Recommendations de Públicos alvos.
-title: Informações sobre APIs de Delivery do lado do servidor, SDK do Node.js e APIs do Recommendations
+description: Saiba mais sobre as APIs de delivery do lado do servidor da Adobe Target, SDKs e APIs de Público alvo Recommendations.
+title: Onde posso saber mais sobre as APIs e SDKs do Delivery do lado do servidor do Público alvo?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
