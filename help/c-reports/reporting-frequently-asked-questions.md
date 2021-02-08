@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas;discrepâncias de métricas;FAQ;relatórios;novo visitante;novos visitantes;retornar visitante;retornar visitantes;retornar visita;nova visita
-description: Lista de perguntas frequentes sobre relatórios no Adobe Target.
-title: Perguntas frequentes de geração de relatórios
+description: Explore uma lista de perguntas frequentes e respostas sobre o relatórios Adobe Target.
+title: Onde posso encontrar respostas para perguntas sobre o Público alvo?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 30%
+source-wordcount: '1135'
+ht-degree: 29%
 
 ---
 
