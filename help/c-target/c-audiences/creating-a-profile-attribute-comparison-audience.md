@@ -1,13 +1,13 @@
 ---
 keywords: público-alvo, propensão, atributo de perfil, comparar, comparação, criar público-alvo, criação de público-alvo
-description: Defina um público-alvo para comparar dois atributos de perfil da sua biblioteca de público-alvo do Target ou em um público somente de atividade. O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
-title: Criar um público-alvo de comparação do atributo de perfil
+description: Saiba como definir uma audiência para comparar dois atributos de perfil para a biblioteca de Audiências de Públicos alvos ou em uma audiência somente atividade.
+title: É possível comparar dois atributos de Perfil para uso no Audiência?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 99%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
