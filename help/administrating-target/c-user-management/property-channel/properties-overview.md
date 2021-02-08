@@ -1,12 +1,13 @@
 ---
 keywords: adicionar usuário; projeto; grupo de usuários; propriedades; espaço de trabalho; gerenciar propriedade; propriedade; at_ property; funções; permissões
-description: Adicionar usuários à implementação do Adobe Target; criar espaços de trabalho, grupos de usuários e propriedades; atualize sua implementação de Público alvo para incluir o parâmetro at_property; e especificar funções e permissões.
-title: Configurar permissões empresariais
+description: Saiba como adicionar usuários ao Adobe Target; criar espaços de trabalho, grupos de usuários e propriedades; atualizar sua implementação; e especificar funções e permissões.
+title: Como configurar permissões corporativas?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1479'
 ht-degree: 66%
 
 ---
