@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: A guia Colisões na página Visão geral da Atividade nas colisões de atividades do Adobe Target lista em seu site.
-title: Conflitos de atividades
+keywords: definição de metas;colisões;conflitos
+description: As colisões ocorrem quando várias atividades são configuradas para fornecer conteúdo para a mesma página. Saiba como evitar colisões ao usar o Adobe Target.
+title: Como Evitar Colisões De Atividades?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
