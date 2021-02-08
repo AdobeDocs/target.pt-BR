@@ -1,13 +1,13 @@
 ---
 keywords: resumo
-description: O resumo do teste fornece uma visão geral visual do teste multivariado Adobe Target.
-title: Resumo do teste
+description: Visualização de um atividade de teste multivariado (MVT) que fornece uma visão geral visual da atividade MVT no Adobe Target.
+title: Como posso Visualização um resumo da atividade de teste multivariado (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 72%
+source-wordcount: '120'
+ht-degree: 62%
 
 ---
 
