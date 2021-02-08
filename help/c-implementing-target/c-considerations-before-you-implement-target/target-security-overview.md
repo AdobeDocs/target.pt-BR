@@ -1,13 +1,14 @@
 ---
 keywords: segurança; práticas de segurança
-description: Informações sobre a abordagem detalhada e os procedimentos de segurança implementados pela Adobe para reforçar a segurança de seus dados e a experiência do Adobe Target.
-title: Visão geral de segurança
+description: Saiba mais sobre os procedimentos que o Adobe usa para reforçar a segurança de seus dados e da sua experiência com o Adobe Target. Baixe a publicação técnica Visão geral de segurança da Adobe Target.
+title: Como o Público alvo lida com a segurança de meus dados?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 92%
+source-wordcount: '165'
+ht-degree: 74%
 
 ---
 
