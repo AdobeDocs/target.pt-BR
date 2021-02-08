@@ -1,13 +1,13 @@
 ---
 keywords: público-alvo; selecionar público-alvo; escolher público-alvo; Seletores
 description: A audiência determina quais visitantes do site são inseridos na atividade do Adobe Target.
-title: Selecionar público-alvo
+title: Como selecionar uma Audiência em uma Atividade A/B do Público alvo?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 92%
+source-wordcount: '444'
+ht-degree: 90%
 
 ---
 
