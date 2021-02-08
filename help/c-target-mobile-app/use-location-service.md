@@ -1,13 +1,14 @@
 ---
 keywords: aplicativo móvel;localização do aplicativo móvel;aplicativo móvel público alvo;localização do público alvo móvel;local serviço;adobe experience cloud location service;pois;pontos de interesse;sdk;localização
-description: Este tópico é uma visão geral de como usar o Adobe Experience Platform Location Service no Adobe Target.
-title: Usar serviço de localização
+description: Saiba como usar o Adobe Experience Platform Location Service para ativar seus aplicativos móveis com reconhecimento de localização.
+title: Como usar o serviço de localização de Adobe?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '190'
+ht-degree: 1%
 
 ---
 
