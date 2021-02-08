@@ -1,13 +1,13 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: Os relatórios fornecem informações sobre o desempenho de suas atividades Adobe Target
-title: Relatórios
+keywords: relatórios;bloquear endereço ip;bloquear visitante do endereço ip;baixar relatórios;csv;relatórios
+description: Saiba como usar os recursos do relatórios no Adobe Target para examinar o desempenho de suas atividades. Tome decisões melhores com base nos seus dados para aumentar o ROI.
+title: Como faço para Visualização relatórios?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 66%
+source-wordcount: '860'
+ht-degree: 63%
 
 ---
 
