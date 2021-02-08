@@ -1,13 +1,14 @@
 ---
 keywords: aplicativo móvel;perguntas frequentes;aplicativo móvel público alvo;aplicativo móvel
-description: Perguntas frequentes sobre o Adobe Target para aplicativos móveis.
-title: Perguntas frequentes sobre o Público alvo para aplicativos móveis
+description: Visualização perguntas frequentes e suas respostas sobre o Adobe Target para aplicativos móveis.
+title: Quais são as perguntas frequentes sobre o Público alvo para aplicativos móveis?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 2%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
