@@ -1,12 +1,12 @@
 ---
-keywords: behavioral data source;analytics;recommendations;criteria;product variables
-description: Usar o Adobe Analytics como fonte de dados comportamental permite que os clientes usem os dados comportamentais baseados em visualizações e/ou compras do Analytics no Adobe Recommendations.
-title: Uso do Adobe Analytics com o Público alvo Recommendations
+keywords: fonte de dados comportamental;análise;recomendações;critérios;variáveis de produto
+description: Saiba como usar a Adobe Analytics como fonte de dados comportamentais para usar os dados comportamentais baseados em visualizações e/ou compras do Analytics no Público alvo Recommendations.
+title: Como uso o Adobe Analytics com o Público alvo Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
