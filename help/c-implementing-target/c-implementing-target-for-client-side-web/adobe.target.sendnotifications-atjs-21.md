@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;enviar notificações;notificações;at.js;funções;função
-description: Informações sobre a função adobe.target.sendNotifications(options) da biblioteca at.js de JavaScript do Adobe Target.
-title: Adobe.Target.Sendnotifications(Options)
+description: Use adobe.público alvo.sendNotifications() para at.js enviar notificações para a borda do Público alvo quando uma experiência for renderizada e não usar applyOffer(s). (at.js.2.1 +)
+title: Como uso a função adobe.público alvo.sendNotifications()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
