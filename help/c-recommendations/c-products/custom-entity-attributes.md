@@ -1,14 +1,14 @@
 ---
 keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
-description: Use atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre os itens do catálogo.
-title: Atributos de entidade personalizados
+description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens no catálogo do Adobe Target Recommendations.
+title: Como Uso Atributos De Entidade Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 91%
+source-wordcount: '1401'
+ht-degree: 89%
 
 ---
 
