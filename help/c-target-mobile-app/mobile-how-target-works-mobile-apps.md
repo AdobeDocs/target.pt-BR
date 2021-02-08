@@ -1,12 +1,13 @@
 ---
-description: O Adobe Mobile SDK entra em contato com o servidor do Target para obter o conteúdo juntamente com outros pontos de dados, para mostrar a experiência correta ao usuário.
-title: Como o Target funciona em aplicativos móveis
+description: Saiba como usar o SDK do Adobe Mobile para mostrar as experiências ideais para os visitantes do seu aplicativo móvel.
+title: Como o Público alvo funciona em aplicativos móveis?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 86%
 
 ---
 
