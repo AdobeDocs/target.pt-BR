@@ -1,13 +1,13 @@
 ---
 keywords: email, ESP, provedor de serviços de email, rawbox, API de entrega, modelo somente para download, modelo de email, processamento em lote, email de tempo de compilação
-description: Informações sobre como integrar o email ao Recommendations.
-title: Integrar a Recommendations ao email
+description: Saiba como integrar e-mail à Adobe Target Recommendations, incluindo o uso da API do Delivery do Público alvo, modelos de rawbox e modelos somente para download.
+title: Como integrar o Recommendations ao email?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 91%
+source-wordcount: '1490'
+ht-degree: 90%
 
 ---
 
