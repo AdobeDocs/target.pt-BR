@@ -1,12 +1,13 @@
 ---
 keywords: lado do servidor;lado do servidor;sdk;sdks;no dispositivo;decisão;no dispositivo;no dispositivo;latência zero;latência;próximo a zero;nó.js
-description: A tomada de decisão no dispositivo oferece a capacidade de armazenar em cache as atividades Adobe Target A/B e Experience Targeting (XT) no servidor e executar decisões na memória a uma latência próxima a zero, sem bloquear solicitações de rede para a Adobe Target Edge Network.
-title: Decisão no dispositivo
+description: Saiba como usar a decisão no dispositivo para armazenar em cache as atividades A/B e MVT do Público alvo no servidor para executar a decisão na memória a uma latência próxima a zero.
+title: O que é a decisão no dispositivo?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
