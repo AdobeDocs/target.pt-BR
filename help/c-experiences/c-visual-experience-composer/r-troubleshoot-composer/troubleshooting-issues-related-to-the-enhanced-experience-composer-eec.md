@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Às vezes, problemas de exibição ocorrem no Adobe Target Enhanced Experience Composer (EEC) sob determinadas condições.
-title: Solução de problemas relacionados ao Enhanced Experience Composer
+keywords: Definição de metas; eec; visual experience composer; solucionar problemas do enhanced experience composer; solução de problemas
+description: Saiba como solucionar problemas que às vezes ocorrem no Adobe Target Enhanced Experience Composer (EEC) sob determinadas condições.
+title: Como soluciono problemas relacionados ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 63%
+source-wordcount: '449'
+ht-degree: 61%
 
 ---
 
