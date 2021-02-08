@@ -1,12 +1,12 @@
 ---
 keywords: recomendações;recomendações atividade;critérios;algoritmo;chave de recomendação;chave personalizada;chave personalizada;vertical do setor;varejo;comércio;geração de chumbo;b2b;serviços financeiros;mídia;publicar;Recomendações;Recomendações;Recomendações ;critérios;algoritmo;chave de recomendação;chave personalizada;chave;indústria vertical;varejo;eccommerce;geração de chumbo;b2b;serviços financeiros;mídia;publicação
-description: Critérios no Adobe Target são regras que determinam quais produtos ou conteúdo serão recomendados com base em um conjunto predeterminado de comportamentos de visitante.
-title: Critérios no Público alvo Recommendations
+description: Saiba como usar critérios na Adobe Target Recommendations. Critérios são regras que determinam qual conteúdo recomendar com base em um conjunto predeterminado de comportamentos de visitante.
+title: Como uso critérios no Público alvo Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 52%
 
 ---
