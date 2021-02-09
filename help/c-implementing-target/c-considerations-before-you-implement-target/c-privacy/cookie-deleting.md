@@ -73,7 +73,7 @@ Versão 13.1.2
 ### Excluir todos os cookies associados a `adobe.com`
 
 1. Clique no menu **Safari** > **Preferências**.
-1. Clique na guia **Privacidade**.
+1. Clique na guia **Privacy**.
 1. Clique em **Gerenciar dados do site**.
 1. Selecione os sites dos cookies que deseja excluir e clique em **Remover**.
 
