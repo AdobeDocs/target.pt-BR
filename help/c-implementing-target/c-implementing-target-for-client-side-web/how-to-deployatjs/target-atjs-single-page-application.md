@@ -209,9 +209,9 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 
 | Etapa | Detalhes |
 | --- | --- |
-| 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
+| 3 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
-| 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
+| 3 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
 | 5 | Os dados do Analytics são enviados aos Servidores de coleta de dados. |
 | 6 | Os dados do Target são correspondidos aos dados do Analytics pela SDID, e processados no armazenamento de relatório do Analytics. Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do A4T. |
@@ -294,7 +294,7 @@ As informações a seguir descrevem a ordem de operações que você deve seguir
 
 | Etapa  | Ação | Detalhes |
 | --- | --- | --- |
-| 1 | Chama `visitor.resetState()` | Essa API garante que o SDID seja gerado novamente para a nova visualização à medida que ela é carregada. |
+| 3 | Chama `visitor.resetState()` | Essa API garante que o SDID seja gerado novamente para a nova visualização à medida que ela é carregada. |
 | 2 | Atualize o cache chamando a API `getOffers()` | Esta é uma etapa opcional a ser tomada se essa alteração de visualização tiver um potencial para qualificar o visitante atual para mais [!DNL Target] atividades ou desqualificá-las do atividade. Nesse ponto, você também pode optar por enviar dados adicionais para [!DNL Target] para permitir outros recursos de definição de metas. |
 | 3 | Chama `triggerView()` | Se você executou a Etapa 2, aguarde a solicitação [!DNL Target] e aplique as ofertas ao cache antes de executar essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
 | 4 | Chama `triggerView()` | Se você não executou a Etapa 2, poderá executar essa etapa assim que concluir a Etapa 1. Se você executou a Etapa 2 e a Etapa 3, ignore essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
