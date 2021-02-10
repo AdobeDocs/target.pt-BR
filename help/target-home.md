@@ -4,7 +4,7 @@ title: Onde posso encontrar a documentação do Público alvo?
 description: Saiba como usar a Adobe Target para personalizar a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos e outros canais digitais.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: 40196dbae080f248d21aa8f4b3722863e846be16
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 58%
@@ -18,7 +18,7 @@ ht-degree: 58%
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 8 de fevereiro de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md) )**
+**Última atualização: 10 de fevereiro de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
