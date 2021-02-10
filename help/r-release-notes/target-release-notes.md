@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos estão incluídos na próxima versão?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e0d61de20501f40ea6b61db83be346072df997f0
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 26%
+source-wordcount: '348'
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 14 de janeiro de 2021**
+**Última atualização: 10 de fevereiro de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -26,23 +26,16 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca JavaScript at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implemente o Público alvo para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.1.1 (19 de janeiro de 2021)
+## Target Standard/Premium 21.2.1 (2 de março de 2021) 
 
 Esta versão de manutenção contém os seguintes aprimoramentos, correções e alterações.
 
 Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-* Adicionado um aviso ao selecionar uma métrica [!DNL Adobe Analytics] ao usar [!UICONTROL Analytics como a fonte do relatórios] (A4T) em uma atividade [!UICONTROL Público alvo automático]. [!UICONTROL Os modelos de ] direcionamento automático são otimizados para funcionar com métricas binárias (baseadas em conversão). Selecionar uma métrica contínua, como receita, pode ter resultados abaixo do ideal e os relatórios [!UICONTROL Insights de personalização] podem não ser precisos. (TGT-38926)
-* Adição de um ícone de status no relatório [!UICONTROL Resumo do Público alvo automático] para [!UICONTROL Público alvo automático] atividades que usam A4T. O ícone de verificação verde ao lado de cada experiência no relatório indica que um modelo personalizado de aprendizagem de máquina foi gerado para essa experiência. O ícone do relógio indica que não foi fornecido tráfego suficiente para construir o modelo. (TGT-38925)
-* Os relatórios [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] para [!UICONTROL Público alvo automático] atividades que usam as métricas de conversão A4T e [!DNL Analytics] são gerados e têm a mesma aparência que ao usar [!DNL Target] como fonte de relatórios. (TGT-38931)
-* Adicionada uma opção de filtragem de ambiente à lista [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
-* Correção de um problema que fazia com que a contagem de produtos incorreta fosse exibida em [!UICONTROL coleções do Recommendations]. (TGT-39162)
-* Adicionado um filtro [!UICONTROL Última atualização] ao [!UICONTROL Recommendations] [!UICONTROL Pesquisa de catálogo]. (TGT-38340)
-* Correção de um problema em [!UICONTROL Recommendations] que causava o travamento da página [!UICONTROL Criar sequência] após alterar a vertical do setor. (TGT-38160)
-* Correção de um problema que impedia que a atividade fosse salva se o Device Co-op estivesse ativado e o usuário fosse alterado de [!DNL Target] como a fonte do relatórios para [!DNL Analytics] (A4T). (TGT-38163)
-* Correção de um problema que impedia os usuários de removerem uma audiência de uma oferta em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-39058)
-* Correção de um problema que fazia com que o período incorreto (datas de start e término) fosse exibido nos cartões [!UICONTROL Informações da Audiência] para alguns clientes. (TGT-39150)
-* Correção de um problema que impedia alguns clientes de visualizarem a lista de atividades no [!UICONTROL Espaço de trabalho padrão]. (TGT-38526)
+* Aumento do tamanho de oferta permitido pela API de 512 KB para 1 MB. (TGT-38304)
+* Correção de um problema que fazia com que a dependência atual não fosse exibida quando os clientes clicavam em [!UICONTROL Editar dependência] em uma página [!UICONTROL Metas e configurações] do atividade. (TGT-39340)
+* Correção de um problema ao atualizar a [!UICONTROL Biblioteca de Audiências] de um espaço de trabalho. Antes da atualização, as audiências para o espaço de trabalho selecionado no momento eram exibidas. Após a atualização, a área de trabalho padrão [!UICONTROL e suas audiências eram exibidas. ] O espaço de trabalho atual e suas audiências agora persistem após a atualização. (TGT-38871)
+* Correção de um problema ao copiar uma atividade [!UICONTROL Recommendations] e editar posteriormente a atividade original alterando sua sequência de critérios. A alteração na sequência de critérios na atividade original também foi aplicada incorretamente à atividade copiada. (TGT-39155)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
