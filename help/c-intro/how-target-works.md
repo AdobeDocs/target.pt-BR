@@ -4,10 +4,10 @@ description: Saiba mais sobre como a Adobe Target funciona, incluindo informaç�
 title: Como Funciona O Público alvo?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 70%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Acreditamos que seria difícil alterar involuntariamente o significado do conte�
 
 ## Bots {#bots}
 
-A Adobe Target usa [DeviceAtlas](https://deviceatlas.com/) para detectar bots conhecidos. O tráfego identificado como sendo gerado por um bot ainda recebe conteúdo, como um usuário comum, para garantir que esteja alinhado às diretrizes de SEO. O uso do tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de uma forma um pouco diferente. A remoção do tráfego de bot fornece uma medida mais precisa da atividade do usuário.
+A Adobe Target usa a métrica [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) &quot;isRobot&quot; para detectar bots conhecidos com base na sequência de caracteres do agente do usuário transmitida no cabeçalho da solicitação.
+
+>[!NOTE]
+>
+> Para solicitações [!DNL Server Side], o valor passado no nó &quot;Contexto&quot; [da solicitação](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) recebe prioridade sobre a String do Agente do Usuário para detecção de bot.
+
+O tráfego identificado como sendo gerado por um bot ainda recebe conteúdo, como um usuário comum, para garantir que esteja alinhado às diretrizes de SEO. O uso do tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de uma forma um pouco diferente. A remoção do tráfego de bot fornece uma medida mais precisa da atividade do usuário.
 
 Especificamente, para o tráfego de bot conhecido, o Target não:
 
