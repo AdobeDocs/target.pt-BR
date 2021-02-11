@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e alterações importantes 
 title: Onde posso Visualização as atualizações de documentação do Público alvo?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 40196dbae080f248d21aa8f4b3722863e846be16
+source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
 workflow-type: tm+mt
-source-wordcount: '3619'
+source-wordcount: '3626'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 11 de fevereiro | ![Como o Target funciona](/help/c-intro/how-target-works.md) | Atualização da seção &quot;Bots&quot;. |
 | 10 de fevereiro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café de P&amp;R da Comunidade Adobe Target na quarta-feira, 24 de fevereiro de 2021. |
 | 8 de fevereiro | [Visualização do Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Adição do trecho de código que você deve adicionar ao arquivo AndroidManifest.xml para a versão 4 do SDK do Adobe Mobile. |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | O seguinte problema conhecido foi esclarecido:<ul><li>Coleções, exclusões, critérios e designs criados por meio da API não são visíveis na interface do usuário do Público alvo e podem ser editados somente por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do Público alvo e editá-los posteriormente por meio da API, essas alterações não serão refletidas na interface do usuário do Público alvo. Os itens editados por API devem continuar a ser editados por meio da API para evitar a perda de quaisquer modificações.</li></ul> |
