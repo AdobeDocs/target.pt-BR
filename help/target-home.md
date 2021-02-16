@@ -4,7 +4,7 @@ title: Onde posso encontrar a documentação do Público alvo?
 description: Saiba como usar a Adobe Target para personalizar a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos e outros canais digitais.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 58%
@@ -18,7 +18,7 @@ ht-degree: 58%
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 11 de fevereiro de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md) )**
+**Última atualização: 16 de fevereiro de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 - [Implementar o Target](c-implementing-target/implementing-target.md): explica como implementar o [!DNL Target] em sites, em aplicativos para dispositivos móveis, em aplicativos de página única (SPAs) e em plataformas iOT/OTT.
 - [APIs](https://developers.adobetarget.com/api/delivery-api/) do servidor do público alvo: Descreve os recursos que compõem a API do Delivery Adobe Target.
 - [SDK](https://github.com/adobe/target-nodejs-sdk) NodeJS do público alvo: Explica como implantar o servidor do Público alvo. Este SDK do Node.js ajuda você a integrar facilmente o Público alvo a outras soluções da Adobe Experience Cloud.
-- [SDK](https://github.com/adobe/target-java-sdk) Java do público alvo: Explica como implantar o servidor do Público alvo. Esse Java SDK ajuda você a integrar facilmente o Público alvo com outras soluções da Adobe Experience Cloud.
+- [SDK](https://github.com/adobe/target-java-sdk) Java do público alvo: Explica como implantar o servidor do Público alvo. Esse Java SDK ajuda você a integrar facilmente o Público alvo a outras soluções da Adobe Experience Cloud.
 - [API](https://developers.adobetarget.com/api/recommendations/) Público alvo Recommendations: Descreve os recursos que compõem a Adobe Target Recommendations API oficial.
 - [Documentação](http://developers.adobetarget.com/api/#introduction) Adobe.IO do público alvo: Descreve como usar as APIs REST de administração e Perfil do Público alvo que usam a integração Adobe.IO para gerenciar atividades, audiências, ofertas, propriedades, relatórios, mboxes, ambientes e perfis.
 
