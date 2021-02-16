@@ -5,9 +5,9 @@ title: Quais são os vários caracteres, tamanhos e outros limites no Adobe Targ
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 65%
 
 ---
@@ -159,7 +159,7 @@ Limites de caracteres e outros limites (tamanho da oferta, audiências, perfis, 
    * O valor do parâmetro de perfil não pode ser nulo
    * Valor máximo do parâmetro de perfil 256
 
-   **Ponto de extremidade da API do delivery**
+   **Ponto de extremidade** da API do delivery:
 
    * parâmetros da mbox 50
    * comprimento máximo do nome do parâmetro da mbox 128
@@ -194,11 +194,11 @@ Limites de caracteres e outros limites (tamanho da oferta, audiências, perfis, 
 
 ### Tamanho da oferta
 
-* **Limite**: os seguintes limites de tamanho se aplicam a ofertas:
+Os seguintes limites de tamanho se aplicam às ofertas:
 
-   * 256 KB para ofertas HTML.
-   * 64 KB para ofertas visuais da interface do usuário.
-   * 512 KB da API.
+* 256 KB para ofertas HTML.
+* 64 KB para ofertas visuais da interface do usuário.
+* 512 KB da API.
 
    Se estiver usando uma mbox global, o limite será para todo o conjunto de conteúdo retornado para a página. A limitação do tamanho da oferta melhora o tempo de carregamento da página. Se o limite for excedido, a seguinte mensagem será exibida:
 
