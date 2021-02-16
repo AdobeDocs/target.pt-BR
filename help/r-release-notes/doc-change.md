@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e alterações importantes 
 title: Onde posso Visualização as atualizações de documentação do Público alvo?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3641'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 16 de fevereiro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualização do texto para o tamanho do limite de oferta nas notas de pré-lançamento. |
 | 11 de fevereiro | [Como o Target funciona](/help/c-intro/how-target-works.md) | Atualização da seção &quot;Bots&quot;. |
 | 10 de fevereiro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café de P&amp;R da Comunidade Adobe Target na quarta-feira, 24 de fevereiro de 2021. |
 | 8 de fevereiro | [Visualização do Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Adição do trecho de código que você deve adicionar ao arquivo AndroidManifest.xml para a versão 4 do SDK do Adobe Mobile. |
@@ -63,7 +64,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 | 3 de novembro | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Atualizado o seguinte tópico de solução de problemas: &quot;O conjunto de relatórios de que preciso não é exibido.&quot; |
 | 28 de outubro | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Foi adicionada uma observação informando que os visitantes inicializados podem ser inicializados somente pelo lado do cliente, não pelo lado do servidor. |
 | 27 de outubro | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Foi adicionado um link para o novo portal *[SDKs do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*. |
-|  | [Crie uma atividade que use o Analytics como a fonte do relatórios](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações declarando que se você estiver usando `analyticsLogging = client_side`, deverá passar o valor `sessionId` para [!DNL Analytics] ao usar o Analytics como fonte de relatórios (A4T) com atividades de Público alvo automático. |
+|  | [Crie uma atividade que use o Analytics como a fonte do relatórios](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações declarando que se você estiver usando `analyticsLogging = client_side`, é necessário passar o valor `sessionId` para [!DNL Analytics] ao usar o Analytics como fonte de relatórios (A4T) com atividades de Público alvo automático. |
 |  | [Implementação do Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Foram adicionadas informações declarando que para [!UICONTROL Autoalocar] e [!UICONTROL Público alvo automático] atividades usando `analyticsLogging = client_side`, você também precisará encaminhar sessionId. |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 20.10.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
