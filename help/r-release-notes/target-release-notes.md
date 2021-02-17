@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos estão incluídos na próxima versão?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
+source-git-commit: 3e4b05553100efff697beec0824108f28d80ccb2
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 16 de fevereiro de 2021**
+**Última atualização: 17 de fevereiro de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -26,7 +26,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca JavaScript at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implemente o Público alvo para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.2.1 (2 de março de 2021) 
+## Target Standard/Premium 21.2.1 (9 e 10 de março de 2021)
 
 Esta versão de manutenção contém os seguintes aprimoramentos, correções e alterações.
 
