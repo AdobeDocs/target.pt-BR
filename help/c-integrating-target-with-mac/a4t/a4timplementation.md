@@ -4,9 +4,9 @@ description: Siga as etapas necessárias para implementar o Analytics for Públi
 title: Como implementar o Analytics para o Público alvo (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 48%
 
 ---
@@ -32,15 +32,15 @@ Os requisitos da conta de usuário devem ser atendidos antes que você possa cri
 
 O serviço de ID do visitante permite identificar os usuários através das soluções da [!DNL Adobe Experience Cloud]. Você deve implementar ou migrar para a versão exigida da ID de visitante da Experience Cloud. Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulte [Implementar o serviço de ID do Experience Cloud para Público alvo](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) na documentação *Serviço de ID do Visitante*.
+Consulte [Implementar o serviço de ID do Experience Cloud para Público alvo](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) na documentação *Serviço de ID do Visitante*.
 
 ## Etapa 4: Atualizar o AppMeasurement para JavaScript ou s_code
 
 Você deve implementar ou migrar para a versão exigida da appMeasurement.js. Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Para novas implementações, consulte [Visão geral da implementação do JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) no *Guia de Implementação do Analytics*.
+Para novas implementações, consulte [Visão geral da implementação do JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) no *Guia de Implementação do Analytics*.
 
-Para obter uma migração, consulte [Migração para o AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) no *Guia de implementação do Analytics*.
+Para obter uma migração, consulte [Migração para o AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) no *Guia de implementação do Analytics*.
 
 ## Etapa 5: Baixe e atualize o at.js
 
