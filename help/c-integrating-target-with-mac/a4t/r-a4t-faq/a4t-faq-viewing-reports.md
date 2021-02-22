@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas frequentes sobre a exibição de 
 title: Localizar respostas para perguntas sobre como visualizar relatórios com a A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 53%
+source-wordcount: '2427'
+ht-degree: 52%
 
 ---
 
@@ -24,7 +24,9 @@ Para obter informações detalhadas e exemplos, abra o [Analytics &amp; Público
 
 ## Onde os segmentos podem ser aplicados no Analysis Workspace? {#segmentation}
 
-Os segmentos são aplicados com mais frequência à parte superior de um painel na área de segmentos. O segmento é aplicado a todas as tabelas e visualizações no painel. Esta técnica é mais útil para ver como o teste afeta um subgrupo de pessoas (por exemplo, como esse teste funcionou para pessoas no Reino Unido)?
+Os segmentos são usados com mais frequência na parte superior de um painel na zona de segmentos. O segmento é aplicado a todas as tabelas e visualizações no painel. Esta técnica é mais útil para ver como o teste afeta um subgrupo de pessoas (por exemplo, como esse teste funcionou para pessoas no Reino Unido)?
+
+Um segmento também pode ser colocado em camadas diretamente na tabela de forma livre, mas observe que você deve sobrepô-lo na tabela inteira para preservar os cálculos de incentivo e confiança no Painel A4T. Os segmentos de nível de coluna não são suportados no painel no momento.
 
 ## Quando eu aplico um segmento de ocorrência para uma atividade de Público alvo específica, por que vejo experiências não relacionadas retornadas? {#activity-segmentation}
 
@@ -89,7 +91,7 @@ Em 1 de janeiro, o usuário acessa o site e vê a atividade XYZ uma vez e tem ci
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 O usuário retorna em 1 de fevereiro, visualiza mais cinco páginas e não encontra mais nenhuma atividade do Target e a atividade original não está mais ativa. Mesmo que a atividade não esteja mais ativa, ela ainda está seguindo o usuário por meio da persistência de eVar. Agora os dados ficam assim:
 
@@ -101,16 +103,16 @@ O usuário volta em 1 de março e vê uma nova atividade, ABC. O usuário també
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 15 | 3 | 3 |
+| ABC | 1 | 5 | 1 | 1 |
 
 O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra. A expiração de 90 dias desse primeiro valor eVar é redefinida em 1 de abril, então veremos isso nos relatórios. E todas as atividades do Target que o usuário vê recebem o crédito pela conversão, mas o número total de conversões é deduplicado:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 1 | 3 |
-| ABC | 1 | 10 | 2 | 3 | 1 |
-| Total | 2 | 20 | 3 | 3 | 3 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 1 | 1 | 1 |
 
 Como as duas experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para o relatórios [!DNL Target], como você não está colocando uma atividade [!DNL Target] contra outra atividade para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu tenham crédito. Você está comparando os resultados de dois itens na atividade única, e não é possível que um usuário veja experiências diferentes na mesma atividade para que você não precise se preocupar com a contaminação cruzada do crédito do pedido.
 
