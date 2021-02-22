@@ -4,9 +4,9 @@ description: Encontre respostas para perguntas frequentes sobre a exibição de 
 title: Localizar respostas para perguntas sobre como visualizar relatórios com a A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2426'
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de 
 
 Como resultado, ao segmentar para que uma atividade esteja presente em uma ocorrência, você obterá todas as experiências que fazem parte dessa atividade *mais* quaisquer outras experiências que persistem nessa ocorrência.
 
-## Ao configurar minhas métricas de metas, por que não posso acessar as configurações avançadas?
+## Ao configurar minhas Métricas de metas, por que não posso acessar as Configurações avançadas?
 
 Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de objetivo sempre usará as configurações &quot;[!UICONTROL Aumentar a contagem e manter o usuário na Atividade]&quot; e &quot;[!UICONTROL Em cada impressão]&quot;. Isso é *não* configurável.
 
@@ -91,7 +91,7 @@ Em 1 de janeiro, o usuário acessa o site e vê a atividade XYZ uma vez e tem ci
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 O usuário retorna em 1 de fevereiro, visualiza mais cinco páginas e não encontra mais nenhuma atividade do Target e a atividade original não está mais ativa. Mesmo que a atividade não esteja mais ativa, ela ainda está seguindo o usuário por meio da persistência de eVar. Agora os dados ficam assim:
 
@@ -103,14 +103,14 @@ O usuário volta em 1 de março e vê uma nova atividade, ABC. O usuário també
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
 O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra. A expiração de 90 dias desse primeiro valor eVar é redefinida em 1 de abril, então veremos isso nos relatórios. E todas as atividades do Target que o usuário vê recebem o crédito pela conversão, mas o número total de conversões é deduplicado:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 1 | 1 | 1 |
 
