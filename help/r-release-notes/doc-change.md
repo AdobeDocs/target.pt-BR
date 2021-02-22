@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e alterações importantes 
 title: Onde posso Visualização as atualizações de documentação do Público alvo?
 feature: ' Notas de versão '
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3659'
 ht-degree: 30%
 
 ---
@@ -62,7 +62,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 |  | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Foram adicionadas as seguintes perguntas frequentes: &quot;Como as visitas são contadas no Analytics e o crédito de conversão é alocado em uma atividade de Público alvo automático que usa A4T?&quot; |
 | 13 de novembro | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a at.js 2.3.3. |
 | 10 de novembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre a quebra de café de perguntas e respostas da Comunidade Adobe Target programada para 11 de novembro. |
-| 3 de novembro | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Atualizado o seguinte tópico de solução de problemas: &quot;O conjunto de relatórios de que preciso não é exibido.&quot; |
+| 3 de novembro | [Solução de problemas na integração do Analytics e do Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Atualização do seguinte tópico de solução de problemas: &quot;O conjunto de relatórios de que preciso não é exibido.&quot; |
 | 28 de outubro | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Foi adicionada uma observação informando que os visitantes inicializados podem ser inicializados somente pelo lado do cliente, não pelo lado do servidor. |
 | 27 de outubro | [Lado do servidor: implementação do Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Foi adicionado um link para o novo portal *[SDKs do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*. |
 |  | [Crie uma atividade que use o Analytics como a fonte do relatórios](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Foram adicionadas informações declarando que se você estiver usando `analyticsLogging = client_side`, deverá passar o valor `sessionId` para [!DNL Analytics] ao usar o Analytics como fonte de relatórios (A4T) com atividades de Público alvo automático. |
@@ -225,7 +225,7 @@ Esta página lista alterações importantes feitas na documentação do produto 
 | Abril de 7 | [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Texto atualizado para &quot;Por que não consigo ver incentivo e confiança nas métricas calculadas?&quot; |
 | Abril de 2 | [Glossário de variáveis e perfis](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Foram adicionadas informações sobre como usar `user.header('x-forwarded-for')` com as bordas AWS mais recentes para recuperar os endereços IP dos usuários. |
 |  | [Atualização do at.js 1.*x* para o at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Adição da seguinte observação:<ul><li>Depois de instalar a biblioteca da ECID v4.3.0+ e o at.js 2.*x*, você poderá criar atividades que abrangem domínios exclusivos e rastrear usuários. É importante observar que essa funcionalidade funciona somente após a sessão expirar.</li></ul> |
-| 30 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Adicionados problemas conhecidos que afetam as versões do at.js anteriores ao at.js 2.2.0. Esse problema fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página. |
+| 30 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Foi adicionado um problema conhecido que afeta as versões do at.js anteriores ao at.js 2.2.0. Esse problema fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas as seguintes informações aos detalhes da versão 2.2.0 do at.js:<ul><li>Correção de um problema que fazia com que o rastreamento de cliques não relatasse conversões no Analytics para Público alvo (A4T) quando o código Adobe Analytics não estava presente nos elementos da página.</li></ul> |
 | 25 de março | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Foram adicionadas informações sobre as seguintes novas versões do at.js:<ul><li>at.js versão 2.3.0</li><li>at.js versão 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Foram adicionadas as novas linhas a seguir na seção &quot;Configurações&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Adição da seguinte nova seção:<ul><li>Política de segurança de conteúdo</li></ul> |
