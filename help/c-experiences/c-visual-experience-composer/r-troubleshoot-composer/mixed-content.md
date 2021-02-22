@@ -4,29 +4,29 @@ description: Alguns navegadores bloqueiam a exibição de uma página se o conte
 title: Como ativo conteúdo misto no meu navegador?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 34%
+source-wordcount: '592'
+ht-degree: 26%
 
 ---
 
 
 # Habilitar conteúdo misto em seu navegador
 
-O conteúdo misto ocorre se o conteúdo HTTPS (seguro) *e* HTTP (inseguro) for carregado para exibir a mesma página da Web e a solicitação inicial estiver protegida em HTTPS.
+O conteúdo misto ocorre se a solicitação inicial está protegida em HTTPS, mas o conteúdo HTTP HTTPS *e* é carregado para exibir a página da Web. O conteúdo HTTPS é seguro. O conteúdo HTTP é inseguro.
 
 Os navegadores modernos podem bloquear a exibição de uma página ou exibir mensagens de aviso se o conteúdo protegido estiver misturado a conteúdo inseguro.
 
-Se o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Target] tentar abrir uma página com conteúdo misto, uma mensagem será exibida mostrando como desativar o bloqueio no seu navegador para que você possa abrir um site HTTP ou um site que tenha chamadas mistas (HTTPS e HTTP).
+Uma mensagem de aviso é exibida se o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Target] tentar abrir uma página que contenha conteúdo misto. Esta mensagem informa como desativar o bloqueio no seu navegador. A desativação do bloqueio permite que você abra um site HTTP ou um site que tenha chamadas mistas (HTTPS e HTTP).
 
-![aviso de conteúdo misto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+![Aviso de conteúdo misto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 Antes, quando um conteúdo misto não era permitido, você ainda poderia realizar algumas ações na Etapa 1 do fluxo de trabalho guiado de três etapas, ao criar atividades. [!DNL Target]O agora bloqueia as ações na Etapa 1. Quando essa mensagem for exibida, você deverá ativar o conteúdo misto antes de continuar a criar a atividade.
 
 As configurações de segurança do seu navegador pode bloquear o conteúdo misto ou não seguro (HTTP) carregado em uma página segura (HTTPS) ou quadro (como VEC). Se você não quiser desativar as configurações de segurança do seu navegador, é necessário ter um site HTTPS.
 
-Se o seu site estiver executando em um domínio inseguro (HTTP), precisa permitir que o VEC carregue o conteúdo ativo misto.
+Se o site estiver sendo executado em um domínio inseguro (HTTP), você deverá permitir que o VEC carregue conteúdo misto ativo.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ Para obter mais informações, consulte [Conteúdo misto](https://developer.mozi
 
 Se você estiver visitando um site por uma conexão segura, o Chrome verificará se o conteúdo da página da Web foi transmitido com segurança.
 
-Consulte [Esta página possui conteúdo não seguro](https://support.google.com/chrome/answer/1342714?hl=en) na Ajuda do Chrome.
+Consulte &quot;[Esta página tem conteúdo inseguro](https://support.google.com/chrome/answer/1342714?hl=en)&quot; na Ajuda do Google Chrome.
 
-Se você estiver usando o VEC com a versão mais recente do Chrome (versão 79.0.3945.117 ou posterior), é necessário atualizar as configurações do site. Os visitantes do site não precisam concluir essas etapas.
+Se estiver usando o VEC com a versão mais recente do Chrome (versão 79.0.3945.117 ou posterior), você deve atualizar as configurações do site. Os visitantes do site não precisam concluir essas etapas.
 
-1. Clique no ícone de bloqueio ou cuidado e em **[!UICONTROL Configurações do site]**.
+1. Clique no ícone de bloqueio (cuidado) e, em seguida, clique em **[!UICONTROL Configurações do site]**.
 
    ![Configurações do site](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -63,7 +63,7 @@ Por padrão, o Firefox bloqueia páginas que misturem conteúdo seguro e insegur
 
 1. Na barra de pesquisa, digite `block_active`.
 
-   ![Configuração ativa do bloco Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Configuração Block_ative do Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. Clique duas vezes em ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
@@ -71,15 +71,15 @@ Por padrão, o Firefox bloqueia páginas que misturem conteúdo seguro e insegur
 
    ![Segurança do Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-Recomendamos que você reinicie o computador após alterar essa configuração.
+Reinicie o computador depois de alterar essa configuração.
 
 ## Habilitar conteúdo misto no Microsoft Edge
 
 Se você estiver visitando um site por uma conexão segura, o Edge verificará se o conteúdo da página da Web foi transmitido com segurança.
 
-Se estiver usando o VEC com a versão mais recente do Edge, é necessário atualizar as configurações do site. Os visitantes do site não precisam concluir essas etapas.
+Se você estiver usando o VEC com a versão mais recente do Edge, é necessário atualizar as configurações do site. Os visitantes do site não precisam concluir essas etapas.
 
-1. Clique no ícone de bloqueio ou cuidado e em **[!UICONTROL Permissões do site]**.
+1. Clique no ícone de bloqueio (cuidado) e, em seguida, clique em **[!UICONTROL Permissões do site]**.
 
    ![Permissões do site no Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
