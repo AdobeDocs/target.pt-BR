@@ -4,10 +4,10 @@ description: Descubra por que alguns sites podem não ser abertos com confiança
 title: Como uso a extensão de ajuda do Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 55%
+source-wordcount: '885'
+ht-degree: 54%
 
 ---
 
@@ -32,10 +32,10 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 ## Benefícios do uso da extensão do VEC Helper
 
-* Todos os cabeçalhos de interrupção de iframe, como X-Frame-Opções e Conteúdo-Segurança-Política, são removidos implicitamente do site. Não é mais necessário criar regras Solicitáveis complexas para fazer isso.
+* Todos os cabeçalhos de interrupção de iframe, como X-Frame-Opções e Conteúdo-Segurança-Política, são removidos implicitamente do site. Não há mais necessidade de criar regras complicadas de Solicitação.
 * Se uma página da Web ainda não contiver a biblioteca JavaScript do at.js [!DNL Target], você poderá usar a extensão e inserir a biblioteca para poder criar experiências no site. Em seguida, você pode criar atividades, além de QA, usando links de visualização.
 
-   Observe que ao usar o Enhanced Experience Composer (EEC), a extensão não injeta o at.js, mas a funcionalidade do mesmo cookie de site ainda está presente. Para injetar o at.js na página Web, desligue a CEE.
+   Observe que usando o Enhanced Experience Composer (EEC), a extensão não injeta o at.js, mas a funcionalidade do mesmo cookie de site ainda está presente. Para injetar o at.js na página Web, desligue a CEE.
 
 * [Os ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visualizadores móveis são suportados mesmo sem o  [!UICONTROL Enhanced Experience Composer] (EEC).
 * Os clientes novos do [!DNL Target] podem usar a extensão para experimentar com [!DNL Target] mesmo se os desenvolvedores de TI ainda não tiverem implementado o [!DNL Target] em seus sites.
@@ -72,7 +72,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 * Sua implementação deve usar a biblioteca at.js do [!DNL Target]. Não é possível usar uma implementação mbox.js com a extensão.
 * O sinalizador [!UICONTROL Inserir bibliotecas do Target] na extensão está desativado por padrão. Você pode ativar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
 
-   Esteja ciente de que esse sinalizador é uma configuração global. O sinalizador é ativado ou desativado para todos os sites abertos no VEC. Portanto, por exemplo, se você definir esse sinalizador como &quot;ativado&quot; e abrir um site que já esteja implementado com o at.js, você receberá uma mensagem informando que o at.js já está carregado. Nós prevemos que a maioria dos clientes já terá o at.js implementado em suas páginas e usará a configuração padrão de &quot;off&quot;.
+   Este sinalizador é um cenário global. O sinalizador é ativado ou desativado para todos os sites abertos no VEC. Portanto, por exemplo, se você definir esse sinalizador como &quot;on&quot; e abrir um site que já está implementado com o at.js, você receberá uma mensagem informando que o at.js já está carregado. A Adobe antecipa que a maioria dos clientes já tem o at.js implementado em suas páginas e usa a configuração padrão de &quot;off&quot;.
 
 * A extensão carrega a versão mais recente do at.js disponível em [!DNL Target UI] em [!UICONTROL Administração > Implementação].
 * Ao usar a extensão para inserir o at.js enquanto estiver no [Modo de QA](/help/c-activities/c-activity-qa/activity-qa.md), é necessário abrir outra guia do Chrome. Essa guia do Chrome deve ser autenticada na mesma organização de [!DNL Adobe Experience Cloud] na qual você criou a atividade.
