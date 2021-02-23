@@ -1,41 +1,41 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;otimização do mecanismo de pesquisa;clusters de borda, clusters centrais;at.js;mbox.js;
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;otimização do mecanismo de pesquisa;seo;clusters de borda, clusters centrais;at.js;mbox.js;
 description: Saiba mais sobre como a Adobe Target funciona, incluindo informações sobre as bibliotecas do JavaScript do Público alvo (at.js e AEP Web SDK), os data centers do Adobe e os testes SEO.
 title: Como Funciona O Público alvo?
-feature: Overview
+feature: Visão geral
 translation-type: tm+mt
-source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
+source-git-commit: 8853551d2266836f4fe662c0882ba2af669d5a62
 workflow-type: tm+mt
-source-wordcount: '2559'
-ht-degree: 69%
+source-wordcount: '2592'
+ht-degree: 36%
 
 ---
 
 
 # Funcionamento do Adobe Target
 
-Informações sobre como [!DNL Adobe Target] funciona, incluindo informações sobre [!DNL Adobe Experience Platform Web SDK], as [!DNL Target] bibliotecas JavaScript (at.js e mbox.js) e os vários tipos de atividade que você pode criar usando o Público alvo.
+Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre as bibliotecas [!DNL Adobe Experience Platform Web SDK] e JavaScript (at.js e mbox.js). Este artigo também apresenta os vários tipos de atividade que você pode criar usando o Público alvo. Você também pode saber mais sobre a rede de borda do Público alvo, a Otimização do Mecanismo de Pesquisa (SEO) e como o Público alvo detecta os bots.
 
 ## SDKs da Web da Plataforma de públicos alvos e bibliotecas JavaScript {#libraries}
 
-A Adobe Target integra-se a sites por meio das bibliotecas [!DNL AEP Web SDK] ou JavaScript:
+[!DNL Adobe Target] integra-se a sites que usam as bibliotecas  [!DNL AEP Web SDK] ou JavaScript:
 
-* **Adobe Experience Platform Web SDK:** O  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK é uma nova biblioteca JavaScript do lado do cliente que permite  [!DNL Adobe Experience Cloud] a interação dos clientes com os vários serviços na rede  [!DNL Experience Cloud] (incluindo  [!DNL Target]) por meio da  [!DNL Adobe Experience Platform] Edge Network.
-* **at.js:** A biblioteca [da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a  [última versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* **Adobe Experience Platform Web SDK:** O  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK é uma nova biblioteca JavaScript do lado do cliente. O AEP Web SDK permite que os clientes de [!DNL Adobe Experience Cloud] interajam com os vários serviços em [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da [!DNL AEP] Edge Network. A Adobe recomenda que todos os clientes [!DNL Target] novos implementem o [!DNL AEP Web SDK].
+* **at.js:** A biblioteca  [at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é uma biblioteca de implementação para  [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. O at.js é atualizado com frequência com novos recursos. A Adobe recomenda que todos os clientes que usam o at.js atualizem suas implementações para a versão mais recente do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).[
 * **mbox.js:**[ a mbox.js é a biblioteca de implementação herdada para o Target. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) A biblioteca mbox.js é compatível até 31 de março de 2021, mas não haverá atualizações de recursos.
 
 >[!IMPORTANT]
 >
 >Todos os clientes devem migrar para [!DNL AEP Web SDK] ou para a versão mais recente do at.js. Para obter mais informações, consulte [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ou [Migrar para at.js de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Você deve consultar [!DNL AEP Web SDK] ou at.js em cada página do site. Por exemplo, você pode adicionar um desses ao cabeçalho global. Como alternativa, considere usar [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html).
+Consulte [!DNL AEP Web SDK] ou at.js em cada página do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao cabeçalho global. Como alternativa, considere usar [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) para implementar [!DNL Target].
 
-Os recursos a seguir ajudarão você a implementar o AEP Web SDK ou o at.js:
+Os seguintes recursos contêm informações detalhadas para ajudá-lo a implementar o AEP Web SDK ou o at.js:
 
 * [Extensão SDK da Adobe Experience Platform Web](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
 * [Implementação do Target usando o Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-Cada vez que um visitante solicita uma página que foi otimizada para [!DNL Target], uma solicitação é enviada ao sistema de definição de metas para determinar qual conteúdo será enviado a um visitante. Esse processo ocorre em tempo real, sempre que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é enviado para todo visitante do site com maior probabilidade de responder, interagir e comprar, maximizando as taxas de resposta e de aquisição e a receita.
+Cada vez que um visitante solicita uma página que foi otimizada para [!DNL Target], uma solicitação é enviada ao sistema de definição de metas. A solicitação ajuda a determinar qual conteúdo será enviado para esse visitante. Esse processo ocorre em tempo real. Toda vez que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é disponibilizado para cada visitante do site com maior probabilidade de responder, interagir e, por fim, comprar. O conteúdo personalizado ajuda a maximizar as taxas de resposta, as taxas de aquisição e a receita.
 
 Em [!DNL Target], cada elemento na página faz parte de uma única experiência para a página inteira. Cada experiência pode incluir vários elementos na página.
 
@@ -45,7 +45,7 @@ O conteúdo exibido para os visitantes depende do tipo de atividade que você cr
 
 Consulte [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) para obter mais informações.
 
-O conteúdo que exibe um teste A/B básico é escolhido aleatoriamente entre os ativos que você atribui à atividade, de acordo com os percentuais escolhidos para cada experiência. Em resultado dessa divisão aleatória de tráfego, pode ser necessário muito tráfego inicial mesmo antes de as porcentagens aparecerem. Por exemplo, se você criar duas experiências, a inicial será escolhida aleatoriamente. Se houver pouco tráfego, é possível que a porcentagem de visitantes venha a tender para uma experiência. Com o aumento do tráfego, as porcentagens devem se igualar cada vez mais.
+O conteúdo exibido em um teste A/B básico é escolhido aleatoriamente entre as experiências atribuídas à atividade. Você pode atribuir as porcentagens de alocação de tráfego para cada experiência. Como resultado dessa divisão aleatória do tráfego, pode ser necessária uma quantidade significativa do tráfego inicial antes que as porcentagens desapareçam. Por exemplo, se você criar duas experiências, a inicial será escolhida aleatoriamente. Se houver pouco tráfego, é possível que a porcentagem de visitantes venha a tender para uma experiência. À medida que o tráfego aumenta, as porcentagens são equalizadas.
 
 É possível especificar as metas de porcentagem para cada experiência. Nesse caso, um número aleatório será gerado e usado para escolher a experiência que será exibida. As porcentagens resultantes talvez não correspondam exatamente às metas especificadas, mas um maior tráfego significa que as experiências deverão ser divididas em maior harmonia com as metas-alvo.
 
@@ -58,19 +58,19 @@ O conteúdo que exibe um teste A/B básico é escolhido aleatoriamente entre os 
 
 Consulte [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
 
-A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para a experiência vencedora, a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
+A Autoalocação identifica um vencedor entre duas ou mais experiências. A Autoalocação aloca automaticamente mais tráfego para a experiência vencedora para aumentar as conversões enquanto o teste continua em execução e aprende.
 
 ### Direcionamento automático (AT)
 
 Consulte [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) para obter mais informações.
 
-O Direcionamento automático usa aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.
+O Público alvo automático usa o aprendizado de máquina avançado para selecionar entre várias experiências definidas pelo profissional de marketing de alto desempenho. O Público alvo automático serve a experiência mais personalizada para cada visitante. O delivery da experiência é baseado em perfis individuais do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Use o Público alvo automático para personalizar o conteúdo e gerar conversões.
 
 ### Personalização automatizada (AP)
 
 Consulte [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) para obter mais informações.
 
-A Personalização automatizada (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar o incentivo.
+O Automated Personalization (AP) combina ofertas ou mensagens e usa o aprendizado de máquina avançado para corresponder às diferentes variações de oferta de cada visitante. O delivery da experiência é baseado em perfis individuais do cliente para personalizar o conteúdo e impulsionar o incentivo.
 
 ### Direcionamento de experiência (XT)
 
@@ -84,7 +84,7 @@ O Direcionamento de experiência, incluindo a geolocalização, é algo valioso 
 
 Consulte [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obter mais informações.
 
-O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade.
+O Multivariate Testing (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para uma audiência específica. O MVT ajuda a identificar qual elemento mais afeta o sucesso da atividade.
 
 ### Recommendations
 
@@ -108,19 +108,19 @@ A solução [!DNL Adobe Target] é hospedada em data centers proprietários de A
 
 Os locais de Cluster Central contêm um centro de coleta de dados e um centro de processamento de dados. Os locais do Edge Cluster contêm apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
-Os dados de atividade do local do cliente são coletados pelo mais próximo de sete Clusters de Borda e direcionados para o destino do Cluster Central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Cingapura) para processamento. Os dados do perfil Visitante são armazenados no Edge Cluster mais próximo do visitante do site (os locais incluem os locais do Central Cluster e Virginia, Amsterdam, Sydney, Tokyo e Hong Kong).
+Os dados de atividade do local do cliente são coletados pelo mais próximo de sete Clusters de Borda. Esses dados são direcionados para o destino do Cluster Central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Cingapura) para processamento. Os dados do perfil do visitante são armazenados no Cluster de Borda mais próximo ao visitante do site. Os locais dos clusters de borda incluem os locais dos clusters centrais e Virgínia, Amsterdã, Sydney, Tóquio e Hong Kong.
 
-Em vez de responder a todas as solicitações de direcionamento de um único local, as solicitações são processadas pelo cluster de Borda mais próximo ao visitante, reduzindo o impacto do tempo de deslocamento de rede/Internet.
+Em vez de responder a todas as solicitações de direcionamento de um único local, as solicitações são processadas pelo Cluster de Borda mais próximo ao visitante. Esse processo ajuda a atenuar o impacto do tempo de viagem da rede/Internet.
 
 ![Tipos de mapa de servidores de Públicos alvos](/help/c-intro/assets/target-servers.png)
 
-Os Clusters do Público alvo Central, hospedados nos Serviços da Web da Amazon (AWS), estão localizados em:
+Os clusters do Público alvo Central, hospedados no Amazon Web Services (AWS), incluem:
 
 * Oregon, EUA
 * Dublin, Irlanda
 * República de Cingapura
 
-Os públicos alvos Edge Clusters, hospedados no AWS, estão localizados em:
+Os públicos alvos do Edge Clusters, hospedados no AWS, incluem:
 
 * Mumbai, Índia
 * Tóquio, Japão
@@ -134,15 +134,15 @@ O serviço [!DNL Target Recommendations] está hospedado em um data center [!DNL
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] atualmente não tem um cluster Edge na China e o desempenho do usuário final continuará a ser limitado para  [!DNL Target] os clientes na China. Devido ao firewall e à falta de clusters de borda no país, as experiências de sites com [!DNL Target] implantados serão lentas e as cargas de página serão afetadas. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação [!DNL Target].
+>[!DNL Adobe Target] atualmente não tem um cluster Edge na China e o desempenho do usuário final continua a ser limitado para  [!DNL Target] clientes na China. Devido ao firewall e à falta de clusters de borda no país, as experiências de sites com [!DNL Target] implantados podem ser afetadas. As experiências podem ser lentas na renderização e as cargas de página podem ser afetadas. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação [!DNL Target].
 
 Você pode lista de permissões os Públicos alvos de Arestas de Arestas, se desejar. Para obter mais informações, consulte [lista de permissões nós de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
 ## Experiência protegida do usuário {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-A Adobe assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um usuário final e os servidores da Adobe pode causar uma interrupção na entrega de conteúdo.
+A Adobe assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um usuário final e os servidores de Adobe pode causar uma interrupção no delivery de conteúdo.
 
-Como proteção contra interrupções do serviço e problemas de conectividade, todos os locais são configurados para incluir o conteúdo padrão (definido pelo cliente), que é exibido se não for possível conectar o navegador do usuário ao [!DNL Target].
+Para proteger contra interrupções de serviço e problemas de conectividade, todos os locais são configurados para incluir o conteúdo padrão (definido pelo cliente). Esse conteúdo padrão será exibido se o navegador do usuário não conseguir se conectar a [!DNL Target].
 
 Nenhuma alteração será feita na página se o navegador do usuário não puder se conectar em um período de tempo limite definido (por padrão, 15 segundos). Se esse tempo limite for atingido, o conteúdo padrão do local será exibido.
 
@@ -157,7 +157,7 @@ A Adobe protege a experiência do usuário por otimizar e salvaguardar o desempe
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
-A Google encoraja os testes por usuários e declarou em sua documentação que testes A/B e multivariados não prejudicam as classificações de mecanismos de pesquisa orgânicos, contanto que algumas diretrizes simples sejam seguidas.
+O Google incentiva o teste do usuário. O Google afirma em sua documentação que A/B e Multivariate Testing não prejudicam as classificações dos mecanismos de pesquisa orgânicos se você seguir determinadas diretrizes.
 
 Para obter mais informações, consulte os seguintes recursos da Google:
 
@@ -166,27 +166,27 @@ Para obter mais informações, consulte os seguintes recursos da Google:
 
 As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webmaster da Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Embora a publicação seja datada de 2012, ela continua sendo a declaração mais recente da Google sobre o assunto e as diretrizes continuam relevantes.
 
-* **Sem cloaking** - Cloaking é exibir um conjunto de conteúdo aos seus usuários e um conjunto diferente de conteúdo para os bots do mecanismo de pesquisa, identificando-os especificamente e enviando conteúdo diferente propositalmente.
+* **Sem encobrimento**: O encobrimento mostra um conjunto de conteúdo para seus usuários e um conjunto diferente de conteúdo para robôs de mecanismo de pesquisa. O encobrimento é feito identificando especificamente bots e alimentando-os com propósito de conteúdo diferente.
 
-   O Target, como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Isso significa que os bots podem ser incluídos em testes que você está executando, se selecionados aleatoriamente, e &quot;ver&quot; as variações de teste.
+   O Target, como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Como resultado, os bots podem ser incluídos no atividade se os bots forem selecionados aleatoriamente e &quot;ver&quot; as variações do teste.
 
-* **Use rel=&quot;canonical&quot;** - Algumas vezes, um teste A/B precisa ser configurado usando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, se a Adobe estivesse testando sua página inicial usando URLs diferentes para cada variação, a tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
+* **Use rel=&quot;canônico&quot;**: Às vezes, um teste A/B deve ser configurado usando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, suponha que o Adobe esteja testando seu home page usando URLs diferentes para cada variação. A seguinte tag canônica para o home page apareceria na tag `<head>` para cada uma das variações:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **Use redirecionamentos 302 (temporários)** - Nos casos onde forem utilizados URLs individuais para as variações de páginas em um teste, a Google recomenda o uso de um redirecionamento 302 para direcionar o tráfego para as variações em teste. Isso diz aos mecanismos de pesquisa que o redirecionamento é temporário e só estará ativo durante a execução do teste.
+* **Usar redirecionamentos** 302 (temporários): Nos casos em que URLs separados são usados para as páginas de variação em um teste, o Google recomenda usar um redirecionamento 302 para direcionar o tráfego para as variações de teste. O redirecionamento 302 informa aos mecanismos de pesquisa que o redirecionamento é temporário e está ativo somente enquanto o teste estiver em execução.
 
-   Um redirecionamento 302 é um redirecionamento no lado do servidor e o Target, juntamente com a maioria dos provedores de otimização, usa as capacidades do lado do cliente. Portanto, essa é uma área onde o Target não está em total conformidade com as recomendações da Google. Isso, entretanto, só exerce impacto sobre uma pequena fração dos testes. A abordagem padrão para execução de testes por meio do Target pede alteração do conteúdo em um único URL, então não há necessidade de redirecionamentos. Há casos em que os clientes precisam usar vários URLs para representar suas variações no teste. Nesses casos, o Target usa o comando `window.location` do JavaScript para direcionar usuários para variações do teste, que não indica explicitamente se o redirecionamento é um 301 ou 302.
+   Um redirecionamento 302 é um redirecionamento no lado do servidor e o Target, juntamente com a maioria dos provedores de otimização, usa as capacidades do lado do cliente. Portanto, essa é uma área onde o Target não está em total conformidade com as recomendações da Google. Essa prática, porém, afeta apenas uma pequena fração dos testes. A abordagem padrão para execução de testes por meio do Target pede alteração do conteúdo em um único URL, então não há necessidade de redirecionamentos. Há instâncias em que os clientes devem usar vários URLs para representar suas variações de teste. Nesses casos, o Público alvo usa o comando JavaScript `window.location`. Esse comando direciona os usuários para testar variações, o que não significa explicitamente se o redirecionamento é 301 ou 302.
 
-   Embora continuemos a procurar soluções viáveis para obter alinhamento total com as diretrizes do mecanismo de pesquisa, para esses clientes que precisam usar URLs separados para testes, estamos confiantes de que a implementação apropriada das tags canônicas mencionadas acima diminui o risco associado a esta abordagem.
+   A Adobe continua buscando soluções viáveis para se alinhar completamente com as diretrizes do mecanismo de pesquisa. Para os clientes que precisam usar URLs separados para testes, o Adobe está confiante de que a implementação adequada das tags canônicas reduz o risco associado a essa abordagem.
 
-* **Execute experimentos somente conforme necessário** - Acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. O Target [fornece práticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar quando seu teste atingiu este ponto. Recomendamos que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Executar experimentos apenas enquanto for necessário**: Adobe acredita que &quot;o tempo necessário&quot; seja o tempo necessário para alcançar significância estatística. O Target [fornece práticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar quando seu teste atingiu este ponto. A Adobe recomenda que você incorpore a implementação codificada de testes vencedores ao seu fluxo de trabalho de teste e atribua os recursos apropriados.
 
-   Usando a plataforma Target para &quot;publicar&quot; testes vencedores não é recomendado como solução permanente, mas contanto que o teste vencedor é publicado para 100% dos usuários em 100% do tempo, essa abordagem pode ser usada enquanto o processo de codificação permanente do teste vencedor é concluído.
+   O uso da plataforma de Público alvo para &quot;publicar&quot; testes vencedores não é recomendado como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários 100% do tempo, essa abordagem poderá ser usada enquanto o processo de codificação de hardware do teste vencedor for concluído.
 
-   É importante levar em consideração também o que seu teste alterou. Simplesmente atualizar a cor de botões ou outros itens de menor importância não baseados em texto na página não exercerá qualquer influência sobre suas classificações orgânicas. As alterações, entretanto, devem ser codificadas permanentemente.
+   É importante levar em consideração também o que seu teste alterou. Simplesmente atualizar a cor dos botões ou outros itens não baseados em texto na página não influencia suas classificações orgânicas. As alterações, entretanto, devem ser codificadas permanentemente.
 
-   Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para os mecanismos de pesquisa e nunca tiver sido concebida para classificar em pesquisa orgânica inicialmente, nenhuma das considerações acima é aplicável.
+   Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para mecanismos de pesquisa e nunca tiver sido projetada para classificar em pesquisa orgânica, em primeiro lugar, nenhuma das considerações acima se aplica. Um exemplo é uma landing page dedicada para uma campanha de email.
 
 O Google declara que seguir essas diretrizes &quot;deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa&quot;.
 
@@ -196,7 +196,7 @@ Além dessas diretrizes, a Google também fornece mais uma diretriz na documenta
 
 A Google afirma, como um exemplo, que &quot;se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice.&quot;
 
-Acreditamos que seria difícil alterar involuntariamente o significado do conteúdo original contido nas variações de teste, mas recomendamos que esteja ciente dos temas das palavras-chave em uma página e manter esses temas. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. Recomendamos que você envolva seu parceiro de SEO como parte de seu protocolo de testes.
+Adobe acha que seria difícil alterar involuntariamente o significado do conteúdo original em variações de teste. No entanto, o Adobe recomenda estar ciente dos temas de palavra-chave em uma página e manter esses temas. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. A Adobe recomenda que você se envolva com seu parceiro SEO como parte do protocolo de teste.
 
 ## Bots {#bots}
 
@@ -204,9 +204,9 @@ A Adobe Target usa a métrica [DeviceAtlas](https://deviceatlas.com/device-data/
 
 >[!NOTE]
 >
-> Para solicitações [!DNL Server Side], o valor passado no nó &quot;Contexto&quot; [da solicitação](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) recebe prioridade sobre a String do Agente do Usuário para detecção de bot.
+> Para solicitações [!DNL Server-Side], o valor passado no nó &quot;Contexto&quot; [da solicitação](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) recebe prioridade sobre a String do Agente do Usuário para detecção de bot.
 
-O tráfego identificado como sendo gerado por um bot ainda recebe conteúdo, como um usuário comum, para garantir que esteja alinhado às diretrizes de SEO. O uso do tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de uma forma um pouco diferente. A remoção do tráfego de bot fornece uma medida mais precisa da atividade do usuário.
+O tráfego que é identificado como sendo gerado por um robô ainda serve o conteúdo. Os bots são tratados como um usuário comum para garantir que o Público alvo esteja em conformidade com as diretrizes de SEO. O uso do tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se forem tratados como usuários normais. Portanto, se um bot conhecido for detectado na atividade do Target, o tráfego será tratado de uma forma um pouco diferente. A remoção do tráfego de bot fornece uma medida mais precisa da atividade do usuário.
 
 Especificamente, para o tráfego de bot conhecido, o Target não:
 
