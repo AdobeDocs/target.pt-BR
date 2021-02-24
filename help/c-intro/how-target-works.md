@@ -4,7 +4,7 @@ description: Saiba mais sobre como a Adobe Target funciona, incluindo informaç�
 title: Como Funciona O Público alvo?
 feature: Visão geral
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 32%
@@ -28,7 +28,7 @@ Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre as bibl
 >
 >Todos os clientes devem migrar para [!DNL AEP Web SDK] ou para a versão mais recente do at.js. Para obter mais informações, consulte [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ou [Migrar para at.js de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Consulte [!DNL AEP Web SDK] ou at.js em cada página do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao cabeçalho global. Como alternativa, considere usar [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) para implementar [!DNL Target].
+Consulte [!DNL AEP Web SDK] ou at.js em cada página do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao cabeçalho global. Como alternativa, considere usar [Platform launch Adobe](https://experienceleague.adobe.com/docs/launch/using/overview.html) para implementar [!DNL Target].
 
 Os seguintes recursos contêm informações detalhadas para ajudá-lo a implementar o AEP Web SDK ou o at.js:
 
@@ -56,7 +56,7 @@ Consulte [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test
 
 ### Alocação automática
 
-A Autoalocação identifica um vencedor entre duas ou mais experiências. A Autoalocação aloca automaticamente mais tráfego para a experiência vencedora para aumentar as conversões enquanto o teste continua em execução e aprende.
+A Autoalocação identifica um vencedor entre duas ou mais experiências. A Autoalocação aloca automaticamente mais tráfego para a experiência vencedora, o que ajuda a aumentar as conversões enquanto o teste continua sendo executado e aprendido.
 
 Consulte [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
 
@@ -134,7 +134,7 @@ O serviço [!DNL Target Recommendations] está hospedado em um data center [!DNL
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] atualmente não tem um cluster Edge na China e o desempenho do visitante continua a ser limitado para  [!DNL Target] clientes na China. Devido ao firewall e à falta de clusters de borda no país, as experiências de sites com [!DNL Target] implantados podem ser afetadas. As experiências podem ser lentas na renderização e as cargas de página podem ser afetadas. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação [!DNL Target].
+>[!DNL Adobe Target] atualmente não tem um cluster Edge na China e o desempenho do visitante permanece limitado para  [!DNL Target] clientes na China. Devido ao firewall e à falta de clusters de borda no país, as experiências de sites com [!DNL Target] implantados podem ser afetadas. As experiências podem ser lentas na renderização e as cargas de página podem ser afetadas. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação [!DNL Target].
 
 Você pode lista de permissões [!DNL Target] Clusters de Borda, se desejar. Para obter mais informações, consulte [lista de permissões nós de borda do Público alvo](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
@@ -176,7 +176,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
 * **Usar redirecionamentos** 302 (temporários): Nos casos em que URLs separados são usados para as páginas de variação em um teste, o Google recomenda usar um redirecionamento 302 para direcionar o tráfego para as variações de teste. O redirecionamento 302 informa aos mecanismos de pesquisa que o redirecionamento é temporário e está ativo somente enquanto o teste estiver em execução.
 
-   Um redirecionamento 302 é um redirecionamento do lado do servidor e [!DNL Target], juntamente com a maioria dos provedores de otimização, usa recursos do lado do cliente. Portanto, essa é uma área em que [!DNL Target] não é totalmente compatível com as recomendações do Google. Essa prática, porém, afeta apenas uma pequena fração dos testes. A abordagem padrão para executar testes por meio de [!DNL Target] requer a alteração do conteúdo em um único URL, portanto, nenhum redirecionamento é necessário. Há instâncias em que os clientes devem usar vários URLs para representar suas variações de teste. Nesses casos, [!DNL Target] usa o comando JavaScript `window.location`. Esse comando direciona os usuários para testar variações, o que não significa explicitamente se o redirecionamento é 301 ou 302.
+   Um redirecionamento 302 é um redirecionamento do lado do servidor e [!DNL Target], juntamente com a maioria dos provedores de otimização, usa recursos do lado do cliente. Portanto, redirecionamentos é uma área em que [!DNL Target] não é totalmente compatível com as recomendações do Google. Essa prática, porém, afeta apenas uma pequena fração dos testes. A abordagem padrão para executar testes por meio de [!DNL Target] requer a alteração do conteúdo em um único URL, portanto, nenhum redirecionamento é necessário. Há instâncias em que os clientes devem usar vários URLs para representar suas variações de teste. Nesses casos, [!DNL Target] usa o comando JavaScript `window.location`. Esse comando direciona os usuários para testar variações, o que não significa explicitamente se o redirecionamento é 301 ou 302.
 
    A Adobe continua buscando soluções viáveis para se alinhar completamente com as diretrizes do mecanismo de pesquisa. Para os clientes que precisam usar URLs separados para testes, o Adobe está confiante de que a implementação adequada das tags canônicas reduz o risco associado a essa abordagem.
 
