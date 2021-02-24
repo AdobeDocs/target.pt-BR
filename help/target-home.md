@@ -4,10 +4,10 @@ title: Onde posso encontrar a documentação do Público alvo?
 description: Saiba como usar a Adobe Target para personalizar a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos e outros canais digitais.
 feature: Visão geral
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 58%
+ht-degree: 45%
 
 ---
 
@@ -45,14 +45,14 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 - [Introdução ao Target](c-intro/intro.md): explica os conceitos principais da solução do [!DNL Target].
 - Integrar o Target com a Adobe Experience Cloud: explica como integrar o [!DNL Target] com outras soluções da [!DNL Experience Cloud], incluindo o [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), os [Públicos-alvo da Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), o [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) e o [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
 - [Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) Adobe Target: Fornece tutoriais e vídeos para ajudá-lo a aproveitar ao máximo o Público alvo.
-- [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md): fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros, etc.) que afetam as atividades e outros elementos no [!DNL Target].
+- [Público alvo](r-troubleshooting-target/troubleshooting-target.md) de solução de problemas: Fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre os limites de caracteres e outros limites (tamanho da oferta, audiências, perfis, valores, parâmetros e assim por diante) que afetam atividades e outros elementos no  [!DNL Target].
 - [Target para aplicativos móveis](c-target-mobile-app/target-mobile-app.md): explica como o [!DNL Target] pode ser usado para otimização e personalização de aplicativos móveis.
-- [Recursos e informações de contato](cmp-resources-and-contact-information.md): fornece informações sobre recursos adicionais para ajudá-lo a saber mais sobre os recursos do [!DNL Target] e como entrar em contato com [!DNL Adobe] caso você precise de ajuda.
+- [Recursos e informações](cmp-resources-and-contact-information.md) de contato: Fornece informações sobre mais recursos para ajudá-lo a saber mais sobre  [!DNL Target] recursos e como entrar em contato  [!DNL Adobe] caso precise de ajuda.
 
-## Profissionais de marketing  {#marketers}
+## Profissionais de marketing {#marketers}
 
 - [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
-- [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em uma atividade direcionada.
+- [Audiências](c-target/target.md): Explica como determinar quem vê o conteúdo e as experiências em atividades direcionadas.
 - [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 - [Recommendations](c-recommendations/recommendations.md): explica como as atividades do [!DNL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
 
@@ -71,7 +71,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Analistas  {#analysts}
 
-- [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em uma atividade direcionada.
+- [Audiências](c-target/target.md): Explica como determinar quem vê o conteúdo e as experiências em atividades direcionadas.
 - [Relatórios](c-reports/reports.md): explica como interpretar o desempenho de suas atividades.
 
 ## Engenheiros de controle de qualidade  {#qa}
