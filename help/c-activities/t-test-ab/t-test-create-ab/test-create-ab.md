@@ -2,12 +2,12 @@
 keywords: Criar teste A/B;teste A/B;atividade A/B;nova atividade a/b;criar a/b
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B diretamente em uma página ativada pelo Público alvo.
 title: Como crio um teste A/B?
-feature: A/B Tests
+feature: Testes A/B
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 63%
+source-wordcount: '861'
+ht-degree: 61%
 
 ---
 
@@ -62,14 +62,10 @@ Para criar uma atividade manual [!UICONTROL Teste A/B]:
 
    ![Campo nome](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Os seguintes caracteres não são permitidos em um nome de atividade:
+   O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 
    | Caractere | Descrição |
    |--- |--- |
-   | `/` | Barra |
-   | `?` | Ponto de interrogação |
-   | `#` | Sinal numérico |
-   | `:` | Dois-pontos |
    | `=` | Igual a |
    | `+` | Plus |
    | `-` | menos |
