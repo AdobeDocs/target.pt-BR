@@ -1,13 +1,13 @@
 ---
-keywords: Criar público alvo automático;teste A/B;atividade de público alvo automático;nova atividade a/b;público alvo automático;público alvo automático para experiências personalizadas;personalizado
+keywords: Criar público alvo automático;teste A/B;atividade de público alvo automático;nova atividade a/b;público alvo automático;público alvo automático para experiências personalizadas;personalizado;otimização
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B de Público alvo automático diretamente em uma página habilitada para Públicos alvos.
 title: Como crio uma Atividade de Público alvo automático?
-feature: Auto-Target
+feature: Direcionamento automático
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 58%
+source-wordcount: '933'
+ht-degree: 56%
 
 ---
 
@@ -64,14 +64,10 @@ Para criar uma atividade [!UICONTROL Público alvo automático]:
 
    ![Campo nome](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Os seguintes caracteres não são permitidos em um nome de atividade:
+   O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 
    | Caractere | Descrição |
    |--- |--- |
-   | `/` | Barra |
-   | `?` | Ponto de interrogação |
-   | `#` | Sinal numérico |
-   | `:` | Dois-pontos |
    | `=` | Igual a |
    | `+` | Plus |
    | `-` | menos |
