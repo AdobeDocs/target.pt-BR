@@ -2,17 +2,17 @@
 keywords: Direcionamento de experiência;xt;criar
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar uma atividade Experience Targeting (XT) em uma página habilitada para Públicos alvos.
 title: Como crio uma Atividade de direcionamento de experiência?
-feature: Experience Targeting
+feature: Direcionamento de experiência
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 91%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
 
-# Criar uma atividade de direcionamento de experiência{#create-an-experience-targeting-activity}
+# Criar uma atividade de direcionamento de experiência
 
 Use o [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade de [!UICONTROL Direcionamento de experiência] (XT) em uma página habilitada pelo Target e modificar partes da página no [!DNL Adobe Target].
 
@@ -62,14 +62,10 @@ Para obter mais informações sobre Direcionamento de experiência, um cenário 
 
    ![Campo nome](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   Os seguintes caracteres não são permitidos em um nome de atividade:
+   O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 
    | Caractere | Descrição |
    |--- |--- |
-   | `/` | Barra |
-   | `?` | Ponto de interrogação |
-   | `#` | Sinal numérico |
-   | `:` | Dois-pontos |
    | `=` | Igual a |
    | `+` | Plus |
    | `-` | menos |
