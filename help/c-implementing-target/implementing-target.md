@@ -1,15 +1,15 @@
 ---
 keywords: implementar; implementação
-description: Entenda os conceitos básicos, familiarize-se com o modo como o Público alvo funciona e se integra à sua infraestrutura, e entenda como os visitantes são rastreados.
+description: Entenda os conceitos básicos, familiarize-se com o modo como o Target funciona e se integra à sua infraestrutura e entenda como os visitantes são rastreados.
 landing-page-description: Antes de começar a usar o Adobe Target, você deve implementá-lo em seu site, entender alguns conceitos e termos básicos e familiarizar-se com o funcionamento do Target.
-title: Como implementar o Público alvo?
-feature: Implementation
-role: Developer
+title: Como Implemento O Target?
+feature: Implementação
+role: Desenvolvedor
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 77%
+source-wordcount: '113'
+ht-degree: 95%
 
 ---
 
