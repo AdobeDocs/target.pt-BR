@@ -14,12 +14,12 @@ ht-degree: 89%
 
 # Guia do Adobe Target  {#using}
 
-+ [Página inicial do Guia Adobe Target](target-home.md)
++ [Página inicial do Guia do Adobe Target](target-home.md)
 + Notas de versão do Target {#release-notes}
    + [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md)
    + [Notas de versão do Target (atual)](r-release-notes/release-notes.md)
    + [Notas de versão do Target (pré-lançamento)](r-release-notes/target-release-notes.md)
-   + [Visão geral da documentação do público alvo](/help/r-release-notes/target-documentation.md)
+   + [Visão geral da documentação do Target](/help/r-release-notes/target-documentation.md)
    + [informativo Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problemas conhecidos e problemas resolvidos](r-release-notes/known-issues-resolved-issues.md)
    + [Atualizações do status do sistema e notificações proativas](r-release-notes/system-status-updates.md)
@@ -29,16 +29,16 @@ ht-degree: 89%
    + [Introdução ao Target](c-intro/intro.md)
    + [Acessar o Target na Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Conceitos-chave do Target](c-intro/target-key-concepts.md)
-   + [Entenda a interface do Público alvo](/help/c-intro/understand-the-target-ui.md)
-   + Kit de boas-vindas da Adobe Target {#welcome}
-      + [Visão geral do kit de boas-vindas da Adobe Target](/help/c-intro/target-welcome-kit.md)
+   + [Entender a interface do usuário do Target](/help/c-intro/understand-the-target-ui.md)
+   + Kit de boas-vindas do Adobe Target {#welcome}
+      + [Visão geral do kit de boas-vindas do Adobe Target](/help/c-intro/target-welcome-kit.md)
       + [Capítulo 1: Introdução](/help/c-intro/target-welcome-kit-1.md)
-      + [Capítulo 2: Visão geral do Adobe Target](/help/c-intro/target-welcome-kit-2.md)
+      + [Capítulo 2: Resumo do Adobe Target](/help/c-intro/target-welcome-kit-2.md)
       + [Capítulo 3: Desenvolver seus testes e ideias de personalização](/help/c-intro/target-welcome-kit-3.md)
-      + [Capítulo 4: Dicas para usar o Público alvo](/help/c-intro/target-welcome-kit-4.md)
+      + [Capítulo 4: Dicas para usar o Target](/help/c-intro/target-welcome-kit-4.md)
       + [Capítulo 5: Inspiração para atividades de teste e personalização](/help/c-intro/target-welcome-kit-5.md)
       + [Capítulo 6: armadilhas facilmente evitáveis](/help/c-intro/target-welcome-kit-6.md)
-      + [Capítulo 7: Crie e execute sua primeira atividade de Público alvo](/help/c-intro/target-welcome-kit-7.md)
+      + [Capítulo 7: Criar e executar sua primeira atividade do Target](/help/c-intro/target-welcome-kit-7.md)
       + [Capítulo 8: Comunicar os resultados da atividade](/help/c-intro/target-welcome-kit-8.md)
       + [Capítulo 9: Próximas etapas e recursos](/help/c-intro/target-welcome-kit-9.md)
    + [Glossário](c-intro/glossary.md)
@@ -53,7 +53,7 @@ ht-degree: 89%
    + Relatório {#reporting}
       + [Configurar relatórios](/help/administrating-target/reporting.md)
       + [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Configuração Scene7](administrating-target/scene7-settings.md)
+   + [Configuração do Scene7](administrating-target/scene7-settings.md)
    + [Implementação](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
    + [Ambientes](/help/administrating-target/environments.md)
@@ -89,9 +89,9 @@ ht-degree: 89%
       + [CNAME e Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Web do lado do cliente: implementação do Target {#client-side}
       + [Visão geral: implementar o Target para Web no lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Implementação do Adobe Experience Platform Web SDK {#aep-implementation}
-         + [Visão geral do AEP Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + Implementação do at.js {#at-js-implementation}
+      + Implementação do SDK da Web da Adobe Experience Platform {#aep-implementation}
+         + [Visão geral do SDK da Web da AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + Implementação da at.js {#at-js-implementation}
          + Como a at.js funciona {#at-js}
             + [Como a visão geral do at.js funciona](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Como a at.js gerencia a cintilação](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
@@ -125,7 +125,7 @@ ht-degree: 89%
          + [Detalhes da versão da at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [Atualização da at.js 1.x para at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [Cookies do at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + implementação do mbox.js (herdado) {#mbox-implement}
+      + Implementação da mbox.js (herdada) {#mbox-implement}
          + [Visão geral da implementação do mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + Migração da mbox.js para at.js {#migrate-mbox}
             + [Migrar do mbox.js para a visão geral do at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
@@ -175,8 +175,8 @@ ht-degree: 89%
       + [Antes da implementação](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementação do Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Exigências de permissão do usuário](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [Crie uma atividade que use o Analytics como a fonte do relatórios](c-integrating-target-with-mac/a4t/campaign-creation.md)
-      + [Suporte A4T para autoalocação e Público alvo automático de atividades](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
+      + [Crie uma atividade que use o Analytics como fonte de relatórios](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Usar um servidor de rastreamento do Analytics](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [Relatórios do A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Solução de problemas da integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
@@ -195,7 +195,7 @@ ht-degree: 89%
          + [Integração herdada do SiteCatalyst com o Test&amp;Target - Perguntas frequentes do A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Públicos-alvo da Experience Cloud](c-integrating-target-with-mac/mmp.md)
-   + [Integrar Público alvo ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Integrar o Target ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integração do Target ao Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Device Co-op da Experience Cloud](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Atividades {#activities}
@@ -216,14 +216,14 @@ ht-degree: 89%
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Vários públicos-alvo de uma experiência em um Teste A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Alocação automática {#auto-allocate}
-      + [Autoalocar visão geral](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [Criar uma atividade de autoalocação](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Visão geral da alocação automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Criar uma atividade de alocação automática](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretar relatórios de autoalocação](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [A Autoalocação pode fornecer resultados de teste mais rápidos e maior receita do que um teste manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [A alocação automática pode fornecer resultados de teste mais rápidos e receita maior do que um teste manual](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Direcionamento automático {#auto-target}
-      + [Visão geral do Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md)
-      + [Criar uma atividade de Público alvo automático](/help/c-activities/auto-target/create-auto-target.md)
-      + [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Visão geral do direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Criar uma atividade de Direcionamento automático](/help/c-activities/auto-target/create-auto-target.md)
+      + [Solução de problemas e perguntas frequentes do Direcionamento automático](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + Personalização automatizada {#automated-personalization}
       + [Visão geral da personalização automatizada](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Random Forest](c-activities/t-automated-personalization/algo-random-forest.md)
@@ -387,7 +387,7 @@ ht-degree: 89%
       + [Criar sequências de critérios](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Upload dos critérios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Regras de inclusão dinâmicas e estáticas {#dynamic-static}
+      + Regras de inclusão estática e dinâmica {#dynamic-static}
          + [Uso das regras de inclusão estática e dinâmica](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Correspondência de atributos de entidade](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Correspondência de atributos de perfil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
@@ -395,7 +395,7 @@ ht-degree: 89%
          + [Filtro estático](/help/c-recommendations/c-algorithms/static-value.md)
       + [Usar uma recomendação de backup](c-recommendations/c-algorithms/backup-recs.md)
       + [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Usar Adobe Analytics com Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Usar o Adobe Analytics com o Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Projeto {#recommendations-design}
       + [Visão geral do design](c-recommendations/c-design-overview/design-overview.md)
       + [Criar um design](c-recommendations/c-design-overview/create-design.md)
@@ -418,5 +418,5 @@ ht-degree: 89%
    + [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
-   + [Visão geral da API Adobe Target](/help/api/api-overview.md)
+   + [Visão geral da API do Adobe Target](/help/api/api-overview.md)
 + [Informações de Recursos e Contato](cmp-resources-and-contact-information.md)
