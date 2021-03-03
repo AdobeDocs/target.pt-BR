@@ -1,14 +1,14 @@
 ---
-keywords: Analytics como fonte de relatórios;a4t;A4T;requirements
-description: Saiba como configurar os requisitos de conta de usuário necessários para criar uma atividade baseada em Adobe Analytics no Adobe Target usando o Analytics para Públicos alvos (A4T).
-title: Quais são os requisitos de permissão de usuário necessários para o A4T?
+keywords: Analytics como fonte de relatórios; a4t; A4T; requisitos
+description: Saiba como configurar os requisitos da conta de usuário necessários para criar uma atividade do Adobe Analytics no Adobe Target usando o Analytics for Target (A4T).
+title: Quais requisitos de permissão de usuário são necessários para o A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 38%
+source-wordcount: '313'
+ht-degree: 36%
 
 ---
 
@@ -35,23 +35,26 @@ Para obter mais informações, consulte [Organizações e vinculação de contas
 
 Você deve ser um membro de um ou mais grupos do [!DNL Experience Cloud] com acesso ao [!DNL Analytics] e [!DNL Target].
 
-Para obter mais informações, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure o acesso ao conjunto de relatórios [!DNL Analytics]:
-
-Para usar o A4T em um determinado conjunto de relatórios, é necessário ter acesso a esse conjunto de relatórios.
+Para usar o A4T em um determinado conjunto de relatórios, você deve ter acesso a esse conjunto de relatórios e conceder acesso ao grupo [!DNL Web Services Access].
 
 1. Em **[!UICONTROL Admin Console]**, clique em um perfil de produto [!DNL Analytics] e, em seguida, clique na guia **[!UICONTROL Permissões]**.
 
    Em seguida, é possível ver a quais conjuntos de relatórios o perfil tem acesso.
 
-1. Verifique se o conjunto de relatórios ao qual você deseja ter acesso em [!DNL Target] é um dos listados no perfil de produto do qual você faz parte.
+1. Certifique-se de que o conjunto de relatórios ao qual você deseja ter acesso em [!DNL Target] seja um dos listados no perfil de produto do qual você faz parte.
 
    A ilustração a seguir é um exemplo de um perfil de produto que tem acesso a todos os conjuntos de relatórios:
 
-   ![Guia Permissão de Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Guia Permissão do Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. Configure o acesso ao grupo [!UICONTROL Acesso aos serviços da Web].
+
+   O acesso ao grupo [!UICONTROL Web Services Access] em [!DNL Analytics] é necessário para usar [!DNL Analytics] como a fonte de relatórios para [!DNL Target].
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
