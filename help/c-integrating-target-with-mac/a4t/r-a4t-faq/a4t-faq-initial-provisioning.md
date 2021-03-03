@@ -1,20 +1,20 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; provisionamento; provisionamento; adobe Experience Cloud
-description: Encontre respostas para perguntas frequentes sobre o provisionamento do Analytics para Públicos alvos (A4T), que permite usar o relatórios do Analytics para atividades Públicos alvos.
-title: Onde posso encontrar informações sobre o Provisionamento Inicial A4T?
+description: Encontre respostas para perguntas frequentes sobre o provisionamento do Analytics for Target (A4T), que permite usar os relatórios do Analytics para atividades do Target.
+title: Onde posso encontrar informações sobre o Provisionamento inicial do A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '489'
+ht-degree: 68%
 
 ---
 
 
 # Provisionamento inicial - Perguntas frequentes sobre o A4T{#initial-provisioning-a-t-faq}
 
-Este tópico contém respostas a perguntas frequentes sobre o provisionamento do Analytics como a fonte de geração de relatórios para o Target (A4T).
+Este tópico contém respostas para as perguntas mais frequentes sobre o provisionamento [!DNL Adobe Analytics] como a fonte de geração de relatórios para [!DNL Adobe Target] (A4T).
 
 ## Como posso configurar uma atividade de várias páginas do A4T?
 
@@ -28,7 +28,7 @@ Para implementar um caso de uso básico de várias páginas do A4T:
 
 Para poder selecionar um conjunto de relatórios ao definir uma atividade do Analytics, você precisa de uma conta de usuário do Analytics e de uma conta de usuário do Target. Suas contas de usuário devem ser configuradas conforme descrito na documentação. Consulte [Exigências de permissão do usuário](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Quando você for membro de um ou mais grupos da Experience Cloud que têm acesso ao Analytics e ao Target e tiver acesso a todos os conjuntos de relatórios, deverá ver a opção de criar um teste A/B usando o Analytics em **[!UICONTROL Criar atividade]**.
+Depois de ser membro de um ou mais grupos da Experience Cloud que têm acesso ao Analytics e ao Target e ter acesso a todos os conjuntos de relatórios, você deve ver a opção de criar um teste A/B usando o Analytics em **[!UICONTROL Criar atividade]**.
 
 Se ocorrerem problemas de provisionamento, verifique se o A4T está provisionado corretamente.
 
@@ -36,13 +36,13 @@ Se ocorrerem problemas de provisionamento, verifique se o A4T está provisionado
 
 Verifique o seguinte se algum destes problemas ocorrer:
 
-* Certifique-se de que suas contas do Analytics e do Target estejam vinculadas no Experience Cloud.
-* Se você estiver usando vários logins da empresa do Analytics na mesma empresa Experience Cloud, verifique se a última empresa do Analytics na qual você fez login é aquela vinculada à conta do Target para a integração.
+* Verifique se as contas do Analytics e do Target estão vinculadas na Experience Cloud.
+* Alguns clientes usam vários logons de empresa do Analytics na mesma empresa da Experience Cloud. Se você usar vários logons, verifique se a última empresa do Analytics na qual você fez logon é aquela vinculada à conta do Target para a integração.
 * Se você fez login no Experience Cloud por várias horas, às vezes a sessão do Analytics pode expirar. Saia e faça login novamente para tentar de novo.
 
 ## Por que não vejo as opções do Analytics no Target?   {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
+Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; Acima de. A causa raiz deste problema é a mesma.
 
 ## Por que não vejo os relatórios do A4T no Analytics?   {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
