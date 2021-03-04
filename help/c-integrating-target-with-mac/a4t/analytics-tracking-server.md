@@ -1,46 +1,46 @@
 ---
-keywords: servidor de rastreamento do Analytics;A4T;depurador do Adobe Experience Cloud;depurador do Adobe Experience Platform;fonte do relatórios;ferramentas do desenvolvedor
-description: 'Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics para Públicos alvos (A4T) se você estiver usando uma versão anterior do at.js ou mbox.js. '
+keywords: servidor de rastreamento de análises; A4T; Adobe Experience Cloud Debugger; Adobe Experience Platform Debugger; fonte de relatórios; ferramentas do desenvolvedor
+description: 'Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics for Target (A4T) se estiver usando uma versão mais antiga da at.js ou da mbox.js. '
 title: Como usar um servidor de rastreamento do Analytics?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 22%
+source-wordcount: '705'
+ht-degree: 20%
 
 ---
 
 
 # Usar um servidor de rastreamento do Analytics
 
-Se você estiver usando uma versão anterior do at.js ou mbox.js, deverá especificar um servidor de rastreamento do Analytics para atividades que usam [!DNL Analytics] para [!DNL Target] (A4T).
+Se estiver usando uma versão mais antiga da at.js ou da mbox.js, deverá especificar um servidor de rastreamento do Analytics para as atividades que usam [!DNL Adobe Analytics] para [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->Se você usar [!DNL Analytics] como fonte de relatórios do atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade se estiver usando a versão 61 (ou posterior) ou a versão 0.9.1 (ou posterior) do at.js. A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+>Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 >
->A equipe [!DNL Target] oferece suporte para o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente da versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações, consulte [detalhes da versão do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>A equipe [!DNL Target] é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações, consulte [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-Para garantir que os dados de [!DNL Target] vão para o local correto em [!DNL Analytics], o A4T exige que um servidor de rastreamento do Analytics seja enviado em todas as chamadas para Modstats de [!DNL Target]. Para implementações que usam vários servidores de rastreamento, você pode usar as [!DNL Adobe Experience Platform Debugger] ou as Ferramentas do desenvolvedor do seu navegador para determinar o servidor de rastreamento correto para sua atividade.
+Para garantir que os dados de [!DNL Target] vão para o local correto em [!DNL Analytics], o A4T requer que um servidor de rastreamento do Analytics seja enviado em todas as chamadas para Modstats de [!DNL Target]. Para implementações que usam vários servidores de rastreamento, use o [!DNL Adobe Experience Platform Debugger] ou as Ferramentas do desenvolvedor do navegador para determinar o servidor de rastreamento correto para a atividade.
 
-## Obtenha o servidor de rastreamento do Analytics usando o Adobe Experience Platform Debugger
+## Obter o servidor de rastreamento do Analytics usando o Adobe Experience Platform Debugger
 
-O depurador deve ser visualizado em uma página na qual a atividade será entregue para garantir a seleção do servidor de rastreamento correto. Também é possível pode especificar um servidor de rastreamento padrão para cada conta. Entre em contato com o Atendimento ao cliente para especificar ou modificar o padrão.
+O depurador deve ser exibido em uma página em que a atividade é entregue para garantir que você selecione o servidor de rastreamento correto. Também é possível pode especificar um servidor de rastreamento padrão para cada conta. Entre em contato com o Atendimento ao cliente para especificar ou modificar o padrão.
 
-1. Na página na qual você está criando sua atividade, abra [!DNL Adobe Experience Platform Debugger].
+1. Na página em que você está criando sua atividade, abra o [!DNL Adobe Experience Platform Debugger].
 
-   Se você não instalou o depurador, consulte [Introdução ao Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+   Se você não tiver instalado o depurador, consulte [Introdução ao Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
 1. Clique em **[!UICONTROL Analytics]** no menu de navegação esquerdo.
 
-   O servidor de rastreamento do Analytics está localizado na seção [!UICONTROL Nome do host] do depurador.
+   O servidor de rastreamento do Analytics é encontrado na seção [!UICONTROL Hostname] do depurador.
 
-   * **Servidor** de rastreamento primário: Se o nome do host da solicitação corresponder ao domínio em que você está, então ele será um servidor de rastreamento primário. Por exemplo, se você estiver em `adobe.com`, `adobe.com` será o servidor de rastreamento primário.
-   * **Servidor** de rastreamento de terceiros: Geralmente, um servidor de rastreamento de terceiros é  `[company].sc.omtrdc.net` onde a empresa é o nome da empresa, mas sempre termina  `sc.omtrdc.net`.
-   * **Implementações** CNAME:  `sstats.adobe.com` é um exemplo de um servidor de rastreamento primário CNAME para uma solicitação https (segura). `stats.adobe.com` é um exemplo de uma solicitação primária CNAME para uma página http (não segura).
+   * **Servidor** de rastreamento próprio: Se o nome do host da solicitação corresponder ao domínio em que você está, ele será um servidor de rastreamento próprio. Por exemplo, se você estiver em `adobe.com`, `adobe.com` será o servidor de rastreamento próprio.
+   * **Servidor** de rastreamento de terceiros: Normalmente, um servidor de rastreamento de terceiros é  `[company].sc.omtrdc.net` onde a empresa é o nome de sua empresa, mas sempre termina em  `sc.omtrdc.net`.
+   * **Implementações** CNAME:  `sstats.adobe.com` é um exemplo de um servidor de rastreamento primário CNAME para uma solicitação https (secure). `stats.adobe.com` é um exemplo de uma solicitação primária CNAME para uma página http (não segura).
 
 1. Copie todo o conteúdo do campo.
 
@@ -48,15 +48,15 @@ O depurador deve ser visualizado em uma página na qual a atividade será entreg
 
    >[!NOTE]
    >
-   >Você deve selecionar [!UICONTROL Analytics como a Fonte do Relatórios] para sua atividade para que o campo [!UICONTROL Servidor de rastreamento] esteja disponível.
+   >Selecione [!UICONTROL Analytics como Fonte de relatórios] para sua atividade para que o campo [!UICONTROL Servidor de rastreamento] fique disponível.
 
-## Obtenha o servidor de rastreamento do Analytics usando as Ferramentas do desenvolvedor do seu navegador
+## Obtenha o servidor de rastreamento do Analytics usando as Ferramentas do desenvolvedor do navegador
 
-As Ferramentas do desenvolvedor devem ser exibidas em uma página onde a atividade será entregue para garantir que você selecione o servidor de rastreamento correto. Também é possível pode especificar um servidor de rastreamento padrão para cada conta. Entre em contato com o Atendimento ao cliente para especificar ou modificar o padrão.
+As Ferramentas do desenvolvedor devem ser exibidas em uma página em que a atividade é entregue para garantir que você selecione o servidor de rastreamento correto. Também é possível pode especificar um servidor de rastreamento padrão para cada conta. Entre em contato com o Atendimento ao cliente para especificar ou modificar o padrão.
 
-1. Na página em que você está criando sua atividade, abra as Ferramentas do desenvolvedor do navegador (no Google Chrome, clique nas três elipses verticais no canto superior direito > Mais ferramentas > Ferramentas do desenvolvedor).
+1. Na página em que você está criando sua atividade, abra as Ferramentas do desenvolvedor do navegador (no Google Chrome, clique nos três elipses verticais no canto superior direito > Mais ferramentas > Ferramentas do desenvolvedor).
 
-   ![Ferramentas para desenvolvedores do Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Ferramentas de desenvolvedor do Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. Clique na guia **[!UICONTROL Rede]**.
 
@@ -66,9 +66,9 @@ As Ferramentas do desenvolvedor devem ser exibidas em uma página onde a ativida
 
    O servidor de rastreamento é o nome do host da solicitação.
 
-   * **Servidor** de rastreamento primário: Se o nome do host da solicitação corresponder ao domínio em que você está, então ele será um servidor de rastreamento primário. Por exemplo, se você estiver em `adobe.com`, `adobe.com` será o servidor de rastreamento primário.
-   * **Servidor** de rastreamento de terceiros: Geralmente, um servidor de rastreamento de terceiros é  `[company].sc.omtrdc.net` onde a empresa é o nome da empresa, mas sempre termina  `sc.omtrdc.net`.
-   * **Implementações** CNAME:  `sstats.adobe.com` é um exemplo de um servidor de rastreamento primário CNAME para uma solicitação https (segura). `stats.adobe.com` é um exemplo de uma solicitação primária CNAME para uma página http (não segura).
+   * **Servidor** de rastreamento próprio: Se o nome do host da solicitação corresponder ao domínio em que você está, ele será um servidor de rastreamento próprio. Por exemplo, se você estiver em `adobe.com`, `adobe.com` será o servidor de rastreamento próprio.
+   * **Servidor** de rastreamento de terceiros: Normalmente, um servidor de rastreamento de terceiros é  `[company].sc.omtrdc.net` onde a empresa é o nome de sua empresa, mas sempre termina em  `sc.omtrdc.net`.
+   * **Implementações** CNAME:  `sstats.adobe.com` é um exemplo de um servidor de rastreamento primário CNAME para uma solicitação https (secure). `stats.adobe.com` é um exemplo de uma solicitação primária CNAME para uma página http (não segura).
 
 1. Copie todo o conteúdo do campo.
 
@@ -76,5 +76,5 @@ As Ferramentas do desenvolvedor devem ser exibidas em uma página onde a ativida
 
    >[!NOTE]
    >
-   >Você deve selecionar [!UICONTROL Analytics como a Fonte do Relatórios] para sua atividade para que o campo [!UICONTROL Servidor de rastreamento] esteja disponível.
+   >Selecione [!UICONTROL Analytics como Fonte de relatórios] para sua atividade para que o campo [!UICONTROL Servidor de rastreamento] fique disponível.
 
