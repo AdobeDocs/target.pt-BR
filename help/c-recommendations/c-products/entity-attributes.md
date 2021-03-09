@@ -1,18 +1,18 @@
 ---
 keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
-description: Saiba como usar atributos de entidade para passar informações sobre produtos ou conteúdo para a Adobe Target Recommendations.
-title: Como uso os atributos da entidade?
+description: Saiba como usar atributos de entidade para transmitir informações do produto ou conteúdo ao Adobe Target Recommendations.
+title: Como Posso Usar Atributos De Entidade?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 92%
+source-wordcount: '1064'
+ht-degree: 91%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Atributos da entidade{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Atributos da entidade
 
 Use atributos de entidade para passar informações do produto ou conteúdo para o [!DNL Adobe Target Recommendations].
 
@@ -28,11 +28,11 @@ Use atributos de entidade para passar informações do produto ou conteúdo para
 
 A maioria dos parâmetros predefinidos aceita apenas um único valor, e os novos valores substituem os valores antigos. O parâmetro `categoryId` pode aceitar uma lista delimitada por vírgulas de valores de cada categoria que contenha esse produto. Os novos valores de `categoryId` não substituem os valores existentes, mas em vez disso são anexados durante a atualização da entidade (limite de 250 caracteres).
 
-Em geral, a mbox de informações de exibição pode ser semelhante ao exemplo a seguir se você estiver usando o at.js 1.** xwith  `mboxCreate`.
+Em geral, a mbox de informações de exibição pode ser semelhante ao seguinte exemplo, se você estiver usando a at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Se você estiver usando o at.js 2.*x*,  `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações sobre o produto ou conteúdo para a Recommendations usando o at.js 2.*x*, use  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para obter um exemplo, consulte [Planeje e implemente o Recommendations](/help/c-recommendations/plan-implement.md).
+>* Se estiver usando a at.js 2.*x*,  `mboxCreate`  (como usado no exemplo a seguir) não é mais suportado. Para passar informações do produto ou conteúdo para o Recommendations usando a at.js 2.*x*, use  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para obter um exemplo, consulte [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
@@ -86,7 +86,7 @@ Somente valor único.
 
 Este parâmetro obrigatório identifica o produto. Esta ID alfanumérica deve ser igual em todos os produtos utilizados da [!DNL Adobe Experience Cloud], incluindo o [!DNL Analytics], para que os produtos reconheçam o item e compartilhem dados sobre ele.
 
-Os valores do `entity.id` não devem conter barras, &quot;E&quot; comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
+Os valores do `entity.id`*não devem conter barras, &quot;E&quot; comercial (&amp;), pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API.* Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
 
 Exemplo: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ Somente valor único.
 Define o preço ou o valor do item.
 
 Exemplo: `'entity.value=15.99'`
+
+entity.value suporta apenas formato decimal (por exemplo, 15.99). Não há suporte para o formato de vírgula (15,99).
 
 ### entity.margin
 
