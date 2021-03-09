@@ -5,7 +5,7 @@ title: Quais são os vários caracteres, tamanho e outros limites no Adobe Targe
 feature: Solução de problemas
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 64%
@@ -53,7 +53,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
 ## parâmetro categoryId
 
-* **Limite**: 128 caracteres.
+* **Limite**: 250 caracteres.
 
 ## Atributos do cliente
 
