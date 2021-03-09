@@ -4,24 +4,25 @@ description: Mantenha-se atualizado com adições e alterações importantes na 
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3715'
-ht-degree: 31%
+source-wordcount: '3740'
+ht-degree: 30%
 
 ---
 
 
 # Alterações de documentação
 
-Esta página lista alterações importantes feitas na documentação do produto [!DNL Adobe Target].
+Esta página lista alterações significativas feitas na documentação do produto [!DNL Adobe Target].
 
 ## Adobe Target Standard/Premium 21.2.1 (9 de março de 2021) 
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 9 de março | [Limites](/help/r-troubleshooting-target/target-limits.md#offer-size) | Atualização dos limites de tamanho de oferta permitidos. |
+| 9 de março | [Limites](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Atualização dos limites de tamanho de oferta permitidos.</li><li>Limite de caracteres corrigido para o parâmetro categoryId .</li></ul> |
 |  | [Nós de borda permitidos no Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Atualização de [!DNL Target] endereços IP de borda. |
+|  | [Atributos da entidade](/help/c-recommendations/c-products/entity-attributes.md) | Adição de texto para indicar que entity.value deve estar em formato decimal (por exemplo, 15.99 em vez de 15.99). |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 21.2.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 de janeiro de 2021)
