@@ -4,10 +4,10 @@ description: Saiba como usar atributos de entidade para transmitir informações
 title: Como Posso Usar Atributos De Entidade?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,12 +23,12 @@ Use atributos de entidade para passar informações do produto ou conteúdo para
 >* `entity.id` deve corresponder ao `productPurchasedId` enviado para a página de confirmação do pedido e `productId` usado nos relatórios de produto do Adobe Analytics.
    >
    >
-* Especificação de que os valores de atributos de entidade expiram após 61 dias. Isso significa que você deve garantir que o valor mais recente de cada atributo de entidade seja passado para as Recommendations do Target pelo menos uma vez por mês para cada item do catálogo.
+* Especificação de que os valores de atributos de entidade expiram após 61 dias. Essa expiração significa que você deve garantir que o valor mais recente de cada atributo de entidade seja passado para o Target Recommendations pelo menos uma vez por mês para cada item no catálogo.
 
 
 A maioria dos parâmetros predefinidos aceita apenas um único valor, e os novos valores substituem os valores antigos. O parâmetro `categoryId` pode aceitar uma lista delimitada por vírgulas de valores de cada categoria que contenha esse produto. Os novos valores de `categoryId` não substituem os valores existentes, mas em vez disso são anexados durante a atualização da entidade (limite de 250 caracteres).
 
-Em geral, a mbox de informações de exibição pode ser semelhante ao seguinte exemplo, se você estiver usando a at.js 1.** xwith  `mboxCreate`.
+Em geral, a mbox de informações de exibição é semelhante ao seguinte exemplo, se você estiver usando a at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Em geral, a mbox de informações de exibição pode ser semelhante ao seguinte 
 
 
 
-Todos os atributos de parâmetro de entidade distinguem entre maiúsculas e minúsculas.
+Todos os atributos de parâmetro de entidade fazem distinção entre maiúsculas e minúsculas.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -102,7 +102,7 @@ Exemplo: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Suporta valores múltiplos (lista separada por vírgulas).
 
-Categoria da página atual. Isto pode incluir várias categorias, como uma subseção cardigãs (ou seja, mulheres, mulheres:suéteres, mulheres:suéteres:cardigãs). Categorias múltiplas devem ser separadas por vírgulas.
+Categoria da página atual. A entity.categoryID pode incluir várias categorias, como uma subseção cardigãs (ou seja, mulheres, mulheres:suéteres, mulheres:suéteres:cardigãs). Várias categorias devem ser separadas por vírgulas.
 
 `categoryId` é limitada a 250 caracteres.
 
@@ -118,7 +118,7 @@ Exemplos:
 
 Para Recommendations baseadas em categorias, uma vírgula é usada para separar valores de categorias. Quaisquer valores separados por vírgulas se tornam categorias. Você também pode definir subcategorias usando um separador diferente, como dois pontos (:), para separá-las dos valores de categoria.
 
-Por exemplo, no seguinte código, a categoria Mulheres (Womens) está dividida em várias subcategorias:
+Por exemplo, no código a seguir, a categoria Mulheres é dividida em várias subcategorias:
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ Exibe o nível de inventário do item.
 
 Exemplo: `'entity.inventory=1'`
 
-**Tratamento de atributo de inventário vazio:** para a entrega, se você tiver uma regra de inclusão, regra de coleção ou uma configuração de critérios com `entity.inventory` > 0 ou `entity.inventory` = 0 e o produto não tiver o inventário definido, o [!DNL Target] avaliará isso como TRUE e incluirá os produtos com inventário não definido. Isso foi feito por padrão, de modo que os produtos com inventário não sejam exibidos em resultados da recomendação.
+**Manipulação de atributo de inventário vazio:** para a entrega, se você tiver uma regra de inclusão, regra de coleta ou configuração de critérios com  `entity.inventory` > 0 ou  `entity.inventory` = 0 e o produto não tiver o inventário definido, o  [!DNL Target] avaliará esse valor como TRUE e incluirá os produtos em que o inventário não foi definido. Como resultado, os produtos com inventário não definido são exibidos nos resultados da recomendação.
 
 Da mesma forma, se você tiver uma regra de exclusão global com `entity.inventory` = 0 e `entity.inventory` não definido, o [!DNL Target] avalia essa regra como TRUE e exclui o produto.
 
-**Problema conhecido:** a Pesquisa de produto está inconsistente com a entrega para atributos de valor do inventário não definidos. Por exemplo, para uma regra com `entity.inventory` = 0, a Pesquisa de produto não exibirá produtos em que o valor de inventário não está definido.
+**Problema conhecido:** a Pesquisa de produto está inconsistente com a entrega para atributos de valor do inventário não definidos. Por exemplo, para uma regra com `entity.inventory` = 0 , a Pesquisa de produto não exibe produtos em que o valor do inventário não está definido.
 
 ### entity.value
 
@@ -194,12 +194,12 @@ Exemplo: `'entity.margin=1.00'`
 
 Suporta vários valores (matriz JSON).
 
-Defina até 100 variáveis personalizadas que oferecem informações adicionais sobre o item. É possível especificar qualquer nome de atributo não utilizado para cada atributo personalizado. Por exemplo, é possível criar um atributo personalizado chamado `entity.genre` para especificar um livro ou filme. Ou, um vendedor de ingressos pode criar atributos para o local onde um evento será realizado ou para um artista secundário, como uma equipe visitante em um evento esportivo ou um show de abertura em um concerto.
+Defina até 100 variáveis personalizadas que oferecem informações adicionais sobre o item. É possível especificar qualquer nome de atributo não utilizado para cada atributo personalizado. Por exemplo, você pode criar um atributo personalizado chamado `entity.genre` para definir um livro ou filme. Um vendedor de ingressos pode criar atributos para o local de evento de um artista secundário, como uma equipe visitante em um evento esportivo ou um show de abertura em um concerto.
 
 Restrições:
 
 * Não é possível usar nomes de atributos de entidade predefinidos para atributos de entidade personalizados.
-* O atributo entity.environment é reservado pelo sistema e não pode ser usado para atributos de entidade personalizados. Tentativas de enviar entity.environment usando targetPageParams, feed ou API serão ignoradas.
+* O atributo entity.environment é reservado pelo sistema e não pode ser usado para atributos de entidade personalizados. Tentativas de enviar entity.environment usando targetPageParams, feed ou API são ignoradas.
 
 Exemplos:
 
@@ -223,7 +223,7 @@ Usado para impedir que uma chamada de mbox incremente contadores de dados compor
 
 Exemplo: `'entity.event.detailsOnly=true'`
 
-Nos exemplos abaixo, a primeira chamada da mbox atualizará o catálogo e os dados comportamentais. A segunda chamada da mbox atualizará apenas o catálogo.
+Nos exemplos abaixo, a primeira chamada de mbox atualiza o catálogo e os dados comportamentais. A segunda chamada de mbox atualiza somente o catálogo.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
