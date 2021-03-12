@@ -1,5 +1,5 @@
 ---
-keywords: Target Standard, Recommendations, Target Premium, Personalização automatizada, direcionamento automático, direcionamento automático, permissões, o que é o adobe target;
+keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
 description: Conheça os conceitos básicos do Adobe Target Standard e do Adobe Target Premium. O Target Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: O que é o Target?
@@ -37,7 +37,7 @@ O Target inclui os seguintes recursos premium:
 
 ### Personalização automatizada
 
-[A Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) oferece algoritmos avançados de aprendizado automatizado, que impulsionam experiências personalizadas e taxas de conversão aprimoradas para experiências digitais.
+[O Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) fornece algoritmos avançados de aprendizado automatizado, que impulsionam experiências personalizadas e taxas de conversão aprimoradas para experiências digitais.
 
 [!UICONTROL A ] Personalização automatizada registra a atividade do visitante no site, criando um perfil de visitantes para que o conteúdo possa ser direcionado para visitantes semelhantes. O AP acompanha as respostas ao conteúdo, tanto para indivíduos quanto para a população como um todo. O AP usa abordagens de modelagem sofisticadas para automaticamente direcionar cada indivíduo. A AP considera tudo o que se sabe sobre cada visitante.
 
