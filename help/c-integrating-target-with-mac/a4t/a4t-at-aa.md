@@ -4,10 +4,10 @@ description: Saiba como criar atividades de Alocação automática e Direcioname
 title: O A4T suporta atividades de alocação automática e direcionamento automático?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 2%
 
 ---
 
@@ -96,3 +96,11 @@ Algumas limitações e observações se aplicam às atividades de [!UICONTROL Al
 * Ao usar [!DNL Analytics] como fonte de dados para uma atividade de [!UICONTROL Direcionamento automático], as sessões terminam após seis horas terem decorrido. Conversões que ocorrem após seis horas não são contadas.
 
 Para obter mais informações, consulte [Attribution models and lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) no *Analytics Tools Guide*.
+
+## Tutorial: Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático {#tutorial}
+
+Embora os recursos de análise avançada estejam disponíveis em [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], algumas modificações no painel padrão [!UICONTROL Analytics for Target] são necessárias para interpretar corretamente as atividades de Direcionamento automático. Essas modificações são necessárias devido a diferenças entre as atividades de experimentação (A/B manual e [!UICONTROL Alocação automática]) e as atividades de personalização ([!UICONTROL Direcionamento automático]).
+
+Este tutorial o orienta pelas modificações recomendadas para analisar atividades de [!UICONTROL Direcionamento automático] no [!UICONTROL Workspace].
+
+Para obter mais informações, consulte [Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) em *Adobe Target Tutorials*.
