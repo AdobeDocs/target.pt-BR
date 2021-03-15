@@ -1,12 +1,12 @@
 ---
-description: O que significam diferentes termos usados no Adobe Target? Encontre definições de termos comuns para ajudá-lo a obter mais Públicos alvos.
-title: Onde posso encontrar termos e definições usados no Público alvo?
-feature: Overview
+description: O que significam termos diferentes usados no Adobe Target? Encontre definições de termos comuns para ajudá-lo a obter mais do Target.
+title: Onde posso encontrar termos e definições usados no Target?
+feature: Visão geral
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 97%
+source-wordcount: '2472'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ A [!DNL at.js] é uma nova biblioteca de implementação do [!DNL Adobe Target],
 
 **público-alvo**
 
-Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criada.
+Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds no meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criada.
 
 **Alocação automática**
 
@@ -241,6 +241,18 @@ Transmitido na página, não no URL. Parâmetros são utilizados para enviar dad
 
 O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade
 
+## N
+
+**Novo visitante**
+
+Um visitante é incluído no segmento Novos visitantes se uma das seguintes condições for atendida:
+
+* É a primeira vez que o visitante acessa o site.
+* É a primeira vez que o visitante acessa o site desde a limpeza dos cookies.
+* É a primeira vez que o visitante acessa o site desde que o [Tempo de vida do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) expirou.
+
+Para obter mais informações, consulte [Como são contadas as métricas de Novos visitantes e Visitantes recorrentes?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) em Perguntas e respostas sobre relatórios. Compare com &quot;Visitante recorrente&quot; abaixo.
+
 ## O   {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **objetivo**
@@ -278,6 +290,12 @@ Redireciona o visitante para uma página da Web diferente. Use este Redirecionad
 **parâmetro de URL de referência**
 
 Envia os valores à mbox da página de destino como valores e parâmetros de URL de referência. Utilize-os para definir metas para a origem do visitante, por exemplo.
+
+**Visitante Recorrente**
+
+O visitante é incluído no segmento Visitantes recorrentes se o usuário tiver visitado o site anteriormente, permanecer no local por pelo menos 30 minutos e retornar ao site com os mesmos cookies. Contanto que um visitante retorne dentro da duração do perfil, ele será um visitante recorrente.
+
+Para obter mais informações, consulte [Como as métricas de Novos visitantes e Visitantes recorrentes são contadas](/help/c-reports/reporting-frequently-asked-questions.md#methodology) em Perguntas e respostas sobre relatórios. Compare com &quot;Novo visitante&quot; acima.
 
 **função**
 
@@ -333,7 +351,7 @@ Todas as página de referência de URL e variáveis de página são automaticame
 
 **visit**
 
-Às vezes, uma visita é chamada de sessão. Uma visita termina após 30 minutos de inatividade, o que significa que pelo menos 30 minutos se passaram entre as solicitações do servidor e o Público alvo.
+Às vezes, uma visita é chamada de sessão. Uma visita termina após 30 minutos de inatividade, o que significa que pelo menos 30 minutos se passaram entre as solicitações do servidor para o Target.
 
 **visitante**
 
