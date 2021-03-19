@@ -4,10 +4,10 @@ description: Encontre respostas para as perguntas mais frequentes sobre a exibi�
 title: Encontrar respostas para perguntas sobre como visualizar relatórios com o A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
+source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 40%
+source-wordcount: '2526'
+ht-degree: 39%
 
 ---
 
@@ -105,20 +105,24 @@ O usuário volta em 1 de março e vê uma nova atividade, ABC. O usuário també
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 1 |
+| XYZ | 3 | 15 | 3 | 1 |
+| ABC | 3 | 5 | 3 | 3 |
 
 O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra. A expiração de 90 dias desse valor de eVar é redefinida em 1 de abril, portanto, você vê isso nos relatórios. E todas as atividades do Target que o usuário vê recebem o crédito pela conversão, mas o número total de conversões é deduplicado:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
-| ABC | 1 | 10º | 2 | 3 | 3 |
+| XYZ | 3 | 20 | 4 | 3 | 3 |
+| ABC | 3 | 10º | 2 | 3 | 3 |
 | Total | 2 | 20º | 3 | 3 | 3 |
 
 Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para relatórios [!DNL Target], como você não está colocando uma atividade [!DNL Target] em relação a outra atividade para ver qual é mais bem sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única. Não é possível que um usuário veja experiências diferentes na mesma atividade para que você não tenha que se preocupar com a contaminação cruzada do crédito do pedido.
 
 Para obter mais informações, consulte [Variáveis de conversão (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) no *Guia de administração do Analytics*.
+
+## Por que continuo vendo mais impressões depois que minha atividade é desativada? {#deactivated}
+
+Uma fonte de impressões para um relatório de atividade do A4T após a desativação pode ser o tráfego do modo de QA. O Target normalmente não registra eventos para uma atividade desativada, mas o Analytics não tem uma maneira de saber que as impressões estão vindo do modo de QA. Quando o relatório de atividade do Target é recuperado do Analytics, ele mostra essas impressões. Isso está funcionando conforme o projetado, pois os clientes precisam de uma maneira de verificar os relatórios do A4T, mesmo que a atividade não esteja ativa usando o modo de QA.
 
 ## Por que o Analytics e o Analytics for Target (A4T) calculam números para a métrica de visitantes únicos de maneira diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
