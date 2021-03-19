@@ -5,9 +5,9 @@ title: Quais são os vários caracteres, tamanho e outros limites no Adobe Targe
 feature: Solução de problemas
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 64%
 
 ---
@@ -218,11 +218,11 @@ Os seguintes limites de tamanho se aplicam a ofertas:
 
 ## Scripts de perfil
 
-* **Limite recomendado de scripts** de perfil ativos: 300
+* **Limite recomendado de scripts de perfil ativos (aqueles que estão ativados)**: 300
 
 * **Limite recomendado do total de scripts de perfil por conta**: 2.000
 
-* **Recomendações para limitar a complexidade** do script de perfil: Os scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte [Práticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) em *Atributos do perfil*.
+* **Recommendations para limitar a complexidade** do script de perfil: Os scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte [Práticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) em *Atributos do perfil*.
 
 ## Propriedades
 
