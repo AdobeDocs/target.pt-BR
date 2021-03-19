@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com adições importantes e alterações na 
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 translation-type: tm+mt
-source-git-commit: 6a1f51cba34038abc3c73fa5cf88bfab183dfb28
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '3767'
+source-wordcount: '3790'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,8 @@ Esta página lista alterações significativas feitas na documentação do produ
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 12 de março de 2021 | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Adição do seguinte novo tutorial:<ul><li>Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático</li></ul> |
+| 19 de março | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Adição das seguintes perguntas frequentes:<ul><li>Por que continuo vendo mais impressões depois que minha atividade é desativada?</li></ul> |
+| 12 de março | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Adição do seguinte novo tutorial:<ul><li>Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático</li></ul> |
 | 9 de março | [Limites](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Atualização dos limites de tamanho de oferta permitidos.</li><li>Limite de caracteres corrigido para o parâmetro categoryId .</li></ul> |
 |  | [Nós de borda permitidos no Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Atualização de [!DNL Target] endereços IP de borda. |
 |  | [Atributos da entidade](/help/c-recommendations/c-products/entity-attributes.md) | Adição de texto para indicar que entity.value deve estar em formato decimal (por exemplo, 15.99 em vez de 15.99). |
