@@ -5,10 +5,10 @@ title: Quais são os vários caracteres, tamanho e outros limites no Adobe Targe
 feature: Solução de problemas
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 64%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 ### Número de entidades
 
 * A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99.
+* O limite recomendado para melhor desempenho é manter o catálogo com menos de 1.000.000 itens por ambiente e menos de 10.000.000 itens em todos os ambientes.
+* O limite máximo é de 10.000.000 itens por ambiente e 100.000.000 itens em todos os ambientes. Se você tiver entre 1.000.000 e 10.000.000 itens por ambiente, o desempenho da interface [!UICONTROL Pesquisa no catálogo] será afetado. [!DNL Target Recommendations], no entanto, continua a produzir e a apresentar recomendações.
 
 ### Atributos personalizados da entidade
 
