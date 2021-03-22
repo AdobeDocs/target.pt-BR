@@ -1,12 +1,12 @@
 ---
-keywords: qa;pré-visualização;links de pré-visualização;adobe público alvo;público alvo;qa;;links de ;adobe ;
-description: Saiba como usar os URLs de QA do Adobe Target para realizar um controle de qualidade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que fica segmentado a partir de dados de atividade ativos.
-title: Como faço Atividades de QA?
-feature: Activities
+keywords: qa, visualização, links de visualização, adobe target, target
+description: Saiba como usar os URLs de controle de qualidade do Adobe Target para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
+title: Como faço para garantir a qualidade das atividades?
+feature: Atividades
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1539'
 ht-degree: 79%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 79%
 
 # Controle de qualidade da atividade {#activity-qa}
 
-Use URLs de QA em [!DNL Adobe Target] para realizar um controle de qualidade de atividade completo e fácil com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que permaneça segmentado a partir de dados de atividade ativos.
+Use URLs de controle de qualidade em [!DNL Adobe Target] para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
 
 ## Visão geral {#section_11B761A522A14E61978275772210A4C2}
 
@@ -23,12 +23,12 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 * Links para compartilhar com membros da equipe que nunca mudam ou exigem regeneração, independentemente das atualizações feitas nas experiências ou atividades. Isso permite testar totalmente suas atividades em toda a jornada do usuário.
 * As condições do público-alvo são respeitadas opcionalmente, para que os profissionais de marketing possam testar os critérios de direcionamento ou ignorá-los para garantir a qualidade da aparência das experiências sem precisar atender a essas condições.
 * Os relatórios de controle de qualidade são capturados para que os profissionais de marketing possam confirmar que as métricas estão sendo incrementadas conforme esperado e os dados do relatório de controle de qualidade são mantidos separados dos relatórios de produção (para relatórios não-A4T).
-* A capacidade de pré-visualização de uma experiência isoladamente ou em conjunto com outras atividades ativas que satisfazem os critérios do delivery (solicitação de página/Público alvo/audiência).
+* A capacidade de visualizar uma experiência de forma isolada ou em conjunto com outras atividades ativas que satisfaçam os critérios de entrega (página/solicitação do Target/público-alvo).
 * A habilidade de garantir a qualidade de toda a jornada do usuário. Você pode acessar seu site uma vez com o link de controle de qualidade e, em seguida, navegar pelo site inteiro enquanto estiver no Controle de qualidade da atividade. Você permanece no Controle de qualidade da atividade até terminar a sessão ou até usar o  [Bookmarklet de controle de qualidade do Target](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do controle de qualidade da atividade. Esse recurso é particularmente útil se você tiver uma atividade abrangendo várias páginas da Web.
 
    >[!NOTE]
    >
-   >Isso é verdadeiro para implementações do at.js com a versão 2.*mais* tarde. Para at.js 1.*implementações* xand mbox.js, isso só é verdade se o navegador do visitante não bloquear cookies de terceiros.
+   >Isso é verdadeiro para implementações da at.js com a versão 2.** xor later. Para at.js 1.** Isso é verdadeiro somente se o navegador do visitante não bloquear cookies de terceiros.
 
 ## Acesso e compartilhamento de um URL de controle de qualidade   {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -44,7 +44,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
       Se essa configuração for colocada na posição &quot;off&quot;, você verá as experiências ao clicar nos links, independente do fato de você se qualificar ou não. Ao executar o controle de qualidade, você pode alternar entre exigir ou não exigir que o direcionamento do público-alvo seja respeitado.
 
-   * **Mostrar conteúdo padrão para todas as outras Atividades:** Se essa opção for alternada para a posição &quot;ligado&quot;, o conteúdo padrão será exibido para todas as outras atividades (por exemplo, a pré-visualização será exibida isoladamente sem considerar todas as outras atividades ativas na mesma página/[!DNL Target] solicitação.
+   * **Mostrar conteúdo padrão para todas as outras atividades:** se essa opção for alternada para a posição &quot;ativada&quot;, o conteúdo padrão será exibido para todas as outras atividades (por exemplo, a visualização será exibida sem considerar todas as outras atividades ativas na mesma página/[!DNL Target] solicitação.
 
       Se essa configuração for configurada como &quot;desativada&quot;, considere o seguinte:
 
@@ -58,7 +58,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
    Cada URL de link de atividade (para Exp A, Exp B etc.) permite iniciar a jornada do usuário a partir da experiência correspondente. Você pode clicar no URL gerado para uma experiência e prosseguir com a navegação normal do site para ver experiências em várias páginas (se houver várias páginas). Apenas um URL é gerado por experiência, mesmo que a experiência abranja várias páginas (teste de modelo ou teste de várias páginas).
 
-   Você pode navegar pelo site para ver as outras páginas porque o Controle de qualidade da atividade é aderente. Observe que isso é verdadeiro para implementações do at.js com a versão 2.*mais* tarde. Para at.js 1.*implementações* xand mbox.js, isso só é verdade se o navegador do visitante não bloquear cookies de terceiros.
+   Você pode navegar pelo site para ver as outras páginas porque o Controle de qualidade da atividade é aderente. Observe que isso é verdadeiro para implementações da at.js com a versão 2.** xor later. Para at.js 1.** Isso é verdadeiro somente se o navegador do visitante não bloquear cookies de terceiros.
 
 1. Para ver os relatórios gerados a partir dos URLs do link de atividade, clique na página **[!UICONTROL Relatórios]** da atividade, clique no ícone **[!UICONTROL Configurações]** (![](assets/icon_gear.png)) e selecione **[!UICONTROL Modo de controle de qualidade]** na lista suspensa **[!UICONTROL Ambiente]**.
 
@@ -75,22 +75,22 @@ O controle de qualidade da atividade permite que você teste completamente suas 
    Você também pode forçar a sua saída manualmente carregando uma página em seu site com o parâmetro `at_preview_token` com um valor vazio (por exemplo, `https://www.mysite.com/?at_preview_token=`).
 
 * Se você tiver especificado “URL é” ao criar os refinamentos da atividade [no Criador baseado em formulário](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [opções de entrega da página no Visual Experience Composer)](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), a URL de QA não funcionará porque o QA da atividade adiciona parâmetros de URL. Para resolver esse problema, clique no URL do Controle de qualidade para acessar seu site, remover os parâmetros anexados do URL e, em seguida, carregar o novo URL.
-* Se você tiver o at.js 1.*x*, ou mbox.js, o modo de QA da Atividade não ficará fixo se você usar o Safari ou outro navegador que bloqueia cookies de terceiros. Nesses casos, você deve adicionar os parâmetros de pré-visualização a cada URL para o qual você navega. O mesmo se aplica se você implementou [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
+* Se você tiver o at.js 1.*x*, ou mbox.js, o modo de QA da atividade não será aderente se você usar o Safari ou outro navegador que bloqueia cookies de terceiros. Nesses casos, você deve adicionar os parâmetros de visualização a cada URL para o qual você navega. O mesmo é verdadeiro se você implementou [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * Se uma atividade usar vários públicos-alvo de experiência (por exemplo, um site dos EUA e Reino Unido incluídos na mesma atividade), os links de controle de qualidade não serão gerados para as quatro combinações (Experiência A/Site dos EUA, Experiência A/Site do Reino Unido, Experiência B/Site dos EUA, Experience B/Site do Reino Unido). Apenas dois links de Controle de qualidade (Experiência A e Experiência B) são criados e os usuários devem se qualificar para o público-alvo apropriado para ver a página. Uma pessoa do Controle de qualidade do Reino Unido não conseguiu ver o site dos EUA.
 * Todos os parâmetros `at_preview` e valores já estão codificados com URL. Na maioria das vezes, tudo funciona conforme o esperado; no entanto, alguns clientes podem ter balanceadores de carga ou servidores da Web que tentam codificar os parâmetros de cadeia de caracteres de consulta mais uma vez.
 
    Devido a essa codificação dupla, quando tentamos decodificar o `at_preview_token`, o Target não pode extrair o valor do token correto, resultando em uma visualização que não funciona.
 
-   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de pré-visualização sejam incluir na lista de permissões para que esses valores não sejam transformados de nenhuma forma.
+   Recomendamos que você converse com sua equipe de TI para garantir que todos os parâmetros de visualização sejam incluir na lista de permissões para que esses valores não sejam transformados de forma alguma.
 
-   A tabela a seguir lista os parâmetros que podem ser incluir na lista de permissões em seu domínio:
+   A tabela a seguir lista os parâmetros que podem ser incluir na lista de permissões no seu domínio:
 
    | Parâmetro | Tipo | Valor | Descrição |
    |--- |--- |--- |--- |
    | `at_preview_token` | Sequência de caracteres criptografada | Obrigatório; sem valor padrão | Uma entidade criptografada que contém a lista de IDs de campanha que podem ser executadas no modo QA. |
    | `at_preview_index` | String | Empty | O formato do parâmetro é `<campaignIndex>` ou `<campaignIndex>_< experienceIndex>`<br>Ambos os índices começam com 1. |
    | `at_preview_listed_activities_only` | Booleano (true/false) | Valor padrão: false | Se &quot;true&quot;, todas as campanhas especificadas nos parâmetros `at_preview_index` serão processadas.<br>Se &quot;false&quot;, todas as campanhas da página serão processadas, mesmo que não tenham sido especificadas no token de visualização. |
-   | `at_preview_evaluate_as_true_audience_ids` | String | Vazio | Lista separada por sublinhado (&quot;_&quot;) de segmentId-s que deve sempre (no nível de definição de metas e relatórios) ser avaliada como &quot;true&quot; no escopo da solicitação [!DNL Target]. |
+   | `at_preview_evaluate_as_true_audience_ids` | String | Empty | Lista de segmentId-s separada por sublinhado (&quot;_&quot;) que deve sempre (no nível de direcionamento e relatório) ser avaliada como &quot;true&quot; no escopo da solicitação [!DNL Target]. |
    | `_AT_Debug` | String | Janela ou console | Logon no console ou nova janela. |
    | `adobe_mc_ref` |  |  | Passa o URL de referência da página padrão para a nova página. Quando usado com a versão 2.1 (ou posterior) do `AppMeasurement.js`, o [!DNL Adobe Analytics] usa esse valor de parâmetro como o URL de referência na nova página. |
    | `adobe_mc_sdid` |  |  | Passa a [!DNL Supplemental Data Id] (SDID) e a [!DNL Experience Cloud Org Id] da página padrão para a nova página, para que o Analytics para Target (A4T) &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página. |
