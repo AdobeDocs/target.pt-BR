@@ -5,10 +5,10 @@ title: O que está incluído em cada versão da at.js?
 feature: 'at.js '
 role: Desenvolvedor
 translation-type: tm+mt
-source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 83%
+source-wordcount: '4159'
+ht-degree: 82%
 
 ---
 
@@ -22,6 +22,14 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >A equipe do Target é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no catálogo [!DNL Launch] como atualizações. Para obter mais informações, consulte [Atualização de extensão](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) no *Guia do Usuário do Experience Platform Launch*.
+
+## at.js 2.4.1 (23 de março de 2021)
+
+Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
+
+* Correção de um problema em que targetPageParams era incluído em solicitações de mbox. targetPageParams deve ser incluído somente nas solicitações pageLoad . (TNT-40247)
+* Janela otimizada e global de documentos que fazem referência à extensão [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Atualização das dependências de build e teste para corrigir vulnerabilidades de segurança.
 
 ## at.js 2.4.0 (14 de janeiro de 2021)
 
