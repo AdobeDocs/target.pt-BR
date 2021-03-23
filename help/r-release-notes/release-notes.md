@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos estão incluídos na versão atual?
 feature: ' Notas de versão '
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '664'
 ht-degree: 36%
 
 ---
@@ -30,7 +30,6 @@ Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprim
 
 * Correção de um problema em que targetPageParams era incluído em solicitações de mbox. targetPageParams deve ser incluído somente nas solicitações pageLoad . (TNT-40247)
 * Janela otimizada e global de documentos que fazem referência à extensão [!DNL Adobe Experience Platform Launch]. (TNT-37124)
-* Atualização das dependências de build e teste para corrigir vulnerabilidades de segurança.
 
 ## Alterações de endereço IP para servidores de processamento de feed do Recommendations (16 de março de 2021)
 
