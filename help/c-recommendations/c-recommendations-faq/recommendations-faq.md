@@ -4,10 +4,10 @@ description: Exiba uma lista de perguntas e respostas frequentes sobre as ativid
 title: Onde posso encontrar perguntas e respostas sobre o Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 49%
+source-wordcount: '2377'
+ht-degree: 46%
 
 ---
 
@@ -26,45 +26,21 @@ No momento, não há nenhuma funcionalidade disponível que permita que os clien
 
 O intervalo de tempo e os resultados variam, dependendo de como os itens são atualizados.
 
-### Atributos de item atualizados via mbox ou API
-
-* O Recommendations é atualizado em 15 minutos.
-* Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.
-* A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).
-
-### Atributos de item atualizados por feed
-
-* O Recommendations é atualizado após a assimilação do feed (de 2 a 8 horas).
-* Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.
-* A Pesquisa de catálogo é atualizada após a assimilação de feed (de 2 a 8 horas) e após o índice de catálogo subsequente (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.
-
-### Item excluído do catálogo por meio da interface do usuário do Target ou da API
-
-* O Recommendations é atualizado em 15 minutos.
-* Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.
-* A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).
-
-### Item adicionado ao catálogo por meio de mbox ou API
-
-* Recommendations são atualizados após a execução do algoritmo. As execuções de algoritmo são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias.
-* As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.
-* As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.
-* A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).
-
-### Item adicionado ao catálogo por meio de feed
-
-* O Recommendations é atualizado depois que o feed é assimilado (2 a 8 horas). As execuções subsequentes de algoritmos são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias. O Recommendations geralmente é atualizado dentro de 2 a 32 horas no total.
-* As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.
-* As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.
-* A Pesquisa no catálogo é atualizada após a assimilação do feed (de 2 a 8 horas) e após o índice do catálogo (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.
-
-### Alterações adicionais
+| Fonte | Detalhes |
+| --- | --- |
+| Atributos de item atualizados via mbox ou API | <ul><li>O Recommendations é atualizado em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
+| Atributos de item atualizados por feed | <ul><li>O Recommendations é atualizado após a assimilação do feed (de 2 a 8 horas).</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa de catálogo é atualizada após a assimilação de feed (de 2 a 8 horas) e após o índice de catálogo subsequente (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.</li></ul> |
+| Item excluído do catálogo por meio da interface do usuário do Target ou da API | <ul><li>O Recommendations é atualizado em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
+| Item adicionado ao catálogo por meio de mbox ou API | <ul><li>Recommendations são atualizados após a execução do algoritmo. As execuções de algoritmo são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias.</li><li>As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
+| Item adicionado ao catálogo por meio de feed | <ul><li>O Recommendations é atualizado depois que o feed é assimilado (2 a 8 horas). As execuções subsequentes de algoritmos são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias. O Recommendations geralmente é atualizado dentro de 2 a 32 horas no total.</li><li>As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após a assimilação do feed (de 2 a 8 horas) e após o índice do catálogo (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.</li></ul> |
 
 Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou da mbox, as seguintes alterações são refletidas em menos de 60 minutos:
 
-* Atributos de item retornados no modelo de Design.
-* Atributos de item usados em regras de exclusão globais que impedem a inclusão do item em recomendações retornadas.
-* Atributos de item usados nas regras de inclusão dentro dos critérios que afetam se o item está incluído ou excluído em recomendações retornadas.
+* Se um item tiver sido excluído anteriormente, mas agora deve ser incluído, ele será incluído na próxima execução do algoritmo (12 a 24 horas).
+
+   Isso ocorre porque o Target aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
+
+* Se um item foi incluído anteriormente, mas agora deve ser excluído, ele será excluído de acordo com os &quot;Atributos de item atualizados..&quot;. linha de tempo discutida acima, dependendo da fonte de feed (15 minutos por mbox/API ou 12 a 24 horas por feed).
 
 As seguintes alterações não são refletidas até que ocorra a execução do próximo algoritmo (dentro de 12 a 24 horas):
 
