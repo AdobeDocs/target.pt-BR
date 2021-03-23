@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Exiba uma lista de perguntas e respostas frequentes sobre as atividades do Adobe Target Recommendations.
-title: Onde posso encontrar perguntas e respostas sobre as recomendações do Target?
+title: Onde posso encontrar perguntas e respostas sobre o Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e4d7f9d6bd42343c5c5e591853a4fc70d1f49ee7
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 57%
+source-wordcount: '2320'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,43 @@ No momento, não há nenhuma funcionalidade disponível que permita que os clien
 
 ## Quanto tempo leva para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?
 
-Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou da mbox, as seguintes alterações serão refletidas em menos de 60 minutos:
+O intervalo de tempo e os resultados variam, dependendo de como os itens são atualizados.
+
+### Atributos de item atualizados via mbox ou API
+
+* O Recommendations é atualizado em 15 minutos.
+* Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.
+* A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).
+
+### Atributos de item atualizados por feed
+
+* O Recommendations é atualizado após a assimilação do feed (de 2 a 8 horas).
+* Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.
+* A Pesquisa de catálogo é atualizada após a assimilação de feed (de 2 a 8 horas) e após o índice de catálogo subsequente (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.
+
+### Item excluído do catálogo por meio da interface do usuário do Target ou da API
+
+* O Recommendations é atualizado em 15 minutos.
+* Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.
+* A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).
+
+### Item adicionado ao catálogo por meio de mbox ou API
+
+* Recommendations são atualizados após a execução do algoritmo. As execuções de algoritmo são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias.
+* As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.
+* As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.
+* A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).
+
+### Item adicionado ao catálogo por meio de feed
+
+* O Recommendations é atualizado depois que o feed é assimilado (2 a 8 horas). As execuções subsequentes de algoritmos são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias. O Recommendations geralmente é atualizado dentro de 2 a 32 horas no total.
+* As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.
+* As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.
+* A Pesquisa no catálogo é atualizada após a assimilação do feed (de 2 a 8 horas) e após o índice do catálogo (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.
+
+### Alterações adicionais
+
+Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou da mbox, as seguintes alterações são refletidas em menos de 60 minutos:
 
 * Atributos de item retornados no modelo de Design.
 * Atributos de item usados em regras de exclusão globais que impedem a inclusão do item em recomendações retornadas.
@@ -40,7 +76,7 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
 
 >[!NOTE]
 >
->Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo; A Pesquisa no catálogo está atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site reflete as atualizações nos prazos listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
+>Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo; A Pesquisa no catálogo está atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site reflete as atualizações nos intervalos de tempo listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
 
 ## O que devo fazer se os caracteres especiais estão quebrando a matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -160,7 +196,7 @@ Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao p�
 
 ## Qual é o tamanho máximo de um arquivo CSV para um upload de feed?   {#section_20F1AF4839A447B9889B246D6E873538}
 
-Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, a Adobe recomenda limitar o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload de arquivo. Se o tamanho do arquivo exceder 1 GB, idealmente ele poderá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na página [Limitações do Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, o Adobe recomenda limitar o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload de arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele poderá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na página [Limitações do Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Posso excluir dinamicamente uma entidade? {#exclude}
 
@@ -178,7 +214,7 @@ Para excluir `entityIds`, anexe o token `&excludes=${mbox.excludedIds}` ao url d
 
 Por padrão, esse recurso é ativado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
 
-## O que a resposta NO_CONTENT às vezes retornou no rastreamento de conteúdo do Recommendations significa?
+## O que significa a resposta NO_CONTENT às vezes retornada no rastreamento de conteúdo do Recommendations?
 
 NO_CONTENT é retornado quando as recomendações não estão disponíveis para o algoritmo solicitado e a combinação de chaves. De modo geral, essa situação ocorre quando os backups são desativados para o algoritmo e uma ou mais das opções a seguir também são verdadeiras:
 
