@@ -4,10 +4,10 @@ description: Exiba uma lista de endereços IP usados nos servidores de processam
 title: Quais endereços IP os servidores de processamento de feed do Recommendations usam?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ Lista de endereços IP usados nos servidores de processamento de feeds [!DNL Ado
 
 [!DNL Target]  As atividades do Recommendations usam os seguintes endereços IP ao acessar os servidores FTP dos clientes:
 
-| Notação CIDR |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237,28
+
+44 232 167,82
+
+52.41.252.2005
 
 [!DNL Target]  As APIs do Recommendations usam os seguintes endereços IP:
 
-| Notação CIDR |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237,28
+
+44 232 167,82
+
+52.41.252.2005
 
 >[!NOTE]
 >
