@@ -4,10 +4,10 @@ description: Exiba uma lista de perguntas e respostas frequentes sobre as ativid
 title: Onde posso encontrar perguntas e respostas sobre o Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 46%
+source-wordcount: '2694'
+ht-degree: 40%
 
 ---
 
@@ -209,4 +209,19 @@ NO_CONTENT é retornado quando as recomendações não estão disponíveis para 
 * A renderização parcial do modelo está desativada e não há resultados suficientes disponíveis para preencher o modelo.
 
    Essa situação normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtra agressivamente muitos itens dos resultados possíveis. Para evitar situações, ative os backups e não aplique a regra de inclusão aos backups ou use os critérios em sequência com critérios filtrados menos agressivos.
+
+## As recomendações baseadas em itens visualizados recentemente persistem em vários dispositivos para um único visitante? {#persist-across-devices}
+
+Quando um visitante inicia uma sessão, a ID da sessão é vinculada a uma única máquina de borda e um cache de perfil temporário é armazenado nessa máquina de borda. Solicitações subsequentes da mesma sessão leem esse cache de perfil, incluindo itens visualizados recentemente.
+
+Quando a sessão termina (geralmente, quando expira após 30 minutos sem atividade), o estado da sessão, incluindo itens visualizados recentemente, é mantido em um armazenamento de perfil mais permanente na mesma borda geográfica.
+
+As sessões subsequentes de diferentes dispositivos podem acessar esses itens visualizados recentemente, desde que a nova sessão esteja vinculada ao perfil do cliente por meio da mesma ID de Marketing Cloud (MCID), ID de Experience Cloud (ECID) ou CustomerID/mbox3rdPartyId.
+
+Se um visitante tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo não atualizarão os itens visualizados recentemente no outro dispositivo, a menos que os dispositivos sejam forçados a compartilhar a mesma ID de sessão. Há uma possível solução alternativa para o problema, mas [!DNL Target] não oferece suporte direto ao compartilhamento de uma ID de sessão em vários dispositivos. O cliente deve gerenciar esse compartilhamento de ID sozinho.
+
+Observe que esse comportamento ainda ocorre se um visitante estiver ativo em um dispositivo e, em seguida, se tornar ativo no outro dispositivo alguns minutos depois. A primeira sessão do dispositivo não expira por 30 minutos e pode haver até cinco minutos de atraso antes que o estado do perfil seja gravado no estado permanente e processado. Aguarde 35 minutos para que a sessão expire e o perfil seja armazenado ao testar esse comportamento.
+
+Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo atualizarão os itens visualizados recentemente no outro dispositivo, desde que a sessão tenha terminado. Aguarde 35 minutos para a sessão expirar ao testar esse comportamento.
+
 
