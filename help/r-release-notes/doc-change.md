@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com adições importantes e alterações na 
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3911'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ Esta página lista alterações significativas feitas na documentação do produ
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 29 de março | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Novas perguntas frequentes adicionadas:<ul><li>As recomendações baseadas em itens visualizados recentemente persistem em vários dispositivos para um único visitante?</li></ul> |
 | 23 de março | [Notas de versão](/help/r-release-notes/release-notes.md) | Adição das notas de versão para a at.js versão 2.4.1. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição das notas de versão para a at.js versão 2.4.1. |
 |  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Atualização das seguintes perguntas frequentes:<ul><li>Quanto tempo leva para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?</li></ul> |
