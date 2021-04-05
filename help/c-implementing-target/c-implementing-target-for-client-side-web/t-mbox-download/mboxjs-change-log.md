@@ -6,10 +6,10 @@ feature: 'at.js '
 role: Desenvolvedor
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 94%
+source-wordcount: '2411'
+ht-degree: 81%
 
 ---
 
@@ -21,11 +21,11 @@ Esta página mostra as alterações em cada versão da mbox.js.
 >
 >**Fim da vida útil** da mbox.js: A partir de 31 de março de 2021, o  [!DNL Adobe Target] não será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js normalmente falharão e afetarão suas páginas que têm [!DNL Target] atividades em execução ao veicular conteúdo padrão.
 >
->Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
->Recomendamos que todos os usuários mbox.js atualizem para a versão 57 ou posterior. Alguns usuários tiveram problemas de limite de tempo quando `target.js` não pôde ser carregada. A versão 57 corrigiu esse problema. No entanto, se você estiver usando o serviço[!DNL Experience Cloud Visitor ID], a versão 58 ou posterior será necessária.
+>O Adobe recomenda que todos os usuários da mbox.js atualizem para a versão 57 ou posterior. Alguns usuários tiveram problemas de limite de tempo quando `target.js` não pôde ser carregada. A versão 57 corrigiu esse problema. No entanto, se você estiver usando o serviço[!DNL Experience Cloud Visitor ID], a versão 58 ou posterior será necessária.
 
 A maneira como o Target responde a chamadas de sua página dependerá da versão da biblioteca do Target em uso, se a implementação da ID de visitante estiver presente e se a ID de visitante existir. Para obter informações, consulte  [Respostas de chamada do Target pela Versão da biblioteca](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
@@ -41,12 +41,12 @@ A [!DNL mbox.js] versão 63 já está disponível. Para obter mais informações
 
 Os seguintes aprimoramentos e correções estão incluídos na [!DNL mbox.js] versão 63:
 
-* Corrige um problema na geração da SDID ao usar `mboxDefine()` e `mboxUpdate()`. Isso afeta apenas os clientes que possuem a API do visitante na página.
+* Corrige um problema na geração da SDID ao usar `mboxDefine()` e `mboxUpdate()`. Esse problema afeta apenas os clientes que têm a API do visitante na página.
 
 ## mbox.js versão 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Correção de problemas de cintilação nas atividades de redirecionamento quando visualizadas no navegador Google Chrome.
-* Adição da configuração `secureOnly`, que indica se a mbox.js deve usar somente HTTPS ou pode alternar entre HTTP e HTTPS com base no protocolo da página. Esta é uma configuração avançada cujo padrão é Falso.
+* Adição da configuração `secureOnly`, que indica se a mbox.js deve usar somente HTTPS ou pode alternar entre HTTP e HTTPS com base no protocolo da página. Esta configuração é uma configuração avançada cujo padrão é Falso.
 
 ## mbox.js versão 61 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -71,7 +71,7 @@ A mbox.js versão 61 contém os seguintes aprimoramentos:
 
 **Data de lançamento:** 21 de abril de 2016
 
-Por padrão, o conteúdo da página não está oculto. A versão 60 oculta o conteúdo da página somente quando a opção de &quot;criação automática de mbox global&quot; está ativada. Ela usa a propriedade CSS `opacity:0` para ocultação de página em vez de `display:none`. Isso garante a entrega adequada para sites responsivos e se alinha à [!DNL at.js].
+Por padrão, o conteúdo da página não está oculto. A versão 60 oculta o conteúdo da página somente quando a opção de &quot;criação automática de mbox global&quot; está ativada. Ela usa a propriedade CSS `opacity:0` para ocultação de página em vez de `display:none`. Essa propriedade garante a entrega adequada para sites responsivos e se alinha a [!DNL at.js].
 
 É possível ativar o ocultamento do corpo usando duas configurações:
 
@@ -93,18 +93,18 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-A técnica de ocultação de página usa tags de estilo para adicionar e remover estilos. Isso garante que os estilos do site permaneçam inalterados após a execução do código de ocultação da página.
+A técnica de ocultação de página usa tags de estilo para adicionar e remover estilos. Essa técnica garante que os estilos do site permaneçam inalterados após a execução do código de ocultação da página.
 
-**Usuários de DTM:** observe que isso impedirá que você use a opção de importação Automática, pois não há como salvar a configuração acima na interface do Target. Você terá que usar as instruções acima e depois colar o conteúdo na caixa de código da opção de hospedagem personalizada.
+**Usuários de DTM:** essa técnica impede o uso da opção de importação Automática, pois não há como salvar a configuração acima na interface do Target. Você deve usar as instruções acima e, em seguida, colar o conteúdo na caixa de código da opção de hospedagem personalizada.
 
-Além disso, na versão 60, se o arquivo [!DNL visitorAPI.js] estiver presente para o serviço de ID de visitante da Experience Cloud, todas as mboxes serão solicitadas por meio de um terminal AJAX. Isso é necessário porque os métodos de API do visitante são assíncronos. Um benefício dessa abordagem é que a hora de início da renderização é consideravelmente reduzida, porque as solicitações de mbox não bloqueiam a renderização. Contudo, isso significa também que todo o conteúdo de ofertas do [!DNL Target] é executado de forma assíncrona; por isso, todo o código de ofertas deve ser escrito do modo apropriado. As ofertas que contêm `document.write` e outros códigos que partem do pressuposto de que a execução ocorrerá no carregamento da página inicial não serão executadas conforme esperado.
+Além disso, na versão 60, se o arquivo [!DNL visitorAPI.js] estiver presente para o serviço de ID de visitante da Experience Cloud, todas as mboxes serão solicitadas por meio de um terminal AJAX. Esse processo é necessário porque os métodos da API do visitante são assíncronos. Um benefício dessa abordagem é que a hora de início da renderização é consideravelmente reduzida, porque as solicitações de mbox não bloqueiam a renderização. No entanto, essa abordagem também significa que todo o conteúdo de oferta [!DNL Target] é executado de forma assíncrona; portanto, todo o código de oferta deve ser escrito do modo apropriado. As ofertas que contêm `document.write` e outros códigos que partem do pressuposto de que a execução ocorre no carregamento da página inicial não são executadas conforme esperado.
 
 * Chamadas assíncronas V60
 
    Ao usar a v60 com o serviço de identificação de visitante, todas as chamadas de mbox serão feitas de forma assíncrona. Esta é uma alteração na forma como as mboxes sempre funcionaram, portanto, tenha cuidado ao atualizar para esta versão. Revise a seção [Considerações assíncronas](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) da documentação da [!DNL at.js] (a [!DNL at.js] também usa chamadas assíncronas) para compreender alguns riscos.
 * Novos cenários de visitantes podem sofrer cintilação
 
-   Ao usar a v58 até v60 com o serviço de identificação de visitante, as chamadas de mbox aguardarão a definição da identificação do visitante antes de acionar (ou até atingir um tempo limite). Isso acontece no primeiro carregamento da página por um novo visitante.
+   Ao usar a v58 a v60 com o serviço de id de visitante, a mbox chama o aguarde até que a id de visitante seja definida antes de disparar (ou até que um tempo limite tenha ocorrido). Isso acontece no primeiro carregamento da página por um novo visitante.
 
 ## mbox.js versão 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
@@ -131,7 +131,7 @@ A versão 58 da mbox.js garante que o serviço de ID do visitante da Experience 
 
 Essa atualização também corrige um problema ao usar o Analytics como origem de relatórios para o Target que fazia com que um número exagerado de visitantes fosse informado no Analytics no caso de visitas que só incluíam uma página.
 
-A mbox.js define valores de tempo limite para o caso de não haver retorno do serviço de ID de visitante. O tempo limite padrão para o serviço de ID do visitante é de 500 ms (0,5 segundo). Um tempo limite adicional define o limite máximo por quanto tempo a tag `<BODY>` ficará oculta. O padrão é 500 ms (0,5 segundo). O tempo limite pode ser alterado com a inserção do código a seguir antes da referência a mbox.js em cada página:
+A mbox.js define valores de tempo limite para o caso de não haver retorno do serviço de ID de visitante. O tempo limite padrão para o serviço de ID do visitante é de 500 ms (0,5 segundo). Um tempo limite extra define o limite máximo por quanto tempo a tag `<BODY>` fica oculta. O padrão é 500 ms (0,5 segundo). O tempo limite pode ser alterado com a inserção do código a seguir antes da referência a mbox.js em cada página:
 
 ```
 <script> 
@@ -154,9 +154,9 @@ As seguintes alterações foram feitas nesta versão:
 
 * A resposta de mbox global criada automaticamente para o Target Standard não usa mais document. write() ou cria um `<div>` elemento.
 
-   Isso remove o requisito do arquivo mbox.js ser o último item no `<head>` da página. Recomenda-se um QA apurado ao se atualizar para esta nova versão.
+   Essa alteração remove o requisito do arquivo mbox.js ser o último item no `<head>` da página. Recomenda-se um QA apurado ao se atualizar para esta nova versão.
 
-   Essa alteração pode levar a mudanças no comportamento ao se entregar alguns tipos de ofertas. Veja algumas condições específicas que deverão ser levadas em consideração:
+   Essa alteração pode levar a mudanças no comportamento ao se entregar alguns tipos de ofertas. Estas são as condições específicas que devem ser consideradas:
 
    * O conteúdo HTML retornado como parte de uma &quot;oferta de plug-in&quot; não é renderizada corretamente, mas o JavaScript nas ofertas é executado conforme esperado.
    * As ofertas JavaScript que retornam à mbox global podem ter o código JavaScript incorporado na tag `<script>` ou referenciado por um atributo `src`.
@@ -165,7 +165,7 @@ As seguintes alterações foram feitas nesta versão:
 
       `<script src='external-url' async='true'></script>`
 
-      Observe que o atributo `async` tem suporte limitado no Internet Explorer (veja os detalhes aqui: [https://developer.mozilla.org/pt/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)); por isso, exclua os visitantes que usam versões mais antigas do IE dos testes que incluem esses scripts de terceiros.
+      O atributo `async` tem suporte limitado no Internet Explorer (detalhes aqui: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) portanto, você deve excluir visitantes que usam versões do IE mais antigas dos testes que incluem esses scripts de terceiros.
 
 * Houve correção dos problemas relatados na versão 56 devido a alterações na seção de JavaScript extra da mbox.js. Todos os códigos na seção de JavaScript extra já estão disponíveis novamente no escopo global.
 
@@ -197,7 +197,7 @@ A mbox.js versão 57 também inclui correções importantes:
 As seguintes alterações foram feitas nesta versão:
 
 * Alterações do Recommendations Premium para suportar o envio parâmetros para a mbox global
-* Inclui 5 segundos de espera para a chamada de carregamento do target.js. Nos raros casos em que o arquivo não é carregado, a página será renderizada e nenhuma atividade do Target Standard será exibida.
+* Adiciona um tempo limite de 5 segundos à chamada de carregamento target.js. No raro caso de o arquivo não ser carregado, a página é renderizada e nenhuma atividade do Target Standard é exibida.
 * O &quot;JavaScript extra&quot; foi movido para ser executado antes da mbox global
 
    Todas as definições no v56+ têm nomes espaçados. Se houver funções declaradas em &quot;extra JavaScript&quot;, elas deverão ter o prefixo `window`.
@@ -216,7 +216,7 @@ As seguintes alterações foram feitas nesta versão:
 
    As variáveis que devem estar acessíveis globalmente também devem receber o prefixo `window`.
 
-* Adição de um cookie chamado &quot;em-disabled&quot;, que o mbox.js fornece ao usuário se o carregamento de target.js falha durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os usuários com esse cookie não verão o conteúdo de teste nem serão contados nos relatórios de atividades. O restante do conteúdo de ofertas (de campanhas no Target Classic, por exemplo) continuará a ser carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
+* Adição de um cookie chamado &quot;em-disabled&quot;, que o mbox.js fornece ao usuário se o carregamento de target.js falha durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os usuários com esse cookie não verão o conteúdo de teste nem serão contados nos relatórios de atividades. Todo o conteúdo restante da oferta (por exemplo, das campanhas no Target Classic) continua sendo carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
 
 ## mbox versão 55
 
@@ -232,7 +232,7 @@ Modifica a versão 53 com correções do IE.
 
 **Data de lançamento:** 30 de setembro de 2014
 
-Altera a implementação da mbox global para AJAX de document.write. Isso remove o requisito do arquivo mbox.js ser o último item da página `<head>`. Esta versão está disponível somente via API. Os clientes podem baixá-la e usar esse arquivo mbox.js. Alguns sites apresentam cintilação de conteúdo com essa implementação, portanto, valide a integração no site.
+Altera a implementação da mbox global para AJAX de document.write. Essa alteração remove o requisito do arquivo mbox.js ser o último item na seção `<head>` da página. Esta versão está disponível somente via API. Os clientes podem baixá-la e usar esse arquivo mbox.js. Alguns sites apresentam cintilação de conteúdo com essa implementação, portanto, valide a integração no site.
 
 ## mbox versão 53
 
@@ -316,7 +316,7 @@ Adição de suporte inicial ao serviço de ID de visitante compartilhado da Expe
 
 * Correção da limitação de tráfego para que ocorra somente quando a mbox.js estiver ativada
 
-   Esse problema ocorrerá se um cliente tiver uma limitação de tráfego em seu arquivo mbox.js, fazendo com que a configuração de limite não funcione. Isso resultou na atualização da página durante a espera por uma boa resposta dos servidores do Target.
+   Esse problema ocorrerá se um cliente tiver uma limitação de tráfego em seu arquivo mbox.js, fazendo com que a configuração de limite não funcione. Isso resultou na atualização da página enquanto aguardava uma boa resposta dos servidores do Target.
 
 * Correção do plug-in do SiteCatalyst para sempre usar o Ajax fetcher
 
