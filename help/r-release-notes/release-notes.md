@@ -3,14 +3,14 @@ keywords: Notas de versão, novos recursos, versões, atualizações, atualizaç
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na versão atual do Adobe Target, incluindo SDKs, APIs e bibliotecas JavaScript.
 title: Quais novos recursos estão incluídos na versão atual?
 feature: ' Notas de versão '
+exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 8dc0e5084834102e387492eb4668761382e699f3
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 36%
 
 ---
-
 
 # Notas de versão do Target (atual)
 
@@ -18,7 +18,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 >[!IMPORTANT]
 >
->**Fim da vida útil** da mbox.js: Em 31 de março de 2021, o não  [!DNL Adobe Target] será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js normalmente falharão e afetarão suas páginas que têm [!DNL Target] atividades em execução ao veicular conteúdo padrão.
+>**Fim da vida útil** da mbox.js: A partir de 31 de março de 2021, o  [!DNL Adobe Target] não será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js normalmente falharão e afetarão suas páginas que têm [!DNL Target] atividades em execução ao veicular conteúdo padrão.
 >
 >Migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
