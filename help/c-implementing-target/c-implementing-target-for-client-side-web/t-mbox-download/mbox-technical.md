@@ -1,17 +1,17 @@
 ---
 keywords: implementação; mbox.js; biblioteca de manipulação de dom; target. js; visual experience composer; iframe; sites angulares; aplicativos de página única; aplicativo de página única; SPA
-description: Saiba mais sobre a implementação legada da mbox.js do Adobe Target. Migre para o Adobe Experience Platform Web SDK (AEP Web SDK) ou para a versão mais recente do at.js.
-title: O que a biblioteca mbox.js do Público alvo faz?
-feature: at.js
-role: Developer
+description: Saiba mais sobre a implementação herdada da mbox.js do Adobe Target. Migrar para o SDK da Web da Adobe Experience Platform (AEP Web SDK) ou para a versão mais recente da at.js.
+title: O que a biblioteca mbox.js do Target faz?
+feature: 'at.js '
+role: Desenvolvedor
+exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 73%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
-
 
 # O que a mbox.js faz{#what-mbox-js-does}
 
@@ -19,9 +19,9 @@ As informações são fornecidas para ajudar sua equipe técnica a compreender a
 
 >[!IMPORTANT]
 >
->**Fim da vida útil** do mbox.js: Em 31 de março de 2021, não  [!DNL Adobe Target] será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas a partir do mbox.js falharão e afetarão suas páginas que possuem [!DNL Target] atividades sendo executadas com o conteúdo padrão.
+>**Fim da vida útil** da mbox.js: A partir de 31 de março de 2021, o  [!DNL Adobe Target] não será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js normalmente falharão e afetarão suas páginas que têm [!DNL Target] atividades em execução ao veicular conteúdo padrão.
 >
->Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca JavaScript at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implemente o Público alvo para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 O Target Standard requer [!DNL mbox.js] versão 58 ou posterior. Para obter instruções sobre como baixar e atualizar [!DNL mbox.js], consulte [Implementação de mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
