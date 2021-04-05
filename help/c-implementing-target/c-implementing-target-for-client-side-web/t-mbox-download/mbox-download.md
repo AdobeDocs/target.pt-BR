@@ -1,29 +1,29 @@
 ---
-keywords: implementação;mbox;download mbox.js;download api;mbox.js api
-description: Saiba mais sobre a implementação legada da mbox.js do Adobe Target. Migre para o Adobe Experience Platform Web SDK (AEP Web SDK) ou para a versão mais recente do at.js.
-title: Como implementar o Público alvo com mbox.js?
-feature: at.js
-role: Developer
+keywords: implementação; mbox; baixar mbox.js; api de download; api mbox.js
+description: Saiba mais sobre a implementação herdada da mbox.js do Adobe Target. Migrar para o SDK da Web da Adobe Experience Platform (AEP Web SDK) ou para a versão mais recente da at.js.
+title: Como implementar o Target com mbox.js?
+feature: 'at.js '
+role: Desenvolvedor
+exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 47%
 
 ---
 
-
 # Implementação da mbox.js
 
-Para usar [!DNL Adobe Target Standard] ou [!DNL Target Premium], adicione uma linha de código para chamar mbox.js.
+Para usar [!DNL Adobe Target Standard] ou [!DNL Target Premium], adicione uma linha de código para chamar a mbox.js.
 
-Você pode usar qualquer uma das duas referências de biblioteca: o [!DNL Adobe Experience Platform Web SDK] ou [!DNL at.js]. [Os benefícios do at.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) jsexplica as diferenças entre as bibliotecas mbox.js e at.js.
+Você pode usar qualquer uma das duas referências da biblioteca: o [!DNL Adobe Experience Platform Web SDK] ou [!DNL at.js]. [Vantagens da at.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) js explica as diferenças entre as bibliotecas da mbox.js e da at.js.
 
 >[!IMPORTANT]
 >
->**Fim da vida útil** do mbox.js: Em 31 de março de 2021, não  [!DNL Adobe Target] será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas a partir do mbox.js falharão e afetarão suas páginas que possuem [!DNL Target] atividades sendo executadas com o conteúdo padrão.
+>**Fim da vida útil** da mbox.js: A partir de 31 de março de 2021, o  [!DNL Adobe Target] não será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js normalmente falharão e afetarão suas páginas que têm [!DNL Target] atividades em execução ao veicular conteúdo padrão.
 >
->Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca JavaScript at.js antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implemente o Público alvo para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 A única referência para a [!DNL mbox.js] em cada página fornece as bibliotecas necessárias para todas suas atividades. A [!DNL mbox.js] chama o [!DNL Target] de cada página que referencia o arquivo [!DNL mbox.js]. Isso permite que o [!DNL Target] faça o seguinte:
 
