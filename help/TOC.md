@@ -4,9 +4,9 @@ breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídias sociais e outros canais digitais.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 89%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 89%
    + [Acessar o Target na Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Conceitos-chave do Target](c-intro/target-key-concepts.md)
    + [Entender a interface do usuário do Target](/help/c-intro/understand-the-target-ui.md)
-   + Kit de boas-vindas do Adobe Target {#welcome}
+   + Kit de boas-vindas da Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas do Adobe Target](/help/c-intro/target-welcome-kit.md)
       + [Capítulo 1: Introdução](/help/c-intro/target-welcome-kit-1.md)
-      + [Capítulo 2: Resumo do Adobe Target](/help/c-intro/target-welcome-kit-2.md)
+      + [Capítulo 2: Adobe Target de relance](/help/c-intro/target-welcome-kit-2.md)
       + [Capítulo 3: Desenvolver seus testes e ideias de personalização](/help/c-intro/target-welcome-kit-3.md)
       + [Capítulo 4: Dicas para usar o Target](/help/c-intro/target-welcome-kit-4.md)
       + [Capítulo 5: Inspiração para atividades de teste e personalização](/help/c-intro/target-welcome-kit-5.md)
@@ -195,7 +195,7 @@ ht-degree: 89%
          + [Integração herdada do SiteCatalyst com o Test&amp;Target - Perguntas frequentes do A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Públicos-alvo da Experience Cloud](c-integrating-target-with-mac/mmp.md)
-   + [Integrar o Target ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Integração do Target ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integração do Target ao Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Device Co-op da Experience Cloud](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Atividades {#activities}
@@ -311,7 +311,6 @@ ht-degree: 89%
       + [Glossário de variáveis e perfis](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Perguntas frequentes sobre direcionamentos e públicos {#faq-audiences}
       + [Perguntas frequentes sobre direcionamentos e públicos](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiências e ofertas {#experiences}
    + [Visão geral das experiências e ofertas](c-experiences/experiences.md)
    + Visual Experience Composer (VEC)  {#vec}
@@ -395,7 +394,7 @@ ht-degree: 89%
          + [Filtro estático](/help/c-recommendations/c-algorithms/static-value.md)
       + [Usar uma recomendação de backup](c-recommendations/c-algorithms/backup-recs.md)
       + [Trabalhar com atributos de vários valores](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Usar o Adobe Analytics com o Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Usar o Adobe Analytics com Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Projeto {#recommendations-design}
       + [Visão geral do design](c-recommendations/c-design-overview/design-overview.md)
       + [Criar um design](c-recommendations/c-design-overview/create-design.md)
