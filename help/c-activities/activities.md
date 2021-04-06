@@ -1,20 +1,20 @@
 ---
-keywords: lista do atividade;atividades;atividade;tipos de atividade;editar atividade;ações de atividade;atributo de atividade;atividade filtro de lista de ;atividade limitações de ;personalizar;personalização;personalização
-description: Saiba como o atividade no Adobe Target permite que você personalize o conteúdo para audiências específicas e teste designs de página
-title: Como posso personalizar o conteúdo e testar os designs das páginas com o Público alvo?
-feature: Activities
+keywords: lista de atividades, atividades, atividade, tipos de atividade, editar atividade, ações da atividade, atributo da atividade, filtro da lista de atividades, limitações da atividade, personalizar, personalização
+description: Saiba como as atividades no Adobe Target permitem personalizar o conteúdo para públicos-alvo específicos e testar designs de página
+title: Como posso personalizar designs de conteúdo e página de teste com o Target?
+feature: Atividades
+exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2103'
 ht-degree: 96%
 
 ---
 
-
 # Atividades
 
-As atividades em [!DNL Adobe Target] permitem que você personalize o conteúdo para audiências específicas e teste designs de página.
+As atividades em [!DNL Adobe Target] permitem personalizar o conteúdo para públicos-alvo específicos e testar designs de página.
 
 Por exemplo, você pode criar uma atividade que teste duas landing pages diferentes, uma destacando informações sobre sapatos femininos de verão e outra destacando um vestuário de verão mais amplo. A atividade determina as condições que controlam quando cada uma dessas páginas de aterrissagem será exibida e as métricas que determinam qual página tem maior sucesso. A atividade está configurada para iniciar e terminar quando as condições específicas forem cumpridas, como entre datas específicas, ou para iniciar quando a atividade for aprovada e terminar quando ela for desativada.
 
@@ -69,7 +69,7 @@ As seguintes ações estão disponíveis (dependendo das suas permissões):
 | Ativar | Inicia uma atividade inativa ou pronta. |
 | Arquivar | Envie a atividade para o arquivo. Por padrão, atividades arquivadas não aparecem mais na lista de atividades. Para ver atividades arquivadas, altere o filtro para que a lista de atividades as inclua. Você pode ativar uma atividade arquivada para usá-la novamente.<br>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
 | Copiar | Copia uma atividade. Qualquer atividade pode ser copiada. A cópia de uma atividade cria uma nova atividade com o mesmo nome, com o termo &quot;Cópia&quot; anexado. Por exemplo, um teste chamado &quot;Ofertas do navegador&quot; é copiada para &quot;Cópia de ofertas do navegador&quot;.<br>Ofertas visuais são copiadas com a atividade. As ofertas podem ser editas em segurança na cópia sem afetar a atividade original. As únicas exceções são ofertas e imagens salvas na pasta Conteúdo/Ativos. |
-| Excluir | Exclui um rascunho ou atividade.<BR>**OBSERVAÇÃO**: não é possível recuperar as atividades excluídas. A menos que você tenha certeza de que nunca precisará dessa atividade novamente, use a ação [!UICONTROL Arquivar] . Se necessário, é possível reativar a atividade. |
+| Excluir | Exclui um rascunho ou atividade.<BR>**OBSERVAÇÃO**: não é possível recuperar as atividades excluídas. A menos que você tenha certeza de que nunca precisará dessa atividade novamente, use a ação [!UICONTROL Arquivar] . É possível reativar a atividade, se necessário. |
 
 Observe os detalhes a seguir sobre a lista Atividade:
 
@@ -139,8 +139,8 @@ Cada atividade do Target tem as seguintes limitações de conteúdo:
 | Seletores exclusivos | 300  se um seletor se repete em uma experiência diferente, ele é contado uma vez. No entanto, se ele se repete na mesma experiência, ele é contado novamente. |
 | Ofertas em cada experiência | 350 |
 | Seletores de rastreamento de cliques nas métricas | 50 |
-| Mboxes nas métricas | 50 |
-| Públicos-alvo e localizações | 50 A combinação de públicos-alvo e localizações (mbox) não deve ser maior do que 50. |
+| Mboxes nas métricas | 50º |
+| Públicos-alvo e localizações | 50º A combinação de públicos-alvo e localizações (mbox) não deve ser maior do que 50. |
 
 A atividade não pode ser salva se exceder qualquer um desses limites.
 
@@ -170,7 +170,7 @@ Esse trabalho de importação será executado quando a página de atividades for
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Tipos de atividade (9:03) ![emblema de visão geral](/help/assets/overview.png)
+### Tipos de atividade (9:03) ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 
@@ -180,7 +180,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Gerenciamento do Atividade (5:55) ![Etiqueta de visão geral](/help/assets/overview.png)
+### Gerenciamento de atividades (5:55) ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar a lista de Atividades para gerenciar as atividades.
 
