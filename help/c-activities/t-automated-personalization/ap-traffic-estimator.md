@@ -1,70 +1,72 @@
 ---
-keywords: avaliador de tráfego;personalização automatizada;ap;estimar tráfego
-description: Saiba como usar o Estimador de tráfego que permite saber se você tem tráfego suficiente para que sua atividade Adobe Target Automated Personalization tenha êxito.
-title: Quanto tráfego é necessário para uma Atividade Automated Personalization?
-feature: Automated Personalization
+keywords: avaliador de tráfego, personalização automatizada, ap, estimar tráfego, direcionamento automático
+description: Use o Avaliador de tráfego do Adobe Target para determinar se você tem tráfego suficiente para que sua atividade do Automated Personalization seja bem-sucedida.
+title: Quanto tráfego é necessário para uma atividade bem-sucedida?
+feature: Personalização automatizada
+exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 25%
+source-wordcount: '752'
+ht-degree: 14%
 
 ---
 
-
 # ![PREMIUM](/help/assets/premium.png) Estimativa do tráfego necessário para o sucesso
 
-O [!UICONTROL Estimador de Tráfego] fornece feedback que permite saber se você tem tráfego suficiente para que sua atividade [!DNL Adobe Target] tenha êxito.
+O [!DNL Adobe Target] [!UICONTROL Avaliador de tráfego] fornece feedback que permite saber se você tem tráfego suficiente para sua atividade [!UICONTROL Automated Personalization] ser bem-sucedida.
 
-Como uma atividade [!UICONTROL Automated Personalization] usa várias combinações de ofertas, é importante saber quanto tráfego é necessário para fornecer resultados significativos. O [!UICONTROL Estimador de Tráfego] usa estatísticas sobre sua página e o número de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessário para que a atividade seja bem-sucedida.
+Como uma atividade [!UICONTROL Automated Personalization] usa várias combinações de ofertas, é importante saber quanto tráfego é necessário para fornecer resultados significativos. O [!UICONTROL Avaliador de tráfego] usa estatísticas sobre a página e o número de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para que a atividade seja bem-sucedida.
 
-O [!UICONTROL Estimador de tráfego] determina se há tráfego suficiente para gerar modelos personalizados, comparando as impressões de página estimadas e a taxa de conversão típica das páginas. Idealmente, para uma atividade bem-sucedida, o tamanho de amostra correto garante que o conteúdo personalizado esteja pronto em 50% da duração da atividade ou 14 dias, o que for menor. Isso proporciona tempo suficiente para obter um conteúdo personalizado e aprender sobre qual conteúdo disponibilizar.
+O [!UICONTROL Avaliador de tráfego] determina se há tráfego suficiente para gerar modelos personalizados, comparando as impressões de página estimadas e o índice de conversão típico das páginas. Idealmente, para uma atividade bem-sucedida, o tamanho de amostra correto garante que o conteúdo personalizado esteja pronto em 50% da duração da atividade ou 14 dias, o que for menor. Esse processo permite tempo suficiente para obter conteúdo personalizado e saber qual conteúdo fornecer.
 
-Lembre-se de que [!DNL Target] fornece experiências aleatoriamente até que os algoritmos de personalização sejam criados. O ícone de marca de seleção ao lado de cada oferta mostra quando o modelo dessa oferta está pronto e [!DNL Target] é capaz de começar a fornecer conteúdo personalizado. Como aumento é esperado somente depois que os modelos estão prontos, a indicação visual permite definir a expectativa correta. Use o [!UICONTROL Estimador de tráfego] no [!UICONTROL Visual Experience Composer] (VEC) para obter uma orientação sobre quando os modelos estarão prontos.
+Lembre-se de que [!DNL Target] fornece experiências aleatoriamente até que os algoritmos de personalização sejam criados. O ícone de marca de seleção ao lado de cada oferta mostra quando o modelo dessa oferta está pronto e [!DNL Target] é capaz de começar a entregar conteúdo personalizado. Como aumento é esperado somente depois que os modelos estão prontos, a indicação visual permite definir a expectativa correta. Use o [!UICONTROL Avaliador de tráfego] no [!UICONTROL Visual Experience Composer] (VEC) para obter uma orientação sobre quando os modelos estão prontos.
 
-## Usar o Estimador de Tráfego
+## Usar o Avaliador de Tráfego
 
 1. No [!UICONTROL Visual Experience Composer], clique em **[!UICONTROL Tráfego]**.
 
    ![Ícone de tráfego](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   O [!UICONTROL Estimador de Tráfego] é aberto. Você pode clicar em **[!UICONTROL Tráfego]**[!UICONTROL  novamente para ocultar o Avaliador de tráfego].
+   O [!UICONTROL Avaliador de tráfego] é aberto. Você pode clicar em **[!UICONTROL Tráfego]**[!UICONTROL  novamente para ocultar o Avaliador de tráfego].
 
-   ![](assets/ap_est.png)
+   ![Interface do usuário do Avaliador de tráfego](assets/ap_est.png)
 
-1. Forneça o índice de conversão típico (ou o índice de conversão que você espera dessa atividade), as impressões de atividade estimadas por dia e a duração do teste.
+1. Especifique o índice de conversão típico (ou o índice de conversão que você espera dessa atividade), as impressões de atividade estimadas por dia e a duração do teste.
 
-   * **Número de Ofertas**: Calculado automaticamente com base no número de experiências que estão sendo criadas como parte da sua atividade após quaisquer exclusões.
-   * **Taxa de conversão típica**: a taxa de conversão é expressa como uma porcentagem, com base na estimativa ou dados anteriores do sistema de análise.
-   * **Visitas estimadas por dia**: Este é o número de visitas por dia de visitantes que podem visualização a atividade, com base nos critérios de definição de metas. Isso pode se basear nos dados da análise. Observe que esse número deve ser de visitas e não de visitantes únicos.
-   * **Duração do teste**: a quantidade de dias de duração da execução da atividade.
+   | Métrica | Descrição |
+   | --- | --- |
+   | **[!UICONTROL Número de ofertas]** | Essa métrica é calculada automaticamente com base no número de experiências que estão sendo criadas como parte da atividade, após as exclusões. |
+   | **[!UICONTROL Taxa comum de conversão]** | Essa métrica é expressa como uma porcentagem, com base na estimativa ou dados anteriores do sistema de análise. |
+   | **[!UICONTROL Visitas estimadas por dia]** | Essa métrica é o número de visitas por dia dos visitantes que podem visualizar a atividade com base nos critérios de direcionamento. Essa métrica pode ser baseada nos dados analíticos. Esse número deve ser de visitas, não de visitantes únicos. |
+   | **[!UICONTROL Duração do teste]** | A quantidade de dias de duração da execução da atividade. |
 
-   O [!UICONTROL Traffic Estimato]r utiliza essas estatísticas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
+   O [!UICONTROL Avaliador de tráfego] usa essas métricas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
 
-   Próximo à parte superior do [!UICONTROL Estimador de tráfego], os valores inseridos são calculados e os resultados são mostrados.
+   Próximo à parte superior do [!UICONTROL Avaliador de tráfego], os valores inseridos são calculados e os resultados são mostrados.
 
-   ![](assets/ap_est_no.png)
+   ![Estimativa de tráfego com valores e resultados exibidos](assets/ap_est_no.png)
 
-   A estimativa muda, à medida que você muda os números. Por exemplo, se você estiver testando um grande número de combinações e sua taxa de conversão e impressões forem muito baixas, o [!UICONTROL Estimador de tráfego] mostrará quanto tempo o teste precisará para ser executado com êxito. Ou, se seu tráfego for baixo, o [!UICONTROL Estimador de tráfego] poderá sugerir um número menor de combinações de oferta para que você possa executar o teste no número desejado de dias.
+   A estimativa muda, à medida que você muda os números. Por exemplo, se você estiver testando muitas combinações e sua taxa de conversão e impressões for muito baixa, o [!UICONTROL Avaliador de tráfego] mostrará por quanto tempo o teste deve ser executado para ser bem-sucedido. Ou, se o tráfego for baixo, o [!UICONTROL Avaliador de tráfego] poderá sugerir um número menor de combinações de ofertas para que você possa executar o teste no número desejado de dias.
 
-   Caso não tenha tráfego suficiente, é possível fazer uma ou todas as opções a seguir:
+   Se você não tiver tráfego suficiente, considere o seguinte:
 
-   * Considere usar uma atividade [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md) em vez de [!UICONTROL Automated Personalization] para criar experiências com várias alterações de oferta em uma variação de experiência.
-   * Reduza o número de combinações de ofertas na atividade [!UICONTROL Automated Personalization].
+   * Considere usar uma atividade [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) em vez de [!UICONTROL Automated Personalization] para criar experiências com várias alterações de oferta em uma variação de experiência.
+   * Reduza o número de combinações de ofertas em sua atividade [!UICONTROL Automated Personalization].
    * Aumente a duração da atividade.
 
-   Ajuste os números até que o [!UICONTROL Estimador de tráfego] diga que você tem tráfego suficiente e, em seguida, projete seu teste de acordo.
+   Ajuste os números até que o [!UICONTROL Avaliador de tráfego] indique que você tem tráfego suficiente e, em seguida, crie seu teste de acordo.
 
-   ![](assets/ap_est_yes.png)
+   ![Avaliador de tráfego mostrando mensagem de tráfego suficiente](assets/ap_est_yes.png)
 
-   Se o tráfego for suficiente, o ícone [!UICONTROL Traffic] mostrará uma verificação verde. Se não for suficiente, o ícone mostrará um rótulo de aviso vermelho.
+   Se o tráfego for suficiente, o ícone [!UICONTROL Tráfego] mostrará uma marca de seleção verde. Se não for suficiente, o ícone mostrará um rótulo de aviso vermelho.
 
-## Perguntas frequentes sobre o Estimador de tráfego
+## Perguntas frequentes sobre o Avaliador de tráfego
 
-Considere as seguintes perguntas frequentes ao trabalhar com o [!UICONTROL Estimador de tráfego]:
+Considere as seguintes perguntas frequentes ao trabalhar com o [!UICONTROL Avaliador de tráfego]:
 
-### Por que [!DNL Target] não está criando modelos personalizados quando minha atividade AP tem tráfego suficiente?
+### Por que [!DNL Target] não está criando modelos personalizados quando minha atividade de AP tem tráfego suficiente?
 
-Em determinadas circunstâncias, seu tráfego pode ser grande o suficiente para que um modelo personalizado seja criado, mas esse tráfego pode informar [!DNL Target] que não há diferença significativa entre o modelo personalizado e o aleatório. Embora o modelo seja construído em [!DNL Target] e testado, ele não será implantado porque o modelo não é significativamente melhor do que aleatório.
+Em determinadas circunstâncias, seu tráfego é grande o suficiente para um modelo personalizado ser criado, mas esse tráfego pode informar [!DNL Target] que não há diferença significativa entre o modelo personalizado e o aleatório. Embora o modelo seja construído em [!DNL Target] e testado, ele não é implantado porque o modelo não é melhor do que aleatório.
 
-Uma possível razão para o modelo não ser melhor do que aleatório pode ser que as ofertas não sejam significativamente diferentes umas das outras. Se esse for o caso, você pode tentar tornar as ofertas mais visualmente diferentes se as mensagens forem semelhantes, ou pode tentar mudar as próprias mensagens.
+Uma possível razão para o modelo não ser melhor do que aleatório poderia ser que as ofertas não são suficientemente diferentes umas das outras. Em caso positivo, você pode tentar tornar as ofertas mais visualmente diferentes se as mensagens forem semelhantes, ou pode tentar alterar as próprias mensagens.
