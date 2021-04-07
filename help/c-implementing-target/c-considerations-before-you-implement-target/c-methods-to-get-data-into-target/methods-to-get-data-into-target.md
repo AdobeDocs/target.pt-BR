@@ -1,91 +1,33 @@
 ---
 keywords: implementar, implementação, configuração, configurar, parâmetro de página, tomcat, url codificado, atributo de perfil na página, parâmetro mbox, atributos de perfil na página, atributo de perfil de script, API de atualização de perfil em massa, API de atualização de arquivo único, atributos de cliente, provedores de dados, dataprovider, provedor de dados
-description: Obtenha dados no Público alvo (parâmetros de página, atributos do perfil, atributos do perfil de script, provedores de dados, APIs de atualização de perfil único e em massa, Atributos do cliente).
-title: Como obtenho dados no Público alvo?
-feature: Implementation
+description: Obtenha dados no Target (parâmetros de página, atributos de perfil, atributos de perfil de script, provedores de dados, APIs de atualização de perfil único e em massa, atributos do cliente).
+title: Como posso obter dados no Target?
+feature: Implementação
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1864'
 ht-degree: 93%
 
 ---
 
+# Visão geral dos métodos
 
-# Métodos para colocar os dados no Target
+Informações sobre os diferentes métodos que você pode usar para inserir dados em [!DNL Adobe Target].
 
-Informações sobre os diferentes métodos que você pode usar para inserir dados em [!DNL Adobe Target], incluindo parâmetros de página, atributos de perfil na página, atributos de perfil de script, provedores de dados, API de atualização de perfil em massa, API de atualização de perfil único e Atributos do cliente.
+Os métodos disponíveis incluem:
 
-## Parâmetros da página (também denominados &quot;parâmetros de mbox&quot;) {#section_5A297816173C4FE48DC4FE03860CB42B}
-
-Os parâmetros de página são pares de nome/valor enviados diretamente pelo código de página que não são armazenados no perfil do visitante para uso futuro.
-
-Os parâmetros de página são úteis para enviar dados de página adicionais ao Target, que não precisam ser armazenados no perfil do visitante para uso de direcionamento futuro. Esses valores são usados para descrever a página ou a ação que o usuário fez na página específica.
-
-### Formato
-
-Os parâmetros da página são enviados ao Target por uma chamada de servidor como par de nome/valor de cadeia de caracteres. Os nomes e valores do parâmetro são personalizáveis (embora alguns sejam &quot;nomes reservados&quot; para usos específicos).
-
-Exemplos:
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### Exemplo de casos de uso
-
-**Páginas do produto**: envia as informações sobre o produto específico exibido (esta é a forma de funcionamento do Recommendations)
-
-**Detalhes do pedido**: envia a ID do pedido, orderTotal e assim por diante para a coleção de pedidos
-
-**Afinidade de categorias**: envia informações visualizadas por categoria para o Target, gerando conhecimento da afinidade do usuário a determinadas categorias do site
-
-**Dados de terceiros**: envia informações de fontes de dados de terceiros, como provedores de definição de direcionamento meteorológico, dados de conta (por exemplo, DemandBase), dados demográficos (por exemplo, Experiência) e muito mais.
-
-### Benefícios do método
-
-Os dados são enviados ao Target em tempo real, e podem ser usados na mesma chamada de servidor dos dados em que estão contidos.
-
-### Avisos
-
-* Precisa de atualização do código da página (diretamente ou por meio de um sistema de gerenciamento de tags).
-* Se os dados precisarem ser usados para direcionamento em uma chamada de página/servidor subsequente, eles precisam ser traduzidos para um script de perfil.
-* As sequências de caracteres podem conter somente os caracteres, conforme o padrão [Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
-
-   Além dos mencionados no site do IETF, o Target permite os caracteres a seguir nas sequências de consulta:
-
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
-
-   O restante deve ser codificado em url. O padrão especifica o seguinte formato ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), conforme ilustrado abaixo:
-
-   ![](assets/ietf1.png)
-
-   Ou, a lista completa para simplicidade:
-
-   ![](assets/ietf2.png)
-
-### Exemplo de código
-
-targetPageParamsAll (anexa os parâmetros a todas as chamadas de mbox na página):
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams (anexa os parâmetros ao mbox global na página):
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parâmetros no código mboxCreate:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### Links para informações relevantes
-
-Recommendations: [implementação de acordo com o tipo de página](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-Confirmação do pedido: [rastreia conversões](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-Afinidade de categorias: [afinidade de categorias](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| Método | Detalhes |
+| --- | --- |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>Parâmetros da página (também denominados &quot;parâmetros de mbox&quot;) | Os parâmetros de página são pares de nome/valor enviados diretamente pelo código de página que não são armazenados no perfil do visitante para uso futuro.<br>Os parâmetros de página são úteis para enviar dados de página adicionais ao Target, que não precisam ser armazenados no perfil do visitante para uso de direcionamento futuro. Esses valores são usados para descrever a página ou a ação que o usuário fez na página específica. |
+| Os atributos de perfil na página (também chamados &quot;atributos de perfil in-mbox&quot;) | Os atributos de perfil na página são pares de nome/valor enviados diretamente pelo código de página que são armazenados no perfil do visitante para uso futuro.<br>Os atributos de perfil na página permitem que os dados específicos do usuário sejam armazenados no perfil do Target para direcionamento e segmentação posteriores. |
+| Atributos de perfil de script | Atributos de perfil de script são pares de nome/valor definidos na solução Target. O valor é determinado na execução de um snippet do JavaScript no servidor Target, a cada chamada do servidor.<br>Os usuários gravam pequenos snippets de código que são executados de acordo com a chamada de mbox e antes de um visitante ser avaliado para associação de público-alvo e atividade. |
+| Provedores de dados | Os provedores de dados são um recurso que permite transmitir dados de terceiros facilmente para o Target. |
+| API de atualização de perfil em massa | Via API, envia um arquivo .csv ao Target com atualizações de perfil de visitante para muitos visitantes. Cada perfil do visitante pode ser atualizado com vários atributos de perfil na página em uma chamada. |
+| API de atualização de perfil único | Quase idêntica à API de atualização de perfil em massa, mas um perfil de visitante é atualizado por vez, alinhada à chamada de API em vez de um arquivo .csv. |
+| Atributos do cliente | Os atributos do cliente permitem que você carregue os dados de perfil do visitante via FTP à Experience Cloud. Após o upload, aproveite os dados no Adobe Analytics e no Adobe Target. |
 
 ## Os atributos de perfil na página (também chamados &quot;atributos de perfil in-mbox&quot;){#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -188,7 +130,7 @@ Os scripts de perfil são bastante flexíveis:
 
 ## Provedores de dados {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-Os provedores de dados são uma função que permite passar dados de terceiros facilmente para o Target.
+Os provedores de dados são um recurso que permite transmitir dados de terceiros facilmente para o Target.
 
 Observação: os provedores de dados exigem o at.js 1.3 ou posterior.
 
@@ -273,7 +215,7 @@ Consulte [Atualização de perfis](https://developers.adobetarget.com/api/#updat
 
 ## API de atualização de perfil único {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-Quase idêntica à API de atualização de perfil em massa, mas um perfil de visitante é atualizado por vez, alinhada à chamada de API em vez de um arquivo .csv
+Quase idêntica à API de atualização de perfil em massa, mas um perfil de visitante é atualizado por vez, alinhada à chamada de API em vez de um arquivo .csv.
 
 ### Formato
 
@@ -335,7 +277,7 @@ Requer a implementação da Experience Cloud ID (ECID).
 
 ### Exemplo de código
 
-Detalhes podem ser encontrados em [Crie uma fonte de atributo do cliente e carregue o arquivo de dados](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+Os detalhes podem ser encontrados em [Criar uma fonte de atributo do cliente e fazer upload do arquivo de dados](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Links para informações relevantes
 
