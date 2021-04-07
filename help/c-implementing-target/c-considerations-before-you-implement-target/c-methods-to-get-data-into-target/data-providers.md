@@ -1,13 +1,13 @@
 ---
 keywords: implementar; implementação; configuração; configurar; provedores de dados
-description: Obtenha dados no Target usando atributos de perfil na página.
+description: Obtenha dados no Target usando provedores de dados.
 title: Como Obtenho Dados No Target Usando Provedores De Dados?
 feature: Implementação
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 66%
 
 ---
