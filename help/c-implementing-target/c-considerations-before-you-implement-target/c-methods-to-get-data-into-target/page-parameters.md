@@ -5,10 +5,10 @@ title: Como obtenho dados no Target usando parâmetros de página?
 feature: Implementação
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,7 +22,7 @@ Os parâmetros de página são úteis para enviar dados de página para o Target
 
 Os parâmetros da página são enviados ao Target por uma chamada de servidor como par de nome/valor de cadeia de caracteres. Os nomes e valores do parâmetro são personalizáveis (embora alguns sejam &quot;nomes reservados&quot; para usos específicos).
 
-### Exemplos:
+### Exemplos
 
 * `page=productPage`
 
@@ -57,7 +57,7 @@ Os dados são enviados ao Target em tempo real e podem ser usados na mesma chama
 
    ![](assets/ietf2.png)
 
-## Exemplo de código
+## Exemplos de código
 
 targetPageParamsAll (anexa os parâmetros a todas as chamadas de mbox na página):
 
