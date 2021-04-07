@@ -1,11 +1,11 @@
 ---
-keywords: implementar; implementação; configuração; configurar; configuração; atributo de perfil de script
+keywords: implementar; implementação; configuração; configurar; configurar; atributos de perfil de script
 description: Obtenha dados no Target usando atributos de perfil de script.
 title: Como obtenho dados no Target usando atributos de perfil de script?
 feature: Implementação
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 83%
