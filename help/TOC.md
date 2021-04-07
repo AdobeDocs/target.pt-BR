@@ -4,9 +4,9 @@ breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídias sociais e outros canais digitais.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1590'
 ht-degree: 81%
 
 ---
@@ -83,6 +83,9 @@ ht-degree: 81%
       + Métodos para colocar os dados no Target {#methods}
          + [Visão geral dos métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Parâmetros da página](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
+         + [Atributos de perfil de script](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
+         + [Atributos de perfil na página](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [Provedores de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
          + [Configurações da API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Visão geral da segurança no Target](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Navegadores compatíveis](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
