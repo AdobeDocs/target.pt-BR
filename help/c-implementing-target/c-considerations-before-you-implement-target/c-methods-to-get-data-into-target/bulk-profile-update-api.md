@@ -4,8 +4,9 @@ description: Obtenha dados no Target usando a API de atualização de perfil em 
 title: Como obtenho dados no Target usando a API de atualização de perfil em massa?
 feature: Implementação
 role: Developer
+exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 78%
