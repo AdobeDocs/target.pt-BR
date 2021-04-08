@@ -5,9 +5,9 @@ title: Quanto tráfego é necessário para uma atividade bem-sucedida?
 feature: Personalização automatizada
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 14%
 
 ---
@@ -65,7 +65,7 @@ Lembre-se de que [!DNL Target] fornece experiências aleatoriamente até que os 
 
 Considere as seguintes perguntas frequentes ao trabalhar com o [!UICONTROL Avaliador de tráfego]:
 
-### Por que [!DNL Target] não está criando modelos personalizados quando minha atividade de AP tem tráfego suficiente?
+### Por que os modelos personalizados não são criados mesmo que minha atividade de AP tenha tráfego suficiente?
 
 Em determinadas circunstâncias, seu tráfego é grande o suficiente para um modelo personalizado ser criado, mas esse tráfego pode informar [!DNL Target] que não há diferença significativa entre o modelo personalizado e o aleatório. Embora o modelo seja construído em [!DNL Target] e testado, ele não é implantado porque o modelo não é melhor do que aleatório.
 
