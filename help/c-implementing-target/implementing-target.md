@@ -4,15 +4,15 @@ description: Entenda os conceitos básicos, familiarize-se com o modo como o Tar
 landing-page-description: Antes de começar a usar o Adobe Target, você deve implementá-lo em seu site, entender alguns conceitos e termos básicos e familiarizar-se com o funcionamento do Target.
 title: Como Implemento O Target?
 feature: Implementação
-role: Desenvolvedor
+role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 27%
 
 ---
-
 
 # Implementar o Target
 
