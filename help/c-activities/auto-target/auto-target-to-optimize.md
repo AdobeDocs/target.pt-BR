@@ -1,34 +1,34 @@
 ---
 keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, faq, solução de problemas, solucionar problemas
-description: Saiba como uma atividade de Público alvo automático no Público alvo serve a experiência mais personalizada para cada visitante com base nos perfis do cliente e no comportamento de visitantes semelhantes.
-title: O que é uma Atividade de Público alvo automático?
-feature: Auto-Target
+description: Saiba como uma atividade de Direcionamento automático no Target oferece a experiência mais personalizada para cada visitante com base nos perfis do cliente e no comportamento de visitantes semelhantes.
+title: O que é uma atividade de direcionamento automático?
+feature: Direcionamento automático
+exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 85%
+source-wordcount: '1993'
+ht-degree: 70%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMAvisão geral do Target automático
 
-# ![Visão geral do ](/help/assets/premium.png) PREMIUMAuto-Público alvo
-
-[!UICONTROL As atividades de ] direcionamento automático no Adobe Target usam o aprendizado de máquina avançado para selecionar entre várias experiências definidas pelo profissional de marketing de alto desempenho para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
+[!UICONTROL As atividades ] de Direcionamento automático  [!DNL Adobe Target] usam aprendizagem de máquina avançada para selecionar entre várias experiências de alto desempenho definidas pelo profissional de marketing para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 
 >[!NOTE]
 >
 >O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL O Analytics for Público alvo] (A4T) oferece suporte para atividades de direcionamento  [!UICONTROL automático ] para usuários. Para obter mais informações, consulte [Suporte A4T para a Autoalocação e Público alvo de atividades](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+>[!UICONTROL O Analytics for Target]  (A4T) é compatível com atividades de  [!UICONTROL Direcionamento automático ] . Para obter mais informações, consulte [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
-## História de sucesso real usando o Público alvo automático {#success}
+## História de sucesso do mundo real usando Direcionamento automático {#success}
 
-Um grande varejista de roupas recentemente usou uma atividade [!UICONTROL Público alvo automático] com dez experiências baseadas em categorias de produtos (além de controle aleatório) para fornecer o conteúdo correto para cada visitante. &quot;[!UICONTROL Adicionar ao carrinho]&quot; foi escolhido como a métrica de otimização primária. As experiências direcionadas tiveram um aumento médio de 29,09%. Depois de criar os modelos [!UICONTROL Público alvo automático], a atividade foi definida como 90% de experiências personalizadas.
+Um grande varejista de roupas recentemente usou uma atividade [!UICONTROL Direcionamento automático] com dez experiências baseadas em categorias de produtos (além de controle aleatório) para fornecer o conteúdo correto a cada visitante. &quot;[!UICONTROL Add to Cart]&quot; foi escolhido como a métrica de otimização primária. As experiências direcionadas tiveram um aumento médio de 29,09%. Após criar os modelos de [!UICONTROL Direcionamento automático], a atividade foi definida como 90% de experiências personalizadas.
 
-Em apenas dez dias, mais de US$ 1.700.000 em incentivo foram alcançados.
+Em apenas dez dias, mais de US$ 1.700.000 de incentivo foram alcançados.
 
-Continue lendo para saber como usar [!UICONTROL Público alvo automático] para aumentar o incentivo e a receita de sua organização.
+Continue lendo para saber como usar o [!UICONTROL Direcionamento automático] para aumentar o incentivo e a receita de sua organização.
 
 ## Visão geral {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,17 +44,17 @@ Ao contrário de uma atividade A/B na qual a alocação de experiência para um 
 
 ## Considerações
 
-Há algumas considerações importantes a serem levadas em conta ao usar [!UICONTROL Público alvo automático]:
+Existem algumas considerações importantes que você deve ter em mente ao usar o [!UICONTROL Direcionamento automático]:
 
-* Você não pode alternar uma atividade específica de [!UICONTROL Direcionamento automático] para Personalização automatizada, e vice-versa.
-* Você não pode alternar de Alocação de tráfego manual (teste tradicional A/B) para [!UICONTROL Direcionamento automático] e vice-versa depois que uma atividade estiver ativa.
-* Um modelo é criado para identificar o desempenho da estratégia personalizada em comparação ao tráfego atendido aleatoriamente em vez de enviar todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
+* Você não pode alternar uma atividade específica de [!UICONTROL Direcionamento automático] para Automated Personalization, e vice-versa.
+* Você não pode alternar de Alocação de tráfego Manual (Teste A/B tradicional) para [!UICONTROL Direcionamento automático], e vice-versa depois que uma atividade estiver ativa.
+* Um modelo é criado para identificar o desempenho da estratégia personalizada vs. tráfego distribuído aleatoriamente vs. enviar todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
 
    O tráfego de um segundo conjunto de modelos é criado para cada grupo de modelagem (AP) ou experiência (AT). Para cada um desses modelos, as ocorrências e conversões em todos os ambientes são consideradas.
 
-   Por conseguinte, os pedidos serão acompanhados do mesmo modelo, independentemente do ambiente, mas a pluralidade do tráfego deverá provir do ambiente por defeito, a fim de assegurar que a experiência globalmente identificada vencedora seja coerente com o comportamento no mundo real.
+   Os pedidos são apresentados com o mesmo modelo, independentemente do ambiente, mas a pluralidade do tráfego deve provir do ambiente predefinido para garantir que a experiência vencedora global identificada seja consistente com o comportamento do mundo real.
 
-* Você deve usar no mínimo duas experiências.
+* Use no mínimo duas experiências.
 
 ## Terminologia {#section_A309B7E0B258467789A5CACDC1D923F3}
 
@@ -63,7 +63,7 @@ Os seguintes termos são úteis quando falamos de [!UICONTROL Direcionamento aut
 | Termo | Definição |
 |---|---|
 | Multi-armed bandit | Uma abordagem multi-armed bandit à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado. |
-| Floresta Aleatória | Random Forest é uma abordagem de aprendizado de máquina líder. No contexto da ciência de dados, é um método de classificação ou regressão de conjuntos que funciona por meio da construção de um grande número de árvores de decisão com base nos atributos do visitante e da visita. No Target, o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou maior receita por visita) para cada visitante específico. Para obter mais informações sobre o Random Forest no Target, consulte  [Algoritmo Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md). |
+| Floresta Aleatória | Random Forest é uma abordagem de aprendizado de máquina líder. No contexto da ciência de dados, é um método de classificação ou regressão de conjunto que funciona por meio da construção de muitas árvores de decisão com base nos atributos do visitante e da visita. No Target, o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou maior receita por visita) para cada visitante específico. Para obter mais informações sobre o Random Forest no Target, consulte  [Algoritmo Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md). |
 | Amostragem de Thompson | O objetivo da Amostragem de Thompson é determinar qual experiência é a melhor em geral (não personalizada), enquanto minimiza o &quot;custo&quot; da procura dessa experiência. A amostragem de Thompson sempre escolhe um vencedor, mesmo que não haja diferença estatística entre duas experiências. Para obter mais informações, consulte [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Como funciona o [!UICONTROL direcionamento automático] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -72,9 +72,9 @@ Saiba mais sobre os dados e algoritmos subjacentes ao [!UICONTROL Direcionamento
 
 | Termo | Detalhes |
 |--- |--- |
-| [Algoritmo Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md) | O principal algoritmo de personalização do Target usado no [!UICONTROL Direcionamento automático] e na Personalização automatizada é o Random Forest. Métodos de conjunto como a Random Forest usam vários algoritmos de aprendizagem para obter desempenhos preditivos melhores dos que poderiam ser obtidos de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest no sistema de personalização automatizada é um método de classificação ou regressão que opera por meio da construção de várias árvores de decisão na hora do treinamento. |
+| [Algoritmo Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md) | O principal algoritmo de personalização do Target usado no [!UICONTROL Direcionamento automático] e na Personalização automatizada é o Random Forest. Métodos de conjunto como a Random Forest usam vários algoritmos de aprendizagem para obter desempenhos preditivos melhores dos que poderiam ser obtidos de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest no sistema Automated Personalization é um método de classificação ou regressão que opera por meio da construção de várias árvores de decisão no momento do treinamento. |
 | [Fazer upload de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Existem várias maneiras de inserir dados para modelos de [!UICONTROL Direcionamento automático] e Personalização automatizada. |
-| [Coleta de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/ap-data.md) | Os algoritmos de personalização do Target coletam automaticamente uma variedade de dados. |
+| [Coleta de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/ap-data.md) | Os algoritmos de personalização do Target coletam automaticamente vários dados. |
 
 ## Determinação da alocação de tráfego   {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -90,8 +90,8 @@ A lista suspensa [!UICONTROL Alocação personalizada] permite escolher as segui
 
 | Objetivo da atividade | Sugestão de alocação de tráfego | Compensações |
 |--- |--- |--- |
-| **Avaliar o algoritmo de personalização (50/50):** se o objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50% entre o controle e o algoritmo de destino. Esta divisão fornece a estimativa mais precisa do aumento. Recomenda-se usar com &quot;experiências aleatórias&quot; como controle. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes terão uma experiência personalizada</li></ul> |
-| **Maximizar o tráfego de personalização (90/10):** se o objetivo for criar uma atividade &quot;sempre ativa&quot;, coloque 10% dos visitantes no controle, a fim de garantir que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. Observe que a desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você terá menos precisão em saber qual é o aumento exato. Independentemente da meta, esta é a divisão de tráfego recomendada ao usar uma experiência específica como controle. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
+| **Avaliar o algoritmo de personalização (50/50):** se o objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50% entre o controle e o algoritmo de destino. Esta divisão fornece a estimativa mais precisa do aumento. Recomenda-se usar com &quot;experiências aleatórias&quot; como controle. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes têm uma experiência personalizada</li></ul> |
+| **Maximizar o tráfego de personalização (90/10):** se o objetivo for criar uma atividade &quot;sempre ativa&quot;, coloque 10% dos visitantes no controle, a fim de garantir que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. Observe que a desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você tem menos precisão em saber qual é o aumento exato. Independentemente da meta, esta é a divisão de tráfego recomendada ao usar uma experiência específica como controle. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
 | **Alocação personalizada** | Divida manualmente a porcentagem conforme desejado. | <ul><li>Você pode não conseguir os resultados desejados. Se você não tiver certeza, siga as sugestões para qualquer uma das opções anteriores</li></ul> |
 
 Para ajustar a porcentagem de Controle, clique nos ícones na coluna Alocação. Você não pode diminuir o grupo de controle para menos de 10%.
@@ -102,24 +102,24 @@ Você pode [selecionar uma experiência específica para usar como controle](/he
 
 ## Quando você deve escolher o [!UICONTROL Direcionamento automático] em vez da Personalização automatizada? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcionamento automático] em vez da Personalização automatizada:
+Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcionamento automático][!UICONTROL  em vez da Personalização automatizada]:
 
 * Se você quiser definir toda a experiência, em vez de ofertas individuais que serão combinadas automaticamente para formar uma experiência.
-* Se você quiser aproveitar o conjunto completo de recursos do Visual Experience Composer (VEC) não suportados pela [!UICONTROL Personalização automatizada]: o editor de código personalizado, vários públicos-alvo de experiência e muito mais.
-* Se você quiser fazer mudanças estruturais na sua página em diferentes experiências. Por exemplo, se você quisesse reorganizar a ordem dos elementos em sua página inicial, o [!UICONTROL Direcionamento automático] seria mais apropriado para uso do que a Personalização automatizada.
+* Se você quiser usar o conjunto completo de recursos do Visual Experience Composer (VEC) não suportados por [!UICONTROL Personalização automática]: o editor de código personalizado, vários públicos-alvo de experiência e muito mais.
+* Se você quiser fazer mudanças estruturais na sua página em diferentes experiências. Por exemplo, se você quisesse reorganizar elementos em sua página inicial, o [!UICONTROL Direcionamento automático] seria mais apropriado para uso do que o Automated Personalization.
 
 ## O que o [!UICONTROL Direcionamento automático] tem em comum com a personalização automatizada? {#section_2A601F482F9A44E38D4B694668711319}
 
 **O algoritmo otimiza para um resultado favorável para cada visita.**
 
 * O algoritmo prevê a propensão do visitante para a conversão (ou receita estimada da conversão) para oferecer a melhor experiência.
-* Um visitante é elegível para uma nova experiência ao final de uma sessão existente (a menos que o visitante esteja no grupo de controle; nesse caso, a experiência que o visitante recebe em sua primeira visita permanece a mesma para visitas subsequentes).
+* Um visitante é qualificado para uma nova experiência ao final de uma sessão existente (a menos que o visitante esteja no grupo de controle, nesse caso, a experiência que o visitante recebe na primeira visita permanece a mesma para visitas subsequentes).
 * Em uma sessão, a previsão não muda, para manter a consistência visual.
 
 **O algoritmo se adapta às mudanças no comportamento do visitante.**
 
 * O multi-arm bandit garante que o modelo esteja sempre &quot;gastando&quot; uma pequena fração do tráfego para continuar aprendendo durante toda a vida do aprendizado da atividade e para evitar a exploração excessiva de tendências aprendidas anteriormente.
-* Os modelos subjacentes são reconstruídos a cada 24 horas usando os dados mais recentes sobre o comportamento do visitante para garantir que o Target esteja sempre explorando as preferências atuais do visitante.
+* Os modelos subjacentes são reconstruídos a cada 24 horas usando os dados de comportamento do visitante mais recentes para garantir que o Target esteja sempre explorando as preferências atuais do visitante.
 * Se o algoritmo não puder determinar as experiências vencedoras para os indivíduos, ele alternará automaticamente para mostrar a experiência geral de melhor desempenho enquanto continua a procurar por vencedores personalizados. A experiência de melhor desempenho é encontrada usando a [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 **O algoritmo otimiza continuamente para uma métrica de meta única.**
@@ -162,7 +162,7 @@ Para o [!UICONTROL Direcionamento automático], as regras básicas podem ser usa
 
 Para obter mais informações, consulte [Relatório de resumo do direcionamento automático](/help/c-reports/auto-target-summary-report.md) na seção [Relatórios](/help/c-reports/reports.md).
 
-## Vídeo de treinamento: Compreensão das Atividades de Público alvo automático ![emblema de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Noções básicas sobre as atividades de direcionamento automático ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como configurar uma atividade A/B de [!UICONTROL Direcionamento automático].
 
