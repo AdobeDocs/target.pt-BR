@@ -1,18 +1,18 @@
 ---
 keywords: email, ESP, provedor de serviços de email, rawbox, API de entrega, modelo somente para download, modelo de email, processamento em lote, email de tempo de compilação
-description: Saiba como integrar e-mail à Adobe Target Recommendations, incluindo o uso da API do Delivery do Público alvo, modelos de rawbox e modelos somente para download.
-title: Como integrar o Recommendations ao email?
+description: Saiba como integrar email ao Adobe Target Recommendations, incluindo o uso da API de entrega do Target, modelos de rawbox e modelos somente para download.
+title: Como integrar o Recommendations com o email?
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 90%
+source-wordcount: '1548'
+ht-degree: 86%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Integrar o Recommendations com o email{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Integrar o Recommendations com o email
 
 Informações sobre como integrar o email ao Recommendations.
 
@@ -59,13 +59,13 @@ Onde `clientcode` é o código de cliente do Target.
 
 Consulte a [Documentação da API de entrega](https://developers.adobetarget.com/api/#server-side-delivery) para obter mais informações.
 
-## Opção 2: Usar um modelo de email rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Opção 2: Usar um modelo de email de rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes não-Web, como provedores de serviços de email (ESPs). Como você não tem [!DNL mbox.js] ou [!DNL at.js] para usar nas solicitações de rawbox, deve criar as solicitações manualmente. Os exemplos abaixo explicam como trabalhar com solicitações de rawbox no email.
 
 >[!NOTE]
 >
->Ao usar uma rawbox e [!DNL Target], consulte o aviso de segurança importante em [Criar lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist).
+>Ao usar um rawbox e [!DNL Target], consulte o aviso de segurança importante em [Criar listas de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Target](/help/administrating-target/hosts.md#allowlist).
 
 Essa abordagem permite rastrear o desempenho das recomendações em emails, testá-las da maneira normal com uma recomendação, e continuar a rastrear o site.
 
@@ -110,7 +110,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Obrigatório para determinados tipos de critérios: exibir/exibir, exibir/comprado, comprado/comprado) | *entity_id* | A productId na qual a recomendação se baseia, como um produto abandonado no carrinho ou uma compra anterior.<br>Se exigido pelos critérios, a chamada de rawbox deve incluir a `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Se `entity.id` for transmitido, é altamente recomendável também transmitir esse parâmetro para evitar que a solicitação incremente o número de exibições de página contadas para um item, a fim de não distorcer os algoritmos baseados na visualização do produto. |  |
 | `entity.categoryId`<br>(Obrigatório para determinados tipos de critérios: mais vistos por categoria e mais vendidos por categoria) | *category_id* | A categoria na qual a recomendação se baseia, como os mais vendidos em uma categoria.<br>Se exigido pelos critérios, a chamada de rawbox deve incluir a `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Se o parâmetro `mboxNoRedirect` não estiver presente, `mboxDefault` deverá ser um URL absoluto que retornará o conteúdo padrão se nenhuma recomendação estiver disponível. Pode ser uma imagem ou outro conteúdo estático.<br>Se o parâmetro `mboxNoRedirect` estiver presente, `mboxDefault` poderá ser qualquer texto indicando que não há recomendações, por exemplo `no_content`.<br>O provedor de email precisará lidar com o caso em que esse valor é retornado e inserir o HTML padrão no email.  <br> **Práticas** recomendadas de segurança: Observe que se o domínio usado no  `mboxDefault` URL não for incluir na lista de permissões, você poderá ser exposto a um risco de vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links do Redirecionador ou `mboxDefault` por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O público alvo usa hosts para lista de permissões domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) em *Hosts*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Se o parâmetro `mboxNoRedirect` não estiver presente, `mboxDefault` deverá ser um URL absoluto que retornará o conteúdo padrão se nenhuma recomendação estiver disponível. Pode ser uma imagem ou outro conteúdo estático.<br>Se o parâmetro `mboxNoRedirect` estiver presente, `mboxDefault` poderá ser qualquer texto indicando que não há recomendações, por exemplo `no_content`.<br>O provedor de email precisará lidar com o caso em que esse valor é retornado e inserir o HTML padrão no email.  <br> **Prática** recomendada de segurança: Observe que, se o domínio usado no  `mboxDefault` URL não for incluir na lista de permissões, você poderá ser exposto a um risco de Vulnerabilidade de Redirecionamento Aberto. Para evitar o uso não autorizado de links Redirecionadores ou `mboxDefault` por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O Target usa hosts para lista de permissões domínios aos quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Target](/help/administrating-target/hosts.md#allowlist) em *Hosts*. |  |
 | `mboxHost` | *mbox_host* | Este é o domínio que é adicionado ao ambiente padrão (grupo de hosts) quando a chamada é acionada. |  |
 | `mboxPC` | Empty | (Obrigatório para recomendações que usam o perfil de um visitante.)<br>Se nenhum &quot;thirdPartyId&quot; for fornecido, um novo tntId será gerado e retornado como parte da resposta. Caso contrário, fica vazio.<br>**Observação:** certifique-se de fornecer um valor exclusivo de `mboxSession` e `mboxPC` para cada destinatário de email (ou seja, para cada chamada de API). Se você não fornecer valores únicos para esses campos, a resposta da API pode ser lenta ou falhar devido ao grande número de eventos gerados em um único perfil. | 1 &lt; Comprimento &lt; 128<br>Não pode conter mais do que um único “.” (ponto).<br>O único ponto permitido é para o sufixo de localização do perfil. |
 
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` não especificado quando não existe correspondência para a solicitação e o parâmetro `mboxNoRedirect` não é especificado. |
 | `Invalid mbox name:= MBOX_NAME` | Indica que o parâmetro da `mbox` contém caracteres inválidos. |
 | `Mbox name [MBOX_NAME] is too long` | Indica que o parâmetro da `mbox` excede 250 caracteres. |
+
+## Diretrizes de capacidade para as opções 1 e 2 {#capacity}
+
+As seguintes diretrizes de capacidade se aplicam às opções de modelo de email da API de entrega e do rawbox:
+
+* As solicitações devem ser limitadas à taxa mais baixa de 1.000 solicitações por segundo ou 25 vezes o pico de tráfego diário
+* Aumente o tráfego em etapas de 200 solicitações por segundo por minuto
+
+Entre em contato com seu gerente de conta se desejar usar limites de taxa mais alta.
 
 ## Opção 3: usar o modelo somente download {#section_518C279AF0094BE780F4EA40A832A164}
 
