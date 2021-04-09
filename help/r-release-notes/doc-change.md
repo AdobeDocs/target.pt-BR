@@ -3,14 +3,14 @@ keywords: registro de alterações da documentação do target, atualizações d
 description: Mantenha-se atualizado com adições importantes e alterações na documentação do produto do Adobe Target.
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
+exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '3911'
+source-wordcount: '3926'
 ht-degree: 30%
 
 ---
-
 
 # Alterações de documentação
 
@@ -20,6 +20,7 @@ Esta página lista alterações significativas feitas na documentação do produ
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Abril de 9 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para o Target Standard/Premium versão 21.4.1 (19 de abril de 2021) |
 | 29 de março | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Novas perguntas frequentes adicionadas:<ul><li>As recomendações baseadas em itens visualizados recentemente persistem em vários dispositivos para um único visitante?</li></ul> |
 | 23 de março | [Notas de versão](/help/r-release-notes/release-notes.md) | Adição das notas de versão para a at.js versão 2.4.1. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição das notas de versão para a at.js versão 2.4.1. |
