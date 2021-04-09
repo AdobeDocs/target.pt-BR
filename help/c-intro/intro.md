@@ -4,14 +4,14 @@ description: Conheça os conceitos básicos do Adobe Target Standard e do Adobe 
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: O que é o Target?
 feature: Visão geral
+exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 43%
 
 ---
-
 
 # Introdução ao Target
 
