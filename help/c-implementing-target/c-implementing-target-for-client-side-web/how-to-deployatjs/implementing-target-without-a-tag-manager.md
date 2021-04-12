@@ -6,10 +6,10 @@ feature: Implementar o lado do servidor
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 54%
+source-wordcount: '1697'
+ht-degree: 52%
 
 ---
 
@@ -44,6 +44,7 @@ Você pode visualizar os seguintes detalhes da conta. Essas configurações não
 | [!UICONTROL Código do cliente] | O código do cliente é uma sequência específica do cliente de caracteres frequentemente necessários ao usar as APIs do Target. |
 | [!UICONTROL ID da organização IMS] | Essa ID vincula sua implementação à sua conta da [!DNL Adobe Experience Cloud]. |
 | [!UICONTROL Decisão no dispositivo] | Para ativar a decisão no dispositivo, deslize o botão para a posição &quot;ativada&quot;.<br>A tomada de decisão no dispositivo permite armazenar em cache as campanhas A/B e de Direcionamento de experiência (XT) em seu servidor e executar decisões na memória com latência próxima a zero. Para obter mais informações, consulte [Introdução ao código no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) no guia *SDKs do Adobe Target*. |
+| [!UICONTROL Inclua todas as atividades qualificadas de decisão no dispositivo existentes no artefato.] | (Condicional) Essa opção é exibida se você ativar a tomada de decisão no dispositivo.<br>Deslize a alternância para a posição &quot;ativada&quot; se desejar que todas as atividades ativas do Target qualificadas para decisão no dispositivo sejam incluídas automaticamente no artefato.<br>Deixar essa opção desativada significa que você deve recriar e ativar quaisquer atividades de decisão no dispositivo para que elas sejam incluídas no artefato de regras gerado. |
 
 ## Métodos de implementação
 
