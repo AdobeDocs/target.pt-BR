@@ -1,25 +1,23 @@
 ---
 keywords: regras de inclusão, critérios de inclusão, recomendações, criar novos critérios, promoção, promoções, filtragem dinâmica, dinâmica, valores em branco, ignorar regra de filtragem, filtro estático, filtrar por valor, correspondência de atributos de entidade, correspondência de atributos de perfil, correspondência de parâmetros, filtrar por valor, filtro estático
-description: Saiba como criar regras de inclusão no Adobe Target Recommendations para critérios e promoções. Adicione outras regras de filtragem dinâmica ou estática para obter melhores resultados.
+description: Saiba como criar regras de inclusão no Adobe Target Recommendations para critérios e promoções. Para obter melhores resultados, adicione mais regras de filtragem dinâmicas ou estáticas.
 title: Como uso as regras de inclusão estática e dinâmica no Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 41%
+source-wordcount: '1841'
+ht-degree: 19%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Uso das regras de inclusão estática e dinâmica{#use-dynamic-and-static-inclusion-rules}
+# ![PREMIUM](/help/assets/premium.png) Uso das regras de inclusão estática e dinâmica
 
-Informações sobre como criar regras de inclusão para critérios e promoções em [!DNL Adobe Target] e adicionar regras de filtragem dinâmica ou estática adicionais para obter melhores resultados para suas recomendações.
+Informações sobre como criar regras de inclusão para critérios e promoções em [!DNL Adobe Target] e adicionar regras de filtragem dinâmica ou estática para obter melhores resultados para suas recomendações.
 
->[!NOTE]
->
->O processo para criar e usar regras de inclusão para critérios e promoções é semelhante, assim como os casos de uso e exemplos. Os critérios e promoções e o uso de regras de inclusão são abordados nesta seção.
+O processo para criar e usar regras de inclusão para critérios e promoções é semelhante, assim como os casos de uso e exemplos. Os critérios e promoções e o uso de regras de inclusão são abordados nesta seção.
 
 ## Adicionar regras de filtragem aos critérios {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -45,7 +43,7 @@ As regras de inclusão dinâmica são mais eficientes do que as regras de inclus
 
 * As regras de inclusão dinâmica fornecem recomendações ao corresponder um atributo no parâmetro do perfil de um usuário ou em uma chamada de mbox.
 
-   Por exemplo, você pode criar uma recomendação de &quot;Critérios mais populares&quot; e, em seguida, definir o conjunto de recomendações retornadas, em seguida, filtrar quaisquer recomendações (em tempo real) em relação a um atributo passado quando o usuário acessa uma página onde as recomendações são exibidas.
+   Por exemplo, você pode criar uma recomendação de &quot;Critérios mais populares&quot;. Do conjunto de recomendações retornadas, você pode filtrar quaisquer recomendações (em tempo real) contra um atributo passado quando o usuário acessa uma página onde as recomendações são exibidas.
 
 * Use regras estáticas para limitar quais itens são incluídos na recomendação (em vez de usar coleções).
 
@@ -67,17 +65,29 @@ A seguinte opção está disponível para filtragem por valor:
 | --- | --- |
 | [Filtro estático](/help/c-recommendations/c-algorithms/static-value.md) | Insira manualmente um ou mais valores estáticos para filtrar. |
 
-## Critérios dinâmicos e exemplos de promoção
+## Operadores disponíveis {#operators}
 
 Os critérios e as promoções dinâmicas são muito mais eficientes do que os critérios e promoções estáticas e geram melhores resultados e envolvimento.
 
-Os seguintes exemplos fornecem ideias gerais sobre como usar promoções dinâmicas em seus esforços de marketing:
+Os exemplos a seguir fornecem ideias gerais sobre como você pode usar promoções e exclusões dinâmicas em seus esforços de marketing:
 
 | Operador | Exemplos |
 | --- | --- |
-| Igual | Usando o operador &quot;equals&quot; em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:<ul><li>mesma marca</li><li>mesma categoria</li><li>mesma categoria E de marca própria</li><li>mesma loja</li></ul> |
-| Does Not Equal | Usando o operador &quot;não é igual&quot; em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:<ul><li>uma série de TV diferente</li><li>um gênero diferente</li><li>uma série diferente de produtos</li><li>uma ID de estilo diferente</li></ul> |
-| Está entre | Usando o operador &quot;is between&quot; nas promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens que sejam:<ul><li>mais caros</li><li>mais baratos</li><li>com custo de mais ou menos 30%</li><li>episódios posteriores na mesma temporada</li><li>livros anteriores em uma série</li></ul> |
+| Igual a<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;equals&quot; em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:<ul><li>A mesma marca</li><li>A mesma categoria</li><li>A mesma categoria E da marca própria</li><li>A mesma loja</li></ul> |
+| Não é igual a<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;não é igual&quot; em promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens de:<ul><li>Uma série de TV diferente</li><li>Um gênero diferente</li><li>Uma série de produtos diferente</li><li>Uma ID de estilo diferente</li></ul> |
+| Contém subsequência de caracteres<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;contém substring&quot;, quando um visitante visualizar um item no seu site (como um produto), será possível promover outros itens que:<ul><li></li></ul> |  |
+| Não Contém subsequência de caracteres<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;não contém substring&quot;, quando um visitante visualizar um item no seu site (como um produto), será possível promover outros itens que:<ul><li></li></ul> |
+| Começa com<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;inicia com&quot;, quando um visitante visualizar um item no seu site (como um produto), será possível promover outros itens que:<ul><li></li></ul> |
+| Termina com<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;termina com&quot;, quando um visitante visualizar um item no seu site (como um produto), será possível promover outros itens que:<ul><li></li></ul> |
+| É maior que ou igual a<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;é maior ou igual a&quot;, quando um visitante visualizar um item no seu site (como um produto), será possível promover outros itens que:<ul><li>Custo igual ou mais caro</li></ul> |
+| Is Less Than or Equal To<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil, Correspondência de parâmetros e Filtro estático.) | Usando o operador &quot;é menor que ou igual a&quot;, quando um visitante visualizar um item no seu site (como um produto), será possível promover outros itens que:<ul><li>Custo igual ou menor</li><li>Excluir itens menos caros</li></ul> |
+| Está entre<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros.) | Usando o operador &quot;is between&quot; nas promoções dinâmicas, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens que sejam:<ul><li>Mais caro</li><li>Menos caro</li><li>Custo mais ou menos 30%</li><li>Episódios mais tarde na mesma estação</li><li>Livros anteriores em uma série</li></ul> |
+| Está contida em List<br>(Disponível com Correspondência de atributos de perfil e Correspondência de parâmetros.) | Usando o operador &quot;is contained in list&quot; na correspondência de atributos de perfil, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens que sejam:<ul><li>Disponível na geografia do visitante</li></ul>Ao usar esse operador, uma lista é esperada no [lado direito](#caveats) da regra. |
+| Não está contido em List<br>(Disponível com Correspondência de atributos de perfil e Correspondência de parâmetros.) | Usando o operador &quot;não está contido na lista&quot; na correspondência de atributos de perfil, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível excluir outros itens que sejam:<ul><li>Na lista dos últimos dez itens que o visitante visualizou</li></ul></ul>Ao usar esse operador, uma lista é esperada no [lado direito](#caveats) da regra. |
+| Lista Contém um item em<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros.) | Usando o operador &quot;list contains an item in&quot; na correspondência de atributos de perfil, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), você poderá recomendar outros itens que sejam:<ul><li>Associado a uma das equipes favoritas do visitante</li></ul></ul>Ao usar esse operador, uma lista é esperada em [ambos os lados](#caveats) da regra. |
+| A lista não contém um item em<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros). | Usando o operador &quot;list does not contains an item in&quot; na correspondência de atributos de parâmetro, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), você poderá excluir outros itens que sejam:<ul><li>Contido numa lista de tipos proibidos</li></ul>Ao usar esse operador, uma lista é esperada em [ambos os lados](#caveats) da regra. |
+| A Lista Contém Todos os Itens em<br>(Disponível com Correspondência de Atributos de Entidade, Correspondência de Atributos de Perfil e Correspondência de Parâmetros.) | Usando o operador &quot;lista contém todos os itens em&quot; na correspondência de atributos de parâmetro, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens que sejam:<ul><li></li></ul>Ao usar esse operador, uma lista é esperada em [ambos os lados](#caveats) da regra. |
+| A lista não contém todos os itens em<br>(Disponível com Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros). | Usando o operador &quot;lista não contém todos os itens em&quot; na correspondência de atributos de parâmetro, quando um visitante visualizar um item no seu site (como um produto, artigo ou filme), será possível promover outros itens que sejam:<ul><li></li></ul>Ao usar esse operador, uma lista é esperada em [ambos os lados](#caveats) da regra. |
 
 ## Lidar com valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -91,16 +101,16 @@ Para selecionar a ação desejada, passe o mouse sobre o ícone de engrenagem (!
 
 | Ação | Disponível para | Detalhes |
 |--- |--- |--- |
-| [!UICONTROL Ignorar esta regra de filtragem] | [!UICONTROL Correspondência de atributos de perfil ] e correspondência  [!UICONTROL de parâmetros] | Esta é a ação padrão para [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros].<br>Esta opção especifica que a regra será ignorada. Por exemplo, se houver três regras de filtragem e a terceira regra não passar nenhum valor, em vez de não retornar nenhum resultado, você poderá simplesmente ignorar a terceira regra com os valores em branco. |
-| [!UICONTROL Não mostrar nenhum resultado para este critério]<br> (somente Critérios) | [!UICONTROL Correspondência de atributos de entidade], Correspondência de atributos  [!UICONTROL de perfil] e Correspondência de  [!UICONTROL parâmetros] | Esta é a ação padrão para [!UICONTROL Correspondência de atributos de entidade].<br>[!DNL Target]Esta ação é a forma como o lidava com os valores em branco antes da adição desta opção: nenhum resultado será mostrado para este critério. |
-| [!UICONTROL Não promover nenhum item<br> (somente Promoções)] | [!UICONTROL Correspondência de atributos de entidade], Correspondência de atributos  [!UICONTROL de perfil] e Correspondência de  [!UICONTROL parâmetros] | Esta é a ação padrão para [!UICONTROL Correspondência de atributos de entidade].<br>[!DNL Target]Esta ação é a forma como o lidava com os valores em branco antes da adição desta opção: nenhum resultado será mostrado para este critério. |
+| [!UICONTROL Ignorar esta regra de filtragem] | [!UICONTROL Correspondência de atributos de perfil ] e correspondência  [!UICONTROL de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros].<br>Esta opção especifica que a regra será ignorada. Por exemplo, se houver três regras de filtragem e a terceira regra não passar nenhum valor, em vez de não retornar nenhum resultado, você poderá simplesmente ignorar a terceira regra com os valores em branco. |
+| [!UICONTROL Não mostrar nenhum resultado para este critério]<br> (somente Critérios) | [!UICONTROL Correspondência de atributos de entidade], Correspondência de atributos  [!UICONTROL de perfil] e Correspondência de  [!UICONTROL parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de atributos de entidade].<br>Esta ação é a forma como os valores vazios são  [!DNL Target] tratados antes da adição desta opção: nenhum resultado é mostrado para este critério. |
+| [!UICONTROL Não promover nenhum item<br> (somente Promoções)] | [!UICONTROL Correspondência de atributos de entidade], Correspondência de atributos  [!UICONTROL de perfil] e Correspondência de  [!UICONTROL parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de atributos de entidade].<br>Esta ação é a forma como os valores vazios são  [!DNL Target] tratados antes da adição desta opção: nenhum resultado é mostrado para este critério. |
 | [!UICONTROL Usar um valor estático] | [!UICONTROL Correspondência de atributos de entidade], Correspondência de atributos  [!UICONTROL de perfil] e Correspondência de  [!UICONTROL parâmetros] | Se um valor estiver em branco, você poderá optar por usar um valor estático. |
 
-## Avisos {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Avisos {#caveats}
 
 >[!IMPORTANT]
 >
->Atributos de tipo de dados diferentes podem não ser compatíveis em critérios ou promoções dinâmicas durante o tempo de execução com os operadores “é igual a” e “não é igual a”. Você deve usar os valores [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] e [!UICONTROL Environment] de maneira inteligente no lado direito se o lado esquerdo tiver atributos predefinidos ou atributos personalizados.
+>Atributos de tipo de dados diferentes podem não ser compatíveis em critérios ou promoções dinâmicas durante o tempo de execução com os operadores “é igual a” e “não é igual a”. Use os valores [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] e [!UICONTROL Environment] de forma inteligente no lado direito se o lado esquerdo tiver atributos predefinidos ou atributos personalizados.
 
 ![](assets/left_right.png)
 
