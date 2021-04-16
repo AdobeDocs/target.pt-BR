@@ -6,9 +6,9 @@ feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3499'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->A decisão no dispositivo está programada para ser lançada na versão 21.4.1 do Target Standard/Premium (19 de abril de 2021).
+>A funcionalidade de decisão no dispositivo está programada para ser lançada na versão 21.4.1 do Target Standard/Premium (19 de abril de 2021).
 
 A partir da versão 2.5, a at.js oferece decisão no dispositivo. A decisão no dispositivo permite armazenar em cache as atividades [A/B Test](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) (XT) no navegador para executar a decisão na memória sem uma solicitação de rede de bloqueio para a [!DNL Adobe Target] Edge Network.
 
@@ -109,9 +109,9 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | A biblioteca at.js faz uma solicitação para recuperar o artefato da regra JSON do Akamai CDN mais próximo ao visitante. |
 | 5 | O Akamai CDN responde com o artefato da regra JSON. |
 | 6 | O artefato da regra JSON é armazenado em cache localmente no navegador do visitante. |
@@ -167,7 +167,7 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
 | 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | Uma solicitação de carregamento de página é feita à Rede de borda da Adobe Target, incluindo todos os parâmetros configurados, como (ECID, ID do cliente, Parâmetros personalizados, Perfil de usuário, e assim por diante). |
@@ -195,9 +195,9 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | Uma solicitação é feita para recuperar uma experiência. |
 | 5 | A biblioteca at.js confirma que o artefato da regra JSON já foi armazenado em cache e executa a decisão na memória para recuperar a experiência. |
 | 6 | Os elementos testados estão ocultos. |
