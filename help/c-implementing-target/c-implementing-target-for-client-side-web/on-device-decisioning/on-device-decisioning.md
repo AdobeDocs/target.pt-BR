@@ -1,14 +1,14 @@
 ---
-keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning
+keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning; at.js
 description: Saiba como executar a decisão no dispositivo com a biblioteca at.js
 title: Como o On-device Decisioning funciona com a biblioteca JavaScript da at.js?
 feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -111,7 +111,7 @@ A lista a seguir corresponde aos números no diagrama:
 | --- | --- |
 | 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | A biblioteca at.js faz uma solicitação para recuperar o artefato da regra JSON do Akamai CDN mais próximo ao visitante. |
 | 5 | O Akamai CDN responde com o artefato da regra JSON. |
 | 6 | O artefato da regra JSON é armazenado em cache localmente no navegador do visitante. |
@@ -134,7 +134,7 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
 | 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | A biblioteca at.js interpreta o artefato da regra JSON e executa a decisão na memória para recuperar a experiência. |
@@ -167,9 +167,9 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | Uma solicitação de carregamento de página é feita à Rede de borda da Adobe Target, incluindo todos os parâmetros configurados, como (ECID, ID do cliente, Parâmetros personalizados, Perfil de usuário, e assim por diante). |
 | 5 | Paralelamente, a at.js faz uma solicitação para recuperar o artefato da regra JSON do Akamai CDN mais próximo ao visitante. |
 | 6 | (Adobe Target Edge Network) Os scripts de perfil são executados e, em seguida, fazem o feed na Loja de perfis. A Loja de perfil solicita públicos qualificados da Biblioteca de público-alvo (por exemplo, públicos-alvo compartilhados de [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] e assim por diante). |
@@ -197,7 +197,7 @@ A lista a seguir corresponde aos números no diagrama:
 | --- | --- |
 | 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | Uma solicitação é feita para recuperar uma experiência. |
 | 5 | A biblioteca at.js confirma que o artefato da regra JSON já foi armazenado em cache e executa a decisão na memória para recuperar a experiência. |
 | 6 | Os elementos testados estão ocultos. |
