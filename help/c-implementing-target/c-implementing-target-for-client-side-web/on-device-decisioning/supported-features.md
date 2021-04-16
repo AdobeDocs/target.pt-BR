@@ -4,10 +4,11 @@ description: Saiba quais recursos são compatíveis com a tomada de decisão no 
 title: Quais recursos são compatíveis com o On-Device Decisioning
 feature: 'at.js '
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 11%
 
 ---
@@ -53,11 +54,43 @@ A tabela a seguir indica quais regras de público-alvo são suportadas ou não p
 
 Para manter a latência mínima para atividades de decisão no dispositivo com públicos baseados em geografia, o Adobe recomenda que você forneça os valores geográficos sozinho na chamada para [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md). Defina o objeto geográfico no contexto da solicitação. Isso significa, a partir do navegador, uma maneira de determinar a localização de cada visitante. Por exemplo, é possível executar uma pesquisa de IP para geografia usando um serviço configurado. Alguns provedores de hospedagem, como o Google Cloud, fornecem essa funcionalidade por meio de cabeçalhos personalizados em cada `HttpServletRequest`.
 
-(Código a ser)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 No entanto, se você não conseguir realizar pesquisas de IP para geo em seu servidor, mas ainda quiser executar decisões no dispositivo para solicitações [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) que contenham públicos baseados em geografia, isso também será suportado. A desvantagem dessa abordagem é que ela usa uma pesquisa remota de IP para geografia, o que adiciona latência a cada chamada `getOffers`. Essa latência deve ser menor do que uma chamada `getOffers` com decisão do lado do servidor, pois ela atinge um CDN localizado próximo ao seu servidor. Forneça apenas o campo &quot;ipAddress&quot; no objeto Geográfico no Contexto de sua solicitação para que o SDK recupere a localização geográfica do endereço IP do visitante. Se qualquer outro campo além do &quot;ipAddress&quot; for fornecido, o SDK [!DNL Target] não buscará os metadados de localização geográfica para resolução.
 
-(Código a ser)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### Método de alocação
 
