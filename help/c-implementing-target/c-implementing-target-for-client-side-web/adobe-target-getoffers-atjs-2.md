@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;obter ofertas;at.js; funções;função
-description: Use a função adobe.público alvo.getOffers() e suas opções para que a biblioteca do Adobe Target at.js acione solicitações para obter várias ofertas de Público alvo. (at.js 2.x)
-title: Como uso a função adobe.público alvo.getOffers()?
-feature: at.js
+description: Use a função adobe.target.getOffers() e suas opções para a biblioteca at.js do Adobe Target acionar solicitações para obter várias ofertas do Target. (at.js 2.x)
+title: Como uso a função adobe.target.getOffers() ?
+feature: 'at.js '
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
 | consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. Esta chave é uma cadeia de caracteres exclusiva por visitante. |
+| decisioningMethod | String | Não | &quot;lado do servidor&quot;, &quot;no dispositivo&quot;, &quot;híbrido&quot; |
 | solicitação | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
 | timeout | Número | Não | tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
 
@@ -31,7 +32,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 >[!NOTE]
 >
->Consulte a [documentação da API do Delivery](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
+>Consulte a [Documentação da API de entrega](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
 
 | Nome do campo | Obrigatório? | Limitações | Descrição |
 | --- | --- | --- | --- |
@@ -74,7 +75,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | Solicitação > executar > mboxes > mbox > ordem > total | Não | `>=` 0 | Recupere as ofertas de determinada mbox com os totais da ordem especificados. |
 | Solicitação > executar > mboxes > mbox > ordem > purchasedProductIds | Não | Nenhum valor em branco<br>Tamanho máximo de cada valor = 50<br>Concatenado e separado por vírgula<br>Tamanho total das IDs do produto `<=` 250 | Recupere as ofertas de determinada mbox com as IDs do produto adquirido da ordem especificadas. |
 
-## Chamar getOffers() para todas as visualizações
+## Chame getOffers() para todas as exibições
 
 ```javascript
 adobe.target.getOffers({
@@ -86,7 +87,26 @@ adobe.target.getOffers({
 });
 ```
 
-## Chame getOffers() para recuperar as visualizações mais recentes com os parâmetros enviados e os parâmetros de perfil
+## Chame getOffers() para tomar uma decisão no dispositivo
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
+```
+
+## Chame getOffers() para recuperar as exibições mais recentes com os parâmetros e parâmetros do perfil transmitidos
 
 ```javascript
 adobe.target.getOffers({
@@ -107,7 +127,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Chame getOffers() para recuperar mboxes com parâmetros e parâmetros de perfil enviados.
+## Chame getOffers() para recuperar mboxes com parâmetros e parâmetros de perfil passados.
 
 ```javascript
 adobe.target.getOffers({
@@ -186,7 +206,7 @@ adobe.target.getOffers({
 }
 ```
 
-A carga pode ser encaminhada para a Adobe Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+A carga pode ser encaminhada para o Adobe Analytics por meio da [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Buscar e renderizar dados de várias mboxes via getOffers() e applyOffers() {#multiple}
 
@@ -267,9 +287,9 @@ Este exemplo usa a variável de contagem para criar os seletores de CSS. Em um c
 
 Observe que este exemplo usa `prefetch > mboxes`, mas você também pode usar `execute > mboxes`. Certifique-se de que, se você usar a pré-busca em `getOffers()`, também deverá usá-la na invocação de `applyOffers()`.
 
-## Chame getOffers() para executar uma pageLoad
+## Chame getOffers() para executar um pageLoad
 
-O exemplo a seguir mostra como executar pageLoad usando getOffers() com at.js 2.*x* 
+O exemplo a seguir mostra como executar um pageLoad usando getOffers() com o at.js 2.*x* 
 
 ```javascript
 adobe.target.getOffers({
