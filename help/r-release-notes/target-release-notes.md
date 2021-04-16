@@ -5,10 +5,10 @@ title: Quais novos recursos serão incluídos na próxima versão?
 feature: ' Notas de versão '
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 24%
+source-wordcount: '429'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 9 de abril de 2021**
+**Última atualização: 16 de abril de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -52,6 +52,15 @@ Esta versão contém os seguintes aprimoramentos, correções e alterações.
    * A Lista Não Contém Todos Os Itens Em
 
 * Correção de um problema que causava o carregamento infinito se a solicitação falhasse após alterar o ambiente ao criar uma exclusão de recomendações. (TGT-39948)
+
+## at.js versão 2.5.0 (19 de abril de 2021)
+
+Essa versão da at.js inclui os seguintes aprimoramentos:
+
+* Suporte ao On-device Decisioning para at.js
+* Suporte a links de visualização para atividades do Automated Personalization
+
+Esta versão também remove o suporte ao Microsoft Internet Explorer 10 e versões posteriores.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
