@@ -3,14 +3,14 @@ keywords: qa, visualização, links de visualização, adobe target, target
 description: Saiba como usar os URLs de controle de qualidade do Adobe Target para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
 title: Como faço para garantir a qualidade das atividades?
 feature: Atividades
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 79%
+source-wordcount: '1546'
+ht-degree: 78%
 
 ---
-
 
 # Controle de qualidade da atividade {#activity-qa}
 
@@ -21,6 +21,9 @@ Use URLs de controle de qualidade em [!DNL Adobe Target] para realizar o control
 O controle de qualidade da atividade permite que você teste completamente suas atividades do Target antes de iniciá-las ao vivo. A funcionalidade de controle de qualidade da atividade inclui:
 
 * Links para compartilhar com membros da equipe que nunca mudam ou exigem regeneração, independentemente das atualizações feitas nas experiências ou atividades. Isso permite testar totalmente suas atividades em toda a jornada do usuário.
+
+   O suporte para links de visualização para atividades [!UICONTROL Automated Personalization] foi adicionado com [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
 * As condições do público-alvo são respeitadas opcionalmente, para que os profissionais de marketing possam testar os critérios de direcionamento ou ignorá-los para garantir a qualidade da aparência das experiências sem precisar atender a essas condições.
 * Os relatórios de controle de qualidade são capturados para que os profissionais de marketing possam confirmar que as métricas estão sendo incrementadas conforme esperado e os dados do relatório de controle de qualidade são mantidos separados dos relatórios de produção (para relatórios não-A4T).
 * A capacidade de visualizar uma experiência de forma isolada ou em conjunto com outras atividades ativas que satisfaçam os critérios de entrega (página/solicitação do Target/público-alvo).
@@ -32,7 +35,7 @@ O controle de qualidade da atividade permite que você teste completamente suas 
 
 ## Acesso e compartilhamento de um URL de controle de qualidade   {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Na página [!UICONTROL Visão geral] de uma atividade (todos os tipos exceto a Personalização automatizada), clique no link **[!UICONTROL Controle de qualidade da atividade]**.
+1. Na página [!UICONTROL Visão geral] de uma atividade, clique no link **[!UICONTROL Controle de qualidade da atividade]**.
 
    ![Link de controle de qualidade da atividade](assets/qa_link.png)
 
