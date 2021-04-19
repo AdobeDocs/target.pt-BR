@@ -5,9 +5,9 @@ title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4144'
 ht-degree: 30%
 
 ---
@@ -24,6 +24,7 @@ Esta página lista alterações significativas feitas na documentação do produ
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Adição de informações sobre `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Adição do seguinte:<ul><li>Informações sobre a chave `decisioningMethod`.</li><li>Um exemplo para &quot;getCallOffers() para tomar uma decisão no dispositivo&quot;.</li></ul> |
 |  | [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Foram adicionadas as seguintes informações:<ul><li>O artefato de decisão no dispositivo foi bem-sucedido</li><li>Falha no artefato de decisão no dispositivo</li></ul> |
+|  | [Atividades](/help/c-activities/activities.md) | Adição de informações sobre a tomada de decisão no dispositivo. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a at.js 2.5.0. |
 |  | [Controle de qualidade da atividade ](/help/c-activities/c-activity-qa/activity-qa.md) | O suporte para links de visualização para atividades [!UICONTROL Automated Personalization] foi adicionado com [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Uso das regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Foram adicionadas informações sobre os seguintes novos operadores:<ul><li>Está Contido Na Lista</li><li> Não Está Contido Na Lista</li><li>A Lista Contém Um Item Em</li><li>A Lista Não Contém Um Item Em</li><li>A Lista Contém Todos Os Itens Em</li><li>A Lista Não Contém Todos Os Itens Em</li></ul> |
