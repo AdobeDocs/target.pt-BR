@@ -5,10 +5,10 @@ title: Como posso personalizar designs de conteúdo e página de teste com o Tar
 feature: Atividades
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 96%
+source-wordcount: '2102'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ A lista de Atividades fornece uma visão geral de todas as atividades:
 | URL | O URL aparece em texto mais claro sob o nome.<br>O URL da atividade identifica onde a atividade é exibida. Isso o ajuda a identificar uma atividade rapidamente e determinar se uma determinada página já tem um teste em execução.<br>Se um teste for executado em vários URLs, um link mostrará quantos outros URLs serão usados. Clique no link para exibir a lista completa de URLs dessa atividade.<br>Você pode pesquisar com base no URL. Use a lista suspensa próxima à caixa de pesquisa e selecione [!UICONTROL Pesquisar URL]. |
 | Status | O status da atividade pode ser um dos seguintes:<ul><li>**Ao vivo**: A atividade está em execução atualmente.</li><li>**Rascunho**: A configuração da atividade foi iniciada, mas a atividade ainda não está pronta para execução.</li><li>**Programado**: A atividade está pronta para ser ativada na data e hora de início especificadas.</li><li>**Inativo**: a atividade foi pausada ou desativada.</li><li>**Sincronização**: a atividade foi salva e está sendo sincronizada com a rede de entrega do Target.</li><li>**Encerrado**: A data e hora de término especificadas foram atingidas e a atividade não está mais sendo veiculada.</li><li>**Arquivado**: a atividade foi arquivada. Você pode ativar uma atividade arquivada para usá-la novamente.</li></ul>**Observação**: Quando você executa determinadas ações, como ativar uma atividade fora da interface do usuário usando métodos de API, a atualização pode levar até dez minutos para se propagar para a interface do usuário. |
 | Fonte | Mostra onde a atividade foi criada:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Decisão no dispositivo elegível | Depois de criar uma atividade elegível para decisão no dispositivo, um rótulo que lê On-Device Decisioning Eligível é visível na página Visão geral da atividade.<br>Esse rótulo não significa que a atividade sempre será entregue por meio de decisões no dispositivo. Somente quando a at.js 2.5.0+ estiver configurada para usar a tomada de decisão no dispositivo essa atividade será executada no dispositivo. Se o at.js 2.5.0+ não estiver configurado para usar no dispositivo, essa atividade ainda será entregue por meio de uma chamada de servidor feita do at.js.<br>Consulte  [Decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | Propriedade | Mostra a [propriedade](/help/administrating-target/c-user-management/property-channel/property-channel.md) da atividade. |
 | Aumento estimado na receita | Mostra o aumento previsto na receita se 100% do público-alvo visualizar a experiência vencedora.<br>Calculado usando a seguinte fórmula:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Esse número é arredondado para uma casa decimal, no máximo, se o formulário condensado tiver apenas um único dígito antes do decimal. Por exemplo: $ 1.6 milhão, $ 60 mil, $ 900, $ 8.5 mil, $ 205 mil<br>Essa coluna mostra &quot;---&quot; para atividades que não têm dados suficientes para chamar uma exibição vencedora ou não têm uma estimativa de custo.<br>Consulte [Aumento estimado na receita](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações. |
 | Última atualização | A data em que a atividade foi atualizada pela última vez e por quem. |
@@ -108,6 +109,7 @@ Você pode filtrar pelas opções a seguir. Em cada categoria, se nada for selec
 |--- |--- |
 | Tipo | Teste A/B: [Manual](/help/c-activities/t-test-ab/test-ab.md), [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) e [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md)<br>[Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/c-recommendations/recommendations.md) |
 | Status | Ao vivo<br>Rascunho<br>Programado<br>Inativo<br>Sincronização<br>Encerrado<br>Arquivado |
+| Decisão no dispositivo elegível | Sim<br>Não |
 | Fonte de geração de relatórios | Target<br>Analytics |
 | Criador de experiência | Visual<br>Baseado em formulário |
 | Tipo de métrica | Conversão<br>Receita<br>Envolvimento |
@@ -117,16 +119,10 @@ Você pode filtrar pelas opções a seguir. Em cada categoria, se nada for selec
 
 Clique em um dos seguintes cabeçalhos para definir que as atividades sejam listadas em ordem crescente ou decrescente de acordo com o cabeçalho selecionado.
 
-* Nome da atividade
-* Tipo de atividade
+* Tipo
+* Nome
 
 ![Ordem crescente da lista de atividades](/help/c-activities/assets/activities_list_ascending.png)
-
-## Dicas e truques {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Aproveite o máximo do Adobe Target, aprenda sobre os vários recursos e veja por que você deveria experimentá-los. O recurso de Dicas e truques oferece links para vídeos, casos de uso, blogs, documentação e muito mais.
-
-O recurso Dicas e truques é exibido periodicamente na página de lista de Atividades. Depois de ler ou dispensar uma dica, ela não será exibida novamente até que a próxima dica esteja disponível. Como opção, você pode desativar a exibição de todas as dicas clicando no ícone de Ajuda > [!UICONTROL Desativar a dica do dia].
 
 ![Desativar dica do dia](/help/c-activities/assets/tip-disable-new.png)
 
@@ -136,7 +132,7 @@ Cada atividade do Target tem as seguintes limitações de conteúdo:
 
 | Item | Limite |
 |--- |--- |
-| Seletores exclusivos | 300  se um seletor se repete em uma experiência diferente, ele é contado uma vez. No entanto, se ele se repete na mesma experiência, ele é contado novamente. |
+| Seletores únicos | 300  se um seletor se repete em uma experiência diferente, ele é contado uma vez. No entanto, se ele se repete na mesma experiência, ele é contado novamente. |
 | Ofertas em cada experiência | 350 |
 | Seletores de rastreamento de cliques nas métricas | 50 |
 | Mboxes nas métricas | 50º |
