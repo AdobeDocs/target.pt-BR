@@ -1,29 +1,25 @@
 ---
-keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning; at.js
+keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning; at.js; no dispositivo; no dispositivo
 description: Saiba como executar a decisão no dispositivo com a biblioteca at.js
 title: Como o On-device Decisioning funciona com a biblioteca JavaScript da at.js?
 feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
-# Decisão no dispositivo
+# Decisão no dispositivo para at.js
 
->[!NOTE]
->
->A funcionalidade de decisão no dispositivo está programada para ser lançada na versão 21.4.1 do Target Standard/Premium (19 de abril de 2021).
-
-A partir da versão 2.5, a at.js oferece decisão no dispositivo. A decisão no dispositivo permite armazenar em cache as atividades [A/B Test](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) (XT) no navegador para executar a decisão na memória sem uma solicitação de rede de bloqueio para a [!DNL Adobe Target] Edge Network.
+A partir da versão 2.5.0, a at.js oferece decisão no dispositivo. A decisão no dispositivo permite armazenar em cache as atividades [A/B Test](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) (XT) no navegador para executar a decisão na memória sem uma solicitação de rede de bloqueio para a [!DNL Adobe Target] Edge Network.
 
 [!DNL Target] O também oferece a flexibilidade de fornecer a experiência mais relevante e atualizada de suas atividades de personalização orientadas por ML (experimentação e aprendizado de máquina) por meio de uma chamada de servidor ao vivo. Em outras palavras, quando o desempenho é mais importante, você pode optar por usar a decisão no dispositivo. No entanto, quando a experiência mais relevante, atualizada e orientada por ML for necessária, uma chamada de servidor poderá ser feita.
 
-## Quais são os benefícios?
+## Quais são os benefícios da tomada de decisões no dispositivo?
 
 Os benefícios da decisão no dispositivo incluem:
 
@@ -56,7 +52,7 @@ Com a decisão no dispositivo, [!DNL Target] introduz uma nova configuração ch
 
 ### Somente no lado do servidor
 
-[!UICONTROL O lado do servidor ] é somente o método de decisão padrão definido imediatamente quando o at.js 2.5+ é implementado e implantado em suas propriedades da Web.
+[!UICONTROL O lado do servidor ] somente é o método de decisão padrão definido imediatamente quando o at.js 2.5.0+ é implementado e implantado em suas propriedades da Web.
 
 Usar [!UICONTROL somente do lado do servidor] como configuração padrão significa que todas as decisões são tomadas na rede de borda [!DNL Target], que envolve uma chamada de servidor de bloqueio. Essa abordagem pode introduzir latência incremental, mas também oferece benefícios significativos, como fornecer a você a capacidade de aplicar os recursos de aprendizado de máquina do Target que incluem as atividades de [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) e [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
@@ -64,7 +60,7 @@ Além disso, aprimorar suas experiências personalizadas usando o perfil de usu�
 
 Por fim, [!UICONTROL somente no lado do servidor] permite usar a Adobe Experience Cloud e refinar públicos-alvo que podem ser direcionados por meio de segmentos do Audience Manager e Adobe Analytics.
 
-O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5+ e a rede Adobe Target Edge. Esse diagrama de fluxo captura novos visitantes e visitantes recorrentes.
+O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5.0+ e a rede Adobe Target Edge. Esse diagrama de fluxo captura novos visitantes e visitantes recorrentes.
 
 ![Diagrama de fluxo somente do lado do servidor](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/server-side-only.png)
 
@@ -89,15 +85,15 @@ A lista a seguir corresponde aos números no diagrama:
 
 ### Somente no dispositivo
 
-[!UICONTROL O On-Device ] é apenas o método de decisão que deve ser definido no at.js 2.5+, quando a tomada de decisão no dispositivo deve ser usada somente em suas páginas da Web.
+[!UICONTROL O On-Device ] é apenas o método de decisão que deve ser definido no at.js 2.5.0+, quando a tomada de decisão no dispositivo deve ser usada somente em suas páginas da Web.
 
 O On-device decisioning pode fornecer suas experiências e atividades de personalização a uma velocidade extremamente rápida, pois as decisões são tomadas a partir de um artefato de regras em cache que contém todas as suas atividades qualificadas para decisões no dispositivo.
 
 Para saber mais sobre quais atividades se qualificam para a tomada de decisão no dispositivo, consulte [Recursos compatíveis na tomada de decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
 
-Esse método de decisão deve ser usado somente se o desempenho for altamente crítico em todas as páginas que exigem decisões de [!DNL Target]. Além disso, lembre-se de que, quando esse método de decisão for selecionado, suas atividades [!DNL Target] que não se qualificam para a tomada de decisão no dispositivo não serão entregues ou executadas. A biblioteca at.js 2.5+ está configurada para procurar somente o artefato de regras em cache para tomar decisões.
+Esse método de decisão deve ser usado somente se o desempenho for altamente crítico em todas as páginas que exigem decisões de [!DNL Target]. Além disso, lembre-se de que, quando esse método de decisão for selecionado, suas atividades [!DNL Target] que não se qualificam para a tomada de decisão no dispositivo não serão entregues ou executadas. A biblioteca at.js 2.5.0+ está configurada para procurar somente o artefato de regras em cache para tomar decisões.
 
-O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5+ e a Akamai CDN. O Akamai CDN armazena em cache o artefato de regras para a primeira visita do visitante. Para a primeira visita à página de um novo visitante, o artefato de regras JSON deve ser baixado do Akamai CDN para ser armazenado em cache localmente no navegador do visitante. Após o download do artefato de regras JSON, a decisão é tomada imediatamente sem uma chamada de rede de bloqueio. O diagrama de fluxo a seguir captura novos visitantes.
+O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5.0+ e a Akamai CDN. O Akamai CDN armazena em cache o artefato de regras para a primeira visita do visitante. Para a primeira visita à página de um novo visitante, o artefato de regras JSON deve ser baixado do Akamai CDN para ser armazenado em cache localmente no navegador do visitante. Após o download do artefato de regras JSON, a decisão é tomada imediatamente sem uma chamada de rede de bloqueio. O diagrama de fluxo a seguir captura novos visitantes.
 
 ![Diagrama de fluxo somente no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only.png)
 
@@ -109,9 +105,9 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | A biblioteca at.js faz uma solicitação para recuperar o artefato da regra JSON do Akamai CDN mais próximo ao visitante. |
 | 5 | O Akamai CDN responde com o artefato da regra JSON. |
 | 6 | O artefato da regra JSON é armazenado em cache localmente no navegador do visitante. |
@@ -122,7 +118,7 @@ A lista a seguir corresponde aos números no diagrama:
 | 11º | A página da Web inteira é carregada. |
 | 12º | Os dados do [!DNL Analytics] são enviados ao servidores de Coleção de dados. Os dados direcionados correspondem aos dados [!DNL Analytics] por meio da SDID e são processados no armazenamento de relatório [!DNL Analytics]. [!DNL Analytics][!DNL Analytics]Em seguida, os dados do podem ser visualizados no e no pelos relatórios do Analytics for Target (A4T).[!DNL Target] |
 
-O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5+ e o artefato de regra JSON armazenado em cache para a ocorrência de página subsequente do visitante ou a visita recorrente. Como o artefato de regras JSON já está em cache e disponível no navegador, a decisão é tomada imediatamente sem uma chamada de rede de bloqueio. Esse diagrama de fluxo captura a navegação de página subsequente ou os visitantes recorrentes.
+O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5.0+ e o artefato de regra JSON armazenado em cache para a ocorrência de página subsequente do visitante ou a visita recorrente. Como o artefato de regras JSON já está em cache e disponível no navegador, a decisão é tomada imediatamente sem uma chamada de rede de bloqueio. Esse diagrama de fluxo captura a navegação de página subsequente ou os visitantes recorrentes.
 
 ![Diagrama de fluxo somente no dispositivo para a navegação de página subsequente e visitas repetidas](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only-subsequent.png)
 
@@ -147,13 +143,13 @@ A lista a seguir corresponde aos números no diagrama:
 
 ### Híbrido
 
- O Hybridis é o método de decisão que deve ser definido no at.js 2.5+ quando a decisão no dispositivo e as atividades que exigem uma chamada de rede para a rede do Adobe Target Edge devem ser executadas.
+ O Hybridis é o método de decisão que deve ser definido no at.js 2.5.0+, quando decisões no dispositivo e atividades que exigem uma chamada de rede para a rede do Adobe Target Edge devem ser executadas.
 
 Ao gerenciar atividades de decisão no dispositivo e atividades no lado do servidor, pode ser um pouco complicado e entediante ao pensar em como implantar e provisionar [!DNL Target] em suas páginas. Com híbrido como o método de decisão, [!DNL Target] sabe quando deve fazer uma chamada de servidor para a rede do Adobe Target Edge para atividades que exigem execução no lado do servidor e também quando executar apenas decisões no dispositivo.
 
 O artefato de regras JSON inclui metadados para informar à at.js se uma mbox tem uma atividade do lado do servidor em execução ou uma atividade de decisão no dispositivo. Esse método de decisão garante que as atividades que você pretende entregar rapidamente sejam realizadas por meio de decisões no dispositivo e para atividades que exigem personalização mais poderosa orientada por ML, essas atividades são realizadas por meio da rede Adobe Target Edge.
 
-O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5+, a Akamai CDN e a Rede de borda da Adobe Target para um novo visitante visitar sua página pela primeira vez. A solução desse diagrama é que o artefato de regras JSON é baixado de forma assíncrona enquanto as decisões são tomadas por meio da rede Adobe Target Edge.
+O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5.0+, a Akamai CDN e a Rede de borda da Adobe Target para um novo visitante visitar sua página pela primeira vez. A solução desse diagrama é que o artefato de regras JSON é baixado de forma assíncrona enquanto as decisões são tomadas por meio da rede Adobe Target Edge.
 
 Essa abordagem garante que o tamanho do artefato, que pode incluir muitas atividades, não influencie negativamente a latência da decisão. Baixar o artefato de regras JSON de forma síncrona e tomar a decisão posteriormente também pode ter efeitos adversos na latência e pode ser inconsistente. Portanto, o método de decisão híbrido é uma recomendação de prática recomendada para sempre fazer uma chamada do lado do servidor para a decisão de um novo visitante, e como o artefato de regras JSON é armazenado em cache em paralelo. Para quaisquer visitas de página subsequentes e visitas de retorno, as decisões são feitas do cache e na memória por meio do artefato de regras JSON.
 
@@ -183,7 +179,7 @@ A lista a seguir corresponde aos números no diagrama:
 | 14. | A página da Web inteira é carregada. |
 | 15 | Os dados do [!DNL Analytics] são enviados ao servidores de Coleção de dados. Os dados direcionados correspondem aos dados [!DNL Analytics] por meio da SDID e são processados no armazenamento de relatório [!DNL Analytics]. Em seguida, os dados do [!DNL Analytics] podem ser visualizados no [!DNL Analytics] e no [!DNL Target] pelos relatórios do [!UICONTROL Analytics for Target] (A4T). |
 
-O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5+ e o artefato de regras JSON armazenado em cache para uma navegação de página subsequente ou uma visita de retorno. Nesse diagrama, concentre-se apenas no caso de uso em que uma decisão no dispositivo é tomada para a navegação da página subsequente ou a visita de retorno. Lembre-se de que, dependendo de quais atividades estão ativas para determinadas páginas, uma chamada do lado do servidor pode ser feita para executar decisões do lado do servidor.
+O diagrama a seguir ilustra a interação entre o visitante, o navegador, a at.js 2.5.0+ e o artefato de regras JSON armazenado em cache para uma navegação de página subsequente ou uma visita de retorno. Nesse diagrama, concentre-se apenas no caso de uso em que uma decisão no dispositivo é tomada para a navegação da página subsequente ou a visita de retorno. Lembre-se de que, dependendo de quais atividades estão ativas para determinadas páginas, uma chamada do lado do servidor pode ser feita para executar decisões do lado do servidor.
 
 ![Diagrama de fluxo híbrido para a navegação de página subsequente e visitas repetidas](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/hybrid-subsequent.png)
 
@@ -209,7 +205,7 @@ A lista a seguir corresponde aos números no diagrama:
 
 ## Como ativar a tomada de decisão no dispositivo?
 
-A decisão no dispositivo está disponível para todos os [!DNL Target] clientes que usam o At.js 2.5+.
+A decisão no dispositivo está disponível para todos os clientes [!DNL Target] que usam o At.js 2.5.0+.
 
 Para ativar a decisão no dispositivo:
 
@@ -233,10 +229,10 @@ Depois de ativar o botão [!UICONTROL On-Device Decisioning], [!DNL Target] come
 >
 >Certifique-se de ativar o botão de alternância antes de inicializar o SDK do Adobe Target para usar a tomada de decisão no dispositivo. Os artefatos da regra primeiro precisam gerar e se propagar para as CDNs do Akamai para que a decisão no dispositivo funcione. A propagação pode levar de cinco a dez minutos para que o primeiro artefato de regra seja gerado e propagado para o Akamai CDN.
 
-## Como configurar o at.js 2.5+ para usar a tomada de decisão no dispositivo?
+## Como configuro o at.js 2.5.0+ para usar a tomada de decisão no dispositivo?
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]** > **[!UICONTROL Detalhes da conta]**.
-1. Em **[!UICONTROL Métodos de implementação]** > **[!UICONTROL Método de implementação principal]**, clique em **[!UICONTROL Editar]** ao lado da versão at.js (deve ser at.js 2.5 ou posterior).
+1. Em **[!UICONTROL Métodos de implementação]** > **[!UICONTROL Método de implementação principal]**, clique em **[!UICONTROL Editar]** ao lado da versão at.js (deve ser at.js 2.5.0 ou posterior).
 
    ![Editar configurações do Método de implementação principal](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/main-implementation-method.png)
 
@@ -274,7 +270,7 @@ Você pode configurar um [!UICONTROL Método de Decisão] padrão para todas as 
 
 ### Configuração personalizada
 
-Se você definir o `decisioningMethod` em `window.targetGlobalSettings`, mas quiser substituir o `decisioningMethod` para cada decisão do Adobe Target de acordo com seu caso de uso, poderá fazer esse procedimento especificando `decisioningMethod` na chamada [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) de At.js2.5+.
+Se você definir o `decisioningMethod` em `window.targetGlobalSettings`, mas quiser substituir o `decisioningMethod` para cada decisão do Adobe Target de acordo com seu caso de uso, poderá fazer esse procedimento especificando `decisioningMethod` na chamada [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) de At.js2.5.0+.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -295,7 +291,7 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Para usar &quot;no dispositivo&quot; ou &quot;híbrido&quot; como método de decisão na chamada getOffers() , verifique se a configuração global tem `decisioningMethod` como &quot;no dispositivo&quot; ou &quot;híbrido&quot;. A biblioteca at.js 2.5+ deve saber se o artefato de regras JSON deve ser baixado e armazenado em cache imediatamente após ser carregado na página. Se o método de decisão da configuração global estiver definido como &quot;no lado do servidor&quot; e o método de decisão &quot;no dispositivo&quot; ou &quot;híbrido&quot; for passado para a chamada getOffers(), o at.js 2.5+ não terá o artefato de regra JSON armazenado em cache para executar suas decisões no dispositivo.
+>Para usar &quot;no dispositivo&quot; ou &quot;híbrido&quot; como método de decisão na chamada getOffers() , verifique se a configuração global tem `decisioningMethod` como &quot;no dispositivo&quot; ou &quot;híbrido&quot;. A biblioteca at.js 2.5.0+ deve saber se o artefato de regras JSON deve ser baixado e armazenado em cache imediatamente após ser carregado na página. Se o método de decisão da configuração global estiver definido como &quot;no lado do servidor&quot; e o método de decisão &quot;no dispositivo&quot; ou &quot;híbrido&quot; for passado para a chamada getOffers(), o at.js 2.5.0+ não terá o artefato da regra JSON armazenado em cache para executar suas decisões no dispositivo.
 
 ### TTL do Cache de Artefatos
 
@@ -309,7 +305,7 @@ Depois de criar uma atividade elegível para decisão no dispositivo, um rótulo
 
 ![No dispositivo Decisioning Elegível na página Visão geral da atividade.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-decisioning-eligible-label.png)
 
-Esse rótulo não significa que a atividade sempre será entregue por meio de decisões no dispositivo. Somente quando a at.js 2.5+ estiver configurada para usar a decisão no dispositivo essa atividade será executada no dispositivo. Se o at.js 2.5+ não estiver configurado para usar no dispositivo, essa atividade ainda será entregue por meio de uma chamada de servidor feita da at.js.
+Esse rótulo não significa que a atividade sempre será entregue por meio de decisões no dispositivo. Somente quando a at.js 2.5.0+ estiver configurada para usar a tomada de decisão no dispositivo essa atividade será executada no dispositivo. Se o at.js 2.5.0+ não estiver configurado para usar no dispositivo, essa atividade ainda será entregue por meio de uma chamada de servidor feita do at.js.
 
 Você pode filtrar por todas as atividades que são elegíveis para decisão no dispositivo na página [!UICONTROL Activities] por meio do filtro [!UICONTROL On-Device Decisioning Eliged] .
 
@@ -319,7 +315,7 @@ Você pode filtrar por todas as atividades que são elegíveis para decisão no 
 >
 >Depois de criar e ativar uma atividade que é elegível para decisão no dispositivo, ela pode levar de cinco a dez minutos antes de ser incluída no artefato de regras gerado e propagado para o ponto de presenças do Akamai CDN.
 
-## Resumo das etapas para garantir que minhas atividades de decisão no dispositivo sejam entregues por meio da At.js 2.5+?
+## Resumo das etapas para garantir que minhas atividades de decisão no dispositivo sejam entregues por meio da At.js 2.5.0+?
 
 1. Acesse a interface do usuário do Adobe Target e navegue até **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!DNL Account Details]** para habilitar o botão **[!UICONTROL On-Device Decisioning]**.
 1. Ative a opção **&quot;[!UICONTROL Inclua todas as atividades qualificadas de decisão no dispositivo existentes na alternância artefato]&quot;**.
@@ -328,4 +324,4 @@ Você pode filtrar por todas as atividades que são elegíveis para decisão no 
 
 1. Crie e ative um tipo de atividade [compatível com o on-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) e verifique se ele é elegível para decisão no dispositivo.
 1. Defina o **[!UICONTROL Método de decisão]** como **[!UICONTROL &quot;Híbrido&quot;]** ou **[!UICONTROL &quot;Somente no dispositivo&quot;]** por meio da interface do usuário de configurações da at.js.
-1. Baixe e implante o At.js 2.5+ em suas páginas.
+1. Baixe e implante o At.js 2.5.0+ em suas páginas.
