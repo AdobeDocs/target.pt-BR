@@ -6,14 +6,14 @@ feature: 'at.js '
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: 82c66de1d4a6680392b7e73759dc824c4df22d2f
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1252'
 ht-degree: 89%
 
 ---
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.target.getOffers() - at.js 2.x
 
 Essa função permite que você recupere várias ofertas passando em várias mboxes. Além disso, várias ofertas podem ser recuperadas para todas as exibições em atividades ativas.
 
@@ -87,7 +87,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Chame getOffers() para tomar uma decisão no dispositivo
+## getCallOffers() para tomar uma decisão no dispositivo
 
 ```javascript
 adobe.target.getOffers({ 
