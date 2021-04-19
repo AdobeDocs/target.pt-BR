@@ -5,9 +5,9 @@ title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4144'
+source-wordcount: '4155'
 ht-degree: 30%
 
 ---
@@ -26,6 +26,7 @@ Esta página lista alterações significativas feitas na documentação do produ
 |  | [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Foram adicionadas as seguintes informações:<ul><li>O artefato de decisão no dispositivo foi bem-sucedido</li><li>Falha no artefato de decisão no dispositivo</li></ul> |
 |  | [Atividades](/help/c-activities/activities.md) | Adição de informações sobre a tomada de decisão no dispositivo. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a at.js 2.5.0. |
+|  | [Implementação do Target sem um gerenciador de tags](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | Adição de informações sobre a tomada de decisão no dispositivo. |
 |  | [Controle de qualidade da atividade ](/help/c-activities/c-activity-qa/activity-qa.md) | O suporte para links de visualização para atividades [!UICONTROL Automated Personalization] foi adicionado com [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Uso das regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Foram adicionadas informações sobre os seguintes novos operadores:<ul><li>Está Contido Na Lista</li><li> Não Está Contido Na Lista</li><li>A Lista Contém Um Item Em</li><li>A Lista Não Contém Um Item Em</li><li>A Lista Contém Todos Os Itens Em</li><li>A Lista Não Contém Todos Os Itens Em</li></ul> |
 |  | [Cookies do Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services and* Administration guide) | Adição de mais informações sobre a &quot;ID da sessão&quot;. |
