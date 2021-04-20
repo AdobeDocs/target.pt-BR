@@ -2,7 +2,7 @@
 keywords: Criar teste A/B;teste A/B;atividade A/B;nova atividade a/b;criar a/b
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de teste A/B diretamente em uma página ativada pelo Público alvo.
 title: Como crio um teste A/B?
-feature: Testes A/B
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

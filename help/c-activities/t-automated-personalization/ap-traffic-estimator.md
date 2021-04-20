@@ -2,7 +2,7 @@
 keywords: avaliador de tráfego, personalização automatizada, ap, estimar tráfego, direcionamento automático
 description: Use o Avaliador de tráfego do Adobe Target para determinar se você tem tráfego suficiente para que sua atividade do Automated Personalization seja bem-sucedida.
 title: Quanto tráfego é necessário para uma atividade bem-sucedida?
-feature: Personalização automatizada
+feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
 source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06

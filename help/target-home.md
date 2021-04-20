@@ -2,7 +2,7 @@
 keywords: Target, home, tópicos populares, adobe target, padrão, premium, documentação do target, documentação do adobe target
 title: Onde posso encontrar a documentação do Target?
 description: Saiba como usar o Adobe Target para personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos e outros canais digitais.
-feature: Visão geral
+feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

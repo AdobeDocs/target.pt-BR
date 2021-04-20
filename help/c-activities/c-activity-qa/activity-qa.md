@@ -2,7 +2,7 @@
 keywords: qa, visualização, links de visualização, adobe target, target
 description: Saiba como usar os URLs de controle de qualidade do Adobe Target para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
 title: Como faço para garantir a qualidade das atividades?
-feature: Atividades
+feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

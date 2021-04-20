@@ -2,7 +2,7 @@
 keywords: notas de versão, versões, atualizações, versão futura, melhorias, novos recursos, correções, atualizações, pré-lançamento
 description: Saiba mais sobre os novos recursos, aprimoramentos e correções incluídos na próxima versão do Adobe Target, incluindo SDKs, APIs e bibliotecas JavaScript.
 title: Quais novos recursos serão incluídos na próxima versão?
-feature: ' Notas de versão '
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

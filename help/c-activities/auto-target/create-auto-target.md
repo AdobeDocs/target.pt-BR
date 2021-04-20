@@ -2,7 +2,7 @@
 keywords: Criar direcionamento automático, teste A/B, atividade de direcionamento automático, nova atividade a/b, direcionamento automático, direcionamento automático para experiências personalizadas, personalizadas, otimização
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar sua atividade de Teste A/B de Direcionamento automático diretamente em uma página habilitada para o Target.
 title: Como criar uma atividade de direcionamento automático?
-feature: Direcionamento automático
+feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

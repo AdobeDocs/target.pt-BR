@@ -2,7 +2,7 @@
 keywords: implementar o target, implementação, implementar a at.js, gerenciador de tags, tomada de decisão no dispositivo, no device decisioning
 description: Saiba como especificar as configurações (detalhes da conta, métodos de implementação etc.) para implementar a biblioteca at.js do Adobe Target sem usar um gerenciador de tags.
 title: Posso implementar o Target sem um Gerenciador de tags?
-feature: Implementar o lado do servidor
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

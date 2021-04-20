@@ -2,8 +2,8 @@
 keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração de produto; perfil de produto; funções; projeto
 description: Saiba como criar espaços de trabalho separados (perfis de produto) e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais.
 title: O que são permissões de usuário empresarial e como usá-las?
-feature: Administração e configuração
-role: Administrador
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

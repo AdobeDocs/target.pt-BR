@@ -2,7 +2,7 @@
 keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; na decisão do dispositivo; artefato de regra
 description: Saiba mais sobre o artefato de regra JSON usado pelo ON-device decisioning.
 title: O que o artefato de regra JSON faz no On-Device Decisioning?
-feature: 'at.js '
+feature: at.js
 role: Developer
 translation-type: tm+mt
 source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577

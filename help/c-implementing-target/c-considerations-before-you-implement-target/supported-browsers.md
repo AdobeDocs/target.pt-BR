@@ -2,8 +2,8 @@
 keywords: Navegadores; Pré-requisitos; Requisitos; internet explorer; chrome; firefox; safari; android; surface
 description: Saiba quais navegadores da Internet a Adobe Target suporta para sua interface e para o delivery de conteúdo.
 title: Quais navegadores o Público alvo suporta?
-feature: Implementação
-role: Desenvolvedor
+feature: Implementation
+role: Developer
 translation-type: tm+mt
 source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt

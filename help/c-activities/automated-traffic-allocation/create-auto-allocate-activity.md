@@ -2,7 +2,7 @@
 keywords: criar autoalocação;teste A/B;autoalocar atividade;nova atividade a/b;autoalocar;autoalocar;autoalocar para a melhor experiência;alocar;autoalocar
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar uma atividade de teste A/B de autoalocação diretamente em uma página ativada pelo Público alvo.
 title: Como crio uma Atividade de autoalocação?
-feature: Alocação automática
+feature: Auto-Allocate
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

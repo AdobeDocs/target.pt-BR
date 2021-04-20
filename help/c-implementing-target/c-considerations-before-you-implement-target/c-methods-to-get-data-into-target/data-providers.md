@@ -2,7 +2,7 @@
 keywords: implementar; implementação; configuração; configurar; provedores de dados
 description: Obtenha dados no Target usando provedores de dados.
 title: Como Obtenho Dados No Target Usando Provedores De Dados?
-feature: Implementação
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

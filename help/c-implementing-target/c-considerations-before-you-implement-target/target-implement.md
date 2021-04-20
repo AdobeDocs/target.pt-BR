@@ -2,7 +2,7 @@
 keywords: document.write; target; implementar; implementar o target; dtm; dynamic tag management; at.js; mbox.js; target.js; mbox; adobe experience platform web skd; aep web sdk; web sdk
 description: Implemente o Adobe Target referenciando as bibliotecas do Target (at.js ou mbox.js) nas suas páginas da Web.
 title: Noções básicas sobre as bibliotecas de JavaScript do Target
-feature: Implementação
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

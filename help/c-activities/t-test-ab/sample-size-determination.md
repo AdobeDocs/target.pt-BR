@@ -2,7 +2,7 @@
 keywords: AB;A/B;AB...n;tamanho da amostra;calculador de tamanho da amostra;alocação automática;alocação automática;calculadora
 description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-sucedido no Adobe Target requer visitantes suficientes (tamanho da amostra) para melhorar sua taxa de conversão.
 title: Por quanto tempo devo executar um teste A/B?
-feature: Testes A/B
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: implementar, implementação, configuração, configurar, parâmetro de página, tomcat, url codificado, atributo de perfil na página, parâmetro mbox, atributos de perfil na página, atributo de perfil de script, API de atualização de perfil em massa, API de atualização de arquivo único, atributos de cliente, provedores de dados, dataprovider, provedor de dados
 description: Obtenha dados no Target (parâmetros de página, atributos de perfil, atributos de perfil de script, provedores de dados, APIs de atualização de perfil único e em massa, atributos do cliente).
 title: Como posso obter dados no Target?
-feature: Implementação
+feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt

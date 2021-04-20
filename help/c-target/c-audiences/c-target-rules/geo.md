@@ -2,7 +2,7 @@
 keywords: direcionamento, a4t, geografia, geolocalização, precisão de geolocalização, país, estado, cidade, CEP, dma, operadora de celular, códigos de cidade, códigos de região, códigos de país, códigos metropolitanos, scripts de perfil, scripts de perfil de geolocalização, dispositivos móveis de geolocalização
 description: Saiba como criar públicos-alvo do Adobe Target para direcionar usuários com base em sua localização geográfica, incluindo país, cidade, código postal/CEP e muito mais.
 title: Posso Direcionar A Localização Baseada Em Visitantes?
-feature: Públicos-alvo
+feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68

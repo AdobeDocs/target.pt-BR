@@ -2,7 +2,7 @@
 keywords: anúncios, construtor de habilidades, bate-papo do desenvolvedor, café break, eventos, forrester, gartner, webinar
 description: Leia anúncios e inscreva-se para eventos do Adobe Target, incluindo sessões do Skill Builder, bate-papos do desenvolvedor e do gerente de produto, webinars e muito mais.
 title: Onde posso encontrar anúncios e eventos do Target?
-feature: ' Notas de versão '
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

@@ -2,7 +2,7 @@
 keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning; at.js; no dispositivo; no dispositivo
 description: Saiba como executar a decisão no dispositivo com a biblioteca at.js
 title: Como o On-device Decisioning funciona com a biblioteca JavaScript da at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt

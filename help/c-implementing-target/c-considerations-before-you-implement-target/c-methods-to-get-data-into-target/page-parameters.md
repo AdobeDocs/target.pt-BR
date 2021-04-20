@@ -2,7 +2,7 @@
 keywords: implementar; implementação; configuração; configurar; parâmetros da página
 description: Obtenha dados no Target usando parâmetros de página.
 title: Como obtenho dados no Target usando parâmetros de página?
-feature: Implementação
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

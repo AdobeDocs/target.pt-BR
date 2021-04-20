@@ -2,8 +2,8 @@
 keywords: host; hosts; grupo de hosts; solução de problemas; práticas recomendadas; ubox; redirecionamentos; redirecionamento; lista de permissões;  lista de permissões; lista negra;  lista de bloqueios
 description: Saiba como organizar seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separados no Adobe Target.
 title: O que são hosts e como os uso?
-feature: Administração e configuração
-role: Administrador
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

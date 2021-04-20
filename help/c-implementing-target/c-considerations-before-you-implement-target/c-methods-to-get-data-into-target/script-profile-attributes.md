@@ -2,7 +2,7 @@
 keywords: implementar; implementação; configuração; configurar; configurar; atributos de perfil de script
 description: Obtenha dados no Target usando atributos de perfil de script.
 title: Como obtenho dados no Target usando atributos de perfil de script?
-feature: Implementação
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

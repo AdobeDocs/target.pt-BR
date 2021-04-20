@@ -1,7 +1,7 @@
 ---
 description: O que significam termos diferentes usados no Adobe Target? Encontre definições de termos comuns para ajudá-lo a obter mais do Target.
 title: Onde posso encontrar termos e definições usados no Target?
-feature: Visão geral
+feature: Overview
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

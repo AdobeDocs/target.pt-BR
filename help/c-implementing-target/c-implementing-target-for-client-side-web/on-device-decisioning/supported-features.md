@@ -2,7 +2,7 @@
 keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning; recursos compatíveis
 description: Saiba quais recursos são compatíveis com a tomada de decisão no dispositivo.
 title: Quais recursos são compatíveis com o On-Device Decisioning
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt

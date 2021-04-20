@@ -2,7 +2,7 @@
 keywords: implementar; implementação; configuração; configurar; configuração; atualização de perfil único
 description: Obtenha dados no Target usando a API de atualização de perfil único.
 title: Como obtenho dados no Target usando a API de atualização de perfil único?
-feature: Implementação
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 keywords: implementar; implementação; lista de permissões; lista de permissões; lista de permissões; lista de permissões; borda; bordas
 description: Exiba uma lista de hosts para ajudá-lo a adicionar as bordas do Adobe Target à lista de permissões (nós de serviço distribuídos geograficamente que garantem tempos de resposta ideais aos usuários finais).
 title: Como faço para incluir nós de borda no Target?
-feature: Privacidade e segurança
-role: Desenvolvedor
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt
