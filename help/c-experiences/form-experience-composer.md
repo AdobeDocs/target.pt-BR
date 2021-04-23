@@ -1,27 +1,27 @@
 ---
 keywords: criador de experiências baseado em forma; criador baseado em forma; refinamentos
-description: Saiba como usar o Adobe Target Form-Based Experience Composer para a criação de experiências não visuais. Use este compositor quando o VEC não estiver disponível ou não for prático de usar.
-title: Como uso o Criador de experiências baseado em forma?
-feature: Form-based Experience Composer
+description: Saiba como usar o Adobe [!DNL Target] Experience Composer baseado em formulário para a criação de experiências não visuais. Use esse compositor quando o VEC não estiver disponível ou não for prático para uso.
+title: Como uso o Experience Composer baseado em formulário?
+feature: Experience Composer baseado em formulário
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 66%
 
 ---
 
+# Experience Composer baseado em formulário
 
-# Experience Composer baseado em formulário{#form-based-experience-composer}
-
-O [!DNL Adobe Target] [!UICONTROL Criador de experiências baseado em forma] é uma interface de experiência não visual e de criação de ofertas que é útil na criação de experiências para uso em Testes A/B, Direcionamento de experiência, Automated Personalization e Recommendations atividade quando o criador de experiências visuais não está disponível ou é prático para uso. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
+O [!DNL Adobe Target] [!UICONTROL Experience Composer baseado em formulário] é uma experiência não visual e uma interface de criação de ofertas útil na criação de experiências para uso em atividades de Testes A/B, Direcionamento de experiência, Automated Personalization e Recommendations, quando o Visual Experience Composer não estiver disponível ou for prático para uso. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
 Se você está criando uma atividade do Recommendations, não há experiências. Escolha seu critério e design. Se você escolher vários critérios ou designs, o Target gera as experiências automaticamente.
 
 1. Clique em **[!UICONTROL Criar atividade]** e selecione o tipo de atividade que deseja criar.
 
    O Experience Composer baseado em formulário está disponível para testes A/B, direcionamento de experiência, personalização automatizada e atividades do Recommendations.
-1. Selecione **[!UICONTROL Criador de experiências baseado em forma]** na caixa de diálogo [!UICONTROL Criar Atividade].
+1. Selecione **[!UICONTROL Experience Composer baseado em formulário]** na caixa de diálogo [!UICONTROL Criar atividade].
 
 1. (Condicional) Escolha um espaço de trabalho e uma propriedade.
 
@@ -32,7 +32,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
    ![](assets/location_refinements.png)
 
    Essa tela é diferente se você estiver criando uma atividade do Recommendations. Atividades do Recommendations não incluem experiências.
-1. Dê um nome à atividade clicando em &quot;[!UICONTROL Atividade sem título]&quot;.
+1. Nomeie a atividade clicando em &quot;[!UICONTROL Untitled Activity]&quot;.
 1. Selecione um local.
 
    Quando você clica na caixa [!UICONTROL Selecionar local], uma lista de locais disponíveis é exibida. Selecione um desses locais. Para usar o local global entregue pela target.js, escolha &quot;target-global-mbox.&quot;
@@ -41,7 +41,7 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 
    >[!NOTE]
    >
-   >A criação de um local inserido manualmente durante a criação da atividade não cria automaticamente um novo local. O nome do local é salvo somente no contexto da atividade. O local é criado quando há uma chamada de delivery de conteúdo. Depois do local que está sendo criado, ele estará disponível para uso em outras atividades, para criação de audiências etc. na lista suspensa de locais disponíveis.
+   >Criar um local inserido manualmente durante a criação da atividade não cria um novo local automaticamente. O nome do local é salvo somente no contexto da atividade. A localização é criada quando há uma chamada de entrega de conteúdo. Após o local que está sendo criado, ele estará disponível para uso em outras atividades, para criação de públicos-alvo etc. na lista suspensa de locais disponíveis.
 
 1. Clique em **[!UICONTROL Adicionar refinamentos de público-alvo]** e escolha um ou mais [públicos-alvo](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta atividade.
 
@@ -98,14 +98,14 @@ Se você está criando uma atividade do Recommendations, não há experiências.
 
    ![](assets/change_criteria_2.png)
 
-1. (Opcional, para atividade AB, Automated Personalization e direcionamento de experiência) Para repetir esse processo para locais adicionais, clique em **[!UICONTROL Adicionar localização]** e configure o local e o conteúdo.
-1. Clique em **[!UICONTROL Avançar]** e conclua as etapas de criação da atividade como de costume para o tipo de atividade.
+1. (Opcional, para atividades AB, Automated Personalization e Direcionamento de experiência) Para repetir esse processo em locais adicionais, clique em **[!UICONTROL Adicionar localização]** e configure o local e o conteúdo.
+1. Clique em **[!UICONTROL Next]** e conclua as etapas de criação da atividade como de costume para o tipo de atividade.
 
 * [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Criar uma atividade de direcionamento de experiência](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Criar uma atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vídeo de treinamento: criador baseado em forma  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: criador baseado em forma  ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo oferece uma demonstração do compositor baseado em formulário.
 
