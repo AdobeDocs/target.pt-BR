@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;aplicar ofertas;at.js;funções;função
-description: Use a função adobe.público alvo.applyOffers() da biblioteca JavaScript do Adobe Target at.js para aplicar várias ofertas na resposta. (at.js 2.x)
-title: Como uso a função adobe.público alvo.applyOffers()?
-feature: at.js
+description: Use a função adobe.target.applyOffers() da biblioteca JavaScript Adobe [!DNL Target] at.js para aplicar várias ofertas na resposta. (at.js 2.x)
+title: Como uso a função adobe.target.applyOffers() ?
+feature: 'at.js '
 role: Developer
+exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 92%
 
 ---
-
 
 # adobe.target.applyOffers(options) - at.js 2.x
 
@@ -23,14 +23,14 @@ Essa função permite aplicar mais de uma oferta que foi recuperada por `adobe.t
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| selector | String    | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML, onde [!DNL Target] deve colocar o conteúdo da oferta. Se um seletor não for fornecido, [!DNL Target] assumirá que o elemento HTML a ser usado é HTML HEAD. |
+| selector | String    | Não | Elemento HTML ou seletor CSS usado para identificar o elemento HTML, onde [!DNL Target] deve colocar o conteúdo da oferta. Se um seletor não for fornecido, [!DNL Target] presumirá que o elemento HTML a ser usado é HEAD HTML. |
 | Resposta | Objeto | Sim | Objeto response de `getOffers()`.<br>Consulte Tabela de solicitações abaixo. |
 
 ## Resposta
 
 >[!NOTE]
 >
->Consulte a [documentação da API do Delivery](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
+>Consulte a [Documentação da API de entrega](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
 
 | Nome do campo | Descrição |
 | --- | --- |
