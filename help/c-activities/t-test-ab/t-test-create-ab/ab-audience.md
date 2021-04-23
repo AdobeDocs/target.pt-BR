@@ -1,20 +1,20 @@
 ---
 keywords: público-alvo; selecionar público-alvo; escolher público-alvo; Seletores
-description: A audiência determina quais visitantes do site são inseridos na atividade do Adobe Target.
-title: Como selecionar uma Audiência em uma Atividade A/B do Público alvo?
-feature: A/B Tests
+description: O público-alvo determina quais visitantes do site são inseridos na atividade Adobe [!DNL Target] .
+title: 'Como seleciono um público-alvo em uma atividade A/B? [!DNL Target] '
+feature: Testes A/B
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '445'
 ht-degree: 90%
 
 ---
 
-
 # Seleção do público-alvo
 
-A audiência determina quais visitantes do site são inseridos na atividade [!DNL Adobe Target].
+O público-alvo determina quais visitantes do site são inseridos na atividade [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Você também pode escolher deixar a Target  [alocar o tráfego automaticamente]
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Uso de públicos-alvo no Adobe Target (6:21)  ![Etiqueta de visão geral](/help/assets/overview.png)
+### Uso de públicos-alvo no Adobe Target (6:21)  ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Fluxo de trabalho da atividade - definição de metas (2:14) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+### Fluxo de trabalho da atividade - Direcionamento (2:14) ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração de públicos-alvo.
 
