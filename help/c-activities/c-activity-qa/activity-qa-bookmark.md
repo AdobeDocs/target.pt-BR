@@ -1,30 +1,30 @@
 ---
 keywords: qa, visualização, bookmarklet, links de visualização
-description: Saiba como usar o bookmarklet Adobe Target QA para forçar o Público alvo a liberá-lo do modo de QA.
-title: Como faço para usar o bookmarklet de QA da Atividade?
-feature: Activities
+description: Saiba como usar o Adobe [!DNL Target] QA bookmarklet to force [!DNL Target] para liberá-lo do modo de QA.
+title: Como uso o bookmarklet de controle de qualidade da atividade?
+feature: Atividades
+exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 27%
+source-wordcount: '262'
+ht-degree: 28%
 
 ---
 
-
 # Bookmarklet de controle de qualidade da atividade
 
-Informações para ajudá-lo a usar o bookmarklet de QA [!DNL Target] para forçar [!DNL Target] a liberá-lo do modo de QA.
+Informações para ajudá-lo a usar o bookmarklet de controle de qualidade [!DNL Target] para forçar [!DNL Target] a liberá-lo do modo de controle de qualidade.
 
 >[!NOTE]
 >
 >O processo para criar um bookmarklet varia dependendo do tipo e da versão do navegador. Consulte a ajuda do seu navegador ou pesquise instruções específicas na internet.
 
-## bookmarklet de QA da atividade para at.js 1.*x* 
+## Bookmarklet de controle de qualidade da atividade para at.js 1.*x* 
 
-Como o [modo de QA](/help/c-activities/c-activity-qa/activity-qa.md) é persistente, depois de navegar em um site no modo de QA, sua sessão do precisa expirar ou o precisa liberar você do modo de QA para exibir o site como um visitante normal. [!DNL Target][!DNL Target] Use o bookmarklet QA [!DNL Target] para se forçar a sair do modo de QA.
+Como o [modo de QA](/help/c-activities/c-activity-qa/activity-qa.md) é persistente, depois de navegar em um site no modo de QA, sua sessão do precisa expirar ou o precisa liberar você do modo de QA para exibir o site como um visitante normal. [!DNL Target][!DNL Target] Use o bookmarklet de controle de qualidade [!DNL Target] para forçar você a sair do modo de controle de qualidade.
 
-Para usar o bookmarklet [!DNL Target] QA, crie um bookmarklet contendo o seguinte código JavaScript e adicione-o à barra de favoritos do seu navegador:
+Para usar o [!DNL Target] bookmarklet de controle de qualidade, crie um bookmarklet que contenha o seguinte código JavaScript e o adicione à barra de favoritos do seu navegador:
 
 ```javascript
 javascript:(
@@ -43,17 +43,17 @@ javascript:(
 )();
 ```
 
-Você também pode se forçar manualmente a sair do modo de QA carregando uma página no seu site com o parâmetro `at_preview_token` com um valor vazio.
+Você também pode forçar a sua saída manualmente carregando uma página em seu site com o parâmetro `at_preview_token` com um valor vazio.
 
 Por exemplo:
 
 `https://www.mysite.com/?at_preview_token=`
 
-## bookmarklet de QA da atividade para at.js 2.*x* 
+## Bookmarklet de controle de qualidade da atividade para at.js 2.*x* 
 
-Ao contrário de at.js 1.*x*, at.js 2.*O* xdoes não é compatível com cookies de terceiros, e o modo de controle de qualidade só é aderente ao domínio próprio (por meio de um cookie primário definido pelo at.js). Assim, em at.js 2.*x*, a sessão do modo de QA é gerenciada somente no lado do cliente e nenhum cookie do modo de QA é enviado para o Público alvo.
+Em contraste com a at.js 1.*x*, at.js 2.*O* xis não é compatível com cookies de terceiros e o modo de QA é aderente somente ao domínio próprio (por meio de um cookie próprio definido pela at.js). Assim, no at.js 2.*x*, a sessão do modo de QA é gerenciada somente no lado do cliente e nenhum cookie do modo de QA é enviado para o Target.
 
-Para usar o bookmarklet [!DNL Target] QA, crie um bookmarklet contendo o seguinte código JavaScript e adicione-o à barra de favoritos do seu navegador:
+Para usar o [!DNL Target] bookmarklet de controle de qualidade, crie um bookmarklet que contenha o seguinte código JavaScript e o adicione à barra de favoritos do seu navegador:
 
 ```javascript
 javascript:(
@@ -70,7 +70,6 @@ javascript:(
     })();
 ```
 
-## Usar o bookmarklet de QA da Atividade
+## Usar o bookmarklet de controle de qualidade da atividade
 
-Clique no bookmarklet na barra de ferramentas do seu navegador.
-
+Clique no bookmarklet na barra de ferramentas do navegador.
