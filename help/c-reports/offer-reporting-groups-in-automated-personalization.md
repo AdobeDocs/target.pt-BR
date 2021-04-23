@@ -1,27 +1,27 @@
 ---
-keywords: personalização automatizada;oferta;relatórios;grupo;grupo de relatórios;personalização automatizada;;;grupo;grupo;
-description: Saiba como usar grupos de relatórios de oferta no Adobe Target Automated Personalization atividade. Usando grupos de relatórios, o Público alvo cria apenas um modelo de personalização para cada grupo de relatórios.
-title: Posso usar grupos de Relatórios de Oferta no Automated Personalization Atividade?
-feature: Reports
+keywords: personalização automatizada, oferta, relatórios, grupo, grupo de relatórios
+description: Saiba como usar grupos de relatórios de ofertas no Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] cria apenas um modelo de personalização para cada grupo de relatórios.
+title: Posso usar Grupos de relatórios de oferta nas atividades do Automated Personalization?
+feature: Relatórios
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Oferecer grupos de relatório na personalização automatizada
 
-# ![PREMIUM](/help/assets/premium.png) Oferecer grupos de relatório na personalização automatizada{#offer-reporting-groups-in-automated-personalization}
-
-Informações sobre como usar grupos de relatórios em [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) atividades.
+Informações sobre o uso de grupos de relatórios em atividades [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 Os grupos de relatórios executam duas funções-chave:
 
 * Eles permitem ver suas ofertas agrupadas em relatórios de atividade AP.
-* Eles desempenham um papel fundamental com o funcionamento dos modelos de personalização [!DNL Target].
+* Eles desempenham uma função essencial na forma como os modelos de personalização [!DNL Target] funcionam.
 
-Quando você usa grupos de relatórios, [!DNL Target] cria apenas um modelo de personalização para cada grupo de relatórios, em vez de cada oferta na atividade AP, usando os dados de todas as ofertas desse grupo.
+Quando você usa grupos de relatórios, [!DNL Target] cria apenas um modelo de personalização para cada grupo de relatórios, em vez de cada oferta na atividade de AP, usando os dados de todas as ofertas desse grupo.
 
 Se a configuração da atividade não tiver dados suficientes para criar um modelo de personalização por oferta, os grupos de relatórios poderão ajudar a reduzir os requisitos de dados para usar a Personalização automatizada. Os grupos de relatórios também podem ajudar a resolver o problema de &quot;inicialização imediata&quot; para novas ofertas, agrupando ofertas semelhantes para que cada modelo receba mais dados para treinar. Os grupos de modelagem também podem ser usados para atividades em que novas ofertas estão sendo introduzidas regularmente na atividade de AP.
 
@@ -29,11 +29,11 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
 
 >[!NOTE]
 >
->Se uma oferta for removida ou substituída de um determinado grupo de modelagem, o tráfego antigo que visualizou essa oferta específica também será excluído do grupo de modelagem. Em outras palavras, ofertas excluídas não contribuem para os dados usados para os modelos de personalização [!DNL Target] aprender.
+>Se uma oferta for removida ou substituída de um determinado grupo de modelagem, o tráfego antigo que visualizou essa oferta específica também será excluído do grupo de modelagem. Em outras palavras, as ofertas excluídas não contribuem para quais dados são usados para os modelos de personalização [!DNL Target] aprenderem.
 
 **Para configurar grupos de relatórios:**
 
-1. Na página [!UICONTROL Experiências] de uma atividade AP, clique no ícone **[!UICONTROL Gerenciar conteúdo]**.
+1. Na página [!UICONTROL Experiências] de uma atividade de AP, clique no ícone **[!UICONTROL Gerenciar conteúdo]**.
 
    ![](assets/ap_manage_content.png)
 
@@ -53,4 +53,3 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
    Para criar um novo grupo de relatórios para atribuir a oferta selecionada, selecione **[!UICONTROL Novo]**, nomeie o novo grupo de relatórios e clique em **[!UICONTROL Aplicar]**.
 
    ![](assets/ap_reporting_groups.png)
-
