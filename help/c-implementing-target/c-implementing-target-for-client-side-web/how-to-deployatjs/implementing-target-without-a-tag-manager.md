@@ -1,19 +1,19 @@
 ---
 keywords: implementar o target, implementação, implementar a at.js, gerenciador de tags, tomada de decisão no dispositivo, no device decisioning
-description: Saiba como especificar as configurações (detalhes da conta, métodos de implementação etc.) para implementar a biblioteca at.js do Adobe Target sem usar um gerenciador de tags.
-title: Posso implementar o Target sem um Gerenciador de tags?
-feature: Implement Server-side
+description: Saiba como especificar as configurações (detalhes da conta, métodos de implementação etc.) para implementar a biblioteca Adobe [!DNL Target] at.js sem usar um gerenciador de tags.
+title: Posso implementar [!DNL Target] sem um Gerenciador de tags?
+feature: Implementar o lado do servidor
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1692'
 ht-degree: 52%
 
 ---
 
-# Implementação do Target sem um gerenciador de tags
+# Implementar [!DNL Target] sem um gerenciador de tags
 
 Informações sobre como implementar [!DNL Adobe Target] sem usar um gerenciador de tags ([!DNL Adobe Experience Platform Launch] ou [!DNL Dynamic Tag Manager]).
 
@@ -124,14 +124,14 @@ Instruções para baixar a biblioteca usando a interface [!DNL Target] ou a API 
 * A equipe do Target é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### Baixe a at.js usando a interface do Target {#section_1F5EE401C2314338910FC57F9592894E}
+### Baixe a at.js usando a interface [!DNL Target] {#section_1F5EE401C2314338910FC57F9592894E}
 
 Para baixar a [!DNL at.js] na interface do [!DNL Target]:
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
 1. Na seção [!UICONTROL Métodos de implementação], clique no botão **[!UICONTROL Download]** ao lado da versão at.js desejada.
 
-### Baixe a at.js usando a API de download do Target {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Baixe a at.js usando a [!DNL Target] API de download {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Para baixar a [!DNL at.js] usando a API.
 
