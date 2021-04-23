@@ -1,19 +1,19 @@
 ---
 keywords: at.js; 2.0; 1.x; cookies
-description: Detalhes sobre como a at.js 2.x e a at.js 1.x do Adobe Target lidam com cookies
-title: Cookies do at.js
-feature: at.js
+description: Detalhes sobre como o Adobe [!DNL Target] at.js 2.x e at.js 1.x lidam com cookies
+title: Cookies da at.js
+feature: 'at.js '
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
-
-# Cookies do at.js {#at-js-cookies}
+# Cookies do at.js
 
 Informações sobre a at.js 2.x e a at.js 1.*x* comportamento de cookie.
 
@@ -112,7 +112,7 @@ O cookie possui várias configurações padrão. Você pode alterar essas config
 | Nome do cookie | mbox. |
 | Domínio do cookie | Domínio de primeiro e segundo nível a partir de onde o conteúdo será disponibilizado. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. |
 | Domínio do servidor | `clientcode.tt.omtrdc.net`, utilizando o código de cliente de sua conta. |
-| Duração do cookie | O cookie permanece no navegador do visitante dois anos após seu último login. Não é possível alterar a duração do cookie. |
+| Duração do cookie | O cookie permanece no navegador do visitante por dois anos a partir do último logon. Não é possível alterar a duração do cookie. |
 | Política P3P | O cookie é publicado com a política P3P, conforme requerido pela configuração padrão na maioria dos navegadores. Uma política P3P indica ao navegador quem está disponibilizando o cookie e como as informações serão utilizadas. |
 
 O cookie mantém uma série de valores para gerenciar a experiência de seus visitantes nas campanhas:
@@ -124,11 +124,11 @@ O cookie mantém uma série de valores para gerenciar a experiência de seus vis
 | check | Um simples valor de teste utilizado para determinar se o navegador do visitante tem suporte a cookies. Definido sempre que o usuário solicita uma página. |
 | disable | Configurado se o tempo de carga do visitante ultrapassar o tempo limite configurado no arquivo mbox.js. A duração padrão é de uma hora. |
 
-## Impacto no Target para visitantes do Safari devido às alterações no rastreamento do Apple WebKit
+## Impacto em [!DNL Target] para visitantes do Safari devido a alterações no rastreamento do Apple WebKit
 
 Lembre-se do seguinte:
 
-### Como funciona o Adobe Target Tracking?
+### Como funciona o Rastreamento de Adobe [!DNL Target]?
 
 | Cookies | Detalhes |
 |--- |--- |
@@ -147,7 +147,7 @@ Da Apple:
 |--- |--- |
 | Intelligent tracking prevention (Prevenção inteligente de rastreamento) | Para obter mais informações, consulte [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) no site WebKit Open Source Web Browser Engine. |
 | Cookies | Como o Safari gerencia cookies:<ul><li>Cookies de terceiros que não estão em um domínio que o usuário acessa diretamente nunca são salvos. Esse comportamento não é novo. Cookies de terceiros já não são suportados no Safari.</li><li>Cookies de terceiros definidos em um domínio que o usuário acessa diretamente são removidos após 24 horas.</li><li>Os cookies próprios são removidos após 30 dias se o domínio próprio for classificado como rastreamento de usuários em todos os sites. Esse problema pode se aplicar a grandes empresas que enviam usuários para domínios diferentes online. A Apple não deixou claro como exatamente esses domínios serão classificados, ou como um domínio pode determinar se eles foram classificados como usuários de rastreamento entre sites.</li></ul> |
-| Aprendizagem de máquina para identificar domínios que estão em todos os sites | Da Apple:<br>Classificador de aprendizagem de máquina: um modelo de aprendizagem de máquina é usado para classificar os principais domínios controlados de forma privada que podem controlar o usuário em todos os sites, com base nas estatísticas coletadas. Das várias estatísticas coletadas, três vetores mostraram forte sinal de classificação com base nas práticas de rastreamento atuais: sub-origem em número de domínios únicos, subestrutura em número de domínios únicos e número de domínios exclusivos redirecionados. Toda a coleta e classificação de dados acontece no dispositivo.<br>No entanto, se o usuário interagir com example.com como o domínio principal, geralmente chamado de domínio próprio, a Intelligent Tracking Prevention considera um sinal de que o usuário está interessado no site e ajusta temporariamente seu comportamento, conforme demonstrado na linha do tempo:<br>Se o usuário interagiu com example.com as últimas 24 horas, seus cookies estarão disponíveis quando `example.com` for um terceiro. Isso permite cenários de login &quot;Fazer login com minha conta X em Y&quot;.<ul><li>Os domínios visitados como domínio de nível superior não serão afetados. Sites como o OKTA, por exemplo</li><li>Identifica domínios que são subdomínios ou subestruturas da página atual em vários domínios exclusivos.</li></ul> |
+| Aprendizagem de máquina para identificar domínios que estão em todos os sites | Da Apple:<br>Classificador de aprendizagem de máquina: um modelo de aprendizagem de máquina é usado para classificar os principais domínios controlados de forma privada que podem controlar o usuário em todos os sites, com base nas estatísticas coletadas. Das várias estatísticas coletadas, três vetores mostraram forte sinal de classificação com base nas práticas de rastreamento atuais: sub-origem em número de domínios únicos, subestrutura em número de domínios únicos e número de domínios únicos redirecionados. Toda a coleta e classificação de dados acontece no dispositivo.<br>No entanto, se o usuário interagir com example.com como o domínio principal, geralmente chamado de domínio próprio, a Intelligent Tracking Prevention considera um sinal de que o usuário está interessado no site e ajusta temporariamente seu comportamento, conforme demonstrado na linha do tempo:<br>Se o usuário interagiu com example.com as últimas 24 horas, seus cookies estarão disponíveis quando `example.com` for um terceiro. Isso permite cenários de login &quot;Fazer login com minha conta X em Y&quot;.<ul><li>Os domínios visitados como domínio de nível superior não serão afetados. Sites como o OKTA, por exemplo</li><li>Identifica domínios que são subdomínios ou subestruturas da página atual em vários domínios únicos.</li></ul> |
 
 ### Como a Adobe será afetada?
 
