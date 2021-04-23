@@ -1,19 +1,19 @@
 ---
 keywords: aplicativo móvel, local de aplicativo móvel, aplicativo móvel target, métricas de sucesso no aplicativo móvel
-description: Amostra de código de visualização para ajudá-lo a aprender como criar locais e métricas de sucesso em aplicativos iOS, para que você possa usar o Adobe Target para personalizar e otimizar seu aplicativo.
-title: Como crio locais de Públicos alvos e métricas de sucesso em um aplicativo iOS?
-feature: Implement Mobile
+description: Visualize o código de amostra para ajudá-lo a criar locais e métricas de sucesso em aplicativos iOS, de modo que você possa usar o Adobe [!DNL Target] para personalizar e otimizar seu aplicativo.
+title: Como crio [!DNL Target] locais e métricas de sucesso em um aplicativo iOS?
+feature: Implementar dispositivos móveis
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 81%
 
 ---
 
-
-# iOS - Criar um local de definição e métrica de sucesso{#ios-create-a-target-location-and-success-metric}
+# iOS - Criar um local [!DNL Target] e métrica de sucesso
 
 Para usar o Target no seu aplicativo móvel, crie um local e métrica de sucesso.
 
@@ -21,7 +21,7 @@ Esta seção inclui amostras de código que podem ser usadas como molde para seu
 
 >[!NOTE]
 >
->Consulte a [documentação móvel](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) para obter uma lista de todos os métodos de Público alvo disponíveis.
+>Consulte a [documentação móvel](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) para obter uma lista de todos os métodos disponíveis no Target.
 
 Existem dois métodos primários para criar um local do Target no seu aplicativo e fazer uma solicitação:
 
