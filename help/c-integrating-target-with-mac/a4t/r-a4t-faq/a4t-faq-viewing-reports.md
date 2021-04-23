@@ -1,22 +1,22 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; relatório; relatórios; exibir relatórios; relatórios; metodologia de contagem; impressões; visitantes; visitas; métrica padrão; conversões de atividade; não especificado
-description: Encontre respostas para as perguntas mais frequentes sobre a exibição de relatórios ao usar o Analytics for Target (A4T). O A4T permite usar os relatórios do Analytics para as atividades do Target.
+description: Encontre respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics para  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
 title: Encontrar respostas para perguntas sobre como visualizar relatórios com o A4T?
 feature: Analytics for Target (A4T)
+exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 translation-type: tm+mt
-source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 39%
+source-wordcount: '2512'
+ht-degree: 37%
 
 ---
-
 
 # Exibição de relatórios - Perguntas frequentes sobre o A4T
 
 Este tópico contém respostas para as perguntas mais frequentes sobre como visualizar relatórios ao usar [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Adobe Target] (A4T).
 
-## Posso exibir meus dados de atividade do Target na Analysis Workspace? {#workspace}
+## Posso exibir meus dados de atividade [!DNL Target] no Analysis Workspace? {#workspace}
 
 Você pode usar [!DNL Analysis Workspace] para analisar suas atividades e experiências [!DNL Target]. O [painel Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) permite que você veja o incentivo e a confiança de até três métricas de sucesso. Também é possível pesquisar mais fundo usando tabelas e visualizações.
 
@@ -28,7 +28,7 @@ Os segmentos são usados com mais frequência na parte superior de um painel na 
 
 Um segmento também pode ser colocado diretamente na tabela de forma livre, mas observe que você deve sobrepô-lo em toda a tabela para preservar os cálculos de incentivo e confiança no painel A4T. Os segmentos de nível de coluna não são suportados atualmente no painel.
 
-## Quando eu aplico um segmento de ocorrência para uma atividade específica do Target, por que as experiências não relacionadas são retornadas? {#activity-segmentation}
+## Quando aplico um segmento de ocorrência para uma atividade [!DNL Target] específica, por que as experiências não relacionadas são retornadas? {#activity-segmentation}
 
 A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. (Observação: esse período de expiração pode ser ajustado pelo Atendimento ao cliente (se necessário). À medida que os visitantes navegam pelo site durante essa janela de expiração, eles fazem parte de muitas [!DNL Target] atividades, todas coletadas na dimensão.
 
@@ -75,7 +75,7 @@ Após o período de classificação, os dados são exibidos nesses relatórios, 
 
 Caso a classificação tenha sido feita para essa atividade e você ainda veja uma linha &quot;Não especificado&quot; no relatório, verifique se o relatório não está usando uma métrica não [!DNL Target] para exibir os dados. A menos que o relatório esteja usando uma métrica específica de [!DNL Target], essa linha &quot;Não especificado&quot; contém eventos para chamadas que não estão associadas a [!DNL Target]. Essa linha não conterá informações [!DNL Target] associadas (por exemplo, visitantes/visitas/impressões).
 
-## Por que as métricas do Target são enviadas ao Analytics mesmo após a desativação da atividade? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## Por que as métricas [!DNL Target] são enviadas para o Analytics mesmo após a desativação da atividade? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. Esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
 
@@ -93,28 +93,28 @@ Em 1 de janeiro, o usuário acessa o site e vê a atividade XYZ uma vez e tem ci
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 O usuário retorna em 1 de fevereiro, visualiza mais cinco páginas e não encontra mais nenhuma atividade do Target e a atividade original não está mais ativa. Mesmo que a atividade não esteja mais ativa, ela ainda está seguindo o usuário por meio da persistência de eVar. Agora os dados ficam assim:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 O usuário volta em 1 de março e vê uma nova atividade, ABC. O usuário também visualiza cinco páginas. Como a atividade XYZ ainda segue o usuário por meio da persistência, e esse usuário tem ABC definido, você verá dois itens de linha no relatório:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra. A expiração de 90 dias desse valor de eVar é redefinida em 1 de abril, portanto, você vê isso nos relatórios. E todas as atividades do Target que o usuário vê recebem o crédito pela conversão, mas o número total de conversões é deduplicado:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
-| ABC | 3 | 10º | 2 | 3 | 3 |
-| Total | 2 | 20º | 3 | 3 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10º | 2 | 1 | 1 |
+| Total | 2 | 20º | 1 | 1 | 1 |
 
 Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para relatórios [!DNL Target], como você não está colocando uma atividade [!DNL Target] em relação a outra atividade para ver qual é mais bem sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única. Não é possível que um usuário veja experiências diferentes na mesma atividade para que você não tenha que se preocupar com a contaminação cruzada do crédito do pedido.
 
@@ -124,7 +124,7 @@ Para obter mais informações, consulte [Variáveis de conversão (eVar](https:/
 
 Uma fonte de impressões para um relatório de atividade do A4T após a desativação pode ser o tráfego do modo de QA. O Target normalmente não registra eventos para uma atividade desativada, mas o Analytics não tem uma maneira de saber que as impressões estão vindo do modo de QA. Quando o relatório de atividade do Target é recuperado do Analytics, ele mostra essas impressões. Isso está funcionando conforme o projetado, pois os clientes precisam de uma maneira de verificar os relatórios do A4T, mesmo que a atividade não esteja ativa usando o modo de QA.
 
-## Por que o Analytics e o Analytics for Target (A4T) calculam números para a métrica de visitantes únicos de maneira diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Por que o Analytics e o Analytics for Adobe Target (A4T) calculam números para a métrica de visitantes únicos de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Quando você executa um teste A/B, que usa o teste t de Estudante (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que existe um horizonte de tempo fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho de amostra fixo.
 
