@@ -1,18 +1,18 @@
 ---
 keywords: variâncias de dados; análises; diferenças; variance; a4T; analytics para target; análises como fonte de relatórios; discrepâncias; discrepância
-description: Saiba mais sobre as variações de dados esperadas entre o Adobe Target e o Analytics ao não usar o Analytics for Target (A4T), o que elimina a variância dos dados completamente.
+description: Saiba mais sobre as variações de dados esperadas entre Adobe [!DNL Target] and Analytics when not using Analytics for [!DNL Target] (A4T), o que elimina a variância de dados completamente.
 title: Qual é a variação de dados esperada entre o Analytics e o A4T?
 feature: Analytics for Target (A4T)
+exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '763'
 ht-degree: 49%
 
 ---
 
-
-# Variações de dados esperadas entre o Adobe Target e o Adobe Analytics ao usar ou não o A4T
+# Variações de dados esperadas entre o Adobe [!DNL Target] e o Adobe Analytics ao usar ou não A4T
 
 Informações sobre as variações de dados esperadas entre o [!DNL Target] e o Adobe [!DNL Analytics] ao *usar* ou *não* o Analytics como a Fonte de relatórios (A4T). A4T reduz significativamente a variação de dados.
 
@@ -26,7 +26,7 @@ Estes são alguns cenários nos quais você pode experimentar a variação de da
 
    Se um teste de redirecionamento for configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25 e assim por diante), o comportamento do usuário pode não ser dividido uniformemente. Caso veja uma divisão desigual, isso significa apenas que um grupo de usuários não executou uma chamada do Analytics na página de aterrissagem mais do que os outros grupos. Essa falha na execução da chamada do Analytics para um grupo fez com que a ocorrência do Target para esse usuário fosse excluída, criando a desigualdade.
 
-   A Adobe espera abordar esse problema no futuro, à medida que as equipes da Adobe trabalharem com o A4T na Adobe Experience Platform. As equipes da Adobe estão determinando como lidar com esses diferentes eventos que ocorrem em momentos diferentes na página.
+   O Adobe espera abordar esse problema no futuro, à medida que as equipes do Adobe trabalham com o A4T na Adobe Experience Platform. As equipes de Adobe estão determinando como lidar com esses diferentes eventos que ocorrem em momentos diferentes na página.
 
    >[!NOTE]
    >
