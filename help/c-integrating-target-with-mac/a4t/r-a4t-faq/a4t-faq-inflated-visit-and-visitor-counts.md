@@ -1,30 +1,30 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; inflacionado; visita; visitante; acesso parcial; órfão; órfão; acesso parcial
-description: Encontre respostas para perguntas sobre contagens inflacionadas de visitas e visitantes ao usar o Analytics for Target (A4T). Saiba como minimizar os "dados parciais".
+description: Encontre respostas para perguntas sobre contagens inflacionadas de visitas e visitantes ao usar o Analytics para [!DNL Target] (A4T). Saiba como minimizar os "dados parciais".
 title: Onde posso encontrar perguntas frequentes sobre visitas aumentadas e contagens de visitantes com o A4T?
 feature: Analytics for Target (A4T)
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 63%
+source-wordcount: '658'
+ht-degree: 61%
 
 ---
 
-
-# Contagem aumentada de visitas e visitantes - Perguntas frequentes sobre o A4T{#inflated-visit-and-visitor-counts-a-t-faq}
+# Contagem aumentada de visitas e visitantes - Perguntas frequentes sobre o A4T
 
 Este tópico contém respostas para as perguntas mais frequentes sobre as contagens aumentadas de visitas e visitantes ao usar o Analytics como fonte de relatórios do Target (A4T).
 
 ## Por que meus dados do Analytics mostram visitas que não têm exibições de página ou outros valores de variáveis? {#section_4D8C2C2D766842E6B12F3ECC774A64D5}
 
-Quando [!DNL Adobe Analytics] é usado para medir [!DNL Target] atividades (chamadas de A4T), [!DNL Analytics] coleta dados que não estão disponíveis quando não há atividade [!DNL Target] na página. Isso ocorre porque a atividade do [!DNL Target] aciona uma chamada na parte superior da página, mas o [!DNL Analytics] geralmente aciona suas chamadas de coleta de dados na parte inferior da página. Na implementação do A4T até o momento, a Adobe inclui esses dados adicionais sempre que uma atividade [!DNL Target] estava ativa.
+Quando [!DNL Adobe Analytics] é usado para medir [!DNL Target] atividades (chamadas de A4T), [!DNL Analytics] coleta dados que não estão disponíveis quando não há atividade [!DNL Target] na página. Isso ocorre porque a atividade do [!DNL Target] aciona uma chamada na parte superior da página, mas o [!DNL Analytics] geralmente aciona suas chamadas de coleta de dados na parte inferior da página. Na implementação do A4T até o momento, o Adobe inclui esses dados adicionais sempre que uma atividade [!DNL Target] estava ativa.
 
 Para obter mais informações, consulte [Redução de visitas aumentadas e contagem de visitantes em A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## O que é um hit de dados parciais? {#section_59A203E289564576BF6821F96B0B9E11}
 
-Um hit de dados parciais ocorre quando uma guia do [!DNL Target] na parte superior da página é acionada, mas uma guia do [!DNL Analytics] na parte inferior da página não é acionada. Há várias razões pelas quais esta situação acontece. Na implementação [!DNL A4T] até o momento, a Adobe inclui dados parciais sobre esses hits sempre que uma atividade [!DNL Target] estava ativa. A partir de agora, a Adobe incluirá esses dados adicionais apenas quando as tags [!DNL Target] e [!DNL Analytics] forem acionadas.
+Um hit de dados parciais ocorre quando uma guia do [!DNL Target] na parte superior da página é acionada, mas uma guia do [!DNL Analytics] na parte inferior da página não é acionada. Há várias razões pelas quais esta situação acontece. Na implementação [!DNL A4T] até o momento, o Adobe inclui dados parciais sobre esses hits sempre que uma atividade [!DNL Target] estava ativa. A partir de agora, o Adobe incluirá esses dados adicionais somente quando as tags [!DNL Target] e [!DNL Analytics] forem acionadas.
 
 Para obter mais informações, consulte [Redução de visitas aumentadas e contagem de visitantes em A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -46,16 +46,16 @@ Para mais informações, consulte &quot;Como posso exibir as tendências histór
 
 ## Há algo que eu possa fazer para impedir que minhas páginas gerem hits de dados parciais? {#section_4B00E7E618444BE98A0798DE98F08B21}
 
-Após 14 de novembro de 2016, a Adobe incluirá os dados somente quando as tags [!DNL Target] e [!DNL Analytics] forem acionadas. Essa alteração não é retroativa. Se seus relatórios históricos mostrarem contagens infladas, você poderá excluí-las de seus relatórios criando um conjunto de relatórios virtual. Consulte &quot;Como posso visualizar as tendências históricas sem dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes em A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Depois de 14 de novembro de 2016, o Adobe incluirá os dados somente quando as tags [!DNL Target] e [!DNL Analytics] forem acionadas. Essa alteração não é retroativa. Se seus relatórios históricos mostrarem contagens infladas, você poderá excluí-las de seus relatórios criando um conjunto de relatórios virtual. Consulte &quot;Como posso visualizar as tendências históricas sem dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes em A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 Há também etapas que você pode executar para minimizar os hits de dados parciais. Para obter mais informações, consulte &quot;Quais são as práticas recomendadas para reduzir dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Se os dados do hit de dados parciais forem removidos dos relatórios, não estou perdendo dados valiosos do Target e do Analytics? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## Se os dados do hit de dados parciais forem removidos dos relatórios, não estou perdendo dados valiosos [!DNL Target] ou do Analytics? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 A inclusão de dados parciais nos relatórios do [!DNL Analytics] realmente fornece informações adicionais, mas também cria inconsistência com dados históricos de períodos em que não havia atividades do [!DNL Target] em execução. A inclusão de dados de ocorrência parcial pode causar problemas para usuários [!DNL Analytics] que estão analisando tendências ao longo do tempo.
 
 Há etapas que você pode executar para minimizar os hits de dados parciais. Para obter mais informações, consulte &quot;Quais são as práticas recomendadas para reduzir dados parciais?&quot; em [Minimizar contagens inflacionadas de visitas e visitantes no A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Existem tipos específicos de atividades do Target com maior probabilidade de causar hits de dados parciais? {#section_69837442A9B84366BEFDA4588B31E574}
+## Existem tipos específicos de atividades [!DNL Target] com maior probabilidade de causar hits de dados parciais? {#section_69837442A9B84366BEFDA4588B31E574}
 
 As ofertas de redirecionamento enviam imediatamente um usuário para uma página diferente, o que significa que o [!DNL Analytics] não é acionado na primeira página.
