@@ -1,22 +1,22 @@
 ---
-keywords: Definição de metas;Visual Experience Composer;vec;solução de problemas do Visual Experience Composer;solução de problemas;tls;tls 1.2
-description: Saiba como solucionar problemas que às vezes ocorrem no Adobe Target Visual Experience Composer (VEC) sob determinadas condições.
+keywords: Direcionamento, visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, tls, tls 1.2
+description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Visual Experience Composer (VEC) sob determinadas condições.
 title: Como soluciono problemas relacionados ao Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 89%
+source-wordcount: '800'
+ht-degree: 87%
 
 ---
 
-
 # Solução de problemas relacionados ao Visual Experience Composer
 
-Às vezes, problemas de exibição ocorrem em [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) sob determinadas condições.
+Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) sob determinadas condições.
 
-## Quando abro meu site no Visual Experience Composer, as bibliotecas do Target não são carregadas. (Somente VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando abro meu site no Visual Experience Composer, as bibliotecas [!DNL Target] não são carregadas. (Somente VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 O Target adiciona dois parâmetros (`mboxEdit=1` e `mboxDisable=1`) ao abrir o site no Visual Experience Composer.
 
@@ -33,7 +33,7 @@ Vários problemas podem afetar o desempenho da página nos compositores de exper
 
 Se ocorrerem problemas no Enhanced Experience Composer, tente desativá-lo e usar o Visual Experience Composer.
 
-Para desativar o Enhanced Experience Composer, vá até **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** e desative a opção **[!UICONTROL Ativar o Enhanced Experience Composer]**.
+Para desativar o Enhanced Experience Composer, vá para **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** e desative a opção **[!UICONTROL Ativar Enhanced Experience Composer]**.
 
 Alguns usuários veem a seguinte mensagem de erro no console:
 
