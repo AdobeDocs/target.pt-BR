@@ -1,18 +1,18 @@
 ---
 keywords: dados parciais; dados parciais; A4T; discrepâncias; analytics para target; órfão; conjunto de relatórios virtual; fictício; solução de problemas; não corrigido; inflacionado; não especificado
-description: Saiba como minimizar os efeitos de contagens inflacionadas de visitas e visitantes ao usar o Analytics for Target (A4t). Saiba o que é "dados parciais" e como reduzi-los.
+description: Saiba como minimizar os efeitos de contagens inflacionadas de visitas e visitantes ao usar o Analytics para [!DNL Target] (A4t). Saiba o que é "dados parciais" e como reduzi-los.
 title: Como minimizar as contagens aumentadas de visitas e visitantes no A4T?
 feature: Analytics for Target (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 48%
 
 ---
 
-
-# Minimizar contagens inflacionadas de visitas e visitantes no A4T{#minimizing-inflated-visit-and-visitor-counts-in-a-t}
+# Minimizar contagens inflacionadas de visitas e visitantes no A4T
 
 Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas de Visitas e Visitantes ao usar [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Adobe Target] (A4T).
 
@@ -21,7 +21,7 @@ Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas d
 >
 >Essa alteração não é retroativa. Se seus relatórios históricos mostrarem contagens aumentadas e você quiser excluí-las de seus relatórios, poderá criar um conjunto de relatórios virtuais, conforme explicado abaixo.
 >
->Além disso, várias bibliotecas JavaScript foram atualizadas para ajudar a minimizar as contagens infladas. A Adobe recomenda atualizar para as seguintes versões de biblioteca (ou mais recentes):
+>Além disso, várias bibliotecas JavaScript foram atualizadas para ajudar a minimizar as contagens infladas. O Adobe recomenda atualizar para as seguintes versões de biblioteca (ou mais recentes):
 >
 >* Serviço de ID de visitante da Experience Cloud: visitorAPI.js versão 2.3.0 ou superior.
 >* Adobe Analytics: appMeasurement.js versão 2.1.
@@ -33,23 +33,23 @@ A biblioteca mbox.js não é compatível com as ofertas de redirecionamento com 
 
 ## O que mudou? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-Quando [!DNL Adobe Analytics] é usado para medir [!DNL Target] atividades (chamadas de A4T), [!DNL Analytics] coleta dados extras que não estão disponíveis quando não há atividade [!DNL Target] na página. A atividade [!DNL Target] aciona uma chamada na parte superior da página, mas [!DNL Analytics] normalmente aciona suas chamadas de coleta de dados na parte inferior da página. Na implementação do A4T até o momento, a Adobe inclui esses dados adicionais sempre que uma atividade [!DNL Target] estava ativa. A partir de agora, a Adobe inclui esses dados adicionais apenas quando as tags [!DNL Target] e [!DNL Analytics] forem acionadas.
+Quando [!DNL Adobe Analytics] é usado para medir [!DNL Target] atividades (chamadas de A4T), [!DNL Analytics] coleta dados extras que não estão disponíveis quando não há atividade [!DNL Target] na página. A atividade [!DNL Target] aciona uma chamada na parte superior da página, mas [!DNL Analytics] normalmente aciona suas chamadas de coleta de dados na parte inferior da página. Na implementação do A4T até o momento, o Adobe inclui esses dados adicionais sempre que uma atividade [!DNL Target] estava ativa. A partir de agora, o Adobe inclui esses dados adicionais apenas quando as tags [!DNL Target] e [!DNL Analytics] forem acionadas.
 
 ## Por que a Adobe fez essa alteração? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-A Adobe orgulha-se de sua qualidade e precisão de dados. Quando a tag [!DNL Target] é acionada, mas a tag [!DNL Analytics] não, o Analytics registra &quot;dados parciais&quot; (às vezes chamados de &quot;ocorrências não corrigidas&quot;). Essas ocorrências não corrigidas não seriam capturadas por [!DNL Analytics] se não houvesse atividade [!DNL Target]. Embora a inclusão desses dados parciais nos relatórios [!DNL Analytics] forneça informações adicionais, ela também cria inconsistência com dados históricos de períodos em que não havia atividades [!DNL Target] em execução. Essa situação pode causar problemas para os usuários [!DNL Analytics] que estão analisando tendências ao longo do tempo. Com o intuito de garantir a consistência dos dados em [!DNL Analytics], a Adobe exclui todos os dados parciais.
+A Adobe orgulha-se de sua qualidade e precisão de dados. Quando a tag [!DNL Target] é acionada, mas a tag [!DNL Analytics] não, o Analytics registra &quot;dados parciais&quot; (às vezes chamados de &quot;ocorrências não corrigidas&quot;). Essas ocorrências não corrigidas não seriam capturadas por [!DNL Analytics] se não houvesse atividade [!DNL Target]. Embora a inclusão desses dados parciais nos relatórios [!DNL Analytics] forneça informações adicionais, ela também cria inconsistência com dados históricos de períodos em que não havia atividades [!DNL Target] em execução. Essa situação pode causar problemas para os usuários [!DNL Analytics] que estão analisando tendências ao longo do tempo. Para garantir a consistência dos dados em [!DNL Analytics], o Adobe exclui todos os dados parciais.
 
 ## O que contribui para dados parciais? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-A Adobe encontrou alguns clientes com altas taxas de dados parciais em [!DNL Analytics]. Altas taxas de dados parciais podem resultar de uma implementação incorreta, mas também há causas legítimas.
+O Adobe encontrou alguns clientes com altas taxas de dados parciais em [!DNL Analytics]. Altas taxas de dados parciais podem resultar de uma implementação incorreta, mas também há causas legítimas.
 
 As causas identificadas de dados parciais incluem:
 
 * **IDs de conjunto de relatórios desalinhadas (Implementação):** O conjunto de relatórios especificado durante a configuração da atividade não corresponde ao conjunto de relatórios na página em que o teste foi fornecido. Os dados não podem ser reconciliados em servidores [!DNL Analytics], portanto, parecem dados parciais.
 * **Páginas lentas: as chamadas do** [!DNL Target]  estão no topo da página e as  [!DNL Analytics] chamadas do geralmente estão no fim da página. Se a página carregar lentamente, aumenta a probabilidade de um visitante sair da página após a chamada [!DNL Target] ser acionada, mas antes da chamada [!DNL Analytics]. Páginas lentas podem ser especialmente problemáticas em sites móveis onde as conexões são geralmente mais lentas.
-* **Erros de página:** se houver erros de JavaScript ou outros cenários em que cada um dos pontos de contato não é acionado (Serviços de Experience Cloud ID, Target e Analytics), resultados de dados parciais.
+* **Erros de página:** se houver erros de JavaScript ou outros cenários em que cada um dos pontos de contato não é acionado (serviço de Experience Cloud ID, Target e Analytics), resultados de dados parciais.
 * **Ofertas de redirecionamento na  [!DNL Target] atividade:** para ofertas de redirecionamento em atividades que usam o A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Perguntas frequentes das Ofertas de redirecionamento - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Versões antigas das bibliotecas:** Ao longo do último ano, a Adobe fez várias melhorias nas bibliotecas do JavaScript (  [!DNL appMeasurement.js],  `at.js/mbox.js` e  `visitorAPI.js`) para garantir que os dados sejam enviados da maneira mais eficiente possível. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Versões antigas das bibliotecas:** Ao longo do último ano, o Adobe fez várias melhorias nas bibliotecas do JavaScript (  [!DNL appMeasurement.js],  `at.js/mbox.js` e  `visitorAPI.js`) para garantir que os dados sejam enviados da maneira mais eficiente possível. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Quais são as práticas recomendadas para reduzir os dados parciais? {#section_065C38501527451C8058278054A1818D}
 
@@ -68,7 +68,7 @@ Embora essas informações não sejam disponibilizadas diretamente no [!DNL Anal
 
 ## Como posso visualizar as tendências históricas sem dados parciais? {#section_4C9DED560FAD4428B362DDA2064897C3}
 
-Essa alteração de processamento afeta dados somente após a data de lançamento (14 de novembro de 2016). Se você quiser ajustar as métricas históricas para correspondência, a Adobe recomenda criar um segmento para excluir dados parciais.
+Essa alteração de processamento afeta dados somente após a data de lançamento (14 de novembro de 2016). Se você quiser ajustar as métricas históricas para correspondência, o Adobe recomenda criar um segmento para excluir dados parciais.
 
 As informações a seguir relacionadas a essa alteração incluem instruções para ajudar você a definir o segmento e aplicá-lo a um conjunto de relatórios virtual para que este segmento sempre seja aplicado às suas visualizações do [!DNL Analytics].
 
@@ -95,7 +95,7 @@ Ao criar o conjunto de relatórios virtuais, especifique a configuração a segu
 * E
 * Instâncias de link de saída: não existe
 
-**Ocorrências órfãs:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Essas ocorrências são o que a Adobe define como ocorrências &quot;órfãs&quot;. Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
+**Ocorrências órfãs:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Essas ocorrências são o que o Adobe define como ocorrências &quot;órfãs&quot;. Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
 
 Para minimizar esses acessos &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) que exclua esses acessos conforme explicado acima.
 
