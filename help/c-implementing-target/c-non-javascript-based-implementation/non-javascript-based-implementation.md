@@ -1,19 +1,19 @@
 ---
 keywords: implementação; mbox.js não javascript; adbox; redirecionador; mbox
-description: Saiba como implementar o Adobe Target em cenários que não sejam JavaScript, como usar uma AdBox ou Redirecionador.
-title: Como implementar o Público alvo para email?
-feature: Implement Email
+description: Saiba como implementar o Adobe [!DNL Target] em cenários que não utilizam JavaScript, como uma AdBox ou Redirecionador.
+title: Como implementar [!DNL Target] para Email?
+feature: Implementar Email
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 77%
 
 ---
 
-
-# Email: implementação do Target{#email-implement-target}
+# Email: implementação do Target
 
 Informações sobre a implementação do Target em cenários que não utilizam JavaScript como uma AdBox ou redirecionador.
 
@@ -30,7 +30,7 @@ Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade
 
 ## Práticas recomendadas de segurança {#security}
 
-Observe que com o Redirecionador, você pode ser exposto ao risco de uma vulnerabilidade de redirecionamento aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios de URL de redirecionamento padrão. O público alvo usa hosts para lista de permissões domínios para os quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Público alvo](/help/administrating-target/hosts.md#allowlist) em *Hosts*.
+Observe que com o Redirecionador, você pode ser exposto a um risco de Vulnerabilidade de Redirecionamento Aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios padrão de URL de redirecionamento. O Target usa hosts para lista de permissões domínios aos quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Target](/help/administrating-target/hosts.md#allowlist) em *Hosts*.
 
 ## Limitações {#section_38F559DCF1324271926608BCD4AB1227}
 
