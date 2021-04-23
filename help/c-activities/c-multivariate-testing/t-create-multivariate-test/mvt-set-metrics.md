@@ -1,20 +1,20 @@
 ---
 keywords: multivariado; mvt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-description: Saiba como especificar métricas em uma atividade de teste multivariado da Adobe Target para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
-title: Como defino métricas de metas em uma Atividade de teste multivariado (MVT)?
-feature: Multivariate Tests
+description: Saiba como especificar métricas em uma atividade Adobe [!DNL Target] Teste multivariado para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
+title: Como defino métricas de meta em uma atividade de teste multivariado (MVT)?
+feature: Testes multivariados
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 83%
+source-wordcount: '352'
+ht-degree: 82%
 
 ---
 
-
 # Definir métricas para testes multivariados
 
-Use métricas em um Teste multivariado Adobe Target para determinar quando uma visita é bem-sucedida.
+Use métricas em um teste multivariado do Adobe Target para determinar quando uma visita é bem-sucedida.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -54,7 +54,7 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
    | `-` | menos |
    | `@` | Sinal de arroba |
 
-## Vídeo de treinamento: métricas de atividade (7:43)  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: métricas de atividade (7:43)  ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 
