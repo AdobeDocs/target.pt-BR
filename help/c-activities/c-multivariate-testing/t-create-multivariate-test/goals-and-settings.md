@@ -1,20 +1,20 @@
 ---
-keywords: configurações de atividade;metas e configurações;multivariado;mvt
-description: Saiba como usar a página Metas e configurações no Adobe Target para especificar informações sobre as metas de uma atividade de teste multivariado (MVT).
-title: Como especificar metas e configurações em uma Atividade de teste multivariado (MVT)?
-feature: Multivariate Tests
+keywords: configurações de atividade, metas e configurações, multivariado, mvt
+description: Saiba como usar a página Metas e configurações no Adobe [!DNL Target] para especificar informações sobre as metas de uma atividade de Teste multivariado (MVT).
+title: Como faço para especificar metas e configurações em uma atividade de teste multivariado (MVT)?
+feature: Testes multivariados
+exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 90%
 
 ---
 
-
 # Metas e configurações (testes multivariados)
 
-A página Metas e configurações no Adobe Target é onde você insere informações sobre as metas dos testes [!UICONTROL Multivariados] (MVT).
+A página Metas e configurações no Adobe Target é onde você insere informações sobre as metas de seus testes [!UICONTROL Multivariados] (MVT).
 
 * Configurações de atividade
 * Configurações da geração de relatórios
@@ -38,9 +38,9 @@ Dependendo das configurações, a interface do usuário e as opções de Priorid
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-Se essa opção não estiver ativada em S[!UICONTROL Administration] > [!UICONTROL Relatórios] (o padrão), especifique uma prioridade: Baixa, Média ou Alta.
+Se esta opção não estiver ativada em S[!UICONTROL Administration] > [!UICONTROL Reporting] (o padrão), especifique uma prioridade: Baixo, Médio ou Alto.
 
-Para ativar prioridades refinadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatórios] e, em seguida, alterne a opção Ativar prioridades granuladas para a posição &quot;Ligado&quot;.
+Para ativar as prioridades otimizadas, clique em [!UICONTROL Administration] > [!UICONTROL Reporting] e alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -154,7 +154,7 @@ Digite qualquer informação sobre sua atividade que seja útil para manter ao s
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Configurações de atividade (3:02) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+### Configurações da atividade (3:02) ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
@@ -166,7 +166,7 @@ Este vídeo inclui informações sobre as configurações da atividade.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Criando testes multivariados (9:25) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+### Criação de testes multivariados (9:25) ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. Metas e configurações são discutidas a partir de 7:00.
 
