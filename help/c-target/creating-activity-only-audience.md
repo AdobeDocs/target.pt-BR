@@ -1,18 +1,18 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, somente atividade, adhoc
-description: Saiba como criar audiências somente para atividades no Adobe Target que são para uso único na atividade atual e não são armazenadas na Biblioteca Audiência.
-title: Posso criar uma Audiência para usar apenas uma vez?
-feature: Audiences
+description: Saiba como criar públicos-alvo somente atividade no Adobe [!DNL Target] que são para uso único na atividade atual e não são armazenados na Biblioteca de públicos-alvo.
+title: Posso criar um público-alvo para usá-lo apenas uma vez?
+feature: Públicos-alvo
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# Criar um público-alvo com apenas uma atividade{#create-an-activity-only-audience}
+# Criar um público-alvo com apenas uma atividade 
 
 Crie públicos-alvo somente de atividades dentro do fluxo de trabalho orientado de três etapas ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na [!UICONTROL Biblioteca de público] para uso em outras atividades.
 
@@ -52,4 +52,3 @@ Tenha em mente as informações a seguir enquanto você trabalha com públicos s
 * Públicos somente atividade terão status [!UICONTROL Utilizado] ou [!UICONTROL Não utilizado]. Públicos-alvo somente atividade não utilizados são exibidos até que a atividade seja salva. Se deixados não utilizados e você tentar salvar a atividade, uma mensagem de alerta é exibida informando que públicos-alvo somente atividade não utilizados serão excluídos.
 * É possível ver os detalhes da definição de público-alvo em um cartão pop-up acessado do seletor de público-alvo sem abrir o público-alvo.
 * Você pode [combinar vários públicos](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar públicos somente atividade.
-
