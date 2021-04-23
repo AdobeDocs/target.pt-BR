@@ -1,16 +1,16 @@
 ---
 keywords: Direcionamento
-description: Saiba como a Adobe Target mostra e calcula a taxa de conversão, o incentivo, a confiança (significância estatística) e o intervalo de confiança para cada experiência.
-title: Como Visualização a Taxa de conversão, o incentivo e o nível de confiança?
-feature: Reports
+description: Saiba como o Adobe [!DNL Target] mostra e calcula a taxa de conversão, o incentivo, a confiança (significância estatística) e o intervalo de confiança para cada experiência.
+title: Como visualizar o nível de taxa de conversão, aumento e confiança?
+feature: Relatórios
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
-
 
 # Índice de conversão
 
@@ -106,17 +106,17 @@ O *intervalo de confiança* é uma faixa dentro da qual o valor real pode ser en
 
 O [download do relatório de CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
-Para calcular essas métricas calculadas, baixe o arquivo Excel [Calculadora de confiança completa](/help/assets/complete_confidence_calculator.xlsx) do Público alvo para inserir o valor do atividade ou reveja os [cálculos estatísticos usados pelo Público alvo](/help/assets/statistical-calculations.pdf).
+Para calcular essas métricas calculadas, baixe o arquivo do Excel [Calculadora de confiança completa](/help/assets/complete_confidence_calculator.xlsx) do Target para inserir o valor da atividade ou revise os [cálculos estatísticos usados pelo Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
 >Essa calculadora é para relatórios baseados em Target e não para relatórios A4T.
 
-## Realização de cálculos offline para Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Realização de cálculos offline para Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics].
 
-Para o A4T, usamos um cálculo de teste t de Estudante para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para efetuar o cálculo t-test do aluno, é necessário &quot;somar quadrados&quot; para calcular a variação, que é utilizada no denominador da estatística t. [Esse documento explica os ](/help/assets/statistical-calculations.pdf) detalhes das fórmulas matemáticas usadas. A soma dos quadrados pode ser recuperada de [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
+Para o A4T, usamos um cálculo de teste t de Estudante para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para efetuar o cálculo do teste t de Estudante, é necessário a &quot;soma dos quadrados&quot; para calcular a variação, que é utilizada no denominador da estatística t. [Este documento explica os ](/help/assets/statistical-calculations.pdf) detalhes das fórmulas matemáticas usadas. A soma dos quadrados pode ser recuperada de [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
 
 Por exemplo, se você estiver otimizando para exibições de página por visitante, você exportaria uma amostra do número total de visualizações de página por visitante e por um período de tempo especificado, talvez alguns dias (alguns milhares de pontos de dados são tudo que você precisa). Você, então, elevaria ao quadrado de cada valor e somaria os totais (a ordem das operações é essencial aqui). Este valor de &quot;soma dos quadrados&quot; é então usado na Calculadora de confiança completa. Use a seção &quot;receita&quot; dessa planilha para esses valores.
 
@@ -147,7 +147,7 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 Para obter mais informações sobre [!DNL Data Warehouse], consulte os seguintes links na documentação de ajuda do [!DNL Analytics]:
 
 * [Criar uma solicitação do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Práticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Práticas recomendadas do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia de contagem {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -170,7 +170,7 @@ Somente a metodologia de contagem padrão (Visitas) é atualmente suportada para
 
 Você pode visualizar relatórios pelas seguintes metodologias de contagem:
 
-* **Visitante:** um participante exclusivo na atividade, pela duração da atividade.
+* **Visitante:** um participante único na atividade, pela duração da atividade.
 
    Uma pessoa será contada como um novo participante se visitar o site com um novo computador e um novo navegador, excluir o cookie ou converter e retornar para a atividade com o mesmo cookie. Um participante é identificado pela PCID no cookie mbox do visitante. Se o PCID mudar, a pessoa será considerada um novo visitante.
 
@@ -186,26 +186,26 @@ Você pode visualizar relatórios pelas seguintes metodologias de contagem:
 >
 >Normalmente, as contagens são determinadas por cookies e pela atividade da sessão. No entanto, se você alcançar o ponto de conversão final de uma atividade e, em seguida, entrar na atividade novamente, você será considerado um novo participante e uma nova visita à atividade. Isso é verdade mesmo se os valores PCID e `sessionID` não mudarem.
 
-## Por que o Público alvo recomenda usar os testes T-T do aluno? {#t-test}
+## Por que [!DNL Target] recomenda usar os testes t de Estudante? {#t-test}
 
 Os testes A/B são experimentos para comparar o valor médio de alguma métrica comercial em uma variante de controle (também conhecida como experiência) com o valor médio dessa mesma métrica em uma ou mais experiências alternativas.
 
-[!DNL Target] recomenda usar dois testes [ t de ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)aluno de amostra, pois exigem menos pressuposições do que alternativas como testes z, e são o teste estatístico adequado para fazer comparações emparelhadas de métricas de negócios (quantitativas) entre experiências de controle e experiências alternativas.
+[!DNL Target] A recomenda o uso de dois testes [ t de ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)Estudante de amostra, pois eles exigem menos suposições do que alternativas como testes z, e são o teste estatístico adequado para fazer comparações emparelhadas de métricas de negócios (quantitativas) entre experiências de controle e experiências alternativas.
 
 ### Mais detalhes
 
-Ao executar testes A/B online, cada usuário/visitante é atribuído aleatoriamente a uma única variante. Subsequentemente, fazemos medições das métricas de negócios de interesse (por exemplo, conversões, pedidos, receita etc.) para visitantes em cada variante. O teste estatístico que usamos então testa a hipótese de que a métrica média de negócios (por exemplo, taxa de conversão, pedidos por usuário, receita por usuário etc.) é igual para o controlo e para uma dada variante alternativa.
+Ao executar testes A/B online, cada usuário/visitante é atribuído aleatoriamente a uma única variante. Posteriormente, fazemos medições das métricas de negócios de interesse (por exemplo, conversões, pedidos, receita etc.) para visitantes em cada variante. O teste estatístico que usamos então testa a hipótese de que a métrica média de negócios (por exemplo, taxa de conversão, pedidos por usuário, receita por usuário etc.) é igual para o controle e uma determinada variante alternativa.
 
-Embora a própria métrica de negócios possa ser distribuída de acordo com alguma distribuição arbitrária, a distribuição da média dessa métrica (dentro de cada variante) deve convergir para uma distribuição normal por meio do teorema [Limite Central](https://en.wikipedia.org/wiki/Central_limit_theorem). Observe que, embora não haja nenhuma garantia de quão rapidamente essa distribuição da média será convertida para o normal, essa condição normalmente é alcançada, dada a escala de visitantes em testes on-line.
+Embora a própria métrica de negócios possa ser distribuída de acordo com alguma distribuição arbitrária, a distribuição da média dessa métrica (em cada variante) deve convergir para uma distribuição normal por meio do [Teorema de limite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Observe que, embora não haja garantia de quão rapidamente essa distribuição de amostragem da média se converterá ao normal, essa condição normalmente é alcançada devido à escala de visitantes em testes online.
 
-Dada esta normalidade da média, a estatística de teste a ser utilizada pode ser mostrada como segue uma distribuição t, porque é a razão entre um valor normalmente distribuído (a diferença nas médias da métrica de negócios) e um termo de escala com base numa estimativa a partir dos dados (o erro padrão da diferença nas médias). O **Teste t do aluno** é então o teste de hipótese apropriado, dado que a estatística do teste segue uma distribuição t.
+Dada esta normalidade da média, pode-se demonstrar que a estatística de teste a ser usada segue uma distribuição t, porque é a proporção de um valor normalmente distribuído (a diferença em meios da métrica de negócios) para um termo de escala com base em uma estimativa a partir dos dados (o erro padrão da diferença em meios). O **t-test do aluno** é então o teste de hipótese apropriado, dado que a estatística de teste segue uma distribuição t.
 
-### Por que outros testes não são usados
+### Por que outros testes não são usados?
 
-Um **z-test** é inadequado porque no cenário de teste A/B típico, o denominador da estatística de teste não é derivado de uma variação conhecida e, em vez disso, deve ser estimado a partir dos dados.
+Um **z-test** é inadequado porque, no cenário de teste A/B típico, o denominador da estatística de teste não é derivado de uma variação conhecida e, em vez disso, deve ser estimado a partir dos dados.
 
-**Não são utilizados** testes qui-quadrados, uma vez que estes são adequados para determinar se existe uma relação qualitativa entre duas variantes (ou seja, uma hipótese nula de que não há diferença entre variantes). Os testes T são mais apropriados para o cenário de _quantitativamente_ comparando métricas.
+**Os** testes &quot;Qui-quadrado&quot; não são utilizados porque são adequados para determinar se existe uma relação qualitativa entre duas variantes (ou seja, uma hipótese nula de que não há diferença entre variantes). Os testes T são mais adequados para o cenário de _comparação quantitativa_ de métricas.
 
-O **Mann-Whitney U test** é um teste não paramétrico, que é apropriado quando a distribuição da amostragem da métrica média de negócios (para cada variante) normalmente não é distribuída. No entanto, como discutido anteriormente, dada a magnitude do tráfego envolvido em testes online, o Teorema de Limite Central normalmente se aplica, e assim o teste t pode ser aplicado com segurança.
+O **Mann-Whitney U test** é um teste não paramétrico, que é adequado quando a distribuição de amostras da métrica média de negócios (para cada variante) não é normalmente distribuída. No entanto, como discutido anteriormente, dada a magnitude do tráfego envolvido em testes online, o Teorema do Limite Central normalmente se aplica, e assim o teste t pode ser aplicado com segurança.
 
-Métodos mais complexos como **ANOVA** (que generalizam os testes t para mais de duas variantes) podem ser aplicados quando um teste tem mais de duas experiências (&quot;testes A/Bn&quot;). No entanto, a ANOVA responde à pergunta &quot;se todas as variantes têm a mesma média&quot;, enquanto no teste A/Bn típico estamos mais interessados em _qual variante específica_ é melhor. Em [!DNL Target], aplicamos testes t regulares comparando cada variante a um controle, com uma correção de Bonferroni para contabilizar várias comparações.
+Métodos mais complexos, como **ANOVA** (que generalizam os testes t para mais de duas variantes) podem ser aplicados quando um teste tem mais de duas experiências (&quot;Testes A/Bn&quot;). No entanto, a ANOVA responde à pergunta &quot;se todas as variantes têm a mesma média&quot;, enquanto no teste A/Bn típico estamos mais interessados em _qual variante específica_ é melhor. Em [!DNL Target], portanto, aplicamos testes t regulares comparando cada variante a um controle, com uma correção de Bonferroni para considerar várias comparações.
