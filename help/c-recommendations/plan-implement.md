@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations, configurações, preferências, vertical do setor, critérios incompatíveis com o filtro, grupo de hosts padrão, url de base em miniatura, token de api do recommendations
-description: 'Saiba como implementar o Recommendations atividade no Adobe Target. Certifique-se de que sua implementação atenda aos requisitos de pré-requisito necessários. '
-title: Como implementar o Recommendations Atividade?
+description: 'Saiba como implementar atividades do Recommendations no Adobe Target. Certifique-se de que a implementação atenda aos pré-requisitos necessários. '
+title: Como Implementar As Atividades Do Recommendations?
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1620'
 ht-degree: 95%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMPlan e implementação do Recommendations  {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlan e implementação do Recommendations
 
 O que é necessário saber antes de criar uma atividade do Recommendations.
 
@@ -26,7 +26,7 @@ O que é necessário saber antes de criar uma atividade do [!DNL Recommendations
 |--- |--- |--- |
 | ![Etapa 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requer uma referência à at.js versão 0.9.1 (ou posterior) ou mbox.js versão 55 (ou posterior). Essa etapa de implementação é necessária em todas as páginas em que uma atividade do Target será usada, e pode incluir chaves como um produto ou ID de categoria.<BR>Para obter informações sobre at.js, consulte [Implementação de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Para obter mais informações sobre a mbox.js, consulte [Implementação da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
 | ![Etapa 2](/help/c-recommendations/assets/step2_red.png) | Teclas | A tecla determina o tipo de produto ou de conteúdo exibido nas suas recomendações. Por exemplo, a tecla pode ser uma categoria de produto. Consulte [Basear a recomendação em uma Chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-| ![Etapa 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Os atributos fornecem informações mais específicas sobre os produtos que você deseja exibir. Por exemplo, você pode querer mostrar produtos dentro de uma faixa de preço específica ou itens que atendam a um limite de inventário. Os atributos podem ser fornecidos na mbox ou através de um  [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulte  [Especificar regras](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) de inclusão. |
+| ![Etapa 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Os atributos fornecem informações mais específicas sobre os produtos que você deseja exibir. Por exemplo, você pode querer mostrar produtos dentro de uma faixa de preço específica ou itens que atendam a um limite de inventário. Os atributos podem ser fornecidos na mbox ou através de um  [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulte  [Especificar regras de inclusão](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
 | ![Etapa 4](/help/c-recommendations/assets/step4_red.png) | Exclusões | As exclusões determinam quais itens específicos não serão exibidos nas recomendações.<br>Consulte [Exclusões](/help/c-recommendations/c-products/exclusions.md). |
 | ![Etapa 5](/help/c-recommendations/assets/step5_red.png) | Detalhes da compra | Os detalhes da compra oferecem informações sobre os itens comprados e o pedido quando a compra foi concluída. |
 
@@ -204,7 +204,7 @@ Na página de agradecimento, você pode querer mostrar o total e a ID do pedido 
 
 Use as configurações para gerenciar a sua implementação do [!DNL Recommendations].
 
-Para acessar as opções [!UICONTROL Configurações do Recommendations], abra [!DNL Target] em [!DNL Adobe Experience Cloud] e clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]**.
+Para acessar as opções [!UICONTROL Configurações do Recommendations], abra [!DNL Target] no [!DNL Adobe Experience Cloud] e clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]**.
 
 ![](assets/recs_settings.png)
 
