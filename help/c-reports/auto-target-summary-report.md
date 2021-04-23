@@ -1,32 +1,32 @@
 ---
-keywords: relatórios;público alvo automático;público alvo automático;AT;relatório
-description: Saiba como interpretar o relatório Resumo do Público alvo automático no Adobe Target. Você pode alternar para os relatórios Segmentos automatizados e Atributos importantes deste relatório.
-title: Como uso o relatório de Resumo de Públicos alvos automáticos?
-feature: Reports
+keywords: relatórios, direcionamento automático, direcionamento automático, AT, relatório
+description: Saiba como interpretar o relatório de Resumo do direcionamento automático no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes desse relatório.
+title: Como uso o relatório de resumo do direcionamento automático?
+feature: Relatórios
+exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 54%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMAuto-Target Resumo
 
-# ![Relatório de resumo ](/help/assets/premium.png) PREMIUMAuto-Público alvo{#auto-target-summary-report}
-
-Informações sobre como interpretar os relatórios [!UICONTROL Resumo do Público alvo automático] em [!DNL Adobe Target].
+Informações sobre como interpretar os relatórios de [!UICONTROL Resumo do Direcionamento automático] em [!DNL Adobe Target].
 
 >[!NOTE]
 >
 >O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Ela não está incluída no [!DNL Target Standard] como uma licença do [Target Premium](/help/c-intro/intro.md#premium).
 
-Para exibir os relatórios [!UICONTROL Resumo do Público alvo automático]:
+Para exibir os relatórios de [!UICONTROL Resumo do direcionamento automático]:
 
-1. Na página [!UICONTROL Atividade], clique na atividade [!UICONTROL Público alvo automático] desejada.
+1. Na página [!UICONTROL Atividades], clique na atividade [!UICONTROL Direcionamento automático] desejada.
 
-   Se tiver muitas atividades, você pode filtrar a lista selecionando opções de [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Propriedade], [!UICONTROL Fonte do Relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica] e [!UICONTROL listas suspensas da Origem da Atividade].
+   Se você tiver muitas atividades, poderá filtrar a lista selecionando opções no [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Propriedade], [!UICONTROL Fonte de relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica], e [!UICONTROL Listas suspensas da Fonte de Atividade].
 
-1. Clique na guia [!UICONTROL Relatórios] e, em seguida, clique no ícone desejado:
+1. Clique na guia [!UICONTROL Reports] e, em seguida, clique no ícone desejado:
 
    * Exibição em tabela 
    * Exibição em gráfico
@@ -35,11 +35,11 @@ Para exibir os relatórios [!UICONTROL Resumo do Público alvo automático]:
 
 ## Exibição em tabela 
 
-A ilustração a seguir mostra a aparência de um relatório resumido típico em [!UICONTROL Visualização de tabela] ao exibir um relatório de atividade [!UICONTROL Público alvo automático]:
+A ilustração a seguir mostra como um relatório de resumo típico se parece em [!UICONTROL Visualização de tabela] ao visualizar um relatório de atividade de [!UICONTROL Direcionamento automático]:
 
-![Relatório de visualização da tabela de Público alvo automático](/help/c-reports/assets/at-table-view.png)
+![Relatório de exibição de tabela do Direcionamento automático](/help/c-reports/assets/at-table-view.png)
 
-Algumas dicas e considerações ao interpretar seus relatórios de [!UICONTROL Público alvo automático]:
+Algumas dicas e considerações ao interpretar seus relatórios de [!UICONTROL Direcionamento automático]:
 
 * As várias linhas na tabela ajudam você a entender o desempenho da atividade.
 
@@ -52,31 +52,31 @@ Algumas dicas e considerações ao interpretar seus relatórios de [!UICONTROL P
    * Neste caso, para aumentar a velocidade da atividade com modelos construídos para todas as experiências, o tráfego adicional é enviado para experiências com modelos não construídos.
    * Deve haver pelo menos duas experiências com modelos construídos (marca de seleção verde) para que a personalização comece.
 
-* Comparar a taxa de conversão da experiência A com a da experiência B não é a comparação correta em [!UICONTROL Público alvo automático]. A questão é se a experiência A tem um desempenho melhor quando é apresentada de maneira inteligente versus uma maneira aleatória (em outras palavras, versus o controle). Os profissionais de marketing também devem ter cautela ao interpretar os aumentos de experiências individuais, porque o algoritmo de personalização está tentando otimizar a métrica de sucesso em toda a atividade, não em cada experiência individual.
+* Comparar a taxa de conversão da experiência A com a da experiência B não é a comparação correta em [!UICONTROL Direcionamento automático]. A questão é se a experiência A tem um desempenho melhor quando é apresentada de maneira inteligente versus uma maneira aleatória (em outras palavras, versus o controle). Os profissionais de marketing também devem ter cautela ao interpretar os aumentos de experiências individuais, porque o algoritmo de personalização está tentando otimizar a métrica de sucesso em toda a atividade, não em cada experiência individual.
 * Experiências com o aumento mais alto podem ser entendidas como tendo a maior diferenciação dentro da população. Esse é o algoritmo que encontrou um segmento que gosta mais dessa experiência em particular.
-* As várias colunas da tabela mostram o número de visitas, a taxa de conversão, o nível médio de incentivo e confiança e a confiança. Para obter mais informações, consulte [Incentivo médio, Limites de incentivo e Intervalo de confiança](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
+* As várias colunas na tabela mostram o número de visitas, a taxa de conversão, o aumento médio e o nível de confiança e a confiança. Para obter mais informações, consulte [Incentivo médio, Limites de incentivo e Intervalo de confiança](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
 
 ## Exibição em gráfico
 
-A ilustração a seguir mostra a aparência de um relatório resumido típico em [!UICONTROL Visualização de gráfico] ao exibir um relatório de atividade [!UICONTROL Público alvo automático]:
+A ilustração a seguir mostra como um relatório de resumo típico se parece em [!UICONTROL Visualização de gráfico] ao visualizar um relatório de atividade de [!UICONTROL Direcionamento automático]:
 
-![Relatório de visualização do gráfico de Público alvo automático](/help/c-reports/assets/at-graph-view.png)
+![Relatório de exibição de gráfico de direcionamento automático](/help/c-reports/assets/at-graph-view.png)
 
-Como mostrado abaixo, você pode usar as duas listas suspensas para escolher as métricas desejadas, a metodologia de contagem e muito mais. Consulte [Visão geral das configurações do relatório](/help/c-reports/c-report-settings/report-settings.md) para obter mais informações:
+Como mostrado abaixo, você pode usar as duas listas suspensas para escolher as métricas desejadas, a metodologia de contagem e muito mais. Consulte [Visão geral das configurações de relatório](/help/c-reports/c-report-settings/report-settings.md) para obter mais informações:
 
-![Relatório de visualização do gráfico de Público alvo automático](/help/c-reports/assets/at-graph-view-2.png)
+![Relatório de exibição de gráfico de direcionamento automático](/help/c-reports/assets/at-graph-view-2.png)
 
 ## Segmentos automatizados
 
-Clique no ícone [!UICONTROL Segmentos automatizados]. Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
+Clique no ícone [!UICONTROL Segmentos automatizados]. Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
-![Ícone Segmentos automatizados](/help/c-reports/assets/icon-automated-sements.png)
+![Ícone de segmentos automatizados](/help/c-reports/assets/icon-automated-sements.png)
 
 Para obter mais informações, consulte [Relatório de segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Atributos importantes
 
-Clique no ícone [!UICONTROL Atributos importantes]. Este relatório mostra como, em atividades diferentes, atributos diferentes são mais (ou menos) importantes para como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
+Clique no ícone [!UICONTROL Atributos importantes]. Este relatório mostra como, em atividades diferentes, atributos diferentes são mais (ou menos) importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
 
 ![Ícone de atributos importantes](/help/c-reports/assets/icon-important-attributes.png)
 
