@@ -1,18 +1,18 @@
 ---
 keywords: perfil do visitante, perfil do visitante do target
-description: Saiba como criar audiências no Adobe Target para visitantes públicos alvos que atendem a parâmetros específicos do perfil, como visitante novo ou recorrente, afinidade de categoria e muito mais.
-title: Posso Público alvo Visitantes Que Atendem A Parâmetros De Perfil Específicos?
-feature: Audiences
+description: Saiba como criar públicos no Adobe [!DNL Target] para direcionar visitantes que atendem a parâmetros de perfil específicos, como visitante novo ou recorrente, afinidade de categorias e muito mais.
+title: Posso [!DNL Target] Visitantes Que Atendem A Parâmetros De Perfil Específicos?
+feature: Públicos-alvo
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 83%
 
 ---
 
-
-# Perfil do visitante{#visitor-profile}
+# Perfil do visitante
 
 Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil específicos.
 
@@ -43,7 +43,7 @@ Crie públicos para direcionar os visitantes que atendem a parâmetros de perfil
 1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criando o emblema ![Visão geral do Audiência](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
