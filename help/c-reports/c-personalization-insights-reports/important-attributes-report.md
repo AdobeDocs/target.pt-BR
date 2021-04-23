@@ -1,24 +1,24 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, perguntas frequentes, perguntas frequentes, atributos importantes
-description: Saiba como usar o relatório Atributos importantes no Adobe Target que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
+description: Saiba como usar o relatório de Atributos importantes no Adobe [!DNL Target] que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
 title: Qual é o relatório de atributos importantes?
-feature: Reports
+feature: Relatórios
+exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Relatório de atributos importantes{#important-attributes-report}
+# ![PREMIUM](/help/assets/premium.png) Relatório de atributos importantes
 
 Informações sobre o relatório de Atributos importantes, um dos dois relatórios especializados disponíveis aos usuários de atividades de Automated Personalization (AP) e Direcionamento automático (AT).
 
 >[!NOTE]
 >
->Considere o seguinte ao usar relatórios de Insights de personalização:
+>Considere o seguinte ao usar os relatórios dos Insights de personalização:
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
    >
@@ -26,26 +26,26 @@ Informações sobre o relatório de Atributos importantes, um dos dois relatóri
 * [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
    >
    >
-* [!UICONTROL Os relatórios de ] Insightsde personalização estão disponíveis somente se o  [!UICONTROL Primary ] Goalis for selecionado na lista  [!UICONTROL do menu ] suspenso de métricas de relatório.
+* [!UICONTROL Os relatórios de ] Insights de personalização estão disponíveis somente se o  [!UICONTROL Objetivo ] principal estiver selecionado na lista suspensa  [!UICONTROL Métricas de ] relatório .
    >
    >
 * Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Os relatórios de ] Insightssão gerados apenas para atividades que estão no   Livestatus e foram ativados e recebem tráfego por pelo menos 15 dias.
+* [!UICONTROL Os relatórios de ] Insights de personalização são gerados apenas para atividades que estão no   Livestatus e foram ativadas e recebem tráfego por pelo menos 15 dias.
 
 
 Em atividades diferentes, atributos distintos são mais ou menos importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
 
 ## Acessar o relatório de Atributos importantes {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Clique em **[!UICONTROL Atividade]** e clique na atividade [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
+1. Clique em **[!UICONTROL Atividades]**, em seguida, clique na atividade [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
 
    Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Fonte de geração de relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica] e [!UICONTROL Fonte da atividade].
 
 1. Clique em **[!UICONTROL Relatórios]**.
 
-   O relatório [Resumo da Automated Personalization](/help/c-reports/reports-ap.md) ou [Resumo do Público alvo automático](/help/c-reports/auto-target-summary-report.md) é exibido, fornecendo informações sobre o desempenho das atividades, representado pelo ícone da primeira tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. Observe que o Direcionamento automático tem um ícone de gráfico adicional para a exibição em gráfico do relatório de [!UICONTROL Resumo].
+   O relatório [Resumo do Automated Personalization](/help/c-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/c-reports/auto-target-summary-report.md) é exibido, fornecendo informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. Observe que o Direcionamento automático tem um ícone de gráfico adicional para a exibição em gráfico do relatório de [!UICONTROL Resumo].
 
    ![](assets/personalization_insights.png)
 
