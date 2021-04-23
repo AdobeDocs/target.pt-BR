@@ -1,20 +1,20 @@
 ---
-keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;vinculação de atributos de entidade;regras de inclusão;critérios de inclusão;recomendações;promoções;filtragem dinâmica;dinâmica;correspondência de atributos de entidade
-description: Saiba como filtrar dinamicamente no Adobe Target Recommendations comparando um pool de itens em potencial a um item específico com o qual o usuário interagiu.
-title: Como Filtro por Correspondência de Atributo de Entidade no Recommendations Atividade?
+keywords: regras de inclusão, critérios de inclusão, recomendações, promoção, promoções, filtragem dinâmica, dinâmica, correspondência de atributos de entidade
+description: Saiba como filtrar dinamicamente no Adobe [!DNL Target] Recommendations, comparando um conjunto de itens em potencial a um item específico com o qual o usuário interagiu.
+title: Como faço para filtrar por Correspondência de Atributos de Entidade nas Atividades do Recommendations?
 feature: Recommendations
+exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMECorrespondência de atributos de entidade
 
-# ![Correspondência de Atributo ](/help/assets/premium.png) PREMIUMEntity
-
-Filtre dinamicamente em [!DNL Adobe Target] [!DNL Recommendations] comparando um pool de itens de recomendações potenciais a um item específico com o qual o usuário interagiu.
+Filtre dinamicamente em [!DNL Adobe Target] [!DNL Recommendations] comparando um conjunto de possíveis itens de recomendações a um item específico com o qual o usuário interagiu.
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ Filtre dinamicamente em [!DNL Adobe Target] [!DNL Recommendations] comparando um
 
 Por exemplo, recomende somente itens que correspondam à marca do item atual, como no exemplo a seguir:
 
-Se a mbox em uma Landing page de marca retornar `entity.brand=brandA`, então somente os produtos da Marca A serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca da Marca B, apenas os produtos da Marca B são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorna os resultados relevantes da marca em todas as páginas da marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome da marca.
+Se a mbox em uma Página de aterrissagem da marca retornar `entity.brand=brandA`, somente os produtos da Marca A serão retornados e exibidos nessa página. Da mesma forma, na Página de aterrissagem da marca da Marca B, somente os produtos da Marca B são retornados. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorna os resultados relevantes da marca em todas as páginas da marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome de marca.
 
-Observe que você deve fornecer o `entity.brand` na mbox nessas landings page para que isso funcione.
+Observe que você deve entregar o `entity.brand` na mbox nessas landing pages para que isso funcione.
 
-## Exemplos de Correspondência de Atributo de Entidade
+## Exemplos de Correspondência de atributos de entidade
 
-[!UICONTROL A ] Correspondência de Atributo de Entidade permite que você recomende somente os itens que correspondem, por exemplo:
+[!UICONTROL A ] Correspondência de atributos de entidade permite recomendar apenas os itens que correspondem, por exemplo:
 
 * Um atributo do item que o usuário está visualizando no momento
 * O item que o usuário visualizou mais recentemente
@@ -38,25 +38,25 @@ Observe que você deve fornecer o `entity.brand` na mbox nessas landings page pa
 
 ### Itens recomendados com base na marca
 
-Depois que as regras de atributo da entidade forem criadas, elas filtrarão todas as recomendações com atributos que não correspondem ao valor da entidade passado na página.
+Depois que as regras do atributo da entidade forem criadas, elas filtrarão todas as recomendações com atributos que não correspondem ao valor da entidade transmitido na página.
 
-O exemplo a seguir mostra recomendações que correspondem à marca do produto mostrada na página:
+O exemplo a seguir mostra recomendações correspondentes à marca de produto mostradas na página:
 
 Quando você visita uma página que possui um produto da Marca A, a página define o valor do parâmetro `entity.brand` como &quot;BrandA&quot;.
 
-![Exemplo de chamada de Público alvo](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+![Exemplo de chamada do Target](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
 Nas recomendações da página, você verá somente os produtos da Marca A.
 
 ![Recomendações da marca A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Se você visualização uma página de produto da Marca B, o valor `entity.brand` será redefinido para &quot;MarcaB&quot; e você verá os produtos da Marca B recomendados nas páginas de produto da Marca B.
+Se você exibir uma página de produto da Marca B, o valor `entity.brand` será redefinido para &quot;MarcaB&quot; e você verá os produtos da Marca B recomendados nas páginas de produto da Marca B.
 
-![Recomendações da marca B](/help/c-recommendations/c-algorithms/assets/brandB.png)
+![Recomendações da Marca B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
-### Venda a um produto mais caro
+### Atualizar para um produto mais caro
 
-Suponha que você seja um varejista de roupas e queira incentivar os usuários a considerar itens com preços mais altos e, portanto, mais lucrativos. Você pode usar os operadores &quot;igual&quot; e &quot;é entre&quot; para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, um varejista de sapatos pode promover tênis de corrida mais caros em um esforço para vender um visitante olhando tênis de corrida, como na seguinte amostra:
+Suponha que você seja um varejista de vestuário e queira incentivar os usuários a considerar os itens com preços mais altos e, portanto, mais rentáveis. Você pode usar os operadores &quot;equals&quot; e &quot;is between&quot; para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, um varejista de sapatos pode promover sapatos de corrida mais caros em um esforço de fazer uma venda agregada de um visitante que visualiza sapatos de corrida, como na seguinte amostra:
 
 ![Aumento](/help/c-recommendations/c-algorithms/assets/upsell.png)
 
@@ -71,11 +71,11 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Promoção de produtos de etiquetas privadas
+### Promoção de produtos de marca privada
 
-Você pode combinar filtros dinâmicos e estáticos para promover produtos de etiquetas privadas. Por exemplo, uma empresa de suprimento de escritório pode promover cartuchos de toner da marca da empresa para levar a uma venda mais lucrativa para um visitante que olha para toner — e promover canetas da marca da empresa para levar a uma venda mais lucrativa para um visitante que olha para canetas, como na amostra a seguir:
+Você pode misturar filtros dinâmicos e estáticos para promover produtos de rótulo privado. Por exemplo, uma empresa de fornecimento de escritórios pode promover cartuchos de toner da marca própria da empresa para impulsionar uma venda mais lucrativa para um visitante que olha para toner — e promover canetas da marca de casa da empresa para impulsionar uma venda mais lucrativa para um visitante que visualiza canetas, como na amostra a seguir:
 
-![Marca da casa](/help/c-recommendations/c-algorithms/assets/housebrand.png)
+![House Brand](/help/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching
