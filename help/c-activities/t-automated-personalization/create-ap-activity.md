@@ -1,22 +1,22 @@
 ---
-keywords: personalização automatizada;ap;audiência;conjunto;floresta aleatória;variância residual;variação do erro;valor da vida útil;personalização automatizada;ap;;ensemble;random forest;residual variance;error variance;lifetime value
-description: Saiba como criar uma atividade Automated Personalization (AP) no Adobe Target usando o Visual Experience Composer (VEC).
-title: Como crio uma Atividade Automated Personalization?
-feature: Automated Personalization
+keywords: personalização automatizada, ap, audiences, conjunto, random forest, variação residual, variação de erro, valor histórico
+description: Saiba como criar uma atividade de Automated Personalization (AP) no Adobe [!DNL Target] usando o Visual Experience Composer (VEC).
+title: Como criar uma atividade do Automated Personalization?
+feature: Personalização automatizada
+exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2052'
 ht-degree: 91%
 
 ---
 
-
 # ![PREMIUM](/help/assets/premium.png) Criar uma atividade de personalização automatizada
 
-O fluxo de trabalho da atividade [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target] varia de acordo com o fluxo de trabalho dos outros tipos de atividades.
+O workflow da atividade [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target] varia do workflow dos outros tipos de atividade.
 
-1. Na lista [!DNL Target] [!UICONTROL Atividade], clique em **[!UICONTROL Criar Atividade]** > **[!UICONTROL Automated Personalization]**.
+1. Na lista [!DNL Target] [!UICONTROL Atividades], clique em **[!UICONTROL Criar Atividade]** > **[!UICONTROL Automated Personalization]**.
 
    ![Criar atividade: Personalização automatizada](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
@@ -24,11 +24,11 @@ O fluxo de trabalho da atividade [!UICONTROL Automated Personalization] (AP) em 
 
    ![Caixa de diálogo Criar atividade de Personalização automatizada](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Se preferir usar o [!UICONTROL Criador de experiências baseado em forma], selecione [!UICONTROL Formulário]. Consulte [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md) para obter mais informações.
+   Se preferir usar o [!UICONTROL Experience Composer baseado em formulário], selecione [!UICONTROL Formulário]. Consulte [Experience Composer baseado em formulário](/help/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
-   >Além do VEC e do [!UICONTROL Criador de experiências baseado em forma], o [!DNL Target] oferta o [!UICONTROL Aplicativo de página única VEC] e o VEC para aplicativos móveis. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
+   >Além do VEC e do [!UICONTROL Experience Composer baseado em formulário], [!DNL Target] oferece o [!UICONTROL VEC para aplicativos de página única] e o VEC para aplicativos móveis. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/c-experiences/experiences.md).
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
@@ -142,7 +142,7 @@ O fluxo de trabalho da atividade [!UICONTROL Automated Personalization] (AP) em 
    |--- |--- |
    | Nome | Nomeie a atividade. Nomeie a atividade de forma descritiva o suficiente para que os membros da equipe possam reconhecê-la na lista de Atividades. Consulte a tabela acima para ver quais caracteres não são permitidos em um nome de atividade. |
    | Objetivo | (Opcional) Digite o objetivo do teste. O objetivo ajuda a lembrar o propósito da atividade. |
-   | Prioridade | Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.<br>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.<br>Se essa opção não estiver ativada em  [!UICONTROL Administração] >  [!UICONTROL Relatórios]  (o padrão), especifique uma prioridade: Baixa, Média ou Alta.<br>Para ativar prioridades refinadas, clique em  [!UICONTROL Administração] >  [!UICONTROL Relatórios] e, em seguida, alterne a opção  [!UICONTROL Ativar ] prioridades refinadas para a posição &quot;Ativado&quot;.<br>Se esta opção estiver ativada, especifique um valor entre 0 e 999:<ul><li>0 = Baixo</li><li>999 = Alto</li></ul>Para atividades criadas em versões anteriores do Target Standard/Premium, a prioridade Baixa é convertida para 0, a Média é convertida para 5 e a Alta é convertida para 10. É possível ajustar esses valores conforme necessário.<br>**Observação**: antes de poder desabilitar esta opção após o uso de prioridades otimizadas, todas as prioridades devem ser ajustadas novamente para 0, 5 e 10. |
+   | Prioridade | Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.<br>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.<br>Se essa opção não estiver ativada em  [!UICONTROL Administração]  >  [!UICONTROL Relatórios]  (o padrão), especifique uma prioridade: Baixo, Médio ou Alto.<br>Para ativar as prioridades otimizadas, clique em  [!UICONTROL Administração]  >  [!UICONTROL Relatório] e alterne a opção  [!UICONTROL Ativar ] prioridades otimizadas para a posição &quot;Ativado&quot;.<br>Se esta opção estiver ativada, especifique um valor entre 0 e 999:<ul><li>0 = Baixo</li><li>999 = Alto</li></ul>Para atividades criadas em versões anteriores do Target Standard/Premium, a prioridade Baixa é convertida para 0, a Média é convertida para 5 e a Alta é convertida para 10. É possível ajustar esses valores conforme necessário.<br>**Observação**: antes de poder desabilitar esta opção após o uso de prioridades otimizadas, todas as prioridades devem ser ajustadas novamente para 0, 5 e 10. |
    | Duração | Defina as datas de início e fim da atividade. |
    | Meta de otimização | Especifique a meta de otimização, que consiste em dois parâmetros:<ul><li>O que você deseja medir com a atividade</li><li>A ação tomada por um participante da atividade que mostra que a meta foi alcançada.</li></ul>É possível escolher nomear a meta de otimização selecionando os três pontos à direita de Minha meta principal. As atividades de Personalização automatizada podem medir a conversão, RPV e AOV. A conversão pode ser alcançada através da visualização de uma página ou exibição de uma mbox. Os cliques também podem ser monitorados.<br>A meta primária torna-se também a métrica de modelagem, usada pelo sistema de modelagem para calcular o sucesso da experiência.<br>Os visitantes podem ser mantidos na atividade para fins de rastreamento depois de atingir a meta de modelagem. Por exemplo, uma atividade de personalização automatizada é frequentemente usada para melhorar taxas de clique, e isso é definido como o objetivo de modelagem. No entanto, é importante ver como as maiores taxas de clique levam à conversão final, então o rastreamento pela conversão final é essencial.<br>É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada.<br>Você deve definir ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra.<br>A opção Adicionar dependência permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada.<br>Para adicionar uma dependência:<ol><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas] no menu de três pontos à direita de Meta adicional.</li><li>Clique na opção [!UICONTROL Adicionar dependência] na parte inferior da seção [!UICONTROL Configurações de relatório].</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e [!UICONTROL Não alcançado]</li></ol>É possível editar ou remover dependências depois de adicioná-las. |
    | Métricas de conversão | Por padrão, a métrica de conversão é igual à métrica de meta de otimização. No entanto, é possível definir uma métrica de conversão separada ao desmarcar a opção [!UICONTROL Igual à meta de otimização]. |
