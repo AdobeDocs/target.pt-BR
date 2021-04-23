@@ -2,17 +2,17 @@
 keywords: Target Standard; perguntas frequentes; perguntas frequentes; gabarito; gabarito
 description: Explore uma lista de perguntas frequentes sobre o uso dos recursos no Adobe Target, juntamente com informações e links para obter mais informações.
 title: Onde posso encontrar respostas para minhas perguntas de otimização e personalização?
-feature: Overview
+feature: Visão geral
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Perguntas frequentes sobre otimização e personalização do Target{#target-optimization-and-personalization-faq}
+# Perguntas frequentes sobre otimização e personalização do Target
 
 Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
 
@@ -62,7 +62,7 @@ Use os [relatórios para determinar a experiência vencedora](/help/c-activities
 
 **Posso realizar uma atividade com um nível de personalização como parte integrante da atividade?**
 
-Verifique a opção [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Confira a opção [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) .
 
 **Como posso saber qual tipo de atividade é atende melhor às minhas necessidades?**
 
@@ -133,7 +133,7 @@ Use a configuração de prioridade disponível na etapa 3 do fluxo de trabalho o
 Existem duas opções:
 
 * Padrão, com três níveis (Baixo/Médio/Alto)
-* Personalizada, com um intervalo entre 0 e 999. Para Personalizado, ative o recurso Prioridades granuladas ( Administração > Visual Experience Composer).
+* Personalizada, com um intervalo entre 0 e 999. Para Personalizar, ative o recurso Prioridades otimizadas ( Administração > Visual Experience Composer).
 
 ## Públicos-alvo {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -189,7 +189,7 @@ Experimente as [informações de solução de problemas](/help/c-experiences/c-v
 
 Também temos a [abordagem baseada em formulários](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que pode desbloquear você.
 
-Leia também quando e por que o [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para   [lista de permissões Adobe. ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) Servidores proxy
+Leia também quando e por que o [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para   [lista de permissões bem os ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) servidores proxy Multid.
 
 **Eu tenho um site responsivo. Ao criar uma atividade, como posso ter certeza de que estou levando em consideração dispositivos importantes?**
 
@@ -271,7 +271,7 @@ Use o poder das [atividades baseadas em formulário](/help/c-experiences/form-ex
 
 Veja os seguintes aspectos do produto:
 
-* [Analytics for Público alvo (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Atributos do cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
