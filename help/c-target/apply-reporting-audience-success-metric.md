@@ -1,18 +1,18 @@
 ---
 keywords: Direcionamento, público-alvo, geração de relatórios, métrica de sucesso
-description: Saiba como escolher uma métrica de sucesso no Adobe Target que qualifica o usuário para a audiência do relatórios.
-title: Posso aplicar uma Audiência de Relatórios a uma métrica de sucesso?
-feature: Success Metrics
+description: Saiba como escolher uma métrica de sucesso no Adobe [!DNL Target] que qualifica o usuário para o público-alvo do relatório.
+title: Posso aplicar um relatório de público-alvo a uma métrica de sucesso?
+feature: Métricas de sucesso
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# Aplicar um relatório de público-alvo a uma métrica de sucesso{#apply-a-reporting-audience-to-a-success-metric}
+# Aplicar um relatório de público-alvo a uma métrica de sucesso
 
 Escolha uma métrica de sucesso que qualifique o usuário para o público-alvo do relatório.
 
@@ -34,4 +34,3 @@ Considere as seguintes informações ao aplicar um público-alvo de relatórios 
 Para exibir a segmentação nos relatórios, selecione o público-alvo desejado na lista suspensa Audiência no relatório da atividade.
 
 ![](assets/reporting_audience_dropdown.png)
-
