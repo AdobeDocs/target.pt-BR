@@ -1,18 +1,18 @@
 ---
-keywords: Testes multivariados;url de atividade
-description: Saiba como especificar o URL de Atividade que determina a página que é usada no teste e que é aberta quando a atividade de teste multivariado é projetada com o Adobe Target.
-title: O que é o URL da Atividade em uma Atividade multivariada (MVT)?
-feature: Multivariate Tests
+keywords: Testes multivariados, url de atividade
+description: Saiba como especificar o URL da atividade que determina a página que é usada no teste e que é aberta quando a atividade de Teste multivariado é criada usando o Adobe Target.
+title: O que é o URL da atividade em uma atividade multivariada (MVT)?
+feature: Testes multivariados
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 79%
+source-wordcount: '305'
+ht-degree: 78%
 
 ---
 
-
-# URL da atividade{#activity-url}
+# URL da atividade
 
 O URL da atividade determina a página que é usada no [!UICONTROL teste multivariado] (MVT) e que é aberta quando o teste é criado no [!DNL Adobe Target].
 
