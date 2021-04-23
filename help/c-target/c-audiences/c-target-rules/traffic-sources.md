@@ -1,18 +1,18 @@
 ---
 keywords: Direcionamento, fontes de tráfego, fontes de tráfego do target, mecanismo de pesquisa do target, mecanismo de pesquisa, página de aterrissagem, página de aterrissagem do target, página de aterrissagem de referência
-description: Saiba como criar audiências no Adobe Target para visitantes de públicos alvos com base no mecanismo de pesquisa ou na landing page que os refere ao seu site.
-title: É possível Público alvo Visitantes com base no mecanismo de pesquisa ou no site de referência?
-feature: Audiences
+description: Saiba como criar públicos-alvo no Adobe [!DNL Target] para direcionar visitantes com base no mecanismo de pesquisa ou página de aterrissagem de referência para o site.
+title: É possível [!DNL Target] Visitantes com base no mecanismo de pesquisa ou no site de referência?
+feature: Públicos-alvo
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# Fontes de Tráfego {#traffic-sources}
+# Fontes de tráfego
 
 Crie públicos-alvo para direcionar visitantes com base no mecanismo de busca ou página de aterrissagem de referência para o site.
 
@@ -43,7 +43,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 
 Você pode direcionar usuários que são referenciados para o seu site por meio de um mecanismo de pesquisa ou uma página de aterrissagem específica.
 
-## Vídeo de treinamento: Criação de públicos-alvo  ![Etiqueta de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo  ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
