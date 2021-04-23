@@ -1,20 +1,20 @@
 ---
-keywords: experiência;experimento visual composer;experimento aprimorado compositor;compositor de experiência baseada em formulário;compositor de formulário;compositor visual;compositor de experiência;conteúdo misto;iframe;iframe busting;bust iframe;x-frame-options;x frame options;origem cruzada;problemas de origem cruzada;fluxo de trabalho de autenticação
-description: Saiba mais sobre o Adobe Experience Composers - Visual Experience Composer (VEC), o Criador de experiências baseado em forma e o Criador de experiências visuais de página única.
-title: Que Compositores De Experiência O Público alvo Oferta?
-feature: Experiences and Offers
+keywords: experiência, visual experience composer, enhanced experience composer, experience composer baseado em formulário, composer de formulário, visual composer, experience composer, conteúdo misto, iframe, edição do iframe, editar iframe, x-frame-options, opções do x frame, origem cruzada, problemas de origem cruzada, fluxo de trabalho de autenticação
+description: Saiba mais sobre os Adobe Experience Composers - Visual Experience Composer (VEC), Experience Composer baseado em formulário e o Visual Experience Composer de página única.
+title: Quais Experience Composers faz [!DNL Target] oferta?
+feature: Experiências e ofertas
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
 
-
 # Experiências e ofertas
 
-Uma experiência em [!DNL Adobe Target] determina qual conteúdo é exibido quando o visitante atende aos critérios de audiência de uma atividade.
+Uma experiência em [!DNL Adobe Target] determina qual conteúdo será exibido quando o visitante atender aos critérios de público-alvo de uma atividade.
 
 Uma experiência pode ser uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez forme um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de atendimento ao cliente ou até mesmo um sabor personalizado de uma máquina bebidas. Teste ou personalize experiências nas atividades do [!DNL Target].
 
