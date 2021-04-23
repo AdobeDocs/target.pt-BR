@@ -1,20 +1,20 @@
 ---
-keywords: Meta & Configurações;objetivo;prioridade;duração
-description: Saiba como usar as Configurações de Atividade no Adobe Target para gerenciar o objetivo, a prioridade e a duração de suas atividades.
-title: Como especificar configurações de Atividade?
-feature: Activities
+keywords: Meta e configurações; objetivo; prioridade; duração
+description: Saiba como usar as Configurações de atividade no Adobe [!DNL Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
+title: Como Especifique As Configurações Da Atividade?
+feature: Atividades
+exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 80%
 
 ---
 
-
 # Configurações de atividade
 
-Use [!UICONTROL Configurações de Atividade] em [!DNL Adobe Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
+Use [!UICONTROL Configurações da atividade] em [!DNL Adobe Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
 
 1. Insira observações sobre o objetivo da atividade.
 
@@ -25,9 +25,9 @@ Use [!UICONTROL Configurações de Atividade] em [!DNL Adobe Target] para gerenc
 
    A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-   Se essa opção não estiver ativada em [!UICONTROL Administration] > [!UICONTROL Relatórios] (o padrão), especifique uma prioridade: Baixa, Média ou Alta.
+   Se esta opção não estiver ativada em [!UICONTROL Administration] > [!UICONTROL Reporting] (o padrão), especifique uma prioridade: Baixo, Médio ou Alto.
 
-   Para ativar prioridades refinadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatórios] e, em seguida, alterne a opção [!UICONTROL Ativar prioridades granuladas] para a posição &quot;Ligado&quot;.
+   Para ativar as prioridades otimizadas, clique em [!UICONTROL Administration] > [!UICONTROL Reporting] e alterne a opção [!UICONTROL Enable Fine-Grained Priorities] para a posição &quot;On&quot;.
 
    Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -56,7 +56,7 @@ A página [!UICONTROL Meta e configurações] inclui configurações adicionais 
 * [Teste multivariado](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vídeo de treinamento: configurações da atividade  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: configurações da atividade  ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
