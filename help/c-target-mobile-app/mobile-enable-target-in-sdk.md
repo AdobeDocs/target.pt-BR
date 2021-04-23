@@ -1,19 +1,19 @@
 ---
 keywords: aplicativo móvel, sdk de aplicativo móvel, aplicativo móvel target, sdk target móvel, sdk de aplicativo móvel, habilitar target no sdk
 description: Saiba como adicionar o SDK do Adobe Mobile Services ao seu aplicativo móvel.
-title: Como ativar o Público alvo no SDK do Adobe Mobile?
-feature: Implement Mobile
+title: Como faço para ativar o [!DNL Target] no SDK do Adobe Mobile?
+feature: Implementar dispositivos móveis
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-
-# Ativar o Target no SDK{#enable-target-in-the-sdk}
+# Ativar [!DNL Target] no SDK
 
 Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
 
@@ -27,7 +27,7 @@ Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
 
    Na Experience Cloud, abra o Mobile Services, depois vá para **[!UICONTROL Administrar configurações do aplicativo]** > **[!UICONTROL Opções do SDK do Target]**.
 
-   Adicione seu código do cliente Target e tempo limite. O código do cliente é único para sua conta e empresa. O tempo limite é o tempo em segundos que o Target irá aguardar por uma resposta antes de exibir o conteúdo padrão. Certifique-se de que a opção **[!UICONTROL Usar HTTPS]** está marcada na página Administrar configurações do aplicativo no Adobe Mobile Services. Se HTTPS não estiver ativado, todas as chamadas no iOS9+ serão bloqueadas, a menos que você lista de permissões no servidor do Público alvo.
+   Adicione seu código do cliente Target e tempo limite. O código do cliente é único para sua conta e empresa. O tempo limite é o tempo em segundos que o Target irá aguardar por uma resposta antes de exibir o conteúdo padrão. Certifique-se de que a opção **[!UICONTROL Usar HTTPS]** está marcada na página Administrar configurações do aplicativo no Adobe Mobile Services. Se o HTTPS não estiver ativado, todas chamadas no iOS9+ serão bloqueadas a menos que você lista de permissões ao servidor Target.
 
    ![](assets/mobile-clientcode.png)
 
@@ -38,4 +38,3 @@ Adicione o SDK do Adobe Mobile Services ao seu aplicativo.
 >[!IMPORTANT]
 >
 > Se você não tiver acesso à interface de marketing para dispositivos móveis, poderá fazer alterações diretamente no arquivo de configuração no código do aplicativo; no entanto, não estará sincronizado com a página de configurações na interface do usuário.
-
