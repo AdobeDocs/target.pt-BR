@@ -1,20 +1,20 @@
 ---
 keywords: qa, lado do servidor, lado do servidor, visualização, visualização de links
-description: Saiba como usar os URLs de QA do Adobe Target com o delivery do lado do servidor para realizar um controle de qualidade de atividade completo e fácil, com links de pré-visualização que nunca mudam, direcionamento opcional de audiência e relatórios de controle de qualidade que fica segmentado dos dados de atividade ativa.
-title: Use Can I Execute QA de Atividade com o Delivery do lado do servidor?
-feature: Activities
+description: Saiba como usar URLs de controle de qualidade do Adobe [!DNL Target] com entrega do lado do servidor para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
+title: Use É Possível Executar O Controle De Qualidade Da Atividade Com A Entrega Do Lado Do Servidor?
+feature: Atividades
+exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 70%
 
 ---
 
-
 # Usar o controle de qualidade de atividade com entrega do lado do servidor
 
-Use URLs de QA com delivery do lado do servidor em [!DNL Adobe Target] para realizar um controle de qualidade de atividade completo e fácil com links de pré-visualização que nunca mudam, direcionamento de audiência opcional e relatórios de controle de qualidade que permaneça segmentado dos dados de atividade ativa.
+Use URLs de controle de qualidade com entrega do lado do servidor em [!DNL Adobe Target] para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
 
 A implementação padrão do Controle de qualidade de atividade é compatível com a transferência de parâmetros `qa_mode` por meio de parâmetros `pageUrl`. Essa abordagem é conveniente para chamadas padrão/ajax [!DNL Target]. No entanto, para chamadas de servidor para servidor, isso não é a melhor abordagem para um caso SDK do Adobe Mobile, quando `pageUrl` não está disponível.
 
@@ -62,7 +62,7 @@ A tabela a seguir explica os detalhes da solicitação do lado do servidor:
 | token | Token criptografado | Nenhum.<br>Não pode estar em branco. | Uma entidade criptografada que contém a lista de IDs de atividade que podem ser executadas no Controle de qualidade de atividade.<br>[!DNL Target]Regras de validação: deve ser um token criptografado pertencente ao cliente especificado na solicitação Todas as atividades especificadas no token devem pertencer ao cliente. |
 | bypassEntryAudience | Booleano | Falso | Especifica se os direcionamentos de etapas de entrada de atividades de controle de qualidade devem ser avaliados ou se devem ser considerados como correspondentes. |
 | listedActivitiesOnly | Booleano | Falso | Especifica se as atividades de QA devem ser executadas isoladamente ou se devem ser avaliadas como atividades ativas para o ambiente atual. |
-| evaluateAsTrueAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de audiência que devem ser sempre avaliadas como true no escopo da solicitação [!DNL Target]. |
-| evaluateAsFalseAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de audiência que devem ser sempre avaliadas como falsas no escopo da solicitação [!DNL Target]. |
+| evaluateAsTrueAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de público-alvo que devem ser sempre avaliadas como verdadeiras no escopo da solicitação [!DNL Target]. |
+| evaluateAsFalseAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de público-alvo que devem ser sempre avaliadas como falsas no escopo da solicitação [!DNL Target]. |
 | activityIndex | Número inteiro | Nulo.<br>Não pode estar em branco. | O índice de atividade no token criptografado. Se activityIndex estiver fora dos limites da atividade no token ou se for nulo, ele será ignorado. O índice começa com 1.<br>Regras de validação: deve ter pelo menos um índice de atividade e deve fazer referência a uma atividade especificada no token. |
 | experienceIndex | Número inteiro | Nulo. | Quando especificado, seleciona uma experiência por índice na definição da atividade. Se não especificado ou fora dos limites, ele retornará à estratégia de seleção de experiência da atividade. Regras de validação - O índice começa com 1: podem ser nulas ou devem fazer referência a uma experiência na atividade. |
