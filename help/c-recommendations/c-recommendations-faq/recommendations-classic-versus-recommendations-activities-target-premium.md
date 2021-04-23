@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations, algoritmos do recommendations, atividade do recommendations, recommendations classic
-description: Revise as informações para ajudá-lo a entender as diferenças entre o Recommendations Classic e o Recommendations atividade herdados no Público alvo Premium.
-title: Qual é a diferença entre o Recommendations Classic e o Recommendations no Público alvo Premium?
+description: Revise as informações para ajudá-lo a entender as diferenças entre as atividades herdadas do Recommendations Classic e do Recommendations no [!DNL Target] Premium.
+title: Qual é a diferença entre o Recommendations Classic e o Recommendations no [!DNL Target] Premium?
 feature: Recommendations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '661'
+ht-degree: 94%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Atividades do Recommendations Classic versus Recommendations no Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![](/help/assets/premium.png) PREMIUMRatividades do Recommendations Classic versus Recommendations no  [!DNL Target] Premium
 
 Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
 
@@ -76,4 +76,3 @@ No [!DNL Recommendations Classic], existem seis opções de direcionamento. As a
 No [!DNL Target], o [!DNL Recommendations] fornece relatórios aprimorados que aproveitam os recursos fornecidos pelo [!DNL Target] e a [!DNL Experience Cloud]. Em vez de simplesmente mostrar o incentivo fornecido pelo [!DNL Recommendations] em comparação com os resultados sem ele, você pode visualizar as informações completas sobre as atividades do [!DNL Recommendations].
 
 ![](assets/overview_report.png)
-
