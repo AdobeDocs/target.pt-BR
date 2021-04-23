@@ -1,26 +1,26 @@
 ---
-keywords: alocação de tráfego automatizada;definição de metas;vencedor;garantia estatística;confiança;determinar vencedor;incentivo;confiança;padrão;experiência padrão;autoalocar;alocar automaticamente
-description: Saiba como interpretar os resultados de uma atividade A/B de autoalocação no Adobe Target examinando indicadores importantes, incluindo incentivo e confiança.
-title: Como interpreto a autoalocação de relatórios?
-feature: Auto-Allocate
+keywords: alocação de tráfego automatizada, direcionamento, vencedor, garantia estatística, confiança, determinar vencedor, aumento, confiança, padrão, experiência padrão, alocação automática, alocação automática
+description: Saiba como interpretar os resultados de uma atividade de Alocação automática A/B no Adobe [!DNL Target] examinando indicadores importantes, incluindo aumento e confiança.
+title: Como interpreto os relatórios de alocação automática?
+feature: Alocação automática
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
 
 ---
 
+# Interpretar relatórios de autoalocação
 
-# Interpretar relatórios de autoalocação {#determine-a-winner}
-
-Interprete os resultados de uma atividade [!UICONTROL Autoalocar] A/B em [!UICONTROL Adobe Target] examinando indicadores importantes, incluindo incentivo e confiança.
+Interprete os resultados de uma atividade A/B de [!UICONTROL Alocação automática] em [!UICONTROL Adobe Target] examinando indicadores importantes, incluindo aumento e confiança.
 
 Muitos profissionais de marketing cometem o erro de declarar prematuramente uma experiência vencedora antes dos resultados indicarem claramente o vencedor. Agora facilitamos para você determinar o vencedor.
 
 >[!NOTE]
 >
->Para obter informações gerais sobre como declarar um vencedor, consulte [Dez armadilhas comuns de teste A/B e como evitá-las](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+>Para obter informações gerais sobre como declarar um vencedor, consulte [Dez erros comuns em testes A/B e como evitá-los](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identifique a experiência vencedora {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -36,7 +36,7 @@ Quando um vencedor claro é declarado, o [!DNL Target] exibe &quot;Vencedor: Exp
 >
 >As atividades de alocação automática são projetadas para encontrar a melhor experiência entre todas as opções e não apenas para fazer comparações emparelhadas com controle.
 
-## Garantias estatísticas de Autoalocação {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Garantias estatísticas da alocação automática {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 No final de uma atividade A/B, a Alocação automática garante que o vencedor determinado tenha uma taxa de falso-positivo eficaz de 5%. Isso significa que apenas 5% do tempo, o vencedor determinado não é realmente a melhor experiência entre todas as experiências na atividade. Para um teste A/A (com experiências idênticas), concluímos um teste com menos de 5% do tempo. O comportamento esperado para um teste A/A (com experiências idênticas) é para ser executado indefinidamente e, portanto, o emblema do vencedor nunca deve aparecer.
 
@@ -48,19 +48,19 @@ Testes A/B normais calculam a confiança com base nos valores de p. A Alocação
 
 >[!IMPORTANT]
 >
->Público alvo mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre estar nos resultados da calculadora de tamanho de amostra da Adobe Target [a1/>. ](https://docs.adobe.com/content/target-microsite/testcalculator.html) O público alvo não considera as taxas de conversão básicas de um site e outros aspectos importantes que são inseridos na calculadora para determinar a duração da atividade. Como resultado, o Público alvo pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte [Calculadora de tamanho de amostra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>O Target mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre basear-se nos resultados da calculadora de tamanho da amostra do Adobe Target [. ](https://docs.adobe.com/content/target-microsite/testcalculator.html) O Target não considera as taxas de conversão básicas de um site e outros aspectos importantes que são alimentados pela calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte [Calculadora de tamanho de amostra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Entenda o relatórios de Lift e Confidence na Autoalocação do atividade {#lift-confidence}
+## Entenda os relatórios de lift e confiança nas atividades de alocação automática {#lift-confidence}
 
-Nas atividades de Autoalocação, a primeira experiência (por padrão, denominada Experiência A) é sempre definida como uma experiência de &quot;Controle&quot; na guia Relatórios. Esta experiência não é tratada como um verdadeiro controlo estatístico na modelização utilizada para determinar o desempenho das experiências, mas é tratada como uma referência ou uma linha de base para alguns valores no relatório.
+Nas atividades de Alocação automática, a primeira experiência (por padrão, chamada Experiência A) é sempre definida como uma experiência de &quot;Controle&quot; na guia Relatórios . Esta experiência não é tratada como um verdadeiro controle estatístico na modelagem usada para determinar o desempenho das experiências, mas é tratada como uma referência ou uma linha de base para alguns valores no relatório.
 
-O valor numérico &quot;Lift&quot; e os limites de 95% para cada experiência são sempre calculados com referência à experiência &quot;Control&quot; definida. A experiência &quot;Controle&quot; definida não pode ter incentivo relativo a si mesma, portanto, um valor &quot;—&quot; em branco é reportado para essa experiência. Ao contrário dos testes A/B, nos testes de Autoalocação, se uma experiência tiver um desempenho pior do que o controle definido, não é reportado um valor de Elevação negativo; em vez disso, &quot;—&quot; é exibido.
+O valor numérico &quot;Lift&quot; e os limites de 95% para cada experiência são sempre calculados com referência à experiência &quot;Control&quot; definida. A experiência de &quot;Controle&quot; definida não pode ter incentivo em relação a si mesma, portanto, um valor &quot;—&quot; em branco é reportado para essa experiência. Ao contrário dos testes A/B, nos testes de alocação automática, se uma experiência tiver um desempenho pior do que o controle definido, um valor de incentivo negativo não será reportado; em vez disso, &quot;—&quot; é exibido.
 
-As barras de Intervalo de confiança exibidas representam o intervalo de confiança de 95% em torno da estimativa média da taxa de conversão de uma experiência. Eles também são codificados por cores em relação à experiência &quot;Controle&quot; definida. A barra da experiência &quot;Controle&quot; sempre fica cinza. As partes dos intervalos de confiança abaixo do intervalo de confiança da experiência de &quot;Controle&quot; são coloridas em vermelho e as partes dos intervalos de confiança acima da experiência de &quot;Controle&quot; são coloridas em verde.
+As barras de Intervalo de confiança exibidas representam o intervalo de confiança de 95% em torno da estimativa média da taxa de conversão de uma experiência. Eles também são codificados por cores em relação à experiência &quot;Controle&quot; definida. A barra da experiência de &quot;Controle&quot; fica sempre cinza. As partes dos intervalos de confiança abaixo do intervalo de confiança da experiência de &quot;Controle&quot; são coloridas em vermelho e as partes dos intervalos de confiança acima da experiência de &quot;Controle&quot; são coloridas em verde.
 
-Um vencedor é encontrado quando o Intervalo de confiança de 95% da experiência líder não se sobrepõe a nenhuma outra experiência. A experiência vencedora é designada com um selo de estrela verde à esquerda do nome da experiência e no banner &quot;Vencedor&quot;. Quando nenhuma estrela é visível, o banner diz &quot;No Winner AINDA&quot; e um vencedor ainda não foi encontrado.
+Um vencedor é encontrado quando o Intervalo de confiança de 95% da experiência líder não se sobrepõe a nenhuma outra experiência. A experiência vencedora é designada com um selo de estrela verde à esquerda do nome da experiência e no banner &quot;Vencedor&quot;. Quando nenhuma estrela é visível, o banner diz &quot;Ainda não há vencedor&quot; e um vencedor ainda não foi encontrado.
 
-Um número de &quot;Confiança&quot; também é reportado ao lado da experiência líder ou vencedora atual. Este número é reportado apenas até que a Confiança da experiência líder atinja pelo menos 60%. Se exatamente duas experiências estiverem presentes no experimento de Autoalocação, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes no experimento de Autoalocação, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;Controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver vencendo, nenhum número de &quot;Confiança&quot; será relatado.
+Um número de &quot;Confiança&quot; também é reportado ao lado da experiência líder ou vencedora atual. Esse número é relatado somente até que a Confiança da experiência líder atinja pelo menos 60%. Se exatamente duas experiências estiverem presentes no experimento de alocação automática, esse número representa o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes no experimento de alocação automática, esse número representa o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver vencendo, nenhuma figura de &quot;Confiança&quot; será relatada.
 
 ## Perguntas frequentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
@@ -74,6 +74,5 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
    A Alocação automática mostra a probabilidade de uma determinada experiência ser um verdadeiro vencedor em todas as experiências na atividade. Isso significa que apenas uma experiência vencedora (que provavelmente será a vencedora) terá um valor de confiança diferente de zero. Todos os outros são mais propensos a serem perdedores e exibirão 0%.
 
-* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Esses níveis de confiança normalmente aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). Para determinar por quanto tempo um teste A/B normal seria executado, use uma [calculadora de tamanho de amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html): taxa de conversão do controle de plug-in na &quot;taxa de conversão da linha de base&quot;, &quot;5%&quot; para &quot;Elevação&quot; e 95% para &quot;Confiança&quot;. Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
+* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Normalmente, esses níveis de confiança aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). Para determinar por quanto tempo um teste A/B normal seria executado, use uma [calculadora de tamanho de amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html): taxa de conversão do controle de plug em &quot;Índice de conversão da linha de base&quot;, &quot;5%&quot; para &quot;Aumento&quot; e 95% para &quot;Confiança&quot;. Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
 * Se o relatório mostrar 0% em todo o quadro, é provável que seja muito cedo para a atividade.
-
