@@ -1,20 +1,20 @@
 ---
 keywords: várias páginas; teste de jornada; atividade multipáginas
-description: Saiba como criar uma atividade de várias páginas no Adobe Target permite criar uma história em várias páginas, com um design específico para cada página.
-title: Como crio uma Atividade de várias páginas?
+description: Saiba como criar uma atividade multipáginas no Adobe [!DNL Target] permite criar uma história em várias páginas, com um design específico para cada página.
+title: Como criar uma atividade multipáginas?
 feature: Visual Experience Composer (VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
 
-
 # Atividade multipáginas
 
-Uma atividade de várias páginas em [!DNL Adobe Target] permite criar uma história em várias páginas, com um design específico para cada página.
+Uma atividade multipáginas em [!DNL Adobe Target] permite criar uma história em várias páginas, com um design específico para cada página.
 
 Por exemplo, você pode testar uma oferta de entrega gratuita para compras acima de um determinado valor. Talvez você queira que a oferta apareça na página de aterrissagem, na página de uma categoria e em algumas páginas de produtos, mas você quer em um tamanho diferente e em um local diferente em cada tipo de página. Você pode exibir uma oferta de destaque na página inicial e reforçar essa oferta com ofertas menores em outras páginas relevantes.
 
@@ -46,4 +46,3 @@ Para adicionar páginas a um teste:
    Use este menu para renomear as páginas, realizar um teste de redirecionamento de dentro da atividade de multipágina ou excluir a página.
 
 1. Use o Visual Experience Composer para projetar o modo de exibição da oferta em cada página.
-
