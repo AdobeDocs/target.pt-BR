@@ -1,24 +1,24 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório de direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes
-description: Saiba como os diferentes segmentos definidos pelos modelos de personalização do Adobe Target respondem às ofertas/experiências na atividade exibindo o relatório Segmentos automatizados.
-title: O que é o Relatório de segmentos automatizados?
-feature: Reports
+description: Saiba como diferentes segmentos definidos por modelos de personalização do Adobe [!DNL Target] respondem a ofertas/experiências na atividade ao visualizar o relatório de Segmentos automatizados .
+title: O que é o relatório de Segmentos automatizados?
+feature: Relatórios
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Relatório de segmentos automatizados{#automated-segments-report}
+# ![PREMIUM](/help/assets/premium.png) Relatório de segmentos automatizados
 
 Informações sobre o relatório de Segmentos automatizados, um dos dois relatórios especializados disponíveis aos usuários de atividades de Automated Personalization (AP) e Direcionamento automático (AT).
 
 >[!NOTE]
 >
->Considere o seguinte ao usar relatórios de Insights de personalização:
+>Considere o seguinte ao usar os relatórios dos Insights de personalização:
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
    >
@@ -26,26 +26,26 @@ Informações sobre o relatório de Segmentos automatizados, um dos dois relató
 * [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
    >
    >
-* [!UICONTROL Os relatórios de ] Insightsde personalização estão disponíveis somente se o  [!UICONTROL Primary ] Goalis for selecionado na lista  [!UICONTROL do menu ] suspenso de métricas de relatório.
+* [!UICONTROL Os relatórios de ] Insights de personalização estão disponíveis somente se o  [!UICONTROL Objetivo ] principal estiver selecionado na lista suspensa  [!UICONTROL Métricas de ] relatório .
    >
    >
 * Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Os relatórios de ] Insightssão gerados apenas para atividades que estão no   Livestatus e foram ativados e recebem tráfego por pelo menos 15 dias.
+* [!UICONTROL Os relatórios de ] Insights de personalização são gerados apenas para atividades que estão no   Livestatus e foram ativadas e recebem tráfego por pelo menos 15 dias.
 
 
 Visitantes diferentes respondem de forma distinta às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
 ## Acessar o relatório de Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Clique em **[!UICONTROL Atividade]** e clique na atividade [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
+1. Clique em **[!UICONTROL Atividades]**, em seguida, clique na atividade [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
 
-   Se tiver muitas atividades, você pode filtrar a lista selecionando opções de [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Propriedade], [!UICONTROL Fonte do Relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica] e [!UICONTROL listas suspensas da Origem da Atividade].
+   Se você tiver muitas atividades, poderá filtrar a lista selecionando opções no [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Propriedade], [!UICONTROL Fonte de relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica], e [!UICONTROL Listas suspensas da Fonte de Atividade].
 
 1. Clique em **[!UICONTROL Relatórios]**.
 
-   O relatório [Resumo da Automated Personalization](/help/c-reports/reports-ap.md) ou [Resumo do Público alvo automático](/help/c-reports/auto-target-summary-report.md) é exibido, fornecendo informações sobre o desempenho das atividades, representado pelo ícone da primeira tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. Observe que o Direcionamento automático tem um ícone de gráfico adicional para a exibição em gráfico do relatório de [!UICONTROL Resumo].
+   O relatório [Resumo do Automated Personalization](/help/c-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/c-reports/auto-target-summary-report.md) é exibido, fornecendo informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. Observe que o Direcionamento automático tem um ícone de gráfico adicional para a exibição em gráfico do relatório de [!UICONTROL Resumo].
 
    ![](assets/personalization_insights.png)
 
