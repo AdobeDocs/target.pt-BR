@@ -1,18 +1,18 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; aumento; ad hoc; construtor de relatórios; confiança
-description: Encontre respostas para perguntas sobre aumento e confiança ao usar o Analytics for Target (A4T). O A4T permite usar os relatórios do Analytics para as atividades do Target.
+description: Encontre respostas para perguntas sobre aumento e confiança ao usar o Analytics para  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
 title: Onde posso encontrar informações sobre aumento e confiança com o A4T?
 feature: Analytics for Target (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 41%
 
 ---
 
-
-# Aumento e Confiança - Perguntas frequentes sobre o A4T{#lift-and-confidence-a-t-faq}
+# Aumento e Confiança - Perguntas frequentes sobre o A4T
 
 Este tópico contém respostas para as perguntas mais frequentes sobre aumento e confiança ao usar [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Adobe Target] (A4T).
 
@@ -37,7 +37,7 @@ Eventos não calculados (padrão) são aceitos no incentivo e na confiança. Ele
 Exemplos de métricas ou casos de uso não suportados incluem:
 
 * Valor Médio de Pedido (Receita/Pedido, por Visitante). Não há suporte para AOV porque o numerador é uma métrica calculada. Em vez disso, a recomendação é considerar as duas métricas influentes de AOV - Receita por visitante e Taxa de conversão.
-* Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de lead diferentes em dez eventos separados e adicioná-los juntos para obter o total de envios de lead. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de lead no Analytics e, em seguida, usar uma eVar para coletar o tipo de formulário de lead. O uso desse método requer menos variáveis e garante que você possa usar a única métrica de envio de lead nas funções de lift e confiança.
+* Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de lead diferentes em dez eventos separados e adicioná-los juntos para obter o total de envios de lead. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de lead no Analytics e, em seguida, usar um eVar para coletar o tipo de formulário de lead. O uso desse método requer menos variáveis e garante que você possa usar a única métrica de envio de lead nas funções de lift e confiança.
 
 ## Como o A4T gerencia os cálculos de confiança?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
