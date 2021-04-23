@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
-description: Conheça os conceitos básicos do Adobe Target Standard e do Adobe Target Premium. O Target Premium inclui recursos avançados não disponíveis no produto padrão.
+description: Saiba mais sobre as noções básicas do Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: O que é o Target?
-feature: Overview
+feature: Visão geral
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 43%
+source-wordcount: '939'
+ht-degree: 41%
 
 ---
 
@@ -90,7 +90,7 @@ O [!DNL Recommendations Classic] exibe automaticamente produtos ou conteúdo que
 
 Para obter mais informações, consulte a [documentação do Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: o kit de boas-vindas do Adobe Target {#kit}
+## Experience League: O Adobe [!DNL Target] kit de boas-vindas {#kit}
 
 Crie seu programa de otimização e personalização em [!DNL Adobe Target] com este kit de boas-vindas. O kit de boas-vindas inclui informações importantes, ferramentas e recursos para ajudar você a se preparar e iniciar sua primeira atividade [!DNL Target]. O kit inclui ideias para ganhos rápidos em curto prazo e estratégias de otimização em longo prazo.
 
