@@ -1,18 +1,18 @@
 ---
 keywords: público-alvo, propensão, atributo de perfil, comparar, comparação, criar público-alvo, criação de público-alvo
-description: Saiba como definir uma audiência para comparar dois atributos de perfil para a biblioteca de Audiências de Públicos alvos ou em uma audiência somente atividade.
-title: É possível comparar dois atributos de Perfil para uso no Audiência?
-feature: Audiences
+description: Saiba como definir um público-alvo para comparar dois atributos de perfil da sua  [!DNL Target] biblioteca de público-alvo ou em um público somente de atividade.
+title: Posso comparar dois atributos de perfil para uso nos públicos-alvo?
+feature: Públicos-alvo
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# Criar um público-alvo de comparação do atributo de perfil{#create-a-profile-attribute-comparison-audience}
+# Criar um público-alvo de comparação do atributo de perfil 
 
 Defina um público-alvo para comparar dois atributos de perfil da sua [biblioteca de público-alvo](/help/c-target/c-audiences/audiences.md) ou em um [público somente de atividade](/help/c-target/creating-activity-only-audience.md). O uso de operadores, como maior que, menor que ou igual a, define um público-alvo para comparar dinamicamente os valores de dois atributos de perfil diferentes.
 
@@ -58,7 +58,7 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](/h
 
    ![](assets/propensity_score_4.png)
 
-## Vídeo de treinamento ![emblema de visão geral](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Vídeo de treinamento ![Selo de visão geral](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Assista ao vídeo a seguir para obter mais informações e um cenário no qual seja possível usar esse recurso:
 
