@@ -1,15 +1,15 @@
 ---
 keywords: implementar; implementação; configuração; configurar; atualização de perfil em massa
-description: Obtenha dados no Target usando a API de atualização de perfil em massa.
-title: Como obtenho dados no Target usando a API de atualização de perfil em massa?
-feature: Implementation
+description: Obtenha dados em [!DNL Target] usando a API de atualização de perfil em massa.
+title: Como obtenho dados no [!DNL Target] usando a API de atualização de perfil em massa?
+feature: Implementação
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 78%
+source-wordcount: '377'
+ht-degree: 79%
 
 ---
 
