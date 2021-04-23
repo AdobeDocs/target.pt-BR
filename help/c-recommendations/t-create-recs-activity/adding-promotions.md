@@ -1,16 +1,16 @@
 ---
-keywords: promoções;promoções frontais;promoções traseiras;tipo promoções;lista de itens;promover por atributo;promover uma coleção
-description: Saiba como adicionar itens promovidos e controlar sua colocação em seus designs Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
-title: Como adiciono promoções nos designs Recommendations?
+keywords: promoções, promoções principais, promoções secundárias, tipo de promoções, lista de itens, promover por atributo, promover uma coleção
+description: Saiba como adicionar itens promovidos e controlar o posicionamento nos designs do Adobe [!DNL Target] Recommendations. É possível adicionar promoções estáticas e dinâmicas.
+title: Como adiciono promoções em designs Recommendations?
 feature: Recommendations
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Adicionar promoções
 
@@ -58,21 +58,21 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
    * Selecione **[!UICONTROL Promover uma coleção]** e escolha a coleção de itens que deseja promover.
 
       É possível criar novas coleções para usar em promoções. Consulte [Criar uma coleção](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obter mais informações.
-   Se você escolher **[!UICONTROL Lista de itens]** como **[!UICONTROL Tipo de promoção]**, poderá marcar a caixa de seleção **[!UICONTROL Randomizar pedido de item]**, se desejar.
+   Se você escolher **[!UICONTROL Lista de itens]** como o **[!UICONTROL Tipo de promoção]**, poderá marcar a caixa de seleção **[!UICONTROL Randomizar ordem de item]**, se desejado.
 
-   A ordem de classificação padrão para [!UICONTROL Lista de Itens] é baseada na ordem que você digitou na interface do Público alvo ou na API. Se sua lista incluir mais itens do que o número de slots definidos para promoções, a opção [!UICONTROL Randomizar ordem de item] aleatorizará os itens promovidos exibidos no design. Escolher essa opção resulta em [!DNL Target] selecionar aleatoriamente os itens habilitados para promoções no modelo a partir de todo o conjunto de promoções em cada ocorrência.
+   A ordem de classificação padrão para [!UICONTROL List of Items] é baseada na ordem inserida na interface do usuário do Target ou na API. Se sua lista incluir mais itens do que o número de espaços definido para as promoções, a opção [!UICONTROL Randomizar a ordem dos itens] aleatoriamente agrupará os itens promovidos que são exibidos em seu design. Escolher essa opção resulta em [!DNL Target] selecionar aleatoriamente os itens ativados para as promoções no modelo de todo o conjunto de promoções em cada ocorrência.
 
-   Se as entidades não tiverem um atributo `entity.value` (por exemplo, se você não vender produtos), você poderá passar um valor numérico para o atributo `entity.value`, como a data de publicação. Nesse caso, os itens promovidos podem ser promovidos com base na data de publicação mais recente, em ordem decrescente. O atributo `entity.value` é do tipo duplo; não aceita cordas.
+   Se suas entidades não tiverem um atributo `entity.value` (por exemplo, você não vende produtos), poderá passar um valor numérico para o atributo `entity.value`, como a data de publicação. Nesse caso, os itens promovidos podem ser promovidos com base na data de publicação mais recente, em ordem decrescente. O atributo `entity.value` é do tipo double; ele não aceita cadeias de caracteres.
 
    Se você selecionou a opção **[!UICONTROL Promover por atributo]** ou **[!UICONTROL Promover uma coleção]**, a opção para randomizar a ordem não é aplicável.
 
-   Ao promover itens específicos usando as opções [!UICONTROL Promover por atributo] ou [!UICONTROL Promover uma coleção], a ordem padrão na qual os itens são apresentados é baseada no atributo `entity.value`, em ordem numérica decrescente.
+   Ao promover itens específicos usando as opções [!UICONTROL Promover por Atributo] ou [!UICONTROL Promover uma coleção], a ordem padrão na qual os itens são apresentados é baseada no atributo `entity.value`, em ordem numérica decrescente.
 
    A tabela a seguir ilustra as diferenças entre essas opções:
 
-   | Tipo de promoção | Classificação padrão | Classificação de backup | Opção de filtragem dinâmica |
+   | Tipo de promoção | Classificação padrão | Classificação de Backup | Opção de Filtragem Dinâmica |
    | --- | --- | --- | --- |
-   | Lista de itens | Pedido inserido na interface de usuário/API do Público alvo | Aleatório (quando selecionado por interface de usuário/API | Não |
+   | Lista de itens | Pedido inserido na interface/API do Target | Aleatório (quando selecionado por interface/API | Não |
    | Promover por atributo | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum atributo `entity.value` está presente) | Sim |
    | Promover uma coleção | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum atributo `entity.value` está presente) | Não |
 
