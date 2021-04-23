@@ -1,18 +1,18 @@
 ---
 keywords: Direcionamento, biblioteca de metas, biblioteca
-description: Saiba mais sobre como direcionar visitantes usando audiências herdadas pré-criadas. A prática recomendada é usar as categorias de audiência mais recentes para melhorar o desempenho.
-title: É possível Público alvo Visitantes com base em regras de direcionamento pré-criadas?
-feature: Audiences
+description: Saiba mais sobre como segmentar visitantes usando públicos herdados pré-criados. A prática recomendada é usar as categorias de público-alvo mais recentes para melhorar o desempenho.
+title: Posso [!DNL Target] Visitantes com base em Regras de direcionamento pré-criadas?
+feature: Públicos-alvo
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-
-# Biblioteca do Target{#target-library}
+# Biblioteca do Target
 
 Direcione usuários com base nas regras de direcionamento pré-criadas.
 
