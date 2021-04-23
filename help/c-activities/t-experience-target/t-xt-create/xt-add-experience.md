@@ -1,20 +1,20 @@
 ---
 keywords: criar experiência, experiência criar, prioridade, público-alvo, experiência, visual experience composer
-description: Saiba como usar o Adobe Target Visual Experience Composer (VEC) para criar e editar experiências em sua página em uma atividade Experience Targeting (XT).
-title: Como crio experiências em uma Atividade de direcionamento de experiência?
-feature: Experience Targeting
+description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para criar e editar experiências em sua página em uma atividade de Direcionamento de experiência (XT).
+title: Como criar experiências em uma atividade de direcionamento de experiência?
+feature: Direcionamento de experiência
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 87%
 
 ---
 
+# Criar experiência em atividades de Direcionamento de experiência (XT)
 
-# Criar experiência em atividades de direcionamento de experiência (XT)
-
-O [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] fornece uma interface visual para editar as experiências na sua página em uma atividade [!UICONTROL Experience Targeting] (XT).
+O [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] fornece uma interface visual para editar as experiências em sua página em uma atividade de [!UICONTROL Direcionamento de experiência] (XT).
 
 1. Selecione os elementos que você deseja alterar e faça as modificações desejadas.
 
@@ -26,7 +26,7 @@ O [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] fornece u
 
    À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o VEC. Para ver uma lista de ações que podem ser executadas em um elemento para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Se você criou uma solicitação [!DNL Target] na página usando [!DNL Target Classic], essa solicitação [!DNL Target] aparecerá como um elemento que mostra o nome da solicitação e poderá ser modificada como qualquer outro elemento.
+   Se você criou uma solicitação [!DNL Target] na página usando [!DNL Target Classic], essa solicitação [!DNL Target] aparece como um elemento que mostra o nome da solicitação e pode ser modificada como qualquer outro elemento.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ O [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] fornece u
    >
    >Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Ao criar uma audiência, você pode selecionar um local e especificar parâmetros para esse local. Em [!UICONTROL Personalizado] (Criar Audiência > Adicionar regra > Personalizado), selecione o local e especifique os parâmetros desejados.
+   Ao criar um público-alvo, você pode selecionar um local e especificar parâmetros para esse local. Em [!UICONTROL Personalizado] (Criar público-alvo > Adicionar regra > Personalizado), selecione o local e especifique os parâmetros desejados.
 
    >[!NOTE]
    >
