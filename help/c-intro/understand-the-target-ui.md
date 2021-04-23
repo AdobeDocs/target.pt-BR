@@ -1,62 +1,62 @@
 ---
-keywords: interface do usuário do público alvo;interface do usuário;ui
-description: Familiarize-se com a interface do usuário e encontre links para informações mais detalhadas para ajudá-lo a aproveitar ao máximo o Público alvo.
-title: Como uso a interface do Público alvo?
-feature: Overview
+keywords: interface do usuário do target, interface do usuário, interface do usuário
+description: Familiarize-se com a interface do usuário e encontre links para informações mais detalhadas para ajudá-lo a aproveitar ao máximo o Target.
+title: Como uso a interface do usuário do  [!DNL Target] ?
+feature: Visão geral
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 29%
+source-wordcount: '816'
+ht-degree: 30%
 
 ---
 
+# Entender a interface do usuário [!DNL Target]
 
-# Entenda a interface do Público alvo
+A interface do usuário é organizada em um formato lógico e amigável para ajudá-lo a aproveitar ao máximo [!DNL Adobe Target]. A breve visão geral a seguir ajudará você a se familiarizar com [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
 
-A interface do usuário está organizada em um formato lógico e fácil de usar para ajudá-lo a obter o máximo de [!DNL Adobe Target]. A breve visão geral a seguir o ajudará a se familiarizar com [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
+O cabeçalho na parte superior da interface do usuário [!DNL Target] contém guias e opções para ajudá-lo a navegar pelos diferentes recursos da solução, bem como trocar organizações e soluções [!DNL Adobe Experience Cloud], obter ajuda e notificações, gerenciar o perfil [!DNL Adobe] e sair de [!DNL Target].
 
-O cabeçalho na parte superior da interface do usuário [!DNL Target] contém guias e opções para ajudá-lo a navegar pelos diferentes recursos da solução, além de trocar organizações e soluções [!DNL Adobe Experience Cloud], obter ajuda e notificações, gerenciar seu perfil [!DNL Adobe] e sair de [!DNL Target].
+![Cabeçalho do Target](/help/c-intro/assets/target-header.png)
 
-![cabeçalho do público alvo](/help/c-intro/assets/target-header.png)
-
-As guias ao lado esquerdo permitem acessar os vários recursos de [!DNL Target], que discutiremos posteriormente. Vamos start discutindo as opções no lado direito antes de pular para as guias.
+As guias no lado esquerdo permitem que você acesse os vários recursos de [!DNL Target], que discutiremos posteriormente. Vamos começar discutindo as opções no lado direito antes de saltar para as guias.
 
 ## Organizações
 
 Uma *organização* é a entidade que permite a um administrador configurar grupos e usuários, além de controlar o logon único na [!DNL Adobe Experience Cloud]. A organização funciona como uma empresa para logon que abrange os produtos e as soluções da [!DNL Experience Cloud]. Frequentemente, a organização é o nome da empresa. Contudo, uma empresa pode ter muitas organizações.
 
-Selecione a organização desejada na lista suspensa [!UICONTROL Organização] se a empresa tiver várias organizações:
+Selecione a organização desejada na lista suspensa [!UICONTROL Organização] se sua empresa tiver várias organizações:
 
 ![Lista suspensa Organização](/help/c-intro/assets/organizations.png)
 
 ## Aplicativos
 
-O seletor Aplicativos permite acessar rapidamente as soluções [!DNL Adobe Experience Cloud] às quais você tem acesso.
+O alternador de Aplicativos permite acessar rapidamente as soluções [!DNL Adobe Experience Cloud] às quais você tem acesso.
 
-![Comutador de aplicativos](/help/c-intro/assets/apps.png)
+![Seletor de aplicativos](/help/c-intro/assets/apps.png)
 
 ## Ajuda 
 
-O ícone Ajuda permite acessar informações, vídeos, blogs e muito mais para ajudá-lo a usar [!DNL Target] com mais eficiência. Você pode criar um ticket de suporte, encontrar números de telefone de suporte, fazer perguntas pelo Twitter ou fornecer feedback sobre [!DNL Target] para nos informar como estamos indo.
+O ícone Ajuda permite acessar informações, vídeos, blogs e muito mais para ajudá-lo a usar [!DNL Target] com mais eficiência. Você pode criar um tíquete de suporte, encontrar números de telefone de suporte, fazer perguntas pelo Twitter ou fornecer feedback sobre [!DNL Target] para nos informar sobre o que estamos fazendo.
 
 ![Ajuda ](/help/c-intro/assets/help.png)
 
 ## Notificações e anúncios
 
-Os painéis [!UICONTROL Notificações] e [!UICONTROL Anúncios] ajudam a mantê-lo atualizado sobre todas as coisas [!DNL Adobe Target]. As notificações proativas ajudam a mantê-lo informado sobre o status de [!DNL Adobe] produtos e [!DNL Adobe Experience Cloud] soluções. Os anúncios pró-ativos alertam sobre eventos de interrupção e eventos de manutenção.
+Os painéis [!UICONTROL Notificações] e [!UICONTROL Anúncios] ajudam a mantê-lo atualizado sobre tudo [!DNL Adobe Target]. As notificações proativas ajudam a manter você informado sobre o status dos produtos [!DNL Adobe] e das soluções [!DNL Adobe Experience Cloud]. Os anúncios proativos alertam você sobre eventos de interrupção e manutenção.
 
 ![Notificações](/help/c-intro/assets/notifications.png)
 
-Informações mais detalhadas podem ser encontradas na página [Status do Adobe](https://status.adobe.com/). Para obter mais informações, consulte [Atualizações de status do sistema e notificações proativas](/help/c-intro/assets/notifications.png).
+Informações mais detalhadas podem ser encontradas na página [Status do Adobe](https://status.adobe.com/). Para obter mais informações, consulte [Atualizações do status do sistema e notificações proativas](/help/c-intro/assets/notifications.png).
 
 ## Perfil
 
-Clique no avatar do perfil para editar suas preferências [!DNL Adobe Experience Cloud] ou para sair de [!DNL Target]. Você também pode acessar ou editar seu perfil [!DNL Adobe].
+Clique no avatar do seu perfil para editar suas preferências [!DNL Adobe Experience Cloud] ou para sair de [!DNL Target]. Você também pode acessar ou editar seu perfil [!DNL Adobe].
 
-![avatar perfil](/help/c-intro/assets/change-language.png)
+![Avatar do perfil](/help/c-intro/assets/change-language.png)
 
-Agora vamos discutir as guias ao lado esquerdo do cabeçalho [!DNL Target].
+Agora vamos discutir as guias no lado esquerdo do cabeçalho [!DNL Target].
 
 ## Atividades
 
@@ -64,27 +64,27 @@ A lista de **[!UICONTROL Atividades]** é a exibição padrão ao abrir o [!DNL 
 
 ![Lista de atividades](/help/c-intro/assets/activities-list.png)
 
-Consulte [Atividade](/help/c-activities/activities.md) para obter informações detalhadas sobre os tipos de atividades disponíveis em [!DNL Target] e para saber mais sobre a interface de usuário [!UICONTROL Atividade] lista.
+Consulte [Atividades](/help/c-activities/activities.md) para obter informações detalhadas sobre os tipos de atividades disponíveis em [!DNL Target] e para saber mais sobre a interface do usuário da lista [!UICONTROL Atividade].
 
 ## Públicos-alvo
 
-Clique na guia **[!UICONTROL Audiência]** para exibir a lista [!UICONTROL Audiência], onde você pode criar novas audiências e gerenciar audiências existentes.
+Clique na guia **[!UICONTROL Audiences]** para exibir a lista [!UICONTROL Audiences], onde é possível criar novos públicos e gerenciar públicos existentes.
 
-![Lista audiência](/help/c-intro/assets/audience-list.png)
+![Lista de públicos-alvo](/help/c-intro/assets/audience-list.png)
 
-Um público-alvo é um grupo de novatos em atividade semelhante que visualizarão uma atividade direcionada. Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso [!UICONTROL Audiência] permite que você público alvo conteúdo e experiências diferentes para audiências específicas para otimizar seu marketing digital, exibindo as mensagens certas para as pessoas certas no momento certo. Se um visitante for identificado como parte de uma audiência de público alvo, [!DNL Target] determinará qual experiência será exibida, com base em critérios definidos durante a criação da atividade.
+Um público-alvo é um grupo de novatos em atividade semelhante que visualizarão uma atividade direcionada. Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso [!UICONTROL Audience] permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, [!DNL Target] determinará qual experiência deve ser exibida, com base nos critérios definidos durante a criação da atividade.
 
-Consulte [Criar audiência](/help/c-target/c-audiences/create-audience.md) para obter informações detalhadas sobre os tipos de audiências em [!DNL Target] e para saber mais sobre a interface de usuário [!UICONTROL Audiência] lista.
+Consulte [Criar públicos](/help/c-target/c-audiences/create-audience.md) para obter informações detalhadas sobre os tipos de público-alvo em [!DNL Target] e para saber mais sobre a interface do usuário da lista [!UICONTROL Público-alvo].
 
 ## Ofertas
 
-Clique na guia **[!UICONTROL Oferta]** para exibir a lista [!UICONTROL Oferta], onde você pode criar novas experiências e ofertas e gerenciar experiências e ofertas existentes.
+Clique na guia **[!UICONTROL Offers]** para exibir a lista [!UICONTROL Offers], onde é possível criar novas experiências e ofertas e gerenciar experiências e ofertas existentes.
 
-![Lista Oferta](/help/c-intro/assets/offers.png)
+![Lista de ofertas](/help/c-intro/assets/offers.png)
 
 Uma experiência pode ser uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez forme um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de atendimento ao cliente ou até mesmo um sabor personalizado de uma máquina bebidas. Teste ou personalize experiências nas atividades do [!DNL Target].
 
-Consulte [Oferta](/help/c-experiences/c-manage-content/manage-content.md) para obter informações detalhadas sobre os tipos de ofertas em [!DNL Target] e para saber mais sobre a interface de usuário [!UICONTROL Oferta] lista.
+Consulte [Ofertas](/help/c-experiences/c-manage-content/manage-content.md) para obter informações detalhadas sobre os tipos de oferta em [!DNL Target] e para saber mais sobre a interface do usuário da lista [!UICONTROL Oferta].
 
 ## Recommendations
 
@@ -92,7 +92,7 @@ Clique na guia **[!UICONTROL Recommendations]** para acessar [!DNL Target Recomm
 
 >[!NOTE]
 >
->As atividades do Recommendations estão disponíveis como parte da solução do [!DNL Target Premium]. Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações, consulte [Público alvo Premium](/help/c-intro/intro.md#premium) em *Introdução ao Público alvo*.
+>As atividades do Recommendations estão disponíveis como parte da solução do [!DNL Target Premium]. Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações, consulte [Target Premium](/help/c-intro/intro.md#premium) em *Introdução ao Target*.
 
 ![Recommendations](/help/c-intro/assets/recommendations.png)
 
@@ -102,10 +102,10 @@ Consulte [Recommendations](/help/c-recommendations/recommendations.md) para obte
 
 ## API de
 
-Clique na guia **[!UICONTROL Administração]** para acessar as páginas [!UICONTROL Administração].
+Clique na guia **[!UICONTROL Administration]** para acessar as páginas [!UICONTROL Administration].
 
 ![Páginas de administração](/help/c-intro/assets/administration.png)
 
 As páginas [!UICONTROL Administration] permitem administrar [!DNL Target], incluindo configurações para o [!UICONTROL Visual Experience Composer] (VEC), relatórios, [!DNL Scene7] configuração, implementação, hosts, ambientes, tokens de resposta e usuários.
 
-Consulte [Visão geral do Público alvo do administrador](/help/administrating-target/administrating-target.md) para obter informações detalhadas e para saber mais sobre a interface do usuário.
+Consulte [Visão geral da administração do Target](/help/administrating-target/administrating-target.md) para obter informações detalhadas e saber mais sobre a interface do usuário.
