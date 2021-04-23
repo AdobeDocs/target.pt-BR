@@ -1,13 +1,13 @@
 ---
 keywords: email, ESP, provedor de serviços de email, rawbox, API de entrega, modelo somente para download, modelo de email, processamento em lote, email de tempo de compilação
-description: Saiba como integrar email ao Adobe Target Recommendations, incluindo o uso da API de entrega do Target, modelos de rawbox e modelos somente para download.
+description: Saiba como integrar emails com Adobe [!DNL Target] Recommendations, including using the [!DNL Target] API de entrega, templates de rawbox e templates somente para download.
 title: Como integrar o Recommendations com o email?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 86%
 
 ---
@@ -78,7 +78,7 @@ O sistema de email usado deve ser capaz de lidar com esses cenários:
 * Neste caso, a resposta será o que for definido como o valor do parâmetro mboxDefault. Veja a explicação abaixo sobre este parâmetro.
 * O provedor de email deve ter um bloco HTML padrão de recomendações para usar neste caso.
 
-### O servidor do Target atinge o limite de tempo e não retorna dados
+### O servidor [!DNL Target] atinge o tempo limite e retorna sem dados
 
 * Nesse caso, o servidor do Target retornará o seguinte conteúdo:
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Opcional) | 1 | Por padrão, o chamador é redirecionado quando nenhum conteúdo entregável é encontrado. Use para desativar o comportamento padrão. |  |
 | `mbox3rdPartyId` | *xxx* | Use se tiver seu próprio ID de visitante personalizado para usar no direcionamento de perfil. |  |
 
-### Possíveis respostas do servidor do Target
+### Possíveis [!DNL Target] respostas do servidor
 
 | Resposta | Descrição |
 |--- |--- |
