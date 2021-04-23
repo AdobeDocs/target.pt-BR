@@ -1,28 +1,28 @@
 ---
 keywords: parâmetros personalizados, parâmetros personalizados do target, targetpageparams, parâmetros mbox de segmentação
-description: Saiba como passar parâmetros personalizados para o Adobe Target para uso no audiência.
-title: Posso Público alvo Visitantes com base em parâmetros personalizados?
-feature: Audiences
+description: Saiba como transmitir parâmetros personalizados para o Adobe [!DNL Target] para uso em públicos-alvo.
+title: Posso [!DNL Target] Visitantes com base em parâmetros personalizados?
+feature: Públicos-alvo
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 85%
 
 ---
 
-
-# Parâmetros personalizados{#custom-parameters}
+# Parâmetros personalizados
 
 Os parâmetros personalizados são parâmetros de mbox. Se você passar algum parâmetro de mbox para mboxes, ou usar a função targetPageParams, esses parâmetros aparecerão aqui para uso em públicos-alvo.
 
-Para obter mais informações, consulte [Enviar parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
+Para obter mais informações, consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mboxParameter` não solicita mais `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Personalizado]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Personalizada]**.
 
    Para selecionar o parâmetro desejado:
 
@@ -54,9 +54,9 @@ O [cartão pop-up dos detalhes de definição](/help/c-target/c-audiences/audien
 ## Considerações {#considerations}
 
 * Os públicos-alvo e as atividades são avaliados para uma mbox específica. Por exemplo, se a mbox global transmitir determinado parâmetro, mas a mbox regional não, o direcionamento de atividades/públicos-alvo não será qualificado para a mbox regional.
-* A definição de metas não é avaliada em parâmetros internos da mbox, como mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId e mboxVersion.
+* O direcionamento não é avaliado em parâmetros internos da mbox, como mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId e mboxVersion.
 
-## Vídeo de treinamento: Criando Audiência ![Etiqueta do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
