@@ -1,20 +1,20 @@
 ---
 keywords: Target, relatórios, configurações de relatório, predefinição, predefinição de direcionamento, métrica, público-alvo, intervalo de datas, configurações, download, exibição de tabela, exibição em gráfico, elevação média, elevação, limite de elevação, intervalo de confiança, confiança, contribuição de localização, média de execução, metodologia de contagem
-description: Saiba como configurar as configurações do relatório no Adobe Target, incluindo métricas, audiências, intervalos de datas e muito mais.
-title: Como configurar as configurações de relatório?
-feature: Reports
+description: Saiba como definir configurações de relatório no Adobe Target, incluindo métricas, públicos-alvo, intervalos de datas e muito mais.
+title: Como defino as configurações de relatório?
+feature: Relatórios
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1919'
 ht-degree: 69%
 
 ---
 
+# Configurações do relatório
 
-# Configurações do relatório{#report-settings}
-
-Informações para ajudá-lo a definir os elementos que deseja que apareçam em seu relatório em [!DNL Adobe Target]. As definições de relatório podem ser salvas para uso posterior.
+Informações para ajudar a definir os elementos que deseja que apareçam em seu relatório em [!DNL Adobe Target]. As definições de relatório podem ser salvas para uso posterior.
 
 Para exibir um relatório:
 
@@ -25,15 +25,15 @@ Para exibir um relatório:
 
 ## Predefinição do Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Você pode salvar até dez predefinições diferentes de um relatório de atividade individual, após configurá-lo como desejado (métricas, intervalos de datas, públicos-alvo, configurações avançadas e assim por diante). Todos os [!DNL Target] usuários podem exibir, editar e excluir as várias predefinições, independentemente de quem as criou.
+Você pode salvar até dez predefinições diferentes de um relatório de atividade individual, após configurá-lo como desejado (métricas, intervalos de datas, públicos-alvo, configurações avançadas e assim por diante). Todos os usuários [!DNL Target] podem exibir, editar e excluir as várias predefinições, independentemente de quem as criou.
 
 Você também pode configurar um relatório de atividade individual, como desejado, e depois salvar essa configuração como sua predefinição padrão/favorita. A partir de agora, esta será a exibição apresentada sempre que você visualizar o relatório dessa atividade.
 
-### Criar uma predefinição ou predefinição padrão
+### Criar uma predefinição ou uma predefinição padrão
 
-1. Configure o relatório de atividades conforme desejado.
+1. Configure o relatório de atividade conforme desejado.
 
-   As configurações disponíveis, incluindo métricas, intervalos de datas, audiências, configurações avançadas e assim por diante, são explicadas abaixo.
+   As configurações disponíveis, incluindo métricas, intervalos de datas, públicos-alvo, configurações avançadas e assim por diante, são explicadas abaixo.
 
 1. Perto de **[!UICONTROL Predefinição do Target]**, clique no ícone de três elipses verticais > **[!UICONTROL Salvar como novo]**.
 
@@ -43,11 +43,11 @@ Você também pode configurar um relatório de atividade individual, como deseja
 
    ![Caixa de diálogo Nova predefinição](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Revise as informações nas seções **[!UICONTROL Filtros]** e **[!UICONTROL Configurações]** para garantir que o relatório esteja configurado conforme desejado, em seguida, especifique **[!UICONTROL Nome da predefinição]** (até 50 caracteres).
-1. (Condicional) Se você quiser que essa seja a sua visualização de relatório padrão/favorita, deslize a opção **[!UICONTROL Definir como predefinição padrão]** para a posição Ligado.
+1. Revise as informações nas seções **[!UICONTROL Filters]** e **[!UICONTROL Settings]** para garantir que o relatório esteja configurado conforme desejado, em seguida, especifique o **[!UICONTROL Preset Name]** (até 50 caracteres).
+1. (Condicional) Se desejar que isso seja a exibição de relatório padrão/favorita, deslize o botão **[!UICONTROL Definir como predefinição padrão]** para a posição Ativado.
 1. Clique em **[!UICONTROL Salvar]**.
 
-### Selecionar uma predefinição diferente
+### Selecione uma predefinição diferente
 
 Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefinição do Target]**.
 
@@ -77,7 +77,7 @@ Selecione a predefinição desejada na lista suspensa **[!UICONTROL Predefiniç�
 
    ![Exclusão Padrão do relatório](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Clique em **[!UICONTROL Excluir]** novamente para confirmar sua exclusão (as predefinições excluídas não podem ser recuperadas).
+1. Clique em **[!UICONTROL Delete]** novamente para confirmar a exclusão (as predefinições excluídas não podem ser recuperadas).
 
 ### Tratamento de erros predefinidos
 
@@ -89,7 +89,7 @@ A lista a seguir descreve algumas das situações que podem fazer com que uma pr
 * Uma (ou mais) métrica foi excluída, mas referenciada na definição predefinida. Por exemplo, você pode excluir uma ou mais métricas da atividade e, em seguida, adicionar novas métricas.
 * Um (ou mais) grupo de hosts (ambiente) não existe, mas é referenciado na definição predefinida.
 * Uma (ou mais) experiência foi excluída depois que a predefinição foi criada, mas é referenciada na definição predefinida.
-* Uma predefinição é semanticamente inválida, pois as entidades referenciadas ainda existem, mas foram atualizadas de forma a alterar a definição semântica da predefinição. Por exemplo, suponha que você crie inicialmente uma predefinição chamada &quot;Receita no Chrome&quot;. Posteriormente, você atualiza a atividade para medir a Métrica de conversão, em vez da Receita. Essa atualização na definição da atividade invalida a definição predefinida semântica.
+* Uma predefinição é semanticamente inválida, pois as entidades referenciadas ainda existem, mas foram atualizadas de forma a alterar a definição semântica da predefinição. Por exemplo, suponha que você crie inicialmente uma predefinição chamada &quot;Receita no Chrome&quot;. Posteriormente, você atualiza a atividade para medir a Métrica de conversão, em vez da Receita. Essa atualização na definição da atividade invalida a definição predefinida semanticamente.
 
 ## Métrica de relatório {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -111,21 +111,21 @@ A caixa Intervalo de datas exibe o intervalo de datas atual do relatório. Cliqu
 
 ![Calendário](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Selecione as datas **[!UICONTROL Iniciais]** e **[!UICONTROL Finais]** para o relatório. Você também pode usar as caixas de seleção **[!UICONTROL Do start da Atividade]** e **[!UICONTROL Até o fim da Atividade]**.
+Selecione as datas **[!UICONTROL Iniciais]** e **[!UICONTROL Finais]** para o relatório. Você também pode usar as caixas de seleção **[!UICONTROL Do início da atividade]** e **[!UICONTROL Até o fim da atividade]**.
 
 Clique em **[!UICONTROL Personalizar datas]** para selecionar intervalos de datas predefinidos: Últimos 7 dias, Últimos 15 dias ou Últimos 30 dias. Esses intervalos de datas predefinidos são intervalos acumulados. Se a data de início for menor do que o número de dias escolhido, o calendário mostrará o intervalo desde a data de início, mas acumulará quando a data de início se tornar mais anterior do que o número de dias escolhido conforme a duração da atividade aumenta.
 
 Os relatórios têm as seguintes restrições de data:
 
 * A data de início do relatório deve ficar dentro dos últimos dois anos.
-* Os relatórios de grupos de ofertas são limitados a 99 dias a partir do dia atual.
+* Os relatórios do grupo de ofertas são limitados a 99 dias a partir de hoje.
 * Os relatórios por hora estão limitados a 15 dias.
 
 ## Configurações {#section_D99CE462107D45CABE0960F820E1E972}
 
-Para configurar as configurações do relatório:
+Para definir as configurações do relatório:
 
-1. Clique no ícone de engrenagem e faça as alterações desejadas (conforme explicado abaixo).
+1. Clique no ícone de engrenagem, faça as alterações desejadas (conforme explicado abaixo).
 1. Clique em **[!UICONTROL Salvar]** ao concluir.
 
 A ilustração a seguir mostra a caixa de diálogo Configurações para uma atividade A/B:
@@ -144,15 +144,15 @@ Selecione a metodologia desejada:
 
 ### Controle
 
-Selecione a experiência de controle a ser usada ao calcular e comparar o incentivo.
+Selecione a experiência de controle para usar o cálculo e comparar o incentivo.
 
 ### Ambiente
 
-Selecione o ambiente (grupo de host) a ser usado para o relatório. Para obter mais informações, consulte [Hosts](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Selecione o ambiente (grupo de hosts) a ser usado para o relatório. Para obter mais informações, consulte [Hosts](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ### Redefinir dados do relatório
 
-Redefina os dados do relatórios para remover os dados antigos. Os visitantes atuais permanecerão na atividade.  Esta opção está disponível somente para aqueles com permissões [!UICONTROL Aprovador].
+Redefina os dados de relatório para remover os dados antigos. Os visitantes atuais permanecerão na atividade.  Essa opção está disponível somente para aqueles com permissões de [!UICONTROL Aprovador].
 
 >[!IMPORTANT]
 >
@@ -160,34 +160,34 @@ Redefina os dados do relatórios para remover os dados antigos. Os visitantes at
 
 ### Excluir valores extremos
 
-A alternância [!UICONTROL Excluir valores extremos] aplica-se somente a atividades com tipos de métricas Receita e Envolvimento. Para obter mais informações, consulte [Exceto pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+A opção [!UICONTROL Excluir valores extremos] é aplicada apenas para atividades com métricas do tipo receita e envolvimento. Para obter mais informações, consulte [Exceto pedidos extremos](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Baixar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Clique no ícone **[!UICONTROL Baixar]** para baixar dados do relatório em um formato [!DNL .csv] para importação rápida para Excel, Access ou outros programas de análise de dados.
+Clique no ícone **[!UICONTROL Download]** para baixar dados de relatório em um formato [!DNL .csv] para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
 
-![Ícone Download](/help/c-reports/c-report-settings/assets/download-icon.png)
+![Ícone de download](/help/c-reports/c-report-settings/assets/download-icon.png)
 
 Para obter mais informações, consulte [Fazendo download de dados em um arquivo CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Atualizar {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Clique no ícone **[!UICONTROL Atualizar]** para atualizar a tabela e a visualização do gráfico de um relatório sem atualizar a página inteira, a configuração ou o intervalo de datas.
+Clique no ícone **[!UICONTROL Refresh]** para atualizar a tabela do relatório e a exibição em gráfico sem atualizar a página inteira, sua configuração ou seu intervalo de datas.
 
 ## Mais opções {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Clique no ícone de Mais opções (três elipses verticais) para acessar as opções [!UICONTROL Editar atividade] e [!UICONTROL Exibir URLs de experiência].
 
-## Opções de visualização
+## Exibir opções
 
-Você pode visualização o relatório em vários formatos, dependendo do tipo de atividade. Selecione a opção desejada.
+É possível exibir o relatório em vários formatos, dependendo do tipo de atividade. Selecione a opção desejada.
 
-![Ícones de opções de visualização](/help/c-reports/c-report-settings/assets/view-options.png)
+![Exibir ícones de opções](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **Visualização** da tabela: Clique no ícone  **[!UICONTROL Visualização de]** tabela para visualização o relatório como uma tabela.
-* **Visualização** do gráfico: Clique no ícone  **[!UICONTROL Visualização de]** gráfico para visualização o relatório como gráfico.
-* **Segmentos** automatizados:(Disponível somente para atividades Automated Personalization (AP) e Público alvo automático (AT).) Clique no ícone **[!UICONTROL Segmentos automatizados] para visualização do [Relatório de segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **Atributos** importantes: (Disponível somente para atividades Automated Personalization (AP) e Público alvo automático (AT).) Clique no ícone **[!UICONTROL Atributos importantes] para visualização no [Relatório de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **Exibição** de tabela: Clique no ícone  **** Visualização de tabela para exibir o relatório como uma tabela.
+* **Exibição** em gráfico: Clique no ícone  **** Visualização de gráfico para exibir o relatório como um gráfico.
+* **Segmentos automatizados**: (disponível somente para atividades de Automated Personalization (AP) e Direcionamento automático (AT).) Clique no ícone **[!UICONTROL Segmentos automatizados] para exibir o [Relatório de segmentos automatizados](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Atributos** importantes: (Disponível somente para atividades de Automated Personalization (AP) e Direcionamento automático (AT).) Clique no ícone **[!UICONTROL Atributos importantes] para exibir o [Relatório de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Média de aumento, Limites de aumento e Intervalo de confiança {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -218,7 +218,7 @@ Na ilustração a seguir, somente as experiências Padrão, Centro-este e Total 
 
 (Disponível somente ao exibir o relatório em gráficos)
 
-&quot;Média em execução&quot; reflete as conversões cumulativas (do start da janela do relatórios até a data representada no gráfico) divididas pelos visitantes cumulativos.
+&quot;Média de execução&quot; reflete as conversões cumulativas (do início da janela de relatórios até a data representada no gráfico) divididas pelos visitantes cumulativos.
 
 Selecione a exibição de gráfico desejada:
 
@@ -229,15 +229,15 @@ Selecione a exibição de gráfico desejada:
 
 ![Média de execução do relatório](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
-O nome dessa lista suspensa varia dependendo da visualização selecionada, mas será uma das visualizações listadas acima.
+O nome dessa lista suspensa varia dependendo da exibição selecionada, mas será uma das exibições listadas acima.
 
 ## Metodologia de contagem {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (Disponível somente ao exibir o relatório em gráficos)
 
-É possível escolher a metodologia de contagem de gráficos nos relatórios. Observe que isso não é compatível com as atividades [!UICONTROL Automated Personalization] (AP).
+É possível escolher a metodologia de contagem de gráficos nos relatórios. Observe que isso não é compatível com atividades [!UICONTROL Automated Personalization] (AP).
 
-Para acessar a opção [!UICONTROL Metodologia de contagem], enquanto exibe um relatório no modo gráfico, clique no menu suspenso **[!UICONTROL Meu objetivo principal]** e selecione a metodologia de contagem.
+Para acessar a opção [!UICONTROL Metodologia de contagem], enquanto exibe um relatório em modo de gráfico, clique na lista suspensa **[!UICONTROL Minha meta primária]** e selecione a metodologia de contagem.
 
 A metodologia de contagem será a mesma que a selecionada na caixa de diálogo [!UICONTROL Configurações], descrita acima.
 
@@ -245,7 +245,7 @@ A metodologia de contagem será a mesma que a selecionada na caixa de diálogo [
 
 Como padrão, o gráfico é criado em modo [!UICONTROL Diário].
 
-Você pode alterar o modo clicando na lista suspensa [!UICONTROL Diariamente] e, em seguida, selecionando uma opção cumulativa.
+Você pode alterar o modo clicando na lista suspensa [!UICONTROL Diariamente] e selecionando uma opção cumulativa.
 
 ![Cumulativo](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
@@ -257,15 +257,15 @@ Há quatro modos para atividades de direcionamento automático: Controle diário
 
 A seguir, a ordem padrão na qual o gráfico é criado:
 
-* **Testes A/B (incluindo Autoalocação e Automated Personalization)**: Ordem de criação da experiência, em ordem decrescente.
+* **Testes A/B (incluindo Alocação automática e Automated Personalization)**: Ordem de criação da experiência, em ordem decrescente.
 * **Direcionamento de experiência (XT)**: Ordem das experiências na atividade.
-* **Teste multivariado (MVT)**: Alfabético pelo nome da experiência.
+* **Teste multivariado (MVT)**: Alfabético por nome da experiência.
 * **Recommendations**: Ordem de criação da experiência, em ordem decrescente.
 
 À medida que usa as opções de Metodologia de contagem, considere os seguintes avisos:
 
-* Para [atividades de Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md), não há opção para selecionar &quot;Visitantes&quot; como metodologia de contagem. O direcionamento automático é o único tipo de atividade que você não pode colocar em gráfico por visitantes.
-* Para atividades que usam [Analytics como fonte de relatórios (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), não é possível plotar Visitante, Visita ou Impressão cumulativamente.
+* Para [Atividades de Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md), não há opção para selecionar &quot;Visitantes&quot; como metodologia de contagem. O direcionamento automático é o único tipo de atividade que você não pode colocar em gráfico por visitantes.
+* Para atividades que usam [Analytics como fonte de geração de relatórios (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), não é possível traçar um gráfico de Visitante, Visita ou Impressão cumulativamente.
 
 ## Trabalhar com gráficos com mais de 16 experiências na atividade
 
@@ -290,4 +290,3 @@ Se você passa o cursor do mouse sobre uma experiência em cinza, uma nova linha
 Pressuponha que você deseje exibir a linha de gráfico para a Experiência R e não quer ver a linha para a Experiência P. É possível clicar no nome da Experiência P para desmarcá-la e, em seguida, clicar no nome da Experiência R para selecioná-la, conforme mostrado a seguir:
 
 ![](assets/graph_3.png)
-
