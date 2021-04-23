@@ -2,16 +2,16 @@
 keywords: host; hosts; grupo de hosts; solução de problemas; práticas recomendadas; ubox; redirecionamentos; redirecionamento; lista de permissões;  lista de permissões; lista negra;  lista de bloqueios
 description: Saiba como organizar seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separados no Adobe Target.
 title: O que são hosts e como os uso?
-feature: Administration & Configuration
+feature: Administração e configuração
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 22%
 
 ---
-
 
 # Hosts
 
@@ -65,7 +65,7 @@ Para classificar a lista [!UICONTROL Hosts], clique em qualquer cabeçalho de co
 
 Para pesquisar a lista [!UICONTROL Hosts], digite um termo de pesquisa na caixa [!UICONTROL Pesquisar Hosts].
 
-## Crie listas de permissões que especifiquem hosts autorizados a enviar solicitações do Target para o Target. {#allowlist}
+## Crie listas de permissões que especifiquem hosts autorizados a enviar solicitações [!DNL Target] para [!DNL Target]. {#allowlist}
 
 Você pode criar uma  de lista de permissões que especifica hosts (domínios) autorizados a enviar solicitações [!DNL Target] para [!DNL Target]. Todos os outros hosts que geram solicitações recebem uma resposta comentada do erro de autorização. Por padrão, qualquer host que contenha uma solicitação [!DNL Target] é registrado com [!DNL Target] no ambiente [!UICONTROL Produção] e tem acesso a todas as atividades ativas e aprovadas. Se essa abordagem não for desejada, você poderá usar a  de lista de permissões para gravar hosts específicos que sejam elegíveis para fazer solicitações [!DNL Target] e receber conteúdo [!DNL Target]. Todos os hosts continuam a ser exibidos na lista [!UICONTROL Hosts], e os ambientes ainda podem ser usados para agrupar esses hosts e atribuir níveis diferentes a cada um, como se o host pode ver atividades ativas e/ou inativas.
 
