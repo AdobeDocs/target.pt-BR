@@ -1,20 +1,20 @@
 ---
 keywords: Definição de metas; experiência; adicionar experiência; adicionar experiência
-description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target. O VEC fornece uma interface visual para adicionar e editar experiências na sua página.
-title: Como adiciono experiências em uma Atividade A/B do Público alvo?
-feature: A/B Tests
+description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target. O VEC fornece uma interface visual para adicionar e editar experiências na página.
+title: 'Como adiciono experiências em uma atividade A/B? [!DNL Target] '
+feature: Testes A/B
+exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '483'
 ht-degree: 79%
 
 ---
 
-
 # Adicionar experiência
 
-O Adobe Target Visual Experience Composer (VEC) fornece uma interface visual para adicionar e editar as experiências na sua página.
+O Visual Experience Composer (VEC) do Adobe Target fornece uma interface visual para adicionar e editar as experiências em sua página.
 
 Para obter mais detalhes sobre experiências, consulte [Experiências](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
@@ -30,7 +30,7 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/c-e
 
    À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o Experience Composer.
 
-   Se você criou uma solicitação [!DNL Target] na página usando o Público alvo Classic (antigo Test&amp;Público alvo), essa solicitação [!DNL Target] aparece como um elemento que mostra o nome da solicitação e pode ser modificada como qualquer outro elemento.
+   Se você criou uma solicitação [!DNL Target] na página usando o Target Classic (antigo Test&amp;Target), essa solicitação [!DNL Target] aparece como um elemento que mostra o nome da solicitação e pode ser modificada como qualquer outro elemento.
 
    Para ver uma lista de ações que podem ser executadas em um elemento de uma página exibida para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -93,7 +93,7 @@ Na página **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho
 
 ![Opção Excluir experiência](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vídeo de treinamento: Usando o Visual Experience Composer ![Etiqueta do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Uso do Visual Experience Composer ![Selo do tutorial](/help/assets/tutorial.png)
 
 O vídeo abaixo contém informações sobre o uso das opções do Visual Experience Composer. (7:17)
 
