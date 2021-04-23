@@ -1,18 +1,18 @@
 ---
 keywords: Direcionamento, sistema operacional target, sistema operacional, target os, os, target linux, linux, target windows, windows, target macintosh, macintosh, mac, target mac, win, target win
-description: Saiba como público alvo visitantes que usam um determinado sistema operacional (Linux, Macintosh ou Windows).
-title: Posso Público alvo Visitantes com base no sistema operacional?
-feature: Audiences
+description: Saiba como direcionar visitantes que usam um determinado sistema operacional (Linux, Macintosh ou Windows).
+title: Posso [!DNL Target] Visitantes com base no sistema operacional?
+feature: Públicos-alvo
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 82%
 
 ---
 
-
-# Sistema operacional{#operating-system}
+# Sistema operacional
 
 Você pode direcionar os visitantes que usam um certo sistema operacional.
 
