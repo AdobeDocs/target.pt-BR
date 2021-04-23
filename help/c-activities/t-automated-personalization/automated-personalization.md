@@ -1,20 +1,20 @@
 ---
-keywords: personalização automatizada;ap;audiência;conjunto;floresta aleatória;multi-armed bandit;amostra aleatória;ml;aprendizado de máquina
-description: Saiba como usar atividades Automated Personalization (AP) no Adobe Target que usam aprendizado de máquina avançado para corresponder às diferentes variações de oferta de cada visitante.
-title: O que é uma Atividade Automated Personalization (AP)?
-feature: Automated Personalization
+keywords: personalização automatizada, ap, públicos-alvo, conjunto, random forest, multi-armed bandit, amostragem de thompson, ml, aprendizado de máquina
+description: Saiba como usar as atividades do Automated Personalization (AP) no Adobe [!DNL Target] que usam aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante.
+title: O que é uma atividade de Automated Personalization (AP)?
+feature: Personalização automatizada
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 88%
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMAPersonalização automatizada (AP)
 
-# ![Personalização ](/help/assets/premium.png) personalizada PREMIUMA (AP)
-
-[!UICONTROL As atividades Automated Personalization] (AP)  [!DNL Adobe Target] combinam ofertas ou mensagens e usam o aprendizado avançado da máquina para corresponder variações de oferta diferentes para cada visitante com base em seu perfil individual do cliente, a fim de personalizar o conteúdo e o incentivo.
+[!UICONTROL As atividades de Automated Personalization]  (AP) no  [!DNL Adobe Target] combinam ofertas ou mensagens e usam aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar o incentivo.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 De maneira semelhante ao [!UICONTROL Direcionamento automático], a [!UICONTROL Personalização automatizada] usa um algoritmo Random Forest, um dos principais métodos de conjunto de ciência de dados, como seu principal algoritmo de personalização para determinar a melhor experiência para mostrar a um visitante. [!UICONTROL A Personalização automatizada] pode ser valiosa na fase de descoberta do teste. Também é útil permitir que a aprendizagem de máquina determine o conteúdo mais eficiente ao direcionar vários visitantes. Ao longo do tempo, o algoritmo aprende a prever o conteúdo mais eficaz e exibe o conteúdo com maior probabilidade de atingir suas metas.
 
-Para obter mais informações sobre como [!UICONTROL Automated Personalization] difere de [!UICONTROL Público alvo automático], consulte [Público alvo automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Para encontrar mais informações sobre como o [!UICONTROL Automated Personalization] difere do [!UICONTROL Direcionamento automático], consulte [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Os profissionais de marketing implementam um arquivo em seu site, o que os permite apontar e clicar em qualquer conteúdo, bem como criar visualmente e selecionar opções de conteúdo adicionais para essa área usando o VEC ([!UICONTROL Visual Experience Composer]). Em seguida, o algoritmo determina automaticamente qual parte do conteúdo será entregue a cada visitante com base em todos os dados comportamentais que o sistema tem sobre esse visitante, proporcionando uma experiência personalizada. Como a [!UICONTROL Personalização automatizada] pode adaptar-se a mudanças no comportamento do visitante, é possível executá-la sem uma data final definida para fornecer aumento e personalização contínuos. Por vezes, também é conhecido como modo &quot;sempre ligado&quot;. O profissional de marketing não precisa executar um teste, analisar os resultados e encontrar um vencedor antes de perceber a comparação encontrada na otimização, ou seja, uma ordem padrão de operações para implementar o resultado de uma atividade A/B padrão.
 
@@ -74,7 +74,7 @@ Dados offline, como informações de CRM ou pontuações de tendência de perda 
 
 Para obter informações sobre os dados coletados e usados automaticamente pelos [!UICONTROL algoritmos de Personalização automatizada] e [!UICONTROL Direcionamento automático], consulte [Coleta de dados de personalização automatizada](/help/c-activities/t-automated-personalization/ap-data.md).
 
-## ![Vídeo de ](/help/assets/overview.png) treinamento sobre emblema de visão geral: Tipos de atividade
+## ![Vídeo de ](/help/assets/overview.png) Treinamento: Tipos de atividades
 
 Este vídeo explica os tipos de atividades disponíveis no [!DNL Target Standard/Premium]. [!UICONTROL A personalização automatizada é discutida a partir de 5:55.]
 
