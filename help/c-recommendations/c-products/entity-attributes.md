@@ -1,16 +1,16 @@
 ---
 keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
-description: Saiba como usar atributos de entidade para transmitir informações de produto ou conteúdo ao Target Recommendations.
+description: Saiba como usar atributos de entidade para passar informações do produto ou conteúdo para o  [!DNL Target] Recommendations.
 title: Como Posso Usar Atributos De Entidade?
 feature: Recommendations
+exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 translation-type: tm+mt
-source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 58%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Atributos da entidade
 
