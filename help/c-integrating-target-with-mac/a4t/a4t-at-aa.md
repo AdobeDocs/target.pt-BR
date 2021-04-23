@@ -1,16 +1,16 @@
 ---
 keywords: a4t; A4T; Analytics como fonte de relatórios para Target
-description: Saiba como criar atividades de Alocação automática e Direcionamento automático no Adobe Target que usam o Analytics como fonte de relatórios (A4T).
+description: Saiba como criar atividades de Alocação automática e Direcionamento automático no Adobe [!DNL Target] que usam o Analytics como fonte de relatórios (A4T).
 title: O A4T suporta atividades de alocação automática e direcionamento automático?
 feature: Analytics for Target (A4T)
+exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 2%
 
 ---
-
 
 # Suporte do A4T para atividades de Alocação automática e Direcionamento automático
 
