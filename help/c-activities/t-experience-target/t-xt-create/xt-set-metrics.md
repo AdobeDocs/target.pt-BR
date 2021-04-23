@@ -1,20 +1,20 @@
 ---
 keywords: direcionamento de experiência; xt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-description: Saiba como especificar métricas em uma atividade Adobe Target Experience Targeting para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
-title: Como defino métricas de metas em uma Atividade de direcionamento de experiência?
-feature: Experience Targeting
+description: Saiba como especificar métricas em uma atividade de Adobe [!DNL Target] Direcionamento de experiência para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
+title: Como defino métricas de metas em uma atividade de direcionamento de experiência?
+feature: Direcionamento de experiência
+exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 83%
 
 ---
 
+# Definir métricas em atividades de Direcionamento de experiência (XT)
 
-# Definir métricas em atividades de direcionamento de experiência (XT)
-
-Use métricas em uma atividade [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) para determinar quando uma visita é bem-sucedida.
+Use métricas em uma atividade [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] (XT) para determinar quando uma visita é bem-sucedida.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -54,7 +54,7 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
    | `-` | menos |
    | `@` | Sinal de arroba |
 
-## Vídeo de treinamento: métricas de atividade (7:43)  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: métricas de atividade (7:43)  ![Selo do tutorial](/help/assets/tutorial.png)
 
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
