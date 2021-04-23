@@ -1,23 +1,23 @@
 ---
-keywords: privacidade;endereço IP;geosegmentação;opt out;optout;opt-out;privacidade de dados;regulamentos governamentais;regulamentos;gdpr;cpa
-description: Saiba como a Adobe Target está em conformidade com as leis de privacidade de dados aplicáveis, incluindo a coleta e o tratamento de endereços IP e as instruções de recusa.
-title: Como o Público alvo lida com problemas de privacidade?
-feature: Privacy & Security
+keywords: privacidade; endereço ip; geosegmentação; recusar; recusar; recusar; privacidade de dados; regulamentos governamentais; regulamentos; gdpr; ccpa
+description: Saiba como o Adobe [!DNL Target] está em conformidade com as leis de privacidade de dados aplicáveis, incluindo a coleta e o tratamento de endereços IP e instruções de recusa.
+title: Como o [!DNL Target] lida com problemas de privacidade?
+feature: Privacidade e segurança
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 70%
 
 ---
 
-
 # Privacidade
 
-[!DNL Adobe Target] habilitou processos e configurações que permitem usar  [!DNL Target] em conformidade com as leis de privacidade de dados aplicáveis.
+[!DNL Adobe Target] O habilitou processos e configurações que permitem usar o  [!DNL Target] em conformidade com as leis de privacidade de dados aplicáveis.
 
-## Coleção de endereços IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Coleta de endereços IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 O endereço IP de um visitante do seu site é transmitido para um Centro de processamento de dados da Adobe (DPC). Dependendo da configuração de rede do visitante, o endereço IP não representa necessariamente o endereço IP do computador dele. Por exemplo, o endereço IP pode ser o endereço IP externo de um firewall NAT (Network Address Translation, tradução de endereço de rede), proxy HTTP ou gateway de Internet. O Target não armazena nenhum endereço IP do usuário ou nenhuma informação pessoal identificável (PII). Os endereços IP são usados apenas pelo Target para a duração da sessão (na memória, nunca mantidos).
 
@@ -29,15 +29,15 @@ Quando esse recurso é ativado, o endereço IP fica anônimo de forma que não s
 
 As seguintes configurações estão disponíveis:
 
-* Sem ofuscação: O público alvo não oculta nenhuma parte do endereço IP.
-* Último octeto: O público alvo oculta o último octeto do endereço IP.
-* IP completo: O público alvo oculta todo o endereço IP.
+* Sem ofuscação: O Target não oculta nenhuma parte do endereço IP.
+* Último octeto: O Target oculta o último octeto do endereço IP.
+* IP completo: O Target oculta todo o endereço IP.
 
-O público alvo recebe o endereço IP completo e o ofusca (se estiver definido como Last octet ou Full IP) conforme especificado. Em seguida, o público alvo mantém o endereço IP ofuscado na memória durante a sessão.
+O Target recebe o endereço IP completo e o ofusca (se estiver definido como Último octeto ou IP completo) conforme especificado. O Target mantém o endereço IP ofuscado na memória pela duração da sessão.
 
 >[!NOTE]
 >
->[Entre em contato com o ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Atendimento ao cliente Adobe para determinar que configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
+>[Entre em contato com o ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Atendimento ao cliente do Adobe para determinar qual configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
 
 ## GeoSegmentation   {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -45,7 +45,7 @@ Se você ativar a substituição do último octeto do endereço IP, os valores r
 
 Se os endereços IP forem completamente ofuscados, a GeoSegmentation e a geolocalização não estarão disponíveis.
 
-## Link de opção de não participação {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Link de opt out {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Você pode adicionar um link para opção de não participação a seus sites para permitir que os visitantes optem por não participar de todas as contagens e entregas de conteúdo.
 
@@ -60,4 +60,4 @@ Mesmo se estiver usando uma implementação de cookie primário, a opção de n�
 
 ## Privacidade e regulamentos sobre proteção de dados
 
-Consulte [Regras de privacidade e proteção de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) para obter informações sobre o Regulamento Geral de Proteção de Dados da União (RGPD), o Ato de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos internacionais de privacidade, e como essas regulamentações afetam sua organização e a Adobe Target.
+Consulte [Regras de privacidade e proteção de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) para obter informações sobre o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia, a Lei de Privacidade do Consumidor da Califórnia (CCPA) e outros requisitos de privacidade internacionais, e como esses regulamentos afetam sua organização e a Adobe Target.
