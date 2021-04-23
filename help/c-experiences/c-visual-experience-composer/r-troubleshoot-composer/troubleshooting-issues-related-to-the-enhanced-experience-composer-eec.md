@@ -1,26 +1,26 @@
 ---
 keywords: Definição de metas; eec; visual experience composer; solucionar problemas do enhanced experience composer; solução de problemas
-description: Saiba como solucionar problemas que às vezes ocorrem no Adobe Target Enhanced Experience Composer (EEC) sob determinadas condições.
+description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Como soluciono problemas relacionados ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
 
-
 # Solução de problemas relacionados ao Enhanced Experience Composer
 
-Às vezes, problemas de exibição ocorrem em [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
+Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
 
 ## O EEC não carregará um URL interno de controle de qualidade que não esteja acessível no IP público. (Somente EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Isso pode ser resolvido incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do site não precisam desses endereços IP incluir na lista de permissões
+Isso pode ser resolvido incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP incluir na lista de permissões
 
-Peça à sua equipe de TI para lista de permissões os seguintes endereços IP:
+Peça à equipe de TI para lista de permissões os seguintes endereços IP:
 
 | Região | Endereço IP | Nomes de hosts |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
    **Solução:** Lista de permissões os endereços IP listados acima.
 
-* **Problema:** os endereços IP são incluir na lista de permissões, mas seu site não suporta a versão 1.2 do TLS. Atualmente, o público alvo usa a configuração padrão 1.2. Antes do Público alvo 18.4.1 (25 de abril de 2018), a configuração padrão suportava TLS 1.0. Para obter mais informações, consulte Alterações [ de criptografia de ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
+* **Problema:** os endereços IP são incluir na lista de permissões, mas o seu site não é compatível com a versão 1.2 do TLS. O Target atualmente usa a configuração padrão do 1.2. Antes do Target 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte Alterações de criptografia do  [TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **Solução:** consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).
 
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Você poderá ver a mensagem de erro descrita acima em &quot;o Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site&quot;. se os endereços IP acima forem incluir na lista de permissões, mas seu site não suportar a versão 1.2 do TLS. Atualmente, o público alvo usa a configuração padrão 1.2. Antes do Público alvo 18.4.1 (25 de abril de 2018), a configuração padrão suportava TLS 1.0. Para obter mais informações, consulte [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Você poderá ver a mensagem de erro descrita acima em &quot;o Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site&quot;. se os endereços IP acima forem incluir na lista de permissões, mas o site não for compatível com a versão 1.2 do TLS. O Target atualmente usa a configuração padrão do 1.2. Antes do Target 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte [Alterações de criptografia do TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores têm etapas semelhantes):
 
