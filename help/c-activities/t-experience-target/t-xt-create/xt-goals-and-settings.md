@@ -1,18 +1,18 @@
 ---
 keywords: configurações de atividade, metas e configurações de direcionamento da experiência, metas e configurações xt, direcionamento da experiência, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
-description: Saiba como usar a página Metas e configurações no Adobe Target para especificar informações sobre as metas de uma atividade de direcionamento de experiência (XT).
-title: Como especificar metas e configurações em uma Atividade de direcionamento de experiência?
-feature: Experience Targeting
+description: Saiba como usar a página Metas e configurações no Adobe [!DNL Target] para especificar informações sobre as metas de uma atividade de Direcionamento de experiência (XT).
+title: Como posso especificar metas e configurações em uma atividade de direcionamento de experiência?
+feature: Direcionamento de experiência
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 94%
 
 ---
 
-
-# Metas e configurações nas atividades de direcionamento de experiência (XT)
+# Metas e configurações nas atividades de Direcionamento de experiência (XT)
 
 A página de Metas e Configurações é onde você insere informações sobre as metas do teste.
 
@@ -38,9 +38,9 @@ Dependendo das configurações, a interface do usuário e as opções de Priorid
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-Se essa opção não estiver ativada na Administração (o padrão), especifique uma prioridade: Baixa, Média ou Alta.
+Se esta opção não estiver ativada em Administração (o padrão), especifique uma prioridade: Baixo, Médio ou Alto.
 
-Para ativar prioridades refinadas, clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatórios]** e, em seguida, alterne a opção Ativar prioridades granuladas para a posição &quot;Ligado&quot;.
+Para ativar as prioridades otimizadas, clique em **[!UICONTROL Administration]** > **[!UICONTROL Reporting]** e alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
