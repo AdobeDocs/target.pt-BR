@@ -1,16 +1,16 @@
 ---
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
-description: Exiba uma lista de perguntas e respostas frequentes sobre as atividades do Adobe Target Recommendations.
-title: Onde posso encontrar perguntas e respostas sobre o Target Recommendations?
+description: Exiba uma lista de perguntas e respostas frequentes sobre atividades do Adobe [!DNL Target] Recommendations.
+title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2691'
 ht-degree: 40%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o Recommendations
 
@@ -130,7 +130,7 @@ Esse tipo de ponderação é mais dinâmica e baseia-se na &quot;chave de recome
 
 ![](assets/content_similarity_example.png)
 
-## Por que o Target às vezes não consegue mostrar as recomendações?   {#section_DB3F40673AED42228E407C05437D99E9}
+## Por que [!DNL Target] às vezes não consegue mostrar as recomendações? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Às vezes, o Target não consegue mostrar recomendações devido ao baixo número de recomendações disponíveis.
 
@@ -223,5 +223,3 @@ Se um visitante tiver duas sessões ativas ao mesmo tempo, os itens visualizados
 Observe que esse comportamento ainda ocorre se um visitante estiver ativo em um dispositivo e, em seguida, se tornar ativo no outro dispositivo alguns minutos depois. A primeira sessão do dispositivo não expira por 30 minutos e pode haver até cinco minutos de atraso antes que o estado do perfil seja gravado no estado permanente e processado. Aguarde 35 minutos para que a sessão expire e o perfil seja armazenado ao testar esse comportamento.
 
 Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo atualizarão os itens visualizados recentemente no outro dispositivo, desde que a sessão tenha terminado. Aguarde 35 minutos para a sessão expirar ao testar esse comportamento.
-
-
