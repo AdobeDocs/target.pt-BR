@@ -1,24 +1,24 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes, atributos importantes
-description: Saiba como usar os relatórios especializados para atividades Automated Personalization (AP) e Público alvo automático (AT) - Segmentos automatizados e atributos importantes.
+description: Saiba como usar os relatórios especializados para atividades de Automated Personalization (AP) e Direcionamento automático (AT) - Segmentos automatizados e atributos importantes.
 title: Como uso os relatórios de insights de personalização?
-feature: Reports
+feature: Relatórios
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 69%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Relatórios de insights de personalização{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) Relatórios de insights de personalização
 
 Dois relatórios especializados estão disponíveis para usuários de atividades de [!UICONTROL Automated Personalization] (AP) e Direcionamento automático (AT): os relatórios de [!UICONTROL Segmentos automatizados] e atributos importantes.
 
 >[!NOTE]
 >
->Considere o seguinte ao usar relatórios de Insights de personalização:
+>Considere o seguinte ao usar os relatórios dos Insights de personalização:
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
    >
@@ -26,22 +26,22 @@ Dois relatórios especializados estão disponíveis para usuários de atividades
 * [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
    >
    >
-* [!UICONTROL Os relatórios de ] Insightsde personalização estão disponíveis somente se o  [!UICONTROL Primary ] Goalis for selecionado na lista  [!UICONTROL do menu ] suspenso de métricas de relatório.
+* [!UICONTROL Os relatórios de ] Insights de personalização estão disponíveis somente se o  [!UICONTROL Objetivo ] principal estiver selecionado na lista suspensa  [!UICONTROL Métricas de ] relatório .
    >
    >
 * Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Os relatórios de ] Insightssão gerados apenas para atividades que estão no   Livestatus e foram ativados e recebem tráfego por pelo menos 15 dias.
+* [!UICONTROL Os relatórios de ] Insights de personalização são gerados apenas para atividades que estão no   Livestatus e foram ativadas e recebem tráfego por pelo menos 15 dias.
 
 
 ## Visão geral dos relatórios de insights de personalização {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-O objetivo dos relatórios de [!UICONTROL insights de personalização] é fornecer mais informações sobre como os modelos de personalização do Target por trás de suas atividades de AP e AT personalizam o tráfego de visitantes.  O algoritmo [Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md) é a base para os modelos de personalização [!DNL Target].
+O objetivo dos relatórios de [!UICONTROL insights de personalização] é fornecer mais informações sobre como os modelos de personalização do Target por trás de suas atividades de AP e AT personalizam o tráfego de visitantes.  O [algoritmo Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md) é a base para os modelos de personalização [!DNL Target].
 
-Como o objetivo dos relatórios [!UICONTROL Insights de Personalização] é entender como os modelos de personalização [!DNL Target] decidiram enviar qual visitante para que parte do conteúdo, os relatórios [!UICONTROL Insights de Personalização] refletem somente um subsegmento de todo o tráfego servido pela atividade AP ou AT. Especificamente, os dois relatórios refletem todo o tráfego que usou o modelo de personalização. Ou seja, os relatórios de [!UICONTROL Insights de personalização] não consideram o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global.
+Como a meta dos relatórios [!UICONTROL Insights de personalização] é entender como os modelos de personalização [!DNL Target] decidiram enviar qual visitante para que parte do conteúdo, os relatórios [!UICONTROL Insights de personalização] refletem apenas um subsegmento de todo o tráfego distribuído pela atividade de AP ou AT. Especificamente, os dois relatórios refletem todo o tráfego que usou o modelo de personalização. Ou seja, os relatórios de [!UICONTROL Insights de personalização] não consideram o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global.
 
-Dois relatórios [!UICONTROL Insights de Personalização] estão disponíveis:
+Dois relatórios [!UICONTROL Insights de personalização] estão disponíveis:
 
 | Relatório | Detalhes |
 |--- |--- |
@@ -65,14 +65,14 @@ Há dois tipos de atributos representados nos [!UICONTROL Insights de personaliz
 | Públicos-alvo compartilhados (Adobe Audience Manager ou Adobe Analytics) | Os públicos-alvo criados por meio do Adobe Audience Manager ou do Adobe Analytics e compartilhados com o Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Públicos-alvo/segmentos dos relatórios na atividade | Os públicos-alvo definidos na atividade de AP ou de Direcionamento automático durante a configuração nas &quot;Metas e métricas&quot;. | `Custom - Reporting Segment - [segment name]` |
 
-## Vídeo de treinamento: Uso de relatórios de insights de personalização  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Uso de relatórios de insights de personalização  ![Selo do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Para obter mais informações, consulte [Usando os Relatórios de insights de personalização no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Para obter mais informações, consulte [Usar os relatórios de insights de personalização no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
 ## Blogs Adobe
 
-* Parte 1: [Tirando o mistério da mágica da personalização orientada por AI](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Parte 2: [Uma espiada atrás da cortina do AI para personalização no Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* Parte 3: [MAGIX — a solução para o problema da caixa preta da personalização orientada por AI](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* Parte 1: [Tirando o mistério da mágica da personalização orientada por IA](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Parte 2: [Uma espiada atrás da cortina de IA para personalização no Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Parte 3: [MAGIX — a solução para o problema da caixa preta da personalização guiada por IA](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
