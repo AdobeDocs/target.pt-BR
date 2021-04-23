@@ -1,15 +1,15 @@
 ---
 keywords: implementar; implementação; configuração; configurar; parâmetros da página
-description: Obtenha dados no Target usando parâmetros de página.
-title: Como obtenho dados no Target usando parâmetros de página?
-feature: Implementation
+description: Obtenha dados em [!DNL Target] usando parâmetros de página.
+title: Como obtenho dados em [!DNL Target] Usando parâmetros de página?
+feature: Implementação
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt
-source-git-commit: 8a12ef3581d3f99f21c0d6d50af0ac09e6aebd4c
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 45%
+source-wordcount: '377'
+ht-degree: 46%
 
 ---
 
