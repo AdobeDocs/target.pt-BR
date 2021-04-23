@@ -1,24 +1,24 @@
 ---
 keywords: dados ambientais; dados de sessão; dados geográficos; dados geográficos; dados do dispositivo; dados móveis; atributos; atributos do perfil
-description: Saiba quais dados a Adobe Target coleta e usa para criar seus algoritmos de personalização nas atividades Automated Personalization (AP) e AutoPúblico alvo (AT).
+description: Saiba quais dados o Adobe [!DNL Target] coleta e usa para criar seus algoritmos de personalização nas atividades de Automated Personalization (AP) e Direcionamento automático (AT).
 title: Quais dados são coletados para criar algoritmos de personalização?
-feature: Automated Personalization
+feature: Personalização automatizada
+exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 90%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png)[!DNL Target] Coleta de dados para os algoritmos de personalização do 
 
-# ![PREMIUM](/help/assets/premium.png) Coleta de dados para os algoritmos de personalização do Target
-
-[!DNL Adobe Target] coleta e usa automaticamente uma variedade de dados para criar seus algoritmos de personalização nas atividades  [!UICONTROL Automated Personalization] (AP) e  [!UICONTROL Auto-Público alvo] (AT). Quando um visitante entra em uma atividade AP ou AT, um instantâneo das informações é passado para um conjunto de &quot;registros de treinamento&quot; (os dados do visitante que os algoritmos de personalização conhecerão).
+[!DNL Adobe Target] O coleta e usa automaticamente uma variedade de dados para criar seus algoritmos de personalização nas atividades de  [!UICONTROL Automated Personalization]  (AP) e  [!UICONTROL Direcionamento automático]  (AT). Quando um visitante entra em uma atividade de AP ou AT, um instantâneo das informações é enviado para um conjunto de &quot;registros de treinamento&quot; (os dados do visitante sobre os quais os algoritmos de personalização aprenderão).
 
 Para saber mais sobre os algoritmos de personalização do Target, consulte  [Algoritmo Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-A tabela a seguir mostra os dados coletados por [!UICONTROL Automated Personalization] e [!UICONTROL Público alvo automático] por padrão, sem que o comerciante tenha que fazer nada, bem como a convenção de nomenclatura usada para indicar esses atributos em [Relatórios de insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como fazer upload de dados adicionais, consulte  [Fazer upload de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+A tabela a seguir mostra os dados coletados pelo [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático] por padrão, sem que o profissional de marketing precise fazer nada, bem como a convenção de nomenclatura usada para indicar esses atributos em [Relatórios de insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como fazer upload de dados adicionais, consulte  [Fazer upload de dados para os algoritmos de personalização do Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Tipo de dados | Descrição | Convenção de nomenclatura do tipo de dados | Atributos de exemplo |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ A tabela a seguir mostra os dados coletados por [!UICONTROL Automated Personaliz
 | Segmento da Experience Cloud | Públicos criados no Audience Manager ou Analytics e compartilhados na Experience Cloud | `Custom - Experience Cloud Audience - [Audience Name]` | Dados personalizados |
 | [Dados geográficos](#geo) | Informações sobre onde o visitante está localizado.<br>Consulte &quot;Dados geográficos&quot; a seguir. | `Geo - [geo attribute]` | Cidade<br>País<br>Região/Estado<br>CEP<br>Latitude<br>Longitude<br>ISP ou Operadora de celular |
 | Atributos do perfil | Scripts ou atributos de perfil carregados diretamente no perfil do Target por meio da API de atualização | `Custom - Visitor Profile - [attribute name]` | Dados personalizados |
-| Parâmetros de URL de referência | Em geral, o URL de referência é o URL que se refere a uma página específica que iniciou a chamada do Público alvo.<br>Observe que esta variável pode ser afetada pela atividade dos usuários no site, bem como pela implementação técnica do site. | `Custom - [Referring URL Parameter] - [Parameter value]` | Dados personalizados |
+| Parâmetros de URL de referência | Em geral, o URL de referência é aquele que fez referência a uma determinada página que iniciou a chamada do Target.<br>Observe que esta variável pode ser afetada pela atividade dos usuários no site, bem como pela implementação técnica do site. | `Custom - [Referring URL Parameter] - [Parameter value]` | Dados personalizados |
 | Segmentos de relatórios | Quaisquer segmentos definidos na configuração da atividade. | `Reporting Segment -[Segment Name]` | Dados personalizados |
 | [Dados da sessão](#session) | Informações sobre o comportamento do visitante na sessão ao acessar a atividade. | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | Parâmetros de URL | O Target inspeciona o URL para extrair os parâmetros de URL. | `Custom - URL Parameter - [URL Parameter]` | Dados personalizados |
@@ -62,7 +62,7 @@ As seções a seguir contêm informações detalhadas sobre os vários tipos de 
 | Browser - Screen Height (px) | A altura da tela do navegador do dispositivo que o visitante usou para acessar a atividade. | 1, 2, 3, etc. |
 | Browser - Time of Day | A hora do navegador do dia em que o visitante acessou a atividade. | 0, 6, 12, 18<br>(0 é noite, 6 é de manhã,<br>12 é de tarde, 18 é fim do dia) |
 | Browser - Timezone | O fuso horário do visitante ao acessar a atividade. | Pacific Time<br>Eastern Time<br>GMT |
-| Navegador - Tipo | O tipo de navegador usado pelo visitante ao acessar a atividade. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
+| Browser - Type | O tipo de navegador usado pelo visitante ao acessar a atividade. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
 | Browser - Weekday/Weekend | O status de trabalho quando o visitante acessou a atividade (fim de semana, horário de trabalho ou tempo livre durante a semana). | Sábado e domingo é fim de semana<br>Segunda à sexta-feira 0900 a 1800 é o horário de trabalho<br>Segunda feira depois de 1800 até 0900 é o tempo livre da semana |
 | Browser - Window Height (px) | A altura da janela do navegador (em pixels) que o visitante usou para acessar a atividade. | 1, 2, 3, etc. |
 | Browser - Window Width (px) | A largura da janela do navegador (em pixels) que o visitante usou para acessar a atividade. | 1, 2, 3, etc. |
@@ -103,7 +103,7 @@ As seções a seguir contêm informações detalhadas sobre os vários tipos de 
 | Visitor Profile - Pages Seen Before Activity | Especifica o número total de exibições de páginas (impressões), incluindo a visita/sessão atual, até o visitante entrar na atividade. | Duplo (apenas número positivo inteiro) 1, 2, 3, etc. |
 | Visitor Profile - Page Views in Current Visit | Especifica o número total de exibições de páginas na visita/sessão atual, até o visitante entrar na atividade. Mais precisamente, o número de impressões. Essas impressões não são exibições de páginas reais, mas sim o número de vezes que a solicitação atingiu o Target. O Target não consegue distinguir entre limites de tempo ou quaisquer outros motivos pelos quais o usuário não recebeu ou visualizou o conteúdo. | Duplo (apenas número positivo inteiro) |
 | Visitor Profile - Start of Current Visit | Especifica o momento em que a visita/sessão atual com o Target foi iniciada. A visita com o Target pode ser iniciada sem inserir uma atividade. Tudo o que é necessário é uma chamada para qualquer solicitação [!DNL Target]. Um visitante pode levar um tempo, até inserir a atividade e o instantâneo ser tirado. | Duplo, milissegundos |
-| Perfil do visitante - Start da visita mais recente | Especifica o momento em que a última visita/sessão atual com o Target foi iniciada. Esse atributo é atualizado quando a sessão expira.<br>Se essa for a primeira sessão do visitante, ela resultará em `LAST_SESSION_START = 0.` | Duplo, milissegundos |
+| Perfil do visitante - Início da visita mais recente | Especifica o momento em que a última visita/sessão atual com o Target foi iniciada. Esse atributo é atualizado quando a sessão expira.<br>Se essa for a primeira sessão do visitante, ela resultará em `LAST_SESSION_START = 0.` | Duplo, milissegundos |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Especifica a duração entre a sessão anterior e a hora em que o usuário entra na atividade e o instantâneo é tirado. | Duplo, milissegundos |
 | Visitor Profile - Time in Visit Before Enter Activity | Especifica a diferença entre a última interação com o Target e quando a visita atual começou. Esse atributo pode ser considerado duração da visita/sessão, até que o usuário entre na atividade e o instantâneo seja tirado.<br>[!DNL Target]Valores negativos ocorrem quando o início da sessão e o a hora da última atualização são acionados pela mesma chamada de Valores negativos devem ser considerados como 0 (zero). | Duplo, milissegundos |
 | Perfil do visitante - Visitas totais | Especifica o número total de visitas/sessões. Isso não inclui a visita/sessão atual. | Duplo (apenas número positivo inteiro) 1, 2, 3, etc. |
