@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;obter oferta;at.js;funções;função
-description: Use a função adobe.público alvo.getOffer() e suas opções para que a biblioteca do Adobe Target at.js acione solicitações para obter uma oferta de Público alvo.
-title: Como uso a função adobe.público alvo.getOffer()?
-feature: at.js
+description: Use a função adobe.target.getOffer() e suas opções para a Adobe [!DNL Target] at.js library to fire requests to get a [!DNL Target] oferta.
+title: Como uso a função adobe.target.getOffer() ?
+feature: 'at.js '
 role: Developer
+exl-id: 3448fdaa-b5f6-465d-8858-1dfe214bd8c4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 91%
+source-wordcount: '467'
+ht-degree: 93%
 
 ---
-
 
 # adobe.target.getOffer(options)
 
@@ -25,7 +25,7 @@ Use com `adobe.target.applyOffer()` para processar a resposta ou use sua própri
 | params | Objeto | Não | Parâmetros de mbox. Um objeto de pares de valores-chave que tem a seguinte estrutura:<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Função | Sim | Retorno de chamada para execução quando recebemos uma resposta do servidor. A função de retorno de chamada bem-sucedida receberá um único parâmetro que represente uma variedade de objetos em oferta. Este é um exemplo de retorno de chamada:<br>`function handleSuccess(response){......}`<br>Consulte Respostas abaixo para obter detalhes. |
 | error | Função | Sim | Retorno de chamada para execução quando recebemos um erro. Há alguns casos que são considerados errôneos:<ul><li>Código do status de HTTP diferente de 200 OK</li><li>Não foi possível analisar a resposta. Por exemplo, nós mal construímos JSON ou HTML ao invés de JSON.</li><li>A resposta contém a tecla &quot;erro&quot;. Por exemplo, uma exceção foi lançada no Edge e não foi possível processar a solicitação apropriadamente. Podemos receber um erro quando uma mbox está bloqueada e não é possível recuperar o conteúdo dela, etc. A função de retorno de chamada de erro receberá dois parâmetros: status e erro. Veja um exemplo de retorno de chamada de erro:   `function handleError(status, error){......}`</li></ul>Veja as respostas com erro abaixo para obter mais informações. |
-| timeout | Número | Não | Tempo limite em milissegundos. Se não especificado, o tempo limite padrão em at.js será utilizado.<br>O tempo limite padrão pode ser definido na  [!DNL Target] interface em  [!UICONTROL Administração > Implementação]. |
+| timeout | Número | Não | Tempo limite em milissegundos. Se não especificado, o tempo limite padrão em at.js será utilizado.<br>O tempo limite padrão pode ser definido na  [!DNL Target] interface do usuário em  [!UICONTROL Administração > Implementação]. |
 
 ## Exemplos {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
