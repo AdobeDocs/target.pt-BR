@@ -1,18 +1,18 @@
 ---
 keywords: Direcionamento, públicos-alvo, direcionamento em porcentagem
-description: Saiba como usar o audiência no Adobe Target para público alvo de diferentes conteúdos e experiências em audiências específicas para otimizar seus esforços de marketing na Web.
-title: Como posso usar o Audiência para Público alvo de conteúdo diferente em segmentos específicos?
-feature: Audiences
+description: Saiba como usar públicos-alvo no Adobe [!DNL Target] para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar seus esforços de marketing da Web.
+title: Como posso usar públicos-alvo para [!DNL Target] Conteúdo diferente para segmentos específicos?
+feature: Públicos-alvo
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 89%
+source-wordcount: '357'
+ht-degree: 90%
 
 ---
 
-
-# Públicos-alvo{#audiences}
+# Públicos-alvo
 
 Use públicos para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
 
@@ -28,7 +28,7 @@ Quando um visitante acessa uma página onde você configurou uma atividade, o [!
 
 Se o visitante for identificado como parte de um público-alvo de direcionamento, o [!DNL Target] determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criado.
 
-## Vídeo de treinamento: Direcionamento de atividades  (2:13)  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Direcionamento de atividades  (2:13)  ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração do direcionamento e dos públicos-alvo.
 
