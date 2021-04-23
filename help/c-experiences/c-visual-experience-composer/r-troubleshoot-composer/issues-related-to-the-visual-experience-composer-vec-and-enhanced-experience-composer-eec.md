@@ -1,48 +1,48 @@
 ---
-keywords: Definição de metas;Visual Experience Composer;whitelist;whitelist;white list;lista de permissões;lista de permissões;Enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;Enhanced Experience Composer;tls;tls 1.2
-description: Saiba como solucionar problemas que às vezes ocorrem no Adobe Target Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
+keywords: Direcionamento, visual experience composer, lista branca, lista de permissões, lista de permissões, lista de permissões, enhanced visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, eec, enhanced experience composer, tls, tls 1.2
+description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Como soluciono problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
-
 
 # Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
 
 Problemas de exibição e outros problemas às vezes ocorrem no [!DNL Adobe Target] Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 
-## Como as políticas de aplicação de cookies do Google Chrome SameSite, recentemente anunciadas, afetam o VEC e o EEC? {#samesite}
+## Como as políticas de imposição de cookies do Google Chrome SameSite recentemente anunciadas afetam o VEC e o EEC? {#samesite}
 
 Com as alterações mais recentes (agosto de 2020), todos os usuários com as versões do navegador Chrome 80+:
 
-* *not* poderá usar o VEC (com ou sem a extensão VEC Helper instalada e ativada) em páginas protegidas por senha de seus sites. Isso ocorre porque os cookies de logon do site serão considerados cookies de terceiros e não serão enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site do cliente já tem o parâmetro SameSite definido como &quot;none&quot;.
-* *not* poderá baixar as bibliotecas [!DNL Target] ao editar uma atividade (quando elas ainda não estiverem no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio de Adobe protegido e é rejeitada como não autenticada.
-* O EEC funcionará *não* para todos os usuários porque não é possível definir o atributo SameSite para cookies em `adobemc.com domain`. Sem esse atributo, o navegador rejeitará esses cookies, fazendo com que a CEE falhe.
+* *não* poderá usar o VEC (com ou sem a extensão VEC Helper instalada e ativada) nas páginas protegidas por senha de seus sites. Isso ocorre porque os cookies de logon do site serão considerados um cookie de terceiros e não serão enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site do cliente já tem o parâmetro SameSite definido como &quot;none&quot;.
+* *não* poderá baixar as bibliotecas [!DNL Target] ao editar uma atividade (quando elas ainda não estiverem no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio de Adobe seguro e é rejeitada como não autenticada.
+* O EEC *not* funcionará para todos os usuários porque não é possível definir o atributo SameSite para cookies em `adobemc.com domain`. Sem esse atributo, o navegador rejeitará esses cookies, causando a falha do EEC.
 
-A Adobe enviou uma extensão do VEC Helper atualizada para a Google Chrome Store. Essa extensão substitui os atributos do cookie para definir o atributo `SameSite="none"`, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre como instalar e usar a Extensão Auxiliar VEC, consulte [Extensão auxiliar do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+O Adobe enviou uma extensão atualizada do VEC Helper para a Google Chrome Store. Essa extensão substitui os atributos de cookie para definir o atributo `SameSite="none"`, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre como instalar e usar a Extensão de ajuda do VEC, consulte [Extensão de ajuda do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Para seus próprios cookies de site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ligada e especifique o cookie pelo nome e o domínio do cookie. O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) no *Guia do Usuário da Interface do Experience Cloud*.
+Para seus cookies do site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ativada e especifique o cookie por nome e o domínio do cookie. O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios a partir dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) no *Experience Cloud Interface User Guide*.
 
-![Os cookies alternam na extensão auxiliar VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![Os cookies são alternados na extensão de assistente do VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-### Alternativas e alternativas
+### Alternativas e soluções alternativas
 
-Use uma das seguintes opções para garantir que sua VEC e EEC continuem funcionando como esperado:
+Use uma das seguintes opções para garantir que seu VEC e EEC continuem a funcionar conforme esperado:
 
-* Baixe e use a [extensão do Auxiliar VEC](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) atualizada.
+* Baixe e use a [extensão do VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) atualizada.
 * Use o navegador Mozilla Firefox. O Firefox ainda não está aplicando essa política.
-* Continue usando o Chrome, mas defina o sinalizador `chrome://flags/#same-site-by-default-cookies` como &quot;Desativado&quot;.
+* Continue a usar o Chrome, mas defina o sinalizador `chrome://flags/#same-site-by-default-cookies` como &quot;Desativado&quot;.
 
    >[!NOTE]
    >
-   >Isso *não* será suficiente se os cookies já tiverem o atributo SameSite definido como &quot;Lax&quot; ou &quot;Strict&quot; do servidor.
+   >Isso *não* será suficiente se os cookies já tiverem o atributo SameSite definido como &quot;Lax&quot; ou &quot;Strict&quot; a partir do servidor.
 
-## O Target suporta iframes de vários níveis?
+## O [!DNL Target] suporta iframes de vários níveis?
 
 O Target não oferece suporte para iframes de vários níveis. Se o site carregar um iframe que tenha um iframe secundário, as bibliotecas do Target (at.js e mbox.js) vão interagir somente com o iframe principal. As bibliotecas do Target não interagem com o iframe secundário.
 
@@ -52,7 +52,7 @@ Como solução, você pode adicionar uma página na experiência com o URL do if
 
 Isso poderá ocorrer se o URL contiver um caractere #. Para corrigir o problema, alterne para o modo de navegação no Visual Experience Composer e depois alterne de novo para o modo Compor. O ponteiro deverá sumir e a página deverá ser carregada.
 
-## Os cabeçalhos da Política de segurança do conteúdo (CSP) bloqueiam as bibliotecas do Target no meu site. (VEC e EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Os cabeçalhos da Política de segurança de conteúdo (CSP) bloqueiam as bibliotecas [!DNL Target] no meu site. (VEC e EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Se os cabeçalhos de CSP do seu site bloquearem as Bibliotecas do Target e carregarem o site, mas impedirem a edição, verifique se as bibliotecas do Target não estão bloqueadas.
 
@@ -93,7 +93,7 @@ Se a mesma ID de elemento DOM for usada em vários elementos na página, a alter
 
 ## Não consigo editar experiências para um site do iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que ativa o Enhanced Experience Composer. O Enhanced Experience Composer usa um proxy gerenciado pela Adobe para carregar sua página para edição. Isso permite a edição de sites no iFrame e a edição de sites e páginas em que ainda não adicionou código do Adobe Target. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites talvez não sejam carregados no Enhanced Experience Composer, nesse caso, você poderá desmarcar essa opção para carregar o Visual Experience Composer via um iFrame.   []
+Esse problema pode ser resolvido ativando o Enhanced Experience Composer. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que ativa o Enhanced Experience Composer. O Enhanced Experience Composer usa um proxy gerenciado pela Adobe para carregar sua página para edição. Isso permite a edição de sites no iFrame e a edição de sites e páginas em que ainda não adicionou código do Adobe Target. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites talvez não sejam carregados no Enhanced Experience Composer, nesse caso, você poderá desmarcar essa opção para carregar o Visual Experience Composer via um iFrame.   []
 
 >[!NOTE]
 >
