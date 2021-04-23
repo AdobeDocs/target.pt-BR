@@ -1,16 +1,16 @@
 ---
 keywords: A/B; métricas de atividade; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-description: Saiba como especificar métricas em uma atividade A/B da Adobe Target para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
-title: Como defino métricas de metas em uma Atividade A/B?
-feature: A/B Tests
+description: Saiba como especificar métricas em uma atividade Adobe [!DNL Target] A/B para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
+title: Como defino métricas de meta em uma atividade A/B?
+feature: Testes A/B
+exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 85%
 
 ---
-
 
 # Definir métricas
 
@@ -56,7 +56,7 @@ Observe que quando você nomeia ou renomeia uma métrica, os seguintes caractere
 | - | Menos |
 | @ | Sinal de arroba |
 
-## Vídeo de treinamento: métricas de atividade (7:43)  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: métricas de atividade (7:43)  ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 
