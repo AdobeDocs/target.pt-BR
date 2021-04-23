@@ -1,25 +1,25 @@
 ---
 keywords: aumento de receita, receita, estimativa de aumento de receita, calcular aumento, valor estimado
 description: Estime o aumento que você pode alcançar se cada visitante visualizar a experiência vencedora, se as tendências continuarem como durante o teste.
-title: O que eu calculo o aumento na receita?
-feature: Administration & Configuration
+title: Qual é a estimativa de aumento da receita?
+feature: Administração e configuração
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 88%
 
 ---
 
+# Aumento estimado na receita
 
-# Aumento estimado na receita{#estimate-lift-in-revenue}
-
-Use [!DNL Adobe Target] para estimar o aumento de receita que você obteria se todos os usuários visualizações a experiência vencedora.
+Use [!DNL Adobe Target] para fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora.
 
 >[!NOTE]
 >
->O incentivo estimado não está disponível para [!UICONTROL atividades de direcionamento de experiência] (XT) no momento.
+>O aumento estimado não está disponível para atividades [!UICONTROL Direcionamento de experiência] (XT) no momento.
 
 Por padrão, o recurso de estimativa de aumento fica desativado. Isso pode ser ativado nas suas preferências de conta. Apenas usuários de Administração da Experience Cloud podem habilitar ou desabilitar esse recurso. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
 
