@@ -1,25 +1,25 @@
 ---
-keywords: email;adbox;email image adbox
-description: Saiba como usar o Adobe Target para testar dinamicamente imagens em emails e até mesmo alterar essas imagens em tempo real quando alguém abrir o email.
+keywords: email, adbox, adbox de imagem de email
+description: Saiba como usar o Adobe [!DNL Target] para testar dinamicamente imagens em emails e até mesmo alterar essas imagens em tempo real quando alguém abrir o email.
 title: Como faço para testar uma Adbox de imagem de email?
-feature: Implement Email
+feature: Implementar Email
 role: Developer
+exl-id: 87a918d7-83dc-4277-821b-d90302c59736
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 90%
 
 ---
 
-
-# Testar uma Adbox de imagem de email{#test-an-email-image-adbox}
+# Testar uma Adbox de imagem de email
 
 Teste dinamicamente imagens em emails, e até mesmo mude essas imagens em tempo real quando alguém abre o email.
 
 Redirecionadores podem ser utilizados em emails para rastrear cliques e controlar dinamicamente qual página de aterrissagem é acessada.
 
-O teste de imagens de email é feito por meio de versões modificadas das adboxes. Como os clientes de email não permitem cookies, um identificador único deve ser gerado para cada email. Esse número é anexado ao URL da adbox e em qualquer redirecionador utilizado no email para rastrear cliques do email.
+O teste de imagens de email é feito por meio de versões modificadas das adboxes. Como os clientes de email não permitem cookies, um identificador exclusivo deve ser gerado para cada email. Esse número é anexado ao URL da adbox e em qualquer redirecionador utilizado no email para rastrear cliques do email.
 
 >[!NOTE]
 >
@@ -45,4 +45,4 @@ Onde os valores abaixo são específicos para você:
 | email_header | O nome da adbox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Obrigatório. Substitua o URL pelo conteúdo padrão apropriado para sua adbox. Esta deve ser uma referência absoluta e deve ser codificada no URL. |
 | `mboxXDomain=disabled` | Faz com que o Target não tente definir um cookie. |
-| `mboxSession=123456` e `mboxPC=123456` | Dois valores são exigidos pelo Target para mesclar o perfil do usuário com o perfil existente para o seu site. 123456 é o identificador único gerado por email. Insira esse valor dinamicamente em cada adbox e URL de redirecionador. Esse número deve ser único para cada email enviado. Se um email semanal é enviado para 1.000 destinatários, 1.000 IDs únicas devem ser geradas.<br>O identificador único por email deve ser atribuído ao mboxSession e mboxPC em cada adbox e URL de redirecionador. O formato recomendado para esse identificador é timestamp-NNNNN, onde NNNNN é um número aleatório de 5 dígitos, mas qualquer formato alfanumérico funcionará. Alguns serviços de envio de emails em grandes quantidades e qualquer linguagem de programação podem gerar esse identificador único. |
+| `mboxSession=123456` e `mboxPC=123456` | Dois valores são exigidos pelo Target para mesclar o perfil do usuário com o perfil existente para o seu site. 123456 é o identificador exclusivo gerado por email. Insira esse valor dinamicamente em cada adbox e URL de redirecionador. Esse número deve ser único para cada email enviado. Se um email semanal é enviado para 1.000 destinatários, 1.000 IDs únicas devem ser geradas.<br>O identificador único por email deve ser atribuído ao mboxSession e mboxPC em cada adbox e URL de redirecionador. O formato recomendado para esse identificador é timestamp-NNNNN, onde NNNNN é um número aleatório de 5 dígitos, mas qualquer formato alfanumérico funcionará. Alguns serviços de envio de emails em grandes quantidades e qualquer linguagem de programação podem gerar esse identificador único. |
