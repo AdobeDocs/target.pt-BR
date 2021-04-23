@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;acionar exibição;at.js;funções;função viewName;viewname;exibir nome
-description: Use a função adobe.público alvo.triggerView() para a biblioteca JavaScript do Adobe Target at.js para uso em Aplicativos de página única (SPA). (at.js 2.x)
-title: Como uso a função adobe.público alvo.triggerView()?
-feature: at.js
+description: Use a função adobe.target.triggerView() da biblioteca de JavaScript do Adobe [!DNL Target] at.js para usar em Aplicativos de página única (SPA). (at.js 2.x)
+title: Como uso a função adobe.target.triggerView() ?
+feature: 'at.js '
 role: Developer
+exl-id: 619d5166-d1d9-49a6-9807-338544782e66
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 84%
 
 ---
-
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
@@ -25,7 +25,7 @@ Essa função pode ser chamada sempre que uma nova página é carregada ou quand
 | --- | --- | --- | --- |
 | viewName | String | Sim | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome de exibição aparece no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
 | opções | Objeto | Não |  |
-| opções > página | Booleano | Não | **TRUE:** O valor padrão da página é true. Quando page=true, as notificações são enviadas ao [!DNL Target] backend para aumentar a contagem de impressões.<br>Uma notificação é sempre enviada por padrão quando um usuário  `triggerView` é chamado, exceto quando opções > página é definida como false.<br>**FALSE:** quando ocorrer page=false, as notificações não são enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
+| opções > página | Booleano | Não | **TRUE:** O valor padrão da página é true. Quando page=true, as notificações são enviadas ao [!DNL Target] backend para aumentar a contagem de impressões.<br>Uma notificação é sempre enviada por padrão quando uma  `triggerView` é chamada, exceto quando options > page é definido como false.<br>**FALSE:** quando ocorrer page=false, as notificações não são enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
 
 ## Exemplo: Verdadeiro
 
