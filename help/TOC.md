@@ -1,12 +1,12 @@
 ---
-user-guide-title: Guia do Adobe Target
+user-guide-title: 'Guia do Adobe [!DNL Target] '
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como ajustar e personalizar a experiência do cliente para maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1606'
 ht-degree: 79%
 
 ---
