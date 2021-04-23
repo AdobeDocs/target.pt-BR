@@ -1,18 +1,18 @@
 ---
 keywords: criar recomendações, atividade do recommendations, novas recomendações, visão geral do recommendations
-description: Saiba como usar o Adobe Target Visual Experience Composer (VEC) para criar uma atividade Recommendations diretamente em uma página habilitada para Públicos alvos.
-title: Como crio uma Atividade Recommendations?
+description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para criar uma atividade do Recommendations diretamente em uma página habilitada para  [!DNL Target].
+title: Como criar uma atividade do Recommendations?
 feature: Recommendations
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 76%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Criar uma atividade do Recommendations{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) Criar uma atividade do Recommendations
 
 Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Recommendations diretamente em uma página habilitada para o Target e modificar partes da página no Target.
 
@@ -32,7 +32,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >A opção [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso [Público alvo Premium](/help/c-intro/intro.md). Caso não veja essa opção, a licença da organização é do Target Standard.
+   >A opção [!UICONTROL [Escolher local de trabalho]](/help/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/c-intro/intro.md). Caso não veja essa opção, a licença da organização é do Target Standard.
 
 1. (Condicional) Se você for um [cliente do Target Premium](/help/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -46,17 +46,17 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    Ao clicar em [!UICONTROL Avançar], o VEC será aberto e irá exibir sua página. Você pode substituir um elemento atual com recomendações ou inseri-las.
 
-1. Clique em um elemento na sua página e, se as recomendações estiverem disponíveis, clique em **[!UICONTROL Substituir com Recommendations]**, **[!UICONTROL Inserir Recommendations Antes]** ou **[!UICONTROL Inserir Recommendations Depois]**.
+1. Clique em um elemento na página e, em seguida, se as recomendações estiverem disponíveis no local onde esse elemento está localizado, clique em **[!UICONTROL Substituir com Recommendations]**, **[!UICONTROL Inserir Recommendations antes]** ou **[!UICONTROL Inserir Recommendations depois de]**.
 
-   Os visitantes do site visualizarão o conteúdo recomendado somente se eles se qualificarem para a recomendação. Os visitantes que não se qualificarem para a recomendação verão o conteúdo padrão.
+   Os visitantes do seu site verão o conteúdo recomendado somente se se qualificarem para a recomendação. Os visitantes que não se qualificarem para a recomendação verão o conteúdo padrão.
 
    ![Opções do Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL Substituir pelo Recommendations]**: Substituir um elemento por recomendações exclui o conteúdo atual e o substitui por suas recomendações. Quando os visitantes visitam seu site e se qualificam para a recomendação, eles verão os itens recomendados na área especificada em vez do conteúdo existente.
-   * **[!UICONTROL Insira o Recommendations antes]**: Inserir recomendações antes do elemento selecionado coloca o conteúdo recomendado antes desse elemento. Dependendo da construção da sua página, a recomendação é exibida acima ou à esquerda do elemento selecionado.
-   * **[!UICONTROL Inserir Recommendations após]**: Inserir recomendações depois do elemento selecionado coloca o conteúdo recomendado após esse elemento. Dependendo da construção da sua página, a recomendação é exibida abaixo ou à direita do elemento selecionado.
+   * **[!UICONTROL Substituir por Recommendations]**: Substituir um elemento por recomendações exclui o conteúdo atual e o substitui por suas recomendações. Quando os visitantes visitam seu site e se qualificam para a recomendação, eles verão os itens recomendados na área especificada em vez do conteúdo existente.
+   * **[!UICONTROL Inserir Recommendations antes]**: Inserir recomendações antes do elemento selecionado coloca o conteúdo recomendado antes desse elemento. Dependendo da construção da sua página, a recomendação é exibida acima ou à esquerda do elemento selecionado.
+   * **[!UICONTROL Inserir Recommendations depois de]**: Inserir recomendações depois do elemento selecionado coloca o conteúdo recomendado após esse elemento. Dependendo da construção da sua página, a recomendação é exibida abaixo ou à direita do elemento selecionado.
 
-   A opção **[!UICONTROL Expandir seleção]** permite expandir o local selecionado (container pai) para ajudá-lo a identificar facilmente e incluir os elementos de página desejados com mais facilidade.
+   A opção **[!UICONTROL Expandir seleção]** permite expandir o local selecionado (contêiner pai) para ajudá-lo a identificar facilmente e incluir os elementos de página desejados com mais facilidade.
 
 1. Selecione um tipo de página.
 
@@ -75,7 +75,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
 1. Selecione um ou mais [critérios](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. Por padrão, a tela [!UICONTROL Selecionar critérios] exibe critérios compatíveis com o vertical do setor e o tipo de página selecionado na etapa anterior. Você pode alterar essas opções para exibir outros critérios.
+   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. Por padrão, a tela [!UICONTROL Selecionar critério] exibe critérios que são compatíveis com seu negócio vertical e o tipo de página selecionado na etapa anterior. Você pode alterar essas opções para exibir outros critérios.
 
    >[!NOTE]
    >
@@ -89,13 +89,13 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
       Alguns critérios são fornecidos com o [!DNL Recommendations]. Você e sua equipe também podem criar seus próprios critérios personalizados.
 
-   * Para criar um novo critério, clique em **[!UICONTROL Criar critérios]** > **[!UICONTROL Criar critérios]** e preencha as informações para os novos critérios. Para obter informações sobre como criar novos critérios, consulte [Criação de critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Você também pode agrupar critérios em sequências. Para criar uma nova sequência de critérios, clique em **[!UICONTROL Criar Critérios]** > **[!UICONTROL Criar Sequência de Critérios]**. Consulte [Criar sequência de critérios](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) para obter mais informações.
+   * Para criar um novo critério, clique em **[!UICONTROL Criar critério]** > **[!UICONTROL Criar critério]**, em seguida, preencha as informações para o novo critério. Para obter informações sobre como criar novos critérios, consulte [Criação de critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Você também pode agrupar critérios em sequências. Para criar uma nova sequência de critérios, clique em **[!UICONTROL Criar critérios]** > **[!UICONTROL Criar sequência de critérios]**. Consulte [Criar sequência de critérios](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) para obter mais informações.
 
 1. Clique em **[!UICONTROL Avançar]**.
 1. Selecione um [design](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Um design é um modelo que determina a aparência dos locais em sua página. [!DNL Target] inclui vários designs pré-configurados. Também é possível criar designs personalizados. Para obter mais informações, consulte [Criar um design](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) e [Personalizar um design](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Um design é um modelo que determina a aparência dos locais em sua página. [!DNL Target] O inclui vários designs pré-configurados. Também é possível criar designs personalizados. Para obter mais informações, consulte [Criar um design](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) e [Personalizar um design](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Caixa de diálogo Selecionar design](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -164,8 +164,8 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    * Ativar a atividade
    * Editar a atividade
-   * Compartilhe a atividade
-   * Faça o controle da atividade
+   * Compartilhe a atividade no feed do Experience Cloud
+   * Controle de qualidade da atividade
    * Visualizar seus URLs da experiência
    * Baixar os dados
    * Alterar a porcentagem dos participantes da atividade que visualizam a experiência de controle
@@ -178,6 +178,6 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    Conflitos de atividade ocorrem quando várias atividades estão definidas para entregar conteúdo na mesma página e podem fazer com que conteúdo inesperado seja exibido.
 
-## Vídeo de treinamento: criar uma atividade do Recommendations (7:15)  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: criar uma atividade do Recommendations (7:15)  ![Selo do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
