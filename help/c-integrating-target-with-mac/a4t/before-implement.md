@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations
-description: Saiba mais sobre os requisitos de implementação do Analytics for Target (A4T) e o que deve ser considerado antes de implementar essa integração.
+description: Saiba mais sobre os requisitos de implementação do Analytics para [!DNL Target] (A4T) e o que deve ser considerado antes de implementar essa integração.
 title: O que devo saber antes de implementar o A4T?
 feature: Analytics for Target (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '883'
 ht-degree: 33%
 
 ---
 
-
-# Antes da implementação{#before-you-implement}
+# Antes da implementação 
 
 Várias alterações ocorrem no processo de coleta de dados ao ativar [!DNL Adobe Analytics] como a fonte de relatórios para [!DNL Adobe Target] (A4T).
 
@@ -22,7 +22,7 @@ Antes de decidir usar essa integração, revise as seguintes seções e consider
 
 >[!IMPORTANT]
 >
->Antes de começar a usar A4T, você deve solicitar que sua conta seja provisionada para a integração. Use o [Formulário de provisionamento de Integrações da Marketing Cloud](https://www.adobe.com/go/audiences) para solicitar o provisionamento.
+>Antes de começar a usar A4T, você deve solicitar que sua conta seja provisionada para a integração. Use o [Formulário de Provisionamento de Integrações do Marketing Cloud](https://www.adobe.com/go/audiences) para solicitar o provisionamento.
 
 Esta integração do A4T requer que você implemente as seguintes versões de biblioteca (ou mais recentes), dependendo se deseja ou não usar ofertas de redirecionamento com o A4T:
 
@@ -84,11 +84,11 @@ Há casos em que você pode querer ter mais controle sobre quando e como enviar 
 
 ## Públicos-alvo compartilhados
 
-Ao preencher o [Formulário de provisionamento de Integrações da Marketing Cloud](https://www.adobe.com/go/audiences), esteja ciente das seguintes informações importantes sobre a opção [!UICONTROL Públicos compartilhados] listada em &quot;[!UICONTROL Para quais recursos você está solicitando o provisionamento]?&quot;
+Ao preencher o [Formulário de Provisionamento de Integrações do Marketing Cloud](https://www.adobe.com/go/audiences), esteja ciente das seguintes informações importantes sobre a opção [!UICONTROL Públicos compartilhados] listada em &quot;[!UICONTROL Para quais recursos você está solicitando o provisionamento]?&quot;
 
 ![Formulário de solicitação](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Ao solicitar [!UICONTROL Públicos-alvo compartilhados], ative [!UICONTROL Target] e [!UICONTROL Adobe Audience Manager] (AAM) para compartilhar informações, nesse caso, públicos-alvo.
+Ao solicitar [!UICONTROL Públicos-alvo compartilhados], ative [!UICONTROL Target] e [!UICONTROL Adobe Audience Manager] (AAM) para compartilhar informações, neste caso públicos-alvo.
 
 >[!IMPORTANT]
 >
