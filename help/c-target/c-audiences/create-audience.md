@@ -1,18 +1,18 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo
-description: Saiba como criar audiências personalizadas e salvá-las na biblioteca do Adobe Target Audiência para uso em suas atividades.
-title: Como crio Audiências?
-feature: Audiences
+description: Saiba como criar públicos-alvo personalizados e salvá-los na biblioteca de Adobe [!DNL Target] Públicos-alvo para usar em suas atividades.
+title: Como Criar Públicos-Alvo?
+feature: Públicos-alvo
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 94%
 
 ---
 
-
-# Criar públicos no Target{#build-audiences-in-target}
+# Criar públicos no Target
 
 Você pode criar públicos-alvo personalizados e salvá-los na biblioteca do Target para usar nas atividades. Agora é possível copiar um público-alvo existente, que pode ser editado para criar um público-alvo semelhante.
 
@@ -58,7 +58,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
    Públicos-alvo criados recentemente aparecem na lista após alguns segundos de processamento. Se o público-alvo não aparecer imediatamente na lista, tente procurar pelo público-alvo ou atualizar a lista.
 
-## Vídeo de treinamento: Criação de públicos-alvo  ![Etiqueta de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo  ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre a criação de públicos-alvo.
 
