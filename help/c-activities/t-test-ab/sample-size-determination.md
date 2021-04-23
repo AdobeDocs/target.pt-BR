@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;tamanho da amostra;calculador de tamanho da amostra;alocação automática;alocação automática;calculadora
-description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-sucedido no Adobe Target requer visitantes suficientes (tamanho da amostra) para melhorar sua taxa de conversão.
+description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-sucedido no Adobe [!DNL Target] requer visitantes suficientes (tamanho da amostra) para melhorar a taxa de conversão.
 title: Por quanto tempo devo executar um teste A/B?
-feature: A/B Tests
+feature: Testes A/B
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # Por quanto tempo você deve executar um teste A/B?
 
@@ -38,7 +38,7 @@ Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Adobe Target] exi
 
 Para obter mais informações, consulte [Visão geral da alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Calculadora de tamanho da amostra do Adobe Target   {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculadora de tamanho da amostra de Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Se você optar por usar uma atividade [!UICONTROL Teste A/B] manual em vez de [!UICONTROL Alocação automática], a Calculadora de tamanho de amostra [!DNL Target] ajudará a determinar o tamanho de amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, então a calculadora é útil. O uso da calculadora para uma atividade de [!UICONTROL Alocação automática] é opcional, pois [!UICONTROL A Alocação automática] declara um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessário. Continue a let para obter mais informações sobre como usar a calculadora.
 
