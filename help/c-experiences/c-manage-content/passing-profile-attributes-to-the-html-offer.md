@@ -1,16 +1,16 @@
 ---
 keywords: dados dinâmicos; ativos; dados; ofertas; ofertas personalizadas; ofertas pessoais; substituição de token
-description: Saiba como transferir dados dinâmicos para o Adobe Target Oferta. Explore casos comerciais que mostram por que você pode querer usar exemplos de ofertas dinâmicas e visualizações e informações de implementação.
-title: Como passo dados dinâmicos para o Oferta?
-feature: Experiences and Offers
+description: Saiba como transmitir dados dinâmicos para Adobe [!DNL Target] Offers. Explore casos comerciais que mostram por que você pode usar ofertas dinâmicas e ver exemplos e informações de implementação.
+title: Como transfiro dados dinâmicos para ofertas?
+feature: Experiências e ofertas
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 77%
 
 ---
-
 
 # Envio de dados dinâmicos em ofertas
 
@@ -52,21 +52,21 @@ Para designs do Recommendations, consulte mais exemplos na [Visão geral de desi
 
 ## Implementação
 
-Para parâmetros de perfil enviados para uma mbox, use a sintaxe:
+Em parâmetros de perfil passados para uma mbox, use a sintaxe:
 
 `${profile.parameter}`
 
-Para parâmetros de perfil criados em um script de perfil, use a sintaxe:
+Em parâmetros de perfil criados em um script de perfil, use a sintaxe:
 
 `${user.parameter}`
 
-Ao usar atributos dinâmicos em um design [!DNL Recommendations], você deve inserir uma barra invertida ( \ ) antes do sinal de dólar ( $ ) para que o valor dinâmico seja renderizado corretamente:
+Ao usar atributos dinâmicos em um design [!DNL Recommendations], você deve inserir uma barra invertida ( \ ) antes do cifrão ( $ ) para que o valor dinâmico seja renderizado adequadamente:
 
 `\${user.endpoint.lastViewedEntity}`
 
 Essas variáveis são substituídas pelo valor no lado do servidor. Não há necessidade de aspas ou JavaScript para a exibição correta.
 
-Os valores padrão também podem ser especificados para valores que você deseja expor ao oferta. A sintaxe é:
+Valores padrão também podem ser especificados para valores que você deseja expor às ofertas. A sintaxe é:
 
 `${user.testAttribute default="All Items!"}`
 
