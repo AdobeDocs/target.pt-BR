@@ -1,19 +1,19 @@
 ---
 keywords: api;adobe i/o
-description: Saiba como transição das APIs herdadas do Adobe Target Classic para as novas APIs no Adobe I/O.
-title: Como faço a Transição das APIs herdadas para o Adobe I/O?
-feature: Implement Server-side
+description: Saiba como fazer a transição das APIs herdadas do Adobe [!DNL Target] Classic para as novas APIs no Adobe I/O.
+title: Como fazer a transição das APIs herdadas para o Adobe I/O?
+feature: Implementar o lado do servidor
 role: Developer
+exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
-
-# Transição de APIs herdadas do Target para o Adobe I/O
+# Transição de [!DNL Target] APIs herdadas para o Adobe I/O
 
 Informações para ajudá-lo a usar a transição das APIs herdadas do Target para as novas APIs no Adobe I/O.
 
@@ -53,11 +53,11 @@ Os novos métodos de API são vinculados à seção correspondente no site de do
 |  | Lista de campanhas | [Listar atividades](http://developers.adobetarget.com/api/#list-activities) |  |
 |  | Estado da campanha | [Atualizar estado da atividade](http://developers.adobetarget.com/api/#update-activity-state) |  |
 |  | Exibição de campanha | [Obter atividade AB por ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Obter atividade XT por ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
-|  | ID de campanha de terceiros | N/A | Se estiver usando thirdpartyID, os métodos de Atividade relevantes podem ser usados |
+|  | ID de campanha de terceiros | N/D | Se estiver usando thirdpartyID, os métodos de Atividade relevantes podem ser usados |
 | Ofertas | Criação de oferta | [Criar oferta](http://developers.adobetarget.com/api/#create-offer) |  |
 |  | Obtenção de oferta | [Obter oferta por ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
 |  | Lista de ofertas | [Listar ofertas](http://developers.adobetarget.com/api/#list-offers) |  |
-|  | Lista de pastas | N/A | As pastas não são suportadas no Target Standard/Premium |
+|  | Lista de pastas | N/D | As pastas não são suportadas no Target Standard/Premium |
 | Relatório | Relatório de desempenho da campanha | [Relatório de desempenho AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Relatório de desempenho XT](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
 |  | Relatório de auditoria | [Obter relatório de auditoria](http://developers.adobetarget.com/api/#get-audit-report) |  |
 |  | Relatório de conteúdo 1-1 | [Obter relatório de desempenho AP](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
