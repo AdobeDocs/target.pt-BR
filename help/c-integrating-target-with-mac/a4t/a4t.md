@@ -1,18 +1,18 @@
 ---
 keywords: a4t; analytics; analytics para target; fonte de relatórios do analytics; adobe analytics como fonte de relatório para o target
-description: Use o Analytics for Target (A4T) para criar atividades baseadas nas métricas de conversão do Analytics e nos segmentos de público-alvo e usar os relatórios do Analytics para examinar os resultados.
-title: O que é o Analytics for Target (A4T)?
+description: Use o Analytics para [!DNL Target] (A4T) para criar atividades baseadas nas métricas de conversão do Analytics e segmentos de público-alvo e usar os relatórios do Analytics para examinar os resultados.
+title: O que é o Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 40%
+source-wordcount: '1268'
+ht-degree: 39%
 
 ---
 
-
-# Adobe Analytics como origem de relatório do Adobe Target (A4T)
+# Adobe Analytics como fonte de relatórios do Adobe [!DNL Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) é uma integração entre soluções que permite criar atividades com base em métricas de  [!DNL Analytics] conversão e segmentos de público-alvo. A integração A4T permite usar relatórios [!DNL Analytics] para examinar os resultados. Se você usar [!DNL Analytics] como a fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados em [!DNL Analytics] coleta de dados.
 
@@ -24,7 +24,7 @@ Os três principais benefícios de usar dados [!DNL Analytics] em [!DNL Target] 
 
 * Os profissionais de marketing podem aplicar dinamicamente [!DNL Analytics] métricas de sucesso ou segmentos de relatórios a [!DNL Target] relatórios de atividades a qualquer momento. Não há necessidade de especificar tudo antes de executar a atividade.
 * Uma única fonte de dados elimina a variação que ocorre ao coletar dados em dois sistemas separados.
-* Sua implementação [!DNL Analytics] existente coleta todos os dados necessários. Não há necessidade de implementar as mboxes nas páginas com o único objetivo de coletar dados para os relatórios. A Adobe ainda recomenda implementar uma mbox de confirmação de pedido para atividades de [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+* Sua implementação [!DNL Analytics] existente coleta todos os dados necessários. Não há necessidade de implementar as mboxes nas páginas com o único objetivo de coletar dados para os relatórios. O Adobe ainda recomenda que você implemente uma mbox de confirmação de pedido para atividades [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 >[!IMPORTANT]
 >
@@ -71,9 +71,9 @@ A tabela a seguir mostra quais tipos de atividade são compatíveis com [!DNL An
 | API de entrega do lado do servidor | Sim | Para obter mais informações, consulte o [Servidor: implementar o Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | SDK do NodeJS | Sim | Para obter mais informações, consulte o [Servidor: implementar o Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | AEM 6.1 (ou anterior) Integração dos Serviços em Nuvem | Não |  |
-| AEM 6.2 (ou posterior) Integração dos Serviços em Nuvem | Sim | Para obter mais informações, consulte [Integração com o Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) na documentação [!DNL Adobe Experience Manager] 6.2 . |
+| AEM 6.2 (ou posterior) Integração dos Serviços em Nuvem | Sim | Para obter mais informações, consulte [Integração com Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) na documentação [!DNL Adobe Experience Manager] 6.2 . |
 | Qualquer atividade que use uma oferta de redirecionamento | Sim | Existem requisitos mínimos mais rigorosos para o uso de Ofertas de redirecionamento com o A4T. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Sim | Para obter mais informações, consulte [SDK do Node.js](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) no guia *SDKs do Adobe Target* . |
+| Node.JS | Sim | Para obter mais informações, consulte [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) no guia *Adobe Target SDKs*. |
 | Java SDK | Sim | Para obter mais informações, consulte [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) no guia *Adobe Target* SDKs . |
 
 Como todos os tipos de atividades ainda não são compatíveis com o A4T, é recomendável manter ou implementar mboxes de conversão importantes, como a mbox `orderConfirmPage`.
@@ -110,7 +110,7 @@ Abra o [Analytics &amp; Target: Tutorial de práticas recomendadas para análise
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste tópico.
 
-### Analytics for Target (A4T) (4:32) ![Selo de visão geral](/help/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar [!DNL Analytics] como fonte de relatórios em [!DNL Target] para conduzir a análise do seu programa de otimização.
 
@@ -120,7 +120,7 @@ Este vídeo explica como usar [!DNL Analytics] como fonte de relatórios em [!DN
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Integração do Analytics / Target (A4T) (40:33) ![Selo tutorial](/help/assets/tutorial.png)
+### Integração do Analytics/Adobe Target (A4T) (40:33) ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo é uma gravação de &quot;[Horas do Office](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 
