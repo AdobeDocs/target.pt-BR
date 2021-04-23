@@ -1,18 +1,18 @@
 ---
 keywords: A4T; Adobe Analytics; Atividade baseada no Analytics; Conjunto de relatórios do Analytics; conjunto de relatórios; Integração do Analytics Target; configurar conjunto de relatórios
-description: Siga as etapas necessárias para implementar o Analytics for Target (A4T) nas soluções do Adobe Target e do Adobe Analytics.
-title: Como implementar o Analytics for Target (A4T)?
+description: Siga as etapas necessárias para implementar as soluções Analytics para  [!DNL Target] (A4T) in your Adobe [!DNL Target] e Adobe Analytics.
+title: Como implementar o Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 29%
 
 ---
 
-
-# Implementação do Analytics for Target{#analytics-for-target-implementation}
+# Analytics para implementação [!DNL Target]
 
 Várias etapas são necessárias ao implementar [!DNL Adobe Analytics] como a fonte de relatórios para [!DNL Adobe Target] (A4T).
 
@@ -30,9 +30,9 @@ Os requisitos da conta do usuário devem ser atendidos antes que você possa cri
 
 ## Etapa 3: Implementar o serviço de ID de visitante da Experience Cloud
 
-O serviço de ID do visitante permite identificar os usuários através das soluções da [!DNL Adobe Experience Cloud]. Implemente ou migre para a versão exigida da ID de visitante da Experience Cloud. Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+O serviço de ID do visitante permite identificar os usuários através das soluções da [!DNL Adobe Experience Cloud]. Implemente ou migre para a versão exigida da ID de visitante do Experience Cloud. Para obter mais informações, consulte &quot;Requisitos de implementação&quot; em [antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulte [Implementar o serviço da Experience Cloud ID para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) na documentação *Serviço de ID de visitante da Experience Cloud* .
+Consulte [Implementar o Serviço de ID do Experience Cloud para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) na documentação *Serviço de ID do visitante do Experience Cloud*.
 
 ## Etapa 4: Atualizar o AppMeasurement para JavaScript ou s_code
 
@@ -154,13 +154,13 @@ A carga pode ser encaminhada para [!DNL Analytics] por meio da [API de inserçã
 
 Carregue suas páginas depois de atualizar as bibliotecas JavaScript para confirmar que os valores dos parâmetros `mboxMCSDID`[!DNL Target] nas chamadas do são compatíveis com o valor do parâmetro `sdid`[!DNL Analytics] na chamada de exibição de página do 
 
-É especialmente importante confirmar que esses valores correspondem em Aplicativos de página única (SPAs), onde a ordem das chamadas nem sempre é previsível.
+É especialmente importante confirmar que esses valores correspondem em Aplicativos de página única (SPA), onde a ordem das chamadas nem sempre é previsível.
 
 **Observação:** a correspondência desses valores é necessária para que o A4T funcione corretamente.
 
 ## Etapa 9: (Opcional) Remover o código de integração anterior
 
-A Adobe recomenda remover a integração anterior para simplificar sua implementação e eliminar a necessidade de classificar as discrepâncias entre os sistemas. Você pode remover qualquer código implantado por um SC anterior à integração T&amp;T, incluindo `mboxLoadSCPlugin`.
+O Adobe recomenda remover a integração anterior para simplificar sua implementação e eliminar a necessidade de classificar as discrepâncias entre os sistemas. Você pode remover qualquer código implantado por um SC anterior à integração T&amp;T, incluindo `mboxLoadSCPlugin`.
 
 ## Etapa 10: Ativar as opções de uso do Analytics como a fonte de relatórios do Target
 
@@ -168,4 +168,3 @@ Em [!DNL Target], clique em **[!UICONTROL Administração > Visual Experience Co
 
 * **[!UICONTROL Selecionar por atividade permite escolher entre o e o para criar cada atividade.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL O Adobe configura o Analytics como fonte de relatórios para todas as atividades que você criar.]**[!DNL Analytics]
-
