@@ -1,16 +1,16 @@
 ---
 keywords: prioridade; criação de experiência; prioridade; experiência; público-alvo; experiência; troca de experiências; visual experience composer
-description: Saiba como os visitantes podem alternar entre experiências em uma atividade Adobe Target Experience Targeting (XT) à medida que seus perfis evoluem.
-title: Os Visitantes podem trocar experiências em uma Atividade de direcionamento de experiência?
-feature: Experience Targeting
+description: Saiba como os visitantes podem alternar entre experiências em uma atividade de Adobe [!DNL Target] Direcionamento de experiência (XT) conforme seus perfis evoluem.
+title: Os visitantes podem trocar experiências em uma atividade de direcionamento de experiência?
+feature: Direcionamento de experiência
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # Troca de experiências no Direcionamento de experiência
 
@@ -72,4 +72,3 @@ Para aproveitar esses recursos no [!DNL Target], é importante compreender as se
    Isso é importante em cenários em que um visitante pode se qualificar para mais de um de seus públicos-alvo. Por exemplo, se você tiver duas experiências: uma direcionada para os &quot;Estados Unidos&quot; e outra para &quot;Nova York&quot;, um visitante localizado em Nova York se qualificará para os dois públicos-alvo. Portanto, você deve garantir que a experiência de &quot;Nova York&quot; seja definida antes da experiência de &quot;Estados Unidos&quot; na interface do usuário do Target. Isso garante que quanto mais segmentada é a experiência de &quot;Nova York&quot;, mas alta é a prioridade, conforme mostrado no exemplo a seguir:
 
    ![Prioridade de NY > EUA](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
