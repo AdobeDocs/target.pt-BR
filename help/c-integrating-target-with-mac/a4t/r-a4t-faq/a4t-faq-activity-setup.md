@@ -1,16 +1,16 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics for target; a4T; configuração de atividades
-description: Encontre respostas para perguntas sobre a configuração da atividade ao usar o Analytics for Target (A4T). O A4T permite usar os relatórios do Analytics para as atividades do Target.
+description: Encontre respostas para perguntas sobre a configuração da atividade ao usar o Analytics para  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
 title: Onde posso encontrar perguntas frequentes sobre as configurações de atividade com o A4T?
 feature: Analytics for Target (A4T)
+exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '502'
 ht-degree: 25%
 
 ---
-
 
 # Configurações de atividade - Perguntas frequentes sobre o A4T
 
