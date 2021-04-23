@@ -1,13 +1,13 @@
 ---
 keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, faq, solução de problemas, solucionar problemas
-description: Saiba como uma atividade de Direcionamento automático no Target oferece a experiência mais personalizada para cada visitante com base nos perfis do cliente e no comportamento de visitantes semelhantes.
+description: Saiba como uma atividade de Direcionamento automático no [!DNL Target] serve a experiência mais personalizada para cada visitante com base nos perfis do cliente e no comportamento de visitantes semelhantes.
 title: O que é uma atividade de direcionamento automático?
-feature: Auto-Target
+feature: Direcionamento automático
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1992'
 ht-degree: 70%
 
 ---
