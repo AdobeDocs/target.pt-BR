@@ -1,18 +1,18 @@
 ---
 keywords: público-alvo, regras de público-alvo, combinar públicos-alvo, exclusão, adicionar exclusão, excluir, combinação de públicos-alvo, público-alvo adhoc, público-alvo ad hoc
-description: Saiba como combinar várias audiências (incluindo audiências Adobe Experience Cloud e audiências Público alvo) imediatamente para criar audiências ad hoc.
-title: Posso combinar várias Audiências para criar uma nova Audiência?
-feature: Audiences
+description: Saiba como combinar vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e  [!DNL Target] públicos-alvo) rapidamente para criar públicos-alvo ad hoc.
+title: Posso combinar vários públicos para criar um novo público?
+feature: Públicos-alvo
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# Combinar vários públicos{#combine-multiple-audiences}
+# Combinar vários públicos
 
 Combine vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e do Target) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
 
@@ -112,7 +112,7 @@ Você pode criar um público-alvo ad hoc combinado ao editar uma atividade exist
 
    Clique na atividade desejada para abri-la, depois clique em **[!UICONTROL Editar atividade]**.
 
-1. Clique em **[!UICONTROL Configure]** > **[!UICONTROL Audiência]** > **[!UICONTROL Várias Audiências]**.
+1. Clique em **[!UICONTROL Configurar]** > **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Vários públicos-alvo]**.
 
    ![Configurar > Públicos > Vários públicos](/help/c-target/assets/combine_multiple_audiences7.png)
 
