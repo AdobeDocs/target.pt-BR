@@ -1,22 +1,22 @@
 ---
 keywords: afinidade, afinidade de categorias
-description: Saiba mais sobre a afinidade de categoria no Adobe Target que captura automaticamente as visitas de um usuário ao categoria e calcula a afinidade do usuário para a categoria, para que ela possa ser direcionada e segmentada.
-title: O Que É Afinidade Categoria?
-feature: Audiences
+description: Saiba mais sobre a afinidade de categorias no Adobe [!DNL Target] que captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionada e segmentada.
+title: O que é a afinidade de categorias?
+feature: Públicos-alvo
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# Afinidade de categorias{#category-affinity}
+# Afinidade de categorias
 
 O recurso de afinidade de categorias captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado. Isso ajuda a garantir que o conteúdo seja direcionado para visitantes que tenham mais probabilidade de adotar ações em relação àquelas informações.
 
-## Transmitindo informações de afinidade de categoria ao Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Transmitindo informações de afinidade de categoria ao [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Sempre que um usuário visitar o site, parâmetros do perfil específicos do visitante serão gravados no banco de dados do [!DNL Target]. Os dados são vinculados ao cookie do usuário. Um parâmetro especialmente útil é `user.categoryId`, um parâmetro de mbox atribuído em uma página de produto. Conforme o visitante continua a navegação, ou retorna para outra sessão, as categorias de produtos que um usuário específico visualiza podem ser registradas. Você também pode registrar informações de categoria passando-as como parâmetro de mbox `user.categoryId` em qualquer mbox (incluindo uma mbox aninhada), como um parâmetro de URL `user.categoryId`, ou nos parâmetros da página do Target com uma mbox global. Consulte seu representante de conta para obter mais detalhes.
 
@@ -131,7 +131,7 @@ Esta seção contém as seguintes informações:
    * Quarta categoria
    * Quinta categoria
 
-   As opções &quot;Categoria favorita&quot; e &quot;Primeira Categoria&quot; são equivalentes.
+   As opções &quot;Categoria favorita&quot; e &quot;Primeira categoria&quot; são equivalentes.
 
 1. Escolha o avaliador:
 
