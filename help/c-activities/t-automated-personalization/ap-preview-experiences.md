@@ -1,22 +1,22 @@
 ---
-keywords: Automated Personalization;ap;pré-visualização;excluir experiência;
-description: Saiba como pré-visualização cada experiência em uma atividade Automated Personalization (AP) no Adobe Target usando o Visual Experience Composer (VEC).
-title: Como posso Pré-visualização experiências do Automated Personalization no VEC?
-feature: Automated Personalization
+keywords: Automated Personalization; aplicativo; visualização; excluir experiência;
+description: Saiba como visualizar cada experiência em uma atividade de Automated Personalization (AP) no Adobe [!DNL Target] usando o Visual Experience Composer (VEC).
+title: Como posso visualizar as experiências do Automated Personalization no VEC?
+feature: Personalização automatizada
+exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 47%
+source-wordcount: '260'
+ht-degree: 48%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Visualizar experiências para Personalização automatizada no Visual Experience Composer
 
-# ![PREMIUM](/help/assets/premium.png) Visualizar experiências para Personalização automatizada no Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+Como uma atividade [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) compara várias ofertas em uma página, é útil visualizar a página com cada experiência.
 
-Como uma atividade [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) compara várias ofertas em uma página, é útil pré-visualização a página com cada experiência.
-
-1. No [!UICONTROL Visual Experience Composer] (VEC), clique em **[!UICONTROL Pré-visualização]**.
+1. No [!UICONTROL Visual Experience Composer] (VEC), clique em **[!UICONTROL Visualizar]**.
 
    ![Ícone Visualizar](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -38,7 +38,7 @@ Como uma atividade [!DNL Adobe Target] [!UICONTROL Automated Personalization] (A
 
    Para excluir uma experiência, passe o mouse sobre a experiência e clique no ícone **[!UICONTROL Excluir]**.
 
-   Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL Excluir]** no canto superior direito da lista.
+   Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL Excluir]** na parte superior direita da lista.
 
    Por padrão, todas as experiências são incluídas na atividade [!UICONTROL Automated Personalization]. Para incluir uma experiência que foi excluída, passe o mouse sobre a experiência e clique no ícone **[!UICONTROL Incluir]**.
 
