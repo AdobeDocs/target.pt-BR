@@ -1,16 +1,16 @@
 ---
 keywords: spa vec;react;angular;react.js;spa visual experience composer;opções de spa do experience composer;single page apps;single-page-app;spa;opções do mobile experience;exibição do target
-description: Saiba como usar o SPA VEC no Adobe Target para criar testes e personalizar o conteúdo no SPA de uma forma faça-você-mesmo sem dependências contínuas de desenvolvimento.
-title: Como uso o Single Page App Visual Experience Composer (SPA VEC)?
+description: Saiba como usar o VEC SPA no Adobe [!DNL Target] para criar testes e personalizar conteúdo no SPA de maneira autônoma, sem dependências contínuas de desenvolvimento.
+title: Como uso o Visual Experience Composer (VEC de SPA de aplicativo de página única)?
 feature: Visual Experience Composer (VEC)
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 91%
 
 ---
-
 
 # Aplicativo de página única (SPA) no Visual Experience Composer
 
@@ -20,13 +20,13 @@ Em [!DNL Adobe Target], o [!UICONTROL Visual Experience Composer] (VEC) fornece 
 
 Com a versão mais recente, agora apresentamos o VEC para SPAs. O VEC para SPAs permite que os comerciantes criem testes e personalizem conteúdo em SPAs de forma autônoma, sem dependências de desenvolvimento contínuas. O VEC pode ser usado para criar atividades de [teste A/B](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) (XT) em estruturas populares, como o React e o Angular.
 
-## Exibições do Adobe Target e aplicativos de página única
+## Adobe [!DNL Target] Exibições e aplicativos de página única
 
 O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um grupo lógico de elementos visuais que, juntos, constituem uma experiência de SPA. Por isso, uma SPA pode ser considerada como uma transição entre exibições, em vez das URLs, com base nas interações do usuário. Uma Exibição geralmente pode representar um site inteiro ou elementos visuais agrupados dentro de um site.
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link:  [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
+**Link:  [Site inicial](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
@@ -56,7 +56,7 @@ Além disso, o conceito de Exibições pode ser estendido muito além disso. Se 
 
 Agora, os profissionais de marketing podem executar um teste A/B para ver se a alteração da cor de azul para vermelho quando a opção Entrega expressa está selecionada pode aumentar as conversões em vez de manter a cor do botão azul para ambas as opções de entrega.
 
-## Implementação de exibições do Adobe Target
+## Implementação de exibições Adobe [!DNL Target]
 
 Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar este conceito no Target para que os profissionais de marketing executem testes de A/B e XT em SPAs por meio do VEC. Isso exigirá uma configuração de desenvolvedor única. Vamos analisar as etapas de configuração.
 
@@ -66,7 +66,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![Caixa de diálogo Detalhes da implementação](/help/c-experiences/assets/imp-200.png)
 
-   Baixe o at.js 2.x por meio da interface do usuário do Adobe Target localizada em [!UICONTROL Administração > Implementação]. A at.js 2.x também pode ser implantada por meio do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis.
+   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis.
 
 1. Implemente a função mais recente da at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) em seus sites.
 
@@ -82,7 +82,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos analisar alguns exemplos de casos de uso de como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link:  [Site doméstico](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:  [Site inicial](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -391,9 +391,9 @@ Considere este exemplo de caso de uso:
 As seguintes alterações foram feitas:
 
 * Alteração da cor de fundo na exibição Início, localizada no URL: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* Alterada a cor do botão na visualização Produtos, localizada abaixo do URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Alteração da cor do botão na exibição Produtos, localizada no URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-Com o exemplo acima em mente, o que aconteceria quando definimos [!UICONTROL Configurações de Delivery de página] para incluir apenas: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) em um SPA com at.js 2.*x*?
+Com o exemplo acima em mente, o que aconteceria quando definíssemos as configurações de [!UICONTROL Entrega de página] para incluir apenas: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) em um SPA com at.js 2.*x*?
 
 ![Caixa de diálogo Entrega de página](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -404,17 +404,17 @@ A ilustração a seguir mostra o Fluxo do Target - Solicitação de carregamento
 **Jornada do usuário nº 1**
 
 * Um usuário navega diretamente para [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x*  faz um query no Edge para ver se alguma atividade precisa ser executada para o URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x*  O faz uma consulta ao Edge para ver se alguma atividade precisa ser executada para o URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * Na etapa 6, o Target Edge retorna as ações para as exibições Início e Produtos para que sejam armazenadas em cache no navegador.
 
 **Resultado**: o usuário vê a cor de fundo verde na exibição Início. Quando o usuário navega para [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, a cor de fundo azul do botão é vista porque a ação foi armazenada no cache do navegador na exibição Produtos.
 
-Observação: O usuário que navega para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) não acionou um carregamento de página.
+Observação: A navegação do usuário para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) não acionou um carregamento de página.
 
 **Jornada do usuário nº 2**
 
 * Um usuário navega diretamente para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x*  faz um query no Edge para ver se alguma atividade precisa ser executada para o URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x*  O faz uma consulta ao Edge para ver se alguma atividade precisa ser executada para o URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Não há atividades qualificadas para [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Como não há atividades qualificadas, não há ações e Exibições para armazenar em cache para a at.js 2.*x* acionar.
 
@@ -440,4 +440,4 @@ Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibiçã
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Consulte [Usando o Visual Experience Composer para Aplicativo de Página Única (SPA VEC) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
+Consulte [Usar o Visual Experience Composer para aplicativo de página única (VEC SPA) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
