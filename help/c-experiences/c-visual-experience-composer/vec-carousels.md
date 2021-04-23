@@ -1,16 +1,16 @@
 ---
 keywords: Visual Experience Composer;VEC;carrossel
-description: Saiba como criar um carrossel que pode ser editado no Adobe Target Visual Experience Composer (VEC).
+description: Saiba como criar um carrossel que pode ser editado no Adobe [!DNL Target] Visual Experience Composer (VEC).
 title: Como crio carrosséis no Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 70%
+source-wordcount: '157'
+ht-degree: 71%
 
 ---
-
 
 # Criar carrosséis que funcionam no Visual Experience Composer
 
