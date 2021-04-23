@@ -1,19 +1,19 @@
 ---
 keywords: instâncias em nuvem; lista de sufixos pública; sufixo público; cookie; cookie próprio; cookie próprio; azurewebsites.net; cloudapp.net; amazonaws.com; cloudfront.net; herokuapp.com; firebaseapp.com; targetGlobalSettings; cookieDomain
-description: Explore os problemas (com soluções) que os clientes enfrentam ao usar instâncias baseadas em nuvem para testar a Adobe Target ou para fins de prova do conceito.
-title: Posso usar o Público alvo com instâncias baseadas em nuvem?
-feature: at.js
+description: Explore os problemas (com soluções) que os clientes enfrentam ao usar as instâncias baseadas em nuvem para testar o Adobe [!DNL Target] ou para fins de prova de conceito.
+title: Posso usar [!DNL Target] com instâncias baseadas em nuvem?
+feature: 'at.js '
 role: Developer
+exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 81%
+source-wordcount: '169'
+ht-degree: 82%
 
 ---
 
-
-# Usar instâncias baseadas em nuvem com o Target{#use-cloud-based-instances-with-target}
+# Usar instâncias baseadas em nuvem com o Target
 
 Informações sobre problemas que os clientes enfrentam ao usar as instâncias baseadas em nuvem para testar o [!DNL Adobe Target].
 
