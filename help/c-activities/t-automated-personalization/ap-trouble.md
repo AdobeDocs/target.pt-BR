@@ -1,18 +1,18 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades Automated Personalization (AP) no Adobe Target, juntamente com as soluções sugeridas.
+description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades do Automated Personalization (AP) no Adobe Target, juntamente com as soluções sugeridas.
 title: Como soluciono problemas do Automated Personalization?
-feature: Automated Personalization
+feature: Personalização automatizada
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Solução de problemas de personalização automatizada{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Solução de problemas de personalização automatizada
 
 Às vezes, as atividades não acontecem como o esperado. Aqui estão alguns possíveis desafios que você pode enfrentar ao usar a Personalização automatizada e algumas soluções sugeridas.
 
@@ -40,7 +40,7 @@ Vários fatores são necessários para uma atividade de AP gerar aumento:
 
 ## O URL da minha atividade de AP está mostrando o conteúdo da oferta nas páginas incorretas.   {#section_82A224406DBF4107B05204BEFBBE458C}
 
-No AP, as regras de teste de URL e modelo são adicionadas à restrição de entrada de solicitação [!DNL Target] (por exemplo, público alvo-global-mbox), onde são avaliadas apenas uma vez. Quando um usuário se qualifica para uma atividade, as regras de definição de metas no nível da solicitação do Público alvo não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
+No AP, as regras de teste de URL e modelo são adicionadas à restrição de entrada da solicitação [!DNL Target] (por exemplo, target-global-mbox), onde são avaliadas apenas uma vez. Depois que um usuário se qualifica para uma atividade, as regras de direcionamento no nível da solicitação do Target não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
 
 **Solução:** adicione as regras de modelo necessárias como o público-alvo de entrada da campanha. A avaliação do público-alvo ocorre a cada solicitação/chamada.
 
@@ -58,4 +58,3 @@ Por exemplo, há uma atividade com uma métrica de conversão (C1) e uma métric
 
 * Se você não conseguir ver a visualização na nova guia (devido ao cache do navegador), tente atualizar duas ou três vezes ou copie o link e abra-o em um novo navegador ou em uma nova sessão.
 * Gere novamente os links de URL da experiência se tiver alterado algum conteúdo e compartilhe os novos links com seus colegas de equipe.
-
