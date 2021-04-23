@@ -2,17 +2,17 @@
 keywords: Notas de versão
 description: Exiba uma lista de recursos, aprimoramentos e correções incluídos em versões anteriores do Adobe Target.
 title: Quais recursos estão incluídos nas versões anteriores?
-feature: Release Notes
+feature: ' Notas de versão '
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '30831'
-ht-degree: 84%
+source-wordcount: '30798'
+ht-degree: 83%
 
 ---
 
-# Notas de versão para versões anteriores{#release-notes-for-previous-releases}
+# Notas de versão para versões anteriores
 
 Notas de versão de versões anteriores do Target, incluindo notas de versão para Target Standard/Premium, a plataforma Target e a biblioteca JavaScript do Target (at.js).
 
@@ -2201,7 +2201,7 @@ Essa versão inclui os seguintes aprimoramentos:
 
 * A opção [!UICONTROL Renderizar usando JavaScript] não é mais suportada se usada em conjunto com um código personalizado no Visual Experience Composer.
 
-### Adobe Target Standard/Premium 16.8.1 (23 de agosto de 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe [!DNL Target] Standard/Premium 16.8.1 (23 de agosto de 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 O Adobe Target Standard/Premium versão 16.8.1 (23 de agosto de 2016) inclui os seguintes recursos e aprimoramentos:
 
@@ -2272,7 +2272,7 @@ Os seguintes problemas conhecidos foram relatados:
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.7.1 (21 de julho de 2016) {#section_DB583EF9A30247A488EE319583911F22}
+### Adobe [!DNL Target] Standard/Premium 16.7.1 (21 de julho de 2016) {#section_DB583EF9A30247A488EE319583911F22}
 
 O Adobe Target Standard/Premium versão 16.7.1 (21 de julho de 2016) inclui os seguintes recursos e aprimoramentos:
 
@@ -2337,7 +2337,7 @@ O Adobe Target Standard/Premium versão 16.7.1 (21 de julho de 2016) inclui os s
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.6.1 (16 de junho de 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
+### Adobe [!DNL Target] Standard/Premium 16.6.1 (16 de junho de 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
 
 Não há previsão de lançamento para o cliente em junho.
 
@@ -2367,7 +2367,7 @@ Os seguintes problemas conhecidos foram relatados:
 
    Para atividades mais antigas, se esta opção estiver marcada no Experience Composer da sua atividade, significará que seu redirecionamento incluirá os parâmetros de consulta. Se não for marcada, os parâmetros de consulta atuais não serão incluídos no redirecionamento.
 
-### Adobe Target Standard/Premium 16.5.1 (19 de maio de 2016)   {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe [!DNL Target] Standard/Premium 16.5.1 (19 de maio de 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
 
 O Adobe Target Standard/Premium versão 16.5.1 (19 de maio de 2016) inclui os seguintes recursos e aprimoramentos:
 
@@ -2441,7 +2441,7 @@ Os seguintes problemas conhecidos foram relatados:
 * Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
 * Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha **[!UICONTROL Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]** como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
 
-### Nova biblioteca de implementação do Target, at.js 0.8.0 (5 de maio de 2016)   {#section_6A44C277E82D409AB6DCD0901F43794A}
+### Nova [!DNL Target] Biblioteca de implementação, at.js 0.8.0 (5 de maio de 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 A at.js é uma nova biblioteca de implementação do Target, projetada para implementações típicas da Web e aplicativos de página única.
 
@@ -2456,7 +2456,7 @@ Ao implementar a at.js, esteja ciente do seguinte:
 * A implementação assíncrona significa que integrações legadas, como Test&amp;Target para o plug-in do SiteCatalyst, podem não funcionar.
 * Todas as chamadas ao Target são feitas por XMLHTTPRequest e o conteúdo é retornado por JSON.
 
-### Correção do Adobe Target Standard/Premium 16.4.1 (5 de maio de 2016)   {#section_70552F61E83140C7B4D2A245198B630E}
+### Correção do Adobe [!DNL Target] Standard/Premium 16.4.1 (5 de maio de 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
 * A at.js v 0.8.0 já está disponível para download na interface do Target.
 * As APIs do Target foram alteradas. O `applyOffer` agora exige o `mbox param [0]`.
@@ -2470,7 +2470,7 @@ Ao implementar a at.js, esteja ciente do seguinte:
    });
    ```
 
-### Adobe Target Standard/Premium 16.4.1 (21 de abril de 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe [!DNL Target] Standard/Premium 16.4.1 (21 de abril de 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -2542,7 +2542,7 @@ Os seguintes problemas conhecidos foram relatados:
 
 * Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
 
-### Adobe Target Standard/Premium 16.3.1 (15 de março de 2016)   {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe [!DNL Target] Standard/Premium 16.3.1 (15 de março de 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -2591,7 +2591,7 @@ Os seguintes problemas conhecidos foram relatados:
    * Use o Firefox ou o Internet Explorer.
    * Ative o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** .
 
-### Adobe Target Standard/Premium 16.2.1 (18 de fevereiro de 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe [!DNL Target] Standard/Premium 16.2.1 (18 de fevereiro de 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -2613,7 +2613,7 @@ Os seguintes problemas conhecidos foram relatados:
    * Use o Firefox ou o Internet Explorer.
    * Ative o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** .
 
-### Adobe Target Standard/Premium 16.1.1 (28 de janeiro de 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
+### Adobe [!DNL Target] Standard/Premium 16.1.1 (28 de janeiro de 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -2693,7 +2693,7 @@ Os seguintes problemas conhecidos foram relatados:
 
 ## Versões de 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe Target Standard/Premium 15.10.1 (2 de novembro de 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe [!DNL Target] Standard/Premium 15.10.1 (2 de novembro de 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2803,7 +2803,7 @@ Os seguintes problemas conhecidos foram relatados:
 
 * Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
-### Adobe Target Standard/Premium 15.9.1 (30 de setembro de 2015)   {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe [!DNL Target] Standard/Premium 15.9.1 (30 de setembro de 2015) {#section_A54204291A99476688E8C0BD8255F93C}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -2879,7 +2879,7 @@ Os seguintes problemas conhecidos foram relatados:
 
 * Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
-### Adobe Target Standard/Premium 15.8.1 (20 de agosto de 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe [!DNL Target] Standard/Premium 15.8.1 (20 de agosto de 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 O objetivo desta versão é fornecer paridade de recursos com o Target Classic. Os recursos mais usados do Target Classic agora estão disponíveis no Target Standard.
 
@@ -2945,7 +2945,7 @@ Esta versão inclui os seguintes recursos e melhorias:
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 15.7.1 (30 de julho de 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe [!DNL Target] Standard/Premium 15.7.1 (30 de julho de 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3006,7 +3006,7 @@ Os seguintes problemas conhecidos foram relatados:
 
 * Quando a opção &quot;Desativar JavaScript&quot; é ativada para pageA em uma atividade multipáginas, o JavaScript continua ativado para todas as páginas, mas a funcionalidade é desativada.
 
-### Adobe Target Standard/Premium 15.6.1 (25 de junho de 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe [!DNL Target] Standard/Premium 15.6.1 (25 de junho de 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3057,7 +3057,7 @@ Esta versão inclui as seguintes correções:
 * Corrigimos um problema no qual os parâmetros da mbox nem sempre eram exibidos nas telas de criação de público-alvo.
 * Corrigimos um problema que bloqueava as atualizações na miniatura para designs do Recommendations.
 
-### Adobe Target Standard/Premium 15.5.1_Hotfix (28 de maio de 2015)   {#section_D751F55A3812417FAA72BD6872AE3C2A}
+### Adobe [!DNL Target] Standard/Premium 15.5.1_Hotfix (28 de maio de 2015) {#section_D751F55A3812417FAA72BD6872AE3C2A}
 
 Esta versão de hotfix inclui as seguintes correções:
 
@@ -3065,7 +3065,7 @@ Esta versão de hotfix inclui as seguintes correções:
 * Corrigimos um problema que impedia a exibição correta do botão Criar atividade para alguns usuários.
 * Corrigimos um problema que fazia com que a caixa de texto Nome da atividade desaparecesse no Visual Experience Composer durante a edição de atividades de teste A/B e direcionamento de experiência.
 
-### Adobe Target Standard/Premium 15.5.1 (21 de maio de 2015)   {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe [!DNL Target] Standard/Premium 15.5.1 (21 de maio de 2015) {#section_FF0F959908784AF0906EFB9E8324F207}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3162,7 +3162,7 @@ Esta versão inclui as seguintes correções:
 * Corrigimos um problema no Recommendations no qual os atributos com caracteres de byte duplo (para casos multilíngues) ignoravam as regras de filtragem de inclusão.
 * Todos os tipos de atividades agora aceitam nomes de atividades com até 200 caracteres.
 
-### Adobe Target Standard/Premium 15.3.1 (26 de março de 2015)   {#section_591371851693496C820175753F588E73}
+### Adobe [!DNL Target] Standard/Premium15.3.1 (26 de março de 2015) {#section_591371851693496C820175753F588E73}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3212,7 +3212,7 @@ Esta versão inclui as seguintes correções:
 
 * Os eventos de conversão baseados no Target para testes multivariados no Target Standard/Premium não estão sendo relatados quando o Analytics é usado como a fonte de relatórios do Target. Espera-se que esse problema seja corrigido em breve.
 
-### Adobe Target 15.2.1 (19 de fevereiro de 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
+### Adobe [!DNL Target] 15.2.1 (19 de fevereiro de 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3237,7 +3237,7 @@ Esta versão inclui as seguintes correções:
 
 * Foi corrigido um erro que fez com que uma oferta de redirecionamento não funcionasse quando uma página era revisitada.
 
-### Adobe Target 15.1.1 (22 de janeiro de 2015)   {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe [!DNL Target] 15.1.1 (22 de janeiro de 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3280,7 +3280,7 @@ Esta versão inclui as seguintes correções:
 
 ## Versões de 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
-### Adobe Target 14.10.2 (6 de novembro de 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
+### Adobe [!DNL Target] 14.10.2 (6 de novembro de 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
 
 <!-- 
 
@@ -3290,7 +3290,7 @@ target/r_release-notes-2014.xml
 
 Este pequeno lançamento se concentra mais na estabilidade do servidor. Não há novos recursos como parte deste patch.
 
-### Adobe Target 14.10.1 (30 de outubro de 2014)   {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe [!DNL Target] 14.10.1 (30 de outubro de 2014) {#section_D557CB331A004155B91CFE5B197076F3}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3306,7 +3306,7 @@ Essa versão inclui os seguintes aprimoramentos:
 * A página de visão geral mostra a meta da atividade.
 * Um aviso é exibido quando o JavaScript é inserido na caixa de edição de HTML.
 
-### Adobe Target 14.9.1 (19 de setembro de 2014)   {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe [!DNL Target] 14.9.1 (19 de setembro de 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -3323,7 +3323,7 @@ Esta versão inclui as seguintes correções:
 * Solucionado o problema no editor de experiência Automated Personalization que fazia com que uma oferta de vídeo alterada não fosse exibida com esse status.
 * Solucionado o erro que fazia com que uma página de colisão de uma atividade fosse exibida no Google Chrome como uma página em branco.
 
-### Adobe Target 14.8.1 (21 de agosto de 2014)   {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe [!DNL Target] 14.8.1 (21 de agosto de 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 Esta versão inclui os seguintes novos recursos e melhorias:
 
@@ -3346,7 +3346,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 * Correção de um erro de conversão de rastreamento de cliques que negava `target="_blank" functions.`
 * Corrigido um problema no qual o rastreamento de cliques navegava para fora da página.
 
-### Adobe Target 14.6.1 (25 de junho de 2014)   {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe [!DNL Target] 14.6.1 (25 de junho de 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 Este lançamento inclui os seguintes novos recursos:
 
@@ -3395,13 +3395,13 @@ Este lançamento inclui os seguintes novos recursos:
 
 * Corrigido um erro que fazia com que itens já removidos continuassem a ser exibidos.
 
-### Adobe Target Standard 14.5 (28 de maio de 2014)   {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe [!DNL Target] Padrão 14.5 (28 de maio de 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
 
 Esta versão inclui as seguintes correções de problemas:
 
 * Correção de um problema no qual a visualização de uma experiência não funcionou como esperado.
 
-### Adobe Target Standard 1.7 (28 de abril de 2014)   {#section_2C2B9B6299ED4F48A3B983AB015F381A}
+### Adobe [!DNL Target] Padrão 1.7 (28 de abril de 2014) {#section_2C2B9B6299ED4F48A3B983AB015F381A}
 
 [Webinário da versão 1.7 do Target Standard](https://my.adobeconnect.com/p1oabaz3cxi/)
 
@@ -3452,7 +3452,7 @@ Essa versão inclui os seguintes problemas conhecidos. Esse problema será corri
 * Não é possível trocar uma imagem quando esta é referenciada em CSS.
 * Se passar uma imagem e depois redimensioná-la, as experiências no Experience Editor não são exibidas corretamente.
 
-### Adobe Target Standard 1.6 (17 de março de 2014)   {#section_DB1319CDD8944F6FB749E525EB551017}
+### Adobe [!DNL Target] Padrão 1.6 (17 de março de 2014) {#section_DB1319CDD8944F6FB749E525EB551017}
 
 Este lançamento inclui os seguintes novos recursos:
 
@@ -3480,7 +3480,7 @@ Essa versão inclui os seguintes problemas conhecidos. Esse problema será corri
 * A caixa de pesquisa de públicos-alvo não aceita caracteres não ASCII.
 * Para usuários das versões em espanhol e japonês, salvar uma atividade depois de configurar as datas de início e fim resulta em um erro. É recomendável salvar sem definir datas de início e fim, e depois ativar e parar sua atividade da página Activity Overview ou Activity List quando necessário.
 
-### Adobe Target Standard 1.5 (25 de fevereiro de 2014)   {#section_5E9E3DDBCB82494AA62A21AC9282063F}
+### Adobe [!DNL Target] Padrão 1.5 (25 de fevereiro de 2014) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
 Este lançamento inclui os seguintes novos recursos:
 
@@ -3514,7 +3514,7 @@ Essa versão inclui os seguintes problemas conhecidos. Esse problema será corri
 * Um erro de sincronização ocorrerá caso públicos-alvo geográficos sejam criados no Target Standard quando a geolocalização estiver desativada em Target Advanced.
 * Não é possível trocar uma imagem quando esta é referenciada em CSS.
 
-### Adobe Target Standard 1.4 (20 de janeiro de 2014)   {#section_CD27AEE32B4F40BDAB422711B96739A5}
+### Adobe [!DNL Target] Padrão 1.4 (20 de janeiro de 2014) {#section_CD27AEE32B4F40BDAB422711B96739A5}
 
 Esta versão inclui os seguintes novos recursos e melhorias:
 
@@ -3566,7 +3566,7 @@ Essa versão inclui os seguintes problemas conhecidos. Esses problemas serão co
 
 ## Versões de 2013
 
-### Adobe Target Standard 1.3 (19 de novembro de 2013) {#section_D633ACA56FA941648219EB3748D814EC}
+### Adobe [!DNL Target] Padrão 1.3 (19 de novembro de 2013) {#section_D633ACA56FA941648219EB3748D814EC}
 
 Esta versão inclui os seguintes novos recursos e melhorias:
 
@@ -3588,7 +3588,7 @@ Essa versão inclui os seguintes problemas conhecidos. Esses problemas serão co
 * O rastreamento de cliques não funciona em elementos que tenham sido reorganizados por meio do Visual Experience Composer. Evite configurar o rastreamento de cliques em elementos reorganizados até que o erro seja corrigido.
 * Os usuários não podem selecionar a ação **[!UICONTROL Remover]** para o conteúdo que é colocado em uma mbox.
 
-### Adobe Target Standard 1.2 (31 de outubro de 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
+### Adobe [!DNL Target] Padrão 1.2 (31 de outubro de 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
 Há quatro problemas conhecidos com esta versão. Esses problemas serão corrigidos em uma atualização futura.
 
@@ -3610,7 +3610,7 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 * Foi adicionada uma funcionalidade de entrada de teclado para menus suspensos de local.
 * Foi aprimorada a mensagem de erro que é exibida durante a exclusão de uma oferta usada em uma atividade.
 
-### Adobe Target Standard 1.1 (18 de outubro de 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
+### Adobe [!DNL Target] Padrão 1.1 (18 de outubro de 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
 
 Essa versão inclui as seguintes correções e aprimoramentos:
 
