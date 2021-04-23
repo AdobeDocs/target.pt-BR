@@ -1,72 +1,72 @@
 ---
-keywords: kit de boas-vindas;kit de boas-vindas do público alvo;introdução;introdução;introdução;introdução;introdução
-description: Onde posso encontrar ideias e inspiração para minhas atividades de teste e personalização usando o Adobe Target?
+keywords: kit de boas-vindas, kit de boas-vindas do target, introdução, introdução, introdução
+description: Onde posso encontrar ideias e inspiração para minhas atividades de teste e personalização usando o Adobe Target.
 title: Onde posso encontrar inspiração para meus esforços de teste e personalização?
-feature: Overview
+feature: Visão geral
+exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
-
 # Capítulo 5: Inspiração para atividades de teste e personalização.
 
-Essas ideias de teste e personalização, inspiradas em atividades reais conduzidas por nossos clientes que elevaram taxas de conversão e receitas, valem a pena dar uma tentativa ou usar como inspiração para suas próprias atividades [!DNL Target]. Mesmo que a ideia não seja uma forma exata de sua organização, com um pouco de criatividade e brainstorming, considere desenvolver uma atividade baseada no espírito da ideia de teste ou personalização.
+Essas ideias de teste e personalização, inspiradas em atividades reais executadas por nossos clientes que elevaram as taxas de conversão e a receita, merecem ser experimentadas ou usadas como inspiração para suas próprias atividades de [!DNL Target]. Mesmo que a ideia não seja uma escolha exata para sua organização, com um pouco de criatividade e brainstorming, considere desenvolver uma atividade com base no espírito do teste ou da ideia de personalização.
 
 ## Ideia 1: Teste a personalização da jornada do cliente.
 
-Aumente a taxa de conversão e a receita criando uma jornada criativa e experiência de marca personalizada que ecoam com visitantes de sites e, ao mesmo tempo, atinja as metas comerciais. Em seguida, teste essa jornada personalizada comparando-a com experiências estáticas ou experiências distribuídas aleatoriamente. Saiba mais sobre a personalização ao descobrir e criar as audiências que você personaliza para usar dados de terceiros e segundos em [!DNL Adobe Audience Manager].
+Aumente a taxa de conversão e a receita criando uma jornada criativa personalizada e uma experiência de marca que ressoe com os visitantes do site, além de atender às metas comerciais. Em seguida, teste essa jornada personalizada comparando-a com experiências estáticas ou experiências entregues aleatoriamente. Aumente a personalização a um nível ao descobrir e criar os públicos-alvo que você personaliza para usar dados secundários e de terceiros no [!DNL Adobe Audience Manager].
 
-Após identificar essas audiências, realize testes de experiência do usuário e pesquisas de mercado para saber o que os convence a responder e desenvolver as experiências que você as público alvo dentro de suas jornadas de acordo.
+Após identificar esses públicos-alvo, realize testes de experiência do usuário e pesquisas de mercado para saber o que os convence a responder e desenvolver as experiências direcionadas dentro da jornada de acordo.
 
-Por exemplo, quando um visitante que cai em uma audiência de &quot;jogador sério&quot; para uma empresa de telecomunicações visita o site da empresa, fornece uma experiência que inclui cópia e imagens que ressoam com jogadores e uma oferta para Internet de alta velocidade.
+Por exemplo, quando um visitante que cai em um público-alvo de &quot;jogador sério&quot; para uma empresa de telecomunicações visita o site da empresa, fornece uma experiência que inclui cópia e imagens que ressoam com jogadores e uma oferta de Internet de alta velocidade.
 
-## Ideia 2: Público alvo de visitantes pela primeira vez e clientes repetidos de forma diferente.
+## Ideia 2: [!DNL Target] visitantes novos e clientes repetidos de forma diferente.
 
-Os profissionais de marketing digital reconhecem intuitivamente que os clientes existentes são mais valiosos do que os novos, mas muitas vezes não priorizam os programas de marketing criados para manter os clientes voltando. Para evitar essa armadilha comum, analise suas métricas repetidas de clientes para determinar como clientes leais se comportam em seu site. Use esses insights para criar campanhas direcionadas para visitantes com uma ou duas compras, oferecendo incentivos que os incentivam a realizar visitas adicionais ao site.
+Os profissionais de marketing digital reconhecem intuitivamente que os clientes existentes são mais valiosos do que os novos, mas muitas vezes não priorizam programas de marketing projetados para manter os clientes voltando. Para evitar essa armadilha comum, analise suas métricas repetidas de clientes para determinar o comportamento fiel dos clientes em seu site. Use esses insights para criar campanhas direcionadas para visitantes com uma ou duas compras, oferecendo incentivos que os incentivam a fazer visitas adicionais ao site.
 
 ## Ideia 3: Testar o design do site.
 
-Execute vários testes do design de seu site para aumentar a conversão e o envolvimento do usuário. Primeiramente, veja as ações principais que os visitantes estão tentando executar e teste coisas como diferentes posicionamentos de Chamada para Ações (CTAs) e diferentes cores de botões CTA que podem facilitar a conclusão dessas ações.
+Execute vários testes do design do seu site para aumentar a conversão e o envolvimento do usuário. Primeiro, veja as ações principais que os visitantes estão tentando executar e teste coisas como diferentes posições de Ações de chamada (CTAs) e cores de botão CTA diferentes que podem facilitar a conclusão dessas ações.
 
-Considere simplificar o design removendo certos elementos completamente do seu site. Por exemplo, teste para remover a lista tradicional de categoria de produtos à esquerda ou à direita em sua página inicial (e outras páginas) e permitir que os clientes dependam da pesquisa para encontrar produtos. Se essa alteração não causar impacto mensurável nas conversões, remova a navegação e liberte o espaço para elementos de design que possam provocar um envolvimento e conversões ainda maiores.
+Considere simplificar o design removendo determinados elementos completamente do site. Por exemplo, teste a remoção da lista tradicional de categorias de produto à esquerda ou à direita na página inicial (e outras páginas) e permita que os clientes dependam da pesquisa para encontrar produtos. Se essa alteração não causar impacto mensurável nas conversões, remova a navegação e liberte o espaço real para elementos de design que podem provocar um envolvimento e conversões ainda maiores.
 
 ## Ideia 4: Melhore a conversão da pesquisa com conteúdo direcionado.
 
-Prospectos envolvidos na pesquisa do site fornecem um tráfego do site mais qualificado. Quanto mais direcionado e relevante for o conteúdo na página de resultados da pesquisa, mais provável será a conversão dos prospectos.
+As perspectivas envolvidas na pesquisa do site fornecem algum do tráfego do site mais qualificado. Quanto mais direcionado e relevante for o conteúdo na página de resultados da pesquisa, mais provável será a conversão de prospetos.
 
-Considere fornecer informações contextuais adicionais diretamente nas miniaturas de pesquisa. Usando rastros de adesivos direcionados, como descontos, disponibilidade do inventário, tamanhos ou cores, você pode ajudar os consumidores a encontrar rapidamente as informações necessárias para tomar decisões de compra e agir.
+Considere fornecer informações contextuais adicionais diretamente nas miniaturas de pesquisa. Usando bursts de adesivo direcionados, como descontos, disponibilidade do inventário, tamanhos ou cores, você pode ajudar os consumidores a encontrar rapidamente as informações necessárias para tomar decisões de compra e tomar medidas.
 
-## Ideia 5: Reduza o número de toques necessários para a conversão.
+## Ideia 5: Reduza o número de toques necessários para conversão.
 
-Entenda as metas comerciais e os KPIs que você está tentando direcionar com seus esforços móveis. Depois, projete a experiência móvel para clientes ofertas no caminho de menor resistência a atingir essas metas. A conversão deve ocorrer dentro de três toques, mas deve tentar reduzir isso para dois toques, se possível.
+Entenda as metas de negócios e os KPIs que você está tentando direcionar com seus esforços móveis. Em seguida, crie a experiência móvel para oferecer aos clientes o caminho de menor resistência para atingir essas metas. A conversão deve ocorrer dentro de três toques, mas é direcionada para reduzir para dois toques, se possível.
 
-## Ideia 6: Não leve visitantes a um beco sem saída.
+## Ideia 6: Não leve os visitantes a um beco sem saída.
 
-Se visitantes que forem encaminhados do Google para você forem enviados para conteúdo expirado ou esgotado, engajem-se novamente usando recomendações para oferta outra oportunidade de realizar uma compra.
+Se os visitantes que são encaminhados do Google para você receberem um conteúdo que expirou ou está esgotado, engaje-os novamente usando as recomendações para oferecer outra oportunidade de realizar uma compra.
 
-Por exemplo, inclua recomendações em uma página de detalhes do produto para mostrar aos visitantes que viram um produto indisponível semelhante, recomendações personalizadas ou itens visualizados recentemente com base no comportamento do visitante na sessão e na afinidade da categoria. Os usuários podem visualização-los em um único clique, o que dá a você outra oportunidade de envolvê-los em seu site ou para fazerem uma compra.
+Por exemplo, inclua recomendações em uma página de detalhes do produto para mostrar aos visitantes que viram um produto indisponível semelhante, recomendações personalizadas ou itens visualizados recentemente com base no comportamento do visitante na sessão e afinidade de categorias. Os usuários podem visualizá-los com um único clique, o que dá a você outra oportunidade de engajá-los em seu site ou para que façam uma compra.
 
 ![Ilustração do Recommendations](/help/c-intro/assets/recs-illustration.png)
 
 ## Ideia 7: Incorpore táticas econômicas de comportamento em seus testes.
 
-Pense no paradoxo de escolha ao executar testes A/B e executar algumas experiências com números diferentes de opções. Por exemplo, reduza o número de opções de subscrição e veja se isso aumenta as subscrições gerais.
+Pense no paradoxo escolhido ao executar testes A/B e executar algumas experiências com números diferentes de opções. Por exemplo, reduza o número de opções de assinatura e veja se isso aumenta as subscrições gerais.
 
-Talvez apenas mudar a ordem das opções para escolher quando os clientes querem agir. Por exemplo, se você tem modelos de preços diferentes listados próximos uns dos outros, lista as opções de preço do produto de taxas mais baixas para valores mais altos ou vice-versa, e meça o efeito de cada opção.
+Talvez apenas mude a ordem das opções para escolher quando os clientes desejam tomar uma ação. Por exemplo, se você tiver modelos de preço diferentes listados um ao outro, liste as opções de preço do produto de taxas de valor mais baixas a valores mais altos ou vice-versa e meça o efeito de cada opção.
 
 ![Ilustração de táticas comportamentais](/help/c-intro/assets/behavioral.png)
 
-## Ideia 8: Promover seu aplicativo móvel em seu site.
+## Ideia 8: Promova seu aplicativo móvel no seu site.
 
-Se a sua empresa estiver gastando recursos para desenvolver um aplicativo móvel para iOS, Android ou outros dispositivos, não fique parado e espere que os usuários tropecem no aplicativo na app store. Em vez disso, tem uma estratégia sólida para a sua promoção. Teste diferentes abordagens para direcionar downloads e uso de aplicativos. Se seu site não móvel tiver um link para baixar seu aplicativo, tente testar a eficácia de uma landing page intersticial que promove explicitamente seu aplicativo quando visitantes chegarem ao home page. Configure um teste de redirecionamento que filtros metade do seu tráfego móvel para a página do site atual e a outra metade para a landing page intersticial.
+Se sua empresa estiver gastando recursos para desenvolver um aplicativo móvel para iOS, Android ou outros dispositivos, não se sente e espere que os usuários troquem no seu aplicativo dentro da loja de aplicativos. Em vez disso, tem uma estratégia sólida para a sua promoção. Teste diferentes abordagens para canalizar downloads e uso do aplicativo. Se o seu site não móvel tiver um link para baixar seu aplicativo, tente testar a eficácia de uma página de aterrissagem intersticial que promove explicitamente seu aplicativo quando os visitantes chegarem em sua página inicial. Configure um teste de redirecionamento que filtre metade do tráfego móvel para a página do site atual e a outra metade para a página de aterrissagem intersticial.
 
-## Ideia 9: Use inovações de aplicativos móveis.
+## Ideia 9: Use as inovações do aplicativo móvel.
 
-Explore aspectos do smartphone além da geolocalização, como o acelerômetro ou o giroscópio. Por exemplo, teste uma experiência que use o acelerômetro para adicionar um item exibido a um carrinho de compras, agitando o telefone. Até mesmo teste para usuários de diferentes marcas de dispositivos, como iOS ou Android, para ver se a resposta deles é diferente. Esses testes permitem que você descubra o novo comportamento do visitante para considerar o uso em testes futuros.
+Explore aspectos do smartphone além da geolocalização, como o acelerômetro ou o giroscópio. Por exemplo, teste uma experiência que use o acelerômetro para adicionar um item exibido a um carrinho de compras agitando o telefone. Até mesmo teste para usuários de diferentes marcas de dispositivos, como iOS ou Android, para ver se a resposta deles é diferente. Esses testes permitem descobrir o novo comportamento do visitante e considerar o uso em testes futuros.
 
 ## Lembre-se
 
@@ -75,6 +75,6 @@ Considere as seguintes ideias antes de passarmos para o próximo capítulo: &quo
 ### Práticas recomendadas de duração do teste
 
 * Duração mínima da atividade: Execute uma atividade de teste por pelo menos 14 dias.
-* Nível Mínimo de Confiança de Resultados: Execute uma atividade de teste até que os resultados atinjam um mínimo de 90% de confiança.
+* Nível de confiança dos resultados mínimos: Execute uma atividade de teste até que os resultados atinjam um mínimo de 90% de confiança.
 * Conversão mínima por experiência: Execute uma atividade de teste até que haja pelo menos 500 conversões por experiência.
-* Consistência nos resultados: Confirme se os resultados são consistentes e estáveis ao visualizá-los na visualização de gráfico em [!DNL Target].
+* Consistência nos resultados: Confirme se os resultados são consistentes e estáveis ao exibi-los na exibição de gráfico em [!DNL Target].
