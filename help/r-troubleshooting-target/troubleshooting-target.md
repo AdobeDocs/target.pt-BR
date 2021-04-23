@@ -1,16 +1,16 @@
 ---
 keywords: solução de problemas do target, solucionar problemas no target
 description: Revise uma lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
-title: Como soluciono problemas com o Público alvo?
-feature: Troubleshooting
+title: Como soluciono problemas do Target?
+feature: Solução de problemas
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
-
 
 # Solução de problemas do Target
 
@@ -33,11 +33,11 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 ### Alocação automática
 
-* [Autoalocar visão geral](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Visão geral da alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
 ### Direcionamento automático
 
-* [Solução de problemas de Público alvo automático e perguntas frequentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Solução de problemas e perguntas frequentes do Direcionamento automático](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Personalização automatizada (AP)
 
@@ -56,7 +56,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 * [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Integração do Analytics e do Target (A4T)
+## Integração do Analytics e [!DNL Target] (A4T)
 
 * [Solução de problemas na integração do Analytics e do Target ](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Adobe Analytics como fonte de relatórios da funcionalidade do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
