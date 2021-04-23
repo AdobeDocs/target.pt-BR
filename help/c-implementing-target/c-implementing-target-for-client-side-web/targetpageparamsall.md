@@ -1,23 +1,23 @@
 ---
 keywords: targetPageParamsAll; targetpageparamsall; PageParamsAll; pageparamsall; parâmetros da página; parâmetros da página; at.js; funções; função
-description: Use a função targetPageParamsAll() da biblioteca JavaScript do Adobe Target at.js para anexar parâmetros a todas as mboxes de fora do código de solicitação.
+description: Use a função targetPageParamsAll() da biblioteca de JavaScript Adobe [!DNL Target] at.js para anexar parâmetros a todas as mboxes de fora do código da solicitação.
 title: Como uso a função targetPageParamsAll()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 58fbb62e-30da-486f-b771-6452ad5e27e6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
-
 
 # targetPageParamsAll()
 
 Este método permite anexar parâmetros a todos os mboxes de fora do código da solicitação.
 
-Isso é muito útil para incluir o mesmo conjunto de parâmetros em múltiplas chamadas da mbox. A função precisa ser definida pelo cliente. Ela deve retornar uma matriz de parâmetros que serão transmitidos a todas as solicitações de mbox na página. Esta função pode ser definida antes do at.js ser carregado ou em **[!UICONTROL Administration]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar]** > **[!UICONTROL Definições de Código]** > **[!UICONTROL Cabeçalho da Biblioteca]**.
+Isso é muito útil para incluir o mesmo conjunto de parâmetros em múltiplas chamadas da mbox. A função precisa ser definida pelo cliente. Ela deve retornar uma matriz de parâmetros que serão transmitidos a todas as solicitações de mbox na página. Essa função pode ser definida antes que at.js seja carregada ou em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Cabeçalho da biblioteca]**.
 
 Você pode transmitir parâmetros para target-global-mbox usando a função targetPageParamsAll() de qualquer uma das seguintes maneiras:
 
