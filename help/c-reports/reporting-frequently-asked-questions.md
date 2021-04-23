@@ -1,16 +1,16 @@
 ---
 keywords: solução de problemas, discrepâncias de métricas, FAQ, relatórios, novo visitante, novos visitantes, visitante recorrente, visitantes recorrentes, visita de retorno, nova visita
-description: Explore uma lista de perguntas e respostas frequentes sobre os relatórios do Adobe Target.
-title: Onde posso encontrar respostas para perguntas sobre relatórios do Target?
-feature: Reports
+description: Explore uma lista de perguntas e respostas frequentes sobre os relatórios do Adobe [!DNL Target] .
+title: Onde posso encontrar respostas para perguntas sobre [!DNL Target] Relatórios?
+feature: Relatórios
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 23%
+source-wordcount: '1219'
+ht-degree: 24%
 
 ---
-
 
 # Perguntas frequentes de geração de relatórios
 
