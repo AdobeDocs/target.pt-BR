@@ -1,24 +1,24 @@
 ---
-keywords: público alvo automático;definição de metas;alocação de tráfego;perguntas frequentes;perguntas frequentes;solução de problemas;solução de problemas;tráfego
-description: Explore tópicos de solução de problemas e Perguntas frequentes sobre o Público alvo automático de atividades no Adobe Target.
-title: Como posso solucionar problemas de Atividades de Público alvo automático?
-feature: Auto-Target
+keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, perguntas frequentes, solução de problemas, solução de problemas, tráfego
+description: Explore tópicos de solução de problemas e perguntas frequentes sobre as atividades do Direcionamento automático no Adobe Target.
+title: Como posso solucionar problemas de atividades de direcionamento automático?
+feature: Direcionamento automático
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMAuto-Target Solução de problemas e perguntas frequentes
 
-# ![Solução de problemas e perguntas frequentes do ](/help/assets/premium.png) PREMIUMAuto-Público alvo
-
-Solução de problemas e Perguntas frequentes (FAQs) sobre [!UICONTROL Público alvo automático] em [!DNL Adobe Target].
+Solução de problemas e perguntas frequentes sobre o [!UICONTROL Direcionamento automático] em [!DNL Adobe Target].
 
 ## Perguntas frequentes sobre direcionamento automático {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com atividades [!UICONTROL Público alvo automático]:
+Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as atividades de [!UICONTROL Direcionamento automático]:
 
 ### Quais são as práticas recomendadas para configurar uma atividade de [!UICONTROL Direcionamento automático]?
 
@@ -33,13 +33,13 @@ Consulte as seguintes perguntas frequentes e respostas enquanto trabalha com ati
 
 * Tente não fazer mudanças substanciais nas experiências durante o curso da atividade.
 
-### Você recomenda usar o Público alvo automático com uma divisão 90(Controle)/10(Direcionado) até que os modelos sejam criados?
+### Você recomenda usar Auto [!DNL Target] com uma divisão 90(Controle)/10 (Direcionado) até que os modelos sejam criados?
 
-Sua divisão de alocação de tráfego ideal depende do que você deseja realizar.
+A divisão de alocação de tráfego ideal depende do que você deseja realizar.
 
-Se sua meta é personalizar o máximo de tráfego possível, você pode manter 90% de direcionamento e 10% de controle durante a vida útil da atividade. Se sua meta é executar um experimento comparando o quão bem os algoritmos personalizados fazem versus o controle, então uma divisão 50/50 é melhor para toda a vida da atividade.
+Se a sua meta for personalizar o máximo tráfego possível, você poderá manter o 90% de direcionamento e o controle de 10% durante toda a vida útil da atividade. Se o objetivo é executar um experimento comparando o desempenho dos algoritmos personalizados com o controle, uma divisão 50/50 é melhor para a duração da atividade.
 
-A prática recomendada é manter a divisão de alocação de tráfego para a duração da atividade, de modo que os visitantes não alterem entre experiências direcionadas e de controle.
+A prática recomendada é manter a divisão de alocação de tráfego para a duração da atividade, para que os visitantes não alterem entre experiências de direcionamento e de controle.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
@@ -72,15 +72,15 @@ Se você quiser fazer alterações substanciais no conteúdo em sua atividade de
 
 ### Por quanto tempo devo esperar que os modelos sejam construídos? {#how-long}
 
-O tempo necessário para os modelos criarem na atividade [!UICONTROL Público alvo automático] normalmente depende do tráfego para os locais de atividade selecionados e taxas de conversão associadas à sua métrica de sucesso de atividade.
+O tempo que leva para os modelos serem construídos em sua atividade de [!UICONTROL Direcionamento automático] normalmente depende do tráfego para os locais de atividade selecionados e das taxas de conversão associadas à métrica de sucesso da atividade.
 
-[!UICONTROL O ] direcionamento automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para essa experiência. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para fornecer tráfego de maneira personalizada.
+[!UICONTROL O ] Direcionamento automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para ela. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para veicular o tráfego de maneira personalizada.
 
-Alguns outros pontos para ter em mente sobre a criação de modelos de [!UICONTROL Público alvo automático]:
+Alguns outros pontos para ter em mente sobre a criação de modelo do [!UICONTROL Direcionamento automático]:
 
-* Quando uma atividade está ativa, [!UICONTROL O Público alvo automático] considera até os últimos 45 dias de dados fornecidos aleatoriamente ao tentar criar modelos (isto é, controlar o tráfego, mais alguns dados fornecidos aleatoriamente pelo nosso algoritmo).
-* Quando [!UICONTROL Receita por visita] é sua métrica de sucesso, essas atividades geralmente exigem mais dados para construir modelos devido à maior variação de dados que normalmente existe na receita da visita em comparação com a taxa de conversão.
-* Como os modelos são criados por experiência, substituir uma experiência por outra significa que tráfego suficiente (ou seja, pelo menos 50 conversões) deve ser coletado para a nova experiência antes que os modelos personalizados possam ser recriados.
+* Quando uma atividade está ativa, o [!UICONTROL Direcionamento automático] considera até os últimos 45 dias de dados fornecidos aleatoriamente ao tentar criar modelos (ou seja, controlar o tráfego, além de alguns dados fornecidos aleatoriamente extras retidos pelo algoritmo).
+* Quando [!UICONTROL Receita por visita] é sua métrica de sucesso, essas atividades normalmente exigem mais dados para criar modelos devido à maior variação de dados que normalmente existe na receita de visitas em comparação com a taxa de conversão.
+* Como os modelos são criados com base na experiência, a substituição de uma experiência por outra significa que o tráfego suficiente (ou seja, pelo menos 50 conversões) deve ser coletado para a nova experiência antes que os modelos personalizados possam ser recriados.
 
 ### Um modelo é construído na minha atividade. As visitas a essa experiência são personalizadas?
 
@@ -98,21 +98,21 @@ Esse recurso permite rotear todo o tráfego de controle para uma experiência es
 
 Para obter mais informações, consulte [Usar uma experiência específica como controle](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
-### É possível alterar a métrica de objetivo no meio de uma atividade de Público alvo automático? {#change-metric}
+### Posso alterar a métrica de meta até o meio de uma atividade de Direcionamento automático ? {#change-metric}
 
-Não recomendamos que você altere a métrica de objetivo a meio de uma atividade. Embora seja possível alterar a métrica de objetivo durante uma atividade usando a interface do usuário [!DNL Target], você deve sempre start uma nova atividade. Não garantimos o que acontece se você alterar a métrica de objetivo em uma atividade após sua execução.
+Não recomendamos que você altere a métrica de meta para a metade de uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade usando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. Não garantimos o que acontece se você alterar a métrica de meta em uma atividade após sua execução.
 
-Esta recomendação se aplica às atividades [!UICONTROL Autoalocar], [!UICONTROL Público alvo automático] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como a origem do relatórios.
+Esta recomendação se aplica às atividades de [!UICONTROL Alocação automática], [!UICONTROL Direcionamento automático] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
 
-### Posso usar a opção Redefinir dados do relatório ao executar uma atividade de Público alvo automático?
+### Posso usar a opção Redefinir dados de relatório ao executar uma atividade de Direcionamento automático?
 
-Não é sugerido usar a opção [!UICONTROL Redefinir dados de relatório] para [!UICONTROL Público alvo automático] atividades. Embora remova os dados de relatórios visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Público alvo automático]. Em vez de usar a opção [!UICONTROL Redefinir dados do relatório] para [!UICONTROL Público alvo automático] atividades, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica às atividades [!UICONTROL Autoalocação] e [!UICONTROL Automated Personalization].)
+Não é sugerido usar a opção [!UICONTROL Redefinir dados de relatório] para atividades de [!UICONTROL Direcionamento automático]. Embora ela remova os dados de relatório visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Direcionamento automático]. Em vez de usar a opção [!UICONTROL Reset Report Data] para [!UICONTROL Direcionamento automático] atividades, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica às atividades de [!UICONTROL Alocação automática] e [!UICONTROL Automated Personalization].)
 
-### O que acontece se eu remover uma única experiência de uma atividade de Público alvo automático?
+### O que acontece se eu remover uma única experiência de uma atividade de Direcionamento automático ?
 
-[!DNL Target] cria um modelo por experiência, portanto, remover um meio de experiência  [!DNL Target] criará apenas um modelo a menos e não afetará os modelos para as outras experiências.
+[!DNL Target] O cria um modelo por experiência, portanto, remover uma experiência significa  [!DNL Target] apenas criar um modelo a menos e não afetará os modelos para as outras experiências.
 
-Por exemplo, suponha que você tenha uma atividade [!UICONTROL Público alvo automático] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afetará os modelos das sete experiências restantes.
+Por exemplo, suponha que você tenha uma atividade de [!UICONTROL Direcionamento automático] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afetará os modelos das sete experiências restantes.
 
 ## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -149,4 +149,3 @@ Isso é esperado.
 Em uma atividade de [!UICONTROL Direcionamento automático], depois que uma métrica de conversão (objetivo de otimização ou de postagem) é convertida, o usuário é liberado da experiência e a atividade é reiniciada.
 
 Por exemplo, há uma atividade com uma métrica de conversão (C1) e uma métrica adicional (A1). A1 depende de C1. Quando um visitante entra na atividade pela primeira vez, e os critérios de conversão de A1 e C1 não são convertidos, a métrica A1 não é convertida por depender da métrica de sucesso. Se o visitante converte C1 e depois converte A1, A1 ainda não é convertida porque, assim que C1 é convertida, o visitante é liberado.
-
