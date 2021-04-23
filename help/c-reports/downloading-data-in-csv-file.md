@@ -1,18 +1,18 @@
 ---
 keywords: relatórios, baixar relatórios, csv, métrica de sucesso, detalhes do pedido
-description: Saiba como baixar dados do Adobe Target atividade em um formato CVS para importação rápida para o Excel, Access ou outros programas de análise de dados.
+description: Saiba como baixar dados de atividades do Adobe [!DNL Target] em um formato CVS para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
 title: Como faço o download de dados de relatório em um arquivo CSV?
-feature: Reports
+feature: Relatórios
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
-
-# Download de dados em um arquivo CSV{#downloading-data-in-a-csv-file}
+# Download de dados em um arquivo CSV
 
 Baixe dados em um formato .csv para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
 
@@ -41,7 +41,7 @@ Os dados são salvos até o final da atividade.
 
 >[!NOTE]
 >
->O relatório CSV inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, incentivo ou confiança usados para testes A/B. Para calcular essas métricas calculadas, baixe o arquivo Excel [Calculadora de confiança completa](/help/assets/complete_confidence_calculator.xlsx) do Público alvo para inserir o valor do atividade ou reveja os [cálculos estatísticos usados pelo Público alvo](/help/assets/statistical-calculations.pdf).
+>O relatório de CSV inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B. Para calcular essas métricas calculadas, baixe o arquivo do Excel [Calculadora de confiança completa](/help/assets/complete_confidence_calculator.xlsx) do Target para inserir o valor da atividade ou revise os [cálculos estatísticos usados pelo Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportar detalhes do pedido para CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -84,7 +84,7 @@ O relatório Detalhes do pedido mostra informações sobre seus pedidos, incluin
 
 As seguintes informações se aplicam à opção Download:
 
-* Você pode baixar ambos os relatórios para Teste A/B, Automated Personalization, Direcionamento de experiência e atividades multivariadas. Você não pode baixar o relatório de Métricas de sucesso para atividades do Recommendation.
+* Você pode baixar ambos os relatórios para atividades de Teste A/B, Automated Personalization, Direcionamento de experiência e Multivariado. Você não pode baixar o relatório de Métricas de sucesso para atividades do Recommendation.
 * A opção de download não está disponível para as atividades A/B e de Direcionamento de experiência criadas antes da versão 15.7.1 do Target (julho de 2015).
 * Experiências sem dados associados não são registradas no relatório baixado.
 * Os públicos aplicados na interface do Target não são transferidos para o relatório de download.
