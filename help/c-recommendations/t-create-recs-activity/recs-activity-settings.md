@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations, Configurações, nome, objetivo, prioridade, duração, configurações de relatórios, outros metadados
-description: Saiba como configurar as configurações usadas para descrever e controlar uma atividade Recommendations no Adobe Target.
-title: Como configuro as configurações de Atividade do Recommendations?
+description: Saiba como definir as configurações usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
+title: Como defino as configurações de atividade do Recommendations?
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Configurações de atividade do Recommendations{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) Configurações de atividade do Recommendations
 
 Informações sobre as configurações que você pode usar para descrever e controlar uma atividade [!UICONTROL Recommendations] em [!DNL Adobe Target].
 
@@ -55,7 +55,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 ## Configurações da geração de relatórios
 
-* **Fonte do relatórios:** Selecione a fonte do relatórios:  [!DNL Adobe Target] ou  [do Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
+* **Fonte de relatórios:** selecione a fonte de relatórios:  [!DNL Adobe Target] ou  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
 * **Métrica de objetivo:** selecione a métrica de sucesso que determina se a atividade é bem sucedida.
 * **Métricas adicionais:** configure métricas de sucesso adicionais para serem usadas nos relatórios.
 * **Públicos-alvo para relatórios:** defina o público-alvo que pode ser usado ao filtrar os relatórios.
@@ -64,7 +64,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 Insira observações sobre a atividade.
 
-## Vídeo de treinamento: Configurações de atividade (3:02) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Configurações da atividade (3:02) ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
