@@ -1,18 +1,18 @@
 ---
 keywords: variáveis, perfis, parâmetros, perfis internos, métodos, variáveis de url, perfis geográficos, perfis de terceiros, variáveis da mbox, variáveis de campanha, atributos do cliente
-description: Visualização uma lista de vários perfis, variáveis e parâmetros úteis em scripts de perfil no Adobe Target.
-title: Quais Perfis, variáveis e parâmetros são usados no Público alvo?
-feature: Audiences
+description: Exiba uma lista de vários perfis, variáveis e parâmetros úteis em scripts de perfil no Adobe Target.
+title: Quais perfis, variáveis e parâmetros são usados no Target?
+feature: Públicos-alvo
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 88%
 
 ---
 
-
-# Glossário de variáveis e perfis{#profile-and-variable-glossary}
+# Glossário de variáveis e perfis
 
 Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de perfil.
 
@@ -30,7 +30,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.daysSinceLastVisit |  |
 | user.browser | O agente do usuário |
 | user.header | Todos os perfis `user.header` são incorporados nos dados do cabeçalho da solicitação de mbox |
-| user.header(&#39;x-encaminhado-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>É possível obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172.<br>Observação: user.header(&#39;x-cluster-client-ip&#39;) foi descontinuado. |
+| user.header(&#39;x-forward-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>É possível obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172.<br>Observação: user.header(&#39;x-cluster-client-ip&#39;) foi descontinuado. |
 | user.header(&#39;host&#39;) | Nome do host do site |
 | user.header(&#39;cookie&#39;) | Dados de cookie do visitante |
 | user.header(&#39;user-agent&#39;) | Agente do usuário do navegador do visitante |
@@ -43,7 +43,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Atributos de perfil persistentes criados a partir de scripts de perfil. Também faz referência a perfis de &quot;sistema&quot;, como localização geográfica, contagem de visitas, etc. |
-| profile.get(&#39;param_name&#39;) | A maneira correta de obter um parâmetro de perfil para usar em um script de perfil é o método perfil.get(&#39;param_name&#39;). |
+| profile.get(&#39;param_name&#39;) | A maneira correta de obter um parâmetro de perfil para usar em um script de perfil é o método profile.get(&#39;param_name&#39;). |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Os parâmetros da mbox que são tornados persistentes devido ao seu prefixo profile. . |
 | profile.browserTime | A hora do navegador local do visitante. Para a hora do sistema, crie um novo objeto de data no script de perfil |
@@ -92,4 +92,4 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 
 Os atributos do cliente podem ser referenciados em scripts de perfil, formatados como `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Esses atributos também ficam disponíveis como tokens em scripts de perfil e diretamente em ofertas, sem exigir primeiramente um script de perfil. O token deve estar no formato: `${crs.datasourceName.attributeName}`. Observe que os espaços em `datasourceName` devem ser removidos de qualquer chamada de API.
+Esses atributos também ficam disponíveis como tokens em scripts de perfil e diretamente em ofertas, sem exigir primeiramente um script de perfil. O token deve estar no formato: `${crs.datasourceName.attributeName}`. Observe que os espaços no `datasourceName` devem ser removidos de qualquer chamada de API.
