@@ -1,18 +1,18 @@
 ---
 keywords: servidor de rastreamento de análises; A4T; segmentos de análise; conjuntos de relatórios; dados incorretos; órfão; sdid; VisitorAPI.js; mboxMCSDID; fictício; não especificado
-description: Explore problemas comuns que os clientes encontraram ao usar o Analytics for Target (A4T).
-title: Como soluciono problemas na integração do Analytics e do Target (A4T)
+description: Explore problemas comuns que os clientes encontraram ao usar o Analytics para [!DNL Target] (A4T).
+title: Como soluciono problemas da integração do Analytics e do  [!DNL Target] (A4T)
 feature: Analytics for Target (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Solução de problemas de integração do Analytics e do Target (A4T)
+# Solução de problemas na integração do Analytics e [!DNL Target] (A4T)
 
 Este tópico aborda alguns problemas comuns encontrados ao usar [!DNL Adobe Analytics] como a fonte de relatórios para [!DNL Adobe Target] (A4T).
 
@@ -71,7 +71,7 @@ As atividades do A4T exigem que um servidor de rastreamento de análise seja esp
 Verifique se você tem as permissões certas antes de começar a criar atividades do A4T:
 
 * Pertencer ao grupo de acesso a serviços da Web no Adobe Analytics para poder usar o Analytics como a fonte de relatórios do Target
-* Ser membro de um ou mais grupos da Experience Cloud que têm acesso ao Analytics e ao Target.
+* Ser membro de um ou mais grupos do Experience Cloud que têm acesso ao Analytics e ao Target.
 * Verifique se o Analytics e Target são exibidos na seção Marketing Apps da navegação à esquerda.
 
 ## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios.   {#section_B5C3D56EF0344407AE67ABEB93037F5A}
