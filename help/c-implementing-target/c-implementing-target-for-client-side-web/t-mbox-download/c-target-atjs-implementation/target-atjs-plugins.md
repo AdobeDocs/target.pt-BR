@@ -1,17 +1,17 @@
 ---
 keywords: plug-ins do at.js; plug-ins compatíveis; plug-ins incompatíveis; ttMeta; ttmeta; mboxTrack
-description: Saiba mais sobre a implementação legada da mbox.js do Adobe Target. Migre para o Adobe Experience Platform Web SDK (AEP Web SDK) ou para a versão mais recente do at.js.
-title: Quais plug-ins herdados não são suportados no Público alvo at.js?
-feature: at.js
+description: Saiba mais sobre a implementação herdada da mbox.js do Adobe Target. Migrar para o SDK da Web da Adobe Experience Platform (AEP Web SDK) ou para a versão mais recente da at.js.
+title: Quais plug-ins herdados não são compatíveis com o  [!DNL Target] at.js?
+feature: 'at.js '
 role: Developer
+exl-id: 1d858f5b-58dc-4181-9cb5-aa6b22011abc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 82%
 
 ---
-
 
 # Plug-ins do at.js
 
