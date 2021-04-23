@@ -1,71 +1,71 @@
 ---
 keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, metas, públicos-alvo
-description: Perguntas frequentes sobre visualização sobre direcionamento de experiência e audiências usadas no Adobe Target atividade.
-title: Onde posso encontrar perguntas e respostas sobre Públicos alvos e Audiências?
-feature: Audiences
+description: Veja perguntas frequentes sobre o direcionamento de experiência e os públicos-alvo usados nas atividades do Adobe [!DNL Target] .
+title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públicos-alvo?
+feature: Públicos-alvo
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 66%
+source-wordcount: '948'
+ht-degree: 64%
 
 ---
 
-
-# Perguntas frequentes sobre direcionamentos e públicos{#targets-and-audiences-faq}
+# Perguntas frequentes sobre direcionamentos e públicos
 
 Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
 
-## Como o Público alvo avalia URLs na definição de metas? {#url}
+## Como o [!DNL Target] avalia URLs no direcionamento? {#url}
 
-O público alvo avalia os URLs de forma diferente dependendo se você usa o direcionamento de URL de audiência ao criar uma atividade ou se usa o direcionamento de URL ao criar uma audiência.
+O Target avalia os URLs de forma diferente, dependendo se você usa o direcionamento por URL de público-alvo ao criar uma atividade ou se você usa o direcionamento por URL ao criar um público-alvo.
 
 Considere o seguinte URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### Direcionamento de URL de audiência
+### Direcionamento de URL de público-alvo
 
-Para aplicar a definição de metas de URL de audiência, ao criar uma atividade, na página Experiências (etapa um do fluxo de trabalho guiado de três etapas), clique no ícone de engrenagem, clique em Delivery de página e especifique o URL desejado.
+Para aplicar o direcionamento do URL de público-alvo, ao criar uma atividade, na página Experiências (etapa um do fluxo de trabalho guiado de três etapas), clique no ícone de engrenagem, clique em Entrega de página e especifique o URL desejado.
 
-![URL do Delivery da página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![URL de entrega da página](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-A definição de metas de URL de audiência procura uma correspondência exata de URL. Se o URL corresponder, o Público alvo não considerará lógica adicional. No URL acima, se a atividade estiver definida para ser acionada em `www.example.com`, a URL corresponde aos seguintes URLs porque a segmentação do URL da audiência é agnóstica do query:
+A definição de metas do URL de público-alvo busca uma correspondência exata do URL. Se o URL corresponder, o Target não considera lógica adicional. No URL acima, se a atividade estiver definida para ser acionada em `www.example.com`, o URL corresponderá aos seguintes URLs, pois o direcionamento do URL do público-alvo é independente de consulta:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Além da definição de metas de audiência no URL, também é possível especificar valores específicos que podem estar no query.
+Além do direcionamento de público-alvo no URL, você também pode especificar valores específicos que podem estar no query.
 
 ### Direcionamento de URL
 
-Para aplicar a definição de metas de URL, ao criar uma audiência, clique em Adicionar regra, clique em Páginas do site, selecione uma opção na primeira lista suspensa (Página atual, Página anterior ou Landing page), selecione URL na segunda lista suspensa, especifique um avaliador e especifique o URL desejado.
+Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em Adicionar regra, clique em Páginas do site, selecione uma opção na primeira lista suspensa (Página atual, Página anterior ou Página inicial), selecione o URL na segunda lista suspensa, especifique um avaliador e especifique o URL desejado.
 
 ![Páginas do site > Página atual > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-A segmentação de URL transforma o URL em um conjunto de regras para avaliar:
+O direcionamento de URL transforma o URL em um conjunto de regras para avaliar:
 
-* Domínio do URL = `example.com`
+* Domínio de URL = `example.com`
 * Caminho = caminho1/caminho2/caminho3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Ao criar strings de URL complexas, [!DNL Target] avalia o URL inteiro?
+## Ao criar strings de URL complexas, o [!DNL Target] avalia o URL inteiro?
 
 Se você usar o mesmo nome de parâmetro mais de uma vez em uma string de URL, o HTTP considerará o primeiro nome de parâmetro e ignorará os parâmetros subsequentes com o mesmo nome.
 
-Por exemplo, na seguinte string de URL:
+Por exemplo, na seguinte string do URL:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
 a primeira instância do parâmetro `Category` é avaliada e o segundo parâmetro `Category` é ignorado.
 
-A prática recomendada é ter vários valores associados a uma única categoria, como mostrado abaixo:
+A prática recomendada é ter vários valores associados a uma única categoria, conforme mostrado abaixo:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## Ao criar públicos-alvo, por que os públicos-alvo pré-construídos na Biblioteca do Target podem ser vistos em outras categorias? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## Ao criar públicos-alvo, por que os públicos-alvo pré-construídos na [!DNL Target]Biblioteca do   podem ser vistos em outras categorias? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 Os públicos pré-construídos na categoria Biblioteca do Target são herdados e existem em outras categorias. Por exemplo, o público-alvo herdado da Biblioteca do Target > Novos visitantes tem uma contraparte atualizada: Perfil do visitante > Novo visitante.
 
@@ -83,7 +83,7 @@ Por exemplo, na seguinte ilustração, um usuário da Califórnia que usa um dis
 
 ![](assets/audiences_order.png)
 
-## Por que os nomes para o mesmo público-alvo do Target, da Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Por que os nomes para o mesmo público-alvo do [!DNL Target], da Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Os nomes dos públicos-alvo no [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter vários públicos-alvo com o mesmo nome (se estiverem em pastas diferentes). Quando o [!DNL Target] encontra um nome de público-alvo que corresponde a um público-alvo do [!DNL AAM] ou do [!DNL Audience Library], o [!DNL Target] adiciona &quot;#&lt;number>&quot; ao nome.
 
@@ -93,7 +93,7 @@ Por exemplo, você pode ver os seguintes públicos-alvo: &quot;usuários de PC&q
 
 Alguns públicos-alvo do Target são predefinidos, como &quot;Novos visitantes&quot; e &quot;Visitantes recorrentes&quot;. Esses públicos-alvo predefinidos não podem ser renomeados pelos usuários.
 
-## Por que todos os parâmetros de perfil não são exibidos na interface do usuário do Target?   {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Por que todos os parâmetros de perfil não estão sendo exibidos na interface do usuário [!DNL Target]? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 O [!DNL Target] tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o [!DNL Target], é possível fazer isso usando o método de [!UICONTROL Atualização do perfil] da API. Para obter mais informações, consulte [Atualização do perfil](https://developers.adobetarget.com/api/#authentication-tokens) na documentação da API do Adobe Target.
 
@@ -101,7 +101,7 @@ O [!DNL Target] tem um limite de 50 atributos de perfil exclusivos por chamada d
 
 As atividades de Personalização automatizada são avaliadas uma vez por sessão. Se houver sessões ativas que se qualificaram para uma experiência específica e agora novas ofertas foram adicionadas a elas, os usuários verão o novo conteúdo junto com as ofertas exibidas anteriormente. Como elas se qualificaram previamente para essas experiências, eles ainda as veriam durante a sessão. Se houver um desejo de avaliar isso em todas as visitas a uma página única, você deverá mudar para o tipo de atividade de Direcionamento de experiência (XT).
 
-## Por que as alterações para públicos-alvo criadas por meio da API não são refletidas na interface do usuário do Target?   {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Por que as alterações para públicos-alvo criadas por meio da API não são refletidas na interface do usuário [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Diferente de ofertas e scripts de perfil, as alterações feitas pela API para públicos criadas pelo Target Standard atualmente não são sincronizadas para a interface do usuário do Target.
 
