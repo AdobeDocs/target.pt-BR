@@ -1,19 +1,19 @@
 ---
 keywords: qa; visualização; link de visualização; dispositivo móvel; visualização móvel
-description: Use links de pré-visualização para dispositivos móveis para executar um controle de qualidade completo para atividades de aplicativos móveis. Você pode se inscrever em experiências diferentes sem dispositivos de teste especiais.
-title: Como uso o Mobile Pré-visualização Link no Público alvo Mobile?
-feature: Implement Mobile
+description: Use links de visualização móvel para realizar tarefas completas de controle da qualidade em atividades de aplicativos móveis. Você pode se inscrever em experiências diferentes sem dispositivos de teste especiais.
+title: Como uso o link de visualização móvel no  [!DNL Target] Mobile?
+feature: Implementar dispositivos móveis
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Visualização do Target Mobile{#target-mobile-preview}
+# Visualização do Target Mobile
 
 Use o link de visualização móvel para realizar facilmente tarefas completas de controle da qualidade e participar de experiências diferentes diretamente do dispositivo, sem dispositivos de teste especiais.
 
@@ -31,8 +31,8 @@ A funcionalidade visualização móvel permite que você teste completamente sua
 
    Para instruções de como baixar o SDK apropriado, consulte:
 
-   * **iOS:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iniciar a Ajuda *do iOS do* Mobile Services.
-   * **Android:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) iniciar a Ajuda *do Android do* Mobile Services.
+   * **iOS:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iniciar a Ajuda do iOS para  *Mobile Services*.
+   * **Android:** [antes de ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) iniciar a Ajuda do Android do  *Mobile Services*.
 
 1. **Defina um esquema de URL:** o link de visualização usa um esquema de URL para abrir seu aplicativo. Você deve especificar um esquema de URL único para a visualização.
 
@@ -77,7 +77,7 @@ A funcionalidade visualização móvel permite que você teste completamente sua
      }
    ```
 
-   Para fazer a Pré-visualização móvel funcionar para Android, você também deve adicionar o seguinte trecho de código em [!DNL AndroidManifest.xml] se estiver usando a versão 5 do SDK do Adobe Mobile:
+   Para fazer a visualização móvel funcionar no Android, você também deve adicionar o seguinte fragmento de código em [!DNL AndroidManifest.xml] se estiver usando a versão 5 do SDK móvel do Adobe:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
