@@ -1,16 +1,16 @@
 ---
-keywords: Direcionamento de experiência;xt;criar
-description: Saiba como usar o Visual Experience Composer (VEC) no Adobe Target para criar uma atividade Experience Targeting (XT) em uma página habilitada para Públicos alvos.
-title: Como crio uma Atividade de direcionamento de experiência?
-feature: Experience Targeting
+keywords: Direcionamento de experiência; xt; criar
+description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL Target] para criar uma atividade de Direcionamento de experiência (XT) em uma página habilitada pelo Target.
+title: Como criar uma atividade de direcionamento de experiência?
+feature: Direcionamento de experiência
+exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 translation-type: tm+mt
-source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 89%
 
 ---
-
 
 # Criar uma atividade de direcionamento de experiência
 
