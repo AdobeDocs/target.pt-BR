@@ -1,21 +1,21 @@
 ---
 keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
-description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens no catálogo do Adobe Target Recommendations.
-title: Como Uso Atributos De Entidade Personalizados?
+description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens em seu catálogo do Adobe [!DNL Target] Recommendations.
+title: Como Posso Usar Atributos De Entidade Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Atributos de entidade personalizados
 
-# ![PREMIUM](/help/assets/premium.png) Atributos de entidade personalizados{#custom-entity-attributes}
-
-Use atributos de entidade personalizados de valor único e múltiplo em [!DNL Adobe Target Recommendations] para definir informações adicionais sobre itens no catálogo.
+Use atributos de entidade personalizados de valor único e múltiplo em [!DNL Adobe Target Recommendations] para definir informações adicionais sobre itens em seu catálogo.
 
 ## Limites {#limits}
 
@@ -25,7 +25,7 @@ O tamanho máximo dos atributos personalizados da entidade de valor único é de
 
 Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
-## Valores de atributo de entidade personalizada {#section_313331A9F8194A89B5EDD89363018651}
+## Valores de atributos de entidade personalizados {#section_313331A9F8194A89B5EDD89363018651}
 
 Atributos de entidade personalizados podem conter um único valor ou vários valores. Valores de atributos da entidade são exibidos na visualização do produto.
 
@@ -61,7 +61,7 @@ Depois que um atributo personalizado é enviado como uma matriz JSON válida, el
 * As matrizes devem conter um único tipo de valor. Matrizes de valores mistos (`["AB",1,true]`) não são compatíveis.
 * Um atributo de vários valores que inclui uma matriz JSON aninhada (`[10,12,[1,2,3]]`) é tratado como um atributo de valor único.
 
-## Implementação de atributos de vários valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementar atributos de vários valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`, API de entrega e ta API Salvar entidades para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
 
@@ -109,7 +109,7 @@ Tenha cuidado ao editar diretamente um arquivo CSV de catálogo simples.
 
 ### Uso de APIs
 
-Você pode passar atributos de vários valores usando a API de Delivery em um parâmetro de mbox como um valor de string contendo uma matriz JSON escaped.
+Você pode passar atributos de vários valores usando a API de entrega em um parâmetro de mbox como um valor de sequência de caracteres contendo uma matriz JSON escaped.
 
 ```javascript
 "execute": {
@@ -127,7 +127,7 @@ Você pode passar atributos de vários valores usando a API de Delivery em um pa
   }
 ```
 
-Consulte a [documentação da API do Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obter informações sobre o uso das APIs de entidades de Delivery e Salvar.
+Consulte a [documentação da API do Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obter informações sobre como usar as APIs de entidades de Entrega e Salvar.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,7 +140,7 @@ No exemplo a seguir, a regra é  `message contains abc`.
 
 Para operadores negativos, todos os valores de atributo devem passar (booleano *e*). Por exemplo, se o operador for  `notEquals`, o resultado será *false* se qualquer valor for compatível.
 
-Consulte as seções a seguir para ver o comportamento do operador nas regras de inclusão de algoritmos, regras de catálogo e regras de exclusão.
+Consulte as seções a seguir para obter o comportamento do operador em regras de inclusão de algoritmo, regras de catálogo e regras de exclusão.
 
 ### Igual
 
@@ -241,7 +241,7 @@ Exemplo: `genre does not match abc`
 
 ### Intervalos dinâmicos (disponíveis apenas em algoritmos baseados em itens e valores numéricos)
 
-Se algum valor de atributo numérico estiver dentro do intervalo especificado, resultará em true.
+Se qualquer valor numérico de atributo se encaixar no intervalo especificado, o resultado será true.
 
 Exemplo: `price dynamically ranges in 80% to 120% of 100`
 
@@ -254,7 +254,7 @@ Exemplo: `price dynamically ranges in 80% to 120% of 100`
 
 ## Atributos de vários valores em designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-Os atributos de vários valores aparecem como uma lista separada por vírgulas quando referenciados em um design.
+Os atributos de vários valores são exibidos como uma lista separada por vírgulas quando referenciados em um design.
 
 Exemplo:
 
