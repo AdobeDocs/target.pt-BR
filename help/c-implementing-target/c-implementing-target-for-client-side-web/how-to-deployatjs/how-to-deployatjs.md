@@ -1,17 +1,17 @@
 ---
 keywords: implementar; at.js; biblioteca javascript
-description: Saiba como implantar a biblioteca JavaScript do Adobe Target at.js usando o Adobe Experience Platform Launch ou sem um gerenciador de tags.
-title: Como faço para implantar o at.js?
-feature: Implement Server-side
+description: Saiba como implantar a biblioteca JavaScript do Adobe [!DNL Target] at.js usando o Adobe Experience Platform Launch ou sem um gerenciador de tags.
+title: Como faço para implantar a at.js?
+feature: Implementar o lado do servidor
 role: Developer
+exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 49%
 
 ---
-
 
 # Como implantar a at.js
 
@@ -21,12 +21,12 @@ Você pode implantar a at.js usando os seguintes métodos:
 
 * **[Implementar o Target usando o Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: o Launch é a plataforma de gerenciamento de tags de próxima geração da Adobe e o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
 * **[Implementar o Target sem um gerenciador de tags](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: é possível implementar o Target sem usar um gerenciador de tags (Adobe Launch ou Dynamic Tag Management).
-* **[Implemente o Público alvo usando o Gerenciamento](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)** dinâmico de tags: Você pode implementar o Gerenciamento dinâmico de tags do Público alvo (DTM), o Gerenciamento dinâmico de tags do Adobe (gerenciador herdado de tags). O Adobe Launch é o método atualizado preferido para a implementação do Target e da biblioteca at.js. Para obter novas implementações do Target, use o Launch.
-* **Implemente o Público alvo usando um gerenciador** de tags de terceiros:  [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis é o método preferido para implementar o Público alvo; no entanto, você também pode implementar o Público alvo usando um gerenciador de tags de terceiros, como Tealium, Ensighten, Google Tag etc. Para obter uma lista dos benefícios do uso do Launch, consulte [Vantagens da implementação do at.js usando a extensão do Launch do Público alvo](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304).
+* **[Implementar o Target usando o Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**: Você pode implementar o Target Dynamic Tag Management (DTM), Adobe usando o gerenciador de tags herdado. O Adobe Launch é o método atualizado preferido para a implementação do Target e da biblioteca at.js. Para obter novas implementações do Target, use o Launch.
+* **Implementar o Target usando um gerenciador** de tags de terceiros:  [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch é o método preferido para implementar o Target; no entanto, também é possível implementar o Target usando um gerenciador de tags de terceiros, como Tealium, Ensighten, Google Tag, etc. Para obter uma lista dos benefícios de usar o Launch, consulte [Vantagens de implementar a at.js usando a extensão Launch do Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304).
 
-   No entanto, se você sabe implementar o Público alvo sem um gerenciador de tags, é possível implementar facilmente com um gerenciador de tags de terceiros em vez de codificar o at.js no código do site.
+   No entanto, se você sabe como implementar o Target sem um gerenciador de tags, é possível implementar facilmente com um gerenciador de tags de terceiros, em vez de codificar a at.js no código do site.
 
-   Estes são dois tópicos relevantes que ajudarão a implementar o Público alvo com um gerenciador de tags de terceiros:
+   Estes são dois tópicos relevantes que ajudarão você a implementar o Target com um gerenciador de tags de terceiros:
 
    * [Antes da implementação](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
    * [Implementação do Target sem um gerenciador de tags](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
