@@ -1,15 +1,15 @@
 ---
 keywords: implementar, implementação, configuração, configurar, parâmetro de página, tomcat, url codificado, atributo de perfil na página, parâmetro mbox, atributos de perfil na página, atributo de perfil de script, API de atualização de perfil em massa, API de atualização de arquivo único, atributos de cliente, provedores de dados, dataprovider, provedor de dados
-description: Obtenha dados no Target (parâmetros de página, atributos de perfil, atributos de perfil de script, provedores de dados, APIs de atualização de perfil único e em massa, atributos do cliente).
+description: Obtenha dados em [!DNL Target] (parâmetros de página, atributos de perfil, atributos de perfil de script, provedores de dados, APIs de atualização de perfil em massa e únicas, atributos do cliente).
 title: Como posso obter dados no Target?
-feature: Implementation
+feature: Implementação
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 69%
+source-wordcount: '361'
+ht-degree: 70%
 
 ---
 
