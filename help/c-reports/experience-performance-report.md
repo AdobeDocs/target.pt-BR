@@ -1,18 +1,18 @@
 ---
 keywords: teste multivariado, mvt, relatório de desempenho da experiência
-description: Saiba como usar o Relatório de desempenho de experiência para atividades de direcionamento de experiência da Adobe Target que mostram o desempenho de cada experiência na atividade.
-title: Como uso o Relatório de desempenho de experiência para testes multivariados?
-feature: Reports
+description: Saiba como usar o relatório de desempenho da experiência para atividades de Adobe [!DNL Target] Direcionamento de experiência que mostram o desempenho de cada experiência na atividade.
+title: Como uso o Relatório de desempenho da experiência para testes multivariados?
+feature: Relatórios
+exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 89%
 
 ---
 
-
-# Relatório de desempenho da experiência (MVT){#experience-performance-report-mvt}
+# Relatório de desempenho da experiência (MVT)
 
 O relatório de desempenho da experiência mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
 
@@ -36,7 +36,7 @@ Você pode exibir as cinco melhores, as cinco piores ou todas as experiências. 
 
 Abaixo do gráfico, uma tabela mostra quantos participantes visualizaram cada experiência, bem como outras informações relevantes para a sua métrica de sucesso.
 
-## Vídeo de treinamento: Criar um teste MVT  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criar um teste MVT  ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da experiência é descrito no começo às 8:20.
 
