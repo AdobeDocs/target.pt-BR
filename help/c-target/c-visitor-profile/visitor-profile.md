@@ -1,18 +1,18 @@
 ---
 keywords: Visão geral e referência
-description: Saiba mais sobre perfis de visitantes que contêm informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
-title: O que são Perfis de Visitantes?
-feature: Audiences
+description: Saiba mais sobre os perfis de visitantes que contêm informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
+title: O que são perfis de visitantes?
+feature: Públicos-alvo
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# Perfis do visitante{#visitor-profiles}
+# Perfis do visitante
 
 Os perfis do visitante contêm informações sobre como os visitantes usam as páginas e outros locais de conteúdo otimizado
 
