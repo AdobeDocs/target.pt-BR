@@ -1,23 +1,23 @@
 ---
 keywords: targetPageParams; targetpageparams; pageParams; pageparams; parâmetros da página; parâmetros da página; at.js; funções; função
-description: Use a função targetPageParams() da biblioteca JavaScript do Adobe Target at.js para anexar parâmetros à mbox global fora do código de solicitação.
+description: Use a função targetPageParams() da biblioteca de JavaScript Adobe [!DNL Target] at.js para anexar parâmetros à mbox global de fora do código da solicitação.
 title: Como uso a função targetPageParams()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 0772b400-626c-45d8-a4b5-a12691978cf3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 72%
 
 ---
 
-
-# targetPageParams() {#reference_B235C9F6DA79449ABE3E23F914FEABAE}
+# targetPageParams()
 
 Este método permite anexar parâmetros ao mbox global de fora do código da solicitação.
 
-Esta função é muito útil para incluir o mesmo conjunto de parâmetros em múltiplas chamadas da mbox. A função precisa ser definida pelo cliente. Ela deve retornar uma matriz de parâmetros que serão transmitidos apenas à solicitação global da mbox. Essa função pode ser definida antes do at.js ser carregado ou em **[!UICONTROL Administration]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar]** > **[!UICONTROL Cabeçalho da biblioteca]**.
+Esta função é muito útil para incluir o mesmo conjunto de parâmetros em múltiplas chamadas da mbox. A função precisa ser definida pelo cliente. Ela deve retornar uma matriz de parâmetros que serão transmitidos apenas à solicitação global da mbox. Essa função pode ser definida antes que at.js seja carregada ou em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Cabeçalho da biblioteca]**.
 
 Você pode transmitir parâmetros para target-global-mbox usando a função `targetPageParams()` de qualquer uma das seguintes maneiras:
 
