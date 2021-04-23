@@ -5,9 +5,9 @@ title: Como funciona o  [!DNL Target] ?
 feature: Visão geral
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2564'
 ht-degree: 31%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 31%
 
 Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL Adobe Experience Platform Web SDK] e as bibliotecas do JavaScript (at.js e mbox.js). Este artigo também apresenta os vários tipos de atividades que você pode criar usando [!DNL Target]. Você também pode saber mais sobre a [!DNL Target] rede de borda, Otimização do mecanismo de pesquisa (SEO) e como [!DNL Target] detecta bots.
 
-## SDKs da Web da plataforma do Target e bibliotecas JavaScript {#libraries}
+## [!DNL Target] SDKs da Web da plataforma e bibliotecas JavaScript  {#libraries}
 
 [!DNL Target] integra-se a sites usando as bibliotecas do  [!DNL AEP Web SDK] ou do JavaScript:
 
@@ -41,7 +41,7 @@ Em [!DNL Target], cada elemento na página faz parte de uma única experiência 
 
 O conteúdo exibido para os visitantes depende do tipo de atividade que você cria:
 
-### Teste A/B
+### [!UICONTROL Teste A/B]
 
 O conteúdo exibido em um teste A/B básico é escolhido aleatoriamente a partir das experiências atribuídas à atividade. É possível atribuir as porcentagens de alocação de tráfego para cada experiência. Como resultado dessa divisão aleatória de tráfego, pode ser necessária uma quantidade significativa de tráfego inicial antes que as porcentagens cheguem. Por exemplo, se você criar duas experiências, a inicial será escolhida aleatoriamente. Se houver pouco tráfego, é possível que a porcentagem de visitantes venha a tender para uma experiência. À medida que o tráfego aumenta, as porcentagens são iguais.
 
@@ -54,19 +54,19 @@ O conteúdo exibido em um teste A/B básico é escolhido aleatoriamente a partir
 
 Consulte [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) para obter mais informações.
 
-### Alocação automática
+### [!UICONTROL Alocação automática]
 
-A Alocação automática identifica um vencedor entre duas ou mais experiências. A Alocação automática realoca automaticamente mais tráfego para a experiência vencedora, o que ajuda a aumentar as conversões enquanto o teste continua a ser executado e aprendido.
+[!UICONTROL A ] Alocação automática identifica um vencedor entre duas ou mais experiências. [!UICONTROL A ] alocação automática realoca automaticamente mais tráfego para a experiência vencedora, o que ajuda a aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
-Consulte [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
+Consulte [[!UICONTROL Alocação automática]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
 
-### Direcionamento automático (AT)
+### [!UICONTROL Direcionamento automático] (AT)
 
 O Direcionamento automático usa aprendizagem de máquina avançada para selecionar várias experiências definidas pelo profissional de marketing com desempenho elevado. O Direcionamento automático veicula a experiência mais personalizada para cada visitante. A entrega de experiência é baseada em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis similares. Use o Direcionamento automático para personalizar o conteúdo e gerar conversões.
 
 Consulte [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) para obter mais informações.
 
-### Personalização automatizada (AP)
+### [!UICONTROL Personalização automatizada] (AP)
 
 O Automated Personalization (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante. A entrega de experiência é baseada em perfis de clientes individuais para personalizar o conteúdo e impulsionar o incentivo.
 
@@ -80,13 +80,13 @@ O Direcionamento de experiência, incluindo a geolocalização, é algo valioso 
 
 Consulte [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obter mais informações.
 
-### Teste multivariado (MVT)
+### [!UICONTROL Teste multivariado] (MVT)
 
 O Multivariate Testing (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. O MVT ajuda a identificar qual elemento afeta mais o sucesso da atividade.
 
 Consulte [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obter mais informações.
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 As atividades do Recommendations exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores ou outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
@@ -213,6 +213,6 @@ Especificamente, para o tráfego de bot conhecido [!DNL Target] não:
 * Cria ou recupera um perfil do visitante
 * Registra os atributos de perfil ou executa scripts de perfil
 * Procura segmentos do Adobe Audience Manager (AAM) (se aplicável)
-* Use o tráfego de bot na modelagem e veiculação de conteúdo personalizado para atividades de Recommendations, Direcionamento automático, Automated Personalization ou Alocação automática
+* Use o tráfego de bot na modelagem e veiculação de conteúdo personalizado para atividades de Recommendations, Direcionamento automático, Automated Personalization ou [!UICONTROL Alocação automática]
 * Registra uma visita de atividade para relatório
 * Registra dados a serem enviados para a plataforma [!DNL Adobe Experience Cloud]
