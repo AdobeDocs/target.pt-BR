@@ -1,19 +1,19 @@
 ---
 keywords: at.js; funções; biblioteca javascript
-description: Visualização uma lista de funções que podem ser usadas com as versões 1.x e 2.x da biblioteca do JavaScript at.js no Adobe Target.
-title: Quais funções posso usar com o at.js?
-feature: at.js
+description: Exiba uma lista de funções que podem ser usadas com as versões 1.x e 2.x da biblioteca at.js de JavaScript no Adobe Target.
+title: Quais funções posso usar com a at.js?
+feature: 'at.js '
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 94%
 
 ---
 
-
-# Funções da at.js{#at-js-functions}
+# Funções da at.js
 
 Lista de funções que podem ser usadas com a biblioteca de JavaScript at.js do Adobe Target. Clique nos links na coluna Função para obter mais informações e exemplos.
 
@@ -33,4 +33,3 @@ Lista de funções que podem ser usadas com a biblioteca de JavaScript at.js do 
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | Fornece uma forma padrão de registrar uma extensão específica.<br>**Observação:** essa função está disponível para a at.js versão 1.somente *x*. Essa função foi descontinuada pelo lançamento da at.js 2.x. Ela retorna o conteúdo padrão se for usada com a 2.x. |
 | [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Os eventos personalizados da at.js informam quando uma solicitação de mbox ou oferta falha ou é bem-sucedida. |
 | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | Esta função envia uma notificação para a borda do Target quando uma experiência é renderizada sem usar `adobe.target.applyOffer()` ou `adobe.target.applyOffers()`.<br>**Observação**: esta função foi introduzida na at.js 2.1.0 e estará disponível em todas as versões a partir da 2.1.0. |
-
