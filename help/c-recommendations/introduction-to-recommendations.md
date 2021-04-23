@@ -1,16 +1,16 @@
 ---
-keywords: Recommendations;introdução;introdução;webinar;demo
-description: Saiba mais sobre as atividades Recommendations no Adobe Target que exibem automaticamente conteúdo que pode interessar aos seus clientes com base na atividade do usuário anterior ou em outros algoritmos.
-title: O que são Recommendations Atividade?
+keywords: Recommendations, introdução, introdução, webinar, demonstração
+description: Saiba mais sobre as atividades do Recommendations no Adobe [!DNL Target] que exibem automaticamente conteúdo que pode ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
+title: O que são atividades do Recommendations?
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 95%
+source-wordcount: '2115'
+ht-degree: 94%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Introdução ao Recommendations
 
@@ -41,7 +41,7 @@ O [!DNL Adobe Target] entrega conteúdo personalizado em todos os locais.
 * **Jogos**: as empresas de jogos usam o [!DNL Target] para recomendar jogos e conteúdo aos usuários em seus consoles.
 * **Vendas B2B**: [As empresas B2B usam o Target para recomendar vídeos, whitepapers e publicações do blog para prospectos B2B; entregar downloads; e fornecer ajuda aos clientes](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Viagem**:  [Um corretor de viagens alemão usa o Público alvo para recomendar hotéis e muito mais para viajantes](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Viagem**:  [Uma agência de viagens alemã usa o Target para recomendar hotéis e muito mais aos viajantes](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
 * **Varejo**: [um varejista BB líder usa o Target para recomendar as principais categorias e produtos para retornar visitantes no navegador e em seu aplicativo](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2/ móvel.
 
@@ -57,7 +57,7 @@ Excelentes recomendações devem ser relevantes e personalizadas. Isso significa
 * **Modelos sofisticados** para dar sentido a milhões de itens nos eventos de catálogo e interação. O [!DNL Target] possui recursos sofisticados de aprendizado de máquina criados em uma década de experiência e nós lidamos com bilhões de recomendações por ano.
 * **Contexto do usuário** para garantir que as recomendações sejam oportunas e relevantes para os usuários. Você não vai querer recomendar o vídeo que alguém acabou de assistir ou a camisa que alguém acabou de adicionar ao carrinho. O perfil de usuário avançado do Target pode ser usado nas recomendações para garantir a personalização.
 
-## Implementar o Target Recommendations
+## Implementar [!DNL Target] Recommendations
 
 Comece com uma estratégia.
 
@@ -129,7 +129,7 @@ Uma atividade do [!DNL Recommendations] consiste nos seguintes componentes:
 
 ![Ilustração que mostra em que consiste uma atividade de recomendações: públicos-avo, critérios e designs](/help/c-recommendations/assets/intro-12.png)
 
-Imediatamente, o [!DNL Target] inclui 14 públicos-alvo integrados, 42 critérios integrados e 10 modelos de design integrados. Você pode personalizar cada um desses itens ou adicionar os seus próprios. Tivemos webinars anteriores [sobre como criar audiência](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) em [!DNL Target]. Esta seção foca na definição dos critérios que determinam quais itens serão recomendados.
+Imediatamente, o [!DNL Target] inclui 14 públicos-alvo integrados, 42 critérios integrados e 10 modelos de design integrados. Você pode personalizar cada um desses itens ou adicionar os seus próprios. Já tivemos [webinars sobre a criação de públicos-alvo](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) em [!DNL Target]. Esta seção foca na definição dos critérios que determinam quais itens serão recomendados.
 
 O Target usa o conceito do cartão de critérios. Um cartão de critérios é como uma fórmula para personalização.
 
@@ -195,6 +195,6 @@ Por exemplo, no contexto de conteúdo, você pode excluir os filmes que o visita
 
 Após concluir as tarefas ilustradas no funil de recomendações descrito acima, você fica com a recomendação final. Para assistir a uma demonstração do produto no [!DNL Target], a demonstração começa às 21:00 no *Webinário de noções básicas do Adobe Target*, vinculado abaixo.
 
-## Webinário de noções básicas do Adobe Target: Introdução ao Recommendations {#intro-to-recs}
+## Webinar de noções básicas do Adobe [!DNL Target]: Introdução ao Recommendations {#intro-to-recs}
 
 [Introdução ao Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
