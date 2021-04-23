@@ -1,22 +1,22 @@
 ---
-keywords: Direcionamento;analytics;servidor de rastreamento;analytics para público alvo;a4t
-description: Saiba como configurar uma atividade no Adobe Target para usar o Adobe Analytics como a fonte do relatórios. Essa integração é chamada de Analytics for Público alvo (A4T).
-title: Como posso usar os dados do Analytics no Público alvo?
+keywords: Direcionamento, analytics, servidor de rastreamento, analytics for target, a4t
+description: Saiba como configurar uma atividade no Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T).
+title: Como posso usar os dados do Analytics no Target?
 feature: Analytics for Target (A4T)
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 85%
+source-wordcount: '543'
+ht-degree: 88%
 
 ---
 
-
 # Uso de dados do Analytics
 
-Você pode configurar uma atividade em [!DNL Adobe Target] para usar [!DNL Adobe Analytics] como a fonte do relatórios (A4T).
+Você pode configurar uma atividade em [!DNL Adobe Target] para usar [!DNL Adobe Analytics] como fonte de relatórios (A4T).
 
-Para obter informações detalhadas sobre como configurar o Analytics como a fonte de dados para o Público alvo, consulte [Adobe Analytics como a Fonte do Relatórios para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Para obter informações detalhadas sobre como configurar o Analytics como fonte de dados para o Target, consulte [Adobe Analytics como fonte de relatórios para Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Antes de configurar uma atividade que usa o Analytics como fonte de relatórios, estabeleça a meta da atividade, como melhorar a receita por visitante (RPV) ou aumentar os cliques no carrinho de compras. Escolha uma métrica de sucesso final para a campanha. Apesar de poder selecionar métricas adicionais a qualquer momento no Analytics, você ainda precisa especificar uma métrica específica que espera que seja afetada por esse teste.
 
