@@ -1,58 +1,58 @@
 ---
 keywords: biblioteca de conteúdo; ativos; anotar; copiar; excluir ativo; baixar ativo; editar conteúdo; compartilhar cartão; exibir propriedades do conteúdo
-description: Saiba como gerenciar ofertas de código e imagem na biblioteca do Adobe Target Oferta. Saiba como visualização os detalhes de uma oferta e como editar, copiar, mover ou excluir ofertas.
-title: Como trabalho com conteúdo na biblioteca do Oferta?
-feature: Experiences and Offers
+description: Saiba como gerenciar ofertas de código e imagem na biblioteca de Adobe [!DNL Target] Offers . Saiba como visualizar os detalhes de uma oferta e como editar, copiar, mover ou excluir ofertas.
+title: Como trabalho com conteúdo na biblioteca de ofertas?
+feature: Experiências e ofertas
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 37%
+source-wordcount: '769'
+ht-degree: 36%
 
 ---
 
-
 # Trabalhar com conteúdo na biblioteca de ativos
 
-Informações sobre as tarefas que você pode executar em um ativo na Biblioteca de conteúdo em [!DNL Adobe Target], incluindo propriedades de anotação, cópia, exclusão, download, edição, compartilhamento e exibição.
+Informações sobre as tarefas que você pode executar em um ativo na Biblioteca de conteúdo em [!DNL Adobe Target], incluindo anotação, cópia, exclusão, download, edição, compartilhamento e exibição de propriedades.
 
-1. Clique em **[!UICONTROL Oferta]** > **[!UICONTROL Ofertas de código]** ou **[!UICONTROL Ofertas de imagem]**.
+1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]** ou **[!UICONTROL Ofertas de imagem]**.
 
    ![Guias Ofertas de código e Ofertas de imagem](/help/c-experiences/c-manage-content/assets/offers-both.png)
 
    Para obter mais informações sobre como pesquisar a biblioteca de ofertas e criar Coleções inteligentes, consulte [Filtro e conteúdo de pesquisa](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Opcional) Alterne entre [!UICONTROL Visualização de cartão] e [!UICONTROL Visualização de Lista], clique no ícone [!UICONTROL Visualização de cartão] ou no ícone [!UICONTROL Visualização de Lista] no canto superior direito da biblioteca de conteúdo. Você também pode usar [!UICONTROL Configurações de Visualização] para configurar ainda mais as colunas ao visualizar a [!UICONTROL Visualização de Lista].
+1. (Opcional) Alterne entre a [!UICONTROL Exibição de cartão] e [!UICONTROL Exibição de lista], clique no ícone [!UICONTROL Exibição de cartão] ou no ícone [!UICONTROL Exibição de lista] no canto superior direito da biblioteca de conteúdo. Você também pode usar [!UICONTROL Configurações de exibição] para configurar ainda mais as colunas ao visualizar a [!UICONTROL Exibição de lista].
 
-   A ilustração a seguir mostra as opções disponíveis ao visualizar a Visualização [!UICONTROL Lista]:
+   A ilustração a seguir mostra as opções disponíveis ao visualizar a [!UICONTROL Visualização de lista]:
 
-   ![Opções de Visualização de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![Opções de Exibição de lista](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Execute a ação desejada, conforme explicado nas seguintes seções:
 
 ## Opções de ofertas de código
 
-Ao exibir a página [!UICONTROL Ofertas de código], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
+Ao visualizar a página [!UICONTROL Ofertas de código] , você pode executar as seguintes ações em um item ao passar o mouse sobre uma oferta ou pasta e selecionar o ícone apropriado.
 
 ![Ícones de flutuação na guia Ofertas de código](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-* **Informações**: Visualização das informações da oferta.
-* **Editar**: Edite a pasta ou a oferta.
+* **Informações**: Exibir as informações da oferta.
+* **Editar**: Edite a pasta ou oferta.
 * **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
-* **Mover**: Clique no ícone Mover, navegue até o local para o qual deseja mover a oferta ou pasta e clique no  **** Dropicon. Por exemplo, você pode mover uma ou mais pastas para outra pasta para criar subpastas. Clique em [!UICONTROL Limpar seleção] para desmarcar as ofertas ou pastas selecionadas.
+* **Mover**: Clique no ícone Mover , navegue até o local onde deseja mover a oferta ou pasta e clique no  **** Dropicon. Por exemplo, você pode mover uma ou mais pastas para dentro de outra pasta para criar subpastas. Clique em [!UICONTROL Limpar seleção] para desmarcar as ofertas ou pastas que você selecionou.
 * **Excluir**: Exclua a oferta ou pasta. Consulte [Considerações ao excluir itens](#delete).
 
 ## Opções de Ofertas de imagem
 
-Ao exibir a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações em um item passando o mouse sobre uma oferta ou pasta e, em seguida, selecionando o ícone apropriado.
+Ao visualizar a página [!UICONTROL Ofertas de imagem], você pode executar as seguintes ações em um item ao passar o mouse sobre uma oferta ou pasta e selecionar o ícone apropriado.
 
-A ilustração a seguir mostra os ícones de flutuação ao visualizar a [!UICONTROL Visualização de cartão].
+A ilustração a seguir mostra os ícones de flutuação ao visualizar o [!UICONTROL Exibição de cartão].
 
-![Ícones de flutuação na guia Ofertas de imagem quando estiver na Visualização da placa](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
+![Ícones de flutuação na guia Ofertas de imagem quando estiver na Exibição de cartão](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-A ilustração a seguir mostra os ícones de flutuação ao visualizar a Visualização [!UICONTROL Lista]. Para exibir os ícones, clique em um item na lista.
+A ilustração a seguir mostra os ícones de flutuação ao visualizar o [!UICONTROL Exibição de lista]. Para exibir os ícones, clique em um item na lista.
 
-![Ícones de flutuação na guia Ofertas de imagem quando em Visualização de Lista](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
+![Ícones de flutuação na guia Ofertas de imagem na Exibição de lista](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
 * **Selecione**: Selecione uma ou mais pastas nas quais executar as seguintes ações:
 
@@ -61,7 +61,7 @@ A ilustração a seguir mostra os ícones de flutuação ao visualizar a Visuali
    * Mover
    * Excluir (Consulte [Considerações ao excluir itens](#delete).)
 
-   Selecione uma ou mais ofertas de imagem para executar as seguintes ações:
+   Selecione uma ou mais ofertas de imagem nas quais executar as seguintes ações:
 
    * Compartilhar
    * Baixar
@@ -71,11 +71,11 @@ A ilustração a seguir mostra os ícones de flutuação ao visualizar a Visuali
    * Mover 
 
 
-* **Download**: Baixe a oferta da imagem ou a pasta e seu conteúdo.
-* **Propriedades** da visualização: Visualização das propriedades do item. Certifique-se de clicar na guia [!UICONTROL Basic] e na guia [!UICONTROL Advanced] para visualização de todas as informações disponíveis. Clique no ícone de Lápis na página de propriedades para editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença.
-* **Mais ações**: Exiba opções adicionais quando estiver na Visualização [!UICONTROL  da ]placa.
-* **Editar**: Edite a pasta ou a oferta.
-* **Anotar**: Adicione uma nota ao ativo. Clique no ativo, selecione a área que deseja anotar e digite a sua observação.
+* **Download**: Baixe a oferta de imagem ou a pasta e seu conteúdo.
+* **Propriedades** da exibição: Exibir as propriedades do item. Certifique-se de clicar na guia [!UICONTROL Basic] e na guia [!UICONTROL Advanced] para exibir todas as informações disponíveis. Clique no ícone de Lápis na página de propriedades para editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença.
+* **Mais ações**: Exiba opções adicionais na Exibição  [!UICONTROL de cartão].
+* **Editar**: Edite a pasta ou oferta.
+* **Anotar**: Adicione uma observação ao ativo. Clique no ativo, selecione a área que deseja anotar e digite a sua observação.
 * **Copiar**: Copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
 
 ## Considerações ao excluir itens {#delete}
