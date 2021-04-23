@@ -1,16 +1,16 @@
 ---
 keywords: Target, relatórios, configurações de relatório, pedidos extremos, valores extremos
-description: Saiba como excluir valores extremos de afetar relatórios no Adobe Target para que alguns pedidos incomuns não afetem os resultados da atividade.
-title: Como excluir valores extremos em relatórios?
-feature: Reports
+description: Saiba como excluir valores extremos de afetar relatórios no Adobe [!DNL Target] para que alguns pedidos incomuns não afetem os resultados da atividade.
+title: Como excluo valores extremos em relatórios?
+feature: Relatórios
+exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
-
 
 # Excluir valores extremos
 
@@ -26,7 +26,7 @@ Um valor é considerado extremo se ele tiver +/- 3 desvios-padrão do valor méd
 
 Por exemplo, o filtro de valor extremo geralmente é útil ao usar a RPV. A RPV combina a taxa de conversão e o valor médio de pedido, e costuma exibir a volatilidade dessas métricas. Caso use a RPV e veja que os pedidos não estão sendo distribuídos normalmente, é provável que os resultados apareçam normais se você aplicar o filtro de pedido extremo.
 
-Quando um valor é marcado como extremo, seu valor de pedido é substituído com o valor médio de pedido da experiência pelo último mês, excluindo extremos. O pedido também é marcado como extremo no relatório [!UICONTROL Detalhes do pedido] e no download CSV para os resultados diários.
+Quando um valor é marcado como extremo, seu valor de pedido é substituído com o valor médio de pedido da experiência pelo último mês, excluindo extremos. O pedido também é marcado como extremo no relatório [!UICONTROL Detalhes do pedido] e no download CSV para resultados diários.
 
 **Para excluir os valores extremos dos seus relatórios:**
 
