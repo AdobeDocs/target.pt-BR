@@ -1,21 +1,21 @@
 ---
-keywords: desfazer;permitir duplicados;excluir ofertas duplicados;personalização automatizada;desabilitar ofertas duplicados;excluir;conteúdo padrão;grupo de exclusão;
-description: Gerencie exclusões em atividades Adobe Target Automated Personalization (AP). Crie grupos de exclusão e exclua ofertas de duplicados, experiências específicas e conteúdo padrão.
-title: Como gerenciar exclusões no Automated Personalization Atividade?
-feature: Automated Personalization
+keywords: dedupe; permitir duplicatas; excluir ofertas duplicadas; personalização automatizada; não permitir ofertas duplicadas; excluir; conteúdo padrão; grupo de exclusão;
+description: Gerencie exclusões em atividades Adobe [!DNL Target] Automated Personalization (AP). Crie grupos de exclusão e exclua ofertas duplicadas, experiências específicas e conteúdo padrão.
+title: Como gerencio exclusões nas atividades do Automated Personalization?
+feature: Personalização automatizada
 solution: Target,Analytics
+exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 89%
+source-wordcount: '987'
+ht-degree: 90%
 
 ---
 
-
 # ![Selo Premium](/help/assets/premium.png) Gerenciar exclusões
 
-Gerencie exclusões criando grupos de exclusão, excluindo ofertas duplicados, excluindo experiências específicas e excluindo conteúdo padrão em [!UICONTROL Automated Personalization] (AP) atividades em [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) atividades.
+Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
 
 ## Criar grupos de exclusão {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -99,7 +99,7 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
 **Para excluir o conteúdo padrão usando o Visual Experience Composer (VEC):**
 
-1. Enquanto [criar ou editar uma atividade AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique para acessar **[!UICONTROL Alterar texto/HTML]**, **[!UICONTROL Alterar imagem]** ou **[!UICONTROL Alterar cor de fundo]**.
+1. Ao [criar ou editar uma atividade de AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique para acessar **[!UICONTROL Alterar texto/HTML]**, **[!UICONTROL Alterar imagem]** ou **[!UICONTROL Alterar cor do fundo]**.
 1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **Incluir** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela de Conteúdo selecionado).
 
    Dependendo do tipo de conteúdo/oferta, a caixa de seleção [!UICONTROL Incluir] fica em um local diferente.
