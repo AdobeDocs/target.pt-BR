@@ -1,18 +1,18 @@
 ---
 keywords: opções do navegador, tipo, tipo do navegador, idioma do navegador, idioma, versão, versão do navegador
-description: Saiba como criar audiências no Adobe Target para usuários públicos alvos que usam um navegador específico ou opções específicas de navegador ao visitar sua página.
-title: Posso Público alvo Visitantes com base no tipo de navegador?
-feature: Audiences
+description: Saiba como criar públicos no Adobe [!DNL Target] para direcionar usuários que usam um navegador específico ou opções específicas de navegador quando visitam sua página.
+title: Posso [!DNL Target] Visitantes com base no tipo de navegador?
+feature: Públicos-alvo
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# Navegador{#browser}
+# Navegador
 
 Você pode direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
 
@@ -119,7 +119,7 @@ Somente versões principais podem ser inseridas no campo de texto. A versão esp
 
 Várias opções estão conectadas a um OR.
 
-## Vídeo de treinamento: Criação de públicos-alvo  ![Crachá do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criação de públicos-alvo  ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
