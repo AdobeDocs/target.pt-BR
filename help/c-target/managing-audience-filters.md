@@ -1,18 +1,18 @@
 ---
-keywords: Direcionamento;filtro de audiência;audiências;filtro
-description: Saiba como usar filtros de audiência no Adobe Target para visualização de dados de grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
-title: Posso usar Filtros de Audiência para Relatórios?
-feature: Audiences
+keywords: Direcionamento, filtro de público-alvo, públicos-alvo, filtro
+description: Saiba como usar filtros de público-alvo no Adobe [!DNL Target] para visualizar dados de grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
+title: Posso usar os filtros de público-alvo para os relatórios?
+feature: Públicos-alvo
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 79%
 
 ---
 
-
-# Filtros de público-alvo para relatórios{#audience-filters-for-reporting}
+# Filtros de público-alvo para relatórios
 
 Os filtros de público-alvo (ou públicos-alvo) são grupos de visitantes que compartilham uma característica ou um conjunto de características específicas.
 
@@ -22,8 +22,8 @@ Por exemplo, visitantes que chegam à sua página a partir de um certo mecanismo
 
 Ao planejar o uso de filtros de público-alvo para uma atividade, considere as seguintes diretrizes:
 
-* **Os visitantes podem estar em diversos públicos-alvo.** Se houver duas audiências configuradas (por exemplo, &quot;novos visitantes&quot; e &quot;visitantes do Google&quot;) e uma pessoa atender a ambos os critérios, esse visitante será contado e rastreado em ambas as audiências. Como resultado, a soma dos visitantes nos públicos-alvo não corresponde ao número de visitantes em uma campanha.
-* **Configure o audiência antes de iniciar a atividade.** Os dados de público-alvo não podem ser recuperados de forma retroativa. Se você não configurar os filtros de público-alvo antes de começar a atividade e decidir usá-los depois que a atividade já estiver em execução por algum tempo, você não coletará os dados do tempo que já passou.
+* **Os visitantes podem estar em diversos públicos-alvo.** Se houver dois públicos-alvo configurados (por exemplo, &quot;novos visitantes&quot; e &quot;visitantes do Google&quot;) e uma pessoa atender ambos os critérios, esse visitante será contado e rastreado em ambos os públicos-alvo. Como resultado, a soma dos visitantes nos públicos-alvo não corresponde ao número de visitantes em uma campanha.
+* **Configure os públicos-alvo antes de iniciar a atividade.** Os dados de público-alvo não podem ser recuperados de forma retroativa. Se você não configurar os filtros de público-alvo antes de começar a atividade e decidir usá-los depois que a atividade já estiver em execução por algum tempo, você não coletará os dados do tempo que já passou.
 * **Comece com dois a quatro públicos-alvo.** Concentre-se nas informações básicas como fonte de tráfego.
 * **Renomeie os públicos-alvo, conforme necessário.** É possível renomear um público-alvo sem afetar os dados para fazer com que o nome do público-alvo seja mais significativo para os resultados coletados, mesmo que a atividade esteja ativa.
 * **Insira valores precisos.** Os valores de filtros de público-alvo distinguem maiúsculas de minúsculas. Por exemplo, se você estiver utilizando um público-alvo que filtre por cidades, você deve utilizar uma condição &quot;OU&quot; para incluir possíveis variações de digitação e maiúsculas de minúsculas como &quot;Vienna,&quot; &quot;vienna,&quot; &quot;viena&quot; e &quot;Viena&quot;.
@@ -36,6 +36,5 @@ As seções a seguir fornecem mais informações sobre a configuração e o rela
 | Crie uma atividade ou teste apropriado. | [Atividades e testes](/help/c-intro/target-key-concepts.md) |
 | Crie públicos-alvo, se necessário. | [Criar um público-alvo](/help/c-target/c-audiences/create-audience.md) |
 | Combine vários públicos-alvo, se necessário. | [Combinar vários públicos](/help/c-target/combining-multiple-audiences.md) |
-| Aplique os públicos-alvo na página Metas e configurações da atividade. | Teste A/B: [Metas e Definições](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Direcionamento de experiência: [Metas e configurações](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Teste multivariado:  [Metas e configurações](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Definições de atividade Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Definições de Atividade: [Definições de Atividade](/help/c-activities/activity-settings.md) |
+| Aplique os públicos-alvo na página Metas e configurações da atividade. | Teste A/B: [Metas e configurações](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Direcionamento de experiência: [Metas e configurações](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Teste multivariado:  [Metas e configurações](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Configurações de atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Configurações de atividade: [Configurações da atividade](/help/c-activities/activity-settings.md) |
 | Visualize relatórios com informações sobre seus filtros de segmento. | [Configurações do relatório](/help/c-reports/c-report-settings/report-settings.md) |
-
