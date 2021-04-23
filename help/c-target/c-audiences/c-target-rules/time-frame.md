@@ -1,18 +1,18 @@
 ---
 keywords: intervalo de tempo, data de início, data de término, datas de início/término, intervalo de tempo, agenda do target, divisão de semana, divisão de dia, divisão
-description: Saiba como usar datas e horas de start/término para usuários públicos alvos que visitam site durante um período específico. Também é possível definir opções de Fatia e Fatia do dia.
-title: É possível Público alvo Visitantes que visitam meu site em momentos específicos?
-feature: Audiences
+description: Saiba como usar datas e horas de início/término para direcionar usuários que visitam seu site durante um período específico. Também é possível definir opções de Divisão de semana e dia.
+title: Posso [!DNL Target] Visitantes que visitaram meu site em horários específicos?
+feature: Públicos-alvo
+exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
-
-# Intervalo de tempo{#time-frame}
+# Intervalo de tempo
 
 É possível adicionar datas e horas de início/término para direcionar os usuários que visitam seu site durante um intervalo de tempo específico. Também é possível definir opções de Divisão de semana e dia para criar padrões recorrentes de direcionamento de público-alvo.
 
@@ -52,7 +52,7 @@ Por exemplo, usando o [recurso de públicos-alvo ad-hoc combinados](/help/c-targ
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Vídeo de treinamento: Criando o emblema ![Visão geral do Audiência](/help/assets/overview.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
