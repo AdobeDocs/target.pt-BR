@@ -2,18 +2,18 @@
 keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração de produto; perfil de produto; funções; projeto
 description: Saiba como criar espaços de trabalho separados (perfis de produto) e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais.
 title: O que são permissões de usuário empresarial e como usá-las?
-feature: Administration & Configuration
+feature: Administração e configuração
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# Permissões do usuário corporativo ![PREMIUM](/help/assets/premium.png){#enterprise-user-permissions}
+# Permissões do usuário corporativo ![PREMIUM](/help/assets/premium.png)
 
 As permissões de usuário empresarial são um meio de administrar formalmente o acesso de usuário empresarial a [!DNL Adobe Target]. Adicione usuários a [!DNL Target], atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de [!UICONTROL Observador], [!UICONTROL Editor] ou [!UICONTROL Aprovador].
 
@@ -296,7 +296,7 @@ Objetivos de aprendizagem:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Horário comercial: Espaços de trabalho do Target Premium
+### Horário comercial: [!DNL Target] Espaços de trabalho Premium
 
 Este vídeo é uma gravação de &quot;No expediente&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
