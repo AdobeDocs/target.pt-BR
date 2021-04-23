@@ -1,29 +1,29 @@
 ---
 keywords: implementar; implementação; lista de permissões; lista de permissões; lista de permissões; lista de permissões; borda; bordas
-description: Exiba uma lista de hosts para ajudá-lo a adicionar as bordas do Adobe Target à lista de permissões (nós de serviço distribuídos geograficamente que garantem tempos de resposta ideais aos usuários finais).
-title: Como faço para incluir nós de borda no Target?
-feature: Privacy & Security
+description: Exiba uma lista de hosts para ajudá-lo a lista de permissões Adobe [!DNL Target] bordas (nós de serviço distribuídos geograficamente que garantem tempos de resposta ideais aos usuários finais).
+title: Como Lista de permissões nós de  [!DNL Target] Edge?
+feature: Privacidade e segurança
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 8%
+source-wordcount: '246'
+ht-degree: 6%
 
 ---
 
+# lista de permissões nós de borda [!DNL Target]
 
-# Nós de borda permitidos no Target
-
-Informações e uma lista atualizada de hosts para ajudá-lo a adicionar [!DNL Adobe Target] bordas à lista de permissões.
+Informações e uma lista atualizada de hosts para ajudá-lo a lista de permissões as bordas [!DNL Adobe Target].
 
 Uma borda é uma arquitetura de fornecimento distribuída geograficamente que garante tempos de resposta ideais para usuários finais que solicitem o conteúdo, independentemente de onde estejam localizados. Cada nó de borda tem todas as informações necessárias para responder à solicitação de conteúdo do usuário e rastrear os dados de análise dessa solicitação. As solicitações do usuário são roteadas para o nó de borda mais próximo. Para obter mais informações, consulte [A rede de borda](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) em *Como o Adobe [!DNL Target] funciona*.
 
-Você pode adicionar [!DNL Target] nós de borda à lista de permissões, se desejar.
+Você pode lista de permissões nós de borda [!DNL Target], se desejar.
 
-## Endereços IP de NAT (Network Address Translation, tradução de endereço de rede) das bordas do Target
+## Endereços IP de NAT (Network Address Translation, tradução de endereço de rede) de [!DNL Target] bordas
 
-Lista de endereços IP de saída de bordas [!DNL Target]. Inclua esses IPs na lista de permissões se você planeja que o Target alcance seus serviços.
+Lista de endereços IP de saída de bordas [!DNL Target]. lista de permissões esses IPs se você planeja ter o Target em contato com seus serviços.
 
 | Localização da borda | Endereços IP de saída |
 | --- | --- |
@@ -37,7 +37,7 @@ Lista de endereços IP de saída de bordas [!DNL Target]. Inclua esses IPs na li
 
 ## Endereços IP de borda de destino
 
-Lista de endereços IP de bordas [!DNL Target]. Inclua esses IPs na lista de permissões se desejar fazer chamadas de API nas bordas do Target.
+Lista de endereços IP de bordas [!DNL Target]. lista de permissões esses IPs se desejar fazer chamadas de API para as bordas do Target.
 
 | Localização da borda | Domínio | Endereço IP |
 | --- | --- | --- |
@@ -49,8 +49,3 @@ Lista de endereços IP de bordas [!DNL Target]. Inclua esses IPs na lista de per
 | Edge36 (Sydney) | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37 (Irlanda) | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>5 2.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38 (Cingapura) | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
