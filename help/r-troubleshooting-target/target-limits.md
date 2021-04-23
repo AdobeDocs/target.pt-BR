@@ -2,16 +2,16 @@
 keywords: limite de caracteres, parâmetros da mbox, api de entrega em lote, parâmetros do perfil, limites, perfis incorporados, máximo, limite, restrição, caractere, prática recomendada, orderid, orderTotal, mbox3rdPartyID, categoria, categoryID, solução de problemas
 description: Exibir uma lista de limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
 title: Quais são os vários caracteres, tamanho e outros limites no Adobe Target?
-feature: Troubleshooting
+feature: Solução de problemas
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 60%
+source-wordcount: '1162'
+ht-degree: 59%
 
 ---
-
 
 # Limites
 
@@ -234,7 +234,7 @@ Os seguintes limites de tamanho se aplicam a ofertas:
 
 * **Limite**: 50 públicos-alvos/segmentos por atividade.
 
-## Caixa de entrada do perfil de script na interface do usuário do Target
+## Caixa de entrada do perfil de script na interface [!DNL Target]
 
 * **Limite recomendado**: 2.000 caracteres.
 
@@ -273,4 +273,3 @@ Os seguintes limites de tamanho se aplicam a ofertas:
 * **Limite** recomendado: 2.500 caracteres por valor de regra de direcionamento.
 * **Limite recomendado**: 30.000 valores únicos por público-alvo nas regras de direcionamento.
 * **Limite recomendado**: 100.000 valores únicos de regras de direcionamento por atividade.
-
