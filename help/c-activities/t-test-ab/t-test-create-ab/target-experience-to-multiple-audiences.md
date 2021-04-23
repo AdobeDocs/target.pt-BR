@@ -1,20 +1,20 @@
 ---
 keywords: vários públicos-alvo; versões de experiência; versões de experiência de direcionamento
-description: Saiba como público alvo versões da mesma experiência para diferentes audiências no Adobe Target A/B atividade.
+description: Saiba como direcionar versões da mesma experiência para públicos-alvo diferentes em atividades de Adobe [!DNL Target] A/B.
 title: Posso usar várias versões de experiência em uma atividade A/B?
-feature: A/B Tests
+feature: Testes A/B
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 92%
 
 ---
 
-
 # Vários públicos-alvo de uma experiência em um Teste A/B
 
-Você pode público alvo versões da mesma experiência para audiências diferentes em [!DNL Adobe Target] atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
+Você pode direcionar versões da mesma experiência para públicos-alvo diferentes em [!DNL Adobe Target] atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 
 Usuários podem alternar entre públicos-alvo de experiência conforme seu perfis mudam. Eles não ficam presos na mesma experiência pela duração da atividade.
 
@@ -53,4 +53,3 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
 * Escolha públicos-alvo mutualmente exclusivos. Se a atividade foi criada no VEC, se um visitante fizer parte de mais de um público-alvo, o conteúdo para cada público-alvo é exibido, com o conteúdo do último público-alvo na lista exibindo a página.
 * Públicos-alvo de entrada de atividade definidos no diagrama são combinados com os públicos-alvo da experiência usando uma condição E. Para entrar na atividade, um visitante deve fazer parte do público-alvo da atividade e um dos públicos-alvo da experiência.
 * Adicione os mesmos públicos-alvo como segmentos para relatórios. Isto ajuda a observar nos resultados do teste no nível alto da experiência A contra B e no nível baixo da experiência A contra B por apenas &quot;browser lang ja_JP.&quot; Isto funciona somente em relatórios baseados no Target e não em relatórios baseados no Analytics.
-
