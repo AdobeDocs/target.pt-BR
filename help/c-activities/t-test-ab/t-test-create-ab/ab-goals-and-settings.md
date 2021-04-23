@@ -1,16 +1,16 @@
 ---
 keywords: configurações de atividade, metas e configurações A/B, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
-description: Saiba como usar a página Metas e configurações no Adobe Target para especificar informações sobre as metas de uma atividade A/B.
-title: Como especificar metas e configurações em uma Atividade A/B do Público alvo?
-feature: A/B Tests
+description: Saiba como usar a página Metas e configurações no Adobe [!DNL Target] para especificar informações sobre as metas de uma atividade A/B.
+title: 'Como especificar metas e configurações em uma atividade A/B? [!DNL Target] '
+feature: Testes A/B
+exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1331'
 ht-degree: 92%
 
 ---
-
 
 # Metas e Configurações
 
@@ -25,7 +25,7 @@ As configurações disponíveis dependem se você usa o Target ou [Analytics](/h
 | Configurações | Descrição |
 |--- |--- |
 | Objetivo | Digite um objetivo opcional. O objetivo pode ser qualquer informação que ajuda você e os membros da sua equipe a identificarem a campanha. |
-| Prioridade | Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.<br>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.<br>Se essa opção não estiver ativada em  [!UICONTROL Administração]  (o padrão), especifique uma prioridade: Baixa, Média ou Alta. <br>Para ativar prioridades refinadas, clique em   [!UICONTROL Administração] >  [!UICONTROL Relatórios] e, em seguida, alterne a opção Ativar prioridades granuladas para a posição &quot;Ativado&quot;. <br>Se essa opção estiver habilitada, especifique um valor entre 0 e 999: 0 = Baixo e 999 = Alto. <br>Para atividades criadas em versões anteriores do Target Standard/Premium, a prioridade Baixa é convertida para 0, a Média é convertida para 5 e a Alta é convertida para 10. É possível ajustar esses valores conforme necessário.<br>Observação: antes de poder desabilitar esta opção após o uso de prioridades otimizadas, todas as prioridades devem ser ajustadas novamente para 0, 5 e 10. |
+| Prioridade | Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.<br>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.<br>Se esta opção não estiver ativada em  [!UICONTROL Administration]  (o padrão), especifique uma prioridade: Baixo, Médio ou Alto. <br>Para ativar as prioridades otimizadas, clique em   [!UICONTROL Administração]  >  [!UICONTROL Relatório] e alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;. <br>Se essa opção estiver habilitada, especifique um valor entre 0 e 999: 0 = Baixo e 999 = Alto. <br>Para atividades criadas em versões anteriores do Target Standard/Premium, a prioridade Baixa é convertida para 0, a Média é convertida para 5 e a Alta é convertida para 10. É possível ajustar esses valores conforme necessário.<br>Observação: antes de poder desabilitar esta opção após o uso de prioridades otimizadas, todas as prioridades devem ser ajustadas novamente para 0, 5 e 10. |
 | Duração | A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00h a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o. |
 
 ## Configurações da geração de relatórios {#section_13119392051044FBA6387D9B3B1C43CF}
@@ -67,7 +67,7 @@ Consulte [Métricas de sucesso](/help/c-activities/r-success-metrics/success-met
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Configurações de atividade (3:02) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+### Configurações da atividade (3:02) ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
@@ -79,7 +79,7 @@ Este vídeo inclui informações sobre as configurações da atividade.
 
 (https://video.tv.adobe.com/v/17381?captions=por_br)
 
-### Criando testes A/B (8:36) ![Etiqueta do tutorial](/help/assets/tutorial.png)
+### Criação de testes A/B (8:36) ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo demonstra como a configuração das atividades se encaixa no fluxo de trabalho guiado de três etapas ao criar uma atividade. Metas e configurações são discutidas a partir de 5:30.
 
