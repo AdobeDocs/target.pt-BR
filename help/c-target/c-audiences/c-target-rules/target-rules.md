@@ -1,18 +1,18 @@
 ---
 keywords: Direcionamento, categoria de metas, condições de meta, audience manager, parâmetros de perfil personalizados, perfil do visitante, parâmetros de usuário personalizado, regras de metas
-description: Saiba como usar o categoria (como Navegador, Geo, Rede, Sistema operacional, Perfil de Visitante) para o conteúdo do público alvo.
-title: Quais são as Categorias das Audiências?
-feature: Audiences
+description: Saiba como usar categorias (como Navegador, Geo, Rede, Sistema operacional, Perfil do visitante) para direcionar conteúdo.
+title: Quais são as categorias para públicos-alvo?
+feature: Públicos-alvo
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# Categorias para públicos{#categories-for-audiences}
+# Categorias para públicos
 
 É possível definir metas em uma das diversas categorias. Cada categoria funciona como uma guia que permite criar regras de definição de metas (ou grupos) para cada categoria.
 
@@ -28,7 +28,7 @@ Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo].
 
 Você pode classificar a lista de públicos-alvo por nome de público-alvo ou pela data da última modificação. Para classificar por nome ou data, clique no cabeçalho da coluna e selecione para exibir os públicos-alvo em ordem crescente ou decrescente.
 
-## Vídeo de treinamento: Criando Audiência ![Etiqueta do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Selo tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
