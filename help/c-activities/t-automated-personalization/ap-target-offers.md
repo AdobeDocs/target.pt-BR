@@ -1,28 +1,28 @@
 ---
-keywords: personalização automatizada;oferta;público alvo;audiência;regras de definição de metas;definição de metas;personalização automatizada;;;;regras de definição de metas;definição de metas
-description: Saiba como público alvo ofertas individuais a audiências específicas usando uma atividade Automated Personalization (AP) no Adobe Target.
-title: Como posso Público alvo o Automated Personalization Oferta?
-feature: Automated Personalization
+keywords: personalização automatizada, ofertas, target, público-alvo, regras de direcionamento, direcionamento
+description: Saiba como direcionar ofertas individuais para públicos-alvo específicos usando uma atividade de Automated Personalization (AP) no Adobe Target.
+title: Como posso [!DNL Target] Ofertas do Automated Personalization?
+feature: Personalização automatizada
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 87%
 
 ---
 
+# ![](/help/assets/premium.png) [!DNL Target] PREMIUMAofertas de personalização automatizada
 
-# ![PREMIUM](/help/assets/premium.png) Ofertas de personalização automatizada do Target{#target-automated-personalization-offers}
-
-Em uma atividade [!DNL Adobe Target] [!DNL Automated Personalization] (AP), é possível público alvo ofertas para audiências específicas.
+Em uma atividade [!DNL Adobe Target] [!DNL Automated Personalization] (AP), é possível direcionar ofertas para públicos-alvo específicos.
 
 Utilizar essa funcionalidade reduz o número de ofertas que um visitante específico está qualificado a visualizar. Por exemplo, considere uma atividade com três ofertas. A oferta 1 tem uma regra de direcionamento que limita a exposição somente para o Público-alvo A. Dois visitantes visualizaram essa atividade AP.
 
 |  | Visitante 1 | Visitante 2 |
 |--- |--- |--- |
 | Qualificação do público-alvo | Público-alvo A | Público-alvo B |
-| Pontuação do modelo de personalização da Oferta 1 do Target | 90 | 90 |
+| Pontuação do modelo de personalização da Oferta 1 do Target | 90 | 90º |
 | Pontuação do modelo de personalização da Oferta 2 do Target | 50 | 70 |
 | Pontuação do modelo de personalização da Oferta 3 do Target | 80 | 60 |
 
