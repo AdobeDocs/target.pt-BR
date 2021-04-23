@@ -1,16 +1,16 @@
 ---
-keywords: servidor de rastreamento de análises; A4T; Adobe Experience Cloud Debugger; Adobe Experience Platform Debugger; fonte de relatórios; ferramentas do desenvolvedor
-description: 'Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics for Target (A4T) se estiver usando uma versão mais antiga da at.js ou da mbox.js. '
+keywords: servidor de rastreamento do analytics; A4T; Adobe Experience Cloud Debugger; Adobe Experience Platform Debugger; fonte de relatórios; ferramentas do desenvolvedor
+description: 'Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics para [!DNL Target] (A4T) se estiver usando uma versão mais antiga da at.js ou da mbox.js. '
 title: Como usar um servidor de rastreamento do Analytics?
 feature: Analytics for Target (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # Usar um servidor de rastreamento do Analytics
 
@@ -77,4 +77,3 @@ As Ferramentas do desenvolvedor devem ser exibidas em uma página em que a ativi
    >[!NOTE]
    >
    >Selecione [!UICONTROL Analytics como Fonte de relatórios] para sua atividade para que o campo [!UICONTROL Servidor de rastreamento] fique disponível.
-
