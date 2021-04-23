@@ -1,21 +1,21 @@
 ---
-keywords: Visual Experience Composer;vec;default url;advanced experience composer;eec;conteúdo misto;instantâneos de experiência;mobile viewport;css;seletores de css;visual experience composer;vec;default url;advanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css seletores
-description: Saiba como configurar o Adobe Target Visual Experience Composer (VEC) especificando suas configurações gerais, configuração de visor móvel e seletores de CSS.
+keywords: visual experience composer, vec, url padrão, enhanced experience composer, eec, conteúdo misto, instantâneos de experiência, janela de visualização móvel, css, seletores de css
+description: Saiba como configurar o Adobe [!DNL Target] Visual Experience Composer (VEC) especificando suas configurações gerais, configuração de visor móvel e seletores de CSS.
 title: Como configurar o Visual Experience Composer (VEC)?
-feature: Administration & Configuration
+feature: Administração e configuração
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '719'
 ht-degree: 50%
 
 ---
 
-
 # Configurar o Visual Experience Composer
 
-Configure o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando suas configurações gerais, configuração do visor móvel e seletores de CSS.
+Configure o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando suas configurações gerais, configuração de visor móvel e seletores de CSS.
 
 Para acessar a página de configuração do [!UICONTROL Visual Experience Composer], clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
 
@@ -23,7 +23,7 @@ Para acessar a página de configuração do [!UICONTROL Visual Experience Compos
 >
 >Observe que as configurações nesta página se aplicam a toda a conta [!DNL Target].
 
-![Página de configuração do Visual Experience Composer](/help/administrating-target/assets/vec.png)
+![Página Configuração do Visual Experience Composer](/help/administrating-target/assets/vec.png)
 
 ## Configurações gerais
 
@@ -47,24 +47,24 @@ Você também pode ativar o [!UICONTROL Enhanced Experience Composer] no nível 
 
 ### Carregar conteúdo misto
 
-Ative conteúdo misto ao abrir um site usando o [!UICONTROL Enhanced Experience Composer] (EEC). A habilitação dessa opção evita a sobrecarga extra de carregamento de recursos estáticos por meio de [!DNL Target] servidores proxy.
+Ative o conteúdo misto ao abrir um site usando o [!UICONTROL Enhanced Experience Composer] (EEC). Ativar essa opção evita a sobrecarga extra do carregamento de recursos estáticos pelos servidores proxy [!DNL Target].
 
-Essa opção é útil se, por exemplo:
+Essa opção será útil se, por exemplo:
 
-* Seus cabeçalhos da Política de segurança de conteúdo (CSP) permitem carregar conteúdo misto sem o uso de servidores proxy com a CEE ativada.
-* Seu site HTTP enfrenta um aumento do tempo de carga na EEC, onde JavaScript, imagens e assim por diante levam mais tempo para carregar por proxy.
+* Os cabeçalhos de Política de segurança de conteúdo (CSP) permitem carregar conteúdo misto sem o uso de servidores proxy com o EEC ativado.
+* Seu site HTTP tem aumentado o tempo de carregamento no EEC, o que significa que o JavaScript, as imagens e assim por diante levam mais tempo para carregar por proxy.
 
 ### Gerar instantâneos de experiência no diagrama de fluxo de atividade
 
 Quando os instantâneos de experiência estão ativados, miniaturas são geradas para as experiências no diagrama de fluxo de trabalho da atividade. A desativação de instantâneos pode resultar no desempenho mais rápido para alguns usuários.
 
-## ![Configuração Premium ](/help/assets/premium.png) badgeMobile Viewport
+## ![Selo Premium ](/help/assets/premium.png) Configuração de visor móvel
 
 É possível adicionar dispositivos para usar ao visualizar experiências. Cada dispositivo está associado a um público-alvo.
 
-![Seção Configuração do Mobile Viewport](/help/administrating-target/assets/mobile-viewport-configuration.png)
+![Seção Configuração da janela de visualização móvel](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Clique em **[!UICONTROL Adicionar]**, especifique um nome descritivo para o visor móvel, especifique a largura e a altura, selecione o sistema operacional desejado e clique em [!UICONTROL Salvar].
+Clique em **[!UICONTROL Adicionar]**, especifique um nome descritivo para a janela de visualização móvel, especifique a largura e a altura, selecione o sistema operacional desejado e clique em [!UICONTROL Salvar].
 
 Para obter mais informações sobre como adicionar um visor móvel, consulte [Configuração de visor móvel](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -96,7 +96,7 @@ Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a pági
 >
 >A substituição da configuração por atividade não está disponível nas atividades [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing].  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
 
-## Vídeo de treinamento: Preferências de conta (7:33) ![emblema de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: Preferências da conta (7:33) ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo inclui informações sobre as preferências da conta.
 
@@ -104,6 +104,6 @@ Este vídeo inclui informações sobre as preferências da conta.
 
 >[!NOTE]
 >
->A interface do usuário do menu [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) foi reprojetada para melhorar o desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais ligeiramente diferentes. Os vídeos atualizados serão publicados em breve.
+>A interface do usuário do menu [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) foi reprojetada para fornecer melhor desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são geralmente corretas; no entanto, as opções podem estar em locais um pouco diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
