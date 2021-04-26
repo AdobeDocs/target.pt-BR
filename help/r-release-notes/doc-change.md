@@ -5,7 +5,7 @@ title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 31%
@@ -20,7 +20,7 @@ Esta página lista alterações significativas feitas na documentação do produ
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| Em 26 de abril | [Decisão no dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Adição da seção Solução de problemas . |
+| Em 26 de abril | [Solução de problemas no dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Novo tópico. |
 | Abril de 19 | [Decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Os seguintes novos artigos foram adicionados:<ul><li>[Decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Recursos compatíveis com a tomada de decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefato da regra de decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Adição de informações sobre `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Adição do seguinte:<ul><li>Informações sobre a chave `decisioningMethod`.</li><li>Um exemplo para &quot;getCallOffers() para tomar uma decisão no dispositivo&quot;.</li></ul> |
