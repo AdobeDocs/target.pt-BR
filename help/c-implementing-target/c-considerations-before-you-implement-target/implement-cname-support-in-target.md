@@ -6,9 +6,9 @@ feature: Privacidade e segurança
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Instruções para trabalhar com o [!DNL Adobe] Client Care para implementar o su
    >
    >Certificado até que a Digi esteja concluída. Portanto, [!DNL Adobe] não pode atender à solicitação de uma implementação CNAME até que essa etapa seja concluída.
 
-1. [Preencha este ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) formulário e inclua-o ao  [abrir um tíquete de Atendimento ao cliente do Adobe solicitando o suporte](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) CNAME:
+1. [Preencha este ](/help/assets/FPC_Request_Form.xlsx) formulário e inclua-o ao  [abrir um tíquete de Atendimento ao cliente do Adobe solicitando o suporte](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) CNAME:
 
    * Código de cliente Adobe [!DNL Target]:
    * Nomes de host do certificado SSL (por exemplo: `target.example.com target.example.org`):
