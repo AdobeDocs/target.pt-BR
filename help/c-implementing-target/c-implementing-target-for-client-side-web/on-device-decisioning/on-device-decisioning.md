@@ -2,14 +2,14 @@
 keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning; at.js; no dispositivo; no dispositivo
 description: Saiba como executar a decisão no dispositivo com a biblioteca at.js
 title: Como o On-device Decisioning funciona com a biblioteca JavaScript da at.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 7%
+source-wordcount: '3747'
+ht-degree: 6%
 
 ---
 
@@ -109,9 +109,9 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | A biblioteca at.js faz uma solicitação para recuperar o artefato da regra JSON do Akamai CDN mais próximo ao visitante. |
 | 5 | O Akamai CDN responde com o artefato da regra JSON. |
 | 6 | O artefato da regra JSON é armazenado em cache localmente no navegador do visitante. |
@@ -134,7 +134,7 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
 | 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | A biblioteca at.js interpreta o artefato da regra JSON e executa a decisão na memória para recuperar a experiência. |
@@ -167,9 +167,9 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | Uma solicitação de carregamento de página é feita à Rede de borda da Adobe Target, incluindo todos os parâmetros configurados, como (ECID, ID do cliente, Parâmetros personalizados, Perfil de usuário, e assim por diante). |
 | 5 | Paralelamente, a at.js faz uma solicitação para recuperar o artefato da regra JSON do Akamai CDN mais próximo ao visitante. |
 | 6 | (Adobe Target Edge Network) Os scripts de perfil são executados e, em seguida, fazem o feed na Loja de perfis. A Loja de perfil solicita públicos qualificados da Biblioteca de público-alvo (por exemplo, públicos-alvo compartilhados de [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] e assim por diante). |
@@ -195,9 +195,9 @@ A lista a seguir corresponde aos números no diagrama:
 
 | Etapa | Descrição |
 | --- | --- |
-| 3 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | O [!DNL Experience Cloud Visitor ID] é recuperado do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento.<br>A biblioteca at.js também pode ser carregada de forma assíncrona com um trecho opcional de pré-ocultação implementado na página. |
-| 3 | A biblioteca at.js oculta o corpo para evitar oscilações. |
+| 1 | A biblioteca at.js oculta o corpo para evitar oscilações. |
 | 4 | Uma solicitação é feita para recuperar uma experiência. |
 | 5 | A biblioteca at.js confirma que o artefato da regra JSON já foi armazenado em cache e executa a decisão na memória para recuperar a experiência. |
 | 6 | Os elementos testados estão ocultos. |
@@ -329,3 +329,63 @@ Você pode filtrar por todas as atividades que são elegíveis para decisão no 
 1. Crie e ative um tipo de atividade [compatível com o on-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) e verifique se ele é elegível para decisão no dispositivo.
 1. Defina o **[!UICONTROL Método de decisão]** como **[!UICONTROL &quot;Híbrido&quot;]** ou **[!UICONTROL &quot;Somente no dispositivo&quot;]** por meio da interface do usuário de configurações da at.js.
 1. Baixe e implante o At.js 2.5.0+ em suas páginas.
+
+## Solução de problemas
+
+Complete as etapas a seguir para solucionar problemas no dispositivo de decisão:
+
+1. Ativar o log do console para at.js
+1. Verifique o download do artefato da regra na guia Rede do navegador
+1. Verificar o download do artefato da regra usando eventos personalizados da at.js
+
+As seções a seguir descrevem cada etapa com mais detalhes:
+
+### Etapa 1: Ativar o log do console para at.js
+
+Anexar o parâmetro de URL `mboxDebug=1` permite que o at.js imprima mensagens no console do navegador.
+
+Todas as mensagens contêm um prefixo &quot;AT:&quot; para obter uma visão geral conveniente. Para garantir que um artefato tenha sido carregado com êxito, o log do console deve conter mensagens semelhantes ao seguinte:
+
+```
+AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
+AT: LD.ArtifactProvider artifact received - status=200
+```
+
+A ilustração a seguir mostra essas mensagens no log do console:
+
+![Logon do console com mensagens de artefato](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
+
+### Etapa 2: Verifique o download do artefato da regra na guia Rede do navegador
+
+Abra a guia Rede do navegador.
+
+Por exemplo, para abrir o DevTools no Google Chrome:
+
+1. Pressione Control+Shift+J (Windows) ou Command+Option+J (Mac).
+1. Navegue até a guia Rede.
+1. Filtre suas chamadas por palavra-chave &quot;rules.json&quot; para garantir que somente o arquivo de regras de artefato seja exibido.
+
+   Além disso, você pode filtrar por &quot;/delivery|rules.json/&quot; para exibir todas as chamadas [!DNL Target] e o artefato rules.json.
+
+   ![Guia Rede no Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
+
+### Verificar o download do artefato da regra usando eventos personalizados da at.js
+
+A biblioteca at.js despacha dois novos eventos personalizados para suportar decisões no dispositivo.
+
+* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
+* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
+
+Você pode assinar para ouvir esses eventos personalizados em seu aplicativo para ação após o sucesso ou falha do download do arquivo de regras de artefato.
+
+O exemplo a seguir mostra uma amostra de código ouvindo os eventos de sucesso e falha do download de artefatos:
+
+```javascript
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
+  console.log("Artifact successfully downloaded", e.detail);
+}, false);
+
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
+  console.log("Artifact failed to download", e.detail);
+}, false);
+```
