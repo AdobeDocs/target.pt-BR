@@ -4,9 +4,9 @@ breadcrumb-title: Guia do Target
 user-guide-description: Saiba como ajustar e personalizar a experiência do cliente para maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1607'
 ht-degree: 79%
 
 ---
@@ -103,6 +103,7 @@ ht-degree: 79%
             + [Visão geral do On-device decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
             + [Recursos compatíveis ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
             + [Artefato de regra](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [Solução de problemas](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + Como a at.js funciona {#at-js}
             + [Como a visão geral do at.js funciona](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Como a at.js gerencia a cintilação](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
