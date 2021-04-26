@@ -5,9 +5,9 @@ title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '897'
 ht-degree: 31%
 
 ---
@@ -38,7 +38,7 @@ Esta página lista alterações significativas feitas na documentação do produ
 | --- | --- | --- |
 | Abril de 9 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para a at.js versão 2.5.0 (19 de abril de 2021) |
 | Abril de 9 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para o Target Standard/Premium versão 21.4.1 (19 de abril de 2021) |
-|  | [Integração do Recommendations ao email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Adição da seguinte seção: &quot;Diretrizes de capacidade para as opções 1 e 2.&quot; |
+|  | [Integração do Recommendations ao email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Foi adicionada uma observação descrevendo as diretrizes de capacidade para as opções 1 e 2. |
 | 29 de março | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Novas perguntas frequentes adicionadas:<ul><li>As recomendações baseadas em itens visualizados recentemente persistem em vários dispositivos para um único visitante?</li></ul> |
 | 23 de março | [Notas de versão](/help/r-release-notes/release-notes.md) | Adição das notas de versão para a at.js versão 2.4.1. |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição das notas de versão para a at.js versão 2.4.1. |
