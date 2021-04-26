@@ -1,20 +1,20 @@
 ---
-keywords: Definição de metas;Visual Experience Composer;Visual Experience Composer;vec;solução de problemas do Visual Experience Composer;troubleshooting;eec;Enhanced Experience Composer;tls;tls 1.2
+keywords: Direcionamento, visual experience composer, enhanced visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, eec, enhanced experience composer, tls, tls 1.2
 description: Saiba como solucionar problemas que às vezes ocorrem no Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
-title: Como soluciono problemas do Visual Experience Composer e do Enhanced Experience Composer?
+title: Como soluciono problemas do Visual Experience Composer e no Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
+exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 70%
 
 ---
 
-
 # Solução de problemas do Visual Experience Composer e no Enhanced Experience Composer
 
-Às vezes, ocorrem problemas de exibição no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) e no [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
+Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) e no [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
 
 O VEC é um dos principais recursos do [!DNL Adobe Target]. O VEC é um editor que permite aos profissionais de marketing e designers criar e alterar o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor.
 
