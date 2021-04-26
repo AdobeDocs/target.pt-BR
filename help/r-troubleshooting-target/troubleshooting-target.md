@@ -5,10 +5,10 @@ title: Como soluciono problemas do Target?
 feature: Solução de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 91%
+source-wordcount: '451'
+ht-degree: 89%
 
 ---
 
@@ -136,6 +136,10 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 ## Aplicativos para dispositivos móveis
 
 * [Perguntas frequentes sobre o Target para aplicativos móveis](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+
+## Decisão no dispositivo
+
+* [Decisão no dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
 
 ## Relatório
 
