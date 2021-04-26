@@ -5,22 +5,16 @@ title: Como soluciono problemas no dispositivo com a biblioteca at.js de JavaScr
 feature: 'at.js '
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # Solução de problemas no dispositivo para at.js
 
-Complete as etapas a seguir para solucionar problemas no dispositivo no Adobe Target com a biblioteca at.js de JavaScript:
-
-1. Ativar o log do console para at.js
-1. Verifique o download do artefato da regra na guia Rede do navegador
-1. Verificar o download do artefato da regra usando eventos personalizados da at.js
-
-As seções a seguir descrevem cada etapa com mais detalhes:
+Complete as etapas a seguir para solucionar problemas de decisão no dispositivo em [!DNL Adobe Target] com a biblioteca at.js de JavaScript:
 
 ## Etapa 1: Ativar o log do console para at.js
 
