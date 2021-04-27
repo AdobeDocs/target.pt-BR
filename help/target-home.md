@@ -5,9 +5,9 @@ description: Saiba como usar o Adobe [!DNL Target] para personalizar a experiên
 feature: Visão geral
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
+source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 43%
 
 ---
@@ -21,6 +21,8 @@ O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferec
 ## Adobe Summit: A Conferência sobre Experiência Digital
 
 [Clique aqui para obter mais informações sobre o Adobe Summit!](https://business.adobe.com/summit/adobe-summit.html)
+
+Horário de Verão do Pacífico (PDT) - 7 GMT.
 
 ![Sessões da conferência](/help/assets/summit-2021.png)
 
