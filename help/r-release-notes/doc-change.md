@@ -5,9 +5,9 @@ title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '932'
 ht-degree: 31%
 
 ---
@@ -20,6 +20,8 @@ Esta página lista alterações significativas feitas na documentação do produ
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Abril de 27 | [Configurações de cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Atualização do tópico para indicar que a duração do cookie (configuração `deviceIdLifetime`) é substituível na at.js versão 2.3.1 ou posterior. |
+|  | [Guia do Adobe Target](/help/target-home.md) | Foram adicionadas informações sobre o Adobe Summit. |
 | Em 26 de abril | [Solução de problemas no dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Novo tópico. |
 | Abril de 19 | [Decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Os seguintes novos artigos foram adicionados:<ul><li>[Decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Recursos compatíveis com a tomada de decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefato da regra de decisão no dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Adição de informações sobre `decisioningMethod`. |
