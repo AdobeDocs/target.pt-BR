@@ -5,10 +5,10 @@ title: Onde posso exibir as atualizações de documentação do Target?
 feature: ' Notas de versão '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 31%
+source-wordcount: '957'
+ht-degree: 30%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página lista alterações significativas feitas na documentação do produ
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Maio de 5 | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição de informações sobre o intervalo de tempo das perguntas e respostas da comunidade do Adobe Target, que será realizado quarta-feira, 12 de maio de 2021, às 8h. (TFD, GMT-7). |
 | Abril de 27 | [Configurações de cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Atualização do tópico para indicar que a duração do cookie (configuração `deviceIdLifetime`) é substituível na at.js versão 2.3.1 ou posterior. |
 |  | [Guia do Adobe Target](/help/target-home.md) | Foram adicionadas informações sobre o Adobe Summit. |
 | Em 26 de abril | [Solução de problemas no dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Novo tópico. |
