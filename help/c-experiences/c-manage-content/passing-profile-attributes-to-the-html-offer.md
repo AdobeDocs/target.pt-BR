@@ -1,14 +1,14 @@
 ---
 keywords: dados dinâmicos; ativos; dados; ofertas; ofertas personalizadas; ofertas pessoais; substituição de token
-description: Saiba como transmitir dados dinâmicos para Adobe [!DNL Target] Offers. Explore casos comerciais que mostram por que você pode usar ofertas dinâmicas e ver exemplos e informações de implementação.
+description: Saiba como passar dados dinâmicos para [!DNL Adobe Target] Ofertas. Explore casos comerciais que mostram por que você pode usar ofertas dinâmicas e ver exemplos e informações de implementação.
 title: Como transfiro dados dinâmicos para ofertas?
 feature: Experiências e ofertas
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 77%
+source-wordcount: '519'
+ht-degree: 78%
 
 ---
 
