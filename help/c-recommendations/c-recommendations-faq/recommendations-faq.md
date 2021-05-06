@@ -5,10 +5,10 @@ title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target] Recomme
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '2691'
-ht-degree: 40%
+source-wordcount: '2957'
+ht-degree: 36%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 40%
 
 Lista de perguntas frequentes sobre as atividades [!DNL Adobe Target] [!DNL Recommendations].
 
-## Por que a Pesquisa no catálogo não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?
+## Por que a [!UICONTROL Pesquisa no catálogo] não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?
 
-Quando você executa uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de String em vez de um valor numérico.
+Quando você executa uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de string em vez de um valor numérico.
 
 No momento, não há nenhuma funcionalidade disponível que permita que os clientes alterem o tipo de um atributo. Para fazer uma alteração, [abra um problema do cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referenciando os atributos que precisam do tipo alterado de string para numérico.
 
@@ -29,16 +29,16 @@ O intervalo de tempo e os resultados variam, dependendo de como os itens são at
 | Fonte | Detalhes |
 | --- | --- |
 | Atributos de item atualizados via mbox ou API | <ul><li>O Recommendations é atualizado em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
-| Atributos de item atualizados por feed | <ul><li>O Recommendations é atualizado após a assimilação do feed (de 2 a 8 horas).</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa de catálogo é atualizada após a assimilação de feed (de 2 a 8 horas) e após o índice de catálogo subsequente (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.</li></ul> |
+| Atributos de item atualizados por feed | <ul><li>O Recommendations é atualizado após a assimilação do feed (de 2 a 8 horas).</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa de catálogo é atualizada após a assimilação de feed (de 2 a 8 horas) e após o índice de catálogo subsequente (de 3 a 8 horas). A Pesquisa no catálogo é atualizada entre 5 e 16 horas no total.</li></ul> |
 | Item excluído do catálogo por meio da interface do usuário do Target ou da API | <ul><li>O Recommendations é atualizado em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
 | Item adicionado ao catálogo por meio de mbox ou API | <ul><li>Recommendations são atualizados após a execução do algoritmo. As execuções de algoritmo são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias.</li><li>As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
-| Item adicionado ao catálogo por meio de feed | <ul><li>O Recommendations é atualizado depois que o feed é assimilado (2 a 8 horas). As execuções subsequentes de algoritmos são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias. O Recommendations geralmente é atualizado dentro de 2 a 32 horas no total.</li><li>As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após a assimilação do feed (de 2 a 8 horas) e após o índice do catálogo (de 3 a 8 horas). A Pesquisa no catálogo geralmente é atualizada entre 5 e 16 horas no total.</li></ul> |
+| Item adicionado ao catálogo por meio de feed | <ul><li>O Recommendations é atualizado depois que o feed é assimilado (2 a 8 horas). As execuções subsequentes de algoritmos são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias. O Recommendations é atualizado dentro de 2 a 32 horas no total.</li><li>As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após a assimilação do feed (de 2 a 8 horas) e após o índice do catálogo (de 3 a 8 horas). A Pesquisa no catálogo é atualizada entre 5 e 16 horas no total.</li></ul> |
 
 Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou da mbox, as seguintes alterações são refletidas em menos de 60 minutos:
 
 * Se um item tiver sido excluído anteriormente, mas agora deve ser incluído, ele será incluído na próxima execução do algoritmo (12 a 24 horas).
 
-   Isso ocorre porque o Target aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
+   Essa situação ocorre porque [!DNL Target] aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
 
 * Se um item foi incluído anteriormente, mas agora deve ser excluído, ele será excluído de acordo com os &quot;Atributos de item atualizados..&quot;. linha de tempo discutida acima, dependendo da fonte de feed (15 minutos por mbox/API ou 12 a 24 horas por feed).
 
@@ -53,6 +53,24 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
 >[!NOTE]
 >
 >Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo; A Pesquisa no catálogo está atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site reflete as atualizações nos intervalos de tempo listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
+
+## Quanto tempo leva para que uma alteração na configuração da minha atividade, oferta, promoções ou configurações de critérios do [!UICONTROL Recommendations] seja refletida no meu site?
+
+* Uma alteração nas configurações de promoção pode levar até cinco horas para ser refletida no local.
+* Uma alteração em outras configurações de critérios pode não ser refletida até que o próximo algoritmo seja executado:
+
+   * Algumas configurações de critérios (por exemplo, &quot;adição de uma regra de inclusão dinâmica&quot;) são refletidas instantaneamente.
+   * Outras configurações de critério (por exemplo, &quot;remoção de uma regra de inclusão dinâmica&quot;, alteração da janela de retrospectiva e assim por diante) não podem ser incorporadas até que o próximo algoritmo seja executado.
+   * As execuções de algoritmo são acionadas por essas alterações, mas podem levar até 24 horas para serem concluídas. Algoritmos também são executados de forma programada a cada 12 a 24 horas.
+
+## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *que o usuário* recebe?
+
+* O produto/conteúdo exibido/adquirido no momento influencia as recomendações que o usuário recebe na mesma visualização de página/solicitação de conteúdo do Target.
+* O comportamento histórico do usuário, como &quot;último produto visualizado&quot;, &quot;produto mais visualizado&quot; e o histórico geral de visualização/compra são atualizados com essa solicitação e influenciam as recomendações que o usuário recebe na próxima solicitação de conteúdo de visualização de página/destino. Por exemplo, os algoritmos &quot;Itens visualizados recentemente&quot; e &quot;Recomendado para você&quot; são atualizados com cada visualização/compra de produto e refletidos na solicitação de conteúdo subsequente.
+
+## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *outros* que os usuários recebem?
+
+O comportamento dos usuários na agregação é incorporado ao processamento de algoritmo offline, com cada execução de algoritmo ocorrendo a cada 12-24 horas.
 
 ## O que devo fazer se os caracteres especiais estão quebrando a matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -218,8 +236,8 @@ Quando a sessão termina (geralmente, quando expira após 30 minutos sem ativida
 
 As sessões subsequentes de diferentes dispositivos podem acessar esses itens visualizados recentemente, desde que a nova sessão esteja vinculada ao perfil do cliente por meio da mesma ID de Marketing Cloud (MCID), ID de Experience Cloud (ECID) ou CustomerID/mbox3rdPartyId.
 
-Se um visitante tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo não atualizarão os itens visualizados recentemente no outro dispositivo, a menos que os dispositivos sejam forçados a compartilhar a mesma ID de sessão. Há uma possível solução alternativa para o problema, mas [!DNL Target] não oferece suporte direto ao compartilhamento de uma ID de sessão em vários dispositivos. O cliente deve gerenciar esse compartilhamento de ID sozinho.
+Se um visitante tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo não atualizarão os itens visualizados recentemente no outro dispositivo, a menos que os dispositivos sejam forçados a compartilhar a ID da sessão. Há uma possível solução alternativa para o problema, mas [!DNL Target] não oferece suporte direto ao compartilhamento de uma ID de sessão em vários dispositivos. O cliente deve gerenciar esse compartilhamento de ID sozinho.
 
-Observe que esse comportamento ainda ocorre se um visitante estiver ativo em um dispositivo e, em seguida, se tornar ativo no outro dispositivo alguns minutos depois. A primeira sessão do dispositivo não expira por 30 minutos e pode haver até cinco minutos de atraso antes que o estado do perfil seja gravado no estado permanente e processado. Aguarde 35 minutos para que a sessão expire e o perfil seja armazenado ao testar esse comportamento.
+Esse comportamento ainda ocorre se um visitante estiver ativo em um dispositivo e, em seguida, se tornar ativo no outro dispositivo alguns minutos depois. A primeira sessão do dispositivo não expira por 30 minutos e pode haver até cinco minutos de atraso antes que o estado do perfil seja gravado no estado permanente e processado. Aguarde 35 minutos para que a sessão expire e o perfil seja armazenado ao testar esse comportamento.
 
 Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo atualizarão os itens visualizados recentemente no outro dispositivo, desde que a sessão tenha terminado. Aguarde 35 minutos para a sessão expirar ao testar esse comportamento.
