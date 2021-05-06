@@ -6,9 +6,9 @@ feature: Implementar o lado do servidor
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,7 @@ Este vídeo de 7 minutos:
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
 Para obter mais vídeos e tutoriais, consulte o guia [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
+
+## Adobe Tech Blog - Parte 1: Execute [!DNL Adobe Target] o SDK do NodeJS para experimentação e personalização em plataformas de borda (Trabalhadores do Akamai Edge)
+
+[Clique aqui para acessar a publicação](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9) do blog.
