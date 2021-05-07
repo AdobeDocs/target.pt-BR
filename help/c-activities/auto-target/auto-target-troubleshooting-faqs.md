@@ -1,6 +1,6 @@
 ---
-keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, perguntas frequentes, solução de problemas, solução de problemas, tráfego
-description: Explore tópicos de solução de problemas e perguntas frequentes sobre as atividades do Direcionamento automático no Adobe Target.
+keywords: direcionamento automático; direcionamento; alocação de tráfego; perguntas frequentes; faq; solução de problemas; solucionar problemas; tráfego
+description: Explore tópicos de solução de problemas e perguntas frequentes sobre as atividades de Direcionamento automático no Adobe Target.
 title: Como posso solucionar problemas de atividades de direcionamento automático?
 feature: Direcionamento automático
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
-ht-degree: 68%
+ht-degree: 99%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMAuto-Target Solução de problemas e perguntas frequentes
+# ![PREMIUM](/help/assets/premium.png) Solução de problemas e perguntas frequentes sobre o direcionamento automático
 
-Solução de problemas e perguntas frequentes sobre o [!UICONTROL Direcionamento automático] em [!DNL Adobe Target].
+Solução de problemas e perguntas frequentes sobre o [!UICONTROL Direcionamento automático] no [!DNL Adobe Target].
 
 ## Perguntas frequentes sobre direcionamento automático {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
@@ -37,9 +37,9 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as ativi
 
 A divisão de alocação de tráfego ideal depende do que você deseja realizar.
 
-Se a sua meta for personalizar o máximo tráfego possível, você poderá manter o 90% de direcionamento e o controle de 10% durante toda a vida útil da atividade. Se o objetivo é executar um experimento comparando o desempenho dos algoritmos personalizados com o controle, uma divisão 50/50 é melhor para a duração da atividade.
+Caso sua meta seja personalizar o máximo de tráfego possível, você poderá manter 90% de direcionamento e o controle em 10% durante todo o tempo de vida útil da atividade. Se o objetivo for executar um experimento comparando o desempenho dos algoritmos personalizados com o controle, uma divisão 50/50 é melhor para o tempo de vida da atividade.
 
-A prática recomendada é manter a divisão de alocação de tráfego para a duração da atividade, para que os visitantes não alterem entre experiências de direcionamento e de controle.
+A prática recomendada é manter a divisão de alocação de tráfego para o tempo de vida da atividade para que os visitantes não alternem entre experiências de direcionamento e de controle.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
@@ -72,13 +72,13 @@ Se você quiser fazer alterações substanciais no conteúdo em sua atividade de
 
 ### Por quanto tempo devo esperar que os modelos sejam construídos? {#how-long}
 
-O tempo que leva para os modelos serem construídos em sua atividade de [!UICONTROL Direcionamento automático] normalmente depende do tráfego para os locais de atividade selecionados e das taxas de conversão associadas à métrica de sucesso da atividade.
+O tempo necessário para que os modelos serem construídos em sua atividade de [!UICONTROL Direcionamento automático] normalmente depende do tráfego para as localizações de atividades selecionadas e a métrica de sucesso da atividade.
 
-[!UICONTROL O ] Direcionamento automático não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para ela. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para veicular o tráfego de maneira personalizada.
+O [!UICONTROL Direcionamento automático] não tentará criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para ela. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, utilizando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para veicular o tráfego de maneira personalizada.
 
 Alguns outros pontos para ter em mente sobre a criação de modelo do [!UICONTROL Direcionamento automático]:
 
-* Quando uma atividade está ativa, o [!UICONTROL Direcionamento automático] considera até os últimos 45 dias de dados fornecidos aleatoriamente ao tentar criar modelos (ou seja, controlar o tráfego, além de alguns dados fornecidos aleatoriamente extras retidos pelo algoritmo).
+* Quando uma atividade está ativa, o [!UICONTROL Direcionamento automático] considera até os últimos 45 dias de dados fornecidos aleatoriamente ao tentar criar modelos (ou seja, controlar o tráfego, além de alguns dados adicionais fornecidos aleatoriamente e retidos pelo algoritmo).
 * Quando [!UICONTROL Receita por visita] é sua métrica de sucesso, essas atividades normalmente exigem mais dados para criar modelos devido à maior variação de dados que normalmente existe na receita de visitas em comparação com a taxa de conversão.
 * Como os modelos são criados com base na experiência, a substituição de uma experiência por outra significa que o tráfego suficiente (ou seja, pelo menos 50 conversões) deve ser coletado para a nova experiência antes que os modelos personalizados possam ser recriados.
 
@@ -92,29 +92,29 @@ Você pode começar a ver os resultados da sua atividade de [!UICONTROL Direcion
 
 ### Posso definir uma experiência específica para ser usada como controle?
 
-É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Esse recurso permite rotear todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado com relação ao tráfego de controle para essa experiência única.
 
 Para obter mais informações, consulte [Usar uma experiência específica como controle](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
-### Posso alterar a métrica de meta até o meio de uma atividade de Direcionamento automático ? {#change-metric}
+### Posso alterar a métrica de meta durante uma atividade de Direcionamento automático? {#change-metric}
 
-Não recomendamos que você altere a métrica de meta para a metade de uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade usando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. Não garantimos o que acontece se você alterar a métrica de meta em uma atividade após sua execução.
+Não recomendamos que você altere a métrica de meta durante uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade utilizando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. Não garantimos o que pode acontece se você alterar a métrica de meta em uma atividade após sua execução.
 
 Esta recomendação se aplica às atividades de [!UICONTROL Alocação automática], [!UICONTROL Direcionamento automático] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
 
 ### Posso usar a opção Redefinir dados de relatório ao executar uma atividade de Direcionamento automático?
 
-Não é sugerido usar a opção [!UICONTROL Redefinir dados de relatório] para atividades de [!UICONTROL Direcionamento automático]. Embora ela remova os dados de relatório visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Direcionamento automático]. Em vez de usar a opção [!UICONTROL Reset Report Data] para [!UICONTROL Direcionamento automático] atividades, crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica às atividades de [!UICONTROL Alocação automática] e [!UICONTROL Automated Personalization].)
+Não é sugerido usar a opção [!UICONTROL Redefinir dados de relatório] para atividades de [!UICONTROL Direcionamento automático]. Embora ela remova os dados do relatório visíveis, essa opção não remove todos os registros de treinamento do modelo de [!UICONTROL Direcionamento automático]. Em vez de usar a opção [!UICONTROL Redefinir dados do relatório] para atividades de [!UICONTROL Direcionamento automático], crie uma nova atividade e desative a original. (Observação: esta orientação também se aplica às atividades de [!UICONTROL Alocação automática] e [!UICONTROL Automated Personalization].)
 
-### O que acontece se eu remover uma única experiência de uma atividade de Direcionamento automático ?
+### O que acontece se eu remover uma única experiência de uma atividade de Direcionamento automático?
 
-[!DNL Target] O cria um modelo por experiência, portanto, remover uma experiência significa  [!DNL Target] apenas criar um modelo a menos e não afetará os modelos para as outras experiências.
+O [!DNL Target] cria um modelo por experiência, portanto, remover uma experiência significa que o [!DNL Target] cria um modelo a menos e não afetará os modelos para as outras experiências.
 
-Por exemplo, suponha que você tenha uma atividade de [!UICONTROL Direcionamento automático] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afetará os modelos das sete experiências restantes.
+Por exemplo, suponha que você tenha uma atividade de [!UICONTROL Direcionamento automático] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afetará os modelos das sete restantes.
 
-## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
+## Solução de problemas do [!UICONTROL Direcionamento automático ] {#section_23995AB813F24525AF294D20A20875C8}
 
 Às vezes, as atividades não acontecem como o esperado. Aqui estão alguns possíveis desafios que você pode enfrentar ao usar o [!UICONTROL Direcionamento automático] e algumas soluções sugeridas.
 
