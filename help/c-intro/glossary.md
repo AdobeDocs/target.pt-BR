@@ -1,5 +1,5 @@
 ---
-description: O que termos diferentes são usados na média Adobe [!DNL Target] ? Encontre definições de termos comuns para ajudá-lo a obter mais detalhes [!DNL Target].
+description: O que termos diferentes são usados na média Adobe [!DNL Target] ? Encontre definições de termos comuns para ajudar você a obter mais do [!DNL Target].
 title: Onde posso encontrar termos e definições usados no Target?
 feature: Visão geral
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ A [!DNL at.js] é uma nova biblioteca de implementação do [!DNL Adobe Target],
 
 **público-alvo**
 
-Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds no meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criada.
+Um grupo novatos em atividade semelhante que visualizarão uma atividade direcionada.  Um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Se um visitante for identificado como parte de um público-alvo de direcionamento, o Target determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criada.
 
 **Alocação automática**
 
@@ -61,9 +61,9 @@ A Alocação automática identifica um vencedor entre duas ou mais experiências
 
 O Direcionamento automático usa aprendizagem de máquina avançada para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado e retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.
 
-**personalização automatizada**
+**Automated Personalization**
 
-A Personalização automatizada (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões.
+A Automated Personalization (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões.
 
 ## B   {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -185,7 +185,7 @@ A representação visual de uma atividade no Target Standard.
 
 **Experience Composer baseado em formulário**
 
-Uma interface de criação de ofertas e experiências não visuais que é útil na criação de experiências para uso em testes A/B, no Direcionamento de experiência, na Personalização automatizada e em atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou não for prático. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
+Uma interface de criação de ofertas e experiências não visuais que é útil na criação de experiências para uso em testes A/B, no Direcionamento de experiência, na Automated Personalization e em atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou não for prático. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
 ## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -239,7 +239,7 @@ Transmitido na página, não no URL. Parâmetros são utilizados para enviar dad
 
 **teste multivariado**
 
-O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade
+O Multivariate Testing (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade
 
 ## N
 
@@ -249,7 +249,7 @@ Um visitante é incluído no segmento Novos visitantes se uma das seguintes cond
 
 * É a primeira vez que o visitante acessa o site.
 * É a primeira vez que o visitante acessa o site desde a limpeza dos cookies.
-* É a primeira vez que o visitante acessa o site desde que o [Tempo de vida do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) expirou.
+* É a primeira vez que o visitante acessa o site desde que expiração do [tempo de vida do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)
 
 Para obter mais informações, consulte [Como são contadas as métricas de Novos visitantes e Visitantes recorrentes?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) em Perguntas e respostas sobre relatórios. Compare com &quot;Visitante recorrente&quot; abaixo.
 
@@ -293,7 +293,7 @@ Envia os valores à mbox da página de destino como valores e parâmetros de URL
 
 **Visitante Recorrente**
 
-O visitante é incluído no segmento Visitantes recorrentes se o usuário tiver visitado o site anteriormente, permanecer no local por pelo menos 30 minutos e retornar ao site com os mesmos cookies. Contanto que um visitante retorne dentro da duração do perfil, ele será um visitante recorrente.
+O visitante é incluído no segmento Visitante recorrente se o usuário tiver visitado o site antes, sair dele por pelo menos 30 minutos, e retornar com os mesmos cookies. Desde que o visitante retorne dentro da duração do perfil, ele será um visitante recorrente.
 
 Para obter mais informações, consulte [Como as métricas de Novos visitantes e Visitantes recorrentes são contadas](/help/c-reports/reporting-frequently-asked-questions.md#methodology) em Perguntas e respostas sobre relatórios. Compare com &quot;Novo visitante&quot; acima.
 
