@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard; perguntas frequentes; perguntas frequentes; gabarito; gabarito
-description: Explore uma lista de perguntas frequentes sobre o uso dos recursos no Adobe Target, juntamente com informações e links para obter mais informações.
-title: Onde posso encontrar respostas para minhas perguntas de otimização e personalização?
+description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
+title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Visão geral
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target
 
 **Como posso observar como outros clientes usaram o Adobe Target para obter melhores resultados?**
 
-Veja algumas das nossas [histórias de sucesso de clientes](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Veja como clientes como você utilizaram o Target para melhorar a otimização e personalização com o intuito de alcançar metas empresariais.
+Veja algumas das nossas [histórias de sucesso de clientes](https://www.adobe.com/br/marketing-cloud/target/resources.html#x). Veja como clientes como você utilizaram o Target para melhorar a otimização e personalização com o intuito de alcançar metas empresariais.
 
 Observe que alguns desses estudos de caso utilizaram capacidades do Adobe Target Premium.
 
@@ -30,7 +30,7 @@ Consulte as [Notas de versão](/help/r-release-notes/release-notes.md#reference_
 
 **A Adobe tem uma Comunidade/Fórum onde eu possa encontrar respostas e mais informações sobre o Target?**
 
-Visite o [ Target Community Forum](/help/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), onde ajudamos nossos clientes, mas, principalmente, gostaríamos que praticantes do Adobe Target como você ajudem uns aos outros. Afinal, o sucesso de uma comunidade e de um fórum depende da participação ativa de seus membros. Torne-se parte de uma comunidade e contribua e procure respostas para suas perguntas.
+Visite o [Target Community Forum](/help/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), onde ajudamos nossos clientes, mas, principalmente, gostaríamos que praticantes do Adobe Target como você ajudem uns aos outros. Afinal, o sucesso de uma comunidade e de um fórum depende da participação ativa de seus membros. Torne-se parte de uma comunidade e contribua e procure respostas para suas perguntas.
 
 **Quais navegadores são compatíveis com o Target?**
 
@@ -62,7 +62,7 @@ Use os [relatórios para determinar a experiência vencedora](/help/c-activities
 
 **Posso realizar uma atividade com um nível de personalização como parte integrante da atividade?**
 
-Confira a opção [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) .
+Confira a opção [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 **Como posso saber qual tipo de atividade é atende melhor às minhas necessidades?**
 
@@ -133,7 +133,7 @@ Use a configuração de prioridade disponível na etapa 3 do fluxo de trabalho o
 Existem duas opções:
 
 * Padrão, com três níveis (Baixo/Médio/Alto)
-* Personalizada, com um intervalo entre 0 e 999. Para Personalizar, ative o recurso Prioridades otimizadas ( Administração > Visual Experience Composer).
+* Personalizada, com um intervalo entre 0 e 999. Para Personalizar, ative o recurso Prioridades otimizadas (Administração > Visual Experience Composer).
 
 ## Públicos-alvo {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -189,7 +189,7 @@ Experimente as [informações de solução de problemas](/help/c-experiences/c-v
 
 Também temos a [abordagem baseada em formulários](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que pode desbloquear você.
 
-Leia também quando e por que o [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para   [lista de permissões bem os ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) servidores proxy Multid.
+Leia também quando e por que o [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para  [Incluir servidores proxy da Adobe na lista de permissões](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) também.
 
 **Eu tenho um site responsivo. Ao criar uma atividade, como posso ter certeza de que estou levando em consideração dispositivos importantes?**
 
@@ -197,7 +197,7 @@ Experimente o recurso [Mobile Viewports](/help/c-experiences/c-visual-experience
 
 **Eu tenho múltiplos domínios. Um dos domínios precisa que o Enhanced Experience Composer seja ativado, enquanto outros precisam que ele seja desativado. Como posso fazer isso?**
 
-Você sempre pode usar a opção [Enhanced Experience Composer no nível de atividade](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para substituir a configuração padrão ( Administração > Visual Experience Composer).
+Você sempre pode usar a [opção Enhanced Experience Composer no nível da atividade](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular a configuração padrão (Administração > Preferências).
 
 **Por que eu não vejo uma opção de troca de imagens?**
 
@@ -235,7 +235,7 @@ Use [a abordagem baseada em formulário](/help/c-experiences/form-experience-com
 
 **Posso garantir que a mesma experiência seja oferecida de maneira consistente em todos os dispositivos que um usuário pode ter?**
 
-Veja nosso [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), que permite que você vincule múltiplos dispositivos de um usuário deterministicamente e probabilisticamente através do poder da cooperação.
+Veja nosso [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=pt-BR), que permite que você vincule múltiplos dispositivos de um usuário deterministicamente e probabilisticamente através do poder da cooperação.
 
 Se você estiver em um Co-op, uma sinalização simples na página de Metas e Configurações ativa o recurso. A criação de relatórios também muda para refletir pessoas ao invés de visitantes. Fale com o seu contato na Adobe para saber mais sobre este recurso, pois ele não estará disponível em todas as regiões.
 
