@@ -1,5 +1,5 @@
 ---
-keywords: Target, home, tópicos populares, adobe target, padrão, premium, documentação do target, documentação do adobe target
+keywords: Target, página inicial, tópicos populares, adobe target, padrão, premium, documentação do target, documentação do adobe target
 title: Onde posso encontrar  [!DNL Target] documentação?
 description: Saiba como usar o Adobe [!DNL Target] para personalizar a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos e outros canais digitais.
 feature: Visão geral
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 46%
+ht-degree: 95%
 
 ---
 
@@ -22,11 +22,11 @@ O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferec
 
 >[!NOTE]
 >
->O Adobe Target foi recentemente nomeado Líder nos seguintes relatórios:
+>O Adobe Target foi indicado recentemente como líder nos seguintes relatórios:
 >
->**[Relatório da Forrester wave para plataformas de otimização de experiência.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** O Adobe Target foi nomeado Líder na Onda Forrester: Plataformas de otimização de experiência, relatório do quarto trimestre de 2020.
+>**[Relatório Forrester Wave sobre plataformas de otimização de experiência.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** O Adobe Target foi indicado como líder no relatório Forrester Wave: plataformas de otimização de experiência, quarto trimestre de 2020.
 >
->**[Gartner Magic Quadrant para mecanismos de personalização.](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** O Adobe Target foi mais uma vez nomeado líder no terceiro relatório anual do Gartner Magic Quadrant for Personalization Engines, 2020.
+>**[Quadrante Mágico da Gartner para mecanismos de personalização.](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** O Adobe Target foi mais uma vez indicado como líder no terceiro relatório anual Quadrante Mágico da Gartner para mecanismos de personalização de 2020.
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
@@ -44,37 +44,37 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 - [Notas de versão do Target](r-release-notes/release-notes.md): contém informações sobre a versão atual, informações sobre problemas conhecidos que afetam o [!DNL Target], uma lista de alterações importantes nesta documentação e um arquivo das notas de versão anteriores.
 - [Introdução ao Target](c-intro/intro.md): explica os conceitos principais da solução do [!DNL Target].
 - Integrar o Target com a Adobe Experience Cloud: explica como integrar o [!DNL Target] com outras soluções da [!DNL Experience Cloud], incluindo o [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), os [Públicos-alvo da Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), o [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) e o [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
-- [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Fornece tutoriais e vídeos para ajudá-lo a aproveitar o Target ao máximo.
-- [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md): Fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros e assim por diante) que afetam as atividades e outros elementos no  [!DNL Target].
+- [Tutoriais do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR): fornece tutoriais e vídeos para ajudar você a aproveitar o Target ao máximo.
+- [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md): fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros e assim por diante) que afetam as atividades e outros elementos no [!DNL Target].
 - [Target para aplicativos móveis](c-target-mobile-app/target-mobile-app.md): explica como o [!DNL Target] pode ser usado para otimização e personalização de aplicativos móveis.
-- [Recursos e informações](cmp-resources-and-contact-information.md) de contato: Fornece informações sobre mais recursos para ajudá-lo a aprender sobre  [!DNL Target] recursos e como entrar em contato com  [!DNL Adobe] caso precise de ajuda.
+- [Recursos e informações de contato](cmp-resources-and-contact-information.md): fornece informações sobre recursos adicionais para ajudar você a saber mais sobre os recursos do [!DNL Target] e como entrar em contato com [!DNL Adobe] caso você precise de ajuda.
 
 ## Profissionais de marketing {#marketers}
 
 - [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
-- [Públicos-alvo](c-target/target.md): Explica como determinar quem vê o conteúdo e as experiências em atividades direcionadas.
+- [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em atividades direcionadas.
 - [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 - [Recommendations](c-recommendations/recommendations.md): explica como as atividades do [!DNL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
 
-## Desenvolvedores  {#developers}
+## Desenvolvedores   {#developers}
 
 - [Implementar o Target](c-implementing-target/implementing-target.md): explica como implementar o [!DNL Target] em sites, em aplicativos para dispositivos móveis, em aplicativos de página única (SPAs) e em plataformas iOT/OTT.
-- [APIs](https://developers.adobetarget.com/api/delivery-api/) do lado do servidor do Target: Descreve os recursos que compõem a API de entrega do Adobe Target.
-- [SDK](https://github.com/adobe/target-nodejs-sdk) NodeJS do Target: Explica como implantar o lado do servidor do Target. Este SDK do Node.js ajuda a integrar facilmente o Target a outras soluções da Adobe Experience Cloud.
-- [SDK](https://github.com/adobe/target-java-sdk) Java do Target: Explica como implantar o lado do servidor do Target. Este SDK Java ajuda a integrar facilmente o Target a outras soluções da Adobe Experience Cloud.
-- [API](https://developers.adobetarget.com/api/recommendations/) do Recommendations do Target: Descreve os recursos que compõem a API oficial do Adobe Target Recommendations.
-- [Documentação](http://developers.adobetarget.com/api/#introduction) do Adobe.IO do Target: Descreve como usar as APIs de Admin e REST de perfil do Target que usam a integração de Adobe.IO para gerenciar atividades, públicos, ofertas, propriedades, relatórios, mboxes, ambientes e perfis.
+- [APIs do lado do servidor do Target](https://developers.adobetarget.com/api/delivery-api/): descreve os recursos que compõem a API de entrega do Adobe Target.
+- [SDK NodeJS do Target](https://github.com/adobe/target-nodejs-sdk): explica como implantar no lado do servidor do Target. Esse SDK do Node.js ajuda a integrar facilmente o Target a outras soluções da Adobe Experience Cloud.
+- [SDK do Java do Target](https://github.com/adobe/target-java-sdk): explica como implantar no lado do servidor do Target. Esse SDK do Java ajuda a integrar facilmente o Target a outras soluções da Adobe Experience Cloud.
+- [API do Recommendations do Target](https://developers.adobetarget.com/api/recommendations/): descreve os recursos que compõem a API oficial do Adobe Target Recommendations.
+- [Documentação do Adobe.IO Target](http://developers.adobetarget.com/api/#introduction): descreve como usar as APIs de Administrador e REST de perfil do Target que usam a integração de Adobe.IO para gerenciar atividades, públicos, ofertas, propriedades, relatórios, mboxes, ambientes e perfis.
 
 ## Administradores do Target e da Adobe Experience Cloud {#admins}
 
 - [Administer Target](administrating-target/administrating-target.md): explica como adicionar usuários e configurar sua conta [!DNL Target].
 
-## Analistas  {#analysts}
+## Analistas   {#analysts}
 
-- [Públicos-alvo](c-target/target.md): Explica como determinar quem vê o conteúdo e as experiências em atividades direcionadas.
+- [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em atividades direcionadas.
 - [Relatórios](c-reports/reports.md): explica como interpretar o desempenho de suas atividades.
 
-## Engenheiros de controle de qualidade  {#qa}
+## Engenheiros de controle de qualidade   {#qa}
 
 - [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
 
@@ -82,4 +82,4 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 | Ajuda das soluções do Adobe [!DNL Target] | [!DNL Adobe Experience Cloud] recursos |
 |--- |--- |
-| <ul><li>[Aprendizagem e suporte do Adobe Target](https://helpx.adobe.com/br/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Documentação da API do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Fórum da comunidade do Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Página inicial da ajuda da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentação do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Aprendizagem e suporte do Adobe Target](https://helpx.adobe.com/br/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=pt-BR)</li><li>[Documentação da API do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Fórum da comunidade do Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR)</li><li>[Página inicial da ajuda da Experience Cloud](https://helpx.adobe.com/br/support/experience-cloud.html)</li><li>[Documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=pt-BR)</li><li>[Treinamento e tutoriais da Adobe](https://helpx.adobe.com/br/learning.html?promoid=KAUDK)</li></ul> |  |
