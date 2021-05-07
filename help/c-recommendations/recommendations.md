@@ -1,5 +1,5 @@
 ---
-keywords: Recommendations, critérios do Recommendations, algoritmos do recommendations, atividade do recommendations, critérios, direcionamento do recommendations, recs
+keywords: Recommendations, critérios do Recommendations, algoritmos do recommendations, atividade do recommendations, critérios, direcionamento do recommendations
 description: Saiba mais sobre as atividades do Recommendations no Adobe [!DNL Target] que exibem automaticamente conteúdo que pode ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
 title: O que é o [!DNL Target] Recommendations?
 feature: Recommendations
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 58%
+ht-degree: 97%
 
 ---
 
-# ![Recommendations ](/help/assets/premium.png)PREMIUM
+# ![PREMIUM](/help/assets/premium.png) Recommendations
 
-[!DNL Adobe Target Recommendations] As atividades do exibem automaticamente produtos, serviços ou conteúdo que podem ser do interesse dos visitantes com base em atividades, preferências ou outros critérios do usuário anteriores. [!DNL Target Recommendations] O ajuda a direcionar o visitante para itens relevantes que, de outra forma, talvez ele não conheça. [!DNL Recommendations] O permite fornecer aos visitantes conteúdo relevante na hora certa e no lugar certo.
+As atividades do [!DNL Adobe Target Recommendations] exibem automaticamente produtos, serviços ou conteúdo que podem ser do interesse dos visitantes com base em atividades do usuário anteriores, preferências ou outros critérios. O [!DNL Target Recommendations] ajuda a direcionar o visitante para itens relevantes que podem ser novidade para ele. O [!DNL Recommendations] permite fornecer aos visitantes conteúdo relevante na hora certa e no lugar adequado.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ A ilustração a seguir mostra as recomendações em página da Web:
 
 ![](assets/velocity_example.png)
 
-Uma recomendação determina como um produto é sugerido para um visitante, dependendo das atividades desse visitante no site. Por exemplo:
+Uma recomendação determina como um produto é sugerido a um visitante, dependendo das atividades dele no site. Por exemplo:
 
 | Ação desejada | Recomendação |
 |--- |--- |
@@ -47,22 +47,22 @@ Para mais informações sobre estes e outros critérios do [!DNL Recommendations
 
 ## Termos
 
-Antes de começar a usar [!DNL Recommendations], é útil se familiarizar com alguns dos termos usados nesta seção. Não se preocupe se você ainda não entender totalmente esses termos, você se familiarizará com eles ao configurar suas atividades [!DNL Recommendations].
+Antes de começar a usar o [!DNL Recommendations], é útil se familiarizar com alguns dos termos usados nesta seção. Não se preocupe se você ainda não entender totalmente esses termos. Você se familiarizará com eles ao configurar suas atividades do [!DNL Recommendations].
 
 | Termo | Definição |
 | --- | --- |
-| Atividade | As atividades em [!DNL Target] permitem personalizar o conteúdo para públicos-alvo específicos e testar designs de página. [!DNL Recommendations] O é apenas um dos muitos tipos de atividade disponíveis no  [!DNL Target]. Para obter mais informações, consulte [Tipos de atividade do Target](/help/c-activities/target-activities-guide.md). |
-| Entidades | As entidades referem-se a itens que você quer recomendar. As entidades podem ser produtos, conteúdo (artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante. Para obter mais informações, consulte [Entidades](/help/c-recommendations/c-products/products.md). |
-| Feeds | Os feeds são usados para importar entidades em [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics. Para obter mais informações, consulte  [Feeds](/help/c-recommendations/c-products/feeds.md). |
-| Catálogo | Catálogos se referem a todo seu conjunto de produtos (entidades). Seu catálogo pode conter muitas coleções, uma maneira de organizar seus produtos em compartimentos lógicos. |
+| Atividade | As atividades no [!DNL Target] permitem personalizar o conteúdo para públicos específicos e testar designs de página. O [!DNL Recommendations] é apenas um dos muitos tipos de atividade disponíveis no [!DNL Target]. Para obter mais informações, consulte [Tipos de atividade do Target](/help/c-activities/target-activities-guide.md). |
+| Entidades | As entidades referem-se a itens que você quer recomendar. As entidades podem ser produtos, conteúdo (como artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante. Para obter mais informações, consulte [Entidades](/help/c-recommendations/c-products/products.md). |
+| Feeds | Os feeds são usados para importar entidades no [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics. Para obter mais informações, consulte  [Feeds](/help/c-recommendations/c-products/feeds.md). |
+| Catálogo | Catálogos se referem a todo o conjunto de produtos (entidades). O catálogo pode conter muitas coleções, uma maneira de organizar seus produtos em compartimentos lógicos. |
 | Coleção | As coleções se referem a um conjunto de itens semelhantes ou relacionados, como uma única categoria de produto. No entanto, você pode agrupar qualquer item em uma categoria que faça sentido para o seu negócio, como produtos em uma determinada faixa de preço ou cor, ou itens que possam ser interessantes em uma área geográfica específica. Para obter mais informações, consulte [Coleções](/help/c-recommendations/c-products/collections.md). |
 | Critérios | Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.<br>Alguns exemplos de critérios incluem: <ul><li>Pessoas que compraram isto, compraram aquilo</li><li>Pessoas que visualizaram isto, visualizaram aquilo</li><li>Itens com atributos similares</li><li>Último item comprado</li><li>Categoria favorita</li></ul>  Para obter mais informações, consulte [Critérios](/help/c-recommendations/c-algorithms/algorithms.md). |
-| Designs | Os designs definem a aparência das recomendações em uma atividade [!DNL Recommendations], como uma linha, coluna, tabela ou grade. A ilustração na parte superior deste artigo mostra um design 4 x 1. Para obter mais informações, consulte [Criar um design](/help/c-recommendations/c-design-overview/create-design.md). |
-| Localizações | Os locais se referem a uma área de conteúdo específica em uma página da Web, aplicativo móvel ou email, onde você executa uma atividade para fins de personalização e otimização. |
-| Públicos-alvo | Os públicos-alvo são grupos de participantes de atividades semelhantes que visualizarão uma atividade direcionada. Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Para obter mais informações, consulte [Públicos](/help/c-target/target.md). |
-| Recommendations como uma oferta | Um recurso que permite incluir recomendações nas atividades de Teste A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
+| Designs | Os designs definem a aparência das recomendações em uma atividade do [!DNL Recommendations], como uma linha, coluna, tabela ou grade. A ilustração na parte superior deste artigo mostra um design 4 x 1. Para obter mais informações, consulte [Criar um design](/help/c-recommendations/c-design-overview/create-design.md). |
+| Localizações | Os locais se referem a uma área de conteúdo específica em uma página da Web, aplicativo móvel ou email, em que você executa uma atividade para fins de personalização e otimização. |
+| Públicos-alvo | Públicos são grupos de atividades semelhantes que verão uma atividade direcionada. Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Para obter mais informações, consulte [Públicos](/help/c-target/target.md). |
+| Recommendations como uma oferta | As recomendações como uma oferta permitem inclui-las nas atividades de Teste A/B (inclusive Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
-## Vídeo de treinamento: Tipos de atividade ![Selo de visão geral](/help/assets/overview.png)
+## Vídeo de treinamento: tipos de atividade ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium]. O [!DNL Recommendations] é discutido a partir de 7:20.
 
@@ -72,7 +72,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinar de noções básicas do Adobe Target: Introdução ao Recommendations ![Selo tutorial](/help/assets/tutorial.png) {#intro-to-recs}
+## Webinar de noções básicas do Adobe Target: Introdução ao Recommendations ![Selo de tutorial ](/help/assets/tutorial.png) {#intro-to-recs}
 
 O webinar de *Introdução ao Recommendations* inclui uma análise detalhada de como utilizar o valor de [!DNL Adobe Target Recommendations]. Descubra como essa atividade do [!DNL Target] exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes, otimizando sugestões em tempo real com base nas visitas anteriores. Além disso, acesse a interface do usuário do [!DNL Target] para obter uma visão geral passo a passo sobre como criar uma atividade do [!DNL Recommendations].
 
