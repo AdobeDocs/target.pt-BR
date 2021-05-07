@@ -8,17 +8,17 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 77%
+ht-degree: 93%
 
 ---
 
 # Solução de problemas de atividades
 
-Se a atividade [!DNL Adobe Target] não aparecer no site, essas sugestões de solução de problemas ajudarão a encontrar a solução.
+Se a atividade do [!DNL Adobe Target] não aparecer no site, essas sugestões de solução de problemas ajudarão a encontrar uma solução.
 
 >[!NOTE]
 >
->Além das seguintes informações de solução de problemas, consulte [Solução de problemas](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) a fim de obter os links para tópicos de solução de problemas adicionais, perguntas frequentes e outras informações úteis sobre como solucionar problemas de atividades e outros recursos.[!DNL Adobe Target]
+>Além das seguintes informações de solução de problemas, consulte [Solução de problemas do Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) a fim de obter os links para tópicos de solução de problemas adicionais, perguntas frequentes e outras informações úteis sobre como solucionar problemas de atividades e outros recursos no [!DNL Adobe Target].
 
 As seções a seguir contêm problemas que podem ser encontrados com as soluções sugeridas.
 
@@ -78,7 +78,7 @@ Verifique se a sua atividade foi concluída e ativada.
 Depois que você for adicionado como um usuário do Target, precisará ter a função Aprovador para criar Atividades.
 
 * Peça que o administrador da sua conta o atribua como um Aprovador.
-* Se você for o Administrador, atribua a si mesmo a função de Aprovador de **[!UICONTROL Administração]** > **[!UICONTROL Usuários]** no Target.
+* Se você for o administrador, atribua a si mesmo a função de Aprovador em **[!UICONTROL Administração]** > **[!UICONTROL Usuários]** no Target.
 
    Consulte [Atribuir a função de aprovador a si próprio](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -107,7 +107,7 @@ Para mais informações sobre como as modificações da página afetam a capacid
 
 ## Mbox.js está preenchendo todo o código subsequente fora do cabeçalho e no corpo do texto.
 
-**Validar:** veja a origem para determinar se uma declaração segue o arquivo mbox.js antes de fechar `</body>` tag.
+**Validar:** veja a origem para determinar se uma declaração segue o arquivo mbox.js antes de fechar  `</body>` tag.
 
 **Opções:**
 
@@ -137,9 +137,9 @@ Faça uma das seguintes opções:
 * Exclua novamente. A mensagem de sucesso é exibida.
 * Aguarde cerca de 10 minutos para que o importador do Target Standard/Premium seja executado. O importador atualiza a lista de scripts de perfil.
 
-## Algumas chamadas ajax [!DNL Target] não estão funcionando.
+## Algumas chamadas ajax do [!DNL Target] não estão funcionando.
 
-**Observação:**[!DNL Target] várias chamadas de ajax com o mesmo nome de mas diferentes parâmetros não funcionarão na mesma página. Somente a primeira chamada será feita.
+**Observação:** várias chamadas de ajax do [!DNL Target] com o mesmo nome mas diferentes parâmetros não funcionarão na mesma página. Somente a primeira chamada será feita.
 
 ## Você ativou uma atividade usando a API [!DNL Target], mas a atividade mostra um status [!UICONTROL Inativo] na interface [!DNL Target].
 
