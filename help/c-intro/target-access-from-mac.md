@@ -1,5 +1,5 @@
 ---
-keywords: Experience Cloud, logon, idioma, idioma padrão da interface do usuário, idioma padrão
+keywords: Experience Cloud, fazer logon, idioma, idioma padrão da interface do usuário, idioma padrão
 description: 'Saiba como acessar a interface e a documentação do . [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] '
 title: Como faço para acessar [!DNL Target] da Adobe Experience Cloud?
 feature: Visão geral
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 62%
+ht-degree: 88%
 
 ---
 
@@ -18,11 +18,11 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 ## Faça logon no Adobe [!DNL Target] e defina sua exibição padrão
 
-1. Faça logon no [Adobe Experience Cloud](https://experience.adobe.com/).
+1. Faça logon na [Adobe Experience Cloud](https://experience.adobe.com/).
 
 1. Clique no **[!UICONTROL ícone do aplicativo]** na barra de navegação e, em seguida, clique em **[!UICONTROL Target]**.
 
-   Você também pode clicar no painel [!DNL Target] na janela principal para acessar [!DNL Target] (ou qualquer outra solução [!DNL Adobe Experience Cloud] à qual você tenha acesso).
+   Você também pode clicar no painel [!DNL Target] na janela principal para acessar o [!DNL Target] (ou qualquer outra solução da [!DNL Adobe Experience Cloud] à qual você tenha acesso).
 
    ![Ícone do aplicativo](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 ## Altere o idioma padrão da interface [!DNL Target] {#language}
 
-1. Depois de entrar no [!DNL Adobe Experience Cloud ] ou [!DNL Target], clique no avatar do seu perfil e em **[!UICONTROL Editar Preferências]**.
+1. Depois de entrar na [!DNL Adobe Experience Cloud ] ou no [!DNL Target], clique no avatar do seu perfil e em **[!UICONTROL Editar preferências]**.
 
    ![Editar perfil](/help/c-intro/assets/change-language.png)
 
-1. Clique em **[!UICONTROL Conta do Adobe]** para acessar o perfil [!DNL Adobe].
+1. Clique em **[!UICONTROL Conta da Adobe]** para acessar o perfil [!DNL Adobe].
 
-   ![Conta Adobe](/help/c-intro/assets/adobe-account.png)
+   ![Conta da Adobe](/help/c-intro/assets/adobe-account.png)
 
-1. Clique na guia **[!UICONTROL Notifications]** na barra de menu superior e, em seguida, clique na guia **[!UICONTROL Preferences]** no lado esquerdo.
+1. Clique na guia **[!UICONTROL Notificações]** na barra de menu superior e, em seguida, clique na guia **[!UICONTROL Preferências]** no lado esquerdo.
 
    ![Idiomas de preferência](/help/c-intro/assets/prefered-language.png)
 
@@ -67,7 +67,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 ## Altere o idioma da [!DNL Target] documentação do produto {#doc-lang}
 
-As configurações do sistema operacional ou do navegador devem detectar o idioma preferido e exibir a documentação nesse idioma (se disponível). [!DNL Target]A documentação do é traduzida automaticamente e estará sincronizada com a versão em inglês horas após alterações serem feitas na documentação em inglês.
+As configurações do sistema operacional ou do navegador devem detectar o idioma preferido e exibir a documentação nesse idioma (se disponível). A documentação do [!DNL Target] é traduzida automaticamente e estará sincronizada com a versão em inglês horas após alterações serem feitas na documentação em inglês.
 
 É possível alterar rapidamente o idioma para a versão original em inglês, clicando no link do cabeçalho da página.
 
