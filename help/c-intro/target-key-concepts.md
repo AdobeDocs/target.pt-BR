@@ -2,13 +2,13 @@
 keywords: Visão geral e referência; tipos de atividade; introdução
 description: Saiba mais sobre as noções básicas do Adobe Target. Este artigo apresenta você ao Target, seus tipos de atividades e outros recursos.
 title: Como usar o Target?
-feature: Overview
+feature: Visão geral
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
 source-wordcount: '1528'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -32,9 +32,9 @@ O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visã
 | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Alocação automática](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
 | [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | O Direcionamento automático usa aprendizagem de máquina avançada para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado. As atividades de Direcionamento automático veiculam a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento automático](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
 | [Uso de dados do Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Você pode configurar uma atividade para usar o [!DNL Adobe Analytics] como fonte de geração de relatórios. Este tipo de atividade requer a vinculação da sua conta da [!DNL Adobe Experience Cloud] ao [!DNL Analytics] e ao [!DNL Target]. |
-| [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | O Teste multivariado (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade. |
+| [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | O Multivariate Testing (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade. |
 | [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) | O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento de experiência](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
-| [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | A Personalização automatizada (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões. |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | A Automated Personalization (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões. |
 | [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | Uma recomendação determina como um produto é sugerido para um usuário do site, dependendo das atividades desse usuário no site.<br>Por exemplo, talvez você queira incentivar as pessoas que compraram uma mochila a pensar em comprar um tênis para caminhada e bastões de marcha. Você pode criar uma recomendação que mostre itens que são frequentemente comprados juntos, usando o algoritmo &quot;Pessoas que compraram isso também compraram aquilo&quot;. Ou talvez você queira incentivar os visitantes a passarem mais tempo no seu site de mídia recomendando vídeos semelhantes aos que eles assistiram, usando o algoritmo &quot;Pessoas que visualizaram isso também visualizaram aquilo&quot;.<br>**Observação:** agora, você pode incluir recomendações nas atividades de Teste A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Localizações {#section_F18FBF1ED23340ED9F39C51971A4E874}
@@ -82,7 +82,7 @@ Por exemplo, uma página da Web pode exibir uma de duas ofertas, dependendo se o
 
 Uma *experiência* determina qual conteúdo será exibido quando condições específicas forem cumpridas.
 
-## Públicos-alvo{#section_3F32DA46BDF947878DD79DBB97040D01}
+## Públicos-alvo {#section_3F32DA46BDF947878DD79DBB97040D01}
 
 Otimize o conteúdo de destino para os participantes da atividade que atenderem aos critérios específicos.
 
@@ -100,7 +100,7 @@ Ou sua atividade deve ser direcionada aos visitantes de uma região geográfica 
 |--- |--- |
 | Públicos-alvo reutilizáveis | Os públicos reutilizáveis podem ser selecionados para qualquer atividade. A mudança de um desses públicos-alvo é refletida para todas as atividades que o utilizam. |
 | Segmentos personalizados | Segmentos personalizados (conhecidos também como segmentos específicos de campanha) são específicos de uma campanha no Target Classic. Eles são criados como parte da campanha e não podem ser reutilizados em outras campanhas. |
-| Públicos-alvo compartilhados | Os públicos-alvo podem ser compartilhados nas soluções [!DNL Adobe Experience Cloud]. Consulte [Públicos-alvo](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) para obter exemplos. |
+| Públicos-alvo compartilhados | Os públicos-alvo podem ser compartilhados nas soluções [!DNL Adobe Experience Cloud]. Consulte o [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) para ver mais exemplos. |
 
 Para obter informações sobre como o perfil do visitante acompanha informações sobre visitantes do site, consulte [Perfis de visitante](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -118,7 +118,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Uso de públicos-alvo no Adobe Target (6:21) ![Selo de visão geral](/help/assets/overview.png)
+### Uso do Audiences no Adobe Target (6:21) ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
