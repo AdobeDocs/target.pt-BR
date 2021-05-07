@@ -1,14 +1,14 @@
 ---
 keywords: solução de problemas do target, solucionar problemas no target
-description: Revise uma lista de tópicos para ajudá-lo a resolver problemas no Adobe Target, incluindo tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
-title: Como soluciono problemas do Target?
+description: Veja uma lista de tópicos para ajudar você a resolver problemas no Adobe Target, inclusive tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
+title: Como solucionar problemas do Target?
 feature: Solução de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -39,10 +39,10 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 * [Solução de problemas e perguntas frequentes do Direcionamento automático](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
-### Personalização automatizada (AP)
+### Automated Personalization (AP)
 
-* [Perguntas frequentes sobre a personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [Solução de problemas de personalização automatizada](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Perguntas frequentes sobre Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Solução de problemas de Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Relatórios de resumo de Automated Personalization](/help/c-reports/reports-ap.md)
 
 ### Teste multivariado (MVT)
