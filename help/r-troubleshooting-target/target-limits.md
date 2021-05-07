@@ -1,7 +1,7 @@
 ---
-keywords: limite de caracteres, parâmetros da mbox, api de entrega em lote, parâmetros do perfil, limites, perfis incorporados, máximo, limite, restrição, caractere, prática recomendada, orderid, orderTotal, mbox3rdPartyID, categoria, categoryID, solução de problemas
-description: Exibir uma lista de limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
-title: Quais são os vários caracteres, tamanho e outros limites no Adobe Target?
+keywords: limite de caracteres; parâmetros da mbox; api de entrega em lote; parâmetros do perfil, limites; perfis incorporados; máximo; limite; restrição; caractere; prática recomendada; orderid; orderTotal; mbox3rdPartyID; categoria; categoryID
+description: As informações sobre os limites de caracteres e outros limites (tamanho da oferta, públicos-alvo, valores, parâmetros etc.) que afetam as atividades e outros elementos no Adobe Target.
+title: Quais são os vários limites de caracteres, tamanho e outros limites no Adobe Target?
 feature: Solução de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 59%
+ht-degree: 92%
 
 ---
 
 # Limites
 
-Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros etc.) que afetam as atividades e outros elementos no [!DNL Adobe Target].
+Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 >
 >Quando os limites designados como &quot;recomendados&quot; forem atingidos ou ultrapassados, o desempenho poderá ficar lento. A redução do tempo de carregamento da interface também pode ser causada por uma atividade bastante complexa, como muitos públicos-alvo, destinos e experiências em uma mesma atividade.
 >
->Atividades altamente complexas devem ser analisadas com a [!DNL Adobe] Consulting e testadas em um ambiente limitado antes de serem liberadas para produção.
+>Atividades altamente complexas devem ser analisadas com a consultoria da [!DNL Adobe] e testadas em um ambiente restrito antes de serem liberadas para produção.
 
 ## Atividades
 
@@ -35,7 +35,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
 * **Limite recomendado**: 10.000 atividades ativas.
 
-* **Limite** recomendado: 10.000 atividades ativas salvas (e não finalizadas).
+* **Limite recomendado**: 10.000 atividades ativas salvas (e não finalizadas).
 
 ## Públicos-alvo
 
@@ -47,7 +47,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
 * **Limite recomendado**: 20,000 públicos-alvo.
 
-### Número de públicos-alvo por mbox, métrica ou experiência
+### Número de públicos-alvo por mbox, métrica e experiência
 
 * **Limite**: 50 públicos-alvo
 
@@ -67,9 +67,9 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
 ### Atributos do cliente, upload
 
-* **Tamanho máximo de arquivo para cada upload usando o método** HTTP: 100 MB.
-* **tamanho máximo de arquivo para cada upload usando o método** FTP: 4 GB
-* **Número de atributos permitidos para a inscrição**: 5 para  [!DNL Target Standard] e 200 para  [!DNL Target Premium].
+* **O tamanho máximo de arquivo para cada upload usando o método de HTTP**: 100 MB.
+* **Tamanho máximo de arquivo para cada upload usando o método de FTP**: 4 GB.
+* **O número de atributos permitidos para a inscrição**: 5 para o [!DNL Target Standard] e 200 para o [!DNL Target Premium].
 
 ## Entidades
 
@@ -81,9 +81,9 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
 ### Atributos personalizados da entidade
 
-* **Atributos** de entidade personalizados: 100.
+* **Atributos de entidades personalizados**: 100.
 
-* **Limite** de caracteres: O comprimento máximo de caracteres depende do idioma.
+* **Limite de caracteres**: o tamanho máximo depende do idioma.
 
    * 15.000 caracteres (idiomas de valor único, de um e dois bytes)
    * 500 valores, 100 caracteres por valor (vários valores)
@@ -112,7 +112,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
 * **Limite**: 2.000 experiências por direcionamento de experiência (XT), Teste A/B, Teste multivariado (MVT) e atividade automática do Target.
 
-   30.000 experiências por atividade de personalização automatizada (AP).
+   30.000 experiências por atividade de Automated Personalization (AP).
 
 ## mboxes
 
@@ -137,7 +137,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
    Para chamadas de mbox padrão:
 
    * Parâmetros da mbox: 500 parâmetros por mbox.
-   * Parâmetros do perfil: 500 parâmetros de perfil por mbox.
+   * Parâmetros do perfil: 500 parâmetros do perfil por mbox.
    * Outros parâmetros (URL, URL de referência etc.): 50 por mbox para cada tipo de parâmetro.
 
    Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
@@ -150,27 +150,27 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
    Limites definidos para endpoints:
 
-   **Mbox em lote v2**:
+   **Batch mbox v2**:
 
-   * Parâmetros da mbox 100
-   * Comprimento máximo do nome do parâmetro da mbox 128
+   * 100 parâmetros de mbox
+   * tamanho máx. do nome do parâmetro da mbox 128
    * O valor do parâmetro da mbox não pode ser nulo
    * valor do parâmetro da mbox 5000
    * parâmetros de perfil 50
-   * comprimento máximo do nome de parâmetro do perfil 128
-   * o valor do parâmetro do perfil não pode ser nulo
-   * comprimento máximo do valor do parâmetro do perfil 256
+   * tamanho máx. do nome do parâmetro do perfil 128
+   * O valor do parâmetro do perfil não pode ser nulo
+   * tamanho máximo do valor do parâmetro do perfil 256
 
-   **Ponto de extremidade** da API de entrega:
+   **Endpoint da API de entrega**:
 
-   * parâmetros da mbox 50
-   * Comprimento máximo do nome do parâmetro da mbox 128
+   * parâmetros de mbox 50
+   * tamanho máx. do nome do parâmetro da mbox 128
    * O valor do parâmetro da mbox não pode ser nulo
    * valor do parâmetro da mbox 5000
    * parâmetros de perfil 50
-   * comprimento máximo do nome de parâmetro do perfil 128
-   * o valor do parâmetro do perfil não pode ser nulo
-   * comprimento máximo do valor do parâmetro do perfil 256
+   * tamanho máx. do nome do parâmetro do perfil 128
+   * O valor do parâmetro do perfil não pode ser nulo
+   * tamanho máximo do valor do parâmetro do perfil 256
 
 
 
@@ -196,7 +196,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, va
 
 ### Tamanho da oferta {#offer-size}
 
-Os seguintes limites de tamanho se aplicam a ofertas:
+Os seguintes limites de tamanho se aplicam às ofertas:
 
 * 1024 KB para ofertas HTML.
 * 1024 KB (para cada experiência) para ofertas visuais da interface do usuário.
@@ -216,7 +216,7 @@ Os seguintes limites de tamanho se aplicam a ofertas:
 
 ## parâmetro productPurchasedId
 
-* **Limite**: 47 caracteres por valor separado por vírgulas e 250 caracteres no total. Valores individuais com mais de 47 caracteres podem ser truncados pelo sistema. Comprimentos totais acima de 250 caracteres podem resultar em um erro 400.
+* **Limite**: 47 caracteres por valor separado por vírgulas e 250 caracteres no total. Valores individuais com mais de 47 caracteres podem ser truncados pelo sistema. Tamanho total superior a 250 caracteres pode resultar em um erro 400.
 
 ## Scripts de perfil
 
@@ -224,7 +224,7 @@ Os seguintes limites de tamanho se aplicam a ofertas:
 
 * **Limite recomendado do total de scripts de perfil por conta**: 2.000
 
-* **Recommendations para limitar a complexidade** do script de perfil: Os scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte [Práticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) em *Atributos do perfil*.
+* **Recomendações para limitar a complexidade do script de perfil**: os scripts de perfil podem executar um número limitado de instruções. Para obter mais informações, consulte [Práticas recomendadas](/help/c-target/c-visitor-profile/profile-parameters.md#best) em *Atributos do perfil*.
 
 ## Propriedades
 
@@ -270,6 +270,6 @@ Os seguintes limites de tamanho se aplicam a ofertas:
 
 ### Regras de direcionamento
 
-* **Limite** recomendado: 2.500 caracteres por valor de regra de direcionamento.
+* **Limite recomendado**: 2.500 caracteres por valor de regra de direcionamento.
 * **Limite recomendado**: 30.000 valores únicos por público-alvo nas regras de direcionamento.
 * **Limite recomendado**: 100.000 valores únicos de regras de direcionamento por atividade.
