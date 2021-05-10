@@ -6,10 +6,10 @@ feature: Administração e configuração
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ Uma diferença importante entre os plugins e os tokens de resposta é que os plu
 | at.js | Certifique-se de que você esteja usando a at.js versão 1.1 ou posterior. Para obter informações sobre como baixar a versão mais recente do at.js, consulte [Baixar o at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obter informações sobre a nova funcionalidade em cada versão do at.js, consulte [Detalhes da versão do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Os clientes que usam a at.js são incentivados a usarem os tokens de resposta e a evitarem os plugins. Alguns plugins que dependem de métodos internos existentes na mbox.js, mas não na at.js, serão entregues, mas apresentarão falha. Para obter mais informações, consulte [Limitações do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 | mbox.js | Os plug-ins continuam a ser suportados e entregues no uso da mbox.js.<br>No entanto, os clientes que usam mbox.js e plugins são incentivados a mudar para at.js e tokens de resposta. Para obter informações sobre as vantagens do uso de at.js em mbox. js, consulte [Perguntas frequentes do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Para obter informações sobre a migração, consulte [Migrar para at.js do mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Após a desativação do Target Classic (novembro de 2017), você pode entrar em contato com o Atendimento ao cliente para editar ou desativar os plugins existentes. Você deveria ter auditado os plugins antes da desativação do Target Classic e desativado os plugins indesejados.<br>Você não pode criar novos plugins no Target Standard/Premium. Em vez disso, use os tokens de resposta.<br>Os plug-ins antigos do SiteCatalyst devem ser desativados e substituídos pelo [Adobe Analytics como a fonte de relatórios do Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). O plugin ttMeta deve ser desativado e substituído pelo [depurador da Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
-## Utilização de tokens de resposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## Uso de tokens de resposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
 1. Certifique-se de que você esteja usando a [!DNL at.js] versão 1.1 ou posterior.
 
@@ -95,30 +95,6 @@ O código de amostra a seguir adiciona um manipulador de evento personalizado da
 </html>
 ```
 
-As instruções a seguir mostram como adicionar um manipulador de evento da [!DNL at.js] usando o Gerenciador dinâmico de tags de Adobe (DTM):
-
-1. Faça logon no DTM.
-1. Navegue até a propriedade apropriada.
-1. Abra a ferramenta Target.
-
-   Como o DTM originalmente não suporta at.js, você precisará usar o editor de código.
-
-1. No editor de código, anexe o seguinte código à [!DNL at.js]:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-Você pode adicionar o seguinte trecho ao rodapé da biblioteca da [páginas de configuração do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) se quiser que tudo seja um único arquivo.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
 ## Perguntas frequentes de tokens de resposta {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **Qual função é necessária para ativar ou desativar os tokens de resposta?**
@@ -133,7 +109,7 @@ Você verá os tokens de resposta, mas a at.js não poderá usá-los.
 
 Os tokens de resposta serão entregues às respostas do [!DNL at.js] Target, mas não às respostas [!DNL mbox.js].
 
-**Posso fazer com que ambos plugins e tokens de resposta do Target Classic fiquem ativos ao mesmo tempo?**
+**[!DNL Target Classic]Posso fazer com que ambos plugins e tokens de resposta do fiquem ativos ao mesmo tempo?**
 
 Os plugins e os tokens de resposta serão disponibilizados em paralelo; no entanto, os plugins serão desativados no futuro.
 
@@ -165,7 +141,7 @@ Conforme mencionado acima os tokens de resposta trabalham nas informações de p
 
 O Target realiza uma atualização de atributos em intervalos regulares. Qualquer atributo que não esteja ligado será demovido durante a próxima atualização. Entretanto, se você tem um atributo que foi ligado e tiver sido removido (por exemplo, você removeu um script de perfil que foi usado como um token), esse script não será removido da lista de atributos, até ele ter sido desligado. O Target remove somente os atributos desligados na lista, quando são excluídos ou renomeados.
 
-## Envio de dados para o Google Analytics via at.js   {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código na página HTML:
 
@@ -283,7 +259,7 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 </script>
 ```
 
-## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js ![Selo tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js ![Selo de tutorial ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Assista ao vídeo a seguir para saber como usar tokens de resposta e eventos personalizados de at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
 
