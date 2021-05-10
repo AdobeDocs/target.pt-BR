@@ -1,29 +1,21 @@
 ---
-keywords: at.js;non-production;non-production;deployment
-description: Saiba mais sobre a implementação legada da mbox.js do Adobe Target. Migre para o Adobe Experience Platform Web SDK (AEP Web SDK) ou para a versão mais recente do at.js.
-title: Como faço para implantar o at.js em um Ambiente que não seja de produção?
+keywords: at.js; não produção; não produção; implantar
+description: Saiba mais sobre a implementação herdada da mbox.js do Adobe Target. Migrar para o SDK da Web da Adobe Experience Platform (AEP Web SDK) ou para a versão mais recente da at.js.
+title: Como faço para implantar a at.js em um ambiente de não-produção?
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 82%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
 
-
-# Implantar o at.js em um ambiente que não seja de produção
+# Implantar a at.js em um ambiente de não-produção
 
 Informações sobre as técnicas para implantar com segurança o at.js em um ambiente não de produção.
-
-## Implantar no armazenamento temporário do DTM
-
-Se usar o DTM, poderá salvar facilmente a at.js na sua configuração do Adobe Target Tool.
-
-Depois de salvar a biblioteca, use a ferramenta DTM Switch para testá-la em seu código de produção. Isso também facilitará o suporte dos consultores da Adobe.
-
-Para obter mais informações, consulte [Opção 3: implementar o Target manualmente com a Biblioteca de JavaScript do Target hospedada pelo DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) no guia de *Práticas recomendadas para a implementação do Adobe Target usando o Dynamic Tag Management*.
 
 ## Use a extensão &quot;Requestly&quot; do Chrome para mapear a outro arquivo
 
