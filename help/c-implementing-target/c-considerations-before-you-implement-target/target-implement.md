@@ -1,13 +1,13 @@
 ---
-keywords: document.write; target; implementar; implementar o target; dtm; dynamic tag management; at.js; mbox.js; target.js; mbox; adobe experience platform web skd; aep web sdk; web sdk
+keywords: document.write; target; implementar; implementar o target; dtm; at.js; mbox.js; target.js; mbox; adobe experience platform web skd; aep web sdk; web sdk
 description: Implemente as bibliotecas do Adobe [!DNL Target] by referencing the [!DNL Target] js (at.js ou mbox.js) nas suas páginas da Web.
 title: Entender as  [!DNL Target] bibliotecas JavaScript
 feature: Implementação
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 23%
+source-wordcount: '473'
+ht-degree: 24%
 
 ---
 
@@ -26,8 +26,8 @@ A tabela a seguir explica as diferenças entre as bibliotecas JavaScript [!DNL T
 
 | Referência da biblioteca | Descrição |
 |--- |--- |
-| Adobe Experience Platform Web SDK | O [!UICONTROL Adobe Experience Platform Web SDK] permite interagir com os vários serviços no [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da Adobe Experience Edge Network. Se você optar por migrar para o [!DNL Adobe Experience Platform Web SDK], consulte [O que é Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) no *Guia do SDK da Web*. |
-| at.js  | A at.js substitui a mbox.js para implementações do [!DNL [!DNL Target]].<br>Entre outros benefícios, a at.js melhora os tempos de carregamento de página para implementações da Web, melhora a segurança, evita avisos de document.write no Google Chrome e fornece opções de implementações melhores para aplicativos de página única.<br>Para obter mais informações, consulte [Implementação do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| SDK da Web da Adobe Experience Platform | O [!UICONTROL Adobe Experience Platform Web SDK] permite interagir com os vários serviços no [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da Adobe Experience Edge Network. Se você optar por migrar para o [!DNL Adobe Experience Platform Web SDK], consulte [O que é Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) no *Guia do SDK da Web*. |
+| at.js | A at.js substitui a mbox.js para implementações do [!DNL [!DNL Target]].<br>Entre outros benefícios, a at.js melhora os tempos de carregamento de página para implementações da Web, melhora a segurança, evita avisos de document.write no Google Chrome e fornece opções de implementações melhores para aplicativos de página única.<br>Para obter mais informações, consulte [Implementação do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 ## Impacto da at.js no tempo de carregamento de página {#section_16630CD0FF0A498EB596A51381366A5A}
 
