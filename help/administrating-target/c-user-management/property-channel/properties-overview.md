@@ -6,9 +6,9 @@ feature: Administração e configuração
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,7 +29,7 @@ A tabela a seguir lista as tarefas que você deve realizar para criar propriedad
 | 2. Crie um espaço de trabalho (Perfil do produto) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Criar grupos de usuários (Opcional) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Criar propriedades | [!DNL Target] Interface do usuário |
-| 5: atualizar sua implementação para incluir o parâmetro `at_property` | Interface do usuário do [!DNL Target], funções do at.js, [!DNL Adobe Launch] ou [!DNL Dynamic Tag Management] |
+| 5: atualizar sua implementação para incluir o parâmetro `at_property` | [!DNL Target] interface do usuário, funções da at.js ou  [!DNL Adobe Experience Platform Launch] |
 | 6: Especificar funções e permissões | [!DNL Adobe Admin Console for Enterprise] |
 
 Para essas tarefas realizadas no [!DNL Adobe Admin Console for Enterprise], acesse o console seguindo estas etapas:
@@ -150,12 +150,6 @@ Para usar a funcionalidade [!DNL Target] de permissões de usuário, você deve 
    * **Por meio de um &quot;Parâmetro global&quot; em [!DNL Adobe Launch]:**
 
       Para obter mais informações, consulte [Adicionar parâmetros do Target global](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) na documentação *Adobe Experience Platform Launch*.
-
-   * **Por meio de um &quot;Parâmetro global&quot; em [!DNL Dynamic Tag Management]:**
-
-      ![](assets/property_token_2.png)
-
-      Para obter mais informações, consulte [Parâmetros globais - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) na *Documentação de produto do Dynamic Tag Management*.
 
    * **Por meio da função targetPageParams():** adicione o seguinte código nas  `<head>` tags , acima da referência de at.js ou mbox.js.
 
