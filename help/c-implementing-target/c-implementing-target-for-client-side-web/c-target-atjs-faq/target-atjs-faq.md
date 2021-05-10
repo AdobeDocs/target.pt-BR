@@ -2,14 +2,14 @@
 keywords: perguntas frequentes da at.js; perguntas frequentes da at.js; perguntas frequentes; cintilação; loader; loader de página; domínio cruzado; tamanho do arquivo; tamanho; domínio x; at.js e mbox.js; somente x; domínio cruzado; safari; aplicativo de página única; seletores ausentes; seletores; aplicativo de página única; tt.omtrdc.net; spa; Adobe Experience Manager; AEM; endereço ip; httponly; Httponly; proteger; ip; domínio de cookie
 description: Leia as respostas para perguntas frequentes sobre a biblioteca de JavaScript do Adobe [!DNL Target] at.js .
 title: Quais são as perguntas e respostas comuns sobre a at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ A versão da at.js 1.0.0 permite carregar a biblioteca do Target de forma assín
 
 Para carregar a at.js de forma assíncrona:
 
-* A abordagem recomendada é por meio de um gerenciador de tags, como o Adobe Launch ou o Adobe Dynamic Tag Manager (DTM). Consulte a lição [Adicionar Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) do tutorial [Implementar o Experience Cloud em sites com o Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) para obter mais informações.
+* A abordagem recomendada é via [!DNL Adobe Experience Platform Launch]. Consulte a lição [Adicionar Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) do tutorial [Implementar o Experience Cloud em sites com o Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) para obter mais informações.
 * Também é possível carregar a at.js de forma assíncrona, adicionando o atributo async à tag do script que carrega a at.js. Use algo como o seguinte:
 
    ```
