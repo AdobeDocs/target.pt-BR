@@ -2,13 +2,13 @@
 keywords: cintilação; at.js; implementação; assíncrono; assíncrono; síncrono; síncrono
 description: Saiba como a at.js e o Adobe [!DNL Target] impedem a cintilação (o conteúdo padrão é exibido momentaneamente antes de ser substituído pelo conteúdo da atividade) durante o carregamento da página ou do aplicativo.
 title: Como a at.js gerencia a cintilação?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ Carregar a at.js de forma assíncrona é uma ótima maneira de evitar o bloqueio
 
 Você pode evitar a cintilação usando um trecho oculto previamente, que ficará visível após a personalização dos elementos HTML relevantes pelo [!DNL Target].
 
-O at.js pode ser carregado de forma assíncrona, seja diretamente incorporado na página ou por meio de um gerenciador de tags (Adobe Launch, Dynamic Tag Manager (DTM) etc.).
+O at.js pode ser carregado de forma assíncrona, seja diretamente incorporado na página ou por meio de um gerenciador de tags (por exemplo [!DNL Adobe Experience Platform Launch]).
 
 Se a at.js estiver incorporada na página, o trecho deverá ser adicionado antes de carregar a at.js. Se você carregar a at.js por meio de um gerenciador de tags, que também é carregado de forma assíncrona, será necessário adicionar o trecho antes de carregar o gerenciador de tags. Se o gerenciador de tags for carregado sincronicamente, o script pode ser incluído no gerenciador de tags antes da at.js.
 
