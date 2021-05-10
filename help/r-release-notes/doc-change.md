@@ -5,10 +5,10 @@ title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
+source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 62%
+source-wordcount: '1089'
+ht-degree: 61%
 
 ---
 
@@ -20,6 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Maio de 10 | Perguntas frequentes do Recommendations | Adição das seguintes perguntas frequentes: &quot;Posso usar um algoritmo criado em [!DNL Adobe Recommendations Classic] em [!DNL Recommendations Premium]?&quot; |
 | Maio de 6 | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Foram adicionadas as seguintes perguntas frequentes:<ul><li>Quanto tempo leva para que uma alteração na configuração da minha atividade, oferta, promoções ou configurações de critérios do [!UICONTROL Recommendations] seja refletida no meu site?</li><li>Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *que o usuário* recebe?</li><li>Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *outros* que os usuários recebem?</li></ul> |
 |  | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adição de um link para a seguinte postagem do blog no Adobe Tech Blog:<ul><li>Parte 1: Execute o SDK do Adobe Target NodeJS para Experimentação e Personalização em Plataformas de Borda (Trabalhadores do Akamai Edge)</li></ul> |
 | Maio de 5 | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição de informações sobre o intervalo de tempo das perguntas e respostas da comunidade do Adobe Target, que será realizado quarta-feira, 12 de maio de 2021, às 8h. (TFD, GMT-7). |
