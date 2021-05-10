@@ -1,37 +1,35 @@
 ---
-keywords: implementar; implementação; implementação; adobe launch; launch; raça; redirecionar; platform launch da experiência
+keywords: implementar; implementação; implementação; adobe launch; launch; raça; redirecionar; experience platform launch; platform launch
 description: Saiba como implementar a biblioteca Adobe [!DNL Target] at.js usando o Adobe Experience Platform Launch, o método preferido para implementar o Adobe [!DNL Target].
 title: Como implementar [!DNL Target] usando o Adobe Launch?
 feature: Implementar o lado do servidor
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 75%
+source-wordcount: '350'
+ht-degree: 10%
 
 ---
 
-# Implementar [!DNL Target] usando o Adobe Launch
+# Implemente [!DNL Target] usando [!DNL Adobe Platform Launch]
 
-O Adobe Experience Platform Launch é a plataforma de gerenciamento de tags de última geração do Adobe e é o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
+[!DNL Adobe Experience Platform Launch] O é a plataforma de gerenciamento de tags de última geração do  [!DNL Adobe] e o é o método preferido para implementar o  [!DNL Adobe Target]. [!DNL Platform Launch] O oferece aos clientes uma forma simples de implantar e gerenciar as tags de análise, marketing e anúncios necessárias para potencializar experiências de cliente relevantes.
 
-## Implementar [!DNL Target] usando o Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## Implemente [!DNL Target] usando [!DNL Platform Launch] {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
-O Launch é a plataforma de gerenciamento de tags da Adobe de próxima geração, sendo o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes.
-
-A tabela a seguir lista as diversas fontes em que você pode obter mais informações sobre o Launch:
+A tabela a seguir lista as diversas fontes em que você pode obter mais informações sobre o [!DNL Platform Launch]:
 
 | Recurso | Detalhes |
 |--- |--- |
-| [Implementação do Target usando o tutorial de extensões do Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Esse tutorial fornece instruções passo a passo para implementar o Adobe Target em um site com o Launch. Os tópicos incluem a adição da biblioteca do JavaScript at.js, o acionamento da mbox global, a adição de parâmetros e a integração com outras soluções. Este artigo faz parte de um tutorial maior que mostra como implementar o Adobe Launch, bem como as outras soluções da Adobe Experience Cloud. |
-| [Documentação do Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informações sobre implementação e gerenciamento de todas as análises, marketing e marcas de anúncio para aprimorar experiências de cliente relevantes. |
-| [Documentação da extensão do Adobe Target](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informações sobre como implementar o Target utilizando o Launch. |
+| [ [!DNL Target] Implementação do uso do tutorial de extensões do  [!UICONTROL Adobe Target]](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#implement-solutions) | Este tutorial fornece instruções passo a passo para implementar [!DNL Target] em um site com [!DNL Platform Launch]. Os tópicos incluem a adição da biblioteca do JavaScript at.js, o acionamento da mbox global, a adição de parâmetros e a integração com outras soluções. Este artigo faz parte de um tutorial maior que mostra como implementar [!DNL Platform Launch] e outras soluções [!DNL Adobe Experience Cloud]. |
+| [[!DNL Adobe Platform Launch] Documentação](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html#get-started) | Informações sobre a implantação e o gerenciamento de tags de análise, marketing e publicidade necessárias para potencializar experiências de cliente relevantes. |
+| [ [!DNL Target] Documentação do AdobeExtension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informações sobre como implementar [!DNL Target] usando [!DNL Platform Launch]. |
 
-## Vantagens de implementar a at.js usando a extensão [!DNL Target] do Launch {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Vantagens de implementar a at.js usando a extensão [!DNL Target] [!DNL Platform Launch] {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
-As seguintes vantagens se aplicam apenas se você usar o Adobe Launch para implementar o at.js. Por essa razão, recomendamos usar o Adobe Launch em vez do DTM ou uma implementação manual da at.js.
+As seguintes vantagens se aplicam somente se você usar [!DNL Platform Launch] para implementar a at.js. Por isso, [!DNL Adobe] sugere que você use [!DNL Platform Launch] em vez de uma implementação manual da at.js.
 
-* **Soluciona condição de corrida do Analytics e do Target:** como a chamada do Analytics pode ser acionada antes da chamada do Target, a chamada do Target não é anexada à chamada do Analytics. Isso pode levar a dados incorretos. A partir do 0.6.0, a extensão Launch do Target garante que a chamada de beacon do Analytics espere até que a chamada do Target seja concluída com sucesso ou não. Isso deve solucionar a inconsistência de dados os que os clientes podem ter encontrado.
-* **Impede o tratamento incorreto da oferta de redirecionamento** Se você tiver o Target e o Analytics na página e uma oferta de redirecionamento for executada pelo Target, você pode se deparar com uma situação em que o rastreador do Analytics aciona uma solicitação quando não deveria (porque o usuário está sendo redirecionado para um URL diferente). Se implementar o Target e o Analytics por meio do Launch, você não enfrentará esse problema. Usando o Launch, o Target instrui o Analytics a suspender a solicitação de beacon do Analytics.
+* **Soluções  [!DNL Adobe Analytics] e condições de  [!DNL Target] corrida:** como a  [!DNL Analytics] chamada pode ser acionada antes da  [!DNL Target] chamada do , a  [!DNL Target] chamada do não é anexada à  [!DNL Analytics] chamada do . Essa sequência pode levar a dados incorretos. A partir do 0.6.0, a extensão [!DNL Platform Launch] garante que a chamada de beacon [!DNL Analytics] espere até que a chamada [!DNL Target] seja concluída com êxito ou não. Usar [!DNL Platform Launch] resolve a inconsistência de dados que os clientes podem experimentar ao implementar manualmente.
+* **Impede o tratamento incorreto da oferta de redirecionamento:** se você tiver  [!DNL Target] e  [!DNL Analytics] na página e houver uma oferta de redirecionamento executada pelo  [!DNL Target], você poderá enfrentar uma situação em que o  [!DNL Analytics] rastreador aciona uma solicitação quando não deveria (porque o usuário está sendo redirecionado para um URL diferente). Se implementar [!DNL Target] e [!DNL Analytics] por meio de [!DNL Platform Launch], você não enfrentará esse problema. Usando [!DNL Platform Launch], [!DNL Target] instrui [!DNL Analytics] para suspender a solicitação de beacon [!DNL Analytics].
