@@ -6,16 +6,16 @@ feature: Implementar o lado do servidor
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 52%
+source-wordcount: '1687'
+ht-degree: 53%
 
 ---
 
 # Implementar [!DNL Target] sem um gerenciador de tags
 
-Informações sobre como implementar [!DNL Adobe Target] sem usar um gerenciador de tags ([!DNL Adobe Experience Platform Launch] ou [!DNL Dynamic Tag Manager]).
+Informações sobre como implementar [!DNL Adobe Target] sem usar um gerenciador de tags ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Para obter mais informações, consulte [Configurações da API de perfil](/help
 
 Gere um token de autorização para usar as ferramentas de depuração [!DNL Target] avançadas. Clique em **[!UICONTROL Gerar Novo Token de Autenticação]**.
 
-![Gerar Novo Token de Autenticação](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+![Gerar novo token de autenticação](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### Privacidade
 
@@ -181,7 +181,7 @@ Para baixar a [!DNL at.js] usando a API.
 
 A at.js deve ser implementada no elemento `<head>` de cada página do site.
 
-Uma implementação típica do Target que não usa um gerenciador de tags como [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) é semelhante a:
+Uma implementação típica do Target que não usa um gerenciador de tags como [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) é semelhante a:
 
 ```
 <!doctype html> 
