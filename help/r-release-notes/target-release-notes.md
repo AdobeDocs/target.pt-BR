@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Notas de versão
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
+source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 37%
+source-wordcount: '394'
+ht-degree: 36%
 
 ---
 
@@ -28,6 +28,10 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 ## [!DNL Adobe Experience Platform Web SDK] (17 de maio de 2021)
 
 Esta versão do [!DNL Platform Web SDK] inclui suporte para [!UICONTROL Analytics for Target] (A4T) para redirecionamentos [!DNL Target].
+
+## [!DNL Target Standard/Premium] 21.5.1 (25 de maio de 2021)
+
+O conteúdo será adicionado à medida que a data de lançamento se aproximar.
 
 ## [!DNL Target Standard/Premium] 21.5.2 (Data a determinar)
 
