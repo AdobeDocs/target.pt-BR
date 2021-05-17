@@ -2,13 +2,12 @@
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; redirecionar; oferta de redirecionamento; adobe-mc-sdid; adobe_mc_ref
 description: Encontre respostas para perguntas sobre o uso de ofertas de redirecionamento ao usar o Analytics para  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
 title: Onde posso encontrar perguntas frequentes sobre ofertas de redirecionamento com o A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -73,7 +72,7 @@ Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.
 
-## Meus servidores da web estão removendo esses parâmetros de meus URLs. O que devo fazer?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meus servidores da web estão removendo esses parâmetros de meus URLs. O que devo fazer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Trabalhe com a equipe de TI para que esses parâmetros ( `adobe_mc_sdid` e `adobe_mc_ref`) incluídos na lista de permissões.
 
@@ -106,3 +105,23 @@ Com [!DNL at.js] versão 0.9.6 (ou posterior) e [!DNL AppMeasurement.js] 2.1 (ou
 ## Posso usar ofertas de redirecionamento personalizadas/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 Não, você deve usar as ofertas de redirecionamento incorporadas para atividades que usam o [!DNL Analytics] como fonte de geração de relatórios (A4T). Da perspectiva do [!DNL Target], as ofertas de HTML são opacas: o [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
+
+## O [!DNL Adobe Experience Platform Web SDK] é compatível com as ofertas de redirecionamento para o A4T? {#platform}
+
+As seguintes perguntas frequentes fornecem mais informações sobre o uso do A4T e ofertas de redirecionamento com o [!DNL Platform Web SDK].
+
+>[!NOTE]
+>
+>O suporte ao A4T em uma implementação [!DNL Adobe Experience Platform Web SDK] discutida neste artigo está programado para estar disponível com a versão [!DNL Platform Web SDK] 2.5.0 (24 de maio de 2021).
+
+### O Analytics for Target (A4T) é compatível com as ofertas de redirecionamento?
+
+Sim, o A4T por meio do SDK da Web da plataforma é compatível com [ofertas de redirecionamento](/help/c-experiences/c-manage-content/offer-redirect.md).
+
+### O [!UICONTROL Visual Experience Composer] (VEC) e o [!UICONTROL Experience Composer baseado em formulário] são suportados?
+
+Sim, o [[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e o [[!UICONTROL Experience Composer baseado em formulário]](/help/c-experiences/form-experience-composer.md) são suportados se você usar ofertas de redirecionamento integradas.
+
+### Posso usar ofertas de redirecionamento personalizadas/HTML com o [!DNL Platform Web SDK]?
+
+Não, você deve usar uma oferta de redirecionamento integrada para atividades que usam o A4T. Da perspectiva [!DNL Target], as ofertas HTML são opacas. [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
