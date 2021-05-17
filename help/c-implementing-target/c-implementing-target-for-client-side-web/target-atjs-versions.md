@@ -2,13 +2,12 @@
 keywords: versões da at.js; versões da at.js; notas de versão
 description: Veja os detalhes sobre as alterações em cada versão da biblioteca JavaScript do Adobe [!DNL Target] at.js .
 title: O que está incluído em cada versão da at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '4184'
-ht-degree: 81%
+source-wordcount: '4181'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +22,7 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no catálogo [!DNL Launch] como atualizações. Para obter mais informações, consulte [Atualização de extensão](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) no *Guia do Usuário do Experience Platform Launch*.
 
-## at.js 2.5.0 (Data de anúncio)
+## at.js 2.5.0 (13 de maio de 2021)
 
 Essa versão da at.js inclui os seguintes aprimoramentos e alterações:
 
@@ -41,35 +40,35 @@ Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprim
 
 ## at.js 2.4.0 (14 de janeiro de 2021)
 
-Esta versão da at.js é uma versão de manutenção e inclui as seguintes correções:
+Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
-* Adiciona suporte para unfied profile/platform id para delivery de API customerIds.
+* Adiciona suporte para id de perfil/plataforma unificada para API de entrega de customerIds.
 * Corrige a injeção de tag de estilo inválida.
 
 ## at.js 2.3.3 (13 de novembro de 2020)
 
-Esta versão da at.js é uma versão de manutenção e inclui a seguinte correção:
+Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
 * Correção de um problema relacionado ao rastreamento de cliques de mbox e ao A4T. Com o clique de 0, o Target acionou uma chamada de API de entrega com os parâmetros mbox e mbox corretos. No entanto, a SDID não correspondeu à chamada [!DNL Analytics], portanto, não houve agrupamento e conversão de ocorrência. (TNT-38372)
 
 ## at.js 2.3.2 (24 de julho de 2020)
 
-Esta versão da at.js é uma versão de manutenção e inclui a seguinte correção:
+Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
 * Correção de um erro quando um script ou código adicionava uma propriedade padrão à janela ou ao documento.
 
 ## at.js 1.8.2 (15 de junho de 2020)
 
-Esta versão da at.js é uma versão de manutenção e inclui a seguinte correção:
+Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
-* Correção de um problema ao usar a substituição de CNAME e borda, o at.js 1.*O* xpode criar o domínio do servidor incorretamente, o que resultou na falha da  [!DNL Target] solicitação. (TNT-35064)
+* Correção de um problema ao usar a substituição de CNAME e borda, at.js 1.O *x* pode criar o domínio do servidor incorretamente, o que resultou na falha da solicitação do [!DNL Target]. (TNT-35064)
 
 ## Versões 2.3.1 da at.js (15 de junho de 2020)
 
 Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
 * A configuração `deviceIdLifetime` foi substituída por [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
-* Correção de um problema ao usar a substituição de CNAME e borda, o at.js 2.*O* xpode criar o domínio do servidor incorretamente, o que resultou na falha da  [!DNL Target] solicitação. (TNT-35065)
+* Correção de um problema ao usar a substituição de CNAME e borda, at.js 2.O *x* pode criar o domínio do servidor incorretamente, o que resultou na falha da solicitação do [!DNL Target]. (TNT-35065)
 * Correção de um problema ao usar a extensão [!DNL Target] [!DNL Launch] v2 e a extensão [!DNL Adobe Analytics] [!DNL Launch], [!DNL Target] atrasava a chamada [!DNL Analytics] `sendBeacon`. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js versão 2.3.0 (terça-feira, 25 de março de 2020)
@@ -99,7 +98,7 @@ Essa versão da at.js inclui os seguintes aprimoramentos e correções:
    >
    >Atualize sua extensão do Launch ECID para v4.4 para aproveitar esse aprimoramento de desempenho.
 
-* A at.js versão 2.2 também fornece uma nova configuração chamada `serverState`. Essa configuração pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando a at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. `serverState` O fornece ao at.js v2.2+ a capacidade de aplicar experiências diretamente de conteúdo buscado no lado do servidor e retornado ao cliente como parte da página que está sendo veiculada. Para obter mais informações, consulte &quot;serverState&quot; em [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* A at.js versão 2.2 também fornece uma nova configuração chamada `serverState`. Essa configuração pode ser usada para otimizar o desempenho da página quando uma integração híbrida do Target é implementada. A integração híbrida significa que você está usando a at.js v2.2+ no lado do cliente e a API de entrega ou um SDK do Target no lado do servidor para fornecer experiências. O `serverState` fornece ao at.js v2.2+ a capacidade de aplicar experiências diretamente de conteúdo buscado no lado do servidor e retornado ao cliente como parte da página que está sendo veiculada. Para obter mais informações, consulte &quot;serverState&quot; em [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js versão 1.8.0 (10 de outubro de 2019)
 
@@ -112,7 +111,7 @@ Essa versão da at.js inclui os seguintes aprimoramentos e correções:
 >
 >Atualize sua extensão do Launch ECID para v4.4 para aproveitar esse aprimoramento de desempenho.
 
-## at.js versão 2.1.1 (quarta-feira, 24 de julho de 2019)
+## at.js versão 2.1.1 (24 de julho de 2019)
 
 Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
@@ -299,7 +298,7 @@ A at.js versão 1.3.0 já está disponível.
 
 A [!DNL at.js] versão 1.2.3 já está disponível.
 
-* Adiciona suporte para ofertas JSON. As ofertas JSON são suportadas apenas em atividades criadas usando o Experience Composer baseado em formulário. Atualmente, a única maneira de usar as ofertas do JSON é por meio de chamadas diretas à API. Consulte  [Criar ofertas JSON](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
+* Adiciona suporte para ofertas JSON. As ofertas JSON são suportadas apenas em atividades criadas usando o Experience Composer baseado em formulário. Atualmente, a única maneira de usar as ofertas do JSON é por meio de chamadas diretas à API. Consulte [Criar ofertas JSON](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
 
 ## at.js versão 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
