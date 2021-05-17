@@ -5,11 +5,10 @@ title: 'Quais navegadores são compatíveis? [!DNL Target] '
 feature: Implementação
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 58%
+source-wordcount: '341'
+ht-degree: 48%
 
 ---
 
@@ -19,7 +18,7 @@ O aplicativo [!DNL Adobe Target] e a entrega de conteúdo foram testados em uma 
 
 Para obter informações mais importantes sobre TLS, consulte [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target]Interface do Standard/Premium{#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target]Interface do Standard/Premium {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 A interface [!DNL Target] é compatível com os seguintes navegadores e dispositivos:
 
@@ -34,7 +33,7 @@ A entrega de conteúdo foi testada nos seguintes navegadores e dispositivos:
 
 | Tipo de dispositivo | Versão do navegador |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 e 10. Testado no modo de emulação.<br>**Observação**: o at.js 1.3.0 (e posterior) não oferece mais suporte à entrega de conteúdo no Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (mais recente, menos 1)</li><li>Firefox (mais recente, menos 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 e 10. Testado no modo de emulação.<br>**Observação**: A entrega de conteúdo no IE 9 não é mais compatível com o at.js 1.3.0 (e posterior). A entrega de conteúdo no IE 10, 11 e em todas as versões mais antigas não é mais compatível com o at.js 2.5.0 (e posterior).</li><li>Internet Explorer 11 <br>**Nota**: A entrega de conteúdo no IE 10, 11 e em todas as versões mais antigas não é mais compatível com o at.js 2.5.0 (e posterior).</li><li>Microsoft Edge</li><li>Chrome (mais recente, menos 1)</li><li>Firefox (mais recente, menos 1)</li></ul> |
 | Mac | <ul><li>Apple Safari (mais recente)<br>**Nota**: Para obter mais informações sobre como o Safari processa cookies próprios e de terceiros, consulte [Cookie do Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (mais recente, menos 1)</li><li>Chrome (mais recente, menos 1)</li></ul> |
 | Móvel/Tablet | <ul><li>Apple iOS (mais recente)</li><li>Dispositivos e tablets Android (Android 4 e posterior)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
