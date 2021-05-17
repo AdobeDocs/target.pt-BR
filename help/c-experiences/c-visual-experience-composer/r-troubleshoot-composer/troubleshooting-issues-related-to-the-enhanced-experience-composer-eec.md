@@ -2,52 +2,48 @@
 keywords: Definição de metas; eec; visual experience composer; solucionar problemas do enhanced experience composer; solução de problemas
 description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Como soluciono problemas relacionados ao Enhanced Experience Composer?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-translation-type: tm+mt
-source-git-commit: 28e21ea0b0e2306a54c9353ae57de7de5d94f564
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 61%
+source-wordcount: '429'
+ht-degree: 53%
 
 ---
 
-# Solução de problemas relacionados ao Enhanced Experience Composer
+# Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]
 
 Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
 
-## O EEC não carregará um URL interno de controle de qualidade que não esteja acessível no IP público. (Somente EEC) {#section_D29E96911D5C401889B5EACE267F13CF}
+## O EEC não carregará um URL interno de controle de qualidade que não esteja acessível no IP público. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Isso pode ser resolvido incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP incluir na lista de permissões
+Isso pode ser resolvido incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor Adobe usado para o proxy EEC. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP incluídos na lista de permissões.
 
 Peça à equipe de TI para lista de permissões os seguintes endereços IP:
 
-* 52.16.72,74
-* 52.5.174,79
-* 54 246 238,65
-* 54 249 183 154
-* 54 65 105 214
-* 54.82.142,68
+* 52.55.99.45
+* 52.51.238.221
+* 52.193.67.35
 
-Você poderá ver a seguinte mensagem de erro no Target:
+Você poderá ver a seguinte mensagem de erro no [!DNL Target]:
 
-`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
 ![](assets/EEC_error.png)
 
 Os motivos pelos quais você pode ver essa mensagem de erro e correções para corrigir a situação são:
 
-* **Problema:** o domínio (ISP) do site está bloqueando o Enhanced Experience Composer.
+* **Problema:**[!UICONTROL o domínio (ISP) do site está bloqueando o Enhanced Experience Composer].
 
    **Solução:** Lista de permissões os endereços IP listados acima.
 
-* **Problema:** os endereços IP são incluir na lista de permissões, mas o seu site não é compatível com a versão 1.2 do TLS. O Target atualmente usa a configuração padrão do 1.2. Antes do Target 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte Alterações de criptografia do  [TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Problema:** os endereços IP são incluir na lista de permissões, mas o seu site não é compatível com a versão 1.2 do TLS.  [!DNL Target] Atualmente usa a configuração padrão do 1.2. Antes da versão  [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte Alterações na criptografia do  [TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-   **Solução:** consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).
+   **Solução:**[!UICONTROL consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).]
 
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Você poderá ver a mensagem de erro descrita acima em &quot;o Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site&quot;. se os endereços IP acima forem incluir na lista de permissões, mas o site não for compatível com a versão 1.2 do TLS. O Target atualmente usa a configuração padrão do 1.2. Antes do Target 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte [Alterações de criptografia do TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Você poderá ver a mensagem de erro descrita acima em &quot;O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site&quot;. se os endereços IP acima forem incluir na lista de permissões, mas o site não for compatível com a versão 1.2 do TLS. [!DNL Target] atualmente usa a configuração padrão do 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com o TLS 1.0. Para obter mais informações, consulte [Alterações de criptografia do TLS (Transport Layer Security)&lt;a/>.](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)
 
 Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores têm etapas semelhantes):
 
