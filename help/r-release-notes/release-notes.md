@@ -4,11 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 59%
+source-wordcount: '642'
+ht-degree: 58%
 
 ---
 
@@ -23,6 +22,15 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >Migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## at.js versão 2.5.0 (13 de maio de 2021)
+
+Essa versão da at.js inclui os seguintes aprimoramentos e alterações:
+
+* [Suporte ao On-device ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Decisioning para at.js.
+* [Visualizar ](/help/c-activities/c-activity-qa/activity-qa.md) links suporte para atividades do Automated Personalization
+
+Esta versão também remove o suporte ao Microsoft Internet Explorer 10, Internet Explorer 11 e todas as versões mais antigas. O Microsoft Edge continua sendo compatível com a at.js 2.5.0 e posteriores.
 
 ## Target Standard/Premium 21.4.1 (19 de abril de 2021)
 
@@ -40,15 +48,6 @@ Esta versão contém as seguintes correções.
 * Correção de um problema que impedia o carregamento correto da página [!UICONTROL Administration] > [!UICONTROL Scene7 configuration]. (TGT-39918)
 * Correção de um problema que fazia com que as propriedades fossem mapeadas para o espaço de trabalho incorreto. (TGT-39869)
 * Correção de um problema que causava o carregamento infinito se a solicitação falhasse após alterar o ambiente ao criar uma exclusão de recomendações. (TGT-39948)
-
-## at.js versão 2.5.0 (Data de anúncio)
-
-Essa versão da at.js inclui os seguintes aprimoramentos e alterações:
-
-* [Suporte ao On-device ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Decisioning para at.js.
-* [Visualizar ](/help/c-activities/c-activity-qa/activity-qa.md) links para as atividades do Automated Personalization.
-
-Esta versão também remove o suporte ao Microsoft Internet Explorer 10 e versões posteriores.
 
 ## Notas de versão adicionais e detalhes da versão
 
