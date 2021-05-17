@@ -4,11 +4,10 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Notas de versão
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '30798'
-ht-degree: 99%
+source-wordcount: '31071'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +22,32 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2021
+
+### at.js versão 2.5.0 (13 de maio de 2021)
+
+Essa versão da at.js inclui os seguintes aprimoramentos e alterações:
+
+* [Suporte ao On-device ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Decisioning para at.js.
+* [Visualizar ](/help/c-activities/c-activity-qa/activity-qa.md) links suporte para atividades do Automated Personalization
+
+Esta versão também remove o suporte ao Microsoft Internet Explorer 10, Internet Explorer 11 e todas as versões mais antigas. O Microsoft Edge continua sendo compatível com a at.js 2.5.0 e posteriores.
+
+### Target Standard/Premium 21.4.1 (19 de abril de 2021)
+
+Esta versão contém os seguintes novos recursos e aprimoramentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+| Recurso | Detalhes |
+| --- | --- |
+| Suporte de decisão no dispositivo para at.js<br>(Data a ser anunciada) | A tomada de decisão no dispositivo permite que profissionais de marketing e desenvolvedores forneçam experiência e personalização no navegador de um usuário com latência próxima de zero.<br>Para obter mais informações, consulte Decisão  [no dispositivo para at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) Operadores baseados em PremiumList para regras de filtragem de entidade | [!DNL Target Recommendations] O suporta novos operadores baseados em lista para regras de filtragem de entidade. (TGT-39234)<br>Os operadores recém-adicionados incluem:<br><ul><li>Está Contido Na Lista</li><li>Não Está Contido Na Lista</li><li>A Lista Contém Um Item Em</li><li>A Lista Não Contém Um Item Em</li><li>A Lista Contém Todos Os Itens Em</li><li>A Lista Não Contém Todos Os Itens Em</li></ul>Para obter mais informações, consulte &quot;Operadores disponíveis&quot; em [Usar regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+
+Esta versão contém as seguintes correções.
+
+* Correção de um problema que impedia a sincronização de uma atividade após alterar o público-alvo para [!UICONTROL Todos os visitantes]. (TGT-40259)
+* Correção de um problema que impedia a duplicação de ofertas quando usadas em locais diferentes nas atividades [!UICONTROL Automated Personalization], mesmo que a opção [!UICONTROL Não permitir duplicatas] estivesse habilitada. (TGT-39567)
+* Correção de um problema que impedia o carregamento correto da página [!UICONTROL Administration] > [!UICONTROL Scene7 configuration]. (TGT-39918)
+* Correção de um problema que fazia com que as propriedades fossem mapeadas para o espaço de trabalho incorreto. (TGT-39869)
+* Correção de um problema que causava o carregamento infinito se a solicitação falhasse após alterar o ambiente ao criar uma exclusão de recomendações. (TGT-39948)
 
 ### at.js 2.4.1 (23 de março de 2021)
 
@@ -563,7 +588,7 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 | --- | --- |
 | Visual Experience Composer | O Visual Experience Composer (VEC) inclui as seguintes melhorias para agilizar o seu trabalho e torná-lo mais eficiente:<ul><li>É possível cancelar o carregamento de um site da web no VEC para desbloquear a edição de uma atividade. Esse aprimoramento é útil, por exemplo, caso você deseje fazer uma pequena edição na atividade, revisar os ajustes ou adicionar código personalizado, mas não quer esperar até que o site termine de carregar. (TGT -31288)<br>Consulte [Cancelar o carregamento de uma página no VEC](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>É possível executar muitas ações antes que a página seja carregada no VEC ou até mesmo se a página não carregar completamente (por exemplo, o código personalizado não é mais operacional). Ações que não podem ser editadas antes que o site seja carregado estão desabilitadas na interface do Target. (TGT-31288, TGT-31611 e TGT-32602)<br>Consulte [Editar uma página enquanto ela está carregando ou após uma falha de carregamento](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>O VEC mostra a caminho DOM para que você possa selecionar facilmente o elemento correto ao criar ou editar experiências. (TGT -13422)<br>Consulte [Navegar pelos elementos usando o caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
 
-### at.js versão 2.0.1 (19 de março de 2019) {#atjs201}
+### at.js versão 2.0.1 (terça-feira, 19 de março de 2019) {#atjs201}
 
 Essa é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
@@ -579,7 +604,7 @@ Essa é uma versão de manutenção e inclui os seguintes aprimoramentos e corre
 >
 >Se você precisar de suporte do [!DNL Adobe] Opt-in para o Regulamento Geral sobre a Proteção de Dados (GDPR), é necessário implementar a at.js 1.7.1. No momento, a at.js 2 não oferece suporte ao Opt-in.*x*.
 
-### at.js versão 1.7.1 (19 de março de 2019) {#atjs171}
+### at.js versão 1.7.1 (terça-feira, 19 de março de 2019) {#atjs171}
 
 Essa é uma versão de manutenção e inclui a seguinte correção:
 
@@ -963,7 +988,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
 * A linha Backup do download CSV do Recommendations agora apresenta um &quot;*&quot; (asterisco entre aspas) em vez de * (apenas um asterisco) no início.
 * A linha Mais vendidos / Mais visualizados no download CSV do Recommendations não mais apresenta uma vírgula no início.
 
-### Alterações na plataforma do Target (19 de junho de 2018)   {#section_0638BD69F3C640479A2A258AD78C0884}
+### Alterações na plataforma do Target (19 de junho de 2018)  {#section_0638BD69F3C640479A2A258AD78C0884}
 
 Esta versão inclui o seguinte aprimoramento:
 
@@ -977,11 +1002,11 @@ Esta versão inclui o seguinte aprimoramento:
 
    Para obter mais informações, consulte [Dispositivo móvel](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
 
-### API de download do Target (5 de junho de 2018)   {#section_B8729DA10F18433C8D8E01B04F308ED2}
+### API de download do Target (5 de junho de 2018)  {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
 É possível usar a API de download de recomendações para baixar suas recomendações em um arquivo .CSV que pode ser visualizado em uma planilha ou editor de texto. Para segurança melhorada, a partir de **5 de junho de 2018**, o Target bloqueará solicitações HTTP e permitirá apenas solicitações HTTPS.
 
-### Target Standard/Premium 18.5.1 (22 de maio de 2018)   {#section_7C1427793C2A48DBAC39F8290717DC5B}
+### Target Standard/Premium 18.5.1 (22 de maio de 2018)  {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -1130,7 +1155,7 @@ Esta versão inclui os seguintes recursos e melhorias:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.3.1 (20 de março de 2018)   {#section_880706BE15544A03A2C951F267F4AEC5}
+### Target Standard/Premium 18.3.1 (20 de março de 2018)  {#section_880706BE15544A03A2C951F267F4AEC5}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
@@ -1443,7 +1468,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.9.1 (25 de setembro de 2017 e 12 de outubro de 2017)   {#section_ECC5DD8B6ED443788B46F53E25FC896E}
+### Target Standard/Premium 17.9.1 (25 de setembro de 2017 e 12 de outubro de 2017)  {#section_ECC5DD8B6ED443788B46F53E25FC896E}
 
 Esta versão inclui os seguintes recursos e aprimoramentos (os números de edição entre parênteses são para o uso interno da Adobe):
 
@@ -1519,7 +1544,7 @@ Para obter mais informações, consulte [Ativar conteúdo misto no navegador](/h
 
 * Fluxo de trabalho melhorado quando a sessão do Target de um usuário atinge o tempo limite ao configurar as opções nas páginas Administração, Públicos-alvo e Recomendações. Quando o usuário clica em Salvar, a mensagem de sessão expirada é exibida; porém, depois de fazer logon novamente, uma caixa de diálogo informa ao usuário que o logon foi bem-sucedido e a interface do usuário permanece na mesma página no Target, sem perda de dados. (TGT-25557)
 
-### Alterações na plataforma do Target (27 de setembro de 2017)   {#section_AC32516DFBA64AD2AC9A74171D452778}
+### Alterações na plataforma do Target (27 de setembro de 2017)  {#section_AC32516DFBA64AD2AC9A74171D452778}
 
 <table id="table_701D8D53D1DF4F28ADAC6EC221B0208A"> 
  <thead> 
@@ -1815,7 +1840,7 @@ Essa versão do [!DNL Target] está focada em correções de back-end e inclui o
 * Correção de um problema que fazia com que a configuração &quot;Incrementar contagem, liberar usuário e permitir reentrada&quot; nas Configurações avançadas das atividades não funcionasse corretamente. (TNT-26556)
 * Correção de um problema que impedia que os dados de Atributos do cliente fossem removidos do Target depois de serem atualizados com valor NULO na interface do usuário da Experience Cloud. (TNT-26462)
 
-### Alterações na plataforma do Target (13 de abril de 2017)   {#section_B59C26405EB7482AA80820D6D39B9C44}
+### Alterações na plataforma do Target (13 de abril de 2017)  {#section_B59C26405EB7482AA80820D6D39B9C44}
 
 <table id="table_6167ECB7B44F40DCADF299F46F1F795C"> 
  <thead> 
@@ -1924,7 +1949,7 @@ Essa versão do [!DNL Target] está focada em melhorias de usabilidade e desempe
 
    Se isso não for o que você deseja, pode adicionar outro local à atividade, atribuir a mbox global a esse local e fornecer o conteúdo padrão. Essa solução alternativa conecta a mbox global à atividade e permite ao Target contabilizar a métrica para fins de relatório.
 
-### Alterações na plataforma do Target (18 de janeiro de 2017)   {#section_EA41802B2B24426FBA88D25E17DBE360}
+### Alterações na plataforma do Target (18 de janeiro de 2017)  {#section_EA41802B2B24426FBA88D25E17DBE360}
 
 <table id="table_3A2CD47252894F119B0E60BF6A9285B0"> 
  <thead> 
@@ -2136,7 +2161,7 @@ Essa versão inclui os seguintes aprimoramentos:
 
 * A opção [!UICONTROL Renderizar usando JavaScript] não é mais suportada se usada em conjunto com um código personalizado no Visual Experience Composer.
 
-### Alterações na plataforma do Target (setembro de 2016)   {#section_1955146045A247D393DB824669A2A916}
+### Alterações na plataforma do Target (setembro de 2016)  {#section_1955146045A247D393DB824669A2A916}
 
 <table id="table_8FDAEED5D84C4C718AB863BD6C383F20"> 
  <thead> 
@@ -2441,7 +2466,7 @@ Os seguintes problemas conhecidos foram relatados:
 * Quando &quot;Desativar JavaScript&quot; é selecionado para a página A em uma atividade multipáginas, o JavaScript é desativado em todos os locais, apesar de &quot;Desativar JavaScript&quot; não estar selecionado em outras páginas.
 * Edição com URLs de visualização para experiências com redirecionamentos. Como solução, no Experience Composer, clique em **[!UICONTROL Configurar]**, escolha **[!UICONTROL Vários públicos-alvo]** e adicione **[!UICONTROL Todos os visitantes]** como único público-alvo. Continue para salvar sua atividade. Isso não altera a entrega da sua atividade, mas permite visualizar o trabalho. Isso será corrigido na versão de julho do Adobe Target.
 
-### Nova [!DNL Target] Biblioteca de implementação, at.js 0.8.0 (5 de maio de 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
+### Nova [!DNL Target] biblioteca de implementação, at.js 0.8.0 (5 de maio de 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 A at.js é uma nova biblioteca de implementação do Target, projetada para implementações típicas da Web e aplicativos de página única.
 
@@ -3162,7 +3187,7 @@ Esta versão inclui as seguintes correções:
 * Corrigimos um problema no Recommendations no qual os atributos com caracteres de byte duplo (para casos multilíngues) ignoravam as regras de filtragem de inclusão.
 * Todos os tipos de atividades agora aceitam nomes de atividades com até 200 caracteres.
 
-### Adobe [!DNL Target] Standard/Premium15.3.1 (26 de março de 2015) {#section_591371851693496C820175753F588E73}
+### Adobe [!DNL Target] Standard/Premium 15.3.1 (26 de março de 2015) {#section_591371851693496C820175753F588E73}
 
 Esta versão inclui os seguintes recursos e melhorias:
 
