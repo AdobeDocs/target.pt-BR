@@ -2,21 +2,24 @@
 keywords: Recommendations
 description: Saiba mais sobre os requisitos de implementação do Analytics para [!DNL Target] (A4T) e o que deve ser considerado antes de implementar essa integração.
 title: O que devo saber antes de implementar o A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '897'
 ht-degree: 33%
 
 ---
 
-# Antes da implementação 
+# Antes de implementar o Analytics for Target (A4T) com a at.js
 
 Várias alterações ocorrem no processo de coleta de dados ao ativar [!DNL Adobe Analytics] como a fonte de relatórios para [!DNL Adobe Target] (A4T).
 
-Antes de decidir usar essa integração, revise as seguintes seções e considere o impacto aos seus processos de relatórios:
+Antes de decidir usar essa integração, revise as seguintes seções e considere o impacto aos seus processos de relatórios.
+
+>[!NOTE]
+>
+>Este artigo se aplica somente às implementações da at.js.
 
 ## Requisitos de implementação {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -65,7 +68,7 @@ Esse aumento é refletido em todos os [!DNL Analytics] serviços e ferramentas, 
 
 O aumento da latência começa após a implementação do serviço de ID de visitante [!DNL Experience Cloud], mesmo que essa integração não tenha sido integralmente implementada.
 
-## ID suplementar   {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## ID suplementar  {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Todas as chamadas [!DNL Target] usadas por uma atividade A4T para fornecer conteúdo ou registrar a métrica de meta devem ter uma ocorrência [!DNL Analytics] correspondente que compartilha a ID adicional para o A4T para funcionar corretamente.
 
