@@ -2,22 +2,17 @@
 keywords: implementação; biblioteca javascript; js; atjs; decisão no dispositivo; no device decisioning; at.js; no dispositivo; no dispositivo
 description: Saiba como executar a decisão no dispositivo com a biblioteca at.js
 title: Como o On-device Decisioning funciona com a biblioteca JavaScript da at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7f1db24e902c4b06c2035a94924abfe2d254bf25
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
 # Decisão no dispositivo para at.js
-
->[!NOTE]
->
->A decisão no dispositivo estará disponível com a próxima [versão da at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Data a anunciar em breve.
 
 A partir da versão 2.5.0, a at.js oferece decisão no dispositivo. A decisão no dispositivo permite armazenar em cache as atividades [A/B Test](/help/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) (XT) no navegador para executar a decisão na memória sem uma solicitação de rede de bloqueio para a [!DNL Adobe Target] Edge Network.
 
