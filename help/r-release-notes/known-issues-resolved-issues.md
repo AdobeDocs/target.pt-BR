@@ -4,10 +4,9 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Notas de versão
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
+source-wordcount: '4409'
 ht-degree: 98%
 
 ---
@@ -23,6 +22,10 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### O arquivamento de [!UICONTROL atividades de Direcionamento automático] pode causar problemas de sincronização
+
+A tentativa de arquivar atividades inativas [!UICONTROL Direcionamento automático] pode levar a problemas de sincronização. Até que esse problema seja corrigido, não arquive as atividades de [!UICONTROL Direcionamento automático]. Deixe-os no estado [!UICONTROL Inativo]. (TGT-40885)
 
 ### Métricas do Analytics for Adobe Target (A4T) para atividades de Alocação automática e Direcionamento automático
 
@@ -134,7 +137,7 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 
 Em 10 de maio de 2020, a Adobe atualizou os arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores em públicos existentes não tinham vírgula. Nem todos os servidores de entrega da Adobe foram afetados por essa alteração. Como resultado, os públicos que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
 
-### Relatório - Dados inconsistentes no relatório .csv baixável versus o relatório exibido na interface do usuário [!DNL Target]. {#csv}
+### Relatórios - Dados inconsistentes no relatório .csv baixável versus o relatório exibido na interface do usuário [!DNL Target]. {#csv}
 
 Os relatórios gerados para download como arquivos .csv são inconsistentes se a atividade usar mais de uma métrica. O relatório que pode ser baixado é gerado somente com base nas configurações do relatório e considera o mesmo valor para qualquer outra métrica usada.
 
@@ -237,7 +240,7 @@ Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo
 
 at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
 
-### Suporte a Permissões empresariais nas APIs [!DNL Target] {#api}
+### Suporte a permissões empresariais nas APIs [!DNL Target] {#api}
 
 As ofertas de código criadas na interface do usuário do Target na biblioteca de ofertas podem ser exibidas no espaço de trabalho padrão se a lista de ofertas for obtida usando APIs GET. Esse problema será corrigido na primeira semana de março de 2019. Após essa correção, as ofertas de código serão exibidas no espaço de trabalho apropriado quando obtidas das APIs. Esse problema *não* afeta as ofertas criadas com as APIs. Por exemplo, as ofertas de código criadas nas APIs são exibidas no espaço de trabalho em que foram criadas, seja por meio de APIs GET ou da interface do usuário do Target.
 
@@ -300,7 +303,7 @@ A pesquisa de uma string que contenha caracteres especiais (como um espaço ou u
 
 Corrigido em novembro de 2018.
 
-### at.js   {#at-js-3}
+### at.js  {#at-js-3}
 
 Ao usar a at.js versão 1.6.0, ocorrem redirecionamentos do Analytics for Target (A4T), mas sem a atividade de qualificação.
 
