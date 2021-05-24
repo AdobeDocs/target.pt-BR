@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com adições e alterações importantes na 
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 57%
+source-wordcount: '1244'
+ht-degree: 56%
 
 ---
 
@@ -19,7 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| Maio de 20 | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos: &quot;O arquivamento de [!UICONTROL atividades de Direcionamento automático] pode causar problemas de sincronização.&quot; |
+| Maio de 20 | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adição de um link para a seguinte postagem do blog no Adobe Tech Blog:<ul><li>Adobe Tech Blog - Parte 2: Execute [!DNL Adobe Target] o SDK do NodeJS para experimentação e personalização em plataformas de borda (AWS Lambda@Edge)</li></ul> |
+|  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos: &quot;O arquivamento de [!UICONTROL atividades de Direcionamento automático] pode causar problemas de sincronização.&quot; |
 | Maio de 17 | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão 2.5.0 da at.js. |
 |  | [Controle de qualidade da atividade ](/help/c-activities/c-activity-qa/activity-qa.md) | Atualização do tópico para indicar que os links de visualização estão disponíveis para atividades [!UICONTROL Automated Personalization] (AP) com at.js 2.5.0 (e posterior). |
 |  | [Navegadores compatíveis](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Indicado que a versão da at.js 2.5.0 remove o suporte ao Microsoft Internet Explorer 10, Internet Explorer 11 e todas as versões mais antigas. O Microsoft Edge continua sendo compatível com a at.js 2.5.0 e posteriores. |
