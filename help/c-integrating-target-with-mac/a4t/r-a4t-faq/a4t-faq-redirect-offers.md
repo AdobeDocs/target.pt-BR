@@ -4,7 +4,7 @@ description: Encontre respostas para perguntas sobre o uso de ofertas de redirec
 title: Onde posso encontrar perguntas frequentes sobre ofertas de redirecionamento com o A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 62%
@@ -112,7 +112,7 @@ As seguintes perguntas frequentes fornecem mais informações sobre o uso do A4T
 
 >[!NOTE]
 >
->O suporte ao A4T em uma implementação [!DNL Adobe Experience Platform Web SDK] discutida neste artigo está programado para estar disponível com a versão [!DNL Platform Web SDK] 2.5.0 (24 de maio de 2021).
+>O suporte ao A4T em uma implementação [!DNL Adobe Experience Platform Web SDK] discutida neste artigo está programado para estar disponível com a versão [!DNL Platform Web SDK] 2.5.0 (1° de junho de 2021).
 
 ### O Analytics for Target (A4T) é compatível com as ofertas de redirecionamento?
 
