@@ -5,10 +5,10 @@ title: O que são tokens de resposta e como usá-los?
 feature: Administração e configuração
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 29%
+source-wordcount: '1601'
+ht-degree: 28%
 
 ---
 
@@ -76,7 +76,11 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 1. Crie uma atividade.
 
-## ![SDK da Web da Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] usando a classe de objeto Handle
+## Analise as respostas e leia os tokens de resposta
+
+O processo usado para ouvir [!DNL Target] respostas e ler tokens de resposta é diferente dependendo se você tem uma implementação [!DNL Platform Web SDK] ou at.js.
+
+### ![SDK da Web da Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] usando a classe de objeto Handle
 
 Use a classe Handle object , que tem um objeto de metadados e um objeto de dados para acompanhar as respostas [!DNL Target] e ler os tokens de resposta.
 
@@ -143,7 +147,7 @@ O código de amostra a seguir adiciona um manipulador de evento personalizado [!
 | Meta | Metadados passados para a página. |
 | Dados | Valores dos metadados passados para a página. |
 
-## ![at.js ](/help/assets/atjs.png) badgeat.js usando eventos personalizados
+### ![at.js ](/help/assets/atjs.png) badgeat.js usando eventos personalizados
 
 Use [Eventos personalizados da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) para ouvir a resposta da e ler os tokens de resposta.[!DNL Target]
 
@@ -212,13 +216,17 @@ Conforme mencionado acima os tokens de resposta trabalham nas informações de p
 
 [!DNL Target]O realiza uma atualização de atributos em intervalos regulares. Qualquer atributo que não esteja ligado é removido durante a próxima atualização. No entanto, se você tiver um atributo que foi ativado e removido, esse script não será removido da lista de atributos até que ele seja desligado. Como exemplo, você removeu um script de perfil que era usado como um token. [!DNL Target]O remove somente os atributos desligados na lista, quando são excluídos ou renomeados.
 
-## ![AEP ](/help/assets/platform.png) badgeSending data para o Google Analytics via SDK da Web da plataforma
+## Enviar dados para o Google Analytics
+
+As seções a seguir descrevem como enviar dados [!DNL Target] para o Google Analytics:
+
+### ![AEP ](/help/assets/platform.png) badgeSending data para o Google Analytics via SDK da Web da plataforma
 
 O Google Analytics pode enviar dados por meio do SDK da Web da plataforma versão 2.5.0 (ou posterior), adicionando o seguinte código na página HTML:
 
 (Código a ser)
 
-## ![at.js ](/help/assets/atjs.png) badgeEnvio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js ](/help/assets/atjs.png) badgeEnvio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código na página HTML:
 
