@@ -5,9 +5,9 @@ title: O que são tokens de resposta e como usá-los?
 feature: Administração e configuração
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1556'
 ht-degree: 29%
 
 ---
@@ -22,7 +22,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 >[!NOTE]
 >
->Os tokens de resposta estão disponíveis com a [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 ou posterior (versão programada para 24 de maio de 2021) e com a at.js versão 1.1 ou posterior.
+>Os tokens de resposta estão disponíveis com a [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 ou posterior (versão programada para 1º de junho de 2021) e com a at.js versão 1.1 ou posterior.
 
 | SDK do Target | Ações sugeridas |
 |--- |--- |
@@ -212,13 +212,13 @@ Conforme mencionado acima os tokens de resposta trabalham nas informações de p
 
 [!DNL Target]O realiza uma atualização de atributos em intervalos regulares. Qualquer atributo que não esteja ligado é removido durante a próxima atualização. No entanto, se você tiver um atributo que foi ativado e removido, esse script não será removido da lista de atributos até que ele seja desligado. Como exemplo, você removeu um script de perfil que era usado como um token. [!DNL Target]O remove somente os atributos desligados na lista, quando são excluídos ou renomeados.
 
-## Envio de dados para o Google Analytics por meio do SDK da Web da plataforma
+## ![AEP ](/help/assets/platform.png) badgeSending data para o Google Analytics via SDK da Web da plataforma
 
 O Google Analytics pode enviar dados por meio do SDK da Web da plataforma versão 2.5.0 (ou posterior), adicionando o seguinte código na página HTML:
 
 (Código a ser)
 
-## Envio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js ](/help/assets/atjs.png) badgeEnvio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código na página HTML:
 
@@ -288,7 +288,7 @@ O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código n
 
 As seções a seguir fornecem informações sobre como depurar tokens de resposta:
 
-### Google Analytics e depuração
+### ![at.js ](/help/assets/atjs.png) seloGoogle Analytics e depuração
 
 O código a seguir permite depurar usando o Google Analytics:
 
@@ -405,7 +405,7 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
 </script>
 ```
 
-## Vídeo de treinamento: tokens de resposta e eventos personalizados do at.js ![Selo do tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![Vídeo de treinamento da at.](/help/assets/atjs.png) js: Tokens de resposta e eventos personalizados da at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 O vídeo a seguir explica como usar tokens de resposta e eventos personalizados de at.js para compartilhar informações de perfil de [!DNL Target] para sistemas de terceiros.
 
