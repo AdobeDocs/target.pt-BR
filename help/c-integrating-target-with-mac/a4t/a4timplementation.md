@@ -4,7 +4,7 @@ description: Siga as etapas necessárias para implementar as soluções Analytic
 title: Como implementar o Analytics para [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 24%
@@ -19,7 +19,7 @@ Várias etapas são necessárias ao implementar [!DNL Adobe Analytics] como a fo
 
 >[!NOTE]
 >
->O suporte ao A4T em uma implementação [!DNL Adobe Experience Platform Web SDK] discutida neste artigo está programado para estar disponível com a versão [!DNL Platform Web SDK] 2.5.0 (24 de maio de 2021).
+>O suporte ao A4T em uma implementação [!DNL Adobe Experience Platform Web SDK] discutida neste artigo está programado para estar disponível com a versão [!DNL Platform Web SDK] 2.5.0 (1° de junho de 2021).
 
 As seções a seguir descrevem as etapas necessárias para implantar essa integração no seu site se você estiver planejando usar o SDK da Web da plataforma:
 
