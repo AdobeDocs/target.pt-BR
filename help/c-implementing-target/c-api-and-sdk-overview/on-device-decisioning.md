@@ -5,11 +5,10 @@ title: O que é o On-Device Decisioning?
 feature: Implementar o lado do servidor
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-translation-type: tm+mt
-source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 20%
 
 ---
 
@@ -19,9 +18,9 @@ A decisão no dispositivo fornece a capacidade de armazenar em cache as atividad
 
 Para obter mais informações, consulte [Introdução à decisão no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) na *[documentação dos SDKs do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*.
 
-## Webinar: Personalize e teste em latência zero com decisões no dispositivo do Adobe Target
+## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
 
-Mais do que nunca, os profissionais de marketing, proprietários de produtos e desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e em todos os outros lugares onde eles se conectam com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não o cortam.
+Mais do que nunca, os profissionais de marketing, proprietários de produtos e desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e em todos os outros lugares onde eles se conectam com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não servem.
 
 Neste webinário gravado, os especialistas em produtos [!DNL Adobe Target] discutem como mover as decisões de otimização de experiência crítica no dispositivo para executar localmente com latência próxima a zero pode abrir portas para novos casos de uso interessantes e, ao mesmo tempo, melhorar o desempenho do site para seus clientes.
 
@@ -41,8 +40,12 @@ Este vídeo de 7 minutos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
-Para obter mais vídeos e tutoriais, consulte o guia [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
+Para obter mais vídeos e tutoriais, consulte o guia [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR).
 
 ## Adobe Tech Blog - Parte 1: Execute [!DNL Adobe Target] o SDK do NodeJS para experimentação e personalização em plataformas de borda (Trabalhadores do Akamai Edge)
 
 [Clique aqui para acessar a publicação](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9) do blog.
+
+## Adobe Tech Blog - Parte 2: Execute [!DNL Adobe Target] o SDK do NodeJS para experimentação e personalização em plataformas de borda (AWS Lambda@Edge)
+
+[Clique aqui para acessar a publicação](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563) do blog.
