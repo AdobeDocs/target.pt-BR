@@ -4,7 +4,7 @@ title: Onde posso encontrar  [!DNL Target] documentação?
 description: Saiba como usar o Adobe [!DNL Target] para personalizar a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos e outros canais digitais.
 feature: Visão geral
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 20 de maio de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md))**
+**Última atualização: 24 de maio de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
