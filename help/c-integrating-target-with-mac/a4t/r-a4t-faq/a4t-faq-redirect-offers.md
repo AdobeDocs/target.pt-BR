@@ -4,9 +4,9 @@ description: Encontre respostas para perguntas sobre o uso de ofertas de redirec
 title: Onde posso encontrar perguntas frequentes sobre ofertas de redirecionamento com o A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1361'
 ht-degree: 62%
 
 ---
@@ -106,7 +106,7 @@ Com [!DNL at.js] versão 0.9.6 (ou posterior) e [!DNL AppMeasurement.js] 2.1 (ou
 
 Não, você deve usar as ofertas de redirecionamento incorporadas para atividades que usam o [!DNL Analytics] como fonte de geração de relatórios (A4T). Da perspectiva do [!DNL Target], as ofertas de HTML são opacas: o [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
 
-## O [!DNL Adobe Experience Platform Web SDK] é compatível com as ofertas de redirecionamento para o A4T? {#platform}
+## ![](/help/assets/platform.png) SDK da Web da Adobe Experience PlatformO  [!DNL Adobe Experience Platform Web SDK] oferece suporte a ofertas de redirecionamento para A4T? {#platform}
 
 As seguintes perguntas frequentes fornecem mais informações sobre o uso do A4T e ofertas de redirecionamento com o [!DNL Platform Web SDK].
 
