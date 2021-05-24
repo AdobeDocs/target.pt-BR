@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Notas de versão
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 031512e205fc26dd51ad5d586d8a68bbe0a26484
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 36%
+source-wordcount: '448'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 36%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 17 de maio de 2021**
+**Última atualização: 20 de maio de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -25,18 +25,14 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Para evitar possíveis problemas com seus sites, migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## at.js versão 2.5.0 (13 de maio de 2021)
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 (24 de maio de 2021)
 
-Essa versão da at.js inclui os seguintes aprimoramentos e alterações:
+Esta versão do [!DNL Platform Web SDK] inclui suporte para o seguinte:
 
-* [Suporte ao On-device ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Decisioning para at.js.
-* [Visualizar ](/help/c-activities/c-activity-qa/activity-qa.md) links para suporte a atividades do  [!UICONTROL Automated Personalization]  (AP)
-
-Esta versão também remove o suporte ao Microsoft Internet Explorer 10, Internet Explorer 11 e todas as versões mais antigas. O Microsoft Edge continua sendo compatível com a at.js 2.5.0 e posteriores. Para obter mais informações, consulte [Navegadores compatíveis](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
-
-## [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 (24 de maio de 2021)
-
-Esta versão do [!DNL Platform Web SDK] inclui suporte para [!UICONTROL Analytics for Target] (A4T) para redirecionamentos [!DNL Target].
+| Recurso | Detalhes |
+| --- | --- |
+| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da plataforma agora oferece suporte a redirecionamentos [!DNL Target] ao usar o A4T. O redirecionamento de ofertas em [!DNL Adobe Target] faz com que um navegador redirecione para uma nova página. |
+| Tokens de resposta | O SDK da Web da plataforma agora suporta tokens de resposta [!DNL Target]. Os tokens de resposta permitem gerar automaticamente informações específicas para [!DNL Adobe Target] na página da Web da sua marca. Essas informações podem incluir detalhes sobre a atividade, oferta, experiência, perfil de usuário, informações geográficas e muito mais. Esses detalhes fornecem dados de resposta adicionais para compartilhar com sistemas internos ou de terceiros ou para usar na depuração. |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 de junho de 2021)
 
