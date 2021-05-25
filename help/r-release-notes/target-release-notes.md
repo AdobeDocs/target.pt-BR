@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Notas de versão
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14e1a71bbebbf8baec09df41e3e08f89bb64a4e0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 33%
+source-wordcount: '532'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 24 de maio de 2021**
+**Última atualização: 25 de maio de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do tempo das versões. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -36,7 +36,9 @@ Esta versão do [!DNL Platform Web SDK] inclui suporte para o seguinte:
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 de junho de 2021)
 
-O conteúdo será adicionado à medida que a data de lançamento se aproximar.
+| Recurso | Detalhes |
+| --- | --- |
+| ![Selo Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catálogo ] API de pesquisa | Pesquise seu [!DNL Recommendations] catálogo de produtos e conteúdo de forma programada por meio da API para identificar itens que correspondam a um critério de pesquisa e simplificar a administração do catálogo.<br>**Limitações e observações**:<ul><li>A pesquisa no catálogo por meio da API não é compatível com ambientes com mais de 2.000.000 itens.</li><li>Os resultados da pesquisa de catálogo por meio da API são atualizados mais rapidamente do que os resultados da pesquisa de catálogo por meio da interface do usuário [!DNL Target]. A pesquisa de catálogo na interface do usuário [!DNL Target] pode levar mais tempo para refletir os resultados mais recentes.</li></ul>Para obter mais informações, consulte [Pesquisando entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) no guia *[!DNL Adobe Target][!DNL Recommendations] API*. |
 
 ## [!DNL Target Standard/Premium] 21.5.2 (Data a determinar)
 
