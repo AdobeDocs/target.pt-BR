@@ -5,11 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Solução de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 92%
+source-wordcount: '1184'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +35,12 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 * **Limite recomendado**: 10.000 atividades ativas.
 
 * **Limite recomendado**: 10.000 atividades ativas salvas (e não finalizadas).
+
+## Chamadas de API do Target
+
+* **Limite**: 50 chamadas por minuto.
+
+   Se você fizer mais de 50 chamadas de API por minuto, [!DNL Target] retornará uma mensagem de erro &quot;Status HTTP 503&quot;.
 
 ## Públicos-alvo
 
