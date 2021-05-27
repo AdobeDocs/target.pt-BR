@@ -4,11 +4,10 @@ description: Onde posso encontrar ideias e inspiração para minhas atividades d
 title: Onde posso encontrar inspiração para meus esforços de teste e personalização?
 feature: Visão geral
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 99%
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ Após identificar esses públicos, realize testes de experiência do usuário e 
 
 Por exemplo, quando um visitante que se enquadra no público de &quot;jogador sério&quot; de uma empresa de telecomunicações visita o site da empresa, entregue uma experiência que inclua cópia e imagens que repercutem com os jogadores e uma oferta de internet de alta velocidade.
 
-## Ideia 2: [!DNL Target] visitantes novos e clientes repetidos de forma diferente.
+## Ideia 2: Direcione visitantes de primeira viagem e clientes recorrentes de forma diferente.
 
 Os profissionais de marketing digital reconhecem intuitivamente que os clientes existentes são mais valiosos do que os novos, mas muitas vezes não priorizam programas de marketing projetados para fazer com que os clientes voltem. Para evitar essa armadilha comum, analise suas métricas de clientes recorrentes para determinar como os clientes fiéis se comportam em seu site. Use esses insights para criar campanhas direcionadas para visitantes com uma ou duas compras, oferecendo incentivos para fazer visitas adicionais ao site.
 
