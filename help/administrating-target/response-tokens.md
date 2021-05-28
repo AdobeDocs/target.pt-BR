@@ -1,13 +1,13 @@
 ---
 keywords: tokens de resposta; tokens; plugins; plug-ins; at.js; resposta
-description: Saiba como usar tokens de resposta em informações específicas de saída do Adobe [!DNL Target] para usar na depuração e na integração com sistemas de terceiros (como o Clicktale).
+description: Saiba como usar tokens de resposta em informações específicas de saída do Adobe [!DNL Target] para usar na depuração e na integração com ferramentas de terceiros.
 title: O que são tokens de resposta e como usá-los?
 feature: Administração e configuração
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1628'
 ht-degree: 27%
 
 ---
@@ -22,16 +22,16 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 >[!NOTE]
 >
->Os tokens de resposta estão disponíveis com a [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 ou posterior (versão programada para 1º de junho de 2021) e com a at.js versão 1.1 ou posterior.
+>Os tokens de resposta estão disponíveis com a [!DNL Adobe Experience Platform Web SDK] versão 2.6.0 ou posterior (versão programada para 1º de junho de 2021) e com a at.js versão 1.1 ou posterior.
 
 | SDK do Target | Ações sugeridas |
 |--- |--- |
-| [SDK da Web da Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Certifique-se de que você esteja usando o SDK da Web da plataforma versão 2.5.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do SDK da Web da plataforma, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) no guia *Visão geral do SDK da Web da plataforma* . Para obter informações sobre a nova funcionalidade em cada versão do SDK da Web da plataforma, consulte [Notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) no guia *Visão geral do SDK da Web da plataforma* . |
+| [SDK da Web da Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Certifique-se de que você esteja usando o SDK da Web da plataforma versão 2.6.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do SDK da Web da plataforma, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) no guia *Visão geral do SDK da Web da plataforma* . Para obter informações sobre a nova funcionalidade em cada versão do SDK da Web da plataforma, consulte [Notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) no guia *Visão geral do SDK da Web da plataforma* . |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Certifique-se de que você esteja usando a at.js versão 1.1 ou posterior. Para obter informações sobre como baixar a versão mais recente do at.js, consulte [Baixar o at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Para obter informações sobre a nova funcionalidade em cada versão do at.js, consulte [Detalhes da versão do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Os clientes que usam a at.js são incentivados a usarem os tokens de resposta e a evitarem os plugins. Alguns plug-ins que dependem de métodos internos existentes na mbox.js, mas não na at.js, são entregues, mas falham. Para obter mais informações, consulte [Limitações do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 
 ## Uso de tokens de resposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Certifique-se de que você esteja usando o SDK da Web da plataforma versão 2.5.0 (ou posterior) ou a at.js versão 1.1 (ou posterior).
+1. Certifique-se de que você esteja usando o SDK da Web da plataforma versão 2.6.0 (ou posterior) ou a at.js versão 1.1 (ou posterior).
 
    Para obter mais informações:
 
@@ -176,7 +176,7 @@ O código de amostra a seguir adiciona um manipulador de evento personalizado da
 
 Os tokens de resposta podem ser ativados ou desativados apenas por usuários com a função [!DNL Target] [!UICONTROL Administrador].
 
-**O que acontece se eu estiver executando [!DNL Platform Web SDK] 2.5.0 (ou anterior)?
+**O que acontece se eu estiver executando [!DNL Platform Web SDK] 2.6.0 (ou anterior)?
 
 Você não tem acesso aos tokens de resposta.
 
@@ -222,9 +222,60 @@ As seções a seguir descrevem como enviar dados [!DNL Target] para o Google Ana
 
 ### ![AEP ](/help/assets/platform.png) badgeSending data para o Google Analytics via SDK da Web da plataforma
 
-O Google Analytics pode enviar dados por meio do SDK da Web da plataforma versão 2.5.0 (ou posterior), adicionando o seguinte código na página HTML:
+O Google Analytics pode enviar dados por meio do SDK da Web da plataforma versão 2.6.0 (ou posterior), adicionando o seguinte código na página HTML.
 
-(Código a ser)
+>[!NOTE]
+>
+>Verifique se o par de valor da chave do token de resposta está sob o objeto `alloy(“sendEvent”`.
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.js ](/help/assets/atjs.png) badgeEnvio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
