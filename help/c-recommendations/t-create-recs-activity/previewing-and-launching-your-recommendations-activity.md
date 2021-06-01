@@ -4,8 +4,7 @@ description: 'Saiba como visualizar sua atividade do Adobe [!DNL Target] Recomme
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f4972f04906cb3476f50abedd6cec847e015daf9
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
@@ -77,7 +76,7 @@ Usar um link de controle de qualidade permite visualizar as recomendações em s
 >* O modo de controle de qualidade do Target é &quot;aderente&quot; e salvo em um cookie. Se você não sair do modo de controle de qualidade, continuará vendo os resultados do controle de qualidade em todo o site. Para sair do modo de QA, use o [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
    >
    >
-* Enquanto estiver no modo de QA, a navegação no site não afetará os [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Itens comprados recentemente] do seu perfil.&quot; Esse comportamento ocorre por design para evitar a poluição não intencional de dados comportamentais de produção. Para visualizar os resultados de um critério [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Recommendations baseado no usuário], primeiro navegue pelo site fora do modo de QA e use a mesma sessão para abrir um link do modo de QA.
+* Enquanto estiver no modo de QA, a navegação no site não afetará os [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Itens comprados recentemente] do seu perfil. Esse comportamento ocorre por design para evitar a poluição não intencional de dados comportamentais de produção. Para visualizar os resultados de um critério [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Recommendations baseado no usuário], primeiro navegue pelo site fora do modo de QA e use a mesma sessão para abrir um link do modo de QA.
 
 
 ## Uso do download do CSV para visualizar as recomendações
