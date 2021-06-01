@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 55%
+source-wordcount: '701'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,15 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >Migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.6.0 (1 de junho de 2021)
+
+Esta versão do [!DNL Platform Web SDK] inclui suporte para o seguinte:
+
+| Recurso | Detalhes |
+| --- | --- |
+| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da plataforma agora oferece suporte a redirecionamentos [!DNL Target] ao usar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obter mais informações, consulte  [Analytics  [!DNL Target] para implementação](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Tokens de resposta | O SDK da Web da plataforma agora suporta tokens de resposta [!DNL Target].<br>Para obter mais informações, consulte Tokens  [de resposta](/help/administrating-target/response-tokens.md). |
 
 ## at.js versão 2.5.0 (13 de maio de 2021)
 
