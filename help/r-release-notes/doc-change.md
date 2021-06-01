@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com adições e alterações importantes na 
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 55%
+source-wordcount: '1288'
+ht-degree: 54%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 1 de junho | [CNAME e [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Adição das seguintes perguntas frequentes:<ul><li>Como usar um link para opção de não participação com CNAME</li></ul> |
+|  | [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Atualização da seção &quot;Link de não participação&quot; para explicar como usar o link de não participação com CNAME. |
 | Maio de 27 | [Limites](/help/r-troubleshooting-target/target-limits.md) | Adição de seção para chamadas de API [!DNL Target]. O limite é de 50 chamadas por minuto. |
 | Maio de 20 | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adição de um link para a seguinte postagem do blog no Adobe Tech Blog:<ul><li>Adobe Tech Blog - Parte 2: Execute [!DNL Adobe Target] o SDK do NodeJS para experimentação e personalização em plataformas de borda (AWS Lambda@Edge)</li></ul> |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos: &quot;O arquivamento de [!UICONTROL atividades de Direcionamento automático] pode causar problemas de sincronização.&quot; |
