@@ -5,11 +5,10 @@ title: Como o [!DNL Target] lida com problemas de privacidade?
 feature: Privacidade e segurança
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 70%
+source-wordcount: '676'
+ht-degree: 65%
 
 ---
 
@@ -39,20 +38,24 @@ O Target recebe o endereço IP completo e o ofusca (se estiver definido como Úl
 >
 >[Entre em contato com o ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Atendimento ao cliente do Adobe para determinar qual configuração você está usando no momento ou para ativar o recurso de ofuscação de IP.
 
-## GeoSegmentation   {#section_BB69F96559BD44BDA4177537C4A5345A}
+## GeoSegmentation  {#section_BB69F96559BD44BDA4177537C4A5345A}
 
 Se você ativar a substituição do último octeto do endereço IP, os valores restantes do endereço IP poderão ser analisados por meio de relatórios no Adobe Target. Se o último octeto do endereço IP não for ofuscado, o endereço IP inteiro poderá ser analisado no Adobe Target. Você pode usar o recurso GeoSegmentation para mapear o local do visitante por área geográfica. Os dados de GeoSegmentation são granulares somente no nível da cidade ou no nível de código postal, e não no nível individual.
 
 Se os endereços IP forem completamente ofuscados, a GeoSegmentation e a geolocalização não estarão disponíveis.
 
-## Link de opt out {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Link de cancelamento {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Você pode adicionar um link para opção de não participação a seus sites para permitir que os visitantes optem por não participar de todas as contagens e entregas de conteúdo.
 
 1. Adicione o seguinte link a seu site:
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
-1. Substitua o texto `clientcode` com seu código de cliente e adicione o texto ou imagem a ser conectado ao URL de não participação.
+
+1. (Condicional) Se você estiver usando CNAME, o link deverá conter o parâmetro &quot;client=`clientcode` , por exemplo:
+https://my.cname.domain/optout?client=clientcode.
+
+1. Substitua `clientcode` por seu código de cliente e adicione o texto ou imagem a ser vinculado ao URL de não participação.
 
 Qualquer visitante que clicar neste link não será incluído em qualquer solicitação de mbox chamadas de suas sessões de navegação até que excluam seus cookies, ou por dois anos, o que acontecer primeiro. Isto funciona através da configuração um cookie chamado `disableClient` para o visitante no domínio `clientcode.tt.omtrdc.net`.
 
