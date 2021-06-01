@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Notas de versão
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 27%
+source-wordcount: '486'
+ht-degree: 30%
 
 ---
 
@@ -31,8 +31,8 @@ Esta versão do [!DNL Platform Web SDK] inclui suporte para o seguinte:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da plataforma agora oferece suporte a redirecionamentos [!DNL Target] ao usar o A4T. O redirecionamento de ofertas em [!DNL Adobe Target] faz com que um navegador redirecione para uma nova página.<br>Para obter mais informações, consulte Ofertas de redirecionamento. |
-| Tokens de resposta | O SDK da Web da plataforma agora suporta tokens de resposta [!DNL Target].<br> Os tokens de resposta permitem gerar automaticamente informações específicas  [!DNL Adobe Target] para a página da Web da sua marca. Essas informações podem incluir detalhes sobre a atividade, oferta, experiência, perfil de usuário, informações geográficas e muito mais. Esses detalhes fornecem dados de resposta adicionais para compartilhar com sistemas internos ou de terceiros ou para usar na depuração.<br>Para obter mais informações, consulte Tokens  [de resposta](/help/administrating-target/response-tokens.md). |
+| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da plataforma agora oferece suporte a redirecionamentos [!DNL Target] ao usar [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obter mais informações, consulte  [Analytics  [!DNL Target] para implementação](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Tokens de resposta | O SDK da Web da plataforma agora suporta tokens de resposta [!DNL Target].<br>Para obter mais informações, consulte Tokens  [de resposta](/help/administrating-target/response-tokens.md). |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 de junho de 2021)
 
