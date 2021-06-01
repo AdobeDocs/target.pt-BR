@@ -5,11 +5,10 @@ title: Como obtenho dados no [!DNL Target] usando a API de atualização de perf
 feature: Implementação
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 58%
+source-wordcount: '189'
+ht-degree: 59%
 
 ---
 
@@ -41,6 +40,7 @@ Perfis de atualização somente. Não é possível criar um perfil para um usuá
 
 Suporte a GET e POST.   `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
-## Links para informações relevantes
+>[!MORELIKETHIS]
+>
+>* [Atualizações de perfis](https://developers.adobetarget.com/api/#updating-profiles)
 
-[Atualizações de perfis](https://developers.adobetarget.com/api/#updating-profiles)
