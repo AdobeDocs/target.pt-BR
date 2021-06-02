@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,8 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 ### Número de entidades
 
 * A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99.
-* O limite recomendado para melhor desempenho é manter o catálogo com menos de um milhão de itens por ambiente e menos de dez milhões de itens em todos os ambientes.
-* O limite máximo é de dez milhões de itens por ambiente e 100 milhões de itens em todos os ambientes. Se você tiver entre um milhão e dez milhões de itens por ambiente, o desempenho da interface do usuário [!UICONTROL Pesquisa no catálogo] será afetado. [!DNL Target Recommendations], no entanto, continua a produzir e a apresentar recomendações.
+* O limite recomendado para obter o melhor desempenho é manter o catálogo com menos de um milhão de itens por ambiente e menos de dez milhões de itens em todos os ambientes.
+* O limite máximo é de dez milhões de itens por ambiente e 100 milhões de itens em todos os ambientes. Se você tiver entre um milhão e dez milhões de itens por ambiente, o desempenho da interface do [!UICONTROL Pesquisa no catálogo] será afetado. No entanto, o [!DNL Target Recommendations] continua a produzir e fornecer recomendações.
 
 ### Atributos personalizados da entidade
 
@@ -239,7 +239,7 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 * **Limite**: 50 públicos-alvos/segmentos por atividade.
 
-## Caixa de entrada do perfil de script na interface [!DNL Target]
+## Caixa de entrada de perfil de script na interface do [!DNL Target]
 
 * **Limite recomendado**: 2.000 caracteres.
 
