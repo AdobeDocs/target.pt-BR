@@ -24,10 +24,8 @@ Os recursos do seu provedor de serviços de email determinam qual método utiliz
 >
 >* As solicitações devem ser limitadas à taxa mais baixa de 1.000 solicitações por segundo ou 25 vezes o pico de tráfego diário
 >* Aumentar o tráfego em etapas de 200 solicitações por segundo a cada minuto
-
 > 
->
-Entre em contato com seu gerente de conta se desejar usar limites de taxa mais alta.
+>Entre em contato com seu gerente de conta se desejar usar limites de taxa mais alta.
 
 ## Opção 1: usar a API de entrega {#section_9F00D271BABA4B7390B461F4C44EC319}
 
