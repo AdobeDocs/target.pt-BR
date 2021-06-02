@@ -1,14 +1,14 @@
 ---
 keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
-description: Novo no Adobe Target? Comece rapidamente com o kit de boas-vindas do Adobe [!DNL Target] Welcome.
+description: Novo no Adobe Target? Comece rapidamente com o kit de boas-vindas do Adobe  [!DNL Target] .
 title: Como começar a usar o Target
 feature: Visão geral
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
