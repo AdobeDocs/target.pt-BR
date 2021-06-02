@@ -4,15 +4,15 @@ description: Obtenha uma visão geral do Adobe Target. Saiba mais sobre atividad
 title: Onde posso encontrar uma introdução de alto nível ao Target?
 feature: Visão geral
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2520'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Capítulo 2: Adobe [!DNL Target] de relance
+# Capítulo 2: Principais características do Adobe [!DNL Target]
 
 Antes de começar a usar o [!DNL Adobe Target], pode ser útil obter uma visão geral de alto nível da solução. Neste capítulo, conheça os principais recursos da solução, os pontos de contato da marca nos quais você pode usá-la, as opções de implementação, os recursos e os workflows importantes da interface do usuário, os recursos de governança e sua função no [!DNL Adobe Experience Cloud] em geral. A menos que sejam descritos como recursos do [!DNL Adobe Target Premium], os itens descritos neste capítulo estão disponíveis com o [!DNL Adobe Target Premium] e o [!DNL Adobe Target Standard]. Para obter mais informações sobre o Target, consulte [Introdução ao Target](/help/c-intro/intro.md).
 
