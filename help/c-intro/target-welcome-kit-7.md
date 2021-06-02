@@ -1,18 +1,18 @@
 ---
 keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
-description: Vamos começar com sua primeira atividade no Adobe [!DNL Target] para que você possa obter o ROI em seu investimento.
+description: Vamos começar com sua primeira atividade no Adobe  [!DNL Target]  para que você possa obter o ROI sobre seu investimento.
 title: Preciso criar minha primeira atividade no Target. Por onde começar?
 feature: Visão geral
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Capítulo 7: Criar e executar sua primeira atividade [!DNL Target]
+# Capítulo 7: Criar e executar a primeira atividade do [!DNL Target]
 
 Você está pronto para começar com sua primeira atividade no [!DNL Target]? Excelente. Vamos descobrir uma atividade para seu site, site móvel ou aplicativo móvel que não seja muito complexa. Ela pode fornecer ROI rápido e deixá-lo animado com o potencial de usar o [!DNL Target] para testar e personalizar. Dependendo da sua organização e do seu foco, você pode considerar seguir uma das três rotas diferentes com essa primeira atividade.
 
@@ -106,6 +106,6 @@ Após a conclusão da atividade, documente os resultados, certificando-se de vin
 
 Os resultados da atividade geralmente fornecem insights das ações que você deve realizar em seguida. Se uma variação de experiência tiver sido extremamente bem-sucedida, talvez você queira codificá-la no seu site. Você pode ver oportunidades para aplicar esse sucesso em outras páginas semelhantes. Os resultados podem indicar mais trabalho a ser concluído para melhorar a experiência do cliente nesta página. Use essa área para documentar os principais aprendizados da atividade e documentar o que você fará com base nesses aprendizados.
 
-## Abra [!DNL Target] e crie e inicie sua atividade
+## Abrir o [!DNL Target], criar e iniciar a atividade
 
 Você preencheu o Planejador de atividades. Agora é hora de entrar na solução e criar sua atividade. O [!DNL Target]facilita a modificação da página da Web no [!UICONTROL Visual Experience Composer].
