@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations, critérios do Recommendations, algoritmos do recommendations, atividade do recommendations, critérios, direcionamento do recommendations
-description: Saiba mais sobre as atividades do Recommendations no Adobe [!DNL Target] que exibem automaticamente conteúdo que pode ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
-title: O que é o [!DNL Target] Recommendations?
+description: Saiba mais sobre as atividades do Recommendations no Adobe  [!DNL Target]  que exibem automaticamente conteúdo que pode interessar a seus clientes, com base na atividade anterior do usuário ou outros algoritmos.
+title: O que é o  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Antes de começar a usar o [!DNL Recommendations], é útil se familiarizar com 
 | Designs | Os designs definem a aparência das recomendações em uma atividade do [!DNL Recommendations], como uma linha, coluna, tabela ou grade. A ilustração na parte superior deste artigo mostra um design 4 x 1. Para obter mais informações, consulte [Criar um design](/help/c-recommendations/c-design-overview/create-design.md). |
 | Localizações | Os locais se referem a uma área de conteúdo específica em uma página da Web, aplicativo móvel ou email, em que você executa uma atividade para fins de personalização e otimização. |
 | Públicos-alvo | Públicos são grupos de atividades semelhantes que verão uma atividade direcionada. Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Para obter mais informações, consulte [Públicos](/help/c-target/target.md). |
-| Recommendations como uma oferta | As recomendações como uma oferta permitem inclui-las nas atividades de Teste A/B (inclusive Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
+| Recommendations como uma oferta | As recomendações como uma oferta permitem inclui-las nas atividades de Teste A/B (inclusive Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recomendações como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Vídeo de treinamento: tipos de atividade ![Selo de visão geral](/help/assets/overview.png)
 
