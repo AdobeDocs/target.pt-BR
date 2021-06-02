@@ -4,11 +4,11 @@ description: Encontre sugestões para ajudar a solucionar problemas se a página
 title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Atividades
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -75,18 +75,18 @@ Algumas das informações incluem segmentos correspondentes ou não e IDs de dir
 * **Unmatched**: a solicitação não estava qualificada nessa chamada para esses segmentos ou direcionamentos.
 * **Matched**: a solicitação estava qualificada para os segmentos ou direcionamentos especificado.
 
-**Uso da mboxTrace nas páginas do Recommendations**: a adição da mboxTrace como um parâmetro de consulta em páginas com recomendações substitui o design do Recommendations na página por uma janela de detalhes da mboxTrace, que exibe informações detalhadas sobre suas recomendações, incluindo:
+**Uso da mboxTrace nas páginas de recomendações**: a adição da mboxTrace como um parâmetro de consulta em páginas com recomendações substitui o design do Recommendations na página por uma janela de detalhes da mboxTrace, que exibe informações detalhadas sobre suas recomendações, incluindo:
 
-* Recommendations devolvidas em relação às recomendações solicitadas
+* Recomendações retornadas em relação às recomendações solicitadas
 * A chave usada e se está gerando recomendações
-* Recommendations geradas por critérios em relação a recomendações de backup
+* Recomendações geradas por critérios em relação a recomendações de backup
 * Configurações de critérios
 * Exclusões e inclusões aplicadas
 * Regras de coleção
 
 Não é necessário incluir  `=console`, `=json` ou `=window` no parâmetro de consulta. Quando terminar com os detalhes do mboxTrace, adicione `=disable` e pressione **[!UICONTROL Enter]** para retornar ao modo normal de exibição.
 
-mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes verão o design normal de recomendações.
+mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes verão o design normal do Recommendations.
 
 ## mboxDebug {#mboxdebug}
 
@@ -109,7 +109,7 @@ Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela 
 >
 >Verifique se o fragmento do URL está após os parâmetros da sequência de consulta. Qualquer item depois do primeiro `#` é um identificador de fragmento e faz com que os parâmetros de depuração não funcionem corretamente.
 
-## Adobe Experience Cloud Debugger   {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta MboxTrace avançada para inspecionar as qualificações de atividade e público, bem como o perfil do visitante.
 
@@ -121,7 +121,7 @@ Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe
 
 O mbox.js envia um cookie chamado &quot;em-disabled&quot; para o visitante quando o target.js não é carregado durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os visitantes com esse cookie não veem o conteúdo do teste nem são contados nesses relatórios de atividades. Todo o conteúdo restante da oferta (por exemplo, das campanhas no Target Classic) continua sendo carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
 
-## Os melhores vendedores não aparecem no Recommendations   {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 A chamada *`SiteCatalyst: purchase`* não pode ser usada para dados de tráfego de algoritmo de compra. Em vez disso, use a chamada *`orderConfirmPage`*.
 
@@ -149,7 +149,7 @@ Se um elemento DOM fizer parte da segmentação de personalização do Adobe Exp
 
 Para resolver isso, você pode desativar a personalização do AEM nas páginas nas quais o Target está sendo executado.
 
-## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido.   {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Se a oferta remota ou de redirecionamento usar um URL inválido, poderá ocorrer uma falha no fornecimento.
 
@@ -173,7 +173,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Depuração básica do Adobe Target ![Selo tutorial](/help/assets/tutorial.png)
+### Depuração básica do Adobe Target ![Selo do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
