@@ -1,14 +1,14 @@
 ---
 keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
-description: Inicie seu programa de otimização e personalização com o Adobe Target. O Adobe [!DNL Target] kit de boas-vindas é um bom ponto de partida.
+description: Inicie seu programa de otimização e personalização com o Adobe Target. O kit de boas-vindas do Adobe  [!DNL Target]  é um bom ponto de partida.
 title: Como começar a usar o Target?
 feature: Visão geral
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
