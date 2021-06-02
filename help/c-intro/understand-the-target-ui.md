@@ -1,18 +1,18 @@
 ---
 keywords: interface do usuário do target, interface do usuário, iu
 description: Familiarize-se com a interface do usuário e encontre links para informações mais detalhadas para ajudar você a aproveitar ao máximo o Target.
-title: Como uso a interface do usuário do  [!DNL Target] ?
+title: Como faço para usar a interface do [!DNL Target] ?
 feature: Visão geral
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Entender a interface do usuário [!DNL Target]
+# Compreensão da interface do [!DNL Target]
 
 A interface do usuário é organizada em um formato lógico e amigável para ajudar você o a aproveitar ao máximo o [!DNL Adobe Target]. A breve visão geral a seguir ajudará você a se familiarizar com o [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
 
