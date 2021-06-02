@@ -1,14 +1,13 @@
 ---
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
-description: Exiba uma lista de perguntas e respostas frequentes sobre atividades do Adobe [!DNL Target] Recommendations.
-title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target] Recommendations?
+description: Veja uma lista de perguntas frequentes e respostas sobre atividades do Adobe  [!DNL Target]  Recommendations.
+title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-translation-type: tm+mt
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 57%
+ht-degree: 98%
 
 ---
 
@@ -16,31 +15,31 @@ ht-degree: 57%
 
 Lista de perguntas frequentes sobre as atividades do [!DNL Adobe Target] [!DNL Recommendations].
 
-## Por que a [!UICONTROL Pesquisa no catálogo] não mostra os resultados corretos quando eu pesquiso em um atributo personalizado com um valor numérico?
+## Por que a [!UICONTROL Pesquisa no catálogo] não mostra os resultados corretos quando procuro um atributo personalizado com um valor numérico?
 
-Quando você executa uma pesquisa de catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de string em vez de um valor numérico.
+Quando você faz uma pesquisa no catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de sequência em vez de um valor numérico.
 
 No momento, não há nenhuma funcionalidade disponível que permita aos clientes alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema do cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referenciando os atributos que precisam de alteração do tipo de sequência para numérico.
 
 ## Quanto tempo demora para que as atualizações nos itens do meu catálogo sejam refletidas no meu site?
 
-O intervalo de tempo e os resultados variam, dependendo de como os itens são atualizados.
+O intervalo de tempo e os resultados variam dependendo de como os itens são atualizados.
 
 | Fonte | Detalhes |
 | --- | --- |
-| Atributos de item atualizados via mbox ou API | <ul><li>O Recommendations é atualizado em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
-| Atributos de item atualizados por feed | <ul><li>O Recommendations é atualizado após a assimilação do feed (de 2 a 8 horas).</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa de catálogo é atualizada após a assimilação de feed (de 2 a 8 horas) e após o índice de catálogo subsequente (de 3 a 8 horas). A Pesquisa no catálogo é atualizada entre 5 e 16 horas no total.</li></ul> |
-| Item excluído do catálogo por meio da interface do usuário ou da API [!DNL Target] | <ul><li>O Recommendations é atualizado em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
-| Item adicionado ao catálogo por meio de mbox ou API | <ul><li>Recommendations são atualizados após a execução do algoritmo. As execuções de algoritmo são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias.</li><li>As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
-| Item adicionado ao catálogo por meio de feed | <ul><li>O Recommendations é atualizado depois que o feed é assimilado (2 a 8 horas). As execuções subsequentes de algoritmos são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias. O Recommendations é atualizado dentro de 2 a 32 horas no total.</li><li>As recomendações existentes são exibidas até que as atualizações estejam disponíveis se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup são exibidas até que as atualizações estejam disponíveis se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após a assimilação do feed (de 2 a 8 horas) e após o índice do catálogo (de 3 a 8 horas). A Pesquisa no catálogo é atualizada entre 5 e 16 horas no total.</li></ul> |
+| Atributos de item atualizados via mbox ou API | <ul><li>As recomendações são atualizadas em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
+| Atributos de item atualizados via feed | <ul><li>As recomendações são atualizadas após a assimilação do feed (de 2 a 8 horas).</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após a assimilação de feed (de 2 a 8 horas) e após o índice de catálogo subsequente (de 3 a 8 horas). A Pesquisa no catálogo é atualizada em um total de 5 a 16 horas.</li></ul> |
+| Item excluído do catálogo por meio da interface ou da API do [!DNL Target] | <ul><li>As recomendações são atualizadas em 15 minutos.</li><li>Recomendações e atributos de item existentes são exibidos até que as atualizações estejam disponíveis.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
+| Item adicionado ao catálogo via mbox ou API | <ul><li>As recomendações são atualizadas após a execução do algoritmo. As execuções de algoritmo são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias.</li><li>As recomendações existentes serão exibidas até que as atualizações estejam disponíveis, se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup serão exibidas até que as atualizações estejam disponíveis, se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após o índice do catálogo (de 3 a 8 horas).</li></ul> |
+| Item adicionado ao catálogo via feed | <ul><li>As recomendações são atualizadas depois que o feed é assimilado (2 a 8 horas). As execuções subsequentes de algoritmos são agendadas a cada 12 horas para algoritmos de 1 a 2 dias e a cada 24 horas para algoritmos de mais de 7 dias. As recomendações são atualizadas em um total de 2 a 32 horas.</li><li>As recomendações existentes serão exibidas até que as atualizações estejam disponíveis, se o item adicionado não for uma chave solicitada.</li><li>As recomendações de backup serão exibidas até que as atualizações estejam disponíveis, se o item adicionado for uma chave solicitada.</li><li>A Pesquisa no catálogo é atualizada após a assimilação do feed (de 2 a 8 horas) e após o índice do catálogo (de 3 a 8 horas). A Pesquisa no catálogo é atualizada em um total de 5 a 16 horas.</li></ul> |
 
-Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou da mbox, as seguintes alterações são refletidas em menos de 60 minutos:
+Após importar um arquivo de feed ou depois de receber atualizações de entidade por meio da API ou da mbox, as seguintes alterações serão refletidas em menos de 60 minutos:
 
-* Se um item tiver sido excluído anteriormente, mas agora deve ser incluído, ele será incluído na próxima execução do algoritmo (12 a 24 horas).
+* Se um item tiver sido excluído anteriormente, mas agora precisar ser incluído, ele será incluído na próxima execução do algoritmo (12 a 24 horas).
 
-   Essa situação ocorre porque [!DNL Target] aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
+   Essa situação ocorre porque o [!DNL Target] aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
 
-* Se um item foi incluído anteriormente, mas agora deve ser excluído, ele será excluído de acordo com os &quot;Atributos de item atualizados..&quot;. linha de tempo discutida acima, dependendo da fonte de feed (15 minutos por mbox/API ou 12 a 24 horas por feed).
+* Se um item foi incluído anteriormente, mas agora deve ser excluído, o item é excluído de acordo com a linha do tempo &quot;Atributos do item atualizados...&quot; discutida acima, dependendo da origem do feed (15 minutos via mbox/API ou 12 a 24 horas via feed).
 
 As seguintes alterações não são refletidas até que ocorra a execução do próximo algoritmo (dentro de 12 a 24 horas):
 
@@ -52,7 +51,7 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
 
 >[!NOTE]
 >
->Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo. A Pesquisa no catálogo está atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site reflete as atualizações nos intervalos de tempo listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
+>Um arquivo de feed é considerado importado quando seu status muda de “Importando itens” para “Preparando atualizações de índice de pesquisa”. As atualizações podem levar mais de 60 minutos para serem refletidas na interface do usuário da Pesquisa no catálogo. A Pesquisa no catálogo está atualizada quando o status do feed muda para &quot;Atualizações concluídas&quot;. Mesmo que a Pesquisa no catálogo ainda não esteja atualizada, seu site refletirá as atualizações nos prazos listados acima. O tempo mais recente de atualização de índice da Pesquisa no catálogo é exibido na página Pesquisa no catálogo.
 
 ## Quanto tempo leva para que uma alteração na configuração da minha atividade, oferta, promoções ou configurações de critérios do [!UICONTROL Recommendations] seja refletida no meu site?
 
@@ -65,12 +64,12 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
 
 ## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *que o usuário* recebe?
 
-* O produto/conteúdo exibido/adquirido no momento influencia as recomendações que o usuário recebe na mesma visualização de página/[!DNL Target] solicitação de conteúdo.
-* O comportamento histórico do usuário, como &quot;último produto visualizado&quot;, &quot;produto mais visualizado&quot; e o histórico geral de visualização/compra são atualizados com essa solicitação e influenciam as recomendações que o usuário recebe na próxima solicitação de conteúdo de pageview/[!DNL Target]. Por exemplo, os algoritmos &quot;Itens visualizados recentemente&quot; e &quot;Recomendado para você&quot; são atualizados com cada visualização/compra de produto e refletidos na solicitação de conteúdo subsequente.
+* O produto/conteúdo exibido/adquirido no momento influencia as recomendações que o usuário recebe na mesma visualização de página/[!DNL Target]solicitação de conteúdo.
+* O comportamento histórico do usuário, como &quot;último produto visualizado&quot;, &quot;produto mais visualizado&quot; e o histórico geral de visualização/compra são atualizados com essa solicitação e influenciam as recomendações que o usuário recebe na próxima solicitação de conteúdo de visualização de página/[!DNL Target]. Por exemplo, os algoritmos &quot;Itens visualizados recentemente&quot; e &quot;Recomendado para você&quot; são atualizados com cada visualização/compra de produto e refletidos na solicitação de conteúdo subsequente.
 
-## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *outros* que os usuários recebem?
+## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações que *outros* usuários recebem?
 
-O comportamento dos usuários na agregação é incorporado ao processamento de algoritmo offline, com cada execução de algoritmo ocorrendo a cada 12-24 horas.
+O comportamento dos usuários na agregação é incorporado ao processamento de algoritmo offline, e cada execução de algoritmo ocorre a cada 12 a 24 horas.
 
 ## O que devo fazer se os caracteres especiais estão quebrando a matriz? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -87,40 +86,40 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recommendations?   {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recommendations?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
-Os critérios disponíveis são baseados na categoria atual. Quando você está criando ofertas do Recommendations, o seletor de algoritmo exibe os critérios com base na ID da categoria.
+Os critérios disponíveis são baseados na categoria atual. Quando você está criando ofertas de recomendações, o seletor de algoritmo exibe os critérios com base na ID da categoria.
 
 Se a localização na qual você estiver aplicando esse critério não contiver a ID da categoria, determinados critérios não estão disponíveis no seletor de algoritmo.
 
 Se você usar um local em que a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-[!DNL Target] tem um  [Critério Incompatível de ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) Filtro para controlar a filtragem inteligente do seletor de algoritmo.
+O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >
->Essa configuração se aplica às atividades criadas somente no Visual Experience Composer (VEC). Essa configuração não se aplica às atividades criadas no Experience Composer baseado em formulário ([!DNL Target] não tem contexto de localização).
+>Essa configuração se aplica às atividades criadas somente no Visual Experience Composer (VEC). Essa configuração não se aplica a atividades criadas no Experience Composer com base em formulário (o [!DNL Target] não tem contexto de localização).
 
 Para acessar a configuração [!UICONTROL Critérios incompatíveis de filtro], clique em [!UICONTROL Recommendations] > [!UICONTROL Configurações]:
 
 ![](assets/recs_settings_filter.png)
 
-Se a configuração [!UICONTROL Critérios incompatíveis de filtro] NÃO está ativado, o não filtra algoritmos no Seletor de algoritmo e todos os algoritmo são exibidos.[!DNL Target]
+Se a configuração [!UICONTROL Critérios incompatíveis de filtro] NÃO está ativado, [!DNL Target] o não filtra algoritmos no Seletor de algoritmo e todos os algoritmo são exibidos.
 
-Se a configuração [!UICONTROL Filtrar critérios incompatíveis] estiver ativada, nas atividades do VEC, [!DNL Target] lê entityId e category Id no local selecionado e, em seguida, exibe algoritmos baseados em `currentItem|currentCategory` (se os valores respectivos estiverem presentes nesse local). Como resultado, somente os algoritmos compatíveis para o local selecionado são mostrados no seletor do algoritmo, como padrão.
+Se a configuração [!UICONTROL Critérios de filtro incompatíveis] estiver ativa, em atividades do VEC, o [!DNL Target] lerá a entityId e a id da categoria do local selecionado e exibirá algoritmos com base em `currentItem|currentCategory` (se os respectivos valores estiverem presentes naquele local). Como resultado, somente os algoritmos compatíveis para o local selecionado são mostrados no seletor do algoritmo, como padrão.
 
 Na configuração [!UICONTROL Critérios incompatíveis de filtro] estiver ativada, você ainda pode visualizar os algoritmos não compatíveis desmarcando a caixa de seleção [!UICONTROL Compatível] ao selecionar os critérios.
 
 ![](assets/compatible_checkbox.png)
 
-A lista a seguir contém casos especiais em que [!DNL Target] não exibe a caixa de seleção [!UICONTROL Compatível]:
+A lista a seguir contém casos especiais em que o [!DNL Target] não exibe a caixa de seleção [!UICONTROL Compatível]:
 
 * EntityId e category Id estão presentes no local, então nada está sendo filtrado.
 * Você está usando a [!DNL mbox.js] versão 55 ou anterior.
 * Nenhuma chamada de mbox está sendo filtrada na página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* [!DNL Target] parâmetros não estão definidos.
+* Os parâmetros do [!DNL Target] não estão definidos.
 
-## O que devo fazer se uma coleção no Recommendations chega a zero (0)?   {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## O que devo fazer se uma coleção no Recommendations chega a zero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Considere as informações a seguir se você vir uma coleção em zero que anteriormente não estava em zero:
 
@@ -132,7 +131,7 @@ Considere as informações a seguir se você vir uma coleção em zero que anter
 * O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique há quantas horas o índice foi criado (por exemplo, &quot;Indexado há 3 horas&quot;). Você pode atualizar o índice, conforme necessário.
 * Você alterou algo no feed ou na camada de dados que resultou na falta de correspondência das suas entidades com as regras de coleção? Certifique-se de que as LETRAS MAIÚSCULAS E MINÚSCULAS estejam correspondentes (sensível à maiúscula e minúsculas).
 * O seu feed foi executado com sucesso? Alguém alterou o diretório FTP, a senha e assim por diante?
-* [!DNL Target]O faz o melhor para atualizar a entrega (na página/aplicativo do cliente) o mais rápido possível. No entanto, [!DNL Target] também precisa fornecer alguma representação na interface do usuário do profissional de marketing. [!DNL Target] O não atrasa atualizações de entrega para aguardar que as atualizações da interface do usuário estejam sincronizadas. Você pode usar [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para ver o que está no sistema no momento em que ocorre a solicitação.
+* [!DNL Target]O faz o melhor para atualizar a entrega (na página/aplicativo do cliente) o mais rápido possível. Além disso, o [!DNL Target] também deve fornecer alguma representação na interface para o profissional de marketing. O [!DNL Target] não atrasa a entrega de atualizações para esperar que as atualizações da interface estejam em sincronia. Você pode usar [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para ver o que está no sistema no momento em que ocorre a solicitação.
 
 ## Qual a diferença entre ponderação de atributos geral e ponderação de atributo específico à similaridade de conteúdo? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -148,7 +147,7 @@ Esse tipo de ponderação é mais dinâmica e baseia-se na &quot;chave de recome
 
 ![](assets/content_similarity_example.png)
 
-## Por que [!DNL Target] às vezes não consegue mostrar as recomendações? {#section_DB3F40673AED42228E407C05437D99E9}
+## Por que o [!DNL Target] às vezes não mostra recomendações? {#section_DB3F40673AED42228E407C05437D99E9}
 
 [!DNL Target]Às vezes, o não consegue mostrar recomendações devido ao baixo número de recomendações disponíveis.
 
@@ -165,7 +164,7 @@ O número de valores gerados por critério é o triplo do número de entidades e
 #end 
 ```
 
-## Qual é o limite de tamanho de uma chamada à API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed?   {#section_434FE1F187B7436AA39B7C14C7895168}
+## Qual é o limite de tamanho de uma chamada à API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target]O impõe um limite de postagem de 50 MB no nível do aplicativo; no entanto, isso apenas acontece quando o cabeçalho de tipo de conteúdo `application/x-www-form-urlencoded` é passado.
 
@@ -184,13 +183,13 @@ Com ambos os métodos, não há link entre a mbox e o parâmetro. Os critérios,
 
 Se você editar um critério, uma promoção ou uma regra de testes do modelo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
 
-## Por que não posso salvar minha atividade herdada de Recommendations, depois de definir um novo público-alvo?   {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Por que não posso salvar minha atividade herdada do Recommendations, depois de definir um novo público-alvo?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao público o mesmo nome de um público-alvo existente, não poderá salvar sua atividade herdada de Recommendations (uma atividade de Recommendations criada antes de outubro de 2016).
+Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao público o mesmo nome de um público-alvo existente, não poderá salvar sua atividade herdada do Recommendations (uma atividade de Recommendations criada antes de outubro de 2016).
 
-## Qual é o tamanho máximo de um arquivo CSV para um upload de feed?   {#section_20F1AF4839A447B9889B246D6E873538}
+## Qual é o tamanho máximo de um arquivo CSV para um upload de feed?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, a Adobe limita o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload dos arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na [[!DNL Target] página de limitações do ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, a Adobe limita o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload dos arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na [[!DNL Target]  página de limitações do ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Posso excluir dinamicamente uma entidade? {#exclude}
 
@@ -198,7 +197,7 @@ Na sequência de consulta, você pode passar IDs de entidades para as entidades 
 
 Para ativar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro indica uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
 
-A exclusão é executada somente para a chamada [!DNL Target] atual; os itens não são excluídos nas chamadas [!DNL Target] subsequentes, a menos que o valor `excludedIds` seja passado novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o valor `excludedIds` em cada página.
+A exclusão é realizada apenas para a chamada atual do [!DNL Target]; os itens não são excluídos em chamadas subsequentes do [!DNL Target], a não ser que o valor `excludedIds` seja transmitido novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o valor `excludedIds` em cada página.
 
 >[!NOTE]
 >
@@ -234,11 +233,11 @@ Quando um visitante inicia uma sessão, a ID da sessão é vinculada a uma únic
 
 Quando a sessão termina (geralmente, quando expira após 30 minutos sem atividade), o estado da sessão, incluindo itens visualizados recentemente, é mantido em um armazenamento de perfil mais permanente na mesma borda geográfica.
 
-As sessões subsequentes de diferentes dispositivos podem acessar esses itens visualizados recentemente, desde que a nova sessão esteja vinculada ao perfil do cliente por meio da mesma ID de Marketing Cloud (MCID), ID de Experience Cloud (ECID) ou CustomerID/mbox3rdPartyId.
+As sessões subsequentes de diferentes dispositivos podem acessar esses itens visualizados recentemente, desde que a nova sessão esteja vinculada ao perfil do cliente por meio da mesma Marketing Cloud ID (MCID), Experience Cloud ID (ECID) ou CustomerID/mbox3rdPartyId.
 
-Se um visitante tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo não atualizarão os itens visualizados recentemente no outro dispositivo, a menos que os dispositivos sejam forçados a compartilhar a ID da sessão. Há uma possível solução alternativa para o problema, mas [!DNL Target] não oferece suporte direto ao compartilhamento de uma ID de sessão em vários dispositivos. O cliente deve gerenciar esse compartilhamento de ID sozinho.
+Se um visitante tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo não atualizarão os itens visualizados recentemente no outro dispositivo, a menos que os dispositivos sejam forçados a compartilhar a ID da sessão. Há uma possível solução alternativa para o problema, mas o [!DNL Target] não oferece suporte direto ao compartilhamento de uma ID de sessão em vários dispositivos. O cliente deve gerenciar esse compartilhamento de ID sozinho.
 
-Esse comportamento ainda ocorre se um visitante estiver ativo em um dispositivo e, em seguida, se tornar ativo no outro dispositivo alguns minutos depois. A primeira sessão do dispositivo não expira por 30 minutos e pode haver até cinco minutos de atraso antes que o estado do perfil seja gravado no estado permanente e processado. Aguarde 35 minutos para que a sessão expire e o perfil seja armazenado ao testar esse comportamento.
+Esse comportamento ainda ocorrerá se um visitante estiver ativo em um dispositivo e, em seguida, se tornar ativo no outro dispositivo alguns minutos depois. A primeira sessão do dispositivo não expira por 30 minutos e pode haver até cinco minutos de atraso antes que o estado do perfil seja gravado no estado permanente e processado. Aguarde 35 minutos para que a sessão expire e o perfil seja armazenado ao testar esse comportamento.
 
 Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo atualizarão os itens visualizados recentemente no outro dispositivo, desde que a sessão tenha terminado. Aguarde 35 minutos para a sessão expirar ao testar esse comportamento.
 
