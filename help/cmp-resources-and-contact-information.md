@@ -1,14 +1,14 @@
 ---
 keywords: contato, jurídico, suporte técnico, suporte téc, suporte, serviço, capacidade, faturamento, feedback
-description: Saiba mais sobre os recursos adicionais para ajudá-lo a saber mais sobre os recursos do Adobe [!DNL Target] e como entrar em contato com o Adobe caso precise de ajuda com [!DNL Target].
+description: Conheça os recursos adicionais do Adobe  [!DNL Target]  e como entrar em contato com a Adobe caso precise de ajuda para o  [!DNL Target].
 title: Onde posso encontrar recursos e informações de contato para o Target?
 feature: Notas de versão, Visão geral
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Além das sessões sobre o Target, há mais sessões para outras soluções da A
 
 O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Essa página contém as informações de que você precisa ao entrar em contato com o Atendimento ao Cliente para agilizar uma resolução.
 
-### Informações básicas   {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### Informações básicas  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 Se encontrar problemas ou tiver dúvidas ao usar o Target, há várias opções
 
@@ -84,7 +84,7 @@ Para fazer uma triagem rápida do problema, tenha em mãos as seguintes informa�
 
 Para problemas de entrega de conteúdo, consulte [Solucionar problemas de entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md) para obter possíveis soluções e informações de solução de problemas.
 
-### Em caso de interrupção   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### Em caso de interrupção  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Se você suspeitar que haja uma interrupção, verifique primeiro a [página Status do Sistema da Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]) Ela possui um registro de todas as interrupções, incidentes e manutenção das Soluções da Adobe Experience Cloud, incluindo o Target, e inclui as últimas atualizações da nossa equipe de Operações Técnicas. Se precisar de mais ajuda, verifique seu conhecimento sobre os seguintes itens além das informações listadas abaixo ao entrar em contato com o Atendimento ao cliente:
 
@@ -97,7 +97,7 @@ Se você suspeitar que haja uma interrupção, verifique primeiro a [página Sta
 
 Informações para ajudá-lo a entrar em contato com a Adobe e compreender as questões jurídicas relativas à utilização deste produto e documentação.
 
-### Ajuda e suporte técnico   {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Ajuda e suporte técnico  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 A equipe de Atendimento ao cliente da Adobe Experience Cloud está aqui para ajudar você e fornecer uma série de mecanismos pelos quais é possível realizar o engajamento:
 
@@ -115,7 +115,7 @@ Para receber notificações avançadas sobre as melhorias futuras do produto, ca
 
 Dependendo da configuração de sua solução, talvez algumas opções descritas neste documento não estejam disponíveis. Como cada conta é única, consulte os valores, datas de vencimento, termos e condições em seu contrato. Se você quiser adicionar ou alterar seu nível de serviço, ou se tiver dúvidas sobre o serviço atual, entre em contato com seu Gerente de contas.
 
-### Feedback   {#section_8154D6D712054220A90D85FA8E92933E}
+### Feedback  {#section_8154D6D712054220A90D85FA8E92933E}
 
 Agradecemos suas sugestões ou comentários sobre esta solução. Ideias e sugestões de aprimoramento podem ser adicionadas à [Comunidade da Experience League do Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Clique na guia [!UICONTROL Ideias].
 
