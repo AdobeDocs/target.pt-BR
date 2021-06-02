@@ -1,13 +1,13 @@
 ---
 keywords: anúncios; skill builder; bate-papo do desenvolvedor; coffee break; eventos; forrester; gartner, webinário
-description: Leia anúncios e cadastre-se em Adobe [!DNL Target] events, incluindo sessões do Skill Builder, bate-papos do desenvolvedor e do gerente de produto, webinars e muito mais.
-title: Onde posso encontrar [!DNL Target] Anúncios e eventos?
+description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] , inclusive sessões do Skill Builder, bate-papos com desenvolvedores e gerentes de produtos, webinários e muito mais.
+title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Notas de versão
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Neste webinário gravado, os especialistas em produtos do Adobe Target discutem 
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinar: Como o HSBC usa o Adobe [!DNL Target] e a IA para otimizar e fornecer rapidamente a personalização em escala
+## Webinário: Como o HSBC usa o Adobe [!DNL Target] e IA para otimizar rapidamente e fornecer personalização em escala
 
 * **[Veja a gravação do webinário aqui](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -48,8 +48,8 @@ Participe deste webinário com a Adobe e o HSBC para aprender:
 
 *Artigo da McKinsey: &quot;[A recuperação do COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maio de 2020
 
-## Adobe [!DNL Target] Skill Builder: Bate-papo do desenvolvedor, migre a mbox.js do Adobe [!DNL Target] para at.js {#skill-builder}
+## Adobe [!DNL Target] Skill Builder: bate-papo com o desenvolvedor, migre da mbox.js do Adobe [!DNL Target]para a at.js {#skill-builder}
 
-Com a desativação da mbox.js em 31 de março de 2021, David Son, o gerente de produto da Adobe Target recentemente hospedou um chat de desenvolvedor para discutir os benefícios da migração da mbox.js para a at.js.
+Com a descontinuação da mbox.js em 31 de março de 2021, David Son, gerente de produto do Adobe Target, recentemente participou de um bate-papo com desenvolvedores para discutir os benefícios da migração da mbox.js para a at.js.
 
 * **[Veja a gravação do webinário aqui](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
