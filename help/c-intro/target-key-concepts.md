@@ -1,36 +1,36 @@
 ---
-keywords: Visão geral e referência; tipos de atividade; introdução
+keywords: Visão geral e referência;tipos de atividade;introdução
 description: Saiba mais sobre as noções básicas do Adobe Target. Este artigo apresenta você ao Target, seus tipos de atividades e outros recursos.
 title: Como usar o Target?
 feature: Visão geral
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1528'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Conceitos-chave do Target
 
-Informações sobre conceitos-chave que ajudam você a entender os recursos e recursos do [!DNL Adobe Target].
+Informações sobre os principais conceitos que ajudarão você a entender os recursos e características do [!DNL Adobe Target].
 
 ## Atividades e testes {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 Uma atividade determina as experiências que um visitante do site pode ter.
 
-Por exemplo, você pode criar uma atividade que teste duas páginas de aterrissagem diferentes, uma destacando informações sobre sapatos femininos de verão e outra destacando vestuário de verão mais geral. A atividade determina as condições que controlam quando cada uma dessas páginas de aterrissagem será exibida e as métricas que determinam qual página tem maior sucesso. A atividade é configurada para iniciar e terminar quando condições específicas forem atendidas. Essas condições podem incluir iniciar e encerrar a atividade entre datas específicas ou iniciar quando a atividade for aprovada e terminar quando ela for desativada.
+Por exemplo, você pode criar uma atividade que teste duas páginas de aterrissagem diferentes, uma destacando informações sobre sapatos femininos de verão e outra destacando vestuário de verão mais geral. A atividade determina as condições que controlam quando cada uma dessas páginas de aterrissagem será exibida e as métricas que determinam qual página tem maior sucesso. A atividade é configurada para começar e terminar quando condições específicas são atendidas. Essas condições podem incluir iniciar e encerrar a atividade entre datas específicas ou iniciar quando a atividade é aprovada e terminar quando ela é desativada.
 
-Planeje cuidadosamente ao projetar uma atividade. Determine quando a atividade começa e quanto tempo dura. Depois, relacione as ofertas e atribua um público-alvo a cada uma.
+Planeje cuidadosamente ao projetar uma atividade. Determine quando a atividade começa e quanto tempo ela dura. Depois, relacione as ofertas e atribua um público-alvo a cada uma.
 
-O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher melhor o melhor tipo de atividade para suas finalidades, a equipe do Target também criou o [Guia de atividades do Adobe Target](/help/c-activities/target-activities-guide.md).
+O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [ Manual de atividades do Adobe Target](/help/c-activities/target-activities-guide.md).
 
 | Tipo de atividade | Descrição |
 |--- |--- |
 | [Teste A/B](/help/c-activities/t-test-ab/test-ab.md) | O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Teste A/B](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
 | [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Alocação automática](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
-| [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | O Direcionamento automático usa aprendizagem de máquina avançada para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado. As atividades de Direcionamento automático veiculam a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento automático](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
+| [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | O Direcionamento automático usa aprendizado de máquina avançado para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado. As atividades de Direcionamento automático oferecem a experiência mais personalizada para cada visitante com base em seu perfil de cliente individual e no comportamento de visitantes anteriores com perfis semelhantes, a fim de personalizar o conteúdo e gerar conversões.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento automático](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
 | [Uso de dados do Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Você pode configurar uma atividade para usar o [!DNL Adobe Analytics] como fonte de geração de relatórios. Este tipo de atividade requer a vinculação da sua conta da [!DNL Adobe Experience Cloud] ao [!DNL Analytics] e ao [!DNL Target]. |
 | [Teste multivariado](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | O Multivariate Testing (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade. |
 | [Direcionamento de experiência](/help/c-activities/t-experience-target/experience-target.md) | O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento de experiência](/help/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/c-intro/intro.md#premium). |
@@ -50,11 +50,11 @@ No [!DNL Target Standard], um local pode ser qualquer elemento em uma página, d
 
 As localizações são combinadas aos públicos para fornecer um número quase infinito de opções para direcionar informações para os clientes. Por exemplo, se um visitante nunca tiver visitado o site antes, você poderá exibir um cupom de desconto para novos clientes. Da mesma forma, a página poderá ser alterada para exibir ofertas mais otimizadas para clientes que retornam.
 
-Você também pode usar locais para rastrear o progresso de um visitante em seu site. Você também pode usar locais para rastrear se o visitante conclui uma métrica de sucesso específica, como adicionar um item ao carrinho de compras ou concluir uma compra.
+Você também pode usar locais para rastrear o progresso de um visitante em seu site. Você também pode usar os locais para rastrear se o visitante conclui uma métrica de sucesso específica, como adicionar um item ao carrinho de compras ou concluir uma compra.
 
 ## Experiências e designs de página {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-Uma experiência, às vezes chamada de receita, define o conteúdo exibido na página e outros elementos da página, como links.
+Uma experiência, às vezes chamada de fórmula, define o conteúdo que é exibido na página, bem como os outros elementos da página, como links.
 
 Uma experiência determina qual oferta é exibida em um determinado local quando condições específicas de direcionamento forem cumpridas. Por exemplo, a experiência determina que, quando um visitante visitar seu site a partir de Utah, uma oferta de envio em dois dias seja exibida em uma mbox no topo da página. A experiência também determina que, quando um novo visitante visualiza a página, um desconto de 10% aparece no mesmo local.
 
