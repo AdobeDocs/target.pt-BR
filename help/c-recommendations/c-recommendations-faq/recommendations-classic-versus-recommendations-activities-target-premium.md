@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations, algoritmos do recommendations, atividade do recommendations, recommendations classic
-description: Revise as informações para ajudá-lo a entender as diferenças entre as atividades herdadas do Recommendations Classic e do Recommendations no [!DNL Target] Premium.
-title: Qual é a diferença entre o Recommendations Classic e o Recommendations no [!DNL Target] Premium?
+description: Examine as informações para ajudar você a entender as diferenças entre as atividades herdadas do Recommendations Classic e do Recommendations no  [!DNL Target] Premium.
+title: Qual é a diferença entre o Recommendations Classic e o Recommendations no  [!DNL Target] Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMRatividades do Recommendations Classic versus Recommendations no  [!DNL Target] Premium
+# ![PREMIUM](/help/assets/premium.png) Atividades do Recommendations Classic versus Recommendations no [!DNL Target] Premium
 
 Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
 
@@ -20,7 +20,7 @@ Informações para ajudá-lo a escolher entre as atividades Recommendations Clas
 >
 >As atividades do Recommendations estão disponíveis como parte da solução do [!DNL Target Premium]. Elas não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 
-No produto do [!DNL Recommendations] clássico, as recomendações foram exibidas com a criação de uma mbox de coleta de dados em uma página seguida da adição de uma mbox de exibição em um local específico da página. A atividade do [!DNL Recommendations] no [!DNL Target Premium] permite a criação de recomendações em qualquer lugar da página, sem a necessidade de criar uma mbox para cada local onde deseja recomendar os produtos ou conteúdo. Uma simples referência de JavaScript no cabeçalho da página ativa o Recommendations em qualquer lugar da página. Use essa referência do JavaScript para enviar as chaves à mbox do [!DNL Target], como as chaves do `entity.id` e `entity.categoryId`.
+No produto do [!DNL Recommendations] clássico, as recomendações foram exibidas com a criação de uma mbox de coleta de dados em uma página seguida da adição de uma mbox de exibição em um local específico da página. A atividade do [!DNL Recommendations] no [!DNL Target Premium] permite a criação de recomendações em qualquer lugar da página, sem a necessidade de criar uma mbox para cada local onde deseja recomendar os produtos ou conteúdo. Uma simples referência de JavaScript no cabeçalho da página ativa recomendações em qualquer lugar da página. Use essa referência do JavaScript para enviar as chaves à mbox do [!DNL Target], como as chaves do `entity.id` e `entity.categoryId`.
 
 O [!DNL Recommendations Classic] é exibido como o seu próprio cartão na interface do usuário da [!DNL Experience Cloud]. Uma atividade do [!DNL Recommendations] está disponível com o fluxo de trabalho do [!DNL Target Premium].
 
@@ -41,7 +41,7 @@ Essa funcionalidade permite capacidades nunca antes vistas, como:
 
 Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de experiência] usando o [!UICONTROL Visual Experience Composer] e use a ação [!UICONTROL Inserir antes], [!UICONTROL Inserir depois] ou [!UICONTROL Substituir por] para adicionar recomendações a uma experiência.
 
-Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
+Para obter mais informações, consulte [Recomendações como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
 
 ## Critérios {#section_117709846DAA404580EBE879FFCBD9BA}
 
@@ -61,7 +61,7 @@ O fluxo de trabalho do [!DNL Recommendations] foi simplificado. Em vez de preenc
 1. Selecione um pré-configurado  [predefinido](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Visualize as recomendações resultantes.
 
-## Visualização do visual   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Visualização do visual  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Você pode visualizar suas recomendações depois de configurá-las e fazer as alterações necessárias, sem ter que criá-las na página e testá-las. As visualizações estão disponíveis no [!DNL Target].
 
