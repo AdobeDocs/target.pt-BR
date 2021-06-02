@@ -1,14 +1,14 @@
 ---
 keywords: treinamento;certificação;target;cursos online;cursos;aula;aulas
-description: Encontre Adobe [!DNL Target] classes e certificados oferecidos pelos Serviços de Treinamento Adobe.
+description: Encontre aulas e certificações do Adobe  [!DNL Target]  oferecidas pelos Serviços de treinamento da Adobe.
 title: Onde posso encontrar aulas de treinamento e certificação?
 feature: Visão geral
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
