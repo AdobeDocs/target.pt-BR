@@ -4,11 +4,11 @@ description: Veja uma lista de tópicos para ajudar você a resolver problemas n
 title: Como solucionar problemas do Target?
 feature: Solução de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 * [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Integração do Analytics e [!DNL Target] (A4T)
+## Integração do Analytics e do [!DNL Target] (A4T)
 
 * [Solução de problemas na integração do Analytics e do Target ](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Adobe Analytics como fonte de relatórios da funcionalidade do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
@@ -139,7 +139,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Decisão no dispositivo
 
-* [Solução de problemas no dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [Solução de problemas da decisão no dispositivo para at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## Relatório
 
