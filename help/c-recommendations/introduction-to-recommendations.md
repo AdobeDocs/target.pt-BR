@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations; intro; introdução, webinar, demonstração
-description: Saiba mais sobre as atividades do Recommendations no Adobe [!DNL Target] que exibem automaticamente conteúdo que pode ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
+description: Saiba mais sobre as atividades do Recommendations no Adobe  [!DNL Target]  que exibem automaticamente conteúdo que pode interessar a seus clientes, com base na atividade anterior do usuário ou outros algoritmos.
 title: O que são as atividades do Recommendations?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Excelentes recomendações devem ser relevantes e personalizadas. Isso significa
 * **Modelos sofisticados** para dar sentido a milhões de itens nos eventos de catálogo e interação. O [!DNL Target] possui recursos sofisticados de aprendizado de máquina criados em uma década de experiência e nós lidamos com bilhões de recomendações por ano.
 * **Contexto do usuário** para garantir que as recomendações sejam oportunas e relevantes para os usuários. Você não vai querer recomendar o vídeo que alguém acabou de assistir ou a camisa que alguém acabou de adicionar ao carrinho. O perfil de usuário avançado do Target pode ser usado nas recomendações para garantir a personalização.
 
-## Implementar [!DNL Target] Recommendations
+## Implementar o [!DNL Target] Recommendations
 
 Comece com uma estratégia.
 
@@ -195,6 +195,6 @@ Por exemplo, no contexto de conteúdo, você pode excluir os filmes que o visita
 
 Após concluir as tarefas ilustradas no funil de recomendações descrito acima, você fica com a recomendação final. Para assistir a uma demonstração do produto no [!DNL Target], a demonstração começa às 21:00 no *Webinário de noções básicas do Adobe Target*, vinculado abaixo.
 
-## Webinar de noções básicas do Adobe [!DNL Target]: Introdução ao Recommendations {#intro-to-recs}
+## Webinário de noções básicas do Adobe [!DNL Target]: introdução ao Recommendations {#intro-to-recs}
 
 [Introdução ao Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
