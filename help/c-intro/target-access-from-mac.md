@@ -1,22 +1,22 @@
 ---
 keywords: Experience Cloud, fazer logon, idioma, idioma padrão da interface do usuário, idioma padrão
-description: 'Saiba como acessar a interface e a documentação do . [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] '
-title: Como faço para acessar [!DNL Target] da Adobe Experience Cloud?
+description: Saiba como acessar a interface e a documentação do [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] .
+title: Como acessar o  [!DNL Target]  pela Adobe Experience Cloud?
 feature: Visão geral
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Acesse [!DNL Target] do Adobe Experience Cloud
+# Acessar o [!DNL Target] pela Adobe Experience Cloud
 
 Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Cloud], definição da landing page padrão e alteração do idioma da interface do usuário do [!DNL Target].
 
-## Faça logon no Adobe [!DNL Target] e defina sua exibição padrão
+## Fazer logon no Adobe [!DNL Target] e definir a visualização padrão
 
 1. Faça logon na [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -30,7 +30,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
    ![Página de aterrissagem](/help/c-intro/assets/pagepref-new.png)
 
-## Altere o idioma padrão da interface [!DNL Target] {#language}
+## Alterar o idioma padrão da interface do [!DNL Target] {#language}
 
 1. Depois de entrar na [!DNL Adobe Experience Cloud ] ou no [!DNL Target], clique no avatar do seu perfil e em **[!UICONTROL Editar preferências]**.
 
@@ -65,7 +65,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. Faça logout do [!DNL Adobe Experience Cloud] ou [!DNL Target], em seguida, entre novamente para que suas alterações entrem em vigor.
 
-## Altere o idioma da [!DNL Target] documentação do produto {#doc-lang}
+## Alterar o idioma da documentação do produto do [!DNL Target] {#doc-lang}
 
 As configurações do sistema operacional ou do navegador devem detectar o idioma preferido e exibir a documentação nesse idioma (se disponível). A documentação do [!DNL Target] é traduzida automaticamente e estará sincronizada com a versão em inglês horas após alterações serem feitas na documentação em inglês.
 
