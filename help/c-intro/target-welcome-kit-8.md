@@ -1,14 +1,14 @@
 ---
 keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
-description: Use o modelo Resultados do resumo executivo para ajudá-lo a comunicar seus sucessos com suas atividades de Adobe [!DNL Target] .
-title: Como posso compartilhar os resultados das minhas atividades [!DNL Target] com minha organização?
+description: Use o modelo de Resultados do resumo executivo para ajudá-lo a comunicar seu sucesso com as atividades do Adobe  [!DNL Target] .
+title: Como posso compartilhar os resultados de minhas atividades  [!DNL Target]  com minha organização?
 feature: Visão geral
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
