@@ -4,7 +4,7 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 92223e71001804d4649e5cb613810e632bec44c9
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 82%
@@ -25,7 +25,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Adição de informações sobre o [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Analytics  [!DNL Target] para implementação](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Adição de uma nova seção:<ul><li>Etapas de implementação para uma implementação [!DNL Adobe Experience Platform Web SDK]</li></ul> |
 |  | [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Adição de informações sobre o uso de ofertas de redirecionamento com o A4T e o SDK da Web da plataforma. |
-|  | [Tokens de resposta](/help/administrating-target/response-tokens.md) | Adição de informações sobre o uso de tokens de resposta com o [!DNL Adobe Experience Platform Web SDK].<br>**Observação**: Essa funcionalidade será lançada em uma versão futura do SDK da Web da plataforma. Data a determinar. |
+|  | [Tokens de resposta](/help/administrating-target/response-tokens.md) | Adição de informações sobre o uso de tokens de resposta com o [!DNL Adobe Experience Platform Web SDK].<br>**Observação**: Essa funcionalidade será lançada em uma versão futura do SDK da Web da plataforma (data a ser determinada). |
 |  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão 2.6.0 do SDK da Web da Adobe Experience Platform (1 de junho de 2021). |
 | Maio de 27 | [Limites](/help/r-troubleshooting-target/target-limits.md) | Adição de seção para chamadas de API [!DNL Target]. O limite é de 50 chamadas por minuto. |
 | Maio de 20 | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adição de um link para a seguinte publicação do blog no Adobe Tech Blog:<ul><li>Adobe Tech Blog - Parte 2: Execute [!DNL Adobe Target] o SDK do NodeJS para experimentação e personalização em plataformas de borda (AWS Lambda@Edge)</li></ul> |
