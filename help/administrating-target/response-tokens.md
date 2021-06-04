@@ -5,9 +5,9 @@ title: O que são tokens de resposta e como usá-los?
 feature: Administração e configuração
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1651'
 ht-degree: 27%
 
 ---
@@ -22,7 +22,11 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 >[!NOTE]
 >
->Os tokens de resposta estão disponíveis com a versão [!DNL Adobe Experience Platform Web SDK] 2.6.0 ou posterior e com a at.js versão 1.1 ou posterior.
+>Os tokens de resposta estão disponíveis com a at.js versão 1.1 ou posterior.
+
+>[!IMPORTANT]
+>
+>A funcionalidade do token de resposta com o [!DNL Adobe Experience Platform Web SDK] estará disponível em uma versão futura (data a ser determinada). A documentação abaixo sobre tokens de resposta e o SDK da Web da plataforma está incluída como um pico de sneak.
 
 | SDK do Target | Ações sugeridas |
 |--- |--- |
