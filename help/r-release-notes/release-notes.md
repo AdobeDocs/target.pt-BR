@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, aprimoramentos e correções in
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 83%
+source-wordcount: '615'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,19 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >Migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## Target Standard/Premium 21.6.1 (7 de junho de 2021)
+
+Essa versão inclui os seguintes aprimoramentos:
+
+| Recurso | Detalhes |
+| --- | --- |
+| ![Selo Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catálogo ] API de pesquisa | Pesquise seu [!DNL Recommendations] catálogo de produtos e conteúdo de forma programada por meio da API para identificar itens que correspondam a um critério de pesquisa e simplificar a administração do catálogo.<br>**Limitações e observações**:<ul><li>A pesquisa no catálogo por meio da API não é compatível com ambientes com mais de 2.000.000 itens.</li><li>Os resultados da pesquisa de catálogo por meio da API são atualizados mais rapidamente do que os resultados da pesquisa de catálogo por meio da interface do usuário [!DNL Target]. A pesquisa de catálogo na interface do usuário [!DNL Target] pode levar mais tempo para refletir os resultados mais recentes.</li></ul>Para obter mais informações, consulte [Pesquisando entidades](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) no guia *[!DNL Adobe Target][!DNL Recommendations] API*. |
+
+Esta versão de manutenção da versão contém as seguintes correções.
+
+* Correção de um problema que fazia com que o espaço de trabalho padrão mudasse para outro espaço de trabalho ao atualizar a página [!UICONTROL Audiences]. (TGT-38871)
+* Correção de um problema em [!UICONTROL Administration] > [!UICONTROL Implementation] que às vezes causava uma mensagem de erro informando, &quot;Sua mbox global pode não estar sincronizada. Tente salvá-lo novamente.&quot;
 
 ## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 (1 de junho de 2021)
 
@@ -39,23 +52,6 @@ Essa versão da at.js inclui os seguintes aprimoramentos e alterações:
 * [Suporte a links de pré-visualização](/help/c-activities/c-activity-qa/activity-qa.md) para atividade de Automated Personalization
 
 Esta versão também remove o suporte ao Microsoft Internet Explorer 10, Internet Explorer 11 e todas as versões mais antigas. O Microsoft Edge continua sendo compatível com a at.js 2.5.0 e posteriores.
-
-## Target Standard/Premium 21.4.1 (19 de abril de 2021)
-
-Esta versão inclui os novos recursos e melhorias a seguir. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
-
-| Recurso | Detalhes |
-| --- | --- |
-| Suporte para decisão no dispositivo para at.js<br>(Data a ser anunciada) | A decisão no dispositivo permite que profissionais de marketing e desenvolvedores forneçam experiência e personalização no navegador do usuário com latência próxima de zero.<br>Para obter mais informações, consulte [Decisão no dispositivo para at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![Premium](/help/assets/premium.png) Operadores baseados em lista para regras de filtragem de entidade | O [!DNL Target Recommendations] oferece suporte a novos operadores baseados em lista para regras de filtragem de entidade. (TGT-39234)<br>Os operadores recém-adicionados incluem:<br><ul><li>Está contido na lista</li><li>Não está contido na lista</li><li>A lista contém um item em</li><li>A lista não contém um item em</li><li>A lista contém todos os itens em</li><li>A lista não contém todos os itens em</li></ul>Para obter mais informações, consulte &quot;Operadores disponíveis&quot; em [Usar regras de inclusão dinâmicas e estáticas](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
-
-Esta versão inclui as seguintes correções.
-
-* Correção de um problema que impedia a sincronização de uma atividade após alterar o público-alvo para [!UICONTROL Todos os visitantes]. (TGT-40259)
-* Correção de um problema que impedia a duplicação de ofertas quando usadas em locais diferentes nas atividades [!UICONTROL Automated Personalization], mesmo que a opção [!UICONTROL Não permitir duplicatas] estivesse habilitada. (TGT-39567)
-* Correção de um problema que impedia o carregamento correto da página [!UICONTROL Administração] > [!UICONTROL Configuração do Scene7]. (TGT-39918)
-* Correção de um problema que fazia com que as propriedades fossem mapeadas para o espaço de trabalho incorreto. (TGT-39869)
-* Correção de um problema que causava o carregamento infinito se a solicitação falhasse após alterar o ambiente ao criar uma exclusão de recomendações. (TGT-39948)
 
 ## Notas de versão adicionais e detalhes da versão
 
