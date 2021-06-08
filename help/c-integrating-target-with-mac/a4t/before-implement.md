@@ -4,10 +4,10 @@ description: Saiba mais sobre os requisitos de implementação do Analytics para
 title: O que devo saber antes de implementar o A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 8c0cdfbe02e9159cf8348e68a782a4268a8df687
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +42,12 @@ Essa integração requer que você implemente as seguintes versões de bibliotec
 Para usar ofertas de redirecionamento com A4T, você deve implementar as seguintes versões de biblioteca (ou mais recentes). A ordem listada é de operações.
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js versão 2.3.0
+
+   **Observação:**  a at.js 1.8.0 ou superior não funciona mais com as versões da API do visitante anteriores à 2.5.0 para transmitir parâmetros  [!DNL Adobe Audeince Manager] (AAM).
+
 * [!DNL Adobe Target]: at.js versão 1.6.2
 
-   **Observação:** a biblioteca mbox.js não é compatível com as ofertas de redirecionamento com o A4T. Sua implementação deve usar at.js.
+   **Observação**: A biblioteca mbox.js não é compatível com as ofertas de redirecionamento com o A4T. Sua implementação deve usar at.js.
 
 * Adobe Analytics: appMeasurement.js versão 2.1
 
