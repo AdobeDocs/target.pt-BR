@@ -4,11 +4,10 @@ description: Saiba como usar uma atividade de Alocação automática no Adobe [!
 title: O que é uma atividade de alocação automática?
 feature: Alocação automática
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3387'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -42,7 +41,7 @@ A alocação automática aloca novos visitantes a experiências de modo intelige
 * Use um padrão **[Use o teste A/B](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** quando quiser caracterizar o desempenho de todas as experiências antes de otimizar o site. Um teste A/B ajuda a classificar todas as experiências, enquanto a alocação de tráfego automatizada encontra aquelas de desempenho mais alto, mas não garante a diferenciação entre aquelas de desempenho mais baixo.
 * Use [Personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando quiser algoritmos de otimização da mais alta complexidade, como modelos de aprendizado automatizado que fazem previsões com base em atributos de perfil individuais. A alocação de tráfego automatizada observa o comportamento agregado das experiências (assim como testes A/B padrão) e não diferencia os visitantes.
 
-## Principais benefícios   {#section_0913BF06F73C4794862561388BBDDFF0}
+## Principais benefícios  {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Mantém o rigor de um teste A/B
 * Encontra um vencedor estatisticamente significativo mais rapidamente do que um teste A/B manual
@@ -136,7 +135,7 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as ativi
 
 ### O Analytics for Adobe Target (A4T) é compatível com atividades de Alocação automática?
 
-Sim. Para obter mais informações, consulte [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Sim. Para obter mais informações, consulte [Suporte ao A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Os visitantes recorrentes são realocados automaticamente a experiências de alto desempenho?
 
@@ -174,7 +173,7 @@ No momento, a lógica favorece visitantes que convertem rapidamente ou visitam c
 
 ### Posso usar a calculadora de tamanho de amostra ao usar a Alocação automática para estimar quanto tempo a atividade levará para identificar o vencedor?
 
-Você pode usar a calculadora de tamanho de amostra existente [a1/> para obter uma estimativa de quanto tempo será a execução do teste. ](https://docs.adobe.com/content/target-microsite/testcalculator.html) (Assim como em testes A/B tradicionais, aplique a correção de Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica/hipótese de conversão.) Observe que essa calculadora foi projetada para testes A/B tradicionais de horizonte fixo e fornece apenas uma estimativa. O uso da calculadora para uma atividade de Alocação automática é opcional, pois a Alocação automática declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
+Você pode usar a calculadora de tamanho de amostra existente [a1/> para obter uma estimativa de quanto tempo será a execução do teste. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) (Assim como em testes A/B tradicionais, aplique a correção de Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica/hipótese de conversão.) Observe que essa calculadora foi projetada para testes A/B tradicionais de horizonte fixo e fornece apenas uma estimativa. O uso da calculadora para uma atividade de Alocação automática é opcional, pois a Alocação automática declarará um vencedor para você — você não precisa escolher um ponto fixo no tempo para ver os resultados do teste — os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
 * Ao testar exatamente duas experiências, a Alocação automática encontra um vencedor mais rapidamente do que o teste de horizonte fixo (ou seja, o período sugerido pela calculadora de tamanho de amostra) quando a diferença de desempenho entre experiências é grande, mas pode exigir tempo extra para identificar um vencedor quando a diferença de desempenho entre experiências é pequena. Nesses casos, os testes com horizonte fixo teriam normalmente terminado sem um resultado estatisticamente significativo.
 * Ao testar mais de duas experiências, a Alocação automática encontra um vencedor mais rapidamente do que o teste de horizonte fixo (ou seja, o período sugerido pela calculadora de tamanho de amostra) quando uma única experiência executa todas as outras experiências com eficiência. Quando duas ou mais experiências estão &quot;vencendo&quot; em relação a outras experiências, mas estão intimamente vinculadas umas às outras, a Alocação automática pode exigir mais tempo para determinar qual é superior. Nesses casos, os testes de horizonte fixo tipicamente teriam terminado ao concluir que as experiências &quot;vencedoras&quot; eram melhores do que as experiências de desempenho mais baixo, mas não identificaram qual era superior.
 
@@ -186,7 +185,7 @@ Não há motivo para remover uma experiência com baixo desempenho. A Alocação
 
 ### Posso alterar a métrica de meta até o meio de uma atividade de Alocação automática? {#change-metric}
 
-Não recomendamos que você altere a métrica de meta para a metade de uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade usando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. Não garantimos o que acontece se você alterar a métrica de meta em uma atividade após sua execução.
+Não recomendamos que você altere a métrica de meta durante uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade utilizando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. Não garantimos o que pode acontece se você alterar a métrica de meta em uma atividade após sua execução.
 
 Esta recomendação se aplica às atividades de [!UICONTROL Alocação automática], [!UICONTROL Direcionamento automático] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
 
@@ -206,7 +205,7 @@ Ao selecionar outro ambiente, o relatório mostrará o tráfego e as conversões
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Fluxo de trabalho da atividade - Direcionamento (2:14)  ![Selo do tutorial](/help/assets/tutorial.png)
+### Fluxo de trabalho da atividade - Direcionamento (2:14) ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração da alocação de tráfego.
 
