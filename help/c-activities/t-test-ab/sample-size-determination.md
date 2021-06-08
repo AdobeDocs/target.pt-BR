@@ -4,8 +4,7 @@ description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-suce
 title: Por quanto tempo devo executar um teste A/B?
 feature: Testes A/B
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3063'
 ht-degree: 63%
@@ -42,7 +41,7 @@ Para obter mais informações, consulte [Visão geral da alocação automática]
 
 Se você optar por usar uma atividade [!UICONTROL Teste A/B] manual em vez de [!UICONTROL Alocação automática], a Calculadora de tamanho de amostra [!DNL Target] ajudará a determinar o tamanho de amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, então a calculadora é útil. O uso da calculadora para uma atividade de [!UICONTROL Alocação automática] é opcional, pois [!UICONTROL A Alocação automática] declara um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessário. Continue a let para obter mais informações sobre como usar a calculadora.
 
-Antes de configurar seu teste A/B, acesse a calculadora de tamanho de amostra do Adobe Target [a1/>.](https://docs.adobe.com/content/target-microsite/testcalculator.html)
+Antes de configurar seu teste A/B, acesse a calculadora de tamanho de amostra do Adobe Target [a1/>.](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
 
 ![Calculadora de tamanho da amostra do Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -138,7 +137,7 @@ Neste exemplo, você pode decidir ser capaz de detectar um aumento de 5% (corres
 
 Novamente, é recomendável que o tempo necessário sempre seja arredondado para o número inteiro de semana mais próximo possível, para evitar efeitos de dia da semana. Assim, neste exemplo, o teste deverá ser executado por duas semanas antes da avaliação do resultado.
 
-### Receita por métrica de visita   {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Receita por métrica de visita  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Ao usar a Receita por visita (RPV) como uma métrica, uma fonte adicional de variação será adicionada porque a RPV é o produto da receita por pedido e taxa de conversão (RPV = Receita / # de visitantes = (Receita por pedido * # de pedidos) / # de visitantes = Receita por pedido * (# de visitantes * CTR) / # de visitantes = Receita por pedido * CTR), cada um com sua variação. A variação da taxa de conversão pode ser estimada diretamente usando um modelo matemático, mas a variação da receita por pedido é específica para a atividade. Portanto, use o conhecimento dessa variação de atividades anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada com base nos valores da Soma de vendas, Soma de vendas quadrada e Número de visitantes encontrados no arquivo de download CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para concluir o teste.
 
@@ -159,7 +158,7 @@ Em geral, o uso de RPV como métrica requer de 20 a 30% mais tempo para atingir 
 
 Cada vez que você compara duas ofertas, a possibilidade de receber um falso positivo (observando uma diferença significativamente estatística, até mesmo quando não há diferença na taxa de conversão) é igual ao nível de significância. Por exemplo, se houver cinco ofertas, A/B/C/D/E, e A for a oferta de controle, quatro comparações serão feitas (controle para B, controle para C, controle para D e controle para E) e a probabilidade de um falso positivo será de 18,5%, até mesmo quando o nível de confiança for 95%, pois Pr(pelo menos um falso positivo) = 1 - Pr(sem falsos positivos) = 1 - 0,95 = 18,5%. Um falso positivo está nesse contexto definido como o controle sendo relatado como melhor do que a alternativa ou a alternativa sendo relatada como melhor do que o controle quando, de fato, não há diferença entre elas.
 
-## Conclusão   {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusão  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Ao usar uma atividade de [!UICONTROL Alocação automática], [!DNL Target] identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido. [!UICONTROL A alocação automática facilita a conquista das metas de conversão, além de remover a adivinhação.]
 
