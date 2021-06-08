@@ -4,10 +4,10 @@ description: Saiba mais sobre os requisitos de implementação do Analytics para
 title: O que devo saber antes de implementar o A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 8c0cdfbe02e9159cf8348e68a782a4268a8df687
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -43,7 +43,7 @@ Para usar ofertas de redirecionamento com A4T, você deve implementar as seguint
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js versão 2.3.0
 
-   **Observação:**  a at.js 1.8.0 ou superior não funciona mais com as versões da API do visitante anteriores à 2.5.0 para transmitir parâmetros  [!DNL Adobe Audeince Manager] (AAM).
+   **Observação:**  a at.js 1.8.0 ou mais recente não funciona mais com as versões da API de visitante anteriores à 2.5.0 para transmitir parâmetros  [!DNL Adobe Audience Manager] (AAM).
 
 * [!DNL Adobe Target]: at.js versão 1.6.2
 
