@@ -4,11 +4,10 @@ description: Leia dicas do nosso painel de especialistas sobre como usar o  [!DN
 title: Onde posso encontrar dicas e truques para usar o Target?
 feature: Visão geral
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +109,7 @@ Muitos profissionais de marketing lançam programas de otimização para segment
 * Qual é a taxa de conversão da página?
 * Por quanto tempo você antecipa a necessidade de executar o teste antes de poder considerá-lo como concluído com confiança?
 
-**Dica útil**: use a [calculadora de tamanho da amostra](https://docs.adobe.com/content/target-microsite/testcalculator.html) do Target para ajudar a determinar o tamanho da amostra necessário para um teste bem-sucedido.
+**Dica útil**: use a [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) do Target para ajudar a determinar o tamanho da amostra necessário para um teste bem-sucedido.
 
 ## Dica 12: projete testes mais simples para garantir que você possa criá-los e implementá-los.
 
