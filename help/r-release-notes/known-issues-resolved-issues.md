@@ -4,9 +4,9 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Notas de versão
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4409'
+source-wordcount: '4438'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,10 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### [!DNL Adobe Experience Platform] os nomes de segmentos não são exibidos no relatório  [!UICONTROL de ] Atributos importantes .
+
+[!DNL Adobe Experience Platform] os nomes de segmento não são exibidos no relatório de  [!UICONTROL Atributos importantes para as atividades de ] Automated Personalization [!UICONTROL  (AP) e de Direcionamento ] automático   (AT). (TOP-3813)
 
 ### O arquivamento de [!UICONTROL atividades de Direcionamento automático] pode causar problemas de sincronização
 
@@ -78,10 +82,10 @@ A seguir, os problemas conhecidos com atividades do [!UICONTROL Recommendations]
    * Duplique a atividade
    * Ative promoções novamente em cada atividade
 
-* Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON Recommendations, ele retornará com um tipo de HTML.
+* Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recommendations, ele retornará com um tipo de HTML.
 * As entidades expiraram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. (IRI-857)
 * As sobreposições &quot;Informações de uso&quot; para critérios e desenhos não refletem seu uso nas atividades A/B e direcionamento de experiência (TGT-34331)
-* As ofertas de recomendações nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja de recomendações (TGT-33426)
+* As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recommendations (TGT-33426)
 * Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário do Target e podem ser editados por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do usuário do Target e depois editá-los por meio da API, essas alterações não serão refletidas na interface do usuário do Target. Os itens editados por meio da API devem continuar sendo editados por meio da API para evitar a perda de modificações. (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 * O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
@@ -108,7 +112,7 @@ A seguir, os problemas conhecidos com at.js:
 
    Ao usar at.js, a caixa de marcação Compatibilidade é ocultada para quer você não possa ver algoritmos.
 
-   Esse problema se aplica somente às atividades de recomendações que usam o VEC.
+   Esse problema se aplica somente às atividades do Recommendations que usam o VEC.
 
    **Solução alternativa**: desative a opção [!UICONTROL Filtrar critérios incompatíveis] em [!UICONTROL Recommendations > Configurações]. Depois de desativar essa configuração, todos os critérios (compatíveis e incompatíveis) serão exibidos no seletor de critérios. (TGT-25949)
 
@@ -137,7 +141,7 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 
 Em 10 de maio de 2020, a Adobe atualizou os arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores em públicos existentes não tinham vírgula. Nem todos os servidores de entrega da Adobe foram afetados por essa alteração. Como resultado, os públicos que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
 
-### Relatórios - Dados inconsistentes no relatório .csv baixável versus o relatório exibido na interface do usuário [!DNL Target]. {#csv}
+### Relatórios — dados inconsistentes no relatório .csv para download em comparação ao relatório exibido na interface do [!DNL Target].  {#csv}
 
 Os relatórios gerados para download como arquivos .csv são inconsistentes se a atividade usar mais de uma métrica. O relatório que pode ser baixado é gerado somente com base nas configurações do relatório e considera o mesmo valor para qualquer outra métrica usada.
 
@@ -240,7 +244,7 @@ Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo
 
 at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
 
-### Suporte a permissões empresariais nas APIs [!DNL Target] {#api}
+### Suporte a permissões empresariais nas APIs do [!DNL Target]  {#api}
 
 As ofertas de código criadas na interface do usuário do Target na biblioteca de ofertas podem ser exibidas no espaço de trabalho padrão se a lista de ofertas for obtida usando APIs GET. Esse problema será corrigido na primeira semana de março de 2019. Após essa correção, as ofertas de código serão exibidas no espaço de trabalho apropriado quando obtidas das APIs. Esse problema *não* afeta as ofertas criadas com as APIs. Por exemplo, as ofertas de código criadas nas APIs são exibidas no espaço de trabalho em que foram criadas, seja por meio de APIs GET ou da interface do usuário do Target.
 
@@ -327,13 +331,13 @@ Se você recarregar o VEC na etapa 1 do fluxo de trabalho guiado de três etapas
 
 Isso foi corrigido na versão 18.9.1.
 
-### Atividade de recomendações que usa uma regra de Promoção do atributo
+### Atividade do Recommendations que usa uma regra de Promoção do atributo
 
-Ao editar ou copiar uma atividade Recommendations que use uma regra de promoção de atributo, o erro &quot;Campo ausente&quot; é exibido ao clicar em Salvar.
+Ao editar ou copiar uma atividade do Recommendations que use uma regra de promoção de atributo, o erro &quot;Campo ausente&quot; é exibido ao clicar em Salvar.
 
 Isso foi corrigido na versão 17.8.1.
 
-### Recommendations de backup
+### Recomendações de backup
 
 As recomendações de backup exibem erroneamente &quot;Ativado&quot; nos cartões de Itens visualizados recentemente na interface do usuário do Target. (TGT-29308)
 
@@ -351,7 +355,7 @@ O algoritmo para extrair o domínio de nível superior que deve ser usado ao sal
 
 Este problema foi remediado na at.js versão 1.2.
 
-### Permissões de usuário empresarial para [!DNL Target] Premium
+### Permissões de usuário empresarial para o [!DNL Target] Premium
 
 Como parte da migração das migrações empresariais, todo o gerenciamento de usuário do Target Premium foi movido da IU do Adobe Target para o Adobe Admin Console.
 
@@ -428,9 +432,9 @@ Corrigido na versão 17.4.1 do Target (27 de abril de 2017).
 
 Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em entidade não levarão a nenhuma recomendação se o parâmetro entity.id não for transmitido na solicitação da mbox. (RECS-6241)
 
-Esse problema foi corrigido depois da versão das recomendações (22 de março de 2018). Depois do lançamento das recomendações, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
+Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhes da implementação depois de atualizar as configurações da at.js, a mbox.js é baixada em vez da at.js. (TGT-23069)
 
@@ -438,9 +442,9 @@ Corrigido na versão 17.3.1 do Target (30 de março de 2017).
 
 ### Regras de exclusão globais
 
-As regras de exclusão globais estão demorando 10 a 20 minutos para se propagarem para a borda para recomendações do Premium. (RECS-5270)
+As regras de exclusão globais estão demorando 10 a 20 minutos para se propagarem para a borda para o Recommendations Premium. (RECS-5270)
 
-Corrigido na versão 17.2.2.0 das recomendações (6 de março de 2017).
+Corrigido na versão 17.2.2.0 do Recommendations (6 de março de 2017).
 
 ### Relatórios do Analytics for Adobe Target (A4T)
 
