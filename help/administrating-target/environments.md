@@ -5,11 +5,10 @@ title: O que são ambientes e como os uso?
 feature: Administração e configuração
 role: Administrator
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +31,12 @@ Para gerenciar ambientes, clique em **[!UICONTROL Administration]** > **[!UICONT
 1. Na lista [!UICONTROL Ambientes], clique em **[!UICONTROL Adicionar Ambiente]**.
 1. Especifique um nome descritivo para o ambiente.
 1. Especifique o modo ativo desejado para o ambiente: [!UICONTROL Atividades ativas] ou [!UICONTROL Atividades ativas e inativas].
+
+   Se você especificar [!UICONTROL Atividades ativas e inativas], os hosts desse ambiente também exibirão atividades inativas.
+
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Definir o ambiente padrão para relatórios {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Configurar o ambiente padrão para relatórios {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Você pode selecionar o ambiente que deseja usar como padrão em todos os relatórios de atividade.
 
