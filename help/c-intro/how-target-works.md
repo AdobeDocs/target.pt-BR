@@ -4,11 +4,10 @@ description: Saiba mais sobre as bibliotecas JavaScript do Adobe  [!DNL Target] 
 title: Como o  [!DNL Target]  funciona?
 feature: Visão geral
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: ht
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL Adobe Experience Platform Web SDK] e as bibliotecas do JavaScript (at.js e mbox.js). Este artigo também apresenta os vários tipos de atividades que você pode criar usando o [!DNL Target]. Você também pode saber mais sobre a rede de borda do [!DNL Target], a Otimização do mecanismo de pesquisa (SEO) e como o [!DNL Target] detecta bots.
 
-## [!DNL Target]SDKs da Web da plataforma do e bibliotecas de JavaScript {#libraries}
+## [!DNL Target]SDKs da Web da plataforma do e bibliotecas de JavaScript  {#libraries}
 
 [!DNL Target] integra-se a sites usando as bibliotecas do [!DNL AEP Web SDK] ou do JavaScript:
 
@@ -153,7 +152,7 @@ A Adobe protege a experiência do usuário por otimizar e salvaguardar o desempe
 * A Adobe emprega uma abordagem em múltiplas camadas para proteger seus aplicativos, fornecendo o maior nível de disponibilidade e confiabilidade para os clientes.
 * O [!DNL Target] Consulting oferece assistência na implementação e suporte contínuo ao produto.
 
-## Teste compatível com a Otimização do mecanismo de pesquisa (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Teste compatível com a Otimização do mecanismo de pesquisa (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
@@ -180,7 +179,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    O Adobe continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, a Adobe está confiante de que a implementação adequada das tags canônicas diminui o risco associado a essa abordagem.
 
-* **Execute experimentos somente conforme necessário**: acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. [!DNL Target] [O fornece práticas recomendadas](https://docs.adobe.com/content/target-microsite/testcalculator.html) para determinar quando seu teste atingiu este ponto. A Adobe recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Execute experimentos somente conforme necessário**: acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. [!DNL Target] [O fornece práticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) para determinar quando seu teste atingiu este ponto. A Adobe recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
    A utilização da plataforma [!DNL Target] para &quot;publicar&quot; testes vencedores não é recomendada como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários em 100% das vezes, essa abordagem poderá ser usada enquanto o processo de codificação rígida do teste vencedor for concluído.
 
