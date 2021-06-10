@@ -4,11 +4,10 @@ description: Saiba como usar AEM fragmentos de experiência em atividades do Ado
 title: Como uso os fragmentos de experiência do Adobe Experience Manager (AEM)?
 feature: Experiências e ofertas
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 31%
+source-wordcount: '1155'
+ht-degree: 30%
 
 ---
 
@@ -47,6 +46,7 @@ Para usar [!DNL AEM] fragmentos de experiência em [!DNL Target], você deve exe
 
 Para obter mais informações, consulte:
 
+* **Adobe I/O**:  [Integração com o Adobe Target usando o Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) na documentação  _Administração do_ Guia do usuário.
 * **[!DNL AEM]6.3**:  [Aceitação no Adobe Analytics e no Adobe ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) Targeting na documentação do  _Adobe Experience Manager 6.3_ .
 * **[!DNL AEM]6.4**:  [Aceitação no Adobe Analytics e no Adobe ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) Targeting na documentação do  _Adobe Experience Manager 6.4_ .
 * **[!DNL AEM]6.5**:  [Aceitação no Adobe Analytics e no Adobe ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) Targeting na documentação do  *Adobe Experience Manager 6.5* .
@@ -78,7 +78,7 @@ Dependendo da versão [!DNL AEM], consulte os seguintes links para obter instru�
 * **[!DNL AEM]6.4**:  [Exportação de um fragmento de experiência para o ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) Target na documentação do  *Adobe Experience Manager 6.4* .
 * **[!DNL AEM]6.5**:  [Exportação de um fragmento de experiência para o ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Target na documentação do  *Adobe Experience Manager 6.5* .
 
-## Uso de fragmentos de experiência em [!DNL Target] atividades {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Uso de fragmentos de experiência em atividades [!DNL Target] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Depois de executar as tarefas anteriores, o fragmento de experiência é exibido na página [!UICONTROL Ofertas] no [!DNL Target].
 
