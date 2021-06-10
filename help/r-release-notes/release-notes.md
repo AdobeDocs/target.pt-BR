@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, aprimoramentos e correções in
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 58%
@@ -23,7 +23,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
 
-## Target Standard/Premium 21.6.1 (7 de junho de 2021)
+## Target Standard/Premium 21.5.1 (7 de junho de 2021)
 
 Essa versão inclui os seguintes aprimoramentos:
 
