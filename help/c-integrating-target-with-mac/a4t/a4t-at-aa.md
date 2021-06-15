@@ -2,13 +2,12 @@
 keywords: a4t; A4T; Analytics como fonte de relatórios para Target
 description: Saiba como criar atividades de Alocação automática e Direcionamento automático no Adobe [!DNL Target] que usam o Analytics como fonte de relatórios (A4T).
 title: O A4T suporta atividades de alocação automática e direcionamento automático?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 103ee22a4bf37569f8a02a91af194ebcdc79f3b4
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 2%
+source-wordcount: '979'
+ht-degree: 3%
 
 ---
 
@@ -82,6 +81,7 @@ Algumas limitações e observações se aplicam às atividades de [!UICONTROL Al
 
 ### Alocação automática e direcionamento automático
 
+* Ao usar [!DNL Adobe Analytics] como fonte de relatórios para [!UICONTROL Alocação automática] ou [!UICONTROL Direcionamento automático], você sempre deve exibir os relatórios em [!DNL Analytics].
 * A fonte de relatórios não pode ser alterada de [!DNL Analytics] para [!DNL Target] ou vice-versa depois que uma atividade é ativada.
 * Embora as métricas calculadas não sejam suportadas como métricas de meta primária, geralmente é possível alcançar o resultado pretendido selecionando, em vez disso, um evento personalizado como a métrica de meta principal. Por exemplo, se você deseja otimizar para uma métrica, como &quot;preenchimentos de formulário por visitante&quot;, selecione um evento personalizado correspondente a &quot;preenchimentos de formulário&quot; como a métrica de meta principal. [!DNL Target] normaliza automaticamente as métricas de conversão com base em cada visita para contabilizar a distribuição desigual do tráfego, de modo que não é necessário usar uma métrica calculada para executar a normalização.
 * [!DNL Target] O usa o modelo de atribuição &quot;Mesmo toque&quot; no recurso  [!UICONTROL Alocação ] automática: Analytics for Target (A4T).
