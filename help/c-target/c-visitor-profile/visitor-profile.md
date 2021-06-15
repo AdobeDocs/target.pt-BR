@@ -4,21 +4,22 @@ description: Saiba mais sobre os perfis de visitantes que contêm informações 
 title: O que são perfis de visitantes?
 feature: Públicos-alvo
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 78%
+source-wordcount: '107'
+ht-degree: 55%
 
 ---
 
 # Perfis do visitante
 
-Os perfis do visitante contêm informações sobre como os visitantes usam as páginas e outros locais de conteúdo otimizado
+Os perfis do visitante contêm informações sobre como os visitantes usam as páginas e outros locais de conteúdo otimizado.
 
-Se o Target for usado junto com outras soluções do Adobe Marketing Suite, como o Adobe Analytics, os Públicos-alvo da Experience Cloud compartilharão informações do visitante entre as soluções.
+Se [!DNL Adobe Target] for usado com outras [!DNL Adobe Experience Cloud] soluções, como [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] compartilhará as informações do visitante em todas as soluções.
 
-Por padrão, as informações de perfil do Target são armazenadas em um único cookie. A configuração pode ser facilmente alterada para enviar cookies de terceiros também.
+Por padrão, as informações do perfil [!DNL Target] são armazenadas em um único cookie primário. A configuração pode ser facilmente alterada para enviar cookies de terceiros também.
+
+As seguintes seções contêm mais informações:
 
 - [Duração do perfil do visitante](visitor-profile-lifetime.md)
 - [Atributos do perfil](profile-parameters.md)
