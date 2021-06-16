@@ -4,22 +4,16 @@ description: Explore uma lista de perguntas e respostas frequentes sobre os rela
 title: Onde posso encontrar respostas para perguntas sobre [!DNL Target] Relatórios?
 feature: Relatórios
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # Perguntas frequentes de geração de relatórios
 
 Lista de perguntas frequentes sobre relatórios no [!DNL Adobe Target].
-
-## Por quanto tempo os dados para os modelos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] persistem?
-
-[!UICONTROL Os modelos Automated Personalization]  (AP) e  [!UICONTROL Direcionamento ] automático são treinados nos últimos 45 dias do comportamento do usuário (perfis de usuário, eventos de impressão e eventos de conversão) para a atividade.
-
-[!UICONTROL Os modelos de Automated Personalization]  (AP) e  [!UICONTROL Direcionamento ] automático mantêm o comportamento do usuário, os registros de treinamento e os dados de decisão do modelo por 90 dias para produzir relatórios de   Insights. Após 90 dias, os registros de treinamento e as decisões do modelo são descartados. [!UICONTROL Os modelos de Automated Personalization]  (AP) e   Direcionamento automático também retêm dados de impressão e conversão de experiência/nível de oferta agregados para fins de relatório por dois anos. Esses dados são apenas dados a nível de agregação e não contêm dados de perfil de nível individual.
 
 ## Como são contadas as métricas Novos visitantes e Visitantes recorrentes? {#methodology}
 
