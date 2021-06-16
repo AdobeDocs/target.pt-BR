@@ -4,11 +4,10 @@ description: Veja uma lista de tópicos para ajudar você a resolver problemas n
 title: Como solucionar problemas do Target?
 feature: Solução de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: ht
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: ht
-source-wordcount: '452'
-ht-degree: 100%
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 * [Nove erros comuns em testes A/B e como evitá-los](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-* [Direcionamento automático para experiências personalizadas](/help/c-activities/auto-target/auto-target-to-optimize.md)
+* [Segmentação automática para experiências personalizadas](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### Alocação automática
 
@@ -38,12 +37,14 @@ As seguintes seções contêm informações de solução de problemas em ativida
 ### Direcionamento automático
 
 * [Solução de problemas e perguntas frequentes do Direcionamento automático](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Relatórios de insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
-* [Perguntas frequentes sobre Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Perguntas frequentes sobre a personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Solução de problemas de Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Relatórios de resumo de Automated Personalization](/help/c-reports/reports-ap.md)
+* [Relatórios de insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Teste multivariado (MVT)
 
@@ -54,7 +55,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 ### Recommendations
 
 * [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md)
+* [Perguntas e respostas sobre design](/help/c-recommendations/c-design-overview/template-faq.md)
 
 ## Integração do Analytics e do [!DNL Target] (A4T)
 
@@ -148,7 +149,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Otimização do mecanismo de pesquisa (SEO)
 
-* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Status do sistema
 
@@ -156,13 +157,13 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Direcionamento
 
-* [Geografia](/help/c-target/c-audiences/c-target-rules/geo.md)
+* [Geografia ](/help/c-target/c-audiences/c-target-rules/geo.md)
 
 ## Usuários
 
 * [Solução de problemas no gerenciamento de usuários](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
-## Visual Experience Composer (VEC)
+## Visual Experience Composer (VEC) 
 
 * [Perguntas frequentes sobre otimização e personalização do Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Solução de problemas do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
