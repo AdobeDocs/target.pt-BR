@@ -4,17 +4,22 @@ description: Explore uma lista de perguntas e respostas frequentes sobre os rela
 title: Onde posso encontrar respostas para perguntas sobre [!DNL Target] Relatórios?
 feature: Relatórios
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 24%
+source-wordcount: '1321'
+ht-degree: 30%
 
 ---
 
 # Perguntas frequentes de geração de relatórios
 
 Lista de perguntas frequentes sobre relatórios no [!DNL Adobe Target].
+
+## Por quanto tempo os dados para os modelos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] persistem?
+
+[!UICONTROL Os modelos Automated Personalization]  (AP) e  [!UICONTROL Direcionamento ] automático são treinados nos últimos 45 dias do comportamento do usuário (perfis de usuário, eventos de impressão e eventos de conversão) para a atividade.
+
+[!UICONTROL Os modelos de Automated Personalization]  (AP) e  [!UICONTROL Direcionamento ] automático mantêm o comportamento do usuário, os registros de treinamento e os dados de decisão do modelo por 90 dias para produzir relatórios de   Insights. Após 90 dias, os registros de treinamento e as decisões do modelo são descartados. [!UICONTROL Os modelos de Automated Personalization]  (AP) e   Direcionamento automático também retêm dados de impressão e conversão de experiência/nível de oferta agregados para fins de relatório por dois anos. Esses dados são apenas dados a nível de agregação e não contêm dados de perfil de nível individual.
 
 ## Como são contadas as métricas Novos visitantes e Visitantes recorrentes? {#methodology}
 
@@ -30,11 +35,11 @@ Um visitante é incluído no segmento Novos visitantes se uma das seguintes cond
 
 * É a primeira vez que o visitante acessa o site.
 * É a primeira vez que o visitante acessa o site desde a limpeza dos cookies.
-* É a primeira vez que o visitante acessa o site desde que o [Tempo de vida do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) expirou.
+* É a primeira vez que o visitante acessa o site desde que expiração do [tempo de vida do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)
 
 ### Visitantes que retornam
 
-O visitante é incluído no segmento Visitantes recorrentes se o usuário tiver visitado o site anteriormente, permanecer no local por pelo menos 30 minutos e retornar ao site com os mesmos cookies. Contanto que um visitante retorne dentro da duração do perfil, ele será um visitante recorrente.
+O visitante é incluído no segmento Visitante recorrente se o usuário tiver visitado o site antes, sair dele por pelo menos 30 minutos, e retornar com os mesmos cookies. Desde que o visitante retorne dentro da duração do perfil, ele será um visitante recorrente.
 
 Suponha que a duração do seu perfil esteja definida para 14 dias (o padrão). Um visitante é incluído no segmento Visitantes recorrentes se as seguintes condições forem atendidas:
 
@@ -66,7 +71,7 @@ Alguns visitantes acessaram a métrica de conversão, que foi configurada como &
 
 As atividades de XT devem sempre ter uma experiência de controle. Se você estiver usando uma atividade de XT de maneira semelhante a uma atividade de [!UICONTROL Teste A/B], que é um cenário bastante comum, os dados da experiência de controle são úteis. Você pode ignorar os dados da experiência de controle se não forem úteis nos relatórios.
 
-## Por que os números de visitas são menores no [!DNL Target] do que em outras soluções da [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## Por que os números de visitas são menores no [!DNL Target] do que em outras soluções da [!DNL Adobe Experience Cloud]?  {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Os números métricos, por exemplo, visitas, relatados por [!DNL Target] são sempre menores que os números relatados em outras soluções [!DNL Experience Cloud] por vários motivos:
 
