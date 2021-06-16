@@ -2,14 +2,13 @@
 keywords: adobe.target.trackEvent; trackEvent; trackevent; rastrear evento; at.js; funções; função; preventDefault; preventdefault; impedir padrão
 description: Use a função adobe.target.trackEvent() da biblioteca JavaScript Adobe [!DNL Target] at.js para acionar uma solicitação para relatar ações do usuário, como cliques e conversões em seu site.
 title: Como uso a função adobe.target.trackEvent()?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 70%
+source-wordcount: '328'
+ht-degree: 69%
 
 ---
 
@@ -26,7 +25,7 @@ Veja os detalhes da API:
 | mbox | String | Sim | Nome da mbox <br>**Nota**: Se uma chamada trackEvent() for acionada com um nome de mbox que já foi acionado na página, a SDID de trackEvent() será redefinida e será diferente das chamadas do Target na página. No entanto, acionar uma chamada trackEvent() com um nome de mbox diferente mantém a SDID da chamada trackEvent() consistente com as chamadas de Solicitação de carregamento de página/triggerView() na página. |
 | selector | String    | Não | Seletores CSS usados para encontrar os elementos HTML. Os ouvintes do evento serão fixados aos elementos encontrados. |
 | type | String | Não | Representa um tipo de evento registrado. Pode ser que ambos sejam elementos HTML conhecidos como: clique, mouse para baixo, etc., bem como eventos HTML. |
-| preventDefault | Booleano | Não | Indica se usará `event.preventDefault()` no retorno do ouvinte do evento. O padrão é false.<br>**Observação:** somente `form[submit] and `a[click] são compatíveis. Outros cenários não são compatíveis devido à complexidade e à grande quantidade de cenários para suporte. |
+| preventDefault | Booleano | Não | Indica se usará `event.preventDefault()` no retorno do ouvinte do evento. O padrão é false.<br>**Observação**: Somente  `form[submit]` e  `a[click]` são compatíveis. Outros cenários não são compatíveis devido à complexidade e à grande quantidade de cenários para suporte. |
 | params | Objeto | Não | Parâmetros de mbox. Um objeto de pares de valores-chave que tem a seguinte estrutura:<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | Número | Não | Tempo limite em milissegundos.<br>Se não especificado, o valor padrão é utilizado:<br>`...timeoutInSeconds: 0.15...}` |
 | success | Função | Não | Uma função de retorno de chamada usada para sinalizar que o evento foi relatado. |
