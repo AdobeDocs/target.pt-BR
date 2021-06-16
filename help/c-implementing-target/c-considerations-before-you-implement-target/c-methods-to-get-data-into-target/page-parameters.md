@@ -5,8 +5,7 @@ title: Como obtenho dados em [!DNL Target] Usando parâmetros de página?
 feature: Implementação
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -48,7 +47,7 @@ Os dados são enviados ao Target em tempo real e podem ser usados na mesma chama
 
    Além dos caracteres mencionados no site do IETF, o Target permite os seguintes caracteres nas sequências de consulta:
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
+   ```< > # % " { } | \ ^ [ ] ` ```
 
    O restante deve ser codificado em url. O padrão especifica o seguinte formato ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), conforme ilustrado abaixo:
 
