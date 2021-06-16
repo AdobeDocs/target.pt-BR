@@ -4,11 +4,10 @@ description: Saiba como usar os relatórios especializados para atividades de Au
 title: Como uso os relatórios de insights de personalização?
 feature: Relatórios
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 69%
+source-wordcount: '862'
+ht-degree: 59%
 
 ---
 
@@ -65,7 +64,17 @@ Há dois tipos de atributos representados nos [!UICONTROL Insights de personaliz
 | Públicos-alvo compartilhados (Adobe Audience Manager ou Adobe Analytics) | Os públicos-alvo criados por meio do Adobe Audience Manager ou do Adobe Analytics e compartilhados com o Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Públicos-alvo/segmentos dos relatórios na atividade | Os públicos-alvo definidos na atividade de AP ou de Direcionamento automático durante a configuração nas &quot;Metas e métricas&quot;. | `Custom - Reporting Segment - [segment name]` |
 
-## Vídeo de treinamento: Uso de relatórios de insights de personalização  ![Selo do tutorial](/help/assets/tutorial.png)
+## Perguntas frequentes
+
+Lista de perguntas frequentes sobre os relatórios [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] [!UICONTROL Insights].
+
+### Por quanto tempo os dados para os modelos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] persistem?
+
+[!UICONTROL Os modelos Automated Personalization]  (AP) e  [!UICONTROL Direcionamento ] automático são treinados nos últimos 45 dias do comportamento do usuário (perfis de usuário, eventos de impressão e eventos de conversão) para a atividade.
+
+[!UICONTROL Os modelos de Automated Personalization]  (AP) e  [!UICONTROL Direcionamento ] automático mantêm o comportamento do usuário, os registros de treinamento e os dados de decisão do modelo por 90 dias para produzir relatórios de   Insights. Após 90 dias, os registros de treinamento e as decisões do modelo são descartados. [!UICONTROL Os modelos de Automated Personalization]  (AP) e   Direcionamento automático também retêm dados de impressão e conversão de experiência/nível de oferta agregados para fins de relatório por dois anos. Esses dados são apenas dados a nível de agregação e não contêm dados de perfil de nível individual.
+
+## Vídeo de treinamento: Uso dos relatórios de Insights de personalização ![Selo do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
