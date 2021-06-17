@@ -4,10 +4,9 @@ description: Saiba como os feeds importam entidades no Adobe [!DNL Target] Recom
 title: Como uso os feeds no  [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 062a47e2dd76fe6dc87a71ad7b17355d57d769dd
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 85%
 
 ---
@@ -207,7 +206,7 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Classificações do produto Analytics   {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Classificações do produto Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 A classificação do Produto Analytics é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
@@ -236,7 +235,7 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
    * Feed do produto Google
    * Classificações do Analytics
 
-   Para obter informações sobre os tipos de feed CSV e Feed do produto Google, consulte [Visão geral dos feeds](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Você também pode [baixar um guia CSV de modelo](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
+   Para obter informações sobre os tipos de feed CSV e Feed do produto Google, consulte [Visão geral dos feeds](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Você também pode [baixar um guia CSV de modelo](/help/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
 
 1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou **[!UICONTROL Feed do produto Google]**, especifique o local em que o feed pode ser acessado.
 
@@ -284,7 +283,7 @@ Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed s
 
 Quando o Status apresentar a mensagem de &quot;Sucesso&quot;, isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se houver falha no processo, que o arquivo não foi encontrado (por exemplo, você usou um URL incorreto ou sua informação do FTP estava incorreta), ou ocorreu um erro de análise.
 
-## Status do feed e indicadores   {#concept_E475986720D1400999868B3DFD14A7A0}
+## Status do feed e indicadores  {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Informações sobre os status possíveis do feed e seus indicadores.
 
@@ -342,7 +341,7 @@ O status deve ser amarelo, pois o índice deveria ter sido executado há aproxim
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Noções básicas sobre feeds no Recommendations (3:01)  ![Selo de visão geral](/help/assets/overview.png)
+### Noções básicas sobre feeds no Recommendations (3:01) ![Selo de visão geral](/help/assets/overview.png)
 
 Este vídeo contém as seguintes informações:
 
@@ -351,7 +350,7 @@ Este vídeo contém as seguintes informações:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Criar um feed (6:44)  ![Selo do tutorial](/help/assets/tutorial.png)
+### Criar um feed (6:44) ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo contém as seguintes informações:
 
