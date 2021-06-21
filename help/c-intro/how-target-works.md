@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK; sdk web aep; sdk aep; otimização de mecanismo de pesquisa; otimização de mecanismo de pesquisa; seo; clusters de borda, clusters centrais; at.js; mbox.js;
-description: Saiba mais sobre as bibliotecas JavaScript do Adobe  [!DNL Target] works, including information about the [!DNL Target]  (at.js e SDK da Web da EAP), os data centers da Adobe e os testes de SEO.
+description: Saiba como Adobe [!DNL Target] works, including information about the [!DNL Target] Bibliotecas de JavaScript (at.js e Experience Platform Web SDK), Adobe data centers e testes de SEO.
 title: Como o  [!DNL Target]  funciona?
 feature: Visão geral
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2563'
-ht-degree: 99%
+source-wordcount: '2560'
+ht-degree: 95%
 
 ---
 
@@ -17,19 +17,19 @@ Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL
 
 ## [!DNL Target]SDKs da Web da plataforma do e bibliotecas de JavaScript  {#libraries}
 
-[!DNL Target] integra-se a sites usando as bibliotecas do [!DNL AEP Web SDK] ou do JavaScript:
+[!DNL Target] integra-se a sites usando as bibliotecas do [!DNL Experience Platform Web SDK] ou do JavaScript:
 
-* **Adobe Experience Platform Web SDK:** o [AEP Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) é uma nova biblioteca JavaScript do lado do cliente. O AEP Web SDK permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da rede de borda [!DNL AEP]. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL AEP Web SDK].
+* **Adobe Experience Platform Web SDK:** o  [Experience Platform Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK é uma nova biblioteca JavaScript do lado do cliente. O Experience Platform Web SDK permite que os clientes de [!DNL Adobe Experience Cloud] interajam com os vários serviços no [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da [!DNL Experience Platform] Edge Network. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
 * **at.js:** A [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. O Adobe recomenda que todos os clientes que usam at.js atualizem suas implementações para a [versão mais recente da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** A [biblioteca mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) é a biblioteca de implementação legada do [!DNL Target]. O suporte da biblioteca mbox.js continua até 31 de março de 2021; no entanto, não haverá atualizações de recursos.
+* **mbox.js:** A [biblioteca mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) é a biblioteca de implementação legada do [!DNL Target]. A biblioteca mbox.js não é mais suportada após 31 de março de 2021.
 
 >[!IMPORTANT]
 >
->Todos os clientes devem migrar para o [!DNL AEP Web SDK] ou para a versão mais recente do at.js. Para obter mais informações, consulte o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ou [Migrar para at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Todos os clientes devem migrar para o [!DNL Experience Platform Web SDK] ou para a versão mais recente do at.js. Para obter mais informações, consulte o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ou [Migrar para at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Consulte o [!DNL AEP Web SDK] ou at.js em todas as páginas do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, considere usar o [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=pt-BR) para implementar o [!DNL Target].
+Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, considere usar o [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=pt-BR) para implementar o [!DNL Target].
 
-Os seguintes recursos contêm informações detalhadas para ajudar a implementar o AEP Web SDK ou a at.js:
+Os seguintes recursos contêm informações detalhadas para ajudar a implementar o SDK da Web do Experience Platform ou a at.js:
 
 * [Extensão do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=pt-BR#configure-the-aep-web-sdk-extension)
 * [Implementar o  [!DNL Target]  usando o Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -107,7 +107,7 @@ A solução [!DNL Target] é hospedada em data centers próprios e alugados pela
 
 Os locais do cluster central contêm um centro de coleta de dados e um centro de processamento de dados. Os locais de cluster de bordam contêm apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
-Os dados de atividade do site do cliente são coletados pelo mais próximo de sete clusters de borda. Esses dados são direcionados para o destino de cluster central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Singapura) para processamento. Os dados do perfil do visitante são armazenados no cluster de borda mais próximo do visitante do site. Os locais dos clusters de borda incluem os locais do cluster central e na Virgínia, em Amsterdã, Sydney, Tóquio e Hong Kong.
+Os dados de atividade do site do cliente são coletados pelo mais próximo de sete clusters de borda. Esses dados são direcionados para o destino de cluster central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Singapura) para processamento. Os dados do perfil do visitante são armazenados no cluster de borda mais próximo do visitante do site. Os locais dos clusters de borda incluem os locais do Cluster Central e Virgínia, Mumbai, Sydney e Tóquio.
 
 Em vez de responder a todas as solicitações de direcionamento de um único local, as solicitações são processadas pelo cluster de borda mais próximo do visitante. Esse processo ajuda a reduzir o impacto do tempo de deslocamento da Internet/rede.
 
