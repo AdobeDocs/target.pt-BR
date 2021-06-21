@@ -5,8 +5,7 @@ title: Como faço para atualizar da at.js versão 1.x para a versão 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
 workflow-type: tm+mt
 source-wordcount: '2765'
 ht-degree: 92%
@@ -337,7 +336,7 @@ Os seguintes parâmetros da at.js 1.x são *NOT* compatíveis com a criação de
 
 As tabelas a seguir explicam o at.js. 2.*x* compatibilidade com diferentes tipos de atividades, integrações, recursos e funções da at.js.
 
-### Tipos de atividades   {#types}
+### Tipos de atividade {#types}
 
 | Tipo | Suportado? |
 | --- | --- |
@@ -391,7 +390,7 @@ As tabelas a seguir explicam o at.js. 2.*x* compatibilidade com diferentes tipos
 | `?mboxDisable` | Sim |
 | `?mboxTrace` | Sim |
 | `?mboxSession` | Não |
-| `?mboxOverride.browserIp` | Não |
+| `?mboxOverride.browserIp` | Sim |
 
 ## Tokens de resposta {#response-tokens}
 
