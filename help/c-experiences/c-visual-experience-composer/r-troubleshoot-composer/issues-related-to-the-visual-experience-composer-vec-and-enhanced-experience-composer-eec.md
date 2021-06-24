@@ -2,13 +2,12 @@
 keywords: Direcionamento, visual experience composer, lista branca, lista de permissões, lista de permissões, lista de permissões, enhanced visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, eec, enhanced experience composer, tls, tls 1.2
 description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Visual Experience Composer (VEC) e no Enhanced Experience Composer (EEC) sob determinadas condições.
 title: Como soluciono problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 64%
+source-wordcount: '1347'
+ht-degree: 63%
 
 ---
 
@@ -26,7 +25,7 @@ Com as alterações mais recentes (agosto de 2020), todos os usuários com as ve
 
 O Adobe enviou uma extensão atualizada do VEC Helper para a Google Chrome Store. Essa extensão substitui os atributos de cookie para definir o atributo `SameSite="none"`, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre como instalar e usar a Extensão de ajuda do VEC, consulte [Extensão de ajuda do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Para seus cookies do site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ativada e especifique o cookie por nome e o domínio do cookie. O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios a partir dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) no *Experience Cloud Interface User Guide*.
+Para seus cookies do site, você deve especificar os cookies por nome. Alterne o controle deslizante [!UICONTROL Cookie] para a posição ativada e especifique o cookie por nome e o domínio do cookie. O nome do cookie é &quot;mbox&quot; e o domínio do cookie é o segundo e o mais alto nível dos domínios a partir dos quais você serve a mbox. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. Para obter mais informações, consulte [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=pt-BR) no *Experience Cloud Interface User Guide*.
 
 ![Os cookies são alternados na extensão de assistente do VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -80,12 +79,6 @@ Se o site tiver sido alterado fora do Visual Experience Composer após a defini�
 ## O VEC ou EEC não exibem meus banners rotativos e outros conteúdos contendo JavaScript. (VEC e EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 Por padrão, o Visual Experience Composer bloqueia elementos de JavaScript. Você poderá trabalhar com esses elementos se desativar o JavaScript nas configurações do Visual Experience Composer. Dependendo do modo como o site estiver configurado, alguns itens poderão continuar sendo exibidos incorretamente ou permanecer indisponíveis.
-
-## Meu arquivo target.js hospedado falha ao carregar em recarregamentos de páginas subsequentes. (VEC e EEC) {#section_87F6418C2CD142A7B4D1E7037935F81F}
-
-Esse problema ocorre quando os clientes têm uma versão da mbox.js anterior à versão 57 (ou seja, versão 56 ou anterior).
-
-Recomendamos que todos os usuários da sala de aula virtual atualizem para a [versão mais recente do mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) o pelo menos atualizem para a versão 57. Considere também [fazer a transição para o at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## Quando eu altero um elemento na página, vários elementos são alterados. (VEC e EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
