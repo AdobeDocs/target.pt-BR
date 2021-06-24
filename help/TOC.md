@@ -5,7 +5,7 @@ user-guide-description: Saiba como definir e personalizar a experiência de seus
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1544'
 ht-degree: 99%
 
 ---
@@ -137,21 +137,6 @@ ht-degree: 99%
          + [Detalhes da versão da at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [Atualização da at.js 1.x para at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [Cookies do at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + Implementação da mbox.js (herdada) {#mbox-implement}
-         + [Visão geral da implementação do mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
-         + Migração da mbox.js para at.js {#migrate-mbox}
-            + [Migrar do mbox.js para a visão geral do at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
-            + [Como migrar da mbox.js para a at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
-            + [Limitações da at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-            + [Plug-ins do at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [Implantar a at.js em um ambiente de não produção](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
-         + [O que a mbox.js faz](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
-         + [Configurar mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
-         + [Baixar a mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
-         + [Target Métodos de página do por versão da biblioteca mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [Criar uma mbox de confirmação de pedido - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [Perguntas frequentes sobre a mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-         + [Funções da mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
       + Entender a mbox global {#global-mbox}
          + [Compreender a visão geral da mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Personalizar uma mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
