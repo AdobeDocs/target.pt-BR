@@ -2,14 +2,13 @@
 keywords: solução de problemas; perguntas frequentes; Pergunta frequente; Perguntas frequentes; global; mbox global
 description: 'Leia perguntas frequentes e respostas sobre as mboxes globais do Adobe<a0/. [!DNL Target] '
 title: Quais são as perguntas frequentes sobre a mbox global?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 81%
 
 ---
 
@@ -29,9 +28,9 @@ Você também pode passar um parâmetro para a página usando [targetPageParams]
 
 Para coletar informações de receita e pedidos na target-global-mbox, &quot;parâmetros da mbox&quot; devem ser enviados para o Target. Esses parâmetros são os pares de nome/valor usados para enviar mais informações ao Target. O Target automaticamente procura esses parâmetros (nomes reservados) para preencher os dados da receita.
 
-Para o `orderConfirmPage`, você deve transmitir `orderTotal`, `orderId`e `productPurchasedId`. Para obter mais informações, consulte [Criar uma mbox de confirmação de pedido - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+Para o `orderConfirmPage`, você deve transmitir `orderTotal`, `orderId`e `productPurchasedId`.
 
-Esses mesmos parâmetros devem ser enviados para o target-global-mbox via `targetPageParams()`. Para obter mais informações, consulte [Passar parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Esses parâmetros devem ser enviados para o target-global-mbox via `targetPageParams()`. Para obter mais informações, consulte [Passar parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
 
 Você também quer adicionar direcionamento ao pedaço de conversa, de modo que o Target somente conte as conversas no target-global-mbox quando a página de confirmação de pedido tiver sido visualizada, conforme mostrado a seguir:
 
