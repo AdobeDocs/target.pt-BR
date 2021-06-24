@@ -2,14 +2,13 @@
 keywords: alterações do mbox.js; versões do mbox.js
 description: Saiba mais sobre a implementação herdada da mbox.js do Adobe Target. Migrar para o SDK da Web da Adobe Experience Platform (AEP Web SDK) ou para a versão mais recente da at.js.
 title: O que está incluído em cada versão da mbox.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 81%
+source-wordcount: '2377'
+ht-degree: 84%
 
 ---
 
@@ -19,9 +18,9 @@ Esta página mostra as alterações em cada versão da mbox.js.
 
 >[!IMPORTANT]
 >
->**Fim da vida útil** da mbox.js: A partir de 31 de março de 2021, o  [!DNL Adobe Target] não será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js normalmente falharão e afetarão suas páginas que têm [!DNL Target] atividades em execução ao veicular conteúdo padrão.
+>**Fim da vida útil da mbox.js**: a partir de 31 de março de 2021, o [!DNL Adobe Target] não oferecerá mais suporte à biblioteca de mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js vão resultar em falha e afetar suas páginas com atividades do [!DNL Target] em execução ao veicular conteúdo padrão.
 >
->Migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migre para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
@@ -31,13 +30,13 @@ A maneira como o Target responde a chamadas de sua página dependerá da versão
 
 >[!NOTE]
 >
->A biblioteca mbox.js não está mais sendo desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>A biblioteca mbox.js não está mais sendo desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js.
 
 ## mbox.js versão 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Versão do Target:** 17.7.1
 
-A [!DNL mbox.js] versão 63 já está disponível. Para obter mais informações, consulte [Baixar a mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md).
+A [!DNL mbox.js] versão 63 já está disponível. 
 
 Os seguintes aprimoramentos e correções estão incluídos na [!DNL mbox.js] versão 63:
 
@@ -101,7 +100,7 @@ Além disso, na versão 60, se o arquivo [!DNL visitorAPI.js] estiver presente p
 
 * Chamadas assíncronas V60
 
-   Ao usar a v60 com o serviço de identificação de visitante, todas as chamadas de mbox serão feitas de forma assíncrona. Esta é uma alteração na forma como as mboxes sempre funcionaram, portanto, tenha cuidado ao atualizar para esta versão. Revise a seção [Considerações assíncronas](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) da documentação da [!DNL at.js] (a [!DNL at.js] também usa chamadas assíncronas) para compreender alguns riscos.
+   Ao usar a v60 com o serviço de identificação de visitante, todas as chamadas de mbox serão feitas de forma assíncrona. Esta é uma alteração na forma como as mboxes sempre funcionaram, portanto, tenha cuidado ao atualizar para esta versão.
 * Novos cenários de visitantes podem sofrer cintilação
 
    Ao usar a v58 a v60 com o serviço de id de visitante, a mbox chama o aguarde até que a id de visitante seja definida antes de disparar (ou até que um tempo limite tenha ocorrido). Isso acontece no primeiro carregamento da página por um novo visitante.
