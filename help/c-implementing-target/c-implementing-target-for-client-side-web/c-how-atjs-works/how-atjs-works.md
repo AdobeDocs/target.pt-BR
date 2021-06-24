@@ -2,14 +2,13 @@
 keywords: diagrama de sistema; cintilação; at.js; implementação; biblioteca javascript; js; atjs
 description: Saiba como a biblioteca JavaScript do  [!DNL Target] at.js funciona, incluindo diagramas de sistema para ajudar você a entender o fluxo de trabalho quando as páginas são carregadas.
 title: Como funciona a biblioteca JavaScript da at.js?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -21,7 +20,7 @@ Em uma implementação no lado do cliente do [!DNL Adobe Target], o [!DNL Target
 
 ## O que é a at.js?
 
-A biblioteca [da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a  [última versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+A biblioteca da at.js é a nova biblioteca de implementação do Target. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é a biblioteca de implementação recomendada e é atualizada frequentemente com novos recursos. Recomendamos que todos os clientes implementem ou migrem para a  [última versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 Para obter mais informações, consulte [Bibliotecas de JavaScript do Target](/help/c-intro/how-target-works.md#libraries).
 
@@ -80,7 +79,7 @@ Consulte [Entendendo como a at.js 2.x funciona](https://helpx.adobe.com/target/k
 
 | Etapa | Descrição | Chama | Descrição |
 |--- |--- |--- |--- |
-| 1 | A chamada retornará a [!DNL Experience Cloud ID] (MCID) se o usuário estiver autenticado; outra chamada sincroniza a ID do cliente. | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento. |
+| 3 | A chamada retornará a [!DNL Experience Cloud ID] (MCID) se o usuário estiver autenticado; outra chamada sincroniza a ID do cliente. | 2 | A biblioteca at.js é carregada de modo síncrono e oculta o corpo do documento. |
 | 1 | Uma solicitação mbox global é feita, incluindo todos os parâmetros configurados, MCID, SDID e ID do cliente (opcional). | 4 | Os scripts de perfil executam e, em seguida, fazem o feed na Loja do perfil. A Loja solicita públicos qualificados da [!UICONTROL Biblioteca de público-alvo] (por exemplo, públicos-alvo compartilhados de [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Os atributos do cliente são enviados para o [!DNL Profile Store] em um processo em lote. |
 | 5 | Com base no URL, nos parâmetros mbox e nos dados do perfil, o [!DNL Target] decide quais atividades e experiências são retornadas ao visitante. | 6 | O conteúdo direcionado é retornado à página, opcionalmente incluindo os valores de perfil para personalização adicional.<br>A experiência é revelada o mais rápido possível sem cintilação do conteúdo padrão. |
 | 7 | Os dados do [!DNL Analytics] são enviados ao servidores de Coleção de dados. | 8 | Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] pela SDID, e processados no armazenamento de relatório do [!DNL Analytics].<br>[!DNL Analytics] Os dados podem ser exibidos no [!DNL Analytics] e no [!DNL Target] pelos relatórios do [!DNL Analytics for Target] (A4T). |
@@ -89,9 +88,9 @@ Consulte [Entendendo como a at.js 2.x funciona](https://helpx.adobe.com/target/k
 
 Este vídeo é uma gravação de &quot;No expediente&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 
-* Benefícios do uso da at.js
-* Configurações da at.js
-* Tratamento de cintilação
+* Os benefícios da utilização da at.js
+* As configurações da at.js
+* O tratamento de cintilação
 * Depuração do at.js
 * Problemas conhecidos
 * Perguntas frequentes
