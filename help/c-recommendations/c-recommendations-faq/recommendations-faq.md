@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
-description: Veja uma lista de perguntas frequentes e respostas sobre atividades do Adobe  [!DNL Target]  Recommendations.
-title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target]  Recommendations?
+description: Veja uma lista de perguntas frequentes e respostas sobre atividades do Adobe [!DNL Target] Recommendations.
+title: Onde posso encontrar perguntas e respostas sobre o [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recommendations?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Os critérios disponíveis são baseados na categoria atual. Quando você está criando ofertas de recomendações, o seletor de algoritmo exibe os critérios com base na ID da categoria.
 
@@ -119,7 +119,7 @@ A lista a seguir contém casos especiais em que o [!DNL Target] não exibe a cai
 * Nenhuma chamada de mbox está sendo filtrada na página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Os parâmetros do [!DNL Target] não estão definidos.
 
-## O que devo fazer se uma coleção no Recommendations chega a zero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## O que devo fazer se uma coleção no Recommendations chega a zero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Considere as informações a seguir se você vir uma coleção em zero que anteriormente não estava em zero:
 
@@ -164,7 +164,7 @@ O número de valores gerados por critério é o triplo do número de entidades e
 #end 
 ```
 
-## Qual é o limite de tamanho de uma chamada à API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed?  {#section_434FE1F187B7436AA39B7C14C7895168}
+## Qual é o limite de tamanho de uma chamada à API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target]O impõe um limite de postagem de 50 MB no nível do aplicativo; no entanto, isso apenas acontece quando o cabeçalho de tipo de conteúdo `application/x-www-form-urlencoded` é passado.
 
@@ -183,13 +183,13 @@ Com ambos os métodos, não há link entre a mbox e o parâmetro. Os critérios,
 
 Se você editar um critério, uma promoção ou uma regra de testes do modelo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
 
-## Por que não posso salvar minha atividade herdada do Recommendations, depois de definir um novo público-alvo?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Por que não posso salvar minha atividade herdada do Recommendations, depois de definir um novo público-alvo? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao público o mesmo nome de um público-alvo existente, não poderá salvar sua atividade herdada do Recommendations (uma atividade de Recommendations criada antes de outubro de 2016).
 
-## Qual é o tamanho máximo de um arquivo CSV para um upload de feed?  {#section_20F1AF4839A447B9889B246D6E873538}
+## Qual é o tamanho máximo de um arquivo CSV para um upload de feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, a Adobe limita o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload dos arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na [[!DNL Target]  página de limitações do ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, a Adobe limita o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload dos arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na [[!DNL Target] página de limitações do](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Posso excluir dinamicamente uma entidade? {#exclude}
 
@@ -241,8 +241,8 @@ Esse comportamento ainda ocorrerá se um visitante estiver ativo em um dispositi
 
 Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualizados recentemente em um dispositivo atualizarão os itens visualizados recentemente no outro dispositivo, desde que a sessão tenha terminado. Aguarde 35 minutos para a sessão expirar ao testar esse comportamento.
 
-## Posso usar um algoritmo criado em [!DNL Adobe Recommendations Classic] em [!DNL Recommendations Premium]?
+## Posso usar um algoritmo criado no [!DNL Adobe Recommendations Classic] no [!DNL Recommendations Premium]?
 
-Um algoritmo criado em [!DNL Recommendations Classic] não é suportado em [!DNL Recommendations Premium]. Você pode usar o algoritmo herdado em [!DNL Target Premium]; no entanto, o algoritmo pode criar problemas de sincronização ao desativar ou excluir a atividade na interface do usuário [!DNL Target Premium]. Para obter mais informações sobre as diferenças entre as duas soluções, consulte [[!DNL Recommendations Classic] versus [!DNL Recommendations] atividades em [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Um algoritmo criado no [!DNL Recommendations Classic] não é compatível com o [!DNL Recommendations Premium]. Você pode usar o algoritmo herdado no [!DNL Target Premium]; no entanto, o algoritmo pode criar problemas de sincronização ao desativar ou excluir a atividade na interface do [!DNL Target Premium]. Para obter mais informações sobre as diferenças entre as duas soluções, consulte atividades do [[!DNL Recommendations Classic] versus [!DNL Recommendations] no [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 
