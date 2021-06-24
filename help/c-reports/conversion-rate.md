@@ -4,11 +4,10 @@ description: Saiba como o Adobe [!DNL Target] mostra e calcula a taxa de convers
 title: Como visualizar o nível de taxa de conversão, aumento e confiança?
 feature: Relatórios
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -46,7 +45,7 @@ Aumento = (CR da experiência - CR de controle) / CR de controle
 
 Se o controle for 0, não há aumento percentual.
 
-## Confiança (significância estatística)   {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Confiança (significância estatística)  {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Este número representa a probabilidade de que os resultados seriam duplicados se o teste fosse executado novamente. A confiança é arredondada para 100,00% sempre que for maior ou igual a 99,995%.
 
@@ -54,7 +53,7 @@ Consulte [Nível de confiança e intervalo de confiança](/help/c-reports/conver
 
 ## Dados de varejo {#section_30A674731BA6440E9BB93C421BE990EE}
 
-Os dados de AOV, RPV e Vendas são exibidos para cada experiência se você inseriu uma mbox [de Pedido local](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) e a selecionou como a mbox de conversão.
+Dados de AOV, RPV e Vendas são exibidos para cada experiência se você inseriu uma mbox de Pedido local (`orderConfirmPage`) e a selecionou como a mbox de conversão.
 
 ## Nível de confiança e intervalo de confiança {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -102,7 +101,7 @@ O *intervalo de confiança* é uma faixa dentro da qual o valor real pode ser en
 * **Tamanho da amostra:** conforme a amostra aumenta, o intervalo diminui. Este é o método ideal, pois significa que os seus relatórios estão chegando mais perto do valor da métrica de sucesso.
 * **Desvio padrão menor:** Resultados mais semelhantes, como AOVs semelhantes, números semelhantes ou visitantes convertidos a cada dia reduzem o desvio padrão.
 
-## Cálculo de confiança e como executá-lo offline   {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Cálculo de confiança e como executá-lo offline  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 O [download do relatório de CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
