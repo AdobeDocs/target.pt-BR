@@ -4,9 +4,9 @@ description: Veja uma lista de tópicos para ajudar você a resolver problemas n
 title: Como solucionar problemas do Target?
 feature: Solução de problemas
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '452'
 ht-degree: 97%
 
 ---
@@ -41,7 +41,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 ### Automated Personalization (AP)
 
-* [Perguntas frequentes sobre a personalização automatizada](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Perguntas frequentes sobre Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Solução de problemas de Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Relatórios de resumo de Automated Personalization](/help/c-reports/reports-ap.md)
 * [Relatórios de insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
@@ -125,11 +125,6 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 * [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
-### mbox.js
-
-* [Perguntas frequentes sobre a mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-* [Detalhes da versão da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
-
 ## Problemas conhecidos
 
 * [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md)
@@ -157,7 +152,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Direcionamento
 
-* [Geografia ](/help/c-target/c-audiences/c-target-rules/geo.md)
+* [Geografia](/help/c-target/c-audiences/c-target-rules/geo.md)
 
 ## Usuários
 
