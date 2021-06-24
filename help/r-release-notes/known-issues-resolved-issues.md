@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
 source-wordcount: '4438'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 [!DNL Adobe Experience Platform] os nomes de segmento não são exibidos no relatório de  [!UICONTROL Atributos importantes para as atividades de ] Automated Personalization [!UICONTROL  (AP) e de Direcionamento ] automático   (AT). (TOP-3813)
 
-### O arquivamento de [!UICONTROL atividades de Direcionamento automático] pode causar problemas de sincronização
+### O arquivamento de atividades de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização
 
-A tentativa de arquivar atividades inativas [!UICONTROL Direcionamento automático] pode levar a problemas de sincronização. Até que esse problema seja corrigido, não arquive as atividades de [!UICONTROL Direcionamento automático]. Deixe-os no estado [!UICONTROL Inativo]. (TGT-40885)
+A tentativa de arquivar atividades inativas de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização. Até que esse problema seja corrigido, não arquive as atividades de [!UICONTROL Direcionamento automático]. Deixe-as no estado [!UICONTROL Inativo]. (TGT-40885)
 
 ### Métricas do Analytics for Adobe Target (A4T) para atividades de Alocação automática e Direcionamento automático
 
@@ -141,7 +141,7 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 
 Em 10 de maio de 2020, a Adobe atualizou os arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores em públicos existentes não tinham vírgula. Nem todos os servidores de entrega da Adobe foram afetados por essa alteração. Como resultado, os públicos que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
 
-### Relatórios — dados inconsistentes no relatório .csv para download em comparação ao relatório exibido na interface do [!DNL Target].  {#csv}
+### Relatórios — dados inconsistentes no relatório .csv para download em comparação ao relatório exibido na interface do [!DNL Target]. {#csv}
 
 Os relatórios gerados para download como arquivos .csv são inconsistentes se a atividade usar mais de uma métrica. O relatório que pode ser baixado é gerado somente com base nas configurações do relatório e considera o mesmo valor para qualquer outra métrica usada.
 
@@ -244,7 +244,7 @@ Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo
 
 at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
 
-### Suporte a permissões empresariais nas APIs do [!DNL Target]  {#api}
+### Suporte a permissões empresariais nas APIs do [!DNL Target] {#api}
 
 As ofertas de código criadas na interface do usuário do Target na biblioteca de ofertas podem ser exibidas no espaço de trabalho padrão se a lista de ofertas for obtida usando APIs GET. Esse problema será corrigido na primeira semana de março de 2019. Após essa correção, as ofertas de código serão exibidas no espaço de trabalho apropriado quando obtidas das APIs. Esse problema *não* afeta as ofertas criadas com as APIs. Por exemplo, as ofertas de código criadas nas APIs são exibidas no espaço de trabalho em que foram criadas, seja por meio de APIs GET ou da interface do usuário do Target.
 
@@ -301,13 +301,13 @@ Mboxes não disparam em navegadores Microsoft Explorer 11 depois do upgrade para
 
 Corrigido na versão da API 2.3.0 ou posterior.
 
-### Geografia  direcionamento
+### Geografia direcionamento
 
 A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por &quot;nova york&quot;, a pesquisa não retorna resultados válidos.
 
 Corrigido em novembro de 2018.
 
-### at.js  {#at-js-3}
+### at.js {#at-js-3}
 
 Ao usar a at.js versão 1.6.0, ocorrem redirecionamentos do Analytics for Target (A4T), mas sem a atividade de qualificação.
 
