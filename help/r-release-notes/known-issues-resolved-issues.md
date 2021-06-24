@@ -4,9 +4,9 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Notas de versão
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4390'
 ht-degree: 99%
 
 ---
@@ -100,7 +100,7 @@ Em uma atividade de MVT, os vencedores mostrados na tabela e no gráfico não s�
 A seguir, os problemas conhecidos com at.js:
 
 * Ao usar as versões do at.js anteriores a 2.2.0, o rastreamento de cliques não relata conversões no Analytics for Target (A4T) se o código do Adobe Analytics não estiver presente nos elementos da página (como botões). Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) mais recente do at.js se você encontrar esse problema.
-* Se você criar uma experiência sem modificações usando o at.js 2.1.1 ou anterior (por exemplo, uma experiência padrão), a experiência pode não ser contada nos relatórios, no Analytics for Target (A4T), no Adobe Analytics ou no Google Analytics. Além disso, o [plug-in ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) pode não funcionar corretamente.
+* Se você criar uma experiência sem modificações usando o at.js 2.1.1 ou anterior (por exemplo, uma experiência padrão), a experiência pode não ser contada nos relatórios, no Analytics for Target (A4T), no Adobe Analytics ou no Google Analytics. Além disso, o plug-in ttMeta pode não funcionar corretamente.
 
    Como alternativa, use um espaço em branco no conteúdo da experiência. (TNT-33366)
 
@@ -229,12 +229,6 @@ Para obter mais informações e uma correção, consulte &quot;Como as política
 O relatório de gráfico de uma atividade de direcionamento automático não é renderizado para modos &quot;diferenciais&quot; (aumento médio e aumento diário) se não houver dados (0 visitas) em nenhuma experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade, se a experiência de controle estiver definida como personalizada. Para os outros modos (Execução de controle médio e direcionado, Controle diário e Segmentação e Visitas) funciona bem. Assim que houver alguns dados (visitas diferentes de zero), o relatório ser a renderizado como esperado.
 
 Este problema foi corrigido no Target versão 19.7.1.
-
-### mbox.js
-
-A biblioteca mbox.js não é compatível com linguagens de modelos do lado do cliente, como Handlebars e Mustache. A biblioteca at.js *oferece* suporte a esses idiomas.
-
-**Observação:** a biblioteca mbox.js não será mais desenvolvida. Todos os clientes devem migrar da mbox.js para a at.js. Para obter mais informações, consulte [Migrar para at.js do mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementação: criação automática de mbox global
 
