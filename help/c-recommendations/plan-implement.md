@@ -4,10 +4,9 @@ description: 'Saiba como implementar atividades do Recommendations no Adobe Targ
 title: Como Implementar As Atividades Do Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1551'
 ht-degree: 94%
 
 ---
@@ -24,7 +23,7 @@ O que é necessário saber antes de criar uma atividade do [!DNL Recommendations
 
 | Etapa | Informações | Detalhes |
 |--- |--- |--- |
-| ![Etapa 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requer uma referência à at.js versão 0.9.1 (ou posterior) ou mbox.js versão 55 (ou posterior). Essa etapa de implementação é necessária em todas as páginas em que uma atividade do Target será usada, e pode incluir chaves como um produto ou ID de categoria.<BR>Para obter informações sobre at.js, consulte [Implementação de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Para obter mais informações sobre a mbox.js, consulte [Implementação da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
+| ![Etapa 1](/help/c-recommendations/assets/step1_red.png) | Biblioteca de JavaScript | Cada página requer uma referência à at.js versão 0.9.1 (ou posterior) ou mbox.js versão 55 (ou posterior). Essa etapa de implementação é necessária em todas as páginas em que uma atividade do [!DNL Target] será usada, e pode incluir chaves como um produto ou ID de categoria. |
 | ![Etapa 2](/help/c-recommendations/assets/step2_red.png) | Teclas | A tecla determina o tipo de produto ou de conteúdo exibido nas suas recomendações. Por exemplo, a tecla pode ser uma categoria de produto. Consulte [Basear a recomendação em uma Chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 | ![Etapa 3](/help/c-recommendations/assets/step3_red.png) | Atributos | Os atributos fornecem informações mais específicas sobre os produtos que você deseja exibir. Por exemplo, você pode querer mostrar produtos dentro de uma faixa de preço específica ou itens que atendam a um limite de inventário. Os atributos podem ser fornecidos na mbox ou através de um  [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulte  [Especificar regras de inclusão](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
 | ![Etapa 4](/help/c-recommendations/assets/step4_red.png) | Exclusões | As exclusões determinam quais itens específicos não serão exibidos nas recomendações.<br>Consulte [Exclusões](/help/c-recommendations/c-products/exclusions.md). |
@@ -45,7 +44,7 @@ Há dois métodos para fornecer informações sobre produtos e serviços para o 
 
 Esses métodos podem ser usados separadamente ou juntos, como nos exemplos a seguir.
 
-## Exemplo um: combinar página e feeds   {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+## Exemplo um: combinar página e feeds  {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
 
 Uma opção comum de implementação do [!DNL Recommendations] usa tanto parâmetros de página quanto feeds.
 
@@ -81,7 +80,7 @@ Depois de configurar o feed e passá-lo para o [!DNL Recommendations], passe os 
 
 A prioridade será dada ao último conjunto de dados que tiver sido executado. Se você passar o feed primeiro e, em seguida, atualizar os parâmetros da página, as alterações feitas nos parâmetros da página serão mostradas, substituindo as informações do item transmitidas no feed.
 
-## Exemplo dois: passar todos os parâmetros na página Detalhes do produto (ou Conteúdo){#section_D5A4F69457604CA7AACFD7BFF79B58A9}
+## Exemplo dois: passar todos os parâmetros na página Detalhes do produto (ou Conteúdo) {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Se você passar todos os parâmetros na página, poderá fazer atualizações rapidamente atualizando a página. Em algumas organizações, isso requer o envolvimento do pessoal de TI ou da sua equipe de Web Design.
 
@@ -93,7 +92,7 @@ Este exemplo pode ser especialmente útil para uma empresa de mídia, com conte�
    * `entity.categoryId`
    * Todos os outros atributos
 
-## Código de exemplo   {#section_6E8A73376F30468BB549F337C4C220B1}
+## Código de exemplo  {#section_6E8A73376F30468BB549F337C4C220B1}
 
 Por exemplo, você pode usar o seguinte código na seção de cabeçalho das páginas de produto ou conteúdo:
 
@@ -138,15 +137,9 @@ Todas as páginas que contêm recomendações exigem uma referência à [!DNL at
 
 Esta implementação exige:
 
-* [!DNL at.js] versão 0.9.2 (ou posterior) ou [!DNL mbox.js] versão 55 (ou posterior)
-
-* A [!DNL mbox.js] deve incluir referência à [!DNL target.js] (a [!DNL at.js] não exige referência à [!DNL target.js])
+* [!DNL at.js] versão 0.9.2 (ou posterior)
 
 Para obter mais informações sobre como implementar a [!DNL at.js], consulte [Como implantar a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
-
-Para obter mais informações sobre como implementar a [!DNL mbox.js], consulte [Como implantar a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-Para obter mais informações sobre as diferenças entre as duas bibliotecas JavaScript do Target, consulte [Vantagens da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Página de categoria {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -193,12 +186,11 @@ function targetPageParams() {
 </script>
 ```
 
-## Página de agradecimento   {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Página de agradecimento  {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 Na página de agradecimento, você pode querer mostrar o total e a ID do pedido e mostrar os produtos que foram comprados, sem recomendar itens adicionais. É possível implementar uma segunda mbox para capturar as informações do pedido.
 
 * Se estiver usando at.js, consulte  [Rastrear conversas](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Se estiver usando mbox.js, consulte [Criar uma mbox de confirmação de pedido - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Configurações {#concept_C1E1E2351413468692D6C21145EF0B84}
 
