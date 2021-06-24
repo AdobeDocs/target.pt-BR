@@ -1,6 +1,6 @@
 ---
 source-git-commit: 98e2d72b31baef3c1eb98628a0224d9402bf1739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
@@ -9,15 +9,9 @@ ht-degree: 100%
 
 © Copyright 2021 Adobe. All rights reserved.
 
-A permissão é concedida gratuitamente a qualquer pessoa que obtenha uma cópia 
-deste software e dos arquivos de documentação associados (o &quot;Software&quot;), para negociar 
-o Software sem restrição, incluindo, sem limitação, 
-os direitos para usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias
-do Software, e permitir que pessoas a quem o Software é fornecido 
-a fazê-lo, sujeito às seguintes condições:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-O aviso de copyright acima e este aviso de permissão devem ser incluídos em
-todas as cópias ou partes substanciais do software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
