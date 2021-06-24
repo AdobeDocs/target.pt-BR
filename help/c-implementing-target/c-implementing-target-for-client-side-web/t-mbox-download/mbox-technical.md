@@ -2,14 +2,13 @@
 keywords: implementação; mbox.js; biblioteca de manipulação de dom; target. js; visual experience composer; iframe; sites angulares; aplicativos de página única; aplicativo de página única; SPA
 description: Saiba mais sobre a implementação herdada da mbox.js do Adobe Target. Migrar para o SDK da Web da Adobe Experience Platform (AEP Web SDK) ou para a versão mais recente da at.js.
 title: O que a biblioteca  [!DNL Target] mbox.js faz?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 74%
+source-wordcount: '299'
+ht-degree: 78%
 
 ---
 
@@ -19,22 +18,9 @@ As informações são fornecidas para ajudar sua equipe técnica a compreender a
 
 >[!IMPORTANT]
 >
->**Fim da vida útil** da mbox.js: A partir de 31 de março de 2021, o  [!DNL Adobe Target] não será mais compatível com a biblioteca mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js normalmente falharão e afetarão suas páginas que têm [!DNL Target] atividades em execução ao veicular conteúdo padrão.
+>**Fim da vida útil da mbox.js**: a partir de 31 de março de 2021, o [!DNL Adobe Target] não oferecerá mais suporte à biblioteca de mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js vão resultar em falha e afetar suas páginas com atividades do [!DNL Target] em execução ao veicular conteúdo padrão.
 >
->Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-O Target Standard requer [!DNL mbox.js] versão 58 ou posterior. Para obter instruções sobre como baixar e atualizar [!DNL mbox.js], consulte [Implementação de mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-Para o Target Standard, o arquivo [!DNL mbox.js] chama outro arquivo JavaScript, [!DNL target.js]. O arquivo [!DNL Target.js] é hospedado e atualizado automaticamente pela Adobe. Você não precisa fazer nada para atualizar [!DNL target.js] e não há nenhuma personalização específica do cliente.
-
-O arquivo [!DNL Target.js] cria uma mbox chamada `target-global-mbox` na seção `<head>` da página.
-
-O [!DNL Target.js] é chamado de [!DNL mbox.js] por uma linha de código JavaScript adicionada ao campo [!UICONTROL JavaScript Extra] em [!DNL mbox.js]. A única maneira de desativar [!DNL target.js] é não incluir essa linha de código. Isso desativa o [!DNL Target].
-
-[!DNL Target.js] tem duas funções no [!DNL Target]:
-
-* Manipulação de DOM
-* Ativa elementos visuais do [!UICONTROL Visual Experience Composer]
+>Recomendamos que todos os clientes migrem para a versão mais recente da nova [!DNL Adobe Experience Platform Web SDK] ou da biblioteca at.js de JavaScript antes dessa data para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## Manipulação de DOM {#section_169F8D4C077948DCB4F891ABBB03FF63}
 
@@ -51,8 +37,6 @@ Quando você usa o [!UICONTROL Visual Experience Composer] para configurar uma e
 * Para geração de miniaturas: [!DNL https://html2canvas.hertzen.com/]
 * Para consulta entre domínios: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], usados para enviar mensagens no iFrames. Esses scripts permitem que a Adobe envie dados entre as páginas.
 
-## Considerações para aplicativos de sites angulares e de página única   {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Considerações para aplicativos de sites angulares e de página única  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Se você estiver implementando o Target em um site Angular ou em qualquer aplicativo de página única (SPA), deve usar a biblioteca at.js em vez da mbox.js.
-
-Para obter mais informações, consulte [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
