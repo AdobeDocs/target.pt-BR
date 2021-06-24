@@ -4,10 +4,9 @@ description: Conheça os recursos adicionais do Adobe  [!DNL Target]  e como ent
 title: Onde posso encontrar recursos e informações de contato para o Target?
 feature: Notas de versão, Visão geral
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '1231'
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+workflow-type: tm+mt
+source-wordcount: '1222'
 ht-degree: 100%
 
 ---
@@ -28,7 +27,7 @@ A Comunidade permite que você:
 
 Visite o [Fórum da comunidade do Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) para começar.
 
-## Série de webinários de Noções básicas do Target {#concept_11902FAC95C64479AABE020557A7EEE4}
+## Série de webinars de Noções básicas do Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 Informações de registro e links para sessões anteriores da Série de webinários de Noções básicas do Target, uma Série de webinários de Sucesso do cliente trazida até você pela Comunidade.
 
@@ -49,7 +48,7 @@ As sessões atuais gravadas do Target incluem:
 | [Workspaces do Target Premium](https://helpx.adobe.com/br/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 de setembro de 2018 | Você aprenderá:<ul><li>Criação de um espaço de trabalho (perfil do produto)</li><li>Criação de propriedades</li><li>Adição de usuários</li><li>Atualização da implementação</li></ul>Para obter mais informações, consulte [Permissões de usuário do Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/br/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>dezembro de 2017 | Você aprenderá:<ul><li>Como funciona o VEC</li><li>Como evitar problemas comuns com o VEC</li><li>Práticas de correção que podem ser usadas com o VEC</li></ul>Para obter mais informações neste guia, consulte  [Experiências](/help/c-experiences/experiences.md). |
 | [Adobe Target: Integração do Analytics/Target (A4T)](https://helpx.adobe.com/br/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janeiro de 2018 | Você aprenderá:<ul><li>Como configurar e validar o funcionamento da integração </li><li>Como funciona a integração</li><li>Saiba mais sobre os relatórios adequados para usar no Analytics</li><li>Respostas às perguntas comuns sobre o A4T</li></ul>Para obter mais informações neste guia, consulte [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js: Vantagens e práticas recomendadas de implementação](https://helpx.adobe.com/br/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>Abril de 2018 | Você aprenderá: <ul><li>Como funciona a biblioteca at.js</li><li>As vantagens da at.js em relação a mbox.js</li><li>Como a at.js gerencia a cintilação</li><li>Erro de manipulação em at.js</li><li>Metodologias de depuração</li><li>Problemas conhecidos e roteiros futuros</li></ul>Para obter mais informações neste guia, consulte  [Implementação da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [at.js: Vantagens e práticas recomendadas de implementação](https://helpx.adobe.com/br/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>Abril de 2018 | Você aprenderá: <ul><li>Como funciona a biblioteca at.js</li><li>As vantagens da at.js em relação a mbox.js</li><li>Como a at.js gerencia a cintilação</li><li>Erro de manipulação em at.js</li><li>Metodologias de depuração</li><li>Problemas conhecidos e roteiros futuros</li></ul> |
 
 >[!NOTE]
 >
