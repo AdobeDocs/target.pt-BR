@@ -4,9 +4,9 @@ description: Saiba como Adobe [!DNL Target] works, including information about t
 title: Como o  [!DNL Target]  funciona?
 feature: Visão geral
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2532'
 ht-degree: 95%
 
 ---
@@ -20,12 +20,8 @@ Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL
 [!DNL Target] integra-se a sites usando as bibliotecas do [!DNL Experience Platform Web SDK] ou do JavaScript:
 
 * **Adobe Experience Platform Web SDK:** o  [Experience Platform Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK é uma nova biblioteca JavaScript do lado do cliente. O Experience Platform Web SDK permite que os clientes de [!DNL Adobe Experience Cloud] interajam com os vários serviços no [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da [!DNL Experience Platform] Edge Network. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
-* **at.js:** A [biblioteca at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. O Adobe recomenda que todos os clientes que usam at.js atualizem suas implementações para a [versão mais recente da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** A [biblioteca mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) é a biblioteca de implementação legada do [!DNL Target]. A biblioteca mbox.js não é mais suportada após 31 de março de 2021.
-
->[!IMPORTANT]
->
->Todos os clientes devem migrar para o [!DNL Experience Platform Web SDK] ou para a versão mais recente do at.js. Para obter mais informações, consulte o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ou [Migrar para at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+* **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. O Adobe recomenda que todos os clientes que usam at.js atualizem suas implementações para a [versão mais recente da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* **mbox.js:** A biblioteca mbox.js é a biblioteca de implementação legada do [!DNL Target]. A biblioteca mbox.js não é mais suportada após 31 de março de 2021.
 
 Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, considere usar o [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=pt-BR) para implementar o [!DNL Target].
 
