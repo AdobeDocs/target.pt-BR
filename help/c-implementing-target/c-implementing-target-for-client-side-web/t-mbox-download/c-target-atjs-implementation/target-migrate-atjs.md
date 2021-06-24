@@ -5,11 +5,10 @@ title: Como migrar da mbox.js para a at.js
 feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 92%
+source-wordcount: '847'
+ht-degree: 91%
 
 ---
 
@@ -97,7 +96,7 @@ Use os seguintes passos para migrar da [!DNL mbox.js] para a [!DNL at.js] e conf
    Essas são algumas coisas que você pode fazer enquanto teste para confirmar que a [!DNL at.js] está funcionando como o esperado:
 
    * Certifique-se de que todas suas atividades atuais funcionam com a nova biblioteca JavaScript.
-   * Confirme que todas  [integrações](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) e [plugins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funcionam conforme esperado.
+   * Confirme que todas  [integrações](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) e plugins funcionam conforme esperado.
    * Verifique se você está familiarizado com [a depuração](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) das abordagens disponíveis em [!DNL at.js].
 
 **Possíveis problemas ao migrar para o at.js** Alguns clientes relataram os seguintes problemas após executar a migração para o at.js:
@@ -125,4 +124,4 @@ Nesses casos, seletores de elementos podem começar com algo como
 
    Para mais informações sobre como usar o editor de código para fazer isso, consulte  [Editor de códigos](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas. Para obter mais informações, consulte &quot;Considerações assíncronas&quot; em  [Limitações da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Como todas as mboxes agora são assíncronas, elas não vão bloquear a renderização da página ou retornar na ordem em que foram acionadas.
