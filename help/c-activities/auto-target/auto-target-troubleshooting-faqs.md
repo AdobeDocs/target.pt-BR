@@ -7,7 +7,7 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as ativi
 
 * Tente não fazer mudanças substanciais nas experiências durante o curso da atividade.
 
-### Você recomenda usar o [!UICONTROL Direcionamento automático] com uma divisão 90(Controle)/10(Direcionado) até que os modelos sejam criados?
+### Você recomenda o uso do [!UICONTROL Direcionamento automático] com uma divisão de 90 (controle)/10 (direcionado) até que os modelos sejam construídos?
 
 A divisão de alocação de tráfego ideal depende do que você deseja realizar.
 
@@ -113,7 +113,7 @@ O [!DNL Target] cria um modelo por experiência, portanto, remover uma experiên
 
 Por exemplo, suponha que você tenha uma atividade de [!UICONTROL Direcionamento automático] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afetará os modelos das sete restantes.
 
-## Solução de problemas do [!UICONTROL Direcionamento automático ]  {#section_23995AB813F24525AF294D20A20875C8}
+## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
 Às vezes, as atividades não acontecem como o esperado. Aqui estão alguns possíveis desafios que você pode enfrentar ao usar o [!UICONTROL Direcionamento automático] e algumas soluções sugeridas.
 
