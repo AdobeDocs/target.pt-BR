@@ -5,11 +5,10 @@ title: Como o [!DNL Target] lida com o suporte à Apple ITP?
 feature: Privacidade e segurança
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 50%
+source-wordcount: '910'
+ht-degree: 52%
 
 ---
 
@@ -29,7 +28,7 @@ Essas versões da ITP incluem as seguintes restrições:
 
 ## Qual é o impacto para mim como cliente do Adobe [!DNL Target]? {#impact}
 
-O [!DNL Target] fornece bibliotecas JavaScript para implantar em suas páginas para que o [!DNL Target] possa oferecer personalização em tempo real aos seus visitantes. Há três bibliotecas JavaScript do Target ([at.js 1.x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) e [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) que colocam os cookies [!DNL Target] do lado do cliente nos navegadores de seus visitantes por meio da API `document.cookie`. Como resultado, os cookies [!DNL Target] são afetados pela ITP 2.x da Apple e expirarão após sete dias (com a ITP 2.1) e após um dia (com a ITP 2.2 e a ITP 2.3).
+O [!DNL Target] fornece bibliotecas JavaScript para implantar em suas páginas para que o [!DNL Target] possa oferecer personalização em tempo real aos seus visitantes. Há três bibliotecas JavaScript do Target at.js 1.x, at.js 2.x que colocam os cookies [!DNL Target] do lado do cliente nos navegadores dos visitantes por meio da API `document.cookie`. Como resultado, os cookies [!DNL Target] são afetados pela ITP 2.x da Apple e expirarão após sete dias (com a ITP 2.1) e após um dia (com a ITP 2.2 e a ITP 2.3).
 
 A Apple ITP 2.x afeta [!DNL Target] nas seguintes áreas:
 
@@ -54,7 +53,7 @@ Para reduzir o impacto de futuras versões da ITP 2.x no Target, realize as segu
 
    A biblioteca da ECID ativa a estrutura de identificação de pessoas para as soluções principais da Experience Cloud. A biblioteca da ECID permite identificar os mesmos visitantes do site e seus dados em diferentes soluções da Experience Cloud, atribuindo identificadores persistentes e exclusivos. A biblioteca da ECID será atualizada frequentemente para ajudar a mitigar as alterações relacionadas à ITP que afetam sua implementação.
 
-   Para ITP 2.x, [A biblioteca ECID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) deve ser usada para mitigação.
+   Para ITP 2.x, [A biblioteca ECID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=pt-BR) deve ser usada para mitigação.
 
 1. Use o CNAME da Adobe e inscreva-se no Programa Managed Certificate do Adobe Analytics.
 
