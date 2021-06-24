@@ -1,13 +1,13 @@
 ---
 keywords: Target, página inicial, tópicos populares, adobe target, padrão, premium, documentação do target, documentação do adobe target
 title: Onde posso encontrar a documentação do [!DNL Target] ?
-description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
+description: Saiba como usar o Adobe [!DNL Target] para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Visão geral
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 16 de junho de 2021 (  [Consulte o que foi alterado](r-release-notes/doc-change.md) )**
+**Última atualização: 16º de junho de 2021 ( [Veja o que mudou](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -31,12 +31,12 @@ As seguintes seções apontam para links úteis neste guia, organizados por púb
 
 - [Todos os usuários do Target](#all)
 - [Profissionais de marketing](#marketers)
-- [Desenvolvedores ](#developers)
+- [Desenvolvedores](#developers)
 - [Administradores do Target e da Adobe Experience Cloud](#admins)
-- [Analistas ](#analysts)
-- [Engenheiros de controle de qualidade ](#qa)
+- [Analistas](#analysts)
+- [Engenheiros de controle de qualidade](#qa)
 
-## Todos os usuários [!DNL Target]  {#all}
+## Todos os usuários [!DNL Target] {#all}
 
 Profissionais de marketing, desenvolvedores, administradores e engenheiros de controle de qualidade.
 
@@ -68,7 +68,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 - [Administer Target](administrating-target/administrating-target.md): explica como adicionar usuários e configurar sua conta [!DNL Target].
 
-## Analistas  {#analysts}
+## Analistas {#analysts}
 
 - [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em atividades direcionadas.
 - [Relatórios](c-reports/reports.md): explica como interpretar o desempenho de suas atividades.
