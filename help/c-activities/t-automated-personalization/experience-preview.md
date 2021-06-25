@@ -2,13 +2,12 @@
 keywords: visualização de experiência, urls de experiências, gerar urls, ver urls de experiências
 description: Saiba como usar URLs de visualização de experiência para atividades do Adobe [!DNL Target] Automated Personalization para ver o conteúdo da experiência diretamente no seu site antes que a atividade esteja ativa.
 title: Como posso usar URLs de visualização de experiência nas atividades do Automated Personalization?
-feature: Personalização automatizada
+feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 568760262622b1097dca9384ed9d1360cfadfb6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 65%
+source-wordcount: '758'
+ht-degree: 67%
 
 ---
 
@@ -19,8 +18,6 @@ Os URLs de visualização da experiência podem ser gerados para atividades do T
 >[!NOTE]
 >
 >Os URLs de visualização de experiência do Automated Personalization diferem do modo de QA da atividade. O modo controle de qualidade da atividade permite que você crie URLs de atividades para outros tipos de atividades. Para obter mais informações, consulte [Garantia de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa.md).
->
->Os URLs de visualização de experiência para atividades de AP só estão disponíveis ao usar a at.js 1.x. No momento, os URLs de visualização de experiência para atividades de AP não são compatíveis com a at.js 2.x.
 
 Use URLs de visualização de experiência para compartilhar experiências com membros da equipe e para fazer QA de experiências em navegadores e ambientes, sem criar uma atividade de QA separada. Este recurso é particularmente útil se um site for complexo ou se as políticas de segurança não permitirem que o site seja visualizado em um simulador.
 
