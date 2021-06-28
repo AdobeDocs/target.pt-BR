@@ -4,10 +4,10 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer?
 feature: 'Visual Experience Composer (VEC) '
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Use uma das seguintes opções para garantir que seu VEC e EEC continuem a funci
 
 ## O [!DNL Target] suporta iframes de vários níveis?
 
-O Target não oferece suporte para iframes de vários níveis. Se o site carregar um iframe que tenha um iframe secundário, as bibliotecas do Target (at.js e mbox.js) vão interagir somente com o iframe principal. As bibliotecas do Target não interagem com o iframe secundário.
+[!DNL Target]O não oferece suporte para iframes de vários níveis. Se o site carregar um iframe que tenha um iframe secundário, a at.js interage somente com o iframe principal. [!DNL Target]As bibliotecas do não interagem com o iframe secundário.
 
 Como solução, você pode adicionar uma página na experiência com o URL do iframe secundário.
 
