@@ -2,13 +2,12 @@
 keywords: at.js; 2.0; 1.x; cookies
 description: Detalhes sobre como o Adobe [!DNL Target] at.js 2.x e at.js 1.x lidam com cookies
 title: Cookies da at.js
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 96%
 
 ---
@@ -35,7 +34,7 @@ No entanto, na at.js 2.x, é usado o HTTP POST, em vez do HTTP GET. HTTP POST ag
 
 Portanto, não há suporte para cookies de terceiros nem rastreamento entre domínios na at.js 2.0.0.
 
-## at.js 1.*x* comportamento de cookie {#at-js-1x-cookie-behavior}
+## at.js 1.*x*  comportamento de cookie {#at-js-1x-cookie-behavior}
 
 Para versões do at.js 1.*x*, o comportamento de cookie depende de se é um cookie próprio, um cookie de terceiros com um cookie próprio ou um cookie de terceiros.
 
@@ -122,7 +121,7 @@ O cookie mantém uma série de valores para gerenciar a experiência de seus vis
 | session ID | ID único para a sessão do usuário. A duração padrão é de 30 minutos. |
 | pc ID | Um ID temporário para o navegador do visitante. Dura 14 dias. |
 | check | Um simples valor de teste utilizado para determinar se o navegador do visitante tem suporte a cookies. Definido sempre que o usuário solicita uma página. |
-| disable | Configurado se o tempo de carga do visitante ultrapassar o tempo limite configurado no arquivo mbox.js. A duração padrão é de uma hora. |
+| disable | Configurado se o tempo de carga do visitante ultrapassar o tempo limite configurado no arquivo [!DNL Adobe Experience Platform Web SDK] ou at.js. A duração padrão é de uma hora. |
 
 ## Impacto em [!DNL Target] para visitantes do Safari devido a alterações no rastreamento do Apple WebKit
 
