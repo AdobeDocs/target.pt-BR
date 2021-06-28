@@ -1,42 +1,37 @@
 ---
 keywords: visual experience composer; práticas recomendadas do visual experience composer; limitações do visual experience composer; avisos do visual experience composer; práticas recomendadas do vec; vec
-description: Saiba mais sobre as práticas recomendadas para fazer com que suas experiências funcionem como esperado ao usar o Visual Experience Composer (VEC) no Adobe Target.
+description: Conheça as práticas recomendadas para que suas experiências funcionem conforme o esperado ao usar o Visual Experience Composer (VEC) no Adobe Target.
 title: Quais são as práticas recomendadas e limitações do Visual Experience Composer?
-feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+feature: 'Visual Experience Composer (VEC) '
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 93%
 
 ---
 
-
 # Práticas recomendadas e limitações do Visual Experience Composer
 
-Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Há também outras dicas e limitações que você deve ter em mente ao usar o Visual Experience Composer (VEC) em [!DNL Adobe Target].
+Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Há também outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC) em [!DNL Adobe Target].
 
 Ao seguir essas práticas recomendadas, você tem menos probabilidade de encontrar problemas inesperados com as experiências que projeta.
 
 ## Práticas recomendadas {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Para a mbox. js versão 57 e posterior, e para o at.js, insira a referência de mbox.js ou at.js na parte superior da seção `<head>` da sua página.**
+**Coloque a referência de at.js na parte superior da  `<head>` seção da página.**
 
-Se você também usa o serviço de API do visitante, coloque o script de API do visitante acima da mbox.js ou at.js.
-
-**Para versões da mbox.js antes da 57, coloque o código da mbox.js o mais baixo possível na seção `<head>` da sua página.**
-
-Coloque o mbox.js no final da seção `<head>`, sem declarações adicionais depois. Caso contrário, qualquer tag ou tag de link será movida para a seção `<body>`.
+Se também usar o Serviço de API do visitante, coloque o script de API do visitante acima da at.js.
 
 **Você pode ativar/desativar o Enhanced Experience Composer no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.**
 
-Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Administração > Visual Experience Composer] e alterne a opção para a posição Ligado.
+Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Administration > Visual Experience Composer] e, em seguida, alterne o comutador para a posição Ligado.
 
 Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configurar > URL] e, em seguida, alterne o comutador para a posição Ligado.
 
-**Você pode lista de permissões determinados endereços IP se o Visual Experience Composer aprimorado não for carregado em páginas seguras do site.**
+**Você pode lista de permissões determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.**
 
-Problemas ao carregar o Visual Experience Composer aprimorado podem ser resolvidos ao incluir na lista de permissões os seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do site não precisam desses endereços IP incluir na lista de permissões.
+Os problemas ao carregar o Enhanced Visual Experience Composer podem ser resolvidos incluir na lista de permissões os seguintes endereços IP podem ser . Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP incluídos na lista de permissões.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92, and 54.204.197.253
 
@@ -46,7 +41,7 @@ Pacífico Asiático (APAC): 52.193.67.35, 54.199.198.109 e 54.199.241.57
 
 **Use IDs exclusivas para elementos de nível superior e outros elementos que podem ser bons candidatos a teste/direcionamento.**
 
-Qualquer item imediatamente dentro do elemento body deve ter uma ID exclusiva. Se novos elementos forem inseridos no corpo de texto e o código for movido, pelo menos os elementos pai serão mais fáceis de reconhecer.
+Qualquer item imediatamente dentro do elemento body deve ter uma ID única. Se novos elementos forem inseridos no corpo de texto e o código for movido, pelo menos os elementos pai serão mais fáceis de reconhecer.
 
 O Adobe Target não requer IDs, mas o uso de IDs aumenta a confiabilidade das experiências criadas com o Experience Composer. O Target usa seletores de CSS para modificar seu conteúdo quando a experiência é entregue. Quando você edita uma experiência, o Visual Experience Composer ancora o seletor para o ancestral mais próximo com um atributo de ID não nulo para o elemento HTML sendo modificado. Portanto, não é aconselhável usar nenhum mecanismo, incluindo bibliotecas de JavaScript, que defina ou modifique atributos de ID HTML. Embora essas IDs possam estar disponíveis para o Target Experience Composer para a criação de atividade, se o JavaScript modificar IDs, a ID que foi usada quando a experiência foi criada talvez não esteja disponível quando a experiência for executada. Se não houver uma ID disponível, o seletor ancorado para a ID falhará.
 
@@ -234,7 +229,7 @@ Um elemento não pode ser movido para fora de um contêiner seguido por uma prop
 
 **Somente ofertas de troca estão disponíveis em mboxes.**
 
-Ações como Editar classe e Reorganizar não são permitidas dentro de uma mbox. O conteúdo da mbox é servido por mbox.js.
+Ações como Editar classe e Reorganizar não são permitidas dentro de uma mbox.
 
 **Você não deve reorganizar e mover o mesmo elemento.**
 
