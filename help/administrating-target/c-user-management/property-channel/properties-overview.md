@@ -5,10 +5,9 @@ title: Como Configurar Permissões Empresariais?
 feature: Administração e configuração
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 66%
 
 ---
@@ -151,7 +150,7 @@ Para usar a funcionalidade [!DNL Target] de permissões de usuário, você deve 
 
       Para obter mais informações, consulte [Adicionar parâmetros do Target global](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) na documentação *Adobe Experience Platform Launch*.
 
-   * **Por meio da função targetPageParams():** adicione o seguinte código nas  `<head>` tags , acima da referência de at.js ou mbox.js.
+   * **Por meio da função targetPageParams():** adicione o seguinte código nas  `<head>` tags, acima da referência de at.js.
 
       ![](assets/property_token_1.png)
 
