@@ -4,11 +4,10 @@ description: Encontre sugestões para ajudar a solucionar problemas se a página
 title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Atividades
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: ht
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +56,7 @@ Os seguintes parâmetros estão disponíveis:
 
 | Opções de mboxTrace | Saída |
 |--- |--- |
-| `?mboxTrace=console` | Imprime no log do console como objetos.<br>Para at.js, em vez de abrir uma nova janela do navegador ou exibir uma saída no console como em mbox.js, você precisará inspecionar a solicitação de rede e procurar em Visualização (Chrome) ou Resposta (Firefox). |
+| `?mboxTrace=console` | Imprime no log do console como objetos.<br>Para at.js, em vez de abrir uma nova janela do navegador ou exibir uma saída no console como era em mbox.js, você precisará inspecionar a solicitação de rede e procurar em Visualização (Chrome) ou Resposta (Firefox). |
 | `?mboxTrace=json` | Imprime no log do console como sequência de caracteres JSON literal |
 | `?mboxTrace=window` | Imprime em uma janela pop-up como uma sequência de caracteres JSON |
 | `?mboxTrace=disable` | Desativa o rastreamento do modo de sessão |
@@ -117,10 +116,6 @@ Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
 Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
-## Se o target.js não for carregado durante a entrega {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-O mbox.js envia um cookie chamado &quot;em-disabled&quot; para o visitante quando o target.js não é carregado durante a entrega. Este cookie evita que as ofertas criadas com o Visual Experience Composer sejam renderizadas no site. Os visitantes com esse cookie não veem o conteúdo do teste nem são contados nesses relatórios de atividades. Todo o conteúdo restante da oferta (por exemplo, das campanhas no Target Classic) continua sendo carregado. O cookie tem duração de 30 minutos a partir do momento da falha no carregamento.
-
 ## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 A chamada *`SiteCatalyst: purchase`* não pode ser usada para dados de tráfego de algoritmo de compra. Em vez disso, use a chamada *`orderConfirmPage`*.
@@ -132,12 +127,6 @@ As atividades com base em formulários criadas com o [!DNL Target Standard/Premi
 ## O código personalizado não produz os resultados esperados no Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 O Target não é mais compatível com o IE8.
-
-## O conteúdo JavaScript entregue pela solicitação global do [!DNL Target] não é carregado ao usar mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-Atualize para [!DNL mbox.js] versão 58 ou posterior.
-
-A mbox.js versão 58 e posterior executa conteúdo não JavaScript para a solicitação do [!DNL Target] imediatamente após a tag HTML `BODY` estar presente. O conteúdo JavaScript entre as tags `<script>` da solicitação global do [!DNL Target] é executado depois de o evento `DOMContentLoaded` ser disparado. Essa ordem de entrega de conteúdo garante que o conteúdo JavaScript da solicitação global do [!DNL Target] seja entregue e renderizado corretamente.
 
 ## O cookie do Target não é definido {#section_77AFEB541C0B495EB67E29A4475DF960}
 
