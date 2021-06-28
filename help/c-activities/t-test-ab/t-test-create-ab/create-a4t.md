@@ -2,13 +2,12 @@
 keywords: Direcionamento, analytics, servidor de rastreamento, analytics for target, a4t
 description: Saiba como configurar uma atividade no Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T).
 title: Como posso usar os dados do Analytics no Target?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 88%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +29,7 @@ O Analytics for Target exige que um servidor de rastreamento informe os resultad
 
 >[!NOTE]
 >
->Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+>Se você usa o Adobe Analytics como a fonte de relatórios da sua atividade, não é necessário especificar um servidor de rastreamento durante a criação da atividade usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento para [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
 Ao configurar uma atividade após definir o Analytics como sua fonte de relatórios, não há opção para configurar os públicos-alvo para a geração de relatórios. Os segmentos do Analytics estão disponíveis no relatório de Atividades do Target.
 
