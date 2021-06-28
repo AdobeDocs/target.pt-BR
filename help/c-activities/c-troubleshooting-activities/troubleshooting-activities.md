@@ -4,10 +4,9 @@ description: Encontre sugestões para a solução de problemas se a atividade do
 title: Como posso solucionar problemas de atividades?
 feature: Atividades
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '834'
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -104,15 +103,6 @@ Para mais informações sobre como as modificações da página afetam a capacid
 * Interrompa a modificação dinâmica da classe ou seus irmãos, conforme descrito acima.
 
 Para mais informações sobre como as modificações da página afetam a capacidade do Target de ser exibido, consulte  [Cenários de modificação da página](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
-
-## Mbox.js está preenchendo todo o código subsequente fora do cabeçalho e no corpo do texto.
-
-**Validar:** veja a origem para determinar se uma declaração segue o arquivo mbox.js antes de fechar  `</body>` tag.
-
-**Opções:**
-
-* Coloque o mbox.js como o último item na seção `<head>` da página.
-* Use ids div exclusivas nos elementos de nível mais alto do corpo.
 
 ## Outras atividades estão em execução na mesma página.
 
