@@ -2,12 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;opções de spa do experience composer;single page apps;single-page-app;spa;opções do mobile experience;exibição do target
 description: Saiba como usar o VEC SPA no Adobe [!DNL Target] para criar testes e personalizar conteúdo no SPA de maneira autônoma, sem dependências contínuas de desenvolvimento.
 title: Como uso o Visual Experience Composer (VEC de SPA de aplicativo de página única)?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 91%
 
 ---
@@ -62,7 +61,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
 1. Instalar a at.js 2.x.
 
-   Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores do at.js e mbox.js não são compatíveis com as Exibições do Adobe Target e o VEC for SPA.
+   Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores do at.js e não são compatíveis com as Exibições do Adobe Target e o VEC for SPA.
 
    ![Caixa de diálogo Detalhes da implementação](/help/c-experiences/assets/imp-200.png)
 
@@ -358,7 +357,7 @@ Se você quiser usar atividades A/B de Direcionamento automático, mova todas as
 | [Atributos do cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sim |
 | [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Sim |
 
-## Recursos compatíveis   {#supported-features}
+## Recursos compatíveis {#supported-features}
 
 | Recurso | Suportado? |
 | --- | --- |
