@@ -2,13 +2,12 @@
 keywords: Direcionamento, visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, tls, tls 1.2
 description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Visual Experience Composer (VEC) sob determinadas condições.
 title: Como soluciono problemas relacionados ao Visual Experience Composer?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -16,14 +15,14 @@ ht-degree: 87%
 
 Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) sob determinadas condições.
 
-## Quando abro meu site no Visual Experience Composer, as bibliotecas [!DNL Target] não são carregadas. (Somente VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando abro meu site no Visual Experience Composer, as bibliotecas [!DNL Target] não são carregadas. (Somente VEC)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 O Target adiciona dois parâmetros (`mboxEdit=1` e `mboxDisable=1`) ao abrir o site no Visual Experience Composer.
 
 Se o site (principalmente, Aplicativos de página única) corta nossos parâmetros ou os remove ao navegar de uma página a outra (sem um recarregamento de página), a funcionalidade do Target é interrompida e as bibliotecas do Target não são carregadas. 
 Para evitar esse problema, assegure-se de não cortar ou remover esses dois parâmetros.
 
-## Minha página não abre no EEC ou carrega lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC)   {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Minha página não abre no EEC ou carrega lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Vários problemas podem afetar o desempenho da página nos compositores de experiência do Target. Alguns erros comuns incluem:
 
@@ -109,7 +108,7 @@ Para a extensão Modify Response Header (Firefox), já que você não pode adici
 
 Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carregadas no Visual Experience Composer, mesmo que o Enhanced Experience Composer esteja desativado.
 
-## Minha página não é exibida no VEC (somente VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Minha página não é exibida no VEC (somente VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Não há suporte para o navegador.
 * O navegador está bloqueando uma página não segura em um site seguro.
@@ -118,8 +117,8 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 * Você inseriu um URL inválido.
 * Você não inseriu um URL padrão na sua página de configuração de conta.
 
-Certifique-se de que essa configuração esteja ativada, baixe e atualize a mbox.js no site.
+Certifique-se de que essa configuração esteja ativada, baixe e atualize a at.js no site.
 
-## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Ao usar o modo de navegação, se você acessar um URL que não tenha target.js ou contenha um cabeçalho de quadro, o Visual Experience Composer parecerá quebrado. Devido a preocupações com a segurança do navegador, o Target não pode acessar o URL para o qual você navegou.
