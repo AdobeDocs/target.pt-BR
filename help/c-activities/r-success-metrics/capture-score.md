@@ -4,11 +4,10 @@ description: Saiba mais sobre a métrica de envolvimento de Pontuação de captu
 title: O que é a métrica Pontuação de captura?
 feature: Métricas de sucesso
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 51%
+source-wordcount: '765'
+ht-degree: 48%
 
 ---
 
@@ -54,7 +53,7 @@ A prática recomendada é atribuir valores na solicitação [!DNL Target]. Isso 
 
 >[!NOTE]
 >
->Para obter uma manutenção mais simples, você pode configurar as atribuições de valor de pontuação do site no arquivo da [!DNL at.js] ou [!DNL mbox.js] com um pouco de lógica condicional JavaScript. Isso elimina a necessidade de adicionar mais código às suas páginas. Entre em contato com um consultor para obter ajuda.
+>Para obter uma manutenção mais simples, você pode configurar as atribuições de valor de pontuação do site no arquivo [!DNL at.js] com um pouco de lógica condicional JavaScript. Isso elimina a necessidade de adicionar mais código às suas páginas. Entre em contato com um consultor para obter ajuda.
 
 Você pode combinar os dois métodos, mas isso pode resultar em uma pontuação maior do que a esperada. Por exemplo, se você atribuir um valor de 10 para cada três solicitações [!DNL Target] e nenhuma pontuação para uma quarta solicitação e passar o parâmetro de URL `?mboxPageValue=5`, sua pontuação de página será 50, 30 para as três solicitações com valores atribuídos e 5 para cada uma das quatro solicitações na página.
 
