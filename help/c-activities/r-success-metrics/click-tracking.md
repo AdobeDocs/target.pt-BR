@@ -4,11 +4,10 @@ description: Saiba como o Adobe [!DNL Target] permite rastrear cliques em qualqu
 title: O que é o Rastreamento de cliques?
 feature: Métricas de sucesso
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 91%
+source-wordcount: '885'
+ht-degree: 93%
 
 ---
 
@@ -73,8 +72,8 @@ Há várias coisas a considerar ao selecionar elementos:
 
    Para obter mais informações, consulte [Navegar pelos elementos usando o caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nas *Opções do Visual Experience Composer*.
 
-* É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o  [recurso multipágina](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] ou [!DNL mbox.js] devem ser implementadas nela.
-* Se selecionar mais de um elemento, caso um participante clique em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item clicando em vários elementos em uma página, edite o Seletor de elemento CSS para corresponder a vários elementos.
+* É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o   [recurso multipágina ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e  [!DNL at.js] deve ser implementado nela.
+* Se selecionar mais de um elemento, caso um participante clique em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item ao clicar em vários elementos de uma página, edite o Seletor de elemento CSS para corresponder a vários elementos.
 * Certifique-se de selecionar o nível do elemento que deseja rastrear. Por exemplo, ao especificar um botão, certifique-se de selecionar o link e não o texto do botão.
 * Os eventos de clique são enviados para o [!DNL Target] na mesma página de destino do clique.
 * Se a métrica de rastreamento de cliques for a métrica de meta de uma atividade do A4T, o visitante deverá clicar nesse elemento dentro de 60 segundos do carregamento da página para que a métrica seja rastreada.
