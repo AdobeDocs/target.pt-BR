@@ -4,9 +4,9 @@ description: Saiba como usar URLs de controle de qualidade do Adobe [!DNL Target
 title: Como faço para garantir a qualidade das atividades?
 feature: Atividades
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1760'
 ht-degree: 37%
 
 ---
@@ -94,7 +94,7 @@ Use URLs de controle de qualidade em [!DNL Adobe Target] para realizar o control
 
 * A interface do usuário do [!UICONTROL Modo de QA do Target] mostra apenas o primeiro URL de uma experiência em uma atividade de várias páginas. A suposição é que você esteja criando um teste de jornada e mova de URL1 para URL2. No entanto, se você quiser ir independentemente para o URL 2, copie todos os parâmetros de URL fornecidos em relação ao URL 1 e aplique-os ao URL 2 após colocar um &quot;?&quot; exatamente como você vê no URL 1.
 
-## Compatibilidade da biblioteca JavaScript do Target [!UICONTROL Modo de QA]
+## Compatibilidade da biblioteca JavaScript do Target [!UICONTROL Modo de QA] {#compatibility}
 
 [!DNL Target] O suporta as seguintes bibliotecas JavaScript:
 
@@ -128,18 +128,13 @@ Para acessar e compartilhar um URL de visualização, na página **[!UICONTROL V
 
 A tabela a seguir lista os vários tipos de atividades e indica se o recurso de visualização de URLs é compatível com cada biblioteca ou API:
 
-| Tipo de atividade | at.js 1.x | at.js 2.x | SDK da Web da plataforma | API de entrega | API de administração |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL Teste A/B] | Sim | Sim | Sim | Não aplicável | Sim |
-| [!UICONTROL Alocação automática] | Sim | Sim | Sim | Não aplicável | Sim |
-| [!UICONTROL Direcionamento automático] | Sim | Sim | Sim | Não aplicável | Sim |
-| [!UICONTROL Personalização automatizada] (AP) | Sim | Sim | Não | Não aplicável | Sim |
-| [!UICONTROL Direcionamento de experiência] (XT) | Sim | Sim | Sim | Não aplicável | Sim |
-| [!UICONTROL Teste multivariado] (MVT) | Sim | Sim | Sim | Não aplicável | Sim |
-| [!UICONTROL Recommendations] | Sim | Sim | Sim | Não aplicável | Sim |
-
-
-
-
-
+| Tipo de atividade | at.js 1.x | at.js 2.x | SDK da Web da plataforma |
+| --- | --- | --- | --- |
+| [!UICONTROL Teste A/B] | Sim | Sim | Sim |
+| [!UICONTROL Alocação automática] | Sim | Sim | Sim |
+| [!UICONTROL Direcionamento automático] | Sim | Sim | Sim |
+| [!UICONTROL Personalização automatizada] (AP) | Sim | Sim | Sim |
+| [!UICONTROL Direcionamento de experiência] (XT) | Sim | Sim | Sim |
+| [!UICONTROL Teste multivariado] (MVT) | Sim | Sim | Sim |
+| [!UICONTROL Recommendations] | Sim | Sim | Sim |
 
