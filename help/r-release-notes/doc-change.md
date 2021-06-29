@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
+source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 91%
+source-wordcount: '1569'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 29 de junho | [Controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa.md) | Adição de uma matriz de compatibilidade para mostrar quais tipos de atividade são compatíveis com o Modo de atividade ao usar diferentes bibliotecas JavaScript do Target. |
 | 24 de junho | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento do [!DNL Target Standard/Premium] versão 21.6.1 (30 de junho de 2021). |
 | 16 de junho | [[!DNL Target] notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Adição de informações sobre o [!DNL Adobe Target] Python SDK versão 1.0.0. |
 |  | [Relatórios de insights de personalização](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Adição das seguintes perguntas frequentes:<ul><li>Por quanto tempo os dados para os modelos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] persistem?</li></ul> |
