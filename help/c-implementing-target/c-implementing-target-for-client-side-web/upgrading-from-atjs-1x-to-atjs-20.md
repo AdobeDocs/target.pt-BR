@@ -5,10 +5,10 @@ title: Como faço para atualizar da at.js versão 1.x para a versão 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 92%
+source-wordcount: '2761'
+ht-degree: 91%
 
 ---
 
@@ -47,12 +47,12 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 | --- | --- |
 | 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
-| 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
+| 3 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
 | 5 | Os dados do Analytics são enviados aos Servidores de coleta de dados. |
 | 6 | Os dados do Target são correspondidos aos dados do Analytics pela SDID, e processados no armazenamento de relatório do Analytics. Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do A4T. |
 
-## Implantar o at.js 2.*x* {#deploy-atjs-200}
+## Implantar o at.js 2.*x*  {#deploy-atjs-200}
 
 1. Implantar o at.js 2.*x* por meio da extensão do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
@@ -217,7 +217,7 @@ Os clientes que usam `mboxCreate()` para rastreamento de conversão devem usar `
 
 Os clientes que não substituírem `mboxCreate()` por `getOffer()` ou `applyOffer()` correm o risco de não ter ofertas entregues.
 
-### O at.js 2.*x* pode ser usado em algumas páginas enquanto o at.js 1.*x* ou mbox.js está em outras páginas?
+### O at.js 2.*x* pode ser usado em algumas páginas enquanto o at.js 1.** xis em outras páginas?
 
 Sim, o perfil do visitante é preservado nas páginas usando diferentes versões e bibliotecas. O formato de cookie é o mesmo.
 
@@ -248,7 +248,7 @@ Basicamente, o conceito global de mbox foi apresentado para [!DNL Target] inform
 
 ### O nome da mbox global no at.js não importa mais?
 
-Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target > Administração > Implementação > Editar configurações da at.js]. Essa configuração é usada pelos servidores de borda [!DNL Target] para traduzir execute > pageLoad para o nome da mbox global que aparece na interface do [!DNL Target]. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo usando o nome global da mbox. Recomendamos que você também verifique se o mesmo nome global da mbox está configurado na página [!UICONTROL Administration > Visual Experience Composer], caso ainda tenha páginas usando a at.js 1.*x* ou mbox.js, conforme mostrado nas ilustrações a seguir.
+Os clientes podem especificar um nome de mbox global por meio do [!UICONTROL Target > Administração > Implementação > Editar configurações da at.js]. Essa configuração é usada pelos servidores de borda [!DNL Target] para traduzir execute > pageLoad para o nome da mbox global que aparece na interface do [!DNL Target]. Isso permite que os clientes continuem a usar APIs do lado do servidor, o compositor baseado em formulário, scripts de perfil e criar públicos-alvo usando o nome global da mbox. Recomendamos que você também verifique se o mesmo nome global da mbox está configurado na página [!UICONTROL Administration > Visual Experience Composer], caso ainda tenha páginas usando a at.js 1.*x*, conforme mostrado nas ilustrações a seguir.
 
 ![Modificar caixa de diálogo da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
