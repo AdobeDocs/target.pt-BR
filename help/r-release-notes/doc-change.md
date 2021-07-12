@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
+source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 90%
+source-wordcount: '1611'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 11 de julho | Device Co-op da Experience Cloud | Tópico removido. Essa funcionalidade foi substituída. |
+| 12 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos:<ul><li>Webinar: Quantificar o ROI, os insights e o tempo de economia significativos da integração do Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Quebra do Café da Comunidade em P&amp;R na quarta-feira, 21 de julho de 2021, às 8 da manhã. (TFD, GMT-7).</li></ul> |
+|  | Device Co-op da Experience Cloud | Tópico removido. Essa funcionalidade foi substituída. |
 | 29 de junho | [Controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa.md) | Foram adicionadas as seguintes seções:<ul><li>Compatibilidade da biblioteca JavaScript do Target [!UICONTROL Modo de QA]</li><li>Visualizar URLs</li></ul> |
 | 24 de junho | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento do [!DNL Target Standard/Premium] versão 21.6.1 (30 de junho de 2021). |
 | 16 de junho | [[!DNL Target] notas de versão (atuais)](/help/r-release-notes/release-notes.md) | Adição de informações sobre o [!DNL Adobe Target] Python SDK versão 1.0.0. |
