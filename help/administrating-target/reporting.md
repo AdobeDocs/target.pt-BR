@@ -3,10 +3,9 @@ keywords: relatório, relatórios, relatórios, solução da experience cloud, f
 description: Use [!DNL Target] ou Adobe Analytics como fonte de relatórios, especifique o fuso horário padrão e o formato da moeda, adicione endereços IP a serem excluídos do relatório e muito mais.
 title: Como configurar relatórios no Target?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 31%
