@@ -3,9 +3,9 @@ user-guide-title: 'Manual do Adobe [!DNL Target] '
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1540'
 ht-degree: 99%
 
 ---
@@ -192,7 +192,6 @@ ht-degree: 99%
    + [Públicos-alvo da Experience Cloud](c-integrating-target-with-mac/mmp.md)
    + [Integração do Target ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integração do Target ao Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
-   + [Device Co-op da Experience Cloud](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Atividades {#activities}
    + [Visão geral das atividades](c-activities/activities.md)
    + [Tipos de atividade do Target](c-activities/target-activities-guide.md)
