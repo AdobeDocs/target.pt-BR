@@ -2,14 +2,13 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;obter ofertas;at.js; funções;função
 description: Use a função adobe.target.getOffers() e suas opções para as ofertas Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] . (at.js 2.x)
 title: Como uso a função adobe.target.getOffers() ?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,10 +22,10 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| consumerId | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementares usada para integração A4T. Esta chave é uma cadeia de caracteres exclusiva por visitante. |
-| decisioningMethod | String | Não | &quot;lado do servidor&quot;, &quot;no dispositivo&quot;, &quot;híbrido&quot; |
-| solicitação | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
-| timeout | Número | Não | tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
+| `consumerId` | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementar (SDID) usada para integração A4T. Esta chave é uma cadeia de caracteres exclusiva por visitante.<br>Ao usar  `getOffers()`, cada chamada gera uma nova SDID. Se você tiver várias solicitações de mbox na mesma página e quiser preservar a SDID (de modo que corresponda à SDID do target-global-mbox e da Adobe Analytics SDID), use o parâmetro `consumerId`.<br>Se  `getOffers()` incluir três mboxes (chamadas de &quot;mbox1&quot;, &quot;mbox2&quot; e &quot;mbox3&quot;), inclua:  `consumerId: "mbox1, mbox2, mbox3"` na  `getOffers()` chamada . |
+| `decisioningMethod` | String | Não | &quot;lado do servidor&quot;, &quot;no dispositivo&quot;, &quot;híbrido&quot; |
+| `request` | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
+| `timeout` | Número | Não | Tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
 
 ## Solicitação
 
