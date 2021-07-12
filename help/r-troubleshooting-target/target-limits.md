@@ -5,10 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Solução de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ## Chamadas de API do Target
 
-* **Limite**: 50 chamadas por minuto.
+* **Limite**: 50 chamadas por minuto para as APIs de Administração, Relatórios e atualização de perfil em massa. Esse limite não se aplica às APIs de entrega e atualização de perfil único.
 
    Se você fizer mais de 50 chamadas de API por minuto, o [!DNL Target] retornará uma mensagem de erro &quot;Status HTTP 503&quot;.
 
