@@ -3,10 +3,9 @@ keywords: visual experience composer, vec, url padrão, enhanced experience comp
 description: Saiba como configurar o Adobe [!DNL Target] Visual Experience Composer (VEC) especificando suas configurações gerais, configuração de visor móvel e seletores de CSS.
 title: Como configurar o Visual Experience Composer (VEC)?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 50%
@@ -37,7 +36,7 @@ As seguintes configurações estão disponíveis:
 
 O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la.
 
-### Ativar Enhanced Experience Composer  {#eec}
+### Ativar Enhanced Experience Composer {#eec}
 
 Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque essa opção para reverter para o [!UICONTROL Visual Experience Composer] original. A entrega de atividades nos sites não é afetada por essa escolha.
 
