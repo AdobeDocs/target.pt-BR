@@ -4,10 +4,10 @@ description: Veja uma lista de perguntas frequentes e respostas sobre atividades
 title: Onde posso encontrar perguntas e respostas sobre o [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
+source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 94%
+source-wordcount: '3129'
+ht-degree: 95%
 
 ---
 
@@ -245,21 +245,17 @@ Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualiz
 
 Um algoritmo criado no [!DNL Recommendations Classic] não é compatível com o [!DNL Recommendations Premium]. Você pode usar o algoritmo herdado no [!DNL Target Premium]; no entanto, o algoritmo pode criar problemas de sincronização ao desativar ou excluir a atividade na interface do [!DNL Target Premium]. Para obter mais informações sobre as diferenças entre as duas soluções, consulte atividades do [[!DNL Recommendations Classic] versus [!DNL Recommendations] no [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-## Como posso recomendar artigos que não tenham mais de 60 dias? {#less-than-60}
+## Como posso recomendar somente novos artigos ou vídeos? {#recommend-new-articles}
 
-Como exemplo, um cliente [!DNL Target] usou a seguinte abordagem para recomendar artigos com menos de 60 dias.
+Alguns clientes em mídia e publicação podem querer garantir que os itens recomendados incluam apenas os artigos ou vídeos mais recentes. Como exemplo, um cliente [!DNL Target] usou a seguinte abordagem para recomendar artigos com menos de 60 dias:
 
-Este cliente não usa um feed de dados. Todos os dados coletados sobre artigos vêm da camada de dados e são passados para [!DNL Target] nas exibições de página.
+1. Transmita a data de publicação do artigo, no formato YMDDD, como um atributo de entidade personalizado.
+1. Crie um script de perfil que seja a data de hoje menos 60 dias, também no formato AAAMMDD.
+1. Use um filtro de inclusão dinâmica nos critérios para que `publish date > today’s date minus 60 days`.
 
-Esse cliente usou a seguinte abordagem:
+### Transmita a data de publicação como um atributo de entidade personalizado:
 
-* A data de publicação foi passada no formato AAAMMDD como um parâmetro de entidade.
-* Criado um script de perfil que é a data de hoje menos 60 dias, também no formato AAAMMDD.
-* Usado um filtro de inclusão dinâmica nos critérios para que `publish date > today’s date minus 60 days`.
-
-Este cliente capturou os seguintes campos de dados:
-
-| Campo de dados | Exemplo |
+| Atributo da entidade | Exemplo |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -267,16 +263,14 @@ Este cliente capturou os seguintes campos de dados:
 | publishDate | 20210113 |
 | publishDateDisplay | 13 de janeiro de 2021 |
 
-Esse cliente usou a seguinte regra de inclusão usando a correspondência de atributos de perfil:
-
-![Regra de inclusão de exemplo](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-Esse cliente usou o seguinte script de perfil:
+### Configure o script de perfil:
 
 ![Exemplo de script de perfil](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### Configure a regra de inclusão:
+
+![Regra de inclusão de exemplo](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->Este exemplo também pode ser realizado com a correspondência de parâmetros e a transmissão do valor `priorDate60` como um parâmetro de mbox.
-
-
+>Este exemplo também pode ser realizado usando a correspondência de parâmetros e transmitindo o valor `priorDate60` como um parâmetro de mbox.
