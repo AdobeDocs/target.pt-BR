@@ -3,10 +3,9 @@ keywords: aumento de receita, receita, estimativa de aumento de receita, calcula
 description: Estime o aumento que você pode alcançar se cada visitante visualizar a experiência vencedora, se as tendências continuarem como durante o teste.
 title: Qual é a estimativa de aumento da receita?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 88%
