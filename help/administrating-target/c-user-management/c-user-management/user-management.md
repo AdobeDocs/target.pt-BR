@@ -3,13 +3,12 @@ keywords: adicionar usuário;gerenciar usuário;permissões do usuário
 description: Saiba como usar o Adobe Admin Console para gerenciar usuários e suas permissões no Adobe Target.
 title: Como adiciono usuários e gerencio permissões?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
