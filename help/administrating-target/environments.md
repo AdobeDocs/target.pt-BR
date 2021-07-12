@@ -3,12 +3,12 @@ keywords: ambiente, solução de problemas, práticas recomendadas, ubox, redire
 description: Saiba como usar ambientes no Adobe [!DNL Target] para organizar seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separados.
 title: O que são ambientes e como os uso?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 61%
 
 ---
 
