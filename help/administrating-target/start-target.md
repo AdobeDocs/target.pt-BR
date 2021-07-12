@@ -3,10 +3,9 @@ keywords: Administração; função de aprovador; aprovador
 description: Execute as primeiras tarefas que os administradores do Adobe [!DNL Target] devem realizar após receber o convite enviado por email para a Adobe Experience Cloud.
 title: Onde Começo A Administrar O Target?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 82%
