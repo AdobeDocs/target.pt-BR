@@ -3,10 +3,9 @@ keywords: implementar; implementação
 description: Saiba como implementar o Adobe [!DNL Target] no seu site. Defina as configurações globais, o método de implementação (AEP Web SDK ou at.js) e muito mais.
 title: Como implementar [!DNL Target] no meu site?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 2%
