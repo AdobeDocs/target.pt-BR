@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1663'
 ht-degree: 87%
 
 ---
@@ -23,6 +23,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Adição das seguintes perguntas frequentes: &quot;Como posso recomendar apenas novos artigos ou vídeos?&quot; |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Texto atualizado na seção &quot;Chamadas de API do Target&quot;. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Atualização da descrição da chave `consumerId`. |
+|  | [Personalizar uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Atualização da Etapa 1 para indicar que a alteração é salva automaticamente após a seleção de uma nova mbox. |
 |  | Device Co-op da Experience Cloud | Tópico removido. Essa funcionalidade foi substituída. |
 | 29 de junho | [Controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa.md) | Foram adicionadas as seguintes seções:<ul><li>Compatibilidade da biblioteca JavaScript do Target [!UICONTROL Modo de QA]</li><li>Visualizar URLs</li></ul> |
 | 24 de junho | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento do [!DNL Target Standard/Premium] versão 21.6.1 (30 de junho de 2021). |
