@@ -3,10 +3,9 @@ keywords: host; hosts; grupo de hosts; solução de problemas; práticas recomen
 description: Saiba como organizar seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separados no Adobe Target.
 title: O que são hosts e como os uso?
 feature: Administração e configuração
-role: Administrator
+role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 22%
@@ -59,7 +58,7 @@ Após adicionar um host na lista de [!UICONTROL Host], certifique-se de que o ho
 >
 >O ambiente [!UICONTROL Produção] não pode ser excluído, mesmo que você o renomeie. Pressupõe-se que esse ambiente seja o local em que você disponibiliza atividades ativas e testes finais. O ambiente padrão não permite que campanhas inativas sejam visualizadas.
 
-## Classifique ou pesquise a lista de Hosts {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Classificar ou pesquisar a lista de Hosts {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Para classificar a lista [!UICONTROL Hosts], clique em qualquer cabeçalho de coluna ([!UICONTROL Nome], [!UICONTROL Ambiente] ou [!UICONTROL Último pedido]) para classificar a lista em ordem crescente ou decrescente.
 
