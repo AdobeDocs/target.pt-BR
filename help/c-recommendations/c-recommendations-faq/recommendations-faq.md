@@ -4,10 +4,10 @@ description: Veja uma lista de perguntas frequentes e respostas sobre atividades
 title: Onde posso encontrar perguntas e respostas sobre o [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -98,7 +98,7 @@ O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](
 
 >[!NOTE]
 >
->Essa configuração se aplica às atividades criadas somente no Visual Experience Composer (VEC). Essa configuração não se aplica a atividades criadas no Experience Composer com base em formulário (o [!DNL Target] não tem contexto de localização).
+>Essa configuração se aplica às atividades criadas somente no [!UICONTROL Visual Experience Composer] (VEC). Essa configuração não se aplica a atividades criadas no Experience Composer com base em formulário (o [!DNL Target] não tem contexto de localização).
 
 Para acessar a configuração [!UICONTROL Critérios incompatíveis de filtro], clique em [!UICONTROL Recommendations] > [!UICONTROL Configurações]:
 
