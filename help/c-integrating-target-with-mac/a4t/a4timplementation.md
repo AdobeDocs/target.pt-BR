@@ -4,14 +4,14 @@ description: Siga as etapas necessárias para implementar as soluções Analytic
 title: Como implementar o Analytics para [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 24%
+source-wordcount: '1142'
+ht-degree: 25%
 
 ---
 
-# Analytics para implementação [!DNL Target]
+# Analytics para implementação do[!DNL Target] 
 
 Várias etapas são necessárias ao implementar [!DNL Adobe Analytics] como a fonte de relatórios para [!DNL Adobe Target] (A4T). O processo varia dependendo da implementação do A4T com o [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) ou com o at.js.
 
@@ -91,7 +91,7 @@ Para at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-O VisitorAPI.js deve ser carregado antes da at.js. Se estiver atualizando um arquivo at.js ou mbox.js existente, verifique a ordem do carregamento.
+O VisitorAPI.js deve ser carregado antes da at.js. Se estiver atualizando um arquivo at.js existente, verifique a ordem de carregamento.
 
 A configuração padrão para a integração [!DNL Target] e [!DNL Analytics], de uma perspectiva de implementação, é usar a SDID transmitida da página para unir a solicitação [!DNL Target] e [!DNL Analytics] ao back-end automaticamente.
 
