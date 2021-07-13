@@ -2,13 +2,12 @@
 keywords: dados parciais; dados parciais; A4T; discrepâncias; analytics para target; órfão; conjunto de relatórios virtual; fictício; solução de problemas; não corrigido; inflacionado; não especificado
 description: Saiba como minimizar os efeitos de contagens inflacionadas de visitas e visitantes ao usar o Analytics para [!DNL Target] (A4t). Saiba o que é "dados parciais" e como reduzi-los.
 title: Como minimizar as contagens aumentadas de visitas e visitantes no A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 48%
+source-wordcount: '1346'
+ht-degree: 47%
 
 ---
 
@@ -27,9 +26,6 @@ Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas d
 >* Adobe Analytics: appMeasurement.js versão 2.1.
 >* Adobe Target: at.js versão 0.9.6 ou posterior (exceto a versão 1.1.0, se estiver usando ofertas de redirecionamento com A4T).
 
->
->  
-A biblioteca mbox.js não é compatível com as ofertas de redirecionamento com o A4T. Sua implementação deve usar at.js.
 
 ## O que mudou? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -49,7 +45,7 @@ As causas identificadas de dados parciais incluem:
 * **Páginas lentas: as chamadas do** [!DNL Target]  estão no topo da página e as  [!DNL Analytics] chamadas do geralmente estão no fim da página. Se a página carregar lentamente, aumenta a probabilidade de um visitante sair da página após a chamada [!DNL Target] ser acionada, mas antes da chamada [!DNL Analytics]. Páginas lentas podem ser especialmente problemáticas em sites móveis onde as conexões são geralmente mais lentas.
 * **Erros de página:** se houver erros de JavaScript ou outros cenários em que cada um dos pontos de contato não é acionado (serviço de Experience Cloud ID, Target e Analytics), resultados de dados parciais.
 * **Ofertas de redirecionamento na  [!DNL Target] atividade:** para ofertas de redirecionamento em atividades que usam o A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Perguntas frequentes das Ofertas de redirecionamento - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Versões antigas das bibliotecas:** Ao longo do último ano, o Adobe fez várias melhorias nas bibliotecas do JavaScript (  [!DNL appMeasurement.js],  `at.js/mbox.js` e  `visitorAPI.js`) para garantir que os dados sejam enviados da maneira mais eficiente possível. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Versões antigas das bibliotecas:** Ao longo do último ano, o Adobe fez várias melhorias nas bibliotecas do JavaScript (  [!DNL appMeasurement.js],  `at.js` e  `visitorAPI.js`) para garantir que os dados sejam enviados da maneira mais eficiente possível. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Quais são as práticas recomendadas para reduzir os dados parciais? {#section_065C38501527451C8058278054A1818D}
 
@@ -58,7 +54,7 @@ Revise as seguintes etapas para reduzir a coleta de dados parcial:
 | Etapa | Tarefa |
 | --- | --- |
 | ![Etapa 1](assets/step1_icon.png) | Certifique-se de que o conjunto de relatórios selecionado em [!DNL Target] seja o mesmo que o conjunto nas páginas em que a atividade é apresentada. |
-| ![Etapa 2](assets/step2_icon.png) | Verifique se as bibliotecas visitorAPI.js, appMeasurement.js, at.js / mbox.js estão em versões compatíveis com A4T. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
+| ![Etapa 2](assets/step2_icon.png) | Certifique-se de que as bibliotecas visitorAPI.js, appMeasurement.js e at.js estão em versões compatíveis com A4T. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Etapa 3](assets/step3_icon.png) | Certifique-se de que a SDID está sendo definida em todas as chamadas [!DNL Target] e [!DNL Analytics] deixando a página e que elas são correspondentes.<br/>Use um analisador de rede ou ferramenta de depuração para garantir que o  `mboxMCSDID` parâmetro em  [!DNL Target] chamadas corresponda ao parâmetro SDID na  [!DNL Analytics] chamada. |
 | ![Etapa 4](assets/step4_icon.png) | Confirme que as bibliotecas de implementação são carregadas na ordem correta nos seus sites. Para obter mais informações, consulte [Análise para implementação do Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
