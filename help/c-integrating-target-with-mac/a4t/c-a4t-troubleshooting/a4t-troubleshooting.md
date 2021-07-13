@@ -2,13 +2,12 @@
 keywords: servidor de rastreamento de análises; A4T; segmentos de análise; conjuntos de relatórios; dados incorretos; órfão; sdid; VisitorAPI.js; mboxMCSDID; fictício; não especificado
 description: Explore problemas comuns que os clientes encontraram ao usar o Analytics para [!DNL Target] (A4T).
 title: Como soluciono problemas da integração do Analytics e do  [!DNL Target] (A4T)
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 42%
+source-wordcount: '992'
+ht-degree: 39%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 42%
 
 Este tópico aborda alguns problemas comuns encontrados ao usar [!DNL Adobe Analytics] como a fonte de relatórios para [!DNL Adobe Target] (A4T).
 
-## As atividades não mostram dados no Analytics, mas são listadas como &quot;não especificadas&quot;.{#unspecified}
+## As atividades não mostram dados no Analytics, mas são listadas como &quot;não especificadas&quot;. {#unspecified}
 
 Há vários motivos pelos quais dados exibidos como &quot;não especificados&quot; podem ocorrer:
 
@@ -50,7 +49,7 @@ Essa linha não terá nenhuma informação [!DNL Target] associada (por exemplo,
 
 Se você escolher uma métrica específica de [!DNL Target] no relatório, essa linha [!UICONTROL &quot;Não especificado&quot;] não será exibida. A única maneira de evitar tê-lo no relatório é definir uma chamada [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
 
-## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.   {#section_4BE374E573D44FB7918611699B74F58E}
+## Meus dados do Analytics mostram uma contagem aumentada de visitas ou visitantes desde o início do A4T.  {#section_4BE374E573D44FB7918611699B74F58E}
 
 Para obter mais informações, consulte [Redução de visitas aumentadas e contagem de visitantes em A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -58,15 +57,15 @@ Para obter mais informações, consulte [Redução de visitas aumentadas e conta
 
 Os detalhes de incentivo e confiança não estão disponíveis no Analytics. No entanto, eles estão disponíveis nos relatórios do Target.
 
-## As atividades não aparecem nos relatórios do Analytics.   {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## As atividades não aparecem nos relatórios do Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 As atividades do A4T exigem que um servidor de rastreamento de análise seja especificado. Consulte  [Usar um ](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) servidor de rastreamento do Analytics para certificar-se de que seu servidor de rastreamento do Analytics está configurado corretamente.
 
 >[!NOTE]
 >
->Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca mbox.js ou at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+>Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento para [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
-## Meus segmentos do Analytics não aparecem no Target.   {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Meus segmentos do Analytics não aparecem no Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Verifique se você tem as permissões certas antes de começar a criar atividades do A4T:
 
@@ -74,7 +73,7 @@ Verifique se você tem as permissões certas antes de começar a criar atividade
 * Ser membro de um ou mais grupos do Experience Cloud que têm acesso ao Analytics e ao Target.
 * Verifique se o Analytics e Target são exibidos na seção Marketing Apps da navegação à esquerda.
 
-## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios.   {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Essas métricas que aparecem como positivas nos relatórios são um problema conhecido.
 
@@ -88,7 +87,7 @@ Se você estiver usando várias fontes de relatórios, os conjuntos de relatóri
 
 Se você ainda não vir o conjunto de relatórios que está procurando, entre em contato com o [Atendimento ao cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para ativá-lo.
 
-## Não vejo tantos dados nos relatórios quanto esperado.   {#section_75002584FA63456D8D9086172925DD8D}
+## Não vejo tantos dados nos relatórios quanto esperado.  {#section_75002584FA63456D8D9086172925DD8D}
 
 Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics]. 
 
@@ -101,6 +100,6 @@ Se você não tiver instalado o depurador, consulte [Introdução ao Adobe Exper
 
 ![Depurador](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-Se não houver uma ID de dados complementar na chamada do [!DNL Target], confirme se o arquivo [!DNL VisitorAPI.js] foi carregado antes da [!DNL at.js] ou da [!DNL mbox.js]. Se não houver uma ID de dados complementar na chamada do [!DNL Analytics], confirme se a chamada do [!DNL Target] é acionada antes da chamada do [!DNL Analytics].
+Se não houver uma ID de dados complementar na chamada [!DNL Target] , confirme se o arquivo [!DNL VisitorAPI.js] foi carregado antes de [!DNL at.js]. Se não houver uma ID de dados complementar na chamada do [!DNL Analytics], confirme se a chamada do [!DNL Target] é acionada antes da chamada do [!DNL Analytics].
 
 Para obter mais informações, consulte [Implementação do Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) ou entre em contato com o [Atendimento ao cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
