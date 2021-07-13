@@ -5,9 +5,9 @@ title: Quais são as perguntas e respostas comuns sobre a at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2609'
 ht-degree: 75%
 
 ---
@@ -26,7 +26,7 @@ O diagrama a seguir ilustra o desempenho do carregamento de página usando a mbo
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-Como ilustrado acima, usando a mbox.js, o conteúdo da página não inicia o carregamento até que a chamada do [!DNL Target] seja concluída. Usando a at.js, o conteúdo da página inicia o carregamento ao iniciar a chamada do [!DNL Target] e não espera até que ela seja concluída.
+Como ilustrado acima, usando a mbox.js, o conteúdo da página não começou a ser carregado até que a chamada [!DNL Target] fosse concluída. Usando a at.js, o conteúdo da página inicia o carregamento ao iniciar a chamada do [!DNL Target] e não espera até que ela seja concluída.
 
 ## Qual é o impacto da at.js e da mbox.js nos tempos de carregamento de página? {#page-load}
 
@@ -131,7 +131,7 @@ O arquivo da at.js tem aproximadamente 109 KB quando baixado. No entanto, como a
 
 As implementações da at.js usam uma única biblioteca ([!DNL at.js]), enquanto as implementações de mbox.js na verdade usam duas bibliotecas, ([!DNL mbox.js] e [!DNL target.js]). Por isso, uma comparação mais justa seria de at.js versus mbox.js *e* `target.js`. Comparação entre os tamanhos gzipped das duas versões, a at.js versão 1.2 tem 34 KB e a mbox.js versão 63 tem 26.2 KB. ``
 
-A at.js é maior, pois realiza muito mais análise de DOM em comparação à mbox.js. Isso é necessário porque a at.js recebe dados &quot;brutos&quot; na resposta JSON e precisa entender isso. A mbox.js usa `document.write()` e todas as análises são realizadas pelo navegador.
+A at.js é maior, pois realiza muito mais análise de DOM em comparação à mbox.js. Isso é necessário porque a at.js recebe dados &quot;brutos&quot; na resposta JSON e precisa entender isso. mbox.js usado `document.write()` e toda a análise foi feita pelo navegador.
 
 Embora o tamanho do arquivo seja maior, nossos testes indicam que as páginas carregam mais rápido com a at.js versus a mbox.js. Além disso, a at.js é superior do ponto de vista de segurança, pois não carrega arquivos adicionais dinamicamente ou usa `document.write`.
 
@@ -144,10 +144,6 @@ A at.js atualmente usa partes do jQuery e, portanto, você vê a notificação d
 Não, se o domínio cruzado estiver definido como somente x e o Safari tiver cookies de terceiros desativados, o [!DNL mbox.js] e o at.js definirão um cookie desativado e nenhuma solicitação de mbox será executada para o domínio desse cliente específico.
 
 Para auxiliar os visitantes do Safari, um Domínio X melhor seria &quot;desativado&quot; (define apenas um cookie primário) ou &quot;ativado&quot; (define apenas um cookie primário no Safari, enquanto define cookies primários e de terceiros em outros navegadores).
-
-## Posso executar a at.js e a mbox.js paralelamente? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-Não na mesma página. No entanto, ao implementar e testar [!DNL at.js], você pode executar [!DNL at.js] em algumas páginas e [!DNL mbox.js] em outras, até que tenha validado [!DNL at.js].
 
 ## Posso usar o [!DNL Target] Visual Experience Composer (VEC) em meus aplicativos de página única? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
