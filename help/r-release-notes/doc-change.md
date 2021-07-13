@@ -4,16 +4,28 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso exibir as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 87%
+source-wordcount: '1803'
+ht-degree: 83%
 
 ---
 
 # Alterações de documentação
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 de junho de 2021)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 12 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos:<ul><li>Webinar: Quantificar o ROI, os insights e o tempo de economia significativos da integração do Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Quebra do Café da Comunidade em P&amp;R na quarta-feira, 21 de julho de 2021, às 8 da manhã. (TFD, GMT-7).</li></ul> |
+|  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Adição das seguintes perguntas frequentes: &quot;Como posso recomendar apenas novos artigos ou vídeos?&quot; |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Texto atualizado na seção &quot;Chamadas de API do Target&quot;. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Atualização da descrição da chave `consumerId`. |
+|  | [Personalizar uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Atualização da Etapa 1 para indicar que a alteração é salva automaticamente após a seleção de uma nova mbox. |
+|  | Device Co-op da Experience Cloud | Tópico removido. Essa funcionalidade foi substituída. |
+| 30 de junho | [Notas de versão](/help/r-release-notes/release-notes.md): 21.6.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.5.1 (8 de junho de 2021)
 
