@@ -2,13 +2,12 @@
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; provisionamento; provisionamento; adobe Experience Cloud
 description: Encontre respostas para perguntas frequentes sobre o provisionamento do Analytics para atividades do  [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] .
 title: Onde posso encontrar informações sobre o Provisionamento inicial do A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 66%
+source-wordcount: '473'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +19,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre o provisi
 
 Para implementar um caso de uso básico de várias páginas do A4T:
 
-* Implemente as bibliotecas do JavaScript para o Target (at.js ou mbox.js) e o Analytics na landing page/URL da atividade. A implementação de ambas as soluções une os dados do Target com os do Analytics de cada visitante. Esses dados permanecem no Analytics até que expirem e a validade padrão é definida como 90 dias.
+* Implemente as bibliotecas do JavaScript para Target e Analytics no URL/página de aterrissagem da atividade. A implementação de ambas as soluções une os dados do Target com os do Analytics de cada visitante. Esses dados permanecem no Analytics até que expirem e a validade padrão é definida como 90 dias.
 
 * Para as páginas restantes no site, onde apenas as métricas do Analytics devem ser rastreadas, implemente o Analytics nessas páginas. Não é necessário implementar o Target nessas páginas. As métricas do Analytics capturadas nessas páginas se unem automaticamente à atividade do Target para a qual o usuário foi qualificado inicialmente, com base nas informações do Target anexadas a esse visitante na etapa anterior.
 
@@ -32,7 +31,7 @@ Depois de ser membro de um ou mais grupos de Experience Cloud com acesso ao Anal
 
 Se ocorrerem problemas de provisionamento, verifique se o A4T está provisionado corretamente.
 
-## Por que meus conjuntos de relatórios não estão carregando?   {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## Por que meus conjuntos de relatórios não estão carregando?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 Verifique o seguinte se algum destes problemas ocorrer:
 
@@ -40,11 +39,11 @@ Verifique o seguinte se algum destes problemas ocorrer:
 * Alguns clientes usam vários logons de empresa do Analytics na mesma empresa do Experience Cloud. Se você usar vários logons, verifique se a última empresa do Analytics na qual você fez logon é aquela vinculada à conta do Target para a integração.
 * Se você fez login no Experience Cloud por várias horas, às vezes a sessão do Analytics pode expirar. Saia e faça login novamente para tentar de novo.
 
-## Por que não vejo as opções do Analytics no Target?   {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Por que não vejo as opções do Analytics no Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; Acima de. A causa raiz deste problema é a mesma.
 
-## Por que não vejo os relatórios do A4T no Analytics?   {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Por que não vejo os relatórios do A4T no Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.
 
