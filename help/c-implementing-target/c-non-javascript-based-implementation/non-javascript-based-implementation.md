@@ -5,11 +5,10 @@ title: Como implementar [!DNL Target] para Email?
 feature: Implementar Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 77%
+source-wordcount: '435'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +18,7 @@ Informações sobre a implementação do Target em cenários que não utilizam J
 
 É possível rastrear as visitas aos anúncios e a outros conteúdos externos. Também é possível identificar a entrada e saída do mesmo usuário em seu site e fornecer uma experiência web consistente. Utilizando um único URL, a AdBox permite testes sem necessidade de JavaScript ou [!DNL at.js] ou [!DNL mbox.js].
 
-Uma AdBox é útil para sites que não têm [!DNL at.js] ou [!DNL mbox.js], como afiliadas. Se sua atividade requer anúncios dinâmicos (por exemplo, você deseja exibir um produto deixado no carrinho de compras em um anúncio), não é possível utilizar uma AdBox.
+Uma AdBox é útil para sites que não têm [!DNL at.js], como afiliadas. Se sua atividade requer anúncios dinâmicos (por exemplo, você deseja exibir um produto deixado no carrinho de compras em um anúncio), não é possível utilizar uma AdBox.
 
 Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade. A tabela abaixo compara uma AdBox e um Redirector e suas utilizações:
 
@@ -30,7 +29,7 @@ Anúncios AdBox e Redirecionador podem ser usados com qualquer tipo de atividade
 
 ## Práticas recomendadas de segurança {#security}
 
-Observe que com o Redirecionador, você pode ser exposto a um risco de Vulnerabilidade de Redirecionamento Aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios padrão de URL de redirecionamento. O Target usa hosts para lista de permissões domínios aos quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar Lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Target](/help/administrating-target/hosts.md#allowlist) em *Hosts*.
+Observe que com o Redirecionador, você pode ser exposto a um risco de Vulnerabilidade de Redirecionamento Aberto. Para evitar o uso não autorizado de links Redirecionadores por terceiros, recomendamos que você use &quot;hosts autorizados&quot; para lista de permissões os domínios padrão de URL de redirecionamento. O Target usa hosts para a lista de permissões de domínios aos quais você deseja permitir redirecionamentos. Para obter mais informações, consulte [Criar lista de permissões que especificam hosts autorizados a enviar chamadas de mbox para o Target](/help/administrating-target/hosts.md#allowlist) em *Hosts*.
 
 ## Limitações {#section_38F559DCF1324271926608BCD4AB1227}
 
