@@ -5,10 +5,10 @@ title: Como uso a função adobe.target.getOffers() ?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 85%
+source-wordcount: '1291'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| `consumerId` | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementar (SDID) usada para integração A4T. Esta chave é uma cadeia de caracteres exclusiva por visitante.<br>Ao usar  `getOffers()`, cada chamada gera uma nova SDID. Se você tiver várias solicitações de mbox na mesma página e quiser preservar a SDID (de modo que corresponda à SDID do target-global-mbox e da Adobe Analytics SDID), use o parâmetro `consumerId`.<br>Se  `getOffers()` incluir três mboxes (chamadas de &quot;mbox1&quot;, &quot;mbox2&quot; e &quot;mbox3&quot;), inclua:  `consumerId: "mbox1, mbox2, mbox3"` na  `getOffers()` chamada . |
+| `consumerId` | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementar (SDID) usada para integração A4T. Esta chave (consumerId) não é exclusiva.<br>Ao usar  `getOffers()`, cada chamada gera uma nova SDID. Se você tiver várias solicitações de mbox na mesma página e quiser preservar a SDID (de modo que corresponda à SDID do target-global-mbox e da Adobe Analytics SDID), use o parâmetro `consumerId`.<br>Se  `getOffers()` incluir três mboxes (chamadas de &quot;mbox1&quot;, &quot;mbox2&quot; e &quot;mbox3&quot;), inclua:  `consumerId: "mbox1, mbox2, mbox3"` na  `getOffers()` chamada . |
 | `decisioningMethod` | String | Não | &quot;lado do servidor&quot;, &quot;no dispositivo&quot;, &quot;híbrido&quot; |
 | `request` | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
 | `timeout` | Número | Não | Tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
