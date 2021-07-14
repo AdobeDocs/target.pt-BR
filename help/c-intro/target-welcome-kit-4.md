@@ -4,10 +4,10 @@ description: Leia dicas do nosso painel de especialistas sobre como usar o  [!DN
 title: Onde posso encontrar dicas e truques para usar o Target?
 feature: Visão geral
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: ht
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -137,7 +137,7 @@ Comparar o desempenho de conversão de diferentes públicos-alvo em diferentes t
 
 Por exemplo, um cliente de serviços financeiros realizou uma campanha promocional para um cartão de crédito que envolveu incentivos para eventos esportivos profissionais. Por meio de multivariate testing fatorial parcial de suas páginas de aterrissagem, o cliente foi capaz de equilibrar de maneira ideal as mensagens sobre benefícios de cartões de crédito com incentivos esportivos para direcionar públicos distintos de sua base de clientes. Essa abordagem permitia que a empresa aproveitasse e maximizasse a conversão durante uma janela com detecção de hora relacionada a um evento esportivo importante.
 
-## Dica 17: torne os testes úteis apenas iniciando-os se você souber que pode aproveitar os dados.
+## Dica 17: Tome os testes úteis apenas inicializando-os se você souber que pode agir com os dados.
 
 Um teste é inútil se você não souber como aproveitar os dados. Isso inclui conhecer sua principal métrica de sucesso, o que precisa acontecer para impulsionar um vencedor, como você seguirá os resultados dos testes e o que fará com as informações do público-alvo. Para um teste rápido e bem-sucedido, é vital que todos os grupos envolvidos no teste (desenvolvedores, criadores, especialistas em testes e outros) estejam cientes de seu papel antes do lançamento dele.
 
