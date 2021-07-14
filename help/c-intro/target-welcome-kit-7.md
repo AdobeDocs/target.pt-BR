@@ -1,13 +1,13 @@
 ---
-keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
+keywords: kit de boas-vindas;kit de boas-vindas do target;introdução;introdução do
 description: Vamos começar com sua primeira atividade no Adobe  [!DNL Target]  para que você possa obter o ROI sobre seu investimento.
 title: Preciso criar minha primeira atividade no Target. Por onde começar?
 feature: Visão geral
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Se sua atividade exigir um assistente de um designer, um desenvolvedor da Web ou
 
 Você precisa de um determinado número de visitantes para ser colocado na população de teste para tirar uma conclusão estatisticamente significativa do teste. Pense nisso, se apenas duas pessoas participarem do seu teste, você terá confiança nos resultados?
 
-O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. O [calculador de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) da Adobe ajuda a determinar o período para executar um teste com base na confiança necessária em seus resultados. Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
+O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. O [calculador de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) da Adobe ajuda a determinar o período para executar um teste com base na confiança necessária em seus resultados. Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
 
 ### Qual é a importância dessa atividade?
 
