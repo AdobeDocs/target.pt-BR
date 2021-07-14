@@ -4,10 +4,10 @@ description: Vamos começar com sua primeira atividade no Adobe  [!DNL Target]  
 title: Preciso criar minha primeira atividade no Target. Por onde começar?
 feature: Visão geral
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: ht
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
