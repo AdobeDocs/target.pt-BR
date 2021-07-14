@@ -1,13 +1,13 @@
 ---
 keywords: Notas de versão; novos recursos; versões; atualizações; atualização; versão; aprimoramento; aprimoramentos; correções; correções de bugs; atualizações
-description: Saiba mais sobre os novos recursos, aprimoramentos e correções incluídos na versão atual do  [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
+description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na versão atual do  [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 70%
+ht-degree: 89%
 
 ---
 
@@ -34,17 +34,17 @@ Esta versão inclui os novos recursos e melhorias a seguir. Os números de ediç
 
 ## Python SDK 1.0.0 (16 de junho de 2021)
 
-O novo [!DNL Adobe Target] Python SDK com recursos de decisão no dispositivo agora está disponível. Essa adição mais recente reforça o conjunto [!DNL Target] de SDKs do lado do servidor. Esses SDKS ajudam a se integrar com [!DNL Target] e agilizar o tempo de implantação, no idioma de sua escolha. As integrações do lado do servidor estão se tornando uma escolha popular, visto que o mercado está mudando para um mundo sem cookies, no qual os dados primários são valiosos. Os SDKs do Target estão disponíveis nas linguagens de programação mais populares do mercado (Python, Java, JavaScript, C# / .Net).
+Está disponível agora o novo [!DNL Adobe Target] Python SDK com recursos de decisão no dispositivo. Essa mais nova adição reforça o conjunto de SDKs do lado do servidor do [!DNL Target]. Esses SDKs ajudam na integração com o [!DNL Target] e agilizam a atribuição de valor, no idioma de sua escolha. As integrações do lado do servidor estão se tornando uma escolha popular, visto que o mercado está mudando para um mundo sem cookies, no qual os dados próprios são valiosos. Os SDKs do Target estão disponíveis nas linguagens de programação mais populares do mercado (Python, Java, JavaScript, C# e .Net).
 
-Para obter mais informações, consulte a [documentação do SDK do Python](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) no [Guia dos SDKs do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
+Para obter mais informações, consulte a [documentação do Python SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) no [Guia de SDKs do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
 
-## ![ Selo do SDK da Web da Adobe Experience Platform](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 (1º de junho de 2021)
+## ![Selo do SDK da Web da Adobe Experience Platform](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versão 2.5.0 (1º de junho de 2021)
 
 Esta versão do [!DNL Platform Web SDK] inclui suporte para o seguinte:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da Platform agora oferece suporte a [!DNL Target] redirecionamentos ao usar o [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obter mais informações, consulte [Implementação do Analytics for [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da Platform agora oferece suporte a [!DNL Target] redirecionamentos ao usar o [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obter mais informações, consulte [Implementação do Analytics for. [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) |
 
 ## Notas de versão adicionais e detalhes da versão
 
