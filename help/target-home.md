@@ -1,7 +1,7 @@
 ---
 keywords: Target, página inicial, tópicos populares, adobe target, padrão, premium, documentação do target, documentação do adobe target
 title: Onde posso encontrar a documentação do [!DNL Target] ?
-description: Saiba como usar o Adobe [!DNL Target] para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
+description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Visão geral
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
@@ -50,7 +50,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Profissionais de marketing {#marketers}
 
-- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
+- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de.[!DNL Target]
 - [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em atividades direcionadas.
 - [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 - [Recommendations](c-recommendations/recommendations.md): explica como as atividades do [!DNL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
@@ -66,7 +66,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Administradores do Target e da Adobe Experience Cloud {#admins}
 
-- [Administer Target](administrating-target/administrating-target.md): explica como adicionar usuários e configurar sua conta [!DNL Target].
+- [Administer Target](administrating-target/administrating-target.md): explica como adicionar usuários e configurar sua conta.[!DNL Target]
 
 ## Analistas {#analysts}
 
@@ -75,7 +75,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Engenheiros de controle de qualidade {#qa}
 
-- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
+- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de.[!DNL Target]
 
 ## Recursos adicionais {#additional}
 
