@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK; sdk web aep; sdk aep; otimização de mecanismo de pesquisa; otimização de mecanismo de pesquisa; seo; clusters de borda, clusters centrais; at.js; mbox.js;
-description: Saiba como Adobe [!DNL Target] works, including information about the [!DNL Target] Bibliotecas de JavaScript (at.js e Experience Platform Web SDK), Adobe data centers e testes de SEO.
+description: Saiba mais sobre Adobe  [!DNL Target] works, including information about the [!DNL Target]  bibliotecas JavaScript (at.js e Experience Platform Web SDK), centros de dados da Adobe e testes de SEO.
 title: Como o  [!DNL Target]  funciona?
 feature: Visão geral
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 95%
 
 Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL Adobe Experience Platform Web SDK] e as bibliotecas do JavaScript (at.js e mbox.js). Este artigo também apresenta os vários tipos de atividades que você pode criar usando o [!DNL Target]. Você também pode saber mais sobre a rede de borda do [!DNL Target], a Otimização do mecanismo de pesquisa (SEO) e como o [!DNL Target] detecta bots.
 
-## [!DNL Target]SDKs da Web da plataforma do e bibliotecas de JavaScript  {#libraries}
+## [!DNL Target] SDKs da Web da plataforma do e bibliotecas de JavaScript {#libraries}
 
 [!DNL Target] integra-se a sites usando as bibliotecas do [!DNL Experience Platform Web SDK] ou do JavaScript:
 
-* **Adobe Experience Platform Web SDK:** o  [Experience Platform Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK é uma nova biblioteca JavaScript do lado do cliente. O Experience Platform Web SDK permite que os clientes de [!DNL Adobe Experience Cloud] interajam com os vários serviços no [!DNL Experience Cloud] (incluindo [!DNL Target]) por meio da [!DNL Experience Platform] Edge Network. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **Adobe Experience Platform Web SDK**: o [Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) é uma nova biblioteca JavaScript do lado do cliente. O Experience Platform Web SDK permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da [!DNL Experience Platform] Edge Network. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
 * **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. O Adobe recomenda que todos os clientes que usam at.js atualizem suas implementações para a [versão mais recente da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
-* **mbox.js:** A biblioteca mbox.js é a biblioteca de implementação legada do [!DNL Target]. A biblioteca mbox.js não é mais suportada após 31 de março de 2021.
+* **mbox.js:** A biblioteca mbox.js é a biblioteca de implementação legada do [!DNL Target]. Não ha mais suporte para a biblioteca mbox.js após 31 de março de 2021.
 
 Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, considere usar o [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=pt-BR) para implementar o [!DNL Target].
 
-Os seguintes recursos contêm informações detalhadas para ajudar a implementar o SDK da Web do Experience Platform ou a at.js:
+Os seguintes recursos contêm informações detalhadas para ajudar a implementar o Experience Platform Web SDK ou a at.js:
 
 * [Extensão do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=pt-BR#configure-the-aep-web-sdk-extension)
 * [Implementar o  [!DNL Target]  usando o Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -51,7 +51,7 @@ Consulte [Criar um teste A/B](/help/c-activities/t-test-ab/t-test-create-ab/test
 
 ### [!UICONTROL Alocação automática]
 
-[!UICONTROL A alocação automática identifica um vencedor entre duas ou mais experiências. ] [!UICONTROL A alocação automática] realoca automaticamente mais tráfego para a experiência vencedora, o que ajuda a aumentar as conversões enquanto o teste continua a ser executado e aprendido.
+[!UICONTROL A alocação automática] identifica um vencedor entre duas ou mais experiências. [!UICONTROL A alocação automática] realoca automaticamente mais tráfego para a experiência vencedora, o que ajuda a aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
 Consulte [[!UICONTROL Alocação automática]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
 
@@ -103,7 +103,7 @@ A solução [!DNL Target] é hospedada em data centers próprios e alugados pela
 
 Os locais do cluster central contêm um centro de coleta de dados e um centro de processamento de dados. Os locais de cluster de bordam contêm apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
-Os dados de atividade do site do cliente são coletados pelo mais próximo de sete clusters de borda. Esses dados são direcionados para o destino de cluster central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Singapura) para processamento. Os dados do perfil do visitante são armazenados no cluster de borda mais próximo do visitante do site. Os locais dos clusters de borda incluem os locais do Cluster Central e Virgínia, Mumbai, Sydney e Tóquio.
+Os dados de atividade do site do cliente são coletados pelo mais próximo de sete clusters de borda. Esses dados são direcionados para o destino de cluster central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Singapura) para processamento. Os dados do perfil do visitante são armazenados no cluster de borda mais próximo do visitante do site. Os locais dos clusters de borda incluem os locais centrais de cluster, além de Virgínia, Mumbai, Sydney, e Tóquio.
 
 Em vez de responder a todas as solicitações de direcionamento de um único local, as solicitações são processadas pelo cluster de borda mais próximo do visitante. Esse processo ajuda a reduzir o impacto do tempo de deslocamento da Internet/rede.
 
@@ -148,7 +148,7 @@ A Adobe protege a experiência do usuário por otimizar e salvaguardar o desempe
 * A Adobe emprega uma abordagem em múltiplas camadas para proteger seus aplicativos, fornecendo o maior nível de disponibilidade e confiabilidade para os clientes.
 * O [!DNL Target] Consulting oferece assistência na implementação e suporte contínuo ao produto.
 
-## Teste compatível com a Otimização do mecanismo de pesquisa (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Teste compatível com a Otimização do mecanismo de pesquisa (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
@@ -175,7 +175,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    O Adobe continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, a Adobe está confiante de que a implementação adequada das tags canônicas diminui o risco associado a essa abordagem.
 
-* **Execute experimentos somente conforme necessário**: acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. [!DNL Target] [O fornece práticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) para determinar quando seu teste atingiu este ponto. A Adobe recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Execute experimentos somente conforme necessário**: acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. [!DNL Target] [O fornece práticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) para determinar quando seu teste atingiu este ponto. A Adobe recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
    A utilização da plataforma [!DNL Target] para &quot;publicar&quot; testes vencedores não é recomendada como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários em 100% das vezes, essa abordagem poderá ser usada enquanto o processo de codificação rígida do teste vencedor for concluído.
 
@@ -208,6 +208,6 @@ Especificamente para o tráfego de bot conhecido, o [!DNL Target] não:
 * Cria ou recupera um perfil do visitante
 * Registra os atributos de perfil ou executa scripts de perfil
 * Procura segmentos do Adobe Audience Manager (AAM) (se aplicável)
-* Use o tráfego de bots na modelagem e veiculação de conteúdo personalizado para atividades do Recommendations, Auto-Target, Automated Personalization ou [!UICONTROL  Auto-Allocate]
+* Use o tráfego de bots na modelagem e veiculação de conteúdo personalizado para atividades do Recommendations, Auto-Target, Automated Personalization ou [!UICONTROL Auto-Allocate]
 * Registra uma visita de atividade para relatório
 * Registra dados a serem enviados para a plataforma da [!DNL Adobe Experience Cloud]
