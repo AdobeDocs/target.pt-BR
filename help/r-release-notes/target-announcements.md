@@ -7,17 +7,17 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 80%
+ht-degree: 88%
 
 ---
 
 # Anúncios e eventos do Target
 
-Anúncios e informações sobre eventos futuros, incluindo [!DNL Adobe Target] sessões do Skill Builder, chats de desenvolvedor, webinars e [!DNL Target] sessões do Coffee Break.
+Anúncios e informações sobre eventos futuros, incluindo sessões do criador de habilidades, chats de desenvolvedor e webinários do [!DNL Adobe Target], além de sessões de Coffee break do [!DNL Target].
 
-## Reconhecimento para [!DNL Adobe Target]
+## Reconhecimento do [!DNL Adobe Target]
 
-[!DNL Adobe Target]Recentemente, o foi reconhecido pela Forrester e pela Gartner como líder de mercado.
+[!DNL Adobe Target] Recentemente, o foi reconhecido pela Forrester e pela Gartner como líder de mercado.
 
 | Serviço de pesquisa | Detalhes |
 | --- | --- |
@@ -46,7 +46,7 @@ David Son, [!DNL Target] Gerente Sênior de Produtos responderá às suas pergun
 
 ## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
 
-Mais do que nunca, profissionais de marketing, proprietários de produtos e desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e em todos os outros lugares onde eles se conectam com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não servem.
+Mais do que nunca, os profissionais de marketing, os proprietários de produtos e os desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e quaisquer outros lugares em que possam se conectar com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não servem.
 
 Neste webinário gravado, os especialistas em produtos do Adobe Target discutem como mover as decisões de otimização de experiência crítica no dispositivo para execução local com latência zero pode abrir portas para novos casos de uso interessantes e, ao mesmo tempo, melhorar o desempenho do site para seus clientes.
 
@@ -68,7 +68,7 @@ Participe deste webinário com a Adobe e o HSBC para aprender:
 
 *Artigo da McKinsey: &quot;[A recuperação do COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, maio de 2020
 
-## Adobe [!DNL Target] Skill Builder: bate-papo com o desenvolvedor, migre da mbox.js do Adobe [!DNL Target]para a at.js {#skill-builder}
+## Adobe [!DNL Target] Skill Builder: bate-papo com o desenvolvedor, migre da mbox.js do Adobe [!DNL Target] para a at.js {#skill-builder}
 
 Com a descontinuação da mbox.js em 31 de março de 2021, David Son, gerente de produto do Adobe Target, recentemente participou de um bate-papo com desenvolvedores para discutir os benefícios da migração da mbox.js para a at.js.
 
