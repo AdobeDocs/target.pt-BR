@@ -1,13 +1,13 @@
 ---
-keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
+keywords: kit de boas-vindas;kit de boas-vindas do target;introdução;introdução do
 description: Leia dicas do nosso painel de especialistas sobre como usar o  [!DNL Target]  como parte de seus esforços de teste e personalização.
 title: Onde posso encontrar dicas e truques para usar o Target?
 feature: Visão geral
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Muitos profissionais de marketing lançam programas de otimização para segment
 * Qual é a taxa de conversão da página?
 * Por quanto tempo você antecipa a necessidade de executar o teste antes de poder considerá-lo como concluído com confiança?
 
-**Dica útil**: use a [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) do Target para ajudar a determinar o tamanho da amostra necessário para um teste bem-sucedido.
+**Dica útil**: use a [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) do Target para ajudar a determinar o tamanho da amostra necessário para um teste bem-sucedido.
 
 ## Dica 12: projete testes mais simples para garantir que você possa criá-los e implementá-los.
 
