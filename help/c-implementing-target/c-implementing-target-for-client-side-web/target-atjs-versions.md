@@ -4,10 +4,10 @@ description: Veja os detalhes sobre as alterações em cada versão da bibliotec
 title: O que está incluído em cada versão da at.js?
 feature: at.js
 role: Developer
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '4132'
-ht-degree: 89%
+source-wordcount: '4216'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,16 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >A equipe do Target é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no catálogo [!DNL Launch] como atualizações. Para obter mais informações, consulte [Atualização de extensão](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) no *Guia do Usuário do Experience Platform Launch*.
+
+## at.js 2.6.0 (16 de julho de 2021)
+
+* Adição do atributo seguro aos cookies sempre que as configurações de at.js `secureOnly` estiverem definidas como `true`.
+* Os tokens de resposta agora estão disponíveis ao usar `triggerView()`.
+* Correção de um problema relacionado ao evento `CONTENT_RENDERING_NO_OFFERS` . Agora, esse evento é acionado corretamente sempre que não há conteúdo retornado de [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) os detalhes das métricas de clique são retornados corretamente ao usar  `prefetch` solicitações do .
+* A geração de UUID não usa mais `Math.random()`, mas depende de `window.crypto`.
+* A expiração do cookie `sessionId` é estendida corretamente em cada chamada de rede.
+* A inicialização do cache de visualização do [!UICONTROL Aplicativo de página única] (SPA) agora é manipulada corretamente e atende às configurações `viewsEnable`.
 
 ## at.js 2.5.0 (13 de maio de 2021)
 
