@@ -2,13 +2,12 @@
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; classificações; classificação; importador de classificações; post-tnt-action
 description: Encontre respostas para perguntas sobre classificações e uso do Analytics para  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
 title: Onde posso encontrar informações sobre classificações com o A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 59%
+source-wordcount: '297'
+ht-degree: 51%
 
 ---
 
@@ -30,5 +29,6 @@ O formato da string da variável TNT é `activityID:experienceID:targettype|even
 * Evento = 2 representa impressão de uma atividade.
 * Evento = 3-32766 representa a id da métrica de sucesso do Analytics.
 * Evento = 32767 representa conversão de uma atividade.
+* O Evento -1 ou 65535 representa que o usuário é removido da atividade ou experiência. Essa situação geralmente ocorre quando o visitante é convertido. O visitante é liberado da experiência e agora está disponível para se qualificar para qualquer outra experiência.
 
-É possível importar o arquivo de classificação regularmente da interface do usuário usando uma [importação do navegador](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) ou uma [importação do FTP](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Você também pode se envolver com os Serviços de engenharia para obter o arquivo como uma tabela de pesquisa junto com uma alimentação de dados de sequência de cliques.
+É possível importar o arquivo de classificação regularmente da interface do usuário usando uma [importação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) ou uma [importação do FTP](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). Você também pode se envolver com os Serviços de engenharia para obter o arquivo como uma tabela de pesquisa junto com uma alimentação de dados de sequência de cliques.
