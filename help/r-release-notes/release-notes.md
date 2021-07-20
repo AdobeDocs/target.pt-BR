@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '653'
+ht-degree: 82%
 
 ---
 
@@ -40,7 +40,6 @@ Esta versão inclui os novos recursos e melhorias a seguir. Os números de ediç
 | Recurso | Detalhes |
 | --- | --- |
 | Analytics for Target (A4T) | Clicando no link &quot;[!UICONTROL Exibir no Analytics]&quot; na página [!UICONTROL Relatórios] de uma atividade que usa [!DNL Analytics] como fonte de relatórios (A4T), [!DNL Analysis Workspace] agora abre. Anteriormente, o link abria os relatórios [!DNL Analytics]. (TGT-36959) |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Os seguintes aprimoramentos se aplicam aos algoritmos de popularidade do [!DNL Recommendations]:<ul><li>Uma nova opção de &quot;janela de lookback&quot; (intervalo de dados) de seis horas está disponível para todos os algoritmos de popularidade (Mais visualizados/Mais vendidos) quando [!DNL Target] é a fonte de dados comportamentais. (Essa janela de lookback *não* está disponível quando o [!DNL Adobe Analytics] é a fonte de dados comportamentais.)</li><li>Quando selecionados, os seguintes algoritmos são executados aproximadamente a cada três horas (em vez de a cada 12 horas).<ul><li>Mais visualizados</li><li>Mais comprados</li><li>Mais visualizados por categoria</li><li>Mais comprados por categoria</li><li>Mais visualizados pelo atributo personalizado (usando o recurso groupBy)</li><li>Mais comprados pelo atributo personalizado (usando o recurso groupBy)</li></ul></ul>Data de lançamento a ser anunciada. (TOP-1086) |
 
 ## Python SDK 1.0.0 (16 de junho de 2021)
 
