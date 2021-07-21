@@ -1,14 +1,13 @@
 ---
 keywords: gerenciamento de relacionamento com o cliente, serviço de registro do cliente, crs, crm, mbox3rdpartyid, atributos do cliente, direcionamento, csv, crm, pessoas da adobe experience cloud
-description: Saiba como usar os dados de clientes de empresas de um banco de dados de gerenciamento de relacionamento com o cliente (CRM) para direcionamento de conteúdo no Adobe Target.
+description: Saiba como usar os dados de clientes de empresas de um banco de dados de gerenciamento de relacionamento com o cliente (CRM) para direcionamento de conteúdo em [!DNL Adobe Target].
 title: O que são atributos do cliente e como usá-los?
 feature: Públicos-alvo
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 40%
+source-wordcount: '1496'
+ht-degree: 38%
 
 ---
 
@@ -20,7 +19,7 @@ Os dados de clientes corporativos coletados por meio de várias fontes e armazen
 
 ## Visão geral dos atributos do cliente {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Os ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) atributos do cliente no  [!DNL People] serviço fazem parte da  [!DNL Adobe Experience Cloud] e fornecem às empresas uma ferramenta para enviar os dados do cliente para a  [!DNL Experience Cloud] plataforma.
+[Os ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) atributos do cliente no  [!DNL People] serviço fazem parte da  [!DNL Adobe Experience Cloud] e fornecem às empresas uma ferramenta para enviar os dados do cliente para a  [!DNL Experience Cloud] plataforma.
 
 Os dados incorporados à [!DNL Experience Cloud] estão disponíveis para todos os fluxos de trabalho da [!DNL Experience Cloud]. [!DNL Target] O usa esses dados para direcionar o cliente recorrente com base nos atributos. O [!DNL Adobe Analytics] consome esses atributos e eles podem ser usados para análise e segmentação.
 
@@ -34,9 +33,9 @@ Considere as seguintes informações ao trabalhar com os atributos do cliente e 
    >
    >[!DNL at.js] (qualquer versão) ou  [!DNL mbox.js] versão 58 ou posterior é necessária.
 
-* [!DNL Adobe] O não garante que 100% dos dados do atributo do cliente (perfil do visitante) dos bancos de dados do CRM sejam integrados ao  [!DNL Experience Cloud] e, portanto, estejam disponíveis para uso no direcionamento no  [!DNL Target]. Em nosso design atual, há a possibilidade de uma pequena porcentagem de dados (até 0,1% de grandes lotes de produção) não ser integrada.
-* A duração dos dados de atributos do cliente importados de [!DNL Experience Cloud] para [!DNL Target] depende da duração do perfil do visitante, que, por padrão, é de 14 dias. Para obter mais informações, consulte  [Duração do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)
-* Se os parâmetros `vst.*` forem a única coisa que identifica o visitante, o perfil &quot;autenticado&quot; existente não será buscado, desde que `authState` seja UNAUTHENTICATED (0). O perfil será exibido apenas se `authState` for alterado para AUTENTICADO (1).
+* [!DNL Adobe] O não garante que 100% dos dados do atributo do cliente (perfil do visitante) dos bancos de dados do CRM sejam integrados ao  [!DNL Experience Cloud] e, portanto, estejam disponíveis para uso no direcionamento no  [!DNL Target]. No design atual, há a possibilidade de uma pequena porcentagem de dados (até 0,1% de grandes lotes de produção) não ser integrada.
+* A duração dos dados de atributos do cliente importados de [!DNL Experience Cloud] para [!DNL Target] depende da duração do perfil do visitante, que, por padrão, é de 14 dias. Para obter mais informações, consulte [Duração do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
+* Se os parâmetros `vst.*` forem a única coisa que identifica o visitante, o perfil &quot;autenticado&quot; existente não será buscado, desde que `authState` seja UNAUTHENTICATED (0). O perfil entra em ação somente se `authState` for alterado para AUTENTICADO (1).
 
    Por exemplo, se o parâmetro `vst.myDataSource.id` for usado para identificar o visitante (onde `myDataSource` é o alias da fonte de dados) e não houver MCID ou ID de terceiros, o uso do parâmetro `vst.myDataSource.authState=0` não buscará o perfil, que pode ter sido criado por meio de uma importação dos Atributos do cliente. Se o comportamento desejado for buscar o perfil autenticado, `vst.myDataSource.authState` deverá ter o valor de 1 (AUTENTICADO).
 
@@ -80,12 +79,12 @@ As instruções detalhadas para concluir cada uma das seguintes tarefas podem se
    >
    >O nome da fonte de dados e o nome do atributo não podem conter ponto.
 
-   Seu arquivo de dados deve estar em conformidade com os requisitos de upload do arquivo e não deve exceder 100 MB. Se o arquivo for muito grande ou se você tiver dados que precisarão ser carregados de forma recorrente, poderá FTP seus arquivos.
+   Seu arquivo de dados deve estar em conformidade com os requisitos de upload do arquivo e não deve exceder 100 MB. Se o arquivo for muito grande ou se você tiver dados que devem ser carregados de forma recorrente, poderá FTP seus arquivos.
 
    * **HTTPS:** você pode arrastar e soltar o arquivo de dados .csv ou clicar em  **** Procurar para fazer upload do seu sistema de arquivos.
    * **FTP:** Clique no link do FTP para  [fazer upload do arquivo por meio do FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). O primeiro passo é fornecer uma senha para o servidor de FTP fornecido pela Adobe. Especifique a senha e clique em **[!UICONTROL Concluído]**.
 
-   Agora transfira o arquivo CSV/ZIP/GZIP para o servidor FTP. Após a transferência ser bem-sucedida, crie um novo arquivo com o mesmo nome e a extensão .fin . Transfira este arquivo vazio para o servidor. Isso indica um Fim da transferência e o [!DNL Experience Cloud] começa a processar o arquivo de dados.
+   Agora transfira o arquivo CSV/ZIP/GZIP para o servidor FTP. Após a transferência ser bem-sucedida, crie um arquivo com o mesmo nome e uma extensão `.fin`. Transfira este arquivo vazio para o servidor. Isso indica um Fim da transferência e o [!DNL Experience Cloud] começa a processar o arquivo de dados.
 
 1. Validar o esquema.
 
@@ -141,7 +140,7 @@ Passe `mbox3rdPartyId` como um parâmetro para a mbox global dentro do método `
 
 ### Uso do serviço de Experience Cloud ID.
 
-Se você estiver usando o serviço de Experience Cloud ID, será necessário definir uma ID do cliente e um Estado de autenticação para usar os atributos do cliente no direcionamento. Para obter mais informações, consulte [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) na *Experience Cloud ID Service Help*.
+Se você estiver usando o serviço de Experience Cloud ID, deverá definir uma ID do cliente e um Estado de autenticação para usar os atributos do cliente no direcionamento. Para obter mais informações, consulte [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) na *Experience Cloud ID Service Help*.
 
 Para obter mais informações sobre o uso de atributos do cliente no [!DNL Target], consulte os recursos a seguir:
 
