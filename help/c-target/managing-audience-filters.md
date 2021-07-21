@@ -1,22 +1,21 @@
 ---
 keywords: Direcionamento, filtro de público-alvo, públicos-alvo, filtro
-description: Saiba como usar filtros de público-alvo no Adobe [!DNL Target] para visualizar dados de grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
+description: Saiba como usar filtros de público-alvo no [!DNL Adobe Target] para exibir dados de visitantes que compartilham características.
 title: Posso usar os filtros de público-alvo para os relatórios?
 feature: Públicos-alvo
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 79%
+source-wordcount: '484'
+ht-degree: 74%
 
 ---
 
 # Filtros de público-alvo para relatórios
 
-Os filtros de público-alvo (ou públicos-alvo) são grupos de visitantes que compartilham uma característica ou um conjunto de características específicas.
+Os filtros de público-alvo (ou públicos-alvo) em [!DNL Adobe Target] são grupos de visitantes que compartilham uma característica específica ou um conjunto de características.
 
-Use filtros de público-alvo para especificar os públicos-alvo usados nos relatórios. É possível selecionar um público-alvo e comparar seu desempenho com o tráfego geral. Pode ser interessante saber se os seus vencedores foram várias outras fontes de tráfego em comparação com o tráfego em geral. Isso ajuda você a descobrir públicos-alvo que podem ser potencialmente direcionados para conteúdos diferentes. Em muitos casos, um vencedor não é adequado para todo o tráfego.
+Use filtros de público-alvo para especificar os públicos-alvo usados nos relatórios. É possível selecionar um público-alvo e comparar seu desempenho com o tráfego geral. Pode ser interessante saber se os seus vencedores foram várias outras fontes de tráfego em comparação com o tráfego em geral. Os filtros de público-alvo ajudam você a descobrir públicos que devem ser potencialmente direcionados para conteúdo diferente. Em muitos casos, um vencedor não é adequado para todo o tráfego.
 
 Por exemplo, visitantes que chegam à sua página a partir de um certo mecanismo de busca podem ser um público-alvo. Outros públicos-alvo podem ter como base sexo, idade, local, status de registro, histórico de compras ou qualquer outro detalhe que você coletar sobre os seus visitantes. Utilize os filtros de público-alvo para dividir o tráfego de visitantes e para comparar o desempenho da experiência de cada segmento de tráfego.
 
@@ -27,7 +26,7 @@ Ao planejar o uso de filtros de público-alvo para uma atividade, considere as s
 * **Comece com dois a quatro públicos-alvo.** Concentre-se nas informações básicas como fonte de tráfego.
 * **Renomeie os públicos-alvo, conforme necessário.** É possível renomear um público-alvo sem afetar os dados para fazer com que o nome do público-alvo seja mais significativo para os resultados coletados, mesmo que a atividade esteja ativa.
 * **Insira valores precisos.** Os valores de filtros de público-alvo distinguem maiúsculas de minúsculas. Por exemplo, se você estiver utilizando um público-alvo que filtre por cidades, você deve utilizar uma condição &quot;OU&quot; para incluir possíveis variações de digitação e maiúsculas de minúsculas como &quot;Vienna,&quot; &quot;vienna,&quot; &quot;viena&quot; e &quot;Viena&quot;.
-* **Os públicos-alvo criados na lista de segmentos são reutilizáveis.** Os públicos-alvo criados como parte de uma atividade não podem ser reutilizados.
+* **[!UICONTROL Os públicos-alvo criados na lista de segmentos são reutilizáveis.]** Os públicos-alvo criados como parte de uma atividade não podem ser reutilizados.
 
 As seções a seguir fornecem mais informações sobre a configuração e o relatório sobre públicos-alvo:
 
