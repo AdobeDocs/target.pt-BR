@@ -4,23 +4,22 @@ description: Saiba como usar a mbox3rdPartyId, que é a ID de visitante de sua o
 title: Como uso a sincronização de perfil em tempo real para mbox3rdPartyId?
 feature: Públicos-alvo
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 76%
+source-wordcount: '542'
+ht-degree: 61%
 
 ---
 
 # Sincronização de perfil em tempo real para mbox3rdPartyId
 
-A mbox3rdPartyId é a ID de visitante de sua empresa, como a ID de associação do programa de fidelidade da empresa.
+A mbox3rdPartyId em [!DNL Adobe Target] é a ID de visitante de sua empresa, como a ID de associação do programa de fidelidade de sua empresa.
 
 Quando um visitante faz logon no site de uma empresa, a empresa normalmente cria uma ID associada à conta, ao cartão de fidelidade, ao número de associado ou a outros identificadores aplicáveis do visitante dessa empresa.
 
 Quando um visitante acessa uma página em que o [!DNL Target] está ativado, esse visitante recebe uma PCID do [!DNL Target]. Se o visitante fizer logon e a implementação transmitir a mbox3rdPartyId para o [!DNL Target], o [!DNL Target] conecta a mbox3rdPartyId desse visitante com a PCID do [!DNL Target].
 
-A cada intervalo de 3 a 5 minutos, as atualizações são sincronizadas com o banco de dados. Quando o visitante faz logoff, os dados mesclados substituem os dados anteriores associados à mbox3rdPartyId, criando um registro mais completo das ações desse visitante. Se o mesmo atributo existe em ambas as IDs, por exemplo, a PCID apresenta category=hats e a mbox3rdPartyId apresenta category=skis, ou se o visitante viu a experiência A antes de fazer logon, mas a experiência B está armazenada na mbox3rdPartyId, o atributo armazenado na mbox3rdPartyId substitui o atributo da PCID. Se o visitante estava em uma atividade ou experiência antes de fazer logon, mas uma atividade e uma experiência diferentes estão armazenadas na mbox3rdPartyId, esse visitante é colocado na atividade e na experiência da mbox3rdPartyId depois de fazer logon.
+A cada intervalo de 3 a 5 minutos, as atualizações são sincronizadas com o banco de dados. Quando o visitante faz logoff, os dados mesclados substituem os dados anteriores associados à mbox3rdPartyId, criando um registro completo das ações desse visitante. Se o mesmo atributo existe em ambas as IDs, por exemplo, a PCID apresenta category=hats e a mbox3rdPartyId apresenta category=skis, ou se o visitante viu a experiência A antes de fazer logon, mas a experiência B está armazenada na mbox3rdPartyId, o atributo armazenado na mbox3rdPartyId substitui o atributo da PCID. Se o visitante estava em uma atividade ou experiência antes de fazer logon, mas uma atividade e uma experiência diferentes estão armazenadas na mbox3rdPartyId, esse visitante é colocado na atividade e na experiência da mbox3rdPartyId depois de fazer logon.
 
 | PCID (sem logon) | mbox3rdPartyId (com logon) | Mesclado e salvo em mbox3rdPartyId |
 |---|---|---|
@@ -33,14 +32,14 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
 
 >[!NOTE]
 >
->Se você quiser distinguir entre usuários autenticados (conectados) e usuários não autenticados, use o Adobe Experience Cloud Identity Service (ECID) em vez de mbox3rdPartyID. Depois que um usuário é associado a mbox3rdPartyID, ele permanece associado ao usuário mesmo depois de sair.
+>Se você deseja distinguir entre usuários autenticados (conectados) versus usuários não autenticados, use o [!DNL Adobe Experience Cloud Identity Service] (ECID) em vez de mbox3rdPartyID. Depois que um usuário é associado a mbox3rdPartyID, ele permanece associado ao usuário mesmo depois de sair.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] As metas do não serão rastreadas nos casos em que a  [!DNL Adobe Experience Cloud] ID (EDID) do for alterada (por exemplo, o visitante muda os dispositivos), mesmo que o  [!DNL Target] perfil do possa ser mesclado com base na mbox3rdPartyId e ainda ter informações de atividade. Para visitantes identificados com o mesmo EDID (aqueles que acessam a página com o mesmo dispositivo), [!DNL Analytics for Target] (A4T) deve funcionar conforme esperado.
+>[!DNL Adobe Analytics] As metas do não são rastreadas nos casos em que a  [!DNL Adobe Experience Cloud] ID (EDID) do é alterada (por exemplo, o visitante muda os dispositivos), mesmo que o  [!DNL Target] perfil do possa ser mesclado com base na mbox3rdPartyId e ainda ter informações de atividade. Para visitantes identificados com o mesmo EDID (aqueles que acessam a página com o mesmo dispositivo), [!DNL Analytics for Target] (A4T) deve funcionar conforme esperado.
 
 ## Considerações {#considerations}
 
-Se a página contiver várias mboxes e somente algumas usam a 3rdPartyID, o Target não terá um perfil do visitante/contexto separado para cada solicitação do visitante. O contexto da 3rdPartyID tem prioridade sobre o contexto da PCID. Basta que uma mbox transmita a 3rdPartyId para que o contexto tenha prioridade sobre a PCID.
+Se a página contiver várias mboxes e apenas algumas usam a 3rdPartyID, [!DNL Target] não terá um perfil/contexto de visitante separado para cada solicitação do visitante. O contexto da 3rdPartyID tem prioridade sobre o contexto da PCID. Basta que uma mbox transmita a 3rdPartyId para que o contexto tenha prioridade sobre a PCID.
 
 Por exemplo, suponha que um visitante acesse uma página antes de fazer logon e visualizar uma experiência. A mbox global não usa a 3rdPartyID. Depois de fazer logon, o visitante visualiza uma das três experiências com mboxes secundárias, sendo que algumas usam a 3rdPartyID. O visitante visita várias páginas no site e usa o botão Voltar para retornar à página principal acessada antes de fazer logon e visualizar uma experiência diferente. Neste cenário, a mbox global não transmitiu a 3rdPartyID, mas uma ou mais mboxes secundárias transmitiram. A 3rdPartyID teve prioridade sobre a PCID.
