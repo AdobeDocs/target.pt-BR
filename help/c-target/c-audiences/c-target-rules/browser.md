@@ -1,14 +1,13 @@
 ---
 keywords: opções do navegador, tipo, tipo do navegador, idioma do navegador, idioma, versão, versão do navegador
-description: Saiba como criar públicos no Adobe [!DNL Target] para direcionar usuários que usam um navegador específico ou opções específicas de navegador quando visitam sua página.
-title: Posso [!DNL Target] Visitantes com base no tipo de navegador?
+description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcionar usuários que usam um navegador específico ou opções específicas de navegador quando visitam sua página.
+title: Posso definir metas para visitantes com base no tipo de navegador?
 feature: Públicos-alvo
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 95%
+source-wordcount: '669'
+ht-degree: 76%
 
 ---
 
@@ -18,43 +17,44 @@ Você pode direcionar os usuários que utilizam um determinado navegador ou dete
 
 Estes navegadores podem ser direcionados:
 
-* Chrome
-* Microsoft Edge
+* Google Chrome
 * Firefox
-* Opera
 * Safari
-* iPad
 * Internet Explorer
+* Microsoft Edge
+* Opera
+* iPad 
 * iPhone|
 
 Há duas formas de direcionar navegadores:
 
-**Público-alvo previamente criado:** use o público-alvo previamente criado se quiser direcionar somente visitantes que usam um navegador específico para visitar seu site. Por exemplo, se estiver oferecendo uma extensão do Chrome, você só direcionará usuários do Chrome.
+* **Público-alvo previamente criado:** use o público-alvo previamente criado se quiser direcionar somente visitantes que usam um navegador específico para visitar seu site. Por exemplo, se estiver oferecendo uma extensão do Chrome, você só direcionará usuários do Chrome.
 
-1. Ao configurar sua atividade, selecione o navegador na lista suspensa de público-alvo.
+   1. Ao configurar sua atividade, selecione o navegador na lista suspensa.
 
-   Essa opção direciona a atividade somente a visitantes que usam um navegador especificado.
+      Essa opção direciona a atividade somente a visitantes que usam um navegador especificado.
 
-**Regra do público-alvo personalizado do navegador:** um público-alvo personalizado permite direcionar vários navegadores ou configurar regras ou exclusões para navegadores específicos, versões de navegadores ou idiomas de navegadores. Isso proporciona flexibilidade significativa no direcionamento de uma campanha com base em atributos de navegador.
+      ![Direcionar usuários do Chrome](/help/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
-1. Dê um nome ao público-alvo.
-1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL Procurar]**.
+* **Regra do público-alvo personalizado do navegador:** um público-alvo personalizado permite direcionar vários navegadores ou configurar regras ou exclusões para navegadores específicos, versões de navegadores ou idiomas de navegadores. Essa funcionalidade oferece flexibilidade significativa ao direcionar uma atividade com base em atributos de navegador.
 
-   ![Regras > Navegador](assets/target_browser.png)
+   1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
+   1. Nomeie o público-alvo e adicione uma descrição opcional.
+   1. Arraste e solte **[!UICONTROL Browser]** no painel do construtor de público-alvo.
 
-1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
+      ![Regras > Navegador](assets/target_browser.png)
 
-   * **Tipo:** direcione ou exclua um determinado navegador. Consulte [Tipo](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Idioma:** direcione ou exclua um determinado navegador configurado para usar idiomas específicos. Consulte [Idioma](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Versão:** direcione ou exclua determinadas versões de um navegador. Consulte [Versão](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
-1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e configure regras adicionais para o público-alvo.
-1. Clique em **[!UICONTROL Salvar]**.
+      * **Tipo:** direcione ou exclua um determinado navegador. Consulte [Tipo](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+      * **Idioma:** direcione ou exclua determinados navegadores configurados para usar idiomas específicos. Consulte [Idioma](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+      * **Versão:** direcione ou exclua determinadas versões de um navegador. Consulte [Versão](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. (Opcional) Configure regras adicionais para o público-alvo.
+   1. Clique em **[!UICONTROL Concluído]**.
 
-O exemplo a seguir mostra um público-alvo que inclui usuários das versões 10 ou 11 do Internet Explorer:
+   O exemplo a seguir mostra um público-alvo que inclui usuários do Microsoft Edge nas versões 91 ou 92:
 
-![Target IE 10 e 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+   ![Target Edge 91 ou 92](assets/target_edge.png)
 
 ## Opções de navegador {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -71,7 +71,7 @@ Selecione **[!UICONTROL Tipo]** e escolha “é igual” ou “não é igual”.
 
 Selecione um ou mais navegadores. Várias opções estão conectadas a um OR.
 
-### Idioma   {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Direcione ou exclua determinados navegadores configurados para usar idiomas específicos.
 
@@ -98,7 +98,7 @@ Os seguintes idiomas de navegador podem ser direcionados ou excluídos:
 * Espanhol
 * Chinês tradicional
 
-### Versão   {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versão  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Direcione ou exclua determinadas versões de um navegador.
 
@@ -113,13 +113,11 @@ Selecione **[!UICONTROL Versão]** e escolha um operador:
 * É menor que
 * É menor que ou igual a
 
-Digite o número da versão.
-
-Somente versões principais podem ser inseridas no campo de texto. A versão especificada inclui todas as versões intermediárias. Por exemplo, se você especificar a versão 10, os visitantes que têm a versão 10.1 serão incluídos.
+Digite o número da versão. Somente versões principais podem ser inseridas no campo de texto. A versão especificada inclui todas as versões intermediárias. Por exemplo, se você especificar a versão 10, os visitantes da versão 10.1 também serão incluídos.
 
 Várias opções estão conectadas a um OR.
 
-## Vídeo de treinamento: Criação de públicos-alvo  ![Selo do tutorial](/help/assets/tutorial.png)
+## Vídeo de treinamento: Criação de públicos-alvo ![Selo do tutorial](/help/assets/tutorial.png)
 
 Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
