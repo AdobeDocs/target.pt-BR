@@ -4,9 +4,9 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 49%
 
 ---
@@ -19,6 +19,13 @@ Problemas de exibição e outros problemas às vezes ocorrem no [!DNL Adobe Targ
 
 Esteja ciente das alterações que afetam o VEC e o EEC ao usar as seguintes versões do Chrome:
 
+>[!NOTE]
+>
+>A seguinte alteração afeta todas as três atualizações descritas abaixo:
+>
+> * *não* poderá usar o VEC (com ou sem a extensão VEC Helper instalada e ativada) nas páginas protegidas por senha de seus sites. Os cookies de logon do site são considerados um cookie de terceiros e são enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site já tem o parâmetro SameSite definido como &quot;none&quot;.
+
+
 **Chrome 94 (21 de setembro de 2021)**: Com as alterações iminentes planejadas para a versão do Chrome 94 (21 de setembro de 2021), a seguinte alteração afeta todos os usuários com as versões do navegador Chrome 94+:
 
 * O sinalizador de linha de comando `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` será removido.
@@ -29,7 +36,6 @@ Esteja ciente das alterações que afetam o VEC e o EEC ao usar as seguintes ver
 
 **Chrome 80 (agosto de 2020)**: Com as alterações implementadas em agosto de 2020, todos os usuários com as versões do navegador Chrome 80+:
 
-* *não* poderá usar o VEC (com ou sem a extensão VEC Helper instalada e ativada) nas páginas protegidas por senha de seus sites. Os cookies de logon do site são considerados um cookie de terceiros e são enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site já tem o parâmetro SameSite definido como &quot;none&quot;.
 * *não* poderá baixar as bibliotecas [!DNL Target] ao editar uma atividade (quando elas ainda não estiverem no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio de Adobe seguro e é rejeitada como não autenticada.
 * O EEC *not* funcionará para todos os usuários porque não é possível definir o atributo SameSite para cookies em `adobemc.com domain`. Sem esse atributo, o navegador rejeita esses cookies, causando a falha do EEC.
 
