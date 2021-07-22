@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard; perguntas frequentes; perguntas frequentes; gabarito; gabarito
+keywords: Target Standard;perguntas frequentes;perguntas frequentes;gabarito;gabarito
 description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Visão geral
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2755'
 ht-degree: 100%
 
