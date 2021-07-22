@@ -1,5 +1,5 @@
 ---
-keywords: anúncios; skill builder; bate-papo do desenvolvedor; coffee break; eventos; forrester; gartner, webinário
+keywords: anúncios;skill builder;bate-papo do desenvolvedor;coffee break;eventos;forrester;gartner, webinário
 description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] , inclusive sessões do Skill Builder, bate-papos com desenvolvedores e gerentes de produtos, webinários e muito mais.
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Notas de versão
@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,18 +24,18 @@ Anúncios e informações sobre eventos futuros, incluindo sessões do criador d
 | Forrester | **Adobe indicada como líder no relatório Forrester Wave para plataformas de otimização de experiência.**<br> A Adobe foi indicada como a única líder no relatório do 4º trimestre de 2020 do Forrester Wave: Experience Optimization Platforms por sua oferta nesta categoria, o Adobe Target Premium. O Adobe recebeu a pontuação mais alta de todos os fornecedores participantes nas atuais categorias de oferta e presença de mercado, bem como nos critérios de recomendações e experiência da plataforma. O Target Premium também recebeu a pontuação mais alta possível na inovação da técnica de otimização de experiência e nos critérios de serviços de suporte. O relatório baseia-se em uma avaliação de oito provedores de plataforma de otimização de experiência em 22 critérios.<br>Leia sobre isso no [Blog da Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe novamente indicada como líder no Quadrante Mágico do Gartner para mecanismos de personalização.**<br> A Adobe foi mais uma vez indicada como líder no terceiro Relatório anual do Quadrante Mágico do Gartner para mecanismos de personalização de 2020. O Quadrante Mágico do Gartner para mecanismos de personalização avaliou os fornecedores em 15 critérios que se dividem em duas categorias: integridade da visão e capacidade de execução.<br>[Leia sobre isso no blog da Adobe](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## [!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas
+## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade
 
-* **quarta-feira, 21 de julho de 2021**
-* **8 h (PDT, UTC -7)**
-* **[Clique aqui para obter mais informações e se registrar](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **21 de julho de 2021**
+* **8h (PDT, UTC -7)**
+* **[Clique aqui para obter mais informações e para se inscrever](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
 
-David Son, [!DNL Target] Gerente Sênior de Produtos responderá às suas perguntas relacionadas às suas áreas de conhecimento:
+David Son, [!DNL Target] Gerente de Produto Sênior, responderá às perguntas relacionadas a suas áreas de conhecimento:
 
 * [!DNL Adobe Experience Platform Web SDK]
 * Decisão no dispositivo
 * at.js
-* Mobile
+* Móvel
 * APIs do Target
 
 ## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
