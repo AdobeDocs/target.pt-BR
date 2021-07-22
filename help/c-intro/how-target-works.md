@@ -1,5 +1,5 @@
 ---
-keywords: Adobe Experience Platform Web SDK; sdk web aep; sdk aep; otimização de mecanismo de pesquisa; otimização de mecanismo de pesquisa; seo; clusters de borda, clusters centrais; at.js; mbox.js;
+keywords: Adobe Experience Platform Web SDK;sdk web aep;sdk aep;otimização de mecanismo de pesquisa;otimização de mecanismo de pesquisa;seo;clusters de borda, clusters centrais;at.js;mbox.js;
 description: Saiba mais sobre Adobe  [!DNL Target] works, including information about the [!DNL Target]  bibliotecas JavaScript (at.js e Experience Platform Web SDK), centros de dados da Adobe e testes de SEO.
 title: Como o  [!DNL Target]  funciona?
 feature: Visão geral
