@@ -1,13 +1,13 @@
 ---
-keywords: depurar mbox; solucionar problemas de mbox; problemas de mbox; oscilação; mboxDebug; mboxTrace; token; depurador; prioridade; prioridade de atividade; Depurador da Adobe Experience Cloud; mbox orderConfirmPage; mbox de compra do SiteCatalyst; principal venda; vendedor principal
+keywords: depurar mbox;solucionar problemas de mbox;problemas de mbox;oscilação;mboxDebug;mboxTrace;token;depurador;prioridade;prioridade de atividade;Depurador da Adobe Experience Cloud;mbox orderConfirmPage;mbox de compra do SiteCatalyst;principal venda;vendedor principal
 description: Encontre sugestões para ajudar a solucionar problemas se a página não exibir o conteúdo esperado. Saiba como depurar a entrega de conteúdo no Adobe Target.
 title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Atividades
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Os seguintes parâmetros estão disponíveis:
 
 | Opções de mboxTrace | Saída |
 |--- |--- |
-| `?mboxTrace=console` | Imprime no log do console como objetos.<br>Para at.js, em vez de abrir uma nova janela do navegador ou exibir uma saída no console como era em mbox.js, você precisará inspecionar a solicitação de rede e procurar em Visualização (Chrome) ou Resposta (Firefox). |
+| `?mboxTrace=console` | Imprime no log do console como objetos.<br>Para at.js, em vez de abrir uma nova janela do navegador ou exibir uma saída no console como em mbox.js, você precisará inspecionar a solicitação de rede e procurar em Visualização (Chrome) ou Resposta (Firefox). |
 | `?mboxTrace=json` | Imprime no log do console como sequência de caracteres JSON literal |
 | `?mboxTrace=window` | Imprime em uma janela pop-up como uma sequência de caracteres JSON |
 | `?mboxTrace=disable` | Desativa o rastreamento do modo de sessão |
