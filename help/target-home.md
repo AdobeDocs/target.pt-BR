@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 - [Notas de versão do Target](r-release-notes/release-notes.md): contém informações sobre a versão atual, informações sobre problemas conhecidos que afetam o [!DNL Target], uma lista de alterações importantes nesta documentação e um arquivo das notas de versão anteriores.
 - [Introdução ao Target](c-intro/intro.md): explica os conceitos principais da solução do [!DNL Target].
-- Integrar o Target à Adobe Experience Cloud: Explica como integrar [!DNL Target] a outras soluções [!DNL Experience Cloud], incluindo [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md) e [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md).
+- Integrar o Target à Adobe Experience Cloud: explica como integrar o [!DNL Target] a outras soluções da [!DNL Experience Cloud], como o [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md) e [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md).
 - [Tutoriais do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR): fornece tutoriais e vídeos para ajudar você a aproveitar o Target ao máximo.
 - [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md): fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros e assim por diante) que afetam as atividades e outros elementos no [!DNL Target].
 - [Target para aplicativos móveis](c-target-mobile-app/target-mobile-app.md): explica como o [!DNL Target] pode ser usado para otimização e personalização de aplicativos móveis.
