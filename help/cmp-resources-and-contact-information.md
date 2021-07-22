@@ -5,7 +5,7 @@ title: Onde posso encontrar recursos e informações de contato para o Target?
 feature: Notas de versão, Visão geral
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
 ht-degree: 100%
 
@@ -127,4 +127,4 @@ Agradecemos suas sugestões ou comentários sobre esta solução. Ideias e suges
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/br/products/eula/third_party.html](https://www.adobe.com/products/eula/third_party/).
