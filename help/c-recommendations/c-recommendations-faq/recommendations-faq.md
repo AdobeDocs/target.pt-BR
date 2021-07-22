@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Veja uma lista de perguntas frequentes e respostas sobre atividades do Adobe [!DNL Target] Recommendations.
-title: Onde posso encontrar perguntas e respostas sobre o [!DNL Target] Recommendations?
+title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -247,15 +247,15 @@ Um algoritmo criado no [!DNL Recommendations Classic] não é compatível com o 
 
 ## Como posso recomendar somente novos artigos ou vídeos? {#recommend-new-articles}
 
-Alguns clientes em mídia e publicação desejam garantir que os itens recomendados incluam apenas os artigos ou vídeos mais recentes. Como exemplo, um cliente [!DNL Target] usou a seguinte abordagem para recomendar artigos com menos de 60 dias:
+Alguns clientes de mídia e publicação querem garantir que os itens recomendados incluam apenas os artigos ou vídeos mais recentes. Como exemplo, um cliente do [!DNL Target] usou a seguinte abordagem para recomendar artigos com menos de 60 dias:
 
-1. Transmita a data de publicação do artigo, no formato YMDDD, como um atributo de entidade personalizado.
-1. Crie um script de perfil que seja a data de hoje menos 60 dias, também no formato AAAMMDD.
+1. Transmita a data de publicação do artigo, no formato AAAAMMDD, como um atributo de entidade personalizado.
+1. Crie um script de perfil que seja a data de hoje menos 60 dias, também no formato AAAAMMDD.
 1. Use um filtro de inclusão dinâmica nos critérios para que `publish date > today’s date minus 60 days`.
 
 ### Transmita a data de publicação como um atributo de entidade personalizado:
 
-| Atributo da entidade | Exemplo |
+| Atributo de entidade | Exemplo |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -269,7 +269,7 @@ Alguns clientes em mídia e publicação desejam garantir que os itens recomenda
 
 ### Configure a regra de inclusão:
 
-![Regra de inclusão de exemplo](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+![Exemplo de regra de inclusão](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
 >[!NOTE]
 >
