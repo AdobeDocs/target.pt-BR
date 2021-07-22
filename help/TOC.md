@@ -4,9 +4,9 @@ breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
 source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -282,7 +282,7 @@ ht-degree: 99%
          + [Parâmetros personalizados](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [Geografia](c-target/c-audiences/c-target-rules/geo.md)
          + [Rede](c-target/c-audiences/c-target-rules/network.md)
-         + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
+         + [Móvel](c-target/c-audiences/c-target-rules/mobile.md)
          + [Sistema operacional](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Páginas do site](c-target/c-audiences/c-target-rules/site-pages.md)
          + [Target Biblioteca](c-target/c-audiences/c-target-rules/target-library.md)
