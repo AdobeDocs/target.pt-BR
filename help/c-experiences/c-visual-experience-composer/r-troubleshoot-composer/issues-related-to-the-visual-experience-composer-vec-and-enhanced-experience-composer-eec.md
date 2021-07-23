@@ -4,9 +4,9 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 49%
 
 ---
@@ -23,7 +23,7 @@ Esteja ciente das alterações que afetam o VEC e o EEC ao usar as seguintes ver
 >
 >A seguinte alteração afeta todas as três atualizações descritas abaixo:
 >
-> * *não* poderá usar o VEC (com ou sem a extensão VEC Helper instalada e ativada) nas páginas protegidas por senha de seus sites. Os cookies de logon do site são considerados um cookie de terceiros e são enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site já tem o parâmetro SameSite definido como &quot;none&quot;.
+> * *não* poderá usar o VEC (com ou sem a extensão VEC Helper instalada e ativada) nas páginas protegidas por senha dos sites. Os cookies de logon do site são considerados um cookie de terceiros e são enviados com a solicitação de logon. A única exceção é quando o cookie de logon do site já tem o parâmetro SameSite definido como `none` e `Secure.`
 
 
 **Chrome 94 (21 de setembro de 2021)**: Com as alterações iminentes planejadas para a versão do Chrome 94 (21 de setembro de 2021), a seguinte alteração afeta todos os usuários com as versões do navegador Chrome 94+:
@@ -36,7 +36,7 @@ Esteja ciente das alterações que afetam o VEC e o EEC ao usar as seguintes ver
 
 **Chrome 80 (agosto de 2020)**: Com as alterações implementadas em agosto de 2020, todos os usuários com as versões do navegador Chrome 80+:
 
-* *não* poderá baixar as bibliotecas [!DNL Target] ao editar uma atividade (quando elas ainda não estiverem no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio de Adobe seguro e é rejeitada como não autenticada.
+* *não* poderá baixar as bibliotecas [!DNL Target] ao editar uma atividade (quando elas ainda não estiverem no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio [!DNL Adobe] seguro e é rejeitada como não autenticada.
 * O EEC *not* funcionará para todos os usuários porque não é possível definir o atributo SameSite para cookies em `adobemc.com domain`. Sem esse atributo, o navegador rejeita esses cookies, causando a falha do EEC.
 
 ### Determine quais cookies estão bloqueados
@@ -56,7 +56,7 @@ Para determinar quais cookies estão bloqueados por causa das políticas de impo
 
 ### Extensão do Google VEC Helper
 
-O Adobe enviou uma extensão atualizada do VEC Helper para a Google Chrome Store. Essa extensão substitui os atributos de cookie para definir o atributo `SameSite="none"`, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre como instalar e usar a Extensão de ajuda do VEC, consulte [Extensão de ajuda do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+[!DNL Adobe] O enviou uma extensão atualizada do VEC Helper para a Google Chrome Store. Essa extensão substitui os atributos de cookie para definir o atributo `SameSite="none"`, quando necessário. A extensão [atualizada pode ser encontrada aqui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Para obter mais informações sobre como instalar e usar a Extensão de ajuda do VEC, consulte [Extensão de ajuda do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 Para seus cookies do site, você deve especificar os cookies por nome.
 
@@ -74,7 +74,7 @@ Use uma das seguintes opções para garantir que seu VEC e EEC continuem a funci
 
 * Baixe e use a [extensão do VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) atualizada.
 * Use o navegador Mozilla Firefox. O Firefox ainda não está aplicando essa política.
-* Use os seguintes sinalizadores para executar o Google Chrome a partir da linha de comando até 21 de setembro de 2021. Após 21 de setembro, seu site não funcionará mais no VEC. Se você atualizar para o Chrome 94, deverá gerar cookies manualmente com `SameSite=none` e `Secure` em seus sites.
+* Use os seguintes sinalizadores para executar o Google Chrome a partir da linha de comando até 21 de setembro de 2021. Após 21 de setembro, os recursos que exigem cookies não funcionarão mais no VEC, como pop-ups de logon ou de consentimento de cookies. Se você atualizar para o Chrome 94, deverá gerar cookies manualmente com `SameSite=none` e `Secure` em seus sites.
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
