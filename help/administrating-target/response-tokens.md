@@ -1,13 +1,13 @@
 ---
 keywords: tokens de resposta; tokens; plugins; plug-ins; at.js; resposta
-description: Saiba como usar tokens de resposta em informações específicas de saída do Adobe [!DNL Target] para usar na depuração e na integração com ferramentas de terceiros.
+description: Saiba como usar tokens de resposta em [!DNL Adobe Target] para obter informações específicas de saída para depurar e integrar com ferramentas de terceiros.
 title: O que são tokens de resposta e como usá-los?
-feature: Administração e configuração
+feature: Administração & configuração
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 27%
 
 ---
@@ -180,7 +180,7 @@ O código de amostra a seguir adiciona um manipulador de evento personalizado da
 
 Os tokens de resposta podem ser ativados ou desativados apenas por usuários com a função [!DNL Target] [!UICONTROL Administrador].
 
-**O que acontece se eu estiver executando [!DNL Platform Web SDK] 2.6.0 (ou anterior)?
+**O que acontece se eu estiver executando a  [!DNL Platform Web SDK] versão 2.6.0 (ou anterior)?**
 
 Você não tem acesso aos tokens de resposta.
 
