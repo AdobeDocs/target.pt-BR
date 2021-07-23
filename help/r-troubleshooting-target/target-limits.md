@@ -5,10 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Solução de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: ht
-source-wordcount: '1206'
-ht-degree: 100%
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+workflow-type: tm+mt
+source-wordcount: '1215'
+ht-degree: 99%
 
 ---
 
@@ -118,6 +118,10 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 * **Limite**: 2.000 experiências por direcionamento de experiência (XT), Teste A/B, Teste multivariado (MVT) e atividade automática do Target.
 
    30.000 experiências por atividade de Automated Personalization (AP).
+
+### Modificações por experiência
+
+* **Limite**: 50 por experiência em qualquer atividade
 
 ## mboxes
 
