@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 97%
+source-wordcount: '1920'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 23 de julho | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Atualização da seguinte seção para fornecer mais detalhes:<ul><li>Como as políticas de imposição de cookies do Google Chrome SameSite afetam o VEC e o EEC?</li></ul> |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Adição de uma nova seção &quot;Modificações por experiência&quot; em &quot;Experiências&quot;. |
 | 21 de julho | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Atualização da seguinte seção:<ul><li>Como as políticas de imposição de cookies do Google Chrome SameSite afetam o VEC e o EEC?</li></ul> |
 | 19 de julho | [Classificações - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Adição de informações sobre o código de evento -1 ou 65535. |
 | 16 de julho | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md)<br><br>[e detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.6.0 da at.js. |
