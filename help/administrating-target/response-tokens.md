@@ -5,7 +5,7 @@ title: O que são tokens de resposta e como usá-los?
 feature: Administração & configuração
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 27%
@@ -84,7 +84,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 O processo usado para ouvir [!DNL Target] respostas e ler tokens de resposta é diferente dependendo se você tem uma implementação [!DNL Platform Web SDK] ou at.js.
 
-### ![SDK da Web da Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] usando a classe de objeto Handle
+### ![SDK da Web da Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] usando a classe de objeto Handle {#platform-web-sdk}
 
 Use a classe Handle object , que tem um objeto de metadados e um objeto de dados para acompanhar as respostas [!DNL Target] e ler os tokens de resposta.
 
