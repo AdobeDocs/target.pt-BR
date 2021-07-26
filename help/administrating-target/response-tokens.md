@@ -1,13 +1,13 @@
 ---
-keywords: tokens de resposta; tokens; plugins; plug-ins; at.js; resposta
+keywords: tokens de resposta; tokens; plugins; plug-ins; at.js; resposta; sdk da web da plataforma
 description: Saiba como usar tokens de resposta em [!DNL Adobe Target] para obter informações específicas de saída para depurar e integrar com ferramentas de terceiros.
 title: O que são tokens de resposta e como usá-los?
 feature: Administração & configuração
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 27%
 
 ---
