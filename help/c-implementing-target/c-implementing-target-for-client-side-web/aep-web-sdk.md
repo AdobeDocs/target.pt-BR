@@ -5,9 +5,9 @@ title: Como implementar com o SDK da Web do Experience Platform?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,6 @@ Além da documentação [!DNL Platform Web SKD] mencionada acima, os tópicos ne
 
 | Tópico | Descrição |
 | --- | --- |
-| [Controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa.md) | Use URLs de controle de qualidade em [!DNL Adobe Target] para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real. [!UICONTROL O ] Controle de qualidade da atividade permite testar completamente suas  [!DNL Target] atividades antes de iniciá-las ao vivo.<br>Consulte  [Biblioteca do JavaScript do Target  [!UICONTROL QA da ] compatibilidade](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
+| [Controle de qualidade da atividade](/help/c-activities/c-activity-qa/activity-qa.md) | Os URLs de controle de qualidade em [!DNL Adobe Target] permitem realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real. Teste completamente suas atividades [!DNL Target] antes de iniciá-las ao vivo.<br>Consulte  [Biblioteca do JavaScript do Target  [!UICONTROL QA da ] compatibilidade](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
 | [Tokens de resposta](/help/administrating-target/response-tokens.md) | Os tokens de resposta permitem enviar dados do Target para o Google Analytics e outras integrações de terceiros.<br>Consulte  [Envio de dados para o Google Analytics por meio do SDK da Web da plataforma](/help/administrating-target/response-tokens.md#platform-web-sdk). |
 
