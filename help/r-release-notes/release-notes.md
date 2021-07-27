@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 ## at.js 2.6.0 (16 de julho de 2021)
 
-* Adição do atributo seguro aos cookies sempre que as configurações de at.js `secureOnly` estiverem definidas como `true`.
-* Os tokens de resposta agora estão disponíveis ao usar `triggerView()`.
-* Correção de um problema relacionado ao evento `CONTENT_RENDERING_NO_OFFERS` . Agora, esse evento é acionado corretamente sempre que não há conteúdo retornado de [!DNL Target].
-* [!DNL Anlytics for Target] (A4T) os detalhes das métricas de clique são retornados corretamente ao usar  `prefetch` solicitações do .
-* A geração de UUID não usa mais `Math.random()`, mas depende de `window.crypto`.
+* Adição do atributo seguro aos cookies sempre que as configurações `secureOnly` da at.js estiverem definidas como `true`.
+* Os tokens de resposta agora estão disponíveis ao usar o `triggerView()`.
+* Correção de um problema relacionado ao evento `CONTENT_RENDERING_NO_OFFERS`. Agora, esse evento é acionado corretamente sempre que não há conteúdo retornado do [!DNL Target].
+* Os detalhes das métricas de clique do [!DNL Anlytics for Target] (A4T) são retornados corretamente ao usar solicitações `prefetch`.
+* A geração UUID não usa mais `Math.random()`, mas depende de `window.crypto`.
 * A expiração do cookie `sessionId` é estendida corretamente em cada chamada de rede.
 * A inicialização do cache de visualização do [!UICONTROL Aplicativo de página única] (SPA) agora é manipulada corretamente e atende às configurações `viewsEnable`.
 
