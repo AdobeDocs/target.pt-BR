@@ -5,9 +5,9 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Solução de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 91%
 
 ---
@@ -62,7 +62,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ## Entrega de conteúdo {#content-delivery}
 
-* **Limite**: 100 solicitações de entrega de  [!DNL Target] conteúdo simultâneo.
+* **Limite**: 100 solicitações de entrega de  [!DNL Target] conteúdo simultâneo por sessão de usuário.
 
    Se um cliente exceder 100 solicitações simultâneas de entrega de conteúdo [!DNL Target] para uma determinada sessão de usuário, todas as solicitações subsequentes para essa sessão de usuário serão bloqueadas. Duas ou mais solicitações são consideradas simultâneas se todas forem enviadas para o servidor [!DNL Target] antes que a resposta seja recebida para qualquer uma delas. [!DNL Target] processa solicitações simultâneas para a mesma sessão sequencialmente.
 
