@@ -5,10 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Solução de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,24 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 ## parâmetro categoryId
 
 * **Limite**: 250 caracteres.
+
+## Entrega de conteúdo {#content-delivery}
+
+* **Limite**: 100 solicitações de entrega de  [!DNL Target] conteúdo simultâneo.
+
+   Se um cliente exceder 100 solicitações simultâneas de entrega de conteúdo [!DNL Target] para uma determinada sessão de usuário, todas as solicitações subsequentes para essa sessão de usuário serão bloqueadas. Duas ou mais solicitações são consideradas simultâneas se todas forem enviadas para o servidor [!DNL Target] antes que a resposta seja recebida para qualquer uma delas. [!DNL Target] processa solicitações simultâneas para a mesma sessão sequencialmente.
+
+* **Comportamento** de erro:
+
+   * API de entrega e Mbox de lote v2:
+      * Código de erro: HTTP 420 Demasiadas Solicitações
+      * Mensagem de erro: &quot;Muitas solicitações com a mesma ID de sessão&quot;
+   * API mbox herdada:
+      * Conteúdo padrão com comentário &quot;Muitas solicitações com a mesma ID de sessão&quot;
+   * at.js:
+      * Conteúdo padrão exibido
+
+
 
 ## Atributos do cliente
 
