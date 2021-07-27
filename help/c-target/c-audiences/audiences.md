@@ -4,7 +4,7 @@ description: Saiba como usar a lista [!UICONTROL Audiences] em [!DNL Adobe Targe
 title: Como uso a lista de públicos-alvo?
 feature: Públicos-alvo
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 32%
@@ -30,7 +30,7 @@ Há dois tipos de públicos-alvo em [!DNL Target]:
 
    No [!DNL Target], é possível configurar relatórios de públicos-alvo apenas se você usar o [!DNL Target] como fonte de geração de relatórios. Se você usa o [ Adobe Analytics como fonte de relatórios](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), precisa configurar os públicos dos relatórios no [!DNL Analytics].
 
-## Use a lista [!UICONTROL Públicos-alvo]
+## Use a lista [!UICONTROL Públicos-alvo] {#use-list}
 
 Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públicos-alvo]** na barra do menu superior:
 
