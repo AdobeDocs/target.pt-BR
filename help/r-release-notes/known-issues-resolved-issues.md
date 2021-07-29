@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Notas de versão
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '4390'
-ht-degree: 100%
+source-wordcount: '4419'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,10 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### O Enhanced Experience Composer (EEC) não é compatível com solicitações PUT.
+
+Um problema com o EEC no momento o impede de suportar solicitações PUT e resulta em um erro de tempo limite 504. (TGT-41493)
 
 ### Os nomes de segmentos do [!DNL Adobe Experience Platform] não são exibidos no relatório de [!UICONTROL Atributos importantes].
 
