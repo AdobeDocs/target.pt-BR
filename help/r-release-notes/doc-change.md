@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 97%
+source-wordcount: '2036'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,11 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 29 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição das informações sobre o [!DNL Adobe Target] intervalo de taxa de perguntas e respostas da comunidade: quarta-feira, 11 de agosto de 2021. |
+|  | [Personalizar uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Observação importante atualizada para indicar que você deve editar e salvar novamente as atividades afetadas criadas no VEC após personalizar uma mbox global. |
+|  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>O Enhanced Experience Composer (EEC) não é compatível com solicitações PUT.</li></ul> |
 | 27 de julho | [SDK da Web da Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Adição de uma nova seção:<ul><li>Documentação recomendada</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Adição de uma nova seção:<ul><li>Entrega de conteúdo</li></ul> |
-|  | [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | Adição de uma nova seção:<ul><li>Coleta de dados de uso de recursos</li></ul> |
 | 26 de julho | [Uso do Adobe Target com o ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK da Web da plataforma no guia de  *visão geral do SDK da Web da* Adobe Experience Platform | Adição de uma nova seção:<ul><li>Diagrama de sistema do SDK da Web da plataforma</li></ul> |
 | 23 de julho | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Atualização da seguinte seção para fornecer mais detalhes:<ul><li>Como as políticas de imposição de cookie SameSite do Google Chrome afetam o VEC e o EEC?</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Adição de uma nova seção &quot;Modificações por experiência&quot; em &quot;Experiências&quot;. |
