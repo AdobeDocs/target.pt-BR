@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Notas de versão
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
+source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 24 de junho de 2021**
+**Última atualização: 3 de agosto de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -25,14 +25,19 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Para evitar possíveis problemas com seus sites, migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js de JavaScript. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.6.1 (30 de junho de 2021)
+## API de entrega do Target (Data a ser determinada)
 
-Esta versão inclui os novos recursos e melhorias a seguir. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+Esta versão contém os seguintes aprimoramentos:
 
-| Recurso | Detalhes |
-| --- | --- |
-| [!UICONTROL Analytics for Target] (A4T) | Ao clicar no link &quot;[!UICONTROL Exibir no Analytics]&quot; na página [!UICONTROL Relatórios] de uma atividade que usa [!DNL Analytics] como fonte de relatórios (A4T), o [!DNL Analysis Workspace] agora é aberto. Anteriormente, o link abria os relatórios do [!DNL Analytics]. (TGT-36959) |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Os seguintes aprimoramentos se aplicam aos algoritmos de popularidade do [!DNL Recommendations]:<ul><li>Uma nova opção de &quot;janela de lookback&quot; (intervalo de dados) de seis horas estará disponível para todos os algoritmos populares (Mais visualizados/Mais vendidos) quando o [!DNL Target] for a fonte de dados comportamentais. (Essa janela de lookback *não* está disponível quando o [!DNL Adobe Analytics] é a fonte de dados comportamentais.)</li><li>Quando selecionados, os seguintes algoritmos são executados aproximadamente a cada três horas (em vez de a cada 12 horas).<ul><li>Mais visualizados</li><li>Mais comprados</li><li>Mais visualizados por categoria</li><li>Mais comprados por categoria</li><li>Mais visualizados pelo atributo personalizado (usando o recurso groupBy)</li><li>Mais comprados pelo atributo personalizado (usando o recurso groupBy)</li></ul></ul>Data a ser anunciada. (TOP-1086) |
+* O limite de parâmetros da mbox foi aumentado para 100 parâmetros. O limite anterior era de 50 parâmetros.
+* O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128 caracteres.
+* Os seguintes detalhes [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
+
+   * UUID do AAM (ID de usuário exclusiva do Adobe Audience Manager)
+   * dataPartnerId
+   * dataPartnerUserId
+
+   Anteriormente, a API de entrega incluía somente `dcsLocationHint` e `blob`. (TNT-41644)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
