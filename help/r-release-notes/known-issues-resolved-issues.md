@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Notas de versão
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 99%
+source-wordcount: '4480'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,16 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
+### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
+
+Em alguns casos, a distribuição de tráfego das atividades de [!UICONTROL Alocação automática] usando o [!UICONTROL Analytics for Target] (A4T) pode variar do que deve ocorrer com base na taxa de conversão relatada de cada experiência. Isso ocorre com mais frequência em atividades com uma alta proporção de tráfego de visitante de retorno. Os clientes afetados serão notificados sobre as atividades afetadas. (TOP-131)
+
+### Métricas do Analytics for Adobe Target (A4T) para atividades de Alocação automática e Direcionamento automático
+
+A interface do [!DNL Target] permite que os usuários selecionem métricas de envolvimento e receita não compatíveis como a principal métrica de meta para otimização em atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]. Métricas de conversão são compatíveis; as métricas de envolvimento e receita são *não* compatíveis. Se você selecionar métricas de envolvimento ou de meta de receita, um modelo de otimização não será criado.
+
+Para obter uma lista de métricas de meta compatíveis e não compatíveis, consulte [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
+
 ### O Enhanced Experience Composer (EEC) não é compatível com solicitações PUT.
 
 Um problema com o EEC no momento o impede de suportar solicitações PUT e resulta em um erro de tempo limite 504. (TGT-41493)
@@ -34,12 +44,6 @@ Os nomes de segmento do [!DNL Adobe Experience Platform] não são exibidos no r
 ### O arquivamento de atividades de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização
 
 A tentativa de arquivar atividades inativas de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização. Até que esse problema seja corrigido, não arquive as atividades de [!UICONTROL Direcionamento automático]. Deixe-as no estado [!UICONTROL Inativo]. (TGT-40885)
-
-### Métricas do Analytics for Adobe Target (A4T) para atividades de Alocação automática e Direcionamento automático
-
-A interface do [!DNL Target] permite que os usuários selecionem métricas de envolvimento e receita não compatíveis como a principal métrica de meta para otimização em atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]. Métricas de conversão são compatíveis; as métricas de envolvimento e receita são *não* compatíveis. Se você selecionar métricas de envolvimento ou de meta de receita, um modelo de otimização não será criado.
-
-Para obter uma lista de métricas de meta compatíveis e não compatíveis, consulte [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Delivery de página {#page-delivery}
 
