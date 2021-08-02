@@ -4,7 +4,7 @@ title: Onde posso encontrar a documentação do [!DNL Target] ?
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Visão geral
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: sexta-feira, 30 de julho de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md))**
+**Última atualização: 2 de agosto de 2021 ([Consulte o que foi alterado](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Profissionais de marketing {#marketers}
 
-- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de.[!DNL Target]
+- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
 - [Públicos](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em atividades direcionadas.
 - [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 - [Recommendations](c-recommendations/recommendations.md): explica como as atividades do [!DNL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
@@ -66,7 +66,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Administradores do Target e da Adobe Experience Cloud {#admins}
 
-- [Administer Target](administrating-target/administrating-target.md): explica como adicionar usuários e configurar sua conta.[!DNL Target]
+- [Administer Target](administrating-target/administrating-target.md): explica como adicionar usuários e configurar sua conta [!DNL Target].
 
 ## Analistas {#analysts}
 
@@ -75,10 +75,10 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Engenheiros de controle de qualidade {#qa}
 
-- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de.[!DNL Target]
+- [Atividades](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de atividades de [!DNL Target].
 
 ## Recursos adicionais {#additional}
 
 | Ajuda das soluções do Adobe [!DNL Target] | [!DNL Adobe Experience Cloud] recursos |
 |--- |--- |
-| <ul><li>[Aprendizagem e suporte do Adobe Target](https://helpx.adobe.com/br/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=pt-BR)</li><li>[Documentação da API do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Fórum da comunidade do Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR)</li><li>[Página inicial da ajuda da Experience Cloud](https://helpx.adobe.com/br/support/experience-cloud.html)</li><li>[Documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=pt-BR)</li><li>[Treinamento e tutoriais da Adobe](https://helpx.adobe.com/br/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Aprendizagem e suporte do Adobe Target](https://helpx.adobe.com/br/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=pt-BR)</li><li>[Documentação da API do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Fórum da comunidade do Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR)</li><li>[Página inicial da ajuda da Experience Cloud](https://helpx.adobe.com/br/support/experience-cloud.html)</li><li>[Documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=pt-BR)</li><li>[Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
