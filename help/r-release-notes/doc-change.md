@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 97%
+source-wordcount: '2077'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 2 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>Distribuição de tráfego de atividades de Alocação automática usando A4T</li></ul> |
+|  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações para a próxima versão da API de entrega do Target. |
 | 30 de julho | [Limites](/help/r-troubleshooting-target/target-limits.md) | Atualização das seguintes seções:<ul><li>entity.id</li><li>parâmetro productPurchasedId</li></ul> |
 | 29 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição das informações sobre o [!DNL Adobe Target] intervalo de taxa de perguntas e respostas da comunidade: quarta-feira, 11 de agosto de 2021. |
 |  | [Personalizar uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Observação importante atualizada para indicar que você deve editar e salvar novamente as atividades afetadas criadas no VEC após personalizar uma mbox global. |
