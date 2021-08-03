@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2101'
 ht-degree: 96%
 
 ---
@@ -19,7 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 3 de agosto | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a próxima versão [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021). |
+| 3 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão da [!UICONTROL API de entrega do Target]. |
+|  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a próxima versão [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021). |
 | 2 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>Distribuição de tráfego de atividades de Alocação automática usando A4T</li></ul> |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a próxima versão da [!UICONTROL API de entrega do Target]. |
 | 30 de julho | [Limites](/help/r-troubleshooting-target/target-limits.md) | Atualização das seguintes seções:<ul><li>entity.id</li><li>parâmetro productPurchasedId</li></ul> |
