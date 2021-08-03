@@ -5,7 +5,7 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Solução de problemas
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 87%
@@ -58,7 +58,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ## parâmetro categoryId
 
-* **Limite**: 250 caracteres.
+* **Limite**: 256 caracteres.
 
 ## Entrega de conteúdo {#content-delivery}
 
@@ -196,7 +196,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
    **Endpoint da API de entrega**:
 
-   * parâmetros de mbox 50
+   * 100 parâmetros de mbox
    * tamanho máx. do nome do parâmetro da mbox 128
    * O valor do parâmetro da mbox não pode ser nulo
    * valor do parâmetro da mbox 5000
