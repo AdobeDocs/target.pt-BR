@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Notas de versão
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 74%
 
 ---
@@ -29,7 +29,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 Esta versão contém os seguintes aprimoramentos:
 
-* O limite de parâmetros da mbox foi aumentado para 100 parâmetros. O limite anterior era de 50 parâmetros.
+* O limite de parâmetros da mbox foi aumentado para 100 parâmetros. O limite anterior era de 50 parâmetros. (TNT-41717)
 * O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128 caracteres.
 * Os seguintes detalhes [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
 
