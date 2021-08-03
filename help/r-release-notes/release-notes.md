@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,20 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 >Migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js JavaScript para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## API de entrega do Target (3 de agosto de 2021)
+
+Esta versão contém os seguintes aprimoramentos:
+
+* O limite de parâmetros da mbox foi aumentado para 100 parâmetros. O limite anterior era de 50 parâmetros. (TNT-41717)
+* O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128 caracteres.
+* Os seguintes detalhes [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
+
+   * UUID do AAM (ID de usuário exclusiva do Adobe Audience Manager)
+   * dataPartnerId
+   * dataPartnerUserId
+
+   Anteriormente, a API de entrega incluía somente `dcsLocationHint` e `blob`. (TNT-41644)
 
 ## at.js 2.6.0 (16 de julho de 2021)
 
