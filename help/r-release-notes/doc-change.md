@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2149'
 ht-degree: 95%
 
 ---
@@ -19,7 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 4 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md): 21.6.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
+| 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Adição de informações sobre a configuração `optinEnabled`. |
+|  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md): 21.6.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 de junho de 2021)
 
