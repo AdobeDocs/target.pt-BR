@@ -4,16 +4,22 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 96%
+source-wordcount: '2143'
+ht-degree: 95%
 
 ---
 
 # Alterações de documentação
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
+
+## Adobe [!DNL Target] Standard/Premium 21.8.1 (4 de agosto de 2021)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 4 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md): 21.6.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 de junho de 2021)
 
