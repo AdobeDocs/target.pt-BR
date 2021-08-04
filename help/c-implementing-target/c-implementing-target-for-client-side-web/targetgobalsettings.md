@@ -5,10 +5,9 @@ title: Como uso a função targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2280'
 ht-degree: 31%
 
 ---
@@ -78,37 +77,37 @@ Você pode substituir as configurações na biblioteca at.js usando `targetGloba
 * **Outros valores**: no dispositivo, híbrido
 * **Descrição**: Consulte Métodos de decisão abaixo.
 
-**Métodos de decisão**
+   **Métodos de decisão**
 
-Com a decisão no dispositivo, o Target introduz uma nova configuração chamada [!UICONTROL Método de decisão] que determina como a at.js fornece suas experiências. O `decisioningMethod` tem três valores: somente do lado do servidor, somente no dispositivo e híbrido. Quando `decisioningMethod` é definido em `targetGlobalSettings()`, ele age como o método de decisão padrão para todas as [!DNL Target] decisões.
+   Com a decisão no dispositivo, o Target introduz uma nova configuração chamada [!UICONTROL Método de decisão] que determina como a at.js fornece suas experiências. O `decisioningMethod` tem três valores: somente do lado do servidor, somente no dispositivo e híbrido. Quando `decisioningMethod` é definido em `targetGlobalSettings()`, ele age como o método de decisão padrão para todas as [!DNL Target] decisões.
 
-[!UICONTROL Somente] no lado do servidor:
+   **[!UICONTROL Somente]** no lado do servidor:
 
-[!UICONTROL O lado do servidor ] é somente o método de decisão padrão definido imediatamente quando o at.js 2.5+ é implementado e implantado em suas propriedades da Web.
+   [!UICONTROL O lado do servidor ] é somente o método de decisão padrão definido imediatamente quando o at.js 2.5+ é implementado e implantado em suas propriedades da Web.
 
-Usar [!UICONTROL somente do lado do servidor] como configuração padrão significa que todas as decisões são tomadas na rede de borda [!DNL Target], que envolve uma chamada de servidor de bloqueio. Essa abordagem pode introduzir latência incremental, mas também oferece benefícios significativos, como fornecer a você a capacidade de aplicar os recursos de aprendizado de máquina do Target que incluem as atividades de [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) e [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
+   Usar [!UICONTROL somente do lado do servidor] como configuração padrão significa que todas as decisões são tomadas na rede de borda [!DNL Target], que envolve uma chamada de servidor de bloqueio. Essa abordagem pode introduzir latência incremental, mas também oferece benefícios significativos, como fornecer a você a capacidade de aplicar os recursos de aprendizado de máquina do Target que incluem as atividades de [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) e [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
-Além disso, aprimorar suas experiências personalizadas usando o perfil de usuário do Target, que é persistente em sessões e canais, pode fornecer resultados avançados para sua empresa.
+   Além disso, aprimorar suas experiências personalizadas usando o perfil de usuário do Target, que é persistente em sessões e canais, pode fornecer resultados avançados para sua empresa.
 
-Por fim, [!UICONTROL somente no lado do servidor] permite usar a Adobe Experience Cloud e refinar públicos-alvo que podem ser direcionados por meio de segmentos do Audience Manager e Adobe Analytics.
+   Por fim, [!UICONTROL somente no lado do servidor] permite usar a Adobe Experience Cloud e refinar públicos-alvo que podem ser direcionados por meio de segmentos do Audience Manager e Adobe Analytics.
 
-[!UICONTROL Somente] no dispositivo:
+   **[!UICONTROL Somente]** no dispositivo:
 
-[!UICONTROL O On-Device ] é apenas o método de decisão que deve ser definido no at.js 2.5+, quando a tomada de decisão no dispositivo deve ser usada somente em suas páginas da Web.
+   [!UICONTROL O On-Device ] é apenas o método de decisão que deve ser definido no at.js 2.5+, quando a tomada de decisão no dispositivo deve ser usada somente em suas páginas da Web.
 
-O On-device decisioning pode fornecer suas experiências e atividades de personalização a uma velocidade extremamente rápida, pois as decisões são tomadas a partir de um artefato de regras em cache que contém todas as suas atividades qualificadas para decisões no dispositivo.
+   O On-device decisioning pode fornecer suas experiências e atividades de personalização a uma velocidade extremamente rápida, pois as decisões são tomadas a partir de um artefato de regras em cache que contém todas as suas atividades qualificadas para decisões no dispositivo.
 
-Para saber mais sobre quais atividades se qualificam para decisões no dispositivo, consulte a seção recursos compatíveis .
+   Para saber mais sobre quais atividades se qualificam para decisões no dispositivo, consulte a seção recursos compatíveis .
 
-Esse método de decisão deve ser usado somente se o desempenho for altamente crítico em todas as páginas que exigem decisões de [!DNL Target]. Além disso, lembre-se de que, quando esse método de decisão for selecionado, suas atividades [!DNL Target] que não se qualificam para a tomada de decisão no dispositivo não serão entregues ou executadas. A biblioteca at.js 2.5+ está configurada para procurar somente o artefato de regras em cache para tomar decisões.
+   Esse método de decisão deve ser usado somente se o desempenho for altamente crítico em todas as páginas que exigem decisões de [!DNL Target]. Além disso, lembre-se de que, quando esse método de decisão for selecionado, suas atividades [!DNL Target] que não se qualificam para a tomada de decisão no dispositivo não serão entregues ou executadas. A biblioteca at.js 2.5+ está configurada para procurar somente o artefato de regras em cache para tomar decisões.
 
-Híbrido:
+   **Híbrido**:
 
- O Hybridis é o método de decisão que deve ser definido no at.js 2.5+ quando a decisão no dispositivo e as atividades que exigem uma chamada de rede para a rede do Adobe Target Edge devem ser executadas.
+    O Hybridis é o método de decisão que deve ser definido no at.js 2.5+ quando a decisão no dispositivo e as atividades que exigem uma chamada de rede para a rede do Adobe Target Edge devem ser executadas.
 
-Ao gerenciar atividades de decisão no dispositivo e atividades no lado do servidor, pode ser um pouco complicado e entediante ao pensar em como implantar e provisionar [!DNL Target] em suas páginas. Com híbrido como o método de decisão, [!DNL Target] sabe quando deve fazer uma chamada de servidor para a rede do Adobe Target Edge para atividades que exigem execução no lado do servidor e também quando executar apenas decisões no dispositivo.
+   Ao gerenciar atividades de decisão no dispositivo e atividades no lado do servidor, pode ser um pouco complicado e entediante ao pensar em como implantar e provisionar [!DNL Target] em suas páginas. Com híbrido como o método de decisão, [!DNL Target] sabe quando deve fazer uma chamada de servidor para a rede do Adobe Target Edge para atividades que exigem execução no lado do servidor e também quando executar apenas decisões no dispositivo.
 
-O artefato de regras JSON inclui metadados para informar à at.js se uma mbox tem uma atividade do lado do servidor em execução ou uma atividade de decisão no dispositivo. Esse método de decisão garante que as atividades que você pretende entregar rapidamente sejam realizadas por meio de decisões no dispositivo e para atividades que exigem personalização mais poderosa orientada por ML, essas atividades são realizadas por meio da rede Adobe Target Edge.
+   O artefato de regras JSON inclui metadados para informar à at.js se uma mbox tem uma atividade do lado do servidor em execução ou uma atividade de decisão no dispositivo. Esse método de decisão garante que as atividades que você pretende entregar rapidamente sejam realizadas por meio de decisões no dispositivo e para atividades que exigem personalização mais poderosa orientada por ML, essas atividades são realizadas por meio da rede Adobe Target Edge.
 
 ### defaultContentHiddenStyle
 
@@ -151,6 +150,12 @@ O artefato de regras JSON inclui metadados para informar à at.js se uma mbox te
 * **Tipo**: String
 * **Valor** padrão: true
 * **Descrição**: Representa a ID da ORG IMS.
+
+### optinEnabled
+
+* **Tipo**: Booleano
+* **Valor** padrão: false
+* **Descrição**:  [!DNL Target] O oferece suporte à funcionalidade de opt-in por meio do  [!DNL Adobe Platform Launch] para ajudar a apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Platform Launch] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar o Opt-in na biblioteca at.js [!DNL Target], adicione a configuração `optinEnabled=true` . Em [!DNL Platform Launch] você deve selecionar &quot;ativar&quot; na lista suspensa [!UICONTROL GDPR Opt-In] na exibição de instalação da extensão do Launch. Consulte a [documentação do Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
 
 ### optoutEnabled
 
