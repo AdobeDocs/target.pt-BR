@@ -5,9 +5,9 @@ title: Como uso a função targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2317'
 ht-degree: 31%
 
 ---
@@ -155,7 +155,7 @@ Você pode substituir as configurações na biblioteca at.js usando `targetGloba
 
 * **Tipo**: Booleano
 * **Valor** padrão: false
-* **Descrição**:  [!DNL Target] O oferece suporte à funcionalidade de opt-in por meio do  [!DNL Adobe Platform Launch] para ajudar a apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Platform Launch] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar o Opt-in na biblioteca at.js [!DNL Target], adicione a configuração `optinEnabled=true` . Em [!DNL Platform Launch] você deve selecionar &quot;ativar&quot; na lista suspensa [!UICONTROL GDPR Opt-In] na exibição de instalação da extensão do Launch. Consulte a [documentação do Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
+* **Descrição**:  [!DNL Target] O oferece suporte à funcionalidade de opt-in por meio do  [!DNL Adobe Platform Launch] para ajudar a apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Platform Launch] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar o Opt-in na biblioteca at.js [!DNL Target], adicione a configuração `optinEnabled=true` . Em [!DNL Platform Launch] você deve selecionar &quot;ativar&quot; na lista suspensa [!UICONTROL GDPR Opt-In] na exibição de instalação da extensão do Launch. Consulte a [documentação do Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes. Para obter mais informações sobre essa configuração, pois está relacionada às regulamentações de privacidade e proteção de dados, incluindo o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia e a Lei de Privacidade do Consumidor da Califórnia (CCPA), consulte [Privacidade e regulamentos sobre proteção de dados](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 ### optoutEnabled
 
