@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 69%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,11 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021)
+## [!DNL Target Standard/Premium] 21.8.1 (Data a ser determinada)
+
+>[!NOTE]
+>
+>A versão [!DNL Target Standard/Premium] 21.8.1 foi adiada. Em vez de ser lançado em 4 de agosto de 2021, a versão 21.8.1 será lançada nos próximos dias. Mais detalhes quando disponíveis.
 
 Esta versão de manutenção contém vários aprimoramentos de backend, incluindo a seguinte alteração voltada para o cliente:
 
