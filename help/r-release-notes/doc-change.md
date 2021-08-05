@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 96%
+source-wordcount: '2138'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 5 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de uma observação indicando que a versão [!DNL Target Standard/Premium] 18.8.1 está atrasada. |
+|  | [Visão geral da alocação automática](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Adição das seguintes perguntas frequentes:<ul><li>Posso alterar a fonte de relatórios no meio de uma atividade de [!UICONTROL Alocação automática]?</li></ul> |
 | 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Adição de informações sobre a configuração `optinEnabled`. |
 | 3 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão da [!UICONTROL API de entrega do Target]. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a próxima versão [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021). |
