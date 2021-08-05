@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 95%
+source-wordcount: '2108'
+ht-degree: 96%
 
 ---
 
@@ -15,17 +15,11 @@ ht-degree: 95%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1 (4 de agosto de 2021)
-
-| Data | Tópico | Alterações |
-| --- | --- | --- |
-| 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Adição de informações sobre a configuração `optinEnabled`. |
-|  | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md): 21.8.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
-
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 de junho de 2021)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 4 de agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Adição de informações sobre a configuração `optinEnabled`. |
 | 3 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão da [!UICONTROL API de entrega do Target]. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a próxima versão [!DNL Target Standard/Premium] 21.8.1 (4 de agosto de 2021). |
 | 2 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>Distribuição de tráfego de atividades de Alocação automática usando A4T</li></ul> |
