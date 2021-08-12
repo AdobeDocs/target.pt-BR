@@ -2,13 +2,13 @@
 keywords: Notas de versão;novos recursos;versões;atualizações;atualização;versão;aprimoramento;aprimoramentos;correções;correções de bugs;atualizações
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na versão atual do  [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e correções incluídos na versão atual de [!DNL Adobe Target].
-title: Quais são os novos recursos incluídos na versão atual?
+title: Quais novos recursos estão incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
+source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 62%
+ht-degree: 60%
 
 ---
 
