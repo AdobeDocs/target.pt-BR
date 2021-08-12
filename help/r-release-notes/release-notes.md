@@ -5,7 +5,7 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 62%
@@ -24,7 +24,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
 
-## [!DNL Target] node.js SDK 2.1.8 (11 de agosto de 2021)
+## [!DNL Target] node.js SDK 2.2.0 (11 de agosto de 2021)
 
 * Coleta de dados de telemetria do SDK adicionada
 * Codegen do openapi do cliente da API de entrega automatizada
