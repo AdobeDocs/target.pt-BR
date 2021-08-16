@@ -4,10 +4,10 @@ description: Veja os detalhes sobre as alterações em cada versão da bibliotec
 title: O que está incluído em cada versão da at.js?
 feature: at.js
 role: Developer
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 87%
+source-wordcount: '4232'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,17 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no catálogo [!DNL Launch] como atualizações. Para obter mais informações, consulte [Atualização de extensão](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) no *Guia do Usuário do Experience Platform Launch*.
 
+## at.js 2.6.1 (16 de agosto de 2021)
+
+* Correção de erros para &quot;Nenhum artefato em cache disponível para modo híbrido&quot; ao usar a decisão no dispositivo.
+
 ## at.js 2.6.0 (16 de julho de 2021)
 
-* Adição do atributo seguro aos cookies sempre que as configurações de at.js `secureOnly` estiverem definidas como `true`.
-* Os tokens de resposta agora estão disponíveis ao usar `triggerView()`.
-* Correção de um problema relacionado ao evento `CONTENT_RENDERING_NO_OFFERS` . Agora, esse evento é acionado corretamente sempre que não há conteúdo retornado de [!DNL Target].
-* [!DNL Anlytics for Target] (A4T) os detalhes das métricas de clique são retornados corretamente ao usar  `prefetch` solicitações do .
-* A geração de UUID não usa mais `Math.random()`, mas depende de `window.crypto`.
+* Adição do atributo seguro aos cookies sempre que as configurações `secureOnly` da at.js estiverem definidas como `true`.
+* Os tokens de resposta agora estão disponíveis ao usar o `triggerView()`.
+* Correção de um problema relacionado ao evento `CONTENT_RENDERING_NO_OFFERS`. Agora, esse evento é acionado corretamente sempre que não há conteúdo retornado do [!DNL Target].
+* Os detalhes das métricas de clique do [!DNL Anlytics for Target] (A4T) são retornados corretamente ao usar solicitações `prefetch`.
+* A geração UUID não usa mais `Math.random()`, mas depende de `window.crypto`.
 * A expiração do cookie `sessionId` é estendida corretamente em cada chamada de rede.
 * A inicialização do cache de visualização do [!UICONTROL Aplicativo de página única] (SPA) agora é manipulada corretamente e atende às configurações `viewsEnable`.
 
