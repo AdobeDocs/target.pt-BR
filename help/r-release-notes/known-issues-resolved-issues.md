@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Para obter uma lista de métricas de meta compatíveis e não compatíveis, cons
 
 ### O Enhanced Experience Composer (EEC) não é compatível com solicitações PUT.
 
-Um problema com o EEC no momento o impede de suportar solicitações PUT e resulta em um erro de tempo limite 504. (TGT-41493)
+Um problema no EEC no momento o impede de dar suporte a solicitações PUT e resulta em um erro de tempo limite 504. (TGT-41493)
 
 ### Os nomes de segmentos do [!DNL Adobe Experience Platform] não são exibidos no relatório de [!UICONTROL Atributos importantes].
 
