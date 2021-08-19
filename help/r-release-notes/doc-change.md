@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
 workflow-type: tm+mt
 source-wordcount: '2214'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -32,8 +32,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 2 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>Distribuição de tráfego de atividades de Alocação automática usando A4T</li></ul> |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a próxima versão da [!UICONTROL API de entrega do Target]. |
 | 30 de julho | [Limites](/help/r-troubleshooting-target/target-limits.md) | Atualização das seguintes seções:<ul><li>entity.id</li><li>parâmetro productPurchasedId</li></ul> |
-| 29 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição das informações sobre o [!DNL Adobe Target] intervalo de taxa de perguntas e respostas da comunidade: quarta-feira, 11 de agosto de 2021. |
-|  | [Personalizar uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Observação importante atualizada para indicar que você deve editar e salvar novamente as atividades afetadas criadas no VEC após personalizar uma mbox global. |
+| 29 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição das informações sobre o [!DNL Adobe Target] Intervalo de de perguntas &amp; respostas da comunidade: quarta-feira, 11 de agosto de 2021. |
+|  | [Personalizar uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Observação importante atualizada para indicar que você deve editar e salvar novamente as atividades afetadas criadas no VEC após personalizar uma mBox global. |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>O Enhanced Experience Composer (EEC) não é compatível com solicitações PUT.</li></ul> |
 | 27 de julho | [SDK da Web da Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Adição de uma nova seção:<ul><li>Documentação recomendada</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Adição de uma nova seção:<ul><li>Entrega de conteúdo</li></ul> |
