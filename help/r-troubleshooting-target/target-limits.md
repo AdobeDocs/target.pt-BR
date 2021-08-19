@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -62,16 +62,16 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ## Entrega de conteúdo {#content-delivery}
 
-* **Limite**: 100 solicitações de entrega de  [!DNL Target] conteúdo simultâneo por sessão de usuário.
+* **Limite**: 100 solicitações simultâneas [!DNL Target] de entrega de conteúdo por sessão de usuário.
 
-   Se um cliente exceder 100 solicitações simultâneas de entrega de conteúdo [!DNL Target] para uma determinada sessão de usuário, todas as solicitações subsequentes para essa sessão de usuário serão bloqueadas. Duas ou mais solicitações são consideradas simultâneas se todas forem enviadas para o servidor [!DNL Target] antes que a resposta seja recebida para qualquer uma delas. [!DNL Target] processa solicitações simultâneas para a mesma sessão sequencialmente.
+   Se um cliente exceder 100 solicitações simultâneas de entrega de conteúdo [!DNL Target] para determinada sessão de usuário, todas as solicitações subsequentes para essa sessão de usuário serão bloqueadas. Duas ou mais solicitações serão consideradas simultâneas se todas forem enviadas ao servidor [!DNL Target] antes que a resposta seja recebida para qualquer uma delas. [!DNL Target] processa solicitações simultâneas para a mesma sessão sequencialmente.
 
-* **Comportamento** de erro:
+* **Comportamento de erro**:
 
-   * API de entrega e Mbox de lote v2:
-      * Código de erro: HTTP 420 Demasiadas Solicitações
+   * API de entrega e mBox de lote v2:
+      * Código de erro: HTTP 420 Demasiadas solicitações
       * Mensagem de erro: &quot;Muitas solicitações com a mesma ID de sessão&quot;
-   * API mbox herdada:
+   * API mBox herdada:
       * Conteúdo padrão com comentário &quot;Muitas solicitações com a mesma ID de sessão&quot;
    * at.js:
       * Conteúdo padrão exibido
@@ -117,9 +117,9 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ### entity.id
 
-* **Limite para implementações que exigem a captura de informações** de compra: 50 caracteres.
+* **Limite para implementações que exigem a captura de informações de compra**: 50 caracteres.
 
-   Esse limite é aplicado porque o parâmetro da mbox `productPurchasedId` captura a entity.ids, o que limita a contagem de caracteres a 50.
+   Esse limite é aplicado porque o parâmetro da mBox `productPurchasedId` captura entity.ids, o que limita a contagem de caracteres a 50.
 
 * **Limite para implementações que exigem apenas algoritmos baseados em visualização:**: 1.000 caracteres.
 
@@ -249,7 +249,7 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 ## parâmetro productPurchasedId
 
-* **Limite**: 50 caracteres por valor separado por vírgulas e 250 caracteres no total. Valores individuais com mais de 50 caracteres são truncados pelo sistema. O total de comprimentos acima de 250 caracteres resulta em um erro de 400.
+* **Limite**: 50 caracteres por valor separado por vírgulas e 250 caracteres no total. Valores individuais com mais de 50 caracteres são truncados pelo sistema. Um tamanho total superior a 250 caracteres pode resultar em um erro 400.
 
 ## Scripts de perfil
 
