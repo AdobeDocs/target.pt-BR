@@ -5,9 +5,9 @@ title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Notas de versão
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ Anúncios e informações sobre eventos futuros, incluindo sessões do criador d
 
 ## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade
 
-* **quarta-feira, 11 de agosto de 2021**
+* **Quarta-feira, 11 de agosto de 2021**
 * **8h (PDT, UTC -7)**
 * **[Clique aqui para obter mais informações e para se inscrever](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-Consultor Principal de Soluções para [!DNL Adobe Target], James McTiernan responderá às perguntas dos clientes relacionadas às suas áreas de conhecimento em [!DNL Target]:
+O Consultor Principal de Soluções para [!DNL Adobe Target], James McTiernan, responderá às perguntas dos clientes relacionadas às suas áreas de conhecimento em [!DNL Target]:
 
 * Recommendations
-* Teste A/B e multivariado (MVT)
+* Testes A/B e multivariados (MVT)
 * Personalização
 
 ## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
