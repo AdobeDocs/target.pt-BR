@@ -4,7 +4,7 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Públicos-alvo
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 50%
@@ -33,7 +33,7 @@ Para configurar os atributos do perfil:
 
    | Tipo do parâmetro | Descrição |
    |--- |--- |
-   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Observação: o tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. [!DNL Target] Se você precisar passar mais de 50 atributos de perfil para [!DNL Target], passe-os usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na  [!DNL Adobe Target] documentação da API](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Observação: o tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. [!DNL Target] Se você precisar passar mais de 50 atributos de perfil para [!DNL Target], passe-os usando o método de Atualização do perfil da API. Para obter mais informações, consulte [Atualização do perfil na  [!DNL Adobe Target] documentação da API](https://developers.adobetarget.com/api/#updating-profiles). |
    | Perfil | Definido diretamente com um trecho de código JavaScript. Esses trechos podem armazenar totais, como o dinheiro total gasto pelo consumidor e são executados em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
