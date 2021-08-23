@@ -5,10 +5,10 @@ title: Como uso o CNAME no Target?
 feature: Privacidade e segurança
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,7 @@ Você pode fornecer seu próprio certificado. No entanto, [!DNL Adobe] não reco
 
 ### Por quanto tempo até que meu novo certificado SSL expire?
 
-Os certificados emitidos antes de 1º de setembro de 2020 são certificados de dois anos. Os certificados emitidos a partir de 1 de setembro de 2020 são certificados de um ano. Você pode ler mais sobre a mudança para certificados de um ano [aqui](https://www.digicert.com/position-on-1-year-certificates).
+Os certificados emitidos antes de 1º de setembro de 2020 são certificados de dois anos. Os certificados emitidos a partir de 1 de setembro de 2020 são certificados de um ano.
 
 ### Quais nomes de host devo escolher? Quantos nomes de host por domínio devo escolher?
 
