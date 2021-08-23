@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] ,
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Notas de versão
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -26,15 +26,16 @@ Anúncios e informações sobre eventos futuros, incluindo sessões do criador d
 
 ## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade
 
-* **Quarta-feira, 11 de agosto de 2021**
+* **quarta-feira, 8 de setembro de 2021**
 * **8h (PDT, UTC -7)**
-* **[Clique aqui para obter mais informações e para se inscrever](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
+* **[Clique aqui para obter mais informações e para se inscrever](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-O Consultor Principal de Soluções para [!DNL Adobe Target], James McTiernan, responderá às perguntas dos clientes relacionadas às suas áreas de conhecimento em [!DNL Target]:
+Vishal Chordia, Gerente Sênior de Produtos para [!DNL Adobe Target], responderá as perguntas dos clientes relacionadas a suas áreas de conhecimento:
 
-* Recommendations
-* Testes A/B e multivariados (MVT)
-* Personalização
+* [!DNL Adobe Experience Platform]
+* Personalização baseada em público-alvo
+* [!DNL Real-time Customer Data Platform] Integração do (RTCDP) com  [!DNL Target]
+* Tópicos gerais [!DNL Target]
 
 ## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
 
