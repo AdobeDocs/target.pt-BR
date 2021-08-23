@@ -2,13 +2,12 @@
 keywords: Analytics como fonte de relatórios; a4t; A4T; requisitos
 description: Saiba como configurar os requisitos da conta de usuário necessários para criar uma atividade baseada em Adobe Analytics no Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
 title: Quais requisitos de permissão de usuário são necessários para o A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 36%
 
 ---
@@ -29,7 +28,7 @@ Conclua as seguintes tarefas no [!DNL Adobe Experience Cloud] [Admin Console](ht
 
 Suas contas de usuário do [!DNL Analytics] e do [!DNL Target] devem estar vinculadas a sua Adobe ID.
 
-Para obter mais informações, consulte [Organizações e vinculação de contas](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Para obter mais informações, consulte [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configurar a associação do grupo da Experience Cloud
 
