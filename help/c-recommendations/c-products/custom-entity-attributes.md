@@ -5,8 +5,7 @@ title: Como Posso Usar Atributos De Entidade Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
@@ -25,7 +24,7 @@ O tamanho máximo dos atributos personalizados da entidade de valor único é de
 
 Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
-## Valores de atributos de entidade personalizados {#section_313331A9F8194A89B5EDD89363018651}
+## Valores de atributo de entidade personalizada {#section_313331A9F8194A89B5EDD89363018651}
 
 Atributos de entidade personalizados podem conter um único valor ou vários valores. Valores de atributos da entidade são exibidos na visualização do produto.
 
@@ -127,7 +126,7 @@ Você pode passar atributos de vários valores usando a API de entrega em um par
   }
 ```
 
-Consulte a [documentação da API do Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) para obter informações sobre como usar as APIs de entidades de Entrega e Salvar.
+Consulte a [documentação da API do Adobe Recommendations](https://developers.adobetarget.com/api/recommendations) para obter informações sobre como usar as APIs de entidades de Entrega e Salvar.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
