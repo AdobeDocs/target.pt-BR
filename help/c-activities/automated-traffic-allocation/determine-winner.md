@@ -4,7 +4,7 @@ description: Saiba como interpretar os resultados de uma atividade de Alocação
 title: Como interpreto os relatórios de alocação automática?
 feature: Alocação automática
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -41,15 +41,15 @@ No final de uma atividade A/B, a Alocação automática garante que o vencedor d
 
 Não usamos a confiança baseada em valor p para alocação automática.
 
-A coluna Confiança em uma atividade de Alocação automática (ilustrada abaixo) exibe a probabilidade de uma experiência ser a vencedora com margem de erro de 1% (ou seja, o algoritmo usa um efeito mínimo detectável de 1% entre a melhor e a segunda melhor taxa de conversão). Observe que o algoritmo usa [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) para computar esta probabilidade.
+A coluna Confiança em uma atividade de Alocação automática (ilustrada abaixo) exibe a probabilidade de uma experiência ser a vencedora com margem de erro de 1% (ou seja, o algoritmo usa um efeito mínimo detectável de 1% entre a melhor e a segunda melhor taxa de conversão). Observe que o algoritmo usa [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) para computar esta probabilidade.
 
 Testes A/B normais calculam a confiança com base nos valores de p. A Alocação automática não usa valores p. Os valores de P calculam &quot;vagamente&quot; a probabilidade de que uma determinada experiência seja diferente do controle. Esses valores p podem ser usados apenas para determinar se uma experiência pode ser diferente do controle. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
 
 >[!IMPORTANT]
 >
->O Target mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre basear-se nos resultados da calculadora de tamanho da amostra do Adobe Target [. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) O Target não considera as taxas de conversão básicas de um site e outros aspectos importantes que são alimentados pela calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte [Calculadora de tamanho de amostra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>O Target mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre basear-se nos resultados da calculadora de tamanho da amostra do Adobe Target [. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) O Target não considera as taxas de conversão básicas de um site e outros aspectos importantes que são alimentados pela calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte [Calculadora de tamanho de amostra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Entenda os relatórios de lift e confiança nas atividades de alocação automática {#lift-confidence}
+## Entender os relatórios de lift e confiança nas atividades de alocação automática {#lift-confidence}
 
 Nas atividades de Alocação automática, a primeira experiência (por padrão, chamada Experiência A) é sempre definida como uma experiência de &quot;Controle&quot; na guia Relatórios . Esta experiência não é tratada como um verdadeiro controle estatístico na modelagem usada para determinar o desempenho das experiências, mas é tratada como uma referência ou uma linha de base para alguns valores no relatório.
 
