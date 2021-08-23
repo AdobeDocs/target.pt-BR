@@ -2,12 +2,11 @@
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; relatório; relatórios; exibir relatórios; relatórios; metodologia de contagem; impressões; visitantes; visitas; métrica padrão; conversões de atividade; não especificado
 description: Encontre respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics para  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
 title: Encontrar respostas para perguntas sobre como visualizar relatórios com o A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2538'
 ht-degree: 37%
 
 ---
@@ -18,11 +17,11 @@ Este tópico contém respostas para as perguntas mais frequentes sobre como visu
 
 ## Posso exibir meus dados de atividade [!DNL Target] no Analysis Workspace? {#workspace}
 
-Você pode usar [!DNL Analysis Workspace] para analisar suas atividades e experiências [!DNL Target]. O [painel Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) permite que você veja o incentivo e a confiança de até três métricas de sucesso. Também é possível pesquisar mais fundo usando tabelas e visualizações.
+Você pode usar [!DNL Analysis Workspace] para analisar suas atividades e experiências [!DNL Target]. O [painel Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=pt-BR) permite que você veja o incentivo e a confiança de até três métricas de sucesso. Também é possível pesquisar mais fundo usando tabelas e visualizações.
 
 Para obter informações e exemplos detalhados, abra o [Analytics &amp; Target: Tutorial de práticas recomendadas para análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pela Adobe Experience League.
 
-## Onde os segmentos podem ser aplicados na Analysis Workspace? {#segmentation}
+## Onde os segmentos podem ser aplicados no Analysis Workspace? {#segmentation}
 
 Os segmentos são usados com mais frequência na parte superior de um painel na área de soltar segmentos. O segmento é aplicado a todas as tabelas e visualizações no painel. Essa técnica é mais útil para ver como o teste afeta um subconjunto de pessoas (por exemplo, como esse teste funcionou para pessoas no Reino Unido)?
 
@@ -67,7 +66,7 @@ Para avaliar métricas precisas [!UICONTROL Impressões de atividade] e [!UICONT
 
 &quot;Conversões de atividade&quot; ficam vazias se uma métrica [!DNL Analytics] foi selecionada como a métrica de conversão da atividade.
 
-## Por que vejo &quot;não especificado&quot; nos relatórios do Analytics? O que isso significa?   {#unspecified}
+## Por que vejo &quot;não especificado&quot; nos relatórios do Analytics? O que isso significa?  {#unspecified}
 
 Em outros relatórios, &quot;não especificado&quot; significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir &quot;não especificado&quot;, o serviço de classificação ainda não foi executado. Em geral, pode levar entre 24 e 72 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
 
@@ -134,7 +133,7 @@ A métrica [!UICONTROL Visitantes únicos] exibe o número de pessoas que foram 
 
 Você pode encurtar o tempo em que a variável [!DNL Target] persiste até uma sessão; no entanto, isso é problemático para testes em que o evento de conversão não é tão provável de acontecer na mesma sessão.
 
-## Por que o mesmo visitante às vezes é contado em várias experiências no Analytics?   {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Por que o mesmo visitante às vezes é contado em várias experiências no Analytics?  {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 A lista a seguir explica os motivos pelos quais o mesmo visitante pode ser contado em várias experiências no [!DNL Analytics]:
 
@@ -142,9 +141,9 @@ A lista a seguir explica os motivos pelos quais o mesmo visitante pode ser conta
 * Se o visitante estiver usando o `mbox3rdPartyId`, quando o visitante anônimo for mesclado ao perfil de ID de terceiros, [!DNL Target] poderá colocar o visitante em uma experiência diferente para corresponder ao ID de terceiros. Para obter mais informações, consulte [Sincronização de perfil em tempo real para mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] O pode estar rastreando diferentes dispositivos como o mesmo visitante de uma maneira diferente que  [!DNL Target] rastreia esses dispositivos: a configuração da ID de terceiros no  [!DNL Target] é diferente da configuração do Analytics.
 
-## O A4T suporta conjuntos de relatórios virtuais?
+## O A4T suporta conjuntos de relatórios virtuais? {#virtual}
 
-Os conjuntos de relatórios virtuais *não* estão incluídos na lista de Conjunto de relatórios e os públicos-alvo de conjuntos de relatórios virtuais não são suportados nos relatórios A4T.
+Embora os conjuntos de relatórios virtuais não estejam incluídos na lista [!UICONTROL Conjunto de relatórios], todos os dados A4T compartilhados com um conjunto de relatórios vinculado a um conjunto de relatórios virtual em [!DNL Analytics] têm acesso a esses dados. Observe que qualquer público-alvo criado de um conjunto de relatórios virtual não pode ser compartilhado novamente em [!DNL Target].
 
 ## É possível alterar a porcentagem da alocação de tráfego em uma atividade que usa o A4T depois de ativá-la?
 
