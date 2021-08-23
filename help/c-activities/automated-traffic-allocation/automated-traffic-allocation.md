@@ -4,7 +4,7 @@ description: Saiba como usar uma atividade de Alocação automática no Adobe [!
 title: O que é uma atividade de alocação automática?
 feature: Alocação automática
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
@@ -33,7 +33,7 @@ Nesses testes, a maioria dos produtos, incluindo [!DNL Target], usa um teste t d
 
 [!UICONTROL A alocação automática executa todas as comparações implícitas entre as experiências e produz um vencedor &quot;verdadeiro&quot;. ] Não há noção de experiência de &quot;controle&quot; no teste.
 
-[!UICONTROL A ] alocação automática aloca novos visitantes de forma inteligente para experiências até que o intervalo de confiança da melhor experiência não se sobreponha ao intervalo de confiança de qualquer outra experiência. Normalmente, este processo pode produzir falsos positivos, mas [!UICONTROL A alocação automática] usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) que compensa avaliações repetidas. Neste ponto, há um verdadeiro vencedor. Quando [!UICONTROL Alocação automática] é interrompida, desde que não haja uma dependência de tempo substancial para os visitantes que chegam à página, há pelo menos 95% de chance de que [!UICONTROL Alocação automática] retorne uma experiência cuja resposta verdadeira não seja pior do que 1% (relativa) menos do que a verdadeira resposta da experiência vencedora.
+[!UICONTROL A ] alocação automática aloca novos visitantes de forma inteligente para experiências até que o intervalo de confiança da melhor experiência não se sobreponha ao intervalo de confiança de qualquer outra experiência. Normalmente, este processo pode produzir falsos positivos, mas [!UICONTROL A alocação automática] usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) que compensa avaliações repetidas. Neste ponto, há um verdadeiro vencedor. Quando [!UICONTROL Alocação automática] é interrompida, desde que não haja uma dependência de tempo substancial para os visitantes que chegam à página, há pelo menos 95% de chance de que [!UICONTROL Alocação automática] retorne uma experiência cuja resposta verdadeira não seja pior do que 1% (relativa) menos do que a verdadeira resposta da experiência vencedora.
 
 ## Quando usar [!UICONTROL Alocação automática] versus A/B ou [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
