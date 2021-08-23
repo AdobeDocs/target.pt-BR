@@ -4,9 +4,9 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Públicos-alvo
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 50%
 
 ---
@@ -142,7 +142,7 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
    * Os scripts de perfil devem ser testados no desempenho antes de serem adicionados a [!DNL Target]. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações da mbox levarão mais tempo para serem executadas, o que pode afetar o tráfego e a conversão.
    * Se os scripts de perfil se tornarem muito complexos, considere usar [tokens de resposta](/help/administrating-target/response-tokens.md).
 
-* Consulte a documentação do mecanismo JS Rhino para obter mais informações: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Consulte a documentação do mecanismo JS Rhino para obter mais informações.
 
 ## Depurar scripts de perfil {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
