@@ -4,10 +4,9 @@ description: Saiba mais sobre as atividades do Recommendations no Adobe  [!DNL T
 title: O que são as atividades do Recommendations?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '2115'
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+workflow-type: tm+mt
+source-wordcount: '2107'
 ht-degree: 100%
 
 ---
@@ -197,4 +196,4 @@ Após concluir as tarefas ilustradas no funil de recomendações descrito acima,
 
 ## Webinário de noções básicas do Adobe [!DNL Target]: introdução ao Recommendations {#intro-to-recs}
 
-[Introdução ao Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introdução ao Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
