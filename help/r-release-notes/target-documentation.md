@@ -4,10 +4,10 @@ description: Acesse a documentação do Adobe  [!DNL Target] , incluindo ajuda o
 title: Onde posso encontrar a documentação do Target?
 feature: Notas de versão
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '467'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Esta é uma breve descrição dos tipos mais comuns de documentação disponíve
 | [Documentação do produto Adobe Target](/help/target-home.md)<br> (Este guia) | Informações gerais, etapas e capturas de tela para interagir com o [!DNL Target] por meio da interface do usuário. Este manual descreve todas as ações e opções disponíveis, incluindo as armadilhas que devem ser evitadas. Este é o recurso mais detalhado para trabalhar com a interface do usuário do [!DNL Target]. |
 | [Tutoriais do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR) | Vídeos e tutoriais para ajudá-lo a conhecer os vários componentes do [!DNL Target]. |
 | [Biblioteca de conteúdo do Adobe Experience League Target](https://guided.adobe.com/#recommended/solutions/target) | Uma coleção de vídeos de instruções e tutoriais que destaca os recursos do [!DNL Target] disponíveis na página do [!DNL Adobe Target Experience League]. |
-| [Documentação do Adobe Experience Platform Launch Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informações sobre a implementação do [!DNL Target] usando o [!DNL Adobe Experience Platform Launch], a plataforma de gerenciamento de tags de próxima geração da [!DNL Adobe]. Este é o método preferido para implementar o [!DNL Target]. |
+| [Documentação do Adobe Experience Platform Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informações sobre como implementar [!DNL Target] usando tags em [!DNL Adobe Experience Platform], a plataforma de gerenciamento de tags de próxima geração em [!DNL Adobe]. Este é o método preferido para implementar o [!DNL Target]. |
 | [Office Hours do atendimento ao cliente da Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informações sobre o &quot;Office Hours&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Essas sessões foram criadas para informar e ajudar os participantes a solucionar problemas e fornecer dicas e truques para obter sucesso com as soluções da [!DNL Adobe Experience Cloud], incluindo o [!DNL Target]. |
 | [Série de webinários de noções básicas do Target](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Informações de registro e links para sessões anteriores da Série de webinários de noções básicas do [!DNL Target], uma Série de webinários de sucesso do cliente disponibilizada para você pela Comunidade |
 | [Desenvolvedores do Adobe Target](https://developers.adobetarget.com/) | As informações sobre o site de desenvolvedores do Adobe Target ajudam a implementar o [!DNL Target] em aplicativos do lado do cliente, aplicativos do lado do servidor, aplicativos móveis, IoT e muito mais. Você também pode exportar os dados do [!DNL Target] para soluções de terceiros. |
