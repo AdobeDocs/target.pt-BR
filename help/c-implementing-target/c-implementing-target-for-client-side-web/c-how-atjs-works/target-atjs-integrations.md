@@ -5,11 +5,10 @@ title: Quais integrações a at.js suporta?
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 91%
+source-wordcount: '480'
+ht-degree: 82%
 
 ---
 
@@ -26,7 +25,7 @@ Se você tiver muita necessidade de uma integração que não seja compatível o
 | Analytics for Target (A4T) | Consulte [Adobe Analytics como Fonte de relatórios do Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). |
 | Perfis e públicos (P&amp;A) | Consulte [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) no *Guia do Usuário dos Serviços Principais*. |
 | Serviço da Experience Cloud ID | Consulte a [documentação de Serviço de ID da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
-| [!DNL Adobe Experience Platform Launch] | [!DNL Platform Launch]O é a plataforma de gerenciamento de tags da Adobe de próxima geração, sendo o método preferido para implementar o Adobe Target. Ele oferece aos clientes uma forma simples de implantar e gerenciar todas as tags de análise, de marketing e de anúncios necessárias para potencializar experiências de cliente relevantes. Consulte [Implementação do Target usando o Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
+| Tags em [!DNL Adobe Experience Platform] | As tags em [!DNL Adobe Experience Platform] são a próxima geração de recursos de gerenciamento de tags de [!DNL Adobe]. As tags oferecem aos clientes uma forma simples de implantar e gerenciar as tags de análise, marketing e anúncios necessárias para potencializar experiências de cliente relevantes. Consulte [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
 | Serviço em nuvem do Adobe Experience Manager (AEM) | O AEM Cloud Service permite a criação de testes A/B e atividades de direcionamento de experiência no fluxo de trabalho do AEM. Compatível com a at.js com Adobe Experience Manager 6.2 e FP-11577 (ou posterior). Para obter mais informações, consulte [Integração ao Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) e selecione a sua versão do AEM. |
 | Fragmentos de experiência do AEM | Os fragmentos de experiência criados no AEM nas atividades do Target permitem combinar a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência automatizada (AI) e Aprendizagem de Máquina (ML) no Target para testar e personalizar experiências em escala. O AEM reúne todo o seu conteúdo e ativos em um local central para alimentar sua estratégia de personalização. O AEM permite que você crie conteúdo facilmente para desktops, tablets e dispositivos móveis em um único local sem escrever código. Não há necessidade de criar páginas para cada dispositivo. O AEM ajusta automaticamente cada experiência usando seu conteúdo. Consulte [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8). |
 
