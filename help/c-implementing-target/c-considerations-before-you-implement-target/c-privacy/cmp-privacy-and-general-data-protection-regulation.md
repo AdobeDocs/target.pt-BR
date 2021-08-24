@@ -5,10 +5,10 @@ title: Como o [!DNL Target] lida com os regulamentos de privacidade e proteção
 feature: Privacidade e segurança
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2ee87e2c6e8bbdb62eedf709e6454a0467197749
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2204'
-ht-degree: 59%
+source-wordcount: '2195'
+ht-degree: 58%
 
 ---
 
@@ -51,9 +51,9 @@ Se estava ocupado se preparando para a lei de privacidade da Europa (GDPR) no an
 >
 >O acesso e a exclusão de dados conforme se aplicam à CCPA seguem o mesmo processo do GDPR.
 
-## Adobe [!DNL Target] e [!DNL Adobe Experience Platform Launch] opt in {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] e [!DNL Adobe Experience Platform] opt in {#section_6F7B53F5E40C4425934627B653E831B0}
 
-O [!DNL Target] oferece suporte à funcionalidade de opt-in por meio do [!DNL Platform Launch], para ajudar a apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Platform Launch] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar o Opt-in na biblioteca at.js do [!DNL Target], você deve usar `targetGlobalSettings` e adicionar a configuração do `optinEnabled=true`. Em [!DNL Platform Launch], selecione &quot;ativar&quot; na lista suspensa [!UICONTROL GDPR Opt-In] na exibição de instalação da extensão [!DNL Platform Launch]. Consulte a [documentação do Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
+[!DNL Target] O oferece suporte à funcionalidade de inclusão por meio de tags no  [!DNL Adobe Experience Platform] para ajudar a apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Adobe Experience Platform] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar o Opt-in na biblioteca at.js do [!DNL Target], você deve usar `targetGlobalSettings` e adicionar a configuração do `optinEnabled=true`. Em [!DNL Adobe ExperiencePlatform], selecione &quot;ativar&quot; na lista suspensa [!UICONTROL GDPR Opt-In] na exibição de instalação da extensão. Consulte [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
 
 O trecho de código a seguir mostra como ativar a configuração `optinEnabled=true`:
 
@@ -67,13 +67,13 @@ window.targetGlobalSettings = {
 >
 >A funcionalidade de Opt-in é compatível com o at.js versão 1.7.0 e o at.js 2.1.0 ou posterior. O Opt-in não é compatível com o at.js versões 2.0.0 e 2.0.1.
 >
->O uso do [!DNL Platform Launch] para gerenciar o opt-in é a abordagem recomendada. Existe ainda mais controle granular em [!DNL Platform Launch] para ocultar elementos selecionados da sua página, antes do acionamento de [!DNL Target], que é útil para usar como parte de sua estratégia de consentimento.
+>O uso do [!DNL Adobe Experience Platform] para gerenciar o opt-in é a abordagem recomendada. Existe ainda mais controle granular em [!DNL Adobe Experience Platform] para ocultar elementos selecionados da sua página, antes do acionamento de [!DNL Target], que é útil para usar como parte de sua estratégia de consentimento.
 
 Há três cenários a serem considerados ao usar a inclusão:
 
-1. **A tag do [!DNL Target] é pré-aprovada por meio do [!DNL Platform Launch] (ou pelo titular dos dados previamente aprovado pelo [!DNL Target]):** a tag do [!DNL Target] não é mantida para consentimento e funciona conforme esperado.
+1. **A tag do [!DNL Target] é pré-aprovada por meio do [!DNL Adobe Experience Platform] (ou pelo titular dos dados previamente aprovado pelo [!DNL Target]):** a tag do [!DNL Target] não é mantida para consentimento e funciona conforme esperado.
 1. **[!DNL Target]A tag do NÃO é pré-aprovada e `bodyHidingEnabled` é FALSE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. Após o recebimento do consentimento, o [!DNL Target] é chamado e o conteúdo personalizado fica disponível para o titular dos dados (visitante). Como somente o conteúdo padrão está disponível antes do consentimento, é importante usar uma estratégia apropriada, como uma página inicial que cubra qualquer parte da página ou conteúdo que possa ser personalizado. Esse processo garante que a experiência permaneça consistente para o titular dos dados (visitante).
-1. **[!DNL Target]A tag do NÃO é pré-aprovada e `bodyHidingEnabled` é TRUE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. No entanto, como `bodyHidingEnabled` é definido para verdadeiro, `bodyHiddenStyle` determina qual conteúdo na página fica oculto até que a tag do seja acionada (ou o titular dos dados recuse a inclusão, sendo que nesse caso o conteúdo padrão é exibido). [!DNL Target] Por padrão, `bodyHiddenStyle` está definido como `body { opacity:0;}`, o que oculta a tag do corpo HTML. Adobe, configuração de página recomendada é apresentada abaixo para que todo o corpo da página, diferente da caixa de diálogo de consentimento, fique oculto, colocando o conteúdo da página em um e a caixa de diálogo de consentimento em um contêiner separado. Essa configuração define o [!DNL Target] para que ele apenas oculte o container da página. Consulte a documentação do Platform launch [para obter mais informações sobre como definir essas configurações](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
+1. **[!DNL Target]A tag do NÃO é pré-aprovada e `bodyHidingEnabled` é TRUE:** A tag do é acionada somente após o consentimento ser coletado do cliente. [!DNL Target] Antes de o consentimento ser coletado, apenas o conteúdo padrão está disponível. No entanto, como `bodyHidingEnabled` é definido para verdadeiro, `bodyHiddenStyle` determina qual conteúdo na página fica oculto até que a tag do seja acionada (ou o titular dos dados recuse a inclusão, sendo que nesse caso o conteúdo padrão é exibido). [!DNL Target] Por padrão, `bodyHiddenStyle` está definido como `body { opacity:0;}`, o que oculta a tag do corpo HTML. Adobe, configuração de página recomendada é apresentada abaixo para que todo o corpo da página, diferente da caixa de diálogo de consentimento, fique oculto, colocando o conteúdo da página em um e a caixa de diálogo de consentimento em um contêiner separado. Essa configuração define o [!DNL Target] para que ele apenas oculte o container da página. Consulte a [Visão geral do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
 
    A configuração de página recomendada para o cenário 3 é:
 
@@ -145,9 +145,9 @@ O GDPR e a CCPA não mudam quando é necessário obter consentimento, mas como o
 
 No momento, a [!DNL Adobe] não oferece uma Solução de gerenciamento de consentimento, mas há várias ferramentas em desenvolvimento no mercado para atender a alguns dos novos requisitos. Para obter mais informações sobre as ferramentas de privacidade em geral, incluindo gerenciadores de consentimento, consulte o [Relatório de fornecedores de tecnologia de privacidade de 2017](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) no site da *Associação Internacional de Profissionais de Privacidade (iaap)*.
 
-[!DNL Target] O oferece suporte à funcionalidade de opt-in por meio do  [!DNL Platform Launch] para apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Platform Launch] para pré-aprovar a tag do [!DNL Target]. O uso do [!DNL Platform Launch] para gerenciar o opt-in é a abordagem recomendada. Existe ainda mais controle granular em [!DNL Platform Launch] para ocultar elementos selecionados da página, antes do acionamento de [!DNL Target], que pode ser útil para usar como parte de sua estratégia de consentimento.
+[!DNL Target] O oferece suporte à funcionalidade de opt-in por meio do  [!DNL Adobe Experience Platform] para apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Adobe Experience Platform] para pré-aprovar a tag do [!DNL Target]. O uso do [!DNL Adobe Experience Platform] para gerenciar o opt-in é a abordagem recomendada. Existe ainda mais controle granular em [!DNL Adobe Experience Platform] para ocultar elementos selecionados da página, antes do acionamento de [!DNL Target], que pode ser útil para usar como parte de sua estratégia de consentimento.
 
-Para obter mais informações sobre GDPR, CCPA e [!DNL Launch], consulte [A biblioteca JavaScript de privacidade do Adobe e o GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Além disso, consulte a seção *Opt-in do Adobe Target e da Experience Platform Launch* acima.
+Para obter mais informações sobre GDPR, CCPA e [!DNL Adobe Experience Platform], consulte [A biblioteca JavaScript de privacidade do Adobe e o GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Além disso, consulte a seção *Adobe Target e Adobe Experience Platform opt-in* acima.
 
 ### `AdobePrivacy.js`O   envia informações para a API do GDPR? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
