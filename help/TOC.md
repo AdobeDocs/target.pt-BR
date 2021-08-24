@@ -3,10 +3,10 @@ user-guide-title: 'Manual do Adobe [!DNL Target] '
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
-workflow-type: ht
-source-wordcount: '1540'
-ht-degree: 100%
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+workflow-type: tm+mt
+source-wordcount: '1541'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 100%
             + [Integrações da at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + Como implantar a at.js {#deploy-at-js}
             + [Como implantar a at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Implementar o Target usando o Platform Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [Implementar o Target usando o Adobe Experience Platform](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Implementação do Target sem um gerenciador de tags](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [Implementar o Target usando o gerenciador dinâmico de tags (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [Implementar o Target para Aplicativos de página única (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
