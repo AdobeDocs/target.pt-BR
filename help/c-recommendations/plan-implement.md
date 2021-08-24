@@ -4,10 +4,10 @@ description: 'Saiba como implementar atividades do Recommendations no Adobe Targ
 title: Como Implementar As Atividades Do Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 94%
+source-wordcount: '1553'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Para obter informações sobre os atributos nos exemplos, consulte  [Atributos d
 
 É necessária uma formatação de JSON válida.
 
-A função `targetPageParams` mostrada abaixo é especialmente útil se estiver usando uma solução de gerenciamento de tags para implementar suas páginas. [!DNL Adobe Experience Platform Launch] O adiciona a referência at.js/mbox.js e a  `targetPageParams` função na página e permite configurar os valores. Você deve colocar essa função antes da chamada de at.js/mbox.js ou colocá-la na seção JavaScript adicional da at.js/mbox.js.
+A função `targetPageParams` mostrada abaixo é especialmente útil se estiver usando uma solução de gerenciamento de tags para implementar suas páginas. As tags em [!DNL Adobe Experience Platform] colocam a referência at.js/mbox.js e a função `targetPageParams` na página e permitem configurar os valores. Você deve colocar essa função antes da chamada de at.js/mbox.js ou colocá-la na seção JavaScript adicional da at.js/mbox.js.
 
 ## Todas as páginas {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
