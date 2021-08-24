@@ -4,11 +4,10 @@ description: Os visores móveis ajudam você a visualizar como suas atividades d
 title: Como uso janelas de visualização móvel para experiências responsivas?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 36%
+source-wordcount: '1159'
+ht-degree: 38%
 
 ---
 
@@ -32,7 +31,7 @@ Abaixo estão os visores e as resoluções para dispositivos populares. Lembre-s
 
 >[!NOTE]
 >
->Vários sites listam os tamanhos da janela de visualização de dispositivos populares. Por exemplo, consulte [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Consulte o site do fabricante do dispositivo para obter as informações mais precisas e atualizadas.
+>Vários sites listam os tamanhos da janela de visualização de dispositivos populares. Por exemplo, consulte `https://viewportsizer.com/devices/`. Consulte o site do fabricante do dispositivo para obter as informações mais precisas e atualizadas.
 
 | Dispositivo | Tamanho da janela de visualização (largura x altura) | Resolução do dispositivo (largura x altura) |
 |---|---|---|
@@ -133,9 +132,9 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
 
 >[!NOTE]
 >
->Se você tentar excluir uma janela de visualização móvel que está em uso, a seguinte mensagem será exibida: &quot;No momento, essa janela de visualização está associada a uma ou várias atividades. Você precisa remover o visor dessas atividades antes de poder excluí-lo.&quot;
+>Se você tentar excluir uma janela de visualização móvel que está em uso, a seguinte mensagem será exibida: &quot;No momento, essa janela de visualização está associada a uma ou várias atividades. Você precisa remover o visor dessas atividades antes de poder exclui-lo.&quot;
 
-## Crie uma experiência responsiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Criar uma experiência responsiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 Adicione janelas de visualização móvel às suas atividades [!DNL Target] para criar experiências responsivas para telas de dispositivos móveis.
 
@@ -166,7 +165,7 @@ Adicione janelas de visualização móvel às suas atividades [!DNL Target] para
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Visual Experience Composer (2 de 2) (7:29)  ![Selo de visão geral](/help/assets/overview.png)
+### Visual Experience Composer (2 de 2) (7:29) ![Selo de visão geral](/help/assets/overview.png)
 
 O vídeo de demonstração a seguir inclui informações sobre o uso do Visual Experience Composer para funcionar com visores móveis:
 
