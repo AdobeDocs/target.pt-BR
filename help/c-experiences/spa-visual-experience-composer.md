@@ -2,12 +2,12 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;opções de spa do experience composer;single page apps;single-page-app;spa;opções do mobile experience;exibição do target
 description: Saiba como usar o VEC SPA no Adobe [!DNL Target] para criar testes e personalizar conteúdo no SPA de maneira autônoma, sem dependências contínuas de desenvolvimento.
 title: Como uso o Visual Experience Composer (VEC de SPA de aplicativo de página única)?
-feature: 'Visual Experience Composer (VEC) '
+feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
-ht-degree: 91%
+source-wordcount: '3702'
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![Caixa de diálogo Detalhes da implementação](/help/c-experiences/assets/imp-200.png)
 
-   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio do [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis.
+   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio de tags em [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
 
 1. Implemente a função mais recente da at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) em seus sites.
 
