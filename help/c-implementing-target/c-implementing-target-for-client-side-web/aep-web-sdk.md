@@ -5,7 +5,7 @@ title: Como implementar com o SDK da Web do Experience Platform?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # SDK da Web da Adobe Experience Platform
 
-[!DNL Adobe Experience Platform Web SDK] (AEP Web SDK) é uma biblioteca JavaScript do lado do cliente que permite que os clientes do  [!DNL Adobe Experience Cloud] interajam com os vários serviços no Experience Cloud (incluindo  [!DNL Target]) por meio da  [!UICONTROL Adobe Experience Platform Edge Network]. Além da biblioteca do JavaScript, há uma extensão [!DNL Experience Platform Launch] para ajudar nas configurações do SDK da Web.
+[!DNL Adobe Experience Platform Web SDK] (AEP Web SDK) é uma biblioteca JavaScript do lado do cliente que permite que os clientes do  [!DNL Adobe Experience Cloud] interajam com os vários serviços no Experience Cloud (incluindo  [!DNL Target]) por meio da  [!UICONTROL Adobe Experience Platform Edge Network]. Além da biblioteca do JavaScript, há uma extensão [!DNL Adobe Experience Platform] para ajudar nas configurações do SDK da Web.
 
 Para obter mais informações, consulte os seguintes links na ajuda do *Adobe Experience Platform Web SDK*:
 
