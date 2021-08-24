@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: Quais novos recursos estão incluídos na versão atual?
 feature: Notas de versão
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 59%
+source-wordcount: '694'
+ht-degree: 61%
 
 ---
 
@@ -35,11 +35,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 Para obter mais informações sobre esta versão e versões anteriores, consulte o [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) na [Target node.js SDK documentation](https://github.com/adobe/target-nodejs-sdk) no Github.
 
-## [!DNL Target Standard/Premium] 21.8.1 (Data a ser determinada)
-
->[!NOTE]
->
->A versão [!DNL Target Standard/Premium] 21.8.1 foi adiada. Em vez de ser lançado em 4 de agosto de 2021, a versão 21.8.1 será lançada nos próximos dias. Mais detalhes quando disponíveis.
+## [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
 
 Esta versão de manutenção contém vários aprimoramentos de backend, incluindo a seguinte alteração voltada para o cliente:
 
