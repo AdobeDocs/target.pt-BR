@@ -4,7 +4,7 @@ description: Siga as etapas necessárias para implementar as soluções Analytic
 title: Como implementar o Analytics para [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 25%
@@ -29,7 +29,7 @@ Os requisitos da conta do usuário devem ser atendidos antes que você possa cri
 
 ### Etapa 3: Criar uma configuração de Edge
 
-Crie uma configuração de borda usando [!DNL Adobe Experience Platform Launch] usando a ferramenta de configuração de borda. Defina as configurações de [[!DNL Analytics] and [!DNL Target] borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Crie uma configuração de borda usando [!DNL Adobe Experience Platform] usando a ferramenta de configuração de borda. Defina as configurações de [[!DNL Analytics] and [!DNL Target] borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
 
 ### Etapa 4: Instalar e configurar o SDK da Web da plataforma
 
