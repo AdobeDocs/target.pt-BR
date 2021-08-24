@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Notas de versão
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 59%
+source-wordcount: '351'
+ht-degree: 58%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 3 de agosto de 2021**
+**Última atualização: 24 de agosto de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -25,7 +25,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Para evitar possíveis problemas com seus sites, migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js de JavaScript. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.8.1 (Data a ser determinada)
+## [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
 
 Esta versão de manutenção contém vários aprimoramentos de backend, incluindo a seguinte alteração voltada para o cliente:
 
