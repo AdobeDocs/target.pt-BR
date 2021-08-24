@@ -4,11 +4,10 @@ description: Saiba como usar o Adobe [!DNL Target] at.js 2.x to implement [!DNL 
 title: Posso implementar [!DNL Target] para Aplicativos de página única (SPA)?
 feature: Implementar o lado do servidor
 role: Developer
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 72%
+source-wordcount: '2771'
+ht-degree: 71%
 
 ---
 
@@ -71,7 +70,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores da at.js e mbox.js não são compatíveis com as Exibições do Adobe Target e o VEC para SPAs.
 
-   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio do Adobe Launch. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
+   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio de tags em [!DNL Adobe Experience Platform]. No entanto, as extensões [!DNL Adobe Target] não estão atualizadas no momento e são compatíveis.
 
 1. Implemente a função mais recente da at.js 2.x, `triggerView()`, em seus sites.
 
@@ -269,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >Você deve acionar os eventos `at-view-start` e `at-view-end`. Esses eventos não fazem parte dos eventos personalizados da at.js.
 
-Embora esses exemplos usem código JavaScript, tudo isso pode ser simplificado se você estiver usando um gerenciador de tags, como o [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Embora esses exemplos usem código JavaScript, tudo isso pode ser simplificado se você estiver usando um gerenciador de tags, como tags em [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 Se as etapas anteriores forem seguidas, você terá uma solução A4T robusta para SPAs.
 
@@ -305,7 +304,7 @@ As informações a seguir descrevem a ordem das operações que devem ser seguid
 
 Os seguintes vídeos contêm mais informações:
 
-### Noções básicas sobre o funcionamento da at.js 2.x  ![Selo de visão geral](/help/assets/overview.png)
+### Noções básicas sobre o funcionamento da at.js 2.x ![Selo de visão geral](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
