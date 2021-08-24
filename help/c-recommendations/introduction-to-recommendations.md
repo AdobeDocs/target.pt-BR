@@ -4,10 +4,10 @@ description: Saiba mais sobre as atividades do Recommendations no Adobe  [!DNL T
 title: O que são as atividades do Recommendations?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
 source-wordcount: '2107'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Em seguida, você deve adicionar tags ou aproveitar a implementação existente 
 
 Você precisa garantir que o [!DNL Target] esteja ciente dos itens que os usuários estão vendo e comprando. Se a compra não for relevante para o contexto, talvez você queira rastrear um tipo diferente de evento de conversão, por exemplo, baixar um PDF, concluir uma pesquisa, inscrever-se em um boletim informativo, assistir a um vídeo e assim por diante.
 
-Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil definir essa etapa usando um gerenciador de tags, como o [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Também é possível enviar interações offline ou no aplicativo para o [!DNL Target] por meio da API em tempo real.
+Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil configurar isso usando um gerenciador de tags, como tags em [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Também é possível enviar interações offline ou no aplicativo para o [!DNL Target] por meio da API em tempo real.
 
 ### Obter recomendações com o contexto adequado
 
