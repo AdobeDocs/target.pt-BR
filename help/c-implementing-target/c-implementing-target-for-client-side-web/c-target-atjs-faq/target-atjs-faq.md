@@ -5,10 +5,10 @@ title: Quais são as perguntas e respostas comuns sobre a at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 75%
+source-wordcount: '2543'
+ht-degree: 77%
 
 ---
 
@@ -89,7 +89,7 @@ A versão da at.js 1.0.0 permite carregar a biblioteca do Target de forma assín
 
 Para carregar a at.js de forma assíncrona:
 
-* A abordagem recomendada é via [!DNL Adobe Experience Platform Launch]. Consulte a lição [Adicionar Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) do tutorial [Implementar o Experience Cloud em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) para obter mais informações.
+* A abordagem recomendada é por meio de tags em [!DNL Adobe Experience Platform].
 * Também é possível carregar a at.js de forma assíncrona, adicionando o atributo async à tag do script que carrega a at.js. Use algo assim:
 
    ```
@@ -109,7 +109,7 @@ Carregar a at.js de forma assíncrona é uma ótima maneira de evitar o bloqueio
 
 Você pode evitar a cintilação usando um trecho oculto previamente, que oculta a página (ou partes especificadas) e a revela depois que a at.js e a solicitação global são carregadas. O trecho deve ser adicionado antes de carregar a at.js.
 
-Se estiver implantando a at.js por meio de uma implementação assíncrona do Launch, certifique-se de incluir o trecho pré-ocultação diretamente nas páginas, antes do código Incorporado do Launch, conforme descrito no [Adicionar o trecho de pré-ocultação do Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) do [Implementar o Experience Cloud em sites com o Launch tutorial](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html).
+Se estiver implantando a at.js por meio de uma implementação assíncrona [!DNL Adobe Experience Platform], certifique-se de incluir o trecho pré-ocultação diretamente nas páginas, antes de Implementar [!DNL Target] usando [!DNL Adobe Experience Platform] código Incorporado.
 
 Se estiver implantando a at.js por meio de uma implementação DTM síncrona, o snippet de pré-ocultação pode ser adicionado por uma regra de Carregamento de página acionada na parte superior da página.
 
