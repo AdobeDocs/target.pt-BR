@@ -2,13 +2,13 @@
 keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração de produto; perfil de produto; funções; projeto
 description: Saiba como criar espaços de trabalho separados (perfis de produto) e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais.
 title: O que são permissões de usuário empresarial e como usá-las?
-feature: Administração e configuração
+feature: Administração & configuração
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ Os termos a seguir são usados em toda esta seção e podem ser novidade para os
 
 ### Propriedade
 
-As propriedades têm natureza semelhante às propriedades em [!DNL Adobe Platform Launch], pois usam um snippet de código exclusivo para diferenciá-las.
+As propriedades têm natureza semelhante às propriedades em [!DNL Adobe Experience Platform], pois usam um snippet de código exclusivo para diferenciá-las.
 
 Uma propriedade da Web é uma biblioteca de regras e um código incorporado. Uma propriedade da Web pode ser qualquer agrupamento de um ou mais domínios e subdomínios.
 
@@ -265,7 +265,7 @@ As atividades criadas antes da migração continuam sendo executadas da mesma ma
 
 ### Por que recebo uma mensagem de erro indicando que nenhuma propriedade está associada a essa atividade, mesmo que haja uma propriedade atribuída?
 
-Se você implementou o [!DNL Target] com o [!DNL Adobe Experience Platform Launch] e recebeu uma mensagem de erro indicando que não há propriedade associada à atividade, passe o parâmetro `at_property` com a função `targetPageParams`.
+Se você implementou [!DNL Target] com tags em [!DNL Adobe Experience Platform] e recebeu uma mensagem de erro indicando que não há propriedade associada à atividade, passe o parâmetro `at_property` com a função `targetPageParams`.
 
 ### As conversões de rastreamento de cliques são registradas se uma página de redirecionamento e o URL da atividade pertencerem a propriedades diferentes?
 
