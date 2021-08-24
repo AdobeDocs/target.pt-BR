@@ -5,21 +5,20 @@ title: Posso implementar [!DNL Target] sem um Gerenciador de tags?
 feature: Implementar o lado do servidor
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1682'
 ht-degree: 53%
 
 ---
 
 # Implementar [!DNL Target] sem um gerenciador de tags
 
-Informações sobre como implementar [!DNL Adobe Target] sem usar um gerenciador de tags ([!DNL Adobe Experience Platform Launch]).
+Informações sobre como implementar [!DNL Adobe Target] sem usar um gerenciador de tags ou tags em [!DNL Adobe Experience Platform].
 
 >[!NOTE]
 >
->[O Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch é o método preferido para a implementação do Target e da biblioteca at.js. As informações a seguir não se aplicam ao usar o Adobe Platform launch para implementar o Target.
+>Tags em [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) é o método preferido para implementar [!DNL Target] e a biblioteca at.js. As informações a seguir não se aplicam ao usar tags em [!DNL Adobe Experience Platform] para implementar [!DNL Target].
 
 Para acessar a página [!UICONTROL Implementation], clique em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
@@ -33,7 +32,7 @@ Você pode especificar as seguintes configurações nesta página:
 
 >[!NOTE]
 >
->É possível substituir as configurações na biblioteca at.js em vez de definir as configurações na interface do usuário do Target Standard/Premium ou usar APIs REST. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>É possível substituir as configurações na biblioteca at.js em vez de definir as configurações na [!DNL Target Standard/Premium]interface do usuário do   ou usar APIs REST. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Detalhes da conta
 
@@ -41,9 +40,9 @@ Você pode visualizar os seguintes detalhes da conta. Essas configurações não
 
 | Configuração | Descrição |
 | --- | --- |
-| [!UICONTROL Código do cliente] | O código do cliente é uma sequência específica do cliente de caracteres frequentemente necessários ao usar as APIs do Target. |
+| [!UICONTROL Código do cliente] | O código do cliente é uma sequência específica do cliente de caracteres frequentemente necessários ao usar as APIs do [!DNL Target]. |
 | [!UICONTROL ID da organização IMS] | Essa ID vincula sua implementação à sua conta da [!DNL Adobe Experience Cloud]. |
-| [!UICONTROL Decisão no dispositivo] | Para ativar a decisão no dispositivo, deslize o botão para a posição &quot;ativada&quot;.<br>A tomada de decisão no dispositivo permite armazenar em cache as campanhas A/B e de Direcionamento de experiência (XT) em seu servidor e executar decisões na memória com latência próxima a zero. Para obter mais informações, consulte [Introdução ao código no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) no guia *SDKs do Adobe Target*. |
+| [!UICONTROL Decisão no dispositivo] | Para ativar a decisão no dispositivo, deslize o botão para a posição &quot;ativada&quot;.<br>A decisão no dispositivo permite armazenar em cache as campanhas A/B e  [!UICONTROL Experience Targeting]  (XT) em seu servidor e executar decisões na memória em latência próxima a zero. Para obter mais informações, consulte [Introdução ao código no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) no guia *[!DNL Adobe Target]SDKs*. |
 | [!UICONTROL Inclua todas as atividades qualificadas de decisão no dispositivo existentes no artefato.] | (Condicional) Essa opção é exibida se você ativar a tomada de decisão no dispositivo.<br>Deslize a alternância para a posição &quot;ativada&quot; se desejar que todas as atividades ativas do Target qualificadas para decisão no dispositivo sejam incluídas automaticamente no artefato.<br>Deixar essa opção desativada significa que você deve recriar e ativar quaisquer atividades de decisão no dispositivo para que elas sejam incluídas no artefato de regras gerado. |
 
 ## Métodos de implementação
