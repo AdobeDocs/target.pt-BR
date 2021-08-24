@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Notas de versão
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2252'
-ht-degree: 95%
+source-wordcount: '2279'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 24 de agosto | [ [!DNL Target] Implementação [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] A foi reformulada como um conjunto de tecnologias de coleta de dados no  [!DNL Adobe Experience Platform]. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. |
 | 23 de agosto | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade<ul><li>quarta-feira, 8 de setembro de 2021</li><li>8h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 de agosto | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Atualização das seguintes perguntas frequentes:<ul><li>O A4T suporta conjuntos de relatórios virtuais?</li></ul> |
 | 16 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md)<br>e<br>[detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição das notas de versão para a at.js 2.6.1. |
