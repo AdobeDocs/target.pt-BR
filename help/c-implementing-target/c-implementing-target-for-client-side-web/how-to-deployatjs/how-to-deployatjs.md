@@ -1,13 +1,13 @@
 ---
 keywords: implementar; at.js; biblioteca javascript
-description: Saiba como implantar a biblioteca JavaScript do Adobe [!DNL Target] at.js usando o Adobe Experience Platform Launch ou sem um gerenciador de tags.
+description: Saiba como implantar a biblioteca JavaScript do Adobe [!DNL Target] at.js usando tags no Adobe Experience Platform ou sem um gerenciador de tags.
 title: Como faço para implantar a at.js?
 feature: Implementar o lado do servidor
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 6%
 
 ---
