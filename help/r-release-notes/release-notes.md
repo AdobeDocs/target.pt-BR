@@ -1,20 +1,20 @@
 ---
 keywords: Notas de versão;novos recursos;versões;atualizações;atualização;versão;aprimoramento;aprimoramentos;correções;correções de bugs;atualizações
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na versão atual do  [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
-landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e correções incluídos na versão atual de [!DNL Adobe Target].
-title: Quais novos recursos estão incluídos na versão atual?
-feature: Notas de versão
+landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e correções incluídos na versão atual do  [!DNL Adobe Target].
+title: Quais são os novos recursos incluídos na versão atual?
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 61%
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
 # Notas de versão do Target (atual)
 
-Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão para APIs do Target, SDKs, [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações da plataforma também são incluídas, quando aplicável.
+Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão para APIs do Target, SDKs, [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 >[!IMPORTANT]
 >
@@ -30,28 +30,28 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 ## [!DNL Target] node.js SDK 2.2.0 (11 de agosto de 2021)
 
-* Coleta de dados de telemetria do SDK adicionada
+* Adição de coleção de dados de telemetria do SDK
 * Codegen do openapi do cliente da API de entrega automatizada
 
-Para obter mais informações sobre esta versão e versões anteriores, consulte o [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) na [Target node.js SDK documentation](https://github.com/adobe/target-nodejs-sdk) no Github.
+Para obter mais informações sobre esta versão e versões anteriores, consulte o [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) na [documentação do SDK node.js do Target](https://github.com/adobe/target-nodejs-sdk) no Github.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
 
 Esta versão de manutenção contém vários aprimoramentos de backend, incluindo a seguinte alteração voltada para o cliente:
 
-* Correção de um problema que fazia com que os relatórios das atividades de [!UICONTROL Personalização automática] criadas no [!UICONTROL Experience Composer baseado em formulário] referenciassem ofertas excluídas em relatórios. Esse erro gerou a seguinte mensagem de erro: &quot;Estamos tendo problemas para recuperar dados para esse relatório. Entre em contato com o Atendimento ao cliente do Adobe se o problema persistir.&quot; (TGT-41028)
+* Correção de um problema que fazia com que os relatórios das atividades de [!UICONTROL Personalização automática] criadas no [!UICONTROL Experience Composer baseado em formulário] referenciassem ofertas excluídas em relatórios. Esse erro gerava a seguinte mensagem de erro: &quot;Estamos tendo problemas para recuperar dados para esse relatório. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir.&quot; (TGT-41028)
 
 ## [!DNL Target Delivery API] (3 de agosto de 2021)
 
-Esta versão contém os seguintes aprimoramentos:
+Esta versão inclui as seguintes melhorias:
 
-* O limite de parâmetros da mbox foi aumentado para 100 parâmetros. O limite anterior era de 50 parâmetros. (TNT-41717)
-* O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128 caracteres.
-* Os seguintes detalhes [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
+* O limite de parâmetros da mbox foi aumentado para 100. O limite anterior era de 50. (TNT-41717)
+* O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128.
+* Os seguintes detalhes do [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
 
-   * UUID do AAM: A ID de AAM interna usada para identificar exclusivamente um usuário.
-   * dataPartnerId: A ID de um parceiro de dados.
-   * dataPartnerUserId: A ID de usuário fornecida por um parceiro de dados.
+   * UUID do AAM: a ID do AAM interna usada para identificar exclusivamente um usuário.
+   * dataPartnerId: a ID de um parceiro de dados.
+   * dataPartnerUserId: a ID de usuário fornecida por um parceiro de dados.
 
    Anteriormente, a API de entrega incluía somente `dcsLocationHint` e `blob`. (TNT-41644)
 
@@ -69,7 +69,7 @@ Esta versão contém os seguintes aprimoramentos:
 
 | Recurso | Detalhes |
 |--- |--- |
-| [Notas de versão: SDK da Web da Adobe Target Platform Experience](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Detalhes sobre alterações em cada versão do SDK da Web da plataforma. |
+| [Notas de versão: SDK da Web da Platform Experience do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR) | Detalhes sobre alterações em cada versão do SDK da Web da plataforma. |
 | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do [!DNL Adobe Target]. |
 
 ## Alterações na documentação, notas de versão anteriores e notas de versão da Experience Cloud

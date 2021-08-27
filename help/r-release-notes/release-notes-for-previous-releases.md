@@ -2,11 +2,11 @@
 keywords: Notas de versão
 description: Veja uma lista de recursos, aprimoramentos e correções incluídos em versões anteriores do Adobe Target.
 title: Quais recursos estão incluídos nas versões anteriores?
-feature: Notas de versão
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
-source-wordcount: '31347'
+source-wordcount: '31345'
 ht-degree: 99%
 
 ---
