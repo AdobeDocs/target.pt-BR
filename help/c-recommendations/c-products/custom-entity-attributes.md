@@ -5,10 +5,10 @@ title: Como Posso Usar Atributos De Entidade Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ Depois que um atributo personalizado é enviado como uma matriz JSON válida, el
 
 ## Implementar atributos de vários valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`, API de entrega e ta API Salvar entidades para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
+Atributos de entidade personalizados de vários valores são compatíveis ao usar feeds (CSV), `targetPageParams` e a API de entrega para carregar produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
 
 Aspas duplas devem ser evitadas. Por exemplo, `"[""test"", ""value""]"` é uma matriz JSON que pode ser usada no CSV.
 

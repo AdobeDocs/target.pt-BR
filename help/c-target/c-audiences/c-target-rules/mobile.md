@@ -1,17 +1,17 @@
 ---
 keywords: direcionamento, móvel, dispositivos móveis do target, deviceatlas, iphone, modelos do iphone, atlas do dispositivo, displaywidth, largura de exibição, altura de exibição, tipo de dispositivo, displayheight, celular, tablet, modelo do dispositivo
-description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela (por pixels) e muito mais.
+description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcionar dispositivos móveis.
 title: Posso definir metas para visitantes com base nas opções de dispositivos móveis?
-feature: Públicos-alvo
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 45%
+source-wordcount: '669'
+ht-degree: 42%
 
 ---
 
-# Mobile
+# Móvel
 
 Crie públicos-alvo em [!DNL Adobe Target] para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela e muito mais.
 
@@ -56,12 +56,6 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
 
    >[!NOTE]
    >
-   >Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo [!UICONTROL Nome de comercialização do dispositivo] e pelo [!UICONTROL Modelo do dispositivo] que especifica os Modelos do iPhone é afetada. [!DNL Target] O não pode mais direcionar usuários que tenham iPhones com iOS 12.2 (ou posterior) instalados neles. No entanto, se esses usuários não tiverem o iOS 12.2 (ou posterior), a definição de metas do Modelo do iPhone continuará a funcionar corretamente.
-   >
-   >A atualização do iOS 12.2 (ou posterior) não afeta a identificação dos seguintes modelos, pois esses modelos não são compatíveis com a atualização para o iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina, iPad Retina (4ª geração), iPod Touch 4 e iPod Touch 5.
-
-   >[!NOTE]
-   >
    >Você pode direcionar por operadora de dispositivo móvel usando as [configurações geográficas](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
@@ -70,6 +64,20 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
  ilustração a seguir mostra um público-alvo direcionando visitantes que usam dispositivos móveis fabricados pelo Google.
 
 ![Dispositivos móveis do Target](assets/target_mobile.png)
+
+## Considerações
+
+Considere as seguintes informações ao direcionar dispositivos móveis:
+
+### Dispositivos de direcionamento que executam o iOS 12.2 ou posterior
+
+Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo [!UICONTROL Nome de comercialização do dispositivo] e pelo [!UICONTROL Modelo do dispositivo] que especifica os Modelos do iPhone é afetada. [!DNL Target] O não pode mais direcionar usuários que tenham iPhones com iOS 12.2 (ou posterior) instalados neles. No entanto, se esses usuários não tiverem o iOS 12.2 (ou posterior), a definição de metas do Modelo do iPhone continuará a funcionar corretamente.
+
+A atualização do iOS 12.2 (ou posterior) não afeta a identificação dos seguintes modelos, pois esses modelos não são compatíveis com a atualização para o iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina, iPad Retina (4ª geração), iPod Touch 4 e iPod Touch 5.
+
+### Dispositivos de direcionamento que executam o Safari 14.0.2 (ou posterior)
+
+Ao usar regras móveis para direcionar dispositivos que executam o Safari versão 14.0.2 (ou posterior) no macOS, devido a um problema conhecido que envolve os agentes de usuário da Apple e o DeviceAtlas, [!DNL Target] identifica incorretamente o Safari em dispositivos Mac como uma versão do iPad. Esta questão será abordada no futuro.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
