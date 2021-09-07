@@ -1,13 +1,13 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; classificações; classificação; importador de classificações; post-tnt-action; códigos de evento
-description: Encontre respostas para perguntas sobre classificações e uso do Analytics para  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
+description: Encontre respostas para perguntas sobre classificações e uso do [!UICONTROL Analytics for Target] (A4T).
 title: Onde posso encontrar informações sobre classificações com o A4T?
-feature: 'Analytics for Target (A4T) '
+feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 46%
+source-wordcount: '317'
+ht-degree: 29%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 46%
 
 Este tópico contém respostas para as perguntas mais frequentes sobre classificação e uso de [!DNL Analytics] como fonte de relatórios para [!DNL Target] (A4T).
 
-## Depois de usar o Importador de classificações para baixar classificações, como faço para relacionar o valor de post-tnt-action com o nome de uma atividade? {#section_6045DAC488B248418F430E663C38D001}
+## Depois de usar o [!UICONTROL Importador de classificações] para baixar classificações, como faço para relacionar o valor de post-tnt-action com um nome de atividade? {#section_6045DAC488B248418F430E663C38D001}
 
 Você pode baixar as classificações para a cadeia de caracteres A4T/TNT do [Importador de classificação das Ferramentas administrativas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). A variável é chamada &quot;TNT&quot; na lista de exportação. Os dados baixados incluem os nomes amigáveis de atividades, experiências e assim por diante.
 
-Este arquivo de pesquisa é útil para clientes que recebem a alimentação de dados de sequência de cliques da Adobe. O arquivo fornece nomes amigáveis para as colunas `post_tnt` e `post_tnt_action`.
+Esse arquivo de pesquisa é útil para clientes que recebem o feed de dados de sequência de cliques de [!DNL Adobe]. O arquivo fornece nomes amigáveis para as colunas `post_tnt` e `post_tnt_action`.
 
-O formato da string da variável TNT é `activityID:experienceID:targettype|event`.
+Para atividades padrão [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT), o formato da string TNT é:
 
-* targettype = 0 (controle/aleatório) ou 1 (segmentado) para atividades [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático].
+```
+activityID:experienceID:targettype|event
+```
+
+Para atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático], o formato da cadeia de caracteres TNT é:
+
+```
+activityId:experienceId:targettype:algorithmId|event
+```
+
+* `targettype` =  `targettype` e  `algorithmId` são identificadores internos usados pelas atividades  [!UICONTROL de ] alocação automática e  [!UICONTROL direcionamento ] automático.
 * Evento = 0 representa entrada de uma experiência.
 * Evento = 1 representa visita de uma experiência.
 * Evento = 2 representa impressão de uma atividade.
