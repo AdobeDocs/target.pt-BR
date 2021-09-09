@@ -2,12 +2,12 @@
 keywords: Adobe Experience Platform Web SDK;sdk web aep;sdk aep;otimização de mecanismo de pesquisa;otimização de mecanismo de pesquisa;seo;clusters de borda, clusters centrais;at.js;mbox.js;
 description: Saiba mais sobre Adobe  [!DNL Target] works, including information about the [!DNL Target]  bibliotecas JavaScript (at.js e Experience Platform Web SDK), centros de dados da Adobe e testes de SEO.
 title: Como o  [!DNL Target]  funciona?
-feature: Visão geral
+feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
-workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2531'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL
 * **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. O Adobe recomenda que todos os clientes que usam at.js atualizem suas implementações para a [versão mais recente da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** A biblioteca mbox.js é a biblioteca de implementação legada do [!DNL Target]. Não ha mais suporte para a biblioteca mbox.js após 31 de março de 2021.
 
-Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, considere usar [tags no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) para implementar [!DNL Target].
+Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, considere usar [tags na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR) para implementar o [!DNL Target].
 
 Os seguintes recursos contêm informações detalhadas para ajudar a implementar o Experience Platform Web SDK ou a at.js:
 
-* [Extensão do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
-* [Implementar o  [!DNL Target]  usando o Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [ Extensão do SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR)
+* [Implementar o [!DNL Target] usando o Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Cada vez que um visitante solicita uma página que foi otimizada para [!DNL Target], uma solicitação é enviada para o sistema de direcionamento. A solicitação ajuda a determinar qual conteúdo será enviado para esse visitante. Esse processo ocorre em tempo real. Esse processo ocorre em tempo real. Sempre que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é disponibilizado para cada visitante do site com maior probabilidade de responder, interagir ou comprar. O conteúdo personalizado ajuda a maximizar as taxas de resposta, as taxas de aquisição e a receita.
 
