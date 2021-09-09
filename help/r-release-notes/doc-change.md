@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
 source-wordcount: '2317'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,8 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 7 de setembro | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Atualização da seção &quot;Considerações&quot; com informações sobre dispositivos de direcionamento que executam o Safari 14.0.2 (ou posterior). |
 |  | [Classificações - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Atualização das informações sobre `targettype` e `algorithmId`, que são identificadores internos usados pelas atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]. |
-| 24 de agosto | [ [!DNL Target] Implementação [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] A foi reformulada como um conjunto de tecnologias de coleta de dados no  [!DNL Adobe Experience Platform]. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. |
-| 23 de agosto | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade<ul><li>quarta-feira, 8 de setembro de 2021</li><li>8h (PDT, UTC -7)</li></ul></li></ul> |
+| 24 de agosto | [Implementar o [!DNL Target] usando a [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | O [!DNL Adobe Experience Platform Launch] foi reformulado como um conjunto de tecnologias de coleção de dados na [!DNL Adobe Experience Platform]. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. |
+| 23 de agosto | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade<ul><li>Quarta-feira, 8 de setembro de 2021</li><li>8h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 de agosto | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Atualização das seguintes perguntas frequentes:<ul><li>O A4T suporta conjuntos de relatórios virtuais?</li></ul> |
 | 16 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md)<br>e<br>[detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição das notas de versão para a at.js 2.6.1. |
 |  | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adição da seção &quot;Práticas recomendadas&quot;. |
@@ -42,7 +42,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 2 de agosto | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>Distribuição de tráfego de atividades de Alocação automática usando A4T</li></ul> |
 |  | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a próxima versão da [!UICONTROL API de entrega do Target]. |
 | 30 de julho | [Limites](/help/r-troubleshooting-target/target-limits.md) | Atualização das seguintes seções:<ul><li>entity.id</li><li>parâmetro productPurchasedId</li></ul> |
-| 29 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição das informações sobre o [!DNL Adobe Target] Intervalo de de perguntas &amp; respostas da comunidade: quarta-feira, 11 de agosto de 2021. |
+| 29 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição das informações sobre o [!DNL Adobe Target] Intervalo de perguntas &amp; respostas da comunidade: quarta-feira, 11 de agosto de 2021. |
 |  | [Personalizar uma mbox global](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Observação importante atualizada para indicar que você deve editar e salvar novamente as atividades afetadas criadas no VEC após personalizar uma mBox global. |
 |  | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>O Enhanced Experience Composer (EEC) não é compatível com solicitações PUT.</li></ul> |
 | 27 de julho | [SDK da Web da Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Adição de uma nova seção:<ul><li>Documentação recomendada</li></ul> |
