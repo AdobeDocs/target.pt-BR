@@ -2,12 +2,12 @@
 keywords: anúncios;skill builder;bate-papo do desenvolvedor;coffee break;eventos;forrester;gartner, webinário
 description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] , inclusive sessões do Skill Builder, bate-papos com desenvolvedores e gerentes de produtos, webinários e muito mais.
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
-feature: Notas de versão
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '576'
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ Anúncios e informações sobre eventos futuros, incluindo sessões do criador d
 
 ## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade
 
-* **quarta-feira, 8 de setembro de 2021**
+* **Quarta-feira, 8 de setembro de 2021**
 * **8h (PDT, UTC -7)**
 * **[Clique aqui para obter mais informações e para se inscrever](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-Vishal Chordia, Gerente Sênior de Produtos para [!DNL Adobe Target], responderá as perguntas dos clientes relacionadas a suas áreas de conhecimento:
+Vishal Chordia, gerente de produto sênior do [!DNL Adobe Target], responderá às perguntas dos clientes relacionadas a suas áreas de conhecimento:
 
 * [!DNL Adobe Experience Platform]
-* Personalização baseada em público-alvo
-* [!DNL Real-time Customer Data Platform] Integração do (RTCDP) com  [!DNL Target]
-* Tópicos gerais [!DNL Target]
+* Personalização baseada no público
+* [!DNL Real-time Customer Data Platform] Integração da (RTCDP) com [!DNL Target]
+* Tópicos gerais do [!DNL Target]
 
 ## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
 
