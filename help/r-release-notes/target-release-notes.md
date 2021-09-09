@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 94%
 
 ---
 
@@ -25,25 +25,9 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Para evitar possíveis problemas com seus sites, migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js de JavaScript. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
+## [!DNL Target Standard/Premium] 21.9.1 (14 de setembro de 2021)
 
-Esta versão de manutenção contém vários aprimoramentos de backend, incluindo a seguinte alteração voltada para o cliente:
-
-* Correção de um problema que fazia com que os relatórios das atividades de [!UICONTROL Personalização automática] criadas no [!UICONTROL Experience Composer baseado em formulário] referenciassem ofertas excluídas em relatórios. Esse erro gerava a seguinte mensagem de erro: &quot;Estamos tendo problemas para recuperar dados para esse relatório. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir.&quot; (TGT-41028)
-
-## API de entrega do Target (3 de agosto de 2021)
-
-Esta versão inclui as seguintes melhorias:
-
-* O limite de parâmetros da mbox foi aumentado para 100. O limite anterior era de 50. (TNT-41717)
-* O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128.
-* Os seguintes detalhes do [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
-
-   * UUID do AAM: a ID do AAM interna usada para identificar exclusivamente um usuário.
-   * dataPartnerId: a ID de um parceiro de dados.
-   * dataPartnerUserId: a ID de usuário fornecida por um parceiro de dados.
-
-   Anteriormente, a API de entrega incluía somente `dcsLocationHint` e `blob`. (TNT-41644)
+Outras informações serão publicadas aqui na próxima semana.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

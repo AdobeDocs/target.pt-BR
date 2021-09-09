@@ -4,10 +4,10 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '31345'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,37 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2021
+
+### at.js 2.6.1 (16 de agosto de 2021)
+
+* Correção de erros para &quot;Nenhum artefato em cache disponível para modo híbrido&quot; ao usar a decisão no dispositivo.
+
+### [!DNL Target] node.js SDK 2.2.0 (11 de agosto de 2021)
+
+* Adição de coleção de dados de telemetria do SDK
+* Codegen do openapi do cliente da API de entrega automatizada
+
+Para obter mais informações sobre esta versão e versões anteriores, consulte o [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) na [documentação do SDK node.js do Target](https://github.com/adobe/target-nodejs-sdk) no Github.
+
+### [!DNL Target Standard/Premium] 21.8.1 (10 de agosto de 2021)
+
+Esta versão de manutenção contém vários aprimoramentos de backend, incluindo a seguinte alteração voltada para o cliente:
+
+* Correção de um problema que fazia com que os relatórios das atividades de [!UICONTROL Personalização automática] criadas no [!UICONTROL Experience Composer baseado em formulário] referenciassem ofertas excluídas em relatórios. Esse erro gerava a seguinte mensagem de erro: &quot;Estamos tendo problemas para recuperar dados para esse relatório. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir.&quot; (TGT-41028)
+
+### API de entrega do Target (3 de agosto de 2021)
+
+Esta versão inclui as seguintes melhorias:
+
+* O limite de parâmetros da mbox foi aumentado para 100. O limite anterior era de 50. (TNT-41717)
+* O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128.
+* Os seguintes detalhes do [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
+
+   * UUID do AAM: a ID do AAM interna usada para identificar exclusivamente um usuário.
+   * dataPartnerId: a ID de um parceiro de dados.
+   * dataPartnerUserId: a ID de usuário fornecida por um parceiro de dados.
+
+   Anteriormente, a API de entrega incluía somente `dcsLocationHint` e `blob`. (TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1 (30 de junho de 2021)
 
