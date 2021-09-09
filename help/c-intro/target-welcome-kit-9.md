@@ -2,12 +2,12 @@
 keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
 description: Você criou sua primeira atividade no Adobe Target. O que vem a seguir? Use este artigo para encontrar links para recursos adicionais, tutoriais de treinamento e vídeos de instruções.
 title: Onde posso encontrar recursos adicionais para usar o Target de maneira mais eficaz?
-feature: Visão geral
+feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
-workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '720'
+ht-degree: 100%
 
 ---
 
