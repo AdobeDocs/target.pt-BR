@@ -4,17 +4,16 @@ description: Revise uma lista de perguntas frequentes e suas respostas sobre os 
 title: Onde posso responder perguntas sobre design para [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 85%
+source-wordcount: '456'
+ht-degree: 70%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o design
 
-Lista de perguntas frequentes sobre os designs de recomendações do [!DNL Adobe Target].
+Lista de perguntas frequentes sobre os designs [!DNL Adobe Target] [!DNL Recommendations].
 
 ## O preço do item recomendado não exibe os dois valores à direita da casa decimal. Como posso exibi-los?
 
@@ -30,15 +29,15 @@ Duas opções estão disponíveis para resolver esse problema:
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Por que a categoria não está sendo exibida no design? Eu estou usando $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
+## Por que a categoria não está sendo exibida no design? Estou usando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 A ID da categoria não pode ser exibida no design. Como várias categorias podem ser armazenadas, o sistema não saberia qual categoria exibir.
 
-## Como devo mudar um design para obter uma atualização instantânea?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## Como devo mudar um design para obter uma atualização instantânea?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 A alteração do design que está atualmente em uso leva um tempo para atualizar. Para alterar o design instantaneamente, crie um novo design, selecione-o na atividade e salve a recomendação.
 
-## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade?   {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 O parâmetro `$key. *`value`*` captura a maioria das informações do produto para exibir dentro do design. Por exemplo: se você deseja exibir a miniatura dos principais produtos, use `$key.thumbnailURL`.
 
@@ -50,6 +49,6 @@ A versão 1.7 sem ferramentas adicionais ou bibliotecas incorporadas. O recurso 
 
 Enviar um espaço sem quebra do JavaScript parece ser suficiente. Peça que os desenvolvedores enviem `\u00A0` como o valor. Exemplo: `entity.message=\u00A0`. Você pode considerar esse como sendo o valor padrão, ao invés de um valor nulo, quando nenhum valor estiver presente.
 
-## Posso usar um script de perfil em um design de recomendações? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Posso usar um script de perfil em um design [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Sim. No entanto, você deve adicionar uma barra invertida (\) antes do $ no nome do script de perfil.
+Sim. Para usar um script de perfil em um design [!DNL Recommendations], vincule o nome em `\${...}`. Por exemplo, se o script de perfil for chamado de `user.basket`, refira-o como `\${user.basket}` no design. Observe que a barra invertida implica que o script de perfil não é renderizado pela Velocity. Portanto, não é possível executar nenhuma operação no script de perfil em um modelo do Velocity. O valor será impresso diretamente na página.
