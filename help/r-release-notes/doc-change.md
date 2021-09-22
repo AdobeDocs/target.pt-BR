@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
+source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2549'
 ht-degree: 93%
 
 ---
@@ -19,8 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-|  | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | `$Double` alterado para `$double` em amostras de código para evitar ambiguidade. |
-| 22 de setembro | [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md) | Atualização das seguintes perguntas frequentes:<ul><li>Posso usar um script de perfil em um design [!DNL Recommendations]?</li></ul> |
+| 22 de setembro | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | `$Double` alterado para `$double` em amostras de código para evitar possíveis ambiguidades. |
+|  | [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md) | Atualização das seguintes perguntas frequentes:<ul><li>Posso usar um script de perfil em um design [!DNL Recommendations]?</li></ul> |
 |  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Adição das seguintes considerações:<ul><li>As métricas de rastreamento de cliques não estão vinculadas a nenhuma experiência específica em uma atividade.</li><li>Use públicos-alvo se for necessário restringir o escopo das métricas de rastreamento de cliques.</li><li>Várias atividades podem definir uma métrica de rastreamento de cliques para o mesmo seletor. Em caso positivo, quando um visitante se qualifica para uma dessas atividades e clica nesse seletor, a métrica de rastreamento de cliques aumenta para todas as atividades associadas para as quais o visitante se qualificou.</li></ul> |
 |  | [Implementar o [!DNL Target] usando a [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Adição de uma observação na seção &quot;Vantagens de implementar o at.js usando a extensão [!DNL Target]&quot;. |
 |  | [Sincronização de perfil em tempo real para mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Atualização da seção &quot;Considerações&quot; com novas informações. |
