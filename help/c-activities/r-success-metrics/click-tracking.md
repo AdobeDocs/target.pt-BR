@@ -1,13 +1,13 @@
 ---
 keywords: Rastreamento de cliques; rastrear cliques; cliques; AppMeasurement
-description: Saiba como o Adobe [!DNL Target] permite rastrear cliques em qualquer elemento como uma métrica de sucesso.
+description: Saiba como [!DNL Adobe Target] permite rastrear cliques em qualquer elemento como uma métrica de sucesso.
 title: O que é o Rastreamento de cliques?
-feature: Métricas de sucesso
+feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 93%
+source-wordcount: '929'
+ht-degree: 60%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->O rastreamento de cliques não é suportado na solicitação global do Target quando é usado como um local em uma atividade baseada em formulário.
+>O rastreamento de cliques não é suportado na solicitação global [!DNL Target] quando ela é usada como um local em uma atividade baseada em formulário.
 
-## Configuração do rastreamento de cliques {#section_5540C5A533114E57BAE022A600B02E72}
+## Configurar o rastreamento de cliques {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Ao definir suas metas na página [!UICONTROL Metas e configurações] para a atividade, selecione a métrica de sucesso de **[!UICONTROL Conversão]**.
 1. Para ação, selecione **[!UICONTROL Clicou em um elemento]** e clique em **[!UICONTROL Selecionar elementos]**.
@@ -28,15 +28,15 @@ ht-degree: 93%
 
 1. Selecione os elementos que deseja rastrear.
 
-   Consulte a seção Considerações abaixo para obter dicas sobre como selecionar elementos.
+   Consulte a seção *Considerações* abaixo para obter dicas sobre como selecionar elementos.
 
-1. Clique na marca de seleção na parte superior da tela para salvar suas seleções.
+1. Clique em **[!UICONTROL Save]** na parte superior da tela para salvar suas seleções.
 
 Quando um participante da atividade clica em um elemento selecionado, esse clique é contado como uma conversão.
 
 ## Painel Elementos selecionados {#selected-elements}
 
-Para atividades Teste A/B, de Experiência de direcionamento (XT), Personalização automatizada (AP) e Teste multivariado (MVT), um painel [!UICONTROL Elementos selecionados] lista todos os elementos selecionados para o rastreamento de cliques no lado direito.
+Para [!UICONTROL Teste A/B], [!UICONTROL Direcionamento de experiência] (XT), [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Teste multivariado] (MVT) atividades, um painel [!UICONTROL Elementos selecionados] lista os elementos selecionados para o rastreamento de cliques no lado direito.
 
 Painel ![Elementos selecionados](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
@@ -50,11 +50,11 @@ Há várias ações que podem ser aplicadas quando você passa o mouse sobre um 
 
 ### Adicionar elemento
 
-Se já conhece o caminho DOM para o seletor, você pode adicioná-lo manualmente ao clicar no ícone de adição localizado na parte superior do painel.
+Se você já conhece o caminho DOM para o seletor, é possível adicioná-lo manualmente clicando no ícone de adição na parte superior do painel.
 
 ![Ícone Adicionar elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### Pop-up de passagem do mouse de elementos selecionados
+### Pop-up Elementos selecionados
 
 Depois de selecionar vários elementos para o rastreamento de cliques, você pode clicar no link [!UICONTROL Elementos selecionados] na etapa [!UICONTROL Metas e configurações] da atividade para ver a lista completa de elementos selecionados para rastreamento de cliques. A lista contém o caminho DOM completo para o elemento, para ajudar a validar se o elemento selecionado deve ser usado para o rastreamento de cliques.
 
@@ -68,15 +68,15 @@ Há várias coisas a considerar ao selecionar elementos:
 
    ![Ilustração do caminho DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Assim como na Etapa 1, ao criar experiências no fluxo de trabalho de criação da atividade, o seletor de caminho DOM, na parte inferior da página, permite escolher um elemento. Ao selecionar um elemento do caminho DOM, o elemento correspondente no VEC será exibido como &quot;Selecionado&quot;. Para desmarcar um elemento selecionado, clique novamente no elemento do seletor de caminho DOM ou na caixa &quot;Selecionado&quot; do VEC.
+   Assim como ao criar experiências na Etapa 1 no fluxo de trabalho de criação da atividade, o seletor de caminho DOM na parte inferior da página permite escolher um elemento. Ao selecionar um elemento do caminho DOM, o elemento correspondente no VEC será exibido como &quot;Selecionado&quot;. Para desmarcar um elemento selecionado, você pode clicar novamente no elemento no seletor de caminho DOM ou clicar na caixa &quot;Selecionado&quot; no VEC.
 
    Para obter mais informações, consulte [Navegar pelos elementos usando o caminho DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nas *Opções do Visual Experience Composer*.
 
 * É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o   [recurso multipágina ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e  [!DNL at.js] deve ser implementado nela.
-* Se selecionar mais de um elemento, caso um participante clique em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item ao clicar em vários elementos de uma página, edite o Seletor de elemento CSS para corresponder a vários elementos.
+* Se selecionar mais de um elemento, caso um participante clique em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item clicando em vários elementos em uma página, edite o Seletor de elemento CSS para corresponder a vários elementos.
 * Certifique-se de selecionar o nível do elemento que deseja rastrear. Por exemplo, ao especificar um botão, certifique-se de selecionar o link e não o texto do botão.
 * Os eventos de clique são enviados para o [!DNL Target] na mesma página de destino do clique.
-* Se a métrica de rastreamento de cliques for a métrica de meta de uma atividade do A4T, o visitante deverá clicar nesse elemento dentro de 60 segundos do carregamento da página para que a métrica seja rastreada.
+* Se a métrica de rastreamento de cliques for a métrica de meta de uma atividade [!UICONTROL Analytics for Target] (A4T), o visitante deve clicar nesse elemento dentro de 60 segundos do carregamento da página para que a métrica seja rastreada.
 * O rastreamento de cliques não funciona em elementos que incluem caracteres ignorados em seus seletores, incluindo os seguintes:
 
    | Caractere | Descrição |
@@ -87,7 +87,7 @@ Há várias coisas a considerar ao selecionar elementos:
    | $ | Símbolo de moeda |
    | `[ ]` | Colchetes |
 
-* Se usar o rastreamento de cliques [!DNL at.js] e também o Analytics AppMeasurement, o rastreamento de cliques [!DNL at.js] cancelará todos os outros manipuladores de eventos de clique. Como resultado, o manipulador de cliques do AppMeasurement nunca é executado.
+* Se usar o rastreamento de cliques [!DNL at.js][!DNL Analytics] e também o AppMeasurement, o rastreamento de cliques [!DNL at.js] cancelará todos os outros manipuladores de eventos de clique. Como resultado, o manipulador de cliques do AppMeasurement nunca é executado.
 
    [!DNL at.js] tem um processamento especial para o rastreamento de cliques quando o elemento subjacente é uma tag `A`A (link) ou `FORM`.
 
@@ -95,23 +95,29 @@ Há várias coisas a considerar ao selecionar elementos:
 
    1. Chame `event.preventDefault()`.
 
-   1. Acione a solicitação do Target.
+   1. Acione a solicitação [!DNL Target].
 
-   1. Na chamada de retorno de sucesso ou erro da solicitação do Target, execute o comportamento padrão:
+   1. Em [!DNL Target] solicitar retorno de chamada bem-sucedido ou erro, execute o comportamento padrão:
 
       * Tag `A` (link): o comportamento padrão é navegar até o URL definido pela atributo HREF.
       * Tag `FORM`: o comportamento padrão é enviar o formulário.
 
-   Este comportamento padrão pode interferir no rastreamento de cliques do Analytics. Se estiver usando o Analytics, deverá confiar nele para o rastreamento de cliques em vez do Target.
+   Esse comportamento padrão pode interferir no rastreamento de cliques [!DNL Analytics]. Se você estiver usando [!DNL Analytics], deverá confiar em [!DNL Analytics] para o rastreamento de cliques em vez de [!DNL Target].
 
-* O rastreamento de cliques não é registrado quando a página e o URL da atividade pertencerem a propriedades diferentes. As permissões de usuário do Enterprise são um recurso do Target Premium. Para obter mais informações, consulte [Permissões de usuário do Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+* O rastreamento de cliques não é registrado quando a página e o URL da atividade pertencerem a propriedades diferentes. As permissões de usuário empresarial são um recurso [!DNL Target Premium]. Para obter mais informações, consulte [Permissões de usuário do Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+* As métricas de rastreamento de cliques não estão vinculadas a nenhuma experiência específica em uma atividade.
+
+* Use públicos-alvo se for necessário restringir o escopo das métricas de rastreamento de cliques.
+
+* Várias atividades podem definir uma métrica de rastreamento de cliques para o mesmo seletor. Em caso positivo, quando um visitante se qualifica para uma dessas atividades e clica nesse seletor, a métrica de rastreamento de cliques aumenta para todas as atividades associadas para as quais o visitante se qualificou.
 
 ## Vídeo de Treinamento {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 Este vídeo inclui informações sobre a criação de métricas de sucesso de rastreamento de cliques.
 
 * Compreender métricas de &quot;meta&quot;
-* Entender e construir métricas de conversão, receita e envolvimento
+* Entenda e crie métricas [!UICONTROL Conversão], [!UICONTROL Receita] e [!UICONTROL Envolvimento]
 * Criar uma métrica de rastreamento de cliques
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

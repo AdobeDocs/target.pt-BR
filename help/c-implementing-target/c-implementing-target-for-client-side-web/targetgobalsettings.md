@@ -5,10 +5,10 @@ title: Como uso a função targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2317'
-ht-degree: 31%
+source-wordcount: '2332'
+ht-degree: 30%
 
 ---
 
@@ -187,7 +187,7 @@ Você pode substituir as configurações na biblioteca at.js usando `targetGloba
 
 * **Tipo**: Booleano
 * **Valor** padrão: false
-* **Descrição**: Indica se a at.js deve usar somente HTTPS ou pode alternar entre HTTP e HTTPS com base no protocolo da página.
+* **Descrição**: Indica se a at.js deve usar somente HTTPS ou pode alternar entre HTTP e HTTPS com base no protocolo da página. Quando definido como true, secureOnly também define os atributos Secure e SameSite como o cookie da mbox.
 
 ### selectorsPollingTimeout
 
