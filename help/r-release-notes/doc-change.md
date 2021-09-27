@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 27 de setembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade<ul><li>quarta-feira, 13 de outubro de 2021</li><li>8h (PDT, UTC -7)</li></ul></li></ul> |
 | 22 de setembro | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | `$Double` alterado para `$double` em amostras de código para evitar possíveis ambiguidades. |
 |  | [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md) | Atualização das seguintes perguntas frequentes:<ul><li>Posso usar um script de perfil em um design [!DNL Recommendations]?</li></ul> |
 |  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Adição das seguintes considerações:<ul><li>As métricas de rastreamento de cliques não estão vinculadas a nenhuma experiência específica em uma atividade.</li><li>Use públicos-alvo se for necessário restringir o escopo das métricas de rastreamento de cliques.</li><li>Várias atividades podem definir uma métrica de rastreamento de cliques para o mesmo seletor. Em caso positivo, quando um visitante se qualifica para uma dessas atividades e clica nesse seletor, a métrica de rastreamento de cliques aumenta para todas as atividades associadas para as quais o visitante se qualificou.</li></ul> |
