@@ -2,12 +2,12 @@
 keywords: experiência; json; aem; adobe experience manager; exportar para adobe target; fragmentos de experiência; fragmentos; XF
 description: Saiba como usar AEM fragmentos de experiência em atividades do Adobe [!DNL Target] . Combine a facilidade de uso e o poder do AEM com recursos avançados de IA e ML em [!DNL Target].
 title: Como uso os fragmentos de experiência do Adobe Experience Manager (AEM)?
-feature: Experiências e ofertas
+feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
+source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 30%
+source-wordcount: '1125'
+ht-degree: 31%
 
 ---
 
@@ -142,7 +142,6 @@ Você pode consumir fragmentos de experiência em atividades [!DNL Target] usand
 
 * [!DNL Target]No momento, o procura fragmentos de experiência a cada dez minutos. O fragmento de experiência importado deve estar disponível em [!DNL Target] dentro de dez minutos, mas esse intervalo de tempo deve ser reduzido no futuro.
 * O fragmento de experiência é importado atualmente para [!DNL Target] como uma oferta HTML. Observe que a versão &quot;primária&quot; do fragmento de experiência permanece em [!DNL AEM]. Você não pode editar o fragmento de experiência no [!DNL Target].
-* Você pode importar ofertas JSON como fragmentos de experiência para [!DNL Target]. No entanto, essas ofertas são importadas como ofertas HTML. Ofertas JSON (fragmentos de experiência) não são totalmente compatíveis na interface do usuário [!DNL Target].
 * Não é possível criar fragmentos de experiência usando Adobe IO. Você deve criar fragmentos de experiência usando AEM, conforme explicado acima.
 
 ## Vídeo de treinamento: Uso AEM fragmentos de experiência com Adobe Target ![Selo tutorial](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
