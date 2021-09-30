@@ -5,9 +5,9 @@ title: Como Configurar Permissões Empresariais?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1456'
 ht-degree: 63%
 
 ---
@@ -139,8 +139,6 @@ Para usar a funcionalidade [!DNL Target] de permissões de usuário, você deve 
       ![Código de focalização da propriedade](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. Clique com o botão direito no código de implementação destacado para copiá-lo para sua área de transferência.
-
-      ![Código de propriedade](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. Atualize sua implementação [!DNL Target] com o código de implementação obtido na etapa anterior.
 
