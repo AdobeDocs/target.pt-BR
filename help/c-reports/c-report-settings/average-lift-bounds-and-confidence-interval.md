@@ -4,9 +4,9 @@ description: Saiba como interpretar relatórios Adobe [!DNL Target] que incluem 
 title: Como visualizar o aumento médio, os limites de aumento e o intervalo de confiança?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ A confiança de uma experiência ou oferta representa a probabilidade de que o a
 
 ## Entender como o intervalo de confiança para aumento é determinado {#pdf}
 
-Baixe o [Intervalo de confiança para Lift pdf](/help/assets/confidence_interval_lift.pdf) para obter mais informações.
+Baixe o [Intervalo de confiança para arquivo pdf do Lift](/help/assets/confidence_interval_lift.pdf) para obter mais informações.
 
 ## Como são calculados os limites de aumento? {#section_1D360781D972483693680BE0F07AEAD1}
 

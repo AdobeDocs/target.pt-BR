@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2634'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 30 de setembro | Enviar informações da atividade para [!DNL Adobe Analytics] | Remoção de todo o tópico porque as etapas descritas não são mais necessárias para enviar [!DNL Target] informações de atividade do aplicativo móvel para [!DNL Analytics] para segmentação post-hoc. |
-|  | [Média de aumento, Limites de aumento e Intervalo de confiança](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Arquivo pdf adicionado para explicar como o intervalo de confiança para aumento é calculado. |
+|  | [Média de aumento, Limites de aumento e Intervalo de confiança](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Adição de um arquivo pdf para explicar como o intervalo de confiança para aumento é calculado. |
 |  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `targetPageParams` alterado para `targetPageParamsAll` em &quot;Etapa 5 Atualizar sua implementação para incluir o parâmetro `at_property`&quot;. |
 | 27 de setembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade<ul><li>quarta-feira, 13 de outubro de 2021</li><li>8h (PDT, UTC -7)</li></ul></li></ul> |
 | 22 de setembro | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | `$Double` alterado para `$double` em amostras de código para evitar possíveis ambiguidades. |
