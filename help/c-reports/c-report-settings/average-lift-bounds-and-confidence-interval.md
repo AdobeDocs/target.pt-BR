@@ -2,13 +2,12 @@
 keywords: Target, relatórios, configurações de relatório, ambiente, aumento, limite de incentivo, variação, confiança, controle
 description: Saiba como interpretar relatórios Adobe [!DNL Target] que incluem pontos de dados e representações de visualização para ajudá-lo a entender os limites de aumento e o nível de confiança de suas atividades.
 title: Como visualizar o aumento médio, os limites de aumento e o intervalo de confiança?
-feature: Relatórios
+feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 73%
+source-wordcount: '835'
+ht-degree: 71%
 
 ---
 
@@ -47,6 +46,10 @@ O comprimento da barra do boxplot representa o tamanho do intervalo de confianç
 ### Confiança
 
 A confiança de uma experiência ou oferta representa a probabilidade de que o aumento da experiência/oferta associada sobre a experiência/oferta de controle seja &quot;real&quot; (não causado aleatoriamente). Normalmente, 95% é o nível de confiança recomendado para o aumento ser considerado significativo.
+
+## Entender como o intervalo de confiança para aumento é determinado {#pdf}
+
+Baixe o [Intervalo de confiança para Lift pdf](/help/assets/confidence_interval_lift.pdf) para obter mais informações.
 
 ## Como são calculados os limites de aumento? {#section_1D360781D972483693680BE0F07AEAD1}
 
