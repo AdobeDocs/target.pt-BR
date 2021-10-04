@@ -2,13 +2,13 @@
 keywords: ambiente, solução de problemas, práticas recomendadas, ubox, redirecionamentos, redirecionamento, lista de permissões, lista negra, lista de bloqueios,  lista de permissões
 description: Saiba como usar ambientes no Adobe [!DNL Target] para organizar seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separados.
 title: O que são ambientes e como os uso?
-feature: Administração e configuração
+feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 61%
+source-wordcount: '696'
+ht-degree: 62%
 
 ---
 
@@ -77,7 +77,12 @@ Você pode visualizar o conteúdo das coleções e exclusões do Recommendations
 >
 >As atividades do Recommendations estão disponíveis como parte da solução [!DNL Target] Premium . Não estão disponíveis no [!DNL Target] Standard sem uma licença do [!DNL Target] Premium.
 
-Um ambiente pode ser usado para separar os itens disponíveis no catálogo para diferentes usos. Por exemplo, você pode usar grupos de hosts para ambientes de [!UICONTROL Desenvolvimento] e [!UICONTROL Produção], diferentes marcas ou diferentes regiões. Por padrão, os resultados de visualização na Pesquisa no catálogo, nas Coleções e nas Exclusões estão baseados no grupo de hosts padrão. (Também é possível selecionar um grupo de hosts diferente para visualizar os resultados, usando o filtro Ambiente.) Por padrão, os itens recém adicionados ficam disponíveis em todos os grupos de hosts, a menos que uma ID de ambiente seja especificada ao criar ou atualizar o item. As recomendações entregues dependem do grupo de hosts especificado na solicitação.
+Um ambiente pode ser usado para separar os itens disponíveis no catálogo para diferentes usos. Por exemplo, você pode usar grupos de hosts para ambientes de [!UICONTROL Desenvolvimento] e [!UICONTROL Produção], diferentes marcas ou diferentes regiões. Por padrão, os resultados de visualização na Pesquisa no catálogo, nas Coleções e nas Exclusões estão baseados no grupo de hosts padrão. (Também é possível selecionar um grupo de hosts diferente para visualizar os resultados, usando o filtro Ambiente.) Por padrão, os itens recém adicionados ficam disponíveis em todos os grupos de hosts, a menos que uma ID de ambiente seja especificada ao criar ou atualizar o item.
+
+>[!NOTE]
+>
+>As recomendações entregues dependem do grupo de hosts especificado na solicitação.
+
 
 Se você não visualiza seus produtos, certifique-se de que você esteja usando o grupo correto de hosts. Por exemplo, se você configurar sua recomendação para usar um ambiente de preparo e você definir o grupo de hosts para Armazenamento temporário, você pode necessitar recriar suas coleções no ambiente de preparo para serem mostradas pelos produtos. Para ver quais produtos estão disponíveis em cada ambiente, use a Pesquisa de catálogo com cada ambiente. Você também pode visualizar o conteúdo das coleções e exclusões do Recommendations para um ambiente selecionado (grupo de hosts).
 
