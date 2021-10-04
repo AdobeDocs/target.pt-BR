@@ -5,10 +5,9 @@ title: Como uso a função adobe.target.sendNotifications()?
 feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
-translation-type: tm+mt
-source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
+source-git-commit: 07ef58419f1785633bee930e2f9bd5451394ad93
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 94%
 
 ---
@@ -35,8 +34,8 @@ Esta função envia uma notificação para a borda do Target quando uma experiê
 | Request > notifications > address | Objeto | Não |  |  |
 | Request > notifications > address > url | String | Não |  | URL de onde a notificação foi disparada. |
 | Request > notifications > address > referringUrl | String | Não |  | O URL de referência do qual a notificação foi disparada. |
-| Request > notifications > parameters | Objeto | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com &quot;perfil&quot;.</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
-| Request > notifications > profileParameters | Objeto | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com &quot;perfil&quot;.</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
+| Request > notifications > parameters | String | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com &quot;perfil&quot;.</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
+| Request > notifications > profileParameters | String | Não | Os seguintes nomes não são permitidos para parâmetros:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Considere o seguinte:<ul><li>Limite máximo de 50 parâmetros.</li><li>O nome do parâmetro não pode ficar em branco.</li><li>Extensão máx. do nome do parâmetro: 128.</li><li>O nome do parâmetro não pode começar com &quot;perfil&quot;.</li><li>Extensão máx. do valor do parâmetro: 5000.</li></ul> |  |
 | Request > notifications > order | Objeto | Não |  | Objeto que descreve os detalhes da ordem. |
 | Request > notifications > order > id | String | Não | `<=` 250 caracteres. | ID do pedido. |
 | Request > notifications > order > total | String | Não | `>=` 0 | Total do pedido. |
