@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: '292'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização em 27 de setembro de 2021**
+**Última atualização em: 4 outubro de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -32,6 +32,7 @@ Este lançamento inclui os seguintes novos recursos:
 | Recurso | Detalhes |
 | --- | --- |
 | Atualização da interface do usuário de públicos-alvo | Estamos reescrevendo gradualmente toda a interface do [!DNL Target] usando uma nova pilha de tecnologia para oferecer melhor desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. A seção [Administration](/help/administrating-target/administrating-target.md) foi atualizada em 2020. A seção [!UICONTROL Audiences] é a segunda atualização principal da interface do usuário. |
+| ![Selo Premium ](/help/assets/premium.png) Selo Recomendações Critérios criar e editar | O fluxo de trabalho de criação e edição de [!UICONTROL Recommendations Criteria] foi simplificado para simplificar a escolha do algoritmo e das configurações de recomendações certas para atingir suas metas. |
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

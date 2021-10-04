@@ -1,12 +1,12 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo
-description: Saiba como criar públicos-alvo personalizados e salvá-los na biblioteca  [!DNL Adobe Target] [!UICONTROL Audiences] para usar em suas atividades.
+description: Saiba como criar públicos-alvo personalizados e salvá-los na biblioteca  [!DNL Adobe Target] [!UICONTROL Audiences] para uso em atividades.
 title: Como Criar Públicos-Alvo?
-feature: Públicos-alvo
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 58%
 
 ---
@@ -60,7 +60,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
 1. (Condicional) Continue adicionando e definindo os atributos desejados.
 
-   Para criar outro contêiner, clique em **[!UICONTROL Adicionar contêiner]** ou simplesmente arraste outro atributo para o quadro intermediário. Em seguida, é possível ajustar o operador (E ou OU) usando a lista suspensa.
+   Para criar outro contêiner, clique em **[!UICONTROL Adicionar contêiner]** ou simplesmente arraste outro atributo para o painel do Audience Builder. Em seguida, é possível ajustar o operador (E ou OU) usando a lista suspensa.
 
 1. Clique em **[!UICONTROL Concluído]**.
 

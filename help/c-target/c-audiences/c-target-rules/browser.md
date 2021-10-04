@@ -2,11 +2,11 @@
 keywords: opções do navegador, tipo, tipo do navegador, idioma do navegador, idioma, versão, versão do navegador
 description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcionar usuários que usam um navegador específico ou opções específicas de navegador quando visitam sua página.
 title: Posso definir metas para visitantes com base no tipo de navegador?
-feature: Públicos-alvo
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ Há duas formas de direcionar navegadores:
 
    1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
    1. Nomeie o público-alvo e adicione uma descrição opcional.
-   1. Arraste e solte **[!UICONTROL Browser]** no painel do construtor de público-alvo.
+   1. Arraste e solte **[!UICONTROL Browser]** no Audience Builder.
 
       ![Regras > Navegador](assets/target_browser.png)
 

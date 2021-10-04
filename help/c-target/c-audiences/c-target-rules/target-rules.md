@@ -2,9 +2,9 @@
 keywords: Direcionamento, categoria de metas, condições de meta, audience manager, parâmetros de perfil personalizados, perfil do visitante, parâmetros de usuário personalizado, regras de metas
 description: Saiba como usar categorias (como Navegador, Geo, Rede, Sistema operacional, Perfil do visitante) para direcionar conteúdo.
 title: Quais são as categorias para públicos-alvo?
-feature: Públicos-alvo
+feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 50%
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Categorias para públicos
 
-Você pode direcionar qualquer um dos vários atributos de categoria usando [!DNL Adobe Target]. Para criar regras de direcionamento (ou grupos) para cada atributo, arraste e solte os atributos desejados no construtor de público-alvo .
+Você pode direcionar qualquer um dos vários atributos de categoria usando [!DNL Adobe Target]. Para criar regras de direcionamento (ou grupos) para cada atributo, arraste e solte os atributos desejados no painel do Audience Builder .
 
 ![Atributos para públicos-alvo](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ Quando uma categoria específica é selecionada, você pode aplicar uma ou mais 
 
 Após criar uma regra, clique em **[!UICONTROL Concluído]**. Um resumo das regras é exibido ao lado do link de direcionamento do nível.
 
-Você pode refinar uma regra ao adicionar mais condições, ou criar regras adicionais em outras categorias. Por exemplo, você pode direcionar somente usuários do Firefox de São Francisco que acessaram seu site pelo Google. Defina a categoria [!UICONTROL Geo] para direcionar usuários de São Francisco, a categoria [!UICONTROL Navegador] para direcionar usuários usando o Firefox e a categoria [!UICONTROL Fontes de Tráfego] para direcionar usuários provenientes de [!UICONTROL Do Google]. As regras criadas em várias categorias são combinadas com o operador AND.
+Você pode refinar uma regra ao adicionar mais condições, ou criar regras adicionais em outras categorias. Por exemplo, você pode direcionar somente usuários do Firefox de São Francisco que acessam seu site pelo Google. Defina a categoria [!UICONTROL Geo] para direcionar usuários de São Francisco, a categoria [!UICONTROL Navegador] para direcionar usuários usando o Firefox e a categoria [!UICONTROL Fontes de Tráfego] para direcionar usuários provenientes de [!UICONTROL Do Google]. As regras criadas em várias categorias são combinadas com o operador AND.
 
 Para criar regras de definição de metas complexas que incluem operações OR entre categorias, crie uma meta de expressão.
 

@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2649'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 4º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualização das notas pré-lançamento do Target Standard/Premium versão 21.10.1 (6 de outubro de 2021). |
 | 30 de setembro | Enviar informações da atividade para [!DNL Adobe Analytics] | Remoção de todo o tópico porque as etapas descritas não são mais necessárias para enviar [!DNL Target] informações de atividade do aplicativo móvel para [!DNL Analytics] para segmentação post-hoc. |
 |  | [Média de aumento, Limites de aumento e Intervalo de confiança](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Adição de um arquivo pdf para explicar como o intervalo de confiança para aumento é calculado. |
 |  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `targetPageParams` alterado para `targetPageParamsAll` em &quot;Etapa 5 Atualizar sua implementação para incluir o parâmetro `at_property`&quot;. |

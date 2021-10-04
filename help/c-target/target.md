@@ -1,12 +1,12 @@
 ---
 keywords: Direcionamento, públicos-alvo
 description: Saiba como usar os públicos-alvo no [!DNL Adobe Target] para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar seus esforços de marketing da Web.
-title: Como posso usar públicos-alvo para direcionar conteúdo diferente para segmentos específicos?
-feature: Públicos-alvo
+title: Como posso usar [!UICONTROL Públicos-alvo] para direcionar conteúdo diferente para segmentos específicos?
+feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 43%
 
 ---

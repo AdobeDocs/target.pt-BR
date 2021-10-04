@@ -2,11 +2,11 @@
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, direcionamento de público-alvo, geração de relatório de público-alvo, relatar público-alvo, segmento, parâmetros de perfil personalizado, definição de público-alvo, lista de público-alvo
 description: Saiba como usar a lista [!UICONTROL Audiences] em [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
-feature: Públicos-alvo
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 32%
 
 ---
@@ -45,7 +45,7 @@ A lista [!UICONTROL Audiences] contém os públicos que você pode usar em suas 
 
    >[!NOTE]
    >
-   >A fonte [!DNL Adobe Experience Platform] está em um programa de teste Beta, mas está disponível para todos os [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Os públicos-alvo disponíveis no [!DNL Adobe Experience Platform] podem ser usados como estão ou [combinados com públicos-alvo existentes](/help/c-target/combining-multiple-audiences.md).
+   >A fonte [!DNL Adobe Experience Platform] está disponível para todos os [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Os públicos-alvo disponíveis no [!DNL Adobe Experience Platform] podem ser usados como estão ou [combinados com públicos-alvo existentes](/help/c-target/combining-multiple-audiences.md).
 
 Públicos predefinidos, como &quot;[!UICONTROL Novos visitantes]&quot; e &quot;[!UICONTROL Visitantes que retornam]&quot;, não podem ser renomeados.
 

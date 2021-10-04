@@ -2,11 +2,11 @@
 keywords: parâmetros personalizados, parâmetros personalizados do target, targetpageparams, parâmetros mbox de segmentação
 description: Saiba como transmitir parâmetros personalizados para [!DNL Adobe Target] para uso em públicos-alvo.
 title: Posso definir metas para visitantes com base em parâmetros personalizados?
-feature: Públicos-alvo
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arraste e solte **[!UICONTROL Personalizado]** no painel do construtor de público-alvo.
+1. Arraste e solte **[!UICONTROL Personalizado]** no Construtor de público-alvo.
 
    Para selecionar o parâmetro desejado:
 
@@ -56,7 +56,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
 1. (Opcional) Configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Concluído]**.
 
-O [cartão pop-up dos detalhes de definição](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) do público-alvo mostra o nome do parâmetro na seção Regras. Não há referência à mbox usada para filtragem.
+O [cartão pop-up dos detalhes de definição](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) do público-alvo mostra o nome do parâmetro na seção Regras. **** Não há referência à mbox usada para filtragem.
 
 >[!NOTE]
 >
