@@ -5,9 +5,9 @@ title: Como basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: c3092f63dbcb91aca4afe2ba35715cbd3f658506
+source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3142'
 ht-degree: 47%
 
 ---
@@ -110,7 +110,7 @@ Se você selecionar o algoritmo Mais visualizados por categoria , é possível s
 
 (Informações em breve)
 
-## [!UICONTROL Item Baseado]
+## [!UICONTROL Baseado em item]
 
 O tipo de recomendação [!UICONTROL Baseado em Item] permite fazer recomendações baseadas em encontrar itens semelhantes a um item que o usuário está visualizando no momento ou que foi visualizado recentemente.
 
@@ -207,7 +207,7 @@ Use esse algoritmo em páginas gerais, como páginas iniciais ou de aterrissagem
 >
 >[!UICONTROL Os ] Itens visualizados recentemente respeitam as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. Se um item for excluído por uma exclusão global ou não estiver contido na coleção selecionada, ele não será exibido. Portanto, ao usar um critério [!UICONTROL Itens visualizados recentemente], a configuração &quot;Todas as coleções&quot; geralmente deve ser usada.
 
-### Recomendado para você {#user-based}
+### Recomendado para você {#recommended-for-you}
 
 Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante.
 
