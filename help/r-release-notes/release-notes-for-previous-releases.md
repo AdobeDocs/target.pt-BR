@@ -4,10 +4,10 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '31881'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,23 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2021
+
+### [!DNL Target Standard/Premium] 21.9.1 (14 de setembro de 2021)
+
+Esta versão de manutenção inclui os seguintes aprimoramentos, correções e alterações.
+
+* Correção de problemas que impedia os clientes de fazer logon no [!UICONTROL Visual Experience Composer] (VEC) devido a novas políticas de segurança para cookies de terceiros em alguns navegadores da Web. Esse problema foi discutido em &quot;Páginas que não carregam no Visual Experience Composer (VEC) ou no Enhanced Experience Composer (EEC) ao usar o Google Chrome versão 80+&quot; em [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Correção de um problema que fazia com que os nomes das ofertas no VEC exibissem o caminho da oferta em vez do nome amigável da oferta. (TGT-41300)
+* Os nomes de experiência agora são refletidos em [!DNL Analysis Workspace] para atividades do A4T (TGT-38674)
+* Correção de um problema em [!DNL Recommendations] que aplicava incorretamente as alterações de ID da entidade em uma promoção em uma atividade duplicada à atividade original. (TGT-41482)
+* Correção de um problema que impedia que o botão &quot;Editar critérios&quot; fosse exibido corretamente na página [!UICONTROL Experiências] para atividades [!DNL Recommendations] no VEC. (TGT-39512)
+* Correção de um problema que impedia a sincronização de atividades quando duplicadas e copiadas para um espaço de trabalho de teste. (TGT-40686)
+* Correção de um problema que impedia modificações em um seletor com [fragmentos de experiência](/help/c-experiences/c-manage-content/aem-experience-fragments.md) ao usar &quot;[!UICONTROL Inserir após]&quot; no VEC. (TGT-41802)
+* Correção de um problema que impedia o envio de conteúdo JSON vazio em uma oferta para o back-end. [!DNL Target] agora envia o objeto JSON, mesmo que esteja vazio. (TGT-41555)
+* Correção de um problema que fazia com que os relatórios herdados [!DNL Analytics] fossem abertos em vez de [!DNL Analysis Workspace] quando os clientes clicavam em &quot;[!UICONTROL Exibir no Analytics]&quot; ao visualizar um relatório. (TGT-41867)
+* Foi adicionado um esclarecimento adicional à mensagem de interface do usuário exibida quando um cliente tenta selecionar [!DNL Analytics] como fonte de relatórios (A4T) para uma atividade [!UICONTROL Automated Personalization]. A mensagem declara que &quot;[!DNL Target] é a única fonte compatível para as atividades [!UICONTROL Automated Personalization].&quot; (TGT-41954)
+* Foi adicionado um esclarecimento adicional à mensagem de erro quando os clientes tentam separar hosts com &quot;nova linha&quot; em vez de vírgulas. (TGT-40671)
+* Correção de um problema que fazia com que as datas &quot;[!UICONTROL Última atualização]&quot; de algumas atividades fossem diferentes da interface do usuário em inglês para clientes espanhóis e japoneses (ao visualizar a interface do usuário em espanhol e japonês). (TGT-38980)
 
 ### at.js 2.6.1 (16 de agosto de 2021)
 
