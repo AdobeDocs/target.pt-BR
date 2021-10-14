@@ -4,11 +4,10 @@ description: Encontre respostas para perguntas sobre a configuração da ativida
 title: Onde posso encontrar perguntas frequentes sobre as configurações de atividade com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 25%
+source-wordcount: '553'
+ht-degree: 22%
 
 ---
 
@@ -26,9 +25,9 @@ Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a mé
 
 Para obter mais informações, consulte &quot;Ao configurar minhas métricas de meta, por que não posso acessar as opções de Configurações avançadas?&quot; em [Definições de métrica - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
-## Acabei de criar um atividade. Por que não vejo nenhum dado chegando?   {#section_9F8092BE4225442896F926540292F221}
+## Acabei de criar um atividade. Por que não vejo nenhum dado chegando?  {#section_9F8092BE4225442896F926540292F221}
 
-Quando uma atividade é criada, [!DNL Target] envia um arquivo de classificação para [!DNL Analytics]. Embora [!DNL Analytics] esteja capturando e processando os dados, isso não mostra que nos relatórios, até que o arquivo de classificação tenha sido atualizado. Esse processo pode levar até 24 horas. Se depois de 48 horas você não visualizar seus dados, [entre em contato com o Atendimento ao Cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, se você souber que iniciará uma atividade, poderá criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no [!DNL Analytics].
+Quando uma atividade é criada, [!DNL Target] envia um arquivo de classificação para [!DNL Analytics]. Embora [!DNL Analytics] esteja capturando e processando os dados, isso não mostra que nos relatórios, até que o arquivo de classificação tenha sido atualizado. Esse processo pode levar até 24 horas. Se depois de 48 horas você não visualizar seus dados, [entre em contato com o Atendimento ao Cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, se você souber iniciar uma atividade, poderá criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no [!DNL Analytics].
 
 ## Por que não consigo selecionar o Analytics como minha fonte de relatórios quando eu crio uma atividade? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
@@ -53,3 +52,8 @@ Se as porcentagens não forem ajustadas no meio da atividade, um visitante que i
 
 * Depois de estar no &quot;bucket&quot; direcionado do tráfego, o visitante pode ser enviado a uma experiência diferente da visita, caso os modelos de aprendizado de máquina determinem que uma experiência diferente é relevante para a nova visita.
 * Depois de ser atribuído ao &quot;bucket&quot; de controle do tráfego, um visitante sempre verá a mesma experiência, pois a atribuição de experiência é baseada em um hash pseudo-aleatório determinístico da visitorId do visitante.
+
+
+## Posso usar uma métrica binômica [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma atividade de [!UICONTROL Alocação automática]? {#binomial}
+
+Não é possível usar uma métrica [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma atividade de [!UICONTROL Alocação automática]. Como solução alternativa, você pode definir um Evento personalizado que atinja o mesmo objetivo e usá-lo como a métrica de meta de otimização.

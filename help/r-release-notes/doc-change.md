@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 91%
+source-wordcount: '2778'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 14 de outubro | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Adição das seguintes perguntas frequentes: &quot;Posso usar uma métrica binômica [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma atividade de [!UICONTROL Alocação automática]?&quot; |
 | 13 de outubro | [Notas de versão](/help/r-release-notes/release-notes.md): 21.10.2 | Adição de informações sobre a versão [!DNL Target Standard/Premium] 21.10.2 (13 de outubro de 2021). |
 | 11º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a versão do Target Standard/Premium 21.10.2 (13 de outubro de 2021). |
 | 6º de outubro | [Criar públicos-alvo no [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Texto e imagens atualizados para refletir a interface do usuário [!DNL Target] [!UICONTROL Públicos-alvo] atualizada. Alterações semelhantes foram feitas em todos os tópicos de [!UICONTROL Públicos-alvo]. |
