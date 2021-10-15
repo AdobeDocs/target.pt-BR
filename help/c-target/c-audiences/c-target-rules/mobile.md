@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir metas para visitantes com base nas opções de dispositivos móveis?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 42%
+source-wordcount: '667'
+ht-degree: 43%
 
 ---
 
@@ -21,9 +21,9 @@ A definição de metas móvel é fornecida pelo [DeviceAtlas,](https://deviceatl
 
 A detecção do dispositivo é realizada pela análise das cadeias de caracteres Usuário-agente. Alguns fabricantes de dispositivo, como a Apple, desativam essa funcionalidade ao não fornecer informações suficientes no UA.
 
-Por exemplo, os dispositivos da Apple não compartilham tokens específicos do modelo de dispositivo no UA. O resultado é que não é possível detectar modelos de iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e assim por diante) usando um método simples baseado em palavra-chave.
+Por exemplo, os dispositivos da Apple não compartilham tokens específicos do modelo de dispositivo no UA. O resultado é que não é possível detectar modelos do iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e assim por diante) usando um método simples baseado em palavra-chave.
 
-Para resolver esse problema, [!DNL Target] coleta dados adicionais para detectar com precisão iPhones e outros dispositivos da Apple usando os seguintes parâmetros:
+Para resolver esse problema, [!DNL Target] coleta dados adicionais para detectar com precisão iPhones e outros dispositivos Apple usando os seguintes parâmetros:
 
 | Parâmetro | Tipo | Descrição |
 |--- |--- |--- |
@@ -71,13 +71,13 @@ Considere as seguintes informações ao direcionar dispositivos móveis:
 
 ### Dispositivos de direcionamento que executam o iOS 12.2 ou posterior
 
-Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo [!UICONTROL Nome de comercialização do dispositivo] e pelo [!UICONTROL Modelo do dispositivo] que especifica os Modelos do iPhone é afetada. [!DNL Target] O não pode mais direcionar usuários que tenham iPhones com iOS 12.2 (ou posterior) instalados neles. No entanto, se esses usuários não tiverem o iOS 12.2 (ou posterior), a definição de metas do Modelo do iPhone continuará a funcionar corretamente.
+Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo [!UICONTROL Nome de comercialização do dispositivo] e [!UICONTROL Modelo do dispositivo] que especifica Modelos do iPhone é afetada. [!DNL Target] O não pode mais direcionar usuários que tenham iPhones com iOS 12.2 (ou posterior) instalados neles. No entanto, se esses usuários não tiverem o iOS 12.2 (ou posterior), o direcionamento do Modelo do iPhone continuará a funcionar corretamente.
 
-A atualização do iOS 12.2 (ou posterior) não afeta a identificação dos seguintes modelos, pois esses modelos não são compatíveis com a atualização para o iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina, iPad Retina (4ª geração), iPod Touch 4 e iPod Touch 5.
+A atualização do iOS 12.2 (ou posterior) não afeta a identificação dos modelos a seguir, pois esses modelos não são compatíveis com a atualização para o iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4ª geração), iPod Touch 4 e iPod Touch 5.
 
 ### Dispositivos de direcionamento que executam o Safari 14.0.2 (ou posterior)
 
-Ao usar regras móveis para direcionar dispositivos que executam o Safari versão 14.0.2 (ou posterior) no macOS, devido a um problema conhecido que envolve os agentes de usuário da Apple e o DeviceAtlas, [!DNL Target] identifica incorretamente o Safari em dispositivos Mac como uma versão do iPad. Esta questão será abordada no futuro.
+Ao usar regras móveis para direcionar dispositivos que executam o Safari versão 14.0.2 (ou posterior) no macOS, devido a um problema conhecido que envolve agentes de usuário Apple e DeviceAtlas, [!DNL Target] identifica incorretamente o Safari em dispositivos Mac e iPad. Esta questão será abordada no futuro.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
