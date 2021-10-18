@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Para evitar possíveis problemas com seus sites, migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js de JavaScript. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.2 (13 de outubro de 2021)
+## [!DNL Target Standard/Premium] 21.10.3 (19 de outubro de 2021)
 
-Os seguintes aprimoramentos foram adicionados ao usar [!DNL Target] [!UICONTROL Públicos-alvo] com o [!DNL Adobe Experience Platform Web SDK]:
+Esta versão do inclui os seguintes aprimoramentos, correções e alterações:
 
-* Adicionados ícones de aviso, ofertas e mensagens em vários locais na interface do usuário [!DNL Target] para indicar que o público-alvo foi excluído na origem e não está mais disponível para uso em atividades [!DNL Target].
-
-   As ilustrações a seguir mostram alguns dos locais que os ícones, as fontes e as mensagens são exibidos:
-
-   *  Página da lista de atividades
-
-      ![Público-alvo excluído na mensagem de origem na página da lista de atividades](assets/deleted-at-source-audiences-list.png)
-
-   * Páginas de [!UICONTROL Visão geral] da atividade:
-
-      ![Público-alvo excluído na mensagem de origem na página de visão geral](assets/deleted-at-source-overview.png)
-
-   *  Etapa de experiências do fluxo de trabalho de criação de atividades:
-
-      ![Público-alvo excluído na mensagem de origem no   Experience Spacage](assets/deleted-at-source-experiences.png)
-
-   *  Etapa de direcionamento do fluxo de trabalho de criação de atividades:
-
-      ![Público-alvo excluído na mensagem de origem na página   Direcionamento](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Etapa Metas e ] configurações do fluxo de trabalho de criação da atividade:
-
-      ![Público-alvo excluído na mensagem de origem na página  [!UICONTROL Metas e ] configurações](assets/deleted-at-source-goals-settings.png)
-
-   * Refinamentos do público-alvo ([!UICONTROL Substitua o público-alvo] na etapa [!UICONTROL Direcionamento] do fluxo de trabalho de criação de atividades):
-
-* Se você tentar usar o recurso Combinar públicos-alvo e um dos públicos-alvo tiver sido excluído na origem, [!UICONTROL Salvar] estará desativado.
+* Correção de problemas que impedia os clientes de abrir o [!UICONTROL A4T] no painel [!DNL Analysis Workspace] clicando no botão [!UICONTROL Exibir no Analytics] botão em [!DNL Target] relatório de atividades. (TGT-42099, TGT-42100)
+* Correção de um problema que causava o [!UICONTROL Editar design] botão para não aparecer durante a edição [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) usando o [!UICONTROL Experience Composer baseado em formulário]. (TGT-41980)
+* Correção de um problema que impedia o [!UICONTROL Compatível] da exibição da caixa de seleção na seleção de critérios ao criar um novo [!UICONTROL Recommendations] atividade . (TGT-42053)
+* Correção de uma mensagem de erro incorreta quando não era possível selecionar [!DNL Analytics] como fonte de relatórios (A4T) devido à falta de [!DNL Analytics] permissões. (TGT-41954)
+* Implementamos várias correções de acessibilidade para melhorar a navegação pelo teclado na [!DNL Target] IU.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
