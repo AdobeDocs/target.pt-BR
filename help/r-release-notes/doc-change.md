@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2789'
 ht-degree: 90%
 
 ---
@@ -19,10 +19,11 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 14 de outubro | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Adição das seguintes perguntas frequentes: &quot;Posso usar uma métrica binômica [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma atividade de [!UICONTROL Alocação automática]?&quot; |
-| 13 de outubro | [Notas de versão](/help/r-release-notes/release-notes.md): 21.10.2 | Adição de informações sobre a versão [!DNL Target Standard/Premium] 21.10.2 (13 de outubro de 2021). |
+| 19º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.3 (19 de outubro de 2021). |
+| 14 de outubro | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Adição das seguintes perguntas frequentes: &quot;Posso usar um binômio [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma [!UICONTROL Alocação automática] atividade?&quot; |
+| 13 de outubro | [Notas de versão](/help/r-release-notes/release-notes.md): 21.10.2 | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.2 (13 de outubro de 2021). |
 | 11º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a versão do Target Standard/Premium 21.10.2 (13 de outubro de 2021). |
-| 6º de outubro | [Criar públicos-alvo no [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Texto e imagens atualizados para refletir a interface do usuário [!DNL Target] [!UICONTROL Públicos-alvo] atualizada. Alterações semelhantes foram feitas em todos os tópicos de [!UICONTROL Públicos-alvo]. |
+| 6º de outubro | [Criar públicos-alvo no [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Texto e imagens atualizados para refletir o [!DNL Target] [!UICONTROL Públicos-alvo] IU. Foram efetuadas alterações semelhantes em todo o [!UICONTROL Públicos-alvo] tópicos. |
 |  | [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Atualização das seguintes seções:<ul><li>Informações básicas </li><li>Fonte de dados</li></ul> |
 |  | [Upload dos critérios personalizados](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Instruções atualizadas para refletir o novo fluxo de trabalho. |
 |  | [Notas de versão](/help/r-release-notes/release-notes.md): 21.10.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
@@ -32,14 +33,14 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 4º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Atualização das notas pré-lançamento do Target Standard/Premium versão 21.10.1 (6 de outubro de 2021). |
-| 30 de setembro | Enviar informações da atividade para [!DNL Adobe Analytics] | Remoção de todo o tópico porque as etapas descritas não são mais necessárias para enviar [!DNL Target] informações de atividade do aplicativo móvel para [!DNL Analytics] para segmentação post-hoc. |
+| 30 de setembro | Enviar informações da atividade para [!DNL Adobe Analytics] | Remoção de todo o tópico porque as etapas descritas não são mais necessárias para enviar [!DNL Target] informações de atividade do aplicativo móvel para [!DNL Analytics] para segmentação post hoc. |
 |  | [Média de aumento, Limites de aumento e Intervalo de confiança](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Adição de um arquivo pdf para explicar como o intervalo de confiança para aumento é calculado. |
-|  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `targetPageParams` alterado para `targetPageParamsAll` em &quot;Etapa 5 Atualizar sua implementação para incluir o parâmetro `at_property`&quot;. |
+|  | [Configuração de permissões empresariais](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Alterado `targetPageParams` para `targetPageParamsAll` em &quot;Etapa 5 atualize sua implementação para incluir a variável `at_property` parâmetro.&quot; |
 | 27 de setembro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade<ul><li>quarta-feira, 13 de outubro de 2021</li><li>8h (PDT, UTC -7)</li></ul></li></ul> |
-| 22 de setembro | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | `$Double` alterado para `$double` em amostras de código para evitar possíveis ambiguidades. |
-|  | [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md) | Atualização das seguintes perguntas frequentes:<ul><li>Posso usar um script de perfil em um design [!DNL Recommendations]?</li></ul> |
+| 22 de setembro | [Personalizar um design usando a Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Alterado `$Double` para `$double` em amostras de código para evitar possíveis ambiguidades. |
+|  | [Perguntas frequentes sobre o design](/help/c-recommendations/c-design-overview/template-faq.md) | Atualização das seguintes perguntas frequentes:<ul><li>Posso usar um script de perfil em uma [!DNL Recommendations] design?</li></ul> |
 |  | [Rastreamento de cliques](/help/c-activities/r-success-metrics/click-tracking.md) | Adição das seguintes considerações:<ul><li>As métricas de rastreamento de cliques não estão vinculadas a nenhuma experiência específica em uma atividade.</li><li>Use públicos-alvo se for necessário restringir o escopo das métricas de rastreamento de cliques.</li><li>Várias atividades podem definir uma métrica de rastreamento de cliques para o mesmo seletor. Em caso positivo, quando um visitante se qualifica para uma dessas atividades e clica nesse seletor, a métrica de rastreamento de cliques aumenta para todas as atividades associadas para as quais o visitante se qualificou.</li></ul> |
-|  | [Implementar o  [!DNL Target] usando a  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Adição de uma observação na seção &quot;Vantagens de implementar o at.js usando a extensão [!DNL Target]&quot;. |
+|  | [Implementar o  [!DNL Target] usando a  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Adição de uma observação em &quot;Vantagens de implementar a at.js usando o [!DNL Target] extensão&quot;. |
 |  | [Sincronização de perfil em tempo real para mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Atualização da seção &quot;Considerações&quot; com novas informações. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Atualização da seção &quot;secureOnly&quot;. |
 |  | [Perguntas frequentes sobre at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Atualização das seguintes perguntas frequentes: &quot;Por que a at.js nem sempre usa os sinalizadores de cookies HttpOnly e Seguro?&quot; |
@@ -49,7 +50,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 14 de setembro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a versão [!DNL Target Standard/Premium] 21.9.1 (14 de setembro de 2021). |
+| 14 de setembro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.9.1 (14 de setembro de 2021). |
 | 7 de setembro | [Móvel](/help/c-target/c-audiences/c-target-rules/mobile.md) | Atualização da seção &quot;Considerações&quot; com informações sobre dispositivos de direcionamento que executam o Safari 14.0.2 (ou posterior). |
 |  | [Classificações - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Atualização das informações sobre `targettype` e `algorithmId`, que são identificadores internos usados pelas atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]. |
 | 24 de agosto | [Implementar o  [!DNL Target] usando a  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | O [!DNL Adobe Experience Platform Launch] foi reformulado como um conjunto de tecnologias de coleção de dados na [!DNL Adobe Experience Platform]. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. |
