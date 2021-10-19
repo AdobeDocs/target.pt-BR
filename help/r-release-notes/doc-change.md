@@ -4,7 +4,7 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 90%
@@ -19,7 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 19º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.3 (19 de outubro de 2021). |
+| 19º de outubro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.3 (19 de outubro de 2021). |
 | 14 de outubro | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Adição das seguintes perguntas frequentes: &quot;Posso usar um binômio [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma [!UICONTROL Alocação automática] atividade?&quot; |
 | 13 de outubro | [Notas de versão](/help/r-release-notes/release-notes.md): 21.10.2 | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.2 (13 de outubro de 2021). |
 | 11º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de informações sobre a versão do Target Standard/Premium 21.10.2 (13 de outubro de 2021). |

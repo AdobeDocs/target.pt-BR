@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: Quais são os novos recursos incluídos na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11466abc2996976449d2a2a6de8c04ae1fffd442
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 48%
+source-wordcount: '976'
+ht-degree: 44%
 
 ---
 
@@ -24,37 +24,47 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 21.10.3 (19 de outubro de 2021)
+
+Esta versão do inclui os seguintes aprimoramentos, correções e alterações:
+
+* Correção de problemas que impedia os clientes de abrir o [!UICONTROL A4T] no painel [!DNL Analysis Workspace] clicando no botão [!UICONTROL Exibir no Analytics] botão em [!DNL Target] relatório de atividades. (TGT-42099, TGT-42100)
+* Correção de um problema que causava o [!UICONTROL Editar design] botão para não ser exibido durante a edição [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) usando o [!UICONTROL Experience Composer baseado em formulário]. (TGT-41980)
+* Correção de um problema que impedia o [!UICONTROL Compatível] da exibição da caixa de seleção na seleção de critérios ao criar um novo [!UICONTROL Recommendations] atividade . (TGT-42053)
+* Correção de uma mensagem de erro incorreta que era exibida quando não era possível selecionar [!DNL Analytics] como fonte de relatórios (A4T) devido à falta de [!DNL Analytics] permissões. (TGT-41954)
+* Implementamos várias correções de acessibilidade para melhorar a navegação pelo teclado na [!DNL Target] IU.
+
 ## [!DNL Target Standard/Premium] 21.10.2 (13 de outubro de 2021)
 
 Os seguintes aprimoramentos foram adicionados ao usar [!DNL Target] [!UICONTROL Públicos-alvo] com o [!DNL Adobe Experience Platform Web SDK]:
 
-* Adicionados ícones de aviso, ofertas e mensagens em vários locais na interface do usuário [!DNL Target] para indicar que o público-alvo foi excluído na origem e não está mais disponível para uso em atividades [!DNL Target].
+* Ícones, props e mensagens de aviso adicionados em vários locais na [!DNL Target] IU para indicar que o público-alvo foi excluído na origem e não está mais disponível para uso em [!DNL Target] atividades.
 
    As ilustrações a seguir mostram alguns dos locais que os ícones, as fontes e as mensagens são exibidos:
 
-   *  Página da lista de atividades
+   * [!UICONTROL Atividade] página de lista
 
       ![Público-alvo excluído na mensagem de origem na página da lista de atividades](assets/deleted-at-source-audiences-list.png)
 
-   * Páginas de [!UICONTROL Visão geral] da atividade:
+   * Atividade [!UICONTROL Visão geral] páginas:
 
       ![Público-alvo excluído na mensagem de origem na página de visão geral](assets/deleted-at-source-overview.png)
 
-   *  Etapa de experiências do fluxo de trabalho de criação de atividades:
+   * [!UICONTROL Experiências] etapa do fluxo de trabalho de criação da atividade:
 
-      ![Público-alvo excluído na mensagem de origem no   Experience Spacage](assets/deleted-at-source-experiences.png)
+      ![Público-alvo excluído na mensagem de origem em [!UICONTROL Experiências] página](assets/deleted-at-source-experiences.png)
 
-   *  Etapa de direcionamento do fluxo de trabalho de criação de atividades:
+   * [!UICONTROL Direcionamento] etapa do fluxo de trabalho de criação da atividade:
 
-      ![Público-alvo excluído na mensagem de origem na página   Direcionamento](assets/deleted-at-source-targeting.png)
+      ![Público-alvo excluído na mensagem de origem em [!UICONTROL Direcionamento] página](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Etapa Metas e ] configurações do fluxo de trabalho de criação da atividade:
+   * [!UICONTROL Metas e configurações] etapa do fluxo de trabalho de criação da atividade:
 
-      ![Público-alvo excluído na mensagem de origem na página  [!UICONTROL Metas e ] configurações](assets/deleted-at-source-goals-settings.png)
+      ![Público-alvo excluído na mensagem de origem no [!UICONTROL Metas e configurações] página](assets/deleted-at-source-goals-settings.png)
 
-   * Refinamentos do público-alvo ([!UICONTROL Substitua o público-alvo] na etapa [!UICONTROL Direcionamento] do fluxo de trabalho de criação de atividades):
+   * Refinamentos do público-alvo ([!UICONTROL Substituir público-alvo] no [!UICONTROL Direcionamento] etapa do fluxo de trabalho de criação da atividade):
 
-* Se você tentar usar o recurso Combinar públicos-alvo e um dos públicos-alvo tiver sido excluído na origem, [!UICONTROL Salvar] estará desativado.
+* Se você tentar usar o recurso Combinar públicos-alvo e um dos públicos-alvo foi excluído na origem, [!UICONTROL Salvar] está desativado.
 
 ## [!DNL Target Standard/Premium] 21.10.1 (6 de outubro de 2021)
 
@@ -62,10 +72,10 @@ Este lançamento inclui os seguintes novos recursos:
 
 | Recurso | Detalhes |
 | --- | --- |
-|  Atualização da interface do usuário do Audiences | Como parte do esforço contínuo da equipe [!DNL Adobe Target] para melhorar a experiência do usuário para usuários [!DNL Target], esta versão atualiza as páginas [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] na interface do usuário [!DNL Target]. Essa atualização unifica e padroniza padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos simultaneamente</li><li>Um [design do construtor de público-alvo atualizado](/help/c-target/c-audiences/create-audience.md)</li><li>Suporte a regras de exclusão no construtor de regras da biblioteca [!UICONTROL Audience]</li><li>Um novo filtro &quot;Fonte de público-alvo&quot;, para permitir uma descoberta de público-alvo mais rápida</li><li>Opções de filtro e pesquisa persistente da sessão</li></ul>Para obter mais informações, consulte [Públicos](/help/c-target/target.md).<br>**OBSERVAÇÃO**: A nova interface   do usuário do Audiences foi temporariamente desativada para todos os clientes, exceto aqueles que estão em um programa  [!DNL Target] Beta. Essa atualização da interface do usuário será reativada para um subconjunto de clientes na terça-feira, 19 de outubro e para todos os clientes restantes na quinta-feira, 21 de outubro de 2021. |
-| [!UICONTROL Atualização ] da interface do usuário de scripts de perfil | A biblioteca [!UICONTROL Scripts de perfil] também foi atualizada e inclui uma interface atualizada junto com várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos do teclado</li></ul>Para obter mais informações, consulte [Perfis de visitante](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Selo Premium ](/help/assets/premium.png) Critérios do Recommendations criar e editar | O fluxo de trabalho de criação e edição de [!UICONTROL Recommendations Criteria] foi simplificado para simplificar a escolha do algoritmo e das configurações de recomendações certas para atingir suas metas.<br>Para obter mais informações, consulte  [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Selo Premium ](/help/assets/premium.png) Janela de retrospectiva do Recommendations e melhorias na taxa de atualização do algoritmo | Agora é possível executar os algoritmos &quot;Mais visualizados&quot; e &quot;Mais vendidos&quot; com uma janela de retrospectiva de seis horas para capturar o conteúdo das tendências mais recentes. Quando a janela de retrospectiva de seis horas é selecionada, os resultados das recomendações são atualizados a cada 3 a 6 horas ao longo do dia.<br>Para obter mais informações, consulte  [Fonte ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) de dados em  *Criar critérios*. |
+| [!UICONTROL Públicos-alvo] Atualização da interface do usuário | Como parte do [!DNL Adobe Target] esforço contínuo da equipe para melhorar a experiência do usuário para [!DNL Target] usuários, esta versão atualiza o [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] nas [!DNL Target] IU. Essa atualização unifica e padroniza padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos simultaneamente</li><li>Uma atualização [design do audience builder](/help/c-target/c-audiences/create-audience.md)</li><li>Suporte a regras de exclusão no [!UICONTROL Público] construtor de regras de biblioteca</li><li>Um novo filtro &quot;Fonte de público-alvo&quot;, para permitir uma descoberta de público-alvo mais rápida</li><li>Opções de filtro e pesquisa persistente da sessão</li></ul>Para obter mais informações, consulte [Públicos](/help/c-target/target.md).<br>**OBSERVAÇÃO**: O novo [!UICONTROL Públicos-alvo] A interface do usuário foi temporariamente desabilitada para todos os clientes, exceto aqueles que estão atualmente em uma [!DNL Target] Programa beta. Essa atualização da interface do usuário será reativada para um subconjunto de clientes na terça-feira, 19 de outubro e para todos os clientes restantes na quinta-feira, 21 de outubro de 2021. |
+| [!UICONTROL Scripts de perfil] Atualização da interface do usuário | O [!UICONTROL Scripts de perfil] A biblioteca também foi atualizada e inclui uma interface atualizada e várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos do teclado</li></ul>Para obter mais informações, consulte [Perfis do visitante](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Selo Premium](/help/assets/premium.png) Criar e editar critérios do Recommendations | O [!UICONTROL Critérios da Recommendations] o fluxo de trabalho de criação e edição foi simplificado para simplificar a escolha do algoritmo de recomendações e das configurações corretas para atingir suas metas.<br>Para obter mais informações, consulte [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Selo Premium](/help/assets/premium.png) Melhorias na janela de lookback do Recommendations e na taxa de atualização do algoritmo | Agora é possível executar os algoritmos &quot;Mais visualizados&quot; e &quot;Mais vendidos&quot; com uma janela de retrospectiva de seis horas para capturar o conteúdo das tendências mais recentes. Quando a janela de retrospectiva de seis horas é selecionada, os resultados das recomendações são atualizados a cada 3 a 6 horas ao longo do dia.<br>Para obter mais informações, consulte [Fonte de dados](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) em *Criar critérios*. |
 
 ## Notas de versão adicionais e detalhes da versão
 
