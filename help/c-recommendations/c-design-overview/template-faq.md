@@ -1,19 +1,19 @@
 ---
-keywords: recomendações, perguntas frequentes, faq
-description: Revise uma lista de perguntas frequentes e suas respostas sobre os designs do Adobe [!DNL Target] Recommendations.
-title: Onde posso responder perguntas sobre design para [!DNL Target] Recommendations?
+keywords: recomendações;perguntas frequentes;faq
+description: Revise uma lista de perguntas frequentes e suas respostas sobre os designs do Adobe  [!DNL Target]  Recommendations.
+title: Onde posso encontrar respostas para perguntas sobre design do  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Perguntas frequentes sobre o design
 
-Lista de perguntas frequentes sobre os designs [!DNL Adobe Target] [!DNL Recommendations].
+Lista de perguntas frequentes sobre designs do [!DNL Adobe Target] [!DNL Recommendations].
 
 ## O preço do item recomendado não exibe os dois valores à direita da casa decimal. Como posso exibi-los?
 
@@ -47,8 +47,8 @@ A versão 1.7 sem ferramentas adicionais ou bibliotecas incorporadas. O recurso 
 
 ## O que devo fazer para deixar um valor de entidade existente em branco? Por exemplo: a entity.message de um item precisa ser limpa quando uma promoção termina. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Enviar um espaço sem quebra do JavaScript parece ser suficiente. Peça que os desenvolvedores enviem `\u00A0` como o valor. Exemplo: `entity.message=\u00A0`. Você pode considerar esse como sendo o valor padrão, ao invés de um valor nulo, quando nenhum valor estiver presente.
+Enviar um espaço sem quebra do JavaScript parece resolver isso. Peça que os desenvolvedores enviem `\u00A0` como o valor. Exemplo: `entity.message=\u00A0`. Você pode considerar esse como sendo o valor padrão, ao invés de um valor nulo, quando nenhum valor estiver presente.
 
-## Posso usar um script de perfil em um design [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Posso usar um script de perfil em um design do [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Sim. Para usar um script de perfil em um design [!DNL Recommendations], vincule o nome em `\${...}`. Por exemplo, se o script de perfil for chamado de `user.basket`, refira-o como `\${user.basket}` no design. Observe que a barra invertida implica que o script de perfil não é renderizado pela Velocity. Portanto, não é possível executar nenhuma operação no script de perfil em um modelo do Velocity. O valor será impresso diretamente na página.
+Sim. Para usar um script de perfil em um design do [!DNL Recommendations], insira `\${...}` ao redor do nome. Por exemplo, se o script de perfil for nomeado como `user.basket`, utilize `\${user.basket}` no design. Observe que a barra invertida implica que o script de perfil não é renderizado pelo Velocity. Portanto, não é possível executar nenhuma operação no script de perfil em um modelo do Velocity. O valor será impresso diretamente na página.
