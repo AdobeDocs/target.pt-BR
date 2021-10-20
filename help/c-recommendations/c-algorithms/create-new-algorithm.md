@@ -4,16 +4,16 @@ description: Saiba como criar critérios que controlam o conteúdo de suas ativi
 title: Como criar critérios no Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: a86726aa6cc11f229c8157bb6d81a40d9f6b994e
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '2797'
 ht-degree: 53%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Criar critérios
 
-Critérios em [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controlam o conteúdo de suas atividades [!UICONTROL Recommendations]. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade. Esses critérios usam as ações do visitante para determinar qual conteúdo ou produtos serão exibidos.
+Critérios em [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controle o conteúdo de sua [!UICONTROL Recommendations] atividades. Crie critérios para mostrar as recomendações que são mais apropriadas para sua atividade. Esses critérios usam as ações do visitante para determinar qual conteúdo ou produtos serão exibidos.
 
 As seções a seguir explicam como criar um novo critério.
 
@@ -21,11 +21,11 @@ As seções a seguir explicam como criar um novo critério.
 
 Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. Algumas opções de tela variam de acordo com o modo que você chegar na tela.
 
-* Na tela da biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]**, clique em **[!UICONTROL Criar critérios]** > **[!UICONTROL Criar critérios]**. Critérios que você criar aqui ficam disponíveis automaticamente para todas atividades do [!DNL Recommendations].
-* Ao criar uma atividade [!DNL Recommendations] usando o [!UICONTROL Visual Experience Composer] (VEC), você é levado imediatamente para a tela [!UICONTROL Selecionar critérios] depois de selecionar um elemento na página e clicar em [!UICONTROL Substituir com Recommendations], [!UICONTROL Inserir Recommendations Antes] ou [!UICONTROL Inserir Recommendations Depois de ]. Você pode selecionar um critério disponível ou clicar em **[!UICONTROL Criar critérios]**. Se você criar um novo critério, terá a opção de salvar seu critério para uso com outras atividades [!DNL Recommendations] . Para obter mais informações, consulte [Criar uma atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Ao editar uma [!DNL Recommendations] atividade, clique em uma caixa de [!UICONTROL Localização do Recommendations] em sua página e selecione **[!UICONTROL Alterar critérios]**. Na tela [!UICONTROL Selecionar critério], clique em **[!UICONTROL Criar critério]**. Você terá a opção de salvar seu novo critério para uso com outras atividades do [!DNL Recommendations].
+* No **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]** tela biblioteca, clique em **[!UICONTROL Criar critérios]** > **[!UICONTROL Criar critérios]**. Critérios que você criar aqui ficam disponíveis automaticamente para todas atividades do [!DNL Recommendations].
+* Ao criar um [!DNL Recommendations] atividade usando a [!UICONTROL Visual Experience Composer] (VEC), é imediatamente levado ao [!UICONTROL Selecionar critérios] depois de selecionar um elemento na página e clicar em [!UICONTROL Substituir por Recommendations], [!UICONTROL Inserir o Recommendations antes de]ou [!UICONTROL Inserir o Recommendations depois de]. Você pode selecionar um critério disponível ou clicar em **[!UICONTROL Criar critérios]**. Se você criar um novo critério, terá a opção de salvar seu critério para uso com outros [!DNL Recommendations] atividades. Para obter mais informações, consulte [Criar uma atividade do Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Ao editar uma [!DNL Recommendations] atividade, clique em uma caixa de [!UICONTROL Localização do Recommendations] em sua página e selecione **[!UICONTROL Alterar critérios]**. No [!UICONTROL Selecionar critérios] , clique em **[!UICONTROL Criar critérios]**. Você terá a opção de salvar seu novo critério para uso com outras atividades do [!DNL Recommendations].
 
-As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar novos critérios] usando o primeiro método: a tela da biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]**.
+As etapas a seguir pressupõem que você acesse a variável [!UICONTROL Criar novos critérios] usando o primeiro método: o **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]** tela da biblioteca.
 
 1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]**.
 
@@ -69,7 +69,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar novos c
 
 ## [!UICONTROL Algoritmo Recommendations] {#rec-algo}
 
-1. Selecione um **[!UICONTROL Tipo de Algoritmo]** e **[!UICONTROL Algoritmo]**:
+1. Selecione um **[!UICONTROL Tipo de algoritmo]** e **[!UICONTROL Algoritmo]**:
 
    ![Seção Algoritmo recomendado](assets/recommended-algorithm.png)
 
@@ -78,39 +78,39 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar novos c
    | [!UICONTROL Baseado em popularidade] | Faça recomendações com base na popularidade geral de um item em seu site ou na popularidade dos itens em uma categoria favorita ou mais exibida do usuário, marca, gênero e assim por diante. | <ul><li>Mais visualizados no site</li><li>Mais visualizados por categoria</li><li>Mais visualizados por atributo de item</li><li>Mais vendidos no site</li><li>Mais vendidos por categoria</li><li>Principais Vendedores por Atributo de Item</li><li>Principais por métrica do Analytics</li></ul> |
    | [!UICONTROL Baseado em item] | Faça recomendações baseadas em encontrar itens semelhantes a um item que o usuário está visualizando ou visualizou recentemente. | <ul><li>Pessoas que visualizaram isto, visualizaram aquilo</li><li>Pessoas que visualizaram isto, compraram aquilo</li><li>Pessoas que compraram isto, compraram aquilo</li><li>Itens com atributos similares</li></ul> |
    | [!UICONTROL Baseado em usuário] | Faça recomendações com base no comportamento do usuário. | <ul><li>Itens visualizados recentemente </li><li>Recomendado para você</li></ul> |
-   | Baseado em carrinho | (Em breve) Faça recomendações com base no conteúdo do carrinho do usuário. | <ul><li>Pessoas que visualizaram estes, visualizaram aqueles</li><li>Pessoas que visualizaram estes, compraram aqueles</li><li>Pessoas que compraram isto, compraram aqueles</li></ul> |
+   | Baseado em carrinho | Faça recomendações com base no conteúdo do carrinho do usuário. | <ul><li>Pessoas que visualizaram estes, visualizaram aqueles</li><li>Pessoas que visualizaram estes, compraram aqueles</li><li>Pessoas que compraram isto, compraram aqueles</li></ul> |
    | [!UICONTROL Critérios personalizados] | Faça recomendações com base em um arquivo personalizado que você fez upload. | <ul><li>Algoritmo personalizado</li></ul> |
 
 
    >[!NOTE]
    >
-   >Se você selecionar **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, terá a opção de definir [content similaridade rules](#similarity).
+   >Se você selecionar **[!UICONTROL Itens]**/ **[!UICONTROL Mídia com atributos similares]**, você terá a opção de definir [regras de similaridade de conteúdo](#similarity).
 
-1. Conforme necessário, selecione um **Atributo de Item** e **Atributo de Perfil para Corresponder**, uma **Chave de Recomendação**, **Chave de Filtragem** e/ou **Métrica do Analytics** para configurar o algoritmo.
+1. Conforme necessário, selecione um **Atributo do item** e **Atributo de perfil para correspondência**, a **Chave de recomendação**, **Chave de filtragem** e/ou **Métrica do Analytics** para configurar o algoritmo.
 
 Para obter mais informações sobre como escolher uma Chave de Recomendação, consulte [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Fonte de dados] {#data-source}
 
-1. Selecione a **[!UICONTROL Fonte de Dados Comportamentais desejada]**: [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].
+1. Selecione o **[!UICONTROL Fonte de dados comportamentais]**: [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].
 
    >[!NOTE]
    >
-   >A seção [!UICONTROL Fonte de dados comportamentais] é exibida somente se sua implementação usar [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+   >O [!UICONTROL Fonte de dados comportamentais] a seção exibe somente se sua implementação usar [Analytics para Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
    ![Seção Fonte de dados comportamentais](assets/data-source.png)
 
    Se você escolher [!UICONTROL Analytics], selecione o conjunto de relatórios desejado.
 
-   Se os critérios usarem [!DNL Adobe Analytics] como a fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios, conforme explicado abaixo:
+   Se os critérios usarem [!DNL Adobe Analytics] como a fonte de dados comportamentais, uma vez criada, o tempo para a disponibilidade dos critérios depende se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios, conforme explicado abaixo:
 
-   * **Configuração única do conjunto de relatórios**: a primeira vez que um conjunto de relatórios é usado com determinada janela de lookback do intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para baixar completamente os dados comportamentais do conjunto de relatórios selecionado no [!DNL Analytics]. Esse período depende da carga do sistema [!DNL Analytics].
+   * **Configuração única do conjunto de relatórios**: a primeira vez que um conjunto de relatórios é usado com determinada janela de lookback do intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para baixar completamente os dados comportamentais do conjunto de relatórios selecionado no [!DNL Analytics]. Esse período depende do [!DNL Analytics] carga do sistema.
    * **Critérios novos ou editados usando um conjunto de relatórios já disponível**: ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado com o [!DNL Target Recommendations], com um intervalo de dados igual ou menor que o intervalo de dados selecionado, os dados serão imediatamente disponibilizados e a configuração única não será necessária. Nesse caso ou se as configurações de um algoritmo forem editadas, enquanto o conjunto de relatórios ou intervalo de dados selecionado não for modificado, o algoritmo será executado ou executado novamente em 12 horas.
    * **O algoritmo contínuo é executado**: os dados fluem do [!DNL Analytics] para [!DNL Target Recommendations] diariamente. Por exemplo, para a recomendação [!UICONTROL Afinidade visualizada], quando um usuário exibe um produto, uma chamada de rastreamento de exibições do produto é passada para o [!DNL Analytics] quase em tempo real. Os dados do [!DNL Analytics] são encaminhados para o [!DNL Target] no início do dia seguinte e o [!DNL Target] executa o algoritmo em menos de 12 horas.
 
-   Para obter mais informações, consulte [Usar o Adobe Analytics com o Recommendations do Target](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   Para obter mais informações, consulte [Usar o Adobe Analytics com o Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. Defina a **[!UICONTROL Janela de pesquisa]** para determinar o intervalo de tempo de dados históricos disponíveis do comportamento do usuário, ao determinar quais recomendações serão mostradas. Essa opção está disponível para todos os algoritmos, com exceção de Itens com Atributos similares e Algoritmos personalizados.
+1. Defina as **[!UICONTROL Janela de pesquisa]** para determinar o intervalo de tempo de dados históricos disponíveis do comportamento do usuário, ao determinar quais recomendações serão exibidas. Essa opção está disponível para todos os algoritmos, com exceção de Itens com Atributos similares e Algoritmos personalizados.
 
    ![Controle deslizante da janela de pesquisa](assets/data-range.png)
 
@@ -122,27 +122,27 @@ Para obter mais informações sobre como escolher uma Chave de Recomendação, c
 
    | Opção Janela de pesquisa | Frequência atualizada (exibida ao passar o mouse) | Algoritmos suportados |
    | --- | --- | --- |
-   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Algoritmos ] baseados em popularidade quando as fontes de dados  [!UICONTROL comportamentais selecionadas ] são  [!DNL Adobe Target] |
-   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Algoritmos ] baseados em popularidade |
-   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos ] baseados em popularidade</li><li>[!UICONTROL Algoritmos ] Baseados em Itens</li><li>[!UICONTROL Algoritmos ] baseados no usuário</li><li>[!UICONTROL Algoritmos ] baseados no carrinho</li></ul> |
-   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] baseados em popularidade</li><li>[!UICONTROL Algoritmos ] Baseados em Itens</li><li>[!UICONTROL Algoritmos ] baseados no usuário</li><li>[!UICONTROL Algoritmos ] baseados no carrinho</li></ul> |
-   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] baseados em popularidade</li><li>[!UICONTROL Algoritmos ] Baseados em Itens</li><li>Todos os algoritmos [!UICONTROL Baseados no Usuário]</li><li>[!UICONTROL Algoritmos ] baseados no carrinho</li></ul> |
-   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] baseados em popularidade</li><li>[!UICONTROL Algoritmos ] Baseados em Itens</li><li>[!UICONTROL Algoritmos ] baseados no usuário</li><li>[!UICONTROL Algoritmos ] baseados no carrinho</li></ul> |
-   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] baseados em popularidade</li><li>[!UICONTROL Algoritmos ] Baseados em Itens</li><li>[!UICONTROL Algoritmos ] baseados no usuário</li><li>[!UICONTROL Algoritmos ] baseados no carrinho</li></ul> |
+   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Baseado em popularidade] algoritmos quando o [!UICONTROL Fonte de dados comportamentais] é [!DNL Adobe Target] |
+   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Baseado em popularidade] algoritmos |
+   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Baseado em popularidade] algoritmos</li><li>[!UICONTROL Baseado em item] algoritmos</li><li>[!UICONTROL Baseado em usuário] algoritmos</li><li>[!UICONTROL Baseado em carrinho] algoritmos</li></ul> |
+   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Baseado em popularidade] algoritmos</li><li>[!UICONTROL Baseado em item] algoritmos</li><li>[!UICONTROL Baseado em usuário] algoritmos</li><li>[!UICONTROL Baseado em carrinho] algoritmos</li></ul> |
+   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Baseado em popularidade] algoritmos</li><li>[!UICONTROL Baseado em item] algoritmos</li><li>Todos [!UICONTROL Baseado em usuário] algoritmos</li><li>[!UICONTROL Baseado em carrinho] algoritmos</li></ul> |
+   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Baseado em popularidade] algoritmos</li><li>[!UICONTROL Baseado em item] algoritmos</li><li>[!UICONTROL Baseado em usuário] algoritmos</li><li>[!UICONTROL Baseado em carrinho] algoritmos</li></ul> |
+   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Baseado em popularidade] algoritmos</li><li>[!UICONTROL Baseado em item] algoritmos</li><li>[!UICONTROL Baseado em usuário] algoritmos</li><li>[!UICONTROL Baseado em carrinho] algoritmos</li></ul> |
 
 ## [!UICONTROL Conteúdo de backup] {#content}
 
-[!UICONTROL Os ] contatos de backup determinam o que acontece se o número de itens recomendados não preencher o design [ de ](/help/c-recommendations/c-design-overview/design-overview.md)recomendações. Os critérios [!DNL Recommendations] podem retornar menos recomendações do que seu design solicita. Como exemplo, se o design tiver slots para quatro itens, mas os critérios fizerem com que apenas dois itens sejam recomendados, você poderá deixar os slots restantes vazios, poderá usar recomendações de backup para preencher os slots extras ou poderá optar por não exibir nenhuma recomendação.
+[!UICONTROL Conteúdo de backup] as regras determinam o que acontece se o número de itens recomendados não preencher a [design de recomendações](/help/c-recommendations/c-design-overview/design-overview.md). É possível [!DNL Recommendations] critérios para retornar menos recomendações do que seu design solicita. Como exemplo, se o design tiver slots para quatro itens, mas os critérios fizerem com que apenas dois itens sejam recomendados, você poderá deixar os slots restantes vazios, poderá usar recomendações de backup para preencher os slots extras ou poderá optar por não exibir nenhuma recomendação.
 
 ![Seção de conteúdo](assets/content.png)
 
-1. (Opcional) Deslize o botão **[!UICONTROL Renderização parcial do design]** para a posição &quot;ativada&quot;.
+1. (Opcional) Deslize o **[!UICONTROL Renderização parcial do design]** alterne para a posição &quot;ativada&quot;.
 
    Quantos espaços forem possíveis serão preenchidos, mas o modelo de design poderá incluir espaço em branco para os espaços restantes. Se essa opção estiver desativada e não houver conteúdo suficiente para preencher todos os slots disponíveis, as recomendações não serão exibidas e o conteúdo padrão será exibido.
 
    Ative essa opção se desejar que as recomendações sejam exibidas com espaços em branco. Use as recomendações de backup se desejar que os slots de recomendação sejam preenchidos com conteúdo com base nos seus critérios com slots vazios preenchidos com conteúdo semelhante ou popular do seu site, conforme explicado na próxima etapa.
 
-1. (Opcional) Deslize o botão **[!UICONTROL Mostrar conteúdo de backup]** para a posição &quot;ativada&quot;.
+1. (Opcional) Deslize o **[!UICONTROL Mostrar conteúdo de backup]** alterne para a posição &quot;ativada&quot;.
 
    Preencha os slots vazios restantes no design com uma seleção aleatória de produtos mais visualizados de todo o site.
 
@@ -150,9 +150,9 @@ Para obter mais informações sobre como escolher uma Chave de Recomendação, c
 
    ![Design 4 x 1](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Suponha que seus critérios façam com que apenas dois itens sejam recomendados. Se você ativar a opção [!UICONTROL Renderização parcial de design], os dois primeiros slots serão preenchidos, mas os dois slots restantes permanecerão vazios. No entanto, se você ativar a opção [!UICONTROL Mostrar Recommendations de Backup], os dois primeiros slots serão preenchidos com base nos critérios especificados e os dois slots restantes serão preenchidos com base nas recomendações de backup.
+   Suponha que seus critérios façam com que apenas dois itens sejam recomendados. Se você ativar a variável [!UICONTROL Renderização parcial do design] , os dois primeiros slots são preenchidos, mas os dois slots restantes permanecem vazios. No entanto, se você ativar a variável [!UICONTROL Mostrar Recommendations de Backup] , os dois primeiros slots são preenchidos com base nos critérios especificados e os dois slots restantes são preenchidos com base nas recomendações de backup.
 
-   A matriz a seguir mostra o resultado que você observará ao usar as opções [!UICONTROL Renderização parcial de design] e [!UICONTROL Conteúdo de backup]:
+   A matriz a seguir mostra o resultado que você observará ao usar a variável [!UICONTROL Renderização parcial do design] e [!UICONTROL Conteúdo de backup] opções:
 
    | Renderização parcial de design | Conteúdo de backup | Resultado |
    |--- |--- |--- |
@@ -167,9 +167,9 @@ Para obter mais informações sobre como escolher uma Chave de Recomendação, c
 
    Regras de inclusão determinam quais itens estão incluídos em suas recomendações. As opções disponíveis dependem do seu negócio vertical.
 
-   Para obter mais detalhes, consulte   [Especifique ](#inclusion) as regras de inclusão abaixo.
+   Para obter mais detalhes, consulte  [Especificar regras de inclusão](#inclusion) abaixo.
 
-1. (Opcional) Deslize o botão **[!UICONTROL Recomendar itens comprados anteriormente]** para a posição &quot;ativada&quot;.
+1. (Opcional) Deslize o **[!UICONTROL Recomendar itens comprados anteriormente]** alterne para a posição &quot;ativada&quot;.
 
    Esta configuração é baseada no `productPurchasedId`. O comportamento padrão é não recomendar itens comprados anteriormente. Na maioria dos casos, você não deseja promover itens que um cliente comprou recentemente. Ela é útil se você vende itens que pessoas geralmente compram apenas uma vez, como caiaques. Se você vende itens que as pessoas voltam para comprar novamente repetidamente, como xampu ou outros itens pessoais, você deve habilitar essa opção.
 
@@ -179,13 +179,13 @@ Use as regras de [!UICONTROL Similaridade de conteúdo] para fazer recomendaçõ
 
 >[!NOTE]
 >
->Se você selecionou **[!UICONTROL Baseado em Item]**/ **[!UICONTROL Mídia com Atributos Semelhantes]** como Tipo de Algoritmo e Algoritmo, terá a opção de definir regras de similaridade de conteúdo.
+>Se você selecionou **[!UICONTROL Baseado em item]**/ **[!UICONTROL Mídia com atributos similares]** como Tipo de algoritmo e Algoritmo, você tem a opção de definir regras de similaridade de conteúdo.
 
 Similaridade de conteúdo compara palavras-chave de atributo do item e faz recomendações baseadas em quantas palavras-chave itens diferentes têm em comum. Recommendations baseadas em similaridade de conteúdo não requerem dados antigos para providenciar melhores resultados.
 
 Usar similaridade de conteúdo para gerar recomendações é especialmente eficaz para novos itens, que provavelmente não aparecem em recomendações usando *pessoas que viram isto, viram aquilo* e outras lógicas baseadas em comportamento anterior. Você também pode usar similaridade de conteúdo para gerar recomendações úteis para novos visitantes, que não possuem compras antigas ou outros dados de histórico.
 
-Ao selecionar **[!UICONTROL Baseado em Item]**/ **[!UICONTROL Mídia com Atributos Semelhantes]**, você tem a opção de criar regras para aumentar ou diminuir a importância de atributos específicos do item em determinadas recomendações. Para itens como livros, você pode querer ampliar a importância de atributos como *gênero*, *autor*, *série*, e assim em diante, para recomendar livros similares.
+Ao selecionar **[!UICONTROL Baseado em item]**/ **[!UICONTROL Mídia com atributos similares]**, você tem a opção de criar regras para aumentar ou diminuir a importância de atributos específicos do item em determinadas recomendações. Para itens como livros, você pode querer ampliar a importância de atributos como *gênero*, *autor*, *série*, e assim em diante, para recomendar livros similares.
 
 ![](assets/ContentSimilarity.png)
 
@@ -235,7 +235,7 @@ Para criar uma regra de inclusão simples, como mencionado anteriormente, para e
    >
    >Essa opção limita os itens exibidos na recomendação. Isso não afeta em quais páginas a recomendação é exibida. Para limitar onde a recomendação é exibida, selecione as páginas no compositor de experiência.
 
-Para obter mais informações, consulte [Usar regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+Para obter mais informações, consulte [Uso das regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Ponderação de atributos {#weighting}
 
