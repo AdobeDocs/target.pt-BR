@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '32512'
+source-wordcount: '32513'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ Esta versão de manutenção contém as seguintes melhorias:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Recommendations baseado em carrinho | Uma nova família de algoritmos para fornecer recomendações com base no conteúdo do carrinho do visitante.<br>Para obter mais informações, consulte &quot;Baseado em carrinho&quot; em [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Páginas de finalização/exibições/finalização do carrinho&quot; e &quot;Excluir itens já no carrinho do visitante&quot; em [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations baseado em carrinho | Uma nova família de algoritmos foi adicionada para fornecer recomendações com base no conteúdo do carrinho do visitante.<br>Para obter mais informações, consulte &quot;Baseado em carrinho&quot; em [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Páginas de finalização/exibições/finalização do carrinho&quot; e &quot;Excluir itens já no carrinho do visitante&quot; em [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 de outubro de 2021)
 

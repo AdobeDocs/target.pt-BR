@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 57%
 
 ---
@@ -31,7 +31,7 @@ Esta versão de manutenção contém as seguintes melhorias:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Recommendations baseado em carrinho | Uma nova família de algoritmos para fornecer recomendações com base no conteúdo do carrinho do visitante.<br>Para obter mais informações, consulte &quot;Baseado em carrinho&quot; em [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Páginas de finalização/exibições/finalização do carrinho&quot; e &quot;Excluir itens já no carrinho do visitante&quot; em [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations baseado em carrinho | Uma nova família de algoritmos foi adicionada para fornecer recomendações com base no conteúdo do carrinho do visitante.<br>Para obter mais informações, consulte &quot;Baseado em carrinho&quot; em [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Páginas de finalização/exibições/finalização do carrinho&quot; e &quot;Excluir itens já no carrinho do visitante&quot; em [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 de outubro de 2021)
 
