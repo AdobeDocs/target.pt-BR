@@ -4,9 +4,9 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] ,
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: ht
-source-wordcount: '572'
+source-git-commit: fa4dbcf7ac584247f9fb991dfe16b953c273612c
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -14,19 +14,6 @@ ht-degree: 100%
 # Anúncios e eventos do Target
 
 Anúncios e informações sobre eventos futuros, incluindo sessões do criador de habilidades, chats de desenvolvedor e webinários do [!DNL Adobe Target], além de sessões de Coffee break do [!DNL Target].
-
-## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade
-
-* **Quarta-feira, 13 de outubro de 2021**
-* **8h (PDT, UTC -7)**
-* **[Clique aqui para obter mais informações e para se inscrever](https://adobe.ly/3CoUIVz).**
-
-Gentry Lin, consultora sênior de soluções para o [!DNL Adobe Target], responderá as perguntas de clientes relacionadas às suas áreas de conhecimento:
-
-* Implementação
-* Personalização
-* Fluxos de trabalho principais para criações Web
-* [!DNL Adobe Experience Cloud] integrações
 
 ## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
 
