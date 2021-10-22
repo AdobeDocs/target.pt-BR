@@ -4,7 +4,7 @@ description: Encontre sugestões para ajudar a solucionar problemas se a página
 title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ Você pode verificar a resposta do [!DNL Target] no navegador ou usando a mboxTr
 
 A at.js não disparará solicitações do Target se você estiver usando um tipo de documento inválido. A at.js exige o doctype HTML 5.
 
-## Certifique-se de que [!DNL Target] as atividades lidam corretamente com URLs com parâmetros de string de consulta {#query-strings}
+## Certifique-se de que [!DNL Target] As atividades do lidam com URLs com parâmetros de string de consulta corretamente. {#query-strings}
 
 O [!UICONTROL URL da atividade] determina a página que qualifica os visitantes da atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo seja entregue na página do site, especialmente com URLs que contenham parâmetros de string de consulta.
 
