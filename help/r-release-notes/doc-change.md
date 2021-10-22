@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
+source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
 workflow-type: tm+mt
-source-wordcount: '2830'
+source-wordcount: '2848'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 22 de outubro | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Adição da seguintes seção:<ul><li>Certifique-se de que [!DNL Target] as atividades lidam corretamente com URLs com parâmetros de string de consulta</li></ul> |
 | 21º de outubro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos:<ul><li>[!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (10 de novembro de 2021)</li><li>[!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (8 de dezembro de 2021)</li></ul> |
 | 20º de outubro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.4 (21 de outubro de 2021). |
 |  | [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md) | Atualização de todo o tópico. |
