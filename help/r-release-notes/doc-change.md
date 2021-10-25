@@ -4,7 +4,7 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '2859'
 ht-degree: 94%
@@ -19,7 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 25º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.5 (26 de outubro de 2021). |
+| 25º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.5 (28 de outubro de 2021). |
 | 22 de outubro | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Adição da seguintes seção:<ul><li>Certifique-se de que [!DNL Target] as atividades lidam corretamente com URLs com parâmetros de string de consulta</li></ul> |
 | 21º de outubro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos:<ul><li>[!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (10 de novembro de 2021)</li><li>[!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (8 de dezembro de 2021)</li></ul> |
 | 20º de outubro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.4 (21 de outubro de 2021). |

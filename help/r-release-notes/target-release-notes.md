@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 53%
@@ -25,7 +25,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >
 >Para evitar possíveis problemas com seus sites, migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js de JavaScript. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.5 (26 de outubro de 2021)
+## [!DNL Target Standard/Premium] 21.10.5 (28 de outubro de 2021)
 
 Esta versão de manutenção contém as seguintes melhorias:
 

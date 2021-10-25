@@ -4,7 +4,7 @@ description: Explore as opções disponíveis no Adobe Target Visual Experience 
 title: Como uso as opções do Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 823694603c0248316e471f0b15070c0a34356620
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 72%
@@ -348,7 +348,7 @@ Desfaça as alterações feitas em suas atividades durante uma sessão de altera
 
 * Se uma oferta inclui conteúdo HTML, consulte “Como o at.js renderiza ofertas com conteúdo HTML” em [Como o at.js funciona](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render), para obter mais informações.
 
-## Suporte a elemento personalizado (em breve, 26 de outubro de 2021) {#custom}
+## Suporte a elemento personalizado (em breve, 28 de outubro de 2021) {#custom}
 
 O VEC é compatível [Componentes da Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) para permitir criar e testar experiências e ofertas personalizadas em elementos personalizados e em elementos dentro de elementos personalizados. Essa funcionalidade está disponível no VEC para todos [!DNL Target] tipos de atividades.
 
