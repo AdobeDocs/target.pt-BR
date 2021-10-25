@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 57%
+source-wordcount: '413'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização em: 20 outubro de 2021**
+**Última atualização em: 25 outubro de 2021**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -24,6 +24,14 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 >**Fim da vida útil da mbox.js**: a partir de 31 de março de 2021, o [!DNL Adobe Target] não oferecerá mais suporte à biblioteca de mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js vão resultar em falha e afetar suas páginas com atividades do [!DNL Target] em execução ao veicular conteúdo padrão.
 >
 >Para evitar possíveis problemas com seus sites, migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js de JavaScript. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.5 (26 de outubro de 2021)
+
+Esta versão de manutenção contém as seguintes melhorias:
+
+| Recurso | Detalhes |
+| --- | --- |
+| [!UICONTROL Visual Experience Composer] (VEC) | Adição de suporte para Componentes da Web. Experiências e ofertas personalizadas podem ser criadas e testadas em Elementos personalizados e em elementos dentro de Elementos personalizados. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 de outubro de 2021)
 
