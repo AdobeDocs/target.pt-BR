@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '420'
 ht-degree: 53%
 
 ---
@@ -31,7 +31,7 @@ Esta versão de manutenção contém as seguintes melhorias:
 
 | Recurso | Detalhes |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Adição de suporte para Componentes da Web. Experiências e ofertas personalizadas podem ser criadas e testadas em Elementos personalizados e em elementos dentro de Elementos personalizados. |
+| [!UICONTROL Visual Experience Composer] (VEC) | Suporte adicionado para [Componentes da Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Experiências e ofertas personalizadas podem ser criadas e testadas em elementos personalizados e em elementos dentro de elementos personalizados. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 de outubro de 2021)
 
