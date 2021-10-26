@@ -1,14 +1,14 @@
 ---
 keywords: ambiente, solução de problemas, práticas recomendadas, ubox, redirecionamentos, redirecionamento, lista de permissões, lista negra, lista de bloqueios,  lista de permissões
-description: Saiba como usar ambientes no Adobe [!DNL Target] para organizar seus sites e ambientes de pré-produção para fácil gerenciamento e relatórios separados.
+description: Saiba como usar ambientes no Adobe [!DNL Target] para organizar seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 title: O que são ambientes e como os uso?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
+source-git-commit: c335fde454e31c6d82ebc8b0b5570f3c65d18541
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 62%
+source-wordcount: '699'
+ht-degree: 60%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 62%
 
 Organize seus sites e ambientes de pré-produção para fácil gerenciamento e geração de relatórios separados.
 
-Os hosts são agrupados em ambientes para facilitar o gerenciamento. Por exemplo, você pode ter dezenas de hosts agrupados em dois ou três ambientes. Os ambientes predefinidos incluem [!UICONTROL Produção], [!UICONTROL Armazenamento temporário] e [!UICONTROL Desenvolvimento]. Você pode adicionar novos ambientes e renomear seus ambientes, se desejado.
+Os hosts são agrupados em ambientes para facilitar o gerenciamento. Por exemplo, você pode ter dezenas de hosts agrupados em dois ou três ambientes. Os ambientes predefinidos incluem [!UICONTROL Produção], [!UICONTROL Estágios]e [!UICONTROL Desenvolvimento]. Você pode adicionar novos ambientes e renomear seus ambientes, se desejado.
 
 Um ambiente, o ambiente padrão, é pré-nomeado [!UICONTROL Produção]. Esse ambiente padrão não pode ser removido, mesmo que você o renomeie. O [!DNL Target] parte do princípio que este é o local onde você disponibiliza atividades finais, aprovadas e testes.
 
-Quando uma solicitação [!DNL Target] é recebida de novos sites da Web ou domínios, esses novos domínios sempre aparecem no ambiente [!UICONTROL Production]. O ambiente [!UICONTROL Produção] não pode ter suas configurações alteradas, portanto, sites desconhecidos ou novos são garantidos para ver somente o conteúdo que está ativo e pronto. O gerenciamento de hosts também permite garantir a qualidade de novas atividades e do conteúdo em seus ambientes de teste, armazenamento temporário e desenvolvimento, antes das atividades serem ativadas.
+Quando uma [!DNL Target] for recebida de novos sites da web ou domínios, esses novos domínios sempre aparecerão no [!UICONTROL Produção] ambiente. O [!UICONTROL Produção] o ambiente não pode ter suas configurações alteradas, de modo que sites novos ou desconhecidos visualizarão somente o conteúdo ativo e pronto. O gerenciamento de hosts também permite garantir a qualidade de novas atividades e do conteúdo em seus ambientes de teste, armazenamento temporário e desenvolvimento, antes das atividades serem ativadas.
 
-Para gerenciar ambientes, clique em **[!UICONTROL Administration]** > **[!UICONTROL Ambientes]**.
+Para gerenciar ambientes, clique em **[!UICONTROL Administração]** > **[!UICONTROL Ambientes]**.
 
 ![Lista de ambientes](/help/administrating-target/assets/environments.png)
 
 ## Adicionar um ambiente {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Na lista [!UICONTROL Ambientes], clique em **[!UICONTROL Adicionar Ambiente]**.
+1. No [!UICONTROL Ambientes] listar, clique em **[!UICONTROL Adicionar ambiente]**.
 1. Especifique um nome descritivo para o ambiente.
 1. Especifique o modo ativo desejado para o ambiente: [!UICONTROL Atividades ativas] ou [!UICONTROL Atividades ativas e inativas].
 
-   Se você especificar [!UICONTROL Atividades ativas e inativas], os hosts desse ambiente também exibirão atividades inativas.
+   Se você especificar [!UICONTROL Atividades ativas e inativas], os hosts desse ambiente também exibem atividades inativas.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -40,11 +40,11 @@ Para gerenciar ambientes, clique em **[!UICONTROL Administration]** > **[!UICONT
 
 Você pode selecionar o ambiente que deseja usar como padrão em todos os relatórios de atividade.
 
-Se você usar [!UICONTROL Produção] como padrão, todos os hosts desconhecidos serão adicionados automaticamente aqui e os dados de relatório de lá serão incluídos na exibição de relatório padrão. Em vez disso, criar um ambiente &quot;limpo&quot; garante somente a inclusão dos seus sites/domínios principais.
+Se você usar [!UICONTROL Produção] como padrão, todos os hosts desconhecidos são adicionados automaticamente aqui e os dados de relatório de lá são incluídos na exibição de relatório padrão. Em vez disso, criar um ambiente &quot;limpo&quot; garante somente a inclusão dos seus sites/domínios principais.
 
 Para definir o ambiente padrão para relatório:
 
-1. Na lista [!UICONTROL Ambientes], clique no ícone Estrela
+1. No [!UICONTROL Ambientes] clique no ícone Estrela
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Para definir o ambiente padrão para relatório:
 
 ## Alterar o nome de um ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Na lista [!UICONTROL Environment], clique no ícone **[!UICONTROL Edit]**.
+1. No [!UICONTROL Ambiente] clique no botão **[!UICONTROL Editar]** ícone .
 1. Altere o nome do ambiente.
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -60,12 +60,12 @@ Para definir o ambiente padrão para relatório:
 
 Você pode excluir um ambiente quando ele não é mais necessário.
 
-1. Na lista [!UICONTROL Environment], clique no ícone **[!UICONTROL Delete]**.
+1. No [!UICONTROL Ambiente] clique no botão **[!UICONTROL Excluir]** ícone .
 1. Clique em **[!UICONTROL Excluir]** para confirmar a exclusão.
 
 >[!NOTE]
 >
->Não é possível excluir o ambiente [!UICONTROL Production], mas você pode renomeá-lo.
+>Não é possível excluir o [!UICONTROL Produção] ambiente, mas você pode renomeá-lo.
 
 ## Recommendations: coleções e exclusões de filtros por ambiente (grupo de hosts)
 
@@ -75,13 +75,13 @@ Você pode visualizar o conteúdo das coleções e exclusões do Recommendations
 
 >[!NOTE]
 >
->As atividades do Recommendations estão disponíveis como parte da solução [!DNL Target] Premium . Não estão disponíveis no [!DNL Target] Standard sem uma licença do [!DNL Target] Premium.
+>As atividades do Recommendations estão disponíveis como parte do [!DNL Target] Solução Premium. Não estão disponíveis no [!DNL Target] Standard sem uma licença do [!DNL Target] Premium.
 
-Um ambiente pode ser usado para separar os itens disponíveis no catálogo para diferentes usos. Por exemplo, você pode usar grupos de hosts para ambientes de [!UICONTROL Desenvolvimento] e [!UICONTROL Produção], diferentes marcas ou diferentes regiões. Por padrão, os resultados de visualização na Pesquisa no catálogo, nas Coleções e nas Exclusões estão baseados no grupo de hosts padrão. (Também é possível selecionar um grupo de hosts diferente para visualizar os resultados, usando o filtro Ambiente.) Por padrão, os itens recém adicionados ficam disponíveis em todos os grupos de hosts, a menos que uma ID de ambiente seja especificada ao criar ou atualizar o item.
+Um ambiente pode ser usado para separar os itens disponíveis no catálogo para diferentes usos. Por exemplo, você pode usar grupos de hosts para [!UICONTROL Desenvolvimento] e [!UICONTROL Produção] ambientes, marcas diferentes ou regiões diferentes. Por padrão, os resultados de visualização na Pesquisa no catálogo, nas Coleções e nas Exclusões estão baseados no grupo de hosts padrão. (Também é possível selecionar um grupo de hosts diferente para visualizar os resultados, usando o filtro Ambiente.) Por padrão, os itens recém adicionados ficam disponíveis em todos os grupos de hosts, a menos que uma ID de ambiente seja especificada ao criar ou atualizar o item.
 
 >[!NOTE]
 >
->As recomendações entregues dependem do grupo de hosts especificado na solicitação.
+>As recomendações entregues dependem do grupo de hosts ou da ID de ambiente especificada na solicitação.
 
 
 Se você não visualiza seus produtos, certifique-se de que você esteja usando o grupo correto de hosts. Por exemplo, se você configurar sua recomendação para usar um ambiente de preparo e você definir o grupo de hosts para Armazenamento temporário, você pode necessitar recriar suas coleções no ambiente de preparo para serem mostradas pelos produtos. Para ver quais produtos estão disponíveis em cada ambiente, use a Pesquisa de catálogo com cada ambiente. Você também pode visualizar o conteúdo das coleções e exclusões do Recommendations para um ambiente selecionado (grupo de hosts).
@@ -89,7 +89,7 @@ Se você não visualiza seus produtos, certifique-se de que você esteja usando 
 >[!NOTE]
 >Depois de alterar o ambiente selecionado, clique em Pesquisar para atualizar os resultados retornados.
 
-O filtro [!UICONTROL Environment] está disponível nos seguintes locais na interface do usuário do Target:
+O [!UICONTROL Ambiente] O filtro está disponível nos seguintes locais na interface do usuário do Target:
 
 * Pesquisa do catálogo ([!UICONTROL Recommendations> Pesquisa do catálogo])
 * Caixa de diálogo Criar coleção ([!UICONTROL Recommendations> Coleções > Criar nova])
