@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3fb58864e265653b48e851c8dff404589bb867a6
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 53%
+source-wordcount: '430'
+ht-degree: 51%
 
 ---
 
@@ -31,7 +31,7 @@ Esta versão de manutenção contém as seguintes melhorias:
 
 | Recurso | Detalhes |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Suporte adicionado para [Componentes da Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Experiências e ofertas personalizadas podem ser criadas e testadas em elementos personalizados e em elementos dentro de elementos personalizados. |
+| [!UICONTROL Visual Experience Composer] (VEC) | Suporte adicionado para [Componentes da Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Experiências e ofertas personalizadas podem ser criadas e testadas em elementos personalizados e em elementos dentro de elementos personalizados.<br>Esta versão coincidirá com o lançamento da at.js versão 2.7.0. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 de outubro de 2021)
 
