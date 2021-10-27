@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 94%
+source-wordcount: '2875'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 27 de outubro | [Planejar e implementar [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Adição de mais informações sobre as recomendações baseadas em carrinho. |
 | 26 de outubro | [CNAME e [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Atualização de todo o tópico. |
 | 25º de outubro | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 21.10.5 (28 de outubro de 2021). |
 | 22 de outubro | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Adição da seguintes seção:<ul><li>Certifique-se de que [!DNL Target] as atividades lidam corretamente com URLs com parâmetros de string de consulta</li></ul> |
