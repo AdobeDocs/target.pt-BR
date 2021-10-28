@@ -1,13 +1,13 @@
 ---
 keywords: versões da at.js; versões da at.js; notas de versão
-description: Veja os detalhes sobre as alterações em cada versão da biblioteca JavaScript do Adobe [!DNL Target] at.js .
+description: Veja os detalhes das alterações em cada versão do Adobe [!DNL Target] Biblioteca de JavaScript da at.js.
 title: O que está incluído em cada versão da at.js?
 feature: at.js
 role: Developer
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 89%
+source-wordcount: '4278'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,13 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >
 >A equipe do Target é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível.
 >
->Tags em [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no catálogo [!DNL Adobe Experience Platform] como atualizações. Para obter mais informações, consulte [Atualizações de extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) no guia *Visão geral das tags*.
+>Tags em [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no [!DNL Adobe Experience Platform] como atualizações. Para obter mais informações, consulte [Atualizações de extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) no *Visão geral das tags* guia.
+
+## at.js versão 2.7.0 (28 de outubro de 2021)
+
+Esta versão contém o seguinte aprimoramento:
+
+* Suporte adicionado para [Componentes da Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Essa versão da at.js é necessária para criar e testar experiências e ofertas personalizadas em elementos personalizados e em elementos dentro de elementos personalizados. Essa funcionalidade está incluída no [!DNL Target Standard/Premium] Versão 21.10.5.
 
 ## at.js 2.6.1 (16 de agosto de 2021)
 
@@ -50,7 +56,7 @@ Esta versão também remove o suporte ao Microsoft Internet Explorer 10 e versõ
 Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
 * Correção de um problema em que `targetPageParams` era incluído nas solicitações da mbox. `targetPageParams` deve ser incluído somente em solicitações `pageLoad`. (TNT-40247)
-* Janela otimizada e global de documentos que fazem referência à extensão [!DNL Adobe Experience Platform]. (TNT-37124)
+* Janela otimizada e globais de documentos que fazem referência à variável [!DNL Adobe Experience Platform] extensão. (TNT-37124)
 
 ## at.js 2.4.0 (14 de janeiro de 2021)
 
@@ -63,7 +69,7 @@ Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprim
 
 Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
-* Correção de um problema relacionado ao rastreamento de cliques de mbox e ao A4T. Com o clique de 0, o Target acionou uma chamada de API de entrega com os parâmetros mbox e mbox corretos. No entanto, a SDID não correspondeu à chamada [!DNL Analytics], portanto, não houve agrupamento e conversão de ocorrência. (TNT-38372)
+* Correção de um problema relacionado ao rastreamento de cliques de mbox e ao A4T. Com o clique de 0, o Target acionou uma chamada de API de entrega com os parâmetros mbox e mbox corretos. No entanto, a SDID não correspondeu à do [!DNL Analytics] , portanto, não houve agrupamento e conversão de ocorrências. (TNT-38372)
 
 ## at.js 2.3.2 (24 de julho de 2020)
 
@@ -89,15 +95,15 @@ Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprim
 
 Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
-* Suporte à configuração da Política de segurança de conteúdo nas tags SCRIPT e STYLE anexadas ao DOM da página ao aplicar ofertas do Target entregues. Os clientes podem definir `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` para que a at.js possa definir o script correspondente e as funções de tag de estilo nas ofertas aplicadas. Consulte [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) para obter mais detalhes.
+* Suporte à configuração da Política de segurança de conteúdo nas tags SCRIPT e STYLE anexadas ao DOM da página ao aplicar ofertas do Target entregues. Os clientes podem definir `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` para que a at.js possa definir o script correspondente e as funções da tag de estilo em ofertas aplicadas. Consulte  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) para obter mais detalhes.
 * Correção de um problema ao compilar a at.js com o compilador do Google Closure para a implantação do Google Tag Manager.
-* O cookie de verificação da at.js foi renomeado de `check` para `at_check` para evitar colisões com as implementações dos clientes.
+* Cookie de verificação da at.js renomeado de `check` para `at_check` para evitar colisões com as implementações dos clientes.
 
 ## at.js versão 1.8.1 (25 de março de 2020)
 
 Essa versão do at.js é uma versão de manutenção e inclui os seguintes aprimoramentos e correções:
 
-* O cookie de verificação da at.js foi renomeado de `check` para `at_check` para evitar colisões com as implementações dos clientes.
+* Cookie de verificação da at.js renomeado de `check` para `at_check` para evitar colisões com as implementações dos clientes.
 
 ## at.js versão 2.2.0 (10 de outubro de 2019)
 
@@ -430,7 +436,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 * Fornece à at.js um tempo limite para o Serviço de ID de visitante, que é independente do tempo limite do próprio serviço.
 * Corrige um problema na versão 0.9.0 que afetava as implementações que usavam at.js em algumas páginas e mbox.js em outras.
-* Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento para [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+* Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento para o [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
 ## at.js versão 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
