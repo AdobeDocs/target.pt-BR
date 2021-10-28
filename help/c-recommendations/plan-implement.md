@@ -4,7 +4,7 @@ description: 'Saiba como implementar atividades do Recommendations no Adobe Targ
 title: Como Implementar As Atividades Do Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
+source-git-commit: 2910fd1130030df79b96160b64e6bd1bdf295814
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 30%
@@ -108,7 +108,7 @@ A lógica de recomendação baseada no carrinho é semelhante ao &quot;[!UICONTR
 
    Observar o comportamento em várias sessões pode fazer sentido quando há uma sensação de que os produtos &quot;aceitam&quot; fortemente uns com os outros com base na preferência ou sabor do visitante. Por exemplo, um visitante gosta de Star Wars e também pode gostar de Indiana Jones, mesmo que o visitante não queira assistir a ambos os filmes na mesma sessão. Ou, um visitante gosta do jogo de tabuleiro &quot;Codenames&quot; e também pode gostar do jogo de tabuleiro &quot;Avalon&quot;, mesmo que o visitante não possa jogar os dois jogos simultaneamente. 
 
-Independentemente de você observar o comportamento do visitante em uma única sessão ou em várias sessões, [!DNL Target] O faz recomendações para esse visitante com base nos itens em seu carrinho atual.
+Independentemente de você observar o comportamento do visitante em uma única sessão ou em várias sessões, [!DNL Target] O faz recomendações para cada visitante com base nos itens em seu carrinho atual.
 
 ### Excluir itens já no carrinho do visitante
 
