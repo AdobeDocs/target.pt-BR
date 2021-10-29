@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 68%
 
 ---
 
@@ -51,11 +51,11 @@ Esta versão de manutenção contém as seguintes melhorias:
 
 Esta versão do inclui os seguintes aprimoramentos, correções e alterações:
 
-* Correção de problemas que impedia os clientes de abrir o [!UICONTROL A4T] no painel [!DNL Analysis Workspace] clicando no botão [!UICONTROL Exibir no Analytics] botão em [!DNL Target] relatório de atividades. (TGT-42099, TGT-42100)
-* Correção de um problema que causava o [!UICONTROL Editar design] botão para não ser exibido durante a edição [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) usando o [!UICONTROL Experience Composer baseado em formulário]. (TGT-41980)
-* Correção de um problema que impedia o [!UICONTROL Compatível] da exibição da caixa de seleção na seleção de critérios ao criar um novo [!UICONTROL Recommendations] atividade . (TGT-42053)
-* Correção de uma mensagem de erro incorreta que era exibida quando não era possível selecionar [!DNL Analytics] como fonte de relatórios (A4T) devido à falta de [!DNL Analytics] permissões. (TGT-41954)
-* Implementamos várias correções de acessibilidade para melhorar a navegação pelo teclado na [!DNL Target] IU.
+* Correção de problemas que impediam os clientes de abrirem o painel do [!UICONTROL A4T] no [!DNL Analysis Workspace], ao clicar no botão [!UICONTROL Exibir no Analytics] no relatório de atividades do [!DNL Target]. (TGT-42099, TGT-42100)
+* Correção de um problema que impedia a exibição do botão [!UICONTROL Editar design] durante a edição de atividades de [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT), usando o [!UICONTROL Experience Composer baseado em formulário]. (TGT-41980)
+* Correção de um problema que impedia a exibição da caixa de seleção [!UICONTROL Compatível] na seleção de critérios ao criar uma nova atividade do [!UICONTROL Recommendations]. (TGT-42053)
+* Correção de uma mensagem de erro incorreta que era exibida quando não era possível selecionar o [!DNL Analytics] como fonte de relatórios (A4T), devido à falta de permissões do [!DNL Analytics]. (TGT-41954)
+* Foram implementadas várias correções de acessibilidade para melhorar a navegação pelo teclado na interface do [!DNL Target].
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

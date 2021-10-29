@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '32575'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -49,43 +49,43 @@ Esta versão de manutenção contém as seguintes melhorias:
 
 Esta versão do inclui os seguintes aprimoramentos, correções e alterações:
 
-* Correção de problemas que impedia os clientes de abrir o [!UICONTROL A4T] no painel [!DNL Analysis Workspace] clicando no botão [!UICONTROL Exibir no Analytics] botão em [!DNL Target] relatório de atividades. (TGT-42099, TGT-42100)
-* Correção de um problema que causava o [!UICONTROL Editar design] botão para não ser exibido durante a edição [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) usando o [!UICONTROL Experience Composer baseado em formulário]. (TGT-41980)
-* Correção de um problema que impedia o [!UICONTROL Compatível] da exibição da caixa de seleção na seleção de critérios ao criar um novo [!UICONTROL Recommendations] atividade . (TGT-42053)
-* Correção de uma mensagem de erro incorreta que era exibida quando não era possível selecionar [!DNL Analytics] como fonte de relatórios (A4T) devido à falta de [!DNL Analytics] permissões. (TGT-41954)
-* Implementamos várias correções de acessibilidade para melhorar a navegação pelo teclado na [!DNL Target] IU.
+* Correção de problemas que impediam os clientes de abrirem o painel do [!UICONTROL A4T] no [!DNL Analysis Workspace], ao clicar no botão [!UICONTROL Exibir no Analytics] no relatório de atividades do [!DNL Target]. (TGT-42099, TGT-42100)
+* Correção de um problema que impedia a exibição do botão [!UICONTROL Editar design] durante a edição de atividades de [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT), usando o [!UICONTROL Experience Composer baseado em formulário]. (TGT-41980)
+* Correção de um problema que impedia a exibição da caixa de seleção [!UICONTROL Compatível] na seleção de critérios ao criar uma nova atividade do [!UICONTROL Recommendations]. (TGT-42053)
+* Correção de uma mensagem de erro incorreta que era exibida quando não era possível selecionar o [!DNL Analytics] como fonte de relatórios (A4T), devido à falta de permissões do [!DNL Analytics]. (TGT-41954)
+* Foram implementadas várias correções de acessibilidade para melhorar a navegação pelo teclado na interface do [!DNL Target].
 
 ### [!DNL Target Standard/Premium] 21.10.2 (13 de outubro de 2021)
 
-Os seguintes aprimoramentos foram adicionados ao usar [!DNL Target] [!UICONTROL Públicos-alvo] com o [!DNL Adobe Experience Platform Web SDK]:
+As seguintes melhorias foram adicionadas ao usar o [!DNL Target] [!UICONTROL Audiences] com o [!DNL Adobe Experience Platform Web SDK]:
 
-* Ícones, props e mensagens de aviso adicionados em vários locais na [!DNL Target] IU para indicar que o público-alvo foi excluído na origem e não está mais disponível para uso em [!DNL Target] atividades.
+* Foram adicionados ícones, janelas flutuantes e mensagens de aviso em vários locais na interface do [!DNL Target] para indicar que o público-alvo foi excluído na origem e não está mais disponível para uso em atividades do [!DNL Target].
 
-   As ilustrações a seguir mostram alguns dos locais que os ícones, as fontes e as mensagens são exibidos:
+   As ilustrações a seguir mostram alguns dos locais em que os ícones, janelas flutuantes e mensagens são exibidos:
 
-   * [!UICONTROL Atividade] página de lista
+   * Página da lista de [!UICONTROL Atividade]
 
-      ![Público-alvo excluído na mensagem de origem na página da lista de atividades](assets/deleted-at-source-audiences-list.png)
+      ![Mensagem de exclusão de público-alvo na origem na página da lista de atividades](assets/deleted-at-source-audiences-list.png)
 
-   * Atividade [!UICONTROL Visão geral] páginas:
+   * Páginas de [!UICONTROL visão geral] da atividade:
 
-      ![Público-alvo excluído na mensagem de origem na página de visão geral](assets/deleted-at-source-overview.png)
+      ![Mensagem de exclusão de público-alvo na origem na página de visão geral](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL Experiências] etapa do fluxo de trabalho de criação da atividade:
+   * Etapa de [!UICONTROL experiências] do fluxo de trabalho de criação da atividade:
 
-      ![Público-alvo excluído na mensagem de origem em [!UICONTROL Experiências] página](assets/deleted-at-source-experiences.png)
+      ![Mensagem de exclusão de público-alvo na origem na página de [!UICONTROL Experiências]](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL Direcionamento] etapa do fluxo de trabalho de criação da atividade:
+   * Etapa de [!UICONTROL direcionamento] do fluxo de trabalho de criação da atividade:
 
-      ![Público-alvo excluído na mensagem de origem em [!UICONTROL Direcionamento] página](assets/deleted-at-source-targeting.png)
+      ![Mensagem de exclusão de público-alvo na origem na página de [!UICONTROL Direcionamento]](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Metas e configurações] etapa do fluxo de trabalho de criação da atividade:
+   * Etapa de [!UICONTROL metas e configurações] do fluxo de trabalho de criação da atividade:
 
-      ![Público-alvo excluído na mensagem de origem no [!UICONTROL Metas e configurações] página](assets/deleted-at-source-goals-settings.png)
+      ![Mensagem de exclusão de público-alvo na origem na página de [!UICONTROL Metas e Configurações]](assets/deleted-at-source-goals-settings.png)
 
-   * Refinamentos do público-alvo ([!UICONTROL Substituir público-alvo] no [!UICONTROL Direcionamento] etapa do fluxo de trabalho de criação da atividade):
+   * Refinamentos de público-alvo ([!UICONTROL Substituir público-alvo] na etapa de [!UICONTROL Direcionamento] do fluxo de trabalho de criação da atividade):
 
-* Se você tentar usar o recurso Combinar públicos-alvo e um dos públicos-alvo foi excluído na origem, [!UICONTROL Salvar] está desativado.
+* Se você tentar usar o recurso Combinar públicos-alvo e um dos públicos-alvo foi excluído na origem, o botão [!UICONTROL Salvar] estará desativado.
 
 ### [!DNL Target Standard/Premium] 21.10.1 (6 de outubro de 2021)
 
@@ -93,10 +93,10 @@ Este lançamento inclui os seguintes novos recursos:
 
 | Recurso | Detalhes |
 | --- | --- |
-| [!UICONTROL Atualização da interface do usuário de públicos-alvo] | Como parte do [!DNL Adobe Target] esforço contínuo da equipe para melhorar a experiência do usuário para [!DNL Target] usuários, esta versão atualiza o [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] nas [!DNL Target] IU. Essa atualização unifica e padroniza padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos simultaneamente</li><li>Uma atualização [design do audience builder](/help/c-target/c-audiences/create-audience.md)</li><li>Suporte a regras de exclusão no [!UICONTROL Público] construtor de regras de biblioteca</li><li>Um novo filtro &quot;Fonte de público-alvo&quot;, para permitir uma descoberta de público-alvo mais rápida</li><li>Opções de filtro e pesquisa persistente da sessão</li></ul>Para obter mais informações, consulte [Públicos](/help/c-target/target.md). |
-| [!UICONTROL Scripts de perfil] Atualização da interface do usuário | O [!UICONTROL Scripts de perfil] A biblioteca também foi atualizada e inclui uma interface atualizada e várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos do teclado</li></ul>Para obter mais informações, consulte [Perfis do visitante](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Selo Premium](/help/assets/premium.png) Criar e editar critérios do Recommendations | O [!UICONTROL Critérios da Recommendations] o fluxo de trabalho de criação e edição foi simplificado para simplificar a escolha do algoritmo de recomendações e das configurações corretas para atingir suas metas.<br>Para obter mais informações, consulte [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Selo Premium](/help/assets/premium.png) Melhorias na janela de lookback do Recommendations e na taxa de atualização do algoritmo | Agora é possível executar os algoritmos &quot;Mais visualizados&quot; e &quot;Mais vendidos&quot; com uma janela de retrospectiva de seis horas para capturar o conteúdo das tendências mais recentes. Quando a janela de retrospectiva de seis horas é selecionada, os resultados das recomendações são atualizados a cada 3 a 6 horas ao longo do dia.<br>Para obter mais informações, consulte [Fonte de dados](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) em *Criar critérios*. |
+| Atualização da interface do usuário de [!UICONTROL públicos-alvo] | Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em melhorar a experiência para usuários do [!DNL Target], esta versão atualiza as páginas [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] na interface do [!DNL Target]. Essa atualização unifica e uniformiza os padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos-alvo simultaneamente</li><li>Um [design do criador de público-alvo](/help/c-target/c-audiences/create-audience.md) atualizado</li><li>Suporte à regras de exclusão no criador de regras da Biblioteca de [!UICONTROL público-alvo]</li><li>Um novo filtro de “Origem de público-alvo”, para permitir a descoberta mais rápida do público-alvo</li><li>Opções de filtro e pesquisa persistentes na sessão</li></ul>Para obter mais informações, consulte [Públicos](/help/c-target/target.md). |
+| Atualização da interface dos [!UICONTROL Scripts de Perfil] | A biblioteca de [!UICONTROL Scripts de Perfil] também foi atualizada e inclui uma interface renovada, além de várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos no teclado</li></ul>Para obter mais informações, consulte [Perfis do visitante](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Selo Premium](/help/assets/premium.png) Criação e edição em Critérios do Recommendations | O fluxo de trabalho de criação e edição nos [!UICONTROL Critérios do Recommendations] foi aperfeiçoado para simplificar as escolhas corretas do algoritmo de recomendações e das configurações para atingir suas metas.<br>Para obter mais informações, consulte [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Selo Premium](/help/assets/premium.png) Melhorias na janela de lookback e na taxa de atualização do algoritmo do Recommendations | Agora é possível executar os algoritmos “Mais visualizados” e “Mais vendidos” com uma janela de lookback de seis horas para capturar o conteúdo das tendências mais recentes. Quando a janela de lookback de seis horas é selecionada, os resultados das recomendações são atualizados a cada 3 a 6 horas ao longo do dia.<br>Para obter mais informações, consulte [Fonte de dados](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) em *Criar critérios*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 de setembro de 2021)
 
@@ -111,7 +111,7 @@ Esta versão de manutenção inclui os seguintes aprimoramentos, correções e a
 * Correção de um problema que impedia modificações em um seletor com [fragmentos de experiência](/help/c-experiences/c-manage-content/aem-experience-fragments.md) ao usar a opção “[!UICONTROL Inserir após]” no VEC. (TGT-41802)
 * Correção de um problema que impedia o envio de conteúdo JSON vazio de uma oferta para o backend. O [!DNL Target] agora envia o objeto JSON, mesmo que esteja vazio. (TGT-41555)
 * Correção de um problema que fazia com que os relatórios herdados do [!DNL Analytics] fossem abertos em vez dos do [!DNL Analysis Workspace] quando os clientes clicavam em “[!UICONTROL Visualizar no Analytics]” ao visualizar um relatório. (TGT-41867)
-* Foi adicionado um esclarecimento adicional à mensagem de interface do usuário exibida quando um cliente tenta selecionar o [!DNL Analytics] como fonte de relatórios (A4T) para uma atividade de [!UICONTROL Personalização automatizada]. A mensagem declara que “o [!DNL Target] é a única fonte compatível para as atividades de [!UICONTROL Personalização automatizada]”. (TGT-41954)
+* Foi adicionado um esclarecimento adicional à mensagem de interface do usuário exibida quando um cliente tenta selecionar o [!DNL Analytics] como fonte de relatórios (A4T) para uma atividade de [!UICONTROL Automated Personalization]. A mensagem declara que “o [!DNL Target] é a única fonte compatível para as atividades de [!UICONTROL Automated Personalization]”. (TGT-41954)
 * Foi adicionado um esclarecimento adicional à mensagem de erro exibida quando os clientes tentam separar hosts com uma “nova linha” em vez de vírgulas. (TGT-40671)
 * Correção de um problema que fazia com que as datas da “[!UICONTROL Última atualização]” de algumas atividades diferissem da interface do usuário em inglês para clientes espanhóis e japoneses (ao visualizar a interface do usuário em espanhol e japonês). (TGT-38980)
 
@@ -179,7 +179,7 @@ Esta versão do [!DNL Platform Web SDK] inclui suporte para o seguinte:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da Platform agora oferece suporte a [!DNL Target] redirecionamentos ao usar o [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obter mais informações, consulte [Analytics para  [!DNL Target]  implementação](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Suporte de redirecionamento com [!UICONTROL Analytics for Target] (A4T) | O SDK da Web da Platform agora oferece suporte a [!DNL Target] redirecionamentos ao usar o [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obter mais informações, consulte [Analytics para [!DNL Target] implementação](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### at.js versão 2.5.0 (13 de maio de 2021)
 
@@ -460,7 +460,7 @@ Esta versão inclui os seguintes aprimoramentos, correções e alterações:
 * Correção de um problema que qualificava incorretamente um dispositivo e um tipo de navegador para um público-alvo. (TGT-36266)
 * Correção de um problema que impedia a exibição de dados de relatório quando visualizados em telas com menos de 963 pixels de largura. (TGT-36549)
 * Correção de um problema que fazia com que os relatórios de Personalização automática não fossem renderizados corretamente. (TGT-36619)
-* Correção de um problema que permitia a seleção de métricas incompatíveis em atividades de Alocação automática e Direcionamento automático que usavam o Analytics for Target (A4t). (TGT-36646)
+* Correção de um problema que permitia a seleção de métricas incompatíveis em atividades de Alocação automática e Direcionamento automático que usavam o Analytics for Target (A4T). (TGT-36646)
 * Correção de um problema que fazia com que determinadas opções no Visual Experience Composer (VEC) não fossem exibidas corretamente. (TGT-36571)
 * Correção de um problema na interface do usuário do Target que fazia com que outras visualizações de oferta do Recommendations exibissem o conteúdo editado depois que um usuário substituísse o conteúdo em uma única experiência. (TGT-36053 e TGT-36894)
 * Correção de um problema que impedia alguns usuários de excluir itens de um catálogo do Recommendations. (TGT-36455)
@@ -473,7 +473,7 @@ Esta versão inclui os seguintes aprimoramentos, correções e alterações:
 
 As novas versões das bibliotecas de JavaScript at.js do Target estão disponíveis:
 
-* AT.js versão 2.3.0
+* at.js versão 2.3.0
 * at.js versão 1.8.1
 
 Para obter mais informações, consulte [detalhes da versão do at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
@@ -888,7 +888,7 @@ Esta versão inclui os seguintes recursos e melhorias:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Origem de relatório para atividades </p> </td> 
-   <td colname="col2"> <p>Em <span class="wintitle"> Administração </span> &gt; <span class="wintitle"> Visual Experience Composer </span>, você pode selecionar a origem dos relatórios para suas atividades no <span class="keyword"> Target </span> ou no <span class="keyword"> Adobe Analytics </span>. Também é possível optar por selecionar sua origem de relatórios por atividade. </p> <p>A partir desta versão, há algumas considerações importantes sobre o fluxo de trabalho que você deve conhecer ao escolher a origem de relatório em <span class="wintitle">Preferências</span> ou por atividade.</p></td> 
+   <td colname="col2"> <p>Em <span class="wintitle"> Administração </span> &gt; <span class="wintitle"> Visual Experience Composer</span>, você pode selecionar a origem dos relatórios para suas atividades no <span class="keyword"> Target </span> ou no <span class="keyword"> Adobe Analytics </span>. Também é possível optar por selecionar sua origem de relatórios por atividade. </p> <p>A partir desta versão, há algumas considerações importantes sobre o fluxo de trabalho que você deve conhecer ao escolher a origem de relatório em <span class="wintitle">Preferências</span> ou por atividade.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1956,7 +1956,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos e correções v
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Atividades de Automated Personalization (AP) </p> </td> 
-   <td colname="col2"> <p>É possível criar grupos de exclusão em atividades de Personalização automatizada para garantir que as experiências com as ofertas designadas sejam excluídas automaticamente. </p> </td> 
+   <td colname="col2"> <p>É possível criar grupos de exclusão em atividades de AP para garantir que as experiências com as ofertas designadas sejam excluídas automaticamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: critérios e promoções </p> </td> 
