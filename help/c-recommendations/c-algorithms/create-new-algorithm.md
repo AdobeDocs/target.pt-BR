@@ -4,9 +4,9 @@ description: Saiba como criar critérios que controlam o conteúdo de suas ativi
 title: Como criar critérios no Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
+source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
 workflow-type: tm+mt
-source-wordcount: '2810'
+source-wordcount: '2797'
 ht-degree: 53%
 
 ---
@@ -75,12 +75,11 @@ As etapas a seguir pressupõem que você acesse a variável [!UICONTROL Criar no
 
    | Tipo de algoritmo | Quando usar | Algoritmos disponíveis |
    | --- | --- | --- |
-   | [!UICONTROL Baseado em carrinho] | Faça recomendações com base no conteúdo do carrinho do usuário. | <ul><li>Pessoas que visualizaram estes, visualizaram aqueles</li><li>Pessoas que visualizaram estes, compraram aqueles</li><li>Pessoas que compraram isto, compraram aqueles</li></ul>Para obter mais informações, consulte [Baseado em carrinho](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) em *Basear a recomendação em uma chave de recomendação*. |
+   | [!UICONTROL Baseado em carrinho] | Faça recomendações com base no conteúdo do carrinho do usuário. | <ul><li>Pessoas que visualizaram estes, visualizaram aqueles</li><li>Pessoas que visualizaram estes, compraram aqueles</li><li>Pessoas que compraram isto, compraram aqueles</li></ul> |
    | [!UICONTROL Baseado em popularidade] | Faça recomendações com base na popularidade geral de um item em seu site ou na popularidade dos itens em uma categoria favorita ou mais exibida do usuário, marca, gênero e assim por diante. | <ul><li>Mais visualizados no site</li><li>Mais visualizados por categoria</li><li>Mais visualizados por atributo de item</li><li>Mais vendidos no site</li><li>Mais vendidos por categoria</li><li>Principais Vendedores por Atributo de Item</li><li>Principais por métrica do Analytics</li></ul> |
    | [!UICONTROL Baseado em item] | Faça recomendações baseadas em encontrar itens semelhantes a um item que o usuário está visualizando ou visualizou recentemente. | <ul><li>Pessoas que visualizaram isto, visualizaram aquilo</li><li>Pessoas que visualizaram isto, compraram aquilo</li><li>Pessoas que compraram isto, compraram aquilo</li><li>Itens com atributos similares</li></ul> |
    | [!UICONTROL Baseado em usuário] | Faça recomendações com base no comportamento do usuário. | <ul><li>Itens visualizados recentemente </li><li>Recomendado para você</li></ul> |
-
-   |[!UICONTROL Critérios personalizados]|Faça recomendações com base em um arquivo personalizado que você fez upload.|<ul><li>Algoritmo personalizado</li></ul>|
+   | [!UICONTROL Critérios personalizados] | Faça recomendações com base em um arquivo personalizado que você fez upload. | <ul><li>Algoritmo personalizado</li></ul> |
 
    >[!NOTE]
    >
