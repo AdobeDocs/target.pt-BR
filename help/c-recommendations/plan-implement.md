@@ -4,10 +4,10 @@ description: 'Saiba como implementar atividades do Recommendations no Adobe Targ
 title: Como Implementar As Atividades Do Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 30%
+source-wordcount: '1295'
+ht-degree: 36%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-A lógica de recomendação baseada no carrinho é semelhante ao &quot;[!UICONTROL Recomendado Para Você]&quot; algoritmo baseado no usuário e no &quot;[!UICONTROL Pessoas que visualizaram estes, compraram aqueles]&quot; e &quot;[!UICONTROL Pessoas que compraram isto, compraram aqueles]&quot; algoritmos baseados em itens.
-
-[!DNL Target] O usa técnicas de filtragem colaborativas para determinar semelhanças para cada item no carrinho do visitante e combina essas semelhanças comportamentais em cada item para obter uma lista mesclada.
-
-[!DNL Target] também oferece aos profissionais de marketing a opção de observar o comportamento do visitante em uma única sessão ou em várias sessões:
-
-* **Em uma única sessão**: Com base no que outros visitantes fizeram em uma única sessão.
-
-   Olhar para o comportamento em uma única sessão pode fazer sentido quando há uma sensação de que os produtos &quot;vão&quot; fortemente uns com os outros com base em um uso, ocasião ou evento. Por exemplo, um visitante está comprando uma impressora e também pode precisar de tinta e papel. Ou, um visitante está comprando manteiga de amendoim e também pode precisar de pão e geleia.
-
-* **Em várias sessões**: Com base no que outros visitantes fizeram em várias sessões.
-
-   Observar o comportamento em várias sessões pode fazer sentido quando há uma sensação de que os produtos &quot;aceitam&quot; fortemente uns com os outros com base na preferência ou sabor do visitante. Por exemplo, um visitante gosta de Star Wars e também pode gostar de Indiana Jones, mesmo que o visitante não queira assistir a ambos os filmes na mesma sessão. Ou, um visitante gosta do jogo de tabuleiro &quot;Codenames&quot; e também pode gostar do jogo de tabuleiro &quot;Avalon&quot;, mesmo que o visitante não possa jogar os dois jogos simultaneamente. 
-
-[!DNL Target] O faz recomendações para cada visitante com base nos itens em seu carrinho atual, independentemente de você observar o comportamento do visitante em uma única sessão ou em várias sessões.
+Para obter mais informações sobre [!UICONTROL Baseado em carrinho] recomendações, consulte [Baseado em carrinho](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) em *Basear a recomendação em uma chave de recomendação*.
 
 ### Excluir itens já no carrinho do visitante
 

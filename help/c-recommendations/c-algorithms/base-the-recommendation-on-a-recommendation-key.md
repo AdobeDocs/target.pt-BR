@@ -1,23 +1,24 @@
 ---
 keywords: chave de recomendação, lógica de recomendação, categoria atual, atributo personalizado, último item comprado, último item visualizado, item mais visualizado, item mais visualizado, categoria favorita, popularidade, item visualizado recentemente, último comprado, mais visualizado, favorito, visualizado recentemente
-description: Saiba como usar recomendações com base em chaves que usam o contexto do comportamento do visitante para mostrar resultados relevantes nas atividades do Adobe [!DNL Target] Recommendations.
+description: Saiba como usar recomendações com base em chaves que usam o contexto de comportamento do visitante para mostrar resultados relevantes no Adobe [!DNL Target] Atividades do Recommendations .
 title: Como basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '3142'
-ht-degree: 47%
+source-wordcount: '3850'
+ht-degree: 41%
 
 ---
 
 # Basear a recomendação em uma chave de recomendação
 
-O Recommendations baseado em algoritmos usa o contexto de comportamento do visitante para mostrar resultados relevantes nas atividades [!DNL Adobe Target] [!DNL Recommendations] .
+O Recommendations baseado em algoritmos usa o contexto de comportamento do visitante para mostrar resultados relevantes em [!DNL Adobe Target] [!DNL Recommendations] atividades.
 
-Há quatro tipos de algoritmo em [!DNL Target Recommendations]:
+Há cinco tipos de algoritmos em [!DNL Target Recommendations]:
 
+* [!UICONTROL Baseado em carrinho]
 * [!UICONTROL Baseado em popularidade]
 * [!UICONTROL Baseado em item]
 * [!UICONTROL Baseado em usuário]
@@ -27,14 +28,14 @@ Cada tipo de algoritmo fornece algoritmos diferentes adequados para seu tipo, co
 
 >[!NOTE]
 >
->O tipo [!UICONTROL Baseado em Carrinho] é descrito na tabela abaixo e virá em breve.
+>O [!UICONTROL Baseado em carrinho] O tipo é descrito na tabela abaixo e será em breve.
 
 | Tipo de algoritmo | Quando usar | Algoritmos disponíveis |
 | --- | --- | --- |
+| [!UICONTROL Baseado em carrinho] | (Em breve) Faça recomendações com base no conteúdo do carrinho do usuário. | <ul><li>Pessoas que visualizaram estes, visualizaram aqueles</li><li>Pessoas que visualizaram estes, compraram aqueles</li><li>Pessoas que compraram isto, compraram aqueles</li></ul> |
 | [!UICONTROL Baseado em popularidade] | Faça recomendações com base na popularidade geral de um item em seu site ou na popularidade dos itens em uma categoria favorita ou mais exibida do usuário, marca, gênero e assim por diante. | <ul><li>Mais visualizados no site</li><li>Mais visualizados por categoria</li><li>Mais visualizados por atributo de item</li><li>Mais vendidos no site</li><li>Mais vendidos por categoria</li><li>Principais Vendedores por Atributo de Item</li><li>Principais por métrica do Analytics</li></ul> |
 | [!UICONTROL Baseado em item] | Faça recomendações baseadas em encontrar itens semelhantes a um item que o usuário está visualizando ou visualizou recentemente. | <ul><li>Pessoas que visualizaram isto, visualizaram aquilo</li><li>Pessoas que visualizaram isto, compraram aquilo</li><li>Pessoas que compraram isto, compraram aquilo</li><li>Itens com atributos similares</li></ul> |
 | [!UICONTROL Baseado em usuário] | Faça recomendações com base no comportamento do usuário. | <ul><li>Itens visualizados recentemente </li><li>Recomendado para você</li></ul> |
-| Baseado em carrinho | (Em breve) Faça recomendações com base no conteúdo do carrinho do usuário. | <ul><li>Pessoas que visualizaram estes, visualizaram aqueles</li><li>Pessoas que visualizaram estes, compraram aqueles</li><li>Pessoas que compraram isto, compraram aqueles</li></ul> |
 | [!UICONTROL Critérios personalizados] | Faça recomendações com base em um arquivo personalizado que você fez upload. | <ul><li>Algoritmo personalizado</li></ul> |
 
 Cada critério é definido em sua própria guia. O tráfego é dividido uniformemente entre os diferentes testes de critérios. Em outras palavras, se você tem dois critérios, o tráfego é dividido igualmente entre eles. Se você tem dois critérios e dois designs, o tráfego é dividido igualmente entre as quatro combinações. Também é possível especificar uma porcentagem de visitantes do site que veem o conteúdo padrão, para comparação. Nesse caso, a porcentagem especificada de visitantes visualiza o conteúdo padrão, e o restante é dividido entre seus critérios e combinações de design.
@@ -43,11 +44,78 @@ Para obter mais informações sobre como criar critérios e definir seus tipos d
 
 Algoritmos de recomendações diferentes se prestam à localização em diferentes tipos de páginas. Consulte as seções a seguir para obter mais informações sobre cada tipo de algoritmo e seus algoritmos disponíveis.
 
+## Baseado em carrinho {#cart-based}
+
+O [!UICONTROL Baseado em carrinho] o tipo de algoritmo permite recomendar itens com base no conteúdo do carrinho atual do visitante.
+
+A lógica de recomendação baseada no carrinho é semelhante ao &quot;[!UICONTROL Recomendado Para Você]&quot; algoritmo baseado no usuário e no &quot;[!UICONTROL Pessoas que visualizaram estes, compraram aqueles]&quot; e &quot;[!UICONTROL Pessoas que compraram isto, compraram aqueles]&quot; algoritmos baseados em itens.
+
+[!DNL Target] O usa técnicas de filtragem colaborativas para determinar semelhanças para cada item no carrinho do visitante e combina essas semelhanças comportamentais em cada item para obter uma lista mesclada.
+
+[!DNL Target] também oferece aos profissionais de marketing a opção de observar o comportamento do visitante em uma única sessão ou em várias sessões:
+
+* **Em uma única sessão**: Com base no que outros visitantes fizeram em uma única sessão.
+
+   Olhar para o comportamento em uma única sessão pode fazer sentido quando há uma sensação de que os produtos &quot;vão&quot; fortemente uns com os outros com base em um uso, ocasião ou evento. Por exemplo, um visitante está comprando uma impressora e também pode precisar de tinta e papel. Ou, um visitante está comprando manteiga de amendoim e também pode precisar de pão e geleia.
+
+* **Em várias sessões**: Com base no que outros visitantes fizeram em várias sessões.
+
+   Observar o comportamento em várias sessões pode fazer sentido quando há uma sensação de que os produtos &quot;aceitam&quot; fortemente uns com os outros com base na preferência ou sabor do visitante. Por exemplo, um visitante gosta de Star Wars e também pode gostar de Indiana Jones, mesmo que o visitante não queira assistir a ambos os filmes na mesma sessão. Ou, um visitante gosta do jogo de tabuleiro &quot;Codenames&quot; e também pode gostar do jogo de tabuleiro &quot;Avalon&quot;, mesmo que o visitante não possa jogar os dois jogos simultaneamente. 
+
+[!DNL Target] O faz recomendações para cada visitante com base nos itens em seu carrinho atual, independentemente de você observar o comportamento do visitante em uma única sessão ou em várias sessões.
+
+Os seguintes algoritmos estão disponíveis com o [!UICONTROL Baseado em carrinho] tipo de algoritmo:
+
+### [!UICONTROL Pessoas que visualizaram isto, visualizaram aqueles]
+
+Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado.
+
+Essa lógica retorna outros produtos visualizados após esta visualização; o produto especificado não está incluído no conjunto de resultados.
+
+Essa lógica permite criar oportunidades de conversão adicionais, recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas de estrada em seu site também podem ver capacetes de bicicletas, kits de bicicletas, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere que outros produtos o ajudem a aumentar a receita.
+
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
+
+* Item Atual
+* Último item comprado
+* Último item visualizado
+* Item Mais Visualizado
+
+### Pessoas que viram isto, compraram aquelas
+
+Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Este critério retorna outros produtos que pessoas compraram depois de ver este, o produto especificado não é incluído nos resultados.
+
+Essa lógica retorna outros produtos que as pessoas compraram após visualizar este; o produto especificado não está incluído no conjunto de resultados.
+
+Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes visualizaram o item comprado. Por exemplo, se o visitante estiver visualizando um polo de pesca, a recomendação pode mostrar itens adicionais que outros visitantes compraram, como caixas de ataque, arruaceiros e arruaceiros de pesca. Conforme os visitantes navegam em seu site, você fornece recomendações de compra adicionais para eles.
+
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
+
+* Item Atual
+* Último item comprado
+* Último item visualizado
+* Item Mais Visualizado
+
+### Pessoas que compraram isto, compraram aquilo
+
+Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado.
+
+Essa lógica retorna outros produtos que as pessoas compraram depois de comprar esse; o produto especificado não está incluído no conjunto de resultados.
+
+Essa lógica permite aumentar as oportunidades de venda cruzada exibindo uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos de vestimenta e caixotes. Conforme os visitantes revisam suas compras, você os fornece recomendações adicionais.
+
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
+
+* Item Atual
+* Último item comprado
+* Último item visualizado
+* Item Mais Visualizado
+
 ## [!UICONTROL Baseado em popularidade]
 
-O tipo de algoritmo [!UICONTROL Baseado em Popularidade] permite fazer recomendações com base na popularidade geral de um item em seu site ou com base na popularidade dos itens em uma categoria favorita ou mais exibida do usuário, marca, gênero e assim por diante.
+O [!UICONTROL Baseado em popularidade] O tipo de algoritmo permite fazer recomendações com base na popularidade geral de um item em seu site ou com base na popularidade dos itens em uma categoria favorita ou mais exibida do usuário, marca, gênero e assim por diante.
 
-Os seguintes algoritmos estão disponíveis com o tipo de algoritmo [!UICONTROL Baseado em Popularidade]:
+Os seguintes algoritmos estão disponíveis com o [!UICONTROL Baseado em popularidade] tipo de algoritmo:
 
 ### Mais visualizados no site {#most-viewed}
 
@@ -112,9 +180,9 @@ Se você selecionar o algoritmo Mais visualizados por categoria , é possível s
 
 ## [!UICONTROL Baseado em item]
 
-O tipo de recomendação [!UICONTROL Baseado em Item] permite fazer recomendações baseadas em encontrar itens semelhantes a um item que o usuário está visualizando no momento ou que foi visualizado recentemente.
+O [!UICONTROL Baseado em item] o tipo de recomendação permite que você faça recomendações com base na localização de itens semelhantes a um item que o usuário está visualizando no momento ou que foi visualizado recentemente.
 
-Os seguintes algoritmos estão disponíveis com o tipo de algoritmo [!UICONTROL Baseado em Item]:
+Os seguintes algoritmos estão disponíveis com o [!UICONTROL Baseado em item] tipo de algoritmo:
 
 ### Pessoas que visualizaram isto, visualizaram aquilo {#viewed-viewed}
 
@@ -182,7 +250,7 @@ Para obter mais informações, consulte [Similaridade de conteúdo](/help/c-reco
 
 O tipo de algoritmo baseado em usuário permite fazer recomendações com base no comportamento do usuário.
 
-Os seguintes algoritmos estão disponíveis com o tipo de algoritmo [!UICONTROL Baseado no Usuário]:
+Os seguintes algoritmos estão disponíveis com o [!UICONTROL Baseado em usuário] tipo de algoritmo:
 
 ### Itens visualizados recentemente {#recently-viewed}
 
@@ -192,7 +260,7 @@ O algoritmo de Itens visualizados recentemente retorna um resultado específico 
 
 >[!NOTE]
 >
->Você não pode usar os critérios [!UICONTROL Itens visualizados recentemente] para recomendações de backup.
+>Não é possível usar a variável [!UICONTROL Itens visualizados recentemente] critérios para recomendações de backup.
 
 Os itens/mídias visualizados recentemente agora podem ser filtrados para que somente os itens com um determinado atributo sejam exibidos.
 
@@ -205,7 +273,7 @@ Use esse algoritmo em páginas gerais, como páginas iniciais ou de aterrissagem
 
 >[!NOTE]
 >
->[!UICONTROL Os ] Itens visualizados recentemente respeitam as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. Se um item for excluído por uma exclusão global ou não estiver contido na coleção selecionada, ele não será exibido. Portanto, ao usar um critério [!UICONTROL Itens visualizados recentemente], a configuração &quot;Todas as coleções&quot; geralmente deve ser usada.
+>[!UICONTROL Itens visualizados recentemente] O respeita as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. Se um item for excluído por uma exclusão global ou não estiver contido na coleção selecionada, ele não será exibido. Portanto, ao usar um [!UICONTROL Itens visualizados recentemente] , a configuração &quot;Todas as coleções&quot; geralmente deve ser usada.
 
 ### Recomendado para você {#recommended-for-you}
 
@@ -254,7 +322,7 @@ Os possíveis casos de uso incluem:
 
 ## Chaves de recomendação
 
-As seguintes chaves de recomendação estão disponíveis na lista suspensa [!UICONTROL Chave de Recomendação]:
+As seguintes chaves de recomendação estão disponíveis no [!UICONTROL Chave de recomendação] lista suspensa:
 
 ### Item Atual {#current-item}
 
@@ -271,7 +339,7 @@ Pode ser usado com os seguintes algoritmos:
 * [!UICONTROL Pessoas que visualizaram isto, compraram aquilo]
 * [!UICONTROL Pessoas que compraram isto, compraram aquilo]
 
-Use a chave de recomendações [!UICONTROL Item Atual] em seu site em:
+Use o [!UICONTROL Item atual] chave de recomendações no seu site em:
 
 * Páginas de item único, como páginas de produtos.
 * NÃO use em páginas de resultados de busca nulos.
@@ -287,7 +355,7 @@ Pode ser usado com os seguintes algoritmos:
 * [!UICONTROL Pessoas que visualizaram isto, compraram aquilo]
 * [!UICONTROL Pessoas que compraram isto, compraram aquilo]
 
-Use a chave de recomendações [!UICONTROL Último item comprado] em seu site em:
+Use o [!UICONTROL Último item comprado] chave de recomendações no seu site em:
 
 * Página inicial, página minha conta, anúncios em outros sites.
 * NÃO use nas páginas do produto ou páginas relevantes para compras.
@@ -326,7 +394,7 @@ Pode ser usado com os seguintes algoritmos:
 * [!UICONTROL Pessoas que visualizaram isto, compraram aquilo]
 * [!UICONTROL Pessoas que compraram isto, compraram aquilo]
 
-Use a chave de recomendações [!UICONTROL Último item visualizado] em seu site:
+Use o [!UICONTROL Último item visualizado] chave de recomendações no seu site em:
 
 * Página inicial, página minha conta, anúncios em outros sites.
 * NÃO use nas páginas do produto ou páginas relevantes para compras.
@@ -357,7 +425,7 @@ Essa chave de recomendação pode ser usada com os seguintes algoritmos:
 * Mais vendidos
 * Mais visualizados
 
-Use a chave de recomendações [!UICONTROL Categoria atual] em seu site em:
+Use o [!UICONTROL Categoria atual] chave de recomendações no seu site em:
 
 * Páginas de categoria única.
 * NÃO use em páginas de resultados de busca nulos.
@@ -375,7 +443,7 @@ Essa chave de recomendação pode ser usada com os seguintes algoritmos:
 * Mais vendidos
 * Mais visualizados
 
-Use a chave de recomendações [!UICONTROL Categoria atual] em seu site em:
+Use o [!UICONTROL Categoria atual] chave de recomendações no seu site em:
 
 * Páginas de categoria única.
 * NÃO use em páginas de resultados de busca nulos.
