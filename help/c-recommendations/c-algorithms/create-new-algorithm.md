@@ -4,9 +4,9 @@ description: Saiba como criar critérios que controlam o conteúdo de suas ativi
 title: Como criar critérios no Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2832'
 ht-degree: 53%
 
 ---
@@ -87,7 +87,9 @@ As etapas a seguir pressupõem que você acesse a variável [!UICONTROL Criar no
 
 1. Conforme necessário, selecione um **Atributo do item** e **Atributo de perfil para correspondência**, a **Chave de recomendação**, **Chave de filtragem** e/ou **Métrica do Analytics** para configurar o algoritmo.
 
-Para obter mais informações sobre como escolher uma Chave de Recomendação, consulte [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+As opções restantes de configuração de algoritmo variam de acordo com o algoritmo selecionado. Para concluir a configuração do algoritmo, selecione um [!UICONTROL Chave de recomendação], [!UICONTROL Chave de filtragem], [!UICONTROL Base de Co-Ocorrência], [!UICONTROL Métrica do Analytics]e/ou [!UICONTROL Atributo do item] e [!UICONTROL Atributo de perfil para correspondência].
+
+Para obter mais informações sobre a escolha de um [!UICONTROL Chave de recomendação], consulte [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Fonte de dados] {#data-source}
 
