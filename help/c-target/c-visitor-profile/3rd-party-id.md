@@ -4,10 +4,10 @@ description: Saiba como usar a mbox3rdPartyId, que é a ID de visitante da sua e
 title: Como utilizar a sincronização de perfil em tempo real para mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
-workflow-type: ht
+source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
 
 >[!NOTE]
 >
->As metas do [!DNL Adobe Analytics] não serão rastreadas nos casos em que a ID do [!DNL Adobe Experience Cloud] (EDID) for alterada (por exemplo, quando o visitante muda de dispositivo), mesmo que o perfil do [!DNL Target] esteja mesclado com base na mbox3rdPartyId e ainda tenha informações de atividade. Para visitantes identificados com a mesma EDID (aqueles que acessam a página com o mesmo dispositivo), o [!DNL Analytics for Target] (A4T) deve funcionar conforme esperado.
+>[!DNL Adobe Analytics] As metas do não são rastreadas nos casos em que a variável [!DNL Adobe Experience Cloud] A ID (ECID) muda (por exemplo, o visitante muda os dispositivos), mesmo que a variável [!DNL Target] pode ser mesclado com base na mbox3rdPartyId e ainda ter informações de atividade. Para visitantes identificados com a mesma ECID (aqueles que acessam a página com o mesmo dispositivo), [!DNL Analytics for Target] (A4T) deve funcionar conforme esperado.
 
 ## Considerações {#considerations}
 
