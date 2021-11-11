@@ -5,10 +5,10 @@ title: Como basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -139,7 +139,11 @@ Se você selecionar o algoritmo Mais visualizados por categoria , é possível s
 
 ### Mais visualizados por atributo de item
 
-(Informações em breve)
+Recomenda itens ou mídias semelhantes aos itens ou mídias mais visualizados do site.
+
+Este algoritmo permite selecionar em qual atributo de item você deseja basear a recomendação, por exemplo, &quot;Nome&quot; ou &quot;Marca&quot;.
+
+Em seguida, selecione quais atributos de perfil armazenados no perfil do visitante devem corresponder, por exemplo, &quot;Marca favorita&quot;, &quot;Último item adicionado ao carrinho&quot; ou &quot;Mostrar mais visualizado&quot;.
 
 ### Mais vendidos no site {#top-sellers}
 
