@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
 workflow-type: tm+mt
-source-wordcount: '2912'
+source-wordcount: '2920'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 12 de novembro | [Integrar [!DNL Recommendations] com email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Novas informações de introdução adicionadas. |
 | 28 de outubro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição das informações sobre as seguintes versões:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.7.0 da at.js. |
 |  | [Opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Adição da seguinte seção: &quot;Suporte a elemento personalizado.&quot; |
