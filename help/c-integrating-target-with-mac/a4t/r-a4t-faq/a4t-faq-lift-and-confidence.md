@@ -1,19 +1,19 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; aumento; ad hoc; construtor de relatórios; confiança
-description: Find answers to questions about lift and confidence when using Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activities.
+description: Encontre respostas para perguntas sobre aumento e confiança ao usar o Analytics para [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] atividades.
 title: Onde posso encontrar informações sobre aumento e confiança com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
 
 # Aumento e Confiança - Perguntas frequentes sobre o A4T
 
-This topic contains answers to questions that are frequently asked about lift and confidence when using [!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T).
+Este tópico contém respostas para as perguntas mais frequentes sobre aumento e confiança ao usar [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Adobe Target] (A4T).
 
 ## Posso realizar cálculos offline para o A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
@@ -31,7 +31,7 @@ O nível de confiança é uma probabilidade, expressa como uma porcentagem, que 
 
 No momento, as métricas calculadas não são compatíveis com funções de incentivo e confiança. O Analytics calcula métricas em um nível agregado, e não em um nível de visitante. A confiança, em particular, é um cálculo no nível do visitante.
 
-Non-calculated (standard) events are supported in lift and confidence. Eles se tornam o numerador na função de elevação; o numerador não pode ser um cálculo em si. The denominator is the normalizing metrics (impressions, visits, or visitors). Some examples of standard events include orders, revenue, activity conversions, custom events 1-1000, and so on. Métricas de otimização comuns, como taxa de conversa (Pedidos/Visitante) e RPV (Receita/Visitante) são suportadas em incentivo e confiança.
+Eventos não calculados (padrão) são aceitos no incentivo e na confiança. Eles se tornam o numerador na função de elevação; o numerador não pode ser um cálculo em si. O denominador é a métrica de normalização (impressões, visitas ou visitantes). Alguns exemplos de eventos padrão incluem pedidos, receita, conversões de atividade, eventos personalizados 1-1000 e assim por diante. Métricas de otimização comuns, como taxa de conversa (Pedidos/Visitante) e RPV (Receita/Visitante) são suportadas em incentivo e confiança.
 
 Exemplos de métricas ou casos de uso não suportados incluem:
 
@@ -40,7 +40,7 @@ Exemplos de métricas ou casos de uso não suportados incluem:
 
 ## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T computes confidence/p-values in a manner that is different to regular t-tests using binary metrics. Especificamente, os cálculos usados pelo A4T permitem que cada usuário tenha um resultado de métrica contínua (não apenas 1 ou 0 para cada usuário), de modo que a variação (ou, relativamente, o desvio padrão) para cada Experiência deva ser calculada exatamente. Pedidos extremos não são considerados. Além disso, o cálculo da confiança não aplica uma correção de Bonferroni para várias ofertas.
+[!DNL Adobe Analytics] O trata todas as métricas como não binárias e, portanto, calcula os valores de confiança/p de uma maneira diferente do uso de métricas binárias em um teste t regular. Especificamente, os cálculos usados pelo A4T permitem que cada usuário tenha um resultado de métrica contínua (não apenas 1 ou 0 para cada usuário), de modo que a variação (ou, relativamente, o desvio padrão) para cada experiência deve ser calculada adequadamente. Pedidos extremos não são considerados. Além disso, o cálculo da confiança não aplica uma correção de Bonferroni para várias ofertas.
 
 ## O aumento e a confiança funcionam na Ad Hoc e Report Builder? Se não é nativo, posso fazer isso sozinho? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 

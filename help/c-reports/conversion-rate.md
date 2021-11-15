@@ -4,10 +4,10 @@ description: Saiba mais sobre o Adobe [!DNL Target] mostra e calcula a taxa de c
 title: Como visualizar o nível de taxa de conversão, aumento e confiança?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 58%
+source-wordcount: '2138'
+ht-degree: 59%
 
 ---
 
@@ -50,7 +50,7 @@ Se o controle for 0, não há aumento percentual.
 
 Os dados de AOV, RPV e Vendas são exibidos para cada experiência se você inseriu um Pedido local (`orderConfirmPage`) e a selecionou como a mbox de conversão.
 
-## Confiança e intervalo de confiança {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Nível de confiança e intervalo de confiança {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 Para cada experiência, o intervalo de confiança é exibido.
 
@@ -58,7 +58,9 @@ Você pode realizar cálculos offline para o for Target (A4T), mas isso exige um
 
 ### Confiança {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-A confiança de uma experiência ou oferta exibida é uma probabilidade (expressa como uma porcentagem) de obter um resultado menos extrema que a realmente observada, se a hipótese nula for verdadeira, ou seja, se não houver diferença nas taxas de conversão entre essa experiência ou oferta e a experiência/oferta de controle. Em termos de valores p, essa confiança exibida é de 1 - valor p. Em termos mais simples, a confiança mais alta indica que os dados são menos consistentes com a suposição de que a oferta/experiência de controle e não controle têm taxas de conversão iguais. A confiança é arredondada para 100,00% sempre que for maior ou igual a 99,995%.
+A confiança de uma experiência ou oferta exibida é uma probabilidade (expressa como uma porcentagem) de obter um resultado menos extrema que a realmente observada, se a hipótese nula for verdadeira (em essência, se não houver diferença nas taxas de conversão entre essa experiência ou oferta e a experiência/oferta de controle). Em termos de valores p, essa confiança exibida é de 1 - valor p. Em termos mais simples, a confiança mais alta indica que os dados são menos consistentes com a suposição de que a oferta/experiência de controle e não controle têm taxas de conversão iguais.
+
+A confiança é arredondada para 100,00% sempre que for maior ou igual a 99,995%.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
