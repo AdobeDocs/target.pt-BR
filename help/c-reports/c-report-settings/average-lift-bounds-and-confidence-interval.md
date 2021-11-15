@@ -1,31 +1,31 @@
 ---
 keywords: Target, relatórios, configurações de relatório, ambiente, aumento, limite de incentivo, variação, confiança, controle
-description: Saiba como interpretar relatórios Adobe [!DNL Target] que incluem pontos de dados e representações de visualização para ajudá-lo a entender os limites de aumento e o nível de confiança de suas atividades.
+description: Saiba como interpretar o Adobe [!DNL Target] relatórios, que incluem pontos de dados e representações de visualização para ajudá-lo a entender os limites de aumento e o nível de confiança de suas atividades.
 title: Como visualizar o aumento médio, os limites de aumento e o intervalo de confiança?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
+source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 71%
+source-wordcount: '882'
+ht-degree: 62%
 
 ---
 
 # Média de aumento, Limites de aumento e Intervalo de confiança
 
-Os relatórios incluem vários pontos de dados e representações de visualização que ajudam a entender os limites de aumento e o nível de confiança associados à sua atividade [!DNL Adobe Target] para ajudar você a determinar com mais precisão um vencedor.
+Os relatórios incluem vários pontos de dados e representações de visualização que ajudam a entender os limites de aumento e o nível de confiança associados à sua [!DNL Adobe Target] para ajudar você a determinar com mais precisão um vencedor.
 
 >[!NOTE]
 >
->Esse recurso está disponível somente ao visualizar relatórios na [!UICONTROL Exibição de tabela]. Este recurso não está disponível para atividades que usam o [Analytics como fonte de relatórios (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Esse recurso está disponível somente ao visualizar relatórios em [!UICONTROL Tabela] Exibir. Este recurso não está disponível para atividades que usam o [Analytics como fonte de relatórios (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interpretar os dados {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-A ilustração a seguir mostra informações sobre [!UICONTROL Limites de incentivo e Nível de confiança]:
+A ilustração a seguir mostra [!UICONTROL Limites de aumento e Nível de confiança] Informações:
 
 ![Relatório de Incentivo médio e Nível de confiança](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-As informações de lift e confiança na interface do usuário de relatórios [!DNL Target] incluem:
+As informações de incentivo e confiança na [!DNL Target] a interface do usuário de relatórios inclui:
 
 ### Aumento
 
@@ -37,15 +37,15 @@ Este é o intervalo de confiança de 95% do aumento. Ele é exibido como um inte
 
 ### Gráfico de caixa
 
-O boxplot na interface [!DNL Target] representa o valor esperado e o intervalo de confiança de 95% da métrica de sucesso em questão. Pense nisso como uma maneira gráfica de exibir as informações de aumento e os limites de aumento.
+O boxplot no [!DNL Target] representa o valor esperado e o intervalo de confiança de 95% da métrica de sucesso em questão. Pense nisso como uma maneira gráfica de exibir as informações de aumento e os limites de aumento.
 
-Há algumas maneiras principais de [!DNL Target] ajudar você a interpretar as informações de confiança, uma delas é a cor. O gráfico exibe qualquer sobreposição no intervalo de confiança de uma experiência específica com o intervalo de confiança do controle em cinza e qualquer faixa do intervalo de confiança de uma experiência específica acima ou abaixo do intervalo de confiança de controle como verde ou vermelho, respectivamente.
+Há algumas maneiras principais [!DNL Target] ajuda a interpretar as informações de confiança, uma das quais é a cor. O gráfico exibe qualquer sobreposição no intervalo de confiança de uma experiência específica com o intervalo de confiança do controle em cinza e qualquer faixa do intervalo de confiança de uma experiência específica acima ou abaixo do intervalo de confiança de controle como verde ou vermelho, respectivamente.
 
 O comprimento da barra do boxplot representa o tamanho do intervalo de confiança de uma maneira fácil de entender. À medida que você coleta mais dados em sua atividade, a barra é alterada. O intervalo de confiança é derivado da variação e do tamanho da amostra (número de visitantes). Quanto menor a variação e quanto maior o tamanho da amostra, mais estreito o seu intervalo de confiança.
 
 ### Confiança
 
-A confiança de uma experiência ou oferta representa a probabilidade de que o aumento da experiência/oferta associada sobre a experiência/oferta de controle seja &quot;real&quot; (não causado aleatoriamente). Normalmente, 95% é o nível de confiança recomendado para o aumento ser considerado significativo.
+A confiança de uma experiência ou oferta exibida é uma probabilidade (expressa como uma porcentagem) de obter um resultado _menos extremo_ do que aquele que é realmente observado, _se a hipótese nula for verdadeira_, ou seja, se não houver diferença nas taxas de conversão entre essa experiência ou oferta e a experiência/oferta de controle. Em termos de valores p, essa confiança é exibida `1 - p-value`. Em termos mais simples, a confiança mais alta indica que os dados são menos consistentes com a suposição de que a oferta/experiência de controle e não controle têm taxas de conversão iguais.
 
 ## Entender como o intervalo de confiança para aumento é determinado {#pdf}
 
@@ -109,11 +109,11 @@ Portanto, os limites de aumento para a Experiência B podem ser:
 
 >[!NOTE]
 >
->Espere pequena variações entre os cálculos manuais usando as fórmulas acima e os números exibidos no relatório. A diferença pode ser atribuída ao fato de que os números de exibições de página usados nos cálculos manuais são arredondados. O aumento mostrado no relatório [!DNL Target] é baseado nos números exatos obtidos do engajamento total e da contagem de engajamento. Os números de engajamento podem ser obtidos por meio da API de relatórios de desempenho.
+>Espere pequena variações entre os cálculos manuais usando as fórmulas acima e os números exibidos no relatório. A diferença pode ser atribuída ao fato de que os números de exibições de página usados nos cálculos manuais são arredondados. O aumento mostrado no [!DNL Target] O relatório é baseado nos números exatos obtidos do engajamento total e da contagem de engajamento. Os números de engajamento podem ser obtidos por meio da API de relatórios de desempenho.
 
 ## Quando os limites de aumento não são exibidos? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
-Em certos casos, [!DNL Target] não exibe os limites de aumento:
+Em certos casos, [!DNL Target] não exibe limites de aumento:
 
 * Para qualquer atividade, quando o número total de visitas ou visitantes for menor que 30.
-* Para atividades de [!UICONTROL Alocação automática], nenhum limite de aumento é exibido até que uma experiência tenha atingido 60% de confiança.
+* Para [!UICONTROL Alocação automática] , nenhum limite de aumento é exibido até que uma experiência tenha atingido 60% de confiança.
