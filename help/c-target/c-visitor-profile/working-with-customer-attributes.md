@@ -4,14 +4,14 @@ description: Saiba como usar os dados de clientes de empresas de um banco de dad
 title: O que são atributos do cliente e como usá-los?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 19b012a0fcbf5195b12990f0a634a90597850899
+source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 35%
 
 ---
 
-# [não definido](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)
+# Atributos do cliente
 
 Informações sobre o uso de dados de clientes de empresas dos bancos de dados de CRM (relacionamento com o cliente) para o direcionamento de conteúdo em [!DNL Adobe Target] usando os atributos do cliente na [!DNL Adobe Enterprise Cloud People] serviço.
 
