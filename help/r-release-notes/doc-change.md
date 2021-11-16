@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
+source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
 workflow-type: tm+mt
-source-wordcount: '2920'
-ht-degree: 98%
+source-wordcount: '2976'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 16 de novembro | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Atualização da mensagem &quot;Como as políticas de imposição de cookies do Google Chrome SameSite afetam o VEC e o EEC?&quot; seção com informações sobre a versão mais recente da extensão auxiliar. |
+|  | [Extensão de assistente do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Atualização da seção &quot;Obter e instalar a extensão do navegador VEC Helper&quot;. |
 | 12 de novembro | [Integrar [!DNL Recommendations] com email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Novas informações de introdução adicionadas. |
 | 28 de outubro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição das informações sobre as seguintes versões:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.7.0 da at.js. |
