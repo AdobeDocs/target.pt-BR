@@ -4,9 +4,9 @@ description: Saiba como usar os dados de clientes de empresas de um banco de dad
 title: O que são atributos do cliente e como usá-los?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
+source-git-commit: a600559cd4aa6bf4335af4ef1143472183a998ff
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1575'
 ht-degree: 35%
 
 ---
@@ -31,7 +31,7 @@ Considere as seguintes informações ao trabalhar com os atributos do cliente e 
 * Esteja ciente das limitações relacionadas aos uploads do arquivo, conforme documentado em [Sobre arquivo de dados e fonte de dados para atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) no *Guia de componentes da interface central do Experience Cloud*. Como prática recomendada:
 
    * Faça upload de arquivos grandes únicos (no [limites especificados](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Arquivos grandes únicos são preferidos a vários arquivos menores.
-   * Se for necessário dividir o upload em vários arquivos, verifique se os arquivos são totalmente processados antes de enviar novos arquivos. Certifique-se de que cada arquivo em um lote seja totalmente processado antes de enviar o próximo lote.
+   * Se for necessário dividir o upload em vários arquivos, verifique se os arquivos são totalmente processados antes de enviar novos arquivos. Certifique-se de que cada arquivo em um lote seja totalmente processado antes de enviar o próximo arquivo no lote.
 
 * [!DNL Adobe] não garante que 100% dos dados do atributo do cliente (perfil do visitante) dos bancos de dados do CRM sejam incorporados ao [!DNL Experience Cloud] e, portanto, estar disponível para uso no direcionamento no [!DNL Target]. No design atual, há a possibilidade de uma pequena porcentagem de dados (até 0,1% de grandes lotes de produção) não ser integrada.
 * A duração dos dados de atributos do cliente importados da variável [!DNL Experience Cloud] para [!DNL Target] depende da duração do perfil do visitante, que é de 14 dias por padrão. Para obter mais informações, consulte [Duração do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
