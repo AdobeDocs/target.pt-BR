@@ -5,9 +5,9 @@ title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,26 +19,26 @@ Anúncios e informações sobre eventos futuros, incluindo sessões do criador d
 
 * **quarta-feira, 10 de novembro de 2021**
 * **8:00 (PST, UTC -8)**
-* **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
+* **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696?profile.language=pt)**
 
-Cristinel &quot;Muti&quot; Anastasoaie, Gerente Sênior de Produtos para [!DNL Adobe Target], responderá às suas perguntas sobre as suas áreas de competência:
+Cristinel &quot;Muti&quot; Anastasoaie, gerente de produto sênior do [!DNL Adobe Target], responderá às perguntas relacionadas a suas áreas de especialização:
 
-* [!DNL Target] interface do usuário
+* Interface de usuário do [!DNL Target]
 * [!DNL Target] integrações
 * [!UICONTROL Permissões empresariais] e [!UICONTROL espaços de trabalho]
 
-## [!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (8 de dezembro de 2021)
+## Sessão de perguntas e respostas da comunidade do [!DNL Adobe Target] (8 de dezembro de 2021)
 
 * **quarta-feira, 8 de dezembro de 2021**
 * **8:00 (PST, UTC -8)**
-* **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+* **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697?profile.language=pt)**
 
-Robert Calangiu, gerente sênior de produtos para [!DNL Adobe Target], responderá às suas perguntas sobre as suas áreas de competência:
+Robert Calangiu, gerente de produto sênior do [!DNL Adobe Target], responderá às perguntas relacionadas a suas áreas de especialização:
 
-* [!DNL Target] configurar e administrar interface do usuário
-* [!UICONTROL Analytics para Target] Integração do (A4T)
-* [!DNL Adobe Audience Manager] (AEM) integração
-* Geral [!DNL Target] interface
+* Interface de configuração e administração do [!DNL Target]
+* Integração do [!UICONTROL Analytics for Target] (A4T)
+* Integração do [!DNL Adobe Audience Manager] (AEM)
+* Interface geral do [!DNL Target]
 
 ## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
 
