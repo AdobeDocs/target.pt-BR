@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Se a página não exibir o conteúdo esperado, há algumas etapas que você pode
 * Use mboxTrace ou mboxDebug para solucionar problemas da solicitação do [!DNL Target].
 * Use o Adobe Experience Cloud Debugger, uma ferramenta fácil de usar que fornece praticamente as mesmas informações que o mboxDebug para solucionar problemas da solicitação do [!DNL Target].
 
-mboxDebug é especialmente útil quando você está configurando [!DNL Target] na página para verificar se a solicitação do Target está sendo acionada e se o cookie está sendo definido. No entanto, ela não entra no tipo de detalhes que são úteis durante a depuração da entrega de conteúdo. Se a sua atividade não aparecer na sua página ou se aparecer conteúdo indesejado, use mboxTrace para examinar e depurar a página atentamente.
+O mboxDebug é particularmente útil quando você está configurando o [!DNL Target] na sua página para garantir que a solicitação do Target seja disparada e que o cookie seja configurado. No entanto, ela não entra no tipo de detalhes que são úteis durante a depuração da entrega de conteúdo. Se a sua atividade não aparecer na sua página ou se aparecer conteúdo indesejado, use mboxTrace para examinar e depurar a página atentamente.
 
 ## Recuperar o token de autorização para usar com ferramentas de depuração {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -65,7 +65,7 @@ Os seguintes parâmetros estão disponíveis:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-A saída exibe informações detalhadas sobre seu conteúdo. mboxTrace mostra detalhes sobre sua campanha ou atividade e perfil. Ele também fornece um instantâneo do perfil antes da execução e um instantâneo do que foi alterado após a execução. Ela também mostra quais campanhas ou atividades foram avaliadas para cada local.
+A saída exibe informações detalhadas sobre o conteúdo. O mboxTrace mostra detalhes sobre sua campanha ou atividade e perfil. Também fornece um instantâneo do perfil antes da execução, e um instantâneo do que foi alterado após a execução. Ela também mostra quais campanhas ou atividades foram avaliadas para cada local.
 
 Algumas das informações incluem segmentos correspondentes ou não e IDs de direcionamento:
 
@@ -85,7 +85,7 @@ Algumas das informações incluem segmentos correspondentes ou não e IDs de dir
 
 Não é necessário incluir  `=console`, `=json` ou `=window` no parâmetro de consulta. Quando terminar com os detalhes do mboxTrace, adicione `=disable` e pressione **[!UICONTROL Enter]** para retornar ao modo normal de exibição.
 
-mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes visualizam seu design normal do Recommendations.
+mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes verão o design normal do Recommendations.
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a im
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte [Depuração da at.js usando o Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ O Target não é mais compatível com o IE8.
 
 Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisar que o cookie do esteja definido em [!DNL domain.com] (em vez de [!DNL us.domain.com]), você deve substituir a configuração `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-## O conteúdo do Target cintila ou não é mostrado caso um elemento também faça parte da personalização do Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## O conteúdo do Target cintila ou não é exibido caso um elemento também faça parte da personalização do Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 Se um elemento DOM fizer parte da segmentação de personalização do Adobe Experience Manager (AEM) e de uma atividade do Target, o conteúdo do Target poderá cintilar ou não ser exibido.
 
-Para corrigir essa situação, você pode desativar a personalização de AEM nas páginas em que o Target está sendo executado.
+Para resolver isso, você pode desativar a personalização do AEM nas páginas onde o Target estiver sendo executado.
 
 ## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -154,39 +154,39 @@ Você pode verificar a resposta do [!DNL Target] no navegador ou usando a mboxTr
 
 A at.js não disparará solicitações do Target se você estiver usando um tipo de documento inválido. A at.js exige o doctype HTML 5.
 
-## Certifique-se de que [!DNL Target] As atividades do lidam com URLs com parâmetros de string de consulta corretamente. {#query-strings}
+## Certifique-se de que as atividades do [!DNL Target] tratam corretamente os URLs com parâmetros de sequência de consulta. {#query-strings}
 
-O [!UICONTROL URL da atividade] determina a página que qualifica os visitantes da atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo seja entregue na página do site, especialmente com URLs que contenham parâmetros de string de consulta.
+O [!UICONTROL URL da atividade] determina a página que qualifica os visitantes para a atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo será entregue na página do site, especialmente com URLs que contenham parâmetros de sequência de consulta.
 
-Por padrão, a variável [!UICONTROL Visual Experience Composer] (VEC) abre a página especificada em seu [Configurações do Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md). Você também pode especificar uma página diferente durante a criação da atividade.
+Por padrão, o [!UICONTROL Visual Experience Composer] (VEC) abre a página especificada nas suas [configurações do Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md). Você também pode especificar uma página diferente durante a criação da atividade.
 
-Para exibir uma página diferente depois que o VEC for aberto, clique no botão **[!UICONTROL Configurar ícone de engrenagem]** > selecionar **[!UICONTROL Entrega de página]** > em seguida, especifique o URL desejado no [!UICONTROL URL da atividade] campo.
+Para exibir uma página diferente após a abertura do VEC, clique no **[!UICONTROL ícone de Configuração]** > selecione **[!UICONTROL Entrega da página]** > e especifique o URL desejado no campo [!UICONTROL URL da atividade].
 
-![Definir a interface do usuário das configurações de Entrega de página](assets/configure-page-delivery.png)
+![Definir a interface das configurações de Entrega de página](assets/configure-page-delivery.png)
 
-Mas e se o URL contiver parâmetros de string de consulta? Ele funcionará e mostrará o conteúdo personalizado? Nesse cenário, independentemente do público-alvo direcionado, você pode incluir regras de modelo além do URL básico para definir os parâmetros de consulta.
+Mas e se o URL contiver parâmetros de sequência de consulta? Ele funcionará e mostrará o conteúdo personalizado? Nesse cenário, independentemente do público-alvo, é possível incluir regras de modelo, além do URL básico para definir os parâmetros de consulta.
 
 As seguintes opções podem ser usadas para incluir regras de modelo adicionais:
 
-### Opção 1: Replique o URL e mantenha-o na regra do modelo com a opção &quot;contém&quot;.
+### Opção 1: Replique o URL e mantenha-o na regra de modelo com a opção “contém”.
 
-Essa opção garante que esse URL se qualifique para a atividade, mas saiba que há casos de canto anexados a ela que podem influenciar seus dados de relatório com registros adicionais para URLs que contêm o URL de base.
+Essa opção garante que esse URL se qualifica para a atividade. Mas saiba que há casos de exceção anexados a ela que podem influenciar seus dados de relatório com registros adicionais para URLs que contêm o URL de base.
 
-Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais &quot;contêm&quot; o mesmo URL, separado por um operador OR:
+Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais “contêm” o mesmo URL, separado por um operador OU:
 
-![Replicar URL nas regras do modelo](assets/option1.png)
+![Replicar o URL nas regras de modelo](assets/option1.png)
 
-### Opção 2: Restrinja a condição &quot;contém&quot; do URL somente com a string de consulta.
+### Opção 2: Restrinja a condição “contém” do URL somente com a sequência de consulta.
 
-O caso de canto discutido na opção anterior é aplicado nesta opção, mas aqui a configuração condicional é limitada somente à sequência de consulta.
+O caso de exceção discutido na opção anterior é aplicado nesta opção, mas aqui a configuração condicional é limitada somente à sequência de consulta.
 
-Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e as regras de modelo adicionais &quot;contêm&quot; somente a sequência de consulta, separadas por um operador OR:
+Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e as regras de modelo adicionais “contêm” somente a sequência de consulta, separadas por um operador OU:
 
 ![A regra de modelo contém somente a sequência de consulta](assets/option2.png)
 
 ### Opção 3: Em vez de direcionar o URL completo, aproveite uma parte específica do URL.
 
-Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam um [!UICONTROL Query] com [!UICONTROL type] > [!UICONTROL é (diferencia maiúsculas de minúsculas)] > type=Summers%20Ofertas, separadas por um operador OR:
+Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam uma [!UICONTROL Consulta] com [!UICONTROL type] > [!UICONTROL é (diferencia maiúsculas de minúsculas)] > type=Summers%20Offers, separadas por um operador OU:
 
 ![Regra de modelo aproveitando uma parte específica do URL](assets/option3.png)
 
