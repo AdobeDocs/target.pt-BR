@@ -2,12 +2,12 @@
 keywords: implementação de aplicativo de página única; implementar aplicativo de página única; spa; at.js 2.x; at.js; aplicativo de página única; aplicativo de página única; spa; SPA
 description: Saiba como usar o Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] para Aplicativos de página única (SPA).
 title: Posso implementar [!DNL Target] para Aplicativos de página única (SPA)?
-feature: Implementar o lado do servidor
+feature: Implement Server-side
 role: Developer
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '2771'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -32,13 +32,13 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link:  [Site inicial](https://target.enablementadobe.com/react/demo/#/)**
+**Link: [Site inicial](https://target.enablementadobe.com/react/demo/#/)**
 
 ![site inicial](/help/c-experiences/assets/home.png)
 
 Quando navegamos para o site inicial, podemos visualizar imediatamente uma imagem principal que promove uma venda de Páscoa e os produtos mais recentes que estão sendo vendidos no site. Nesse caso, uma Exibição pode ser definida como todo o site inicial. Isso é útil para observar como expandiremos mais isso na seção Implementação de exibições do Adobe Target abaixo.
 
-**Link:  [Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: [Site do produto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site do produto](/help/c-experiences/assets/product-site.png)
 
@@ -52,7 +52,7 @@ No início desta seção, definimos Exibições como o site inteiro ou até mesm
 
 Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da Exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
-**Link:  [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![página de checkout](/help/c-experiences/assets/checkout.png)
 
@@ -62,15 +62,15 @@ Além disso, o conceito de Exibições pode ser estendido muito além disso. Se 
 
 Agora, os profissionais de marketing podem executar um teste A/B para ver se a alteração da cor de azul para vermelho, quando a opção Entrega expressa é selecionada, pode aumentar as conversões, em vez de manter a cor do botão azul para ambas as opções de entrega.
 
-## Implementação de exibições Adobe [!DNL Target]
+## Implementação de Adobe [!DNL Target] Exibições
 
 Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar este conceito no Target para que os profissionais de marketing executem testes de A/B e XT em SPAs por meio do VEC. Isso exigirá uma configuração de desenvolvedor única. Vamos analisar as etapas de configuração.
 
 1. Instalar a at.js 2.x.
 
-   Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores da at.js e mbox.js não são compatíveis com as Exibições do Adobe Target e o VEC para SPAs.
+   Primeiro, é necessário instalar a at.js 2.x. Essa versão da at.js foi desenvolvida para SPAs. As versões anteriores da at.js e mbox.js (agora obsoleta) não são compatíveis com as Exibições do Adobe Target e o VEC para SPA.
 
-   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio de tags em [!DNL Adobe Experience Platform]. No entanto, as extensões [!DNL Adobe Target] não estão atualizadas no momento e são compatíveis.
+   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administração > Implementação]. A at.js 2.x também pode ser implantada por meio de tags em [!DNL Adobe Experience Platform]. No entanto, a variável [!DNL Adobe Target] no momento, as extensões do não estão atualizadas e são compatíveis.
 
 1. Implemente a função mais recente da at.js 2.x, `triggerView()`, em seus sites.
 
@@ -86,7 +86,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos apresentar alguns exemplos de casos de uso sobre como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link:  [Site inicial](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: [Site inicial](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -117,7 +117,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link:  [Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: [Site de produtos](https://target.enablementadobe.com/react/demo/#/products)**
 
 Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, queremos personalizar a segunda fileira de produtos alterando a cor do rótulo de &quot;Preço&quot; para vermelho, depois que um usuário clicou no botão Carregar mais.
 
@@ -146,7 +146,7 @@ Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como pro
  }
 ```
 
-**Link:  [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: [Check-out](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![checkout do react](/help/c-experiences/assets/react6.png)
 
@@ -210,7 +210,7 @@ Agora, onde quer `triggerView()` que seja implementada em seu SPA, as Exibiçõe
 | --- | --- |
 | 1 | `triggerView()` é chamado no SPA para renderizar a Exibição e aplicar ações para modificar elementos visuais. |
 | 2 | O conteúdo direcionado para a exibição é lido do cache. |
-| 1 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
+| 3 | O conteúdo direcionado é revelado o mais rápido possível sem oscilação do conteúdo padrão. |
 | 4 | A solicitação de notificação é enviada para a [!DNL Target] Loja de perfil para contar o visitante nas métricas de atividade e incremento. |
 | 5 | Os dados do Analytics são enviados aos Servidores de coleta de dados. |
 | 6 | Os dados do Target são correspondidos aos dados do Analytics pela SDID, e processados no armazenamento de relatório do Analytics. Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do A4T. |
@@ -274,7 +274,7 @@ Se as etapas anteriores forem seguidas, você terá uma solução A4T robusta pa
 
 ## Práticas recomendadas de implementação {#bp}
 
-As APIs da at.js 2.x permitem personalizar a implementação [!DNL Target] de várias maneiras, mas é importante seguir a ordem correta de operações durante esse processo.
+As APIs da at.js 2.x permitem personalizar o [!DNL Target] implementação de muitas maneiras, mas é importante seguir a ordem correta de operações durante esse processo.
 
 As informações a seguir descrevem a ordem das operações que devem ser seguidas ao carregar um Aplicativo de página única pela primeira vez em um navegador e para qualquer alteração de exibição que ocorra depois.
 
@@ -282,23 +282,23 @@ As informações a seguir descrevem a ordem das operações que devem ser seguid
 
 | Etapa  | Ação | Detalhes |
 | --- | --- | --- |
-| 1 | Carregar o VisitorAPI JS | Essa biblioteca é responsável por atribuir uma ECID ao visitante. Essa ID é consumida posteriormente por outras soluções [!DNL Adobe] na página da Web. |
+| 1 | Carregar o VisitorAPI JS | Essa biblioteca é responsável por atribuir uma ECID ao visitante. Essa ID é consumida posteriormente por outra [!DNL Adobe] na página da Web. |
 | 2 | Carregar a at.js 2.x | A at.js 2.x carrega todas as APIs necessárias que você usa para implementar [!DNL Target] solicitações e visualizações. |
-| 1 | Executar solicitação [!DNL Target] | Se você tiver uma camada de dados, recomendamos carregar dados críticos que são necessários para enviar para [!DNL Target] antes de executar uma solicitação [!DNL Target]. Isso permite usar `targetPageParams` para enviar os dados que deseja usar no direcionamento. Você deve garantir que solicite executar > pageLoad , bem como pré-busca > exibições nesta chamada de API. se você tiver definido `pageLoadEnabled` e `viewsEnabled`, ambas as exibições execute > pageLoad e prefetch > ocorrerão automaticamente com a Etapa 2; caso contrário, é necessário usar a API `getOffers()` para fazer essa solicitação. |
-| 4 | Chama `triggerView()` | Como a solicitação [!DNL Target] que você iniciou na Etapa 3 pode retornar experiências para a execução do Carregamento de página, bem como Exibições, verifique se `triggerView()` é chamado depois que a solicitação [!DNL Target] é retornada e termina de aplicar as ofertas ao cache. É necessário executar essa etapa apenas uma vez por visualização. |
-| 5 | Chame o beacon de exibição de página [!DNL Analytics] | Esse beacon envia a SDID associada à Etapa 3 e 4 para [!DNL Analytics] para a compilação de dados. |
-| 6 | Chame mais `triggerView({"page": false})` | Essa é uma etapa opcional para estruturas de SPA que poderia renderizar novamente determinados componentes na página, sem que houvesse uma alteração de exibição. Em tais ocasiões, é importante chamar essa API para garantir que [!DNL Target] as experiências sejam reaplicadas depois que a estrutura de SPA renderizou novamente os componentes. Você pode executar essa etapa quantas vezes quiser garantir que [!DNL Target] as experiências persistam em suas exibições de SPA. |
+| 3 | Executar [!DNL Target] solicitação | Se você tiver uma camada de dados, recomendamos que carregue os dados críticos necessários para enviar ao [!DNL Target] antes de executar um [!DNL Target] solicitação. Isso permite usar `targetPageParams` para enviar quaisquer dados que deseja usar para o direcionamento. Você deve garantir que solicite executar > pageLoad , bem como pré-busca > exibições nesta chamada de API. se tiver definido `pageLoadEnabled` e `viewsEnabled`e, em seguida, executar > carga e pré-busca > exibições ocorrem automaticamente com a Etapa 2; caso contrário, você precisará usar o `getOffers()` API para fazer essa solicitação. |
+| 4 | Chama `triggerView()` | Porque a variável [!DNL Target] A solicitação que você iniciou na Etapa 3 pode retornar experiências para a execução do Carregamento de página, bem como Exibições, certifique-se de `triggerView()` é chamado depois que a função [!DNL Target] é retornada e termina de aplicar as ofertas ao cache. É necessário executar essa etapa apenas uma vez por visualização. |
+| 5 | Chame o [!DNL Analytics] beacon de exibição de página | Esse beacon envia a SDID associada à Etapa 3 e 4 para [!DNL Analytics] para identificação de dados. |
+| 6 | Chamada adicional `triggerView({"page": false})` | Essa é uma etapa opcional para estruturas de SPA que poderia renderizar novamente determinados componentes na página, sem que houvesse uma alteração de exibição. Em tais ocasiões, é importante chamar essa API para garantir que [!DNL Target] as experiências são reaplicadas depois que a estrutura de SPA renderizou novamente os componentes. Você pode executar essa etapa quantas vezes quiser garantir que [!DNL Target] as experiências persistem nas visualizações de SPA. |
 
 ### Ordem das operações para SPA alteração de exibição (sem recarregamento de página completo)
 
 | Etapa  | Ação | Detalhes |
 | --- | --- | --- |
 | 1 | Chama `visitor.resetState()` | Essa API garante que a SDID seja regerada para a nova visualização à medida que é carregada. |
-| 2 | Atualize o cache chamando a API `getOffers()` | Esta é uma etapa opcional a ser tomada se essa alteração de exibição tiver o potencial de qualificar o visitante atual para mais atividades [!DNL Target] ou desqualificá-las das atividades. Nesse ponto, também é possível optar por enviar dados adicionais para [!DNL Target] para ativar outros recursos de direcionamento. |
-| 1 | Chama `triggerView()` | Se você executou a Etapa 2, deve aguardar a solicitação [!DNL Target] e aplicar as ofertas para armazenar em cache antes de executar esta etapa. É necessário executar essa etapa apenas uma vez por visualização. |
+| 2 | Atualize o cache chamando a função `getOffers()` API | Esta é uma etapa opcional a ser tomada se essa alteração de exibição tiver o potencial de qualificar o visitante atual para mais [!DNL Target] atividades ou desqualificá-las das atividades. Nesse ponto, também é possível optar por enviar dados adicionais para o [!DNL Target] para ativar mais recursos de direcionamento. |
+| 3 | Chama `triggerView()` | Se você executou a Etapa 2, deve aguardar a [!DNL Target] solicite e aplique as ofertas a serem armazenadas em cache antes de executar essa etapa. É necessário executar essa etapa apenas uma vez por visualização. |
 | 4 | Chama `triggerView()` | Se você não tiver executado a Etapa 2, poderá executar essa etapa assim que concluir a Etapa 1. Se você executou as Etapa 2 e 3, ignore esta etapa. É necessário executar essa etapa apenas uma vez por visualização. |
-| 5 | Chame o beacon de exibição de página [!DNL Analytics] | Esse beacon envia a SDID associada à Etapa 2, 3 e 4 para [!DNL Analytics] para a compilação de dados. |
-| 6 | Chame mais `triggerView({"page": false})` | Essa é uma etapa opcional para estruturas de SPA que poderia renderizar novamente determinados componentes na página, sem que houvesse uma alteração de exibição. Em tais ocasiões, é importante chamar essa API para garantir que [!DNL Target] as experiências sejam reaplicadas depois que a estrutura de SPA renderizou novamente os componentes. Você pode executar essa etapa quantas vezes quiser garantir que [!DNL Target] as experiências persistam em suas exibições de SPA. |
+| 5 | Chame o [!DNL Analytics] beacon de exibição de página | Esse beacon envia a SDID associada à Etapa 2, 3 e 4 para [!DNL Analytics] para identificação de dados. |
+| 6 | Chamada adicional `triggerView({"page": false})` | Essa é uma etapa opcional para estruturas de SPA que poderia renderizar novamente determinados componentes na página, sem que houvesse uma alteração de exibição. Em tais ocasiões, é importante chamar essa API para garantir que [!DNL Target] as experiências são reaplicadas depois que a estrutura de SPA renderizou novamente os componentes. Você pode executar essa etapa quantas vezes quiser garantir que [!DNL Target] as experiências persistem nas visualizações de SPA. |
 
 ## Vídeos de treinamento
 
@@ -308,16 +308,16 @@ Os seguintes vídeos contêm mais informações:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Consulte [Entendendo como a at.js 2.x funciona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
+Consulte [Noções básicas sobre o funcionamento da at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) para obter mais informações.
 
-### Implementar a at.js 2.x em um ![Selo tutorial](/help/assets/tutorial.png) SPA
+### Implementar a at.js 2.x em um SPA ![Selo do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Consulte [Implementar o Adobe Target a at.js 2.x em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
+Consulte [Implementar a at.js 2.x do Adobe Target em um aplicativo de página única (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) para obter mais informações.
 
-### Uso do VEC para SPA no Adobe Target ![Selo tutorial](/help/assets/tutorial.png)
+### Uso do VEC para SPA no Adobe Target ![Selo do tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Consulte [Usar o Visual Experience Composer para aplicativo de página única (VEC SPA) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
+Consulte [Uso do Visual Experience Composer para aplicativo de página única (VEC de SPA) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.

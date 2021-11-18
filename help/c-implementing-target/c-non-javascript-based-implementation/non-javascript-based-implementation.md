@@ -1,14 +1,14 @@
 ---
-keywords: implementação; mbox.js não javascript; adbox; redirecionador; mbox
-description: Saiba como implementar o Adobe [!DNL Target] em cenários que não utilizam JavaScript, como uma AdBox ou Redirecionador.
+keywords: Implementação; at.js não javascript; adbox; redirecionador; mbox
+description: Saiba como implementar o Adobe [!DNL Target] em cenários que não utilizam JavaScript, como o uso de uma AdBox ou Redirecionador.
 title: Como implementar [!DNL Target] para Email?
-feature: Implementar Email
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 Informações sobre a implementação do Target em cenários que não utilizam JavaScript como uma AdBox ou redirecionador.
 
-É possível rastrear as visitas aos anúncios e a outros conteúdos externos. Também é possível identificar a entrada e saída do mesmo usuário em seu site e fornecer uma experiência web consistente. Utilizando um único URL, a AdBox permite testes sem necessidade de JavaScript ou [!DNL at.js] ou [!DNL mbox.js].
+É possível rastrear as visitas aos anúncios e a outros conteúdos externos. Também é possível identificar a entrada e saída do mesmo usuário em seu site e fornecer uma experiência web consistente. Utilizando um único URL, a AdBox permite testes sem JavaScript ou [!DNL at.js].
 
 Uma AdBox é útil para sites que não têm [!DNL at.js], como afiliadas. Se sua atividade requer anúncios dinâmicos (por exemplo, você deseja exibir um produto deixado no carrinho de compras em um anúncio), não é possível utilizar uma AdBox.
 

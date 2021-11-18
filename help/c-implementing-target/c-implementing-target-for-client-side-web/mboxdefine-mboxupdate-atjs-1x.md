@@ -1,14 +1,14 @@
 ---
 keywords: mboxDefine; mboxdefine; definir mbox; mboxUpdate; mboxupdate; atualizar mbox; at.js; funções; função
-description: Use as funções mboxDefine() e mboxUpdate() da biblioteca JavaScript Adobe [!DNL Target] at.js para definir ou atualizar uma mbox. (at.js 1.x)
+description: Use as funções mboxDefine() e mboxUpdate() para o Adobe [!DNL Target] biblioteca JavaScript da at.js para definir ou atualizar uma mbox. (at.js 1.x)
 title: Como uso as funções mboxDefine() e mboxUpdate()?
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 86%
+source-wordcount: '200'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,11 @@ Defina e atualize uma mbox no Adobe Target.
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-Cria um mapeamento interno entre um nodeId e um nome de mbox, mas não executa a solicitação. Usado em conjunto com `mboxUpdate()`. Incorporada na [!DNL at.js], principalmente para facilitar a transição de [!DNL mbox.js] para [!DNL at.js].
+Cria um mapeamento interno entre um nodeId e um nome de mbox, mas não executa a solicitação. Usado em conjunto com `mboxUpdate()`. Incorporada em [!DNL at.js] principalmente para facilitar a transição de [!DNL mbox.js] (agora obsoleto) para [!DNL at.js].
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-Executa a solicitação e aplica a oferta ao elemento identificado pelo `nodeId` em `mboxDefine()`. Também pose ser usada para atualizar uma mbox iniciada por `mboxCreate`. Incorporada na [!DNL at.js], principalmente para facilitar a transição de [!DNL mbox.js] para [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` pode ser substituído por [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) e [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) usando a opção do seletor.
+Executa a solicitação e aplica a oferta ao elemento identificado pelo `nodeId` em `mboxDefine()`. Também pose ser usada para atualizar uma mbox iniciada por `mboxCreate`. Incorporada em [!DNL at.js] principalmente para facilitar a transição de [!DNL mbox.js] (agora obsoleto) para [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` pode ser substituído por [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) e [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) usando a opção do seletor.
 
 ## Exemplo {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

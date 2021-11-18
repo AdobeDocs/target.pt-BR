@@ -2,11 +2,11 @@
 keywords: problemas conhecidos;problemas resolvidos;notas de versão;bugs;problemas;correções
 description: Encontre informações sobre problemas conhecidos no Adobe Target, incluindo informações alternativas. Quando resolvidos, os problemas são movidos para a seção Resolvido.
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
-feature: Notas de versão
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4505'
+source-wordcount: '4504'
 ht-degree: 98%
 
 ---
@@ -25,9 +25,9 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 ### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
 
-Em alguns casos, a distribuição de tráfego das atividades de [!UICONTROL Alocação automática] usando o [!UICONTROL Analytics for Target] (A4T) pode variar do que deve ocorrer com base na taxa de conversão relatada de cada experiência. Isso ocorre com mais frequência em atividades com uma alta proporção de tráfego de visitante de retorno. Os clientes afetados serão notificados sobre as atividades afetadas.
+Em alguns casos, a distribuição de tráfego das atividades de [!UICONTROL Alocação automática] usando o [!UICONTROL Analytics for Target] (A4T) pode ser diferente do que deveria ocorrer com base na taxa de conversão relatada de cada experiência. Isso ocorre com mais frequência em atividades com alta proporção de tráfego de visita de retorno. Os clientes afetados serão notificados sobre as atividades afetadas.
 
-Até que esse problema seja resolvido, use a [!UICONTROL Alocação automática] com relatórios padrão [!DNL Target] ou use testes A/B padrão com relatórios [!DNL Analytics] como uma alternativa para a [!UICONTROL Alocação automática] com relatórios [!DNL Analytics]. (TOP-131)
+Até que esse problema seja resolvido, use a [!UICONTROL Alocação automática] com relatórios padrão [!DNL Target] ou use testes A/B padrão com relatórios [!DNL Analytics] como uma alternativa à [!UICONTROL Alocação automática] com relatórios [!DNL Analytics]. (TOP-131)
 
 ### Métricas do Analytics for Adobe Target (A4T) para atividades de Alocação automática e Direcionamento automático
 
@@ -244,9 +244,9 @@ Este problema foi corrigido no Target versão 19.7.1.
 
 Na guia Implementação ([!UICONTROL Administração > Implementação]) o campo [!UICONTROL Criação automática de Mbox global] será &quot;falso&quot; por padrão para um locatário recém-provisionado.
 
-Quando a mbox.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da Mbox global] é definido como &quot;true&quot; no arquivo mbox.js baixado e no back-end do [!DNL Target], mas continuará sendo exibido como &quot;false&quot; na página [!UICONTROL Implementação] na IU até que a página seja atualizada (depois da atualização da página, o status será &quot;true&quot;).
+Quando a at.js for baixada pela primeira vez após o provisionamento, a variável [!UICONTROL Criação automática de mbox global] estiver definido como &quot;true&quot; no arquivo at.js baixado e no campo [!DNL Target] backend, mas continuará sendo exibido como &quot;false&quot; no [!UICONTROL Implementação] na interface do usuário até que a página seja atualizada (após a atualização da página, o status será &quot;true&quot;).
 
-at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js for baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
+at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js (agora obsoleta) tiver sido baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Suporte a permissões empresariais nas APIs do [!DNL Target] {#api}
 
@@ -440,7 +440,7 @@ Esse problema foi corrigido depois do lançamento do Recommendations (22 de mar�
 
 ### at.js {#at-js-7}
 
-Quando os usuários tentam fazer o download da at.js a partir da página de detalhes da implementação depois de atualizar as configurações da at.js, a mbox.js é baixada em vez da at.js. (TGT-23069)
+Quando os usuários tentam fazer o download da at.js a partir da página de detalhes da implementação depois de atualizar as configurações da at.js, a é baixada em vez da at.js. (TGT-23069)
 
 Corrigido na versão 17.3.1 do Target (30 de março de 2017).
 

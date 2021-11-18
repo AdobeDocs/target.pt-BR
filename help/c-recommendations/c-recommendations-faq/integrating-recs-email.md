@@ -4,10 +4,10 @@ description: Saiba como integrar emails com a API de entrega, modelos rawbox e m
 title: Como integrar o Recommendations ao email?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 81%
+source-wordcount: '1712'
+ht-degree: 80%
 
 ---
 
@@ -82,7 +82,7 @@ Consulte a [Documentação da API de entrega](https://developers.adobetarget.com
 
 ## Método 2: Usar um modelo de email de rawbox {#rawbox}
 
-Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes não-Web, como provedores de serviços de email (ESPs). Como você não tem [!DNL mbox.js] ou [!DNL at.js] para usar nas solicitações de rawbox, deve criar as solicitações manualmente. Os exemplos abaixo explicam como trabalhar com solicitações de rawbox no email.
+Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes não-Web, como provedores de serviços de email (ESPs). Porque você não tem o [!DNL Adobe Experience Platform Web SDK] ou [!DNL at.js] para usar nas solicitações de rawbox, você deve criar as solicitações manualmente. Os exemplos abaixo explicam como trabalhar com solicitações de rawbox no email.
 
 >[!NOTE]
 >

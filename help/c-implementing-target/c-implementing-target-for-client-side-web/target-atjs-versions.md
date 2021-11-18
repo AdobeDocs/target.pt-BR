@@ -4,10 +4,10 @@ description: Veja os detalhes das alterações em cada versão do Adobe [!DNL Ta
 title: O que está incluído em cada versão da at.js?
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4278'
-ht-degree: 88%
+source-wordcount: '4280'
+ht-degree: 87%
 
 ---
 
@@ -435,7 +435,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 **Data:** quinta-feira, 14 de julho de 2016
 
 * Fornece à at.js um tempo limite para o Serviço de ID de visitante, que é independente do tempo limite do próprio serviço.
-* Corrige um problema na versão 0.9.0 que afetava as implementações que usavam at.js em algumas páginas e mbox.js em outras.
+* Corrige um problema na versão 0.9.0 que afetava as implementações que usavam at.js em algumas páginas e mbox.js (agora obsoleta) em outras.
 * Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento para o [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
 ## at.js versão 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
