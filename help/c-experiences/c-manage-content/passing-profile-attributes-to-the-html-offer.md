@@ -1,20 +1,19 @@
 ---
 keywords: dados dinâmicos; ativos; dados; ofertas; ofertas personalizadas; ofertas pessoais; substituição de token
-description: Saiba como passar dados dinâmicos para [!DNL Adobe Target] Ofertas. Explore casos comerciais que mostram por que você pode usar ofertas dinâmicas e ver exemplos e informações de implementação.
+description: Saiba como transmitir dados dinâmicos para o [!DNL Adobe Target] Ofertas.
 title: Como transfiro dados dinâmicos para ofertas?
-feature: Experiências e ofertas
+feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-translation-type: tm+mt
-source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 78%
+source-wordcount: '530'
+ht-degree: 63%
 
 ---
 
 # Envio de dados dinâmicos em ofertas
 
-Você pode exibir dinamicamente as informações do visitante armazenadas no perfil [!DNL Adobe Target]. Da mesma forma, as informações de atividade (como o nome da atividade ou o nome da experiência) também podem ser usadas para criar uma oferta única, que retorna dinamicamente o conteúdo personalizado com base nos interesses do visitante, no comportamento anterior e no perfil geral.
+Você pode exibir dinamicamente as informações do visitante armazenadas no [!DNL Adobe Target] perfil. Da mesma forma, as informações de atividade (como o nome da atividade ou o nome da experiência) também podem ser usadas para criar uma oferta única, que retorna dinamicamente o conteúdo personalizado com base nos interesses do visitante, no comportamento anterior e no perfil geral.
 
 ## Casos de negócios
 
@@ -24,14 +23,14 @@ Você pode exibir dinamicamente as informações do visitante armazenadas no per
 
 ## Vantagens técnicas
 
-Como preferências específicas do usuário, comportamentos, status, etc. podem ser armazenados no perfil do usuário, você pode repetir essa mensagem nas próximas visitas. As ofertas dinâmicas possibilitam uma escala maior, permitindo que você configure uma oferta única dentro de uma atividade que exibe mensagens personalizadas para todos os seus visitantes. Conforme a intenção do visitante muda, o conteúdo do site reflete automaticamente essas alterações.
+Como as preferências específicas do visitante, os comportamentos, o status podem ser armazenados no perfil do visitante, você pode repetir essa mensagem nas próximas visitas. As ofertas dinâmicas possibilitam uma escala maior, permitindo que você configure uma oferta única dentro de uma atividade que exibe mensagens personalizadas para todos os seus visitantes. Conforme a intenção do visitante muda, o conteúdo do site reflete automaticamente essas alterações.
 
 ## Exemplo
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * Código da oferta HTML: `Get your ${profile.keyword} information here!`
-* O usuário vê: Saiba tudo sobre a Copa do mundo aqui!
+* Visitante vê: Saiba tudo sobre a Copa do Mundo aqui!
 
 Os valores a seguir podem ser &quot;substituídos por token&quot;:
 
@@ -48,7 +47,7 @@ Os valores a seguir podem ser &quot;substituídos por token&quot;:
 
 Informações de log no console para fins de depuração, como `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Para designs do Recommendations, consulte mais exemplos na [Visão geral de design](/help/c-recommendations/c-design-overview/design-overview.md).
+Para [!DNL Recommendations] designs, consulte mais exemplos em [Visão geral do design](/help/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementação
 
@@ -60,7 +59,7 @@ Em parâmetros de perfil criados em um script de perfil, use a sintaxe:
 
 `${user.parameter}`
 
-Ao usar atributos dinâmicos em um design [!DNL Recommendations], você deve inserir uma barra invertida ( \ ) antes do cifrão ( $ ) para que o valor dinâmico seja renderizado adequadamente:
+Ao usar atributos dinâmicos em uma [!DNL Recommendations] , você deve inserir uma barra invertida ( \ ) antes do cifrão ( $ ) para que o valor dinâmico seja renderizado corretamente:
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -70,12 +69,16 @@ Valores padrão também podem ser especificados para valores que você deseja ex
 
 `${user.testAttribute default="All Items!"}`
 
-Quando `testAttribute` não existe ou está em branco, &quot;Todos os itens!&quot; será escrito. Se um valor de atributo vazio é válido, e você quer gravá-lo em vez de mostrar o padrão, você pode usar:
+Quando `testAttribute` não existe ou está em branco, &quot;Todos os itens!&quot; está escrito. Se um valor de atributo vazio é válido, e você quer gravá-lo em vez de mostrar o padrão, você pode usar:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Você também pode utilizar valores escape e unescape para serem exibidos. Por exemplo, se o seu valor tem um apóstrofo, você pode querer utilizar o valor escape para que ele não quebre as linhas do JavaScript na página. (As ofertas são escritas em JavaScript. Dessa forma, um único apóstrofo pode ser confundido com uma citação.) Por exemplo:
+Você também pode utilizar valores escape e unescape para serem exibidos. Por exemplo, se o seu valor tiver um apóstrofo, você pode usar o valor escape para que ele não quebre o JavaScript na página. (As ofertas são escritas em JavaScript. Dessa forma, um único apóstrofo pode ser confundido com uma citação.) Por exemplo:
 
 `${user.encodedValue encode="unescape"}`
 
 `${user.unencodedValue encode="escape"}`
+
+Para parâmetros de oferta (offer.name, offer.id) usados no conteúdo de uma oferta:
+
+Se essa oferta for um dos vários conjuntos em uma experiência, o valor da última oferta adicionada preencherá o valor do parâmetro. Isso significa que esses parâmetros são avaliados no nível da experiência.

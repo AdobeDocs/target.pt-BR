@@ -5,9 +5,9 @@ title: O que são tokens de resposta e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1620'
 ht-degree: 27%
 
 ---
@@ -57,7 +57,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
    |  | `profile.thirdPartyId` | Retorna a ID de terceiros do visitante. |
    |  | `profile.categoryAffinity` | Retorna a categoria favorita do visitante. |
    |  | `profile.categoryAffinities` | Retorna uma matriz das 5 categorias principais do visitante como sequências de caracteres. |
-   | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Detalhes da atividade atual. Observe que &quot;option&quot; equivale a &quot;offer.&quot; |
+   | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Detalhes da atividade atual.<br> Observe que os valores para parâmetros de oferta são avaliados no nível da experiência. |
    | Geografia | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulte [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) para obter mais informações sobre como usar o direcionamento geográfico nas atividades. |
    | Método de alocação de tráfego<br>(Aplica-se a [!UICONTROL Direcionamento automático] e [!UICONTROL Automated Personalization] somente atividades.) | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência de estar em tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência da distribuição de tráfego de &quot;direcionado&quot;. |
    |  | `experience.trafficAllocationType` | Retorne &quot;controle&quot; ou &quot;direcionado&quot;. |
