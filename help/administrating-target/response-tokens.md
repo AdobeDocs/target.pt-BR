@@ -5,9 +5,9 @@ title: O que são tokens de resposta e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1631'
 ht-degree: 27%
 
 ---
@@ -42,7 +42,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
    ![](assets/response_tokens-new.png)
 
-1. Ative os tokens de resposta desejados, como `activity.id` e `option.id`.
+1. Ative os tokens de resposta desejados, como `activity.id` e `offer.id`.
 
    Os seguintes parâmetros estão disponíveis por padrão:
 
@@ -435,8 +435,8 @@ O equivalente do plugin ttMeta para fins de depuração pode ser criado ao adici
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ O vídeo a seguir explica como usar tokens de resposta e eventos personalizados 
 >[!NOTE]
 >
 >O [!DNL Target] [!UICONTROL Administração] interface do usuário do menu (anteriormente [!UICONTROL Configuração]) foi reprojetado para fornecer melhor desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. As informações do vídeo seguinte estão corretas; no entanto, as opções estão em locais ligeiramente diferentes.
+>
+>O vídeo menciona `option.name` e `option.id`, que foram substituídas por `offer.name` e `offer.id`, respectivamente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
