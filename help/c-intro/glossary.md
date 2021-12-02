@@ -1,12 +1,12 @@
 ---
-description: O que significam os diferentes termos usados no Adobe  [!DNL Target] ? Encontre definições de termos comuns para ajudar você a obter mais do  [!DNL Target].
+description: O que significam os diferentes termos usados no Adobe  [!DNL Target] ? Encontre definições de termos comuns para ajudar você a obter mais do [!DNL Target].
 title: Onde posso encontrar termos e definições usados no Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Uma área de conteúdo específico em uma página, normalmente, contido por um e
 
 **mbox.js**
 
-A [!DNL Target] Biblioteca de implementação do JavaScript que foi substituída.
+Uma biblioteca de implementação JavaScript do [!DNL Target] que foi descontinuada.
 
 **parâmetro da mbox**
 
@@ -248,7 +248,7 @@ Um visitante é incluído no segmento Novos visitantes se uma das seguintes cond
 
 * É a primeira vez que o visitante acessa o site.
 * É a primeira vez que o visitante acessa o site desde a limpeza dos cookies.
-* É a primeira vez que o visitante acessa o site desde que expiração do [tempo de vida do perfil do visitante](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)
+* É a primeira vez que o visitante acessa o site desde que expiração do [tempo de vida do perfil do visitante.](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)
 
 Para obter mais informações, consulte [Como são contadas as métricas de Novos visitantes e Visitantes recorrentes?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) em Perguntas e respostas sobre relatórios. Compare com &quot;Visitante recorrente&quot; abaixo.
 
