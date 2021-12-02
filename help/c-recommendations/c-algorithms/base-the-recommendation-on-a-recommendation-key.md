@@ -5,9 +5,9 @@ title: Como basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
+source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
 workflow-type: tm+mt
-source-wordcount: '3937'
+source-wordcount: '3936'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ Se você selecionar o algoritmo Mais visualizados por categoria , é possível s
 
 ### Principais por métrica do Analytics
 
-Exibe o &quot;x superior&quot;, onde x é um valor arbitrário [!DNL Analytics] métrica. Ao usar dados comportamentais de mboxes, você só pode usar Mais vendidos ou Mais visualizados (x = &quot;Vendidos&quot; ou x = &quot;Visualizados&quot;). Se estiver usando dados comportamentais do [!DNL Adobe Analytics], você pode usar x = &quot;Adições ao carrinho&quot; ou algum outro [!DNL Analytics] métrica.
+Exibe o &quot;x superior&quot;, onde *x* é um procedimento arbitrário [!DNL Analytics] métrica. Ao usar dados comportamentais de mboxes, você pode usar Mais vendidos ou Mais visualizados (x = &quot;Vendidos&quot; ou x = &quot;Visualizados&quot;). Se estiver usando dados comportamentais do [!DNL Adobe Analytics], você pode usar x = &quot;Adições ao carrinho&quot; ou algum outro [!DNL Analytics] métrica.
 
 ## [!UICONTROL Baseado em item]
 
