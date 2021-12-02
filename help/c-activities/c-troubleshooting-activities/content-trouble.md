@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Os seguintes parâmetros estão disponíveis:
 
 | Opções de mboxTrace | Saída |
 |--- |--- |
-| `?mboxTrace=console` | Imprime no log do console como objetos.<br>Para at.js, em vez de abrir uma nova janela do navegador ou exibir uma saída no console como era em mbox.js (agora obsoleto), você precisa inspecionar a solicitação de rede e procurar em Visualização (Chrome) ou Resposta (Firefox). |
+| `?mboxTrace=console` | Imprime no log do console como objetos.<br>Para a at.js, em vez de abrir uma nova janela no navegador ou configurar a saída para o console como na mbox.js (descontinuada), é preciso inspecionar a solicitação de rede e procurar em Visualização (Chrome) ou Resposta (Firefox). |
 | `?mboxTrace=json` | Imprime no log do console como sequência de caracteres JSON literal |
 | `?mboxTrace=window` | Imprime em uma janela pop-up como uma sequência de caracteres JSON |
 | `?mboxTrace=disable` | Desativa o rastreamento do modo de sessão |
@@ -110,7 +110,7 @@ Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela 
 
 ## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta MboxTrace avançada para inspecionar as qualificações de atividade e público, bem como o perfil do visitante.
+Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta MboxTrace avançada para inspecionar as qualificações de atividade e público-alvo, bem como o perfil do visitante.
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
