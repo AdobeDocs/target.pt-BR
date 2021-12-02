@@ -5,9 +5,9 @@ title: Como basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3894'
 ht-degree: 40%
 
 ---
@@ -34,7 +34,7 @@ Algoritmos de recomendações diferentes se prestam à localização em diferent
 
 ## Baseado em carrinho {#cart-based}
 
-O [!UICONTROL Baseado em carrinho] o tipo de algoritmo permite recomendar itens com base no conteúdo do carrinho atual do visitante.
+O [!UICONTROL Baseado em carrinho] o tipo de algoritmo permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do parâmetro mbox `cartIds` em valores separados por vírgula. Somente os primeiros 10 valores são considerados.
 
 A lógica de recomendação baseada no carrinho é semelhante ao &quot;[!UICONTROL Recomendado Para Você]&quot; algoritmo baseado no usuário e no &quot;[!UICONTROL Pessoas que visualizaram estes, compraram aqueles]&quot; e &quot;[!UICONTROL Pessoas que compraram isto, compraram aqueles]&quot; algoritmos baseados em itens.
 
