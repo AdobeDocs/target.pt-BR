@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre problemas conhecidos e problemas
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4504'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ A tentativa de arquivar atividades inativas de [!UICONTROL Direcionamento autom�
 
 ### Delivery de página {#page-delivery}
 
-Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no delivery [da](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esses espaços extras são cosméticos e não afetam a criação de definição de público e a entrega de ofertas. (TGT-35920)
+Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no delivery [da](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esses espaços extras são cosméticos e não afetam a criação de definição de público-alvo e a entrega de ofertas. (TGT-35920)
 
 ### Links de pré-visualização de controle de qualidade
 
@@ -94,8 +94,8 @@ A seguir, os problemas conhecidos com atividades do [!UICONTROL Recommendations]
 
 * Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recommendations, ele retornará com um tipo de HTML.
 * As entidades expiraram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. (IRI-857)
-* As sobreposições &quot;Informações de uso&quot; para critérios e desenhos não refletem seu uso nas atividades A/B e direcionamento de experiência (TGT-34331)
-* As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recommendations (TGT-33426)
+* As sobreposições &quot;Informações de uso&quot; para critérios e desenhos não refletem seu uso nas atividades A/B e direcionamento de experiência. (TGT-34331)
+* As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recommendations. (TGT-33426)
 * Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário do Target e podem ser editados por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do usuário do Target e depois editá-los por meio da API, essas alterações não serão refletidas na interface do usuário do Target. Os itens editados por meio da API devem continuar sendo editados por meio da API para evitar a perda de modificações. (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 * O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
@@ -212,17 +212,17 @@ Para sincronizar novamente e corrigir seus relatórios:
 
 ### Relatório {#conversions-audiences}
 
-Atualmente, as conversões incrementam de forma diferente com base no público usado.
+Atualmente, as conversões incrementam de forma diferente com base no público-alvo usado.
 
 Por exemplo, para o mesmo visitante, se a contagem de conversão estiver definida para incrementar &quot;Uma vez por participante:&quot;
 
-* Público: &quot;Todos os visitantes qualificados&quot; para conversões no nível da visita incrementam apenas uma vez. Esse é o comportamento esperado.
-* Público: &quot;Novos visitantes&quot; para conversões no nível da visita incrementam incorretamente todas as vezes, em vez de incrementar apenas uma vez. Esse não é o comportamento esperado.
+* Público-alvo: &quot;Todos os visitantes qualificados&quot; para conversões no nível da visita incrementam apenas uma vez. Esse é o comportamento esperado.
+* Público-alvo: &quot;Novos visitantes&quot; para conversões no nível da visita incrementam incorretamente todas as vezes, em vez de incrementar apenas uma vez. Esse não é o comportamento esperado.
 
 Se a contagem de conversão estiver definida para incrementar &quot;Em todas as impressões:&quot;
 
-* Público: &quot;Todos os visitantes qualificados&quot; para conversões no nível do visitante incrementam incorretamente apenas uma vez, em vez de incrementarem sempre. Esse não é o comportamento esperado.
-* Público: &quot;Novos visitantes&quot; para conversões no nível do visitante incrementam sempre. Esse é o comportamento esperado.
+* Público-alvo: &quot;Todos os visitantes qualificados&quot; para conversões no nível do visitante incrementam incorretamente apenas uma vez, em vez de incrementarem sempre. Esse não é o comportamento esperado.
+* Público-alvo: &quot;Novos visitantes&quot; para conversões no nível do visitante incrementam sempre. Esse é o comportamento esperado.
 
 Observe que esse problema está relacionado somente aos relatórios do [!DNL Target]. Isso não é um problema ao usar os relatórios do [!UICONTROL Analytics for Target] (A4T).
 
@@ -244,9 +244,9 @@ Este problema foi corrigido no Target versão 19.7.1.
 
 Na guia Implementação ([!UICONTROL Administração > Implementação]) o campo [!UICONTROL Criação automática de Mbox global] será &quot;falso&quot; por padrão para um locatário recém-provisionado.
 
-Quando a at.js for baixada pela primeira vez após o provisionamento, a variável [!UICONTROL Criação automática de mbox global] estiver definido como &quot;true&quot; no arquivo at.js baixado e no campo [!DNL Target] backend, mas continuará sendo exibido como &quot;false&quot; no [!UICONTROL Implementação] na interface do usuário até que a página seja atualizada (após a atualização da página, o status será &quot;true&quot;).
+Quando a at.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da mbox global] é definido como “true” no arquivo at.js baixado e no backend do [!DNL Target], mas continuará a exibir “false” na página de [!UICONTROL Implementação] da interface até que a página seja atualizada (após a atualização da página, o status será definido como “true”.)
 
-at.js será baixado com `global_mbox_autocreate = false` no caso de um inquilino recém-provisionado. Se mbox.js (agora obsoleta) tiver sido baixada primeiro, global\_mbox\_autocreate será definido como &quot;true&quot; e at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
+A at.js será baixada com `global_mbox_autocreate = false` no caso de um locatário recém-provisionado. Se a mbox.js (descontinuada) foi baixada primeiro, global\_mbox\_autocreate será definido como “true” e a at.js também será baixada com `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Suporte a permissões empresariais nas APIs do [!DNL Target] {#api}
 
@@ -438,9 +438,9 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
-Quando os usuários tentam fazer o download da at.js a partir da página de detalhes da implementação depois de atualizar as configurações da at.js, a é baixada em vez da at.js. (TGT-23069)
+Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 
 Corrigido na versão 17.3.1 do Target (30 de março de 2017).
 
