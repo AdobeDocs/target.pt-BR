@@ -35,7 +35,6 @@ A personalização de recomendações de tempo aberto não é compatível com o 
 >
 >* As solicitações devem ser limitadas à uma taxa pequena de 1.000 solicitações por segundo, ou 25 vezes o pico de tráfego diário.
 >* Aumentar o tráfego em etapas de 200 solicitações por segundo a cada minuto.
-
 > 
 >Entre em contato com seu gerente de contas se desejar usar limites de taxas mais altos.
 
