@@ -4,9 +4,9 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] ,
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: ht
-source-wordcount: '628'
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -14,18 +14,6 @@ ht-degree: 100%
 # Anúncios e eventos do Target
 
 Anúncios e informações sobre eventos futuros, incluindo sessões do criador de habilidades, chats de desenvolvedor e webinários do [!DNL Adobe Target], além de sessões de Coffee break do [!DNL Target].
-
-## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (10 de novembro de 2021)
-
-* **quarta-feira, 10 de novembro de 2021**
-* **8:00 (PST, UTC -8)**
-* **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696?profile.language=pt)**
-
-Cristinel &quot;Muti&quot; Anastasoaie, gerente de produto sênior do [!DNL Adobe Target], responderá às perguntas relacionadas a suas áreas de especialização:
-
-* Interface de usuário do [!DNL Target]
-* [!DNL Target] integrações
-* [!UICONTROL Permissões empresariais] e [!UICONTROL espaços de trabalho]
 
 ## Sessão de perguntas e respostas da comunidade do [!DNL Adobe Target] (8 de dezembro de 2021)
 
