@@ -5,7 +5,7 @@ title: Como basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
 source-wordcount: '3936'
 ht-degree: 40%
@@ -312,7 +312,7 @@ Os possíveis casos de uso incluem:
 * Você deseja executar um algoritmo offline e usar os resultados para potencializar suas recomendações, mas é necessário garantir que itens esgotados nunca sejam recomendados.
 * Você deseja incluir apenas itens que são da categoria favorita deste visitante.
 
-## Chaves de recomendação
+## Chaves de recomendação {#keys}
 
 As seguintes chaves de recomendação estão disponíveis no [!UICONTROL Chave de recomendação] lista suspensa:
 
