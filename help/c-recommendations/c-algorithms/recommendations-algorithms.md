@@ -1,17 +1,17 @@
 ---
 keywords: algoritmos de recomendações, treinamento de modelo, serviço de modelo, entrega de conteúdo, baseado em item, baseado em usuário, baseado em popularidade, baseado em carrinho, critérios personalizados
 description: Saiba mais sobre os algoritmos usados em [!DNL Target Recommendations], incluindo a formação de modelo e a prestação de serviços de modelos.
-title: Onde Posso Saber Mais Sobre A Ciência Por Trás Dos Algoritmos Do Recommendations?
+title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendations do Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) A ciência por trás dos algoritmos Recommendations
+# ![PREMIUM](/help/assets/premium.png) A ciência por trás dos algoritmos de recomendações do Target
 
 Uma descrição detalhada dos algoritmos usados em [!DNL Adobe Target Recommendations], incluindo a lógica e os detalhes matemáticos da formação de modelos e o processo de serviço de modelos.
 
@@ -106,7 +106,7 @@ Os detalhes dessas etapas são os seguintes:
 
       Para evitar uma complexidade significativa na computação de semelhanças entre todos os itens N x N, o *tf-idf* O vetor é truncado para conter apenas suas 500 entradas maiores e, em seguida, calcula as semelhanças de cosseno entre itens usando essa representação de vetor truncada. Essa abordagem se mostra mais robusta para cálculos de similaridade de vetor esparsos, em comparação a outras técnicas de vizinho mais próximo (ANN), como hash sensível à localidade.
 
-* **Serviço de modelo**: Esse processo é idêntico às técnicas de filtragem colaborativa de item descritas na seção anterior.
+   * **Serviço de modelo**: Esse processo é idêntico às técnicas de filtragem colaborativa de item descritas na seção anterior.
 
 ## Recomendações com várias chaves
 
@@ -137,7 +137,7 @@ Os detalhes dessas etapas são os seguintes:
 
    ![FórmulaFórmula](assets/formula4.png)
 
-   * **Avaliação do modelo de semelhança de item**: A avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões sobre o conjunto de dados de teste. A fase de pontuação online é mimetizada pela ordenação cronológica dos usos do item de cada usuário no conjunto de dados de teste, em seguida, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever visualizações e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em consideração a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, que é uma propriedade importante para classificar sistemas.
+   * **Avaliação do modelo de semelhança de item**: A avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões sobre o conjunto de dados de teste. A fase de pontuação online é mimetizada pela ordenação cronológica dos usos do item de cada usuário no conjunto de dados de teste, em seguida, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever visualizações e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em consideração a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, que é uma propriedade importante para classificar sistemas.
    * **Seleção de modelo**: Após a avaliação offline, o modelo com a Precisão média mais alta é selecionado e todas as recomendações de item individuais são calculadas para ele.
    * **Filtragem offline**: A fase final da formação do modelo é a aplicação de filtros dinâmicos aplicáveis. Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para serem disponibilizadas.
 
