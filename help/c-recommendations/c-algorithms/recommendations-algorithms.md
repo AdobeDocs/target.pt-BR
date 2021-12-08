@@ -4,9 +4,9 @@ description: Saiba mais sobre os algoritmos usados em [!DNL Target Recommendatio
 title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendations do Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Um exemplo dessa semelhança é a co-ocorrência entre os itens: uma contagem si
 
 Por exemplo, se
 
-![Fórmula](assets/formula.png)
+![Fórmula para o algoritmo visualizado/comprado](assets/formula.png)
 
 então o item B não deve ser recomendado com o item A. São fornecidos detalhes completos sobre este cálculo da similaridade da taxa de probabilidade de log [neste PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esquemático a seguir:
 
-![Diagrama esquemático](assets/diagram1.png)
+![Diagrama esquemático de um algoritmo visualizado/comprado](assets/diagram1.png)
 
 Os detalhes dessas etapas são os seguintes:
 
@@ -83,7 +83,7 @@ Nesse tipo de algoritmo, dois itens são considerados relacionados se seus nomes
 
 Embora a veiculação do modelo e os aspectos de entrega de conteúdo de [!DNL Target]Os algoritmos de similaridade de conteúdo da são idênticos a outros algoritmos baseados em itens, as etapas de treinamento do modelo são drasticamente diferentes e envolvem uma série de etapas de processamento e pré-processamento de linguagem natural, conforme ilustrado no diagrama a seguir. O núcleo do cálculo de similaridade é o uso da similaridade de cosseno de vetores tf-idf modificados que representam cada item no catálogo.
 
-![Figura 2](assets/diagram2.png)
+![Diagrama que mostra o fluxo do processo de similaridade de conteúdo](assets/diagram2.png)
 
 Os detalhes dessas etapas são os seguintes:
 
@@ -96,13 +96,13 @@ Os detalhes dessas etapas são os seguintes:
    * **Criação de n-grama**: Após as etapas anteriores, cada palavra é tratada como um token. O processo de combinação de sequências contíguas de tokens em um único token é chamado de criação de n-gramas. [!DNL Target]Os algoritmos da consideram até 2 gramas.
    * **computação tf-idf**: A próxima etapa envolve a criação de vetores tf-idf para refletir a importância relativa dos tokens na descrição do item. Para cada token/termo t em um item i, em um catálogo D com |D| itens, o termo frequência TF(t, i) é calculado primeiro (o número de vezes que o termo aparece no item i), bem como a frequência do documento DF(t, D). Em essência, o número de itens em que o token t existe. A medida tf-idf é então
 
-      ![Fórmula](assets/formula2.png)
+      ![Fórmula mostrando medida tf-idf](assets/formula2.png)
 
       [!DNL Target] usa o Apache Spark *tf-idf* implementação de recursos, que sob o capuz apresenta cada token em um espaço de 218 tokens. Nesta etapa, o aumento e a enterramento de atributos especificados pelo cliente também são aplicados por meio do ajuste das frequências de termos em cada vetor com base nas configurações especificadas no [critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Cálculo de similaridade de item**: O cálculo final da similaridade de item é feito usando uma similaridade aproximada de cosseno. Para dois itens, *A* e *B*, com os vetores tA e tB, a similaridade de cosseno é definida como:
 
-      ![FórmulaFórmula](assets/formula3.png)
+      ![Fórmula que mostra o cálculo da similaridade de item](assets/formula3.png)
 
       Para evitar uma complexidade significativa na computação de semelhanças entre todos os itens N x N, o *tf-idf* O vetor é truncado para conter apenas suas 500 entradas maiores e, em seguida, calcula as semelhanças de cosseno entre itens usando essa representação de vetor truncada. Essa abordagem se mostra mais robusta para cálculos de similaridade de vetor esparsos, em comparação a outras técnicas de vizinho mais próximo (ANN), como hash sensível à localidade.
 
@@ -121,7 +121,7 @@ Esses algoritmos baseiam-se nas técnicas fundamentais de filtragem colaborativa
 
 A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagrama a seguir:
 
-![Diagrama](assets/diagram3.png)
+![Diagrama mostrando a lógica do treinamento do modelo e as etapas de pontuação](assets/diagram3.png)
 
 Os detalhes dessas etapas são os seguintes:
 
@@ -135,7 +135,7 @@ Os detalhes dessas etapas são os seguintes:
 
    A etapa de treinamento calcula vários tipos de semelhanças entre vetores: Similaridade LLR ([discutido aqui](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), semelhança de cosseno (definida anteriormente) e uma semelhança L2 normalizada, definida como:
 
-   ![FórmulaFórmula](assets/formula4.png)
+   ![Fórmula mostrando cálculo de treinamento](assets/formula4.png)
 
    * **Avaliação do modelo de semelhança de item**: A avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões sobre o conjunto de dados de teste. A fase de pontuação online é mimetizada pela ordenação cronológica dos usos do item de cada usuário no conjunto de dados de teste, em seguida, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever visualizações e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em consideração a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, que é uma propriedade importante para classificar sistemas.
    * **Seleção de modelo**: Após a avaliação offline, o modelo com a Precisão média mais alta é selecionado e todas as recomendações de item individuais são calculadas para ele.
@@ -149,7 +149,7 @@ Os detalhes dessas etapas são os seguintes:
 
 Esses processos são ilustrados na imagem a seguir, onde um visitante visualizou o item A e comprou o item B. As recomendações individuais são recuperadas com as pontuações de similaridade offline mostradas abaixo de cada rótulo de item. Após a recuperação, as recomendações são mescladas com pontuações de similaridade ponderada somadas. Finalmente, em um cenário em que o cliente especificou que os itens visualizados e comprados anteriormente devem ser filtrados, a etapa de filtragem remove os itens A e B da lista de recomendações.
 
-![Diagrama](assets/diagram4.png)
+![Diagrama que mostra o processamento de algoritmos com várias teclas](assets/diagram4.png)
 
 ## Baseado em popularidade
 
