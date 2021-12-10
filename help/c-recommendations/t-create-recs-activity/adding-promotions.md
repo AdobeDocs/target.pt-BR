@@ -1,24 +1,23 @@
 ---
 keywords: promoções, promoções principais, promoções secundárias, tipo de promoções, lista de itens, promover por atributo, promover uma coleção
-description: Saiba como adicionar itens promovidos e controlar o posicionamento nos designs do Adobe [!DNL Target] Recommendations. É possível adicionar promoções estáticas e dinâmicas.
+description: Saiba como adicionar itens promovidos e controlar o posicionamento no Adobe [!DNL Target] Designs do Recommendations. É possível adicionar promoções estáticas e dinâmicas.
 title: Como adiciono promoções em designs Recommendations?
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 0d8d04091968923c7d343692140279c026d579f4
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 56%
+source-wordcount: '688'
+ht-degree: 50%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Adicionar promoções
 
-Adicione itens promovidos e controle o posicionamento nos designs do Adobe Target Recommendations. É possível adicionar promoções estáticas e dinâmicas.
+Adicione itens promovidos e controle o posicionamento nos designs do [!DNL Adobe Target Recommendations]. É possível adicionar promoções estáticas e dinâmicas.
 
 >[!IMPORTANT]
 >
->As regras de exclusão estáticas e dinâmicas são recursos poderosos que podem ajudá-lo com seus esforços de marketing. Para obter informações detalhadas, exemplos e cenários de caso de uso, consulte [Usar as regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>As regras de exclusão estáticas e dinâmicas são recursos poderosos que podem ajudá-lo com seus esforços de marketing. Para obter informações detalhadas, exemplos e cenários de caso de uso, consulte [Uso das regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 Quando você cria uma atividade do [!DNL Recommendations], tem a opção de incluir itens promovidos no design do [!DNL Recommendations]. As promoções usam os espaços disponíveis em um design e têm precedência sobre as recomendações de back-up e os resultados de critérios. Por exemplo, se seu design tiver seis espaços e você usar dois deles para promoções, quatro espaços estarão disponíveis para os itens recomendados com base em critérios.
 
@@ -26,7 +25,7 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
 
 É possível promover itens específicos, promover itens dinamicamente, promover itens com base em atributos ou promover coleções.
 
-![](assets/add_promotion_toggles.png)
+![[!UICONTROL Promoção principal] e [!UICONTROL Promoção secundária] opções em [!DNL Target] interface](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -39,6 +38,7 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
    ![Adicionar opções de Promoção principal](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    É possível inserir promoções antes *e* depois dos resultados dos seus critérios.
+
 1. Defina o número de espaços de design a serem usados para os itens promovidos.
 
    É possível usar até 20 espaços, dependendo do design do [!DNL Recommendations]. Cada espaço usado fica indisponível para as recomendações retornadas com base nos seus critérios.
@@ -53,28 +53,28 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
 
    * Selecione **[!UICONTROL Promover por atributo]** e adicione as regras para definir os atributos dos itens que deseja remover.
 
-      Se você selecionar Promover por atributo, poderá criar correspondências dinâmicas. Para obter mais informações, consulte [Usar as regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+      Se você selecionar [!UICONTROL Promover por atributo], é possível criar correspondências dinâmicas. Para obter mais informações, consulte [Uso das regras de inclusão estática e dinâmica](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Selecione **[!UICONTROL Promover uma coleção]** e escolha a coleção de itens que deseja promover.
 
       É possível criar novas coleções para usar em promoções. Consulte [Criar uma coleção](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obter mais informações.
-   Se você escolher **[!UICONTROL Lista de itens]** como o **[!UICONTROL Tipo de promoção]**, poderá marcar a caixa de seleção **[!UICONTROL Randomizar ordem de item]**, se desejado.
+   Se você escolher **[!UICONTROL Lista de itens]** como **[!UICONTROL Tipo de promoção]**, você pode selecionar a variável **[!UICONTROL Randomizar Ordem de Item]** , se desejar.
 
-   A ordem de classificação padrão para [!UICONTROL List of Items] é baseada na ordem inserida na interface do usuário do Target ou na API. Se sua lista incluir mais itens do que o número de espaços definido para as promoções, a opção [!UICONTROL Randomizar a ordem dos itens] aleatoriamente agrupará os itens promovidos que são exibidos em seu design. Escolher essa opção resulta em [!DNL Target] selecionar aleatoriamente os itens ativados para as promoções no modelo de todo o conjunto de promoções em cada ocorrência.
+   A ordem de classificação padrão para [!UICONTROL Lista de itens] é baseada na ordem inserida na variável [!DNL Target] Interface do usuário ou API. Se a lista incluir mais itens do que o número de espaços definido para as promoções, a variável [!UICONTROL Randomizar Ordem de Item] opção randomiza os itens promovidos que são exibidos em seu design. Escolher essa opção resulta em [!DNL Target] selecionando aleatoriamente os itens habilitados para promoções no modelo a partir do conjunto de promoções inteiro em cada ocorrência.
 
-   Se suas entidades não tiverem um atributo `entity.value` (por exemplo, você não vende produtos), poderá passar um valor numérico para o atributo `entity.value`, como a data de publicação. Nesse caso, os itens promovidos podem ser promovidos com base na data de publicação mais recente, em ordem decrescente. O atributo `entity.value` é do tipo double; ele não aceita cadeias de caracteres.
+   Se suas entidades não tiverem uma `entity.value` (por exemplo, você não vende produtos) é possível passar um valor numérico para a `entity.value` , como a data de publicação. Nesse caso, os itens promovidos podem ser promovidos com base na data de publicação mais recente, em ordem decrescente. O `entity.value` O atributo é do tipo double; ele não aceita cadeias de caracteres.
 
-   Se você selecionou a opção **[!UICONTROL Promover por atributo]** ou **[!UICONTROL Promover uma coleção]**, a opção para randomizar a ordem não é aplicável.
+   Se você selecionou a variável **[!UICONTROL Promover por atributo]** ou **[!UICONTROL Promover uma coleção]** , a opção para tornar a ordem aleatória não é aplicável.
 
-   Ao promover itens específicos usando as opções [!UICONTROL Promover por Atributo] ou [!UICONTROL Promover uma coleção], a ordem padrão na qual os itens são apresentados é baseada no atributo `entity.value`, em ordem numérica decrescente.
+   Ao promover itens específicos usando a variável [!UICONTROL Promover por atributo] ou [!UICONTROL Promover uma coleção] , a ordem padrão em que os itens são apresentados é baseada na variável `entity.value` , em ordem numérica decrescente.
 
    A tabela a seguir ilustra as diferenças entre essas opções:
 
-   | Tipo de promoção | Classificação padrão | Classificação de Backup | Opção de Filtragem Dinâmica |
+   | Tipo de promoção | Classificação padrão | Classificação de backup | Opção de filtragem dinâmica |
    | --- | --- | --- | --- |
-   | Lista de itens | Pedido inserido na interface/API do Target | Aleatório (quando selecionado por interface/API | Não |
-   | Promover por atributo | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum atributo `entity.value` está presente) | Sim |
-   | Promover uma coleção | `entity.value` (ordem decrescente) | Aleatório em cada solicitação (quando nenhum atributo `entity.value` está presente) | Não |
+   | [!UICONTROL Lista de itens] | Pedido inserido na interface/API do Target | Aleatório (quando selecionado por interface/API) | Não |
+   | [!UICONTROL Promover por atributo] | `entity.value` (ordem decrescente) | Sem aleatoriedade | Sim |
+   | [!UICONTROL Promover uma coleção] | `entity.value` (ordem decrescente) | Sem aleatoriedade | Não |
 
 1. Clique em **[!UICONTROL Salvar]**.
 
