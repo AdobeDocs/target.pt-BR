@@ -1,13 +1,13 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;obter ofertas;at.js; funções;função
-description: Use a função adobe.target.getOffers() e suas opções para as ofertas Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] . (at.js 2.x)
+description: Use a função adobe.target.getOffers() e suas opções para o Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] ofertas. (at.js 2.x)
 title: Como uso a função adobe.target.getOffers() ?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
+source-git-commit: 40173370840d1bcc8582bf7bec51e5ef8b1ae53b
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1305'
 ht-degree: 70%
 
 ---
@@ -22,7 +22,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 | Chave | Tipo | Obrigatório? | Descrição |
 | --- | --- | --- | --- |
-| `consumerId` | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementar (SDID) usada para integração A4T.<br>Ao usar  `getOffers()`, cada chamada gera uma nova SDID. Se você tiver várias solicitações de mbox na mesma página e quiser preservar a SDID (de modo que corresponda à SDID do target-global-mbox e da Adobe Analytics SDID), use o parâmetro `consumerId`.<br>Se  `getOffers()` incluir três mboxes (chamadas de &quot;mbox1&quot;, &quot;mbox2&quot; e &quot;mbox3&quot;), inclua:  `consumerId: "mbox1, mbox2, mbox3"` na  `getOffers()` chamada . |
+| `consumerId` | String | Não | O valor padrão é a mbox global do cliente se não for fornecida. Essa chave é usada para gerar a ID de dados complementar (SDID) usada para integração A4T.<br>Ao usar `getOffers()`, cada chamada gera uma nova SDID. Se você tiver várias solicitações de mbox na mesma página e desejar preservar a SDID (de modo que corresponda à SDID do target-global-mbox e da Adobe Analytics SDID), use a `consumerId` parâmetro.<br>If `getOffers()` O inclui três mboxes (chamadas de &quot;mbox1&quot;, &quot;mbox2&quot; e &quot;mbox3&quot;), incluindo: `consumerId: "mbox1, mbox2, mbox3"` no `getOffers()` chame. |
 | `decisioningMethod` | String | Não | &quot;lado do servidor&quot;, &quot;no dispositivo&quot;, &quot;híbrido&quot; |
 | `request` | Objeto | Sim | Consulte Tabela de solicitações abaixo. |
 | `timeout` | Número | Não | Tempo limite da solicitação. Se não for especificado, o tempo limite padrão da at.js será usado. |
@@ -31,7 +31,7 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 
 >[!NOTE]
 >
->Consulte a [Documentação da API de entrega](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
+>Consulte o [Documentação da API de entrega](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) para obter informações sobre os tipos aceitáveis para todos os campos listados abaixo.
 
 | Nome do campo | Obrigatório? | Limitações | Descrição |
 | --- | --- | --- | --- |
@@ -41,38 +41,38 @@ Essa função permite que você recupere várias ofertas passando em várias mbo
 | Request > experienceCloud > analytics | Não |  | Integração do Adobe Analytics |
 | Request > experienceCloud > analytics > logging | Não | O seguinte deve ser implementado na página:<ul><li>Serviço de ID de visitante</li><li>AppMeasurement.js</li></ul> | Os seguintes valores são suportados:<br>**client_side**: quando especificado, uma carga de análise será retornada ao chamador que deve ser usada para enviar ao Adobe Analytics por meio da API de inserção de dados.<br>**server_side**: esse é o valor padrão em que o back-end do Target e do Analytics usará a SDID para unir as chamadas para fins de relatório. |
 | Solicitação > pré-busca | Não |  |  |
-| Solicitação > pré-busca > exibições | Não | Contagem máxima 50.<br>Nome não em branco.<br>Tamanho do nome `<=` 128.<br>Tamanho do valor `<=` 5000.<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
-| Solicitação > pré-busca > exibições > profileParameters | Não | Contagem máxima 50.<br>Nome não em branco.<br>Tamanho do nome `<=` 128.<br>Tamanho do valor `<=` 5000.<br>Aceita somente valores da string.<br>O nome não deve começar com &quot;perfil&quot;. | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
+| Solicitação > pré-busca > exibições | Não | Contagem máxima 50.<br>O nome não está em branco.<br>Tamanho do nome `<=` 128.<br>Comprimento do valor `<=` 5000.<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
+| Solicitação > pré-busca > exibições > profileParameters | Não | Contagem máxima 50.<br>O nome não está em branco.<br>Tamanho do nome `<=` 128.<br>Comprimento do valor `<=` 5000.<br>Aceita somente valores da string.<br>O nome não deve começar com &quot;perfil&quot;. | Transmita os parâmetros a serem usados para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação > pré-busca > exibições > produto | Não |  |  |
 | Solicitação > pré-busca > exibições > produto -> id | Não | Não está em branco.<br>tamanho máximo = 128. | Transmita as IDs do produto a serem usadas para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação > pré-busca > exibições > produto > categoryId | Não | Não está em branco.<br>tamanho máximo = 128. | Transmita as IDs de categoria do produto a serem usadas para recuperar exibições relevantes nas atividades. |
 | Solicitação > pré-busca > exibições > ordem | Não |  |  |
 | Solicitação > pré-busca > exibições > ordem > id | Não | Tamanho máximo = 250  | Transmita as IDs da ordem a serem usadas para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação > pré-busca > exibições > ordem > total | Não | Total`>=` 0  | Transmita os totais da ordem a serem usados para recuperar exibições relevantes nas atividades ativas. |
-| Solicitação > pré-busca > exibições > ordem > purchasedProductIds | Não | Nenhum valor em branco.<br>Tamanho máximo de cada valor 50.<br>Concatenado e separado por vírgula.<br>Tamanho total das IDs do produto `<=` 250. | Transmita as IDs do produto adquirido a serem usadas para recuperar exibições relevantes nas atividades ativas. |
+| Solicitação > pré-busca > exibições > ordem > purchasedProductIds | Não | Nenhum valor em branco.<br>Comprimento máximo de cada valor 50.<br>Concatenado e separado por vírgula.<br>Duração total das IDs de produto `<=` 250. | Transmita as IDs do produto adquirido a serem usadas para recuperar exibições relevantes nas atividades ativas. |
 | Solicitação > executar | Não |  |  |
 | Solicitação > executar > pageLoad | Não |  |  |
-| Solicitação > executar > pageLoad > parâmetros | Não | Contagem máxima 50.<br>Nome não em branco.<br>Tamanho do nome `<=` 128.<br>Tamanho do valor `<=` 5000.<br>Aceita somente valores da string.<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Recupere as ofertas com os parâmetros especificados quando a página for carregada. |
-| Solicitação > executar > pageLoad > profileParameters | Não | Contagem máxima 50.<br>Nome não em branco.<br>Tamanho do nome `<=` 128.<br>Tamanho do valor `<=`256.<br>O nome não deve começar com &quot;perfil&quot;.<br>Aceita somente valores da string. | Recupere as ofertas com os parâmetros do perfil especificados quando a página for carregada. |
+| Solicitação > executar > pageLoad > parâmetros | Não | Contagem máxima 50.<br>O nome não está em branco.<br>Tamanho do nome `<=` 128.<br>Comprimento do valor `<=` 5000.<br>Aceita somente valores da string.<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Recupere as ofertas com os parâmetros especificados quando a página for carregada. |
+| Solicitação > executar > pageLoad > profileParameters | Não | Contagem máxima 50.<br>O nome não está em branco.<br>Tamanho do nome `<=` 128.<br>Comprimento do valor `<=`256.<br>O nome não deve começar com &quot;perfil&quot;.<br>Aceita somente valores da string. | Recupere as ofertas com os parâmetros do perfil especificados quando a página for carregada. |
 | Solicitação > executar > pageLoad > produto | Não |  |  |
-| Solicitação > executar > pageLoad > produto -> id | Não | Não deixar em branco.<br>Tamanho máximo = 128. | Recupere as ofertas com as IDs do produto especificadas quando a página for carregada. |
-| Solicitação > executar > pageLoad > produto > categoryId | Não | Não deixar em branco.<br>Tamanho máximo = 128. | Recupere as ofertas com as IDs de categoria do produto especificadas quando a página for carregada. |
+| Solicitação > executar > pageLoad > produto -> id | Não | Não está em branco.<br>Tamanho máximo = 128. | Recupere as ofertas com as IDs do produto especificadas quando a página for carregada. |
+| Solicitação > executar > pageLoad > produto > categoryId | Não | Não está em branco.<br>Tamanho máximo = 128. | Recupere as ofertas com as IDs de categoria do produto especificadas quando a página for carregada. |
 | Solicitação > executar > pageLoad > ordem | Não |  |  |
 | Solicitação > executar > pageLoad > order > id | Não | Tamanho máximo = 250  | Recupere as ofertas com as IDs da ordem especificadas quando a página for carregada. |
 | Solicitação > executar > pageLoad > ordem > total | Não | `>=` 0  | Recupere as ofertas com os totais da ordem especificados quando a página for carregada. |
-| Solicitação > executar > pageLoad > ordem > purchasedProductIds | Não | Nenhum valor em branco.<br>Tamanho máximo de cada valor 50.<br>Concatenado e separado por vírgula.<br>Tamanho total das IDs do produto `<=` 250. | Recupere as ofertas com as IDs do produto adquirido especificadas quando a página for carregada. |
-| Solicitação > executar > mboxes | Não | Tamanho máximo = 50.<br>Sem elementos nulos. |  |
+| Solicitação > executar > pageLoad > ordem > purchasedProductIds | Não | Nenhum valor em branco.<br>Comprimento máximo de cada valor 50.<br>Concatenado e separado por vírgula.<br>Duração total das IDs de produto `<=` 250. | Recupere as ofertas com as IDs do produto adquirido especificadas quando a página for carregada. |
+| Solicitação > executar > mboxes | Não | Tamanho máximo = 50.<br>Nenhum elemento nulo. |  |
 | Solicitação > executar > mboxes > mbox | Sim | Não está em branco.<br>Nenhum sufixo &#39;-clicado&#39;.<br>Tamanho máximo = 250.<br>Caracteres permitidos: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nome da mbox. |
 | Solicitação > executar > mboxes > mbox > índice | Sim | Não nulo.<br>Exclusivo.<br>`>=` 0. | Observe que o índice não representa a ordem em que as mboxes serão processadas. Da mesma forma que em uma página da Web com diversas mboxes regionais, a ordem em que serão processadas não pode ser especificada. |
-| Solicitação > executar > mboxes > mbox > parâmetros | Não | Contagem máxima = 50.<br>Nome não em branco.<br>Tamanho do nome `<=` 128.<br>Aceita somente valores da string.<br>Comprimento do valor  `<=` 5000.<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Recupere as ofertas de determinada mbox com os parâmetros especificados. |
-| Solicitação > executar > mboxes > mbox > profileParameters | Não | Contagem máxima = 50.<br>Nome não em branco.<br>Tamanho do nome `<=` 128.<br>Aceita somente valores da string.<br>Comprimento do valor  `<=`256.<br>O nome não deve começar com &quot;perfil&quot;. | Recupere as ofertas de determinada mbox com os parâmetros do perfil especificados. |
+| Solicitação > executar > mboxes > mbox > parâmetros | Não | Contagem máxima = 50.<br>O nome não está em branco.<br>Tamanho do nome `<=` 128.<br>Aceita somente valores da string.<br>Comprimento do valor `<=` 5000.<br>O nome não deve começar com &quot;perfil&quot;.<br>Nomes não permitidos: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot;. | Recupere as ofertas de determinada mbox com os parâmetros especificados. |
+| Solicitação > executar > mboxes > mbox > profileParameters | Não | Contagem máxima = 50.<br>O nome não está em branco.<br>Tamanho do nome `<=` 128.<br>Aceita somente valores da string.<br>Comprimento do valor `<=`256.<br>O nome não deve começar com &quot;perfil&quot;. | Recupere as ofertas de determinada mbox com os parâmetros do perfil especificados. |
 | Solicitação > executar > mboxes > mbox > produto | Não |  |  |
-| Solicitação > executar > mboxes > mbox > produto > id | Não | Não deixar em branco.<br>Tamanho máximo = 128. | Recupere as ofertas de determinada mbox com as IDs do produto especificadas. |
-| Solicitação > executar > mboxes > mbox > produto > categoryId | Não | Não deixar em branco.<br>Tamanho máximo = 128. | Recupere as ofertas de determinada mbox com as IDs de categoria do produto especificadas. |
+| Solicitação > executar > mboxes > mbox > produto > id | Não | Não está em branco.<br>Tamanho máximo = 128. | Recupere as ofertas de determinada mbox com as IDs do produto especificadas. |
+| Solicitação > executar > mboxes > mbox > produto > categoryId | Não | Não está em branco.<br>Tamanho máximo = 128. | Recupere as ofertas de determinada mbox com as IDs de categoria do produto especificadas. |
 | Solicitação > executar > mboxes > mbox > ordem | Não |  |  |
 | Solicitação > executar > mboxes > mbox > ordem > id | Não | Tamanho máximo = 250  | Recupere as ofertas de determinada mbox com as IDs da ordem especificadas. |
 | Solicitação > executar > mboxes > mbox > ordem > total | Não | `>=` 0  | Recupere as ofertas de determinada mbox com os totais da ordem especificados. |
-| Solicitação > executar > mboxes > mbox > ordem > purchasedProductIds | Não | Nenhum valor em branco.<br>Tamanho máximo de cada valor = 50.<br>Concatenado e separado por vírgula.<br>Tamanho total das IDs do produto `<=` 250. | Recupere as ofertas de determinada mbox com as IDs do produto adquirido da ordem especificadas. |
+| Solicitação > executar > mboxes > mbox > ordem > purchasedProductIds | Não | Nenhum valor em branco.<br>Tamanho máximo de cada valor = 50.<br>Concatenado e separado por vírgula.<br>Duração total das IDs do produto `<=` 250. | Recupere as ofertas de determinada mbox com as IDs do produto adquirido da ordem especificadas. |
 
 ## Chame getOffers() para todas as exibições
 
@@ -86,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers() para tomar uma decisão no dispositivo
+## Chame getOffers() para tomar uma decisão no dispositivo
 
 ```javascript
 adobe.target.getOffers({ 
@@ -205,7 +205,7 @@ adobe.target.getOffers({
 }
 ```
 
-A carga pode ser encaminhada para o Adobe Analytics por meio da [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+A carga pode ser encaminhada para o Adobe Analytics por meio da variável [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Buscar e renderizar dados de várias mboxes via getOffers() e applyOffers() {#multiple}
 
