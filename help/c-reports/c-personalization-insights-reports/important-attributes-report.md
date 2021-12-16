@@ -1,59 +1,58 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, perguntas frequentes, perguntas frequentes, atributos importantes
-description: Saiba como usar o relatório de Atributos importantes no Adobe [!DNL Target] que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
+description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
 title: Qual é o relatório de atributos importantes?
-feature: Relatórios
+feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 92%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Relatório de atributos importantes
 
-Informações sobre o relatório de Atributos importantes, um dos dois relatórios especializados disponíveis aos usuários de atividades de Automated Personalization (AP) e Direcionamento automático (AT).
+Informações sobre o [!UICONTROL Atributos importantes] , um dos dois relatórios especializados disponíveis aos usuários do [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT).
 
 >[!NOTE]
 >
->Considere o seguinte ao usar os relatórios dos Insights de personalização:
+>Considere o seguinte ao usar [!UICONTROL Insights de personalização] relatórios:
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
-   >
-   >
-* [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
-   >
-   >
-* [!UICONTROL Os relatórios de ] Insights de personalização estão disponíveis somente se o  [!UICONTROL Objetivo ] principal estiver selecionado na lista suspensa  [!UICONTROL Métricas de ] relatório .
-   >
-   >
-* Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/administrating-target/hosts.md).
-   >
-   >
-* [!UICONTROL Os relatórios de ] Insights de personalização são gerados apenas para atividades que estão no   Livestatus e foram ativadas e recebem tráfego por pelo menos 15 dias.
+>
+>* [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
+>
+>* [!UICONTROL Insights de personalização] os relatórios só estarão disponíveis se a variável [!UICONTROL Meta principal] é selecionado no [!UICONTROL Métrica de relatório] lista suspensa.
+>
+>* Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/administrating-target/hosts.md).
+>
+>* [!UICONTROL Insights de personalização] são gerados somente para atividades que estão no [!UICONTROL Ao vivo] e foram ativadas e recebem tráfego por pelo menos 15 dias.
 
 
 Em atividades diferentes, atributos distintos são mais ou menos importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
 
-## Acessar o relatório de Atributos importantes {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## Acesse o [!UICONTROL Atributos importantes] relatório {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Clique em **[!UICONTROL Atividades]**, em seguida, clique na atividade [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
+1. Clique em **[!UICONTROL Atividades]**, em seguida, clique no [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/c-activities/auto-target/auto-target-to-optimize.md) da lista.
 
    Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Fonte de geração de relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica] e [!UICONTROL Fonte da atividade].
 
 1. Clique em **[!UICONTROL Relatórios]**.
 
-   O relatório [Resumo do Automated Personalization](/help/c-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/c-reports/auto-target-summary-report.md) é exibido, fornecendo informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. Observe que o Direcionamento automático tem um ícone de gráfico adicional para a exibição em gráfico do relatório de [!UICONTROL Resumo].
+   O [Resumo do Automated Personalization](/help/c-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/c-reports/auto-target-summary-report.md) , que fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois [!UICONTROL Insights de personalização] relatórios: [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
 
-   ![](assets/personalization_insights.png)
+   ![Relatório de resumo da atividade do Automated Personalization](assets/summary-report-ap.png)
+
+   Observe que [!UICONTROL Direcionamento automático] tem um ícone de gráfico adicional para a exibição gráfica do [!UICONTROL Resumo] relatório.
+
+   ![Relatório de resumo da atividade de Direcionamento automático](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >O relatório de [!UICONTROL Atributos importantes] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone de [!UICONTROL Atributos importantes]. Após 15 dias, supondo que haja tráfego personalizado suficiente em sua atividade, o relatório de [!UICONTROL Atributos importantes] estará disponível.
+   >O relatório de [!UICONTROL Atributos importantes] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone de [!UICONTROL Atributos importantes]. Após 15 dias, supondo que haja tráfego personalizado suficiente na atividade, a variável [!UICONTROL Atributos importantes] está disponível.
 
-1. Após 15 dias da ativação da atividade, você pode clicar no ícone de **[!UICONTROL Atributos importantes]**.
+1. Após 15 dias da ativação da atividade, clique no botão **[!UICONTROL Atributos importantes]** ícone .
 
    ![](assets/model_attribute_ranking.png)
 
