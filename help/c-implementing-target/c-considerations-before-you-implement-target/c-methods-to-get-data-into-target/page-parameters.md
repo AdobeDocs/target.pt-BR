@@ -1,14 +1,14 @@
 ---
 keywords: implementar; implementação; configuração; configurar; parâmetros da página
-description: Obtenha dados em [!DNL Target] usando parâmetros de página.
-title: Como obtenho dados em [!DNL Target] Usando parâmetros de página?
-feature: Implementação
+description: Obter dados em [!DNL Target] uso de parâmetros de página.
+title: Como obter dados sobre [!DNL Target] Usando parâmetros de página?
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '372'
+ht-degree: 45%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 46%
 
 Os parâmetros de página (também chamados &quot;parâmetros de mbox&quot;) são pares de nome/valor passados diretamente pelo código de página que não são armazenados no perfil do visitante para uso futuro.
 
-Os parâmetros de página são úteis para enviar dados de página para o Target, que não precisam ser armazenados com o perfil do visitante para uso futuro de definição de metas. Esses valores são usados para descrever a página ou a ação que o usuário fez na página específica.
+Os parâmetros de página são úteis para enviar dados de página para o Target, que não precisam ser armazenados com o perfil do visitante para uso futuro de direcionamento. Esses valores são usados para descrever a página ou a ação que o usuário fez na página específica.
 
 ## Formato
 
@@ -30,8 +30,8 @@ Os parâmetros da página são enviados ao Target por uma chamada de servidor co
 
 ## Exemplo de casos de uso
 
-* **Páginas** do produto: Enviar informações sobre o produto específico exibido (este método é o funcionamento do Recommendations)
-* **Detalhes** do pedido: Enviar a ID do pedido, orderTotal e assim por diante, para a coleção de pedidos
+* **Páginas do produto**: Enviar informações sobre o produto específico exibido (este método é o funcionamento do Recommendations)
+* **Detalhes do pedido**: Enviar a ID do pedido, orderTotal e assim por diante, para a coleção de pedidos
 * **Afinidade de categorias**: envia informações visualizadas por categoria para o Target, gerando conhecimento da afinidade do usuário a determinadas categorias do site
 * **Dados de terceiros**: envia informações de fontes de dados de terceiros, como provedores de definição de direcionamento meteorológico, dados de conta (por exemplo, DemandBase), dados demográficos (por exemplo, Experiência) e muito mais.
 
@@ -66,10 +66,6 @@ targetPageParamsAll (anexa os parâmetros a todas as chamadas de mbox na página
 targetPageParams (anexa os parâmetros ao mbox global na página):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parâmetros no código mboxCreate:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## Links para informações relevantes
 
