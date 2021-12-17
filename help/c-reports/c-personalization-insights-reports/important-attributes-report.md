@@ -4,10 +4,10 @@ description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que
 title: Qual é o relatório de atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1709'
+ht-degree: 82%
 
 ---
 
@@ -58,7 +58,13 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
 1. Selecione o intervalo de datas desejado.
 
-   Ao contrário do relatório de [!UICONTROL Resumo] (relatórios de desempenho), os [!UICONTROL Insights de personalização], incluindo os [!UICONTROL Atributos importantes], estão disponíveis apenas para intervalos de datas fixos: 15 dias, 30 dias, 45 dias, 60 dias e 90 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
+   Ao contrário do [!UICONTROL Resumo] relatório (relatório de desempenho), [!UICONTROL Insights de personalização], incluindo [!UICONTROL Atributos importantes], está disponível somente para intervalos de datas fixos: 15 dias, 30 dias e 60 dias.
+
+   >[!NOTE]
+   >
+   >O [!DNL Target] Atualmente, a interface do usuário permite escolher intervalos de datas de 45 dias e 90 dias. No entanto, a variável [!DNL Target] o backend não processa esses dois intervalos. Devido aos padrões de uso e em um esforço para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface do usuário será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias.
+
+   Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
    ![](assets/personalization_insights_calendar_1.png)
 

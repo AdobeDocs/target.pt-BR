@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 17 de dezembro | [Relatório de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Adição da seguinte observação sobre intervalos de datas ao exibir relatórios de Atributos importantes:<ul><li>O [!DNL Target] Atualmente, a interface do usuário permite escolher intervalos de datas de 45 dias e 90 dias. No entanto, a variável [!DNL Target] o backend não processa esses dois intervalos. Devido aos padrões de uso e em um esforço para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface do usuário será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias.</li></ul> |
 | 7 de dezembro | [A ciência por trás dos algoritmos de recomendações do Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Novo tópico. |
 | 2 de dezembro | [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Atualização do algoritmo baseado em carrinho para garantir que as chaves de recomendação sejam fornecidas por meio de cartIds com parâmetros de mbox, em valores separados por vírgula. Somente os primeiros dez valores são considerados. |
 | 18 de novembro | [Modificações](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Adição de uma observação na linha da Mbox, indicando que as mboxes não são mais compatíveis com o [!UICONTROL Visual Experience Composer] (VEC) em páginas que usam o at.js 2.*x*. |
@@ -152,7 +153,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Atualização da lista de endereços IP na lista de permissões. |
 | 12 de maio | [[!DNL Target] Notas de versão (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para o seguinte:<ul><li>SDK da Web da Adobe Experience Platform (17 de maio de 2021)</li><li>Target Standard/Premium 21.5.2</li></ul> |
 | 10 de maio | [[!DNL Recommendations] Perguntas frequentes](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Adição das seguintes perguntas frequentes: &quot;Posso usar um algoritmo criado no [!DNL Adobe Recommendations Classic] no [!DNL Recommendations Premium]?&quot; |
-|  | [Implementar o [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Indicado que o [!DNL Adobe Dynamic Tag Manager] não é mais compatível. Em vez disso, o [!DNL Adobe] recomenda implementar com o [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
+|  | [Implementar [!DNL Target] usar [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Indicado que o [!DNL Adobe Dynamic Tag Manager] não é mais compatível. Em vez disso, o [!DNL Adobe] recomenda implementar com o [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
 | 6 de maio | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Foram adicionadas as seguintes perguntas frequentes:<ul><li>Quanto tempo leva para que uma alteração na configuração de minha atividade, oferta, promoções ou configurações de critérios do [!UICONTROL Recommendations] seja refletida em meu site?</li><li>Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *que o usuário* recebe?</li><li>Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações que *outros* usuários recebem?</li></ul> |
 |  | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adição de um link para a seguinte publicação do blog no Adobe Tech Blog:<ul><li>Parte 1: Execute o SDK do Adobe Target NodeJS para experimentação e personalização em Plataformas de borda (Trabalhadores do Akamai Edge)</li></ul> |
 | 5 de maio | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Adição de informações sobre o intervalo da seção de perguntas e respostas da comunidade do Adobe Target, que será realizada quarta-feira, 12 de maio de 2021, às 8h (PDT, GMT-7). |
