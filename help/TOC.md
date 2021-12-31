@@ -4,9 +4,9 @@ breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -144,10 +144,10 @@ ht-degree: 99%
          + [Envio de parâmetros para uma mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
          + [Perguntas frequentes sobre a mbox global](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + Target para aplicativos móveis {#mobile-apps}
-      + [Visão geral para aplicativos móveis](c-target-mobile-app/target-mobile-app.md)
+      + [Visão geral do Target para aplicativos para dispositivos móveis](c-target-mobile-app/target-mobile-app.md)
       + [Como o Target funciona em aplicativos móveis](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
       + [Habilitar o Target no SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
-      + [iOS - Criar um local de definição e métrica de sucesso](c-target-mobile-app/mobile-create-location-and-metric.md)
+      + [iOS - Criar um local e uma métrica de sucesso para o Target](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - Enviar dados do usuário personalizados](c-target-mobile-app/mobile-custom-user-data.md)
       + [Visualização do Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Buscar previamente conteúdo da oferta](c-target-mobile-app/prefetch-offer-content.md)
