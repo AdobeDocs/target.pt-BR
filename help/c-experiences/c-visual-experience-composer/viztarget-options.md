@@ -1,13 +1,13 @@
 ---
-keywords: opções do visual experience composer, opções do experience composer, opções de experiência, editar texto, editar html, editar texto/html, editar cor do fundo, inserir cor do fundo, inserir elemento, editar link, link do visual experience composer, editar classe css, troca de oferta, troca de imagem, troca de imagem, remover item, ocultar item, ocultar item, reorganizar, mover elemento, mover elemento, redimensionar elemento, redimensionar elemento;elemento;expandir seleção;navegar até este link;navegar pelo link;navegar pelo link;navegar;link;desfazer;refazer;desfazer/refazer;eventos personalizados;componentes da Web
-description: Explore as opções disponíveis no Adobe Target Visual Experience Composer (VEC). Basta clicar em um elemento para ver quais opções estão disponíveis para esse elemento.
-title: Como uso as opções do Visual Experience Composer (VEC)?
+keywords: opções do visual experience composer, opções do experience composer, opções de experiência, editar texto, editar html, editar texto/html, editar cor do fundo, inserir cor do fundo, inserir elemento, editar link, link do visual experience composer, editar classe css, troca de oferta, troca de imagem, troca de imagem, remover item, ocultar item, ocultar item, reorganizar, mover elemento, mover elemento, redimensionar elemento, redimensionar elemento;elemento;expandir seleção;navegar para este link;navegar pelo link;navegar pelo link;navegar;link;desfazer;refazer;desfazer/refazer;eventos personalizados;componentes da Web;decisão da oferta;offer decisioning
+description: Explore as opções disponíveis na [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
+title: Como usar o [!UICONTROL Visual Experience Composer] Opções do (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: fb9c9e4d2a3d0cf330724dfd02e329fedc388f01
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 72%
+source-wordcount: '2810'
+ht-degree: 65%
 
 ---
 
@@ -15,21 +15,19 @@ ht-degree: 72%
 
 Ao clicar em um elemento de página na [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), um menu mostra as opções disponíveis para esse tipo de elemento. Além disso, um caminho DOM é exibido na parte inferior da página, possibilitando uma navegação fácil pela estrutura da página.
 
-## Opções de VEC
-
-As várias ações do Visual Experience Composer (VEC) são agrupadas nas opções de menu apropriadas para tornar sua tarefa mais rápida e eficiente:
+Os vários [!UICONTROL Visual Experience Composer] As ações do (VEC) são agrupadas nas opções de menu apropriadas para tornar sua tarefa mais rápida e eficiente:
 
 ![Menu de opções de VEC](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->As opções disponíveis dependem do tipo de atividade que você está editando.
+>As opções disponíveis dependem do tipo de atividade que você está criando ou editando.
 
-### [!UICONTROL Editar]
+## [!UICONTROL Editar]
 
 As opções disponíveis são as seguintes:
 
-#### [!UICONTROL Texto/HTML] {#edit-text-html}
+### [!UICONTROL Texto/HTML] {#edit-text-html}
 
 Altere o código HTML do elemento, como o texto para uma área de texto, botão ou link.
 
@@ -46,13 +44,13 @@ As seguintes tags de HTML 5 podem ser aninhadas:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### [!UICONTROL Cor do plano de fundo]
+### [!UICONTROL Cor do plano de fundo]
 
 Use o seletor de cores para selecionar ou configurar uma cor do fundo. Você pode selecionar uma amostra de cor e ajustá-la com valores de RGB ou códigos de cor hexadecimal. O x vermelho no seletor de cores torna o fundo transparente.
 
 **Observação:** essa opção não está disponível para um elemento no qual uma imagem do fundo está definida.
 
-#### [!UICONTROL Estilos ] {#styles}
+### [!UICONTROL Estilos ] {#styles}
 
 Use o painel [!UICONTROL Estilos] para exibir ou editar o valor dos estilos existentes para o elemento selecionado. Também é possível adicionar novos estilos.
 
@@ -64,7 +62,7 @@ O painel [!UICONTROL Estilos] é exibido no lado direito do VEC. O painel conté
 
 À medida que você aplica estilos diferentes, sempre é possível reverter as alterações clicando no botão [!UICONTROL Reverter] ícone que é exibido no canto superior direito do [!UICONTROL Estilos] depois de alterar qualquer seção. Clicar no [!UICONTROL Reverter] reverte todas as alterações no painel da seção atual.
 
-Expanda cada seção para editar ou adicionar estilos, conforme explicado abaixo. Para salvar as alterações, clique no ícone Voltar na parte superior do painel para retornar à tela principal do painel e clique em **[!UICONTROL Salvar]**.
+Expanda cada seção para editar ou adicionar estilos, conforme explicado abaixo. Para salvar as alterações, clique no botão [!UICONTROL Voltar] ícone na parte superior do painel para retornar ao painel principal, em seguida, clique em **[!UICONTROL Salvar]**.
 
 Os pontos azuis no painel principal e ao lado de cada opção nos vários painéis da seção indicam que você alterou os estilos correspondentes. Esse indicador visual facilita a análise das alterações antes de clicar em [!UICONTROL Salvar].
 
@@ -202,23 +200,31 @@ Os pontos azuis no painel principal e ao lado de cada opção nos vários painé
    >
    >Você pode aplicar uma imagem de fundo usando o Editor de CSS, mas isso pode causar cintilação. Teste as alterações antes da implantação.
 
-#### [!UICONTROL Classe CSS]
+### [!UICONTROL Classe CSS]
 
 Especifique a classe CSS usada para o elemento. Se mais de um elemento for selecionado, separe várias classes CSS com um espaço.
 
 Disponível para atividades de [!UICONTROL A/B], [!UICONTROL personalização automatizada] e [!UICONTROL teste multivariado].
 
-#### [!UICONTROL Link]
+### [!UICONTROL Link]
 
 Alterar o URL no link.
 
 Use Editar link para atualizar o seletor para apontar para o mesmo elemento de imagem. No entanto, a vinculação com um elemento de imagem diferente não é compatível. Para vincular a um elemento de imagem diferente, exclua a ação original do editor de códigos e use o [!UICONTROL Visual Experience Composer] para aplicar a ação ao outro elemento de imagem.
 
-### [!UICONTROL Inserir antes]
+## [!UICONTROL Inserir antes]
 
 As opções disponíveis são as seguintes:
 
-#### [!UICONTROL Imagem], [!UICONTROL HTML]e [!UICONTROL Texto]
+### [!UICONTROL Decisão da oferta]
+
+Adicione um [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para apresentar a melhor oferta e experiência aos clientes usando o offer decisioning.
+
+**Observação:** Essa opção está disponível ao editar ou criar [manual [!UICONTROL Teste A/B]](/help/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Direcionamento de experiência]](/help/c-activities/t-experience-target/experience-target.md) (XT) somente. Essa opção não está disponível para outros tipos de atividades.
+
+Para obter mais informações, consulte [Usar decisões de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Imagem], [!UICONTROL HTML]e [!UICONTROL Texto]
 
 Inclua qualquer tipo de elemento em sua página, além de modificar o conteúdo existente. Inclua texto, código, listas, entre outros, para criar experiências completamente diferentes para testar.
 
@@ -230,19 +236,27 @@ O comportamento do elemento inserido depende da estrutura da página, do CSS e d
 
 **Observação:** para Inserir uma imagem, o [!DNL Adobe Scene7 Publishing System] deve estar habilitado para que você tenha acesso à biblioteca de imagens.
 
-#### Recomendação
+### Recomendação
 
 Inclua recomendações nas atividades de teste A/B (incluindo as atividades Autoalocação e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Fragmento de experiência]
+### [!UICONTROL Fragmento de experiência]
 
 Insira fragmentos de experiência criados em [!DNL Adobe Experience Manager] (AEM) nas atividades [!DNL Target] para auxiliar na otimização ou na personalização. Para obter mais informações, consulte [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Inserir depois de]
+## [!UICONTROL Inserir depois de]
 
 As opções disponíveis são as seguintes:
 
-#### [!UICONTROL Imagem], [!UICONTROL HTML]e [!UICONTROL Texto]
+### [!UICONTROL Decisão da oferta]
+
+Adicione um [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para apresentar a melhor oferta e experiência aos clientes usando o offer decisioning.
+
+**Observação:** Essa opção está disponível ao editar ou criar [manual [!UICONTROL Teste A/B]](/help/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Direcionamento de experiência]](/help/c-activities/t-experience-target/experience-target.md) (XT) somente. Essa opção não está disponível para outros tipos de atividades.
+
+Para obter mais informações, consulte [Usar decisões de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Imagem], [!UICONTROL HTML]e [!UICONTROL Texto]
 
 Inclua qualquer tipo de elemento em sua página, além de modificar o conteúdo existente. Inclua texto, código, listas, entre outros, para criar experiências completamente diferentes para testar.
 
@@ -254,19 +268,27 @@ O comportamento do elemento inserido depende da estrutura da página, do CSS e d
 
 **Observação:** para Inserir uma imagem, o [!DNL Adobe Scene7 Publishing System] deve estar habilitado para que você tenha acesso à biblioteca de imagens.
 
-#### Recomendação
+### Recomendação
 
 Inclua recomendações nas atividades de teste A/B (incluindo as atividades Autoalocação e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Fragmento de experiência]
+### [!UICONTROL Fragmento de experiência]
 
 Insira fragmentos de experiência criados em [!DNL Adobe Experience Manager] (AEM) nas atividades [!DNL Target] para auxiliar na otimização ou na personalização. Para obter mais informações, consulte [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Substituir com]
+## [!UICONTROL Substituir conteúdo]
 
 As opções disponíveis são as seguintes:
 
-#### [!UICONTROL Imagem]
+### [!UICONTROL Decisão da oferta]
+
+Adicione um [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para apresentar a melhor oferta e experiência aos clientes usando o offer decisioning.
+
+**Observação:** Essa opção está disponível ao editar ou criar [manual [!UICONTROL Teste A/B]](/help/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Direcionamento de experiência]](/help/c-activities/t-experience-target/experience-target.md) (XT) somente. Essa opção não está disponível para outros tipos de atividades.
+
+Para obter mais informações, consulte [Usar decisões de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Imagem]
 
 Selecione uma imagem diferente da Biblioteca de conteúdo. As imagens disponíveis para troca incluem aquelas carregadas na pasta de ativos da Experience Cloud ou na Biblioteca de conteúdo do Target.
 
@@ -284,7 +306,7 @@ O Recommendations suporta a opção &quot;Substituir por&quot; nas tags DIV, SEC
 
 **Observação:** a troca de imagens exige uma conta do sistema de publicação do Adobe Scene7.
 
-#### [!UICONTROL Oferta HTML]
+### [!UICONTROL Oferta HTML]
 
 Selecione uma oferta diferente da [!UICONTROL Biblioteca de conteúdo].
 
@@ -292,55 +314,55 @@ Selecione uma oferta diferente da [!UICONTROL Biblioteca de conteúdo].
 
 Uma oferta de HTML pode ter até 256 KB.
 
-#### Recomendação
+### Recomendação
 
 Inclua recomendações nas atividades de teste A/B (incluindo as atividades Autoalocação e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Fragmento de experiência]
+### [!UICONTROL Fragmento de experiência]
 
 Insira fragmentos de experiência criados em [!DNL Adobe Experience Manager] (AEM) nas atividades [!DNL Target] para auxiliar na otimização ou na personalização. Para obter mais informações, consulte [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Layout]
+## [!UICONTROL Layout]
 
 As opções disponíveis são as seguintes:
 
-#### [!UICONTROL Reorganizar]
+### [!UICONTROL Reorganizar]
 
 Arraste o elemento para outro local no mesmo elemento pai ou DIV. Outros elementos trocam de local para abrir espaço para o elemento reorganizado.
 
 **Observação:** clicar no rastreamento de cliques não funciona em itens reorganizados.
 
-#### [!UICONTROL Redimensionar]
+### [!UICONTROL Redimensionar]
 
 Redimensionar um elemento na página. Ao selecionar [!UICONTROL Redimensionar], uma alça é exibida no canto inferior direito do elemento, permitindo arrastar esse canto para redimensionar. Segure a tecla Shift para manter a mesma proporção.
 
 **Observação:** elementos em linha não podem ser redimensionados.
 
-#### [!UICONTROL Mover] {#move}
+### [!UICONTROL Mover] {#move}
 
 Mover elementos na página. Diferentemente da opção [!UICONTROL Reorganizar], [!UICONTROL Mover] não altera a posição de outros elementos para abrir espaço para o elemento que está sendo movido. Use as teclas de seta para ajustar o movimento. (Aprimoramento planejado: suporte para garantir que os elementos movidos não estejam ocultos atrás de outros elementos.)
 
 Em determinadas situações, como quando uma restrição CSS requer que um elemento permaneça dentro do elemento pai, você não pode mover o elemento para fora dele. Um elemento não pode ser movido para fora de um container que tenha a seguinte propriedade CSS: `overflow: hidden`.
 
-#### [!UICONTROL Ocultar]
+### [!UICONTROL Ocultar]
 
 Ocultar o elemento. O espaço em branco permanece, mas o conteúdo é removido.
 
-#### [!UICONTROL Remover]
+### [!UICONTROL Remover]
 
 Remova o elemento. O espaço em branco atrás da imagem é removido e o espaço onde o elemento estava é recolhido.
 
 **Observação:** os itens de uma mbox &quot;clássica&quot; (uma mbox criada em uma campanha do Target Classic) não podem ser removidos usando esta opção.
 
-### [!UICONTROL Expandir seção]
+## [!UICONTROL Expandir seção]
 
 Selecione o elemento pai, além do elemento selecionado originalmente. Ao selecionar qualquer elemento pai, todos os filhos desse elemento serão selecionados automaticamente. Você pode expandir a seleção várias vezes.
 
-### [!UICONTROL Navegar para o link]
+## [!UICONTROL Navegar para o link]
 
 Abra o destino do link.
 
-### [!UICONTROL Desfazer]/[!UICONTROL Refazer]
+## [!UICONTROL Desfazer]/[!UICONTROL Refazer]
 
 Desfaça as alterações feitas em suas atividades durante uma sessão de alteração. Você também pode refazer alterações que foram desfeitas anteriormente.
 
@@ -350,7 +372,7 @@ Desfaça as alterações feitas em suas atividades durante uma sessão de altera
 
 ## Suporte a elemento personalizado {#custom}
 
-O VEC é compatível [Componentes da Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) para permitir criar e testar experiências e ofertas personalizadas em elementos personalizados e em elementos dentro de elementos personalizados. Essa funcionalidade está disponível no VEC para todos [!DNL Target] tipos de atividades.
+O VEC é compatível [Componentes da Web](https://developer.mozilla.org/pt-BR/docs/Web/Web_Components) para permitir criar e testar experiências e ofertas personalizadas em elementos personalizados e em elementos dentro de elementos personalizados. Essa funcionalidade está disponível no VEC para todos [!DNL Target] tipos de atividades.
 
 >[!NOTE]
 >

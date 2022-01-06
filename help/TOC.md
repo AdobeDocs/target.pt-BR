@@ -3,10 +3,10 @@ user-guide-title: 'Manual do Adobe [!DNL Target] '
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
-workflow-type: ht
-source-wordcount: '1541'
-ht-degree: 100%
+source-git-commit: 89adab57c2f84d6d92056c9c445ca3102f181f38
+workflow-type: tm+mt
+source-wordcount: '1550'
+ht-degree: 99%
 
 ---
 
@@ -188,7 +188,9 @@ ht-degree: 100%
          + [Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integração herdada do SiteCatalyst com o Test&amp;Target - Perguntas frequentes do A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + [Públicos-alvo da Experience Cloud](c-integrating-target-with-mac/mmp.md)
+   + Integração do Target ao Adobe Journey Optimizer {#ajo}
+      + [Usar decisões de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md)
+   + [Públicos-alvo da Experience Cloud](/help/c-integrating-target-with-mac/mmp.md)
    + [Integração do Target ao Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integração do Target ao Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Atividades {#activities}
