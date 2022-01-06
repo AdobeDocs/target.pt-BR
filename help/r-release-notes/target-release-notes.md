@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 86%
@@ -31,7 +31,7 @@ Esta versão contém o seguinte novo recurso:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Usar as decisões de Oferta nas atividades do Target | Agora você pode usar [!DNL Adobe Journey Optimizer] decisões de oferta em [!DNL Adobe Target] Atividades de Teste A/B e Direcionamento de experiência (XT) para determinar e fornecer a melhor oferta para seus visitantes na Web e em dispositivos móveis.<br>Para obter mais informações, consulte Usar decisões de oferta.<br>**Observação**: Esse recurso está disponível para [!DNL Target] clientes que também têm acesso ao Offer Decisioning e [!DNL Target] implementação com base no SDK da Web da Adobe Experience Platform. |
+| Use as decisões da oferta em [!DNL Target] atividades | Agora você pode usar [!DNL Adobe Journey Optimizer] decisões de oferta em [!DNL Target] [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) para determinar e fornecer a próxima melhor oferta para seus visitantes na Web e em dispositivos móveis.<br>Para obter mais informações, consulte [Usar decisões de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Observação**: Esse recurso está disponível para [!DNL Target] clientes que também têm acesso ao Offer Decisioning e [!DNL Target] implementação com base no SDK da Web da Adobe Experience Platform. |
 
 ## at.js versão 2.7.0 (28 de outubro de 2021)
 

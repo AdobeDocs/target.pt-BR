@@ -4,9 +4,9 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3163'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Janeiro de 6 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 2.1.1. |
 | 17 de dezembro | [Relatório de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Adição da seguinte observação sobre intervalos de datas ao exibir relatórios de Atributos importantes:<ul><li>O [!DNL Target] Atualmente, a interface do usuário permite escolher intervalos de datas de 45 dias e 90 dias. No entanto, a variável [!DNL Target] o backend não processa esses dois intervalos. Devido aos padrões de uso e em um esforço para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface do usuário será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias.</li></ul> |
 | 7 de dezembro | [A ciência por trás dos algoritmos de recomendações do Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Novo tópico. |
 | 2 de dezembro | [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Atualização do algoritmo baseado em carrinho para garantir que as chaves de recomendação sejam fornecidas por meio de cartIds com parâmetros de mbox, em valores separados por vírgula. Somente os primeiros dez valores são considerados. |
