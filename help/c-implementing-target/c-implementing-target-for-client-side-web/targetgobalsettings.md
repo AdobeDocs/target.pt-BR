@@ -1,14 +1,14 @@
 ---
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
-description: Use a função targetGlobalSettings() para a interface de usuário do Adobe  [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target]  ou para APIs REST.
+description: Use a função targetGlobalSettings() para o Adobe [!DNL Target] biblioteca JavaScript da at.js para substituir configurações em vez de usar a variável [!DNL Target] Interface do usuário ou APIs REST.
 title: Como uso a função targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
-workflow-type: ht
-source-wordcount: '2332'
-ht-degree: 100%
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+workflow-type: tm+mt
+source-wordcount: '2364'
+ht-degree: 98%
 
 ---
 
@@ -210,6 +210,12 @@ Você pode substituir as configurações na biblioteca at.js usando `targetGloba
 * **Tipo**: consulte [Personalização híbrida](#server-state) abaixo.
 * **Valor padrão**: consulte [Personalização híbrida](#server-state) abaixo.
 * **Descrição**: consulte [Personalização híbrida](#server-state) abaixo.
+
+### telemetryEnabled {#telemetry}
+
+* **Tipo**: Booleano
+* **Valor padrão**: verdadeiro
+* **Descrição**: Quando ativado, [!DNL Adobe] coleta dados de telemetria de desempenho e uso de recursos do SDK. Os dados pessoais não são coletados.
 
 ### timeout
 

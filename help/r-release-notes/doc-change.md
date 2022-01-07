@@ -4,10 +4,10 @@ description: 'Mantenha-se atualizado com importantes adições e alterações à
 title: Onde posso ver as atualizações de documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 97%
+source-wordcount: '3223'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,11 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 7 de janeiro | [Notas de versão](/help/r-release-notes/release-notes.md) | Adição de informações sobre a at.js versão 2.8.0. |
+|  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a at.js versão 2.8.0. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Adição de informações sobre a configuração `telemetry`. |
+|  | [Privacidade](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Adição da seguinte seção: &quot;Coleta de dados de uso de recursos.&quot; |
+|  | [Dados usados por [!DNL Target] algoritmos de aprendizado automatizado](/help/c-activities/t-automated-personalization/ap-data.md) | Atualização de todo o tópico, incluindo:<ul><li>Nova seção: &quot;Bloquear recursos de [!DNL Target] algoritmos de aprendizado automatizado&quot;</li><li>Foram adicionadas colunas e informações de &quot;Nome do sistema&quot; a várias tabelas.</li></ul> |
 | Janeiro de 6 | [Notas de versão do Target (pré-lançamento)](/help/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 2.1.1. |
 | 17 de dezembro | [Relatório de atributos importantes](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Adição da seguinte observação sobre intervalos de datas ao exibir relatórios de Atributos importantes:<ul><li>O [!DNL Target] Atualmente, a interface do usuário permite escolher intervalos de datas de 45 dias e 90 dias. No entanto, a variável [!DNL Target] o backend não processa esses dois intervalos. Devido aos padrões de uso e em um esforço para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface do usuário será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias.</li></ul> |
 | 7 de dezembro | [A ciência por trás dos algoritmos de recomendações do Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Novo tópico. |
