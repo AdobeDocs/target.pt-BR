@@ -4,9 +4,9 @@ title: Onde posso encontrar a documentação do [!DNL Target] ?
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 99%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 O [!DNL Adobe Target] é a solução da [!DNL Adobe Experience Cloud] que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 
-**Última atualização: 7 de janeiro de 2022 ( [Ver o que foi alterado](r-release-notes/doc-change.md) )**
+**Última atualização: 11 de janeiro de 2022 ( [Ver o que foi alterado](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
->O Adobe Target foi indicado recentemente como líder nos seguintes relatórios:
+>[!DNL Adobe Target]O foi indicado recentemente como líder nos seguintes relatórios:
 >
 >**[Relatório Forrester Wave sobre plataformas de otimização de experiência.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** O Adobe Target foi indicado como líder no relatório Forrester Wave: plataformas de otimização de experiência, quarto trimestre de 2020.
 >

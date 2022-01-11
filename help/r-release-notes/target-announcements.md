@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] ,
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 94%
 
 ---
 
@@ -15,20 +15,19 @@ ht-degree: 100%
 
 Anúncios e informações sobre eventos futuros, incluindo sessões do criador de habilidades, chats de desenvolvedor e webinários do [!DNL Adobe Target], além de sessões de Coffee break do [!DNL Target].
 
-## Sessão de perguntas e respostas da comunidade do [!DNL Adobe Target] (8 de dezembro de 2021)
+## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (19 de janeiro de 2022)
 
-* **quarta-feira, 8 de dezembro de 2021**
+* **quarta-feira, 19 de janeiro de 2022**
 * **8:00 (PST, UTC -8)**
-* **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697?profile.language=pt)**
+* **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Robert Calangiu, gerente de produto sênior do [!DNL Adobe Target], responderá às perguntas relacionadas a suas áreas de especialização:
+Jon Tehero, Group Product Manager for [!DNL Adobe Target], responderá às suas perguntas sobre as suas áreas de competência:
 
-* Interface de configuração e administração do [!DNL Target]
-* Integração do [!UICONTROL Analytics for Target] (A4T)
-* Integração do [!DNL Adobe Audience Manager] (AEM)
-* Interface geral do [!DNL Target]
+* [!DNL Adobe Target] integração com [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target] Interface do usuário
+* Tópicos gerais do [!DNL Adobe Target]
 
-## Webinar: personalize e teste em latência zero com decisões no dispositivo do Adobe Target
+## Webinar: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 
 Mais do que nunca, os profissionais de marketing, os proprietários de produtos e os desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e quaisquer outros lugares em que possam se conectar com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não servem.
 
