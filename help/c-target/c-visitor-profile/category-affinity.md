@@ -1,19 +1,19 @@
 ---
 keywords: afinidade, afinidade de categorias
-description: Saiba mais sobre a afinidade de categorias no Adobe [!DNL Target] que captura automaticamente categorias visitadas por um usuário e calcula a afinidade do usuário para que possa ser direcionado e segmentado.
+description: Saiba mais sobre a afinidade de categorias no [!DNL Adobe Target] que captura automaticamente categorias visitadas por um usuário e calcula a afinidade do usuário para que possa ser direcionado e segmentado.
 title: O que é a afinidade de categorias?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '801'
 ht-degree: 68%
 
 ---
 
 # Afinidade de categorias
 
-O recurso de afinidade de categorias em [!DNL Adobe Target] captura automaticamente as categorias visitadas por um usuário e calcula a afinidade do usuário com a categoria para que possa ser direcionada e segmentada. A afinidade de categorias ajuda a garantir que o conteúdo seja direcionado para visitantes com maior probabilidade de agir com base nessas informações.
+O recurso de afinidade de categorias em [!DNL Adobe Target] captura automaticamente as categorias em seu site que um usuário visita e calcula a afinidade do usuário para cada categoria para que possa ser direcionada e segmentada. A afinidade de categorias ajuda a garantir que o conteúdo seja direcionado para visitantes com maior probabilidade de agir com base nessas informações.
 
 ## Transmitindo informações de afinidade de categoria ao [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
