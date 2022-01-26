@@ -4,10 +4,10 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32584'
-ht-degree: 100%
+source-wordcount: '32655'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,14 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >[!NOTE]
 >
 >Consulte [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
+
+## Notas de versão - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2 (12 de janeiro de 2022)
+
+| Recurso | Detalhes |
+| --- | --- |
+| Usar as decisões da oferta em [!DNL Target] atividades | Agora você pode usar [!DNL Adobe Journey Optimizer] decisões de oferta em [!DNL Adobe Target] Atividades de Teste A/B e Direcionamento de experiência (XT) para determinar e fornecer a melhor oferta para seus visitantes na Web e em dispositivos móveis.<br>**Observação**: Esse recurso está disponível para [!DNL Target] clientes que também têm acesso a [!DNL Offer Decisioning] e está tendo um [!DNL Target] implementação com base no SDK da Web da Adobe Experience Platform.<br>Para obter mais informações, consulte [Usar decisões de oferta](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
 
 ## Notas de versão - 2021
 
@@ -37,7 +45,7 @@ Esta versão de manutenção contém o seguinte aprimoramento:
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] (VEC) | Suporte adicionado para [Componentes da web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Experiências e ofertas personalizadas podem ser criadas e testadas em elementos personalizados e em elementos dentro de elementos personalizados.<br>Para obter mais informações, consulte [opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-## [!DNL Target Standard/Premium] 21.10.4 (21 de outubro de 2021)
+### [!DNL Target Standard/Premium] 21.10.4 (21 de outubro de 2021)
 
 Esta versão de manutenção contém o seguinte aprimoramento:
 

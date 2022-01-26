@@ -4,10 +4,10 @@ description: Saiba como combinar vários públicos-alvo (incluindo públicos-alv
 title: Posso combinar vários públicos para criar um novo público?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 69%
+source-wordcount: '937'
+ht-degree: 68%
 
 ---
 
@@ -18,6 +18,8 @@ Combinar vários públicos (incluindo [!DNL Adobe Experience Cloud], [!DNL Adobe
 >[!NOTE]
 >
 >O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou combinada com públicos-alvo existentes, conforme explicado neste tópico).
+>
+>Para obter mais informações, consulte [Usar públicos-alvo do Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep).
 
 Suponha que você tenha um público-alvo de &quot;Novos visitantes&quot; e um público-alvo de &quot;Usuários do Chrome&quot;. Para uma atividade específica, convém combinar esses públicos-alvo existentes para segmentar novos visitantes usando os navegadores Chrome. Em vez de criar um terceiro público-alvo e armazená-lo na biblioteca de [!UICONTROL Públicos-alvo], você pode combinar esses dois públicos-alvo durante a criação da atividade ou ao editar uma atividade existente.
 

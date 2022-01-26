@@ -2,13 +2,13 @@
 keywords: Notas de versão;novos recursos;versões;atualizações;atualização;versão;aprimoramento;aprimoramentos;correções;correções de bugs;atualizações
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na versão atual do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e correções incluídos na versão atual do [!DNL Adobe Target].
-title: Quais são os novos recursos incluídos na versão atual?
+title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: ht
-source-wordcount: '1140'
-ht-degree: 100%
+source-git-commit: 8d252255499dd8ece5e1de1220a97723659a4bf8
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 75%
 
 ---
 
@@ -16,86 +16,23 @@ ht-degree: 100%
 
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão para APIs do Target, SDKs, [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
->[!IMPORTANT]
->
->**Fim da vida útil da mbox.js**: a partir de 31 de março de 2021, o [!DNL Adobe Target] não oferecerá mais suporte à biblioteca de mbox.js. Após 31 de março de 2021, todas as chamadas feitas da mbox.js vão resultar em falha e afetar suas páginas com atividades do [!DNL Target] em execução ao veicular conteúdo padrão.
->
->Migre para a versão mais recente do novo [!DNL Adobe Experience Platform Web SDK] ou para a biblioteca at.js JavaScript para evitar possíveis problemas com seus sites. Para obter mais informações, consulte [Visão geral: implementar o Target para Web do lado do cliente](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 22.1.2 (26 de janeiro de 2022)
+
+| Recurso | Detalhes |
+| --- | --- |
+| [!DNL Adobe Experience Platform] públicos-alvo em [!DNL Target] | Agora você pode consumir e usar [!DNL Adobe Experience Platform] públicos-alvo em [!DNL Target]. O [!DNL Target] equipe, [!DNL Experience Platform] [!DNL Destinations] e a [!DNL Unified Profile Service] A equipe tem o prazer de anunciar a disponibilidade geral dos casos de uso de &quot;Mesma página/Próxima personalização de página&quot;.<br>Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] forneça dados mais avançados do cliente, o que resulta em personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), criado em [!DNL Adobe Experience Platform] O ajuda as empresas a unirem dados conhecidos e anônimos de várias fontes corporativas para criar perfis de clientes que possam ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.<br>Para obter mais informações, consulte [Usar públicos-alvo do Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) em *Criar públicos-alvo*. |
+| Atualização da interface do usuário de [!UICONTROL públicos-alvo] | Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em melhorar a experiência para usuários do [!DNL Target], esta versão atualiza as páginas [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] na interface do [!DNL Target]. Essa atualização unifica e uniformiza os padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos-alvo simultaneamente</li><li>Um [design do criador de público-alvo](/help/c-target/c-audiences/create-audience.md) atualizado</li><li>Suporte à regras de exclusão no criador de regras da Biblioteca de [!UICONTROL público-alvo]</li><li>Um novo filtro de “Origem de público-alvo”, para permitir a descoberta mais rápida do público-alvo</li><li>Opções de filtro e pesquisa persistentes na sessão</li><li>A capacidade de mover públicos-alvo entre espaços de trabalho para [!DNL Target Premium] clientes.</li></ul>Para obter mais informações, consulte [Públicos](/help/c-target/target.md).<br>**OBSERVAÇÃO**: Esse recurso será lançado para clientes em diferentes regiões nas próximas seis semanas. |
+| Atualização da interface dos [!UICONTROL Scripts de Perfil] | A biblioteca de [!UICONTROL Scripts de Perfil] também foi atualizada e inclui uma interface renovada, além de várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos no teclado</li></ul>Para obter mais informações, consulte [Perfis do visitante](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**OBSERVAÇÃO**: Esse recurso será lançado para clientes em diferentes regiões nas próximas seis semanas. |
+
+## [!DNL Target Standard/Premium] 22.1.1 (12 de janeiro de 2022)
+
+Esta versão inclui correções de erros e recursos pré-requisitos para integrações futuras.
 
 ## Versão 2.8.0 da at.js (7 de janeiro de 2022)
 
 A biblioteca JavaScript at.js do [!DNL Target] agora coleta dados de uso de recursos e de telemetria de desempenho. Os dados pessoais não são coletados. A opção de recusa para este recurso está disponível ao configurar `telemetryEnabled` para falso em `targetGlobalSettings`. Para mais informações, consulte [telemetryEnabled em targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
-
-## [!DNL Target Standard/Premium] 21.10.5 (28 de outubro de 2021)
-
-Esta versão de manutenção contém o seguinte aprimoramento:
-
-| Recurso | Detalhes |
-| --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Suporte adicionado para [Componentes da web](https://developer.mozilla.org/pt-BR/docs/Web/Web_Components). Experiências e ofertas personalizadas podem ser criadas e testadas em elementos personalizados e em elementos dentro de elementos personalizados.<br>Para obter mais informações, consulte [opções do Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4 (21 de outubro de 2021)
-
-Esta versão de manutenção contém o seguinte aprimoramento:
-
-| Recurso | Detalhes |
-| --- | --- |
-| Recomendações baseadas em carrinho | Uma nova família de algoritmos foi adicionada para fornecer recomendações com base no conteúdo do carrinho do visitante.<br>Para obter mais informações, consulte “Baseado em carrinho” em [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md), “Páginas de inclusão do carrinho/exibição do carrinho/finalização” e “Excluir itens já presentes no carrinho do visitante” em [Planejar e implementar o Recommendations](/help/c-recommendations/plan-implement.md), e “Baseado em carrinho” em [Basear a recomendação em uma chave de recomendação](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-
-## [!DNL Target Standard/Premium] 21.10.3 (19 de outubro de 2021)
-
-Esta versão do inclui os seguintes aprimoramentos, correções e alterações:
-
-* Correção de problemas que impediam os clientes de abrirem o painel do [!UICONTROL A4T] no [!DNL Analysis Workspace], ao clicar no botão [!UICONTROL Exibir no Analytics] no relatório de atividades do [!DNL Target]. (TGT-42099, TGT-42100)
-* Correção de um problema que impedia a exibição do botão [!UICONTROL Editar design] durante a edição de atividades de [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT), usando o [!UICONTROL Experience Composer baseado em formulário]. (TGT-41980)
-* Correção de um problema que impedia a exibição da caixa de seleção [!UICONTROL Compatível] na seleção de critérios ao criar uma nova atividade do [!UICONTROL Recommendations]. (TGT-42053)
-* Correção de uma mensagem de erro incorreta que era exibida quando não era possível selecionar o [!DNL Analytics] como fonte de relatórios (A4T), devido à falta de permissões do [!DNL Analytics]. (TGT-41954)
-* Foram implementadas várias correções de acessibilidade para melhorar a navegação pelo teclado na interface do [!DNL Target].
-
-## [!DNL Target Standard/Premium] 21.10.2 (13 de outubro de 2021)
-
-As seguintes melhorias foram adicionadas ao usar o [!DNL Target] [!UICONTROL Audiences] com o [!DNL Adobe Experience Platform Web SDK]:
-
-* Foram adicionados ícones, janelas flutuantes e mensagens de aviso em vários locais na interface do [!DNL Target] para indicar que o público-alvo foi excluído na origem e não está mais disponível para uso em atividades do [!DNL Target].
-
-   As ilustrações a seguir mostram alguns dos locais em que os ícones, janelas flutuantes e mensagens são exibidos:
-
-   * Página da lista de [!UICONTROL Atividade]
-
-      ![Mensagem de exclusão de público-alvo na origem na página da lista de atividades](assets/deleted-at-source-audiences-list.png)
-
-   * Páginas de [!UICONTROL visão geral] da atividade:
-
-      ![Mensagem de exclusão de público-alvo na origem na página de visão geral](assets/deleted-at-source-overview.png)
-
-   * Etapa de [!UICONTROL experiências] do fluxo de trabalho de criação da atividade:
-
-      ![Mensagem de exclusão de público-alvo na origem na página de [!UICONTROL Experiências]](assets/deleted-at-source-experiences.png)
-
-   * Etapa de [!UICONTROL direcionamento] do fluxo de trabalho de criação da atividade:
-
-      ![Mensagem de exclusão de público-alvo na origem na página de [!UICONTROL Direcionamento]](assets/deleted-at-source-targeting.png)
-
-   * Etapa de [!UICONTROL metas e configurações] do fluxo de trabalho de criação da atividade:
-
-      ![Mensagem de exclusão de público-alvo na origem na página de [!UICONTROL Metas e Configurações]](assets/deleted-at-source-goals-settings.png)
-
-   * Refinamentos de público-alvo ([!UICONTROL Substituir público-alvo] na etapa de [!UICONTROL Direcionamento] do fluxo de trabalho de criação da atividade):
-
-* Se você tentar usar o recurso Combinar públicos-alvo e um dos públicos-alvo foi excluído na origem, o botão [!UICONTROL Salvar] estará desativado.
-
-## [!DNL Target Standard/Premium] 21.10.1 (6 de outubro de 2021)
-
-Este lançamento inclui os seguintes novos recursos:
-
-| Recurso | Detalhes |
-| --- | --- |
-| Atualização da interface do usuário de [!UICONTROL públicos-alvo] | Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em melhorar a experiência para usuários do [!DNL Target], esta versão atualiza as páginas [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] na interface do [!DNL Target]. Essa atualização unifica e uniformiza os padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos-alvo simultaneamente</li><li>Um [design do criador de público-alvo](/help/c-target/c-audiences/create-audience.md) atualizado</li><li>Suporte à regras de exclusão no criador de regras da Biblioteca de [!UICONTROL público-alvo]</li><li>Um novo filtro de “Origem de público-alvo”, para permitir a descoberta mais rápida do público-alvo</li><li>Opções de filtro e pesquisa persistentes na sessão</li></ul>Para obter mais informações, consulte [Públicos](/help/c-target/target.md).<br>**OBSERVAÇÃO**: a nova interface do [!UICONTROL Audiences] está disponível somente para clientes selecionados. A atualização será gradualmente lançada para todos os clientes a partir de janeiro de 2022. |
-| Atualização da interface dos [!UICONTROL Scripts de Perfil] | A biblioteca de [!UICONTROL Scripts de Perfil] também foi atualizada e inclui uma interface renovada, além de várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos no teclado</li></ul>Para obter mais informações, consulte [Perfis do visitante](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**OBSERVAÇÃO**: a nova interface dos [!UICONTROL Scripts de perfil] está disponível somente para clientes selecionados. A atualização será gradualmente lançada para todos os clientes a partir de janeiro de 2022. |
-| ![Selo Premium](/help/assets/premium.png) Criação e edição em Critérios do Recommendations | O fluxo de trabalho de criação e edição nos [!UICONTROL Critérios do Recommendations] foi aperfeiçoado para simplificar as escolhas corretas do algoritmo de recomendações e das configurações para atingir suas metas.<br>Para obter mais informações, consulte [Criar critérios](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Selo Premium](/help/assets/premium.png) Melhorias na janela de lookback e na taxa de atualização do algoritmo do Recommendations | Agora é possível executar os algoritmos “Mais visualizados” e “Mais vendidos” com uma janela de lookback de seis horas para capturar o conteúdo das tendências mais recentes. Quando a janela de lookback de seis horas é selecionada, os resultados das recomendações são atualizados a cada 3 a 6 horas ao longo do dia.<br>Para obter mais informações, consulte [Fonte de dados](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) em *Criar critérios*. |
 
 ## Notas de versão adicionais e detalhes da versão
 
