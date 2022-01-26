@@ -5,9 +5,9 @@ title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ Anúncios e informações sobre eventos futuros, incluindo sessões do criador d
 
 ## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (19 de janeiro de 2022)
 
-* **quarta-feira, 19 de janeiro de 2022**
+* **Quarta-feira, 19 de janeiro de 2022**
 * **8:00 (PST, UTC -8)**
 * **[Mais informações e informações de registro](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Jon Tehero, Group Product Manager for [!DNL Adobe Target], responderá às suas perguntas sobre as suas áreas de competência:
+Jon Tehero, Gerente de produtos da equipe do [!DNL Adobe Target], responderá às perguntas relacionadas a suas áreas de especialização:
 
-* [!DNL Adobe Target] integração com [!DNL Adobe Journey Optimizer] (AJO)
-* [!DNL Adobe Target] Interface do usuário
-* Tópicos gerais do [!DNL Adobe Target]
+* Integração do [!DNL Adobe Target] ao [!DNL Adobe Journey Optimizer] (AJO)
+* Interface do [!DNL Adobe Target]
+* Tópicos gerais sobre o [!DNL Adobe Target]
 
-## Webinar: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
+## Webinário: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 
 Mais do que nunca, os profissionais de marketing, os proprietários de produtos e os desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e quaisquer outros lugares em que possam se conectar com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não servem.
 
