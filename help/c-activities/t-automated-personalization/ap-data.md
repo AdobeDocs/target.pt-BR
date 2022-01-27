@@ -4,7 +4,7 @@ description: Saiba qual Adobe de dados [!DNL Target] coleta e usa o para criar s
 title: Quais dados são coletados para criar algoritmos de aprendizado de máquina?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
+source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 49%
@@ -77,7 +77,7 @@ Para bloquear um ou mais recursos específicos do [!DNL Target] algoritmos de ap
 | Nome do atributo | Descrição de Atributos | Valores de amostra | Nome do sistema |
 | --- | --- | --- | --- |
 | Geo - City | A cidade da qual o visitante acessou a atividade. | São Francisco | Geo_City |
-| Geo - Country | O país do qual o visitante acessou a atividade. | Alemanha | Geo_County |
+| Geo - Country | O país do qual o visitante acessou a atividade. | Alemanha | Geo_Country |
 | Geo - DMA | A Área de marketing designada (DMA) da qual o visitante acessou a atividade. | Charlottesville | Geo_DMA |
 | Geo - Latitude | A latitude da qual o visitante acessou a atividade. | 47,269<br>Arredondado para três casas decimais (precisão de aproximadamente 100 metros) | GEO_Latitude |
 | Geo - Longitude | A longitude da qual o visitante acessou a atividade. | -122.269<br>Arredondado para três casas decimais (precisão de aproximadamente 100 metros) | GEO_Longitude |
