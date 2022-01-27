@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo no [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
+source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 26%
+source-wordcount: '1105'
+ht-degree: 25%
 
 ---
 
@@ -107,9 +107,20 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Usar públicos-alvo de [!DNL Adobe Experience Platform] {#aep}
 
-Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] forneça dados mais avançados do cliente, o que resulta em personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unir dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.
+Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] forneça dados mais avançados do cliente, o que resulta em personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unir dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.
 
 Por conexão [!DNL Target] para [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da Web ao desbloquear novos segmentos que podem ter sido inacessíveis anteriormente para o [!DNL Target] para permitir a personalização em tempo real em milissegundos na primeira página de uma visita à Web de um cliente. Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para personalização mais avançada.
+
+Essa integração desbloqueia casos de uso principais com RTCDP:
+
+* Personalização de mesma página/próxima ocorrência
+* Personalização pela primeira vez / usuários desconhecidos
+
+Os principais recursos incluem:
+
+* Integração direta do Target com RTCDP/[!DNL Adobe Experience Platform] no Edge (removendo dependência em [!DNL Audience Core services] - AAM)
+* [!UICONTROL Cartão de Destinos da borda do Target] com aplicação da governança
+* Segmentação de borda e perfil de borda com perfil unificado
 
 Para obter mais informações, consulte os seguintes tópicos:
 
@@ -117,6 +128,12 @@ Para obter mais informações, consulte os seguintes tópicos:
 * [Conexão de personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} na *Visão geral dos destinos* guia
 * [Conexão Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} na *Visão geral dos destinos* guia
 * [Configurar destinos de personalização para a mesma página e casos de uso de personalização da próxima página](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+### Blog e vídeo do Adobe Target:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+
+### Informações adicionais
 
 A tabela a seguir mostra o tempo de avaliação de segmento para eventos provenientes de diferentes cenários de implementação:
 
