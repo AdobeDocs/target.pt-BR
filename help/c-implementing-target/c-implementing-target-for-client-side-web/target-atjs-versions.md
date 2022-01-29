@@ -5,10 +5,10 @@ title: O que está incluído em cada versão da at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4357'
-ht-degree: 87%
+source-wordcount: '4390'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,15 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >
 >Tags em [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no [!DNL Adobe Experience Platform] como atualizações. Para obter mais informações, consulte [Atualizações de extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) no *Visão geral das tags* guia.
 
-## at.js versão 2.8.0 (7 de janeiro de 2022)
+## Versão 2.8.1 da at.js (28 de janeiro de 2022)
 
-O [!DNL Target] A biblioteca JavaScript da at.js agora coleta dados de uso de recursos e de telemetria de desempenho. Os dados pessoais não são coletados. A opção de rejeição para este recurso está disponível ao configurar `telemetryEnabled` para falso em `targetGlobalSettings`. Para obter mais informações, consulte [telemetryEnabled em targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+* Fixo `pageLoad` não estar sendo mapeado para target-global-mbox em [!UICONTROL No Device Decisioning] (ODD) modo de execução híbrido.
+* Correção de um problema com detalhes de análise para solicitação de mbox.
+* Atualização das dependências de desenvolvimento para corrigir vulnerabilidades de segurança.
+
+## Versão 2.8.0 da at.js (7 de janeiro de 2022)
+
+A biblioteca JavaScript at.js do [!DNL Target] agora coleta dados de uso de recursos e de telemetria de desempenho. Os dados pessoais não são coletados. A opção de recusa para este recurso está disponível ao configurar `telemetryEnabled` para falso em `targetGlobalSettings`. Para mais informações, consulte [telemetryEnabled em targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## at.js versão 2.7.0 (28 de outubro de 2021)
 

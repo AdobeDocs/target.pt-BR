@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 73%
+source-wordcount: '742'
+ht-degree: 70%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 73%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão para APIs do Target, SDKs, [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## Versão 2.8.1 da at.js (28 de janeiro de 2022)
+
+* Fixo `pageLoad` não estar sendo mapeado para target-global-mbox em [!UICONTROL No Device Decisioning] (ODD) modo de execução híbrido.
+* Correção de um problema com detalhes de análise para solicitação de mbox.
+* Atualização das dependências de desenvolvimento para corrigir vulnerabilidades de segurança.
 
 ## [!DNL Target Standard/Premium] 22.1.2 (26 de janeiro de 2022)
 

@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3349'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 28 de janeiro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão 2.8.1 da at.js. |
+|  | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.8.1 da at.js. |
 | 27 de Janeiro | [Fragmentos de experiência do AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Tópico atualizado e informações adicionadas sobre [!DNL AEM as a Cloud Service] e [!DNL Adobe I/0]. |
 | 26 de Janeiro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão do Target Standard/Premium 22.1.2. |
 |  | [Criar públicos-alvo](/help/c-target/c-audiences/audiences.md) | Foram adicionadas informações sobre [!DNL Adobe Experience Platform] públicos-alvo. |
