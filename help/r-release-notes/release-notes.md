@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
+source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 70%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão para APIs do Target, SDKs, [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe].)
+
+## Target Standard/Premium 22.2.1 (1 de fevereiro de 2022)
+
+Esta versão de manutenção contém as seguintes correções e aprimoramentos para o novo [!UICONTROL Públicos-alvo] A interface do usuário anunciada na versão Target Standard/Premium 2.1.2 que está sendo lançada para clientes em todas as regiões nas próximas seis semanas. Essas correções alinham a funcionalidade dos públicos-alvo criados no [!DNL Adobe Target Standard/Premium].
+
+* Correção de um problema que impedia públicos importados de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]e [!DNL Adobe Target Classic] de serem atribuídos como públicos-alvo de relatórios. (TGT-43140)
+* Adicionado um [!UICONTROL Excluir] na [!UICONTROL Públicos-alvo] lista de públicos importados de [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]e [!DNL Adobe Target Classic]. Adicionada a funcionalidade de exclusão em massa. (TGT-42914)
 
 ## Versão 2.8.1 da at.js (28 de janeiro de 2022)
 
@@ -31,14 +38,6 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 | [!DNL Adobe Experience Platform] públicos-alvo em [!DNL Target] | Agora você pode consumir e usar [!DNL Adobe Experience Platform] públicos-alvo em [!DNL Target]. O [!DNL Target] equipe, [!DNL Experience Platform] [!DNL Destinations] e a [!DNL Unified Profile Service] A equipe tem o prazer de anunciar a disponibilidade geral dos casos de uso de &quot;Mesma página/Próxima personalização de página&quot;.<br>Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] forneça dados mais avançados do cliente, o que resulta em personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), criado em [!DNL Adobe Experience Platform] O ajuda as empresas a unirem dados conhecidos e anônimos de várias fontes corporativas para criar perfis de clientes que possam ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.<br>Para obter mais informações, consulte [Usar públicos-alvo do Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) em *Criar públicos-alvo*.<br>Leia o Adobe e assista ao vídeo: [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
 | Atualização da interface do usuário de [!UICONTROL públicos-alvo] | Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em melhorar a experiência para usuários do [!DNL Target], esta versão atualiza as páginas [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] na interface do [!DNL Target]. Essa atualização unifica e uniformiza os padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos-alvo simultaneamente</li><li>Um [design do criador de público-alvo](/help/c-target/c-audiences/create-audience.md) atualizado</li><li>Suporte à regras de exclusão no criador de regras da Biblioteca de [!UICONTROL público-alvo]</li><li>Um novo filtro de “Origem de público-alvo”, para permitir a descoberta mais rápida do público-alvo</li><li>Opções de filtro e pesquisa persistentes na sessão</li><li>A capacidade de mover públicos-alvo entre espaços de trabalho para [!DNL Target Premium] clientes.</li></ul>Para obter mais informações, consulte [Públicos](/help/c-target/target.md).<br>**OBSERVAÇÃO**: Esse recurso será lançado para clientes em diferentes regiões nas próximas oito semanas. |
 | Atualização da interface dos [!UICONTROL Scripts de Perfil] | A biblioteca de [!UICONTROL Scripts de Perfil] também foi atualizada e inclui uma interface renovada, além de várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos no teclado</li></ul>Para obter mais informações, consulte [Perfis do visitante](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**OBSERVAÇÃO**: Esse recurso será lançado para clientes em diferentes regiões nas próximas oito semanas. |
-
-## [!DNL Target Standard/Premium] 22.1.1 (12 de janeiro de 2022)
-
-Esta versão inclui correções de erros e recursos pré-requisitos para integrações futuras.
-
-## Versão 2.8.0 da at.js (7 de janeiro de 2022)
-
-A biblioteca JavaScript at.js do [!DNL Target] agora coleta dados de uso de recursos e de telemetria de desempenho. Os dados pessoais não são coletados. A opção de recusa para este recurso está disponível ao configurar `telemetryEnabled` para falso em `targetGlobalSettings`. Para mais informações, consulte [telemetryEnabled em targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Notas de versão adicionais e detalhes da versão
 
