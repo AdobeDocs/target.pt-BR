@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '3378'
-ht-degree: 99%
+source-wordcount: '3397'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 2 de fevereiro | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Adição da seguinte seção: &quot;Escapando aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado.&quot; |
 | 1 de fevereiro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 22.2.1. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 de janeiro de 2022)

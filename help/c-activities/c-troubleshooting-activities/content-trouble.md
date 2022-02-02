@@ -4,10 +4,10 @@ description: Encontre sugestões para ajudar a solucionar problemas se a página
 title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela 
 | Parâmetros de URL | Propósito |
 |--- |--- |
 | `mboxDebug=1` | Depurador<br>A adição desse parâmetro a qualquer URL com solicitações do Target definidas abre uma janela pop-up com detalhes de depuração valiosos. Informações sobre cookies, PCid e valores de ID de sessão aparecem escritos e todos os URLs de são visíveis. Clique em um URL de solicitação do Target para mostrar a resposta à solicitação do [!DNL Target]. Mais detalhes estão disponíveis em [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
-| `mboxDebug=x-cookie` | Modificar o cookie |
 | `mboxDisable=1` | Desabilitar mboxes na página |
-| `mboxDebug=x-profile` | Ver perfis definidos. |
-| `mboxDebug=x-time` | Mostrar o tempo de resposta para cada solicitação do [!DNL Target]. |
 | `mboxOverride.browserIp=<Insert IP address>` | Testar geolocalização<br>Teste a geolocalização com este parâmetro de URL. Insira um endereço IP como o valor para este atributo e o geolocalização do Test&amp;Target avalia o endereço IP para compará-lo com qualquer geolocalização e segmentação configurados em uma campanha. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e a
 Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam uma [!UICONTROL Consulta] com [!UICONTROL type] > [!UICONTROL é (diferencia maiúsculas de minúsculas)] > type=Summers%20Offers, separadas por um operador OU:
 
 ![Regra de modelo aproveitando uma parte específica do URL](assets/option3.png)
+
+## Escapando aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado. {#escape}
+
+Quando você envia valores contendo aspas duplas em um [!DNL Target] do perfil, você deve omitir duas vezes como mostrado abaixo.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Vídeos de treinamento
 
