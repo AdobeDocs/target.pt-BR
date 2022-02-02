@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3378'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Criar públicos-alvo](/help/c-target/c-audiences/audiences.md) | Foram adicionadas informações sobre [!DNL Adobe Experience Platform] públicos-alvo. |
 |  | [Combinar vários públicos](/help/c-target/combining-multiple-audiences.md) | Foram adicionadas informações sobre [!DNL Adobe Experience Platform] públicos-alvo. |
 | 21 de Janeiro | [Detalhes da versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Adição de informações sobre a versão 1.8.3 da at.js. |
-| 19 de janeiro | [Atualização do at.js 1.*x* para o at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Adição da seguinte seção: &quot;at.js 2.*x* não oferece suporte à criação de públicos-alvo usando vst.* parâmetros&quot; |
+| 19 de janeiro | [Atualização da at.js 1.*x* para a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Adição da seguinte seção: &quot;A at.js 2.*x* não oferece suporte à criação de públicos-alvo usando parâmetros de vst.*&quot; |
 | 12 de janeiro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição de informações sobre a versão do Target Standard/Premium 22.1.1. |
 |  | [SDK da Web da Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Link adicionado ao tutorial com instruções para implementar a [!DNL Adobe Experience Cloud] com o SDK da Web. |
 
