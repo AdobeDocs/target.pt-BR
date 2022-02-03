@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo no [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 25%
+source-wordcount: '1186'
+ht-degree: 23%
 
 ---
 
@@ -125,13 +125,10 @@ Os principais recursos incluem:
 Para obter mais informações, consulte os seguintes tópicos:
 
 * [Notas de versão de destinos](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Configurar destinos de personalização para a personalização da mesma página e da próxima página](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
 * [Conexão de personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} na *Visão geral dos destinos* guia
 * [Conexão Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} na *Visão geral dos destinos* guia
 * [Configurar destinos de personalização para a mesma página e casos de uso de personalização da próxima página](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
-
-### Blog e vídeo do Adobe Target:
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ### Informações adicionais
 
@@ -144,6 +141,18 @@ A tabela a seguir mostra o tempo de avaliação de segmento para eventos proveni
 | Eventos dos SDKs móveis do Target | Não | Sim | N/D |
 | Eventos do upload em lote | Não | Não | Sim |
 | Eventos de dados offline (fluxo) | Não | Sim | Sim |
+
+### Vídeo: Personalização de próxima ocorrência com a CDP em tempo real e [!DNL Adobe Target]{#RTCDP}
+
+Saiba como personalizar na próxima ocorrência com [!DNL Real-time Customer Data Platform] e [!DNL Adobe Target]. O [!DNL Adobe Target] destino em [!DNL Real-time CDP] permite usar [!DNL Experience Platform] segmentos em [!DNL Adobe Target] para a mesma página e a personalização da próxima página com suporte a governança e privacidade.
+
+Para obter mais informações, consulte [Personalização de próxima ocorrência com a CDP em tempo real e a Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} na *Tutorials da plataforma* guia.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### Blog e vídeo do Adobe Target:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
 
 ## Vídeo de treinamento: Uso de públicos-alvo ![Selo do tutorial](/help/assets/tutorial.png)
 
