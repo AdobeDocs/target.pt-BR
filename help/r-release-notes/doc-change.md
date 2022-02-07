@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '3412'
+source-wordcount: '3429'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 7 de fevereiro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (23 de fevereiro de 2022)</li></ul> |
 | 3 de fevereiro | [Criar públicos-alvo](/help/c-target/c-audiences/audiences.md#RTCDP) | Nova seção e vídeo adicionados: &quot;Vídeo: Personalização de próxima ocorrência com a CDP em tempo real e [!DNL Adobe Target].&quot; |
 | 2 de fevereiro | [Soluções de problemas da entrega de conteúdo](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Adição da seguinte seção: &quot;Escapando aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado.&quot; |
 | 1 de fevereiro | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versão 22.2.1. |
