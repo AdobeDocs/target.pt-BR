@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 98%
+source-wordcount: '4738'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,15 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 ### Visual Experience Composer (VEC) carregando sites com Service Workers
 
-Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando Trabalhadores de Serviços. Uma solução alternativa é desabilitar Trabalhadores de Serviço da guia Ferramentas do Desenvolvedor do Chrome > Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Ignorar para rede&quot; na seção Trabalhadores de Serviço. (KB-2006)
+Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando [Trabalhadores do Serviço](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+
+Um software é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instaladas por uma página da Web. O SW sobrevive à visita da página e se ativa em visitas subsequentes. O SW decide quais solicitações são passadas e quais são interceptadas e servidas de um cache.
+
+O software pode controlar o armazenamento em cache; O pode armazenar em cache a própria página da Web, recursos estáticos como JS, CSS, IMG, solicitações de AJAX, seu conteúdo e seus cabeçalhos de resposta, incluindo aqueles que [Extensão do Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta remover, como X-Frame-Options: SAMEORIGIN, CSP (Política de segurança de conteúdo) ou Set-Cookie.
+
+Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi veiculada a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido às X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
+
+Como uma possível solução alternativa, você pode desativar Trabalhadores de Serviço na guia Ferramentas do Desenvolvedor do Chrome > Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Ignorar para rede&quot; na seção Trabalhadores de Serviço. (KB-2006)
 
 ### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
 
