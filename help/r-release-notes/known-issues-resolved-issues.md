@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
+
+### Visual Experience Composer (VEC) carregando sites com Service Workers
+
+Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando Trabalhadores de Serviços. Uma solução alternativa é desabilitar Trabalhadores de Serviço da guia Ferramentas do Desenvolvedor do Chrome > Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Ignorar para rede&quot; na seção Trabalhadores de Serviço. (KB-2006)
 
 ### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
 
@@ -438,7 +442,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 
