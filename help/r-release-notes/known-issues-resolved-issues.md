@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre problemas conhecidos e problemas
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
-### Visual Experience Composer (VEC) carregando sites com Service Workers
+### Visual Experience Composer (VEC) carregando sites com o Service Workers
 
-Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando [Trabalhadores do Serviço](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Service Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
-Um software é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instaladas por uma página da Web. O SW sobrevive à visita da página e se ativa em visitas subsequentes. O SW decide quais solicitações são passadas e quais são interceptadas e servidas de um cache.
+Um SW é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instalados por uma página da Web. O SW se mantém na visita da página e se ativa em visitas subsequentes. Ele decide quais solicitações são passadas e quais são interceptadas e fornecidas a partir de um cache.
 
-O software pode controlar o armazenamento em cache; O pode armazenar em cache a própria página da Web, recursos estáticos como JS, CSS, IMG, solicitações de AJAX, seu conteúdo e seus cabeçalhos de resposta, incluindo aqueles que [Extensão do Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta remover, como X-Frame-Options: SAMEORIGIN, CSP (Política de segurança de conteúdo) ou Set-Cookie.
+O SW pode controlar o armazenamento em cache; pode armazenar em cache a própria página da Web, recursos estáticos, como JS, CSS, IMG, solicitações de AJAX e seu conteúdo e cabeçalhos de resposta, incluindo aqueles que a [extensão auxiliar do Target VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta remover, como X-Frame-Options: SAMEORIGIN, CSP (Política-Segurança-Conteúdo) ou definir-cookie.
 
-Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi veiculada a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido às X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
+Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi fornecida a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido ao X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
 
-Como uma possível solução alternativa, você pode desativar Trabalhadores de Serviço na guia Ferramentas do Desenvolvedor do Chrome > Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Ignorar para rede&quot; na seção Trabalhadores de Serviço. (KB-2006)
+Como uma possível solução alternativa, você pode desativar o Service Workers do Chrome Developer Tools > guia do Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Bypass for network&quot; na seção Service Workers. (KB-2006)
 
 ### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
 
@@ -450,7 +450,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 
