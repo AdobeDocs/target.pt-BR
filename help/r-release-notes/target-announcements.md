@@ -5,9 +5,9 @@ title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,18 +17,18 @@ Anúncios e informações sobre eventos futuros, incluindo sessões do criador d
 
 ## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (23 de fevereiro de 2022)
 
-* **quarta-feira, 23 de fevereiro de 2022**
+* **Quarta-feira, 23 de fevereiro de 2022**
 * **8:00 (PST, UTC -8)**
 * **[Mais informações e informações de registro](https://adobe.ly/3skO6DV)**
 
-Vishal Chordia, gerente de produto sênior, responderá as perguntas dos clientes relacionadas às seguintes áreas de conhecimento:
+O gerente de produto sênior, Vishal Chordia, responderá às perguntas relacionadas a suas áreas de conhecimento feita pelos clientes:
 
 * [!DNL Adobe Experience Platform]
 * Personalização baseada no público
 * [!DNL Real-time Customer Data Platform] Integração da (RTCDP) com [!DNL Target]
 * Tópicos gerais do [!DNL Target]
 
-A engenheira de Suporte Técnico Mihnea Docea irá ajudar Vishal.
+O engenheiro de Suporte Técnico, Mihnea Docea, estará auxiliando Vishal.
 
 ## Webinário: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 
