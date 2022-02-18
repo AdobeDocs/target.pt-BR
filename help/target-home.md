@@ -5,7 +5,7 @@ description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experi√
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
