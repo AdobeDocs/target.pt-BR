@@ -1,14 +1,13 @@
 ---
 keywords: Perguntas Frequentes,Perguntas Frequentes,Analytics For Target,Segmentos,A4T,Compartilhar Relatórios
-description: Encontre perguntas frequentes sobre o compartilhamento de métricas, públicos e relatórios ao usar o Analytics para atividades do  [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] .
+description: Encontre perguntas frequentes sobre compartilhamento de métricas, públicos-alvo e relatórios ao usar o Analytics para [!DNL Target] (A4T). O A4T permite usar os relatórios do Analytics para o Adobe [!DNL Target] atividades.
 title: Onde encontrar perguntas frequentes compartilhando métricas, públicos-alvo e relatórios no A4T?
 feature: Analytics for Target (A4T)
-exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
+source-git-commit: 5a3e46b94bfece0583a5f2603e3edca35a7c97e0
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 69%
+source-wordcount: '247'
+ht-degree: 65%
 
 ---
 
@@ -20,7 +19,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre compartil
 
 Geralmente, você deseja criar uma visualização de um teste para diferentes grupos de usuários para facilitar a análise dos resultados do teste. No Analytics, é possível criar um marcador que salve a exibição atual de um relatório, incluindo métricas, intervalos de datas, segmentos e outros dados.
 
-Para obter mais informações, consulte [Gerenciador de marcadores](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
+Para obter mais informações, consulte [Gerenciador de marcador](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
 
 ## Como posso garantir que as métricas e os segmentos sejam compartilhados com minha equipe de otimização? {#section_38BCA134A2F64C21B670CBD4491B7099}
 
