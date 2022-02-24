@@ -4,9 +4,10 @@ description: Saiba mais sobre os algoritmos usados em [!DNL Target Recommendatio
 title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendations do Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
+exl-id: c156952b-8eda-491d-a68e-d3d09846f640
+source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2840'
 ht-degree: 0%
 
 ---
@@ -49,7 +50,7 @@ Os algoritmos de recomendação de filtragem colaborativa de item-item baseiam-s
 
 Para o algoritmo &quot;pessoas que visualizaram/compraram este item também visualizaram/compraram esses itens&quot;, o objetivo é calcular uma similaridade s(A,B) entre todos os pares de itens. Para um determinado item A, as principais recomendações são ordenadas por sua similaridade s(A,B).
 
-Um exemplo dessa semelhança é a co-ocorrência entre os itens: uma contagem simples do número de usuários que compraram ambos os itens. Embora intuitiva, essa métrica é ingênua, na medida em que é tendenciosa em relação à recomendação de itens populares. Por exemplo, se em um varejista de compras a maioria das pessoas comprar pão, pão terá alta co-ocorrência com todos os itens, mas não é necessariamente uma boa recomendação. [!DNL Target] em vez disso, usa uma métrica de similaridade mais sofisticada conhecida como taxa de probabilidade de log (LLR). Essa quantidade é grande quando a probabilidade de dois itens, A e B, co-ocorrerem é muito diferente da probabilidade de não co-ocorrerem. Para a concretiza, considere um caso da variável [!UICONTROL Pessoas que viram isto, compraram aquilo] algoritmo. A similaridade de LLR é grande quando a probabilidade de B ser comprada é independente do fato de alguém ter ou não visualizado A.
+Um exemplo dessa semelhança é a co-ocorrência entre os itens: uma contagem simples do número de usuários que compraram ambos os itens. Embora intuitiva, essa métrica é ingênua, na medida em que é tendenciosa em relação à recomendação de itens populares. Por exemplo, se em um varejista de compras a maioria das pessoas comprar pão, pão terá alta co-ocorrência com todos os itens, mas não é necessariamente uma boa recomendação. [!DNL Target] em vez disso, usa uma métrica de similaridade mais sofisticada conhecida como taxa de probabilidade de log (LLR). Essa quantidade é grande quando a probabilidade de dois itens, A e B, co-ocorrerem é muito diferente da probabilidade de não co-ocorrerem. Para a concretiza, considere um caso da variável [!UICONTROL Pessoas que viram isto, compraram aquilo] algoritmo. A similaridade de LLR é grande quando a probabilidade de compra de B é independente de alguém ter ou não visualizado A.
 
 Por exemplo, se
 
