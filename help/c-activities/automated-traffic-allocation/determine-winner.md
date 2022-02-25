@@ -1,25 +1,25 @@
 ---
 keywords: alocação de tráfego automatizada, direcionamento, vencedor, garantia estatística, confiança, determinar vencedor, aumento, confiança, padrão, experiência padrão, alocação automática, alocação automática
-description: Saiba como interpretar os resultados de uma atividade de Alocação automática A/B no Adobe [!DNL Target] examinando indicadores importantes, incluindo aumento e confiança.
+description: Saiba como interpretar os resultados de uma atividade de Alocação automática A/B no Adobe [!DNL Target] através da análise de indicadores importantes, incluindo o incentivo e a confiança.
 title: Como interpreto os relatórios de alocação automática?
-feature: Alocação automática
+feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 47%
+source-wordcount: '1233'
+ht-degree: 44%
 
 ---
 
 # Interpretar relatórios de autoalocação
 
-Interprete os resultados de uma atividade A/B de [!UICONTROL Alocação automática] em [!UICONTROL Adobe Target] examinando indicadores importantes, incluindo aumento e confiança.
+Interpretar os resultados de um [!UICONTROL Alocação automática] Atividade A/B em [!UICONTROL Adobe Target] através da análise de indicadores importantes, incluindo o incentivo e a confiança.
 
 Muitos profissionais de marketing cometem o erro de declarar prematuramente uma experiência vencedora antes dos resultados indicarem claramente o vencedor. Agora facilitamos para você determinar o vencedor.
 
 >[!NOTE]
 >
->Para obter informações gerais sobre como declarar um vencedor, consulte [Dez erros comuns em testes A/B e como evitá-los](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+>Para obter informações gerais sobre declaração de um vencedor, consulte [Dez erros comuns em testes A/B e como evitá-los](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identificar a experiência vencedora {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -47,7 +47,7 @@ Testes A/B normais calculam a confiança com base nos valores de p. A Alocação
 
 >[!IMPORTANT]
 >
->O Target mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre basear-se nos resultados da calculadora de tamanho da amostra do Adobe Target [. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) O Target não considera as taxas de conversão básicas de um site e outros aspectos importantes que são alimentados pela calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte [Calculadora de tamanho de amostra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>O Target mostra um vencedor após um número mínimo predefinido de conversões; no entanto, a decisão final de escolher o vencedor deve sempre basear-se nos resultados da Adobe Target [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR). O Target não considera as taxas de conversão básicas de um site e outros aspectos importantes que são alimentados pela calculadora para determinar a duração da atividade. Como resultado, o Target pode exibir um vencedor mais cedo do que o esperado com base em um número mínimo de conversões. Para obter mais informações, consulte [Calculadora de tamanho da amostra](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Entender os relatórios de lift e confiança nas atividades de alocação automática {#lift-confidence}
 
@@ -63,7 +63,9 @@ Um número de &quot;Confiança&quot; também é reportado ao lado da experiênci
 
 ## Perguntas frequentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**Já passaram alguns dias na atividade. Por que todos os valores de confiança ainda estão mostrando 0%?**
+Considere as seguintes respostas para as perguntas mais frequentes:
+
+### Já passaram alguns dias na atividade. Por que todos os valores de confiança ainda estão mostrando 0%?
 
 Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICONTROL Confiança] do relatório para todas as atividades:
 
@@ -73,5 +75,13 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
    A Alocação automática mostra a probabilidade de uma determinada experiência ser um verdadeiro vencedor em todas as experiências na atividade. Isso significa que apenas uma experiência vencedora (que provavelmente será a vencedora) terá um valor de confiança diferente de zero. Todos os outros são mais propensos a serem perdedores e exibirão 0%.
 
-* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Normalmente, esses níveis de confiança aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). Para determinar por quanto tempo um teste A/B normal seria executado, use uma [calculadora de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): taxa de conversão do controle de plug em &quot;Índice de conversão da linha de base&quot;, &quot;5%&quot; para &quot;Aumento&quot; e 95% para &quot;Confiança&quot;. Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
+* A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Normalmente, esses níveis de confiança aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). Para determinar por quanto tempo um teste A/B normal seria executado, use um [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): taxa de conversão do controle de plug em &quot;Índice de conversão da linha de base&quot;, &quot;5%&quot; para &quot;Aumento&quot; e 95% para &quot;Confiança&quot;. Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
 * Se o relatório mostrar 0% em todo o quadro, é provável que seja muito cedo para a atividade.
+
+## Os emblemas &quot;Sem vencedor&quot;, &quot;Vencedor&quot; e &quot;estrela&quot; estão disponíveis para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics como fonte de relatórios] (A4T)?
+
+Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no momento no [!UICONTROL A4T] no painel [!DNL Analysis Workspace]. Esses selos também não estarão disponíveis se o mesmo relatório for visualizado em [!DNL Target]. Um símbolo de &quot;estrela&quot; vencedora exibido em um [!DNL Target] relatório para um [!UICONTROL Alocação automática] atividade usando A4T deve ser ignorada.
+
+Para obter mais informações sobre essa e outras limitações e observações, consulte [Alocação automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) em *Suporte a A4T para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades*.
+
+
