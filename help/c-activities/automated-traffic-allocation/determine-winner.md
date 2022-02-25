@@ -4,7 +4,7 @@ description: Saiba como interpretar os resultados de uma atividade de Alocação
 title: Como interpreto os relatórios de alocação automática?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 * A Alocação automática começa a mostrar confiança somente após a experiência vencedora reunir 60% de confiança. Normalmente, esses níveis de confiança aparecem em cerca de metade do tempo que um teste A/B normal levaria para ser concluído (embora isso não seja garantido). Para determinar por quanto tempo um teste A/B normal seria executado, use um [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): taxa de conversão do controle de plug em &quot;Índice de conversão da linha de base&quot;, &quot;5%&quot; para &quot;Aumento&quot; e 95% para &quot;Confiança&quot;. Normalmente, a confiança começa a aparecer depois que cada experiência acumulou pelo menos 50% das amostras necessárias por experiência. Isso lhe dará uma ideia de quando a confiança começará a aparecer.
 * Se o relatório mostrar 0% em todo o quadro, é provável que seja muito cedo para a atividade.
 
-## Os emblemas &quot;Sem vencedor&quot;, &quot;Vencedor&quot; e &quot;estrela&quot; estão disponíveis para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics como fonte de relatórios] (A4T)?
+### Os emblemas &quot;Sem vencedor&quot;, &quot;Vencedor&quot; e &quot;estrela&quot; estão disponíveis para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics como fonte de relatórios] (A4T)?
 
 Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no momento no [!UICONTROL A4T] no painel [!DNL Analysis Workspace]. Esses selos também não estarão disponíveis se o mesmo relatório for visualizado em [!DNL Target]. Um símbolo de &quot;estrela&quot; vencedora exibido em um [!DNL Target] relatório para um [!UICONTROL Alocação automática] atividade usando A4T deve ser ignorada.
 
