@@ -4,10 +4,10 @@ description: Saiba como usar a mbox3rdPartyId, que é a ID de visitante da sua e
 title: Como utilizar a sincronização de perfil em tempo real para mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 92%
+source-wordcount: '737'
+ht-degree: 84%
 
 ---
 
@@ -57,11 +57,13 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
       * `customerIds` é o nome do parâmetro usado ao defini-lo diretamente na carga da API de entrega e geralmente é feito em implementações do lado do servidor ou de IOT (Internet das coisas).
       * Ao contrário da `mbox3rdPartyId`/`thirdPartyId`, você pode enviar várias IDs como uma lista nesta abordagem, mas como o [!DNL Target] suporta apenas uma única ID de cliente por TnT Id, ele usa a primeira ID na lista com um alias conhecido (alias configurado na interface do usuário de atributos do cliente).
 
+   Você pode usar `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] é seu único [!DNL Adobe Experience Cloud] e você não deseja usar os Atributos do cliente. Em todos os outros casos, recomendamos que você use `setCustomerId`/`customerIds` para enviar as IDs do cliente.
+
    >[!IMPORTANT]
    >
    > Usar as duas abordagens mencionadas acima alternadamente para um único visitante pode resultar em mesclagens incorretas dos perfis autenticados e não autenticados do [!DNL Target].
    >
    >A Adobe não recomenda usar `mbox3rdPartyId`/`thirdPartyId` e `setCustomerID`/`customerIds` juntos.
    >
-   >Se você precisar usar ambas as abordagens alternadamente, verifique se a primeira ID na lista usada por `setCustomerID`/`customerIds` é a mesma usada por `thirdPartyId`/`mbox3rdPartyId` e vice-versa.
+   >Se você precisar usar ambas as abordagens alternadamente, verifique se a primeira ID da lista usada por `setCustomerID`/`customerIds` é o que é usado por `thirdPartyId`/`mbox3rdPartyId` e vice-versa.
 
