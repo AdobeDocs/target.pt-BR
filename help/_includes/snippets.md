@@ -1,8 +1,8 @@
 ---
 source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '21'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 # Trechos
@@ -11,6 +11,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Essa funcionalidade está disponível como parte do [Target Premium](/help/c-intro/intro.md#premium) licença. Essa funcionalidade não está disponível em [!DNL Target Standard].
+>Essa funcionalidade está disponível como parte da licença do [Target Premium](/help/c-intro/intro.md#premium). Essa funcionalidade não está disponível no [!DNL Target Standard].
 
 
