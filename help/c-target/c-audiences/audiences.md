@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo no [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 23%
+source-wordcount: '1333'
+ht-degree: 24%
 
 ---
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Usar públicos-alvo de [!DNL Adobe Experience Platform] {#aep}
 
-Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] forneça dados mais avançados do cliente, o que resulta em personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unir dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.
+O uso de públicos-alvo criados na [!DNL Adobe Experience Platform] fornece dados do cliente mais avançados, o que resulta em uma personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR){target=_blank} (RTCDP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unir dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.
 
 Por conexão [!DNL Target] para [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da Web ao desbloquear novos segmentos que podem ter sido inacessíveis anteriormente para o [!DNL Target] para permitir a personalização em tempo real em milissegundos na primeira página de uma visita à Web de um cliente. Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para personalização mais avançada.
 
@@ -132,13 +132,27 @@ Para obter mais informações, consulte os seguintes tópicos:
 
 ### Informações adicionais
 
+Considere as seguintes informações ao usar públicos-alvo de [!DNL Adobe Experience Platform]:
+
+#### Casos de uso de personalização
+
+A tabela a seguir mostra qual tipo de caso de uso de personalização (próxima sessão ou mesma página) está disponível ao usar o [!DNL Adobe Experience Platform Web SDK] versus usar at.js:
+
+| Implementação | Soluções/Caso de uso habilitado |
+| --- | --- |
+| at.js | **As soluções**:<ul><li>[!DNL Adobe Audience Manager] (AAM) e [!DNL Target]</li><li>[!DNL RTCDP] (Premium ou Ultimate) e [!DNL Target]</li><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM]e [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalização da próxima sessão</li></ul> |
+| [!DNL Platform Web SDK] ou [!DNL AEP Server-Side API] | **As soluções**:<ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalização da próxima sessão</li><li>Personalização de mesma página via Edge</li><li>Governança aplicada ao compartilhar segmentos</li></ul>**As soluções**:<ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM]e [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalização da próxima sessão</li><ul><li>[!DNL AAM] segmentos</li><li>Segmentos de terceiros via [!DNL AAM]</li></ul><li>Personalização de mesma página via Edge</li><ul><li>[!DNL RTCDP] segmentos</li><li>Governança aplicada ao compartilhar segmentos</li></ul> |
+| Mistura de [!UICONTROL at.js] e [!DNL Platform Web SDK] | **As soluções**:<ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalização da próxima sessão</li><ul><li>Para todas as páginas com [!UICONTROL at.js]</li></ul><li>Personalização de mesma página</li><ul><li>Para todas as páginas com [!DNL Platform Web SDK]</li></ul></ul>**As soluções**:<ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM]e [!DNL Target]</li></ul>**Caso de uso**:<ul><li>Personalização da próxima sessão</li><ul><li>Para todas as páginas com [!UICONTROL at.js]</li><li>[!DNL AAM] segmentos</li><li>Segmentos de terceiros via [!DNL AAM]</li></ul> |
+
+#### Tempo de avaliação do segmento
+
 A tabela a seguir mostra o tempo de avaliação de segmento para eventos provenientes de diferentes cenários de implementação:
 
 | Cenário | Segmento de borda (avaliação de milissegundos) | Segmento de transmissão (avaliação por minuto) | Avaliação de segmento em lote |
 | --- | --- | --- | --- |
-| Eventos/dados dos SDKs do Adobe Experience Platform | Sim | Sim | N/A |
-| Eventos da at.js | Não | Sim | N/D |
-| Eventos dos SDKs móveis do Target | Não | Sim | N/D |
+| Eventos/dados de [!DNL Adobe Experience Platform] SDKs | Sim | Sim | N/A |
+| Eventos de [!UICONTROL at.js] | Não | Sim | N/D |
+| Eventos de [!DNL Target Mobile] SDKs | Não | Sim | N/D |
 | Eventos do upload em lote | Não | Não | Sim |
 | Eventos de dados offline (fluxo) | Não | Sim | Sim |
 

@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 99%
+source-wordcount: '3519'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 7 de março | [Criar públicos-alvo](/help/c-target/c-audiences/audiences.md#aep) | Nova seção adicionada em &quot;Usar públicos-alvo de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalização</li></ul> |
 | 25 de fevereiro | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Atualização das seguintes seções:<ul><li>[Alocação automática e direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Alocação automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretar relatórios de autoalocação](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Novas perguntas frequentes adicionadas:<ul><li>Os emblemas &quot;Sem vencedor&quot;, &quot;Vencedor&quot; e &quot;estrela&quot; estão disponíveis para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics como fonte de relatórios] (A4T)?</li></ul> |
 |  | [Criar um público-alvo com apenas uma atividade](/help/c-target/creating-activity-only-audience.md) | Foram adicionadas informações na seção &quot;Considerações&quot; que discutem regras de exclusão. |
