@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ O SW pode controlar o armazenamento em cache; pode armazenar em cache a própria
 Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi fornecida a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido ao X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
 
 Como uma possível solução alternativa, você pode desativar o Service Workers do Chrome Developer Tools > guia do Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Bypass for network&quot; na seção Service Workers. (KB-2006)
+
+### Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário {#ad-hoc}
+
+Evite excluir os locais em uma atividade criada no Experience Composer baseado em formulário, se esses locais usarem ofertas ad-hoc (ofertas criadas dentro da atividade). A exclusão de locais pode fazer com que a atividade fique corrompida. O [!DNL Target] A equipe está trabalhando em uma correção para isso. Como solução alternativa, você pode criar ofertas globais da [!UICONTROL Biblioteca de ofertas] e usá-las com locais ou criar novas experiências, se necessário. (KB-2014)
 
 ### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
 
@@ -450,7 +454,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 

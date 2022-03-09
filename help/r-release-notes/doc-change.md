@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
-ht-degree: 98%
+source-wordcount: '3561'
+ht-degree: 99%
 
 ---
 
@@ -19,11 +19,12 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 9 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Adição dos seguintes problemas conhecidos:<ul><li>Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário</li></ul> |
 | 8 de março | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (30 de março de 2022)</li></ul> |
 | 7 de março | [Criar públicos-alvo](/help/c-target/c-audiences/audiences.md#aep) | Nova seção adicionada em &quot;Usar públicos-alvo de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalização</li></ul> |
-| 25 de fevereiro | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Atualização das seguintes seções:<ul><li>[Alocação automática e direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Alocação automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
-|  | [Interpretar relatórios de autoalocação](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Novas perguntas frequentes adicionadas:<ul><li>Os emblemas &quot;Sem vencedor&quot;, &quot;Vencedor&quot; e &quot;estrela&quot; estão disponíveis para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics como fonte de relatórios] (A4T)?</li></ul> |
-|  | [Criar um público-alvo com apenas uma atividade](/help/c-target/creating-activity-only-audience.md) | Foram adicionadas informações na seção &quot;Considerações&quot; que discutem regras de exclusão. |
+| 25 de fevereiro | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Atualização das seguintes seções:<ul><li>[Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Alocação automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
+|  | [Interpretar relatórios de autoalocação](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Novas perguntas frequentes adicionadas:<ul><li>Os emblemas “Sem vencedor”, “Vencedor” e “estrela” estão disponíveis para atividades de [!UICONTROL Alocação automática] que usam o [!UICONTROL Analytics como fonte de relatórios] (A4T)?</li></ul> |
+|  | [Criar um público somente com atividades](/help/c-target/creating-activity-only-audience.md) | Foram adicionadas informações na seção “Considerações” sobre regras de exclusão. |
 | 10 de fevereiro | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:<ul><li>Visual Experience Composer (VEC) carregando sites com o Service Workers</li></ul> |
 | 7 de fevereiro | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (23 de fevereiro de 2022)</li></ul> |
 | 3 de fevereiro | [Criar públicos-alvo](/help/c-target/c-audiences/audiences.md#RTCDP) | Nova seção e vídeo adicionados: &quot;Vídeo: Personalização de próxima ocorrência com o Real-time CDP e [!DNL Adobe Target]&quot;. |
@@ -111,7 +112,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 24 de agosto | [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | O [!DNL Adobe Experience Platform Launch] foi reformulado como um conjunto de tecnologias de coleção de dados na [!DNL Adobe Experience Platform]. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. |
 | 23 de agosto | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade<ul><li>Quarta-feira, 8 de setembro de 2021</li><li>8h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 de agosto | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Atualização das seguintes perguntas frequentes:<ul><li>O A4T suporta conjuntos de relatórios virtuais?</li></ul> |
-| 16 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md)<br> e<br>[detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição das notas de versão para a at.js 2.6.1. |
+| 16 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md)<br>e<br>[detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição das notas de versão para a at.js 2.6.1. |
 |  | [Decisão no dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adição da seção &quot;Práticas recomendadas&quot;. |
 | 11 de agosto | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md) | Adição das notas de versão para o SDK do [!DNL Target] node.js versão 2.2.0. |
 | 10 de agosto | [Notas de versão](/help/r-release-notes/release-notes.md): 21.8.1 | Essa versão inclui aprimoramentos e correções. Você pode ler sobre eles e acessar a documentação a partir das notas de versão. Esta versão também inclui muitas atualizações da documentação na seção de ajuda. |
@@ -140,7 +141,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Adição de uma nova seção “Modificações por experiência” em “Experiências”. |
 | 21 de julho | [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Atualização da seguinte seção:<ul><li>Como as políticas de imposição de cookie SameSite do Google Chrome afetam o VEC e o EEC?</li></ul> |
 | 19 de julho | [Classificações - Perguntas frequentes sobre o A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Adição de informações sobre o código de evento -1 ou 65535. |
-| 16 de julho | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md)<br> e<br>[detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.6.0 da at.js. |
+| 16 de julho | [Notas de versão do Target (atual)](/help/r-release-notes/release-notes.md)<br>e<br>[detalhes de versão da at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.6.0 da at.js. |
 |  | [Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Atualização da lista de endereços IP na lista de permissões. |
 | 12 de julho | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos:<ul><li>Webinário: Quantificar o ROI, os insights e o tempo de economia significativos da integração do Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] A sessão de perguntas e respostas da comunidade acontecerá na quarta-feira, 21 de julho de 2021 às 8h (PDT, GMT-7).</li></ul> |
 |  | [Perguntas frequentes do Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Adição da seguinte pergunta frequente: &quot;Como posso recomendar apenas novos artigos ou vídeos?&quot; |
