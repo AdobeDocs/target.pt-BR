@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+source-git-commit: 36ed858c1f241e69e9aa1a8cadbe2c128f99665c
 workflow-type: tm+mt
-source-wordcount: '3561'
-ht-degree: 99%
+source-wordcount: '3582'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 9 de março | [Problemas conhecidos e problemas resolvidos](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Adição dos seguintes problemas conhecidos:<ul><li>Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário</li></ul> |
+|  | [Sincronização de perfil em tempo real para mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Atualização da seguinte frase em relação à sincronização de perfil: &quot;As atualizações são sincronizadas com o armazenamento de perfil a cada 5-10 minutos.&quot; |
 | 8 de março | [Anúncios e eventos do Target](/help/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (30 de março de 2022)</li></ul> |
 | 7 de março | [Criar públicos-alvo](/help/c-target/c-audiences/audiences.md#aep) | Nova seção adicionada em &quot;Usar públicos-alvo de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalização</li></ul> |
 | 25 de fevereiro | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Atualização das seguintes seções:<ul><li>[Alocação automática e Direcionamento automático](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Alocação automática](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |

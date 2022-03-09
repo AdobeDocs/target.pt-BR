@@ -4,10 +4,10 @@ description: Saiba como usar a mbox3rdPartyId, que é a ID de visitante da sua e
 title: Como utilizar a sincronização de perfil em tempo real para mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
+source-git-commit: 211931f4456f5360efb1fbaa4f0bc23f5bfbcfc1
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 84%
+source-wordcount: '735'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +19,7 @@ Quando um visitante faz logon no site de uma empresa, a empresa normalmente cria
 
 Quando um visitante acessa uma página em que o [!DNL Target] está ativado, esse visitante recebe uma PCID do [!DNL Target]. Se o visitante fizer logon e a implementação transmitir a `mbox3rdPartyId` para o [!DNL Target], o [!DNL Target] conectará a `mbox3rdPartyId` desse visitante à PCID do [!DNL Target].
 
-A cada intervalo de 3 a 5 minutos, as atualizações são sincronizadas com o banco de dados. Quando o visitante faz logoff, os dados mesclados substituem os dados anteriores associados à `mbox3rdPartyId`, criando um registro completo das ações desse visitante. Se o mesmo atributo existir em ambas as IDs, por exemplo, a PCID tem category=hats e a `mbox3rdPartyId` tem category=skis, ou se o visitante visualizar a experiência A antes de fazer logon, mas a experiência B está armazenada na `mbox3rdPartyId`, o atributo armazenado na `mbox3rdPartyId` substitui o atributo da PCID. Se o visitante estava em uma atividade ou experiência antes de fazer logon, mas uma atividade e uma experiência diferente está armazenada na `mbox3rdPartyId`, esse visitante é colocado na atividade e na experiência da `mbox3rdPartyId` após o logon.
+As atualizações são sincronizadas com o armazenamento de perfil a cada 5-10 minutos. Quando a sessão do visitante termina, os dados mesclados substituem os dados anteriores associados à variável `mbox3rdPartyId`, criando um registro completo das ações do visitante. Se o mesmo atributo existir em ambas as IDs, por exemplo, a PCID tem category=hats e a `mbox3rdPartyId` tem category=skis, ou se o visitante visualizar a experiência A antes de fazer logon, mas a experiência B está armazenada na `mbox3rdPartyId`, o atributo armazenado na `mbox3rdPartyId` substitui o atributo da PCID. Se o visitante estava em uma atividade ou experiência antes de fazer logon, mas uma atividade e uma experiência diferente está armazenada na `mbox3rdPartyId`, esse visitante é colocado na atividade e na experiência da `mbox3rdPartyId` após o logon.
 
 | PCID (sem logon) | mbox3rdPartyId (com logon) | Mesclado e salvo em mbox3rdPartyId |
 |---|---|---|
