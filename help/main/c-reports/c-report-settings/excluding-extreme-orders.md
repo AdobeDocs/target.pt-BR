@@ -1,0 +1,38 @@
+---
+keywords: Target, relatórios, configurações de relatório, pedidos extremos, valores extremos
+description: Saiba como excluir valores extremos de afetar relatórios no Adobe [!DNL Target] assim, alguns pedidos incomuns não afetam os resultados de sua atividade.
+title: Como excluo valores extremos em relatórios?
+feature: Reports
+exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 72%
+
+---
+
+# Excluir valores extremos
+
+Você pode excluir valores extremos de afetar relatórios em [!DNL Adobe Target] assim, alguns pedidos incomuns não afetam os resultados de sua atividade. Um exemplo de um pedido incomum pode ser um técnico comprando uniformes para um time inteiro em vez de compradores individuais comprando uniformes individuais.
+
+>[!NOTE]
+>
+>O sinalizador [!UICONTROL Excluir valores extremos] é aplicado apenas para atividades com métricas do tipo receita e envolvimento.
+
+Os valores extremos são automaticamente sinalizados com um indicador com base nas regras a seguir. Você pode alternar entre ver e excluir os valores extremos dos seus relatórios. Uma atividade terá seus valores extremos excluídos após a atividade ter sido executada por uma hora ou 15 pedidos, o que ocorrer primeiro.
+
+Um valor é considerado extremo se ele tiver +/- 3 desvios-padrão do valor médio de pedido usando dados do último mês (até o ponto no tempo em que o cálculo foi feito).
+
+Por exemplo, o filtro de valor extremo geralmente é útil ao usar a RPV. A RPV combina a taxa de conversão e o valor médio de pedido, e costuma exibir a volatilidade dessas métricas. Caso use a RPV e veja que os pedidos não estão sendo distribuídos normalmente, é provável que os resultados apareçam normais se você aplicar o filtro de pedido extremo.
+
+Quando um valor é marcado como extremo, seu valor de pedido é substituído com o valor médio de pedido da experiência pelo último mês, excluindo extremos. O pedido também é marcado como extremo na variável [!UICONTROL Detalhes do pedido] e no download do CSV para resultados diários.
+
+**Para excluir os valores extremos dos seus relatórios:**
+
+1. Abra uma atividade que inclua métricas do tipo receita ou envolvimento e clique na guia **[!UICONTROL Relatórios.]**
+1. Clique no ícone de engrenagem para exibir o **[!UICONTROL Configurações]** caixa de diálogo.
+
+   ![Resultado da etapa](assets/exclude_extreme_values.png)
+
+1. Deslize o **[!UICONTROL Excluir valores extremos]** alterne para a posição &quot;ligado&quot; ou &quot;desligado&quot;, conforme desejado.
+1. Clique em **[!UICONTROL Salvar]**.
