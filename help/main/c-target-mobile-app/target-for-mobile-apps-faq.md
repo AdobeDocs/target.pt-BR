@@ -5,9 +5,9 @@ title: Perguntas frequentes sobre [!DNL Target] para aplicativos móveis?
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Atualmente, os SDKs do Adobe Experience Platform Mobile são compatíveis com iO
 
 ## Qual é a frequência do recurso baseado na localização, em termos de verificação sobre a latitude e a longitude?
 
-Consulte a [Documentação do Adobe Places](https://placesdocs.com/places-services-by-adobe-documentation/) para obter mais informações.
+Consulte a [Documentação do Adobe Places Service](https://experienceleague.adobe.com/docs/places/using/home.html) para obter mais informações.
 
 ## A at.js é necessária para que os SDKs do Adobe Experience Platform Mobile funcionem?
 

@@ -5,39 +5,50 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 49%
 
 ---
 
 # Notas de versão do Target (atual)
 
-Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão para APIs do Target, SDKs, [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
+Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão do [!DNL Target] APIs, SDKs, a variável [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações da plataforma também são incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## Target Standard/Premium 22.2.1 (1 de fevereiro de 2022)
+## [!DNL Target Standard/Premium] 22.3.1 (lançamento escalonado, data a determinar)
 
-Esta versão de manutenção contém as seguintes correções e aprimoramentos para a nova interface de [!UICONTROL Públicos-alvo] anunciada na versão 22.1.2 do Target Standard/Premium que estará sendo lançada para clientes em todas as regiões nas próximas seis semanas. Essas correções alinham a funcionalidade de públicos-alvo criados no [!DNL Adobe Target Standard/Premium].
+Esta versão contém as seguintes alterações e aprimoramentos:
 
-* Correção de um problema que impedia públicos-alvo importados da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e do [!DNL Adobe Target Classic] de serem atribuídos como públicos-alvo de relatórios. (TGT-43140)
-* Adicionada a opção [!UICONTROL Excluir] na lista de [!UICONTROL Públicos-alvo] para públicos-alvo importados da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e do [!DNL Adobe Target Classic]. Também foi adicionada a funcionalidade de exclusão em massa. (TGT-42914)
+* Correção de um problema que fazia com que as edições nos scripts de perfil fossem revertidas para o script original não editado após o script ser editado, ativado e depois desativado. O script de perfil agora permanece no seu estado editado. (TGT-43249)
+* Correção de um problema que causava a seguinte mensagem de erro no [!DNL Target] Interface do usuário ao mover um público-alvo usado em uma atividade com o status de &quot;rascunho&quot;: &quot;Não podemos concluir sua solicitação. Entre em contato com o atendimento ao cliente do Adobe se o problema persistir.&quot; (TGT-43212)
+* Correção de um problema que causava o [!UICONTROL Incluir] e [!UICONTROL Excluir] opções a serem desativadas para públicos-alvo combinados ao editar uma atividade. (TGT-43422)
+* Correção de um problema que impedia que alguns clientes visualizassem a lista de públicos disponíveis ao editar uma atividade. (TGT-43404)
+* Correção de um problema que impedia alguns clientes de excluir um endereço IP do &quot;[!UICONTROL IPs a serem excluídos [!DNL Target] dados de relatório]&quot; listar em [!UICONTROL Administração] > [!UICONTROL Relatório]. (TGT-43384)
+* Correção de um problema que impedia o uso de números negativos no critério de público-alvo que verificavam se qualquer variável era &quot;maior que&quot;, &quot;maior que ou igual a&quot;, &quot;menor que&quot; ou &quot;menor que ou igual a&quot;. (TGT-43367)
+* Correção de um problema que impedia que os clientes visualizassem a variável [!UICONTROL Detalhes do público-alvo] ao criar públicos-alvo combinados. (TGT-43303)
+* Correção de um problema que causava o [!DNL Target] IU ou nova [!UICONTROL Públicos-alvo] IU para o tempo limite prematuro de alguns clientes. (TGT-42590 e TGT-43273)
 
-## Versão 2.8.1 da at.js (28 de janeiro de 2022)
+## [!DNL Target] Versão da plataforma (30 de março)
 
-* Correção do `pageLoad` que não era mapeado para a target-global-mbox no modo de execução híbrido [!UICONTROL On Device Decisioning] (ODD).
-* Correção de um problema com detalhes de análise para a solicitação de mbox.
-* As dependências de desenvolvimento foram atualizadas para corrigirem vulnerabilidades de segurança.
+Esta versão inclui os seguintes aprimoramentos:
 
-## [!DNL Target Standard/Premium] 22.1.2 (26 de janeiro de 2022)
+* As métricas de rastreamento de cliques incluirão a carga de análise nas solicitações da API de entrega para atividades que usam o Analytics como fonte de geração de relatórios (A4T) e eventos de processo no lado do cliente. (TNT-43073)
 
-| Recurso | Detalhes |
-| --- | --- |
-| Públicos-alvo da [!DNL Adobe Experience Platform] no [!DNL Target] | Agora você pode consumir e usar públicos-alvo da [!DNL Adobe Experience Platform] no [!DNL Target]. As equipes do [!DNL Target], [!DNL Experience Platform] [!DNL Destinations] e [!DNL Unified Profile Service] têm o prazer de anunciar a disponibilidade geral dos casos de uso de “Personalização de mesma página/próxima página”.<br>O uso de públicos-alvo criados na [!DNL Adobe Experience Platform] fornece dados do cliente mais avançados, o que resulta em uma personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR){target=_blank} (RTCDP), integrado na [!DNL Adobe Experience Platform], ajuda as empresas a unirem dados conhecidos e anônimos de várias fontes corporativas para criar perfis de clientes que possam ser usados para fornecer experiências personalizadas em todos os canais e dispositivos em tempo real.<br>Para obter mais informações, consulte [Usar públicos-alvo da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) em *Criar públicos-alvo* e [Casos de uso de personalização de mesma página e próxima página](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} na guia *Visão geral dos Destinos*. |
-| Atualização da interface do usuário de [!UICONTROL públicos-alvo] | Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em melhorar a experiência para usuários do [!DNL Target], esta versão atualiza as páginas [!UICONTROL Públicos-alvo] e [!UICONTROL Scripts de perfil] na interface do [!DNL Target]. Essa atualização unifica e uniformiza os padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias, como:<ul><li>A capacidade de selecionar e excluir vários públicos-alvo simultaneamente</li><li>Um [design do criador de público-alvo](/help/main/c-target/c-audiences/create-audience.md) atualizado</li><li>Suporte à regras de exclusão no criador de regras da Biblioteca de [!UICONTROL público-alvo]</li><li>Um novo filtro de “Origem de público-alvo”, para permitir a descoberta mais rápida do público-alvo</li><li>Opções de filtro e pesquisa persistentes na sessão</li><li>A capacidade de mover públicos-alvo entre espaços de trabalho para clientes do [!DNL Target Premium].</li></ul>Para obter mais informações, consulte [Públicos-alvo](/help/main/c-target/target.md).<br>**OBSERVAÇÃO**: Esse recurso será lançado para clientes em diferentes regiões nas próximas oito semanas. |
-| Atualização da interface dos [!UICONTROL Scripts de Perfil] | A biblioteca de [!UICONTROL Scripts de Perfil] também foi atualizada e inclui uma interface renovada, além de várias atualizações de produtividade:<ul><li>A capacidade de selecionar e excluir vários scripts de perfil simultaneamente</li><li>Um novo editor de código para scripts de perfil</li><li>Realce da sintaxe e verificação de erros no editor de código</li><li>Parâmetros de tokens de preenchimento automático (mbox ou perfil) por meio de atalhos no teclado</li></ul>Para obter mais informações, consulte [Perfis do visitante](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**OBSERVAÇÃO**: Esse recurso será lançado para clientes em diferentes regiões nas próximas oito semanas. |
+## [!DNL Target Standard] Atualização de públicos-alvo (28 de março)
+
+Esta versão contém a seguinte atualização:
+
+* O novo [!UICONTROL Públicos-alvo] A interface do usuário será ativada para todos [!DNL Target Standard] clientes.
+
+## Correções de engenharia do cliente Target Standard/Premium (22 de março de 2022)
+
+Esta versão de manutenção contém os seguintes aprimoramentos:
+
+* Funcionalidade adicionada para retornar [!DNL Analytics] dados de carga para `prefetch` exibições e `pageLoad` clique nas métricas ao usar a variável [!UICONTROL API de entrega] com atividades que usam [!UICONTROL Analytics como fonte de relatórios] (A4T). (TNT-43198)
+* Atualização da lista de agentes do usuário da filtragem de bot para permitir um tipo de navegador comumente usado no Japão. (TNT-43867)
 
 ## Notas de versão adicionais e detalhes da versão
 

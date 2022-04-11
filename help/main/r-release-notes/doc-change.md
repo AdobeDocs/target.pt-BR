@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
+source-wordcount: '3664'
 ht-degree: 98%
 
 ---
@@ -15,14 +15,25 @@ ht-degree: 98%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
+## Adobe Target Standard/Premium 22.3.1 (4-6 de abril de 2022; libertação prolongada)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 4 de abril | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.3.1 do [!DNL Target Standard/Premium]. |
+
 ## Adobe Target Standard/Premium 22.2.1 (1 de fevereiro de 2022)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 30 de março | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do [!DNL Target] Versão da plataforma. |
+| 28 de março | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento sobre o [!DNL Target] Versão da plataforma. |
+| 22 de março | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do [!DNL Target Standard/Premium] versão de correções de engenharia do cliente. |
+|  | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento sobre a versão 22.3.1 do [!DNL Target Standard/Premium]. |
+| 17 de março | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento sobre o [!DNL Target Standard/Premium] versão de correções de engenharia do cliente. |
 | 9 de março | [Problemas conhecidos e problemas resolvidos](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Adição dos seguintes problemas conhecidos:<ul><li>Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário</li></ul> |
 |  | [Sincronização de perfil em tempo real para mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | Atualização da seguinte frase em relação à sincronização de perfil: &quot;As atualizações são sincronizadas com o armazenamento de perfil a cada 5-10 minutos.&quot; |
 | 8 de março | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (30 de março de 2022)</li></ul> |
-| 7 de março | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md#aep) | Nova seção adicionada em &quot;Usar públicos-alvo de [!DNL Adobe Experience Platform]:&quot;<ul><li>Casos de uso de personalização</li></ul> |
+| 7 de março | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md#aep) | Nova seção adicionada em “Usar públicos-alvo da [!DNL Adobe Experience Platform]”:<ul><li>Casos de uso de personalização</li></ul> |
 | 25 de fevereiro | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Atualização das seguintes seções:<ul><li>[Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Alocação automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretar relatórios de autoalocação](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Novas perguntas frequentes adicionadas:<ul><li>Os emblemas “Sem vencedor”, “Vencedor” e “estrela” estão disponíveis para atividades de [!UICONTROL Alocação automática] que usam o [!UICONTROL Analytics como fonte de relatórios] (A4T)?</li></ul> |
 |  | [Criar um público somente com atividades](/help/main/c-target/creating-activity-only-audience.md) | Foram adicionadas informações na seção “Considerações” sobre regras de exclusão. |

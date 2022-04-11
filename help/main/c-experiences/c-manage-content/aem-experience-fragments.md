@@ -4,10 +4,10 @@ description: Saiba como usar [!DNL Adobe Experience Manager] fragmentos de exper
 title: Como usar [!DNL Adobe Experience Manager] (AEM) Fragmentos de experiência?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 59%
+source-wordcount: '1218'
+ht-degree: 57%
 
 ---
 
@@ -100,6 +100,8 @@ Você pode consumir fragmentos de experiência em atividades do [!DNL Target] us
 >[!NOTE]
 >
 >Para usar totalmente a variável [!DNL Target] Funcionalidade AI e ML, você pode selecionar [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar um teste A/B.
+>
+>Fragmentos de experiência não são suportados em [!DNL Recommendations] atividades. No entanto, para usar fragmentos de experiência para recomendações, você pode criar um [!UICONTROL Teste A/B] atividade (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) ou [!UICONTROL Direcionamento de experiência] (XT) e [incluir recomendações como uma oferta](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **Para consumir fragmentos de experiência usando o VEC:**
 

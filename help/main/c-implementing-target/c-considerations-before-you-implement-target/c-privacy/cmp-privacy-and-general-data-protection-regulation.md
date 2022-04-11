@@ -5,10 +5,10 @@ title: Como [!DNL Target] Lidar com privacidade e regulamentos de proteção de 
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 58%
+source-wordcount: '2209'
+ht-degree: 57%
 
 ---
 
@@ -31,8 +31,9 @@ Como o Controlador de dados, você determinará os dados pessoais que a [!DNL Ad
 
 Para obter mais informações, consulte:
 
-* [Site da API do Regulamento Geral sobre a Proteção de Dados da Adobe](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [Documentação do GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Visão geral do Privacy Service Adobe](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Guia da API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Visão geral da interface do usuário do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## Visão geral da California Consumer Privacy Act (CCPA)
 

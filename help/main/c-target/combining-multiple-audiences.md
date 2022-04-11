@@ -4,10 +4,10 @@ description: Saiba como combinar vários públicos-alvo (incluindo públicos-alv
 title: Posso combinar vários públicos para criar um novo público?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 68%
+source-wordcount: '931'
+ht-degree: 65%
 
 ---
 
@@ -17,7 +17,7 @@ Combinar vários públicos (incluindo [!DNL Adobe Experience Cloud], [!DNL Adobe
 
 >[!NOTE]
 >
->O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou combinada com públicos-alvo existentes, conforme explicado neste tópico).
+>O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou combinada com públicos-alvo existentes, conforme explicado neste tópico.
 >
 >Para obter mais informações, consulte [Usar públicos-alvo do Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -25,7 +25,7 @@ Suponha que você tenha um público-alvo de &quot;Novos visitantes&quot; e um p�
 
 Como outro exemplo, você pode direcionar todos os clientes de fidelidade. Por exemplo, é possível incluir uma variável específica de [!DNL Audience Manager] público-alvo para obter o status de fidelidade e combiná-lo com um [!DNL Target] público-alvo composto por pessoas que se inscreveram no programa de fidelidade durante a sessão atual. É mais fácil combinar esses dois públicos-alvo do que criar um terceiro público-alvo permanente.
 
-Você pode combinar até dez públicos-alvo usando operadores AND e OR.
+Você pode combinar até 20 públicos-alvo usando operadores AND e OR.
 
 Você pode criar e usar públicos-alvo combinados em vários locais na interface do usuário do [!DNL Target].
 
@@ -37,13 +37,13 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
    ![Resultado da etapa](assets/edit_audience.png)
 
-1. Na página [!UICONTROL Escolher público-alvo], marque as caixas de seleção ao lado dos públicos-alvo desejados que você deseja usar como blocos de construção para o público-alvo combinado.
+1. Na página **[!UICONTROL Escolher público-alvo]**, marque as caixas de seleção ao lado dos públicos-alvo desejados que você deseja usar como blocos de construção para o público-alvo combinado.
 
-   Clique no botão [!UICONTROL Filtros] para restringir sua pesquisa para o público-alvo desejado. Você pode filtrar públicos-alvo pela origem: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
+   Use o [!UICONTROL Pesquisar públicos-alvo] para limitar sua pesquisa pelo público-alvo desejado.
 
    ![Resultado da etapa](assets/combine_multiple_audiences1.png)
 
-1. Clique em **[!UICONTROL Combinar públicos]** no canto superior direito.
+1. Clique em **[!UICONTROL Combinar vários públicos]** no canto superior direito.
 
    ![Resultado da etapa](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Observe que o operador entre os dois públicos-alvo do tipo de navegador é &quot;E&quot;. Selecione a lista suspensa e altere para &quot;OU&quot; para criar um novo público-alvo combinado para os novos visitantes que usam o Safari ou o Firefox. Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando o Firefox e o Safari simultaneamente.
+      Observe que o operador entre os dois públicos-alvo do tipo de navegador é &quot;E&quot;. Selecione o [!UICONTROL E] lista suspensa e altere para &quot;OU&quot; para criar um novo público-alvo combinado para novos visitantes usando o Firefox ou o Safari. Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando o Firefox e o Safari simultaneamente.
 
       >[!NOTE]
       >
