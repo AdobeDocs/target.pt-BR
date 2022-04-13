@@ -1,13 +1,13 @@
 ---
-keywords: anúncios;skill builder;bate-papo do desenvolvedor;coffee break;eventos;forrester;gartner, webinário
+keywords: anúncios;skill builder;bate-papo do desenvolvedor;coffee break;eventos;forrester;gartner;webinário
 description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] , inclusive sessões do Skill Builder, bate-papos com desenvolvedores e gerentes de produtos, webinários e muito mais.
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 94%
+source-wordcount: '584'
+ht-degree: 93%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 94%
 
 Anúncios e informações sobre eventos futuros, incluindo sessões do criador de habilidades, chats de desenvolvedor e webinários do [!DNL Adobe Target], além de sessões de Coffee break do [!DNL Target].
 
-## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (30 de março de 2022)
+## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (27 de abril de 2022)
 
-* **quarta-feira, 30 de março de 2022**
-* **8:00 (PDT, UTC -7)**
-* **[Mais informações e informações de registro](https://adobe.ly/3sIS5Mg)**
+* **quarta-feira, 27 de abril de 2022**
+* **8h (PDT, UTC -7)**
+* **[Mais informações e informações de registro](https://adobe.ly/371Uny2)**
 
-O Consultor Sênior de Soluções, Ryan Pizzuto, responderá as perguntas dos clientes relacionadas às suas áreas de conhecimento:
+O Consultor Principal de Soluções, James McTiernan, responderá as perguntas dos clientes relacionadas às suas áreas de conhecimento:
 
-* [!UICONTROL Direcionamento automático]
-* [!UICONTROL Personalização automatizada]
-* [!UICONTROL Recommendations]
-* Geral [!UICONTROL Adobe Target] tópicos
+* [!UICONTROL Teste A/B] atividades
+* [!UICONTROL Teste multivariado] atividades
+* [!UICONTROL Atividades do Recommendations]
+* Personalização
+* Tópicos gerais do [!UICONTROL Adobe Target]
 
-O engenheiro de Suporte Técnico, Mihnea Docea, estará auxiliando Vishal.
+O engenheiro de Suporte Técnico Simon Chen vai ajudar James.
 
 ## Webinário: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 

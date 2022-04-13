@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '3664'
-ht-degree: 98%
+source-wordcount: '3692'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 4 de abril | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.3.1 do [!DNL Target Standard/Premium]. |
+| 13 de abril | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (27 de abril de 2022)</li></ul> |
+|  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre a versão do [!DNL Target] Versão da plataforma. |
+| 4 de abril | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Informações atualizadas sobre o [!DNL Target Standard/Premium] Versão 22.3.1. |
 
 ## Adobe Target Standard/Premium 22.2.1 (1 de fevereiro de 2022)
 

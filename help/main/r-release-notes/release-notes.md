@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 49%
+source-wordcount: '701'
+ht-degree: 47%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 49%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão do [!DNL Target] APIs, SDKs, a variável [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações da plataforma também são incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## Versão da plataforma do Target (13 de abril de 2022)
+
+Esta versão contém a seguinte atualização:
+
+* Correção de um problema para garantir que o último octeto de endereços IP fosse ofuscado corretamente quando capturado usando scripts de perfil. (TNT-44076)
 
 ## [!DNL Target Standard/Premium] 22.3.1 (lançamento escalonado, data a determinar)
 
