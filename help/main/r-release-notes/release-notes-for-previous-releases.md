@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '33051'
+source-wordcount: '33165'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,25 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2022
+
+### [!DNL Target] Versão da plataforma (30 de março)
+
+Esta versão inclui os seguintes aprimoramentos:
+
+* As métricas de rastreamento de cliques incluirão a carga de análise nas solicitações da API de entrega para atividades que usam o Analytics como fonte de geração de relatórios (A4T) e eventos de processo no lado do cliente. (TNT-43073)
+
+### [!DNL Target Standard] Atualização de públicos-alvo (28 de março)
+
+Esta versão contém a seguinte atualização:
+
+* O novo [!UICONTROL Públicos-alvo] A interface do usuário será ativada para todos [!DNL Target Standard] clientes.
+
+### Correções de engenharia do cliente Target Standard/Premium (22 de março de 2022)
+
+Esta versão de manutenção contém os seguintes aprimoramentos:
+
+* Funcionalidade adicionada para retornar [!DNL Analytics] dados de carga para `prefetch` exibições e `pageLoad` clique nas métricas ao usar a variável [!UICONTROL API de entrega] com atividades que usam [!UICONTROL Analytics como fonte de relatórios] (A4T). (TNT-43198)
+* Atualização da lista de agentes do usuário da filtragem de bot para permitir um tipo de navegador comumente usado no Japão. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1 de fevereiro de 2022)
 
