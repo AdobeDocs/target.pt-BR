@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e aprimoramentos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 73%
+source-wordcount: '252'
+ht-degree: 50%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 73%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 20 de abril de 2022**
+**Última atualização: 21 de abril de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## [!DNL Target] versão da plataforma (27 de abril de 2022)
+
+Esta versão contém a seguinte alteração:
+
+* Com esta versão, você pode pré-buscar conteúdo para [!UICONTROL Personalização automática] (AP) e [!UICONTROL Direcionamento automático] Atividades (AT) (anteriormente não devolvidas por [!DNL Target]). Isso pode alterar as experiências que os usuários finais veem no caso de uma chamada de pré-busca (sem alterações no fluxo de &quot;execução&quot;) se uma atividade de AP/AT estiver no caminho do delivery e tiver prioridade mais alta do que outras atividades AB/XT que usam o mesmo local para a entrega de conteúdo.
 
 ## [!DNL Target Standard/Premium] 22.4.1 (28 de abril de 2022)
 

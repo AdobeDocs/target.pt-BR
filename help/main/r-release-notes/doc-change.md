@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
 workflow-type: tm+mt
-source-wordcount: '3736'
-ht-degree: 97%
+source-wordcount: '3751'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 21 de abril | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento sobre o [!DNL Target] versão da plataforma programada para 17 de abril de 2022. |
 | 20 de abril | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento sobre a versão 22.4.1 do [!DNL Target Standard/Premium]. |
 | Abril de 14 | [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Foram adicionadas informações à seção Reorganizar para explicar como lidar com o comportamento inconsistente do VEC com o [!UICONTROL Mover] e [!UICONTROL Reorganizar] ações devido ao carregamento lento de elementos DOM. |
 | 13 de abril | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (27 de abril de 2022)</li></ul> |
