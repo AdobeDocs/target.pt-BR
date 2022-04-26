@@ -4,16 +4,16 @@ description: Saiba como usar o painel Modificações no Adobe [!DNL Target] para
 title: Quais modificações posso fazer na minha página?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2137'
 ht-degree: 93%
 
 ---
 
 # Modificações
 
-Informações sobre a página de Modificações em [!DNL Adobe Target] que permite visualizar modificações na sua página e adicionar outras modificações (Seletor de CSS, Mbox e Código personalizado).
+Informações sobre o [!UICONTROL Modificações] em [!DNL Adobe Target] que permite visualizar modificações na sua página e adicionar outras modificações (Seletor de CSS, Mbox e Código personalizado).
 
 A página de Modificações mostra todas as alterações feitas em sua página no Visual Experience Composer (VEC) e permite que você faça alterações adicionais clicando em cada elemento da página e  [selecionando uma ação](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Cada alteração feita aparece como uma ação ou elemento separado na lista de [!UICONTROL Modificações]. Além disso, é possível adicionar modificações, incluindo os seguintes tipos de modificação: Seletor CSS, Mbox. e Código personalizado.
 
@@ -157,20 +157,6 @@ Use a guia **[!UICONTROL Código personalizado]** para:
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* Trocar com o modo de consulta de DOM por meio do plug-in `elementOnLoad`
-
-   A vantagem disso é que a troca ocorre mais cedo do que no modo pronto para DOM. O plug-in lida com a pré-ocultação e a exibição, e requer uma id do elemento.
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
