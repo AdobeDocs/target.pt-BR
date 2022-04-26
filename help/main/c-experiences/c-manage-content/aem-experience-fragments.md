@@ -4,10 +4,10 @@ description: Saiba como usar [!DNL Adobe Experience Manager] fragmentos de exper
 title: Como usar [!DNL Adobe Experience Manager] (AEM) Fragmentos de experiência?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 55%
+source-wordcount: '1324'
+ht-degree: 53%
 
 ---
 
@@ -150,11 +150,13 @@ Você pode consumir fragmentos de experiência em atividades do [!DNL Target] us
 * Não é possível criar fragmentos de experiência usando [!DNL Adobe I/O]. Crie fragmentos de experiência usando AEM, conforme explicado acima.
 * Se você atualizar o fragmento de experiência no AEM, o fragmento de experiência deverá ser publicado e exportado para [!DNL Target] novamente [!DNL Target] O pode usar as alterações mais recentes.
 
-## Remoção de bibliotecas de clientes dos fragmentos de experiência exportados para o Target
+## Remoção de ClientLibs e HTML extras dos Fragmentos de experiência exportados para o Target
 
-Ao usar uma oferta de fragmento de experiência com [!DNL Target] em uma página entregue pelo AEM, a página de destino já contém todas as bibliotecas de clientes necessárias. Além disso, o html externo na oferta XF também não é necessário.
+Ao usar ofertas de fragmento de experiência com [!DNL Target] em uma página entregue pelo AEM, a página de destino já contém todas as bibliotecas de clientes necessárias. Observe também que elementos HTML irrelevantes na oferta também não são necessários.
 
-Para obter mais informações, consulte [esta postagem de blog](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+Às vezes, as páginas de HTML inteiras envolvem o fragmento de experiência e causam problemas. Certifique-se de que o fragmento de experiência seja um pequeno HTML e não uma página HTML completa com HTML, HEAD, BODY e assim por diante.
+
+Para obter mais informações, consulte a seguinte publicação do blog: [AEM 6.5: Remoção de bibliotecas de clientes dos fragmentos de experiência exportados para o Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Vídeo de treinamento: Uso AEM fragmentos de experiência com [!DNL Adobe Target]
 

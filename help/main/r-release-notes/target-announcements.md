@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] ,
 title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 93%
+source-wordcount: '831'
+ht-degree: 67%
 
 ---
 
@@ -30,6 +30,36 @@ O Consultor Principal de Soluções, James McTiernan, responderá as perguntas d
 * Tópicos gerais do [!UICONTROL Adobe Target]
 
 O engenheiro de Suporte Técnico Simon Chen vai ajudar James.
+
+## Webinar: Personalização em tempo real com o Adobe Target (28 de abril de 2022)
+
+* **quinta-feira, 28 de abril de 2022**
+* **13:00 às 14:00 (EDT, UTC -4)**
+* **[Mais informações e informações de registro](https://real-time.dxfieldmarketing.adobeevents.com/)**
+
+Como você pode personalizar suas experiências digitais usando essas várias fontes de perfil hoje? Como você posiciona sua equipe para o sucesso no futuro? Quais são os benefícios de permitir que as marcas realmente conheçam e respeitem seus clientes e, ao mesmo tempo, otimizem todas as interações com os clientes?
+
+Nesta sessão, saiba como [!DNL Adobe Target] elimina a lacuna na combinação de dados em várias fontes para a Personalização em tempo real, conforme discutimos:
+
+* Por que o desempenho da personalização e a velocidade são importantes para impulsionar um crescimento mais rápido dos negócios
+* Como as equipes podem criar estratégias de dados originais e resolver seus desafios de fragmentação de dados
+* Fluxos de trabalho completos para fornecer experiências personalizadas em milissegundos
+* Casos de uso exclusivos de marcas para envolver clientes e prospetos em tempo real com mensagens, conteúdo e ofertas relevantes.
+
+## [!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (25 de maio de 2022)
+
+* **quarta-feira, 25 de maio de 2022**
+* **8h (PDT, UTC -7)**
+* **[Mais informações e informações de registro](https://adobe.ly/3LbOj4G)**
+
+Brent Kostak e Drew Burns da equipe de marketing de produtos da Adobe Target responderão às perguntas dos clientes relacionadas às áreas de conhecimento. Os clientes são convidados a postar perguntas relacionadas aos seguintes tópicos que foram abordados durante o webinário de Personalização em tempo real 28/4/22 :
+
+* Criação de públicos-alvo compartilhados com a Adobe Target e a Real-Time CDP
+* Construir estratégias de dados originais para resolver desafios de fragmentação de dados
+* Implantação de workflows completos para personalização de milissegundo
+* Fornecer mensagens, conteúdo e ofertas relevantes em tempo real para impulsionar o engajamento
+
+Kai Motoyama, Engenheiro de Suporte Técnico, também estará no tópico da discussão fornecendo suporte adicional.
 
 ## Webinário: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 
