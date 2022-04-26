@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e aprimoramentos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: f5c9b6e4b9c37027049e3d8b2d0dc31002853df7
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 50%
+source-wordcount: '241'
+ht-degree: 53%
 
 ---
 
@@ -26,8 +26,6 @@ Esta versão contém a seguinte alteração:
 * Com esta versão, você pode pré-buscar conteúdo para [!UICONTROL Personalização automática] (AP) e [!UICONTROL Direcionamento automático] Atividades (AT) (anteriormente não devolvidas por [!DNL Target]). Isso pode alterar as experiências que os usuários finais veem no caso de uma chamada de pré-busca (sem alterações no fluxo de &quot;execução&quot;) se uma atividade de AP/AT estiver no caminho do delivery e tiver prioridade mais alta do que outras atividades AB/XT que usam o mesmo local para a entrega de conteúdo.
 
 ## [!DNL Target Standard/Premium] 22.4.1 (28 de abril de 2022)
-
-Esta versão estará disponível de acordo com o seguinte agendamento:
 
 Esta versão contém a seguinte correção:
 
