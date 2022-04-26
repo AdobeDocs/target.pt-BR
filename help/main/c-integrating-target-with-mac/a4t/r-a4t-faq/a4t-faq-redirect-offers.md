@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas sobre o uso de ofertas de redirec
 title: Onde posso encontrar perguntas frequentes sobre ofertas de redirecionamento com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 61%
+source-wordcount: '1468'
+ht-degree: 54%
 
 ---
 
@@ -36,6 +36,21 @@ As três bibliotecas devem ser incluídas na página com a oferta de redireciona
 ## Por que algumas vezes existem discrepâncias de dados entre o A4T e o Analytics?
 
 Algumas discrepâncias de dados são esperadas. Para obter mais informações, consulte [Variações de dados esperadas entre o Target e o Analytics ao usar ou não o A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
+## Como posso minimizar as discrepâncias na distribuição de tráfego ao usar ofertas de redirecionamento em atividades do A4T? {#discrepancies}
+
+Um número limitado de clientes relatou graus mais altos de variação na distribuição do tráfego ao usar ofertas de redirecionamento em atividades configuradas com [!UICONTROL Analytics para Target] (A4T).
+
+Considere o seguinte:
+
+* Ordem incorreta de [!DNL Target] e [!DNL Analytics] as chamadas podem ser responsáveis por graus mais altos de variação.
+
+   O [!DNL Target] a chamada deve preceder a [!DNL Analytics] na página de origem (onde o redirecionamento ocorre) e na página de destino (onde o redirecionamento termina).
+
+* Certifique-se de usar as ofertas de redirecionamento nas atividades de redirecionamento do A4T.
+* Se houver vários [!DNL Target] solicitações de localização na página de origem (onde o redirecionamento ocorre), [!DNL Adobe] A recomenda executar a atividade de redirecionamento na primeira [!DNL Target] solicitação de local.
+
+   Execução da atividade de redirecionamento na primeira [!DNL Target] solicitação de local reduz as chances de qualquer qualificação de atividade ocorrer em outros [!DNL Target] solicitações de localização e sendo contadas no relatório. Os visitantes que são redirecionados não precisam ser contados nos relatórios de outras atividades, pois não verão as experiências.
 
 ## Por que as visualizações de página na página original e na página de redirecionamento são contadas às vezes? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
