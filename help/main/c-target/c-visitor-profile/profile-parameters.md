@@ -4,10 +4,10 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 50%
+source-wordcount: '2423'
+ht-degree: 49%
 
 ---
 
@@ -72,6 +72,9 @@ Lembre-se das seguintes informações:
 
 * Consulte os atributos de script do perfil (incluindo ele mesmo) no código com `user.get('parameterName')`.
 * Salve variáveis que podem ser acessadas na próxima vez que o script for executado (na própria solicitação da mbox) com `user.setLocal('variable_name', 'value')`. Faça referência à variável com `user.getLocal('variable_name')`. Esse processo é útil para situações em que você deseja fazer referência à data e hora da última solicitação.
+
+   Esses valores persistem como um script de perfil, mas você só tem acesso a eles dentro do script em que foram definidos.
+
 * Os parâmetros e valores distinguem maiúsculas de minúsculas. Verifique as letras maiúsculas e minúsculas e os valores recebidos durante a atividade ou o teste.
 * Consulte a seção &quot;Referência de JavaScript para os parâmetros do perfil de script&quot; abaixo para obter mais sintaxe de JavaScript.
 * O parâmetro permanece no perfil após desativar o script. Os usuários cujos perfis já contêm um parâmetro que é usado no público-alvo de uma atividade são qualificados nessa atividade.
