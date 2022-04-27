@@ -5,7 +5,7 @@ title: O que são permissões de usuário empresarial e como usá-las?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
+source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
 workflow-type: tm+mt
 source-wordcount: '3133'
 ht-degree: 57%
@@ -277,7 +277,7 @@ Sim, você pode mover públicos entre espaços de trabalho usando a variável [!
 
 >[!NOTE]
 >
->Você deve ter os direitos apropriados para editar um público-alvo. Além disso, o público-alvo não deve ser usado em outras atividades. Se o público-alvo estiver sendo usado em outras atividades e você ainda desejar mover o público-alvo para outra estação de trabalho, remova-o das outras atividades em que estiver sendo usado.
+>Você deve ter os direitos apropriados para editar um público-alvo. Além disso, o público-alvo não deve ser usado em outras atividades. Se o público-alvo estiver sendo usado em outras atividades e você ainda desejar mover o público-alvo para outro local de trabalho, remova-o das outras atividades em que estiver sendo usado.
 
 ### Por que recebo uma mensagem de erro indicando que nenhuma propriedade está associada a essa atividade, mesmo que haja uma propriedade atribuída?
 
