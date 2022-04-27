@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 65%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 65%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão do [!DNL Target] APIs, SDKs, a variável [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações da plataforma também são incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target] versão da plataforma (27 de abril de 2022)
+
+Esta versão contém a seguinte alteração:
+
+* Com esta versão, você pode pré-buscar conteúdo para [!UICONTROL Personalização automática] (AP) e [!UICONTROL Direcionamento automático] Atividades (AT) (anteriormente não devolvidas por [!DNL Target]). Isso pode alterar as experiências que os usuários finais veem no caso de uma chamada de pré-busca (sem alterações no fluxo de &quot;execução&quot;) se uma atividade de AP/AT estiver no caminho do delivery e tiver prioridade mais alta do que outras atividades AB/XT que usam o mesmo local para a entrega de conteúdo.
 
 ## Versão da plataforma do Target (13 de abril de 2022)
 
