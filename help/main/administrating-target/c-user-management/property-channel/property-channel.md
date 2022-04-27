@@ -5,10 +5,10 @@ title: O que são permissões de usuário empresarial e como usá-las?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3132'
+ht-degree: 57%
 
 ---
 
@@ -262,6 +262,22 @@ As perguntas frequentes sobre as permissões empresariais incluem o seguinte:
 Infelizmente, não é possível mover atividades de um espaço de trabalho para outro. No entanto, é possível copiar uma atividade para qualquer espaço de trabalho, sabendo que os dados de relatório não são transferidos. Para obter mais informações, consulte &quot;Copiando/editando uma atividade ao usar espaços de trabalho&quot; em [Copiando/editando uma atividade ao usar espaços de trabalho](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 As atividades criadas antes da migração continuam sendo executadas da mesma maneira no Espaço de trabalho padrão, a menos que sejam editadas e atribuídas a propriedades. As atividades em um espaço de trabalho específico seguem as propriedades atribuídas a esse espaço de trabalho e, portanto, o comportamento pode não permanecer o mesmo de antes da migração.
+
+### Posso mover um público-alvo de um espaço de trabalho para outro? {#move-audience}
+
+Sim, você pode mover públicos entre espaços de trabalho usando a variável [!UICONTROL Mais ações] na [!UICONTROL Públicos-alvo] página.
+
+1. Clique no botão **[!UICONTROL Mais ações]** (os três elipses), e clique em **[!UICONTROL Mover]**.
+
+   ![Mais Ações > Mover](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. Selecione o espaço de trabalho desejado no **[!UICONTROL Workspace]** lista suspensa e clique em **[!UICONTROL Mover]**.
+
+   ![Selecionar o público-alvo desejado para mover para o novo espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>Você deve ter os direitos apropriados para editar um público-alvo. Além disso, o público-alvo não deve ser usado em outras atividades. Se o público-alvo estiver sendo usado em outras atividades e você ainda desejar mover o público-alvo para outra estação de trabalho, remova-o das outras atividades em que estiver sendo usado.
 
 ### Por que recebo uma mensagem de erro indicando que nenhuma propriedade está associada a essa atividade, mesmo que haja uma propriedade atribuída?
 
