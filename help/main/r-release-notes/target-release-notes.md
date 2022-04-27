@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e aprimoramentos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 71%
+source-wordcount: '188'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 Esta versão contém a seguinte correção:
 
 * Correção de um problema que fazia com que três algoritmos baseados no carrinho usassem a mesma condição Comprada/Comprada no [!DNL Target] backend. (TGT-43456)
-* Ativado [!DNL Target] Atualização de token da interface do usuário para organizações habilitadas com T2E e PBA (Autenticação Baseada em Política) (TGT-42590).
+* Ativado [!DNL Target] Atualização de token da interface do usuário para organizações habilitadas com [Contas de ID de empresa](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e Autenticação Baseada em Política (PBA). (TGT-42590)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
