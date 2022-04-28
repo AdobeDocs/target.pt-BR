@@ -5,10 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ### Experiências por atividade
 
-* **Limite**: 2.000 experiências por direcionamento de experiência (XT), Teste A/B, Teste multivariado (MVT) e atividade automática do Target.
+* **Limite**: 2.000 experiências por [!UICONTROL Direcionamento de experiência] (XT), [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT) e [!UICONTROL Direcionamento automático] atividade .
 
    30.000 experiências por atividade de Automated Personalization (AP).
 
@@ -192,7 +192,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 256
+   * tamanho máximo do valor do parâmetro do perfil 5000
 
    **Endpoint da API de entrega**:
 
@@ -203,7 +203,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 256
+   * tamanho máximo do valor do parâmetro do perfil 5000
 
 
 
