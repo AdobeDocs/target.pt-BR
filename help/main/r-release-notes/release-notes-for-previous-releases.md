@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '33165'
+source-wordcount: '33321'
 ht-degree: 99%
 
 ---
@@ -66,6 +66,22 @@ Esta versão de manutenção contém as seguintes correções e aprimoramentos p
 ### [!DNL Target Standard/Premium] 22.1.1 (12 de janeiro de 2022)
 
 Esta versão inclui correções de erros e recursos necessários para integrações futuras.
+
+### Versão da plataforma do Target (13 de abril de 2022)
+
+Esta versão contém a seguinte atualização:
+
+* Correção de um problema para garantir que o último octeto de endereços IP fosse ofuscado corretamente quando capturado usando scripts de perfil. (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1 (5 de abril de 2022)
+
+Esta versão contém as seguintes alterações e aprimoramentos:
+
+* Correção de um problema que causava o [!UICONTROL Incluir] e [!UICONTROL Excluir] opções a serem desativadas para públicos-alvo combinados ao editar uma atividade. (TGT-43422)
+* Correção de um problema que impedia que alguns clientes visualizassem a lista de públicos disponíveis ao editar uma atividade. (TGT-43404)
+* Correção de um problema que impedia alguns clientes de excluir um endereço IP do &quot;[!UICONTROL IPs a serem excluídos [!DNL Target] dados de relatório]&quot; listar em [!UICONTROL Administração] > [!UICONTROL Relatório]. (TGT-43384)
+* Correção de um problema que impedia o uso de números negativos no critério de público-alvo que verificavam se qualquer variável era &quot;maior que&quot;, &quot;maior que ou igual a&quot;, &quot;menor que&quot; ou &quot;menor que ou igual a&quot;. (TGT-43367)
+* Correção de um problema que impedia que os clientes visualizassem a variável [!UICONTROL Detalhes do público-alvo] ao criar públicos-alvo combinados. (TGT-43303)
 
 ### Versão 2.8.0 da at.js (7 de janeiro de 2022)
 

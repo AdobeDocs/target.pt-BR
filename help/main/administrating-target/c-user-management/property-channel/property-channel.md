@@ -5,9 +5,9 @@ title: O que são permissões de usuário empresarial e como usá-las?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3150'
 ht-degree: 57%
 
 ---
@@ -198,6 +198,7 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
    ![](assets/channel_options.png)
 
 * **Criação de público-alvo:** Ao criar um público-alvo, ele é criado no espaço de trabalho selecionado no momento.
+* **Lista de públicos-alvo:** Você pode mover públicos-alvo entre espaços de trabalho usando a variável [!UICONTROL Mais ações] > [!DNL Move] na [!UICONTROL Públicos-alvo] página.
 * **Criação da oferta:** Ao criar uma oferta, ela é criada no espaço de trabalho selecionado no momento.
 * **Página Propriedades (Administração > Propriedades):** Você pode usar o [!UICONTROL Pesquisar] para pesquisar o [!UICONTROL Propriedade] lista.
 
@@ -215,7 +216,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões em [!DNL T
    * Ao criar uma atividade, público-alvo ou oferta na exibição Todos os espaços de trabalho, você deve selecionar o espaço de trabalho onde o item será criado. Somente esses espaços de trabalho podem ser selecionados para o qual você tem a permissão de Editor ou Aprovador.
    * Ao copiar uma atividade, público-alvo ou oferta na exibição Todos os espaços de trabalho, você deve selecionar o espaço de trabalho onde o item será copiado. Somente esses espaços de trabalho podem ser selecionados para o qual você tem a permissão de Editor ou Aprovador.
 
-* Qualquer configuração no seguinte AdministradorAs páginas de classificação podem ser controladas por qualquer Aprovador em qualquer espaço de trabalho:
+* Qualquer configuração no seguinte [!UICONTROL Administração] as páginas podem ser controladas por [!UICONTROL Aprovador] em qualquer espaço de trabalho:
 
    * Visual Experience Composer
    * Relatório

@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 56%
+source-wordcount: '460'
+ht-degree: 68%
 
 ---
 
@@ -18,27 +18,18 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
+## [!DNL Target Standard/Premium] 22.4.1 (28 de abril de 2022)
+
+Esta versão contém a seguinte correção:
+
+* Correção de um problema que fazia com que três algoritmos baseados no carrinho usassem a mesma condição Comprada/Comprada no [!DNL Target] backend. (TGT-43456)
+* Ativado [!DNL Target] Atualização de token da interface do usuário para organizações habilitadas com [Contas de ID de empresa](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e Autenticação Baseada em Política (PBA). (TGT-42590)
+
 ## [!DNL Target] versão da plataforma (27 de abril de 2022)
 
 Esta versão contém a seguinte alteração:
 
 * Com esta versão, você pode pré-buscar conteúdo para [!UICONTROL Personalização automática] (AP) e [!UICONTROL Direcionamento automático] Atividades (AT) (anteriormente não devolvidas por [!DNL Target]). Isso pode alterar as experiências que os usuários finais veem no caso de uma chamada de pré-busca (sem alterações no fluxo de &quot;execução&quot;) se uma atividade de AP/AT estiver no caminho do delivery e tiver prioridade mais alta do que outras atividades AB/XT que usam o mesmo local para a entrega de conteúdo.
-
-## Versão da plataforma do Target (13 de abril de 2022)
-
-Esta versão contém a seguinte atualização:
-
-* Correção de um problema para garantir que o último octeto de endereços IP fosse ofuscado corretamente quando capturado usando scripts de perfil. (TNT-44076)
-
-## [!DNL Target Standard/Premium] 22.3.1 (5 de abril de 2022)
-
-Esta versão contém as seguintes alterações e aprimoramentos:
-
-* Correção de um problema que causava o [!UICONTROL Incluir] e [!UICONTROL Excluir] opções a serem desativadas para públicos-alvo combinados ao editar uma atividade. (TGT-43422)
-* Correção de um problema que impedia que alguns clientes visualizassem a lista de públicos disponíveis ao editar uma atividade. (TGT-43404)
-* Correção de um problema que impedia alguns clientes de excluir um endereço IP do &quot;[!UICONTROL IPs a serem excluídos [!DNL Target] dados de relatório]&quot; listar em [!UICONTROL Administração] > [!UICONTROL Relatório]. (TGT-43384)
-* Correção de um problema que impedia o uso de números negativos no critério de público-alvo que verificavam se qualquer variável era &quot;maior que&quot;, &quot;maior que ou igual a&quot;, &quot;menor que&quot; ou &quot;menor que ou igual a&quot;. (TGT-43367)
-* Correção de um problema que impedia que os clientes visualizassem a variável [!UICONTROL Detalhes do público-alvo] ao criar públicos-alvo combinados. (TGT-43303)
 
 ## Notas de versão adicionais e detalhes da versão
 
