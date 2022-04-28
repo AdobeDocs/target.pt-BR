@@ -4,10 +4,10 @@ description: Saiba como usar uma atividade de alocação automática no Adobe [!
 title: O que é uma atividade de alocação automática?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 51%
+source-wordcount: '3559'
+ht-degree: 49%
 
 ---
 
@@ -206,6 +206,16 @@ Usar o [!UICONTROL Redefinir dados de relatório] opção para [!UICONTROL Aloca
 Se uma ocorrência ocorrer em outro ambiente (não padrão), o tráfego será distribuído de acordo com o comportamento de conversão observado no ambiente padrão. O resultado dessa ocorrência (conversão ou não conversão) é registrado para fins de relatório, mas não é considerado na variável [!UICONTROL Alocação automática] modelo.
 
 Ao selecionar outro ambiente, o relatório mostra o tráfego e as conversões desse ambiente. O ambiente padrão selecionado para um relatório é o padrão em toda a conta selecionado. O ambiente padrão não pode ser definido com base em atividades.
+
+### Pode uma [!UICONTROL Alocação automática] atividade de ajuste da janela de lookback ao longo de um teste para considerar a mudança de tendências ao longo do tempo?
+
+Por exemplo, a atividade pode considerar o mês de dezembro para decidir como alocar o tráfego, em vez de consultar os dados de visitante de setembro (quando o teste começou)?
+
+Não, [!UICONTROL Alocação automática] O considera o desempenho de toda a atividade.
+
+### Does [!UICONTROL Alocação automática] mostrar uma experiência vencedora a um visitante recorrente se a experiência vencedora for diferente do que o visitante viu ao se qualificar para a atividade?
+
+[!UICONTROL Alocação automática] O usa a decisão aderente pelos mesmos motivos que [!UICONTROL Teste A/B] As atividades do são aderentes. A alocação de tráfego funciona somente para novos visitantes.
 
 ## Vídeos de treinamento {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
