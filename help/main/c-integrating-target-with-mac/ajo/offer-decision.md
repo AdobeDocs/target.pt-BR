@@ -4,7 +4,7 @@ description: Saiba como adicionar uma decisão de oferta criada em [!DNL Adobe J
 title: Como Uso As Decisões De Oferta?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
+source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Para usar as decisões de oferta em [!DNL Target], você precisa do seguinte:
 
    O recurso não está disponível ao implementar [!DNL Target] com at.js ou outras [!DNL Target] SDKs.
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer decisioning) ou [!DNL Adobe Experience Platform] e [!UICONTROL offer decisioning] complemento do serviço de aplicativos.
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer decisioning) ou [!DNL Adobe Experience Platform] e [!UICONTROL offer decisioning] complemento do serviço de aplicativos.
 
 ## Casos de uso de exemplo
 
