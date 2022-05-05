@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e aprimoramentos serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
+source-git-commit: 83a7fb03dcf334cb82eb507d2803e955a655b40a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 58%
+source-wordcount: '525'
+ht-degree: 24%
 
 ---
 
@@ -15,16 +15,35 @@ ht-degree: 58%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 27 de abril de 2022**
+**Última atualização: 5 de maio de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 22.4.1 (28 de abril de 2022)
+## [!DNL Target Standard/Premium] 22.5.1 (libertação escalonada; 10-12 de maio de 2022)
 
-Esta versão contém a seguinte correção:
+Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* Correção de um problema que fazia com que três algoritmos baseados no carrinho usassem a mesma condição Comprada/Comprada no [!DNL Target] backend. (TGT-43456)
-* Ativado [!DNL Target] Atualização de token da interface do usuário para organizações habilitadas com [Contas de ID de empresa](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e Autenticação Baseada em Política (PBA). (TGT-42590)
+* **10 de maio**: Europa, Oriente Médio e África (EMEA)
+* **11 de maio**: Região Ásia-Pacífico (APAC)
+* **12 de maio**: Região da América do Norte (NA)
+
+Esta versão contém os seguintes aprimoramentos e correções:
+
+* Correção de um problema que causava um erro de JavaScript e impedia que alguns clientes acessassem os detalhes da atividade para determinados [!UICONTROL Automated Personalization] (AP). (TGT-43526)
+* Correção de um problema que impedia alguns clientes de adicionar (ou editar) uma oferta específica a uma atividade de AP. (TGT-43503)
+* Correção de um problema no [!DNL Target] Interface do usuário que exibia a seguinte mensagem de erro: &quot;Sua mbox global pode não estar sincronizada. Tente salvá-la novamente”. Esse problema era de interface do usuário e não afetava as implementações dos clientes. (TGT-43475)
+* Correção de um problema que impedia um cliente de editar refinamentos e públicos-alvo no nível da experiência para uma atividade se os refinamentos e públicos-alvo fossem criados antes da nova [!UICONTROL Públicos-alvo] A interface do usuário foi implantada. (TGT-43433)
+* Correção de um problema que permitia aos clientes selecionar duplicatas [!DNL Adobe Audience Manager] (AAM) públicos-alvo ao editar públicos-alvo de relatórios para uma atividade. (TGT-43430)
+* Correção de um problema que impedia os clientes de criar públicos duplicados, mas em espaços de trabalho diferentes. (TGT-43423)
+* Correção de um problema que impedia os clientes de excluir locais com ofertas ad hoc em atividades criadas no [!UICONTROL Experience Composer baseado em formulário]. (TGT-43315)
+* Correção de um problema que impedia os clientes de acessar ofertas de código após clicar em ofertas de imagem e atualizar a interface do usuário. (TGT-43566)
+* Certifique-se de que a lista de métricas disponíveis no [!DNL Target] Interface do usuário ao criar atividades que usam [!DNL Analytics for Target] (A4T) exibe somente as métricas que foram coletadas por [!DNL Adobe Analytics]. (TGT-43294)
+* Correção de um problema que, ocasionalmente, causava [!UICONTROL Configuração] falha nas solicitações de página. Por exemplo, alterar o &quot;[!UICONTROL Solução de relatório do Experience Cloud]&quot; de &quot;[!UICONTROL Analytics]&quot; para &quot;[!UICONTROL Target]&quot; ou &quot;[!UICONTROL Selecionar por atividade]&quot;. (TGT-43272)
+* Correção de um problema que às vezes fazia com que alterações em scripts de perfil não fossem atualizadas corretamente. (TGT-43249)
+* Correção de um problema que causava o seguinte erro ao tentar mover um público para outro espaço de trabalho: &quot;Não podemos concluir sua solicitação. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir&quot;. (TGT-43212)
+* Correção de um erro que causava um erro ao clonar modificações de código personalizadas para páginas de Aplicativo de página única (SPA). (TGT-43137)
+* Alteração na maneira como a métrica &quot;exibições de página&quot; é tratada no SPA. Em vez do URL da página ser exibido no [!DNL Target] A interface do usuário agora exibe a &quot;visualização&quot;. (TGT-41200)
+* Correção de um problema que afetava a promoção original após a duplicação de uma experiência e a edição da promoção. (TGT-41775)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
