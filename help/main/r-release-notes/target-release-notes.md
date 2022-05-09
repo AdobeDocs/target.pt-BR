@@ -1,13 +1,13 @@
 ---
 keywords: notas de versão, versões, atualizações, versão futura, melhorias, novos recursos, correções, atualizações, pré-lançamento
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na próxima versão do Adobe Target, incluindo SDKs, APIs e bibliotecas JavaScript.
-title: Quais novos recursos e aprimoramentos serão incluídos na próxima versão?
+title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 83a7fb03dcf334cb82eb507d2803e955a655b40a
+source-git-commit: ca2e85a5cadd014c192be6795445e0cfc4ca75cb
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 24%
+source-wordcount: '489'
+ht-degree: 30%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 5 de maio de 2022**
+**Última atualização: 9 de maio de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -23,9 +23,9 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **10 de maio**: Europa, Oriente Médio e África (EMEA)
 * **11 de maio**: Região Ásia-Pacífico (APAC)
 * **12 de maio**: Região da América do Norte (NA)
+* **13 de maio**: Europa, Oriente Médio e África (EMEA)
 
 Esta versão contém os seguintes aprimoramentos e correções:
 
@@ -38,11 +38,9 @@ Esta versão contém os seguintes aprimoramentos e correções:
 * Correção de um problema que impedia os clientes de excluir locais com ofertas ad hoc em atividades criadas no [!UICONTROL Experience Composer baseado em formulário]. (TGT-43315)
 * Correção de um problema que impedia os clientes de acessar ofertas de código após clicar em ofertas de imagem e atualizar a interface do usuário. (TGT-43566)
 * Certifique-se de que a lista de métricas disponíveis no [!DNL Target] Interface do usuário ao criar atividades que usam [!DNL Analytics for Target] (A4T) exibe somente as métricas que foram coletadas por [!DNL Adobe Analytics]. (TGT-43294)
-* Correção de um problema que, ocasionalmente, causava [!UICONTROL Configuração] falha nas solicitações de página. Por exemplo, alterar o &quot;[!UICONTROL Solução de relatório do Experience Cloud]&quot; de &quot;[!UICONTROL Analytics]&quot; para &quot;[!UICONTROL Target]&quot; ou &quot;[!UICONTROL Selecionar por atividade]&quot;. (TGT-43272)
-* Correção de um problema que às vezes fazia com que alterações em scripts de perfil não fossem atualizadas corretamente. (TGT-43249)
+* Correção de um problema que fazia com que as edições nos scripts de perfil fossem revertidas para o script original não editado após o script ser editado, ativado e depois desativado. O script de perfil agora permanece no seu estado editado. (TGT-43249)
 * Correção de um problema que causava o seguinte erro ao tentar mover um público para outro espaço de trabalho: &quot;Não podemos concluir sua solicitação. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir&quot;. (TGT-43212)
 * Correção de um erro que causava um erro ao clonar modificações de código personalizadas para páginas de Aplicativo de página única (SPA). (TGT-43137)
-* Alteração na maneira como a métrica &quot;exibições de página&quot; é tratada no SPA. Em vez do URL da página ser exibido no [!DNL Target] A interface do usuário agora exibe a &quot;visualização&quot;. (TGT-41200)
 * Correção de um problema que afetava a promoção original após a duplicação de uma experiência e a edição da promoção. (TGT-41775)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
