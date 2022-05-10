@@ -5,10 +5,10 @@ title: Posso Implementar [!DNL Target] sem um Gerenciador de tags?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 53%
+source-wordcount: '1794'
+ht-degree: 50%
 
 ---
 
@@ -82,6 +82,20 @@ Além das configurações explicadas acima, as seguintes configurações especí
 |--- |--- |
 | Cabeçalho da biblioteca personalizada | Adicione qualquer JavaScript personalizado para incluir na parte superior da biblioteca. |
 | Rodapé da biblioteca personalizada | Adicione qualquer JavaScript personalizado para incluir na parte inferior da biblioteca. |
+
+### Métodos de implementação com o On-Device Decisioning
+
+A partir da versão 2.5.0, a at.js oferece decisão no dispositivo. A decisão no dispositivo permite armazenar em cache seu [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md) e [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md) (XT) atividades no navegador para executar decisões na memória sem uma solicitação de rede de bloqueio para o [!DNL Adobe Target] Edge Network.
+
+Para obter mais informações, consulte:
+
+* Lado do cliente: [Decisão no dispositivo para at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Lado do servidor: [Introdução à tomada de decisão no dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Lado do servidor: [Decisão no dispositivo](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [Ativar o On-Device Decisioning para sua organização](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [Ativar o On-Device Decisioning para sua organização](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [Ativar o On-Device Decisioning para sua organização](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [Ativar o On-Device Decisioning para sua organização](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
 
 ### API de perfil
 
