@@ -5,31 +5,42 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 68%
+source-wordcount: '692'
+ht-degree: 53%
 
 ---
 
 # Notas de versão do Target (atual)
 
-Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão do [!DNL Target] APIs, SDKs, a variável [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações da plataforma também são incluídas, quando aplicável.
+Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium] Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 22.4.1 (28 de abril de 2022)
+## [!DNL Target Standard/Premium] 22.5.1 (libertação escalonada; 11-13 de maio de 2022)
 
-Esta versão contém a seguinte correção:
+Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* Correção de um problema que fazia com que três algoritmos baseados no carrinho usassem a mesma condição Comprada/Comprada no [!DNL Target] backend. (TGT-43456)
-* Ativado [!DNL Target] Atualização de token da interface do usuário para organizações habilitadas com [Contas de ID de empresa](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e Autenticação Baseada em Política (PBA). (TGT-42590)
+* **11 de maio**: Região Ásia-Pacífico (APAC)
+* **12 de maio**: Região da América do Norte (NA)
+* **13 de maio**: Europa, Oriente Médio e África (EMEA)
 
-## [!DNL Target] versão da plataforma (27 de abril de 2022)
+Esta versão contém os seguintes aprimoramentos e correções:
 
-Esta versão contém a seguinte alteração:
-
-* Com esta versão, você pode pré-buscar conteúdo para [!UICONTROL Personalização automática] (AP) e [!UICONTROL Direcionamento automático] Atividades (AT) (anteriormente não devolvidas por [!DNL Target]). Isso pode alterar as experiências que os usuários finais veem no caso de uma chamada de pré-busca (sem alterações no fluxo de &quot;execução&quot;) se uma atividade de AP/AT estiver no caminho do delivery e tiver prioridade mais alta do que outras atividades AB/XT que usam o mesmo local para a entrega de conteúdo.
+* Correção de um problema que causava um erro de JavaScript e impedia que alguns clientes acessassem os detalhes da atividade para determinados [!UICONTROL Automated Personalization] (AP). (TGT-43526)
+* Correção de um problema que impedia alguns clientes de adicionar (ou editar) uma oferta específica a uma atividade de AP. (TGT-43503)
+* Correção de um problema no [!DNL Target] Interface do usuário que exibia a seguinte mensagem de erro: &quot;Sua mbox global pode não estar sincronizada. Tente salvá-la novamente”. Esse problema era de interface do usuário e não afetava as implementações dos clientes. (TGT-43475)
+* Correção de um problema que impedia um cliente de editar refinamentos e públicos-alvo no nível da experiência para uma atividade se os refinamentos e públicos-alvo fossem criados antes da nova [!UICONTROL Públicos-alvo] A interface do usuário foi implantada. (TGT-43433)
+* Correção de um problema que permitia aos clientes selecionar duplicatas [!DNL Adobe Audience Manager] (AAM) públicos-alvo ao editar públicos-alvo de relatórios para uma atividade. (TGT-43430)
+* Correção de um problema que impedia os clientes de criar públicos duplicados, mas em espaços de trabalho diferentes. (TGT-43423)
+* Correção de um problema que impedia os clientes de excluir locais com ofertas ad hoc em atividades criadas no [!UICONTROL Experience Composer baseado em formulário]. (TGT-43315)
+* Correção de um problema que impedia os clientes de acessar ofertas de código após clicar em ofertas de imagem e atualizar a interface do usuário. (TGT-43566)
+* Certifique-se de que a lista de métricas disponíveis no [!DNL Target] Interface do usuário ao criar atividades que usam [!DNL Analytics for Target] (A4T) exibe somente as métricas que foram coletadas por [!DNL Adobe Analytics]. (TGT-43294)
+* Correção de um problema que fazia com que as edições nos scripts de perfil fossem revertidas para o script original não editado após o script ser editado, ativado e depois desativado. O script de perfil agora permanece no seu estado editado. (TGT-43249)
+* Correção de um problema que causava o seguinte erro ao tentar mover um público para outro espaço de trabalho: &quot;Não podemos concluir sua solicitação. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir&quot;. (TGT-43212)
+* Correção de um erro que causava um erro ao clonar modificações de código personalizadas para páginas de Aplicativo de página única (SPA). (TGT-43137)
+* Correção de um problema que afetava a promoção original após a duplicação de uma experiência e a edição da promoção. (TGT-41775)
 
 ## Notas de versão adicionais e detalhes da versão
 
