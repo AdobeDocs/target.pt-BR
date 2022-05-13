@@ -5,10 +5,10 @@ title: O que são permissões de usuário empresarial e como usá-las?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 57%
+source-wordcount: '3149'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ As permissões de usuário empresarial são um meio de administrar formalmente o
 >
 >Seu [!DNL Target] a implementação pode estar usando qualquer versão da at.js.
 
-É possível saber se sua organização tem uma licença Standard ou Premium clicando no botão [!UICONTROL Administração] link na parte superior do [!DNL Target] IU.
+É possível saber se sua organização tem uma licença Standard ou Premium clicando no link [!UICONTROL Administração] na parte superior da interface do usuário do [!DNL Target].
 
 * **[!DNL Target Standard]Clientes**: Se você vir a variável [!UICONTROL Usuários] guia ([!UICONTROL Administração > Usuários]) (e não a [!UICONTROL Propriedades] ), sua organização tem uma [!DNL Target Standard] licença. [!DNL Target Standard] Os clientes devem seguir as instruções em [Usuários](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 
@@ -232,7 +232,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões em [!DNL T
 * Ao visualizar públicos-alvo da página [!DNL Audiences], ela carrega mais lentamente do que o esperado. Se você interagir com a barra de pesquisa de alguma forma, os públicos-alvo serão exibidos mais rapidamente. Esse problema é conhecido e será corrigido em uma atualização futura. Esse problema não afeta a seleção de públicos-alvo durante o fluxo de trabalho de criação de atividades.
 * Os seguintes recursos fazem parte do novo modelo de Permissões empresariais:
 
-   * Atividades, públicos-alvo e ofertas de código criados no Target Standard/Premium após a ativação do cliente para permissões. (Observação: os clientes devem ter direito ao Target Premium.)
+   * Atividades, públicos-alvo e ofertas de código criadas em [!DNL Target Standard/Premium] estão disponíveis para uso depois que o cliente está habilitado para permissões. (Observação: os clientes devem ter direito a [!DNL Target Premium].)
    * As propriedades podem ser adicionadas às atividades existentes no Espaço de trabalho padrão; no entanto, esta abordagem está sujeita a alterações.
    * Somente os novos recursos (como atividades, ofertas de código e públicos-alvo) criados no Target Premium (após a ativação das Permissões empresariais) estão disponíveis para restringir por permissões.
    * Os recursos externos estão disponíveis somente para os usuários do Espaço de trabalho padrão. A função de um usuário no Espaço de trabalho padrão se aplica globalmente (a todas as solicitações e recursos do Target).
@@ -323,6 +323,6 @@ Este vídeo é uma gravação de &quot;No expediente&quot;, uma iniciativa da eq
 
 >[!NOTE]
 >
->O [!DNL Target] [!UICONTROL Administração] interface do usuário do menu (anteriormente [!UICONTROL Configuração]) foi reprojetado para fornecer melhor desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. As informações do vídeo seguinte estão corretas; no entanto, as opções podem estar em locais um pouco diferentes.
+>A IU do menu [!DNL Target] [!UICONTROL Administração] (antiga [!UICONTROL Configuração]) foi redesenhada para fornecer desempenho aprimorado, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. As informações do vídeo seguinte estão corretas; no entanto, as opções podem estar em locais um pouco diferentes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
