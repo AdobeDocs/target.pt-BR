@@ -4,10 +4,10 @@ description: Saiba como criar exclusões no Adobe [!DNL Target] Recommendations 
 title: Como uso exclusões nas atividades do Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 44%
+source-wordcount: '614'
+ht-degree: 43%
 
 ---
 
@@ -26,6 +26,8 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 * Produtos que nunca devem ser recomendados (talvez haja um SKU no sistema para algo, mas não é um item comprável, ou talvez seja um SKU falso para a equipe de controle de qualidade simular uma compra sem realmente solicitar algo etc.)
 
 >[!IMPORTANT]
+>
+>As regras de exclusão são aplicadas globalmente a todos os ambientes.
 >
 >As regras de exclusão estáticas e dinâmicas são recursos poderosos que podem ajudá-lo com seus esforços de marketing. Para obter informações detalhadas, exemplos e cenários de caso de uso, consulte [Usar as regras de inclusão estática e dinâmica](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 

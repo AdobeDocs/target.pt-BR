@@ -5,7 +5,7 @@ title: Onde posso saber mais [!DNL Target] APIs e SDKs de entrega do lado do ser
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ Link: [APIs de entrega no lado do servidor](https://developers.adobetarget.com/a
 
 `/rest/v1/delivery`
 
-Trazeu o [!DNL Target] API de entrega, você pode:
+Usar o [!DNL Target] API de entrega, você pode:
 
 * Forneça experiências através da Web, incluindo SPA e canais móveis, bem como dispositivos IoT não baseados em navegador, como TVs conectadas, quiosques ou telas digitais na loja.
 * Forneça experiências de qualquer plataforma ou aplicativo do lado do servidor que possa fazer chamadas HTTP/s.
