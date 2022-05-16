@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 32%
 
 ---
 
@@ -37,7 +37,6 @@ Esta versão contém os seguintes aprimoramentos e correções:
 * Correção de um problema que impedia os clientes de criar públicos duplicados, mas em espaços de trabalho diferentes. (TGT-43423)
 * Correção de um problema que impedia os clientes de excluir locais com ofertas ad hoc em atividades criadas no [!UICONTROL Experience Composer baseado em formulário]. (TGT-43315)
 * Correção de um problema que impedia os clientes de acessar ofertas de código após clicar em ofertas de imagem e atualizar a interface do usuário. (TGT-43566)
-* Certifique-se de que a lista de métricas disponíveis no [!DNL Target] Interface do usuário ao criar atividades que usam [!DNL Analytics for Target] (A4T) exibe somente as métricas que foram coletadas por [!DNL Adobe Analytics]. (TGT-43294)
 * Correção de um problema que fazia com que as edições nos scripts de perfil fossem revertidas para o script original não editado após o script ser editado, ativado e depois desativado. O script de perfil agora permanece no seu estado editado. (TGT-43249)
 * Correção de um problema que causava o seguinte erro ao tentar mover um público para outro espaço de trabalho: &quot;Não podemos concluir sua solicitação. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir&quot;. (TGT-43212)
 * Correção de um erro que causava um erro ao clonar modificações de código personalizadas para páginas de Aplicativo de página única (SPA). (TGT-43137)
