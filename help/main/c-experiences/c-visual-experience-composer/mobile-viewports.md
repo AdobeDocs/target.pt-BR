@@ -1,38 +1,38 @@
 ---
-keywords: responsivo, janelas de visualização móvel, janela, dispositivos, dispositivos móveis, web design responsivo, rwd
-description: Os visores móveis ajudam você a visualizar como seu Adobe [!DNL Target] As atividades do são orientadas para telas de vários tamanhos. Encontre uma lista de tamanhos e resoluções populares da janela de visualização do dispositivo.
-title: Como uso janelas de visualização móvel para experiências responsivas?
+keywords: responsivo;visores móveis;janela;dispositivos;dispositivos móveis;web design responsivo;rwd
+description: Os visores móveis ajudam a ver como as atividades do Adobe  [!DNL Target]  aparecem em telas de vários tamanhos. Encontre uma lista de tamanhos e resoluções populares de visores de dispositivo.
+title: Como usar visores móveis para experiências responsivas?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # Visores móveis para experiências responsivas
 
-Os visores móveis permitem que você visualize o seu [!DNL Adobe Target] atividades em telas de vários tamanhos.
+Os visores móveis permitem visualizar como as atividades do [!DNL Adobe Target] aparecem em telas de vários tamanhos. 
 
-O recurso de visualização do visor móvel é projetado para sites responsivos que são renderizados em vários dispositivos, janelas e tamanhos de tela. Sites responsivos ajustam-se e se adaptam automaticamente a qualquer tamanho de tela, incluindo desktops, laptops, tablets ou telefones celulares.
+O recurso de visualização de visor móvel é projetado para sites responsivos que são renderizados em vários dispositivos, janelas e tamanhos de tela. Sites responsivos ajustam-se e se adaptam automaticamente a qualquer tamanho de tela, incluindo desktops, laptops, tablets ou telefones celulares.
 
 >[!NOTE]
 >
-> * Use visores móveis se o seu site for responsivo e os mesmos elementos na sua página de desktop forem usados na sua página móvel em uma configuração diferente. Se você tiver um site móvel separado com uma estrutura separada, como `m.mysite.com`use um [atividade multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) em vez disso.
+> * Use visores móveis se o seu site for responsivo e os mesmos elementos na sua página de desktop forem usados na sua página móvel em uma configuração diferente. Se você tiver um site móvel separado com uma estrutura separada, como `m.mysite.com`, use uma [atividade multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
 >
 >* Os visores móveis não estarão disponíveis se sobrepostos por uma oferta de redirecionamento.
 
 
-Uma visor é definido pelo tamanho do retângulo preenchido por uma página da Web na sua tela. A janela viewport é o tamanho da janela do navegador, menos as barras de rolagem e as barras de ferramentas. Os navegadores usam &quot;pixels CSS&quot;. Em vários dispositivos, como os com telas de retina, o visor é menor que a resolução de dispositivo anunciada.
+Uma visor é definido pelo tamanho do retângulo preenchido por uma página da Web na sua tela. O visor é o tamanho da janela do navegador, menos as barras de rolagem e as barras de ferramentas. Os navegadores usam &quot;pixels CSS&quot;. Em vários dispositivos, como os com telas de retina, o visor é menor que a resolução de dispositivo anunciada.
 
-Abaixo estão os visores e as resoluções para dispositivos populares. Lembre-se de usar um tamanho de visor no [!DNL Target].
+Abaixo, estão visores e resoluções para dispositivos populares. Lembre-se de usar um tamanho de visor no [!DNL Target].
 
 >[!NOTE]
 >
 >Vários sites listam os tamanhos da janela de visualização de dispositivos populares. Por exemplo, consulte `https://viewportsizer.com/devices/`. Consulte o site do fabricante do dispositivo para obter as informações mais precisas e atualizadas.
 
-| Dispositivo | Tamanho da janela de visualização (largura x altura) | Resolução do dispositivo (largura x altura) |
+| Dispositivo | Tamanho da janela de visualização (largura x altura) | Resolução do dispositivo (largura × altura) |
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
@@ -53,10 +53,10 @@ Abaixo estão os visores e as resoluções para dispositivos populares. Lembre-s
 | iPhone 7 | 375 x 667 | 750 x 1334 |
 | iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6s | 375 x 667 | 750 x 1334 |
-| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
+| iPhone 6 Plus | 414  x 736 | 1080 x 1920 |
 | iPhone 6 | 375 x 667 | 750 x 1334 |
-| iPad  Pro | 1024 x 1366 | 2048 x 2732 |
-| iPad de terceira e quarta generação | 768 x 1024 | 1536 x 2048 |
+| iPad   Pro | 1024 x 1366 | 2048 x 2732 |
+| iPad de terceira e quarta geração | 768 x 1024 | 1536 x 2048 |
 | iPad Air 1 e 2 | 768 x 1024 | 1536 x 2048 |
 | iPad Mini | 768 x 1024 | 768 x 1024 |
 | iPad Mini 2 e 3 | 768 x 1024 | 1536 x 2048 |
@@ -82,36 +82,36 @@ Abaixo estão os visores e as resoluções para dispositivos populares. Lembre-s
 | Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
 | Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-Para fornecer uma atividade aos visitantes em um determinado dispositivo, escolha o público-alvo apropriado para esse dispositivo no diagrama de atividades. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Para executar uma atividade em toda a sua experiência digital para garantir que ela fique boa em todos os dispositivos, não aplique o direcionamento. Em vez disso, use janelas de visualização móvel para visualizar a atividade em cada tamanho de tela.
+Para entregar uma atividade aos visitantes em um dispositivo específico, escolha o público apropriado para esse dispositivo no diagrama de atividades. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Para executar uma atividade em toda a sua experiência digital para garantir que ela fique boa em todos os dispositivos, não aplique o direcionamento. Em vez disso, use visores móveis para visualizar a atividade em cada tamanho de tela.
 
-Para sites responsivos, normalmente o site é projetado para abrir em uma exibição diferente quando acessado por um dispositivo com um tamanho de tela específico. Esses tamanhos de tela que acionam as novas exibições são conhecidas como pontos de interrupção de CSS. Os pontos de interrupção de CSS são pontos em que o conteúdo do site responde, dependendo da largura do dispositivo, para exibir o layout ideal para os visitantes. Os pontos de interrupção de CSS também são chamados de [consultas de mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
+Para sites responsivos, normalmente seu site é projetado para abrir em uma visualização diferente quando acessado por um dispositivo com um tamanho de tela específico. Esses tamanhos de tela que acionam as novas exibições são conhecidas como pontos de interrupção de CSS. Os pontos de interrupção de CSS são pontos em que o conteúdo do site responde, dependendo da largura do dispositivo, para exibir o layout ideal para os visitantes.. Os pontos de interrupção de CSS também são chamados de [consultas de mídia](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries).
 
-Salve seus pontos de interrupção de CSS em [!DNL Target] para que você possa visualizar suas experiências para cada exibição definida. Cada uma dessas experiências é exibida em uma janela de visualização móvel no [!DNL Target] interface. Abra a exibição em cada tamanho de tela ao clicar no visor ao longo da parte superior do visor.
+Salve seus pontos de interrupção de CSS no [!DNL Target] para que você possa visualizar as suas experiências para cada exibição que definir. Cada uma dessas experiências é exibida em um visor móvel na interface do [!DNL Target]. Abra a exibição em cada tamanho de tela ao clicar no visor ao longo da parte superior do visor.
 
-Se o seu site não for responsivo, use o Mobile Web Composer para visualizar um site se sua atividade estiver direcionada a um dispositivo específico.
+Se o seu site não for responsivo, use o Mobile Web Composer para exibir um site se sua atividade estiver direcionada para um dispositivo específico.
 
 >[!IMPORTANT]
 >
->Você pode editar uma experiência nos visores móveis. No entanto, essas alterações se aplicam a todos os visores e dispositivos, não apenas ao visor em que você está trabalhando. Da mesma forma, editar uma experiência na exibição de desktop normal altera a página para todos os tamanhos de tela, não somente a exibição de desktop atual. Atualmente, [!DNL Target] não suporta alterações de página específicas do visor.
+>Você pode editar uma experiência nos visores móveis. No entanto, essas alterações se aplicam a todos os visores e dispositivos, não apenas ao visor em que você está trabalhando.. Da mesma forma, editar uma experiência na exibição de desktop normal altera a página para todos os tamanhos de tela, não somente a exibição de desktop atual. Atualmente, o [!DNL Target] não aceita alterações de página específicas do visor.
 
 ## Configuração do visor móvel {#task_B4B161499DC0470584ED922A4D20FCAB}
 
-Configure as janelas de visualização móvel que você deseja disponibilizar ao criar suas experiências.
+Configure os visores móveis que você deseja disponibilizar ao criar suas experiências.
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
-1. No **[!UICONTROL Configuração de janelas de visualização móvel]** seção , clique em **[!UICONTROL Adicionar]**.
+1. Na seção **[!UICONTROL Configuração de visores móveis]**, clique em **[!UICONTROL Adicionar]**.
 
    ![Adicionar visor](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Ou
 
-   Para alterar a configuração de uma janela de visualização móvel existente, selecione essa janela e clique no botão [!UICONTROL Editar] ícone (lápis).
+   Para alterar a configuração de um visor móvel existente, selecione o visor e clique no ícone [!UICONTROL Editar] (lápis).
 
 1. Digite um nome para a janela de visualização móvel.
 
    Use um nome descritivo que seja fácil de reconhecer. O nome pode ter até 36 caracteres.
 
-1. Especifique o tamanho da tela do dispositivo móvel, largura e altura.
+1. Especifique o tamanho da tela do dispositivo móvel: largura e altura.
 
    A largura pode ser de 150 a 968 pixels. A altura pode ser de 150 a 1280 pixels.
 
@@ -125,26 +125,26 @@ Configure as janelas de visualização móvel que você deseja disponibilizar ao
    * Symbian
    * BlackBerry
 
-   Se você usa o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] Por exemplo, se houver uma aparência diferente para o Android e para o iOS no seu site responsivo, [!DNL Target] imita esse comportamento.
+   Se você usa o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] Por exemplo, se houver uma aparência diferente para Android e iOS em seu site responsivo, o [!DNL Target] imita esse comportamento.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
->Se você tentar excluir uma janela de visualização móvel que está em uso, a seguinte mensagem será exibida: &quot;No momento, essa janela de visualização está associada a uma ou várias atividades. Você precisa remover o visor dessas atividades antes de poder exclui-lo.&quot;
+>Se você tentar excluir um visor móvel que está em uso, a seguinte mensagem será exibida: &quot;Este visor está atualmente associado a uma ou várias atividades. Você precisa remover o visor dessas atividades antes de poder exclui-lo.&quot;
 
 ## Criar uma experiência responsiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Adicione janelas de visualização móvel ao seu [!DNL Target] atividades para criar experiências responsivas para telas de dispositivos móveis.
+Adicione visores móveis a atividades do [!DNL Target] para criar atividades responsivas para telas móveis.
 
-1. Crie o [atividade desejada](/help/main/c-activities/activities.md).
-1. No [!UICONTROL Visual Experience Composer] (VEC), clique no link **[!UICONTROL Configurações]** ícone de engrenagem e selecione **[!UICONTROL Adicionar janelas de visualização móvel]**.
+1. Crie a [atividade desejada](/help/main/c-activities/activities.md).
+1. No [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem **[!UICONTROL Configurações]** e selecione **[!UICONTROL Adicionar visores móveis]**.
 
-   ![Opção Adicionar janelas de visualização móvel](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
+   ![Opção adicionar visores móveisl](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
 1. Clique no ícone **[!UICONTROL Dispositivos]** e ative cada dispositivo com um visor móvel.
 
-   ![Ativar janelas de visualização móvel](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
+   ![Ativar visores móveis](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
    As janelas de visualização móvel estão listadas da menor para a maior de acordo com a largura.
 
@@ -154,9 +154,9 @@ Adicione janelas de visualização móvel ao seu [!DNL Target] atividades para c
 
    Passe o mouse sobre o nome de uma janela para ver o tamanho da janela.
 
-   ![Experiência responsiva máxima do iPhone 11 Pro](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
+   ![Experiência responsiva do iPhone 11 Pro Max](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
 
-1. Se desejar, alterne entre os modos retrato e paisagem ao clicar no ícone de orientação desejado.
+1. Caso desejar, altere entre os modos retrato e paisagem ao clicar no ícone de orientação.
 
    ![Opções de orientação](/help/main/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
@@ -164,7 +164,7 @@ Adicione janelas de visualização móvel ao seu [!DNL Target] atividades para c
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Visual Experience Composer (2 de 2) (7:29) ![Selo de visão geral](/help/main/assets/overview.png)
+### Visual Experience Composer (2 de 2) (7:29)  ![Selo de visão geral](/help/main/assets/overview.png)
 
 O vídeo de demonstração a seguir inclui informações sobre o uso do Visual Experience Composer para funcionar com visores móveis:
 
@@ -179,6 +179,6 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 
 ### Preferências da conta no Adobe Target ![Selo de visão geral](/help/main/assets/overview.png)
 
-Este vídeo inclui informações sobre como configurar janelas de visualização móvel, a partir de 4:40.
+Este vídeo inclui informações sobre como configurar visores móveis, começando às 4:40 do vídeo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
