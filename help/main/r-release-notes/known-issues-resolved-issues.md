@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
 source-wordcount: '4783'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 ### Visual Experience Composer (VEC) carregando sites com o Service Workers
 
-Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Service Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Service Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
 
 Um SW é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instalados por uma página da Web. O SW se mantém na visita da página e se ativa em visitas subsequentes. Ele decide quais solicitações são passadas e quais são interceptadas e fornecidas a partir de um cache.
 
@@ -37,7 +37,7 @@ Como uma possível solução alternativa, você pode desativar o Service Workers
 
 ### Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário {#ad-hoc}
 
-Evite excluir os locais em uma atividade criada no Experience Composer baseado em formulário, se esses locais usarem ofertas ad-hoc (ofertas criadas dentro da atividade). A exclusão de locais pode fazer com que a atividade fique corrompida. O [!DNL Target] A equipe está trabalhando em uma correção para isso. Como solução alternativa, você pode criar ofertas globais da [!UICONTROL Biblioteca de ofertas] e usá-las com locais ou criar novas experiências, se necessário. (KB-2014)
+Evite excluir os locais em uma atividade criada no Experience Composer baseado em formulário, se esses locais usarem ofertas ad-hoc (ofertas criadas dentro da atividade). A exclusão de locais pode fazer com que a atividade fique corrompida A equipe do [!DNL Target] está trabalhando em uma correção para isso. Como solução alternativa, você pode criar ofertas globais da [!UICONTROL Biblioteca de ofertas] e usá-las com locais ou criar novas experiências, se necessário. (KB-2014)
 
 ### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
 
@@ -59,13 +59,13 @@ Um problema no EEC no momento o impede de dar suporte a solicitações PUT e res
 
 Os nomes de segmento do [!DNL Adobe Experience Platform] não são exibidos no relatório de [!UICONTROL Atributos importantes] para as atividades de [!UICONTROL Personalização automática] (AP) e de [!UICONTROL Direcionamento automático] (AT). (TOP-3813)
 
-### Arquivamento [!UICONTROL Direcionamento automático] atividades podem causar problemas de sincronização
+### O arquivamento de atividades de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização
 
 A tentativa de arquivar atividades inativas de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização. Até que esse problema seja corrigido, não arquive as atividades de [!UICONTROL Direcionamento automático]. Deixe-as no estado [!UICONTROL Inativo]. (TGT-40885)
 
 ### Delivery de página {#page-delivery}
 
-Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no delivery [da](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esses espaços extras são cosméticos e não afetam a criação de definição de público-alvo e a entrega de ofertas. (TGT-35920)
+Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no [delivery da](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esses espaços extras são cosméticos e não afetam a criação de definição de público-alvo e a entrega de ofertas. (TGT-35920)
 
 ### Links de pré-visualização de controle de qualidade
 
@@ -318,7 +318,7 @@ Mboxes não disparam em navegadores Microsoft Explorer 11 depois do upgrade para
 
 Corrigido na versão da API 2.3.0 ou posterior.
 
-### Geografia direcionamento
+### Geografia  direcionamento
 
 A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por &quot;nova york&quot;, a pesquisa não retorna resultados válidos.
 

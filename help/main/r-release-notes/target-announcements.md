@@ -1,13 +1,13 @@
 ---
 keywords: anúncios;skill builder;bate-papo do desenvolvedor;coffee break;eventos;forrester;gartner, webinário
-description: Leia os anúncios e cadastre-se em eventos do Adobe [!DNL Target] , inclusive sessões do Skill Builder, bate-papos com desenvolvedores e gerentes de produtos, webinários e muito mais.
-title: Onde posso encontrar anúncios e eventos do [!DNL Target] ?
+description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] , inclusive sessões do Skill Builder, bate-papos com desenvolvedores e gerentes de produtos, webinários e muito mais.
+title: Onde posso encontrar anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

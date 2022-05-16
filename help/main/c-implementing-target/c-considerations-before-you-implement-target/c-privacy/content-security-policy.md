@@ -1,14 +1,14 @@
 ---
 keywords: política de segurança de conteúdo;csp;at.js;lista de permissões;lista de permissão;cintilação;pré-ocultar;pré-oculto;pré-ocultação
 description: Saiba mais sobre as diretivas de Política de segurança de conteúdo (CSP) que devem ser adicionadas ao usar o Adobe Target.
-title: Como o [!DNL Target] lida com as Políticas de segurança de conteúdo (CSP)?
+title: Como o  [!DNL Target]  lida com as Políticas de segurança de conteúdo (CSP)?
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
