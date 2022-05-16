@@ -1,14 +1,14 @@
 ---
-keywords: segurança; práticas de segurança
-description: Saiba mais sobre os procedimentos que o Adobe usa para reforçar a segurança de seus dados e Adobe [!DNL Target] experiência. Baixe o Adobe [!DNL Target] White paper Visão geral de segurança .
-title: Como [!DNL Target] Lidar com a segurança de meus dados?
+keywords: segurança;práticas de segurança
+description: Saiba mais sobre os procedimentos que a Adobe usa para reforçar a segurança de seus dados e experiência da  [!DNL Target]  Adobe. Baixe o white paper de  [!DNL Target]  Visão geral de segurança da Adobe.
+title: Como o  [!DNL Target]  lida com a segurança dos meus dados?
 feature: Privacy & Security
 role: Developer
 exl-id: be93072f-2c21-40fa-8648-513348afacc8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
