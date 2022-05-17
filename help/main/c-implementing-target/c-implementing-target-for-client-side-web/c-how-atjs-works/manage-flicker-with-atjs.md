@@ -5,7 +5,7 @@ title: Como a at.js gerencia a cintilação?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 76%
@@ -34,7 +34,7 @@ A ilustração a seguir mostra as chamadas Ocultar corpo e Mostrar corpo no at.j
 
 ![Fluxo do Target: Solicitação de carregamento de página da at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x*** 
+**at.js 1.*x***  
 
 ![](assets/target-flow2.png)
 
@@ -48,7 +48,7 @@ Você pode evitar a cintilação usando um trecho oculto previamente, que ficar�
 
 O at.js pode ser carregado de forma assíncrona, seja diretamente incorporado na página ou por meio de um gerenciador de tags (por exemplo, [!DNL Adobe Experience Platform Launch]).
 
-Se a at.js estiver incorporada na página, o trecho deverá ser adicionado antes de carregar a at.js. Se você carregar a at.js por meio de um gerenciador de tags, que também é carregado de forma assíncrona, será necessário adicionar o trecho antes de carregar o gerenciador de tags. Se o gerenciador de tags for carregado sincronicamente, o script pode ser incluído no gerenciador de tags antes da at.js.
+Se a at.js estiver incorporada na página, o trecho deverá ser adicionado antes de carregar a at.js. Se você carregar a at.js por meio de um gerenciador de tags, que também é carregado de forma assíncrona, será necessário adicionar o trecho antes de carregar o gerenciador de tags. Se o gerenciador de tags for carregado de forma síncrona, o script pode ser incluído no gerenciador de tags antes da at.js.
 
 O trecho de código oculto previamente é como o seguinte:
 
