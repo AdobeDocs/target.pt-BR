@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 32%
+source-wordcount: '485'
+ht-degree: 31%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 32%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 9 de maio de 2022**
+**Última atualização: 23 de maio de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## at.js versão 2.9.0 (25 de maio de 2022)
+
+* Adição do suporte a Dicas do cliente do agente do usuário.
+* Correção de um erro em que várias solicitações de mbox na mesma página tinham IDs de impressão diferentes.
 
 ## [!DNL Target Standard/Premium] 22.5.1 (libertação escalonada; 11-13 de maio de 2022)
 

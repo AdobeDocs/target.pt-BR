@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '4029'
+source-wordcount: '4041'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 23 de maio | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para a at.js versão 2.9.0 (25 de maio de 2022). |
 | Maio de 11 | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Adição de informações e links de registro para os seguintes webinars:<ul><li>Bens desportivos de Dick: Personalização e a paisagem em mudança no varejo</li><li>Adobe: Insider do setor de personalização - Serviços financeiros e seguros</li><li>Banco Nacional da Cidade: Como alcançar os 1% melhores em otimização digital</li><li>Adobe: Personalização com precisão - [!DNL Adobe Analytics] e [!DNL Target]</li><li>Banco Nacional da Cidade: Zero para herói - Início e dimensionamento de um programa de personalização</li><li>Adobe: Descubra as oportunidades de otimização de alto impacto</li><li>Adobe: Personalização do setor - Varejo</li></ul>Adição da gravação para o seguinte webinário:<ul><li>Personalização em tempo real com [!DNL Adobe Target]</li></ul> |
 |  | [Diretivas da Política de segurança de conteúdo (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Adição da seção de perguntas frequentes. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target Standard/Premium] Versões 22.5.1 e da plataforma Target (11-13 de maio de 2022). |
