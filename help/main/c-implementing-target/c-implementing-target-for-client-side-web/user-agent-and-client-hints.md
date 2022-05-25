@@ -4,9 +4,10 @@ description: Saiba como [!DNL Adobe Target] O usa o agente do usuário e as Dica
 title: Agente do usuário e dicas do cliente
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 3%
 # Agente do usuário e Dicas do cliente
 
 [!DNL Adobe Target] O usa o agente do usuário para qualificar visitantes para segmentação e personalização.
+
+>[!NOTE]
+>
+>As informações deste artigo se aplicam a [at.js versão 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (ou posterior).
+
 
 Cada vez que um navegador da Web faz uma solicitação a um servidor, incluída no cabeçalho da solicitação, são informações sobre o navegador e o ambiente em que o navegador é executado. Desde os primeiros dias da Internet, esses dados foram agregados em uma única sequência chamada agente-usuário.
 
@@ -158,11 +164,13 @@ Entropia: Baixa documentação: [https://developer.mozilla.org/en-US/docs/Web/HT
 
 #### Sec-CH-UA-Arch
 
-Entropia: Alta documentação: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Atributo de público-alvo: Uso do script de perfil: `user.clientHint('sec-ch-ua-arch')`
+Entropia: Alta documentação: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Atributo de público-alvo: Exposto aos usuários por meio de scripts de perfil.
+Uso do script de perfil: `user.clientHint('sec-ch-ua-arch')`
 
 #### Sec-CH-UA-Bitness
 
-Entropia: Alta documentação: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Atributo de público-alvo: Uso do script de perfil: `user.clientHint('sec-ch-ua-bitness')`
+Entropia: Alta documentação: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Atributo de público-alvo: Exposto aos usuários por meio de scripts de perfil.
+Uso do script de perfil: `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-Full-Version-List
 
@@ -182,7 +190,8 @@ Entropia: Baixa documentação: [https://developer.mozilla.org/en-US/docs/Web/HT
 
 #### Sec-CH-UA-Platform-Version
 
-Entropia: Alta documentação: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Atributo de público-alvo: Uso do script de perfil: `user.clientHint('sec-ch-ua-platform-version')`
+Entropia: Alta documentação: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Atributo de público-alvo: Exposto aos usuários por meio de scripts de perfil.
+Uso do script de perfil: `user.clientHint('sec-ch-ua-platform-version')`
 
 ## Como passar as dicas do cliente para [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ A partir da at.js 2.9.0, as Dicas do cliente do agente do usuário serão coleta
 ### SDKs do lado do servidor
 
 Para obter mais informações sobre como passar dicas do cliente por SDKs do lado do servidor, consulte [Dicas do cliente](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} na *SDKs do Adobe Target* documentação.
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,9 +5,9 @@ title: O que está incluído em cada versão da at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4414'
 ht-degree: 88%
 
 ---
@@ -21,6 +21,11 @@ Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do
 >A equipe do Target é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível.
 >
 >Tags em [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) é o método preferido para atualizar a at.js. Os desenvolvedores de extensão adicionam continuamente novos recursos a suas extensões e corrigem erros com frequência. Essas atualizações são colocadas em novas versões de uma extensão e disponibilizadas no [!DNL Adobe Experience Platform] como atualizações. Para obter mais informações, consulte [Atualizações de extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) no *Visão geral das tags* guia.
+
+## at.js versão 2.9.0 (27 de maio de 2022)
+
+* Adicionado [Dicas do Cliente do Agente de Usuário](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) suporte.
+* Correção de um erro em que várias solicitações de mbox na mesma página tinham IDs de impressão diferentes.
 
 ## Versão 2.8.1 da at.js (28 de janeiro de 2022)
 
@@ -453,7 +458,7 @@ Os seguintes aprimoramentos e correções estão incluídos na [!DNL at.js] vers
 
 * Fornece à at.js um tempo limite para o Serviço de ID de visitante, que é independente do tempo limite do próprio serviço.
 * Corrige um problema na versão 0.9.0 que afetava as implementações que usavam at.js em algumas páginas e mbox.js (agora obsoleta) em outras.
-* Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento para o [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+* Se você usar o Adobe Analytics como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade usando a mbox.js versão 61 (ou posterior) ou a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
 ## at.js versão 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 

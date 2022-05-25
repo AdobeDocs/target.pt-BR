@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 55%
+source-wordcount: '723'
+ht-degree: 93%
 
 ---
 
@@ -18,27 +18,39 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 22.5.1 (libertação escalonada; 11-13 de maio de 2022)
+## Versão da plataforma do Target (25 de maio de 2022)
+
+Essa versão conta com os seguintes aprimoramentos e correções:
+
+* Adicionado [Dicas do Cliente do Agente de Usuário](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) suporte.
+* Correção de um problema que causava tempos limite intermitentes ao renderizar [!UICONTROL Decisões de oferta] em [!UICONTROL Direcionamento de experiência] (XT). (TNT-44611)
+
+## at.js versão 2.9.0 (27 de maio de 2022)
+
+* Adicionado [Dicas do Cliente do Agente de Usuário](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) suporte.
+* Correção de um erro em que várias solicitações de mbox na mesma página tinham IDs de impressão diferentes.
+
+## [!DNL Target Standard/Premium] 22.5.1 (lançamento em etapas; 11-13 de maio de 2022)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **11 de maio**: Região Ásia-Pacífico (APAC)
+* **11 de maio**: Ásia-Pacífico (APAC)
 * **12 de maio**: Região das Américas
 * **13 de maio**: Europa, Oriente Médio e África (EMEA)
 
-Esta versão contém os seguintes aprimoramentos e correções:
+Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Correção de um problema que causava um erro de JavaScript e impedia que alguns clientes acessassem os detalhes da atividade para determinados [!UICONTROL Automated Personalization] (AP). (TGT-43526)
+* Correção de um problema que causava um erro de JavaScript e impedia que alguns clientes acessassem os detalhes de determinadas atividades de [!UICONTROL Personalização automatizada] (AP). (TGT-43526)
 * Correção de um problema que impedia alguns clientes de adicionar (ou editar) uma oferta específica a uma atividade de AP. (TGT-43503)
-* Correção de um problema no [!DNL Target] Interface do usuário que exibia a seguinte mensagem de erro: &quot;Sua mbox global pode não estar sincronizada. Tente salvá-la novamente”. Esse problema era de interface do usuário e não afetava as implementações dos clientes. (TGT-43475)
-* Correção de um problema que impedia um cliente de editar refinamentos e públicos-alvo no nível da experiência para uma atividade se os refinamentos e públicos-alvo fossem criados antes da nova [!UICONTROL Públicos-alvo] A interface do usuário foi implantada. (TGT-43433)
-* Correção de um problema que permitia aos clientes selecionar duplicatas [!DNL Adobe Audience Manager] (AAM) públicos-alvo ao editar públicos-alvo de relatórios para uma atividade. (TGT-43430)
-* Correção de um problema que impedia os clientes de criar públicos duplicados, mas em espaços de trabalho diferentes. (TGT-43423)
+* Correção de um problema na interface do usuário do [!DNL Target] que exibia a seguinte mensagem de erro: “A mbox global pode não estar sincronizada. Tente salvá-la novamente”. Era um problema na interface do usuário e não afetava as implementações dos clientes. (TGT-43475)
+* Correção de um problema que impedia um cliente de editar refinamentos e públicos-alvo no nível da experiência para uma atividade se os refinamentos e públicos-alvo fossem criados antes da implantação da nova interface do usuário [!UICONTROL Públicos-alvo]. (TGT-43433)
+* Correção de um problema que permitia aos clientes selecionar duplicatas de um público-alvo do [!DNL Adobe Audience Manager] (AAM) ao editar públicos-alvo de relatórios para uma atividade. (TGT-43430)
+* Correção de um problema que impedia os clientes de criar públicos-alvo duplicados, mas em espaços de trabalho diferentes. (TGT-43423)
 * Correção de um problema que impedia os clientes de excluir locais com ofertas ad hoc em atividades criadas no [!UICONTROL Experience Composer baseado em formulário]. (TGT-43315)
 * Correção de um problema que impedia os clientes de acessar ofertas de código após clicar em ofertas de imagem e atualizar a interface do usuário. (TGT-43566)
-* Correção de um problema que fazia com que as edições nos scripts de perfil fossem revertidas para o script original não editado após o script ser editado, ativado e depois desativado. O script de perfil agora permanece no seu estado editado. (TGT-43249)
-* Correção de um problema que causava o seguinte erro ao tentar mover um público para outro espaço de trabalho: &quot;Não podemos concluir sua solicitação. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir&quot;. (TGT-43212)
-* Correção de um erro que causava um erro ao clonar modificações de código personalizadas para páginas de Aplicativo de página única (SPA). (TGT-43137)
+* Correção de um problema que fazia com que as edições nos scripts de perfil fossem revertidas para o script original não editado após o script ser editado, ativado e depois desativado. O script de perfil agora permanece no estado editado. (TGT-43249)
+* Correção de um problema que causava o seguinte erro ao tentar mover um público para outro espaço de trabalho: “Não podemos concluir sua solicitação. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir&quot;. (TGT-43212)
+* Correção de um erro ao clonar modificações de código personalizadas para páginas de Aplicativo de página única (SPA). (TGT-43137)
 * Correção de um problema que afetava a promoção original após a duplicação de uma experiência e a edição da promoção. (TGT-41775)
 
 ## Notas de versão adicionais e detalhes da versão

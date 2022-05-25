@@ -4,7 +4,7 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '33448'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Esta versão contém a seguinte alteração:
 
 * Com esta versão, você pode pré-buscar conteúdo para [!UICONTROL Personalização automática] (AP) e [!UICONTROL Direcionamento automático] Atividades (AT) (anteriormente não devolvidas por [!DNL Target]). Isso pode alterar as experiências que os usuários finais veem no caso de uma chamada de pré-busca (sem alterações no fluxo de &quot;execução&quot;) se uma atividade de AP/AT estiver no caminho do delivery e tiver prioridade mais alta do que outras atividades AB/XT que usam o mesmo local para a entrega de conteúdo.
 
-### [!DNL Target] Versão da plataforma (30 de março)
+### [!DNL Target] versão da plataforma (30 de março)
 
 Esta versão inclui os seguintes aprimoramentos:
 
