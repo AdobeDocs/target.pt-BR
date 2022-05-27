@@ -4,10 +4,10 @@ description: Conflitos ocorrem quando várias atividades são configuradas para 
 title: Como Evitar Conflitos De Atividades?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ O [!UICONTROL Colisões] na guia [!UICONTROL Visão geral da atividade] em [!DNL
 
 Um conflito de atividade ocorre quando várias atividades são configuradas para fornecer conteúdo para a mesma página. Se ocorrer um conflito de atividades, você pode não conseguir ver o conteúdo esperado na página.
 
-Se a sua atividade contiver possíveis conflitos, a guia [!UICONTROL Conflitos] estará disponível na página de visão geral da atividade. São listadas todas as atividades do mesmo URL, independentemente do direcionamento de público-alvo de cada atividade. Abra esta guia para obter uma lista de atividades que podem colidir. Clique em uma atividade na lista para exibir a página de visão geral da atividade. Se a colisão alterar a experiência esperada, edite a atividade.
+O [!UICONTROL Colisões] A guia está disponível na página de visão geral da atividade e pode informá-lo se sua atividade contém colisões potenciais. São listadas todas as atividades do mesmo URL, independentemente do direcionamento de público-alvo de cada atividade. Abra esta guia para obter uma lista de atividades que podem colidir. Clique em uma atividade na lista para exibir a página de visão geral da atividade. Se a colisão alterar a experiência esperada, edite a atividade.
 
 O [!UICONTROL Colisões] ajuda você a:
 
