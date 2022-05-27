@@ -164,7 +164,7 @@ Os clientes não podem realizar operações CRUD em atividades de Alocação aut
 
 Em 10 de maio de 2020, a Adobe atualizou os arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores em públicos existentes não tinham vírgula. Nem todos os servidores de entrega da Adobe foram afetados por essa alteração. Como resultado, os públicos que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
 
-### Relatórios — dados inconsistentes no relatório .csv para download em comparação ao relatório exibido na interface do [!DNL Target]. {#csv}
+### Relatórios — dados inconsistentes no relatório .csv para download em comparação ao relatório exibido na interface do [!DNL Target] {#csv}
 
 Os relatórios gerados para download como arquivos .csv são inconsistentes se a atividade usar mais de uma métrica. O relatório que pode ser baixado é gerado somente com base nas configurações do relatório e considera o mesmo valor para qualquer outra métrica usada.
 
@@ -318,7 +318,7 @@ Mboxes não disparam em navegadores Microsoft Explorer 11 depois do upgrade para
 
 Corrigido na versão da API 2.3.0 ou posterior.
 
-### Geografia  direcionamento
+### Geografia   direcionamento
 
 A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por &quot;nova york&quot;, a pesquisa não retorna resultados válidos.
 

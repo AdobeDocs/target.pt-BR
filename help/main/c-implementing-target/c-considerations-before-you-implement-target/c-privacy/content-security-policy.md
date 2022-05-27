@@ -7,8 +7,8 @@ role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '329'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Se estiver usando a [Política de segurança de conteúdo](https://en.wikipedia.
 
 Consulte as seguintes perguntas frequentes sobre políticas de segurança:
 
-### O CORS (Cross Origin Resource Sharing) e as políticas entre domínios do Flash apresentam problemas de segurança?
+### O CORS (Compartilhamento de recursos entre origens) e as políticas entre domínios do Flash apresentam problemas de segurança?
 
-A maneira recomendada de implementar a política do CORS é permitir acesso somente a origens confiáveis que exigem isso por meio de uma lista de permissões de domínios confiáveis. O mesmo pode ser dito para a política entre domínios do Flash. Algumas [!DNL Adobe Target] os clientes estão preocupados com o uso de caracteres curingas para domínios em [!DNL Target]. A preocupação é que, se um usuário estiver conectado a um aplicativo e visitar um domínio permitido pela política, qualquer conteúdo mal-intencionado em execução nesse domínio poderá recuperar conteúdo confidencial do aplicativo e realizar ações dentro do contexto de segurança do usuário conectado. Isso geralmente é chamado de CSRF (Cross-Site Request Forgery).
+A maneira recomendada de implementar a política CORS é permitir o acesso apenas a origens confiáveis que o exijam por meio de uma lista de permissões de domínios confiáveis. O mesmo pode ser dito para a política entre domínios do Flash. Alguns clientes do [!DNL Adobe Target] estão preocupados com o uso de caracteres curingas para domínios no [!DNL Target]. A preocupação é que, se um usuário estiver conectado a um aplicativo e visitar um domínio permitido pela política, qualquer conteúdo mal-intencionado em execução nesse domínio poderá recuperar conteúdo confidencial do aplicativo e realizar ações dentro do contexto de segurança do usuário conectado. Geralmente, essa ação é chamada de CSRF (Falsificação de solicitação entre sites).
 
-Em um [!DNL Adobe Target] no entanto, estas políticas não devem representar um problema de segurança.
+No entanto, em uma implementação do [!DNL Adobe Target], estas políticas não devem representar um problema de segurança.
 
-&quot;adobe.tt.omtrdc.net&quot; é um domínio de propriedade do Adobe. [!DNL Adobe Target] é uma ferramenta de teste e personalização e espera-se que [!DNL Target] O pode receber e processar solicitações de qualquer lugar sem exigir autenticação. Essas solicitações contêm pares de chave/valor usados para testes A/B, recomendações ou personalização de conteúdo.
+“adobe.tt.omtrdc.net” é um domínio de propriedade da Adobe. O [!DNL Adobe Target] é uma ferramenta de teste e personalização e espera-se que o [!DNL Target] possa receber e processar solicitações de qualquer lugar sem exigir autenticação. Essas solicitações contêm pares de chave/valor usados para testes A/B, recomendações ou personalização de conteúdo.
 
-[!DNL Adobe] não armazena informações pessoais identificáveis (PII) ou outras informações confidenciais em [!DNL Adobe Target] servidores de borda, aos quais &quot;adobe.tt.omtrdc.net&quot; aponta.
+O [!DNL Adobe] não armazena informações pessoais identificáveis (PII) ou outras informações confidenciais em servidores de borda do [!DNL Adobe Target], para os quais “adobe.tt.omtrdc.net” aponta.
 
-Espera-se que [!DNL Target] pode ser acessada de qualquer domínio por meio de chamadas JavaScript. A única maneira de permitir esse acesso é aproveitando &quot;Controle de acesso com permissão de origem&quot; com um curinga.
+Espera-se que o [!DNL Target] possa ser acessado de qualquer domínio por meio de chamadas JavaScript. A única maneira de permitir esse acesso é usando “Access-Control-Allow-Origin” com um curinga.
