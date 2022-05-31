@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: f29d01b8851efee1ab0b412f8cba3692c68efc7b
 workflow-type: tm+mt
-source-wordcount: '4097'
+source-wordcount: '4110'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 25 de maio | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão da plataforma do Target (25 de maio de 2022) e a versão 2.9.0 da at.js (27 de maio de 2022). |
+| 31 de maio | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Foram adicionadas informações sobre o [!DNL Adobe Target] Quebra de Café da Comunidade (29 de junho de 2022) |
+| 25 de maio | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target] versão da plataforma (25 de maio de 2022) e a versão 2.9.0 da at.js (27 de maio de 2022). |
 |  | [Detalhes da versão da at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.9.0 da at.js. |
 |  | [Agente do usuário e Dicas do cliente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | Novo tópico. |
 |  | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Foi adicionado um link para gravar o seguinte webinário: Bens desportivos de Dick: Personalização e a paisagem em mudança no varejo (19 de maio de 2022) |
