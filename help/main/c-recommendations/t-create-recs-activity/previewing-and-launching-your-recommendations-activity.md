@@ -4,9 +4,9 @@ description: 'Saiba como visualizar o Adobe [!DNL Target] Atividade do Recommend
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1381'
 ht-degree: 17%
 
 ---
@@ -120,17 +120,17 @@ Alterar [!DNL Recommendations] coleções, critérios, promoções ou configura�
 
 Para evitar interromper uma atividade ativa, recomendamos seguir a abordagem a seguir ao modificar uma atividade ativa:
 
-1. Duplique a atividade e os critérios que deseja modificar.
-1. Faça alterações na atividade e critérios duplicados e aguarde o algoritmo gerar resultados.
-1. Visualize a atividade nova e modificada e confirme se os resultados estão conforme desejado.
-1. Ative a nova atividade.
-1. Desative a atividade antiga.
+1. Duplique a atividade original (atividade 1) e os critérios que deseja modificar para criar uma nova atividade (atividade 2).
+1. Faça alterações na atividade duplicada (atividade 2) e nos critérios e aguarde o algoritmo gerar resultados.
+1. Visualize a atividade nova e modificada (atividade 2) e confirme se os resultados estão conforme desejado.
+1. Ative a nova atividade (atividade 2).
+1. Desative a atividade original (atividade 1).
 
 Se você precisar manter os resultados históricos do relatório na mesma atividade, uma abordagem alternativa será possível, o que pode resultar em uma interrupção temporária da disponibilidade das recomendações:
 
-1. Duplique a atividade e os critérios que deseja modificar.
-1. Faça alterações na atividade e critérios duplicados e aguarde o algoritmo gerar resultados.
-1. Visualize a atividade nova e modificada e confirme se os resultados estão conforme desejado.
-1. Pause a atividade existente e troque as configurações/critérios pelos novos critérios.
-1. Visualize a atividade existente e confirme se os resultados estão conforme desejado.
-1. Reative a atividade.
+1. Duplique a atividade original (atividade 1) e os critérios que deseja modificar para criar uma nova atividade (atividade 2).
+1. Faça alterações na atividade duplicada (atividade 2) e nos critérios e aguarde o algoritmo gerar resultados.
+1. Visualize a atividade nova e modificada (atividade 2) e confirme se os resultados estão conforme desejado.
+1. Pause a atividade nova e modificada (atividade 2) e troque as configurações/critérios pela atividade original (atividade 1).
+1. Visualize a atividade original (atividade 1) e confirme se os resultados estão conforme desejado.
+1. Reative a atividade original (atividade 1).
