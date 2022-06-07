@@ -5,10 +5,10 @@ title: Como Configurar Permissões Empresariais?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 67%
+source-wordcount: '1431'
+ht-degree: 68%
 
 ---
 
@@ -183,7 +183,7 @@ Para usar o [!DNL Target] da funcionalidade de permissões de usuário, é neces
    | Função | Descrição |
    |--- |--- |
    | Aprovador | Pode criar, editar e ativar ou parar atividades. |
-   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. Pode editar públicos-alvo em atividades ativas. |
+   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
    | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
    | Editor | Semelhante à função de Observador (pode exibir atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem a permissão adicional para ativar atividades. |
 

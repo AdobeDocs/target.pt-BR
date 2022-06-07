@@ -5,10 +5,10 @@ title: Como adicionar usuários e gerenciar permissões?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 99%
+source-wordcount: '911'
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
    | Função | Descrição |
    |--- |--- |
    | Aprovador | Pode criar, editar e ativar ou parar atividades. |
-   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. Pode editar públicos-alvo em atividades ativas. |
+   | Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
    | Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
    | Editor | Semelhante à função de Observador (pode exibir atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem a permissão adicional para ativar atividades. |
 
