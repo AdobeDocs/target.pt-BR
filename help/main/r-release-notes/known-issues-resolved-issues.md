@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4549'
-ht-degree: 100%
+source-wordcount: '4507'
+ht-degree: 98%
 
 ---
 
@@ -51,18 +51,6 @@ Os nomes de segmento do [!DNL Adobe Experience Platform] não são exibidos no r
 
 A tentativa de arquivar atividades inativas de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização. Até que esse problema seja corrigido, não arquive as atividades de [!UICONTROL Direcionamento automático]. Deixe-as no estado [!UICONTROL Inativo]. (TGT-40885)
 
-### Delivery de página {#page-delivery}
-
-Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no [delivery da](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esses espaços extras são cosméticos e não afetam a criação de definição de público-alvo e a entrega de ofertas. (TGT-35920)
-
-### Links de pré-visualização de controle de qualidade
-
-Os links de visualização de QA da atividade para atividades salvas podem não ser carregados se houver muitas atividades salvas em sua conta. Tente novamente os links de pré-visualização. Arquive atividades salvas que não são mais usadas ativamente para impedir que esse problema continue acontecendo. (TNT-37294)
-
-### Modo de controle de qualidade para atividades do Recommendations
-
-Um problema conhecido impede a pré-visualização se os critérios usados na atividade forem baseados em itens ou em categorias. (TNT-37455)
-
 ### Ofertas de redirecionamento {#redirect}
 
 * As atividades de redirecionamento nas implementações da at.js podem fazer com que o URL de visualização entre em loop (a oferta é entregue repetidamente). Você pode usar o [Modo de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) para realizar a Visualização e o QA. Esse problema não afeta o recebimento real da oferta. (TGT-23019)
@@ -84,14 +72,6 @@ Um problema conhecido impede a pré-visualização se os critérios usados na at
 ### Recommendations
 
 A seguir, os problemas conhecidos com atividades do [!UICONTROL Recommendations]:
-
-* Ao copiar uma atividade do [!UICONTROL Recommendations] com uma promoção principal, qualquer alteração na atividade duplicada atualmente também afeta a atividade original e vice-versa. (TGT-39155)
-
-   Como solução temporária:
-
-   * Desative promoções de atividades
-   * Duplique a atividade
-   * Ative promoções novamente em cada atividade
 
 * Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recommendations, ele retornará com um tipo de HTML.
 * As entidades expiraram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. (IRI-857)
@@ -148,10 +128,6 @@ Todos os pacotes atuais do Analytics podem adicionar esse modelo com o Attributi
 
 Os clientes não podem realizar operações CRUD em atividades de Alocação automática com a versão v3 da API de Atividades A/B no Adobe I/O.
 
-### Geolocalização
-
-Em 10 de maio de 2020, a Adobe atualizou os arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores em públicos existentes não tinham vírgula. Nem todos os servidores de entrega da Adobe foram afetados por essa alteração. Como resultado, os públicos que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
-
 ### Relatórios — dados inconsistentes no relatório .csv para download em comparação ao relatório exibido na interface do [!DNL Target] {#csv}
 
 Os relatórios gerados para download como arquivos .csv são inconsistentes se a atividade usar mais de uma métrica. O relatório que pode ser baixado é gerado somente com base nas configurações do relatório e considera o mesmo valor para qualquer outra métrica usada.
@@ -160,7 +136,27 @@ A fonte da verdade é sempre o relatório exibido na interface do usuário do [!
 
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Quando resolvidos, os problemas conhecidos acima são movidos para as seções a seguir. Se necessário, são adicionadas outras notas.
+Quando os problemas acima são resolvidos, são movidos para as seções a seguir. Se necessário, são aditadas notas adicionais.
+
+### Geolocalização
+
+Em 10 de maio de 2020, a Adobe atualizou os arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores em públicos existentes não tinham vírgula. Nem todos os servidores de entrega da Adobe foram afetados por essa alteração. Como resultado, os públicos que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
+
+### Copiando uma [!UICONTROL Recommendations] atividade
+
+Ao copiar um [!UICONTROL Recommendations] com uma promoção ativa, qualquer alteração na atividade duplicada atualmente também afeta a atividade original e, inversamente. (TGT-39155)
+
+Esse problema foi corrigido no [!DNL Target Standard/Premium] Versão 21.2.1.
+
+### Modo de controle de qualidade para atividades do Recommendations
+
+Um problema conhecido impede a pré-visualização se os critérios usados na atividade forem baseados em itens ou em categorias. (TNT-37455)
+
+Esse problema foi corrigido em janeiro de 2022. (TNT-37455)
+
+### Delivery de página {#page-delivery}
+
+Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no [delivery da](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esses espaços extras são cosméticos e não afetam a criação de definição de público-alvo e a entrega de ofertas. (TGT-35920)
 
 ### Ofertas de imagem mostrando o rótulo &quot;Processando&quot;
 
