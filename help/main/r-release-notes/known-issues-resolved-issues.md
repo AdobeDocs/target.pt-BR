@@ -4,9 +4,9 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
 workflow-type: tm+mt
-source-wordcount: '4507'
+source-wordcount: '4506'
 ht-degree: 98%
 
 ---
@@ -90,15 +90,6 @@ Em uma atividade de MVT, os vencedores mostrados na tabela e no gráfico não s�
 
 A seguir, os problemas conhecidos com at.js:
 
-* Ao usar as versões do at.js anteriores a 2.2.0, o rastreamento de cliques não relata conversões no Analytics for Target (A4T) se o código do Adobe Analytics não estiver presente nos elementos da página (como botões). Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) mais recente do at.js se você encontrar esse problema.
-* Se você criar uma experiência sem modificações usando o at.js 2.1.1 ou anterior (por exemplo, uma experiência padrão), a experiência pode não ser contada nos relatórios, no Analytics for Target (A4T), no Adobe Analytics ou no Google Analytics. Além disso, o plug-in ttMeta pode não funcionar corretamente.
-
-   Como alternativa, use um espaço em branco no conteúdo da experiência. (TNT-33366)
-
-   >[!NOTE]
-   >
-   >Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para a [lversão mais recente ou at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou use a solução alternativa mencionada acima apenas para versões do at.js anteriores a 2.2.0
-
 * Quando uma página é carregada no Visual Experience Composer (VEC), o Target precisa determinar se a configuração global da mbox está ativada ou desativada e se há presença de entityID ou categoryID no local onde o usuário está tentando aplicar a recomendação no VEC. A lista de critérios é filtrada com base nestas informações. A lista padrão tem algoritmos filtrados, mas a [caixa de verificação de compatibilidade](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) permite que você visualize a lista completa de algoritmos.
 
    Ao usar at.js, a caixa de marcação Compatibilidade é ocultada para quer você não possa ver algoritmos.
@@ -137,6 +128,18 @@ A fonte da verdade é sempre o relatório exibido na interface do usuário do [!
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Quando os problemas acima são resolvidos, são movidos para as seções a seguir. Se necessário, são aditadas notas adicionais.
+
+### at.js
+
+* Se você criar uma experiência sem modificações usando o at.js 2.1.1 ou anterior (por exemplo, uma experiência padrão), a experiência pode não ser contada nos relatórios, no Analytics for Target (A4T), no Adobe Analytics ou no Google Analytics. Além disso, o plug-in ttMeta pode não funcionar corretamente.
+
+   Como alternativa, use um espaço em branco no conteúdo da experiência.
+
+   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para a [lversão mais recente ou at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou use a solução alternativa mencionada acima apenas para versões do at.js anteriores a 2.2.0  (TNT-33366)
+
+* Ao usar as versões da at.js anteriores à 2.2.0, o rastreamento de cliques não relata conversões em [!UICONTROL Analytics para Target] (A4T) se [!DNL Adobe Analytics] o código não está presente nos elementos da página (como botões).
+
+   Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) mais recente do at.js se você encontrar esse problema.
 
 ### Geolocalização
 
