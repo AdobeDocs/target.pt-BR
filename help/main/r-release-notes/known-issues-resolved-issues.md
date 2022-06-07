@@ -4,9 +4,9 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '4783'
+source-wordcount: '4549'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,6 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
-
-### Visual Experience Composer (VEC) carregando sites com o Service Workers
-
-Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Service Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
-
-Um SW é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instalados por uma página da Web. O SW se mantém na visita da página e se ativa em visitas subsequentes. Ele decide quais solicitações são passadas e quais são interceptadas e fornecidas a partir de um cache.
-
-O SW pode controlar o armazenamento em cache; pode armazenar em cache a própria página da Web, recursos estáticos, como JS, CSS, IMG, solicitações de AJAX e seu conteúdo e cabeçalhos de resposta, incluindo aqueles que a [extensão auxiliar do Target VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta remover, como X-Frame-Options: SAMEORIGIN, CSP (Política-Segurança-Conteúdo) ou definir-cookie.
-
-Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi fornecida a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido ao X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
-
-Como uma possível solução alternativa, você pode desativar o Service Workers do Chrome Developer Tools > guia do Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Bypass for network&quot; na seção Service Workers. (KB-2006)
 
 ### Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário {#ad-hoc}
 

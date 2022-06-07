@@ -4,10 +4,10 @@ description: Descubra por que alguns sites podem não abrir de maneira confiáve
 title: Como uso a extensão de ajuda do Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 57%
+source-wordcount: '1011'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +25,16 @@ O [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) A extensão 
 * O site está em um iframe.
 * A biblioteca do at.js ainda não está implementada no site.
 * O site de QA e/ou etapas do cliente não está disponível para o mundo externo (o site é interno).
+* Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Service Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
+
+Um SW é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instalados por uma página da Web. O SW se mantém na visita da página e se ativa em visitas subsequentes. Ele decide quais solicitações são passadas e quais são interceptadas e fornecidas a partir de um cache.
+
+O SW pode controlar o armazenamento em cache; pode armazenar em cache a própria página da Web, recursos estáticos, como JS, CSS, IMG, solicitações de AJAX e seu conteúdo e cabeçalhos de resposta, incluindo aqueles que a [extensão auxiliar do Target VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta remover, como X-Frame-Options: SAMEORIGIN, CSP (Política-Segurança-Conteúdo) ou definir-cookie.
+
+Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi fornecida a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido ao X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
+
+Como uma possível solução alternativa, você pode desativar o Service Workers do Chrome Developer Tools > guia do Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Bypass for network&quot; na seção Service Workers.
+
 * Você está usando o Google Chrome 80+ com políticas aprimoradas de imposição de cookies SameSite. Para obter mais informações, consulte [Como as políticas de imposição de cookies do Google Chrome SameSite recentemente anunciadas afetam o VEC e o EEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 A extensão de navegador VEC Helper para o Chrome resolve problemas de carregamento de site para os quais os clientes agora dependem do [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) ou extensões de terceiros, como Requestly.

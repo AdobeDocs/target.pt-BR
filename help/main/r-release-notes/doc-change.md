@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 25 de fevereiro | [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Atualização das seguintes seções:<ul><li>[Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Alocação automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretar relatórios de autoalocação](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Novas perguntas frequentes adicionadas:<ul><li>Os emblemas “Sem vencedor”, “Vencedor” e “estrela” estão disponíveis para atividades de [!UICONTROL Alocação automática] que usam o [!UICONTROL Analytics como fonte de relatórios] (A4T)?</li></ul> |
 |  | [Criar um público somente com atividades](/help/main/c-target/creating-activity-only-audience.md) | Foram adicionadas informações na seção “Considerações” sobre regras de exclusão. |
-| 10 de fevereiro | [Problemas conhecidos e problemas resolvidos](/help/main/r-release-notes/known-issues-resolved-issues.md) | Adição dos seguintes problemas conhecidos:  <ul><li>Visual Experience Composer (VEC) carregando sites com o Service Workers</li></ul> |
+| 10 de fevereiro | [Extensão auxiliar do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Adição de informações sobre o carregamento de sites com funcionários no Visual Experience Composer (VEC). |
 | 7 de fevereiro | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade   (23 de fevereiro de 2022)</li></ul> |
 | 3 de fevereiro | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md#RTCDP) | Nova seção e vídeo adicionados: &quot;Vídeo: Personalização de próxima ocorrência com o Real-time CDP e [!DNL Adobe Target]&quot;. |
 | 2 de fevereiro | [Soluções de problemas da entrega de conteúdo](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Inclusão da seguinte seção: &quot;Evitar aspas duplas no valor do atributo de perfil do [!DNL Target] não está funcionando como o esperado&quot;. |
