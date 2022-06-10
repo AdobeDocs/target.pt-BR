@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -36,12 +36,12 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Adicionado [Dicas do Cliente do Agente de Usuário](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) suporte.
-* Correção de um problema que causava tempos limite intermitentes ao renderizar [!UICONTROL Decisões de oferta] em [!UICONTROL Direcionamento de experiência] (XT). (TNT-44611)
+* Foi adicionado suporte a [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* Correção de um problema que causava esgotamento do tempo de maneira intermitente ao renderizar [!UICONTROL Decisões de oferta] em [!UICONTROL Direcionamento de experiência] (XT). (TNT-44611)
 
 ## at.js versão 2.9.0 (27 de maio de 2022)
 
-* Adicionado [Dicas do Cliente do Agente de Usuário](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) suporte.
+* Foi adicionado suporte a [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
 * Correção de um erro em que várias solicitações de mbox na mesma página tinham IDs de impressão diferentes.
 
 ## [!DNL Target Standard/Premium] 22.5.1 (lançamento em etapas; 11-13 de maio de 2022)
@@ -49,7 +49,7 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
 * **11 de maio**: Ásia-Pacífico (APAC)
-* **12 de maio**: Região das Américas
+* **12 de maio**: região das Américas
 * **13 de maio**: Europa, Oriente Médio e África (EMEA)
 
 Essa versão conta com os seguintes aprimoramentos e correções:

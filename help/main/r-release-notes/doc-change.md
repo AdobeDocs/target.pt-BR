@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 31 de maio | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Foram adicionadas informações sobre o [!DNL Adobe Target] Quebra de Café da Comunidade (29 de junho de 2022) |
 | 25 de maio | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target] versão da plataforma (25 de maio de 2022) e a versão 2.9.0 da at.js (27 de maio de 2022). |
 |  | [Detalhes da versão da at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.9.0 da at.js. |
-|  | [Agente do usuário e Dicas do cliente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | Novo tópico. |
-|  | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Foi adicionado um link para gravar o seguinte webinário: Bens desportivos de Dick: Personalização e a paisagem em mudança no varejo (19 de maio de 2022) |
+|  | [User-agent e Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | Novo tópico. |
+|  | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Foi adicionado um link para a gravação do seguinte webinário: Dick&#39;s Sporting Goods: personalização e mudanças no setor do varejo (19 de maio de 2022) |
 | 23 de maio | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para a at.js versão 2.9.0 (25 de maio de 2022). |
 | Maio de 11 | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Adição de informações e links de inscrição para os seguintes webinars:<ul><li>Dick&#39;s Sporting Goods: Personalização e a mudança de cenário no varejo</li><li>Adobe: Insider do setor de personalização - Serviços financeiros e seguros</li><li>City National Bank: Como alcançar o 1% entre os melhores em otimização digital</li><li>Adobe: Personalização com precisão - [!DNL Adobe Analytics] e [!DNL Target]</li><li>City National Bank: a virada de jogo - Início e dimensionamento de um programa de personalização</li><li>Adobe: Descubra as oportunidades de otimização de alto impacto</li><li>Adobe: Insider do setor de personalização - Varejo</li></ul>Adição da gravação para o seguinte webinário:<ul><li>Personalização em tempo real com o [!DNL Adobe Target]</li></ul> |
 |  | [Diretivas da Política de segurança de conteúdo (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Adição da seção de perguntas frequentes. |

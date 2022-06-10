@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -108,11 +108,11 @@ Acesse gravações de eventos anteriores:
 
 Conheça as práticas recomendadas para aumentar os programas de personalização em escala. Veja como a Dick&#39;s Sporting Goods usa o [!DNL Adobe Target] para engajar atletas e marcas importantes.
 
-* [Link de gravação](https://video.tv.adobe.com/v/343042){target=_blank}
+* [Link da gravação](https://video.tv.adobe.com/v/343042) {target=_blank}
 
 +++Clique
 
-Junte-se a Shawn Wilkinson (eCommerce Personalization Manager) para saber como [!DNL Target] O está ajudando Dick a transformar visitantes médios em atletas recorrentes.
+Junte-se a Shawn Wilkinson (Gerente de personalização de e-commerce) para saber como o produto [!DNL Target] está ajudando a Dick&#39;s Sporting Goods a transformar visitantes comuns em atletas recorrentes.
 
 Saiba como a Dick&#39;s Sporting Goods está impulsionando o crescimento de dois dígitos:
 
@@ -127,7 +127,7 @@ Saiba como a Dick&#39;s Sporting Goods está impulsionando o crescimento de dois
 
 Saiba como as empresas de serviços financeiros estão apoiando e informando clientes usando personalização para se preparar para padrões de inflação e estratégias de investimento.
 
-[Link de gravação](https://video.tv.adobe.com/v/343240){target=_blank}
+[Link da gravação](https://video.tv.adobe.com/v/343240) {target=_blank}
 
 +++Clique
 
@@ -138,7 +138,7 @@ Junte-se a Christopher Young (Diretor, Serviços financeiros de estratégia seto
 
 Visualize o kit de ferramentas e os casos de uso para implementar estratégias de personalização multifuncional. Veja como o CNB passou dos 26% inferiores do seu setor para o 1% superior com o [!DNL Adobe Target].
 
-[Link de gravação](https://video.tv.adobe.com/v/343344){target=_blank}
+[Link da gravação](https://video.tv.adobe.com/v/343344) {target=_blank}
 
 +++Clique
 
@@ -170,7 +170,7 @@ Nesta sessão, saiba como o [!DNL Adobe Target] elimina a lacuna na combinação
 
 ### Webinário: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 
-[Link de gravação](https://video.tv.adobe.com/v/328148){target=_blank}
+[Link da gravação](https://video.tv.adobe.com/v/328148) {target=_blank}
 
 +++Clique
 
