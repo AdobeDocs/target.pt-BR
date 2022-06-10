@@ -1,24 +1,24 @@
 ---
-keywords: Real-time Customer Data Platform, rtcdp, personalização, públicos-alvo da aep, públicos-alvo da adobe experience platform
-description: Saiba como usar o [!DNL Target]/[!DNL Real-time Customer Data Platform] Integração do (RTCDP) para fornecer dados mais avançados do cliente e personalização mais impactante.
-title: Como integrar [!DNL Target] com o [!DNL Real-time Customer Data Platform]?
+keywords: Real-time Customer Data Platform;rtcdp;personalização;públicos aep;públicos adobe experience platform
+description: Saiba como usar a integração  [!DNL Target]/[!DNL Real-time Customer Data Platform]  (RTCDP) para fornecer dados mais avançados do cliente e personalização mais impactante.
+title: Como integrar o  [!DNL Target]  com a  [!DNL Real-time Customer Data Platform]?
 feature: Integrations
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
-workflow-type: tm+mt
+exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
+source-git-commit: e0a6162edac53e11296c4ba77be7d2caf5f27b39
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
+# Integração com a Real-time Customer Data Platform
 
-# Integração com o Real-time Customer Data Platform
+Criada na [!DNL Adobe Experience Platform], a [!DNL Real-time Customer Data Platform] (RTCDP) ajuda empresas a reunir dados conhecidos e anônimos de várias fontes corporativas para criar perfis de clientes que podem ser usados para fornecer experiências personalizadas em todos os canais e dispositivos em tempo real.
 
-Criado em [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] O (RTCDP) ajuda as empresas a unir dados conhecidos e anônimos de várias fontes corporativas, a fim de criar perfis de clientes que possam ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.
+Para obter mais informações sobre a RTCDP, consulte [Visão geral da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR) {target=_blank}.
 
-Para obter mais informações sobre RTCDP, consulte [Visão geral do Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR){target=_blank}.
+O uso dos públicos no [!DNL Adobe Target] de forma integrada com a [!DNL Adobe Experience Platform] garante dados mais avançados do cliente que resulta em personalização mais impactante.
 
-Uso de públicos-alvo em [!DNL Adobe Target] criado em [!DNL Adobe Experience Platform] forneça dados mais avançados do cliente, o que resulta em personalização mais impactante.
+Conectando o [!DNL Target] à [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da web desbloqueando novos segmentos que antes podiam estar indisponíveis no [!DNL Target] e permitir a personalização em tempo real e em milissegundos na primeira página visitada pelo cliente na web. Usar públicos criados na [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para uma personalização mais avançada.
 
-Por conexão [!DNL Target] para [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da Web ao desbloquear novos segmentos que podem ter sido inacessíveis anteriormente para o [!DNL Target] para permitir a personalização em tempo real em milissegundos na primeira página de uma visita à Web de um cliente. Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para personalização mais avançada.
-
-Para obter mais informações, consulte [Usar públicos-alvo da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep), em *Criar públicos-alvo*.
+Para obter mais informações, consulte [Usar públicos da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) em *Criar públicos*.
