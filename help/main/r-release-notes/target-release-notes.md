@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 62%
+source-wordcount: '241'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,7 @@ Este artigo contém informações de pré-lançamento. As datas de lançamento, 
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] correções de engenharia do cliente (versão escalonada: (7 a 9 de junho de 2022)
+## [!DNL Target Standard/Premium] 2.6.1 (versão escalonada: (7 a 9 de junho de 2022)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 

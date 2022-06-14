@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4132'
 ht-degree: 98%
 
 ---
@@ -19,8 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 7 de junho | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para o [!DNL Target Standard/Premium] versão de correções de engenharia do cliente. |
-| 6 de junho | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para o [!DNL Target Standard/Premium] versão de correções de engenharia do cliente. |
+| 7 de junho | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para o [!DNL Target Standard/Premium] Versão 22.6.1. |
+| 6 de junho | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para o [!DNL Target Standard/Premium] Versão 22.6.1. |
 | 31 de maio | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Foram adicionadas informações sobre o [!DNL Adobe Target] Quebra de Café da Comunidade (29 de junho de 2022) |
 | 25 de maio | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre o [!DNL Target] versão da plataforma (25 de maio de 2022) e a versão 2.9.0 da at.js (27 de maio de 2022). |
 |  | [Detalhes da versão da at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Adição de informações sobre a versão 2.9.0 da at.js. |
