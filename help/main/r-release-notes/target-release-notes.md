@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: c9032a8c537a7618b92996c042688a84ea9649c2
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 63%
+source-wordcount: '203'
+ht-degree: 69%
 
 ---
 
@@ -15,23 +15,17 @@ ht-degree: 63%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 7 de junho de 2022**
+**Última atualização: 16 de junho de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 2.6.1 (versão escalonada: (7 a 9 de junho de 2022)
-
-Esta versão estará disponível de acordo com o seguinte agendamento:
-
-* **7 de junho**: Região Ásia-Pacífico (APAC)
-* **8 de junho**: Região das Américas
-* **9 de junho**: Europa, Oriente Médio e África (EMEA)
+## [!DNL Target Standard/Premium] 22.6.2 (24 de junho de 2022)
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Usuários com a [!UICONTROL Editor] não pode mais editar públicos-alvo em atividades ativas. (TGT-43582)
-* Um aprimoramento foi fornecido para o novo [!UICONTROL Públicos-alvo] para evitar um estado inconsistente entre o banco de dados antigo, onde os públicos-alvo eram armazenados no passado, e a nova arquitetura que está recuperando as informações diretamente do back-end. (TGT-43552)
-* Correção de um problema que impedia alguns clientes de salvar públicos combinados causados pela interface do usuário do Target de criar contêineres &quot;vazios&quot;. (TGT-43588)
+* Atributos do cliente compartilhados de [!DNL Adobe Experience Platform] para [!DNL Target] no [!DNL Platform] A interface do usuário do está visível no [!DNL Target] IU. (TGT-43150)
+* Uma mensagem de aviso é exibida se um cliente tentar salvar um público-alvo com um ponto de exclamação ( ! ) como o primeiro caractere do nome do público-alvo (por exemplo !Londres). (TGT-43643)
+* Correção de um problema que fazia com que os cartões de detalhes da definição de públicos-alvo para alguns clientes indicassem que uma atividade finalizada ainda estava ativa. (TGT-43527)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
