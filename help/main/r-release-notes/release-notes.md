@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 82%
+source-wordcount: '489'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,6 @@ Esta versão estará disponível de acordo com o seguinte agendamento:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Usuários com a [!UICONTROL Editor] não pode mais editar públicos-alvo em atividades ativas. (TGT-43582)
 * Um aprimoramento foi fornecido para o novo [!UICONTROL Públicos-alvo] para evitar um estado inconsistente entre o banco de dados antigo, onde os públicos-alvo eram armazenados no passado, e a nova arquitetura que está recuperando as informações diretamente do back-end. (TGT-43552)
 * Correção de um problema que impedia alguns clientes de salvar públicos combinados causados pela interface do usuário do Target de criar contêineres &quot;vazios&quot;. (TGT-43588)
 
