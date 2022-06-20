@@ -5,10 +5,10 @@ title: Como obter dados sobre [!DNL Target] Usando a API de atualização de per
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 79%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ Essa opção é semelhante aos Atributos do cliente, com algumas diferenças:
 * Os Atributos do cliente usam um carregamento de FTP, enquanto a API de atualização de perfil em massa do Target usa uma API HTTP POST.
 * Os dados de atributo do cliente podem ser compartilhados com o Analytics. A Atualização de perfil em massa é utilizável somente no Target.
 * Os Atributos do cliente suportam a criação de um perfil para um usuário que o Target ainda não visualizou. A API de atualização do perfil em massa atualiza somente os perfis existentes do Target.
-* Os Atributos do cliente necessitam do uso de uma Experience Cloud ID (ECID). A API de atualização do perfil em massa requer ID de TNT ou `mbox3rdPartyId`.
+* Os atributos do cliente exigem o uso da ID do Experience Cloud (ECID) e do ID de origem, como a ID do CRM ou a ID da Fidelidade.
+* A API de atualização do perfil em massa requer ID de TNT ou `mbox3rdPartyId`.
 * Não é possível enviar os seguintes caracteres em `mbox3rdPartyID`: sinal de adição (+) e barra invertida (/).
 
 ## Formato
