@@ -5,10 +5,10 @@ title: Como a at.js gerencia a cintilação?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## Gerenciar cintilação na at.js 2.x para triggerView()
 
-Ao usar `triggerView()` para mostrar o conteúdo direcionado em seu SPA, o gerenciamento de cintilação é fornecido imediatamente. Isso significa que a lógica pré-ocultar não precisa ser adicionada manualmente. Em vez disso, a at.js 2.x pré-oculta o local em que sua exibição precisa ser mostrada antes de aplicar o conteúdo direcionado.
+A pré-ocultação de DOM se aplica somente ao carregamento da página inicial. Para SPA, o DOM é atualizado quando `triggerView()` é chamado. Pode haver uma pequena oscilação entre o momento em que o SPA renderiza o conteúdo para as atualizações do DOM e da at.js [!DNL Target] ofertas.  Para minimizar a cintilação, se você usar `triggerView` para modificar o conteúdo de carregamento da página, &quot;triggerView&quot; deve ser chamado assim que a página for renderizada.
 
 ## Gerencie a cintilação com getOffer() e applyOffer()
 
