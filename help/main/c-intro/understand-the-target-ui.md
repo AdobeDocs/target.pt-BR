@@ -4,9 +4,9 @@ description: Familiarize-se com a interface do usuário e encontre links para in
 title: Como faço para usar a interface do [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1313'
 ht-degree: 47%
 
 ---
@@ -115,6 +115,11 @@ Para editar suas preferências de notificações:
    * Compartilhado comigo: Quando alguém compartilha um objeto com você.
    * Atualizações de conteúdo: Quando alguém edita, exclui ou comenta um objeto que você criou ou segue.
    * Outros:
+
+   >[!NOTE]
+   >
+   >&quot;Novas versões&quot; e &quot;Atualizações no conteúdo&quot; são as únicas categorias de notificação que se aplicam a [!DNL Target]. As outras categorias se aplicam a outras soluções Adobe.
+
 
 1. Selecione as categorias que você deseja que sejam consideradas de alta prioridade.
 1. Selecione as notificações para as quais deseja que os alertas sejam exibidos em seu navegador.
