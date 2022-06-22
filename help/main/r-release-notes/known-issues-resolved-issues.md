@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre problemas conhecidos e problemas
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 ### Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário {#ad-hoc}
 
-Evite excluir os locais em uma atividade criada no Experience Composer baseado em formulário, se esses locais usarem ofertas ad-hoc (ofertas criadas dentro da atividade). A exclusão de locais pode fazer com que a atividade fique corrompida A equipe do [!DNL Target] está trabalhando em uma correção para isso. Como solução alternativa, você pode criar ofertas globais da [!UICONTROL Biblioteca de ofertas] e usá-las com locais ou criar novas experiências, se necessário. (KB-2014)
+Evite excluir os locais em uma atividade criada no Experience Composer baseado em formulário, se esses locais usarem ofertas ad-hoc (ofertas criadas dentro da atividade). A exclusão de locais pode fazer com que a atividade fique corrompida. A equipe do [!DNL Target] está trabalhando em uma correção para isso. Como solução alternativa, você pode criar ofertas globais da [!UICONTROL Biblioteca de ofertas] e usá-las com locais ou criar novas experiências, se necessário. (KB-2014)
 
 ### Distribuição de tráfego de atividades de Alocação automática usando A4T {#aa-a4t}
 
@@ -127,7 +127,7 @@ A fonte da verdade é sempre o relatório exibido na interface do usuário do [!
 
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Quando os problemas acima são resolvidos, são movidos para as seções a seguir. Se necessário, são aditadas notas adicionais.
+Conforme os problemas conhecidos acima são resolvidos, eles são movidos para as seções a seguir. Se necessário, são acrescentadas observações adicionais.
 
 ### at.js
 
@@ -135,9 +135,9 @@ Quando os problemas acima são resolvidos, são movidos para as seções a segui
 
    Como alternativa, use um espaço em branco no conteúdo da experiência.
 
-   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para a [lversão mais recente ou at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou use a solução alternativa mencionada acima apenas para versões do at.js anteriores a 2.2.0  (TNT-33366)
+   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para a [versão mais recente ou at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou use a solução alternativa mencionada acima apenas para versões do at.js anteriores a 2.2.0.  (TNT-33366)
 
-* Ao usar as versões da at.js anteriores à 2.2.0, o rastreamento de cliques não relata conversões em [!UICONTROL Analytics para Target] (A4T) se [!DNL Adobe Analytics] o código não está presente nos elementos da página (como botões).
+* Ao usar as versões do at.js anteriores a 2.2.0, o rastreamento de cliques não relata conversões no [!UICONTROL Analytics for Target] (A4T) se o código do [!DNL Adobe Analytics] não estiver presente nos elementos da página (como botões).
 
    Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) mais recente do at.js se você encontrar esse problema.
 
@@ -145,17 +145,17 @@ Quando os problemas acima são resolvidos, são movidos para as seções a segui
 
 Em 10 de maio de 2020, a Adobe atualizou os arquivos do provedor GEO, o que introduziu algumas inconsistências. Por exemplo, alguns valores contendo vírgulas foram adicionados; no entanto, os valores em públicos existentes não tinham vírgula. Nem todos os servidores de entrega da Adobe foram afetados por essa alteração. Como resultado, os públicos que usam esses valores podem não ter qualificado todos os visitantes corretos entre 10 de maio e 22 de julho de 2020.
 
-### Copiando uma [!UICONTROL Recommendations] atividade
+### Copiar uma atividade do [!UICONTROL Recommendations]
 
-Ao copiar um [!UICONTROL Recommendations] com uma promoção ativa, qualquer alteração na atividade duplicada atualmente também afeta a atividade original e, inversamente. (TGT-39155)
+Ao copiar uma atividade do [!UICONTROL Recommendations] com uma promoção ativa, qualquer alteração na atividade duplicada atualmente também afeta a atividade original e vice-versa. (TGT-39155)
 
-Esse problema foi corrigido no [!DNL Target Standard/Premium] Versão 21.2.1.
+Este problema foi corrigido na versão 21.2.1 do [!DNL Target Standard/Premium].
 
 ### Modo de controle de qualidade para atividades do Recommendations
 
 Um problema conhecido impede a pré-visualização se os critérios usados na atividade forem baseados em itens ou em categorias. (TNT-37455)
 
-Esse problema foi corrigido em janeiro de 2022. (TNT-37455)
+Este problema foi corrigido em janeiro de 2022. (TNT-37455)
 
 ### Delivery de página {#page-delivery}
 
@@ -438,7 +438,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 
