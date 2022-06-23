@@ -5,9 +5,9 @@ title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendat
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esq
 
 Os detalhes dessas etapas são os seguintes:
 
-* **Dados de entrada**: Dados comportamentais, na forma de exibições e compras de visitantes coletadas quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dados de entrada**: Dados comportamentais, na forma de exibições e compras de visitantes coletadas quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formação de modelo**:
 
@@ -126,7 +126,7 @@ A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagr
 
 Os detalhes dessas etapas são os seguintes:
 
-* **Dados de entrada**: Isso é idêntico aos métodos de filtragem colaborativa (CF) de item. [!UICONTROL Ambos Recomendados Para Você] Os algoritmos baseados em carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dados de entrada**: Isso é idêntico aos métodos de filtragem colaborativa (CF) de item. [!UICONTROL Ambos Recomendados Para Você] Os algoritmos baseados em carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formação de modelo**:
 

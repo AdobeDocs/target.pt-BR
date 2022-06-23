@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ Conforme os problemas conhecidos acima são resolvidos, eles são movidos para a
 
    Como alternativa, use um espaço em branco no conteúdo da experiência.
 
-   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para a [versão mais recente ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) ou use a solução alternativa mencionada acima apenas para versões do at.js anteriores a 2.2.0.  (TNT-33366)
+   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para o [versão mais recente ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} ou usar a solução alternativa mencionada acima apenas para as versões da at.js anteriores à 2.2.0.  (TNT-33366)
 
 * Ao usar as versões do at.js anteriores a 2.2.0, o rastreamento de cliques não relata conversões no [!UICONTROL Analytics for Target] (A4T) se o código do [!DNL Adobe Analytics] não estiver presente nos elementos da página (como botões).
 
-   Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) mais recente do at.js se você encontrar esse problema.
+   Uma correção foi introduzida para esse problema na at.js 2.2.0. [Atualize para a versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} se você tiver esse problema.
 
 ### Geolocalização
 

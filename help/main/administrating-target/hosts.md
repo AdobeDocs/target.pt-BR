@@ -5,9 +5,9 @@ title: O que são hosts e como os uso?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1086'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Se uma [!DNL Target] for feita em um host não autorizado, a chamada responderá
 
 >[!IMPORTANT]
 >
->**Práticas recomendadas de segurança**: Se você usar a funcionalidade de ubox de [!DNL Target], essa lista de permissões também controla a lista de domínios para os quais a [redirecionadores](https://developer.adobe.com/target/implement/email/working-with-redirectors/) pode navegar. Certifique-se de adicionar quaisquer domínios aos quais deseja redirecionar quando usar a ubox como parte da implementação. Se a  lista de permissões for deixada não especificada, [!DNL Adobe] O não pode verificar os URLs de redirecionamento e se proteger de possíveis redirecionamentos mal-intencionados.
+>**Práticas recomendadas de segurança**: Se você usar a funcionalidade de ubox de [!DNL Target], essa lista de permissões também controla a lista de domínios para os quais a [redirecionadores](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} pode navegar. Certifique-se de adicionar quaisquer domínios aos quais deseja redirecionar quando usar a ubox como parte da implementação. Se a  lista de permissões for deixada não especificada, [!DNL Adobe] O não pode verificar os URLs de redirecionamento e se proteger de possíveis redirecionamentos mal-intencionados.
 >
 >A  de lista de permissões tem precedência sobre os ambientes. Limpe todos os hosts antes de usar o recurso de  de lista de permissões e, em seguida, somente os hosts permitidos pela lista de permissões serão exibidos na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 

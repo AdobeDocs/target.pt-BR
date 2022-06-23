@@ -4,9 +4,9 @@ description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 98%
 
 ---
@@ -33,7 +33,7 @@ Visite o [Target Community Forum](/help/main/cmp-resources-and-contact-informati
 
 **Quais navegadores são compatíveis com o Target?**
 
-Leia a matriz de [Navegadores suportados](https://developer.adobe.com/target/before-implement/supported-browsers/) para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
+Leia nossa [Navegadores compatíveis](https://developer.adobe.com/target/before-implement/supported-browsers/)Matriz {target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
 
 ## Atividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 

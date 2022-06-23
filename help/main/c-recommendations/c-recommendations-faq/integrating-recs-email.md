@@ -4,9 +4,9 @@ description: Saiba como integrar emails com a API de entrega, modelos rawbox e m
 title: Como integrar o Recommendations ao email?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1715'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,7 @@ Onde `clientcode` é o código de cliente do [!DNL Target].
 >
 >Certifique-se de fornecer um valor único para ambas `sessionId` e um dos `tntId` ou `thirdPartyId` para cada destinatário de email (por exemplo, para cada chamada de API). Se você não fornecer valores exclusivos para esses campos, a resposta da API poderá ser lenta ou falhar devido ao grande número de eventos gerados em um único perfil.
 
-Consulte a [Documentação da API de entrega](https://developer.adobe.com/target/implement/delivery-api/) para obter mais informações.
+Consulte [Documentação da API de entrega](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} para obter mais informações.
 
 ## Método 2: usar um modelo de email de rawbox {#rawbox}
 

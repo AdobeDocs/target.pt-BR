@@ -5,9 +5,9 @@ title: Como Posso Usar Atributos De Entidade Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1400'
 ht-degree: 88%
 
 ---
@@ -126,7 +126,7 @@ Você pode passar atributos de vários valores usando a API de entrega em um par
   }
 ```
 
-Consulte a [Documentação da API do Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/) para obter informações sobre como usar as APIs de entidades de Entrega e Salvar .
+Consulte a [Documentação da API do Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para obter informações sobre como usar as APIs de entidades de Entrega e Salvar.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 

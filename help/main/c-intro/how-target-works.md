@@ -4,9 +4,9 @@ description: Saiba como o Adobe  [!DNL Target]  funciona, incluindo informaçõe
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2565'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL
 
 [!DNL Target] integra-se a sites usando as bibliotecas do [!DNL Experience Platform Web SDK] ou do JavaScript:
 
-* **Adobe Experience Platform Web SDK**: o [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) é uma nova biblioteca JavaScript do lado do cliente. O Experience Platform Web SDK permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da [!DNL Experience Platform] Edge Network. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **Adobe Experience Platform Web SDK:** O [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} é uma nova biblioteca de JavaScript do lado do cliente. O Experience Platform Web SDK permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da [!DNL Experience Platform] Edge Network. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
 * **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. O Adobe recomenda que todos os clientes que usam at.js atualizem suas implementações para a [versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 * **mbox.js:** A biblioteca mbox.js é a biblioteca de implementação legada do [!DNL Target]. Não ha mais suporte para a biblioteca mbox.js após 31 de março de 2021.
 

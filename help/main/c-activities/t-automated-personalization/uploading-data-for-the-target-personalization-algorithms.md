@@ -4,10 +4,10 @@ description: Saiba como fazer upload de dados offline, como informações de CRM
 title: Como posso fazer upload de dados para algoritmos de personalização?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 73%
+source-wordcount: '301'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 Os dados offline, como informações de CRM ou pontuações de propensão de churn do cliente, podem ser extremamente valiosos ao criar modelos de personalização em [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
 
-Há várias maneiras de inserir dados em algoritmos de [!UICONTROL Personalização automatizada] (AP) e [!UICONTROL Direcionamento automático. ] Além dos métodos em  [Métodos para inserir dados no Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), os públicos-alvo compartilhados da Experience Cloud (Adobe Analytics, Gerenciamento de público-alvo) e os públicos-alvo de relatório na atividade também são utilizados em nossos algoritmos.
+Há várias maneiras de inserir dados em algoritmos de [!UICONTROL Personalização automatizada] (AP) e [!UICONTROL Direcionamento automático. ] Além dos métodos em [Métodos para colocar os dados no Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), públicos-alvo compartilhados pelo Experience Cloud (Adobe Analytics, Gerenciamento de público-alvo){target=_blank} e públicos de relatórios na atividade também são usados em nossos algoritmos.
 
 Para obter informações sobre os dados coletados e usados automaticamente pelos algoritmos de Personalização automatizada e Direcionamento automático, consulte [Coleção de dados de personalização automatizada](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

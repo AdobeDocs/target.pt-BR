@@ -4,10 +4,10 @@ description: Saiba como criar ofertas JSON no Adobe [!DNL Target] para uso no Ex
 title: Como crio ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 51%
+source-wordcount: '418'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ Considere as informações a seguir ao trabalhar com ofertas JSON:
 * Ofertas JSON estão disponíveis no momento somente para [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT).
 * Ofertas JSON podem ser usadas em [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md) somente.
 * A oferta JSON pode ser recuperada diretamente quando você está usando a API do lado do servidor, o SDK para dispositivos móveis ou o SDK do NodeJS.
-* No navegador, as ofertas JSON podem ser recuperadas APENAS via at.js 1.2.3 (ou posterior) e usando  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/) filtrando ações com o uso da ação `setJson`.
+* No navegador, as ofertas JSON podem ser recuperadas APENAS via at.js 1.2.3 (ou posterior) e usando  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} filtrando ações usando o `setJson` ação.
 * As ofertas JSON são entregues como objetos JSON nativos, e não como cadeia de caracteres. Os consumidores desses objetos não precisam mais manipular objetos como cadeia de caracteres e convertê-los em objetos JSON.
 * As ofertas JSON não são aplicadas automaticamente em oposição a outras ofertas (como ofertas de HTML) porque as ofertas JSON são ofertas não visuais. Os desenvolvedores devem escrever o código para obter explicitamente a oferta usando  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/).
 

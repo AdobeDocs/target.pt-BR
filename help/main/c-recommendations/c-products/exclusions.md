@@ -4,10 +4,10 @@ description: Saiba como criar exclusões no Adobe [!DNL Target] Recommendations 
 title: Como uso exclusões nas atividades do Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 43%
+source-wordcount: '621'
+ht-degree: 42%
 
 ---
 
@@ -37,7 +37,7 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 
    ![](assets/exclusions_list.png)
 
-   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/) para alterar o grupo de hosts padrão.
+   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Criar exclusão]**.
 

@@ -5,10 +5,10 @@ title: O que são tokens de resposta e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 28%
+source-wordcount: '1680'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 | SDK do Target | Ações sugeridas |
 |--- |--- |
-| [SDK da Web da Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Certifique-se de que você esteja usando o SDK da Web da plataforma versão 2.6.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do SDK da Web da plataforma, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) no *Visão geral do SDK da Web da plataforma* guia. Para obter informações sobre a nova funcionalidade em cada versão do SDK da Web da plataforma, consulte [Notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) no *Visão geral do SDK da Web da plataforma* guia. |
+| [SDK da Web da Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Certifique-se de que você esteja usando o SDK da Web da plataforma versão 2.6.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do SDK da Web da plataforma, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} na *Visão geral do SDK da Web da plataforma* guia. Para obter informações sobre a nova funcionalidade em cada versão do SDK da Web da plataforma, consulte [Notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) no *Visão geral do SDK da Web da plataforma* guia. |
 | [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | Certifique-se de que você esteja usando a at.js versão 1.1 ou posterior. Para obter informações sobre como baixar a versão mais recente do at.js, consulte [Baixar o at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/). Para obter informações sobre a nova funcionalidade em cada versão do at.js, consulte [Detalhes da versão do at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).<br>Os clientes que usam a at.js são incentivados a usarem os tokens de resposta e a evitarem os plugins. Alguns plug-ins que dependem de métodos internos existentes na mbox.js (agora obsoleta), mas não na at.js, são entregues, mas falham. |
 
 ## Uso de tokens de resposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -149,7 +149,7 @@ O exemplo de resposta a seguir adiciona um [!DNL Platform Web SDK] manipulador d
 
 ### ![Selo at.js](/help/main/assets/atjs.png) at.js usando eventos personalizados
 
-Use [Eventos personalizados da at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) para ouvir a resposta da e ler os tokens de resposta.[!DNL Target]
+Use [Eventos personalizados da at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/){target=_blank} para ouvir o [!DNL Target] e leia os tokens de resposta.
 
 O código de amostra a seguir adiciona um manipulador de evento personalizado da [!DNL at.js] diretamente na página HTML:
 

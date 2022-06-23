@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 91%
+source-wordcount: '1036'
+ht-degree: 90%
 
 ---
 
@@ -94,6 +94,6 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md) | Adição de informações sobre públicos-alvo da [!DNL Adobe Experience Platform]. |
 |  | [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md) | Adição de informações sobre públicos-alvo da [!DNL Adobe Experience Platform]. |
 | 21 de Janeiro | [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Adição de informações sobre a versão 1.8.3 da at.js. |
-| 19 de janeiro | [Atualização do at.js 1.*x* para o at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Adição da seguinte seção: &quot;A at.js 2.*x* não oferece suporte à criação de públicos-alvo usando parâmetros de vst.*&quot; |
+| 19 de janeiro | [Atualização da at.js 1.** para a at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Adição da seguinte seção: &quot;A at.js 2.*x* não oferece suporte à criação de públicos-alvo usando parâmetros de vst.*&quot; |
 | 12 de janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.1.1 do Target Standard/Premium. |
 |  | [SDK da Web da Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Link adicionado ao tutorial com instruções para implementar a [!DNL Adobe Experience Cloud] com o SDK da Web. |
