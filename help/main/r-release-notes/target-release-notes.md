@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
+source-git-commit: 6450b9d247f21f578a5bef15422765dc2a2ed32d
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 71%
+source-wordcount: '203'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 20 de junho de 2022**
+**Última atualização: 23 de junho de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -24,7 +24,6 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 Essa versão conta com os seguintes aprimoramentos e correções:
 
 * Usuários com a função de [!UICONTROL Editor] não podem mais editar públicos em atividades ativas. (TGT-43582)
-* Atributos do cliente compartilhados de [!DNL Adobe Experience Platform] para [!DNL Target] no [!DNL Platform] A interface do usuário do está visível no [!DNL Target] IU. (TGT-43150)
 * Uma mensagem de aviso é exibida se um cliente tentar salvar um público-alvo com um ponto de exclamação ( ! ) como o primeiro caractere do nome do público-alvo (por exemplo !Londres). (TGT-43643)
 * Correção de um problema que fazia com que os cartões de detalhes da definição de públicos-alvo para alguns clientes indicassem que uma atividade finalizada ainda estava ativa. (TGT-43527)
 
