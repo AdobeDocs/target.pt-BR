@@ -4,16 +4,16 @@ description: Siga as etapas necessárias para implementar o Analytics para [!DNL
 title: Como implementar o Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 24%
+source-wordcount: '1153'
+ht-degree: 25%
 
 ---
 
 # Analytics para [!DNL Target] implementação
 
-Várias etapas são necessárias ao implementar [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Adobe Target] (A4T). O processo varia dependendo da implementação do A4T com a variável [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) ou com at.js.
+Várias etapas são necessárias ao implementar [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Adobe Target] (A4T). O processo varia dependendo da implementação do A4T com a variável [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) ou com at.js.
 
 ## ![SDK da Web da Adobe Experience Platform](/help/main/assets/platform.png) Etapas de implementação para uma implementação do SDK da Web da Adobe Experience Platform {#platform}
 
@@ -116,9 +116,9 @@ Essa configuração tem um efeito global, o que significa que cada chamada feita
 }
 ```
 
-A carga pode ser encaminhada para o Analytics por meio da variável [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para atividades de Alocação automática e Direcionamento automático, você também deve encaminhar a sessionId. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) no *SDKs do Adobe Target* guia.
+A carga pode ser encaminhada para o Analytics por meio da variável [API de inserção de dados](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para atividades de Alocação automática e Direcionamento automático, você também deve encaminhar a sessionId. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) no *SDKs do Adobe Target* guia.
 
-Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, use a função at.js [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) de passagem **analyticsLogging: &quot;client_side&quot;**. A carga do Analytics é retornada somente para esta chamada e o [!DNL Target] o backend não encaminha a carga para [!DNL Analytics]. Ao seguir essa abordagem, cada at.js [!DNL Target] retorna a carga por padrão, mas somente quando desejado e especificado.
+Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, use a função at.js [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) de passagem **analyticsLogging: &quot;client_side&quot;**. A carga do Analytics é retornada somente para esta chamada e o [!DNL Target] o backend não encaminha a carga para [!DNL Analytics]. Ao seguir essa abordagem, cada at.js [!DNL Target] retorna a carga por padrão, mas somente quando desejado e especificado.
 
 Por exemplo:
 

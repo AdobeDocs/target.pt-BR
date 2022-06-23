@@ -5,10 +5,10 @@ title: Como obter dados sobre [!DNL Target] Usando parâmetros de página?
 feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 45%
+source-wordcount: '385'
+ht-degree: 44%
 
 ---
 
@@ -69,8 +69,8 @@ targetPageParams (anexa os parâmetros ao mbox global na página):
 
 ## Links para informações relevantes
 
-Recommendations: [implementação de acordo com o tipo de página](/help/main/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+Recommendations: [implementação de acordo com o tipo de página](https://developer.adobe.com/target/implement/recommendations/)
 
-Confirmação do pedido: [rastreia conversões](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
+Confirmação do pedido: [rastreia conversões](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)
 
 Afinidade de categorias: [afinidade de categorias](/help/main/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)

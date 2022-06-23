@@ -5,9 +5,9 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 97%
 
 ---
@@ -177,7 +177,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
    Se estiver usando a API de entrega em lote, o limite será de 50 mboxes por solicitação em lote.
 
-   Se estiver usando a [API de entrega em lote](https://developers.adobetarget.com/api/#server-side-batch-delivery) no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contém mais que esses limites, a API retornará a seguinte mensagem de erro:
+   Se estiver usando a API de entrega em lote no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contém mais que esses limites, a API retornará a seguinte mensagem de erro:
 
    &quot;O número de mboxParameters não pode exceder 50.&quot;
 

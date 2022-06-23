@@ -5,10 +5,10 @@ title: Posso Usar [!DNL Target] com instâncias baseadas em nuvem?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 70%
+source-wordcount: '175'
+ht-degree: 67%
 
 ---
 
@@ -26,4 +26,4 @@ Esses domínios e muitos outros fazem parte da [Lista de sufixos públicos](http
 
 O [!DNL at.js] A biblioteca JavaScript usa cookies para rastrear usuários para garantir que [!DNL Target] sempre apresenta uma experiência consistente. Se a variável [!DNL Target] A biblioteca JavaScript não pode salvar cookies, [!DNL Target] as solicitações estão desativadas.
 
-**Solução:** como prática recomendada, se você pretende usar instâncias baseadas em nuvem com domínios incluídos na Lista de sufixos públicos, certifique-se de personalizar a configuração do `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+**Solução:** como prática recomendada, se você pretende usar instâncias baseadas em nuvem com domínios incluídos na Lista de sufixos públicos, certifique-se de personalizar a configuração do `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).

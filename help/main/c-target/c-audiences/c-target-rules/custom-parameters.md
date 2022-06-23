@@ -4,10 +4,10 @@ description: Saiba como enviar parâmetros personalizados para o [!DNL Adobe Tar
 title: Posso definir metas para visitantes com base em parâmetros personalizados?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 42%
+source-wordcount: '467'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 42%
 
 Parâmetros personalizados são parâmetros mbox em [!DNL Adobe Target]. Se você passar algum parâmetro de mbox para mboxes, ou usar a variável `targetPageParams` , esses parâmetros são exibidos aqui para uso em públicos-alvo.
 
-Para obter mais informações, consulte [Envio de parâmetros para uma mbox global](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
+Para obter mais informações, consulte [Envio de parâmetros para uma mbox global](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
 
 Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mboxParameter` não solicita mais `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 

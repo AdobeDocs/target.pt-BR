@@ -4,10 +4,10 @@ description: Explore uma lista de perguntas e respostas frequentes sobre o Adobe
 title: Onde posso encontrar respostas para perguntas sobre [!DNL Target] Relatando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 33%
+source-wordcount: '1225'
+ht-degree: 32%
 
 ---
 
@@ -106,6 +106,6 @@ Por exemplo, defini a divisão de tráfego para 50/50 ou 25/25/25/25, mas estou 
 * A prática recomendada para testes A/B e MVT é manter as divisões de tráfego equilibradas. Alterar a distribuição do tráfego entre experiências (digamos de 10/90 a 50/50) durante um teste pode levar a visitantes desiguais em todas as experiências. A experiência de tráfego mais baixa pode nunca &quot;alcançar&quot;.
 * Se você estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 
-   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [Detalhes da versão da at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
    * É um teste de redirecionamento? O tempo incorreto de disparo de tags na página pode levar a divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como a fonte de dados de um [!DNL Target] atividade . Para obter detalhes para corrigir a distribuição desigual de tráfego em uma atividade de redirecionamento com o Analytics for Target (A4T), consulte [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

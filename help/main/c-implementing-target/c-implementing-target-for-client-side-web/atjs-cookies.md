@@ -5,10 +5,10 @@ title: Cookies da at.js
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 96%
+source-wordcount: '1846'
+ht-degree: 95%
 
 ---
 
@@ -111,7 +111,7 @@ O cookie possui várias configurações padrão. Você pode alterar essas config
 | Nome do cookie | mbox. |
 | Domínio do cookie | Domínio de primeiro e segundo nível a partir de onde o conteúdo será disponibilizado. O cookie é sempre um cookie próprio porque é disponibilizado pelo domínio de sua companhia. Exemplo: `mycompany.com`. |
 | Domínio do servidor | `clientcode.tt.omtrdc.net`, utilizando o código de cliente de sua conta. |
-| Duração do cookie | O cookie permanece no navegador do visitante por dois anos a partir do último logon.<br>O `deviceIdLifetime` pode ser substituída em [at.js versão 2.3.1 ou posterior](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Para obter mais informações, consulte [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
+| Duração do cookie | O cookie permanece no navegador do visitante por dois anos a partir do último logon.<br>O `deviceIdLifetime` pode ser substituída em [at.js versão 2.3.1 ou posterior](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). Para obter mais informações, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/). |
 | Política P3P | O cookie é publicado com a política P3P, conforme requerido pela configuração padrão na maioria dos navegadores. Uma política P3P indica ao navegador quem está disponibilizando o cookie e como as informações serão utilizadas. |
 
 O cookie mantém uma série de valores para gerenciar a experiência de seus visitantes nas campanhas:
@@ -152,5 +152,5 @@ Da Apple:
 
 | Funcionalidade afetada | Detalhes |
 |--- |--- |
-| Suporte para cancelamento | As alterações de rastreamento do WebKit da Apple interrompem o suporte ao cancelamento.<br>O cancelamento do Target usa um cookie no domínio `clientcode.tt.omtrdc.net`. Para obter mais detalhes, consulte [Privacidade](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>O Target suporta dois cancelamentos:<ul><li>Um por cliente (o cliente gerencia o link para opção de não participação).</li><li>Um via Adobe que cancela o usuário em todas as funcionalidades do Target para todos os clientes.</li></ul>Ambos os métodos usam o cookie de terceiros. |
+| Suporte para cancelamento | As alterações de rastreamento do WebKit da Apple interrompem o suporte ao cancelamento.<br>O cancelamento do Target usa um cookie no domínio `clientcode.tt.omtrdc.net`. Para obter mais detalhes, consulte [Privacidade](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>O Target suporta dois cancelamentos:<ul><li>Um por cliente (o cliente gerencia o link para opção de não participação).</li><li>Um via Adobe que cancela o usuário em todas as funcionalidades do Target para todos os clientes.</li></ul>Ambos os métodos usam o cookie de terceiros. |
 | Atividades do Target | Os clientes podem escolher seus  [ciclo de vida do perfil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) para contas Target: até 90 dias. A preocupação é que, se a duração do perfil da conta for superior a 30 dias, e o cookie próprio for limpo porque o domínio do cliente foi marcado como usuários de rastreamento entre sites, o comportamento dos visitantes do Safari será afetado nas seguintes áreas no Target:<br>**Relatórios do Target**: Se um usuário do Safari entrar em uma atividade, retornar após 30 dias e depois se converter, o usuário contará como dois visitantes e uma conversão.<br>Esse comportamento é o mesmo para atividades que usam o Analytics como fonte de geração de relatórios (A4T).<br>**Associação de perfil e atividade**:<ul><li>Dados do perfil são apagados quando o cookie próprio expira.</li><li>Associação de atividade é apagada quando o cookie próprio expira.</li><li> O Target não funciona no Safari para contas que usam uma implementação de cookies de terceiros ou uma implementação de cookies próprios e de terceiros. Observe que esse comportamento não é novo. O Safari não permite cookies de terceiros por algum tempo.</li></ul><br>**Sugestões:** se houver uma preocupação de que o domínio do cliente possa ser marcado como uma sessão cruzada de visitantes de rastreamento, é mais seguro definir a duração do perfil para 30 dias ou menos no Target. Isso garante que os usuários sejam rastreados de forma semelhante no Safari e em todos os outros navegadores. |

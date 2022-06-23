@@ -5,10 +5,10 @@ title: Como o On-device Decisioning funciona com a biblioteca JavaScript da at.j
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3490'
-ht-degree: 19%
+source-wordcount: '3546'
+ht-degree: 18%
 
 ---
 
@@ -35,11 +35,11 @@ O SDK JS da Adobe Target oferece aos clientes a flexibilidade para escolher entr
 * Direcionamento de público-alvo
 * Método de alocação
 
-Para obter mais informações, consulte [Recursos compatíveis com a tomada de decisão no dispositivo](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+Para obter mais informações, consulte [Recursos compatíveis com a tomada de decisão no dispositivo](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 ## Como a decisão no dispositivo funciona?
 
-Ao implantar e inicializar a at.js com a tomada de decisão no dispositivo ativada, uma [artefato de regra](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) que inclui sua decisão no dispositivo para atividades A/B e XT, públicos-alvo e ativos, é baixada do Akamai CDN mais próximo ao visitante e armazenada em cache localmente no navegador do visitante. Quando uma solicitação é feita da at.js para recuperar uma experiência, a decisão sobre qual experiência retornar é tomada na memória, com base nos metadados codificados no artefato de regra em cache.
+Ao implantar e inicializar a at.js com a tomada de decisão no dispositivo ativada, uma [artefato de regra](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) que inclui sua decisão no dispositivo para atividades A/B e XT, públicos-alvo e ativos, é baixada do Akamai CDN mais próximo ao visitante e armazenada em cache localmente no navegador do visitante. Quando uma solicitação é feita da at.js para recuperar uma experiência, a decisão sobre qual experiência retornar é tomada na memória, com base nos metadados codificados no artefato de regra em cache.
 
 ## Método de decisão
 
@@ -88,7 +88,7 @@ A lista a seguir corresponde aos números no diagrama:
 
 A decisão no dispositivo entrega experiências e atividades de personalização em uma velocidade extremamente rápida, pois as decisões são tomadas a partir de um artefato de regras em cache que contém todas as suas atividades qualificadas para decisões no dispositivo.
 
-Para saber mais sobre quais atividades se qualificam para decisões no dispositivo, consulte [Recursos compatíveis com a tomada de decisão no dispositivo](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+Para saber mais sobre quais atividades se qualificam para decisões no dispositivo, consulte [Recursos compatíveis com a tomada de decisão no dispositivo](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 Esse método de decisão deve ser usado somente se o desempenho for altamente crítico em todas as páginas que exigem decisões do [!DNL Target]. Além disso, lembre-se de que, quando esse método de decisão é selecionado, as atividades do [!DNL Target] que não se qualificam para a tomada de decisão no dispositivo não são entregues ou executadas. A biblioteca at.js 2.5.0+ está configurada para procurar somente pelo artefato de regras em cache para tomar decisões.
 
@@ -222,7 +222,7 @@ Para ativar a decisão no dispositivo:
 
    Deixar essa opção desativada significa que você deve recriar e ativar todas as atividades de decisão no dispositivo para que sejam incluídas no artefato de regras gerado. Em outras palavras, qualquer atividade no estado ativo antes de ativar o [!UICONTROL Decisão no dispositivo] alternar não estão incluídos no artefato de regras.
 
-Depois de habilitar o [!UICONTROL Decisão no dispositivo] alternar, [!DNL Target] começa a gerar e propagar [artefatos da regra](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) para o seu cliente.
+Depois de habilitar o [!UICONTROL Decisão no dispositivo] alternar, [!DNL Target] começa a gerar e propagar [artefatos da regra](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) para o seu cliente.
 
 >[!IMPORTANT]
 >
@@ -249,7 +249,7 @@ Depois de habilitar o [!UICONTROL Decisão no dispositivo] alternar, [!DNL Targe
 
 ### Configurações globais
 
-Você pode configurar um [!UICONTROL Método de decisão] para todos [!DNL Target] decisões. Os vários métodos de decisão são [!UICONTROL Somente no lado do servidor], [!UICONTROL Somente no dispositivo]e [!UICONTROL Híbrido]. O método de decisão selecionado na interface do usuário do Target é configurado em `window.targetGlobalSettings` nos termos do `decisioningMethod` campo. Saiba mais sobre o `decisioningMethod` em [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Você pode configurar um [!UICONTROL Método de decisão] para todos [!DNL Target] decisões. Os vários métodos de decisão são [!UICONTROL Somente no lado do servidor], [!UICONTROL Somente no dispositivo]e [!UICONTROL Híbrido]. O método de decisão selecionado na interface do usuário do Target é configurado em `window.targetGlobalSettings` nos termos do `decisioningMethod` campo. Saiba mais sobre o `decisioningMethod` em [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ```javascript
 <head> 
@@ -269,7 +269,7 @@ Você pode configurar um [!UICONTROL Método de decisão] para todos [!DNL Targe
 
 ### Configuração personalizada
 
-Se você definir a variável `decisioningMethod` em `window.targetGlobalSettings`, mas gostaria de substituir a variável `decisioningMethod` para cada decisão do Adobe Target de acordo com o caso de uso, você pode fazer esse procedimento especificando `decisioningMethod` em At.js2.5.0+’s [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) chame.
+Se você definir a variável `decisioningMethod` em `window.targetGlobalSettings`, mas gostaria de substituir a variável `decisioningMethod` para cada decisão do Adobe Target de acordo com o caso de uso, você pode fazer esse procedimento especificando `decisioningMethod` em At.js2.5.0+’s [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) chame.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -321,6 +321,6 @@ Você pode filtrar para todas as atividades que estão qualificadas para decisõ
 
    A primeira geração de artefatos de regras JSON pode levar até 10 minutos.
 
-1. Crie e ative um [tipo de atividade compatível com o ON-device decisioning](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)e verificar se está qualificada para decisão no dispositivo.
+1. Crie e ative um [tipo de atividade compatível com o ON-device decisioning](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)e verificar se está qualificada para decisão no dispositivo.
 1. Defina as **[!UICONTROL Método de decisão]** para **[!UICONTROL &quot;Híbrido&quot;]** ou **[!UICONTROL &quot;Somente no dispositivo&quot;]** por meio da interface do usuário de configurações da at.js.
 1. Baixe e implante o At.js 2.5.0+ em suas páginas.

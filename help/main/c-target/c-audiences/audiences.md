@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo no [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 24%
+source-wordcount: '1339'
+ht-degree: 27%
 
 ---
 
@@ -45,7 +45,7 @@ O [!UICONTROL Públicos-alvo] contém os públicos que você pode usar em suas a
 
    >[!NOTE]
    >
-   >O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou [combinado com públicos-alvo existentes](/help/main/c-target/combining-multiple-audiences.md).
+   >O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou [combinado com públicos-alvo existentes](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Os usuários devem ter [!UICONTROL Aprovador] ou acima do status em [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] cartões em AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >
@@ -109,7 +109,7 @@ Keep the following points in mind as you work with imported audiences:
 
 O uso de públicos-alvo criados na [!DNL Adobe Experience Platform] fornece dados do cliente mais avançados, o que resulta em uma personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR){target=_blank} (RTCDP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unir dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.
 
-Por conexão [!DNL Target] para [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da Web ao desbloquear novos segmentos que podem ter sido inacessíveis anteriormente para o [!DNL Target] para permitir a personalização em tempo real em milissegundos na primeira página de uma visita à Web de um cliente. Uso de públicos-alvo criados em [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para personalização mais avançada.
+Conectando o [!DNL Target] à [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da web desbloqueando novos segmentos que antes podiam estar indisponíveis no [!DNL Target] e permitir a personalização em tempo real e em milissegundos na primeira página visitada pelo cliente na web. Usar públicos criados na [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para uma personalização mais avançada.
 
 Essa integração desbloqueia casos de uso principais com RTCDP:
 

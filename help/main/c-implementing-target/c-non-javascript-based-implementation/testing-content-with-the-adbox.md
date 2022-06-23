@@ -5,10 +5,10 @@ title: Como criar uma AdBox para uma imagem?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ Use uma AdBox para fornecer imagens em uma implementação externa usando o Adob
 
 Uma AdBox é como uma mbox, mas é controlada por um URL, em vez de um JavaScript. AdBoxes são criadas com um URL AdBox especial que carrega uma mbox de &quot;anúncio&quot; (ou AdBox) na conta da Adobe. Use a AdBox no lugar de uma mbox em suas atividades. Use o URL da AdBox em vez de uma referência direta da imagem em um email ou outras implementações não-JavaScript.
 
-Para obter ajuda para selecionar a configuração correta, consulte  [Implementações não baseadas em JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Para obter ajuda para selecionar a configuração correta, consulte  [Implementações não baseadas em JavaScript](https://developer.adobe.com/target/implement/email/).
 
 1. Criar o URL AdBox:
 
@@ -48,7 +48,7 @@ Para obter ajuda para selecionar a configuração correta, consulte  [Implementa
 
 1. Crie a atividade.
 
-   Consulte [Implementações não baseadas em JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) para a configuração correta para atingir suas metas.
+   Consulte [Implementações não baseadas em JavaScript](https://developer.adobe.com/target/implement/email/) para a configuração correta para atingir suas metas.
 1. Faça o controle de qualidade da atividade.
 
    Como prática recomendada, crie uma página de teste e verifique se todas as experiências, o conteúdo padrão e os relatórios estão funcionando corretamente em todos os tipos de navegadores, para todos os seus ambientes.

@@ -5,10 +5,10 @@ title: Posso usar [!DNL Target] com aplicativos móveis?
 feature: Implement Mobile
 role: Developer
 exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 82%
+source-wordcount: '167'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Para obter mais informações sobre como implementar o Target em aplicativos par
 
 Se você estiver usando o SDK 4.x, o processo de direcionamento de aplicativo para dispositivos móveis incluirá as seguintes etapas:
 
-1. [Como o Target funciona em aplicativos móveis](/help/main/c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-1. [Habilitar o Target no SDK](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md)
-1. [Criar um local de definição e métrica de sucesso](/help/main/c-target-mobile-app/mobile-create-location-and-metric.md)
-1. [Enviar dados do usuário personalizados](/help/main/c-target-mobile-app/mobile-custom-user-data.md)
+1. [Como o Target funciona em aplicativos móveis](https://developer.adobe.com/target/implement/mobile/how-target-works-mobile-apps/)
+1. [Habilitar o Target no SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)
+1. [Criar um local de definição e métrica de sucesso](https://developer.adobe.com/target/implement/mobile/mobile-create-location-and-metric/)
+1. [Enviar dados do usuário personalizados](https://developer.adobe.com/target/implement/mobile/mobile-custom-user-data/)

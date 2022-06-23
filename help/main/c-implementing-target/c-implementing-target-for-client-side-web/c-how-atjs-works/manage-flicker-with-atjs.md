@@ -5,10 +5,10 @@ title: Como a at.js gerencia a cintilação?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 68%
+source-wordcount: '691'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ A cintilação ocorre quando o conteúdo padrão é exibido momentaneamente aos 
 
 ## Usar uma mbox global criada automaticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Se você ativar a configuração [Criar mbox global automaticamente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) ao configurar o at.js, o at.js gerenciará a cintilação alterando a configuração de opacidade, à medida que a página é carregada. Ao carregar o at.js, é alterada a configuração de opacidade do `<body>` elemento para &quot;0&quot;, tornando a página invisível inicialmente para os visitantes. Após receber uma resposta do Target, ou se for detectado um erro com a solicitação Target, a at.js redefine a opacidade para &quot;1&quot;. Isso garante que o visitante veja a página somente depois que o conteúdo de suas atividades for aplicado.
+Se você ativar a configuração [Criar mbox global automaticamente](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) ao configurar o at.js, o at.js gerenciará a cintilação alterando a configuração de opacidade, à medida que a página é carregada. Ao carregar o at.js, é alterada a configuração de opacidade do `<body>` elemento para &quot;0&quot;, tornando a página invisível inicialmente para os visitantes. Após receber uma resposta do Target, ou se for detectado um erro com a solicitação Target, a at.js redefine a opacidade para &quot;1&quot;. Isso garante que o visitante veja a página somente depois que o conteúdo de suas atividades for aplicado.
 
 Se a configuração for ativada ao definir a at.js, a at.js definirá a opacidade do estilo HTML BODY para 0. Após receber uma resposta do Target, a at.js redefine a opacidade do HTML BODY para 1.
 
@@ -38,7 +38,7 @@ A ilustração a seguir mostra as chamadas Ocultar corpo e Mostrar corpo no at.j
 
 ![](assets/target-flow2.png)
 
-Para obter mais informações sobre `bodyHiddenStyle` a substituição, consulte [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Para obter mais informações sobre `bodyHiddenStyle` a substituição, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Gerenciamento de cintilação ao carregar at.js de maneira assíncrona
 

@@ -5,9 +5,9 @@ title: O que são hosts e como os uso?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Se uma [!DNL Target] for feita em um host não autorizado, a chamada responderá
 
 >[!IMPORTANT]
 >
->**Práticas recomendadas de segurança**: Se você usar a funcionalidade de ubox de [!DNL Target], essa lista de permissões também controla a lista de domínios para os quais a [redirecionadores](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) pode navegar. Certifique-se de adicionar quaisquer domínios aos quais deseja redirecionar quando usar a ubox como parte da implementação. Se a  lista de permissões for deixada não especificada, [!DNL Adobe] O não pode verificar os URLs de redirecionamento e se proteger de possíveis redirecionamentos mal-intencionados.
+>**Práticas recomendadas de segurança**: Se você usar a funcionalidade de ubox de [!DNL Target], essa lista de permissões também controla a lista de domínios para os quais a [redirecionadores](https://developer.adobe.com/target/implement/email/working-with-redirectors/) pode navegar. Certifique-se de adicionar quaisquer domínios aos quais deseja redirecionar quando usar a ubox como parte da implementação. Se a  lista de permissões for deixada não especificada, [!DNL Adobe] O não pode verificar os URLs de redirecionamento e se proteger de possíveis redirecionamentos mal-intencionados.
 >
 >A  de lista de permissões tem precedência sobre os ambientes. Limpe todos os hosts antes de usar o recurso de  de lista de permissões e, em seguida, somente os hosts permitidos pela lista de permissões serão exibidos na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
@@ -125,6 +125,6 @@ Tente as dicas de solução de problemas a seguir se tiver dificuldade com seus 
 
 Um domínio é exibido nessa lista se uma solicitação para [!DNL Target] é feito do domínio . Frequentemente, é possível ver domínios de mecanismos spider, sites de tradutor de idiomas ou unidades de discos locais. Se o domínio listado não for o domínio utilizado pela sua equipe, clique em [!UICONTROL Excluir] para removê-lo.
 
-**My [!DNL Target] solicitação retorna /* sem exibição - host mbox não autorizado */.**
+**My [!DNL Target] retornos de solicitação /&#42; sem exibição - host mbox não autorizado &#42;/.**
 
-Se uma [!DNL Target] for feita em um host não autorizado, a solicitação responderá com /* sem exibição - host mbox não autorizado */.
+Se uma [!DNL Target] for feita em um host não autorizado, a solicitação responderá com /&#42; sem exibição - host mbox não autorizado &#42;/.

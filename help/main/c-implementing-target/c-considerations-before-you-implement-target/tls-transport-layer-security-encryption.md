@@ -5,9 +5,9 @@ title: Como [!DNL Target] Usar o TLS para fornecer segurança?
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1148'
 ht-degree: 55%
 
 ---
@@ -56,7 +56,7 @@ Conforme você planeja essa alteração, considere o seguinte (observe que o pra
 * Esteja ciente de que o número de visitantes nos seus relatórios do Target pode sofrer potencialmente um declínio insignificante no número de visitantes.
 * Talvez seja necessário alterar os públicos-alvo criados especificamente para direcionar dispositivos ou navegadores mais antigos que não sejam compatíveis com TLS 1.2. A entrega para esses dispositivos e navegadores não funcionará mais.
 
-Para obter mais detalhes sobre os navegadores compatíveis e suas versões, consulte  [Navegadores suportados](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Para obter mais detalhes sobre os navegadores compatíveis e suas versões, consulte  [Navegadores suportados](https://developer.adobe.com/target/before-implement/supported-browsers/).
 
 ## Adobe [!DNL Target] APIs {#section_88797FA5434049EC89F908853CC76903}
 
@@ -68,7 +68,7 @@ A partir de 1º de março de 2020, as APIs do Target não serão mais compatíve
 
 ## Acesso às interfaces das soluções Experience Cloud {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Como a interface do Target Standard/Premium já requer um [navegador moderno](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), não prevemos problemas. Caso não seja possível se conectar ao Target, será necessário atualizar seu navegador para a versão mais recente.
+Como a interface do Target Standard/Premium já requer um [navegador moderno](https://developer.adobe.com/target/before-implement/supported-browsers/), não prevemos problemas. Caso não seja possível se conectar ao Target, será necessário atualizar seu navegador para a versão mais recente.
 
 ## Como verificar qual versão do TLS seu navegador usa {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

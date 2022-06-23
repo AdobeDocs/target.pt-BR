@@ -4,10 +4,10 @@ description: Saiba como usar atributos de entidade para transmitir informações
 title: Como Posso Usar Atributos De Entidade?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 55%
+source-wordcount: '1087'
+ht-degree: 54%
 
 ---
 
@@ -30,7 +30,7 @@ Em geral, a mbox de informações de exibição é semelhante ao seguinte exempl
 
 >[!NOTE]
 >
->Se estiver usando a at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o [!DNL Recommendations] usando a at.js 2.*x*, use [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Para ver um exemplo, consulte [Planejar e implementar o Recommendations](/help/main/c-recommendations/plan-implement.md).
+>Se estiver usando a at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o [!DNL Recommendations] usando a at.js 2.*x*, use [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). Para ver um exemplo, consulte [Planejar e implementar o Recommendations](https://developer.adobe.com/target/implement/recommendations/).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

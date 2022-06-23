@@ -5,10 +5,10 @@ title: Como Trabalho com Redirecionadores?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 71%
+source-wordcount: '689'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ Use o Redirecionador para  faça o seguinte:
 
 * Descobrir qual página de aterrissagem leva ao maior número de conversões
 
-Para obter ajuda em decidir a configuração correta, consulte  [Implementações não baseadas em JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Para obter ajuda em decidir a configuração correta, consulte  [Implementações não baseadas em JavaScript](https://developer.adobe.com/target/implement/email/).
 
 ## Criar um redirecionador {#redirector}
 
@@ -66,7 +66,7 @@ Antes de utilizar um redirecionador, você deve criá-lo.
 1. Se você vai testar destinos diferentes para um anúncio, crie [Ofertas de redirecionamento](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) para cada versão.
 1. Crie uma campanha.
 
-   Consulte [Implementações não baseadas em JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) para a configuração correta para atingir seus objetivos.
+   Consulte [Implementações não baseadas em JavaScript](https://developer.adobe.com/target/implement/email/) para a configuração correta para atingir seus objetivos.
 1. Faça o controle de qualidade da campanha.
 
    Crie uma página de testes com um `<a href>` contendo o URL Redirecionador. Exemplo:

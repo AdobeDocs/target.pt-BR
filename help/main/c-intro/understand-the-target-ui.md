@@ -4,10 +4,10 @@ description: Familiarize-se com a interface do usuário e encontre links para in
 title: Como faço para usar a interface do [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 47%
+source-wordcount: '1373'
+ht-degree: 45%
 
 ---
 
@@ -92,7 +92,9 @@ As seções a seguir contêm informações sobre cada guia e como configurar not
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-Você pode marcar todas as notificações como lidas ou exibir todas as notificações na parte inferior do painel.
+Você pode marcar notificações individuais como lidas ao passar o mouse sobre a notificação desejada e clicar na marca de seleção. Você pode marcar todas as notificações como lidas ou exibir todas as notificações clicando em [!UICONTROL &quot;Marcar como lido&quot;] ou [!UICONTROL &quot;Exibir todos&quot;] na parte inferior do painel.
+
+Você também pode definir um lembrete para ser notificado novamente passando o mouse sobre uma notificação, clicando no botão &quot;[!UICONTROL Lembrar-me]&quot;, em seguida, selecionando quando deseja ser notificado: 5 minutos, 15 minutos, uma hora ou amanhã.
 
 ### Anúncios
 

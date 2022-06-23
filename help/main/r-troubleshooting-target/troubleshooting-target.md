@@ -4,10 +4,10 @@ description: Veja uma lista de tópicos para ajudar você a resolver problemas n
 title: Como solucionar problemas do Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -98,7 +98,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 ## Mbox global
 
-* [Mbox global](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [Mbox global](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ## Hosts/ambientes
 
@@ -110,18 +110,18 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ### Implementação geral
 
-* [Navegadores compatíveis](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-* [Usar instâncias baseadas em nuvem com o Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+* [Navegadores compatíveis](https://developer.adobe.com/target/before-implement/supported-browsers/)
+* [Usar instâncias baseadas em nuvem com o Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
 
 ### Mboxes globais
 
-* [Perguntas frequentes sobre a mbox global](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [Perguntas frequentes sobre a mbox global](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ### at.js
 
-* [Perguntas frequentes sobre a at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [Depuração da at.js usando o Adobe Experience Cloud Debugger](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [Detalhes da versão da at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* [Perguntas frequentes sobre a at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
+* [Depuração da at.js usando o Adobe Experience Cloud Debugger ](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
+* [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 
 ## Problemas conhecidos
@@ -130,11 +130,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Aplicativos para dispositivos móveis
 
-* [Perguntas frequentes sobre o Target para aplicativos móveis](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-
-## Decisão no dispositivo
-
-* [Solução de problemas da decisão no dispositivo para at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [Perguntas frequentes sobre o Target para aplicativos móveis](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
 
 ## Relatório
 
@@ -143,11 +139,11 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Otimização do mecanismo de pesquisa (SEO)
 
-* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
 ## Segurança
 
-* [Diretivas da Política de segurança de conteúdo (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+* [Diretivas da Política de segurança de conteúdo (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
 
 ## Status do sistema
 

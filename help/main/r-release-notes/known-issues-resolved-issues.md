@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: ht
-source-wordcount: '4506'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '4520'
+ht-degree: 99%
 
 ---
 
@@ -135,11 +135,11 @@ Conforme os problemas conhecidos acima são resolvidos, eles são movidos para a
 
    Como alternativa, use um espaço em branco no conteúdo da experiência.
 
-   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para a [versão mais recente ou at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou use a solução alternativa mencionada acima apenas para versões do at.js anteriores a 2.2.0.  (TNT-33366)
+   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para a [versão mais recente ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) ou use a solução alternativa mencionada acima apenas para versões do at.js anteriores a 2.2.0.  (TNT-33366)
 
 * Ao usar as versões do at.js anteriores a 2.2.0, o rastreamento de cliques não relata conversões no [!UICONTROL Analytics for Target] (A4T) se o código do [!DNL Adobe Analytics] não estiver presente nos elementos da página (como botões).
 
-   Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) mais recente do at.js se você encontrar esse problema.
+   Uma correção foi introduzida para esse problema no at.js 2.2.0. [Atualize para a versão](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) mais recente do at.js se você encontrar esse problema.
 
 ### Geolocalização
 
@@ -438,7 +438,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 

@@ -5,10 +5,10 @@ title: Onde posso encontrar informações sobre [!DNL Target] Cookies?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 59%
+source-wordcount: '1553'
+ht-degree: 58%
 
 ---
 
@@ -20,7 +20,7 @@ O comportamento de cookies depende do tipo do cookie, podendo ser um cookie pró
 >
 >Este tópico contém informações sobre `mboxSession` e `mboxPC`. As práticas recomendadas de implementação recomendam que você não vincule nem armazene informações confidenciais com os dados do cookie: `mboxSession` ou `mboxPC`.
 
-Consulte também [Excluir o cookie do Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+Consulte também [Excluir o cookie do Target](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
 
 ## Quando utilizar cookies próprios ou de terceiros {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ Da Apple:
 
 | Funcionalidade afetada | Detalhes |
 |--- |--- |
-| Suporte para cancelamento | As alterações de rastreamento do WebKit da Apple interrompem o suporte ao cancelamento.<br>[!DNL Target]O cancelamento do usa um cookie no domínio `clientcode.tt.omtrdc.net`. Para obter mais detalhes, consulte [Privacidade](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>[!DNL Target] O suporta dois cancelamentos:<ul><li>Um por cliente (o cliente gerencia o link para opção de não participação).</li><li>Um via [!DNL Adobe] que recusa o usuário de tudo [!DNL Target] para todos os clientes.</li></ul>Ambos os métodos usam o cookie de terceiros. |
+| Suporte para cancelamento | As alterações de rastreamento do WebKit da Apple interrompem o suporte ao cancelamento.<br>[!DNL Target]O cancelamento do usa um cookie no domínio `clientcode.tt.omtrdc.net`. Para obter mais detalhes, consulte [Privacidade](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>[!DNL Target] O suporta dois cancelamentos:<ul><li>Um por cliente (o cliente gerencia o link para opção de não participação).</li><li>Um via [!DNL Adobe] que recusa o usuário de tudo [!DNL Target] para todos os clientes.</li></ul>Ambos os métodos usam o cookie de terceiros. |
 | [!DNL Target] atividades | Os clientes podem escolher seus [duração do perfil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) para [!DNL Target] contas (até 90 dias). A preocupação é que, se a duração do perfil da conta for superior a 30 dias e o cookie próprio for removido, pois o domínio do cliente foi marcado como rastreamento de usuários entre sites, o comportamento dos visitantes do Safari será afetado nas seguintes áreas em [!DNL Target]:<br>**[!DNL Target] relatórios **: Se um usuário do Safari entrar em uma atividade, retornar após 30 dias e, em seguida, converter, esse usuário contará como dois visitantes e uma conversão.<br>[!DNL Analytics]Esse comportamento é o mesmo para atividades que usam o como fonte de geração de relatórios (A4T).<br>** Associação de perfil e atividade **:<ul><li>Dados do perfil são apagados quando o cookie próprio expira.</li><li>Associação de atividade é apagada quando o cookie próprio expira.</li><li> [!DNL Target]O não funciona no Safari para contas que usam uma implementação de cookies de terceiros ou uma implementação de cookies próprios e de terceiros. Esse comportamento não é novo. O Safari não permite cookies de terceiros por algum tempo.</li></ul><br>**Sugestões**: Se houver uma preocupação de que o domínio do cliente possa ser marcado como uma sessão cruzada de visitantes de rastreamento, é mais seguro definir a duração do perfil para 30 dias ou menos em [!DNL Target]. Esse limite garante que os usuários sejam rastreados de forma semelhante no Safari e em todos os outros navegadores. |

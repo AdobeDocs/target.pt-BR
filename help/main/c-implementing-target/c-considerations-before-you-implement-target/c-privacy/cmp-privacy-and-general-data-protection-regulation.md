@@ -5,10 +5,10 @@ title: Como o  [!DNL Target]  lida com privacidade e regulamentos de proteção 
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Se você estava ocupado se preparando para a lei de privacidade da Europa (GDPR)
 
 ## [!DNL Target] Adobe e aceitação do [!DNL Adobe Experience Platform] {#section_6F7B53F5E40C4425934627B653E831B0}
 
-O [!DNL Target] oferece suporte à funcionalidade de aceitação por meio de tags no [!DNL Adobe Experience Platform], para ajudar a apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Adobe Experience Platform] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar o Opt-in na biblioteca at.js do [!DNL Target], você deve usar `targetGlobalSettings` e adicionar a configuração do `optinEnabled=true`. No [!DNL Adobe ExperiencePlatform], você deve selecionar “ativar” na lista suspensa [!UICONTROL Aceitação de GDPR] na exibição de instalação da extensão. Consulte [Implementar  [!DNL Target]  using  [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) para obter mais detalhes.
+O [!DNL Target] oferece suporte à funcionalidade de aceitação por meio de tags no [!DNL Adobe Experience Platform], para ajudar a apoiar a estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Adobe Experience Platform] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar o Opt-in na biblioteca at.js do [!DNL Target], você deve usar `targetGlobalSettings` e adicionar a configuração do `optinEnabled=true`. No [!DNL Adobe ExperiencePlatform], você deve selecionar “ativar” na lista suspensa [!UICONTROL Aceitação de GDPR] na exibição de instalação da extensão. Consulte [Implementar  [!DNL Target]  using  [!DNL Adobe Experience Platform] para obter mais detalhes.](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 O trecho de código a seguir mostra como ativar a configuração `optinEnabled=true`:
 
@@ -148,7 +148,7 @@ No momento, a [!DNL Adobe] não oferece uma Solução de gerenciamento de consen
 
 O [!DNL Target] oferece suporte a funcionalidade de aceitação por meio do [!DNL Adobe Experience Platform], para fornecer apoio à sua estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Adobe Experience Platform] para pré-aprovar a tag do [!DNL Target]. O uso do [!DNL Adobe Experience Platform] para gerenciar o opt-in é a abordagem recomendada. Existe ainda mais controle granular no [!DNL Adobe Experience Platform] para ocultar elementos selecionados da sua página, antes do acionamento do [!DNL Target], que pode ser útil como parte de sua estratégia de consentimento.
 
-Para obter mais informações sobre GDPR, CCPA e [!DNL Adobe Experience Platform], consulte [A biblioteca JavaScript de privacidade da Adobe e GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR). Além disso, consulte a seção *Aceitação do Adobe Target e da Adobe Experience Platform* acima.
+Para obter mais informações sobre GDPR, CCPA e [!DNL Adobe Experience Platform], consulte [A biblioteca JavaScript de privacidade da Adobe e GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Além disso, consulte a seção *Aceitação do Adobe Target e da Adobe Experience Platform* acima.
 
 ### O `AdobePrivacy.js` envia informações para a API do GDPR? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -284,10 +284,10 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 
 | Campo | Descrição |
 |--- |--- |
-| Sample_Parameter | Várias informações no perfil do [!DNL Target] são enviadas por upload ou fornecidas diretamente pelo Controlador de dados. Neste exemplo, um parâmetro foi enviado por upload para o perfil do [!DNL Target] usando a API de atualização de perfil. Para obter mais informações, consulte [Métodos para obter dados no [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | Várias informações no perfil do [!DNL Target] são enviadas por upload ou fornecidas diretamente pelo Controlador de dados. Neste exemplo, um parâmetro foi enviado por upload para o perfil do [!DNL Target] usando a API de atualização de perfil. Para obter mais informações, consulte [Métodos para obter dados no [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | Este campo padrão inclui o horário da visita de retorno mais recente de um usuário. |
 | firstSessionStart | Este campo padrão inclui o horário de início da primeira sessão do usuário. |
-| user.sessionCountScript | Várias informações no perfil do [!DNL Target] são enviadas por upload ou fornecidas diretamente pelo Controlador de dados. Neste exemplo, um script de perfil está incrementando o número de sessões que este visitante fez ao site do Controlador de dados. Para obter mais informações, consulte  [Atributos de script de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
+| user.sessionCountScript | Várias informações no perfil do [!DNL Target] são enviadas por upload ou fornecidas diretamente pelo Controlador de dados. Neste exemplo, um script de perfil está incrementando o número de sessões que este visitante fez ao site do Controlador de dados. Para obter mais informações, consulte [Atributos de script de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
 
 >[!NOTE]
 >
@@ -295,7 +295,7 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 
 ### O [!DNL Target] suporta ofuscação de IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte de sua estratégia de implementação do GDPR ou da CCPA. Para obter mais informações, consulte [Privacidade](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte de sua estratégia de implementação do GDPR ou da CCPA. Para obter mais informações, consulte [Privacidade](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ### Devo fazer algo para impedir que meus dados sejam compartilhados ou vendidos a terceiros?
 
