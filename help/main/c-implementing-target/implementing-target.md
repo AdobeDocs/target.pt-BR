@@ -6,10 +6,10 @@ title: Como implementar [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: d8fd919830cb6f73540af842a3b87b06b0bece3c
+source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 5%
+source-wordcount: '185'
+ht-degree: 2%
 
 ---
 
@@ -21,12 +21,19 @@ O [Portal do Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/
 
 O Portal do desenvolvedor inclui informações sobre os seguintes tipos de implementação:
 
-* Lado do cliente, incluindo informações sobre a implementação usando o [!DNL Adobe Experience Platform Web SDK] ou [!DNL Target Web SDK] (at.js).
-* Do lado do servidor, incluindo informações sobre como implementar o uso de SDKs Node.JS, JAVA, .NET e Python.
-* Híbrida, informações para ajudar a implementar se você usar uma combinação de implementações do lado do cliente e do lado do servidor.
-* Recommendations, informações para ajudá-lo a implementar [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
-* Aplicativos móveis.
-* Email.
+* Lado do cliente: Informações sobre a implementação usando o [!DNL Adobe Experience Platform Web SDK] ou [!DNL Target Web SDK] (at.js).
+* Lado do servidor: Informações sobre como implementar o uso de SDKs Node.JS, JAVA, .NET e Python.
+* Híbrido: Informações sobre a implementação se você usar uma combinação de implementações do lado do cliente e do lado do servidor.
+* Recommendations: Informações para ajudar a implementar [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
+* Aplicativos para dispositivos móveis: Informações para ajudar a implementar com [!DNL Adobe Experience Platform Mobile] SDKs.
+* Email: Informações para ajudar a implementar [!DNL Target] em emails.
+
+Para obter mais informações, consulte o [Portal do Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}.
+
+>[!NOTE]
+>
+>Todas as informações incluídas anteriormente na *Implementar o Target* neste guia (o *Guia do profissional do Adobe Target*) agora está incluído no portal do desenvolvedor.
+
 
 
 
