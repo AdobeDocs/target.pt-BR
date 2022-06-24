@@ -5,10 +5,10 @@ title: O que são permissões de usuário empresarial e como usá-las?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 59%
+source-wordcount: '3152'
+ht-degree: 58%
 
 ---
 
@@ -252,7 +252,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões em [!DNL T
 
    Em uma versão futura, o Target funcionará em páginas em que nenhum token `at_property` está presente ou páginas em que um token diferente de `at_property` estiver presente.
 
-* A funcionalidade Permissões de usuário do Enterprise não é compatível com [chamadas da API do Adobe I/O](https://developer.adobe.com/target/).
+* A funcionalidade Permissões de usuário empresarial não é compatível com o [Chamadas de API do Adobe I/O](https://developer.adobe.com/target/){target=_blank}.
 
 ## Perguntas frequentes {#faqs}
 

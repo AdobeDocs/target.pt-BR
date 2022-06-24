@@ -5,10 +5,10 @@ title: Como uso a função targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 95%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Você pode substituir as configurações na biblioteca at.js usando `targetGloba
 * **Valor padrão**: corpo { opacidade: 0 }
 * **Descrição**: usado apenas quando `globalMboxAutocreate === true` para minimizar a chance de cintilação.
 
-   Para obter mais informações, consulte [Como o at.js gerencia a cintilação](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+   Para obter mais informações, consulte [Como a at.js gerencia a cintilação](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ Você pode substituir as configurações na biblioteca at.js usando `targetGloba
 
 * **Tipo**: Booleano
 * **Valor padrão**: falso
-* **Descrição**: o [!DNL Target] oferece suporte à funcionalidade de aceitação por meio da [!DNL Adobe Experience Platform], que ajuda em sua estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Adobe Experience Platform] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar a aceitação na biblioteca at.js do [!DNL Target], você deve adicionar a configuração `optinEnabled=true`. Na [!DNL Adobe Experience Platform], você deve selecionar “ativar” na lista suspensa [!UICONTROL Aceitação de GDPR], na exibição de instalação da extensão. Consulte a [Documentação do Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} para obter mais detalhes. Para obter mais informações sobre essa configuração, que está relacionada às regulamentações de privacidade e proteção de dados, incluindo o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia e a Lei de Privacidade do Consumidor da Califórnia (CCPA), consulte [Regulamentos sobre proteção de dados e privacidade](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Descrição**: o [!DNL Target] oferece suporte à funcionalidade de aceitação por meio da [!DNL Adobe Experience Platform], que ajuda em sua estratégia de gerenciamento de consentimento. A funcionalidade de opt-in permite que os clientes controlem como e quando a tag do [!DNL Target] é acionada. Além disso, há uma opção por meio do [!DNL Adobe Experience Platform] para pré-aprovar a tag do [!DNL Target]. Para ativar a capacidade de usar a aceitação na biblioteca at.js do [!DNL Target], você deve adicionar a configuração `optinEnabled=true`. Na [!DNL Adobe Experience Platform], você deve selecionar “ativar” na lista suspensa [!UICONTROL Aceitação de GDPR], na exibição de instalação da extensão. Consulte a [Documentação do Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} para obter mais detalhes. Para obter mais informações sobre essa configuração, pois ela se relaciona às regulamentações de privacidade e proteção de dados, incluindo o Regulamento Geral sobre a Proteção de Dados (GDPR) da União Europeia{target=_blank} e a Lei de Privacidade do Consumidor da Califórnia (CCPA), consulte [Privacidade e regulamentos sobre proteção de dados](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ O `serverState` é uma configuração disponível na at.js v2.2+ que pode ser us
 Você deve ter uma integração híbrida do [!DNL Target].
 
 * **Lado do servidor**: você deve usar a nova [API de entrega](https://developers.adobetarget.com/api/delivery-api/) ou os [SDKs do Target](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Lado do cliente**: você deve usar a [at.js versão 2.2 ou posterior](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Lado do cliente**: Você deve usar [at.js versão 2.2 ou posterior](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Amostras de código
 

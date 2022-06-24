@@ -5,9 +5,9 @@ title: User Agent e Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 95%
 
 ---
@@ -18,7 +18,7 @@ O [!DNL Adobe Target] usa o user-agent para qualificar visitantes para segmenta�
 
 >[!NOTE]
 >
->As informações deste artigo se aplicam a [at.js versão 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (ou posterior).
+>As informações deste artigo se aplicam a [at.js versão 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (ou posterior){target=_blank}.
 
 
 Cada vez que um navegador faz uma solicitação a um servidor, são incluídas, no cabeçalho da solicitação, informações sobre o navegador e o ambiente em que o navegador é executado. Desde os primeiros dias da internet, esses dados vêm sendo agregados numa sequência chamada user-agent (agente do usuário).

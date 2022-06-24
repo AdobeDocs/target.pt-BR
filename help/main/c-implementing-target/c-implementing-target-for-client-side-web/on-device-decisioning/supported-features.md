@@ -5,9 +5,9 @@ title: Quais recursos são compatíveis com o On-Device Decisioning
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ A tabela a seguir indica quais regras de público-alvo são suportadas ou não p
 
 ### Direcionamento geográfico para decisões no dispositivo
 
-Para manter a latência mínima para atividades de decisão no dispositivo com públicos baseados em geografia, o Adobe recomenda que você forneça os valores geográficos na chamada para [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Defina o objeto geográfico no contexto da solicitação. Isso significa, a partir do navegador, uma maneira de determinar a localização de cada visitante. Por exemplo, é possível executar uma pesquisa de IP para geografia usando um serviço configurado. Alguns provedores de hospedagem, como a Google Cloud, fornecem essa funcionalidade por meio de cabeçalhos personalizados em cada `HttpServletRequest`.
+Para manter a latência mínima para atividades de decisão no dispositivo com públicos baseados em geografia, o Adobe recomenda que você forneça os valores geográficos na chamada para [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. Defina o objeto geográfico no contexto da solicitação. Isso significa, a partir do navegador, uma maneira de determinar a localização de cada visitante. Por exemplo, é possível executar uma pesquisa de IP para geografia usando um serviço configurado. Alguns provedores de hospedagem, como a Google Cloud, fornecem essa funcionalidade por meio de cabeçalhos personalizados em cada `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

@@ -5,10 +5,10 @@ title: Como implementar com o SDK da Web do Experience Platform?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -39,4 +39,4 @@ Além do [!DNL Platform Web SDK] documentação mencionada acima, os tópicos ne
 | [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | O redirecionamento de ofertas faz com que os navegadores dos visitantes redirecione para uma nova página.<br>Consulte [O [!DNL Adobe Experience Platform Web SDK] oferece suporte a ofertas de redirecionamento para A4T?](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Tokens de resposta](/help/main/administrating-target/response-tokens.md) | Os tokens de resposta permitem enviar dados do Target para o Google Analytics e outras integrações de terceiros.<br>Consulte [Envio de dados para o Google Analytics por meio do SDK da Web da plataforma](/help/main/administrating-target/response-tokens.md#platform-web-sdk) para ver um exemplo de código de como realizar essa tarefa. |
 | [Implementação de aplicativos de página única](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) no *Visão geral do SDK da Web da plataforma* guia. | [!UICONTROL Adobe Experience Platform Web SDK] O fornece recursos avançados para sua empresa personalizar tecnologias de próxima geração no lado do cliente, como aplicativos de página única (SPA). |
-| [Alterações na criptografia do TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | O TLS (Transport Layer Security){target=_blank} ajuda a manter os mais altos padrões de segurança e a promover a segurança dos dados do cliente. |
+| [Alterações na criptografia do TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} | O TLS (Transport Layer Security){target=_blank} ajuda a manter os mais altos padrões de segurança e a promover a segurança dos dados do cliente. |

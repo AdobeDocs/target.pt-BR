@@ -5,10 +5,10 @@ title: Quais são as perguntas frequentes sobre a mbox global?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 64%
+source-wordcount: '322'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,7 @@ Somente uma mbox global é suportada na sua conta.
 
 Você pode limitar o local de execução das atividades, ao adicionar as regras de URL às suas atividades. Para obter mais informações, consulte [Incluir a mesma experiência em páginas semelhantes](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Você também pode passar um parâmetro na página usando [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} e, em seguida, selecione esses parâmetros na seção &quot;configurar URL&quot; na [!UICONTROL Visual Experience Composer] (VEC) ou adicionando os parâmetros como &quot;refinamentos&quot; no Experience Composer baseado em formulário.
+Você também pode passar um parâmetro na página usando [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} e, em seguida, selecione esses parâmetros na seção &quot;configurar URL&quot; na [!UICONTROL Visual Experience Composer] (VEC){target=_blank} ou ao adicionar os parâmetros como &quot;refinamentos&quot; no Experience Composer baseado em formulário.
 
 ## Como transfiro os dados de receita em um [!DNL Target] mbox global? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -30,7 +30,7 @@ Para coletar informações de receita e pedidos na target-global-mbox, &quot;par
 
 Para o `orderConfirmPage`, você deve transmitir `orderTotal`, `orderId`e `productPurchasedId`.
 
-Esses parâmetros devem ser enviados para o target-global-mbox via `targetPageParams()`. Para obter mais informações, consulte [Passar parâmetros para uma mbox global](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+Esses parâmetros devem ser enviados para o target-global-mbox via `targetPageParams()`. Para obter mais informações, consulte [Enviar parâmetros para uma mbox global](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
 
 Você também quer adicionar direcionamento ao pedaço de conversa, de modo que o Target somente conte as conversas no target-global-mbox quando a página de confirmação de pedido tiver sido visualizada, conforme mostrado a seguir:
 

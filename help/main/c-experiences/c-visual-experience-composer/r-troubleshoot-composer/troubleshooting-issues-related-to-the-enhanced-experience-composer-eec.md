@@ -4,10 +4,10 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 50%
+source-wordcount: '454'
+ht-degree: 44%
 
 ---
 
@@ -43,13 +43,13 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
    **Solução:** lista de permissões os endereços IP listados acima.
 
-* **Problema:** Os endereços IP são incluir na lista de permissões, mas o site não é compatível com a versão 1.2 do TLS. [!DNL Target] O atualmente usa a configuração padrão do 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+* **Problema:** Os endereços IP são incluir na lista de permissões, mas o site não é compatível com a versão 1.2 do TLS. [!DNL Target] O atualmente usa a configuração padrão do 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
    **Solução:**[!UICONTROL consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).]
 
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Você poderá ver a mensagem de erro descrita acima em &quot;A variável [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site.&quot; se os endereços IP acima forem incluir na lista de permissões, mas o site não for compatível com a versão 1.2 do TLS. [!DNL Target] O atualmente usa a configuração padrão do 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+Você poderá ver a mensagem de erro descrita acima em &quot;A variável [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site.&quot; se os endereços IP acima forem incluir na lista de permissões, mas o site não for compatível com a versão 1.2 do TLS. [!DNL Target] O atualmente usa a configuração padrão do 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}.
 
 Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores têm etapas semelhantes):
 
@@ -66,7 +66,7 @@ Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores
 
    ![](assets/firefox_more_info_3.png)
 
-1. Se você descobrir que o seu site está mostrando o TLS 1.0, consulte  [Alterações na criptografia da Segurança da camada de transporte (TLS)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} para obter informações sobre a política de suporte TLS do Target. Para solucionar a situação por enquanto (válida até 12 de setembro de 2018), acesse o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter a configuração com a versão TLS e o domínio.
+1. Se você descobrir que o seu site está mostrando o TLS 1.0, consulte  [Alterações na criptografia da Segurança da camada de transporte (TLS)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} para obter informações sobre a política de suporte TLS do Target. Para solucionar a situação por enquanto (válida até 12 de setembro de 2018){target=_blank}, entre em contato com o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configuração com a versão TLS e o domínio.
 
 ## Vejo tempos limite ou erros de &quot;acesso negado&quot; ao carregar sites com proxy ativado. (Somente EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 

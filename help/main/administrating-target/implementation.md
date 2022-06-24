@@ -5,9 +5,9 @@ title: Como implementar [!DNL Target] no Meu Site?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '170'
 ht-degree: 21%
 
 ---
@@ -20,10 +20,10 @@ Para obter mais informações, consulte os vários tópicos em [Implementar o Ta
 
 >[!NOTE]
 >
->Tags em [!DNL Adobe Experience Platform] é o método preferido para implementar o [!DNL Target]. As tags na [!DNL Adobe Experience Platform] são a próxima geração de recursos de gerenciamento de tags da [!DNL Adobe]. As tags oferecem aos clientes uma forma simples de implantar e gerenciar as tags de análise, marketing e anúncios necessárias para potencializar experiências relevantes do cliente. Para obter mais informações, consulte [Implementar [!DNL Target] usar [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+>Tags em [!DNL Adobe Experience Platform] é o método preferido para implementar o [!DNL Target]. As tags na [!DNL Adobe Experience Platform] são a próxima geração de recursos de gerenciamento de tags da [!DNL Adobe]. As tags oferecem aos clientes uma forma simples de implantar e gerenciar as tags de análise, marketing e anúncios necessárias para potencializar experiências relevantes do cliente. Para obter mais informações, consulte [Implementar [!DNL Target] usar [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 1. Para acessar o [!UICONTROL Implementação] página, clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
 
-1. Para obter informações aplicáveis às configurações nesta página, consulte [Implementação do Target sem um gerenciador de tags](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+1. Para obter informações aplicáveis às configurações nesta página, consulte [Implementação do Target sem um gerenciador de tags](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ![Página de implementação](/help/main/administrating-target/assets/implementation.png)

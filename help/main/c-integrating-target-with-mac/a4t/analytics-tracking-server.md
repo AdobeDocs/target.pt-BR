@@ -4,10 +4,10 @@ description: 'Saiba como especificar um servidor de rastreamento do Analytics pa
 title: Como usar um servidor de rastreamento do Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 26%
+source-wordcount: '697'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ Se estiver usando uma versão mais antiga da at.js, deverá especificar um servi
 >
 >Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 >
->O [!DNL Target] A equipe é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações, consulte [detalhes da versão do at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>O [!DNL Target] A equipe é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 Para garantir que os dados da [!DNL Target] vai para o local correto em [!DNL Analytics], O A4T requer que um servidor de rastreamento do Analytics seja enviado em todas as chamadas para o Modstats do [!DNL Target]. Para implementações que usam vários servidores de rastreamento, use o [!DNL Adobe Experience Platform Debugger] ou nas Ferramentas do desenvolvedor do seu navegador para determinar o servidor de rastreamento correto para sua atividade.
 

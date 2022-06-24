@@ -4,9 +4,9 @@ description: Explore as opções disponíveis na [!DNL Adobe Target] [!UICONTROL
 title: Como usar o [!UICONTROL Visual Experience Composer] Opções do (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2936'
 ht-degree: 61%
 
 ---
@@ -380,9 +380,9 @@ O VEC é compatível [Componentes da Web](https://developer.mozilla.org/pt-BR/do
 
 >[!NOTE]
 >
->O suporte ao VEC para elementos personalizados é compatível com o [Versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (ou posterior). Certifique-se de que o site tenha a versão necessária implantada. Se estiver usando o [Extensão de assistente do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), também deve ter a versão exigida da at.js implantada. As opções do VEC descritas acima não estão visíveis e disponíveis para uso com versões não compatíveis da at.js.
+>O suporte ao VEC para elementos personalizados é compatível com o [Versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (ou posterior){target=_blank}. Certifique-se de que o site tenha a versão necessária implantada. Se estiver usando o [Extensão de assistente do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), também deve ter a versão exigida da at.js implantada. As opções do VEC descritas acima não estão visíveis e disponíveis para uso com versões não compatíveis da at.js.
 >
->No momento, o suporte ao VEC para elementos personalizados não é compatível com o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+>No momento, o suporte ao VEC para elementos personalizados não é compatível com o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 A maioria das ações do VEC é compatível com eventos personalizados e dentro de eventos personalizados, com as seguintes exceções:
 

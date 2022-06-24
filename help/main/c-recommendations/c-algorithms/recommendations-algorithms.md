@@ -5,9 +5,9 @@ title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendat
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esq
 
 Os detalhes dessas etapas são os seguintes:
 
-* **Dados de entrada**: Dados comportamentais, na forma de exibições e compras de visitantes coletadas quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dados de entrada**: Dados comportamentais, na forma de exibições e compras de visitantes coletadas quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formação de modelo**:
 
@@ -88,7 +88,7 @@ Embora a veiculação do modelo e os aspectos de entrega de conteúdo de [!DNL T
 
 Os detalhes dessas etapas são os seguintes:
 
-* **Dados de entrada**: Conforme descrito anteriormente, este algoritmo se baseia apenas em dados de catálogo (assimilados a [!DNL Target] via [Feed do catálogo, a API de entidades ou de atualizações na página](https://developer.adobe.com/target/implement/recommendations/).
+* **Dados de entrada**: Conforme descrito anteriormente, este algoritmo se baseia apenas em dados de catálogo (assimilados a [!DNL Target] via [Feed do catálogo, a API de entidades ou de atualizações na página](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 * **Formação de modelo**:
 
@@ -126,7 +126,7 @@ A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagr
 
 Os detalhes dessas etapas são os seguintes:
 
-* **Dados de entrada**: Isso é idêntico aos métodos de filtragem colaborativa (CF) de item. [!UICONTROL Ambos Recomendados Para Você] Os algoritmos baseados em carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dados de entrada**: Isso é idêntico aos métodos de filtragem colaborativa (CF) de item. [!UICONTROL Ambos Recomendados Para Você] Os algoritmos baseados em carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados quando você [implementar o Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formação de modelo**:
 

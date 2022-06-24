@@ -5,10 +5,10 @@ title: Como o  [!DNL Target]  lida com privacidade e regulamentos de proteção 
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 98%
+source-wordcount: '2235'
+ht-degree: 97%
 
 ---
 
@@ -284,7 +284,7 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 
 | Campo | Descrição |
 |--- |--- |
-| Sample_Parameter | Várias informações no perfil do [!DNL Target] são enviadas por upload ou fornecidas diretamente pelo Controlador de dados. Neste exemplo, um parâmetro foi enviado por upload para o perfil do [!DNL Target] usando a API de atualização de perfil. Para obter mais informações, consulte [Métodos para obter dados no [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| Sample_Parameter | Várias informações no perfil do [!DNL Target] são enviadas por upload ou fornecidas diretamente pelo Controlador de dados. Neste exemplo, um parâmetro foi enviado por upload para o perfil do [!DNL Target] usando a API de atualização de perfil. Para obter mais informações, consulte [Métodos para colocar os dados em [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. |
 | user.ReturnTimeOfDay | Este campo padrão inclui o horário da visita de retorno mais recente de um usuário. |
 | firstSessionStart | Este campo padrão inclui o horário de início da primeira sessão do usuário. |
 | user.sessionCountScript | Várias informações no perfil do [!DNL Target] são enviadas por upload ou fornecidas diretamente pelo Controlador de dados. Neste exemplo, um script de perfil está incrementando o número de sessões que este visitante fez ao site do Controlador de dados. Para obter mais informações, consulte [Atributos de script de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ A seguinte tabela apresenta descrições dos campos ilustrativos de JSON de perf
 
 ### O [!DNL Target] suporta ofuscação de IP?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte de sua estratégia de implementação do GDPR ou da CCPA. Para obter mais informações, consulte [Privacidade](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+O [!DNL Target] suporta ofuscação de IP se você optar por usá-lo como parte de sua estratégia de implementação do GDPR ou da CCPA. Para obter mais informações, consulte [Privacidade](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ### Devo fazer algo para impedir que meus dados sejam compartilhados ou vendidos a terceiros?
 

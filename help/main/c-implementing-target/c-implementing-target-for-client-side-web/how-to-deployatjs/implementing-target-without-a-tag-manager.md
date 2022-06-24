@@ -5,10 +5,10 @@ title: Posso Implementar [!DNL Target] sem um Gerenciador de tags?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 47%
+source-wordcount: '1848'
+ht-degree: 43%
 
 ---
 
@@ -32,7 +32,7 @@ Você pode especificar as seguintes configurações nesta página:
 
 >[!NOTE]
 >
->É possível substituir as configurações na biblioteca at.js em vez de definir as configurações na [!DNL Target Standard/Premium]interface do usuário do   ou usar APIs REST. Para obter mais informações, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+>É possível substituir as configurações na biblioteca at.js em vez de definir as configurações na [!DNL Target Standard/Premium]interface do usuário do   ou usar APIs REST. Para obter mais informações, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Detalhes da conta
 
@@ -96,7 +96,7 @@ Para obter mais informações, consulte os tópicos:
 
 Ative ou desative a autenticação para atualizações em lote pela API e gere um token de autenticação de perfil.
 
-Para obter mais informações, consulte [Configurações da API de perfil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
+Para obter mais informações, consulte [Configurações da API de perfil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}.
 
 ### Ferramentas do Debugger
 
@@ -114,11 +114,11 @@ Escolha a configuração desejada na lista suspensa Ofuscar endereço IP do visi
 * Ofuscação de IP inteiro
 * None
 
-Para obter mais informações, consulte [Privacidade](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+Para obter mais informações, consulte [Privacidade](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 >[!NOTE]
 >
->A opção Suporte a navegador herdado estava disponível na at.js versão 0.9.3 e posteriores. Essa opção foi removida na at.js versão 0.9.4. Para obter uma lista de navegadores suportados at.js, consulte [Navegadores suportados](https://developer.adobe.com/target/before-implement/supported-browsers/)<br>Os navegadores herdados são navegadores antigos que não suportam completamente CORS (Cross Origin Resource Sharing). Esses navegadores incluem: Internet Explorer em versão anterior a 11 e Safari versões 6 e anteriores. Se o Suporte a navegador herdado foi desativado, o Target não entregou o conteúdo ou contou os visitantes nos relatórios desses navegadores. Se essa opção tiver sido ativada, é recomendável fazer o controle de qualidade em navegadores mais antigos para garantir uma boa experiência do cliente.
+>A opção Suporte a navegador herdado estava disponível na at.js versão 0.9.3 e posteriores. Essa opção foi removida na at.js versão 0.9.4. Para obter uma lista de navegadores suportados at.js, consulte [Navegadores compatíveis](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.<br>Os navegadores herdados são navegadores antigos que não suportam completamente CORS (Cross Origin Resource Sharing). Esses navegadores incluem: Internet Explorer em versão anterior a 11 e Safari versões 6 e anteriores. Se o Suporte a navegador herdado foi desativado, o Target não entregou o conteúdo ou contou os visitantes nos relatórios desses navegadores. Se essa opção tiver sido ativada, é recomendável fazer o controle de qualidade em navegadores mais antigos para garantir uma boa experiência do cliente.
 
 ## Baixe a at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -128,7 +128,7 @@ Instruções para baixar a biblioteca usando a [!DNL Target] ou a API de downloa
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} é o método preferido para a implementação [!DNL Target] e a biblioteca at.js. As informações a seguir não se aplicam ao usar tags em [!DNL Adobe Experience Platform] para implementar [!DNL Target].
 >
->* O [!DNL Target] A equipe é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>* O [!DNL Target] A equipe é compatível com o at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 
 ### Baixe a at.js usando o [!DNL Target] interface {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ Para baixar a [!DNL at.js] usando a API.
 
    >[!IMPORTANT]
    >
-   >A equipe do Target mantém apenas duas versões de [!DNL at.js]—a versão atual e a segunda versão mais recente. Atualize a [!DNL at.js] conforme necessário para garantir que você esteja executando uma versão suportada. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   >A equipe do Target mantém apenas duas versões de [!DNL at.js]—a versão atual e a segunda versão mais recente. Atualize a [!DNL at.js] conforme necessário para garantir que você esteja executando uma versão suportada. Para obter mais informações sobre o que há de novo em cada versão, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    O carreamento deste URL inicia o download do arquivo da [!DNL at.js] personalizado.
 
@@ -247,7 +247,7 @@ Considere as informações importantes a seguir:
 * O HTML5 Doctype (por exemplo, `<!doctype html>`) deve ser usada. Doctypes não compatíveis ou mais antigos poderiam imperdir o Target de fazer uma solicitação.
 * Pré-conectar e Buscar previamente são opções que podem auxiliar no carregamento mais rápido das páginas da Web. Se você usar essas configurações, certifique-se de substituir `<client code>` com seu próprio código de cliente, que pode ser obtido do **[!UICONTROL Administração]** > **[!UICONTROL Implementação] página.
 * Se você tiver uma camada de dados, é ideal definir o máximo dela possível em `<head>` das suas páginas, antes dos carregamentos da at.js. Essa disposição fornece a capacidade máxima de usar essas informações no Target para personalização.
-* As funções especiais do Target, como `targetPageParams()`, `targetPageParamsAll()`, Provedores de dados e `targetGlobalSettings()` devem ser definidas após a camada de dados e antes dos carregamentos da at.js. Como alternativa, essas funções podem ser salvas no [!UICONTROL Cabeçalho da biblioteca] da seção [!UICONTROL Editar configurações da at.js] e salvas como parte da própria biblioteca at.js. Para obter mais informações sobre essas funções, consulte  [Funções da at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+* As funções especiais do Target, como `targetPageParams()`, `targetPageParamsAll()`, Provedores de dados e `targetGlobalSettings()` devem ser definidas após a camada de dados e antes dos carregamentos da at.js. Como alternativa, essas funções podem ser salvas no [!UICONTROL Cabeçalho da biblioteca] da seção [!UICONTROL Editar configurações da at.js] e salvas como parte da própria biblioteca at.js. Para obter mais informações sobre essas funções, consulte [Funções da at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 * Se você usar bibliotecas auxiliares do JavaScript, como jQuery, inclua-as antes do Target, para que possa usar a sintaxe e os métodos delas ao criar as experiências do Target.
 * Inclua a at.js no `<head>` das suas páginas.
 

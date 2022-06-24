@@ -4,9 +4,9 @@ description: Saiba como adicionar uma decisão de oferta criada em [!DNL Adobe J
 title: Como Uso As Decisões De Oferta?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Para obter mais informações sobre [!DNL Adobe Journey Optimizer] e das decisõ
 
 Para usar as decisões de oferta em [!DNL Target], você precisa do seguinte:
 
-* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] implementado com o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] implementado com o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
    O recurso não está disponível ao implementar [!DNL Target] com at.js ou outras [!DNL Target] SDKs.
 
@@ -100,7 +100,7 @@ Em [!DNL Adobe Journey Optimizer], você pode criar uma oferta de herói de pág
 
 Considere as seguintes informações ao trabalhar com as decisões de oferta:
 
-* A integração do offer decisioning funciona para [!DNL Target] com base na variável [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Este recurso não está disponível ao implementar [!DNL Target] com at.js ou outras [!DNL Target] SDKs.
+* A integração do offer decisioning funciona para [!DNL Target] com base na variável [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Este recurso não está disponível ao implementar [!DNL Target] com at.js ou outras [!DNL Target] SDKs.
 
 * A integração do Target/Adobe Journey Optimizer é compatível com [manual [!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) e [[!UICONTROL Direcionamento de experiência]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) somente. Esse recurso não está disponível para outros tipos de atividades.
 

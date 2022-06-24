@@ -4,9 +4,9 @@ description: Saiba como usar o Adobe [!DNL Target] URLs de controle de qualidade
 title: Como faço para garantir a qualidade das atividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1829'
 ht-degree: 38%
 
 ---
@@ -72,7 +72,7 @@ Usar URLs de controle de qualidade em [!DNL Adobe Target] para realizar o contro
    Você também pode forçar a sua saída manualmente carregando uma página em seu site com o parâmetro `at_preview_token` com um valor vazio (por exemplo, `https://www.mysite.com/?at_preview_token=`).
 
 * Se você especificou &quot;URL é&quot; ao criar a atividade [refinamentos no Criador baseado em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [opções de entrega de página no Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), o URL de controle de qualidade não funciona porque [!UICONTROL Controle de qualidade da atividade] anexa parâmetros de URL. Para resolver esse problema, clique no URL do Controle de qualidade para acessar seu site, remover os parâmetros anexados do URL e, em seguida, carregar o novo URL.
-* Se você tiver o at.js 1.*x*, [!UICONTROL Controle de qualidade da atividade] O modo não é aderente se você usar o Safari ou outro navegador que bloqueia cookies de terceiros. Nesses casos, você deve adicionar os parâmetros de visualização a cada URL para o qual você navega. O mesmo é verdadeiro se tiver implementado o [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/).
+* Se você tiver o at.js 1.*x*, [!UICONTROL Controle de qualidade da atividade] O modo não é aderente se você usar o Safari ou outro navegador que bloqueia cookies de terceiros. Nesses casos, você deve adicionar os parâmetros de visualização a cada URL para o qual você navega. O mesmo é verdadeiro se tiver implementado o [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * Se uma atividade usar vários públicos-alvo de experiência (por exemplo, um site dos EUA e do Reino Unido incluídos na mesma atividade), os links de controle de qualidade não serão gerados para as quatro combinações (Experiência A/US Site, Experiência A/UK Site, Experiência B/US Site, Experiência B/UK Site). Apenas dois links de Controle de qualidade (Experiência A e Experiência B) são criados e os usuários devem se qualificar para o público-alvo apropriado para ver a página. Uma pessoa do Controle de qualidade do Reino Unido não pode ver o site dos EUA.
 * Todos os parâmetros `at_preview` e valores já estão codificados com URL. Na maioria das vezes, tudo funciona conforme o esperado. No entanto, alguns clientes devem carregar balanceadores ou servidores da Web que tentam codificar os parâmetros da cadeia de caracteres de consulta novamente.
 

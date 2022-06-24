@@ -4,10 +4,10 @@ description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (V
 title: Como criar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 76%
+source-wordcount: '1315'
+ht-degree: 75%
 
 ---
 
@@ -78,7 +78,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    >[!NOTE]
    >
-   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations (**[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtro critérios incompatíveis]**). Para obter mais informações, consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/).
+   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations (**[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtro critérios incompatíveis]**). Para obter mais informações, consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
    ![Caixa de diálogo Selecionar critérios](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

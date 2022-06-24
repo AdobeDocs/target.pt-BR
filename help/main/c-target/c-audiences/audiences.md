@@ -4,9 +4,9 @@ description: Saiba como usar públicos-alvo no [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1341'
 ht-degree: 27%
 
 ---
@@ -45,7 +45,7 @@ O [!UICONTROL Públicos-alvo] contém os públicos que você pode usar em suas a
 
    >[!NOTE]
    >
-   >O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou [combinado com públicos-alvo existentes](/help/main/c-target/combining-multiple-audiences.md).
+   >O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou [combinado com públicos-alvo existentes](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Os usuários devem ter [!UICONTROL Aprovador] ou acima do status em [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] cartões em AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >

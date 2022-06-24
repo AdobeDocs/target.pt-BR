@@ -4,10 +4,10 @@ description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ Lamentamos saber que você está tendo problemas. Veja [Solução de problemas d
 
 **Nós temos um SKU móvel. Posso criar atividades móveis?**
 
-Para otimização e personalização em dispositivos móveis, você precisa usar as [atividades baseadas em formulários](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) junto com o [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Confira mais detalhes sobre o [Target para aplicativos móveis](https://developer.adobe.com/target/implement/mobile/).
+Para otimização e personalização em dispositivos móveis, você precisa usar [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) juntamente com o [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Veja mais detalhes sobre [Target para aplicativos móveis](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## APIs do Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Onde eu posso aprender mais sobre as APIs do Target?**
 
-Temos uma documentação completa sobre APIs. Consulte a documentação de [Delivery APIs, NodeJS SDK e APIs do Recommendations](https://developer.adobe.com/target/implement/server-side/).
+Temos uma documentação completa sobre APIs. Consulte [Documentação das APIs de entrega, do SDK do NodeJS e das APIs do Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

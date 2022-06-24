@@ -5,10 +5,10 @@ title: Como a at.js gerencia a cintilação?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 60%
+source-wordcount: '695'
+ht-degree: 58%
 
 ---
 
@@ -38,7 +38,7 @@ A ilustração a seguir mostra as chamadas Ocultar corpo e Mostrar corpo no at.j
 
 ![](assets/target-flow2.png)
 
-Para obter mais informações sobre `bodyHiddenStyle` a substituição, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Para obter mais informações sobre o `bodyHiddenStyle` sobrepor, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Gerenciamento de cintilação ao carregar at.js de maneira assíncrona
 
