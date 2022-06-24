@@ -1,17 +1,17 @@
 ---
-user-guide-title: 'Manual do Adobe [!DNL Target] '
+user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 99%
+source-wordcount: '1207'
+ht-degree: 98%
 
 ---
 
 
-# Guia do Adobe Target {#using}
+# Guia do profissional de negócios do Adobe Target {#using}
 
 + [Página inicial do Guia do Adobe Target](target-home.md)
 + Notas de versão do Target {#release-notes}
@@ -68,102 +68,6 @@ ht-degree: 99%
          + [Conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Implementar o Target {#implement-target}
    + [Implementar a visão geral do Target](c-implementing-target/implementing-target.md)
-   + Antes da implementação {#before-implement}
-      + [Antes da implementação](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Preparação para implementar o Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Privacidade e segurança {#privacy}
-         + [Visão geral de privacidade](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Privacidade e regulamentos sobre proteção de dados](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
-         + [Cookies do Target](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
-         + [Excluir o cookie do Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Políticas de cookies do Google Chrome para SameSite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Diretivas da Política de segurança de conteúdo (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Lista de permissões de nós de borda no Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
-      + Métodos para colocar os dados no Target {#methods}
-         + [Visão geral dos métodos](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-         + [Parâmetros da página](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
-         + [Atributos de perfil na página](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
-         + [Atributos de perfil de script](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
-         + [Provedores de dados](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
-         + [API de atualização de perfil em massa](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
-         + [API de atualização de perfil único](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
-         + [Atributos do cliente](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
-         + [Configurações da API de perfil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Target visão geral de segurança](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
-      + [Navegadores compatíveis](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-      + [Alterações na criptografia do TLS (Transport Layer Security)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
-      + [CNAME e Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + Web do lado do cliente: implementação do Target {#client-side}
-      + [Visão geral: implementar o Target para Web no lado do cliente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Tutoriais do SDK da Web da Adobe Experience Platform {#aep-implementation}
-         + [Visão geral do SDK da Web da AEP](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + Implementação da at.js {#at-js-implementation}
-         + Decisão no dispositivo {#on-device-decisioning}
-            + [Visão geral da decisão no dispositivo](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [Recursos compatíveis](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [Artefato de regra](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
-            + [Solução de problemas](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
-         + Como a at.js funciona {#at-js}
-            + [Como a visão geral do at.js funciona](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-            + [Como a at.js gerencia a cintilação](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
-            + [Integrações da at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
-         + Como implantar a at.js {#deploy-at-js}
-            + [Como implantar a at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Implementar o Target usando a Adobe Experience Platform](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-            + [Implementação do Target sem um gerenciador de tags](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Implementar o Target usando o gerenciador dinâmico de tags (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [Implementar o Target para Aplicativos de página única (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-         + Funções da at.js {#functions-overview}
-            + [Visão geral de funções do at.js](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-            + [adobe.target.getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-            + [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-            + [adobe.target.applyOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-            + [adobe.target.applyOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-            + [adobe.target.triggerView() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-            + [adobe.target.trackEvent()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-            + [mboxCreate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
-            + [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
-            + [mboxDefine() e mboxUpdate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
-            + [targetPageParams()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
-            + [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
-            + [registerExtension() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-            + [sendNotifications() - at.js 2.1](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
-            + [Eventos personalizados da at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
-            + [Depuração da at.js usando o depurador da Adobe Experience Cloud](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-            + [Usar instâncias baseadas em nuvem com o Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
-         + Perguntas frequentes sobre at.js {#faq-at-js}
-            + [Perguntas frequentes do at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-         + [Detalhes da versão da at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-         + [Atualização da at.js 1.x para at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
-         + [Cookies do at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-         + [User-agent e Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
-      + Entender a mbox global {#global-mbox}
-         + [Compreender a visão geral da mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-         + [Personalizar uma mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [Usar uma mbox global por meio de uma implementação herdada](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [Envio de parâmetros para uma mbox global](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [Perguntas frequentes sobre a mbox global](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
-   + Target para aplicativos móveis {#mobile-apps}
-      + [Visão geral do Target para aplicativos para dispositivos móveis](c-target-mobile-app/target-mobile-app.md)
-      + [Como o Target funciona em aplicativos móveis](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-      + [Habilitar o Target no SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
-      + [iOS - Criar um local e uma métrica de sucesso para o Target](c-target-mobile-app/mobile-create-location-and-metric.md)
-      + [iOS - Enviar dados do usuário personalizados](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Visualização do Target Mobile](c-target-mobile-app/target-mobile-preview.md)
-      + [Buscar previamente conteúdo da oferta](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target para perguntas frequentes sobre aplicativos para dispositivos móveis](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [Usar serviço de localização](/help/main/c-target-mobile-app/use-location-service.md)
-   + Lado do servidor: implementação do Target {#server-side}
-      + [Lado do servidor: implementar a visão geral do Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Transição de APIs herdadas do Target para o Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-      + [Decisão no dispositivo](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
-   + [Implementação híbrida](/help/main/c-implementing-target/hybrid-implementation.md)
-   + Email: implementação do Target {#implement-email}
-      + [Email: implementação da visão geral do Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
-      + [Criar uma AdBox para uma imagem](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
-      + [Testar uma Adbox de imagem de email](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
-      + [Trabalhar com redirecionadores](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integração do Target à Experience Cloud {#integrate}
    + Adobe Analytics como origem de relatório do Adobe Target (A4T) {#a4t}
       + [Visão geral do A4T](c-integrating-target-with-mac/a4t/a4t.md)
