@@ -4,7 +4,7 @@ description: 'Saiba como implementar atividades do Recommendations no Adobe Targ
 title: Como Implementar As Atividades Do Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 17%
@@ -17,4 +17,4 @@ Antes de começar a utilizar [!DNL Adobe Target Recommendations], você deve con
 
 O [Portal do Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank} contém informações sobre como implementar [!DNL Recommendations] no site, bem como como implementar o [!DNL Target].
 
-Para obter mais informações e instruções passo a passo, consulte [Planejar e implementar o Recommendations](https://developer-stage.adobe.com/target/implement/recommendations/){target=_blank} na *Guia do desenvolvedor do Adobe Target* portal.
+Para obter mais informações e instruções passo a passo, consulte [Planejar e implementar o Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} na *Guia do desenvolvedor do Adobe Target* portal.

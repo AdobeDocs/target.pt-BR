@@ -4,10 +4,10 @@ description: Saiba como usar o Multivariate Testing (MVT) no Adobe [!DNL Target]
 title: O que é um teste multivariado?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -55,7 +55,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 * Use um teste MVT para determinar qual elemento é o mais importante e acompanhe com um teste A/B mais focado nesse elemento.
 
-   Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de executar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois que determinar quais elementos e conteúdos são mais úteis para ajudá-lo a atingir suas metas, você poderá executar um teste A/B para refinar mais os resultados, por exemplo, para testar duas imagens específicas entre si ou comparar o texto ou as cores de uma chamada à ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
+   Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de executar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois de determinar quais elementos e conteúdos são mais úteis para ajudá-lo a atingir suas metas, você pode executar um teste A/B para refinar ainda mais os resultados, por exemplo, para testar duas imagens específicas entre si ou comparar o texto ou as cores de uma chamada para a ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
