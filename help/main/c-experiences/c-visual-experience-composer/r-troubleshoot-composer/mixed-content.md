@@ -1,13 +1,13 @@
 ---
 keywords: conteúdo misto;seguro;inseguro;chrome;solução de problemas;vec;visual experience composer;não seguro;http;https;firefox;internet explorer
-description: Alguns navegadores bloqueiam a exibição de uma página se o conteúdo seguro estiver misturado com conteúdo inseguro. Saiba como ativar conteúdo misto no Chrome, Firefox e Edge.
-title: Como ativar conteúdo misto no meu navegador?
+description: Saiba como ativar conteúdo misto no Chrome, Firefox e Edge. Você pode ativar conteúdo misto quando um navegador bloquear a exibição de uma página porque o conteúdo seguro é misturado com conteúdo inseguro.
+title: Como ativar conteúdo misto no meu navegador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ O conteúdo misto ocorre se a solicitação inicial estiver segura por HTTPS, ma
 
 Navegadores modernos podem bloquear a exibição de uma página ou exibir mensagens de aviso se o conteúdo seguro estiver misturado com conteúdo não seguro.
 
-Uma mensagem de aviso será exibida se o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Target] tentar abrir uma página com conteúdo misto. Esta mensagem informa como desativar o bloqueio no navegador. Desativar o bloqueio permite abrir um site HTTP ou um site que tenha chamadas mistas (HTTPS e HTTP).
+Uma mensagem de aviso será exibida se o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] tentar abrir uma página com conteúdo misto. Esta mensagem informa como desativar o bloqueio no navegador. Desativar o bloqueio permite abrir um site HTTP ou um site que tenha chamadas mistas (HTTPS e HTTP).
 
 ![Aviso de conteúdo misto](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
