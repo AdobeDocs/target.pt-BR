@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -23,10 +23,10 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 Essa versão conta com os seguintes aprimoramentos e correções:
 
 * Usuários com a função de [!UICONTROL Editor] não podem mais editar públicos em atividades ativas. (TGT-43582)
-* Uma mensagem de aviso é exibida se um cliente tentar salvar um público-alvo com um ponto de exclamação ( ! ) como o primeiro caractere do nome do público-alvo (por exemplo !Londres). (TGT-43643)
-* Correção de um problema que fazia com que os cartões de detalhes da definição de públicos-alvo para alguns clientes indicassem que uma atividade finalizada ainda estava ativa. (TGT-43527)
+* Uma mensagem de aviso é exibida se um cliente tentar salvar um público-alvo com um ponto de exclamação (! ) como o primeiro caractere do nome do público-alvo (por exemplo, !Londres). (TGT-43643)
+* Correção de um problema que fazia com que os cartões de detalhes da definição de públicos-alvo de alguns clientes indicassem que uma atividade finalizada ainda estava ativa. (TGT-43527)
 
-## [!DNL Target Standard/Premium] 2.6.1 (versão escalonada: (7 a 9 de junho de 2022)
+## [!DNL Target Standard/Premium] 22.6.1 (versão escalonada: 7 a 9 de junho de 2022)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
