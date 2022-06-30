@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
@@ -18,9 +18,14 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 22.6.2 (24 de junho de 2022)
+## [!DNL Target Standard/Premium] 22.6.2 (30 de junho de 2022)
 
-Essa versão conta com os seguintes aprimoramentos e correções:
+Esta versão contém os seguintes recursos, aprimoramentos e correções:
+
+| Recurso | Descrição |
+| --- | ---  |
+| Notificações no produto | Obtenha as seguintes notificações relevantes no produto:<ul><li>**Atividades**: Notificações para todos os tipos de atividade quando uma atividade é aprovada ou desativada, manualmente ou quando atinge sua data inicial ou final. A notificação inclui o nome da atividade com um link para a página de visão geral da atividade.</li><li>**Scripts de perfil** Notificações quando um script de perfil é ativado ou desativado manualmente ou pelo Target.</li><li>**Feeds do Recommendations**: Notificações quando um feed do Recommendations é ativado ou desativado manualmente ou pelo Target. As notificações também são enviadas quando um feed do Recommendations falha.</li></ul> Por padrão, as notificações são recebidas por administradores de produtos, editores e aprovadores. As notificações podem ser configuradas dentro das preferências do Experience Cloud.<br>Para obter mais informações, consulte [Notificações e anúncios](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
+| *Guia do desenvolvedor do Adobe Target* | O *Guia do desenvolvedor do Adobe Target* consolida tudo [!DNL Target] conteúdo para desenvolvedores em um guia conveniente. O guia inclui informações sobre a implementação [!DNL Target] e [!DNL Recommendations], [!DNL Target] SDKs e [!DNL Target] APIs.<br>Para obter mais informações, consulte [Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
 
 * Usuários com a função de [!UICONTROL Editor] não podem mais editar públicos em atividades ativas. (TGT-43582)
 * Uma mensagem de aviso é exibida se um cliente tentar salvar um público-alvo com um ponto de exclamação (! ) como o primeiro caractere do nome do público-alvo (por exemplo, !Londres). (TGT-43643)

@@ -4,41 +4,53 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 88%
+source-wordcount: '1334'
+ht-degree: 95%
 
 ---
 
 # Anúncios e eventos do Target
 
-Anúncios e informações sobre o futuro [!DNL Adobe Target] , incluindo [!DNL Target] Sessões de café, [!DNL Target] série de webinars, [!DNL Target] Sessões do Skill Builder, chats do desenvolvedor e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
-
-## Quebra de café da Comunidade Adobe Target (29 de junho de 2022)
-
-+++Clique
-
-* **quarta-feira, 29 de junho de 2022**
-* **8:00 às 9:00 (PDT, UTC-7)**
-* **[Mais informações e detalhes de inscrição](https://adobe.ly/3wKhcQS) {target=_blank}**
-
-Nós seremos unidos por Jordan Ison, Kati McKinney, Justine Lee e Kaela Cusack da equipe de Consultoria de Adobe Solutions, para conversar diretamente com você sobre suas áreas de conhecimento. Eles também responderão a quaisquer perguntas relacionadas a tópicos abordados durante a personalização de 22/6 com Precisão: Webinar do Adobe Analytics &amp; Target (mais informações abaixo):
-
-* Como profissionais de marketing, desenvolvedores e equipes de produtos podem abrir a “caixa preta” da IA para impulsionar testes e estratégias de personalização futuras
-* Como superar desafios na otimização da Web, do aplicativo móvel, do email, da IoT e de cada ponto de contato digital para maior conversão e envolvimento
-* Fluxos de trabalho do Adobe Analytics e Adobe Target para personalização, direcionamento e teste
-* Entendendo os casos de uso para desbloquear quais atributos preveem o comportamento do visitante e quais atributos são mais importantes para as principais visualizações e análise de segmentação
-
-+++
+Anúncios e informações sobre eventos futuros do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de Skill Builder do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Adobe Target] para atingir suas metas de personalização e otimização:
 
+### Adobe: Personalization Industry Insider - Varejo (11 de agosto de 2022)
+
+O ano de 2022 proporcionou às empresas um ambiente dinâmico e em rápida mudança para funcionar e operar. Saiba como especialistas do setor estão vendo as novas tendências dos consumidores tomar forma enquanto a vida começa a voltar ao normal para quem trabalha e viaja.
+
++++Clique
+
+* **Terça-feira, 21 de junho de 2022**
+* **13h às 14h (EDT, UTC-4)**
+* **[Mais informações e detalhes de inscrição](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
+
+Junte-se a Michael Klein (Diretor, Estratégia do setor de varejo) e Leina Betzer (Consultora do Target, Adobe Premier Support) para discutir como as vendas de comércio eletrônico de varejo estão disparando à medida que os padrões e comportamentos de compra do consumidor mudam, com maior demanda por bens e serviços em certos mercados.
++++
+
+### Série de webinários planejada
+
+As seguintes séries de webinários estão planejadas para um futuro próximo:
+
+* Interceptores do setor: Personalization Industry Insider: Viagem e Hospitalidade
+* Interceptores do setor: Personalization Industry Insider: Mídia e entretenimento
+* Construtores de habilidades: Usuários novos e Premium/Gerentes de produtos, Desenvolvedores de dispositivos móveis, Profissionais de marketing, Analistas, Usuários empresariais
+
+Fique atento às datas e informações de registro na [Comunidade Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt){target=_blank}.
+
+## Gravações de webinários antigos e sessões do construtor de habilidades
+
+Acesse gravações de eventos anteriores:
+
 ### Adobe: Personalização com precisão - [!DNL Adobe Analytics] e [!DNL Target] (2 de junho de 2022)
 
 Saiba como a Inteligência artificial continua redefinindo as expectativas do consumidor, à medida que modelos de aprendizado de máquina e insights de dados abrem novas portas para comerciantes, desenvolvedores e proprietários de produtos, para envolver os consumidores com experiências personalizadas importantes. Faça um tour passo a passo pelos fluxos de trabalho do [!DNL Adobe Analytics] + [!DNL Adobe Target] para personalização, direcionamento e teste.
+
+* [Link da gravação](https://analytics.dxfieldmarketing.adobeevents.com/) {target=_blank}
 
 +++Clique
 
@@ -59,6 +71,8 @@ Junte-se a Jordan Ison (Consultor-especialista em soluções na [!DNL Adobe]) pa
 
 Saiba mais sobre as práticas recomendadas de como se tornar um “banco de relacionamento” para aumentar a fidelidade da marca. Descubra como impulsionar pessoas e processos para criar e dimensionar programas de personalização bem-sucedidos.
 
+* [Link da gravação](https://zero-to-hero.dxfieldmarketing.adobeevents.com/) {target=_blank}
+
 +++Clique
 
 * **Quinta-feira, 9 de junho de 2022**
@@ -71,6 +85,8 @@ Junte-se a Heather Adkins (Vice-presidente sênior de tecnologia de marketing) p
 ### Adobe: Descubra as oportunidades de otimização de alto impacto (16 de junho de 2022)
 
 À medida que entramos no novo normal, que é mais digital do que nunca, é fundamental que as organizações aproveitem todas as oportunidades para oferecer experiências digitais excepcionais. O suficiente já não é muito bom. São necessárias grandes experiências para se manter competitivo.
+
+* [Link da gravação](https://optimization.dxfieldmarketing.adobeevents.com/) {target=_blank}
 
 +++Clique
 
@@ -86,23 +102,6 @@ Junte-se a Kaitlin White (Gerente de marketing de produto da Adobe) enquanto com
 * E muitas outras ideias para ajudar você a descobrir oportunidades de alto impacto em sua organização
 
 +++
-
-### Adobe: Insider do setor de personalização - Varejo (21 de junho de 2022)
-
-O ano de 2022 proporcionou às empresas um ambiente dinâmico e em rápida mudança para funcionar e operar. Saiba como especialistas do setor estão vendo novas tendências de consumidores tomar forma enquanto a vida começa a voltar ao normal para trabalhadores e viajantes. 
-
-+++Clique
-
-* **Terça-feira, 21 de junho de 2022**
-* **13h às 14h (EDT, UTC-4)**
-* **[Mais informações e detalhes de inscrição](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
-
-Junte-se a Michael Klein (Diretor, Estratégia do setor de varejo) e Leina Betzer (Consultora do Target, Adobe Premier Support) para discutir como as vendas de comércio eletrônico de varejo estão disparando à medida que os padrões e comportamentos de compra do consumidor mudam, com maior demanda por bens e serviços em certos mercados.
-+++
-
-## Gravações de webinários antigos e sessões do construtor de habilidades
-
-Acesse gravações de eventos anteriores:
 
 ### Dick&#39;s Sporting Goods: personalização e a mudança no cenário de varejo (19 de maio de 2022)
 
@@ -168,7 +167,7 @@ Nesta sessão, saiba como o [!DNL Adobe Target] elimina a lacuna na combinação
 
 +++
 
-### Webinário: personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
+### Webinário: Personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 
 [Link da gravação](https://video.tv.adobe.com/v/328148) {target=_blank}
 
@@ -181,7 +180,7 @@ Neste webinário gravado, os especialistas em produtos do Adobe Target discutem 
 
 ### Webinário: Como o HSBC usa o Adobe [!DNL Target] e IA para otimizar rapidamente e fornecer personalização em escala
 
-* **[Link de gravação](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[Link da gravação](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 +++Clique
 
@@ -200,7 +199,7 @@ Participe deste webinário com a Adobe e o HSBC para aprender:
 
 ### Adobe [!DNL Target] Skill Builder: bate-papo com o desenvolvedor, migre da mbox.js do Adobe [!DNL Target] para a at.js {#skill-builder}
 
-Com a descontinuação da mbox.js em 31 de março de 2021, David Son, gerente de produto do Adobe Target, recentemente participou de um bate-papo com desenvolvedores para discutir os benefícios da migração da mbox.js para a at.js.
+Com a descontinuação da mbox.js em 31 de março de 2021, David Son, gerente de produtos do Adobe Target, recentemente participou de um bate-papo com desenvolvedores para discutir os benefícios da migração da mbox.js para a at.js.
 
-* **[Link de gravação](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[Link da gravação](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
 

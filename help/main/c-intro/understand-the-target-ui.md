@@ -4,7 +4,7 @@ description: Familiarize-se com a interface do usuário e encontre links para in
 title: Como faço para usar a interface do [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 45%
@@ -41,7 +41,7 @@ O ícone Ajuda permite acessar informações, vídeos, blogs e muito mais para a
 
 ![Ajuda ](/help/main/c-intro/assets/help.png)
 
-## Notificações e anúncios
+## Notificações e anúncios {#notifications-announcements}
 
 Os painéis [!UICONTROL Notificações] e [!UICONTROL Anúncios] ajudam a manter você atualizado sobre tudo do [!DNL Adobe Target]. As notificações proativas ajudam a manter você informado sobre o status da [!DNL Adobe Experience Cloud] soluções e [!DNL Target] eventos. As notificações proativas alertam você sobre eventos de interrupção e manutenção.
 
