@@ -1,13 +1,13 @@
 ---
 keywords: conteúdo misto;seguro;inseguro;chrome;solução de problemas;vec;visual experience composer;não seguro;http;https;firefox;internet explorer
-description: Saiba como ativar conteúdo misto no Chrome, Firefox e Edge. Você pode ativar conteúdo misto quando um navegador bloquear a exibição de uma página porque o conteúdo seguro é misturado com conteúdo inseguro.
-title: Como ativar conteúdo misto no meu navegador
+description: Saiba como habilitar conteúdo misto no Chrome, Firefox e Edge. Você pode habilitar conteúdo misto quando um navegador bloquear a exibição de uma página porque há conteúdo seguro misturado com conteúdo inseguro.
+title: Como habilitar conteúdo misto no meu navegador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
