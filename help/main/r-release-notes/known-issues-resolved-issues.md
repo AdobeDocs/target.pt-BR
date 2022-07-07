@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre problemas conhecidos e problemas
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Quando uma métrica de sucesso é definida para incrementação a cada impressã
 
 ### Analytics for [!DNL Target] (A4T)
 
-Ao usar impressões e conversões de atividades do Target no Analysis Workspace, aplique o modelo do Attribution IQ &quot;Mesmo toque&quot; às métricas para garantir uma contagem precisa. Para aplicar um [modelo de atribuição não padrão](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=pt-BR#cja-workspace), clique com o botão direito do mouse na métrica para **modificar Configurações de coluna > habilitar Usar modelo de atribuição não padrão > selecione Modelo de mesmo toque**. Sem esse modelo aplicado, as métricas são sobrescritas.
+Ao usar impressões e conversões de atividades do Target no Analysis Workspace, aplique o modelo do Attribution IQ &quot;Mesmo toque&quot; às métricas para garantir uma contagem precisa. Para aplicar um [modelo de atribuição não padrão](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=pt-BR), clique com o botão direito do mouse na métrica para **modificar Configurações de coluna > habilitar Usar modelo de atribuição não padrão > selecione Modelo de mesmo toque**. Sem esse modelo aplicado, as métricas são sobrescritas.
 
 Todos os pacotes atuais do Analytics podem adicionar esse modelo com o Attribution IQ. Se você não tiver acesso ao Attribution IQ, confie nos dados do A4T no Reports &amp; Analytics.
 
@@ -135,11 +135,11 @@ Conforme os problemas conhecidos acima são resolvidos, eles são movidos para a
 
    Como alternativa, use um espaço em branco no conteúdo da experiência.
 
-   Uma correção para esse problema foi incluída no at.js 2.2.0. Atualize para o [versão mais recente ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} ou usar a solução alternativa mencionada acima apenas para as versões da at.js anteriores à 2.2.0.  (TNT-33366)
+   Uma correção para esse problema foi incluída na at.js 2.2.0. Atualize para a [versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} ou use a solução alternativa mencionada acima apenas para versões da at.js anteriores a 2.2.0.  (TNT-33366)
 
 * Ao usar as versões do at.js anteriores a 2.2.0, o rastreamento de cliques não relata conversões no [!UICONTROL Analytics for Target] (A4T) se o código do [!DNL Adobe Analytics] não estiver presente nos elementos da página (como botões).
 
-   Uma correção foi introduzida para esse problema na at.js 2.2.0. [Atualize para a versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} se você tiver esse problema.
+   Uma correção foi introduzida para esse problema na at.js 2.2.0. [Atualize para a versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} se encontrar esse problema.
 
 ### Geolocalização
 
@@ -438,7 +438,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 
