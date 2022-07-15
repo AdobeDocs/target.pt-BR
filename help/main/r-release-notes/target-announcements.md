@@ -5,9 +5,9 @@ title: Onde posso encontrar anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ Anúncios e informações sobre eventos futuros do [!DNL Adobe Target], incluind
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Adobe Target] para atingir suas metas de personalização e otimização:
 
-### Adobe: Personalization Industry Insider - Varejo (11 de agosto de 2022)
+### Adobe: Insider do setor de personalização - Varejo (11 de agosto de 2022)
 
 O ano de 2022 proporcionou às empresas um ambiente dinâmico e em rápida mudança para funcionar e operar. Saiba como especialistas do setor estão vendo as novas tendências dos consumidores tomar forma enquanto a vida começa a voltar ao normal para quem trabalha e viaja.
 
 +++Clique
 
-* **quinta-feira, 11 de agosto de 2022**
+* **Quinta-feira, 11 de agosto de 2022**
 * **13h às 14h (EDT, UTC-4)**
 * **[Mais informações e detalhes de inscrição](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
@@ -36,11 +36,11 @@ Junte-se a Michael Klein (Diretor, Estratégia do setor de varejo) e Leina Betze
 
 As seguintes séries de webinários estão planejadas para um futuro próximo:
 
-* Interceptores do setor: Personalization Industry Insider: Viagem e Hospitalidade
-* Interceptores do setor: Personalization Industry Insider: Mídia e entretenimento
-* Construtores de habilidades: Usuários novos e Premium/Gerentes de produtos, Desenvolvedores de dispositivos móveis, Profissionais de marketing, Analistas, Usuários empresariais
+* Insiders do setor: Insider do setor de personalização: Viagem e hospitalidade
+* Insiders do setor: Insider do setor de personalização: Mídia e entretenimento
+* Construtores de habilidades: usuários novos e premium/gerentes de produtos, desenvolvedores de dispositivos móveis, profissionais de marketing, analistas, usuários empresariais
 
-Fique atento às datas e informações de registro na [Comunidade Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt){target=_blank}.
+Fique atento às datas e informações de registro na [Comunidade do Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt){target=_blank}.
 
 ## Gravações de webinários antigos e sessões do construtor de habilidades
 
