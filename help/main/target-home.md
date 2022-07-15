@@ -5,9 +5,9 @@ description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experi�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 - Integrar o Target à Adobe Experience Cloud: explica como integrar o [!DNL Target] a outras soluções da [!DNL Experience Cloud], como o [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) e [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [Tutoriais do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR): fornece tutoriais e vídeos para ajudar você a aproveitar o Target ao máximo.
 - [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md): fornece links para as informações de solução de problemas contidas neste guia, incluindo informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, perfis, valores, parâmetros e assim por diante) que afetam as atividades e outros elementos no [!DNL Target].
-- [Target para aplicativos móveis](https://developer.adobe.com/target/implement/mobile/){target=_blank}: Explica como [!DNL Target] O pode ser usado para otimização e personalização de aplicativos móveis.
-- [Recursos e informações de contato](cmp-resources-and-contact-information.md): fornece informações sobre recursos adicionais para ajudar você a saber mais sobre os recursos do [!DNL Target] e como entrar em contato com [!DNL Adobe] caso você precise de ajuda.
+- [Target para aplicativos móveis](https://developer.adobe.com/target/implement/mobile/){target=_blank}: explica como o [!DNL Target] pode ser usado para otimização e personalização de aplicativos móveis.
+- [Recursos e informações de contato](cmp-resources-and-contact-information.md): fornece informações sobre recursos adicionais para ajudar você a saber mais sobre os recursos do [!DNL Target] e como entrar em contato com a [!DNL Adobe] caso você precise de ajuda.
 
 ## Profissionais de marketing {#marketers}
 
@@ -49,7 +49,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 ## Desenvolvedores  {#developers}
 
-- [Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}: Este portal fornece recursos e guias para [!DNL Adobe Target] desenvolvedores, incluindo documentação de API e SDK para implementar [!DNL Target].
+- [Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}: este portal fornece recursos e guias para desenvolvedores do [!DNL Adobe Target], incluindo a documentação de API e SDK para implementação do [!DNL Target].
 
 ## Administradores do Target e da Adobe Experience Cloud {#admins}
 
