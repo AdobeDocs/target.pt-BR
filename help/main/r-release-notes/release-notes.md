@@ -6,9 +6,9 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target] versão da plataforma (20 de julho de 2022)
+## Versão da plataforma do [!DNL Target] (20 de julho de 2022)
 
 Essa versão conta com os seguintes recursos, aprimoramentos e correções:
 
 | Recurso | Descrição |
 | --- | --- |
-| Melhoria na precisão da avaliação do público-alvo e redução da latência do usuário final por meio do suporte a IPv6 (TNT-43364, TNT-44692) | As localizações geográficas dos visitantes agora são determinadas por endereços IPv6, se disponíveis, em vez de somente endereços IPv4. As APIs de entrega também suportam parâmetros de entrada IPv6. A filtragem e a lista de permissões são compatíveis com endereços IPv4 e IPv6. O suporte a IPv6 nesta versão significa que os visitantes serão incluídos com mais precisão nos públicos-alvo (qualificados para atividades com mais precisão ou incluídos nos critérios de filtragem). Também melhora a latência de dados, já que os clientes IPv6 rotearão diretamente, evitando a sobrecarga do gateway IPv6 para IPv4. |
-| Correção de um problema de manipulação de carga do lado do cliente do A4T (TNT-44926) | Com a integração do lado do servidor A4T, se o Adobe Target identificar uma solicitação como proveniente de um bot, ela não encaminhará a carga para o Analytics e não haverá um evento mod_stats gravado na variável [!DNL Target] logs. Com esta versão, o registro do lado do cliente A4T foi aprimorado para que o comportamento relacionado à carga do A4T seja o mesmo que com o lado do servidor A4T: Os visitantes identificados como bots são excluídos do [!DNL Target] contagem/relatório. (Observe que o problema em questão se limitava a implementações que usavam o gerenciamento de carga do lado do cliente; o lado do servidor não foi afetado. Com esta versão, o comportamento agora é consistente para o gerenciamento de carga do lado do servidor e do lado do cliente.) |
+| Melhoria na precisão da avaliação de público-alvo e redução da latência do usuário final por meio da compatibilidade com IPv6 (TNT-43364, TNT-44692) | As localizações geográficas dos visitantes agora são determinadas por endereços IPv6, se disponíveis, em vez de somente endereços IPv4. As APIs de entrega também são compatíveis com parâmetros de entrada IPv6. A filtragem e a lista de permissões são compatíveis com endereços IPv4 e IPv6. A compatibilidade com IPv6 nesta versão significa que os visitantes serão incluídos com maior precisão nos públicos-alvo (qualificados para atividades com maior precisão ou incluídos nos critérios de filtragem). Ela também melhora a latência de dados, já que os clientes IPv6 rotearão diretamente, evitando a sobrecarga do gateway IPv6 para IPv4. |
+| Correção de um problema de manipulação de conteúdo do lado do cliente no A4T (TNT-44926) | Com a integração no lado do servidor do A4T, ao identificar uma solicitação como proveniente de um bot, o Adobe Target não encaminhará o conteúdo para o Analytics e não haverá a gravação de um evento mod_stats nos logs do [!DNL Target]. Com esta versão, o registro no lado do cliente do A4T foi aprimorado para que o comportamento relacionado ao conteúdo do A4T seja o mesmo do lado do servidor: os visitantes identificados como bots são excluídos da contagem/relatório do [!DNL Target]. (Observe que o problema em questão se limitava a implementações que usavam o gerenciamento de conteúdo do lado do cliente; o lado do servidor não foi afetado. Com esta versão, o comportamento agora é consistente para o gerenciamento de conteúdo do lado do servidor e do lado do cliente.) |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30 de junho de 2022)
 
@@ -69,7 +69,7 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 | Recurso | Detalhes |
 |--- |--- |
-| [Notas de versão: SDK da Web da Platform Experience do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR) | Detalhes sobre alterações em cada versão do SDK da Web da plataforma. |
+| [Notas de versão: SDK da Web da Platform Experience do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR) | Detalhes sobre alterações em cada versão do SDK da Web da Platform. |
 | [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do [!DNL Adobe Target]. |
 
 ## Alterações na documentação, notas de versão anteriores e notas de versão da Experience Cloud
