@@ -4,9 +4,9 @@ description: Saiba como usar [!DNL Adobe Experience Manager] fragmentos de exper
 title: Como usar [!DNL Adobe Experience Manager] (AEM) Fragmentos de experiência?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 52%
 
 ---
@@ -90,7 +90,7 @@ Depois de executar as tarefas anteriores, o fragmento de experiência é exibido
 >
 >* No [!DNL Target] momento, o procura fragmentos de experiência a cada dez minutos. O fragmento de experiência importado deve estar disponível no [!DNL Target] dentro de dez minutos, mas esse intervalo de tempo deve ficar mais curto no futuro.
 >
->* O fragmento de experiência é importado para [!DNL Target] como uma oferta de HTML. Essa versão &quot;primária&quot; do fragmento de experiência permanece em [!DNL AEM]. Você não pode editar o fragmento de experiência no [!DNL Target].
+>* O fragmento de experiência é importado para [!DNL Target] como HTML ou oferta JSON. Essa versão &quot;primária&quot; do fragmento de experiência permanece em [!DNL AEM]. Você não pode editar o fragmento de experiência no [!DNL Target].
 
 
 Você pode passar o mouse sobre um fragmento de experiência na lista e, depois, clicar no ícone [!UICONTROL Exibir] ![ícone Exibir](assets/icon_info.png) para ver informações adicionais sobre o fragmento de experiência, incluindo o URL de entrega de oferta pública e o caminho do [!DNL AEM].
@@ -104,10 +104,6 @@ Você pode consumir fragmentos de experiência em atividades do [!DNL Target] us
 >Fragmentos de experiência não são suportados em [!DNL Recommendations] atividades. No entanto, para usar fragmentos de experiência para recomendações, você pode criar um [!UICONTROL Teste A/B] atividade (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) ou [!UICONTROL Direcionamento de experiência] (XT) e [incluir recomendações como uma oferta](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **Para consumir fragmentos de experiência usando o VEC:**
-
->[!NOTE]
->
->Fragmentos de experiência exportados como JSON em [!DNL Target] não pode ser usado em atividades criadas usando o VEC; somente os fragmentos de experiência do HTML são suportados em atividades baseadas no VEC. Se quiser usar fragmentos de experiência JSON, use-os em atividades criadas usando o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 
 1. No [!DNL Target], ao criar ou editar uma experiência no [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), clique no local da página onde deseja inserir o conteúdo do [!DNL AEM], em seguida, selecione a opção desejada para exibir a lista [!UICONTROL Escolher um fragmento de experiência].
 
@@ -135,6 +131,10 @@ Você pode consumir fragmentos de experiência em atividades do [!DNL Target] us
    * **Direcionamento de experiência (XT):** [criar uma atividade de direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Teste multivariado (MVT):** [criar um teste multivariado](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendations:** [criar uma atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>Fragmentos de experiência exportados como JSON em [!DNL Target] não pode ser usado em atividades criadas usando o VEC; somente os fragmentos de experiência do HTML são suportados em atividades baseadas no VEC. Se quiser usar fragmentos de experiência JSON, use-os em atividades criadas usando o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 
 **Para consumir fragmentos de experiência usando o Experience Composer baseado em formulário:**
 
