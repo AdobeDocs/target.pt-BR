@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: ht
-source-wordcount: '4524'
-ht-degree: 100%
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+workflow-type: tm+mt
+source-wordcount: '4651'
+ht-degree: 97%
 
 ---
 
@@ -209,6 +209,12 @@ Para sincronizar novamente e corrigir seus relatórios:
 1. Exclua as atividades originais (afetadas).
 
 (TGT-38522, CSO 20201006007)
+
+### Indicador de disponibilidade do modelo de Direcionamento automático e Automated Personalization {#at-ap-model}
+
+A funcionalidade de Disponibilidade do modelo para atividades de Direcionamento automático e Automated Personalization falhou intermitentemente de 1 de junho de 2022 a 19 de julho de 2022. Isso significa que a interface do usuário de relatórios do Target pode não ter mostrado uma marca de seleção verde indicando que um modelo foi criado com êxito, mesmo que as experiências ou ofertas estivessem sendo fornecidas de forma personalizada em atividades de Direcionamento automático ou Automated Personalization.
+
+Observe que **construção de modelo personalizado** não foi afetada e os modelos foram construídos com êxito durante todo o período. Somente o sistema de disponibilidade do modelo foi afetado por esse erro. **Os dados de relatório também não foram afetados**. Em outras palavras, o desempenho (visitas, conversões e taxas de conversão) das experiências e ofertas não foi afetado. Somente a marca de verificação verde que indica disponibilidade personalizada do modelo pode ter falhado ao aparecer.
 
 ### Relatório {#conversions-audiences}
 
@@ -438,7 +444,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 
