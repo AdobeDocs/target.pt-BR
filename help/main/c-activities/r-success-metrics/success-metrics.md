@@ -4,9 +4,9 @@ description: Saiba mais sobre as métricas de sucesso no Adobe [!DNL Target] que
 title: O que são métricas de sucesso?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 44%
 
 ---
@@ -27,7 +27,7 @@ Métricas de receita definidas como &quot;[!UICONTROL Incrementar a contagem e m
 
 >[!NOTE]
 >
->Para atividades que usam [Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) a métrica de meta sempre usará o &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Isso é *not* configurável.
+>Para atividades que usam [Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), a métrica de meta sempre usará o &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Isso é *not* configurável.
 
 As seguintes métricas estão disponíveis:
 
@@ -75,7 +75,7 @@ Por exemplo, uma conversão de teste só pode ser válida se o visitante clica n
 
 A funcionalidade de dependência é *not* suportado pelo seguinte:
 
-* [!UICONTROL Atividades do Recommendations. ] Esta funcionalidade é compatível com todos os outros tipos de atividade.
+* Atividades do [!UICONTROL Recommendations. ] Esta funcionalidade é compatível com todos os outros tipos de atividade.
 * Se você usar [Analytics como sua fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * O tipo de métrica “Visualizou uma página”.
 * O tipo de métrica “Clicou em um elemento” para as atividades do Visual Experience Composer (VEC).
