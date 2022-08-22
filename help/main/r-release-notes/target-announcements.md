@@ -4,9 +4,9 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner nomeou [!DNL Adobe Target] um líder no último Quadrante Mágico para M
 
 Para obter mais informações, consulte o [Publicação no blog do Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Quebra de café de Perguntas e Respostas da Comunidade
+## [!DNL Adobe Target] Pausa do café comunitário em perguntas e respostas (31 de agosto de 2022)
 
 * **Quarta-feira, 31 de agosto de 2022**
 * **Das 9h às 10h (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Vamos explorar ideias sobre:
 * Criar experiências hiper-personalizadas
 +++
 
-## [!DNL Adobe Target] Construtores de habilidades - Otimização da experiência móvel (6 de setembro de 2022)
+### [!DNL Adobe Target] Construtores de habilidades - Otimização da experiência móvel (6 de setembro de 2022)
 
 As experiências móveis estão promovendo a inovação em como as equipes de marketing e engenharia estão aproveitando estratégias lideradas por produtos para personalização entre canais na Web e no aplicativo. Associe-se à [!DNL Adobe] Sessão Skill Builder e saiba como [!DNL Adobe Target] O desbloqueia o novo potencial de envolvimento e crescimento da receita para profissionais de marketing, desenvolvedores e proprietários de produtos para criar comunidades de produtos prósperas.
 
@@ -70,7 +70,7 @@ As experiências móveis estão promovendo a inovação em como as equipes de ma
 
 +++
 
-## [!DNL Adobe Target] Construtores de habilidades - Personalização orientada por IA e Recommendations (15 de setembro de 2022)
+### [!DNL Adobe Target] Construtores de habilidades - Personalização orientada por IA e Recommendations (15 de setembro de 2022)
 
 A automação em experimentação e personalização continua a impulsionar as mais altas conversões e ROI para equipes de marketing, engenharia e produtos. Associe-se à [!DNL Adobe] Sessão Skill Builder e saiba como usar [!DNL Adobe Target] casos de uso avançados orientados por IA e recursos com recomendações de produto e conteúdo para manter-se à frente da concorrência e ganhar todas as experiências.
 
