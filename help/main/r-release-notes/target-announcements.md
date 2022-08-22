@@ -4,18 +4,18 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1877'
 ht-degree: 70%
 
 ---
 
-# Anúncios e eventos do Target
+# [!DNL Adobe Target] anúncios e eventos
 
 Anúncios e informações sobre eventos futuros do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de Skill Builder do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
 
-## Líder nomeado do Gartner Magic Quadrant for Personalization Engines (2022)
+## [!DNL Target] líder nomeado no Gartner Magic Quadrant for Personalization Engines (2022)
 
 Gartner nomeou [!DNL Adobe Target] um líder no último Quadrante Mágico para Mecanismos de Personalização (PE) pelo quinto ano consecutivo. [!DNL Adobe] também recebeu as pontuações principais e aumentos significativos de ano a ano em todos os três casos de uso principais: Marketing digital, comércio digital e serviço e suporte. [!DNL Target] também recebeu as pontuações mais altas para nossos recursos de teste entre todos os fornecedores avaliados.
 
