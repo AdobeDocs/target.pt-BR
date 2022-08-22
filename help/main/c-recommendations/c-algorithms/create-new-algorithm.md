@@ -4,10 +4,10 @@ description: Saiba como criar critérios que controlam o conteúdo de suas ativi
 title: Como criar critérios no Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
-source-wordcount: '2832'
-ht-degree: 53%
+source-wordcount: '2835'
+ht-degree: 52%
 
 ---
 
@@ -170,10 +170,6 @@ Para obter mais informações sobre a escolha de um [!UICONTROL Chave de recomen
 
    Para obter mais detalhes, consulte  [Especificar regras de inclusão](#inclusion) abaixo.
 
-1. (Opcional) Deslize o **[!UICONTROL Recomendar itens comprados anteriormente]** alterne para a posição &quot;ativada&quot;.
-
-   Esta configuração é baseada no `productPurchasedId`. O comportamento padrão é não recomendar itens comprados anteriormente. Na maioria dos casos, você não deseja promover itens que um cliente comprou recentemente. Ela é útil se você vende itens que pessoas geralmente compram apenas uma vez, como caiaques. Se você vende itens que as pessoas voltam para comprar novamente repetidamente, como xampu ou outros itens pessoais, você deve habilitar essa opção.
-
 ## Similaridade de conteúdo {#similarity}
 
 Use as regras de [!UICONTROL Similaridade de conteúdo] para fazer recomendações baseadas em atributos de item ou mídia.
@@ -219,6 +215,10 @@ Opções de regras de inclusão variam pelo negócio vertical. Por padrão, regr
 Regras de inclusão são unidas por um E. Todas as regras devem ser cumpridas para incluir um item em uma recomendação.
 
 Para criar uma regra de inclusão simples, como mencionado anteriormente, para exibir apenas sapatos femininos que tenham um inventário de mais de 50 e o preço entre $ 25 e $ 45, siga os seguintes passos:
+
+1. (Condicional) Deslize o **[!UICONTROL Permitir que itens adquiridos recentemente sejam recomendados?]** alterne para a posição &quot;ativada&quot;.
+
+   Esta configuração é baseada no `productPurchasedId`. O comportamento padrão é não recomendar itens comprados anteriormente. Na maioria dos casos, você não deseja promover itens que um cliente comprou recentemente. Ela é útil se você vende itens que pessoas geralmente compram apenas uma vez, como caiaques. Se você vende itens que as pessoas voltam para comprar novamente repetidamente, como xampu ou outros itens pessoais, você deve habilitar essa opção.
 
 1. Defina um intervalo de preço para os produtos que deseja recomendar.
 1. Defina o inventário mínimo para os produtos que deseja recomendar.
