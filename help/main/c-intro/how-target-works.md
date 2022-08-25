@@ -1,34 +1,37 @@
 ---
 keywords: Adobe Experience Platform Web SDK;sdk web aep;sdk aep;otimização de mecanismo de pesquisa;otimização de mecanismo de pesquisa;seo;clusters de borda, clusters centrais;at.js;mbox.js;
-description: Saiba como o Adobe  [!DNL Target]  funciona, incluindo informações sobre as bibliotecas de JavaScript do  [!DNL Target]  (at.js e AEP Web SDK), os data centers da Adobe e os testes de SEO.
+description: Saiba como [!DNL Adobe Target] O funciona, incluindo informações sobre bibliotecas JavaScript (AEP Web SDK at.js), data centers do Adobe, testes de SEO e bots.
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2571'
-ht-degree: 100%
+source-git-commit: 0d00315b7460a36aceaa4d4d0ce4bb5402824c73
+workflow-type: tm+mt
+source-wordcount: '2568'
+ht-degree: 80%
 
 ---
 
-# Como o Adobe [!DNL Target] funciona
+# How [!DNL Adobe Target] obras
 
-Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre o [!DNL Adobe Experience Platform Web SDK] e as bibliotecas do JavaScript (at.js e mbox.js). Este artigo também apresenta os vários tipos de atividades que você pode criar usando o [!DNL Target]. Você também pode saber mais sobre a rede de borda do [!DNL Target], a Otimização do mecanismo de pesquisa (SEO) e como o [!DNL Target] detecta bots.
+Saiba como [!DNL Adobe Target] O funciona, incluindo informações sobre as bibliotecas JavaScript ([!DNL Adobe Experience Platform Web SDK] e at.js). Este artigo também apresenta os vários tipos de atividades que você pode criar usando [!DNL Target]. Você também pode saber mais sobre a rede de borda do [!DNL Target], a Otimização do mecanismo de pesquisa (SEO) e como o [!DNL Target] detecta bots.
 
-## [!DNL Target] SDKs da Web da plataforma do e bibliotecas de JavaScript {#libraries}
+## [!DNL Adobe Target] Bibliotecas de JavaScript {#libraries}
 
-[!DNL Target] integra-se a sites usando as bibliotecas do [!DNL Experience Platform Web SDK] ou do JavaScript:
+[!DNL Target] integra-se aos sites usando o [!DNL Experience Platform Web SDK] ou at.js:
 
-* **SDK da Web da Adobe Experience Platform**: o [SDK da Web da Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} é uma nova biblioteca JavaScript do lado do cliente. O SDK da Web da Experience Platform permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]){target=_blank} por meio da rede de borda da [!DNL Experience Platform]. O Adobe recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
-* **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. A Adobe recomenda que todos os clientes que usam a at.js atualizem suas implementações para a [versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
-* **mbox.js:** A biblioteca mbox.js é a biblioteca de implementação legada do [!DNL Target]. Não ha mais suporte para a biblioteca mbox.js após 31 de março de 2021.
+* **[!DNL Adobe Experience Platform Web SDK]:** O [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} é uma nova biblioteca de JavaScript do lado do cliente. O [!DNL Experience Platform Web SDK] permite que os clientes de [!DNL Adobe Experience Cloud] interagir com os vários serviços na [!DNL Experience Cloud] (incluindo [!DNL Target]) através da [!DNL Experience Platform] Edge Network. [!DNL Adobe]O recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. [!DNL Adobe]A recomenda que todos os clientes que usam a at.js atualizem suas implementações para a [versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+
+>[!NOTE]
+>
+>A biblioteca mbox.js é uma biblioteca de implementação legada para [!DNL Target]. Não ha mais suporte para a biblioteca mbox.js após 31 de março de 2021. Atualize para o SDK da Web do Experience Platform (preferencial) ou para a versão mais recente da at.js.
 
 Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do site. Por exemplo, você pode adicionar uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, considere usar [tags na Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR) para implementar o [!DNL Target].
 
-Os seguintes recursos contêm informações detalhadas para ajudar a implementar o Experience Platform Web SDK ou a at.js:
+Os recursos a seguir contêm informações detalhadas para ajudar a implementar o [!DNL Experience Platform Web SDK] ou at.js:
 
-* [Extensão do SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR)
-* [Implementar o  [!DNL Target]  usando a Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+* [[!DNL Adobe Experience Platform Web SDK] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR)
+* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 Cada vez que um visitante solicita uma página que foi otimizada para [!DNL Target], uma solicitação é enviada para o sistema de direcionamento. A solicitação ajuda a determinar qual conteúdo será enviado para esse visitante. Esse processo ocorre em tempo real. Esse processo ocorre em tempo real. Sempre que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é disponibilizado para cada visitante do site com maior probabilidade de responder, interagir ou comprar. O conteúdo personalizado ajuda a maximizar as taxas de resposta, as taxas de aquisição e a receita.
 
@@ -57,43 +60,43 @@ Consulte [[!UICONTROL Alocação automática]](/help/main/c-activities/automated
 
 ### [!UICONTROL Direcionamento automático] (AT)
 
-O direcionamento automático usa aprendizagem de máquina avançada para selecionar várias experiências definidas pelo profissional de marketing com desempenho elevado. O direcionamento automático veicula a experiência mais personalizada para cada visitante. A entrega de experiência é baseada em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis semelhantes. Use o direcionamento automático para personalizar o conteúdo e gerar conversões.
+[!UICONTROL O direcionamento automático usa aprendizagem de máquina avançada para selecionar várias experiências definidas pelo profissional de marketing com desempenho elevado. ] [!UICONTROL O direcionamento automático veicula a experiência mais personalizada para cada visitante. ] A entrega de experiência é baseada em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis semelhantes. Use [!UICONTROL Direcionamento automático] para personalizar o conteúdo e gerar conversões.
 
 Consulte [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) para obter mais informações.
 
 ### [!UICONTROL Personalização automatizada] (AP)
 
-A Automated Personalization (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançado para combinar diferentes variações de oferta a cada visitante. A entrega de experiência é baseada em perfis de clientes individuais para personalizar o conteúdo e aumentar o incentivo.
+[!UICONTROL Automated Personalization] (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante. A entrega de experiência é baseada em perfis de clientes individuais para personalizar o conteúdo e aumentar o incentivo.
 
 Consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) para obter mais informações.
 
 ### [!UICONTROL Direcionamento de experiência] (XT)
 
-O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
+[!UICONTROL Direcionamento de experiência] (XT) fornece conteúdo para um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 
-O Direcionamento de experiência, incluindo a geolocalização, é algo valioso para definir regras que direcionem uma experiência ou conteúdo específico para um público em particular. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes. Quando visitantes acessam seu site, o direcionamento de experiência (XT) os avalia para determinar se eles atendem os critérios que você definiu. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
+O Direcionamento de experiência, incluindo a geolocalização, é algo valioso para definir regras que direcionem uma experiência ou conteúdo específico para um público em particular. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes. Quando os visitantes visualizam seu site, [!UICONTROL Direcionamento de experiência] (XT) as avalia para determinar se elas atendem aos critérios definidos. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
 
 Consulte [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obter mais informações.
 
 ### [!UICONTROL Teste multivariado] (MVT)
 
-O Multivariate Testing (MVT) compara combinações de ofertas entre elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. O MVT ajuda a identificar qual elemento afeta mais o sucesso da atividade.
+[!UICONTROL Multivariate Testing] (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. O MVT ajuda a identificar qual elemento afeta mais o sucesso da atividade.
 
 Consulte [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obter mais informações.
 
 ### [!UICONTROL Recommendations]
 
-As atividades do Recommendations exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+As atividades do [!UICONTROL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O Recommendations ajuda a direcionar clientes para itens relevantes que, de outra forma, talvez eles não conhecessem.
 
 Consulte [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) para obter mais informações.
 
 ## A rede de borda {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-A &quot;borda&quot; é uma arquitetura de fornecimento distribuída geograficamente que garante os tempos de resposta ideais para visitantes que solicitem o conteúdo, independentemente de sua localização no mundo.
+Um &quot;Edge&quot; é uma arquitetura de fornecimento distribuída geograficamente que garante tempos de resposta ideais para visitantes que solicitem o conteúdo, independentemente de onde estejam localizados ao redor do mundo.
 
 Para melhorar os tempos de resposta, a borda [!DNL Target] hospeda somente a lógica de atividade, os perfis em cache e as informações da oferta.
 
-Bancos de dados de atividade e conteúdo, dados do [!DNL Analytics], APIs e interfaces de usuário dos profissionais de marketing são abrigados nos clusters centrais da Adobe. As atualizações são enviadas para os nós de bordas do [!DNL Target]. Os clusters centrais e nós de borda são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. Como a modelagem 1:1 também é armazenada em cada borda, as solicitações mais complexas também podem ser processadas na borda.
+Bancos de dados de atividades e conteúdos, [!DNL Analytics] dados, interfaces e interfaces de usuário do comerciante são abrigados na Adobe Central Clusters. As atualizações são enviadas para os nós de bordas do [!DNL Target]. Os clusters centrais e nós de borda são sincronizados automaticamente para atualizar continuamente os dados de atividade em cache. Como a modelagem 1:1 também é armazenada em cada borda, as solicitações mais complexas também podem ser processadas na borda.
 
 Cada nó de borda tem todas as informações necessárias para responder à solicitação de conteúdo do visitante e rastrear os dados de análise da solicitação. As solicitações do usuário são roteadas para o nó de borda mais próximo.
 
@@ -103,7 +106,7 @@ A solução [!DNL Target] é hospedada em data centers próprios e alugados pela
 
 Os locais do cluster central contêm um centro de coleta de dados e um centro de processamento de dados. Os locais de cluster de bordam contêm apenas um centro de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
-Os dados de atividade do site do cliente são coletados pelo mais próximo de sete clusters de borda. Esses dados são direcionados para o destino de cluster central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Singapura) para processamento. Os dados do perfil do visitante são armazenados no cluster de borda mais próximo do visitante do site. Os locais dos clusters de borda incluem os locais centrais de cluster, além de Virgínia, Mumbai, Sydney, e Tóquio.
+Os dados de atividade do site do cliente são coletados pelo mais próximo de sete clusters de borda. Esses dados são direcionados para o destino de Cluster Central predeterminado de um cliente (um dos três locais: Oregon, Dublin, Singapura) para processamento. Os dados do perfil do visitante são armazenados no cluster de borda mais próximo do visitante do site. Os locais dos clusters de borda incluem os locais centrais de cluster, além de Virgínia, Mumbai, Sydney, e Tóquio.
 
 Em vez de responder a todas as solicitações de direcionamento de um único local, as solicitações são processadas pelo cluster de borda mais próximo do visitante. Esse processo ajuda a reduzir o impacto do tempo de deslocamento da Internet/rede.
 
@@ -129,30 +132,30 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 
 >[!IMPORTANT]
 >
->No momento, o [!DNL Adobe Target] não tem um cluster de borda na China e o desempenho do visitante permanece limitado para clientes do [!DNL Target] na China. Devido ao firewall e à falta de clusters de borda no país, as experiências dos sites com [!DNL Target] implantado podem ser afetadas. As experiências podem ser renderizadas lentamente e os carregamentos de página podem ser afetados. Além disso, os profissionais de marketing podem identificar latência ao usar a interface de criação do [!DNL Target].
+>[!DNL Adobe Target] atualmente não tem um Cluster de Borda na China e o desempenho do visitante permanece limitado por [!DNL Target] na China. Devido ao firewall e à falta de clusters de borda no país, as experiências dos sites com [!DNL Target] implantado podem ser afetadas. As experiências podem ser renderizadas lentamente e os carregamentos de página podem ser afetados. Além disso, os profissionais de marketing podem identificar latência ao usar a interface de criação do [!DNL Target].
 
 Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## Experiência do usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-A Adobe assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um visitante e os servidores da Adobe pode causar uma interrupção na entrega de conteúdo.
+[!DNL Adobe]A assegura que a disponibilidade e o desempenho da infraestrutura da definição de metas tenham a maior confiabilidade possível. No entanto, um detalhamento de comunicação entre o navegador de um visitante e [!DNL Adobe] Os servidores podem causar uma interrupção na entrega de conteúdo.
 
-Como proteção contra interrupções do serviço e problemas de conectividade, todos os locais são configurados para incluir o conteúdo padrão (definido pelo cliente). Esse conteúdo padrão é exibido se o navegador do usuário não puder se conectar ao [!DNL Target].
+Como proteção contra interrupções do serviço e problemas de conectividade, todos os locais são configurados para incluir o conteúdo padrão (definido pelo cliente). Esse conteúdo padrão será exibido se o navegador do usuário não conseguir se conectar ao [!DNL Target].
 
-Nenhuma alteração será feita na página se o navegador do usuário não puder se conectar em um período de tempo limite definido (por padrão, 15 segundos). Se esse tempo limite for atingido, o conteúdo padrão do local será exibido.
+Nenhuma alteração será feita na página se o navegador do usuário não puder se conectar dentro de um período de tempo limite definido (por padrão: 15 segundos). Se esse tempo limite for atingido, o conteúdo padrão do local será exibido.
 
-A Adobe protege a experiência do usuário por otimizar e salvaguardar o desempenho.
+[!DNL Adobe]A protege a experiência do usuário por otimizar e salvaguardar o desempenho.
 
-* A Adobe assegura referências de desempenho com base em padrões do setor, que são garantidos pelo Contrato de nível de serviço da Adobe.
+* [!DNL Adobe]A assegura referências de desempenho com base em padrões do setor, que são garantidos pelo Contrato de nível de serviço da Adobe.
 * A rede Edge assegura a entrega de dados em tempo hábil.
-* A Adobe emprega uma abordagem em múltiplas camadas para proteger seus aplicativos, fornecendo o maior nível de disponibilidade e confiabilidade para os clientes.
+* [!UICONTROL A Adobe emprega uma abordagem em múltiplas camadas para proteger seus aplicativos, fornecendo o maior nível de disponibilidade e confiabilidade para os clientes.]
 * O [!DNL Target] Consulting oferece assistência na implementação e suporte contínuo ao produto.
 
 ## Teste compatível com a Otimização do mecanismo de pesquisa (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
-O Google incentiva os usuários a testarem. O Google declara em sua documentação que os testes A/B e o Multivariate Testing não prejudicam as classificações dos mecanismos de pesquisa orgânica se você seguir determinadas diretrizes.
+O Google incentiva os usuários a testarem. A Google declara em sua documentação que o A/B e o [!UICONTROL Multivariate Testing] não danificará as classificações dos mecanismos de pesquisa orgânicos se você seguir determinadas diretrizes.
 
 Para obter mais informações, consulte os seguintes recursos da Google:
 
@@ -165,7 +168,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    O [!DNL Target], como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Como resultado, os bots podem ser incluídos em atividades caso sejam selecionados aleatoriamente e &quot;vejam&quot; as variações do teste.
 
-* **Use rel=&quot;canonical&quot;**: algumas vezes, um teste A/B precisa ser configurado utilizando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, suponha que a Adobe esteja testando sua página inicial usando URLs diferentes para cada variação. A tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
+* **Use rel=&quot;canonical&quot;**: algumas vezes, um teste A/B precisa ser configurado utilizando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, suponha que [!DNL Adobe] O está testando sua página inicial usando URLs diferentes para cada variação. A tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -173,9 +176,9 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    Um redirecionamento 302 é um redirecionamento no lado do servidor e o [!DNL Target], juntamente com a maioria dos provedores de otimização, utiliza as capacidades do lado do cliente. Portanto, essa é uma área em que o [!DNL Target] não está em total conformidade com as recomendações do Google. Isso, entretanto, só afeta uma pequena fração dos testes. A abordagem padrão para execução de testes por meio do [!DNL Target] pede a alteração do conteúdo em um único URL, então não há necessidade de redirecionamentos. Há casos em que os clientes precisam usar vários URLs para representar suas variações no teste. Nesses casos, o [!DNL Target] usa o comando `window.location` do JavaScript. Esse comando direciona os usuários para variações do teste, o que não indica explicitamente se o redirecionamento é um 301 ou 302.
 
-   O Adobe continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, a Adobe está confiante de que a implementação adequada das tags canônicas diminui o risco associado a essa abordagem.
+   [!DNL Adobe]O continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, [!DNL Adobe] está confiante de que a correta implementação das tags canônicas diminui o risco associado a esta abordagem.
 
-* **Execute experimentos somente conforme necessário**: acreditamos que &quot;conforme necessário&quot; é o quanto for necessário para atingir significância estatística. [!DNL Target] [O fornece práticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) para determinar quando seu teste atingiu este ponto. A Adobe recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Execute experimentos somente conforme necessário**: [!DNL Adobe] considera que &quot;se necessário&quot; deve ser o tempo necessário para atingir significância estatística. [!DNL Target] [O fornece práticas recomendadas](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) para determinar quando seu teste atingiu este ponto. [!DNL Adobe]A recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
    A utilização da plataforma [!DNL Target] para &quot;publicar&quot; testes vencedores não é recomendada como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários em 100% das vezes, essa abordagem poderá ser usada enquanto o processo de codificação rígida do teste vencedor for concluído.
 
@@ -191,7 +194,7 @@ Além dessas diretrizes, a Google também fornece mais uma diretriz na documenta
 
 A Google afirma, como um exemplo, que &quot;se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice.&quot;
 
-A Adobe acha que seria difícil alterar involuntariamente o significado do conteúdo original nas variações de teste. No entanto, a Adobe recomenda estar ciente dos temas de palavras-chave em uma página e mantê-los. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. A Adobe recomenda que você envolva seu parceiro de SEO como parte de protocolo de testes.
+[!UICONTROL A Adobe acha que seria difícil alterar involuntariamente o significado do conteúdo original nas variações de teste. ] No entanto, [!UICONTROL Adobe] A recomenda estar ciente dos temas da palavra-chave em uma página e manter esses temas. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. [!DNL Adobe]A recomenda que você envolva seu parceiro de SEO como parte de protocolo de testes.
 
 ## Bots {#bots}
 
@@ -207,7 +210,15 @@ Especificamente para o tráfego de bot conhecido, o [!DNL Target] não:
 
 * Cria ou recupera um perfil do visitante
 * Registra os atributos de perfil ou executa scripts de perfil
-* Procura segmentos do Adobe Audience Manager (AAM) (se aplicável)
-* Use o tráfego de bots na modelagem e veiculação de conteúdo personalizado para atividades do Recommendations, Auto-Target, Automated Personalization ou [!UICONTROL Auto-Allocate]
+* Procurar [!DNL Adobe Audience Manager] (AAM) segmentos (se aplicável)
+* Usar o tráfego de bot na modelagem e veiculação de conteúdo personalizado para [!UICONTROL Recommendations], [!UICONTROL Direcionamento automático], [!UICONTROL Automated Personalization]ou [!UICONTROL Alocação automática] atividades
 * Registra uma visita de atividade para relatório
 * Registra dados a serem enviados para a plataforma da [!DNL Adobe Experience Cloud]
+
+Para tráfego de bot conhecido ao usar [!UICONTROL Analytics para Target] (A4T), [!DNL Target] não:
+
+* Enviar eventos para [!DNL Analytics]
+
+Para tráfego de bot conhecido ao usar o registro de cliente_side, [!DNL Target] não retorna:
+
+* carga tnta
