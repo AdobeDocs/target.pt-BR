@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 78c394a2e82bdf02f124240f0755f4b747804cf6
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Esta versão estará disponível de acordo com o seguinte agendamento:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Adicionado um [!UICONTROL Entre domínios] ao baixar a at.js 2.9.0 (e posterior) para permitir ou desativar a configuração de cookies de terceiros (TGT-43674)
+* Adicionado um [!UICONTROL Entre domínios] ao baixar a at.js 2.9.1 (e posterior) para permitir ou desativar a configuração de cookies de terceiros (TGT-43674)
 * Correção de um problema que causava [!UICONTROL Ofertas de decisão] para não funcionar corretamente na variável [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Correção de um problema que causava a exibição de uma mensagem de erro ao selecionar o [!UICONTROL Clicou em um elemento] meta de conversão ao criar uma [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
 * Correção de um problema que impedia o [!UICONTROL Impressões] da exibição no arquivo de relatório CSV baixado para [!UICONTROL Automated Personalization] (AP). (TGT-43780)
