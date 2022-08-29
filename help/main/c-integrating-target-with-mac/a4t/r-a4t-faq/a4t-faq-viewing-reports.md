@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas frequentes sobre a exibição de 
 title: Encontrar respostas para perguntas sobre como visualizar relatórios com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 37%
+source-wordcount: '2551'
+ht-degree: 33%
 
 ---
 
@@ -86,7 +86,7 @@ Esse é um comportamento normal e esperado. A variável A4T funciona como qualqu
 
 A prática recomendada é ver relatórios para essa atividade apenas durante o período em que a atividade foi ao vivo. As datas devem ser definidas corretamente por padrão quando você exibe a atividade em [!DNL Analytics], portanto, a menos que você tenha estendido manualmente a data, isso não deve ser um problema do ponto de vista do relatório.
 
-Como exemplo, vamos supor que a variável A4T expire após 90 dias e o teste esteja ativo de 1 de janeiro a 15 de janeiro.
+Como exemplo, suponhamos que a variável A4T expire após 90 dias e o teste esteja ativo de 1 de janeiro a 15 de janeiro.
 
 Em 1 de janeiro, o usuário acessa o site e vê a atividade XYZ uma vez e tem cinco exibições de página depois disso. Nas próximas duas semanas, o usuário nunca retorna ao site. Os dados ficariam assim para este usuário:
 
@@ -94,7 +94,7 @@ Em 1 de janeiro, o usuário acessa o site e vê a atividade XYZ uma vez e tem ci
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-O usuário retorna em 1 de fevereiro, visualiza mais cinco páginas e não encontra mais nenhuma atividade do Target e a atividade original não está mais ativa. Mesmo que a atividade não esteja mais ativa, ela ainda está seguindo o usuário por meio da persistência de eVar. Agora os dados ficam assim:
+O usuário volta em 1 de fevereiro, visualiza mais cinco páginas e não encontra mais nenhuma atividade do Target e a atividade original não está mais ativa. Mesmo que a atividade não esteja mais ativa, ela ainda está seguindo o usuário por meio da persistência de eVar. Agora os dados ficam assim:
 
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos |
 |--- |--- |--- |--- |--- |
@@ -115,7 +115,7 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 | ABC | 1 | 10º | 2 | 1 | 1 |
 | Total | 2 | 20º | 3 | 1 | 1 |
 
-Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para [!DNL Target] relatório, pois não está colocando um [!DNL Target] atividade em relação a outra atividade para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu recebam crédito. Você está comparando os resultados de dois itens na atividade única. Não é possível que um usuário veja experiências diferentes na mesma atividade para que você não tenha que se preocupar com a contaminação cruzada do crédito do pedido.
+Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para [!DNL Target] relatório, porque você não está colocando um [!DNL Target] atividade em relação a outra atividade para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu tenham crédito. Você está comparando os resultados de dois itens na atividade única. Não é possível para um usuário ver experiências diferentes na mesma atividade, de modo que você não precisa se preocupar com a contaminação cruzada do crédito do pedido.
 
 Para obter mais informações, consulte [Variáveis de conversão (eVar)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) na *Guia de administração do Analytics*.
 
@@ -125,9 +125,9 @@ Uma fonte de impressões para um relatório de atividade do A4T após a desativa
 
 ## Por que o Analytics e o Analytics for Adobe Target (A4T) calculam números para a métrica de visitantes únicos de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-Quando você executa um teste A/B, que usa o teste t de Estudante (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que existe um horizonte de tempo fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho de amostra fixo.
+Ao executar um teste A/B, que usa a variável [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que há um horizonte de tempo fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho fixo de amostra.
 
-O [!UICONTROL Visitantes únicos] é diferente em [!DNL Analytics] e [!DNL Target] somente quando você estiver olhando para um período mais curto que o teste real. Se você não atingiu o tamanho da amostra, o teste não é tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
+O [!UICONTROL Visitantes únicos] é diferente em [!DNL Analytics] e [!DNL Target] somente quando você estiver olhando para um período mais curto que o teste real. Se você não tiver atingido seu tamanho de amostra, o teste não será tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
 
 O [!UICONTROL Visitantes únicos] exibe o número de pessoas que foram expostas ao teste que visitaram o site durante o período de tempo especificado. Essas pessoas fazem parte do teste e devem ser contadas. Se quiser ver apenas o número de pessoas que foram expostas durante uma única semana, você pode criar um segmento de visitantes que tiveram uma impressão de atividade e aplicá-lo ao relatório.
 

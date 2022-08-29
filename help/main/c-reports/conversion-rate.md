@@ -4,10 +4,10 @@ description: Saiba mais sobre o Adobe [!DNL Target] mostra e calcula a taxa de c
 title: Como visualizar o nível de taxa de conversão, aumento e confiança?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 59%
+source-wordcount: '2146'
+ht-degree: 53%
 
 ---
 
@@ -98,9 +98,9 @@ Para calcular essas métricas calculadas, baixe as [Calculadora de confiança co
 
 Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics].
 
-Para o A4T, usamos um cálculo de teste t de Estudante para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para efetuar o cálculo do teste t de Estudante, é necessário a &quot;soma dos quadrados&quot; para calcular a variação, que é utilizada no denominador da estatística t. [Este documento explica os detalhes](/help/main/assets/statistical-calculations.pdf) das fórmulas matemáticas utilizadas. A soma dos quadrados pode ser recuperada de [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
+Para o A4T, usamos um [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test)Cálculo de {target=_blank} para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para efetuar o cálculo t-test do Welch, é necessária a &quot;soma dos quadrados&quot; para calcular a variação, que é utilizada no denominador da estatística t. [Este documento explica os detalhes](/help/main/assets/statistical-calculations.pdf) das fórmulas matemáticas utilizadas. A soma dos quadrados pode ser recuperada de [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
 
-Por exemplo, se você estiver otimizando para exibições de página por visitante, você exportaria uma amostra do número total de visualizações de página por visitante e por um período de tempo especificado, talvez alguns dias (alguns milhares de pontos de dados são tudo que você precisa). Você, então, elevaria ao quadrado de cada valor e somaria os totais (a ordem das operações é essencial aqui). Este valor de &quot;soma dos quadrados&quot; é então usado na Calculadora de confiança completa. Use a seção &quot;receita&quot; dessa planilha para esses valores.
+Por exemplo, se estiver otimizando para exibições de página por visitante, você exportaria uma amostra do número total de exibições de página por visitante por um período de tempo especificado, talvez alguns dias (alguns milhares de pontos de dados são tudo que você precisa). Você, então, elevaria ao quadrado de cada valor e somaria os totais (a ordem das operações é essencial aqui). Este valor de &quot;soma dos quadrados&quot; é então usado na Calculadora de confiança completa. Use a seção &quot;receita&quot; dessa planilha para esses valores.
 
 **Para usar o recurso de exportação de dados do [!DNL Analytics] para fazer isso:**
 
@@ -115,7 +115,7 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
    | Nome da solicitação | Especifique um nome para sua solicitação. |
    | Data de relatório | Especifique um período de tempo e granularidade.<br>Como prática recomendada, escolha não mais que uma hora ou um dia de dados para sua primeira solicitação.  Os arquivos do Data Warehouse demoram mais para processar quanto mais longo for o tempo solicitado, por isso, é sempre uma prática recomendada solicitar primeiro um pequeno período de tempo para garantir que o arquivo retorne o resultado esperado. Em seguida, vá para o Gerenciador de solicitações, duplique sua solicitação e solicite mais dados pela segunda vez. Além disso, se você alternar a granularidade para algo diferente de &quot;Nenhum&quot;, o tamanho do arquivo aumentará drasticamente.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Segmentos disponíveis | Aplique um segmento, se necessário. |
-   | Detalhamentos | Selecione as dimensões desejadas:   O padrão é pronto (OOTB), enquanto o Personalizado inclui eVars e props. Recomenda-se a utilização de &quot;ID de visitante&quot; se forem necessárias informações ao nível da ID de visitante, em vez de &quot;ID de visitante da Experience Cloud&quot;.<ul><li>ID do visitante é a ID final usada pelo Analytics. Ela será AID (se o cliente for legado) ou MID (se o cliente for novo ou tiver eliminado os cookies desde que o serviço de identificação de visitante do MC foi iniciado).</li><li>A ID de visitante da Experience Cloud só será definida para clientes novos ou com cookies eliminados desde que o serviço de ID de visitante do MC foi iniciado.</li></ul> |
+   | Detalhamentos | Selecione as dimensões desejadas:   O padrão é pronto (OOTB), enquanto o Personalizado inclui eVars e props. Recomenda-se usar &quot;ID de visitante&quot; se forem necessárias informações a nível de ID do visitante, em vez de &quot;ID de visitante Experience Cloud&quot;.<ul><li>ID do visitante é a ID final usada pelo Analytics. Ela será AID (se o cliente for legado) ou MID (se o cliente for novo ou tiver eliminado os cookies desde que o serviço de identificação de visitante do MC foi iniciado).</li><li>A ID de visitante da Experience Cloud só será definida para clientes novos ou com cookies eliminados desde que o serviço de ID de visitante do MC foi iniciado.</li></ul> |
    | Métricas | Selecione sua métrica desejada. O padrão é OOTB, enquanto o Personalizado inclui eventos personalizados. |
    | Visualização de Relatório | Revise suas configurações antes de agendar o relatório.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | Agendar entrega | Digite um endereço de email para entregar o arquivo, nomeie o arquivo e selecione [!UICONTROL Enviar imediatamente].<br>Observação: o arquivo pode ser entregue via FTP em [!UICONTROL Opções avançadas de entrega]<br>![Programar entrega](/help/main/c-reports/assets/datawarehouse3.png). |
@@ -124,7 +124,7 @@ Por exemplo, se você estiver otimizando para exibições de página por visitan
 
    A entrega do arquivo pode levar até 72 horas, dependendo da quantidade de dados solicitada. Você pode verificar o andamento de sua solicitação a qualquer momento clicando em [!UICONTROL Ferramentas] > [!UICONTROL Data Warehouse] > [!UICONTROL Gerenciador de solicitações].
 
-   Se você deseja solicitar novamente os dados que solicitou no passado, você pode duplicar uma solicitação antiga do [!UICONTROL Gerenciador de solicitações,] conforme necessário.
+   Se você deseja solicitar novamente os dados solicitados anteriormente, é possível duplicar uma solicitação antiga do [!UICONTROL Gerenciador de solicitações] conforme necessário.
 
 Para obter mais informações sobre [!DNL Data Warehouse], consulte os seguintes links na documentação de ajuda do [!DNL Analytics]:
 
@@ -168,7 +168,7 @@ Você pode visualizar relatórios pelas seguintes metodologias de contagem:
 >
 >Normalmente, as contagens são determinadas por cookies e pela atividade da sessão. No entanto, se você alcançar o ponto de conversão final de uma atividade e, em seguida, entrar na atividade novamente, você será considerado um novo participante e uma nova visita à atividade. Isso é verdade mesmo se os valores PCID e `sessionID` não mudarem.
 
-## Por que [!DNL Target] recomendamos usar os testes t de Student? {#t-test}
+## Por que [!DNL Target] recomendamos usar os testes t de Welch? {#t-test}
 
 Os testes A/B são experimentos para comparar o valor médio de alguma métrica comercial em uma variante de controle (também conhecida como experiência) com o valor médio dessa mesma métrica em uma ou mais experiências alternativas.
 

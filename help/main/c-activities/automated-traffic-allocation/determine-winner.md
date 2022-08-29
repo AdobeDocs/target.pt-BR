@@ -4,7 +4,7 @@ description: Saiba como interpretar os resultados de uma atividade de Alocação
 title: Como interpreto os relatórios de alocação automática?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 45%
@@ -57,7 +57,7 @@ O valor numérico &quot;Lift&quot; e os limites de 95% para cada experiência s�
 
 As barras de Intervalo de confiança exibidas representam o intervalo de confiança de 95% em torno da estimativa média da taxa de conversão de uma experiência. Eles também são codificados por cores em relação à experiência &quot;Controle&quot; definida. A barra da experiência de &quot;Controle&quot; fica sempre cinza. As partes dos intervalos de confiança abaixo do intervalo de confiança da experiência de &quot;Controle&quot; são coloridas em vermelho e as partes dos intervalos de confiança acima da experiência de &quot;Controle&quot; são coloridas em verde.
 
-Um vencedor é encontrado quando o Intervalo de confiança de 95% da experiência líder não se sobrepõe a nenhuma outra experiência. A experiência vencedora é designada com um selo de estrela verde à esquerda do nome da experiência e no banner &quot;Vencedor&quot;. Quando nenhuma estrela é visível, o banner diz &quot;Ainda não há vencedor&quot; e um vencedor ainda não foi encontrado.
+Um vencedor é encontrado quando o Intervalo de confiança de 95% da experiência líder não está sobreposto a nenhuma outra experiência. A experiência vencedora é designada com um selo de estrela verde à esquerda do nome da experiência e no banner &quot;Vencedor&quot;. Quando nenhuma estrela é visível, o banner diz &quot;Ainda não há vencedor&quot; e um vencedor ainda não foi encontrado.
 
 Um número de &quot;Confiança&quot; também é reportado ao lado da experiência líder ou vencedora atual. Esse número é relatado somente até que a Confiança da experiência líder atinja pelo menos 60%. Se exatamente duas experiências estiverem presentes no experimento de alocação automática, esse número representa o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes no experimento de alocação automática, esse número representa o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver vencendo, nenhuma figura de &quot;Confiança&quot; será relatada.
 
@@ -71,7 +71,7 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
 * Testes A/B manuais e Alocação automática usam estatísticas diferentes para exibir valores de confiança.
 
-   Os testes manuais A/B usam valores p baseados no [teste t de Estudante](https://en.wikipedia.org/wiki/Student%27s_t-test). Um valor P é a probabilidade de encontrar a diferença observada (ou uma mais extrema) entre uma experiência e o controle, visto que, na realidade, não há essa diferença. Esses valores P podem ser usados somente para determinar se os dados observados estão consistentes, visto que a experiência e o controle são iguais. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
+   Os testes A/B manuais usam valores p com base em [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test). Um valor P é a probabilidade de encontrar a diferença observada (ou uma mais extrema) entre uma experiência e o controle, visto que, na realidade, não há essa diferença. Esses valores P podem ser usados somente para determinar se os dados observados estão consistentes, visto que a experiência e o controle são iguais. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
 
    A Alocação automática mostra a probabilidade de uma determinada experiência ser um verdadeiro vencedor em todas as experiências na atividade. Isso significa que apenas uma experiência vencedora (que provavelmente será a vencedora) terá um valor de confiança diferente de zero. Todos os outros são mais propensos a serem perdedores e exibirão 0%.
 

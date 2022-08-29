@@ -4,10 +4,10 @@ description: Saiba como usar uma atividade de alocação automática no Adobe [!
 title: O que é uma atividade de alocação automática?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '3559'
-ht-degree: 49%
+source-wordcount: '3567'
+ht-degree: 50%
 
 ---
 
@@ -29,7 +29,7 @@ Os testes A/B padrão têm um custo inerente. Você deve gastar o tráfego para 
 
 Um teste A/B normal em [!DNL Target] mostra apenas comparações emparelhadas de desafiantes com controle. Por exemplo, se uma atividade tiver experiências: A, B, C e D, onde A é o controle, um [!DNL Target] O teste A/B compararia A versus B, A versus C e A versus D.
 
-Nesses testes, a maioria dos produtos, incluindo [!DNL Target], use o teste t de um aluno para produzir confiança baseada em valor p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, [!DNL Target] O não executa automaticamente as comparações implícitas (B versus C, B versus D e C versus D) necessárias para encontrar a &quot;melhor&quot; experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a &quot;melhor&quot; experiência.
+Nesses testes, a maioria dos produtos, incluindo [!DNL Target]use um [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} para produzir confiança baseada em valor p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, [!DNL Target] O não executa automaticamente as comparações implícitas (B versus C, B versus D e C versus D) necessárias para encontrar a &quot;melhor&quot; experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a &quot;melhor&quot; experiência.
 
 [!UICONTROL A alocação automática executa todas as comparações implícitas entre as experiências e produz um vencedor &quot;verdadeiro&quot;. ] Não há noção de experiência de &quot;controle&quot; no teste.
 
@@ -207,13 +207,13 @@ Se uma ocorrência ocorrer em outro ambiente (não padrão), o tráfego será di
 
 Ao selecionar outro ambiente, o relatório mostra o tráfego e as conversões desse ambiente. O ambiente padrão selecionado para um relatório é o padrão em toda a conta selecionado. O ambiente padrão não pode ser definido com base em atividades.
 
-### Pode uma [!UICONTROL Alocação automática] atividade de ajuste da janela de lookback ao longo de um teste para considerar a mudança de tendências ao longo do tempo?
+### Uma atividade de [!UICONTROL Alocação automática] pode ajustar a janela de pesquisa ao longo de um teste para considerar a mudança de tendências com o passar do tempo?
 
 Por exemplo, a atividade pode considerar o mês de dezembro para decidir como alocar o tráfego, em vez de consultar os dados de visitante de setembro (quando o teste começou)?
 
 Não, [!UICONTROL Alocação automática] O considera o desempenho de toda a atividade.
 
-### Does [!UICONTROL Alocação automática] mostrar uma experiência vencedora a um visitante recorrente se a experiência vencedora for diferente do que o visitante viu ao se qualificar para a atividade?
+### A [!UICONTROL Alocação automática] mostra uma experiência vencedora a um visitante recorrente se a experiência vencedora for diferente do que o visitante viu ao se qualificar para a atividade?
 
 [!UICONTROL Alocação automática] O usa a decisão aderente pelos mesmos motivos que [!UICONTROL Teste A/B] As atividades do são aderentes. A alocação de tráfego funciona somente para novos visitantes.
 
