@@ -5,9 +5,9 @@ title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 2.8.1 (versão escalonada: 17-18 de agosto de 2022)
+## Adobe Target Standard/Premium 22.8.1 (lançamento escalonado: 17 a 18 de agosto de 2022)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 22 de agosto | [[!DNL Adobe Target] anúncios e eventos](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas as informações sobre o seguinte anúncio:<ul><li>[!DNL Target] líder nomeado no Gartner Magic Quadrant for Personalization Engines (2022)</li></ul>Foram adicionadas informações sobre os seguintes eventos futuros:<ul><li>[!DNL Adobe Target] Pausa do café comunitário em perguntas e respostas (31 de agosto de 2022)</li><li>Coleção de Chef: Receitas para personalização (30 de agosto de 2022)</li><li>[!DNL Adobe Target] Construtores de habilidades - Otimização da experiência móvel (6 de setembro de 2022)</li><li>[!DNL Adobe Target] Construtores de habilidades - Personalização orientada por IA e Recommendations (15 de setembro de 2022)</li></ul>Foi adicionado um link de gravação para a seguinte sessão de webinário anterior:<ul><li>Adobe: Insider do setor de personalização - Varejo (11 de agosto de 2022)</li></ul> |
+| 22 de agosto | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o seguinte anúncio:<ul><li>[!DNL Target] nomeado líder no Gartner Magic Quadrant for Personalization Engines (2022)</li></ul>Adição de informações sobre os seguintes eventos futuros:<ul><li>Sessão de perguntas e respostas da comunidade do [!DNL Adobe Target] (31 de agosto de 2022)</li><li>Coleção do Chef: receitas para personalização (30 de agosto de 2022)</li><li>Construtores de habilidades do [!DNL Adobe Target] - Otimização da experiência móvel (6 de setembro de 2022)</li><li>Construtores de habilidades do [!DNL Adobe Target] - Personalização orientada por IA e recomendações (15 de setembro de 2022)</li></ul>Adição do link da gravação da seguinte sessão de webinário anterior:<ul><li>Adobe: Insider do setor de personalização - Varejo (11 de agosto de 2022)</li></ul> |
 | 22 de agosto | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.8.1 do [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (versão escalonada: 7 a 9 de junho de 2022)
@@ -104,6 +104,6 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md) | Adição de informações sobre públicos-alvo da [!DNL Adobe Experience Platform]. |
 |  | [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md) | Adição de informações sobre públicos-alvo da [!DNL Adobe Experience Platform]. |
 | 21 de Janeiro | [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Adição de informações sobre a versão 1.8.3 da at.js. |
-| 19 de janeiro | [Atualização da at.js 1.*x* para a at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Adição da seguinte seção: &quot;A at.js 2.*x* não oferece suporte à criação de públicos-alvo usando parâmetros de vst.*&quot; |
+| 19 de janeiro | [Atualização da at.js 1.*x* para a at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Adição da seguinte seção: “A at.js 2.*x* não oferece suporte à criação de públicos-alvo usando parâmetros de vst.*” |
 | 12 de janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.1.1 do Target Standard/Premium. |
 |  | [SDK da Web da Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Link adicionado ao tutorial com instruções para implementar a [!DNL Adobe Experience Cloud] com o SDK da Web. |
