@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 38%
@@ -29,7 +29,7 @@ Esta versão estará disponível de acordo com o seguinte agendamento:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Adicionado um [!UICONTROL Entre domínios] ao baixar a at.js 2.9.1 (e posterior) para permitir ou desativar a configuração de cookies de terceiros (TGT-43674)
+* Adicionado um [!UICONTROL Entre domínios] ao baixar a at.js 2.9.1 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
 * Notificações atualizadas no [!DNL Target] Interface do usuário para informar aos clientes que as atividades foram ativadas, desativadas e alcançaram limites de meta e incentivo. (TGT-35811)
 * Adição da capacidade de bloquear atributos de lista por meio da API em [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] atividades.
 * Correção de um problema que causava [!UICONTROL Ofertas de decisão] para não funcionar corretamente na variável [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
