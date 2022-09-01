@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
+source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 100%
+source-wordcount: '1777'
+ht-degree: 93%
 
 ---
 
@@ -21,42 +21,11 @@ A Gartner nomeou o [!DNL Adobe Target] como líder no último Magic Quadrant for
 
 Para obter mais informações, consulte a [publicação no blog da Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## Sessão de Perguntas e respostas da comunidade do [!DNL Adobe Target] (31 de agosto de 2022)
-
-* **Quarta-feira, 31 de agosto de 2022**
-* **Das 9h às 10h (PDT, UTC-7)**
-* **[Informações de inscrição](https://adobe.ly/3buoDUt){target=_blank}**
-
-O consultor sênior do [!DNL Adobe] Premier Support, Moses Maxen, se juntará a nós para responder perguntas sobre o [!DNL Adobe Target] relacionadas aos tópicos abordados no recente [Webinário: Insiders do setor de personalização de varejo, ocorrido em 11/08/2022](https://video.tv.adobe.com/v/346323){target=_blank}, além de conversar sobre suas áreas de conhecimento do [!DNL Target]:
-
-* Como as vendas de comércio eletrônico do varejo dispararam à medida que os padrões e os comportamentos de compra dos consumidores mudaram nos últimos meses, com uma maior demanda de mercadorias e serviços em certos mercados, incluindo bens de consumo embalados
-* Estratégias de otimização e personalização relacionadas
-* Implementação do [!DNL Target]
-* Recursos do [!DNL Adobe] Sensei
-* Workflows da interface principal
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Adobe Target] para atingir suas metas de personalização e otimização:
 
-### Coleção do Chef: receitas para personalização (30 de agosto de 2022)
-
-Junte-se à equipe do [!DNL Adobe Target] [!DNL ] durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, “Coleção do Chef: ideias de personalização”.
-
-+++Clique
-
-* **Quinta-feira, 30 de agosto de 2022**
-* **13h às 14h (EDT, UTC-4)**
-* **[Mais informações e detalhes de inscrição](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-Vamos analisar as histórias de nossos clientes “chefs” e o que eles prepararam em suas próprias cozinhas de personalização.
-
-Vamos explorar ideias sobre:
-
-* Como usar a personalização para criar fidelidade
-* Otimização para obter vantagem competitiva
-* Criar experiências hiperpersonalizadas
-+++
 
 ### Construtores de habilidades do [!DNL Adobe Target] - Otimização da experiência móvel (6 de setembro de 2022)
 
@@ -85,6 +54,25 @@ A automação da experimentação e personalização continua a impulsionar as m
 ## Gravações de webinários antigos e sessões do construtor de habilidades
 
 Acessar gravações de eventos anteriores (quando disponíveis):
+
+### Coleção do Chef: receitas para personalização (30 de agosto de 2022)
+
+Junte-se à equipe do [!DNL Adobe Target] [!DNL ] durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, &quot;Coleção de Chef: Ideias para personalização&quot;.
+
++++Clique
+
+* **Quinta-feira, 30 de agosto de 2022**
+* **13h às 14h (EDT, UTC-4)**
+* **[Mais informações e detalhes de inscrição](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+Estaremos pesquisando as histórias de nossos &quot;chefs&quot; clientes e o que eles prepararam em suas cozinhas de personalização.
+
+Vamos explorar ideias sobre:
+
+* Como usar a personalização para criar fidelidade
+* Otimização para obter vantagem competitiva
+* Criar experiências hiperpersonalizadas
++++
 
 ### Ativação de fidelidade em tempo real (25 de agosto de 2022)
 
@@ -135,7 +123,7 @@ Saiba como a Inteligência artificial continua redefinindo as expectativas do co
 
 Junte-se a Jordan Ison (Consultor-especialista em soluções na [!DNL Adobe]) para discutir:
 
-* Como profissionais de marketing, desenvolvedores e equipes de produtos podem abrir a “caixa preta” da IA para impulsionar testes e estratégias de personalização futuras
+* Como profissionais de marketing, desenvolvedores e equipes de produtos podem abrir a &quot;caixa preta&quot; da IA para impulsionar testes e estratégias de personalização futuras
 * Como superar os desafios na otimização da Web, do aplicativo móvel, do email, da IoT e de cada ponto de contato digital para oferecer mais conversão e engajamento
 * Passo a passo guiado dos fluxos de trabalho do [!DNL Adobe Analytics] e do [!DNL Target] para personalização, direcionamento e teste
 * Principais casos de uso para explorar quais atributos preveem o comportamento do visitante e quais atributos são mais importantes para as principais visualizações e análise de segmentação
@@ -188,7 +176,7 @@ Conheça as práticas recomendadas para aumentar os programas de personalizaçã
 
 Junte-se a Shawn Wilkinson (Gerente de personalização de e-commerce) para saber como o produto [!DNL Target] está ajudando a Dick&#39;s Sporting Goods a transformar visitantes comuns em atletas recorrentes.
 
-Saiba como a Dick&#39;s Sporting Goods está impulsionando o crescimento de dois dígitos:
+Saiba como o Bens de Esporte de Dick está impulsionando o crescimento de dois dígitos enquanto descompactamos:
 
 * Como planejar e iniciar um programa de personalização de alto desempenho para varejo
 * Por que a aquisição em toda a organização é essencial para superar obstáculos
@@ -248,7 +236,7 @@ Nesta sessão, saiba como o [!DNL Adobe Target] elimina a lacuna na combinação
 
 +++Clique
 
-Mais do que nunca, os profissionais de marketing, os proprietários de produtos e os desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e quaisquer outros lugares em que possam se conectar com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não servem.
+Mais do que nunca, os profissionais de marketing, os proprietários de produtos e os desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e quaisquer outros lugares em que possam se conectar com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não o cortam.
 
 Neste webinário gravado, os especialistas em produtos do Adobe Target discutem como mover as decisões de otimização de experiência crítica no dispositivo para execução local com latência zero pode abrir portas para novos casos de uso interessantes e, ao mesmo tempo, melhorar o desempenho do site para seus clientes.
 +++
@@ -259,17 +247,17 @@ Neste webinário gravado, os especialistas em produtos do Adobe Target discutem 
 
 +++Clique
 
-A McKinsey Digital relata que “avançamos cinco anos na adoção digital de consumidores e empresas em cerca de oito semanas.” *
+McKinsey Digital relata que &quot;nós votamos cinco anos em frente na adoção digital de consumidores e empresas em uma questão de cerca de oito semanas.&quot; *
 
 As demandas do consumidor estão evoluindo rapidamente e o HSBC adotou a otimização com a Adobe Target para testar e personalizar rapidamente novas jornadas do cliente, reduzindo determinadas atividades e inicializações de 6 meses para 1 semana!
 
 Participe deste webinário com a Adobe e o HSBC para aprender:
 
-* Como os esforços de otimização e personalização do HSBC promoveram mudanças rápidas na organização
+* Como os esforços de otimização e personalização do HSBC impulsionam mudanças rápidas na organização
 * Como a IA e o Analytics aceleram seus esforços e proporcionam um impacto claro e significativo nos negócios
 * Como o HSBC criou um programa bem-sucedido em escala que fornece mais de 3000 atividades
 
-*Artigo da McKinsey: “[A recuperação do COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”, maio de 2020
+*Artigo da McKinsey: &quot;[A recuperação do COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; maio de 2020
 +++
 
 ### Adobe [!DNL Target] Skill Builder: bate-papo com o desenvolvedor, migre da mbox.js do Adobe [!DNL Target] para a at.js {#skill-builder}
