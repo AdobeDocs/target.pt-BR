@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
+source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '395'
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização em 1 de setembro de 2022**
+**Última atualização em 6 de setembro de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -31,7 +31,6 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 * Adicionado um [!UICONTROL Entre domínios] ao baixar a at.js 2.9.1 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
 * Notificações atualizadas no [!DNL Target] Interface do usuário para informar aos clientes que as atividades foram ativadas, desativadas e alcançaram limites de meta e incentivo. (TGT-35811)
-* Adição da capacidade de bloquear atributos de lista por meio da API em [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] atividades.
 * Correção de um problema que causava [!UICONTROL Ofertas de decisão] para não funcionar corretamente na variável [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Correção de um problema que causava a exibição de uma mensagem de erro ao selecionar o [!UICONTROL Clicou em um elemento] meta de conversão ao criar uma [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
 * Correção de um problema que impedia o [!UICONTROL Impressões] da exibição no arquivo de relatório CSV baixado para [!UICONTROL Automated Personalization] (AP). (TGT-43780)
