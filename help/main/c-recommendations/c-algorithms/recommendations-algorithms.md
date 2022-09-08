@@ -5,10 +5,10 @@ title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendat
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 0%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ Os algoritmos incluem:
 
 As adições mais recentes à [!DNL Target] conjunto de algoritmos do recommendations são [!UICONTROL Recomendado Para Você] e uma série de algoritmos de recomendações baseadas em carrinho. Ambos os tipos de algoritmos usam técnicas de filtragem colaborativa para formar recomendações baseadas em itens individuais. Em seguida, no tempo de serviço, vários itens no histórico de navegação do usuário (para [!UICONTROL Recomendado Para Você]), ou o carrinho atual do usuário (para recomendações baseadas em carrinho) é usado para recuperar essas recomendações baseadas em itens, que são mescladas para formar a lista final de recomendações. Observe que existem muitas opções de algoritmos de recomendação personalizados. A escolha de um algoritmo de várias chaves significa que as recomendações estão imediatamente disponíveis depois que um visitante tem qualquer histórico de navegação e as recomendações podem ser atualizadas para responder ao comportamento do visitante mais recente.
 
-Esses algoritmos baseiam-se nas técnicas fundamentais de filtragem colaborativa descritas na seção de recomendações baseadas em itens, mas também incorporam o ajuste de hiperparâmetros para determinar a métrica ideal de similaridade entre itens. O algoritmo executa uma divisão cronológica de dados comportamentais para cada usuário, e treina modelos de recomendação nos dados anteriores ao tentar prever os itens que um usuário visualiza ou compra posteriormente. A métrica de similaridade que produz o melhor [Precisão média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) é então escolhida.
+Esses algoritmos baseiam-se nas técnicas fundamentais de filtragem colaborativa descritas na seção de recomendações baseadas em itens, mas também incorporam o ajuste de hiperparâmetros para determinar a métrica ideal de similaridade entre itens. O algoritmo executa uma divisão cronológica de dados comportamentais para cada usuário, e treina modelos de recomendação nos dados anteriores ao tentar prever os itens que um usuário visualiza ou compra posteriormente. A métrica de similaridade que produz o melhor [Precisão média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) é então escolhida.
 
 A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagrama a seguir:
 
@@ -138,7 +138,7 @@ Os detalhes dessas etapas são os seguintes:
 
    ![Fórmula mostrando cálculo de treinamento](assets/formula4.png)
 
-   * **Avaliação do modelo de semelhança de item**: A avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões sobre o conjunto de dados de teste. A fase de pontuação online é mimetizada pela ordenação cronológica dos usos do item de cada usuário no conjunto de dados de teste, em seguida, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever visualizações e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em consideração a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, que é uma propriedade importante para classificar sistemas.
+   * **Avaliação do modelo de semelhança de item**: A avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões sobre o conjunto de dados de teste. A fase de pontuação online é mimetizada pela ordenação cronológica dos usos do item de cada usuário no conjunto de dados de teste, em seguida, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever visualizações e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval), é usado para avaliar a qualidade dessas recomendações. Essa métrica leva em consideração a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, que é uma propriedade importante para classificar sistemas.
    * **Seleção de modelo**: Após a avaliação offline, o modelo com a Precisão média mais alta é selecionado e todas as recomendações de item individuais são calculadas para ele.
    * **Filtragem offline**: A fase final da formação do modelo é a aplicação de filtros dinâmicos aplicáveis. Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para serem disponibilizadas.
 
