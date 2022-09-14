@@ -4,10 +4,10 @@ description: Familiarize-se com a interface do usuário e encontre links para in
 title: Como faço para usar a interface do [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 46%
+ht-degree: 49%
 
 ---
 
@@ -55,11 +55,11 @@ O painel contém guias para [!UICONTROL Notificações] e [!UICONTROL Anúncios]
 
 As seções a seguir contêm informações sobre cada guia e como configurar notificações e anúncios:
 
-### Notificações
+### Notificações {#notifications}
 
 [!DNL Target] As notificações de eventos incluem:
 
-* **Atividades**: Notificações para todos os tipos de atividade quando uma atividade é aprovada ou desativada, manualmente ou quando atinge sua data inicial ou final. A notificação inclui o nome da atividade com um link para a página de visão geral da atividade.
+* **Atividades**: notificações para todos os tipos de atividade quando uma atividade é aprovada ou desativada manualmente ou quando atinge sua data inicial ou final. A notificação inclui o nome da atividade com um link para a página de visão geral da atividade.
 
    As notificações são configuráveis e recebidas, por padrão, por administradores de produtos, editores e aprovadores na área de trabalho da atividade para [!DNL Target Premium] contas. Para [!DNL Target Standard] contas, as notificações são recebidas por todos os editores e aprovadores.
 
@@ -78,7 +78,7 @@ As seções a seguir contêm informações sobre cada guia e como configurar not
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Feeds do Recommendations**: Notificações quando uma [!DNL Recommendations] o feed é ativado ou desativado manualmente ou por [!DNL Target]. As notificações também são enviadas quando uma [!DNL Recommendations] o feed falha.
+* **Feeds do**[!DNL Recommendations]: notificações quando um feed do Recommendations é ativado ou desativado manualmente ou pelo [!DNL Target]. As notificações também são enviadas quando uma [!DNL Recommendations] o feed falha.
 
    As notificações são configuráveis e recebidas, por padrão, por administradores de produtos e aprovadores de [!DNL Target Premium] contas. [!DNL Recommendations] é um [!DNL Target Premium] e não está disponível em [!DNL Target Standard].
 
@@ -86,6 +86,7 @@ As seções a seguir contêm informações sobre cada guia e como configurar not
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 Você pode marcar notificações individuais como lidas ao passar o mouse sobre a notificação desejada e clicar na marca de seleção. Você pode marcar todas as notificações como lidas ou exibir todas as notificações clicando em [!UICONTROL &quot;Marcar como lido&quot;] ou [!UICONTROL &quot;Exibir todos&quot;] na parte inferior do painel.
@@ -177,7 +178,7 @@ Clique na guia **[!UICONTROL Recommendations]** para acessar o [!DNL Target Reco
 
 ![Recommendations](/help/main/c-intro/assets/recommendations.png)
 
-As atividades do [!UICONTROL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O Recommendations ajuda a direcionar clientes para itens relevantes que, de outra forma, talvez eles não conhecessem.
+As atividades do [!UICONTROL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
 Consulte [Recommendations](/help/main/c-recommendations/recommendations.md) para obter informações detalhadas sobre o [!UICONTROL Recommendations] em [!DNL Target] e para saber mais sobre a interface do usuário do [!UICONTROL Recommendations].
 
