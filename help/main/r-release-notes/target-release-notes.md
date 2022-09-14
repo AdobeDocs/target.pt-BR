@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 6058ebcf8150f9161d591a1c1c315af40babc6ef
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 74%
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ Esta versão estará disponível de acordo com o seguinte agendamento:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Adicionado uma opção [!UICONTROL Entre domínios] ao baixar o at.js 2.10.0 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
+* Adicionada uma opção [!UICONTROL Entre domínios] ao baixar o at.js 2.10.0 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
 * Notificações atualizadas no [!DNL Target] Interface do usuário para informar os clientes se a importação de [!DNL Recommendations] os feeds falham. (TGT-35811)
 * Correção de um problema que fazia com que as [!UICONTROL Ofertas de decisão] não funcionassem corretamente no [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Correção de um problema que exibia uma mensagem de erro ao selecionar a meta de conversão [!UICONTROL Clicou em um elemento] ao criar uma atividade de [!UICONTROL teste multivariado] (MVT). (TGT-43842)
@@ -37,9 +37,9 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 * Correção de um problema que impedia os clientes de editar ofertas HTML/JSON após duplicar experiências ao usar o [!UICONTROL Experience Composer baseado em formulário]. (TGT-43633)
 * Correção de um problema que impedia os clientes de copiarem uma atividade de [!UICONTROL Teste A/B] de um espaço de trabalho não padrão para outro espaço de trabalho não padrão. (TGT-41910)
 * Correção de um problema para garantir que os clientes possam exibir apropriadamente os usos de [!DNL Recommendations] objetos (designs, critérios, coleções e assim por diante) em [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) atividades que contêm recomendações e também excluem objetos de critérios que não estão mais em uso no [!DNL Target] Interface do usuário e [!DNL Recommendations] backend. (TGT-42331)
-* Correção de um problema que fazia com que um alerta de tempo limite de rede fosse exibido no [!DNL Target] IU ao buscar parâmetros. (TGT-43737)
-* Foram feitas atualizações na interface do usuário para garantir que determinadas ações de arrastar e soltar sejam acessíveis pelo teclado. (TGT-42969)
-* Atualizações feitas na interface do usuário para garantir que as sequências de texto estejam corretamente localizadas.
+* Correção de um problema que fazia com que um alerta de tempo limite de rede fosse exibido na interface do [!DNL Target] ao buscar parâmetros. (TGT-43737)
+* Foram feitas atualizações na interface para garantir que determinadas ações de arrastar e soltar sejam acessíveis pelo teclado. (TGT-42969)
+* Atualizações feitas na interface para garantir que as sequências de texto estejam corretamente localizadas.
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
