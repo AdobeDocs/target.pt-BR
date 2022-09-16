@@ -4,7 +4,7 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar [!DNL Target] Anúncios e informações do evento?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1837'
 ht-degree: 87%
@@ -91,16 +91,16 @@ Explore ideias em:
 
 Aumentar a fidelidade em um período de aumento de problemas na cadeia de suprimentos, falhas de serviço e limitações de equipe é um desafio que a maioria das marcas de viagem, hotelaria e restaurantes está enfrentando. Na era da IA, como as marcas dimensionam experiências sem os recursos necessários que deixaram o setor? O progresso digital está 20 a 25 vezes mais rápido para oferecer suporte não apenas às expectativas aceleradas dos clientes, mas também para dimensionar equipes por meio da automação.
 
-+++Detalhes
+* +++Detalhes
 
-Em 2022, os sistemas atingiram um ponto de inflexão na capacidade de fornecer inteligência contínua para entrega de ativação de fidelidade em tempo real.
+   Em 2022, os sistemas atingiram um ponto de inflexão na capacidade de fornecer inteligência contínua para entrega de ativação de fidelidade em tempo real.
 
-Tópicos que exploraremos:
+   Tópicos que exploraremos:
 
-* A aceleração da ruptura digital e a ascensão da IA
-* Por que os primeiros adeptos estão ganhando tanto no crescimento de receita como de resultado
-* Automatização da personalização em viagens
-* Ativação de fidelidade em tempo real em ação
+   * A aceleração da ruptura digital e a ascensão da IA
+   * Por que os primeiros adeptos estão ganhando tanto no crescimento de receita como de resultado
+   * Automatização da personalização em viagens
+   * Ativação de fidelidade em tempo real em ação
 
 +++
 
@@ -110,9 +110,9 @@ O ano de 2022 proporcionou às empresas um ambiente dinâmico e em rápida mudan
 
 * [Link da gravação](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Detalhes
+* +++Detalhes
 
-Junte-se a Michael Klein (Diretor, Estratégia do setor de varejo) e Leina Betzer (Consultora do Target, Adobe Premier Support) para discutir como as vendas de comércio eletrônico de varejo estão disparando à medida que os padrões e comportamentos de compra do consumidor mudam, com maior demanda por bens e serviços em certos mercados.
+   Junte-se a Michael Klein (Diretor, Estratégia do setor de varejo) e Leina Betzer (Consultora do Target, Adobe Premier Support) para discutir como as vendas de comércio eletrônico de varejo estão disparando à medida que os padrões e comportamentos de compra do consumidor mudam, com maior demanda por bens e serviços em certos mercados.
 
 +++
 
