@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
+source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 86%
+source-wordcount: '2044'
+ht-degree: 80%
 
 ---
 
@@ -21,6 +21,27 @@ A Gartner nomeou o [!DNL Adobe Target] como líder no último Magic Quadrant for
 
 Para obter mais informações, consulte a [publicação no blog da Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+
+## [!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (28 de setembro de 2022)
+
+Junte-se a Gentry Lin e a Brent Kostak para responder em tempo real a perguntas postadas por [!DNL Adobe Target] clientes em [!UICONTROL Comunidade do Target] discussão. Este intervalo de café será uma extensão da conversa do webinário sobre P&amp;D do [!DNL Adobe Target] Construtores de habilidades - Webinar de otimização de experiência móvel.
+
++++Detalhes
+
+* **Quarta-feira, 28 de setembro de 2022**
+* **Das 8h às 9h (PDT, UTC-7)**
+* **[Registrar link](https://adobe.ly/3pYkmMG){target=_blank}**
+
+Você é convidado a postar perguntas relacionadas aos tópicos abordados durante a [[!DNL Adobe Target] Webinar da série Skill Builder Expedition na otimização da experiência móvel](https://video.tv.adobe.com/v/347360){target=_blank}, bem como outras áreas de conhecimento de Gentry e Brent com [!DNL Target]:
+
+* [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT), [!UICONTROL Direcionamento de experiência] (XT), testes automatizados e personalização
+* Fluxos de trabalho de configuração de atividade passo a passo
+* Pré-busca de experiência em lote, permitindo personalização sempre ativa para dispositivos móveis
+* Medições de ciclo de vida para testar e segmentar as experiências do cliente, SDKs e APIs móveis e implementações da plataforma iOS e Android
+* Fluxos de trabalho principais para criações Web
+* [!DNL Adobe Experience Cloud] integrações
+
++++
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
