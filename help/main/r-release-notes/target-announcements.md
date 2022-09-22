@@ -1,13 +1,13 @@
 ---
 keywords: anúncios;skill builder;bate-papo do desenvolvedor;coffee break;eventos;forrester;gartner;webinário
 description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] , inclusive sessões do Skill Builder, bate-papos com desenvolvedores e gerentes de produtos, webinários e muito mais.
-title: Onde posso encontrar [!DNL Target] Anúncios e informações do evento?
+title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
 workflow-type: tm+mt
 source-wordcount: '1894'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ Anúncios e informações sobre eventos futuros do [!DNL Adobe Target], incluind
 
 ## [!DNL Target] nomeado líder no Gartner Magic Quadrant for Personalization Engines (2022)
 
-A Gartner nomeou o [!DNL Adobe Target] como líder no último Magic Quadrant for Personalization Engines (PE) pelo quinto ano consecutivo. A [!DNL Adobe] também recebeu pontuações máximas e aumentos significativos de ano para ano em todos os três casos de uso principais: Marketing digital, Comércio digital e Serviço e suporte. [!DNL Target] recebeu as pontuações mais altas para nossos recursos de teste entre todos os fornecedores avaliados.
+A Gartner nomeou o [!DNL Adobe Target] como líder no último Magic Quadrant for Personalization Engines (PE) pelo quinto ano consecutivo. A [!DNL Adobe] também recebeu pontuações máximas e aumentos significativos de ano para ano em todos os três casos de uso principais: Marketing digital, Comércio digital e Serviço e suporte. O [!DNL Target] recebeu as pontuações mais altas por seus recursos de teste entre todos os fornecedores avaliados.
 
 Para obter mais informações, consulte a [publicação no blog da Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
@@ -91,7 +91,7 @@ Junte-se à equipe do [!DNL Adobe Target] [!DNL ] durante a apresentação de al
 
    +++Detalhes
 
-   Explore ideias em:
+   Veja ideias sobre:
 
    * Como usar a personalização para criar fidelidade
    * Otimização para obter vantagem competitiva
@@ -184,7 +184,7 @@ Conheça as práticas recomendadas para aumentar os programas de personalizaçã
 
    +++Detalhes
 
-   Junte-se a Shawn Wilkinson (Gerente de personalização de e-commerce) para saber como o produto [!DNL Target] está ajudando a Dick&#39;s Sporting Goods a transformar visitantes comuns em atletas recorrentes.
+   Junte-se a Shawn Wilkinson (Gerente de personalização de comércio eletrônico) para saber como o [!DNL Target] está ajudando a Dick&#39;s Sporting Goods a transformar visitantes comuns em atletas recorrentes.
 
    Saiba como a Dick&#39;s Sporting Goods está impulsionando o crescimento de dois dígitos à medida que analisamos:
 
