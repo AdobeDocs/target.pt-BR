@@ -6,9 +6,9 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,21 +28,21 @@ Esta versão estará disponível de acordo com o seguinte agendamento:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Adicionado uma opção [!UICONTROL Entre domínios] ao baixar o at.js 2.10.0 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
-* Notificações atualizadas no [!DNL Target] Interface do usuário para informar os clientes se a importação de [!DNL Recommendations] os feeds falham. (TGT-35811)
+* Adicionada uma opção [!UICONTROL Entre domínios] ao baixar a at.js 2.10.0 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
+* Notificações atualizadas na interface do [!DNL Target] para informar os clientes sobre falhas na importação dos feeds do [!DNL Recommendations]. (TGT-35811)
 * Correção de um problema que fazia com que as [!UICONTROL Ofertas de decisão] não funcionassem corretamente no [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Correção de um problema que exibia uma mensagem de erro ao selecionar a meta de conversão [!UICONTROL Clicou em um elemento] ao criar uma atividade de [!UICONTROL teste multivariado] (MVT). (TGT-43842)
 * Correção de um problema que impedia que a coluna [!UICONTROL Impressões] fosse exibida no arquivo de relatório em CSV baixado para atividades de [!UICONTROL Automated Personalization] (AP). (TGT-43780)
 * Correção de um problema que impedia os clientes de editar ofertas HTML/JSON após duplicar experiências ao usar o [!UICONTROL Experience Composer baseado em formulário]. (TGT-43633)
 * Correção de um problema que impedia os clientes de copiarem uma atividade de [!UICONTROL Teste A/B] de um espaço de trabalho não padrão para outro espaço de trabalho não padrão. (TGT-41910)
-* Correção de um problema para garantir que os clientes possam exibir apropriadamente os usos de [!DNL Recommendations] objetos (designs, critérios, coleções e assim por diante) em [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) atividades que contêm recomendações e também excluem objetos de critérios que não estão mais em uso no [!DNL Target] Interface do usuário e [!DNL Recommendations] backend. (TGT-42331)
-* Correção de um problema que fazia com que um alerta de tempo limite de rede fosse exibido no [!DNL Target] IU ao buscar parâmetros. (TGT-43737)
-* Foram feitas atualizações na interface do usuário para garantir que determinadas ações de arrastar e soltar sejam acessíveis pelo teclado. (TGT-42969)
-* Atualizações feitas na interface do usuário para garantir que as sequências de texto estejam corretamente localizadas.
+* Um problema foi corrigido para garantir que os clientes possam exibir apropriadamente o uso de objetos do [!DNL Recommendations] (designs, critérios, coleções e assim por diante) em atividades de [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) que contêm recomendações, permitindo também excluir objetos de critério que não estão mais sendo usados na interface do [!DNL Target] e no back-end do [!DNL Recommendations]. (TGT-42331)
+* Correção de um problema que fazia com que um alerta de tempo limite de rede fosse exibido na interface do [!DNL Target] ao buscar parâmetros. (TGT-43737)
+* Foram feitas atualizações na interface para garantir que determinadas ações de arrastar e soltar sejam acessíveis pelo teclado. (TGT-42969)
+* Atualizações feitas na interface para garantir que as sequências de texto estejam corretamente localizadas.
 
 ## at.js versão 2.10.0 (13 de setembro de 2022)
 
-* Adicionado uma opção [!UICONTROL Entre domínios] ao baixar o at.js 2.10.0 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
+* Adicionada uma opção [!UICONTROL Entre domínios] ao baixar a at.js 2.10.0 (e posterior) para permitir ou desativar a configuração de cookies de terceiros. (TGT-43674)
 
 ## Notas de versão adicionais e detalhes da versão
 
