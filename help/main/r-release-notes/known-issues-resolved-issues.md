@@ -4,9 +4,9 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
+source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
 workflow-type: tm+mt
-source-wordcount: '4617'
+source-wordcount: '4593'
 ht-degree: 95%
 
 ---
@@ -98,10 +98,6 @@ Quando uma métrica de sucesso é definida para incrementação a cada impressã
 Ao usar impressões e conversões de atividades do Target no Analysis Workspace, aplique o modelo do Attribution IQ &quot;Mesmo toque&quot; às métricas para garantir uma contagem precisa. Para aplicar um [modelo de atribuição não padrão](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=pt-BR), clique com o botão direito do mouse na métrica para **modificar Configurações de coluna > habilitar Usar modelo de atribuição não padrão > selecione Modelo de mesmo toque**. Sem esse modelo aplicado, as métricas são sobrescritas.
 
 Todos os pacotes atuais do Analytics podem adicionar esse modelo com o Attribution IQ. Se você não tiver acesso ao Attribution IQ, confie nos dados do A4T no Reports &amp; Analytics.
-
-### APIs do Target
-
-Os clientes não podem realizar operações CRUD em atividades de Alocação automática com a versão v3 da API de Atividades A/B no Adobe I/O.
 
 ### Relatórios — dados inconsistentes no relatório .csv para download em comparação ao relatório exibido na interface do [!DNL Target] {#csv}
 
