@@ -4,7 +4,7 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -22,10 +22,6 @@ Informações sobre problemas conhecidos do [!DNL Adobe Target]. Também inclui 
 ## Problemas conhecidos {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 As seguintes seções listam os problemas conhecidos do [!DNL Target]:
-
-### Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário {#ad-hoc}
-
-Evite excluir os locais em uma atividade criada no Experience Composer baseado em formulário, se esses locais usarem ofertas ad-hoc (ofertas criadas dentro da atividade). A exclusão de locais pode fazer com que a atividade fique corrompida. A equipe do [!DNL Target] está trabalhando em uma correção para isso. Como solução alternativa, você pode criar ofertas globais da [!UICONTROL Biblioteca de ofertas] e usá-las com locais ou criar novas experiências, se necessário. (KB-2014)
 
 ### O Enhanced Experience Composer (EEC) não é compatível com solicitações PUT.
 
@@ -116,6 +112,10 @@ A fonte da verdade é sempre o relatório exibido na interface do usuário do [!
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Conforme os problemas conhecidos acima são resolvidos, eles são movidos para as seções a seguir. Se necessário, são acrescentadas observações adicionais.
+
+### Exclusão de locais que têm ofertas ad-hoc em atividades criadas no Experience Composer baseado em formulário {#ad-hoc}
+
+Evite excluir os locais em uma atividade criada no Experience Composer baseado em formulário, se esses locais usarem ofertas ad-hoc (ofertas criadas dentro da atividade). A exclusão de locais pode fazer com que a atividade fique corrompida. A equipe do [!DNL Target] está trabalhando em uma correção para isso. Como solução alternativa, você pode criar ofertas globais da [!UICONTROL Biblioteca de ofertas] e usá-las com locais ou criar novas experiências, se necessário. (KB-2014)
 
 ### Métricas do Analytics for Adobe Target (A4T) para atividades de Alocação automática e Direcionamento automático
 
