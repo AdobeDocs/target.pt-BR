@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: bd12d615b784b26e2b5a7b9e391f3e7d5a9cc8c5
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 32%
+source-wordcount: '473'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização em 7 de setembro de 2022**
+**Última atualização em 27 de setembro de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -40,7 +40,7 @@ Esta versão contém os seguintes novos recursos, aprimoramentos e correções:
 * Correção de um problema que impedia o arquivamento de alguns clientes [!UICONTROL Teste A/B] atividades que usam [!UICONTROL Direcionamento automático]. (TGT-40978)
 * Adição da capacidade de usar automaticamente uma única oferta em vários locais em um único grupo de relatórios. (TGT-43974)
 * Adição da capacidade de filtrar fragmentos de experiência por tipo (HTML ou JSON) no [!UICONTROL Ofertas] lista. (TGT-43121)
-* Correção de um problema que permitia aos clientes inserir JSON [!UICONTROL Fragmento de experiência] ofertas ao usar o VEC. As ofertas JSON só podem ser inseridas usando o [!UICONTROL Experiência baseada em formulário] compositor. (TGT-43846)
+* Correção de um problema que permitia aos clientes inserir JSON [!UICONTROL Fragmento de experiência] ofertas ao usar o VEC, que não é compatível. As ofertas JSON podem ser inseridas somente ao usar a variável [!UICONTROL Experiência baseada em formulário] compositor. (TGT-43846)
 
 ## Informações de pré-lançamento {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
