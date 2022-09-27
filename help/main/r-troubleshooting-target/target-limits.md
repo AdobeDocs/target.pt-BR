@@ -5,7 +5,7 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -301,8 +301,8 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
    Isso se refere ao número de valores separados por linha na área de texto de definição de metas. Por exemplo, inserir 1.000 códigos postais em uma meta de código postal.
 
-### Regras de direcionamento
+### Regras de direcionamento {#targeting-rules}
 
 * **Limite recomendado**: 2.500 caracteres por valor de regra de direcionamento.
-* **Limite recomendado**: 30.000 valores únicos por público-alvo nas regras de direcionamento.
+* **Limite recomendado**: 50,000 valores únicos por público-alvo nas regras de direcionamento.
 * **Limite recomendado**: 100.000 valores únicos de regras de direcionamento por atividade.
