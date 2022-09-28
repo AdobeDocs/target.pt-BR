@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -47,24 +47,24 @@ Você é convidado a postar perguntas relacionadas aos tópicos abordados durant
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Adobe Target] para atingir suas metas de personalização e otimização:
 
-### Ajuste fino da personalização alimentada por IA: Novos recursos em [!DNL Adobe Target] (11 de outubro de 2022)
+### Ajuste da personalização alimentada por IA: Novos recursos do [!DNL Adobe Target] (11 de outubro de 2022)
 
-Junte-se a nós para este webinário especial de anúncio do produto!
+Junte-se a nós para este webinário especial de anúncio de produto.
 
-Estamos animados em compartilhar notícias &quot;muito grandes&quot; e inovadoras em termos de personalização em escala com [!DNL Adobe Target]: nova filtragem e inteligência que melhorarão a capacidade de [!DNL Target] usuários para ajustar as atividades de personalização alimentadas por IA a fim de afetar diretamente as métricas de negócios mais importantes em uma base de atividade.
+Estamos felizes em compartilhar grandes e inovadoras notícias sobre a personalização em escala no [!DNL Adobe Target]: um novo sistema de filtragem e inteligência que melhorará a capacidade de usuários do [!DNL Target] realizarem o ajuste de atividades de personalização alimentadas por IA, a fim de afetar diretamente as métricas empresariais mais importantes a cada atividade.
 
 +++Detalhes
 
-Este novo anúncio de produto é oportuno e hiper-crítico, já que vimos a necessidade de aumento da taxa de personalização, independentemente do setor, nos últimos anos. Tornou-se um meio para as empresas se diferenciarem criticamente da concorrência ao longo da jornada dos seus clientes. A personalização pode ser altamente eficiente em &quot;todos os lugares&quot;: começando pelo primeiro contato de um visitante, aproveitando os dados básicos para casos de uso de aquisição, até o atendimento ao cliente e casos de uso de fidelidade.
+Este novo anúncio de produto é oportuno e extremamente importante, já que, nos últimos anos, vimos a necessidade de aumento da taxa de personalização, independentemente do setor. Ela se tornou um meio de as empresas se diferenciarem da concorrência ao longo da jornada dos seus clientes. A personalização pode ser altamente eficiente em “todos os lugares”: começando pelo primeiro contato de um visitante, aproveitando os dados básicos para casos de uso de aquisição, até o atendimento ao cliente e casos de uso de fidelidade.
 
-Nesta sessão, saiba como você pode sobrecarregar o aumento de conversão aproveitando as vantagens de [!DNL Adobe Target]Os novos recursos da durante a discussão:
+Ao decorrer desta sessão, aprenda como você pode sobrecarregar o aumento de conversão aproveitando os novos recursos do [!DNL Adobe Target]:
 
-* Controles de modelo aprimorados no [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático] atividades
-* Desbloquear a capacidade de avaliar atributos de perfil e segmentos de alto valor de [!DNL Adobe]&#39;s [!DNL Real-Time Customer Data Platform]
+* Controles de modelo aprimorados nas atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático]
+* Desbloquear a capacidade de avaliar atributos de perfil e segmentos de alto valor da [!DNL Adobe] [!DNL Real-Time Customer Data Platform]
 * Como as marcas podem fornecer velocidades e decisões mais rápidas ajustando seus algoritmos alimentados por IA
 * Casos de uso únicos para fornecer personalização de 1 para 1
 
-* **terça-feira, 11 de outubro de 2022**
+* **Terça-feira, 11 de outubro de 2022**
 * **13h às 14h (EDT, UTC-4)**
 * **[Mais informações e detalhes de inscrição](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -96,10 +96,10 @@ As experiências móveis estão promovendo a inovação da maneira como as equip
 
    Mapa do curso:
 
-   * [!UICONTROL Teste A/B], [!UICONTROL Multivariate Testing] (MVT), (XT) e teste e personalização automatizados
+   * [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT), Direcionamento de experiência (XT) e teste e personalização automatizados
    * Fluxos de trabalho passo a passo para a configuração da atividade
-   * Pré-busca de experiência em lote, permitindo personalização sempre ativa para dispositivos móveis
-   * Medições de ciclo de vida para testes e definição de metas em todas as experiências do cliente
+   * Pré-busca de experiência em lote, permitindo uma personalização contínua em dispositivos móveis
+   * Métricas de ciclo de vida para testes e direcionamento em todas as experiências do cliente
    * SDKs móveis = APIs para implementações flexíveis (plataformas iOS e Android)
 
 +++
@@ -124,7 +124,7 @@ Junte-se à equipe do [!DNL Adobe Target] [!DNL ] durante a apresentação de al
 
 Aumentar a fidelidade em um período de aumento de problemas na cadeia de suprimentos, falhas de serviço e limitações de equipe é um desafio que a maioria das marcas de viagem, hotelaria e restaurantes está enfrentando. Na era da IA, como as marcas dimensionam experiências sem os recursos necessários que deixaram o setor? O progresso digital está 20 a 25 vezes mais rápido para oferecer suporte não apenas às expectativas aceleradas dos clientes, mas também para dimensionar equipes por meio da automação.
 
-* **[Inscreva-se para exibir a gravação do webinário](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Inscreva-se para assistir a gravação do webinário](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Detalhes
 
@@ -249,7 +249,7 @@ Visualize o kit de ferramentas e os casos de uso para implementar estratégias d
 
 ### Personalização em tempo real com o [!DNL Adobe Target]
 
-* **[Inscreva-se para exibir a gravação do webinário](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Inscreva-se para assistir a gravação do webinário](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Detalhes
 
