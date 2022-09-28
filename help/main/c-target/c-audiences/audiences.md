@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo no [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 27%
+source-wordcount: '1500'
+ht-degree: 24%
 
 ---
 
@@ -108,19 +108,31 @@ Keep the following points in mind as you work with imported audiences:
 ## Usar públicos-alvo de [!DNL Adobe Experience Platform] {#aep}
 
 O uso de públicos-alvo criados na [!DNL Adobe Experience Platform] fornece dados do cliente mais avançados, o que resulta em uma personalização mais impactante. O [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR){target=_blank} (RTCDP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unir dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas de clientes em todos os canais e dispositivos em tempo real.
++
+Conectando o [!DNL Target] à [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da web desbloqueando novos segmentos que antes podiam estar indisponíveis no [!DNL Target] e permitir a personalização em tempo real e em milissegundos na primeira página visitada pelo cliente na web. Uso de públicos-alvo e atributos de perfil criados no [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para personalização mais avançada.
 
-Conectando o [!DNL Target] à [!DNL Real-time Customer Data Platform], os clientes podem enriquecer a personalização da web desbloqueando novos segmentos que antes podiam estar indisponíveis no [!DNL Target] e permitir a personalização em tempo real e em milissegundos na primeira página visitada pelo cliente na web. Usar públicos criados na [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para uma personalização mais avançada.
-
-Essa integração desbloqueia casos de uso principais com RTCDP:
+Essa integração desbloqueia casos de uso principais com a CDP em tempo real:
 
 * Personalização de mesma página/próxima ocorrência
 * Personalização pela primeira vez / usuários desconhecidos
 
 Os principais recursos incluem:
 
-* Integração direta do Target com RTCDP/[!DNL Adobe Experience Platform] no Edge (removendo dependência em [!DNL Audience Core services] - AAM)
-* [!UICONTROL Cartão de Destinos da borda do Target] com aplicação da governança
-* Segmentação de borda e perfil de borda com perfil unificado
+* Integração direta do Target com a CDP/ em tempo real[!DNL Adobe Experience Platform] no Edge (removendo dependência em [!DNL Audience Core services] - AAM)
+* [!UICONTROL Cartão de Destinos da borda do Target] com a governação e a aplicação das políticas
+* Segmentos da CDP em tempo real e atributos de perfil compartilhados
+
+Limitações de recursos e considerações dos atributos de perfil da CDP em tempo real:
+
+* Os atributos em uma determinada oferta devem ser da mesma sandbox da AEP. (Em outras palavras, uma oferta não pode conter atributos de sandboxes da AEP diferentes.)
+* Os atributos de uma determinada oferta podem vir de fontes diferentes; ou seja, o perfil do Target e o perfil do AEP.(Em outras palavras, é possível combinar atributos provenientes do Target ou do perfil da AEP.)
+* Ao definir uma oferta, você pode atribuir valores padrão para Atributos de perfil da CDP em tempo real, caso o atributo não tenha um valor explícito. Por exemplo, se uma política de consentimento ou de governança bloquear o atributo que está sendo usado no serviço de personalização, o valor padrão poderá ser usado.
+* Quando compartilhados, os Atributos de perfil da CDP em tempo real são usados nos modelos de personalização de Inteligência artificial/Aprendizagem de máquina para Direcionamento automático e Automated Personalization.
+
+>[!NOTE]
+>
+>O recurso Atributos de perfil da CDP em tempo real está disponível em Beta para ofertas do HTML e [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
 
 Para obter mais informações, consulte os seguintes tópicos:
 

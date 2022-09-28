@@ -4,10 +4,10 @@ description: Saiba como criar ofertas JSON no Adobe [!DNL Target] para uso no Ex
 title: Como crio ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 49%
+source-wordcount: '535'
+ht-degree: 38%
 
 ---
 
@@ -130,6 +130,16 @@ adobe.target.getOffer({
   } 
 });
 ```
+
+## Exemplo de oferta JSON usando atributos de perfil da CDP em tempo real
+
+Os atributos de perfil da CDP em tempo real podem ser compartilhados com o Target para uso na oferta do HTML e em ofertas JSON. (Observe que esse recurso está atualmente na versão beta.)
+
+Caso de uso de exemplo: Como comerciante online, a Grace quer que o Perfil AEP/Unified compartilhe valores de atributo com o Target para fornecer personalização em tempo real. Ao usar Atributos de perfil da CDP em tempo real, o Grace pode exibir o valor do atributo AEP em uma oferta do Target usando a substituição de token. Por exemplo, ela pode personalizar de acordo com a cor favorita de um cliente usando `${aep.profile.favoriteColor}`ou seu nível de fidelidade e valor do ponto de fidelidade usando os tokens `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+No exemplo mostrado acima, observe que a atribuição de valores padrão é opcional.
 
 ## Filtragem de ofertas pelo tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
