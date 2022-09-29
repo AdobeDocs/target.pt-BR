@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 99%
+source-wordcount: '1213'
+ht-degree: 98%
 
 ---
 
@@ -234,6 +234,7 @@ ht-degree: 99%
          + [Solução de problemas do Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Ativar conteúdo misto no navegador](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Cenários de modificação da página](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension)
          + [Extensão de ajuda do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redirecionar para um URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Criação de carrosséis que funcionam no Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)

@@ -4,10 +4,10 @@ description: Descubra por que alguns sites podem não abrir de maneira confiáve
 title: Como uso a extensão de ajuda do Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 67%
+source-wordcount: '1058'
+ht-degree: 58%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 67%
 
 O [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) A extensão do navegador de ajuda para o Google Chrome permite carregar os sites de maneira confiável no VEC a fim de criar e controlar a qualidade das experiências da Web com rapidez.
 
->[!NOTE]
+O navegador VEC Helper é uma extensão do Chrome. Essa extensão não é necessária ao usar o Mozilla Firefox.
+
+>[!IMPORTANT]
 >
->O navegador VEC Helper é uma extensão do Chrome. Essa extensão não é necessária ao usar o Mozilla Firefox.
+>A partir de janeiro de 2023, a variável [!DNL Target] A extensão VEC Helper deixará de funcionar no Google Chrome porque o Google não permitirá extensões usando o Manifest V2. Baixe a nova extensão para continuar a criar visualmente seus sites em [!DNL Target] a partir do novo ano. Para obter mais informações, consulte [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 
@@ -31,7 +33,7 @@ Um SW é uma tecnologia da Web que pode ser usada para interceptar solicitaçõe
 
 O SW pode controlar o armazenamento em cache; pode armazenar em cache a própria página da Web, recursos estáticos, como JS, CSS, IMG, solicitações de AJAX e seu conteúdo e cabeçalhos de resposta, incluindo aqueles que a [extensão auxiliar do Target VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta remover, como X-Frame-Options: SAMEORIGIN, CSP (Política-Segurança-Conteúdo) ou definir-cookie.
 
-Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi fornecida a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido ao X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
+Infelizmente, as APIs de extensão do Chrome que interceptam solicitações da Web não recebem as solicitações que foram interceptadas e tratadas por um SW. Portanto, a extensão não pode corrigir os cabeçalhos e os cookies se a solicitação de página da Web foi veiculada a partir de um cache por um SW, pois a página da Web não será carregada dentro do VEC devido às X-Frame-Options ou cabeçalhos CSP que também foram armazenados em cache.
 
 Como uma possível solução alternativa, você pode desativar o Service Workers do Chrome Developer Tools > guia do Aplicativo e, em seguida, habilitar a caixa de seleção &quot;Bypass for network&quot; na seção Service Workers.
 

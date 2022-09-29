@@ -4,14 +4,14 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 52%
 
 ---
 
-# Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer
+# Solução de problemas relacionados ao [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer]
 
 Problemas de exibição e outros problemas às vezes ocorrem na [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) e a [!UICONTROL Enhanced Experience Composer] (CEE) em determinadas condições.
 
