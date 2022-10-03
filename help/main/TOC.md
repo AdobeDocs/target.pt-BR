@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1221'
 ht-degree: 98%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 98%
       + [Média de aumento, limites de aumento e intervalo de confiança](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Exibir várias métricas em um relatório](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Excluir valores extremos](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + Metodologia estatística {#statistical-methodology}
+      + [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [Relatório de Resumo do direcionamento automático](c-reports/auto-target-summary-report.md)
    + [Relatórios de resumo de Automated Personalization](c-reports/reports-ap.md)
    + Relatório de insights de personalização {#insights}
