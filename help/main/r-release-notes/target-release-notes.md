@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 28%
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização em 29 de setembro de 2022**
+**Última atualização em: 3 outubro de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -23,9 +23,9 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **Outubro 4**: Europa, Oriente Médio e África (EMEA)
 * **5 de outubro**: Região Ásia-Pacífico (APAC)
 * **6 de outubro**: Região das Américas
+* **7 de outubro**: Europa, Oriente Médio e África (EMEA)
 
 Esta versão contém os seguintes novos recursos, aprimoramentos e correções:
 
