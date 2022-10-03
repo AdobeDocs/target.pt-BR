@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas sobre aumento e confiança ao usa
 title: Onde posso encontrar informações sobre aumento e confiança com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre aumento e
 
 ## Posso realizar cálculos offline para o A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics]. Para obter mais informações, consulte &quot;Realização de cálculos off-line do Analytics para Target (A4T)&quot; em [Nível de confiança e Intervalo de confiança](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics]. Para obter mais informações, consulte [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Como o aumento é calculado? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ Aumento é a diferença percentual entre os resultados da página de controle e 
 
 ## Como a confiança é calculada?  {#section_97DB24D833E742988318CA65DA65DAD9}
 
-O nível de confiança é uma probabilidade, expressa como uma porcentagem, que é igual a `1 - p-value`, em que `p-value` é calculado a partir de um teste t. Consulte [Índice de conversão](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+O nível de confiança é uma probabilidade, expressa como uma porcentagem, que é igual a `1 - p-value`, em que `p-value` é calculado a partir de um teste t. Consulte [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#lift-confidence}
 

@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 98%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 98%
    + [Relatório de desempenho da experiência (MVT)](c-reports/experience-performance-report.md)
    + [Relatório de contribuição de localização (MVT)](c-reports/location-contribution-report.md)
    + [Relatórios do Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Índice de conversão](c-reports/conversion-rate.md)
    + [Download de dados em um arquivo CSV](c-reports/downloading-data-in-csv-file.md)
    + [Perguntas frequentes de geração de relatórios](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}

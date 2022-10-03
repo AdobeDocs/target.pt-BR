@@ -4,9 +4,9 @@ description: Saiba como interpretar o relatório de Resumo do Automated Personal
 title: Como uso os relatórios de resumo do Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '673'
 ht-degree: 40%
 
 ---
@@ -38,7 +38,7 @@ O relatório [!UICONTROL Nível de atividade] compara o desempenho agregado de u
 
 ![Relatório de nível de atividade](/help/main/c-reports/assets/box_plot_ap.png)
 
-As regras padrão da interpretação de resultados do teste A/B ainda são aplicáveis, incluindo incentivo, confiança, tendência, duração e assim por diante. Para obter mais informações sobre a interpretação de resultados, consulte  [Sobre o Índice de conversão](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+As regras padrão da interpretação de resultados do teste A/B ainda são aplicáveis, incluindo incentivo, confiança, tendência, duração e assim por diante. Para obter mais informações sobre a interpretação de resultados, consulte  [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Relatório de nível de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
 
