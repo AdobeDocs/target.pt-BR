@@ -4,10 +4,10 @@ description: Saiba como evitar as armadilhas e erros mais comuns que as empresas
 title: Como evitar erros comuns em testes A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '3884'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '3898'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Nos testes A/B, os profissionais de marketing geralmente usam níveis de confian
 
 Como o gráfico abaixo ilustra, quanto mais testes você executar, mais provavelmente, pelo menos um desses testes resultará em um falso positivo. Por exemplo, se você executar 10 testes usando um nível de confiança de 95%, haverá aproximadamente 40% de chance de detectar um ou mais falsos positivos (dado que não há um aumento real: Pr (pelo menos um falso positivo) = 1 - Pr (sem falsos positivos) = 1 - 0,95 ^ 10 = 40%).
 
-![](assets/pitfalls1.png)
+![imagem armadilha1](assets/pitfalls1.png)
 
 Em uma organização de marketing, 95% geralmente constitui uma compensação razoável entre o risco de um falso positivo e o falso negativo.
 
@@ -59,7 +59,7 @@ No entanto, duas situações justificam prestar muita atenção ao nível de sig
 
 Com vários testes de ofertas, os profissionais de marketing geralmente declaram a oferta com o maior aumento como vencedora do teste, embora não haja diferença estatisticamente significativa entre o vencedor e o segundo lugar. Esta situação ocorre quando a diferença entre as alternativas é menor que a diferença entre as alternativas e o controle. A figura abaixo ilustra esse conceito, com as barras de erro pretas representando intervalos de confiança de elevação de 95%. O verdadeiro aumento para cada oferta em relação à oferta de controle é 95% provável de ser incluído dentro do intervalo de confiança, ou seja, o intervalo mostrado pelas barras de erro.
 
-![](assets/pitfalls2.png)
+![imagem armadilha2](assets/pitfalls2.png)
 
 As ofertas A e B têm o maior aumento observado durante o teste, e seria improvável que a oferta C superasse essas ofertas em um teste futuro, porque o intervalo de confiança de C nem sequer se sobrepõe aos intervalos de confiança de A ou B. Contudo, mesmo que a oferta A tenha o maior aumento observado durante o teste, é bem possível que a oferta B possa ter um melhor desempenho em um teste futuro, porque os intervalos de confiança se sobrepõem.
 
@@ -77,7 +77,7 @@ Existem dois fatores principais que determinam o poder de um teste. O primeiro �
 
 Os profissionais de marketing de hoje subestimam um número notável de testes. Em outras palavras, eles usam um tamanho de amostra muito pequeno. Isso significa que eles têm uma pequena chance de detectar verdadeiros positivos, mesmo quando realmente existe uma diferença substancial na taxa de conversão. De fato, se você executar continuamente testes de baixa potência, o número de falsos positivos pode ser comparável ou até mesmo dominar o número de positivos verdadeiros. Isso geralmente leva à implementação de alterações neutras em um site (perda de tempo) ou a alterações que realmente reduzem as taxas de conversão.
 
-![](assets/pitfalls3.png)
+![imagem de armadilhas3](assets/pitfalls3.png)
 
 Para evitar subutilizar seu teste, considere que um padrão típico para um teste potente inclui um nível de confiança de 95% e um poder estatístico de 80%. Esse teste oferece uma probabilidade de 95% de que você evite um falso positivo e uma probabilidade de 80% de evitar um falso negativo.
 
@@ -109,7 +109,7 @@ Para evitar este problema, você deve determinar um período de tempo adequado d
 
 A figura abaixo mostra cinco ofertas que têm a mesma taxa de conversão de longo prazo. A Oferta B teve uma taxa de conversão baixa para os primeiros 2.000 visitantes, e leva muito tempo até que a taxa de conversão estimada retorne à taxa real de longo prazo.
 
-![](assets/pitfalls4.png)
+![imagem armadilha4](assets/pitfalls4.png)
 
 Esse fenômeno é conhecido como &quot;regressão à média&quot; e pode levar ao desapontamento quando uma oferta que teve bom desempenho durante os primeiros dias de um teste não consegue manter esse nível de desempenho a longo prazo. Também pode levar à perda de receita quando uma boa oferta não é implementada porque aconteceu de ter um desempenho ruim nos primeiros dias de um teste, apenas por acaso.
 
@@ -145,7 +145,7 @@ Essas ofertas incentivam os visitantes a converter mais cedo e serão favorecida
 
 A figura abaixo mostra duas ofertas que dois visitantes diferentes veem ao mesmo tempo em uma tarde de domingo. O período de consideração para a oferta A é curto e o visitante converte mais tarde naquele dia. No entanto, a oferta B tem um período de consideração mais longo, e o visitante que viu a oferta B pensa na oferta por algum tempo e acaba convertendo na manhã da segunda-feira. Se você interromper o teste no domingo à noite, a conversão associada à oferta A será contada para a métrica de conversão da oferta A, enquanto a conversão associada à oferta B não será contada para a métrica de conversão da oferta B. Isso coloca a oferta B em uma desvantagem significativa.
 
-![](assets/pitfalls5.png)
+![imagem armadilha5](assets/pitfalls5.png)
 
 Para evitar essa armadilha, reserve um tempo para que os visitantes expostos às ofertas de teste sejam convertidos depois que uma nova entrada no teste for interrompida. Este passo proporciona uma comparação justa das ofertas.
 
@@ -153,11 +153,11 @@ Para evitar essa armadilha, reserve um tempo para que os visitantes expostos às
 
 Os profissionais de marketing podem se sentir tentados a usar métricas de conversão de alto tráfego e baixa variação no funil superior, como taxa de cliques (CTR), para alcançar um número adequado de conversões de teste mais rapidamente. No entanto, considere cuidadosamente se a CTR é um proxy adequada para a meta de negócios que você deseja atingir. Ofertas com CTRs mais altas podem facilmente levar a uma receita menor. Isso pode acontecer quando as ofertas atraem visitantes com menor propensão a comprar, ou quando a própria oferta, por exemplo, uma oferta de desconto, simplesmente leva a uma receita menor.
 
-![](assets/pitfalls6.png)
+![imagem armadilha6](assets/pitfalls6.png)
 
 Considere a oferta de esqui abaixo. Ela gera uma CTR muito maior do que a oferta de bicicletas, mas como os visitantes gastam muito mais dinheiro em média quando acompanham a oferta de bicicletas, a receita esperada de colocar a oferta de bicicletas na frente de um visitante é maior. Portanto, um teste A/B com CTR como métrica selecionaria uma oferta que não maximiza a receita, o que seria o objetivo comercial fundamental.
 
-![](assets/pitfalls7.png)
+![imagem do pitfall7](assets/pitfalls7.png)
 
 Para evitar esse problema, monitore suas métricas de negócios com cuidado para identificar o impacto comercial das ofertas ou, melhor ainda, use uma métrica mais próxima de sua meta de negócios, se possível.
 

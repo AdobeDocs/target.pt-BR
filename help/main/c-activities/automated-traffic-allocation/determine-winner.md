@@ -4,10 +4,10 @@ description: Saiba como interpretar os resultados de uma atividade de Alocação
 title: Como interpreto os relatórios de alocação automática?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 45%
+source-wordcount: '1235'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Target] exibe um 
 
 Quando um vencedor claro é declarado, o [!DNL Target] exibe &quot;Vencedor: Experiência X&quot;.
 
-![](assets/winner.png)
+![imagem vencedora](assets/winner.png)
 
 >[!NOTE]
 >

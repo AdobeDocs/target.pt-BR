@@ -4,9 +4,9 @@ description: Saiba mais sobre a métrica de envolvimento de Pontuação de captu
 title: O que é a métrica Pontuação de captura?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ A métrica de envolvimento Pontuação de captura em [!DNL Adobe Target] O calcu
 
 O exemplo a seguir mostra como o envolvimento da pontuação é calculado em uma campanha que testa duas experiências, uma com uma imagem de um gato e outra com a imagem de um cão.
 
-![](assets/example_score.png)
+![imagem example_score](assets/example_score.png)
 
 Nesse exemplo, o primeiro visitante acessa a experiência do gato. Suponha que um [!DNL Target] passa em uma pontuação de página com base no valor da página. Se o comerciante tiver capturado o envolvimento de contagem de páginas em uma métrica de sucesso associada a `**any Target request**`, a pontuação de visita é acumulada para qualquer solicitação vista após a solicitação de exibição ao redor da imagem do gato.
 
@@ -25,7 +25,7 @@ A primeira página adiciona 1 à pontuação, a segunda página 0,25, a terceira
 
 Você pode levar em consideração os custos de aquisição e receita de links associados ao enviar adboxes e redirecionadores, conforme demonstrado no fluxo da página a seguir. Observe que, neste exemplo, ambos [!DNL Target] as solicitações na página do artigo passam uma pontuação, possivelmente representando um CPM conhecido.
 
-![](assets/example_score2.png)
+![imagem example_score2](assets/example_score2.png)
 
 ## Atribuição de uma pontuação de página
 

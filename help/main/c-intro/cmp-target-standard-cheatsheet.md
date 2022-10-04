@@ -4,9 +4,9 @@ description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 96%
 
 ---
@@ -212,13 +212,13 @@ Uma das maneiras é usar o [Editor de código personalizado](/help/main/c-experi
 
 Use os recursos Escrever e Navegar para navegar até a página se sua escolha e começar a criar sua experiência.
 
-![](assets/vec2.png)
+![imagem vec2](assets/vec2.png)
 
 **Como eu posso ir até a experiência escolhida por mim na etapa 2 do fluxo de trabalho orientado do Target (página de direcionamento)?**
 
 Clique na miniatura na frente do nome da experiência na etapa 2 e você será encaminhado para a experiência de sua escolha.
 
-![](assets/thumbnail_experiences.png)
+![imagem de miniatura_experiências](assets/thumbnail_experiences.png)
 
 **Eu sou um antigo usuário do Target Classic. Posso utilizar minhas mboxes para certos casos de uso?**
 

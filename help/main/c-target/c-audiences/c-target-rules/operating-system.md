@@ -4,10 +4,10 @@ description: Saiba como direcionar visitantes que usam um determinado sistema op
 title: Posso definir metas para visitantes com base no sistema operacional?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Você pode direcionar visitantes usando [!DNL Adobe Target] que usam um determin
 
 A ilustração a seguir mostra um público-alvo direcionado a visitantes usando um sistema operacional Macintosh.
 
-![](assets/target_os.png)
+![imagem do target_os](assets/target_os.png)
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 

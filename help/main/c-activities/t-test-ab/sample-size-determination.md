@@ -4,10 +4,10 @@ description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-suce
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 63%
+source-wordcount: '3072'
+ht-degree: 59%
 
 ---
 
@@ -61,11 +61,11 @@ Há cinco parâmetros estabelecidos pelo usuário que definem um teste A/B. Esse
 
 Para um teste A/B, a significância estatística, a potência estatística, o aumento mínimo detectável de confiabilidade e a taxa de conversão da linha de base são definidos pelo analista e, em seguida, o número necessário de visitantes é calculado com base nesses números. Este artigo discute esses elementos e fornece diretrizes sobre como determinar essas métricas para um teste específico.
 
-![](assets/samplesize.png)
+![imagem de tamanho de amostra](assets/samplesize.png)
 
 A figura abaixo mostra os quatro resultados possíveis de um teste A/B:
 
-![](assets/outcomes.png)
+![imagem de resultados](assets/outcomes.png)
 
 É desejável não obter falsos positivos ou falsos negativos. No entanto, a obtenção de zero falsos positivos nunca pode ser garantida por um teste estatístico. Sempre é possível que as tendências observadas não sejam representativas das taxas de conversão subjacentes. Por exemplo, em um teste para ver se cara ou coroa em um flip de moeda era mais provável, mesmo com uma moeda boa, você poderia pegar dez cabeças em dez jogadas por acaso. A significância e a potência estatísticas nos ajudam a quantificar as taxas de falsos positivos e falsos negativos e nos permitem mantê-las em níveis razoáveis para um determinado teste.
 
@@ -109,11 +109,11 @@ Por exemplo, vamos supor que duas ofertas (A e B) tenham taxas de conversão ver
 
 A figura abaixo mostra essas distribuições de probabilidade.
 
-![](assets/probability_distributions.png)
+![imagem probabilidade_distribuições](assets/probability_distributions.png)
 
 Devido à grande sobreposição entre os dois intervalos, o teste não pode determinar se as taxas de conversão são diferentes. Assim, esse teste com 100 visitantes não pode distinguir entre as duas ofertas. No entanto, se o Target expõe as ofertas a 5.000 visitantes cada, há uma chance de 95% de as taxas de conversão observadas caírem nos intervalos de 9% a 11% e 14% a 16%, respectivamente.
 
-![](assets/probability_distributions2.png)
+![imagem probabilidade_distributions2](assets/probability_distributions2.png)
 
 Nesse caso, é improvável que o teste chegue a uma conclusão incorreta, portanto, o teste com 5.000 visitantes pode distinguir entre as duas ofertas. O teste com 5.000 visitantes tem um intervalo de confiança de aproximadamente +/-1%. Isso significa que o teste pode detectar diferenças de cerca de 1%. Assim, ainda mais visitantes seriam necessários se as taxas de conversão verdadeiras das ofertas fossem, por exemplo, 10% e 10,5%, em vez de 10% e 15%.
 
@@ -131,15 +131,15 @@ A calculadora de tamanhos de amostra (link fornecido acima) solicita que você d
 
 Há uma compensação ente o aumento mínimo que pode ser identificado com confiança pelo teste e o número necessário de visitantes. A figura abaixo, que é válida para uma taxa de conversão da linha de base (controle) de 5%, mostra forte redução dos retornos para aumentar o número de visitantes. O aumento mínimo que pode ser detectado com confiança aumenta bastante durante a adição dos primeiros visitantes ao teste, mas é necessário um número cada vez maior de visitantes para melhorar o teste. A figura ajuda a encontrar uma compensação adequada entre o tempo necessário para executar o teste (conforme determinado pelo número de visitantes necessário e o tráfego do site) e o aumento mínimo que pode ser detectado com confiança pelo teste.
 
-![](assets/samplesizecontrol.png)
+![imagem de controle de amostra](assets/samplesizecontrol.png)
 
-Neste exemplo, você pode decidir ser capaz de detectar um aumento de 5% (correspondente a uma taxa de conversão da oferta alternativa de (100+5%)*5% = 5,25%) em 80 de 100 testes é adequado, portanto, você precisa de um tamanho de amostra de 100.000 visitantes para cada oferta. Se o site tiver 20.000 visitantes por dia e você estiver testando duas ofertas, o teste deverá ter permissão para ser 2*100.000/20.000 = 10 dias antes de poder determinar se a oferta alternativa é estatisticamente significativa superior à oferta de controle.
+Neste exemplo, você pode decidir ser capaz de detectar um aumento de 5% (correspondente a uma taxa de conversão da oferta alternativa de (100%+5%)&#42;5% = 5,25%) em 80 de 100 testes é adequado, portanto, você precisa de um tamanho de amostra de 100.000 visitantes para cada oferta. Se o site tiver 20.000 visitantes por dia e você estiver testando duas ofertas, o teste deve ter permissão para ser executado por 2&#42;100.000/20.000 = 10 dias antes de poder determinar se a oferta alternativa é estatisticamente significativa superior à oferta de controle.
 
 Novamente, é recomendável que o tempo necessário sempre seja arredondado para o número inteiro de semana mais próximo possível, para evitar efeitos de dia da semana. Assim, neste exemplo, o teste deverá ser executado por duas semanas antes da avaliação do resultado.
 
 ### Receita por métrica de visita  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Ao usar a Receita por visita (RPV) como uma métrica, uma fonte adicional de variação será adicionada porque a RPV é o produto da receita por pedido e taxa de conversão (RPV = Receita / # de visitantes = (Receita por pedido * # de pedidos) / # de visitantes = Receita por pedido * (# de visitantes * CTR) / # de visitantes = Receita por pedido * CTR), cada um com sua variação. A variação da taxa de conversão pode ser estimada diretamente usando um modelo matemático, mas a variação da receita por pedido é específica para a atividade. Portanto, use o conhecimento dessa variação de atividades anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada com base nos valores da Soma de vendas, Soma de vendas quadrada e Número de visitantes encontrados no arquivo de download CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para concluir o teste.
+Ao usar a Receita por visita (RPV) como métrica, uma fonte adicional de variação é adicionada, pois RPV é o produto da receita por pedido e taxa de conversão (RPV = Receita / #visitors = (Receita por pedido) &#42; #orders) / # visitors = Receita por pedido &#42; (#visitors &#42; CTR) / #visitors = Receita por pedido &#42; CTR), cada um com sua própria variação. A variação da taxa de conversão pode ser estimada diretamente usando um modelo matemático, mas a variação da receita por pedido é específica para a atividade. Portanto, use o conhecimento dessa variação de atividades anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada com base nos valores da Soma de vendas, Soma de vendas quadrada e Número de visitantes encontrados no arquivo de download CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para concluir o teste.
 
 A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a configurar a métrica de RPV. Ao abrir a calculadora, você verá uma guia rotulada [!UICONTROL Métrica de RPV]. Você precisará das informações a seguir ao usar a versão de RPV da calculadora:
 

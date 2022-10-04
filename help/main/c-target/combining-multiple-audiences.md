@@ -4,9 +4,9 @@ description: Saiba como combinar vários públicos-alvo (incluindo públicos-alv
 title: Posso combinar vários públicos para criar um novo público?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '960'
 ht-degree: 64%
 
 ---
@@ -55,7 +55,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
       Por exemplo, suponha que, no exemplo anterior, você queira incluir usuários do Safari no público-alvo combinado. Pesquise e arraste o público-alvo &quot;Navegador Safari &quot; para a caixa &quot;Navegador Firefox&quot; à direita, como no exemplo a seguir:
 
-      ![](assets/combine_multiple_audiences3.png)
+      ![imagem combine_multiple_audiences3](assets/combine_multiple_audiences3.png)
 
       Observe que o operador entre os dois públicos-alvo do tipo de navegador é &quot;E&quot;. Selecione o [!UICONTROL E] lista suspensa e altere para &quot;OU&quot; para criar um novo público-alvo combinado para novos visitantes usando o Firefox ou o Safari. Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando o Firefox e o Safari simultaneamente.
 
@@ -65,7 +65,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
    1. Para adicionar uma exclusão a uma regra, clique em **[!UICONTROL Excluir]**.
 
-      ![](assets/combine_multiple_audiences3a.png)
+      ![imagem combine_multiple_audiences3a](assets/combine_multiple_audiences3a.png)
 
       Arraste e solte um público-alvo.
 
@@ -86,12 +86,12 @@ Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas 
 1. Ao editar ou criar uma [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, selecione **[!UICONTROL Conversão]** para a métrica de sucesso e, em seguida, selecione **[!UICONTROL Uma Mbox visualizada]** como ação.
 1. Selecione a mbox desejada no campo **[!UICONTROL Pesquisar mbox]**.
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![imagem combine_multiple_audiences4](assets/combine_multiple_audiences4.png)
 
 1. Clique no ícone de engrenagem e, em seguida, clique em **[!UICONTROL Adicionar segmentação de público-alvo]**.
 1. Clique no link **[!UICONTROL Adicionar público-alvo/condição de segmentação]** para exibir a caixa de diálogo [!UICONTROL Escolher público-alvo].
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![imagem combine_multiple_audiences5](assets/combine_multiple_audiences5.png)
 
 1. Prossiga com o [Passo 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
 
@@ -101,7 +101,7 @@ Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas 
 
 1. Ao editar ou criar uma  [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e configurações]**, clique no ícone **[!UICONTROL Adicionar público-alvo]** em [!UICONTROL Públicos-alvo para geração de relatórios] para exibir a página [!UICONTROL Escolher público-alvo].
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![imagem combine_multiple_audiences6](assets/combine_multiple_audiences6.png)
 
 1. Prossiga com o [Passo 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) em &quot;Criar um público-alvo combinado ao criar uma atividade&quot; para criar o público-alvo combinado.
 

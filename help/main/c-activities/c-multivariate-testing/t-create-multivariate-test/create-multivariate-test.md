@@ -4,10 +4,10 @@ description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL T
 title: Como criar um teste multivariado?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 89%
+source-wordcount: '570'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,11 @@ O [!UICONTROL teste multivariado] (MVT) ocupa um relatório de primeira página.
 
    A ilustração a seguir indica que a atividade tem tráfego insuficiente.
 
-   ![](assets/estimator.png)
+   ![imagem do avaliador](assets/estimator.png)
 
    A ilustração a seguir indica que a atividade tem tráfego insuficiente.
 
-   ![](assets/estimator2.png)
+   ![imagem estimator2](assets/estimator2.png)
 
 1. Clique em **[!UICONTROL Avançar]** para avançar para a página [!UICONTROL Direcionamento.]
 

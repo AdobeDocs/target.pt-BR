@@ -5,10 +5,10 @@ title: Como Posso Usar Atributos De Entidade Personalizados?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Os atributos personalizados de entidade de vários valores não podem conter mai
 
 Atributos de entidade personalizados podem conter um único valor ou vários valores. Valores de atributos da entidade são exibidos na visualização do produto.
 
-![](assets/multi-value_product.png)
+![imagem de produto_de_vários valores](assets/multi-value_product.png)
 
 Um atributo de entidade personalizado com um único valor é formado da mesma maneira que um atributo de entidade predefinido de valor único:
 
@@ -93,11 +93,11 @@ Você pode gerenciar seus arquivos CSV de forma simples usando um editor de text
 
 O CSV simples terá esta aparência:
 
-![](assets/multi-value_example_raw.png)
+![imagem multi-valor_example_raw](assets/multi-value_example_raw.png)
 
 O mesmo catálogo ficará assim em uma planilha:
 
-![](assets/multi-value_example_excel.png)
+![imagem multi-valor_example_excel](assets/multi-value_example_excel.png)
 
 Ao converter para o formato .csv, o software de planilha adiciona aspas duplas ao redor do conteúdo da célula para impedir que as vírgulas dentro da célula atuem como separadores de coluna. Ele também adiciona aspas duplas em torno dos valores de cadeia de caracteres JSON que você inclui em atributos personalizados de vários valores. Isso pode dificultar o trabalho diretamente com o arquivo simples. Por exemplo:
 

@@ -4,9 +4,9 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '804'
 ht-degree: 85%
 
 ---
@@ -82,12 +82,12 @@ Se nem o Visual Experience Composer nem o Enhanced Experience Composer funcionar
 
       * Altere **[!UICONTROL Igual a]** para **[!UICONTROL Contém]** como a condição para o URL de origem e insira o URL da atividade que você está tentando carregar no VEC.
 
-      ![](assets/chrome_extension.png)
+      ![imagem chrome_extension](assets/chrome_extension.png)
 
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/requestly.png)
+   ![imagem solicitada](assets/requestly.png)
 
    Agora, você deve conseguir carregar a página rapidamente com o Visual Experience Composer.
 
@@ -102,7 +102,7 @@ Se nem o Visual Experience Composer nem o Enhanced Experience Composer funcionar
 1. Clique em **[!UICONTROL Adicionar]**.
 1. Clique em **[!UICONTROL Iniciar]**.
 
-![](assets/firefox_extension.png)
+![imagem firefox_extension](assets/firefox_extension.png)
 
 Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carregadas no Visual Experience Composer, mesmo que o Enhanced Experience Composer esteja desativado.
 

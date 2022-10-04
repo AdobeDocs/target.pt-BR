@@ -4,9 +4,9 @@ description: Saiba como criar públicos-alvo somente atividade no Adobe [!DNL Ta
 title: Posso criar um público-alvo para usá-lo apenas uma vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 52%
 
 ---
@@ -28,7 +28,7 @@ Públicos-alvo somente atividade proporcionam os seguintes benefícios:
 
 1. Clique em **[!UICONTROL Somente esta atividade]**.
 
-   ![](assets/activity-only-aud.png)
+   ![imagem de transmissão somente de atividade](assets/activity-only-aud.png)
 
 1. Digite um nome de público-alvo descritivo.
 1. Arraste e solte os atributos desejados no construtor de público-alvo.

@@ -1,13 +1,13 @@
 ---
 keywords: Direcionamento de experiência;teste de página de aterrissagem
-description: 'Um seletor de elemento é uma expressão CSS que pode identificar um ou mais elementos. Saiba como usar seletores de elementos no Adobe [!DNL Target] Visual Experience Composer (VEC). '
+description: Um seletor de elemento é uma expressão CSS que pode identificar um ou mais elementos. Saiba como usar seletores de elementos no Adobe [!DNL Target] Visual Experience Composer (VEC).
 title: Posso Usar Seletores De Elementos No Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 80%
+source-wordcount: '429'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Você pode encontrar informações básicas sobre os seletores de CSS no documen
 
 Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas preferências de conta. Clique em **[!UICONTROL Administração > Visual Experience Composer]**, em seguida, escolha seus seletores de CSS preferidos.
 
-![](assets/css_selectors.png)
+![imagem css_seletors](assets/css_selectors.png)
 
 >[!NOTE]
 >

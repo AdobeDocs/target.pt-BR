@@ -4,10 +4,10 @@ description: Visualize o status atual do Adobe  [!DNL Target]  para ajudar a det
 title: Onde posso visualizar o status do  [!DNL Target]  e de outros produtos da Adobe?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Acesse a página [!UICONTROL Status do sistema] no seguinte URL:
 
 Para ver o status das soluções da [!DNL Experience Cloud], incluindo o [!DNL Target], clique na guia [!UICONTROL Experience Cloud].
 
-![](assets/system_status.png)
+![imagem de status_do_sistema](assets/system_status.png)
 
 A parte superior da página contém informações sobre eventos de manutenção em andamento e inclui um link para se inscrever em atualizações de soluções individuais.
 
@@ -35,7 +35,7 @@ Uma notificação no produto é sempre exibida durante o lançamento mensal do [
 
 A parte inferior da página contém um calendário dos últimos sete dias com status para cada solução por dia. Passe o mouse sobre o indicador de status, para obter mais informações:
 
-![](assets/system_status_indicator.png)
+![imagem system_status_indicator](assets/system_status_indicator.png)
 
 ## Notificações proativas
 

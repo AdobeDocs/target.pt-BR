@@ -4,10 +4,10 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ O [!DNL Target] desativa automaticamente os scripts de perfil em determinadas si
 
 Quando um script de perfil é desativado, um ícone de alerta amarelo é exibido perto do script de perfil na interface de usuário do Target, conforme ilustrado abaixo:
 
-![](assets/profile_script_invalid.png)
+![imagem profile_script_invalid](assets/profile_script_invalid.png)
 
 Ao passar o cursor do mouse, os detalhes do erro são exibidos, conforme ilustrado abaixo:
 
-![](assets/profile_script_hover.png)
+![imagem profile_script_hover](assets/profile_script_hover.png)
 
 Os motivos típicos para o sistema desativar os scripts de perfil incluem o seguinte:
 
@@ -161,7 +161,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
    Sempre que carregar uma página para o site com [!DNL Target] nela, parte da resposta do [!DNL Target] conterá o valor para o script de perfil específico, como mostrado abaixo:
 
-   ![](assets/debug_profile_script_1.png)
+   ![imagem debug_profile_script_1](assets/debug_profile_script_1.png)
 
 * **Use a ferramenta de depuração mboxTrace para depurar scripts de perfil.**
 
@@ -171,7 +171,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
    Adicionar esses parâmetros é um pouco mais informativo do que o token de resposta porque você obtém um instantâneo antes da execução e um instantâneo posterior do seu perfil. Ele também mostra todos os perfis disponíveis.
 
-   ![](assets/debug_profile_script_2.png)
+   ![imagem debug_profile_script_2](assets/debug_profile_script_2.png)
 
 ## Perguntas frequentes do script de perfil {#section_1389497BB6D84FC38958AE43AAA6E712}
 

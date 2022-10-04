@@ -4,9 +4,9 @@ description: Saiba como criar critérios que controlam o conteúdo de suas ativi
 title: Como criar critérios no Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 52%
 
 ---
@@ -184,7 +184,7 @@ Usar similaridade de conteúdo para gerar recomendações é especialmente efica
 
 Ao selecionar **[!UICONTROL Baseado em item]**/ **[!UICONTROL Mídia com atributos similares]**, você tem a opção de criar regras para aumentar ou diminuir a importância de atributos específicos do item em determinadas recomendações. Para itens como livros, você pode querer ampliar a importância de atributos como *gênero*, *autor*, *série*, e assim em diante, para recomendar livros similares.
 
-![](assets/ContentSimilarity.png)
+![Imagem de similaridade de conteúdo](assets/ContentSimilarity.png)
 
 Como a similaridade de conteúdo usa palavras-chave para comparar itens, alguns atributos, como *mensagem* ou *descrição*, podem introduzir &quot;ruído&quot; à comparação. Você pode criar regras para ignorar estes atributos.
 
@@ -224,7 +224,7 @@ Para criar uma regra de inclusão simples, como mencionado anteriormente, para e
 1. Defina o inventário mínimo para os produtos que deseja recomendar.
 1. Configure a recomendação para que exiba itens que satisfaçam os critérios.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Imagem Recs_InclusionRules](assets/Recs_InclusionRules.png)
 
    Você pode especificar que os itens sejam incluídos apenas quando um dos atributos na lista atender ou não corresponder a uma ou mais condições especificadas.
 
@@ -254,7 +254,7 @@ Por exemplo, você pode aplicar um peso maior a itens em liquidação, para que 
 
    Por exemplo, a regra completa pode ser &quot;Categoria contém sapatos de subsequência&quot;.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Imagem Recs_AttributeWeighting](assets/Recs_AttributeWeighting.png)
 
 1. Selecione o peso a ser designado à regra.
 

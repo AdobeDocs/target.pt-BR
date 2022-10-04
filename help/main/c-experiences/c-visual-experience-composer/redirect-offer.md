@@ -4,10 +4,10 @@ description: Saiba como usar a opção Redirecionar para URL no Adobe [!DNL Targ
 title: Posso redirecionar uma página para um URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 84%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
 Ofertas de redirecionamento possuem algumas limitações:
 
-* Para ofertas de redirecionamento em atividades usando A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Ofertas de redirecionamento - Perguntas frequentes do A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Para ofertas de redirecionamento em atividades usando A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Perguntas frequentes das Ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Ao usar o Experience Composer baseado em formulários, ofertas de redirecionamento não devem ser usadas em mboxes que façam parte da página. Uma oferta de redirecionamento deve ser usada somente a partir de uma tag de script que faz parte do `<head>` do HTML. Você sempre deve usar a criação automática e definir a oferta de redirecionamento para a mbox global.
 
 >[!NOTE]
@@ -31,9 +31,9 @@ Ofertas de redirecionamento possuem algumas limitações:
 Para criar uma oferta de redirecionamento:
 
 1. Crie uma experiência.
-1. Passe com o mouse sobre uma experiência, depois clique no ícone Redirecionar para URL (![](assets/icon_redirect_url.png)).
+1. Passe com o mouse sobre uma experiência, depois clique no ícone Redirecionar para URL (![imagem icon_redirect_url](assets/icon_redirect_url.png)).
 
-   ![](assets/exp_actions.png)
+   ![imagem exp_actions](assets/exp_actions.png)
 
 1. Digite o URL.
 1. Se desejar, selecione a opção para incluir parâmetros de consulta atuais.

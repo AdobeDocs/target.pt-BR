@@ -4,9 +4,9 @@ description: Encontre respostas para perguntas sobre a configuração da ativida
 title: Onde posso encontrar perguntas frequentes sobre as configurações de atividade com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 22%
 
 ---
@@ -36,7 +36,7 @@ Você pode alterar sua [!UICONTROL Configurações da geração de relatórios] 
 1. Em [!DNL Target], clique em **[!UICONTROL Administração]**.
 1. Na solução **[!UICONTROL Experience Cloud usada para a lista suspensa de]** relatórios, clique em **[!UICONTROL Selecionar por atividade]**.
 
-![](assets/select-per-activity.png)
+![imagem select-per-activity](assets/select-per-activity.png)
 
 A lista suspensa de **[!UICONTROL Fonte de geração de relatório]** está habilitada na tela **[!UICONTROL Meta e configurações]** para criar e editar atividades.
 

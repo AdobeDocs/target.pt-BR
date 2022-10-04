@@ -4,10 +4,10 @@ description: Examine as informações para ajudar você a entender as diferença
 title: Qual é a diferença entre o Recommendations Classic e o Recommendations no  [!DNL Target] Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Para obter mais informações, consulte [Recomendações como uma oferta](/help/
 
 [!DNL Target Recommendations] inclui uma biblioteca de critérios com conjuntos pré-embalados de regras e configurações. No [!DNL Recommendations Classic], cada recomendação foi criada manualmente através do preenchimento de um formulário e escolhida em uma grande lista de regras. Agora, ao criar uma atividade do [!DNL Recommendations], basta escolher um conjunto de critérios predefinidos. Você ainda pode criar recomendações personalizadas, mas a biblioteca de critérios contém muitas das configurações mais comuns, pré-criadas para simplificar o processo e usando uma linguagem simples. Estes critérios pré-embalados podem ser usados como estão ou podem ser copiados e editados para atender às suas necessidades específicas.
 
-![](assets/overview_criteria.png)
+![imagem overview_criteria](assets/overview_criteria.png)
 
 Os critérios são predefinidos e classificados por setores da indústria, tipos de página e implementação. Por exemplo, você pode procurar pelos critérios que se aplicam ao setor varejista, para o uso em uma página de produto, mostrando produtos dentro de uma categoria específica (como definido pelo parâmetro `entity.categoryID`).
 
@@ -68,10 +68,10 @@ Você pode visualizar suas recomendações depois de configurá-las e fazer as a
 
 No [!DNL Recommendations Classic], existem seis opções de direcionamento. As atividades do Recommendations usam a linha completa de opções de direcionamento do Target. Defina um público-alvo usando o [!DNL Target] ou outros públicos da [!DNL Adobe Experience Cloud] (como o [!DNL Audience Manager] e [!DNL Analytics]), em seguida, selecione o percentual de participantes da atividade que visualizam cada design e que visualizam o controle.
 
-![](assets/overview_targeting.png)
+![imagem overview_targeting](assets/overview_targeting.png)
 
 ## Relatório {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 No [!DNL Target], o [!DNL Recommendations] fornece relatórios aprimorados que aproveitam os recursos fornecidos pelo [!DNL Target] e a [!DNL Experience Cloud]. Em vez de simplesmente mostrar o incentivo fornecido pelo [!DNL Recommendations] em comparação com os resultados sem ele, você pode visualizar as informações completas sobre as atividades do [!DNL Recommendations].
 
-![](assets/overview_report.png)
+![imagem overview_report](assets/overview_report.png)

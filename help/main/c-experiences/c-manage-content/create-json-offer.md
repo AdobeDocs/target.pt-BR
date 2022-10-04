@@ -4,9 +4,9 @@ description: Saiba como criar ofertas JSON no Adobe [!DNL Target] para uso no Ex
 title: Como crio ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ Considere as informações a seguir ao trabalhar com ofertas JSON:
 
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Oferta JSON]**.
 
-   ![](assets/offer-json.png)
+   ![imagem offer-json](assets/offer-json.png)
 
 1. Insira um nome de oferta.
 1. Insira ou cole seu código JSON na caixa **[!UICONTROL Código]**.
@@ -137,7 +137,7 @@ Os atributos de perfil da CDP em tempo real podem ser compartilhados com o Targe
 
 Caso de uso de exemplo: Como comerciante online, a Grace quer que o Perfil AEP/Unified compartilhe valores de atributo com o Target para fornecer personalização em tempo real. Ao usar Atributos de perfil da CDP em tempo real, o Grace pode exibir o valor do atributo AEP em uma oferta do Target usando a substituição de token. Por exemplo, ela pode personalizar de acordo com a cor favorita de um cliente usando `${aep.profile.favoriteColor}`ou seu nível de fidelidade e valor do ponto de fidelidade usando os tokens `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
 No exemplo mostrado acima, observe que a atribuição de valores padrão é opcional.
 
@@ -145,4 +145,4 @@ No exemplo mostrado acima, observe que a atribuição de valores padrão é opci
 
 Você pode filtrar a variável [!UICONTROL Ofertas] biblioteca pelo tipo de oferta JSON clicando no botão **[!UICONTROL Tipo]** lista suspensa e, em seguida, selecionando a **[!UICONTROL JSON]** caixa de seleção.
 
-![](assets/offer-json-filter.png)
+![imagem do filtro de oferta-json](assets/offer-json-filter.png)

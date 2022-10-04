@@ -1,12 +1,12 @@
 ---
 keywords: servidor de rastreamento do analytics; A4T; Adobe Experience Cloud Debugger; Adobe Experience Platform Debugger; fonte de relatórios; ferramentas do desenvolvedor
-description: 'Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics para [!DNL Target] (A4T) se estiver usando uma versão mais antiga da at.js. '
+description: Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics para [!DNL Target] (A4T) se estiver usando uma versão mais antiga da at.js.
 title: Como usar um servidor de rastreamento do Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '686'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ O depurador deve ser exibido em uma página em que a atividade é entregue para 
 
 1. Clique em **[!UICONTROL Analytics]** no menu de navegação esquerdo.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Imagem Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
    O [!DNL Analytics] o servidor de rastreamento é encontrado na variável [!UICONTROL Hostname] do depurador.
 

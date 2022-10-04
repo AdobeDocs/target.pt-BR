@@ -5,9 +5,9 @@ title: O que são permissões de usuário empresarial e como usá-las?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3171'
 ht-degree: 58%
 
 ---
@@ -105,13 +105,13 @@ As informações a seguir explicam a forma como as permissões eram aplicadas an
 
 O novo [!UICONTROL Permissões] A funcionalidade permite que você crie projetos diferentes (chamados de &quot;Perfis de produto&quot; no [!DNL Adobe Admin Console for Enterprise]). Os projetos permitem atribuir permissões diferentes para um único usuário que impõem direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes podem restringir o acesso de visualização, edição e aprovação aos usuários com base na região, no ambiente (desenvolvimento/armazenamento temporário/produção), no canal ou em outros critérios personalizados, conforme mostrado abaixo:
 
-![](assets/permissions.png)
+![imagem de permissões](assets/permissions.png)
 
 Por exemplo, um usuário específico pode ter acesso de &quot;aprovação&quot; nos sites das Américas, mas apenas de &quot;visualização&quot; no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
 
 O modelo atual de [!DNL Target] [!UICONTROL Permissões] apresenta três funções de permissão (Observador, Editor e Aprovador), conforme mostrado na seguinte ilustração:
 
-![](assets/permissions_1.png)
+![imagem permissions_1](assets/permissions_1.png)
 
 Cada função tem diferentes níveis de permissões:
 
@@ -124,17 +124,17 @@ Cada função tem diferentes níveis de permissões:
 
 É importante observar que a função de cada usuário se aplica a todas as páginas, propriedades ou sites da conta que incluam tags do [!DNL Target], conforme mostrado abaixo:
 
-![](assets/permissions_2.png)
+![imagem permissions_2](assets/permissions_2.png)
 
 O novo modelo de [!DNL Target] [!UICONTROL Permissões] apresenta as mesmas três funções de permissão (Observador, Editor e Aprovador); entretanto, é possível atribuir funções de permissões de um usuário separadamente para páginas, propriedades ou sites individuais, conforme mostrado abaixo:
 
-![](assets/permissions_3.png)
+![imagem permissions_3](assets/permissions_3.png)
 
 Neste exemplo, Jan tem permissões de Aprovador para a página inicial dos EUA e o site dos EUA, bem como permissões de Observador para o site da França.
 
 Além disso, Jan não pode visualizar páginas, propriedades ou sites em [!DNL Target] que ela não tem permissões para ver, como mostrado abaixo:
 
-![](assets/permissions_4.png)
+![imagem permissions_4](assets/permissions_4.png)
 
 Neste exemplo, Jan não pode ver as páginas dos produtos, o site da Rússia e o site de carreiras.
 
@@ -191,18 +191,18 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 * **Lista suspensa Espaço de trabalho (Perfil do produto):** a lista suspensa Espaço de trabalho é exibida na parte superior das páginas [!UICONTROL Atividades], [!UICONTROL Públicos] e [!UICONTROL Ofertas]. Selecione o espaço de trabalho desejado para filtrar a lista e exibir somente itens no espaço de trabalho selecionado.
 
-   ![](assets/workspace_drop-down.png)
+   ![imagem suspensa do workspace_drop-down](assets/workspace_drop-down.png)
 
 * **Criação da atividade:** Ao criar uma atividade, ela é criada no espaço de trabalho selecionado no momento. Você vê as opções de seleção de canal na primeira caixa de diálogo que permite escolher o canal desejado para a atividade: Web, Aplicativo móvel, Email ou Outro/API.
 
-   ![](assets/channel_options.png)
+   ![imagem channel_options](assets/channel_options.png)
 
 * **Criação de público-alvo:** Ao criar um público-alvo, ele é criado no espaço de trabalho selecionado no momento.
 * **Lista de públicos-alvo:** Você pode mover públicos-alvo entre espaços de trabalho usando a variável [!UICONTROL Mais ações] > [!DNL Move] na [!UICONTROL Públicos-alvo] página.
 * **Criação da oferta:** Ao criar uma oferta, ela é criada no espaço de trabalho selecionado no momento.
 * **Página Propriedades (Administração > Propriedades):** Você pode usar o [!UICONTROL Pesquisar] para pesquisar o [!UICONTROL Propriedade] lista.
 
-   ![](assets/properties_list.png)
+   ![imagem properties_list](assets/properties_list.png)
 
 ## Avisos {#section_9714311B1CD9497A86F4910F8AE635E2}
 

@@ -4,10 +4,10 @@ description: Saiba mais sobre o Adobe [!DNL Target] O usa o algoritmo Random For
 title: Como [!DNL Target] Usar o Algoritmo Random Forest?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Vamos dizer que o código postal é mais preditivo. Esta variável formaria ent�
 
 Esta ação resultaria na primeira camada da nossa árvore de decisão:
 
-![](assets/decsion_tree_1.png)
+![imagem decsion_tree_1](assets/decsion_tree_1.png)
 
 A árvore de decisão faria a pergunta: &quot;Qual é a variável mais previsível?&quot; No nosso exemplo, temos apenas duas variáveis, então a resposta aqui é claramente de gênero. A árvore agora procurará concluir um exercício semelhante para dividir os dados *dentro de cada ramificação*. Primeiro, vamos considerar a ramificação 11111, 22222 e 33333. Nestes códigos postais, se houver uma diferença na conversão entre homens e mulheres, então haveria duas folhas (homens e mulheres), e esta ramificação estaria completa. Na outra ramificação, 44444 e 55555, vamos supor que não há diferença estatística entre a conversão de mulheres e homens. Neste caso, a primeira ramificação torna-se a divisão final.
 
 Nosso exemplo resultaria na árvore abaixo:
 
-![](assets/decsion_tree_2.png)
+![imagem decsion_tree_2](assets/decsion_tree_2.png)
 
 ## Como as árvores de decisão são usadas pelo Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Nosso exemplo resultaria na árvore abaixo:
 
 O diagrama a seguir resume como os modelos são criados para atividades do Target automático ou da Personalização automatizada:
 
-![](assets/random_forest_flow.png)
+![imagem random_forest_flow](assets/random_forest_flow.png)
 
 1. O Target coleta dados sobre os visitantes enquanto oferece aleatoriamente experiências/ofertas
 1. Depois que o Target atinge uma massa crítica de dados, ele executa a engenharia de recursos

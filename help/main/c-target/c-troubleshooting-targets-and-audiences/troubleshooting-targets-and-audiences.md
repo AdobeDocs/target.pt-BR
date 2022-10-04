@@ -4,9 +4,9 @@ description: Exibir perguntas frequentes sobre o direcionamento de experiência 
 title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públicos-alvo?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 64%
 
 ---
@@ -80,7 +80,7 @@ O usuário se qualifica para a primeira experiência/público-alvo exibida na p�
 
 Por exemplo, na seguinte ilustração, um usuário da Califórnia que usa um dispositivo Windows se qualifica para a Experiência A (público-alvo do Windows) e a Experiência C (público-alvo da Califórnia). Para esse usuário seria mostrada a Experiência A, pois ela é exibida na lista Experiência C acima, na página de Direcionamentos.
 
-![](assets/audiences_order.png)
+![imagem audiences_order](assets/audiences_order.png)
 
 ## Por que os nomes para o mesmo público-alvo do [!DNL Target], da Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

@@ -4,9 +4,9 @@ description: Saiba como definir configurações de relatório no Adobe Target, i
 title: Como defino as configurações de relatório?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1923'
 ht-degree: 67%
 
 ---
@@ -276,16 +276,16 @@ Se você passa o cursor do mouse sobre as experiências em cinza, uma nova linha
 
 Como exemplo, a ilustração a seguir mostra um gráfico de atividade com 26 experiências:
 
-![](assets/graph_1.png)
+![imagem graph_1](assets/graph_1.png)
 
 O gráfico exibe as linhas para as primeiras 16 experiências (algumas se sobrepõem, então parece que há menos de 16 linhas). O ponto colorido no painel Experiências à esquerda, perto de cada nome da experiência, indica que a linha do gráfico da experiência é exibida na cor correspondente.
 
 Se você faz a rolagem no painel Experiência, observará que os nomes de das experiências 17 até 26 estão em cinza, conforme mostrado na ilustração a seguir:
 
-![](assets/graph_2.png)
+![imagem graph_2](assets/graph_2.png)
 
 Se você passa o cursor do mouse sobre uma experiência em cinza, uma nova linha de gráfico cinza, correspondente à tal experiência, é exibida temporariamente no gráfico.
 
 Pressuponha que você deseje exibir a linha de gráfico para a Experiência R e não quer ver a linha para a Experiência P. É possível clicar no nome da Experiência P para desmarcá-la e, em seguida, clicar no nome da Experiência R para selecioná-la, conforme mostrado a seguir:
 
-![](assets/graph_3.png)
+![imagem graph_3](assets/graph_3.png)

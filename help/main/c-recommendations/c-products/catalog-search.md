@@ -4,9 +4,9 @@ description: Saiba como usar a Pesquisa no catálogo do Recommendations para loc
 title: Como uso a pesquisa no catálogo do Recommendations?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Você pode usar uma pesquisa simples ou avançada para localizar itens no catál
 
 1. (Opcional) Você pode refinar sua pesquisa selecionando uma opção de pesquisa no menu de opções que é exibido ao clicar na seta para baixo no campo de pesquisa.
 
-   ![](assets/searchproductsmenu.png)
+   ![imagem do menu searchproductsmenu](assets/searchproductsmenu.png)
 
    As opções de pesquisa incluem o seguinte:
 

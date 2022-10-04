@@ -4,10 +4,10 @@ description: Saiba como criar públicos no Adobe [!DNL Target] para direcionar o
 title: Posso definir como meta visitantes com base no mecanismo de pesquisa ou no site de referência?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 64%
+source-wordcount: '270'
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
    1. Nomeie o público-alvo e adicione uma descrição opcional.
 1. Arrastar e soltar **[!UICONTROL Fontes de Tráfego]** no painel do construtor de público-alvo.
 
-   ![](assets/target_traffic_source.png)
+   ![imagem target_traffic_source](assets/target_traffic_source.png)
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 

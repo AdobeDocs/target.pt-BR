@@ -4,10 +4,10 @@ description: Saiba como usar o Avaliador de tráfego que informa se você tem tr
 title: Quanto tráfego é necessário para uma atividade de teste multivariado (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 93%
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
 
    O Avaliador de tráfego é aberto. Você pode clicar no ícone **[!UICONTROL Tráfego]** novamente para ocultar o Estimador de tráfego.
 
-   ![](assets/estimatorempty.png)
+   ![imagem estimatorempty](assets/estimatorempty.png)
 
 1. Forneça a taxa de conversão típica, os visitantes estimados por dia e a duração do teste.
 
@@ -48,7 +48,7 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
 
    Próximo da parte superior do Avaliador de tráfego, os valores inseridos são calculados, e os resultados são exibidos.
 
-   ![](assets/estimatorinsufficient.png)
+   ![imagem estimatorinsuficiente](assets/estimatorinsufficient.png)
 
    A estimativa muda, à medida que você muda os números. Por exemplo, se você estiver testando um número grande de experiências e sua taxa de conversão e impressões for muito baixa, o Avaliador de tráfego mostrará por quanto tempo o teste terá que ser executado para ser bem-sucedido. Ou, se o tráfego for baixo, o Avaliador de tráfego poderá sugerir um número mais baixo de experiências para você poder executar o teste durante o número desejado de dias.
 
@@ -59,4 +59,4 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
 
    Ajuste os números até que o Avaliador de tráfego indique que você tem tráfego suficiente, então, crie seu teste de acordo.
 
-   ![](assets/estimatorok.png)
+   ![imagem do estimatorok](assets/estimatorok.png)

@@ -4,10 +4,10 @@ description: Saiba como selecionar várias métricas para exibir em um relatóri
 title: Como visualizar várias métricas em um relatório?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 58%
 
 ---
 
@@ -27,7 +27,7 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 1. Para exibir um relatório, clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista e na guia **[!UICONTROL Relatórios.]**
 1. Clique na lista suspensa **[!UICONTROL Métrica de relatório]** para exibir as listas [!UICONTROL Métricas exibidas] e [!UICONTROL Métricas ocultas].
 
-   ![](assets/multiple_metrics.png)
+   ![imagem multiple_metrics](assets/multiple_metrics.png)
 
    Você pode usar a caixa [!UICONTROL Pesquisar] para encontrar rapidamente as métricas disponíveis para adicionar à lista de [!UICONTROL Métricas exibidas].
 
@@ -46,10 +46,10 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 1. Clique em **[!UICONTROL Salvar]** ao concluir.
 1. (Condicional) Ao visualizar o relatório na [!UICONTROL Exibição em tabela], passe o ponteiro do mouse sobre qualquer cabeçalho de coluna de métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
 
-   ![](assets/multiple_metrics_table.png)
+   ![imagem multiple_metrics_table](assets/multiple_metrics_table.png)
 
    Você pode expandir apenas uma métrica/coluna por vez. Clique na seta novamente para recolher as colunas.
 
 1. (Condicional) Ao visualizar o relatório na Visualização de gráfico, você pode selecionar métricas individuais para exibir na lista suspensa:
 
-   ![](assets/multiple_metrics_graph.png)
+   ![imagem multiple_metrics_chart](assets/multiple_metrics_graph.png)

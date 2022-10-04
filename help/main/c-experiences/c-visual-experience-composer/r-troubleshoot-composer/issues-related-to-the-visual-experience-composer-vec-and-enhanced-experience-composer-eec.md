@@ -4,10 +4,10 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 52%
+source-wordcount: '1427'
+ht-degree: 51%
 
 ---
 
@@ -90,11 +90,11 @@ Se os cabeçalhos de CSP do seu site bloquearem as Bibliotecas do Target e carre
 >
 >Além das seguintes informações, você pode usar a extensão de navegador [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para Google Chrome.
 
-![](assets/cps_headers.png)
+![imagem cps_headers](assets/cps_headers.png)
 
 Como solução alternativa, é possível configurar uma regra do Requestly para remover cabeçalhos de CSP, conforme mostrado abaixo:
 
-![](assets/cps_headers_2.png)
+![imagem cps_headers_2](assets/cps_headers_2.png)
 
 É possível configurar uma regra Requestly semelhante para qualquer cabeçalho que faça com que um recurso não seja carregado dentro do VEC.
 

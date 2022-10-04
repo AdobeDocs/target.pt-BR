@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso Direcionar Visitantes Que Atendem A Parâmetros De Perfil Específicos?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 47%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ Crie públicos-alvo em [!DNL Adobe Target] para direcionar visitantes que atende
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
-   ![](assets/target_visitor_profile.png)
+   ![imagem target_visitor_profile](assets/target_visitor_profile.png)
 
    Os parâmetros de perfil do visitante são passados por meio da mbox (perfil). Você pode direcionar visitantes novos ou que retornam, ou incluir todos os usuários.
 

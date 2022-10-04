@@ -4,10 +4,10 @@ description: Saiba como usar datas e horas de início e término para direcionar
 title: Posso Direcionar Visitantes Que Visitam Meu Site Em Momentos Específicos?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ Por exemplo, usando a variável [recurso de públicos-alvo ad hoc combinados](/h
 1. Nomeie o público-alvo e adicione uma descrição opcional.
 1. Arrastar e soltar **[!UICONTROL Intervalo de tempo]** no painel do construtor de público-alvo.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![imagem target_timeframe_dialog](assets/target_timeframe_dialog.png)
 
 1. Especifique a [!UICONTROL Iniciar] e [!UICONTROL End] datas e horas para o público-alvo.
 

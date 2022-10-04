@@ -5,10 +5,10 @@ title: Como uso as regras de inclusão estática e dinâmica no Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ O processo para criar e usar regras de inclusão para critérios e promoções �
 
 Ao [criar um critério](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), clique em **[!UICONTROL Adicionar regra de filtragem]** em **[!UICONTROL Regras de inclusão]**.
 
-![](assets/inclusion_options_new.png)
+![inclusão_options_new imagem](assets/inclusion_options_new.png)
 
 As opções disponíveis variam, dependendo do vertical do setor selecionado e da chave de recomendação.
 
@@ -30,7 +30,7 @@ As opções disponíveis variam, dependendo do vertical do setor selecionado e d
 
 Ao [criar uma promoção](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), selecione **[!UICONTROL Promover por atributo]** e clique em **[!UICONTROL Adicionar regra de filtragem]**.
 
-![](assets/inclusion_options.png)
+![imagem inclusion_options](assets/inclusion_options.png)
 
 ## Tipos de filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ Você pode escolher várias opções para lidar com valores vazios ao filtrar po
 
 Anteriormente, nenhum resultado era retornado se um valor estivesse em branco. A lista suspensa &quot;se *x* estiver em branco&quot; permite escolher a ação apropriada a ser executada se o critério tiver valores em branco, conforme mostrado na ilustração a seguir:
 
-![](assets/empty_value.png)
+![imagem empty_value](assets/empty_value.png)
 
-Para selecionar a ação desejada, passe o mouse sobre o ícone de engrenagem (![](assets/icon_gear.png)), em seguida, escolha a ação desejada:
+Para selecionar a ação desejada, passe o mouse sobre o ícone de engrenagem (![ícone_imagem de engrenagem](assets/icon_gear.png)), em seguida, escolha a ação desejada:
 
 | Ação | Disponível para | Detalhes |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ Para selecionar a ação desejada, passe o mouse sobre o ícone de engrenagem (!
 >
 >Atributos de tipo de dados diferentes podem não ser compatíveis em critérios ou promoções dinâmicas durante o tempo de execução com os operadores “é igual a” e “não é igual a”. Use [!UICONTROL Valor], [!UICONTROL Margem], [!UICONTROL Inventário]e [!UICONTROL Ambiente] no lado direito, se o lado esquerdo tiver atributos predefinidos ou atributos personalizados.
 
-![](assets/left_right.png)
+![imagem da esquerda_direita](assets/left_right.png)
 
 A tabela a seguir mostra regras em vigor e regras que podem não ser compatíveis durante o tempo de execução:
 

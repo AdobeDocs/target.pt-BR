@@ -4,10 +4,10 @@ description: Saiba como visualizar cada experiência em uma atividade de Teste m
 title: Como posso visualizar experiências de um teste multivariado (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ Porque um [!UICONTROL Teste multivariado] em [!DNL Adobe Target] compara várias
 
    Uma lista de todas as experiências é exibida.
 
-   ![](assets/preview.png)
+   ![imagem de visualização](assets/preview.png)
 
 1. Clique em uma experiência na lista para exibi-la.
 

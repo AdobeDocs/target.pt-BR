@@ -4,9 +4,9 @@ description: Saiba como usar ofertas remotas no Adobe [!DNL Target] para hospeda
 title: Como Criar Ofertas Remotas?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1085'
 ht-degree: 49%
 
 ---
@@ -140,7 +140,7 @@ Ofertas dinâmicas remotas utilizam tecnologia de página dinâmica para enviar 
 
 A oferta é executada após a página ser renderizada. Um iframe invisível coleta os dados, os copia para fora do quadro e insere na página, carregando os valores passados.
 
-![](assets/remote_offer_howitworks_2.jpeg)
+![imagem remote_offer_howitworks_2](assets/remote_offer_howitworks_2.jpeg)
 
 ## Matriz de seleção de oferta remota {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 

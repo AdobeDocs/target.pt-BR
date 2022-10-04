@@ -5,9 +5,9 @@ title: O que são hosts e como os uso?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 22%
 
 ---
@@ -24,7 +24,7 @@ Por padrão, [!DNL Target] não limita um host que pode criar [!DNL Target] soli
 
 Para gerenciar hosts, clique em **[!UICONTROL Administração]** > **[!UICONTROL Hosts]**.
 
-![](assets/hosts_list.png)
+![imagem da lista de hosts](assets/hosts_list.png)
 
 ## Reconhecimento de hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

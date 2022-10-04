@@ -4,10 +4,10 @@ description: Use o  [!DNL Analytics]  for  [!DNL Target]  (A4T) para criar ativi
 title: O que é  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -79,15 +79,15 @@ Você pode alternar entre a [!UICONTROL Visualização de tabela] e a [!UICONTRO
 
 A ilustração a seguir mostra a [!UICONTROL Visualização de gráfico] de um relatório do A4T com a lista suspensa de [!UICONTROL Métrica de relatórios] exibindo as métricas de meta disponíveis do [!DNL Analytics]:
 
-![](assets/a4t_report_graph1.png)
+![imagem a4t_report_graph1](assets/a4t_report_graph1.png)
 
 A ilustração a seguir mostra a [!UICONTROL Visualização de gráfico] de um relatório do A4T com a lista suspensa de [!UICONTROL Público-alvo] exibindo os públicos-alvo disponíveis do [!DNL Analytics]:
 
-![](assets/a4t_report_graph2.png)
+![imagem a4t_report_graph2](assets/a4t_report_graph2.png)
 
 A ilustração a seguir mostra a [!UICONTROL Visualização de tabela] de um relatório do A4T:
 
-![](assets/a4t_report_table.png)
+![imagem a4t_report_table](assets/a4t_report_table.png)
 
 Para exibir o relatório no [!DNL Analytics] em vez de no [!DNL Target], clique em **[!UICONTROL Exibir no Analytics]** na parte superior do relatório.
 

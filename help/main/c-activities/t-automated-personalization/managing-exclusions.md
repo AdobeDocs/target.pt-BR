@@ -5,10 +5,10 @@ title: Como gerencio exclusões nas atividades do Automated Personalization?
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
    Você pode visualizar as experiências criadas nas ofertas que especificou em [!UICONTROL Gerenciar conteúdo]. Você verá que nenhuma experiência é criada em [!UICONTROL Gerenciar conteúdo] usando a oferta padrão que você excluiu.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![imagem exclude_content_vec_4](assets/exclude_content_vec_4.png)
 
 **Para excluir o conteúdo usando o Experience Composer baseado em formulário:**
 
@@ -130,14 +130,14 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
    Para conteúdo de texto/HTML:
 
-   ![](assets/exclude_content_form_1.png)
+   ![imagem exclude_content_form_1](assets/exclude_content_form_1.png)
 
    Para conteúdo de imagem/vídeo:
 
-   ![](assets/exclude_content_form_2.png)
+   ![imagem exclude_content_form_2](assets/exclude_content_form_2.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
    Você pode visualizar as experiências criadas nas ofertas que especificou em [!UICONTROL Gerenciar conteúdo]. Você verá que nenhuma experiência é criada em [!UICONTROL Gerenciar conteúdo] usando a oferta padrão que você excluiu.
 
-   ![](assets/exclude_content_form_3.png)
+   ![imagem exclude_content_form_3](assets/exclude_content_form_3.png)

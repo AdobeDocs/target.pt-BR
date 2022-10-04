@@ -4,10 +4,10 @@ description: Saiba como usar a página Metas e configurações no Adobe [!DNL Ta
 title: Como faço para especificar metas e configurações em uma atividade de teste multivariado (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 91%
+source-wordcount: '1282'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ A página Metas e configurações no Adobe Target é onde você insere informaç
 
 As configurações disponíveis dependem se você usa o Target ou Analytics como a fonte de dados.
 
-![](assets/mvt_settings.png)
+![imagem mvt_settings](assets/mvt_settings.png)
 
 ## Configurações de atividade {#section_DCBDC354261F420EBD4B43EA34947BAC}
 

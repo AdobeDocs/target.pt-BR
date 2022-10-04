@@ -4,10 +4,10 @@ description: Saiba como escolher uma métrica de sucesso em [!DNL Adobe Target] 
 title: Posso aplicar um relatório de público-alvo a uma métrica de sucesso?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Escolha uma métrica de sucesso que qualifique o usuário para o público-alvo d
 
 Para todas as atividades, a lista suspensa [!UICONTROL Aplicado em] permite que você aplique um público-alvo a uma métrica de sucesso para exibir números de relatórios depois que a métrica tiver sido alcançada e para ações subsequentes.
 
-![](assets/success_metric.png)
+![imagem success_metric](assets/success_metric.png)
 
 Por exemplo, suponha que você tenha criado uma atividade para todos os visitantes que entram na sua página inicial e acessem a página de conversão, mas também queira obter mais detalhes dos visitantes que adicionaram mais de US$ 50 ao carrinho antes de converter.
 
@@ -32,4 +32,4 @@ Considere as seguintes informações ao aplicar um público-alvo de relatórios 
 
 Para exibir a segmentação nos relatórios, selecione o público-alvo desejado na [!UICONTROL Público] lista suspensa no relatório da atividade.
 
-![](assets/reporting_audience_dropdown.png)
+![imagem suspensa reporting_audience_drop-down](assets/reporting_audience_dropdown.png)

@@ -4,9 +4,9 @@ description: Saiba como usar o Adobe [!DNL Target] URLs de controle de qualidade
 title: Como faço para garantir a qualidade das atividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 38%
 
 ---
@@ -57,7 +57,7 @@ Usar URLs de controle de qualidade em [!DNL Adobe Target] para realizar o contro
 
    Você pode navegar pelo site para ver as outras páginas porque a variável [!UICONTROL Controle de qualidade da atividade] O modo é aderente. Essa situação é verdadeira para implementações da at.js com a versão 2.*x* ou posterior. Para at.js 1.*x* Essa situação é verdadeira somente se o navegador do visitante não bloquear cookies de terceiros.
 
-1. Para ver os relatórios gerados a partir dos URLs do link de atividade, clique no link da atividade **[!UICONTROL Relatórios]** clique no botão **[!UICONTROL Configurações]** ícone (  ![](assets/icon_gear.png) ) e, em seguida, selecione **[!UICONTROL Tráfego do modo de controle de qualidade]** do **[!UICONTROL Ambiente]** lista suspensa.
+1. Para ver os relatórios gerados a partir dos URLs do link de atividade, clique no link da atividade **[!UICONTROL Relatórios]** clique no botão **[!UICONTROL Configurações]** ícone (  ![ícone_imagem de engrenagem](assets/icon_gear.png) ) e, em seguida, selecione **[!UICONTROL Tráfego do modo de controle de qualidade]** do **[!UICONTROL Ambiente]** lista suspensa.
 
 ## Considerações {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

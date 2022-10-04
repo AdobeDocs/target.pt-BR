@@ -4,10 +4,10 @@ description: Saiba como interpretar o Adobe [!DNL Target] relatórios, que inclu
 title: Como visualizar o aumento médio, os limites de aumento e o intervalo de confiança?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ Os limites de aumento representam os intervalos de confiança de 95% do aumento 
 
 Os limites de aumento são calculados usando a seguinte fórmula:
 
-![](assets/lift_diagram.png)
+![imagem de diagrama de incentivo](assets/lift_diagram.png)
 
 Existe um cálculo adicional para chegar à entrada dos nossos limites de aumento:
 
 * **valor t:** a estatística crítica para o nosso nível de confiança de 95% é de 1,96. Saiba mais sobre [os valores t aqui](https://en.wikipedia.org/wiki/T-statistic).
 * **Variação do aumento:** A métrica de sucesso do Erro Padrão de Experiência N e a métrica de sucesso Erro Padrão da Experiência de Controle são necessárias para determinar a variação de aumento, que é calculada usando a seguinte fórmula (ilustrada caso a métrica de sucesso seja conversão).
 
-   ![](assets/lift_variance.png)
+   ![imagem lift_variance](assets/lift_variance.png)
 
 * **Índice de conversão / Erro padrão da métrica de sucesso:** O erro padrão é calculado da mesma forma para a Experiência N e o Controle, usando a seguinte fórmula (ilustrada caso a métrica de sucesso seja conversão). Saiba mais sobre [erro padrão aqui](https://en.wikipedia.org/wiki/Standard_error).
 
-   ![](assets/standard_error.png)
+   ![imagem standard_error](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ Com base em nossas fórmulas, podemos calcular as entradas necessárias para os 
 
 **Erro padrão para Experiência A (Controle)**
 
-![](assets/standard_error_A.png)
+![imagem standard_error_A](assets/standard_error_A.png)
 
 **Erro padrão para Experiência B**
 
-![](assets/standard_error_B.png)
+![imagem standard_error_B](assets/standard_error_B.png)
 
 **Variação de aumento para Experiência B**
 
-![](assets/lift_variance_B.png)
+![imagem lift_variance_B](assets/lift_variance_B.png)
 
 **Variação de aumento para Experiência B**
 
 Aumento esperado para Experiência B:
 
-![](assets/lift_bounds_B.png)
+![imagem lift_bounds_B](assets/lift_bounds_B.png)
 
 Portanto, os limites de aumento para a Experiência B podem ser:
 
-![](assets/lift_bounds_B2.png)
+![imagem lift_bounds_B2](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

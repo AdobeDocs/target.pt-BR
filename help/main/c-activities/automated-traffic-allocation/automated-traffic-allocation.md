@@ -4,9 +4,9 @@ description: Saiba como usar uma atividade de alocação automática no Adobe [!
 title: O que é uma atividade de alocação automática?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 50%
 
 ---
@@ -66,7 +66,7 @@ A abordagem multi-armed bandit mantém algumas experiências livre para explora�
 
 A ilustração a seguir representa como pode ser o desempenho do algoritmo durante um teste com quatro experiências:
 
-![](assets/auto-allocate.png)
+![alocar imagem automaticamente](assets/auto-allocate.png)
 
 A ilustração mostra como o tráfego alocado para cada experiência progride ao longo de várias rodadas do tempo de atividade até que um vencedor claro seja determinado.
 

@@ -4,9 +4,9 @@ description: Saiba como criar um Adobe [!DNL Target] Design do Recommendations q
 title: Como criar um design no Recommendations?
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1029'
 ht-degree: 35%
 
 ---
@@ -46,11 +46,11 @@ Você pode criar um design com base em um design padrão ou pode criar um design
 
 1. Passe o mouse sobre o cartão do design que deseja criar e clique no botão **[!UICONTROL Copiar]** ícone .
 
-   ![](assets/Card_CopyDesign.png)
+   ![Imagem Card_CopyDesign](assets/Card_CopyDesign.png)
 
    O [!UICONTROL Criar design] será exibida.
 
-   ![](assets/createDesign.png)
+   ![imagem createDesign](assets/createDesign.png)
 
 1. No **[!UICONTROL Informações]** , adicione um **[!UICONTROL Nome do conteúdo]** e a imagem de visualização opcional a ser exibida no cartão de design.
 
@@ -104,7 +104,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
 1. Verifique se a opção &quot;HTML Design&quot; está desativada:
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle image](assets/html_design_toggle.png)
 
 1. O código a seguir é um exemplo do que pode ser colado no design:
 
@@ -169,7 +169,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
 Depois que seu algoritmo for executado e você obter os resultados, sua resposta deve ser:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![imagem json_recommendation](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## Dicas e truques adicionais sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
 

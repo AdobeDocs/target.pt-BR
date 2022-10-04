@@ -4,10 +4,10 @@ description: Saiba como usar o painel Modificações no Adobe [!DNL Target] para
 title: Quais modificações posso fazer na minha página?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 93%
+source-wordcount: '2185'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ A página de Modificações mostra todas as alterações feitas em sua página n
 
 A página de [!UICONTROL Modificações] mostra todas as alterações feitas em sua página no VEC. Cada alteração feita aparece como uma ação ou elemento separado na lista de [!UICONTROL Modificações].
 
-![](assets/codeeditor_page_mods.png)
+![imagem codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
 Use a página de Modificações para fazer pequenas alterações no seletor escolhido pelo Target quando você usa o VEC para configurar como o conteúdo será entregue. Você pode alterar o conteúdo ou um atributo de HTML. Você também pode editar o código para criar o equivalente a uma oferta HTML dentro de uma mbox.
 
@@ -29,39 +29,39 @@ Use a página de Modificações para:
 
 * Exibir uma ação realizada no visual composer.
 
-   ![](assets/codeeditor_viewchange.png)
+   ![imagem codeeditor_viewchange](assets/codeeditor_viewchange.png)
 
 * Editar uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Editar]**.
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_edit image](assets/codeeditor_edit.png)
 
    Faça as alterações.
 
-   ![](assets/codeeditor_changechange1.png)
+   ![imagem codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
 * Excluir uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Excluir]**.
 
-   ![](assets/codeditor_delete.png)
+   ![imagem code_delete](assets/codeditor_delete.png)
 
 * Adicione uma nova modificação. Clique em **[!UICONTROL Adicionar modificação]** ou no ícone + e especifique as alterações, conforme descrito abaixo.
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_new image](assets/codeeditor_new.png)
 
    Observe que após a criação de uma modificação o Target exibe um ícone + na parte superior do painel Modificações em vez do botão Adicionar modificação, na parte inferior do painel.
 
 * Fixe o painel Modificações verticalmente na interface do Target ou horizontalmente na parte inferior. Clique no ícone de [!UICONTROL Fixar] para alternar entre as duas configurações.
 
-   ![](assets/codeditor_dock.png)
+   ![imagem code_dock](assets/codeditor_dock.png)
 
    A ilustração a seguir mostra o painel Modificações fixado na parte inferior da tela:
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom image](assets/codeeditor_dock_bottom.png)
 
 ## Adicionar modificações {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. Para exibir a página de [!UICONTROL Modificações] de uma experiência selecionada, no VEC, clique no ícone **[!UICONTROL Modificações]** &lt;/>.
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ Use a página de Modificações para:
 
    A página de [!UICONTROL Modificações] é aberta, dividindo a tela entre o modo visual, à esquerda, e o painel Modificações, à direita. Clique no ícone de [!UICONTROL Fixar] para fixar o painel Modificações verticalmente na interface de usuário do Target ou horizontalmente na parte inferior. Observe que a experiência A na ilustração a seguir não tem modificações anteriores.
 
-   ![](assets/codeeditor_page.png)
+   ![imagem codeeditor_page](assets/codeeditor_page.png)
 
    A experiência B mostra as modificações anteriores no painel [!UICONTROL Modificações] à direita.
 
-   ![](assets/codeeditor_page_mods.png)
+   ![imagem codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
 1. Para adicionar uma modificação:
 
@@ -82,7 +82,7 @@ Use a página de Modificações para:
 
    O painel Modificações é exibido:
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
 1. Na lista suspensa **[!UICONTROL Tipo de modificações]**, escolha o tipo desejado:
 
@@ -104,7 +104,7 @@ Os seletores para ações visuais subsequentes dependem dos elementos HTML adici
 
 O painel Código personalizado geralmente é usado para adicionar o JavaScript ou o CSS à parte superior da página.
 
-![](assets/codeeditor_custom.png)
+![codeeditor_custom image](assets/codeeditor_custom.png)
 
 Use a guia **[!UICONTROL Código personalizado]** para:
 
@@ -215,7 +215,7 @@ Essa mensagem indica que a estrutura da sua página foi alterada desde que a ati
 
 Os seletores ausentes podem ser acessados usando o modo de Navegação. É recomendável que você exclua e recrie cada experiência para garantir que o seu conteúdo seja exibido conforme o esperado, como indicado na mensagem de aviso.
 
-![](assets/code_editor_2.png)
+![imagem code_editor_2](assets/code_editor_2.png)
 
 ***Quando excluo um elemento, vejo um aviso que diz &quot;Excluir esta ação pode afetar as ações subsequentes&quot;. O que isso significa?***
 

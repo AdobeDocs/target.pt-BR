@@ -4,9 +4,9 @@ description: Saiba como usar o Adobe [!DNL Target] Experience Composer baseado e
 title: Como uso o Experience Composer baseado em formulário?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '871'
 ht-degree: 46%
 
 ---
@@ -29,7 +29,7 @@ Se você estiver criando um [!UICONTROL Recommendations] , não há experiência
 
    O [!UICONTROL Experience Composer baseado em formulário] é aberto.
 
-   ![](assets/location_refinements.png)
+   ![imagem location_refinamentos](assets/location_refinements.png)
 
    Essa tela é diferente se você estiver criando um [!UICONTROL Recommendations] atividade . [!UICONTROL Atividades do Recommendations não incluem experiências.]
 
@@ -46,13 +46,13 @@ Se você estiver criando um [!UICONTROL Recommendations] , não há experiência
 
 1. Clique em **[!UICONTROL Adicionar refinamentos de público-alvo]** escolha um ou mais [público](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta atividade, clique em **[!UICONTROL Concluído]**.
 
-   ![](assets/location_refinements_2.png)
+   ![imagem location_refinamentos_2](assets/location_refinements_2.png)
 
    No [!UICONTROL Experience Composer baseado em formulário], os refinamentos foram substituídos pela funcionalidade completa do público-alvo. Os refinamentos das atividades existentes foram migrados para  [públicos-alvo somente de atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Selecione o tipo de conteúdo que você quer que apareça naquele local.
 
-   ![](assets/form_content.png)
+   ![imagem form_content](assets/form_content.png)
 
 1. Para o tipo de conteúdo que você selecionou, especifique o conteúdo.
 
@@ -96,11 +96,11 @@ Se você estiver criando um [!UICONTROL Recommendations] , não há experiência
 
    Ao selecionar o critério do Recommendations no Experience Composer baseado em formulário, agora há um link para o cartão Critérios selecionado, para que possa editar fácil e rapidamente os critérios.
 
-   ![](assets/change_criteria.png)
+   ![imagem change_criteria](assets/change_criteria.png)
 
    Na página Direcionamento do fluxo de trabalho guiado de três etapas do Target:
 
-   ![](assets/change_criteria_2.png)
+   ![imagem change_criteria_2](assets/change_criteria_2.png)
 
    **Adicionar decisão de oferta:**
 

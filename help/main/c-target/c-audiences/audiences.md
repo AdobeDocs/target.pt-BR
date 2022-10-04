@@ -4,9 +4,9 @@ description: Saiba como usar públicos-alvo no [!DNL Adobe Target].
 title: Como uso a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1505'
 ht-degree: 24%
 
 ---
@@ -86,7 +86,7 @@ As informações de uso do público-alvo podem ajudá-lo a evitar um impacto aci
 
 Se um público-alvo for [combinado com outro público](/help/main/c-target/combining-multiple-audiences.md) e o público-alvo combinado é usado para criar uma atividade, as informações de uso para ambos os públicos-alvo listam essa atividade recém-criada.
 
-![](assets/audience_definition_list_usage.png)
+![imagem audience_definition_list_usage](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

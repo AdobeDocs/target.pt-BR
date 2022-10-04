@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo personalizados e salvá-los na [!DN
 title: Como Criar Públicos-Alvo?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 59%
+source-wordcount: '521'
+ht-degree: 58%
 
 ---
 
@@ -37,7 +37,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
 1. Clique em **[!UICONTROL Públicos-alvo]** na barra de menu no topo.
 
-   ![](assets/audiences_list.png)
+   ![imagem audiences_list](assets/audiences_list.png)
 
 1. No [!UICONTROL Públicos-alvo] listar, clique em **[!UICONTROL Criar público-alvo]**.
 
