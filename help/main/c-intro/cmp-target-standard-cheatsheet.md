@@ -4,7 +4,7 @@ description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -166,7 +166,7 @@ Confira as [Regras de modelo](/help/main/c-experiences/c-visual-experience-compo
 
 **Estou cansado de ver a mensagem &quot;Deixe seu carregador carregar os scripts&quot; quando tento carregar minha página no Visual Experience Composer (VEC). Como posso evitar isso?**
 
-Isso ocorre porque seu site tem conteúdo misto. É um site que obtém recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
+Isso ocorre porque seu site tem conteúdo misto. É um site que busca recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
 Até que isso aconteça, siga as instruções em  [Ativar conteúdo misto no navegador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
 
@@ -279,7 +279,7 @@ Observe que o Target coleta os dados relacionados a isso a partir do momento que
 
 **Posso realizar cálculos de criação de relatórios off-line?**
 
-Use as [opções Exporte relatórios para CSV e Detalhes de Pedido de Download para CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) na página Relatórios para baixar os dados de criação de relatórios desejados.
+Use as [opções Exporte relatórios para CSV e Detalhes de Pedido de Download para CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) na página Relatórios para baixar os dados de criação de relatórios desejados.
 
 **Posso mudar a experiência de controle para avaliação de relatórios ou mudar a metodologia de contagem de Visitantes para Visitas?**
 
@@ -315,4 +315,4 @@ Para otimização e personalização em dispositivos móveis, você precisa usar
 
 **Onde eu posso aprender mais sobre as APIs do Target?**
 
-Temos uma documentação completa sobre APIs. Consulte [Documentação das APIs de entrega, do SDK do NodeJS e das APIs do Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Temos uma documentação completa sobre APIs. Consulte [Documentação das APIs de entrega, do SDK do NodeJS e das APIs do Recommendations](https://developer.adobe.com/target/implementar/lado do servidor/){target=_blank}.

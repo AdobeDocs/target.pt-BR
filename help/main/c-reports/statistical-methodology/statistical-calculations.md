@@ -3,7 +3,7 @@ keywords: relatórios, metodologia estatística, cálculos estatísticos, estat�
 description: Saiba mais sobre os cálculos estatísticos usados no manual [!UICONTROL Teste A/B] atividades em [!DNL Adobe Target].
 title: Como posso saber mais sobre os cálculos estatísticos usados em [!UICONTROL Teste A/B] Atividades?
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -132,6 +132,6 @@ Por último, a confiança reportada em [!DNL Target] é definido como:
 
 ## Execução de cálculos offline
 
-O [download do relatório de CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
+O [download do relatório de CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
 Para calcular essas quantidades estatísticas, faça o download do [Calculadora de confiança completa](/help/main/assets/complete_confidence_calculator.xlsx) Arquivo do Excel para inserir o valor da atividade.

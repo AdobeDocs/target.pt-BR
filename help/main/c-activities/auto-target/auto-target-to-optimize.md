@@ -4,10 +4,10 @@ description: Saiba como uma atividade de Direcionamento automático no [!DNL Tar
 title: O que é uma atividade de direcionamento automático?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 70%
+source-wordcount: '1987'
+ht-degree: 66%
 
 ---
 
@@ -63,7 +63,7 @@ Os seguintes termos são úteis quando falamos de [!UICONTROL Direcionamento aut
 |---|---|
 | Multi-armed bandit | Uma abordagem multi-armed bandit à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado. |
 | Floresta Aleatória | Random Forest é uma abordagem de aprendizado de máquina líder. No contexto da ciência de dados, é um método de classificação ou regressão de conjunto que funciona por meio da construção de muitas árvores de decisão com base nos atributos do visitante e da visita. No Target, o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou maior receita por visita) para cada visitante específico. Para obter mais informações sobre o Random Forest no Target, consulte  [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Amostragem de Thompson | O objetivo da Amostragem de Thompson é determinar qual experiência é a melhor em geral (não personalizada), enquanto minimiza o &quot;custo&quot; da procura dessa experiência. A amostragem de Thompson sempre escolhe um vencedor, mesmo que não haja diferença estatística entre duas experiências. Para obter mais informações, consulte [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Amostragem de Thompson | O objetivo da Amostragem de Thompson é determinar qual experiência é a melhor em geral (não personalizada), enquanto minimiza o &quot;custo&quot; de encontrar essa experiência. A amostragem de Thompson sempre escolhe um vencedor, mesmo que não haja diferença estatística entre duas experiências. Para obter mais informações, consulte [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Como funciona o [!UICONTROL direcionamento automático] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -89,8 +89,8 @@ A lista suspensa [!UICONTROL Alocação personalizada] permite escolher as segui
 
 | Objetivo da atividade | Sugestão de alocação de tráfego | Compensações |
 |--- |--- |--- |
-| **Avaliar o algoritmo de personalização (50/50):** se o objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50% entre o controle e o algoritmo de destino. Esta divisão fornece a estimativa mais precisa do aumento. Recomenda-se usar com &quot;experiências aleatórias&quot; como controle. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes têm uma experiência personalizada</li></ul> |
-| **Maximizar o tráfego de personalização (90/10):** se o objetivo for criar uma atividade &quot;sempre ativa&quot;, coloque 10% dos visitantes no controle, a fim de garantir que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. Observe que a desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você tem menos precisão em saber qual é o aumento exato. Independentemente da meta, esta é a divisão de tráfego recomendada ao usar uma experiência específica como controle. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
+| **Avaliar o algoritmo de personalização (50/50):** se o objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50% entre o controle e o algoritmo de destino. Esta divisão fornece a estimativa mais precisa do aumento. Sugestão para uso com &quot;experiências aleatórias&quot; como controle. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes têm uma experiência personalizada</li></ul> |
+| **Maximizar o tráfego de personalização (90/10)**: Se o objetivo for criar uma atividade &quot;sempre ativa&quot;, coloque 10% dos visitantes no controle para garantir que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. Observe que a desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você tem menos precisão em saber qual é o aumento exato. Independentemente da meta, esta é a divisão de tráfego recomendada ao usar uma experiência específica como controle. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
 | **Alocação personalizada** | Divida manualmente a porcentagem conforme desejado. | <ul><li>Você pode não conseguir os resultados desejados. Se você não tiver certeza, siga as sugestões para qualquer uma das opções anteriores</li></ul> |
 
 Para ajustar a porcentagem de Controle, clique nos ícones na coluna Alocação. Você não pode diminuir o grupo de controle para menos de 10%.
@@ -113,7 +113,7 @@ Existem vários cenários em que você pode preferir usar o [!UICONTROL Direcion
 
 * O algoritmo prevê a propensão do visitante para a conversão (ou receita estimada da conversão) para oferecer a melhor experiência.
 * Um visitante é qualificado para uma nova experiência ao final de uma sessão existente (a menos que o visitante esteja no grupo de controle, nesse caso, a experiência que o visitante recebe na primeira visita permanece a mesma para visitas subsequentes).
-* Em uma sessão, a previsão não muda, para manter a consistência visual.
+* Em uma sessão, a previsão não muda para manter a consistência visual.
 
 **O algoritmo se adapta às mudanças no comportamento do visitante.**
 
@@ -159,7 +159,7 @@ Para o [!UICONTROL Direcionamento automático], as regras básicas podem ser usa
 
 ## Relatórios e [!UICONTROL Direcionamento automático] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Para obter mais informações, consulte [Relatório de resumo do direcionamento automático](/help/main/c-reports/auto-target-summary-report.md) na seção [Relatórios](/help/main/c-reports/reports.md).
+Para obter mais informações, consulte [Relatório de resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Vídeo de treinamento: Noções básicas sobre atividades de direcionamento automático ![Selo de visão geral](/help/main/assets/overview.png)
 

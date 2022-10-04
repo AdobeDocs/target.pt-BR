@@ -4,10 +4,10 @@ description: Saiba como diferentes segmentos são definidos pelo Adobe [!DNL Tar
 title: O que é o relatório de Segmentos automatizados?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '2115'
-ht-degree: 81%
+source-wordcount: '2126'
+ht-degree: 74%
 
 ---
 
@@ -40,9 +40,9 @@ Visitantes diferentes respondem de forma distinta às ofertas/experiências na a
 
 1. Clique em **[!UICONTROL Relatórios]**.
 
-   O [Resumo do Automated Personalization](/help/main/c-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/auto-target-summary-report.md) , que fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. O Direcionamento automático tem um ícone de gráfico extra para a exibição gráfica da variável [!UICONTROL Resumo] relatório.
+   O [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) , que fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. O Direcionamento automático tem um ícone de gráfico extra para a exibição gráfica da variável [!UICONTROL Resumo] relatório.
 
-   ![](assets/personalization_insights.png)
+   ![](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,16 +56,15 @@ Visitantes diferentes respondem de forma distinta às ofertas/experiências na a
 
    Ao contrário do [!UICONTROL Resumo] relatório (relatório de desempenho), [!UICONTROL Insights de personalização], incluindo [!UICONTROL Segmentos automatizados], está disponível somente para intervalos de datas fixos: 15 dias, 30 dias e 60 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você notará que o &quot;Início&quot; está esmaecido. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Escolher duração].
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Revise os dados do relatório de [!UICONTROL Segmentos automatizados].
 
-   ![](assets/automated_segments_report.png)
-
+   ![Relatório de Segmentos automáticos](/help/main/c-reports/assets/automated_segments_report.png)
 
 1. (Opcional) [Baixe o relatório no formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para análise no Excel e em outras ferramentas.
 
@@ -81,7 +80,7 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 |--- |--- |
 | Painel lateral esquerdo | O painel lateral esquerdo lista os 20 maiores &quot;segmentos automatizados&quot; identificados pelos modelos de personalização do Target para esta atividade. Um &quot;segmento automatizado&quot; é como um público-alvo, mas é definido pelos modelos de personalização do Target, e não pelo profissional de marketing. Cada segmento automatizado é composto de valores específicos (ou intervalos de valores), de atributos específicos.<br>Segmentos automatizados podem se sobrepor. Os segmentos automatizados podem ser definidos por um, dois, três ou quatro atributos. Consulte os exemplos abaixo para obter mais detalhes.<br>Para saber mais sobre os modelos de personalização do Target, consulte [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Para saber mais sobre os atributos que os modelos de personalização do Target usam para criar segmentos automatizados, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). |
 | Gráfico central | Os gráficos centrais mostram como o conteúdo da atividade foi executado para o segmento automatizado destacado. Ao clicar em segmentos diferentes no painel esquerdo, os gráficos centrais são atualizados. |
-| Gráficos de pizza | Os gráficos de pizza na parte superior do painel central mostram o tamanho do segmento automatizado, bem como o número total de visitas personalizadas na atividade (por exemplo, o tráfego para essa atividade que foi distribuído pelo modelo de personalização. Não inclui o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). O tamanho do segmento é baseado apenas em visitas personalizadas.<br>![Gráfico de pizza](/help/main/c-reports/c-personalization-insights-reports/assets/pie.png) |
+| Gráficos de pizza | Os gráficos de pizza na parte superior do painel central mostram o tamanho do segmento automatizado, bem como o número total de visitas personalizadas na atividade (por exemplo, o tráfego para essa atividade que foi distribuído pelo modelo de personalização. Não inclui o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). O tamanho do segmento é baseado apenas em visitas personalizadas.<br>![Gráfico de pizza](/help/main/c-reports/assets/pie.png) |
 | Gráfico de barras de dois eixos | O gráfico de barras de dois eixos inclui informações de visita e conversão por meio da oferta ou experiência para esse segmento automatizado específico. |
 | Barra rosa | A barra rosa representa a taxa de conversão e usa o eixo inferior do gráfico. Você pode passar o mouse sobre a barra para obter mais informações |
 | Barra azul | A barra azul representa o número de visitas e usa o eixo superior do gráfico. Você pode passar o mouse sobre a barra para obter mais informações. |
@@ -91,13 +90,13 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 Este segmento automatizado é definido com base em apenas um atributo. Os visitantes incluídos neste segmento automatizado viram esta atividade de AP em um dia de semana fora do horário normal de trabalho ou em um final de semana.
 
-![](assets/automated_segment_example_1.png)
+![Exemplo 1 do relatório de Segmentos automatizados](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **Exemplo de segmento automatizado 2**
 
 Este segmento automatizado é definido com base em dois atributos. Os visitantes incluídos neste segmento automatizado que viram esta atividade de AP tinham menos de três visualizações de página em sua visita atual e estavam geograficamente localizados na Latitude 42,57 e 47,29 (aproximadamente entre New Hampshire/Oregon e Washington/Maine para uma empresa com sede nos EUA).
 
-![](assets/automated_segment_example_2.png)
+![Exemplo de relatório de Segmentos automatizados 2](/help/main/c-reports/assets/automated_segment_example_2.png)
 
 ## Perguntas frequentes de Segmentos automáticos {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -123,13 +122,13 @@ Um segmento automatizado é composto de valores específicos (ou intervalos de v
 
 Para saber mais sobre o algoritmo de personalização random forest, que é a base para os modelos de personalização do Target, consulte  [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
-**O que decide a ordem dos segmentos automatizados? **
+**O que decide a ordem dos segmentos automatizados?**
 
 Uma pontuação é calculada para cada segmento, com base no seu tamanho e desempenho diferenciado no conteúdo da sua atividade. A combinação dessas informações determina a ordem dos segmentos automatizados, de modo que os segmentos maiores, com maiores diferenças na forma como responderam ao conteúdo distinto, aparecerão mais perto do topo da lista de segmentos.
 
 **Por que apenas algumas das minhas ofertas/experiências são exibidas no relatório dos Segmentos automatizados?**
 
-As atividades de AP e de AT criam um modelo por oferta (no caso de AP) e um modelo por experiência (no caso de AT). Essas atividades começam distribuindo o tráfego personalizado e criam seus [!UICONTROL Insights de personalização] com apenas dois modelos elaborados. Se não visualizar todas as suas ofertas/experiências nos [!UICONTROL Insights de personalização], é provável que você não tenha modelos criados para essas ofertas/experiências específicas. Você pode verificar o relatório de [!UICONTROL Resumo] da atividade e ver se há um ícone de relógio ao lado dessa oferta/experiência. Esse ícone indica que os modelos ainda não foram criados para essa oferta/experiência.
+As atividades de AP e de AT criam um modelo por oferta (no caso de AP) e um modelo por experiência (no caso de AT). Essas atividades começam distribuindo o tráfego personalizado e criam seus [!UICONTROL Insights de personalização] com apenas dois modelos elaborados. Se não visualizar todas as suas ofertas/experiências no [!UICONTROL Insights de personalização], é provável que você não tenha modelos criados para essas ofertas/experiências específicas. Você pode verificar o [!UICONTROL Resumo] e veja se há um ícone de relógio ao lado dessa oferta/experiência. Esse ícone indica que os modelos ainda não foram criados para essa oferta/experiência.
 
 **Por que algumas ofertas/experiências com uma taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação a outras ofertas/experiências para um determinado segmento automatizado?**
 
@@ -149,11 +148,11 @@ Relatórios de insights de personalização (ambos [!UICONTROL Segmentos automat
 
 **Como os [!UICONTROL Insights de personalização] são criados?**
 
-Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa da Adobe disponível no [site da arXiv.org](https://arxiv.org/abs/1706.07160).
+Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Saiba mais sobre o MAGIX no artigo publicado pela equipe de pesquisadores do Adobe [Site da arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Por que o total de dados de tráfego dos visitantes no relatório de [!UICONTROL Segmentos automatizados] não corresponde ao meu relatório de resumo/desempenho de AP ou AT?**
 
-Os relatórios de [!UICONTROL Insights de personalização] incluem apenas visitantes que viram uma parte do conteúdo selecionado por modelos de personalização do Target (isto é, não considera o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). Este tipo de tráfego é chamado de tráfego &quot;personalizado&quot;. O relatório de resumo/desempenho em AP/AT inclui controle versus tráfego &quot;direcionado&quot;. O tráfego direcionado inclui o tráfego personalizado, bem como o distribuído usando o modelo vencedor global e algum tráfego distribuído aleatoriamente para continuar o aprendizado.
+O [!UICONTROL Insights de personalização] os relatórios incluem apenas visitantes que viram uma parte do conteúdo selecionado por modelos de personalização do Target (ou seja, não considera o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). Esse tipo de tráfego é chamado de tráfego &quot;personalizado&quot;. O relatório de resumo/desempenho em AP/AT inclui controle versus tráfego &quot;direcionado&quot;. O tráfego direcionado inclui o tráfego personalizado, bem como o distribuído usando o modelo vencedor global e algum tráfego distribuído aleatoriamente para continuar o aprendizado.
 
 **Os segmentos automatizados são mutuamente exclusivos?**
 

@@ -4,7 +4,7 @@ description: Dicas para ajudar você a melhorar o desempenho, evitar problemas e
 title: Quais são as práticas recomendadas para testes multivariados?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
@@ -45,8 +45,8 @@ Dicas para ajudar você a melhorar o desempenho, evitar problemas e corrigir pro
 
 ## Analisar  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Use o relatório de [Contribuição da localização](/help/main/c-reports/location-contribution-report.md) para monitorar o desempenho de cada localização e cada oferta.
-* No relatório de [Desempenho da experiência](/help/main/c-reports/experience-performance-report.md), baseie suas decisões nos dados mostrados com o uso dos filtros 5 melhores e 5 piores.
+* Use o relatório de [Contribuição da localização](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) para monitorar o desempenho de cada localização e cada oferta.
+* No relatório de [Desempenho da experiência](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), baseie suas decisões nos dados mostrados com o uso dos filtros 5 melhores e 5 piores.
 
    O filtro [!UICONTROL Todos] dificulta a extração das informações desejadas e nem todas as experiências podem ser exibidas no gráfico. Use o filtro [!UICONTROL Todas] se quiser ver uma experiência específica que não seja uma das cinco melhores ou piores.
 

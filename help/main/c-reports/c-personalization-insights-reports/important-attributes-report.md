@@ -4,10 +4,10 @@ description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que
 title: Qual é o relatório de atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
 1. Clique em **[!UICONTROL Relatórios]**.
 
-   O [Resumo do Automated Personalization](/help/main/c-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/auto-target-summary-report.md) , que fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois [!UICONTROL Insights de personalização] relatórios: [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
+   O [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) , que fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois [!UICONTROL Insights de personalização] relatórios: [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
 
-   ![Relatório de resumo da atividade do Automated Personalization](assets/summary-report-ap.png)
+   ![Relatório de resumo da atividade do Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
    Observe que [!UICONTROL Direcionamento automático] tem um ícone de gráfico adicional para a exibição gráfica do [!UICONTROL Resumo] relatório.
 
-   ![Relatório de resumo da atividade de Direcionamento automático](assets/personalization_insights.png)
+   ![Relatório de resumo da atividade de Direcionamento automático](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
 1. Após 15 dias da ativação da atividade, clique no botão **[!UICONTROL Atributos importantes]** ícone .
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Selecione o intervalo de datas desejado.
 
@@ -66,16 +66,15 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
    Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Escolher duração].
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Revise os dados do relatório de [!UICONTROL Atributos importantes].
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Opcional) [Baixe o relatório no formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para análise no Excel e em outras ferramentas.
 
@@ -118,7 +117,7 @@ Os relatórios dos Insights de personalização (os [!UICONTROL Segmentos automa
 
 **Como os [!UICONTROL Insights de personalização] são criados?**
 
-Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa da Adobe disponível no [site da arXiv.org](https://arxiv.org/abs/1706.07160).
+Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Saiba mais sobre o MAGIX no artigo publicado pela equipe de pesquisadores do Adobe [Site da arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Os [!UICONTROL Insights de personalização] estão disponíveis para metas de modelagem baseadas em receita/meta principal?**
 
@@ -136,7 +135,7 @@ Há vários motivos possíveis pelos quais você pode ver mais visitas para uma 
 * Atividades de volume inferior nas quais determinadas ofertas ou experiências não têm modelos criados.
 * Atividades de volume inferior nas quais foram criados modelos para algumas ofertas/experiências antes do que para outras. Por exemplo, suponha que um modelo adicional foi criado no dia 22 e você está analisando os dados dos dias 10 a 24.
 * Regras de direcionamento em uma oferta específica que limitam quais visitantes podem ver quais ofertas/experiências.
-* Não há intervalos de confiança no relatório de insight. No entanto, se os índices de conversão estiverem próximos o suficiente, o modelo poderá fornecer tráfego para que o número seja maior em um ponto, mas não “estatisticamente diferente” do outro.
+* Não há intervalos de confiança no relatório de insight. No entanto, se as taxas de conversão estiverem próximas o suficiente, o modelo poderá fornecer tráfego para que ele seja maior no valor do ponto, mas não serão números &quot;estatisticamente diferentes&quot;.
 
 Pode ser útil saber como o modelo fornece o tráfego. Cada indivíduo é servido com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para facilitar sua interpretação por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode fazer com que segmentos individuais exibam esse tipo de comportamento, pois uma mesma pessoa pode aparecer em vários segmentos.
 

@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 98%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -255,22 +255,23 @@ ht-degree: 98%
    + [Visão geral dos relatórios](c-reports/reports.md)
    + Configurações do relatório {#settings}
       + [Visão geral das configurações de relatório](c-reports/c-report-settings/report-settings.md)
-      + [Média de aumento, limites de aumento e intervalo de confiança](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Exibir várias métricas em um relatório](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Excluir valores extremos](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [Download de dados em um arquivo CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Metodologia estatística {#statistical-methodology}
       + [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [Relatório de Resumo do direcionamento automático](c-reports/auto-target-summary-report.md)
-   + [Relatórios de resumo de Automated Personalization](c-reports/reports-ap.md)
+   + Relatórios de personalização {#personalization-reports}
+      + [Relatório de Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Relatórios de resumo de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Oferecer Grupos de relatório na Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Relatório de insights de personalização {#insights}
       + [Visão geral dos relatórios do Insights](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Relatório de Segmentos automáticos](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Relatório de atributos importantes](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Oferecer Grupos de relatório na Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [Relatório de desempenho da experiência (MVT)](c-reports/experience-performance-report.md)
-   + [Relatório de contribuição de localização (MVT)](c-reports/location-contribution-report.md)
+   + Relatórios de teste multivariado {#multivariate-test-reports}
+      + [Relatório de desempenho da experiência (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [Relatório de contribuição de localização (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Relatórios do Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Download de dados em um arquivo CSV](c-reports/downloading-data-in-csv-file.md)
    + [Perguntas frequentes de geração de relatórios](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
    + [Visão geral do Recommendations](c-recommendations/recommendations.md)
