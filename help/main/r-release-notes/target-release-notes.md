@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ff70cddb7a6c97d6b4dccf86e73a0d147981e88e
+source-git-commit: c5445903e7bbab210d0e72200c54ab07975c21c5
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 28%
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização em: 3 outubro de 2022**
+**Última atualização em: 4 outubro de 2022**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
