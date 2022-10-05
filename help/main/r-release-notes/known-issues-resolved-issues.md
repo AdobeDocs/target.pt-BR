@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre problemas conhecidos e problemas
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4593'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ A interface do [!DNL Target] permite que os usuários selecionem métricas de en
 
 Para obter uma lista de métricas de meta compatíveis e não compatíveis, consulte [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### Distribuição do tráfego de [!DNL Auto-Allocate] atividades usando A4T {#aa-a4t}
+### Distribuição de tráfego de atividades de [!DNL Auto-Allocate] usando o A4T {#aa-a4t}
 
 Em alguns casos, a distribuição de tráfego das atividades de [!UICONTROL Alocação automática] usando o [!UICONTROL Analytics for Target] (A4T) pode ser diferente do que deveria ocorrer com base na taxa de conversão relatada de cada experiência. Isso ocorre com mais frequência em atividades com alta proporção de tráfego de visita de retorno. (TOP-131)
 
@@ -155,9 +155,9 @@ Este problema foi corrigido em janeiro de 2022. (TNT-37455)
 
 Se você adicionar uma regra de modelo, como URL contém (/checkout, /cart) no [delivery da](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) página, espaços adicionais recebem o prefixo de suas regras. Esses espaços extras são cosméticos e não afetam a criação de definição de público-alvo e a entrega de ofertas. (TGT-35920)
 
-### Ofertas de imagem mostrando o rótulo &quot;Processamento&quot;
+### Ofertas de imagem que mostram o rótulo “Processando”
 
-As ofertas de imagem na página Ofertas às vezes retêm o rótulo de &quot;processamento&quot; por várias horas após as imagens serem carregadas. Na maioria dos casos, esse é um problema somente com o rótulo: as ofertas de imagem ainda podem ser usadas em atividades e entregues. (MCUI-10264, TGT-37458)
+As ofertas de imagem na página Ofertas às vezes apresentam o rótulo “processando” por várias horas após as imagens serem carregadas. Na maioria dos casos, esse é um problema somente com o rótulo: as ofertas de imagem ainda podem ser usadas em atividades e entregues. (MCUI-10264, TGT-37458)
 
 Este problema foi corrigido no Target Standard/Premium versão 20.10.1.
 
@@ -194,7 +194,7 @@ Caso tenha mais dúvidas, entre em contato com o Gerente de sucesso do cliente (
 
 ### Relatórios de Direcionamento automático {#at-metrics}
 
-Um problema que afetou [!DNL Adobe Target Premium] users&#39; [!UICONTROL Direcionamento automático] relatório de 15 de setembro, 14:30 (PDT) para 6 de outubro, 9:25 (TFD). Ao visualizar relatórios para as métricas de conversão afetadas (configuradas usando o &quot;[!UICONTROL Visualizada uma página]&quot; ou &quot;[!UICONTROL Clicado em mbox]&quot;), as taxas de conversão são reportadas incorretamente. Não há problemas de entrega conhecidos no momento.
+Foi resolvido um problema que afetava os relatórios de [!UICONTROL Direcionamento automático] de usuários do [!DNL Adobe Target Premium], de 15 de setembro, às 14h30 (PDT) a 6 de outubro, às 9h25 (PDT). Ao visualizar relatórios das métricas de conversão afetadas (configuradas utilizando a opção “[!UICONTROL Visualizou uma página]” ou “[!UICONTROL Clicou na mbox]”), as taxas de conversão são relatadas incorretamente. Não há problemas de entrega conhecidos no momento.
 
 Para sincronizar novamente e corrigir seus relatórios:
 
@@ -230,7 +230,7 @@ Esse problema foi resolvido.
 
 ### Páginas que não são carregadas no Visual Experience Composer (VEC) ou no Enhanced Experience Composer (EEC) ao usar o Google Chrome versão 80+
 
-Esse problema conhecido é relacionado à decisão do Google de alterar o comportamento padrão dos cookies sem o atributo SameSite começando com o Chrome versão 80. Antes da alteração, o Chrome padronizava todos os cookies sem o atributo SameSite como &quot;SameSite=None&quot; e, agora, o padrão era &quot;SameSite=Lax&quot;, o que altera a maneira como os cookies são enviados em solicitações GET e POST. Consulte [Atualizações do SameSite](https://www.chromium.org/updates/same-site).
+Esse problema conhecido é relacionado à decisão do Google de alterar o comportamento padrão dos cookies sem o atributo SameSite começando com o Chrome versão 80. Antes da alteração, o Chrome padronizava todos os cookies sem o atributo SameSite como “SameSite=None”. Agora, o padrão é “SameSite=Lax”, o que altera a maneira como os cookies são enviados em solicitações GET e POST. Consulte [Atualizações do SameSite](https://www.chromium.org/updates/same-site).
 
 Para obter mais informações e uma correção, consulte &quot;Como as políticas de aplicação de cookies SameSite do Google Chrome recentemente anunciadas afetam o VEC e o EEC?&quot; em [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
@@ -402,7 +402,7 @@ Uma correção para esse problema foi feita na at.js versão 0.9.7 lançada em 2
 
 ### Criação de relatórios: atividades de A/B e direcionamento de experiência (XT)
 
-Entre 27 de abril às 21h PST e 5 de maio às 6:00 PST, A/B e XT, as atividades criadas ou editadas com qualquer métrica usando a ação de conversão &quot;Visualizou uma página&quot; (que não eram baseadas em outras métricas), podem ter registrado conversões incorretamente. Esse problema agora está resolvido; no entanto, os relatórios sobre a ação de conversão &quot;Visualizou uma página&quot; para essas atividades durante o período de tempo impactado podem não ser precisos e, infelizmente, não podem ser corrigidos. Recomendamos que, para quaisquer decisões baseadas nas ações de conversão &quot;Visualizou uma página&quot; nessas atividades, você confie apenas nos dados registrados antes ou depois do período impactado.
+Entre as 21h (PST) de 27 de abril e as 6h (PST) de 5 de maio, as atividades de A/B e XT criadas ou editadas com qualquer métrica usando a ação de conversão “Visualizou uma página” (que não foram baseadas em outras métricas) podem ter registrado conversões incorretamente. Agora, este problema foi resolvido. Entretanto, os relatórios da ação de conversão “Visualizou uma página” dessas atividades durante o período impactado podem não ser precisos e, infelizmente, não podem ser corrigidos. Recomendamos que, para quaisquer decisões baseadas nas ações de conversão “Visualizou uma página” dessas atividades, apenas os dados registrados antes ou depois do período impactado sejam usados como base.
 
 A criação de relatórios de dados para outras métricas ainda pode ser usada, pois elas não foram impactadas.
 
@@ -438,7 +438,7 @@ Para os critérios Visualizados recentemente, as regras dinâmicas baseadas em e
 
 Esse problema foi corrigido depois do lançamento do Recommendations (22 de março de 2018). Depois do lançamento do Recommendations, o Target ignora as regras dinâmicas baseadas na entidade se entity.id não for transmitido na solicitação da mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 Quando os usuários tentam fazer o download da at.js a partir da página de detalhamento de Implementações depois de atualizar as configurações da at.js,  é baixado em vez da at.js. (TGT-23069)
 
