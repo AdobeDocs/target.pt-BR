@@ -3,7 +3,7 @@ keywords: relatórios, metodologia estatística, cálculos estatísticos, estat�
 description: Saiba mais sobre os cálculos estatísticos usados no manual [!UICONTROL Teste A/B] atividades em [!DNL Adobe Target].
 title: Como posso saber mais sobre os cálculos estatísticos usados em [!UICONTROL Teste A/B] Atividades?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Cálculos estatísticos em testes A/Bn
 
-Esta página documenta os cálculos estatísticos detalhados usados nos testes manuais de A/Bn em [!DNL Adobe Target]. As definições são fornecidas para [!UICONTROL Índice de conversão], [!UICONTROL Intervalo de confiança da taxa de conversão], [!UICONTROL Lift], [!UICONTROL Intervalo de confiança para aumento]e [!UICONTROL Confiança].
+Este artigo documenta os cálculos estatísticos detalhados usados nos testes manuais A/Bn em [!DNL Adobe Target]. As definições são fornecidas para [!UICONTROL Índice de conversão], [!UICONTROL Intervalo de confiança da taxa de conversão], [!UICONTROL Lift], [!UICONTROL Intervalo de confiança para aumento]e [!UICONTROL Confiança].
 
 >[!NOTE]
 >
