@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
 source-wordcount: '1320'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 3 de outubro | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualizadas as datas do [!DNL Target Standard/Premium] Versão 22.10.1. |
-| 22 de setembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Quebra do café da Comunidade em Perguntas e Respostas (28 de setembro de 2022)</li></ul> |
+| 22 de setembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de perguntas e respostas da comunidade (28 de setembro de 2022) </li></ul> |
 | 15 de setembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte webinário:<ul><li>Ajuste da personalização alimentada por IA: Novos recursos do [!DNL Adobe Target] (11 de outubro de 2022)</li></ul> |
 | 13 de setembro | [Compreensão da interface do  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Adição de informações sobre notificações de falhas nos feeds do [!DNL Recommendations]. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.9.1 do [!DNL Target Standard/Premium]. |
