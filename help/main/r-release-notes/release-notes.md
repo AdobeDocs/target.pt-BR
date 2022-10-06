@@ -18,13 +18,13 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 22.10.1 (lançamento escalonado de 6 a 10 de outubro de 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (lançamento escalonado de 10 a 13 de outubro de 2022)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **6 de outubro**: região das Américas
-* **7 de outubro**: região da Europa, Oriente Médio e África (EMEA)
 * **10 de outubro**: região da Ásia-Pacífico (APAC)
+* **11 de outubro**: região das Américas
+* **13 de outubro**: região da Europa, Oriente Médio e África (EMEA)
 
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
