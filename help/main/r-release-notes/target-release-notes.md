@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 76%
@@ -24,7 +24,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
 * **10 de outubro**: região da Ásia-Pacífico (APAC)
-* **11 de outubro**: região das Américas
+* **12 de outubro**: região das Américas
 * **13 de outubro**: região da Europa, Oriente Médio e África (EMEA)
 
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
