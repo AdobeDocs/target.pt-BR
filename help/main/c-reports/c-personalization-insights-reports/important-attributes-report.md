@@ -4,10 +4,10 @@ description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que
 title: Qual é o relatório de atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
 1. Após 15 dias da ativação da atividade, clique no botão **[!UICONTROL Atributos importantes]** ícone .
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Ícone de Atributos importantes em um relatório do Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Selecione o intervalo de datas desejado.
 
@@ -66,15 +66,15 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
    Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendário em um relatório do Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Escolher duração].
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Escolha a lista suspensa Duração em um relatório](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Revise os dados do relatório de [!UICONTROL Atributos importantes].
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Relatório de atributos importantes no Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Opcional) [Baixe o relatório no formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para análise no Excel e em outras ferramentas.
 

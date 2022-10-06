@@ -4,9 +4,9 @@ description: Saiba como diferentes segmentos são definidos pelo Adobe [!DNL Tar
 title: O que é o relatório de Segmentos automatizados?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 74%
 
 ---
@@ -42,7 +42,7 @@ Visitantes diferentes respondem de forma distinta às ofertas/experiências na a
 
    O [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) , que fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. O Direcionamento automático tem um ícone de gráfico extra para a exibição gráfica da variável [!UICONTROL Resumo] relatório.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Relatório de insights de personalização no Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ Visitantes diferentes respondem de forma distinta às ofertas/experiências na a
 
    Ao contrário do [!UICONTROL Resumo] relatório (relatório de desempenho), [!UICONTROL Insights de personalização], incluindo [!UICONTROL Segmentos automatizados], está disponível somente para intervalos de datas fixos: 15 dias, 30 dias e 60 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você notará que o &quot;Início&quot; está esmaecido. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendário no relatório do Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Escolher duração].
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Lista suspensa Duração no Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Revise os dados do relatório de [!UICONTROL Segmentos automatizados].
 

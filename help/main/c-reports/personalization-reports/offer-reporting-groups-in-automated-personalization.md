@@ -4,10 +4,10 @@ description: Saiba como usar grupos de relatórios de ofertas no Adobe [!DNL Tar
 title: Posso usar Grupos de relatórios de oferta nas atividades do Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
 
 1. No [!UICONTROL Experiências] de uma atividade de AP, clique no botão **[!UICONTROL Gerenciar conteúdo]** ícone .
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Ícone Gerenciar conteúdo](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Clique na guia **[!UICONTROL Ofertas]** na parte superior da caixa de diálogo [!UICONTROL Gerenciar conteúdo].
 1. (Condicional) Adicione experiências específicas a um grupo de relatórios, passando o mouse sobre a oferta desejada e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios]**.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![Ícone do Grupo de relatórios](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (Condicional) Adicione experiências em lote a um grupo de relatórios, marcando a caixa de seleção das experiências relevantes e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios]** no canto superior direito da caixa de diálogo.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![Ícone do Grupo de relatórios](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (Condicional) Para atribuir a oferta selecionada a um grupo de relatórios existente, selecione **[!UICONTROL Existente]**, selecione o grupo de relatórios desejado na lista suspensa e clique em **[!UICONTROL Aplicar]**.
 
@@ -51,4 +51,4 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
 
    Para criar um novo grupo de relatórios para atribuir a oferta selecionada, selecione **[!UICONTROL Novo]**, nomeie o novo grupo de relatórios e clique em **[!UICONTROL Aplicar]**.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![Novo ícone para criar um novo grupo de relatórios](/help/main/c-reports/assets/ap_reporting_groups.png)

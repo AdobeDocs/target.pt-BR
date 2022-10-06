@@ -4,10 +4,10 @@ description: Saiba como interpretar o relatório de Resumo do Automated Personal
 title: Como uso os relatórios de resumo do Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 40%
+source-wordcount: '679'
+ht-degree: 39%
 
 ---
 
@@ -46,7 +46,7 @@ O relatório [!UICONTROL Nível da oferta] para a experiência Random Forest com
 
 Clique no algoritmo de experiência (Random Forest ou controle) para visualizar o [!UICONTROL Nível da oferta] relatório.
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Relatório de nível de oferta no Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 As ofertas podem ser mostradas em grupos de relatórios, e esses grupos de relatórios podem ser recolhidos e expandidos. Selecione [!UICONTROL Grupo de relatórios] na lista suspensa para exibir as informações com roll-up, em vez das ofertas.
 

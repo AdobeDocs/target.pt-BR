@@ -4,32 +4,32 @@ description: Saiba como usar o relatório de Contribuição de localização par
 title: Como uso o Relatório de contribuição de localização para testes multivariados?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 84%
+source-wordcount: '229'
+ht-degree: 61%
 
 ---
 
-# Relatório de contribuição de localização (MVT)
+# [!UICONTROL Relatório de contribuição de localização (MVT)]
 
-O relatório de Contribuição da localização mostra o desempenho de cada elemento e cada oferta.
+O [!UICONTROL Contribuição de localização] mostra o desempenho de cada elemento e cada oferta.
 
 A parte superior do relatório mostra a métrica, as datas de início e término e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
 
 >[!NOTE]
 >
->O público-alvo e o seletor de métrica só estarão disponíveis se o Analytics for usado como a fonte de geração de relatórios.
+>O público-alvo e o seletor de métrica só estarão disponíveis se [!DNL Analytics] é usada como a fonte de relatórios.
 
-O relatório de Contribuição da localização inclui duas tabelas.
+O [!UICONTROL Contribuição de localização] inclui duas tabelas.
 
 A primeira tabela mostra a influência relativa de cada elemento. Isso mostra quais dos elementos que receberam ofertas estão resultando em mais conversões.
 
-![](/help/main/c-reports/assets/locationcontributiontop.png)
+![Relatório de contribuição de localização no Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
 
 A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice de conversão, levantamento e confiança para cada oferta em cada elemento. Isso ajuda a determinar quais ofertas são as mais bem-sucedidas. A segunda coluna mostra os valores para a métrica selecionada (índice de conversão, RPV, AOV, pedidos ou métricas de envolvimento) da oferta e uma padronização.
 
-![](/help/main/c-reports/assets/locationcontributionbottom.png)
+![Relatório de contribuição de localização no Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
 
 ## Vídeo de treinamento: Criar um teste MVT ![Selo do tutorial](/help/main/assets/tutorial.png)
 

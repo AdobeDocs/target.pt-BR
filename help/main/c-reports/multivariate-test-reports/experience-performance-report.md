@@ -4,10 +4,10 @@ description: Saiba como usar o Relatório de desempenho da experiência no Adobe
 title: Como uso o Relatório de desempenho da experiência para testes multivariados?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ O relatório de desempenho da experiência mostra como ocorre cada experiência 
 
 Você pode selecionar uma ou mais experiências para compará-las. Clique na experiência e selecione **[!UICONTROL Visualizar]** para abrir a experiência em uma guia do navegador.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Relatório de desempenho da experiência no Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 A parte superior do relatório mostra a métrica, as datas de início e término e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
 
