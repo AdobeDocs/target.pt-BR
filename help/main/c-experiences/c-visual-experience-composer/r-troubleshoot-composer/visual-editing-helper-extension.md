@@ -3,10 +3,10 @@ keywords: vec;visual experience composer; vec;iframe;extensão;navegador
 description: Descubra por que alguns sites podem não abrir de forma confiável no [!UICONTROL Visual Experience Composer] (VEC). O [!UICONTROL Auxiliar de edição visual] a extensão do navegador permite carregar sites de maneira confiável no VEC.
 title: Como usar o [!UICONTROL Auxiliar de edição visual] Extensão?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 27%
+source-wordcount: '595'
+ht-degree: 26%
 
 ---
 
@@ -31,7 +31,7 @@ O [!DNL Adobe Experience Cloud] [!UICONTROL Auxiliar de edição visual] extens�
 * Todos os cabeçalhos de edição de iframe, como `X-Frame-Options` e `Content-Security-Policy`, são implicitamente removidas do site. Não há necessidade de criar regras Requestly complicadas.
 * Se uma página da Web ainda não contiver a biblioteca do at.js [!DNL Target], você poderá usar a extensão e inserir a biblioteca para poder criar experiências no site. Em seguida, você pode criar atividades, além de QA, usando links de visualização.
 
-Observe que usando a variável [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), a extensão não injeta at.js, mas a funcionalidade Cookie SameSite ainda está presente. Para inserir at.js na página da Web, desative o EEC.
+Usar o [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), a extensão não injeta at.js, mas a funcionalidade Cookie SameSite ainda está presente. Para inserir at.js na página da Web, desative o EEC.
 
 * [Visores móveis](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) são compatíveis mesmo sem o [!UICONTROL Enhanced Experience Composer] (CEE)
 * Os clientes novos do [!DNL Target] podem usar a extensão para experimentar com [!DNL Target] mesmo se os desenvolvedores de TI ainda não tiverem implementado o [!DNL Target] em seus sites.
@@ -56,6 +56,8 @@ Observe que usando a variável [Enhanced Experience Composer](/help/main/adminis
 
    * Se você tentar carregar um site usando o VEC que não é carregado, uma mensagem será exibida sugerindo que você instale o [!UICONTROL Auxiliar de edição visual] extensão do navegador.
    * Se at.js ou alloy.js ainda não estiver implementado no site, uma mensagem será exibida no VEC sugerindo que você instale a extensão.
+* Se você tentar usar a nova extensão e, em seguida, voltar para a [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] falha ao carregar seu site, apague todos os dados do navegador e desative a nova extensão.
+
 
 
 
