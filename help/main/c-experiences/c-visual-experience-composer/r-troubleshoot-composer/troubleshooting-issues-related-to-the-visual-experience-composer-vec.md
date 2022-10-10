@@ -4,10 +4,10 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 85%
+source-wordcount: '869'
+ht-degree: 78%
 
 ---
 
@@ -106,7 +106,7 @@ Se nem o Visual Experience Composer nem o Enhanced Experience Composer funcionar
 
 Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carregadas no Visual Experience Composer, mesmo que o Enhanced Experience Composer esteja desativado.
 
-## Minha página não é exibida no VEC (somente VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Minha página não é exibida no VEC (somente VEC)  {#does-not-load}
 
 * Não há suporte para o navegador.
 * O navegador está bloqueando uma página não segura em um site seguro.
@@ -115,7 +115,11 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 * Você inseriu um URL inválido.
 * Você não inseriu um URL padrão na sua página de configuração de conta.
 
-Certifique-se de que essa configuração esteja ativada, baixe e atualize a at.js no site.
+   Certifique-se de que essa configuração esteja ativada, baixe e atualize a at.js no site.
+
+* Se você tentar usar a variável [novo [!UICONTROL Auxiliar de edição visual] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) e voltar para a [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] falha ao carregar seu site, apague todos os dados do navegador e desative a nova extensão.
+
+* Se o seu site não carregar no VEC ou se comportar inesperadamente, uma possível correção é aceitar cookies no seu site no navegador antes de tentar carregar o site na [!DNL Target].
 
 ## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 

@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 96%
+source-wordcount: '1348'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 10 de outubro | [[!UICONTROL Auxiliar de edição visual] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Novo artigo. |
+|  | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Atualização do &quot;[Minha página não é exibida no VEC (somente VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)seção &quot;. |
 | 4 de outubro | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Novo tópico.<br>As informações contidas neste artigo substituem a variável *Cálculos do Adobe Target para testes A/B* arquivo pdf anteriormente disponível para download neste site. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.10.1 do [!DNL Target Standard/Premium]. |
 
