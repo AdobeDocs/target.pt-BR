@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
 source-wordcount: '1348'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -19,16 +19,16 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 10 de outubro | [[!UICONTROL Auxiliar de edição visual] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Novo artigo. |
+| 10 de outubro | Extensão [[!UICONTROL Auxiliar de edição visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Novo artigo. |
 |  | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Atualização do &quot;[Minha página não é exibida no VEC (somente VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)seção &quot;. |
-| 4 de outubro | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Novo tópico.<br>As informações contidas neste artigo substituem a variável *Cálculos do Adobe Target para testes A/B* arquivo pdf anteriormente disponível para download neste site. |
+| 4 de outubro | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Novo tópico.<br>As informações contidas neste artigo substituem o arquivo PDF *Cálculos do Adobe Target para testes A/B* anteriormente disponível para download neste site. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.10.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.9.1 (lançamento escalonado de 13 a 15 de setembro de 2022)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 3 de outubro | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualizadas as datas do [!DNL Target Standard/Premium] Versão 22.10.1. |
+| 3 de outubro | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das datas da versão 22.10.1 do [!DNL Target Standard/Premium]. |
 | 22 de setembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de perguntas e respostas da comunidade (28 de setembro de 2022) </li></ul> |
 | 15 de setembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte webinário:<ul><li>Ajuste da personalização alimentada por IA: Novos recursos do [!DNL Adobe Target] (11 de outubro de 2022)</li></ul> |
 | 13 de setembro | [Compreensão da interface do  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Adição de informações sobre notificações de falhas nos feeds do [!DNL Recommendations]. |
