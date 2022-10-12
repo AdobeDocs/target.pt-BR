@@ -5,9 +5,9 @@ title: O que é  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ As seções a seguir contêm informações sobre os tipos de atividades compatí
 | [Atividade A/B com direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sim | Consulte [Suporte do A4T para atividades de alocação automática e direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | [Direcionamento de experiência (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sim |  |
 | [Teste multivariado (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sim | Exige métrica de meta baseada em mbox para obter o relatório [!UICONTROL Contribuição de elementos]. Atualmente, o relatório [!UICONTROL Contribuição de elementos] não aceita métricas do [!DNL Analytics]. |
-| [Atividade de personalização automatizada (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Não |  |
+| [Atividade de Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Não |  |
 | [Atividade do Recommendations](/help/main/c-recommendations/recommendations.md) | Sim |  |
 | [Qualquer atividade usando uma oferta de redirecionamento](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Sim |
 
