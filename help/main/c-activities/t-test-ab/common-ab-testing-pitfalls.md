@@ -5,9 +5,9 @@ title: Como evitar erros comuns em testes A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Existem dois fatores principais que determinam o poder de um teste. O primeiro �
 
 Os profissionais de marketing de hoje subestimam um número notável de testes. Em outras palavras, eles usam um tamanho de amostra muito pequeno. Isso significa que eles têm uma pequena chance de detectar verdadeiros positivos, mesmo quando realmente existe uma diferença substancial na taxa de conversão. De fato, se você executar continuamente testes de baixa potência, o número de falsos positivos pode ser comparável ou até mesmo dominar o número de positivos verdadeiros. Isso geralmente leva à implementação de alterações neutras em um site (perda de tempo) ou a alterações que realmente reduzem as taxas de conversão.
 
-![imagem de armadilhas3](assets/pitfalls3.png)
+![imagem armadilha3](assets/pitfalls3.png)
 
 Para evitar subutilizar seu teste, considere que um padrão típico para um teste potente inclui um nível de confiança de 95% e um poder estatístico de 80%. Esse teste oferece uma probabilidade de 95% de que você evite um falso positivo e uma probabilidade de 80% de evitar um falso negativo.
 
@@ -157,7 +157,7 @@ Os profissionais de marketing podem se sentir tentados a usar métricas de conve
 
 Considere a oferta de esqui abaixo. Ela gera uma CTR muito maior do que a oferta de bicicletas, mas como os visitantes gastam muito mais dinheiro em média quando acompanham a oferta de bicicletas, a receita esperada de colocar a oferta de bicicletas na frente de um visitante é maior. Portanto, um teste A/B com CTR como métrica selecionaria uma oferta que não maximiza a receita, o que seria o objetivo comercial fundamental.
 
-![imagem do pitfall7](assets/pitfalls7.png)
+![imagem armadilha7](assets/pitfalls7.png)
 
 Para evitar esse problema, monitore suas métricas de negócios com cuidado para identificar o impacto comercial das ofertas ou, melhor ainda, use uma métrica mais próxima de sua meta de negócios, se possível.
 
