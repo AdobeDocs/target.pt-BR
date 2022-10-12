@@ -5,9 +5,9 @@ title: Onde posso visualizar o status do  [!DNL Target]  e de outros produtos da
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Acesse a página [!UICONTROL Status do sistema] no seguinte URL:
 
 Para ver o status das soluções da [!DNL Experience Cloud], incluindo o [!DNL Target], clique na guia [!UICONTROL Experience Cloud].
 
-![imagem de status_do_sistema](assets/system_status.png)
+![imagem system_status](assets/system_status.png)
 
 A parte superior da página contém informações sobre eventos de manutenção em andamento e inclui um link para se inscrever em atualizações de soluções individuais.
 
