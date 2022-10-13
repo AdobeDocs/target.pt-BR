@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas frequentes sobre a exibição de 
 title: Encontrar respostas para perguntas sobre como visualizar relatórios com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 33%
+source-wordcount: '2638'
+ht-degree: 32%
 
 ---
 
@@ -15,17 +15,23 @@ ht-degree: 33%
 
 Este tópico contém respostas para as perguntas mais frequentes sobre a exibição de relatórios ao usar [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Adobe Target] (A4T).
 
-## Posso ver minha [!DNL Target] dados da atividade no Analysis Workspace? {#workspace}
+## Posso ver minha [!DNL Target] dados da atividade em [!DNL Analysis Workspace]? {#workspace}
 
 Você pode usar [!DNL Analysis Workspace] para analisar sua [!DNL Target] atividades e experiências. O [Painel Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=pt-BR) permite que você veja o incentivo e a confiança de até três métricas de sucesso. Também é possível pesquisar mais fundo usando tabelas e visualizações.
 
-Para obter informações e exemplos detalhados, abra o [Analytics &amp; Target: Tutorial de práticas recomendadas para análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pela Adobe Experience League.
+Para obter informações e exemplos detalhados, abra o [Analytics &amp; Target: Tutorial de práticas recomendadas para análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), a [!UICONTROL Adobe Experience League].
 
-## Onde os segmentos podem ser aplicados no Analysis Workspace? {#segmentation}
+## Onde os segmentos podem ser aplicados em [!DNL Analysis Workspace]? {#segmentation}
 
 Os segmentos são usados com mais frequência na parte superior de um painel na área de soltar segmentos. O segmento é aplicado a todas as tabelas e visualizações no painel. Essa técnica é mais útil para ver como o teste afeta um subconjunto de pessoas (por exemplo, como esse teste funcionou para pessoas no Reino Unido)?
 
 Um segmento também pode ser colocado diretamente na tabela de forma livre, mas observe que você deve sobrepô-lo em toda a tabela para preservar os cálculos de incentivo e confiança no painel A4T. Os segmentos de nível de coluna não são suportados atualmente no painel.
+
+## Posso aplicar o modelo de Attribution IQ &quot;Mesmo toque&quot; em [!DNL Analysis Workspace]?
+
+Ao usar [!DNL Target] impressões e conversões de atividades em [!DNL Analysis Workspace], aplique o modelo de Attribution IQ &quot;Mesmo toque&quot; às métricas para garantir uma contagem precisa. Para aplicar um [modelo de atribuição não padrão](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=pt-BR), clique com o botão direito do mouse na métrica para **modificar Configurações de coluna > habilitar Usar modelo de atribuição não padrão > selecione Modelo de mesmo toque**. Sem esse modelo aplicado, as métricas são sobrescritas.
+
+Todas atuais [!DNL Adobe Analytics] os pacotes podem adicionar este modelo com [!UICONTROL Attribution IQ]. Se você não tiver acesso a [!UICONTROL Attribution IQ], confie nos dados do A4T em [!UICONTROL Reports &amp; Analytics].
 
 ## Quando eu aplico um segmento de ocorrência para um [!DNL Target] atividade , por que as experiências não relacionadas são retornadas? {#activity-segmentation}
 
@@ -33,7 +39,7 @@ A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de 
 
 Ao segmentar para que uma atividade esteja presente em uma ocorrência, você obtém todas as experiências que fazem parte dessa atividade *plus* quaisquer outras experiências que persistam nessa ocorrência.
 
-## Ao configurar minhas Métricas de meta, por que não posso acessar as Configurações avançadas?
+## Ao configurar meu [!UICONTROL Métricas de meta], por que não posso acessar [!UICONTROL Configurações avançadas]?
 
 Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de meta usa o &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Essas configurações são *not* configurável.
 
@@ -56,17 +62,17 @@ Considere o seguinte:
 
 Para obter mais informações, consulte [Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) em *Adobe Target Tutorials*.
 
-## Por que as &quot;impressões de atividade&quot; e as &quot;conversões de atividade&quot; são mais altas no Analysis Workspace do que no Reports &amp; Analytics? {#sametouch}
+## Por que as &quot;impressões de atividade&quot; e as &quot;conversões de atividade&quot; são maiores em [!DNL Analysis Workspace] than [!UICONTROL Reports &amp; Analytics]? {#sametouch}
 
 [!DNL Reports & Analytics] aplica um modelo de atribuição de mesmo toque a &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot;, enquanto [!DNL Analysis Workspace] exibe as métricas brutas, que podem aparecer infladas devido à persistência do [!DNL Target] dimensão.
 
 Para avaliar a precisão [!UICONTROL Impressões da atividade] e [!UICONTROL Conversões de atividade] métricas em [!DNL Analysis Workspace], verifique se ambas as métricas têm [!UICONTROL Mesmo contato] modelos de atribuição aplicados. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, ativando [!UICONTROL Modelos de atribuição não padrão] e selecionando o [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição no [Visão geral do IQ de atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) no *Guia de ferramentas do Analytics*.
 
-## O que significa &quot;conversões de atividade&quot; se o profissional de marketing escolher uma métrica do Analytics durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
+## O que significa &quot;conversões de atividade&quot; se o profissional de marketing escolher uma [!DNL Analytics] durante a configuração da atividade? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
 &quot;Conversões de atividade&quot; ficam vazias se uma [!DNL Analytics] foi selecionada como métrica de conversão para a atividade.
 
-## Por que vejo &quot;não especificado&quot; nos relatórios do Analytics? O que isso significa?  {#unspecified}
+## Por que vejo &quot;não especificado&quot; na variável [!DNL Analytics] relatórios? O que isso significa?  {#unspecified}
 
 Em outros relatórios, &quot;não especificado&quot; significa que os dados não atendem a uma regra de classificação, mas no A4T isso nunca deve acontecer. Se você vir &quot;não especificado&quot;, o serviço de classificação ainda não foi executado. Em geral, pode levar entre 24 e 72 horas para que os dados da atividade apareçam nos relatórios. Mesmo que as atividades não apareçam neste relatório até esse momento, todos os dados de visitantes vinculados a essas atividades serão capturados e aparecerão quando a classificação estiver concluída.
 
@@ -74,9 +80,9 @@ Após o período de classificação, os dados são exibidos nesses relatórios, 
 
 Caso a classificação tenha sido feita para essa atividade e você ainda veja uma linha &quot;Não especificado&quot; no relatório, certifique-se de que o relatório não esteja usando um[!DNL Target] para exibir os dados. A menos que o relatório use um [!DNL Target]métrica específica, que a linha &quot;Não especificado&quot; contém eventos para chamadas que não estão associadas a [!DNL Target]. Essa linha não conterá nenhum [!DNL Target]informações associadas (por exemplo, visitantes/visitas/impressões).
 
-## Por que [!DNL Target] métricas enviadas ao Analytics mesmo após a desativação da atividade? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## Por que [!DNL Target] métricas enviadas para [!DNL Analytics] mesmo após a atividade ter sido desativada? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. Esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
+A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de expiração padrão de 90 dias. Esse período de expiração pode ser ajustado pelo Atendimento ao cliente, se necessário. Essa configuração é global para todas as atividades; no entanto, não deve ser ajustado para um caso.
 
 Você pode ver [!DNL Target] variáveis enviadas para [!DNL Analytics] após o período de expiração, pois a expiração é de 90 dias, mas somente se esse usuário nunca vir outro A4T habilitado [!DNL Target] atividade . Se um usuário voltar ao site no dia 45 e vir outra atividade, todo o valor eVar do A4T terá seu contador redefinido para 90 dias. Isso significa que a primeira campanha do dia 1 agora pode persistir por até 45 + 90 = 135 dias. Se o usuário continuar voltando, você pode chegar ao ponto em que vê as métricas enviadas para o [!DNL Analytics] nos relatórios de atividades muito mais antigas. À medida que os usuários excluem cookies e não retornam ao site, os números dessa atividade caem, mas você ainda pode visualizá-los.
 
@@ -123,7 +129,7 @@ Para obter mais informações, consulte [Variáveis de conversão (eVar)](https:
 
 Uma fonte de impressões para um relatório de atividade do A4T após a desativação pode ser o tráfego do modo de QA. O Target normalmente não registra eventos para uma atividade desativada, mas o Analytics não tem uma maneira de saber que as impressões estão vindo do modo de QA. Quando o relatório de atividade do Target é recuperado do Analytics, ele mostra essas impressões. Isso está funcionando conforme o projetado, pois os clientes precisam de uma maneira de verificar os relatórios do A4T, mesmo que a atividade não esteja ativa usando o modo de QA.
 
-## Por que o Analytics e o Analytics for Adobe Target (A4T) calculam números para a métrica de visitantes únicos de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Por que [!DNL Analytics] e [!UICONTROL Analytics para Adobe Target] (A4T) calcule os números para a variável [!UICONTROL Visitantes únicos] métrica de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Ao executar um teste A/B, que usa a variável [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que há um horizonte de tempo fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho fixo de amostra.
 
@@ -133,7 +139,7 @@ O [!UICONTROL Visitantes únicos] exibe o número de pessoas que foram expostas 
 
 Você pode reduzir o tempo de [!DNL Target] A variável persiste até uma sessão; no entanto, isso é problemático para testes em que o evento de conversão não é tão provável de acontecer na mesma sessão.
 
-## Por que o mesmo visitante às vezes é contado em várias experiências no Analytics?  {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Por que o mesmo visitante às vezes é contado em várias experiências no [!DNL Analytics]? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 A lista a seguir explica os motivos pelos quais o mesmo visitante pode ser contado em várias experiências no [!DNL Analytics]:
 
@@ -151,7 +157,7 @@ Alterar a porcentagem da alocação de tráfego em uma atividade após a ativaç
 
 Como prática recomendada, você deve interromper a atividade existente e criar uma nova atividade, em vez de alterar a porcentagem depois da ativação. Os relatórios para a nova atividade começam com novos visitantes e os dados de visitantes recorrentes não causam relatórios inconsistentes.
 
-## Como as visitas são contadas no Analytics e o crédito de conversão são alocados em uma atividade de Direcionamento automático que usa o A4T?
+## Como as visitas são contadas em [!DNL Analytics] e crédito de conversão alocado em [!UICONTROL Direcionamento automático] atividade que usa o A4T?
 
 Quando um visitante se qualifica para, exibe conteúdo ou converte em uma atividade A4T, [!DNL Target] envia dados de evento para [!DNL Analytics]. Esses dados de evento permitem [!DNL Analytics] para atribuir eventos de conversão e outros eventos de sequência de cliques que acontecem na página ao evento relevante [!DNL Target] atividades e experiências.
 
