@@ -4,9 +4,9 @@ description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que
 title: Qual é o relatório de atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ Pode ser útil saber como o modelo fornece o tráfego. Cada indivíduo é servid
 * Entenda quais atributos foram mais importantes para a forma como o modelo aprendeu.
 * Veja quais atributos são usados nos modelos de personalização e qual a importância deles.
 * Identifique as oportunidades para os pontos de dados adicionais que você pode passar para o Target para informar ainda mais a sua personalização.
+
+## Problemas conhecidos
+
+O problema a seguir está sendo investigado pela [!DNL Target] equipe de engenharia.
+
+* Os nomes de segmento do [!DNL Adobe Experience Platform] não são exibidos no relatório de [!UICONTROL Atributos importantes] para as atividades de [!UICONTROL Personalização automática] (AP) e de [!UICONTROL Direcionamento automático] (AT). (TOP-3813)

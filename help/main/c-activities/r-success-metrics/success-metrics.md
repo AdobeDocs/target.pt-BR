@@ -4,10 +4,10 @@ description: Saiba mais sobre as métricas de sucesso no Adobe [!DNL Target] que
 title: O que são métricas de sucesso?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 44%
+source-wordcount: '1267'
+ht-degree: 43%
 
 ---
 
@@ -77,8 +77,8 @@ A funcionalidade de dependência é *not* suportado pelo seguinte:
 
 * Atividades do [!UICONTROL Recommendations. ] Esta funcionalidade é compatível com todos os outros tipos de atividade.
 * Se você usar [Analytics como sua fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* O tipo de métrica “Visualizou uma página”.
-* O tipo de métrica “Clicou em um elemento” para as atividades do Visual Experience Composer (VEC).
+* O tipo de métrica &quot;Visualizou uma página&quot;.
+* O tipo de métrica &quot;Clicou em um elemento&quot; para atividades do Visual Experience Composer (VEC).
 
 As métricas de sucesso dependentes não serão convertidas nos seguintes casos:
 
@@ -106,6 +106,12 @@ Escolha o comportamento desejado:
 * Uma vez por participante
 * Em todas as impressões (excluindo atualizações de página)
 * Em todas as impressões
+
+## Problemas conhecidos
+
+* Métricas de sucesso com opção avançada &quot;Como a contagem será incrementada&quot; definida como &quot;a cada impressão&quot; ou &quot;a cada impressão (exceto atualizações)&quot; não pode ser usada como uma métrica de sucesso da qual dependeria outra métrica.
+
+Quando uma métrica de sucesso é definida para incrementar em cada impressão, [!DNL Target] O conta o visitante novamente sempre que ele visitar essa métrica de sucesso. [!DNL Target]O reinicia, então, a métrica de sucesso &quot;associação&quot; para 0, para que ela possa contar novamente na próxima impressão. Dessa forma, se outra métrica exigir que essa métrica tenha sido vista primeiro, [!DNL Target] nunca reconhece que o usuário viu a primeira métrica.
 
 ## Vídeo de treinamento: métricas de atividade
 
