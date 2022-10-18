@@ -4,10 +4,10 @@ description: Explore uma lista de perguntas frequentes e respostas sobre as ativ
 title: Como posso encontrar perguntas frequentes sobre as atividades do Automated Personalization?
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 88%
+source-wordcount: '2004'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter mais informações, consulte [Usar uma experiência específica como 
 
 ## Como posso comparar personalização automatizada a uma experiência padrão? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se existir uma oferta ou experiência padrão como parte da atividade geral, para entender seu desempenho de linha de base, clique no segmento &quot;Controle&quot; nos relatórios e localize essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversação de todo o segmento &quot;Random Forest&quot;. Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
+Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se uma oferta ou experiência padrão existir como parte da atividade geral, para entender seu desempenho de linha de base, clique no segmento &quot;Controle&quot; nos relatórios e localize essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversa de todo o segmento &quot;Random Forest&quot;. Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
 
 ## Quais são as práticas recomendadas para configurar uma atividade de Personalização automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -39,9 +39,9 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
 
    Há três cenários a serem considerados com base na meta da atividade e no tipo de controle selecionado:
 
-   * **Experiências aleatórias como controle e o objetivo da atividade é testar a eficácia do algoritmo de personalização**: se o objetivo é avaliar o algoritmo de personalização, você desejará ter uma imagem mais precisa do seu aumento. Você também pode querer fazer a comparação de como seria a taxa de conversão de suas experiências/ofertas se simplesmente fizesse um Teste A/B (um controle disponibilizado aleatoriamente). Nessa situação, recomenda-se utilizar uma alocação de 50% para um controle de experiências disponibilizadas aleatoriamente.
-   * **&quot;Experiências aleatórias&quot; como controle e a meta da atividade é maximizar o tráfego personalizado**: se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30%. A compensação aqui é a precisão que você poderá ver em suas informações de lift (já que os intervalos de confiança do tráfego de controle estarão maiores, pois há menos tráfego fluindo para eles).
-   * **Experiência específica como controle, com ambos os tipos de metas**: se você quiser comparar uma experiência específica orientada por um profissional de marketing aos modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, o tráfego não é distribuído em cada oferta/experiência da atividade.
+   * **Experiências aleatórias como controle e o objetivo da atividade é testar a eficácia do algoritmo de personalização**: Se o objetivo for avaliar o algoritmo de personalização, você desejará ter uma imagem mais precisa do seu aumento. Você também pode querer fazer a comparação de como seria a taxa de conversão de suas experiências/ofertas se simplesmente fizesse um Teste A/B (um controle disponibilizado aleatoriamente). Nessa situação, recomenda-se utilizar uma alocação de 50% para um controle de experiências disponibilizadas aleatoriamente.
+   * **&quot;Experiências aleatórias&quot; como controle e a meta da atividade é maximizar o tráfego personalizado**: Se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30% para controle. A compensação aqui é a precisão que você poderá ver em suas informações de lift (já que os intervalos de confiança do tráfego de controle estarão maiores porque há menos tráfego fluindo para eles).
+   * **Experiência específica como controle, com ambos os tipos de metas**: se você quiser comparar uma experiência específica orientada por um profissional de marketing aos modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, o tráfego não é distribuído em cada oferta/experiência na atividade.
 
 * As regras de direcionamento devem ser usadas com toda moderação possível, pois podem interferir na capacidade do modelo de otimizar.
 * Grupos de relatórios podem limitar o sucesso da sua atividade de Personalização automatizada. Eles só devem ser usados sob condições específicas.
@@ -56,7 +56,9 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com a [!UICO
 
 ### Quais são alguns limites na personalização automatizada?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
-O Target tem um limite rígido de 30.000 experiências, mas funciona no seu melhor quando menos de 10.000 experiências são criadas.
+[!DNL Target]O tem um limite rígido de 30.000 experiências, mas funciona no seu melhor quando menos de 10.000 experiências são criadas.
+
+Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção.
 
 ### Como é implementado o direcionamento no nível da oferta?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

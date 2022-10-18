@@ -3,10 +3,10 @@ keywords: relatórios, metodologia estatística, cálculos estatísticos, estat�
 description: Saiba mais sobre os cálculos estatísticos usados no manual [!UICONTROL Teste A/B] atividades em [!DNL Adobe Target].
 title: Como posso saber mais sobre os cálculos estatísticos usados em [!UICONTROL Teste A/B] Atividades?
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ Este artigo documenta os cálculos estatísticos detalhados usados nos testes ma
 
 >[!NOTE]
 >
->As informações contidas neste artigo substituem a variável *Cálculos do Adobe Target para testes A/B* arquivo pdf anteriormente disponível para download neste site.
+>As informações contidas neste artigo substituem o arquivo PDF *Cálculos do Adobe Target para testes A/B* anteriormente disponível para download neste site.
 
 ![Relatório de destino mostrando o [!UICONTROL Índice de conversão], [!UICONTROL Média de aumento e intervalo de confiança]e [!UICONTROL Confiança] de uma atividade de Teste A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Por último, a confiança reportada em [!DNL Target] é definido como:
 
 O [download do relatório de CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) inclui apenas dados brutos e não inclui métricas calculadas, como receita por visitante, aumento ou confiança usada para testes A/B.
 
-Para calcular essas quantidades estatísticas, faça o download do [Calculadora de confiança completa](/help/main/assets/complete_confidence_calculator.xlsx) Arquivo do Excel para inserir o valor da atividade.
+Para calcular essas quantidades estatísticas, baixe a variável [!DNL Target] [Calculadora de confiança completa](/help/main/assets/complete_confidence_calculator.xlsx) Arquivo do Excel para inserir o valor da atividade.

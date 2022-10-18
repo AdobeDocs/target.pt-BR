@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 97%
+source-wordcount: '1458'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 18 de outubro | [[!UICONTROL Criar uma atividade de Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Texto atualizado para indicar que, embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho ao usar menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção. |
+|  | [Perguntas frequentes do Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Texto atualizado para indicar que, embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho ao usar menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção. |
 | 14 de outubro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre o [!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (26 de outubro de 2022). |
 | 10 de outubro | Extensão [[!UICONTROL Auxiliar de edição visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Novo artigo. |
 |  | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Atualização do &quot;[Minha página não é exibida no VEC (somente VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)seção &quot;. |

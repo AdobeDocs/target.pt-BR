@@ -4,10 +4,10 @@ description: Saiba como criar um [!UICONTROL Automated Personalization] (AP) em 
 title: Como criar um [!UICONTROL Automated Personalization] Atividade?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ O [!UICONTROL Automated Personalization] Fluxo de trabalho da atividade (AP) em 
 
    >[!NOTE]
    >
-   >Embora você possa criar até 30.000 experiências em uma atividade AP. A atividade funciona melhor quando menos de 5.000 experiências são usadas.
+   >Embora você possa criar até 30.000 experiências em uma atividade AP. A atividade funciona melhor quando menos de 5.000 experiências são usadas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção.
 
    A lista de [!UICONTROL Experiências] mostra cada parte do conteúdo selecionado para a atividade e o local onde está atribuído.
 
@@ -106,7 +106,7 @@ O [!UICONTROL Automated Personalization] Fluxo de trabalho da atividade (AP) em 
 
    ![Guia Grupos de exclusão da caixa de diálogo Gerenciar conteúdo](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho quando são usadas menos de 10.000 experiências distintas.
+   Embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho quando são usadas menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção.
 
    Se, atualmente, você não tem grupos de exclusão incluídos na atividade, clique em **Criar grupo de exclusão**. É possível filtrar para criar uma lista que mostre apenas as combinações que deseja excluir. Nomeie o grupo de exclusão e clique em **Salvar**.
 

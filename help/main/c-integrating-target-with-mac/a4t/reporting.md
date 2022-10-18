@@ -4,10 +4,10 @@ description: Saiba como usar o Analytics para [!DNL Target] (A4T). O A4T fornece
 title: Como uso os relatórios no A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 48%
+source-wordcount: '1312'
+ht-degree: 46%
 
 ---
 
@@ -77,7 +77,7 @@ Durante a criação da atividade, você deve especificar uma meta para a ativida
 
 ## Realização de cálculos offline para Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics].
+Você pode realizar cálculos offline para os intervalos de confiança e confiança do A4T usando a variável [!DNL Target] [Calculadora de confiança completa](/help/main/assets/complete_confidence_calculator.xlsx) Arquivo Excel, mas requer uma etapa com as exportações de dados no [!DNL Analytics].
 
 Para o A4T, usamos um [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test)Cálculo de {target=_blank} para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para efetuar o cálculo t-test do Welch, é necessária a &quot;soma dos quadrados&quot; para calcular a variação, que é utilizada no denominador da estatística t. [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explica os detalhes das fórmulas matemáticas usadas. A soma dos quadrados pode ser recuperada de [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
 
