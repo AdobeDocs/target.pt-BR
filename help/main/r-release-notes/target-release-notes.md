@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 63%
+source-wordcount: '430'
+ht-degree: 54%
 
 ---
 
@@ -31,11 +31,14 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Métricas contínuas | Foi adicionada a capacidade de usar métricas contínuas, como receita, em [!UICONTROL Direcionamento automático] e [!UICONTROL Alocação-Alocação] atividades.<br>Anteriormente, [!UICONTROL Direcionamento automático] e [!UICONTROL Alocação automática] foram otimizados para funcionar somente com métricas binárias (baseadas em conversão). (TGT-43649 e TGT-43649) |
-| [!DNL Recommendations] nomes amigáveis | Nomes amigáveis adicionados em [!UICONTROL Analytics para Target] Relatórios do A4T. Anteriormente, [!DNL Target] IDs de experiência listadas. Esse aprimoramento ajuda os clientes a simplificar a criação de relatórios no A4T. (TGT-41853 |
+| Métricas contínuas | Foi adicionada a capacidade de usar métricas contínuas, como receita, em [!UICONTROL Direcionamento automático] e [!UICONTROL Alocação-Alocação] atividades.<br>Anteriormente, [!UICONTROL Direcionamento automático] e [!UICONTROL Alocação automática] foram otimizados para funcionar somente com métricas binárias (baseadas em conversão). (TGT-43649 e TGT-43649)<BR>Observe que esse recurso está disponível somente para clientes selecionados. Esse recurso estará disponível para todos os clientes em uma versão futura. |
+| [!DNL Recommendations] nomes amigáveis | Nomes amigáveis adicionados em [!UICONTROL Analytics para Target] Relatórios do A4T. Anteriormente, [!DNL Target] somente as IDs de experiência listadas. Esse aprimoramento alinha os relatórios entre [!DNL Adobe Analytics] e [!DNL Target] e ajuda os clientes a simplificarem a criação de relatórios no A4T. (TGT-41853 |
 
-* Adição de dicas de ferramentas no [!DNL Target] Interface do usuário para ajudar os clientes a navegar no construtor de público-alvo com mais eficiência. (TGT-44139)
-* Adição da funcionalidade para impedir que os clientes editem uma atividade que foi desativada por [!DNL Target] porque usa métricas não suportadas. Uma mensagem na interface do usuário direciona os clientes para duplicarem a atividade e, em seguida, atualizarem a métrica de conversão. (TGT-43860, TGT-43861, &amp; TGT-43650)
+* Adição de dicas de ferramentas no [!DNL Target] Interface do usuário para ajudar os clientes a navegar no construtor de público-alvo com mais eficiência e aprender a usar recursos que podem não ser familiares. (TGT-44139)
+* Adição da funcionalidade para impedir que os clientes editem uma atividade que foi desativada por [!DNL Target] porque usa métricas não suportadas. Uma mensagem na interface do usuário direciona os clientes para duplicarem a atividade e, em seguida, atualizarem a métrica de conversão.
+
+   Com esta versão `averagetimespentonsite`, `bouncerate`e `entries` métricas em [!DNL Target] as atividades serão descontinuadas para novas atividades. As atividades existentes podem continuar usando essas métricas até 6 de fevereiro de 2023. (TGT-43860, TGT-43861, &amp; TGT-43650)
+
 * Adição de uma dica de ferramenta na [!DNL Target] Interface do usuário para ajudar os clientes a selecionar um critério de otimização ao criar ou editar uma [!UICONTROL Direcionamento automático] atividade que usa o A4T. (TGT-43713)
 
 ## Notas de versão adicionais e detalhes da versão

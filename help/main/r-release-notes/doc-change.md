@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 93%
+source-wordcount: '1477'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 19º de outubro | [Afinidade de categorias](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Foi adicionada uma observação explicando a pontuação quando várias categorias são passadas em uma única chamada de mbox. |
 | 18 de outubro | [[!UICONTROL Criar uma atividade de Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Texto atualizado para indicar que, embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho ao usar menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção. |
 |  | [Perguntas frequentes do Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Texto atualizado para indicar que, embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho ao usar menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção. |
 | 14 de outubro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre o [!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (26 de outubro de 2022). |

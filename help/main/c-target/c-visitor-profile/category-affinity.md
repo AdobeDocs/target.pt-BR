@@ -4,10 +4,10 @@ description: Saiba mais sobre a afinidade de categorias no [!DNL Adobe Target] q
 title: O que é a afinidade de categorias?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 68%
+source-wordcount: '830'
+ht-degree: 66%
 
 ---
 
@@ -49,6 +49,10 @@ O algoritmo de afinidade de categoria funciona da seguinte maneira:
 * Se uma categoria já tiver sido clicada (vista), clicar novamente nela não subtrairá 1 de todas as outras categorias
 * Se uma sexta nova categoria for clicada, a categoria com menor pontuação entre as primeiras cinco será removida do cálculo
 * No fim da sessão, divida todos os valores por 2
+
+>[!NOTE]
+>
+>Quando várias categorias são passadas em uma única chamada de mbox, a ordem das categorias em `categoryAffinities` não está garantido. Uma categoria arbitrária é registrada primeiro e recebe uma pontuação de 10.
 
 ### Exemplo: algoritmo de afinidade de categoria
 
