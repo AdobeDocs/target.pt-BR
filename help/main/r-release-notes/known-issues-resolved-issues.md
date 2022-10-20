@@ -4,10 +4,10 @@ description: Encontre informações sobre problemas conhecidos no Adobe Target, 
 title: Onde posso encontrar informações sobre problemas conhecidos e problemas resolvidos?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '4229'
-ht-degree: 100%
+source-wordcount: '3974'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,16 @@ As seguintes seções listam os problemas conhecidos do [!DNL Target]:
 
 A tentativa de arquivar atividades inativas de [!UICONTROL Direcionamento automático] pode causar problemas de sincronização. Até que esse problema seja corrigido, não arquive as atividades de [!UICONTROL Direcionamento automático]. Deixe-as no estado [!UICONTROL Inativo]. (TGT-40885)
 
-### Cancelar o carregamento de uma página no Visual Experience Composer (VEC) {#cancel}
-
-* O seguinte problema conhecido existe ao cancelar o carregamento de uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de experiência] (XT) no VEC que contém um URL de redirecionamento.
-
-   Na etapa um do fluxo de trabalho guiado no VEC, ao cancelar o carregamento da página, o painel [!UICONTROL Modificações] no VEC é exibido e o redirecionamento para o modelo de URL é aplicado na experiência (por exemplo, &quot;Experiência B&quot;). Ao avançar para etapas dois ou três e retornar à etapa um, ocorre a seguinte situação.
-
-   Por padrão, na &quot;Experiência B&quot;, o modelo de carregamento do site cancelado é renderizado e o painel [!UICONTROL Modificações] fica acessível, o que não deve ser o caso, pois essa experiência tem um redirecionamento para o modelo de URL aplicado. O redirecionamento para o modelo de URL deve ser exibido.
-
-   Para mostrar o estado correto da experiência no VEC:
-
-   Se você alternar para outra experiência e voltar para a &quot;Experiência B&quot;, o [!DNL Target] exibe o redirecionamento para o modelo de URL aplicado nessa experiência e o painel [!UICONTROL Modificações] não estará acessível. (TGT-32138)
-
-* Para os sites de Aplicativo de página única (SPA), cancelar o carregamento não permite editar ações no painel [!UICONTROL Modificações].
-
 ### Recommendations
 
 A seguir, os problemas conhecidos com atividades do [!UICONTROL Recommendations]:
 
 * Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recommendations, ele retornará com um tipo de HTML.
-* As entidades expiraram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. (IRI-857)
-* As sobreposições &quot;Informações de uso&quot; para critérios e desenhos não refletem seu uso nas atividades A/B e direcionamento de experiência. (TGT-34331)
+* As entidades expiradas expiram corretamente após 60 dias sem receber nenhuma atualização por feed ou API; no entanto, as entidades expiradas não são removidas do índice Pesquisa no catálogo após a expiração. Entidades excluídas por feed ou API também não são removidas no momento do índice de Pesquisa no catálogo. (IRI-857)
 * As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recommendations. (TGT-33426)
 * Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário do Target e podem ser editados por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do usuário do Target e depois editá-los por meio da API, essas alterações não serão refletidas na interface do usuário do Target. Os itens editados por meio da API devem continuar sendo editados por meio da API para evitar a perda de modificações. (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 * O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
-* Os critérios e os cartões de design não mostram o número correto de atividades em que estão sendo usados. Se os critérios ou o design forem usados em uma atividade A/B, o cartão pode mostrar incorretamente que o design ou os critérios não são usados, mesmo quando o design ou os critérios são usados na atividade. (TGT-36621, TGT-37217)
 
 ### Atividades de teste multivariado (MVT)
 

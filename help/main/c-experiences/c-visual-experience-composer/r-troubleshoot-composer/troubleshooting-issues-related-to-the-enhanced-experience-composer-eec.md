@@ -4,10 +4,10 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 43%
+source-wordcount: '469'
+ht-degree: 40%
 
 ---
 
@@ -71,7 +71,3 @@ Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores
 ## Vejo tempos limite ou erros de &quot;acesso negado&quot; ao carregar sites com proxy ativado. (Somente EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 
 Verifique se os IPs de proxy não estão bloqueados em seu ambiente.
-
-## Problemas conhecidos
-
-* Um problema no EEC no momento o impede de dar suporte a solicitações PUT e resulta em um erro de tempo limite 504. (TGT-41493)
