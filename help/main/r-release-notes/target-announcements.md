@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Ta
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1927'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Para obter mais informações, consulte a [publicação no blog da Adobe Experie
 
 ## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade
 
-Drew Burns, Gerenciador de Marketing de Produtos de Grupo para [!DNL Adobe Target], responderá suas [!DNL Target] perguntas relacionadas ao último anúncio interessante sobre a inteligência aprimorada e o controle dos recursos de IA recentemente, bem como a personalização de todas as coisas.
+Drew Burns, gerente de marketing de produtos de grupo do [!DNL Adobe Target], responderá às suas perguntas do [!DNL Target] relacionadas empolgante anúncio sobre inteligência recentemente aprimorada e o controle de recursos de IA, e sobre tudo relacionado à personalização.
 
-* **quarta-feira, 26 de outubro**
+* **Quarta-feira, 26 de outubro**
 * **Das 9h às 10h (PDT, UTC-7)**
 * **[Informações de inscrição](https://adobe.ly/3e6gqHe){target=_blank}**
 
@@ -33,7 +33,7 @@ Drew Burns, Gerenciador de Marketing de Produtos de Grupo para [!DNL Adobe Targe
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Adobe Target] para atingir suas metas de personalização e otimização:
 
-Nenhum agendado neste momento.
+Nada agendado no momento.
 
 ## Gravações de webinários antigos e sessões do construtor de habilidades
 
