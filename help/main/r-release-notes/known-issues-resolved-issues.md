@@ -57,7 +57,7 @@ A seguir, os problemas conhecidos com at.js:
 * Mboxes não disparam em navegadores Microsoft Explorer 11 depois do upgrade para at.js versão 1.0 por causa da interação entre at.js e a API de visitante API 2.2.0. Esse problema afeta a at.js versão 0.9.6 e posteriores. (TNT-27600)
 * at.js pode não funcionar com aplicativos Cordova/Hybrid porque os cookies próprios atualmente não são compatíveis com eles. (TNT-26166)
 
-   **Solução alternativa**: configure at.js com a opção &quot;somente x&quot; ativada e transmita `mboxThirdPartyId` em chamadas para gerenciar usuários.
+   **Solução alternativa**: configure at.js com a opção “somente x” ativada e transmita `mboxThirdPartyId` em chamadas para gerenciar usuários.
 
 ## Problemas resolvidos {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -140,7 +140,7 @@ Os seguintes problemas relacionados ao A4T foram resolvidos:
 
    * A atividade do A4T esteve ativa entre 22 de setembro e 11 de novembro de 2020 (14h30 PST) e
    * A atividade tinha uma métrica do [!DNL Target] selecionada como métrica de meta e
-   * Quando um visitante atinge o evento de meta para a atividade (por exemplo, [!UICONTROL Clicou em um elemento]), também havia uma atividade que não era do A4T de prioridade mais baixa que correspondia ao evento de conversão. Isso pode acontecer se a atividade que não for do A4T for configurada com a mesma métrica da atividade do A4T ou se for configurada com a métrica &quot;qualquer mbox&quot;.
+   * Quando um visitante atinge o evento de meta para a atividade (por exemplo, [!UICONTROL Clicou em um elemento]), também havia uma atividade que não era do A4T de prioridade mais baixa que correspondia ao evento de conversão. Isso pode acontecer se a atividade que não for do A4T for configurada com a mesma métrica da atividade do A4T ou se for configurada com a métrica “qualquer mbox”.
 
    Esse problema afetou os relatórios de atividades do A4T que estavam ativas entre 22 de setembro e 11 de novembro de 2020 (14h30 PST). Os relatórios para atividades do A4T afetadas mostrarão as conversões corretamente fora desse intervalo de datas. Os relatórios de atividades que não são do A4T não foram afetados.
 
@@ -168,15 +168,15 @@ Observe que a **construção de modelo personalizado** não foi afetada e os mod
 
 Atualmente, as conversões incrementam de forma diferente com base no público-alvo usado.
 
-Por exemplo, para o mesmo visitante, se a contagem de conversão estiver definida para incrementar &quot;Uma vez por participante:&quot;
+Por exemplo, para o mesmo visitante, se a contagem de conversão estiver definida para incrementar “Uma vez por participante:”
 
-* Público-alvo: &quot;Todos os visitantes qualificados&quot; para conversões no nível da visita incrementam apenas uma vez. Esse é o comportamento esperado.
-* Público-alvo: &quot;Novos visitantes&quot; para conversões no nível da visita incrementam incorretamente todas as vezes, em vez de incrementar apenas uma vez. Esse não é o comportamento esperado.
+* Público-alvo: “Todos os visitantes qualificados” para conversões no nível da visita incrementam apenas uma vez. Esse é o comportamento esperado.
+* Público-alvo: “Novos visitantes” para conversões no nível da visita incrementam incorretamente todas as vezes, em vez de incrementar apenas uma vez. Esse não é o comportamento esperado.
 
-Se a contagem de conversão estiver definida para incrementar &quot;Em todas as impressões:&quot;
+Se a contagem de conversão estiver definida para incrementar “Em todas as impressões:”
 
-* Público-alvo: &quot;Todos os visitantes qualificados&quot; para conversões no nível do visitante incrementam incorretamente apenas uma vez, em vez de incrementarem sempre. Esse não é o comportamento esperado.
-* Público-alvo: &quot;Novos visitantes&quot; para conversões no nível do visitante incrementam sempre. Esse é o comportamento esperado.
+* Público-alvo: “Todos os visitantes qualificados” para conversões no nível do visitante incrementam incorretamente apenas uma vez, em vez de incrementarem sempre. Esse não é o comportamento esperado.
+* Público-alvo: “Novos visitantes” para conversões no nível do visitante incrementam sempre. Esse é o comportamento esperado.
 
 Observe que esse problema está relacionado somente aos relatórios do [!DNL Target]. Isso não é um problema ao usar os relatórios do [!UICONTROL Analytics for Target] (A4T).
 
@@ -186,17 +186,17 @@ Esse problema foi resolvido.
 
 Esse problema conhecido é relacionado à decisão do Google de alterar o comportamento padrão dos cookies sem o atributo SameSite começando com o Chrome versão 80. Antes da alteração, o Chrome padronizava todos os cookies sem o atributo SameSite como “SameSite=None”. Agora, o padrão é “SameSite=Lax”, o que altera a maneira como os cookies são enviados em solicitações GET e POST. Consulte [Atualizações do SameSite](https://www.chromium.org/updates/same-site).
 
-Para obter mais informações e uma correção, consulte &quot;Como as políticas de aplicação de cookies SameSite do Google Chrome recentemente anunciadas afetam o VEC e o EEC?&quot; em [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+Para obter mais informações e uma correção, consulte “Como as políticas de aplicação de cookies SameSite do Google Chrome recentemente anunciadas afetam o VEC e o EEC?” em [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Falha na renderização do relatório de gráfico de uma atividade de direcionamento automático ao usar uma experiência personalizada como controle
 
-O relatório de gráfico de uma atividade de direcionamento automático não é renderizado para modos &quot;diferenciais&quot; (aumento médio e aumento diário) se não houver dados (0 visitas) em nenhuma experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade, se a experiência de controle estiver definida como personalizada. Para os outros modos (Execução de controle médio e direcionado, Controle diário e Segmentação e Visitas) funciona bem. Assim que houver alguns dados (visitas diferentes de zero), o relatório ser a renderizado como esperado.
+O relatório de gráfico de uma atividade de direcionamento automático não é renderizado para modos “diferenciais” (aumento médio e aumento diário) se não houver dados (0 visitas) em nenhuma experiência. Essa situação pode ocorrer durante o estágio inicial de uma atividade, se a experiência de controle estiver definida como personalizada. Para os outros modos (Execução de controle médio e direcionado, Controle diário e Segmentação e Visitas) funciona bem. Assim que houver alguns dados (visitas diferentes de zero), o relatório ser a renderizado como esperado.
 
 Este problema foi corrigido no Target versão 19.7.1.
 
 ### Implementação: criação automática de mbox global
 
-Na guia Implementação ([!UICONTROL Administração > Implementação]) o campo [!UICONTROL Criação automática de Mbox global] será &quot;falso&quot; por padrão para um locatário recém-provisionado.
+Na guia Implementação ([!UICONTROL Administração > Implementação]) o campo [!UICONTROL Criação automática de Mbox global] será “falso” por padrão para um locatário recém-provisionado.
 
 Quando a at.js é baixada pela primeira vez depois do provisionamento, o campo [!UICONTROL Criação automática da mbox global] é definido como “true” no arquivo at.js baixado e no backend do [!DNL Target], mas continuará a exibir “false” na página de [!UICONTROL Implementação] da interface até que a página seja atualizada (após a atualização da página, o status será definido como “true”.)
 
@@ -222,7 +222,7 @@ Para determinar se esse problema afetou seus relatórios do Target, entre em con
 
 ### Recommendations
 
-* O índice do feed do Recommendations pode exibir &quot;Aguardando índice&quot; se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
+* O índice do feed do Recommendations pode exibir “Aguardando índice” se os itens do feed forem iguais aos da execução anterior. A ingestão do produto para entrega não é afetada. (RECS-6663)
 
    Este problema foi corrigido no Target versão 19.4.2.
 
@@ -261,7 +261,7 @@ Corrigido na versão da API 2.3.0 ou posterior.
 
 ### Geografia   direcionamento
 
-A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por &quot;nova york&quot;, a pesquisa não retorna resultados válidos.
+A pesquisa de uma string que contenha caracteres especiais (como um espaço ou uma vírgula) não está funcionando no momento ao criar públicos de geolocalização. Esse problema aparece, por exemplo, ao criar públicos baseados em cidades, estados, países etc. Por exemplo, ao pesquisar por “nova york”, a pesquisa não retorna resultados válidos.
 
 Corrigido em novembro de 2018.
 
@@ -291,15 +291,15 @@ Isso foi corrigido na versão 18.9.1.
 
 ### Atividade do Recommendations que usa uma regra de Promoção do atributo
 
-Ao editar ou copiar uma atividade do Recommendations que use uma regra de promoção de atributo, o erro &quot;Campo ausente&quot; é exibido ao clicar em Salvar.
+Ao editar ou copiar uma atividade do Recommendations que use uma regra de promoção de atributo, o erro “Campo ausente” é exibido ao clicar em Salvar.
 
 Isso foi corrigido na versão 17.8.1.
 
 ### Recommendations de backup
 
-As recomendações de backup exibem erroneamente &quot;Ativado&quot; nos cartões de Itens visualizados recentemente na interface do usuário do Target. (TGT-29308)
+As recomendações de backup exibem erroneamente “Ativado” nos cartões de Itens visualizados recentemente na interface do usuário do Target. (TGT-29308)
 
-Isso foi corrigido na versão 18.4.1 para que &quot;Desabilitado&quot; fosse exibido.
+Isso foi corrigido na versão 18.4.1 para que “Desabilitado” fosse exibido.
 
 ### Atividades de Direcionamento automático e públicos-alvo de relatórios
 

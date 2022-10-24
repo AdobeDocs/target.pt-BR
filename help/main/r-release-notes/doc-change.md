@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
 source-wordcount: '1477'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 19º de outubro | [Afinidade de categorias](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Foi adicionada uma observação explicando a pontuação quando várias categorias são passadas em uma única chamada de mbox. |
-| 18 de outubro | [[!UICONTROL Criar uma atividade de Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Texto atualizado para indicar que, embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho ao usar menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção. |
-|  | [Perguntas frequentes do Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Texto atualizado para indicar que, embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho ao usar menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção. |
-| 14 de outubro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre o [!DNL Adobe Target] Quebra de Café da Comunidade em Perguntas e Respostas (26 de outubro de 2022). |
+| 18 de outubro | [Criar uma atividade de [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | O texto foi atualizado para indicar que embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho quando são usadas menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a opção [!UICONTROL Não permitir duplicações]. |
+|  | [Perguntas frequentes do Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | O texto foi atualizado para indicar que embora seja possível criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho quando são usadas menos de 10.000 experiências distintas. Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a opção [!UICONTROL Não permitir duplicações]. |
+| 14 de outubro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro sobre a Sessão de perguntas e respostas da comunidade do [!DNL Adobe Target] (26 de outubro de 2022). |
 | 10 de outubro | Extensão [[!UICONTROL Auxiliar de edição visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Novo artigo. |
 |  | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Atualização da seção “[Minha página não é exibida no VEC (somente VEC)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)”. |
 | 4 de outubro | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Novo tópico.<br>As informações contidas neste artigo substituem o arquivo PDF *Cálculos do Adobe Target para testes A/B* anteriormente disponível para download neste site. |
@@ -111,8 +111,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Criar um público somente com atividades](/help/main/c-target/creating-activity-only-audience.md) | Foram adicionadas informações na seção “Considerações” sobre regras de exclusão. |
 | 10 de fevereiro | [Extensão auxiliar do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Foram adicionadas informações sobre o carregamento de sites com Service Workers no Visual Experience Composer (VEC). |
 | 7 de fevereiro | [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade (23 de fevereiro de 2022)</li></ul> |
-| 3 de fevereiro | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md#RTCDP) | Nova seção e vídeo adicionados: &quot;Vídeo: Personalização de próxima ocorrência com o Real-time CDP e [!DNL Adobe Target]&quot;. |
-| 2 de fevereiro | [Soluções de problemas da entrega de conteúdo](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Inclusão da seguinte seção: &quot;Evitar aspas duplas no valor do atributo de perfil do [!DNL Target] não está funcionando como o esperado&quot;. |
+| 3 de fevereiro | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md#RTCDP) | Nova seção e vídeo adicionados: “Vídeo: Personalização de próxima ocorrência com o Real-time CDP e [!DNL Adobe Target]”. |
+| 2 de fevereiro | [Soluções de problemas da entrega de conteúdo](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Inclusão da seguinte seção: “Evitar aspas duplas no valor do atributo de perfil do [!DNL Target] não está funcionando como o esperado”. |
 | 1 de fevereiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.2.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 de janeiro de 2022)
