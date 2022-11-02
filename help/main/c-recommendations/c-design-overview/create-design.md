@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 35%
 
 ---
@@ -169,7 +169,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
 Depois que seu algoritmo for executado e você obter os resultados, sua resposta deve ser:
 
-![imagem json_recommendation](assets/json_recommendation.png){width=&quot;575px&quot;}
+![imagem json_recommendation](assets/json_recommendation.png){width="575px"}
 
 ## Dicas e truques adicionais sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
 
