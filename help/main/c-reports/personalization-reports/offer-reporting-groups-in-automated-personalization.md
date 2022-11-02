@@ -4,10 +4,10 @@ description: Saiba como usar grupos de relatórios de ofertas no Adobe [!DNL Tar
 title: Posso usar Grupos de relatórios de oferta nas atividades do Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
 >
 >Se uma oferta for removida ou substituída de um determinado grupo de modelagem, o tráfego antigo que visualizou essa oferta específica também será excluído do grupo de modelagem. Em outras palavras, ofertas excluídas não contribuem para quais dados são usados para a variável [!DNL Target] modelos de personalização para aprender.
 
-**Para configurar grupos de relatórios:**
+## Configurar grupos de relatórios
 
 1. No **[!UICONTROL Experiências]** de uma atividade de AP, clique no botão **[!UICONTROL Gerenciar conteúdo]** ícone .
 
@@ -52,3 +52,17 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
    Para criar um novo grupo de relatórios para atribuir a oferta selecionada, selecione **[!UICONTROL Novo]**, nomeie o novo grupo de relatórios e clique em **[!UICONTROL Aplicar]**.
 
    ![Novo ícone para criar um novo grupo de relatórios](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## Exibir ofertas em um grupo de relatórios
+
+1. Clique em **[!UICONTROL Atividades]**, clique no [!UICONTROL Automated Personalization] na lista, em seguida, clique no botão **[!UICONTROL Relatórios]** para exibir a variável [Nível da oferta](/help/main/c-reports/personalization-reports/reports-ap.md) relatório.
+
+   Se você tiver muitas atividades, pode filtrar a lista ao selecionar [!UICONTROL Personalização automatizada] na lista suspensa [!UICONTROL Tipo].
+
+1. Clique em **[!UICONTROL Controle]** ou **[!UICONTROL Direcionado]** na tabela para exibir as ofertas desagrupadas e as ofertas dentro dos grupos de relatórios.
+
+   ![Grupos de ofertas: Controle e direcionado](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+Para obter informações sobre como usar [!UICONTROL Automated Personalization] relatórios (incluindo o [!UICONTROL Nível da oferta] relatório), consulte [Relatórios de resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+
