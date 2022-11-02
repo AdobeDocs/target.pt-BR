@@ -4,10 +4,10 @@ description: Saiba como usar grupos de relatórios de ofertas no Adobe [!DNL Tar
 title: Posso usar Grupos de relatórios de oferta nas atividades do Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 47%
+source-wordcount: '698'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ Ao usar grupos de relatórios, [!DNL Target] O cria um modelo de personalizaçã
 
 Se a configuração da atividade não tiver dados suficientes para criar um modelo de personalização por oferta, os grupos de relatórios poderão ajudar a reduzir os requisitos de dados a serem usados [!UICONTROL Automated Personalization]. Os grupos de relatórios também podem ajudar a resolver o problema de &quot;inicialização imediata&quot; para novas ofertas, agrupando ofertas semelhantes para que cada modelo receba mais dados para treinar. Os grupos de modelagem também podem ser usados para atividades em que novas ofertas são introduzidas regularmente na atividade de AP.
 
-Essa abordagem funciona bem se os visitantes responderem da mesma maneira a todas as ofertas de um grupo. A prática recomendada é agrupar as ofertas nas quais grupos semelhantes de visitantes respondem de maneira similar. Ou seja, agrupe ofertas com taxas de conversão semelhantes. Você nunca deve colocar todas as ofertas em um único grupo de relatórios. O agrupamento de todas as ofertas ou o agrupamento de ofertas com taxas de conversão muito diferentes provavelmente reduz a eficácia do [!DNL Target] modelos de personalização.
+Essa abordagem funciona bem se os visitantes responderem da mesma maneira a todas as ofertas de um grupo. A prática recomendada é agrupar as ofertas nas quais grupos semelhantes de visitantes respondem de maneira similar. Ou seja, agrupe ofertas com taxas de conversão semelhantes. Você nunca deve colocar todas as ofertas em um único grupo de relatórios. O agrupamento de todas as ofertas ou o agrupamento de ofertas com diferentes taxas de conversão provavelmente reduz a eficácia do [!DNL Target] modelos de personalização.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
 
    ![Ícone do Grupo de relatórios](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (Condicional) Adicione experiências em lote a um grupo de relatórios, marcando a caixa de seleção das experiências relevantes e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios]** no canto superior direito da caixa de diálogo.
+1. (Condicional) Adicione experiências em lote a um grupo de relatórios, marcando a caixa de seleção das experiências relevantes e clicando no botão **[!UICONTROL Grupo de relatórios]** ícone de pasta no canto superior direito da caixa de diálogo.
 
    ![Ícone do Grupo de relatórios](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -49,9 +49,17 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
 
    Ou
 
-   Para criar um novo grupo de relatórios para atribuir a oferta selecionada, selecione **[!UICONTROL Novo]**, nomeie o novo grupo de relatórios e clique em **[!UICONTROL Aplicar]**.
+   Para criar um grupo de relatórios para atribuir a oferta selecionada, selecione **[!UICONTROL Novo]**, nomeie o novo grupo de relatórios e clique em **[!UICONTROL Aplicar]**.
 
    ![Novo ícone para criar um novo grupo de relatórios](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+Você pode usar o [!UICONTROL Localização] lista para filtrar ofertas por localização. Use a lista [!UICONTROL Grupos de relatórios] para filtrar ofertas a grupos de relatórios. Você também pode usar a lista [!UICONTROL Grupo de relatórios] para filtrar [!UICONTROL Ofertas não atribuídas], de modo que possa atribuir um grupo de relatórios a uma oferta que não está atualmente atribuída a qualquer grupo de relatórios.
+
+Para obter informações sobre como segmentar uma oferta para públicos específicos, consulte  [Ofertas do Target AP](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## Avisos
+
+* É importante entender que os grupos de relatórios afetam o como [!DNL Target] O constrói seus modelos. Como resultado, [!DNL Adobe] A recomenda usar os grupos de relatórios somente se você planeja substituir ou adicionar novas ofertas enquanto uma atividade está ativa. Se uma nova oferta for introduzida em uma atividade ativa, colocá-la em um grupo com ofertas semelhantes existentes permitirá que a máquina use os dados já coletados para as outras ofertas em seu grupo para saber mais sobre a nova oferta. Você nunca deve colocar todas as ofertas em um único grupo de relatórios.
 
 ## Exibir ofertas em um grupo de relatórios
 
