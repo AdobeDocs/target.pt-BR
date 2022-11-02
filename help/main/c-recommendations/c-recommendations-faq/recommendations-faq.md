@@ -4,10 +4,10 @@ description: Veja uma lista de perguntas frequentes e respostas sobre atividades
 title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 98%
+source-wordcount: '3402'
+ht-degree: 91%
 
 ---
 
@@ -62,12 +62,12 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
    * Outras configurações de critério (por exemplo, &quot;remoção de uma regra de inclusão dinâmica&quot;, alteração da janela de retrospectiva e assim por diante) não podem ser incorporadas até que o próximo algoritmo seja executado.
    * As execuções de algoritmo são acionadas por essas alterações, mas podem levar até 24 horas para serem concluídas. Algoritmos também são executados de forma programada a cada 12 a 24 horas.
 
-## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *que o usuário* recebe?
+## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *that* o usuário recebe?
 
 * O produto/conteúdo exibido/adquirido no momento influencia as recomendações que o usuário recebe na mesma visualização de página/[!DNL Target]solicitação de conteúdo.
-* O comportamento histórico do usuário, como &quot;último produto visualizado&quot;, &quot;produto mais visualizado&quot; e o histórico geral de visualização/compra são atualizados com essa solicitação e influenciam as recomendações que o usuário recebe na próxima solicitação de conteúdo de visualização de página/[!DNL Target]. Por exemplo, os algoritmos &quot;Itens visualizados recentemente&quot; e &quot;Recomendado para você&quot; são atualizados com cada visualização/compra de produto e refletidos na solicitação de conteúdo subsequente.
+* O comportamento histórico do usuário, como &quot;último produto visualizado&quot;, &quot;produto mais visualizado&quot; e o histórico geral de visualização/compra são atualizados com essa solicitação e influenciam as recomendações que o usuário recebe na próxima visualização de página/[!DNL Target] solicitação de conteúdo. Por exemplo, os algoritmos &quot;Itens visualizados recentemente&quot; e &quot;Recomendado para você&quot; são atualizados com cada visualização/compra de produto e refletidos na solicitação de conteúdo subsequente.
 
-## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações que *outros* usuários recebem?
+## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *other* os usuários recebem?
 
 O comportamento dos usuários na agregação é incorporado ao processamento de algoritmo offline, e cada execução de algoritmo ocorre a cada 12 a 24 horas.
 
@@ -128,10 +128,10 @@ Considere as informações a seguir se você vir uma coleção em zero que anter
 
    ![imagem de catálogo de produtos](assets/product_catalog.png)
 
-* O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique há quantas horas o índice foi criado (por exemplo, &quot;Indexado há 3 horas&quot;). Você pode atualizar o índice, conforme necessário.
+* O seu índice está atualizado? Vá para [!DNL /target/products.html#productSearch] e verifique quantas horas têm o índice (por exemplo, &quot;Indexado há 3 horas&quot;). Você pode atualizar o índice, conforme necessário.
 * Você alterou algo no feed ou na camada de dados que resultou na falta de correspondência das suas entidades com as regras de coleção? Certifique-se de que as LETRAS MAIÚSCULAS E MINÚSCULAS estejam correspondentes (sensível à maiúscula e minúsculas).
 * O seu feed foi executado com sucesso? Alguém alterou o diretório FTP, a senha e assim por diante?
-* [!DNL Target]O faz o melhor para atualizar a entrega (na página/aplicativo do cliente) o mais rápido possível. Além disso, o [!DNL Target] também deve fornecer alguma representação na interface para o profissional de marketing. O [!DNL Target] não atrasa a entrega de atualizações para esperar que as atualizações da interface estejam em sincronia. Você pode usar [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para ver o que está no sistema no momento em que ocorre a solicitação.
+* [!DNL Target] O faz o melhor para fazer com que as atualizações no delivery (na página/aplicativo do cliente) aconteçam o mais rápido possível. Além disso, o [!DNL Target] também deve fornecer alguma representação na interface para o profissional de marketing. O [!DNL Target] não atrasa a entrega de atualizações para esperar que as atualizações da interface estejam em sincronia. Você pode usar [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para ver o que está no sistema no momento em que ocorre a solicitação.
 
 ## Qual a diferença entre ponderação de atributos geral e ponderação de atributo específico à similaridade de conteúdo? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -141,9 +141,9 @@ A ponderação de atributos ocorre de duas formas: &quot;ponderação de atribut
 
 ![imagem attribute_weight_example](assets/attribute_weighting_example.png)
 
-A &quot;ponderação de atributo por similaridade de conteúdo&quot; aplica-se aos critérios de Similaridade de conteúdo somente.
+A &quot;ponderação de atributo de similaridade de conteúdo&quot; aplica-se somente aos critérios de Similaridade de conteúdo.
 
-Esse tipo de ponderação é mais dinâmica e baseia-se na &quot;chave de recomendação&quot; atual (o item exibido atualmente). No exemplo a seguir (marca x 16), se um visitante estava visualizando tênis da Nike, ele tem maior probabilidade de receber recomendações de outros produtos da Nike (não necessariamente somente tênis) em vez de tênis de outros fabricantes. Se um visitante estava visualizando tênis da Adidas, ele tem maior probabilidade de recomendar produtos da Adidas.
+Esse tipo de ponderação é mais dinâmica e se baseia na &quot;chave de recomendação&quot; atual (o item exibido no momento). No exemplo a seguir (marca x 16), se um visitante estava visualizando tênis da Nike, esse visitante tem maior probabilidade de ser recomendado a outros produtos da Nike (não necessariamente apenas tênis) em vez de tênis de outros concorrentes. Se um visitante estava visualizando tênis da Adidas, ele tem maior probabilidade de recomendar produtos da Adidas.
 
 ![imagem de exemplo_de_similaridade_de_conteúdo](assets/content_similarity_example.png)
 
@@ -250,8 +250,8 @@ Um algoritmo criado no [!DNL Recommendations Classic] não é compatível com o 
 Alguns clientes de mídia e publicação querem garantir que os itens recomendados incluam apenas os artigos ou vídeos mais recentes. Como exemplo, um cliente do [!DNL Target] usou a seguinte abordagem para recomendar artigos com menos de 60 dias:
 
 1. Transmita a data de publicação do artigo, no formato AAAAMMDD, como um atributo de entidade personalizado.
-1. Crie um script de perfil que seja a data de hoje menos 60 dias, também no formato AAAAMMDD.
-1. Use um filtro de inclusão dinâmica nos critérios para que `publish date > today’s date minus 60 days`.
+1. Crie um script de perfil que seja a data de hoje menos 60 dias, também no formato AAAMMDD.
+1. Use um filtro de inclusão dinâmica nos critérios para que `publish date > today's date minus 60 days`.
 
 ### Transmita a data de publicação como um atributo de entidade personalizado:
 
@@ -274,3 +274,14 @@ Alguns clientes de mídia e publicação querem garantir que os itens recomendad
 >[!NOTE]
 >
 >Este exemplo também pode ser realizado usando a correspondência de parâmetros e transmitindo o valor `priorDate60` como um parâmetro de mbox.
+
+### Quais são alguns problemas conhecidos ao usar [!DNL Recommendations] atividades?
+
+A seguir, os problemas conhecidos com atividades do [!UICONTROL Recommendations]:
+
+* Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recommendations, ele retornará com um tipo de HTML.
+* As entidades expiram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. No momento, entidades excluídas por meio do feed ou da API também não são removidas do índice de Pesquisa de catálogo. (IRI-857)
+* As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recommendations. (TGT-33426)
+* Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário do Target e podem ser editados por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do usuário do Target e depois editá-los por meio da API, essas alterações não serão refletidas na interface do usuário do Target. Os itens editados por meio da API devem continuar sendo editados por meio da API para evitar a perda de modificações. (TGT-35777)
+* As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
+* O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)

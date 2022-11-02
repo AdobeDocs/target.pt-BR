@@ -4,10 +4,10 @@ description: Saiba mais sobre as variações de dados esperadas entre o Adobe [!
 title: Qual é a variação de dados esperada entre o Analytics e o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 48%
+source-wordcount: '733'
+ht-degree: 46%
 
 ---
 
@@ -26,10 +26,6 @@ Estes são alguns cenários nos quais você pode experimentar a variação de da
    Se um teste de redirecionamento for configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25 e assim por diante), o comportamento do usuário pode não ser dividido uniformemente. Caso veja uma divisão desigual, isso significa apenas que um grupo de usuários não executou uma chamada do Analytics na página de aterrissagem mais do que os outros grupos. Essa falha na execução da chamada do Analytics para um grupo fez com que a ocorrência do Target para esse usuário fosse excluída, criando a desigualdade.
 
    O Adobe espera abordar esse problema no futuro, à medida que as equipes do Adobe trabalham com o A4T na Adobe Experience Platform. As equipes de Adobe estão determinando como lidar com esses diferentes eventos que ocorrem em momentos diferentes na página.
-
-   >[!NOTE]
-   >
-   >Existe um problema conhecido que faz com que um número limitado de clientes que usam redirecionamentos com A4T vejam uma porcentagem maior de taxas de hit não unificadas. Consulte [Problemas conhecidos e problemas resolvidos](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Variação de dados esperada quando *não está usando* A4T {#expected-not-using-a4t}
 

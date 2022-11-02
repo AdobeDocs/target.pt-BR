@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas sobre o uso de ofertas de redirec
 title: Onde posso encontrar perguntas frequentes sobre ofertas de redirecionamento com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 54%
+source-wordcount: '1431'
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,6 @@ Este tópico contém respostas para as perguntas mais frequentes sobre o uso de 
 ## O Analytics for Adobe Target (A4T) é compatível com as ofertas de redirecionamento? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Sim, se sua implementação usar [!DNL at.js]. No entanto, sua implementação deve atender aos requisitos mínimos listados abaixo para usar [ofertas de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) em atividades que utilizam o Analytics como a fonte de relatórios.
-
->[!NOTE]
->
->Existe um problema conhecido que faz com que um número limitado de clientes que usam redirecionamentos com A4T vejam uma porcentagem maior de taxas de hit não unificadas. Consulte [Problemas conhecidos e problemas resolvidos](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quais são os requisitos mínimos para usar as ofertas de redirecionamento com o A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -60,9 +56,7 @@ Se você estiver usando uma versão anterior não compatível do at.js, existe a
 
 Usar o compositor baseado em formulário para criar uma atividade de redirecionamento é recomendado para aumentar a velocidade do redirecionamento da página devido ao local em que o código é executado na página. Além disso, é recomendável criar uma oferta de redirecionamento para cada experiência, até mesmo para a experiência padrão, na qual o redirecionamento retornaria a página original. Criar uma oferta de redirecionamento para cada experiência garante que, se ocorrer uma contagem incorreta, ela ocorra em todas as experiências. Os relatórios e análises ainda são válidos para o teste.
 
-Um motivo para usar ofertas de redirecionamento para todas as experiências na atividade, incluindo a experiência padrão (controle), é colocar as mesmas condições em todas as experiências. Por exemplo, se a experiência padrão não tiver uma oferta de redirecionamento, mas as outras experiências tiverem ofertas redirecionadas, a velocidade da experiência sem a oferta de redirecionamento terá uma vantagem inerente. O redirecionamento de ofertas é recomendado apenas para cenários temporários, como testes. O redirecionamento de ofertas não é recomendado para cenários permanentes, como personalização. Depois de determinar o “vencedor”, você deve remover o redirecionamento para melhorar o desempenho do carregamento da página.
-
-Para obter mais informações sobre esse problema, consulte as informações das “Ofertas de redirecionamento” em [Problemas conhecidos](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
+Um motivo para usar ofertas de redirecionamento para todas as experiências na atividade, incluindo a experiência padrão (controle), é colocar as mesmas condições em todas as experiências. Por exemplo, se a experiência padrão não tiver uma oferta de redirecionamento, mas as outras experiências tiverem ofertas redirecionadas, a velocidade da experiência sem a oferta de redirecionamento terá uma vantagem inerente. O redirecionamento de ofertas é recomendado apenas para cenários temporários, como testes. O redirecionamento de ofertas não é recomendado para cenários permanentes, como personalização. Depois de determinar o &quot;vencedor&quot;, você deve remover o redirecionamento para melhorar o desempenho do carregamento de página.
 
 ## O Visual Experience Composer (VEC) e o Experience Composer baseado em formulários são suportados? {#section_FDA26FE7909B48539DA770559E687677}
 
@@ -129,4 +123,4 @@ Sim, o [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visu
 
 ### Posso usar ofertas de redirecionamento personalizadas/HTML com o [!DNL Platform Web SDK]?
 
-Não, você deve usar uma oferta de redirecionamento integrada para atividades que usam o A4T. No [!DNL Target] em perspectiva, as ofertas de HTML são opacas. [!DNL Target] Não é possível saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
+Não, você deve usar uma oferta de redirecionamento integrada para atividades que usam o A4T. No [!DNL Target] em perspectiva, as ofertas de HTML são opacas. [!DNL Target] O não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
