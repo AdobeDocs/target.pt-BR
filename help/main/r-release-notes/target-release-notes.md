@@ -5,8 +5,8 @@ title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
