@@ -4,7 +4,7 @@ description: Saiba como interpretar o relatório de Resumo do Automated Personal
 title: Como uso os relatórios de resumo do Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 34%
@@ -52,7 +52,7 @@ Clique no algoritmo de experiência (Random Forest ou controle) para visualizar 
 >
 >Um ícone de relógio indica que o modelo de algoritmo ainda está sendo criado. Um ícone de marca de verificação indica que o algoritmo de base foi estabelecido.
 
-As ofertas podem ser mostradas em [grupos de relatórios](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)e esses grupos de relatórios podem ser recolhidos e expandidos. Clique em **[!UICONTROL Controle]** ou **[!UICONTROL Direcionado]** na tabela para exibir informações acumuladas por grupos de relatórios, em vez de por ofertas.
+As ofertas podem ser mostradas em [grupos de relatórios](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)e esses grupos de relatórios podem ser recolhidos e expandidos. Clique em **[!UICONTROL Controle]** ou **[!UICONTROL Direcionado]** na tabela para exibir informações acumuladas por grupos de relatórios, em vez de por ofertas.
 
 ## Segmentos automatizados
 

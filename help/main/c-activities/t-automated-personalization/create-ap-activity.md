@@ -4,7 +4,7 @@ description: Saiba como criar um [!UICONTROL Automated Personalization] (AP) em 
 title: Como criar um [!UICONTROL Automated Personalization] Atividade?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 62%
@@ -88,7 +88,7 @@ O [!UICONTROL Automated Personalization] Fluxo de trabalho da atividade (AP) em 
 
 1. (Condicional) Clique em **[!UICONTROL Ofertas]** para selecionar partes do conteúdo e as atribuir a grupos de relatórios ou somente permitir que alguns visitantes vejam determinadas ofertas com o direcionamento.
 
-   Para obter mais informações sobre grupos de relatórios, consulte [Grupos de relatórios de oferta no Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   Para obter mais informações sobre grupos de relatórios, consulte [Grupos de relatórios de oferta no Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (Condicional) Clique em **[!UICONTROL Grupos de exclusão]** para escolher qualquer combinação de elementos que você deseja excluir da atividade.
 
