@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas sobre o uso de ofertas de redirec
 title: Onde posso encontrar perguntas frequentes sobre ofertas de redirecionamento com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 52%
+source-wordcount: '1456'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a
 
 | Parâmetro | Descrição |
 |--- |--- |
-| `adobe_mc_sdid` | O `adobe_mc_sdid` passa a ID de Dados Suplementares (SDID) e a ID de Org de Experience Cloud da página padrão para a página nova. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página. |
+| `adobe_mc_sdid` | O `adobe_mc_sdid` passa a ID de Dados Suplementares (SDID) e a ID de Org de Experience Cloud da página padrão para a página nova. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página.<br>O formato esperado para transmitir sdid no url (para aplicativos híbridos ou de um aplicativo para o site ou de um site para outro) é `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | O parâmetro `adobe_mc_ref` passa o URL de referência da página padrão para a página nova. Quando usado com o AppMeasurement.js versão 2.1 (ou posterior), o Analytics usa esse valor de parâmetro como o URL de referência na nova página. |
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.

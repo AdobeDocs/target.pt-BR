@@ -4,10 +4,10 @@ description: Saiba como enviar parâmetros personalizados para o [!DNL Adobe Tar
 title: Posso definir metas para visitantes com base em parâmetros personalizados?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 41%
+source-wordcount: '497'
+ht-degree: 40%
 
 ---
 
@@ -29,6 +29,10 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
    * Se você lembrar o nome da mbox, mas não o nome do parâmetro, use a [!UICONTROL Filtrar por] lista suspensa para filtrar em uma mbox conhecida que passa o parâmetro desejado.
 
    Com ambos os métodos, não há link entre a mbox e o parâmetro. O público-alvo funciona com base no parâmetro em todas as mboxes que passam esse parâmetro.
+
+   >[!NOTE]
+   >
+   >A mbox selecionada na variável [!UICONTROL Filtrar por] a lista suspensa não é salva na criação da atividade. Essa opção permite filtrar os parâmetros com base na mbox selecionada.
 
    Se você editar um público-alvo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
 

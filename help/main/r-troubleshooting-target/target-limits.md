@@ -5,7 +5,7 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -163,7 +163,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 250 caracteres.
 
-### parâmetros de mbox
+### parâmetros de mbox {#mbox-parameters}
 
 * **Limite**: os seguintes limites se aplicam aos parâmetros da mbox:
 
@@ -192,7 +192,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 5000
+   * tamanho máximo do valor do parâmetro do perfil 256
 
    **Endpoint da API de entrega**:
 
@@ -203,7 +203,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 5000
+   * tamanho máximo do valor do parâmetro do perfil 256
 
 
 

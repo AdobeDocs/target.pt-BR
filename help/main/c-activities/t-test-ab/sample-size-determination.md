@@ -4,10 +4,10 @@ description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-suce
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 59%
+source-wordcount: '3085'
+ht-degree: 58%
 
 ---
 
@@ -49,7 +49,7 @@ Antes de configurar o teste A/B, acesse a Adobe Target [calculadora de tamanho d
 
 Isso pode resultar em muitos falsos positivos, o que leva à implementação de ofertas que não entregam o aumento previsto no final. O aumento fraco em si é um resultado insatisfatório, mas uma consequência ainda mais grave é que, com o tempo, a incapacidade de prever aumentos com precisão prejudica a confiança organizacional nos testes como uma prática.
 
-Este artigo discute os fatores que devem ser equilibrados quando um tamanho de amostra é determinado e introduz uma calculadora de planilha para estimar um tamanho de amostra adequado. O cálculo do tamanho da amostra usando a calculadora de tamanho da amostra (link fornecido acima) antes do início de qualquer teste A/B garante que você sempre execute testes A/B de alta qualidade em conformidade com os padrões estatísticos.
+Este artigo discute os fatores que devem ser equilibrados quando um tamanho de amostra é determinado e introduz uma calculadora para estimar um tamanho de amostra adequado. O cálculo do tamanho da amostra usando a calculadora de tamanho da amostra (link fornecido acima) antes do início de qualquer teste A/B garante que você sempre execute testes A/B de alta qualidade em conformidade com os padrões estatísticos.
 
 Há cinco parâmetros estabelecidos pelo usuário que definem um teste A/B. Esses parâmetros são interligados de modo que quando quatro deles forem estabelecidos, o quinto poderá ser calculado:
 
@@ -58,6 +58,11 @@ Há cinco parâmetros estabelecidos pelo usuário que definem um teste A/B. Esse
 * Aumento mínimo detectável de confiabilidade
 * Índice de conversão de linha de base
 * Número de visitantes
+
+>[!IMPORTANT]
+>
+>Para obter resultados precisos, você deve recarregar a página antes de alterar qualquer número de parâmetro.
+
 
 Para um teste A/B, a significância estatística, a potência estatística, o aumento mínimo detectável de confiabilidade e a taxa de conversão da linha de base são definidos pelo analista e, em seguida, o número necessário de visitantes é calculado com base nesses números. Este artigo discute esses elementos e fornece diretrizes sobre como determinar essas métricas para um teste específico.
 
