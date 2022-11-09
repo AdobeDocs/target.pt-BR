@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 93%
+source-wordcount: '1596'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,6 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Atualização da descrição do `adobe_mc_sdid` na tabela. |
 |  | [Atividades de solução de problemas](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Nova seção adicionada: &quot;Após a conversão da atividade, o visitante não está em nenhuma experiência.&quot; |
 |  | [Parâmetros personalizados](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Foi adicionada uma observação informando que a mbox selecionada na variável [!UICONTROL Filtrar por] a lista suspensa não é salva na criação da atividade. Essa opção permite filtrar os parâmetros com base na mbox selecionada. |
-|  | [Limites do Target](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | Correção do comprimento máximo do valor máximo do parâmetro de perfil. O limite é de 256 caracteres. |
 | 2 de novembro | Problemas conhecidos e problemas resolvidos | A página foi removida e os problemas relevantes foram realocados para as páginas apropriadas para que as informações estivessem no contexto. |
 | 25 de outubro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.10.3 do [!DNL Target Standard/Premium]. |
 | 19 de outubro | [Afinidade de categorias](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Adição de uma observação que explica sobre a pontuação quando várias categorias são transmitidas em uma única chamada de mbox. |

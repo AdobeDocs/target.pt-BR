@@ -4,9 +4,9 @@ description: Encontre sugestões para a solução de problemas se a atividade do
 title: Como posso solucionar problemas de atividades?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '863'
 ht-degree: 50%
 
 ---
@@ -136,6 +136,6 @@ Quando você executa determinadas ações, como ativar uma atividade fora da int
 
 ## Após a conversão da atividade, o visitante não está em nenhuma experiência.
 
-Se a métrica de conversão da atividade para se qualificar para uma experiência for enviada na mesma [!DNL Target] como atividade de qualificação, o visitante pode não estar em nenhuma experiência depois que a solicitação é enviada. Nessa situação, o visitante visualiza o conteúdo padrão. [!DNL Adobe] A recomenda não enviar conversão e qualificação de atividade na mesma solicitação.
+Em casos raros, se a métrica de conversão da atividade para se qualificar para uma experiência for enviada na mesma solicitação que a qualificação de atividade, o visitante pode não estar em nenhuma experiência depois que a solicitação é enviada. Nessa situação, o visitante vê o conteúdo padrão e a ID da experiência capturada pelos tokens como -1. [!DNL Adobe] não recomenda enviar qualificação de atividade e conversão na mesma [!DNL Target] solicitação.
 
-Se quiser enviar ambas as configurações na mesma solicitação, você poderá usar [!UICONTROL Configurações avançadas] para especificar que o visitante permaneça na mesma experiência após a conversão.
+Se você deseja enviar ambas as métricas na mesma solicitação, é possível usar [!UICONTROL Configurações avançadas] para especificar que o visitante permaneça na mesma experiência após a conversão.

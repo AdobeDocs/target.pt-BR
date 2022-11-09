@@ -5,7 +5,7 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -192,7 +192,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 256
+   * tamanho máximo do valor do parâmetro do perfil 5000
 
    **Endpoint da API de entrega**:
 
@@ -203,7 +203,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 256
+   * tamanho máximo do valor do parâmetro do perfil 5000
 
 
 
