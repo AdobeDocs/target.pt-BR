@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;tamanho da amostra;calculador de tamanho da amostra;alocação automática;alocação automática;calculadora
-description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-sucedido no Adobe [!DNL Target] O requer visitantes suficientes (tamanho da amostra) para melhorar sua taxa de conversão.
+description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-sucedido em [!DNL Adobe Target] O requer visitantes suficientes (tamanho da amostra) para melhorar sua taxa de conversão.
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ Para obter mais informações, consulte [Visão geral da alocação automática]
 
 Se você optar por usar um [!UICONTROL Teste A/B] em vez de [!UICONTROL Alocação automática], o [!DNL Target] A Calculadora de tamanho de amostra ajuda a determinar o tamanho de amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, então a calculadora é útil. Uso da calculadora para um [!UICONTROL Alocação automática] atividade é opcional porque [!UICONTROL Alocação automática] declara um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessário. Continue a let para obter mais informações sobre como usar a calculadora.
 
-Antes de configurar o teste A/B, acesse o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Antes de configurar o teste A/B, acesse o [!DNL Adobe Target] [Calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR).
 
-![Calculadora de tamanho da amostra do Adobe Target](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR)
+![Calculadora de tamanho da amostra do Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 É importante determinar um tamanho de amostra adequado (número de visitantes) antes de fazer qualquer teste A/B para estabelecer o tempo em que a atividade deve ser executada antes da avaliação dos resultados. Basta monitorar a atividade até que a significância estatística seja alcançada e o intervalo de confiança seja muito subestimado, tornando o teste não confiável. Com base nesse resultado imagina-se que, caso um resultado estatisticamente significativo seja detectado, o teste será interrompido e um vencedor declarado. No entanto, se o resultado não for estatisticamente significativo, o teste poderá continuar. Esse procedimento favorece bastante o resultado positivo, o que aumenta a taxa de falsos positivos e, portanto, distorce o nível de significância efetiva do teste.
 
