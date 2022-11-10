@@ -4,9 +4,9 @@ description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-suce
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
+source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
 workflow-type: tm+mt
-source-wordcount: '3088'
+source-wordcount: '3093'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ Se você optar por usar um [!UICONTROL Teste A/B] em vez de [!UICONTROL Alocaç�
 
 Antes de configurar o teste A/B, acesse o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-![Calculadora de tamanho da amostra do Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Calculadora de tamanho da amostra do Adobe Target](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR)
 
 É importante determinar um tamanho de amostra adequado (número de visitantes) antes de fazer qualquer teste A/B para estabelecer o tempo em que a atividade deve ser executada antes da avaliação dos resultados. Basta monitorar a atividade até que a significância estatística seja alcançada e o intervalo de confiança seja muito subestimado, tornando o teste não confiável. Com base nesse resultado imagina-se que, caso um resultado estatisticamente significativo seja detectado, o teste será interrompido e um vencedor declarado. No entanto, se o resultado não for estatisticamente significativo, o teste poderá continuar. Esse procedimento favorece bastante o resultado positivo, o que aumenta a taxa de falsos positivos e, portanto, distorce o nível de significância efetiva do teste.
 
