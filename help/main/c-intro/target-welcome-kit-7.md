@@ -4,22 +4,22 @@ description: Vamos começar com sua primeira atividade no Adobe  [!DNL Target]  
 title: Preciso criar minha primeira atividade no Target. Por onde começar?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 100%
+source-wordcount: '1723'
+ht-degree: 78%
 
 ---
 
 # Capítulo 7: Criar e executar a primeira atividade do [!DNL Target]
 
-Você está pronto para começar com sua primeira atividade no [!DNL Target]? Excelente. Vamos descobrir uma atividade para seu site, site móvel ou aplicativo móvel que não seja muito complexa. Ela pode fornecer ROI rápido e deixá-lo animado com o potencial de usar o [!DNL Target] para testar e personalizar. Dependendo da sua organização e do seu foco, você pode considerar seguir uma das três rotas diferentes com essa primeira atividade.
+Portanto, você está pronto para começar com sua primeira atividade no [!DNL Target]? Excelente. Vamos descobrir uma atividade para seu site, site para dispositivos móveis ou aplicativo para dispositivos móveis que não seja muito complexa. Mas pode fornecer um ROI rápido e deixá-lo animado com o potencial de uso [!DNL Target] para testar e personalizar. Dependendo da sua organização e do seu foco, você pode considerar seguir uma das três rotas diferentes com essa primeira atividade.
 
-A chave para sua primeira atividade, no entanto, é estabelecer uma linha de base da métrica de negócios que você está tentando melhorar: receita, click-throughs, envios de formulário, registros concluídos e assim por diante. Em um teste A/B, geralmente é possível usar a experiência ou oferta atual como um &quot;controle&quot; e medir o impacto de uma variante dessa experiência ou oferta em relação a ela. No entanto, com a maioria das atividades de personalização, você determinaria o desempenho da experiência atual antes de lançar uma versão personalizada. Isso permitirá medir o impacto da personalização.
+A chave para sua primeira atividade, no entanto, é estabelecer uma linha de base da métrica de negócios que você está tentando melhorar — receita, click-throughs, envios de formulário, registros concluídos e assim por diante. Em um teste A/B, geralmente é possível usar a experiência ou oferta atual como um &quot;controle&quot; e medir o impacto de uma variante dessa experiência ou oferta em relação a ela. No entanto, com a maioria das atividades de personalização, você preferiria determinar o desempenho da experiência atual antes de lançar uma versão personalizada. Isso permitirá medir o impacto da personalização.
 
 ## Rota 1: Teste A/B para todo o tráfego de visitantes
 
-Você pode configurar uma atividade básica de [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md) na qual você testa uma variação de uma oferta ou experiência em relação a uma ou mais variações para ver quais deles os seus visitantes preferem. Se estiver procurando apenas a variante vencedora, você pode optar pela IA para obter resultados mais rápidos selecionando [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) na segunda etapa do fluxo de trabalho de configuração do teste A/B.
+Você pode configurar uma atividade básica de [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md) na qual você testa uma variação de uma oferta ou experiência em relação a uma ou mais variações para ver quais deles os seus visitantes preferem. Se você estiver procurando apenas a variante vencedora, é possível aproveitar a IA para obter resultados mais rápidos ao selecionar [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) na segunda etapa do fluxo de trabalho de configuração do teste A/B.
 
 Exemplo: uma empresa de mídia testa sua cópia atual para uma oferta de assinatura de presente em sua página inicial da web ou site móvel para ver qual variação faz com que mais visitantes comprem uma assinatura de presente. Se eles selecionarem Alocação automática, a atividade mandará mais tráfego para a variante vencedora conforme o teste for executado. Caso contrário, ele aguardará que você coloque manualmente a experiência vencedora em funcionamento após a conclusão do teste.
 
@@ -43,15 +43,15 @@ Aqui estão apenas algumas maneiras de criar essas ideias de atividade que são 
 
 * **Use o que você conhece.** Talvez você já conheça bem seus clientes e tenha uma boa noção do que vai repercutir bem com eles. Use-o para desenvolver experiências personalizadas.
 * **Use sua solução analítica.** Procure locais em seu site onde os clientes abandonaram um fluxo de compra ou rejeitaram uma página. Revise as páginas e faça uma hipótese sobre o que pode estar fazendo com que elas saiam antes de executar a ação desejada.
-* **Use seus poderes de observação.** Analise algumas páginas principais em seu site e use seu instinto para identificar coisas que precisam ser melhoradas. Talvez a página de detalhes do produto esteja cheia de texto e poluída, então simplifique-a. Talvez seja difícil encontrar um botão de compra, portanto, mova-o para um local mais visível.
-* **Analise seus concorrentes.** Uma olhada rápida nos sites dos concorrentes pode revelar designs, ofertas, cópias e outros elementos que você acredita serem altamente eficazes na obtenção de resultados comerciais. Considere maneiras de experimentar essas abordagens no seu site.
+* **Use seus poderes de observação.** Analise algumas páginas principais em seu site e use seu instinto para identificar coisas que precisam ser melhoradas. Talvez uma página de detalhes do produto muito cheia e muito falada, por isso simplifique-a. Talvez seja difícil encontrar um botão de compra, portanto, mova-o para um local mais visível.
+* **Analise seus concorrentes.** Uma revisão rápida dos sites de seus concorrentes pode revelar designs, ofertas, cópias e outros elementos que você acredita serem altamente eficazes na obtenção de resultados comerciais. Considere maneiras de experimentar essas abordagens no seu site.
 * **Aproveite o feedback do cliente.** Seus clientes podem ter dado ideias a você de como melhorar a experiência por meio de uma pesquisa online ou chamada ao atendimento ao cliente. Identifique um ponto problemático que vários mencionaram e crie uma experiência que possa eliminá-lo.
 
 Conforme você apresenta a ideia de teste, lembre-se de que deve ser capaz de explicar, de preferência com dados, por que você acha que a ideia de teste proposta pode melhorar a experiência do cliente e as métricas que são importantes para a empresa.
 
 ## Planejamento da atividade com o Planejador de atividades
 
-Incluímos o [Planejador do Adobe Target Activity](/help/main/assets/activity-planner.pdf) como um PDF independente que pode ser salvo e usado repetidamente. Clique no link para visualizar o arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
+Incluímos o [Planejador de atividade do Adobe Target](/help/main/assets/activity-planner.pdf) como um PDF independente que pode ser salvo e usado repetidamente. Clique no link para visualizar o arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
 
 Para executar uma atividade eficaz, você precisa preencher cada área do planejador. Use essa ferramenta enquanto você e outras pessoas discutem ideias para atividades de teste e personalização.
 
@@ -77,7 +77,7 @@ Em um teste A/B com uma experiência de controle e uma variante, por exemplo, vo
 
 ### Quais são as métricas principais para medir o impacto da atividade?
 
-Descreva as métricas de negócios que você usará como indicador do sucesso da sua atividade. Por exemplo, maior receita por visitante (RPV), taxa de conversão ou valor médio de pedido (AOV). Quanto mais você vincular o impacto aos resultados financeiros da empresa, melhor. Portanto, se você puder vincular o impacto à receita, será o ideal.
+Descreva as métricas de negócios que você usará como indicador do sucesso da sua atividade. Por exemplo, maior receita por visitante (RPV), taxa de conversão ou valor médio de pedido (AOV). Quanto mais você puder vincular o impacto ao resultado final dos negócios, melhor, para que você possa vincular o impacto à receita, isso é ideal.
 
 ### Quais são as métricas secundárias para medir o impacto da atividade?
 
@@ -85,13 +85,13 @@ Descreva as métricas de negócios que você usará como indicador do sucesso da
 
 ### Quais recursos/equipes precisam estar envolvidos?
 
-Se sua atividade exigir um assistente de um designer, um desenvolvedor da Web ou um analista de dados, documente isso aqui, explicando o que eles precisarão fazer como parte da atividade.
+Se sua atividade exigir o assistente de um designer, um desenvolvedor da Web ou um analista de dados, documente isso aqui, explicando o que eles precisarão fazer como parte da atividade.
 
 ### Se estiver executando um teste, por quanto tempo esse teste precisa ser executado para atingir importância?
 
 Você precisa de um determinado número de visitantes para ser colocado na população de teste para tirar uma conclusão estatisticamente significativa do teste. Pense nisso, se apenas duas pessoas participarem do seu teste, você terá confiança nos resultados?
 
-O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. O [calculador de tamanho de amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) da Adobe ajuda a determinar o período para executar um teste com base na confiança necessária em seus resultados. Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
+O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. O [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) O ajuda a determinar a duração para executar um teste com base na confiança necessária nos resultados. Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
 
 ### Qual é a importância dessa atividade?
 
@@ -107,4 +107,4 @@ Os resultados da atividade geralmente fornecem insights das ações que você de
 
 ## Abrir o [!DNL Target], criar e iniciar a atividade
 
-Você preencheu o Planejador de atividades. Agora é hora de entrar na solução e criar sua atividade. O [!DNL Target]facilita a modificação da página da Web no [!UICONTROL Visual Experience Composer].
+Você preencheu seu Planejador de atividades. Agora é hora de entrar na solução e criar sua atividade. O [!DNL Target]facilita a modificação da página da Web no [!UICONTROL Visual Experience Composer].

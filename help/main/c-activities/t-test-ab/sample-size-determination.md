@@ -4,10 +4,10 @@ description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-suce
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 58%
+source-wordcount: '3088'
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ Para obter mais informações, consulte [Visão geral da alocação automática]
 
 Se você optar por usar um [!UICONTROL Teste A/B] em vez de [!UICONTROL Alocação automática], o [!DNL Target] A Calculadora de tamanho de amostra ajuda a determinar o tamanho de amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, então a calculadora é útil. Uso da calculadora para um [!UICONTROL Alocação automática] atividade é opcional porque [!UICONTROL Alocação automática] declara um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho da amostra necessário. Continue a let para obter mais informações sobre como usar a calculadora.
 
-Antes de configurar o teste A/B, acesse a Adobe Target [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR).
+Antes de configurar o teste A/B, acesse o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Calculadora de tamanho da amostra do Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ Há cinco parâmetros estabelecidos pelo usuário que definem um teste A/B. Esse
 
 >[!IMPORTANT]
 >
->Para obter resultados precisos, você deve recarregar a página antes de alterar qualquer número de parâmetro.
-
+>Para obter resultados precisos, você deve recarregar a página antes de alterar qualquer número de parâmetro. Repita esse processo sempre que alterar qualquer número de parâmetro.
 
 Para um teste A/B, a significância estatística, a potência estatística, o aumento mínimo detectável de confiabilidade e a taxa de conversão da linha de base são definidos pelo analista e, em seguida, o número necessário de visitantes é calculado com base nesses números. Este artigo discute esses elementos e fornece diretrizes sobre como determinar essas métricas para um teste específico.
 

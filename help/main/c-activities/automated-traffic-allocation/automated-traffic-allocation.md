@@ -4,9 +4,9 @@ description: Saiba como usar uma atividade de alocação automática no Adobe [!
 title: O que é uma atividade de alocação automática?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3565'
 ht-degree: 50%
 
 ---
@@ -173,7 +173,10 @@ Atualmente, a lógica favorece visitantes que convertem rapidamente ou visitam c
 
 ### Posso usar a calculadora de tamanho de amostra ao usar [!UICONTROL Alocação automática] para estimar quanto tempo a atividade leva para identificar o vencedor?
 
-Você pode usar o [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) para obter uma estimativa de quanto tempo o teste será executado. (Assim como em testes A/B tradicionais, aplique a correção de Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica/hipótese de conversão.) Essa calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. Uso da calculadora para um [!UICONTROL Alocação automática] atividade é opcional porque [!UICONTROL Alocação automática] declara um vencedor para você. Você não precisa escolher um ponto fixo no tempo para ver os resultados do teste. Os valores fornecidos são sempre estatisticamente válidos. Em nossos experimentos, encontramos o seguinte:
+Você pode usar o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para obter uma estimativa de quanto tempo o teste será executado. (Assim como em testes A/B tradicionais, aplique a correção de Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica/hipótese de conversão.) Essa calculadora foi projetada para o tradicional teste A/B de horizonte fixo e fornece apenas uma estimativa. Uso da calculadora para um [!UICONTROL Alocação automática] atividade é opcional porque [!UICONTROL Alocação automática] declara um vencedor para você. Você não precisa escolher um ponto fixo no tempo para ver os resultados do teste. Os valores fornecidos são sempre estatisticamente válidos.
+
+Em nossos experimentos, encontramos o seguinte:
+
 * Ao testar exatamente duas experiências, [!UICONTROL Alocação automática] encontra um vencedor mais rapidamente do que o teste de horizonte fixo (ou seja, o período sugerido pela calculadora de tamanho de amostra) quando a diferença de desempenho entre experiências é grande. No entanto, [!UICONTROL Alocação automática] pode exigir mais tempo para identificar um vencedor quando a diferença de desempenho entre as experiências é pequena. Nesses casos, os testes com horizonte fixo teriam normalmente terminado sem um resultado estatisticamente significativo.
 * Ao testar mais de duas experiências, [!UICONTROL Alocação automática] encontra um vencedor mais rapidamente do que um teste de horizonte fixo (ou seja, o período sugerido pela calculadora de tamanho de amostra) quando uma única experiência executa fortemente todas as outras experiências. Quando duas ou mais experiências estão &quot;vencendo&quot; em relação a outras experiências, mas estão estreitamente relacionadas entre si, [!UICONTROL Alocação automática] pode exigir mais tempo para determinar qual é superior. Nesses casos, os testes de horizonte fixo tipicamente teriam terminado ao concluir que as experiências &quot;vencedoras&quot; eram melhores do que as experiências de desempenho mais baixo, mas não identificaram qual era superior.
 
