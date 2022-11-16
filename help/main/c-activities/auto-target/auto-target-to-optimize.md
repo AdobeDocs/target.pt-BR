@@ -4,14 +4,14 @@ description: Saiba como uma atividade de Direcionamento automático no [!DNL Tar
 title: O que é uma atividade de direcionamento automático?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Visão geral do direcionamento automático
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Direcionamento automático] visão geral
 
 [!UICONTROL Direcionamento automático] atividades em [!DNL Adobe Target] use aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado para personalizar o conteúdo e gerar conversões. O Direcionamento automático veicula a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 
@@ -46,7 +46,7 @@ Ao contrário de uma atividade A/B na qual a alocação de experiência para um 
 Há algumas considerações importantes que você deve ter em mente ao usar [!UICONTROL Direcionamento automático]:
 
 * Não é possível alternar uma atividade específica de [!UICONTROL Direcionamento automático] à Automated Personalization e vice-versa.
-* Não é possível alternar de Alocação de tráfego Manual (Teste A/B tradicional) para [!UICONTROL Direcionamento automático]e vice-versa depois que uma atividade é ativa.
+* Não é possível alternar de Alocação de tráfego Manual (Teste A/B tradicional) para [!UICONTROL Direcionamento automático]e vice-versa depois que uma atividade é salva como rascunho.
 * Um modelo é criado para identificar o desempenho da estratégia personalizada vs. tráfego distribuído aleatoriamente vs. enviar todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
 
    O tráfego de um segundo conjunto de modelos é criado para cada grupo de modelagem (AP) ou experiência (AT). Para cada um desses modelos, as ocorrências e conversões em todos os ambientes são consideradas.
