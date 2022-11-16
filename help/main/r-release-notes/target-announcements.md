@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 100%
+source-wordcount: '1990'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,22 @@ Anúncios e informações sobre eventos futuros do [!DNL Adobe Target], incluind
 A Gartner nomeou o [!DNL Adobe Target] como líder no último Magic Quadrant for Personalization Engines (PE) pelo quinto ano consecutivo. A [!DNL Adobe] também recebeu pontuações máximas e aumentos significativos de ano para ano em todos os três casos de uso principais: Marketing digital, Comércio digital e Serviço e suporte. O [!DNL Target] recebeu as pontuações mais altas por seus recursos de teste entre todos os fornecedores avaliados.
 
 Para obter mais informações, consulte a [publicação no blog da Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## Sessão de Perguntas e respostas da comunidade do [!DNL Adobe Target] (29 de novembro)
+
+* **terça-feira, 29 de novembro de 2022**
+* **8:00 às 9:00 (PST GMT-8)**
+* **[Informações de inscrição](https://adobe.ly/3UtQoxv){target=_blank}**
+
+Nós seremos unidos por Cristinel Anastasoaie, gerente sênior de produtos para [!DNL Adobe Target], que responderá às suas perguntas relacionadas ao [!DNL Adobe Target] webinar em [Personalização orientada por IA e Recommendations](#AI).
+
+Certifique-se de revisar a gravação do webinário e, em seguida, trazer suas perguntas de acompanhamento para obter insights abrangentes, explicações mais profundas e sugestões estratégicas para seus casos de uso únicos.
+
+* Otimizar recomendações em tempo real, atividades de personalização com um clique e ofertas automatizadas
+* Crie e inicie atividades de personalização orientadas por AI usando o [!UICONTROL Visual Experience Composer] (VEC)
+* Integrar com [!DNL Adobe Experience Platform] (AEP) para compartilhamento de segmento e atributo de perfil em tempo real
+
+[!DNL Adobe] Simon Chen, engenheiro de suporte técnico, fornecerá informações e respostas adicionais para suas perguntas.
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
@@ -52,7 +68,7 @@ Estamos felizes em compartilhar grandes e inovadoras notícias sobre a personali
 
 +++
 
-### Construtores de habilidades do [!DNL Adobe Target] - Personalização orientada por IA e recomendações (15 de setembro de 2022)
+### Construtores de habilidades do [!DNL Adobe Target] - Personalização orientada por IA e recomendações (15 de setembro de 2022) {#AI}
 
 A automação da experimentação e personalização continua a impulsionar as maiores conversões e o ROI para equipes de marketing, engenharia e produtos. Junte-se à sessão Construtores de habilidades da [!DNL Adobe] e saiba como usar os casos de uso avançados orientados por IA do [!DNL Adobe Target] e recursos com recomendações de produto e conteúdo para manter-se à frente da concorrência e vencer em todas as experiências.
 
