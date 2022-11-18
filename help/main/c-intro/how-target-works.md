@@ -5,9 +5,9 @@ title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    O [!DNL Adobe] continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, a [!DNL Adobe] está confiante de que a implementação adequada das tags canônicas diminui o risco associado a essa abordagem.
 
-* **Execute experimentos somente enquanto for necessário**: a [!DNL Adobe] acredita que “conforme necessário” é o quanto for necessário para atingir significância estatística. [!DNL Target] fornece as práticas recomendadas e a [!DNL Adobe Target] [Calculadora de tamanho da amostra] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para determinar quando seu teste atingiu este ponto. A [!DNL Adobe] recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Execute experimentos somente enquanto for necessário**: a [!DNL Adobe] acredita que “conforme necessário” é o quanto for necessário para atingir significância estatística. O [!DNL Target] fornece práticas recomendadas e a [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) do [!DNL Adobe Target] para determinar quando seu teste atingiu esse ponto. A [!DNL Adobe] recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
    A utilização da plataforma [!DNL Target] para “publicar” testes vencedores não é recomendada como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários em 100% das vezes, essa abordagem poderá ser usada enquanto o processo de codificação rígida do teste vencedor for concluído.
 
