@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
 source-wordcount: '1615'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,10 +20,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 16 de novembro | [Anúncios e eventos do Adobe Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações de registro para o seguinte evento:<ul><li>[!DNL Adobe Target] Quebra do café de Perguntas e Respostas da Comunidade (29 de novembro)</li></ul> |
-| 8 de novembro | [Por quanto tempo você deve executar um teste A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Adição de uma observação importante de que, para obter resultados precisos, você deve recarregar a página antes de alterar qualquer número de parâmetro na variável [!DNL Adobe Target] [!UICONTROL Calculadora de tamanho da amostra]. Também adicionou uma observação no [calculadora](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){target=_blank}. |
-|  | [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Atualização da descrição do `adobe_mc_sdid` na tabela. |
-|  | [Atividades de solução de problemas](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Nova seção adicionada: &quot;Após a conversão da atividade, o visitante não está em nenhuma experiência.&quot; |
-|  | [Parâmetros personalizados](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Foi adicionada uma observação informando que a mbox selecionada na variável [!UICONTROL Filtrar por] a lista suspensa não é salva na criação da atividade. Essa opção permite filtrar os parâmetros com base na mbox selecionada. |
+| 8 de novembro | [Por quanto tempo você deve executar um teste A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Foi adicionada uma observação importante de que, para obter resultados precisos, você deve recarregar a página antes de alterar qualquer valor de parâmetro na [!UICONTROL Calculadora de tamanho da amostra] do [!DNL Adobe Target]. Também foi adicionada uma observação na [calculadora](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) real{target=_blank}. |
+|  | [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Atualização da descrição do parâmetro `adobe_mc_sdid` na tabela. |
+|  | [Atividades de solução de problemas](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Nova seção adicionada: “Após a conversão da atividade, o visitante não está em nenhuma experiência”. |
+|  | [Parâmetros personalizados](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Foi adicionada uma observação informando que a mbox selecionada na lista suspensa [!UICONTROL Filtrar por] não é salva ao criar a atividade. Essa opção permite filtrar os parâmetros com base na mbox selecionada. |
 | 2 de novembro | Problemas conhecidos e problemas resolvidos | A página foi removida e os problemas relevantes foram realocados para as páginas apropriadas para que as informações estivessem no contexto. |
 | 25 de outubro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.10.3 do [!DNL Target Standard/Premium]. |
 | 19 de outubro | [Afinidade de categorias](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Adição de uma observação que explica sobre a pontuação quando várias categorias são transmitidas em uma única chamada de mbox. |
