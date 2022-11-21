@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
+source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1608'
 ht-degree: 98%
 
 ---
@@ -129,10 +129,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 28 de janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 2.8.1 da at.js. |
 |  | [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Adição de informações sobre a versão 2.8.1 da at.js. |
 | 27 de Janeiro | [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Tópico atualizado e informações adicionadas sobre o [!DNL AEM as a Cloud Service] e o [!DNL Adobe I/0]. |
-| 26 de Janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.1.2 do Target Standard/Premium. |
+| 26 de Janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.1.2 do [!DNL Target Standard/Premium]. |
 |  | [Criar públicos-alvo](/help/main/c-target/c-audiences/audiences.md) | Adição de informações sobre públicos-alvo da [!DNL Adobe Experience Platform]. |
 |  | [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md) | Adição de informações sobre públicos-alvo da [!DNL Adobe Experience Platform]. |
 | 21 de Janeiro | [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Adição de informações sobre a versão 1.8.3 da at.js. |
 | 19 de janeiro | [Atualização da at.js 1.*x* para a at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Adição da seguinte seção: “A at.js 2.*x* não oferece suporte à criação de públicos-alvo usando parâmetros de vst.*” |
-| 12 de janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.1.1 do Target Standard/Premium. |
+| 12 de janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 22.1.1 do [!DNL Target Standard/Premium]. |
 |  | [SDK da Web da Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Link adicionado ao tutorial com instruções para implementar a [!DNL Adobe Experience Cloud] com o SDK da Web. |
