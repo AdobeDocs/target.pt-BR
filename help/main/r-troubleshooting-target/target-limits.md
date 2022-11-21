@@ -5,9 +5,9 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1346'
 ht-degree: 97%
 
 ---
@@ -271,7 +271,7 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 * **Limite recomendado**: 2.000 caracteres.
 
-   Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no Adobe Target.
+   Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no [!DNL Adobe Target].
 
 ## Perfis de script
 
