@@ -4,10 +4,10 @@ description: Saiba mais sobre os requisitos de implementação do Analytics para
 title: O que devo saber antes de implementar o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 28%
+source-wordcount: '995'
+ht-degree: 29%
 
 ---
 
@@ -25,7 +25,7 @@ Antes de decidir usar essa integração, revise as seguintes seções e consider
 
 >[!IMPORTANT]
 >
->Antes de começar a usar A4T, você deve solicitar que sua conta seja provisionada para a integração. Use o [Formulário de provisionamento de Integrações do Marketing Cloud](https://www.adobe.com/go/audiences) para solicitar o provisionamento.
+>Antes de começar a usar A4T, você deve solicitar que sua conta seja provisionada para a integração. Use o [Formulário de provisionamento de Integrações do Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} para solicitar o provisionamento.
 
 Esta integração do A4T requer que você implemente as seguintes versões de biblioteca (ou mais recentes), dependendo se deseja ou não usar ofertas de redirecionamento com o A4T.
 
@@ -97,7 +97,7 @@ Há casos em que você precisa ter mais controle sobre quando e como enviar dado
 
 ## Públicos-alvo compartilhados
 
-Ao preencher o [Formulário de provisionamento de Integrações do Marketing Cloud](https://www.adobe.com/go/audiences), esteja ciente das seguintes informações importantes sobre a [!UICONTROL Públicos-alvo compartilhados] opção listada em &quot;[!UICONTROL Para quais recursos você está solicitando provisionamento]?&quot;
+Ao preencher o [Formulário de provisionamento de Integrações do Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, esteja ciente das seguintes informações importantes sobre o [!UICONTROL Públicos-alvo compartilhados] opção listada em &quot;[!UICONTROL Para quais recursos você está solicitando provisionamento]?&quot;
 
 ![Formulário de solicitação](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
