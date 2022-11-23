@@ -4,9 +4,9 @@ description: Siga as etapas necessárias para implementar o Analytics para [!DNL
 title: Como implementar o Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1162'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ As seções a seguir descrevem as etapas necessárias para implantar essa integr
 
 ### Etapa 1: Solicitar provisionamento para [!DNL Analytics] e [!DNL Target]
 
-Antes de implementar o A4T, você deve ser provisionado para [!DNL Analytics] e [!DNL Target]. [Use este formulário para solicitar o aprovisionamento](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+Antes de implementar o A4T, você deve ser provisionado para [!DNL Analytics] e [!DNL Target]. [Use este formulário para solicitar o aprovisionamento](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### Etapa 2: Configurar permissões do usuário
 
