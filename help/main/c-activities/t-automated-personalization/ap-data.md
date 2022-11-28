@@ -4,9 +4,9 @@ description: Saiba qual Adobe de dados [!DNL Target] O coleta e usa o para criar
 title: Quais dados são coletados para criar algoritmos de aprendizado de máquina?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2029'
 ht-degree: 49%
 
 ---
@@ -48,9 +48,7 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados pelo [!UICON
 
 Os recursos podem ser bloqueados de [!DNL Target] algoritmos de aprendizado automatizado, impedindo que sejam usados em [!UICONTROL Direcionamento automático] ou [!UICONTROL Automated Personalization] modelo ou atividade.
 
-Para bloquear uma categoria de recursos do [!DNL Target] algoritmos de aprendizado automatizado, contato [Atendimento ao cliente do Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) e especifique as categorias de recursos que deseja bloquear, usando o(s) Prefixo(s) do sistema fornecido(s) acima.
-
-Para bloquear um ou mais recursos específicos do [!DNL Target] algoritmos de aprendizado automatizado, contato [Atendimento ao cliente do Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) e especifique os nomes de recursos específicos que devem ser bloqueados, usando os nomes de sistema fornecidos abaixo. As seções a seguir contêm informações detalhadas sobre os vários tipos de dados, incluindo nomes de atributos, descrições e valores de amostra.
+Para obter mais informações, consulte [Visão geral da API de modelos (Incluir na lista de bloqueios)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} na *Guia do desenvolvedor do Adobe Target*.
 
 ## Dispositivo e dados móveis {#device-mobile}
 

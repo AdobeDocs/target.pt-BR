@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 98%
+source-wordcount: '1681'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 28 de novembro | [Visão geral da API de modelos (Incluir na lista de bloqueios)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} na *Guia do desenvolvedor do Adobe Target*. | Nova API de modelos.<br>Os recursos podem ser bloqueados de [!DNL Target] algoritmos de aprendizado automatizado, impedindo que sejam usados em [!UICONTROL Direcionamento automático] ou [!UICONTROL Automated Personalization] modelo ou atividade. |
 | 23 de novembro | [Antes de implementar o Analytics for Target (A4T) com a at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Atualização do link para a [Formulário de provisionamento de Integrações do Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 de novembro | [Anúncios e eventos do Adobe Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações de inscrição para o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de perguntas e respostas da comunidade (29 de novembro)</li></ul> |
 | 8 de novembro | [Por quanto tempo você deve executar um teste A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Foi adicionada uma observação importante de que, para obter resultados precisos, você deve recarregar a página antes de alterar qualquer valor de parâmetro na [!UICONTROL Calculadora de tamanho da amostra] do [!DNL Adobe Target]. Também foi adicionada uma observação na [calculadora](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) real{target=_blank}. |
