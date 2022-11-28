@@ -4,7 +4,7 @@ description: Saiba qual Adobe de dados [!DNL Target] O coleta e usa o para criar
 title: Quais dados são coletados para criar algoritmos de aprendizado de máquina?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 49%
@@ -48,7 +48,7 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados pelo [!UICON
 
 Os recursos podem ser bloqueados de [!DNL Target] algoritmos de aprendizado automatizado, impedindo que sejam usados em [!UICONTROL Direcionamento automático] ou [!UICONTROL Automated Personalization] modelo ou atividade.
 
-Para obter mais informações, consulte [Visão geral da API de modelos (Incluir na lista de bloqueios)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} na *Guia do desenvolvedor do Adobe Target*.
+Para obter mais informações, consulte [Visão geral da API de modelos (Incluir na lista de bloqueios)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} na *Guia do desenvolvedor do Adobe Target*.
 
 ## Dispositivo e dados móveis {#device-mobile}
 
