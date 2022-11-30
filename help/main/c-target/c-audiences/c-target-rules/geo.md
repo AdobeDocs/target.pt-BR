@@ -5,10 +5,10 @@ title: Posso definir metas para visitantes com base na localização?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 50%
+source-wordcount: '1041'
+ht-degree: 41%
 
 ---
 
@@ -35,7 +35,7 @@ Os parâmetros de localização geográfica permitem definir atividades e experi
    * [!UICONTROL DMA]
    * [!UICONTROL Operadora de celular]
 
-   O endereço IP de um visitante é transmitido com uma solicitação de mbox, uma vez por visita (sessão), para resolver parâmetros de geolocalização para esse visitante.
+   As informações geográficas de um visitante são determinadas a partir do endereço IP de origem de um [!DNL Target] solicitação de localização (solicitação de mbox). A resolução IP para geo é feita para a primeira chamada de uma nova sessão. Isso significa que, se o endereço IP de um visitante mudar no meio da sessão de uma visita, as informações geográficas ainda serão baseadas no endereço IP da primeira chamada.
 
    Para [!UICONTROL Operadora de celular], [!DNL Target] O usa os dados de registro do endereço IP (proprietários do bloco de endereços IP) para determinar a operadora de celular apropriada usando [Códigos de países móveis (MCC) e Códigos de rede móveis (MNC)](https://www.mcc-mnc.com).
 
@@ -49,7 +49,7 @@ A ilustração a seguir mostra um público-alvo que direciona os usuários que a
 
 ## Precisão {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando um visitante estiver usando uma conexão de dados de celular, a precisão da geolocalização pode ser afetada pelo local, relacionamento de dados da operadora com [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, o endereço IP de um visitante pode ser mapeado para o local ISP do visitante, que pode não ser o mesmo que o local real do visitante. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da variável [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando um visitante estiver usando uma conexão de dados de celular, a precisão da geolocalização pode ser afetada pelo local, relacionamento de dados do provedor com [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, o endereço IP de um visitante pode ser mapeado para o local ISP do visitante, que pode não ser o mesmo que o local real do visitante. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da variável [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 A tabela a seguir mostra a precisão das informações geográficas baseadas em IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexões de Internet com fuio ou Wi-Fi. A DigitalEnvoy oferece os dados mais precisos do setor. A precisão global é de mais de 99,9% em nível nacional e de até 97% em nível municipal. As informações de precisão não se aplicam a redes baseadas em torre de celular.
 
@@ -110,21 +110,29 @@ As seguintes perguntas são frequentes sobre geolocalização:
 
 ### Como especifico a latitude e a longitude?
 
++++Ver detalhes
 * O valor de latitude e longitude deve ser um valor numérico em graus.
 * O valor para latitude e longitude pode ter uma precisão máxima de cinco casas decimais.
 * O valor de latitude deve estar entre -90 e 90.
 * O valor de longitude deve estar entre -180 e 180.
 
++++
+
 ### Como a geolocalização funciona em dispositivos móveis?
 
-A maioria dos usuários de dispositivos móveis acessa o conteúdo via WiFi, o que significa [!DNL Target]O direcionamento geográfico baseado em IP do é tão preciso quanto em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da variável [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++Ver detalhes A maioria dos usuários de dispositivos móveis acessa o conteúdo via WiFi, o que significa [!DNL Target]O direcionamento geográfico baseado em IP do é tão preciso quanto em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da variável [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+
++++
 
 ### Como o recurso geográfico trata visitantes da AOL?
 
-Devido ao modo como a AOL faz o proxy de seu tráfego, [!DNL Target] só podem direcioná-los a um nível de país. Por exemplo, uma campanha direcionada para a França é bem-sucedida para usuários da AOL na França. Mas uma campanha direcionada a Paris não tem sucesso para usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como &quot;aol.&quot; Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos &quot;estados unidos&quot; e a região corresponde à &quot;aol.&quot;
++++Veja os detalhes devido à maneira como a AOL cria proxy de seu tráfego, [!DNL Target] só podem direcioná-los a um nível de país. Por exemplo, uma campanha direcionada para a França é bem-sucedida para usuários da AOL na França. Mas uma campanha direcionada a Paris não tem sucesso para usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como &quot;aol.&quot; Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos &quot;estados unidos&quot; e a região corresponde à &quot;aol.&quot;
+
++++
 
 ### Que nível de granularidade de localidade é fornecido pelo geolocalização?
 
++++Ver detalhes
 * País - global
 * Estado/município/região - global
 * Cidade - global
@@ -132,8 +140,11 @@ Devido ao modo como a AOL faz o proxy de seu tráfego, [!DNL Target] só podem d
 * DMA/ITV (Reino Unido) - EUA, Reino Unido
 * Operadora de celular - global
 
++++
+
 ### Como posso testar minhas atividades se sou um usuário proveniente de uma localidade diferente?
 
++++Ver detalhes
 * **at.js 1.*x***: Você pode substituir seu endereço IP por um endereço IP de um local diferente e usar o `mboxOverride.browserIp url` parâmetro. Por exemplo, se sua empresa está no Reino Unido, mas sua campanha global é direcionada a visitantes em Auckland, Nova Zelândia, utilize o estilo de URL a seguir, assumindo que `60.234.0.39` é um endereço IP em Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -146,13 +157,19 @@ Devido ao modo como a AOL faz o proxy de seu tráfego, [!DNL Target] só podem d
 
 * **at.js 2.*x***: Para substituir seu endereço IP por at.js 2.*x*, instale uma extensão/plug-in do navegador (como X-Forwarded-For Header for Chrome ou Firefox). Essa extensão permite passar o cabeçalho x-encaminhado-for nas solicitações de página.
 
++++
+
 ### Como os territórios, por exemplo, Porto Rico e Hong Kong, são mapeados na estrutura de geolocalização?
 
-Porto Rico, Hong Konge outros territórios são tratados como valores de &quot;País&quot; separados.
++++Veja os detalhes Porto Rico, Hong Kong e outros territórios são tratados como valores de &quot;País&quot; separados.
+
++++
 
 ### Does [!DNL Target] capturar (e armazenar) informações como o CEP quando a atividade é direcionada com recursos de direcionamento por localização geográfica?
 
-Não, [!DNL Target] O usa dados geográficos somente durante a sessão e, em seguida, os dados são descartados.
++++Ver detalhes n.o, [!DNL Target] O usa dados geográficos somente durante a sessão e, em seguida, os dados são descartados.
+
++++
 
 ## Vídeo de treinamento: Criação de públicos-alvo ![Selo do tutorial](/help/main/assets/tutorial.png)
 
