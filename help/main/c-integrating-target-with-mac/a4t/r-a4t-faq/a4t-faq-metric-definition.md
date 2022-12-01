@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas sobre definições de métricas e
 title: Onde posso encontrar informações sobre definições de métricas com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 38%
+source-wordcount: '377'
+ht-degree: 29%
 
 ---
 
@@ -17,11 +17,13 @@ Este tópico contém respostas para as perguntas mais frequentes sobre definiç�
 
 ## Qual é a expiração para a associação de atividades? Quanto tempo depois que os visitantes entram na atividade, suas ações são contadas na atividade se não a virem novamente? {#section_41B4958F33534E4B96DEE0C981227A79}
 
-A expiração padrão para a atividade é de 90 dias após a última interação do visitante com a atividade. Essa configuração pode ser ajustada pelo ClientCare, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
++++Resposta A expiração padrão para a atividade é de 90 dias após a última interação do visitante com a atividade. Essa configuração pode ser ajustada pelo ClientCare, se necessário. Essa configuração é global para todas as atividades, no entanto, não deve ser ajustada para um caso.
+
++++
 
 ## Ao configurar minhas métricas de meta, por que não posso acessar as opções de Configurações avançadas? {#adv-settings}
 
-O [!UICONTROL Configurações avançadas] não estão disponíveis para atividades que usam [!DNL Analytics] como fonte de geração de relatórios (A4T).
++++Responda O [!UICONTROL Configurações avançadas] não estão disponíveis para atividades que usam [!DNL Analytics] como fonte de geração de relatórios (A4T).
 
 Para atividades que usam A4T, a métrica de meta sempre usa o &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Essas configurações são *not* configurável.
 
@@ -29,10 +31,16 @@ Para atividades não-A4T, você pode usar o [Opções de configurações avança
 
 ![Configurações avançadas](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
++++
+
 ## O que são métricas calculadas e como elas substituem a mbox SiteCatalyst:Event que eu costumava usar?  {#section_D59F4719E6B94758A2187427C17F8EF3}
 
-As métricas calculadas permitem criar métricas personalizadas que são derivadas de segmentos ou cálculos matemáticos. Anteriormente, quando você pode ter usado a `SiteCatlayst:Event` mbox onde `evar27=shoes` e o evento seria `purchase`, agora você criaria um segmento onde `evar27=shoes` e, em seguida, criaria uma métrica calculada onde o evento é `purchase` com o segmento aplicado. Essas métricas podem ser criadas a qualquer momento, mesmo após a atividade estar em andamento. Elas podem ser usadas em qualquer relatório do Analytics.
++++Resposta As métricas calculadas permitem criar métricas personalizadas que são derivadas de segmentos ou cálculos matemáticos. Anteriormente, quando você pode ter usado a `SiteCatlayst:Event` mbox onde `evar27=shoes` e o evento seria `purchase`, agora você criaria um segmento onde `evar27=shoes` e, em seguida, criaria uma métrica calculada onde o evento é `purchase` com o segmento aplicado. Essas métricas podem ser criadas a qualquer momento, mesmo após a atividade estar em andamento. Elas podem ser usadas em qualquer relatório do Analytics.
+
++++
 
 ## O A4T atribui conversões a várias campanhas?  {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Sim, usando a configuração &quot;Alocação completa&quot;.
++++Responda Sim, usando a configuração &quot;Alocação completa&quot;.
+
++++

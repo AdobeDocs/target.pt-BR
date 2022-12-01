@@ -4,9 +4,9 @@ description: Encontre respostas para perguntas sobre a configuração da ativida
 title: Onde posso encontrar perguntas frequentes sobre as configurações de atividade com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: a623f2563516b5250e67728b0bed4c935c4979a4
+source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '571'
 ht-degree: 18%
 
 ---
@@ -17,13 +17,13 @@ Este tópico contém respostas para as perguntas mais frequentes sobre a configu
 
 ## Quais tipos de atividade são compatíveis com o Analytics como fonte de geração de relatórios (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-+++Mais detalhes Para obter uma lista completa, consulte &quot;Tipos de atividades suportadas&quot; em [Adobe Analytics como fonte de relatórios do Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
++++Resposta Para obter uma lista completa, consulte &quot;Tipos de atividade compatíveis&quot; em [Adobe Analytics como fonte de relatórios do Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 +++
 
 ## Ao configurar minhas Métricas de meta, por que não posso acessar as Configurações avançadas?
 
-+++Mais detalhes Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de meta usa o &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Essas configurações são *not* configurável.
++++Resposta para atividades usando [!DNL Analytics] como fonte de relatórios (A4T), a métrica de meta usa o &quot;[!UICONTROL Aumentar a contagem e manter o usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Essas configurações são *not* configurável.
 
 Para obter mais informações, consulte &quot;Ao configurar minhas métricas de meta, por que não posso acessar as opções de Configurações avançadas?&quot; em [Definições de métricas - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -31,13 +31,14 @@ Para obter mais informações, consulte &quot;Ao configurar minhas métricas de 
 
 ## Acabei de criar um atividade. Por que não vejo nenhum dado chegando?  {#section_9F8092BE4225442896F926540292F221}
 
-+++Mais detalhes Ao criar uma atividade, [!DNL Target] envia um arquivo de classificação para [!DNL Analytics]. Embora [!DNL Analytics] estiver capturando e processando os dados, isso não mostra que nos relatórios até que o arquivo de classificação tenha sido atualizado. Esse processo pode levar até 24 horas. Se depois de 48 horas você não visualizar seus dados, [entre em contato com o Atendimento ao Cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, se você souber iniciar uma atividade, poderá criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no [!DNL Analytics].
+
++++Answer Quando uma atividade é criada, [!DNL Target] envia um arquivo de classificação para [!DNL Analytics]. Embora [!DNL Analytics] estiver capturando e processando os dados, isso não mostra que nos relatórios até que o arquivo de classificação tenha sido atualizado. Esse processo pode levar até 24 horas. Se depois de 48 horas você não visualizar seus dados, [entre em contato com o Atendimento ao Cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, se você souber iniciar uma atividade, poderá criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no [!DNL Analytics].
 
 +++
 
 ## Por que não consigo selecionar o Analytics como minha fonte de relatórios quando eu crio uma atividade? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++Mais detalhes Você pode alterar seu [!UICONTROL Configurações da geração de relatórios] opções em [!UICONTROL Administração].
++++Resposta Você pode alterar sua [!UICONTROL Configurações da geração de relatórios] opções em [!UICONTROL Administração].
 
 1. Em [!DNL Target], clique em **[!UICONTROL Administração]**.
 1. Na solução **[!UICONTROL Experience Cloud usada para a lista suspensa de]** relatórios, clique em **[!UICONTROL Selecionar por atividade]**.
@@ -52,7 +53,7 @@ Para sempre usar [!DNL Analytics] como fonte de relatórios, selecione **[!UICON
 
 ## Um visitante pode alternar entre experiências direcionadas e controladas em visitas diferentes em uma atividade de Direcionamento automático que usa o A4T?
 
-+++Mais detalhes O seguinte é verdadeiro, supondo que visitorId não seja alterado para um visitante entre visitas.
++++Resposta O seguinte é verdadeiro, supondo que visitorId não seja alterado para um visitante entre visitas.
 
 Se a porcentagem de alocação de tráfego for ajustada no meio da atividade, é possível que um visitante possa se mover entre as experiências de direcionamento e de controle.
 
@@ -65,6 +66,6 @@ Se as porcentagens não forem ajustadas no meio da atividade, um visitante que i
 
 ## Posso usar um binômio [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma [!UICONTROL Alocação automática] atividade ? {#binomial}
 
-+++Mais detalhes Não é possível usar um [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma [!UICONTROL Alocação automática] atividade . Como solução alternativa, você pode definir um Evento personalizado que atinja o mesmo objetivo e usá-lo como a métrica de meta de otimização.
++++Resposta Não é possível usar um [!DNL Analytics] com um segmento aplicado como a meta de otimização em uma [!UICONTROL Alocação automática] atividade . Como solução alternativa, você pode definir um Evento personalizado que atinja o mesmo objetivo e usá-lo como a métrica de meta de otimização.
 
 +++
