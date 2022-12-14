@@ -4,10 +4,10 @@ description: Saiba como definir configurações de relatório no Adobe Target, i
 title: Como defino as configurações de relatório?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 67%
+source-wordcount: '1959'
+ht-degree: 66%
 
 ---
 
@@ -145,9 +145,14 @@ Selecione a metodologia desejada:
 
 Selecione a experiência de controle para usar o cálculo e comparar o incentivo.
 
-### Ambiente
+### Ambiente {#environment}
 
 Selecione o ambiente (grupo de hosts) a ser usado para o relatório. Para obter mais informações, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>Se sua organização estiver usando [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) para enviar dados de métricas para o [!DNL Target], o ambiente no armazenamento de dados da AEP deve corresponder ao ambiente no [!DNL Target] configurações de relatório.
+
 
 ### Redefinir dados do relatório
 
