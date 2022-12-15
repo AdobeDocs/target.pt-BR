@@ -4,7 +4,7 @@ description: Saiba como usar atributos de perfil para configurar testes no Adobe
 title: Posso Usar Scripts De Perfil Para Testar Atividades Mutuamente Exclusivas?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 74%
@@ -30,7 +30,7 @@ Para classificar visitantes em grupos onde cada um visualiza uma atividade difer
 
 ```javascript
 if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
+    var ran_number = Math.floor(Math.random() * 100); 
     if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
@@ -41,9 +41,9 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))` determina se o atributo de perfil *doisgrupos* está definido para o visitante atual. Se estiver definido, não é necessária mais nenhuma alteração.
 
-* `var ran_number=Math.floor(Math.random() *99)` declara uma nova variável chamada ran_number, define um valor decimal aleatório entre 0 e 1 e, em seguida, multiplica o valor por 99 e arredonda o resultado para baixo, criando um intervalo de 100 (0-99), útil para especificar a porcentagem de visitantes que visualizarão a atividade.
+* `var ran_number=Math.floor(Math.random() *100)` declara uma nova variável chamada ran_number, define um valor decimal aleatório entre 0 e 1 e, em seguida, multiplica o valor por 100 e arredonda o resultado para baixo, criando um intervalo de 100 (0-100), útil para especificar a porcentagem de visitantes que visualizarão a atividade.
 
-* `if (ran_number <= 49)` inicia uma rotina que determina a qual grupo o usuário pertence. Se o resultado for entre 0-49, o visitante é atribuído ao GrupoA. Se o resultado for entre 50-99, o visitante é atribuído ao GrupoB. O grupo determina qual atividade o visitante visualizará.
+* `if (ran_number <= 49)` inicia uma rotina que determina a qual grupo o usuário pertence. Se o resultado for entre 0-49, o visitante é atribuído ao GrupoA. Se o resultado for entre 50-100, o visitante é atribuído ao GrupoB. O grupo determina qual atividade o visitante visualizará.
 
 Depois de criar o atributo de perfil, configure a primeira atividade para direcionar a população desejada, exigindo que o parâmetro do perfil do usuário `user.twogroups` corresponde ao valor especificado para GrupoA.
 
@@ -61,7 +61,7 @@ Por exemplo, para criar quatro grupos, utilize o JavaScript a seguir:
 
 ```javascript
 if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
+    var ran_number = Math.floor​(Math.random() * 100); 
     if (ran_number <= 24) { 
         return 'GroupA'; 
     } else if (ran_number <= 49) { 
@@ -78,17 +78,17 @@ Nesse exemplo, a matemática utilizada para gerar o número aleatório que atrib
 
 Se você criar um número ímpar de grupos ou um número não divisível por 100, você não deve arredondar o número decimal para baixo e criar um número inteiro. Não arredondar o decimal permite especificar intervalos de números não inteiros. Altere a linha a seguir para fazer isso:
 
-`var ran_number=Math.floor(Math.random()*99);`
+`var ran_number=Math.floor(Math.random()*100);`
 
 para:
 
-`var ran_number=Math.random()*99;`
+`var ran_number=Math.random()*100;`
 
 Por exemplo, para atribuir visitantes em três grupos iguais, utilize o código a seguir:
 
 ```javascript
 if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
+    var ran_number = Math.random() * 100; 
     if (ran_number <= 32.33) { 
         return 'GroupA'; 
     } else if (ran_number <= 65.66) { 
