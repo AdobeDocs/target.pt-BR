@@ -4,10 +4,10 @@ description: Saiba como usar grupos de relatórios de ofertas no Adobe [!DNL Tar
 title: Posso usar Grupos de relatórios de oferta nas atividades do Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 38%
+source-wordcount: '868'
+ht-degree: 30%
 
 ---
 
@@ -60,6 +60,14 @@ Para obter informações sobre como segmentar uma oferta para públicos específ
 ## Avisos
 
 * É importante entender que os grupos de relatórios afetam o como [!DNL Target] O constrói seus modelos. Como resultado, [!DNL Adobe] A recomenda usar os grupos de relatórios somente se você planeja substituir ou adicionar novas ofertas enquanto uma atividade está ativa. Se uma nova oferta for introduzida em uma atividade ativa, colocá-la em um grupo com ofertas semelhantes existentes permitirá que a máquina use os dados já coletados para as outras ofertas em seu grupo para saber mais sobre a nova oferta. Você nunca deve colocar todas as ofertas em um único grupo de relatórios.
+
+* As atividades de AP têm combinações de localização + oferta (rótulos de modelos). When [!DNL Target] registra dados em relatórios, [!DNL Target] O considera essas combinações para que fique claro de qual evento (exibição, clique e assim por diante) a oferta veio.
+
+   Por exemplo, uma atividade pode ter vários locais e várias ofertas, que podem se sobrepor. Se um visitante visualizar mais de uma dessas ofertas em locais diferentes, [!DNL Target] registra dados somente para essas ofertas. Se o mesmo visitante clicar em uma oferta posteriormente, [!DNL Target] registra somente um evento dessa combinação (não para todas as combinações).
+
+   Da mesma forma, se o clique vem de um local diferente, que está presente em uma métrica, mas não exibe uma oferta, esse evento é registrado sob a atividade , mas não para qualquer combinação de oferta+localização. Como resultado, essa oferta não aparece no grupo de relatórios da oferta.
+
+   Esse comportamento se deve ao fato de que o clique pode ser feito de uma mbox diferente e não da mbox que serviu a oferta. Por causa disso, a métrica está associada à atividade, mas não à oferta.
 
 ## Exibir ofertas em um grupo de relatórios
 
