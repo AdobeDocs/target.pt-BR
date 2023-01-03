@@ -4,10 +4,10 @@ description: Saiba como usar a linguagem de design de código aberto do Velocity
 title: Como personalizar um design usando o Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 99%
+source-wordcount: '1066'
+ht-degree: 78%
 
 ---
 
@@ -21,22 +21,24 @@ Use a linguagem de design de código aberto do Velocity para personalizar design
 
 Toda a lógica, sintaxe etc. da Velocity podem ser usados para um design de recomendação. Isso quer dizer que é possível criar *para* loops, instruções *se* e outros códigos usando Velocity em vez de JavaScript.
 
-Qualquer variável enviada para o [!DNL Recommendations] na mbox `productPage` ou o upload do CSV podem ser exibidos no design. Esses valores são referenciados com a seguinte sintaxe:
+Atributos da entidade enviados para [!DNL Recommendations] no `productPage` mbox ou o upload de CSV podem ser exibidos em um design, com exceção dos atributos de &quot;vários valores&quot;. Qualquer tipo de atributo pode ser enviado; contudo, [!DNL Target] não transmite atributos do tipo &quot;vários valores&quot; como uma matriz sobre a qual um modelo pode iterar (por exemplo, `entityN.categoriesList`).
+
+Esses valores são referenciados com a seguinte sintaxe:
 
 ```
 $entityN.variable
 ```
 
-Os nomes de variáveis devem seguir a notação taquigrafada da Velocity, que consiste em um caractere inicial *$*, seguido de um identificador da Linguagem do modelo de velocidade (VTL). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
+Os nomes de atributos da entidade devem seguir a notação taquigrafada da Velocity, que consiste em um *$* , seguido por um identificador da Linguagem de modelo da Velocity (VTL). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
 
-Os nomes de variáveis da Velocity estão restritos aos seguintes tipos de caracteres:
+Os nomes de atributos da entidade Velocity estão restritos aos seguintes tipos de caracteres:
 
 * Alfabético (a-z, A-Z)
 * Numérico (0-9)
 * Hífen ( - )
 * Sublinhado ( _ )
 
-As seguintes variáveis estão disponíveis como matrizes do Velocity. Como tal, eles podem ser iterados ou referenciados por meio do índice.
+Os atributos a seguir estão disponíveis como arrays Velocity. Como tal, eles podem ser iterados ou referenciados por meio do índice.
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Para obter mais informações sobre as variáveis da Velocity, consulte [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Para obter mais informações sobre as variáveis do Velocity (atributos), consulte [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Se você usar um script de perfil em seu design, o $ precedente ao nome do script deve ser evitado com um \. Por exemplo, `\${user.script_name}`.
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Se deseja adicionar texto após o valor de uma variável e antes da tag que indica o fim do nome da variável, você pode usar uma notação formal para delimitar o nome da variável. Por exemplo: `${entity1.thumbnailUrl}.gif`.
+>Se desejar adicionar texto após o valor de um atributo antes da conclusão de uma tag que indica que o nome do atributo foi concluído, faça isso usando a notação formal para inserir o nome do atributo. Por exemplo: `${entity1.thumbnailUrl}.gif`.
 
-Também é possível usar `algorithm.name` e `algorithm.dayCount` como variáveis nos designs, assim, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido de forma dinâmica no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar essas variáveis para exibir o `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
+Você também pode usar `algorithm.name` e `algorithm.dayCount` como atributos de entidade nos designs, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido dinamicamente no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar esses atributos para exibir o `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
 
 ## Trabalhar com números em modelos do Velocity
 
 Por padrão, os modelos do Velocity tratam todos os atributos de entidade como valores de sequência. Talvez você queira tratar um atributo de entidade como um valor numérico para executar uma operação matemática ou compará-lo a outro valor numérico. Para tratar um atributo de entidade como um valor numérico, siga estas etapas:
 
 1. Declare uma variável fictícia e inicialize-a em um número inteiro arbitrário ou em um valor duplo.
-1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (isso é necessário para o analisador de modelo do Target Recommendations validar e salvar o modelo).
+1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (obrigatório para [!DNL Target Recommendations]&quot; analisador de modelo para validar e salvar o modelo).
 1. Passe o atributo de entidade para o método `parseInt` ou `parseDouble` na variável fictícia que você criou na etapa 1 para transformar a cadeia de caracteres em um número inteiro ou valor duplo.
 1. Execute a operação matemática ou a comparação no novo valor numérico.
 
@@ -214,7 +216,7 @@ Você pode modificar o design para substituir valores em uma sequência de carac
 O código a seguir mostra uma única linha em um exemplo condicional do preço de venda:
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 O código a seguir é um exemplo condicional completo de um preço de venda:
@@ -222,9 +224,9 @@ O código a seguir é um exemplo condicional completo de um preço de venda:
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 

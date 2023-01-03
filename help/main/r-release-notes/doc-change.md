@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 99%
+source-wordcount: '1824'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 21 de dezembro | [Personalizar um design usando a Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Esclarecimento de que os atributos de entidade foram enviados para [!DNL Recommendations] no `productPage` mbox ou o upload de CSV podem ser exibidos em um design, com exceção dos atributos de &quot;vários valores&quot;. |
 | 20 de dezembro | [[!UICONTROL Oferecer Grupos de relatório na Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Adição de informações adicionais sobre os grupos de relatórios em &quot;Advertências&quot;. |
 | 14 de dezembro | [Configurações do relatório](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Adição de uma observação na seção “Ambiente” sobre o uso da [!DNL Adobe Experience Platform] (AEP) para envio de dados de métrica para o [!DNL Target]. |
 | 29 de novembro | [Geografia](/help/main/c-target/c-audiences/c-target-rules/geo.md) | O texto foi esclarecido com a adição do seguinte parágrafo:<ul><li>As informações geográficas de um visitante são determinadas a partir do endereço IP de origem de uma solicitação de localização do [!DNL Target] (solicitação de mbox). A resolução “IP para informações geográficas” é feita para a primeira chamada de uma nova sessão. Isso significa que, se o endereço IP de um visitante mudar no meio de uma sessão de visita, as informações geográficas ainda serão baseadas no endereço IP da primeira chamada.</li></ul> |
