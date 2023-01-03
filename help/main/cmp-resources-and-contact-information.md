@@ -4,7 +4,7 @@ description: Conheça os recursos adicionais do Adobe [!DNL Target] e como entra
 title: Onde posso encontrar recursos e informações de contato do Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 69c610d930582defa031103ea0ba848753e675a9
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 98%
@@ -64,7 +64,7 @@ O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer p
 
 Se encontrar problemas ou tiver dúvidas ao usar o Target, há várias opções
 
-Faça suas perguntas aos especialistas do Adobe Target na [Comunidade da Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ou no Twitter em [@AdobeExpCare](https://twitter.com/adobeexpcare).
+Faça suas perguntas aos especialistas do Adobe Target na [Comunidade da Experience Cloud](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt) ou no Twitter em [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
 No caso de problemas técnicos ou registro de um erro, entre em contato com o Atendimento ao cliente. Para entrar em contato com o Atendimento ao cliente por telefone, ligue para 1-800-497-0335. Encontre números para chamadas gratuitas nos Estados Unidos na página [Números de telefone regionais do Atendimento ao cliente de Marketing digital da Adobe](https://helpx.adobe.com/br/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando for solicitado que você selecione uma opção para seu produto, pressione 3 para entrar em contato com a equipe do Target.
 
@@ -120,7 +120,7 @@ Agradecemos suas sugestões ou comentários sobre esta solução. Ideias e suges
 
 ### Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2022 Adobe Systems Incorporated. All Rights Reserved.
+* © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
 [Termos de uso](https://www.adobe.com/legal/terms.html)
