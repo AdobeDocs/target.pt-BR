@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 52%
 
 ---
 
@@ -15,30 +15,24 @@ ht-degree: 100%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 19 de outubro de 2022**
+**Última atualização: 4 de janeiro de 2023**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 22.10.3 (lançamento escalonado de 25 a 27 de outubro de 2022)
-
-Esta versão estará disponível de acordo com o seguinte agendamento:
-
-* **25 de outubro**: região da Europa, Oriente Médio e África (EMEA)
-* **26 de outubro**: região da Ásia-Pacífico (APAC)
-* **27 de outubro**: região das Américas
+## [!DNL Target] Standard/Premium 23.1.1 (23 de janeiro de 2023)
 
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Métricas otimizadas do A4T para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]<br> (Disponível para clientes selecionados para teste. Estará disponível para todos os clientes em uma versão futura.) | Esteja ciente das seguintes alterações:<ul><li>Foi adicionado suporte para métricas não binárias e de maximização nos relatórios do [!UICONTROL Analytics for Target] (A4T) para as atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]</li><li>O comportamento será preservado para atividades existentes até fevereiro de 2023. Após essa data, as atividades serão descontinuadas para forçar a migração de atividades existentes para um novo comportamento</li><li>A partir de 20 de fevereiro de 2023, o suporte para as métricas `averagetimespentonsite`, `bouncerate` e `entries` em atividades de [!DNL Target] será descontinuado.</li></ul> |
+| AEM fragmentos de conteúdo<br>(Data exata de lançamento para este recurso ser determinado.) | Usar fragmentos de conteúdo criados em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização ou na personalização.<br>Uso de fragmentos de conteúdo criados no AEM em [!DNL Target] As atividades permitem combinar a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para testar e personalizar experiências em escala. |
 
-* Adição de dicas de ferramentas na interface do [!DNL Target] para ajudar os clientes a navegar pelo construtor de públicos com mais eficiência e aprender a usar recursos que eles possam não conhecer. (TGT-44139)
-* Adição da funcionalidade de impedir que os clientes editem uma atividade que foi desativada pelo [!DNL Target] devido ao uso de métricas não compatíveis. Uma mensagem na interface orienta os clientes a duplicar a atividade e, em seguida, atualizar as métricas de conversão.
-
-   Com esta versão, as métricas `averagetimespentonsite`, `bouncerate` e `entries` do [!DNL Target] serão descontinuadas em novas atividades. As atividades existentes podem continuar usando essas métricas até maio de 2023.
-
-* Adição de uma dica de ferramenta na interface do [!DNL Target] para ajudar os clientes a selecionar um critério de otimização ao criar ou editar uma atividade de [!UICONTROL Direcionamento automático] que usa o A4T.
+* Adição de suporte para ofertas JSON em [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460)
+* Adição da capacidade de pesquisar e filtrar ofertas por tags de AEM. (TGT-43837)
+* &quot; renomeado[!UICONTROL Fragmento de experiência]&quot; no fluxo de trabalho do Visual Experience Composer. A opção agora é &quot;[!UICONTROL HTML XF]&quot;.
+* Adição da capacidade de exibir metadados da oferta do fragmento de experiência na dica de ferramenta de informações da oferta. (TGT-43838)
+* Remoção das opções de calendário de 45 dias e 90 dias da API e [!UICONTROL Direcionamento automático] [!UICONTROL Insights de personalização] e [!UICONTROL Atributos importantes] nos relatórios do [!DNL Target] IU. Devido aos padrões de uso e para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface do usuário foi atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias. (TGT-39357)
+* Remoção da capacidade de alterar o [!UICONTROL Igual à meta de otimização] na configuração do [!UICONTROL Metas e configurações] página após a atividade estar ativa. (TGT-43923)
 
 ## Notas de versão adicionais e detalhes da versão
 
