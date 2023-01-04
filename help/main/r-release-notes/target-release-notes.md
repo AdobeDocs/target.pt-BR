@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 * Adição de suporte para ofertas JSON em [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460)
 * Adição da capacidade de pesquisar e filtrar ofertas por tags de AEM. (TGT-43837)
-* &quot; renomeado[!UICONTROL Fragmento de experiência]&quot; no fluxo de trabalho do Visual Experience Composer. A opção agora é &quot;[!UICONTROL HTML XF]&quot;.
+* &quot; renomeado[!UICONTROL Fragmento de experiência]&quot; no fluxo de trabalho do Visual Experience Composer. A opção agora é &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * Adição da capacidade de exibir metadados da oferta do fragmento de experiência na dica de ferramenta de informações da oferta. (TGT-43838)
 * Remoção das opções de calendário de 45 dias e 90 dias da API e [!UICONTROL Direcionamento automático] [!UICONTROL Insights de personalização] e [!UICONTROL Atributos importantes] nos relatórios do [!DNL Target] IU. Devido aos padrões de uso e para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface do usuário foi atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias. (TGT-39357)
 * Remoção da capacidade de alterar o [!UICONTROL Igual à meta de otimização] na configuração do [!UICONTROL Metas e configurações] página após a atividade estar ativa. (TGT-43923)
