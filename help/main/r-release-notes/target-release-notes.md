@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
+source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 52%
+source-wordcount: '333'
+ht-degree: 61%
 
 ---
 
@@ -22,10 +22,6 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 ## [!DNL Target] Standard/Premium 23.1.1 (25-26 de janeiro de 2023)
 
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
-
-| Recurso | Detalhes |
-| --- | --- |
-| AEM fragmentos de conteúdo<br>(Data exata de lançamento para este recurso ser determinado.) | Usar fragmentos de conteúdo criados em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização ou na personalização.<br>Uso de fragmentos de conteúdo criados no AEM em [!DNL Target] As atividades permitem combinar a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para testar e personalizar experiências em escala. |
 
 * Adição de suporte para ofertas JSON em [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460)
 * Adição da capacidade de pesquisar e filtrar ofertas por tags de AEM. (TGT-43837)
