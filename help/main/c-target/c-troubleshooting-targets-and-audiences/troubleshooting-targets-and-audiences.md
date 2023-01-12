@@ -4,10 +4,10 @@ description: Exibir perguntas frequentes sobre o direcionamento de experiência 
 title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públicos-alvo?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 64%
+source-wordcount: '969'
+ht-degree: 62%
 
 ---
 
@@ -37,14 +37,17 @@ A definição de metas do URL de público-alvo busca uma correspondência exata 
 
 Além do direcionamento de público-alvo no URL, você também pode especificar valores específicos que podem estar no query.
 
+Direcionamento de URL de público-alvo e direcionamento de URL adicionados por meio de [!UICONTROL Regras de modelo] avaliado como direcionamento de URL (consulte Direcionamento de URL abaixo).
+
 ### Direcionamento de URL
 
-Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em Adicionar regra, clique em Páginas do site, selecione uma opção na primeira lista suspensa (Página atual, Página anterior ou Página inicial), selecione o URL na segunda lista suspensa, especifique um avaliador e especifique o URL desejado.
+Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em [!UICONTROL Adicionar regra], clique em [!UICONTROL Páginas do site], selecione uma opção na primeira lista suspensa ([!UICONTROL Página atual], [!UICONTROL Página anterior]ou [!UICONTROL Página de aterrissagem]), selecione [!UICONTROL URL] na segunda lista suspensa, especifique um avaliador e, em seguida, especifique o URL desejado.
 
 ![Páginas do site > Página atual > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 O direcionamento de URL transforma o URL em um conjunto de regras para avaliar:
 
+* URL = `example.com/path1?query=something`
 * Domínio de URL = `example.com`
 * Caminho = caminho1/caminho2/caminho3
 * queryStringParam1 = test123
