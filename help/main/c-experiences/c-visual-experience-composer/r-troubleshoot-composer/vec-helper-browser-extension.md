@@ -1,13 +1,13 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extensão;navegador
-description: Descubra por que alguns sites podem não abrir de maneira confiável no Visual Experience Composer (VEC). A extensão de navegador VEC Helper permite carregar sites de maneira confiável no VEC.
+description: Descubra por que alguns sites podem não abrir de forma confiável no Visual Experience Composer (VEC). A extensão de navegador VEC Helper permite carregar sites de maneira confiável no VEC.
 title: Como uso a extensão de ajuda do Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 58%
+source-wordcount: '1108'
+ht-degree: 59%
 
 ---
 
@@ -19,15 +19,17 @@ O navegador VEC Helper é uma extensão do Chrome. Essa extensão não é necess
 
 >[!IMPORTANT]
 >
->A partir de janeiro de 2023, a variável [!DNL Target] A extensão VEC Helper deixará de funcionar no Google Chrome porque o Google não permitirá extensões usando o Manifest V2. Baixe a nova extensão para continuar a criar visualmente seus sites em [!DNL Target] a partir do novo ano. Para obter mais informações, consulte [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>O atual [!DNL Target] A extensão VEC Helper documentada neste artigo foi criada usando o Manifest v2. A Google anunciou recentemente que não permitirá mais novas extensões criadas com o Manifest v2.
+>
+>A extensão existente ainda funciona no Google Chrome. No futuro, [!DNL Adobe] descontinuará a extensão auxiliar documentada neste tópico e exigirá que os clientes se movam para o mais novo [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). Você será notificado por meio de notas de versão e texto neste artigo quando esta extensão parar de funcionar. No entanto, devido aos aprimoramentos de segurança no Manifest v3, [!DNL Adobe] O recomenda baixar a nova extensão para continuar a criar visualmente seus sites em [!DNL Target].
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 
 * O site tem políticas de segurança estritas.
 * O site está em um iframe.
 * A biblioteca do at.js ainda não está implementada no site.
-* O site de QA e/ou etapas do cliente não está disponível para o mundo externo (o site é interno).
-* Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Service Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
+* O site de controle de qualidade e/ou preparo do cliente não está disponível para partes externas (o site é interno).
+* Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando [Trabalhadores do Serviço](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 Um SW é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instalados por uma página da Web. O SW se mantém na visita da página e se ativa em visitas subsequentes. Ele decide quais solicitações são passadas e quais são interceptadas e fornecidas a partir de um cache.
 
@@ -46,9 +48,9 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 * Todos os cabeçalhos de interrupção de iframe, como X-Frame-Opções e Conteúdo-Segurança-Política, são removidos implicitamente do site. Não há mais necessidade de criar regras Requestly complicadas.
 * Se uma página da Web ainda não contiver a biblioteca JavaScript do at.js [!DNL Target], você poderá usar a extensão e inserir a biblioteca para poder criar experiências no site. Em seguida, você pode criar atividades, além de QA, usando links de visualização.
 
-   Observe que, usando o Enhanced Experience Composer (EEC), a extensão não injeta at.js, mas a funcionalidade de Cookie SameSite ainda está presente. Para inserir at.js na página da Web, desative o EEC.
+   Observe que, usando o Enhanced Experience Composer (EEC), a extensão não injeta at.js, mas a funcionalidade de Cookie SameSite ainda está presente. Para inserir a at.js na página da Web, desative o EEC.
 
-* [Visores móveis](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) são compatíveis mesmo sem o [!UICONTROL Enhanced Experience Composer] (CEE)
+* [Visores móveis](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) são permitidos mesmo sem o [!UICONTROL Enhanced Experience Composer] (EEC).
 * Os clientes novos do [!DNL Target] podem usar a extensão para experimentar com [!DNL Target] mesmo se os desenvolvedores de TI ainda não tiverem implementado o [!DNL Target] em seus sites.
 * Os parceiros que servem vários sites e contas do [!DNL Target] de vários clientes agora têm um mecanismo simples para suportar o carregamento do VEC, em vez de gerenciar várias regras em ferramentas de terceiros.
 
@@ -56,7 +58,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 1. Navegue até o [Extensão de navegador Adobe Target VEC Helper na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Clique em **[!UICONTROL Adicionar ao Chrome > Adicionar extensão]**.
-1. Abra o VEC em [!DNL Target].
+1. Abra o VEC no [!DNL Target].
 1. Para usar a extensão, clique no ícone de extensão do navegador do VEC Helper (![ícone do VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) na barra de ferramentas do navegador Chrome no VEC ou no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md).
 1. (Condicional) Deslize o **[!UICONTROL Inserir bibliotecas do Target]** alterne para a posição &quot;ativada&quot; se a página da Web ainda não contiver a variável [!DNL Target] Biblioteca de JavaScript da at.js.
 
@@ -72,7 +74,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
    ![Os cookies são alternados na extensão de assistente do VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   Para obter mais informações sobre o `SameSite=None` correção do navegador de atributo, consulte &quot;Como as políticas de imposição de cookies do Google Chrome SameSite recentemente anunciadas afetam o VEC e o EEC?&quot; em [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   Para obter mais informações sobre a correção de navegador do atributo `SameSite=None`, consulte “Como as políticas de aplicação de cookies SameSite do Google Chrome recentemente anunciadas afetam o VEC e o EEC?” em [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ## Notas
 
