@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
+source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 37%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 4 de janeiro de 2023**
+**Última atualização: 12 de janeiro de 2023**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
@@ -24,7 +24,7 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 * Adição de suporte para ofertas JSON em [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460)
-* Implementado [Modo de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) para atividades de AP.
+* Implementado [Modo de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) para atividades de AP. (TGT-44341)
 * Nomes de experiência em [!DNL Recommendations] agora são exibidas com nomes amigáveis para que os clientes possam correlacionar melhor os dados em [!DNL Adobe Analytics] com isso no [!DNL Target] IU. (TGT-41853)
 * Correção de um problema que causava um &quot;erro 500&quot; em [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) atividades que contêm recomendações. Esse problema foi causado quando [!DNL Target] falha ao excluir corretamente os objetos de critérios do [!DNL Target] Interface do usuário e [!DNL Recommendations] backend que não está mais em uso. (TGT-44383)
 * Remoção do local do nome de oferta exibido no [!UICONTROL Nível da oferta] relatório de [!UICONTROL Automated Personalization] atividades. Essa alteração torna o relatório mais legível. (TGT-44294)
