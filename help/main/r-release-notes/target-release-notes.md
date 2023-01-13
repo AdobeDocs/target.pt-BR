@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 37%
+ht-degree: 52%
 
 ---
 
@@ -23,14 +23,14 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
-* Adição de suporte para ofertas JSON em [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460)
+* Adição de suporte para ofertas JSON em atividades do [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460)
 * Implementado [Modo de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) para atividades de AP. (TGT-44341)
 * Nomes de experiência em [!DNL Recommendations] agora são exibidas com nomes amigáveis para que os clientes possam correlacionar melhor os dados em [!DNL Adobe Analytics] com isso no [!DNL Target] IU. (TGT-41853)
 * Correção de um problema que causava um &quot;erro 500&quot; em [!UICONTROL Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT) atividades que contêm recomendações. Esse problema foi causado quando [!DNL Target] falha ao excluir corretamente os objetos de critérios do [!DNL Target] Interface do usuário e [!DNL Recommendations] backend que não está mais em uso. (TGT-44383)
 * Remoção do local do nome de oferta exibido no [!UICONTROL Nível da oferta] relatório de [!UICONTROL Automated Personalization] atividades. Essa alteração torna o relatório mais legível. (TGT-44294)
-* &quot; renomeado[!UICONTROL Fragmento de experiência]&quot; na [!UICONTROL Visual Experience Composer] Fluxo de trabalho (VEC). A opção agora é &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
-* Adição da capacidade de exibir metadados da oferta do fragmento de experiência na dica de ferramenta de informações da oferta. (TGT-43838)
-* Remoção das opções de calendário de 45 dias e 90 dias da API e [!UICONTROL Direcionamento automático] [!UICONTROL Insights de personalização] e [!UICONTROL Atributos importantes] nos relatórios do [!DNL Target] IU. Devido aos padrões de uso e para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface do usuário foi atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias. (TGT-39357)
+* &quot; renomeado[!UICONTROL Fragmento de experiência]&quot; na [!UICONTROL Visual Experience Composer] Fluxo de trabalho (VEC). A opção agora é “[!UICONTROL HTML XF]”. (TGT-44132)
+* Adição da capacidade de visualizar os metadados da oferta do fragmento de experiência através da dica de ferramenta de informações da oferta. (TGT-43838)
+* As opções de calendário de 45 dias e 90 dias foram removidas do AP e dos relatórios de [!UICONTROL Direcionamento automático], [!UICONTROL Insights de personalização] e [!UICONTROL Atributos importantes] na interface do [!DNL Target]. Devido aos padrões de uso e para melhorar o desempenho, esses intervalos de datas foram removidos. A interface será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias. (TGT-39357)
 * Não permitido alterar a [!UICONTROL Igual à meta de otimização] na configuração do [!UICONTROL Metas e configurações] página após a atividade estar ativa. (TGT-43923)
 * Correção de um problema que causava problemas com o local de trabalho padrão no [!DNL Target] backend ao atualizar de [!DNL Target Standard] para [!DNL Target Premium]. (TGT-44081 e TGT-44306)
 * Alteração do link no [!UICONTROL Implementação] página ([!UICONTROL Administração] > [!UICONTROL Implementação]) para &quot;Métodos de implementação com o On-Device Decisioning&quot;, para apontar para a página que explica como usar a decisão no dispositivo para todos os SDKs compatíveis: Node.js, Java, .NET e Python. Para obter mais informações, consulte [Introdução aos SDKs do Target](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
