@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1864'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 13 de janeiro | Extensão [Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Adição de uma seção de Perguntas frequentes. |
 | 12 de janeiro | [Extensão auxiliar do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Observação importante atualizada explicando o status do atual [!UICONTROL Visual Experience Composer] extensão do assistente. |
 |  | [Perguntas frequentes sobre direcionamentos e públicos](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Foram adicionadas informações explicando que o direcionamento do URL de público-alvo e o direcionamento do URL foram adicionados por [!UICONTROL Regras de modelo] são avaliadas como metas de URL. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para a versão 22.13.3. |

@@ -1,12 +1,13 @@
 ---
-keywords: vec;visual experience composer; vec;iframe;extensão;navegador
+keywords: vec;visual experience composer; vec;iframe;extensão;navegador;perguntas frequentes
 description: Descubra por que alguns sites podem não abrir de forma confiável no [!UICONTROL Visual Experience Composer] (VEC). A extensão de navegador [!UICONTROL Auxiliar de edição visual] permite carregar sites de maneira confiável no VEC.
 title: Como usar a extensão [!UICONTROL Auxiliar de edição visual]?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +17,7 @@ A extensão de navegador da [!DNL Adobe Experience Cloud] para Google Chrome, [!
 
 >[!IMPORTANT]
 >
->Esta nova extensão substitui a [extensão de navegador Auxiliar do VEC do Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+>Esta nova extensão substitui a [extensão de navegador Auxiliar do VEC do Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulte a Nota importante na parte superior desse artigo.
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 
@@ -58,6 +59,12 @@ Ao usar o [Enhanced Experience Composer](/help/main/administrating-target/visual
    * Se a at.js ou alloy.js ainda não estiver implementada no site, uma mensagem será exibida no VEC sugerindo que você instale a extensão.
 * Se você tentar usar a nova extensão e, em seguida, voltar para a [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e o [!DNL Target] falhar ao carregar seu site, apague todos os dados do navegador e desative a nova extensão.
 
+## Perguntas frequentes
 
+### A extensão, quando ativa, faz qualquer coisa quando usada fora de [!DNL Adobe Target] ou [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
+A extensão é ativada somente quando o site em questão é carregado dentro de um iFrame em [!DNL Adobe] produtos ([!DNL Target], [!DNL AJO]). Fora desse fluxo, a extensão não tenta adicionar, remover ou modificar nenhum cabeçalho e não tenta inserir nenhum código dentro do site.
 
+### O que a extensão faz quando está ativa no [!DNL Adobe Target] VEC?
+
+Quando um site é carregado dentro de um iFrame em [!DNL Adobe] produtos ([!DNL Target], [!DNL AJO]), a extensão injeta o código (fornecido com a extensão ) no site e baixa os arquivos de ajuda do [!DNL Adobe] CDN para ativar a criação visual.

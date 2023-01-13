@@ -4,9 +4,9 @@ description: Veja uma lista de tópicos para ajudar você a resolver problemas n
 title: Como solucionar problemas do Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
@@ -159,4 +159,5 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 * [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Práticas recomendadas e limitações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Consulte o [Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
