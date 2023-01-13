@@ -4,7 +4,7 @@ description: Descubra por que alguns sites podem não abrir de forma confiável 
 title: Como usar a extensão [!UICONTROL Auxiliar de edição visual]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 83%
@@ -32,7 +32,7 @@ A extensão de navegador da [!DNL Adobe Experience Cloud] para Google Chrome, [!
 * Todos os cabeçalhos de interrupção de iframe, como `X-Frame-Options` e `Content-Security-Policy`, são removidos implicitamente do site. Não há necessidade de criar regras complicadas do Requestly.
 * Se uma página da Web ainda não contiver a biblioteca de at.js do [!DNL Target], você poderá usar a extensão e inserir a biblioteca para poder criar experiências no site. Em seguida, você pode criar atividades, além de controle de qualidade, usando links de visualização.
 
-Ao usar o [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), a extensão não insere a at.js, mas a funcionalidade de cookie SameSite ainda está presente. Para inserir a at.js na página da Web, desative o EEC.
+   Ao usar o [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), a extensão não insere a at.js, mas a funcionalidade de cookie SameSite ainda está presente. Para inserir a at.js na página da Web, desative o EEC.
 
 * [Visores móveis](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) são permitidos mesmo sem o [!UICONTROL Enhanced Experience Composer] (EEC).
 * Os clientes novos do [!DNL Target] podem usar a extensão para experimentar com [!DNL Target] mesmo se os desenvolvedores de TI ainda não tiverem implementado o [!DNL Target] em seus sites.
