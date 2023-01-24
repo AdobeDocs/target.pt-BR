@@ -4,10 +4,10 @@ description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que
 title: Qual é o relatório de atributos importantes?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 80%
+source-wordcount: '1724'
+ht-degree: 81%
 
 ---
 
@@ -59,10 +59,6 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 1. Selecione o intervalo de datas desejado.
 
    Ao contrário do [!UICONTROL Resumo] relatório (relatório de desempenho), [!UICONTROL Insights de personalização], incluindo [!UICONTROL Atributos importantes], está disponível somente para intervalos de datas fixos: 15 dias, 30 dias e 60 dias.
-
-   >[!NOTE]
-   >
-   >Atualmente, a interface do [!DNL Target] permite escolher intervalos de datas de 45 dias e 90 dias. No entanto, o back-end do [!DNL Target] não processa esses dois intervalos. Devido aos padrões de uso e em um esforço para melhorar o desempenho, esses intervalos de datas foram descontinuados. A interface será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias.
 
    Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
 

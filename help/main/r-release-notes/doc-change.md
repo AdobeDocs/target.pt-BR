@@ -4,16 +4,24 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 99%
+source-wordcount: '1926'
+ht-degree: 98%
 
 ---
 
 # Alterações de documentação
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
+
+## [!DNL Target] Standard/Premium 22.13.3 (25 de janeiro de 2023)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 25 de janeiro | [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indicado o suporte para ofertas JSON em [!UICONTROL Automated Personalization] (AP) As atividades que usam o Experience Composer baseado em formulário agora estão disponíveis. |
+|  | [Anúncios e eventos do Adobe Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade: Casos de uso móveis e autenticados para otimização de experiência</li></ul> |
+|  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.10.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (lançamento escalonado de 10 a 13 de outubro de 2022)
 

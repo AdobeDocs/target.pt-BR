@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+workflow-type: tm+mt
+source-wordcount: '1931'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,20 @@ Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões 
 A Gartner nomeou o [!DNL Adobe Target] como líder no último Magic Quadrant for Personalization Engines (PE) pelo quinto ano consecutivo. A [!DNL Adobe] também recebeu pontuações máximas e aumentos significativos de ano para ano em todos os três casos de uso principais: Marketing digital, Comércio digital e Serviço e suporte. O [!DNL Target] recebeu as pontuações mais altas por seus recursos de teste entre todos os fornecedores avaliados.
 
 Para obter mais informações, consulte a [publicação no blog da Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade
+
+* **Casos de uso móveis e autenticados para otimização de experiência**
+* **Quarta-feira, 1 de fevereiro de 2023**
+* **08:00 - 9:00 (PST, GMT-8)**
+* **[Registro](https://adobe.ly/3IWsAiX){target=_blank}**
+
+Nós seremos unidos por Brent Kostak, Gerente de Marketing de Produtos para [!DNL Adobe Target], que conversará diretamente com você neste tópico sobre seu [!DNL Target] perguntas relacionadas a Casos de uso móveis e autenticados para otimização de experiência:
+
+* Fluxos de trabalho para configuração de atividade em [!DNL Target]
+* Métricas de ciclo de vida do cliente para testar e direcionar experiências móveis
+* Aproveite o AI/ML para personalização entre canais na Web e no aplicativo
+* SDKs e APIs móveis para implementações flexíveis que oferecem suporte a plataformas iOS e Android
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
@@ -96,7 +110,7 @@ Junte-se à equipe do [!DNL Adobe Target] [!DNL ] durante a apresentação de al
 
 Aumentar a fidelidade em um período de aumento de problemas na cadeia de suprimentos, falhas de serviço e limitações de equipe é um desafio que a maioria das marcas de viagem, hotelaria e restaurantes está enfrentando. Na era da IA, como as marcas dimensionam experiências sem os recursos necessários que deixaram o setor? O progresso digital está 20 a 25 vezes mais rápido para oferecer suporte não apenas às expectativas aceleradas dos clientes, mas também para dimensionar equipes por meio da automação.
 
-* **[Inscreva-se para assistir a gravação do webinário](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Registre-se para exibir a gravação do webinário](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Detalhes
 
@@ -221,7 +235,7 @@ Visualize o kit de ferramentas e os casos de uso para implementar estratégias d
 
 ### Personalização em tempo real com o [!DNL Adobe Target]
 
-* **[Inscreva-se para assistir a gravação do webinário](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Registre-se para exibir a gravação do webinário](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Detalhes
 
