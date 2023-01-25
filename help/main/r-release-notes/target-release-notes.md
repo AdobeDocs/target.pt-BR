@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais novos recursos e melhorias serão incluídos na próxima versão?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
+source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 89%
 
 ---
@@ -31,9 +31,9 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Automated Personalization (AP) | Adição de suporte para ofertas JSON em atividades do [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário.<br>Para obter mais informações, consulte [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| [Oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) suporte no Automated Personalization (AP) | Adição de suporte para ofertas JSON em atividades do [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460) |
 | Recommendations | Nomes amigáveis em [!UICONTROL Analytics para Target] Os relatórios do A4T agora estão disponíveis. Anteriormente, o [!DNL Target] listava somente IDs de experiência. Esse aprimoramento alinha os relatórios do [!DNL Adobe Analytics] e [!DNL Target] e ajuda os clientes a simplificar a criação de relatórios no A4T. (TGT-41853) |
-| Fragmentos de experiência do AEM | Adição da capacidade de distinguir entre [!DNL Adobe Experience Manager] tipos de fragmento (AEM XF) exportados para o [!DNL Target]. Em vez da opção &quot;Fragmento de experiência&quot;, [!DNL Target] agora permite filtrar e pesquisar por &quot;HTML XF&quot; e &quot;JSON XF.&quot; <br>Para obter mais informações, consulte [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132) |
+| [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Adição da capacidade de distinguir entre [!DNL Adobe Experience Manager] tipos de fragmento (AEM XF) exportados para o [!DNL Target]. Em vez da opção &quot;Fragmento de experiência&quot;, [!DNL Target] agora permite filtrar e pesquisar por &quot;HTML XF&quot; e &quot;JSON XF.&quot; (TGT-44132) |
 
 * Correção de um problema que causava um &quot;erro 500&quot; no [!UICONTROL Teste A/B] e em atividades de [!UICONTROL Direcionamento de experiência] (XT) que contêm recomendações. Esse problema era causado quando o [!DNL Target] falhava ao excluir corretamente os objetos de critérios da interface do [!DNL Target] e do back-end do [!DNL Recommendations] que não estão mais em uso. (TGT-44383)
 * Remoção do local do nome de oferta exibido no relatório de [!UICONTROL Nível da oferta] das atividades em [!UICONTROL Automated Personalization]. Essa alteração torna o relatório mais legível. (TGT-44294)
