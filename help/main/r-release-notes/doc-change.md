@@ -27,7 +27,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 13 de janeiro | Extensão [Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Adição de uma seção de Perguntas frequentes. |
+| 13 de janeiro | [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Foi adicionada uma seção nas Perguntas frequentes. |
 | 12 de janeiro | [Extensão auxiliar do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Atualização de uma observação importante que explica o status da extensão auxiliar vigente do [!UICONTROL Visual Experience Composer]. |
 |  | [Perguntas frequentes sobre direcionamentos e públicos](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Foram adicionadas informações explicando que o direcionamento do URL de público e o direcionamento do URL adicionados por [!UICONTROL Regras de modelo] são avaliadas como direcionamento de URL. |
 |  | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adicionadas notas de pré-lançamento para a versão 22.13.3. |
