@@ -5,9 +5,9 @@ title: Como usar a extensão [!UICONTROL Auxiliar de edição visual]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -61,10 +61,10 @@ A extensão de navegador da [!DNL Adobe Experience Cloud] para Google Chrome, [!
 
 ## Perguntas frequentes
 
-### A extensão, quando ativa, faz qualquer coisa quando usada fora de [!DNL Adobe Target] ou [!UICONTROL Adobe Journey Optimizer] (AJO)?
+### A extensão, quando ativa, tem alguma função se usada fora do [!DNL Adobe Target] ou [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
-A extensão é ativada somente quando o site em questão é carregado dentro de um iFrame em [!DNL Adobe] produtos ([!DNL Target], [!DNL AJO]). Fora desse fluxo, a extensão não tenta adicionar, remover ou modificar nenhum cabeçalho e não tenta inserir nenhum código dentro do site.
+A extensão é ativada somente quando o site em questão é carregado dentro de um iframe nos produtos [!DNL Adobe] ([!DNL Target], [!DNL AJO]). Fora desse fluxo, a extensão não tenta adicionar, remover ou modificar nenhum cabeçalho nem inserir um código dentro do site.
 
-### O que a extensão faz quando está ativa no [!DNL Adobe Target] VEC?
+### O que a extensão faz quando está ativa no VEC do [!DNL Adobe Target]?
 
-Quando um site é carregado dentro de um iFrame em [!DNL Adobe] produtos ([!DNL Target], [!DNL AJO]), a extensão injeta o código (fornecido com a extensão ) no site e baixa os arquivos de ajuda do [!DNL Adobe] CDN para ativar a criação visual.
+Quando um site é carregado dentro de um iframe nos produtos [!DNL Adobe] ([!DNL Target], [!DNL AJO]), a extensão insere o código (fornecido junto com a extensão) no site e baixa os arquivos de ajuda da [!DNL Adobe] CDN para permitir a criação visual.
