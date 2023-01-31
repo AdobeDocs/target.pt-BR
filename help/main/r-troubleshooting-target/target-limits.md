@@ -5,10 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
+source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 97%
+source-wordcount: '1387'
+ht-degree: 94%
 
 ---
 
@@ -159,9 +159,21 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 128 caracteres.
 
-### nomes de mbox
+### nomes de mbox {#mbox-names}
 
 * **Limite**: 250 caracteres.
+
+Para a API de entrega (at.js 2.*x*), integração de mbox em lote V2 e SDK da Web da AEP (alloy.js), nomes de mbox *can* contém caracteres alfanuméricos (A-Z, a-z, 0-9) e qualquer um dos seguintes caracteres:
+
+```
+- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+```
+
+Para at.js 1.*x* integrações, nomes de mbox *cannot* contém qualquer um dos seguintes caracteres:
+
+```
+' " %22 %27 < > %3C %3E 
+```
 
 ### parâmetros de mbox {#mbox-parameters}
 

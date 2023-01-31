@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
+source-git-commit: 74bf5214a4b6cd771d8842781d855bb4bd00efe0
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1938'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 31 de janeiro | [Limites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Adição da lista de caracteres permitidos e não permitidos em nomes de mbox. |
 | 25 de janeiro | [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indicado o suporte para ofertas JSON em [!UICONTROL Automated Personalization] (AP) As atividades que usam o Experience Composer baseado em formulário agora estão disponíveis. |
 |  | [Anúncios e eventos do Adobe Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade: Casos de uso móveis e autenticados para otimização de experiência</li></ul> |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.13.3 do [!DNL Target Standard/Premium]. |
