@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo personalizados e salvá-los na [!DN
 title: Como Criar Públicos-Alvo?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 58%
+source-wordcount: '539'
+ht-degree: 56%
 
 ---
 
@@ -46,6 +46,15 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
    Para copiar um público-alvo existente, no [!UICONTROL Públicos-alvo] clique no botão **[!UICONTROL Mais ações]** ícone (o ícone de reticências) e clique em **[!UICONTROL Duplicar]**. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo e exclusivo e uma descrição opcional.
+
+   Os nomes de público-alvo não podem começar com os seguintes caracteres:
+
+   `=  +  -  !  @`
+
+   Os nomes de público-alvo não podem conter nenhuma das seguintes sequências de caracteres:
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. Arraste e solte os atributos desejados da **[!UICONTROL Atributos]** lista à direita do painel do construtor de público-alvo.
 
    ![Arrastar e soltar atributos](assets/drag-attribute.png)
