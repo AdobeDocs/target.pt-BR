@@ -4,10 +4,10 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como soluciono problemas relacionados ao Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 78%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -123,4 +123,8 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 
 ## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Ao usar o modo de navegação, se você acessar um URL que não tenha target.js ou contenha um cabeçalho de quadro, o Visual Experience Composer parecerá quebrado. Devido a preocupações com a segurança do navegador, o Target não pode acessar o URL para o qual você navegou.
+Ao usar o modo de navegação, se você acessar um URL que não tem [!DNL Target] bibliotecas implementadas ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) ou contiver um cabeçalho frame-buster, o VEC aparecerá quebrado. Devido a questões de segurança do navegador, [!DNL Target] O não pode acessar corretamente o URL para o qual você navegou ou o URL do VEC não é atualizado consistentemente se a página for carregada.
+
+Esse problema ocorre porque o VEC carrega a página da Web em uma `<iframe>`. Os mecanismos de segurança atuais dos navegadores impedem a [!DNL Target] A interface do usuário de acessar os elementos de um quadro específico por causa da política de mesma origem. Os navegadores bloqueiam scripts tentando acessar um quadro com uma origem diferente e que inclui informações como `location.href`.
+
+Você deve usar o novo [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (recomendado) ou o [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para injetar a [!DNL Target] biblioteca nas páginas para navegá-las de maneira ideal.
