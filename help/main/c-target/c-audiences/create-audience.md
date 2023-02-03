@@ -4,7 +4,7 @@ description: Saiba como criar públicos-alvo personalizados e salvá-los na [!DN
 title: Como Criar Públicos-Alvo?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 56%
@@ -53,7 +53,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
    Os nomes de público-alvo não podem conter nenhuma das seguintes sequências de caracteres:
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Arraste e solte os atributos desejados da **[!UICONTROL Atributos]** lista à direita do painel do construtor de público-alvo.
 
