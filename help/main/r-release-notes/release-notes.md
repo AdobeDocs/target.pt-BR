@@ -6,9 +6,9 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,23 +22,23 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **25 de janeiro**: Europa, Oriente Médio e África (EMEA)
-* **25 de janeiro**: Região Ásia-Pacífico (APAC)
-* **26 de janeiro**: Região das Américas
+* **25 de janeiro**: regiões da Europa, Oriente Médio e África (EMEA)
+* **25 de janeiro**: região da Ásia-Pacífico (APAC)
+* **26 de janeiro**: região das Américas
 
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 | Recurso | Detalhes |
 | --- | --- |
-| [Oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) suporte no Automated Personalization (AP) | Adição de suporte para ofertas JSON em atividades do [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460) |
-| [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Adição da capacidade de distinguir entre [!DNL Adobe Experience Manager] tipos de fragmento (AEM XF) exportados para o [!DNL Target]. Em vez da opção &quot;Fragmento de experiência&quot;, [!DNL Target] agora permite filtrar e pesquisar por &quot;HTML XF&quot; e &quot;JSON XF.&quot; (TGT-44132) |
+| Suporte à [oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) no Automated Personalization (AP) | Adição de suporte para ofertas JSON em atividades do [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460) |
+| [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Adição da capacidade de distinguir entre tipos de fragmento do [!DNL Adobe Experience Manager] (AEM XF) exportados para o [!DNL Target]. Em vez da opção “Fragmento de experiência”, o [!DNL Target] agora permite filtrar e pesquisar por “HTML XF” e “JSON XF”. (TGT-44132) |
 
 * Correção de um problema que causava um &quot;erro 500&quot; no [!UICONTROL Teste A/B] e em atividades de [!UICONTROL Direcionamento de experiência] (XT) que contêm recomendações. Esse problema era causado quando o [!DNL Target] falhava ao excluir corretamente os objetos de critérios da interface do [!DNL Target] e do back-end do [!DNL Recommendations] que não estão mais em uso. (TGT-44383)
 * Remoção do local do nome de oferta exibido no relatório de [!UICONTROL Nível da oferta] das atividades em [!UICONTROL Automated Personalization]. Essa alteração torna o relatório mais legível. (TGT-44294)
 * As opções de calendário de 45 dias e 90 dias foram removidas do AP e dos relatórios de [!UICONTROL Direcionamento automático], [!UICONTROL Insights de personalização] e [!UICONTROL Atributos importantes] na interface do [!DNL Target]. Devido aos padrões de uso e para melhorar o desempenho, esses intervalos de datas foram removidos. A interface será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias. (TGT-39357)
 * Remoção da capacidade de alterar a configuração [!UICONTROL Igual à meta de otimização] na página [!UICONTROL Metas e configurações] após a ativação da atividade. (TGT-43923)
 * Correção de um problema que causava problemas com o local de trabalho padrão no back-end do [!DNL Target] ao atualizar do [!DNL Target Standard] para o [!DNL Target Premium]. (TGT-44081 e TGT-44306)
-* Feita uma alteração para permitir [!DNL Analytics] conjuntos de relatórios que contêm um caractere de ponto &quot;.&quot; em seu nome, a utilizar no [!DNL Target] IU para criar [!DNL Analytics] feeds de classificação.
+* Feita uma alteração para permitir conjuntos de relatórios do [!DNL Analytics] que contenham um caractere de ponto “.” em seus nomes a serem utilizados na interface do [!DNL Target] para criar feeds de classificação do [!DNL Analytics].
 * Alteração do link na página de [!UICONTROL Implementação] ([!UICONTROL Administração] > [!UICONTROL Implementação]) para os &quot;Métodos de implementação com decisão no dispositivo&quot; para apontar para a página que explica como usar a decisão no dispositivo para todos os SDKs compatíveis: Node.js, Java, .NET e Python. Para obter mais informações, consulte [Introdução aos SDKs de Target](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 * Correção de um problema que causava problemas de upload de arquivo ao usar o [!DNL Scene7] e o [!DNL Target].
 * Aprimoramento da acessibilidade da interface do [!DNL Target] para pessoas com deficiência usando resultados de uma auditoria interna de usabilidade. Essas melhorias de acessibilidade incluem recursos que antes não eram acessíveis por meio do teclado, melhorias no texto alternativo, a capacidade de ampliar partes da interface para serem mais utilizáveis, foco do teclado aprimorado e muito mais.   (TGT-42759)
