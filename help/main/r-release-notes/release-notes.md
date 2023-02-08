@@ -5,10 +5,10 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 100%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## at.js versão 2.10.1 (2 de fevereiro de 2023)
+
+* Correção de um bug em que as atividades que envolviam regras de público-alvo contendo parâmetros com pontos em seus nomes não retornavam a experiência esperada para decisões no dispositivo.
+* Correção de um bug na at.js 2.6.0, em que a at.js estava disparando uma chamada de delivery, mesmo quando `mboxDisable` foi ativado.
+
+Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 22.13.3 (25 e 26 de janeiro de 2023)
 

@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 98%
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 2 de fevereiro | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Atualização da seguinte seção:<ul><li>O VEC aparece interrompido quando uso o modo de navegação</li></ul> |
-|  | [Criar públicos no Target](/help/main/c-target/c-audiences/create-audience.md) | Adição da lista de caracteres e sequências de caracteres que não podem ser usados nos nomes de público-alvo. |
+| 8 de fevereiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a at.js 2.10.1. |
+| 2 de fevereiro | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Atualização da seguinte seção:<ul><li>O VEC não é exibido corretamente quando uso o modo de navegação</li></ul> |
+|  | [Criar públicos no Target](/help/main/c-target/c-audiences/create-audience.md) | Adição de uma lista dos caracteres e sequências de caracteres que não podem ser usados nos nomes de públicos. |
 | 31 de janeiro | [Limites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Adição da lista de caracteres permitidos e não permitidos em nomes de mbox. |
 | 25 de janeiro | [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indicou que agora está disponível o suporte para ofertas JSON nas atividades de [!UICONTROL Automated Personalization] (AP) que usam o Experience Composer baseado em formulários. |
 |  | [Anúncios e eventos do Adobe Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade: Casos de uso de dispositivos móveis e autenticados para otimização de experiência</li></ul> |
