@@ -5,9 +5,9 @@ landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e c
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: 839ca14d658115ebdb2d4b3239f3ea5efff1fa60
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 ## at.js versão 2.10.1 (2 de fevereiro de 2023)
 
 * Correção de um bug em que as atividades que envolviam regras de público-alvo contendo parâmetros com pontos em seus nomes não retornavam a experiência esperada para decisões no dispositivo.
-* Correção de um bug na at.js 2.6.0, em que a at.js estava disparando uma chamada de delivery, mesmo quando `mboxDisable` foi ativado.
+* Correção de um bug introduzido na at.js 2.6.0, em que a at.js estava disparando uma chamada de delivery, mesmo quando `mboxDisable` foi ativado.
 
 Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
