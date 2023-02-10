@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1999'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 10 de fevereiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.14.5 do [!DNL Target Standard/Premium]. |
 | 8 de fevereiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a at.js 2.10.1. |
 | 2 de fevereiro | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Atualização da seguinte seção:<ul><li>O VEC não é exibido corretamente quando uso o modo de navegação</li></ul> |
 |  | [Criar públicos no Target](/help/main/c-target/c-audiences/create-audience.md) | Adição de uma lista dos caracteres e sequências de caracteres que não podem ser usados nos nomes de públicos. |
