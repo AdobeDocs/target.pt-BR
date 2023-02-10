@@ -1,13 +1,13 @@
 ---
 keywords: notas de versão;versões;atualizações;versão futura;melhorias;novos recursos;correções;atualizações;pré-lançamento
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na próxima versão do Adobe Target, incluindo SDKs, APIs e bibliotecas JavaScript.
-title: Quais novos recursos e melhorias serão incluídos na próxima versão?
+title: Os novos recursos e aprimoramentos estão incluídos na seção [!DNL Target] Liberar?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
+source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 73%
 
 ---
 
@@ -15,35 +15,22 @@ ht-degree: 100%
 
 Este artigo contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 
-**Última atualização: 26 de janeiro de 2023**
+**Última atualização: 10 de fevereiro de 2023**
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 22.13.3 (25 e 26 de janeiro de 2023)
+## [!DNL Target] Standard/Premium 22.14.5 (13-15 de fevereiro de 2023)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **25 de janeiro**: regiões da Europa, Oriente Médio e África (EMEA)
-* **25 de janeiro**: região da Ásia-Pacífico (APAC)
-* **26 de janeiro**: região das Américas
+* **13 de fevereiro**: Região das Américas
+* **15 de fevereiro**: Europa, Oriente Médio e África (EMEA)
+* **15 de fevereiro**: Região Ásia-Pacífico (APAC)
 
-Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
+Esta versão inclui as seguintes correções:
 
-| Recurso | Detalhes |
-| --- | --- |
-| Suporte à [oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) no Automated Personalization (AP) | Adição de suporte para ofertas JSON em atividades do [!UICONTROL Automated Personalization] (AP) usando o Experience Composer baseado em formulário. (TGT-41460) |
-| [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Adição da capacidade de distinguir entre tipos de fragmento do [!DNL Adobe Experience Manager] (AEM XF) exportados para o [!DNL Target]. Em vez da opção “Fragmento de experiência”, o [!DNL Target] agora permite filtrar e pesquisar por “HTML XF” e “JSON XF”. (TGT-44132) |
-
-* Correção de um problema que causava um &quot;erro 500&quot; no [!UICONTROL Teste A/B] e em atividades de [!UICONTROL Direcionamento de experiência] (XT) que contêm recomendações. Esse problema era causado quando o [!DNL Target] falhava ao excluir corretamente os objetos de critérios da interface do [!DNL Target] e do back-end do [!DNL Recommendations] que não estão mais em uso. (TGT-44383)
-* Remoção do local do nome de oferta exibido no relatório de [!UICONTROL Nível da oferta] das atividades em [!UICONTROL Automated Personalization]. Essa alteração torna o relatório mais legível. (TGT-44294)
-* As opções de calendário de 45 dias e 90 dias foram removidas do AP e dos relatórios de [!UICONTROL Direcionamento automático], [!UICONTROL Insights de personalização] e [!UICONTROL Atributos importantes] na interface do [!DNL Target]. Devido aos padrões de uso e para melhorar o desempenho, esses intervalos de datas foram removidos. A interface será atualizada para refletir os intervalos permitidos no momento: 15, 30 e 60 dias. (TGT-39357)
-* Remoção da capacidade de alterar a configuração [!UICONTROL Igual à meta de otimização] na página [!UICONTROL Metas e configurações] após a ativação da atividade. (TGT-43923)
-* Correção de um problema que causava problemas com o local de trabalho padrão no back-end do [!DNL Target] ao atualizar do [!DNL Target Standard] para o [!DNL Target Premium]. (TGT-44081 e TGT-44306)
-* Feita uma alteração para permitir conjuntos de relatórios do [!DNL Analytics] que contenham um caractere de ponto “.” em seus nomes a serem utilizados na interface do [!DNL Target] para criar feeds de classificação do [!DNL Analytics].
-* Alteração do link na página de [!UICONTROL Implementação] ([!UICONTROL Administração] > [!UICONTROL Implementação]) para os &quot;Métodos de implementação com decisão no dispositivo&quot; para apontar para a página que explica como usar a decisão no dispositivo para todos os SDKs compatíveis: Node.js, Java, .NET e Python. Para obter mais informações, consulte [Introdução aos SDKs de Target](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
-* Correção de um problema que causava problemas de upload de arquivo ao usar o [!DNL Scene7] e o [!DNL Target].
-* Aprimoramento da acessibilidade da interface do [!DNL Target] para pessoas com deficiência usando resultados de uma auditoria interna de usabilidade. Essas melhorias de acessibilidade incluem recursos que antes não eram acessíveis por meio do teclado, melhorias no texto alternativo, a capacidade de ampliar partes da interface para serem mais utilizáveis, foco do teclado aprimorado e muito mais.   (TGT-42759)
-* Várias correções de localização foram feitas na interface do [!DNL Target].
+* Correção de um problema que causava a seguinte mensagem de erro, mesmo se uma propriedade fosse especificada nas atividades do Automated Personalization (AP): &quot;Erros: Pelo menos uma propriedade deve pertencer a um espaço de trabalho não padrão&quot; (TGT-44607)
+* Correção de um possível problema de segurança que afetava os feeds do Recommendations do lado do servidor. (TGT-43769)
 
 ## Notas de versão adicionais e detalhes da versão
 
