@@ -47,7 +47,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 - [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 - [Recommendations](c-recommendations/recommendations.md): explica como as atividades do [!DNL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
 
-## Desenvolvedores  {#developers}
+## Desenvolvedores {#developers}
 
 - [Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}: este portal fornece recursos e guias para desenvolvedores do [!DNL Adobe Target], incluindo a documentação de API e SDK para implementação do [!DNL Target].
 

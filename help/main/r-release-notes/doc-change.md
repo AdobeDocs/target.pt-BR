@@ -64,9 +64,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 3 de outubro | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das datas da versão 22.10.1 do [!DNL Target Standard/Premium]. |
-| 22 de setembro | [[!DNL Adobe Target] Anúncios e eventos](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de perguntas e respostas da comunidade (28 de setembro de 2022) </li></ul> |
+| 22 de setembro | [[!DNL Adobe Target] Anúncios e eventos](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de perguntas e respostas da comunidade (28 de setembro de 2022)</li></ul> |
 | 15 de setembro | [[!DNL Adobe Target] Anúncios e eventos](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte webinário:<ul><li>Ajuste da personalização alimentada por IA: Novos recursos do [!DNL Adobe Target] (11 de outubro de 2022)</li></ul> |
-| 13 de setembro | [Compreensão da  [!DNL Target] interface](/help/main/c-intro/understand-the-target-ui.md)  | Adição de informações sobre notificações de falhas nos feeds do [!DNL Recommendations]. |
+| 13 de setembro | [Compreensão da  [!DNL Target] interface](/help/main/c-intro/understand-the-target-ui.md) | Adição de informações sobre notificações de falhas nos feeds do [!DNL Recommendations]. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.9.1 do [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.8.1 (lançamento escalonado: 17 a 18 de agosto de 2022)
