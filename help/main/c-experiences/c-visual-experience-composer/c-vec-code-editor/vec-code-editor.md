@@ -4,7 +4,7 @@ description: Saiba como usar o painel Modificações no Adobe [!DNL Target] para
 title: Quais modificações posso fazer na minha página?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 88%
@@ -139,17 +139,17 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
 * Ative o DOM pronto usando jQuery
 
-O exemplo a seguir usando o JQuery supõe que o site do cliente tem o jQuery disponível na página quando [!DNL Target] executa as ofertas.
+   O exemplo a seguir usando o JQuery supõe que o site do cliente tem o jQuery disponível na página quando [!DNL Target] executa as ofertas.
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * Trocar para modo pronto para DOM, sem jQuery (não suporta Internet Explorer 8)
 
