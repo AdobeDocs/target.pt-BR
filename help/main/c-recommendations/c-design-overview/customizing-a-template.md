@@ -4,10 +4,10 @@ description: Saiba como usar a linguagem de design de código aberto do Velocity
 title: Como personalizar um design usando o Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 78%
+source-wordcount: '1067'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Esses valores são referenciados com a seguinte sintaxe:
 $entityN.variable
 ```
 
-Os nomes de atributos da entidade devem seguir a notação taquigrafada da Velocity, que consiste em um *$* , seguido por um identificador da Linguagem de modelo da Velocity (VTL). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
+Os nomes dos atributos da entidade devem seguir a notação taquigrafada da Velocity, que consiste em um *$* , seguido por um identificador da Linguagem de modelo da Velocity (VTL). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
 
 Os nomes de atributos da entidade Velocity estão restritos aos seguintes tipos de caracteres:
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Para obter mais informações sobre as variáveis do Velocity (atributos), consulte [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Se você usar um script de perfil em seu design, o $ precedente ao nome do script deve ser evitado com um \. Por exemplo, `\${user.script_name}`.
+Se você usar um script de perfil em seu design, o $ precedente ao nome do script deverá ser evitado com um `\` (barra invertida). Por exemplo:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
