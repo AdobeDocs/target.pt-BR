@@ -1,13 +1,13 @@
 ---
 keywords: notas de versão;versões;atualizações;versão futura;melhorias;novos recursos;correções;atualizações;pré-lançamento
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na próxima versão do Adobe Target, incluindo SDKs, APIs e bibliotecas JavaScript.
-title: Os novos recursos e aprimoramentos estão incluídos na seção [!DNL Target] Liberar?
+title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ Este artigo contém informações de pré-lançamento. As datas de lançamento, 
 
 Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 22.14.5 (13-15 de fevereiro de 2023)
+## [!DNL Target] Standard/Premium 22.14.5 (13 a 15 de fevereiro de 2023)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **13 de fevereiro**: Região das Américas
-* **15 de fevereiro**: Europa, Oriente Médio e África (EMEA)
-* **15 de fevereiro**: Região Ásia-Pacífico (APAC)
+* **13 de fevereiro**: região das Américas
+* **15 de fevereiro**: regiões da Europa, Oriente Médio e África (EMEA)
+* **15 de fevereiro**: região Ásia-Pacífico (APAC)
 
 Esta versão inclui as seguintes correções:
 
-* Correção de um problema que causava a seguinte mensagem de erro, mesmo se uma propriedade fosse especificada nas atividades do Automated Personalization (AP): &quot;Erros: Pelo menos uma propriedade deve pertencer a um espaço de trabalho não padrão&quot; (TGT-44607)
-* Correção de um possível problema de segurança que afetava os feeds do Recommendations do lado do servidor. (TGT-43769)
+* Correção de um problema que exibia a seguinte mensagem de erro apesar de uma propriedade estar especificada nas atividades do Automated Personalization (AP): “Erros: pelo menos uma propriedade precisa pertencer a um espaço de trabalho não padrão” (TGT-44607)
+* Correção de um possível problema de segurança que afetava os feeds do Recommendations no lado do servidor. (TGT-43769)
 
 ## Notas de versão adicionais e detalhes da versão
 
