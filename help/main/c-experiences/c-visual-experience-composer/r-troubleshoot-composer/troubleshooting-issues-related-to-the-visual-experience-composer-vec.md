@@ -4,10 +4,10 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como solucionar problemas relacionados ao Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 67%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -123,7 +123,7 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 
 ## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Ao usar o modo de navegação, se você acessar um URL que não tenha [!DNL Target] bibliotecas implementadas ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) ou contém um cabeçalho frame-buster, o VEC parece quebrado. Devido a preocupações com a segurança do navegador, [!DNL Target] O não pode acessar corretamente o URL para o qual você navegou ou o URL do VEC não é atualizado de forma consistente se a página for carregada.
+Ao usar o modo de navegação, se você acessar um URL que não tenha [!DNL Target] bibliotecas implementadas ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) ou contém um cabeçalho frame-buster, o VEC parece quebrado. Devido a preocupações com a segurança do navegador, [!DNL Target] O não pode acessar corretamente o URL para o qual você navegou ou o URL do VEC não é atualizado de forma consistente se a página for carregada.
 
 Esse problema ocorre porque o VEC carrega a página da Web em uma `<iframe>`. Os mecanismos de segurança atuais dos navegadores impedem que [!DNL Target] Impedir a interface de acessar os elementos do quadro fornecido devido à política de mesma origem. Os navegadores bloqueiam scripts que tentam acessar um quadro com uma origem diferente e que inclui informações como `location.href`.
 

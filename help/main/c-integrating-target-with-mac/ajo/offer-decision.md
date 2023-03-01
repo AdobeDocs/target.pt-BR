@@ -4,10 +4,10 @@ description: Saiba como adicionar uma decisão de oferta criada no [!DNL Adobe J
 title: Como Usar As Decisões De Oferta?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 1%
+source-wordcount: '979'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Para obter mais informações sobre [!DNL Adobe Journey Optimizer] e decisões d
 
 Para usar decisões de oferta no [!DNL Target], você precisa do seguinte:
 
-* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] implementado usando o [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] implementado usando o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
    O recurso não está disponível ao implementar [!DNL Target] com at.js ou outro [!DNL Target] SDKs.
 
@@ -100,7 +100,7 @@ Entrada [!DNL Adobe Journey Optimizer], você pode criar uma oferta principal de
 
 Considere as seguintes informações ao trabalhar com as decisões de oferta:
 
-* A integração do offer decisioning funciona para [!DNL Target] implementações baseadas no [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Este recurso não está disponível ao implementar [!DNL Target] com at.js ou outro [!DNL Target] SDKs.
+* A integração do offer decisioning funciona para [!DNL Target] implementações baseadas no [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Este recurso não está disponível ao implementar [!DNL Target] com at.js ou outro [!DNL Target] SDKs.
 
 * A integração Target/Adobe Journey Optimizer é compatível [manual [!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) e [[!UICONTROL Direcionamento de experiência]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) somente atividades do. Este recurso não está disponível para outros tipos de atividades.
 

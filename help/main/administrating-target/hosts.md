@@ -5,9 +5,9 @@ title: O que são hosts e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1087'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Se um [!DNL Target] for feita em um host não autorizado, a chamada responderá 
 
 >[!IMPORTANT]
 >
->**Práticas recomendadas de segurança**: Se você usar a funcionalidade de ubox do [!DNL Target], essa inclui na lista de permissões também controla a lista de domínios para os quais o [redirecionadores](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} é possível navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se a inclui na lista de permissões mudar não for especificada, [!DNL Adobe] O não consegue verificar os URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
+>**Práticas recomendadas de segurança**: Se você usar a funcionalidade de ubox do [!DNL Target], essa inclui na lista de permissões também controla a lista de domínios para os quais o [redirecionadores](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} é possível navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se a inclui na lista de permissões mudar não for especificada, [!DNL Adobe] O não consegue verificar os URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
 >
 >A inclui na lista de permissões tem precedência sobre os ambientes. Limpe todos os hosts antes de usar o recurso de incluir na lista de permissões lista de permissões e, em seguida, somente os hosts permitidos pelo arquivo serão exibidos na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
