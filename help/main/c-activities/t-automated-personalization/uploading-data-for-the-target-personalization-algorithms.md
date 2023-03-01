@@ -1,21 +1,21 @@
 ---
-keywords: Automated Personalization, ap, carregar dados, dados offline, algoritmo de personalização, direcionamento automático, direcionamento automático, práticas recomendadas
-description: Saiba como fazer upload de dados offline, como informações de CRM, ao criar modelos de personalização no Adobe [!DNL Target] Atividades do Automated Personalization (AP).
+keywords: Automated Personalization;ap;carregar dados;dados offline;algoritmo de personalização;direcionamento automático;direcionamento automático;práticas recomendadas
+description: Saiba como carregar dados offline, como informações de CRM, ao criar modelos de personalização no Adobe [!DNL Target] Atividades do Automated Personalization (AP).
 title: Como posso fazer upload de dados para algoritmos de personalização?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 63%
+source-wordcount: '293'
+ht-degree: 37%
 
 ---
 
-# Upload de dados para o [!DNL Target] algoritmos de personalização
+# Carregar dados para o [!DNL Target] algoritmos de personalização
 
-Os dados offline, como informações de CRM ou pontuações de propensão de churn do cliente, podem ser extremamente valiosos ao criar modelos de personalização em [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
+Dados offline, como informações de CRM ou pontuações de propensão de churn do cliente, podem ser incrivelmente valiosos ao criar modelos de personalização no [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) atividades.
 
-Há várias maneiras de inserir dados em algoritmos de [!UICONTROL Personalização automatizada] (AP) e [!UICONTROL Direcionamento automático. ] Além dos métodos em [Métodos para colocar os dados no Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}, públicos-alvo compartilhados do Experience Cloud (Adobe Analytics, Gerenciamento de público-alvo){target=_blank} e públicos de relatório na atividade também são usados em nossos algoritmos.
+Há várias maneiras de inserir dados em algoritmos de [!UICONTROL Personalização automatizada] (AP) e [!UICONTROL Direcionamento automático. ] Além dos métodos em [Métodos para colocar os dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} e os públicos-alvo de relatório na atividade também são usados em nossos algoritmos.
 
 Para obter informações sobre os dados coletados e usados automaticamente pelos algoritmos de Personalização automatizada e Direcionamento automático, consulte [Coleção de dados de personalização automatizada](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
@@ -23,9 +23,9 @@ Para obter informações sobre os dados coletados e usados automaticamente pelos
 
 A lista a seguir apresenta as práticas recomendadas para fazer o upload de dados para os algoritmos de personalização do Target:
 
-* Quanto maior a quantidade de dados de alta qualidade disponíveis para os algoritmos de personalização do Target, melhor a qualidade dos modelos resultantes nas atividades de AP e Auto Target.
+* Quanto mais dados de alta qualidade estiverem disponíveis para os algoritmos de personalização do Target, melhor será a qualidade dos modelos resultantes em suas atividades de AP e de Direcionamento automático.
 * Limite o uso de vários scripts de perfil ou atributos que atendem o mesmo propósito.
-* Não transmita uma ID única, como uma ID de sessão, se não for necessário.
-* Analise quais dados o Target coleta automaticamente (  [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md)), de modo que você não envie informações duplicadas. Por exemplo, o Target usa endereços IP para determinar os códigos postais de visitantes. Não é necessário transmitir essas informações como uma variável separada.
-* Não transmita vários valores no mesmo atributo/variável. Se várias variáveis estiverem concatenadas, os algoritmos de personalização do Target vão tratar cada cadeia de caracteres como um valor único, reduzindo o valor das informações da personalização.
+* Não passe uma ID exclusiva, como uma ID de sessão, se não for necessária.
+* Analise quais dados o Target coleta automaticamente ( [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md)) para que você não envie informações duplicadas. Por exemplo, o Target usa endereços IP para determinar os códigos postais de visitantes. Não é necessário transmitir essas informações como uma variável separada.
+* Não transmita vários valores no mesmo atributo/variável. Se várias variáveis forem concatenadas, os algoritmos de personalização do Target tratarão cada string como um valor único, reduzindo o valor das informações para personalização.
 * Use uma convenção de nomenclatura memorável e significativa para tornar seus  [Relatórios de insights de personalização](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) mais fáceis de entender.

@@ -4,10 +4,10 @@ description: Encontre sugestões para ajudar a solucionar problemas se a página
 title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 96%
+source-wordcount: '1667'
+ht-degree: 95%
 
 ---
 
@@ -111,7 +111,7 @@ Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a im
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte [Depuração da at.js usando o Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
+Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ O Target não é mais compatível com o IE8.
 
 ## O cookie do Target não é definido {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisar que o cookie do esteja definido em [!DNL domain.com] (em vez de [!DNL us.domain.com]), você deve substituir a configuração `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
+Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisar que o cookie do esteja definido em [!DNL domain.com] (em vez de [!DNL us.domain.com]), você deve substituir a configuração `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 
 ## O conteúdo do Target cintila ou não é exibido caso um elemento também faça parte da personalização do Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ Mas e se o URL contiver parâmetros de sequência de consulta? Ele funcionará e
 
 As seguintes opções podem ser usadas para incluir regras de modelo adicionais:
 
-### Opção 1: Replique o URL e mantenha-o na regra de modelo com a opção “contém”.
+### Opção 1: Replique o URL e mantenha-o na regra de modelo com a opção &quot;contém&quot;.
 
 Essa opção garante que esse URL se qualifica para a atividade. Mas saiba que há casos de exceção anexados a ela que podem influenciar seus dados de relatório com registros adicionais para URLs que contêm o URL de base.
 
@@ -173,7 +173,7 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e r
 
 ![Replicar o URL nas regras de modelo](assets/option1.png)
 
-### Opção 2: Restrinja a condição “contém” do URL somente com a sequência de consulta.
+### Opção 2: Restrinja a condição &quot;contém&quot; do URL somente com a sequência de consulta.
 
 O caso de exceção discutido na opção anterior é aplicado nesta opção, mas aqui a configuração condicional é limitada somente à sequência de consulta.
 
@@ -187,9 +187,9 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e r
 
 ![Regra de modelo aproveitando uma parte específica do URL](assets/option3.png)
 
-## Escapando aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado. {#escape}
+## Evitar aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado. {#escape}
 
-Quando você envia valores contendo aspas duplas em um [!DNL Target] do perfil, você deve omitir duas vezes como mostrado abaixo.
+Quando você envia valores contendo aspas duplas em um [!DNL Target] atributo de perfil, você deve fazer o escape duas vezes como mostrado abaixo.
 
 ```
 adobe.target.trackEvent({
