@@ -5,10 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 94%
+source-wordcount: '1582'
+ht-degree: 83%
 
 ---
 
@@ -66,17 +66,33 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
    Se um cliente exceder 100 solicitações simultâneas de entrega de conteúdo [!DNL Target] para determinada sessão de usuário, todas as solicitações subsequentes para essa sessão de usuário serão bloqueadas. Duas ou mais solicitações serão consideradas simultâneas se todas forem enviadas ao servidor [!DNL Target] antes que a resposta seja recebida para qualquer uma delas. [!DNL Target] processa solicitações simultâneas para a mesma sessão sequencialmente.
 
-* **Comportamento de erro**:
+   * **Comportamento de erro**:
 
-   * API de entrega e mBox de lote v2:
-      * Código de erro: HTTP 420 Demasiadas solicitações
-      * Mensagem de erro: &quot;Muitas solicitações com a mesma ID de sessão&quot;
-   * API mBox herdada:
-      * Conteúdo padrão com comentário &quot;Muitas solicitações com a mesma ID de sessão&quot;
-   * at.js:
-      * Conteúdo padrão exibido
+      * API de entrega e mBox de lote v2:
+         * Código de erro: HTTP 420 Demasiadas solicitações
+         * Mensagem de erro: &quot;Muitas solicitações com a mesma ID de sessão&quot;
+      * API mBox herdada:
+         * Conteúdo padrão com comentário &quot;Muitas solicitações com a mesma ID de sessão&quot;
+      * at.js:
+         * Conteúdo padrão exibido
 
 
+
+* **Limite**: 50 mboxes por [!DNL Target] solicitação de mbox de lote de entrega de conteúdo.
+
+   Superior a 50 mboxes por [!DNL Target] a solicitação de mbox de lote de entrega de conteúdo resulta em um código de erro de resposta `HTTP 400` com mensagem de erro `size must be between 0 and 50`.
+
+   As solicitações de mbox de lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais mboxes na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Se a renderização da experiência estiver bloqueada nessas solicitações em lote de alta latência, a latência pode resultar em uma experiência do usuário degradada, à medida que os usuários aguardam a renderização das experiências.
+
+* **Limite**: tamanho do corpo do POST HTTP de 60 MB para [!DNL Target] solicitações de entrega de conteúdo.
+
+   Excedendo 60 MB no tamanho do corpo do POST HTTP de um [!DNL Target] a solicitação de entrega de conteúdo resulta em um código de erro de resposta `HTTP 413 Request Entity Too Large`.
+
+* **Limite recomendado**: 50 notificações por [!DNL Target] solicitação de lote de entrega.
+
+   Superior a 50 notificações por [!DNL Target] a solicitação em lote de delivery provavelmente resulta em maior latência de resposta e tempos limite.
+
+   As solicitações de notificação em lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais notificações na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Algumas latências adicionais nas solicitações de notificação em lote podem ser aceitáveis para alguns clientes, mas esteja ciente de que tempos limite e quaisquer tentativas subsequentes podem causar ainda mais latência.
 
 ## Atributos do cliente
 
@@ -139,7 +155,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ### Experiências por atividade
 
-* **Limite**: 2.000 experiências por [!UICONTROL Direcionamento de experiência] (XT), [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT) e [!UICONTROL Direcionamento automático] atividade .
+* **Limite**: 2.000 experiências por [!UICONTROL Direcionamento de experiência] XT), [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT) e [!UICONTROL Direcionamento automático] atividade.
 
    30.000 experiências por atividade de Automated Personalization (AP).
 
@@ -163,13 +179,13 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 250 caracteres.
 
-   Para a API de entrega (at.js 2.*x*), integração de mbox em lote V2 e SDK da Web da AEP (alloy.js), nomes de mbox *can* contém caracteres alfanuméricos (A-Z, a-z, 0-9) e qualquer um dos seguintes caracteres:
+   Para a API de entrega (at.js 2.*x*), Batch mbox V2 e integrações SDK da Web da AEP (alloy.js), nomes de mbox *pode* Conter caracteres alfanuméricos (A-Z, a-z, 0-9) e qualquer um dos seguintes caracteres:
 
    ```
    - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
    ```
 
-   Para at.js 1.*x* integrações, nomes de mbox *cannot* contém qualquer um dos seguintes caracteres:
+   Para at.js 1.*x* integrações, nomes de mbox *não é possível* Conter qualquer um dos seguintes caracteres:
 
    ```
    ' " %22 %27 < > %3C %3E 
