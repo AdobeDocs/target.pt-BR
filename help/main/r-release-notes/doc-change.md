@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
 source-wordcount: '2072'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 23 de fevereiro | [Migrar o Target da at.js 2.*x* para o SDK da Web da plataforma](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | Novo tutorial adicionado. |
-| 21 de fevereiro | [Lista de permissões de nós de borda no Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Atualização da lista de endereços IP a serem lista de permissões para todas as regiões na [Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
-|  | [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Foi adicionado um texto explicando que o exemplo usando o JQuery assume que o site do cliente tem o jQuery disponível na página quando [!DNL Target] executa as ofertas. |
+| 23 de fevereiro | [Migrar o Target da at.js 2.*x* para o SDK da web da Platform](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=pt-BR){target=_blank} | Adição de um novo tutorial. |
+| 21 de fevereiro | [Lista de permissões de nós de borda no Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Atualização da lista de endereços IP a serem inseridos na lista de permissões para todas as regiões no [Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Adição de um texto explicando que o exemplo de uso do JQuery presume que o site do cliente tem o JQuery disponível na página quando o [!DNL Target] executa as ofertas. |
 | 10 de fevereiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.14.5 do [!DNL Target Standard/Premium]. |
 | 8 de fevereiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a at.js 2.10.1. |
 | 2 de fevereiro | [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Atualização da seguinte seção:<ul><li>O VEC não é exibido corretamente quando uso o modo de navegação</li></ul> |
