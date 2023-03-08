@@ -4,7 +4,7 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 95%
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
-## ## [!DNL Target] Standard/Premium 22.15.1 (8 e 9 de março de 2023)
+## [!DNL Target] Standard/Premium 22.15.1 (8 e 9 de março de 2023)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
