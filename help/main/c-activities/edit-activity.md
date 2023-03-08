@@ -1,19 +1,19 @@
 ---
 keywords: atividades; atividade; tipos de atividade; editar atividade; editar; rascunho
 description: Saiba mais sobre as diferentes maneiras de editar uma atividade existente no Adobe Target, incluindo como salvar uma atividade no formato de rascunho.
-title: Como editar uma atividade ou salvar como rascunho?
+title: Como editar uma atividade ou Salvar como rascunho?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 95%
+source-wordcount: '1211'
+ht-degree: 91%
 
 ---
 
 # Editar uma atividade ou Salvar como rascunho
 
-Informações sobre as diferentes maneiras de editar uma atividade existente no [!DNL Adobe Target], incluindo como salvar uma atividade no formato de rascunho.
+Informações sobre as diferentes maneiras de editar uma atividade existente no [!DNL Adobe Target], incluindo salvar uma atividade no formato de rascunho.
 
 O destino fornece vários locais na IU onde você pode editar atividades existentes. Esse processo varia conforme o método escolhido por você.
 
@@ -105,3 +105,11 @@ Leve em consideração as seguintes informações ao usar a funcionalidade de co
 * Ao copiar uma atividade para um espaço de trabalho diferente, a atividade é copiada para o outro espaço de trabalho sem abri-lo no fluxo de criação da atividade. Depois que a atividade for copiada com êxito, uma mensagem é exibida, indicando que a atividade foi copiada com êxito e inclui um link para abrir a nova atividade.
 
 Se o seu ambiente não tiver a funcionalidade Permissões de usuário empresarial ativada, todas as atividades se abrirão no modo de edição antes de copiar.
+
+## Práticas recomendadas
+
+* Como prática recomendada, tente atualizar a atividade usando o mesmo método (interface do usuário ou API) usado para criar a atividade originalmente.
+
+   Atividades criadas usando o [!DNL Target] A interface do usuário deve ser atualizada por meio da [!DNL Target] IU. As atividades criadas por meio da API devem ser atualizadas por meio da API. Se originalmente você criar uma atividade usando a API, por exemplo, mas posteriormente editar a atividade por meio da variável [!DNL Target] Interface do usuário do, nem todas as alterações são atualizadas. Todas as alterações são armazenadas no back-end e podem ser atualizadas fazendo outra chamada de API.
+
+
