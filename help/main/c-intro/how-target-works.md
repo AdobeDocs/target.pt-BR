@@ -4,10 +4,10 @@ description: Saiba como o  [!DNL Adobe Target]  funciona, incluindo informaçõe
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: ht
-source-wordcount: '2583'
-ht-degree: 100%
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
+workflow-type: tm+mt
+source-wordcount: '2562'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre as bibl
 
 O [!DNL Target] integra-se a sites usando o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** O [SDK da Web da Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} é uma nova biblioteca de JavaScript do lado do cliente. O [!DNL Experience Platform Web SDK] permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da rede de borda da [!DNL Experience Platform]. A [!DNL Adobe] recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
-* **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. A [!DNL Adobe] recomenda que todos os clientes que usam a at.js atualizem suas implementações para a [versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** A variável [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} O é uma nova biblioteca JavaScript do lado do cliente. O [!DNL Experience Platform Web SDK] permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da rede de borda da [!DNL Experience Platform]. A [!DNL Adobe] recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. [!DNL Adobe] A recomenda que todos os clientes que usam a at.js atualizem suas implementações para o [versão mais recente da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 >[!NOTE]
 >
@@ -178,7 +178,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
    O [!DNL Adobe] continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, a [!DNL Adobe] está confiante de que a implementação adequada das tags canônicas diminui o risco associado a essa abordagem.
 
-* **Execute experimentos somente enquanto for necessário**: a [!DNL Adobe] acredita que “conforme necessário” é o quanto for necessário para atingir significância estatística. O [!DNL Target] fornece práticas recomendadas e a [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) do [!DNL Adobe Target] para determinar quando seu teste atingiu esse ponto. A [!DNL Adobe] recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
+* **Execute experimentos somente enquanto for necessário**: a [!DNL Adobe] acredita que “conforme necessário” é o quanto for necessário para atingir significância estatística. [!DNL Target] O fornece práticas recomendadas e a [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para determinar quando seu teste atingiu este ponto. A [!DNL Adobe] recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
    A utilização da plataforma [!DNL Target] para “publicar” testes vencedores não é recomendada como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários em 100% das vezes, essa abordagem poderá ser usada enquanto o processo de codificação rígida do teste vencedor for concluído.
 
