@@ -4,9 +4,9 @@ description: Saiba como criar [!UICONTROL Alocação automática] e [!UICONTROL 
 title: O A4T suporta [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] Atividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1292'
 ht-degree: 2%
 
 ---
@@ -62,39 +62,18 @@ Para começar:
 * [!DNL Adobe Analytics] métricas de conversão
 * [!DNL Adobe Analytics] eventos personalizados
 
-[!DNL Target] permite escolher métricas baseadas em eventos binomiais ou métricas baseadas em eventos contínuos ao usar [!UICONTROL A4T] para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades.
+[!UICONTROL A4T] para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] exige que você escolha uma métrica baseada em um evento binomial. Um evento binomial acontece ou não. Os eventos binomiais incluem um clique, uma conversão, uma ordem e assim por diante. Esses tipos de eventos também são por vezes referidos como Bernoulli, binários ou discretos.
 
-* **Métricas baseadas em eventos binomiais**: um evento binomial acontece ou não. Os eventos binomiais incluem um clique, uma conversão, uma ordem e assim por diante. Esses tipos de eventos também são por vezes referidos como Bernoulli, binários ou discretos.
+[!UICONTROL A4T] para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] não suporta otimização para métricas contínuas. As métricas contínuas incluem receita, número de produtos solicitados, duração da sessão, número de exibições de página na sessão e assim por diante. Esses tipos de métricas não suportados às vezes também são chamados de métricas não binomiais ou não Bernoulli.
 
-* **Métricas baseadas em eventos contínuos**. As métricas contínuas incluem receita, número de produtos solicitados, duração da sessão, número de exibições de página na sessão e assim por diante. Esses tipos de eventos também são às vezes referidos como métricas não binomiais ou não-Bernoulli.
+Os seguintes tipos de métricas não são compatíveis como métricas de meta principal:
 
->[!IMPORTANT]
->
->A partir da [!DNL Adobe Target Standard/Premium] Versão 22.15.1 (8 e 9 de março de 2023), [!DNL Target] O continua a oferecer suporte a atividades existentes com as métricas que agora não são compatíveis (listadas nas tabelas a seguir). No entanto, após 9 de setembro de 2023, essas métricas não serão mais compatíveis com as atividades existentes e todas as atividades que usam métricas não compatíveis serão descontinuadas para forçar a migração de atividades existentes para o novo comportamento.
+* [!DNL Adobe Target] métricas de envolvimento e receita
+* [!DNL Adobe Analytics] métricas de envolvimento e receita
 
-### Impacto em [!UICONTROL Alocação automática] atividades
+   É possível selecionar um [!DNL Analytics] métrica de envolvimento ou receita como sua métrica de meta principal porque [!DNL Target] não é possível identificar e excluir todas as métricas de envolvimento e receita do [!DNL Analytics]. Selecione somente métricas de conversão binomial ou eventos personalizados em [!DNL Analytics].
 
-| Nome da métrica | Não é mais compatível com: |
-| --- | --- |
-| [!UICONTROL averagepagedepth] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL averagetimespentonsite] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL bouncerate] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL devoluções] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL entradas] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL saídas] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL pageviews] | Maximizar valor de métrica |
-| [!UICONTROL recarregamentos] | Maximizar valor de métrica |
-| [!UICONTROL visitantes] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL visitas] | Maximizar valor de métrica |
-
-### Impacto em [!UICONTROL Direcionamento automático] atividades
-
-| Nome da métrica | Não é mais compatível com: |
-| --- | --- |
-| [!UICONTROL cartremovals] | Maximizar valor de métrica |
-| [!UICONTROL pageviews] | Maximizar valor de métrica |
-| [!UICONTROL visitantes] | Taxa de conversão, maximizar valor da métrica |
-| [!UICONTROL visitas] | Maximizar valor de métrica |
+* [!DNL Adobe Analytics] métricas calculada
 
 ## Limitações e observações
 
