@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
-description: Conheça os conceitos básicos do Adobe [!DNL Target] Padrão e Adobe [!DNL Target] Premium. [!DNL Target] O Premium inclui recursos avançados não disponíveis no produto padrão.
+description: Aprenda os conceitos básicos do Adobe [!DNL Target] Padrão e Adobe [!DNL Target] Premium. [!DNL Target] O Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: O que é o Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ As práticas recomendadas do setor são integradas no [!DNL Target Standard]. O 
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 O [!DNL Target Premium] é uma oferta avançada do [!DNL Target] que requer uma licença para adicionar recursos premium ao [!DNL Target Standard].
 
-Todos os artigos do [!DNL Target Premium] neste guia de ajuda incluem o selo Premium na parte superior de cada página:
+Todos [!DNL Target Premium] os artigos nos guias do Target incluem o selo Premium na parte superior de cada página ou em linha próximo ao texto afetado. O selo Premium é clicável e inclui um link para esta seção.
 
-![Selo premium](/help/main/assets/premium.png)
-
-O Target inclui os seguintes recursos premium:
+[!DNL Target Premium] O inclui os seguintes recursos:
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Essa funcionalidade permite capacidades nunca antes vistas, como:
 ### Permissões de usuário empresarial
 
 A funcionalidade de [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) permite que você crie projetos diferentes (chamados de &quot;Perfis de produto&quot; no [!DNL Adobe Admin Console for Enterprise]). As [!UICONTROL Permissões de usuário empresarial] permitem que você atribua permissões diferentes para um único usuário que concede direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes podem restringir o acesso de exibição, edição, aprovação e publicação aos usuários. Você pode restringir usuários com base na região, no ambiente (dev/estágio/prod), no canal ou em outros critérios personalizados.
+
+## Recursos beta {#beta}
+
+[!BADGE Beta]{type=Informative}
+
+A variável [!DNL Adobe Target] A equipe do frequentemente ativa recursos para clientes selecionados para fins de teste e feedback antes de ativar esses recursos para todos os clientes em versões futuras.
+
+Artigos em [!DNL Target] os guias que descrevem recursos Beta incluem o selo Beta na parte superior de cada página ou em linha próximo ao texto afetado. O selo Beta é clicável e inclui um link para esta seção.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
