@@ -5,10 +5,10 @@ landing-page-description: Personalize a experiência de seus clientes para maxim
 title: O que é o Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ As práticas recomendadas do setor são integradas no [!DNL Target Standard]. O 
 
 O [!DNL Target Premium] é uma oferta avançada do [!DNL Target] que requer uma licença para adicionar recursos premium ao [!DNL Target Standard].
 
-Todos [!DNL Target Premium] os artigos nos guias do Target incluem o selo Premium na parte superior de cada página ou em linha próximo ao texto afetado. O selo Premium é clicável e inclui um link para esta seção.
+Todos [!DNL Target Premium] artigos em [!DNL Target] os guias incluem o [!UICONTROL Premium] na parte superior de cada página ou em linha próximo ao texto afetado. A variável [!UICONTROL Premium] é clicável e inclui um link para esta seção.
 
-[!DNL Target Premium] O inclui os seguintes recursos:
+**[!DNL Target Premium]O inclui os seguintes recursos:**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ A funcionalidade de [Permissões de usuário empresarial](/help/main/administrat
 
 [!BADGE Beta]{type=Informative}
 
-A variável [!DNL Adobe Target] A equipe do frequentemente ativa recursos para clientes selecionados para fins de teste e feedback antes de ativar esses recursos para todos os clientes em versões futuras.
+A variável [!DNL Adobe Target] A equipe do geralmente ativa novos recursos para clientes selecionados para fins de teste e feedback. Após a conclusão do período de teste, esses recursos serão habilitados para todos os clientes no futuro [!DNL Target Standard/Premium] versões e anunciadas nas notas de versão.
 
 Artigos em [!DNL Target] os guias que descrevem recursos Beta incluem o selo Beta na parte superior de cada página ou em linha próximo ao texto afetado. O selo Beta é clicável e inclui um link para esta seção.
 
