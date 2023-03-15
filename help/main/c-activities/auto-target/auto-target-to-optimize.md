@@ -2,16 +2,17 @@
 keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, perguntas frequentes, solução de problemas, solucionar problemas
 description: Saiba como uma [!UICONTROL Direcionamento automático] atividade em [!DNL Target] O retorna a experiência mais personalizada para cada visitante com base nos perfis do cliente e no comportamento de visitantes semelhantes.
 title: O que é um [!UICONTROL Direcionamento automático] Atividade?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1965'
 ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Direcionamento automático] visão geral
+# [!UICONTROL Visão geral do direcionamento automático]
 
 [!UICONTROL Direcionamento automático] atividades em [!DNL Adobe Target] use aprendizagem de máquina avançada para selecionar entre várias experiências definidas pelo profissional de marketing com desempenho elevado para personalizar o conteúdo e gerar conversões. [!UICONTROL Direcionamento automático] O retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 

@@ -2,16 +2,17 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, perguntas frequentes, perguntas frequentes, atributos importantes
 description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
 title: Qual é o relatório de atributos importantes?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1723'
 ht-degree: 81%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Relatório de atributos importantes
+# Relatório de atributos importantes
 
 Informações sobre o [!UICONTROL Atributos importantes] , um dos dois relatórios especializados disponíveis aos usuários do [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT).
 

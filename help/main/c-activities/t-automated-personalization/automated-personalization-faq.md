@@ -2,16 +2,17 @@
 keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, personalização automatizada, controle, experiência padrão, práticas recomendadas
 description: Explore uma lista de perguntas frequentes e respostas sobre as atividades do Automated Personalization (AP) no Adobe Target.
 title: Como posso encontrar perguntas frequentes sobre as atividades do Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 76%
+source-wordcount: '2003'
+ht-degree: 77%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Perguntas frequentes do Automated Personalization
+# Perguntas frequentes do Automated Personalization
 
 Lista de perguntas frequentes sobre a Personalização automatizada (AP).
 
@@ -58,7 +59,7 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com a [!UICO
 
 [!DNL Target]O tem um limite rígido de 30.000 experiências, mas funciona no seu melhor quando menos de 10.000 experiências são criadas.
 
-Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a variável [!UICONTROL Descarregar duplicatas] opção.
+Esse mesmo limite é aplicado mesmo quando a atividade tiver ativado a opção [!UICONTROL Não permitir duplicações].
 
 ### Como é implementado o direcionamento no nível da oferta?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

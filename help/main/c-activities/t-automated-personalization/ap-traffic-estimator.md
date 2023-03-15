@@ -2,16 +2,17 @@
 keywords: avaliador de tráfego, personalização automatizada, ap, estimar tráfego, direcionamento automático
 description: Use o Adobe [!DNL Target] Avaliador de tráfego para determinar se você tem tráfego suficiente para que sua atividade do Automated Personalization seja bem-sucedida.
 title: Quanto tráfego é necessário para uma atividade bem-sucedida?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 14%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Estimativa do tráfego necessário para o sucesso
+# Estimativa de tráfego exigido para o sucesso
 
 O [!DNL Adobe Target] [!UICONTROL Avaliador de tráfego] fornece feedback que permite saber se você tem tráfego suficiente para [!UICONTROL Automated Personalization] atividade para ser bem-sucedida.
 

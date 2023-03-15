@@ -2,16 +2,17 @@
 keywords: coleção, direcionamento
 description: Saiba como usar coleções no Adobe [!DNL Target] Recommendations. Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação.
 title: Como uso coleções nas atividades do Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 59%
+source-wordcount: '883'
+ht-degree: 60%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Coleções
+# Coleções
 
 Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação. Uma coleção é definida especificando as condições que devem ser atendidas pelos itens que farão parte dela.
 
@@ -45,7 +46,7 @@ Crie uma coleção para organizar os produtos ou conteúdo que deseja mostrar na
 
    ![Ícones de flutuação: editar, copiar e excluir](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   O “Número de itens” relatado para cada coleção na exibição de lista das [!UICONTROL Coleções] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para alterar o grupo de hosts padrão.
+   O “Número de itens” relatado para cada coleção na exibição de lista das [!UICONTROL Coleções] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/) para alterar o grupo de hosts padrão.{target=_blank}
 
 1. Clique em **[!UICONTROL Criar coleção]**.
 

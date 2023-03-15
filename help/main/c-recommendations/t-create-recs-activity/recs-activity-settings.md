@@ -2,16 +2,17 @@
 keywords: Recommendations, Configurações, nome, objetivo, prioridade, duração, configurações de relatórios, outros metadados
 description: Saiba como definir as configurações usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
 title: Como defino as configurações de atividade do Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 84%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Configurações de atividade do Recommendations
+# Configurações de atividade do Recommendations
 
 Informações sobre as configurações que podem ser usadas para descrever e controlar um [!UICONTROL Recommendations] atividade em [!DNL Adobe Target].
 

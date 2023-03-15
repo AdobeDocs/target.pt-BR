@@ -2,16 +2,17 @@
 keywords: Criar direcionamento automático, teste A/B, atividade de direcionamento automático, nova atividade a/b, direcionamento automático, direcionamento automático para experiências personalizadas, personalizadas, otimização
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL Target] para criar sua atividade de Teste A/B de Direcionamento automático diretamente em um [!DNL Target]página ativada.
 title: Como criar uma atividade de direcionamento automático?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 49%
+source-wordcount: '927'
+ht-degree: 50%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Criar uma atividade de Direcionamento automático
+# Criar uma atividade de direcionamento automático
 
 Use o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] para criar [!UICONTROL Direcionamento automático] [!UICONTROL Teste A/B] atividade diretamente em uma [!DNL Target]página ativada e para modificar partes da página no [!DNL Target].
 

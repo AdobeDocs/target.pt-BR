@@ -2,16 +2,17 @@
 keywords: personalização automatizada, ap, audiences, conjunto, random forest, variação residual, variação de erro, valor histórico
 description: Saiba como criar um [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target] usando o [!UICONTROL Visual Experience Composer].
 title: Como criar um [!UICONTROL Automated Personalization] Atividade?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 8a791d4266cb03fef498ac6f852d4a5755ba66a6
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1853'
 ht-degree: 62%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Criar uma atividade de personalização automatizada
+# Criar uma atividade de [!UICONTROL Automated Personalization]
 
 Crie um [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target] usando o [!UICONTROL Visual Experience Composer] (VEC).
 

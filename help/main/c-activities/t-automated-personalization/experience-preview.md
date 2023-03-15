@@ -2,16 +2,17 @@
 keywords: visualização de experiência, urls de experiências, gerar urls, ver urls de experiências
 description: Saiba como usar URLs de visualização de experiência para o Adobe [!DNL Target] Atividades do Automated Personalization para ver o conteúdo da experiência diretamente no site antes da atividade ser ativada.
 title: Como posso usar URLs de visualização de experiência nas atividades do Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Visualizar atividades do Automated Personalization com URLs de visualização da experiência
+# Pré-visualizar atividades do Automated Personalization com URLs de visualização da experiência
 
 Os URLs de visualização da experiência podem ser gerados para [!DNL Target] [!UICONTROL Automated Personalization] para ver o conteúdo da experiência diretamente no site antes que a atividade seja ativada para fins de visualização e controle de qualidade. Os URLs de visualização de experiência ignoram o direcionamento para forçar a visualização de uma experiência específica.
 

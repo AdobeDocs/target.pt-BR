@@ -2,16 +2,17 @@
 keywords: relatórios, direcionamento automático, direcionamento automático, AT, relatório
 description: Saiba como interpretar o relatório de Resumo do direcionamento automático no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes desse relatório.
 title: Como uso o relatório de resumo do direcionamento automático?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '688'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Relatório de Resumo do direcionamento automático
+# Relatório de Resumo do direcionamento automático
 
 Informações sobre como interpretar o [!UICONTROL Resumo do direcionamento automático] relatórios em [!DNL Adobe Target].
 

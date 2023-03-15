@@ -2,16 +2,17 @@
 keywords: fonte de dados comportamentais, analytics, recommendations, critérios, variáveis de produto
 description: Saiba como usar [!DNL Adobe Analytics] como a fonte de dados comportamentais para usar os dados comportamentais baseados em visualização e/ou baseados em compras do [!DNL Analytics] em [!DNL Target Recommendations].
 title: Como usar [!DNL Adobe Analytics] com [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Use [!DNL Adobe Analytics] com [!DNL Recommendations]
+# Use [!DNL Adobe Analytics] com [!DNL Recommendations]
 
 Usando [!DNL Adobe Analytics] já que a fonte de dados comportamentais permite que os clientes usem os dados comportamentais baseados em visualização e/ou compra do [!DNL Analytics] em [!DNL Adobe Target] [!DNL Recommendations] atividades. Esse recurso é especialmente útil em situações em que a variável [!DNL Target Recommendations] a configuração é nova e [!DNL Analytics] O tem muitos dados históricos para usar.
 

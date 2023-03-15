@@ -2,16 +2,17 @@
 keywords: random forest, árvore de decisão, ap, Automated Personalization
 description: Saiba mais sobre o Adobe [!DNL Target] O usa o algoritmo Random Forest nas atividades Automated Personalization (AP) e Direcionamento automático .
 title: Como [!DNL Target] Usar o Algoritmo Random Forest?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1426'
 ht-degree: 94%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Algoritmo Random Forest
+# Algoritmo Random Forest
 
 O principal algoritmo de personalização do Target usado na Personalização automatizada e no Direcionamento automático é o Random Forest. Métodos de conjunto como a Random Forest usam vários algoritmos de aprendizagem para obter desempenhos preditivos melhores dos que poderiam ser obtidos de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest da Personalização automatizada é um método de classificação ou regressão que funciona por meio da construção de várias de árvores de decisão durante o treinamento.
 

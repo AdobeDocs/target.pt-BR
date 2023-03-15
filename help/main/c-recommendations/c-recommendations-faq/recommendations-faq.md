@@ -2,16 +2,17 @@
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Veja uma lista de perguntas frequentes e respostas sobre atividades do Adobe [!DNL Target] Recommendations.
 title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target]  Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3399'
 ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Perguntas frequentes sobre o Recommendations
+# Perguntas frequentes do Recommendations
 
 Lista de perguntas frequentes sobre as atividades do [!DNL Adobe Target] [!DNL Recommendations].
 
@@ -94,7 +95,7 @@ Se a localização na qual você estiver aplicando esse critério não contiver 
 
 Se você usar um local em que a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-[!DNL Target] tem um [Filtrar critérios incompatíveis](https://developer.adobe.com/target/implement/recommendations/)Configuração {target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
+O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >

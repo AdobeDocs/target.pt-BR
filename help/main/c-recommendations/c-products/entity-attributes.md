@@ -1,17 +1,18 @@
 ---
 keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
 description: Saiba como usar atributos de entidade para transmitir informações de produto ou conteúdo ao [!DNL Target] Recommendations.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: Como Posso Usar Atributos De Entidade?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 54%
+source-wordcount: '1078'
+ht-degree: 55%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Atributos da entidade
+# Atributos da entidade
 
 Use atributos de entidade para passar informações do produto ou conteúdo para o [!DNL Adobe Target Recommendations].
 
@@ -30,7 +31,7 @@ Em geral, a mbox de informações de exibição é semelhante ao seguinte exempl
 
 >[!NOTE]
 >
->Se estiver usando a at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o [!DNL Recommendations] usando a at.js 2.*x*, use [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. Para ver um exemplo, consulte [Planejar e implementar o Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+>Se estiver usando a at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o [!DNL Recommendations] usando a at.js 2.*x*, use [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -113,7 +114,7 @@ Para recomendações baseadas em categorias, uma vírgula separa o valor da cate
 Por exemplo, no código a seguir, a categoria Mulheres é dividida em várias subcategorias:
 
 ```javascript
-mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
+mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
 Para a entrega da mbox, o maior nome de atributo é usado para a chave. Se houver um vínculo, o último atributo será usado. No exemplo acima, a chave da categoria é Womens:Outerwear:Jackets:Caban.
