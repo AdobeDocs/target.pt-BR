@@ -2,16 +2,17 @@
 keywords: pesquisa de catálogo, catálogo, pesquisa, exclusão, coleção, filtro
 description: Saiba como usar a Pesquisa no catálogo do Recommendations para localizar produtos ou conteúdo, criar coleções ou exclusões, remover itens do catálogo e muito mais.
 title: Como uso a pesquisa no catálogo do Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 23%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Pesquisa no catálogo
+# Pesquisa no catálogo
 
 O [!UICONTROL Pesquisa no catálogo] em [!DNL Adobe Recommendations] O ajuda a localizar os produtos ou conteúdo no catálogo. A tarefa mais básica que você pode executar nesta página é procurar um item. Além disso, você pode alterar o ambiente, salvar os resultados da pesquisa em coleções ou exclusões, adicionar facetas de filtro e modificar colunas na tabela, adicionar novas facetas de pesquisa e muito mais.
 

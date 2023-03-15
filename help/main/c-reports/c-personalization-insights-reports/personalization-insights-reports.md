@@ -2,16 +2,17 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes, atributos importantes
 description: Saiba como usar os relatórios especializados para atividades de Automated Personalization (AP) e Direcionamento automático (AT) - Segmentos automatizados e atributos importantes.
 title: Como uso os relatórios de insights de personalização?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 57%
+source-wordcount: '908'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Relatórios de insights de personalização
+# Relatórios de insights de personalização
 
 Dois relatórios especializados estão disponíveis para usuários de atividades de [!UICONTROL Automated Personalization] (AP) e Direcionamento automático (AT): os relatórios de [!UICONTROL Segmentos automatizados] e atributos importantes.
 
@@ -48,7 +49,7 @@ Dois [!UICONTROL Insights de personalização] os relatórios estão disponívei
 Há dois tipos de atributos representados nos [!UICONTROL Insights de personalização] que são usados nos modelos de AP ou Direcionamento automático:
 
 * **Atributos coletados automaticamente pelo :**[!DNL Target]o Target usa um conjunto de dados básico para criar seus algoritmos de personalização em atividades de AP e AT, que são refletidas nos Insights de personalização. Consulte [Coleta de dados para algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md) para obter os tipos de dados, atributos de exemplo e sua convenção de nomenclatura do [!UICONTROL Insights de personalização]. Observe que, embora esses atributos sejam considerados, os modelos de uma atividade individual podem não usar todos esses atributos no modelo final.
-* **Atributos passados para o Target:** consulte  [Fazer upload de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* **Atributos passados para o Target:** Consulte [Fazer upload de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target]O fornece muitas maneiras de passar os dados adicionais para o , a fim de enriquecer o conjunto de dados básico usado para criar seus algoritmos de personalização em atividades de AP e de AT:[!DNL Target]
 
@@ -60,7 +61,7 @@ Há dois tipos de atributos representados nos [!UICONTROL Insights de personaliz
 | Públicos-alvo compartilhados (Adobe Audience Manager ou Adobe Analytics) | Os públicos-alvo criados por meio do Adobe Audience Manager ou do Adobe Analytics e compartilhados com o Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Públicos-alvo compartilhados (Adobe Experience Platform/CDP em tempo real) | Públicos-alvo criados por meio da CDP em tempo real da Adobe Experience Platform e compartilhados com o Target via Destinos. | `Custom - Adobe Experience Platform Segment - [segment name]` |
 | Atributos compartilhados (Adobe Experience Platform/CDP em tempo real) | Atributos criados por meio da CDP em tempo real da Adobe Experience Platform e compartilhados com o Target via Destinos. Esse recurso está atualmente na versão beta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
-| Públicos-alvo/segmentos dos relatórios na atividade | Os públicos-alvo definidos na atividade de AP ou de Direcionamento automático durante a configuração nas &quot;Metas e métricas&quot;. | `Custom - Reporting Segment - [segment name]` |
+| Públicos-alvo/segmentos dos relatórios na atividade | Públicos-alvo definidos na atividade de AP ou de Direcionamento automático durante a configuração em &quot;Metas e métricas&quot;. | `Custom - Reporting Segment - [segment name]` |
 
 ## Perguntas frequentes
 

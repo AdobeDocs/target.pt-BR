@@ -2,16 +2,17 @@
 keywords: design personalizado;velocity;decimal;vírgula;personalizar design
 description: Saiba como usar a linguagem de design de código aberto do Velocity para personalizar designs de recomendação no Adobe  [!DNL Target]  Recommendations.
 title: Como personalizar um design usando o Velocity?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 76%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Personalizar um design usando o Velocity
+# Personalizar um design usando a Velocity
 
 Use a linguagem de design de código aberto do Velocity para personalizar designs de recomendação no [!DNL Adobe Target Recommendations].
 
@@ -29,7 +30,7 @@ Esses valores são referenciados com a seguinte sintaxe:
 $entityN.variable
 ```
 
-Os nomes dos atributos da entidade devem seguir a notação taquigrafada da Velocity, que consiste em um *$* , seguido por um identificador da Linguagem de modelo da Velocity (VTL). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
+Os nomes de atributos da entidade devem seguir a notação taquigrafada da Velocity, que consiste em um *$* , seguido por um identificador da Linguagem de modelo da Velocity (VTL). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
 
 Os nomes de atributos da entidade Velocity estão restritos aos seguintes tipos de caracteres:
 

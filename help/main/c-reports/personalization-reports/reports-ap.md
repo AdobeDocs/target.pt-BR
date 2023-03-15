@@ -2,16 +2,17 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, relatório de nível de atividade, relatório de nível de oferta, relatório de detalhes da oferta, perguntas frequentes
 description: Saiba como interpretar o relatório de Resumo do Automated Personalization no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes desse relatório.
 title: Como uso os relatórios de resumo do Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 34%
+source-wordcount: '678'
+ht-degree: 33%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Relatórios de resumo da personalização automatizada
+# Relatórios de resumo de Automated Personalization
 
 Relatórios de resumo especializados estão disponíveis para usuários de [!UICONTROL Automated Personalization] atividades em [!DNL Adobe Target].
 

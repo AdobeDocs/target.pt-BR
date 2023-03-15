@@ -2,16 +2,17 @@
 keywords: direcionamento automático; direcionamento; alocação de tráfego; perguntas frequentes; faq; solução de problemas; solucionar problemas; tráfego
 description: Explore tópicos de solução de problemas e perguntas frequentes sobre as atividades de Direcionamento automático no Adobe Target.
 title: Como posso solucionar problemas de atividades de direcionamento automático?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1920'
 ht-degree: 58%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Perguntas frequentes sobre direcionamento automático e solução de problemas
+# Direcionamento automático Perguntas frequentes e solução de problemas
 
 Solução de problemas e perguntas frequentes sobre [!UICONTROL Direcionamento automático] atividades em [!DNL Adobe Target].
 

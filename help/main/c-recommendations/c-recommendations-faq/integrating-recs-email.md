@@ -2,16 +2,17 @@
 keywords: email, ESP, provedor de serviços de email, rawbox, API de entrega, modelo somente para download, modelo de email, processamento em lote, email de tempo de compilação
 description: Saiba como integrar emails com a API de entrega, modelos rawbox e modelos apenas para download do Adobe [!DNL Target Recommendations], including using the [!DNL Target] .
 title: Como integrar o Recommendations ao email?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 99%
+source-wordcount: '1712'
+ht-degree: 97%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Integrar o [!DNL Recommendations] ao email 
+# Integrar o [!DNL Recommendations] ao email
 
 O [!DNL Adobe Target] oferece suporte à personalização de hora de envio das recomendações de email.
 
@@ -25,7 +26,7 @@ Há três métodos disponíveis para integrar o [!DNL Target Recommendations] ao
 
 O uso do método 1 ou do método 2 exige que o ESP faça chamadas para uma API externa com base no cliente/email e aguarde o retorno do conteúdo. Estes métodos não são compatíveis com todos os ESPs; entre em contato com o seu ESP para descobrir se ele é compatível com esse padrão de integração.
 
-O uso do método 3 exige que o ESP participe de uma lista de recomendações por ID de produto ou ID de categoria feita para a sua lista de emails. Este método pode ser baseado em um atributo, como o último produto visualizado, o último produto comprado ou a categoria mais visualizada pelo cliente. No entanto, o ESP deve ter acesso a esses dados em seu perfil de cliente para realizar a associação. Entre em contato com o seu ESP para descobrir se ele tem acesso a esses dados e é compatível com esse padrão de integração.
+O uso do método 3 exige que o ESP participe de uma lista de recomendações por ID de produto ou ID de categoria feita para a sua lista de emails. Esse método pode ser baseado em um atributo, como o último produto visualizado do cliente, o último produto comprado ou a categoria mais visualizada. No entanto, o ESP deve ter acesso a esses dados em seu perfil de cliente para realizar a associação. Entre em contato com o seu ESP para descobrir se ele tem acesso a esses dados e é compatível com esse padrão de integração.
 
 A personalização de recomendações de tempo aberto não é compatível com o [!DNL Adobe Target].
 
@@ -77,7 +78,7 @@ Onde `clientcode` é o código de cliente do [!DNL Target].
 >
 >Certifique-se de fornecer um valor único para ambas `sessionId` e um dos `tntId` ou `thirdPartyId` para cada destinatário de email (por exemplo, para cada chamada de API). Se você não fornecer valores exclusivos para esses campos, a resposta da API poderá ser lenta ou falhar devido ao grande número de eventos gerados em um único perfil.
 
-Consulte [Documentação da API de entrega](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} para obter mais informações.
+Consulte a [Documentação da API de entrega](https://developer.adobe.com/target/implement/delivery-api/) para obter mais informações.{target=_blank}
 
 ## Método 2: usar um modelo de email de rawbox {#rawbox}
 

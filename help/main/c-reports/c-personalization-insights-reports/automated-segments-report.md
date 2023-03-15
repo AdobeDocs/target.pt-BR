@@ -2,16 +2,17 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório de direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes
 description: Saiba como diferentes segmentos são definidos pelo Adobe [!DNL Target] os modelos de personalização respondem às ofertas/experiências na atividade ao visualizar o relatório de Segmentos automatizados .
 title: O que é o relatório de Segmentos automatizados?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 74%
+source-wordcount: '2140'
+ht-degree: 75%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Relatório de segmentos automatizados
+# [!UICONTROL Relatório de Segmentos automáticos]
 
 Informações sobre o [!UICONTROL Segmentos automatizados] , um dos dois relatórios especializados disponíveis aos usuários do [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT).
 

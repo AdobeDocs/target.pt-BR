@@ -2,17 +2,18 @@
 keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
 description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens no seu Adobe [!DNL Target] Catálogo Recommendations.
 title: Como Posso Usar Atributos De Entidade Personalizados?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 88%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Atributos de entidade personalizados
+# Atributos de entidade personalizados
 
 Use atributos de entidade personalizados de valor único e múltiplo em [!DNL Adobe Target Recommendations] para definir informações adicionais sobre itens em seu catálogo.
 
@@ -36,7 +37,7 @@ Um atributo de entidade personalizado com um único valor é formado da mesma ma
 
 Um atributo de entidade personalizada de vários valores deve ser enviado como uma matriz JSON válida:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Exemplos de matrizes JSON válidas suportadas pelo [!DNL Recommendations]:
 
@@ -126,7 +127,8 @@ Você pode passar atributos de vários valores usando a API de entrega em um par
   }
 ```
 
-Consulte a [Documentação da API do Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para obter informações sobre como usar as APIs de entidades de Entrega e Salvar.
+Consulte a [documentação da API do Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para obter informações sobre 
+como usar as APIs de entidades de Entrega e Salvamento.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 

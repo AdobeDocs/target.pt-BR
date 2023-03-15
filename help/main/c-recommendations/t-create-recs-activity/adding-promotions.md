@@ -2,16 +2,17 @@
 keywords: promoções, promoções principais, promoções secundárias, tipo de promoções, lista de itens, promover por atributo, promover uma coleção
 description: Saiba como adicionar itens promovidos e controlar o posicionamento no Adobe [!DNL Target] Designs do Recommendations. É possível adicionar promoções estáticas e dinâmicas.
 title: Como adiciono promoções em designs Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 50%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Adicionar promoções
+# Adicionar promoções
 
 Adicione itens promovidos e controle o posicionamento nos designs do [!DNL Adobe Target Recommendations]. É possível adicionar promoções estáticas e dinâmicas.
 

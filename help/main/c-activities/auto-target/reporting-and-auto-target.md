@@ -2,15 +2,16 @@
 keywords: direcionamento automático, direcionamento, alocação de tráfego, perguntas frequentes, perguntas frequentes, solução de problemas, resolução de problemas, relatórios, relatório, relatório de resumo do direcionamento automático, relatório de resumo, segmentos automatizados, atributos importantes
 description: Saiba como interpretar [!UICONTROL Direcionamento automático] relatórios de atividade em [!DNL Target].
 title: Como interpreto uma [!UICONTROL Direcionamento automático] Relatório?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Relatórios e [!UICONTROL Direcionamento automático]
+# Relatórios e [!UICONTROL Direcionamento automático]
 
 Informações sobre como interpretar o [!UICONTROL Resumo do direcionamento automático] relatórios em [!DNL Adobe Target], incluindo o [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] relatórios.
 
