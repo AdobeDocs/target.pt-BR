@@ -1,11 +1,12 @@
 ---
 keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
-description: Aprenda os conceitos básicos do Adobe [!DNL Target] Padrão e Adobe [!DNL Target] Premium. [!DNL Target] O Premium inclui recursos avançados não disponíveis no produto padrão.
+description: Conheça os conceitos básicos do Adobe [!DNL Target] Padrão e Adobe [!DNL Target] Premium. [!DNL Target] O Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
+short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 title: O que é o Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 88%
@@ -30,7 +31,7 @@ As práticas recomendadas do setor são integradas no [!DNL Target Standard]. O 
 
 O [!DNL Target Premium] é uma oferta avançada do [!DNL Target] que requer uma licença para adicionar recursos premium ao [!DNL Target Standard].
 
-Todos [!DNL Target Premium] artigos em [!DNL Target] os guias incluem o [!UICONTROL Premium] na parte superior de cada página ou em linha próximo ao texto afetado. A variável [!UICONTROL Premium] é clicável e inclui um link para esta seção.
+Todos [!DNL Target Premium] artigos em [!DNL Target] os guias incluem o [!UICONTROL Premium] símbolo na parte superior de cada página ou em linha perto do texto afetado. O [!UICONTROL Premium] é clicável e inclui um link para esta seção.
 
 **[!DNL Target Premium]O inclui os seguintes recursos:**
 
@@ -83,9 +84,9 @@ A funcionalidade de [Permissões de usuário empresarial](/help/main/administrat
 
 [!BADGE Beta]{type=Informative}
 
-A variável [!DNL Adobe Target] A equipe do geralmente ativa novos recursos para clientes selecionados para fins de teste e feedback. Após a conclusão do período de teste, esses recursos serão habilitados para todos os clientes no futuro [!DNL Target Standard/Premium] versões e anunciadas nas notas de versão.
+O [!DNL Adobe Target] O grupo geralmente habilita novos recursos para clientes selecionados para fins de teste e feedback. Depois que o período de teste for concluído, esses recursos serão ativados para todos os clientes no futuro [!DNL Target Standard/Premium] e anunciadas nas notas de versão.
 
-Artigos em [!DNL Target] os guias que descrevem recursos Beta incluem o selo Beta na parte superior de cada página ou em linha próximo ao texto afetado. O selo Beta é clicável e inclui um link para esta seção.
+Artigos em [!DNL Target] Os guias que descrevem recursos Beta incluem o símbolo Beta na parte superior de cada página ou em linha, próximo ao texto afetado. O selo Beta pode ser clicado e inclui um link para esta seção.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 

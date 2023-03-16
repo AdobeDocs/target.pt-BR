@@ -2,10 +2,11 @@
 keywords: notas de versão;novos recursos;versões;atualizações;atualização;versão;aprimoramento;aprimoramentos;correções;correções de erros;atualizações
 description: Saiba mais sobre os novos recursos, melhorias e correções incluídos na versão atual do  [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 landing-page-description: Saiba mais sobre os novos recursos, aprimoramentos e correções incluídos na versão atual do  [!DNL Adobe Target].
+short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 64%
@@ -22,32 +23,32 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **8 de março**: região das Américas
-* **9 de março**: região da Europa, Oriente Médio e África (EMEA)
-* **9 de março**: região Ásia-Pacífico (APAC)
+* **8 de março**: Região das Américas
+* **9 de março**: Europa, Oriente Médio e África (EMEA)
+* **9 de março**: Região Ásia-Pacífico (APAC)
 
 >[!NOTE]
 >
->Devido a problemas que foram corrigidos, as métricas otimizadas do A4T para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]O recurso &quot;, lançado em 8 e 9 de março, foi removido temporariamente. Após novos testes internos, o recurso será lançado novamente nas próximas semanas.
+>Devido a problemas que já foram corrigidos, as métricas &quot;Otimizado do A4T para o [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]O recurso &quot; lançado em 8 e 9 de março foi removido temporariamente. Após mais testes internos, o recurso será lançado novamente nas próximas semanas.
 
 Esta versão inclui as seguintes correções:
 
-* Atualizações de componentes da Web personalizados criados com o [!UICONTROL Visual Experience Composer] (VEC):
+* Atualizações para a criação de componentes da Web personalizados com o [!UICONTROL Visual Experience Composer] (VEC):
 
-   * Correção da seleção de elementos DOM de sombra no VEC, melhorando o processo de criação para que não houvesse dependência no [!DNL Target] tipo de implementação ao criar a raiz de sombra. Agora, selecionar elementos DOM de sombra no VEC deve funcionar para qualquer site.
+   * Correção da seleção de elementos de DOM de sombra no VEC, melhorando o processo de criação para que não haja dependência no [!DNL Target] tipo de implementação ao criar a raiz de sombra. Agora, selecionar elementos DOM de sombra no VEC deve funcionar para qualquer site.
    * Correção de um problema que impedia o carregamento de elementos HTML usando #Shadow DOM no VEC. (TGT-35801)
-   * Correção de problemas do VEC com sites SPA usando o ShadowDOM. (TGT-43169)
+   * Correção de problemas de VEC com sites SPA usando o ShadowDOM. (TGT-43169)
    * Correção de um problema com a Meta de otimização: &quot;clicou em um elemento&quot; que não identificava corretamente o seletor de CSS no ShadowDOM.
 
 >[!NOTE]
 >
->Para garantir a entrega das alterações criadas no VEC, verifique se você está usando um [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) com uma versão superior a 2.8.
+>Para garantir o delivery das alterações criadas no VEC, verifique se você está usando um [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) com uma versão superior a 2.8.
 
-**Problema conhecido**: rastreamento de cliques em um elemento raiz de sombra ao usar [!DNL Adobe Experience Platform Web SDK] O não está funcionando corretamente. (TNT-47012)
+**Problema conhecido**: Rastreamento de cliques em um elemento raiz de sombra ao usar [!DNL Adobe Experience Platform Web SDK] O não está funcionando corretamente. (TNT-47012)
 
 ## at.js versão 2.10.2 (7 de março de 2023)
 
-* Correção de um problema que causava a `trackEvent` para sempre retornar um erro.
+* Correção de um problema que causava o `trackEvent` para sempre retornar um erro.
 
 Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
