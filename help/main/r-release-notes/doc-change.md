@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
 workflow-type: tm+mt
 source-wordcount: '2216'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 8 de março | [[!UICONTROL Suporte do A4T para atividades de Alocação automática e Direcionamento automático]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | A seção foi atualizada para incluir informações sobre as métricas compatíveis (e não compatíveis) do [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades usando [!UICONTROL Analytics for Target] (A4T) |
-|  | [Tutoriais do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR){target=_blank} | Adição dos seguintes tutoriais novos:<ul><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!UICONTROL Alocação automática] atividades](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!UICONTROL Direcionamento automático] atividades](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
-|  | [Editar uma atividade ou Salvar como rascunho](/help/main/c-activities/edit-activity.md) | Adição de uma seção &quot;Práticas recomendadas&quot;. |
-|  | [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Adição da seguinte observação à seção &quot;Solução de problemas do código personalizado&quot;:<ul><li>As ofertas de código personalizado no VEC não são renderizadas quando `triggerView()` é chamado com `{page: false}` como a opção.</li></ul> |
+| 8 de março | [Compatibilidade do A4T com atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | A seção foi atualizada para incluir informações sobre as métricas compatíveis (e não compatíveis) das atividades [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] usando o [!UICONTROL Analytics for Target] (A4T) |
+|  | [Tutoriais do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR){target=_blank} | Adição dos novos tutoriais a seguir:<ul><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Alocação automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=pt-BR){target=_blank}</li><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Direcionamento automático]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=pt-BR){target=_blank}</li></ul> |
+|  | [Editar uma atividade ou Salvar como rascunho](/help/main/c-activities/edit-activity.md) | Adição da seção &quot;Práticas recomendadas&quot;. |
+|  | [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Adição da seguinte observação à seção “Solução de problemas de código personalizado”:<ul><li>As ofertas de código personalizado no VEC não são renderizadas novamente quando `triggerView()` é chamado com `{page: false}` como a opção.</li></ul> |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre a versão 2.10.2 da at.js. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.15.1 do [!DNL Target Standard/Premium]. |
 

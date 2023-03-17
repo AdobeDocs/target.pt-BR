@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -24,31 +24,31 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
 * **8 de março**: região das Américas
-* **9 de março**: região da Europa, Oriente Médio e África (EMEA)
-* **9 de março**: região Ásia-Pacífico (APAC)
+* **9 de março**: regiões da Europa, Oriente Médio e África (EMEA)
+* **9 de março**: região da Ásia-Pacífico (APAC)
 
 >[!NOTE]
 >
->Devido a problemas que foram corrigidos, as métricas otimizadas do A4T para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]O recurso &quot;, lançado em 8 e 9 de março, foi removido temporariamente. Após novos testes internos, o recurso será lançado novamente nas próximas semanas.
+>Devido a problemas que já foram corrigidos, as métricas &quot;Otimizado do A4T para o [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]O recurso &quot; lançado em 8 e 9 de março foi removido temporariamente. Após mais testes internos, o recurso será lançado novamente nas próximas semanas.
 
 Esta versão inclui as seguintes correções:
 
-* Atualizações de componentes da Web personalizados criados com o [!UICONTROL Visual Experience Composer] (VEC):
+* Atualizações para a criação de componentes da Web personalizados com o [!UICONTROL Visual Experience Composer] (VEC):
 
-   * Correção da seleção de elementos DOM de sombra no VEC, melhorando o processo de criação para que não houvesse dependência no [!DNL Target] tipo de implementação ao criar a raiz de sombra. Agora, selecionar elementos DOM de sombra no VEC deve funcionar para qualquer site.
+   * Correção da seleção de elementos de DOM de sombra no VEC, melhorando o processo de criação para que não haja dependência no [!DNL Target] tipo de implementação ao criar a raiz de sombra. Agora, selecionar elementos DOM de sombra no VEC deve funcionar para qualquer site.
    * Correção de um problema que impedia o carregamento de elementos HTML usando #Shadow DOM no VEC. (TGT-35801)
-   * Correção de problemas do VEC com sites SPA usando o ShadowDOM. (TGT-43169)
+   * Correção de problemas de VEC com sites SPA usando o ShadowDOM. (TGT-43169)
    * Correção de um problema com a Meta de otimização: &quot;clicou em um elemento&quot; que não identificava corretamente o seletor de CSS no ShadowDOM.
 
 >[!NOTE]
 >
->Para garantir a entrega das alterações criadas no VEC, verifique se você está usando um [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) com uma versão superior a 2.8.
+>Para garantir o delivery das alterações criadas no VEC, verifique se você está usando um [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) com uma versão superior a 2.8.
 
-**Problema conhecido**: rastreamento de cliques em um elemento raiz de sombra ao usar [!DNL Adobe Experience Platform Web SDK] O não está funcionando corretamente. (TNT-47012)
+**Problema conhecido**: Rastreamento de cliques em um elemento raiz de sombra ao usar [!DNL Adobe Experience Platform Web SDK] O não está funcionando corretamente. (TNT-47012)
 
 ## at.js versão 2.10.2 (7 de março de 2023)
 
-* Correção de um problema que causava a `trackEvent` para sempre retornar um erro.
+* Correção de um problema que fazia com que a função `trackEvent` sempre retornasse um erro.
 
 Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
