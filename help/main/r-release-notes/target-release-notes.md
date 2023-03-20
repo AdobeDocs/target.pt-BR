@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '735'
 ht-degree: 49%
 
 ---
@@ -49,7 +49,7 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 * Links atualizados na [!DNL Target] IU para apontar para a nova [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Segurança aprimorada para impedir tentativas de falsificação de solicitação do lado do servidor (SSRF) em [!DNL Recommendations] feeds. (TGT-43769)
 * Correção de um problema que impedia que os clientes visualizassem imagens em [!DNL Recommendations] designs se o nome da imagem contiver [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Correção de um problema que causava alguns [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank} a ser evitada no [!UICONTROL Modificações] painel ao editar [!UICONTROL Texto/HTML] em uma atividade do [!UICONTROL Experiências] página.
+* Correção de um problema que causava alguns [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank} a ser evitada no [!UICONTROL Modificações] painel ao editar [!UICONTROL Texto/HTML] em uma atividade do [!UICONTROL Experiências] página. (TGT-44600)
 * Várias correções de localização foram feitas na interface do [!DNL Target].
 
 
