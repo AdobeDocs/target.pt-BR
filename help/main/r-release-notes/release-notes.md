@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
-workflow-type: ht
-source-wordcount: '599'
-ht-degree: 100%
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
+workflow-type: tm+mt
+source-wordcount: '880'
+ht-degree: 60%
 
 ---
 
@@ -19,32 +19,35 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 22.15.1 (8 e 9 de março de 2023)
+## [!DNL Target] Standard/Premium 23.3.1 (30 de março de 2023)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-* **8 de março**: região das Américas
-* **9 de março**: regiões da Europa, Oriente Médio e África (EMEA)
-* **9 de março**: região da Ásia-Pacífico (APAC)
+* **28 de março**: regiões da Europa, Oriente Médio e África (EMEA)
+* **29 de março**: região da Ásia-Pacífico (APAC)
+* **30 de março**: região das Américas
 
->[!NOTE]
->
->Devido a problemas que já foram corrigidos, o recurso “Métricas otimizadas do A4T para [!UICONTROL alocação automática] e [!UICONTROL direcionamento automático]”, lançado em 8 e 9 de março, foi removido temporariamente. Após mais testes internos, o recurso será liberado novamente nas próximas semanas.
+Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
-Esta versão inclui as seguintes correções:
+| Recurso | Detalhes |
+|--- |--- |
+| Métricas otimizadas do A4T para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]<p>(Data de lançamento: 30 de março de 2023) | O [!DNL Target] permite escolher métricas baseadas em eventos binomiais ou em eventos contínuos ao usar o [!UICONTROL A4T] para as atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático].<P>Esteja ciente da seguinte alteração nas métricas compatíveis:<ul><li>O [!DNL Target] preservará o comportamento anterior para as atividades já existentes até 9 de setembro de 2023. Após essa data, as atividades usando métricas incompatíveis serão descontinuadas para forçar a migração de atividades existentes para o novo comportamento.</li></ul>Junto com esse recurso, os seguintes tutoriais foram atualizados:<ul><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Alocação automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=pt-BR){target=_blank}</li><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Direcionamento automático]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=pt-BR){target=_blank}</li></ul> |
 
-* Atualizações para a criação de componentes da web personalizados com o [!UICONTROL Visual Experience Composer] (VEC):
-
-   * Correção da seleção de elementos de Shadow DOM no VEC, melhorando o processo de criação para que não haja dependência do tipo de implementação do [!DNL Target] ao criar a raiz de sombra. Agora, selecionar elementos de Shadow DOM no VEC deve funcionar para qualquer site.
-   * Correção de um problema que impedia o carregamento de elementos HTML usando #Shadow DOM no VEC. (TGT-35801)
-   * Correção de problemas do VEC com sites de SPA que usam ShadowDOM. (TGT-43169)
-   * Correção de um problema com a meta de otimização “clicou em um elemento” que não identificava corretamente o seletor de CSS no ShadowDOM.
-
->[!NOTE]
->
->Para garantir a entrega das alterações criadas no VEC, certifique-se de que você está usando um SDK do [!DNL Target] ({target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR){target=_blank} [at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (alloy.js)) com uma versão superior a 2.8.
-
-**Problema conhecido**: o rastreamento de cliques em elementos de raiz de sombra ao usar o [!DNL Adobe Experience Platform Web SDK] não está funcionando corretamente. (TNT-47012)
+* Sincronização aprimorada de público-alvo e atividade para que os itens criados em [!DNL Adobe Experience Platform] e [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] Interface do usuário mais rápida. (TGT-44568)
+* Alterações feitas para permitir que os usuários removam a variável [!UICONTROL URL padrão] under [!UICONTROL Administração] > [!UICONTROL Visual Experience Composer] > [!UICONTROL URL padrão]. Essa alteração permite que os clientes alterem o URL padrão de volta para uma string vazia, o que anteriormente não era possível após a configuração inicial. (TGT-44577)
+* Remoção de restrições que impedia clientes de editar ou excluir públicos-alvo prontos para uso (públicos-alvo com nomes reservados). (TGT-44655)
+* Desativado o &quot;[!UICONTROL Concluído]&quot; ao carregar os giradores, a opção estava visível no [!DNL Target] IU ao criar [públicos-alvo combinados](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* Correção do [!UICONTROL Idioma] na parte inferior do [!UICONTROL Públicos-alvo] para que ele vincule corretamente ao &quot;[!UICONTROL Preferências de comunicação da conta]&quot;. (TGT-43562)
+* Solução de um problema que, ocasionalmente, impedia que os clientes criassem [!UICONTROL Teste A/B] depois de selecionar a variável [!UICONTROL Adobe Analytics] opção em [!UICONTROL Administração] > [!UICONTROL Relatório] > [!UICONTROL Solução de relatório do Experience Cloud]. (TGT-44844)
+* Correção de um problema que impedia que os clientes visualizassem a última experiência em um [!UICONTROL Teste multivariado] com muitas experiências dentro da variável [!UICONTROL Visual Experience Composer] (VEC). O [Caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) na parte inferior do VEC, às vezes, impedia que os clientes visualizassem a última experiência. (TGT-44578)
+* Correção de um problema que fazia com que o URL de navegação no VEC não refletisse a página atual que está visível em uma sessão normal do navegador se a página requer autorização ou chama redirecionamentos. (TGT-44350)
+* Correção de um problema que impedia que os clientes alterassem a configuração [!UICONTROL Filtrar critérios incompatíveis] definição em [!UICONTROL Recommendations] > [!UICONTROL Configurações]. (TGT-44398)
+* Correção de um problema que fazia com que solicitações POST criassem um novo [!DNL Recommendations] os feeds falham ao usar [!UICONTROL Classificações do Analytics] com conjuntos de relatórios com pontos em seus nomes. (TGT-44598)
+* Links atualizados na [!DNL Target] IU para apontar para a nova [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
+* Segurança aprimorada para impedir tentativas de falsificação de solicitação do lado do servidor (SSRF) em [!DNL Recommendations] feeds. (TGT-43769)
+* Correção de um problema que impedia que os clientes visualizassem imagens em [!DNL Recommendations] designs se o nome da imagem contiver [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
+* Correção de um problema que causava alguns [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank} a ser evitada no [!UICONTROL Modificações] painel ao editar [!UICONTROL Texto/HTML] em uma atividade do [!UICONTROL Experiências] página. (TGT-44600)
+* Várias correções de localização foram feitas na interface do [!DNL Target].
 
 ## at.js versão 2.10.2 (7 de março de 2023)
 
