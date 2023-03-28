@@ -4,7 +4,7 @@ description: Saiba como usar [!DNL Adobe Experience Manager] [!UICONTROL Fragmen
 title: Como usar [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de conteúdo]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
+source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 4%
