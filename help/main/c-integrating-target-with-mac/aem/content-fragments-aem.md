@@ -4,7 +4,7 @@ description: Saiba como usar [!DNL Adobe Experience Manager] [!UICONTROL Fragmen
 title: Como usar [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de conteúdo]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 4%
@@ -20,7 +20,6 @@ AEM fragmentos de conteúdo para personalização e experimentação sem perifé
 >[!NOTE]
 >
 >Esse recurso deve ser lançado em 6 de abril de 2023.
-
 
 >[!NOTE]
 >

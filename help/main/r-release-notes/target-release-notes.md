@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções incluí
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 78%
 
 ---
@@ -25,7 +25,7 @@ Esta versão contém o seguinte novo recurso:
 
 | Recurso | Detalhes |
 |--- |--- |
-| AEM fragmentos de conteúdo para personalização e experimentação sem periféricos | Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de conteúdo] em [!DNL Target] atividades. Combine a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para testar e personalizar experiências em escala. |
+| AEM fragmentos de conteúdo para personalização e experimentação sem periféricos | Use [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de conteúdo] em [!DNL Target] atividades. Combine a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para auxiliar na personalização e na experimentação sem periféricos. |
 
 ## Notas de versão adicionais e detalhes da versão
 
