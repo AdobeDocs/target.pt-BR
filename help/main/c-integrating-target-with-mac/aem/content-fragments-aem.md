@@ -1,19 +1,21 @@
 ---
-keywords: experiência; json; aem; adobe experience manager; exportar para adobe target; fragmentos de conteúdo; fragmentos; CF; cf
+keywords: experiência; json; aem; adobe experience manager; exportar para adobe target; fragmentos de conteúdo; fragmentos; CF; cf; sem cabeçalho; personalização; experimentação
 description: Saiba como usar [!DNL Adobe Experience Manager] [!UICONTROL Fragmentos de conteúdo] em [!DNL Adobe Target] atividades.
 title: Como usar [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de conteúdo]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '760'
 ht-degree: 4%
 
 ---
 
 # AEM [!UICONTROL Fragmentos de conteúdo]
 
-Use [!UICONTROL Fragmentos de conteúdo] (CFs) criadas em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização ou na personalização.
+Use [!UICONTROL Fragmentos de conteúdo] (CFs) criadas em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na personalização e na experimentação sem periféricos.
+
+AEM fragmentos de conteúdo para personalização e experimentação sem periféricos
 
 >[!NOTE]
 >
