@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
 workflow-type: tm+mt
-source-wordcount: '2273'
-ht-degree: 97%
+source-wordcount: '2277'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 30 de março | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão atualizadas para o lançamento das métricas Otimizadas do A4T para o [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] que permite escolher métricas com base em eventos binômicos ou métricas com base em eventos contínuos ao usar [!UICONTROL A4T] para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades. |
-|  | [Compatibilidade do A4T com atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | A seção foi atualizada para incluir informações sobre as métricas compatíveis (e não compatíveis) das atividades [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] usando o [!UICONTROL Analytics for Target] (A4T) |
+|  | [Compatibilidade do A4T com atividades de [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Atualização da seção &quot;Métricas de meta suportadas&quot; para incluir informações sobre as métricas suportadas (e não suportadas) para o [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades que usam [!UICONTROL Analytics para Target] (A4T) |
 |  | [Tutorials do Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=pt-BR){target=_blank} | Os seguintes tutoriais foram atualizados:<ul><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Alocação automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=pt-BR){target=_blank}</li><li>[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Direcionamento automático]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=pt-BR){target=_blank}</li></ul> |
 |  | [Notas de versão do Target (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações para o [!DNL Adobe Experience Manager] (AEM) e [!DNL Adobe Target] [!UICONTROL Fragmentos de conteúdo] versão. (6 de abril de 2023) |
 | 28 de março | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.3.1 do [!DNL Target Standard/Premium]. |
