@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '843'
+ht-degree: 63%
 
 ---
 
@@ -45,8 +45,6 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 * Correção de um problema que fazia com que solicitações POST criassem um novo [!DNL Recommendations] os feeds falham ao usar [!UICONTROL Classificações do Analytics] com conjuntos de relatórios com pontos em seus nomes. (TGT-44598)
 * Links atualizados na [!DNL Target] IU para apontar para a nova [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Segurança aprimorada para impedir tentativas de falsificação de solicitação do lado do servidor (SSRF) em [!DNL Recommendations] feeds. (TGT-43769)
-* Correção de um problema que impedia que os clientes visualizassem imagens em [!DNL Recommendations] designs se o nome da imagem contiver [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Correção de um problema que causava alguns [GB18030 caracteres](https://en.wikipedia.org/wiki/GB_18030){target=_blank} a ser evitada no [!UICONTROL Modificações] painel ao editar [!UICONTROL Texto/HTML] em uma atividade do [!UICONTROL Experiências] página. (TGT-44600)
 * Várias correções de localização foram feitas na interface do [!DNL Target].
 
 ## at.js versão 2.10.2 (7 de março de 2023)
