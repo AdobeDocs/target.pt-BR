@@ -1,13 +1,13 @@
 ---
 keywords: atualização do sistema;solução de problemas;manutenção;status do sistema;status de atualização
-description: Visualize o status atual do Adobe  [!DNL Target]  para ajudar a determinar se os problemas que você pode encontrar ocorrem devido a atualizações do sistema ou manutenção de rotina.
-title: Onde posso visualizar o status do  [!DNL Target]  e de outros produtos da Adobe?
+description: Visualizar o status de [!DNL Adobe Target] para ajudá-lo a determinar se os problemas encontrados são causados por atualizações do sistema ou pela manutenção de rotina.
+title: Onde posso visualizar o status de [!DNL Target] e Outros [!DNL Adobe] Produtos?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 64%
 
 ---
 
@@ -17,25 +17,23 @@ Use a página [!UICONTROL Status do sistema da Adobe] e as notificações proati
 
 ## Atualizações do status do sistema
 
-Use a página [!UICONTROL Status do sistema da Adobe] para visualizar o status atual do [!DNL Target] e outros produtos da [!DNL Adobe] e das soluções da [!DNL Adobe Experience Cloud]. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
+Use o [!UICONTROL Status do sistema Adobe] para visualizar o status de [!DNL Target] e outros [!DNL Adobe] produtos e [!DNL Adobe Experience Cloud] soluções. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
 
-Acesse a página [!UICONTROL Status do sistema] no seguinte URL:
+>[!NOTE]
+>
+>Uma notificação no produto é sempre exibida durante o lançamento mensal do [!DNL Target], mas, às vezes, ocorrem pequenas atualizações e elas são listadas nessa página.
 
-[https://status.adobe.com](https://status.adobe.com)
+1. Acesse o [[!UICONTROL Status do sistema]](https://status.adobe.com/pt){target=_blank}.
 
-Para ver o status das soluções da [!DNL Experience Cloud], incluindo o [!DNL Target], clique na guia [!UICONTROL Experience Cloud].
+1. Para ver o status das soluções da [!DNL Experience Cloud], incluindo o [!DNL Target], clique na guia [!UICONTROL Experience Cloud].
 
-![imagem system_status](assets/system_status.png)
+   ![imagem system_status](assets/system_status.png)
 
-A parte superior da página contém informações sobre eventos de manutenção em andamento e inclui um link para se inscrever em atualizações de soluções individuais.
+   A parte superior da página contém informações sobre os eventos de manutenção em andamento e inclui um link para gerenciar assinaturas para atualizações de soluções individuais.
 
-Na ilustração acima, [!DNL Adobe Analytics], [!DNL Adobe Target] e [!DNL Adobe Campaign] estavam em manutenção. Todos os outros produtos e soluções estavam funcionando normalmente. É sempre bom verificar essa página se tiver problemas ao usar o [!DNL Target].
+   Na ilustração acima, [!DNL Adobe Advertising], [!DNL Adobe Analytics]e [!DNL Adobe Audience Manager] e outras soluções recentemente concluídas atualizações de manutenção. Todos os outros produtos e soluções estavam funcionando normalmente. É sempre bom verificar essa página se tiver problemas ao usar o [!DNL Target].
 
-Uma notificação no produto é sempre exibida durante o lançamento mensal do [!DNL Target], mas, às vezes, ocorrem pequenas atualizações e elas são listadas nessa página.
-
-A parte inferior da página contém um calendário dos últimos sete dias com status para cada solução por dia. Passe o mouse sobre o indicador de status, para obter mais informações:
-
-![imagem system_status_indicator](assets/system_status_indicator.png)
+1. (Opcional) Filtre a lista por produtos, regiões ou intervalos de datas. Clique no botão [!UICONTROL Major], [!UICONTROL Menor], [!UICONTROL Potencial]ou [!UICONTROL Manutenção] links para filtrar ainda mais seus resultados.
 
 ## Notificações proativas
 
