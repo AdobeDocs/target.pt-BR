@@ -4,7 +4,7 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 97%
@@ -24,7 +24,7 @@ Para obter mais informações, consulte a [publicação no blog da Adobe Experie
 ## [!UICONTROL Comunidade e intervalo do Adobe Target]
 
 * **Quarta-feira, 12 de abril de 2023**
-* **8:00 às 9:00 (PDT, GMT -7)
+* **8:00 às 9:00 (PDT, GMT -7)**
 * **[Informações de registro](https://adobe.ly/42gQGfv){target=_blank}**
 
 Junte-se a Matthew Bailie e à Georgia Frailey, ambos consultores de soluções sênior para [!DNL Adobe Target], que conversará diretamente com você sobre o seu [!DNL Adobe Target] questões relacionadas com [!DNL Target] recursos de IA, especificamente [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático].
