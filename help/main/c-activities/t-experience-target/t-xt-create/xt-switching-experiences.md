@@ -4,24 +4,16 @@ description: Saiba como os visitantes podem alternar entre experiências em um A
 title: Os visitantes podem trocar experiências em uma atividade de direcionamento de experiência?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 97%
+source-wordcount: '762'
+ht-degree: 96%
 
 ---
 
 # Troca de experiências no Direcionamento de experiência
 
 Informações sobre como visitantes podem alternar entre experiências em uma atividade de Direcionamento de experiência (XT) conforme seus perfis evoluem.
-
->[!NOTE]
->
->**21 de setembro de 2017**
->
->Com o lançamento em 21 de setembro de 2017, o Target mudou a maneira como os usuários são adicionados às experiências nas atividades de Direcionamento de experiência (XT) (campanhas de landing page no Target Classic). Para todas as atividades novas e existentes, os usuários devem atender às regras de direcionamento de experiência em todas as impressões para continuarem visualizando o conteúdo da experiência e serem contabilizados nos relatórios. Anteriormente, se o usuário não se qualificasse mais para alguma experiência, ele continuaria a ver o conteúdo e a ser contabilizado nos relatórios para a última experiência pela qual se qualificou.
->
->Essa alteração ocorreu automaticamente como parte da versão para todas as atividades existentes e para quaisquer novas atividades criadas após o lançamento. Se o método anterior (anterior a 21 de setembro) for desejado, você poderá criar públicos-alvo usando scripts de perfil; assim, um usuário só precisa atender a uma condição uma vez para continuar a se enquadrar nesse público-alvo no futuro. Em seguida, use esses públicos-alvo para cada experiência na atividade.
 
 Com o Direcionamento de experiência, você pode controlar qual experiência é vista pelos visitantes, à medida que seus perfis evoluem. A lista a seguir apresenta apenas alguns cenários em que os perfis dos visitantes podem evoluir e você pode querer apresentar um conteúdo diferente:
 
