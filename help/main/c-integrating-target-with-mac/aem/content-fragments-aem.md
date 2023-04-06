@@ -4,7 +4,7 @@ description: Saiba como usar  [!DNL Adobe Experience Manager] [!UICONTROL fragme
 title: Como usar [!UICONTROL fragmentos de conteúdo] do  [!DNL Adobe Experience Manager]  (AEM)?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
+source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 92%
@@ -42,7 +42,7 @@ Entre em contato com o [Atendimento ao cliente do Adobe Target](/help/main/cmp-r
 
 ## Como configurar e trabalhar com [!UICONTROL fragmentos de conteúdo] no [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Para exportar [!UICONTROL fragmentos de conteúdo] para uso em atividades do [!DNL Target], você deve executar algumas etapas preliminares no AEM. Para obter mais informações, consulte [Exportar fragmentos de conteúdo para o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} no *Documentação do Experience Manager as a Cloud Service*. Observe que este link estará disponível no dia do lançamento (6 de abril de 2023)
+Para exportar [!UICONTROL fragmentos de conteúdo] para uso em atividades do [!DNL Target], você deve executar algumas etapas preliminares no AEM. Para obter mais informações, consulte [Exportar fragmentos de conteúdo para o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} no *Documentação do Experience Manager as a Cloud Service*. Observe que este link estará disponível no dia do lançamento (12 de abril de 2023)
 
 Para obter informações sobre design, criação, preparação e publicação de [!UICONTROL fragmentos de conteúdo], consulte [[!UICONTROL Fragmentos de conteúdo]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=pt-BR){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=pt-BR){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=pt-BR){target=_blank}.
 
