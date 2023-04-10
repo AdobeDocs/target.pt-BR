@@ -1,13 +1,13 @@
 ---
-keywords: solução de problemas do target, solucionar problemas no target
+keywords: solução de problemas do target, solução de problemas do target, resolver problemas
 description: Veja uma lista de tópicos para ajudar você a resolver problemas no Adobe Target, inclusive tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
 title: Como solucionar problemas do Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 87%
 
 ---
 
@@ -69,7 +69,6 @@ As seguintes seções contêm informações de solução de problemas em ativida
    * [Aumento e Confiança - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [Definições de métricas - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [Compartilhar métricas, segmentos e relatórios - Perguntas frequentes do A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [Contagens aumentadas de visitas e visitantes - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [Classificações - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [Integração herdada do SiteCatalyst ao Test&amp;Target - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
