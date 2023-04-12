@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2420'
 ht-degree: 92%
 
 ---
@@ -19,7 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 12 de abril | [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Adição das seguintes perguntas frequentes:<ul><li>Vejo um ou mais atributos que não quero que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento?</li></ul> |
+| 12 de abril | [[!DNL Adobe Target] Anúncios e eventos](/help/main/r-release-notes/target-announcements.md) | Foi adicionado um link para se registrar no seguinte webinário:<ul><li>Forneça experiências personalizadas de clientes, sempre!</li></ul> |
+|  | [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Adição das seguintes perguntas frequentes:<ul><li>Vejo um ou mais atributos que não quero que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento?</li></ul> |
 |  | [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Adição das seguintes perguntas frequentes:<ul><li>O que acontece se um usuário tiver várias funções e permissões?</li></ul> |
 |  | [Fragmentos de conteúdo](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) do AEM | Novo tópico. Observe que esse recurso está no status de &quot;pré-lançamento&quot; para fins de teste. |
 | 5 de abril | [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Foi adicionado um texto indicando que [!UICONTROL Analytics como fonte de relatórios] (A4t) não é compatível com atividades que usam decisões de oferta. |
