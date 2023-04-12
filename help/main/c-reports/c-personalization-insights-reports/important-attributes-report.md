@@ -5,10 +5,10 @@ title: Qual é o relatório de atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 81%
+source-wordcount: '1847'
+ht-degree: 75%
 
 ---
 
@@ -90,7 +90,9 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 ## Perguntas frequentes de atributos importantes {#section_740910A52FA646B4AC9452F98C2F5719}
 
-**Relatórios de Insights de personalização não estão disponíveis ainda para minha atividade. Por que isso ocorre?**
+Consulte as seguintes perguntas frequentes para obter respostas a perguntas frequentes sobre o uso da variável [!UICONTROL Atributos importantes] relatório.
+
+###  Relatórios de Insights de personalização não estão disponíveis ainda para minha atividade. Por que isso ocorre?
 
 Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de personalização] podem ainda não estar disponíveis para a sua atividade:
 
@@ -98,33 +100,39 @@ Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de pers
 * Sua atividade não teve tráfego suficiente durante o intervalo de tempo especificado. Após 15 dias, supondo que haja [tráfego personalizado suficiente](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) na atividade para criar modelos de personalização, os relatórios de Segmentos automatizados e Atributos importantes ficarão disponíveis.
 * Sua atividade tem uma meta de otimização de receita. No momento, os [!UICONTROL Insights de personalização] estão disponíveis apenas para atividades com meta de otimização de conversão. O suporte será adicionado para atividades com meta de otimização de receita em uma versão futura.
 
-**O que é um atributo?**
+### O que é um atributo?
 
 Um atributo é a informação sobre um visitante ou sua visita específica usada pelos algoritmos de personalização para saber como personalizar o tráfego. Por exemplo, um atributo pode ser o tipo de navegador, a localização, a hora do dia da visita e assim por diante.
 
 Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
-**As informações nos relatórios dos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] são as mesmas que no download do CSV?**
+### Vejo um ou mais atributos que não quero que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento? {#models-api}
+
+O [!UICONTROL API de modelos], também chamada de API de  de Lista de bloqueios, permite que os usuários visualizem e gerenciem a lista de atributos (também chamados de recursos) usados em modelos de aprendizado de máquina para [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT). Se quiser excluir um ou mais atributos de serem usados pelos modelos para atividades de AP ou AT, use a API de modelos para adicionar esses atributos à &quot; de lista de bloqueios&quot;.
+
+Para obter informações detalhadas, consulte [Visão geral da API de modelos](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+
+### As informações nos relatórios dos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] são as mesmas que no download do CSV?
 
 Não, o relatório da interface do usuário contém informações selecionadas. O download do CSV contém detalhes adicionais. O download do relatório de Insights do segmento automatizado contém Segmentos automatizados adicionais, além dos principais segmentos incluídos na interface do usuário, juntamente com a forma como esses segmentos são executados em relação às ofertas ou experiências. O relatório de Atributos importantes inclui os 100 principais atributos de visitantes e sua importância relativa, enquanto a interface do usuário inclui apenas os 10 principais atributos de visitantes.
 
-**Posso ver os Insights de personalização para um intervalo de datas personalizado?**
+### Posso ver os Insights de personalização para um intervalo de datas personalizado?
 
 Os relatórios dos Insights de personalização (os [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes]) estão disponíveis apenas para intervalos de datas fixos: 15 dias, 30 dias, 45 dias, 60 dias e 90 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. Você pode selecionar essas durações para qualquer data final (onde esses dados são suficientes na atividade para atender a duração).
 
-**Como os [!UICONTROL Insights de personalização] são criados?**
+### Como os [!UICONTROL Insights de personalização] são criados?
 
 Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Saiba mais sobre o MAGIX no artigo publicado pela equipe de pesquisadores do Adobe [Site da arXiv.org](https://arxiv.org/abs/1706.07160).
 
-**Os [!UICONTROL Insights de personalização] estão disponíveis para metas de modelagem baseadas em receita/meta principal?**
+### São [!UICONTROL Insights de personalização] disponível para metas de modelagem baseadas em receita/meta principal?
 
 No momento, os [!UICONTROL Insights de personalização] estão disponíveis apenas para atividades com meta de otimização de conversão. O suporte será adicionado para atividades com meta de otimização de receita em uma versão futura.
 
-**Qual é a pontuação de importância do atributo no relatório de Atributos importantes?**
+### Qual é a pontuação de importância do atributo no relatório de Atributos importantes?
 
 A pontuação de importância na parte do relatório &quot;Classificação de importância do atributo&quot; fornece informações sobre quais variáveis usadas pelo algoritmo para aprender eram mais importantes ao determinar como dividir todos os visitantes nos segmentos identificados. Ele atribuiu uma pontuação percentual aos 100 principais atributos usados pelo modelo.
 
-**Por que algumas ofertas/experiências com uma taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação a outras ofertas/experiências para um determinado segmento automatizado?**
+### Por que algumas ofertas/experiências com uma taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação a outras ofertas/experiências para um determinado segmento automatizado?
 
 Há vários motivos possíveis pelos quais você pode ver mais visitas para uma oferta/experiência de conversão mais baixa em um segmento automatizado, incluindo:
 
@@ -136,7 +144,7 @@ Há vários motivos possíveis pelos quais você pode ver mais visitas para uma 
 
 Pode ser útil saber como o modelo fornece o tráfego. Cada indivíduo é servido com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para facilitar sua interpretação por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode fazer com que segmentos individuais exibam esse tipo de comportamento, pois uma mesma pessoa pode aparecer em vários segmentos.
 
-**Quais são as diferentes formas de usar as informações nos Insights de personalização?**
+### Quais são as diferentes formas de usar as informações nos Insights de personalização?
 
 * Descubra novos públicos-alvo para direcionar: se visualizar um segmento automatizado específico com um desempenho particularmente bom, considere criar um público-alvo para que seja possível reutilizá-lo em outros relatórios.
 * Teste suas hipóteses de que tipo de visitantes responderá a quais experiências.
