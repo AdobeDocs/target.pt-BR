@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 93%
+source-wordcount: '2403'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 12 de abril | [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Adição das seguintes perguntas frequentes:<ul><li>Vejo um ou mais atributos que não quero que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento?</li></ul> |
 |  | [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Adição das seguintes perguntas frequentes:<ul><li>O que acontece se um usuário tiver várias funções e permissões?</li></ul> |
+|  | [Fragmentos de conteúdo](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) do AEM | Novo tópico. Observe que esse recurso está no status de &quot;pré-lançamento&quot; para fins de teste. |
 | 5 de abril | [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Foi adicionado um texto indicando que [!UICONTROL Analytics como fonte de relatórios] (A4t) não é compatível com atividades que usam decisões de oferta. |
 | 3 de abril | [[!DNL Adobe Target] Anúncios e eventos](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o [!UICONTROL Comunidade Adobe Target] Intervalo de café programado para quarta-feira, 12 de abril de 2023. |
 |  | [Lista de permissões de nós de borda no Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Adição de uma observação para lista de permissões tudo [!DNL Adobe Analytics] Blocos de endereço IP. |
