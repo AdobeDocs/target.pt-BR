@@ -2,14 +2,14 @@
 keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
 description: Conheça os conceitos básicos do Adobe [!DNL Target] Padrão e Adobe [!DNL Target] Premium. [!DNL Target] O Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
-short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+short-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: O que é o Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 88%
+source-wordcount: '1046'
+ht-degree: 89%
 
 ---
 
