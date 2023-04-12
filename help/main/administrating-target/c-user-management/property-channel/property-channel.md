@@ -1,27 +1,27 @@
 ---
-keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração de produto; perfil de produto; funções; projeto
+keywords: espaços de trabalho; gerenciar propriedade; permissões; configuração do produto; perfil do produto; funções; projeto; observador; editor; aprovador; editor
 description: Saiba como criar espaços de trabalho separados (perfis de produto) e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais.
 title: O que são permissões de usuário empresarial e como usá-las?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 59%
+source-wordcount: '3214'
+ht-degree: 57%
 
 ---
 
 # Permissões de usuário empresarial
 
-Permissões de usuário empresarial são um meio de administrar formalmente o acesso de usuários corporativos para [!DNL Adobe Target]. Adicionar usuários a [!DNL Target], atribuir permissões com base em suas funções e criar espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de [!UICONTROL Observador], [!UICONTROL Editor]ou [!UICONTROL Aprovador].
+Permissões de usuário empresarial são um meio de administrar formalmente o acesso de usuários corporativos para [!DNL Adobe Target]. Adicionar usuários a [!DNL Target], atribuir permissões com base em suas funções e criar espaços de trabalho para equipes com base em diferentes departamentos, locais globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de [!UICONTROL Observador], [!UICONTROL Editor], [!UICONTROL Aprovador]ou [!UICONTROL Editor].
 
 ## Determine se você tem acesso a permissões de usuário empresarial
 
 >[!NOTE]
 >
->A funcionalidade Propriedades e permissões está disponível como parte da solução do [!DNL Target] Premium. Não estão disponíveis no [!DNL Target] Standard sem uma licença do [!DNL Target] Premium.
+>A funcionalidade [!UICONTROL Propriedades e permissões] está disponível como parte da solução do [!DNL Target] Premium. Não estão disponíveis no [!DNL Target] Standard sem uma licença do [!DNL Target] Premium.
 >
 >Seu [!DNL Target] a implementação pode estar usando qualquer versão da at.js.
 
@@ -89,10 +89,10 @@ As funções e permissões determinam os níveis de acesso que os usuários têm
 
 | Função | Descrição |
 |--- |--- |
-| Aprovador | Pode criar, editar e ativar ou parar atividades. |
-| Editor | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
-| Observador | Pode exibir atividades, mas não pode criá-las ou editá-las. |
-| Editor | Semelhante à função de Observador (pode exibir atividades, mas não pode criá-las ou editá-las). No entanto, a função Editor tem a permissão adicional para ativar atividades. |
+| [!UICONTROL Aprovador] | Pode criar, editar e ativar ou parar atividades. |
+| [!UICONTROL Editor] | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+| [!UICONTROL Observador] | Pode exibir atividades, mas não pode criá-las ou editá-las. |
+| [!UICONTROL Editor] | Semelhante ao [!UICONTROL Observador] (pode exibir atividades, mas não pode criá-las ou editá-las). No entanto, a função [!UICONTROL Editor] tem a permissão adicional para ativar atividades. |
 
 ### Canal
 
@@ -258,6 +258,10 @@ Considere o seguinte ao usar ou configurar propriedades e permissões em [!DNL T
 ## Perguntas frequentes {#faqs}
 
 As perguntas frequentes sobre as permissões empresariais incluem o seguinte:
+
+### O que acontece se um usuário tiver várias funções e permissões?
+
+Se um usuário tiver várias funções e permissões, a função com as permissões do locatário será aplicada. Por exemplo, se um usuário tiver [!UICONTROL Observador] e [!UICONTROL Aprovador] funções, a [!UICONTROL Aprovador] é aplicada.
 
 ### Posso mover uma atividade de um espaço de trabalho para outro?
 
