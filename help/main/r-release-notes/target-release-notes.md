@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, aprimoramentos e correções in
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 64%
+source-wordcount: '272'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 Este artigo contém informações de pré-lançamento para o futuro [!DNL Adobe Target] , incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 30 de março de 2023**
+**Última atualização: 12 de abril de 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,15 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 ## [!DNL Adobe Experience Manager] (AEM) e [!DNL Adobe Target] [!UICONTROL Fragmentos de conteúdo] versão (12 de abril de 2023)
 
+>[!NOTE]
+>
+>Esse recurso estará disponível como um recurso de pré-lançamento em 12 de abril de 2023 e estará disponível para lançamento do GA (Disponibilidade geral) em 26 de abril de 2023.
+
 Esta versão contém o seguinte novo recurso:
 
 | Recurso | Detalhes |
 |--- |--- |
-| AEM [!UICONTROL Fragmentos de conteúdo] para personalização e experimentação sem periféricos | Use [!UICONTROL fragmentos de conteúdo] do [!DNL Adobe Experience Manager] (AEM) em atividades do [!DNL Target]. Combine a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para auxiliar na personalização e na experimentação sem periféricos. |
+| AEM [!UICONTROL Fragmentos de conteúdo] para personalização e experimentação sem periféricos | Use [!UICONTROL fragmentos de conteúdo] do [!DNL Adobe Experience Manager] (AEM) em atividades do [!DNL Target]. Combine a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para auxiliar na personalização e na experimentação sem periféricos.<P>Para obter mais informações, consulte [AEM [!UICONTROL Fragmentos de conteúdo]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 
 ## Notas de versão adicionais e detalhes da versão
 

@@ -2,12 +2,13 @@
 keywords: experience;json;aem;adobe experience manager;exportar para o adobe target;fragmentos de conteúdo;fragmentos;CF;cf; sem cabeçalho; personalização; experimentação
 description: Saiba como usar  [!DNL Adobe Experience Manager] [!UICONTROL fragmentos de conteúdo] em atividades do  [!DNL Adobe Target] .
 title: Como usar [!UICONTROL fragmentos de conteúdo] do  [!DNL Adobe Experience Manager]  (AEM)?
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePrerelease: label="Prerelease"
 feature: Integrations
-source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
+exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
+source-git-commit: 1cc328732bed41303ab0b1c6857dcbc812940022
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 85%
+source-wordcount: '779'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +18,7 @@ Use [!UICONTROL Fragmentos de conteúdo] (CFs) criadas em [!DNL Adobe Experience
 
 >[!NOTE]
 >
->Esse recurso será lançado em 12 de abril de 2023.
+>Esse recurso estará disponível como um recurso de pré-lançamento em 12 de abril de 2023 e estará disponível para lançamento do GA (Disponibilidade geral) em 26 de abril de 2023.
 
 ## Considerações
 
