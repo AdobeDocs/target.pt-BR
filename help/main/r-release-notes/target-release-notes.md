@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, aprimoramentos e correções in
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 57%
+source-wordcount: '292'
+ht-degree: 53%
 
 ---
 
@@ -27,7 +27,9 @@ Para ver informações sobre a versão atual, consulte [Notas de versão do Targ
 
 >[!NOTE]
 >
->Esse recurso estará disponível como um recurso de pré-lançamento em 12 de abril de 2023 e estará disponível para lançamento do GA (Disponibilidade geral) em 26 de abril de 2023.
+>Esse recurso está disponível como um recurso de pré-lançamento em 12 de abril de 2023. Como um recurso de pré-lançamento, você pode experimentar com [!UICONTROL Fragmentos de conteúdo] uso de ambientes de desenvolvimento e de preparo, mas não em ambientes de produção.
+>
+>Esse recurso estará disponível para lançamento do GA (Disponibilidade Geral) em 26 de abril de 2023.
 
 Esta versão contém o seguinte novo recurso:
 
