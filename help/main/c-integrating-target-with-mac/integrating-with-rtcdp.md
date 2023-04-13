@@ -4,9 +4,9 @@ description: Saiba como usar a integração  [!DNL Target]/[!DNL Real-time Custo
 title: Como integrar o  [!DNL Target]  com a  [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '895'
 ht-degree: 21%
 
 ---
@@ -94,8 +94,6 @@ Para obter mais informações, consulte [Personalização de próxima ocorrênci
 ## Compartilhar atributos de perfil da CDP em tempo real com [!DNL Target] {#rtcdp-profile-attributes}
 
 Os atributos de perfil da CDP em tempo real podem ser compartilhados com [!DNL Target] para uso na oferta do HTML e em ofertas JSON. (Observe que esse recurso está atualmente na versão beta.)
-
-Para obter mais informações, consulte [Compartilhar atributos de perfil da CDP em tempo real com [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 Caso de uso de exemplo: Como comerciante online, a Grace quer que o Perfil AEP/Unified compartilhe valores de atributo com [!DNL Target] para fornecer personalização em tempo real. Ao usar atributos de perfil da CDP em tempo real, o Grace pode exibir o valor do atributo da AEP em um [!DNL Target] oferta usando substituição de token. Por exemplo, ela pode personalizar de acordo com a cor favorita de um cliente usando `${aep.profile.favoriteColor}`ou seu nível de fidelidade e valor do ponto de fidelidade usando os tokens `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
 
