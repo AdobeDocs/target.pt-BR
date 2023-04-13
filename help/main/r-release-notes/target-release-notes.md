@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, aprimoramentos e correções in
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 53%
+source-wordcount: '325'
+ht-degree: 51%
 
 ---
 
@@ -15,27 +15,22 @@ ht-degree: 53%
 
 Este artigo contém informações de pré-lançamento para o futuro [!DNL Adobe Target] , incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 12 de abril de 2023**
+**Última atualização: 13 de abril de 2023**
 
 >[!NOTE]
 >
 >As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
-
-Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
-
-## [!DNL Adobe Experience Manager] (AEM) e [!DNL Adobe Target] [!UICONTROL Fragmentos de conteúdo] versão (12 de abril de 2023)
-
->[!NOTE]
 >
->Esse recurso está disponível como um recurso de pré-lançamento em 12 de abril de 2023. Como um recurso de pré-lançamento, você pode experimentar com [!UICONTROL Fragmentos de conteúdo] uso de ambientes de desenvolvimento e de preparo, mas não em ambientes de produção.
->
->Esse recurso estará disponível para lançamento do GA (Disponibilidade Geral) em 26 de abril de 2023.
+>Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-Esta versão contém o seguinte novo recurso:
+## [!DNL Target] Standard/Premium 23.4.1 (25-27 de abril de 2023)
+
+Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 | Recurso | Detalhes |
 |--- |--- |
-| AEM [!UICONTROL Fragmentos de conteúdo] para personalização e experimentação sem periféricos | Use [!UICONTROL fragmentos de conteúdo] do [!DNL Adobe Experience Manager] (AEM) em atividades do [!DNL Target]. Combine a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para auxiliar na personalização e na experimentação sem periféricos.<P>Para obter mais informações, consulte [AEM [!UICONTROL Fragmentos de conteúdo]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| AEM [!UICONTROL Fragmentos de conteúdo] para personalização e experimentação sem periféricos | Use [!UICONTROL fragmentos de conteúdo] do [!DNL Adobe Experience Manager] (AEM) em atividades do [!DNL Target]. Combine a facilidade de uso e o poder do AEM com os poderosos recursos de Inteligência Artificial (AI) e Aprendizagem de Máquina (ML) em [!DNL Target] para auxiliar na personalização e na experimentação sem periféricos.<P>Para obter mais informações, consulte [AEM [!UICONTROL Fragmentos de conteúdo]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**OBSERVAÇÃO**: Esse recurso está disponível como um recurso de pré-lançamento a partir de 12 de abril de 2023. Como um recurso de pré-lançamento, você pode experimentar com [!UICONTROL Fragmentos de conteúdo] uso de ambientes de desenvolvimento e de preparo, mas não uso de ambientes de produção. Este recurso estará disponível para GA (Disponibilidade Geral) no [!DNL Target Standard/Premium] Versão 23.4.1. |
+| Atributos de perfil da Real-Time CDP compartilhados com [!DNL Target] | [!UICONTROL Atributos do perfil do Real-Time CDP] pode ser compartilhado com [!DNL Target] para uso em ofertas HTML e JSON.<P>Para obter mais informações, consulte [Compartilhar atributos de perfil do Real-Time CDP com [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## Notas de versão adicionais e detalhes da versão
 
