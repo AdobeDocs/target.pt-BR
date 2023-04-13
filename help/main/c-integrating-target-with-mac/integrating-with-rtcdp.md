@@ -4,14 +4,14 @@ description: Saiba como usar a integração  [!DNL Target]/[!DNL Real-time Custo
 title: Como integrar o  [!DNL Target]  com a  [!DNL Real-time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
+source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '904'
 ht-degree: 18%
 
 ---
 
-# Integração com a Real-time Customer Data Platform
+# Integrar com [!DNL Real-time Customer Data Platform]
 
 Criada na [!DNL Adobe Experience Platform], a [!DNL Real-time Customer Data Platform] (RTCDP) ajuda empresas a reunir dados conhecidos e anônimos de várias fontes corporativas para criar perfis de clientes que podem ser usados para fornecer experiências personalizadas em todos os canais e dispositivos em tempo real.
 
@@ -36,29 +36,6 @@ Os principais recursos incluem:
 * [!UICONTROL Cartão de Destinos da borda do Target] com a governação e a aplicação das políticas
 * Segmentos da CDP em tempo real e atributos de perfil compartilhados
 
-### Limitações de recursos e considerações dos atributos de perfil da CDP em tempo real
-
-Considere o seguinte:
-
-* Os atributos em uma determinada oferta devem ser da mesma sandbox da AEP. (Em outras palavras, uma oferta não pode conter atributos de sandboxes da AEP diferentes.)
-* Os atributos em uma determinada oferta podem vir de fontes diferentes; a saber, o [!DNL Target] e o perfil do AEP. (Em outras palavras, é possível combinar atributos de origem [!DNL Target] ou do perfil do AEP.)
-* Ao definir uma oferta, você pode atribuir valores padrão para Atributos de perfil da CDP em tempo real, caso o atributo não tenha um valor explícito. Por exemplo, se uma política de consentimento ou de governança bloquear o atributo que está sendo usado no serviço de personalização, o valor padrão poderá ser usado.
-* Quando compartilhados, os Atributos de perfil da CDP em tempo real são usados nos modelos de personalização de Inteligência artificial/Aprendizagem de máquina para [!UICONTROL Direcionamento automático] e [!UICONTROL Automated Personalization] atividades.
-
->[!NOTE]
->
->O recurso Atributos de perfil da CDP em tempo real está disponível em Beta para ofertas do HTML e [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### Links para mais informações
-
-Para obter mais informações, consulte os seguintes tópicos:
-
-* [Notas de versão de destinos](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} no *Notas de versão do Adobe Experience Platform*
-* [Configurar destinos de personalização para a personalização da mesma página e da próxima página](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} no *Visão geral dos destinos* guia.
-* [Conexão de personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} no *Visão geral dos destinos* guia
-* [Conexão Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} no *Visão geral dos destinos* guia
-* [Configurar destinos de personalização para a mesma página e casos de uso de personalização da próxima página](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} no *Visão geral dos destinos* guia
-
 ### Casos de uso de personalização
 
 A tabela a seguir mostra qual tipo de caso de uso de personalização (próxima sessão ou mesma página) está disponível ao usar o [!DNL Adobe Experience Platform Web SDK] versus usar at.js:
@@ -81,11 +58,36 @@ A tabela a seguir mostra o tempo de avaliação de segmento para eventos proveni
 | Eventos do upload em lote | Não | Não | Sim |
 | Eventos de dados offline (fluxo) | Não | Sim | Sim |
 
+### Links para mais informações
+
+Para obter mais informações, consulte os seguintes tópicos:
+
+* [Notas de versão de destinos](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} no *Notas de versão do Adobe Experience Platform*
+* [Configurar destinos de personalização para a personalização da mesma página e da próxima página](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} no *Visão geral dos destinos* guia.
+* [Conexão de personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} no *Visão geral dos destinos* guia
+* [Conexão Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} no *Visão geral dos destinos* guia
+* [Configurar destinos de personalização para a mesma página e casos de uso de personalização da próxima página](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} no *Visão geral dos destinos* guia
+
 ## Compartilhar atributos de perfil da CDP em tempo real com [!DNL Target] {#rtcdp-profile-attributes}
 
-Os atributos de perfil da CDP em tempo real podem ser compartilhados com [!DNL Target] para uso em ofertas HTML e [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Observe que esse recurso está atualmente na versão beta.)
+Os atributos de perfil da CDP em tempo real podem ser compartilhados com [!DNL Target] para uso em ofertas HTML e [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-Caso de uso de exemplo: Como comerciante online, você deseja que o Perfil AEP/Unified compartilhe valores de atributo com a [!DNL Target] para fornecer personalização em tempo real. Ao usar Atributos de perfil da CDP em tempo real, é possível exibir o valor do atributo da AEP em um [!DNL Target] oferta usando substituição de token. Por exemplo, você pode personalizar de acordo com a cor favorita de um cliente usando `${aep.profile.favoriteColor}`ou seu nível de fidelidade e valor do ponto de fidelidade usando os tokens `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
+### Limitações de recursos e considerações dos atributos de perfil da CDP em tempo real
+
+>[!NOTE]
+>
+>O recurso Atributos de perfil da CDP em tempo real está disponível em Beta para ofertas do HTML e [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+Considere o seguinte:
+
+* Os atributos em uma determinada oferta devem ser da mesma sandbox da AEP. (Em outras palavras, uma oferta não pode conter atributos de sandboxes da AEP diferentes.)
+* Os atributos em uma determinada oferta podem vir de fontes diferentes; a saber, o [!DNL Target] e o perfil do AEP. (Em outras palavras, é possível combinar atributos de origem [!DNL Target] ou do perfil do AEP.)
+* Ao definir uma oferta, você pode atribuir valores padrão para Atributos de perfil da CDP em tempo real, caso o atributo não tenha um valor explícito. Por exemplo, se uma política de consentimento ou de governança bloquear o atributo que está sendo usado no serviço de personalização, o valor padrão poderá ser usado.
+* Quando compartilhados, os Atributos de perfil da CDP em tempo real são usados nos modelos de personalização de Inteligência artificial/Aprendizagem de máquina para [!UICONTROL Direcionamento automático] e [!UICONTROL Automated Personalization] atividades.
+
+### Caso de uso de exemplo
+
+Como comerciante online, você deseja que o Perfil AEP/Unified compartilhe valores de atributo com a [!DNL Target] para fornecer personalização em tempo real. Ao usar Atributos de perfil da CDP em tempo real, é possível exibir o valor do atributo da AEP em um [!DNL Target] oferta usando substituição de token. Por exemplo, você pode personalizar de acordo com a cor favorita de um cliente usando `${aep.profile.favoriteColor}`ou seu nível de fidelidade e valor do ponto de fidelidade usando os tokens `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
