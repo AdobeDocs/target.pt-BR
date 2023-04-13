@@ -4,7 +4,7 @@ description: Saiba como usar a integração  [!DNL Target]/[!DNL Real-Time Custo
 title: Como integrar o  [!DNL Target]  com a  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 8%
@@ -104,7 +104,7 @@ A ilustração a seguir mostra que dois atributos de perfil: `loyalty.tier` e `l
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
-### Links para mais informações
+## Links para mais informações
 
 Para obter mais informações, consulte os seguintes tópicos:
 
