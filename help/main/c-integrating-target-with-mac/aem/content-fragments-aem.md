@@ -1,5 +1,5 @@
 ---
-keywords: experience;json;aem;adobe experience manager;exportar para o adobe target;fragmentos de conteúdo;fragmentos;CF;cf; sem cabeçalho; personalização; experimentação
+keywords: experience;json;aem;adobe experience manager;exportar para o adobe target;fragmentos de conteúdo;fragmentos;CF;cf;headless;personalização;experimentação
 description: Saiba como usar  [!DNL Adobe Experience Manager] [!UICONTROL fragmentos de conteúdo] em atividades do  [!DNL Adobe Target] .
 title: Como usar [!UICONTROL fragmentos de conteúdo] do  [!DNL Adobe Experience Manager]  (AEM)?
 badgePrerelease: label="Prerelease"
@@ -8,13 +8,13 @@ exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 82%
+ht-degree: 87%
 
 ---
 
 # [!UICONTROL Fragmentos de conteúdo] do AEM
 
-Use [!UICONTROL Fragmentos de conteúdo] (CFs) criadas em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na personalização e na experimentação sem periféricos.
+Use os [!UICONTROL fragmentos de conteúdo] (CFs) criados no [!DNL Adobe Experience Manager] (AEM) em atividades do [!DNL Target] para auxiliar na experimentação e personalização headless.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Entre em contato com o [Atendimento ao cliente do Adobe Target](/help/main/cmp-r
 
 ## Como configurar e trabalhar com [!UICONTROL fragmentos de conteúdo] no [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Para exportar [!UICONTROL fragmentos de conteúdo] para uso em atividades do [!DNL Target], você deve executar algumas etapas preliminares no AEM. Para obter mais informações, consulte [Exportar fragmentos de conteúdo para o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} no *Documentação do Experience Manager as a Cloud Service*.
+Para exportar [!UICONTROL fragmentos de conteúdo] para uso em atividades do [!DNL Target], você deve executar algumas etapas preliminares no AEM. Para obter mais informações, consulte [Exportar fragmentos de conteúdo para o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} na *documentação do Experience Manager as a Cloud Service*.
 
 Para obter informações sobre design, criação, preparação e publicação de [!UICONTROL fragmentos de conteúdo], consulte [[!UICONTROL Fragmentos de conteúdo]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=pt-BR){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=pt-BR){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=pt-BR){target=_blank}.
 
