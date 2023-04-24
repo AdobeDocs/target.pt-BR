@@ -7,10 +7,10 @@ title: Como implementar [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 6%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Antes de começar a utilizar [!DNL Adobe Target], é necessário implementá-lo no site.
 
-O [Portal do Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank} contém as informações necessárias antes da implementação [!DNL Target].
+O [Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contém as informações necessárias antes da implementação [!DNL Target].
 
 O Portal do desenvolvedor inclui informações sobre os seguintes tipos de implementação:
 
@@ -29,11 +29,11 @@ O Portal do desenvolvedor inclui informações sobre os seguintes tipos de imple
 * **Aplicativos para dispositivos móveis**: Informações para ajudar a implementar com [!DNL Adobe Experience Platform Mobile] SDKs.
 * **Email**: Informações para ajudar a implementar [!DNL Target] em emails.
 
-Para obter mais informações, consulte o [Portal do Guia do desenvolvedor do Adobe Target](https://developer.adobe.com/target/){target=_blank}.
+Para obter mais informações, consulte o [Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 >[!NOTE]
 >
->Todas as informações incluídas anteriormente na *Implementar o Target* neste guia (o *Guia do profissional do Adobe Target*) agora está incluída no [Portal do desenvolvedor](https://developer.adobe.com/target/){target=_blank}.
+>Todas as informações incluídas anteriormente na *Implementar o Target* neste guia (o *Guia do profissional do Adobe Target*) agora está incluída no [Guia do desenvolvedor](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 
 

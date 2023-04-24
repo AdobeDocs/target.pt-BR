@@ -5,9 +5,9 @@ title: Quais dados são coletados para criar algoritmos de aprendizado de máqui
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 51%
 
 ---
@@ -49,7 +49,7 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados pelo [!UICON
 
 Os recursos podem ser bloqueados de algoritmos de aprendizado de máquina do [!DNL Target], impedindo que sejam usados em qualquer modelo ou atividade de [!UICONTROL Direcionamento automático] ou do [!UICONTROL Automated Personalization].
 
-Para obter mais informações, consulte [Visão geral da API de modelos (Incluir na lista de bloqueios)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
+Para obter mais informações, consulte [Visão geral da API de modelos (Incluir na lista de bloqueios)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
 
 ## Dispositivo e dados móveis {#device-mobile}
 

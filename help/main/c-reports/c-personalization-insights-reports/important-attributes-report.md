@@ -5,10 +5,10 @@ title: Qual é o relatório de atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 75%
+source-wordcount: '1855'
+ht-degree: 74%
 
 ---
 
@@ -110,7 +110,7 @@ Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus 
 
 O [!UICONTROL API de modelos], também chamada de API de  de Lista de bloqueios, permite que os usuários visualizem e gerenciem a lista de atributos (também chamados de recursos) usados em modelos de aprendizado de máquina para [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT). Se quiser excluir um ou mais atributos de serem usados pelos modelos para atividades de AP ou AT, use a API de modelos para adicionar esses atributos à &quot; de lista de bloqueios&quot;.
 
-Para obter informações detalhadas, consulte [Visão geral da API de modelos](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+Para obter informações detalhadas, consulte [Visão geral da API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### As informações nos relatórios dos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] são as mesmas que no download do CSV?
 

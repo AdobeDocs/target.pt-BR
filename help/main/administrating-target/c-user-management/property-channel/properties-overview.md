@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1448'
 ht-degree: 67%
 
 ---
@@ -84,7 +84,7 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 
 ### Obter a ID do espaço de trabalho {#workspace-id}
 
-Você precisará passar a ID do espaço de trabalho para utilizar as Permissões empresariais nas [APIs do Target](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Você precisará passar a ID do espaço de trabalho para utilizar as Permissões empresariais nas [APIs do Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. No [Adobe Admin Console](https://adminconsole.adobe.com), clique na guia [!UICONTROL Produtos] e depois no produto, no menu esquerdo, para exibir a lista da PLC(workspace).
 1. Clique na PLC(workspace) desejada e localize a ID de &quot;perfis&quot; no URL, como mostrado abaixo.
@@ -159,7 +159,7 @@ Para usar o [!DNL Target] da funcionalidade de permissões de usuário, é neces
       </script>
       ```
 
-      Para obter mais informações sobre como fazer isso com a at.js, consulte [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
+      Para obter mais informações sobre como fazer isso com a at.js, consulte [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
 ## Etapa 6: Especificar funções e permissões {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
