@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ce36e74605468466ed7bdc83f412f78941151845
+source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 69%
 
 ---
 
@@ -30,7 +30,7 @@ Esta versão contém atualizações de segurança e os seguintes novos recursos:
 | Recurso | Detalhes |
 |--- |--- |
 | [!UICONTROL Fragmentos de conteúdo] do AEM para personalização e experimentação headless | Use [!UICONTROL fragmentos de conteúdo] do [!DNL Adobe Experience Manager] (AEM) em atividades do [!DNL Target]. Combine a facilidade de uso e o potencial do AEM com os eficientes recursos de inteligência artificial (IA) e aprendizado de máquina (ML) do [!DNL Target] para ajudar na experimentação e personalização headless.<P>Para obter mais informações, consulte [AEM [!UICONTROL Fragmentos de conteúdo]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**OBSERVAÇÃO**: Esse recurso está disponível como um recurso de pré-lançamento a partir de 12 de abril de 2023. Como um recurso de pré-lançamento, você pode experimentar com [!UICONTROL Fragmentos de conteúdo] uso de ambientes de desenvolvimento e de preparo, mas não uso de ambientes de produção. Esse recurso estará disponível para todos os clientes em 26 de abril de 2023. |
-| Atributos de perfil da Real-Time CDP compartilhados com [!DNL Target] | [!UICONTROL Atributos do perfil do Real-Time CDP] pode ser compartilhado com [!DNL Target] para uso em ofertas HTML e JSON.<P>Para obter mais informações, consulte [Compartilhar atributos de perfil do Real-Time CDP com [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+| Atributos de perfil da Real-Time CDP compartilhados com [!DNL Target] | [!UICONTROL Atributos do perfil do Real-Time CDP] pode ser compartilhado com [!DNL Target] para uso em ofertas HTML e JSON.<P>Para obter mais informações, consulte [Compartilhar atributos de perfil do Real-Time CDP com [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Esse recurso estará disponível para todos os clientes em 9 de maio de 2023. |
 
 ## Notas de versão adicionais e detalhes da versão
 
