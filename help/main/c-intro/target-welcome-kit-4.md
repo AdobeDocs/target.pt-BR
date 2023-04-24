@@ -4,7 +4,7 @@ description: Leia dicas do nosso painel de especialistas sobre como usar o  [!DN
 title: Onde posso encontrar dicas e truques para usar o Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 73%
@@ -25,7 +25,7 @@ Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/targ
 
 **Informações importantes**: como [!DNL Target] é uma plataforma aberta e agnóstica que funciona bem com diferentes tecnologias, você pode adicionar CRM ou dados adquiridos de várias maneiras diferentes. Isso significa que você pode escolher um método que funcione melhor para sua organização.
 
-Consulte [Métodos para colocar os dados no Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} para obter mais informações.
+Consulte [Métodos para obter dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html) para obter mais informações.{target=_blank}
 
 ## Dica 2: personalize mais profundamente combinando públicos do [!DNL Target] com outros públicos da Adobe Experience Cloud.
 

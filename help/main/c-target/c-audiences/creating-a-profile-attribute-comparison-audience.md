@@ -4,10 +4,10 @@ description: Saiba como definir um público-alvo para comparar dois atributos de
 title: Posso comparar dois atributos de perfil para uso nos públicos-alvo?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 63%
+ht-degree: 60%
 
 ---
 
@@ -23,14 +23,14 @@ Defina um público-alvo em [!DNL Adobe Target] para comparar dois atributos de p
 
 Os públicos-alvo são definidos por regras que determinam quem está incluso ou foi excluído de uma atividade no [!DNL Target]. Uma definição de público-alvo pode incluir diversas regras, e cada uma delas pode incluir vários parâmetros. Se uma das regras incluídas usar a variável [!UICONTROL Perfil do visitante] , você pode definir uma regra com base no valor específico de um atributo de perfil de visitante ou comparar o valor desse atributo com outro atributo de perfil de visitante.
 
-Por exemplo, suponhamos que você trabalhe para uma empresa de móveis e tenha feito o upload de duas pontuações de propensão de cliente no [!DNL Target]:
+Por exemplo, suponhamos que você trabalhe para uma empresa de móveis e tenha enviado duas pontuações de propensão do cliente para [!DNL Target]:
 
 * Probabilidade de comprar móveis para a sala de jantar nos próximos 90 dias
 * Probabilidade de comprar móveis para a sala de estar nos próximos 90 dias
 
 Você poderia criar um público-alvo definido como a propensão para comprar móveis para a sala de jantar maior do que para comprar móveis para a sala de estar. [!DNL Target]O compararia dinamicamente as pontuações de propensão para sala de jantar e sala de estar de um visitante específico, para determinar se ele é qualificável para esse público-alvo.
 
-Para obter mais informações, consulte [Métodos para colocar os dados no Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+Para obter mais informações, consulte [Métodos para obter dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Criar um público-alvo de comparação do atributo de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

@@ -4,10 +4,10 @@ description: Saiba como combinar vários públicos-alvo (incluindo públicos-alv
 title: Posso combinar vários públicos para criar um novo público?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 64%
+source-wordcount: '961'
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ Combinar vários públicos (incluindo [!DNL Adobe Experience Cloud], [!DNL Adobe
 
 >[!NOTE]
 >
->O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou combinada com públicos-alvo existentes, conforme explicado neste tópico.
+>O [!DNL Adobe Experience Platform] A fonte está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Públicos-alvo disponíveis na [!DNL Adobe Experience Platform] pode ser usada como está ou combinada com públicos-alvo existentes, conforme explicado neste tópico.
 >
 >Para obter mais informações, consulte [Usar públicos-alvo do Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

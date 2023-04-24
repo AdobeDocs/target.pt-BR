@@ -5,9 +5,9 @@ title: Como criar uma atividade do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1313'
 ht-degree: 76%
 
 ---
@@ -79,7 +79,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    >[!NOTE]
    >
-   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations (**[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtro critérios incompatíveis]**). Para obter mais informações, consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations (**[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtro critérios incompatíveis]**). Para obter mais informações, consulte [Configurações](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Caixa de diálogo Selecionar critérios](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

@@ -4,10 +4,10 @@ description: Saiba como criar exclusões no Adobe [!DNL Target] Recommendations 
 title: Como uso exclusões nas atividades do Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 42%
+source-wordcount: '623'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 * Catálogo de outono/inverno agora é o único catálogo que deve estar presente online. Qualquer item do catálogo de verão não estará mais disponível para compra.
 * Itens que podem ser inadequados para recomendar na maioria das páginas/telas (produtos para adultos, filmes NC-17, etc.)
 * Produtos com campos de metadados incompletos (miniatura ausente, preço ou outros metadados importantes)
-* Produtos que nunca devem ser recomendados (talvez haja um SKU no sistema para algo, mas não é um item comprável, ou talvez seja um SKU falso para a equipe de controle de qualidade simular uma compra sem realmente solicitar algo etc.)
+* Produtos que nunca devem ser recomendados (talvez exista um SKU no sistema para algo, mas ele não é um item comprável, ou talvez seja um SKU falso para a equipe de controle de qualidade simular uma compra sem realmente solicitar algo etc.)
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 
    ![imagem exclusions_list](assets/exclusions_list.png)
 
-   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/){target=_blank} para alterar o grupo de hosts padrão.
+   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) para alterar o grupo de hosts padrão.{target=_blank}
 
 1. Clique em **[!UICONTROL Criar exclusão]**.
 

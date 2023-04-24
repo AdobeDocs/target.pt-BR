@@ -4,10 +4,10 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
-source-wordcount: '2457'
-ht-degree: 100%
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+workflow-type: tm+mt
+source-wordcount: '2455'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Para configurar atributos do perfil:
 
    | Tipo do parâmetro | Descrição |
    |--- |--- |
-   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Observação**: [!DNL Target] o tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o [!DNL Target], é possível fazer isso usando o método de Atualização de perfil da API. Para obter mais informações, consulte [Atualização de perfil na documentação da API do  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Observação**: [!DNL Target] o tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o [!DNL Target], é possível fazer isso usando o método de Atualização de perfil da API. Para obter mais informações, consulte [Atualização de perfil na documentação da API do  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
    | Perfil | Definido diretamente com um trecho de código JavaScript. Esses snippets podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ Os métodos a seguir podem ser usados para depurar scripts de perfil:
 
 **É possível usar os scripts de perfil para capturar informações de uma página localizada em uma camada de dados?**
 
-Os scripts de perfil não podem ler a página diretamente porque são executados no lado do servidor. Os dados devem ser enviados por uma solicitação mbox ou através de outros  [métodos de envio de dados para o Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. Depois que os dados estiverem no [!DNL Target], os scripts de perfil poderão ler os dados como um parâmetro mbox ou parâmetro de perfil.
+Os scripts de perfil não podem ler a página diretamente porque são executados no lado do servidor. Os dados devem ser enviados por uma solicitação mbox ou através de outros  [métodos para colocar os dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Depois que os dados estiverem no [!DNL Target], os scripts de perfil poderão ler os dados como um parâmetro mbox ou parâmetro de perfil.
 
 ## Referência de JavaScript para os parâmetros do perfil de script
 
@@ -246,14 +246,14 @@ Os seguintes objetos e métodos podem ser referenciados por parâmetros de perfi
 | `page.url` | O URL atual. |
 | `page.protocol` | O protocolo usado pela página (http ou https). |
 | `page.domain` | O domínio do URL atual (tudo antes da primeira barra). Por exemplo, `www.acme.com` em `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
-| `page.query` | A sequência de consulta da página atual. Tudo depois de &quot;?&quot;. Por exemplo, `blue&size=small` em `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
-| `page.param(‘<par_name>’)` | O valor do parâmetro indicado por `<par_name>`. Se o URL atual for a página de pesquisa do Google e você digitou `page.param('hl')`, &quot;en&quot; seria obtido para o URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | A sequência de consulta da página atual. Tudo depois do &#39;?&#39;. Por exemplo, `blue&size=small` em `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
+| `page.param('<par_name>')` | O valor do parâmetro indicado por `<par_name>`. Se o URL atual for a página de pesquisa do Google e você digitou `page.param('hl')`, você obteria &quot;en&quot; para o URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | O mesmo conjunto de operações acima se aplica ao referenciador e à landing page (ou seja, referrer.url é o endereço url do referenciador). |
 | `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a landing page. |
 | `mbox.name` | O nome da mbox ativa. |
-| `mbox.param(‘<par_name>’)` | Um parâmetro de mbox pelo nome fornecido na mbox ativa. |
-| `profile.get(‘<par_name>’)` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado de &quot;gênero&quot;, o valor poderá ser extraído usando &quot;profile.gender&quot;. Retorna o valor do &quot;`profile.<par_name>`&quot; definido para o visitante atual; retorna nulo se nenhum valor foi definido. Observe que `profile.get(<par_name>)` é qualificada como uma chamada de função. |
-| `user.get(‘<par_name>’)` | Retorna o valor do &quot;`user.<par_name>`&quot; definido para o visitante atual; retorna nulo se nenhum valor foi definido. |
+| `mbox.param('<par_name>')` | Um parâmetro de mbox pelo nome fornecido na mbox ativa. |
+| `profile.get('<par_name>')` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado &quot;gênero&quot;, o valor poderá ser extraído usando &quot;profile.gender&quot;. Retorna o valor do &quot;`profile.<par_name>`&quot; definido para o visitante atual; retorna null se nenhum valor tiver sido definido. Observe que `profile.get(<par_name>)` é qualificada como uma chamada de função. |
+| `user.get('<par_name>')` | Retorna o valor do &quot;`user.<par_name>`&quot; definido para o visitante atual; retorna null se nenhum valor tiver sido definido. |
 | `user.categoryAffinity` | Retorna o nome da melhor categoria. |
 | `user.categoryAffinities` | Retorna uma matriz com as melhores categorias. |
 | `user.isFirstSession` | Retorna verdadeiro se for a primeira sessão do visitante. |
@@ -272,8 +272,8 @@ Todos os operadores JavaScript padrão estão presentes e utilizáveis. Os opera
 | `>` | Indica que a variável à esquerda é superior à da direita. Será avaliado como falso se as variáveis forem iguais. |
 | `<=` | Igual a `<`, exceto se as variáveis forem iguais, então, será avaliado como verdadeiro. |
 | `>=` | Igual a `>`, exceto se as variáveis forem iguais, então, será avaliado como verdadeiro. |
-| `&&` | Na lógica, o &quot;AND&quot; entre as expressões, à esquerda e à direita - é true somente quando ambos os lados são true (caso contrário, é false). |
-| `||` | Na lógica, &quot;OR&quot; entre as expressões, à esquerda e à direita - é true somente se um dos lados for true (caso contrário, é false). |
+| `&&` | Na lógica, &quot;AND&quot; entre as expressões, à esquerda e à direita - é verdadeiro somente quando ambos os lados são verdadeiros (caso contrário, é falso). |
+| `||` | Na lógica, &quot;OR&quot; entre as expressões, à esquerda e à direita - é verdadeiro somente se um dos lados for verdadeiro (caso contrário, é falso). |
 | `//` | Verifica se a origem contém todos os elementos que os booleanos de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também suporta o uso de valores de sequência constantes, agrupando-os (`condition1 || condition2) && condition3` e expressões regulares `/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Vídeo de treinamento: Scripts de perfil ![Selo do tutorial](/help/main/assets/tutorial.png)

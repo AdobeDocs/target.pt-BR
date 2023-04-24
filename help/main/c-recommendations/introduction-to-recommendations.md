@@ -5,10 +5,10 @@ title: O que são as atividades do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 91%
+source-wordcount: '2114'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ Em seguida, você deve adicionar tags ou aproveitar a implementação existente 
 
 Você precisa garantir que o [!DNL Target] esteja ciente dos itens que os usuários estão vendo e comprando. Se a compra não for relevante para o seu contexto, talvez você queira rastrear um tipo diferente de evento de conversão, por exemplo, baixar uma PDF, concluir uma pesquisa, inscrever-se em um boletim informativo, assistir a um vídeo e assim por diante.
 
-Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil configurar isso usando um gerenciador de tags, como tags em [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Também é possível enviar interações offline ou no aplicativo para [!DNL Target] por meio da API em tempo real.
+Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil configurar isso usando um gerenciador de tags, como tags em [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Também é possível enviar interações offline ou no aplicativo para [!DNL Target] por meio da API em tempo real.
 
 ### Obter recomendações com o contexto adequado
 

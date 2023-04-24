@@ -5,7 +5,7 @@ title: Como basear a recomendação em uma chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ Algoritmos de recomendações diferentes se prestam à localização em diferent
 
 ## Baseado em carrinho {#cart-based}
 
-O [!UICONTROL Baseado em carrinho] O tipo de algoritmo permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio de [parâmetro da mbox `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} em valores separados por vírgula. Somente os primeiros dez valores são considerados.
+O [!UICONTROL Baseado em carrinho] O tipo de algoritmo permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio de [parâmetro da mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgula. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada no carrinho é semelhante ao &quot;[!UICONTROL Recomendado Para Você]&quot; algoritmo baseado no usuário e no &quot;[!UICONTROL Pessoas que visualizaram estes, compraram aqueles]&quot; e &quot;[!UICONTROL Pessoas que compraram isto, compraram aqueles]&quot; algoritmos baseados em itens.
 

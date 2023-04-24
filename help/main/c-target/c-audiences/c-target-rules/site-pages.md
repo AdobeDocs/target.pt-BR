@@ -4,9 +4,9 @@ description: Saiba como direcionar visitantes usando [!DNL Adobe Target] que est
 title: Posso definir metas para visitantes com base nas páginas do site?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '891'
 ht-degree: 26%
 
 ---
@@ -127,7 +127,7 @@ Use um:
 
    Se esse comportamento não corresponder aos seus requisitos, considere executar uma das seguintes ações:
 
-   * Passar [parâmetros de mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank} para [!DNL Target] para serem usados para fins de direcionamento.
+   * Passar [parâmetros de mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} para [!DNL Target] para serem usados para fins de direcionamento.
    * Use um [Atividade de teste A/B](/help/main/c-activities/t-test-ab/test-ab.md) em vez de uma atividade de landing page. As atividades de Teste A/B não alternam as experiências do mesmo visitante.
    * Use um [perfil do visitante](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) em vez disso.
 

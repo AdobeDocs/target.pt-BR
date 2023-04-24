@@ -4,10 +4,10 @@ description: Explore uma lista de perguntas e respostas frequentes sobre o Adobe
 title: Onde posso encontrar respostas para perguntas sobre [!DNL Target] Relatando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 32%
+source-wordcount: '1226'
+ht-degree: 30%
 
 ---
 
@@ -29,7 +29,7 @@ Um visitante é incluído no segmento Novos visitantes se uma das seguintes cond
 
 * É a primeira vez que o visitante acessa o site.
 * É a primeira vez que o visitante acessa o site desde a limpeza dos cookies.
-* É a primeira vez que o visitante acessa o site desde que expiração do [tempo de vida do perfil do visitante.](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)
+* É a primeira vez que o visitante acessa o site desde a [Duração do perfil do visitante](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) expirou.
 
 ### Visitantes que retornam
 
@@ -106,6 +106,6 @@ Por exemplo, defini a divisão de tráfego para 50/50 ou 25/25/25/25, mas estou 
 * A prática recomendada para testes A/B e MVT é manter as divisões de tráfego equilibradas. Alterar a distribuição do tráfego entre experiências (digamos de 10/90 a 50/50) durante um teste pode levar a visitantes desiguais em todas as experiências. A experiência de tráfego mais baixa pode nunca &quot;alcançar&quot;.
 * Se você estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 
-   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [Detalhes da versão da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * É um teste de redirecionamento? O tempo incorreto de disparo de tags na página pode levar a divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como a fonte de dados de um [!DNL Target] atividade . Para obter detalhes para corrigir a distribuição desigual de tráfego em uma atividade de redirecionamento com o Analytics for Target (A4T), consulte [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

@@ -5,10 +5,10 @@ title: Como uso coleções nas atividades do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 60%
+source-wordcount: '884'
+ht-degree: 59%
 
 ---
 
@@ -46,7 +46,7 @@ Crie uma coleção para organizar os produtos ou conteúdo que deseja mostrar na
 
    ![Ícones de flutuação: editar, copiar e excluir](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   O “Número de itens” relatado para cada coleção na exibição de lista das [!UICONTROL Coleções] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://developer.adobe.com/target/implement/recommendations/) para alterar o grupo de hosts padrão.{target=_blank}
+   O “Número de itens” relatado para cada coleção na exibição de lista das [!UICONTROL Coleções] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) para alterar o grupo de hosts padrão.{target=_blank}
 
 1. Clique em **[!UICONTROL Criar coleção]**.
 

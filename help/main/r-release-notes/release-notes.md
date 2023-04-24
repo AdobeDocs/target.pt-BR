@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 93%
 
 ---
 
@@ -51,14 +51,14 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 * Correção de um problema que fazia com que a função `trackEvent` sempre retornasse um erro.
 
-Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ## Notas de versão adicionais e detalhes da versão
 
 | Recurso | Detalhes |
 |--- |--- |
-| [Notas de versão: SDK da Web da Platform Experience do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR){target=_blank} | Detalhes sobre alterações em cada versão do SDK da Web da Platform. |
-| [Detalhes da versão da at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Detalhes sobre alterações em cada versão da biblioteca at.js de JavaScript do [!DNL Adobe Target]. |
+
+|[Notas de versão: SDK da Web da Adobe Target Platform Experience](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR)|Detalhes sobre alterações em cada versão do SDK da Web da plataforma.| |[Detalhes da versão da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Detalhes sobre as alterações em cada versão do [!DNL Adobe Target] biblioteca JavaScript da at.js.|
 
 ## Alterações na documentação, notas de versão anteriores e notas de versão da Experience Cloud
 

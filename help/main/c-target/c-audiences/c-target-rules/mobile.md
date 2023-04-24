@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir metas para visitantes com base nas opções de dispositivos móveis?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 40%
+source-wordcount: '673'
+ht-degree: 41%
 
 ---
 
@@ -33,7 +33,7 @@ Para resolver esse problema, [!DNL Target] O coleta dados adicionais para detect
 
 >[!NOTE]
 >
->Clientes que usam o SDK móvel não precisam fazer nada para aplicar essa funcionalidade. Os clientes que usam at.js devem [atualizar para a at.js versão 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (ou posterior){target=_blank}.
+>Clientes que usam o SDK móvel não precisam fazer nada para aplicar essa funcionalidade. Os clientes que usam at.js devem [atualizar para a at.js versão 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
 
 Você pode escolher mais de uma propriedade de dispositivo móvel. Várias seleções são unidas por um operador OU.
 
