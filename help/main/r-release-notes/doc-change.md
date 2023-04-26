@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.4.1 (25-27 de abril de 2023)
+## [!DNL Target] Standard/Premium 23.4.1 (25 a 27 de abril de 2023)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
@@ -27,11 +27,11 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 19 de abril | [Relatório de contribuição de localização (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | Atualização das informações na observação. |
-| 13 de abril | [[!DNL Target] Notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre o [!DNL Target] Versão Standard/Premium 23.4.1 (25-27 de abril de 2023). |
-| 12 de abril | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foi adicionado um link para se registrar no seguinte webinário:<ul><li>Forneça experiências personalizadas de clientes, sempre!</li></ul> |
-|  | [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Adição das seguintes perguntas frequentes:<ul><li>Vejo um ou mais atributos que não quero que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento?</li></ul> |
+| 13 de abril | [[!DNL Target] Notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Foram adicionadas informações sobre a versão 23.4.1 do [!DNL Target] Standard/Premium (25 a 27 de abril de 2023). |
+| 12 de abril | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foi adicionado um link de registro para o seguinte webinário:<ul><li>Forneça experiências personalizadas aos clientes, sempre.</li></ul> |
+|  | [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Adição das seguintes perguntas frequentes:<ul><li>Há um ou mais atributos que não desejo que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento?</li></ul> |
 |  | [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Adição das seguintes perguntas frequentes:<ul><li>O que acontece se um usuário tiver várias funções e permissões?</li></ul> |
-|  | [Fragmentos de conteúdo](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) do AEM | Novo tópico. Observe que esse recurso está no status de &quot;pré-lançamento&quot; para fins de teste. |
+|  | [Fragmentos de conteúdo do AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Novo tópico. Observe que esse recurso possui o status de “pré-lançamento” para fins de teste. |
 | 5 de abril | [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Adição de um texto indicando que o [!UICONTROL Analytics como fonte de relatórios] (A4T) não é compatível com atividades que usam decisões de oferta. |
 | 3 de abril | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre a sessão de perguntas e respostas da [!UICONTROL comunidade do Adobe Target], programado para quarta-feira, 12 de abril de 2023. |
 |  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Adição de uma observação para incluir todos os blocos de endereços IP do [!DNL Adobe Analytics] na lista de permissões. |

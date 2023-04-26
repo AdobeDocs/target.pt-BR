@@ -8,7 +8,7 @@ exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ Use os [!UICONTROL fragmentos de conteúdo] (CFs) criados no [!DNL Adobe Experie
 
 >[!NOTE]
 >
->Esse recurso está disponível como um recurso de pré-lançamento em 12 de abril de 2023. Como um recurso de pré-lançamento, você pode experimentar com [!UICONTROL Fragmentos de conteúdo] uso de ambientes de desenvolvimento e de preparo, mas não em ambientes de produção.
+>Esse recurso estará disponível como um recurso de pré-lançamento a partir de 12 de abril de 2023. Por ser um recurso de pré-lançamento, você pode testar os [!UICONTROL fragmentos de conteúdo] em ambientes de desenvolvimento e de preparo, mas não em ambientes de produção.
 >
->Esse recurso estará disponível para lançamento do GA (Disponibilidade Geral) em 26 de abril de 2023.
+>Esse recurso estará em disponibilidade geral (GA) na versão de 26 de abril de 2023.
 
 ## Considerações
 
 Considere o seguinte ao trabalhar com [!UICONTROL fragmentos de conteúdo] do AEM no [!DNL Target]:
 
-* Esse recurso exige que você seja uma [!DNL Adobe Experience Manager as a Cloud Service] cliente. Para obter mais informações, consulte os [Requisitos](#section_AE6F0971E1574B3AA324003599B96E5A) abaixo.
-* [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] estão disponíveis para os seguintes tipos de atividade:
+* Esse recurso exige que você seja um cliente do [!DNL Adobe Experience Manager as a Cloud Service]. Para obter mais informações, consulte os [Requisitos](#section_AE6F0971E1574B3AA324003599B96E5A) abaixo.
+* Os [!UICONTROL fragmentos de experiência] e [!UICONTROL fragmentos de conteúdo] estão disponíveis para os seguintes tipos de atividade:
 
    * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
@@ -35,7 +35,7 @@ Considere o seguinte ao trabalhar com [!UICONTROL fragmentos de conteúdo] do AE
    * [[!UICONTROL Personalização automatizada] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] não estão disponíveis para os seguintes tipos de atividade:
+* Os [!UICONTROL fragmentos de experiência] e [!UICONTROL fragmentos de conteúdo] não estão disponíveis para os seguintes tipos de atividade:
 
    * [[!UICONTROL Teste multivariado] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
@@ -46,7 +46,7 @@ Para saber mais sobre os [!UICONTROL fragmentos de conteúdo] e [!UICONTROL frag
 
 ## Requisitos {#requirements}
 
-Você deve ter a funcionalidade de [!UICONTROL fragmentos de conteúdo] provisionada no [!DNL Target]. Além disso, você deve usar o [[!DNL AEM]  as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
+Você deve ter a funcionalidade de [!UICONTROL fragmentos de conteúdo] provisionada no [!DNL Target]. Além disso, você deve usar o [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
 
 Entre em contato com o [Atendimento ao cliente do Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para ativar a integração e obter os detalhes de autenticação.
 
@@ -78,7 +78,7 @@ Você pode consumir [!UICONTROL fragmentos de conteúdo] em atividades do [!DNL 
 >
 >Use inteligência artificial, aprendizado de máquina e recomendações com [!UICONTROL fragmentos de conteúdo]:
 >
->* Para usar totalmente a variável [!DNL Target] Funcionalidade AI e ML, você pode selecionar [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar uma [!UICONTROL Teste A/B] atividade .
+>* Para utilizar toda a funcionalidade de IA e aprendizado de máquina do [!DNL Target], você pode selecionar o recurso de [alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar uma atividade de [!UICONTROL Teste A/B].
 >
 >* [!UICONTROL Fragmentos de conteúdo] não são compatíveis com atividades do [!DNL Recommendations]. No entanto, para usar [!UICONTROL fragmentos de conteúdo] em recomendações, você pode criar uma atividade de [!UICONTROL Teste A/B] (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) ou uma atividade de [!UICONTROL Direcionamento de experiência] (XT) e [incluir o Recommendations como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

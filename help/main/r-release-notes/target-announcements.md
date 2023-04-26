@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -48,26 +48,26 @@ Nesta sessão, saiba como [!DNL Target] e [!DNL Real-Time Customer Data Platform
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Target] para atingir suas metas de personalização e otimização:
 
-### Forneça experiências personalizadas de clientes, sempre!
+### Forneça experiências personalizadas aos clientes, sempre.
 
-* **quinta-feira, 27 de abril de 2023**
-* **9:00 às 10:00 (BST, GMT +1), das 10:00 às 11:00 (CEST, GMT +2)**
+* **Quinta-feira, 27 de abril de 2023**
+* **Das 9h às 10h (BST, GMT +1), das 10h às 11h (CEST, GMT +2)**
 * **[Informações de registro](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Fique à frente do cliente com [!DNL Adobe Target]Os poderosos recursos de teste e personalização da . Certifique-se de estar em todos os lugares em que o cliente está, oferecendo experiências contextuais dinâmicas na Web, em dispositivos móveis e digitais.
+Mantenha-se à frente do cliente com os avançados recursos de teste e personalização do [!DNL Adobe Target]. Certifique-se de acompanhar o cliente em todos os momentos, oferecendo experiências contextuais dinâmicas na Web, em dispositivos móveis e digitais.
 
 +++Detalhes
 
-O webinário cobrirá:
+O webinário abrangerá os seguintes tópicos:
 
 * Por que a personalização é uma parte essencial de qualquer estratégia
 * Identificação e uso de tipos de atividades diferentes
 * Destaque - Casos de uso do setor
-* Recommendations para impulsionar a personalização
-* Demonstração do [!DNL Target] Interface do usuário, destaque
-   * Criação do público
-   * Configuração [!UICONTROL Direcionamento de experiência] Atividades (XT)
-   * Configuração [!UICONTROL Direcionamento automático] e [!UICONTROL Personalização automática] atividades
+* Recomendações para impulsionar a personalização
+* Demonstração da interface do [!DNL Target], com destaque para a
+   * Criação de público
+   * Configuração de atividades de [!UICONTROL direcionamento de experiência] (XT)
+   * Configuração de atividades de [!UICONTROL direcionamento automático] e [!UICONTROL personalização automática]
 
 +++
 
