@@ -5,9 +5,9 @@ title: Como solucionar problemas da integração do Analytics e do [!DNL Target]
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Se você analisar a linha “não especificado” pela dimensão “Analytics fo
 
 >[!NOTE]
 >
->Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para &quot;não especificados&quot; porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
+>Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para “não especificados” porque uma nova atividade que não concluiu a classificação foi adicionada. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 >
 >Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
@@ -43,11 +43,11 @@ Se você analisar a linha “não especificado” pela dimensão “Analytics fo
 
 Pode haver uma linha de eventos “[!UICONTROL Não especificado]” no relatório dependendo da métrica usada para exibir seus dados.
 
-Normalmente, essa linha é exibida se você escolher uma métrica comum no relatório que não é específico do [!DNL Target] (por exemplo, [!UICONTROL Exibições de página], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos] e assim por diante). Nesse caso, a variável [!UICONTROL &quot;Não especificado&quot;] inclui todas as [!UICONTROL Exibições de página], [!UICONTROL Visitas]e [!UICONTROL Visitantes únicos] que não estão associadas a [!DNL Target] atividades.
+Normalmente, essa linha é exibida se você escolher uma métrica comum no relatório que não é específico do [!DNL Target] (por exemplo, [!UICONTROL Exibições de página], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos] e assim por diante). Nesse caso, a linha [!UICONTROL “Não especificados”] inclui todas as [!UICONTROL Exibições de página], [!UICONTROL Visitas] e [!UICONTROL Visitantes únicos] que não estão associados a atividades do [!DNL Target].
 
-Essa linha não terá nenhum [!DNL Target]informações associadas (por exemplo, sem visitantes, visitas ou impressões). Para obter mais informações, consulte [&quot;Não especificado&quot;, &quot;Nenhum&quot;, &quot;Outros&quot; e &quot;Desconhecido&quot; nos relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=pt-BR) no *Notas técnicas do Analytics*.
+Essa linha não terá nenhuma informação associada ao [!DNL Target] (por exemplo, nenhum visitante, visita ou impressão). Para obter mais informações, consulte [“Não especificados”, “Nenhum”, “Outros” e “Desconhecidos” nos relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=pt-BR) nas *notas técnicas do Analytics*.
 
-Se você escolher uma [!DNL Target]métrica específica no relatório, que [!UICONTROL &quot;Não especificado&quot;] não é exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
+Se você escolher uma métrica específica do [!DNL Target] no relatório, a linha [!UICONTROL “Não especificados”] não será exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
 
 ## O aumento estimado na métrica da receita não está mostrando os dados corretos. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
