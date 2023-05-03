@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas frequentes sobre a exibição de 
 title: Encontrar respostas para perguntas sobre como visualizar relatórios com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2654'
-ht-degree: 30%
+source-wordcount: '2714'
+ht-degree: 29%
 
 ---
 
@@ -70,7 +70,7 @@ Considere o seguinte:
 * As métricas acima são acionadas quando um usuário se qualifica para uma atividade e o conteúdo é retornado de [!DNL Target]. Isso não significa necessariamente que o usuário viu a oferta. Se uma experiência de atividade estiver abaixo da dobra e o usuário não rolar a página para baixo, a oferta foi distribuída pelo [!DNL Target], mas não foi vista pelo usuário.
 * [!UICONTROL Impressões de atividade] (medidas pelo [!DNL Target]) e [!UICONTROL Instâncias] (medidas pelo [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
 
-Para obter mais informações, consulte [Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) em *Adobe Target Tutorials*.
+Para obter mais informações, consulte [Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=pt-BR) em *Adobe Target Tutorials*.
 
 +++
 
@@ -137,8 +137,8 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 | Nome da atividade | Instâncias (Impressões) | Exibições de página | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10º | 2 | 1 | 1 |
-| Total | 2 | 20º | 3 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 3 | 1 | 1 |
 
 Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para [!DNL Target] relatório, porque você não está colocando um [!DNL Target] atividade em relação a outra atividade para ver qual é mais bem-sucedida, não importa que todas as atividades que o usuário viu tenham crédito. Você está comparando os resultados de dois itens na atividade única. Não é possível para um usuário ver experiências diferentes na mesma atividade, de modo que você não precisa se preocupar com a contaminação cruzada do crédito do pedido.
 
@@ -154,7 +154,7 @@ Para obter mais informações, consulte [Variáveis de conversão (eVar)](https:
 
 ## Por que [!DNL Analytics] e [!UICONTROL Analytics para Adobe Target] (A4T) calcule os números para a variável [!UICONTROL Visitantes únicos] métrica de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++Resposta Ao executar um teste A/B, que usa a variável [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que há um horizonte de tempo fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho fixo de amostra.
++++Resposta Ao executar um teste A/B, que usa a variável [Teste t do galês](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (a métrica de confiança) para escolher um vencedor de um teste, uma das suposições é que haja um horizonte temporal fixo. O teste não é estatisticamente válido, a menos que você esteja olhando para esse tamanho fixo de amostra.
 
 O [!UICONTROL Visitantes únicos] é diferente em [!DNL Analytics] e [!DNL Target] somente quando você estiver olhando para um período mais curto que o teste real. Se você não tiver atingido seu tamanho de amostra, o teste não será tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
 
@@ -198,5 +198,19 @@ Aqui, alguns pontos devem ser considerados ao visualizar [!DNL Analytics] relat�
 * Se uma conversão ocorrer fora da janela do relatório, a conversão não estará visível em [!DNL Analytics].
 * Quando na parte &quot;direcionada&quot; do tráfego para [!UICONTROL Direcionamento automático] atividades do , os visitantes podem ver experiências diferentes de uma sessão para a próxima. Por exemplo, se o perfil ou contexto foi alterado e [!DNL Target]Os algoritmos de aprendizado automatizado da decidem que têm mais probabilidade de conversão em uma nova experiência. Conforme os visitantes mudam de experiência para experiência, a contagem de visitas é incrementada para cada experiência vista. Isso não é parecido com atividades comuns de Teste A/B, onde as experiências são aderentes a um visitante em visitas.
 * Se um visitante visualizar várias experiências em visitas, qualquer conversão será sempre atribuída à última experiência que o visitante viu. Conforme mencionado, a contagem de visitas é incrementada para cada experiência que o visitante viu. Isso pode reduzir artificialmente as taxas de conversão por experiência ao visualizar experiências sob o &quot;[!UICONTROL Direcionado]&quot; em [!DNL Adobe Analytics] relatórios.
+
++++
+
+## Como rastrear impressões de atividades no [!DNL Analysis Workspace] ao usar [!UICONTROL Analytics para Target] (A4T)? {#activity-impressions}
+
++++Resposta
+
+Para exibir as impressões da atividade em [!DNL Analysis Workspace]:
+
+1. No [!DNL Target] Interface do usuário, clique em **[!UICONTROL Exibir no Analytics]**.
+1. Adicione o **[!UICONTROL Impressões da atividade]** à coluna [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} relatório.
+1. No **[!UICONTROL Impressões da atividade]** , clique no botão [!UICONTROL Engrenagem] ícone .
+1. Clique em **[!UICONTROL Usar modelo de atribuição não padrão]**.
+1. Selecionar **[!UICONTROL Modelo de mesmo toque]** > **[!UICONTROL Aplicar]**.
 
 +++
