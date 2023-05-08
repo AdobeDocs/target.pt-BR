@@ -5,14 +5,14 @@ title: Como posso visualizar as experiências do Automated Personalization no VE
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: bfe25200407086680b2f2a4e9f33f8ec130c25ad
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# !Visualizar experiências para Automated Personalization no Visual Experience Composer
+# Visualizar experiências para Automated Personalization no Visual Experience Composer
 
 Porque um [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) compara várias ofertas em uma página. É útil visualizar a página com cada experiência.
 
