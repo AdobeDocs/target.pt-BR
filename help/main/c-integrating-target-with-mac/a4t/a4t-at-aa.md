@@ -4,7 +4,7 @@ description: Saiba como criar [!UICONTROL Alocação automática] e [!UICONTROL 
 title: Suporte ao A4T [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] Atividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Certifique-se de que [A4T implementado para uso com atividades de Teste A/B e Di
 
 Para começar:
 
-1. Ao criar uma [!UICONTROL Teste A/B] na atividade **[!UICONTROL Direcionamento]** selecione uma das opções a seguir como **[!UICONTROL Método de alocação de tráfego]**:
+1. Ao [criar um [!UICONTROL Teste A/B] atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), no **[!UICONTROL Direcionamento]** selecione uma das opções a seguir como **[!UICONTROL Método de alocação de tráfego]**:
 
    * [!UICONTROL Alocação automática para a melhor experiência]
    * [!UICONTROL Direcionamento automático para experiências personalizadas]
