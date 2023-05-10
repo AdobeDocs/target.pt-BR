@@ -4,9 +4,9 @@ description: Saiba como criar [!UICONTROL Alocação automática] e [!UICONTROL 
 title: Suporte ao A4T [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] Atividades?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1271'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ O [!DNL Adobe Target]-para-[!DNL Adobe Analytics] integração, conhecida como [
 A integração A4T permite:
 
 * Use o [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) recurso multi-armed bandit para direcionar o tráfego para experiências vencedoras.
-* Use o [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) agrupe algoritmo de aprendizado de máquina para escolher a melhor experiência para cada visitante. [!UICONTROL Direcionamento automático] escolhe a melhor experiência com base nos perfis, comportamentos e contexto dos usuários ao usar um [!DNL Adobe Analytics] métrica de meta e [!DNL Adobe Analytics]Recursos avançados de relatórios e análise.
+* Use o [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) agrupe algoritmo de aprendizado de máquina para escolher a melhor experiência para cada visitante. [!UICONTROL Direcionamento automático] escolhe a melhor experiência com base no perfil, no comportamento e no contexto de cada usuário, ao usar um [!DNL Adobe Analytics] métrica de meta e os recursos avançados de relatórios e análise de [!DNL Adobe Analytics].
 
-Certifique-se de que [A4T implementado para uso com atividades de Teste A/B e Direcionamento de experiência](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se estiver usando `analyticsLogging = client_side`, você também deve passar o `sessionId` para [!DNL Analytics]. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} no *SDKs do Adobe Target* guia.
+Certifique-se de que [A4T implementado para uso com atividades de Teste A/B e Direcionamento de experiência](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se você usar `analyticsLogging = client_side`, você também deve passar o `sessionId` para [!DNL Analytics]. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
 
 Para começar:
 
@@ -110,8 +110,8 @@ Algumas limitações e observações se aplicam a [!UICONTROL Alocação automá
 
 * **Frequência de treinamento**: [!UICONTROL Alocação automática] Os modelos continuam treinando a cada hora, como de costume.
 * **Modelos de atribuição**: [!DNL Target] usa a variável [!DNL Adobe Analytics] modelo de atribuição padrão para[!UICONTROL  Alocação automática] atividades que usam o A4T.
-* **Confiança**: A fórmula de confiança usada por [!UICONTROL Alocação automática] As atividades do são diferentes da fórmula exibida por padrão no [!DNL Adobe Analytics] [!UICONTROL A4T] painel. [Conforme descrito aqui](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Alocação automática] O usa intervalos de confiança mais conservadores do que o regular [!UICONTROL Teste A/B] atividades. Esses níveis conservadores de confiança compensam avaliações repetidas (picos) nos dados. Como resultado, o relatório padrão em [!DNL Adobe Analytics] mostra intervalos de confiança mais estreitos em comparação aos usados pelo [!UICONTROL Alocação automática] algoritmo. No entanto, você pode determinar qual experiência é favorecida pelos algoritmos com base na qual a experiência tem mais visitantes únicos sendo enviados para ela.
-* **Status do vencedor**: Atualmente, o [Semblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) não estão disponíveis no [!UICONTROL A4T] no painel [!DNL Analysis Workspace]. Esses selos também não estarão disponíveis se o mesmo relatório for visualizado em [!DNL Target]. Um símbolo de &quot;estrela&quot; vencedora exibido em um [!DNL Target] relatório para um [!UICONTROL Alocação automática] atividade usando A4T deve ser ignorada. Esse selo reflete cálculos de confiança regulares, e não aqueles usados pelo [!UICONTROL Alocação automática].
+* **Confiança**: A fórmula de confiança usada por [!UICONTROL Alocação automática] As atividades do são diferentes da fórmula exibida por padrão no [!DNL Adobe Analytics] [!UICONTROL A4T] painel. [Conforme descrito aqui](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Alocação automática] O usa intervalos de confiança mais conservadores do que o regular [!UICONTROL Teste A/B] atividades. Esses níveis conservadores de confiança compensam avaliações repetidas (picos) nos dados. Como resultado, o relatório padrão em [!DNL Adobe Analytics] mostra intervalos de confiança mais estreitos em comparação aos intervalos usados pelo [!UICONTROL Alocação automática] algoritmo. No entanto, você pode determinar qual experiência é favorecida pelos algoritmos com base na qual a experiência tem mais visitantes únicos sendo enviados para ela.
+* **Status do vencedor**: Atualmente, o [Semblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) não estão disponíveis no [!UICONTROL A4T] no painel [!DNL Analysis Workspace]. Esses selos também não estarão disponíveis se o mesmo relatório for visualizado em [!DNL Target]. Um símbolo de &quot;estrela&quot; vencedora exibido em um [!DNL Target] relatório para um [!UICONTROL Alocação automática] atividade usando A4T deve ser ignorada. Esse selo reflete cálculos de confiança regulares, e não aqueles cálculos usados pelo [!UICONTROL Alocação automática].
 
 ### Direcionamento automático {#at}
 
