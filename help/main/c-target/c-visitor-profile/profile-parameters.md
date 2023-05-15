@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2499'
+ht-degree: 100%
 
 ---
 
@@ -249,7 +249,7 @@ Os seguintes objetos e métodos podem ser referenciados por parâmetros de perfi
 | `page.query` | A sequência de consulta da página atual. Tudo depois de “?”. Por exemplo, `blue&size=small` em `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param('<par_name>')` | O valor do parâmetro indicado por `<par_name>`. Se seu URL atual for a página de pesquisa do Google e você digitou `page.param('hl')`, “en” será obtido para o URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | O mesmo conjunto de operações acima se aplica ao referenciador e à landing page (ou seja, referrer.url é o endereço url do referenciador). |
-| `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a landing page.<P>Para que o URL da página de aterrissagem funcione conforme o esperado, defina a variável `context` > `browser` > `host`.<P>Além disso, você não pode ter o URL de referência na primeira chamada da sessão. Em chamadas subsequentes, verifique se `referringURL` é realmente o URL anterior que o usuário visitou na sessão atual.<!-- KB-2092 --> |
+| `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a landing page.<P>Para que o URL da página de destino funcione conforme o esperado, defina `context` > `browser` > `host`.<P>Além disso, você não pode ter o URL de referência na primeira chamada da sessão. Em chamadas subsequentes, verifique se `referringURL` é realmente o URL anterior que o usuário visitou na sessão atual.<!-- KB-2092 --> |
 | `mbox.name` | O nome da mbox ativa. |
 | `mbox.param('<par_name>')` | Um parâmetro de mbox pelo nome fornecido na mbox ativa. |
 | `profile.get('<par_name>')` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado de “gênero”, o valor poderá ser extraído usando “profile.gender”. Retorna o valor do “`profile.<par_name>`” definido para o visitante atual; retorna nulo se nenhum valor for definido. Observe que `profile.get(<par_name>)` é qualificada como uma chamada de função. |
