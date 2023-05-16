@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2680'
 ht-degree: 98%
 
 ---
@@ -19,9 +19,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 16 de maio | [Atributos da entidade](/help/main/c-recommendations/c-products/entity-attributes.md) | Indica que &quot;espaços&quot; não são permitidos em `entity.id` valores. |
 | Maio de 4 | [Configurar autenticação para APIs do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | Adição de uma observação explicando a necessidade de migrar de uma credencial JWT para uma credencial de servidor para servidor OAuth. |
 | 3 de maio | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Adição das seguintes perguntas frequentes:<ul><li>Como rastrear impressões de atividade no [!DNL Analysis Workspace] ao usar o [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
-|  | [Atributos do perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | Adição de informações adicionais à linha “landing.URL”. |
 | 26 de abril | [Visão geral dos [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | O recurso [!UICONTROL Fragmentos de conteúdo do AEM] agora está disponível para todos [!DNL Target customers]. |
 |  | [[!UICONTROL Fragmentos de conteúdo do AEM]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | O recurso [!UICONTROL Fragmentos de conteúdo do AEM] agora está disponível para todos [!DNL Target customers]. |
 |  | [*Guia do desenvolvedor do Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank} | O *Guia do desenvolvedor do Adobe Target* foi realocado para a *[!UICONTROL Adobe Experience League]*. A mudança para a *[!UICONTROL Experience League]* auxilia na localização do texto em idiomas adicionais, unifica a pesquisa na *Experience League* para expandir e oferecer os resultados provenientes da *[!UICONTROL Guia do profissional de negócios do Adobe Target]* e da *[!UICONTROL Guia do desenvolvedor do Adobe Target]* e fornece benefícios adicionais.<P>Você será redirecionado da localização anterior para a *[!UICONTROL Experience League]* automaticamente. Atualize seus marcadores, conforme necessário. |

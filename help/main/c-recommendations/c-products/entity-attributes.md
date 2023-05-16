@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Como Posso Usar Atributos De Entidade?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 55%
 
 ---
@@ -31,7 +31,7 @@ Em geral, a mbox de informações de exibição é semelhante ao seguinte exempl
 
 >[!NOTE]
 >
->Se estiver usando a at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o [!DNL Recommendations] usando a at.js 2.*x*, use [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Se estiver usando a at.js 2.*x*, `mboxCreate` (como usado no exemplo a seguir) não é mais suportado. Para enviar informações do produto ou conteúdo para o [!DNL Recommendations] usando a at.js 2.*x*, use [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -79,7 +79,7 @@ Somente valor único.
 
 Este parâmetro obrigatório identifica o produto. Esta ID alfanumérica deve ser igual em todos os produtos utilizados da [!DNL Adobe Experience Cloud], incluindo o [!DNL Analytics], para que os produtos reconheçam o item e compartilhem dados sobre ele.
 
-O `entity.id` os valores devem *not* contém barras, &quot;E&quot; comercial, pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
+O `entity.id` os valores devem *not* contém espaços, barras, &quot;E&quot; comercial, pontos de interrogação, símbolos de porcentagem, vírgulas ou outros caracteres de pontuação que exigem codificação de URL quando passados em uma chamada REST API. Hifens e sublinhados são permitidos. Incluir pontuação inválida em um valor `entity.id` [!DNL Recommendations] provoca falha em algumas funcionalidades do.
 
 Exemplo: `'entity.id=67833'`
 
