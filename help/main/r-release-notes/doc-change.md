@@ -4,7 +4,7 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1bbfdf81353ca40c252e520ae5e7ac5cc9ac8eae
+source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 96%
@@ -21,7 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 16 de maio | [Atributos da entidade](/help/main/c-recommendations/c-products/entity-attributes.md) | Indica que &quot;espaços&quot; não são permitidos em `entity.id` valores. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Atualizado `viewsEnabled` descrição. |
-|  | [Implementação do aplicativo de página única](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | As seguintes atualizações foram feitas:<ul><li>Adição de uma observação após a Etapa 2 em &quot;Implementação de exibições do Adobe Target&quot;.</li><li>Atualização da Etapa 2 &quot;Executar solicitação do Target&quot; em Ordem de operações para carregamento da página inicial.&quot;</li></ul> |
+|  | [Implementação do aplicativo de página única](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | As seguintes atualizações foram feitas:<ul><li>Adição de uma observação após a Etapa 2 em &quot;Implementação de exibições do Adobe Target&quot;.</li><li>Atualização da Etapa 2 &quot;Executar solicitação do Target&quot; em &quot;Ordem das operações para carregamento da página inicial&quot;.</li></ul> |
 | Maio de 4 | [Configurar autenticação para APIs do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | Adição de uma observação explicando a necessidade de migrar de uma credencial JWT para uma credencial de servidor para servidor OAuth. |
 | 3 de maio | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Adição das seguintes perguntas frequentes:<ul><li>Como rastrear impressões de atividade no [!DNL Analysis Workspace] ao usar o [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
 | 26 de abril | [Visão geral dos [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | O recurso [!UICONTROL Fragmentos de conteúdo do AEM] agora está disponível para todos [!DNL Target customers]. |
