@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1850'
+ht-degree: 94%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de construção de habilidades do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
 
-## [!DNL Target] nomeado líder no Gartner Magic Quadrant for Personalization Engines (2022)
+## Sessão de perguntas e respostas da [!UICONTROL comunidade do Adobe Target]
 
-A Gartner nomeou o [!DNL Adobe Target] como líder no último Magic Quadrant for Personalization Engines (PE) pelo quinto ano consecutivo. A [!DNL Adobe] também recebeu pontuações máximas e aumentos significativos de ano para ano em todos os três casos de uso principais: Marketing digital, Comércio digital e Serviço e suporte. O [!DNL Target] recebeu as pontuações mais altas por seus recursos de teste entre todos os fornecedores avaliados.
+* **quarta-feira, 24 de maio de 2023**
+* **8:00-9:00 (PT, UTC-7)**
+* **[Informações de registro](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-Para obter mais informações, consulte a [publicação no blog da Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+Nós seremos unidos por Ryan Roberts, Gentry Lin, e Ryan Pizzuto, do [!UICONTROL Adobe Target Consulting] equipe e Mihnea Docea do [!UICONTROL Engenharia de Suporte Técnico Adobe] equipe, que será conectada ao [Comunidade Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt){target=_blank} para conversar diretamente com você sobre este tópico [!DNL Adobe Target] perguntas relacionadas a [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
+
+Você pode revisar qualquer um dos [gravações por demanda da sessão do Adobe Target Summit](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} com antecedência para trazer as suas perguntas complementares para este chat.
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
