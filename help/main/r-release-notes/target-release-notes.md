@@ -1,13 +1,13 @@
 ---
 keywords: notas de versão;versões;atualizações;versão futura;melhorias;novos recursos;correções;atualizações;pré-lançamento
-description: Saiba mais sobre os novos recursos, melhorias e correções adicionados na próxima versão do  [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
+description: Saiba mais sobre os novos recursos, melhorias e correções adicionados na próxima versão do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.5.1 (23-25 de maio de 2023)
+## [!DNL Target] Standard/Premium 23.5.1 (23 a 25 de maio de 2023)
 
-Esta versão contém os seguintes novos recursos, aprimoramentos e correções:
+Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 | Recurso | Detalhes |
 |--- |--- |
