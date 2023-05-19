@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '409'
 ht-degree: 68%
 
 ---
@@ -27,7 +27,7 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-23 de maio: Europa, Oriente Médio e África (EMEA) 24 de maio: Região Ásia-Pacífico (APAC) 25 de maio: Região das Américas
+23 de maio: Europa, Oriente Médio e África (EMEA) região 24 de maio: Ásia-Pacífico (APAC) região 25 de maio: região das Américas
 
 Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
@@ -35,15 +35,15 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 |--- |--- |
 | Atributos de perfil da Real-Time CDP compartilhados com o [!DNL Target] | Os [!UICONTROL atributos de perfil da Real-Time CDP] podem ser compartilhados com o [!DNL Target] para uso em ofertas HTML e JSON.<P>Para obter mais informações, consulte [Compartilhar atributos de perfil da Real-Time CDP com o [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
-* Correção de um problema que impedia certos clientes de criar públicos-alvo com perfis de visitantes usando operadores &quot;maior que&quot; ou &quot;menos que&quot;. (TGT-45271)
+* Correção de um problema que impedia determinados clientes de criar públicos-alvo com perfis de visitante usando operadores &quot;maior que&quot; ou &quot;menor que&quot;. (TGT-45271)
 
 ## [!DNL Target] Standard/Premium 23.5.2 (31 de maio de 2023)
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Correção de um problema que fazia com que uma página em branco fosse exibida durante a geração de um token de autorização da API de perfil. (TGT-45387)
-* Correção de um problema que impedia a exibição de uma imagem no [!UICONTROL Criar design] painel se o nome da imagem contiver 18030 caracteres GB. (TGT-44614)
-* Correção de um problema que fazia com que os relatórios de [!UICONTROL Personalização automática] para congelar durante a análise. (TGT-44820)
+* Correção de um problema que resultava na exibição de uma página em branco ao gerar um token de autorização de API de perfil. (TGT-45387)
+* Correção de um problema que impedia a exibição de uma imagem no [!UICONTROL Criar design] se o nome da imagem contiver 18030 caracteres GB. (TGT-44614)
+* Correção de um problema que causava relatórios do [!UICONTROL Personalização automática] atividades a serem congeladas durante a análise. (TGT-44820)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (Data a ser determinada)
 
@@ -51,9 +51,9 @@ Esta versão inclui as seguintes melhorias:
 
 | Recurso | Detalhes |
 |--- |--- |
-| [!UICONTROL Modo de controle de qualidade] para [!UICONTROL Automated Personalization] atividades | [!DNL Adobe Target] [!UICONTROL Modo de controle de qualidade] agora está disponível para [!UICONTROL Automated Personalization] atividades, substituição [!UICONTROL Links de visualização] funcionalidade.<P>Para obter mais informações, consulte [Garantia de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
+| [!UICONTROL Modo de controle de qualidade] para [!UICONTROL Automated Personalization] atividades | [!DNL Adobe Target] [!UICONTROL Modo de controle de qualidade] agora está disponível para [!UICONTROL Automated Personalization] atividades, substituição [!UICONTROL Visualizar links] funcionalidade.<P>Para obter mais informações, consulte [Garantia de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
 
-* Melhor desempenho ao usar o [!UICONTROL Não permitir duplicatas] durante a [gerenciamento de exclusões](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) em [!UICONTROL Automated Personalization] atividades.
+* Aprimoramentos de desempenho para impedir a funcionalidade de duplicatas (incluindo redução no tempo de carregamento) enquanto [gerenciamento de exclusões](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] atividades.
 
 ## Notas de versão adicionais e detalhes da versão
 
