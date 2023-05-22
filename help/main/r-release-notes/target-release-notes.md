@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 54%
+source-wordcount: '549'
+ht-degree: 52%
 
 ---
 
@@ -36,6 +36,8 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 | Atributos de perfil da Real-Time CDP compartilhados com o [!DNL Target] | Os [!UICONTROL atributos de perfil da Real-Time CDP] podem ser compartilhados com o [!DNL Target] para uso em ofertas HTML e JSON.<P>Para obter mais informações, consulte [Compartilhar atributos de perfil da Real-Time CDP com o [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Correção de um problema que impedia determinados clientes de criar públicos-alvo com perfis de visitante usando operadores &quot;maior que&quot; ou &quot;menor que&quot;. (TGT-45271)
+* Várias correções de localização foram feitas na interface do [!DNL Target].
+* Atualização da interface do usuário do Target em vários locais para uma atualização futura da interface do usuário (as alterações estão atrás de um sinalizador de recurso até que as atualizações sejam lançadas).
 
 ## [!DNL Target] Standard/Premium 23.5.2 (31 de maio de 2023)
 
