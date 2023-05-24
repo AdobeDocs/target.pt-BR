@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2839'
 ht-degree: 95%
 
 ---
@@ -15,6 +15,14 @@ ht-degree: 95%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
+## [!DNL Target] Standard/Premium 23.5.1 (23 a 25 de maio de 2023)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 23 de maio | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Observação importante atualizada. |
+|  | [[!DNL Target] Notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Notas de pré-lançamento atualizadas para versões futuras. |
+|  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.5.1 do [!DNL Target Standard/Premium]. |
+
 ## [!DNL Target] Standard/Premium 23.4.1 (25 a 27 de abril de 2023)
 
 | Data | Tópico | Alterações |
@@ -22,11 +30,11 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 22 de maio | [Integrar com a [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Os novos vídeos abaixo foram adicionados:<ul><li>Configure o [!DNL Adobe Target] destino em [!DNL Real-Time Customer Data Platform]</li><li>Ativar segmentos e atributos de perfil</li><li>Uso [!DNL Real-Time CDP] segmentos em [!DNL Target]</li><li>Uso [!DNL Real-Time CDP] atributos de perfil em [!DNL Adobe Target]</li></ul> |
 |  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Observação importante atualizada. |
 | 19 de maio | [[!DNL Target] Notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Notas de pré-lançamento atualizadas para versões futuras. |
-| 17 de maio | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o [!UICONTROL Comunidade Adobe Target] Perguntas e respostas na quarta-feira, 24 de maio de 2023. |
-| 16 de maio | [Atributos da entidade](/help/main/c-recommendations/c-products/entity-attributes.md) | Indicado que não são permitidos &quot;espaços&quot; em `entity.id` valores. |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Atualizado `viewsEnabled` descrição. |
-|  | [Implementação do aplicativo de página única](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Foram feitas as seguintes atualizações:<ul><li>Adição de uma observação após a Etapa 2 em &quot;Implementação de exibições do Adobe Target&quot;.</li><li>Atualização da Etapa 2 &quot;Executar solicitação do Target&quot; em &quot;Ordem de operações para carregamento inicial da página&quot;.</li></ul> |
-| Maio de 4 | [Configurar autenticação para APIs do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | Adição de uma observação explicando a necessidade de migrar de uma credencial JWT para uma credencial OAuth de servidor para servidor. |
+| 17 de maio | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre a Sessão de Perguntas e respostas da [!UICONTROL comunidade do Adobe Target], na quarta-feira, 24 de maio de 2023. |
+| 16 de maio | [Atributos da entidade](/help/main/c-recommendations/c-products/entity-attributes.md) | Indica que “espaços” não são permitidos em valores de `entity.id`. |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=pt-BR){target=_blank} | A descrição de `viewsEnabled` foi atualizada. |
+|  | [Implementação do aplicativo de página única](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | As seguintes atualizações foram feitas:<ul><li>Adição de uma observação após a Etapa 2 em “Implementação das visualizações do Adobe Target”.</li><li>Atualização da Etapa 2 “Executar solicitação do Target” em “Ordem de operações para carregamento da página inicial”.</li></ul> |
+| Maio de 4 | [Configurar autenticação para APIs do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=pt-BR){target=_blank} | Adição de uma observação explicando a necessidade de migrar de uma credencial JWT para uma credencial de servidor para servidor OAuth. |
 | 3 de maio | [Exibição de relatórios - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Adição das seguintes perguntas frequentes:<ul><li>Como rastrear impressões de atividade no [!DNL Analysis Workspace] ao usar o [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
 | 26 de abril | [Visão geral dos [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | O recurso [!UICONTROL Fragmentos de conteúdo do AEM] agora está disponível para todos [!DNL Target customers]. |
 |  | [[!UICONTROL Fragmentos de conteúdo do AEM]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | O recurso [!UICONTROL Fragmentos de conteúdo do AEM] agora está disponível para todos [!DNL Target customers]. |
