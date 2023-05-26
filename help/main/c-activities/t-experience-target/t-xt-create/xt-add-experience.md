@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # Criar experiência em atividades de Direcionamento de experiência (XT)
 
-O [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] O fornece uma interface visual para editar as experiências em sua página em uma [!UICONTROL Direcionamento de experiência] (XT).
+A variável [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] O fornece uma interface visual para editar as experiências na página em uma [!UICONTROL Direcionamento de experiência] (XT).
 
 1. Selecione os elementos que você deseja alterar e faça as modificações desejadas.
 
@@ -25,7 +25,7 @@ O [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] O fornece
 
    À medida que passa o mouse sobre os elementos da página, eles são destacados. Qualquer elemento destacado pode ser alterado usando o VEC. Para ver uma lista de ações que podem ser executadas em um elemento para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Se você criou uma [!DNL Target] na página usando [!DNL Target Classic], que [!DNL Target] A solicitação é exibida como um elemento que mostra o nome da solicitação e pode ser modificada como qualquer outro elemento.
+   Se você criou um [!DNL Target] na página usando [!DNL Target Classic], que [!DNL Target] solicitação aparece como um elemento que mostra o nome da solicitação e pode ser modificado como qualquer outro elemento.
 
    >[!NOTE]
    >

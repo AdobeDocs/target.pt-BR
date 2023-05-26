@@ -1,6 +1,6 @@
 ---
 keywords: resumo
-description: Visualize um resumo da atividade de Teste multivariado (MVT) que fornece uma visão geral visual da atividade de MVT no Adobe Target.
+description: Visualize um resumo da atividade de Teste multivariado (MVT) que fornece uma visão geral visual de sua atividade de MVT no Adobe Target.
 title: Como posso visualizar o resumo de uma atividade de Teste multivariado (MVT)?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
@@ -13,7 +13,7 @@ ht-degree: 62%
 
 # Resumo do teste (testes multivariados)
 
-O resumo do teste fornece uma visão geral visual do [!DNL Adobe Target] [!UICONTROL Teste multivariado].
+O resumo do teste fornece uma visão geral visual de suas [!DNL Adobe Target] [!UICONTROL Teste multivariado].
 
 ![Caixa de diálogo Testar resumo](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 

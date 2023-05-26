@@ -1,7 +1,7 @@
 ---
 keywords: Direcionamento, fontes de tráfego, fontes de tráfego do target, mecanismo de pesquisa do target, mecanismo de pesquisa, página de aterrissagem, página de aterrissagem do target, página de aterrissagem de referência
-description: Saiba como criar públicos no Adobe [!DNL Target] para direcionar os visitantes com base no mecanismo de pesquisa ou página de aterrissagem de referência para o site.
-title: Posso definir como meta visitantes com base no mecanismo de pesquisa ou no site de referência?
+description: Saiba como criar públicos-alvo no Adobe [!DNL Target] para direcionar visitantes com base no mecanismo de pesquisa ou página de aterrissagem de referência para o site.
+title: Posso definir visitantes como alvo com base no mecanismo de pesquisa ou no site de referência?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # Fontes de tráfego
 
-Crie públicos-alvo em [!DNL Adobe Target] para direcionar os visitantes com base no mecanismo de pesquisa ou página de aterrissagem de referência para o site.
+Criar públicos-alvo no [!DNL Adobe Target] para direcionar visitantes com base no mecanismo de pesquisa ou página de aterrissagem de referência para o site.
 
 Por exemplo, você pode definir metas com base no navegador do visitante, mecanismo de pesquisa ou na página inicial de referência. A página de aterrissagem de referência é a página que o visitante clicou para chegar ao site atual nessa sessão. (Por exemplo, se o visitante clicou em uma publicidade no Google e ela o levar para a página inicial da `adobe.com`, a página de aterrissagem de referência será `google.com`.)
 
@@ -22,7 +22,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. 
    1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arrastar e soltar **[!UICONTROL Fontes de Tráfego]** no painel do construtor de público-alvo.
+1. Arrastar e soltar **[!UICONTROL Fontes de tráfego]** no painel do audience builder.
 
    ![imagem target_traffic_source](assets/target_traffic_source.png)
 
@@ -36,7 +36,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
    * **[!UICONTROL Página de aterrissagem de referência: domínio]**
    * **[!UICONTROL Página de aterrissagem de referência: consulta]**
 
-   Dependendo da sua seleção, você pode fornecer informações adicionais (avaliador e/ou valores).
+   Dependendo da sua seleção, talvez você precise fornecer informações adicionais (avaliador e/ou valores).
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Concluído]**.

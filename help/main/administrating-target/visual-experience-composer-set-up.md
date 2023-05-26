@@ -1,5 +1,5 @@
 ---
-keywords: visual experience composer, vec, url padrão, enhanced experience composer, eec, conteúdo misto, instantâneos de experiência, janela de visualização móvel, css, seletores de css
+keywords: visual experience composer;vec;url padrão;enhanced experience composer;eec;conteúdo misto;instantâneos da experiência;viewport móvel;css;seletores de css
 description: Saiba como configurar o Adobe [!DNL Target] Visual Experience Composer (VEC) especificando suas configurações gerais, configuração de visor móvel e seletores de CSS.
 title: Como configurar o Visual Experience Composer (VEC)?
 feature: Administration & Configuration
@@ -16,19 +16,19 @@ ht-degree: 57%
 
 Configure o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando suas configurações gerais, configuração de visor móvel e seletores de CSS.
 
-Para acessar o [!UICONTROL Visual Experience Composer] página de configuração, clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
+Para acessar o [!UICONTROL Visual Experience Composer] configuração, clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Esteja ciente de que as configurações nesta página se aplicam a todo o [!DNL Target] conta.
+>Esteja ciente de que as configurações desta página se aplicam a todo o [!DNL Target] conta.
 
-![Página Configuração do Visual Experience Composer](/help/main/administrating-target/assets/vec.png)
+![Página de configuração do Visual Experience Composer](/help/main/administrating-target/assets/vec.png)
 
 ## Configurações gerais
 
 Você pode especificar configurações gerais para o Visual Experience Composer.
 
-![Seção Configurações gerais](/help/main/administrating-target/assets/general-settings.png)
+![seção Configurações Gerais](/help/main/administrating-target/assets/general-settings.png)
 
 As seguintes configurações estão disponíveis:
 
@@ -46,22 +46,22 @@ Você também pode ativar a variável [!UICONTROL Enhanced Experience Composer] 
 
 ### Carregar conteúdo misto
 
-Habilitar conteúdo misto ao abrir um site usando o [!UICONTROL Enhanced Experience Composer] (CEE) Ativar essa opção evita a sobrecarga extra do carregamento de recursos estáticos por meio de [!DNL Target] servidores proxy.
+Ative o conteúdo misto ao abrir um site usando o [!UICONTROL Enhanced Experience Composer] (CEE). Ativar essa opção evita a sobrecarga extra do carregamento de recursos estáticos via [!DNL Target] servidores proxy.
 
-Essa opção será útil se, por exemplo:
+Essa opção é útil se, por exemplo:
 
-* Os cabeçalhos de Política de segurança de conteúdo (CSP) permitem carregar conteúdo misto sem o uso de servidores proxy com o EEC ativado.
-* Seu site HTTP tem aumentado o tempo de carregamento no EEC, o que significa que o JavaScript, as imagens e assim por diante levam mais tempo para carregar por proxy.
+* Os cabeçalhos de Política de segurança de conteúdo (CSP) permitem carregar conteúdo misto sem usar servidores proxy com o EEC ativado.
+* Seu site HTTP enfrenta um tempo de carregamento maior no EEC, o que significa que o JavaScript, as imagens e assim por diante levam mais tempo para carregar por proxy.
 
-### Gerar instantâneos de experiência no diagrama de fluxo de atividade
+### Gerar instantâneos de experiência no diagrama de fluxo de atividades
 
 Quando os instantâneos de experiência estão ativados, miniaturas são geradas para as experiências no diagrama de fluxo de trabalho da atividade. A desativação de instantâneos pode resultar no desempenho mais rápido para alguns usuários.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Veja o que está incluído no Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."}
 
 É possível adicionar dispositivos para usar ao visualizar experiências. Cada dispositivo está associado a um público-alvo.
 
-![Seção Configuração da janela de visualização móvel](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![Seção Configuração de janela de visualização móvel](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
 Clique em **[!UICONTROL Adicionar]**, especifique um nome descritivo para a janela de visualização móvel, especifique a largura e a altura, selecione o sistema operacional desejado e clique em [!UICONTROL Salvar].
 
@@ -93,9 +93,9 @@ Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a pági
 
 >[!NOTE]
 >
->A substituição da configuração por atividade não está disponível em [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing] atividades.  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
+>Substituir a configuração por atividade não está disponível no [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing] atividades.  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
 
-## Vídeo de treinamento: Preferências da conta (7:33) ![Selo de visão geral](/help/main/assets/overview.png)
+## Vídeo de treinamento: preferências da conta (7:33) ![Selo de visão geral](/help/main/assets/overview.png)
 
 Este vídeo inclui informações sobre as preferências da conta.
 

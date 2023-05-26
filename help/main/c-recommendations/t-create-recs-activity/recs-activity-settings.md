@@ -1,7 +1,7 @@
 ---
 keywords: Recommendations, Configurações, nome, objetivo, prioridade, duração, configurações de relatórios, outros metadados
 description: Saiba como definir as configurações usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
-title: Como defino as configurações de atividade do Recommendations?
+title: Como Definir As Configurações De Atividade Do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 # Configurações de atividade do Recommendations
 
-Informações sobre as configurações que podem ser usadas para descrever e controlar um [!UICONTROL Recommendations] atividade em [!DNL Adobe Target].
+Informações sobre as configurações que podem ser usadas para descrever e controlar um [!UICONTROL Recommendations] atividade no [!DNL Adobe Target].
 
 ![Página Metas e configurações do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ Os seguintes caracteres não são permitidos em um nome de atividade:
 `-`
 `@`
 
-Se especificar um nome de atividade do [!UICONTROL Recommendations] que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. O novo nome é exibido em [!DNL Target Standard/Premium] e [!UICONTROL Recommendations Classic].
+Se especificar um nome de atividade do [!UICONTROL Recommendations] que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. O novo nome é exibido em ambos [!DNL Target Standard/Premium] e [!UICONTROL Recommendations Classic].
 
 ## Objetivo
 
@@ -55,7 +55,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 ## Configurações da geração de relatórios
 
-* **Fonte de geração de relatórios:** Selecione a fonte de relatórios: [!DNL Adobe Target] ou [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
+* **Fonte dos relatórios:** Selecione a fonte de relatórios: [!DNL Adobe Target] ou [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Não altere a fonte de geração de relatórios após a atividade ficar ativa. Alterar a fonte de geração de relatórios após uma atividade ficar ativa gera relatórios inconsistentes.
 * **Métrica de objetivo:** selecione a métrica de sucesso que determina se a atividade é bem sucedida.
 * **Métricas adicionais:** configure métricas de sucesso adicionais para serem usadas nos relatórios.
 * **Públicos-alvo para relatórios:** defina o público-alvo que pode ser usado ao filtrar os relatórios.
@@ -64,7 +64,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 Insira observações sobre a atividade.
 
-## Vídeo de treinamento: Configurações da atividade (3:02) ![Selo do tutorial](/help/main/assets/tutorial.png)
+## Vídeo de treinamento: configurações da atividade (3:02) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 

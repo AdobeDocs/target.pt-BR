@@ -1,7 +1,7 @@
 ---
 keywords: direcionamento de experiência; xt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
 description: Saiba como especificar métricas em um Adobe [!DNL Target] Atividade de Direcionamento de experiência para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
-title: Como defino métricas de metas em uma atividade de direcionamento de experiência?
+title: Como definir métricas de meta em uma atividade de direcionamento de experiência?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,9 +11,9 @@ ht-degree: 83%
 
 ---
 
-# Definir métricas em atividades de Direcionamento de experiência (XT)
+# Definir métricas nas atividades de Direcionamento de experiência (XT)
 
-Use métricas em uma [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] (XT) para determinar quando uma visita é bem-sucedida.
+Usar métricas em uma [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] (XT) para determinar quando uma visita obtém sucesso.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

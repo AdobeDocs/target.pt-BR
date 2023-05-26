@@ -1,6 +1,6 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Saiba como usar a opção Redirecionar para URL no Adobe [!DNL Target] quando você desejar enviar o visitante para uma página diferente em vez de mostrar o conteúdo na mesma página.
+description: Saiba como usar a opção Redirecionar para URL no Adobe [!DNL Target] quando quiser enviar o visitante para uma página diferente, em vez de mostrar o conteúdo na mesma página.
 title: Posso redirecionar uma página para um URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
@@ -13,7 +13,7 @@ ht-degree: 82%
 
 # Redirecionar para um URL
 
-Use o [!UICONTROL Redirecionar para URL] em [!DNL Adobe Target] quando você desejar enviar o visitante para uma página diferente em vez de mostrar o conteúdo na mesma página.
+Use o [!UICONTROL Redirecionar para URL] opção em [!DNL Adobe Target] quando quiser enviar o visitante para uma página diferente, em vez de mostrar o conteúdo na mesma página.
 
 Você pode ter duas páginas completamente diferentes para testar, em vez de mudar apenas partes do conteúdo dentro de uma página. Neste caso, o teste A/B compara a página A versus a página B. Configure uma campanha de testes A/B, com duas experiências: uma apontando para a página A padrão e a outra redirecionando para a página B. No menu Ação da experiência, localizado ao clicar no rótulo da letra da experiência, escolha **[!UICONTROL Redirecionar para URL]** e especifique o URL da página B. A oferta é configurada para redirecionar o visitante para uma página diferente.
 

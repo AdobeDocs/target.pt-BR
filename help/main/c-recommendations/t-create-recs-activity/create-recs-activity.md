@@ -1,6 +1,6 @@
 ---
 keywords: criar recomendações, atividade do recommendations, novas recomendações, visão geral do recommendations
-description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para criar uma atividade do Recommendations diretamente em um [!DNL Target]página ativada.
+description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para criar uma atividade do Recommendations diretamente em um [!DNL Target]página habilitada para.
 title: Como criar uma atividade do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -32,7 +32,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >O [!UICONTROL [Escolher local de trabalho]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é uma opção [Target Premium](/help/main/c-intro/intro.md) recurso. Caso não veja essa opção, a licença da organização é do Target Standard.
+   >A variável [!UICONTROL [Escolher local de trabalho]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é uma opção [Target Premium](/help/main/c-intro/intro.md) recurso. Caso não veja essa opção, a licença da organização é do Target Standard.
 
 1. (Condicional) Se você for um [cliente do Target Premium](/help/main/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -46,17 +46,17 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    Ao clicar em [!UICONTROL Avançar], o VEC será aberto e irá exibir sua página. Você pode substituir um elemento atual com recomendações ou inseri-las.
 
-1. Clique em um elemento na página e, em seguida, se as recomendações estiverem disponíveis no local onde esse elemento está localizado, clique em **[!UICONTROL Substituir por Recommendations]**, **[!UICONTROL Inserir o Recommendations antes de]** ou **[!UICONTROL Inserir o Recommendations depois de]**.
+1. Clique em um elemento na página, em seguida, se as recomendações estiverem disponíveis no local onde esse elemento está localizado, clique em **[!UICONTROL Substituir por Recommendations]**, **[!UICONTROL Inserir Recommendations antes de]** ou **[!UICONTROL Inserir Recommendations após]**.
 
    Os visitantes do seu site verão o conteúdo recomendado somente se se qualificarem para a recomendação. Os visitantes que não se qualificarem para a recomendação verão o conteúdo padrão.
 
    ![Opções do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL Substituir por Recommendations]**: Substituir um elemento por recomendações exclui o conteúdo atual e o substitui por suas recomendações. Quando os visitantes visitam seu site e se qualificam para a recomendação, eles verão os itens recomendados na área especificada em vez do conteúdo existente.
-   * **[!UICONTROL Inserir o Recommendations antes de]**: Inserir recomendações antes do elemento selecionado coloca o conteúdo recomendado antes desse elemento. Dependendo da construção da sua página, a recomendação é exibida acima ou à esquerda do elemento selecionado.
-   * **[!UICONTROL Inserir o Recommendations depois de]**: Inserir recomendações depois do elemento selecionado coloca o conteúdo recomendado após esse elemento. Dependendo da construção da sua página, a recomendação é exibida abaixo ou à direita do elemento selecionado.
+   * **[!UICONTROL Substituir por Recommendations]**: Substituir um elemento com recomendações exclui o conteúdo atual e o substitui por suas recomendações. Quando os visitantes visitarem seu site e se qualificarem para a recomendação, eles verão os itens recomendados na área especificada, em vez do conteúdo existente.
+   * **[!UICONTROL Inserir Recommendations antes de]**: Inserir recomendações antes que o elemento selecionado coloque o conteúdo recomendado antes desse elemento. Dependendo da construção da página, a recomendação é exibida acima ou à esquerda do elemento selecionado.
+   * **[!UICONTROL Inserir Recommendations após]**: Inserir recomendações depois que o elemento selecionado coloca o conteúdo recomendado após esse elemento. Dependendo da construção da página, a recomendação é exibida abaixo ou à direita do elemento selecionado.
 
-   O **[!UICONTROL Expandir seleção]** permite expandir o local selecionado (contêiner pai) para ajudar você a identificar e incluir facilmente os elementos de página desejados com mais facilidade.
+   A variável **[!UICONTROL Expandir seleção]** A opção permite expandir o local selecionado (container principal) para ajudar você a identificar e incluir os elementos de página desejados com mais facilidade.
 
 1. Selecione um tipo de página.
 
@@ -75,11 +75,11 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
 1. Selecione um ou mais [critérios](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. Por padrão, a variável [!UICONTROL Selecionar critérios] exibe critérios compatíveis com seu negócio vertical e o tipo de página selecionado na etapa anterior. Você pode alterar essas opções para exibir outros critérios.
+   Os critérios são exibidos como cartões que mostram as informações sobre cada um dos critérios. Por padrão, a variável [!UICONTROL Selecionar critério] A tela exibe critérios compatíveis com o vertical do setor e o tipo de página selecionado na etapa anterior. Você pode alterar essas opções para exibir outros critérios.
 
    >[!NOTE]
    >
-   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations (**[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtro critérios incompatíveis]**). Para obter mais informações, consulte [Configurações](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations (**[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtro critérios incompatíveis]**). Para obter mais informações, consulte [Configurações](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
 
    ![Caixa de diálogo Selecionar critérios](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -164,7 +164,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
    * Ativar a atividade
    * Editar a atividade
-   * Compartilhe a atividade no feed do Experience Cloud
+   * Compartilhar a atividade no seu feed do Experience Cloud
    * Controle de qualidade da atividade
    * Visualizar seus URLs da experiência
    * Baixar os dados

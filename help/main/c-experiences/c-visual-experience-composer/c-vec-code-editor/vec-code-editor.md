@@ -213,7 +213,7 @@ Se você usar o recurso de código personalizado para duas atividades que direci
 
 **O código personalizado não é executado ao usar `triggerView`.**
 
-As ofertas de código personalizado no VEC não são renderizadas quando `triggerView()` é chamado com `{page: false}` como a opção.
+As ofertas de Code personalizado no VEC não são renderizadas novamente quando `triggerView()` é chamado com `{page: false}` como a opção.
 
 **Recebi um aviso de que uma ação não pode ser aplicada devido a alterações estruturais em uma página. O que isso significa?**
 

@@ -1,7 +1,7 @@
 ---
-keywords: mvt, teste multivariado, ofertas, combinações
+keywords: mvt;teste multivariado;ofertas;combinações
 description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL Target] para criar as ofertas que deseja incluir no teste multivariado (MVT).
-title: Como crio combinações em testes multivariados (MVT)?
+title: Como criar combinações em testes multivariados (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # Criar combinações
 
-Use o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] para criar as ofertas que deseja incluir no [!UICONTROL Teste multivariado] (MVT).
+Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar as ofertas que deseja incluir no [!UICONTROL Teste multivariado] (MVT).
 
 Para obter mais informações sobre como usar o VEC para criar e editar ofertas, consulte [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 

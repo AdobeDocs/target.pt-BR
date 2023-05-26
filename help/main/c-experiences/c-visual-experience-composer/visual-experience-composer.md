@@ -1,7 +1,7 @@
 ---
-keywords: visual experience composer; vec; wysiwyg
-description: Saiba mais sobre as noções básicas do uso do Visual Experience Composer (VEC) no Adobe Target. O VEC é um editor WYSIWYG que permite criar experiências personalizadas com facilidade.
-title: Como uso o Visual Experience Composer (VEC)?
+keywords: visual experience composer;vec;wysiwyg
+description: Saiba mais sobre as noções básicas de uso do Visual Experience Composer (VEC) no Adobe Target. O VEC é um editor WYSIWYG que permite criar experiências personalizadas com facilidade.
+title: Como usar o Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
@@ -13,13 +13,13 @@ ht-degree: 92%
 
 # Visual Experience Composer (VEC)
 
-Informações sobre o uso da variável [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target].
+Informações sobre o uso do [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target].
 
 O VEC é uma interface WYSIWYG que permite criar e testar facilmente experiências e ofertas personalizadas no contexto do site. Você pode criar experiências e ofertas para atividades do Target arrastando e soltando, alternando e modificando o layout e o conteúdo de uma página da Web (ou oferta) ou página da Web móvel.
 
 O VEC é um dos principais recursos do [!DNL Adobe Target]. O VEC permite aos profissionais de marketing e designers criarem e alterarem o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor.
 
-No Target **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** , você pode inserir o URL padrão do Visual Experience Composer.
+No Target **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** você pode inserir o URL padrão do Visual Experience Composer.
 
 ![Configurações padrão de URL do VEC](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 

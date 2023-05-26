@@ -1,7 +1,7 @@
 ---
-keywords: Meta e configurações; objetivo; prioridade; duração
+keywords: Meta e Configurações;objetivo;prioridade;duração;Goal & Settings;objetive;priority;duration
 description: Saiba como usar as Configurações de atividade no Adobe [!DNL Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
-title: Como Especifique As Configurações Da Atividade?
+title: Como Especificar Configurações De Atividade?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Configurações de atividade
 
-Use [!UICONTROL Configurações da atividade] em [!DNL Adobe Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
+Uso [!UICONTROL Configurações da atividade] in [!DNL Adobe Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
 
 1. Insira observações sobre o objetivo da atividade.
 
@@ -24,9 +24,9 @@ Use [!UICONTROL Configurações da atividade] em [!DNL Adobe Target] para gerenc
 
    A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-   Se esta opção não estiver ativada em [!UICONTROL Administração] > [!UICONTROL Relatório] (o padrão), especifique uma prioridade: Baixo, Médio ou Alto.
+   Se esta opção não estiver ativada no [!UICONTROL Administração] > [!UICONTROL Relatórios] (o padrão), especifique uma prioridade: baixa, média ou alta.
 
-   Para ativar as prioridades otimizadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatório], em seguida, alterne a [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ligado&quot;.
+   Para ativar as prioridades otimizadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatórios], em seguida, alterne a [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ligado&quot;.
 
    Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -55,7 +55,7 @@ A página [!UICONTROL Meta e configurações] inclui configurações adicionais 
 * [Teste multivariado](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vídeo de treinamento: Configurações da atividade ![Selo do tutorial](/help/main/assets/tutorial.png)
+## Vídeo de treinamento: configurações da atividade ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 

@@ -1,7 +1,7 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades do Automated Personalization (AP) no Adobe Target, juntamente com as soluções sugeridas.
-title: Como soluciono problemas do Automated Personalization?
+description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades de Automated Personalization (AP) no Adobe Target, juntamente com as soluções sugeridas.
+title: Como solucionar problemas do Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
@@ -40,7 +40,7 @@ Vários fatores são necessários para uma atividade de AP gerar aumento:
 
 ## O URL da minha atividade de AP está mostrando o conteúdo da oferta nas páginas incorretas.  {#section_82A224406DBF4107B05204BEFBBE458C}
 
-No AP, as regras de teste do URL e do modelo são adicionadas ao [!DNL Target] restrição de entrada de solicitação (por exemplo, target-global-mbox), onde são avaliadas apenas uma vez. Depois que um usuário se qualifica para uma atividade, as regras de direcionamento no nível da solicitação do Target não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
+Na AP, o URL e as regras de teste do modelo são adicionados à [!DNL Target] restrição de entrada de solicitação (por exemplo, target-global-mbox), em que são avaliados apenas uma vez. Depois que um usuário é qualificado para uma atividade, as regras de direcionamento no nível da solicitação do Target não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
 
 **Solução:** adicione as regras de modelo necessárias como o público-alvo de entrada da campanha. A avaliação do público-alvo ocorre a cada solicitação/chamada.
 

@@ -1,7 +1,7 @@
 ---
-keywords: random forest, árvore de decisão, ap, Automated Personalization
-description: Saiba mais sobre o Adobe [!DNL Target] O usa o algoritmo Random Forest nas atividades Automated Personalization (AP) e Direcionamento automático .
-title: Como [!DNL Target] Usar o Algoritmo Random Forest?
+keywords: floresta aleatória;árvore de decisão;ap;Automated Personalization
+description: Saiba como Adobe [!DNL Target] O usa o algoritmo Random Forest nas atividades do Automated Personalization (AP) e de Direcionamento automático.
+title: Como o [!DNL Target] Usar o algoritmo Random Forest?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
@@ -35,19 +35,19 @@ Vamos dizer que o código postal é mais preditivo. Esta variável formaria ent�
 
 Esta ação resultaria na primeira camada da nossa árvore de decisão:
 
-![imagem decsion_tree_1](assets/decsion_tree_1.png)
+![imagem decision_tree_1](assets/decsion_tree_1.png)
 
 A árvore de decisão faria a pergunta: &quot;Qual é a variável mais previsível?&quot; No nosso exemplo, temos apenas duas variáveis, então a resposta aqui é claramente de gênero. A árvore agora procurará concluir um exercício semelhante para dividir os dados *dentro de cada ramificação*. Primeiro, vamos considerar a ramificação 11111, 22222 e 33333. Nestes códigos postais, se houver uma diferença na conversão entre homens e mulheres, então haveria duas folhas (homens e mulheres), e esta ramificação estaria completa. Na outra ramificação, 44444 e 55555, vamos supor que não há diferença estatística entre a conversão de mulheres e homens. Neste caso, a primeira ramificação torna-se a divisão final.
 
 Nosso exemplo resultaria na árvore abaixo:
 
-![imagem decsion_tree_2](assets/decsion_tree_2.png)
+![imagem decision_tree_2](assets/decsion_tree_2.png)
 
 ## Como as árvores de decisão são usadas pelo Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Árvores de decisão podem ser uma poderosa ferramenta estatística. No entanto, elas têm algumas desvantagens. Mais criticamente, elas podem &quot;encaixar&quot; os dados de modo que uma árvore individual mal possa prever os dados futuros que não foram usados para construir a árvore inicial. Este desafio é conhecido como [compensação de viés-variância](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) na aprendizagem estatística. Random forests ajudam a superar esse desafio de superajuste. No nível mais alto, uma random forest é uma coleção de árvores de decisão que são construídas de forma ligeiramente diferente no mesmo conjunto de dados que &quot;votam&quot; juntos para produzir um modelo melhor que uma árvore individual. As árvores são construídas aleatoriamente selecionando um subconjunto de registros de visitas com substituição (conhecida como embalagem), bem como selecionando aleatoriamente um subconjunto dos atributos, de modo que a floresta consista em árvores de decisão ligeiramente diferentes. Este método introduz pequenas variações nas árvores criadas na Random forest. Adicionar essa quantidade controlada de variação ajuda a melhorar a precisão da previsão do algoritmo.
 
-## Como os algoritmos de personalização do Target usam o Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Como os algoritmos de personalização do Target usam a Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Como são construídos os modelos**
 
@@ -78,7 +78,7 @@ As transformações de recurso dependem do tipo de atributo. Principalmente, exi
 
 Para recursos categóricos, um conjunto de todos os recursos possíveis é mantido e a transformação de probabilidade é usada para reduzir o tamanho dos dados. Para recursos numéricos, o redimensionamento assegura que os recursos sejam equivalentes no quadro.
 
-**Equilíbrio de aprendizado versus personalização com o Multi-Armed Bandit .**
+**Equilíbrio de aprendizagem versus personalização com o Multi-Armed Bandit.**
 
 Depois que o Target tiver modelos de personalização criados para personalizar seu tráfego, haverá uma compensação clara para os futuros visitantes de sua atividade: você deve personalizar todo o tráfego com base no modelo atual ou continuar aprendendo com novos visitantes apresentado-lhes ofertas aleatórias? Você quer ter certeza de que o algoritmo de personalização está sempre aprendendo sobre novas tendências em seus visitantes, enquanto personaliza a maior parte do tráfego.
 

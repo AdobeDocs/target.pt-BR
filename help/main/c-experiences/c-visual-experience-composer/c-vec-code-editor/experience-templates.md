@@ -1,6 +1,6 @@
 ---
 keywords: modelo de experiência; código personalizado; banner; lightbox; galeria; contagem regressiva; fita; botões
-description: Saiba como usar Modelos de experiência, que são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso de profissionais de marketing comuns no Adobe Target.
+description: Saiba como usar Modelos de experiência, que são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso comuns de profissionais de marketing no Adobe Target.
 title: Quais modelos de experiência estão disponíveis no Target?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
@@ -23,13 +23,13 @@ Os modelos a seguir estão disponíveis atualmente no Adobe Experience Cloud Git
 
 O modelo de experiência da [Galeria do banner com miniaturas é um carrossel giratório](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails), comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas imagens menores abaixo da imagem principal.
 
-![exp-template-banner-carousel-thumbnails](assets/exp-template-banner-carousel-thumbnails.png)
+![imagem exp-template-banner-carousel-thumbnails](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## Galeria do banner  {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 O modelo de experiência da [Galeria do banner é um carrossel giratório](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel), comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas setas esquerda e direita.
 
-![exp-template-banner-carousel image](assets/exp-template-banner-carousel.png)
+![imagem exp-template-banner-carousel](assets/exp-template-banner-carousel.png)
 
 ## Contagem regressiva do banner  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
@@ -53,7 +53,7 @@ O [modelo de experiência do Lightbox com contagem regressiva](https://github.co
 
 O [modelo de experiência do Lightbox com intenção de saída](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) é um pop-up de sobreposição de lightbox acionado na intenção de saída (mover o mouse para o canto superior direito da tela) e pode ser implantado em qualquer propriedade da Web onde você deseja ter uma última chance de capturar atenção.
 
-![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
+![imagem exp-template-lightbox-exit](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 

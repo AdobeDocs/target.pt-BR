@@ -1,7 +1,7 @@
 ---
 keywords: Direcionamento, sistema operacional target, sistema operacional, target os, os, target linux, linux, target windows, windows, target macintosh, macintosh, mac, target mac, win, target win
 description: Saiba como direcionar visitantes que usam um determinado sistema operacional (Linux, Macintosh ou Windows).
-title: Posso definir metas para visitantes com base no sistema operacional?
+title: Posso definir visitantes como alvo com base no sistema operacional?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -17,7 +17,7 @@ Você pode direcionar visitantes usando [!DNL Adobe Target] que usam um determin
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arrastar e soltar **[!UICONTROL Sistema operacional]** no painel do construtor de público-alvo.
+1. Arrastar e soltar **[!UICONTROL Sistema operacional]** no painel do audience builder.
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
    * Linux
@@ -27,9 +27,9 @@ Você pode direcionar visitantes usando [!DNL Adobe Target] que usam um determin
 1. (Opcional) Configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Concluído]**.
 
-A ilustração a seguir mostra um público-alvo direcionado a visitantes usando um sistema operacional Macintosh.
+A ilustração a seguir mostra um público-alvo direcionado a visitantes que usam Macintosh OS.
 
-![imagem do target_os](assets/target_os.png)
+![imagem target_os](assets/target_os.png)
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 

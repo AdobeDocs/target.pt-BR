@@ -1,28 +1,28 @@
 ---
 keywords: direcionamento, a4t, geografia, geolocalização, precisão de geolocalização, país, estado, cidade, CEP, dma, operadora de celular, códigos de cidade, códigos de região, códigos de país, códigos metropolitanos, scripts de perfil, scripts de perfil de geolocalização, dispositivos móveis de geolocalização
 description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcionar usuários com base em sua localização geográfica.
-title: Posso definir metas para visitantes com base na localização?
+title: Posso definir visitantes como alvo com base na localização?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 41%
+ht-degree: 47%
 
 ---
 
 # Geografia  
 
-Usar públicos-alvo em [!DNL Adobe Target] para direcionar usuários com base em sua localização geográfica.
+Usar públicos-alvo no [!DNL Adobe Target] para direcionar usuários com base em sua localização geográfica.
 
-Os parâmetros de localização geográfica permitem definir atividades e experiências com base nas informações geográficas dos visitantes. Você pode incluir ou excluir visitantes com base no país, estado/província, cidade, código postal/CEP, latitude, longitude, DMA ou operadora de celular. Esses dados são enviados com cada [!DNL Target] e se baseia no endereço IP do visitante. Selecione esses parâmetros exatamente como quaisquer outros valores de definições de metas.
+Os parâmetros de localização geográfica permitem direcionar atividades e experiências com base na localização geográfica de seus visitantes. Você pode incluir ou excluir visitantes com base no país, estado/província, cidade, código postal/CEP, latitude, longitude, DMA ou operadora de celular. Esses dados são enviados com cada [!DNL Target] e se baseia no endereço IP do visitante. Selecione esses parâmetros exatamente como quaisquer outros valores de definições de metas.
 
 ## Criar um público-alvo com geolocalização {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arrastar e soltar **[!UICONTROL Geografia]** no painel do construtor de público-alvo.
+1. Arrastar e soltar **[!UICONTROL Geo]** no painel do audience builder.
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
@@ -35,9 +35,9 @@ Os parâmetros de localização geográfica permitem definir atividades e experi
    * [!UICONTROL DMA]
    * [!UICONTROL Operadora de celular]
 
-   As informações geográficas de um visitante são determinadas a partir do endereço IP de origem de um [!DNL Target] solicitação de localização (solicitação de mbox). A resolução IP para geo é feita para a primeira chamada de uma nova sessão. Isso significa que, se o endereço IP de um visitante mudar no meio da sessão de uma visita, as informações geográficas ainda serão baseadas no endereço IP da primeira chamada.
+   As informações geográficas de um visitante são determinadas a partir do endereço IP de origem de uma solicitação de localização do [!DNL Target] (solicitação de mbox). A resolução “IP para informações geográficas” é feita para a primeira chamada de uma nova sessão. Isso significa que, se o endereço IP de um visitante mudar no meio de uma sessão de visita, as informações geográficas ainda serão baseadas no endereço IP da primeira chamada.
 
-   Para [!UICONTROL Operadora de celular], [!DNL Target] O usa os dados de registro do endereço IP (proprietários do bloco de endereços IP) para determinar a operadora de celular apropriada usando [Códigos de países móveis (MCC) e Códigos de rede móveis (MNC)](https://www.mcc-mnc.com).
+   Para [!UICONTROL Operadora de celular], [!DNL Target] O usa os dados de registro do endereço IP (proprietários do bloco de endereços IP) para determinar a operadora de celular apropriada usando [Códigos de país móveis (MCC) e códigos de rede móveis (MNC)](https://www.mcc-mnc.com).
 
 1. Especifique um operador e o valor apropriado.
 1. (Opcional) Configure regras adicionais para o público-alvo.
@@ -49,22 +49,22 @@ A ilustração a seguir mostra um público-alvo que direciona os usuários que a
 
 ## Precisão {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando um visitante estiver usando uma conexão de dados de celular, a precisão da geolocalização pode ser afetada pelo local, relacionamento de dados do provedor com [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, o endereço IP de um visitante pode ser mapeado para o local ISP do visitante, que pode não ser o mesmo que o local real do visitante. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da variável [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+A precisão da geolocalização depende de vários fatores. As conexões de Wi-Fi estão mais precisas que as redes de celular. Quando um visitante estiver usando uma conexão de dados de celular, a precisão da geolocalização pode ser afetada pelo local, relacionamento de dados da operadora com [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)e outros fatores. As conexões de rede baseada em torres de celular podem ser menos precisas que as conexões com fio ou Wi-Fi. Além disso, o endereço IP de um visitante pode ser mapeado para o local do ISP do visitante, que pode não ser o mesmo que o local real do visitante. Alguns problemas de localização geográfica móvel podem ser resolvidos usando o [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 A tabela a seguir mostra a precisão das informações geográficas baseadas em IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) para conexões de Internet com fuio ou Wi-Fi. A DigitalEnvoy oferece os dados mais precisos do setor. A precisão global é de mais de 99,9% em nível nacional e de até 97% em nível municipal. As informações de precisão não se aplicam a redes baseadas em torre de celular.
 
 | País | Estado | Cidade | Região |
 |--- |--- |--- |--- |
 | BR | 99.99% | 96% | 94% |
-| Canadá | 99,99% | 96% | 94% |
-| Europa | 99,99% |  |  |
-| Reino Unido | 99,99% |  | 87% |
-| Alemanha | 99,99% | 95% | 93% |
+| Canadá | 99.99% | 96% | 94% |
+| Europa | 99.99% |  |  |
+| Reino Unido | 99.99% |  | 87% |
+| Alemanha | 99.99% | 95% | 93% |
 | Escandinávia | 99% | Próximo de 90 | Próximo de 85 |
-| Espanha | 99,99% | Em torno de 90% | Entre 85 e 90 |
+| Espanha | 99.99% | Em torno de 90% | Entre 85 e 90 |
 | Ásia | 99% | Próximo de 95 | Próximo de 90 |
-| Japão | 99,99% | Próximo de 95 | Próximo de 90 |
-| Austrália | 99,99% | 94% | 91% |
+| Japão | 99.99% | Próximo de 95 | Próximo de 90 |
+| Austrália | 99.99% | 94% | 91% |
 
 ## Usar geolocalização em scripts de perfil {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
@@ -88,7 +88,7 @@ Dessa forma você pode criar uma expressão de definição com o nome de &quot;D
 
 ## Usar valores de geolocalização como tokens {#section_E7F7FDF62C3B4934A6565D04B24655F6}
 
-Você pode usar `profile.geolocation` valores diretamente como tokens em ofertas, plug-ins e assim por diante.
+Você pode usar `profile.geolocation` O valida diretamente como tokens em ofertas, plug-ins e assim por diante.
 
 Por exemplo, use:
 
@@ -112,7 +112,7 @@ As seguintes perguntas são frequentes sobre geolocalização:
 
 +++Ver detalhes
 * O valor de latitude e longitude deve ser um valor numérico em graus.
-* O valor para latitude e longitude pode ter uma precisão máxima de cinco casas decimais.
+* O valor de latitude e longitude pode ter uma precisão máxima de cinco casas decimais.
 * O valor de latitude deve estar entre -90 e 90.
 * O valor de longitude deve estar entre -180 e 180.
 
@@ -120,13 +120,13 @@ As seguintes perguntas são frequentes sobre geolocalização:
 
 ### Como a geolocalização funciona em dispositivos móveis?
 
-+++Ver detalhes A maioria dos usuários de dispositivos móveis acessa o conteúdo via WiFi, o que significa [!DNL Target]O direcionamento geográfico baseado em IP do é tão preciso quanto em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser solucionados pelo uso da variável [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++Ver detalhes A maioria dos usuários de dispositivos móveis acessa o conteúdo via WiFi, o que significa [!DNL Target]A segmentação geográfica baseada em IP do é tão precisa quanto em um desktop. As conexões baseadas em torres de celular podem ser menos precisas porque o endereço IP do visitante se baseia na torre em que o sinal está sendo obtido. Alguns problemas de localização geográfica móvel podem ser resolvidos usando o [API de geolocalização](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 +++
 
 ### Como o recurso geográfico trata visitantes da AOL?
 
-+++Veja os detalhes devido à maneira como a AOL cria proxy de seu tráfego, [!DNL Target] só podem direcioná-los a um nível de país. Por exemplo, uma campanha direcionada para a França é bem-sucedida para usuários da AOL na França. Mas uma campanha direcionada a Paris não tem sucesso para usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como &quot;aol.&quot; Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos &quot;estados unidos&quot; e a região corresponde à &quot;aol.&quot;
++++Consulte detalhes Devido à forma como o AOL faz proxy de seu tráfego, [!DNL Target] só podem ser direcionados a nível de país. Por exemplo, uma campanha direcionada à França direciona com sucesso os usuários da AOL na França. Mas uma campanha direcionada a Paris não tem como alvo os usuários da AOL em Paris. Se seu objetivo é alcançar usuários da AOL, você pode definir um campo de região como &quot;aol.&quot; Na realidade, você pode alcançar usuários da AOL dos EUA especificando duas novas condições de definição: o país corresponde exatamente aos &quot;estados unidos&quot; e a região corresponde à &quot;aol.&quot;
 
 +++
 
@@ -145,29 +145,29 @@ As seguintes perguntas são frequentes sobre geolocalização:
 ### Como posso testar minhas atividades se sou um usuário proveniente de uma localidade diferente?
 
 +++Ver detalhes
-* **at.js 1.*x***: Você pode substituir seu endereço IP por um endereço IP de um local diferente e usar o `mboxOverride.browserIp url` parâmetro. Por exemplo, se sua empresa está no Reino Unido, mas sua campanha global é direcionada a visitantes em Auckland, Nova Zelândia, utilize o estilo de URL a seguir, assumindo que `60.234.0.39` é um endereço IP em Auckland:
+* **at.js 1.*x***: Você pode substituir seu endereço IP por um endereço IP de um local diferente e usar o `mboxOverride.browserIp url` parâmetro. Por exemplo, se sua empresa está no Reino Unido, mas sua campanha global é direcionada a visitantes em Auckland, Nova Zelândia, use esse estilo de URL assumindo que `60.234.0.39` é um endereço IP em Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
-   Limpe os cookies antes de fazer o teste da atividade.
+   Limpe os cookies antes de testar a atividade.
 
    >[!NOTE]
    >
-   >`mboxOverride.browserIp` é compatível com o at.js 1.somente *x*. Essa funcionalidade não é compatível com o at.js 2.*x*.
+   >`mboxOverride.browserIp` O é compatível com o at.js 1.somente *x*. Essa funcionalidade não é compatível com o at.js 2.*x*.
 
-* **at.js 2.*x***: Para substituir seu endereço IP por at.js 2.*x*, instale uma extensão/plug-in do navegador (como X-Forwarded-For Header for Chrome ou Firefox). Essa extensão permite passar o cabeçalho x-encaminhado-for nas solicitações de página.
+* **at.js 2.*x***: para substituir seu endereço IP por at.js 2.*x*, instale uma extensão/plug-in do navegador (como X-Forwarded-For Header para Chrome ou Firefox). Essa extensão permite passar o cabeçalho x-forwarded-for nas solicitações de página.
 
 +++
 
 ### Como os territórios, por exemplo, Porto Rico e Hong Kong, são mapeados na estrutura de geolocalização?
 
-+++Veja os detalhes Porto Rico, Hong Kong e outros territórios são tratados como valores de &quot;País&quot; separados.
++++Ver detalhes Porto Rico, Hong Kong e outros territórios são tratados como valores &quot;País&quot; separados.
 
 +++
 
-### Does [!DNL Target] capturar (e armazenar) informações como o CEP quando a atividade é direcionada com recursos de direcionamento por localização geográfica?
+### Faz [!DNL Target] capturar (e armazenar) informações como CEP quando a atividade é direcionada com recursos de direcionamento de localização geográfica?
 
-+++Ver detalhes n.o, [!DNL Target] O usa dados geográficos somente durante a sessão e, em seguida, os dados são descartados.
++++Ver pormenores Não, [!DNL Target] O usa dados geográficos somente durante a sessão e, em seguida, os dados são descartados.
 
 +++
 

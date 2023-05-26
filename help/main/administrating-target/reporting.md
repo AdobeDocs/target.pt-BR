@@ -1,6 +1,6 @@
 ---
-keywords: relatório, relatórios, relatórios, solução da experience cloud, fuso horário, fuso horário, moeda, excluir IPs, aumento estimado na receita, receita, aumento na receita, prioridades otimizadas, otimizadas
-description: Use [!DNL Target] ou Adobe Analytics como fonte de relatórios, especifique o fuso horário padrão e o formato da moeda, adicione endereços IP a serem excluídos dos relatórios e muito mais.
+keywords: relatório;relatórios;relatório;solução da experience cloud;fuso horário;fuso horário;moeda;excluir IPs;aumento estimado na receita;receita;aumento na receita;prioridades otimizadas;otimizado
+description: Uso [!DNL Target] Para o Adobe Analytics como fonte de relatórios, especifique o fuso horário e o formato da moeda padrão, adicione endereços IP a serem excluídos dos relatórios e muito mais.
 title: Como configurar relatórios no Target?
 feature: Administration & Configuration
 role: Admin
@@ -14,22 +14,22 @@ ht-degree: 31%
 
 # Configurar relatórios no Target
 
-Defina as configurações gerais a serem usadas no [!DNL Adobe Target] relatórios que se aplicam a todo o [!DNL Target] conta.
+Definir as configurações gerais a serem usadas no [!DNL Adobe Target] relatórios que se aplicam a todo o seu [!DNL Target] conta.
 
-Para acessar o [!UICONTROL Relatório] página de configuração, clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatório].**
+Para acessar o [!UICONTROL Relatórios] configuração, clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatórios].**
 
 Você pode especificar as seguintes configurações nesta página:
 
-* A solução Adobe Experience Cloud a ser usada para os relatórios
-* O fuso horário a ser usado para os relatórios
+* A solução da Adobe Experience Cloud para usar em relatórios
+* O fuso horário a ser usado para relatórios
 * A moeda a ser usada para relatórios
 * Endereços IP a serem excluídos dos relatórios
-* Mostrar o aumento estimado na receita no relatório
-* Ativação das prioridades otimizadas
+* Mostrar ou não o aumento estimado da receita nos relatórios
+* Se as prioridades otimizadas devem ser habilitadas
 
 >[!NOTE]
 >
->Esteja ciente de que o fuso horário, a moeda e os endereços IP a serem excluídos se aplicam às atividades que usam [!DNL Target] relatórios. Essas configurações não se aplicam a atividades que usam [Analytics for Target (A4T)] como fonte de relatórios (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Esteja ciente de que o fuso horário, a moeda e os endereços IP para excluir as configurações se aplicam às atividades que usam o [!DNL Target] relatórios. Essas configurações não se aplicam a atividades que usam [Analytics for Target (A4T)] como fonte de relatórios (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Página de relatórios](/help/main/administrating-target/assets/reporting.png)
 
@@ -41,22 +41,22 @@ Selecione a fonte de relatórios das suas atividades: o [!DNL Target] ou o [!DNL
 
 Considere as informações a seguir ao escolher sua origem de relatórios:
 
-* Se a origem de relatório for definida aqui para **[!DNL Target]**, você não poderá ativar uma atividade que usa o como a origem de relatório. [!DNL Analytics] Você deve alterar a fonte de relatórios para [!DNL Target] na sua atividade ou altere a fonte de relatórios para **[!UICONTROL Selecionar por atividade]** em **[!UICONTROL Administração] > [!UICONTROL Relatório]**.
-* Se a fonte de relatórios estiver definida como **[!DNL Analytics]** aqui, você não tem permissão para ativar uma atividade que usa [!DNL Target] como fonte de relatórios (a fonte de relatórios é especificada como **[!UICONTROL Direcionar por atividade])**. Você deve alterar a fonte de relatórios para [!DNL Analytics] na sua atividade ou altere o mecanismo de relatórios para **[!UICONTROL Selecionar por atividade]** em **[!UICONTROL Administração] > [!UICONTROL Relatório]**.
-* Se a fonte de relatórios estiver definida como **[!UICONTROL Selecionar por atividade]** aqui, você pode criar, ativar e desativar atividades compatíveis com a fonte de relatórios selecionada. Para obter uma matriz de atividades compatíveis, consulte [Tipos de atividades suportadas](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) em *Adobe Analytics como origem de relatório do Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) a criação, ativação e desativação de atividades são permitidas independentemente da fonte de relatórios selecionada. As atividades do Automated Personalization não são compatíveis quando você escolhe [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Mesmo se você especificar [!DNL Analytics] como fonte de relatórios, [!DNL Target] é usada como a fonte de relatórios das atividades do Automated Personalization. Para obter mais informações, consulte [Tipos de atividades suportadas](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) em *Adobe Analytics como origem de relatório do Adobe Target (A4t)*.
+* Se a origem de relatório for definida aqui para **[!DNL Target]**, você não poderá ativar uma atividade que usa o como a origem de relatório. [!DNL Analytics] Você deve alterar a origem de relatórios para [!DNL Target] na atividade ou altere a fonte de relatórios para **[!UICONTROL Selecionar por atividade]** in **[!UICONTROL Administração] > [!UICONTROL Relatórios]**.
+* Se a fonte de relatórios estiver definida como **[!DNL Analytics]** aqui, você não tem permissão para ativar uma atividade que usa [!DNL Target] como fonte de relatórios (a fonte de relatórios é especificada como **[!UICONTROL Target por atividade])**. Você deve alterar a origem de relatórios para [!DNL Analytics] na atividade ou altere o mecanismo de relatórios para **[!UICONTROL Selecionar por atividade]** in **[!UICONTROL Administração] > [!UICONTROL Relatórios]**.
+* Se a fonte de relatórios estiver definida como **[!UICONTROL Selecionar por atividade]** aqui, você pode criar, ativar e desativar atividades compatíveis com a fonte de relatórios selecionada. Para obter uma matriz de atividades compatíveis, consulte [Tipos de atividades compatíveis](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics como origem de relatório do Adobe Target (A4T)*.
+* [!UICONTROL Automated Personalization] A criação, ativação e desativação de atividades (AP) são permitidas independentemente da fonte de relatórios selecionada. As atividades do Automated Personalization não são compatíveis quando você escolhe [Adobe Analytics como origem de relatório do Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Mesmo que você especifique [!DNL Analytics] como sua fonte de geração de relatórios, [!DNL Target] é usada como a fonte de relatórios para atividades do Automated Personalization. Para obter mais informações, consulte [Tipos de atividades compatíveis](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics como origem de relatório do Adobe Target (A4T)*.
 
 ## Fuso horário para relatórios
 
-Especifique o fuso horário a ser usado para os relatórios.
+Especifique o fuso horário a ser usado para relatórios.
 
-## Moeda para relatório
+## Moeda para relatórios
 
-Especifique a moeda a ser usada para o relatório.
+Especifique a moeda a ser usada para relatórios.
 
-## IPs a serem excluídos [!DNL Target] dados de relatório
+## IPs a serem excluídos do [!DNL Target] dados de relatórios
 
-Especifique quaisquer endereços IP que deseja excluir dos dados de relatório. Por exemplo, excluir endereços internos da empresa é uma boa maneira de garantir que seus dados de relatório reflitam as interações do cliente em seu site.
+Especifique os endereços IP que deseja excluir dos dados de relatório. Por exemplo, excluir endereços internos da empresa é uma boa maneira de garantir que os dados de relatórios reflitam as interações do cliente no seu site.
 
 Insira cada endereço IP em uma nova linha.
 

@@ -1,7 +1,7 @@
 ---
 keywords: A/B; métricas de atividade; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-description: Saiba como especificar métricas em um Adobe [!DNL Target] Atividade A/B para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
-title: Como defino métricas de meta em uma atividade A/B?
+description: Saiba como especificar métricas em um Adobe [!DNL Target] Atividade de A/B para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
+title: Como definir métricas de meta em uma atividade A/B?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # Definir métricas
 
-Use métricas em uma [!DNL Adobe Target] Atividade A/B para determinar quando uma visita é bem-sucedida.
+Usar métricas em uma [!DNL Adobe Target] Atividade A/B para determinar quando uma visita é bem-sucedida.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

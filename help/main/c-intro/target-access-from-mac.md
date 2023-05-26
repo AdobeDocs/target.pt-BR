@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud, fazer logon, idioma, idioma padrão da interface do usuário, idioma padrão
-description: Saiba como acessar [!DNL Target] na Adobe Experience Cloud, defina sua exibição padrão e altere o idioma da variável [!DNL Target] Interface do usuário e documentação.
+description: Saiba como acessar o [!DNL Target] no Adobe Experience Cloud, defina a visualização padrão e altere o idioma do [!DNL Target] Interface e documentação do.
 title: Como acessar o  [!DNL Target]  pela Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76

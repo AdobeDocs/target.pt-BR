@@ -1,20 +1,20 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, perguntas frequentes, perguntas frequentes, atributos importantes
 description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
-title: Qual é o relatório de atributos importantes?
+title: O que é o Relatório de atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 # Relatório de atributos importantes
 
-Informações sobre o [!UICONTROL Atributos importantes] , um dos dois relatórios especializados disponíveis aos usuários do [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT).
+Informações sobre o [!UICONTROL Atributos importantes] relatório, um dos dois relatórios especializados à disposição dos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT) atividades.
 
 >[!NOTE]
 >
@@ -24,24 +24,24 @@ Informações sobre o [!UICONTROL Atributos importantes] , um dos dois relatóri
 >
 >* [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
 >
->* [!UICONTROL Insights de personalização] os relatórios só estarão disponíveis se a variável [!UICONTROL Meta principal] é selecionado no [!UICONTROL Métrica de relatório] lista suspensa.
+>* [!UICONTROL Insights de personalização] Os relatórios do estão disponíveis somente se o [!UICONTROL Meta primária] está selecionado no menu [!UICONTROL Métrica de relatório] lista suspensa.
 >
 >* Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/main/administrating-target/hosts.md).
 >
->* [!UICONTROL Insights de personalização] são gerados somente para atividades que estão no [!UICONTROL Ao vivo] e foram ativadas e recebem tráfego por pelo menos 15 dias.
+>* [!UICONTROL Insights de personalização] os relatórios são gerados somente para atividades que estão na [!UICONTROL Ao vivo] e foram ativados e receberam tráfego por pelo menos 15 dias.
 
 
 Em atividades diferentes, atributos distintos são mais ou menos importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
 
 ## Acesse o [!UICONTROL Atributos importantes] relatório {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Clique em **[!UICONTROL Atividades]**, em seguida, clique no [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) da lista.
+1. Clique em **[!UICONTROL Atividades]** e, em seguida, clique no link [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) atividade na lista.
 
    Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Fonte de geração de relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métrica] e [!UICONTROL Fonte da atividade].
 
 1. Clique em **[!UICONTROL Relatórios]**.
 
-   O [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) , que fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois [!UICONTROL Insights de personalização] relatórios: [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
+   A variável [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) O relatório do é exibido com informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os [!UICONTROL Insights de personalização] relatórios: [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
 
    ![Relatório de resumo da atividade do Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
@@ -51,15 +51,15 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
    >[!IMPORTANT]
    >
-   >O relatório de [!UICONTROL Atributos importantes] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone de [!UICONTROL Atributos importantes]. Após 15 dias, supondo que haja tráfego personalizado suficiente na atividade, a variável [!UICONTROL Atributos importantes] está disponível.
+   >O relatório de [!UICONTROL Atributos importantes] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone de [!UICONTROL Atributos importantes]. Após 15 dias, supondo que haja tráfego personalizado suficiente em sua atividade, a variável [!UICONTROL Atributos importantes] relatório está disponível.
 
-1. Após 15 dias da ativação da atividade, clique no botão **[!UICONTROL Atributos importantes]** ícone .
+1. Após 15 dias da ativação da atividade, clique no link **[!UICONTROL Atributos importantes]** ícone.
 
    ![Ícone de Atributos importantes em um relatório do Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Selecione o intervalo de datas desejado.
 
-   Ao contrário do [!UICONTROL Resumo] relatório (relatório de desempenho), [!UICONTROL Insights de personalização], incluindo [!UICONTROL Atributos importantes], está disponível somente para intervalos de datas fixos: 15 dias, 30 dias e 60 dias.
+   Ao contrário do [!UICONTROL Resumo] relatório (relatórios de desempenho), [!UICONTROL Insights de personalização], incluindo [!UICONTROL Atributos importantes], está disponível apenas para intervalos de datas fixos: 15 dias, 30 dias e 60 dias.
 
    Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
@@ -90,7 +90,7 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 ## Perguntas frequentes de atributos importantes {#section_740910A52FA646B4AC9452F98C2F5719}
 
-Consulte as seguintes perguntas frequentes para obter respostas a perguntas frequentes sobre o uso da variável [!UICONTROL Atributos importantes] relatório.
+Consulte as seguintes perguntas frequentes para obter respostas sobre o uso do [!UICONTROL Atributos importantes] relatório.
 
 ###  Relatórios de Insights de personalização não estão disponíveis ainda para minha atividade. Por que isso ocorre?
 
@@ -104,11 +104,11 @@ Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de pers
 
 Um atributo é a informação sobre um visitante ou sua visita específica usada pelos algoritmos de personalização para saber como personalizar o tráfego. Por exemplo, um atributo pode ser o tipo de navegador, a localização, a hora do dia da visita e assim por diante.
 
-Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}.
 
-### Vejo um ou mais atributos que não quero que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento? {#models-api}
+### Há um ou mais atributos que não desejo que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento? {#models-api}
 
-O [!UICONTROL API de modelos], também chamada de API de  de Lista de bloqueios, permite que os usuários visualizem e gerenciem a lista de atributos (também chamados de recursos) usados em modelos de aprendizado de máquina para [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT). Se quiser excluir um ou mais atributos de serem usados pelos modelos para atividades de AP ou AT, use a API de modelos para adicionar esses atributos à &quot; de lista de bloqueios&quot;.
+A variável [!UICONTROL API de modelos], também chamada de API de Inclui na lista de bloqueios, permite que os usuários visualizem e gerenciem a lista de atributos (também chamados de recursos) usados em modelos de aprendizado de máquina do [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT) atividades. Se você quiser excluir um ou mais atributos de serem usados pelos modelos para atividades de AP ou AT, poderá usar a API de modelos para adicionar esses atributos ao &quot;incluo na lista de bloqueios&quot;.
 
 Para obter informações detalhadas, consulte [Visão geral da API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
@@ -122,7 +122,7 @@ Os relatórios dos Insights de personalização (os [!UICONTROL Segmentos automa
 
 ### Como os [!UICONTROL Insights de personalização] são criados?
 
-Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Saiba mais sobre o MAGIX no artigo publicado pela equipe de pesquisadores do Adobe [Site da arXiv.org](https://arxiv.org/abs/1706.07160).
+Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa do Adobe sobre o [site arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### São [!UICONTROL Insights de personalização] disponível para metas de modelagem baseadas em receita/meta principal?
 
@@ -140,7 +140,7 @@ Há vários motivos possíveis pelos quais você pode ver mais visitas para uma 
 * Atividades de volume inferior nas quais determinadas ofertas ou experiências não têm modelos criados.
 * Atividades de volume inferior nas quais foram criados modelos para algumas ofertas/experiências antes do que para outras. Por exemplo, suponha que um modelo adicional foi criado no dia 22 e você está analisando os dados dos dias 10 a 24.
 * Regras de direcionamento em uma oferta específica que limitam quais visitantes podem ver quais ofertas/experiências.
-* Não há intervalos de confiança no relatório de insight. No entanto, se as taxas de conversão estiverem próximas o suficiente, o modelo poderá fornecer tráfego para que ele seja maior no valor do ponto, mas não serão números &quot;estatisticamente diferentes&quot;.
+* Não há intervalos de confiança no relatório de insight. No entanto, se os índices de conversão estiverem próximos o suficiente, o modelo poderá fornecer tráfego para que o número seja maior em um ponto, mas não &quot;estatisticamente diferente&quot; do outro.
 
 Pode ser útil saber como o modelo fornece o tráfego. Cada indivíduo é servido com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para facilitar sua interpretação por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode fazer com que segmentos individuais exibam esse tipo de comportamento, pois uma mesma pessoa pode aparecer em vários segmentos.
 
@@ -156,6 +156,6 @@ Pode ser útil saber como o modelo fornece o tráfego. Cada indivíduo é servid
 
 ## Problemas conhecidos
 
-O problema a seguir está sendo investigado pela [!DNL Target] equipe de engenharia.
+O problema a seguir está sendo investigado pelo [!DNL Target] equipe de engenharia.
 
 * Os nomes de segmento do [!DNL Adobe Experience Platform] não são exibidos no relatório de [!UICONTROL Atributos importantes] para as atividades de [!UICONTROL Personalização automática] (AP) e de [!UICONTROL Direcionamento automático] (AT). (TOP-3813)

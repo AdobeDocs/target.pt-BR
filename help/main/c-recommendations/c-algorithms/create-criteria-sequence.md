@@ -1,7 +1,7 @@
 ---
-keywords: sequência de critérios, vários critérios, algoritmos, critérios, critérios de recomendações, sequência, limite de itens retornados, controle de nível de slot, slot
-description: Saiba como definir sequências de até cinco critérios para exercer maior controle dos itens que aparecem no Adobe [!DNL Target] Atividades do Recommendations .
-title: Como faço para criar sequências de critérios no Recommendations?
+keywords: sequência de critérios;vários critérios;algoritmos;critérios;critérios de recomendações;sequência;número limite de itens retornados;controle de nível de slot;slot
+description: Saiba como definir sequências de até cinco critérios para exercer maior controle dos itens que aparecem no Adobe [!DNL Target] Atividades do Recommendations.
+title: Como criar sequências de critérios no Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
@@ -14,7 +14,7 @@ ht-degree: 34%
 
 # Criar sequências de critérios
 
-Use sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do [!UICONTROL Recommendations. ] Também é possível limitar o número de itens retornados (às vezes chamados de &quot;controle de nível de slot&quot;).
+Use sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do [!UICONTROL Recommendations. ] Você também pode limitar o número de itens retornados (às vezes chamados de &quot;controle no nível do slot&quot;).
 
 >[!NOTE]
 >
@@ -22,26 +22,26 @@ Use sequências de até cinco critérios para exercer maior controle dos itens q
 
 Para criar uma sequência de critérios, você deve primeiro criar o critério que deseja incluir na sequência. Consulte [Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) para obter mais informações.
 
-Ao usar uma sequência de critérios, você pode fornecer recomendações direcionadas adicionais, em vez de usar recomendações de backup mais genéricas, quando um critério não retorna resultados o suficiente para preencher seu design. Normalmente, uma sequência de critérios continuará do direcionamento mais específico, que pode retornar menos resultados, para o direcionamento mais geral, que geralmente retorna mais resultados.
+Ao usar uma sequência de critérios, você pode fornecer recomendações direcionadas adicionais, em vez de usar recomendações de backup mais genéricas, quando um critério não retorna resultados o suficiente para preencher seu design. Normalmente, uma sequência de critérios prosseguirá de um direcionamento mais específico, que pode retornar menos resultados, para um direcionamento mais geral, que geralmente retorna mais resultados.
 
-Suas sequências de critérios podem variar em ordem, dependendo do tipo de página, conforme mostrado nos exemplos a seguir:
+As sequências de critérios podem variar em ordem, dependendo do tipo de página, como mostrado nos exemplos a seguir:
 
 | Tipo de página | Ordem de sequência possível |
 | --- | --- |
 | Página do produto | <ol><li>Baseado no item atual, da mesma marca</li><li>Baseado no item atual, de todas as marcas</li><li>Baseado na semelhança de conteúdo</li><li>Baseado nos mais vendidos</li><li>Baseado nos itens mais visualizados por todo site</li></ol> |
-| Página inicial | <ol><li>Baseado na última compra do visitante </li><li>Baseado no item favorito do visitante</li><li>Baseado na categoria favorita do visitante</li><li>Baseado nos mais vendidos</li><li>Baseado nos mais visualizados por todo site</li></ol> |
+| Home page | <ol><li>Baseado na última compra do visitante </li><li>Baseado no item favorito do visitante</li><li>Baseado na categoria favorita do visitante</li><li>Baseado nos mais vendidos</li><li>Baseado nos mais visualizados por todo site</li></ol> |
 
 ## Criar uma sequência de critérios
 
-Você cria sequências de critérios a partir do [!UICONTROL Criar sequência de critérios] tela.
+Crie sequências de critérios a partir da variável [!UICONTROL Criar sequência de critérios] tela.
 
 Existem vários meios de alcançar a tela [!UICONTROL Criar sequência de critérios]. Algumas opções de tela variam de acordo com o modo que você chegar na tela.
 
 * Na tela de biblioteca **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios]**, clique em **[!UICONTROL Criar critério]** > **[!UICONTROL Criar sequência de critérios]**. Critérios que você criar aqui ficam disponíveis automaticamente para todas atividades do [!UICONTROL Recommendations].
-* Ao criar um [!UICONTROL Recommendations] atividade , na tela Selecionar critérios , clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Criar sequência de critérios]**. Você terá a opção de salvar sua nova sequência de critérios para uso com outras atividades do [!UICONTROL Recommendations].
-* Ao editar um [!UICONTROL Recommendations] clique em uma [!UICONTROL Localização do Recommendations] na página, em seguida, selecione **[!UICONTROL Alterar critérios]**. Na tela [!UICONTROL Selecionar critério], clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Criar sequência de critérios]**. Você terá a opção de salvar seu novo critério para uso com outras atividades do [!UICONTROL Recommendations].
+* Ao criar uma [!UICONTROL Recommendations] atividade, na tela Selecionar critério, clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Criar sequência de critérios]**. Você terá a opção de salvar sua nova sequência de critérios para uso com outras atividades do [!UICONTROL Recommendations].
+* Ao editar um [!UICONTROL Recommendations] atividade, clique em uma [!UICONTROL Localização do Recommendations] na sua página e selecione **[!UICONTROL Alterar critérios]**. Na tela [!UICONTROL Selecionar critério], clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Criar sequência de critérios]**. Você terá a opção de salvar seu novo critério para uso com outras atividades do [!UICONTROL Recommendations].
 
-As etapas a seguir pressupõem que você acesse a variável [!UICONTROL Criar sequência de critérios] usando o primeiro método: o **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]** tela da biblioteca.
+As etapas a seguir pressupõem que você acesse o [!UICONTROL Criar sequência de critérios] usando o primeiro método: a variável **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]** tela da biblioteca.
 
 1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]**.
 
@@ -49,37 +49,37 @@ As etapas a seguir pressupõem que você acesse a variável [!UICONTROL Criar se
 
    ![Imagem CreateCriteriaSequence](assets/CreateCriteriaSequence.png)
 
-1. Preencha as informações na [Informações básicas](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) seção.
+1. Preencha as informações em [Informações básicas](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) seção.
 
-1. No **[!UICONTROL Sequência de critérios]** seção , clique em **[!UICONTROL Adicionar critérios]**.
+1. No **[!UICONTROL Sequência de critérios]** clique em **[!UICONTROL Adicionar critério]**.
 
-   A ordem de sequência define a ordem em que um design é preenchido. Se o Critério 1 não tiver recomendações suficientes para preencher seu design, os slots restantes serão preenchidos com o Critério 2 e assim por diante.
+   A ordem de sequência define a ordem de preenchimento de um design. Se o Critério 1 não tiver recomendações suficientes para preencher o seu design, os slots restantes serão preenchidos com o Critério 2 e assim por diante.
 
-   ![Adicionar critérios](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
+   ![Adicionar critério](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. No [!UICONTROL Selecionar critérios] , selecione um critério e clique em **[!UICONTROL Adicionar]**.
+1. No [!UICONTROL Selecionar critério] , selecione um critério e clique em **[!UICONTROL Adicionar]**.
 
-   Você pode usar a caixa Pesquisar e os menus suspensos do filtro para encontrar os critérios desejados.
+   Você pode usar a caixa Pesquisa e os menus suspensos de filtro para encontrar os critérios desejados.
 
    ![Selecione o critério](/help/main/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. (Opcional) Deslize o **[!UICONTROL Limite o número de itens retornados]** alterne para a posição &quot;ativada&quot; e especifique o número de itens (entre 1 e 50).
+1. (Opcional) Deslize o **[!UICONTROL Limitar o número de itens retornados]** alterne para a posição &quot;on&quot; e especifique o número de itens (entre 1 e 50).
 
-   ![Limitar o número de itens retornados](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
+   ![Limitar a alternância de número de itens retornados](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Para ajudar você a entender o valor da variável [!UICONTROL Limite o número de itens retornados] (às vezes chamada de &quot;controle de nível de slot&quot;) considere os seguintes casos de uso:
+   Para ajudar você a entender o valor do [!UICONTROL Limitar o número de itens retornados] (às vezes chamada de &quot;controle de nível de slot&quot;) considere os seguintes casos de uso:
 
-   * **Caso de uso 1**: Você deseja ter uma combinação de diferentes tipos de itens em uma única bandeja de recomendações. Por exemplo, você deseja mostrar uma mistura de ternos (casacos) e tampas (camisas, T-shirts). Para fazer isso, use uma Coleção para a atividade que inclui todos os tipos de produto potenciais desejados em qualquer slot do design. Em seguida, configure seus primeiros critérios com um filtro estático limitando os critérios para incluir somente desgaste externo e configure seu segundo critério com um filtro estático limitando os critérios para incluir somente os menus. Finalmente, adicione ambos os critérios a uma sequência de critérios e limite o primeiro critério a dois slots.
+   * **Caso de uso 1**: você deseja ter uma combinação de diferentes tipos de itens em uma única bandeja de recomendações. Por exemplo, você quer mostrar uma mistura de roupas externas (jaquetas) e tops (camisas, camisetas). Para isso, use uma Coleção para a atividade que inclua todos os tipos de produtos em potencial que você deseja em qualquer espaço em seu design. Em seguida, configure os primeiros critérios com um filtro estático que limita os critérios para incluir somente roupas externas e configure os segundos critérios com um filtro estático que limita os critérios para incluir somente tops. Por fim, adicione ambos os critérios a uma sequência de critérios e limite os primeiros critérios a 2 slots.
 
-      A bandeja de recomendações pode ter esta aparência no site:
+      A bandeja de recomendações pode ter esta aparência em seu site:
 
-      ![Bandeja de recomendações de Produtos em destaque](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
+      ![Bandeja de recomendações de produtos em destaque](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
 
-   * **Caso de uso 2**: Você deseja uma combinação de itens alternativos e complementares. Configure um critério para usar um algoritmo visualizado/visualizado e um filtro dinâmico que limite os itens recomendados para a categoria do item atual. Configure o segundo critério para usar um algoritmo visualizado/comprado e usar um filtro dinâmico que inclua apenas itens recomendados que não correspondam à categoria do item atual. Finalmente, adicione ambos os critérios a uma sequência e limite o primeiro critério a dois slots.
+   * **Caso de uso 2**: você deseja uma combinação de itens alternativos e complementares. Configure um critério para usar um algoritmo exibido/exibido e use um filtro dinâmico que limite os itens recomendados para a categoria do item atual. Configure os segundos critérios para usar um algoritmo exibido/comprado e usar um filtro dinâmico que inclua apenas itens recomendados que não correspondam à categoria do item atual. Por fim, adicione ambos os critérios a uma sequência e limite os primeiros critérios a 2 slots.
 
-1. Continue adicionando critérios adicionais à sua sequência. Você pode adicionar até cinco critérios em uma sequência.
+1. Continue adicionando critérios adicionais à sequência. Você pode adicionar até cinco critérios em uma sequência.
 
-1. Habilitar [Opções de conteúdo de backup](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
+1. Ativar [Opções de conteúdo de backup](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. Clique em **[!UICONTROL Salvar]**.
 

@@ -1,7 +1,7 @@
 ---
 keywords: prioridade; criação de experiência; prioridade; experiência; público-alvo; experiência; troca de experiências; visual experience composer
-description: Saiba como os visitantes podem alternar entre experiências em um Adobe [!DNL Target] Atividade de Direcionamento de experiência (XT) conforme seus perfis evoluem.
-title: Os visitantes podem trocar experiências em uma atividade de direcionamento de experiência?
+description: Saiba como os visitantes podem alternar entre experiências em um Adobe [!DNL Target] Direcionamento de experiência (XT) à medida que seus perfis evoluem.
+title: Os visitantes podem trocar de experiência em uma atividade de direcionamento de experiência?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a

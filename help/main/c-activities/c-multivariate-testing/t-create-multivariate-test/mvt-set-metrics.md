@@ -1,7 +1,7 @@
 ---
 keywords: multivariado; mvt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-description: Saiba como especificar métricas em um Adobe [!DNL Target] Atividade de teste multivariado para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
-title: Como defino métricas de meta em uma atividade de teste multivariado (MVT)?
+description: Saiba como especificar métricas em um Adobe [!DNL Target] Atividade de Teste multivariado para determinar quando uma visita é bem-sucedida, como Conversão, Receita e Envolvimento.
+title: Como definir métricas de meta em uma atividade de Teste multivariado (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 84%
 
 # Definir métricas para testes multivariados
 
-Use métricas em um teste multivariado do Adobe Target para determinar quando uma visita é bem-sucedida.
+Use métricas em um teste multivariado da Adobe Target para determinar quando uma visita obtém sucesso.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

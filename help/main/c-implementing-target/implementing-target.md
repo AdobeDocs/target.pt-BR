@@ -1,39 +1,39 @@
 ---
 keywords: implementar; implementação
-description: Entenda os conceitos básicos, familiarize-se com o [!DNL Target] O funciona e se integra à sua infraestrutura e entende como os visitantes são rastreados.
+description: Entenda os conceitos básicos, familiarize-se com a forma como [!DNL Target] O funciona e se integra à sua infraestrutura e entende como os visitantes são rastreados.
 landing-page-description: Antes de começar a usar o Adobe Target, você deve implementá-lo em seu site.
 short-description: Antes de começar a usar o Adobe Target, você deve implementá-lo em seu site.
-title: Como implementar [!DNL Target]?
+title: Como implementar o [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
 # Implementar o Target
 
-Antes de começar a utilizar [!DNL Adobe Target], é necessário implementá-lo no site.
+Antes de começar a usar [!DNL Adobe Target], você deve implementá-lo em seu site.
 
-O [Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contém as informações necessárias antes da implementação [!DNL Target].
+A variável [Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank} contém as informações que você precisa saber antes da implementação [!DNL Target].
 
 O Portal do desenvolvedor inclui informações sobre os seguintes tipos de implementação:
 
-* **Lado do cliente**: Informações sobre a implementação usando o [!DNL Adobe Experience Platform Web SDK] ou [!DNL Target Web SDK] (at.js).
-* **Lado do servidor**: Informações sobre como implementar o uso de SDKs Node.JS, JAVA, .NET e Python.
-* **Híbrido**: Informações sobre a implementação se você usar uma combinação de implementações do lado do cliente e do lado do servidor.
-* **Recommendations**: Informações para ajudar a implementar [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
-* **Aplicativos para dispositivos móveis**: Informações para ajudar a implementar com [!DNL Adobe Experience Platform Mobile] SDKs.
-* **Email**: Informações para ajudar a implementar [!DNL Target] em emails.
+* **Lado do cliente**: Informações sobre como implementar o usando a [!DNL Adobe Experience Platform Web SDK] ou o [!DNL Target Web SDK] (at.js).
+* **Lado do servidor**: informações sobre como implementar o usando os SDKs Node.JS, JAVA, .NET e Python.
+* **Híbrido**: informações sobre como implementar o se você usar uma combinação de implementações do lado do cliente e do lado do servidor.
+* **Recommendations**: informações para ajudar na implementação do [!DNL Recommendations], um [Target Premium](/help/main/c-intro/intro.md#premium) oferta.
+* **Aplicativos móveis**: informações para ajudar a implementar o usando o [!DNL Adobe Experience Platform Mobile] SDKs.
+* **E-mail**: informações para ajudar na implementação do [!DNL Target] nos emails.
 
-Para obter mais informações, consulte o [Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Para obter mais informações, consulte [Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}.
 
 >[!NOTE]
 >
->Todas as informações incluídas anteriormente na *Implementar o Target* neste guia (o *Guia do profissional do Adobe Target*) agora está incluída no [Guia do desenvolvedor](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+>Todas as informações que foram incluídas anteriormente no *Implementar o Target* neste guia (a guia *Guia do profissional do Adobe Target*) agora está incluído na [Guia do desenvolvedor](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}.
 
 
 

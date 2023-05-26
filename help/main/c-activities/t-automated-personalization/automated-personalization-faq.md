@@ -1,7 +1,7 @@
 ---
-keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, personalização automatizada, controle, experiência padrão, práticas recomendadas
+keywords: solução de problemas;perguntas frequentes;Perguntas frequentes;personalização automatizada;controle;experiência padrão;práticas recomendadas;troubleshooting;frequency asked questions;FAQs;automated personalization;control;default experience;best practices
 description: Explore uma lista de perguntas frequentes e respostas sobre as atividades do Automated Personalization (AP) no Adobe Target.
-title: Como posso encontrar perguntas frequentes sobre as atividades do Automated Personalization?
+title: Como posso encontrar perguntas frequentes sobre atividades do Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
@@ -26,7 +26,7 @@ Para obter mais informações, consulte [Usar uma experiência específica como 
 
 ## Como posso comparar personalização automatizada a uma experiência padrão? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se uma oferta ou experiência padrão existir como parte da atividade geral, para entender seu desempenho de linha de base, clique no segmento &quot;Controle&quot; nos relatórios e localize essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversa de todo o segmento &quot;Random Forest&quot;. Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
+Não há opção completa para comparar a AP a uma experiência padrão. No entanto, como solução alternativa, se uma oferta ou experiência padrão existir como parte da atividade geral, para entender seu desempenho de linha de base, você pode clicar no segmento &quot;Controle&quot; nos relatórios e localizar essa oferta específica no relatório de nível de oferta resultante. A taxa de conversão registrada para esta oferta pode ser usada para comparar com a taxa de conversa de todo o segmento &quot;Random Forest&quot;. Isso ajuda a comparar o desempenho da máquina em comparação com a oferta padrão.
 
 ## Quais são as práticas recomendadas para configurar uma atividade de Personalização automatizada?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -40,9 +40,9 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
 
    Há três cenários a serem considerados com base na meta da atividade e no tipo de controle selecionado:
 
-   * **Experiências aleatórias como controle e o objetivo da atividade é testar a eficácia do algoritmo de personalização**: Se o objetivo for avaliar o algoritmo de personalização, você desejará ter uma imagem mais precisa do seu aumento. Você também pode querer fazer a comparação de como seria a taxa de conversão de suas experiências/ofertas se simplesmente fizesse um Teste A/B (um controle disponibilizado aleatoriamente). Nessa situação, recomenda-se utilizar uma alocação de 50% para um controle de experiências disponibilizadas aleatoriamente.
-   * **&quot;Experiências aleatórias&quot; como controle e a meta da atividade é maximizar o tráfego personalizado**: Se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30% para controle. A compensação aqui é a precisão que você poderá ver em suas informações de lift (já que os intervalos de confiança do tráfego de controle estarão maiores porque há menos tráfego fluindo para eles).
-   * **Experiência específica como controle, com ambos os tipos de metas**: se você quiser comparar uma experiência específica orientada por um profissional de marketing aos modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, o tráfego não é distribuído em cada oferta/experiência na atividade.
+   * **Experiências aleatórias como controle e o objetivo da atividade é testar a eficácia do algoritmo de personalização**: se o objetivo for avaliar o algoritmo de personalização, você desejará ter uma imagem mais precisa do seu aumento. Você também pode querer fazer a comparação de como seria a taxa de conversão de suas experiências/ofertas se simplesmente fizesse um Teste A/B (um controle disponibilizado aleatoriamente). Nessa situação, recomenda-se utilizar uma alocação de 50% para um controle de experiências disponibilizadas aleatoriamente.
+   * **&quot;Experiências aleatórias&quot; como controle e a meta da atividade é maximizar o tráfego personalizado**: se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30% para controle. A compensação aqui é a precisão que você poderá ver em suas informações de lift (já que os intervalos de confiança do tráfego de controle serão maiores, pois há menos tráfego fluindo para eles).
+   * **Experiência específica como controle, com ambos os tipos de metas**: se você quiser comparar uma experiência específica orientada por um profissional de marketing aos modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, o tráfego não é distribuído em cada oferta/experiência da atividade.
 
 * As regras de direcionamento devem ser usadas com toda moderação possível, pois podem interferir na capacidade do modelo de otimizar.
 * Grupos de relatórios podem limitar o sucesso da sua atividade de Personalização automatizada. Eles só devem ser usados sob condições específicas.
@@ -53,7 +53,7 @@ Não há opção completa para comparar a AP a uma experiência padrão. No enta
 
 ## Perguntas frequentes
 
-Consulte as seguintes perguntas frequentes e respostas ao trabalhar com a [!UICONTROL Automated Personalization] atividades:
+Consulte as seguintes perguntas frequentes e respostas ao trabalhar com o [!UICONTROL Automated Personalization] atividades:
 
 ### Quais são alguns limites na personalização automatizada?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
@@ -113,7 +113,7 @@ Revise a configuração da atividade e veja se deseja fazer alguma alteração p
 
 As atividades de Personalização automatizada são avaliadas uma vez por sessão. Se houver sessões ativas que se qualificaram para uma experiência específica e agora novas ofertas foram adicionadas a elas, os usuários verão o novo conteúdo junto com as ofertas exibidas anteriormente. Como elas se qualificaram previamente para essas experiências, eles ainda as veriam durante a sessão. Se houver um desejo de avaliar isso em todas as visitas a uma página única, você deverá mudar para o tipo de atividade de Direcionamento de experiência (XT).
 
-### Posso alterar a métrica de meta até o meio de uma atividade do Automated Personalization? {#change-metric}
+### Posso alterar a métrica de meta durante uma atividade do Automated Personalization? {#change-metric}
 
 Não recomendamos que você altere a métrica de meta durante uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade utilizando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. Não garantimos o que pode acontece se você alterar a métrica de meta em uma atividade após sua execução.
 
@@ -121,12 +121,12 @@ Esta recomendação se aplica às atividades de [!UICONTROL Alocação automáti
 
 ### Posso usar a opção Redefinir dados de relatório ao executar uma atividade do Automated Personalization?
 
-Usar o [!UICONTROL Redefinir dados de relatório] opção para [!UICONTROL Automated Personalization] não é sugerida. Embora remova os dados de relatório visíveis, essa opção não remove todos os registros de treinamento do [!UICONTROL Automated Personalization] modelo. Em vez de usar o [!UICONTROL Redefinir dados de relatório] opção para [!UICONTROL Automated Personalization] , crie uma nova atividade e desative a atividade original. (Observação: Esta orientação também se aplica [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades.)
+Usar o [!UICONTROL Redefinir dados de relatório] opção para [!UICONTROL Automated Personalization] não é sugerido. Embora ela remova os dados do relatório visíveis, essa opção não remove todos os registros de treinamento do [!UICONTROL Automated Personalization] modelo. Em vez de usar o [!UICONTROL Redefinir dados de relatório] opção para [!UICONTROL Automated Personalization] crie uma nova atividade e desative a atividade original. (Nota: Esta orientação também se aplica a [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades.)
 
 ### Como o Automated Personalization constrói modelos em relação aos ambientes?
 
-Um modelo é criado para identificar o desempenho da estratégia personalizada vs. tráfego distribuído aleatoriamente vs. enviar todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
+Um modelo é criado para identificar o desempenho da estratégia personalizada em relação ao tráfego disponibilizado aleatoriamente em relação ao envio de todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
 
-O tráfego de um segundo conjunto de modelos é criado para cada grupo de modelagem (AP) ou experiência (AT). Para cada um desses modelos, as ocorrências e conversões em todos os ambientes são consideradas.
+O tráfego de um segundo conjunto de modelos é criado para cada grupo de modelagem (AP) ou experiência (AT). Para cada um desses modelos, são consideradas ocorrências e conversões em todos os ambientes.
 
-Por conseguinte, os pedidos serão acompanhados do mesmo modelo, independentemente do ambiente, mas a pluralidade do tráfego deverá provir do ambiente de predefinição, a fim de assegurar que a experiência vencedora global identificada seja coerente com o comportamento do mundo real.
+Portanto, os pedidos serão atendidos com o mesmo modelo, independentemente do ambiente, mas a pluralidade do tráfego deve vir do ambiente padrão para garantir que a experiência vencedora geral identificada seja consistente com o comportamento real.

@@ -13,25 +13,25 @@ ht-degree: 93%
 
 # Práticas recomendadas e limitações do Visual Experience Composer
 
-Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Há também outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC) em [!DNL Adobe Target].
+Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Há também outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC) no [!DNL Adobe Target].
 
 Ao seguir essas práticas recomendadas, você tem menos probabilidade de encontrar problemas inesperados com as experiências que projeta.
 
 ## Práticas recomendadas {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Coloque a referência ao at.js na parte superior do `<head>` da sua página.**
+**Coloque a referência at.js na parte superior do `<head>` seção da sua página.**
 
-Se também usar o Serviço de API do visitante, coloque o script de API do visitante acima da at.js.
+Se você também usa o Serviço de API do visitante, coloque o script de API do visitante acima da at.js.
 
 **Você pode ativar/desativar o Enhanced Experience Composer no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.**
 
-Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Administração > Visual Experience Composer]e alterne o interruptor para a posição Ligado.
+Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Administração > Visual Experience Composer]e, em seguida, alterne o switch para a posição Ligado.
 
 Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configurar > URL] e, em seguida, alterne o comutador para a posição Ligado.
 
-**Você pode lista de permissões determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.**
+**Lista de permissões Você pode modificar determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.**
 
-Os problemas ao carregar o Enhanced Visual Experience Composer podem ser resolvidos incluir na lista de permissões os seguintes endereços IP podem ser . Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP incluídos na lista de permissões.
+Problemas ao carregar o Enhanced Visual Experience Composer podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Incluir na lista de permissões Os visitantes do seu site não precisam desses endereços IP resolvidos.
 
 Estados Unidos: 52.55.99.45, 54.80.158.92, and 54.204.197.253
 

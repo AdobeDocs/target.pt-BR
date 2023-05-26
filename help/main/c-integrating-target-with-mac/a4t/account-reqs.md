@@ -1,6 +1,6 @@
 ---
-keywords: Analytics como fonte de relatórios; a4t; A4T; requisitos
-description: Saiba como configurar os requisitos da conta de usuário necessários para criar uma atividade baseada em Adobe Analytics no Adobe [!DNL Target] uso do Analytics para [!DNL Target] (A4T).
+keywords: Analytics como fonte de geração de relatórios;a4t;A4T;requisitos
+description: Saiba como configurar os requisitos da conta de usuário necessários para criar uma atividade do Adobe Analytics no Adobe [!DNL Target] uso do Analytics para [!DNL Target] (A4T).
 title: Quais requisitos de permissão de usuário são necessários para o A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
@@ -38,13 +38,13 @@ Para obter mais informações, consulte [Gerenciar usuários e produtos do Exper
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Para usar o A4T em um determinado conjunto de relatórios, você deve ter acesso a esse conjunto de relatórios e conceder acesso ao [!DNL Web Services Access] grupo.
+Para usar o A4T em um conjunto de relatórios específico, você deve ter acesso a esse conjunto de relatórios e conceder acesso ao [!DNL Web Services Access] grupo.
 
-1. Em **[!UICONTROL Admin Console]**, clique em um [!DNL Analytics] perfil do produto, em seguida, clique no botão **[!UICONTROL Permissões]** guia .
+1. Entrada **[!UICONTROL Admin Console]**, clique em um [!DNL Analytics] perfil do produto e clique no link **[!UICONTROL Permissões]** guia.
 
-   Em seguida, é possível ver a quais conjuntos de relatórios o perfil tem acesso.
+   Você pode ver a quais conjuntos de relatórios o perfil tem acesso.
 
-1. Verifique se o conjunto de relatórios ao qual você deseja ter acesso em [!DNL Target] é uma das listadas no perfil de produto do qual você faz parte.
+1. Verifique se o conjunto de relatórios ao qual você deseja ter acesso está [!DNL Target] O é um dos listados no perfil do produto do qual você faz parte.
 
    A ilustração a seguir é um exemplo de um perfil de produto que tem acesso a todos os conjuntos de relatórios:
 
@@ -52,7 +52,7 @@ Para usar o A4T em um determinado conjunto de relatórios, você deve ter acesso
 
 1. Configure o acesso ao [!UICONTROL Acesso aos serviços da Web] grupo.
 
-   Acesso ao [!UICONTROL Acesso aos serviços da Web] em [!DNL Analytics] é necessário para poder usar [!DNL Analytics] como fonte de relatórios para [!DNL Target].
+   O acesso à [!UICONTROL Acesso aos serviços da Web] agrupar em [!DNL Analytics] é necessário para poder usar [!DNL Analytics] como fonte de relatórios para [!DNL Target].
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

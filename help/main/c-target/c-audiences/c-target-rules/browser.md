@@ -1,7 +1,7 @@
 ---
 keywords: opções do navegador, tipo, tipo do navegador, idioma do navegador, idioma, versão, versão do navegador
 description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
-title: Posso definir metas para visitantes com base no tipo de navegador?
+title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -17,13 +17,13 @@ Você pode direcionar os usuários que utilizam um determinado navegador ou dete
 
 Estes navegadores podem ser direcionados:
 
-* Google Chrome
+* Chrome
 * Firefox
 * Safari
 * Internet Explorer
 * Microsoft Edge
 * Opera
-* iPad 
+* iPad  
 * iPhone|
 
 Há duas formas de direcionar navegadores:
@@ -34,9 +34,9 @@ Há duas formas de direcionar navegadores:
 
       Essa opção direciona a atividade somente a visitantes que usam um navegador especificado.
 
-      ![Direcionar usuários do Chrome](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
+      ![Usuários do Chrome do Target](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-* **Regra do público-alvo personalizado do navegador:** Um público-alvo personalizado permite direcionar vários navegadores ou configurar regras ou exclusões para navegadores específicos, versões de navegadores ou idiomas de navegadores. Essa funcionalidade oferece flexibilidade significativa ao direcionar uma atividade com base em atributos de navegador.
+* **Regra de público-alvo do navegador personalizado:** Um público-alvo personalizado permite direcionar vários navegadores ou configurar regras ou exclusões para navegadores, versões de navegadores ou idiomas específicos. Essa funcionalidade oferece flexibilidade significativa no direcionamento de uma atividade com base em atributos de navegador.
 
    1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
    1. Nomeie o público-alvo e adicione uma descrição opcional.

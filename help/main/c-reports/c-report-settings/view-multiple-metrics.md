@@ -1,7 +1,7 @@
 ---
-keywords: Target, relatórios, configurações de relatório, várias métricas, métricas, métricas mostradas, métricas ocultas
-description: Saiba como selecionar várias métricas para exibir em um relatório usando o Adobe Target.
-title: Como visualizar várias métricas em um relatório?
+keywords: Destino;relatórios;configurações de relatório;várias métricas;métricas;métricas mostradas;métricas ocultas;Target;reports;report settings;multiple metrics;metrics;displayed metrics;hidden metrics
+description: Saiba como selecionar várias métricas para visualizar em um relatório usando o Adobe Target.
+title: Como exibir várias métricas em um relatório?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,14 +13,14 @@ ht-degree: 58%
 
 # Exibir várias métricas em um relatório
 
-Você pode selecionar várias métricas para exibir em uma [!DNL Adobe Target] relatório.
+É possível selecionar várias métricas para visualizar em uma [!DNL Adobe Target] relatório.
 
 Esteja ciente das seguintes informações ao trabalhar com várias métricas nos relatórios:
 
-* A capacidade de exibir várias métricas está disponível para [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md), [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)e [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md) (XT) somente.
-* Não é possível adicionar mais de 20 métricas a um relatório para uma atividade que usa [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Você pode adicionar quantas métricas você tiver em sua atividade aos relatórios de atividades que *not* use A4T.
+* A capacidade de exibir várias métricas está disponível para [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md), [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md), e [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md) (XT) somente atividades do.
+* Não é possível adicionar mais de 20 métricas a um relatório para uma atividade que usa [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). É possível adicionar quantas métricas você tiver em sua atividade aos relatórios para atividades que fazem *não* use o A4T.
 * Se você tiver selecionado várias métricas, não será possível usar a opção [](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)Baixar para baixar os relatórios em CSV. Você deve selecionar uma única métrica apenas para ativar a opção [!UICONTROL Baixar].
-* Não é possível exibir várias métricas de atividades criadas antes de julho de 2015 [!DNL Target] versão (30 de julho de 2015).
+* Não é possível exibir várias métricas para atividades criadas antes de julho de 2015 [!DNL Target] release (30 de julho de 2015).
 
 **Para selecionar várias métricas para exibir no relatório:**
 
@@ -41,15 +41,15 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 
    Deve existir ao menos uma métrica na lista [!UICONTROL Métricas exibidas].
 
-   Você pode reorganizar as métricas arrastando-as e soltando-as na ordem desejada na lista [!UICONTROL Métricas exibidas]. A ordem selecionada será refletida na variável [!UICONTROL Exibição em tabela] e [!UICONTROL Exibição em gráfico]. Para remover uma métrica da lista [!UICONTROL Métricas exibidas], passe o ponteiro do mouse sobre a métrica e clique no ícone **X**.
+   Você pode reorganizar as métricas arrastando-as e soltando-as na ordem desejada na lista [!UICONTROL Métricas exibidas]. A ordem selecionada será refletida na variável [!UICONTROL Exibição de tabela] e [!UICONTROL Exibição em gráfico]. Para remover uma métrica da lista [!UICONTROL Métricas exibidas], passe o ponteiro do mouse sobre a métrica e clique no ícone **X**.
 
 1. Clique em **[!UICONTROL Salvar]** ao concluir.
-1. (Condicional) Ao visualizar o relatório na [!UICONTROL Exibição em tabela], passe o ponteiro do mouse sobre qualquer cabeçalho de coluna de métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
+1. (Condicional) Ao visualizar o relatório no [!UICONTROL Exibição de tabela], passe o mouse sobre o cabeçalho da coluna de qualquer métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir o [!UICONTROL Aumento] e a [!UICONTROL Confiança] para essa métrica.
 
    ![imagem multiple_metrics_table](assets/multiple_metrics_table.png)
 
    Você pode expandir apenas uma métrica/coluna por vez. Clique na seta novamente para recolher as colunas.
 
-1. (Condicional) Ao visualizar o relatório na Visualização de gráfico, você pode selecionar métricas individuais para exibir na lista suspensa:
+1. (Condicional) Ao visualizar o relatório na Exibição em gráfico, você pode selecionar métricas individuais para exibição na lista suspensa:
 
-   ![imagem multiple_metrics_chart](assets/multiple_metrics_graph.png)
+   ![imagem multiple_metrics_graph](assets/multiple_metrics_graph.png)

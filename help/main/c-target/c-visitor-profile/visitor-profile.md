@@ -1,7 +1,7 @@
 ---
 keywords: Visão geral e referência
 description: Saiba mais sobre os perfis de visitantes que contêm informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
-title: O que são perfis de visitantes?
+title: O que são perfis de visitante?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
@@ -13,9 +13,9 @@ ht-degree: 36%
 
 # Perfis do visitante
 
-Perfis de visitante em [!DNL Adobe Target] contém informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
+Perfis do visitante em [!DNL Adobe Target] contém informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
 
-If [!DNL Target] é usada com outros [!DNL Adobe Experience Cloud] , como [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] O compartilha informações do visitante em todas as soluções.
+Se [!DNL Target] é usado com outro [!DNL Adobe Experience Cloud] soluções, como [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] O compartilha informações de visitantes em soluções.
 
 Por padrão, [!DNL Target] as informações do perfil são armazenadas em um único cookie primário. A configuração pode ser facilmente alterada para enviar cookies de terceiros também.
 

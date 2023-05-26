@@ -1,7 +1,7 @@
 ---
 keywords: público-alvo; selecionar público-alvo; escolher público-alvo; Seletores
-description: O público-alvo determina quais visitantes do site são inseridos no Adobe [!DNL Target] atividade .
-title: Como seleciono um público-alvo em uma [!DNL Target] Atividade A/B?
+description: O público-alvo determina quais visitantes do site são inseridos no Adobe [!DNL Target] atividade.
+title: Como selecionar um público-alvo em uma [!DNL Target] Atividade A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # Seleção do público-alvo
 
-O público-alvo determina quais visitantes do site são inseridos no [!DNL Adobe Target] atividade .
+O público-alvo determina quais visitantes do site são inseridos no [!DNL Adobe Target] atividade.
 
 >[!NOTE]
 >

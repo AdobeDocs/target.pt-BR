@@ -1,7 +1,7 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo
 description: Saiba como criar públicos-alvo personalizados e salvá-los na [!DNL Adobe Target] [!UICONTROL Públicos-alvo] biblioteca para uso em atividades.
-title: Como Criar Públicos-Alvo?
+title: Como Construir Públicos?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
@@ -13,13 +13,13 @@ ht-degree: 56%
 
 # Criar públicos-alvo no [!DNL Target]
 
-Você pode criar públicos-alvo personalizados e salvá-los na [!DNL Adobe Target] [!UICONTROL Públicos-alvo] biblioteca para uso em suas atividades. Você também pode copiar um público-alvo existente que pode ser editado para criar um público-alvo semelhante e combinar vários públicos-alvo.
+Você pode criar públicos-alvo personalizados e salvá-los na [!DNL Adobe Target] [!UICONTROL Públicos-alvo] para uso em suas atividades. Você também pode copiar um público-alvo existente que poderá editar para criar um público-alvo semelhante e combinar vários públicos-alvo.
 
 ## Visão geral do público
 
 Os públicos-alvo são definidos por regras que determinam quem está incluso ou foi excluído de uma atividade no [!DNL Target]. A definição de um público-alvo pode incluir várias regras e cada regra pode incluir vários parâmetros. Definições complexas de público-alvo usam os operadores booleanos E e OU para combinar regras e parâmetros para que você tenha controle detalhado sobre quais visitantes do site sejam contados como participantes da atividade.
 
-Quando você combina regras ou parâmetros com AND, qualquer membro em potencial do público-alvo deve atender *all* As condições definidas a incluir como participante. Por exemplo, se você definir uma regra de sistema operacional e uma regra de navegador com E, somente visitantes usando o sistema operacional *e* o navegador definidos serão incluídos na atividade.
+Quando você combina regras ou parâmetros com AND, qualquer membro em potencial do público-alvo deve atender *all* condições definidas para serem incluídas como um participante. Por exemplo, se você definir uma regra de sistema operacional e uma regra de navegador com E, somente visitantes usando o sistema operacional *e* o navegador definidos serão incluídos na atividade.
 
 Quando você combina regras e parâmetros com OU, qualquer membro em potencial do público-alvo só precisa atender uma única condição definida para ser incluído como participante. Por exemplo, se você definir várias regras móveis conectadas por OU, visitantes que atendam *qualquer* dos critérios definidos são incluídos na atividade.
 
@@ -39,23 +39,23 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
    ![imagem audiences_list](assets/audiences_list.png)
 
-1. No [!UICONTROL Públicos-alvo] listar, clique em **[!UICONTROL Criar público-alvo]**.
+1. No [!UICONTROL Públicos-alvo] clique em **[!UICONTROL Criar público-alvo]**.
 
    Ou
 
-   Para copiar um público-alvo existente, no [!UICONTROL Públicos-alvo] clique no botão **[!UICONTROL Mais ações]** ícone (o ícone de reticências) e clique em **[!UICONTROL Duplicar]**. Você pode editar o público-alvo para criar um público-alvo semelhante.
+   Para copiar um público-alvo existente, da variável [!UICONTROL Públicos-alvo] clique na guia **[!UICONTROL Mais ações]** (o ícone de reticências) e clique em **[!UICONTROL Duplicar]**. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo e exclusivo e uma descrição opcional.
 
-   Os nomes de público-alvo não podem começar com os seguintes caracteres:
+   Os nomes de públicos-alvo não podem começar com os seguintes caracteres:
 
    `=  +  -  !  @`
 
-   Os nomes de público-alvo não podem conter nenhuma das seguintes sequências de caracteres:
+   Os nomes de públicos-alvo não podem conter nenhuma das sequências de caracteres a seguir:
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Arraste e solte os atributos desejados da **[!UICONTROL Atributos]** lista à direita do painel do construtor de público-alvo.
+1. Arraste e solte os atributos desejados da **[!UICONTROL Atributos]** à direita do painel do audience builder.
 
    ![Arrastar e soltar atributos](assets/drag-attribute.png)
 
@@ -63,13 +63,13 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
 1. Defina os parâmetros da regra.
 
-   Por exemplo, o seguinte público-alvo é direcionado a visitantes de Utah usando o sistema operacional Macintosh.
+   Por exemplo, o público-alvo a seguir é direcionado a visitantes de Utah que usam o sistema operacional Macintosh.
 
-   ![Público-alvo de Utah/Macintosh](assets/adience-builder.png)
+   ![Público de Utah/Macintosh](assets/adience-builder.png)
 
-1. (Condicional) Continue adicionando e definindo os atributos desejados.
+1. (Condicional) Continue a adicionar e definir os atributos desejados.
 
-   Para criar outro contêiner, clique em **[!UICONTROL Adicionar contêiner]** ou simplesmente arraste outro atributo para o painel do Audience Builder. Em seguida, é possível ajustar o operador (E ou OU) usando a lista suspensa.
+   Para criar outro container, clique em **[!UICONTROL Adicionar contêiner]** ou simplesmente arraste outro atributo para o painel do Audience Builder. Em seguida, você pode ajustar o operador (AND ou OR) usando a lista suspensa.
 
 1. Clique em **[!UICONTROL Concluído]**.
 

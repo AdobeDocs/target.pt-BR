@@ -23,13 +23,13 @@ As seções a seguir contêm problemas que podem ser encontrados com as soluçõ
 
 ## Criei uma atividade usando a interface do [!DNL Target] e não consigo atualizá-la por meio da API.
 
-Atividades criadas usando o [!DNL Target] A interface do usuário deve ser atualizada por meio do [!DNL Target] IU. As atividades criadas por meio da API devem ser atualizadas por meio da API. Por exemplo, se você criar uma atividade originalmente usando a API, mas depois editar a atividade por meio do [!DNL Target] IU, nem todas as alterações são atualizadas. Todas as alterações são armazenadas no back-end e podem ser atualizadas fazendo outra chamada de API.
+Atividades criadas usando o [!DNL Target] A interface do usuário deve ser atualizada por meio da [!DNL Target] IU. As atividades criadas por meio da API devem ser atualizadas por meio da API. Se originalmente você criar uma atividade usando a API, por exemplo, mas posteriormente editar a atividade por meio da variável [!DNL Target] Interface do usuário do, nem todas as alterações são atualizadas. Todas as alterações são armazenadas no back-end e podem ser atualizadas fazendo outra chamada de API.
 
 Como prática recomendada, tente atualizar a atividade usando o mesmo método (interface do usuário ou API) usado para criar a atividade originalmente.
 
 ## Você está vendo conteúdo padrão.
 
-Certifique-se de que a atividade esteja concluída e tenha sido ativada.
+Verifique se a atividade foi concluída e ativada.
 
 ## O teste não está ativado.
 
@@ -40,7 +40,7 @@ Certifique-se de que a atividade esteja concluída e tenha sido ativada.
 * Ative o teste.
 * Use os links de visualização para exibir o teste inativo.
 
-## Você não se qualifica para as condições de direcionamento de público-alvo.
+## Você não está qualificado para as condições de direcionamento de público-alvo.
 
 **Validar:** examine as condições de direcionamento na página de visão geral.
 
@@ -55,7 +55,7 @@ Certifique-se de que a atividade esteja concluída e tenha sido ativada.
 
 **Opções:**
 
-* Vá para o [!UICONTROL Visual Experience Composer], clique em URL > Avançado > página atual.
+* Vá para a [!UICONTROL Visual Experience Composer], clique em URL > Avançado > página atual.
 
 ## Uma experiência anterior é exibida, em vez da nova experiência.
 
@@ -73,10 +73,10 @@ Certifique-se de que a atividade esteja concluída e tenha sido ativada.
 
 **Opções:**
 
-Depois de ser adicionado como usuário no [!DNL Target], você precisa ter a variável [!UICONTROL Aprovador] para criar atividades.
+Depois de ser adicionado como usuário no [!DNL Target], você precisa ter a [!UICONTROL Aprovador] para criar atividades.
 
-* Peça ao Administrador da sua conta para torná-lo um aprovador.
-* Se você for o administrador, dê a si mesmo a [!UICONTROL Aprovador] função de **[!UICONTROL Administração]** > **[!UICONTROL Usuários]** em [!DNL Target].
+* Peça ao administrador da sua conta para torná-lo um aprovador.
+* Se você for o administrador, forneça a si mesmo a [!UICONTROL Aprovador] função de **[!UICONTROL Administração]** > **[!UICONTROL Usuários]** in [!DNL Target].
 
    Consulte [Atribuir a função de aprovador a si próprio](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -88,20 +88,20 @@ Depois de ser adicionado como usuário no [!DNL Target], você precisa ter a var
 
 * Recrie a atividade.
 
-Para obter mais informações sobre como as modificações de página afetam [!DNL Target]A capacidade de exibição do para ver [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obter mais informações sobre como as modificações da página afetam [!DNL Target]para exibir, consulte [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## A estrutura da página é modificada durante seu carregamento (em tempo de execução).
 
 **Validar:** pergunte ao desenvolvedor.
 
-**Observação:** Para [!DNL Target] para reconhecer onde as alterações de atividade devem ser aplicadas, evite inserir dinamicamente um elemento com a mesma classe ou modificar dinamicamente a classe de quaisquer irmãos.
+**Nota:** A fim de [!DNL Target] para reconhecer onde as alterações na atividade devem ser aplicadas, evite inserir dinamicamente um elemento com a mesma classe ou modificar dinamicamente a classe de qualquer irmão.
 
 **Opções:**
 
-* Atualize o código de página para identificar exclusivamente cada elemento que está sendo testado (usando uma id).
+* Atualize o código de página para identificar exclusivamente cada elemento testado (usando uma id).
 * Interrompa a modificação dinâmica da classe ou seus irmãos, conforme descrito acima.
 
-Para obter mais informações sobre como as modificações de página afetam [!DNL Target]A capacidade de exibição do para ver [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Para obter mais informações sobre como as modificações da página afetam [!DNL Target]para exibir, consulte [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Outras atividades estão em execução na mesma página.
 
@@ -124,18 +124,18 @@ Para obter mais informações sobre como as modificações de página afetam [!D
 Faça uma das seguintes opções:
 
 * Exclua o script de perfil novamente. A mensagem de sucesso é exibida.
-* Aguarde cerca de 10 minutos para a [!DNL Target] importador a ser executado. O importador atualiza a lista de scripts de perfil.
+* Aguarde cerca de 10 minutos para o [!DNL Target] importador a ser executado. O importador atualiza a lista de scripts de perfil.
 
 ## Algumas chamadas ajax do [!DNL Target] não estão funcionando.
 
-**Observação:** Múltiplo ajax [!DNL Target] chamadas com o mesmo nome, mas parâmetros diferentes, não funcionam na mesma página. Somente a primeira chamada é feita.
+**Nota:** Múltiplo ajax [!DNL Target] O chama com o mesmo nome, mas diferentes parâmetros, não funciona na mesma página. Somente a primeira chamada é feita.
 
 ## Você ativou uma atividade usando a API do [!DNL Target], mas a atividade mostra um status de [!UICONTROL Inativo] na interface do [!DNL Target].
 
-Quando você executa determinadas ações, como ativar uma atividade fora da interface do usuário usando o [!DNL Target] A API pode levar até dez minutos para se propagar para a interface do usuário.
+Ao executar determinadas ações, como ativar uma atividade fora da interface usando o [!DNL Target] , a atualização pode levar até dez minutos para se propagar para a interface do usuário.
 
 ## Após a conversão da atividade, o visitante não está em nenhuma experiência.
 
-Em casos raros, se a métrica de conversão da atividade para se qualificar para uma experiência for enviada na mesma solicitação que a qualificação de atividade, o visitante pode não estar em nenhuma experiência depois que a solicitação é enviada. Nessa situação, o visitante vê o conteúdo padrão e a ID da experiência capturada pelos tokens como -1. [!DNL Adobe] não recomenda enviar qualificação de atividade e conversão na mesma [!DNL Target] solicitação.
+Em casos raros, se a métrica de conversão da atividade para se qualificar para uma experiência for enviada na mesma solicitação que a qualificação de atividade, o visitante pode não estar em nenhuma experiência após o envio da solicitação. Nessa situação, o visitante vê o conteúdo padrão e a ID de experiência capturada por tokens seria -1. [!DNL Adobe] não recomenda enviar a atividade de qualificação e conversão na mesma [!DNL Target] solicitação.
 
-Se você deseja enviar ambas as métricas na mesma solicitação, é possível usar [!UICONTROL Configurações avançadas] para especificar que o visitante permaneça na mesma experiência após a conversão.
+Se quiser enviar ambas as métricas na mesma solicitação, use [!UICONTROL Configurações avançadas] para especificar que o visitante permaneça na mesma experiência após a conversão.

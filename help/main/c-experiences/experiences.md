@@ -1,6 +1,6 @@
 ---
-keywords: experiência, visual experience composer, enhanced experience composer, experience composer baseado em formulário, composer de formulário, visual composer, experience composer, conteúdo misto, iframe, edição do iframe, editar iframe, x-frame-options, opções do x frame, origem cruzada, problemas de origem cruzada, fluxo de trabalho de autenticação
-description: Saiba mais sobre os Adobe Experience Composers - Visual Experience Composer (VEC), Experience Composer baseado em formulário e o Visual Experience Composer de página única.
+keywords: experiência;visual experience composer;enhanced experience composer;experience composer baseado em formulário;formulário composer;visual composer;experience composer;conteúdo misto;iframe;edição do iframe;editar iframe;x-frame-options;opções do x frame;origem cruzada;problemas de origem cruzada;fluxo de trabalho de autenticação
+description: Saiba mais sobre o Adobe Experience Composers - Visual Experience Composer (VEC), o Experience Composer baseado em formulário e o Visual Experience Composer de página única.
 title: Quais Experience Composers Fazem [!DNL Target] Oferta?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Experiências e ofertas
 
-Uma experiência em [!DNL Adobe Target] determina qual conteúdo é exibido quando o visitante atende aos critérios de público-alvo de uma atividade.
+Uma experiência no [!DNL Adobe Target] determina qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 
 Uma experiência pode ser uma oferta, imagem, texto, botão, vídeo, combinação desses vários elementos em uma página, uma página da Web inteira ou um conjunto de páginas que talvez forme um funil de compra ou alguma outra sequência lógica de páginas. Também pode ser a resposta de um assistente de voz, um script de atendimento ao cliente ou até mesmo um sabor personalizado de uma máquina bebidas. Teste ou personalize experiências nas atividades do [!DNL Target].
 

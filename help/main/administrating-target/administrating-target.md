@@ -1,6 +1,6 @@
 ---
-keywords: configuração, configuração, configuração, configuração, configuração, administração
-description: Configure o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configuração do Scene7, gerenciamento de hosts e tokens de resposta.
+keywords: configuração;configurar;configurar;configurar;administração;setting;setup;set-up;set up;administration
+description: Configurar o Adobe Target, incluindo preferências, implementação, gerenciamento de usuários, propriedades, configuração do Scene7, gerenciamento de hosts e tokens de resposta.
 title: Como Administrar O Target?
 feature: Administration & Configuration
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Administrar [!DNL Target] Visão geral
 
-Informações para ajudá-lo a administrar [!DNL Adobe Target], incluindo configurações para o Visual Experience Composer (VEC), relatórios, configuração do Scene7, implementação, hosts, ambientes, tokens de resposta e usuários.
+Informações para ajudar a administrar o [!DNL Adobe Target], incluindo configurações para o Visual Experience Composer (VEC), relatórios, configuração do Scene7, implementação, hosts, ambientes, tokens de resposta e usuários.
 
 Para acessar o [!UICONTROL Administração] itens de menu, clique em **[!UICONTROL Administração]** na barra de menu superior, em seguida, clique na guia desejada no lado esquerdo:
 

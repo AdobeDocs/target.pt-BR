@@ -1,7 +1,7 @@
 ---
-keywords: url da atividade, url, url diferente
-description: Saiba como especificar o URL da atividade que determina a página que é usada no teste e que é aberta quando o teste é criado usando o Adobe Target.
-title: O que é o URL da atividade em uma atividade A/B?
+keywords: url da atividade;url;url diferente
+description: Saiba como especificar o URL da atividade que determina a página usada no teste e que é aberta quando o teste é criado usando o Adobe Target.
+title: Qual é o URL da atividade em uma atividade A/B?
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -23,7 +23,7 @@ Quando solicitado durante a criação da atividade, especifique o URL da ativida
 
 ## Especificar um URL diferente
 
-Por padrão, a variável [!UICONTROL Visual Experience Composer] abre a página especificada em [Configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
+Por padrão, a variável [!UICONTROL Visual Experience Composer] abre a página especificada no [Configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 . Você pode especificar uma página diferente durante a criação da atividade.
 
 Para exibir uma página diferente depois que o [!UICONTROL Visual Experience Composer] é aberto, clique no ícone de engrenagem **[!UICONTROL Configurar]** e selecione **[!UICONTROL Entrega da página]**. Insira o URL no campo URL da atividade.

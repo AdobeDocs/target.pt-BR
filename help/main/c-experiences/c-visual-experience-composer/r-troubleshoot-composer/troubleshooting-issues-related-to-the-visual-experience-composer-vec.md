@@ -1,7 +1,7 @@
 ---
-keywords: Direcionamento, visual experience composer, vec, solucionar problemas do visual experience composer, solução de problemas, tls, tls 1.2
-description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Visual Experience Composer (VEC) sob determinadas condições.
-title: Como soluciono problemas relacionados ao Visual Experience Composer?
+keywords: Direcionamento;visual experience composer;vec;solucionar problemas do visual experience composer;solução de problemas;tls;tls 1.2
+description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DNL Target] Visual Experience Composer (VEC) do sob determinadas condições.
+title: Como solucionar problemas relacionados ao Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) em determinadas condições.
 
-## Quando abro meu site no Visual Experience Composer, o [!DNL Target] As bibliotecas não são carregadas. (Somente VEC)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando abro meu site no Visual Experience Composer, a variável [!DNL Target] As bibliotecas do não carregam. (Somente VEC)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 O Target adiciona dois parâmetros (`mboxEdit=1` e `mboxDisable=1`) ao abrir o site no Visual Experience Composer.
 
@@ -32,7 +32,7 @@ Vários problemas podem afetar o desempenho da página nos compositores de exper
 
 Se ocorrerem problemas no Enhanced Experience Composer, tente desativá-lo e usar o Visual Experience Composer.
 
-Para desativar o Enhanced Experience Composer, acesse **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e desligue o **[!UICONTROL Ativar o Enhanced Experience Composer]** opção.
+Para desativar o Enhanced Experience Composer, acesse **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e desative o **[!UICONTROL Ativar o Enhanced Experience Composer]** opção.
 
 Alguns usuários veem a seguinte mensagem de erro no console:
 
@@ -87,7 +87,7 @@ Se nem o Visual Experience Composer nem o Enhanced Experience Composer funcionar
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-   ![imagem solicitada](assets/requestly.png)
+   ![imagem requestly](assets/requestly.png)
 
    Agora, você deve conseguir carregar a página rapidamente com o Visual Experience Composer.
 
@@ -115,16 +115,16 @@ Depois de configurar uma extensão, abra o Target. Suas páginas devem ser carre
 * Você inseriu um URL inválido.
 * Você não inseriu um URL padrão na sua página de configuração de conta.
 
-   Certifique-se de que essa configuração esteja ativada, baixe e atualize a at.js no site.
+   Certifique-se de que essa configuração esteja ativada, baixe e atualize o at.js no site.
 
-* Se você tentar usar a variável [novo [!UICONTROL Auxiliar de edição visual] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) e voltar para a [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] falha ao carregar seu site, apague todos os dados do navegador e desative a nova extensão.
+* Se você tentar usar o [novo [!UICONTROL Auxiliar de edição visual] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) e volte para a guia [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] falha ao carregar seu site, apagar todos os dados do navegador e desativar a nova extensão.
 
-* Se o seu site não carregar no VEC ou se comportar inesperadamente, uma possível correção é aceitar cookies no seu site no navegador antes de tentar carregar o site na [!DNL Target].
+* Se o site falhar ao carregar no VEC ou se comportar inesperadamente, uma possível correção é aceitar cookies em seu site no navegador antes de tentar carregar o site no [!DNL Target].
 
 ## O VEC aparece interrompido quando uso o modo de navegação. (Somente VEC)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Ao usar o modo de navegação, se você acessar um URL que não tem [!DNL Target] bibliotecas implementadas ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) ou contiver um cabeçalho frame-buster, o VEC aparecerá quebrado. Devido a questões de segurança do navegador, [!DNL Target] O não pode acessar corretamente o URL para o qual você navegou ou o URL do VEC não é atualizado consistentemente se a página for carregada.
+Ao usar o modo de navegação, se você acessar um URL que não tenha [!DNL Target] bibliotecas implementadas ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) ou contém um cabeçalho frame-buster, o VEC parece quebrado. Devido a preocupações com a segurança do navegador, [!DNL Target] O não pode acessar corretamente o URL para o qual você navegou ou o URL do VEC não é atualizado de forma consistente se a página for carregada.
 
-Esse problema ocorre porque o VEC carrega a página da Web em uma `<iframe>`. Os mecanismos de segurança atuais dos navegadores impedem a [!DNL Target] A interface do usuário de acessar os elementos de um quadro específico por causa da política de mesma origem. Os navegadores bloqueiam scripts tentando acessar um quadro com uma origem diferente e que inclui informações como `location.href`.
+Esse problema ocorre porque o VEC carrega a página da Web em uma `<iframe>`. Os mecanismos de segurança atuais dos navegadores impedem que [!DNL Target] Impedir a interface de acessar os elementos do quadro fornecido devido à política de mesma origem. Os navegadores bloqueiam scripts que tentam acessar um quadro com uma origem diferente e que inclui informações como `location.href`.
 
-Você deve usar o novo [Extensão do Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (recomendado) ou o [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para injetar a [!DNL Target] biblioteca nas páginas para navegá-las de maneira ideal.
+Você deve usar o novo [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (recomendado) ou o [extensão antiga](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para injetar o [!DNL Target] nas páginas para navegá-las de maneira ideal.

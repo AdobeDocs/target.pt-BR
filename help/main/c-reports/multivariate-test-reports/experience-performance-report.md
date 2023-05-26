@@ -1,7 +1,7 @@
 ---
 keywords: teste multivariado, mvt, relatório de desempenho da experiência
-description: Saiba como usar o Relatório de desempenho da experiência no Adobe [!DNL Target] Atividades de Direcionamento de experiência que mostram o desempenho de cada experiência na atividade.
-title: Como uso o Relatório de desempenho da experiência para testes multivariados?
+description: Saiba como usar o relatório de desempenho da experiência para o Adobe [!DNL Target] Atividades de Direcionamento de experiência que mostram como ocorre cada experiência da atividade.
+title: Como usar o relatório de desempenho da experiência para testes multivariados?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917

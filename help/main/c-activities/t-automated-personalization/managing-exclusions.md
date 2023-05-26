@@ -1,7 +1,7 @@
 ---
-keywords: dedupe; permitir duplicatas; excluir ofertas duplicadas; personalização automatizada; não permitir ofertas duplicadas; excluir; conteúdo padrão; grupo de exclusão;
+keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;grupo de exclusão;
 description: Gerenciar exclusões no Adobe [!DNL Target] Atividades do Automated Personalization (AP). Crie grupos de exclusão e exclua ofertas duplicadas, experiências específicas e conteúdo padrão.
-title: Como gerencio exclusões nas atividades do Automated Personalization?
+title: Como gerenciar exclusões nas atividades do Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # Gerenciar exclusões
 
-Gerencie exclusões criando grupos de exclusão, excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão em [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
+Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão no [!UICONTROL Automated Personalization] (AP) atividades no [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) atividades.
 
 ## Criar grupos de exclusão {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -99,7 +99,7 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
 **Para excluir o conteúdo padrão usando o Visual Experience Composer (VEC):**
 
-1. Ao [criação ou edição de uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique em para acessar **[!UICONTROL Alterar texto/HTML]**, **[!UICONTROL Alterar imagem]** ou **[!UICONTROL Alterar cor do fundo]**.
+1. Enquanto [criação ou edição de uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique em para acessar **[!UICONTROL Alterar texto/HTML]**, **[!UICONTROL Alterar imagem]** ou **[!UICONTROL Alterar cor de fundo]**.
 1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **Incluir** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela de Conteúdo selecionado).
 
    Dependendo do tipo de conteúdo/oferta, a caixa de seleção [!UICONTROL Incluir] fica em um local diferente.

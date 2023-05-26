@@ -22,7 +22,7 @@ Use a linguagem de design de código aberto do Velocity para personalizar design
 
 Toda a lógica, sintaxe etc. da Velocity podem ser usados para um design de recomendação. Isso quer dizer que é possível criar *para* loops, instruções *se* e outros códigos usando Velocity em vez de JavaScript.
 
-Atributos da entidade enviados para [!DNL Recommendations] no `productPage` mbox ou o upload de CSV podem ser exibidos em um design, com exceção dos atributos de &quot;vários valores&quot;. Qualquer tipo de atributo pode ser enviado; contudo, [!DNL Target] não transmite atributos do tipo &quot;vários valores&quot; como uma matriz sobre a qual um modelo pode iterar (por exemplo, `entityN.categoriesList`).
+Atributos de entidade enviados para [!DNL Recommendations] no `productPage` O upload da mbox ou do CSV pode ser exibido em um design, com exceção dos atributos de &quot;valores múltiplos&quot;. Qualquer tipo de atributo pode ser enviado; no entanto, [!DNL Target] não passa atributos do tipo &quot;multi-value&quot; como uma matriz sobre a qual um template pode iterar (por exemplo `entityN.categoriesList`).
 
 Esses valores são referenciados com a seguinte sintaxe:
 
@@ -30,16 +30,16 @@ Esses valores são referenciados com a seguinte sintaxe:
 $entityN.variable
 ```
 
-Os nomes de atributos da entidade devem seguir a notação taquigrafada da Velocity, que consiste em um *$* , seguido por um identificador da Linguagem de modelo da Velocity (VTL). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
+Os nomes dos atributos de entidade devem seguir a notação abreviada Velocity, que consiste em uma entrelinha *$* seguida de um identificador VTL (Velocity Template Language). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
 
-Os nomes de atributos da entidade Velocity estão restritos aos seguintes tipos de caracteres:
+Os nomes dos atributos de entidade do Velocity estão restritos aos seguintes tipos de caracteres:
 
 * Alfabético (a-z, A-Z)
 * Numérico (0-9)
 * Hífen ( - )
 * Sublinhado ( _ )
 
-Os atributos a seguir estão disponíveis como arrays Velocity. Como tal, eles podem ser iterados ou referenciados por meio do índice.
+Os seguintes atributos estão disponíveis como arrays Velocity. Como tal, eles podem ser iterados ou referenciados por meio do índice.
 
 * `entities`
 * `entityN.categoriesList`
@@ -62,7 +62,7 @@ $entities[0].categoriesList[2]
 
 Para obter mais informações sobre as variáveis do Velocity (atributos), consulte [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Se você usar um script de perfil em seu design, o $ precedente ao nome do script deverá ser evitado com um `\` (barra invertida). Por exemplo:
+Se você usar um script de perfil em seu design, o $ precedente ao nome do script deve ser evitado com um `\` (barra invertida). Por exemplo:
 
 `\${user.script_name}`
 
@@ -123,9 +123,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Se desejar adicionar texto após o valor de um atributo antes da conclusão de uma tag que indica que o nome do atributo foi concluído, faça isso usando a notação formal para inserir o nome do atributo. Por exemplo: `${entity1.thumbnailUrl}.gif`.
+>Se quiser adicionar texto após o valor de um atributo antes de uma tag que indica o término do nome do atributo, você poderá usar uma notação formal para delimitar o nome do atributo. Por exemplo: `${entity1.thumbnailUrl}.gif`.
 
-Você também pode usar `algorithm.name` e `algorithm.dayCount` como atributos de entidade nos designs, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido dinamicamente no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar esses atributos para exibir o `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
+Também é possível usar `algorithm.name` e `algorithm.dayCount` como atributos de entidade em designs, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido dinamicamente no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar esses atributos para exibir a variável `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
 
 ## Trabalhar com números em modelos do Velocity
 

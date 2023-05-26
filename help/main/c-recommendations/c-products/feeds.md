@@ -1,7 +1,7 @@
 ---
-keywords: feed do recommendations, feed, SAINT, ftp, csv, classificações, classificações do analytics
-description: Saiba como os feeds importam entidades no Adobe [!DNL Target] Recommendations usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Analytics.
-title: Como faço para usar os feeds em [!DNL Target] Recommendations?
+keywords: recommendations feed;feed;SAINT;ftp;csv;classificações;análises classificações
+description: Saiba como os feeds importam entidades para o Adobe [!DNL Target] Recommendations usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Analytics.
+title: Como usar feeds no [!DNL Target] Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
@@ -20,7 +20,7 @@ Use os feeds para importar entidades no [!DNL Adobe Target Recommendations]. As 
 
 Os feeds permitem passar [Entidades](/help/main/c-recommendations/c-products/products.md) ou aumentar seus dados de mbox com informações que ou não estão disponíveis na página, ou não são seguras para serem enviadas diretamente da página, como margem, COGS e outros.
 
-Os feeds permitem que você passe informações detalhadas do item para [!DNL Recommendations], como ID do produto, categoria, nome, mensagem e outros atributos.
+Os feeds permitem passar informações detalhadas do item para o [!DNL Recommendations], como ID do produto, categoria, nome, mensagem e outros atributos.
 
 Você pode escolher quais colunas do seu arquivo de classificações do produto [!DNL Target] ou do arquivo do Google Product Search você deseja enviar para o servidor [!DNL Recommendations].
 
@@ -29,9 +29,9 @@ Esses dados sobre cada item podem ser usados para:
 * Exibir valores em designs
 * Definir regras de inclusão de critérios
 * Classificar itens em diferentes coleções
-* Aplicar exclusões a recomendações
+* Aplicar exclusões às recomendações
 
-As descrições de item podem ser passadas para [!DNL Target] uso de feeds ou mboxes. Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
+As descrições de item podem ser passadas para [!DNL Target] usando feeds ou mboxes. Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
 
 A lista [!UICONTROL Feeds] (**[!UICONTROL Recomendações]** > **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
 
@@ -50,8 +50,8 @@ A página Feeds contém as seguintes colunas:
 >
 >As entidades e os atributos de entidade carregados expiram após 61 dias. Isso significa o seguinte:
 >
->* Seu feed deve ser executado pelo menos mensalmente para garantir que o conteúdo do catálogo não expire.
->* Remover um item do seu arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da interface do usuário do Target ou da API. Ou modifique os atributos do item (como inventário) para garantir que o item seja excluído da consideração.
+>* O feed deve ser executado pelo menos uma vez por mês para garantir que o conteúdo do catálogo não expire.
+>* Remover um item do seu arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da interface ou da API do Target. Ou modifique os atributos do item (como inventário) para garantir que o item seja excluído da consideração.
 
 
 ## Tipos de origem
@@ -118,7 +118,7 @@ Se você tiver um feed do produto Google existente, poderá usá-lo como arquivo
 >
 >Não é necessário utilizar dados do Google. O [!DNL Recommendations] utiliza o mesmo formato que o Google. Você pode usar este método para atualizar qualquer dado que possua e usar os recursos de programação disponíveis. No entanto, você dever manter os nomes predefinidos dos atributos do Google ao configurar o arquivo.
 
-Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Os feeds de entidade podem ser enviados para [!DNL Recommendations] via .xml, .txt ou .tsv, e pode usar o [atributos definidos pelo Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
+Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Os feeds de entidade podem ser enviados para [!DNL Recommendations] via .xml, .txt ou .tsv e podem usar o [atributos definidos pelo Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -209,16 +209,16 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificações do produto Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto Analytics é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no *Componentes do Analytics* guia. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto Analytics é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre as classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no *Componentes do Analytics* guia. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
->Antes de importar os dados da entidade para [!DNL Recommendations] ao usar as classificações de produtos do Analytics, esteja ciente de que esse não é o método preferido.
+>Antes de importar dados de entidade para [!DNL Recommendations] ao usar as classificações de produto do Analytics, esteja ciente de que esse não é o método preferido.
 >
 > Esteja ciente dos seguintes avisos:
 >
 >* As atualizações para os atributos da entidade têm um atraso adicional de até 24 horas.
->* [!DNL Target] O suporta somente Classificações de produto . O SKU do produto Analytics deve mapear no mesmo nível que a [!DNL Recommendations] `entity.id`. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
+>* [!DNL Target] O oferece suporte somente às Classificações de produto. O SKU do produto Analytics deve mapear no mesmo nível que a variável [!DNL Recommendations] `entity.id`. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
 
 
 ## Criar feed {#steps}
@@ -236,7 +236,7 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
    * Feed do produto Google
    * Classificações do Analytics
 
-   Para obter informações sobre os tipos de feed CSV e Feed do produto Google, consulte [Visão geral dos feeds](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Você também pode [baixar um guia CSV de modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
+   Para obter informações sobre os tipos de feed CSV e Feed do produto Google, consulte [Visão geral dos feeds](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Também é possível [baixar um guia CSV de modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
 
 1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou **[!UICONTROL Feed do produto Google]**, especifique o local em que o feed pode ser acessado.
 
@@ -309,7 +309,7 @@ Para atualizar um feed (por exemplo, para fazer alterações na sua configuraç�
 
 >[!IMPORTANT]
 >
->As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades de recomendações. Se um item não estiver incluído em um arquivo de feed (ou outro método de atualização de entidade) pelo menos uma vez a cada 60 dias, [!DNL Adobe Target] infere que o item não é mais relevante e o remove do catálogo.
+>As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades de recomendações. Se um item não estiver incluído em um arquivo de feed (ou em outro método de atualização de entidade) pelo menos uma vez a cada 60 dias, [!DNL Adobe Target] infere que o item não é mais relevante e o remove do catálogo.
 
 ### Indicadores de status do feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 

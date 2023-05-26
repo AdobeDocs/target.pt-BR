@@ -1,5 +1,5 @@
 ---
-keywords: solução de problemas do target, solução de problemas do target, resolver problemas
+keywords: solucionar problemas;solução de problemas;resolver problemas;troubleshoot target;troubleshooting target;resolve issues
 description: Veja uma lista de tópicos para ajudar você a resolver problemas no Adobe Target, inclusive tópicos de solução de problemas, perguntas frequentes e outros tópicos úteis.
 title: Como solucionar problemas do Target?
 feature: Troubleshooting
@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -119,7 +119,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 * [Perguntas frequentes sobre a at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
 * [Depuração da at.js usando o Adobe Experience Cloud Debugger ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [Detalhes da versão da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [Detalhes da versão da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 
 ## Aplicativos para dispositivos móveis
@@ -137,7 +137,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Segurança
 
-* [Diretivas da Política de segurança de conteúdo (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [Diretivas da Política de segurança de conteúdo (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=pt-BR)
 
 ## Status do sistema
 

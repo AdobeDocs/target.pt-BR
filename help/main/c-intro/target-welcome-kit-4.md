@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # Capítulo 4: dicas para usar o Target
 
-Baseado em nosso trabalho com muitos [!DNL Target] , observamos maneiras de obter mais valor de seus [!DNL Target] solução. Resumimos isso nas muitas dicas que incluímos neste capítulo. Embora talvez você não esteja pronto para usar todas essas ideias imediatamente, lembre-se dessa lista. Quanto mais experiência você tiver com a solução e quanto mais seu programa amadurecer, mais você verá como essas dicas podem ajudá-lo a fazer mais com [!DNL Target].
+Baseado em nosso trabalho com muitos [!DNL Target] observamos maneiras de obter mais valor de seus [!DNL Target] solução. Resumimos elas nas várias dicas incluídas neste capítulo. Embora talvez você não esteja pronto para usar todas essas ideias imediatamente, lembre-se dessa lista. Quanto mais experiência você tiver com a solução e quanto mais seu programa amadurecer, mais você verá como essas dicas podem ajudar a fazer mais com o [!DNL Target].
 
 ## Dica 1: aumente a personalização ao aumentar o perfil do visitante com dados adicionais.
 
@@ -25,19 +25,19 @@ Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/targ
 
 **Informações importantes**: como [!DNL Target] é uma plataforma aberta e agnóstica que funciona bem com diferentes tecnologias, você pode adicionar CRM ou dados adquiridos de várias maneiras diferentes. Isso significa que você pode escolher um método que funcione melhor para sua organização.
 
-Consulte [Métodos para obter dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html) para obter mais informações.{target=_blank}
+Consulte [Métodos para obter dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR) para obter mais informações.{target=_blank}
 
 ## Dica 2: personalize mais profundamente combinando públicos do [!DNL Target] com outros públicos da Adobe Experience Cloud.
 
-A combinação de públicos-alvo que vivem em diferentes soluções [!DNL Adobe Experience Cloud] pode fornecer uma compreensão mais ampla dos clientes, bem como a capacidade de personalizar mais profundamente. Por exemplo, embora [!DNL Target] forneça dados de público-alvo em tempo real, o [!DNL Adobe Analytics] fornece dados históricos de público-alvo. Combinar os dois pode ajudar você a identificar quando o comportamento de um cliente é consistente e quando pode haver uma oportunidade de agir em um novo comportamento. Basta clicar no menu suspenso ao lado de &quot;Todos os visitantes&quot; ao criar uma atividade. Em seguida, marque as caixas de até vinte públicos, clique em &quot;Combinar vários públicos&quot; e em &quot;Salvar&quot;.
+A combinação de públicos-alvo que vivem em diferentes soluções [!DNL Adobe Experience Cloud] pode fornecer uma compreensão mais ampla dos clientes, bem como a capacidade de personalizar mais profundamente. Por exemplo, embora [!DNL Target] forneça dados de público-alvo em tempo real, o [!DNL Adobe Analytics] fornece dados históricos de público-alvo. A combinação dos dois pode ajudar você a identificar quando o comportamento de um cliente é consistente e quando pode haver uma oportunidade de agir diante de um novo comportamento. Basta clicar no menu suspenso ao lado de &quot;Todos os visitantes&quot; ao criar uma atividade. Em seguida, marque as caixas de até vinte públicos, clique em &quot;Combinar vários públicos&quot; e em &quot;Salvar&quot;.
 
 Consulte [Combinar vários públicos](/help/main/c-target/combining-multiple-audiences.md) para obter instruções passo a passo.
 
-**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público do [!DNL Adobe Analytics] requer uma configuração manual. Basta marcar a caixa &quot;Transformar em Experience Cloud audience&quot; durante o processo de criação do público-alvo em [!DNL Analytics]. Em seguida de [!DNL Target], clique em &quot;Importar públicos-alvo do Experience Cloud&quot;.
+**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público-alvo Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Depois de [!DNL Target], clique em &quot;Importar públicos-alvo do Experience Cloud&quot;.
 
 ## Dica 3: exporte dados do [!DNL Target] para usar com ferramentas de terceiros.
 
-Com os tokens de resposta, os administradores podem enviar dados do [!DNL Target] para ferramentas de terceiros. Isso pode ser útil quando você quiser adicionar seus dados aos coletados em uma ferramenta de pesquisa. Por exemplo, se uma pesquisa mostrar uma amostra de uma população com pontuação de uma experiência como &quot;9&quot; e outra com pontuação de uma experiência como &quot;4&quot;, você poderá usar seus dados para ver quem visualizou a experiência A e quem visualizou a experiência B. Também é possível usar tokens de resposta para exportar [!DNL Target] para seu data warehouse interno. Basta clicar em &quot;Administração&quot; e depois alternar o switch ao lado do Token de resposta desejado para a posição ligada. Em seguida, crie uma atividade. Os dados estão prontos para serem transferidos para o fornecedor terceirizado. Você pode verificar se o [!DNL Target] está exportando os dados usando as ferramentas de depuração.
+Com os tokens de resposta, os administradores podem enviar dados do [!DNL Target] para ferramentas de terceiros. Isso pode ser útil quando você quiser adicionar seus dados aos coletados em uma ferramenta de pesquisa. Por exemplo, se uma pesquisa mostrar uma amostra de uma população que pontuou uma experiência como &quot;9&quot; e outra que pontuou uma experiência como &quot;4&quot;, você poderá usar seus dados para ver quem viu a experiência A e quem viu a experiência B. Também é possível usar os tokens de resposta para exportar [!DNL Target] para seu data warehouse interno. Basta clicar em &quot;Administração&quot; e depois alternar o switch ao lado do Token de resposta desejado para a posição ligada. Em seguida, crie uma atividade. Os dados estão prontos para serem transferidos para o fornecedor terceirizado. Você pode verificar se o [!DNL Target] está exportando os dados usando as ferramentas de depuração.
 
 Consulte [Tokens de resposta](/help/main/administrating-target/response-tokens.md) para obter instruções passo a passo.
 
@@ -63,7 +63,7 @@ Facilite o trabalho com os dados de sua organização, mantendo-os seguros. O [!
 
 Consulte [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) para obter mais informações.
 
-**Dica útil**: Ao adicionar usuários, se o nome de um membro da equipe não tiver sido adicionado anteriormente à organização, como pode ser o caso de um funcionário de agência de terceiros, inserir seu endereço de email e senha acionará um convite por email para ingressar na área de trabalho de uma equipe.
+**Dica útil**: ao adicionar usuários, se o nome de um membro da equipe não tiver sido adicionado anteriormente à sua organização, como pode ser o caso de um funcionário de agência de terceiros, inserir seu endereço de email e senha acionará um convite por email para ingressar no espaço de trabalho de uma equipe.
 
 Você está utilizando o Target Standard? Você ainda pode [atribuir três níveis de acesso](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) aos usuários com funções somente leitura, editor e aprovador.
 
@@ -73,7 +73,7 @@ Veja como uma oferta, como frete grátis, é executada durante uma jornada do cl
 
 Consulte [Atividade multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) para obter instruções passo a passo.
 
-**Dica útil**: Alterar o URL após especificar um intervalo de páginas redefinirá a experiência. Isso significa que as variações especificadas não serão mais exibidas. Se precisar alterar o URL, lembre-se de redefinir a experiência.
+**Dica útil**: alterar o URL após especificar um intervalo de páginas redefinirá a experiência. Isso significa que as variações especificadas não serão mais exibidas. Se precisar alterar o URL, lembre-se de redefinir a experiência.
 
 ## Dica 7: teste uma oferta com públicos-alvo diferentes para descobrir se os públicos-alvo têm preferências diferentes.
 
@@ -89,7 +89,7 @@ Consulte [Incluir a mesma experiência em páginas semelhantes](/help/main/c-exp
 
 ## Dica 9: reduza a confusão na Biblioteca de público-alvo criando públicos-alvo únicos.
 
-Se você estiver direcionando um segmento que você sabe que não será direcionado novamente (por exemplo, clientes afetados por um evento climático inesperado), a criação de um público-alvo de uso único pode ajudá-lo a realizar o trabalho sem desorganizar a Biblioteca de público-alvo. Isso facilita encontrar públicos-alvo que você utiliza repetidamente.
+Se estiver direcionando um segmento que você sabe que não será direcionado novamente, por exemplo, clientes afetados por um evento climático inesperado, criar um público-alvo de uso único pode ajudar a realizar o trabalho sem desorganizar a Biblioteca de público-alvo. Isso facilita encontrar públicos-alvo que você utiliza repetidamente.
 
 Consulte [Criar um público-alvo somente de atividade](/help/main/c-target/creating-activity-only-audience.md) para obter instruções passo a passo.
 
@@ -113,7 +113,7 @@ Muitos profissionais de marketing lançam programas de otimização para segment
 
 ## Dica 12: projete testes mais simples para garantir que você possa criá-los e implementá-los.
 
-Depois de considerar todos os aspectos de como projetar um teste, um plano pode se tornar muito complexo. Baseado em onde sua empresa está com testes, e na capacidade do seu grupo de projetar, codificar, executar e analisar os resultados, determine se o teste parece muito ambicioso. Em caso afirmativo, prepare-se para reduzir o seu âmbito e a sua complexidade. É melhor começar pequeno do que não executar o teste. Você não pode fornecer aumento impactante se nunca iniciar o teste. É importante equilibrar as aspirações da equipe com as realidades de seus recursos e habilidades.
+Depois de considerar todos os aspectos de como projetar um teste, um plano pode se tornar muito complexo. Com base no andamento dos testes da sua empresa e na capacidade do seu grupo de projetar, codificar, executar e analisar os resultados, determine se o teste parece muito ambicioso. Em caso afirmativo, prepare-se para reduzir o seu âmbito e a sua complexidade. É melhor começar pequeno do que não executar o teste. Você não pode fornecer um aumento impactante se nunca iniciar o teste. É importante equilibrar as aspirações da equipe com as realidades dos seus recursos e capacidades.
 
 ## Dica 13: divida testes complexos em atividades de teste menores para torná-las viáveis.
 
@@ -129,29 +129,29 @@ Testar o mais próximo da página em que os visitantes clicam em Concluir compra
 
 ## Dica 15: atualize constantemente seus testes para fazer melhorias iterativas.
 
-Se a hipótese não for verdadeira, pense em maneiras de melhorar o teste. Lembre-se de que mesmo que nenhuma das experiências testadas tenha um desempenho melhor, seu experimento não foi uma perda de tempo. Um teste bem-sucedido nem sempre significa um aumento na receita ou conversões. Se o teste realmente apoiou sua hipótese, então você está a caminho de desenvolver uma teoria geral. Mas mesmo quando você tiver um resultado claro, não pare por aí. Frequentemente, os profissionais de marketing cometem o erro de testar uma vez e depois de basear-se nesses resultados sem realmente compreender o que resultou no sucesso. Em vez disso, planeje iterar nesses resultados para descobrir por que o primeiro estava à frente. Isso resultará em insights mais profundos que você poderá usar em campanhas futuras.
+Se a hipótese não for verdadeira, pense em maneiras de melhorar o teste. Lembre-se de que, mesmo que nenhuma das experiências testadas tenha um desempenho melhor, seu experimento não foi uma perda de tempo. Um teste bem-sucedido nem sempre significa um aumento na receita ou conversões. Se o teste realmente suportou sua hipótese, então você está a caminho de desenvolver uma teoria geral. Mas mesmo quando você tiver um resultado vencedor claro, não pare por aí. Frequentemente, os profissionais de marketing cometem o erro de testar uma vez e depois de basear-se nesses resultados sem realmente compreender o que resultou no sucesso. Em vez disso, planeje iterar nesses resultados para descobrir por que o primeiro estava à frente. Isso resultará em insights mais profundos que você poderá usar em campanhas futuras.
 
 ## Dica 16: compare testes e atividades de personalização de ideias para melhorar o direcionamento.
 
-Comparar o desempenho de conversão de diferentes públicos-alvo em diferentes testes em diferentes locais pode ajudar a focalizar e refinar a estratégia de otimização de uma empresa. Use comparações de teste para identificar quais públicos-alvo são mais valiosos para testar, quais devem receber experiências direcionadas e quais tipos de experiências têm maior probabilidade de obter uma resposta.
+Comparar o desempenho de conversão de diferentes públicos-alvo em diferentes testes em locais diferentes pode ajudar a focalizar e refinar a estratégia de otimização de uma empresa. Use comparações de teste para identificar quais públicos-alvo são mais valiosos para testar, quais devem receber experiências direcionadas e quais tipos de experiências têm maior probabilidade de obter uma resposta.
 
 Por exemplo, um cliente de serviços financeiros realizou uma campanha promocional para um cartão de crédito que envolveu incentivos para eventos esportivos profissionais. Por meio de multivariate testing fatorial parcial de suas páginas de aterrissagem, o cliente foi capaz de equilibrar de maneira ideal as mensagens sobre benefícios de cartões de crédito com incentivos esportivos para direcionar públicos distintos de sua base de clientes. Essa abordagem permitia que a empresa aproveitasse e maximizasse a conversão durante uma janela com detecção de hora relacionada a um evento esportivo importante.
 
 ## Dica 17: torne os testes úteis iniciando-os apenas se você souber que pode aproveitar os dados.
 
-Um teste é inútil se você não estiver claro sobre como agirá com os dados. Isso inclui conhecer sua principal métrica de sucesso, o que precisa acontecer para impulsionar um vencedor, como você seguirá os resultados dos testes e o que fará com as informações do público-alvo. Para um teste rápido e bem-sucedido, é vital que todos os grupos envolvidos no teste (desenvolvedores, criadores, especialistas em testes e outros) estejam cientes de seu papel antes do lançamento do teste.
+Um teste é inútil se você não souber como aproveitar os dados. Isso inclui conhecer sua principal métrica de sucesso, o que precisa acontecer para impulsionar um vencedor, como você seguirá os resultados dos testes e o que fará com as informações do público-alvo. Para um teste rápido e bem-sucedido, é vital que todos os grupos envolvidos no teste (desenvolvedores, criadores, especialistas em testes e outros) estejam cientes de seu papel antes do lançamento.
 
 ## Dica 18: antes de iniciar um teste, verifique se a empresa comportar o impulsionamento do vencedor.
 
-Organizações de otimização bem-sucedidas acreditam no conceito de teste e entendem que suas opiniões profissionais sobre o que a experiência ganhará no teste nem sempre são verdadeiras. Eles determinam o vencedor com base em uma sólida base de dados, e estão ansiosos e dispostos a colocar a experiência vencedora ao vivo depois que os resultados estiverem no , mesmo que não esteja em conformidade com suas expectativas ou pareça contraintuitiva.
+As organizações de otimização bem-sucedidas acreditam no conceito de teste e entendem que suas opiniões profissionais sobre qual experiência ganhará o teste nem sempre são verdadeiras. Elas determinam o vencedor com base em uma sólida base de dados, e estão ansiosas e dispostas a impulsionar a experiência vencedora em tempo real depois que os resultados forem divulgados, mesmo que não esteja em conformidade com suas expectativas ou pareça contraintuitivo.
 
-Por exemplo, um cliente de serviços da área de saúde da Adobe demonstrou recentemente o valor do teste, mostrando como um banner de imagem que a equipe havia considerado como perfeito afetou negativamente a conversão. Se sua organização ainda não tiver adotado totalmente os testes, é melhor realizar testes mais simples e de escopo menor para que as alterações nos resultados dos testes possam ser feitas de forma incremental.
+Por exemplo, um cliente de serviços da área de saúde da Adobe demonstrou recentemente o valor do teste, mostrando como um banner de imagem que a equipe havia considerado como perfeito afetou negativamente a conversão. Se sua organização ainda não adotou totalmente os testes, é melhor realizar testes de escopo mais simples e menores para que as alterações nos resultados dos testes possam ser feitas de forma incremental.
 
 ## Dica 19: informe a todos que você iniciou um teste para evitar preocupações quando o site mudar.
 
-Um dos benefícios de configurar suas atividades para usar parâmetros de controle de qualidade é que você pode compartilhar esses links com todos em sua equipe. Você sensibiliza mais pessoas para a atividade e garante que elas não considerem que o site não está funcionando corretamente quando elas atingem uma variante de teste.
+Um dos benefícios de configurar suas atividades para usar parâmetros de controle de qualidade é que você pode compartilhar esses links com todos em sua equipe. Você torna mais pessoas cientes da atividade e garante que elas não considerem que o site não está funcionando corretamente ao encontrar uma variante de teste.
 
-Depois de concluir os testes, informar sobre inicializações de campanha, resultados de testes e especialmente as lições aprendidas ajuda a gerar conscientização e interesse pelos resultados do teste. Compartilhar os resultados com todos na organização também evita testar novamente uma hipótese, instrui todos sobre o que funciona e os ajuda a desafiar fundamentalmente suas próprias ideias do que funciona com base no que você encontrou. É uma boa ideia preparar um modelo que você usa cada vez para compartilhar suas descobertas e aprendizados-chave.
+Depois de concluir os testes, informar sobre inicializações de campanha, resultados de testes e especialmente as lições aprendidas ajuda a gerar conscientização e interesse pelos resultados do teste. Compartilhar os resultados com todos na organização também evita o novo teste de uma hipótese, instrui todos sobre o que funciona e os ajuda a desafiar fundamentalmente suas próprias ideias sobre o que funciona com base no que foi descoberto. É uma boa ideia preparar um modelo que você usa sempre para compartilhar suas descobertas e aprendizados-chave.
 Em seguida, considere criar um livro compartilhável ou uma apresentação do Microsoft PowerPoint que capture cumulativamente esses aprendizados.
 
 ## Dica 20: aproveite a funcionalidade móvel para criar atividades móveis mais inovadoras.
@@ -185,7 +185,7 @@ Considere as seguintes ideias antes de passarmos para o próximo capítulo: &quo
 
 ### Simplifique o site.
 
-* Não &quot;faça&quot; com que os clientes leiam. Eles não vão.
+* Não &quot;faça&quot; os clientes lerem. Eles não vão.
 * Facilite a digitalização.
 * Use blocos de cópia com marcadores.
 * Certifique-se de que a cópia siga um processo de reflexão sequencial e claro.

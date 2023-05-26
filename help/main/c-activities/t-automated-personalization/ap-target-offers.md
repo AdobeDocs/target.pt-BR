@@ -1,5 +1,5 @@
 ---
-keywords: personalização automatizada, ofertas, target, público-alvo, regras de direcionamento, direcionamento
+keywords: personalização automatizada;ofertas;direcionamento;público-alvo;regras de direcionamento;direcionamento
 description: Saiba como direcionar ofertas individuais para públicos-alvo específicos usando uma atividade de Automated Personalization (AP) no Adobe Target.
 title: Como posso [!DNL Target] Ofertas do Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
@@ -13,9 +13,9 @@ ht-degree: 87%
 
 ---
 
-# [!DNL Target] Ofertas da Automated Personalization
+# [!DNL Target] Ofertas do Automated Personalization
 
-Em um [!DNL Adobe Target] [!DNL Automated Personalization] (AP), é possível direcionar ofertas a públicos-alvo específicos.
+Em um [!DNL Adobe Target] [!DNL Automated Personalization] atividade de (AP), você pode direcionar ofertas para públicos específicos.
 
 Utilizar essa funcionalidade reduz o número de ofertas que um visitante específico está qualificado a visualizar. Por exemplo, considere uma atividade com três ofertas. A oferta 1 tem uma regra de direcionamento que limita a exposição somente para o Público-alvo A. Dois visitantes visualizaram essa atividade AP.
 

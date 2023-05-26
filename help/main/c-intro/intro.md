@@ -31,7 +31,7 @@ As práticas recomendadas do setor são integradas no [!DNL Target Standard]. O 
 
 O [!DNL Target Premium] é uma oferta avançada do [!DNL Target] que requer uma licença para adicionar recursos premium ao [!DNL Target Standard].
 
-Todos [!DNL Target Premium] artigos em [!DNL Target] os guias incluem o [!UICONTROL Premium] símbolo na parte superior de cada página ou em linha perto do texto afetado. O [!UICONTROL Premium] é clicável e inclui um link para esta seção.
+Todos [!DNL Target Premium] artigos em [!DNL Target] os guias incluem o [!UICONTROL Premium] na parte superior de cada página ou em linha próximo ao texto afetado. A variável [!UICONTROL Premium] é clicável e inclui um link para esta seção.
 
 **[!DNL Target Premium]O inclui os seguintes recursos:**
 
@@ -84,9 +84,9 @@ A funcionalidade de [Permissões de usuário empresarial](/help/main/administrat
 
 [!BADGE Beta]{type=Informative}
 
-O [!DNL Adobe Target] O grupo geralmente habilita novos recursos para clientes selecionados para fins de teste e feedback. Depois que o período de teste for concluído, esses recursos serão ativados para todos os clientes no futuro [!DNL Target Standard/Premium] e anunciadas nas notas de versão.
+A variável [!DNL Adobe Target] A equipe do geralmente ativa novos recursos para clientes selecionados para fins de teste e feedback. Após a conclusão do período de teste, esses recursos serão habilitados para todos os clientes no futuro [!DNL Target Standard/Premium] versões e anunciadas nas notas de versão.
 
-Artigos em [!DNL Target] Os guias que descrevem recursos Beta incluem o símbolo Beta na parte superior de cada página ou em linha, próximo ao texto afetado. O selo Beta pode ser clicado e inclui um link para esta seção.
+Artigos em [!DNL Target] os guias que descrevem recursos Beta incluem o selo Beta na parte superior de cada página ou em linha próximo ao texto afetado. O selo Beta é clicável e inclui um link para esta seção.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 

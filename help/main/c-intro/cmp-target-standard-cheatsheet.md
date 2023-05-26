@@ -166,7 +166,7 @@ Confira as [Regras de modelo](/help/main/c-experiences/c-visual-experience-compo
 
 **Estou cansado de ver a mensagem &quot;Deixe seu carregador carregar os scripts&quot; quando tento carregar minha página no Visual Experience Composer (VEC). Como posso evitar isso?**
 
-Isso ocorre porque seu site tem conteúdo misto. É um site que busca recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
+Isso ocorre porque seu site tem conteúdo misto — é um site que busca recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
 Até que isso aconteça, siga as instruções em  [Ativar conteúdo misto no navegador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
 
@@ -218,7 +218,7 @@ Use os recursos Escrever e Navegar para navegar até a página se sua escolha e 
 
 Clique na miniatura na frente do nome da experiência na etapa 2 e você será encaminhado para a experiência de sua escolha.
 
-![imagem de miniatura_experiências](assets/thumbnail_experiences.png)
+![imagem de miniaturas_experiências](assets/thumbnail_experiences.png)
 
 **Eu sou um antigo usuário do Target Classic. Posso utilizar minhas mboxes para certos casos de uso?**
 

@@ -1,6 +1,6 @@
 ---
 keywords: teste de modelo, modelo, mesma experiência em páginas semelhantes, teste de modelo
-description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para incluir a mesma experiência em várias páginas que estejam estruturadas de forma semelhante ou contenham os mesmos elementos de modelo.
+description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para incluir a mesma experiência em várias páginas estruturadas de forma semelhante ou que contêm os mesmos elementos de modelo.
 title: Posso incluir a mesma experiência em páginas semelhantes?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -13,9 +13,9 @@ ht-degree: 46%
 
 # Incluir a mesma experiência em páginas semelhantes
 
-Usar um modelo de página em [!DNL Adobe Target] para fornecer estrutura para suas páginas, ou se suas páginas contêm elementos semelhantes, para testar variações em elementos de página estruturadas de forma semelhante ou em todo o domínio.
+Usar um modelo de página no [!DNL Adobe Target] para fornecer estrutura às suas páginas, ou se as páginas contiverem elementos semelhantes, para testar variações em elementos de página estruturadas de forma semelhante ou em todo o domínio.
 
-Para funcionar corretamente, esse recurso deve ser usado em páginas que tenham uma estrutura semelhante ou contenham elementos de modelo que estejam estruturadas da mesma maneira em todas as páginas.
+Para funcionar corretamente, esse recurso deve ser usado em páginas com uma estrutura semelhante ou conter elementos de modelo estruturados da mesma forma em todas as páginas.
 
 >[!IMPORTANT]
 >
@@ -28,11 +28,11 @@ Por exemplo, você pode usar esse recurso para fazer uma das seguintes opções:
 * Adicionar um banner em todas as páginas de produtos
 * Alterar o layout do modelo de artigo
 
-Você pode especificar páginas que incluem os elementos de alteração ou aplicar a alteração no site ou domínio.
+Você pode especificar páginas que incluem os elementos de alteração ou aplicar a alteração através do site ou domínio.
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar as páginas em que a experiência será exibida, no [!UICONTROL Visual Experience Composer] (VEC) clique no ícone de engrenagem e selecione **[!UICONTROL Entrega de página]**.
+1. Para especificar as páginas em que a experiência será exibida, na [!UICONTROL Visual Experience Composer] (VEC) clique no ícone de engrenagem e selecione **[!UICONTROL Entrega da página]**.
 
    ![Ícone de engrenagem > Entrega da página](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -40,10 +40,10 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
 
-   * URL (Para obter mais informações sobre como o Target avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e públicos](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Para obter mais informações sobre como o Target avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domínio
    * Caminho
-   * Fragmento de hash (#) (direcione a parte de um URL que segue o símbolo #.)
+   * Fragmento de hash (#) (direciona a parte de um URL que segue o símbolo #.)
    * Consulta
    * Parâmetro
 
@@ -66,9 +66,9 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
    >[!IMPORTANT]
    >
-   >Vários itens usam a lógica OU , o que significa que qualquer item único na lista torna a condição verdadeira.
+   >Vários itens usam a lógica OR, ou seja, qualquer item único na lista torna a condição verdadeira.
 
-1. Se desejar, insira critérios adicionais clicando em **[!UICONTROL Adicionar regra de modelo]** e repetir o procedimento nas etapas anteriores.
+1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Adicionar regra de modelo]** e repetindo o procedimento das etapas anteriores.
 
    Múltiplos critérios são agrupados com uma lógica E. [!DNL Target]O adiciona a experiência para todas as páginas que correspondem aos critérios especificados.
 
@@ -78,25 +78,25 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 ## Casos de uso
 
-Revise os seguintes casos de uso para conhecer maneiras de usar regras de modelo em seu site:
+Analise os seguintes casos de uso para encontrar maneiras de usar as regras de modelo no site:
 
 ### Renderizar a mesma atividade em todo o domínio
 
 Você pode considerar o uso de regras de modelo para renderizar a mesma atividade em todo o domínio para os seguintes casos de uso:
 
 * Para incluir um cabeçalho ou rodapé global
-* Para incluir um banner global (por exemplo, anúncios COVID-19)
-* Para incluir uma promoção global de entrega livre
+* Para incluir um banner global (por exemplo, anúncios de COVID-19)
+* Para incluir uma promoção global de frete grátis
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar o domínio onde a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Entrega de página]**.
+1. Para especificar o domínio onde a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Entrega da página]**.
 
 1. Clique em **[!UICONTROL Adicionar regra de modelo]** > **[!UICONTROL Domínio]**.
 
-1. No **[!UICONTROL Escolher avaliador]** , selecione **[!UICONTROL Contém]**, em seguida, especifique o domínio.
+1. No **[!UICONTROL Escolher avaliador]** selecione **[!UICONTROL Contém]** e, em seguida, especifique o domínio.
 
-   ![Domínio contém](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
+   ![O domínio contém](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
 ## Vídeo de treinamento: Visual Experience Composer (2 de 2) (7:29) ![Selo do tutorial](/help/main/assets/tutorial.png)
 

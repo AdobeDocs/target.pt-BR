@@ -1,7 +1,7 @@
 ---
 keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
-description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens no seu Adobe [!DNL Target] Catálogo Recommendations.
-title: Como Posso Usar Atributos De Entidade Personalizados?
+description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens em seu Adobe [!DNL Target] catálogo Recommendations.
+title: Como Usar Atributos De Entidade Personalizados?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # Atributos de entidade personalizados
 
-Use atributos de entidade personalizados de valor único e múltiplo em [!DNL Adobe Target Recommendations] para definir informações adicionais sobre itens em seu catálogo.
+Usar atributos de entidade personalizados de valor único e múltiplo no [!DNL Adobe Target Recommendations] para definir informações adicionais sobre os itens do catálogo.
 
 ## Limites {#limits}
 
@@ -25,11 +25,11 @@ O tamanho máximo dos atributos personalizados da entidade de valor único é de
 
 Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
-## Valores de atributo de entidade personalizada {#section_313331A9F8194A89B5EDD89363018651}
+## Valores de atributo de entidade personalizados {#section_313331A9F8194A89B5EDD89363018651}
 
 Atributos de entidade personalizados podem conter um único valor ou vários valores. Valores de atributos da entidade são exibidos na visualização do produto.
 
-![imagem de produto_de_vários valores](assets/multi-value_product.png)
+![imagem de vários valores do produto](assets/multi-value_product.png)
 
 Um atributo de entidade personalizado com um único valor é formado da mesma maneira que um atributo de entidade predefinido de valor único:
 
@@ -63,7 +63,7 @@ Depois que um atributo personalizado é enviado como uma matriz JSON válida, el
 
 ## Implementar atributos de vários valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`e a API de entrega para carregar produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
+Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`e a API de entrega para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
 
 Aspas duplas devem ser evitadas. Por exemplo, `"[""test"", ""value""]"` é uma matriz JSON que pode ser usada no CSV.
 
@@ -94,11 +94,11 @@ Você pode gerenciar seus arquivos CSV de forma simples usando um editor de text
 
 O CSV simples terá esta aparência:
 
-![imagem multi-valor_example_raw](assets/multi-value_example_raw.png)
+![imagem multi-value_example_raw](assets/multi-value_example_raw.png)
 
 O mesmo catálogo ficará assim em uma planilha:
 
-![imagem multi-valor_example_excel](assets/multi-value_example_excel.png)
+![imagem multi-value_example_excel](assets/multi-value_example_excel.png)
 
 Ao converter para o formato .csv, o software de planilha adiciona aspas duplas ao redor do conteúdo da célula para impedir que as vírgulas dentro da célula atuem como separadores de coluna. Ele também adiciona aspas duplas em torno dos valores de cadeia de caracteres JSON que você inclui em atributos personalizados de vários valores. Isso pode dificultar o trabalho diretamente com o arquivo simples. Por exemplo:
 
@@ -109,7 +109,7 @@ Tenha cuidado ao editar diretamente um arquivo CSV de catálogo simples.
 
 ### Uso de APIs
 
-Você pode passar atributos de vários valores usando a API de entrega em um parâmetro de mbox como um valor de sequência de caracteres contendo uma matriz JSON escaped.
+Você pode passar atributos de vários valores usando a API de entrega em um parâmetro de mbox como um valor de string que contém uma matriz JSON de escape.
 
 ```javascript
 "execute": {
@@ -127,7 +127,7 @@ Você pode passar atributos de vários valores usando a API de entrega em um par
   }
 ```
 
-Consulte a [documentação da API do Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obter informações sobre 
+Consulte a [documentação da API do Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para obter informações sobre 
 como usar as APIs de entidades de Entrega e Salvamento.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
@@ -141,7 +141,7 @@ No exemplo a seguir, a regra é  `message contains abc`.
 
 Para operadores negativos, todos os valores de atributo devem passar (booleano *e*). Por exemplo, se o operador for  `notEquals`, o resultado será *false* se qualquer valor for compatível.
 
-Consulte as seções a seguir para obter o comportamento do operador em regras de inclusão de algoritmo, regras de catálogo e regras de exclusão.
+Consulte as seguintes seções para conhecer o comportamento do operador nas regras de inclusão de algoritmo, regras de catálogo e regras de exclusão.
 
 ### Igual
 
@@ -242,7 +242,7 @@ Exemplo: `genre does not match abc`
 
 ### Intervalos dinâmicos (disponíveis apenas em algoritmos baseados em itens e valores numéricos)
 
-Se qualquer valor numérico de atributo se encaixar no intervalo especificado, o resultado será true.
+Se qualquer valor numérico de atributo se encaixar dentro do intervalo especificado, o resultado será true.
 
 Exemplo: `price dynamically ranges in 80% to 120% of 100`
 
@@ -255,7 +255,7 @@ Exemplo: `price dynamically ranges in 80% to 120% of 100`
 
 ## Atributos de vários valores em designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-Os atributos de vários valores são exibidos como uma lista separada por vírgulas quando referenciados em um design.
+Atributos de vários valores aparecem como uma lista separada por vírgulas quando referenciados em um design.
 
 Exemplo:
 

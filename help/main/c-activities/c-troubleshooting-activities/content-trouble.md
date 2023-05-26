@@ -165,7 +165,7 @@ Mas e se o URL contiver parâmetros de sequência de consulta? Ele funcionará e
 
 As seguintes opções podem ser usadas para incluir regras de modelo adicionais:
 
-### Opção 1: Replique o URL e mantenha-o na regra do modelo com a opção &quot;contém&quot;.
+### Opção 1: Replique o URL e mantenha-o na regra de modelo com a opção &quot;contém&quot;.
 
 Essa opção garante que esse URL se qualifica para a atividade. Mas saiba que há casos de exceção anexados a ela que podem influenciar seus dados de relatório com registros adicionais para URLs que contêm o URL de base.
 
@@ -173,7 +173,7 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e r
 
 ![Replicar o URL nas regras de modelo](assets/option1.png)
 
-### Opção 2: Restrinja a condição &quot;contém&quot; do URL somente com a string de consulta.
+### Opção 2: Restrinja a condição &quot;contém&quot; do URL somente com a sequência de consulta.
 
 O caso de exceção discutido na opção anterior é aplicado nesta opção, mas aqui a configuração condicional é limitada somente à sequência de consulta.
 
@@ -187,9 +187,9 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e r
 
 ![Regra de modelo aproveitando uma parte específica do URL](assets/option3.png)
 
-## Escapando aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado. {#escape}
+## Evitar aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado. {#escape}
 
-Quando você envia valores contendo aspas duplas em um [!DNL Target] do perfil, você deve omitir duas vezes como mostrado abaixo.
+Quando você envia valores contendo aspas duplas em um [!DNL Target] atributo de perfil, você deve fazer o escape duas vezes como mostrado abaixo.
 
 ```
 adobe.target.trackEvent({

@@ -1,6 +1,6 @@
 ---
-keywords: Criar direcionamento automático, teste A/B, atividade de direcionamento automático, nova atividade a/b, direcionamento automático, direcionamento automático para experiências personalizadas, personalizadas, otimização
-description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL Target] para criar sua atividade de Teste A/B de Direcionamento automático diretamente em um [!DNL Target]página ativada.
+keywords: Criar direcionamento automático;teste A/B;atividade de direcionamento automático;nova atividade a/b;direcionamento automático;direcionamento automático para experiências personalizadas;personalizado;otimização
+description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL Target] para criar sua atividade de Teste A/B de Direcionamento automático diretamente em uma [!DNL Target]página habilitada para.
 title: Como criar uma atividade de direcionamento automático?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
@@ -14,17 +14,17 @@ ht-degree: 50%
 
 # Criar uma atividade de direcionamento automático
 
-Use o [!UICONTROL Visual Experience Composer] (VEC) em [!DNL Adobe Target] para criar [!UICONTROL Direcionamento automático] [!UICONTROL Teste A/B] atividade diretamente em uma [!DNL Target]página ativada e para modificar partes da página no [!DNL Target].
+Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar o [!UICONTROL Direcionamento automático] [!UICONTROL Teste A/B] atividade diretamente em um [!DNL Target]página habilitada para e modificar partes da página no [!DNL Target].
 
 >[!NOTE]
 >
 >O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Este recurso não está disponível no [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações sobre os recursos avançados fornecidos por esta licença, consulte [Target Premium](/help/main/c-intro/intro.md).
 >
->Além do [!UICONTROL Direcionamento automático] [!UICONTROL Teste A/B] atividade (discutida neste artigo), [!DNL Target] fornece dois outros tipos de [!UICONTROL Teste A/B] atividades: [!UICONTROL Manual (Padrão)] e [!UICONTROL Alocação automática].
+>Além do [!UICONTROL Direcionamento automático] [!UICONTROL Teste A/B] atividade (discutida neste artigo), [!DNL Target] O fornece dois outros tipos de [!UICONTROL Teste A/B] atividades: [!UICONTROL Manual (Padrão)] e [!UICONTROL Alocação automática].
 >
->Consulte [Tipos de atividades de Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) em *Visão geral do teste A/B*.
+>Consulte [Tipos de atividades de teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) in *Visão geral do teste A/B*.
 
-Para criar um [!UICONTROL Direcionamento automático] atividade :
+Para criar uma [!UICONTROL Direcionamento automático] atividade:
 
 1. Na lista **[!UICONTROL Atividades]**, clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Teste A/B]**.
 
@@ -48,7 +48,7 @@ Para criar um [!UICONTROL Direcionamento automático] atividade :
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >A opção [[!UICONTROL Escolher local de trabalho]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/main/c-intro/intro.md). Sua organização tem um [!UICONTROL Target Standard] licença se você não vir essa opção.
+   >A opção [[!UICONTROL Escolher local de trabalho]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/main/c-intro/intro.md). Sua organização tem uma [!UICONTROL Target Standard] caso não veja essa opção.
 
 1. Escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -75,7 +75,7 @@ Para criar um [!UICONTROL Direcionamento automático] atividade :
 
 1. Crie quaisquer experiências alterando os elementos na página.
 
-   O [!UICONTROL Visual Experience Composer] exibe duas guias no lado esquerdo depois de criar uma atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco é na guia Experiência B, que pode ser modificada conforme desejado. A Experiência B é a experiência alternativa que você pode adicionar ao seu teste. Você pode adicionar várias experiências ao teste. Você também podem excluir a Experiência A da atividade se não quiser incluir uma experiência de site padrão como opção.
+   A variável [!UICONTROL Visual Experience Composer] O exibe duas guias no lado esquerdo depois que você cria uma atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco está na guia Experiência B, que pode ser modificada conforme desejado. A Experiência B é a experiência alternativa que você pode adicionar ao seu teste. Você pode adicionar várias experiências ao teste. Você também podem excluir a Experiência A da atividade se não quiser incluir uma experiência de site padrão como opção.
 
    Para mais informações sobre adicionar ou modificar experiências no [!UICONTROL Visual Experience Composer], consulte  [Adicionar experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Para modificar a Experiência B, comece com a etapa 3.
 
@@ -87,7 +87,7 @@ Para criar um [!UICONTROL Direcionamento automático] atividade :
 
    O diagrama do fluxo guia você pelas etapas da escolha do público-alvo para a atividade e da configuração das experiências.
 
-1. No [!UICONTROL Público] , clique no ícone de edição (três elipses verticais), clique em **[!UICONTROL Substituir público-alvo]**, em seguida [selecionar o público](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para sua atividade.
+1. No [!UICONTROL Público] , clique no ícone editar (três elipses verticais), clique em **[!UICONTROL Substituir público-alvo]**, depois [selecionar o público](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para a sua atividade.
 
    Por padrão, o público-alvo é definido como [!UICONTROL Todos os visitantes].
 
@@ -101,18 +101,18 @@ Para criar um [!UICONTROL Direcionamento automático] atividade :
 
    Você pode mostrar várias experiências no mesmo público-alvo. Um diagrama é exibido mostrando um público-alvo selecionado e as experiências que você incluiu na atividade.
 
-   Escolha o método de alocação de tráfego desejado. Para criar um [!UICONTROL Direcionamento automático] atividade , selecione **[!UICONTROL Direcionamento automático para experiências personalizadas]**.
+   Escolha o método de alocação de tráfego desejado. Para criar uma [!UICONTROL Direcionamento automático] atividade, selecione **[!UICONTROL Direcionamento automático para experiências personalizadas]**.
 
    Os três tipos de alocação de tráfego são descritos abaixo:
 
    * **[!UICONTROL Manual]**: especifique a porcentagem de participantes que deseja visualizar cada experiência. Você pode dividir os percentuais igualmente entre todas as experiências ou especificar percentuais maiores ou menores para cada experiência. O total de experiências deve ser igual a 100%. Para obter mais informações, consulte [Criar um teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   * **[!UICONTROL Alocação automática para a melhor experiência]**: A maioria dos participantes da atividade é direcionada automaticamente para experiências de maior desempenho. Alguns visitantes são alocados em todas experiências, para manter a exploração de experiências e reconhecer alterações em tendências de desempenho. Para obter mais informações, consulte [Visão geral da alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+   * **[!UICONTROL Alocar automaticamente para a melhor experiência]**: a maioria dos participantes da atividade é direcionada automaticamente para experiências de maior desempenho. Alguns visitantes são alocados em todas experiências, para manter a exploração de experiências e reconhecer alterações em tendências de desempenho. Para obter mais informações, consulte [Visão geral da alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-   * **[!UICONTROL Direcionamento automático para experiências personalizadas]**: [!DNL Target] O usa aprendizagem de máquina avançada para personalizar o conteúdo e gerar conversões, identificando várias experiências de alto desempenho definidas pelo profissional de marketing e depois apresentando a experiência mais personalizada para visitantes com base em seus perfis de clientes individuais e nos comportamentos passados de visitantes semelhantes.
+   * **[!UICONTROL Direcionamento automático para experiências personalizadas]**: [!DNL Target] O usa aprendizagem de máquina avançada para personalizar conteúdo e gerar conversões, identificando várias experiências de alto desempenho definidas pelo profissional de marketing e, em seguida, apresentando a experiência mais personalizada para visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfil semelhantes.
    Você também pode clicar em **[!UICONTROL Adicionar]** para adicionar outra experiência à atividade.
 
-1. Quando estiver satisfeito com suas opções de público-alvo, experiência e alocação de tráfego, clique em **[!UICONTROL Próximo]** para ir até a terceira etapa do fluxo de trabalho guiado de três etapas.
+1. Quando estiver satisfeito com suas opções de público-alvo, experiência e alocação de tráfego, clique em **[!UICONTROL Próxima]** para ir até a terceira etapa do fluxo de trabalho guiado em três etapas.
 
 1. Especifique as [metas e configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) da atividade.
 
@@ -120,17 +120,17 @@ Para criar um [!UICONTROL Direcionamento automático] atividade :
 
    >[!NOTE]
    >
-   >Se quiser usar [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) com essa atividade, consulte informações importantes em [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >Se quiser usar [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) com esta atividade, consulte informações importantes no [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Clique em **[!UICONTROL Salvar e fechar]** ou **[!UICONTROL Salvar]**.
 
-Após criar a atividade, a variável [!UICONTROL Visão geral] A guia mostra informações sobre a atividade, incluindo um diagrama da atividade.
+Depois de criar a atividade, a variável [!UICONTROL Visão geral] A guia mostra informações sobre a atividade, incluindo um diagrama da atividade.
 
 ## Vídeo de treinamento: Criação de testes A/B (8:36) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste A/B usando fluxo de trabalho orientado de três etapas do [!DNL Target].
 
-* Crie um [!UICONTROL Teste A/B] atividade em [!DNL Adobe Target]
+* Criar um [!UICONTROL Teste A/B] atividade no [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

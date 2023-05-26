@@ -1,6 +1,6 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Saiba como usar o Avaliador de tráfego que informa se você tem tráfego suficiente para o Adobe [!DNL Target] Atividade de Teste multivariado para ser bem-sucedida.
+description: Saiba como usar o Avaliador de tráfego que permite saber se você tem tráfego suficiente para o seu Adobe [!DNL Target] Atividade de Teste multivariado para obter sucesso.
 title: Quanto tráfego é necessário para uma atividade de teste multivariado (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
@@ -48,7 +48,7 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
 
    Próximo da parte superior do Avaliador de tráfego, os valores inseridos são calculados, e os resultados são exibidos.
 
-   ![imagem estimatorinsuficiente](assets/estimatorinsufficient.png)
+   ![imagem insuficiente do estimador](assets/estimatorinsufficient.png)
 
    A estimativa muda, à medida que você muda os números. Por exemplo, se você estiver testando um número grande de experiências e sua taxa de conversão e impressões for muito baixa, o Avaliador de tráfego mostrará por quanto tempo o teste terá que ser executado para ser bem-sucedido. Ou, se o tráfego for baixo, o Avaliador de tráfego poderá sugerir um número mais baixo de experiências para você poder executar o teste durante o número desejado de dias.
 
@@ -59,4 +59,4 @@ O Avaliador de tráfego também fornece um feedback que informa se você tem tr�
 
    Ajuste os números até que o Avaliador de tráfego indique que você tem tráfego suficiente, então, crie seu teste de acordo.
 
-   ![imagem do estimatorok](assets/estimatorok.png)
+   ![imagem estimatorok](assets/estimatorok.png)

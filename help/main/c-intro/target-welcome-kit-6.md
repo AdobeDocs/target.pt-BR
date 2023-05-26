@@ -21,12 +21,12 @@ O bom de começar seu programa de otimização e personalização agora é que a
 
 | Armadilha | Solução |
 | --- | --- |
-| Não ter tráfego suficiente para alcançar resultados estatisticamente significativos. | Use o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) antecipadamente para entender por quanto tempo o teste deve ser executado e, em seguida, executar o teste até a conclusão. |
+| Não ter tráfego suficiente para alcançar resultados estatisticamente significativos. | Use o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) com antecedência para entender por quanto tempo o teste deve ser executado e, em seguida, executar o teste até a conclusão. |
 | Fazer uma alteração muito pequena ou imperceptível. | Torne a alteração substancial o suficiente para que possa ser visível quando você estiver a alguns metros da tela. |
 | Falha ao alinhar atividades com objetivos de negócios. | Aumente o foco na metodologia de priorização e comunique essa metodologia às partes interessadas internas. |
 | Ter pouca ou nenhuma experiência de teste retroativo. | Interaja com as partes interessadas internas e permita que elas enviem testes alinhados com as principais metas de negócios. |
 | Estender lançamentos de atividades além dos prazos. | Melhore a documentação das atividades e inclua detalhes específicos sobre a configuração do teste. |
-| Selecionar dados de métricas de sucesso de atividades que não ajudam na tomada de decisões. | Documente todas as métricas de teste principais e inclua métricas adicionais para obter mais insights. |
+| Seleção de dados de métricas de sucesso de atividades que não ajudam na tomada de decisões. | Documente todas as métricas de teste principais e inclua métricas adicionais para obter mais insights. |
 | Fazer alterações durante o teste que podem afetar os resultados. | Mantenha um calendário de promoções futuras e alterações do site. Comunique claramente as inicializações de atividade do [!DNL Target] para evitar conflitos. |
 | Alterar experiências ou critérios de teste próximo a um lançamento de atividade. | Solicite o logout das principais partes interessadas no início do processo de atividade de teste. |
 | A conclusão de uma atividade antes dos resultados é estatisticamente significativo. | Verifique a duração do teste usando o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |

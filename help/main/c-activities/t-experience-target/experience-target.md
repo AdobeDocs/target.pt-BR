@@ -1,7 +1,7 @@
 ---
 keywords: Direcionamento, direcionamento da experiência, xt, página inicial, campanha de página de aterrissagem
 description: Saiba como usar as atividades de Direcionamento de experiência (XT) no Adobe [!DNL Target] para fornecer conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
-title: O que é uma atividade de direcionamento de experiência (XT)?
+title: O que é uma atividade de Direcionamento de experiência (XT)?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -17,7 +17,7 @@ O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo espec
 
 O Direcionamento de experiência, incluindo o [Direcionamento geográfico](/help/main/c-target/c-audiences/c-target-rules/geo.md), é importante para definir regras que direcionem uma experiência ou conteúdo específico para um determinado público-alvo. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
 
-Quando visitantes acessam seu site, o direcionamento de experiência (XT) os avalia para determinar se eles atendem os critérios que você definiu. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
+Quando visitantes acessam o seu site, o direcionamento de experiência (XT) os avalia para determinar se eles atendem aos critérios que você definiu. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
 
 O Direcionamento de experiência é uma primeira etapa no mundo da personalização e geralmente começa com testes A/B. Um profissional de marketing executada um teste A/B e por meio do uso dos públicos-alvo de relatório, descobre que diferentes experiências ressoam com públicos-alvo diferentes. O Direcionamento de experiência permite que o profissional de marketing aproveite facilmente essa descoberta e alterne para o direcionamento de longo prazo do conteúdo dos diferentes segmentos de usuários.
 

@@ -1,6 +1,6 @@
 ---
 keywords: vários públicos-alvo; versões de experiência; versões de experiência de direcionamento
-description: Saiba como direcionar versões da mesma experiência para diferentes públicos no Adobe [!DNL Target] Atividades A/B.
+description: Saiba como direcionar versões da mesma experiência para públicos-alvo diferentes no Adobe [!DNL Target] atividades A/B.
 title: Posso usar várias versões de experiência em uma atividade A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # Vários públicos-alvo de uma experiência em um Teste A/B
 
-Você pode direcionar versões da mesma experiência para públicos-alvo diferentes em [!DNL Adobe Target] Atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
+Você pode direcionar versões da mesma experiência para públicos-alvo diferentes no [!DNL Adobe Target] atividades A/B. Você pode definir múltiplos públicos-alvo para uma experiência no Visual Experience Composer ou no Experience Composer baseado em formulários.
 
 Usuários podem alternar entre públicos-alvo de experiência conforme seu perfis mudam. Eles não ficam presos na mesma experiência pela duração da atividade.
 
@@ -39,7 +39,7 @@ Neste caso, o que você precisa são versões geograficamente específicas da ex
 
 1. Clique em **[!UICONTROL Adicionar público-alvo]** e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
-   ![imagem exp-Versões](assets/exp-versions.png)
+   ![imagem exp-versions](assets/exp-versions.png)
 
    Se o público-alvo ainda não existir, clique em [Criar público-alvo](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configure-o.
 

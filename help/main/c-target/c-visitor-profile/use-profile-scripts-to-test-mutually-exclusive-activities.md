@@ -1,7 +1,7 @@
 ---
-keywords: Script de perfil, atributos de script de perfil, atividades mutuamente exclusivas
-description: Saiba como usar atributos de perfil para configurar testes no Adobe [!DNL Target] que comparam várias atividades, mas não permitem que os mesmos visitantes participem em cada atividade.
-title: Posso Usar Scripts De Perfil Para Testar Atividades Mutuamente Exclusivas?
+keywords: Script de perfil;atributos de script de perfil;atividades mutuamente exclusivas
+description: Saiba como usar atributos de perfil para configurar testes no Adobe [!DNL Target] que comparam várias atividades, mas não permitem que os mesmos visitantes participem de cada atividade.
+title: Posso usar scripts de perfil para testar atividades mutuamente exclusivas?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
@@ -13,16 +13,16 @@ ht-degree: 74%
 
 # Usar scripts de perfil para testar atividades mutuamente exclusivas
 
-Você pode usar os atributos de perfil no [!DNL Adobe Target] para configurar testes que comparam duas ou mais atividades, mas não permitem que os mesmos visitantes participem em cada atividade.
+Você pode usar atributos de perfil no [!DNL Adobe Target] para configurar testes que comparam duas ou mais atividades, mas não permitem que os mesmos visitantes participem de cada atividade.
 
 Testar atividades mutuamente exclusivas evita que um visitante em uma atividade afete os resultados do teste de outras atividades. Quando um visitante participa em diversas atividades, pode ser difícil determinar se um incentivo positivo ou negativo é resultado da experiência do visitante em outra atividade, ou se as interações entre diversas atividades afetaram os resultados de uma ou mais atividades.
 
-Por exemplo, você pode testar duas áreas de sistema de comércio eletrônico. Você pode querer testar tornar o botão &quot;Adicionar ao carrinho&quot; vermelho, em vez de azul. Você também pode testar um novo processo de checkout que reduz o número de etapas, de cinco para duas. Se ambas as atividades tiverem o mesmo evento bem-sucedido (uma compra concluída), pode ser difícil determinar se o botão vermelho melhora as conversões, ou se essas mesmas conversões também aumentaram devido ao processo de finalização aprimorado. Ao separar os testes em atividades mutuamente exclusivas, você pode testar cada alteração independentemente.
+Por exemplo, você pode testar duas áreas de sistema de comércio eletrônico. Talvez você queira testar se o botão &quot;Adicionar ao carrinho&quot; fica vermelho em vez de azul. Você também pode testar um novo processo de checkout que reduz o número de etapas, de cinco para duas. Se ambas as atividades tiverem o mesmo evento bem-sucedido (uma compra concluída), pode ser difícil determinar se o botão vermelho melhora as conversões ou se essas mesmas conversões também foram aumentadas devido ao processo de finalização aprimorado. Ao separar os testes em atividades mutuamente exclusivas, você pode testar cada alteração independentemente.
 
 Esteja ciente das informações a seguir ao usar um dos scripts de perfil abaixo:
 
 * O script de perfil devem ser executados antes da atividade ser iniciada e ele deve permanecer inalterado em toda a duração da atividade.
-* Essa técnica reduz a quantidade de tráfego na atividade, o que pode exigir que a atividade seja executada por mais tempo. Você deve considerar esse fato ao estimar a duração da atividade.
+* Essa técnica reduz a quantidade de tráfego na atividade, o que pode exigir uma execução mais longa da atividade. Você deve considerar esse fato ao estimar a duração da atividade.
 
 ## Configuração de até duas atividades
 
@@ -45,11 +45,11 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` inicia uma rotina que determina a qual grupo o usuário pertence. Se o resultado for entre 0-49, o visitante é atribuído ao GrupoA. Se o resultado for entre 50-100, o visitante é atribuído ao GrupoB. O grupo determina qual atividade o visitante visualizará.
 
-Depois de criar o atributo de perfil, configure a primeira atividade para direcionar a população desejada, exigindo que o parâmetro do perfil do usuário `user.twogroups` corresponde ao valor especificado para GrupoA.
+Depois de criar o atributo de perfil, configure a primeira atividade para direcionar a população desejada exigindo que o parâmetro de perfil do usuário `user.twogroups` corresponde ao valor especificado para o GrupoA.
 
 >[!NOTE]
 >
->Selecione uma mbox logo no início da página. Esse código determina se um visitante acessou a atividade. Desde que uma mbox seja encontrada primeiro pelo navegador, ela pode ser utilizada para definir esse valor.
+>Selecione uma mbox logo no início da página. Esse código determina se um visitante passa pela atividade. Desde que uma mbox seja encontrada primeiro pelo navegador, ela pode ser utilizada para definir esse valor.
 
 Defina a segunda campanha de forma que o parâmetro do perfil do usuário `user.twogroups` corresponda ao valor especificado para o GrupoB.
 

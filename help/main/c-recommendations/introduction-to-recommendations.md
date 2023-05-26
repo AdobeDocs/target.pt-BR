@@ -8,7 +8,7 @@ exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '2114'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ A ilustração a seguir mostra uma recomendação que exibe acessórios que são
 
 ![A recomendação mostra os acessórios que outras pessoas compraram com um novo telefone.](/help/main/c-recommendations/assets/intro-1.png)
 
-Mas o que nem sempre pensamos é como as primeiras marcas digitais estão elevando as expectativas dos clientes. Cada vez mais, o modo como consumimos mídia e conteúdo é orientado por recomendações personalizadas. Pense na primeira coisa que você vê ao abrir a Netflix, o Spotify ou o YouTube. Essas marcas iniciam a experiência do cliente com recomendações. Em um mundo em que há mais alternativas disponíveis do que nunca, é importante identificar o conteúdo mais relevante para o cliente no ponto de interação.
+Mas o que nem sempre pensamos é como as primeiras marcas digitais estão elevando os padrões das expectativas dos clientes. Cada vez mais, o modo como consumimos mídia e conteúdo é orientado por recomendações personalizadas. Pense na primeira coisa que você vê ao abrir a Netflix, o Spotify ou o YouTube. Essas marcas iniciam a experiência do cliente com recomendações. Em um mundo em que há mais alternativas disponíveis do que nunca, é importante identificar o conteúdo mais relevante para o cliente no ponto de interação.
 
 ![Recomendação que mostra marcas digitais](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -103,9 +103,9 @@ Em seguida, você deve adicionar tags ou aproveitar a implementação existente 
 
 ![Ilustração que mostra como capturar o comportamento do usuário](/help/main/c-recommendations/assets/intro-9.png)
 
-Você precisa garantir que o [!DNL Target] esteja ciente dos itens que os usuários estão vendo e comprando. Se a compra não for relevante para o seu contexto, talvez você queira rastrear um tipo diferente de evento de conversão, por exemplo, baixar uma PDF, concluir uma pesquisa, inscrever-se em um boletim informativo, assistir a um vídeo e assim por diante.
+Você precisa garantir que o [!DNL Target] esteja ciente dos itens que os usuários estão vendo e comprando. Se a compra não for relevante para o contexto, talvez você queira rastrear um tipo diferente de evento de conversão, por exemplo, baixar um PDF, concluir uma pesquisa, assinar um boletim informativo, assistir a um vídeo e assim por diante.
 
-Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil configurar isso usando um gerenciador de tags, como tags em [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Também é possível enviar interações offline ou no aplicativo para [!DNL Target] por meio da API em tempo real.
+Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil definir essa etapa usando um gerenciador de tags, como na [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=pt-BR){target=_blank}. Também é possível enviar interações offline ou no aplicativo para [!DNL Target] via API em tempo real.
 
 ### Obter recomendações com o contexto adequado
 
@@ -129,7 +129,7 @@ Uma atividade do [!DNL Recommendations] consiste nos seguintes componentes:
 
 ![Ilustração que mostra em que consiste uma atividade de recomendações: públicos-avo, critérios e designs](/help/main/c-recommendations/assets/intro-12.png)
 
-Imediatamente, o [!DNL Target] inclui 14 públicos-alvo integrados, 42 critérios integrados e 10 modelos de design integrados. Você pode personalizar cada um desses itens ou adicionar os seus próprios. Já tivemos uma [webinars sobre a criação de públicos-alvo](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) em [!DNL Target]. Esta seção foca na definição dos critérios que determinam quais itens serão recomendados.
+Imediatamente, o [!DNL Target] inclui 14 públicos-alvo integrados, 42 critérios integrados e 10 modelos de design integrados. Você pode personalizar cada um desses itens ou adicionar os seus próprios. Já tivemos [webinários sobre criação de públicos](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta seção foca na definição dos critérios que determinam quais itens serão recomendados.
 
 O Target usa o conceito do cartão de critérios. Um cartão de critérios é como uma fórmula para personalização.
 

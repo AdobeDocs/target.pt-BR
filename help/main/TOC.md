@@ -93,9 +93,9 @@ ht-degree: 95%
       + [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integração do Target ao Adobe Experience Manager (AEM) {#aem}
-      + [Integrar o Target com AEM visão geral](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + Fragmentos de experiência e fragmentos de conteúdo {#fragments}
-         + [Visão geral dos fragmentos de experiência e fragmentos de conteúdo do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+      + [Visão geral da integração do Target ao AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + Fragmentos de experiência e Fragmentos de conteúdo {#fragments}
+         + [Visão geral dos Fragmentos de experiência e Fragmentos de conteúdo do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragmentos de experiência do AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [Fragmentos de conteúdo do AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Integração do Target ao Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
@@ -126,7 +126,7 @@ ht-degree: 95%
    + Direcionamento automático {#auto-target}
       + [Visão geral do direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Criar uma atividade de direcionamento automático](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Perguntas frequentes sobre direcionamento automático e solução de problemas](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Perguntas frequentes e solução de problemas do Direcionamento automático](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Relatórios e Direcionamento automático](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Visão geral da Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
@@ -253,7 +253,7 @@ ht-degree: 95%
       + [Trabalhar com conteúdo na biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Pesquisar conteúdo](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Envio de dados dinâmicos em ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [Experiência AEM e fragmentos de conteúdo](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [Fragmentos de experiência e conteúdo do AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Relatórios {#reports}
    + [Visão geral dos relatórios](c-reports/reports.md)
    + Configurações do relatório {#settings}

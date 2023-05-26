@@ -1,7 +1,7 @@
 ---
-keywords: configurações de atividade, metas e configurações, multivariado, mvt
+keywords: configurações de atividade;metas e configurações;multivariado;activity settings;goals and settings;multivariate;mvt
 description: Saiba como usar a página Metas e configurações no Adobe [!DNL Target] para especificar informações sobre as metas de uma atividade de Teste multivariado (MVT).
-title: Como faço para especificar metas e configurações em uma atividade de teste multivariado (MVT)?
+title: Como especificar metas e configurações em uma atividade de teste multivariado (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 # Metas e configurações (testes multivariados)
 
-A página Metas e configurações no Adobe Target é onde você insere informações sobre as metas de seu [!UICONTROL Multivariado] Testes (MVT).
+A página Metas e configurações no Adobe Target é onde você insere informações sobre as metas do [!UICONTROL Multivariado] (MVT).
 
 * Configurações de atividade
 * Configurações da geração de relatórios
@@ -37,9 +37,9 @@ Dependendo das configurações, a interface do usuário e as opções de Priorid
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-Se esta opção não estiver ativada no S[!UICONTROL Administração] > [!UICONTROL Relatório] (o padrão), especifique uma prioridade: Baixo, Médio ou Alto.
+Se esta opção não estiver ativada no[!UICONTROL Administração] > [!UICONTROL Relatórios] (o padrão), especifique uma prioridade: baixa, média ou alta.
 
-Para ativar as prioridades otimizadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatório], em seguida, alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
+Para ativar as prioridades otimizadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatórios]e, em seguida, alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 

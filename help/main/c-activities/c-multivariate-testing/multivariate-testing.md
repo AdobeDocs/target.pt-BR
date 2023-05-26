@@ -1,6 +1,6 @@
 ---
-keywords: teste multivariado, mvt, fatorial completo, mvt ou a/b, multivariado a/b, avaliador de tráfego, quando usar mvt, considerações do mvt, multivariado, fatorial parcial, fatorial parcial, fatorial completo
-description: Saiba como usar o Multivariate Testing (MVT) no Adobe [!DNL Target] para comparar combinações de ofertas em elementos em uma página, para determinar qual combinação tem o melhor desempenho.
+keywords: teste multivariado;mvt;fatorial completo;mvt ou a/b;multivariado a/b;avaliador de tráfego;quando usar mvt;considerações de mvt;multivariado;fatorial parcial;fatorial parcial;fatorial completo
+description: Saiba como usar o Multivariate Testing (MVT) no Adobe [!DNL Target] para comparar combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho.
 title: O que é um teste multivariado?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
@@ -55,14 +55,14 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 * Use um teste MVT para determinar qual elemento é o mais importante e acompanhe com um teste A/B mais focado nesse elemento.
 
-   Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de executar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois de determinar quais elementos e conteúdos são mais úteis para ajudá-lo a atingir suas metas, você pode executar um teste A/B para refinar ainda mais os resultados, por exemplo, para testar duas imagens específicas entre si ou comparar o texto ou as cores de uma chamada para a ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
+   Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de realizar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois de determinar quais elementos e conteúdo são mais úteis para ajudá-lo a atingir suas metas, você pode executar um teste A/B para refinar ainda mais os resultados, como testar duas imagens específicas entre si ou comparar o texto ou as cores de uma chamada para ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Use um teste MVT quando você tiver pelo menos três elementos para testar. Se tiver menos, execute uma série de  Testes A/B.
 * Selecione os elementos de páginas que você acha que terão mais impacto sobre os resultados.
 * Não inclua elementos nem locais demais em um teste. Quanto maior o número, maior será a duração do teste.
-* Planejar o teste com antecedência. Não é aconselhável editar um teste depois que ele for acionado e os dados começarem a ser coletados e analisados.
+* Planejar o teste com antecedência. Não é aconselhável editar um teste depois que ele entrar em vigor e os dados começarem a ser coletados e analisados.
 * Recomenda-se que os elementos sejam independentes entre si.
 
    Por exemplo, não teste o layout e o conteúdo no mesmo teste.
@@ -71,7 +71,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 ## Teste fatorial parcial
 
-[!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. Uma dessas abordagens é a [Método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para testes fatoriais parciais. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. Essa abordagem de funcionalidade e teste pode ser utilizada no [!DNL Target] usando [esta planilha offline](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o projeto de experimentos oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. Uma dessas abordagens é a [Método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para ensaios fatoriais parciais. O Taguchi permite que os profissionais de marketing criem um conjunto de hipóteses que reduzirá o número de permutas de experiências que precisam ser testadas e, por sua vez, diminua os requisitos de tráfego para um teste multivariado. Essa abordagem de funcionalidade e teste pode ser utilizada no [!DNL Target] usando [esta planilha offline](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Se a sua equipe usa outras abordagens de Projeto de Experimentos, você pode usar essa planilha como implementação de referência para projetos experimentais personalizados.
 

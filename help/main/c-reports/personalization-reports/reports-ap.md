@@ -1,7 +1,7 @@
 ---
-keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, relatório de nível de atividade, relatório de nível de oferta, relatório de detalhes da oferta, perguntas frequentes
-description: Saiba como interpretar o relatório de Resumo do Automated Personalization no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes desse relatório.
-title: Como uso os relatórios de resumo do Automated Personalization?
+keywords: Direcionamento;relatórios de AP;relatórios de personalização automatizada;relatório de nível de atividade;relatório de nível de oferta;relatório de detalhes da oferta;perguntas frequentes
+description: Saiba como interpretar o relatório de resumo do Automated Personalization no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes a partir desse relatório.
+title: Como usar os relatórios de resumo do Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # Relatórios de resumo de Automated Personalization
 
-Relatórios de resumo especializados estão disponíveis para usuários de [!UICONTROL Automated Personalization] atividades em [!DNL Adobe Target].
+Relatórios de resumo especializados estão disponíveis para usuários do [!UICONTROL Automated Personalization] atividades no [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Relatórios de resumo especializados estão disponíveis para usuários de [!UIC
 
 [!UICONTROL Personalização automatizada] fornece os relatórios a seguir:
 
-* Nível da atividade
+* Nível de atividade
 * Nível da oferta
 * Segmentos automatizados
 * Atributos importantes
@@ -45,7 +45,7 @@ As regras padrão da interpretação de resultados do teste A/B ainda são aplic
 
 O relatório [!UICONTROL Nível da oferta] para a experiência Random Forest compara o desempenho de cada algoritmo aplicado à oferta à mesma oferta veiculada aleatoriamente (Controle). Portanto, as ofertas não devem ser comparadas entre si nessa exibição.
 
-Clique no algoritmo de experiência (Random Forest ou controle) para visualizar o [!UICONTROL Nível da oferta] relatório.
+Clique no algoritmo da experiência (Random Forest ou controle) para visualizar o [!UICONTROL Nível da oferta] relatório.
 
 ![Relatório de nível de oferta no Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
@@ -53,19 +53,19 @@ Clique no algoritmo de experiência (Random Forest ou controle) para visualizar 
 >
 >Um ícone de relógio indica que o modelo de algoritmo ainda está sendo criado. Um ícone de marca de verificação indica que o algoritmo de base foi estabelecido.
 
-As ofertas podem ser mostradas em [grupos de relatórios](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)e esses grupos de relatórios podem ser recolhidos e expandidos. Clique em **[!UICONTROL Controle]** ou **[!UICONTROL Direcionado]** na tabela para exibir informações acumuladas por grupos de relatórios, em vez de por ofertas.
+As ofertas podem ser exibidas em [grupos de relatórios](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)e esses grupos de relatórios podem ser recolhidos e expandidos. Clique em **[!UICONTROL Controle]** ou **[!UICONTROL Direcionado]** na tabela para exibir informações acumuladas por grupos de relatórios, em vez de por ofertas.
 
 ## Segmentos automatizados
 
-Clique no botão [!UICONTROL Segmentos automatizados] ícone . Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
+Clique em [!UICONTROL Segmentos automatizados] ícone. Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
-![Ícone de segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements-ap.png)
+![Ícone de Segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements-ap.png)
 
 Para obter mais informações, consulte [Relatório de Segmentos automatizados](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Atributos importantes
 
-Clique no botão [!UICONTROL Atributos importantes] ícone . Este relatório mostra como, em atividades diferentes, atributos diferentes são mais (ou menos) importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
+Clique em [!UICONTROL Atributos importantes] ícone. Este relatório mostra como, em atividades diferentes, atributos distintos são mais (ou menos) importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
 
 ![Ícone de atributos importantes](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
@@ -73,12 +73,12 @@ Para obter mais informações, consulte [Relatório de atributos importantes](/h
 
 ## Perguntas frequentes
 
-### Por que existem diferenças nos dados entre os relatórios Nível de atividade e Nível de oferta?
+### Por que há diferenças nos dados entre os relatórios de Nível de atividade e Nível de oferta?
 
-**[!UICONTROL Nível da atividade] relatório**: Visitas registradas na [!UICONTROL Nível da atividade] relatório captura o número de visitas à(s) experiência(s) de controle vs. tráfego &quot;direcionado&quot;. O tráfego direcionado inclui uma combinação de tráfego de exploração e tráfego personalizado.
+**[!UICONTROL Nível de atividade] relatório**: visitas registradas no [!UICONTROL Nível de atividade] o relatório captura o número de visitas à(s) experiência(s) de controle vs. tráfego &quot;direcionado&quot;. O tráfego direcionado inclui uma combinação de tráfego de exploração e tráfego personalizado.
 
-**Relatório de nível de oferta**: Impressões registradas na [!UICONTROL Nível da oferta] relatório captura o número de impressões de cada oferta. Portanto, em uma atividade com mais de um local, o número total de visitas registradas na [!UICONTROL Nível da oferta] em todos os Grupos de relatórios é igual ao múltiplo do número de visitas registradas para o tráfego de Controle ou Direcionado no [!UICONTROL Nível da atividade] relatório vezes o número total de locais na atividade. As impressões do conteúdo padrão que ocorrem em locais onde o conteúdo padrão era uma opção disponível são registradas no grupo de ofertas &quot;Conteúdo padrão&quot;. As impressões de ofertas que não foram atribuídas a um grupo de relatórios são registradas no grupo de ofertas &quot;Não agrupadas&quot;.
+**Relatório de nível de oferta**: Impressões gravadas na [!UICONTROL Nível da oferta] Esse relatório captura o número de impressões para cada oferta. Portanto, em uma atividade com mais de um local, o número total de visitas registradas no [!UICONTROL Nível da oferta] relatório em todos os Grupos de relatórios é igual ao múltiplo do número de visitas registradas para tráfego de Controle ou Direcionado no [!UICONTROL Nível de atividade] relatório vezes o número total de locais na atividade. As impressões de conteúdo padrão que ocorrem em locais onde o conteúdo padrão era uma opção disponível são registradas no grupo de ofertas &quot;Conteúdo padrão&quot;. As impressões das ofertas que foram desatribuídas a um grupo de relatórios são registradas no grupo de ofertas &quot;Desagrupado&quot;.
 
 >[!NOTE]
 >
->O número de impressões registradas na [!UICONTROL Nível da oferta] pode não ser um número inteiro exato múltiplo do número de visitas registradas na variável [!UICONTROL Nível da atividade] relatório. Isso se deve a pequenas discrepâncias que ocorrem na captura do tráfego de dados de relatórios pela Internet (a taxa de discrepância típica é inferior a 5%). Assim, o número de impressões não será um múltiplo exato quando o número de locais disponíveis na atividade for alterado após a atividade ser ativada.
+>O número de impressões registradas no [!UICONTROL Nível da oferta] O relatório pode não ser um múltiplo inteiro exato do número de visitas registradas na variável [!UICONTROL Nível de atividade] relatório. Isso se deve a pequenas discrepâncias que ocorrem na captura do tráfego de dados de relatórios pela Internet (a taxa de discrepância típica é inferior a 5%). Assim, o número de impressões não será um múltiplo exato quando o número de locais disponíveis na atividade for alterado após a ativação da atividade.

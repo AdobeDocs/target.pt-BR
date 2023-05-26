@@ -1,7 +1,7 @@
 ---
 keywords: configurações de atividade, metas e configurações de direcionamento da experiência, metas e configurações xt, direcionamento da experiência, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
 description: Saiba como usar a página Metas e configurações no Adobe [!DNL Target] para especificar informações sobre as metas de uma atividade de Direcionamento de experiência (XT).
-title: Como posso especificar metas e configurações em uma atividade de direcionamento de experiência?
+title: Como especificar metas e configurações em uma atividade de direcionamento de experiência?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -37,9 +37,9 @@ Dependendo das configurações, a interface do usuário e as opções de Priorid
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-Se esta opção não estiver ativada em Administração (o padrão), especifique uma prioridade: Baixo, Médio ou Alto.
+Se esta opção não estiver ativada na Administração (padrão), especifique uma prioridade: baixa, média ou alta.
 
-Para ativar as prioridades otimizadas, clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatório]**, em seguida, alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
+Para ativar as prioridades otimizadas, clique em **[!UICONTROL Administração]** > **[!UICONTROL Relatórios]** e, em seguida, alterne a opção Ativar prioridades otimizadas para a posição &quot;Ativado&quot;.
 
 Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 

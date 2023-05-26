@@ -1,7 +1,7 @@
 ---
-keywords: Direcionamento de experiência; xt; url da atividade; url
+keywords: Direcionamento de experiência;xt;url de atividade;url
 description: Saiba como especificar o URL da atividade que determina a página usada no teste e que é aberta quando a atividade de Direcionamento de experiência é criada usando o Adobe Target.
-title: O que é o URL da atividade em uma atividade de direcionamento de experiência (XT)?
+title: Qual é o URL da atividade em uma atividade de Direcionamento de experiência (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,9 +11,9 @@ ht-degree: 63%
 
 ---
 
-# URL da atividade nas atividades de Direcionamento de experiência (XT)
+# URL de atividade nas atividades de Direcionamento de experiência (XT)
 
-O [!UICONTROL URL da atividade] determina a página que é usada no [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] (XT), e isso é aberto no [!UICONTROL Visual Experience Composer] (VEC) ou [!UICONTROL Experience Composer baseado em formulário] quando a atividade for projetada.
+A variável [!UICONTROL URL da atividade] determina a página que é usada na [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] (XT), e que abre no [!UICONTROL Visual Experience Composer] (VEC) [!UICONTROL Experience Composer baseado em formulário] quando a atividade é criada.
 
 1. Quando solicitado ao [criar uma atividade de XT](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), especifique o URL da atividade. Digite o URL completo (incluindo `https://`) e clique em **[!UICONTROL Criar atividade]**.
 

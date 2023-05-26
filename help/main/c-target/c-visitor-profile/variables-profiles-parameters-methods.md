@@ -1,7 +1,7 @@
 ---
 keywords: variáveis, perfis, parâmetros, perfis internos, métodos, variáveis de url, perfis geográficos, perfis de terceiros, variáveis da mbox, variáveis de campanha, atributos do cliente
-description: Exiba uma lista de vários perfis, variáveis e parâmetros úteis em scripts de perfil no Adobe Target.
-title: Quais perfis, variáveis e parâmetros são usados em [!DNL Target]?
+description: Veja uma lista de vários perfis, variáveis e parâmetros úteis em scripts de perfil no Adobe Target.
+title: Quais perfis, variáveis e parâmetros são usados no [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
@@ -29,7 +29,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.daysSinceLastVisit |  |
 | user.browser | O agente do usuário |
 | user.header | Todos os perfis `user.header` são incorporados nos dados do cabeçalho da solicitação de mbox |
-| user.header(&#39;x-forward-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>É possível obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172.<br>Observação: user.header(&#39;x-cluster-client-ip&#39;) foi descontinuado. |
+| user.header(&#39;x-forwarded-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>É possível obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172.<br>Observação: user.header(&#39;x-cluster-client-ip&#39;) foi descontinuado. |
 | user.header(&#39;host&#39;) | Nome do host do site |
 | user.header(&#39;cookie&#39;) | Dados de cookie do visitante |
 | user.header(&#39;user-agent&#39;) | Agente do usuário do navegador do visitante |
@@ -41,8 +41,8 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.getLocal(&#39;param_name&#39;); | Recupere o valor definido usando `user.setLocal`. |
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Crie valores de perfil persistentes em um script de perfil. Esses valores persistem como um script de perfil, mas você só tem acesso a ele dentro do script em que foi definido. |
 | user.get(&#39;param_name&#39;) |  |
-| user.parameter | Atributos de perfil persistentes criados a partir de scripts de perfil. Também faz referência a perfis de &quot;sistema&quot;, como localização geográfica, contagem de visitas, etc. |
-| profile.get(&#39;param_name&#39;) | A maneira correta de obter um parâmetro de perfil para usar em um script de perfil é o método profile.get(&#39;param_name&#39;). |
+| user.parameter | Atributos de perfil persistentes criados a partir de scripts de perfil. Também faz referência a perfis de &quot;sistema&quot; como geolocalização, contagem de visitas etc. |
+| profile.get(&#39;param_name&#39;) | A maneira correta de obter um parâmetro de perfil a ser usado em um script de perfil é o método profile.get(&#39;param_name&#39;). |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Os parâmetros da mbox que são tornados persistentes devido ao seu prefixo profile. . |
 | profile.browserTime | A hora do navegador local do visitante. Para a hora do sistema, crie um novo objeto de data no script de perfil |
@@ -84,11 +84,11 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | Parâmetros enviados com as mboxes do pedido:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | Um parâmetro de mbox para sincronizar uma ID de cliente com a mboxPCID do Target. Uma ID de cliente é uma ID que sua empresa usa para rastrear visitantes, como uma ID de CRM, uma ID de associação ou algo semelhante. Essa ID pode ser usada para adicionar informações por meio das APIs de perfil e  [Atributos do cliente](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | Em cada chamada de mbox, a página recebe um valor. |
-| mboxDebug | Usado somente para depurar informações. Adicionado ao url da página, onde a at.js procura isso. |
+| mboxDebug | Usado somente para depurar informações. Adicionado ao url da página em que o at.js procura isso. |
 | mboxOverride.browserIp | Define uma geografia diferente do local real para que seja possível testar como algo seria em outro local.<br>**Observação:** os parâmetros mboxOverride devem ser usados somente durante o teste da atividade e não em produção. O uso de qualquer parâmetro mboxOverride pode causar discrepâncias no relatório ao usar o [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Você deve usar o [modo de QA da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) durante o teste para garantir que sua atividade funciona como o esperado antes de enviar a atividade para o ambiente ativo. |
 
 ## Atributos do cliente {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 Os atributos do cliente podem ser referenciados em scripts de perfil, formatados como `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Esses atributos também ficam disponíveis como tokens em scripts de perfil e diretamente em ofertas, sem exigir primeiramente um script de perfil. O token deve estar no formato: `${crs.datasourceName.attributeName}`. Observe que os espaços na variável `datasourceName` deve ser removido de qualquer chamada de API.
+Esses atributos também ficam disponíveis como tokens em scripts de perfil e diretamente em ofertas, sem exigir primeiramente um script de perfil. O token deve estar no formato: `${crs.datasourceName.attributeName}`. Observe que os espaços no `datasourceName` deve ser removido de qualquer chamada de API.

@@ -1,5 +1,5 @@
 ---
-keywords: vários valores; atributos; recomendações; vários valores; vários valores; vários valores
+keywords: vários valores;atributos;recomendações;vários valores;vários valores
 description: Saiba como trabalhar com um campo de vários valores no Adobe [!DNL Target] Recommendations usando operadores especiais de vários valores, por exemplo, ao recomendar filmes com vários atores.
 title: Posso usar atributos de vários valores no Recommendations?
 feature: Recommendations
@@ -13,17 +13,17 @@ ht-degree: 8%
 
 # Trabalhar com atributos de vários valores
 
-Às vezes, talvez você queira trabalhar com um campo de vários valores. Considere os exemplos a seguir:
+Às vezes, você pode querer trabalhar com um campo de vários valores. Considere os exemplos a seguir:
 
 * Você oferece filmes aos usuários. Determinado filme tem vários atores.
 * Você vende ingressos para shows. Um determinado usuário tem várias bandas favoritas.
 * Você vende roupas. Uma camisa está disponível em vários tamanhos.
 
-Para lidar com recomendações nesses cenários, você pode transmitir dados de vários valores para [!DNL Target Recommendations] e usar operadores especiais de vários valores.
+Para lidar com recomendações nesses cenários, você pode passar dados de vários valores para [!DNL Target Recommendations] e usar operadores especiais de vários valores.
 
 Para permitir [!DNL Recommendations] para identificar dados de vários valores, eles devem ser enviados como uma matriz JSON, como nas amostras de código abaixo.
 
-## Passe um parâmetro de vários valores no JavaScript
+## Passar um parâmetro de vários valores no JavaScript
 
 ```
 function targetPageParams() { 
@@ -40,9 +40,9 @@ function targetPageParams() {
 }
 ```
 
-Para obter mais informações, consulte [Implementar atributos de vários valores](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) em *Atributos de entidade personalizados*.
+Para obter mais informações, consulte [Implementar atributos de vários valores](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Atributos de entidade personalizados*.
 
-## Passe um atributo de entidade de vários valores em um arquivo CSV
+## Passar um atributo de entidade de vários valores em um arquivo CSV
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -59,22 +59,22 @@ Para obter mais informações, consulte [Implementar atributos de vários valore
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Quando um atributo de entidade, atributo de perfil ou parâmetro de mbox é fornecido como vários valores de acordo com o formato acima, [!DNL Recommendations] infere automaticamente que o campo tem vários valores.
+Quando um atributo de entidade, atributo de perfil ou parâmetro de mbox é fornecido como vários valores de acordo com o formato acima, [!DNL Recommendations] O infere automaticamente que o campo tem vários valores.
 
 Os seguintes operadores estão disponíveis para uso com atributos de entidade, perfil e mbox de vários valores:
 
-* [!UICONTROL está contida na lista]
-* [!UICONTROL não está contido na lista]
+* [!UICONTROL está contido na lista]
+* [!UICONTROL não consta na lista]
 
-## Trabalhar com atributos de vários valores nas regras de inclusão
+## Trabalhar com atributos de vários valores em regras de inclusão
 
 >[!NOTE]
 >
->No momento, o suporte para correspondência dinâmica a atributos de vários valores está disponível somente em critérios ao usar uma regra de correspondência de atributos de perfil ou parâmetro (mbox) ao comparar um único valor do lado esquerdo a um lado direito de vários valores. Atributos de vários valores não são suportados atualmente em promoções, correspondência de atributos de entidade ou para listas no lado esquerdo das regras de inclusão.
+>No momento, o suporte para correspondência dinâmica a atributos de vários valores está disponível apenas em critérios do ao usar uma regra de correspondência de atributo de perfil ou de correspondência de atributo de parâmetro (mbox) ao comparar um único valor do lado esquerdo com um multivalor do lado direito. Atualmente, os atributos de vários valores não são permitidos em promoções, na correspondência de atributos de entidade ou em listas no lado esquerdo das regras de inclusão.
 
 ### Exemplo: Excluir itens observados recentemente
 
-Suponha que você deseja impedir que qualquer filme que esteja nos últimos dez filmes assistidos pelo usuário seja recomendado. Primeiro, escreva um script de perfil chamado `user.lastWatchedMovies` para rastrear os últimos dez filmes exibidos como um array JSON. Em seguida, você pode excluir os itens usando a seguinte regra de inclusão:
+Suponha que você queira impedir que qualquer filme que esteja nos últimos dez filmes assistidos do usuário seja recomendado. Primeiro, escreva um script de perfil chamado `user.lastWatchedMovies` para rastrear os últimos dez filmes exibidos como uma matriz JSON. Em seguida, é possível excluir os itens usando a seguinte regra de inclusão:
 
 ```
 `Profile Attribute Matching`
@@ -94,9 +94,9 @@ Representação da API JSON da regra de inclusão:
 } 
 ```
 
-### Exemplo: Recomende itens dos favoritos do usuário
+### Exemplo: itens recomendados dos favoritos do usuário
 
-Suponha que você queira recomendar ingressos somente para concertos se a banda tocando for uma das bandas favoritas do usuário. Primeiro, verifique se você tem uma variável de perfil chamada `profile.favoriteBands` que contém as bandas favoritas do usuário. Em seguida, verifique se o catálogo inclui um atributo `entity.artistPerforming` que inclui o artista que realiza o concerto. Em seguida, você pode usar a seguinte regra de inclusão:
+Suponha que você queira recomendar ingressos somente para shows se a banda tocando for uma das bandas favoritas do usuário. Primeiro, verifique se você tem uma variável de perfil chamada `profile.favoriteBands` que contém as bandas favoritas do usuário. Em seguida, verifique se o catálogo inclui um atributo `entity.artistPerforming` isso inclui o artista se apresentando no concerto. Em seguida, é possível usar a seguinte regra de inclusão:
 
 ```
 `Profile Attribute Matching`
@@ -116,9 +116,9 @@ Representação da API JSON da regra de inclusão:
 }
 ```
 
-### Exemplo: Criação de critérios da API recomendando itens dos favoritos de um usuário
+### Exemplo: criação de critérios pela API recomendando itens dos favoritos de um usuário
 
-Critérios usando regras de filtragem de vários valores, como todos os critérios, podem ser criados por APIs do Adobe I/O. Uma chamada de API de exemplo para criar um critério onde o atributo da entidade `id` está contida na lista de parâmetros da mbox `favorites` é fornecido aqui:
+Critérios usando regras de filtragem de vários valores, como todos os critérios, podem ser criados por meio de APIs Adobe I/O. Um exemplo de chamada de API para criar um critério onde o atributo de entidade `id` está contido na lista de parâmetros da mbox `favorites` é fornecido aqui:
 
 ```
 curl -X POST \

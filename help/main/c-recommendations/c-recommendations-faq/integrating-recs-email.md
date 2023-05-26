@@ -26,7 +26,7 @@ Há três métodos disponíveis para integrar o [!DNL Target Recommendations] ao
 
 O uso do método 1 ou do método 2 exige que o ESP faça chamadas para uma API externa com base no cliente/email e aguarde o retorno do conteúdo. Estes métodos não são compatíveis com todos os ESPs; entre em contato com o seu ESP para descobrir se ele é compatível com esse padrão de integração.
 
-O uso do método 3 exige que o ESP participe de uma lista de recomendações por ID de produto ou ID de categoria feita para a sua lista de emails. Esse método pode ser baseado em um atributo, como o último produto visualizado do cliente, o último produto comprado ou a categoria mais visualizada. No entanto, o ESP deve ter acesso a esses dados em seu perfil de cliente para realizar a associação. Entre em contato com o seu ESP para descobrir se ele tem acesso a esses dados e é compatível com esse padrão de integração.
+O uso do método 3 exige que o ESP participe de uma lista de recomendações por ID de produto ou ID de categoria feita para a sua lista de emails. Este método pode ser baseado em um atributo, como o último produto visualizado, o último produto comprado ou a categoria mais visualizada pelo cliente. No entanto, o ESP deve ter acesso a esses dados em seu perfil de cliente para realizar a associação. Entre em contato com o seu ESP para descobrir se ele tem acesso a esses dados e é compatível com esse padrão de integração.
 
 A personalização de recomendações de tempo aberto não é compatível com o [!DNL Adobe Target].
 
