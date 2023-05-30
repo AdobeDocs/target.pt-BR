@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '621'
+ht-degree: 57%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 83%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target] Standard/Premium 23.5.2 (31 de maio de 2023)
+
+Essa versão conta com os seguintes aprimoramentos e correções:
+
+* Correção de um problema que resultava na exibição de uma página em branco ao gerar um token de autorização de API de perfil. (TGT-45387 e TGT-45423)
+* Correção de um problema que impedia a exibição de uma imagem no [!UICONTROL Criar design] se o nome da imagem contiver 18030 caracteres GB. (TGT-44614)
+* Correção de um problema em que alguns caracteres de símbolo GB 18030 eram evitados incorretamente em Texto/HTML nas experiências. (TGT-44600)
+* Correção de um problema que causava relatórios do [!UICONTROL Personalização automática] atividades a serem congeladas durante a análise. (TGT-44820)
+* Correção de um problema que impedia a pesquisa de uma atividade no [!UICONTROL Atividade] se o nome da atividade contiver um colchete ( [ ou ] ). (TGT-44777)
+* Correção de um problema que impedia a sincronização de uma atividade se o objetivo da atividade contivesse caracteres especiais. (TGT-44982)
+* Correção de um problema que fazia com que nenhuma atividade fosse exibida no [!DNL Target] Interface do usuário do espaço de trabalho Padrão para determinados clientes. (TGT-45286)
+* Atualização do comportamento do sinalizador &quot;Não permitir duplicatas&quot;. Os sinalizadores de ofertas repetitivas excluídas são atualizados para permitir ofertas repetitivas se forem a oferta de conteúdo padrão (para APIs v3, v4) e permitir opções duplicadas se as opções referenciarem a oferta de conteúdo padrão e não tiverem modelos definidos. (TNT-46617)
+* Correção de um problema em que um parâmetro de consulta era adicionado a um URL que impedia o carregamento da página no [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
+* Várias correções de localização foram feitas na interface do [!DNL Target].
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23 a 25 de maio de 2023)
 

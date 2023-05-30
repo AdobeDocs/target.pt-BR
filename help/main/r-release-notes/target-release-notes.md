@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 56%
+source-wordcount: '281'
+ht-degree: 84%
 
 ---
 
@@ -22,18 +22,6 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
-
-## [!DNL Target] Standard/Premium 23.5.2 (31 de maio de 2023)
-
-Essa versão conta com os seguintes aprimoramentos e correções:
-
-* Correção de um problema que resultava na exibição de uma página em branco ao gerar um token de autorização de API de perfil. (TGT-45387)
-* Correção de um problema que impedia a exibição de uma imagem no [!UICONTROL Criar design] se o nome da imagem contiver 18030 caracteres GB. (TGT-44614)
-* Correção de um problema que causava relatórios do [!UICONTROL Personalização automática] atividades a serem congeladas durante a análise. (TGT-44820)
-* Correção de um problema que fazia com que nenhuma atividade fosse exibida na interface do usuário do Target para o espaço de trabalho Padrão para determinados clientes. (TGT-45286)
-* Atualização do comportamento do sinalizador &quot;Não permitir duplicatas&quot;. Os sinalizadores de ofertas repetitivas excluídas são atualizados para permitir ofertas repetitivas se forem a oferta de conteúdo padrão (para APIs v3, v4) e permitir opções duplicadas se as opções referenciarem a oferta de conteúdo padrão e não tiverem modelos definidos. (TNT-46617)
-* Correção de um problema em que um parâmetro de consulta era adicionado a um URL que impedia o carregamento da página no Visual Experience Composer (VEC). (TGT-44873)
-* Correção de um problema em que alguns caracteres eram evitados incorretamente em Text/HTML nas experiências. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (Data a ser determinada)
 
