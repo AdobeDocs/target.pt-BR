@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '2870'
-ht-degree: 98%
+source-wordcount: '2890'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 30 de maio | [[!DNL Target] Notas de versão (atuais)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.5.2 do [!DNL Target Standard/Premium]. |
+|  | [Integrar com a [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artigo atualizado com informações sobre compartilhamento [!UICONTROL Atributos de perfil do Real-Time CDP] com [!DNL Target] para uso em ofertas HTML e JSON. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos futuros de Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee-break (7 de junho)</li><li>Acompanhamento do webinário de Disponibilidade do programa de personalização (21 de junho)</li></ul> |
 | 23 de maio | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Observação importante atualizada. |
 |  | [[!DNL Target] Notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Notas de pré-lançamento atualizadas para versões futuras. |
