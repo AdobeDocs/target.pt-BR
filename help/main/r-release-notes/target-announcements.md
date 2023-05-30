@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Nada agendado no momento.
 ## Gravações de webinários antigos e sessões do construtor de habilidades
 
 Acessar gravações de eventos anteriores (quando disponíveis):
+
+### A Jornada para impulsionar o crescimento com a personalização
+
+Aumente a capacidade de sua organização de fornecer personalização, apresentada pelo gerente de sucesso do cliente do Adobe, Ramon Céspedes.
+
+O relatório de analistas-chave sugere que as empresas que se sobressaem na personalização geram 40% mais receita do que suas contrapartes. Para atender à demanda por experiências novas, relevantes e altamente personalizadas a cada clique, os profissionais de marketing precisam da estrutura e da estratégia certas. Neste webinário, junte-se aos especialistas do Adobe para saber como usar a estrutura orientada por dados para criar os programas de personalização de sua organização e impulsionar o sucesso.
+
+* [Link da gravação](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Ajuste da personalização alimentada por IA: Novos recursos do [!DNL Adobe Target] (11 de outubro de 2022)
 
