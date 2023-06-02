@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -28,13 +28,13 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 | Atributos de perfil da Real-Time CDP compartilhados com o [!DNL Target] | Os [!UICONTROL atributos de perfil da Real-Time CDP] podem ser compartilhados com o [!DNL Target] para uso em ofertas HTML e JSON.<P>Para obter mais informações, consulte [Compartilhar atributos de perfil da Real-Time CDP com o [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Correção de um problema que resultava na exibição de uma página em branco ao gerar um token de autorização de API de perfil. (TGT-45387 e TGT-45423)
-* Correção de um problema que impedia a exibição de uma imagem no [!UICONTROL Criar design] se o nome da imagem contiver 18030 caracteres GB. (TGT-44614)
+* Correção de um problema que impedia a exibição de uma imagem no painel [!UICONTROL Criar design] se o nome da imagem contivesse caracteres GB 18030. (TGT-44614)
 * Correção de um problema em que alguns caracteres de símbolo GB 18030 eram evitados incorretamente em Texto/HTML nas experiências. (TGT-44600)
-* Correção de um problema que causava relatórios do [!UICONTROL Personalização automática] atividades a serem congeladas durante a análise. (TGT-44820)
+* Correção de um problema que causava o congelamento de relatórios de atividades de [!UICONTROL Personalização automática] durante a análise. (TGT-44820)
 * Correção de um problema que impedia a pesquisa de uma atividade no [!UICONTROL Atividade] se o nome da atividade contiver um colchete ( [ ou ] ). (TGT-44777)
 * Correção de um problema que impedia a sincronização de uma atividade se o objetivo da atividade contivesse caracteres especiais. (TGT-44982)
 * Correção de um problema que fazia com que nenhuma atividade fosse exibida no [!DNL Target] Interface do usuário do espaço de trabalho Padrão para determinados clientes. (TGT-45286)
-* Atualização do comportamento do sinalizador &quot;Não permitir duplicatas&quot;. Os sinalizadores de ofertas repetitivas excluídas são atualizados para permitir ofertas repetitivas se forem a oferta de conteúdo padrão (para APIs v3, v4) e permitir opções duplicadas se as opções referenciarem a oferta de conteúdo padrão e não tiverem modelos definidos. (TNT-46617)
+* Atualização do comportamento do sinalizador “Não permitir duplicações”. Os sinalizadores de exclusão de ofertas repetidas foram atualizados para permitir ofertas repetidas se elas forem ofertas de conteúdo padrão (para APIs v3, v4) e permitir opções de duplicação se estas referenciarem a oferta de conteúdo padrão e não tiverem nenhum modelo definido. (TNT-46617)
 * Correção de um problema em que um parâmetro de consulta era adicionado a um URL que impedia o carregamento da página no [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
 * Várias correções de localização foram feitas na interface do [!DNL Target].
 
@@ -42,13 +42,15 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-23 de maio: Europa, Oriente Médio e África (EMEA) região 24 de maio: Ásia-Pacífico (APAC) região 25 de maio: região das Américas
+23 de maio: região da Europa, Oriente Médio e África (EMEA) 
+24 de maio: região Ásia-Pacífico (APAC)
+25 de maio: região das Américas
 
-Esta versão conta com os seguintes novos aprimoramentos e correções:
+Esta versão contém os seguintes aprimoramentos e correções:
 
-* Correção de um problema que impedia determinados clientes de criar públicos-alvo com perfis de visitante usando operadores &quot;maior que&quot; ou &quot;menor que&quot;. (TGT-45271)
+* Correção de um problema que impedia determinados clientes de criar públicos com perfis de visitante usando operadores “maior que” ou “menor que”. (TGT-45271)
 * Várias correções de localização foram feitas na interface do [!DNL Target].
-* Atualização da interface do usuário do Target em vários locais para uma atualização futura da interface do usuário (as alterações estão atrás de um sinalizador de recurso até que as atualizações sejam lançadas).
+* Atualização de vários locais da interface do Target para uma futura reformulação da interface (as alterações serão marcadas por um sinalizador de recurso até que as atualizações sejam lançadas).
 
 ## Notas de versão adicionais e detalhes da versão
 

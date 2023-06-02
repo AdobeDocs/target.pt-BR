@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '2890'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -20,19 +20,19 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 30 de maio | [[!DNL Target] Notas de versão (atuais)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.5.2 do [!DNL Target Standard/Premium]. |
-|  | [Integrar com a [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artigo atualizado com informações sobre compartilhamento [!UICONTROL Atributos de perfil do Real-Time CDP] com [!DNL Target] para uso em ofertas HTML e JSON. |
+|  | [Integrar com a  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artigo atualizado com informações sobre compartilhamento [!UICONTROL Atributos de perfil do Real-Time CDP] com [!DNL Target] para uso em ofertas HTML e JSON. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos futuros de Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee-break (7 de junho)</li><li>Acompanhamento do webinário de Disponibilidade do programa de personalização (21 de junho)</li></ul> |
-| 23 de maio | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Observação importante atualizada. |
-|  | [[!DNL Target] Notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Notas de pré-lançamento atualizadas para versões futuras. |
+| 23 de maio | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Atualização de uma nota importante. |
+|  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento das próximas versões. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.5.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25 a 27 de abril de 2023)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 22 de maio | [Integrar com a [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Os novos vídeos abaixo foram adicionados:<ul><li>Configure o [!DNL Adobe Target] destino em [!DNL Real-Time Customer Data Platform]</li><li>Ativar segmentos e atributos de perfil</li><li>Uso [!DNL Real-Time CDP] segmentos em [!DNL Target]</li><li>Uso [!DNL Real-Time CDP] atributos de perfil em [!DNL Adobe Target]</li></ul> |
-|  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Observação importante atualizada. |
-| 19 de maio | [[!DNL Target] Notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Notas de pré-lançamento atualizadas para versões futuras. |
+| 22 de maio | [Integrar com a  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Os novos vídeos abaixo foram adicionados:<ul><li>Configuração do destino do [!DNL Adobe Target] na [!DNL Real-Time Customer Data Platform]</li><li>Ativação de segmentos e atributos de perfil</li><li>Uso de segmentos da [!DNL Real-Time CDP] no [!DNL Target]</li><li>Uso de atributos de perfil da [!DNL Real-Time CDP] no [!DNL Adobe Target]</li></ul> |
+|  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Atualização de uma nota importante. |
+| 19 de maio | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento das próximas versões. |
 | 17 de maio | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre a Sessão de Perguntas e respostas da [!UICONTROL comunidade do Adobe Target], na quarta-feira, 24 de maio de 2023. |
 | 16 de maio | [Atributos da entidade](/help/main/c-recommendations/c-products/entity-attributes.md) | Indica que “espaços” não são permitidos em valores de `entity.id`. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=pt-BR){target=_blank} | A descrição de `viewsEnabled` foi atualizada. |

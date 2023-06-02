@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ Esta versão inclui as seguintes melhorias:
 
 | Recurso | Detalhes |
 |--- |--- |
-| [!UICONTROL Modo de controle de qualidade] para [!UICONTROL Automated Personalization] atividades | [!DNL Adobe Target] [!UICONTROL Modo de controle de qualidade] agora está disponível para [!UICONTROL Automated Personalization] atividades, substituição [!UICONTROL Visualizar links] funcionalidade.<P>Para obter mais informações, consulte [Garantia de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
+| [!UICONTROL Modo de controle de qualidade] para atividades do [!UICONTROL Automated Personalization] | O [!UICONTROL Modo de controle de qualidade] do [!DNL Adobe Target] agora está disponível para as atividades do [!UICONTROL Automated Personalization], substituindo a funcionalidade de [!UICONTROL Links de visualização].<P>Para obter mais informações, consulte [Controle de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
 
-* Aprimoramentos de desempenho para impedir a funcionalidade de duplicatas (incluindo redução no tempo de carregamento) enquanto [gerenciamento de exclusões](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] atividades.
+* Aprimoramentos no desempenho da funcionalidade “Não permitir duplicações” (incluindo redução no tempo de carregamento) durante o [gerenciamento de exclusões](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) em atividades do [!UICONTROL Automated Personalization].
 
 ## Notas de versão adicionais e detalhes da versão
 
