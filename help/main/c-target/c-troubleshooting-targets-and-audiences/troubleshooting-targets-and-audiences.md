@@ -4,10 +4,10 @@ description: Veja as perguntas frequentes sobre o direcionamento de experiência
 title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públicos-alvo?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 62%
+source-wordcount: '962'
+ht-degree: 63%
 
 ---
 
@@ -39,7 +39,7 @@ Além do direcionamento de público-alvo no URL, você também pode especificar 
 
 Direcionamento de URL de público-alvo e direcionamento de URL adicionados via [!UICONTROL Regras de modelos] avalie como direcionamento de URL (consulte Direcionamento de URL abaixo).
 
-### Direcionamento de URL
+### Direcionamento de URL {#url-targeting}
 
 Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em [!UICONTROL Adicionar regra], clique em [!UICONTROL Páginas do site], selecione uma opção na primeira lista suspensa ([!UICONTROL Página atual], [!UICONTROL Página anterior]ou [!UICONTROL Landing Page]), selecione [!UICONTROL URL] na segunda lista suspensa, especifique um avaliador e, em seguida, especifique o URL desejado.
 
@@ -47,11 +47,10 @@ Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em [!UIC
 
 O direcionamento de URL transforma o URL em um conjunto de regras para avaliar:
 
-* URL = `example.com/path1?query=something`
-* Domínio do URL = `example.com`
-* Caminho = path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Domínio = `example.com`
+* Caminho = `path1/path2/path3`
+* Consulta = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## Ao criar strings de URL complexas, o [!DNL Target] avaliar todo o URL?
 
