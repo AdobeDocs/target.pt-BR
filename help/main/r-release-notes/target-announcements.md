@@ -4,9 +4,9 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2155'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ Informações sobre os seguintes Coffee Breaks futuros:
 
 * **Quarta-feira, 7 de junho de 2023**
 * **8:00-9:00 da manhã (PDT, UTC-7)**
-* **[Mais informações](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
+* **[Mais informações](https://shorturl.at/irzD5){target=_blank}**
 
 Nós seremos unidos por [!DNL Adobe Target] especialistas: Bill Ozinga, John Mosbaugh, Justin Patrick e Eric Thibeault. Neste evento AMA (Ask Me Anything, Pergunte-me qualquer coisa), os especialistas estarão conectados e prontos para responder a qualquer uma das perguntas relacionadas ao [!DNL Target Recommendations] recurso.
 
