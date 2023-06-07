@@ -4,7 +4,7 @@ description: Veja uma lista de tópicos para ajudar você a resolver problemas n
 title: Como solucionar problemas do Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 86%
@@ -117,7 +117,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ### at.js
 
-* [Perguntas frequentes sobre a at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Perguntas frequentes sobre a at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
 * [Depuração da at.js usando o Adobe Experience Cloud Debugger ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [Detalhes da versão da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.

@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '36580'
+source-wordcount: '36579'
 ht-degree: 96%
 
 ---
@@ -141,7 +141,7 @@ Essa versão contém os seguintes novos recursos, aprimoramentos e correções:
 
 A nova API de modelos do [!DNL Adobe Target], também chamada de API de lista de bloqueios, permite que os usuários visualizem e gerenciem a lista de recursos usados em modelos de aprendizado de máquina de atividades de [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT).
 
-Para obter mais informações, consulte [Visão geral da API de modelos](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html?lang=pt-BR){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
+Para obter mais informações, consulte [Visão geral da API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
 
 ### [!DNL Target] Standard/Premium 22.10.3 (lançamento escalonado de 25 a 27 de outubro de 2022)
 
@@ -238,12 +238,12 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Foi adicionado suporte a [User Agent Client Hints](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html?lang=pt-BR).{target=_blank}
+* Foi adicionado suporte a [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html).{target=_blank}
 * Correção de um problema que causava esgotamento do tempo de maneira intermitente ao renderizar [!UICONTROL Decisões de oferta] em [!UICONTROL Direcionamento de experiência] (XT). (TNT-44611)
 
 ### at.js versão 2.9.0 (27 de maio de 2022)
 
-* Foi adicionado suporte a [User Agent Client Hints](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html?lang=pt-BR).{target=_blank}
+* Foi adicionado suporte a [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html).{target=_blank}
 * Correção de um erro em que várias solicitações de mbox na mesma página tinham IDs de impressão diferentes.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (lançamento em etapas; 11-13 de maio de 2022)
@@ -1224,7 +1224,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
    <td colname="col2"> <p>Esta é uma versão de manutenção e aborda o seguinte problema: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Corrigido um problema que, em alguns sites de clientes, resultava em um loop "async" infinito. </p> </li> 
-     </ul> </p> <p> <p>Importante: além disso, a versão 1.6.2 da at.js também contém todas as melhorias e correções incluídas nas versões 1.6.1 e 1.6.0 da at.js. Essas versões não estão mais disponíveis para download. Recomendamos que você atualize para a versão 1.6.2, se estiver usando a 1.6.1 ou 1.6.0. </p> </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html?lang=pt-BR" format="html" scope="external">Detalhes da versão da at.js.</a> </p> </td> 
+     </ul> </p> <p> <p>Importante: além disso, a versão 1.6.2 da at.js também contém todas as melhorias e correções incluídas nas versões 1.6.1 e 1.6.0 da at.js. Essas versões não estão mais disponíveis para download. Recomendamos que você atualize para a versão 1.6.2, se estiver usando a 1.6.1 ou 1.6.0. </p> </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external">Detalhes da versão da at.js.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1945,7 +1945,7 @@ Esta versão inclui os seguintes recursos e aprimoramentos (os números de ediç
   </tr> 
   <tr> 
    <td colname="col1"> <p>Entrega em lote e de obtenção prévia em dispositivos móveis </p> </td> 
-   <td colname="col2"> <p><b>Atualizado: 12 de outubro de 2017</b> </p> <p> O conteúdo de várias mboxes pode ser obtido previamente em uma única chamada e armazenado em cache localmente no dispositivo, sem se preocupar com como, quando e se o usuário final verá o conteúdo. </p> <p>Este recurso exige que você baixe e instale a versão 4.14 (ou posterior) apropriada do SDK do Adobe Mobile. </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/prefetch-offer-content.html" format="dita" scope="local">Buscar previamente conteúdo da oferta.</a> </p> </td> 
+   <td colname="col2"> <p><b>Atualizado: 12 de outubro de 2017</b> </p> <p> O conteúdo de várias mboxes pode ser obtido previamente em uma única chamada e armazenado em cache localmente no dispositivo, sem se preocupar com como, quando e se o usuário final verá o conteúdo. </p> <p>Este recurso exige que você baixe e instale a versão 4.14 (ou posterior) apropriada do SDK do Adobe Mobile. </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">Buscar previamente conteúdo da oferta.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atividades </p> </td> 
@@ -2425,7 +2425,7 @@ Essa versão do [!DNL Target] está focada em melhorias de usabilidade e desempe
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> Os nomes das mboxes agora podem conter caracteres especiais, incluindo "E" comercial (&amp;). (TNT-26144) </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local">Configurações de at.js</a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Adição da configuração <span class="codeph">secureOnly</span>, que indica se a <span class="codeph">at.js</span> deve usar somente HTTPS ou pode alternar entre HTTP e HTTPS com base no protocolo da página. Esta é uma configuração avançada cujo padrão é Falso e pode ser substituída por <span class="codeph">targetGlobalSettings </span>. (TNT-26183) </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>A opção <span class="wintitle">Suporte a navegador herdado</span> está disponível na <span class="codeph">at.js</span> versão 0.9.3 e posteriores. Esta opção foi removida na <span class="codeph">at.js</span> versão 0.9.4. </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local">Configurações de at.js</a>. </p> </li> 
-     </ul> </p> <p>Para obter informações sobre as alterações de cada versão da <span class="codeph">at.js</span>, consulte <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html?lang=pt-BR" format="html" scope="external">Detalhes de versão da at.js.</a> </p> </td> 
+     </ul> </p> <p>Para obter informações sobre as alterações de cada versão da <span class="codeph">at.js</span>, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external">Detalhes de versão da at.js.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
