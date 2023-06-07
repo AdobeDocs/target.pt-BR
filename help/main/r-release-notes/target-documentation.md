@@ -4,10 +4,10 @@ description: Acesse os recursos e a documentação do  [!DNL Adobe Target] , inc
 title: Onde posso encontrar a documentação e os recursos do  [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Os seguintes guias e recursos estão disponíveis para o [!DNL Target]:
 | [APIs do Target Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Informações sobre as APIs do [!UICONTROL Recommendations] que permitem interagir programaticamente com os servidores de recomendações do [!DNL Target]. Essas APIs podem ser integradas a uma variedade de pilhas de aplicativos para executar funções que normalmente seriam realizadas por meio da interface do usuário do [!DNL Target]. |
 | [APIs de entrega no lado do servidor](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank} | Informações sobre os recursos que compõem a API de entrega do Adobe Target. |
 | [SDKs do lado do servidor do Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Explica como implantar o [!DNL Target] do lado do servidor usando SDKs. |
-| [SDKs móveis da Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informações sobre como implementar o [!DNL Target] em aplicativos móveis. |
+| [SDKs móveis da Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html) | Informações sobre como implementar o [!DNL Target] em aplicativos móveis. |
 
 Além dos recursos acima, visite a [Comunidade do Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), em que é possível:
 
