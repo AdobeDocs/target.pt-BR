@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
+source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 88%
+source-wordcount: '2104'
+ht-degree: 90%
 
 ---
 
@@ -18,14 +18,6 @@ Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões 
 ## [!UICONTROL Comunidade Adobe Target] Sessões de perguntas e respostas
 
 Informações sobre os seguintes Coffee Breaks futuros:
-
-### [!DNL Adobe Target Recommendations] Coffee Break
-
-* **Quarta-feira, 7 de junho de 2023**
-* **8:00-9:00 da manhã (PDT, UTC-7)**
-* **[Mais informações](https://shorturl.at/irzD5){target=_blank}**
-
-Nós seremos unidos por [!DNL Adobe Target] especialistas: Bill Ozinga, John Mosbaugh, Justin Patrick e Eric Thibeault. Neste evento AMA (Ask Me Anything, Pergunte-me qualquer coisa), os especialistas estarão conectados e prontos para responder a qualquer uma das perguntas relacionadas ao [!DNL Target Recommendations] recurso.
 
 ### Acompanhamento do webinário de Disponibilidade do programa de personalização
 
