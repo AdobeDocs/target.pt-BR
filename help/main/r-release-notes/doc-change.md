@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Aplicar um relatório de público-alvo a uma métrica de sucesso](/help/main/c-target/apply-reporting-audience-success-metric.md) | Atualização da seção &quot;Considerações&quot; e adição da seção &quot;Exemplo&quot;. |
 |  | [Perguntas frequentes sobre direcionamentos e públicos](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Atualização da seção &quot;Direcionamento de URL&quot;. |
 | 30 de maio | [[!DNL Target] Notas de versão (atuais)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.5.2 do [!DNL Target Standard/Premium]. |
-|  | [Integrar com a  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artigo atualizado com informações sobre compartilhamento [!UICONTROL Atributos de perfil do Real-Time CDP] com [!DNL Target] para uso em ofertas HTML e JSON. |
-|  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre os seguintes eventos futuros de Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee-break (7 de junho)</li><li>Acompanhamento do webinário de Disponibilidade do programa de personalização (21 de junho)</li></ul> |
+|  | [Integrar a  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artigo atualizado com informações sobre compartilhamento de [!UICONTROL Atributos de perfil da Real-Time CDP] com o [!DNL Target] para uso em ofertas HTML e JSON. |
+|  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre os próximos eventos do Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 de junho)</li><li>Acompanhamento do webinário de Disponibilidade do programa de personalização (21 de junho)</li></ul> |
 | 23 de maio | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Atualização de uma nota importante. |
 |  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento das próximas versões. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.5.1 do [!DNL Target Standard/Premium]. |
