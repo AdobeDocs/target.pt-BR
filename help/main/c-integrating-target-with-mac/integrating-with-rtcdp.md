@@ -4,10 +4,10 @@ description: Saiba como usar a integração  [!DNL Target]/[!DNL Real-Time Custo
 title: Como integrar o  [!DNL Target]  com a  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
-workflow-type: ht
-source-wordcount: '1029'
-ht-degree: 100%
+source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+workflow-type: tm+mt
+source-wordcount: '1076'
+ht-degree: 95%
 
 ---
 
@@ -112,6 +112,8 @@ Para obter mais informações, consulte os seguintes tópicos:
 * [Configurar destinos de personalização para a personalização da mesma página e da próxima página](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=pt-BR){target=_blank} no guia *Visão geral dos destinos*.
 * [Conexão do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR){target=_blank} no guia *Visão geral dos destinos*
 * [Mapear atributos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=pt-BR#map-attributes){target=_blank} no guia *Visão geral dos destinos*.
+* [Ativar públicos para destinos de personalização de borda](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} no *Visão geral dos destinos* guia.
+* [Personalização de mesma página e próxima página por meio do [!DNL Adobe Target] e destinos de Personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} em &quot;Perguntas frequentes&quot; no *Visão geral dos destinos* guia.
 
 ## Vídeos e publicações do blog {#videos-blogs}
 
