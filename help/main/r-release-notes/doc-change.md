@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 12 de junho | [Cookies do Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Artigo atualizado no *Guia de componentes da interface central do Experience Cloud* explicando cookies usados por [!DNL Target]. |
 |  | [Inicializar o SDK do Java](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Foram adicionadas informações sobre o parâmetro &quot;ambiente&quot;. |
 |  | [Inicializar o Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Foram adicionadas informações sobre o parâmetro &quot;ambiente&quot;. |
-| 5 de junho | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Informações atualizadas para os seguintes eventos:<ul><li>Atualização do link de registro para o [!DNL Adobe Target Recommendations] Coffee-break (Quarta-feira, 7 de junho de 2023)</li><li>Foram adicionadas informações sobre o recente webinário &quot;Otimização e personalização da experiência móvel para ambientes autenticados&quot; e foi adicionado um link à gravação.</li></ul> |
-|  | [Aplicar um relatório de público-alvo a uma métrica de sucesso](/help/main/c-target/apply-reporting-audience-success-metric.md) | Atualização da seção &quot;Considerações&quot; e adição da seção &quot;Exemplo&quot;. |
-|  | [Perguntas frequentes sobre direcionamentos e públicos](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Atualização da seção &quot;Direcionamento de URL&quot;. |
+| 5 de junho | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Atualização das informações sobre os seguintes eventos:<ul><li>Atualização do link de registro para o Coffee-break do [!DNL Adobe Target Recommendations]  (Quarta-feira, 7 de junho de 2023)</li><li>Adição de informações sobre o recente webinário “Otimização e personalização da experiência móvel para ambientes autenticados” além da adição de um link para a gravação.</li></ul> |
+|  | [Aplicação de um relatório de público-alvo a uma métrica de sucesso](/help/main/c-target/apply-reporting-audience-success-metric.md) | Atualização da seção “Considerações” e adição da seção “Exemplo”. |
+|  | [Perguntas frequentes sobre direcionamentos e públicos-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Atualização da seção “Direcionamento de URL”. |
 | 30 de maio | [[!DNL Target] Notas de versão (atuais)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.5.2 do [!DNL Target Standard/Premium]. |
 |  | [Integrar a  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artigo atualizado com informações sobre compartilhamento de [!UICONTROL Atributos de perfil da Real-Time CDP] com o [!DNL Target] para uso em ofertas HTML e JSON. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre os próximos eventos do Coffee Break:<ul><li>[!DNL Adobe Target Recommendations] Coffee Break (7 de junho)</li><li>Acompanhamento do webinário de Disponibilidade do programa de personalização (21 de junho)</li></ul> |

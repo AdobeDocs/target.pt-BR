@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Como as marcas dos setores de serviços financeiros e seguros, varejo, viagens, 
 Nesta sessão, saiba como o [!DNL Adobe Target] e a [!DNL Real-Time CDP] podem gerar maior engajamento, receita e fidelização de clientes em setores regulamentados, à medida que discutimos:
 
 * Como as equipes fornecem experiências personalizadas para visitantes anônimos e autenticados
-* Noções básicas sobre permissões do consumidor e padrões de privacidade com personalização
+* Entenda as permissões do consumidor e os padrões de privacidade com personalização
 * Conteúdo e ofertas personalizados para visitantes autenticados através de identidades anônimas
 * Casos de uso únicos para sites autenticados e seguros na Web e em dispositivos móveis
 
