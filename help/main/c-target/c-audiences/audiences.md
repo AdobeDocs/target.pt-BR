@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo na [!DNL Adobe Target].
 title: Como usar a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 33%
+source-wordcount: '861'
+ht-degree: 31%
 
 ---
 
@@ -28,7 +28,7 @@ Há dois tipos de público-alvo no [!DNL Target]:
 * **Direcionamento de públicos:** Usado para fornecer conteúdo diferente para diferentes tipos de visitantes.
 * **Relatórios de públicos-alvo:** Usado para determinar como diferentes tipos de visitantes respondem ao mesmo conteúdo para que você possa analisar os resultados de seus testes.
 
-   No [!DNL Target], é possível configurar relatórios de públicos-alvo apenas se você usar o [!DNL Target] como fonte de geração de relatórios. Se você usa o [ Adobe Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), precisa configurar os públicos dos relatórios no [!DNL Analytics].
+  No [!DNL Target], é possível configurar relatórios de públicos-alvo apenas se você usar o [!DNL Target] como fonte de geração de relatórios. Se você usa o [ Adobe Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), precisa configurar os públicos dos relatórios no [!DNL Analytics].
 
 ## Use o [!UICONTROL Públicos-alvo] lista {#use-list}
 
@@ -43,13 +43,13 @@ A variável [!UICONTROL Públicos-alvo] A lista contém os públicos-alvo que vo
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >A variável [!DNL Adobe Experience Platform] a origem está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Públicos-alvo disponíveis no [!DNL Adobe Experience Platform] pode ser usado como está ou [combinado com públicos existentes](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >Os usuários devem ter [!UICONTROL Aprovador] ou acima do status em [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] placas na AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
-   >
-   >Para obter mais informações, consulte [Usar públicos do Adobe Experience Platform](#aep).
+  >[!NOTE]
+  >
+  >A variável [!DNL Adobe Experience Platform] a origem está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Públicos-alvo disponíveis no [!DNL Adobe Experience Platform] pode ser usado como está ou [combinado com públicos existentes](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >Os usuários devem ter [!UICONTROL Aprovador] ou acima do status em [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] placas na AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >Para obter mais informações, consulte [Usar públicos do Adobe Experience Platform](#aep).
 
 Públicos predefinidos, como &quot;[!UICONTROL Novos visitantes]&quot; e &quot;[!UICONTROL Visitantes recorrentes],&quot; não pode ser renomeado.
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 O uso de públicos criados na [!DNL Adobe Experience Platform] fornece dados mais avançados do cliente, o que resulta em personalizações mais impactantes.
 
 Para obter mais informações, consulte [Usar públicos-alvo da [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## Usar atributos de perfil da Real-time CDP em ofertas HTML e JSON
+
+Os atributos de perfil da Real-time CDP podem ser compartilhados com o Target para uso em ofertas HTML e ofertas JSON. Para obter mais informações, consulte Integrar com [!DNL Real-Time Customer Data Platform].
+
+Para obter mais informações, consulte [Gerenciar conteúdo](/help/main/c-experiences/c-manage-content/manage-content.md) e [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Vídeo de treinamento: uso de públicos-alvo ![Selo do tutorial](/help/main/assets/tutorial.png)
 

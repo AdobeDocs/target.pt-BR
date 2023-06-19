@@ -4,9 +4,9 @@ description: Saiba como criar ofertas JSON no Adobe [!DNL Target] para uso no Ex
 title: Como criar ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '457'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ adobe.target.getOffer({
 
 ## Exemplo de oferta JSON usando atributos de perfil da Real-time CDP
 
-Os atributos de perfil da Real-time CDP podem ser compartilhados com [!DNL Target] para uso na oferta HTML e ofertas JSON.
+Os atributos de perfil da Real-time CDP podem ser compartilhados com [!DNL Target] para uso em ofertas HTML e JSON.
 
 Para obter mais informações, consulte [Compartilhar atributos de perfil da Real-time CDP com a [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
