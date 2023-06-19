@@ -6,7 +6,7 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 98%
@@ -34,7 +34,7 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 * Correção de um problema em que um parâmetro de consulta era adicionado a um URL que impedia o carregamento da página no [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
 * Várias correções de localização foram feitas na interface do [!DNL Target].
 
-## Atributos de perfil do Real-Time CDP compartilhados com [!DNL Target]|[!UICONTROL Atributos de perfil do Real-Time CDP] (13 de junho de 2023)
+## Atributos de perfil do Real-Time CDP compartilhados com [!DNL Target] [!UICONTROL Atributos de perfil do Real-Time CDP] (13 de junho de 2023)
 
 Esta versão inclui os seguintes aprimoramentos:
 
