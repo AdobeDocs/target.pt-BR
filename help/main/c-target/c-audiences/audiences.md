@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo na [!DNL Adobe Target].
 title: Como usar a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 31%
+source-wordcount: '818'
+ht-degree: 33%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 O uso de públicos criados na [!DNL Adobe Experience Platform] fornece dados mais avançados do cliente, o que resulta em personalizações mais impactantes.
 
 Para obter mais informações, consulte [Usar públicos-alvo da [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## Usar atributos de perfil da Real-time CDP em ofertas HTML e JSON
-
-Os atributos de perfil da Real-time CDP podem ser compartilhados com o Target para uso em ofertas HTML e ofertas JSON. Para obter mais informações, consulte Integrar com [!DNL Real-Time Customer Data Platform].
-
-Para obter mais informações, consulte [Gerenciar conteúdo](/help/main/c-experiences/c-manage-content/manage-content.md) e [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Vídeo de treinamento: uso de públicos-alvo ![Selo do tutorial](/help/main/assets/tutorial.png)
 
