@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 12 de junho | [Cookies do Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Artigo atualizado no *Guia de componentes da interface central do Experience Cloud* explicando cookies usados por [!DNL Target]. |
-|  | [Inicializar o SDK do Java](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Foram adicionadas informações sobre o parâmetro &quot;ambiente&quot;. |
-|  | [Inicializar o Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Foram adicionadas informações sobre o parâmetro &quot;ambiente&quot;. |
+| 12 de junho | [Cookies do Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html?lang=pt-BR){target=_blank} | Artigo atualizado no *Guia de componentes da interface central da Experience Cloud* explicando cookies usados pelo [!DNL Target]. |
+|  | [Inicializar o SDK Java](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html?lang=pt-BR){target=_blank} | Foram adicionadas informações sobre o parâmetro “ambiente”. |
+|  | [Inicializar o SDK do Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html?lang=pt-BR){target=_blank} | Foram adicionadas informações sobre o parâmetro “ambiente”. |
 | 5 de junho | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Atualização das informações sobre os seguintes eventos:<ul><li>Atualização do link de registro para o Coffee-break do [!DNL Adobe Target Recommendations]  (Quarta-feira, 7 de junho de 2023)</li><li>Adição de informações sobre o recente webinário “Otimização e personalização da experiência móvel para ambientes autenticados” além da adição de um link para a gravação.</li></ul> |
 |  | [Aplicação de um relatório de público-alvo a uma métrica de sucesso](/help/main/c-target/apply-reporting-audience-success-metric.md) | Atualização da seção “Considerações” e adição da seção “Exemplo”. |
 |  | [Perguntas frequentes sobre direcionamentos e públicos-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Atualização da seção “Direcionamento de URL”. |
