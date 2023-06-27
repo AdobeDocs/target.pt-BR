@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1215'
 ht-degree: 95%
 
 ---
@@ -141,7 +141,6 @@ ht-degree: 95%
       + [Oferecer Grupos de relatório na Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Selecione o controle da atividade de Automated Personalization ou Direcionamento automático](c-activities/t-automated-personalization/experience-as-control.md)
       + [Perguntas frequentes sobre Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Pré-visualizar atividades do Automated Personalization com URLs de visualização da experiência](c-activities/t-automated-personalization/experience-preview.md)
       + [Solução de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Direcionamento de experiência {#experience-targeting}
       + [Visão geral de direcionamento da experiência](c-activities/t-experience-target/experience-target.md)

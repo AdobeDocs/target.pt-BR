@@ -6,9 +6,9 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
-workflow-type: ht
-source-wordcount: '671'
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -19,42 +19,21 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 23.5.2 (31 de maio de 2023)
-
-Essa versão conta com os seguintes aprimoramentos e correções:
-
-* Correção de um problema que resultava na exibição de uma página em branco ao gerar um token de autorização de API de perfil. (TGT-45387 e TGT-45423)
-* Correção de um problema que impedia a exibição de uma imagem no painel [!UICONTROL Criar design] se o nome da imagem contivesse caracteres GB 18030. (TGT-44614)
-* Correção de um problema em que alguns caracteres de símbolo GB 18030 eram “escapados” incorretamente no texto/HTML das experiências. (TGT-44600)
-* Correção de um problema que causava o congelamento de relatórios de atividades de [!UICONTROL Personalização automática] durante a análise. (TGT-44820)
-* Correção de um problema que impedia a pesquisa de uma atividade na página [!UICONTROL Atividade] se o nome da atividade tivesse um colchete ([ ou ]). (TGT-44777)
-* Correção de um problema que impedia a sincronização de uma atividade se o objetivo dela tivesse caracteres especiais. (TGT-44982)
-* Correção de um problema que impedia a exibição de atividades na interface do [!DNL Target] no Espaço de trabalho padrão para determinados clientes. (TGT-45286)
-* Atualização do comportamento do sinalizador “Não permitir duplicações”. Os sinalizadores de exclusão de ofertas repetidas foram atualizados para permitir ofertas repetidas se elas forem ofertas de conteúdo padrão (para APIs v3, v4) e permitir opções de duplicação se estas referenciarem a oferta de conteúdo padrão e não tiverem nenhum modelo definido. (TNT-46617)
-* Correção de um problema em que um parâmetro de consulta era adicionado a um URL que impedia o carregamento da página no [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
-* Várias correções de localização foram feitas na interface do [!DNL Target].
-
-## Atributos de perfil do Real-Time CDP compartilhados com [!UICONTROL Atributos de perfil do Real-Time CDP] do [!DNL Target] (13 de junho de 2023)
-
-Esta versão inclui os seguintes aprimoramentos:
-
-| Recurso | Detalhes |
-|--- |--- |
-| Atributos de perfil da Real-Time CDP compartilhados com o [!DNL Target] | Os [!UICONTROL atributos de perfil da Real-Time CDP] podem ser compartilhados com o [!DNL Target] para uso em ofertas HTML e JSON.<P>Para obter mais informações, consulte [Compartilhar atributos de perfil da Real-Time CDP com o [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
-
-## [!DNL Target] Standard/Premium 23.5.1 (23 a 25 de maio de 2023)
+## [!DNL Target] Standard/Premium 23.6.1 (27-29 de junho)
 
 Esta versão estará disponível de acordo com o seguinte agendamento:
 
-23 de maio: região da Europa, Oriente Médio e África (EMEA) 
-24 de maio: região Ásia-Pacífico (APAC)
-25 de maio: região das Américas
+* **27 de junho**: região da Europa, Oriente Médio e África (EMEA)
+* **28 de junho**: região Ásia-Pacífico (APAC)
+* **29 de junho**: região das Américas
 
-Esta versão contém os seguintes aprimoramentos e correções:
+Esta versão inclui as seguintes melhorias:
 
-* Correção de um problema que impedia determinados clientes de criar públicos com perfis de visitante usando operadores “maior que” ou “menor que”. (TGT-45271)
-* Várias correções de localização foram feitas na interface do [!DNL Target].
-* Atualização de vários locais da interface do Target para uma futura reformulação da interface (as alterações serão marcadas por um sinalizador de recurso até que as atualizações sejam lançadas).
+| Recurso | Detalhes |
+|--- |--- |
+| [!UICONTROL Modo de controle de qualidade] para atividades do [!UICONTROL Automated Personalization] | O [!UICONTROL Modo de controle de qualidade] do [!DNL Adobe Target] agora está disponível para as atividades do [!UICONTROL Automated Personalization], substituindo a funcionalidade de [!UICONTROL Links de visualização].<P>Para obter mais informações, consulte [Controle de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
+
+* Aprimoramentos no desempenho da funcionalidade “Não permitir duplicações” (incluindo redução no tempo de carregamento) durante o [gerenciamento de exclusões](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) em atividades do [!UICONTROL Automated Personalization].
 
 ## Notas de versão adicionais e detalhes da versão
 
