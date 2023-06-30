@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 26 de junho | [Target para aplicativos móveis](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=pt-BR){target=_blank} | Adição de um link para a implementação [!DNL Adobe Experience Cloud] no tutorial para aplicativos móveis. |
+| 26 de junho | [Target para aplicativos móveis](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=pt-BR){target=_blank} | Adição de um link para a implementação da [!DNL Adobe Experience Cloud] no tutorial para aplicativos móveis. |
 | 12 de junho | [Cookies do Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html?lang=pt-BR){target=_blank} | Artigo atualizado no *Guia de componentes da interface central da Experience Cloud* explicando cookies usados pelo [!DNL Target]. |
 |  | [Inicializar o SDK Java](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html?lang=pt-BR){target=_blank} | Foram adicionadas informações sobre o parâmetro “ambiente”. |
 |  | [Inicializar o SDK do Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html?lang=pt-BR){target=_blank} | Foram adicionadas informações sobre o parâmetro “ambiente”. |
