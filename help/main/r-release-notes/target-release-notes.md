@@ -5,7 +5,7 @@ title: Quais são os novos recursos e melhorias que serão incluídos na próxim
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -25,9 +25,9 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 de junho)
 
-Esta versão estará disponível de acordo com o seguinte agendamento:
+Esta versão estará disponível de acordo com o seguinte cronograma:
 
-* **27 de junho**: região da Europa, Oriente Médio e África (EMEA)
+* **27 de junho**: regiões da Europa, Oriente Médio e África (EMEA)
 * **28 de junho**: região Ásia-Pacífico (APAC)
 * **29 de junho**: região das Américas
 
