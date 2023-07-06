@@ -5,9 +5,9 @@ title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 27 de junho | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | O Controle de qualidade da atividade agora está disponível para todos os tipos de atividades do Target, incluindo [!UICONTROL Automated Personalization] (AP) atividades. Remoção de informações sobre links de visualização. |
-|  | Visualizar URLs | Como todos os tipos de atividade agora oferecem suporte ao Controle de qualidade da atividade, este tópico foi excluído e redirecionado para a [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) tópico. |
+| 27 de junho | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | O Controle de qualidade da atividade agora está disponível para todos os tipos de atividades do Target, incluindo atividades do [!UICONTROL Automated Personalization] (AP). Remoção de informações sobre links de visualização. |
+|  | Visualizar URLs | Como todos os tipos de atividade agora são compatíveis com o Controle de qualidade da atividade, este tópico foi excluído e redirecionado para o tópico [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.6.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23 a 25 de maio de 2023)
