@@ -7,7 +7,7 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 de junho)
 
-Esta versão estará disponível de acordo com o seguinte agendamento:
+Esta versão estará disponível de acordo com o seguinte cronograma:
 
-* **27 de junho**: região da Europa, Oriente Médio e África (EMEA)
+* **27 de junho**: regiões da Europa, Oriente Médio e África (EMEA)
 * **28 de junho**: região Ásia-Pacífico (APAC)
 * **29 de junho**: região das Américas
 
