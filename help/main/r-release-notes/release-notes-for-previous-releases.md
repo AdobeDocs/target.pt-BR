@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '36917'
+source-wordcount: '36971'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2023
+
+### [!DNL Target] Standard/Premium 23.6.1 (27-29 de junho)
+
+Esta versão inclui as seguintes melhorias:
+
+| Recurso | Detalhes |
+|--- |--- |
+| [!UICONTROL Modo de controle de qualidade] para atividades do [!UICONTROL Automated Personalization] | O [!UICONTROL Modo de controle de qualidade] do [!DNL Adobe Target] agora está disponível para as atividades do [!UICONTROL Automated Personalization], substituindo a funcionalidade de [!UICONTROL Links de visualização].<P>Para obter mais informações, consulte [Controle de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
+
+* Aprimoramentos no desempenho da funcionalidade “Não permitir duplicações” (incluindo redução no tempo de carregamento) durante o [gerenciamento de exclusões](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) em atividades do [!UICONTROL Automated Personalization].
 
 ### [!DNL Target] Standard/Premium 23.5.2 (31 de maio de 2023)
 

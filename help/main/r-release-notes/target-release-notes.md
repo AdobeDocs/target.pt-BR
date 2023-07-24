@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -36,7 +36,6 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 * Pesquisa aprimorada quando [navegar pelos elementos usando o caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) no [!UICONTROL Visual Experience Composer] (VEC) para incluir elementos DOM sombra. (TGT-45262)
 * Correção de um problema que impedia a [Alterar sobreposição](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcione corretamente. (TGT-45202)
 * Correção de um problema que impedia alguns clientes de baixar relatórios de atividades após receber a seguinte mensagem de erro: &quot;O usuário não está autorizado a acessar o relatório.&quot; (TGT-45724 e TGT-45747)
-
 
 ## Notas de versão adicionais e detalhes da versão
 
