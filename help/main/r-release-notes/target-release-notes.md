@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e4bfdd4b777d90fc79a0f275a1cd6dd25e19b79d
+source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -23,7 +23,7 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.7.1 (25-27 de julho)
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julho)
 
 Esta versão estará disponível de acordo com o seguinte cronograma:
 
