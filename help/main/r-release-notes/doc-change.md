@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: 70fa740ce25fa0a1d6ba5d4d4d54ce7bd048bfaa
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 97%
 
 ---
@@ -19,7 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-|  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.7.1 do [!DNL Target Standard/Premium]. |
+| 24 de julho | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.7.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 de junho de 2023)
 
