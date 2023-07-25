@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 70fa740ce25fa0a1d6ba5d4d4d54ce7bd048bfaa
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1384'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 25 de julho | [[!DNL Target] Notas de versão (atuais)](/help/main/r-release-notes/release-notes.md#edge) | Adição de informações sobre a atualização da infraestrutura de borda planejada para 9 de agosto de 2023. |
+|  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Atualização de NAT e IP/domínios para implantações de borda 41-48. |
 | 24 de julho | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.7.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 de junho de 2023)

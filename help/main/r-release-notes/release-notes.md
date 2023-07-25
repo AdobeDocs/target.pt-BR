@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 81%
+source-wordcount: '459'
+ht-degree: 73%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 81%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Adobe Target] Atualização da infraestrutura planejada da borda {#edge}
+
+A atualização planejada da infraestrutura de borda requer IP ou domínios adicionais para serem incluídos na lista de permissões. Revise e inclua na lista de permissões os domínios NAT e IP/para implantações de borda 41-48. As atualizações da infraestrutura começam em 9 de agosto de 2023.
+&quot;
+
+Para obter mais informações, consulte [➡ Incluir na lista de permissões nós de borda do Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julho)
 
