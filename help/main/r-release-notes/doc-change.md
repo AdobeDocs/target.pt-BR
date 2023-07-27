@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 20 de julho | [Diretivas da Política de segurança de conteúdo (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Adição das seguintes perguntas frequentes ao *Guia do desenvolvedor do Adobe Target*: como permitir ou impedir que meu site seja incorporado como um iFrame em domínios estrangeiros? |
+| 20 de julho | [Diretivas da Política de Segurança de Conteúdo (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=pt-BR){target=_blank} | Adição da seguinte pergunta frequente ao *Guia do desenvolvedor do Adobe Target*: Como permitir ou impedir que meu site seja incorporado como um iFrame em domínios estrangeiros? |
 | 10 de julho | [Considerações e limitações conhecidas](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html?lang=pt-BR){target=_blank} | Foram adicionadas informações à documentação da *API de entrega do Target* sobre a imposição de nomes de cabeçalho em minúsculas do HTTP/2. |
 | 27 de junho | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | O Controle de qualidade da atividade agora está disponível para todos os tipos de atividades do Target, incluindo atividades do [!UICONTROL Automated Personalization] (AP). Remoção de informações sobre links de visualização. |
 |  | Visualizar URLs | Como todos os tipos de atividade agora são compatíveis com o Controle de qualidade da atividade, este tópico foi excluído e redirecionado para o tópico [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md). |
