@@ -7,9 +7,9 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,26 +19,26 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Adobe Target] Atualização da infraestrutura planejada da borda {#edge}
+## Atualização planejada da infraestrutura de borda do [!DNL Adobe Target] {#edge}
 
-A atualização planejada da infraestrutura de borda requer IP ou domínios adicionais para serem incluídos na lista de permissões. Revise e inclua na lista de permissões os domínios NAT e IP/para implantações de borda 41-48. As atualizações da infraestrutura começam em 9 de agosto de 2023.
-&quot;
+A atualização planejada da infraestrutura de borda requer que IP ou domínios adicionais sejam incluídos na lista de permissões. Revise e inclua na lista de permissões o NAT e IP/domínios para implantações de borda 41-48. As atualizações da infraestrutura começam em 9 de agosto de 2023.
+“
 
-Para obter mais informações, consulte [➡ Incluir na lista de permissões nós de borda do Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
+Para obter mais informações, consulte [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} no *Manual do desenvolvedor do Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julho)
 
 Esta versão estará disponível de acordo com o seguinte cronograma:
 
 * **24 de julho**: região da Europa, Oriente Médio e África (EMEA)
-* **25 de julho**: região Ásia-Pacífico (APAC)
+* **25 de julho**: região da Ásia-Pacífico (APAC)
 * **26 de julho**: região das Américas
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Pesquisa aprimorada quando [navegar pelos elementos usando o caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) no [!UICONTROL Visual Experience Composer] (VEC) para incluir elementos DOM sombra. (TGT-45262)
-* Correção de um problema que impedia a [Alterar sobreposição](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcione corretamente. (TGT-45202)
-* Correção de um problema que impedia alguns clientes de baixar relatórios de atividades após receber a seguinte mensagem de erro: &quot;O usuário não está autorizado a acessar o relatório.&quot; (TGT-45724 e TGT-45747)
+* Pesquisa aprimorada ao [navegar pelos elementos usando o caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) no [!UICONTROL Visual Experience Composer] (VEC) para incluir elementos DOM de sombra. (TGT-45262)
+* Correção de um problema que impedia a configuração [Alterar sobreposição](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de funcionar corretamente. (TGT-45202)
+* Correção de um problema que impedia alguns clientes de baixar relatórios de atividades após receber a seguinte mensagem de erro: “O usuário não está autorizado a acessar o relatório.” (TGT-45724 e TGT-45747)
 
 ## Notas de versão adicionais e detalhes da versão
 
