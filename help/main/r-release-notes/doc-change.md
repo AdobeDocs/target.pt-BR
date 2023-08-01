@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 98%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julho de 2023)
+## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julho, 2023)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 25 de julho | [[!DNL Target] Notas de versão (atuais)](/help/main/r-release-notes/release-notes.md#edge) | Adição de informações sobre a atualização da infraestrutura de borda planejada para 9 de agosto de 2023. |
-|  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Atualização de NAT e IP/domínios para implantações de borda 41-48. |
+| 25 de julho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md#edge) | Adição de informações sobre a atualização planejada da infraestrutura de borda para 9 de agosto de 2023. |
+|  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Atualização do NAT e IP/domínios para implantações de borda 41-48. |
 | 24 de julho | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.7.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27-29 de junho de 2023)
