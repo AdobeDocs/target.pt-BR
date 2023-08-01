@@ -5,9 +5,9 @@ title: Quais são os novos recursos e melhorias que serão incluídos na próxim
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 Esta versão estará disponível de acordo com o seguinte cronograma:
 
 * **24 de julho**: região da Europa, Oriente Médio e África (EMEA)
-* **25 de julho**: região Ásia-Pacífico (APAC)
+* **25 de julho**: região da Ásia-Pacífico (APAC)
 * **26 de julho**: região das Américas
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Pesquisa aprimorada quando [navegar pelos elementos usando o caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) no [!UICONTROL Visual Experience Composer] (VEC) para incluir elementos DOM sombra. (TGT-45262)
-* Correção de um problema que impedia a [Alterar sobreposição](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) funcione corretamente. (TGT-45202)
-* Correção de um problema que impedia alguns clientes de baixar relatórios de atividades após receber a seguinte mensagem de erro: &quot;O usuário não está autorizado a acessar o relatório.&quot; (TGT-45724 e TGT-45747)
+* Pesquisa aprimorada ao [navegar pelos elementos usando o caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) no [!UICONTROL Visual Experience Composer] (VEC) para incluir elementos DOM de sombra. (TGT-45262)
+* Correção de um problema que impedia a configuração [Alterar sobreposição](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de funcionar corretamente. (TGT-45202)
+* Correção de um problema que impedia alguns clientes de baixar relatórios de atividades após receber a seguinte mensagem de erro: “O usuário não está autorizado a acessar o relatório.” (TGT-45724 e TGT-45747)
 
 ## Notas de versão adicionais e detalhes da versão
 
