@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 24 de julho de 2023**
+**Última atualização: 9 de agosto de 2023**
 
 >[!NOTE]
 >
@@ -23,19 +23,15 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 de julho)
-
-Esta versão estará disponível de acordo com o seguinte cronograma:
-
-* **24 de julho**: região da Europa, Oriente Médio e África (EMEA)
-* **25 de julho**: região da Ásia-Pacífico (APAC)
-* **26 de julho**: região das Américas
+## [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Pesquisa aprimorada ao [navegar pelos elementos usando o caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) no [!UICONTROL Visual Experience Composer] (VEC) para incluir elementos DOM de sombra. (TGT-45262)
-* Correção de um problema que impedia a configuração [Alterar sobreposição](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de funcionar corretamente. (TGT-45202)
-* Correção de um problema que impedia alguns clientes de baixar relatórios de atividades após receber a seguinte mensagem de erro: “O usuário não está autorizado a acessar o relatório.” (TGT-45724 e TGT-45747)
+* Correção de um problema que, ocasionalmente, impedia a sincronização correta das atividades, como mostrado na &quot;[!UICONTROL Status]&quot;coluna na [!UICONTROL Atividade] página da lista. (TGT-46010 e TGT-44831)
+* Correção de um problema que, ocasionalmente, impedia que &quot;[!UICONTROL Exibir no Analytics]O link &quot; for exibido no [!UICONTROL Relatórios] página de atividades que usam [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-45808)
+* A apresentação de valores em tabelas foi ajustada para exibir como porcentagens em vez de números com decimais. Por exemplo, 8% em vez de 0,08. (TGT-45548)
+* Correção de um problema que impedia os clientes de usar o foco do teclado para mover para o próximo elemento na [!UICONTROL Metas e configurações] página para [!UICONTROL Direcionamento de experiência] (XT) Atividades. (TGT-44526)
+* Correção de um problema que causava perda de foco do teclado após abrir o &quot;[!UICONTROL Adicionar públicos]&quot; ao criar uma atividade. (TGT-44525)
 
 ## Notas de versão adicionais e detalhes da versão
 
