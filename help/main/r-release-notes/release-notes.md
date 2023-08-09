@@ -6,8 +6,8 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: ht
+source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -22,7 +22,6 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 ## Atualização planejada da infraestrutura de borda do [!DNL Adobe Target] {#edge}
 
 A atualização planejada da infraestrutura de borda requer que IP ou domínios adicionais sejam incluídos na lista de permissões. Revise e inclua na lista de permissões o NAT e IP/domínios para implantações de borda 41-48. As atualizações da infraestrutura começam em 9 de agosto de 2023.
-“
 
 Para obter mais informações, consulte [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} no *Manual do desenvolvedor do Adobe Target*.
 
