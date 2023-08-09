@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 100%
+source-wordcount: '2133'
+ht-degree: 94%
 
 ---
 
@@ -15,23 +15,31 @@ ht-degree: 100%
 
 Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de construção de habilidades do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
 
-## Sessão de perguntas e respostas da [!UICONTROL Comunidade do Adobe Target]
-
-Informações sobre os próximos Coffee Breaks:
-
-### Acompanhamento do webinário de Disponibilidade do programa de personalização
-
-* **Quarta-feira, 21 de junho de 2023**
-* **08:00-9:00 (PDT, UTC-7)**
-* **[Mais informações](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
-
-Teremos a presença dos especialistas no Adobe Target, Ramon Cespedes e Kevin Jemison. Neste evento AMA (Ask Me Anything, Pergunte-me qualquer coisa), os especialistas estarão conectados e prontos para responder a qualquer uma das suas perguntas relacionadas aos tópicos abordados no recente Webinário de 24/05 [A Jornada para impulsionar o crescimento com personalização](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
-
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Target] para atingir suas metas de personalização e otimização:
 
-Nada agendado no momento.
+### Faça uma estratégia para obter o máximo impacto sobre o ROI com a preparação para a temporada de pico
+
+* **Quinta-feira, 17 de agosto de 2023**
+* **08:00-9:00 (PDT, UTC-7)**
+* **[Inscreva-se aqui](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Ofereça experiências envolventes ao cliente para melhorar as taxas de conversão. Sua empresa está pronta para a temporada de pico? Junte-se a nós e obtenha acesso a dicas de especialistas sobre como você pode alcançar o desempenho ideal e o ROI máximo desta vez.
+
++++Ver detalhes
+
+Junte-se a John Magnusson, gerente de sucesso de clientes do Adobe e Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Junte-se a nós para saber mais sobre as estratégias que afetam significativamente seu programa de disponibilidade para a temporada de pico.
+
+O tópico inclui:
+
+* Criar painéis e relatar as métricas principais com eficácia
+* Examinar o impacto de cada canal de marketing
+* Aprofunde-se no comportamento do cliente e nas tendências de compra
+* Identificar experiências inadequadas do cliente e melhorá-las por meio de testes
+* Descubra áreas de oportunidade para impulsionar a conversão de sites
+
++++
 
 ## Gravações de webinários antigos e sessões do construtor de habilidades
 
