@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 9 de agosto | [Visualização do Target Mobile](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Tópico atualizado com informações sobre as versões atuais do [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o seguinte webinário agendado para 17 de agosto de 2023: *Faça uma estratégia para obter o máximo impacto sobre o ROI com a preparação para a temporada de pico*. |
-| 7 de agosto | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Esclarecimento de informações sobre as versões compatíveis da at.js. |
+| 7 de agosto | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Esclarecimento de informações sobre as versões compatíveis da at.js. |
 | 25 de julho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md#edge) | Adição de informações sobre a atualização planejada da infraestrutura de borda para 9 de agosto de 2023. |
 |  | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} | Atualização do NAT e IP/domínios para implantações de borda 41-48. |
 | 24 de julho | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.7.1 do [!DNL Target Standard/Premium]. |
