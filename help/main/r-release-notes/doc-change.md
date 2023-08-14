@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 95%
+source-wordcount: '1561'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 14 de agosto | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | Foram adicionadas informações esclarecendo que carregar uma página em seu site com um valor vazio não *não* remova o cookie de controle de qualidade do navegador quando a at.js 2.*x* é implantado. |
+|  | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Atualização da definição de &quot;Confiança&quot;. |
+|  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Foi adicionada uma observação explicando que as ofertas de imagem não fazem parte da [!UICONTROL Permissões de usuário empresarial] modelo. |
+| 9 de agosto | [Visualização do Target Mobile](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Tópico atualizado com informações sobre as versões atuais do [!DNL Adobe Experience Platform Mobile SDK]. |
 | 9 de agosto | [Visualização do Target Mobile](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Tópico atualizado com informações sobre as versões atuais do [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o seguinte webinário agendado para 17 de agosto de 2023: *Faça uma estratégia para obter o máximo impacto sobre o ROI com a preparação para a temporada de pico*. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.8.1 do [!DNL Target Standard/Premium]. |
@@ -27,7 +31,6 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 9 de agosto | [Visualização do Target Mobile](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Tópico atualizado com informações sobre as versões atuais do [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o seguinte webinário agendado para 17 de agosto de 2023: *Faça uma estratégia para obter o máximo impacto sobre o ROI com a preparação para a temporada de pico*. |
 | 7 de agosto | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Esclarecimento de informações sobre as versões compatíveis da at.js. |
 | 25 de julho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md#edge) | Adição de informações sobre a atualização planejada da infraestrutura de borda para 9 de agosto de 2023. |

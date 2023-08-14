@@ -4,10 +4,10 @@ description: Saiba como usar o Adobe [!DNL Target] URLs de controle de qualidade
 title: Como faço para testar as atividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 38%
+source-wordcount: '1724'
+ht-degree: 36%
 
 ---
 
@@ -67,9 +67,11 @@ Usar URLs de controle de qualidade no [!DNL Adobe Target] para realizar o contro
 * [!UICONTROL O Controle de qualidade da atividade não exibe o conteúdo para atividades arquivadas ou atividades que estão além das datas de término.] Se você desativar uma atividade finalizada, deverá salvá-la novamente por [!UICONTROL Controle de qualidade da atividade] para trabalhar.
 * Atividades importadas para o [!DNL Target Standard/Premium] (de [!DNL Target Classic], por exemplo) não são compatíveis com URLs de controle de qualidade.
 * Entrada [!UICONTROL Alocação automática] e [!UICONTROL Recommendations] atividades, o modelo não é afetado pelas visitas capturadas no [!UICONTROL Controle de qualidade da atividade].
-* [!UICONTROL Controle de qualidade da atividade] é aderente. Depois de navegar em um site no [!UICONTROL Controle de qualidade da atividade], seu [!DNL Target] a sessão deve expirar ou você deve ter [!DNL Target] liberar você do [!UICONTROL Controle de qualidade da atividade] antes de exibir seu site como um visitante típico. Use o [Bookmarklet de Controle de qualidade do Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do [!UICONTROL Controle de qualidade da atividade].
+* [!UICONTROL Controle de qualidade da atividade] é aderente. Depois de navegar em um site no [!UICONTROL Controle de qualidade da atividade], seu [!DNL Target] a sessão deve expirar ou você deve ter [!DNL Target] liberar você do [!UICONTROL Controle de qualidade da atividade] antes de exibir seu site como um visitante típico.
 
-  Você também pode forçar a sua saída manualmente carregando uma página em seu site com o parâmetro `at_preview_token` com um valor vazio (por exemplo, `https://www.mysite.com/?at_preview_token=`).
+   * **at.js 2.*x***: se o site tiver a at.js 2.*x* implantado, use o [Bookmarklet de Controle de qualidade do Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do [!UICONTROL Controle de qualidade da atividade]. O carregamento de uma página em seu site com um valor vazio, conforme descrito no próximo marcador, não *não* remova o cookie de controle de qualidade do navegador quando a at.js 2.*x* é implantado.
+
+   * **at.js 1.*x***: se o site tiver o at.js 1.*x* implantado, além de usar o [Bookmarklet de Controle de qualidade do Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), você também pode forçar a sua saída manualmente carregando uma página em seu site com o `at_preview_token` parâmetro com um valor vazio (por exemplo, `https://www.mysite.com/?at_preview_token=`).
 
 * Se você tiver especificado &quot;URL é&quot; ao criar a atividade [refinamentos no Criador baseado em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [opções de entrega de página no Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), o URL de controle de qualidade não funciona porque [!UICONTROL Controle de qualidade da atividade] anexa parâmetros de URL. Para resolver esse problema, clique no URL do Controle de qualidade para acessar seu site, remover os parâmetros anexados do URL e, em seguida, carregar o novo URL.
 * Se você tiver o at.js 1.*x*, [!UICONTROL Controle de qualidade da atividade] O modo não é aderente se você usar o Safari ou outro navegador que bloqueie cookies de terceiros. Nesses casos, é necessário adicionar os parâmetros de visualização a cada URL para o qual você navega. O mesmo é verdadeiro se você tiver implementado o [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
