@@ -4,7 +4,7 @@ description: Saiba mais sobre os cálculos estatísticos usados no manual [!UICO
 title: Como posso saber mais sobre os cálculos estatísticos usados no [!UICONTROL Teste A/B] Atividades?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%
@@ -101,7 +101,7 @@ Esse cálculo usa o método &quot;Delta&quot; e é descrito [mais detalhes neste
 
 ## [!UICONTROL Confiança]
 
-A última coluna mostra a confiança em um [!DNL Target] relatório. A confiança de uma experiência é uma probabilidade (denotada como uma porcentagem) de obter um resultado menos extremo do que o observado, dada a hipótese nula ser verdadeira. Em termos de valores p, a confiança exibida é *1 - valor p*. Intuitivamente, maior confiança significa que é menos provável que a experiência de controle e não controle tenha taxas de conversão iguais.
+A última coluna mostra a confiança em um [!DNL Target] relatório. A confiança de uma experiência é uma probabilidade (denotada como uma porcentagem) de obter um resultado tão extremo quanto o observado, dada a hipótese nula ser verdadeira. Em termos de valores p, a confiança exibida é *1 - valor p*. Intuitivamente, maior confiança significa que é menos provável que a experiência de controle e não controle tenha taxas de conversão iguais.
 
 Entrada [!DNL Target], um bicaudal **Teste t de Welch** é realizada entre a experiência de teste e a experiência de controle para testar se os meios das experiências de teste e controle são os mesmos. Porque geralmente não sabemos se o tamanho e as variações das amostras de dois grupos são os mesmos antes de executar o experimento, e [!DNL Target] Além disso, para que porcentagens desiguais de tráfego sejam enviadas para cada experiência, não pressupomos que a variação de cada experiência seja igual. Assim, o teste t de Welch é escolhido em vez do teste t de Student.
 
