@@ -4,10 +4,10 @@ description: Saiba como gerenciar ofertas de código e imagem usando a bibliotec
 title: Como gerenciar ofertas de código e imagem?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 37%
+source-wordcount: '574'
+ht-degree: 36%
 
 ---
 
@@ -59,6 +59,11 @@ Use o [!UICONTROL Ofertas] biblioteca em [!DNL Adobe Target] para gerenciar a of
    * Copiar 
 
    Para obter informações detalhadas sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de ativos](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+   >[!NOTE]
+   >
+   >As ofertas de imagem não fazem parte da [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modelo.
+
 
 ## Exibição de definições de oferta {#section_6B059DD121434E6292CAB393507D010E}
 
