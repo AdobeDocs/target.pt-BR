@@ -5,9 +5,9 @@ title: Quais são os novos recursos e melhorias que serão incluídos na próxim
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Correção de um problema que, ocasionalmente, impedia a sincronização correta das atividades, como mostrado na &quot;[!UICONTROL Status]&quot;coluna na [!UICONTROL Atividade] página da lista. (TGT-46010 e TGT-44831)
-* Correção de um problema que, ocasionalmente, impedia que &quot;[!UICONTROL Exibir no Analytics]O link &quot; for exibido no [!UICONTROL Relatórios] página de atividades que usam [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-45808)
-* A apresentação de valores em tabelas foi ajustada para exibir como porcentagens em vez de números com decimais. Por exemplo, 8% em vez de 0,08. (TGT-45548)
-* Correção de um problema que impedia os clientes de usar o foco do teclado para mover para o próximo elemento na [!UICONTROL Metas e configurações] página para [!UICONTROL Direcionamento de experiência] (XT) Atividades. (TGT-44526)
-* Correção de um problema que causava perda de foco do teclado após abrir o &quot;[!UICONTROL Adicionar públicos]&quot; ao criar uma atividade. (TGT-44525)
+* Correção de um problema que, ocasionalmente, impedia a sincronização correta das atividades, como mostrado na coluna “[!UICONTROL Status]”, na página da lista de [!UICONTROL Atividades]. (TGT-46010 e TGT-44831)
+* Correção de um problema que, ocasionalmente, impedia que o link “[!UICONTROL Exibir no Analytics]” fosse visualizado na página de atividades [!UICONTROL Relatórios], que usa o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-45808)
+* Ajuste da apresentação de valores em tabelas para exibir como porcentagens, em vez de números com decimais. Por exemplo, 8% em vez de 0,08. (TGT-45548)
+* Correção de um problema que impedia clientes de usar o foco do teclado na movimentação para o próximo elemento na página [!UICONTROL Metas e configurações] em atividades de [!UICONTROL Direcionamento de experiência] (XT). (TGT-44526)
+* Correção de um problema que causava perda do foco do teclado após abrir a caixa de diálogo “[!UICONTROL Adicionar públicos]” ao criar uma atividade. (TGT-44525)
 
 ## Notas de versão adicionais e detalhes da versão
 
